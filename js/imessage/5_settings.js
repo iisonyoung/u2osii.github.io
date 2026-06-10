@@ -1,1 +1,3358 @@
-const _0x3f0940=_0x4e49;(function(_0x445ed9,_0x4d2a4b){const _0x404403=_0x4e49,_0x4ab6a5=_0x445ed9();while(!![]){try{const _0x58f771=parseInt(_0x404403(0x273))/0x1+-parseInt(_0x404403(0x264))/0x2+-parseInt(_0x404403(0x1c9))/0x3*(-parseInt(_0x404403(0x11c))/0x4)+parseInt(_0x404403(0x2a1))/0x5*(-parseInt(_0x404403(0x27f))/0x6)+-parseInt(_0x404403(0x126))/0x7*(-parseInt(_0x404403(0x1b5))/0x8)+parseInt(_0x404403(0x163))/0x9*(-parseInt(_0x404403(0x204))/0xa)+parseInt(_0x404403(0x24c))/0xb;if(_0x58f771===_0x4d2a4b)break;else _0x4ab6a5['push'](_0x4ab6a5['shift']());}catch(_0x1801f8){_0x4ab6a5['push'](_0x4ab6a5['shift']());}}}(_0x29e3,0xbcadd),document[_0x3f0940(0x361)]('DOMContentLoaded',()=>{const _0x5a842d=_0x3f0940,{openView:_0x1eb2b6,closeView:_0x5aa858,showToast:_0x2dc554,showCustomModal:_0x2d41af,userState:_0x5dd65a}=window,_0x4c3ba4=document[_0x5a842d(0x315)](_0x5a842d(0x2f2)),_0x38e64b=document[_0x5a842d(0x315)](_0x5a842d(0x123));window[_0x5a842d(0x127)][_0x5a842d(0x283)]=null;const _0x5c7848=document[_0x5a842d(0x315)](_0x5a842d(0x158)),_0xe7763c=document['getElementById'](_0x5a842d(0x115)),_0x3324f7=document[_0x5a842d(0x315)](_0x5a842d(0x1a9)),_0x91788e=document[_0x5a842d(0x315)](_0x5a842d(0x2e2)),_0x3d9489=document[_0x5a842d(0x315)](_0x5a842d(0x134)),_0x53522e=document[_0x5a842d(0x315)]('chat-bind-id-label'),_0x297c4e=document[_0x5a842d(0x315)]('bind-account-sheet'),_0x247702=document[_0x5a842d(0x315)](_0x5a842d(0x313)),_0x3358ff=document[_0x5a842d(0x315)](_0x5a842d(0x2e8)),_0x4313bf=document['getElementById']('confirm-bind-account-btn');let _0x36cacf=[],_0x137881=null;const _0x481ec8=document['getElementById'](_0x5a842d(0x1e5)),_0x329a87=document[_0x5a842d(0x315)](_0x5a842d(0x137)),_0x36b0fe=document[_0x5a842d(0x315)](_0x5a842d(0x1f7)),_0x535a98=document[_0x5a842d(0x315)](_0x5a842d(0x191)),_0x89b2d3=document['getElementById'](_0x5a842d(0x14f)),_0x9f1118=document[_0x5a842d(0x315)](_0x5a842d(0x2f1)),_0x28f8c7=document[_0x5a842d(0x315)](_0x5a842d(0x2c2)),_0x5c0b2d=document[_0x5a842d(0x315)]('confirm-relationship-btn'),_0x4d843d=document[_0x5a842d(0x315)](_0x5a842d(0x1fc));let _0x5f2112=[],_0x113b8c=![];async function _0x437618(_0x3bf950,_0x5d1986={}){const _0x5f48b1=_0x5a842d,_0x11ca2b=window[_0x5f48b1(0x127)][_0x5f48b1(0x283)];if(!_0x11ca2b)return![];return window[_0x5f48b1(0x26a)][_0x5f48b1(0x291)](_0x11ca2b,_0x3bf950,{'syncActive':![],'syncSettings':!![],'metaOnly':_0x5d1986[_0x5f48b1(0x32a)]!==![],..._0x5d1986});}async function _0xdffbe9(_0x4cfdba,_0x29025f,_0xedcdfd={}){const _0x59f6c4=_0x5a842d;if(!_0x4cfdba)return![];return window[_0x59f6c4(0x26a)]['commitScopedFriendChange'](_0x4cfdba,_0x29025f,{'syncActive':![],'syncSettings':!![],'metaOnly':_0xedcdfd[_0x59f6c4(0x32a)]!==![],..._0xedcdfd});}function _0x1ba54a(){return;}let _0x394b1a=0x1,_0x1a516a=0x0,_0x18ac66=0x0,_0x3f9e76=![],_0x4c2aaa=0x0,_0x359a6f=0x0,_0x3cf753=null,_0x9dacaa=0x1,_0x3dfcc1=null;function _0x1b1d82(_0x4a9218,_0x4b4833){const _0x501b47=_0x5a842d,_0x58b4d0=_0x5f2112['find'](_0x4d5128=>String(_0x4d5128[_0x501b47(0x20b)])===String(_0x4a9218)),_0x54aa90=_0x4b4833[_0x501b47(0xff)][_0x501b47(0x33e)][_0x501b47(0x1f2)](_0x5721cc=>String(_0x5721cc[_0x501b47(0x20b)])===String(_0x4a9218));if(_0x58b4d0)return _0x58b4d0[_0x501b47(0x286)]||'';return _0x54aa90?_0x54aa90[_0x501b47(0x286)]||'':'';}function _0x181986(){_0x394b1a=0x1,_0x1a516a=0x0,_0x18ac66=0x0;}function _0x12da80(_0x2560b0){const _0x5d775d=_0x5a842d;if(!_0x535a98||!_0x89b2d3)return;_0x2560b0['memory']=_0x2560b0[_0x5d775d(0xff)]||window[_0x5d775d(0x26a)][_0x5d775d(0x17e)]();!Array['isArray'](_0x2560b0[_0x5d775d(0xff)][_0x5d775d(0x33e)])&&(_0x2560b0[_0x5d775d(0xff)][_0x5d775d(0x33e)]=[]);const _0x2930c4=_0x5f2112;_0x535a98[_0x5d775d(0x172)]='',_0x89b2d3[_0x5d775d(0x172)]='',_0x89b2d3['style'][_0x5d775d(0x28a)]=_0x5d775d(0x187);if(_0x2930c4['length']===0x0){_0x535a98['style'][_0x5d775d(0x28a)]=_0x5d775d(0x187),_0x89b2d3[_0x5d775d(0x363)][_0x5d775d(0x28a)]=_0x5d775d(0x1b8),_0x89b2d3[_0x5d775d(0x172)]=_0x5d775d(0x321);return;}_0x535a98['style'][_0x5d775d(0x28a)]='flex',_0x2930c4[_0x5d775d(0x16a)](_0x160363=>{const _0x4e4d8c=_0x5d775d,_0xf5bed1=window[_0x4e4d8c(0x127)][_0x4e4d8c(0x326)]['find'](_0x47d23f=>_0x47d23f[_0x4e4d8c(0x255)]===_0x4e4d8c(0x130)&&String(_0x47d23f['id'])===String(_0x160363[_0x4e4d8c(0x20b)]));if(!_0xf5bed1)return;const _0x3e1e64=document['createElement'](_0x4e4d8c(0x2f4));_0x3e1e64[_0x4e4d8c(0x24e)]=_0x4e4d8c(0x365);const _0x26ad6c=_0xf5bed1[_0x4e4d8c(0x20e)]?_0x4e4d8c(0x13c)+_0xf5bed1[_0x4e4d8c(0x20e)]+'\x22\x20alt=\x22\x22>':_0x4e4d8c(0x143);_0x3e1e64[_0x4e4d8c(0x172)]=_0x4e4d8c(0x290)+_0x26ad6c+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-name\x22>'+_0xf5bed1[_0x4e4d8c(0x104)]+_0x4e4d8c(0x2cc)+(_0xf5bed1['realName']||_0xf5bed1[_0x4e4d8c(0x203)]||_0x4e4d8c(0x195))+_0x4e4d8c(0x141)+_0xf5bed1['id']+_0x4e4d8c(0x2bd)+(_0x160363[_0x4e4d8c(0x286)]||'')+_0x4e4d8c(0x10b);const _0x2c8c35=_0x3e1e64[_0x4e4d8c(0x2e7)](_0x4e4d8c(0x337));_0x2c8c35&&_0x2c8c35[_0x4e4d8c(0x361)](_0x4e4d8c(0x1bb),()=>{const _0x25f52f=_0x4e4d8c;_0x4a1b91(),_0x5f2112=_0x5f2112[_0x25f52f(0x216)](_0x43b3ab=>String(_0x43b3ab[_0x25f52f(0x20b)])!==String(_0xf5bed1['id'])),_0x535a98[_0x25f52f(0x172)]='',_0x12da80(_0x2560b0),_0x3603b3(_0x2560b0),_0x559a84(_0x2560b0);});const _0x5b3a6a=_0x3e1e64[_0x4e4d8c(0x2e7)](_0x4e4d8c(0x231));_0x5b3a6a&&_0x5b3a6a[_0x4e4d8c(0x361)](_0x4e4d8c(0x301),()=>{_0x4a1b91(),_0x3603b3(_0x2560b0);}),_0x535a98['appendChild'](_0x3e1e64);});}function _0x3603b3(_0x1a6c90){const _0x3e52f7=_0x5a842d,_0x4c9812=document[_0x3e52f7(0x315)](_0x3e52f7(0x261)),_0x565ca4=document['getElementById'](_0x3e52f7(0x2ff)),_0x2d8039=document['getElementById'](_0x3e52f7(0x240));if(!_0x4c9812||!_0x565ca4||!_0x2d8039)return;_0x565ca4[_0x3e52f7(0x2de)]=_0x4c9812['clientWidth'],_0x565ca4['height']=_0x4c9812[_0x3e52f7(0x15b)];const _0x24fee7=_0x565ca4[_0x3e52f7(0x16c)]('2d');_0x24fee7[_0x3e52f7(0x1ec)](0x0,0x0,_0x565ca4[_0x3e52f7(0x2de)],_0x565ca4[_0x3e52f7(0x340)]),_0x2d8039[_0x3e52f7(0x172)]='',_0x2d8039[_0x3e52f7(0x363)][_0x3e52f7(0x175)]=_0x3e52f7(0x29b)+_0x1a516a+_0x3e52f7(0x17a)+_0x18ac66+_0x3e52f7(0x22a)+_0x394b1a+')',_0x2d8039['style'][_0x3e52f7(0x262)]=_0x3e52f7(0x238);const _0x3e2601=_0x5f2112;if(_0x3e2601['length']===0x0){const _0x3bd967=_0x565ca4[_0x3e52f7(0x2de)]/0x2,_0x5d253d=_0x565ca4[_0x3e52f7(0x340)]/0x2,_0x5bd9dc=document['createElement'](_0x3e52f7(0x2f4));_0x5bd9dc['className']=_0x3e52f7(0x1e7),_0x5bd9dc[_0x3e52f7(0x363)][_0x3e52f7(0x30d)]=_0x3bd967-0x19+'px',_0x5bd9dc[_0x3e52f7(0x363)][_0x3e52f7(0x32f)]=_0x5d253d-0x19+'px';const _0x4c88ac=_0x1a6c90[_0x3e52f7(0x20e)]?_0x3e52f7(0x13c)+_0x1a6c90[_0x3e52f7(0x20e)]+'\x22>':_0x3e52f7(0x12f);_0x5bd9dc[_0x3e52f7(0x172)]=_0x4c88ac+_0x3e52f7(0x19b)+(_0x1a6c90[_0x3e52f7(0x104)]||_0x3e52f7(0x131))+_0x3e52f7(0x201),_0x2d8039[_0x3e52f7(0x2d2)](_0x5bd9dc);return;}const _0x5af033=_0x565ca4[_0x3e52f7(0x2de)]/0x2,_0x120700=_0x565ca4[_0x3e52f7(0x340)]/0x2,_0x26e417=document[_0x3e52f7(0x1b7)](_0x3e52f7(0x2f4));_0x26e417[_0x3e52f7(0x24e)]=_0x3e52f7(0x1e7),_0x26e417[_0x3e52f7(0x363)][_0x3e52f7(0x30d)]=_0x5af033-0x19+'px',_0x26e417[_0x3e52f7(0x363)]['top']=_0x120700-0x19+'px';const _0x12a39d=_0x1a6c90[_0x3e52f7(0x20e)]?_0x3e52f7(0x13c)+_0x1a6c90[_0x3e52f7(0x20e)]+'\x22>':_0x3e52f7(0x12f);_0x26e417[_0x3e52f7(0x172)]=_0x12a39d+_0x3e52f7(0x19b)+(_0x1a6c90[_0x3e52f7(0x104)]||'Char')+_0x3e52f7(0x201),_0x2d8039[_0x3e52f7(0x2d2)](_0x26e417);const _0x55f9b7=Math[_0x3e52f7(0x1e9)](0x48,Math[_0x3e52f7(0x276)](_0x565ca4[_0x3e52f7(0x2de)],_0x565ca4['height'])*0.34),_0x40049f=Math['PI']*0x2/_0x3e2601['length'];_0x24fee7[_0x3e52f7(0x176)](),_0x24fee7[_0x3e52f7(0x23a)](_0x1a516a,_0x18ac66),_0x24fee7[_0x3e52f7(0x2ab)](_0x394b1a,_0x394b1a),_0x24fee7[_0x3e52f7(0x2cb)]=_0x3e52f7(0x114),_0x24fee7[_0x3e52f7(0x35b)]=0x2,_0x3e2601[_0x3e52f7(0x16a)]((_0x4f0558,_0x2ed006)=>{const _0x4ef3ad=_0x3e52f7,_0x5092f9=window[_0x4ef3ad(0x127)][_0x4ef3ad(0x326)][_0x4ef3ad(0x1f2)](_0x3c161d=>String(_0x3c161d['id'])===String(_0x4f0558['npcId']));if(!_0x5092f9)return;if(_0x4f0558['offsetX']===undefined||_0x4f0558['offsetY']===undefined){const _0x4acc0f=_0x2ed006*_0x40049f-Math['PI']/0x2;_0x4f0558[_0x4ef3ad(0x1fe)]=_0x55f9b7*Math[_0x4ef3ad(0x2fd)](_0x4acc0f),_0x4f0558[_0x4ef3ad(0x304)]=_0x55f9b7*Math[_0x4ef3ad(0x20f)](_0x4acc0f);}const _0x5184ed=_0x5af033+_0x4f0558[_0x4ef3ad(0x1fe)],_0x34a93a=_0x120700+_0x4f0558[_0x4ef3ad(0x304)];_0x24fee7[_0x4ef3ad(0x314)](),_0x24fee7[_0x4ef3ad(0x316)](_0x5af033,_0x120700),_0x24fee7[_0x4ef3ad(0x274)](_0x5184ed,_0x34a93a),_0x24fee7[_0x4ef3ad(0x2c1)]();if(_0x4f0558[_0x4ef3ad(0x286)]){const _0x461009=_0x5af033+_0x4f0558[_0x4ef3ad(0x1fe)]*0.5,_0x1abd4c=_0x120700+_0x4f0558[_0x4ef3ad(0x304)]*0.5;_0x24fee7[_0x4ef3ad(0x2ae)]='11px\x20sans-serif';const _0x471cfb=_0x24fee7[_0x4ef3ad(0x19f)](_0x4f0558['relation']),_0x381d7e=_0x471cfb[_0x4ef3ad(0x2de)],_0x1006a3=0x12;let _0x2fa043=Math['atan2'](_0x4f0558[_0x4ef3ad(0x304)],_0x4f0558['offsetX']);(_0x2fa043>Math['PI']/0x2||_0x2fa043<-Math['PI']/0x2)&&(_0x2fa043+=Math['PI']),_0x24fee7[_0x4ef3ad(0x176)](),_0x24fee7[_0x4ef3ad(0x23a)](_0x461009,_0x1abd4c),_0x24fee7[_0x4ef3ad(0x2af)](_0x2fa043),_0x24fee7[_0x4ef3ad(0x1e8)]='rgba(255,\x20255,\x20255,\x200.94)',_0x24fee7[_0x4ef3ad(0x314)](),_0x24fee7[_0x4ef3ad(0x1f6)](-_0x381d7e/0x2-0x7,-_0x1006a3/0x2,_0x381d7e+0xe,_0x1006a3,0x8),_0x24fee7['fill'](),_0x24fee7[_0x4ef3ad(0x1e8)]=_0x4ef3ad(0x2a8),_0x24fee7[_0x4ef3ad(0x33b)]=_0x4ef3ad(0x257),_0x24fee7['textBaseline']=_0x4ef3ad(0x19e),_0x24fee7[_0x4ef3ad(0x21b)](_0x4f0558[_0x4ef3ad(0x286)],0x0,0x0),_0x24fee7[_0x4ef3ad(0x156)]();}const _0x7e8e4f=document[_0x4ef3ad(0x1b7)](_0x4ef3ad(0x2f4));_0x7e8e4f['className']='relationship-node',_0x7e8e4f[_0x4ef3ad(0x363)][_0x4ef3ad(0x30d)]=_0x5184ed-0x14+'px',_0x7e8e4f[_0x4ef3ad(0x363)][_0x4ef3ad(0x32f)]=_0x34a93a-0x14+'px',_0x7e8e4f['style'][_0x4ef3ad(0x22d)]=_0x4ef3ad(0x10f);const _0x441524=_0x5092f9[_0x4ef3ad(0x20e)]?_0x4ef3ad(0x13c)+_0x5092f9[_0x4ef3ad(0x20e)]+'\x22>':_0x4ef3ad(0x143);_0x7e8e4f[_0x4ef3ad(0x172)]=_0x441524+_0x4ef3ad(0x19b)+(_0x5092f9[_0x4ef3ad(0x104)]||_0x4ef3ad(0x195))+_0x4ef3ad(0x201);const _0x5e99af=_0x22a9c2=>{const _0x185836=_0x4ef3ad;_0x22a9c2['stopPropagation'](),_0x3dfcc1=_0x4f0558[_0x185836(0x20b)],_0x3f9e76=![];const _0x263278=_0x22a9c2['touches']?_0x22a9c2[_0x185836(0x144)][0x0][_0x185836(0x1e1)]:_0x22a9c2[_0x185836(0x1e1)],_0x1b7e40=_0x22a9c2[_0x185836(0x144)]?_0x22a9c2[_0x185836(0x144)][0x0][_0x185836(0x122)]:_0x22a9c2[_0x185836(0x122)];_0x4c2aaa=_0x263278,_0x359a6f=_0x1b7e40;};_0x7e8e4f[_0x4ef3ad(0x361)]('mousedown',_0x5e99af),_0x7e8e4f[_0x4ef3ad(0x361)](_0x4ef3ad(0x1d2),_0x5e99af,{'passive':![]}),_0x2d8039[_0x4ef3ad(0x2d2)](_0x7e8e4f);}),_0x24fee7[_0x3e52f7(0x156)]();}function _0x113bf0(){const _0x18d7cd=_0x5a842d,_0x497a62=document[_0x18d7cd(0x315)]('relationship-preview-area');if(!_0x497a62)return;if(_0x497a62['dataset'][_0x18d7cd(0x1e4)]===_0x18d7cd(0x2bb))return;_0x497a62[_0x18d7cd(0x199)][_0x18d7cd(0x1e4)]=_0x18d7cd(0x2bb),_0x497a62['addEventListener'](_0x18d7cd(0x14e),_0x1cd119=>{const _0x1b55e9=_0x18d7cd;_0x1cd119[_0x1b55e9(0x2b4)]();const _0x59bd00=_0x1cd119['deltaY']>0x0?0.9:1.1,_0x4d7381=Math[_0x1b55e9(0x276)](Math[_0x1b55e9(0x1e9)](0.5,_0x394b1a*_0x59bd00),0x3),_0x4177ff=_0x497a62[_0x1b55e9(0x32e)](),_0x2ed81e=_0x1cd119[_0x1b55e9(0x1e1)]-_0x4177ff[_0x1b55e9(0x30d)],_0x3bb5a8=_0x1cd119[_0x1b55e9(0x122)]-_0x4177ff['top'];_0x1a516a=_0x2ed81e-(_0x2ed81e-_0x1a516a)*(_0x4d7381/_0x394b1a),_0x18ac66=_0x3bb5a8-(_0x3bb5a8-_0x18ac66)*(_0x4d7381/_0x394b1a),_0x394b1a=_0x4d7381,window[_0x1b55e9(0x127)]['currentSettingsFriend']&&_0x3603b3(window[_0x1b55e9(0x127)][_0x1b55e9(0x283)]);},{'passive':![]}),_0x497a62['addEventListener']('mousedown',_0x37106c=>{const _0x2f0b4d=_0x18d7cd;!_0x3dfcc1&&(_0x3f9e76=!![],_0x4c2aaa=_0x37106c[_0x2f0b4d(0x1e1)]-_0x1a516a,_0x359a6f=_0x37106c['clientY']-_0x18ac66,_0x497a62[_0x2f0b4d(0x363)][_0x2f0b4d(0x22d)]=_0x2f0b4d(0x153));}),window[_0x18d7cd(0x361)]('mousemove',_0x3398f3=>{const _0x35eda5=_0x18d7cd;if(_0x3dfcc1){const _0x178736=(_0x3398f3['clientX']-_0x4c2aaa)/_0x394b1a,_0x2c2c86=(_0x3398f3[_0x35eda5(0x122)]-_0x359a6f)/_0x394b1a,_0x30a3f8=_0x5f2112[_0x35eda5(0x1f2)](_0x38376e=>_0x38376e[_0x35eda5(0x20b)]===_0x3dfcc1);_0x30a3f8&&(_0x30a3f8[_0x35eda5(0x1fe)]+=_0x178736,_0x30a3f8[_0x35eda5(0x304)]+=_0x2c2c86,window[_0x35eda5(0x127)][_0x35eda5(0x283)]&&_0x3603b3(window[_0x35eda5(0x127)][_0x35eda5(0x283)]));_0x4c2aaa=_0x3398f3[_0x35eda5(0x1e1)],_0x359a6f=_0x3398f3[_0x35eda5(0x122)];return;}if(!_0x3f9e76)return;_0x1a516a=_0x3398f3[_0x35eda5(0x1e1)]-_0x4c2aaa,_0x18ac66=_0x3398f3['clientY']-_0x359a6f,window[_0x35eda5(0x127)]['currentSettingsFriend']&&_0x3603b3(window['imData'][_0x35eda5(0x283)]);}),window[_0x18d7cd(0x361)](_0x18d7cd(0x297),()=>{const _0x441ffa=_0x18d7cd;_0x3f9e76=![],_0x3dfcc1=null,_0x497a62[_0x441ffa(0x363)][_0x441ffa(0x22d)]=_0x441ffa(0x2ed);}),_0x497a62[_0x18d7cd(0x361)](_0x18d7cd(0x1d2),_0x5040b2=>{const _0x4b0175=_0x18d7cd;if(_0x5040b2[_0x4b0175(0x144)]['length']===0x1&&!_0x3dfcc1)_0x3f9e76=!![],_0x4c2aaa=_0x5040b2[_0x4b0175(0x144)][0x0]['clientX']-_0x1a516a,_0x359a6f=_0x5040b2['touches'][0x0][_0x4b0175(0x122)]-_0x18ac66;else _0x5040b2[_0x4b0175(0x144)][_0x4b0175(0xfd)]===0x2&&(_0x3f9e76=![],_0x3dfcc1=null,_0x3cf753=Math['hypot'](_0x5040b2[_0x4b0175(0x144)][0x0][_0x4b0175(0x1e1)]-_0x5040b2[_0x4b0175(0x144)][0x1][_0x4b0175(0x1e1)],_0x5040b2[_0x4b0175(0x144)][0x0][_0x4b0175(0x122)]-_0x5040b2[_0x4b0175(0x144)][0x1][_0x4b0175(0x122)]),_0x9dacaa=_0x394b1a);},{'passive':![]}),_0x497a62[_0x18d7cd(0x361)](_0x18d7cd(0x15d),_0x195d48=>{const _0xceacd1=_0x18d7cd;if(_0x195d48[_0xceacd1(0x144)]['length']===0x1&&_0x3dfcc1){_0x195d48[_0xceacd1(0x2b4)]();const _0x55041f=(_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x1e1)]-_0x4c2aaa)/_0x394b1a,_0x345249=(_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x122)]-_0x359a6f)/_0x394b1a,_0x5bd62e=_0x5f2112[_0xceacd1(0x1f2)](_0x133885=>_0x133885[_0xceacd1(0x20b)]===_0x3dfcc1);_0x5bd62e&&(_0x5bd62e[_0xceacd1(0x1fe)]+=_0x55041f,_0x5bd62e['offsetY']+=_0x345249,window[_0xceacd1(0x127)][_0xceacd1(0x283)]&&_0x3603b3(window[_0xceacd1(0x127)][_0xceacd1(0x283)]));_0x4c2aaa=_0x195d48['touches'][0x0][_0xceacd1(0x1e1)],_0x359a6f=_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x122)];return;}else{if(_0x195d48[_0xceacd1(0x144)][_0xceacd1(0xfd)]===0x1&&_0x3f9e76)_0x195d48[_0xceacd1(0x2b4)](),_0x1a516a=_0x195d48['touches'][0x0][_0xceacd1(0x1e1)]-_0x4c2aaa,_0x18ac66=_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x122)]-_0x359a6f,window['imData'][_0xceacd1(0x283)]&&_0x3603b3(window[_0xceacd1(0x127)][_0xceacd1(0x283)]);else{if(_0x195d48[_0xceacd1(0x144)][_0xceacd1(0xfd)]===0x2&&_0x3cf753){_0x195d48[_0xceacd1(0x2b4)]();const _0x3775aa=Math['hypot'](_0x195d48['touches'][0x0][_0xceacd1(0x1e1)]-_0x195d48['touches'][0x1][_0xceacd1(0x1e1)],_0x195d48['touches'][0x0]['clientY']-_0x195d48[_0xceacd1(0x144)][0x1]['clientY']),_0x4fcd7f=Math[_0xceacd1(0x276)](Math[_0xceacd1(0x1e9)](0.5,_0x9dacaa*(_0x3775aa/_0x3cf753)),0x3),_0x5ce928=(_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x1e1)]+_0x195d48[_0xceacd1(0x144)][0x1][_0xceacd1(0x1e1)])/0x2,_0x45bb9e=(_0x195d48[_0xceacd1(0x144)][0x0][_0xceacd1(0x122)]+_0x195d48[_0xceacd1(0x144)][0x1][_0xceacd1(0x122)])/0x2,_0x5818e2=_0x497a62['getBoundingClientRect'](),_0x2adf86=_0x5ce928-_0x5818e2[_0xceacd1(0x30d)],_0x510563=_0x45bb9e-_0x5818e2[_0xceacd1(0x32f)];_0x1a516a=_0x2adf86-(_0x2adf86-_0x1a516a)*(_0x4fcd7f/_0x394b1a),_0x18ac66=_0x510563-(_0x510563-_0x18ac66)*(_0x4fcd7f/_0x394b1a),_0x394b1a=_0x4fcd7f,window[_0xceacd1(0x127)][_0xceacd1(0x283)]&&_0x3603b3(window[_0xceacd1(0x127)][_0xceacd1(0x283)]);}}}},{'passive':![]}),_0x497a62[_0x18d7cd(0x361)](_0x18d7cd(0x344),_0x4196ac=>{const _0x1e9ffa=_0x18d7cd;_0x4196ac[_0x1e9ffa(0x144)]['length']===0x0&&(_0x3f9e76=![],_0x3dfcc1=null);}),_0x497a62[_0x18d7cd(0x363)][_0x18d7cd(0x22d)]='grab';}function _0x559a84(_0x186a0a){const _0x483561=_0x5a842d;if(!_0x9f1118||!_0x28f8c7)return;const _0x35e017=window[_0x483561(0x127)][_0x483561(0x326)][_0x483561(0x216)](_0x4006d0=>_0x4006d0[_0x483561(0x255)]===_0x483561(0x130)),_0x15bfc2=new Set((_0x5f2112['length']>0x0?_0x5f2112:_0x186a0a[_0x483561(0xff)][_0x483561(0x33e)])[_0x483561(0x174)](_0x2b02fc=>String(_0x2b02fc[_0x483561(0x20b)])));_0x28f8c7['innerHTML']='';const _0x1bbc52=_0x35e017[_0x483561(0x216)](_0x52f80c=>!_0x15bfc2[_0x483561(0x1d4)](String(_0x52f80c['id'])));if(!_0x113b8c){_0x9f1118[_0x483561(0x363)][_0x483561(0x28a)]=_0x483561(0x187);return;}_0x9f1118[_0x483561(0x363)][_0x483561(0x28a)]=_0x483561(0x1b8);if(_0x1bbc52[_0x483561(0xfd)]===0x0){_0x28f8c7[_0x483561(0x172)]=_0x483561(0x15f);return;}_0x1bbc52[_0x483561(0x16a)](_0x195ced=>{const _0x5b1e1d=_0x483561,_0x640253=document['createElement'](_0x5b1e1d(0x2f4));_0x640253[_0x5b1e1d(0x24e)]=_0x5b1e1d(0x365),_0x640253['style'][_0x5b1e1d(0x22d)]=_0x5b1e1d(0x10f);const _0x5ca273=_0x195ced['avatarUrl']?_0x5b1e1d(0x13c)+_0x195ced['avatarUrl']+_0x5b1e1d(0x300):_0x5b1e1d(0x143);_0x640253[_0x5b1e1d(0x172)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-avatar\x22>'+_0x5ca273+_0x5b1e1d(0x18f)+_0x195ced[_0x5b1e1d(0x104)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-desc\x22>'+(_0x195ced[_0x5b1e1d(0x11b)]||_0x195ced['signature']||_0x5b1e1d(0x195))+_0x5b1e1d(0x219),_0x640253[_0x5b1e1d(0x361)](_0x5b1e1d(0x1bb),()=>{const _0x2f884d=_0x5b1e1d;_0x4a1b91(),!_0x5f2112[_0x2f884d(0x18d)](_0x145e7c=>String(_0x145e7c[_0x2f884d(0x20b)])===String(_0x195ced['id']))&&_0x5f2112['push']({'npcId':String(_0x195ced['id']),'relation':_0x1b1d82(_0x195ced['id'],_0x186a0a)}),_0x113b8c=![],_0x12da80(_0x186a0a),_0x559a84(_0x186a0a),_0x2dc554(_0x2f884d(0x214)+_0x195ced[_0x2f884d(0x104)]);}),_0x28f8c7[_0x5b1e1d(0x2d2)](_0x640253);});}function _0x1b3f15(_0x160640){const _0x38a533=_0x5a842d;if(!_0x535a98||!_0x89b2d3)return;_0x160640['memory']=_0x160640[_0x38a533(0xff)]||window['imApp']['createDefaultMemory'](),!Array[_0x38a533(0x298)](_0x160640[_0x38a533(0xff)][_0x38a533(0x33e)])&&(_0x160640['memory'][_0x38a533(0x33e)]=[]),_0x329a87&&_0x329a87[_0x38a533(0x363)][_0x38a533(0x28a)]===_0x38a533(0x187)&&_0x5f2112[_0x38a533(0xfd)]===0x0&&(_0x5f2112=_0x160640['memory'][_0x38a533(0x33e)][_0x38a533(0x174)](_0x4749e0=>({'npcId':String(_0x4749e0[_0x38a533(0x20b)]),'relation':_0x4749e0[_0x38a533(0x286)]||'','offsetX':_0x4749e0[_0x38a533(0x1fe)],'offsetY':_0x4749e0[_0x38a533(0x304)]}))),_0x181986(),_0x113bf0(),_0x12da80(_0x160640),_0x559a84(_0x160640),setTimeout(()=>_0x3603b3(_0x160640),0x96);}function _0x4a1b91(){const _0x52b28e=_0x5a842d;if(!_0x535a98)return;const _0xd8aa5d=_0x535a98['querySelectorAll'](_0x52b28e(0x231)),_0x25d85c=Array[_0x52b28e(0x147)](_0xd8aa5d)[_0x52b28e(0x174)](_0x2e0be2=>{const _0x1c2d76=_0x52b28e,_0x592044=_0x2e0be2[_0x1c2d76(0x1a0)](_0x1c2d76(0x12e)),_0x2dc222=_0x5f2112[_0x1c2d76(0x1f2)](_0x1ea9aa=>_0x1ea9aa[_0x1c2d76(0x20b)]===_0x592044);return{'npcId':_0x592044,'relation':_0x2e0be2[_0x1c2d76(0x30e)][_0x1c2d76(0x2a4)](),'offsetX':_0x2dc222?_0x2dc222['offsetX']:undefined,'offsetY':_0x2dc222?_0x2dc222[_0x1c2d76(0x304)]:undefined};}),_0x35bad3=new Set(_0x25d85c[_0x52b28e(0x174)](_0x34caef=>String(_0x34caef[_0x52b28e(0x20b)]))),_0x468de1=_0x5f2112['filter'](_0x3f458d=>!_0x35bad3['has'](String(_0x3f458d['npcId'])));_0x5f2112=[..._0x25d85c,..._0x468de1];}function _0xb1bab7(){const _0x366616=_0x5a842d;return typeof window['getAccounts']===_0x366616(0x118)?window['getAccounts']():[];}function _0x2f4825(_0x195d65){const _0x270815=_0x5a842d;if(!_0x195d65||!_0x195d65[_0x270815(0x139)])return null;const _0x3ca68e=_0xb1bab7();return _0x3ca68e[_0x270815(0x1f2)](_0x409623=>String(_0x409623['id'])===String(_0x195d65[_0x270815(0x139)]))||null;}function _0x55c592(_0x55f75f){const _0xf1dd89=_0x5a842d,_0x54be55=_0x2f4825(_0x55f75f);if(!_0x54be55)return _0x5dd65a[_0xf1dd89(0x2e1)]||'';return _0x54be55[_0xf1dd89(0x203)]||_0x54be55['persona']||'';}function _0x2f6dd3(_0x2066e8){const _0x5dec19=_0x5a842d,_0x4a7e2b=Array[_0x5dec19(0x298)](window['imData']?.[_0x5dec19(0x326)])?window['imData']['friends']:[];return _0x4a7e2b[_0x5dec19(0x216)](_0x2d4e62=>_0x2d4e62&&_0x2d4e62[_0x5dec19(0x255)]!==_0x5dec19(0x23e)&&String(_0x2d4e62['boundAccountId']||'')===String(_0x2066e8));}function _0x344d7d(_0x50f405){const _0x26b008=_0x5a842d;if(!_0x53522e)return;const _0x3e8fbf=_0x2f4825(_0x50f405);_0x53522e[_0x26b008(0x243)]=_0x3e8fbf?_0x3e8fbf[_0x26b008(0x107)]||_0x26b008(0x1a8):'';}function _0x49ab76(_0x3acea3){const _0x334e28=_0x5a842d;if(!_0x247702||!_0x3358ff)return;const _0x21a69e=_0xb1bab7();_0x247702[_0x334e28(0x172)]='';const _0x37588d=[{'id':null,'name':_0x334e28(0x1a1),'phone':'恢复为当前\x20Apple\x20ID\x20默认人设','persona':''},..._0x21a69e];if(_0x37588d[_0x334e28(0xfd)]===0x1){_0x247702[_0x334e28(0x363)][_0x334e28(0x28a)]=_0x334e28(0x187),_0x3358ff['style'][_0x334e28(0x28a)]=_0x334e28(0x1b8);return;}_0x247702['style'][_0x334e28(0x28a)]=_0x334e28(0x1ab),_0x3358ff[_0x334e28(0x363)]['display']=_0x334e28(0x187),_0x37588d[_0x334e28(0x16a)](_0x2974f7=>{const _0x3a1a31=_0x334e28,_0x5379b8=String(_0x137881||'')===String(_0x2974f7['id']||''),_0x35a438=_0x2974f7['id']==null?'聊天时将继续读取当前\x20Apple\x20ID\x20人设':_0x2974f7[_0x3a1a31(0x203)]||_0x2974f7[_0x3a1a31(0x2e1)]||_0x3a1a31(0x2f0),_0x2b641d=document[_0x3a1a31(0x1b7)](_0x3a1a31(0x2f4));_0x2b641d[_0x3a1a31(0x24e)]=_0x3a1a31(0x15a),_0x2b641d[_0x3a1a31(0x363)][_0x3a1a31(0x145)]='10px\x2014px',_0x2b641d[_0x3a1a31(0x363)]['height']=_0x3a1a31(0x1cc),_0x2b641d['style'][_0x3a1a31(0x22d)]='pointer',_0x2b641d[_0x3a1a31(0x363)][_0x3a1a31(0x230)]=_0x3a1a31(0x32d),_0x2b641d[_0x3a1a31(0x363)][_0x3a1a31(0x24d)]=_0x5379b8?_0x3a1a31(0x200):_0x3a1a31(0x1c1),_0x2b641d[_0x3a1a31(0x363)]['boxShadow']='0\x201px\x206px\x20rgba(0,0,0,0.04)',_0x2b641d[_0x3a1a31(0x363)][_0x3a1a31(0x1fd)]='#fff',_0x2b641d[_0x3a1a31(0x172)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:10px;\x20width:100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:10px;\x20flex:1;\x20min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:34px;\x20height:34px;\x20border-radius:999px;\x20background:'+(_0x2974f7['id']==null?_0x3a1a31(0x1a4):_0x3a1a31(0x2ad))+';\x20color:#fff;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20font-size:14px;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20'+(_0x2974f7['id']==null?_0x3a1a31(0x1ad):_0x3a1a31(0x356))+_0x3a1a31(0x150)+(_0x2974f7[_0x3a1a31(0x107)]||_0x3a1a31(0x14c))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:11px;\x20color:#8e8e93;\x20margin-top:2px;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>'+(_0x2974f7[_0x3a1a31(0x222)]||_0x35a438)+_0x3a1a31(0x239)+_0x35a438+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-left:auto;\x20width:20px;\x20height:20px;\x20border-radius:50%;\x20border:1px\x20solid\x20'+(_0x5379b8?_0x3a1a31(0x1b3):_0x3a1a31(0x2a7))+_0x3a1a31(0x1e3)+(_0x5379b8?_0x3a1a31(0x1b3):_0x3a1a31(0x334))+_0x3a1a31(0x331)+(_0x5379b8?_0x3a1a31(0x31e):'')+_0x3a1a31(0x16d),_0x2b641d[_0x3a1a31(0x361)](_0x3a1a31(0x1bb),()=>{_0x137881=_0x2974f7['id']==null?null:_0x2974f7['id'],_0x49ab76(_0x3acea3);}),_0x247702[_0x3a1a31(0x2d2)](_0x2b641d);});}function _0x3a3aad(_0x24e2b2){const _0x1f65bf=_0x5a842d,_0x5668fd=document[_0x1f65bf(0x323)](_0x1f65bf(0x2e9)),_0x494d02=document[_0x1f65bf(0x323)](_0x1f65bf(0x358));_0x5668fd[_0x1f65bf(0x16a)](_0x38eb29=>{const _0x583470=_0x1f65bf;_0x38eb29[_0x583470(0x13e)][_0x583470(0x252)](_0x583470(0x18e),_0x38eb29[_0x583470(0x1a0)]('data-tab')===_0x24e2b2);}),_0x494d02['forEach'](_0x27e82e=>{const _0x1c26bb=_0x1f65bf,_0x1cc3ff=_0x27e82e['id']==='chat-settings-'+_0x24e2b2+'-panel';_0x27e82e['classList']['toggle'](_0x1c26bb(0x18e),_0x1cc3ff);if(_0x1cc3ff)_0x27e82e[_0x1c26bb(0x117)]=0x0;}),_0x24e2b2===_0x1f65bf(0xff)&&window['imData'][_0x1f65bf(0x283)]&&_0x128ed2(window[_0x1f65bf(0x127)]['currentSettingsFriend']);}function _0x128ed2(_0x114939){const _0x2680c4=_0x5a842d,_0x212983=document[_0x2680c4(0x315)](_0x2680c4(0x2fb));if(!_0x212983)return;const _0x76172=window['imApp']['normalizeFriendData'](_0x114939),_0x59b711=_0x76172[_0x2680c4(0xff)]||window['imApp'][_0x2680c4(0x17e)](),_0x1386bf=Array['isArray'](_0x76172[_0x2680c4(0x1dd)])?_0x76172[_0x2680c4(0x1dd)]['length']:0x0;let _0x303881=0x0,_0x4f324a=0x0;if(window['getGlobalWorldBookContext']){const _0x5119f8=window[_0x2680c4(0x197)]();_0x4f324a+=(_0x5119f8||'')[_0x2680c4(0xfd)];}_0x4f324a+=(_0x76172[_0x2680c4(0x2e1)]||'')[_0x2680c4(0xfd)],_0x4f324a+=(_0x5dd65a?.[_0x2680c4(0x2e1)]||'')[_0x2680c4(0xfd)],_0x4f324a+=(_0x59b711['overview']||'')['length'],_0x4f324a+=(_0x59b711['longTerm']||'')[_0x2680c4(0xfd)],_0x4f324a+=(_0x59b711['cherished']||'')[_0x2680c4(0xfd)],_0x4f324a+=(_0x59b711[_0x2680c4(0x29f)]?.[_0x2680c4(0x1b2)]||'')['length'];Array[_0x2680c4(0x298)](_0x59b711[_0x2680c4(0x33e)])&&(_0x4f324a+=_0x59b711[_0x2680c4(0x33e)][_0x2680c4(0x1d6)]((_0x458f14,_0x5110df)=>_0x458f14+(_0x5110df[_0x2680c4(0x286)]||'')[_0x2680c4(0xfd)],0x0));_0x4f324a+=0x320;let _0x319cf8=0x0;if(window['imApp'][_0x2680c4(0x338)]){const _0x36999b=window['imApp'][_0x2680c4(0x338)](_0x76172);Array['isArray'](_0x36999b)&&(_0x319cf8=_0x36999b[_0x2680c4(0x1d6)]((_0xb623ef,_0x4c8642)=>_0xb623ef+(_0x4c8642[_0x2680c4(0x10d)]||'')[_0x2680c4(0xfd)],0x0));}_0x303881=_0x4f324a+_0x319cf8;let _0x13ec2e=Date[_0x2680c4(0x357)](),_0x540eda=Date['now']();_0x1386bf>0x0&&(_0x13ec2e=_0x76172[_0x2680c4(0x1dd)][0x0][_0x2680c4(0x302)]||Date[_0x2680c4(0x357)](),_0x540eda=_0x76172[_0x2680c4(0x1dd)][_0x1386bf-0x1]['timestamp']||Date[_0x2680c4(0x357)]());const _0x489604=Math[_0x2680c4(0x1e9)](0x1,Math['ceil']((Date['now']()-_0x13ec2e)/(0x3e8*0x3c*0x3c*0x18))),_0x876ad8=window[_0x2680c4(0x26a)][_0x2680c4(0x285)]?window[_0x2680c4(0x26a)][_0x2680c4(0x285)](_0x540eda):new Date(_0x540eda)['toLocaleString']();_0x212983[_0x2680c4(0x172)]=_0x2680c4(0x2d7)+_0x1386bf+_0x2680c4(0x328)+_0x489604+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>总Token估算</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>'+_0x303881+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>最后聊天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20700;\x20color:\x20#111;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20white-space:\x20nowrap;\x22>'+(_0x1386bf>0x0?_0x876ad8:'无')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x412e7d(){const _0x3794f9=_0x5a842d,_0x5e11b3=document[_0x3794f9(0x315)]('chat-settings-memory-panel');if(!_0x5e11b3)return null;let _0x100a1f=document[_0x3794f9(0x315)](_0x3794f9(0x2c4));if(!_0x100a1f){_0x100a1f=document[_0x3794f9(0x1b7)](_0x3794f9(0x2f4)),_0x100a1f['id']=_0x3794f9(0x2c4),_0x100a1f['className']=_0x3794f9(0x2c4),_0x100a1f[_0x3794f9(0x363)][_0x3794f9(0x28a)]=_0x3794f9(0x187),_0x100a1f[_0x3794f9(0x172)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-modal-close\x22\x20aria-label=\x22关闭\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-modal-label\x22\x20class=\x22chat-memory-modal-label\x22>记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-modal-title\x22\x20class=\x22chat-memory-modal-title\x22>记忆内容</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-modal-subtitle\x22\x20class=\x22chat-memory-modal-subtitle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-modal-content\x22\x20class=\x22chat-memory-modal-content\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x5e11b3['appendChild'](_0x100a1f),_0x100a1f['addEventListener'](_0x3794f9(0x1bb),_0x1c2a0c=>{const _0x50ab8b=_0x3794f9;_0x1c2a0c[_0x50ab8b(0x136)]===_0x100a1f&&_0x3d2608();});const _0x526d8e=_0x100a1f[_0x3794f9(0x2e7)](_0x3794f9(0x1a5));_0x526d8e&&_0x526d8e[_0x3794f9(0x361)](_0x3794f9(0x1bb),_0x200854=>{const _0x3dad09=_0x3794f9;_0x200854[_0x3dad09(0x2c5)](),_0x3d2608();});}return{'overlay':_0x100a1f,'labelEl':document['getElementById'](_0x3794f9(0x2fc)),'titleEl':document[_0x3794f9(0x315)](_0x3794f9(0x32b)),'subtitleEl':document[_0x3794f9(0x315)](_0x3794f9(0x23d)),'contentEl':document['getElementById']('chat-memory-modal-content')};}function _0x3d2608(){const _0x3428c7=_0x5a842d,_0x1e14b6=document['getElementById'](_0x3428c7(0x2c4));if(!_0x1e14b6)return;_0x1e14b6['classList']['remove']('active'),setTimeout(()=>{const _0x458745=_0x3428c7;!_0x1e14b6[_0x458745(0x13e)][_0x458745(0x184)](_0x458745(0x18e))&&(_0x1e14b6[_0x458745(0x363)][_0x458745(0x28a)]=_0x458745(0x187));},0xdc);}function _0x217445(_0x276517,_0x5e8339,_0xcd533b){const _0x1982e9=_0x5a842d,_0xd7af9d=String(_0x5e8339||'')[_0x1982e9(0x2a4)]();if(!_0xd7af9d)return'<div\x20class=\x22chat-memory-modal-empty\x22>'+_0xcd533b+_0x1982e9(0x201);return _0x1982e9(0x2ef)+_0xd7af9d+_0x1982e9(0x2ce);}function _0x4c31af(_0x5af417,_0x3f7687){const _0x13d5c5=_0x5a842d,_0x78921e=_0x412e7d();if(!_0x78921e||!_0x3f7687)return;const _0x261143=window[_0x13d5c5(0x26a)][_0x13d5c5(0x278)](_0x3f7687),_0x2aaf84=_0x261143[_0x13d5c5(0xff)]||window[_0x13d5c5(0x26a)]['createDefaultMemory'](),_0x17ef90={'schedule':{'label':_0x13d5c5(0x2e0),'title':_0x13d5c5(0x2e4)},'overview':{'label':_0x13d5c5(0x2e0),'title':'总览','subtitle':'记录整体印象、关系概括与近期变化','emptyText':_0x13d5c5(0x166)},'longterm':{'label':_0x13d5c5(0x2e0),'title':_0x13d5c5(0x1bf),'subtitle':_0x13d5c5(0x35d),'emptyText':_0x13d5c5(0x2c8)},'cherished':{'label':_0x13d5c5(0x2e0),'title':_0x13d5c5(0x106),'subtitle':_0x13d5c5(0x362),'emptyText':_0x13d5c5(0x310)}},_0x506dcb=_0x17ef90[_0x5af417]||_0x17ef90['overview'];_0x78921e[_0x13d5c5(0x2b5)]['textContent']=_0x506dcb[_0x13d5c5(0x218)],_0x78921e[_0x13d5c5(0x251)][_0x13d5c5(0x243)]=_0x506dcb[_0x13d5c5(0x167)],_0x78921e[_0x13d5c5(0x1c2)][_0x13d5c5(0x243)]=_0x506dcb['subtitle']||'',_0x78921e[_0x13d5c5(0x1c2)][_0x13d5c5(0x363)]['display']=_0x506dcb['subtitle']?_0x13d5c5(0x1b8):_0x13d5c5(0x187);if(_0x5af417===_0x13d5c5(0x2f3))_0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x172)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-text-block\x22>作息时间设置请直接在面板开关调整。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';else{if(_0x5af417===_0x13d5c5(0x21f)){const _0x26c68e=Array[_0x13d5c5(0x298)](_0x2aaf84[_0x13d5c5(0x10a)])?_0x2aaf84[_0x13d5c5(0x10a)]:[];if(_0x26c68e[_0x13d5c5(0xfd)]>0x0){_0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x172)]=_0x13d5c5(0x2aa)+_0x26c68e[_0x13d5c5(0x174)](_0x1d9ce9=>_0x13d5c5(0x109)+_0x1d9ce9['id']+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-title\x22>'+(_0x1d9ce9[_0x13d5c5(0x167)]||_0x13d5c5(0x106))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-time\x22>'+(_0x1d9ce9[_0x13d5c5(0x279)]||_0x13d5c5(0x227))+_0x13d5c5(0x1be))[_0x13d5c5(0x228)]('')+_0x13d5c5(0x296);const _0xd234a8=_0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x323)](_0x13d5c5(0x245));_0xd234a8['forEach'](_0x36fed0=>{const _0x25be72=_0x13d5c5;_0x36fed0[_0x25be72(0x361)](_0x25be72(0x1bb),()=>{const _0x1cd276=_0x25be72,_0x3aed2d=_0x36fed0[_0x1cd276(0x1a0)](_0x1cd276(0x260))||'',_0x1e09a2=window[_0x1cd276(0x127)]['currentSettingsFriend']&&String(window[_0x1cd276(0x127)][_0x1cd276(0x283)]['id'])===String(_0x261143['id'])?window[_0x1cd276(0x127)]['currentSettingsFriend']:_0x261143,_0x1d0f99=Array[_0x1cd276(0x298)](_0x1e09a2[_0x1cd276(0xff)]?.[_0x1cd276(0x10a)])?_0x1e09a2[_0x1cd276(0xff)][_0x1cd276(0x10a)]:[],_0x418798=_0x1d0f99[_0x1cd276(0x1f2)](_0x21379c=>String(_0x21379c['id'])===String(_0x3aed2d));_0x418798&&_0x208c24(_0x418798);});});}else _0x78921e['contentEl']['innerHTML']=_0x217445(_0x13d5c5(0x106),_0x2aaf84[_0x13d5c5(0x21f)],_0x506dcb[_0x13d5c5(0x213)]);}else{if(_0x5af417==='overview'){const _0xc2ce30=Array[_0x13d5c5(0x298)](_0x261143[_0x13d5c5(0x1dd)])?_0x261143[_0x13d5c5(0x1dd)][_0x13d5c5(0xfd)]:0x0;let _0x37cea4=0x0,_0x336965=0x0;if(window['getGlobalWorldBookContext']){const _0x27f3cd=window[_0x13d5c5(0x197)]();_0x336965+=(_0x27f3cd||'')[_0x13d5c5(0xfd)];}_0x336965+=(_0x261143[_0x13d5c5(0x2e1)]||'')[_0x13d5c5(0xfd)],_0x336965+=(_0x5dd65a?.[_0x13d5c5(0x2e1)]||'')['length'],_0x336965+=(_0x2aaf84[_0x13d5c5(0x312)]||'')[_0x13d5c5(0xfd)],_0x336965+=(_0x2aaf84[_0x13d5c5(0x16e)]||'')[_0x13d5c5(0xfd)],_0x336965+=(_0x2aaf84[_0x13d5c5(0x21f)]||'')[_0x13d5c5(0xfd)],_0x336965+=(_0x2aaf84['context']?.[_0x13d5c5(0x1b2)]||'')[_0x13d5c5(0xfd)];Array['isArray'](_0x2aaf84[_0x13d5c5(0x33e)])&&(_0x336965+=_0x2aaf84[_0x13d5c5(0x33e)][_0x13d5c5(0x1d6)]((_0x55b8e6,_0x5d60eb)=>_0x55b8e6+(_0x5d60eb['relation']||'')['length'],0x0));_0x336965+=0x320;let _0x26a86d=0x0;if(window[_0x13d5c5(0x26a)][_0x13d5c5(0x338)]){const _0x5b59e9=window[_0x13d5c5(0x26a)][_0x13d5c5(0x338)](_0x261143);Array['isArray'](_0x5b59e9)&&(_0x26a86d=_0x5b59e9['reduce']((_0x3bd808,_0x2beb15)=>_0x3bd808+(_0x2beb15[_0x13d5c5(0x10d)]||'')['length'],0x0));}_0x37cea4=_0x336965+_0x26a86d;let _0x2d796a=Date[_0x13d5c5(0x357)](),_0x348e94=Date['now']();_0xc2ce30>0x0&&(_0x2d796a=_0x261143[_0x13d5c5(0x1dd)][0x0][_0x13d5c5(0x302)]||Date[_0x13d5c5(0x357)](),_0x348e94=_0x261143[_0x13d5c5(0x1dd)][_0xc2ce30-0x1]['timestamp']||Date[_0x13d5c5(0x357)]());const _0x581cb8=Math[_0x13d5c5(0x1e9)](0x1,Math[_0x13d5c5(0x248)]((Date['now']()-_0x2d796a)/(0x3e8*0x3c*0x3c*0x18))),_0x52a830=window['imApp'][_0x13d5c5(0x285)]?window[_0x13d5c5(0x26a)][_0x13d5c5(0x285)](_0x348e94):new Date(_0x348e94)['toLocaleString'](),_0x1b1ced='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:\x208px;\x20margin-bottom:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>聊天总数</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>'+_0xc2ce30+_0x13d5c5(0x168)+_0x581cb8+_0x13d5c5(0x322)+_0x37cea4+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>最后聊天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20700;\x20color:\x20#111;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20white-space:\x20nowrap;\x22>'+(_0xc2ce30>0x0?_0x52a830:'无')+_0x13d5c5(0x22b);_0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x172)]=_0x1b1ced+_0x217445('总览',_0x2aaf84[_0x13d5c5(0x312)],_0x506dcb[_0x13d5c5(0x213)]);}else{const _0x5991bf=Array[_0x13d5c5(0x298)](_0x2aaf84[_0x13d5c5(0x1ef)])?_0x2aaf84[_0x13d5c5(0x1ef)]:[];if(_0x5991bf[_0x13d5c5(0xfd)]>0x0){_0x78921e[_0x13d5c5(0x180)]['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5991bf[_0x13d5c5(0x174)](_0x15bb65=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-modal-cherished-card\x22\x20data-entry-id=\x22'+_0x15bb65['id']+_0x13d5c5(0x288)+(_0x15bb65[_0x13d5c5(0x167)]||'长期记忆')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-time\x22>'+(_0x15bb65[_0x13d5c5(0x21c)]||_0x13d5c5(0x227))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')['join']('')+_0x13d5c5(0x296);const _0x15abc1=_0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x323)](_0x13d5c5(0x245));_0x15abc1[_0x13d5c5(0x16a)](_0x21fdec=>{const _0x778385=_0x13d5c5;_0x21fdec[_0x778385(0x361)](_0x778385(0x1bb),()=>{const _0xafa583=_0x778385,_0x5bf325=_0x21fdec[_0xafa583(0x1a0)]('data-entry-id')||'',_0x1ea4c0=window[_0xafa583(0x127)][_0xafa583(0x283)]&&String(window[_0xafa583(0x127)]['currentSettingsFriend']['id'])===String(_0x261143['id'])?window[_0xafa583(0x127)][_0xafa583(0x283)]:_0x261143,_0x2a4e05=Array[_0xafa583(0x298)](_0x1ea4c0[_0xafa583(0xff)]?.[_0xafa583(0x1ef)])?_0x1ea4c0[_0xafa583(0xff)][_0xafa583(0x1ef)]:[],_0x2f86d2=_0x2a4e05[_0xafa583(0x1f2)](_0x48d557=>String(_0x48d557['id'])===String(_0x5bf325));_0x2f86d2&&_0x208c24({'title':_0x2f86d2[_0xafa583(0x167)],'createdAt':_0x2f86d2[_0xafa583(0x21c)],'content':_0x2f86d2[_0xafa583(0x10d)]});});});}else _0x78921e[_0x13d5c5(0x180)][_0x13d5c5(0x172)]=_0x217445(_0x13d5c5(0x1bf),_0x2aaf84[_0x13d5c5(0x16e)],_0x506dcb[_0x13d5c5(0x213)]);}}}_0x78921e[_0x13d5c5(0x207)][_0x13d5c5(0x363)][_0x13d5c5(0x28a)]=_0x13d5c5(0x1ab),requestAnimationFrame(()=>{const _0x281b9f=_0x13d5c5;_0x78921e[_0x281b9f(0x207)][_0x281b9f(0x13e)]['add'](_0x281b9f(0x18e));});}function _0x54f4b9(){const _0x261274=_0x5a842d,_0x1829b5=[_0x261274(0x312),_0x261274(0x165),'cherished'];_0x1829b5['forEach'](_0x313189=>{const _0x391712=_0x261274,_0x4100b5=document['getElementById'](_0x391712(0x28f)+_0x313189+_0x391712(0x233));if(!_0x4100b5||_0x4100b5[_0x391712(0x199)][_0x391712(0x256)]===_0x391712(0x2bb))return;_0x4100b5[_0x391712(0x199)][_0x391712(0x256)]=_0x391712(0x2bb),_0x4100b5[_0x391712(0x361)](_0x391712(0x1bb),()=>{const _0x161c5e=_0x391712,_0x95386c=window[_0x161c5e(0x127)][_0x161c5e(0x283)];if(!_0x95386c)return;_0x4c31af(_0x313189,_0x95386c);});});}function _0x5cd37d(){const _0x15de6=_0x5a842d,_0x21096b=document[_0x15de6(0x323)](_0x15de6(0x2e9));_0x21096b[_0x15de6(0x16a)](_0x2ae75f=>{const _0x4c3f1d=_0x15de6;if(_0x2ae75f[_0x4c3f1d(0x199)][_0x4c3f1d(0x1e4)]==='true')return;_0x2ae75f[_0x4c3f1d(0x199)][_0x4c3f1d(0x1e4)]=_0x4c3f1d(0x2bb),_0x2ae75f['addEventListener'](_0x4c3f1d(0x1bb),()=>{const _0x2b9943=_0x4c3f1d;_0x3a3aad(_0x2ae75f[_0x2b9943(0x1a0)](_0x2b9943(0x194)));});}),_0x412e7d();}_0x481ec8&&_0x481ec8[_0x5a842d(0x361)]('click',_0x8dcae3=>{const _0x2cbf74=_0x5a842d;_0x8dcae3[_0x2cbf74(0x136)]===_0x481ec8&&_0x5aa858(_0x481ec8);});_0x329a87&&_0x329a87[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0xccfe8=>{const _0x3d7bbc=_0x5a842d;_0xccfe8[_0x3d7bbc(0x136)]===_0x329a87&&_0x5aa858(_0x329a87);});_0x36b0fe&&_0x36b0fe[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x278198=_0x5a842d;if(!window[_0x278198(0x127)][_0x278198(0x283)])return;_0x113b8c=![],_0x5f2112=(window[_0x278198(0x127)][_0x278198(0x283)][_0x278198(0xff)]?.[_0x278198(0x33e)]||[])['map'](_0x39e33b=>({'npcId':String(_0x39e33b[_0x278198(0x20b)]),'relation':_0x39e33b[_0x278198(0x286)]||'','offsetX':_0x39e33b['offsetX'],'offsetY':_0x39e33b[_0x278198(0x304)]})),_0x1b3f15(window[_0x278198(0x127)]['currentSettingsFriend']),_0x1eb2b6(_0x329a87);});_0x5c0b2d&&_0x5c0b2d[_0x5a842d(0x361)](_0x5a842d(0x1bb),async()=>{const _0x2771c2=_0x5a842d;if(!window['imData'][_0x2771c2(0x283)]||!_0x535a98)return;_0x4a1b91();const _0x5e6e8e=_0x5f2112[_0x2771c2(0x174)](_0x2fb659=>({'npcId':_0x2fb659[_0x2771c2(0x20b)],'relation':(_0x2fb659[_0x2771c2(0x286)]||'')[_0x2771c2(0x2a4)](),'offsetX':_0x2fb659[_0x2771c2(0x1fe)],'offsetY':_0x2fb659['offsetY']}))[_0x2771c2(0x216)](_0x1bdc0d=>_0x1bdc0d[_0x2771c2(0x286)]),_0x3a2a61=await _0x437618(_0x12428b=>{const _0xfb5428=_0x2771c2;_0x12428b[_0xfb5428(0xff)]=_0x12428b['memory']||window[_0xfb5428(0x26a)][_0xfb5428(0x17e)](),_0x12428b[_0xfb5428(0xff)][_0xfb5428(0x33e)]=_0x5e6e8e;},{'silent':!![]});if(!_0x3a2a61){_0x2dc554(_0x2771c2(0x2cd));return;}_0x5f2112=(window[_0x2771c2(0x127)][_0x2771c2(0x283)][_0x2771c2(0xff)]['relationships']||[])[_0x2771c2(0x174)](_0x5774d3=>({'npcId':String(_0x5774d3[_0x2771c2(0x20b)]),'relation':_0x5774d3['relation']||'','offsetX':_0x5774d3[_0x2771c2(0x1fe)],'offsetY':_0x5774d3[_0x2771c2(0x304)]})),_0x113b8c=![],_0x2dc554(_0x5e6e8e[_0x2771c2(0xfd)]>0x0?_0x2771c2(0x2a0):'未填写关系，已清空关系网'),_0x5aa858(_0x329a87);});_0x4d843d&&_0x4d843d[_0x5a842d(0x361)]('click',()=>{const _0x13d405=_0x5a842d;if(!window[_0x13d405(0x127)][_0x13d405(0x283)])return;_0x4a1b91();const _0xb05c11=window[_0x13d405(0x127)][_0x13d405(0x326)][_0x13d405(0x216)](_0x3e3704=>_0x3e3704['type']===_0x13d405(0x130)),_0x5ca6a2=new Set(_0x5f2112['map'](_0x133cae=>String(_0x133cae[_0x13d405(0x20b)]))),_0x39f080=_0xb05c11[_0x13d405(0x216)](_0x102698=>!_0x5ca6a2[_0x13d405(0x1d4)](String(_0x102698['id'])));if(_0xb05c11[_0x13d405(0xfd)]===0x0){_0x2dc554('暂无可拉取的已有NPC，请先在联系人中创建NPC');return;}if(_0x39f080[_0x13d405(0xfd)]===0x0){_0x2dc554(_0x13d405(0x11e));return;}_0x113b8c=!_0x113b8c,_0x1b3f15(window[_0x13d405(0x127)]['currentSettingsFriend']);});_0x4c3ba4&&_0x4c3ba4[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x20decb=>{_0x20decb['target']===_0x4c3ba4&&_0x5aa858(_0x4c3ba4);});_0x38e64b&&_0x38e64b[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x3eb933=>{const _0x1ede85=_0x5a842d;_0x3eb933[_0x1ede85(0x136)]===_0x38e64b&&_0x5aa858(_0x38e64b);});function _0xb7e6fe(){const _0x251524=_0x5a842d,_0x8d6ff2=document['getElementById']('npc-chat-settings-profile-trigger'),_0x33f03c=document[_0x251524(0x315)]('npc-chat-bg-upload'),_0x1d161c=document['getElementById'](_0x251524(0x346)),_0x2c6f39=document[_0x251524(0x315)](_0x251524(0x35a)),_0x4bc284=document[_0x251524(0x315)](_0x251524(0x30a)),_0x534f6d=document[_0x251524(0x315)](_0x251524(0x125)),_0x437a85=document[_0x251524(0x315)](_0x251524(0x169)),_0xfe2e1c=document['getElementById']('npc-clear-history-btn'),_0x16442a=document[_0x251524(0x315)](_0x251524(0x2b7));_0x8d6ff2&&_0x8d6ff2[_0x251524(0x199)][_0x251524(0x1e4)]!=='true'&&(_0x8d6ff2[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x8d6ff2[_0x251524(0x361)](_0x251524(0x1bb),()=>{const _0x5235e8=_0x251524;if(!window[_0x5235e8(0x127)][_0x5235e8(0x283)])return;const _0x4a791c=document[_0x5235e8(0x315)]('chat-settings-profile-trigger');if(_0x4a791c)_0x4a791c[_0x5235e8(0x1bb)]();})),_0x1d161c&&_0x33f03c&&_0x1d161c[_0x251524(0x199)]['bound']!==_0x251524(0x2bb)&&(_0x1d161c[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x1d161c[_0x251524(0x361)](_0x251524(0x1bb),()=>{const _0x5464ab=_0x251524;_0x33f03c[_0x5464ab(0x1bb)]();})),_0x33f03c&&_0x33f03c[_0x251524(0x199)]['bound']!=='true'&&(_0x33f03c[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x33f03c['addEventListener']('change',async _0x39cbd8=>{const _0x399f26=_0x251524,_0x17216c=_0x39cbd8[_0x399f26(0x136)]['files'][0x0],_0x5e7817=window['imData']['currentSettingsFriend'];if(!_0x17216c||!_0x5e7817){_0x39cbd8[_0x399f26(0x136)]['value']='';return;}try{const _0x390ecf=window['imApp'][_0x399f26(0x108)]?await window[_0x399f26(0x26a)][_0x399f26(0x108)](_0x17216c,{'maxWidth':0x5a0,'maxHeight':0x5a0,'mimeType':_0x399f26(0x1bc),'quality':0.82}):await window[_0x399f26(0x26a)][_0x399f26(0x2a3)](_0x17216c),_0x59746e=await _0x437618(_0x46df3c=>{const _0x4fd9f5=_0x399f26;_0x46df3c[_0x4fd9f5(0x183)]=_0x390ecf;},{'silent':!![]});if(!_0x59746e){_0x2dc554(_0x399f26(0x12c));return;}_0x14958f(window['imData'][_0x399f26(0x283)]),_0x2dc554(_0x399f26(0x31d));}catch(_0x35cfa8){console[_0x399f26(0x34f)](_0x399f26(0x212),_0x35cfa8),_0x2dc554(_0x399f26(0x27b));}finally{_0x39cbd8['target']['value']='';}})),_0x2c6f39&&_0x2c6f39[_0x251524(0x199)][_0x251524(0x1e4)]!==_0x251524(0x2bb)&&(_0x2c6f39['dataset'][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x2c6f39[_0x251524(0x361)](_0x251524(0x1bb),async()=>{const _0x1a03ad=_0x251524;if(!window[_0x1a03ad(0x127)][_0x1a03ad(0x283)])return;const _0x46427a=await _0x437618(_0x596462=>{const _0x27e597=_0x1a03ad;_0x596462[_0x27e597(0x183)]=null;},{'silent':!![]});if(!_0x46427a){_0x2dc554(_0x1a03ad(0x27a));return;}_0x14958f(window['imData'][_0x1a03ad(0x283)]),_0x2dc554(_0x1a03ad(0x119));})),_0x437a85&&_0x437a85[_0x251524(0x199)][_0x251524(0x1e4)]!==_0x251524(0x2bb)&&(_0x437a85[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x437a85['addEventListener'](_0x251524(0x26e),async _0x2d7700=>{const _0x56a919=_0x251524,_0x56aa11=window[_0x56a919(0x127)][_0x56a919(0x283)];if(!_0x56aa11)return;const _0x3cb81c=!!_0x56aa11['showAvatar'],_0x29b8ed=_0x2d7700['target'][_0x56a919(0x293)],_0x9a680e=await _0x437618(_0x17da86=>{const _0x460a12=_0x56a919;_0x17da86[_0x460a12(0x15c)]=_0x29b8ed;},{'silent':!![]});if(!_0x9a680e){_0x2d7700[_0x56a919(0x136)]['checked']=_0x3cb81c,_0x2dc554(_0x56a919(0x1c8));return;}if(window[_0x56a919(0x116)]&&window[_0x56a919(0x116)][_0x56a919(0x146)]){const _0x27f155=document[_0x56a919(0x315)](_0x56a919(0x232)+_0x56aa11['id']);if(_0x27f155){const _0x357a4d=_0x27f155[_0x56a919(0x2e7)](_0x56a919(0x188));if(_0x357a4d)window[_0x56a919(0x116)][_0x56a919(0x146)](_0x56aa11,_0x357a4d,{'scroll':![]});}}})),_0x4bc284&&_0x4bc284['dataset'][_0x251524(0x1e4)]!==_0x251524(0x2bb)&&(_0x4bc284[_0x251524(0x199)]['bound']='true',_0x4bc284['addEventListener'](_0x251524(0x26e),async _0x9675a6=>{const _0x4783ae=_0x251524,_0x2eda95=window[_0x4783ae(0x127)][_0x4783ae(0x283)];if(!_0x2eda95)return;const _0x236e77=!!_0x2eda95[_0x4783ae(0x2c0)],_0x26bb23=_0x9675a6[_0x4783ae(0x136)]['checked'],_0x5f4dd8=await _0x437618(_0x29437c=>{const _0x24c83b=_0x4783ae;_0x29437c[_0x24c83b(0x2c0)]=_0x26bb23;},{'silent':!![]});if(!_0x5f4dd8){_0x9675a6[_0x4783ae(0x136)]['checked']=_0x236e77,_0x2dc554(_0x4783ae(0x1aa));return;}_0x268176(window['imData'][_0x4783ae(0x283)]);})),_0x534f6d&&_0x534f6d[_0x251524(0x199)]['bound']!==_0x251524(0x2bb)&&(_0x534f6d[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x534f6d['addEventListener']('change',async _0x9457d8=>{const _0x20f65b=_0x251524,_0x25f5cb=window[_0x20f65b(0x127)][_0x20f65b(0x283)];if(!_0x25f5cb)return;const _0x4fecbf=!!_0x25f5cb[_0x20f65b(0x263)],_0x106fa6=_0x9457d8['target'][_0x20f65b(0x293)],_0x1e613b=await _0x437618(_0x4e6ba1=>{const _0x3905c1=_0x20f65b;_0x4e6ba1[_0x3905c1(0x263)]=_0x106fa6;},{'silent':!![]});if(!_0x1e613b){_0x9457d8['target'][_0x20f65b(0x293)]=_0x4fecbf,_0x2dc554(_0x20f65b(0x359));return;}if(window[_0x20f65b(0x26a)][_0x20f65b(0x269)])window[_0x20f65b(0x26a)][_0x20f65b(0x269)]();_0x268176(window[_0x20f65b(0x127)][_0x20f65b(0x283)]),_0x2dc554(window['imData'][_0x20f65b(0x283)][_0x20f65b(0x263)]?_0x20f65b(0x224):_0x20f65b(0x1a2));})),_0xfe2e1c&&_0xfe2e1c[_0x251524(0x199)]['bound']!==_0x251524(0x2bb)&&(_0xfe2e1c['dataset'][_0x251524(0x1e4)]='true',_0xfe2e1c[_0x251524(0x361)](_0x251524(0x1bb),()=>{const _0x5c1716=_0x251524,_0x71a0bb=window[_0x5c1716(0x127)]['currentSettingsFriend'];if(!_0x71a0bb)return;_0x2d41af({'title':_0x5c1716(0x198),'message':_0x5c1716(0x1c4),'isDestructive':!![],'confirmText':'清空','onConfirm':async()=>{const _0x457116=_0x5c1716,_0x396d1b=_0x71a0bb['id'],_0x3b3f0b=window[_0x457116(0x26a)][_0x457116(0x311)]?await window[_0x457116(0x26a)][_0x457116(0x311)](_0x396d1b,{'silent':!![]}):await _0x437618(_0x2bcd32=>{const _0x5d5614=_0x457116;_0x2bcd32[_0x5d5614(0x1dd)]=[];},{'silent':!![],'metaOnly':![],'includeMessages':!![]});if(!_0x3b3f0b){_0x2dc554(_0x457116(0x124));return;}const _0x2c24c3=document['getElementById'](_0x457116(0x232)+_0x396d1b);if(_0x2c24c3){const _0x55e6b1=_0x2c24c3[_0x457116(0x2e7)](_0x457116(0x188)),_0x32a519=window[_0x457116(0x26a)][_0x457116(0x27d)]?window['imApp'][_0x457116(0x27d)](_0x396d1b):window[_0x457116(0x127)][_0x457116(0x283)];if(_0x55e6b1&&_0x32a519&&window[_0x457116(0x116)][_0x457116(0x146)])window[_0x457116(0x116)][_0x457116(0x146)](_0x32a519,_0x55e6b1,{'scroll':![]});else _0x55e6b1&&(_0x55e6b1[_0x457116(0x172)]='');}if(window[_0x457116(0x26a)][_0x457116(0x269)])window[_0x457116(0x26a)][_0x457116(0x269)]();_0x2dc554(_0x457116(0x132)),_0x5aa858(_0x38e64b);}});})),_0x16442a&&_0x16442a[_0x251524(0x199)][_0x251524(0x1e4)]!==_0x251524(0x2bb)&&(_0x16442a[_0x251524(0x199)][_0x251524(0x1e4)]=_0x251524(0x2bb),_0x16442a[_0x251524(0x361)]('click',()=>{const _0x1c9d57=_0x251524,_0x21ded3=window[_0x1c9d57(0x127)][_0x1c9d57(0x283)];if(!_0x21ded3)return;_0x2d41af({'title':_0x1c9d57(0x2e3),'message':_0x1c9d57(0x1ba)+_0x21ded3[_0x1c9d57(0x104)]+_0x1c9d57(0x235),'isDestructive':!![],'confirmText':'删除','onConfirm':async()=>{const _0x51b30b=_0x1c9d57,_0xacd115=_0x21ded3['id'],_0x1ba96b=window[_0x51b30b(0x26a)][_0x51b30b(0x2ee)]?await window['imApp'][_0x51b30b(0x2ee)](()=>{const _0x4807c8=_0x51b30b;window[_0x4807c8(0x127)][_0x4807c8(0x326)]=(window[_0x4807c8(0x127)]['friends']||[])['filter'](_0x28c466=>String(_0x28c466['id'])!==String(_0xacd115));},{'silent':!![],'friendIds':[],'deletedFriendIds':[_0xacd115]}):![];if(!_0x1ba96b){_0x2dc554('删除\x20NPC\x20失败');return;}window[_0x51b30b(0x127)][_0x51b30b(0x283)]&&String(window['imData'][_0x51b30b(0x283)]['id'])===String(_0xacd115)&&(window[_0x51b30b(0x127)][_0x51b30b(0x283)]=null);window[_0x51b30b(0x127)][_0x51b30b(0x355)]&&String(window['imData']['currentActiveFriend']['id'])===String(_0xacd115)&&(window[_0x51b30b(0x127)]['currentActiveFriend']=null);if(window[_0x51b30b(0x26a)][_0x51b30b(0x2d1)])window['imApp']['renderFriendsList']();if(window[_0x51b30b(0x26a)][_0x51b30b(0x170)])window['imApp'][_0x51b30b(0x170)]();const _0x44483a=document['getElementById']('chat-interface-'+_0xacd115);if(_0x44483a)_0x44483a['remove']();_0x5aa858(_0x38e64b),_0x2dc554(_0x51b30b(0x1f3));}});}));}const _0x416680=document[_0x5a842d(0x2e7)](_0x5a842d(0x2ec));_0x416680&&_0x416680[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x3a70bc=_0x5a842d;window[_0x3a70bc(0x127)]['currentActiveFriend']&&_0x48c393(window[_0x3a70bc(0x127)][_0x3a70bc(0x355)]);});_0x5c7848&&_0x5c7848[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x232b09=>{_0x232b09['target']===_0x5c7848&&_0x5aa858(_0x5c7848);});_0x297c4e&&_0x297c4e[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x4e08a5=>{const _0x102635=_0x5a842d;_0x4e08a5[_0x102635(0x136)]===_0x297c4e&&_0x5aa858(_0x297c4e);});_0x91788e&&_0x91788e[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x5a25fa=_0x5a842d;if(!window['imData']['currentSettingsFriend'])return;if(typeof window[_0x5a25fa(0x186)]!==_0x5a25fa(0x118)){_0x2dc554(_0x5a25fa(0x1f8));return;}const _0x30fe37=Array[_0x5a25fa(0x298)](window['imData'][_0x5a25fa(0x283)][_0x5a25fa(0x25c)])?window[_0x5a25fa(0x127)][_0x5a25fa(0x283)]['boundBooks']:[];window['renderWorldBookSelector'](_0x30fe37,async _0x3ac5d1=>{const _0x424659=_0x5a25fa,_0x4ee753=await _0x437618(_0x31b819=>{const _0x55e707=_0x4e49;_0x31b819[_0x55e707(0x25c)]=Array[_0x55e707(0x298)](_0x3ac5d1)?_0x3ac5d1[_0x55e707(0x216)](Boolean)[_0x55e707(0x174)](_0xe83dc2=>String(_0xe83dc2)):[];},{'silent':!![]});if(!_0x4ee753){_0x2dc554(_0x424659(0x29c));return;}if(window[_0x424659(0x30c)])window['renderWorldBooks']();_0x2dc554('世界书绑定已更新');});});_0x3d9489&&_0x297c4e&&_0x3d9489['addEventListener'](_0x5a842d(0x1bb),()=>{const _0xe279ad=_0x5a842d;if(!window[_0xe279ad(0x127)]['currentSettingsFriend'])return;_0x137881=window[_0xe279ad(0x127)][_0xe279ad(0x283)]['boundAccountId']||null,_0x49ab76(window[_0xe279ad(0x127)][_0xe279ad(0x283)]),_0x1eb2b6(_0x297c4e);});_0x3324f7&&_0x3324f7['addEventListener']('click',async()=>{const _0x38d091=_0x5a842d;if(window[_0x38d091(0x127)][_0x38d091(0x283)]){const _0x5c78aa=await _0x437618(_0x10a67a=>{const _0x2f8519=_0x38d091;_0x10a67a[_0x2f8519(0x25c)]=[..._0x36cacf];},{'silent':!![]});if(!_0x5c78aa){_0x2dc554(_0x38d091(0x29c));return;}if(window['renderWorldBooks'])window[_0x38d091(0x30c)]();_0x2dc554(_0x38d091(0x307));}_0x5aa858(_0x5c7848);});_0x4313bf&&_0x4313bf['addEventListener'](_0x5a842d(0x1bb),async()=>{const _0x28bc44=_0x5a842d,_0x5f3da4=window[_0x28bc44(0x127)]['currentSettingsFriend'];if(!_0x5f3da4)return;const _0x202e75=_0x137881||null,_0x234949=await _0x437618(_0x1dab04=>{const _0x47126f=_0x28bc44;_0x1dab04[_0x47126f(0x139)]=_0x202e75;},{'silent':!![]});if(!_0x234949){_0x2dc554(_0x28bc44(0x178));return;}_0x344d7d(window[_0x28bc44(0x127)][_0x28bc44(0x283)]);if(window[_0x28bc44(0x254)])window[_0x28bc44(0x254)]();_0x2dc554(window[_0x28bc44(0x127)][_0x28bc44(0x283)]['boundAccountId']?_0x28bc44(0x120):_0x28bc44(0x138)),_0x5aa858(_0x297c4e);});function _0x11de78(){const _0x2aa160=_0x5a842d;if(!_0xe7763c)return;_0xe7763c[_0x2aa160(0x172)]='';let _0x46c39f=window['getWorldBooks']?window['getWorldBooks']():[];const _0xbd64c4=_0x46c39f[_0x2aa160(0x216)](_0x3f5db2=>!_0x3f5db2['isGlobal']);if(_0x46c39f[_0x2aa160(0xfd)]===0x0){_0xe7763c[_0x2aa160(0x172)]=_0x2aa160(0x32c);return;}else{if(_0xbd64c4[_0x2aa160(0xfd)]===0x0){_0xe7763c[_0x2aa160(0x172)]=_0x2aa160(0x2d6);return;}}_0xbd64c4[_0x2aa160(0x16a)](_0x54d3a5=>{const _0x1808c2=_0x2aa160,_0x5a4351=_0x36cacf[_0x1808c2(0x35e)](_0x54d3a5['id']),_0x494921=window[_0x1808c2(0x327)]?window[_0x1808c2(0x327)](_0x54d3a5['entries']):0x0,_0x12181a=document[_0x1808c2(0x1b7)](_0x1808c2(0x2f4));_0x12181a[_0x1808c2(0x24e)]=_0x1808c2(0x15a),_0x12181a[_0x1808c2(0x363)][_0x1808c2(0x145)]=_0x1808c2(0x155),_0x12181a['style'][_0x1808c2(0x340)]=_0x1808c2(0x1cc),_0x12181a[_0x1808c2(0x363)][_0x1808c2(0x22d)]='pointer',_0x12181a[_0x1808c2(0x363)][_0x1808c2(0x230)]=_0x1808c2(0x303),_0x12181a[_0x1808c2(0x363)][_0x1808c2(0x24d)]=_0x5a4351?_0x1808c2(0x364):_0x1808c2(0x1a6),_0x12181a[_0x1808c2(0x363)]['boxShadow']=_0x1808c2(0x211),_0x12181a['style'][_0x1808c2(0x28c)]='relative',_0x12181a['innerHTML']=_0x1808c2(0x35c)+_0x54d3a5[_0x1808c2(0x107)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x22>分组:\x20'+_0x54d3a5['group']+_0x1808c2(0x189)+_0x494921+_0x1808c2(0x1d3)+(_0x5a4351?_0x1808c2(0x209):_0x1808c2(0x2a7))+_0x1808c2(0x1bd)+(_0x5a4351?'var(--blue-color)':_0x1808c2(0x334))+_0x1808c2(0x19a)+(_0x5a4351?_0x1808c2(0x31e):'')+_0x1808c2(0x1c7);const _0x301dbf=document['createElement'](_0x1808c2(0x363));_0x301dbf[_0x1808c2(0x172)]=_0x1808c2(0x22e),_0x12181a[_0x1808c2(0x2d2)](_0x301dbf),_0x12181a[_0x1808c2(0x361)](_0x1808c2(0x1bb),()=>{const _0x386d24=_0x1808c2;_0x36cacf[_0x386d24(0x35e)](_0x54d3a5['id'])?_0x36cacf=_0x36cacf[_0x386d24(0x216)](_0x1025ab=>_0x1025ab!==_0x54d3a5['id']):_0x36cacf[_0x386d24(0x1ed)](_0x54d3a5['id']),_0x11de78();}),_0xe7763c['appendChild'](_0x12181a);});}const _0x40ac97=document[_0x5a842d(0x315)]('delete-friend-btn'),_0x5bcfaa=document[_0x5a842d(0x315)](_0x5a842d(0x2be)),_0x24835a=document[_0x5a842d(0x315)](_0x5a842d(0x24f)),_0x58dc2c=document['getElementById'](_0x5a842d(0x12a)),_0x501aaa=document[_0x5a842d(0x315)](_0x5a842d(0x1ae)),_0x1f05cd=document['getElementById'](_0x5a842d(0x34b)),_0x5e4260=document['getElementById'](_0x5a842d(0x2a2));_0x501aaa&&_0x58dc2c&&(_0x501aaa['addEventListener']('click',()=>{const _0xa858d6=_0x5a842d;_0x58dc2c[_0xa858d6(0x1bb)]();}),_0x58dc2c[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0xf6f59a=>{const _0x18b119=_0x5a842d,_0x4bfc9e=_0xf6f59a[_0x18b119(0x136)][_0x18b119(0x2df)][0x0];if(_0x4bfc9e&&window[_0x18b119(0x127)][_0x18b119(0x283)])try{const _0x58118c=window[_0x18b119(0x26a)][_0x18b119(0x108)]?await window['imApp'][_0x18b119(0x108)](_0x4bfc9e,{'maxWidth':0x5a0,'maxHeight':0x5a0,'mimeType':'image/jpeg','quality':0.82}):await window['imApp'][_0x18b119(0x2a3)](_0x4bfc9e),_0x2eabf6=await _0x437618(_0x49273e=>{const _0x23871e=_0x18b119;_0x49273e[_0x23871e(0x183)]=_0x58118c;},{'silent':!![]});if(!_0x2eabf6){_0x2dc554(_0x18b119(0x12c));return;}_0x14958f(window['imData']['currentSettingsFriend']),_0x2dc554(_0x18b119(0x31d));}catch(_0x231cab){console[_0x18b119(0x34f)](_0x18b119(0x151),_0x231cab),_0x2dc554(_0x18b119(0x27b));}_0xf6f59a[_0x18b119(0x136)][_0x18b119(0x30e)]='';}));_0x5e4260&&_0x5e4260[_0x5a842d(0x361)](_0x5a842d(0x1bb),async()=>{const _0x59ae82=_0x5a842d;if(window[_0x59ae82(0x127)][_0x59ae82(0x283)]){const _0x225d57=await _0x437618(_0x525c27=>{const _0x873183=_0x59ae82;_0x525c27[_0x873183(0x183)]=null;},{'silent':!![]});if(!_0x225d57){_0x2dc554('聊天背景重置失败');return;}_0x14958f(window[_0x59ae82(0x127)]['currentSettingsFriend']),_0x2dc554(_0x59ae82(0x119));}});function _0x14958f(_0x5902f7){const _0x59e544=_0x5a842d;if(!_0x5902f7)return;const _0x36e155=document['getElementById']('chat-interface-'+_0x5902f7['id']);if(_0x36e155){const _0x1f3058=_0x36e155[_0x59e544(0x2e7)](_0x59e544(0x2fa));_0x36e155[_0x59e544(0x363)]['removeProperty'](_0x59e544(0x154)),_0x36e155['style'][_0x59e544(0x351)](_0x59e544(0x149)),_0x36e155['style'][_0x59e544(0x351)](_0x59e544(0x112)),_0x36e155['style'][_0x59e544(0x351)](_0x59e544(0x348));_0x1f3058&&(_0x1f3058[_0x59e544(0x363)]['removeProperty'](_0x59e544(0x1fd)),_0x1f3058['style']['removeProperty']('border-bottom'));if(_0x5902f7[_0x59e544(0x183)]){const _0x370b5=String(_0x5902f7[_0x59e544(0x183)])[_0x59e544(0x11d)](/["\\]/g,'\x5c$&');_0x36e155[_0x59e544(0x13e)][_0x59e544(0x162)](_0x59e544(0x2a9)),_0x36e155['style'][_0x59e544(0x352)](_0x59e544(0x2b2),_0x59e544(0x1cf)+_0x370b5+'\x22)');}else _0x36e155['classList'][_0x59e544(0x336)](_0x59e544(0x2a9)),_0x36e155[_0x59e544(0x363)][_0x59e544(0x351)](_0x59e544(0x2b2));}}_0x5bcfaa&&_0x5bcfaa[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x76aea7=_0x5a842d;window[_0x76aea7(0x127)]['currentSettingsFriend']&&_0x2d41af({'title':'清空聊天记录','message':_0x76aea7(0x129),'isDestructive':!![],'confirmText':'清空','onConfirm':async()=>{const _0x4e36e4=_0x76aea7,_0x13f691=window[_0x4e36e4(0x127)][_0x4e36e4(0x283)]['id'],_0xaeafd6=window[_0x4e36e4(0x26a)]['resetFriendMessages']?await window[_0x4e36e4(0x26a)]['resetFriendMessages'](_0x13f691,{'silent':!![]}):await _0x437618(_0x375691=>{const _0x2f352a=_0x4e36e4;_0x375691[_0x2f352a(0x1dd)]=[],window[_0x2f352a(0x26a)]['syncActiveFriendReference']&&window[_0x2f352a(0x26a)][_0x2f352a(0x210)](_0x375691),window[_0x2f352a(0x26a)][_0x2f352a(0x347)]&&window[_0x2f352a(0x26a)][_0x2f352a(0x347)](_0x375691);},{'silent':!![],'metaOnly':![],'includeMessages':!![]});if(!_0xaeafd6){_0x2dc554(_0x4e36e4(0x124));const _0x271d70=document[_0x4e36e4(0x315)](_0x4e36e4(0x232)+_0x13f691);if(_0x271d70){const _0x307ede=_0x271d70['querySelector'](_0x4e36e4(0x188));_0x307ede&&(_0x307ede[_0x4e36e4(0x172)]='',window[_0x4e36e4(0x116)][_0x4e36e4(0x281)](window[_0x4e36e4(0x127)][_0x4e36e4(0x283)],_0x307ede));}return;}const _0x94bec3=document[_0x4e36e4(0x315)](_0x4e36e4(0x232)+_0x13f691);if(_0x94bec3){const _0x576909=_0x94bec3[_0x4e36e4(0x2e7)](_0x4e36e4(0x188)),_0x2830c5=window[_0x4e36e4(0x26a)]['getFriendById']?window[_0x4e36e4(0x26a)][_0x4e36e4(0x27d)](_0x13f691):window[_0x4e36e4(0x127)][_0x4e36e4(0x283)];if(_0x576909&&_0x2830c5&&window[_0x4e36e4(0x116)][_0x4e36e4(0x146)])window['imChat'][_0x4e36e4(0x146)](_0x2830c5,_0x576909,{'scroll':![]});else _0x576909&&(_0x576909['innerHTML']='');}_0x2dc554(_0x4e36e4(0x132)),_0x5aa858(_0x4c3ba4);if(window[_0x4e36e4(0x26a)][_0x4e36e4(0x269)])window['imApp'][_0x4e36e4(0x269)]();}});});_0x40ac97&&_0x40ac97[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x4c7a24=_0x5a842d;window[_0x4c7a24(0x127)][_0x4c7a24(0x283)]&&_0x2d41af({'title':'删除好友','message':_0x4c7a24(0x1f9)+window[_0x4c7a24(0x127)][_0x4c7a24(0x283)][_0x4c7a24(0x104)]+_0x4c7a24(0x235),'isDestructive':!![],'confirmText':'删除','onConfirm':async()=>{const _0x211d3d=_0x4c7a24,_0x27c9ee=window[_0x211d3d(0x127)][_0x211d3d(0x283)],_0x5c5349=_0x27c9ee['id'],_0x1edff3=window['imApp']['commitFriendsChange']?await window['imApp']['commitFriendsChange'](()=>{const _0x4401a3=_0x211d3d;window[_0x4401a3(0x127)]['friends']=(window[_0x4401a3(0x127)]['friends']||[])['filter'](_0x931ae3=>String(_0x931ae3['id'])!==String(_0x5c5349));},{'silent':!![],'friendIds':[],'deletedFriendIds':[_0x5c5349]}):window['imApp']['flushFriendSave']?await window[_0x211d3d(0x26a)][_0x211d3d(0x341)](_0x5c5349,{'silent':!![]}):![];if(!_0x1edff3){_0x2dc554(_0x211d3d(0x225));return;}window[_0x211d3d(0x127)][_0x211d3d(0x283)]&&String(window['imData'][_0x211d3d(0x283)]['id'])===String(_0x5c5349)&&(window[_0x211d3d(0x127)][_0x211d3d(0x283)]=null);window[_0x211d3d(0x127)]['currentActiveFriend']&&String(window[_0x211d3d(0x127)][_0x211d3d(0x355)]['id'])===String(_0x5c5349)&&(window[_0x211d3d(0x127)][_0x211d3d(0x355)]=null);if(window[_0x211d3d(0x26a)][_0x211d3d(0x2d1)])window[_0x211d3d(0x26a)]['renderFriendsList']();_0x5aa858(_0x4c3ba4);if(window[_0x211d3d(0x26a)]['updateChatsView'])window[_0x211d3d(0x26a)][_0x211d3d(0x170)]();const _0x1085f0=document[_0x211d3d(0x315)](_0x211d3d(0x232)+_0x5c5349);if(_0x1085f0)_0x1085f0['remove']();_0x2dc554('已删除好友');}});});const _0x37c2da=document[_0x5a842d(0x315)](_0x5a842d(0x140));_0x37c2da&&_0x37c2da[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x12fb74=_0x5a842d;if(!window['imData']['currentSettingsFriend'])return;if(_0x4c3ba4)_0x5aa858(_0x4c3ba4);if(window['imApp'][_0x12fb74(0x299)])window['imApp'][_0x12fb74(0x299)](window[_0x12fb74(0x127)][_0x12fb74(0x283)]['id']);});const _0x3f8745=document[_0x5a842d(0x315)](_0x5a842d(0x34a));_0x3f8745&&_0x3f8745[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x399b60=_0x5a842d;if(!window['imData'][_0x399b60(0x283)])return;const _0x44d0d9=window[_0x399b60(0x127)][_0x399b60(0x283)],_0x5da641=document[_0x399b60(0x315)](_0x399b60(0x1e5));if(!_0x5da641)return;const _0x2bbed0=document[_0x399b60(0x315)](_0x399b60(0x105)),_0x3af724=document[_0x399b60(0x315)](_0x399b60(0x339)),_0x23d4b7=document[_0x399b60(0x315)](_0x399b60(0x22c)),_0x8f9a49=document[_0x399b60(0x315)](_0x399b60(0x1ff)),_0x562570=document['getElementById'](_0x399b60(0x13a)),_0x3795d4=document['getElementById'](_0x399b60(0x1da));let _0x344223=null;if(_0x3795d4)_0x344223=_0x3795d4[_0x399b60(0x2e7)]('i');let _0x42541e=_0x44d0d9['avatarUrl'];_0x44d0d9[_0x399b60(0xff)]=window[_0x399b60(0x26a)][_0x399b60(0x278)](_0x44d0d9)[_0x399b60(0xff)];if(_0x2bbed0)_0x2bbed0['value']=_0x44d0d9[_0x399b60(0x11b)]||'';if(_0x3af724)_0x3af724[_0x399b60(0x30e)]=_0x44d0d9[_0x399b60(0x104)]||'';if(_0x23d4b7)_0x23d4b7[_0x399b60(0x30e)]=_0x44d0d9[_0x399b60(0x203)]||'';if(_0x8f9a49)_0x8f9a49[_0x399b60(0x30e)]=_0x44d0d9[_0x399b60(0x2e1)]||'';if(_0x44d0d9[_0x399b60(0x20e)]){_0x562570&&(_0x562570[_0x399b60(0x1a3)]=_0x44d0d9['avatarUrl'],_0x562570[_0x399b60(0x363)][_0x399b60(0x28a)]='block');if(_0x344223)_0x344223[_0x399b60(0x363)]['display']=_0x399b60(0x187);}else{_0x562570&&(_0x562570[_0x399b60(0x363)]['display']=_0x399b60(0x187),_0x562570[_0x399b60(0x1a3)]='');if(_0x344223)_0x344223[_0x399b60(0x363)][_0x399b60(0x28a)]='block';}const _0x393324=document[_0x399b60(0x315)]('char-edit-avatar-wrapper'),_0x906bb4=document['getElementById'](_0x399b60(0x2b1));if(_0x393324&&_0x906bb4){const _0x1d7d27=_0x393324[_0x399b60(0x29a)](!![]);_0x393324['parentNode'][_0x399b60(0x173)](_0x1d7d27,_0x393324);const _0xf62d66=_0x906bb4[_0x399b60(0x29a)](!![]);_0x906bb4[_0x399b60(0x217)]['replaceChild'](_0xf62d66,_0x906bb4),_0x1d7d27['addEventListener'](_0x399b60(0x1bb),_0x412edb=>{const _0x4962cb=_0x399b60;if(_0x412edb[_0x4962cb(0x136)][_0x4962cb(0x2ca)]!=='INPUT')_0xf62d66[_0x4962cb(0x1bb)]();}),_0xf62d66[_0x399b60(0x361)]('change',async _0x1f6dc1=>{const _0x572bdb=_0x399b60,_0x3ab6c9=_0x1f6dc1[_0x572bdb(0x136)][_0x572bdb(0x2df)][0x0];if(_0x3ab6c9)try{const _0x3e48df=window[_0x572bdb(0x26a)][_0x572bdb(0x108)]?await window[_0x572bdb(0x26a)][_0x572bdb(0x108)](_0x3ab6c9,{'maxWidth':0x100,'maxHeight':0x100,'mimeType':_0x572bdb(0x1bc),'quality':0.8}):await window[_0x572bdb(0x26a)][_0x572bdb(0x2a3)](_0x3ab6c9),_0x3d2103=document[_0x572bdb(0x315)]('char-edit-avatar-img'),_0x51df1b=document[_0x572bdb(0x315)](_0x572bdb(0x1da));let _0x21acd5=null;if(_0x51df1b)_0x21acd5=_0x51df1b[_0x572bdb(0x2e7)]('i');_0x3d2103&&(_0x3d2103[_0x572bdb(0x1a3)]=_0x42541e,_0x3d2103[_0x572bdb(0x363)][_0x572bdb(0x28a)]=_0x572bdb(0x1b8));if(_0x21acd5)_0x21acd5[_0x572bdb(0x363)]['display']=_0x572bdb(0x187);}catch(_0x2f4b17){console[_0x572bdb(0x34f)](_0x572bdb(0x31c),_0x2f4b17),_0x2dc554(_0x572bdb(0x253));}});}const _0x36e852=document[_0x399b60(0x315)](_0x399b60(0x1b0));if(_0x36e852){const _0x49a9c1=_0x36e852[_0x399b60(0x29a)](!![]);_0x36e852['parentNode'][_0x399b60(0x173)](_0x49a9c1,_0x36e852),_0x49a9c1[_0x399b60(0x361)]('click',async()=>{const _0x742331=_0x399b60,_0x510483=_0x44d0d9['type']===_0x742331(0x130)?_0x742331(0x20a):_0x742331(0x2b0),_0xc31228=await _0xdffbe9(_0x44d0d9,_0x5218cb=>{const _0x2d31fb=_0x742331;_0x5218cb[_0x2d31fb(0x11b)]=_0x2bbed0?_0x2bbed0[_0x2d31fb(0x30e)]:'',_0x5218cb['nickname']=_0x3af724?_0x3af724['value']||_0x510483:_0x510483,_0x5218cb[_0x2d31fb(0x203)]=_0x23d4b7?_0x23d4b7[_0x2d31fb(0x30e)]:'',_0x5218cb['persona']=_0x8f9a49?_0x8f9a49[_0x2d31fb(0x30e)]:'',_0x5218cb[_0x2d31fb(0x20e)]=_0x42541e;},{'silent':!![]});if(!_0xc31228){_0x2dc554(_0x742331(0x342));return;}const _0x405f0b=window[_0x742331(0x127)][_0x742331(0x326)][_0x742331(0x1f2)](_0x4bb4d3=>String(_0x4bb4d3['id'])===String(_0x44d0d9['id']))||_0x44d0d9;window[_0x742331(0x127)]['currentSettingsFriend']=_0x405f0b;const _0x50df74=document[_0x742331(0x315)](_0x742331(0x232)+_0x405f0b['id']);if(_0x50df74){const _0x57fb21=_0x50df74[_0x742331(0x2e7)](_0x742331(0x295)),_0x22e090=_0x50df74[_0x742331(0x2e7)](_0x742331(0x2c7));if(_0x57fb21)_0x57fb21[_0x742331(0x243)]=_0x405f0b[_0x742331(0x104)];_0x22e090&&(_0x405f0b[_0x742331(0x20e)]?_0x22e090[_0x742331(0x172)]=_0x742331(0x13c)+_0x405f0b[_0x742331(0x20e)]+_0x742331(0x205):_0x22e090[_0x742331(0x172)]=_0x742331(0x12f));}const _0x331fe1=document['getElementById']('chat-settings-avatar-img'),_0x5a444b=document['getElementById']('chat-settings-avatar-icon'),_0x4d0ec1=document[_0x742331(0x315)]('chat-settings-name');if(_0x405f0b['avatarUrl']){_0x331fe1&&(_0x331fe1[_0x742331(0x1a3)]=_0x405f0b[_0x742331(0x20e)],_0x331fe1['style']['display']=_0x742331(0x1b8));if(_0x5a444b)_0x5a444b[_0x742331(0x363)][_0x742331(0x28a)]='none';}else{_0x331fe1&&(_0x331fe1['style'][_0x742331(0x28a)]=_0x742331(0x187),_0x331fe1[_0x742331(0x1a3)]='');if(_0x5a444b)_0x5a444b[_0x742331(0x363)][_0x742331(0x28a)]=_0x742331(0x1b8);}if(_0x4d0ec1)_0x4d0ec1[_0x742331(0x243)]=_0x405f0b[_0x742331(0x104)];if(_0x405f0b[_0x742331(0x255)]==='npc')_0x420558(_0x405f0b);if(window[_0x742331(0x26a)][_0x742331(0x2d1)])window['imApp'][_0x742331(0x2d1)]();if(window['imApp'][_0x742331(0x269)])window['imApp']['renderChatsList']();_0x2dc554(_0x742331(0x23c)),_0x5aa858(_0x5da641);});}_0x1eb2b6(_0x5da641);});function _0x1a0f73(){const _0x123726=_0x5a842d;let _0x3c2024=document[_0x123726(0x315)](_0x123726(0x294));if(!_0x3c2024){_0x3c2024=document['createElement'](_0x123726(0x2f4)),_0x3c2024['id']=_0x123726(0x294),_0x3c2024['className']='chat-memory-cherished-detail-overlay',_0x3c2024['style']['position']='fixed',_0x3c2024[_0x123726(0x363)][_0x123726(0x2bc)]='0',_0x3c2024[_0x123726(0x363)]['background']='rgba(0,0,0,0.4)',_0x3c2024[_0x123726(0x363)][_0x123726(0x14b)]='99999',_0x3c2024[_0x123726(0x363)][_0x123726(0x28a)]=_0x123726(0x187),_0x3c2024[_0x123726(0x363)][_0x123726(0x270)]=_0x123726(0x257),_0x3c2024[_0x123726(0x363)][_0x123726(0x308)]=_0x123726(0x257),_0x3c2024[_0x123726(0x363)][_0x123726(0x145)]=_0x123726(0x111),_0x3c2024['style'][_0x123726(0x2c9)]=_0x123726(0x2e5),_0x3c2024[_0x123726(0x172)]=_0x123726(0x1b6),document[_0x123726(0x25b)]['appendChild'](_0x3c2024),_0x3c2024['addEventListener'](_0x123726(0x1bb),_0x1be054=>{_0x1be054['target']===_0x3c2024&&_0x323e83();});const _0x2a1075=_0x3c2024[_0x123726(0x2e7)](_0x123726(0x17d));_0x2a1075&&_0x2a1075[_0x123726(0x361)]('click',_0xbb2088=>{const _0x200407=_0x123726;_0xbb2088[_0x200407(0x2c5)](),_0x323e83();});const _0x4f5465=_0x3c2024[_0x123726(0x2e7)](_0x123726(0x1eb));_0x4f5465&&_0x4f5465[_0x123726(0x361)](_0x123726(0x1bb),async _0x4bda82=>{const _0x23b337=_0x123726;_0x4bda82[_0x23b337(0x2c5)]();const _0x574361=_0x4f5465[_0x23b337(0x1a0)](_0x23b337(0x260));if(!_0x574361)return;let _0x2fd622=window[_0x23b337(0x127)][_0x23b337(0x283)];if(!_0x2fd622){const _0x5dd7ad=document[_0x23b337(0x2e7)]('.memory-friend-story-item.active')?.[_0x23b337(0x199)]?.[_0x23b337(0x2f9)];_0x5dd7ad&&(_0x2fd622=window[_0x23b337(0x127)][_0x23b337(0x326)][_0x23b337(0x1f2)](_0x196d9d=>String(_0x196d9d['id'])===String(_0x5dd7ad)));}if(!_0x2fd622)return;let _0x262a83='';const _0x50b5f9=await window[_0x23b337(0x26a)][_0x23b337(0x291)](_0x2fd622,_0x2f80cf=>{const _0x44396a=_0x23b337;if(!_0x2f80cf||!_0x2f80cf[_0x44396a(0xff)])return;let _0x57074d=Array[_0x44396a(0x298)](_0x2f80cf[_0x44396a(0xff)][_0x44396a(0x10a)])?_0x2f80cf[_0x44396a(0xff)][_0x44396a(0x10a)]:[];_0x57074d=_0x57074d[_0x44396a(0x216)](_0x5f2ccb=>String(_0x5f2ccb['id'])!==String(_0x574361)),_0x2f80cf[_0x44396a(0xff)][_0x44396a(0x10a)]=_0x57074d,_0x57074d[_0x44396a(0x16a)](_0x1c3e55=>{const _0x24f69b=_0x44396a,_0x199d2b=[_0x1c3e55['title']?'【'+_0x1c3e55[_0x24f69b(0x167)]+'】':'',_0x1c3e55[_0x24f69b(0x10d)]||'',_0x1c3e55['reason']?_0x24f69b(0x193)+_0x1c3e55[_0x24f69b(0x246)]:''][_0x24f69b(0x216)](Boolean),_0x40f27c=_0x199d2b['join']('\x0a')[_0x24f69b(0x2a4)]();if(_0x40f27c)_0x262a83+=(_0x262a83?'\x0a\x0a':'')+_0x40f27c;}),_0x2f80cf[_0x44396a(0xff)][_0x44396a(0x21f)]=_0x262a83;},{'silent':!![],'syncActive':!![],'syncSettings':!![]});if(_0x50b5f9){if(window[_0x23b337(0x190)])window[_0x23b337(0x190)](_0x23b337(0x2a6));_0x323e83();const _0x27f2c7=window[_0x23b337(0x26a)][_0x23b337(0x27d)]?window[_0x23b337(0x26a)][_0x23b337(0x27d)](_0x2fd622['id'])||_0x2fd622:window[_0x23b337(0x127)][_0x23b337(0x326)][_0x23b337(0x1f2)](_0x4080e4=>String(_0x4080e4['id'])===String(_0x2fd622['id']))||_0x2fd622,_0xcae765=document['getElementById']('chat-memory-cherished-input');_0xcae765&&window[_0x23b337(0x127)]['currentSettingsFriend']&&String(window[_0x23b337(0x127)]['currentSettingsFriend']['id'])===String(_0x27f2c7['id'])&&(_0xcae765[_0x23b337(0x30e)]=_0x27f2c7[_0x23b337(0xff)]?.[_0x23b337(0x21f)]||'');const _0x24391b=document[_0x23b337(0x315)](_0x23b337(0x335));if(_0x24391b&&_0x24391b[_0x23b337(0x363)][_0x23b337(0x175)]===_0x23b337(0x11a)){const _0x21df2d=document[_0x23b337(0x315)]('memory-location-sheet-content');if(_0x21df2d&&_0x21df2d[_0x23b337(0x172)][_0x23b337(0x35e)](_0x23b337(0x345))){const _0x9df5be=Array[_0x23b337(0x298)](_0x27f2c7['memory']?.[_0x23b337(0x10a)])?_0x27f2c7[_0x23b337(0xff)][_0x23b337(0x10a)]:[],_0x8f0d59=_0x593e53=>String(_0x593e53||'')['replace'](/&/g,_0x23b337(0x325))[_0x23b337(0x11d)](/</g,_0x23b337(0x13b))['replace'](/>/g,_0x23b337(0x20c))[_0x23b337(0x11d)](/"/g,'&quot;')[_0x23b337(0x11d)](/'/g,'&#39;');_0x9df5be['length']===0x0?_0x21df2d[_0x23b337(0x172)]=_0x23b337(0x272):(_0x21df2d[_0x23b337(0x172)]=_0x23b337(0x1ee)+_0x9df5be[_0x23b337(0x10c)]()[_0x23b337(0x1df)]()[_0x23b337(0x174)](_0x2e4c23=>_0x23b337(0x319)+_0x2e4c23['id']+_0x23b337(0x330)+_0x8f0d59(_0x2e4c23[_0x23b337(0x167)]||_0x23b337(0x345))+_0x23b337(0x324)+_0x8f0d59(_0x2e4c23['createdAt']||_0x23b337(0x227))+_0x23b337(0x1e0))[_0x23b337(0x228)]('')+_0x23b337(0x171),_0x21df2d['querySelectorAll']('.chat-memory-modal-cherished-card')['forEach'](_0x3a84df=>{const _0x5c66e8=_0x23b337;_0x3a84df['addEventListener'](_0x5c66e8(0x1bb),()=>{const _0x15a13b=_0x5c66e8,_0xb47c0d=_0x3a84df[_0x15a13b(0x1a0)](_0x15a13b(0x260)),_0x21c088=_0x9df5be[_0x15a13b(0x1f2)](_0x156062=>String(_0x156062['id'])===String(_0xb47c0d));if(_0x21c088)_0x208c24(_0x21c088);});}));}}}else{if(window['showToast'])window['showToast'](_0x23b337(0x1db));}});}return{'detailOverlay':_0x3c2024};}function _0x208c24(_0x3a06a6){const _0x226635=_0x5a842d;_0x1a0f73();const _0x1bd3db=document[_0x226635(0x315)](_0x226635(0x294));if(!_0x1bd3db||!_0x3a06a6)return;const _0x575216=document['getElementById']('chat-memory-cherished-detail-title'),_0xeb6a60=document['getElementById'](_0x226635(0x329)),_0x3f4a84=document['getElementById'](_0x226635(0x23f)),_0x2f5ed0=document['getElementById']('chat-memory-cherished-detail-reason'),_0x363686=document[_0x226635(0x315)]('chat-memory-cherished-detail-thought'),_0x60132a=document['getElementById'](_0x226635(0x28d));if(_0x575216)_0x575216[_0x226635(0x243)]=_0x3a06a6['title']||_0x226635(0x345);if(_0xeb6a60)_0xeb6a60['textContent']=_0x3a06a6['createdAt']||'';if(_0x3f4a84)_0x3f4a84[_0x226635(0x243)]=_0x3a06a6[_0x226635(0x10d)]||'';_0x2f5ed0&&(_0x2f5ed0[_0x226635(0x243)]=_0x3a06a6['reason']?_0x226635(0x250)+_0x3a06a6[_0x226635(0x246)]:'',_0x2f5ed0[_0x226635(0x363)]['display']=_0x3a06a6[_0x226635(0x246)]?'block':'none'),_0x363686&&(_0x363686[_0x226635(0x243)]=_0x3a06a6[_0x226635(0x2b6)]?_0x226635(0x215)+_0x3a06a6[_0x226635(0x2b6)]:'',_0x363686['style'][_0x226635(0x28a)]=_0x3a06a6[_0x226635(0x2b6)]?_0x226635(0x1b8):'none'),_0x60132a&&_0x60132a['setAttribute']('data-entry-id',_0x3a06a6['id']),_0x1bd3db[_0x226635(0x363)][_0x226635(0x28a)]=_0x226635(0x1ab),requestAnimationFrame(()=>{const _0x16a04f=_0x226635;_0x1bd3db['classList'][_0x16a04f(0x162)](_0x16a04f(0x18e));});}function _0x323e83(){const _0x4c33d4=_0x5a842d,_0x52f66e=document['getElementById'](_0x4c33d4(0x294));if(!_0x52f66e)return;_0x52f66e[_0x4c33d4(0x13e)][_0x4c33d4(0x336)](_0x4c33d4(0x18e)),setTimeout(()=>{const _0xd0c892=_0x4c33d4;!_0x52f66e[_0xd0c892(0x13e)][_0xd0c892(0x184)]('active')&&(_0x52f66e[_0xd0c892(0x363)]['display']=_0xd0c892(0x187));},0xdc);}function _0x3692e4(_0x1e807f){return;}async function _0x2785b3(_0x5e1e5d,_0x206ef5={}){const _0x2e8454=_0x5a842d;if(!_0x5e1e5d)return![];const _0x5f91ed=!!_0x206ef5['showToast'],_0x167528=document['getElementById'](_0x2e8454(0x237)),_0x33a13a=document[_0x2e8454(0x315)](_0x2e8454(0x266)),_0x45360a=document['getElementById'](_0x2e8454(0x34e)),_0x3e6ccd=document[_0x2e8454(0x315)](_0x2e8454(0x18b)),_0x3ad900=document[_0x2e8454(0x315)](_0x2e8454(0x20d)),_0x3faba0=document[_0x2e8454(0x315)](_0x2e8454(0x113)),_0x4a65d3={...window[_0x2e8454(0x26a)]['createDefaultMemory'](),..._0x5e1e5d[_0x2e8454(0xff)]||{},'overview':_0x167528?_0x167528[_0x2e8454(0x30e)]:'','context':{'enabled':_0x33a13a?_0x33a13a[_0x2e8454(0x293)]:!![],'limit':_0x45360a&&Number(_0x45360a[_0x2e8454(0x30e)])>0x0?Number(_0x45360a[_0x2e8454(0x30e)]):0x50,'notes':_0x5e1e5d['memory']?.[_0x2e8454(0x29f)]?.[_0x2e8454(0x1b2)]||''},'summary':{'enabled':![],'limit':_0x5e1e5d['memory']?.['summary']?.[_0x2e8454(0x25e)]||0x50,'prompt':_0x5e1e5d[_0x2e8454(0xff)]?.[_0x2e8454(0x1d5)]?.['prompt']||''},'longTerm':_0x5e1e5d['memory']?.[_0x2e8454(0x16e)]||'','shortTermEntries':Array[_0x2e8454(0x298)](_0x5e1e5d[_0x2e8454(0xff)]?.['shortTermEntries'])?_0x5e1e5d['memory'][_0x2e8454(0x28b)]:[],'cherished':_0x3e6ccd?_0x3e6ccd[_0x2e8454(0x30e)]:_0x5e1e5d[_0x2e8454(0xff)]?.[_0x2e8454(0x21f)]||'','schedule':{'enabled':![],'sleepTime':_0x3ad900?_0x3ad900[_0x2e8454(0x30e)]:_0x5e1e5d[_0x2e8454(0xff)]?.[_0x2e8454(0x2f3)]?.[_0x2e8454(0x220)]||_0x2e8454(0x30f),'wakeTime':_0x3faba0?_0x3faba0[_0x2e8454(0x30e)]:_0x5e1e5d['memory']?.[_0x2e8454(0x2f3)]?.[_0x2e8454(0x2f8)]||_0x2e8454(0x1fb)},'relationships':Array[_0x2e8454(0x298)](_0x5e1e5d[_0x2e8454(0xff)]?.['relationships'])?_0x5e1e5d[_0x2e8454(0xff)]['relationships']:[]},_0x5ca417={'silent':_0x206ef5[_0x2e8454(0x13f)]!==![],'immediate':_0x206ef5[_0x2e8454(0x1f5)],'delay':_0x206ef5['delay']},_0x43197c=await _0xdffbe9(_0x5e1e5d,_0x5702a2=>{const _0x131985=_0x2e8454;_0x5702a2[_0x131985(0xff)]=_0x4a65d3;},_0x5ca417);if(!_0x43197c){if(_0x5f91ed)_0x2dc554(_0x2e8454(0x2f5));return![];}if(_0x5f91ed)_0x2dc554(_0x2e8454(0x2d4));return!![];}function _0x3a4630(_0x2f9764){const _0x127ab8=_0x5a842d,_0x34311f=['chat-memory-overview-input',_0x127ab8(0x266),_0x127ab8(0x34e),_0x127ab8(0x18b),'chat-memory-schedule-sleep-input',_0x127ab8(0x113)];_0x34311f[_0x127ab8(0x16a)](_0x5ac884=>{const _0x4d58ed=_0x127ab8,_0x37926b=document[_0x4d58ed(0x315)](_0x5ac884);if(!_0x37926b)return;if(_0x37926b[_0x4d58ed(0x199)][_0x4d58ed(0x305)]===_0x4d58ed(0x2bb))return;const _0x1e1924=async()=>{const _0x1c4d1d=_0x4d58ed;window[_0x1c4d1d(0x127)][_0x1c4d1d(0x283)]&&String(window[_0x1c4d1d(0x127)][_0x1c4d1d(0x283)]['id'])===String(_0x2f9764['id'])&&await _0x2785b3(_0x2f9764,{'showToast':![],'silent':!![],'immediate':![],'delay':0x384});},_0x577bfb=async()=>{const _0x355bbd=_0x4d58ed;window[_0x355bbd(0x127)][_0x355bbd(0x283)]&&String(window['imData']['currentSettingsFriend']['id'])===String(_0x2f9764['id'])&&await _0x2785b3(_0x2f9764,{'showToast':![],'silent':!![],'immediate':!![]});};_0x37926b[_0x4d58ed(0x2ca)]===_0x4d58ed(0x31f)||_0x37926b[_0x4d58ed(0x255)]===_0x4d58ed(0x1f0)||_0x37926b[_0x4d58ed(0x255)]===_0x4d58ed(0x2db)?(_0x37926b[_0x4d58ed(0x361)](_0x4d58ed(0x301),_0x1e1924),_0x37926b[_0x4d58ed(0x361)]('blur',_0x577bfb)):_0x37926b[_0x4d58ed(0x361)](_0x4d58ed(0x26e),_0x577bfb),_0x37926b[_0x4d58ed(0x199)][_0x4d58ed(0x305)]=_0x4d58ed(0x2bb);});}const _0x6a1fdd=document[_0x5a842d(0x315)](_0x5a842d(0x102)),_0x3f687d=document[_0x5a842d(0x315)](_0x5a842d(0x12d)),_0x39c8e6=document[_0x5a842d(0x315)]('chat-memory-summary-close'),_0x44ff68=document[_0x5a842d(0x315)]('chat-memory-summary-confirm'),_0xce27c2=document[_0x5a842d(0x315)](_0x5a842d(0x33a)),_0x6f0e26=document[_0x5a842d(0x315)]('chat-memory-unsummarized-count');function _0x5ae0a7(_0x2e1c46){const _0x270262=_0x5a842d;return Array[_0x270262(0x298)](_0x2e1c46?.['messages'])?_0x2e1c46[_0x270262(0x1dd)][_0x270262(0xfd)]:0x0;}function _0x391ad9(_0x4bcc1f){const _0x4f7bec=_0x5a842d,_0x2f6807=_0x5ae0a7(_0x4bcc1f),_0x112e9e=Math['max'](0x0,Number(_0x4bcc1f?.[_0x4f7bec(0xff)]?.[_0x4f7bec(0x1d9)])||0x0);return Math[_0x4f7bec(0x1e9)](0x0,_0x2f6807-Math[_0x4f7bec(0x276)](_0x112e9e,_0x2f6807));}function _0x562e74(_0x446860,_0x20210f){const _0x334279=_0x5a842d,_0x36a763=_0x446860[_0x334279(0x26f)]==='assistant'?_0x20210f[_0x334279(0x104)]||_0x20210f[_0x334279(0x142)]||_0x20210f['realName']||_0x334279(0x131):_0x5dd65a?.[_0x334279(0x107)]||_0x334279(0x2a5),_0x7bc113=_0x446860[_0x334279(0x302)]?new Date(_0x446860[_0x334279(0x302)])[_0x334279(0x34c)](_0x334279(0x26c),{'hour12':![]}):'',_0x324b56=_0x446860[_0x334279(0x10d)]||_0x446860[_0x334279(0x2db)]||'';return'['+_0x7bc113+']\x20'+_0x36a763+':\x20'+_0x324b56;}function _0x3c728e(_0x1e6006){const _0x2bd4a4=_0x5a842d;let _0x5e1a38=_0x1e6006[_0x2bd4a4(0x360)]||'';if(_0x5e1a38[_0x2bd4a4(0x2b9)]('/'))_0x5e1a38=_0x5e1a38[_0x2bd4a4(0x10c)](0x0,-0x1);return!_0x5e1a38[_0x2bd4a4(0x2b9)](_0x2bd4a4(0x343))&&(_0x5e1a38=_0x5e1a38['endsWith'](_0x2bd4a4(0x1b4))?_0x5e1a38+'/chat/completions':_0x5e1a38+'/v1/chat/completions'),_0x5e1a38;}function _0x25810c(_0xc54b3f){const _0x10b014=_0x5a842d,_0x20df66=_0xc54b3f?.[_0x10b014(0x1d7)]?.[0x0];if(!_0x20df66)return'';return _0x20df66[_0x10b014(0x309)]?.[_0x10b014(0x10d)]||_0x20df66[_0x10b014(0x2db)]||_0x20df66[_0x10b014(0x12b)]?.['content']||'';}function _0x1c411c(_0x3b5240){const _0x3569a7=_0x5a842d;return _0x3b5240?.['lastActivatedAt']||_0x3b5240?.[_0x3569a7(0x21c)]||_0x3b5240?.['createdAt']||'';}function _0x1b9095(_0x3196ce){const _0x59c544=_0x5a842d;if(!_0x3196ce)return null;if(typeof _0x3196ce===_0x59c544(0x1f0)){const _0x2f58d6=new Date(_0x3196ce);return Number['isNaN'](_0x2f58d6[_0x59c544(0x241)]())?null:_0x2f58d6;}const _0x4ae839=String(_0x3196ce)[_0x59c544(0x2a4)](),_0x5ce793=_0x4ae839[_0x59c544(0x11d)](/年/g,'-')['replace'](/月/g,'-')[_0x59c544(0x11d)](/日/g,'\x20')[_0x59c544(0x11d)](/\./g,'-')[_0x59c544(0x11d)](/\//g,'-'),_0x18623e=new Date(_0x5ce793);return Number[_0x59c544(0x2d3)](_0x18623e['getTime']())?null:_0x18623e;}function _0x2d0000(_0x9cc8c6,_0x154dec=new Date(),_0x2d013c=new Set()){const _0x488488=_0x5a842d;if(!Array[_0x488488(0x298)](_0x9cc8c6))return[];const _0x1bd41f=0x18*0x3c*0x3c*0x3e8;return _0x9cc8c6[_0x488488(0x174)](_0x279e45=>{const _0x13f7d2=_0x488488;if(!_0x279e45)return _0x279e45;if(_0x2d013c['has'](String(_0x279e45['id'])))return _0x279e45;const _0xa05fa=_0x1b9095(_0x1c411c(_0x279e45));if(!_0xa05fa)return _0x279e45;const _0x5e1c95=(_0x154dec[_0x13f7d2(0x241)]()-_0xa05fa['getTime']())/_0x1bd41f;if(_0x5e1c95>0x1e)_0x279e45[_0x13f7d2(0x1c3)]='遗忘';else{if(_0x5e1c95>0x7)_0x279e45[_0x13f7d2(0x1c3)]='低';else _0x5e1c95>0x1&&_0x279e45[_0x13f7d2(0x1c3)]==='高'&&(_0x279e45[_0x13f7d2(0x1c3)]='中');}return _0x279e45;});}function _0x19e1f1(_0x703a76){const _0x23e59c=_0x5a842d,_0x5e019f=Array[_0x23e59c(0x298)](_0x703a76?.[_0x23e59c(0xff)]?.['shortTermEntries'])?_0x703a76[_0x23e59c(0xff)][_0x23e59c(0x28b)]:[];if(_0x5e019f[_0x23e59c(0xfd)]===0x0)return'无';return _0x5e019f[_0x23e59c(0x174)](_0x3ae6a4=>['ID:\x20'+_0x3ae6a4['id'],_0x23e59c(0x196)+(_0x3ae6a4[_0x23e59c(0x167)]||_0x23e59c(0x1ca)),_0x23e59c(0x1cb)+(_0x3ae6a4[_0x23e59c(0x21c)]||''),_0x23e59c(0x24b)+(_0x3ae6a4[_0x23e59c(0x2d5)]||''),_0x23e59c(0x128)+(_0x3ae6a4[_0x23e59c(0x17c)]||''),_0x23e59c(0x259)+(_0x3ae6a4['degree']||'高')][_0x23e59c(0x228)]('\x0a'))['join']('\x0a\x0a');}function _0x589fda(_0x589158){const _0xd54342=_0x5a842d,_0x11b0c6=String(_0x589158||'')[_0xd54342(0x2a4)]()[_0xd54342(0x11d)](/^```(?:json)?\s*/i,'')[_0xd54342(0x11d)](/\s*```$/i,'');try{const _0x14000b=JSON[_0xd54342(0x21d)](_0x11b0c6),_0x506adc=_0x14000b['summary']&&typeof _0x14000b[_0xd54342(0x1d5)]===_0xd54342(0x306)?_0x14000b[_0xd54342(0x1d5)]:_0x14000b;let _0x5a78b9=_0x506adc[_0xd54342(0x17c)]||_0x506adc[_0xd54342(0x26d)]||'',_0xb60641='';if(Array[_0xd54342(0x298)](_0x5a78b9))_0xb60641=_0x5a78b9['join']('，');else typeof _0x5a78b9===_0xd54342(0x306)&&_0x5a78b9!==null?_0xb60641=Object[_0xd54342(0x1d8)](_0x5a78b9)['map'](([_0x108544,_0x2b3350])=>_0x108544+':'+_0x2b3350)[_0xd54342(0x228)]('，'):_0xb60641=String(_0x5a78b9);return{'activatedEntryIds':Array[_0xd54342(0x298)](_0x14000b[_0xd54342(0x16f)])?_0x14000b[_0xd54342(0x16f)][_0xd54342(0x174)](String):[],'title':_0x506adc['title']||_0x506adc['标题']||'对话总结','time':_0x506adc[_0xd54342(0x21c)]||_0x506adc['时间']||'','event':_0x506adc[_0xd54342(0x2d5)]||_0x506adc['事件']||'','memoryPoints':_0xb60641,'degree':_0x506adc['degree']||_0x506adc['记忆程度']||'高','raw':_0x589158};}catch(_0x5b1419){const _0x598851=_0x17351c=>{const _0x43099f=_0xd54342,_0x512e7c=_0x11b0c6[_0x43099f(0x244)](new RegExp(_0x17351c+_0x43099f(0x133)));return _0x512e7c?_0x512e7c[0x1][_0x43099f(0x2a4)]():'';};return{'activatedEntryIds':[],'title':_0x598851('标题')||_0xd54342(0x1ca),'time':_0x598851('时间'),'event':_0x598851('事件'),'memoryPoints':_0x598851(_0xd54342(0x26d)),'degree':_0x598851(_0xd54342(0x1c6))||'高','raw':_0x589158};}}async function _0x5832f0(_0x3ee975,_0x2bc532){const _0xe842e6=_0x5a842d,_0x57a4f4=window['getApiConfig']?window[_0xe842e6(0x247)]():window[_0xe842e6(0x318)]||{};if(!_0x57a4f4[_0xe842e6(0x360)]||!_0x57a4f4[_0xe842e6(0x277)])return _0x2dc554(_0xe842e6(0x221)),null;window[_0xe842e6(0x26a)][_0xe842e6(0x206)]&&await window[_0xe842e6(0x26a)][_0xe842e6(0x206)](_0x3ee975);const _0x399e74=Array[_0xe842e6(0x298)](_0x3ee975[_0xe842e6(0x1dd)])?_0x3ee975['messages']:[],_0x2cdf4e=Math['max'](0x0,Number(_0x3ee975[_0xe842e6(0xff)]?.['lastSummaryMessageCount'])||0x0),_0x2be917=_0x399e74['slice'](Math['min'](_0x2cdf4e,_0x399e74[_0xe842e6(0xfd)])),_0x51521f=_0x2be917[_0xe842e6(0x10c)](0x0,_0x2bc532);if(_0x51521f[_0xe842e6(0xfd)]===0x0)return _0x2dc554(_0xe842e6(0x280)),null;const _0x1ae42b=_0x3ee975[_0xe842e6(0x104)]||_0x3ee975[_0xe842e6(0x142)]||_0x3ee975[_0xe842e6(0x11b)]||_0xe842e6(0x131),_0x409766=_0x5dd65a?.[_0xe842e6(0x107)]||'User',_0x4960cf=new Date(),_0x2e02db=_0x4960cf[_0xe842e6(0x2d0)]()+'年'+String(_0x4960cf[_0xe842e6(0x25a)]()+0x1)[_0xe842e6(0x16b)](0x2,'0')+'月'+String(_0x4960cf[_0xe842e6(0x179)]())['padStart'](0x2,'0')+'日\x20'+String(_0x4960cf['getHours']())[_0xe842e6(0x16b)](0x2,'0')+':'+String(_0x4960cf[_0xe842e6(0x103)]())[_0xe842e6(0x16b)](0x2,'0'),_0x14d074=_0x51521f[_0xe842e6(0x174)](_0x4b8da8=>_0x562e74(_0x4b8da8,_0x3ee975))['join']('\x0a'),_0x26b40f=_0x19e1f1(_0x3ee975),_0x196716='查看已有的总结，将与本次需要总结的对话的内容相关的记忆点的记忆条目激活（记忆程度改为高）。\x0a\x0a已有短期记忆总结：\x0a'+_0x26b40f+'\x0a\x0a你是'+_0x1ae42b+_0xe842e6(0x28e)+_0x1ae42b+_0xe842e6(0x1af)+_0x51521f['length']+'条对话进行一次记忆总结，整合精炼成一件完整的事。\x0a\x0a当前真实总结时间：'+_0x2e02db+_0xe842e6(0x19d)+_0x409766+'\x0a\x0a必须只输出\x20JSON，不要\x20markdown，不要解释。JSON\x20字段如下：\x0a{\x0a\x20\x20\x22activatedEntryIds\x22:\x20[\x22与本次对话相关、需要激活的已有记忆ID，没有则为空数组\x22],\x0a\x20\x20\x22summary\x22:\x20{\x0a\x20\x20\x20\x20\x22title\x22:\x20\x2210字内，事件名称\x22,\x0a\x20\x20\x20\x20\x22time\x22:\x20\x22真实时间，精确到总结时的年月日时\x22,\x0a\x20\x20\x20\x20\x22event\x22:\x20\x2220-50字，内容为一件完整的事\x22,\x0a\x20\x20\x20\x20\x22memoryPoints\x22:\x20\x22请输出纯文本字符串格式，必须包含情绪/声音/画面/气味/环境五个感官记忆，每个感官不超过10字，最好用一个词形容\x22,\x0a\x20\x20\x20\x20\x22degree\x22:\x20\x22高\x22\x0a\x20\x20}\x0a}\x0a\x0asummary.degree\x20只可输出“高”。activatedEntryIds\x20只能使用已有短期记忆总结中的\x20ID。\x0a\x0a对话：\x0a'+_0x14d074+_0xe842e6(0x1e2),_0x276f47=_0x3c728e(_0x57a4f4),_0x5ecee7=await fetch(_0x276f47,{'method':_0xe842e6(0x157),'headers':{'Content-Type':'application/json','Authorization':'Bearer\x20'+_0x57a4f4[_0xe842e6(0x277)]},'body':JSON[_0xe842e6(0x18c)]({'model':_0x57a4f4[_0xe842e6(0x332)]||'','messages':[{'role':_0xe842e6(0x18a),'content':_0xe842e6(0x350)},{'role':_0xe842e6(0x2eb),'content':_0x196716}],'temperature':parseFloat(_0x57a4f4[_0xe842e6(0x2dd)])||0.7})});if(!_0x5ecee7['ok'])throw new Error(_0x5ecee7[_0xe842e6(0x354)]+'\x20'+_0x5ecee7['statusText']);const _0x3b90d2=await _0x5ecee7[_0xe842e6(0x11f)](),_0x3aefbc=_0x589fda(_0x25810c(_0x3b90d2));return _0x3aefbc['id']='stm-'+Date[_0xe842e6(0x357)](),_0x3aefbc[_0xe842e6(0x21c)]=_0x3aefbc[_0xe842e6(0x21c)]||_0x2e02db,_0x3aefbc[_0xe842e6(0x1c3)]='高',_0x3aefbc['sourceCount']=_0x51521f[_0xe842e6(0xfd)],_0x3aefbc['sourceEndMessageCount']=Math[_0xe842e6(0x276)](_0x399e74[_0xe842e6(0xfd)],_0x2cdf4e+_0x51521f[_0xe842e6(0xfd)]),_0x3aefbc;}async function _0x385bd5(_0x58bb3a){const _0x200099=_0x5a842d;if(!_0x58bb3a||!_0x3f687d)return;window[_0x200099(0x26a)][_0x200099(0x206)]&&await window[_0x200099(0x26a)][_0x200099(0x206)](_0x58bb3a);_0x58bb3a[_0x200099(0xff)]=window[_0x200099(0x26a)]['normalizeFriendData'](_0x58bb3a)[_0x200099(0xff)];const _0x26802c=_0x391ad9(_0x58bb3a);if(_0x6f0e26)_0x6f0e26['textContent']=String(_0x26802c);if(_0xce27c2)_0xce27c2[_0x200099(0x30e)]=String(Math[_0x200099(0x276)](0x50,Math[_0x200099(0x1e9)](0x1,_0x26802c||0x50)));_0x1eb2b6(_0x3f687d);}_0x6a1fdd&&_0x6a1fdd[_0x5a842d(0x361)]('click',()=>{const _0x53aa80=_0x5a842d;window[_0x53aa80(0x127)]['currentSettingsFriend']&&_0x385bd5(window[_0x53aa80(0x127)][_0x53aa80(0x283)]);});_0x39c8e6&&_0x3f687d&&_0x39c8e6[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>_0x5aa858(_0x3f687d));_0x44ff68&&_0x44ff68[_0x5a842d(0x361)](_0x5a842d(0x1bb),async()=>{const _0x561004=_0x5a842d,_0x561b39=window['imData'][_0x561004(0x283)];if(!_0x561b39)return;const _0x327e2e=Math[_0x561004(0x1e9)](0x1,Number(_0xce27c2?.[_0x561004(0x30e)])||0x50);_0x44ff68[_0x561004(0x265)]=!![],_0x44ff68['textContent']='生成中...';try{const _0x59e63e=await _0x5832f0(_0x561b39,_0x327e2e);if(!_0x59e63e)return;const _0x155620=await _0xdffbe9(_0x561b39,_0x3d2b17=>{const _0x4c4572=_0x561004;_0x3d2b17[_0x4c4572(0xff)]=window[_0x4c4572(0x26a)][_0x4c4572(0x278)](_0x3d2b17)['memory'];if(!Array[_0x4c4572(0x298)](_0x3d2b17['memory']['shortTermEntries']))_0x3d2b17['memory'][_0x4c4572(0x28b)]=[];const _0x5dd969=new Date(),_0x1cc75d=_0x5dd969[_0x4c4572(0x2d0)]()+'年'+String(_0x5dd969['getMonth']()+0x1)['padStart'](0x2,'0')+'月'+String(_0x5dd969[_0x4c4572(0x179)]())[_0x4c4572(0x16b)](0x2,'0')+'日\x20'+String(_0x5dd969['getHours']())[_0x4c4572(0x16b)](0x2,'0')+':'+String(_0x5dd969[_0x4c4572(0x103)]())[_0x4c4572(0x16b)](0x2,'0'),_0xcbead6=new Set(Array['isArray'](_0x59e63e[_0x4c4572(0x16f)])?_0x59e63e[_0x4c4572(0x16f)][_0x4c4572(0x174)](String):[]);_0x3d2b17[_0x4c4572(0xff)][_0x4c4572(0x28b)]['forEach'](_0x3c7c3d=>{const _0x918307=_0x4c4572;_0x3c7c3d&&_0xcbead6['has'](String(_0x3c7c3d['id']))&&(_0x3c7c3d['degree']='高',_0x3c7c3d[_0x918307(0x1dc)]=_0x1cc75d);}),_0x2d0000(_0x3d2b17[_0x4c4572(0xff)][_0x4c4572(0x28b)],_0x5dd969,_0xcbead6),_0x59e63e[_0x4c4572(0x1dc)]=_0x1cc75d,_0x3d2b17[_0x4c4572(0xff)][_0x4c4572(0x28b)][_0x4c4572(0x1ed)](_0x59e63e),_0x3d2b17[_0x4c4572(0xff)]['lastSummaryMessageCount']=Number(_0x59e63e[_0x4c4572(0x33c)])||(Array[_0x4c4572(0x298)](_0x3d2b17['messages'])?_0x3d2b17['messages'][_0x4c4572(0xfd)]:0x0);},{'silent':!![],'immediate':!![]});if(_0x155620){const _0x3b5251=window['imData']['friends']['find'](_0x1b6915=>String(_0x1b6915['id'])===String(_0x561b39['id']))||_0x561b39;_0x3b5251[_0x561004(0xff)]=window['imApp']['normalizeFriendData'](_0x3b5251)['memory'],window['imData'][_0x561004(0x283)]=_0x3b5251;if(window[_0x561004(0x26a)]['renderMemoryView'])window[_0x561004(0x26a)][_0x561004(0x2dc)]();_0x5aa858(_0x3f687d),_0x2dc554(_0x561004(0x25d));}else _0x2dc554('总结保存失败');}catch(_0x935663){console[_0x561004(0x34f)](_0x561004(0x161),_0x935663),_0x2dc554(_0x561004(0x229));}finally{_0x44ff68[_0x561004(0x265)]=![],_0x44ff68[_0x561004(0x243)]='确认';}});function _0x3ef78a(_0x3d95ea){const _0x1a971a=_0x5a842d,_0x896195=document[_0x1a971a(0x315)](_0x1a971a(0x181)),_0x22e9b4=document['getElementById'](_0x1a971a(0x242)),_0x1551d3=document[_0x1a971a(0x315)](_0x1a971a(0x292));if(_0x3d95ea[_0x1a971a(0x20e)]){_0x896195&&(_0x896195['src']=_0x3d95ea[_0x1a971a(0x20e)],_0x896195[_0x1a971a(0x363)]['display']=_0x1a971a(0x1b8));if(_0x22e9b4)_0x22e9b4[_0x1a971a(0x363)][_0x1a971a(0x28a)]=_0x1a971a(0x187);}else{_0x896195&&(_0x896195[_0x1a971a(0x363)][_0x1a971a(0x28a)]=_0x1a971a(0x187),_0x896195[_0x1a971a(0x1a3)]='');if(_0x22e9b4)_0x22e9b4[_0x1a971a(0x363)][_0x1a971a(0x28a)]=_0x1a971a(0x1b8);}if(_0x1551d3)_0x1551d3[_0x1a971a(0x243)]=_0x3d95ea[_0x1a971a(0x104)];}function _0x5c511d(_0x35ffd3){const _0x5ee179=_0x5a842d;if(!_0x35ffd3)return null;window[_0x5ee179(0x127)][_0x5ee179(0x283)]=_0x35ffd3,_0x35ffd3['memory']=window[_0x5ee179(0x26a)][_0x5ee179(0x278)](_0x35ffd3)[_0x5ee179(0xff)],_0x113b8c=![],_0x5f2112=(_0x35ffd3['memory']['relationships']||[])[_0x5ee179(0x174)](_0x14ed81=>({'npcId':String(_0x14ed81['npcId']),'relation':_0x14ed81[_0x5ee179(0x286)]||''})),_0x5cd37d(),_0x3a3aad(_0x5ee179(0x1fa)),_0x3ef78a(_0x35ffd3);const _0x1c3063=document[_0x5ee179(0x315)]('chat-memory-overview-input'),_0x1abeeb=document['getElementById'](_0x5ee179(0x266)),_0x45a4c0=document[_0x5ee179(0x315)]('chat-memory-context-limit-input'),_0x4d04ff=document['getElementById'](_0x5ee179(0x18b)),_0x44e974=document[_0x5ee179(0x315)](_0x5ee179(0x20d)),_0x11a3bf=document['getElementById'](_0x5ee179(0x113));if(_0x1c3063)_0x1c3063[_0x5ee179(0x30e)]=_0x35ffd3[_0x5ee179(0xff)][_0x5ee179(0x312)]||'';if(_0x1abeeb)_0x1abeeb[_0x5ee179(0x293)]=typeof _0x35ffd3['memory'][_0x5ee179(0x29f)][_0x5ee179(0x2c3)]===_0x5ee179(0x159)?_0x35ffd3['memory']['context']['enabled']:!![];if(_0x45a4c0)_0x45a4c0[_0x5ee179(0x30e)]=_0x35ffd3[_0x5ee179(0xff)]['context'][_0x5ee179(0x25e)]||0x50;if(_0x44e974)_0x44e974[_0x5ee179(0x30e)]=_0x35ffd3[_0x5ee179(0xff)][_0x5ee179(0x2f3)]?_0x35ffd3[_0x5ee179(0xff)][_0x5ee179(0x2f3)][_0x5ee179(0x220)]||_0x5ee179(0x30f):'23:00';if(_0x11a3bf)_0x11a3bf[_0x5ee179(0x30e)]=_0x35ffd3['memory'][_0x5ee179(0x2f3)]?_0x35ffd3[_0x5ee179(0xff)][_0x5ee179(0x2f3)][_0x5ee179(0x2f8)]||_0x5ee179(0x1fb):_0x5ee179(0x1fb);_0x3a4630(_0x35ffd3),_0x344d7d(_0x35ffd3);const _0x4ded20=document[_0x5ee179(0x315)](_0x5ee179(0x29d)),_0x26382e=document[_0x5ee179(0x315)](_0x5ee179(0x29e)),_0x26b55e=document[_0x5ee179(0x315)](_0x5ee179(0x25f)),_0x4949ea=document[_0x5ee179(0x315)](_0x5ee179(0x1f1)),_0x18c228=document[_0x5ee179(0x315)](_0x5ee179(0x160)),_0x3698ed=document['getElementById'](_0x5ee179(0x19c)),_0x59d795=document[_0x5ee179(0x315)](_0x5ee179(0x101)),_0x5d78a2=document['getElementById'](_0x5ee179(0x121)),_0x103978=document[_0x5ee179(0x315)](_0x5ee179(0x110)),_0x33df93=document[_0x5ee179(0x315)](_0x5ee179(0x21e));_0x4949ea&&(_0x4949ea[_0x5ee179(0x293)]=!!_0x35ffd3[_0x5ee179(0x15c)]);_0x18c228&&(_0x18c228[_0x5ee179(0x30e)]=_0x35ffd3[_0x5ee179(0x287)]||'zh');_0x3698ed&&(_0x3698ed[_0x5ee179(0x293)]=_0x35ffd3['timeAware']!==![]);const _0x40e791=_0x35ffd3[_0x5ee179(0x10e)]&&typeof _0x35ffd3[_0x5ee179(0x10e)]==='object'?_0x35ffd3[_0x5ee179(0x10e)]:{};return _0x59d795&&(_0x59d795[_0x5ee179(0x293)]=!!_0x40e791['enabled']),_0x5d78a2&&(_0x5d78a2[_0x5ee179(0x363)][_0x5ee179(0x28a)]=_0x40e791[_0x5ee179(0x2c3)]?_0x5ee179(0x1b8):'none'),_0x103978&&(_0x103978[_0x5ee179(0x30e)]=_0x40e791[_0x5ee179(0x2bf)]||''),_0x33df93&&(_0x33df93['value']=_0x40e791[_0x5ee179(0x192)]||0x1),_0x4ded20&&(_0x4ded20[_0x5ee179(0x293)]=!!_0x35ffd3[_0x5ee179(0x2c0)],_0x26382e&&(_0x26382e['style'][_0x5ee179(0x28a)]=_0x5ee179(0x1ab)),_0x26b55e&&(_0x26b55e['value']=_0x35ffd3[_0x5ee179(0x23b)]||_0x5ee179(0x289))),_0x1ba54a(_0x35ffd3),_0xb0ef3c(_0x35ffd3),_0x35ffd3;}function _0x420558(_0x2df89e){const _0x5c06f7=_0x5a842d,_0x5d1663=document[_0x5c06f7(0x315)](_0x5c06f7(0x2b3)),_0x5e6897=document[_0x5c06f7(0x315)](_0x5c06f7(0x2e6)),_0x3347ad=document[_0x5c06f7(0x315)](_0x5c06f7(0x17b));if(_0x2df89e&&_0x2df89e[_0x5c06f7(0x20e)]){_0x5d1663&&(_0x5d1663[_0x5c06f7(0x1a3)]=_0x2df89e[_0x5c06f7(0x20e)],_0x5d1663[_0x5c06f7(0x363)]['display']=_0x5c06f7(0x1b8));if(_0x5e6897)_0x5e6897[_0x5c06f7(0x363)][_0x5c06f7(0x28a)]=_0x5c06f7(0x187);}else{_0x5d1663&&(_0x5d1663[_0x5c06f7(0x363)][_0x5c06f7(0x28a)]=_0x5c06f7(0x187),_0x5d1663[_0x5c06f7(0x1a3)]='');if(_0x5e6897)_0x5e6897[_0x5c06f7(0x363)][_0x5c06f7(0x28a)]='flex';}if(_0x3347ad)_0x3347ad[_0x5c06f7(0x243)]=_0x2df89e?.[_0x5c06f7(0x104)]||_0x5c06f7(0x195);}function _0x268176(_0x45f9f3){const _0xb99fc7=_0x5a842d;if(!_0x45f9f3)return;const _0x2c40f2=document[_0xb99fc7(0x315)](_0xb99fc7(0x232)+_0x45f9f3['id']);if(!_0x2c40f2)return;_0x2c40f2[_0xb99fc7(0x13e)][_0xb99fc7(0x252)](_0xb99fc7(0x1a7),!!_0x45f9f3[_0xb99fc7(0x2c0)]),_0x2c40f2[_0xb99fc7(0x13e)][_0xb99fc7(0x252)](_0xb99fc7(0x26b),!!_0x45f9f3['showTimestamp']&&_0x45f9f3[_0xb99fc7(0x23b)]===_0xb99fc7(0x182));}function _0x4ef535(_0xffdfc1){const _0x139804=_0x5a842d;if(!_0xffdfc1)return null;window['imData'][_0x139804(0x283)]=_0xffdfc1,_0xffdfc1['memory']=window[_0x139804(0x26a)][_0x139804(0x278)](_0xffdfc1)['memory'],_0x420558(_0xffdfc1);const _0x579d6c=document[_0x139804(0x315)](_0x139804(0x30a)),_0x41500d=document[_0x139804(0x315)](_0x139804(0x2cf)),_0x10d0a5=document['getElementById'](_0x139804(0x1ac)),_0x23cfa4=document['getElementById'](_0x139804(0x169));return _0x23cfa4&&(_0x23cfa4[_0x139804(0x293)]=!!_0xffdfc1[_0x139804(0x15c)]),_0x579d6c&&(_0x579d6c[_0x139804(0x293)]=!!_0xffdfc1[_0x139804(0x2c0)],_0x41500d&&(_0x41500d[_0x139804(0x363)][_0x139804(0x28a)]=_0x139804(0x1ab)),_0x10d0a5&&(_0x10d0a5[_0x139804(0x30e)]=_0xffdfc1[_0x139804(0x23b)]||_0x139804(0x289))),_0xb7e6fe(),_0xffdfc1;}function _0x3eb55e(_0x1ed8d9){const _0x108ae5=_0x5a842d,_0x34761b=_0x4ef535(_0x1ed8d9);if(!_0x34761b||!_0x38e64b)return;window['openView']?window[_0x108ae5(0x1cd)](_0x38e64b):_0x38e64b[_0x108ae5(0x13e)][_0x108ae5(0x162)](_0x108ae5(0x18e));}function _0x48c393(_0x3b52e2){const _0x2859e3=_0x5a842d,_0x4c5b7b=window[_0x2859e3(0x26a)]['getFriendById']?window[_0x2859e3(0x26a)][_0x2859e3(0x27d)](_0x3b52e2)||_0x3b52e2:_0x3b52e2;if(_0x4c5b7b&&_0x4c5b7b[_0x2859e3(0x255)]==='npc'){_0x3eb55e(_0x4c5b7b);return;}const _0x3aa970=_0x5c511d(_0x4c5b7b);if(!_0x3aa970||!_0x4c3ba4)return;window[_0x2859e3(0x1cd)]?window[_0x2859e3(0x1cd)](_0x4c3ba4):_0x4c3ba4[_0x2859e3(0x13e)][_0x2859e3(0x162)](_0x2859e3(0x18e));}const _0x22dc1c=document[_0x5a842d(0x315)]('timestamp-toggle'),_0x154395=document[_0x5a842d(0x315)](_0x5a842d(0x29e)),_0x23f5eb=document[_0x5a842d(0x315)]('timestamp-position-select');_0x22dc1c&&_0x22dc1c[_0x5a842d(0x199)][_0x5a842d(0x1e4)]!==_0x5a842d(0x2bb)&&(_0x22dc1c[_0x5a842d(0x199)][_0x5a842d(0x1e4)]=_0x5a842d(0x2bb),_0x22dc1c['addEventListener'](_0x5a842d(0x26e),async _0x5a4f7d=>{const _0x708dbb=_0x5a842d;if(window[_0x708dbb(0x127)]['currentSettingsFriend']){const _0x2057fc=!!window[_0x708dbb(0x127)][_0x708dbb(0x283)]['showTimestamp'],_0xdecad4=_0x5a4f7d[_0x708dbb(0x136)]['checked'],_0x1695db=await _0x437618(_0x2dcaae=>{const _0xd8247=_0x708dbb;_0x2dcaae[_0xd8247(0x2c0)]=_0xdecad4;},{'silent':!![]});if(!_0x1695db){_0x5a4f7d[_0x708dbb(0x136)]['checked']=_0x2057fc,_0x2dc554(_0x708dbb(0x1aa));return;}_0x268176(window['imData']['currentSettingsFriend']);}}));_0x23f5eb&&_0x23f5eb['dataset']['bound']!==_0x5a842d(0x2bb)&&(_0x23f5eb[_0x5a842d(0x199)][_0x5a842d(0x1e4)]=_0x5a842d(0x2bb),_0x23f5eb[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x3f7778=>{const _0x138075=_0x5a842d;if(window['imData'][_0x138075(0x283)]){const _0x43ff69=window['imData'][_0x138075(0x283)]['timestampPosition']||_0x138075(0x289),_0x3e9902=_0x3f7778[_0x138075(0x136)]['value'],_0x511b69=await _0x437618(_0xe72ef2=>{const _0xd694e1=_0x138075;_0xe72ef2[_0xd694e1(0x23b)]=_0x3e9902;},{'silent':!![]});if(!_0x511b69){_0x3f7778[_0x138075(0x136)][_0x138075(0x30e)]=_0x43ff69,_0x2dc554(_0x138075(0x234));return;}_0x268176(window[_0x138075(0x127)]['currentSettingsFriend']);}}));const _0x23cbaa=document[_0x5a842d(0x315)](_0x5a842d(0x30a)),_0x551a83=document[_0x5a842d(0x315)](_0x5a842d(0x2cf)),_0x31b543=document[_0x5a842d(0x315)](_0x5a842d(0x1ac));_0x23cbaa&&_0x23cbaa[_0x5a842d(0x199)]['bound']!=='true'&&(_0x23cbaa[_0x5a842d(0x199)]['bound']=_0x5a842d(0x2bb),_0x23cbaa[_0x5a842d(0x361)]('change',async _0x71fe5a=>{const _0x307e21=_0x5a842d;if(window[_0x307e21(0x127)][_0x307e21(0x283)]){const _0x49939d=!!window[_0x307e21(0x127)][_0x307e21(0x283)][_0x307e21(0x2c0)],_0x2e8b0a=_0x71fe5a[_0x307e21(0x136)][_0x307e21(0x293)],_0x58d251=await _0x437618(_0x4fbdd7=>{const _0x456e82=_0x307e21;_0x4fbdd7[_0x456e82(0x2c0)]=_0x2e8b0a;},{'silent':!![]});if(!_0x58d251){_0x71fe5a[_0x307e21(0x136)]['checked']=_0x49939d,_0x2dc554(_0x307e21(0x1aa));return;}_0x268176(window[_0x307e21(0x127)][_0x307e21(0x283)]);}}));_0x31b543&&_0x31b543[_0x5a842d(0x199)]['bound']!=='true'&&(_0x31b543[_0x5a842d(0x199)][_0x5a842d(0x1e4)]=_0x5a842d(0x2bb),_0x31b543[_0x5a842d(0x361)]('change',async _0x1b3d2d=>{const _0x14cabb=_0x5a842d;if(window[_0x14cabb(0x127)]['currentSettingsFriend']){const _0x1a72bf=window[_0x14cabb(0x127)]['currentSettingsFriend']['timestampPosition']||_0x14cabb(0x289),_0x4eba69=_0x1b3d2d['target']['value'],_0xc0a755=await _0x437618(_0x37cad6=>{const _0x3d5e43=_0x14cabb;_0x37cad6[_0x3d5e43(0x23b)]=_0x4eba69;},{'silent':!![]});if(!_0xc0a755){_0x1b3d2d[_0x14cabb(0x136)][_0x14cabb(0x30e)]=_0x1a72bf,_0x2dc554(_0x14cabb(0x234));return;}_0x268176(window['imData']['currentSettingsFriend']);}}));const _0x4fc06c=document[_0x5a842d(0x315)](_0x5a842d(0x160));_0x4fc06c&&_0x4fc06c[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x3ab114=>{const _0x552b47=_0x5a842d;if(window[_0x552b47(0x127)][_0x552b47(0x283)]){const _0x5ab22f=window[_0x552b47(0x127)]['currentSettingsFriend']['language']||'zh',_0x32ae78=_0x3ab114[_0x552b47(0x136)][_0x552b47(0x30e)],_0x466811=await _0x437618(_0x50f1bf=>{const _0x347a5a=_0x552b47;_0x50f1bf[_0x347a5a(0x287)]=_0x32ae78;},{'silent':!![]});!_0x466811&&(_0x3ab114[_0x552b47(0x136)][_0x552b47(0x30e)]=_0x5ab22f,_0x2dc554('语言设置保存失败'));}});const _0x34ce52=document[_0x5a842d(0x315)](_0x5a842d(0x19c));_0x34ce52&&_0x34ce52[_0x5a842d(0x199)][_0x5a842d(0x1e4)]!==_0x5a842d(0x2bb)&&(_0x34ce52[_0x5a842d(0x199)][_0x5a842d(0x1e4)]=_0x5a842d(0x2bb),_0x34ce52['addEventListener'](_0x5a842d(0x26e),async _0x165219=>{const _0x1ff8ad=_0x5a842d;if(window[_0x1ff8ad(0x127)][_0x1ff8ad(0x283)]){const _0x4af3e4=window['imData'][_0x1ff8ad(0x283)][_0x1ff8ad(0x1e6)]!==![],_0x18925f=_0x165219[_0x1ff8ad(0x136)][_0x1ff8ad(0x293)],_0x24ba29=await _0x437618(_0x382c14=>{_0x382c14['timeAware']=_0x18925f;},{'silent':!![]});!_0x24ba29&&(_0x165219[_0x1ff8ad(0x136)][_0x1ff8ad(0x293)]=_0x4af3e4,_0x2dc554(_0x1ff8ad(0x2fe)));}}));function _0x200d5c(_0x360c58){const _0x44c698=_0x5a842d;return _0x360c58&&_0x360c58['minimaxVoice']&&typeof _0x360c58['minimaxVoice']===_0x44c698(0x306)?_0x360c58['minimaxVoice']:{'enabled':![],'voiceId':'','speed':0x1};}function _0x30dae5(_0x22d03d){const _0x21b88b=_0x5a842d,_0x6a8fcc=document['getElementById'](_0x21b88b(0x121));if(_0x6a8fcc)_0x6a8fcc[_0x21b88b(0x363)][_0x21b88b(0x28a)]=_0x22d03d?_0x21b88b(0x1b8):'none';}const _0xeaaf7=document[_0x5a842d(0x315)](_0x5a842d(0x101));_0xeaaf7&&_0xeaaf7[_0x5a842d(0x199)]['bound']!==_0x5a842d(0x2bb)&&(_0xeaaf7['dataset']['bound']=_0x5a842d(0x2bb),_0xeaaf7[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x1f072f=>{const _0x3cf769=_0x5a842d;if(!window[_0x3cf769(0x127)][_0x3cf769(0x283)])return;const _0xb781bb={..._0x200d5c(window[_0x3cf769(0x127)][_0x3cf769(0x283)])},_0x4807b7=_0x1f072f[_0x3cf769(0x136)][_0x3cf769(0x293)];_0x30dae5(_0x4807b7);const _0x4af91f=await _0x437618(_0x3a63b3=>{const _0x2d7c50=_0x3cf769;_0x3a63b3[_0x2d7c50(0x10e)]={..._0x200d5c(_0x3a63b3),'enabled':_0x4807b7};},{'silent':!![]});!_0x4af91f&&(_0x1f072f[_0x3cf769(0x136)][_0x3cf769(0x293)]=!!_0xb781bb[_0x3cf769(0x2c3)],_0x30dae5(!!_0xb781bb[_0x3cf769(0x2c3)]),_0x2dc554(_0x3cf769(0x333)));}));async function _0x2b791f(_0x25a45c,_0x2afc66,_0x22d6c5,_0x313491){const _0x2633aa=_0x5a842d;if(!window['imData'][_0x2633aa(0x283)])return;const _0x4a0a72=await _0x437618(_0x1b0c80=>{const _0x80fb66=_0x2633aa;_0x1b0c80[_0x80fb66(0x10e)]={..._0x200d5c(_0x1b0c80),[_0x25a45c]:_0x2afc66};},{'silent':!![]});if(!_0x4a0a72){if(_0x22d6c5)_0x22d6c5['value']=_0x313491;_0x2dc554(_0x2633aa(0x333));}}const _0x27fba2=document[_0x5a842d(0x315)](_0x5a842d(0x110));_0x27fba2&&_0x27fba2[_0x5a842d(0x199)]['bound']!==_0x5a842d(0x2bb)&&(_0x27fba2['dataset'][_0x5a842d(0x1e4)]=_0x5a842d(0x2bb),_0x27fba2[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x3efeef=>{const _0x310ff6=_0x5a842d,_0x4e5fc4=_0x200d5c(window[_0x310ff6(0x127)]['currentSettingsFriend'])[_0x310ff6(0x2bf)]||'';await _0x2b791f(_0x310ff6(0x2bf),_0x3efeef[_0x310ff6(0x136)][_0x310ff6(0x30e)]['trim'](),_0x3efeef['target'],_0x4e5fc4);}));const _0x307783=document['getElementById']('chat-minimax-speed-input');_0x307783&&_0x307783[_0x5a842d(0x199)][_0x5a842d(0x1e4)]!==_0x5a842d(0x2bb)&&(_0x307783[_0x5a842d(0x199)]['bound']='true',_0x307783[_0x5a842d(0x361)]('change',async _0x131f7f=>{const _0x4dfdf6=_0x5a842d,_0x1b00f3=_0x200d5c(window[_0x4dfdf6(0x127)]['currentSettingsFriend'])[_0x4dfdf6(0x192)]||0x1,_0x4c9551=Math[_0x4dfdf6(0x1e9)](0.5,Math[_0x4dfdf6(0x276)](0x2,parseFloat(_0x131f7f['target']['value'])||0x1));_0x131f7f[_0x4dfdf6(0x136)][_0x4dfdf6(0x30e)]=_0x4c9551,await _0x2b791f(_0x4dfdf6(0x192),_0x4c9551,_0x131f7f['target'],_0x1b00f3);}));const _0x272fcd=document[_0x5a842d(0x315)]('chat-avatar-toggle');_0x272fcd&&_0x272fcd[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x2d7a4a=>{const _0x41101e=_0x5a842d;if(window['imData'][_0x41101e(0x283)]){const _0x2509a1=!!window['imData'][_0x41101e(0x283)][_0x41101e(0x15c)],_0x3a2eec=_0x2d7a4a['target'][_0x41101e(0x293)],_0x4fa23f=await _0x437618(_0x54ac08=>{const _0x525631=_0x41101e;_0x54ac08[_0x525631(0x15c)]=_0x3a2eec;},{'silent':!![]});if(!_0x4fa23f){_0x2d7a4a[_0x41101e(0x136)][_0x41101e(0x293)]=_0x2509a1,_0x2dc554(_0x41101e(0x1c8));return;}if(window[_0x41101e(0x116)]&&window[_0x41101e(0x116)][_0x41101e(0x146)]){const _0x1d17f9=window[_0x41101e(0x127)][_0x41101e(0x283)],_0x561c58=document['getElementById']('chat-interface-'+_0x1d17f9['id']);if(_0x561c58){const _0x259e25=_0x561c58['querySelector'](_0x41101e(0x188));if(_0x259e25)window['imChat'][_0x41101e(0x146)](_0x1d17f9,_0x259e25,{'scroll':![]});}}}});const _0xa1fa0c=document['getElementById'](_0x5a842d(0x1ea));_0xa1fa0c&&_0xa1fa0c[_0x5a842d(0x361)](_0x5a842d(0x26e),async _0x429884=>{const _0x3a516d=_0x5a842d;if(window['imData'][_0x3a516d(0x283)]){const _0x366c2e=!!window[_0x3a516d(0x127)][_0x3a516d(0x283)]['isPinned'],_0x322c25=_0x429884[_0x3a516d(0x136)]['checked'],_0x54c491=await _0x437618(_0x19f551=>{const _0xfa0ac8=_0x3a516d;_0x19f551[_0xfa0ac8(0x263)]=_0x322c25;},{'silent':!![]});if(!_0x54c491){_0x429884['target'][_0x3a516d(0x293)]=_0x366c2e,_0x2dc554(_0x3a516d(0x359));return;}if(window[_0x3a516d(0x26a)][_0x3a516d(0x269)])window[_0x3a516d(0x26a)][_0x3a516d(0x269)]();_0x2dc554(window[_0x3a516d(0x127)][_0x3a516d(0x283)][_0x3a516d(0x263)]?_0x3a516d(0x224):_0x3a516d(0x1a2));const _0x7bc140=document['getElementById'](_0x3a516d(0x232)+window['imData']['currentSettingsFriend']['id']);_0x7bc140&&(window[_0x3a516d(0x127)]['currentSettingsFriend'][_0x3a516d(0x263)]?_0x7bc140[_0x3a516d(0x13e)][_0x3a516d(0x162)](_0x3a516d(0x2ac)):_0x7bc140[_0x3a516d(0x13e)][_0x3a516d(0x336)]('pinned-chat'));}});function _0x5b5762(_0x3e724e){const _0x13c84b=_0x5a842d;window[_0x13c84b(0x127)]['currentSettingsFriend']=_0x3e724e;}function _0x1c2a74(_0x12654){const _0x5d552f=_0x5a842d;let _0x20f5ab=document[_0x5d552f(0x315)]('custom-style-'+_0x12654['id']);!_0x20f5ab&&(_0x20f5ab=document[_0x5d552f(0x1b7)](_0x5d552f(0x363)),_0x20f5ab['id']='custom-style-'+_0x12654['id'],document[_0x5d552f(0x208)][_0x5d552f(0x2d2)](_0x20f5ab));let _0x399c94='';if(_0x12654[_0x5d552f(0x33f)]&&_0x12654['customCss']){const _0xf03241=_0x5d552f(0x21a)+_0x12654['id'];_0x399c94+=window[_0x5d552f(0x26a)][_0x5d552f(0x1b1)]?window[_0x5d552f(0x26a)][_0x5d552f(0x1b1)](_0x12654[_0x5d552f(0x2f7)],_0xf03241):_0x12654['customCss'][_0x5d552f(0x11d)](/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/ig,_0xf03241+'\x20'+'$1$2'),_0x399c94+='\x0a';}if(_0x12654['statusCssEnabled']&&_0x12654[_0x5d552f(0x258)]){const _0x5dde87=_0x5d552f(0x21a)+_0x12654['id'];_0x399c94+=window[_0x5d552f(0x26a)][_0x5d552f(0x1b1)]?window[_0x5d552f(0x26a)][_0x5d552f(0x1b1)](_0x12654['statusCss'],_0x5dde87):_0x12654['statusCss']['replace'](/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/ig,_0x5dde87+'\x20'+'$1$2'),_0x399c94+='\x0a';}_0x20f5ab['textContent']=_0x399c94;}function _0x277095(){const _0x1d5d9a=_0x5a842d;window[_0x1d5d9a(0x127)][_0x1d5d9a(0x326)]&&window[_0x1d5d9a(0x127)][_0x1d5d9a(0x326)][_0x1d5d9a(0x16a)](_0x5b9cc8=>_0x1c2a74(_0x5b9cc8)),window['imApp'][_0x1d5d9a(0x148)]&&window['imApp'][_0x1d5d9a(0x148)](window[_0x1d5d9a(0x1c5)]||{});}setTimeout(()=>_0x277095(),0x64);const _0x434dd4=document[_0x5a842d(0x315)](_0x5a842d(0x317)),_0x3d22b5=document[_0x5a842d(0x315)]('load-css-preset-btn'),_0x201f75=document['getElementById']('css-preset-list-sheet'),_0x14a782=document[_0x5a842d(0x315)](_0x5a842d(0x275));_0x201f75&&_0x201f75[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x181aa0=>{const _0xa2f2cc=_0x5a842d;_0x181aa0[_0xa2f2cc(0x136)]===_0x201f75&&_0x5aa858(_0x201f75);});let _0x8c0fab=Array[_0x5a842d(0x298)](window[_0x5a842d(0x127)][_0x5a842d(0x1d0)])?window[_0x5a842d(0x127)][_0x5a842d(0x1d0)]:[];_0x434dd4&&_0x434dd4[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x275571=_0x5a842d;if(!window[_0x275571(0x127)][_0x275571(0x283)])return;_0x2d41af({'type':'prompt','title':_0x275571(0x17f),'placeholder':_0x275571(0x2f6),'confirmText':'保存','onConfirm':_0x36bc6a=>{const _0x467aaa=_0x275571;if(_0x36bc6a&&_0x36bc6a[_0x467aaa(0x2a4)]()){_0x8c0fab[_0x467aaa(0x1ed)]({'name':_0x36bc6a[_0x467aaa(0x2a4)](),'css':bubbleCssInput[_0x467aaa(0x30e)],'id':Date[_0x467aaa(0x357)]()}),window[_0x467aaa(0x127)][_0x467aaa(0x1d0)]=_0x8c0fab;if(window[_0x467aaa(0x202)])window[_0x467aaa(0x202)]();_0x2dc554('预设已保存');}}});});_0x3d22b5&&_0x3d22b5['addEventListener'](_0x5a842d(0x1bb),()=>{_0x21c7ae(),_0x1eb2b6(_0x201f75);});function _0x21c7ae(){const _0x36016c=_0x5a842d;if(!_0x14a782)return;_0x14a782[_0x36016c(0x172)]='';if(_0x8c0fab[_0x36016c(0xfd)]===0x0){_0x14a782[_0x36016c(0x172)]=_0x36016c(0x24a);return;}_0x8c0fab['forEach'](_0x1ec030=>{const _0x367239=_0x36016c,_0x13142a=document[_0x367239(0x1b7)](_0x367239(0x2f4));_0x13142a[_0x367239(0x24e)]=_0x367239(0x15a),_0x13142a[_0x367239(0x172)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-content\x22\x20style=\x22cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-name\x22>'+_0x1ec030[_0x367239(0x107)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22delete-icon\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x13142a['querySelector'](_0x367239(0x2ba))[_0x367239(0x361)](_0x367239(0x1bb),()=>{const _0x31a37a=_0x367239;window[_0x31a37a(0x127)][_0x31a37a(0x283)]&&(bubbleCssInput['value']=_0x1ec030['css'],applyCssBtn[_0x31a37a(0x1bb)](),_0x5aa858(_0x201f75));}),_0x13142a[_0x367239(0x2e7)](_0x367239(0x30b))[_0x367239(0x361)]('click',_0x197df0=>{const _0x3ba63b=_0x367239;_0x197df0[_0x3ba63b(0x2c5)](),_0x8c0fab=_0x8c0fab['filter'](_0x50f20e=>_0x50f20e['id']!==_0x1ec030['id']),window[_0x3ba63b(0x127)][_0x3ba63b(0x1d0)]=_0x8c0fab;if(window['saveGlobalData'])window[_0x3ba63b(0x202)]();_0x21c7ae();}),_0x14a782[_0x367239(0x2d2)](_0x13142a);});}const _0x457410=document[_0x5a842d(0x315)](_0x5a842d(0x15e)),_0x82645b=document['getElementById']('bind-stickers-list'),_0x567be4=document[_0x5a842d(0x315)]('bind-stickers-empty'),_0x30a44d=document[_0x5a842d(0x315)]('confirm-bind-stickers-btn'),_0x452b36=document[_0x5a842d(0x315)](_0x5a842d(0xfe)),_0x1cf2bf=document[_0x5a842d(0x315)]('stickers-btn'),_0x17a5e0=document[_0x5a842d(0x315)]('stickers-btn-count');_0x457410&&_0x457410[_0x5a842d(0x361)](_0x5a842d(0x1bb),_0x2709cc=>{const _0x22abc1=_0x5a842d;if(_0x2709cc[_0x22abc1(0x136)]===_0x457410)_0x5aa858(_0x457410);});_0x1cf2bf&&_0x457410&&_0x1cf2bf[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{const _0x5e379a=_0x5a842d;if(!window[_0x5e379a(0x127)][_0x5e379a(0x283)])return;_0x536d67(),_0x1eb2b6(_0x457410);});_0x30a44d&&_0x30a44d[_0x5a842d(0x361)](_0x5a842d(0x1bb),()=>{_0x5aa858(_0x457410);});function _0x1251b0(){const _0x116c3f=_0x5a842d;return{'activeTab':_0x116c3f(0x31b),'thought':'','location':_0x116c3f(0x320),'action':_0x116c3f(0x14d),'mood':'平静','expression':'自然','affection':0x0,'affectionChange':0x0,'status':_0x116c3f(0x2ea),'thoughtHistory':[],'events':[]};}function _0x3c920c(_0x23bf20){const _0x361f0a=_0x5a842d;if(!_0x23bf20)return;const _0x4da523=document[_0x361f0a(0x315)](_0x361f0a(0x232)+_0x23bf20['id']),_0x109c28=_0x4da523?_0x4da523['querySelector'](_0x361f0a(0x35f)):null;_0x109c28&&_0x109c28['classList']['contains'](_0x361f0a(0x18e))&&window[_0x361f0a(0x116)]&&typeof window['imChat'][_0x361f0a(0x27e)]===_0x361f0a(0x118)&&window[_0x361f0a(0x116)]['renderProfilePanel'](_0x23bf20,_0x109c28);}_0x452b36&&_0x452b36['addEventListener'](_0x5a842d(0x1bb),()=>{const _0x9b8282=_0x5a842d;if(!window[_0x9b8282(0x127)][_0x9b8282(0x283)])return;_0x2d41af({'title':_0x9b8282(0x2b8),'message':_0x9b8282(0x2d8),'isDestructive':!![],'confirmText':_0x9b8282(0x353),'onConfirm':async()=>{const _0x341755=_0x9b8282,_0x501c26=await _0x437618(_0x503d8d=>{const _0x483e96=_0x4e49;if(!_0x503d8d)return;_0x503d8d[_0x483e96(0x223)]=_0x1251b0(),_0x503d8d[_0x483e96(0x236)]='',_0x503d8d[_0x483e96(0x354)]=_0x483e96(0x2ea);},{'syncActive':!![],'silent':!![]});if(_0x501c26){const _0xa69667=window[_0x341755(0x127)][_0x341755(0x283)];_0x536d67(),_0xb0ef3c(_0xa69667),_0x3c920c(_0xa69667),_0x2dc554(_0x341755(0x31a));}else _0x2dc554(_0x341755(0x152));}});});function _0xb0ef3c(_0x336378){const _0x5e3689=_0x5a842d;if(_0x17a5e0){const _0x82c1cf=(_0x336378[_0x5e3689(0x223)]?.['thoughtHistory']||[])[_0x5e3689(0xfd)];_0x17a5e0[_0x5e3689(0x243)]=_0x82c1cf>0x0?_0x82c1cf+'条':'';}}function _0xb8d202(_0x3d4fe2){const _0x51d2d1=_0x5a842d;return String(_0x3d4fe2??'')[_0x51d2d1(0x11d)](/&/g,'&amp;')[_0x51d2d1(0x11d)](/</g,_0x51d2d1(0x13b))['replace'](/>/g,_0x51d2d1(0x20c))[_0x51d2d1(0x11d)](/"/g,'&quot;')[_0x51d2d1(0x11d)](/'/g,'&#39;');}function _0x536d67(){const _0x1e12ea=_0x5a842d;if(!_0x82645b)return;_0x82645b['innerHTML']='';if(_0x567be4)_0x567be4[_0x1e12ea(0x363)]['display']=_0x1e12ea(0x187);const _0x264c01=window[_0x1e12ea(0x127)]['currentSettingsFriend'];if(!_0x264c01)return;const _0x2c2a73=_0x264c01[_0x1e12ea(0x223)]?.[_0x1e12ea(0x13d)]||[];if(_0x2c2a73[_0x1e12ea(0xfd)]===0x0){_0x567be4?_0x567be4[_0x1e12ea(0x363)]['display']=_0x1e12ea(0x1b8):_0x82645b[_0x1e12ea(0x172)]=_0x1e12ea(0x164);return;}_0x2c2a73['forEach'](_0x13e074=>{const _0x2c11f0=_0x1e12ea,_0x51c241=document[_0x2c11f0(0x1b7)](_0x2c11f0(0x2f4));_0x51c241[_0x2c11f0(0x363)][_0x2c11f0(0x1f4)]=_0x2c11f0(0x282);const _0xfe82d0=_0x13e074[_0x2c11f0(0x21c)]?new Date(_0x13e074[_0x2c11f0(0x21c)])[_0x2c11f0(0x34c)]():'',_0x48e1d4=_0xb8d202(_0x13e074[_0x2c11f0(0x10d)]);_0x51c241[_0x2c11f0(0x172)]=_0x2c11f0(0x2c6)+_0xb8d202(_0xfe82d0)+_0x2c11f0(0x2da)+_0x48e1d4+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22thought-edit-area\x22\x20style=\x22display:\x20none;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20style=\x22width:\x20100%;\x20height:\x2080px;\x20box-sizing:\x20border-box;\x20background:\x20#ffffff;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20border:\x201px\x20solid\x20#007aff;\x20resize:\x20none;\x20font-size:\x2015px;\x20\x20outline:\x20none;\x20font-family:\x20inherit;\x22>'+_0x48e1d4+_0x2c11f0(0x1ce);const _0x4e21f4=_0x51c241[_0x2c11f0(0x2e7)](_0x2c11f0(0x177)),_0x549fb6=_0x51c241[_0x2c11f0(0x2e7)](_0x2c11f0(0x1b9)),_0x52ca9a=_0x51c241[_0x2c11f0(0x2e7)](_0x2c11f0(0x135)),_0x1cd763=_0x51c241[_0x2c11f0(0x2e7)]('.edit-thought-btn');let _0x349003=![];_0x1cd763['addEventListener'](_0x2c11f0(0x1bb),async()=>{const _0x54c613=_0x2c11f0;if(!_0x349003)_0x349003=!![],_0x1cd763[_0x54c613(0x172)]='<i\x20class=\x22fas\x20fa-check\x22\x20style=\x22color:\x20#34c759;\x20font-size:\x2016px;\x22></i>',_0x4e21f4[_0x54c613(0x363)][_0x54c613(0x28a)]='none',_0x549fb6[_0x54c613(0x363)][_0x54c613(0x28a)]=_0x54c613(0x1b8),_0x52ca9a['focus']();else{const _0x1dcd56=_0x52ca9a[_0x54c613(0x30e)][_0x54c613(0x2a4)]();if(!_0x1dcd56){_0x2dc554(_0x54c613(0x14a));return;}if(_0x1dcd56!==_0x13e074[_0x54c613(0x10d)]){const _0x3f8447=await _0x437618(_0x524b3c=>{const _0x103e88=_0x54c613;if(_0x524b3c[_0x103e88(0x223)]&&_0x524b3c[_0x103e88(0x223)][_0x103e88(0x13d)]){const _0x178929=_0x524b3c[_0x103e88(0x223)][_0x103e88(0x13d)][_0x103e88(0x1f2)](_0x444a4a=>_0x444a4a['id']===_0x13e074['id']);_0x178929&&(_0x178929[_0x103e88(0x10d)]=_0x1dcd56);}},{'silent':!![]});_0x3f8447?(_0x13e074[_0x54c613(0x10d)]=_0x1dcd56,_0x4e21f4['textContent']=_0x1dcd56,_0x2dc554(_0x54c613(0x34d))):(_0x2dc554(_0x54c613(0x267)),_0x52ca9a['value']=_0x13e074[_0x54c613(0x10d)]);}_0x349003=![],_0x1cd763['innerHTML']=_0x54c613(0x100),_0x4e21f4['style'][_0x54c613(0x28a)]=_0x54c613(0x1b8),_0x549fb6[_0x54c613(0x363)]['display']=_0x54c613(0x187);}}),_0x51c241['querySelector'](_0x2c11f0(0x1c0))['addEventListener']('click',()=>{const _0x3fd5dd=_0x2c11f0;_0x2d41af({'title':_0x3fd5dd(0x226),'message':_0x3fd5dd(0x185),'isDestructive':!![],'confirmText':'删除','onConfirm':async()=>{const _0x507d92=_0x3fd5dd,_0x20dcc7=await _0x437618(_0x5b13f5=>{const _0x242ff8=_0x4e49;_0x5b13f5[_0x242ff8(0x223)]&&_0x5b13f5[_0x242ff8(0x223)][_0x242ff8(0x13d)]&&(_0x5b13f5['profilePanel'][_0x242ff8(0x13d)]=_0x5b13f5[_0x242ff8(0x223)]['thoughtHistory'][_0x242ff8(0x216)](_0x1e2017=>_0x1e2017['id']!==_0x13e074['id']));},{'silent':!![]});_0x20dcc7?(_0x2dc554(_0x507d92(0x22f)),_0x536d67(),_0xb0ef3c(window[_0x507d92(0x127)]['currentSettingsFriend'])):_0x2dc554(_0x507d92(0x1db));}});}),_0x82645b[_0x2c11f0(0x2d2)](_0x51c241);});}window['imApp'][_0x5a842d(0x33d)]=_0x5c511d,window[_0x5a842d(0x26a)][_0x5a842d(0x271)]=_0x48c393,window[_0x5a842d(0x26a)]['updateStatusBarBtnCount']=_0x1ba54a,window[_0x5a842d(0x26a)]['updateStickersBtnCount']=_0xb0ef3c,window[_0x5a842d(0x26a)][_0x5a842d(0x1d1)]=_0x14958f,window['imApp']['initTimestampSetting']=_0x5b5762,window[_0x5a842d(0x26a)]['applyFriendCss']=_0x1c2a74,window[_0x5a842d(0x26a)][_0x5a842d(0x27c)]=_0x277095,window[_0x5a842d(0x26a)]['renderRelationshipSheet']=_0x1b3f15,window[_0x5a842d(0x26a)]['getBoundAccountByFriend']=_0x2f4825,window[_0x5a842d(0x26a)][_0x5a842d(0x284)]=_0x55c592,window[_0x5a842d(0x26a)][_0x5a842d(0x268)]=_0x2f6dd3,window['imApp']['updateChatBindIdLabel']=_0x344d7d,window['imApp'][_0x5a842d(0x1de)]=_0x3692e4,window['imApp'][_0x5a842d(0x249)]=_0x208c24,window[_0x5a842d(0x26a)]['hideCherishedMemoryDetail']=_0x323e83,window['imApp'][_0x5a842d(0x2d9)]=_0x4c31af,window[_0x5a842d(0x26a)][_0x5a842d(0x349)]=_0x3d2608;}));function _0x4e49(_0x4cb300,_0x4248ec){_0x4cb300=_0x4cb300-0xfd;const _0x29e3c7=_0x29e3();let _0x4e494a=_0x29e3c7[_0x4cb300];return _0x4e494a;}function _0x29e3(){const _0x1dd7f2=['世界书绑定保存失败','timestamp-toggle','timestamp-position-body','context','关系网已保存','30RDIdlk','chat-bg-reset-icon','readFileAsDataUrl','trim','User','已删除下载项','#c7c7cc','#3f3f46','has-chat-bg','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','scale','pinned-chat','#34c759','font','rotate','New\x20Friend','char-edit-avatar-upload','--im-chat-bg-image','npc-chat-settings-avatar-img','preventDefault','labelEl','sourceThought','npc-delete-friend-btn','清空状态栏','endsWith','.account-content','true','inset','\x22\x20type=\x22text\x22\x20placeholder=\x22输入关系\x22\x20value=\x22','clear-history-btn','voiceId','showTimestamp','stroke','relationship-picker-list','enabled','chat-memory-modal-overlay','stopPropagation','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20width:\x20100%;\x20padding-left:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','.ins-chat-avatar','这里还没有记录长期记忆内容。','boxSizing','tagName','strokeStyle','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-desc\x22>','关系网保存失败','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','npc-timestamp-position-body','getFullYear','renderFriendsList','appendChild','isNaN','记忆设置已保存','event','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2020px;\x22>所有世界书都已启用全局，无需在此单独绑定</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:\x208px;\x20margin-bottom:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>聊天总数</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','确定彻底清空当前角色的状态栏数据吗？这会删除当前心声、心声历史、状态栏事件、位置、动作、心情、表情和好感记录。','showChatMemoryModal','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2014px;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22edit-thought-btn\x22\x20style=\x22color:\x20#007aff;\x20cursor:\x20pointer;\x20padding:\x200\x202px;\x22><i\x20class=\x22fas\x20fa-edit\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22del-thought-btn\x22\x20style=\x22color:\x20#ff3b30;\x20cursor:\x20pointer;\x20padding:\x200\x202px;\x22><i\x20class=\x22fas\x20fa-times\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22thought-content-display\x22\x20style=\x22font-size:\x2015px;\x20color:\x20#000;\x20line-height:\x201.5;\x20white-space:\x20pre-wrap;\x20background:\x20#ffffff;\x20padding:\x2012px\x2016px;\x20border-radius:\x2018px;\x20border-top-left-radius:\x204px;\x20\x22>','text','renderMemoryView','temperature','width','files','角色记忆','persona','world-book-btn','删除\x20NPC','作息时间','border-box','npc-chat-settings-avatar-icon','querySelector','bind-account-empty','#chat-settings-segment\x20.char-settings-tab','online','user','#active-chat-interface\x20.chat-menu-btn','grab','commitFriendsChange','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-text-block\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','该\x20ID\x20暂无人设','relationship-picker','chat-settings-sheet','schedule','div','记忆设置保存失败','输入预设名称','customCss','wakeTime','friendId','.chat-sticky-container','chat-memory-overview-stats','chat-memory-modal-label','cos','时间感知设置保存失败','relationship-canvas','\x22\x20alt=\x22\x22>','input','timestamp','16px','offsetY','chatMemoryBound','object','世界书绑定已更新','justifyContent','message','npc-timestamp-toggle','.delete-icon','renderWorldBooks','left','value','23:00','这里还没有珍视回忆。','resetFriendMessages','overview','bind-account-list','beginPath','getElementById','moveTo','save-css-preset-btn','apiConfig','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-modal-cherished-card\x22\x20data-entry-id=\x22','状态栏已清空','thought','Failed\x20to\x20process\x20character\x20avatar\x20image','已更换聊天背景','<i\x20class=\x22fas\x20fa-check\x22></i>','TEXTAREA','未知位置','<div\x20style=\x22text-align:center;\x20color:#8e8e93;\x20padding:24px\x2016px;\x20font-size:14px;\x20line-height:1.6;\x22>当前还没有关联\x20NPC。<br>点击下方“添加NPC”可从已有\x20NPC\x20中拉取。</div>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>总Token估算</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','querySelectorAll','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-time\x22>','&amp;','friends','calculateTokens','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>建联天数</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','chat-memory-cherished-detail-time','metaOnly','chat-memory-modal-title','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2020px;\x22>暂无世界书，请先在主界面创建</div>','999px','getBoundingClientRect','top','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-title\x22>',';\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20color:#fff;\x20font-size:11px;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','model','Minimax\x20语音设置保存失败','transparent','memory-location-sheet','remove','.relationship-delete-btn','buildApiContextMessages','char-nickname-input','chat-memory-summary-count-input','textAlign','sourceEndMessageCount','initChatSettingsForFriend','relationships','customCssEnabled','height','flushFriendSave','角色修改保存失败','/chat/completions','touchend','下载项','npc-chat-bg-upload-icon','syncSettingsFriendReference','background-position','hideChatMemoryModal','chat-settings-profile-trigger','chat-bg-save-icon','toLocaleString','心声已更新','chat-memory-context-limit-input','error','你只输出可解析\x20JSON。','removeProperty','setProperty','清空全部','status','currentActiveFriend','fa-id-card','now','#chat-settings-sheet\x20.char-settings-panel','置顶设置保存失败','npc-chat-bg-reset-icon','lineWidth','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2036px;\x20height:\x2036px;\x20background-color:\x20#1c1c1e;\x20border-radius:\x2010px;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-book\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20500;\x20color:\x20#000;\x22>','记录长期稳定的重要设定、偏好与关系事实','includes','.chat-profile-panel-overlay','endpoint','addEventListener','收纳那些值得被记住的时刻','style','2px\x20solid\x20var(--blue-color)','relationship-item','length','clear-all-statusbar-btn','memory','<i\x20class=\x22fas\x20fa-edit\x22></i>','chat-minimax-enabled-toggle','chat-memory-manual-summary-btn','getMinutes','nickname','char-realname-input','珍视回忆','name','compressImageFile','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-modal-cherished-card\x22\x20data-entry-id=\x22','cherishedEntries','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-delete-btn\x22\x20style=\x22color:\x20#ff3b30;\x20cursor:\x20pointer;\x20padding:\x200\x2010px;\x20font-size:\x2018px;\x22><i\x20class=\x22fas\x20fa-minus-circle\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','slice','content','minimaxVoice','pointer','chat-minimax-voice-id-input','20px','background-size','chat-memory-schedule-wake-input','rgba(88,\x2086,\x20214,\x200.28)','bind-world-book-list','imChat','scrollTop','function','已重置聊天背景','translateY(0px)','realName','33256fZGzRU','replace','已有NPC已全部拉取','json','角色绑定ID已更新','chat-minimax-settings-body','clientY','npc-chat-settings-sheet','清空聊天记录失败','npc-chat-pinned-toggle','2702xXpDHD','imData','记忆点:\x20','确定清空所有聊天记录吗？此操作不可恢复。','chat-bg-upload','delta','聊天背景保存失败','chat-memory-summary-modal','data-npc-id','<i\x20class=\x22fas\x20fa-user\x22></i>','npc','Char','已清空聊天记录','[:：]\x5cs*([\x5cs\x5cS]*?)(?=\x5cn(?:标题|时间|事件|记忆点|记忆程度)[:：]|$)','chat-bind-id-btn','textarea','target','relationship-sheet','已取消绑定ID','boundAccountId','char-edit-avatar-img','&lt;','<img\x20src=\x22','thoughtHistory','classList','silent','chat-settings-moments-btn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20class=\x22relationship-input\x22\x20data-npc-id=\x22','realname','<i\x20class=\x22fas\x20fa-robot\x22></i>','touches','padding','rerenderChatContainer','from','applyGlobalChatCss','background-color','心声不能为空','zIndex','未命名ID','暂无动作','wheel','relationship-empty-state','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x20flex:1;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20font-weight:600;\x20color:#000;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>','Failed\x20to\x20process\x20chat\x20background\x20image','状态栏清空失败','grabbing','background-image','12px\x2016px','restore','POST','bind-world-book-sheet','boolean','account-card','clientHeight','showAvatar','touchmove','bind-stickers-sheet','<div\x20style=\x22text-align:center;\x20color:#8e8e93;\x20padding:12px\x200;\x22>暂无可拉取的已有NPC</div>','chat-language-select','Manual\x20summary\x20failed','add','45VIjzPB','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2020px;\x22>暂无心声历史记录</div>','longterm','这里还没有记录总览内容。','title','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f8f8fb;\x20border:\x201px\x20solid\x20#ececf2;\x20border-radius:\x2012px;\x20padding:\x2010px;\x20text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-bottom:\x204px;\x22>建联天数</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','npc-chat-avatar-toggle','forEach','padStart','getContext','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','longTerm','activatedEntryIds','updateChatsView','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','innerHTML','replaceChild','map','transform','save','.thought-content-display','角色绑定ID保存失败','getDate','px,\x20','npc-chat-settings-name','memoryPoints','.chat-memory-cherished-detail-close','createDefaultMemory','存为预设','contentEl','chat-settings-avatar-img','outside','chatBg','contains','确定删除这条心声记录吗？','renderWorldBookSelector','none','.ins-chat-messages','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>+','system','chat-memory-cherished-input','stringify','some','active','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-name\x22>','showToast','relationship-list','speed','原因：','data-tab','NPC','标题:\x20','getGlobalWorldBookContext','清空聊天记录','dataset',';\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<div\x20class=\x22node-label\x22>','chat-time-aware-toggle','\x0aUser\x20名称：','middle','measureText','getAttribute','不绑定','已取消置顶','src','#8e8e93','.chat-memory-modal-close','2px\x20solid\x20transparent','show-timestamps','已绑定','confirm-bind-world-book-btn','时间戳设置保存失败','flex','npc-timestamp-position-select','fa-ban','chat-bg-upload-icon','的第一人称视角，将以下','confirm-char-persona-btn','scopeUserCss','notes','#007aff','/v1','17736YGVEds','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-cherished-detail-card\x22\x20style=\x22background:#fff;\x20width:100%;\x20max-width:320px;\x20border-radius:20px;\x20padding:20px;\x20\x20position:relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-cherished-detail-close\x22\x20aria-label=\x22关闭\x22\x20style=\x22position:absolute;\x20right:15px;\x20top:15px;\x20border:none;\x20background:transparent;\x20font-size:18px;\x20color:#8e8e93;\x20cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-cherished-detail-label\x22\x20style=\x22font-size:12px;\x20color:#007aff;\x20font-weight:700;\x20margin-bottom:10px;\x22>下载项详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-cherished-detail-title\x22\x20class=\x22chat-memory-cherished-detail-title\x22\x20style=\x22font-size:18px;\x20font-weight:700;\x20color:#111;\x20margin-bottom:8px;\x22>标题</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-cherished-detail-time\x22\x20class=\x22chat-memory-cherished-detail-time\x22\x20style=\x22font-size:13px;\x20color:#8e8e93;\x20margin-bottom:16px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-cherished-detail-content\x22\x20class=\x22chat-memory-cherished-detail-content\x22\x20style=\x22font-size:15px;\x20color:#333;\x20line-height:1.6;\x20margin-bottom:16px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-cherished-detail-reason\x22\x20class=\x22chat-memory-cherished-detail-reason\x22\x20style=\x22font-size:14px;\x20color:#666;\x20background:#f2f2f7;\x20padding:12px;\x20border-radius:12px;\x20margin-bottom:12px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22chat-memory-cherished-detail-thought\x22\x20class=\x22chat-memory-cherished-detail-thought\x22\x20style=\x22font-size:14px;\x20color:#666;\x20background:#f2f2f7;\x20padding:12px;\x20border-radius:12px;\x20margin-bottom:16px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22chat-memory-cherished-detail-delete-btn\x22\x20style=\x22width:\x20100%;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20background:\x20#ffe5e5;\x20color:\x20#ff3b30;\x20border:\x20none;\x20font-size:\x2015px;\x20font-weight:\x20600;\x20cursor:\x20pointer;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20gap:\x206px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-trash-alt\x22></i>\x20删除这条下载项\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','createElement','block','.thought-edit-area','确定删除\x20NPC\x20','click','image/jpeg',';\x20background-color:\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','长期记忆','.del-thought-btn','1px\x20solid\x20#e5e5ea','subtitleEl','degree','确定清空这个\x20NPC\x20的所有聊天记录吗？此操作不可恢复。','u2ThemeState','记忆程度','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','头像设置保存失败','258PdhieJ','对话总结','时间:\x20','auto','openView','</textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','url(\x22','cssPresets','applyFriendBg','touchstart','\x20Tokens</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2022px;\x20height:\x2022px;\x20border-radius:\x2050%;\x20border:\x201px\x20solid\x20','has','summary','reduce','choices','entries','lastSummaryMessageCount','char-edit-avatar-preview','删除失败','lastActivatedAt','messages','renderCherishedMemoryCards','reverse','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','clientX','\x0a\x0a查看已有的总结，将所有记忆程度超过真实时间1天的高改成中，超过7天的改成低，超过30天的改成遗忘。',';\x20background:','bound','edit-char-persona-sheet','timeAware','relationship-node\x20main-node','fillStyle','max','chat-pinned-toggle','#chat-memory-cherished-detail-delete-btn','clearRect','push','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>下载项</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-list\x22\x20style=\x22padding:\x200\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','longTermEntries','number','chat-avatar-toggle','find','已删除\x20NPC','cssText','immediate','roundRect','relationship-btn','世界书选择器不可用','确定删除好友\x20','info','07:00','relationship-add-npc-btn','background','offsetX','char-persona-input','2px\x20solid\x20#007aff','</div>','saveGlobalData','signature','324180BoaekY','\x22\x20style=\x22display:\x20block;\x22>','ensureFriendMessagesLoaded','overlay','head','var(--blue-color)','New\x20NPC','npcId','&gt;','chat-memory-schedule-sleep-input','avatarUrl','sin','syncActiveFriendReference','0\x202px\x208px\x20rgba(0,0,0,0.05)','Failed\x20to\x20process\x20NPC\x20chat\x20background\x20image','emptyText','已拉取NPC：','当时的心声：','filter','parentNode','label','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20#34c759;\x20font-weight:\x20600;\x22>拉取</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#chat-interface-','fillText','time','parse','chat-minimax-speed-input','cherished','sleepTime','请先在设置中配置\x20API','phone','profilePanel','已置顶','删除好友失败','删除心声','点击查看详情','join','总结生成失败','px)\x20scale(','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','char-signature-input','cursor','#bind-world-book-list\x20.account-card::after\x20{\x20display:\x20none\x20!important;\x20}','已删除心声','borderRadius','.relationship-input','chat-interface-','-btn','时间戳位置保存失败','\x20吗？此操作不可恢复。','latestThought','chat-memory-overview-input','0\x200','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:11px;\x20color:#666;\x20margin-top:2px;\x20line-height:1.35;\x20overflow:hidden;\x20text-overflow:ellipsis;\x20display:-webkit-box;\x20-webkit-line-clamp:2;\x20-webkit-box-orient:vertical;\x22>','translate','timestampPosition','角色修改成功','chat-memory-modal-subtitle','group','chat-memory-cherished-detail-content','relationship-nodes-container','getTime','chat-settings-avatar-icon','textContent','match','.chat-memory-modal-cherished-card','reason','getApiConfig','ceil','showCherishedMemoryDetail','<div\x20style=\x22padding:\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x22>暂无预设</div>','事件:\x20','11487388xpPmNn','border','className','reset-css-btn','想记住的原因：','titleEl','toggle','头像处理失败','updateBindRoleEntryPoints','type','memoryPanelBound','center','statusCss','记忆程度:\x20','getMonth','body','boundBooks','总结已存入我的\x20iPhone','limit','timestamp-position-select','data-entry-id','relationship-preview-area','transformOrigin','isPinned','1923090tcRDam','disabled','chat-memory-context-enabled-toggle','心声更新失败','getFriendsBoundToAccount','renderChatsList','imApp','timestamp-outside','zh-CN','记忆点','change','role','alignItems','openChatSettingsForFriend','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>下载项</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-empty\x22>暂无下载项</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','259636npvnjR','lineTo','css-preset-list','min','apiKey','normalizeFriendData','createdAt','聊天背景重置失败','聊天背景处理失败','applyAllSavedCss','getFriendById','renderProfilePanel','978246knsdxM','暂无未总结对话','renderChatHistory','display:\x20flex;\x20flex-direction:\x20column;\x20margin-bottom:\x2016px;\x20align-items:\x20flex-start;\x20max-width:\x2095%;','currentSettingsFriend','getEffectivePersonaForFriend','formatTime','relation','language','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-title\x22>','inside','display','shortTermEntries','position','chat-memory-cherished-detail-delete-btn','，请站在','chat-memory-','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22relationship-avatar\x22>','commitScopedFriendChange','chat-settings-name','checked','chat-memory-cherished-detail-overlay','.ins-chat-name','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','mouseup','isArray','openUserMoments','cloneNode','translate('];_0x29e3=function(){return _0x1dd7f2;};return _0x29e3();}
+// ==========================================
+// IMESSAGE: 5. SETTINGS & EDITING
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    const { openView, closeView, showToast, showCustomModal, userState } = window;
+    
+    const chatSettingsSheet = document.getElementById('chat-settings-sheet');
+    const npcChatSettingsSheet = document.getElementById('npc-chat-settings-sheet');
+    
+    // Initialize shared state if not present
+    window.imData.currentSettingsFriend = null;
+
+    // Bind World Book Elements
+    const bindWorldBookSheet = document.getElementById('bind-world-book-sheet');
+    const bindWorldBookList = document.getElementById('bind-world-book-list');
+    const confirmBindWorldBookBtn = document.getElementById('confirm-bind-world-book-btn');
+    const worldBookBtn = document.getElementById('world-book-btn');
+    const chatBindIdBtn = document.getElementById('chat-bind-id-btn');
+    const chatBindIdLabel = document.getElementById('chat-bind-id-label');
+    const bindAccountSheet = document.getElementById('bind-account-sheet');
+    const bindAccountList = document.getElementById('bind-account-list');
+    const bindAccountEmpty = document.getElementById('bind-account-empty');
+    const confirmBindAccountBtn = document.getElementById('confirm-bind-account-btn');
+    
+    let tempSelectedBookIds = [];
+    let tempSelectedAccountId = null;
+    
+    const editCharPersonaSheet = document.getElementById('edit-char-persona-sheet');
+    const relationshipSheet = document.getElementById('relationship-sheet');
+    const relationshipBtn = document.getElementById('relationship-btn');
+    const relationshipList = document.getElementById('relationship-list');
+    const relationshipEmptyState = document.getElementById('relationship-empty-state');
+    const relationshipPicker = document.getElementById('relationship-picker');
+    const relationshipPickerList = document.getElementById('relationship-picker-list');
+    const confirmRelationshipBtn = document.getElementById('confirm-relationship-btn');
+    const relationshipAddNpcBtn = document.getElementById('relationship-add-npc-btn');
+
+    let tempRelationshipDrafts = [];
+    let isRelationshipPickerVisible = false;
+
+    async function commitSettingsFriendChange(mutator, options = {}) {
+        const currentFriend = window.imData.currentSettingsFriend;
+        if (!currentFriend) return false;
+
+        return window.imApp.commitScopedFriendChange(currentFriend, mutator, {
+            syncActive: false,
+            syncSettings: true,
+            metaOnly: options.metaOnly !== false,
+            ...options
+        });
+    }
+
+    async function commitNamedFriendChange(friend, mutator, options = {}) {
+        if (!friend) return false;
+
+        return window.imApp.commitScopedFriendChange(friend, mutator, {
+            syncActive: false,
+            syncSettings: true,
+            metaOnly: options.metaOnly !== false,
+            ...options
+        });
+    }
+
+    function updateStatusBarBtnCount() {
+        return;
+    }
+    
+    // Zoom & Pan state
+    let relScale = 1;
+    let relTranslateX = 0;
+    let relTranslateY = 0;
+    let isDraggingRel = false;
+    let startDragX = 0;
+    let startDragY = 0;
+    let initialPinchDistance = null;
+    let initialScale = 1;
+    
+    // Node Dragging State
+    let draggingNodeId = null;
+
+    function getDraftRelationValue(npcId, friend) {
+        const draftRelation = tempRelationshipDrafts.find(rel => String(rel.npcId) === String(npcId));
+        const savedRelation = friend.memory.relationships.find(rel => String(rel.npcId) === String(npcId));
+        if (draftRelation) return draftRelation.relation || '';
+        return savedRelation ? (savedRelation.relation || '') : '';
+    }
+    
+    function resetRelView() {
+        relScale = 1;
+        relTranslateX = 0;
+        relTranslateY = 0;
+    }
+
+    function renderRelationshipList(friend) {
+        if (!relationshipList || !relationshipEmptyState) return;
+
+        friend.memory = friend.memory || window.imApp.createDefaultMemory();
+        if (!Array.isArray(friend.memory.relationships)) {
+            friend.memory.relationships = [];
+        }
+
+        const selectedRelations = tempRelationshipDrafts;
+
+        relationshipList.innerHTML = '';
+        relationshipEmptyState.innerHTML = '';
+        relationshipEmptyState.style.display = 'none';
+
+        if (selectedRelations.length === 0) {
+            relationshipList.style.display = 'none';
+            relationshipEmptyState.style.display = 'block';
+            relationshipEmptyState.innerHTML = '<div style="text-align:center; color:#8e8e93; padding:24px 16px; font-size:14px; line-height:1.6;">当前还没有关联 NPC。<br>点击下方“添加NPC”可从已有 NPC 中拉取。</div>';
+            return;
+        }
+
+        relationshipList.style.display = 'flex';
+
+        selectedRelations.forEach(rel => {
+            const npc = window.imData.friends.find(item => item.type === 'npc' && String(item.id) === String(rel.npcId));
+            if (!npc) return;
+
+            const item = document.createElement('div');
+            item.className = 'relationship-item';
+
+            const avatarHtml = npc.avatarUrl
+                ? `<img src="${npc.avatarUrl}" alt="">`
+                : '<i class="fas fa-robot"></i>';
+
+            item.innerHTML = `
+                <div class="relationship-avatar">${avatarHtml}</div>
+                <div class="relationship-meta">
+                    <div class="relationship-name">${npc.nickname}</div>
+                    <div class="relationship-desc">${npc.realName || npc.signature || 'NPC'}</div>
+                </div>
+                <input class="relationship-input" data-npc-id="${npc.id}" type="text" placeholder="输入关系" value="${rel.relation || ''}">
+                <div class="relationship-delete-btn" style="color: #ff3b30; cursor: pointer; padding: 0 10px; font-size: 18px;"><i class="fas fa-minus-circle"></i></div>
+            `;
+
+            const deleteBtn = item.querySelector('.relationship-delete-btn');
+            if (deleteBtn) {
+                deleteBtn.addEventListener('click', () => {
+                    collectRelationshipDrafts();
+                    tempRelationshipDrafts = tempRelationshipDrafts.filter(r => String(r.npcId) !== String(npc.id));
+                    
+                    relationshipList.innerHTML = '';
+                    renderRelationshipList(friend);
+                    renderRelationshipPreview(friend);
+                    renderRelationshipPicker(friend);
+                });
+            }
+            
+            const relInput = item.querySelector('.relationship-input');
+            if (relInput) {
+                relInput.addEventListener('input', () => {
+                    collectRelationshipDrafts();
+                    renderRelationshipPreview(friend);
+                });
+            }
+
+            relationshipList.appendChild(item);
+        });
+    }
+
+    function renderRelationshipPreview(friend) {
+        const previewArea = document.getElementById('relationship-preview-area');
+        const canvas = document.getElementById('relationship-canvas');
+        const nodesContainer = document.getElementById('relationship-nodes-container');
+        
+        if (!previewArea || !canvas || !nodesContainer) return;
+        
+        canvas.width = previewArea.clientWidth;
+        canvas.height = previewArea.clientHeight;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        nodesContainer.innerHTML = '';
+        
+        // Apply transformations to nodes container
+        nodesContainer.style.transform = `translate(${relTranslateX}px, ${relTranslateY}px) scale(${relScale})`;
+        nodesContainer.style.transformOrigin = '0 0';
+
+        const selectedRelations = tempRelationshipDrafts;
+            
+        if (selectedRelations.length === 0) {
+            // Still render main node even if no relations
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            
+            const mainNode = document.createElement('div');
+            mainNode.className = 'relationship-node main-node';
+            mainNode.style.left = `${centerX - 25}px`;
+            mainNode.style.top = `${centerY - 25}px`;
+            
+            const mainAvatar = friend.avatarUrl 
+                ? `<img src="${friend.avatarUrl}">` 
+                : `<i class="fas fa-user"></i>`;
+
+            mainNode.innerHTML = `${mainAvatar}<div class="node-label">${friend.nickname || 'Char'}</div>`;
+            nodesContainer.appendChild(mainNode);
+            return;
+        }
+
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        
+        const mainNode = document.createElement('div');
+        mainNode.className = 'relationship-node main-node';
+        mainNode.style.left = `${centerX - 25}px`;
+        mainNode.style.top = `${centerY - 25}px`;
+        
+        const mainAvatar = friend.avatarUrl 
+            ? `<img src="${friend.avatarUrl}">` 
+            : `<i class="fas fa-user"></i>`;
+
+        mainNode.innerHTML = `${mainAvatar}<div class="node-label">${friend.nickname || 'Char'}</div>`;
+        nodesContainer.appendChild(mainNode);
+
+        const radius = Math.max(72, Math.min(canvas.width, canvas.height) * 0.34);
+        const angleStep = (Math.PI * 2) / selectedRelations.length;
+
+        // Draw connections on canvas, scaled and translated
+        ctx.save();
+        ctx.translate(relTranslateX, relTranslateY);
+        ctx.scale(relScale, relScale);
+
+        ctx.strokeStyle = 'rgba(88, 86, 214, 0.28)';
+        ctx.lineWidth = 2;
+
+        selectedRelations.forEach((rel, index) => {
+            const npc = window.imData.friends.find(item => String(item.id) === String(rel.npcId));
+            if (!npc) return;
+
+            if (rel.offsetX === undefined || rel.offsetY === undefined) {
+                const angle = index * angleStep - Math.PI / 2;
+                rel.offsetX = radius * Math.cos(angle);
+                rel.offsetY = radius * Math.sin(angle);
+            }
+
+            const x = centerX + rel.offsetX;
+            const y = centerY + rel.offsetY;
+
+            // Draw line
+            ctx.beginPath();
+            ctx.moveTo(centerX, centerY);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+
+            // Draw text on line
+            if (rel.relation) {
+                const textX = centerX + rel.offsetX * 0.5;
+                const textY = centerY + rel.offsetY * 0.5;
+                
+                ctx.font = '11px sans-serif';
+                const metrics = ctx.measureText(rel.relation);
+                const textWidth = metrics.width;
+                const textHeight = 18;
+                
+                // Rotation for text
+                let textAngle = Math.atan2(rel.offsetY, rel.offsetX);
+                if (textAngle > Math.PI / 2 || textAngle < -Math.PI / 2) {
+                    textAngle += Math.PI;
+                }
+
+                ctx.save();
+                ctx.translate(textX, textY);
+                ctx.rotate(textAngle);
+                
+                // Background
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.94)';
+                ctx.beginPath();
+                ctx.roundRect(-textWidth/2 - 7, -textHeight/2, textWidth + 14, textHeight, 8);
+                ctx.fill();
+                
+                // Text
+                ctx.fillStyle = '#3f3f46';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(rel.relation, 0, 0);
+                
+                ctx.restore();
+            }
+
+            // Create NPC node in DOM
+            const npcNode = document.createElement('div');
+            npcNode.className = 'relationship-node';
+            npcNode.style.left = `${x - 20}px`;
+            npcNode.style.top = `${y - 20}px`;
+            npcNode.style.cursor = 'pointer';
+            
+            const npcAvatar = npc.avatarUrl 
+                ? `<img src="${npc.avatarUrl}">` 
+                : `<i class="fas fa-robot"></i>`;
+
+            npcNode.innerHTML = `${npcAvatar}<div class="node-label">${npc.nickname || 'NPC'}</div>`;
+            
+            // Add interaction for node dragging
+            const startNodeDrag = (e) => {
+                e.stopPropagation(); // Stop canvas panning
+                draggingNodeId = rel.npcId;
+                isDraggingRel = false;
+                
+                const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+                
+                startDragX = clientX;
+                startDragY = clientY;
+            };
+
+            npcNode.addEventListener('mousedown', startNodeDrag);
+            npcNode.addEventListener('touchstart', startNodeDrag, {passive: false});
+
+            nodesContainer.appendChild(npcNode);
+        });
+        
+        ctx.restore();
+    }
+    
+    // Setup Interaction for Relationship Preview
+    function initRelationshipPreviewInteractions() {
+        const previewArea = document.getElementById('relationship-preview-area');
+        if (!previewArea) return;
+        
+        // Prevent multiple bindings
+        if (previewArea.dataset.bound === 'true') return;
+        previewArea.dataset.bound = 'true';
+
+        // Mouse Events
+        previewArea.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const zoomAmount = e.deltaY > 0 ? 0.9 : 1.1;
+            const newScale = Math.min(Math.max(0.5, relScale * zoomAmount), 3);
+            
+            // Zoom towards mouse pointer
+            const rect = previewArea.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+            
+            relTranslateX = mouseX - (mouseX - relTranslateX) * (newScale / relScale);
+            relTranslateY = mouseY - (mouseY - relTranslateY) * (newScale / relScale);
+            relScale = newScale;
+            
+            if(window.imData.currentSettingsFriend) {
+                renderRelationshipPreview(window.imData.currentSettingsFriend);
+            }
+        }, { passive: false });
+
+        previewArea.addEventListener('mousedown', (e) => {
+            if (!draggingNodeId) {
+                isDraggingRel = true;
+                startDragX = e.clientX - relTranslateX;
+                startDragY = e.clientY - relTranslateY;
+                previewArea.style.cursor = 'grabbing';
+            }
+        });
+
+        window.addEventListener('mousemove', (e) => {
+            if (draggingNodeId) {
+                const dx = (e.clientX - startDragX) / relScale;
+                const dy = (e.clientY - startDragY) / relScale;
+                
+                const rel = tempRelationshipDrafts.find(r => r.npcId === draggingNodeId);
+                if (rel) {
+                    rel.offsetX += dx;
+                    rel.offsetY += dy;
+                    if(window.imData.currentSettingsFriend) {
+                        renderRelationshipPreview(window.imData.currentSettingsFriend);
+                    }
+                }
+                
+                startDragX = e.clientX;
+                startDragY = e.clientY;
+                return;
+            }
+
+            if (!isDraggingRel) return;
+            relTranslateX = e.clientX - startDragX;
+            relTranslateY = e.clientY - startDragY;
+            if(window.imData.currentSettingsFriend) {
+                renderRelationshipPreview(window.imData.currentSettingsFriend);
+            }
+        });
+
+        window.addEventListener('mouseup', () => {
+            isDraggingRel = false;
+            draggingNodeId = null;
+            previewArea.style.cursor = 'grab';
+        });
+
+        // Touch Events
+        previewArea.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 1 && !draggingNodeId) {
+                isDraggingRel = true;
+                startDragX = e.touches[0].clientX - relTranslateX;
+                startDragY = e.touches[0].clientY - relTranslateY;
+            } else if (e.touches.length === 2) {
+                isDraggingRel = false;
+                draggingNodeId = null;
+                initialPinchDistance = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                initialScale = relScale;
+            }
+        }, { passive: false });
+
+        previewArea.addEventListener('touchmove', (e) => {
+            if (e.touches.length === 1 && draggingNodeId) {
+                e.preventDefault();
+                const dx = (e.touches[0].clientX - startDragX) / relScale;
+                const dy = (e.touches[0].clientY - startDragY) / relScale;
+                
+                const rel = tempRelationshipDrafts.find(r => r.npcId === draggingNodeId);
+                if (rel) {
+                    rel.offsetX += dx;
+                    rel.offsetY += dy;
+                    if(window.imData.currentSettingsFriend) {
+                        renderRelationshipPreview(window.imData.currentSettingsFriend);
+                    }
+                }
+                
+                startDragX = e.touches[0].clientX;
+                startDragY = e.touches[0].clientY;
+                return;
+            } else if (e.touches.length === 1 && isDraggingRel) {
+                e.preventDefault();
+                relTranslateX = e.touches[0].clientX - startDragX;
+                relTranslateY = e.touches[0].clientY - startDragY;
+                if(window.imData.currentSettingsFriend) {
+                    renderRelationshipPreview(window.imData.currentSettingsFriend);
+                }
+            } else if (e.touches.length === 2 && initialPinchDistance) {
+                e.preventDefault();
+                const currentDistance = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                
+                const newScale = Math.min(Math.max(0.5, initialScale * (currentDistance / initialPinchDistance)), 3);
+                
+                // Try to zoom towards center of pinch
+                const centerX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+                const centerY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+                const rect = previewArea.getBoundingClientRect();
+                const viewX = centerX - rect.left;
+                const viewY = centerY - rect.top;
+
+                relTranslateX = viewX - (viewX - relTranslateX) * (newScale / relScale);
+                relTranslateY = viewY - (viewY - relTranslateY) * (newScale / relScale);
+                relScale = newScale;
+                
+                if(window.imData.currentSettingsFriend) {
+                    renderRelationshipPreview(window.imData.currentSettingsFriend);
+                }
+            }
+        }, { passive: false });
+
+        previewArea.addEventListener('touchend', (e) => {
+            if (e.touches.length === 0) {
+                isDraggingRel = false;
+                draggingNodeId = null;
+            }
+        });
+        
+        previewArea.style.cursor = 'grab';
+    }
+
+    function renderRelationshipPicker(friend) {
+        if (!relationshipPicker || !relationshipPickerList) return;
+
+        const allNpcs = window.imData.friends.filter(item => item.type === 'npc');
+        const selectedNpcIds = new Set((tempRelationshipDrafts.length > 0
+            ? tempRelationshipDrafts
+            : friend.memory.relationships
+        ).map(rel => String(rel.npcId)));
+
+        relationshipPickerList.innerHTML = '';
+
+        const availableNpcs = allNpcs.filter(npc => !selectedNpcIds.has(String(npc.id)));
+
+        if (!isRelationshipPickerVisible) {
+            relationshipPicker.style.display = 'none';
+            return;
+        }
+
+        relationshipPicker.style.display = 'block';
+
+        if (availableNpcs.length === 0) {
+            relationshipPickerList.innerHTML = '<div style="text-align:center; color:#8e8e93; padding:12px 0;">暂无可拉取的已有NPC</div>';
+            return;
+        }
+
+        availableNpcs.forEach(npc => {
+            const item = document.createElement('div');
+            item.className = 'relationship-item';
+            item.style.cursor = 'pointer';
+
+            const avatarHtml = npc.avatarUrl
+                ? `<img src="${npc.avatarUrl}" alt="">`
+                : '<i class="fas fa-robot"></i>';
+
+            item.innerHTML = `
+                <div class="relationship-avatar">${avatarHtml}</div>
+                <div class="relationship-meta">
+                    <div class="relationship-name">${npc.nickname}</div>
+                    <div class="relationship-desc">${npc.realName || npc.signature || 'NPC'}</div>
+                </div>
+                <div style="font-size: 14px; color: #34c759; font-weight: 600;">拉取</div>
+            `;
+
+            item.addEventListener('click', () => {
+                collectRelationshipDrafts();
+
+                if (!tempRelationshipDrafts.some(rel => String(rel.npcId) === String(npc.id))) {
+                    tempRelationshipDrafts.push({
+                        npcId: String(npc.id),
+                        relation: getDraftRelationValue(npc.id, friend)
+                    });
+                }
+
+                isRelationshipPickerVisible = false;
+                renderRelationshipList(friend);
+                renderRelationshipPicker(friend);
+                showToast(`已拉取NPC：${npc.nickname}`);
+            });
+
+            relationshipPickerList.appendChild(item);
+        });
+    }
+
+    function renderRelationshipSheet(friend) {
+        if (!relationshipList || !relationshipEmptyState) return;
+
+        friend.memory = friend.memory || window.imApp.createDefaultMemory();
+        if (!Array.isArray(friend.memory.relationships)) {
+            friend.memory.relationships = [];
+        }
+
+        if (relationshipSheet && relationshipSheet.style.display === 'none' && tempRelationshipDrafts.length === 0) {
+            tempRelationshipDrafts = friend.memory.relationships.map(rel => ({
+                npcId: String(rel.npcId),
+                relation: rel.relation || '',
+                offsetX: rel.offsetX,
+                offsetY: rel.offsetY
+            }));
+        }
+        
+        resetRelView();
+        initRelationshipPreviewInteractions();
+
+        renderRelationshipList(friend);
+        renderRelationshipPicker(friend);
+        setTimeout(() => renderRelationshipPreview(friend), 150);
+    }
+
+    function collectRelationshipDrafts() {
+        if (!relationshipList) return;
+        const inputs = relationshipList.querySelectorAll('.relationship-input');
+        const currentValues = Array.from(inputs).map(input => {
+            const npcId = input.getAttribute('data-npc-id');
+            const existingRel = tempRelationshipDrafts.find(r => r.npcId === npcId);
+            return {
+                npcId: npcId,
+                relation: input.value.trim(),
+                offsetX: existingRel ? existingRel.offsetX : undefined,
+                offsetY: existingRel ? existingRel.offsetY : undefined
+            };
+        });
+
+        const existingIds = new Set(currentValues.map(item => String(item.npcId)));
+        const hiddenDrafts = tempRelationshipDrafts.filter(item => !existingIds.has(String(item.npcId)));
+        tempRelationshipDrafts = [...currentValues, ...hiddenDrafts];
+    }
+
+    function getAvailableAccounts() {
+        return typeof window.getAccounts === 'function' ? window.getAccounts() : [];
+    }
+
+    function getBoundAccountByFriend(friend) {
+        if (!friend || !friend.boundAccountId) return null;
+        const accounts = getAvailableAccounts();
+        return accounts.find(acc => String(acc.id) === String(friend.boundAccountId)) || null;
+    }
+
+    function getEffectivePersonaForFriend(friend) {
+        const boundAccount = getBoundAccountByFriend(friend);
+        if (!boundAccount) return userState.persona || '';
+        return boundAccount.signature || boundAccount.persona || '';
+    }
+
+    function getFriendsBoundToAccount(accountId) {
+        const allFriends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+        return allFriends.filter(friend => friend && friend.type !== 'group' && String(friend.boundAccountId || '') === String(accountId));
+    }
+
+    function updateChatBindIdLabel(friend) {
+        if (!chatBindIdLabel) return;
+        const boundAccount = getBoundAccountByFriend(friend);
+        chatBindIdLabel.textContent = boundAccount ? (boundAccount.name || '已绑定') : '';
+    }
+
+    function renderBindAccountList(friend) {
+        if (!bindAccountList || !bindAccountEmpty) return;
+
+        const accounts = getAvailableAccounts();
+        bindAccountList.innerHTML = '';
+
+        const options = [
+            {
+                id: null,
+                name: '不绑定',
+                phone: '恢复为当前 Apple ID 默认人设',
+                persona: ''
+            },
+            ...accounts
+        ];
+
+        if (options.length === 1) {
+            bindAccountList.style.display = 'none';
+            bindAccountEmpty.style.display = 'block';
+            return;
+        }
+
+        bindAccountList.style.display = 'flex';
+        bindAccountEmpty.style.display = 'none';
+
+        options.forEach(acc => {
+            const isSelected = String(tempSelectedAccountId || '') === String(acc.id || '');
+            const personaText = acc.id == null
+                ? '聊天时将继续读取当前 Apple ID 人设'
+                : (acc.signature || acc.persona || '该 ID 暂无人设');
+
+            const item = document.createElement('div');
+            item.className = 'account-card';
+            item.style.padding = '10px 14px';
+            item.style.height = 'auto';
+            item.style.cursor = 'pointer';
+            item.style.borderRadius = '999px';
+            item.style.border = isSelected ? '2px solid #007aff' : '1px solid #e5e5ea';
+            item.style.boxShadow = '0 1px 6px rgba(0,0,0,0.04)';
+            item.style.background = '#fff';
+
+            item.innerHTML = `
+                <div style="display:flex; align-items:center; gap:10px; width:100%;">
+                    <div style="display:flex; align-items:center; gap:10px; flex:1; min-width:0;">
+                        <div style="width:34px; height:34px; border-radius:999px; background:${acc.id == null ? '#8e8e93' : '#34c759'}; color:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0;">
+                            <i class="fas ${acc.id == null ? 'fa-ban' : 'fa-id-card'}"></i>
+                        </div>
+                        <div style="min-width:0; flex:1;">
+                            <div style="font-size:14px; font-weight:600; color:#000; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${acc.name || '未命名ID'}</div>
+                            <div style="font-size:11px; color:#8e8e93; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${acc.phone || personaText}</div>
+                            <div style="font-size:11px; color:#666; margin-top:2px; line-height:1.35; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">${personaText}</div>
+                        </div>
+                    </div>
+                    <div style="margin-left:auto; width:20px; height:20px; border-radius:50%; border:1px solid ${isSelected ? '#007aff' : '#c7c7cc'}; background:${isSelected ? '#007aff' : 'transparent'}; display:flex; align-items:center; justify-content:center; color:#fff; font-size:11px; flex-shrink:0;">
+                        ${isSelected ? '<i class="fas fa-check"></i>' : ''}
+                    </div>
+                </div>
+            `;
+
+            item.addEventListener('click', () => {
+                tempSelectedAccountId = acc.id == null ? null : acc.id;
+                renderBindAccountList(friend);
+            });
+
+            bindAccountList.appendChild(item);
+        });
+    }
+
+    function setActiveChatSettingsTab(tabName) {
+        const tabs = document.querySelectorAll('#chat-settings-segment .char-settings-tab');
+        const panels = document.querySelectorAll('#chat-settings-sheet .char-settings-panel');
+
+        tabs.forEach(tab => {
+            tab.classList.toggle('active', tab.getAttribute('data-tab') === tabName);
+        });
+
+        panels.forEach(panel => {
+            const isActivePanel = panel.id === `chat-settings-${tabName}-panel`;
+            panel.classList.toggle('active', isActivePanel);
+            if (isActivePanel) panel.scrollTop = 0;
+        });
+        
+        if (tabName === 'memory' && window.imData.currentSettingsFriend) {
+            renderChatMemoryOverviewStats(window.imData.currentSettingsFriend);
+        }
+    }
+    
+    function renderChatMemoryOverviewStats(friend) {
+        const statsContainer = document.getElementById('chat-memory-overview-stats');
+        if (!statsContainer) return;
+
+        const normalizedFriend = window.imApp.normalizeFriendData(friend);
+        const memory = normalizedFriend.memory || window.imApp.createDefaultMemory();
+        const messageCount = Array.isArray(normalizedFriend.messages) ? normalizedFriend.messages.length : 0;
+            
+        // Re-calculate tokenCount realistically
+        let tokenCount = 0;
+        let systemContextLen = 0;
+            
+        if (window.getGlobalWorldBookContext) {
+            const sysWorldBook = window.getGlobalWorldBookContext();
+            systemContextLen += (sysWorldBook || '').length;
+        }
+            
+        systemContextLen += (normalizedFriend.persona || '').length;
+        systemContextLen += (userState?.persona || '').length;
+        systemContextLen += (memory.overview || '').length;
+        systemContextLen += (memory.longTerm || '').length;
+        systemContextLen += (memory.cherished || '').length;
+        systemContextLen += (memory.context?.notes || '').length;
+        if (Array.isArray(memory.relationships)) {
+            systemContextLen += memory.relationships.reduce((sum, r) => sum + (r.relation || '').length, 0);
+        }
+        systemContextLen += 800; 
+            
+        let recentMessagesLen = 0;
+        if (window.imApp.buildApiContextMessages) {
+            const contextMsgs = window.imApp.buildApiContextMessages(normalizedFriend);
+            if (Array.isArray(contextMsgs)) {
+                recentMessagesLen = contextMsgs.reduce((sum, msg) => sum + (msg.content || '').length, 0);
+            }
+        }
+            
+        tokenCount = systemContextLen + recentMessagesLen;
+            
+        let firstMsgTime = Date.now();
+        let lastMsgTime = Date.now();
+        if (messageCount > 0) {
+            firstMsgTime = normalizedFriend.messages[0].timestamp || Date.now();
+            lastMsgTime = normalizedFriend.messages[messageCount - 1].timestamp || Date.now();
+        }
+        const days = Math.max(1, Math.ceil((Date.now() - firstMsgTime) / (1000 * 60 * 60 * 24)));
+            
+        const lastTimeStr = window.imApp.formatTime ? window.imApp.formatTime(lastMsgTime) : new Date(lastMsgTime).toLocaleString();
+
+        statsContainer.innerHTML = `
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px;">
+                <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                    <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">聊天总数</div>
+                    <div style="font-size: 16px; font-weight: 700; color: #111;">${messageCount}</div>
+                </div>
+                <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                    <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">建联天数</div>
+                    <div style="font-size: 16px; font-weight: 700; color: #111;">${days}</div>
+                </div>
+                <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                    <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">总Token估算</div>
+                    <div style="font-size: 16px; font-weight: 700; color: #111;">${tokenCount}</div>
+                </div>
+                <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                    <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">最后聊天</div>
+                    <div style="font-size: 13px; font-weight: 700; color: #111; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${messageCount > 0 ? lastTimeStr : '无'}</div>
+                </div>
+            </div>
+        `;
+    }
+
+    function ensureChatMemoryModalUi() {
+        const memoryPanel = document.getElementById('chat-settings-memory-panel');
+        if (!memoryPanel) return null;
+
+        let overlay = document.getElementById('chat-memory-modal-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'chat-memory-modal-overlay';
+            overlay.className = 'chat-memory-modal-overlay';
+            overlay.style.display = 'none';
+            overlay.innerHTML = `
+                <div class="chat-memory-modal-card">
+                    <button type="button" class="chat-memory-modal-close" aria-label="关闭">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div id="chat-memory-modal-label" class="chat-memory-modal-label">记忆</div>
+                    <div id="chat-memory-modal-title" class="chat-memory-modal-title">记忆内容</div>
+                    <div id="chat-memory-modal-subtitle" class="chat-memory-modal-subtitle"></div>
+                    <div id="chat-memory-modal-content" class="chat-memory-modal-content"></div>
+                </div>
+            `;
+            memoryPanel.appendChild(overlay);
+
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    hideChatMemoryModal();
+                }
+            });
+
+            const closeBtn = overlay.querySelector('.chat-memory-modal-close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    hideChatMemoryModal();
+                });
+            }
+        }
+
+        return {
+            overlay,
+            labelEl: document.getElementById('chat-memory-modal-label'),
+            titleEl: document.getElementById('chat-memory-modal-title'),
+            subtitleEl: document.getElementById('chat-memory-modal-subtitle'),
+            contentEl: document.getElementById('chat-memory-modal-content')
+        };
+    }
+
+    function hideChatMemoryModal() {
+        const overlay = document.getElementById('chat-memory-modal-overlay');
+        if (!overlay) return;
+
+        overlay.classList.remove('active');
+        setTimeout(() => {
+            if (!overlay.classList.contains('active')) {
+                overlay.style.display = 'none';
+            }
+        }, 220);
+    }
+
+    function buildTextMemoryModalHtml(title, content, emptyText) {
+        const safeContent = String(content || '').trim();
+        if (!safeContent) {
+            return `<div class="chat-memory-modal-empty">${emptyText}</div>`;
+        }
+
+        return `
+            <div class="chat-memory-modal-text-block">
+                ${safeContent}
+            </div>
+        `;
+    }
+
+    function showChatMemoryModal(type, friend) {
+        const ui = ensureChatMemoryModalUi();
+        if (!ui || !friend) return;
+
+        const normalizedFriend = window.imApp.normalizeFriendData(friend);
+        const memory = normalizedFriend.memory || window.imApp.createDefaultMemory();
+        const typeMap = {
+            schedule: {
+                label: '角色记忆',
+                title: '作息时间'
+            },
+            overview: {
+                label: '角色记忆',
+                title: '总览',
+                subtitle: '记录整体印象、关系概括与近期变化',
+                emptyText: '这里还没有记录总览内容。'
+            },
+            longterm: {
+                label: '角色记忆',
+                title: '长期记忆',
+                subtitle: '记录长期稳定的重要设定、偏好与关系事实',
+                emptyText: '这里还没有记录长期记忆内容。'
+            },
+            cherished: {
+                label: '角色记忆',
+                title: '珍视回忆',
+                subtitle: '收纳那些值得被记住的时刻',
+                emptyText: '这里还没有珍视回忆。'
+            }
+        };
+
+        const currentConfig = typeMap[type] || typeMap.overview;
+        ui.labelEl.textContent = currentConfig.label;
+        ui.titleEl.textContent = currentConfig.title;
+        ui.subtitleEl.textContent = currentConfig.subtitle || '';
+        ui.subtitleEl.style.display = currentConfig.subtitle ? 'block' : 'none';
+
+        if (type === 'schedule') {
+            ui.contentEl.innerHTML = `
+                <div class="chat-memory-modal-text-block">作息时间设置请直接在面板开关调整。</div>
+            `;
+        } else if (type === 'cherished') {
+            const entries = Array.isArray(memory.cherishedEntries) ? memory.cherishedEntries : [];
+            if (entries.length > 0) {
+                ui.contentEl.innerHTML = `
+                    <div class="chat-memory-modal-cherished-list">
+                        ${entries.map((entry) => `
+                            <button type="button" class="chat-memory-modal-cherished-card" data-entry-id="${entry.id}">
+                                <div class="chat-memory-modal-cherished-card-title">${entry.title || '珍视回忆'}</div>
+                                <div class="chat-memory-modal-cherished-card-time">${entry.createdAt || '点击查看详情'}</div>
+                            </button>
+                        `).join('')}
+                    </div>
+                `;
+
+                const cardButtons = ui.contentEl.querySelectorAll('.chat-memory-modal-cherished-card');
+                cardButtons.forEach((btn) => {
+                    btn.addEventListener('click', () => {
+                        const entryId = btn.getAttribute('data-entry-id') || '';
+                        const latestFriend = window.imData.currentSettingsFriend
+                            && String(window.imData.currentSettingsFriend.id) === String(normalizedFriend.id)
+                            ? window.imData.currentSettingsFriend
+                            : normalizedFriend;
+                        const latestEntries = Array.isArray(latestFriend.memory?.cherishedEntries)
+                            ? latestFriend.memory.cherishedEntries
+                            : [];
+                        const targetEntry = latestEntries.find((entry) => String(entry.id) === String(entryId));
+                        if (targetEntry) {
+                            showCherishedMemoryDetail(targetEntry);
+                        }
+                    });
+                });
+            } else {
+                ui.contentEl.innerHTML = buildTextMemoryModalHtml('珍视回忆', memory.cherished, currentConfig.emptyText);
+            }
+        } else if (type === 'overview') {
+            const messageCount = Array.isArray(normalizedFriend.messages) ? normalizedFriend.messages.length : 0;
+            
+            // Re-calculate tokenCount realistically
+            let tokenCount = 0;
+            let systemContextLen = 0;
+            
+            // 1. WorldBook
+            if (window.getGlobalWorldBookContext) {
+                const sysWorldBook = window.getGlobalWorldBookContext();
+                systemContextLen += (sysWorldBook || '').length;
+            }
+            
+            // 2. Persona and Meta
+            systemContextLen += (normalizedFriend.persona || '').length;
+            systemContextLen += (userState?.persona || '').length;
+            
+            // 3. Memories
+            systemContextLen += (memory.overview || '').length;
+            systemContextLen += (memory.longTerm || '').length;
+            systemContextLen += (memory.cherished || '').length;
+            systemContextLen += (memory.context?.notes || '').length;
+            
+            // 4. Relationships
+            if (Array.isArray(memory.relationships)) {
+                systemContextLen += memory.relationships.reduce((sum, r) => sum + (r.relation || '').length, 0);
+            }
+            
+            // 5. System Prompt Boilerplate (approx. length of static rules)
+            systemContextLen += 800; 
+            
+            // 6. Recent Chat History Context (truncated)
+            let recentMessagesLen = 0;
+            if (window.imApp.buildApiContextMessages) {
+                const contextMsgs = window.imApp.buildApiContextMessages(normalizedFriend);
+                if (Array.isArray(contextMsgs)) {
+                    recentMessagesLen = contextMsgs.reduce((sum, msg) => sum + (msg.content || '').length, 0);
+                }
+            }
+            
+            tokenCount = systemContextLen + recentMessagesLen;
+            
+            let firstMsgTime = Date.now();
+            let lastMsgTime = Date.now();
+            if (messageCount > 0) {
+                firstMsgTime = normalizedFriend.messages[0].timestamp || Date.now();
+                lastMsgTime = normalizedFriend.messages[messageCount - 1].timestamp || Date.now();
+            }
+            const days = Math.max(1, Math.ceil((Date.now() - firstMsgTime) / (1000 * 60 * 60 * 24)));
+            
+            const lastTimeStr = window.imApp.formatTime ? window.imApp.formatTime(lastMsgTime) : new Date(lastMsgTime).toLocaleString();
+
+            const statsHtml = `
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px;">
+                    <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                        <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">聊天总数</div>
+                        <div style="font-size: 16px; font-weight: 700; color: #111;">${messageCount}</div>
+                    </div>
+                    <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                        <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">建联天数</div>
+                        <div style="font-size: 16px; font-weight: 700; color: #111;">${days}</div>
+                    </div>
+                    <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                        <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">总Token估算</div>
+                        <div style="font-size: 16px; font-weight: 700; color: #111;">${tokenCount}</div>
+                    </div>
+                    <div style="background: #f8f8fb; border: 1px solid #ececf2; border-radius: 12px; padding: 10px; text-align: center;">
+                        <div style="font-size: 11px; color: #8e8e93; margin-bottom: 4px;">最后聊天</div>
+                        <div style="font-size: 13px; font-weight: 700; color: #111; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${messageCount > 0 ? lastTimeStr : '无'}</div>
+                    </div>
+                </div>
+            `;
+            ui.contentEl.innerHTML = statsHtml + buildTextMemoryModalHtml('总览', memory.overview, currentConfig.emptyText);
+        } else {
+            const entries = Array.isArray(memory.longTermEntries) ? memory.longTermEntries : [];
+            if (entries.length > 0) {
+                ui.contentEl.innerHTML = `
+                    <div class="chat-memory-modal-cherished-list">
+                        ${entries.map((entry) => `
+                            <button type="button" class="chat-memory-modal-cherished-card" data-entry-id="${entry.id}">
+                                <div class="chat-memory-modal-cherished-card-title">${entry.title || '长期记忆'}</div>
+                                <div class="chat-memory-modal-cherished-card-time">${entry.time || '点击查看详情'}</div>
+                            </button>
+                        `).join('')}
+                    </div>
+                `;
+
+                const cardButtons = ui.contentEl.querySelectorAll('.chat-memory-modal-cherished-card');
+                cardButtons.forEach((btn) => {
+                    btn.addEventListener('click', () => {
+                        const entryId = btn.getAttribute('data-entry-id') || '';
+                        const latestFriend = window.imData.currentSettingsFriend
+                            && String(window.imData.currentSettingsFriend.id) === String(normalizedFriend.id)
+                            ? window.imData.currentSettingsFriend
+                            : normalizedFriend;
+                        const latestEntries = Array.isArray(latestFriend.memory?.longTermEntries)
+                            ? latestFriend.memory.longTermEntries
+                            : [];
+                        const targetEntry = latestEntries.find((entry) => String(entry.id) === String(entryId));
+                        if (targetEntry) {
+                            showCherishedMemoryDetail({
+                                title: targetEntry.title,
+                                createdAt: targetEntry.time,
+                                content: targetEntry.content
+                            });
+                        }
+                    });
+                });
+            } else {
+                ui.contentEl.innerHTML = buildTextMemoryModalHtml('长期记忆', memory.longTerm, currentConfig.emptyText);
+            }
+        }
+
+        ui.overlay.style.display = 'flex';
+        requestAnimationFrame(() => {
+            ui.overlay.classList.add('active');
+        });
+    }
+
+    function bindChatMemoryPanelButtons() {
+        const panelNames = ['overview', 'longterm', 'cherished'];
+
+        panelNames.forEach((panelName) => {
+            const btn = document.getElementById(`chat-memory-${panelName}-btn`);
+            if (!btn || btn.dataset.memoryPanelBound === 'true') return;
+
+            btn.dataset.memoryPanelBound = 'true';
+            btn.addEventListener('click', () => {
+                const currentFriend = window.imData.currentSettingsFriend;
+                if (!currentFriend) return;
+                showChatMemoryModal(panelName, currentFriend);
+            });
+        });
+    }
+
+    function initChatSettingsInteractions() {
+        const segmentTabs = document.querySelectorAll('#chat-settings-segment .char-settings-tab');
+
+        segmentTabs.forEach(tab => {
+            if (tab.dataset.bound === 'true') return;
+            tab.dataset.bound = 'true';
+            tab.addEventListener('click', () => {
+                setActiveChatSettingsTab(tab.getAttribute('data-tab'));
+            });
+        });
+
+        ensureChatMemoryModalUi();
+    }
+
+    if (editCharPersonaSheet) {
+        editCharPersonaSheet.addEventListener('click', (e) => {
+            if (e.target === editCharPersonaSheet) {
+                closeView(editCharPersonaSheet);
+            }
+        });
+    }
+
+    if (relationshipSheet) {
+        relationshipSheet.addEventListener('click', (e) => {
+            if (e.target === relationshipSheet) {
+                closeView(relationshipSheet);
+            }
+        });
+    }
+
+    if (relationshipBtn) {
+        relationshipBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            isRelationshipPickerVisible = false;
+            tempRelationshipDrafts = (window.imData.currentSettingsFriend.memory?.relationships || []).map(rel => ({
+                npcId: String(rel.npcId),
+                relation: rel.relation || '',
+                offsetX: rel.offsetX,
+                offsetY: rel.offsetY
+            }));
+            renderRelationshipSheet(window.imData.currentSettingsFriend);
+            openView(relationshipSheet);
+        });
+    }
+
+    if (confirmRelationshipBtn) {
+        confirmRelationshipBtn.addEventListener('click', async () => {
+            if (!window.imData.currentSettingsFriend || !relationshipList) return;
+
+            collectRelationshipDrafts();
+            const normalizedRelations = tempRelationshipDrafts
+                .map(item => ({
+                    npcId: item.npcId,
+                    relation: (item.relation || '').trim(),
+                    offsetX: item.offsetX,
+                    offsetY: item.offsetY
+                }))
+                .filter(item => item.relation);
+
+            const saved = await commitSettingsFriendChange((targetFriend) => {
+                targetFriend.memory = targetFriend.memory || window.imApp.createDefaultMemory();
+                targetFriend.memory.relationships = normalizedRelations;
+            }, { silent: true });
+
+            if (!saved) {
+                showToast('关系网保存失败');
+                return;
+            }
+
+            tempRelationshipDrafts = (window.imData.currentSettingsFriend.memory.relationships || []).map(rel => ({
+                npcId: String(rel.npcId),
+                relation: rel.relation || '',
+                offsetX: rel.offsetX,
+                offsetY: rel.offsetY
+            }));
+            isRelationshipPickerVisible = false;
+            showToast(normalizedRelations.length > 0 ? '关系网已保存' : '未填写关系，已清空关系网');
+            closeView(relationshipSheet);
+        });
+    }
+
+    if (relationshipAddNpcBtn) {
+        relationshipAddNpcBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            collectRelationshipDrafts();
+
+            const allNpcs = window.imData.friends.filter(item => item.type === 'npc');
+            const selectedNpcIds = new Set(tempRelationshipDrafts.map(item => String(item.npcId)));
+            const availableNpcs = allNpcs.filter(npc => !selectedNpcIds.has(String(npc.id)));
+
+            if (allNpcs.length === 0) {
+                showToast('暂无可拉取的已有NPC，请先在联系人中创建NPC');
+                return;
+            }
+
+            if (availableNpcs.length === 0) {
+                showToast('已有NPC已全部拉取');
+                return;
+            }
+
+            isRelationshipPickerVisible = !isRelationshipPickerVisible;
+            renderRelationshipSheet(window.imData.currentSettingsFriend);
+        });
+    }
+
+    if (chatSettingsSheet) {
+        chatSettingsSheet.addEventListener('click', (e) => {
+            if (e.target === chatSettingsSheet) {
+                closeView(chatSettingsSheet);
+            }
+        });
+    }
+
+    if (npcChatSettingsSheet) {
+        npcChatSettingsSheet.addEventListener('click', (e) => {
+            if (e.target === npcChatSettingsSheet) {
+                closeView(npcChatSettingsSheet);
+            }
+        });
+    }
+
+    function initNpcChatSettingsInteractions() {
+        const profileTrigger = document.getElementById('npc-chat-settings-profile-trigger');
+        const bgUpload = document.getElementById('npc-chat-bg-upload');
+        const bgUploadIcon = document.getElementById('npc-chat-bg-upload-icon');
+        const bgResetIcon = document.getElementById('npc-chat-bg-reset-icon');
+        const tsToggle = document.getElementById('npc-timestamp-toggle');
+        const pinToggle = document.getElementById('npc-chat-pinned-toggle');
+        const avatarToggle = document.getElementById('npc-chat-avatar-toggle');
+        const clearHistoryBtn = document.getElementById('npc-clear-history-btn');
+        const deleteNpcBtn = document.getElementById('npc-delete-friend-btn');
+
+        if (profileTrigger && profileTrigger.dataset.bound !== 'true') {
+            profileTrigger.dataset.bound = 'true';
+            profileTrigger.addEventListener('click', () => {
+                if (!window.imData.currentSettingsFriend) return;
+                const sharedProfileTrigger = document.getElementById('chat-settings-profile-trigger');
+                if (sharedProfileTrigger) sharedProfileTrigger.click();
+            });
+        }
+
+        if (bgUploadIcon && bgUpload && bgUploadIcon.dataset.bound !== 'true') {
+            bgUploadIcon.dataset.bound = 'true';
+            bgUploadIcon.addEventListener('click', () => {
+                bgUpload.click();
+            });
+        }
+
+        if (bgUpload && bgUpload.dataset.bound !== 'true') {
+            bgUpload.dataset.bound = 'true';
+            bgUpload.addEventListener('change', async (e) => {
+                const file = e.target.files[0];
+                const friend = window.imData.currentSettingsFriend;
+                if (!file || !friend) {
+                    e.target.value = '';
+                    return;
+                }
+
+                try {
+                    const bgUrl = window.imApp.compressImageFile
+                        ? await window.imApp.compressImageFile(file, {
+                            maxWidth: 1440,
+                            maxHeight: 1440,
+                            mimeType: 'image/jpeg',
+                            quality: 0.82
+                        })
+                        : await window.imApp.readFileAsDataUrl(file);
+
+                    const saved = await commitSettingsFriendChange((targetFriend) => {
+                        targetFriend.chatBg = bgUrl;
+                    }, { silent: true });
+
+                    if (!saved) {
+                        showToast('聊天背景保存失败');
+                        return;
+                    }
+
+                    applyFriendBg(window.imData.currentSettingsFriend);
+                    showToast('已更换聊天背景');
+                } catch (error) {
+                    console.error('Failed to process NPC chat background image', error);
+                    showToast('聊天背景处理失败');
+                } finally {
+                    e.target.value = '';
+                }
+            });
+        }
+
+        if (bgResetIcon && bgResetIcon.dataset.bound !== 'true') {
+            bgResetIcon.dataset.bound = 'true';
+            bgResetIcon.addEventListener('click', async () => {
+                if (!window.imData.currentSettingsFriend) return;
+
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.chatBg = null;
+                }, { silent: true });
+
+                if (!saved) {
+                    showToast('聊天背景重置失败');
+                    return;
+                }
+
+                applyFriendBg(window.imData.currentSettingsFriend);
+                showToast('已重置聊天背景');
+            });
+        }
+
+        if (avatarToggle && avatarToggle.dataset.bound !== 'true') {
+            avatarToggle.dataset.bound = 'true';
+            avatarToggle.addEventListener('change', async (e) => {
+                const friend = window.imData.currentSettingsFriend;
+                if (!friend) return;
+
+                const previousValue = !!friend.showAvatar;
+                const nextValue = e.target.checked;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.showAvatar = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('头像设置保存失败');
+                    return;
+                }
+
+                if (window.imChat && window.imChat.rerenderChatContainer) {
+                    const page = document.getElementById(`chat-interface-${friend.id}`);
+                    if (page) {
+                        const msgContainer = page.querySelector('.ins-chat-messages');
+                        if (msgContainer) window.imChat.rerenderChatContainer(friend, msgContainer, { scroll: false });
+                    }
+                }
+            });
+        }
+
+        if (tsToggle && tsToggle.dataset.bound !== 'true') {
+            tsToggle.dataset.bound = 'true';
+            tsToggle.addEventListener('change', async (e) => {
+                const friend = window.imData.currentSettingsFriend;
+                if (!friend) return;
+
+                const previousValue = !!friend.showTimestamp;
+                const nextValue = e.target.checked;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.showTimestamp = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('时间戳设置保存失败');
+                    return;
+                }
+
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+            });
+        }
+
+        if (pinToggle && pinToggle.dataset.bound !== 'true') {
+            pinToggle.dataset.bound = 'true';
+            pinToggle.addEventListener('change', async (e) => {
+                const friend = window.imData.currentSettingsFriend;
+                if (!friend) return;
+
+                const previousValue = !!friend.isPinned;
+                const nextValue = e.target.checked;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.isPinned = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('置顶设置保存失败');
+                    return;
+                }
+
+                if (window.imApp.renderChatsList) window.imApp.renderChatsList();
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+                showToast(window.imData.currentSettingsFriend.isPinned ? '已置顶' : '已取消置顶');
+            });
+        }
+
+        if (clearHistoryBtn && clearHistoryBtn.dataset.bound !== 'true') {
+            clearHistoryBtn.dataset.bound = 'true';
+            clearHistoryBtn.addEventListener('click', () => {
+                const friend = window.imData.currentSettingsFriend;
+                if (!friend) return;
+
+                showCustomModal({
+                    title: '清空聊天记录',
+                    message: '确定清空这个 NPC 的所有聊天记录吗？此操作不可恢复。',
+                    isDestructive: true,
+                    confirmText: '清空',
+                    onConfirm: async () => {
+                        const friendId = friend.id;
+                        const saved = window.imApp.resetFriendMessages
+                            ? await window.imApp.resetFriendMessages(friendId, { silent: true })
+                            : await commitSettingsFriendChange((targetFriend) => {
+                                targetFriend.messages = [];
+                            }, { silent: true, metaOnly: false, includeMessages: true });
+
+                        if (!saved) {
+                            showToast('清空聊天记录失败');
+                            return;
+                        }
+
+                        const page = document.getElementById(`chat-interface-${friendId}`);
+                        if (page) {
+                            const msgContainer = page.querySelector('.ins-chat-messages');
+                            const latestFriend = window.imApp.getFriendById ? window.imApp.getFriendById(friendId) : window.imData.currentSettingsFriend;
+                            if (msgContainer && latestFriend && window.imChat.rerenderChatContainer) {
+                                window.imChat.rerenderChatContainer(latestFriend, msgContainer, { scroll: false });
+                            } else if (msgContainer) {
+                                msgContainer.innerHTML = '';
+                            }
+                        }
+
+                        if (window.imApp.renderChatsList) window.imApp.renderChatsList();
+                        showToast('已清空聊天记录');
+                        closeView(npcChatSettingsSheet);
+                    }
+                });
+            });
+        }
+
+        if (deleteNpcBtn && deleteNpcBtn.dataset.bound !== 'true') {
+            deleteNpcBtn.dataset.bound = 'true';
+            deleteNpcBtn.addEventListener('click', () => {
+                const friend = window.imData.currentSettingsFriend;
+                if (!friend) return;
+
+                showCustomModal({
+                    title: '删除 NPC',
+                    message: `确定删除 NPC ${friend.nickname} 吗？此操作不可恢复。`,
+                    isDestructive: true,
+                    confirmText: '删除',
+                    onConfirm: async () => {
+                        const deletingFriendId = friend.id;
+                        const saved = window.imApp.commitFriendsChange
+                            ? await window.imApp.commitFriendsChange(() => {
+                                window.imData.friends = (window.imData.friends || []).filter(
+                                    f => String(f.id) !== String(deletingFriendId)
+                                );
+                            }, {
+                                silent: true,
+                                friendIds: [],
+                                deletedFriendIds: [deletingFriendId]
+                            })
+                            : false;
+
+                        if (!saved) {
+                            showToast('删除 NPC 失败');
+                            return;
+                        }
+
+                        if (window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(deletingFriendId)) {
+                            window.imData.currentSettingsFriend = null;
+                        }
+                        if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(deletingFriendId)) {
+                            window.imData.currentActiveFriend = null;
+                        }
+
+                        if (window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+                        if (window.imApp.updateChatsView) window.imApp.updateChatsView();
+
+                        const page = document.getElementById(`chat-interface-${deletingFriendId}`);
+                        if (page) page.remove();
+
+                        closeView(npcChatSettingsSheet);
+                        showToast('已删除 NPC');
+                    }
+                });
+            });
+        }
+    }
+
+    const staticChatMenuBtn = document.querySelector('#active-chat-interface .chat-menu-btn');
+    if (staticChatMenuBtn) {
+        staticChatMenuBtn.addEventListener('click', () => {
+            if (window.imData.currentActiveFriend) {
+                openChatSettingsForFriend(window.imData.currentActiveFriend);
+            }
+        });
+    }
+
+    if (bindWorldBookSheet) {
+        bindWorldBookSheet.addEventListener('click', (e) => {
+            if (e.target === bindWorldBookSheet) {
+                closeView(bindWorldBookSheet);
+            }
+        });
+    }
+
+    if (bindAccountSheet) {
+        bindAccountSheet.addEventListener('click', (e) => {
+            if (e.target === bindAccountSheet) {
+                closeView(bindAccountSheet);
+            }
+        });
+    }
+
+
+    if (worldBookBtn) {
+        worldBookBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            if (typeof window.renderWorldBookSelector !== 'function') {
+                showToast('世界书选择器不可用');
+                return;
+            }
+
+            const selectedIds = Array.isArray(window.imData.currentSettingsFriend.boundBooks)
+                ? window.imData.currentSettingsFriend.boundBooks
+                : [];
+
+            window.renderWorldBookSelector(selectedIds, async (nextIds) => {
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.boundBooks = Array.isArray(nextIds)
+                        ? nextIds.filter(Boolean).map(id => String(id))
+                        : [];
+                }, { silent: true });
+
+                if (!saved) {
+                    showToast('世界书绑定保存失败');
+                    return;
+                }
+
+                if (window.renderWorldBooks) window.renderWorldBooks();
+                showToast('世界书绑定已更新');
+            });
+        });
+    }
+
+    if (chatBindIdBtn && bindAccountSheet) {
+        chatBindIdBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            tempSelectedAccountId = window.imData.currentSettingsFriend.boundAccountId || null;
+            renderBindAccountList(window.imData.currentSettingsFriend);
+            openView(bindAccountSheet);
+        });
+    }
+
+    if (confirmBindWorldBookBtn) {
+        confirmBindWorldBookBtn.addEventListener('click', async () => {
+            if (window.imData.currentSettingsFriend) {
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.boundBooks = [...tempSelectedBookIds];
+                }, { silent: true });
+
+                if (!saved) {
+                    showToast('世界书绑定保存失败');
+                    return;
+                }
+
+                if (window.renderWorldBooks) window.renderWorldBooks();
+                showToast('世界书绑定已更新');
+            }
+            closeView(bindWorldBookSheet);
+        });
+    }
+
+    if (confirmBindAccountBtn) {
+        confirmBindAccountBtn.addEventListener('click', async () => {
+            const friend = window.imData.currentSettingsFriend;
+            if (!friend) return;
+
+            const nextBoundAccountId = tempSelectedAccountId || null;
+            const saved = await commitSettingsFriendChange((targetFriend) => {
+                targetFriend.boundAccountId = nextBoundAccountId;
+            }, { silent: true });
+
+            if (!saved) {
+                showToast('角色绑定ID保存失败');
+                return;
+            }
+
+            updateChatBindIdLabel(window.imData.currentSettingsFriend);
+            if (window.updateBindRoleEntryPoints) window.updateBindRoleEntryPoints();
+            showToast(window.imData.currentSettingsFriend.boundAccountId ? '角色绑定ID已更新' : '已取消绑定ID');
+            closeView(bindAccountSheet);
+        });
+    }
+
+    function renderBindWorldBookList() {
+        if (!bindWorldBookList) return;
+        bindWorldBookList.innerHTML = '';
+        
+        let allBooks = window.getWorldBooks ? window.getWorldBooks() : [];
+        
+        // 过滤掉已启用全局的世界书
+        const selectableBooks = allBooks.filter(book => !book.isGlobal);
+        
+        if (allBooks.length === 0) {
+            bindWorldBookList.innerHTML = '<div style="text-align: center; color: #8e8e93; padding: 20px;">暂无世界书，请先在主界面创建</div>';
+            return;
+        } else if (selectableBooks.length === 0) {
+            bindWorldBookList.innerHTML = '<div style="text-align: center; color: #8e8e93; padding: 20px;">所有世界书都已启用全局，无需在此单独绑定</div>';
+            return;
+        }
+
+        selectableBooks.forEach(book => {
+            const isSelected = tempSelectedBookIds.includes(book.id);
+            const tokens = window.calculateTokens ? window.calculateTokens(book.entries) : 0;
+            
+            const item = document.createElement('div');
+            item.className = 'account-card';
+            item.style.padding = '12px 16px';
+            item.style.height = 'auto';
+            item.style.cursor = 'pointer';
+            item.style.borderRadius = '16px';
+            item.style.border = isSelected ? '2px solid var(--blue-color)' : '2px solid transparent';
+            item.style.boxShadow = '0 2px 8px rgba(0,0,0,0.05)';
+            item.style.position = 'relative';
+            
+            item.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 36px; height: 36px; background-color: #1c1c1e; border-radius: 10px; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 16px;">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div>
+                            <div style="font-size: 16px; font-weight: 500; color: #000;">${book.name}</div>
+                            <div style="font-size: 12px; color: #8e8e93; margin-top: 2px;">分组: ${book.group}</div>
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 13px; color: #8e8e93;">+${tokens} Tokens</span>
+                        <div style="width: 22px; height: 22px; border-radius: 50%; border: 1px solid ${isSelected ? 'var(--blue-color)' : '#c7c7cc'}; background-color: ${isSelected ? 'var(--blue-color)' : 'transparent'}; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 12px;">
+                            ${isSelected ? '<i class="fas fa-check"></i>' : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            const styleFix = document.createElement('style');
+            styleFix.innerHTML = `#bind-world-book-list .account-card::after { display: none !important; }`;
+            item.appendChild(styleFix);
+
+            item.addEventListener('click', () => {
+                if (tempSelectedBookIds.includes(book.id)) {
+                    tempSelectedBookIds = tempSelectedBookIds.filter(id => id !== book.id);
+                } else {
+                    tempSelectedBookIds.push(book.id);
+                }
+                renderBindWorldBookList();
+            });
+            
+            bindWorldBookList.appendChild(item);
+        });
+    }
+
+    const deleteFriendBtn = document.getElementById('delete-friend-btn');
+    const clearHistoryBtn = document.getElementById('clear-history-btn');
+    const resetCssBtn = document.getElementById('reset-css-btn');
+    
+    const chatBgUpload = document.getElementById('chat-bg-upload');
+    const chatBgUploadIcon = document.getElementById('chat-bg-upload-icon');
+    const chatBgSaveIcon = document.getElementById('chat-bg-save-icon');
+    const chatBgResetIcon = document.getElementById('chat-bg-reset-icon');
+
+    if (chatBgUploadIcon && chatBgUpload) {
+        chatBgUploadIcon.addEventListener('click', () => {
+            chatBgUpload.click();
+        });
+
+        chatBgUpload.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (file && window.imData.currentSettingsFriend) {
+                try {
+                    const bgUrl = window.imApp.compressImageFile
+                        ? await window.imApp.compressImageFile(file, {
+                            maxWidth: 1440,
+                            maxHeight: 1440,
+                            mimeType: 'image/jpeg',
+                            quality: 0.82
+                        })
+                        : await window.imApp.readFileAsDataUrl(file);
+
+                    const saved = await commitSettingsFriendChange((targetFriend) => {
+                        targetFriend.chatBg = bgUrl;
+                    }, { silent: true });
+
+                    if (!saved) {
+                        showToast('聊天背景保存失败');
+                        return;
+                    }
+
+                    applyFriendBg(window.imData.currentSettingsFriend);
+                    showToast('已更换聊天背景');
+                } catch (error) {
+                    console.error('Failed to process chat background image', error);
+                    showToast('聊天背景处理失败');
+                }
+            }
+            e.target.value = ''; 
+        });
+    }
+
+    if (chatBgResetIcon) {
+        chatBgResetIcon.addEventListener('click', async () => {
+            if (window.imData.currentSettingsFriend) {
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.chatBg = null;
+                }, { silent: true });
+
+                if (!saved) {
+                    showToast('聊天背景重置失败');
+                    return;
+                }
+
+                applyFriendBg(window.imData.currentSettingsFriend);
+                showToast('已重置聊天背景');
+            }
+        });
+    }
+
+    function applyFriendBg(friend) {
+        if (!friend) return;
+        const page = document.getElementById(`chat-interface-${friend.id}`);
+        if (page) {
+            const stickyContainer = page.querySelector('.chat-sticky-container');
+
+            page.style.removeProperty('background-image');
+            page.style.removeProperty('background-color');
+            page.style.removeProperty('background-size');
+            page.style.removeProperty('background-position');
+            if (stickyContainer) {
+                stickyContainer.style.removeProperty('background');
+                stickyContainer.style.removeProperty('border-bottom');
+            }
+
+            if (friend.chatBg) {
+                const escapedBg = String(friend.chatBg).replace(/["\\]/g, '\\$&');
+                page.classList.add('has-chat-bg');
+                page.style.setProperty('--im-chat-bg-image', `url("${escapedBg}")`);
+            } else {
+                page.classList.remove('has-chat-bg');
+                page.style.removeProperty('--im-chat-bg-image');
+            }
+        }
+    }
+
+
+    if (clearHistoryBtn) {
+        clearHistoryBtn.addEventListener('click', () => {
+            if (window.imData.currentSettingsFriend) {
+                showCustomModal({
+                    title: '清空聊天记录',
+                    message: '确定清空所有聊天记录吗？此操作不可恢复。',
+                    isDestructive: true,
+                    confirmText: '清空',
+                    onConfirm: async () => {
+                        const friendId = window.imData.currentSettingsFriend.id;
+                        const saved = window.imApp.resetFriendMessages
+                            ? await window.imApp.resetFriendMessages(friendId, { silent: true })
+                            : await commitSettingsFriendChange((targetFriend) => {
+                                targetFriend.messages = [];
+                                if (window.imApp.syncActiveFriendReference) {
+                                    window.imApp.syncActiveFriendReference(targetFriend);
+                                }
+                                if (window.imApp.syncSettingsFriendReference) {
+                                    window.imApp.syncSettingsFriendReference(targetFriend);
+                                }
+                            }, { silent: true, metaOnly: false, includeMessages: true });
+
+                        if (!saved) {
+                            showToast('清空聊天记录失败');
+                            const failedPage = document.getElementById(`chat-interface-${friendId}`);
+                            if (failedPage) {
+                                const failedContainer = failedPage.querySelector('.ins-chat-messages');
+                                if (failedContainer) {
+                                    failedContainer.innerHTML = '';
+                                    window.imChat.renderChatHistory(window.imData.currentSettingsFriend, failedContainer);
+                                }
+                            }
+                            return;
+                        }
+                        
+                        const page = document.getElementById(`chat-interface-${friendId}`);
+                        if (page) {
+                            const msgContainer = page.querySelector('.ins-chat-messages');
+                            const latestFriend = window.imApp.getFriendById ? window.imApp.getFriendById(friendId) : window.imData.currentSettingsFriend;
+                            if (msgContainer && latestFriend && window.imChat.rerenderChatContainer) {
+                                window.imChat.rerenderChatContainer(latestFriend, msgContainer, { scroll: false });
+                            } else if (msgContainer) {
+                                msgContainer.innerHTML = '';
+                            }
+                        }
+                        
+                        showToast('已清空聊天记录');
+                        closeView(chatSettingsSheet);
+                        if(window.imApp.renderChatsList) window.imApp.renderChatsList();
+                    }
+                });
+            }
+        });
+    }
+
+    if (deleteFriendBtn) {
+        deleteFriendBtn.addEventListener('click', () => {
+            if (window.imData.currentSettingsFriend) {
+                showCustomModal({
+                    title: '删除好友',
+                    message: `确定删除好友 ${window.imData.currentSettingsFriend.nickname} 吗？此操作不可恢复。`,
+                    isDestructive: true,
+                    confirmText: '删除',
+                    onConfirm: async () => {
+                        const deletingFriend = window.imData.currentSettingsFriend;
+                        const deletingFriendId = deletingFriend.id;
+
+                        const saved = window.imApp.commitFriendsChange
+                            ? await window.imApp.commitFriendsChange(() => {
+                                window.imData.friends = (window.imData.friends || []).filter(
+                                    f => String(f.id) !== String(deletingFriendId)
+                                );
+                            }, {
+                                silent: true,
+                                friendIds: [],
+                                deletedFriendIds: [deletingFriendId]
+                            })
+                            : (window.imApp.flushFriendSave
+                                ? await window.imApp.flushFriendSave(deletingFriendId, { silent: true })
+                                : false);
+
+                        if (!saved) {
+                            showToast('删除好友失败');
+                            return;
+                        }
+
+                        if (window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(deletingFriendId)) {
+                            window.imData.currentSettingsFriend = null;
+                        }
+                        if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(deletingFriendId)) {
+                            window.imData.currentActiveFriend = null;
+                        }
+
+                        if(window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+                        closeView(chatSettingsSheet);
+
+                        if(window.imApp.updateChatsView) window.imApp.updateChatsView();
+
+                        const page = document.getElementById(`chat-interface-${deletingFriendId}`);
+                        if (page) page.remove();
+
+                        showToast('已删除好友');
+                    }
+                });
+            }
+        });
+    }
+
+    const chatSettingsMomentsBtn = document.getElementById('chat-settings-moments-btn');
+    if (chatSettingsMomentsBtn) {
+        chatSettingsMomentsBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            if (chatSettingsSheet) closeView(chatSettingsSheet);
+            if(window.imApp.openUserMoments) window.imApp.openUserMoments(window.imData.currentSettingsFriend.id);
+        });
+    }
+
+    const chatSettingsProfileTrigger = document.getElementById('chat-settings-profile-trigger');
+    if (chatSettingsProfileTrigger) {
+        chatSettingsProfileTrigger.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            const friend = window.imData.currentSettingsFriend;
+            const editSheet = document.getElementById('edit-char-persona-sheet');
+            if (!editSheet) return;
+
+            const realNameInput = document.getElementById('char-realname-input');
+            const nicknameInput = document.getElementById('char-nickname-input');
+            const signatureInput = document.getElementById('char-signature-input');
+            const personaInput = document.getElementById('char-persona-input');
+            const avatarPreview = document.getElementById('char-edit-avatar-img');
+            const avatarIcon = document.getElementById('char-edit-avatar-preview');
+            let avatarI = null;
+            if(avatarIcon) avatarI = avatarIcon.querySelector('i');
+            
+            let tempAvatarUrl = friend.avatarUrl;
+
+            friend.memory = window.imApp.normalizeFriendData(friend).memory;
+
+            if(realNameInput) realNameInput.value = friend.realName || '';
+            if(nicknameInput) nicknameInput.value = friend.nickname || '';
+            if(signatureInput) signatureInput.value = friend.signature || '';
+            if(personaInput) personaInput.value = friend.persona || '';
+            
+            if (friend.avatarUrl) {
+                if(avatarPreview) { avatarPreview.src = friend.avatarUrl; avatarPreview.style.display = 'block'; }
+                if(avatarI) avatarI.style.display = 'none';
+            } else {
+                if(avatarPreview) { avatarPreview.style.display = 'none'; avatarPreview.src = ''; }
+                if(avatarI) avatarI.style.display = 'block';
+            }
+
+            const avatarWrapper = document.getElementById('char-edit-avatar-wrapper');
+            const avatarUpload = document.getElementById('char-edit-avatar-upload');
+            
+            if (avatarWrapper && avatarUpload) {
+                const newAvatarWrapper = avatarWrapper.cloneNode(true);
+                avatarWrapper.parentNode.replaceChild(newAvatarWrapper, avatarWrapper);
+                
+                const newAvatarUpload = avatarUpload.cloneNode(true);
+                avatarUpload.parentNode.replaceChild(newAvatarUpload, avatarUpload);
+
+                newAvatarWrapper.addEventListener('click', (e) => {
+                    if (e.target.tagName !== 'INPUT') newAvatarUpload.click();
+                });
+
+                newAvatarUpload.addEventListener('change', async (e) => {
+                    const file = e.target.files[0];
+            if (file) {
+                try {
+                    const avatarUrl = window.imApp.compressImageFile
+                        ? await window.imApp.compressImageFile(file, {
+                            maxWidth: 256,
+                            maxHeight: 256,
+                            mimeType: 'image/jpeg',
+                            quality: 0.8
+                        })
+                        : await window.imApp.readFileAsDataUrl(file);
+
+                            const img = document.getElementById('char-edit-avatar-img');
+                            const iconPreview = document.getElementById('char-edit-avatar-preview');
+                            let iconI = null;
+                            if(iconPreview) iconI = iconPreview.querySelector('i');
+                            if(img) { img.src = tempAvatarUrl; img.style.display = 'block'; }
+                            if(iconI) iconI.style.display = 'none';
+                        } catch (error) {
+                            console.error('Failed to process character avatar image', error);
+                            showToast('头像处理失败');
+                        }
+                    }
+                });
+            }
+
+            const confirmBtn = document.getElementById('confirm-char-persona-btn');
+            if (confirmBtn) {
+                const newConfirmBtn = confirmBtn.cloneNode(true);
+                confirmBtn.parentNode.replaceChild(newConfirmBtn, confirmBtn);
+                
+                newConfirmBtn.addEventListener('click', async () => {
+                    const fallbackName = friend.type === 'npc' ? 'New NPC' : 'New Friend';
+                    const saved = await commitNamedFriendChange(friend, (targetFriend) => {
+                        targetFriend.realName = realNameInput ? realNameInput.value : '';
+                        targetFriend.nickname = nicknameInput ? (nicknameInput.value || fallbackName) : fallbackName;
+                        targetFriend.signature = signatureInput ? signatureInput.value : '';
+                        targetFriend.persona = personaInput ? personaInput.value : '';
+                        targetFriend.avatarUrl = tempAvatarUrl;
+                    }, { silent: true });
+
+                    if (!saved) {
+                        showToast('角色修改保存失败');
+                        return;
+                    }
+
+                    const latestFriend = window.imData.friends.find(item => String(item.id) === String(friend.id)) || friend;
+                    window.imData.currentSettingsFriend = latestFriend;
+                    
+                    const page = document.getElementById(`chat-interface-${latestFriend.id}`);
+                    if (page) {
+                        const nameEl = page.querySelector('.ins-chat-name');
+                        const avatarContainer = page.querySelector('.ins-chat-avatar');
+                        
+                        if(nameEl) nameEl.textContent = latestFriend.nickname;
+                        
+                        if (avatarContainer) {
+                            if (latestFriend.avatarUrl) {
+                                avatarContainer.innerHTML = `<img src="${latestFriend.avatarUrl}" style="display: block;">`;
+                            } else {
+                                avatarContainer.innerHTML = `<i class="fas fa-user"></i>`;
+                            }
+                        }
+                    }
+
+                    const settingsAvatarImg = document.getElementById('chat-settings-avatar-img');
+                    const settingsAvatarIcon = document.getElementById('chat-settings-avatar-icon');
+                    const settingsName = document.getElementById('chat-settings-name');
+                    if (latestFriend.avatarUrl) {
+                        if(settingsAvatarImg) { settingsAvatarImg.src = latestFriend.avatarUrl; settingsAvatarImg.style.display = 'block'; }
+                        if(settingsAvatarIcon) settingsAvatarIcon.style.display = 'none';
+                    } else {
+                        if(settingsAvatarImg) { settingsAvatarImg.style.display = 'none'; settingsAvatarImg.src = ''; }
+                        if(settingsAvatarIcon) settingsAvatarIcon.style.display = 'block';
+                    }
+                    if (settingsName) settingsName.textContent = latestFriend.nickname;
+                    if (latestFriend.type === 'npc') refreshNpcSettingsHeader(latestFriend);
+                    
+                    if(window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+                    if(window.imApp.renderChatsList) window.imApp.renderChatsList();
+                    
+                    showToast('角色修改成功');
+                    closeView(editSheet);
+                });
+            }
+
+            openView(editSheet);
+        });
+    }
+
+    function ensureCherishedMemoryUi() {
+        let detailOverlay = document.getElementById('chat-memory-cherished-detail-overlay');
+        if (!detailOverlay) {
+            detailOverlay = document.createElement('div');
+            detailOverlay.id = 'chat-memory-cherished-detail-overlay';
+            detailOverlay.className = 'chat-memory-cherished-detail-overlay';
+            detailOverlay.style.position = 'fixed';
+            detailOverlay.style.inset = '0';
+            detailOverlay.style.background = 'rgba(0,0,0,0.4)';
+            detailOverlay.style.zIndex = '99999';
+            detailOverlay.style.display = 'none';
+            detailOverlay.style.alignItems = 'center';
+            detailOverlay.style.justifyContent = 'center';
+            detailOverlay.style.padding = '20px';
+            detailOverlay.style.boxSizing = 'border-box';
+            
+            detailOverlay.innerHTML = `
+                <div class="chat-memory-cherished-detail-card" style="background:#fff; width:100%; max-width:320px; border-radius:20px; padding:20px;  position:relative;">
+                    <button type="button" class="chat-memory-cherished-detail-close" aria-label="关闭" style="position:absolute; right:15px; top:15px; border:none; background:transparent; font-size:18px; color:#8e8e93; cursor:pointer;">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="chat-memory-cherished-detail-label" style="font-size:12px; color:#007aff; font-weight:700; margin-bottom:10px;">下载项详情</div>
+                    <div id="chat-memory-cherished-detail-title" class="chat-memory-cherished-detail-title" style="font-size:18px; font-weight:700; color:#111; margin-bottom:8px;">标题</div>
+                    <div id="chat-memory-cherished-detail-time" class="chat-memory-cherished-detail-time" style="font-size:13px; color:#8e8e93; margin-bottom:16px;"></div>
+                    <div id="chat-memory-cherished-detail-content" class="chat-memory-cherished-detail-content" style="font-size:15px; color:#333; line-height:1.6; margin-bottom:16px;"></div>
+                    <div id="chat-memory-cherished-detail-reason" class="chat-memory-cherished-detail-reason" style="font-size:14px; color:#666; background:#f2f2f7; padding:12px; border-radius:12px; margin-bottom:12px;"></div>
+                    <div id="chat-memory-cherished-detail-thought" class="chat-memory-cherished-detail-thought" style="font-size:14px; color:#666; background:#f2f2f7; padding:12px; border-radius:12px; margin-bottom:16px;"></div>
+                    <div style="margin-top: 10px;">
+                        <button type="button" id="chat-memory-cherished-detail-delete-btn" style="width: 100%; padding: 12px; border-radius: 12px; background: #ffe5e5; color: #ff3b30; border: none; font-size: 15px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                            <i class="fas fa-trash-alt"></i> 删除这条下载项
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(detailOverlay);
+
+            detailOverlay.addEventListener('click', (e) => {
+                if (e.target === detailOverlay) {
+                    hideCherishedMemoryDetail();
+                }
+            });
+
+            const closeBtn = detailOverlay.querySelector('.chat-memory-cherished-detail-close');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    hideCherishedMemoryDetail();
+                });
+            }
+            
+            const deleteBtn = detailOverlay.querySelector('#chat-memory-cherished-detail-delete-btn');
+            if (deleteBtn) {
+                deleteBtn.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    const entryId = deleteBtn.getAttribute('data-entry-id');
+                    if (!entryId) return;
+
+                    // 从当前所有可能正在查看的上下文里获取 Friend
+                    let friend = window.imData.currentSettingsFriend;
+                    if (!friend) {
+                        // 回退方案：通过 currentActiveFriend (如果从 core.js 里下载项面板触发)
+                        // 在 core 里渲染下载项时会去查当前选中的 memory friend
+                        // 但为了安全，我们可能需要从 DOM 层反推当前的 friend
+                        const currentMemoryFriendId = document.querySelector('.memory-friend-story-item.active')?.dataset?.friendId;
+                        if (currentMemoryFriendId) {
+                            friend = window.imData.friends.find(f => String(f.id) === String(currentMemoryFriendId));
+                        }
+                    }
+
+                    if (!friend) return;
+
+                    let newCherishedText = '';
+                    const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                        if (!targetFriend || !targetFriend.memory) return;
+                        
+                        let entries = Array.isArray(targetFriend.memory.cherishedEntries) ? targetFriend.memory.cherishedEntries : [];
+                        entries = entries.filter(item => String(item.id) !== String(entryId));
+                        targetFriend.memory.cherishedEntries = entries;
+                        
+                        entries.forEach(entry => {
+                            const parts = [
+                                entry.title ? `【${entry.title}】` : '',
+                                entry.content || '',
+                                entry.reason ? `原因：${entry.reason}` : ''
+                            ].filter(Boolean);
+                            const block = parts.join('\n').trim();
+                            if (block) newCherishedText += (newCherishedText ? '\n\n' : '') + block;
+                        });
+                        targetFriend.memory.cherished = newCherishedText;
+
+                    }, { silent: true, syncActive: true, syncSettings: true });
+
+                    if (saved) {
+                        if (window.showToast) window.showToast('已删除下载项');
+                        hideCherishedMemoryDetail();
+                        const latestFriend = window.imApp.getFriendById
+                            ? (window.imApp.getFriendById(friend.id) || friend)
+                            : (window.imData.friends.find(f => String(f.id) === String(friend.id)) || friend);
+                        const chatMemoryCherishedInput = document.getElementById('chat-memory-cherished-input');
+                        if (chatMemoryCherishedInput && window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(latestFriend.id)) {
+                            chatMemoryCherishedInput.value = latestFriend.memory?.cherished || '';
+                        }
+                        
+                        // Update memory location sheet (Downloads) if it's open
+                        const memoryLocationSheet = document.getElementById('memory-location-sheet');
+                        if (memoryLocationSheet && memoryLocationSheet.style.transform === 'translateY(0px)') {
+                            const memoryLocationSheetContent = document.getElementById('memory-location-sheet-content');
+                            if (memoryLocationSheetContent && memoryLocationSheetContent.innerHTML.includes('下载项')) {
+                                // re-render downloads
+                                const cherishedEntries = Array.isArray(latestFriend.memory?.cherishedEntries) ? latestFriend.memory.cherishedEntries : [];
+                                
+                                const escapeCherishedListHtml = (value) => String(value || '')
+                                    .replace(/&/g, '&amp;')
+                                    .replace(/</g, '&lt;')
+                                    .replace(/>/g, '&gt;')
+                                    .replace(/"/g, '&quot;')
+                                    .replace(/'/g, '&#39;');
+
+                                if (cherishedEntries.length === 0) {
+                                    memoryLocationSheetContent.innerHTML = `
+                                        <div class="memory-sheet-title">下载项</div>
+                                        <div class="memory-short-list">
+                                            <div class="memory-short-empty">暂无下载项</div>
+                                        </div>
+                                    `;
+                                } else {
+                                    memoryLocationSheetContent.innerHTML = `
+                                        <div class="memory-sheet-title">下载项</div>
+                                        <div class="chat-memory-modal-cherished-list" style="padding: 0 16px;">
+                                            ${cherishedEntries.slice().reverse().map(e => `
+                                                <button type="button" class="chat-memory-modal-cherished-card" data-entry-id="${e.id}">
+                                                    <div class="chat-memory-modal-cherished-card-title">${escapeCherishedListHtml(e.title || '下载项')}</div>
+                                                    <div class="chat-memory-modal-cherished-card-time">${escapeCherishedListHtml(e.createdAt || '点击查看详情')}</div>
+                                                </button>
+                                            `).join('')}
+                                        </div>
+                                    `;
+                                    
+                                    memoryLocationSheetContent.querySelectorAll('.chat-memory-modal-cherished-card').forEach(btn => {
+                                        btn.addEventListener('click', () => {
+                                            const clickedId = btn.getAttribute('data-entry-id');
+                                            const target = cherishedEntries.find(ent => String(ent.id) === String(clickedId));
+                                            if (target) showCherishedMemoryDetail(target);
+                                        });
+                                    });
+                                }
+                            }
+                        }
+                        
+                    } else {
+                        if (window.showToast) window.showToast('删除失败');
+                    }
+                });
+            }
+        }
+
+        return {
+            detailOverlay
+        };
+    }
+
+    function showCherishedMemoryDetail(entry) {
+        ensureCherishedMemoryUi();
+        const overlay = document.getElementById('chat-memory-cherished-detail-overlay');
+        if (!overlay || !entry) return;
+
+        const titleEl = document.getElementById('chat-memory-cherished-detail-title');
+        const timeEl = document.getElementById('chat-memory-cherished-detail-time');
+        const contentEl = document.getElementById('chat-memory-cherished-detail-content');
+        const reasonEl = document.getElementById('chat-memory-cherished-detail-reason');
+        const thoughtEl = document.getElementById('chat-memory-cherished-detail-thought');
+        const deleteBtn = document.getElementById('chat-memory-cherished-detail-delete-btn');
+
+        if (titleEl) titleEl.textContent = entry.title || '下载项';
+        if (timeEl) timeEl.textContent = entry.createdAt || '';
+        if (contentEl) contentEl.textContent = entry.content || '';
+        if (reasonEl) {
+            reasonEl.textContent = entry.reason ? `想记住的原因：${entry.reason}` : '';
+            reasonEl.style.display = entry.reason ? 'block' : 'none';
+        }
+        if (thoughtEl) {
+            thoughtEl.textContent = entry.sourceThought ? `当时的心声：${entry.sourceThought}` : '';
+            thoughtEl.style.display = entry.sourceThought ? 'block' : 'none';
+        }
+        
+        if (deleteBtn) {
+            deleteBtn.setAttribute('data-entry-id', entry.id);
+        }
+
+        overlay.style.display = 'flex';
+        requestAnimationFrame(() => {
+            overlay.classList.add('active');
+        });
+    }
+
+    function hideCherishedMemoryDetail() {
+        const overlay = document.getElementById('chat-memory-cherished-detail-overlay');
+        if (!overlay) return;
+
+        overlay.classList.remove('active');
+        setTimeout(() => {
+            if (!overlay.classList.contains('active')) {
+                overlay.style.display = 'none';
+            }
+        }, 220);
+    }
+
+    function renderCherishedMemoryCards(friend) {
+        // Obsolete, replaced by generic downloads panel rendering in 2_core.js
+        return;
+    }
+
+    async function saveChatSettingsMemory(friend, options = {}) {
+        if (!friend) return false;
+        const shouldToast = !!options.showToast;
+
+        const chatMemoryOverviewInput = document.getElementById('chat-memory-overview-input');
+        const chatMemoryContextEnabled = document.getElementById('chat-memory-context-enabled-toggle');
+        const chatMemoryContextLimit = document.getElementById('chat-memory-context-limit-input');
+        const chatMemoryCherishedInput = document.getElementById('chat-memory-cherished-input');
+        const chatMemoryScheduleSleep = document.getElementById('chat-memory-schedule-sleep-input');
+        const chatMemoryScheduleWake = document.getElementById('chat-memory-schedule-wake-input');
+
+        const nextMemory = {
+            ...window.imApp.createDefaultMemory(),
+            ...(friend.memory || {}),
+            overview: chatMemoryOverviewInput ? chatMemoryOverviewInput.value : '',
+            context: {
+                enabled: chatMemoryContextEnabled ? chatMemoryContextEnabled.checked : true,
+                limit: chatMemoryContextLimit && Number(chatMemoryContextLimit.value) > 0 ? Number(chatMemoryContextLimit.value) : 80,
+                notes: friend.memory?.context?.notes || ''
+            },
+            summary: {
+                enabled: false,
+                limit: friend.memory?.summary?.limit || 80,
+                prompt: friend.memory?.summary?.prompt || ''
+            },
+            longTerm: friend.memory?.longTerm || '',
+            shortTermEntries: Array.isArray(friend.memory?.shortTermEntries) ? friend.memory.shortTermEntries : [],
+            cherished: chatMemoryCherishedInput ? chatMemoryCherishedInput.value : (friend.memory?.cherished || ''),
+            schedule: {
+                enabled: false,
+                sleepTime: chatMemoryScheduleSleep ? chatMemoryScheduleSleep.value : (friend.memory?.schedule?.sleepTime || '23:00'),
+                wakeTime: chatMemoryScheduleWake ? chatMemoryScheduleWake.value : (friend.memory?.schedule?.wakeTime || '07:00')
+            },
+            relationships: Array.isArray(friend.memory?.relationships) ? friend.memory.relationships : []
+        };
+
+        const commitOptions = {
+            silent: options.silent !== false,
+            immediate: options.immediate,
+            delay: options.delay
+        };
+
+        const saved = await commitNamedFriendChange(friend, (targetFriend) => {
+            targetFriend.memory = nextMemory;
+        }, commitOptions);
+
+        if (!saved) {
+            if (shouldToast) showToast('记忆设置保存失败');
+            return false;
+        }
+
+        if (shouldToast) showToast('记忆设置已保存');
+        return true;
+    }
+
+    function bindChatSettingsMemoryPersistence(friend) {
+        const ids = [
+            'chat-memory-overview-input',
+            'chat-memory-context-enabled-toggle',
+            'chat-memory-context-limit-input',
+            'chat-memory-cherished-input',
+            'chat-memory-schedule-sleep-input',
+            'chat-memory-schedule-wake-input'
+        ];
+
+        ids.forEach(id => {
+            const el = document.getElementById(id);
+            if (!el) return;
+
+            if (el.dataset.chatMemoryBound === 'true') {
+                return;
+            }
+
+            const schedulePersist = async () => {
+                if (window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(friend.id)) {
+                    await saveChatSettingsMemory(friend, {
+                        showToast: false,
+                        silent: true,
+                        immediate: false,
+                        delay: 900
+                    });
+                }
+            };
+
+            const flushPersist = async () => {
+                if (window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(friend.id)) {
+                    await saveChatSettingsMemory(friend, {
+                        showToast: false,
+                        silent: true,
+                        immediate: true
+                    });
+                }
+            };
+
+            if (el.tagName === 'TEXTAREA' || el.type === 'number' || el.type === 'text') {
+                el.addEventListener('input', schedulePersist);
+                el.addEventListener('blur', flushPersist);
+            } else {
+                el.addEventListener('change', flushPersist);
+            }
+
+            el.dataset.chatMemoryBound = 'true';
+        });
+    }
+
+    const manualSummaryBtn = document.getElementById('chat-memory-manual-summary-btn');
+    const manualSummaryModal = document.getElementById('chat-memory-summary-modal');
+    const manualSummaryClose = document.getElementById('chat-memory-summary-close');
+    const manualSummaryConfirm = document.getElementById('chat-memory-summary-confirm');
+    const manualSummaryCountInput = document.getElementById('chat-memory-summary-count-input');
+    const manualSummaryUnsummarizedCount = document.getElementById('chat-memory-unsummarized-count');
+
+    function getChatSummaryMessageCount(friend) {
+        return Array.isArray(friend?.messages) ? friend.messages.length : 0;
+    }
+
+    function getChatSummaryUnsummarizedCount(friend) {
+        const total = getChatSummaryMessageCount(friend);
+        const last = Math.max(0, Number(friend?.memory?.lastSummaryMessageCount) || 0);
+        return Math.max(0, total - Math.min(last, total));
+    }
+
+    function formatSummarySourceMessage(msg, friend) {
+        const speaker = msg.role === 'assistant'
+            ? (friend.nickname || friend.realname || friend.realName || 'Char')
+            : (userState?.name || 'User');
+        const time = msg.timestamp ? new Date(msg.timestamp).toLocaleString('zh-CN', { hour12: false }) : '';
+        const content = msg.content || msg.text || '';
+        return `[${time}] ${speaker}: ${content}`;
+    }
+
+    function normalizeSummaryApiEndpoint(config) {
+        let endpoint = config.endpoint || '';
+        if (endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+        if (!endpoint.endsWith('/chat/completions')) {
+            endpoint = endpoint.endsWith('/v1') ? `${endpoint}/chat/completions` : `${endpoint}/v1/chat/completions`;
+        }
+        return endpoint;
+    }
+
+    function getSummaryResponseContent(data) {
+        const firstChoice = data?.choices?.[0];
+        if (!firstChoice) return '';
+        return firstChoice.message?.content || firstChoice.text || firstChoice.delta?.content || '';
+    }
+
+    function getSummaryEntryTime(entry) {
+        return entry?.lastActivatedAt || entry?.time || entry?.createdAt || '';
+    }
+
+    function parseSummaryDate(value) {
+        if (!value) return null;
+        if (typeof value === 'number') {
+            const numericDate = new Date(value);
+            return Number.isNaN(numericDate.getTime()) ? null : numericDate;
+        }
+        const text = String(value).trim();
+        const normalized = text
+            .replace(/年/g, '-')
+            .replace(/月/g, '-')
+            .replace(/日/g, ' ')
+            .replace(/\./g, '-')
+            .replace(/\//g, '-');
+        const parsed = new Date(normalized);
+        return Number.isNaN(parsed.getTime()) ? null : parsed;
+    }
+
+    function decayShortTermMemoryEntries(entries, now = new Date(), activatedIds = new Set()) {
+        if (!Array.isArray(entries)) return [];
+        const dayMs = 24 * 60 * 60 * 1000;
+        return entries.map(entry => {
+            if (!entry) return entry;
+            if (activatedIds.has(String(entry.id))) return entry;
+            const anchorDate = parseSummaryDate(getSummaryEntryTime(entry));
+            if (!anchorDate) return entry;
+            const ageDays = (now.getTime() - anchorDate.getTime()) / dayMs;
+            if (ageDays > 30) {
+                entry.degree = '遗忘';
+            } else if (ageDays > 7) {
+                entry.degree = '低';
+            } else if (ageDays > 1 && entry.degree === '高') {
+                entry.degree = '中';
+            }
+            return entry;
+        });
+    }
+
+    function formatExistingSummaryEntries(friend) {
+        const entries = Array.isArray(friend?.memory?.shortTermEntries) ? friend.memory.shortTermEntries : [];
+        if (entries.length === 0) return '无';
+        return entries.map(entry => [
+            `ID: ${entry.id}`,
+            `标题: ${entry.title || '对话总结'}`,
+            `时间: ${entry.time || ''}`,
+            `事件: ${entry.event || ''}`,
+            `记忆点: ${entry.memoryPoints || ''}`,
+            `记忆程度: ${entry.degree || '高'}`
+        ].join('\n')).join('\n\n');
+    }
+
+    function parseManualSummary(rawText) {
+        const cleanText = String(rawText || '').trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '');
+        try {
+            const parsed = JSON.parse(cleanText);
+            const summaryPayload = parsed.summary && typeof parsed.summary === 'object' ? parsed.summary : parsed;
+            
+            let memoryPointsData = summaryPayload.memoryPoints || summaryPayload['记忆点'] || '';
+            let memoryPoints = '';
+            if (Array.isArray(memoryPointsData)) {
+                memoryPoints = memoryPointsData.join('，');
+            } else if (typeof memoryPointsData === 'object' && memoryPointsData !== null) {
+                memoryPoints = Object.entries(memoryPointsData).map(([k, v]) => `${k}:${v}`).join('，');
+            } else {
+                memoryPoints = String(memoryPointsData);
+            }
+
+            return {
+                activatedEntryIds: Array.isArray(parsed.activatedEntryIds) ? parsed.activatedEntryIds.map(String) : [],
+                title: summaryPayload.title || summaryPayload['标题'] || '对话总结',
+                time: summaryPayload.time || summaryPayload['时间'] || '',
+                event: summaryPayload.event || summaryPayload['事件'] || '',
+                memoryPoints,
+                degree: summaryPayload.degree || summaryPayload['记忆程度'] || '高',
+                raw: rawText
+            };
+        } catch (error) {
+            const pick = (label) => {
+                const match = cleanText.match(new RegExp(`${label}[:：]\\s*([\\s\\S]*?)(?=\\n(?:标题|时间|事件|记忆点|记忆程度)[:：]|$)`));
+                return match ? match[1].trim() : '';
+            };
+            return {
+                activatedEntryIds: [],
+                title: pick('标题') || '对话总结',
+                time: pick('时间'),
+                event: pick('事件'),
+                memoryPoints: pick('记忆点'),
+                degree: pick('记忆程度') || '高',
+                raw: rawText
+            };
+        }
+    }
+
+    async function generateManualChatSummary(friend, count) {
+        const currentApiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        if (!currentApiConfig.endpoint || !currentApiConfig.apiKey) {
+            showToast('请先在设置中配置 API');
+            return null;
+        }
+
+        if (window.imApp.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend);
+        }
+
+        const messages = Array.isArray(friend.messages) ? friend.messages : [];
+        const lastCount = Math.max(0, Number(friend.memory?.lastSummaryMessageCount) || 0);
+        const unsummarized = messages.slice(Math.min(lastCount, messages.length));
+        const sourceMessages = unsummarized.slice(0, count);
+        if (sourceMessages.length === 0) {
+            showToast('暂无未总结对话');
+            return null;
+        }
+
+        const charName = friend.nickname || friend.realname || friend.realName || 'Char';
+        const userName = userState?.name || 'User';
+        const now = new Date();
+        const nowString = `${now.getFullYear()}年${String(now.getMonth() + 1).padStart(2, '0')}月${String(now.getDate()).padStart(2, '0')}日 ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+        const dialogueText = sourceMessages.map(msg => formatSummarySourceMessage(msg, friend)).join('\n');
+        const existingSummariesText = formatExistingSummaryEntries(friend);
+
+        const prompt = `查看已有的总结，将与本次需要总结的对话的内容相关的记忆点的记忆条目激活（记忆程度改为高）。\n\n已有短期记忆总结：\n${existingSummariesText}\n\n你是${charName}，请站在${charName}的第一人称视角，将以下${sourceMessages.length}条对话进行一次记忆总结，整合精炼成一件完整的事。\n\n当前真实总结时间：${nowString}\nUser 名称：${userName}\n\n必须只输出 JSON，不要 markdown，不要解释。JSON 字段如下：\n{\n  "activatedEntryIds": ["与本次对话相关、需要激活的已有记忆ID，没有则为空数组"],\n  "summary": {\n    "title": "10字内，事件名称",\n    "time": "真实时间，精确到总结时的年月日时",\n    "event": "20-50字，内容为一件完整的事",\n    "memoryPoints": "请输出纯文本字符串格式，必须包含情绪/声音/画面/气味/环境五个感官记忆，每个感官不超过10字，最好用一个词形容",\n    "degree": "高"\n  }\n}\n\nsummary.degree 只可输出“高”。activatedEntryIds 只能使用已有短期记忆总结中的 ID。\n\n对话：\n${dialogueText}\n\n查看已有的总结，将所有记忆程度超过真实时间1天的高改成中，超过7天的改成低，超过30天的改成遗忘。`;
+
+        const endpoint = normalizeSummaryApiEndpoint(currentApiConfig);
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${currentApiConfig.apiKey}` },
+            body: JSON.stringify({
+                model: currentApiConfig.model || '',
+                messages: [
+                    { role: 'system', content: '你只输出可解析 JSON。' },
+                    { role: 'user', content: prompt }
+                ],
+                temperature: parseFloat(currentApiConfig.temperature) || 0.7
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`${response.status} ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        const summary = parseManualSummary(getSummaryResponseContent(data));
+        summary.id = `stm-${Date.now()}`;
+        summary.time = summary.time || nowString;
+        summary.degree = '高';
+        summary.sourceCount = sourceMessages.length;
+        summary.sourceEndMessageCount = Math.min(messages.length, lastCount + sourceMessages.length);
+        return summary;
+    }
+
+    async function openManualSummaryModal(friend) {
+        if (!friend || !manualSummaryModal) return;
+        if (window.imApp.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend);
+        }
+        friend.memory = window.imApp.normalizeFriendData(friend).memory;
+        const unsummarizedCount = getChatSummaryUnsummarizedCount(friend);
+        if (manualSummaryUnsummarizedCount) manualSummaryUnsummarizedCount.textContent = String(unsummarizedCount);
+        if (manualSummaryCountInput) manualSummaryCountInput.value = String(Math.min(80, Math.max(1, unsummarizedCount || 80)));
+        openView(manualSummaryModal);
+    }
+
+    if (manualSummaryBtn) {
+        manualSummaryBtn.addEventListener('click', () => {
+            if (window.imData.currentSettingsFriend) {
+                openManualSummaryModal(window.imData.currentSettingsFriend);
+            }
+        });
+    }
+
+    if (manualSummaryClose && manualSummaryModal) {
+        manualSummaryClose.addEventListener('click', () => closeView(manualSummaryModal));
+    }
+
+    if (manualSummaryConfirm) {
+        manualSummaryConfirm.addEventListener('click', async () => {
+            const friend = window.imData.currentSettingsFriend;
+            if (!friend) return;
+            const count = Math.max(1, Number(manualSummaryCountInput?.value) || 80);
+            manualSummaryConfirm.disabled = true;
+            manualSummaryConfirm.textContent = '生成中...';
+            try {
+                const summary = await generateManualChatSummary(friend, count);
+                if (!summary) return;
+                const saved = await commitNamedFriendChange(friend, (targetFriend) => {
+                    targetFriend.memory = window.imApp.normalizeFriendData(targetFriend).memory;
+                    if (!Array.isArray(targetFriend.memory.shortTermEntries)) targetFriend.memory.shortTermEntries = [];
+                    const now = new Date();
+                    const nowString = `${now.getFullYear()}年${String(now.getMonth() + 1).padStart(2, '0')}月${String(now.getDate()).padStart(2, '0')}日 ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+                    const activatedIds = new Set(Array.isArray(summary.activatedEntryIds) ? summary.activatedEntryIds.map(String) : []);
+                    targetFriend.memory.shortTermEntries.forEach(entry => {
+                        if (entry && activatedIds.has(String(entry.id))) {
+                            entry.degree = '高';
+                            entry.lastActivatedAt = nowString;
+                        }
+                    });
+                    decayShortTermMemoryEntries(targetFriend.memory.shortTermEntries, now, activatedIds);
+                    summary.lastActivatedAt = nowString;
+                    targetFriend.memory.shortTermEntries.push(summary);
+                    targetFriend.memory.lastSummaryMessageCount = Number(summary.sourceEndMessageCount) || (Array.isArray(targetFriend.messages) ? targetFriend.messages.length : 0);
+                }, { silent: true, immediate: true });
+
+                if (saved) {
+                    const latestFriend = window.imData.friends.find(item => String(item.id) === String(friend.id)) || friend;
+                    latestFriend.memory = window.imApp.normalizeFriendData(latestFriend).memory;
+                    window.imData.currentSettingsFriend = latestFriend;
+                    if (window.imApp.renderMemoryView) window.imApp.renderMemoryView();
+                    closeView(manualSummaryModal);
+                    showToast('总结已存入我的 iPhone');
+                } else {
+                    showToast('总结保存失败');
+                }
+            } catch (error) {
+                console.error('Manual summary failed', error);
+                showToast('总结生成失败');
+            } finally {
+                manualSummaryConfirm.disabled = false;
+                manualSummaryConfirm.textContent = '确认';
+            }
+        });
+    }
+
+    function refreshChatSettingsHeader(friend) {
+        const settingsAvatarImg = document.getElementById('chat-settings-avatar-img');
+        const settingsAvatarIcon = document.getElementById('chat-settings-avatar-icon');
+        const settingsName = document.getElementById('chat-settings-name');
+
+        if (friend.avatarUrl) {
+            if (settingsAvatarImg) {
+                settingsAvatarImg.src = friend.avatarUrl;
+                settingsAvatarImg.style.display = 'block';
+            }
+            if (settingsAvatarIcon) settingsAvatarIcon.style.display = 'none';
+        } else {
+            if (settingsAvatarImg) {
+                settingsAvatarImg.style.display = 'none';
+                settingsAvatarImg.src = '';
+            }
+            if (settingsAvatarIcon) settingsAvatarIcon.style.display = 'block';
+        }
+
+        if (settingsName) settingsName.textContent = friend.nickname;
+    }
+
+    function initChatSettingsForFriend(friend) {
+        if (!friend) return null;
+        window.imData.currentSettingsFriend = friend;
+        friend.memory = window.imApp.normalizeFriendData(friend).memory;
+        isRelationshipPickerVisible = false;
+        tempRelationshipDrafts = (friend.memory.relationships || []).map(rel => ({
+            npcId: String(rel.npcId),
+            relation: rel.relation || ''
+        }));
+        initChatSettingsInteractions();
+        setActiveChatSettingsTab('info');
+        refreshChatSettingsHeader(friend);
+
+
+        const chatMemoryOverviewInput = document.getElementById('chat-memory-overview-input');
+        const chatMemoryContextEnabled = document.getElementById('chat-memory-context-enabled-toggle');
+        const chatMemoryContextLimit = document.getElementById('chat-memory-context-limit-input');
+        const chatMemoryCherishedInput = document.getElementById('chat-memory-cherished-input');
+        const chatMemoryScheduleSleep = document.getElementById('chat-memory-schedule-sleep-input');
+        const chatMemoryScheduleWake = document.getElementById('chat-memory-schedule-wake-input');
+
+        if (chatMemoryOverviewInput) chatMemoryOverviewInput.value = friend.memory.overview || '';
+        if (chatMemoryContextEnabled) chatMemoryContextEnabled.checked = typeof friend.memory.context.enabled === 'boolean' ? friend.memory.context.enabled : true;
+        if (chatMemoryContextLimit) chatMemoryContextLimit.value = friend.memory.context.limit || 80;
+        if (chatMemoryScheduleSleep) chatMemoryScheduleSleep.value = friend.memory.schedule ? (friend.memory.schedule.sleepTime || '23:00') : '23:00';
+        if (chatMemoryScheduleWake) chatMemoryScheduleWake.value = friend.memory.schedule ? (friend.memory.schedule.wakeTime || '07:00') : '07:00';
+
+        bindChatSettingsMemoryPersistence(friend);
+        updateChatBindIdLabel(friend);
+
+        const tsToggle = document.getElementById('timestamp-toggle');
+        const tsPositionBody = document.getElementById('timestamp-position-body');
+        const tsPositionSelect = document.getElementById('timestamp-position-select');
+        const chatAvatarToggle = document.getElementById('chat-avatar-toggle');
+        const chatLanguageSelect = document.getElementById('chat-language-select');
+        const chatTimeAwareToggle = document.getElementById('chat-time-aware-toggle');
+        const chatMinimaxEnabledToggle = document.getElementById('chat-minimax-enabled-toggle');
+        const chatMinimaxBody = document.getElementById('chat-minimax-settings-body');
+        const chatMinimaxVoiceInput = document.getElementById('chat-minimax-voice-id-input');
+        const chatMinimaxSpeedInput = document.getElementById('chat-minimax-speed-input');
+        
+        if (chatAvatarToggle) {
+            chatAvatarToggle.checked = !!friend.showAvatar;
+        }
+
+        if (chatLanguageSelect) {
+            chatLanguageSelect.value = friend.language || 'zh';
+        }
+
+        if (chatTimeAwareToggle) {
+            chatTimeAwareToggle.checked = friend.timeAware !== false;
+        }
+
+        const minimaxVoice = friend.minimaxVoice && typeof friend.minimaxVoice === 'object' ? friend.minimaxVoice : {};
+        if (chatMinimaxEnabledToggle) {
+            chatMinimaxEnabledToggle.checked = !!minimaxVoice.enabled;
+        }
+        if (chatMinimaxBody) {
+            chatMinimaxBody.style.display = minimaxVoice.enabled ? 'block' : 'none';
+        }
+        if (chatMinimaxVoiceInput) {
+            chatMinimaxVoiceInput.value = minimaxVoice.voiceId || '';
+        }
+        if (chatMinimaxSpeedInput) {
+            chatMinimaxSpeedInput.value = minimaxVoice.speed || 1;
+        }
+
+        if (tsToggle) {
+            tsToggle.checked = !!friend.showTimestamp;
+            if (tsPositionBody) {
+                tsPositionBody.style.display = 'flex';
+            }
+            if (tsPositionSelect) {
+                tsPositionSelect.value = friend.timestampPosition || 'inside';
+            }
+        }
+
+        updateStatusBarBtnCount(friend);
+
+        // Update stickers count display
+        updateStickersBtnCount(friend);
+        
+        return friend;
+    }
+
+    function refreshNpcSettingsHeader(friend) {
+        const avatarImg = document.getElementById('npc-chat-settings-avatar-img');
+        const avatarIcon = document.getElementById('npc-chat-settings-avatar-icon');
+        const nameEl = document.getElementById('npc-chat-settings-name');
+
+        if (friend && friend.avatarUrl) {
+            if (avatarImg) {
+                avatarImg.src = friend.avatarUrl;
+                avatarImg.style.display = 'block';
+            }
+            if (avatarIcon) avatarIcon.style.display = 'none';
+        } else {
+            if (avatarImg) {
+                avatarImg.style.display = 'none';
+                avatarImg.src = '';
+            }
+            if (avatarIcon) avatarIcon.style.display = 'flex';
+        }
+
+        if (nameEl) nameEl.textContent = friend?.nickname || 'NPC';
+    }
+
+    function updateCurrentSettingsChatPageState(friend) {
+        if (!friend) return;
+        const page = document.getElementById(`chat-interface-${friend.id}`);
+        if (!page) return;
+
+        page.classList.toggle('show-timestamps', !!friend.showTimestamp);
+        page.classList.toggle('timestamp-outside', !!friend.showTimestamp && friend.timestampPosition === 'outside');
+    }
+
+    function initNpcChatSettingsForFriend(friend) {
+        if (!friend) return null;
+        window.imData.currentSettingsFriend = friend;
+        friend.memory = window.imApp.normalizeFriendData(friend).memory;
+        refreshNpcSettingsHeader(friend);
+
+        const tsToggle = document.getElementById('npc-timestamp-toggle');
+        const tsPositionBody = document.getElementById('npc-timestamp-position-body');
+        const tsPositionSelect = document.getElementById('npc-timestamp-position-select');
+        const avatarToggle = document.getElementById('npc-chat-avatar-toggle');
+
+        if (avatarToggle) {
+            avatarToggle.checked = !!friend.showAvatar;
+        }
+
+        if (tsToggle) {
+            tsToggle.checked = !!friend.showTimestamp;
+            if (tsPositionBody) {
+                tsPositionBody.style.display = 'flex';
+            }
+            if (tsPositionSelect) {
+                tsPositionSelect.value = friend.timestampPosition || 'inside';
+            }
+        }
+
+        initNpcChatSettingsInteractions();
+        return friend;
+    }
+
+    function openNpcChatSettingsForFriend(friend) {
+        const initializedFriend = initNpcChatSettingsForFriend(friend);
+        if (!initializedFriend || !npcChatSettingsSheet) return;
+
+        if (window.openView) {
+            window.openView(npcChatSettingsSheet);
+        } else {
+            npcChatSettingsSheet.classList.add('active');
+        }
+    }
+
+    function openChatSettingsForFriend(friend) {
+        const latestFriend = window.imApp.getFriendById
+            ? (window.imApp.getFriendById(friend) || friend)
+            : friend;
+
+        if (latestFriend && latestFriend.type === 'npc') {
+            openNpcChatSettingsForFriend(latestFriend);
+            return;
+        }
+
+        const initializedFriend = initChatSettingsForFriend(latestFriend);
+        if (!initializedFriend || !chatSettingsSheet) return;
+
+        if (window.openView) {
+            window.openView(chatSettingsSheet);
+        } else {
+            chatSettingsSheet.classList.add('active');
+        }
+    }
+    
+    const tsToggle = document.getElementById('timestamp-toggle');
+    const tsPositionBody = document.getElementById('timestamp-position-body');
+    const tsPositionSelect = document.getElementById('timestamp-position-select');
+
+    if (tsToggle && tsToggle.dataset.bound !== 'true') {
+        tsToggle.dataset.bound = 'true';
+        tsToggle.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = !!window.imData.currentSettingsFriend.showTimestamp;
+                const nextValue = e.target.checked;
+
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.showTimestamp = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('时间戳设置保存失败');
+                    return;
+                }
+                
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+            }
+        });
+    }
+
+    if (tsPositionSelect && tsPositionSelect.dataset.bound !== 'true') {
+        tsPositionSelect.dataset.bound = 'true';
+        tsPositionSelect.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = window.imData.currentSettingsFriend.timestampPosition || 'inside';
+                const nextValue = e.target.value;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.timestampPosition = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.value = previousValue;
+                    showToast('时间戳位置保存失败');
+                    return;
+                }
+                
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+            }
+        });
+    }
+
+    const npcTsToggle = document.getElementById('npc-timestamp-toggle');
+    const npcTsPositionBody = document.getElementById('npc-timestamp-position-body');
+    const npcTsPositionSelect = document.getElementById('npc-timestamp-position-select');
+    
+    if (npcTsToggle && npcTsToggle.dataset.bound !== 'true') {
+        npcTsToggle.dataset.bound = 'true';
+        npcTsToggle.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = !!window.imData.currentSettingsFriend.showTimestamp;
+                const nextValue = e.target.checked;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.showTimestamp = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('时间戳设置保存失败');
+                    return;
+                }
+                
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+            }
+        });
+    }
+
+    if (npcTsPositionSelect && npcTsPositionSelect.dataset.bound !== 'true') {
+        npcTsPositionSelect.dataset.bound = 'true';
+        npcTsPositionSelect.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = window.imData.currentSettingsFriend.timestampPosition || 'inside';
+                const nextValue = e.target.value;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.timestampPosition = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.value = previousValue;
+                    showToast('时间戳位置保存失败');
+                    return;
+                }
+                
+                updateCurrentSettingsChatPageState(window.imData.currentSettingsFriend);
+            }
+        });
+    }
+
+    const chatLanguageSelect = document.getElementById('chat-language-select');
+    if (chatLanguageSelect) {
+        chatLanguageSelect.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = window.imData.currentSettingsFriend.language || 'zh';
+                const nextValue = e.target.value;
+                
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.language = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.value = previousValue;
+                    showToast('语言设置保存失败');
+                }
+            }
+        });
+    }
+
+    const chatTimeAwareToggle = document.getElementById('chat-time-aware-toggle');
+    if (chatTimeAwareToggle && chatTimeAwareToggle.dataset.bound !== 'true') {
+        chatTimeAwareToggle.dataset.bound = 'true';
+        chatTimeAwareToggle.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = window.imData.currentSettingsFriend.timeAware !== false;
+                const nextValue = e.target.checked;
+                
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.timeAware = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('时间感知设置保存失败');
+                }
+            }
+        });
+    }
+
+    function getCurrentMinimaxVoiceSettings(friend) {
+        return friend && friend.minimaxVoice && typeof friend.minimaxVoice === 'object'
+            ? friend.minimaxVoice
+            : { enabled: false, voiceId: '', speed: 1 };
+    }
+
+    function syncChatMinimaxBodyVisibility(enabled) {
+        const body = document.getElementById('chat-minimax-settings-body');
+        if (body) body.style.display = enabled ? 'block' : 'none';
+    }
+
+    const chatMinimaxEnabledToggle = document.getElementById('chat-minimax-enabled-toggle');
+    if (chatMinimaxEnabledToggle && chatMinimaxEnabledToggle.dataset.bound !== 'true') {
+        chatMinimaxEnabledToggle.dataset.bound = 'true';
+        chatMinimaxEnabledToggle.addEventListener('change', async (e) => {
+            if (!window.imData.currentSettingsFriend) return;
+            const previousSettings = { ...getCurrentMinimaxVoiceSettings(window.imData.currentSettingsFriend) };
+            const nextValue = e.target.checked;
+
+            syncChatMinimaxBodyVisibility(nextValue);
+            const saved = await commitSettingsFriendChange((targetFriend) => {
+                targetFriend.minimaxVoice = {
+                    ...getCurrentMinimaxVoiceSettings(targetFriend),
+                    enabled: nextValue
+                };
+            }, { silent: true });
+
+            if (!saved) {
+                e.target.checked = !!previousSettings.enabled;
+                syncChatMinimaxBodyVisibility(!!previousSettings.enabled);
+                showToast('Minimax 语音设置保存失败');
+            }
+        });
+    }
+
+    async function saveChatMinimaxField(field, value, inputEl, previousValue) {
+        if (!window.imData.currentSettingsFriend) return;
+        const saved = await commitSettingsFriendChange((targetFriend) => {
+            targetFriend.minimaxVoice = {
+                ...getCurrentMinimaxVoiceSettings(targetFriend),
+                [field]: value
+            };
+        }, { silent: true });
+
+        if (!saved) {
+            if (inputEl) inputEl.value = previousValue;
+            showToast('Minimax 语音设置保存失败');
+        }
+    }
+
+    const chatMinimaxVoiceInput = document.getElementById('chat-minimax-voice-id-input');
+    if (chatMinimaxVoiceInput && chatMinimaxVoiceInput.dataset.bound !== 'true') {
+        chatMinimaxVoiceInput.dataset.bound = 'true';
+        chatMinimaxVoiceInput.addEventListener('change', async (e) => {
+            const previousValue = getCurrentMinimaxVoiceSettings(window.imData.currentSettingsFriend).voiceId || '';
+            await saveChatMinimaxField('voiceId', e.target.value.trim(), e.target, previousValue);
+        });
+    }
+
+    const chatMinimaxSpeedInput = document.getElementById('chat-minimax-speed-input');
+    if (chatMinimaxSpeedInput && chatMinimaxSpeedInput.dataset.bound !== 'true') {
+        chatMinimaxSpeedInput.dataset.bound = 'true';
+        chatMinimaxSpeedInput.addEventListener('change', async (e) => {
+            const previousValue = getCurrentMinimaxVoiceSettings(window.imData.currentSettingsFriend).speed || 1;
+            const nextValue = Math.max(0.5, Math.min(2, parseFloat(e.target.value) || 1));
+            e.target.value = nextValue;
+            await saveChatMinimaxField('speed', nextValue, e.target, previousValue);
+        });
+    }
+
+    const chatAvatarToggle = document.getElementById('chat-avatar-toggle');
+    if (chatAvatarToggle) {
+        chatAvatarToggle.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = !!window.imData.currentSettingsFriend.showAvatar;
+                const nextValue = e.target.checked;
+                
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.showAvatar = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('头像设置保存失败');
+                    return;
+                }
+                
+                if (window.imChat && window.imChat.rerenderChatContainer) {
+                    const friend = window.imData.currentSettingsFriend;
+                    const page = document.getElementById(`chat-interface-${friend.id}`);
+                    if (page) {
+                        const msgContainer = page.querySelector('.ins-chat-messages');
+                        if (msgContainer) window.imChat.rerenderChatContainer(friend, msgContainer, { scroll: false });
+                    }
+                }
+            }
+        });
+    }
+
+    const pinToggle = document.getElementById('chat-pinned-toggle');
+    if (pinToggle) {
+        pinToggle.addEventListener('change', async (e) => {
+            if (window.imData.currentSettingsFriend) {
+                const previousValue = !!window.imData.currentSettingsFriend.isPinned;
+                const nextValue = e.target.checked;
+                const saved = await commitSettingsFriendChange((targetFriend) => {
+                    targetFriend.isPinned = nextValue;
+                }, { silent: true });
+
+                if (!saved) {
+                    e.target.checked = previousValue;
+                    showToast('置顶设置保存失败');
+                    return;
+                }
+
+                if(window.imApp.renderChatsList) window.imApp.renderChatsList();
+                showToast(window.imData.currentSettingsFriend.isPinned ? '已置顶' : '已取消置顶');
+                
+                const page = document.getElementById(`chat-interface-${window.imData.currentSettingsFriend.id}`);
+                if (page) {
+                    if (window.imData.currentSettingsFriend.isPinned) {
+                        page.classList.add('pinned-chat');
+                    } else {
+                        page.classList.remove('pinned-chat');
+                    }
+                }
+            }
+        });
+    }
+    
+    function initTimestampSetting(friend) {
+        window.imData.currentSettingsFriend = friend;
+    }
+
+    function applyFriendCss(friend) {
+        let styleTag = document.getElementById(`custom-style-${friend.id}`);
+        if (!styleTag) {
+            styleTag = document.createElement('style');
+            styleTag.id = `custom-style-${friend.id}`;
+            document.head.appendChild(styleTag);
+        }
+
+        let combinedCss = '';
+
+        // 气泡 CSS
+        if (friend.customCssEnabled && friend.customCss) {
+            const prefix = `#chat-interface-${friend.id}`;
+            combinedCss += window.imApp.scopeUserCss
+                ? window.imApp.scopeUserCss(friend.customCss, prefix)
+                : friend.customCss.replace(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/ig, `${prefix} ` + '$1$2');
+            combinedCss += '\n';
+        }
+        
+        // Status CSS
+        if (friend.statusCssEnabled && friend.statusCss) {
+            const prefix = `#chat-interface-${friend.id}`;
+            combinedCss += window.imApp.scopeUserCss
+                ? window.imApp.scopeUserCss(friend.statusCss, prefix)
+                : friend.statusCss.replace(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/ig, `${prefix} ` + '$1$2');
+            combinedCss += '\n';
+        }
+
+        styleTag.textContent = combinedCss;
+    }
+    
+    function applyAllSavedCss() {
+        if(window.imData.friends) {
+            window.imData.friends.forEach(f => applyFriendCss(f));
+        }
+        if (window.imApp.applyGlobalChatCss) {
+            window.imApp.applyGlobalChatCss(window.u2ThemeState || {});
+        }
+    }
+    
+    // Call it initially
+    setTimeout(() => applyAllSavedCss(), 100);
+
+    const saveCssPresetBtn = document.getElementById('save-css-preset-btn');
+    const loadCssPresetBtn = document.getElementById('load-css-preset-btn');
+    const cssPresetListSheet = document.getElementById('css-preset-list-sheet');
+    const cssPresetList = document.getElementById('css-preset-list');
+
+    if (cssPresetListSheet) {
+        cssPresetListSheet.addEventListener('click', (e) => {
+            if (e.target === cssPresetListSheet) {
+                closeView(cssPresetListSheet);
+            }
+        });
+    }
+
+    let cssPresets = Array.isArray(window.imData.cssPresets) ? window.imData.cssPresets : [];
+
+    if (saveCssPresetBtn) {
+        saveCssPresetBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            
+            showCustomModal({
+                type: 'prompt',
+                title: '存为预设',
+                placeholder: '输入预设名称',
+                confirmText: '保存',
+                onConfirm: (name) => {
+                    if (name && name.trim()) {
+                        cssPresets.push({ name: name.trim(), css: bubbleCssInput.value, id: Date.now() });
+                        window.imData.cssPresets = cssPresets;
+                        if (window.saveGlobalData) window.saveGlobalData();
+                        showToast('预设已保存');
+                    }
+                }
+            });
+        });
+    }
+
+    if (loadCssPresetBtn) {
+        loadCssPresetBtn.addEventListener('click', () => {
+            renderCssPresetList();
+            openView(cssPresetListSheet);
+        });
+    }
+
+    function renderCssPresetList() {
+        if (!cssPresetList) return;
+        cssPresetList.innerHTML = '';
+        if (cssPresets.length === 0) {
+            cssPresetList.innerHTML = '<div style="padding: 20px; text-align: center; color: #8e8e93;">暂无预设</div>';
+            return;
+        }
+
+        cssPresets.forEach(preset => {
+            const item = document.createElement('div');
+            item.className = 'account-card';
+            item.innerHTML = `
+                <div class="account-content" style="cursor: pointer;">
+                    <div class="account-info">
+                        <div class="account-name">${preset.name}</div>
+                    </div>
+                </div>
+                <div class="delete-icon"><i class="fas fa-times"></i></div>
+            `;
+
+            item.querySelector('.account-content').addEventListener('click', () => {
+                if (window.imData.currentSettingsFriend) {
+                    bubbleCssInput.value = preset.css;
+                    applyCssBtn.click();
+                    closeView(cssPresetListSheet);
+                }
+            });
+
+            item.querySelector('.delete-icon').addEventListener('click', (e) => {
+                e.stopPropagation();
+                cssPresets = cssPresets.filter(p => p.id !== preset.id);
+                window.imData.cssPresets = cssPresets;
+                if (window.saveGlobalData) window.saveGlobalData();
+                renderCssPresetList();
+            });
+
+            cssPresetList.appendChild(item);
+        });
+    }
+
+    // --- Thought History Logic (Replaced Stickers) ---
+    const bindStickersSheet = document.getElementById('bind-stickers-sheet');
+    const bindStickersList = document.getElementById('bind-stickers-list');
+    const bindStickersEmpty = document.getElementById('bind-stickers-empty');
+    const confirmBindStickersBtn = document.getElementById('confirm-bind-stickers-btn');
+    const clearAllStatusbarBtn = document.getElementById('clear-all-statusbar-btn');
+    const stickersBtn = document.getElementById('stickers-btn');
+    const stickersBtnCount = document.getElementById('stickers-btn-count');
+
+    if (bindStickersSheet) {
+        bindStickersSheet.addEventListener('click', (e) => {
+            if (e.target === bindStickersSheet) closeView(bindStickersSheet);
+        });
+    }
+
+    if (stickersBtn && bindStickersSheet) {
+        stickersBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+            renderThoughtHistoryList();
+            openView(bindStickersSheet);
+        });
+    }
+
+    if (confirmBindStickersBtn) {
+        confirmBindStickersBtn.addEventListener('click', () => {
+            closeView(bindStickersSheet);
+        });
+    }
+
+    function createEmptyStatusBarPanel() {
+        return {
+            activeTab: 'thought',
+            thought: '',
+            location: '未知位置',
+            action: '暂无动作',
+            mood: '平静',
+            expression: '自然',
+            affection: 0,
+            affectionChange: 0,
+            status: 'online',
+            thoughtHistory: [],
+            events: []
+        };
+    }
+
+    function refreshOpenProfilePanel(friend) {
+        if (!friend) return;
+        const page = document.getElementById(`chat-interface-${friend.id}`);
+        const profilePanelOverlay = page ? page.querySelector('.chat-profile-panel-overlay') : null;
+        if (
+            profilePanelOverlay &&
+            profilePanelOverlay.classList.contains('active') &&
+            window.imChat &&
+            typeof window.imChat.renderProfilePanel === 'function'
+        ) {
+            window.imChat.renderProfilePanel(friend, profilePanelOverlay);
+        }
+    }
+
+    if (clearAllStatusbarBtn) {
+        clearAllStatusbarBtn.addEventListener('click', () => {
+            if (!window.imData.currentSettingsFriend) return;
+
+            showCustomModal({
+                title: '清空状态栏',
+                message: '确定彻底清空当前角色的状态栏数据吗？这会删除当前心声、心声历史、状态栏事件、位置、动作、心情、表情和好感记录。',
+                isDestructive: true,
+                confirmText: '清空全部',
+                onConfirm: async () => {
+                    const saved = await commitSettingsFriendChange((targetFriend) => {
+                        if (!targetFriend) return;
+                        targetFriend.profilePanel = createEmptyStatusBarPanel();
+                        targetFriend.latestThought = '';
+                        targetFriend.status = 'online';
+                    }, {
+                        syncActive: true,
+                        silent: true
+                    });
+
+                    if (saved) {
+                        const latestFriend = window.imData.currentSettingsFriend;
+                        renderThoughtHistoryList();
+                        updateStickersBtnCount(latestFriend);
+                        refreshOpenProfilePanel(latestFriend);
+                        showToast('状态栏已清空');
+                    } else {
+                        showToast('状态栏清空失败');
+                    }
+                }
+            });
+        });
+    }
+
+    function updateStickersBtnCount(friend) {
+        if (stickersBtnCount) {
+            const count = (friend.profilePanel?.thoughtHistory || []).length;
+            stickersBtnCount.textContent = count > 0 ? `${count}条` : '';
+        }
+    }
+
+    function escapeThoughtHistoryHtml(value) {
+        return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function renderThoughtHistoryList() {
+        if (!bindStickersList) return;
+        bindStickersList.innerHTML = '';
+        if (bindStickersEmpty) bindStickersEmpty.style.display = 'none';
+
+        const friend = window.imData.currentSettingsFriend;
+        if (!friend) return;
+        
+        const history = friend.profilePanel?.thoughtHistory || [];
+
+        if (history.length === 0) {
+            if (bindStickersEmpty) {
+                bindStickersEmpty.style.display = 'block';
+            } else {
+                bindStickersList.innerHTML = '<div style="text-align: center; color: #8e8e93; padding: 20px;">暂无心声历史记录</div>';
+            }
+            return;
+        }
+
+        history.forEach(item => {
+            const el = document.createElement('div');
+            el.style.cssText = 'display: flex; flex-direction: column; margin-bottom: 16px; align-items: flex-start; max-width: 95%;';
+
+            const timeStr = item.time ? new Date(item.time).toLocaleString() : '';
+            const safeContent = escapeThoughtHistoryHtml(item.content);
+
+            el.innerHTML = `
+                <div style="font-size: 12px; color: #8e8e93; margin-bottom: 4px; display: flex; justify-content: space-between; width: 100%; padding-left: 4px;">
+                    <span>${escapeThoughtHistoryHtml(timeStr)}</span>
+                    <div style="display: flex; gap: 14px; font-size: 13px;">
+                        <span class="edit-thought-btn" style="color: #007aff; cursor: pointer; padding: 0 2px;"><i class="fas fa-edit"></i></span>
+                        <span class="del-thought-btn" style="color: #ff3b30; cursor: pointer; padding: 0 2px;"><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+                <div class="thought-content-display" style="font-size: 15px; color: #000; line-height: 1.5; white-space: pre-wrap; background: #ffffff; padding: 12px 16px; border-radius: 18px; border-top-left-radius: 4px; ">${safeContent}</div>
+                <div class="thought-edit-area" style="display: none; width: 100%;">
+                    <textarea style="width: 100%; height: 80px; box-sizing: border-box; background: #ffffff; padding: 12px; border-radius: 12px; border: 1px solid #007aff; resize: none; font-size: 15px;  outline: none; font-family: inherit;">${safeContent}</textarea>
+                </div>
+            `;
+
+            const displayArea = el.querySelector('.thought-content-display');
+            const editArea = el.querySelector('.thought-edit-area');
+            const textarea = el.querySelector('textarea');
+            const editBtn = el.querySelector('.edit-thought-btn');
+            let isEditing = false;
+            
+            editBtn.addEventListener('click', async () => {
+                if (!isEditing) {
+                    // Switch to edit mode
+                    isEditing = true;
+                    editBtn.innerHTML = '<i class="fas fa-check" style="color: #34c759; font-size: 16px;"></i>';
+                    displayArea.style.display = 'none';
+                    editArea.style.display = 'block';
+                    textarea.focus();
+                } else {
+                    // Switch to view mode / save
+                    const newContent = textarea.value.trim();
+                    if (!newContent) {
+                        showToast('心声不能为空');
+                        return;
+                    }
+                    
+                    if (newContent !== item.content) {
+                        const saved = await commitSettingsFriendChange((targetFriend) => {
+                            if (targetFriend.profilePanel && targetFriend.profilePanel.thoughtHistory) {
+                                const targetItem = targetFriend.profilePanel.thoughtHistory.find(t => t.id === item.id);
+                                if (targetItem) {
+                                    targetItem.content = newContent;
+                                }
+                            }
+                        }, { silent: true });
+                        
+                        if (saved) {
+                            item.content = newContent;
+                            displayArea.textContent = newContent;
+                            showToast('心声已更新');
+                        } else {
+                            showToast('心声更新失败');
+                            textarea.value = item.content; // revert
+                        }
+                    }
+
+                    isEditing = false;
+                    editBtn.innerHTML = '<i class="fas fa-edit"></i>';
+                    displayArea.style.display = 'block';
+                    editArea.style.display = 'none';
+                }
+            });
+
+            el.querySelector('.del-thought-btn').addEventListener('click', () => {
+                showCustomModal({
+                    title: '删除心声',
+                    message: '确定删除这条心声记录吗？',
+                    isDestructive: true,
+                    confirmText: '删除',
+                    onConfirm: async () => {
+                        const saved = await commitSettingsFriendChange((targetFriend) => {
+                            if (targetFriend.profilePanel && targetFriend.profilePanel.thoughtHistory) {
+                                targetFriend.profilePanel.thoughtHistory = targetFriend.profilePanel.thoughtHistory.filter(t => t.id !== item.id);
+                            }
+                        }, { silent: true });
+                        
+                        if (saved) {
+                            showToast('已删除心声');
+                            renderThoughtHistoryList();
+                            updateStickersBtnCount(window.imData.currentSettingsFriend);
+                        } else {
+                            showToast('删除失败');
+                        }
+                    }
+                });
+            });
+
+            bindStickersList.appendChild(el);
+        });
+    }
+
+    // Expose Functions
+    window.imApp.initChatSettingsForFriend = initChatSettingsForFriend;
+    window.imApp.openChatSettingsForFriend = openChatSettingsForFriend;
+    window.imApp.updateStatusBarBtnCount = updateStatusBarBtnCount;
+    window.imApp.updateStickersBtnCount = updateStickersBtnCount;
+    window.imApp.applyFriendBg = applyFriendBg;
+    window.imApp.initTimestampSetting = initTimestampSetting;
+    window.imApp.applyFriendCss = applyFriendCss;
+    window.imApp.applyAllSavedCss = applyAllSavedCss;
+    window.imApp.renderRelationshipSheet = renderRelationshipSheet;
+    window.imApp.getBoundAccountByFriend = getBoundAccountByFriend;
+    window.imApp.getEffectivePersonaForFriend = getEffectivePersonaForFriend;
+    window.imApp.getFriendsBoundToAccount = getFriendsBoundToAccount;
+    window.imApp.updateChatBindIdLabel = updateChatBindIdLabel;
+    window.imApp.renderCherishedMemoryCards = renderCherishedMemoryCards;
+    window.imApp.showCherishedMemoryDetail = showCherishedMemoryDetail;
+    window.imApp.hideCherishedMemoryDetail = hideCherishedMemoryDetail;
+    window.imApp.showChatMemoryModal = showChatMemoryModal;
+    window.imApp.hideChatMemoryModal = hideChatMemoryModal;
+});
+
+
+

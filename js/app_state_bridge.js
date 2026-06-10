@@ -1,1 +1,332 @@
-(function(_0x63f92,_0xe010c0){const _0x52d738=_0x178c,_0x23f445=_0x63f92();while(!![]){try{const _0x5e0dc3=-parseInt(_0x52d738(0xcc))/0x1+parseInt(_0x52d738(0xf6))/0x2+parseInt(_0x52d738(0x101))/0x3*(-parseInt(_0x52d738(0xec))/0x4)+-parseInt(_0x52d738(0xdf))/0x5+parseInt(_0x52d738(0x104))/0x6+parseInt(_0x52d738(0xcf))/0x7*(parseInt(_0x52d738(0xf9))/0x8)+parseInt(_0x52d738(0xde))/0x9;if(_0x5e0dc3===_0xe010c0)break;else _0x23f445['push'](_0x23f445['shift']());}catch(_0x2917eb){_0x23f445['push'](_0x23f445['shift']());}}}(_0x3f45,0x3800b),(function(){const _0x19db4e=_0x178c,_0x4ed913=_0x19db4e(0xf8),_0x477613=0x78,_0x24c2c7={'channelState':{'bannerUrl':null,'url':'','boundWorldBookIds':[],'systemPrompt':'','summaryPrompt':'','groupChatPrompt':'','vodPrompt':'','postPrompt':'','liveSummaryPrompt':'','liveSummaries':[],'groupChatHistory':[],'cachedTrendingLive':null,'cachedTrendingSub':null,'activeUserLive':null,'pastVideos':[]},'subscriptions':[],'userState':null};function _0x11819e(){const _0x4a8581=_0x19db4e;return{'youtube':_0x7b1ab3(_0x24c2c7),'tiktok':{'profile':{'name':'User','handle':_0x4a8581(0xff),'avatar':null,'status':'','bio':'','persona':'','following':0x0,'followers':0x0,'likes':0x0,'posts':[]},'chars':[],'videos':[],'dms':[]},'pay':{'transactions':[],'balance':0x3e8},'spotify':{'customName':'','avatarUrl':'','backgroundUrl':''},'diary':{'notes':[]},'maps':{'mapsStore':[],'activeMapId':null,'friendPositionsStore':{}},'desktop':{},'bstage':{},'x':{'xData':{'name':_0x4a8581(0xe5),'handle':'@user','bio':'','location':'','following':'0','followers':'0','persona':'','avatar':'','banner':''},'xTopics':[],'boundWorldBookIds':[],'xVisitors':[],'xDirectMessages':[],'xPostThreads':{},'xGeneratedPosts':[],'xHomeBannerUrl':'','xSearchBannerUrl':''},'imessage':{'uiState':{'cssPresets':[]}}};}function _0x7b1ab3(_0x5c8ae3){const _0xbb854b=_0x19db4e;if(_0x5c8ae3==null||typeof _0x5c8ae3!==_0xbb854b(0xf0))return _0x5c8ae3;if(typeof structuredClone==='function')return structuredClone(_0x5c8ae3);return JSON[_0xbb854b(0x102)](JSON['stringify'](_0x5c8ae3));}function _0x34d44a(_0x219925){const _0x265d0e=_0x19db4e;return _0x219925&&typeof _0x219925==='object'&&!Array[_0x265d0e(0xfb)](_0x219925);}function _0x1ad9d1(_0x58c4b2){const _0x279da5=_0x19db4e,_0x55f92f=_0x34d44a(_0x58c4b2)?_0x58c4b2:{},_0x36ea33=_0x34d44a(_0x55f92f['channelState'])?_0x55f92f[_0x279da5(0xeb)]:{};return{..._0x7b1ab3(_0x24c2c7),..._0x55f92f,'channelState':{..._0x7b1ab3(_0x24c2c7[_0x279da5(0xeb)]),..._0x36ea33,'boundWorldBookIds':Array['isArray'](_0x36ea33[_0x279da5(0xea)])?_0x36ea33[_0x279da5(0xea)][_0x279da5(0xe6)](Boolean):[],'liveSummaries':Array[_0x279da5(0xfb)](_0x36ea33['liveSummaries'])?_0x36ea33['liveSummaries'][_0x279da5(0xe6)](Boolean):[],'groupChatHistory':Array[_0x279da5(0xfb)](_0x36ea33[_0x279da5(0xd1)])?_0x36ea33[_0x279da5(0xd1)][_0x279da5(0xe6)](Boolean):[],'activeUserLive':_0x34d44a(_0x36ea33[_0x279da5(0xd2)])?_0x36ea33[_0x279da5(0xd2)]:null,'pastVideos':Array[_0x279da5(0xfb)](_0x36ea33[_0x279da5(0xf7)])?_0x36ea33[_0x279da5(0xf7)][_0x279da5(0xe6)](Boolean):[]},'subscriptions':Array[_0x279da5(0xfb)](_0x55f92f['subscriptions'])?_0x55f92f[_0x279da5(0x103)][_0x279da5(0xe6)](Boolean):[],'userState':_0x34d44a(_0x55f92f['userState'])?_0x55f92f['userState']:null};}function _0x358ced(_0x517fa3){const _0x30d804=_0x19db4e,_0x19d56d=_0x11819e(),_0x6ffe85=_0x34d44a(_0x517fa3)?_0x517fa3:{};return{..._0x19d56d,..._0x6ffe85,'youtube':_0x1ad9d1(_0x6ffe85[_0x30d804(0xe0)]),'tiktok':{..._0x19d56d[_0x30d804(0xd7)],..._0x34d44a(_0x6ffe85[_0x30d804(0xd7)])?_0x6ffe85[_0x30d804(0xd7)]:{}},'pay':{..._0x19d56d[_0x30d804(0xdb)],..._0x34d44a(_0x6ffe85[_0x30d804(0xdb)])?_0x6ffe85[_0x30d804(0xdb)]:{}},'spotify':{..._0x19d56d[_0x30d804(0xe1)],..._0x34d44a(_0x6ffe85[_0x30d804(0xe1)])?_0x6ffe85[_0x30d804(0xe1)]:{}},'diary':{..._0x19d56d[_0x30d804(0xf3)],..._0x34d44a(_0x6ffe85[_0x30d804(0xf3)])?_0x6ffe85[_0x30d804(0xf3)]:{}},'maps':{..._0x19d56d['maps'],..._0x34d44a(_0x6ffe85[_0x30d804(0xee)])?_0x6ffe85[_0x30d804(0xee)]:{}},'desktop':_0x34d44a(_0x6ffe85['desktop'])?_0x6ffe85[_0x30d804(0xd8)]:_0x19d56d['desktop'],'bstage':_0x34d44a(_0x6ffe85[_0x30d804(0xfc)])?_0x6ffe85['bstage']:_0x19d56d[_0x30d804(0xfc)],'x':{..._0x19d56d['x'],..._0x34d44a(_0x6ffe85['x'])?_0x6ffe85['x']:{},'xData':{..._0x19d56d['x']['xData'],..._0x34d44a(_0x6ffe85['x']?.[_0x30d804(0xf4)])?_0x6ffe85['x'][_0x30d804(0xf4)]:{}},'xTopics':Array[_0x30d804(0xfb)](_0x6ffe85['x']?.[_0x30d804(0xda)])?_0x6ffe85['x'][_0x30d804(0xda)]:_0x19d56d['x']['xTopics'],'boundWorldBookIds':Array[_0x30d804(0xfb)](_0x6ffe85['x']?.[_0x30d804(0xea)])?_0x6ffe85['x']['boundWorldBookIds'][_0x30d804(0xd6)](String):_0x19d56d['x']['boundWorldBookIds'],'xVisitors':Array[_0x30d804(0xfb)](_0x6ffe85['x']?.[_0x30d804(0xd4)])?_0x6ffe85['x']['xVisitors']:_0x19d56d['x']['xVisitors'],'xDirectMessages':Array[_0x30d804(0xfb)](_0x6ffe85['x']?.[_0x30d804(0xe7)])?_0x6ffe85['x'][_0x30d804(0xe7)]:_0x19d56d['x'][_0x30d804(0xe7)],'xPostThreads':_0x34d44a(_0x6ffe85['x']?.['xPostThreads'])?_0x6ffe85['x'][_0x30d804(0xce)]:_0x19d56d['x'][_0x30d804(0xce)],'xGeneratedPosts':Array[_0x30d804(0xfb)](_0x6ffe85['x']?.[_0x30d804(0xfe)])?_0x6ffe85['x'][_0x30d804(0xfe)]:_0x19d56d['x'][_0x30d804(0xfe)],'xHomeBannerUrl':typeof _0x6ffe85['x']?.[_0x30d804(0xe8)]===_0x30d804(0xcd)?_0x6ffe85['x'][_0x30d804(0xe8)]:_0x19d56d['x'][_0x30d804(0xe8)],'xSearchBannerUrl':typeof _0x6ffe85['x']?.[_0x30d804(0xf2)]===_0x30d804(0xcd)?_0x6ffe85['x'][_0x30d804(0xf2)]:_0x19d56d['x']['xSearchBannerUrl']},'imessage':{..._0x19d56d[_0x30d804(0xcb)],..._0x34d44a(_0x6ffe85[_0x30d804(0xcb)])?_0x6ffe85['imessage']:{},'uiState':{..._0x19d56d[_0x30d804(0xcb)][_0x30d804(0xdc)],..._0x34d44a(_0x6ffe85[_0x30d804(0xcb)]?.[_0x30d804(0xdc)])?_0x6ffe85['imessage']['uiState']:{}}}};}function _0x46e83e(){const _0x5a956a=_0x19db4e;try{if(window[_0x5a956a(0xfa)]&&typeof window[_0x5a956a(0xfa)]['load']===_0x5a956a(0x105))return window['StorageManager']['load'](_0x4ed913,null);const _0x3930e0=window[_0x5a956a(0x10a)]?window[_0x5a956a(0x10a)][_0x5a956a(0xd0)](_0x4ed913):null;return _0x3930e0?JSON[_0x5a956a(0x102)](_0x3930e0):null;}catch(_0x55c2a7){return console['warn'](_0x5a956a(0x107),_0x55c2a7),null;}}function _0xbfa627(){const _0x32b0bf=_0x19db4e;try{if(window['StorageManager']&&typeof window[_0x32b0bf(0xfa)][_0x32b0bf(0x100)]===_0x32b0bf(0x105)){window[_0x32b0bf(0xfa)][_0x32b0bf(0x100)](_0x4ed913,_0x1bc38d),_0xb768f0=!![];return;}window[_0x32b0bf(0x10a)]&&(window['localStorage'][_0x32b0bf(0xd9)](_0x4ed913,JSON[_0x32b0bf(0x108)](_0x1bc38d)),_0xb768f0=!![]);}catch(_0x17239a){console['warn'](_0x32b0bf(0xd3),_0x17239a);}}function _0x3b93e6(_0x57272b={}){return{..._0x34d44a(_0x57272b)?_0x57272b:{},'appState':_0x358ced(_0x1bc38d)};}const _0x1c4a8b=_0x46e83e();let _0xb768f0=!!_0x1c4a8b,_0x5d8c30=![],_0x1bc38d=_0x358ced(_0x1c4a8b),_0x203928=null,_0x2e74ec=null;function _0x5b7222(){const _0x4a9655=_0x19db4e;window[_0x4a9655(0xc8)]=_0x1bc38d,window[_0x4a9655(0xd5)]=_0x1bc38d;}async function _0x562970(){const _0xf6d085=_0x19db4e;if(!window[_0xf6d085(0xc9)]||typeof window[_0xf6d085(0xc9)][_0xf6d085(0xdd)]!==_0xf6d085(0x105))return![];try{const _0x866f17=_0x203928||(typeof window[_0xf6d085(0xc9)][_0xf6d085(0xe3)]==='function'?await window['appStorage'][_0xf6d085(0xe3)]():{}),_0x28725b=_0x3b93e6(_0x866f17);return await window[_0xf6d085(0xc9)][_0xf6d085(0xdd)](_0x28725b),_0x203928=_0x28725b,!![];}catch(_0xd07683){return console[_0xf6d085(0xe2)](_0xf6d085(0xfd),_0xd07683),![];}}function _0x519d63(){_0xbfa627();if(_0x2e74ec)clearTimeout(_0x2e74ec);_0x2e74ec=setTimeout(()=>{_0x2e74ec=null,_0x562970();},_0x477613);}window[_0x19db4e(0x109)]=function _0x46585c(){return _0x1bc38d;},window['getAppState']=function _0x40fd33(_0x2d8ed0){const _0x40b61f=_0x19db4e;if(!_0x2d8ed0)return null;return _0x1bc38d&&Object[_0x40b61f(0xf5)]['hasOwnProperty'][_0x40b61f(0x106)](_0x1bc38d,_0x2d8ed0)?_0x7b1ab3(_0x1bc38d[_0x2d8ed0]):null;},window[_0x19db4e(0xf1)]=function _0x43b07a(_0x670b70,_0xf0fdc9,_0x39f110={}){const _0x478450=_0x19db4e;if(!_0x670b70)return null;_0x1bc38d[_0x670b70]=_0x34d44a(_0xf0fdc9)||Array[_0x478450(0xfb)](_0xf0fdc9)?_0x7b1ab3(_0xf0fdc9):_0xf0fdc9,_0x1bc38d=_0x358ced(_0x1bc38d),_0x5b7222(),_0x5d8c30=!![];if(_0x39f110[_0x478450(0x100)]!==![])_0x519d63();return _0x7b1ab3(_0x1bc38d[_0x670b70]);},window[_0x19db4e(0xe4)]=function _0x3fab3b(_0x3766b6,_0x2a1fe6,_0x3df1e6={}){const _0x5792ea=_0x19db4e;if(!_0x3766b6)return null;const _0x4c8382=window['getAppState'](_0x3766b6),_0x38e7d8=_0x34d44a(_0x4c8382)||Array['isArray'](_0x4c8382)?_0x7b1ab3(_0x4c8382):_0x4c8382,_0x1bace1=typeof _0x2a1fe6===_0x5792ea(0x105)?_0x2a1fe6(_0x38e7d8)??_0x38e7d8:_0x2a1fe6;return window[_0x5792ea(0xf1)](_0x3766b6,_0x1bace1,_0x3df1e6);},window[_0x19db4e(0xef)]=function _0x21d724(_0x481b0f={}){const _0x1cc8f9=_0x19db4e;_0x1bc38d=_0x358ced(),_0x5b7222(),_0x5d8c30=!![];if(_0x481b0f[_0x1cc8f9(0x100)]!==![])_0x519d63();return _0x7b1ab3(_0x1bc38d);},window['saveGlobalData']=async function _0x2af133(){return _0xbfa627(),_0x562970();},window[_0x19db4e(0xe3)]=async function _0x41151d(){const _0x2dfd9c=_0x19db4e;if(window[_0x2dfd9c(0xc9)]&&typeof window[_0x2dfd9c(0xc9)][_0x2dfd9c(0xe3)]===_0x2dfd9c(0x105))try{const _0x4b4ac7=await window['appStorage'][_0x2dfd9c(0xe3)]();return _0x203928=_0x4b4ac7&&typeof _0x4b4ac7==='object'?_0x4b4ac7:{},!_0xb768f0&&!_0x5d8c30&&_0x203928['appState']&&(_0x1bc38d=_0x358ced(_0x203928[_0x2dfd9c(0xe9)]),_0x5b7222(),_0xbfa627()),_0x3b93e6(_0x203928);}catch(_0x21565c){console[_0x2dfd9c(0xe2)](_0x2dfd9c(0xca),_0x21565c);}return _0x3b93e6(_0x203928||{});},_0x5b7222(),window[_0x19db4e(0xed)]=window[_0x19db4e(0xe3)]();}()));function _0x178c(_0x260ad0,_0x4b8508){_0x260ad0=_0x260ad0-0xc8;const _0x3f450f=_0x3f45();let _0x178ccd=_0x3f450f[_0x260ad0];return _0x178ccd;}function _0x3f45(){const _0x31b84e=['1708VxXxpK','getItem','groupChatHistory','activeUserLive','[app_state_bridge]\x20Failed\x20to\x20save\x20local\x20app\x20state:','xVisitors','__iisonAppState','map','tiktok','desktop','setItem','xTopics','pay','uiState','saveGlobalData','577269AaKUYd','1113340DSMXdA','youtube','spotify','warn','loadGlobalData','updateAppState','User','filter','xDirectMessages','xHomeBannerUrl','appState','boundWorldBookIds','channelState','33064fULdXm','globalDataReadyPromise','maps','resetUnifiedAppState','object','setAppState','xSearchBannerUrl','diary','xData','prototype','264650HZpXlf','pastVideos','u2_appState','11984jInFIY','StorageManager','isArray','bstage','[app_state_bridge]\x20Failed\x20to\x20persist\x20app\x20state:','xGeneratedPosts','user123','save','18AtHmIk','parse','subscriptions','55620VUiLKA','function','call','[app_state_bridge]\x20Failed\x20to\x20load\x20local\x20app\x20state:','stringify','getAllAppState','localStorage','__u2AppState','appStorage','[app_state_bridge]\x20Failed\x20to\x20load\x20global\x20data:','imessage','69597TnFQsJ','string','xPostThreads'];_0x3f45=function(){return _0x31b84e;};return _0x3f45();}
+// U2 app state bridge.
+// Provides the synchronous getAppState/setAppState API expected by migrated app modules,
+// while keeping the current IndexedDB-backed appStorage layer as the durable store.
+(function () {
+    const APP_STATE_KEY = 'u2_appState';
+    const SAVE_DEBOUNCE_MS = 120;
+
+    const defaultYoutubeState = {
+        channelState: {
+            bannerUrl: null,
+            url: '',
+            boundWorldBookIds: [],
+            systemPrompt: '',
+            summaryPrompt: '',
+            groupChatPrompt: '',
+            vodPrompt: '',
+            postPrompt: '',
+            liveSummaryPrompt: '',
+            liveSummaries: [],
+            groupChatHistory: [],
+            cachedTrendingLive: null,
+            cachedTrendingSub: null,
+            activeUserLive: null,
+            pastVideos: []
+        },
+        subscriptions: [],
+        userState: null
+    };
+
+    function createDefaultAppState() {
+        return {
+            youtube: clone(defaultYoutubeState),
+            tiktok: {
+                profile: {
+                    name: 'User',
+                    handle: 'user123',
+                    avatar: null,
+                    status: '',
+                    bio: '',
+                    persona: '',
+                    following: 0,
+                    followers: 0,
+                    likes: 0,
+                    posts: []
+                },
+                chars: [],
+                videos: [],
+                dms: []
+            },
+            pay: {
+                transactions: [],
+                balance: 1000
+            },
+            spotify: {
+                customName: '',
+                avatarUrl: '',
+                backgroundUrl: ''
+            },
+            diary: {
+                notes: []
+            },
+            maps: {
+                mapsStore: [],
+                activeMapId: null,
+                friendPositionsStore: {}
+            },
+            desktop: {},
+            bstage: {},
+            x: {
+                xData: {
+                    name: 'User',
+                    handle: '@user',
+                    bio: '',
+                    location: '',
+                    following: '0',
+                    followers: '0',
+                    persona: '',
+                    avatar: '',
+                    banner: ''
+                },
+                xTopics: [],
+                boundWorldBookIds: [],
+                xVisitors: [],
+                xDirectMessages: [],
+                xPostThreads: {},
+                xGeneratedPosts: [],
+                xHomeBannerUrl: '',
+                xSearchBannerUrl: ''
+            },
+            imessage: {
+                uiState: {
+                    cssPresets: []
+                }
+            }
+        };
+    }
+
+    function clone(value) {
+        if (value == null || typeof value !== 'object') return value;
+        if (typeof structuredClone === 'function') {
+            return structuredClone(value);
+        }
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    function isPlainObject(value) {
+        return value && typeof value === 'object' && !Array.isArray(value);
+    }
+
+    function normalizeYoutubeState(raw) {
+        const safe = isPlainObject(raw) ? raw : {};
+        const channelState = isPlainObject(safe.channelState) ? safe.channelState : {};
+
+        return {
+            ...clone(defaultYoutubeState),
+            ...safe,
+            channelState: {
+                ...clone(defaultYoutubeState.channelState),
+                ...channelState,
+                boundWorldBookIds: Array.isArray(channelState.boundWorldBookIds) ? channelState.boundWorldBookIds.filter(Boolean) : [],
+                liveSummaries: Array.isArray(channelState.liveSummaries) ? channelState.liveSummaries.filter(Boolean) : [],
+                groupChatHistory: Array.isArray(channelState.groupChatHistory) ? channelState.groupChatHistory.filter(Boolean) : [],
+                activeUserLive: isPlainObject(channelState.activeUserLive) ? channelState.activeUserLive : null,
+                pastVideos: Array.isArray(channelState.pastVideos) ? channelState.pastVideos.filter(Boolean) : []
+            },
+            subscriptions: Array.isArray(safe.subscriptions) ? safe.subscriptions.filter(Boolean) : [],
+            userState: isPlainObject(safe.userState) ? safe.userState : null
+        };
+    }
+
+    function normalizeAppState(raw) {
+        const defaults = createDefaultAppState();
+        const safe = isPlainObject(raw) ? raw : {};
+
+        return {
+            ...defaults,
+            ...safe,
+            youtube: normalizeYoutubeState(safe.youtube),
+            tiktok: {
+                ...defaults.tiktok,
+                ...(isPlainObject(safe.tiktok) ? safe.tiktok : {})
+            },
+            pay: {
+                ...defaults.pay,
+                ...(isPlainObject(safe.pay) ? safe.pay : {})
+            },
+            spotify: {
+                ...defaults.spotify,
+                ...(isPlainObject(safe.spotify) ? safe.spotify : {})
+            },
+            diary: {
+                ...defaults.diary,
+                ...(isPlainObject(safe.diary) ? safe.diary : {})
+            },
+            maps: {
+                ...defaults.maps,
+                ...(isPlainObject(safe.maps) ? safe.maps : {})
+            },
+            desktop: isPlainObject(safe.desktop) ? safe.desktop : defaults.desktop,
+            bstage: isPlainObject(safe.bstage) ? safe.bstage : defaults.bstage,
+            x: {
+                ...defaults.x,
+                ...(isPlainObject(safe.x) ? safe.x : {}),
+                xData: {
+                    ...defaults.x.xData,
+                    ...(isPlainObject(safe.x?.xData) ? safe.x.xData : {})
+                },
+                xTopics: Array.isArray(safe.x?.xTopics) ? safe.x.xTopics : defaults.x.xTopics,
+                boundWorldBookIds: Array.isArray(safe.x?.boundWorldBookIds) ? safe.x.boundWorldBookIds.map(String) : defaults.x.boundWorldBookIds,
+                xVisitors: Array.isArray(safe.x?.xVisitors) ? safe.x.xVisitors : defaults.x.xVisitors,
+                xDirectMessages: Array.isArray(safe.x?.xDirectMessages) ? safe.x.xDirectMessages : defaults.x.xDirectMessages,
+                xPostThreads: isPlainObject(safe.x?.xPostThreads) ? safe.x.xPostThreads : defaults.x.xPostThreads,
+                xGeneratedPosts: Array.isArray(safe.x?.xGeneratedPosts) ? safe.x.xGeneratedPosts : defaults.x.xGeneratedPosts,
+                xHomeBannerUrl: typeof safe.x?.xHomeBannerUrl === 'string' ? safe.x.xHomeBannerUrl : defaults.x.xHomeBannerUrl,
+                xSearchBannerUrl: typeof safe.x?.xSearchBannerUrl === 'string' ? safe.x.xSearchBannerUrl : defaults.x.xSearchBannerUrl
+            },
+            imessage: {
+                ...defaults.imessage,
+                ...(isPlainObject(safe.imessage) ? safe.imessage : {}),
+                uiState: {
+                    ...defaults.imessage.uiState,
+                    ...(isPlainObject(safe.imessage?.uiState) ? safe.imessage.uiState : {})
+                }
+            }
+        };
+    }
+
+    function loadLocalAppState() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(APP_STATE_KEY, null);
+            }
+            const raw = window.localStorage ? window.localStorage.getItem(APP_STATE_KEY) : null;
+            return raw ? JSON.parse(raw) : null;
+        } catch (error) {
+            console.warn('[app_state_bridge] Failed to load local app state:', error);
+            return null;
+        }
+    }
+
+    function saveLocalAppState() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(APP_STATE_KEY, appState);
+                hasLocalAppState = true;
+                return;
+            }
+            if (window.localStorage) {
+                window.localStorage.setItem(APP_STATE_KEY, JSON.stringify(appState));
+                hasLocalAppState = true;
+            }
+        } catch (error) {
+            console.warn('[app_state_bridge] Failed to save local app state:', error);
+        }
+    }
+
+    function buildGlobalDataForSave(base = {}) {
+        return {
+            ...(isPlainObject(base) ? base : {}),
+            appState: normalizeAppState(appState)
+        };
+    }
+
+    const initialLocalAppState = loadLocalAppState();
+    let hasLocalAppState = !!initialLocalAppState;
+    let runtimeDirty = false;
+    let appState = normalizeAppState(initialLocalAppState);
+    let globalDataCache = null;
+    let saveTimer = null;
+
+    function syncWindowState() {
+        window.__u2AppState = appState;
+        window.__iisonAppState = appState;
+    }
+
+    async function persistToAppStorage() {
+        if (!window.appStorage || typeof window.appStorage.saveGlobalData !== 'function') {
+            return false;
+        }
+
+        try {
+            const base = globalDataCache || (
+                typeof window.appStorage.loadGlobalData === 'function'
+                    ? await window.appStorage.loadGlobalData()
+                    : {}
+            );
+            const nextGlobalData = buildGlobalDataForSave(base);
+            await window.appStorage.saveGlobalData(nextGlobalData);
+            globalDataCache = nextGlobalData;
+            return true;
+        } catch (error) {
+            console.warn('[app_state_bridge] Failed to persist app state:', error);
+            return false;
+        }
+    }
+
+    function scheduleSave() {
+        saveLocalAppState();
+        if (saveTimer) clearTimeout(saveTimer);
+        saveTimer = setTimeout(() => {
+            saveTimer = null;
+            persistToAppStorage();
+        }, SAVE_DEBOUNCE_MS);
+    }
+
+    window.getAllAppState = function getAllAppState() {
+        return appState;
+    };
+
+    window.getAppState = function getAppState(appKey) {
+        if (!appKey) return null;
+        return appState && Object.prototype.hasOwnProperty.call(appState, appKey)
+            ? clone(appState[appKey])
+            : null;
+    };
+
+    window.setAppState = function setAppState(appKey, nextState, options = {}) {
+        if (!appKey) return null;
+        appState[appKey] = isPlainObject(nextState) || Array.isArray(nextState) ? clone(nextState) : nextState;
+        appState = normalizeAppState(appState);
+        syncWindowState();
+        runtimeDirty = true;
+        if (options.save !== false) scheduleSave();
+        return clone(appState[appKey]);
+    };
+
+    window.updateAppState = function updateAppState(appKey, updater, options = {}) {
+        if (!appKey) return null;
+        const previous = window.getAppState(appKey);
+        const draft = isPlainObject(previous) || Array.isArray(previous) ? clone(previous) : previous;
+        const nextState = typeof updater === 'function' ? updater(draft) ?? draft : updater;
+        return window.setAppState(appKey, nextState, options);
+    };
+
+    window.resetUnifiedAppState = function resetUnifiedAppState(options = {}) {
+        appState = normalizeAppState();
+        syncWindowState();
+        runtimeDirty = true;
+        if (options.save !== false) scheduleSave();
+        return clone(appState);
+    };
+
+    window.saveGlobalData = async function saveGlobalData() {
+        saveLocalAppState();
+        return persistToAppStorage();
+    };
+
+    window.loadGlobalData = async function loadGlobalData() {
+        if (window.appStorage && typeof window.appStorage.loadGlobalData === 'function') {
+            try {
+                const loaded = await window.appStorage.loadGlobalData();
+                globalDataCache = loaded && typeof loaded === 'object' ? loaded : {};
+
+                if (!hasLocalAppState && !runtimeDirty && globalDataCache.appState) {
+                    appState = normalizeAppState(globalDataCache.appState);
+                    syncWindowState();
+                    saveLocalAppState();
+                }
+
+                return buildGlobalDataForSave(globalDataCache);
+            } catch (error) {
+                console.warn('[app_state_bridge] Failed to load global data:', error);
+            }
+        }
+
+        return buildGlobalDataForSave(globalDataCache || {});
+    };
+
+    syncWindowState();
+
+    window.globalDataReadyPromise = window.loadGlobalData();
+})();

@@ -1,1 +1,2967 @@
-function _0x2c46(){const _0x28003e=['result','bg-activity-toggle','href','onload','--assistive-ball-opacity','imessage-avatar-icon','Arial,\x20sans-serif','#user-detail-avatar-wrapper\x20.fa-user','permission','moved','删除预设“','theme-font-size-value','message','.apple-id-avatar-small\x20.fa-user','save-preset-btn','app-icon-7','saved','from','头像处理失败','aboutDevice','app-icon','app-icon-8','parentLeft','请填写接口地址','\x22)\x20format(\x22woff\x22)','name','Authorization','disabled','#assistive-api-preset-select','querySelectorAll','target','theme-font-link-focus-btn','stopImmediatePropagation','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@font-face\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27','pointerup','theme-font-modal-preview','StorageManager','clear-data-btn','assistiveBallOpacity','theme-font-modal-user-preset-list','chat-theme-beautify-toggle','commitScopedFriendChange','image/jpeg','fontCssName','importAllData','warn','persona-detail-sheet','theme-bubble-preset-list','woff2','button','avatar-updated','startClientX','No\x20file\x20selected','api-config-btn','inputs','savedFontPresets','app-icon-1','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-left:\x2012px;\x20font-size:\x2016px;\x20font-weight:\x20500;\x20color:\x20#000;\x22>','未命名备份','apiTemp','__draft__','display-signature','getAllAppState','minimaxEndpoint','.app-item','approximateBytes','assistive-ball-opacity-value','style','user-detail-avatar-wrapper','请先选择一个朋友','确定清空所有应用数据和配置吗？此操作不可恢复，系统将重启到默认状态。','save-id-btn','denied','数据导出成功','apiKey','documentElement','string','true','minimax-region-select','.account-content','input','setConfig','global-assistive-api-panel','Failed\x20to\x20compress\x20image,\x20using\x20original\x20data\x20url.','rgba(255,\x20255,\x20255,\x200.8)','system-ui,\x20-apple-system,\x20BlinkMacSystemFont,\x20\x22PingFang\x20SC\x22,\x20sans-serif',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--theme-font-size:\x20','dragging','var(--blue-color)','width','u2phone','未设置','--theme-font-family','900','1646aiVckG','cover','settings-name','endpoint','call','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20Fetching...','detailAvatarIcon','app-item','已填写','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22data-operation-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x20data-operation-spinner\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22data-operation-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22data-operation-progress\x22><div></div></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Clear\x20data\x20failed:','u2_currentAccountId','应用图标已全部重置','detail-name-input','panel-open','round','overlays','#e8f2ff','theme-bg-reset-btn','字体预设已更新','背景已重置','center','cssName','u2_accounts','ttsModel','Failed\x20to\x20load\x20image\x20for\x20compression','assistive-ball-settings-sheet','<div\x20style=\x22padding:\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x22>暂无预设</div>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-detail\x22\x20style=\x22font-family:\x20monospace;\x20font-size:\x2011px;\x22>','正在校验备份...','assetCount','主题美化已应用','innerHTML','flex','imData','avatarChanged','about-device-sheet','imessage-profile-name','catch','消息通知已关闭','persona','removeEventListener','theme-font-current-label','getConfig','visible','30px','当前浏览器不支持系统通知','minimaxConfig','getAccounts','minimaxKey','system-ui','Diary','.app-icon','38px','removeChild','offsetY','\x27);\x20background-size:\x20cover;\x20background-position:\x20center;\x20border:\x201px\x20solid\x20#e5e5ea;\x20flex-shrink:\x200;\x22></div>','smooth','status','Failed\x20to\x20persist\x20settings\x20to\x20appStorage:','Aa\x20你好\x20Hello\x20123','/models','preset-list','settings','ttf','apps','transparent','1px\x20solid\x20#e5e5ea','model',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app\x20:where(.app-page,\x20.settings-view,\x20.bottom-sheet,\x20.bottom-sheet-overlay,\x20.settings-group,\x20.settings-item,\x20.settings-text,\x20.form-item,\x20.sheet-title,\x20.sheet-action,\x20.chat-bubble,\x20.chat-row,\x20.ins-chat-input-container,\x20.ins-chat-messages,\x20.global-textarea,\x20input,\x20textarea,\x20button,\x20select)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20var(--theme-font-family)\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x20var(--theme-font-size);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app\x20:where(*):not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fa-solid):not(.fa-regular):not(.fa-brands)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20var(--theme-font-family)\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app\x20:where(i,\x20.fa,\x20.fas,\x20.far,\x20.fab,\x20.fal,\x20.fa-solid,\x20.fa-regular,\x20.fa-brands),\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app\x20:where(i,\x20.fa,\x20.fas,\x20.far,\x20.fab,\x20.fal,\x20.fa-solid,\x20.fa-regular,\x20.fa-brands)::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x22Font\x20Awesome\x206\x20Free\x22,\x20\x22Font\x20Awesome\x206\x20Brands\x22\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#app\x20:where(#theme-bubble-css-input,\x20#theme-chat-css-input,\x20#theme-status-css-input,\x20#bubble-css-input,\x20#status-css-input,\x20textarea[placeholder*=\x22CSS\x22],\x20textarea[placeholder*=\x22css\x22])\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20ui-monospace,\x20SFMono-Regular,\x20Menlo,\x20Consolas,\x20\x22Liberation\x20Mono\x22,\x20monospace\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px\x20!important;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}','theme-font-size-slider','max','fas\x20fa-wallet','.delete-icon','资料已保存','focus','div','data-import-version','.woff2','theme-font-pill-label','detailName','将用「','#ffffff','backgroundColor','Default\x20User','isFinite','#assistive-api-model','checked','」完整替换当前手机里的应用数据和配置。此操作不可撤销，确定继续？','Shop','\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20src:\x20','chat-theme-apply-btn','setAttribute','theme-font-face-style','No\x20Phone','src','formatBytes','\x22\x20alt=\x22\x22>','theme-bubble-css-input','未命名预设','theme-status-clear-btn','setPointerCapture','字体大小已调整为\x20','u2_userState','minimax-config-sheet','region','import-data-btn','1905292iGonHg','\x22)\x20format(\x22woff2\x22)','closest','assistiveBallToggle','backgroundSize','<div\x20class=\x22assistive-api-ball-inner\x22><i\x20class=\x22fas\x20fa-circle-dot\x22></i></div>','readAsDataURL','false','CustomFont','chat','theme-font-close-btn','border','toLocaleString','stringify','theme-font-modal','--theme-font-size','theme-chat-clear-btn','savePreset','api-config-sheet','imessageChatCss','now','preventDefault','save','theme-font-custom-section','apple-id-trigger','fontMode','data-management-close-btn','url(\x22','load','/*\x20Chat\x20界面默认结构参考\x20*/\x0a.active-chat-interface\x20{\x0a\x20\x20background-color:\x20#ffffff;\x0a\x20\x20background-image:\x20none;\x0a\x20\x20background-size:\x20cover;\x0a\x20\x20background-position:\x20center;\x0a\x20\x20background-repeat:\x20no-repeat;\x0a}\x0a\x0a/*\x20顶部栏区域\x20*/\x0a.chat-sticky-container\x20{\x0a\x20\x20border-bottom:\x201px\x20solid\x20#f2f2f7;\x0a\x20\x20padding-bottom:\x205px;\x0a}\x0a.chat-top-bar\x20{\x0a\x20\x20background-color:\x20transparent;\x0a\x20\x20backdrop-filter:\x20none;\x0a\x20\x20display:\x20flex;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20justify-content:\x20space-between;\x0a\x20\x20padding:\x200\x2016px;\x0a\x20\x20height:\x2044px;\x0a}\x0a\x0a/*\x20顶部左侧返回按钮\x20*/\x0a.chat-back-btn\x20{\x0a\x20\x20cursor:\x20pointer;\x0a\x20\x20padding:\x205px\x205px\x205px\x200;\x0a\x20\x20color:\x20#000;\x0a}\x0a\x0a/*\x20顶部头像\x20*/\x0a.ins-chat-avatar\x20{\x0a\x20\x20margin:\x200;\x0a\x20\x20width:\x2044px;\x0a\x20\x20height:\x2044px;\x0a\x20\x20border-radius:\x2050%;\x0a\x20\x20background-color:\x20#e5e5ea;\x0a\x20\x20display:\x20flex;\x0a\x20\x20justify-content:\x20center;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20color:\x20#8e8e93;\x0a\x20\x20overflow:\x20hidden;\x0a}\x0a\x0a/*\x20名字和签名区域\x20*/\x0a.ins-chat-name\x20{\x0a\x20\x20font-size:\x2018px;\x0a\x20\x20line-height:\x201.2;\x0a\x20\x20font-weight:\x20600;\x0a\x20\x20color:\x20#000;\x0a}\x0a.ins-chat-sign\x20{\x0a\x20\x20font-size:\x2013px;\x0a\x20\x20color:\x20#8e8e93;\x0a}\x0a\x0a/*\x20顶部右侧菜单按钮\x20*/\x0a.chat-menu-btn\x20{\x0a\x20\x20cursor:\x20pointer;\x0a\x20\x20padding:\x205px;\x0a\x20\x20color:\x20#000;\x0a}\x0a\x0a/*\x20聊天消息列表区域\x20*/\x0a.ins-chat-messages\x20{\x0a\x20\x20flex:\x201;\x0a\x20\x20overflow-y:\x20auto;\x0a\x20\x20padding:\x2016px;\x0a\x20\x20display:\x20flex;\x0a\x20\x20flex-direction:\x20column;\x0a\x20\x20gap:\x2015px;\x0a}\x0a\x0a/*\x20底部输入框区域\x20*/\x0a.ins-chat-input-container\x20{\x0a\x20\x20background-color:\x20#ffffff;\x0a\x20\x20border-top:\x201px\x20solid\x20#f2f2f7;\x0a\x20\x20padding:\x2010px\x2016px\x2020px;\x0a}\x0a.ins-chat-input-wrapper\x20{\x0a\x20\x20background-color:\x20#f2f2f7;\x0a\x20\x20border-radius:\x2022px;\x0a\x20\x20display:\x20flex;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20gap:\x2010px;\x0a\x20\x20padding:\x206px\x2012px;\x0a}\x0a.ins-message-input\x20{\x0a\x20\x20flex:\x201;\x0a\x20\x20border:\x20none;\x0a\x20\x20outline:\x20none;\x0a\x20\x20background:\x20transparent;\x0a\x20\x20font-size:\x2015px;\x0a\x20\x20color:\x20#111;\x0a}\x0a\x0a/*\x20左侧加号图标\x20*/\x0a.ins-input-icon\x20{\x0a\x20\x20width:\x2028px;\x0a\x20\x20height:\x2028px;\x0a\x20\x20border-radius:\x2050%;\x0a\x20\x20background-color:\x20#007aff;\x0a\x20\x20color:\x20#fff;\x0a\x20\x20display:\x20flex;\x0a\x20\x20justify-content:\x20center;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20cursor:\x20pointer;\x0a\x20\x20font-size:\x2014px;\x0a}\x0a\x0a/*\x20右侧发送与麦克风图标\x20*/\x0a.send-btn-icon\x20{\x0a\x20\x20width:\x2028px;\x0a\x20\x20height:\x2028px;\x0a\x20\x20border-radius:\x2050%;\x0a\x20\x20display:\x20flex;\x0a\x20\x20justify-content:\x20center;\x0a\x20\x20align-items:\x20center;\x0a\x20\x20cursor:\x20pointer;\x0a\x20\x20color:\x20#007aff;\x0a\x20\x20font-size:\x2018px;\x0a}','setCurrentAccountId','enabled','api-model-select','clientX','aria-label','data-import-assets','fas\x20fa-comment','parse','icon','map','url(','u2_fetchedModels','preset','theme-chat-save-btn','temp','data','toggle','system-default','theme-bg-file-input','createDocumentFragment','getElementById','头像已更新','u2_apiConfig','未登录\x20Apple\x20ID','Chat\x20CSS\x20cleared','<i\x20class=\x22fas\x20fa-user\x22></i>','fontFamily','<i\x20class=\x22fas\x20fa-times\x22></i>','account-card','theme-status-preset-list','groupId','-1px','drawImage','presetName','json','is-busy','CustomThemeFont','data-management-btn','scrollIntoView','family','消息通知已开启','click','预设已保存','导入失败，备份文件可能已损坏','getAttribute','链接字体已应用','about-device-btn','findIndex','active','theme-chat-preset-list','display','className','app-icon-4','none','user','lists','settings-view','minimax-tts-model-input','网络请求失败','getBoundingClientRect','personaDetail','app-icon-6','theme-font-applied-style','backgroundImage','apiModel','.woff','theme-status-save-btn','u2AssistiveApiBall','成功获取\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22assistive-api-panel-title\x22>当前\x20API</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22assistive-api-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>模型</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20id=\x22assistive-api-model\x22>未设置</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22assistive-api-select-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>API\x20预设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22assistive-api-preset-select\x22></select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-down\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','trim','font-size:\x2026px;','user-state-updated','复制失败','data-import-file-name','builtin','theme-bubble-apply-btn','onerror','Failed\x20to\x20read\x20file','u2_apiPresets','download','views','createObjectURL','add','releasePointerCapture','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x20delete-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','dragged','application/json','detail-signature-input','loadGlobalData','block','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22reset-single-app-btn\x22\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x2050%;\x20background:\x20#ffebee;\x20color:\x20#ff3b30;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-undo\x22\x20style=\x22font-size:\x2014px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22upload-single-app-btn\x22\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x2050%;\x20background:\x20#e8f5e9;\x20color:\x20#34c759;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-upload\x22\x20style=\x22font-size:\x2014px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','userState','files','type','presets','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-detail\x22>','theme-font-apply-custom-btn','app-icon-5','chat-theme-chat-select','detailPersona','height','addEventListener','statusCssEnabled','fontPresetKey','fontSources','parentTop','color','customCss','world-book-view','opacity','4658229xqHXnH','...','后台保活已关闭','应用主题失败','statusCss','abs','暂无手机号','\x20个模型','fontSize','settings-title-back-btn','u2SystemNotifications','32px','form-item','imessage-avatar-img','New\x20User','data-import-records','rgba(255,\x20255,\x20255,\x200.7)','alignItems','role','暂无\x20API\x20预设','location','key','字体已重置为默认字体','/v1','find','预设已删除','css','error','minimax-custom-endpoint-toggle','60px','progress','.json','app-icon-3','导出失败，请查看控制台','theme-bubble-clear-btn','sources','syncUIs','contains','已删除预设\x20','theme-bubble-save-btn','textContent','.upload-single-app-btn','offsetHeight','assistiveBallSettings','data-operation-overlay','readAsText','\x22,\x20system-ui','object','导入成功，正在重启...','borderBottom','已切换到\x20','Fetch\x20Models\x20Error:','isArray','body','API\x20悬浮球','fas\x20fa-cog','top','toFixed','我的预设\x20·\x20','12yjVfzh','正在准备导出数据...','about-device-close-btn','data-target','格式无效','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:root\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--theme-font-family:\x20','已复制气泡源码结构','bubble','1743finwGe','desktop-theme-config-sheet','theme-bg-url-input','bgActivityToggle','backgroundPosition','clientY','备份已校验，请再次点击导入','writeText','querySelector','u2phone_backup_','u2BackgroundActivity','theme-config-btn','appendChild','some','color:\x20#1c1c1e;\x20font-size:\x2030px;\x20filter:\x20none;','applyGlobalChatCss','theme-font-url-input','slice','.data-operation-text','stopPropagation','app','1px\x20solid\x20#f2f2f7','avatarUrl','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2040px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20暂无预设\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','背景已更新','getContext','updateSettings','当前字体：','getSettings','已应用预设\x20\x22','substring','.app-name','label',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20normal;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-style:\x20normal;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-display:\x20swap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}','theme-status-preset-name','theme-config-sheet','accountSwitcher','confirm-save-preset-btn','theme-bubble-copy-btn','theme-chat-copy-btn','phone','preset-name-input','apiConfig','customCssEnabled','accounts','theme-status-copy-btn','pointerId','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-detail\x22\x20style=\x22white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20max-width:\x20220px;\x22>','#edit-avatar-preview\x20.fa-user','u2_minimaxConfig','文件格式错误或备份已损坏','minimaxGroupId','pointermove','assistive-ball-opacity-range','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-content\x22\x20style=\x22cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-avatar\x22\x20style=\x22background-color:\x20var(--blue-color);\x20color:\x20white;\x22><i\x20class=\x22fas\x20fa-server\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-name\x22>','u2MinimaxTts','detail-phone-input','save-preset-name-sheet','tagName','app-icon-2','systemNotificationToggle','settings-avatar-img','signature','classList','1174239MaAJds','justifyContent','parentElement','detailPhone','setTimeout','CSS\x20代码不能为空','linear-gradient(180deg,\x20#ffffff\x200%,\x20#f2f2f7\x20100%)','options','Loves','字体预设已保存','#1c1c1e','font_preset_','apiEndpoint','assistive-api-ball','minimax-custom-endpoint-group','assistive-api-panel','\x22></i>','252460SFQRsz','currentSettingsFriend','选择\x20API\x20预设','fetch-models-btn','已复制\x20Chat\x20源码结构','detailAvatarImg','INPUT','delete-icon','selected','forEach','showToast','system-notification-toggle','then','\x22\x20style=\x22','fab\x20fa-youtube','data-management-sheet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-content\x22\x20style=\x22cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-name\x22>','theme-font-modal-preset-list','正在导入备份...','u2ThemeState','background','10px','Copy\x20failed','minimax-config-btn','dock-icon-youtube','push','detail-avatar-upload','\x20KB','renderWorldBooks','Failed\x20to\x20process\x20avatar\x20upload','add-account-btn','account-list','\x20图标已重置','compressImage','detail-avatar-img','function','imessageChatCssEnabled','Presets','value','main-edit-avatar-wrapper','remove','u2_assistiveBallSettings','edit-view','api-temp-input','fas\x20fa-heart','toISOString','option','34856UncIND','.reset-single-app-btn','recordCount','endsWith','confirm-minimax-btn','join','temperature','split','theme-app-list','No\x20Signature','\x20图标已更新','left','fontWeight','edit-back-btn','revokeObjectURL','645000MSBhoG','confirm-api-btn','<option\x20value=\x22\x22\x20disabled\x20selected>选择模型</option>','悬浮球已关闭','.theme-tab-content','change','minimaxTtsModel','space-between','bgUrl','/*\x20气泡默认结构参考\x20*/\x0a.chat-row.user\x20.chat-bubble\x20{\x0a\x20\x20background:\x20#111\x20!important;\x0a\x20\x20color:\x20#fff\x20!important;\x0a\x20\x20border-radius:\x2016px\x2016px\x204px\x2016px\x20!important;\x0a}\x0a.chat-row.char\x20.chat-bubble\x20{\x0a\x20\x20background:\x20#e9e9ee\x20!important;\x0a\x20\x20color:\x20#111\x20!important;\x0a\x20\x20border-radius:\x2016px\x2016px\x2016px\x204px\x20!important;\x0a}','createElement','dataset','请至少填写一个字体完整链接','theme-bg-upload-btn','length','woff','applyFriendCss','speech-02-hd','appStorage','minimax-group-id-input','edit-avatar-img','min','clearAllPersistentData','API\x20设置已保存','switch-account-btn','inspectBackupPayload','loadPreset','YouTube','Import\x20preview\x20failed:','replace','assistive-ball-toggle','theme-status-css-input','minimaxCustomEndpoint','1841nnmrgC','u2_theme_','filter','#8e8e93','Import\x20failed:','detailSignature','处理中...','assistiveBallOpacityValue','minimaxRegion','reload','data-import-preview','imApp','添加账号后可同步头像、名称与签名','clipboard','setProperty'];_0x2c46=function(){return _0x28003e;};return _0x2c46();}function _0x3147(_0x272745,_0x21a022){_0x272745=_0x272745-0xf8;const _0x2c4664=_0x2c46();let _0x31472b=_0x2c4664[_0x272745];return _0x31472b;}(function(_0x17535c,_0x28cf7f){const _0x4b1a67=_0x3147,_0x2dd95f=_0x17535c();while(!![]){try{const _0x4b7357=-parseInt(_0x4b1a67(0x1b8))/0x1*(parseInt(_0x4b1a67(0x2d5))/0x2)+parseInt(_0x4b1a67(0x175))/0x3+-parseInt(_0x4b1a67(0x340))/0x4+parseInt(_0x4b1a67(0x209))/0x5*(-parseInt(_0x4b1a67(0x1b0))/0x6)+-parseInt(_0x4b1a67(0x268))/0x7*(-parseInt(_0x4b1a67(0x238))/0x8)+parseInt(_0x4b1a67(0x1f8))/0x9+parseInt(_0x4b1a67(0x247))/0xa;if(_0x4b7357===_0x28cf7f)break;else _0x2dd95f['push'](_0x2dd95f['shift']());}catch(_0x51fe45){_0x2dd95f['push'](_0x2dd95f['shift']());}}}(_0x2c46,0xd7491),(function(){const _0x2f53b7=_0x3147;let _0x2341a5=[],_0x47dcac=null,_0x273406={'name':'','phone':'','persona':'','avatarUrl':null};function _0x5e84d4(_0x12eb29){const _0x50e451=_0x3147;if(typeof structuredClone==='function')return structuredClone(_0x12eb29);return JSON[_0x50e451(0x10d)](JSON[_0x50e451(0x34d)](_0x12eb29));}function _0xa4e2bf(){const _0x156a87=_0x3147,_0x1a00a2=_0x2341a5[_0x156a87(0x18d)](_0x4952a3=>String(_0x4952a3['id'])===String(_0x47dcac));return _0x1a00a2?(_0x273406[_0x156a87(0x290)]=_0x1a00a2[_0x156a87(0x290)]||'',_0x273406[_0x156a87(0x1e0)]=_0x1a00a2[_0x156a87(0x1e0)]||'',_0x273406['persona']=_0x1a00a2[_0x156a87(0x2fd)]||'',_0x273406[_0x156a87(0x1f6)]=_0x1a00a2['signature']||'',_0x273406['avatarUrl']=_0x1a00a2[_0x156a87(0x1ce)]||null):(_0x273406[_0x156a87(0x290)]='',_0x273406[_0x156a87(0x1e0)]='',_0x273406[_0x156a87(0x2fd)]='',_0x273406[_0x156a87(0x1f6)]='',_0x273406[_0x156a87(0x1ce)]=null),window[_0x156a87(0x162)]=_0x273406,_0x273406;}function _0x1cd7df(_0x1aa115={}){const _0xb332f9=_0x3147;window[_0xb332f9(0x162)]=_0x273406;const _0x3f1dbc={'userState':_0x5e84d4(_0x273406),..._0x1aa115};window['dispatchEvent'](new CustomEvent(_0xb332f9(0x14e),{'detail':_0x3f1dbc})),_0x1aa115[_0xb332f9(0x2f8)]&&window['dispatchEvent'](new CustomEvent(_0xb332f9(0x2a9),{'detail':_0x3f1dbc}));}function _0x4dbf53(){const _0x4871c8=_0x3147;window[_0x4871c8(0x305)]=()=>_0x2341a5,window['getCurrentAccountId']=()=>_0x47dcac,window['setCurrentAccountId']=_0x1e198f=>{return _0x47dcac=_0x1e198f,_0xa4e2bf(),_0x3b0832(),_0x1cd7df({'avatarChanged':!![]}),_0x47dcac;};}function _0x3b0832(){const _0x36e88b=_0x3147;_0xa4e2bf(),window['StorageManager']&&(StorageManager[_0x36e88b(0xfe)](_0x36e88b(0x33c),_0x273406),StorageManager[_0x36e88b(0xfe)](_0x36e88b(0x11c),_0x251eaf),StorageManager['save'](_0x36e88b(0x1e9),_0x4ed598),StorageManager[_0x36e88b(0xfe)](_0x36e88b(0x155),_0x285ab0),StorageManager[_0x36e88b(0xfe)]('u2_fetchedModels',_0x428c09),StorageManager[_0x36e88b(0xfe)]('u2_assistiveBallSettings',_0x3a2e72),StorageManager[_0x36e88b(0xfe)]('u2_accounts',_0x2341a5),StorageManager['save'](_0x36e88b(0x2e0),_0x47dcac),StorageManager[_0x36e88b(0xfe)]('u2_themeState',_0x510dc5)),window[_0x36e88b(0x259)]?.[_0x36e88b(0x15f)]&&window['appStorage']?.['saveGlobalData']&&window[_0x36e88b(0x259)][_0x36e88b(0x15f)]()[_0x36e88b(0x215)](_0x4b3331=>{const _0x15298d=_0x36e88b,_0x162c3c=_0x4b3331&&typeof _0x4b3331===_0x15298d(0x1a4)?_0x4b3331:{};return window[_0x15298d(0x259)]['saveGlobalData']({..._0x162c3c,'userState':_0x5e84d4(_0x273406),'accounts':_0x5e84d4(_0x2341a5),'currentAccountId':_0x47dcac,'apiConfig':_0x5e84d4(_0x251eaf),'minimaxConfig':_0x5e84d4(_0x4ed598),'apiPresets':_0x5e84d4(_0x285ab0),'fetchedModels':_0x5e84d4(_0x428c09),'assistiveBallSettings':_0x5e84d4(_0x3a2e72),'themeState':_0x5e84d4(_0x510dc5),'appState':typeof window['getAllAppState']===_0x15298d(0x22c)?_0x5e84d4(window[_0x15298d(0x2b5)]()):_0x162c3c['appState']});})[_0x36e88b(0x2fb)](_0x555ff0=>{const _0x2277ba=_0x36e88b;console[_0x2277ba(0x2a4)](_0x2277ba(0x310),_0x555ff0);});}_0x4dbf53();let _0x251eaf={'endpoint':'','apiKey':'','model':'','temperature':0.7},_0x4ed598={'region':'cn','customEndpointEnabled':![],'endpoint':'','apiKey':'','groupId':'','ttsModel':_0x2f53b7(0x258)},_0x285ab0=[],_0x428c09=[],_0x3a2e72={'enabled':![],'x':null,'y':null,'opacity':0.72},_0xa969f={};const _0x2c0c62=_0x2f53b7(0x2cc),_0xaf38b5=[{'key':'system-default','label':'默认','cssName':'','family':_0x2c0c62,'sources':{'woff2':'','woff':'','ttf':''}}];let _0x510dc5={'bgUrl':null,'apps':[{'id':'app-icon-1','name':'Pay','icon':null},{'id':_0x2f53b7(0x1f3),'name':'TikTok','icon':null},{'id':_0x2f53b7(0x195),'name':'b.stage','icon':null},{'id':_0x2f53b7(0x13a),'name':'X','icon':null},{'id':_0x2f53b7(0x168),'name':_0x2f53b7(0x32e),'icon':null},{'id':_0x2f53b7(0x143),'name':_0x2f53b7(0x2d9),'icon':null},{'id':_0x2f53b7(0x286),'name':'Netflix','icon':null},{'id':_0x2f53b7(0x28c),'name':_0x2f53b7(0x200),'icon':null},{'id':'dock-icon-settings','name':'设置','icon':null},{'id':'dock-icon-imessage','name':'信息','icon':null},{'id':_0x2f53b7(0x221),'name':_0x2f53b7(0x262),'icon':null}],'fontMode':_0x2f53b7(0x112),'fontPresetKey':_0x2f53b7(0x117),'fontFamily':_0x2c0c62,'fontCssName':'','fontSize':0x10,'fontSources':{'woff2':'','woff':'','ttf':''},'savedFontPresets':[],'imessageChatCssEnabled':![],'imessageChatCss':''};window[_0x2f53b7(0x21c)]=_0x510dc5,document[_0x2f53b7(0x16c)]('DOMContentLoaded',()=>{const _0x599b58=_0x2f53b7;if(window[_0x599b58(0x29b)]){_0x251eaf=StorageManager[_0x599b58(0x104)](_0x599b58(0x11c),_0x251eaf),_0x4ed598=StorageManager['load'](_0x599b58(0x1e9),_0x4ed598),_0x285ab0=StorageManager[_0x599b58(0x104)](_0x599b58(0x155),[]),_0x428c09=StorageManager['load'](_0x599b58(0x111),[]),_0x3a2e72={..._0x3a2e72,...StorageManager[_0x599b58(0x104)](_0x599b58(0x232),{})},_0x2341a5=StorageManager['load'](_0x599b58(0x2ec),[]),_0x47dcac=StorageManager[_0x599b58(0x104)]('u2_currentAccountId',null);const _0x10c284=StorageManager['load'](_0x599b58(0x33c),null);_0x10c284&&typeof _0x10c284===_0x599b58(0x1a4)&&(_0x273406={..._0x273406,..._0x10c284});_0x47dcac&&_0xa4e2bf();const _0x56ba90=StorageManager[_0x599b58(0x104)]('u2_themeState',null);_0x56ba90&&(Array['isArray'](_0x56ba90['apps'])&&(_0x56ba90[_0x599b58(0x316)][_0x599b58(0x212)](_0x41cbe2=>{const _0x1aae71=_0x599b58,_0x51c0a5=_0x510dc5[_0x1aae71(0x316)]['find'](_0x1ea661=>_0x1ea661['id']===_0x41cbe2['id']);_0x51c0a5?(_0x51c0a5['icon']=_0x41cbe2[_0x1aae71(0x10e)],_0x41cbe2['id']==='app-icon-8'&&_0x41cbe2['name']===_0x1aae71(0x308)?_0x51c0a5[_0x1aae71(0x290)]=_0x1aae71(0x200):_0x51c0a5[_0x1aae71(0x290)]=_0x41cbe2[_0x1aae71(0x290)]||_0x51c0a5[_0x1aae71(0x290)]):_0x510dc5[_0x1aae71(0x316)][_0x1aae71(0x222)](_0x41cbe2);}),delete _0x56ba90[_0x599b58(0x316)]),_0x510dc5={..._0x510dc5,..._0x56ba90}),window[_0x599b58(0x21c)]=_0x510dc5,_0x30861b();}window[_0x599b58(0x1e2)]=_0x251eaf;window[_0x599b58(0x1ef)]&&typeof window[_0x599b58(0x1ef)][_0x599b58(0x2c8)]===_0x599b58(0x22c)?_0x4ed598=window[_0x599b58(0x1ef)][_0x599b58(0x2c8)]({...window[_0x599b58(0x1ef)]['DEFAULT_CONFIG']||{},..._0x4ed598}):window['minimaxConfig']=_0x4ed598;window['userState']=_0x273406,_0x4dbf53(),UI[_0x599b58(0x157)]['settings']=document[_0x599b58(0x11a)](_0x599b58(0x13e)),UI[_0x599b58(0x157)]['edit']=document[_0x599b58(0x11a)](_0x599b58(0x233)),UI[_0x599b58(0x2e5)][_0x599b58(0x1dc)]=document[_0x599b58(0x11a)]('account-sheet-overlay'),UI[_0x599b58(0x2e5)][_0x599b58(0x142)]=document[_0x599b58(0x11a)](_0x599b58(0x2a5)),UI[_0x599b58(0x2e5)][_0x599b58(0x28a)]=document[_0x599b58(0x11a)](_0x599b58(0x2f9)),UI['lists'][_0x599b58(0x1e4)]=document[_0x599b58(0x11a)](_0x599b58(0x228)),UI[_0x599b58(0x2ad)]={'detailName':document['getElementById'](_0x599b58(0x2e2)),'detailPhone':document[_0x599b58(0x11a)](_0x599b58(0x1f0)),'detailSignature':document['getElementById'](_0x599b58(0x15e)),'detailPersona':document['getElementById']('detail-persona-input'),'detailAvatarImg':document[_0x599b58(0x11a)](_0x599b58(0x22b)),'detailAvatarIcon':document[_0x599b58(0x1c0)](_0x599b58(0x27e)),'apiEndpoint':document[_0x599b58(0x11a)]('api-endpoint-input'),'apiKey':document[_0x599b58(0x11a)]('api-key-input'),'apiModel':document['getElementById'](_0x599b58(0x108)),'apiTemp':document[_0x599b58(0x11a)](_0x599b58(0x234)),'bgActivityToggle':document[_0x599b58(0x11a)](_0x599b58(0x278)),'systemNotificationToggle':document[_0x599b58(0x11a)](_0x599b58(0x214)),'minimaxRegion':document[_0x599b58(0x11a)](_0x599b58(0x2c5)),'minimaxCustomEndpoint':document[_0x599b58(0x11a)](_0x599b58(0x191)),'minimaxEndpoint':document['getElementById']('minimax-endpoint-input'),'minimaxKey':document['getElementById']('minimax-key-input'),'minimaxGroupId':document[_0x599b58(0x11a)](_0x599b58(0x25a)),'minimaxTtsModel':document['getElementById'](_0x599b58(0x13f)),'presetName':document[_0x599b58(0x11a)](_0x599b58(0x1e1))},UI['lists']['presets']=document['getElementById'](_0x599b58(0x313)),UI['overlays'][_0x599b58(0x1e2)]=document[_0x599b58(0x11a)](_0x599b58(0xfa)),UI[_0x599b58(0x2e5)][_0x599b58(0x304)]=document[_0x599b58(0x11a)](_0x599b58(0x33d)),UI[_0x599b58(0x2e5)]['savePreset']=document[_0x599b58(0x11a)](_0x599b58(0x1f1)),UI['overlays'][_0x599b58(0x261)]=document['getElementById']('load-preset-list-sheet'),UI[_0x599b58(0x2e5)]['assistiveBallSettings']=document[_0x599b58(0x11a)](_0x599b58(0x2ef)),UI[_0x599b58(0x2ad)][_0x599b58(0x343)]=document[_0x599b58(0x11a)](_0x599b58(0x265)),UI[_0x599b58(0x2ad)][_0x599b58(0x29d)]=document[_0x599b58(0x11a)](_0x599b58(0x1ed)),UI[_0x599b58(0x2ad)]['assistiveBallOpacityValue']=document[_0x599b58(0x11a)](_0x599b58(0x2b9));const _0x2ca670=document['getElementById']('dock-icon-settings');_0x2ca670&&_0x2ca670[_0x599b58(0x16c)]('click',_0x4dcbe9=>{const _0x48ef79=_0x599b58;syncUIs(),openView(UI[_0x48ef79(0x157)][_0x48ef79(0x314)]);});const _0x54d6d9=document['getElementById'](_0x599b58(0x17e));_0x54d6d9&&_0x54d6d9[_0x599b58(0x16c)](_0x599b58(0x12f),()=>closeView(UI[_0x599b58(0x157)][_0x599b58(0x314)]));const _0x20b4a7=document[_0x599b58(0x11a)](_0x599b58(0x134)),_0x328485=document[_0x599b58(0x11a)](_0x599b58(0x2f9)),_0x547af9=document[_0x599b58(0x11a)](_0x599b58(0x1b2));_0x20b4a7&&_0x328485&&_0x20b4a7[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x16011c=_0x599b58,_0x40a96b=document['getElementById']('about-device-app-name');if(_0x40a96b)_0x40a96b[_0x16011c(0x19d)]=_0x16011c(0x2d1);openView(_0x328485);});_0x547af9&&_0x328485&&_0x547af9[_0x599b58(0x16c)](_0x599b58(0x12f),()=>closeView(_0x328485));const _0x21667d=document[_0x599b58(0x11a)](_0x599b58(0x12b)),_0x408935=document['getElementById'](_0x599b58(0x218)),_0x4bd0a7=document['getElementById'](_0x599b58(0x102));_0x21667d&&_0x408935&&_0x21667d[_0x599b58(0x16c)]('click',()=>{openView(_0x408935);});_0x4bd0a7&&_0x408935&&_0x4bd0a7[_0x599b58(0x16c)](_0x599b58(0x12f),()=>closeView(_0x408935));const _0x110b69=document['getElementById'](_0x599b58(0x100));_0x110b69&&_0x110b69[_0x599b58(0x16c)](_0x599b58(0x12f),_0x46be63=>{const _0x4f1a2f=_0x599b58;_0x46be63[_0x4f1a2f(0x1cb)](),syncUIs(),openView(UI['views']['edit']);});const _0x4dcc59=document[_0x599b58(0x11a)](_0x599b58(0x245));_0x4dcc59&&_0x4dcc59['addEventListener'](_0x599b58(0x12f),()=>closeView(UI[_0x599b58(0x157)]['edit']));function _0x4f0b71(_0x3c4ad8,_0x3c81d7={}){return new Promise((_0x5e9930,_0x5f298e)=>{const _0x1fa557=_0x3147;if(!_0x3c4ad8){_0x5f298e(new Error(_0x1fa557(0x2ab)));return;}const {maxWidth:maxWidth=0x400,maxHeight:maxHeight=0x400,quality:quality=0.82,outputType:outputType=_0x1fa557(0x2a1)}=_0x3c81d7,_0x31c12f=new FileReader();_0x31c12f[_0x1fa557(0x27a)]=_0x1ffdc1=>{const _0xbee0ef=_0x1fa557,_0x4a997=_0x1ffdc1?.[_0xbee0ef(0x295)]?.['result'];if(!_0x4a997||typeof _0x4a997!==_0xbee0ef(0x2c3)){_0x5f298e(new Error('Failed\x20to\x20read\x20file'));return;}const _0x2b57c5=new Image();_0x2b57c5[_0xbee0ef(0x27a)]=()=>{const _0x35440e=_0xbee0ef;let {width:_0x2c57dc,height:_0x7bf17d}=_0x2b57c5;if(!_0x2c57dc||!_0x7bf17d){_0x5e9930(_0x4a997);return;}const _0x12578c=maxWidth/_0x2c57dc,_0x1e3faa=maxHeight/_0x7bf17d,_0x2cb16f=Math[_0x35440e(0x25c)](0x1,_0x12578c,_0x1e3faa),_0x537064=Math[_0x35440e(0x31c)](0x1,Math[_0x35440e(0x2e4)](_0x2c57dc*_0x2cb16f)),_0x266f03=Math[_0x35440e(0x31c)](0x1,Math[_0x35440e(0x2e4)](_0x7bf17d*_0x2cb16f)),_0x4d7f6b=document[_0x35440e(0x251)]('canvas');_0x4d7f6b[_0x35440e(0x2d0)]=_0x537064,_0x4d7f6b[_0x35440e(0x16b)]=_0x266f03;const _0x24941d=_0x4d7f6b[_0x35440e(0x1d1)]('2d');if(!_0x24941d){_0x5e9930(_0x4a997);return;}_0x24941d[_0x35440e(0x126)](_0x2b57c5,0x0,0x0,_0x537064,_0x266f03);try{const _0x54a3d5=_0x4d7f6b['toDataURL'](outputType,quality);_0x5e9930(_0x54a3d5||_0x4a997);}catch(_0x48a7a7){console[_0x35440e(0x2a4)](_0x35440e(0x2ca),_0x48a7a7),_0x5e9930(_0x4a997);}},_0x2b57c5[_0xbee0ef(0x153)]=()=>_0x5f298e(new Error(_0xbee0ef(0x2ee))),_0x2b57c5[_0xbee0ef(0x334)]=_0x4a997;},_0x31c12f['onerror']=()=>_0x5f298e(new Error(_0x1fa557(0x154))),_0x31c12f[_0x1fa557(0x346)](_0x3c4ad8);});}window['readImageAsCompressedDataUrl']=_0x4f0b71;const _0x21dc1c=document['getElementById'](_0x599b58(0x230)),_0x12e874=document[_0x599b58(0x11a)]('main-avatar-upload');_0x21dc1c&&_0x12e874&&(_0x21dc1c[_0x599b58(0x16c)](_0x599b58(0x12f),_0x3320f8=>{const _0x4e25d3=_0x599b58;if(_0x3320f8['target'][_0x4e25d3(0x1f2)]!==_0x4e25d3(0x20f))_0x12e874[_0x4e25d3(0x12f)]();}),_0x12e874[_0x599b58(0x16c)](_0x599b58(0x24c),async _0x4ec3f0=>{const _0x549d80=_0x599b58,_0x5ef6fb=_0x4ec3f0[_0x549d80(0x295)][_0x549d80(0x163)][0x0];if(_0x5ef6fb)try{const _0x413bfd=await _0x4f0b71(_0x5ef6fb,{'maxWidth':0x100,'maxHeight':0x100,'quality':0.72});_0x273406[_0x549d80(0x1ce)]=_0x413bfd;const _0x1107e7=_0x2341a5[_0x549d80(0x18d)](_0x4a6a56=>_0x4a6a56['id']===_0x47dcac);_0x1107e7&&(_0x1107e7['avatarUrl']=_0x413bfd),_0x4de5a9(),syncUIs(),_0x1cd7df({'avatarChanged':!![]}),showToast(_0x549d80(0x11b));}catch(_0x43af83){console['error'](_0x549d80(0x226),_0x43af83),showToast('头像处理失败');}_0x4ec3f0['target'][_0x549d80(0x22f)]='';}));let _0x3bfe49=![],_0x3ed908=null;const _0x5bd4a8=document[_0x599b58(0x11a)](_0x599b58(0x25f));_0x5bd4a8&&_0x5bd4a8['addEventListener'](_0x599b58(0x12f),()=>{const _0x50ce43=_0x599b58;_0x5d4093(),openView(UI['overlays'][_0x50ce43(0x1dc)]);});function _0x5d4093(){const _0x3e325d=_0x599b58;if(!UI[_0x3e325d(0x13d)]['accounts'])return;UI[_0x3e325d(0x13d)][_0x3e325d(0x1e4)][_0x3e325d(0x2f5)]='',_0x2341a5[_0x3e325d(0x212)](_0x5ee385=>{const _0x4354c5=_0x3e325d,_0x60b8b5=document[_0x4354c5(0x251)]('div');_0x60b8b5[_0x4354c5(0x139)]='account-card\x20'+(_0x5ee385['id']===_0x47dcac?_0x4354c5(0x211):'');_0x5ee385['id']===_0x47dcac&&(_0x60b8b5[_0x4354c5(0x2ba)][_0x4354c5(0x328)]=_0x4354c5(0x2e6));const _0x127507=_0x5ee385['avatarUrl']?'<img\x20src=\x22'+_0x5ee385[_0x4354c5(0x1ce)]+_0x4354c5(0x336):_0x4354c5(0x11f);_0x60b8b5[_0x4354c5(0x2f5)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-avatar\x22>'+_0x127507+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22account-name\x22>'+_0x5ee385[_0x4354c5(0x290)]+_0x4354c5(0x166)+(_0x5ee385[_0x4354c5(0x1e0)]||_0x4354c5(0x333))+_0x4354c5(0x15b),_0x60b8b5[_0x4354c5(0x1c0)](_0x4354c5(0x2c6))['addEventListener'](_0x4354c5(0x12f),_0x3b32b6=>{const _0x4bc48d=_0x4354c5;if(_0x3b32b6[_0x4bc48d(0x295)][_0x4bc48d(0x1f7)]['contains'](_0x4bc48d(0x210))||_0x3b32b6['target'][_0x4bc48d(0x342)](_0x4bc48d(0x31e)))return;_0x47dcac=_0x5ee385['id'];if(window[_0x4bc48d(0x106)])window['setCurrentAccountId'](_0x5ee385['id']);_0x5d4093(),_0x3bfe49=![],_0x3ed908=_0x5ee385['id'],UI[_0x4bc48d(0x2ad)][_0x4bc48d(0x325)]['value']=_0x5ee385['name']||'',UI[_0x4bc48d(0x2ad)]['detailPhone'][_0x4bc48d(0x22f)]=_0x5ee385[_0x4bc48d(0x1e0)]||'';if(UI[_0x4bc48d(0x2ad)][_0x4bc48d(0x26d)])UI[_0x4bc48d(0x2ad)][_0x4bc48d(0x26d)][_0x4bc48d(0x22f)]=_0x5ee385[_0x4bc48d(0x1f6)]||'';UI['inputs'][_0x4bc48d(0x16a)][_0x4bc48d(0x22f)]=_0x5ee385[_0x4bc48d(0x2fd)]||'',_0x108fff(_0x5ee385[_0x4bc48d(0x1ce)]),openView(UI[_0x4bc48d(0x2e5)]['personaDetail']);}),_0x60b8b5[_0x4354c5(0x1c0)](_0x4354c5(0x31e))[_0x4354c5(0x16c)](_0x4354c5(0x12f),_0x5602ac=>{const _0x25f362=_0x4354c5;_0x5602ac[_0x25f362(0x1cb)]();if(confirm('Delete\x20account\x20\x22'+_0x5ee385[_0x25f362(0x290)]+'\x22?')){_0x2341a5=_0x2341a5[_0x25f362(0x26a)](_0x3150be=>_0x3150be['id']!==_0x5ee385['id']);if(_0x47dcac===_0x5ee385['id']){_0x47dcac=_0x2341a5[_0x25f362(0x255)]>0x0?_0x2341a5[0x0]['id']:null;if(window[_0x25f362(0x106)])window[_0x25f362(0x106)](_0x47dcac);const _0x246f85=_0x2341a5[_0x25f362(0x18d)](_0x28c631=>_0x28c631['id']===_0x47dcac);_0x273406['name']=_0x246f85?.[_0x25f362(0x290)]||'',_0x273406[_0x25f362(0x1e0)]=_0x246f85?.[_0x25f362(0x1e0)]||'',_0x273406[_0x25f362(0x2fd)]=_0x246f85?.[_0x25f362(0x1f6)]||_0x246f85?.['persona']||'',_0x273406[_0x25f362(0x1ce)]=_0x246f85?.[_0x25f362(0x1ce)]||null;}_0x4de5a9(),syncUIs(),_0x1cd7df({'avatarChanged':!![]}),_0x5d4093();}}),UI[_0x4354c5(0x13d)][_0x4354c5(0x1e4)][_0x4354c5(0x1c4)](_0x60b8b5);});}document[_0x599b58(0x11a)](_0x599b58(0x227))?.[_0x599b58(0x16c)]('click',()=>{const _0x181d8c=_0x599b58;_0x3bfe49=!![],_0x3ed908=Date['now'](),UI['inputs'][_0x181d8c(0x325)][_0x181d8c(0x22f)]='',UI[_0x181d8c(0x2ad)][_0x181d8c(0x1fb)][_0x181d8c(0x22f)]='';if(UI[_0x181d8c(0x2ad)][_0x181d8c(0x26d)])UI[_0x181d8c(0x2ad)][_0x181d8c(0x26d)][_0x181d8c(0x22f)]='';UI['inputs'][_0x181d8c(0x16a)]['value']='',_0x108fff(null),openView(UI[_0x181d8c(0x2e5)][_0x181d8c(0x142)]);}),document[_0x599b58(0x11a)](_0x599b58(0x2be))?.[_0x599b58(0x16c)]('click',()=>{const _0x2a59ff=_0x599b58,_0x40fba1=_0x2341a5[_0x2a59ff(0x18d)](_0x2d2be9=>_0x2d2be9['id']===_0x47dcac);_0x40fba1?(_0x273406[_0x2a59ff(0x290)]=_0x40fba1[_0x2a59ff(0x290)],_0x273406['phone']=_0x40fba1['phone'],_0x273406[_0x2a59ff(0x2fd)]=_0x40fba1[_0x2a59ff(0x2fd)],_0x273406[_0x2a59ff(0x1f6)]=_0x40fba1[_0x2a59ff(0x1f6)],_0x273406['avatarUrl']=_0x40fba1[_0x2a59ff(0x1ce)]):(_0x273406[_0x2a59ff(0x290)]='',_0x273406[_0x2a59ff(0x1e0)]='',_0x273406[_0x2a59ff(0x2fd)]='',_0x273406[_0x2a59ff(0x1f6)]='',_0x273406['avatarUrl']=null),_0x4de5a9(),syncUIs(),_0x1cd7df({'avatarChanged':!![]}),closeView(UI[_0x2a59ff(0x2e5)][_0x2a59ff(0x1dc)]);}),document[_0x599b58(0x11a)]('confirm-sync-btn')?.['addEventListener'](_0x599b58(0x12f),()=>{const _0x3a3c2d=_0x599b58,_0x1c1bde=UI[_0x3a3c2d(0x2ad)][_0x3a3c2d(0x325)][_0x3a3c2d(0x22f)]||_0x3a3c2d(0x183),_0x4b3f86=UI[_0x3a3c2d(0x2ad)]['detailPhone'][_0x3a3c2d(0x22f)],_0x1b5365=UI['inputs'][_0x3a3c2d(0x26d)]?UI[_0x3a3c2d(0x2ad)]['detailSignature'][_0x3a3c2d(0x22f)]:'',_0x46f016=UI['inputs']['detailPersona'][_0x3a3c2d(0x22f)],_0xe365e9=UI['inputs']['detailAvatarImg']['style'][_0x3a3c2d(0x138)]===_0x3a3c2d(0x160)?UI[_0x3a3c2d(0x2ad)][_0x3a3c2d(0x20e)]['src']:null;if(_0x3bfe49)_0x2341a5[_0x3a3c2d(0x222)]({'id':_0x3ed908,'name':_0x1c1bde,'phone':_0x4b3f86,'signature':_0x1b5365,'persona':_0x46f016,'avatarUrl':_0xe365e9}),_0x47dcac=_0x3ed908;else{const _0x441d53=_0x2341a5[_0x3a3c2d(0x18d)](_0x2b8ff3=>_0x2b8ff3['id']===_0x3ed908);_0x441d53&&(_0x441d53[_0x3a3c2d(0x290)]=_0x1c1bde,_0x441d53[_0x3a3c2d(0x1e0)]=_0x4b3f86,_0x441d53[_0x3a3c2d(0x1f6)]=_0x1b5365,_0x441d53['persona']=_0x46f016,_0x441d53[_0x3a3c2d(0x1ce)]=_0xe365e9);}_0x3bfe49=![],String(_0x47dcac)===String(_0x3ed908)&&_0xa4e2bf(),_0x4de5a9(),syncUIs(),_0x1cd7df({'avatarChanged':!![]}),_0x5d4093(),closeView(UI[_0x3a3c2d(0x2e5)][_0x3a3c2d(0x142)]),showToast(_0x3a3c2d(0x31f));});const _0xb41635=document[_0x599b58(0x11a)](_0x599b58(0x2bb));_0xb41635&&_0xb41635[_0x599b58(0x16c)]('click',_0x25ddc0=>{const _0x4cdc4c=_0x599b58;if(_0x25ddc0[_0x4cdc4c(0x295)][_0x4cdc4c(0x1f2)]!==_0x4cdc4c(0x20f))document['getElementById'](_0x4cdc4c(0x223))[_0x4cdc4c(0x12f)]();});document[_0x599b58(0x11a)]('detail-avatar-upload')?.[_0x599b58(0x16c)](_0x599b58(0x24c),async _0x1313d3=>{const _0x28de35=_0x599b58,_0x4d7f8f=_0x1313d3[_0x28de35(0x295)][_0x28de35(0x163)][0x0];if(_0x4d7f8f)try{const _0x3630c1=await _0x4f0b71(_0x4d7f8f,{'maxWidth':0x100,'maxHeight':0x100,'quality':0.72});_0x108fff(_0x3630c1);}catch(_0x1bf5c7){console[_0x28de35(0x190)]('Failed\x20to\x20process\x20detail\x20avatar\x20upload',_0x1bf5c7),showToast(_0x28de35(0x289));}});function _0x108fff(_0x339965){const _0x143a5f=_0x599b58;if(_0x339965){UI[_0x143a5f(0x2ad)][_0x143a5f(0x20e)][_0x143a5f(0x334)]=_0x339965,UI[_0x143a5f(0x2ad)][_0x143a5f(0x20e)][_0x143a5f(0x2ba)][_0x143a5f(0x138)]=_0x143a5f(0x160);if(UI[_0x143a5f(0x2ad)][_0x143a5f(0x2db)])UI[_0x143a5f(0x2ad)]['detailAvatarIcon']['style'][_0x143a5f(0x138)]=_0x143a5f(0x13b);}else{UI[_0x143a5f(0x2ad)]['detailAvatarImg'][_0x143a5f(0x2ba)][_0x143a5f(0x138)]=_0x143a5f(0x13b);if(UI[_0x143a5f(0x2ad)][_0x143a5f(0x2db)])UI[_0x143a5f(0x2ad)]['detailAvatarIcon'][_0x143a5f(0x2ba)]['display']='block';UI[_0x143a5f(0x2ad)][_0x143a5f(0x20e)][_0x143a5f(0x334)]='';}}const _0x133548=window[_0x599b58(0x199)];window[_0x599b58(0x199)]=function(){const _0x1a85a9=_0x599b58;_0x133548&&_0x133548();const _0x33fb3e=document[_0x1a85a9(0x11a)](_0x1a85a9(0x2d7)),_0x1a1723=document['getElementById'](_0x1a85a9(0x1f5)),_0x5e513f=document[_0x1a85a9(0x1c0)](_0x1a85a9(0x284));_0x33fb3e&&(_0x33fb3e[_0x1a85a9(0x19d)]=_0x273406[_0x1a85a9(0x290)]||'未登录\x20Apple\x20ID');if(_0x273406[_0x1a85a9(0x1ce)]){_0x1a1723&&(_0x1a1723['src']=_0x273406[_0x1a85a9(0x1ce)],_0x1a1723['style'][_0x1a85a9(0x138)]=_0x1a85a9(0x160));if(_0x5e513f)_0x5e513f['style'][_0x1a85a9(0x138)]=_0x1a85a9(0x13b);}else{if(_0x1a1723)_0x1a1723['style'][_0x1a85a9(0x138)]='none';if(_0x5e513f)_0x5e513f[_0x1a85a9(0x2ba)][_0x1a85a9(0x138)]=_0x1a85a9(0x160);}const _0x452507=document['getElementById']('display-name'),_0x556a4b=document[_0x1a85a9(0x11a)]('display-phone'),_0x36c17c=document[_0x1a85a9(0x11a)](_0x1a85a9(0x2b4)),_0x322534=document[_0x1a85a9(0x11a)](_0x1a85a9(0x25b)),_0x12d14e=document[_0x1a85a9(0x1c0)](_0x1a85a9(0x1e8));if(_0x452507)_0x452507[_0x1a85a9(0x19d)]=_0x273406['name']||_0x1a85a9(0x11d);if(_0x556a4b)_0x556a4b[_0x1a85a9(0x19d)]=_0x273406[_0x1a85a9(0x1e0)]||_0x1a85a9(0x17b);if(_0x36c17c)_0x36c17c[_0x1a85a9(0x19d)]=_0x273406[_0x1a85a9(0x1f6)]||_0x1a85a9(0x274);if(_0x273406[_0x1a85a9(0x1ce)]){_0x322534&&(_0x322534[_0x1a85a9(0x334)]=_0x273406[_0x1a85a9(0x1ce)],_0x322534['style'][_0x1a85a9(0x138)]='block');if(_0x12d14e)_0x12d14e[_0x1a85a9(0x2ba)][_0x1a85a9(0x138)]=_0x1a85a9(0x13b);}else{if(_0x322534)_0x322534['style'][_0x1a85a9(0x138)]=_0x1a85a9(0x13b);if(_0x12d14e)_0x12d14e['style'][_0x1a85a9(0x138)]='block';}const _0x283d2a=document[_0x1a85a9(0x11a)](_0x1a85a9(0x2fa)),_0x5a721a=document[_0x1a85a9(0x11a)]('imessage-profile-sign'),_0x3351ae=document[_0x1a85a9(0x11a)](_0x1a85a9(0x182)),_0x4668af=document['getElementById'](_0x1a85a9(0x27c));if(_0x283d2a)_0x283d2a[_0x1a85a9(0x19d)]=_0x273406[_0x1a85a9(0x290)]||_0x1a85a9(0x329);if(_0x5a721a)_0x5a721a['textContent']=_0x273406['signature']||_0x1a85a9(0x241);if(_0x273406['avatarUrl']){_0x3351ae&&(_0x3351ae[_0x1a85a9(0x334)]=_0x273406[_0x1a85a9(0x1ce)],_0x3351ae['style'][_0x1a85a9(0x138)]=_0x1a85a9(0x160));if(_0x4668af)_0x4668af[_0x1a85a9(0x2ba)]['display']=_0x1a85a9(0x13b);}else{if(_0x3351ae)_0x3351ae[_0x1a85a9(0x2ba)][_0x1a85a9(0x138)]=_0x1a85a9(0x13b);if(_0x4668af)_0x4668af[_0x1a85a9(0x2ba)][_0x1a85a9(0x138)]=_0x1a85a9(0x160);}};window[_0x599b58(0x199)]&&window['syncUIs']();document[_0x599b58(0x11a)]('close-account-sheet-btn')?.[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x33d4dc=_0x599b58;closeView(UI[_0x33d4dc(0x2e5)][_0x33d4dc(0x1dc)]);}),document[_0x599b58(0x11a)]('close-persona-sheet-btn')?.['addEventListener'](_0x599b58(0x12f),()=>{const _0x501ba6=_0x599b58;closeView(UI[_0x501ba6(0x2e5)]['personaDetail']);});const _0x1de52d=document['getElementById']('world-book-main-btn');_0x1de52d&&_0x1de52d[_0x599b58(0x16c)]('click',_0x1c8244=>{const _0xd09c88=_0x599b58;_0x1c8244['stopPropagation']();window[_0xd09c88(0x225)]&&window[_0xd09c88(0x225)]();const _0x3d788a=document[_0xd09c88(0x11a)](_0xd09c88(0x173));_0x3d788a&&openView(_0x3d788a);});const _0xe63a8c=document['getElementById'](_0x599b58(0x1c3)),_0x1f629c=document[_0x599b58(0x11a)]('imessage-themes-btn'),_0xac2e7d=document[_0x599b58(0x11a)](_0x599b58(0x1db)),_0xf781a0=document['getElementById'](_0x599b58(0x1b9));function _0x30861b(){const _0x4eb808=_0x599b58;window[_0x4eb808(0x21c)]=_0x510dc5,_0x112965(_0x510dc5),_0x21503d(_0x510dc5),_0x39fcab(_0x510dc5),window[_0x4eb808(0x273)]&&window[_0x4eb808(0x273)][_0x4eb808(0x1c7)]&&window[_0x4eb808(0x273)][_0x4eb808(0x1c7)](_0x510dc5);}function _0x5c67d2(){const _0x49e486=_0x599b58;_0x25cbde();const _0x51b038=document[_0x49e486(0x11a)](_0x49e486(0x1ba));if(_0x51b038)_0x51b038[_0x49e486(0x22f)]=_0x510dc5[_0x49e486(0x24f)]||'';_0x51b457(),_0x4cda2c(),_0x4526c3(),_0x32d9bb(),openView(_0xf781a0);}function _0x27d067(){const _0x4d9c02=_0x599b58,_0x21bc05=document['getElementById'](_0x4d9c02(0x337));if(_0x21bc05)_0x21bc05[_0x4d9c02(0x22f)]=window['imData']?.[_0x4d9c02(0x20a)]?.['customCss']||'';const _0x256044=document[_0x4d9c02(0x11a)]('theme-chat-css-input');if(_0x256044)_0x256044[_0x4d9c02(0x22f)]=_0x510dc5[_0x4d9c02(0xfb)]||'';const _0x7fdac4=document['getElementById'](_0x4d9c02(0x266));if(_0x7fdac4)_0x7fdac4['value']=window[_0x4d9c02(0x2f7)]?.[_0x4d9c02(0x20a)]?.[_0x4d9c02(0x179)]||'';openView(_0xac2e7d);}_0xe63a8c&&_0xf781a0&&_0xe63a8c[_0x599b58(0x16c)]('click',_0x236387=>{const _0x436faf=_0x599b58;_0x236387[_0x436faf(0x1cb)](),_0x5c67d2();});_0x1f629c&&_0xac2e7d&&_0x1f629c[_0x599b58(0x16c)](_0x599b58(0x12f),_0x12c773=>{const _0xa8552e=_0x599b58;_0x12c773[_0xa8552e(0x1cb)](),_0x27d067();});const _0x2be112=document[_0x599b58(0x294)]('.theme-tab'),_0x39812c=document[_0x599b58(0x294)](_0x599b58(0x24b));_0x2be112['forEach'](_0x2a4c8e=>{const _0x58cb0e=_0x599b58;_0x2a4c8e['addEventListener'](_0x58cb0e(0x12f),()=>{const _0x5eecaa=_0x58cb0e,_0x2600b4=_0x2a4c8e[_0x5eecaa(0x132)](_0x5eecaa(0x1b3));_0x2be112[_0x5eecaa(0x212)](_0x58510d=>{const _0x13df18=_0x5eecaa;_0x58510d[_0x13df18(0x1f7)]['remove']('active'),_0x58510d['style']['color']=_0x13df18(0x26b);}),_0x2a4c8e[_0x5eecaa(0x1f7)][_0x5eecaa(0x159)]('active'),_0x2a4c8e['style']['color']=_0x5eecaa(0x2cf),_0x39812c[_0x5eecaa(0x212)](_0x560e11=>{const _0x7c6203=_0x5eecaa;_0x560e11['id']===_0x2600b4?_0x560e11[_0x7c6203(0x2ba)]['display']=_0x7c6203(0x160):_0x560e11[_0x7c6203(0x2ba)][_0x7c6203(0x138)]=_0x7c6203(0x13b);});});});const _0x10b376=document[_0x599b58(0x11a)]('theme-bubble-css-input'),_0x16045c=document[_0x599b58(0x11a)](_0x599b58(0x197)),_0x5bd6f6=document[_0x599b58(0x11a)](_0x599b58(0x1de)),_0x4a9908=document['getElementById'](_0x599b58(0x152)),_0xc8c601=document['getElementById'](_0x599b58(0x1df)),_0x1c96be=document[_0x599b58(0x11a)](_0x599b58(0x1e5)),_0x5e4928=document['getElementById'](_0x599b58(0x19c)),_0x698beb=document[_0x599b58(0x11a)]('theme-bubble-preset-name'),_0x162881=document[_0x599b58(0x11a)]('theme-chat-css-input'),_0x4b8264=document['getElementById'](_0x599b58(0xf8)),_0xc52edd=document[_0x599b58(0x11a)](_0x599b58(0x113)),_0x149f0c=document[_0x599b58(0x11a)]('theme-chat-preset-name'),_0x19311b=document[_0x599b58(0x11a)](_0x599b58(0x137)),_0x5c1bce=document[_0x599b58(0x11a)](_0x599b58(0x266)),_0x1c9950=document[_0x599b58(0x11a)](_0x599b58(0x339)),_0x4462e8=document['getElementById'](_0x599b58(0x148)),_0xce5fac=document[_0x599b58(0x11a)](_0x599b58(0x1da)),_0x1dec18=document[_0x599b58(0x11a)](_0x599b58(0x123)),_0x13acff=document[_0x599b58(0x11a)](_0x599b58(0x2a6)),_0x3674b1=document['getElementById'](_0x599b58(0x29f)),_0x46259f=document[_0x599b58(0x11a)]('chat-theme-beautify-body'),_0x14660a=document[_0x599b58(0x11a)]('chat-theme-bubble-select'),_0x33ce09=document[_0x599b58(0x11a)](_0x599b58(0x169)),_0x393c50=document[_0x599b58(0x11a)]('chat-theme-status-select'),_0x3d7f76=document[_0x599b58(0x11a)](_0x599b58(0x330));_0x3674b1&&_0x46259f&&_0x3674b1[_0x599b58(0x16c)](_0x599b58(0x24c),_0x572cc6=>{const _0x3fb5f2=_0x599b58;if(_0x572cc6[_0x3fb5f2(0x295)][_0x3fb5f2(0x32c)]){_0x46259f['style']['display']=_0x3fb5f2(0x2f6);if(window[_0x3fb5f2(0x2f7)]&&window[_0x3fb5f2(0x2f7)]['currentSettingsFriend']){const _0x917a10=window['imData'][_0x3fb5f2(0x20a)];_0x14660a&&_0x917a10[_0x3fb5f2(0x1e3)]&&(_0x14660a['value']=_0x917a10[_0x3fb5f2(0x172)]||''),_0x393c50&&_0x917a10[_0x3fb5f2(0x16d)]&&(_0x393c50['value']=_0x917a10[_0x3fb5f2(0x179)]||'');}_0x33ce09&&_0x510dc5['imessageChatCssEnabled']&&(_0x33ce09['value']=_0x510dc5['imessageChatCss']||'');}else _0x46259f[_0x3fb5f2(0x2ba)][_0x3fb5f2(0x138)]='none';});_0x16045c&&_0x16045c[_0x599b58(0x16c)](_0x599b58(0x12f),async()=>{const _0x3cf7c9=_0x599b58;if(window['imData']&&window[_0x3cf7c9(0x2f7)][_0x3cf7c9(0x20a)]){const _0x2668bc=window[_0x3cf7c9(0x2f7)][_0x3cf7c9(0x20a)];if(window['imApp']&&window[_0x3cf7c9(0x273)][_0x3cf7c9(0x2a0)]){const _0x33db8c=await window[_0x3cf7c9(0x273)][_0x3cf7c9(0x2a0)](_0x2668bc,_0x53ff2f=>{const _0x54588d=_0x3cf7c9;_0x53ff2f[_0x54588d(0x172)]='',_0x53ff2f['customCssEnabled']=![];},{'silent':!![],'syncSettings':!![]});if(_0x33db8c){if(_0x10b376)_0x10b376['value']='';if(window['imApp'][_0x3cf7c9(0x257)])window[_0x3cf7c9(0x273)][_0x3cf7c9(0x257)](window[_0x3cf7c9(0x2f7)][_0x3cf7c9(0x20a)]);showToast('已清空气泡样式');}else showToast('清空气泡样式失败');}}else showToast(_0x3cf7c9(0x2bc));});_0x4b8264&&_0x4b8264[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x334d2d=_0x599b58;_0x510dc5[_0x334d2d(0xfb)]='',_0x510dc5[_0x334d2d(0x22d)]=![],window[_0x334d2d(0x21c)]=_0x510dc5;if(_0x162881)_0x162881[_0x334d2d(0x22f)]='';window[_0x334d2d(0x273)]&&window['imApp']['applyGlobalChatCss']&&window[_0x334d2d(0x273)][_0x334d2d(0x1c7)](_0x510dc5),_0x4de5a9(),showToast(_0x334d2d(0x11e));});_0x1c9950&&_0x1c9950[_0x599b58(0x16c)](_0x599b58(0x12f),async()=>{const _0x2f79d9=_0x599b58;if(window[_0x2f79d9(0x2f7)]&&window[_0x2f79d9(0x2f7)]['currentSettingsFriend']){const _0x28ca64=window[_0x2f79d9(0x2f7)][_0x2f79d9(0x20a)];if(window['imApp']&&window[_0x2f79d9(0x273)]['commitScopedFriendChange']){const _0x593d10=await window['imApp'][_0x2f79d9(0x2a0)](_0x28ca64,_0x59f926=>{const _0x228476=_0x2f79d9;_0x59f926[_0x228476(0x179)]='',_0x59f926['statusCssEnabled']=![];},{'silent':!![],'syncSettings':!![]});if(_0x593d10){if(_0x5c1bce)_0x5c1bce[_0x2f79d9(0x22f)]='';if(window[_0x2f79d9(0x273)][_0x2f79d9(0x257)])window['imApp'][_0x2f79d9(0x257)](window[_0x2f79d9(0x2f7)][_0x2f79d9(0x20a)]);showToast('已清空状态栏\x20CSS');}else showToast('清空状态栏\x20CSS\x20失败');}}else showToast('请先选择一个朋友');});_0x5bd6f6&&_0x5bd6f6[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x306db9=_0x599b58,_0x479172=_0x306db9(0x250);navigator[_0x306db9(0x275)][_0x306db9(0x1bf)](_0x479172)['then'](()=>{const _0x35a172=_0x306db9;if(window[_0x35a172(0x213)])window['showToast'](_0x35a172(0x1b6));})[_0x306db9(0x2fb)](_0xa0207e=>{console['error']('Copy\x20failed',_0xa0207e);if(window['showToast'])window['showToast']('复制失败');});});_0xc8c601&&_0xc8c601[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x210972=_0x599b58,_0x146f74=_0x210972(0x105);navigator[_0x210972(0x275)][_0x210972(0x1bf)](_0x146f74)[_0x210972(0x215)](()=>{const _0x3e5eac=_0x210972;if(window[_0x3e5eac(0x213)])window[_0x3e5eac(0x213)](_0x3e5eac(0x20d));})[_0x210972(0x2fb)](_0xbfc07b=>{const _0x463dd6=_0x210972;console[_0x463dd6(0x190)](_0x463dd6(0x21f),_0xbfc07b);if(window[_0x463dd6(0x213)])window[_0x463dd6(0x213)](_0x463dd6(0x14f));});});_0x1c96be&&_0x1c96be['addEventListener'](_0x599b58(0x12f),()=>{const _0x50a3fc=_0x599b58,_0x911337='/*\x20状态栏资料卡（点击头像弹出）默认结构参考\x20*/\x0a/*\x20主卡片容器\x20*/\x0a.chat-profile-panel-card\x20{\x0a\x20\x20background:\x20#ffffff;\x0a\x20\x20border-radius:\x2024px;\x0a}\x0a\x0a/*\x20顶部背景区\x20*/\x0a.chat-profile-panel-header\x20{\x0a\x20\x20height:\x2088px;\x0a\x20\x20background:\x20linear-gradient(180deg,\x20#f2f2f7\x200%,\x20#ffffff\x20100%);\x0a}\x0a\x0a/*\x20头像容器\x20*/\x0a.chat-profile-panel-header\x20.gmp-avatar\x20{\x0a\x20\x20width:\x2066px;\x0a\x20\x20height:\x2066px;\x0a\x20\x20border:\x203px\x20solid\x20#ffffff;\x0a}\x0a\x0a/*\x20在线状态绿点/文本气泡\x20*/\x0a.gmp-status-bubble\x20{\x0a\x20\x20background:\x20#ffffff;\x0a\x20\x20border:\x201px\x20solid\x20#e5e5ea;\x0a\x20\x20color:\x20#333;\x0a}\x0a\x0a/*\x20名字区域\x20*/\x0a.gmp-name\x20{\x0a\x20\x20font-size:\x2018px;\x0a\x20\x20font-weight:\x20700;\x0a\x20\x20color:\x20#000;\x0a}\x0a\x0a/*\x20签名区域\x20*/\x0a.gmp-signature\x20{\x0a\x20\x20font-size:\x2013px;\x0a\x20\x20color:\x20#8e8e93;\x0a}\x0a\x0a/*\x20内心想法气泡\x20(thought)\x20*/\x0a.gmp-inner-voice,\x20.chat-profile-panel-thought\x20{\x0a\x20\x20background:\x20#f2f2f7;\x0a\x20\x20color:\x20#333;\x0a\x20\x20border-radius:\x2016px;\x0a}\x0a\x0a/*\x20底部悬浮的切换\x20Tab\x20按钮\x20*/\x0a.chat-profile-panel-tab-btn\x20{\x0a\x20\x20background:\x20#fff;\x0a\x20\x20color:\x20#111;\x0a}\x0a.chat-profile-panel-tab-btn.active\x20{\x0a\x20\x20background:\x20#111;\x0a\x20\x20color:\x20#fff;\x0a}';navigator[_0x50a3fc(0x275)][_0x50a3fc(0x1bf)](_0x911337)['then'](()=>{const _0x1d3cb7=_0x50a3fc;if(window[_0x1d3cb7(0x213)])window[_0x1d3cb7(0x213)]('已复制状态栏源码结构');})[_0x50a3fc(0x2fb)](_0x56173e=>{const _0x55c7e9=_0x50a3fc;console['error']('Copy\x20failed',_0x56173e);if(window[_0x55c7e9(0x213)])window[_0x55c7e9(0x213)](_0x55c7e9(0x14f));});});function _0x37ea7d(_0x1093d5){const _0x1d17d9=_0x599b58,_0x2ceee5=window[_0x1d17d9(0x29b)]?window[_0x1d17d9(0x29b)]['load']('u2_theme_'+_0x1093d5+_0x1d17d9(0x22e),[]):[];return Array[_0x1d17d9(0x1a9)](_0x2ceee5)?_0x2ceee5:[];}function _0x118bda(_0x9022a1,_0x410271){const _0x397a88=_0x599b58;window[_0x397a88(0x29b)]&&window[_0x397a88(0x29b)][_0x397a88(0xfe)](_0x397a88(0x269)+_0x9022a1+_0x397a88(0x22e),_0x410271);}function _0x301512(_0x37b9bd,_0x2bc0c2){const _0x427d85=_0x599b58;if(!_0x2bc0c2)return;const _0x3eb0f4=_0x37ea7d(_0x37b9bd);_0x2bc0c2[_0x427d85(0x2f5)]='<option\x20value=\x22\x22>选择已保存的预设加载</option>',_0x3eb0f4[_0x427d85(0x212)](_0x45a472=>{const _0x3256a7=_0x427d85,_0x2333d4=document['createElement']('option');_0x2333d4[_0x3256a7(0x22f)]=_0x45a472['css'],_0x2333d4['textContent']=_0x45a472[_0x3256a7(0x290)],_0x2bc0c2[_0x3256a7(0x1c4)](_0x2333d4);});}function _0x55d46c(_0x175eaf,_0x505716,_0x196042,_0x23c277){const _0x13ce6a=_0x599b58;if(!_0x505716)return;_0x505716[_0x13ce6a(0x2f5)]='';const _0x3d458f=_0x37ea7d(_0x175eaf);if(_0x3d458f[_0x13ce6a(0x255)]===0x0){_0x505716['innerHTML']=_0x13ce6a(0x2f0);return;}_0x3d458f['forEach'](_0x18a2a6=>{const _0xb44355=_0x13ce6a,_0x5c55e5=document[_0xb44355(0x251)](_0xb44355(0x321));_0x5c55e5[_0xb44355(0x139)]=_0xb44355(0x122),_0x5c55e5[_0xb44355(0x2ba)]['marginBottom']=_0xb44355(0x21e);const _0x285fce=_0x18a2a6[_0xb44355(0x18f)][_0xb44355(0x255)]>0x32?_0x18a2a6[_0xb44355(0x18f)][_0xb44355(0x1d6)](0x0,0x32)+_0xb44355(0x176):_0x18a2a6[_0xb44355(0x18f)];_0x5c55e5[_0xb44355(0x2f5)]=_0xb44355(0x219)+_0x18a2a6[_0xb44355(0x290)]+_0xb44355(0x2f1)+_0x285fce+_0xb44355(0x15b),_0x5c55e5[_0xb44355(0x1c0)]('.account-content')[_0xb44355(0x16c)](_0xb44355(0x12f),_0x330db9=>{const _0x14500f=_0xb44355;if(_0x330db9['target'][_0x14500f(0x1f7)][_0x14500f(0x19a)](_0x14500f(0x210))||_0x330db9['target'][_0x14500f(0x342)](_0x14500f(0x31e)))return;if(_0x23c277){_0x23c277[_0x14500f(0x22f)]=_0x18a2a6[_0x14500f(0x18f)];if(window[_0x14500f(0x213)])window[_0x14500f(0x213)](_0x14500f(0x1d5)+_0x18a2a6[_0x14500f(0x290)]+'\x22\x20的代码');}}),_0x5c55e5[_0xb44355(0x1c0)](_0xb44355(0x31e))['addEventListener'](_0xb44355(0x12f),_0x4c002a=>{const _0x1d5231=_0xb44355;_0x4c002a[_0x1d5231(0x1cb)]();if(confirm(_0x1d5231(0x281)+_0x18a2a6[_0x1d5231(0x290)]+'”？')){const _0x399765=_0x3d458f[_0x1d5231(0x26a)](_0x451b58=>_0x451b58['id']!==_0x18a2a6['id']);_0x118bda(_0x175eaf,_0x399765),_0x301512(_0x175eaf,_0x196042),_0x55d46c(_0x175eaf,_0x505716,_0x196042,_0x23c277);if(window['showToast'])window['showToast'](_0x1d5231(0x18e));}}),_0x505716['appendChild'](_0x5c55e5);});}function _0x2c656d(_0x4f60f0,_0x237b8a,_0x3d1c05,_0x211057,_0x5d7cd7,_0x4da4a9){const _0x447a26=_0x599b58;_0x237b8a&&_0x237b8a[_0x447a26(0x16c)](_0x447a26(0x12f),()=>{const _0x90a9ce=_0x447a26;let _0x5914ae;if(_0x4f60f0===_0x90a9ce(0x1b7))_0x5914ae=_0x10b376;else{if(_0x4f60f0===_0x90a9ce(0x349))_0x5914ae=_0x162881;else{if(_0x4f60f0==='status')_0x5914ae=_0x5c1bce;}}const _0x53a9ae=_0x3d1c05?_0x3d1c05[_0x90a9ce(0x22f)][_0x90a9ce(0x14c)]():'',_0x42653a=_0x5914ae?_0x5914ae[_0x90a9ce(0x22f)][_0x90a9ce(0x14c)]():'';if(!_0x53a9ae){if(window['showToast'])window[_0x90a9ce(0x213)]('请输入预设名字');return;}if(!_0x42653a){if(window[_0x90a9ce(0x213)])window[_0x90a9ce(0x213)](_0x90a9ce(0x1fd));return;}const _0x339946=_0x37ea7d(_0x4f60f0),_0x7d42f8=_0x339946[_0x90a9ce(0x135)](_0x111bc1=>_0x111bc1['name']===_0x53a9ae);_0x7d42f8>=0x0?_0x339946[_0x7d42f8][_0x90a9ce(0x18f)]=_0x42653a:_0x339946[_0x90a9ce(0x222)]({'id':Date[_0x90a9ce(0xfc)](),'name':_0x53a9ae,'css':_0x42653a});_0x118bda(_0x4f60f0,_0x339946),_0x301512(_0x4f60f0,_0x211057);if(_0x3d1c05)_0x3d1c05[_0x90a9ce(0x22f)]='';if(window[_0x90a9ce(0x213)])window[_0x90a9ce(0x213)]('预设\x20\x22'+_0x53a9ae+'\x22\x20已保存');}),_0x211057&&_0x301512(_0x4f60f0,_0x211057),_0x5d7cd7&&_0x55d46c(_0x4f60f0,_0x5d7cd7,_0x211057,_0x4da4a9);}_0x2c656d(_0x599b58(0x1b7),_0x5e4928,_0x698beb,_0x14660a,_0x13acff,_0x10b376),_0x2c656d(_0x599b58(0x349),_0xc52edd,_0x149f0c,_0x33ce09,_0x19311b,_0x162881),_0x2c656d(_0x599b58(0x30f),_0x4462e8,_0xce5fac,_0x393c50,_0x1dec18,_0x5c1bce);_0x3d7f76&&_0x3d7f76[_0x599b58(0x16c)]('click',async()=>{const _0x518a59=_0x599b58;if(!window[_0x518a59(0x2f7)]||!window[_0x518a59(0x2f7)]['currentSettingsFriend']){showToast('请先选择一个朋友');return;}const _0x32eba3=window[_0x518a59(0x2f7)][_0x518a59(0x20a)],_0x1d1a0d=_0x14660a?_0x14660a[_0x518a59(0x22f)]:'',_0x327054=_0x33ce09?_0x33ce09[_0x518a59(0x22f)]:'',_0x1d791f=_0x393c50?_0x393c50[_0x518a59(0x22f)]:'';if(window[_0x518a59(0x273)]&&window[_0x518a59(0x273)]['commitScopedFriendChange']){const _0x390b85=await window[_0x518a59(0x273)][_0x518a59(0x2a0)](_0x32eba3,_0x25792f=>{const _0x9e7dbc=_0x518a59;_0x25792f[_0x9e7dbc(0x172)]=_0x1d1a0d,_0x25792f[_0x9e7dbc(0x1e3)]=!!_0x1d1a0d,_0x25792f['statusCss']=_0x1d791f,_0x25792f[_0x9e7dbc(0x16d)]=!!_0x1d791f;},{'silent':!![],'syncSettings':!![]});_0x390b85?(_0x510dc5[_0x518a59(0xfb)]=_0x327054,_0x510dc5['imessageChatCssEnabled']=!!_0x327054,window[_0x518a59(0x21c)]=_0x510dc5,_0x4de5a9(),window[_0x518a59(0x273)][_0x518a59(0x1c7)]&&window[_0x518a59(0x273)][_0x518a59(0x1c7)](_0x510dc5),window[_0x518a59(0x273)]['applyFriendCss']&&window[_0x518a59(0x273)]['applyFriendCss'](window[_0x518a59(0x2f7)][_0x518a59(0x20a)]),showToast(_0x518a59(0x2f4))):showToast(_0x518a59(0x178));}});const _0x496cad=document[_0x599b58(0x11a)](_0x599b58(0x254)),_0x502ee0=document[_0x599b58(0x11a)](_0x599b58(0x2e7)),_0x36615f=document[_0x599b58(0x11a)](_0x599b58(0x118));if(_0x496cad)_0x496cad[_0x599b58(0x16c)]('click',()=>_0x36615f?.[_0x599b58(0x12f)]());_0x502ee0&&_0x502ee0[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x47ccea=_0x599b58;_0x510dc5[_0x47ccea(0x24f)]=null,_0x2f7097(_0x47ccea(0x2e9));});_0x36615f&&_0x36615f[_0x599b58(0x16c)]('change',_0x1b485b=>{const _0x568487=_0x599b58,_0x400536=_0x1b485b[_0x568487(0x295)][_0x568487(0x163)][0x0];if(_0x400536){const _0x57a7b3=new FileReader();_0x57a7b3[_0x568487(0x27a)]=_0x2084ac=>{const _0x2b79de=_0x568487;window['compressImage']?window[_0x2b79de(0x22a)](_0x2084ac['target'][_0x2b79de(0x277)],0x438,0x780,_0xf3374d=>{const _0x172dbd=_0x2b79de;_0x510dc5[_0x172dbd(0x24f)]=_0xf3374d,_0x2f7097(_0x172dbd(0x1d0));}):(_0x510dc5[_0x2b79de(0x24f)]=_0x2084ac[_0x2b79de(0x295)][_0x2b79de(0x277)],_0x2f7097('背景已更新'));},_0x57a7b3[_0x568487(0x346)](_0x400536);}_0x1b485b['target'][_0x568487(0x22f)]='';});function _0x112965(_0x43dd10){const _0x2caf6e=_0x599b58,_0x2641f2=document[_0x2caf6e(0x11a)](_0x2caf6e(0x1cc));if(!_0x2641f2)return;const _0xfa612b=typeof _0x43dd10[_0x2caf6e(0x24f)]===_0x2caf6e(0x2c3)?_0x43dd10[_0x2caf6e(0x24f)][_0x2caf6e(0x14c)]():'';_0xfa612b?(_0x2641f2[_0x2caf6e(0x2ba)][_0x2caf6e(0x145)]=_0x2caf6e(0x110)+_0xfa612b+')',_0x2641f2[_0x2caf6e(0x2ba)][_0x2caf6e(0x344)]='cover',_0x2641f2[_0x2caf6e(0x2ba)]['backgroundPosition']=_0x2caf6e(0x2ea),_0x2641f2[_0x2caf6e(0x2ba)][_0x2caf6e(0x328)]=_0x2caf6e(0x317),document[_0x2caf6e(0x1aa)][_0x2caf6e(0x2ba)][_0x2caf6e(0x145)]=_0x2caf6e(0x110)+_0xfa612b+')',document[_0x2caf6e(0x1aa)][_0x2caf6e(0x2ba)][_0x2caf6e(0x344)]=_0x2caf6e(0x2d6),document[_0x2caf6e(0x1aa)][_0x2caf6e(0x2ba)]['backgroundPosition']='center'):(_0x2641f2[_0x2caf6e(0x2ba)][_0x2caf6e(0x145)]='',_0x2641f2[_0x2caf6e(0x2ba)][_0x2caf6e(0x328)]='',document['body'][_0x2caf6e(0x2ba)]['backgroundImage']='',document['body']['style'][_0x2caf6e(0x344)]='',document[_0x2caf6e(0x1aa)][_0x2caf6e(0x2ba)][_0x2caf6e(0x1bc)]='');}function _0x2f7097(_0x12d8cf=''){_0x112965(_0x510dc5),_0x4de5a9();if(_0x12d8cf)showToast(_0x12d8cf);}const _0x49e233=document[_0x599b58(0x11a)](_0x599b58(0x240)),_0x6300=document['getElementById']('theme-app-file-input'),_0x5d77f3=document[_0x599b58(0x11a)]('theme-reset-all-icons-btn');let _0x361741=-0x1;_0x5d77f3&&_0x5d77f3[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x447234=_0x599b58;_0x510dc5['apps'][_0x447234(0x212)](_0x27610b=>{const _0x346327=_0x447234;_0x27610b[_0x346327(0x10e)]=null;}),_0x1751d6(_0x447234(0x2e1));});_0x6300&&_0x6300['addEventListener'](_0x599b58(0x24c),_0x33cea3=>{const _0x243c74=_0x599b58,_0x5c20be=_0x33cea3['target'][_0x243c74(0x163)][0x0];if(_0x5c20be&&_0x361741>=0x0){const _0xc60304=new FileReader();_0xc60304[_0x243c74(0x27a)]=_0x3a573c=>{const _0x1ffefe=_0x243c74;if(window['compressImage'])window[_0x1ffefe(0x22a)](_0x3a573c[_0x1ffefe(0x295)][_0x1ffefe(0x277)],0x96,0x96,_0x2990c2=>{const _0x517a50=_0x1ffefe,_0x484ef3=_0x510dc5[_0x517a50(0x316)][_0x361741]?.[_0x517a50(0x290)]||'应用';_0x510dc5[_0x517a50(0x316)][_0x361741][_0x517a50(0x10e)]=_0x2990c2,_0x1751d6(_0x484ef3+'\x20图标已更新');});else{const _0x36117e=_0x510dc5[_0x1ffefe(0x316)][_0x361741]?.[_0x1ffefe(0x290)]||'应用';_0x510dc5[_0x1ffefe(0x316)][_0x361741][_0x1ffefe(0x10e)]=_0x3a573c[_0x1ffefe(0x295)][_0x1ffefe(0x277)],_0x1751d6(_0x36117e+_0x1ffefe(0x242));}},_0xc60304[_0x243c74(0x346)](_0x5c20be);}_0x33cea3[_0x243c74(0x295)][_0x243c74(0x22f)]='';});function _0x32d9bb(){const _0x2ad56d=_0x599b58;if(!_0x49e233)return;_0x49e233[_0x2ad56d(0x2f5)]='',_0x510dc5[_0x2ad56d(0x316)]['forEach']((_0x21a55e,_0x15712f)=>{const _0x19e851=_0x2ad56d,_0x1fc672=document[_0x19e851(0x251)](_0x19e851(0x321));_0x1fc672[_0x19e851(0x139)]=_0x19e851(0x181),_0x1fc672['style']['padding']='8px\x2016px',_0x1fc672[_0x19e851(0x2ba)][_0x19e851(0x16b)]=_0x19e851(0x192),_0x1fc672['style']['display']='flex',_0x1fc672[_0x19e851(0x2ba)][_0x19e851(0x1f9)]=_0x19e851(0x24e),_0x1fc672[_0x19e851(0x2ba)][_0x19e851(0x186)]=_0x19e851(0x2ea),_0x1fc672[_0x19e851(0x2ba)][_0x19e851(0x1a6)]=_0x19e851(0x1cd);let _0x3b768e='';_0x21a55e[_0x19e851(0x10e)]?_0x3b768e='<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2010px;\x20background-image:\x20url(\x27'+_0x21a55e[_0x19e851(0x10e)]+_0x19e851(0x30d):_0x3b768e='<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2010px;\x20background-color:\x20#f2f2f7;\x20border:\x201px\x20solid\x20#e5e5ea;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20color:\x20#c7c7cc;\x20flex-shrink:\x200;\x22><i\x20class=\x22fas\x20fa-image\x22></i></div>';_0x1fc672[_0x19e851(0x2f5)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x3b768e+_0x19e851(0x2b0)+_0x21a55e['name']+_0x19e851(0x161);const _0x5431c6=_0x1fc672[_0x19e851(0x1c0)](_0x19e851(0x239));_0x5431c6['addEventListener'](_0x19e851(0x12f),_0x2c56ce=>{const _0x9f7a84=_0x19e851;_0x2c56ce['stopPropagation'](),_0x510dc5['apps'][_0x15712f][_0x9f7a84(0x10e)]=null,_0x1751d6(_0x21a55e['name']+_0x9f7a84(0x229));});const _0x3c2248=_0x1fc672[_0x19e851(0x1c0)](_0x19e851(0x19e));_0x3c2248[_0x19e851(0x16c)](_0x19e851(0x12f),_0x1e438e=>{const _0x1620b7=_0x19e851;_0x1e438e['stopPropagation'](),_0x361741=_0x15712f,_0x6300?.[_0x1620b7(0x12f)]();}),_0x49e233['appendChild'](_0x1fc672);});}function _0x39fcab(_0x16ead6){const _0x5b8283=_0x599b58;if(!Array[_0x5b8283(0x1a9)](_0x16ead6[_0x5b8283(0x316)]))return;_0x16ead6[_0x5b8283(0x316)]['forEach'](_0x2d91c2=>_0xa88030(_0x2d91c2));}function _0x1751d6(_0x129ed3=''){_0x39fcab(_0x510dc5),_0x32d9bb(),_0x4de5a9();if(_0x129ed3)showToast(_0x129ed3);}function _0xa88030(_0x3c6f77){const _0x21b86a=_0x599b58,_0xb39952=document[_0x21b86a(0x11a)](_0x3c6f77['id']);if(!_0xb39952)return;const _0x48e614=_0xb39952[_0x21b86a(0x1f7)]['contains'](_0x21b86a(0x2dc))?_0xb39952:_0xb39952[_0x21b86a(0x342)](_0x21b86a(0x2b7)),_0x2fd51e=_0xb39952[_0x21b86a(0x1f7)]['contains'](_0x21b86a(0x28b))?_0xb39952:_0xb39952[_0x21b86a(0x1c0)](_0x21b86a(0x309))||_0x48e614?.[_0x21b86a(0x1c0)](_0x21b86a(0x309)),_0x118d7b=_0x48e614?_0x48e614[_0x21b86a(0x1c0)]('.app-name'):_0xb39952[_0x21b86a(0x1c0)](_0x21b86a(0x1d7));_0x118d7b&&_0x3c6f77[_0x21b86a(0x290)]&&(_0x118d7b[_0x21b86a(0x19d)]=_0x3c6f77[_0x21b86a(0x290)]);if(!_0x2fd51e)return;const _0x7ecb8b=(_0x5f1e63,_0x293ffd='')=>{const _0x5a6df7=_0x21b86a;return _0x2fd51e['innerHTML']='<i\x20class=\x22'+_0x5f1e63+_0x5a6df7(0x216)+_0x293ffd+_0x5a6df7(0x208),_0x2fd51e['querySelector']('i');};if(_0x3c6f77[_0x21b86a(0x10e)])_0x2fd51e[_0x21b86a(0x2f5)]='',_0x2fd51e['style']['backgroundImage']=_0x21b86a(0x110)+_0x3c6f77['icon']+')',_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x344)]=_0x21b86a(0x2d6),_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x1bc)]=_0x21b86a(0x2ea),_0x2fd51e[_0x21b86a(0x2ba)]['backgroundColor']=_0x21b86a(0x317),_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x34b)]=_0x21b86a(0x13b);else{_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x145)]=_0x21b86a(0x13b),_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x344)]='',_0x2fd51e['style'][_0x21b86a(0x1bc)]='',_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x328)]='',_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x171)]='',_0x2fd51e['style']['border']=_0x21b86a(0x318),_0x2fd51e['style'][_0x21b86a(0x138)]=_0x21b86a(0x2f6),_0x2fd51e['style'][_0x21b86a(0x1f9)]=_0x21b86a(0x2ea),_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x186)]=_0x21b86a(0x2ea),_0x2fd51e[_0x21b86a(0x2f5)]='';const _0x5a17fb=!!window[_0x21b86a(0x21c)]?.[_0x21b86a(0x24f)],_0x1b24c9=_0x5a17fb?_0x21b86a(0x185):_0x21b86a(0x327),_0x5697db=_0x5a17fb?_0x21b86a(0x2cb):_0x21b86a(0x1fe);if(_0x3c6f77['id']==='dock-icon-settings')_0x2fd51e['style'][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x171)]=_0x21b86a(0x202),_0x7ecb8b(_0x21b86a(0x1ac));else{if(_0x3c6f77['id']==='dock-icon-imessage')_0x2fd51e['style'][_0x21b86a(0x21d)]=_0x5697db,_0x2fd51e['style'][_0x21b86a(0x171)]=_0x21b86a(0x202),_0x7ecb8b(_0x21b86a(0x10c));else{if(_0x3c6f77['id']==='dock-icon-youtube')_0x2fd51e[_0x21b86a(0x2ba)]['background']=_0x1b24c9,_0x2fd51e['style'][_0x21b86a(0x171)]=_0x21b86a(0x202),_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x17d)]=_0x21b86a(0x30a),_0x7ecb8b(_0x21b86a(0x217));else{if(_0x3c6f77['id']===_0x21b86a(0x2af))_0x2fd51e[_0x21b86a(0x2ba)]['background']=_0x1b24c9,_0x2fd51e['style']['color']=_0x21b86a(0x202),_0x7ecb8b(_0x21b86a(0x31d));else{if(_0x3c6f77['id']===_0x21b86a(0x1f3))_0x2fd51e['style'][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x171)]='#1c1c1e',_0x7ecb8b('fab\x20fa-tiktok');else{if(_0x3c6f77['id']===_0x21b86a(0x195))_0x2fd51e['style'][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)]['color']=_0x21b86a(0x202),_0x7ecb8b('fas\x20fa-layer-group','font-size:\x2026px;');else{if(_0x3c6f77['id']==='app-icon-4')_0x2fd51e[_0x21b86a(0x2ba)]['background']=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)]['color']=_0x21b86a(0x202),_0x7ecb8b('fa-brands\x20fa-x-twitter',_0x21b86a(0x14d));else{if(_0x3c6f77['id']==='app-icon-5')_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x171)]='#1c1c1e',_0x7ecb8b('fas\x20fa-shopping-bag',_0x21b86a(0x1c6));else{if(_0x3c6f77['id']===_0x21b86a(0x143))_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e['style'][_0x21b86a(0x171)]=_0x21b86a(0x202),_0x2fd51e['style'][_0x21b86a(0x17d)]=_0x21b86a(0x302),_0x7ecb8b('fas\x20fa-phone','color:\x20#1c1c1e;\x20font-size:\x2030px;\x20filter:\x20none;');else{if(_0x3c6f77['id']===_0x21b86a(0x286))_0x2fd51e['style'][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e['style'][_0x21b86a(0x171)]=_0x21b86a(0x202),_0x2fd51e[_0x21b86a(0x2ba)]['border']=_0x5a17fb?'none':'1px\x20solid\x20#e5e5ea',_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x17d)]=_0x21b86a(0x180),_0x2fd51e['style'][_0x21b86a(0x244)]=_0x21b86a(0x2d4),_0x2fd51e['style'][_0x21b86a(0x120)]=_0x21b86a(0x27d),_0x2fd51e[_0x21b86a(0x2ba)]['letterSpacing']=_0x21b86a(0x125),_0x2fd51e['innerHTML']='N';else _0x3c6f77['id']==='app-icon-8'&&(_0x2fd51e[_0x21b86a(0x2ba)][_0x21b86a(0x21d)]=_0x1b24c9,_0x2fd51e[_0x21b86a(0x2ba)]['color']=_0x21b86a(0x202),_0x7ecb8b(_0x21b86a(0x235),'color:\x20#1c1c1e;\x20font-size:\x2028px;'));}}}}}}}}}}}const _0x1d31c2=document[_0x599b58(0x11a)]('theme-font-btn'),_0xac6b29=document['getElementById'](_0x599b58(0x34e)),_0x247aaa=document['getElementById'](_0x599b58(0x34a)),_0x3019d8=document['getElementById']('theme-font-reset-btn'),_0x367fb5=document[_0x599b58(0x11a)](_0x599b58(0x296)),_0x1af6d9=document[_0x599b58(0x11a)](_0x599b58(0x167)),_0x211e2f=document[_0x599b58(0x11a)]('theme-font-save-preset-btn'),_0x44fb9d=document[_0x599b58(0x11a)](_0x599b58(0xff)),_0xaae022=document[_0x599b58(0x11a)](_0x599b58(0x29a)),_0x21f0c9=document[_0x599b58(0x11a)](_0x599b58(0x2ff)),_0x5fc36d=document[_0x599b58(0x11a)](_0x599b58(0x21a)),_0xf8161c=document[_0x599b58(0x11a)](_0x599b58(0x29e)),_0x1c13d3=document[_0x599b58(0x11a)]('theme-font-name-input'),_0x45f77a=document[_0x599b58(0x11a)](_0x599b58(0x1c8)),_0x137449=document[_0x599b58(0x11a)](_0x599b58(0x31b)),_0x5cc3f5=document['getElementById'](_0x599b58(0x282)),_0x4e88f8=_0x599b58(0x311);let _0x253c9c=null;function _0x7de22(_0x4f6b5f={}){const _0x27a918=_0x599b58;return{'woff2':typeof _0x4f6b5f[_0x27a918(0x2a7)]===_0x27a918(0x2c3)?_0x4f6b5f['woff2'][_0x27a918(0x14c)]():'','woff':typeof _0x4f6b5f['woff']===_0x27a918(0x2c3)?_0x4f6b5f[_0x27a918(0x256)][_0x27a918(0x14c)]():'','ttf':typeof _0x4f6b5f[_0x27a918(0x315)]==='string'?_0x4f6b5f[_0x27a918(0x315)][_0x27a918(0x14c)]():''};}function _0xca06de(_0x1f800d){const _0x5e3e28=_0x599b58,_0x3fe55e=Number(_0x1f800d);if(!Number[_0x5e3e28(0x32a)](_0x3fe55e))return 0x10;return Math[_0x5e3e28(0x25c)](0x18,Math[_0x5e3e28(0x31c)](0xc,Math['round'](_0x3fe55e)));}function _0x42d491(_0x1fb374){const _0xb34c3=_0x599b58,_0x254bc4=String(_0x1fb374||'')['trim']()[_0xb34c3(0x264)](/["']/g,'')[_0xb34c3(0x264)](/[{}]/g,'')['replace'](/\s+/g,'\x20');return _0x254bc4||_0xb34c3(0x12a);}function _0xaad88a(_0x5ecd00){const _0x18aa46=_0x599b58;return'\x22'+_0x5ecd00+_0x18aa46(0x1a3);}function _0x4561f8(_0x1751cd={},_0x47f480=0x0){const _0x1c7801=_0x599b58,_0x381629=_0x42d491(_0x1751cd['name']||_0x1751cd[_0x1c7801(0x1d8)]||_0x1751cd[_0x1c7801(0x2eb)]||_0x1c7801(0x348)+(_0x47f480+0x1));return{'id':typeof _0x1751cd['id']===_0x1c7801(0x2c3)&&_0x1751cd['id']?_0x1751cd['id']:_0x1c7801(0x203)+Date[_0x1c7801(0xfc)]()+'_'+_0x47f480,'type':_0x1c7801(0x13c),'name':_0x381629,'label':_0x381629,'cssName':_0x42d491(_0x1751cd[_0x1c7801(0x2eb)]||_0x381629),'family':_0xaad88a(_0x1751cd[_0x1c7801(0x2eb)]||_0x381629),'sources':_0x7de22(_0x1751cd['sources'])};}function _0x25cbde(){const _0x364bc2=_0x599b58;if(!_0x510dc5||typeof _0x510dc5!==_0x364bc2(0x1a4))return;if(!_0x510dc5[_0x364bc2(0x101)])_0x510dc5['fontMode']=_0x364bc2(0x112);if(!_0x510dc5[_0x364bc2(0x16e)])_0x510dc5['fontPresetKey']=_0x364bc2(0x117);if(!_0x510dc5[_0x364bc2(0x120)])_0x510dc5['fontFamily']=_0x2c0c62;if(typeof _0x510dc5[_0x364bc2(0x2a2)]!==_0x364bc2(0x2c3))_0x510dc5[_0x364bc2(0x2a2)]='';_0x510dc5[_0x364bc2(0x17d)]=_0xca06de(_0x510dc5[_0x364bc2(0x17d)]);const _0x5974d7=_0xaf38b5[_0x364bc2(0x18d)](_0xbab85c=>_0xbab85c[_0x364bc2(0x18a)]===_0x510dc5[_0x364bc2(0x16e)])||_0xaf38b5[0x0];_0x510dc5[_0x364bc2(0x101)]!==_0x364bc2(0x287)&&(_0x510dc5['fontPresetKey']=_0x5974d7[_0x364bc2(0x18a)],_0x510dc5[_0x364bc2(0x120)]=_0x5974d7[_0x364bc2(0x12d)]||_0x2c0c62,_0x510dc5[_0x364bc2(0x2a2)]=_0x5974d7[_0x364bc2(0x2eb)]||''),!_0x510dc5[_0x364bc2(0x16f)]||typeof _0x510dc5[_0x364bc2(0x16f)]!=='object'?_0x510dc5[_0x364bc2(0x16f)]=_0x7de22(_0x5974d7[_0x364bc2(0x198)]):_0x510dc5[_0x364bc2(0x16f)]=_0x7de22(_0x510dc5['fontSources']),!Array[_0x364bc2(0x1a9)](_0x510dc5[_0x364bc2(0x2ae)])?_0x510dc5[_0x364bc2(0x2ae)]=[]:_0x510dc5[_0x364bc2(0x2ae)]=_0x510dc5['savedFontPresets'][_0x364bc2(0x10f)]((_0x478a53,_0x229871)=>_0x4561f8(_0x478a53,_0x229871));}function _0x4ae107(_0x24fefe=_0x510dc5){const _0x1a1e70=_0x599b58;_0x25cbde();if(_0x24fefe[_0x1a1e70(0x101)]===_0x1a1e70(0x287)){const _0x15e6b3=_0x24fefe[_0x1a1e70(0x2ae)][_0x1a1e70(0x18d)](_0x6b3092=>_0x6b3092['id']===_0x24fefe[_0x1a1e70(0x16e)]);if(_0x15e6b3)return{..._0x15e6b3,'type':_0x1a1e70(0x13c)};}const _0x129faf=_0xaf38b5[_0x1a1e70(0x18d)](_0x36c78a=>_0x36c78a[_0x1a1e70(0x18a)]===_0x24fefe[_0x1a1e70(0x16e)])||_0xaf38b5[0x0];return{..._0x129faf,'type':_0x1a1e70(0x151)};}function _0x533d31(_0x1f2dcf,_0x38d5b2={}){const _0x5baa4e=_0x599b58,_0x242b75=_0x42d491(_0x1f2dcf),_0x59718c=_0x7de22(_0x38d5b2),_0xdd9c7=[];if(_0x59718c[_0x5baa4e(0x2a7)])_0xdd9c7[_0x5baa4e(0x222)](_0x5baa4e(0x103)+_0x59718c['woff2']+_0x5baa4e(0x341));if(_0x59718c[_0x5baa4e(0x256)])_0xdd9c7[_0x5baa4e(0x222)](_0x5baa4e(0x103)+_0x59718c[_0x5baa4e(0x256)]+_0x5baa4e(0x28f));if(_0x59718c[_0x5baa4e(0x315)])_0xdd9c7[_0x5baa4e(0x222)]('url(\x22'+_0x59718c[_0x5baa4e(0x315)]+'\x22)\x20format(\x22truetype\x22)');if(!_0x242b75||_0xdd9c7[_0x5baa4e(0x255)]===0x0)return'';return(_0x5baa4e(0x298)+_0x242b75+_0x5baa4e(0x32f)+_0xdd9c7[_0x5baa4e(0x23d)](',\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20')+_0x5baa4e(0x1d9))[_0x5baa4e(0x14c)]();}function _0x2c9795(){const _0xfae922=_0x599b58;let _0x4308db=document[_0xfae922(0x11a)](_0xfae922(0x332));return!_0x4308db&&(_0x4308db=document[_0xfae922(0x251)]('style'),_0x4308db['id']=_0xfae922(0x332),document['head'][_0xfae922(0x1c4)](_0x4308db)),_0x4308db;}function _0x2c2971(){const _0x268d59=_0x599b58;let _0x443272=document[_0x268d59(0x11a)](_0x268d59(0x144));return!_0x443272&&(_0x443272=document[_0x268d59(0x251)](_0x268d59(0x2ba)),_0x443272['id']='theme-font-applied-style',document['head'][_0x268d59(0x1c4)](_0x443272)),_0x443272;}function _0x21503d(_0x1d3a42=_0x510dc5){const _0x5383c7=_0x599b58;_0x25cbde();const _0x2e1965=_0x4ae107(_0x1d3a42),_0x5685ea=_0x2c9795();_0x5685ea[_0x5383c7(0x19d)]=_0x533d31(_0x2e1965[_0x5383c7(0x2eb)],_0x2e1965[_0x5383c7(0x198)]);const _0x18b2db=_0x2c2971(),_0x3f7203=_0x2e1965[_0x5383c7(0x12d)]||_0x5383c7(0x307),_0x5a1af1=_0xca06de(_0x1d3a42[_0x5383c7(0x17d)])+'px';return _0x18b2db[_0x5383c7(0x19d)]=(_0x5383c7(0x1b5)+_0x3f7203+_0x5383c7(0x2cd)+_0x5a1af1+_0x5383c7(0x31a))[_0x5383c7(0x14c)](),document[_0x5383c7(0x2c2)]['style'][_0x5383c7(0x276)](_0x5383c7(0x2d3),_0x3f7203),document[_0x5383c7(0x2c2)][_0x5383c7(0x2ba)]['setProperty'](_0x5383c7(0x34f),_0x5a1af1),_0x2e1965;}function _0x4526c3(){const _0x7eaefd=_0x599b58;_0x25cbde();const _0x54aaff=_0x4ae107(_0x510dc5),_0xf87534=_0xca06de(_0x510dc5[_0x7eaefd(0x17d)])+'px';_0xaae022&&(_0xaae022['textContent']=_0x4e88f8,_0xaae022[_0x7eaefd(0x2ba)]['fontFamily']=_0x54aaff[_0x7eaefd(0x12d)]||_0x7eaefd(0x307),_0xaae022['style']['fontSize']=_0xf87534);if(_0x5cc3f5)_0x5cc3f5[_0x7eaefd(0x19d)]=_0xf87534;if(_0x137449)_0x137449['value']=String(_0xca06de(_0x510dc5[_0x7eaefd(0x17d)]));let _0x395b73=_0x54aaff[_0x7eaefd(0x164)]===_0x7eaefd(0x13c)?_0x7eaefd(0x1af)+_0x54aaff[_0x7eaefd(0x1d8)]:_0x54aaff[_0x7eaefd(0x1d8)];if(_0x21f0c9)_0x21f0c9['textContent']=_0x7eaefd(0x1d3)+_0x395b73;}function _0x51b457(){const _0x3127a1=_0x599b58;_0x25cbde();if(_0x137449)_0x137449['value']=String(_0xca06de(_0x510dc5[_0x3127a1(0x17d)]));if(_0x5cc3f5)_0x5cc3f5[_0x3127a1(0x19d)]=_0xca06de(_0x510dc5[_0x3127a1(0x17d)])+'px';if(_0x1c13d3&&_0x45f77a){if(_0x510dc5[_0x3127a1(0x101)]==='saved'){const _0xa26eba=_0x510dc5[_0x3127a1(0x2ae)][_0x3127a1(0x18d)](_0x2746f2=>_0x2746f2['id']===_0x510dc5[_0x3127a1(0x16e)]);if(_0xa26eba){_0x1c13d3[_0x3127a1(0x22f)]=_0xa26eba[_0x3127a1(0x290)]||'',_0x45f77a[_0x3127a1(0x22f)]=_0xa26eba[_0x3127a1(0x198)][_0x3127a1(0x2a7)]||_0xa26eba['sources'][_0x3127a1(0x256)]||_0xa26eba['sources'][_0x3127a1(0x315)]||'';return;}}_0x1c13d3['value']='',_0x45f77a[_0x3127a1(0x22f)]='';}}function _0x3d2425(_0x169b56=''){_0x4cda2c(),_0x4526c3(),_0x21503d(_0x510dc5),_0x4de5a9();if(_0x169b56)showToast(_0x169b56);}function _0xca025f(){if(_0x253c9c)clearTimeout(_0x253c9c);_0x253c9c=setTimeout(()=>{_0x253c9c=null,_0x4de5a9();},0x12c);}function _0x28b7b8({label:_0x1ebefe,family:_0x2cc5b0,isActive:_0x3e336c,onSelect:_0x3bbd03,onDelete:onDelete=null}){const _0x496cf6=_0x599b58,_0x209b6c=document[_0x496cf6(0x251)](_0x496cf6(0x2a8));_0x209b6c[_0x496cf6(0x164)]=_0x496cf6(0x2a8),_0x209b6c[_0x496cf6(0x139)]='theme-font-pill\x20'+(_0x3e336c?_0x496cf6(0x136):''),_0x209b6c['style'][_0x496cf6(0x120)]=_0x2cc5b0||_0x496cf6(0x307);const _0xe09846=document[_0x496cf6(0x251)]('span');_0xe09846[_0x496cf6(0x139)]=_0x496cf6(0x324),_0xe09846[_0x496cf6(0x19d)]=_0x1ebefe,_0x209b6c['appendChild'](_0xe09846),_0x209b6c['addEventListener'](_0x496cf6(0x12f),()=>_0x3bbd03?.());if(typeof onDelete===_0x496cf6(0x22c)){const _0x410659=document['createElement']('button');_0x410659[_0x496cf6(0x164)]=_0x496cf6(0x2a8),_0x410659[_0x496cf6(0x139)]='theme-font-pill-delete',_0x410659[_0x496cf6(0x2f5)]=_0x496cf6(0x121),_0x410659[_0x496cf6(0x16c)]('click',_0x3a6417=>{const _0x4f65ae=_0x496cf6;_0x3a6417[_0x4f65ae(0x1cb)](),_0x3a6417[_0x4f65ae(0xfd)](),onDelete();}),_0x209b6c[_0x496cf6(0x1c4)](_0x410659);}return _0x209b6c;}function _0x4cda2c(){const _0x31f842=_0x599b58;if(_0xf8161c){_0xf8161c[_0x31f842(0x2f5)]='';const _0x232b77=_0xaf38b5[0x0],_0x4fcc56=_0x510dc5[_0x31f842(0x101)]===_0x31f842(0x112)&&_0x510dc5['fontPresetKey']===_0x232b77[_0x31f842(0x18a)];_0xf8161c[_0x31f842(0x1c4)](_0x28b7b8({'label':_0x232b77[_0x31f842(0x1d8)],'family':_0x232b77[_0x31f842(0x12d)],'isActive':_0x4fcc56,'onSelect':()=>{const _0x148b5a=_0x31f842;_0x510dc5['fontMode']=_0x148b5a(0x112),_0x510dc5[_0x148b5a(0x16e)]=_0x232b77['key'],_0x510dc5[_0x148b5a(0x2a2)]=_0x232b77[_0x148b5a(0x2eb)]||'',_0x510dc5[_0x148b5a(0x120)]=_0x232b77[_0x148b5a(0x12d)]||_0x2c0c62,_0x510dc5[_0x148b5a(0x16f)]=_0x7de22(_0x232b77['sources']),_0x51b457(),_0x3d2425(_0x148b5a(0x1a7)+_0x232b77[_0x148b5a(0x1d8)]);}})),_0x510dc5[_0x31f842(0x2ae)]['forEach'](_0x3ad947=>{const _0x155dc5=_0x31f842,_0x111c62=_0x510dc5[_0x155dc5(0x101)]==='saved'&&_0x510dc5[_0x155dc5(0x16e)]===_0x3ad947['id'];_0xf8161c['appendChild'](_0x28b7b8({'label':_0x3ad947['label'],'family':_0x3ad947[_0x155dc5(0x12d)],'isActive':_0x111c62,'onSelect':()=>{const _0x1fd63b=_0x155dc5;_0x510dc5['fontMode']=_0x1fd63b(0x287),_0x510dc5[_0x1fd63b(0x16e)]=_0x3ad947['id'],_0x510dc5[_0x1fd63b(0x2a2)]=_0x3ad947[_0x1fd63b(0x2eb)],_0x510dc5[_0x1fd63b(0x120)]=_0x3ad947[_0x1fd63b(0x12d)],_0x510dc5[_0x1fd63b(0x16f)]=_0x7de22(_0x3ad947[_0x1fd63b(0x198)]),_0x51b457(),_0x3d2425(_0x1fd63b(0x1a7)+_0x3ad947[_0x1fd63b(0x1d8)]);},'onDelete':()=>{const _0x1f3a95=_0x155dc5;_0x510dc5[_0x1f3a95(0x2ae)]=_0x510dc5['savedFontPresets'][_0x1f3a95(0x26a)](_0x366915=>_0x366915['id']!==_0x3ad947['id']);if(_0x510dc5['fontMode']===_0x1f3a95(0x287)&&_0x510dc5[_0x1f3a95(0x16e)]===_0x3ad947['id']){const _0x20ce8e=_0xaf38b5[0x0];_0x510dc5[_0x1f3a95(0x101)]=_0x1f3a95(0x112),_0x510dc5[_0x1f3a95(0x16e)]=_0x20ce8e[_0x1f3a95(0x18a)],_0x510dc5['fontCssName']=_0x20ce8e[_0x1f3a95(0x2eb)]||'',_0x510dc5[_0x1f3a95(0x120)]=_0x20ce8e[_0x1f3a95(0x12d)]||_0x2c0c62,_0x510dc5[_0x1f3a95(0x16f)]=_0x7de22(_0x20ce8e[_0x1f3a95(0x198)]);}_0x51b457(),_0x3d2425(_0x1f3a95(0x19b)+_0x3ad947[_0x1f3a95(0x1d8)]);}}));});}}function _0x1ee39e(){const _0x22a2d4=_0x599b58,_0x528e00=_0x42d491(_0x1c13d3?.[_0x22a2d4(0x22f)]||''),_0x3828cc=String(_0x45f77a?.['value']||'')['trim']();let _0x46016a={'woff2':'','woff':'','ttf':''};if(_0x3828cc){const _0x34443a=_0x3828cc[_0x22a2d4(0x23f)]('?')[0x0]['split']('#')[0x0]['toLowerCase']();if(_0x34443a[_0x22a2d4(0x23b)](_0x22a2d4(0x323)))_0x46016a[_0x22a2d4(0x2a7)]=_0x3828cc;else{if(_0x34443a[_0x22a2d4(0x23b)](_0x22a2d4(0x147)))_0x46016a[_0x22a2d4(0x256)]=_0x3828cc;else{if(_0x34443a[_0x22a2d4(0x23b)]('.ttf'))_0x46016a[_0x22a2d4(0x315)]=_0x3828cc;else _0x46016a[_0x22a2d4(0x2a7)]=_0x3828cc;}}}if(!_0x46016a['woff2']&&!_0x46016a['woff']&&!_0x46016a[_0x22a2d4(0x315)])return showToast(_0x22a2d4(0x253)),null;return{'id':'','type':_0x22a2d4(0x13c),'name':_0x528e00,'label':_0x528e00,'cssName':_0x528e00,'family':_0xaad88a(_0x528e00),'sources':_0x46016a};}_0x1d31c2&&_0x1d31c2['addEventListener'](_0x599b58(0x12f),_0x1cb1ee=>{const _0x31b323=_0x599b58;_0x1cb1ee['stopPropagation'](),_0xac6b29&&(_0x51b457(),_0x4cda2c(),_0x4526c3(),_0xac6b29[_0x31b323(0x2ba)][_0x31b323(0x138)]=_0x31b323(0x2f6),_0xac6b29[_0x31b323(0x19f)],_0xac6b29[_0x31b323(0x2ba)][_0x31b323(0x174)]='1');});const _0x368b08=()=>{const _0xa14078=_0x599b58;_0xac6b29&&(_0xac6b29[_0xa14078(0x2ba)][_0xa14078(0x174)]='0',setTimeout(()=>{const _0x133c28=_0xa14078;_0xac6b29['style']['display']=_0x133c28(0x13b);},0x12c));};if(_0x247aaa)_0x247aaa[_0x599b58(0x16c)](_0x599b58(0x12f),_0x368b08);_0x3019d8&&_0x3019d8['addEventListener'](_0x599b58(0x12f),()=>{const _0x2f1477=_0x599b58,_0x54810e=_0xaf38b5[0x0];_0x510dc5[_0x2f1477(0x101)]='preset',_0x510dc5[_0x2f1477(0x16e)]=_0x54810e[_0x2f1477(0x18a)],_0x510dc5['fontFamily']=_0x54810e[_0x2f1477(0x12d)],_0x510dc5['fontCssName']=_0x54810e[_0x2f1477(0x2eb)]||'',_0x510dc5[_0x2f1477(0x16f)]=_0x7de22(_0x54810e[_0x2f1477(0x198)]),_0x510dc5[_0x2f1477(0x17d)]=0x10,_0x51b457(),_0x3d2425(_0x2f1477(0x18b));});_0x367fb5&&_0x367fb5['addEventListener'](_0x599b58(0x12f),()=>{const _0x46e1cc=_0x599b58;_0x44fb9d?.[_0x46e1cc(0x12c)]({'behavior':_0x46e1cc(0x30e),'block':'start'}),_0x1c13d3?.[_0x46e1cc(0x320)]();});_0x1af6d9&&_0x1af6d9[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0xc70569=_0x599b58,_0x5b713b=_0x1ee39e();if(!_0x5b713b)return;_0x510dc5[_0xc70569(0x101)]=_0xc70569(0x287),_0x510dc5[_0xc70569(0x16e)]=_0xc70569(0x2b3),_0x510dc5[_0xc70569(0x2a2)]=_0x5b713b[_0xc70569(0x2eb)],_0x510dc5[_0xc70569(0x120)]=_0x5b713b[_0xc70569(0x12d)],_0x510dc5[_0xc70569(0x16f)]=_0x7de22(_0x5b713b['sources']),_0x3d2425(_0xc70569(0x133));});_0x211e2f&&_0x211e2f['addEventListener'](_0x599b58(0x12f),()=>{const _0x174ae6=_0x599b58;_0x25cbde();const _0x4e56c8=_0x1ee39e();if(!_0x4e56c8)return;const _0x26ab95=_0x510dc5[_0x174ae6(0x2ae)]['findIndex'](_0x3e748e=>_0x3e748e[_0x174ae6(0x290)]===_0x4e56c8[_0x174ae6(0x290)]),_0x1336d8=_0x26ab95>=0x0?_0x510dc5['savedFontPresets'][_0x26ab95]['id']:_0x174ae6(0x203)+Date[_0x174ae6(0xfc)](),_0x2ddea4=_0x4561f8({..._0x4e56c8,'id':_0x1336d8});_0x26ab95>=0x0?_0x510dc5['savedFontPresets'][_0x26ab95]=_0x2ddea4:_0x510dc5[_0x174ae6(0x2ae)]['push'](_0x2ddea4),_0x510dc5['fontMode']=_0x174ae6(0x287),_0x510dc5[_0x174ae6(0x16e)]=_0x2ddea4['id'],_0x510dc5[_0x174ae6(0x2a2)]=_0x2ddea4[_0x174ae6(0x2eb)],_0x510dc5[_0x174ae6(0x120)]=_0x2ddea4[_0x174ae6(0x12d)],_0x510dc5['fontSources']=_0x7de22(_0x2ddea4['sources']),_0x51b457(),_0x3d2425(_0x26ab95>=0x0?_0x174ae6(0x2e8):_0x174ae6(0x201));});_0x137449&&(_0x137449[_0x599b58(0x16c)](_0x599b58(0x2c7),_0x3abf79=>{const _0x479c91=_0x599b58;_0x510dc5[_0x479c91(0x17d)]=_0xca06de(_0x3abf79[_0x479c91(0x295)][_0x479c91(0x22f)]),_0x4526c3(),_0x21503d(_0x510dc5),_0xca025f();}),_0x137449[_0x599b58(0x16c)](_0x599b58(0x24c),_0xa5c9d7=>{const _0x5f2209=_0x599b58;_0x253c9c&&(clearTimeout(_0x253c9c),_0x253c9c=null),_0x4de5a9(),showToast(_0x5f2209(0x33b)+_0x510dc5['fontSize']+'px');}));function _0x4de5a9(){_0x3b0832();}function _0x1dd931(){const _0x53870f=_0x599b58;if(window['u2BackgroundActivity']&&typeof window['u2BackgroundActivity']['getSettings']===_0x53870f(0x22c))return window[_0x53870f(0x1c2)]['getSettings']();return{'enabled':![],'intervalSeconds':0x3c};}function _0x2196ba(){const _0x289be8=_0x599b58,_0xdd46d5=_0x1dd931();UI[_0x289be8(0x2ad)][_0x289be8(0x1bb)]&&(UI[_0x289be8(0x2ad)][_0x289be8(0x1bb)][_0x289be8(0x32c)]=!!_0xdd46d5[_0x289be8(0x107)]);}function _0x2473ab(_0x5245fe=![]){const _0x3ed677=_0x599b58,_0x482c5d=_0x1dd931(),_0x4bfc41=_0x482c5d['intervalSeconds']||0x3c,_0x59c8af=!!UI[_0x3ed677(0x2ad)][_0x3ed677(0x1bb)]?.[_0x3ed677(0x32c)];if(window[_0x3ed677(0x1c2)]&&typeof window[_0x3ed677(0x1c2)][_0x3ed677(0x1d2)]===_0x3ed677(0x22c))window[_0x3ed677(0x1c2)][_0x3ed677(0x1d2)]({'enabled':_0x59c8af,'intervalSeconds':_0x4bfc41});else window[_0x3ed677(0x29b)]&&typeof window['StorageManager']['save']===_0x3ed677(0x22c)&&window[_0x3ed677(0x29b)][_0x3ed677(0xfe)]('u2_backgroundActivitySettings',{'enabled':_0x59c8af,'intervalSeconds':_0x4bfc41,'lastTickAt':0x0});_0x5245fe&&typeof showToast==='function'&&showToast(_0x59c8af?'后台保活已开启':_0x3ed677(0x177));}UI[_0x599b58(0x2ad)][_0x599b58(0x1bb)]&&UI[_0x599b58(0x2ad)][_0x599b58(0x1bb)]['addEventListener'](_0x599b58(0x24c),()=>{_0x2473ab(!![]);});function _0x48225a(){const _0x55bc8f=_0x599b58;if(!UI[_0x55bc8f(0x2ad)][_0x55bc8f(0x1f4)])return;const _0x3edaea=window[_0x55bc8f(0x17f)]?.[_0x55bc8f(0x1d4)]?window[_0x55bc8f(0x17f)][_0x55bc8f(0x1d4)]():{'enabled':![]};UI['inputs']['systemNotificationToggle']['checked']=!!_0x3edaea['enabled'];}async function _0x235b40(_0x549df2=![]){const _0x512967=_0x599b58;if(!UI[_0x512967(0x2ad)][_0x512967(0x1f4)])return;const _0x5ef91a=!!UI[_0x512967(0x2ad)][_0x512967(0x1f4)][_0x512967(0x32c)];if(window['u2SystemNotifications']?.[_0x512967(0x1d2)]){const _0x2c51b5=await window[_0x512967(0x17f)][_0x512967(0x1d2)]({'enabled':_0x5ef91a});UI[_0x512967(0x2ad)]['systemNotificationToggle']['checked']=!!_0x2c51b5[_0x512967(0x107)];if(_0x549df2&&typeof showToast===_0x512967(0x22c)){if(_0x2c51b5['unsupported'])showToast(_0x512967(0x303));else _0x2c51b5[_0x512967(0x27f)]===_0x512967(0x2bf)?showToast('系统通知权限被拒绝，请在浏览器设置中开启'):showToast(_0x2c51b5[_0x512967(0x107)]?_0x512967(0x12e):_0x512967(0x2fc));}return;}UI[_0x512967(0x2ad)][_0x512967(0x1f4)][_0x512967(0x32c)]=![],_0x549df2&&typeof showToast===_0x512967(0x22c)&&showToast('消息通知模块未加载');}UI[_0x599b58(0x2ad)][_0x599b58(0x1f4)]&&UI['inputs'][_0x599b58(0x1f4)][_0x599b58(0x16c)](_0x599b58(0x24c),()=>{_0x235b40(!![]);});const _0x55a970=document[_0x599b58(0x11a)]('assistive-ball-config-btn');let _0x150f94=null,_0xbb05e6=null,_0xeec14c=null,_0x280592=null;function _0x1bc483(){const _0x4482ea=_0x599b58;if(!Array[_0x4482ea(0x1a9)](_0x285ab0))return'';const _0x1a1b28=_0x285ab0[_0x4482ea(0x18d)](_0x266a39=>(_0x266a39[_0x4482ea(0x2d8)]||'')===(_0x251eaf['endpoint']||'')&&(_0x266a39[_0x4482ea(0x2c1)]||'')===(_0x251eaf[_0x4482ea(0x2c1)]||'')&&(_0x266a39[_0x4482ea(0x319)]||'')===(_0x251eaf[_0x4482ea(0x319)]||'')&&String(_0x266a39[_0x4482ea(0x114)]??0.7)===String(_0x251eaf[_0x4482ea(0x23e)]??0.7));return _0x1a1b28?String(_0x1a1b28['id']):'';}function _0xf68e94(_0x2ddb61,_0x25f452=_0x599b58(0x2d2)){const _0x19da5f=_0x599b58,_0xe6bddb=String(_0x2ddb61||'')[_0x19da5f(0x14c)]();return _0xe6bddb||_0x25f452;}function _0x48945a(_0x4a2aec){const _0x232c70=_0x599b58,_0x4b58e3=String(_0x4a2aec||'')[_0x232c70(0x14c)]();if(!_0x4b58e3)return _0x232c70(0x2d2);if(_0x4b58e3[_0x232c70(0x255)]<=0x8)return _0x232c70(0x2dd);return _0x4b58e3[_0x232c70(0x1c9)](0x0,0x4)+'...'+_0x4b58e3[_0x232c70(0x1c9)](-0x4);}function _0x3a086a(_0x31b17d){const _0x147181=_0x599b58,_0x517ffb=parseFloat(_0x31b17d);if(!Number['isFinite'](_0x517ffb))return 0.72;return Math[_0x147181(0x31c)](0.2,Math[_0x147181(0x25c)](0x1,_0x517ffb>0x1?_0x517ffb/0x64:_0x517ffb));}function _0x343b47(){const _0x281186=_0x599b58;_0x3a2e72[_0x281186(0x174)]=_0x3a086a(_0x3a2e72[_0x281186(0x174)]);const _0x561506=Math[_0x281186(0x2e4)](_0x3a2e72['opacity']*0x64);UI['inputs']['assistiveBallOpacity']&&(UI[_0x281186(0x2ad)]['assistiveBallOpacity'][_0x281186(0x22f)]=String(_0x561506)),UI[_0x281186(0x2ad)][_0x281186(0x26f)]&&(UI[_0x281186(0x2ad)][_0x281186(0x26f)]['textContent']=_0x561506+'%'),_0x150f94&&_0x150f94[_0x281186(0x2ba)][_0x281186(0x276)](_0x281186(0x27b),_0x3a2e72[_0x281186(0x174)][_0x281186(0x1ae)](0x2));}function _0x5057d0(){const _0x2344bb=_0x599b58,_0x5ed095=document[_0x2344bb(0x11a)](_0x2344bb(0x1cc))||document[_0x2344bb(0x1aa)];!_0x150f94&&(_0x150f94=document[_0x2344bb(0x251)](_0x2344bb(0x321)),_0x150f94['id']='global-assistive-api-ball',_0x150f94['className']=_0x2344bb(0x205),_0x150f94['setAttribute'](_0x2344bb(0x187),'button'),_0x150f94[_0x2344bb(0x331)](_0x2344bb(0x10a),_0x2344bb(0x1ab)),_0x150f94['innerHTML']=_0x2344bb(0x345),_0x5ed095['appendChild'](_0x150f94),_0x150f94['addEventListener'](_0x2344bb(0x12f),_0x2d5b25=>{const _0x261762=_0x2344bb;_0x2d5b25[_0x261762(0x1cb)]();if(_0x150f94[_0x261762(0x252)]['dragged']===_0x261762(0x2c4)){_0x150f94[_0x261762(0x252)][_0x261762(0x15c)]=_0x261762(0x347);return;}_0x33d955();}),_0x150f94['addEventListener']('pointerdown',_0x3fd3cb),_0x343b47()),!_0xbb05e6&&(_0xbb05e6=document[_0x2344bb(0x251)](_0x2344bb(0x321)),_0xbb05e6['id']=_0x2344bb(0x2c9),_0xbb05e6[_0x2344bb(0x139)]=_0x2344bb(0x207),_0xbb05e6[_0x2344bb(0x2f5)]=_0x2344bb(0x14b),_0x5ed095[_0x2344bb(0x1c4)](_0xbb05e6),_0xeec14c=_0xbb05e6[_0x2344bb(0x1c0)](_0x2344bb(0x293)),_0xbb05e6['addEventListener'](_0x2344bb(0x12f),_0x94079=>{const _0x3119fc=_0x2344bb;_0x94079[_0x3119fc(0x1cb)](),_0x94079[_0x3119fc(0x295)]===_0xbb05e6&&_0x5723ec();}),_0xeec14c?.[_0x2344bb(0x16c)](_0x2344bb(0x24c),_0x4e0a0b=>{const _0x19b829=_0x2344bb;_0x234aa6(_0x4e0a0b[_0x19b829(0x295)]['value']);}));}function _0x33d955(){const _0x4e7205=_0x599b58;_0x5057d0(),_0x131340(),_0x150f94[_0x4e7205(0x1f7)][_0x4e7205(0x231)](_0x4e7205(0x301)),_0x150f94[_0x4e7205(0x1f7)]['add'](_0x4e7205(0x2e3)),_0xbb05e6[_0x4e7205(0x1f7)][_0x4e7205(0x159)]('active');}function _0x5723ec(){const _0x19e5e8=_0x599b58;if(_0xbb05e6)_0xbb05e6['classList'][_0x19e5e8(0x231)]('active');_0x150f94&&(_0x150f94[_0x19e5e8(0x1f7)]['remove'](_0x19e5e8(0x2e3)),_0x150f94['classList'][_0x19e5e8(0x116)](_0x19e5e8(0x301),_0x3a2e72[_0x19e5e8(0x107)]));}function _0x587860(_0x32ce6b,_0x14f049){const _0x12349e=_0x599b58;if(!_0x150f94)return{'x':0x0,'y':0x0};const _0x371a6b=_0x150f94['parentElement']||document['body'],_0x25c5d1=_0x371a6b['getBoundingClientRect'](),_0x477ba9=_0x150f94[_0x12349e(0x141)](),_0x128582=0x8,_0x375a75=_0x477ba9[_0x12349e(0x2d0)]||0x3a,_0x16392e=_0x477ba9[_0x12349e(0x16b)]||0x3a;return{'x':Math[_0x12349e(0x31c)](_0x128582,Math[_0x12349e(0x25c)](_0x32ce6b,_0x25c5d1[_0x12349e(0x2d0)]-_0x375a75-_0x128582)),'y':Math[_0x12349e(0x31c)](_0x128582,Math[_0x12349e(0x25c)](_0x14f049,_0x25c5d1[_0x12349e(0x16b)]-_0x16392e-_0x128582))};}function _0x13874a(){const _0x4b0809=_0x599b58;if(!_0x150f94)return;const _0x3f89ca=_0x150f94['parentElement']||document[_0x4b0809(0x1aa)],_0x36989a=_0x3f89ca[_0x4b0809(0x141)](),_0x14b436=_0x150f94[_0x4b0809(0x141)](),_0x4f3d4f=_0x36989a[_0x4b0809(0x2d0)]-(_0x14b436[_0x4b0809(0x2d0)]||0x3a)-0xc,_0x1a9fd3=_0x36989a[_0x4b0809(0x16b)]*0.46,_0xf70491=_0x587860(Number[_0x4b0809(0x32a)](_0x3a2e72['x'])?_0x3a2e72['x']:_0x4f3d4f,Number['isFinite'](_0x3a2e72['y'])?_0x3a2e72['y']:_0x1a9fd3);_0x3a2e72['x']=_0xf70491['x'],_0x3a2e72['y']=_0xf70491['y'],_0x150f94[_0x4b0809(0x2ba)]['left']=_0xf70491['x']+'px',_0x150f94['style']['top']=_0xf70491['y']+'px';}function _0x3fd3cb(_0x27daa2){const _0x1435d2=_0x599b58;if(!_0x150f94)return;const _0x14ecf5=_0x150f94[_0x1435d2(0x1fa)]||document['body'],_0x58b771=_0x14ecf5['getBoundingClientRect'](),_0x5c9404=_0x150f94[_0x1435d2(0x141)]();_0x280592={'pointerId':_0x27daa2['pointerId'],'startClientX':_0x27daa2[_0x1435d2(0x109)],'startClientY':_0x27daa2[_0x1435d2(0x1bd)],'offsetX':_0x27daa2[_0x1435d2(0x109)]-_0x5c9404['left'],'offsetY':_0x27daa2['clientY']-_0x5c9404['top'],'parentLeft':_0x58b771[_0x1435d2(0x243)],'parentTop':_0x58b771[_0x1435d2(0x1ad)],'moved':![]},_0x150f94[_0x1435d2(0x1f7)]['add'](_0x1435d2(0x2ce)),_0x150f94[_0x1435d2(0x33a)]?.(_0x27daa2[_0x1435d2(0x1e6)]),_0x150f94[_0x1435d2(0x16c)](_0x1435d2(0x1ec),_0x34f18b),_0x150f94[_0x1435d2(0x16c)]('pointerup',_0x55b707),_0x150f94[_0x1435d2(0x16c)]('pointercancel',_0x55b707);}function _0x34f18b(_0x2bee6f){const _0x43400a=_0x599b58;if(!_0x280592||!_0x150f94)return;const _0x2bf846=_0x2bee6f[_0x43400a(0x109)]-_0x280592[_0x43400a(0x2aa)],_0x226a9f=_0x2bee6f[_0x43400a(0x1bd)]-_0x280592['startClientY'];Math[_0x43400a(0x17a)](_0x2bf846)+Math['abs'](_0x226a9f)>0x4&&(_0x280592[_0x43400a(0x280)]=!![],_0x5723ec());const _0xf8db17=_0x587860(_0x2bee6f['clientX']-_0x280592[_0x43400a(0x28d)]-_0x280592['offsetX'],_0x2bee6f['clientY']-_0x280592[_0x43400a(0x170)]-_0x280592[_0x43400a(0x30c)]);_0x3a2e72['x']=_0xf8db17['x'],_0x3a2e72['y']=_0xf8db17['y'],_0x150f94[_0x43400a(0x2ba)][_0x43400a(0x243)]=_0xf8db17['x']+'px',_0x150f94['style'][_0x43400a(0x1ad)]=_0xf8db17['y']+'px';}function _0x55b707(_0x16d21f){const _0x58b9c7=_0x599b58;if(!_0x150f94)return;const _0x8d49c2=!!_0x280592?.[_0x58b9c7(0x280)];_0x150f94[_0x58b9c7(0x1f7)]['remove']('dragging'),_0x150f94[_0x58b9c7(0x15a)]?.(_0x16d21f['pointerId']),_0x150f94[_0x58b9c7(0x2fe)](_0x58b9c7(0x1ec),_0x34f18b),_0x150f94[_0x58b9c7(0x2fe)](_0x58b9c7(0x299),_0x55b707),_0x150f94[_0x58b9c7(0x2fe)]('pointercancel',_0x55b707),_0x280592=null,_0x8d49c2&&(_0x150f94[_0x58b9c7(0x252)][_0x58b9c7(0x15c)]='true',_0x4de5a9(),window[_0x58b9c7(0x1fc)](()=>{const _0x20c0d2=_0x58b9c7;if(_0x150f94)_0x150f94[_0x20c0d2(0x252)][_0x20c0d2(0x15c)]=_0x20c0d2(0x347);},0x0));}function _0x131340(){const _0x13d3af=_0x599b58;if(!_0xbb05e6)return;const _0x58c806=_0xbb05e6[_0x13d3af(0x1c0)](_0x13d3af(0x32b));if(_0x58c806)_0x58c806[_0x13d3af(0x19d)]=_0xf68e94(_0x251eaf[_0x13d3af(0x319)]);if(!_0xeec14c)return;_0xeec14c[_0x13d3af(0x2f5)]='';const _0x37b47a=document[_0x13d3af(0x251)](_0x13d3af(0x237));_0x37b47a['value']='',_0x37b47a[_0x13d3af(0x19d)]=Array[_0x13d3af(0x1a9)](_0x285ab0)&&_0x285ab0[_0x13d3af(0x255)]?_0x13d3af(0x20b):_0x13d3af(0x188),_0xeec14c[_0x13d3af(0x1c4)](_0x37b47a),Array['isArray'](_0x285ab0)&&_0x285ab0[_0x13d3af(0x212)](_0x502092=>{const _0x16647c=_0x13d3af,_0x558795=document['createElement'](_0x16647c(0x237));_0x558795[_0x16647c(0x22f)]=String(_0x502092['id']),_0x558795[_0x16647c(0x19d)]=_0x502092[_0x16647c(0x290)]||_0x16647c(0x338),_0xeec14c[_0x16647c(0x1c4)](_0x558795);}),_0xeec14c[_0x13d3af(0x22f)]=_0x1bc483();}function _0x41976a(_0x3aa0cf){const _0x55d9a3=_0x599b58;_0x3a2e72[_0x55d9a3(0x107)]=!!_0x3aa0cf,UI[_0x55d9a3(0x2ad)][_0x55d9a3(0x343)]&&(UI['inputs'][_0x55d9a3(0x343)]['checked']=_0x3a2e72[_0x55d9a3(0x107)]),_0x5057d0(),_0x343b47(),_0x13874a(),_0x150f94['classList']['toggle'](_0x55d9a3(0x301),_0x3a2e72['enabled']),!_0x3a2e72[_0x55d9a3(0x107)]?_0x5723ec():_0x131340();}function _0x234aa6(_0x1ca7c4){const _0x242205=_0x599b58,_0x2f3f1d=Array[_0x242205(0x1a9)](_0x285ab0)?_0x285ab0[_0x242205(0x18d)](_0x2018f6=>String(_0x2018f6['id'])===String(_0x1ca7c4)):null;if(!_0x2f3f1d){_0x131340();return;}_0x251eaf={'endpoint':_0x2f3f1d[_0x242205(0x2d8)]||'','apiKey':_0x2f3f1d['apiKey']||'','model':_0x2f3f1d[_0x242205(0x319)]||'','temperature':_0x2f3f1d['temp']??0.7},_0xa969f={..._0x251eaf},window['apiConfig']=_0x251eaf;if(UI[_0x242205(0x2ad)]['apiEndpoint'])UI['inputs'][_0x242205(0x204)][_0x242205(0x22f)]=_0x251eaf[_0x242205(0x2d8)];if(UI[_0x242205(0x2ad)][_0x242205(0x2c1)])UI[_0x242205(0x2ad)]['apiKey'][_0x242205(0x22f)]=_0x251eaf[_0x242205(0x2c1)];if(UI[_0x242205(0x2ad)][_0x242205(0x146)])_0xf3b68d(UI[_0x242205(0x2ad)]['apiModel'],_0x251eaf[_0x242205(0x319)]||'');if(UI[_0x242205(0x2ad)][_0x242205(0x2b2)])UI[_0x242205(0x2ad)][_0x242205(0x2b2)][_0x242205(0x22f)]=_0x251eaf[_0x242205(0x23e)];_0x4de5a9(),_0x131340(),showToast(_0x242205(0x1a7)+(_0x2f3f1d['name']||_0x242205(0x338)));}_0x55a970&&UI[_0x599b58(0x2e5)][_0x599b58(0x1a0)]&&_0x55a970['addEventListener']('click',()=>{const _0x1019e4=_0x599b58;_0x41976a(_0x3a2e72[_0x1019e4(0x107)]),_0x343b47(),openView(UI[_0x1019e4(0x2e5)][_0x1019e4(0x1a0)]);});UI[_0x599b58(0x2ad)][_0x599b58(0x343)]&&UI['inputs']['assistiveBallToggle'][_0x599b58(0x16c)](_0x599b58(0x24c),()=>{const _0x4fc1b1=_0x599b58;_0x41976a(UI[_0x4fc1b1(0x2ad)][_0x4fc1b1(0x343)]['checked']),_0x4de5a9(),showToast(_0x3a2e72[_0x4fc1b1(0x107)]?'悬浮球已开启':_0x4fc1b1(0x24a));});UI[_0x599b58(0x2ad)][_0x599b58(0x29d)]&&(UI[_0x599b58(0x2ad)][_0x599b58(0x29d)]['addEventListener'](_0x599b58(0x2c7),()=>{const _0x1fa9ca=_0x599b58;_0x3a2e72[_0x1fa9ca(0x174)]=_0x3a086a(UI['inputs'][_0x1fa9ca(0x29d)]['value']),_0x343b47();}),UI[_0x599b58(0x2ad)][_0x599b58(0x29d)][_0x599b58(0x16c)](_0x599b58(0x24c),()=>{const _0x177394=_0x599b58;_0x3a2e72[_0x177394(0x174)]=_0x3a086a(UI[_0x177394(0x2ad)][_0x177394(0x29d)][_0x177394(0x22f)]),_0x343b47(),_0x4de5a9();}));document[_0x599b58(0x16c)](_0x599b58(0x12f),_0x3309ec=>{const _0x5c762e=_0x599b58;_0xbb05e6?.[_0x5c762e(0x1f7)]['contains']('active')&&!_0xbb05e6[_0x5c762e(0x19a)](_0x3309ec[_0x5c762e(0x295)])&&_0x5723ec();}),window[_0x599b58(0x149)]={'sync':_0x131340,'setEnabled':_0x41976a,'getSettings':()=>({..._0x3a2e72})},_0x41976a(_0x3a2e72[_0x599b58(0x107)]);function _0x460fe5(){const _0x157394=_0x599b58;if(!UI['inputs']['apiModel'])return;UI['inputs'][_0x157394(0x146)][_0x157394(0x2f5)]=_0x157394(0x249),Array[_0x157394(0x1a9)](_0x428c09)&&_0x428c09[_0x157394(0x212)](_0x2f2660=>{const _0x4a5481=_0x157394,_0x466178=document[_0x4a5481(0x251)](_0x4a5481(0x237));_0x466178[_0x4a5481(0x22f)]=_0x2f2660,_0x466178[_0x4a5481(0x19d)]=_0x2f2660,UI[_0x4a5481(0x2ad)]['apiModel'][_0x4a5481(0x1c4)](_0x466178);});}function _0xf3b68d(_0x2a0782,_0x3734a0){const _0x2b444a=_0x599b58;if(!_0x2a0782)return;let _0x2f3105=Array[_0x2b444a(0x288)](_0x2a0782[_0x2b444a(0x1ff)])[_0x2b444a(0x1c5)](_0x49701c=>_0x49701c[_0x2b444a(0x22f)]===_0x3734a0);if(_0x3734a0&&!_0x2f3105){const _0x1f252c=document['createElement'](_0x2b444a(0x237));_0x1f252c[_0x2b444a(0x22f)]=_0x3734a0,_0x1f252c[_0x2b444a(0x19d)]=_0x3734a0,_0x2a0782['appendChild'](_0x1f252c);}_0x2a0782[_0x2b444a(0x22f)]=_0x3734a0;}const _0x3d8bdf=document[_0x599b58(0x11a)](_0x599b58(0x2ac));_0x3d8bdf&&UI[_0x599b58(0x2e5)][_0x599b58(0x1e2)]&&_0x3d8bdf[_0x599b58(0x16c)](_0x599b58(0x12f),_0x34b141=>{const _0xac0292=_0x599b58;_0x34b141[_0xac0292(0x1cb)](),_0x460fe5(),_0xa969f={'endpoint':_0x251eaf[_0xac0292(0x2d8)]||'','apiKey':_0x251eaf[_0xac0292(0x2c1)]||'','model':_0x251eaf[_0xac0292(0x319)]||'','temperature':_0x251eaf[_0xac0292(0x23e)]??0.7},UI[_0xac0292(0x2ad)][_0xac0292(0x204)][_0xac0292(0x22f)]=_0xa969f[_0xac0292(0x2d8)]||'',UI['inputs']['apiKey']['value']=_0xa969f['apiKey']||'',_0xf3b68d(UI[_0xac0292(0x2ad)]['apiModel'],_0xa969f[_0xac0292(0x319)]||''),UI[_0xac0292(0x2ad)][_0xac0292(0x2b2)][_0xac0292(0x22f)]=_0xa969f[_0xac0292(0x23e)]??0.7,_0x2196ba(),_0x48225a(),openView(UI[_0xac0292(0x2e5)][_0xac0292(0x1e2)]);});function _0x1bf445(){const _0x5a9fa6=_0x599b58,_0x119f05=document[_0x5a9fa6(0x11a)](_0x5a9fa6(0x206)),_0x2c0ea6=!!(UI[_0x5a9fa6(0x2ad)][_0x5a9fa6(0x267)]&&UI[_0x5a9fa6(0x2ad)][_0x5a9fa6(0x267)][_0x5a9fa6(0x32c)]);if(_0x119f05)_0x119f05['style'][_0x5a9fa6(0x138)]=_0x2c0ea6?_0x5a9fa6(0x160):_0x5a9fa6(0x13b);}function _0x212cf3(){const _0x572d05=_0x599b58;window[_0x572d05(0x1ef)]&&typeof window[_0x572d05(0x1ef)][_0x572d05(0x300)]===_0x572d05(0x22c)&&(_0x4ed598=window[_0x572d05(0x1ef)][_0x572d05(0x300)]());if(UI[_0x572d05(0x2ad)][_0x572d05(0x270)])UI[_0x572d05(0x2ad)]['minimaxRegion']['value']=_0x4ed598[_0x572d05(0x33e)]||'cn';if(UI[_0x572d05(0x2ad)]['minimaxCustomEndpoint'])UI[_0x572d05(0x2ad)]['minimaxCustomEndpoint'][_0x572d05(0x32c)]=!!_0x4ed598['customEndpointEnabled'];if(UI['inputs'][_0x572d05(0x2b6)])UI[_0x572d05(0x2ad)][_0x572d05(0x2b6)][_0x572d05(0x22f)]=_0x4ed598['endpoint']||'';if(UI['inputs']['minimaxKey'])UI[_0x572d05(0x2ad)][_0x572d05(0x306)][_0x572d05(0x22f)]=_0x4ed598[_0x572d05(0x2c1)]||'';if(UI[_0x572d05(0x2ad)][_0x572d05(0x1eb)])UI[_0x572d05(0x2ad)][_0x572d05(0x1eb)][_0x572d05(0x22f)]=_0x4ed598[_0x572d05(0x124)]||'';if(UI[_0x572d05(0x2ad)][_0x572d05(0x24d)])UI[_0x572d05(0x2ad)][_0x572d05(0x24d)]['value']=_0x4ed598[_0x572d05(0x2ed)]||'speech-02-hd';_0x1bf445();}const _0xeaf9c1=document[_0x599b58(0x11a)](_0x599b58(0x220));_0xeaf9c1&&UI[_0x599b58(0x2e5)]['minimaxConfig']&&_0xeaf9c1[_0x599b58(0x16c)]('click',_0x34a009=>{const _0x529850=_0x599b58;_0x34a009[_0x529850(0x1cb)](),_0x212cf3(),openView(UI['overlays'][_0x529850(0x304)]);});UI[_0x599b58(0x2ad)]['minimaxCustomEndpoint']&&UI[_0x599b58(0x2ad)][_0x599b58(0x267)][_0x599b58(0x16c)](_0x599b58(0x24c),_0x1bf445);const _0x2ec7a8=document[_0x599b58(0x11a)](_0x599b58(0x23c));_0x2ec7a8&&_0x2ec7a8['addEventListener'](_0x599b58(0x12f),()=>{const _0x275ded=_0x599b58;_0x4ed598={'region':UI[_0x275ded(0x2ad)][_0x275ded(0x270)]?UI[_0x275ded(0x2ad)][_0x275ded(0x270)][_0x275ded(0x22f)]:'cn','customEndpointEnabled':!!(UI['inputs'][_0x275ded(0x267)]&&UI[_0x275ded(0x2ad)][_0x275ded(0x267)][_0x275ded(0x32c)]),'endpoint':UI[_0x275ded(0x2ad)][_0x275ded(0x2b6)]?UI['inputs'][_0x275ded(0x2b6)][_0x275ded(0x22f)][_0x275ded(0x14c)]():'','apiKey':UI[_0x275ded(0x2ad)]['minimaxKey']?UI[_0x275ded(0x2ad)][_0x275ded(0x306)]['value'][_0x275ded(0x14c)]():'','groupId':UI['inputs'][_0x275ded(0x1eb)]?UI[_0x275ded(0x2ad)][_0x275ded(0x1eb)]['value']['trim']():'','ttsModel':UI['inputs']['minimaxTtsModel']?UI[_0x275ded(0x2ad)]['minimaxTtsModel']['value'][_0x275ded(0x14c)]()||_0x275ded(0x258):_0x275ded(0x258)},window[_0x275ded(0x1ef)]&&typeof window[_0x275ded(0x1ef)][_0x275ded(0x2c8)]===_0x275ded(0x22c)?_0x4ed598=window[_0x275ded(0x1ef)][_0x275ded(0x2c8)](_0x4ed598):window[_0x275ded(0x304)]=_0x4ed598,_0x4de5a9(),closeView(UI[_0x275ded(0x2e5)]['minimaxConfig']),showToast('Minimax\x20设置已保存');});const _0x2281f4=document[_0x599b58(0x11a)](_0x599b58(0x248));_0x2281f4&&_0x2281f4[_0x599b58(0x16c)]('click',()=>{const _0x263b00=_0x599b58;_0xa969f[_0x263b00(0x2d8)]=UI[_0x263b00(0x2ad)][_0x263b00(0x204)][_0x263b00(0x22f)],_0xa969f[_0x263b00(0x2c1)]=UI[_0x263b00(0x2ad)]['apiKey'][_0x263b00(0x22f)],_0xa969f[_0x263b00(0x319)]=UI[_0x263b00(0x2ad)][_0x263b00(0x146)][_0x263b00(0x22f)],_0xa969f['temperature']=parseFloat(UI[_0x263b00(0x2ad)]['apiTemp'][_0x263b00(0x22f)])||0.7,_0x251eaf={'endpoint':_0xa969f[_0x263b00(0x2d8)],'apiKey':_0xa969f['apiKey'],'model':_0xa969f[_0x263b00(0x319)],'temperature':_0xa969f['temperature']},_0x2473ab(![]),_0x235b40(![]),window[_0x263b00(0x1e2)]=_0x251eaf,_0x4de5a9(),_0x131340(),closeView(UI[_0x263b00(0x2e5)]['apiConfig']),showToast(_0x263b00(0x25e));});const _0x2346a4=document[_0x599b58(0x11a)](_0x599b58(0x20c));_0x2346a4&&_0x2346a4['addEventListener']('click',async()=>{const _0x53849f=_0x599b58,_0x574c82=UI[_0x53849f(0x2ad)][_0x53849f(0x204)][_0x53849f(0x22f)][_0x53849f(0x14c)](),_0x3f4ea4=UI[_0x53849f(0x2ad)][_0x53849f(0x2c1)][_0x53849f(0x22f)][_0x53849f(0x14c)]();if(!_0x574c82){showToast(_0x53849f(0x28e));return;}const _0x43c463=_0x2346a4[_0x53849f(0x2f5)];_0x2346a4[_0x53849f(0x2f5)]=_0x53849f(0x2da);try{let _0x5ab2cf=_0x574c82;if(_0x5ab2cf[_0x53849f(0x23b)]('/'))_0x5ab2cf=_0x5ab2cf[_0x53849f(0x1c9)](0x0,-0x1);!_0x5ab2cf['endsWith'](_0x53849f(0x312))&&(_0x5ab2cf=_0x5ab2cf[_0x53849f(0x23b)](_0x53849f(0x18c))?_0x5ab2cf+'/models':_0x5ab2cf+'/v1/models');const _0x16019e={'Content-Type':_0x53849f(0x15d)};_0x3f4ea4&&(_0x16019e[_0x53849f(0x291)]='Bearer\x20'+_0x3f4ea4);const _0x4d44c7=await fetch(_0x5ab2cf,{'method':'GET','headers':_0x16019e});if(!_0x4d44c7['ok'])throw new Error(_0x53849f(0x140));const _0x28d50f=await _0x4d44c7[_0x53849f(0x128)]();if(_0x28d50f&&_0x28d50f['data']&&Array[_0x53849f(0x1a9)](_0x28d50f[_0x53849f(0x115)]))_0x428c09=_0x28d50f['data'][_0x53849f(0x10f)](_0x982baa=>_0x982baa['id']),_0x4de5a9(),_0x460fe5(),_0xf3b68d(UI['inputs'][_0x53849f(0x146)],_0xa969f[_0x53849f(0x319)]||''),showToast(_0x53849f(0x14a)+_0x428c09[_0x53849f(0x255)]+_0x53849f(0x17c));else throw new Error(_0x53849f(0x1b4));}catch(_0x23ffdb){console['error'](_0x53849f(0x1a8),_0x23ffdb),showToast('获取模型失败');}finally{_0x2346a4[_0x53849f(0x2f5)]=_0x43c463;}});UI[_0x599b58(0x2ad)][_0x599b58(0x146)]&&UI[_0x599b58(0x2ad)][_0x599b58(0x146)][_0x599b58(0x16c)](_0x599b58(0x24c),_0x48d7f1=>{const _0x1d0bae=_0x599b58;_0xa969f[_0x1d0bae(0x319)]=_0x48d7f1[_0x1d0bae(0x295)]['value'];});const _0x595b77=document['getElementById'](_0x599b58(0x285)),_0x4a67d7=document['getElementById']('load-preset-btn'),_0x489bc3=document[_0x599b58(0x11a)](_0x599b58(0x1dd));_0x595b77&&UI['overlays'][_0x599b58(0xf9)]&&_0x595b77[_0x599b58(0x16c)]('click',()=>{const _0x4c25a3=_0x599b58;if(UI[_0x4c25a3(0x2ad)]['presetName'])UI[_0x4c25a3(0x2ad)][_0x4c25a3(0x127)][_0x4c25a3(0x22f)]='';openView(UI[_0x4c25a3(0x2e5)]['savePreset']);});_0x489bc3&&_0x489bc3[_0x599b58(0x16c)]('click',()=>{const _0x52edfd=_0x599b58,_0x1d9b1f=UI[_0x52edfd(0x2ad)][_0x52edfd(0x204)]?UI[_0x52edfd(0x2ad)][_0x52edfd(0x204)]['value']['trim']():'',_0x455793=UI[_0x52edfd(0x2ad)]['apiKey']?UI[_0x52edfd(0x2ad)][_0x52edfd(0x2c1)][_0x52edfd(0x22f)][_0x52edfd(0x14c)]():'',_0x4820fd=UI[_0x52edfd(0x2ad)][_0x52edfd(0x146)]?UI['inputs'][_0x52edfd(0x146)][_0x52edfd(0x22f)][_0x52edfd(0x14c)]():'',_0x286cd0=UI[_0x52edfd(0x2ad)][_0x52edfd(0x2b2)]?parseFloat(UI[_0x52edfd(0x2ad)][_0x52edfd(0x2b2)]['value'])||0.7:0.7,_0x28368a=UI[_0x52edfd(0x2ad)][_0x52edfd(0x127)]?UI[_0x52edfd(0x2ad)][_0x52edfd(0x127)]['value'][_0x52edfd(0x14c)]():'';_0x285ab0[_0x52edfd(0x222)]({'id':Date['now'](),'name':_0x28368a||_0x52edfd(0x338),'endpoint':_0x1d9b1f,'apiKey':_0x455793,'model':_0x4820fd,'temp':_0x286cd0}),_0x4de5a9(),_0x131340(),closeView(UI[_0x52edfd(0x2e5)][_0x52edfd(0xf9)]),showToast(_0x52edfd(0x130));});_0x4a67d7&&UI[_0x599b58(0x2e5)][_0x599b58(0x261)]&&_0x4a67d7[_0x599b58(0x16c)](_0x599b58(0x12f),()=>{const _0x265de7=_0x599b58;openView(UI[_0x265de7(0x2e5)][_0x265de7(0x261)]),setTimeout(()=>{_0x46174a();},0x96);});function _0x46174a(){const _0x30375c=_0x599b58;if(!UI[_0x30375c(0x13d)]['presets'])return;UI[_0x30375c(0x13d)][_0x30375c(0x165)][_0x30375c(0x2f5)]='';if(!Array[_0x30375c(0x1a9)](_0x285ab0)||_0x285ab0[_0x30375c(0x255)]===0x0){UI['lists']['presets'][_0x30375c(0x2f5)]=_0x30375c(0x1cf);return;}const _0x4836b3=document[_0x30375c(0x119)]();_0x285ab0[_0x30375c(0x212)](_0xe7bf2e=>{const _0xb184a2=_0x30375c,_0x299d81=document[_0xb184a2(0x251)]('div');_0x299d81[_0xb184a2(0x139)]=_0xb184a2(0x122),_0x299d81[_0xb184a2(0x2f5)]=_0xb184a2(0x1ee)+(_0xe7bf2e[_0xb184a2(0x290)]||_0xb184a2(0x338))+_0xb184a2(0x1e7)+(_0xe7bf2e[_0xb184a2(0x2d8)]||'未填写接口地址')+_0xb184a2(0x15b);const _0x2a75b6=_0x299d81['querySelector'](_0xb184a2(0x2c6)),_0x362951=_0x299d81['querySelector']('.delete-icon');_0x2a75b6&&_0x2a75b6[_0xb184a2(0x16c)](_0xb184a2(0x12f),_0x23d4cd=>{const _0x266ae2=_0xb184a2;if(_0x23d4cd[_0x266ae2(0x295)]['classList'][_0x266ae2(0x19a)]('delete-icon')||_0x23d4cd[_0x266ae2(0x295)][_0x266ae2(0x342)]('.delete-icon'))return;if(UI[_0x266ae2(0x2ad)]['apiEndpoint'])UI[_0x266ae2(0x2ad)][_0x266ae2(0x204)]['value']=_0xe7bf2e[_0x266ae2(0x2d8)]||'';if(UI['inputs'][_0x266ae2(0x2c1)])UI[_0x266ae2(0x2ad)][_0x266ae2(0x2c1)][_0x266ae2(0x22f)]=_0xe7bf2e[_0x266ae2(0x2c1)]||'';UI[_0x266ae2(0x2ad)][_0x266ae2(0x146)]&&(_0xf3b68d(UI[_0x266ae2(0x2ad)][_0x266ae2(0x146)],_0xe7bf2e[_0x266ae2(0x319)]||''),_0xa969f[_0x266ae2(0x319)]=_0xe7bf2e['model']||'');if(UI['inputs'][_0x266ae2(0x2b2)])UI[_0x266ae2(0x2ad)][_0x266ae2(0x2b2)][_0x266ae2(0x22f)]=_0xe7bf2e[_0x266ae2(0x114)]??0.7;closeView(UI[_0x266ae2(0x2e5)][_0x266ae2(0x261)]),showToast('预设已加载');}),_0x362951&&_0x362951[_0xb184a2(0x16c)]('click',_0x5b22cf=>{const _0x466458=_0xb184a2;_0x5b22cf[_0x466458(0x1cb)](),confirm(_0x466458(0x281)+(_0xe7bf2e[_0x466458(0x290)]||_0x466458(0x338))+'”？')&&(_0x285ab0=_0x285ab0[_0x466458(0x26a)](_0x4b2022=>_0x4b2022['id']!==_0xe7bf2e['id']),_0x4de5a9(),_0x46174a(),_0x131340(),showToast(_0x466458(0x18e)));}),_0x4836b3['appendChild'](_0x299d81);}),UI['lists'][_0x30375c(0x165)][_0x30375c(0x1c4)](_0x4836b3);}const _0x1a55b3=document[_0x599b58(0x11a)]('export-data-btn'),_0x596945=document[_0x599b58(0x11a)](_0x599b58(0x33f)),_0x41a64a=document[_0x599b58(0x11a)]('import-data-file'),_0x58a924=document[_0x599b58(0x11a)](_0x599b58(0x29c));(function _0x679ab4(){const _0x5a2ba2=_0x599b58,_0x46508c=document[_0x5a2ba2(0x11a)](_0x5a2ba2(0x272)),_0x42509e=document[_0x5a2ba2(0x11a)](_0x5a2ba2(0x150)),_0x2fea78=document[_0x5a2ba2(0x11a)](_0x5a2ba2(0x322)),_0x342886=document[_0x5a2ba2(0x11a)](_0x5a2ba2(0x184)),_0x3a130c=document['getElementById'](_0x5a2ba2(0x10b)),_0x358ad9=document[_0x5a2ba2(0x11a)]('data-import-size');let _0x1deb43=null,_0x459925=null,_0x45651b=null,_0x1c0f09=null,_0x611758=null;function _0x5caccc(_0x4926f1){const _0x33b6b0=_0x5a2ba2;_0x4926f1[_0x33b6b0(0xfd)](),_0x4926f1[_0x33b6b0(0x297)]();}function _0xc675ce(_0x19c7df,_0x214b84){const _0x496c77=_0x5a2ba2;if(!_0x19c7df)return;_0x19c7df[_0x496c77(0x292)]=!!_0x214b84,_0x19c7df[_0x496c77(0x1f7)]['toggle'](_0x496c77(0x129),!!_0x214b84);}function _0x208cd8(_0x5c0ad9){return new Promise((_0x1f666a,_0x480a7c)=>{const _0x114ab8=_0x3147,_0xdf4acf=new FileReader();_0xdf4acf[_0x114ab8(0x27a)]=_0x2c2196=>_0x1f666a(_0x2c2196['target'][_0x114ab8(0x277)]||''),_0xdf4acf[_0x114ab8(0x153)]=()=>_0x480a7c(_0xdf4acf[_0x114ab8(0x190)]||new Error('File\x20read\x20failed')),_0xdf4acf[_0x114ab8(0x1a2)](_0x5c0ad9);});}function _0x206d7d(_0x43105a){const _0x22c819=_0x5a2ba2;if(window['appStorage']&&typeof window[_0x22c819(0x259)][_0x22c819(0x335)]==='function')return window[_0x22c819(0x259)]['formatBytes'](_0x43105a);const _0x193765=Math[_0x22c819(0x31c)](0x0,Number(_0x43105a)||0x0);return _0x193765<0x400?_0x193765+'\x20B':(_0x193765/0x400)['toFixed'](0x1)+_0x22c819(0x224);}function _0x435a93(_0x4a0e36){const _0x586da5=_0x5a2ba2,_0x1ca0f3=Number(_0x4a0e36)||0x0;if(!_0x1ca0f3)return'未知时间';try{return new Date(_0x1ca0f3)[_0x586da5(0x34c)]();}catch(_0x5cb18f){return'未知时间';}}function _0x127f3e(_0x2791f6){const _0x6291bd=_0x5a2ba2;!_0x45651b&&(_0x45651b=document['createElement'](_0x6291bd(0x321)),_0x45651b['className']=_0x6291bd(0x1a1),_0x45651b['innerHTML']=_0x6291bd(0x2de),_0x1c0f09=_0x45651b[_0x6291bd(0x1c0)](_0x6291bd(0x1ca)),_0x611758=_0x45651b[_0x6291bd(0x1c0)]('.data-operation-progress\x20>\x20div'),document[_0x6291bd(0x1aa)][_0x6291bd(0x1c4)](_0x45651b)),_0x1c0f09[_0x6291bd(0x19d)]=_0x2791f6||'处理中...',_0x611758[_0x6291bd(0x2ba)][_0x6291bd(0x2d0)]='0%',_0x45651b[_0x6291bd(0x2ba)]['display']=_0x6291bd(0x2f6);}function _0x275a68(_0x611a9f={}){const _0x3acfdd=_0x5a2ba2;if(_0x1c0f09)_0x1c0f09[_0x3acfdd(0x19d)]=_0x611a9f[_0x3acfdd(0x283)]||_0x3acfdd(0x26e);if(_0x611758){const _0xdf4c14=Math[_0x3acfdd(0x31c)](0x0,Math[_0x3acfdd(0x25c)](0x64,Number(_0x611a9f[_0x3acfdd(0x193)])||0x0));_0x611758[_0x3acfdd(0x2ba)][_0x3acfdd(0x2d0)]=_0xdf4c14+'%';}}function _0x54c4e6(){const _0x422594=_0x5a2ba2;if(_0x45651b)_0x45651b[_0x422594(0x2ba)]['display']=_0x422594(0x13b);}function _0x3e2ef6(_0x4c6039,_0x2207d8){const _0x20a563=_0x5a2ba2;if(!_0x46508c)return;_0x46508c[_0x20a563(0x2ba)]['display']=_0x20a563(0x160);if(_0x42509e)_0x42509e[_0x20a563(0x19d)]=_0x4c6039?.[_0x20a563(0x290)]||_0x20a563(0x2b1);if(_0x2fea78)_0x2fea78[_0x20a563(0x19d)]='v'+(_0x2207d8['schemaVersion']||'-');if(_0x342886)_0x342886[_0x20a563(0x19d)]=String(_0x2207d8[_0x20a563(0x23a)]||0x0);if(_0x3a130c)_0x3a130c[_0x20a563(0x19d)]=String(_0x2207d8[_0x20a563(0x2f3)]||0x0);if(_0x358ad9)_0x358ad9[_0x20a563(0x19d)]=_0x206d7d(_0x2207d8[_0x20a563(0x2b8)]||_0x4c6039?.['size']||0x0);}function _0x56b6c1(){const _0x3ca5cd=_0x5a2ba2;_0x1deb43=null,_0x459925=null;if(_0x46508c)_0x46508c['style']['display']=_0x3ca5cd(0x13b);}_0x1a55b3&&_0x1a55b3[_0x5a2ba2(0x16c)]('click',async _0x4a0a53=>{const _0x2a8e49=_0x5a2ba2;_0x5caccc(_0x4a0a53);try{_0xc675ce(_0x1a55b3,!![]),_0x127f3e(_0x2a8e49(0x1b1));const _0x3dcad0=await window[_0x2a8e49(0x259)]['exportAllData'](_0x275a68);_0x275a68({'message':'准备下载...','progress':0x63});const _0x17bc6c=URL[_0x2a8e49(0x158)](_0x3dcad0),_0x56c3cc=document[_0x2a8e49(0x251)]('a');_0x56c3cc[_0x2a8e49(0x279)]=_0x17bc6c,_0x56c3cc[_0x2a8e49(0x156)]=_0x2a8e49(0x1c1)+new Date()[_0x2a8e49(0x236)]()[_0x2a8e49(0x264)](/[:.]/g,'-')[_0x2a8e49(0x1c9)](0x0,0x13)+_0x2a8e49(0x194),document['body'][_0x2a8e49(0x1c4)](_0x56c3cc),_0x56c3cc[_0x2a8e49(0x12f)](),document[_0x2a8e49(0x1aa)][_0x2a8e49(0x30b)](_0x56c3cc),setTimeout(()=>URL[_0x2a8e49(0x246)](_0x17bc6c),0x1388),_0x54c4e6(),showToast(_0x2a8e49(0x2c0));}catch(_0x29d49e){console['error']('Export\x20failed:',_0x29d49e),_0x54c4e6(),showToast(_0x2a8e49(0x196));}finally{_0xc675ce(_0x1a55b3,![]);}},!![]),_0x596945&&_0x41a64a&&(_0x596945[_0x5a2ba2(0x16c)]('click',_0x30f6f5=>{const _0x4e2283=_0x5a2ba2;_0x5caccc(_0x30f6f5);if(!_0x1deb43||!_0x459925){_0x41a64a[_0x4e2283(0x12f)]();return;}if(!confirm(_0x4e2283(0x326)+_0x459925[_0x4e2283(0x290)]+_0x4e2283(0x32d)))return;((async()=>{const _0x2502eb=_0x4e2283;try{_0xc675ce(_0x596945,!![]),_0x127f3e(_0x2502eb(0x21b)),await window[_0x2502eb(0x259)][_0x2502eb(0x2a3)](_0x1deb43,_0x275a68),_0x275a68({'message':_0x2502eb(0x1a5),'progress':0x64}),setTimeout(()=>window[_0x2502eb(0x189)][_0x2502eb(0x271)](),0x4b0);}catch(_0x5e2f09){console[_0x2502eb(0x190)](_0x2502eb(0x26c),_0x5e2f09),_0x54c4e6(),showToast(_0x2502eb(0x131)),_0xc675ce(_0x596945,![]);}})());},!![]),_0x41a64a[_0x5a2ba2(0x16c)](_0x5a2ba2(0x24c),async _0x7554cb=>{const _0x39b7bf=_0x5a2ba2;_0x7554cb['stopImmediatePropagation']();const _0x122b0b=_0x7554cb['target'][_0x39b7bf(0x163)][0x0];if(!_0x122b0b)return;try{_0xc675ce(_0x596945,!![]),_0x127f3e('正在读取备份文件...');const _0x16b569=await _0x208cd8(_0x122b0b);_0x275a68({'message':_0x39b7bf(0x2f2),'progress':0x1e});const _0x16e53b=JSON[_0x39b7bf(0x10d)](_0x16b569),_0x4ca0a5=window[_0x39b7bf(0x259)][_0x39b7bf(0x260)](_0x16e53b);_0x1deb43=_0x16e53b,_0x459925=_0x122b0b,_0x3e2ef6(_0x122b0b,_0x4ca0a5),_0x54c4e6(),showToast(_0x39b7bf(0x1be));}catch(_0x4f7cca){console[_0x39b7bf(0x190)](_0x39b7bf(0x263),_0x4f7cca),_0x56b6c1(),_0x54c4e6(),showToast(_0x39b7bf(0x1ea));}finally{_0xc675ce(_0x596945,![]),_0x7554cb['target'][_0x39b7bf(0x22f)]='';}},!![])),_0x58a924&&_0x58a924[_0x5a2ba2(0x16c)]('click',async _0x42a271=>{const _0x43bd5d=_0x5a2ba2;_0x5caccc(_0x42a271);if(!confirm(_0x43bd5d(0x2bd)))return;try{_0xc675ce(_0x58a924,!![]),_0x127f3e('正在清空应用数据...'),await window[_0x43bd5d(0x259)][_0x43bd5d(0x25d)](),_0x275a68({'message':'已清空，正在重启...','progress':0x64}),setTimeout(()=>window[_0x43bd5d(0x189)][_0x43bd5d(0x271)](),0x4b0);}catch(_0x1fd8a0){console[_0x43bd5d(0x190)](_0x43bd5d(0x2df),_0x1fd8a0),_0x54c4e6(),showToast('清空数据失败'),_0xc675ce(_0x58a924,![]);}},!![]);}());});}()));
+// u2phone Settings App Logic
+// Adapted from iiso/emulator/4_settings.js
+
+(function() {
+    // Basic User/Account State Mock
+    let accounts = [];
+    let currentAccountId = null;
+    let userState = {
+        name: '',
+        phone: '',
+        persona: '',
+        avatarUrl: null
+    };
+
+    function clonePlainData(value) {
+        if (typeof structuredClone === 'function') return structuredClone(value);
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    function syncUserStateFromCurrentAccount() {
+        const acc = accounts.find(a => String(a.id) === String(currentAccountId));
+
+        if (acc) {
+            userState.name = acc.name || '';
+            userState.phone = acc.phone || '';
+            userState.persona = acc.persona || '';
+            userState.signature = acc.signature || '';
+            userState.avatarUrl = acc.avatarUrl || null;
+        } else {
+            userState.name = '';
+            userState.phone = '';
+            userState.persona = '';
+            userState.signature = '';
+            userState.avatarUrl = null;
+        }
+
+        window.userState = userState;
+        return userState;
+    }
+
+    function notifyUserStateUpdated(detail = {}) {
+        window.userState = userState;
+        const eventDetail = {
+            userState: clonePlainData(userState),
+            ...detail
+        };
+        window.dispatchEvent(new CustomEvent('user-state-updated', { detail: eventDetail }));
+        if (detail.avatarChanged) {
+            window.dispatchEvent(new CustomEvent('avatar-updated', { detail: eventDetail }));
+        }
+    }
+
+    function exposeAccountGlobals() {
+        window.getAccounts = () => accounts;
+        window.getCurrentAccountId = () => currentAccountId;
+        window.setCurrentAccountId = (id) => {
+            currentAccountId = id;
+            syncUserStateFromCurrentAccount();
+            persistSettingsData();
+            notifyUserStateUpdated({ avatarChanged: true });
+            return currentAccountId;
+        };
+    }
+
+    function persistSettingsData() {
+        syncUserStateFromCurrentAccount();
+        if (window.StorageManager) {
+            StorageManager.save('u2_userState', userState);
+            StorageManager.save('u2_apiConfig', apiConfig);
+            StorageManager.save('u2_minimaxConfig', minimaxConfig);
+            StorageManager.save('u2_apiPresets', apiPresets);
+            StorageManager.save('u2_fetchedModels', fetchedModels);
+            StorageManager.save('u2_assistiveBallSettings', assistiveBallSettings);
+            StorageManager.save('u2_accounts', accounts);
+            StorageManager.save('u2_currentAccountId', currentAccountId);
+            StorageManager.save('u2_themeState', themeState);
+        }
+
+        if (window.appStorage?.loadGlobalData && window.appStorage?.saveGlobalData) {
+            window.appStorage.loadGlobalData()
+                .then((existing) => {
+                    const safeExisting = existing && typeof existing === 'object' ? existing : {};
+                    return window.appStorage.saveGlobalData({
+                        ...safeExisting,
+                        userState: clonePlainData(userState),
+                        accounts: clonePlainData(accounts),
+                        currentAccountId,
+                        apiConfig: clonePlainData(apiConfig),
+                        minimaxConfig: clonePlainData(minimaxConfig),
+                        apiPresets: clonePlainData(apiPresets),
+                        fetchedModels: clonePlainData(fetchedModels),
+                        assistiveBallSettings: clonePlainData(assistiveBallSettings),
+                        themeState: clonePlainData(themeState),
+                        appState: typeof window.getAllAppState === 'function'
+                            ? clonePlainData(window.getAllAppState())
+                            : safeExisting.appState
+                    });
+                })
+                .catch((error) => {
+                    console.warn('Failed to persist settings to appStorage:', error);
+                });
+        }
+    }
+
+    exposeAccountGlobals();
+
+    // ==========================================
+    // API Configuration State
+    // ==========================================
+    let apiConfig = {
+        endpoint: '',
+        apiKey: '',
+        model: '',
+        temperature: 0.7,
+    };
+    let minimaxConfig = {
+        region: 'cn',
+        customEndpointEnabled: false,
+        endpoint: '',
+        apiKey: '',
+        groupId: '',
+        ttsModel: 'speech-02-hd'
+    };
+    let apiPresets = [];
+    let fetchedModels = [];
+    let assistiveBallSettings = {
+        enabled: false,
+        x: null,
+        y: null,
+        opacity: 0.72
+    };
+    
+    // 用于保存正在编辑的状态，避免未点保存就污染全局配置
+    let tempApiConfig = {};
+
+    // ==========================================
+    // Theme Configuration State
+    // ==========================================
+    const DEFAULT_SYSTEM_THEME_FONT_FAMILY = 'system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif';
+    const BUILTIN_THEME_FONTS = [
+        {
+            key: 'system-default',
+            label: '默认',
+            cssName: '',
+            family: DEFAULT_SYSTEM_THEME_FONT_FAMILY,
+            sources: { woff2: '', woff: '', ttf: '' }
+        }
+    ];
+
+    let themeState = {
+        bgUrl: null,
+        apps: [
+            { id: 'app-icon-1', name: 'Pay', icon: null },
+            { id: 'app-icon-2', name: 'TikTok', icon: null },
+            { id: 'app-icon-3', name: 'b.stage', icon: null },
+            { id: 'app-icon-4', name: 'X', icon: null },
+            { id: 'app-icon-5', name: 'Shop', icon: null },
+            { id: 'app-icon-6', name: 'call', icon: null },
+            { id: 'app-icon-7', name: 'Netflix', icon: null },
+            { id: 'app-icon-8', name: 'Loves', icon: null },
+            { id: 'dock-icon-settings', name: '设置', icon: null },
+            { id: 'dock-icon-imessage', name: '信息', icon: null },
+            { id: 'dock-icon-youtube', name: 'YouTube', icon: null }
+        ],
+        fontMode: 'preset', // 'preset' or 'saved'
+        fontPresetKey: 'system-default',
+        fontFamily: DEFAULT_SYSTEM_THEME_FONT_FAMILY,
+        fontCssName: '',
+        fontSize: 16,
+        fontSources: { woff2: '', woff: '', ttf: '' },
+        savedFontPresets: [],
+        imessageChatCssEnabled: false,
+        imessageChatCss: ''
+    };
+    window.u2ThemeState = themeState;
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        // ==========================================
+        // Load Saved Data
+        // ==========================================
+        if (window.StorageManager) {
+            apiConfig = StorageManager.load('u2_apiConfig', apiConfig);
+            minimaxConfig = StorageManager.load('u2_minimaxConfig', minimaxConfig);
+            apiPresets = StorageManager.load('u2_apiPresets', []);
+            fetchedModels = StorageManager.load('u2_fetchedModels', []);
+            assistiveBallSettings = {
+                ...assistiveBallSettings,
+                ...StorageManager.load('u2_assistiveBallSettings', {})
+            };
+            
+            accounts = StorageManager.load('u2_accounts', []);
+            currentAccountId = StorageManager.load('u2_currentAccountId', null);
+            const savedUserState = StorageManager.load('u2_userState', null);
+            if (savedUserState && typeof savedUserState === 'object') {
+                userState = { ...userState, ...savedUserState };
+            }
+            
+            if (currentAccountId) {
+                syncUserStateFromCurrentAccount();
+            }
+
+            // Load Theme State
+            const savedThemeState = StorageManager.load('u2_themeState', null);
+            if (savedThemeState) {
+                // Merge arrays smartly to retain new apps if added
+                if (Array.isArray(savedThemeState.apps)) {
+                    savedThemeState.apps.forEach(savedApp => {
+                        const existingApp = themeState.apps.find(a => a.id === savedApp.id);
+                        if (existingApp) {
+                            existingApp.icon = savedApp.icon;
+                            if (savedApp.id === 'app-icon-8' && savedApp.name === 'Diary') {
+                                existingApp.name = 'Loves';
+                            } else {
+                                existingApp.name = savedApp.name || existingApp.name;
+                            }
+                        } else {
+                            themeState.apps.push(savedApp);
+                        }
+                    });
+                    delete savedThemeState.apps;
+                }
+                themeState = { ...themeState, ...savedThemeState };
+            }
+            window.u2ThemeState = themeState;
+            
+            // Apply loaded theme state immediately
+            applySavedTheme();
+        }
+        
+        // Expose globally for other modules if needed
+        window.apiConfig = apiConfig;
+        if (window.u2MinimaxTts && typeof window.u2MinimaxTts.setConfig === 'function') {
+            minimaxConfig = window.u2MinimaxTts.setConfig({ ...(window.u2MinimaxTts.DEFAULT_CONFIG || {}), ...minimaxConfig });
+        } else {
+            window.minimaxConfig = minimaxConfig;
+        }
+        window.userState = userState;
+        exposeAccountGlobals();
+
+        // ==========================================
+        // UI DOM Elements Mapping
+        // ==========================================
+        UI.views.settings = document.getElementById('settings-view');
+        UI.views.edit = document.getElementById('edit-view');
+        UI.overlays.accountSwitcher = document.getElementById('account-sheet-overlay');
+        UI.overlays.personaDetail = document.getElementById('persona-detail-sheet');
+        UI.overlays.aboutDevice = document.getElementById('about-device-sheet');
+        
+        UI.lists.accounts = document.getElementById('account-list');
+
+        // Detail Inputs Mapping
+        UI.inputs = {
+            detailName: document.getElementById('detail-name-input'),
+            detailPhone: document.getElementById('detail-phone-input'),
+            detailSignature: document.getElementById('detail-signature-input'),
+            detailPersona: document.getElementById('detail-persona-input'),
+            detailAvatarImg: document.getElementById('detail-avatar-img'),
+            detailAvatarIcon: document.querySelector('#user-detail-avatar-wrapper .fa-user'),
+            
+            // API Config Inputs
+            apiEndpoint: document.getElementById('api-endpoint-input'),
+            apiKey: document.getElementById('api-key-input'),
+            apiModel: document.getElementById('api-model-select'),
+            apiTemp: document.getElementById('api-temp-input'),
+            bgActivityToggle: document.getElementById('bg-activity-toggle'),
+            systemNotificationToggle: document.getElementById('system-notification-toggle'),
+            minimaxRegion: document.getElementById('minimax-region-select'),
+            minimaxCustomEndpoint: document.getElementById('minimax-custom-endpoint-toggle'),
+            minimaxEndpoint: document.getElementById('minimax-endpoint-input'),
+            minimaxKey: document.getElementById('minimax-key-input'),
+            minimaxGroupId: document.getElementById('minimax-group-id-input'),
+            minimaxTtsModel: document.getElementById('minimax-tts-model-input'),
+            presetName: document.getElementById('preset-name-input')
+        };
+
+        UI.lists.presets = document.getElementById('preset-list');
+        
+        UI.overlays.apiConfig = document.getElementById('api-config-sheet');
+        UI.overlays.minimaxConfig = document.getElementById('minimax-config-sheet');
+        UI.overlays.savePreset = document.getElementById('save-preset-name-sheet');
+        UI.overlays.loadPreset = document.getElementById('load-preset-list-sheet');
+        UI.overlays.assistiveBallSettings = document.getElementById('assistive-ball-settings-sheet');
+        UI.inputs.assistiveBallToggle = document.getElementById('assistive-ball-toggle');
+        UI.inputs.assistiveBallOpacity = document.getElementById('assistive-ball-opacity-range');
+        UI.inputs.assistiveBallOpacityValue = document.getElementById('assistive-ball-opacity-value');
+
+        // ==========================================
+        // NAVIGATION EVENT LISTENERS
+        // ==========================================
+        
+        // Open Settings from Dock
+        const settingsBtn = document.getElementById('dock-icon-settings');
+        if (settingsBtn) {
+            settingsBtn.addEventListener('click', (e) => {
+                syncUIs();
+                openView(UI.views.settings);
+            });
+        }
+        
+        // Close Settings
+        const settingsBackBtn = document.getElementById('settings-title-back-btn');
+        if (settingsBackBtn) {
+            settingsBackBtn.addEventListener('click', () => closeView(UI.views.settings));
+        }
+
+        // About Device
+        const aboutDeviceBtn = document.getElementById('about-device-btn');
+        const aboutDeviceSheet = document.getElementById('about-device-sheet');
+        const aboutDeviceCloseBtn = document.getElementById('about-device-close-btn');
+        
+        if (aboutDeviceBtn && aboutDeviceSheet) {
+            aboutDeviceBtn.addEventListener('click', () => {
+                const appNameEl = document.getElementById('about-device-app-name');
+                if (appNameEl) appNameEl.textContent = 'u2phone';
+                openView(aboutDeviceSheet);
+            });
+        }
+        if (aboutDeviceCloseBtn && aboutDeviceSheet) {
+            aboutDeviceCloseBtn.addEventListener('click', () => closeView(aboutDeviceSheet));
+        }
+
+        // Data Management
+        const dataManagementBtn = document.getElementById('data-management-btn');
+        const dataManagementSheet = document.getElementById('data-management-sheet');
+        const dataManagementCloseBtn = document.getElementById('data-management-close-btn');
+        
+        if (dataManagementBtn && dataManagementSheet) {
+            dataManagementBtn.addEventListener('click', () => {
+                openView(dataManagementSheet);
+            });
+        }
+        if (dataManagementCloseBtn && dataManagementSheet) {
+            dataManagementCloseBtn.addEventListener('click', () => closeView(dataManagementSheet));
+        }
+
+        // Apple ID / Profile View
+        const appleIdTrigger = document.getElementById('apple-id-trigger');
+        if (appleIdTrigger) {
+            appleIdTrigger.addEventListener('click', (e) => {
+                e.stopPropagation(); 
+                syncUIs();
+                openView(UI.views.edit);
+            });
+        }
+        const editBackBtn = document.getElementById('edit-back-btn');
+        if (editBackBtn) {
+            editBackBtn.addEventListener('click', () => closeView(UI.views.edit));
+        }
+
+        // ==========================================
+        // IMAGE COMPRESSION & ACCOUNT MANAGEMENT
+        // ==========================================
+        function readImageAsCompressedDataUrl(file, options = {}) {
+            return new Promise((resolve, reject) => {
+                if (!file) {
+                    reject(new Error('No file selected'));
+                    return;
+                }
+
+                const {
+                    maxWidth = 1024,
+                    maxHeight = 1024,
+                    quality = 0.82,
+                    outputType = 'image/jpeg'
+                } = options;
+
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    const rawDataUrl = event?.target?.result;
+                    if (!rawDataUrl || typeof rawDataUrl !== 'string') {
+                        reject(new Error('Failed to read file'));
+                        return;
+                    }
+
+                    const image = new Image();
+                    image.onload = () => {
+                        let { width, height } = image;
+
+                        if (!width || !height) {
+                            resolve(rawDataUrl);
+                            return;
+                        }
+
+                        const widthRatio = maxWidth / width;
+                        const heightRatio = maxHeight / height;
+                        const scale = Math.min(1, widthRatio, heightRatio);
+
+                        const targetWidth = Math.max(1, Math.round(width * scale));
+                        const targetHeight = Math.max(1, Math.round(height * scale));
+
+                        const canvas = document.createElement('canvas');
+                        canvas.width = targetWidth;
+                        canvas.height = targetHeight;
+
+                        const ctx = canvas.getContext('2d');
+                        if (!ctx) {
+                            resolve(rawDataUrl);
+                            return;
+                        }
+
+                        ctx.drawImage(image, 0, 0, targetWidth, targetHeight);
+
+                        try {
+                            const compressedDataUrl = canvas.toDataURL(outputType, quality);
+                            resolve(compressedDataUrl || rawDataUrl);
+                        } catch (err) {
+                            console.warn('Failed to compress image, using original data url.', err);
+                            resolve(rawDataUrl);
+                        }
+                    };
+
+                    image.onerror = () => reject(new Error('Failed to load image for compression'));
+                    image.src = rawDataUrl;
+                };
+
+                reader.onerror = () => reject(new Error('Failed to read file'));
+                reader.readAsDataURL(file);
+            });
+        }
+        window.readImageAsCompressedDataUrl = readImageAsCompressedDataUrl;
+
+        // Main Edit Avatar Logic
+        const mainEditAvatarWrapper = document.getElementById('main-edit-avatar-wrapper');
+        const mainAvatarUpload = document.getElementById('main-avatar-upload');
+        if (mainEditAvatarWrapper && mainAvatarUpload) {
+            mainEditAvatarWrapper.addEventListener('click', (e) => {
+                if (e.target.tagName !== 'INPUT') mainAvatarUpload.click();
+            });
+
+            mainAvatarUpload.addEventListener('change', async (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    try {
+                        const url = await readImageAsCompressedDataUrl(file, {
+                            maxWidth: 256,
+                            maxHeight: 256,
+                            quality: 0.72
+                        });
+
+                        // Update user state
+                        userState.avatarUrl = url;
+                        
+                        // Update current account in accounts array
+                        const acc = accounts.find(a => a.id === currentAccountId);
+                        if (acc) {
+                            acc.avatarUrl = url;
+                        }
+                        
+                        saveGlobalData();
+                        // Sync the UI immediately
+                        syncUIs();
+                        notifyUserStateUpdated({ avatarChanged: true });
+                        showToast('头像已更新');
+                    } catch (err) {
+                        console.error('Failed to process avatar upload', err);
+                        showToast('头像处理失败');
+                    }
+                }
+                e.target.value = ''; // Reset
+            });
+        }
+
+        let isCreatingNewAccount = false;
+        let detailTempId = null;
+
+        // Account Switcher
+        const switchAccountBtn = document.getElementById('switch-account-btn');
+        if (switchAccountBtn) {
+            switchAccountBtn.addEventListener('click', () => {
+                renderAccountList();
+                openView(UI.overlays.accountSwitcher);
+            });
+        }
+        
+        // Account List Rendering
+        function renderAccountList() {
+            if(!UI.lists.accounts) return;
+            UI.lists.accounts.innerHTML = '';
+
+            accounts.forEach(acc => {
+                const card = document.createElement('div');
+                card.className = `account-card ${acc.id === currentAccountId ? 'selected' : ''}`;
+                if (acc.id === currentAccountId) {
+                    card.style.backgroundColor = '#e8f2ff'; // highlight current
+                }
+                
+                const avatarHtml = acc.avatarUrl ? `<img src="${acc.avatarUrl}" alt="">` : `<i class="fas fa-user"></i>`;
+                card.innerHTML = `
+                    <div class="account-content">
+                        <div class="account-avatar">${avatarHtml}</div>
+                        <div class="account-info">
+                            <div class="account-name">${acc.name}</div>
+                            <div class="account-detail">${acc.phone || 'No Phone'}</div>
+                        </div>
+                        <i class="fas fa-times delete-icon"></i>
+                    </div>
+                `;
+
+                // Click to Open Detail View & Set Active
+                card.querySelector('.account-content').addEventListener('click', (e) => {
+                    // If clicked on delete icon, do not open detail view
+                    if (e.target.classList.contains('delete-icon') || e.target.closest('.delete-icon')) return;
+
+                    currentAccountId = acc.id;
+                    if (window.setCurrentAccountId) window.setCurrentAccountId(acc.id);
+                    renderAccountList(); // Refresh highlighting
+                    
+                    isCreatingNewAccount = false;
+                    detailTempId = acc.id;
+                    UI.inputs.detailName.value = acc.name || '';
+                    UI.inputs.detailPhone.value = acc.phone || '';
+                    if(UI.inputs.detailSignature) UI.inputs.detailSignature.value = acc.signature || '';
+                    UI.inputs.detailPersona.value = acc.persona || '';
+                    setDetailAvatar(acc.avatarUrl);
+                    
+                    openView(UI.overlays.personaDetail);
+                });
+
+                // Delete Action
+                card.querySelector('.delete-icon').addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (confirm(`Delete account "${acc.name}"?`)) {
+                        accounts = accounts.filter(a => a.id !== acc.id);
+                        if (currentAccountId === acc.id) {
+                            currentAccountId = accounts.length > 0 ? accounts[0].id : null;
+                            if (window.setCurrentAccountId) window.setCurrentAccountId(currentAccountId);
+                            const nextAccount = accounts.find(a => a.id === currentAccountId);
+                            userState.name = nextAccount?.name || '';
+                            userState.phone = nextAccount?.phone || '';
+                            userState.persona = nextAccount?.signature || nextAccount?.persona || '';
+                            userState.avatarUrl = nextAccount?.avatarUrl || null;
+                        }
+                        saveGlobalData();
+                        syncUIs();
+                        notifyUserStateUpdated({ avatarChanged: true });
+                        renderAccountList();
+                    }
+                });
+
+                UI.lists.accounts.appendChild(card);
+            });
+        }
+
+        // Add New Account
+        document.getElementById('add-account-btn')?.addEventListener('click', () => {
+            isCreatingNewAccount = true;
+            detailTempId = Date.now();
+            UI.inputs.detailName.value = '';
+            UI.inputs.detailPhone.value = '';
+            if(UI.inputs.detailSignature) UI.inputs.detailSignature.value = '';
+            UI.inputs.detailPersona.value = '';
+            setDetailAvatar(null);
+            openView(UI.overlays.personaDetail);
+        });
+
+        // Save Selected Account to Main State
+        document.getElementById('save-id-btn')?.addEventListener('click', () => {
+            const accToSync = accounts.find(a => a.id === currentAccountId);
+            if (accToSync) {
+                userState.name = accToSync.name;
+                userState.phone = accToSync.phone;
+                userState.persona = accToSync.persona;
+                userState.signature = accToSync.signature;
+                userState.avatarUrl = accToSync.avatarUrl;
+            } else {
+                userState.name = '';
+                userState.phone = '';
+                userState.persona = '';
+                userState.signature = '';
+                userState.avatarUrl = null;
+            }
+            saveGlobalData();
+            syncUIs();
+            notifyUserStateUpdated({ avatarChanged: true });
+            closeView(UI.overlays.accountSwitcher);
+        });
+
+        // Detail View Confirm
+        document.getElementById('confirm-sync-btn')?.addEventListener('click', () => {
+            const name = UI.inputs.detailName.value || 'New User';
+            const phone = UI.inputs.detailPhone.value;
+            const signature = UI.inputs.detailSignature ? UI.inputs.detailSignature.value : '';
+            const persona = UI.inputs.detailPersona.value;
+            const currentAvatarSrc = UI.inputs.detailAvatarImg.style.display === 'block' ? UI.inputs.detailAvatarImg.src : null;
+
+            if (isCreatingNewAccount) {
+                accounts.push({ id: detailTempId, name, phone, signature, persona, avatarUrl: currentAvatarSrc });
+                currentAccountId = detailTempId; 
+            } else {
+                const acc = accounts.find(a => a.id === detailTempId);
+                if (acc) {
+                    acc.name = name;
+                    acc.phone = phone;
+                    acc.signature = signature;
+                    acc.persona = persona;
+                    acc.avatarUrl = currentAvatarSrc;
+                }
+            }
+            isCreatingNewAccount = false;
+            if (String(currentAccountId) === String(detailTempId)) {
+                syncUserStateFromCurrentAccount();
+            }
+            saveGlobalData();
+            syncUIs();
+            notifyUserStateUpdated({ avatarChanged: true });
+            renderAccountList(); 
+            closeView(UI.overlays.personaDetail); 
+            showToast('资料已保存');
+        });
+
+        // Avatar Upload Handler
+        const userDetailAvatarWrapper = document.getElementById('user-detail-avatar-wrapper');
+        if (userDetailAvatarWrapper) {
+            userDetailAvatarWrapper.addEventListener('click', (e) => {
+                if (e.target.tagName !== 'INPUT') document.getElementById('detail-avatar-upload').click();
+            });
+        }
+
+        document.getElementById('detail-avatar-upload')?.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                try {
+                    const url = await readImageAsCompressedDataUrl(file, {
+                        maxWidth: 256,
+                        maxHeight: 256,
+                        quality: 0.72
+                    });
+                    setDetailAvatar(url);
+                } catch (err) {
+                    console.error('Failed to process detail avatar upload', err);
+                    showToast('头像处理失败');
+                }
+            }
+        });
+
+        function setDetailAvatar(url) {
+            if (url) {
+                UI.inputs.detailAvatarImg.src = url;
+                UI.inputs.detailAvatarImg.style.display = 'block';
+                if(UI.inputs.detailAvatarIcon) UI.inputs.detailAvatarIcon.style.display = 'none';
+            } else {
+                UI.inputs.detailAvatarImg.style.display = 'none';
+                if(UI.inputs.detailAvatarIcon) UI.inputs.detailAvatarIcon.style.display = 'block';
+                UI.inputs.detailAvatarImg.src = '';
+            }
+        }
+        
+        // Make syncUIs globally aware of the loaded userState
+        const originalSyncUIs = window.syncUIs;
+        window.syncUIs = function() {
+            if (originalSyncUIs) {
+                // Call original logic if any
+                originalSyncUIs();
+            }
+            
+            // Sync Apple ID Settings View
+            const settingsName = document.getElementById('settings-name');
+            const settingsAvatarImg = document.getElementById('settings-avatar-img');
+            const settingsAvatarIcon = document.querySelector('.apple-id-avatar-small .fa-user');
+            
+            if (settingsName) {
+                settingsName.textContent = userState.name || '未登录 Apple ID';
+            }
+            
+            if (userState.avatarUrl) {
+                if (settingsAvatarImg) {
+                    settingsAvatarImg.src = userState.avatarUrl;
+                    settingsAvatarImg.style.display = 'block';
+                }
+                if (settingsAvatarIcon) settingsAvatarIcon.style.display = 'none';
+            } else {
+                if (settingsAvatarImg) settingsAvatarImg.style.display = 'none';
+                if (settingsAvatarIcon) settingsAvatarIcon.style.display = 'block';
+            }
+            
+            // Sync Edit View
+            const displayName = document.getElementById('display-name');
+            const displayPhone = document.getElementById('display-phone');
+            const displaySignature = document.getElementById('display-signature');
+            const editAvatarImg = document.getElementById('edit-avatar-img');
+            const editAvatarIcon = document.querySelector('#edit-avatar-preview .fa-user');
+            
+            if (displayName) displayName.textContent = userState.name || '未登录 Apple ID';
+            if (displayPhone) displayPhone.textContent = userState.phone || '暂无手机号';
+            if (displaySignature) displaySignature.textContent = userState.signature || '添加账号后可同步头像、名称与签名';
+            
+            if (userState.avatarUrl) {
+                if (editAvatarImg) {
+                    editAvatarImg.src = userState.avatarUrl;
+                    editAvatarImg.style.display = 'block';
+                }
+                if (editAvatarIcon) editAvatarIcon.style.display = 'none';
+            } else {
+                if (editAvatarImg) editAvatarImg.style.display = 'none';
+                if (editAvatarIcon) editAvatarIcon.style.display = 'block';
+            }
+            
+            // Sync iMessage Home Top Bar
+            const imProfileName = document.getElementById('imessage-profile-name');
+            const imProfileSign = document.getElementById('imessage-profile-sign');
+            const imAvatarImg = document.getElementById('imessage-avatar-img');
+            const imAvatarIcon = document.getElementById('imessage-avatar-icon');
+            
+            if (imProfileName) imProfileName.textContent = userState.name || 'Default User';
+            if (imProfileSign) imProfileSign.textContent = userState.signature || 'No Signature';
+            
+            if (userState.avatarUrl) {
+                if (imAvatarImg) {
+                    imAvatarImg.src = userState.avatarUrl;
+                    imAvatarImg.style.display = 'block';
+                }
+                if (imAvatarIcon) imAvatarIcon.style.display = 'none';
+            } else {
+                if (imAvatarImg) imAvatarImg.style.display = 'none';
+                if (imAvatarIcon) imAvatarIcon.style.display = 'block';
+            }
+        };
+
+        // 初始同步 UI (使用包含了全局状态同步的完整方法)
+        if (window.syncUIs) {
+            window.syncUIs();
+        }
+
+        document.getElementById('close-account-sheet-btn')?.addEventListener('click', () => {
+            closeView(UI.overlays.accountSwitcher);
+        });
+
+        document.getElementById('close-persona-sheet-btn')?.addEventListener('click', () => {
+            closeView(UI.overlays.personaDetail);
+        });
+
+        // ==========================================
+        // World Book Configuration Logic
+        // ==========================================
+        const worldBookMainBtn = document.getElementById('world-book-main-btn');
+        if (worldBookMainBtn) {
+            worldBookMainBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (window.renderWorldBooks) {
+                    window.renderWorldBooks();
+                }
+                const wbView = document.getElementById('world-book-view');
+                if (wbView) {
+                    openView(wbView);
+                }
+            });
+        }
+
+        // ==========================================
+        // THEME CONFIGURATION LOGIC
+        // ==========================================
+        const themeConfigBtn = document.getElementById('theme-config-btn');
+        const imessageThemesBtn = document.getElementById('imessage-themes-btn');
+        const themeConfigSheet = document.getElementById('theme-config-sheet');
+        const desktopThemeConfigSheet = document.getElementById('desktop-theme-config-sheet');
+
+        function applySavedTheme() {
+            window.u2ThemeState = themeState;
+            applyThemeBackground(themeState);
+            applyThemeFont(themeState);
+            applyThemeAppIcons(themeState);
+            if (window.imApp && window.imApp.applyGlobalChatCss) {
+                window.imApp.applyGlobalChatCss(themeState);
+            }
+        }
+        
+        function openDesktopThemeConfig() {
+            ensureThemeFontStateShape();
+            const themeBgUrlInput = document.getElementById('theme-bg-url-input');
+            if (themeBgUrlInput) themeBgUrlInput.value = themeState.bgUrl || '';
+            syncThemeFontInputsFromState();
+            renderThemeFontPresetLists();
+            renderThemeFontPreview();
+            renderThemeAppList();
+            openView(desktopThemeConfigSheet);
+        }
+
+        function openImessageThemeConfig() {
+            const bubbleCssInput = document.getElementById('theme-bubble-css-input');
+            if (bubbleCssInput) bubbleCssInput.value = window.imData?.currentSettingsFriend?.customCss || '';
+
+            const chatCssInput = document.getElementById('theme-chat-css-input');
+            if (chatCssInput) chatCssInput.value = themeState.imessageChatCss || '';
+
+            const statusCssInput = document.getElementById('theme-status-css-input');
+            if (statusCssInput) statusCssInput.value = window.imData?.currentSettingsFriend?.statusCss || '';
+
+            openView(themeConfigSheet);
+        }
+
+        if (themeConfigBtn && desktopThemeConfigSheet) {
+            themeConfigBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                openDesktopThemeConfig();
+            });
+        }
+
+        if (imessageThemesBtn && themeConfigSheet) {
+            imessageThemesBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                openImessageThemeConfig();
+            });
+        }
+
+        // Theme Tabs Logic
+        const themeTabs = document.querySelectorAll('.theme-tab');
+        const themeTabContents = document.querySelectorAll('.theme-tab-content');
+        
+        themeTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const targetId = tab.getAttribute('data-target');
+                themeTabs.forEach(t => {
+                    t.classList.remove('active');
+                    t.style.color = '#8e8e93';
+                });
+                tab.classList.add('active');
+                tab.style.color = 'var(--blue-color)';
+                
+                themeTabContents.forEach(content => {
+                    if (content.id === targetId) {
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        const themeBubbleCssInput = document.getElementById('theme-bubble-css-input');
+        const themeBubbleClearBtn = document.getElementById('theme-bubble-clear-btn');
+        const themeBubbleCopyBtn = document.getElementById('theme-bubble-copy-btn');
+        const themeBubbleApplyBtn = document.getElementById('theme-bubble-apply-btn');
+        const themeChatCopyBtn = document.getElementById('theme-chat-copy-btn');
+        const themeStatusCopyBtn = document.getElementById('theme-status-copy-btn');
+        const themeBubbleSaveBtn = document.getElementById('theme-bubble-save-btn');
+        const themeBubblePresetName = document.getElementById('theme-bubble-preset-name');
+        
+        const themeChatCssInput = document.getElementById('theme-chat-css-input');
+        const themeChatClearBtn = document.getElementById('theme-chat-clear-btn');
+        const themeChatSaveBtn = document.getElementById('theme-chat-save-btn');
+        const themeChatPresetName = document.getElementById('theme-chat-preset-name');
+        const themeChatPresetList = document.getElementById('theme-chat-preset-list');
+        
+        const themeStatusCssInput = document.getElementById('theme-status-css-input');
+        const themeStatusClearBtn = document.getElementById('theme-status-clear-btn');
+        const themeStatusSaveBtn = document.getElementById('theme-status-save-btn');
+        const themeStatusPresetName = document.getElementById('theme-status-preset-name');
+        const themeStatusPresetList = document.getElementById('theme-status-preset-list');
+        
+        const themeBubblePresetList = document.getElementById('theme-bubble-preset-list');
+        
+        // --- 新增的“主题美化”模块变量 ---
+        const chatThemeBeautifyToggle = document.getElementById('chat-theme-beautify-toggle');
+        const chatThemeBeautifyBody = document.getElementById('chat-theme-beautify-body');
+        const chatThemeBubbleSelect = document.getElementById('chat-theme-bubble-select');
+        const chatThemeChatSelect = document.getElementById('chat-theme-chat-select');
+        const chatThemeStatusSelect = document.getElementById('chat-theme-status-select');
+        const chatThemeApplyBtn = document.getElementById('chat-theme-apply-btn');
+
+        // 控制“主题美化”展开折叠
+        if (chatThemeBeautifyToggle && chatThemeBeautifyBody) {
+            chatThemeBeautifyToggle.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    chatThemeBeautifyBody.style.display = 'flex';
+                    if (window.imData && window.imData.currentSettingsFriend) {
+                        const friend = window.imData.currentSettingsFriend;
+                        if (chatThemeBubbleSelect && friend.customCssEnabled) {
+                            chatThemeBubbleSelect.value = friend.customCss || '';
+                        }
+                        if (chatThemeStatusSelect && friend.statusCssEnabled) {
+                            chatThemeStatusSelect.value = friend.statusCss || '';
+                        }
+                    }
+                    if (chatThemeChatSelect && themeState.imessageChatCssEnabled) {
+                        chatThemeChatSelect.value = themeState.imessageChatCss || '';
+                    }
+                } else {
+                    chatThemeBeautifyBody.style.display = 'none';
+                }
+            });
+        }
+        
+        // Clear Bubble CSS
+        if (themeBubbleClearBtn) {
+            themeBubbleClearBtn.addEventListener('click', async () => {
+                 if (window.imData && window.imData.currentSettingsFriend) {
+                    const friend = window.imData.currentSettingsFriend;
+                    if (window.imApp && window.imApp.commitScopedFriendChange) {
+                        const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                            targetFriend.customCss = '';
+                            targetFriend.customCssEnabled = false;
+                        }, { silent: true, syncSettings: true });
+                        
+                        if (saved) {
+                            if (themeBubbleCssInput) themeBubbleCssInput.value = '';
+                            if (window.imApp.applyFriendCss) window.imApp.applyFriendCss(window.imData.currentSettingsFriend);
+                            showToast('已清空气泡样式');
+                        } else {
+                            showToast('清空气泡样式失败');
+                        }
+                    }
+                } else {
+                    showToast('请先选择一个朋友');
+                }
+            });
+        }
+        
+        // Clear Chat CSS
+        if (themeChatClearBtn) {
+            themeChatClearBtn.addEventListener('click', () => {
+                themeState.imessageChatCss = '';
+                themeState.imessageChatCssEnabled = false;
+                window.u2ThemeState = themeState;
+                if (themeChatCssInput) themeChatCssInput.value = '';
+                if (window.imApp && window.imApp.applyGlobalChatCss) {
+                    window.imApp.applyGlobalChatCss(themeState);
+                }
+                saveGlobalData();
+                showToast('Chat CSS cleared');
+            });
+        }
+
+        // Clear Status CSS
+        if (themeStatusClearBtn) {
+            themeStatusClearBtn.addEventListener('click', async () => {
+                 if (window.imData && window.imData.currentSettingsFriend) {
+                    const friend = window.imData.currentSettingsFriend;
+                    if (window.imApp && window.imApp.commitScopedFriendChange) {
+                        const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                            targetFriend.statusCss = '';
+                            targetFriend.statusCssEnabled = false;
+                        }, { silent: true, syncSettings: true });
+                        
+                        if (saved) {
+                            if (themeStatusCssInput) themeStatusCssInput.value = '';
+                            if (window.imApp.applyFriendCss) window.imApp.applyFriendCss(window.imData.currentSettingsFriend);
+                            showToast('已清空状态栏 CSS');
+                        } else {
+                            showToast('清空状态栏 CSS 失败');
+                        }
+                    }
+                } else {
+                    showToast('请先选择一个朋友');
+                }
+            });
+        }
+
+        if (themeBubbleCopyBtn) {
+            themeBubbleCopyBtn.addEventListener('click', () => {
+                const bubbleTemplate = `/* 气泡默认结构参考 */
+.chat-row.user .chat-bubble {
+  background: #111 !important;
+  color: #fff !important;
+  border-radius: 16px 16px 4px 16px !important;
+}
+.chat-row.char .chat-bubble {
+  background: #e9e9ee !important;
+  color: #111 !important;
+  border-radius: 16px 16px 16px 4px !important;
+}`;
+                navigator.clipboard.writeText(bubbleTemplate).then(() => {
+                    if (window.showToast) window.showToast('已复制气泡源码结构');
+                }).catch(err => {
+                    console.error('Copy failed', err);
+                    if (window.showToast) window.showToast('复制失败');
+                });
+            });
+        }
+
+        if (themeChatCopyBtn) {
+            themeChatCopyBtn.addEventListener('click', () => {
+                const chatTemplate = `/* Chat 界面默认结构参考 */
+.active-chat-interface {
+  background-color: #ffffff;
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* 顶部栏区域 */
+.chat-sticky-container {
+  border-bottom: 1px solid #f2f2f7;
+  padding-bottom: 5px;
+}
+.chat-top-bar {
+  background-color: transparent;
+  backdrop-filter: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 44px;
+}
+
+/* 顶部左侧返回按钮 */
+.chat-back-btn {
+  cursor: pointer;
+  padding: 5px 5px 5px 0;
+  color: #000;
+}
+
+/* 顶部头像 */
+.ins-chat-avatar {
+  margin: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #e5e5ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e8e93;
+  overflow: hidden;
+}
+
+/* 名字和签名区域 */
+.ins-chat-name {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000;
+}
+.ins-chat-sign {
+  font-size: 13px;
+  color: #8e8e93;
+}
+
+/* 顶部右侧菜单按钮 */
+.chat-menu-btn {
+  cursor: pointer;
+  padding: 5px;
+  color: #000;
+}
+
+/* 聊天消息列表区域 */
+.ins-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 底部输入框区域 */
+.ins-chat-input-container {
+  background-color: #ffffff;
+  border-top: 1px solid #f2f2f7;
+  padding: 10px 16px 20px;
+}
+.ins-chat-input-wrapper {
+  background-color: #f2f2f7;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+}
+.ins-message-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  color: #111;
+}
+
+/* 左侧加号图标 */
+.ins-input-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #007aff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* 右侧发送与麦克风图标 */
+.send-btn-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #007aff;
+  font-size: 18px;
+}`;
+                navigator.clipboard.writeText(chatTemplate).then(() => {
+                    if (window.showToast) window.showToast('已复制 Chat 源码结构');
+                }).catch(err => {
+                    console.error('Copy failed', err);
+                    if (window.showToast) window.showToast('复制失败');
+                });
+            });
+        }
+
+        if (themeStatusCopyBtn) {
+            themeStatusCopyBtn.addEventListener('click', () => {
+                const statusTemplate = `/* 状态栏资料卡（点击头像弹出）默认结构参考 */
+/* 主卡片容器 */
+.chat-profile-panel-card {
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+/* 顶部背景区 */
+.chat-profile-panel-header {
+  height: 88px;
+  background: linear-gradient(180deg, #f2f2f7 0%, #ffffff 100%);
+}
+
+/* 头像容器 */
+.chat-profile-panel-header .gmp-avatar {
+  width: 66px;
+  height: 66px;
+  border: 3px solid #ffffff;
+}
+
+/* 在线状态绿点/文本气泡 */
+.gmp-status-bubble {
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
+  color: #333;
+}
+
+/* 名字区域 */
+.gmp-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+/* 签名区域 */
+.gmp-signature {
+  font-size: 13px;
+  color: #8e8e93;
+}
+
+/* 内心想法气泡 (thought) */
+.gmp-inner-voice, .chat-profile-panel-thought {
+  background: #f2f2f7;
+  color: #333;
+  border-radius: 16px;
+}
+
+/* 底部悬浮的切换 Tab 按钮 */
+.chat-profile-panel-tab-btn {
+  background: #fff;
+  color: #111;
+}
+.chat-profile-panel-tab-btn.active {
+  background: #111;
+  color: #fff;
+}`;
+                navigator.clipboard.writeText(statusTemplate).then(() => {
+                    if (window.showToast) window.showToast('已复制状态栏源码结构');
+                }).catch(err => {
+                    console.error('Copy failed', err);
+                    if (window.showToast) window.showToast('复制失败');
+                });
+            });
+        }
+
+        // Preset management logic
+        function loadPresets(type) {
+            const presets = window.StorageManager ? window.StorageManager.load(`u2_theme_${type}Presets`, []) : [];
+            return Array.isArray(presets) ? presets : [];
+        }
+
+        function savePresets(type, presets) {
+            if (window.StorageManager) {
+                window.StorageManager.save(`u2_theme_${type}Presets`, presets);
+            }
+        }
+
+        function updatePresetSelect(type, selectEl) {
+            if (!selectEl) return;
+            const presets = loadPresets(type);
+            selectEl.innerHTML = '<option value="">选择已保存的预设加载</option>';
+            presets.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p.css;
+                opt.textContent = p.name;
+                selectEl.appendChild(opt);
+            });
+        }
+
+        function renderThemePresetList(type, listEl, selectEl, cssInputEl) {
+            if (!listEl) return;
+            listEl.innerHTML = '';
+            const presets = loadPresets(type);
+            
+            if (presets.length === 0) {
+                listEl.innerHTML = '<div style="padding: 20px; text-align: center; color: #8e8e93;">暂无预设</div>';
+                return;
+            }
+
+            presets.forEach(preset => {
+                const item = document.createElement('div');
+                item.className = 'account-card';
+                item.style.marginBottom = '10px';
+                
+                const cssPreview = preset.css.length > 50 ? preset.css.substring(0, 50) + '...' : preset.css;
+                
+                item.innerHTML = `
+                    <div class="account-content" style="cursor: pointer;">
+                        <div class="account-info">
+                            <div class="account-name">${preset.name}</div>
+                            <div class="account-detail" style="font-family: monospace; font-size: 11px;">${cssPreview}</div>
+                        </div>
+                        <i class="fas fa-times delete-icon"></i>
+                    </div>
+                `;
+
+                item.querySelector('.account-content').addEventListener('click', (e) => {
+                    if (e.target.classList.contains('delete-icon') || e.target.closest('.delete-icon')) return;
+                    if (cssInputEl) {
+                        cssInputEl.value = preset.css;
+                        if (window.showToast) window.showToast(`已应用预设 "${preset.name}" 的代码`);
+                    }
+                });
+
+                item.querySelector('.delete-icon').addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    if (confirm(`删除预设“${preset.name}”？`)) {
+                        const newPresets = presets.filter(p => p.id !== preset.id);
+                        savePresets(type, newPresets);
+                        updatePresetSelect(type, selectEl);
+                        renderThemePresetList(type, listEl, selectEl, cssInputEl);
+                        if (window.showToast) window.showToast('预设已删除');
+                    }
+                });
+
+                listEl.appendChild(item);
+            });
+        }
+
+        function setupPresetLogic(type, saveBtn, nameInput, selectEl, listEl, cssInputEl) {
+            if (saveBtn) {
+                saveBtn.addEventListener('click', () => {
+                    let cssInput;
+                    if (type === 'bubble') cssInput = themeBubbleCssInput;
+                    else if (type === 'chat') cssInput = themeChatCssInput;
+                    else if (type === 'status') cssInput = themeStatusCssInput;
+
+                    const name = nameInput ? nameInput.value.trim() : '';
+                    const css = cssInput ? cssInput.value.trim() : '';
+                    if (!name) {
+                        if (window.showToast) window.showToast('请输入预设名字');
+                        return;
+                    }
+                    if (!css) {
+                        if (window.showToast) window.showToast('CSS 代码不能为空');
+                        return;
+                    }
+                    const presets = loadPresets(type);
+                    const existingIndex = presets.findIndex(p => p.name === name);
+                    if (existingIndex >= 0) {
+                        presets[existingIndex].css = css;
+                    } else {
+                        presets.push({ id: Date.now(), name, css });
+                    }
+                    savePresets(type, presets);
+                    updatePresetSelect(type, selectEl);
+                    if (nameInput) nameInput.value = '';
+                    if (window.showToast) window.showToast(`预设 "${name}" 已保存`);
+                });
+            }
+
+            if (selectEl) {
+                // Initial load
+                updatePresetSelect(type, selectEl);
+            }
+            if (listEl) {
+                renderThemePresetList(type, listEl, selectEl, cssInputEl);
+            }
+        }
+
+        setupPresetLogic('bubble', themeBubbleSaveBtn, themeBubblePresetName, chatThemeBubbleSelect, themeBubblePresetList, themeBubbleCssInput);
+        setupPresetLogic('chat', themeChatSaveBtn, themeChatPresetName, chatThemeChatSelect, themeChatPresetList, themeChatCssInput);
+        setupPresetLogic('status', themeStatusSaveBtn, themeStatusPresetName, chatThemeStatusSelect, themeStatusPresetList, themeStatusCssInput);
+        
+        // "应用"按钮统一逻辑
+        if (chatThemeApplyBtn) {
+            chatThemeApplyBtn.addEventListener('click', async () => {
+                if (!window.imData || !window.imData.currentSettingsFriend) {
+                    showToast('请先选择一个朋友');
+                    return;
+                }
+                
+                const friend = window.imData.currentSettingsFriend;
+                const nextBubbleCss = chatThemeBubbleSelect ? chatThemeBubbleSelect.value : '';
+                const nextChatCss = chatThemeChatSelect ? chatThemeChatSelect.value : '';
+                const nextStatusCss = chatThemeStatusSelect ? chatThemeStatusSelect.value : '';
+
+                if (window.imApp && window.imApp.commitScopedFriendChange) {
+                    const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                        // 气泡 CSS
+                        targetFriend.customCss = nextBubbleCss;
+                        targetFriend.customCssEnabled = !!nextBubbleCss;
+                        
+                        // 状态栏 CSS
+                        targetFriend.statusCss = nextStatusCss;
+                        targetFriend.statusCssEnabled = !!nextStatusCss;
+                    }, { silent: true, syncSettings: true });
+                    
+                    if (saved) {
+                        // Chat CSS 通常作为全局设置，或可挂载到当前对象。这里将其设为全局主题配置以适配现有逻辑
+                        themeState.imessageChatCss = nextChatCss;
+                        themeState.imessageChatCssEnabled = !!nextChatCss;
+                        window.u2ThemeState = themeState;
+                        saveGlobalData();
+
+                        if (window.imApp.applyGlobalChatCss) {
+                            window.imApp.applyGlobalChatCss(themeState);
+                        }
+
+                        if (window.imApp.applyFriendCss) {
+                            window.imApp.applyFriendCss(window.imData.currentSettingsFriend);
+                        }
+                        
+                        showToast('主题美化已应用');
+                    } else {
+                        showToast('应用主题失败');
+                    }
+                }
+            });
+        }
+        // Theme Background
+        const themeBgUploadBtn = document.getElementById('theme-bg-upload-btn');
+        const themeBgResetBtn = document.getElementById('theme-bg-reset-btn');
+        const themeBgFileInput = document.getElementById('theme-bg-file-input');
+        
+        if (themeBgUploadBtn) themeBgUploadBtn.addEventListener('click', () => themeBgFileInput?.click());
+        if (themeBgResetBtn) {
+            themeBgResetBtn.addEventListener('click', () => {
+                themeState.bgUrl = null;
+                commitThemeBackgroundChanges('背景已重置');
+            });
+        }
+        
+        if (themeBgFileInput) {
+            themeBgFileInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        // Resize for background if compressImage is available
+                        if (window.compressImage) {
+                            window.compressImage(event.target.result, 1080, 1920, (compressedUrl) => {
+                                themeState.bgUrl = compressedUrl;
+                                commitThemeBackgroundChanges('背景已更新');
+                            });
+                        } else {
+                            themeState.bgUrl = event.target.result;
+                            commitThemeBackgroundChanges('背景已更新');
+                        }
+                    };
+                    reader.readAsDataURL(file);
+                }
+                e.target.value = '';
+            });
+        }
+        
+        function applyThemeBackground(state) {
+            const appEl = document.getElementById('app');
+            if (!appEl) return;
+            const bgUrl = typeof state.bgUrl === 'string' ? state.bgUrl.trim() : '';
+            if (bgUrl) {
+                appEl.style.backgroundImage = `url(${bgUrl})`;
+                appEl.style.backgroundSize = 'cover';
+                appEl.style.backgroundPosition = 'center';
+                appEl.style.backgroundColor = 'transparent';
+                document.body.style.backgroundImage = `url(${bgUrl})`;
+                document.body.style.backgroundSize = 'cover';
+                document.body.style.backgroundPosition = 'center';
+            } else {
+                appEl.style.backgroundImage = '';
+                appEl.style.backgroundColor = '';
+                document.body.style.backgroundImage = '';
+                document.body.style.backgroundSize = '';
+                document.body.style.backgroundPosition = '';
+            }
+        }
+        
+        function commitThemeBackgroundChanges(toastMessage = '') {
+            applyThemeBackground(themeState);
+            saveGlobalData();
+            if (toastMessage) showToast(toastMessage);
+        }
+
+        // Theme Apps Icons
+        const themeAppListContainer = document.getElementById('theme-app-list');
+        const themeAppFileInput = document.getElementById('theme-app-file-input');
+        const resetAllIconsBtn = document.getElementById('theme-reset-all-icons-btn');
+        let currentEditingAppIndex = -1;
+        
+        if (resetAllIconsBtn) {
+            resetAllIconsBtn.addEventListener('click', () => {
+                themeState.apps.forEach(app => { app.icon = null; });
+                commitThemeAppIconChanges('应用图标已全部重置');
+            });
+        }
+        
+        if (themeAppFileInput) {
+            themeAppFileInput.addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file && currentEditingAppIndex >= 0) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        if (window.compressImage) {
+                            window.compressImage(event.target.result, 150, 150, (compressedUrl) => {
+                                const appName = themeState.apps[currentEditingAppIndex]?.name || '应用';
+                                themeState.apps[currentEditingAppIndex].icon = compressedUrl;
+                                commitThemeAppIconChanges(`${appName} 图标已更新`);
+                            });
+                        } else {
+                            const appName = themeState.apps[currentEditingAppIndex]?.name || '应用';
+                            themeState.apps[currentEditingAppIndex].icon = event.target.result;
+                            commitThemeAppIconChanges(`${appName} 图标已更新`);
+                        }
+                    };
+                    reader.readAsDataURL(file);
+                }
+                e.target.value = '';
+            });
+        }
+        
+        function renderThemeAppList() {
+            if (!themeAppListContainer) return;
+            themeAppListContainer.innerHTML = '';
+        
+            themeState.apps.forEach((app, index) => {
+                const item = document.createElement('div');
+                item.className = 'form-item';
+                item.style.padding = '8px 16px';
+                item.style.height = '60px';
+                item.style.display = 'flex';
+                item.style.justifyContent = 'space-between';
+                item.style.alignItems = 'center';
+                item.style.borderBottom = '1px solid #f2f2f7';
+                
+                let iconHtml = '';
+                if (app.icon) {
+                    iconHtml = `<div style="width: 40px; height: 40px; border-radius: 10px; background-image: url('${app.icon}'); background-size: cover; background-position: center; border: 1px solid #e5e5ea; flex-shrink: 0;"></div>`;
+                } else {
+                    iconHtml = `<div style="width: 40px; height: 40px; border-radius: 10px; background-color: #f2f2f7; border: 1px solid #e5e5ea; display: flex; align-items: center; justify-content: center; color: #c7c7cc; flex-shrink: 0;"><i class="fas fa-image"></i></div>`;
+                }
+        
+                item.innerHTML = `
+                    <div style="display: flex; align-items: center; flex: 1;">
+                        ${iconHtml}
+                        <div style="margin-left: 12px; font-size: 16px; font-weight: 500; color: #000;">${app.name}</div>
+                    </div>
+                    <div style="display: flex; gap: 8px;">
+                        <div class="reset-single-app-btn" style="width: 32px; height: 32px; border-radius: 50%; background: #ffebee; color: #ff3b30; display: flex; justify-content: center; align-items: center; cursor: pointer;">
+                            <i class="fas fa-undo" style="font-size: 14px;"></i>
+                        </div>
+                        <div class="upload-single-app-btn" style="width: 32px; height: 32px; border-radius: 50%; background: #e8f5e9; color: #34c759; display: flex; justify-content: center; align-items: center; cursor: pointer;">
+                            <i class="fas fa-upload" style="font-size: 14px;"></i>
+                        </div>
+                    </div>
+                `;
+                
+                const resetBtn = item.querySelector('.reset-single-app-btn');
+                resetBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    themeState.apps[index].icon = null;
+                    commitThemeAppIconChanges(`${app.name} 图标已重置`);
+                });
+        
+                const uploadBtn = item.querySelector('.upload-single-app-btn');
+                uploadBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    currentEditingAppIndex = index;
+                    themeAppFileInput?.click();
+                });
+        
+                themeAppListContainer.appendChild(item);
+            });
+        }
+        
+        function applyThemeAppIcons(state) {
+            if (!Array.isArray(state.apps)) return;
+            state.apps.forEach(app => applyAppIconStyles(app));
+        }
+        
+        function commitThemeAppIconChanges(toastMessage = '') {
+            applyThemeAppIcons(themeState);
+            renderThemeAppList();
+            saveGlobalData();
+            if (toastMessage) showToast(toastMessage);
+        }
+        
+        function applyAppIconStyles(app) {
+            const el = document.getElementById(app.id);
+            if (!el) return;
+        
+            const appItem = el.classList.contains('app-item') ? el : el.closest('.app-item');
+            const iconDiv = el.classList.contains('app-icon') ? el : (el.querySelector('.app-icon') || appItem?.querySelector('.app-icon'));
+            const nameEl = appItem ? appItem.querySelector('.app-name') : el.querySelector('.app-name');
+        
+            if (nameEl && app.name) {
+                nameEl.textContent = app.name;
+            }
+        
+            if (!iconDiv) return;
+        
+            const ensureIconElement = (className, extraStyle = '') => {
+                iconDiv.innerHTML = `<i class="${className}" style="${extraStyle}"></i>`;
+                return iconDiv.querySelector('i');
+            };
+        
+            if (app.icon) {
+                iconDiv.innerHTML = '';
+            iconDiv.style.backgroundImage = `url(${app.icon})`;
+            iconDiv.style.backgroundSize = 'cover';
+            iconDiv.style.backgroundPosition = 'center';
+            iconDiv.style.backgroundColor = 'transparent';
+            // Reset possible inner borders
+            iconDiv.style.border = 'none';
+            } else {
+                iconDiv.style.backgroundImage = 'none';
+                iconDiv.style.backgroundSize = '';
+                iconDiv.style.backgroundPosition = '';
+                iconDiv.style.backgroundColor = '';
+                iconDiv.style.color = '';
+                iconDiv.style.border = '1px solid #e5e5ea';
+                iconDiv.style.display = 'flex';
+                iconDiv.style.justifyContent = 'center';
+                iconDiv.style.alignItems = 'center';
+                iconDiv.innerHTML = '';
+        
+                const isCustomBg = !!window.u2ThemeState?.bgUrl;
+                const defaultBg = isCustomBg ? 'rgba(255, 255, 255, 0.7)' : '#ffffff';
+                const defaultImessageBg = isCustomBg ? 'rgba(255, 255, 255, 0.8)' : 'linear-gradient(180deg, #ffffff 0%, #f2f2f7 100%)';
+
+                if (app.id === 'dock-icon-settings') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-cog');
+                } else if (app.id === 'dock-icon-imessage') {
+                    iconDiv.style.background = defaultImessageBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-comment');
+                } else if (app.id === 'dock-icon-youtube') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    iconDiv.style.fontSize = '38px';
+                    ensureIconElement('fab fa-youtube');
+                } else if (app.id === 'app-icon-1') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-wallet');
+                } else if (app.id === 'app-icon-2') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fab fa-tiktok');
+                } else if (app.id === 'app-icon-3') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-layer-group', 'font-size: 26px;');
+                } else if (app.id === 'app-icon-4') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fa-brands fa-x-twitter', 'font-size: 26px;');
+                } else if (app.id === 'app-icon-5') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-shopping-bag', 'color: #1c1c1e; font-size: 30px; filter: none;');
+                } else if (app.id === 'app-icon-6') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    iconDiv.style.fontSize = '30px';
+                    ensureIconElement('fas fa-phone', 'color: #1c1c1e; font-size: 30px; filter: none;');
+                } else if (app.id === 'app-icon-7') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    iconDiv.style.border = isCustomBg ? 'none' : '1px solid #e5e5ea';
+                    iconDiv.style.fontSize = '32px';
+                    iconDiv.style.fontWeight = '900';
+                    iconDiv.style.fontFamily = 'Arial, sans-serif';
+                    iconDiv.style.letterSpacing = '-1px';
+                    iconDiv.innerHTML = 'N';
+                } else if (app.id === 'app-icon-8') {
+                    iconDiv.style.background = defaultBg;
+                    iconDiv.style.color = '#1c1c1e';
+                    ensureIconElement('fas fa-heart', 'color: #1c1c1e; font-size: 28px;');
+                }
+            }
+        }
+
+        // Theme Font Logic
+        const themeFontBtn = document.getElementById('theme-font-btn');
+        const themeFontModal = document.getElementById('theme-font-modal');
+        const themeFontCloseBtn = document.getElementById('theme-font-close-btn');
+        const themeFontResetBtn = document.getElementById('theme-font-reset-btn');
+        const themeFontLinkFocusBtn = document.getElementById('theme-font-link-focus-btn');
+        const themeFontApplyCustomBtn = document.getElementById('theme-font-apply-custom-btn');
+        const themeFontSavePresetBtn = document.getElementById('theme-font-save-preset-btn');
+        const themeFontCustomSection = document.getElementById('theme-font-custom-section');
+        const themeFontModalPreview = document.getElementById('theme-font-modal-preview');
+        const themeFontCurrentLabel = document.getElementById('theme-font-current-label');
+        const themeFontModalPresetList = document.getElementById('theme-font-modal-preset-list');
+        const themeFontModalUserPresetList = document.getElementById('theme-font-modal-user-preset-list');
+        const themeFontNameInput = document.getElementById('theme-font-name-input');
+        const themeFontUrlInput = document.getElementById('theme-font-url-input');
+        const themeFontSizeSlider = document.getElementById('theme-font-size-slider');
+        const themeFontSizeValue = document.getElementById('theme-font-size-value');
+        const THEME_FONT_PREVIEW_TEXT = 'Aa 你好 Hello 123';
+        let themeFontSaveTimer = null;
+        
+        function cloneThemeFontSources(sources = {}) {
+            return {
+                woff2: typeof sources.woff2 === 'string' ? sources.woff2.trim() : '',
+                woff: typeof sources.woff === 'string' ? sources.woff.trim() : '',
+                ttf: typeof sources.ttf === 'string' ? sources.ttf.trim() : ''
+            };
+        }
+
+        function normalizeThemeFontSize(value) {
+            const parsed = Number(value);
+            if (!Number.isFinite(parsed)) return 16;
+            return Math.min(24, Math.max(12, Math.round(parsed)));
+        }
+
+        function sanitizeThemeFontCssName(value) {
+            const sanitized = String(value || '').trim().replace(/["']/g, '').replace(/[{}]/g, '').replace(/\s+/g, ' ');
+            return sanitized || 'CustomThemeFont';
+        }
+
+        function buildThemeFontFamily(cssName) {
+            return `"${cssName}", system-ui`;
+        }
+
+        function normalizeThemeFontPreset(preset = {}, fallbackIndex = 0) {
+            const normalizedName = sanitizeThemeFontCssName(preset.name || preset.label || preset.cssName || `CustomFont${fallbackIndex + 1}`);
+            return {
+                id: typeof preset.id === 'string' && preset.id ? preset.id : `font_preset_${Date.now()}_${fallbackIndex}`,
+                type: 'user',
+                name: normalizedName,
+                label: normalizedName,
+                cssName: sanitizeThemeFontCssName(preset.cssName || normalizedName),
+                family: buildThemeFontFamily(preset.cssName || normalizedName),
+                sources: cloneThemeFontSources(preset.sources)
+            };
+        }
+
+        function ensureThemeFontStateShape() {
+            if (!themeState || typeof themeState !== 'object') return;
+            if (!themeState.fontMode) themeState.fontMode = 'preset';
+            if (!themeState.fontPresetKey) themeState.fontPresetKey = 'system-default';
+            if (!themeState.fontFamily) themeState.fontFamily = DEFAULT_SYSTEM_THEME_FONT_FAMILY;
+            if (typeof themeState.fontCssName !== 'string') themeState.fontCssName = '';
+            themeState.fontSize = normalizeThemeFontSize(themeState.fontSize);
+
+            const builtin = BUILTIN_THEME_FONTS.find(f => f.key === themeState.fontPresetKey) || BUILTIN_THEME_FONTS[0];
+            if (themeState.fontMode !== 'saved') {
+                themeState.fontPresetKey = builtin.key;
+                themeState.fontFamily = builtin.family || DEFAULT_SYSTEM_THEME_FONT_FAMILY;
+                themeState.fontCssName = builtin.cssName || '';
+            }
+
+            if (!themeState.fontSources || typeof themeState.fontSources !== 'object') {
+                themeState.fontSources = cloneThemeFontSources(builtin.sources);
+            } else {
+                themeState.fontSources = cloneThemeFontSources(themeState.fontSources);
+            }
+
+            if (!Array.isArray(themeState.savedFontPresets)) {
+                themeState.savedFontPresets = [];
+            } else {
+                themeState.savedFontPresets = themeState.savedFontPresets.map((preset, index) => normalizeThemeFontPreset(preset, index));
+            }
+        }
+
+        function getActiveThemeFontDefinition(state = themeState) {
+            ensureThemeFontStateShape();
+            if (state.fontMode === 'saved') {
+                const savedPreset = state.savedFontPresets.find(p => p.id === state.fontPresetKey);
+                if (savedPreset) {
+                    return { ...savedPreset, type: 'user' };
+                }
+            }
+            const preset = BUILTIN_THEME_FONTS.find(f => f.key === state.fontPresetKey) || BUILTIN_THEME_FONTS[0];
+            return { ...preset, type: 'builtin' };
+        }
+
+        function buildThemeFontFaceCss(cssName, sources = {}) {
+            const safeCssName = sanitizeThemeFontCssName(cssName);
+            const safeSources = cloneThemeFontSources(sources);
+            const srcList = [];
+            if (safeSources.woff2) srcList.push(`url("${safeSources.woff2}") format("woff2")`);
+            if (safeSources.woff) srcList.push(`url("${safeSources.woff}") format("woff")`);
+            if (safeSources.ttf) srcList.push(`url("${safeSources.ttf}") format("truetype")`);
+            if (!safeCssName || srcList.length === 0) return '';
+            return `
+            @font-face {
+                font-family: '${safeCssName}';
+                src: ${srcList.join(',\n         ')};
+                font-weight: normal;
+                font-style: normal;
+                font-display: swap;
+            }`.trim();
+        }
+
+        function getThemeFontFaceStyleElement() {
+            let styleEl = document.getElementById('theme-font-face-style');
+            if (!styleEl) {
+                styleEl = document.createElement('style');
+                styleEl.id = 'theme-font-face-style';
+                document.head.appendChild(styleEl);
+            }
+            return styleEl;
+        }
+
+        function getThemeFontAppliedStyleElement() {
+            let styleEl = document.getElementById('theme-font-applied-style');
+            if (!styleEl) {
+                styleEl = document.createElement('style');
+                styleEl.id = 'theme-font-applied-style';
+                document.head.appendChild(styleEl);
+            }
+            return styleEl;
+        }
+
+        function applyThemeFont(state = themeState) {
+            ensureThemeFontStateShape();
+            const definition = getActiveThemeFontDefinition(state);
+            const faceStyleEl = getThemeFontFaceStyleElement();
+            faceStyleEl.textContent = buildThemeFontFaceCss(definition.cssName, definition.sources);
+            
+            const appliedStyleEl = getThemeFontAppliedStyleElement();
+            const resolvedFamily = definition.family || 'system-ui';
+            const resolvedSize = `${normalizeThemeFontSize(state.fontSize)}px`;
+
+            appliedStyleEl.textContent = `
+            :root {
+                --theme-font-family: ${resolvedFamily};
+                --theme-font-size: ${resolvedSize};
+            }
+            body,
+            #app,
+            #app :where(.app-page, .settings-view, .bottom-sheet, .bottom-sheet-overlay, .settings-group, .settings-item, .settings-text, .form-item, .sheet-title, .sheet-action, .chat-bubble, .chat-row, .ins-chat-input-container, .ins-chat-messages, .global-textarea, input, textarea, button, select) {
+                font-family: var(--theme-font-family) !important;
+                font-size: var(--theme-font-size);
+            }
+            #app :where(*):not(i):not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fa-solid):not(.fa-regular):not(.fa-brands) {
+                font-family: var(--theme-font-family) !important;
+            }
+            #app :where(i, .fa, .fas, .far, .fab, .fal, .fa-solid, .fa-regular, .fa-brands),
+            #app :where(i, .fa, .fas, .far, .fab, .fal, .fa-solid, .fa-regular, .fa-brands)::before {
+                font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands" !important;
+            }
+            #app :where(#theme-bubble-css-input, #theme-chat-css-input, #theme-status-css-input, #bubble-css-input, #status-css-input, textarea[placeholder*="CSS"], textarea[placeholder*="css"]) {
+                font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace !important;
+                font-size: 13px !important;
+            }`.trim();
+            
+            document.documentElement.style.setProperty('--theme-font-family', resolvedFamily);
+            document.documentElement.style.setProperty('--theme-font-size', resolvedSize);
+            return definition;
+        }
+
+        function renderThemeFontPreview() {
+            ensureThemeFontStateShape();
+            const definition = getActiveThemeFontDefinition(themeState);
+            const previewSize = `${normalizeThemeFontSize(themeState.fontSize)}px`;
+
+            if (themeFontModalPreview) {
+                themeFontModalPreview.textContent = THEME_FONT_PREVIEW_TEXT;
+                themeFontModalPreview.style.fontFamily = definition.family || 'system-ui';
+                themeFontModalPreview.style.fontSize = previewSize;
+            }
+            if (themeFontSizeValue) themeFontSizeValue.textContent = previewSize;
+            if (themeFontSizeSlider) themeFontSizeSlider.value = String(normalizeThemeFontSize(themeState.fontSize));
+            
+            let labelText = definition.type === 'user' ? `我的预设 · ${definition.label}` : definition.label;
+            if (themeFontCurrentLabel) themeFontCurrentLabel.textContent = `当前字体：${labelText}`;
+        }
+        
+        function syncThemeFontInputsFromState() {
+            ensureThemeFontStateShape();
+            if (themeFontSizeSlider) themeFontSizeSlider.value = String(normalizeThemeFontSize(themeState.fontSize));
+            if (themeFontSizeValue) themeFontSizeValue.textContent = `${normalizeThemeFontSize(themeState.fontSize)}px`;
+            
+            if (themeFontNameInput && themeFontUrlInput) {
+                if (themeState.fontMode === 'saved') {
+                    const preset = themeState.savedFontPresets.find(p => p.id === themeState.fontPresetKey);
+                    if (preset) {
+                        themeFontNameInput.value = preset.name || '';
+                        themeFontUrlInput.value = preset.sources.woff2 || preset.sources.woff || preset.sources.ttf || '';
+                        return;
+                    }
+                }
+                themeFontNameInput.value = '';
+                themeFontUrlInput.value = '';
+            }
+        }
+        
+        function commitThemeFontChanges(toastMessage = '') {
+            renderThemeFontPresetLists();
+            renderThemeFontPreview();
+            applyThemeFont(themeState);
+            saveGlobalData();
+            if (toastMessage) showToast(toastMessage);
+        }
+
+        function scheduleThemeFontSave() {
+            if (themeFontSaveTimer) clearTimeout(themeFontSaveTimer);
+            themeFontSaveTimer = setTimeout(() => {
+                themeFontSaveTimer = null;
+                saveGlobalData();
+            }, 300);
+        }
+
+        function createThemeFontPill({ label, family, isActive, onSelect, onDelete = null }) {
+            const pill = document.createElement('button');
+            pill.type = 'button';
+            pill.className = `theme-font-pill ${isActive ? 'active' : ''}`;
+            pill.style.fontFamily = family || 'system-ui';
+        
+            const pillLabel = document.createElement('span');
+            pillLabel.className = 'theme-font-pill-label';
+            pillLabel.textContent = label;
+            pill.appendChild(pillLabel);
+        
+            pill.addEventListener('click', () => onSelect?.());
+        
+            if (typeof onDelete === 'function') {
+                const deleteBtn = document.createElement('button');
+                deleteBtn.type = 'button';
+                deleteBtn.className = 'theme-font-pill-delete';
+                deleteBtn.innerHTML = '<i class="fas fa-times"></i>';
+                deleteBtn.addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    event.preventDefault();
+                    onDelete();
+                });
+                pill.appendChild(deleteBtn);
+            }
+            return pill;
+        }
+        
+        function renderThemeFontPresetLists() {
+            if (themeFontModalUserPresetList) {
+                themeFontModalUserPresetList.innerHTML = '';
+                
+                // Add Built-in font (Default) to user preset list
+                const builtin = BUILTIN_THEME_FONTS[0];
+                const isBuiltinActive = themeState.fontMode === 'preset' && themeState.fontPresetKey === builtin.key;
+                themeFontModalUserPresetList.appendChild(createThemeFontPill({
+                    label: builtin.label,
+                    family: builtin.family,
+                    isActive: isBuiltinActive,
+                    onSelect: () => {
+                        themeState.fontMode = 'preset';
+                        themeState.fontPresetKey = builtin.key;
+                        themeState.fontCssName = builtin.cssName || '';
+                        themeState.fontFamily = builtin.family || DEFAULT_SYSTEM_THEME_FONT_FAMILY;
+                        themeState.fontSources = cloneThemeFontSources(builtin.sources);
+                        syncThemeFontInputsFromState();
+                        commitThemeFontChanges(`已切换到 ${builtin.label}`);
+                    }
+                    // No onDelete for builtin font
+                }));
+                
+                // Add User Presets
+                themeState.savedFontPresets.forEach((preset) => {
+                    const isActive = themeState.fontMode === 'saved' && themeState.fontPresetKey === preset.id;
+                    themeFontModalUserPresetList.appendChild(createThemeFontPill({
+                        label: preset.label,
+                        family: preset.family,
+                        isActive,
+                        onSelect: () => {
+                            themeState.fontMode = 'saved';
+                            themeState.fontPresetKey = preset.id;
+                            themeState.fontCssName = preset.cssName;
+                            themeState.fontFamily = preset.family;
+                            themeState.fontSources = cloneThemeFontSources(preset.sources);
+                            syncThemeFontInputsFromState();
+                            commitThemeFontChanges(`已切换到 ${preset.label}`);
+                        },
+                        onDelete: () => {
+                            themeState.savedFontPresets = themeState.savedFontPresets.filter(p => p.id !== preset.id);
+                            if (themeState.fontMode === 'saved' && themeState.fontPresetKey === preset.id) {
+                                const builtin = BUILTIN_THEME_FONTS[0];
+                                themeState.fontMode = 'preset';
+                                themeState.fontPresetKey = builtin.key;
+                                themeState.fontCssName = builtin.cssName || '';
+                                themeState.fontFamily = builtin.family || DEFAULT_SYSTEM_THEME_FONT_FAMILY;
+                                themeState.fontSources = cloneThemeFontSources(builtin.sources);
+                            }
+                            syncThemeFontInputsFromState();
+                            commitThemeFontChanges(`已删除预设 ${preset.label}`);
+                        }
+                    }));
+                });
+            }
+        }
+        
+        function buildThemeFontDraftFromInputs() {
+            const cssName = sanitizeThemeFontCssName(themeFontNameInput?.value || '');
+            const rawUrl = String(themeFontUrlInput?.value || '').trim();
+            let fontSources = { woff2: '', woff: '', ttf: '' };
+            if (rawUrl) {
+                const normalizedUrl = rawUrl.split('?')[0].split('#')[0].toLowerCase();
+                if (normalizedUrl.endsWith('.woff2')) fontSources.woff2 = rawUrl;
+                else if (normalizedUrl.endsWith('.woff')) fontSources.woff = rawUrl;
+                else if (normalizedUrl.endsWith('.ttf')) fontSources.ttf = rawUrl;
+                else fontSources.woff2 = rawUrl; // default fallback
+            }
+        
+            if (!fontSources.woff2 && !fontSources.woff && !fontSources.ttf) {
+                showToast('请至少填写一个字体完整链接');
+                return null;
+            }
+            return {
+                id: '', type: 'user', name: cssName, label: cssName, cssName,
+                family: buildThemeFontFamily(cssName), sources: fontSources
+            };
+        }
+
+        if (themeFontBtn) {
+            themeFontBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (themeFontModal) {
+                    syncThemeFontInputsFromState();
+                    renderThemeFontPresetLists();
+                    renderThemeFontPreview();
+                    themeFontModal.style.display = 'flex';
+                    // Trigger reflow
+                    themeFontModal.offsetHeight;
+                    themeFontModal.style.opacity = '1';
+                }
+            });
+        }
+
+        const closeThemeFontModal = () => {
+            if (themeFontModal) {
+                themeFontModal.style.opacity = '0';
+                setTimeout(() => { themeFontModal.style.display = 'none'; }, 300);
+            }
+        };
+
+        if (themeFontCloseBtn) themeFontCloseBtn.addEventListener('click', closeThemeFontModal);
+        
+        if (themeFontResetBtn) {
+            themeFontResetBtn.addEventListener('click', () => {
+                const builtin = BUILTIN_THEME_FONTS[0];
+                themeState.fontMode = 'preset';
+                themeState.fontPresetKey = builtin.key;
+                themeState.fontFamily = builtin.family;
+                themeState.fontCssName = builtin.cssName || '';
+                themeState.fontSources = cloneThemeFontSources(builtin.sources);
+                themeState.fontSize = 16;
+                syncThemeFontInputsFromState();
+                commitThemeFontChanges('字体已重置为默认字体');
+            });
+        }
+        
+        if (themeFontLinkFocusBtn) {
+            themeFontLinkFocusBtn.addEventListener('click', () => {
+                themeFontCustomSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                themeFontNameInput?.focus();
+            });
+        }
+        
+        if (themeFontApplyCustomBtn) {
+            themeFontApplyCustomBtn.addEventListener('click', () => {
+                const draftPreset = buildThemeFontDraftFromInputs();
+                if (!draftPreset) return;
+                themeState.fontMode = 'saved';
+                themeState.fontPresetKey = '__draft__';
+                themeState.fontCssName = draftPreset.cssName;
+                themeState.fontFamily = draftPreset.family;
+                themeState.fontSources = cloneThemeFontSources(draftPreset.sources);
+                commitThemeFontChanges('链接字体已应用');
+            });
+        }
+        
+        if (themeFontSavePresetBtn) {
+            themeFontSavePresetBtn.addEventListener('click', () => {
+                ensureThemeFontStateShape();
+                const draftPreset = buildThemeFontDraftFromInputs();
+                if (!draftPreset) return;
+        
+                const existingIndex = themeState.savedFontPresets.findIndex((preset) => preset.name === draftPreset.name);
+                const presetId = existingIndex >= 0 ? themeState.savedFontPresets[existingIndex].id : `font_preset_${Date.now()}`;
+                const nextPreset = normalizeThemeFontPreset({ ...draftPreset, id: presetId });
+        
+                if (existingIndex >= 0) {
+                    themeState.savedFontPresets[existingIndex] = nextPreset;
+                } else {
+                    themeState.savedFontPresets.push(nextPreset);
+                }
+                
+                themeState.fontMode = 'saved';
+                themeState.fontPresetKey = nextPreset.id;
+                themeState.fontCssName = nextPreset.cssName;
+                themeState.fontFamily = nextPreset.family;
+                themeState.fontSources = cloneThemeFontSources(nextPreset.sources);
+                
+                syncThemeFontInputsFromState();
+                commitThemeFontChanges(existingIndex >= 0 ? '字体预设已更新' : '字体预设已保存');
+            });
+        }
+        
+        if (themeFontSizeSlider) {
+            themeFontSizeSlider.addEventListener('input', (event) => {
+                themeState.fontSize = normalizeThemeFontSize(event.target.value);
+                renderThemeFontPreview();
+                applyThemeFont(themeState);
+                scheduleThemeFontSave();
+            });
+            themeFontSizeSlider.addEventListener('change', (event) => {
+                if (themeFontSaveTimer) {
+                    clearTimeout(themeFontSaveTimer);
+                    themeFontSaveTimer = null;
+                }
+                saveGlobalData();
+                showToast(`字体大小已调整为 ${themeState.fontSize}px`);
+            });
+        }
+        
+        // ==========================================
+        // API CONFIGURATION LOGIC
+        // ==========================================
+        function saveGlobalData() {
+            persistSettingsData();
+        }
+
+        function getBackgroundActivitySettings() {
+            if (window.u2BackgroundActivity && typeof window.u2BackgroundActivity.getSettings === 'function') {
+                return window.u2BackgroundActivity.getSettings();
+            }
+
+            return { enabled: false, intervalSeconds: 60 };
+        }
+
+        function syncBackgroundActivityControls() {
+            const settings = getBackgroundActivitySettings();
+
+            if (UI.inputs.bgActivityToggle) {
+                UI.inputs.bgActivityToggle.checked = !!settings.enabled;
+            }
+        }
+
+        function applyBackgroundActivityControls(showFeedback = false) {
+            const currentSettings = getBackgroundActivitySettings();
+            const intervalSeconds = currentSettings.intervalSeconds || 60;
+            const enabled = !!UI.inputs.bgActivityToggle?.checked;
+
+            if (window.u2BackgroundActivity && typeof window.u2BackgroundActivity.updateSettings === 'function') {
+                window.u2BackgroundActivity.updateSettings({ enabled, intervalSeconds });
+            } else if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('u2_backgroundActivitySettings', { enabled, intervalSeconds, lastTickAt: 0 });
+            }
+
+            if (showFeedback && typeof showToast === 'function') {
+                showToast(enabled ? '后台保活已开启' : '后台保活已关闭');
+            }
+        }
+
+        if (UI.inputs.bgActivityToggle) {
+            UI.inputs.bgActivityToggle.addEventListener('change', () => {
+                applyBackgroundActivityControls(true);
+            });
+        }
+
+        function syncSystemNotificationControls() {
+            if (!UI.inputs.systemNotificationToggle) return;
+
+            const settings = window.u2SystemNotifications?.getSettings
+                ? window.u2SystemNotifications.getSettings()
+                : { enabled: false };
+
+            UI.inputs.systemNotificationToggle.checked = !!settings.enabled;
+        }
+
+        async function applySystemNotificationControls(showFeedback = false) {
+            if (!UI.inputs.systemNotificationToggle) return;
+
+            const enabled = !!UI.inputs.systemNotificationToggle.checked;
+
+            if (window.u2SystemNotifications?.updateSettings) {
+                const result = await window.u2SystemNotifications.updateSettings({ enabled });
+                UI.inputs.systemNotificationToggle.checked = !!result.enabled;
+
+                if (showFeedback && typeof showToast === 'function') {
+                    if (result.unsupported) {
+                        showToast('当前浏览器不支持系统通知');
+                    } else if (result.permission === 'denied') {
+                        showToast('系统通知权限被拒绝，请在浏览器设置中开启');
+                    } else {
+                        showToast(result.enabled ? '消息通知已开启' : '消息通知已关闭');
+                    }
+                }
+                return;
+            }
+
+            UI.inputs.systemNotificationToggle.checked = false;
+            if (showFeedback && typeof showToast === 'function') {
+                showToast('消息通知模块未加载');
+            }
+        }
+
+        if (UI.inputs.systemNotificationToggle) {
+            UI.inputs.systemNotificationToggle.addEventListener('change', () => {
+                applySystemNotificationControls(true);
+            });
+        }
+
+        // -- Global Assistive API Ball --
+        const assistiveBallConfigBtn = document.getElementById('assistive-ball-config-btn');
+        let assistiveBallEl = null;
+        let assistiveBallPanelEl = null;
+        let assistivePresetSelectEl = null;
+        let assistiveDragState = null;
+
+        function getCurrentApiPresetId() {
+            if (!Array.isArray(apiPresets)) return '';
+            const match = apiPresets.find(preset =>
+                (preset.endpoint || '') === (apiConfig.endpoint || '') &&
+                (preset.apiKey || '') === (apiConfig.apiKey || '') &&
+                (preset.model || '') === (apiConfig.model || '') &&
+                String(preset.temp ?? 0.7) === String(apiConfig.temperature ?? 0.7)
+            );
+            return match ? String(match.id) : '';
+        }
+
+        function getApiDisplayValue(value, fallback = '未设置') {
+            const text = String(value || '').trim();
+            return text || fallback;
+        }
+
+        function maskApiKey(key) {
+            const text = String(key || '').trim();
+            if (!text) return '未设置';
+            if (text.length <= 8) return '已填写';
+            return `${text.slice(0, 4)}...${text.slice(-4)}`;
+        }
+
+        function normalizeAssistiveBallOpacity(value) {
+            const numeric = parseFloat(value);
+            if (!Number.isFinite(numeric)) return 0.72;
+            return Math.max(0.2, Math.min(1, numeric > 1 ? numeric / 100 : numeric));
+        }
+
+        function syncAssistiveBallOpacityControls() {
+            assistiveBallSettings.opacity = normalizeAssistiveBallOpacity(assistiveBallSettings.opacity);
+            const percent = Math.round(assistiveBallSettings.opacity * 100);
+            if (UI.inputs.assistiveBallOpacity) {
+                UI.inputs.assistiveBallOpacity.value = String(percent);
+            }
+            if (UI.inputs.assistiveBallOpacityValue) {
+                UI.inputs.assistiveBallOpacityValue.textContent = `${percent}%`;
+            }
+            if (assistiveBallEl) {
+                assistiveBallEl.style.setProperty('--assistive-ball-opacity', assistiveBallSettings.opacity.toFixed(2));
+            }
+        }
+
+        function ensureAssistiveBallDom() {
+            const appContainer = document.getElementById('app') || document.body;
+
+            if (!assistiveBallEl) {
+                assistiveBallEl = document.createElement('div');
+                assistiveBallEl.id = 'global-assistive-api-ball';
+                assistiveBallEl.className = 'assistive-api-ball';
+                assistiveBallEl.setAttribute('role', 'button');
+                assistiveBallEl.setAttribute('aria-label', 'API 悬浮球');
+                assistiveBallEl.innerHTML = '<div class="assistive-api-ball-inner"><i class="fas fa-circle-dot"></i></div>';
+                appContainer.appendChild(assistiveBallEl);
+
+                assistiveBallEl.addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    if (assistiveBallEl.dataset.dragged === 'true') {
+                        assistiveBallEl.dataset.dragged = 'false';
+                        return;
+                    }
+                    openAssistiveBallPanel();
+                });
+                assistiveBallEl.addEventListener('pointerdown', startAssistiveBallDrag);
+                syncAssistiveBallOpacityControls();
+            }
+
+            if (!assistiveBallPanelEl) {
+                assistiveBallPanelEl = document.createElement('div');
+                assistiveBallPanelEl.id = 'global-assistive-api-panel';
+                assistiveBallPanelEl.className = 'assistive-api-panel';
+                assistiveBallPanelEl.innerHTML = `
+                    <div class="assistive-api-panel-title">当前 API</div>
+                    <div class="assistive-api-row">
+                        <span>模型</span>
+                        <strong id="assistive-api-model">未设置</strong>
+                    </div>
+                    <label class="assistive-api-select-wrap">
+                        <span>API 预设</span>
+                        <select id="assistive-api-preset-select"></select>
+                        <i class="fas fa-chevron-down"></i>
+                    </label>
+                `;
+                appContainer.appendChild(assistiveBallPanelEl);
+                assistivePresetSelectEl = assistiveBallPanelEl.querySelector('#assistive-api-preset-select');
+
+                assistiveBallPanelEl.addEventListener('click', (event) => {
+                    event.stopPropagation();
+                    if (event.target === assistiveBallPanelEl) {
+                        closeAssistiveBallPanel();
+                    }
+                });
+
+                assistivePresetSelectEl?.addEventListener('change', (event) => {
+                    applyAssistivePreset(event.target.value);
+                });
+            }
+        }
+
+        function openAssistiveBallPanel() {
+            ensureAssistiveBallDom();
+            syncAssistiveBallPanel();
+            assistiveBallEl.classList.remove('visible');
+            assistiveBallEl.classList.add('panel-open');
+            assistiveBallPanelEl.classList.add('active');
+        }
+
+        function closeAssistiveBallPanel() {
+            if (assistiveBallPanelEl) assistiveBallPanelEl.classList.remove('active');
+            if (assistiveBallEl) {
+                assistiveBallEl.classList.remove('panel-open');
+                assistiveBallEl.classList.toggle('visible', assistiveBallSettings.enabled);
+            }
+        }
+
+        function clampAssistiveBallPosition(x, y) {
+            if (!assistiveBallEl) return { x: 0, y: 0 };
+            const parent = assistiveBallEl.parentElement || document.body;
+            const parentRect = parent.getBoundingClientRect();
+            const ballRect = assistiveBallEl.getBoundingClientRect();
+            const margin = 8;
+            const width = ballRect.width || 58;
+            const height = ballRect.height || 58;
+            return {
+                x: Math.max(margin, Math.min(x, parentRect.width - width - margin)),
+                y: Math.max(margin, Math.min(y, parentRect.height - height - margin))
+            };
+        }
+
+        function applyAssistiveBallPosition() {
+            if (!assistiveBallEl) return;
+            const parent = assistiveBallEl.parentElement || document.body;
+            const parentRect = parent.getBoundingClientRect();
+            const currentRect = assistiveBallEl.getBoundingClientRect();
+            const fallbackX = parentRect.width - (currentRect.width || 58) - 12;
+            const fallbackY = parentRect.height * 0.46;
+            const next = clampAssistiveBallPosition(
+                Number.isFinite(assistiveBallSettings.x) ? assistiveBallSettings.x : fallbackX,
+                Number.isFinite(assistiveBallSettings.y) ? assistiveBallSettings.y : fallbackY
+            );
+            assistiveBallSettings.x = next.x;
+            assistiveBallSettings.y = next.y;
+            assistiveBallEl.style.left = `${next.x}px`;
+            assistiveBallEl.style.top = `${next.y}px`;
+        }
+
+        function startAssistiveBallDrag(event) {
+            if (!assistiveBallEl) return;
+            const parent = assistiveBallEl.parentElement || document.body;
+            const parentRect = parent.getBoundingClientRect();
+            const ballRect = assistiveBallEl.getBoundingClientRect();
+
+            assistiveDragState = {
+                pointerId: event.pointerId,
+                startClientX: event.clientX,
+                startClientY: event.clientY,
+                offsetX: event.clientX - ballRect.left,
+                offsetY: event.clientY - ballRect.top,
+                parentLeft: parentRect.left,
+                parentTop: parentRect.top,
+                moved: false
+            };
+
+            assistiveBallEl.classList.add('dragging');
+            assistiveBallEl.setPointerCapture?.(event.pointerId);
+            assistiveBallEl.addEventListener('pointermove', moveAssistiveBallDrag);
+            assistiveBallEl.addEventListener('pointerup', endAssistiveBallDrag);
+            assistiveBallEl.addEventListener('pointercancel', endAssistiveBallDrag);
+        }
+
+        function moveAssistiveBallDrag(event) {
+            if (!assistiveDragState || !assistiveBallEl) return;
+
+            const deltaX = event.clientX - assistiveDragState.startClientX;
+            const deltaY = event.clientY - assistiveDragState.startClientY;
+            if (Math.abs(deltaX) + Math.abs(deltaY) > 4) {
+                assistiveDragState.moved = true;
+                closeAssistiveBallPanel();
+            }
+
+            const next = clampAssistiveBallPosition(
+                event.clientX - assistiveDragState.parentLeft - assistiveDragState.offsetX,
+                event.clientY - assistiveDragState.parentTop - assistiveDragState.offsetY
+            );
+            assistiveBallSettings.x = next.x;
+            assistiveBallSettings.y = next.y;
+            assistiveBallEl.style.left = `${next.x}px`;
+            assistiveBallEl.style.top = `${next.y}px`;
+        }
+
+        function endAssistiveBallDrag(event) {
+            if (!assistiveBallEl) return;
+            const moved = !!assistiveDragState?.moved;
+            assistiveBallEl.classList.remove('dragging');
+            assistiveBallEl.releasePointerCapture?.(event.pointerId);
+            assistiveBallEl.removeEventListener('pointermove', moveAssistiveBallDrag);
+            assistiveBallEl.removeEventListener('pointerup', endAssistiveBallDrag);
+            assistiveBallEl.removeEventListener('pointercancel', endAssistiveBallDrag);
+            assistiveDragState = null;
+
+            if (moved) {
+                assistiveBallEl.dataset.dragged = 'true';
+                saveGlobalData();
+                window.setTimeout(() => {
+                    if (assistiveBallEl) assistiveBallEl.dataset.dragged = 'false';
+                }, 0);
+            }
+        }
+
+        function syncAssistiveBallPanel() {
+            if (!assistiveBallPanelEl) return;
+
+            const modelEl = assistiveBallPanelEl.querySelector('#assistive-api-model');
+
+            if (modelEl) modelEl.textContent = getApiDisplayValue(apiConfig.model);
+
+            if (!assistivePresetSelectEl) return;
+
+            assistivePresetSelectEl.innerHTML = '';
+            const placeholder = document.createElement('option');
+            placeholder.value = '';
+            placeholder.textContent = Array.isArray(apiPresets) && apiPresets.length ? '选择 API 预设' : '暂无 API 预设';
+            assistivePresetSelectEl.appendChild(placeholder);
+
+            if (Array.isArray(apiPresets)) {
+                apiPresets.forEach((preset) => {
+                    const option = document.createElement('option');
+                    option.value = String(preset.id);
+                    option.textContent = preset.name || '未命名预设';
+                    assistivePresetSelectEl.appendChild(option);
+                });
+            }
+
+            assistivePresetSelectEl.value = getCurrentApiPresetId();
+        }
+
+        function setAssistiveBallEnabled(enabled) {
+            assistiveBallSettings.enabled = !!enabled;
+            if (UI.inputs.assistiveBallToggle) {
+                UI.inputs.assistiveBallToggle.checked = assistiveBallSettings.enabled;
+            }
+
+            ensureAssistiveBallDom();
+            syncAssistiveBallOpacityControls();
+            applyAssistiveBallPosition();
+            assistiveBallEl.classList.toggle('visible', assistiveBallSettings.enabled);
+            if (!assistiveBallSettings.enabled) {
+                closeAssistiveBallPanel();
+            } else {
+                syncAssistiveBallPanel();
+            }
+        }
+
+        function applyAssistivePreset(presetId) {
+            const preset = Array.isArray(apiPresets)
+                ? apiPresets.find(item => String(item.id) === String(presetId))
+                : null;
+            if (!preset) {
+                syncAssistiveBallPanel();
+                return;
+            }
+
+            apiConfig = {
+                endpoint: preset.endpoint || '',
+                apiKey: preset.apiKey || '',
+                model: preset.model || '',
+                temperature: preset.temp ?? 0.7
+            };
+            tempApiConfig = { ...apiConfig };
+            window.apiConfig = apiConfig;
+
+            if (UI.inputs.apiEndpoint) UI.inputs.apiEndpoint.value = apiConfig.endpoint;
+            if (UI.inputs.apiKey) UI.inputs.apiKey.value = apiConfig.apiKey;
+            if (UI.inputs.apiModel) syncSelectValue(UI.inputs.apiModel, apiConfig.model || '');
+            if (UI.inputs.apiTemp) UI.inputs.apiTemp.value = apiConfig.temperature;
+
+            saveGlobalData();
+            syncAssistiveBallPanel();
+            showToast(`已切换到 ${preset.name || '未命名预设'}`);
+        }
+
+        if (assistiveBallConfigBtn && UI.overlays.assistiveBallSettings) {
+            assistiveBallConfigBtn.addEventListener('click', () => {
+                setAssistiveBallEnabled(assistiveBallSettings.enabled);
+                syncAssistiveBallOpacityControls();
+                openView(UI.overlays.assistiveBallSettings);
+            });
+        }
+
+        if (UI.inputs.assistiveBallToggle) {
+            UI.inputs.assistiveBallToggle.addEventListener('change', () => {
+                setAssistiveBallEnabled(UI.inputs.assistiveBallToggle.checked);
+                saveGlobalData();
+                showToast(assistiveBallSettings.enabled ? '悬浮球已开启' : '悬浮球已关闭');
+            });
+        }
+
+        if (UI.inputs.assistiveBallOpacity) {
+            UI.inputs.assistiveBallOpacity.addEventListener('input', () => {
+                assistiveBallSettings.opacity = normalizeAssistiveBallOpacity(UI.inputs.assistiveBallOpacity.value);
+                syncAssistiveBallOpacityControls();
+            });
+            UI.inputs.assistiveBallOpacity.addEventListener('change', () => {
+                assistiveBallSettings.opacity = normalizeAssistiveBallOpacity(UI.inputs.assistiveBallOpacity.value);
+                syncAssistiveBallOpacityControls();
+                saveGlobalData();
+            });
+        }
+
+        document.addEventListener('click', (event) => {
+            if (assistiveBallPanelEl?.classList.contains('active') && !assistiveBallPanelEl.contains(event.target)) {
+                closeAssistiveBallPanel();
+            }
+        });
+
+        window.u2AssistiveApiBall = {
+            sync: syncAssistiveBallPanel,
+            setEnabled: setAssistiveBallEnabled,
+            getSettings: () => ({ ...assistiveBallSettings })
+        };
+
+        setAssistiveBallEnabled(assistiveBallSettings.enabled);
+
+        function renderNativeModelSelect() {
+            if (!UI.inputs.apiModel) return;
+            UI.inputs.apiModel.innerHTML = '<option value="" disabled selected>选择模型</option>';
+            if (Array.isArray(fetchedModels)) {
+                fetchedModels.forEach(model => {
+                    const opt = document.createElement('option');
+                    opt.value = model;
+                    opt.textContent = model;
+                    UI.inputs.apiModel.appendChild(opt);
+                });
+            }
+        }
+
+        function syncSelectValue(selectEl, value) {
+            if (!selectEl) return;
+            let exists = Array.from(selectEl.options).some(opt => opt.value === value);
+            if (value && !exists) {
+                const opt = document.createElement('option');
+                opt.value = value;
+                opt.textContent = value;
+                selectEl.appendChild(opt);
+            }
+            selectEl.value = value;
+        }
+
+        const apiConfigBtn = document.getElementById('api-config-btn');
+        if (apiConfigBtn && UI.overlays.apiConfig) {
+            apiConfigBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                
+                renderNativeModelSelect();
+
+                tempApiConfig = {
+                    endpoint: apiConfig.endpoint || '',
+                    apiKey: apiConfig.apiKey || '',
+                    model: apiConfig.model || '',
+                    temperature: apiConfig.temperature ?? 0.7
+                };
+
+                UI.inputs.apiEndpoint.value = tempApiConfig.endpoint || '';
+                UI.inputs.apiKey.value = tempApiConfig.apiKey || '';
+                syncSelectValue(UI.inputs.apiModel, tempApiConfig.model || '');
+                UI.inputs.apiTemp.value = tempApiConfig.temperature ?? 0.7;
+                syncBackgroundActivityControls();
+                syncSystemNotificationControls();
+
+                openView(UI.overlays.apiConfig);
+            });
+        }
+
+        function syncMinimaxCustomEndpointVisibility() {
+            const endpointGroup = document.getElementById('minimax-custom-endpoint-group');
+            const enabled = !!(UI.inputs.minimaxCustomEndpoint && UI.inputs.minimaxCustomEndpoint.checked);
+            if (endpointGroup) endpointGroup.style.display = enabled ? 'block' : 'none';
+        }
+
+        function syncMinimaxInputs() {
+            if (window.u2MinimaxTts && typeof window.u2MinimaxTts.getConfig === 'function') {
+                minimaxConfig = window.u2MinimaxTts.getConfig();
+            }
+            if (UI.inputs.minimaxRegion) UI.inputs.minimaxRegion.value = minimaxConfig.region || 'cn';
+            if (UI.inputs.minimaxCustomEndpoint) UI.inputs.minimaxCustomEndpoint.checked = !!minimaxConfig.customEndpointEnabled;
+            if (UI.inputs.minimaxEndpoint) UI.inputs.minimaxEndpoint.value = minimaxConfig.endpoint || '';
+            if (UI.inputs.minimaxKey) UI.inputs.minimaxKey.value = minimaxConfig.apiKey || '';
+            if (UI.inputs.minimaxGroupId) UI.inputs.minimaxGroupId.value = minimaxConfig.groupId || '';
+            if (UI.inputs.minimaxTtsModel) UI.inputs.minimaxTtsModel.value = minimaxConfig.ttsModel || 'speech-02-hd';
+            syncMinimaxCustomEndpointVisibility();
+        }
+
+        const minimaxConfigBtn = document.getElementById('minimax-config-btn');
+        if (minimaxConfigBtn && UI.overlays.minimaxConfig) {
+            minimaxConfigBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                syncMinimaxInputs();
+                openView(UI.overlays.minimaxConfig);
+            });
+        }
+
+        if (UI.inputs.minimaxCustomEndpoint) {
+            UI.inputs.minimaxCustomEndpoint.addEventListener('change', syncMinimaxCustomEndpointVisibility);
+        }
+
+        const confirmMinimaxBtn = document.getElementById('confirm-minimax-btn');
+        if (confirmMinimaxBtn) {
+            confirmMinimaxBtn.addEventListener('click', () => {
+                minimaxConfig = {
+                    region: UI.inputs.minimaxRegion ? UI.inputs.minimaxRegion.value : 'cn',
+                    customEndpointEnabled: !!(UI.inputs.minimaxCustomEndpoint && UI.inputs.minimaxCustomEndpoint.checked),
+                    endpoint: UI.inputs.minimaxEndpoint ? UI.inputs.minimaxEndpoint.value.trim() : '',
+                    apiKey: UI.inputs.minimaxKey ? UI.inputs.minimaxKey.value.trim() : '',
+                    groupId: UI.inputs.minimaxGroupId ? UI.inputs.minimaxGroupId.value.trim() : '',
+                    ttsModel: UI.inputs.minimaxTtsModel ? (UI.inputs.minimaxTtsModel.value.trim() || 'speech-02-hd') : 'speech-02-hd'
+                };
+
+                if (window.u2MinimaxTts && typeof window.u2MinimaxTts.setConfig === 'function') {
+                    minimaxConfig = window.u2MinimaxTts.setConfig(minimaxConfig);
+                } else {
+                    window.minimaxConfig = minimaxConfig;
+                }
+
+                saveGlobalData();
+                closeView(UI.overlays.minimaxConfig);
+                showToast('Minimax 设置已保存');
+            });
+        }
+
+        const confirmApiBtn = document.getElementById('confirm-api-btn');
+        if (confirmApiBtn) {
+            confirmApiBtn.addEventListener('click', () => {
+                tempApiConfig.endpoint = UI.inputs.apiEndpoint.value;
+                tempApiConfig.apiKey = UI.inputs.apiKey.value;
+                tempApiConfig.model = UI.inputs.apiModel.value;
+                tempApiConfig.temperature = parseFloat(UI.inputs.apiTemp.value) || 0.7;
+
+                apiConfig = {
+                    endpoint: tempApiConfig.endpoint,
+                    apiKey: tempApiConfig.apiKey,
+                    model: tempApiConfig.model,
+                    temperature: tempApiConfig.temperature
+                };
+
+                applyBackgroundActivityControls(false);
+                applySystemNotificationControls(false);
+                
+                window.apiConfig = apiConfig;
+                saveGlobalData();
+                syncAssistiveBallPanel();
+                
+                closeView(UI.overlays.apiConfig);
+                showToast('API 设置已保存');
+            });
+        }
+
+        const btnApiFetch = document.getElementById('fetch-models-btn');
+        if (btnApiFetch) {
+            btnApiFetch.addEventListener('click', async () => {
+                const endpoint = UI.inputs.apiEndpoint.value.trim();
+                const key = UI.inputs.apiKey.value.trim();
+                
+                if (!endpoint) {
+                    showToast('请填写接口地址');
+                    return;
+                }
+
+                const originalText = btnApiFetch.innerHTML;
+                btnApiFetch.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Fetching...';
+                
+                try {
+                    let url = endpoint;
+                    if (url.endsWith('/')) url = url.slice(0, -1);
+                    if (!url.endsWith('/models')) {
+                        url = url.endsWith('/v1') ? url + '/models' : url + '/v1/models';
+                    }
+
+                    const headers = { 'Content-Type': 'application/json' };
+                    if (key) {
+                        headers['Authorization'] = `Bearer ${key}`;
+                    }
+
+                    const res = await fetch(url, { method: 'GET', headers });
+                    if (!res.ok) throw new Error('网络请求失败');
+                    
+                    const data = await res.json();
+                    
+                    if (data && data.data && Array.isArray(data.data)) {
+                        fetchedModels = data.data.map(m => m.id);
+                        saveGlobalData();
+                        renderNativeModelSelect();
+                        // 重新应用当前的选中状态
+                        syncSelectValue(UI.inputs.apiModel, tempApiConfig.model || '');
+                        showToast(`成功获取 ${fetchedModels.length} 个模型`);
+                    } else {
+                        throw new Error('格式无效');
+                    }
+                } catch (error) {
+                    console.error('Fetch Models Error:', error);
+                    showToast('获取模型失败');
+                } finally {
+                    btnApiFetch.innerHTML = originalText;
+                }
+            });
+        }
+
+        if (UI.inputs.apiModel) {
+            UI.inputs.apiModel.addEventListener('change', (e) => {
+                tempApiConfig.model = e.target.value;
+            });
+        }
+
+        // -- Presets --
+        const savePresetBtn = document.getElementById('save-preset-btn');
+        const loadPresetBtn = document.getElementById('load-preset-btn');
+        const confirmSavePresetBtn = document.getElementById('confirm-save-preset-btn');
+
+        if (savePresetBtn && UI.overlays.savePreset) {
+            savePresetBtn.addEventListener('click', () => {
+                if (UI.inputs.presetName) UI.inputs.presetName.value = '';
+                openView(UI.overlays.savePreset);
+            });
+        }
+
+        if (confirmSavePresetBtn) {
+            confirmSavePresetBtn.addEventListener('click', () => {
+                const endpoint = UI.inputs.apiEndpoint ? UI.inputs.apiEndpoint.value.trim() : '';
+                const apiKey = UI.inputs.apiKey ? UI.inputs.apiKey.value.trim() : '';
+                const model = UI.inputs.apiModel ? UI.inputs.apiModel.value.trim() : '';
+                const temp = UI.inputs.apiTemp ? parseFloat(UI.inputs.apiTemp.value) || 0.7 : 0.7;
+                const presetName = UI.inputs.presetName ? UI.inputs.presetName.value.trim() : '';
+
+                apiPresets.push({
+                    id: Date.now(),
+                    name: presetName || '未命名预设',
+                    endpoint,
+                    apiKey,
+                    model,
+                    temp
+                });
+
+                saveGlobalData();
+                syncAssistiveBallPanel();
+                closeView(UI.overlays.savePreset);
+                showToast('预设已保存');
+            });
+        }
+
+        if (loadPresetBtn && UI.overlays.loadPreset) {
+            loadPresetBtn.addEventListener('click', () => {
+                openView(UI.overlays.loadPreset);
+                setTimeout(() => {
+                    renderPresetList();
+                }, 150);
+            });
+        }
+
+        function renderPresetList() {
+            if (!UI.lists.presets) return;
+            UI.lists.presets.innerHTML = '';
+
+            if (!Array.isArray(apiPresets) || apiPresets.length === 0) {
+                UI.lists.presets.innerHTML = `
+                    <div style="padding: 40px 20px; text-align: center; color: #8e8e93; font-size: 15px;">
+                        暂无预设
+                    </div>
+                `;
+                return;
+            }
+
+            const fragment = document.createDocumentFragment();
+
+            apiPresets.forEach(preset => {
+                const item = document.createElement('div');
+                item.className = 'account-card';
+                item.innerHTML = `
+                    <div class="account-content" style="cursor: pointer;">
+                        <div class="account-avatar" style="background-color: var(--blue-color); color: white;"><i class="fas fa-server"></i></div>
+                        <div class="account-info">
+                            <div class="account-name">${preset.name || '未命名预设'}</div>
+                            <div class="account-detail" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px;">${preset.endpoint || '未填写接口地址'}</div>
+                        </div>
+                        <i class="fas fa-times delete-icon"></i>
+                    </div>
+                `;
+
+                const content = item.querySelector('.account-content');
+                const deleteIcon = item.querySelector('.delete-icon');
+
+                if (content) {
+                    content.addEventListener('click', (e) => {
+                        if (e.target.classList.contains('delete-icon') || e.target.closest('.delete-icon')) return;
+
+                        if (UI.inputs.apiEndpoint) UI.inputs.apiEndpoint.value = preset.endpoint || '';
+                        if (UI.inputs.apiKey) UI.inputs.apiKey.value = preset.apiKey || '';
+                        if (UI.inputs.apiModel) {
+                            syncSelectValue(UI.inputs.apiModel, preset.model || '');
+                            tempApiConfig.model = preset.model || '';
+                        }
+                        if (UI.inputs.apiTemp) UI.inputs.apiTemp.value = preset.temp ?? 0.7;
+
+                        closeView(UI.overlays.loadPreset);
+                        showToast('预设已加载');
+                    });
+                }
+
+                if (deleteIcon) {
+                    deleteIcon.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        if (confirm(`删除预设“${preset.name || '未命名预设'}”？`)) {
+                            apiPresets = apiPresets.filter(p => p.id !== preset.id);
+                            saveGlobalData();
+                            renderPresetList();
+                            syncAssistiveBallPanel();
+                            showToast('预设已删除');
+                        }
+                    });
+                }
+
+                fragment.appendChild(item);
+            });
+
+            UI.lists.presets.appendChild(fragment);
+        }
+
+        // ==========================================
+        // Data Management Logic
+        // ==========================================
+        const exportDataBtn = document.getElementById('export-data-btn');
+        const importDataBtn = document.getElementById('import-data-btn');
+        const importDataFile = document.getElementById('import-data-file');
+        const clearDataBtn = document.getElementById('clear-data-btn');
+
+        // Data Management v4
+        (function initDataManagementV4() {
+            const importPreview = document.getElementById('data-import-preview');
+            const importFileName = document.getElementById('data-import-file-name');
+            const importVersion = document.getElementById('data-import-version');
+            const importRecords = document.getElementById('data-import-records');
+            const importAssets = document.getElementById('data-import-assets');
+            const importSize = document.getElementById('data-import-size');
+            let selectedImportPayload = null;
+            let selectedImportFile = null;
+            let overlay = null;
+            let overlayText = null;
+            let overlayProgress = null;
+
+            function stopLegacy(e) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+            }
+
+            function setBusy(btn, busy) {
+                if (!btn) return;
+                btn.disabled = !!busy;
+                btn.classList.toggle('is-busy', !!busy);
+            }
+
+            function readFileText(file) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = (event) => resolve(event.target.result || '');
+                    reader.onerror = () => reject(reader.error || new Error('File read failed'));
+                    reader.readAsText(file);
+                });
+            }
+
+            function formatBytesForUi(bytes) {
+                if (window.appStorage && typeof window.appStorage.formatBytes === 'function') {
+                    return window.appStorage.formatBytes(bytes);
+                }
+                const size = Math.max(0, Number(bytes) || 0);
+                return size < 1024 ? `${size} B` : `${(size / 1024).toFixed(1)} KB`;
+            }
+
+            function formatDateForUi(timestamp) {
+                const value = Number(timestamp) || 0;
+                if (!value) return '未知时间';
+                try {
+                    return new Date(value).toLocaleString();
+                } catch (error) {
+                    return '未知时间';
+                }
+            }
+
+            function showOperation(text) {
+                if (!overlay) {
+                    overlay = document.createElement('div');
+                    overlay.className = 'data-operation-overlay';
+                    overlay.innerHTML = `
+                        <div class="data-operation-card">
+                            <i class="fas fa-spinner fa-spin data-operation-spinner"></i>
+                            <div class="data-operation-text"></div>
+                            <div class="data-operation-progress"><div></div></div>
+                        </div>
+                    `;
+                    overlayText = overlay.querySelector('.data-operation-text');
+                    overlayProgress = overlay.querySelector('.data-operation-progress > div');
+                    document.body.appendChild(overlay);
+                }
+                overlayText.textContent = text || '处理中...';
+                overlayProgress.style.width = '0%';
+                overlay.style.display = 'flex';
+            }
+
+            function updateOperation(progressData = {}) {
+                if (overlayText) overlayText.textContent = progressData.message || '处理中...';
+                if (overlayProgress) {
+                    const progress = Math.max(0, Math.min(100, Number(progressData.progress) || 0));
+                    overlayProgress.style.width = `${progress}%`;
+                }
+            }
+
+            function hideOperation() {
+                if (overlay) overlay.style.display = 'none';
+            }
+
+            function updatePreview(file, summary) {
+                if (!importPreview) return;
+                importPreview.style.display = 'block';
+                if (importFileName) importFileName.textContent = file?.name || '未命名备份';
+                if (importVersion) importVersion.textContent = `v${summary.schemaVersion || '-'}`;
+                if (importRecords) importRecords.textContent = String(summary.recordCount || 0);
+                if (importAssets) importAssets.textContent = String(summary.assetCount || 0);
+                if (importSize) importSize.textContent = formatBytesForUi(summary.approximateBytes || file?.size || 0);
+            }
+
+            function resetPreview() {
+                selectedImportPayload = null;
+                selectedImportFile = null;
+                if (importPreview) importPreview.style.display = 'none';
+            }
+
+            if (exportDataBtn) {
+                exportDataBtn.addEventListener('click', async (e) => {
+                    stopLegacy(e);
+                    try {
+                        setBusy(exportDataBtn, true);
+                        showOperation('正在准备导出数据...');
+                        const blob = await window.appStorage.exportAllData(updateOperation);
+                        updateOperation({ message: '准备下载...', progress: 99 });
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `u2phone_backup_${new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)}.json`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        setTimeout(() => URL.revokeObjectURL(url), 5000);
+                        hideOperation();
+                        showToast('数据导出成功');
+                    } catch (err) {
+                        console.error('Export failed:', err);
+                        hideOperation();
+                        showToast('导出失败，请查看控制台');
+                    } finally {
+                        setBusy(exportDataBtn, false);
+                    }
+                }, true);
+            }
+
+            if (importDataBtn && importDataFile) {
+                importDataBtn.addEventListener('click', (e) => {
+                    stopLegacy(e);
+                    if (!selectedImportPayload || !selectedImportFile) {
+                        importDataFile.click();
+                        return;
+                    }
+
+                    if (!confirm(`将用「${selectedImportFile.name}」完整替换当前手机里的应用数据和配置。此操作不可撤销，确定继续？`)) {
+                        return;
+                    }
+
+                    (async () => {
+                        try {
+                            setBusy(importDataBtn, true);
+                            showOperation('正在导入备份...');
+                            await window.appStorage.importAllData(selectedImportPayload, updateOperation);
+                            updateOperation({ message: '导入成功，正在重启...', progress: 100 });
+                            setTimeout(() => window.location.reload(), 1200);
+                        } catch (err) {
+                            console.error('Import failed:', err);
+                            hideOperation();
+                            showToast('导入失败，备份文件可能已损坏');
+                            setBusy(importDataBtn, false);
+                        }
+                    })();
+                }, true);
+
+                importDataFile.addEventListener('change', async (e) => {
+                    e.stopImmediatePropagation();
+                    const file = e.target.files[0];
+                    if (!file) return;
+
+                    try {
+                        setBusy(importDataBtn, true);
+                        showOperation('正在读取备份文件...');
+                        const text = await readFileText(file);
+                        updateOperation({ message: '正在校验备份...', progress: 30 });
+                        const payload = JSON.parse(text);
+                        const summary = window.appStorage.inspectBackupPayload(payload);
+                        selectedImportPayload = payload;
+                        selectedImportFile = file;
+                        updatePreview(file, summary);
+                        hideOperation();
+                        showToast('备份已校验，请再次点击导入');
+                    } catch (err) {
+                        console.error('Import preview failed:', err);
+                        resetPreview();
+                        hideOperation();
+                        showToast('文件格式错误或备份已损坏');
+                    } finally {
+                        setBusy(importDataBtn, false);
+                        e.target.value = '';
+                    }
+                }, true);
+            }
+
+            if (clearDataBtn) {
+                clearDataBtn.addEventListener('click', async (e) => {
+                    stopLegacy(e);
+                    if (!confirm('确定清空所有应用数据和配置吗？此操作不可恢复，系统将重启到默认状态。')) return;
+                    try {
+                        setBusy(clearDataBtn, true);
+                        showOperation('正在清空应用数据...');
+                        await window.appStorage.clearAllPersistentData();
+                        updateOperation({ message: '已清空，正在重启...', progress: 100 });
+                        setTimeout(() => window.location.reload(), 1200);
+                    } catch (err) {
+                        console.error('Clear data failed:', err);
+                        hideOperation();
+                        showToast('清空数据失败');
+                        setBusy(clearDataBtn, false);
+                    }
+                }, true);
+            }
+        })();
+    });
+
+})();

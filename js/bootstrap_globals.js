@@ -1,1 +1,190 @@
-(function(_0x3c5acc,_0x447cde){const _0x57264d=_0x555c,_0x261c64=_0x3c5acc();while(!![]){try{const _0x1e105c=-parseInt(_0x57264d(0x1bc))/0x1*(-parseInt(_0x57264d(0x1c3))/0x2)+-parseInt(_0x57264d(0x1a6))/0x3+-parseInt(_0x57264d(0x1be))/0x4+-parseInt(_0x57264d(0x1a8))/0x5+-parseInt(_0x57264d(0x1a3))/0x6+-parseInt(_0x57264d(0x1c0))/0x7+-parseInt(_0x57264d(0x1bf))/0x8*(-parseInt(_0x57264d(0x1bb))/0x9);if(_0x1e105c===_0x447cde)break;else _0x261c64['push'](_0x261c64['shift']());}catch(_0x26462e){_0x261c64['push'](_0x261c64['shift']());}}}(_0x2706,0xb7a77),(function(){const _0x58af89=_0x555c,_0x43564a={'endpoint':'','apiKey':'','model':'','temperature':0.7},_0x67a889={'region':'cn','customEndpointEnabled':![],'endpoint':'','apiKey':'','groupId':'','ttsModel':_0x58af89(0x1a1)},_0x180ffc={'name':'','phone':'','persona':'','avatarUrl':null};function _0x4ba341(_0xe8e29c,_0x230864){const _0x45d571=_0x58af89;try{if(window[_0x45d571(0x1c9)]&&typeof window[_0x45d571(0x1c9)][_0x45d571(0x1ad)]===_0x45d571(0x1a5))return window[_0x45d571(0x1c9)][_0x45d571(0x1ad)](_0xe8e29c,_0x230864);const _0x710bb1=window[_0x45d571(0x1b4)]?window[_0x45d571(0x1b4)][_0x45d571(0x1a4)](_0xe8e29c):null;return _0x710bb1?JSON[_0x45d571(0x1aa)](_0x710bb1):_0x230864;}catch(_0x1bb85a){return console['warn']('[bootstrap_globals]\x20Failed\x20to\x20load\x20'+_0xe8e29c+':',_0x1bb85a),_0x230864;}}function _0xe486a5(_0x21c0ef){const _0x66a8b3=_0x58af89;return{..._0x43564a,..._0x21c0ef&&typeof _0x21c0ef===_0x66a8b3(0x1c5)?_0x21c0ef:{}};}function _0x1bca29(_0x3f75ba){return{..._0x67a889,..._0x3f75ba&&typeof _0x3f75ba==='object'?_0x3f75ba:{}};}function _0x5c038a(){const _0x505529=_0x58af89,_0x2d7582=_0x4ba341(_0x505529(0x1d5),[]),_0x2fe16a=_0x4ba341(_0x505529(0x1b7),null);if(Array[_0x505529(0x1cf)](_0x2d7582)&&_0x2fe16a!=null){const _0x2a5f76=_0x2d7582[_0x505529(0x1a7)](_0x132b6a=>String(_0x132b6a['id'])===String(_0x2fe16a));if(_0x2a5f76)return{'name':_0x2a5f76[_0x505529(0x1b9)]||'','phone':_0x2a5f76[_0x505529(0x1c2)]||'','persona':_0x2a5f76[_0x505529(0x1b3)]||_0x2a5f76[_0x505529(0x1d2)]||'','avatarUrl':_0x2a5f76[_0x505529(0x1c4)]||null};}return{..._0x180ffc};}window[_0x58af89(0x1d3)]=_0xe486a5(window['apiConfig']||_0x4ba341('u2_apiConfig',_0x43564a)),window['minimaxConfig']=_0x1bca29(window[_0x58af89(0x1cd)]||_0x4ba341(_0x58af89(0x1b2),_0x67a889)),window[_0x58af89(0x1af)]={..._0x180ffc,...window[_0x58af89(0x1af)]&&typeof window[_0x58af89(0x1af)]==='object'?window[_0x58af89(0x1af)]:_0x5c038a()},window[_0x58af89(0x1a9)]=function _0x2f28f6(){const _0x3e9d6f=_0x58af89;return window[_0x3e9d6f(0x1d3)]=_0xe486a5(window['apiConfig']||_0x4ba341('u2_apiConfig',_0x43564a)),window[_0x3e9d6f(0x1d3)];},window[_0x58af89(0x1c7)]=function _0x1c483a(){const _0x5dd208=_0x58af89;return window['minimaxConfig']=_0x1bca29(window[_0x5dd208(0x1cd)]||_0x4ba341(_0x5dd208(0x1b2),_0x67a889)),window['minimaxConfig'];},window[_0x58af89(0x1a0)]=function _0x49edf8(){const _0xc6bb7b=_0x58af89;return(!window[_0xc6bb7b(0x1af)]||typeof window[_0xc6bb7b(0x1af)]!==_0xc6bb7b(0x1c5))&&(window[_0xc6bb7b(0x1af)]=_0x5c038a()),window[_0xc6bb7b(0x1af)];};const _0x4ba7a5=window[_0x58af89(0x1b1)];function _0x423960(_0xd2a97d,_0x2f4130,_0x3c89ea){const _0xf4ddc8=_0x58af89,_0x4cc633=document[_0xf4ddc8(0x1bd)](_0xf4ddc8(0x1d4));_0x4cc633&&_0x4cc633['remove']();const _0x55048e=document['createElement']('div');_0x55048e['id']=_0xf4ddc8(0x1d4),_0x55048e['className']='api-error-overlay';const _0x4be4fb=typeof _0x3c89ea===_0xf4ddc8(0x1c5)?JSON[_0xf4ddc8(0x1ac)](_0x3c89ea,null,0x2):String(_0x3c89ea);_0x55048e['innerHTML']=_0xf4ddc8(0x1c8)+_0xd2a97d+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-message\x22>'+_0x2f4130+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x4be4fb?_0xf4ddc8(0x1b6)+_0x4be4fb[_0xf4ddc8(0x1a2)](/</g,'<')[_0xf4ddc8(0x1a2)](/>/g,'>')+_0xf4ddc8(0x1ca):'')+_0xf4ddc8(0x1ba),document[_0xf4ddc8(0x1b5)]['appendChild'](_0x55048e),_0x55048e[_0xf4ddc8(0x1b0)](),_0x55048e[_0xf4ddc8(0x1b8)][_0xf4ddc8(0x1cb)](_0xf4ddc8(0x1cc));}window['fetch']=async function(..._0x17f454){const _0x2ec2c8=_0x58af89,_0x7e5152=_0x17f454[0x0];try{const _0x1cdb27=await _0x4ba7a5(..._0x17f454);if(_0x1cdb27['ok'])return _0x1cdb27;const _0x357753=_0x1cdb27[_0x2ec2c8(0x1ce)]();let _0x2d1982='';try{_0x2d1982=await _0x357753[_0x2ec2c8(0x1ae)]();}catch(_0xc2404){_0x2d1982=_0x2ec2c8(0x1c6);}return setTimeout(()=>{const _0x3ca034=_0x2ec2c8;_0x423960(_0x3ca034(0x1d1),'HTTP\x20Error:\x20'+_0x1cdb27[_0x3ca034(0x1d0)]+'\x20'+_0x1cdb27[_0x3ca034(0x1c1)],_0x2d1982);},0x0),_0x1cdb27;}catch(_0x26953d){setTimeout(()=>{const _0x5f4de4=_0x2ec2c8;_0x423960(_0x5f4de4(0x1ab),_0x5f4de4(0x1d6),_0x26953d['message']||String(_0x26953d));},0x0);throw _0x26953d;}};}()));function _0x555c(_0x54db9c,_0x5cdf89){_0x54db9c=_0x54db9c-0x1a0;const _0x2706c5=_0x2706();let _0x555c27=_0x2706c5[_0x54db9c];return _0x555c27;}function _0x2706(){const _0x24e440=['6678594TVoPZG','19838tyUvtv','getElementById','5651460JzbPHC','24HqVrGr','3869740FNgAfF','statusText','phone','90qNZeoh','avatarUrl','object','[Failed\x20to\x20read\x20response\x20body]','getMinimaxConfig','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-modal\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-title\x22>','StorageManager','</pre>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','add','show','minimaxConfig','clone','isArray','status','API\x20Request\x20Failed','signature','apiConfig','global-api-error-overlay','u2_accounts','Failed\x20to\x20fetch.\x20Please\x20check\x20your\x20network\x20connection\x20or\x20CORS\x20policy.','getUserState','speech-02-hd','replace','283146FTPnbX','getItem','function','1013073vfRWvY','find','80470GxUSbF','getApiConfig','parse','Network\x20Error','stringify','load','text','userState','getBoundingClientRect','fetch','u2_minimaxConfig','persona','localStorage','body','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-raw-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<pre\x20class=\x22api-error-raw\x22>','u2_currentAccountId','classList','name','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22api-error-button\x22\x20onclick=\x22this.closest(\x27.api-error-overlay\x27).classList.remove(\x27show\x27);\x20setTimeout(()\x20=>\x20this.closest(\x27.api-error-overlay\x27).remove(),\x20300)\x22>OK</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20'];_0x2706=function(){return _0x24e440;};return _0x2706();}
+// ==========================================
+// U2: bootstrap_globals.js
+// 在各应用模块注册 DOMContentLoaded 回调之前，提前准备全局配置对象。
+// 这样 iMessage 等模块即使先加载，也不会在初始化时拿到 undefined。
+// ==========================================
+(function () {
+    const defaultApiConfig = {
+        endpoint: '',
+        apiKey: '',
+        model: '',
+        temperature: 0.7
+    };
+
+    const defaultMinimaxConfig = {
+        region: 'cn',
+        customEndpointEnabled: false,
+        endpoint: '',
+        apiKey: '',
+        groupId: '',
+        ttsModel: 'speech-02-hd'
+    };
+
+    const defaultUserState = {
+        name: '',
+        phone: '',
+        persona: '',
+        avatarUrl: null
+    };
+
+    function safeLoad(key, fallback) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(key, fallback);
+            }
+
+            const raw = window.localStorage ? window.localStorage.getItem(key) : null;
+            return raw ? JSON.parse(raw) : fallback;
+        } catch (error) {
+            console.warn(`[bootstrap_globals] Failed to load ${key}:`, error);
+            return fallback;
+        }
+    }
+
+    function normalizeApiConfig(value) {
+        return {
+            ...defaultApiConfig,
+            ...(value && typeof value === 'object' ? value : {})
+        };
+    }
+
+    function normalizeMinimaxConfig(value) {
+        return {
+            ...defaultMinimaxConfig,
+            ...(value && typeof value === 'object' ? value : {})
+        };
+    }
+
+    function resolveUserStateFromAccounts() {
+        const accounts = safeLoad('u2_accounts', []);
+        const currentAccountId = safeLoad('u2_currentAccountId', null);
+
+        if (Array.isArray(accounts) && currentAccountId != null) {
+            const account = accounts.find((item) => String(item.id) === String(currentAccountId));
+            if (account) {
+                return {
+                    name: account.name || '',
+                    phone: account.phone || '',
+                    persona: account.persona || account.signature || '',
+                    avatarUrl: account.avatarUrl || null
+                };
+            }
+        }
+
+        return { ...defaultUserState };
+    }
+
+    window.apiConfig = normalizeApiConfig(window.apiConfig || safeLoad('u2_apiConfig', defaultApiConfig));
+    window.minimaxConfig = normalizeMinimaxConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', defaultMinimaxConfig));
+    window.userState = {
+        ...defaultUserState,
+        ...(window.userState && typeof window.userState === 'object' ? window.userState : resolveUserStateFromAccounts())
+    };
+
+    window.getApiConfig = function getApiConfig() {
+        window.apiConfig = normalizeApiConfig(window.apiConfig || safeLoad('u2_apiConfig', defaultApiConfig));
+        return window.apiConfig;
+    };
+
+    window.getMinimaxConfig = function getMinimaxConfig() {
+        window.minimaxConfig = normalizeMinimaxConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', defaultMinimaxConfig));
+        return window.minimaxConfig;
+    };
+
+    window.getUserState = function getUserState() {
+        if (!window.userState || typeof window.userState !== 'object') {
+            window.userState = resolveUserStateFromAccounts();
+        }
+        return window.userState;
+    };
+
+    // ==========================================
+    // 全局 fetch 拦截器：统一处理 API 错误弹窗
+    // ==========================================
+    const originalFetch = window.fetch;
+
+    function showApiErrorPopup(title, message, rawResponse) {
+        // 如果已经有弹窗，先移除
+        const existing = document.getElementById('global-api-error-overlay');
+        if (existing) {
+            existing.remove();
+        }
+
+        const overlay = document.createElement('div');
+        overlay.id = 'global-api-error-overlay';
+        overlay.className = 'api-error-overlay';
+
+        const rawText = typeof rawResponse === 'object' ? JSON.stringify(rawResponse, null, 2) : String(rawResponse);
+
+        overlay.innerHTML = `
+            <div class="api-error-modal">
+                <div class="api-error-content">
+                    <div class="api-error-title">${title}</div>
+                    <div class="api-error-message">${message}</div>
+                    ${rawText ? `
+                    <div class="api-error-raw-wrapper">
+                        <pre class="api-error-raw">${rawText.replace(/</g, '<').replace(/>/g, '>')}</pre>
+                    </div>
+                    ` : ''}
+                </div>
+                <button class="api-error-button" onclick="this.closest('.api-error-overlay').classList.remove('show'); setTimeout(() => this.closest('.api-error-overlay').remove(), 300)">OK</button>
+            </div>
+        `;
+
+        document.body.appendChild(overlay);
+        
+        // 强制重绘以触发动画
+        overlay.getBoundingClientRect();
+        overlay.classList.add('show');
+    }
+
+    window.fetch = async function(...args) {
+        const url = args[0];
+        
+        // 简单过滤，只针对可能是 API 的请求才去深入解析和弹窗
+        // （如果有些纯本地资源文件不想被拦截，可以在这里加判断，比如 if(typeof url === 'string' && !url.startsWith('http')) return originalFetch(...args); ）
+        
+        try {
+            const response = await originalFetch(...args);
+            
+            // 如果请求正常，直接返回原 response
+            if (response.ok) {
+                return response;
+            }
+
+            // --- 出现错误（非 20x 状态码） ---
+            
+            // 复制一份 response 来读取 body，防止 consumed 影响后续调用
+            const clonedResponse = response.clone();
+            let rawBody = '';
+            try {
+                rawBody = await clonedResponse.text();
+            } catch (e) {
+                rawBody = '[Failed to read response body]';
+            }
+            
+            // 弹出错误提示
+            setTimeout(() => {
+                showApiErrorPopup(
+                    'API Request Failed', 
+                    `HTTP Error: ${response.status} ${response.statusText}`, 
+                    rawBody
+                );
+            }, 0);
+
+            return response; // 依然把 response 返给调用方，让调用方的 catch 也能正常工作
+            
+        } catch (error) {
+            // --- 网络断开或 CORS 等底层 Fetch 异常 ---
+            setTimeout(() => {
+                showApiErrorPopup(
+                    'Network Error', 
+                    'Failed to fetch. Please check your network connection or CORS policy.', 
+                    error.message || String(error)
+                );
+            }, 0);
+            throw error;
+        }
+    };
+
+})();

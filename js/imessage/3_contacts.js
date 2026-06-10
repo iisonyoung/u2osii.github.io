@@ -1,1 +1,309 @@
-const _0x2f8f62=_0x2881;function _0x57d9(){const _0x382876=['block','pointerEvents','click','files','Failed\x20to\x20process\x20friend\x20avatar','friend-avatar-preview','error','value','9104766Wnycec','innerHTML','flex','normalizeFriendData','236820hfRuxb','now','style','72195ZDldLg','src','npc','readFileAsDataUrl','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','querySelector','currentActiveFriend','friend-persona-input','.bottom-sheet','opacity','translateY(0)','find','function','imData','已添加\x20Char:\x20','change','DOMContentLoaded','添加\x20NPC\x20保存失败','renderFriendsList','addEventListener','open-add-friend-sheet-btn','npcs-content','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22line-item-text\x22>','appendChild','object','6692480LfmsoQ','closeView','push','confirm-add-npc-btn','openView','friend-actions-sheet','18218277MFyfcH','commitFriendsChange','getElementById','friends','friend-avatar-img','New\x20Friend','已添加\x20NPC:\x20','metaOnly','No\x20Signature','friend-signature-input','friends-content','friend-nickname-input','New\x20NPC','44cDLwDM','target','char','openChatTab','\x22\x20style=\x22width:100%;height:100%;object-fit:cover;\x22>','showToast','200725mtCbPd','createDefaultMemory','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22line-item-avatar\x22>','<i\x20class=\x22fas\x20fa-robot\x22></i>','新的朋友功能暂未开放','456JuWJdK','tagName','<img\x20src=\x22','none','image/jpeg','type','add-friend-sheet','avatarUrl','transform','friend-avatar-upload','imApp','add-char-btn','friend-realname-input','293144ZqxVlN','display','div'];_0x57d9=function(){return _0x382876;};return _0x57d9();}function _0x2881(_0x20c4b9,_0x58c78e){_0x20c4b9=_0x20c4b9-0x185;const _0x57d907=_0x57d9();let _0x28818c=_0x57d907[_0x20c4b9];return _0x28818c;}(function(_0x2444e8,_0x4650f0){const _0x445187=_0x2881,_0x640ae5=_0x2444e8();while(!![]){try{const _0xabca6d=-parseInt(_0x445187(0x1b5))/0x1+parseInt(_0x445187(0x1c4))/0x2+-parseInt(_0x445187(0x1c7))/0x3*(-parseInt(_0x445187(0x19d))/0x4)+-parseInt(_0x445187(0x18a))/0x5+-parseInt(_0x445187(0x1c0))/0x6+-parseInt(_0x445187(0x1a3))/0x7*(-parseInt(_0x445187(0x1a8))/0x8)+parseInt(_0x445187(0x190))/0x9;if(_0xabca6d===_0x4650f0)break;else _0x640ae5['push'](_0x640ae5['shift']());}catch(_0x1b400a){_0x640ae5['push'](_0x640ae5['shift']());}}}(_0x57d9,0xd9f50),document[_0x2f8f62(0x1da)](_0x2f8f62(0x1d7),()=>{const _0x5514e2=_0x2f8f62,{openView:_0x3363ca,closeView:_0x3bbb1a,showToast:_0x2fb184}=window,_0x289424=document[_0x5514e2(0x192)](_0x5514e2(0x1b3)),_0x576853=document[_0x5514e2(0x192)](_0x5514e2(0x18f)),_0x2b55ae=document[_0x5514e2(0x192)](_0x5514e2(0x185)),_0x589800=document[_0x5514e2(0x192)]('new-friends-btn');function _0x1569ac(){const _0x5b87ef=_0x5514e2,_0x8d6bc3=document[_0x5b87ef(0x192)]('friend-realname-input'),_0x53f345=document['getElementById'](_0x5b87ef(0x19b)),_0x543a13=document[_0x5b87ef(0x192)]('friend-signature-input'),_0x413e3d=document['getElementById'](_0x5b87ef(0x1ce));if(_0x8d6bc3)_0x8d6bc3[_0x5b87ef(0x1bf)]='';if(_0x53f345)_0x53f345[_0x5b87ef(0x1bf)]='';if(_0x543a13)_0x543a13['value']='';if(_0x413e3d)_0x413e3d[_0x5b87ef(0x1bf)]='';_0x3b1b0a(null);}async function _0x313235(_0x174b0d,_0x430792,_0x4b1737={}){const _0x3da23e=_0x5514e2;if(!window[_0x3da23e(0x1b2)]['commitFriendsChange'])return![];const _0x233182=typeof _0x174b0d===_0x3da23e(0x189)&&_0x174b0d!==null?_0x174b0d['id']:_0x174b0d,_0x50d4f8={'metaOnly':_0x4b1737[_0x3da23e(0x197)]!==![],..._0x4b1737};return window[_0x3da23e(0x1b2)][_0x3da23e(0x191)](()=>{const _0x96f589=_0x3da23e,_0x4ebca2=window['imData'][_0x96f589(0x193)]['find'](_0x2f8c64=>String(_0x2f8c64['id'])===String(_0x233182));if(!_0x4ebca2)return;return _0x430792(_0x4ebca2);},_0x50d4f8);}async function _0x584c25(_0x27e3b6,_0x4b693f={}){const _0x2e01e2=_0x5514e2;if(!currentViewingGroup||!window['imApp'][_0x2e01e2(0x191)])return![];const _0x17a131={'metaOnly':_0x4b693f[_0x2e01e2(0x197)]!==![],..._0x4b693f};return window[_0x2e01e2(0x1b2)][_0x2e01e2(0x191)](()=>{const _0x26ef5a=_0x2e01e2,_0x50f900=window[_0x26ef5a(0x1d4)][_0x26ef5a(0x193)][_0x26ef5a(0x1d2)](_0x1a5787=>String(_0x1a5787['id'])===String(currentViewingGroup['id']));if(!_0x50f900)return;return currentViewingGroup=_0x50f900,window[_0x26ef5a(0x1d4)][_0x26ef5a(0x1cd)]&&String(window[_0x26ef5a(0x1d4)][_0x26ef5a(0x1cd)]['id'])===String(_0x50f900['id'])&&(window[_0x26ef5a(0x1d4)][_0x26ef5a(0x1cd)]=_0x50f900),_0x27e3b6(_0x50f900);},_0x17a131);}function _0x52ab6f(){const _0x5439db=_0x5514e2;_0x1569ac();const _0x33d76c=document[_0x5439db(0x192)](_0x5439db(0x1ae));if(_0x33d76c){if(typeof window[_0x5439db(0x18e)]==='function')window[_0x5439db(0x18e)](_0x33d76c);else{_0x33d76c[_0x5439db(0x1c6)]['display']=_0x5439db(0x1c2);const _0x3bc988=_0x33d76c[_0x5439db(0x1cc)](_0x5439db(0x1cf));_0x3bc988&&setTimeout(()=>_0x3bc988[_0x5439db(0x1c6)][_0x5439db(0x1b0)]=_0x5439db(0x1d1),0xa);}}}_0x289424&&_0x289424[_0x5514e2(0x1da)](_0x5514e2(0x1ba),()=>{const _0x5d83bb=_0x5514e2;_0x576853?typeof window[_0x5d83bb(0x18e)]===_0x5d83bb(0x1d3)?window[_0x5d83bb(0x18e)](_0x576853):_0x576853[_0x5d83bb(0x1c6)][_0x5d83bb(0x1b6)]=_0x5d83bb(0x1c2):_0x52ab6f();});_0x2b55ae&&_0x2b55ae[_0x5514e2(0x1da)](_0x5514e2(0x1ba),()=>{const _0x2c50cf=_0x5514e2;if(_0x576853&&typeof window[_0x2c50cf(0x18b)]==='function')window['closeView'](_0x576853);else _0x576853&&(_0x576853['style']['display']=_0x2c50cf(0x1ab));_0x52ab6f();});_0x589800&&_0x589800[_0x5514e2(0x1da)](_0x5514e2(0x1ba),()=>{const _0xd059a6=_0x5514e2;if(window[_0xd059a6(0x1a2)])window[_0xd059a6(0x1a2)](_0xd059a6(0x1a7));});_0x576853&&_0x576853[_0x5514e2(0x1da)](_0x5514e2(0x1ba),_0x3c6a1a=>{const _0x3bd22e=_0x5514e2;if(_0x3c6a1a[_0x3bd22e(0x19e)]===_0x576853){if(typeof window[_0x3bd22e(0x18b)]===_0x3bd22e(0x1d3))window[_0x3bd22e(0x18b)](_0x576853);else _0x576853['style']['display']=_0x3bd22e(0x1ab);}});const _0x5d9ff7=document[_0x5514e2(0x192)]('friend-avatar-wrapper');_0x5d9ff7&&_0x5d9ff7[_0x5514e2(0x1da)](_0x5514e2(0x1ba),_0x5de3ad=>{const _0x40e74d=_0x5514e2;if(_0x5de3ad[_0x40e74d(0x19e)][_0x40e74d(0x1a9)]!=='INPUT')document[_0x40e74d(0x192)]('friend-avatar-upload')[_0x40e74d(0x1ba)]();});const _0x1d0925=document[_0x5514e2(0x192)](_0x5514e2(0x1b1));_0x1d0925&&_0x1d0925[_0x5514e2(0x1da)](_0x5514e2(0x1d6),async _0x3325dc=>{const _0x4a3371=_0x5514e2,_0x2b3651=_0x3325dc[_0x4a3371(0x19e)][_0x4a3371(0x1bb)][0x0];if(!_0x2b3651)return;try{const _0x32bfb2=window[_0x4a3371(0x1b2)]['compressImageFile']?await window[_0x4a3371(0x1b2)]['compressImageFile'](_0x2b3651,{'maxWidth':0x100,'maxHeight':0x100,'mimeType':_0x4a3371(0x1ac),'quality':0.8}):await window[_0x4a3371(0x1b2)][_0x4a3371(0x1ca)](_0x2b3651);_0x3b1b0a(_0x32bfb2);}catch(_0x39a6b6){console[_0x4a3371(0x1be)](_0x4a3371(0x1bc),_0x39a6b6);if(_0x2fb184)_0x2fb184('头像处理失败');}});function _0x3b1b0a(_0x5159cc){const _0x558e2d=_0x5514e2,_0x5d4e21=document[_0x558e2d(0x192)](_0x558e2d(0x194)),_0x6b9749=document['getElementById'](_0x558e2d(0x1bd)),_0x59c700=_0x6b9749?_0x6b9749[_0x558e2d(0x1cc)]('i'):null;if(!_0x5d4e21||!_0x59c700)return;_0x5159cc?(_0x5d4e21[_0x558e2d(0x1c8)]=_0x5159cc,_0x5d4e21[_0x558e2d(0x1c6)][_0x558e2d(0x1b6)]=_0x558e2d(0x1b8),_0x59c700[_0x558e2d(0x1c6)][_0x558e2d(0x1b6)]=_0x558e2d(0x1ab)):(_0x5d4e21['style'][_0x558e2d(0x1b6)]=_0x558e2d(0x1ab),_0x59c700[_0x558e2d(0x1c6)][_0x558e2d(0x1b6)]='block',_0x5d4e21[_0x558e2d(0x1c8)]='');}const _0xddbcee=document[_0x5514e2(0x192)]('confirm-add-friend-btn'),_0x3f5d83=document[_0x5514e2(0x192)](_0x5514e2(0x18d));let _0x2cdc0f=![],_0x4e5b97=![];function _0x36b199(_0x10f443,_0x4701ff){const _0xf8f4de=_0x5514e2;if(!_0x10f443)return;_0x10f443[_0xf8f4de(0x1c6)][_0xf8f4de(0x1b9)]=_0x4701ff?_0xf8f4de(0x1ab):'',_0x10f443['style'][_0xf8f4de(0x1d0)]=_0x4701ff?'0.65':'';}_0xddbcee&&_0xddbcee[_0x5514e2(0x1da)](_0x5514e2(0x1ba),async()=>{const _0x194711=_0x5514e2;if(_0x2cdc0f)return;_0x2cdc0f=!![],_0x36b199(_0xddbcee,!![]);const _0x406b1b=window[_0x194711(0x1b2)][_0x194711(0x1c3)]({'id':Date['now'](),'type':_0x194711(0x19f),'realName':document['getElementById'](_0x194711(0x1b4))?document[_0x194711(0x192)](_0x194711(0x1b4))[_0x194711(0x1bf)]:'','nickname':document[_0x194711(0x192)](_0x194711(0x19b))?document[_0x194711(0x192)](_0x194711(0x19b))[_0x194711(0x1bf)]||'New\x20Friend':_0x194711(0x195),'signature':document[_0x194711(0x192)](_0x194711(0x199))?document[_0x194711(0x192)](_0x194711(0x199))[_0x194711(0x1bf)]||_0x194711(0x198):_0x194711(0x198),'persona':document[_0x194711(0x192)](_0x194711(0x1ce))?document[_0x194711(0x192)](_0x194711(0x1ce))['value']:'','avatarUrl':document['getElementById'](_0x194711(0x194))&&document[_0x194711(0x192)](_0x194711(0x194))[_0x194711(0x1c6)][_0x194711(0x1b6)]===_0x194711(0x1b8)?document[_0x194711(0x192)]('friend-avatar-img')[_0x194711(0x1c8)]:null,'messages':[],'chatBg':null,'customCssEnabled':![],'customCss':'','isPinned':![],'memory':window['imApp'][_0x194711(0x1a4)]()}),_0x4305dc=window[_0x194711(0x1b2)][_0x194711(0x191)]?await window[_0x194711(0x1b2)][_0x194711(0x191)](()=>{const _0x166986=_0x194711;window['imData'][_0x166986(0x193)][_0x166986(0x18c)](_0x406b1b);},{'friendId':_0x406b1b['id'],'silent':!![]}):![];if(!_0x4305dc){_0x2cdc0f=![],_0x36b199(_0xddbcee,![]);if(window['showToast'])window[_0x194711(0x1a2)]('添加\x20Char\x20保存失败');return;}_0x3c2f7c(),_0x2cdc0f=![],_0x36b199(_0xddbcee,![]),_0x3bbb1a(document[_0x194711(0x192)](_0x194711(0x1ae)));if(window[_0x194711(0x1a2)])window[_0x194711(0x1a2)](_0x194711(0x1d5)+_0x406b1b['nickname']);});_0x3f5d83&&_0x3f5d83[_0x5514e2(0x1da)](_0x5514e2(0x1ba),async()=>{const _0x4cdde0=_0x5514e2;if(_0x4e5b97)return;_0x4e5b97=!![],_0x36b199(_0x3f5d83,!![]);const _0x1b0b21=window[_0x4cdde0(0x1b2)][_0x4cdde0(0x1c3)]({'id':Date[_0x4cdde0(0x1c5)](),'type':'npc','realName':document[_0x4cdde0(0x192)](_0x4cdde0(0x1b4))?document[_0x4cdde0(0x192)](_0x4cdde0(0x1b4))[_0x4cdde0(0x1bf)]:'','nickname':document[_0x4cdde0(0x192)]('friend-nickname-input')?document['getElementById'](_0x4cdde0(0x19b))[_0x4cdde0(0x1bf)]||_0x4cdde0(0x19c):'New\x20NPC','signature':document[_0x4cdde0(0x192)](_0x4cdde0(0x199))?document[_0x4cdde0(0x192)]('friend-signature-input')[_0x4cdde0(0x1bf)]||'No\x20Signature':_0x4cdde0(0x198),'persona':document[_0x4cdde0(0x192)](_0x4cdde0(0x1ce))?document['getElementById']('friend-persona-input')[_0x4cdde0(0x1bf)]:'','avatarUrl':document[_0x4cdde0(0x192)](_0x4cdde0(0x194))&&document[_0x4cdde0(0x192)](_0x4cdde0(0x194))[_0x4cdde0(0x1c6)][_0x4cdde0(0x1b6)]==='block'?document[_0x4cdde0(0x192)](_0x4cdde0(0x194))[_0x4cdde0(0x1c8)]:null,'messages':[],'chatBg':null,'customCssEnabled':![],'customCss':'','isPinned':![],'memory':window['imApp'][_0x4cdde0(0x1a4)]()}),_0x4133e9=window[_0x4cdde0(0x1b2)]['commitFriendsChange']?await window[_0x4cdde0(0x1b2)][_0x4cdde0(0x191)](()=>{const _0x5aace9=_0x4cdde0;window[_0x5aace9(0x1d4)][_0x5aace9(0x193)][_0x5aace9(0x18c)](_0x1b0b21);},{'friendId':_0x1b0b21['id'],'silent':!![]}):![];if(!_0x4133e9){_0x4e5b97=![],_0x36b199(_0x3f5d83,![]);if(window['showToast'])window[_0x4cdde0(0x1a2)](_0x4cdde0(0x1d8));return;}_0x3c2f7c(),_0x3bbb1a(document['getElementById'](_0x4cdde0(0x1ae)));if(window[_0x4cdde0(0x1a2)])window['showToast'](_0x4cdde0(0x196)+_0x1b0b21['nickname']);_0x4e5b97=![],_0x36b199(_0x3f5d83,![]);});function _0x3c2f7c(){const _0x1166a7=_0x5514e2,_0xc2bd68=document['getElementById'](_0x1166a7(0x19a)),_0x1844cd=document['getElementById'](_0x1166a7(0x186));if(_0xc2bd68)_0xc2bd68['innerHTML']='';if(_0x1844cd)_0x1844cd[_0x1166a7(0x1c1)]='';window['imData']['friends']['forEach'](_0x292f3c=>{const _0x5c7dd2=_0x1166a7;if(_0x292f3c[_0x5c7dd2(0x1ad)]==='group')return;const _0x3c72dd=document['createElement'](_0x5c7dd2(0x1b7));_0x3c72dd['className']='line-list-item';const _0x3b07c1=_0x292f3c[_0x5c7dd2(0x1af)]?_0x5c7dd2(0x1aa)+_0x292f3c[_0x5c7dd2(0x1af)]+_0x5c7dd2(0x1a1):_0x292f3c[_0x5c7dd2(0x1ad)]===_0x5c7dd2(0x1c9)?_0x5c7dd2(0x1a6):'<i\x20class=\x22fas\x20fa-user\x22></i>';_0x3c72dd['innerHTML']=_0x5c7dd2(0x1a5)+_0x3b07c1+_0x5c7dd2(0x187)+_0x292f3c['nickname']+_0x5c7dd2(0x1cb),_0x3c72dd[_0x5c7dd2(0x1da)]('click',()=>{const _0x5e7b68=_0x5c7dd2;if(window[_0x5e7b68(0x1b2)][_0x5e7b68(0x1a0)])window[_0x5e7b68(0x1b2)]['openChatTab'](_0x292f3c);});if(_0x292f3c['type']==='npc'){if(_0x1844cd)_0x1844cd['appendChild'](_0x3c72dd);}else{if(_0xc2bd68)_0xc2bd68[_0x5c7dd2(0x188)](_0x3c72dd);}});}window['imApp'][_0x5514e2(0x1d9)]=_0x3c2f7c,_0x3c2f7c();}));
+// ==========================================
+// IMESSAGE: 3. CONTACTS & ADD FRIEND
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    const { openView, closeView, showToast } = window;
+
+    // Add Friend Modal Buttons from Header
+    const addCharBtn = document.getElementById('add-char-btn');
+    const friendActionsSheet = document.getElementById('friend-actions-sheet');
+    const openAddFriendSheetBtn = document.getElementById('open-add-friend-sheet-btn');
+    const newFriendsBtn = document.getElementById('new-friends-btn');
+
+    function resetAddFriendForm() {
+        const friendRealName = document.getElementById('friend-realname-input');
+        const friendNickname = document.getElementById('friend-nickname-input');
+        const friendSignature = document.getElementById('friend-signature-input');
+        const friendPersona = document.getElementById('friend-persona-input');
+
+        if(friendRealName) friendRealName.value = '';
+        if(friendNickname) friendNickname.value = '';
+        if(friendSignature) friendSignature.value = '';
+        if(friendPersona) friendPersona.value = '';
+        
+        setFriendAvatar(null);
+    }
+
+    async function commitContactsFriendChange(friendOrId, mutator, options = {}) {
+        if (!window.imApp.commitFriendsChange) return false;
+        const targetId = typeof friendOrId === 'object' && friendOrId !== null ? friendOrId.id : friendOrId;
+        const commitOptions = {
+            metaOnly: options.metaOnly !== false,
+            ...options
+        };
+
+        return window.imApp.commitFriendsChange(() => {
+            const targetFriend = window.imData.friends.find(
+                item => String(item.id) === String(targetId)
+            );
+            if (!targetFriend) return;
+            return mutator(targetFriend);
+        }, commitOptions);
+    }
+
+    async function commitCurrentGroupChange(mutator, options = {}) {
+        if (!currentViewingGroup || !window.imApp.commitFriendsChange) return false;
+
+        const commitOptions = {
+            metaOnly: options.metaOnly !== false,
+            ...options
+        };
+
+        return window.imApp.commitFriendsChange(() => {
+            const targetGroup = window.imData.friends.find(
+                item => String(item.id) === String(currentViewingGroup.id)
+            );
+            if (!targetGroup) return;
+            currentViewingGroup = targetGroup;
+            if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(targetGroup.id)) {
+                window.imData.currentActiveFriend = targetGroup;
+            }
+            return mutator(targetGroup);
+        }, commitOptions);
+    }
+
+    function openAddFriendSheetDirectly() {
+        resetAddFriendForm();
+        const addFriendSheet = document.getElementById('add-friend-sheet');
+        if (addFriendSheet) {
+            if (typeof window.openView === 'function') {
+                window.openView(addFriendSheet);
+            } else {
+                addFriendSheet.style.display = 'flex';
+                const bottomSheet = addFriendSheet.querySelector('.bottom-sheet');
+                if (bottomSheet) {
+                    setTimeout(() => bottomSheet.style.transform = 'translateY(0)', 10);
+                }
+            }
+        }
+    }
+
+    if(addCharBtn) {
+        addCharBtn.addEventListener('click', () => {
+            if (friendActionsSheet) {
+                if (typeof window.openView === 'function') {
+                    window.openView(friendActionsSheet);
+                } else {
+                    friendActionsSheet.style.display = 'flex';
+                }
+            } else {
+                openAddFriendSheetDirectly();
+            }
+        });
+    }
+
+    if (openAddFriendSheetBtn) {
+        openAddFriendSheetBtn.addEventListener('click', () => {
+            if (friendActionsSheet && typeof window.closeView === 'function') {
+                window.closeView(friendActionsSheet);
+            } else if (friendActionsSheet) {
+                friendActionsSheet.style.display = 'none';
+            }
+            openAddFriendSheetDirectly();
+        });
+    }
+
+    if (newFriendsBtn) {
+        newFriendsBtn.addEventListener('click', () => {
+            if(window.showToast) window.showToast('新的朋友功能暂未开放');
+        });
+    }
+
+    if (friendActionsSheet) {
+        friendActionsSheet.addEventListener('click', (e) => {
+            if (e.target === friendActionsSheet) {
+                if (typeof window.closeView === 'function') window.closeView(friendActionsSheet);
+                else friendActionsSheet.style.display = 'none';
+            }
+        });
+    }
+
+    // Avatar Upload Logic
+    const friendAvatarWrapper = document.getElementById('friend-avatar-wrapper');
+    if(friendAvatarWrapper) {
+        friendAvatarWrapper.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'INPUT') document.getElementById('friend-avatar-upload').click();
+        });
+    }
+
+    const friendAvatarUpload = document.getElementById('friend-avatar-upload');
+    if(friendAvatarUpload) {
+        friendAvatarUpload.addEventListener('change', async (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            try {
+                const nextAvatar = window.imApp.compressImageFile
+                    ? await window.imApp.compressImageFile(file, {
+                        maxWidth: 256,
+                        maxHeight: 256,
+                        mimeType: 'image/jpeg',
+                        quality: 0.8
+                    })
+                    : await window.imApp.readFileAsDataUrl(file);
+
+                setFriendAvatar(nextAvatar);
+            } catch (error) {
+                console.error('Failed to process friend avatar', error);
+                if (showToast) showToast('头像处理失败');
+            }
+        });
+    }
+
+    function setFriendAvatar(url) {
+        const friendAvatarImg = document.getElementById('friend-avatar-img');
+        const friendAvatarPreview = document.getElementById('friend-avatar-preview');
+        const friendAvatarIcon = friendAvatarPreview ? friendAvatarPreview.querySelector('i') : null;
+
+        if (!friendAvatarImg || !friendAvatarIcon) return;
+
+        if (url) {
+            friendAvatarImg.src = url;
+            friendAvatarImg.style.display = 'block';
+            friendAvatarIcon.style.display = 'none';
+        } else {
+            friendAvatarImg.style.display = 'none';
+            friendAvatarIcon.style.display = 'block';
+            friendAvatarImg.src = '';
+        }
+    }
+
+    // Confirm Add Friend/NPC
+    const confirmAddFriendBtn = document.getElementById('confirm-add-friend-btn');
+    const confirmAddNpcBtn = document.getElementById('confirm-add-npc-btn');
+    let isAddingFriend = false;
+    let isAddingNpc = false;
+
+    function setAddButtonBusy(button, busy) {
+        if (!button) return;
+        button.style.pointerEvents = busy ? 'none' : '';
+        button.style.opacity = busy ? '0.65' : '';
+    }
+
+    if(confirmAddFriendBtn) {
+        confirmAddFriendBtn.addEventListener('click', async () => {
+            if (isAddingFriend) return;
+            isAddingFriend = true;
+            setAddButtonBusy(confirmAddFriendBtn, true);
+
+            const friend = window.imApp.normalizeFriendData({
+                id: Date.now(),
+                type: 'char',
+                realName: document.getElementById('friend-realname-input') ? document.getElementById('friend-realname-input').value : '',
+                nickname: document.getElementById('friend-nickname-input') ? document.getElementById('friend-nickname-input').value || 'New Friend' : 'New Friend',
+                signature: document.getElementById('friend-signature-input') ? document.getElementById('friend-signature-input').value || 'No Signature' : 'No Signature',
+                persona: document.getElementById('friend-persona-input') ? document.getElementById('friend-persona-input').value : '',
+                avatarUrl: (document.getElementById('friend-avatar-img') && document.getElementById('friend-avatar-img').style.display === 'block') ? document.getElementById('friend-avatar-img').src : null,
+                messages: [],
+                chatBg: null,
+                customCssEnabled: false,
+                customCss: '',
+                isPinned: false,
+                memory: window.imApp.createDefaultMemory()
+            });
+
+            const saved = window.imApp.commitFriendsChange
+                ? await window.imApp.commitFriendsChange(() => {
+                    window.imData.friends.push(friend);
+                }, { friendId: friend.id, silent: true })
+                : false;
+
+            if (!saved) {
+                isAddingFriend = false;
+                setAddButtonBusy(confirmAddFriendBtn, false);
+                if(window.showToast) window.showToast('添加 Char 保存失败');
+                return;
+            }
+
+            renderFriendsList();
+            isAddingFriend = false;
+            setAddButtonBusy(confirmAddFriendBtn, false);
+            closeView(document.getElementById('add-friend-sheet'));
+            if(window.showToast) window.showToast(`已添加 Char: ${friend.nickname}`);
+        });
+    }
+
+    if(confirmAddNpcBtn) {
+        confirmAddNpcBtn.addEventListener('click', async () => {
+            if (isAddingNpc) return;
+            isAddingNpc = true;
+            setAddButtonBusy(confirmAddNpcBtn, true);
+
+            const npc = window.imApp.normalizeFriendData({
+                id: Date.now(),
+                type: 'npc',
+                realName: document.getElementById('friend-realname-input') ? document.getElementById('friend-realname-input').value : '',
+                nickname: document.getElementById('friend-nickname-input') ? document.getElementById('friend-nickname-input').value || 'New NPC' : 'New NPC',
+                signature: document.getElementById('friend-signature-input') ? document.getElementById('friend-signature-input').value || 'No Signature' : 'No Signature',
+                persona: document.getElementById('friend-persona-input') ? document.getElementById('friend-persona-input').value : '',
+                avatarUrl: (document.getElementById('friend-avatar-img') && document.getElementById('friend-avatar-img').style.display === 'block') ? document.getElementById('friend-avatar-img').src : null,
+                messages: [],
+                chatBg: null,
+                customCssEnabled: false,
+                customCss: '',
+                isPinned: false,
+                memory: window.imApp.createDefaultMemory()
+            });
+
+            const saved = window.imApp.commitFriendsChange
+                ? await window.imApp.commitFriendsChange(() => {
+                    window.imData.friends.push(npc);
+                }, { friendId: npc.id, silent: true })
+                : false;
+
+            if (!saved) {
+                isAddingNpc = false;
+                setAddButtonBusy(confirmAddNpcBtn, false);
+                if(window.showToast) window.showToast('添加 NPC 保存失败');
+                return;
+            }
+
+            renderFriendsList();
+            closeView(document.getElementById('add-friend-sheet'));
+            if(window.showToast) window.showToast(`已添加 NPC: ${npc.nickname}`);
+
+            isAddingNpc = false;
+            setAddButtonBusy(confirmAddNpcBtn, false);
+        });
+    }
+
+    function renderFriendsList() {
+        const friendsContent = document.getElementById('friends-content');
+        const npcsContent = document.getElementById('npcs-content');
+        
+        if (friendsContent) friendsContent.innerHTML = '';
+        if (npcsContent) npcsContent.innerHTML = '';
+        
+        window.imData.friends.forEach(friend => {
+            if (friend.type === 'group') return; // Do not show groups in Friends/NPCs lists
+
+            const item = document.createElement('div');
+            item.className = 'line-list-item';
+            
+            const avatarHtml = friend.avatarUrl 
+                ? `<img src="${friend.avatarUrl}" style="width:100%;height:100%;object-fit:cover;">` 
+                : (friend.type === 'npc' ? `<i class="fas fa-robot"></i>` : `<i class="fas fa-user"></i>`);
+                
+            item.innerHTML = `
+                <div class="line-item-avatar">${avatarHtml}</div>
+                <div class="line-item-text">${friend.nickname}</div>
+            `;
+            
+            item.addEventListener('click', () => {
+                if(window.imApp.openChatTab) window.imApp.openChatTab(friend);
+            });
+
+            if (friend.type === 'npc') {
+                if (npcsContent) npcsContent.appendChild(item);
+            } else {
+                if (friendsContent) friendsContent.appendChild(item);
+            }
+        });
+    }
+
+    window.imApp.renderFriendsList = renderFriendsList;
+
+    // Initial render
+    renderFriendsList();
+});

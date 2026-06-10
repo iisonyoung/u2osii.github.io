@@ -1,1 +1,2915 @@
-function _0x4a8d(_0x4e56f3,_0x4ccdfb){_0x4e56f3=_0x4e56f3-0x1b2;const _0x5a6d25=_0x5a6d();let _0x4a8d0a=_0x5a6d25[_0x4e56f3];return _0x4a8d0a;}const _0x5efb42=_0x4a8d;(function(_0x3ee7ca,_0x4475b9){const _0x145a1d=_0x4a8d,_0xfad8cc=_0x3ee7ca();while(!![]){try{const _0x345baa=parseInt(_0x145a1d(0x261))/0x1+-parseInt(_0x145a1d(0x23a))/0x2+-parseInt(_0x145a1d(0x2ba))/0x3+-parseInt(_0x145a1d(0x259))/0x4+-parseInt(_0x145a1d(0x3b4))/0x5+-parseInt(_0x145a1d(0x1e2))/0x6+parseInt(_0x145a1d(0x2e6))/0x7*(parseInt(_0x145a1d(0x1e6))/0x8);if(_0x345baa===_0x4475b9)break;else _0xfad8cc['push'](_0xfad8cc['shift']());}catch(_0x3a78b5){_0xfad8cc['push'](_0xfad8cc['shift']());}}}(_0x5a6d,0x64ac8),document[_0x5efb42(0x38c)](_0x5efb42(0x1f0),()=>{const _0x5de278=_0x5efb42,_0x2b6cd1=document[_0x5de278(0x23d)](_0x5de278(0x37a)),_0x3b5e56=document['getElementById'](_0x5de278(0x251));let _0x4907b9=null;const _0x14e560=0xa,_0x124f72=0x5,_0x19057a=0x32;let _0x573cd3=_0x14e560,_0x26ffd8='',_0x3dfbb9=![],_0x1c97db=![];function _0x140580(_0xdd2d0){const _0x420ac4=_0x5de278;return String(_0xdd2d0??'')['replace'](/[&<>"']/g,_0x3c42c3=>({'&':'&amp;','<':'&lt;','>':_0x420ac4(0x1f6),'\x22':_0x420ac4(0x3bc),'\x27':_0x420ac4(0x2cb)}[_0x3c42c3]));}function _0x30bbaf(_0x29790f){return _0x140580(_0x29790f);}function _0x3aeee1(_0x2e279e){const _0x5779b3=_0x5de278;return String(_0x2e279e||'')[_0x5779b3(0x243)]();}function _0x202db7(_0x36a745={},_0x2292a1=0x0){const _0xbf391=_0x5de278,_0x512b84=Array[_0xbf391(0x3ae)](_0x36a745[_0xbf391(0x1bc)])?_0x36a745['sceneSegmentTranslationsZh']:[],_0x45ef0d=_0x3aeee1(_0x512b84[_0x2292a1]);if(_0x45ef0d)return _0x45ef0d;const _0x544745=[_0xbf391(0x379),_0xbf391(0x344),_0xbf391(0x1c2)],_0x5879a5=_0x3aeee1(_0x36a745[_0x544745[_0x2292a1]]);if(_0x5879a5)return _0x5879a5;return _0x2292a1===0x0?_0x3aeee1(_0x36a745[_0xbf391(0x265)]):'';}function _0x5f45b6(_0x44bf44,_0x520724){const _0x2c9a5f=_0x5de278,_0x5a9e3a=_0x3aeee1(_0x44bf44);if(!_0x5a9e3a)return'';return _0x2c9a5f(0x27c)+_0x30bbaf(_0x520724)+_0x2c9a5f(0x2f8)+_0x140580(_0x5a9e3a)+_0x2c9a5f(0x27d);}function _0x2465e6(_0x1c852a){const _0xd0e61a=_0x5de278,_0x5c7818=String(_0x1c852a||'')['trim']();if(!_0x5c7818)return[];const _0x9caafa=_0x5c7818[_0xd0e61a(0x3d8)](/(?<=[。！？!?；;])\s*/)['map'](_0x553b49=>_0x553b49['trim']())['filter'](Boolean);if(_0x9caafa['length']>=0x2)return _0x9caafa[_0xd0e61a(0x1ba)](0x0,0x5);const _0x5cb22d=Math['max'](0x1e,Math[_0xd0e61a(0x1b2)](_0x5c7818[_0xd0e61a(0x3c6)]/0x3)),_0x14a0ad=[];for(let _0x34b54f=0x0;_0x34b54f<_0x5c7818[_0xd0e61a(0x3c6)];_0x34b54f+=_0x5cb22d){_0x14a0ad[_0xd0e61a(0x279)](_0x5c7818[_0xd0e61a(0x1ba)](_0x34b54f,_0x34b54f+_0x5cb22d)[_0xd0e61a(0x243)]());}return _0x14a0ad['filter'](Boolean)[_0xd0e61a(0x1ba)](0x0,0x5);}function _0x4a6af9(_0x4875f7={}){const _0x481420=_0x5de278,_0x40977b=Array[_0x481420(0x3ae)](_0x4875f7[_0x481420(0x285)])?_0x4875f7[_0x481420(0x285)]:[_0x4875f7['opening'],_0x4875f7[_0x481420(0x3cb)],_0x4875f7[_0x481420(0x316)]]['filter'](Boolean),_0x2e20aa=_0x40977b[_0x481420(0x329)](_0xe585b=>String(_0xe585b||'')['trim']())[_0x481420(0x1c3)](Boolean);if(_0x2e20aa[_0x481420(0x3c6)])return _0x2e20aa[_0x481420(0x1ba)](0x0,0x5);return _0x2465e6(_0x4875f7[_0x481420(0x32c)]);}function _0x4d73d7(_0xd6700a={}){const _0x55e7f5=_0x5de278,_0x5793e8=_0x4a6af9(_0xd6700a);return _0x5793e8[_0x55e7f5(0x3c6)]?_0x5793e8[_0x55e7f5(0x1f5)]('\x20'):String(_0xd6700a['sceneText']||'')[_0x55e7f5(0x243)]();}window[_0x5de278(0x286)]=function(_0x500aa5){const _0xfa294=_0x5de278,_0x2a3aee=Number(_0x500aa5);if(!Number[_0xfa294(0x2b4)](_0x2a3aee))return'0';const _0x84b925=Math[_0xfa294(0x1d7)](_0x2a3aee);if(_0x84b925>=0xf4240){const _0x1291f2=(_0x2a3aee/0xf4240)['toFixed'](_0x84b925>=0x989680?0x0:0x1)[_0xfa294(0x320)](/\.0$/,'');return _0x1291f2+'M';}if(_0x84b925>=0x3e8){const _0x4b5784=(_0x2a3aee/0x3e8)[_0xfa294(0x347)](_0x84b925>=0x2710?0x0:0x1)[_0xfa294(0x320)](/\.0$/,'');return _0x4b5784+'K';}return String(Math[_0xfa294(0x356)](_0x2a3aee));},window[_0x5de278(0x341)]=function(_0xd83f71=''){const _0xe1157d=_0x5de278,_0x390398=String(_0xd83f71||_0xe1157d(0x308)+Math[_0xe1157d(0x358)](Math[_0xe1157d(0x3cc)]()*0xf4240))['trim']()||_0xe1157d(0x371);return _0xe1157d(0x206)+encodeURIComponent(_0x390398)+'/150/150';},window['tkResolveAvatar']=function(_0x3e833c,_0x26046c,_0x27d02f){const _0x5771cf=_0x5de278,_0x38adac=_0x3e833c||_0x26046c||'tk_avatar_'+Math['floor'](Math['random']()*0xf4240),_0x424a01=_0x3e833c&&window[_0x5771cf(0x23e)]?window[_0x5771cf(0x23e)](_0x3e833c):null;if(_0x424a01){if(_0x424a01['avatar'])return _0x424a01['avatar'];return window['tkGetRandomAvatarUrl']((_0x424a01['id']||_0x3e833c||_0x26046c)+_0x5771cf(0x3cf));}if(_0x27d02f)return _0x27d02f;if(window[_0x5771cf(0x201)]){const _0x10ca0e=window[_0x5771cf(0x201)]({'id':_0x3e833c,'imCharId':_0x3e833c,'handle':_0x3e833c,'name':_0x26046c});if(_0x10ca0e&&_0x10ca0e['avatarUrl'])return _0x10ca0e[_0x5771cf(0x2c8)];}return window['tkGetRandomAvatarUrl'](_0x38adac);};function _0x3f5859(_0x192984={}){const _0x209e6c=_0x5de278,_0x3bf9e0=_0x192984[_0x209e6c(0x2c5)]||_0x192984[_0x209e6c(0x3ad)]||_0x192984[_0x209e6c(0x23b)];if(_0x3bf9e0)return _0x3bf9e0;const _0x553d2c=encodeURIComponent(_0x192984[_0x209e6c(0x384)]||_0x192984[_0x209e6c(0x25f)]||_0x192984[_0x209e6c(0x1cc)]||_0x192984['id']||_0x209e6c(0x30a));return _0x209e6c(0x206)+_0x553d2c+_0x209e6c(0x241);}function _0x4a1275(_0x4f2e32={}){const _0x54da44=_0x5de278;if(_0x4f2e32[_0x54da44(0x299)]==='image')return _0x54da44(0x22e);if(_0x4f2e32['mediaType']===_0x54da44(0x352))return _0x54da44(0x352);const _0xc93fbd=_0x4a6af9(_0x4f2e32)[_0x54da44(0x3c6)]>0x0||Boolean(_0x4f2e32[_0x54da44(0x32c)]);if(_0x4f2e32[_0x54da44(0x2c5)]||_0x4f2e32['imagePrompt']||_0x4f2e32[_0x54da44(0x3bd)]===_0x54da44(0x22e)||(_0x4f2e32[_0x54da44(0x3ad)]||_0x4f2e32['bgImage'])&&!_0xc93fbd)return _0x54da44(0x22e);return _0x54da44(0x352);}function _0x49d432(_0x1a263f={}){const _0x2430da=_0x5de278;if(_0x4a1275(_0x1a263f)===_0x2430da(0x22e)){const _0x236bd4=Math[_0x2430da(0x3b2)](0x2,Math['min'](0x5,_0x4a6af9(_0x1a263f)[_0x2430da(0x3c6)]||0x3)),_0x509ad9=Math[_0x2430da(0x3b2)](0x2328,_0x236bd4*0xc80);return _0x2430da(0x2ae)+_0x236bd4+_0x2430da(0x1f7)+_0x236bd4+_0x2430da(0x1e9)+_0x509ad9+_0x2430da(0x22b)+Array[_0x2430da(0x3a3)]({'length':_0x236bd4})[_0x2430da(0x329)]((_0x5e3dd3,_0x4e19e7)=>'<span\x20style=\x22--tk-segment-index:'+_0x4e19e7+_0x2430da(0x220))[_0x2430da(0x1f5)]('')+_0x2430da(0x1bb);}return _0x2430da(0x39f);}window[_0x5de278(0x2a1)]=_0x49d432,window[_0x5de278(0x1e1)]=function(_0x2a52c9,_0x3342c9){const _0x4fda3e=_0x5de278;if(_0x3342c9)_0x3342c9['stopPropagation']();let _0x3e5706=tkState[_0x4fda3e(0x38b)][_0x4fda3e(0x1bf)](_0x400236=>_0x400236[_0x4fda3e(0x362)]===_0x2a52c9||_0x400236[_0x4fda3e(0x359)]===_0x2a52c9);if(!_0x3e5706){let _0xd55903=null;window['resolveYtLinkedImChar']&&(_0xd55903=window[_0x4fda3e(0x201)]({'name':_0x2a52c9}));const _0x2b7f17=_0x4fda3e(0x383)+Date[_0x4fda3e(0x21b)]();window[_0x4fda3e(0x2e9)]({'id':_0x2b7f17,'name':_0x2a52c9,'handle':_0x2a52c9[_0x4fda3e(0x1c1)]()['replace'](/\s+/g,''),'avatar':_0xd55903?_0xd55903[_0x4fda3e(0x2c8)]:window[_0x4fda3e(0x327)](_0x2b7f17,_0x2a52c9),'status':'','persona':_0x4fda3e(0x365)+_0x2a52c9,'isFollowed':![]}),_0x3e5706=window[_0x4fda3e(0x23e)](_0x2b7f17);}if(_0x3e5706&&window[_0x4fda3e(0x266)]){const _0x13c0f2=document[_0x4fda3e(0x23d)](_0x4fda3e(0x2f0));if(_0x13c0f2)window[_0x4fda3e(0x1df)](_0x13c0f2);window['tkOpenSubProfile'](_0x3e5706['id']);}};function _0xac9f63(_0x316448){const _0x1ddaae=_0x5de278,_0x1745e2=String(_0x316448||'')['replace'](/^@/,'')[_0x1ddaae(0x243)]();if(!_0x1745e2)return _0x316448;const _0x37ef5a=_0x1745e2[_0x1ddaae(0x1c1)](),_0x27fdc7=tkState[_0x1ddaae(0x38b)][_0x1ddaae(0x1bf)](_0x362530=>{const _0x4400f3=_0x1ddaae;return String(_0x362530[_0x4400f3(0x362)]||'')['toLowerCase']()===_0x37ef5a||String(_0x362530[_0x4400f3(0x359)]||'')[_0x4400f3(0x1c1)]()===_0x37ef5a||String(_0x362530['id']||'')[_0x4400f3(0x1c1)]()===_0x37ef5a;});return _0x27fdc7?_0x27fdc7[_0x1ddaae(0x362)]||_0x27fdc7[_0x1ddaae(0x359)]||_0x1745e2:_0x1745e2;}function _0x3d7486(_0x2d0a5a){const _0x3a0a07=_0x5de278;if(!_0x2d0a5a)return'';const _0xf0264a=_0x140580(_0x2d0a5a);return _0xf0264a[_0x3a0a07(0x320)](/@([^\s，。！？]+)/g,(_0x89e554,_0x1ffc09)=>{const _0x305279=_0x3a0a07,_0x43438f=_0xac9f63(_0x1ffc09);return _0x305279(0x2bd)+_0x30bbaf(JSON[_0x305279(0x367)](_0x1ffc09))+_0x305279(0x37d)+_0x140580(_0x43438f)+_0x305279(0x27b);});}function _0x510bd3(_0x5bc3e5={},_0x3fc8e0={}){const _0x5d97bb=_0x5de278,_0xa6924b=_0x4a6af9(_0x5bc3e5);if(!_0xa6924b[_0x5d97bb(0x3c6)])return'';const _0x339d3f=_0x3fc8e0[_0x5d97bb(0x349)]||(_0x5bc3e5['cover']||_0x5bc3e5[_0x5d97bb(0x23b)]?_0x5d97bb(0x345):'#111111'),_0xfa07b2=Math[_0x5d97bb(0x3b2)](_0xa6924b[_0x5d97bb(0x3c6)]*3.4,0x6);return _0x5d97bb(0x353)+_0xfa07b2+'s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0xa6924b[_0x5d97bb(0x329)]((_0x14a72b,_0x3ae400)=>_0x5d97bb(0x2b9)+_0x3ae400+';\x20--tk-flow-bg:'+_0x339d3f+';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>'+_0x140580(_0x14a72b)+_0x5d97bb(0x1d4)+(_0x202db7(_0x5bc3e5,_0x3ae400)?_0x5d97bb(0x346)+_0x140580(_0x202db7(_0x5bc3e5,_0x3ae400))+'</div>':'')+_0x5d97bb(0x255))['join']('')+_0x5d97bb(0x27d);}function _0x4f87b3(_0x7bb920=[]){const _0xc021eb=_0x5de278,_0x579f51=Array[_0xc021eb(0x3ae)](_0x7bb920)?_0x7bb920[_0xc021eb(0x1ba)](0x0,_0x19057a):[];return _0x579f51[_0xc021eb(0x329)]((_0x1c19b1,_0x96e423)=>({'id':_0x1c19b1['id']||_0xc021eb(0x2b7)+Date['now']()+'_'+_0x96e423+'_'+Math[_0xc021eb(0x358)](Math[_0xc021eb(0x3cc)]()*0x3e8),'authorId':_0x1c19b1[_0xc021eb(0x2a7)]||'commenter_'+Date['now']()+'_'+_0x96e423+'_'+Math[_0xc021eb(0x358)](Math[_0xc021eb(0x3cc)]()*0x3e8),'authorName':_0x1c19b1[_0xc021eb(0x1cc)]||_0xc021eb(0x1ce),'authorAvatar':_0x1c19b1[_0xc021eb(0x258)]||'','text':_0x1c19b1['text']||'','translationZh':_0x3aeee1(_0x1c19b1['translationZh']||_0x1c19b1[_0xc021eb(0x28b)]||_0x1c19b1[_0xc021eb(0x22c)]),'likes':Number[_0xc021eb(0x2b4)](Number(_0x1c19b1[_0xc021eb(0x218)]))?Number(_0x1c19b1[_0xc021eb(0x218)]):0x0,'isLiked':Boolean(_0x1c19b1[_0xc021eb(0x2ec)]),'replies':Array[_0xc021eb(0x3ae)](_0x1c19b1[_0xc021eb(0x2f9)])?_0x1c19b1[_0xc021eb(0x2f9)][_0xc021eb(0x1ba)](0x0,_0x19057a)[_0xc021eb(0x329)]((_0x4ebe7b,_0xd32b92)=>({'id':_0x4ebe7b['id']||'reply_'+Date[_0xc021eb(0x21b)]()+'_'+_0x96e423+'_'+_0xd32b92+'_'+Math[_0xc021eb(0x358)](Math[_0xc021eb(0x3cc)]()*0x3e8),'authorId':_0x4ebe7b[_0xc021eb(0x2a7)]||_0xc021eb(0x295)+Date[_0xc021eb(0x21b)]()+'_'+_0x96e423+'_'+_0xd32b92+'_'+Math['floor'](Math[_0xc021eb(0x3cc)]()*0x3e8),'authorName':_0x4ebe7b[_0xc021eb(0x1cc)]||_0xc021eb(0x1ce),'authorAvatar':_0x4ebe7b['authorAvatar']||'','text':_0x4ebe7b[_0xc021eb(0x333)]||'','translationZh':_0x3aeee1(_0x4ebe7b[_0xc021eb(0x265)]||_0x4ebe7b['translation']||_0x4ebe7b[_0xc021eb(0x22c)]),'likes':Number[_0xc021eb(0x2b4)](Number(_0x4ebe7b[_0xc021eb(0x218)]))?Number(_0x4ebe7b['likes']):0x0})):[]}))[_0xc021eb(0x1c3)](_0x4b6b9e=>_0x4b6b9e['text']);}window[_0x5de278(0x29d)]=function(_0x728533={},_0x316d94={}){const _0x3bb453=_0x5de278,_0x483164=Array[_0x3bb453(0x3ae)](_0x728533[_0x3bb453(0x285)])?_0x728533[_0x3bb453(0x285)]:[_0x728533[_0x3bb453(0x3a8)],_0x728533[_0x3bb453(0x3cb)],_0x728533[_0x3bb453(0x316)]][_0x3bb453(0x1c3)](Boolean),_0x53f54a=_0x483164[_0x3bb453(0x329)](_0x2a6001=>String(_0x2a6001||'')[_0x3bb453(0x243)]())['filter'](Boolean)[_0x3bb453(0x1ba)](0x0,0x5),_0x105106=Array['isArray'](_0x728533[_0x3bb453(0x1bc)])?_0x728533[_0x3bb453(0x1bc)]:[_0x728533[_0x3bb453(0x379)],_0x728533['middleTranslationZh'],_0x728533['endingTranslationZh']],_0xc73ca7=_0x53f54a['map']((_0x5b1898,_0x514b9a)=>_0x3aeee1(_0x105106[_0x514b9a])),_0x102d40=_0x728533['sceneText']||_0x53f54a['join']('\x20'),_0x3ffad0=_0x4f87b3(_0x728533['comments']),_0x548e83=_0x728533[_0x3bb453(0x299)]==='image'||_0x728533[_0x3bb453(0x3bd)]==='image'||_0x728533[_0x3bb453(0x2c5)]||_0x728533[_0x3bb453(0x384)]||(_0x728533[_0x3bb453(0x3ad)]||_0x728533[_0x3bb453(0x23b)])&&!_0x102d40?'image':_0x3bb453(0x352),_0x3e3fde=_0x316d94[_0x3bb453(0x299)]||(_0x728533[_0x3bb453(0x299)]===_0x3bb453(0x352)?_0x3bb453(0x352):_0x548e83),_0x32aa3a=_0x728533[_0x3bb453(0x384)]||_0x728533[_0x3bb453(0x1c8)]||'',_0x4b1ecb=_0x3e3fde===_0x3bb453(0x22e)||_0x32aa3a?_0x3bb453(0x206)+encodeURIComponent(_0x32aa3a||_0x728533[_0x3bb453(0x25f)]||_0x728533[_0x3bb453(0x1cc)]||_0x728533['id']||Date[_0x3bb453(0x21b)]())+_0x3bb453(0x241):null;return{'id':_0x316d94['id']||_0x728533['id']||'v_'+Date[_0x3bb453(0x21b)]()+'_'+Math['floor'](Math['random']()*0x3e8),'authorId':_0x316d94['authorId']||_0x728533['authorId']||_0x728533[_0x3bb453(0x359)]||'user_'+Date[_0x3bb453(0x21b)]()+'_'+Math[_0x3bb453(0x358)](Math['random']()*0x3e8),'authorName':_0x316d94[_0x3bb453(0x1cc)]||_0x728533[_0x3bb453(0x1cc)]||_0x3bb453(0x1ce),'authorAvatar':_0x316d94[_0x3bb453(0x258)]??_0x728533[_0x3bb453(0x258)]??null,'mediaType':_0x3e3fde,'imagePrompt':_0x32aa3a,'imageUrl':_0x728533[_0x3bb453(0x2c5)]||null,'desc':_0x728533['desc']||'','opening':_0x728533['opening']||_0x53f54a[0x0]||'','middle':_0x728533['middle']||_0x53f54a[0x1]||'','ending':_0x728533[_0x3bb453(0x316)]||_0x53f54a[0x2]||'','translationZh':_0x3aeee1(_0x728533[_0x3bb453(0x265)]||_0x728533['sceneTextTranslationZh']||_0x728533[_0x3bb453(0x28b)]),'openingTranslationZh':_0x3aeee1(_0x728533[_0x3bb453(0x379)]||_0xc73ca7[0x0]),'middleTranslationZh':_0x3aeee1(_0x728533[_0x3bb453(0x344)]||_0xc73ca7[0x1]),'endingTranslationZh':_0x3aeee1(_0x728533[_0x3bb453(0x1c2)]||_0xc73ca7[0x2]),'sceneSegments':_0x53f54a,'sceneSegmentTranslationsZh':_0xc73ca7,'sceneText':_0x102d40,'likes':Number[_0x3bb453(0x2b4)](Number(_0x728533[_0x3bb453(0x218)]))?Number(_0x728533[_0x3bb453(0x218)]):Math['floor'](Math[_0x3bb453(0x3cc)]()*0x3e8),'commentsCount':_0x5b83ad({'comments':_0x3ffad0}),'shares':Number[_0x3bb453(0x2b4)](Number(_0x728533['shares']))?Number(_0x728533[_0x3bb453(0x373)]):Math['floor'](Math[_0x3bb453(0x3cc)]()*0x64),'isLiked':Boolean(_0x728533[_0x3bb453(0x2ec)]),'comments':_0x3ffad0,'cover':_0x728533[_0x3bb453(0x3ad)]||_0x4b1ecb,'bgImage':_0x728533['bgImage']||null,'bgColor':_0x728533[_0x3bb453(0x3b0)]||null,..._0x316d94};},window[_0x5de278(0x3d7)]=function(_0x5f4870='',_0x43ee41={}){const _0x3892fe=_0x5de278,_0x2f6c93=[],_0xaa6710=window['normalizeWorldBookEntry']||(_0x5ac33a=>_0x5ac33a),_0x299c97=window['formatWorldBookEntryForPrompt']||(_0x32fac2=>{const _0x1f3cca=_0x4a8d,_0x2a2588=_0x32fac2[_0x1f3cca(0x2d1)]||_0x32fac2[_0x1f3cca(0x2da)]||'World\x20Book\x20Entry';return('【'+_0x2a2588+'】\x0a'+(_0x32fac2['content']||''))['trim']();}),_0x21f65f=window[_0x3892fe(0x1cd)]||((_0x304d1d,_0x9cfb1b)=>{const _0x2a5fc8=_0x3892fe;if(!_0x304d1d||_0x304d1d[_0x2a5fc8(0x21d)]!=='keyword')return!![];const _0x3bf720=String(_0x304d1d['keyword']||'')[_0x2a5fc8(0x243)]();return _0x3bf720?String(_0x9cfb1b||'')[_0x2a5fc8(0x3c7)](_0x3bf720):![];}),_0xbe98d0=Array[_0x3892fe(0x3ae)](_0x43ee41[_0x3892fe(0x3bf)])?_0x43ee41['boundIds']:[],_0xc1000e=Array[_0x3892fe(0x3ae)](tkState[_0x3892fe(0x37e)]?.[_0x3892fe(0x30c)])?tkState[_0x3892fe(0x37e)][_0x3892fe(0x30c)]:[],_0xdef0c2=new Set([..._0xbe98d0,..._0xc1000e][_0x3892fe(0x1c3)](Boolean)['map'](_0x143679=>String(_0x143679)));if(window[_0x3892fe(0x28c)]){const _0x4eab92=window[_0x3892fe(0x28c)]()['filter'](_0x4a0fe2=>_0x4a0fe2&&(_0x4a0fe2['isGlobal']||_0xdef0c2['has'](String(_0x4a0fe2['id'])))),_0x1a98b4=[];_0x4eab92[_0x3892fe(0x207)](_0x42c96e=>{const _0x46c44c=_0x3892fe;(Array[_0x46c44c(0x3ae)](_0x42c96e['entries'])?_0x42c96e[_0x46c44c(0x1fd)]:[])[_0x46c44c(0x207)](_0x33b58=>{const _0x5bafed=_0x46c44c,_0x58e66b=_0xaa6710(_0x33b58);_0x58e66b&&_0x58e66b[_0x5bafed(0x29c)]!==![]&&_0x21f65f(_0x58e66b,_0x5f4870)&&_0x1a98b4[_0x5bafed(0x279)](_0x58e66b);});}),_0x1a98b4[_0x3892fe(0x3c6)]&&_0x2f6c93[_0x3892fe(0x279)]('User\x20World\x20Book:\x0a'+_0x1a98b4[_0x3892fe(0x329)](_0x299c97)[_0x3892fe(0x1f5)]('\x0a\x0a'));}if(window['getBuiltinWorldBookContext']){const _0x5797d0=window[_0x3892fe(0x256)](null,_0x5f4870);if(_0x5797d0)_0x2f6c93[_0x3892fe(0x279)](_0x5797d0);}return _0x2f6c93['join']('\x0a\x0a')[_0x3892fe(0x243)]();},window[_0x5de278(0x3c0)]=function(_0x4ec764={}){const _0x2186eb=_0x5de278,_0x499b92=Boolean(_0x4ec764[_0x2186eb(0x264)]),_0x302f7e=_0x4ec764[_0x2186eb(0x1b9)]||_0x2186eb(0x278),_0x15eadc=String(_0x4ec764[_0x2186eb(0x274)]||'')[_0x2186eb(0x243)](),_0x2e3ef3={'name':tkState['profile']?.['name']||window[_0x2186eb(0x250)]?.['name']||'','handle':tkState[_0x2186eb(0x26c)]?.[_0x2186eb(0x359)]||'','tiktokPersona':tkState[_0x2186eb(0x26c)]?.[_0x2186eb(0x3af)]||'','tiktokBio':tkState[_0x2186eb(0x26c)]?.[_0x2186eb(0x257)]||'','basePersona':window['userState']?.['persona']||''},_0x3ec605=Object[_0x2186eb(0x239)](_0x2e3ef3)[_0x2186eb(0x30f)](Boolean),_0xa8ec9=_0x3ec605?_0x499b92?_0x2186eb(0x36e)+JSON[_0x2186eb(0x367)](_0x2e3ef3,null,0x2):_0x2186eb(0x3b1)+JSON[_0x2186eb(0x367)](_0x2e3ef3,null,0x2):_0x2186eb(0x24e);return(_0x2186eb(0x26a)+_0x302f7e+'）：\x0a-\x20你是这个世界观中的任何一个非\x20user\x20的真实账号/路人/粉丝/创作者/评论者，而不是旁白机器。\x0a-\x20可以使用世界书、主题、角色人设和\x20user\x20人设关键词触发世界观信息，但不要强行让所有内容围绕\x20user。\x0a-\x20只有当主题、评论语境或世界书明确需要提到\x20user\x20时，才把\x20user\x20当作被提及对象；否则不要提到\x20user。\x0a-\x20即使必须提到\x20user，也只能从外部视角提及，禁止用第一人称替\x20user\x20说话，禁止让\x20user\x20发视频、发评论、点赞、关注或回复。\x0a-\x20所有作者、评论者、回复者、访客和互动者都必须是\x20user\x20以外的人。\x0a'+(_0x15eadc?_0x2186eb(0x3d1)+_0x15eadc:'')+'\x0a'+_0xa8ec9+'\x0a')[_0x2186eb(0x243)]();};function _0x4a4dd3(){const _0x154fa3=_0x5de278;let _0x11d4ef=window[_0x154fa3(0x340)][_0x154fa3(0x1c6)];if(_0x11d4ef['endsWith']('/'))_0x11d4ef=_0x11d4ef['slice'](0x0,-0x1);return!_0x11d4ef[_0x154fa3(0x236)](_0x154fa3(0x3c1))&&(_0x11d4ef=_0x11d4ef['endsWith'](_0x154fa3(0x34d))?_0x11d4ef+_0x154fa3(0x3c1):_0x11d4ef+_0x154fa3(0x360)),_0x11d4ef;}function _0x4a1a71(_0x2d07b2){const _0x27ef16=_0x5de278,_0x2f3b47=String(_0x2d07b2||'')[_0x27ef16(0x320)](/```json/gi,'')[_0x27ef16(0x320)](/```/g,'')[_0x27ef16(0x243)]();if(!_0x2f3b47)throw new Error(_0x27ef16(0x245));try{return JSON[_0x27ef16(0x1d9)](_0x2f3b47);}catch(_0x57734d){const _0x3ed356=_0x2f3b47[_0x27ef16(0x309)]('['),_0x1bcdde=_0x2f3b47[_0x27ef16(0x309)]('{'),_0x3c0d5b=[_0x3ed356,_0x1bcdde][_0x27ef16(0x1c3)](_0x3034d8=>_0x3034d8>=0x0);if(!_0x3c0d5b[_0x27ef16(0x3c6)])throw _0x57734d;const _0x2b8a48=Math[_0x27ef16(0x382)](..._0x3c0d5b),_0x27d536=_0x2f3b47[_0x2b8a48]==='['?']':'}',_0x3c44f1=_0x2f3b47['lastIndexOf'](_0x27d536);if(_0x3c44f1<=_0x2b8a48)throw _0x57734d;const _0x49b538=_0x2f3b47[_0x27ef16(0x1ba)](_0x2b8a48,_0x3c44f1+0x1)[_0x27ef16(0x320)](/,\s*([}\]])/g,'$1')['trim']();return JSON[_0x27ef16(0x1d9)](_0x49b538);}}window[_0x5de278(0x3ac)]=_0x4a1a71;function _0x55450c(_0x41b851){const _0x2ed0c4=_0x5de278;return String(_0x41b851||_0x2ed0c4(0x238))[_0x2ed0c4(0x243)]()[_0x2ed0c4(0x1c1)]()[_0x2ed0c4(0x320)](/\s+/g,'_')[_0x2ed0c4(0x320)](/[^\w\u4e00-\u9fa5-]/g,'')[_0x2ed0c4(0x1ba)](0x0,0x28)||_0x2ed0c4(0x238);}function _0x5b83ad(_0x5279ae){const _0x2eebf5=_0x5de278;if(!_0x5279ae||!Array[_0x2eebf5(0x3ae)](_0x5279ae[_0x2eebf5(0x370)]))return 0x0;return _0x5279ae[_0x2eebf5(0x370)][_0x2eebf5(0x36b)]((_0x56bb51,_0x42f12f)=>{const _0x552e91=_0x2eebf5;return _0x56bb51+0x1+(Array[_0x552e91(0x3ae)](_0x42f12f[_0x552e91(0x2f9)])?_0x42f12f[_0x552e91(0x2f9)][_0x552e91(0x3c6)]:0x0);},0x0);}function _0x3dcdf3(_0x54eeae={},_0x2efab9=0x0){const _0x182d73=_0x5de278,_0x31ce37=_0x54eeae[_0x182d73(0x1cc)]||_0x54eeae[_0x182d73(0x362)]||'User\x20'+(_0x2efab9+0x1),_0x16ba7b=_0x54eeae['authorId']||_0x54eeae['id']||_0x182d73(0x1f4)+_0x55450c(_0x31ce37)+'_'+Date[_0x182d73(0x21b)]()+'_'+_0x2efab9,_0x527b02=window[_0x182d73(0x327)](_0x16ba7b,_0x31ce37,_0x54eeae[_0x182d73(0x258)]||_0x54eeae[_0x182d73(0x24f)]||'');return{'id':_0x54eeae['id']||_0x182d73(0x1f4)+Date['now']()+'_'+_0x2efab9+'_'+Math[_0x182d73(0x358)](Math[_0x182d73(0x3cc)]()*0x3e8),'authorId':_0x16ba7b,'authorName':_0x31ce37,'authorAvatar':_0x527b02,'text':String(_0x54eeae[_0x182d73(0x333)]||_0x54eeae[_0x182d73(0x272)]||'')[_0x182d73(0x243)](),'translationZh':_0x3aeee1(_0x54eeae[_0x182d73(0x265)]||_0x54eeae[_0x182d73(0x28b)]||_0x54eeae[_0x182d73(0x22c)]),'likes':Number[_0x182d73(0x2b4)](Number(_0x54eeae[_0x182d73(0x218)]))?Number(_0x54eeae[_0x182d73(0x218)]):Math['floor'](Math[_0x182d73(0x3cc)]()*0x50)};}window['tkSaveProfileVisitors']=function(_0x1ca8c0=[],_0x2ce111={}){const _0x49d985=_0x5de278;if(!tkState[_0x49d985(0x26c)]||typeof tkState['profile']!=='object')tkState['profile']={};const _0x3342a8=Array[_0x49d985(0x3ae)](tkState[_0x49d985(0x26c)][_0x49d985(0x2a9)])?tkState['profile'][_0x49d985(0x2a9)]:[],_0x2b761d=[],_0x8834d6=new Set();_0x1ca8c0[_0x49d985(0x1ba)](0x0,0x5)['forEach']((_0x3f17b8,_0x3a1e0f)=>{const _0x515ef9=_0x49d985,_0x59b12a=_0x3f17b8[_0x515ef9(0x1cc)]||_0x3f17b8['name']||_0x515ef9(0x273)+(_0x3a1e0f+0x1),_0x5d37e1=_0x3f17b8['handle']||_0x55450c(_0x59b12a),_0x3a4adf=_0x3f17b8[_0x515ef9(0x2a7)]||_0x3f17b8['id']||_0x515ef9(0x2b1)+_0x5d37e1+'_'+Date[_0x515ef9(0x21b)]()+'_'+_0x3a1e0f,_0x213ccf=String(_0x3f17b8[_0x515ef9(0x2d6)]||_0x3f17b8['reason']||_0x3f17b8[_0x515ef9(0x333)]||'')['trim']()[_0x515ef9(0x1ba)](0x0,0x1e),_0x4629c0=String(_0x5d37e1||_0x3a4adf||_0x59b12a)[_0x515ef9(0x1c1)]();if(!_0x59b12a||_0x8834d6[_0x515ef9(0x1c9)](_0x4629c0))return;_0x8834d6[_0x515ef9(0x335)](_0x4629c0),_0x2b761d[_0x515ef9(0x279)]({'id':_0x3a4adf,'name':_0x59b12a,'handle':_0x5d37e1,'avatar':window[_0x515ef9(0x327)](_0x3a4adf,_0x59b12a,_0x3f17b8[_0x515ef9(0x258)]||_0x3f17b8[_0x515ef9(0x24f)]||''),'thought':_0x213ccf||_0x515ef9(0x268),'reason':_0x213ccf||_0x515ef9(0x2d3),'sourceVideoId':_0x2ce111[_0x515ef9(0x215)]||'','sourceCommentId':_0x2ce111[_0x515ef9(0x3a5)]||'','createdAt':Date['now']()-_0x3a1e0f});});const _0x1f4918=new Set(_0x2b761d['map'](_0x36eb6c=>String(_0x36eb6c[_0x49d985(0x359)]||_0x36eb6c['id']||_0x36eb6c[_0x49d985(0x362)])[_0x49d985(0x1c1)]()));tkState[_0x49d985(0x26c)][_0x49d985(0x2a9)]=_0x2b761d['concat'](_0x3342a8['filter'](_0x3e1c85=>{const _0x142ee4=_0x49d985,_0x3274e5=String(_0x3e1c85['handle']||_0x3e1c85['id']||_0x3e1c85[_0x142ee4(0x362)])[_0x142ee4(0x1c1)]();if(_0x1f4918[_0x142ee4(0x1c9)](_0x3274e5))return![];return _0x1f4918['add'](_0x3274e5),!![];}))[_0x49d985(0x1ba)](0x0,0x32);};function _0x38360d(_0x155585,_0x4a7375=_0x5de278(0x238)){const _0x18af7e=_0x55450c(_0x155585||_0x4a7375);return _0x18af7e||_0x4a7375;}function _0x7dea73(_0x1df998={},_0x313a0b=0x0){const _0x38c01f=_0x5de278,_0x536f01=String(_0x1df998[_0x38c01f(0x1cc)]||_0x1df998[_0x38c01f(0x362)]||_0x38c01f(0x34b)+(_0x313a0b+0x1))[_0x38c01f(0x243)](),_0x2fd4f4=_0x38360d(_0x1df998[_0x38c01f(0x359)]||_0x1df998[_0x38c01f(0x2a7)]||_0x1df998['id']||_0x536f01,'follower_'+(_0x313a0b+0x1)),_0x5528e6=String(_0x1df998[_0x38c01f(0x2a7)]||_0x1df998['id']||_0x38c01f(0x2ad)+_0x2fd4f4);let _0x35af04=window[_0x38c01f(0x23e)]?window[_0x38c01f(0x23e)](_0x5528e6):null;const _0x30ff81=window[_0x38c01f(0x327)]?window[_0x38c01f(0x327)](_0x5528e6,_0x536f01,_0x1df998[_0x38c01f(0x258)]||_0x1df998[_0x38c01f(0x24f)]||''):_0x1df998[_0x38c01f(0x258)]||_0x1df998[_0x38c01f(0x24f)]||'';if(!_0x35af04&&window[_0x38c01f(0x2e9)])window[_0x38c01f(0x2e9)]({'id':_0x5528e6,'name':_0x536f01,'handle':_0x2fd4f4,'avatar':_0x30ff81,'status':_0x1df998[_0x38c01f(0x3b3)]||_0x38c01f(0x3c2),'persona':_0x1df998['persona']||_0x536f01+_0x38c01f(0x38f),'bio':_0x1df998[_0x38c01f(0x257)]||_0x38c01f(0x2c3),'isFollowed':![],'isFollower':!![]}),_0x35af04=window[_0x38c01f(0x23e)]?window[_0x38c01f(0x23e)](_0x5528e6):null;else{if(_0x35af04){_0x35af04['isFollower']=!![];if(!_0x35af04['name']&&_0x536f01)_0x35af04['name']=_0x536f01;if(!_0x35af04[_0x38c01f(0x359)]&&_0x2fd4f4)_0x35af04[_0x38c01f(0x359)]=_0x2fd4f4;if(!_0x35af04[_0x38c01f(0x24f)]&&_0x30ff81)_0x35af04[_0x38c01f(0x24f)]=_0x30ff81;}}return _0x35af04;}function _0x24c14a(_0x42c36a={},_0x17fd2c=0x0){const _0x6c2d71=_0x5de278,_0xe960a4=_0x42c36a['authorName']||_0x42c36a[_0x6c2d71(0x362)]||_0x6c2d71(0x387)+(_0x17fd2c+0x1),_0x484e4d=_0x42c36a[_0x6c2d71(0x2a7)]||_0x42c36a['id']||_0x6c2d71(0x34f)+_0x38360d(_0xe960a4)+'_'+Date[_0x6c2d71(0x21b)]()+'_'+_0x17fd2c,_0x681071=window['tkResolveAvatar'](_0x484e4d,_0xe960a4,_0x42c36a[_0x6c2d71(0x258)]||_0x42c36a['avatar']||'');return{'id':_0x42c36a['id']||_0x6c2d71(0x2b7)+Date[_0x6c2d71(0x21b)]()+'_'+_0x17fd2c+'_'+Math[_0x6c2d71(0x358)](Math['random']()*0x3e8),'authorId':_0x484e4d,'authorName':_0xe960a4,'authorAvatar':_0x681071,'text':String(_0x42c36a[_0x6c2d71(0x333)]||_0x42c36a[_0x6c2d71(0x272)]||'')[_0x6c2d71(0x243)](),'translationZh':_0x3aeee1(_0x42c36a[_0x6c2d71(0x265)]||_0x42c36a['translation']||_0x42c36a[_0x6c2d71(0x22c)]),'likes':Number[_0x6c2d71(0x2b4)](Number(_0x42c36a[_0x6c2d71(0x218)]))?Number(_0x42c36a[_0x6c2d71(0x218)]):Math[_0x6c2d71(0x358)](Math[_0x6c2d71(0x3cc)]()*0x32),'replies':Array['isArray'](_0x42c36a['replies'])?_0x42c36a[_0x6c2d71(0x2f9)][_0x6c2d71(0x329)]((_0x1604ea,_0x1910f1)=>_0x3dcdf3(_0x1604ea,_0x1910f1))[_0x6c2d71(0x1c3)](_0xa6a007=>_0xa6a007[_0x6c2d71(0x333)]):[]};}function _0x14ce83(_0x4be3a2={}){const _0x1c4753=_0x5de278,_0x2b7cb1=[_0x1c4753(0x238),'profile',tkState[_0x1c4753(0x26c)]?.['id'],window['userState']?.['id']][_0x1c4753(0x1c3)](Boolean)[_0x1c4753(0x329)](_0x2ed75a=>String(_0x2ed75a)[_0x1c4753(0x1c1)]()),_0x528101=[tkState[_0x1c4753(0x26c)]?.[_0x1c4753(0x362)],window['userState']?.[_0x1c4753(0x362)],tkState[_0x1c4753(0x26c)]?.[_0x1c4753(0x359)],window[_0x1c4753(0x250)]?.[_0x1c4753(0x3d6)]][_0x1c4753(0x1c3)](Boolean)[_0x1c4753(0x329)](_0x113411=>String(_0x113411)[_0x1c4753(0x243)]()[_0x1c4753(0x1c1)]()),_0x2ef403=String(_0x4be3a2[_0x1c4753(0x2a7)]||_0x4be3a2['id']||'')[_0x1c4753(0x1c1)](),_0x3f3b9c=String(_0x4be3a2[_0x1c4753(0x1cc)]||_0x4be3a2['name']||'')[_0x1c4753(0x243)]()[_0x1c4753(0x1c1)]();return _0x2ef403&&_0x2b7cb1[_0x1c4753(0x3c7)](_0x2ef403)||_0x3f3b9c&&_0x528101[_0x1c4753(0x3c7)](_0x3f3b9c);}function _0x520c9d({followers:followers=0x0,followerEntries:followerEntries=[],likes:likes=0x0,saves:saves=0x0,comments:comments=0x0,commentEntries:commentEntries=[],video:video=null}={}){const _0x3fc1e0=_0x5de278;tkState['activity']={'newFollowers':tkState['activity']?.[_0x3fc1e0(0x1dd)]||'暂无新粉丝','likesSaves':tkState[_0x3fc1e0(0x253)]?.[_0x3fc1e0(0x31f)]||_0x3fc1e0(0x350),'commentsMentions':tkState[_0x3fc1e0(0x253)]?.['commentsMentions']||_0x3fc1e0(0x350),'followers':Array['isArray'](tkState[_0x3fc1e0(0x253)]?.[_0x3fc1e0(0x217)])?tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x217)]:[],'likes':Array[_0x3fc1e0(0x3ae)](tkState[_0x3fc1e0(0x253)]?.[_0x3fc1e0(0x218)])?tkState['activity'][_0x3fc1e0(0x218)]:[],'saves':Array['isArray'](tkState[_0x3fc1e0(0x253)]?.[_0x3fc1e0(0x3b6)])?tkState['activity'][_0x3fc1e0(0x3b6)]:[],'comments':Array['isArray'](tkState['activity']?.['comments'])?tkState['activity'][_0x3fc1e0(0x370)]:[]};if(followers>0x0)tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x1dd)]=followers+'人关注了你';if(Array[_0x3fc1e0(0x3ae)](followerEntries)&&followerEntries['length']){const _0x439693=followerEntries[_0x3fc1e0(0x329)]((_0x1e5a08,_0x54803f)=>({'id':_0x1e5a08['id']||_0x1e5a08[_0x3fc1e0(0x2a7)]||'follower_activity_'+Date['now']()+'_'+_0x54803f,'name':_0x1e5a08[_0x3fc1e0(0x362)]||_0x1e5a08[_0x3fc1e0(0x1cc)]||_0x3fc1e0(0x34b)+(_0x54803f+0x1),'avatar':_0x1e5a08[_0x3fc1e0(0x24f)]||_0x1e5a08['authorAvatar']||'','text':_0x3fc1e0(0x2c2),'createdAt':Date[_0x3fc1e0(0x21b)]()-_0x54803f}));tkState['activity']['followers']=_0x439693['concat'](tkState['activity'][_0x3fc1e0(0x217)])[_0x3fc1e0(0x1ba)](0x0,0x32);}const _0x23a43f=[];if(likes>0x0)_0x23a43f['push'](likes+_0x3fc1e0(0x242));if(saves>0x0)_0x23a43f[_0x3fc1e0(0x279)](saves+_0x3fc1e0(0x3a0));if(_0x23a43f[_0x3fc1e0(0x3c6)])tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x31f)]=_0x23a43f[_0x3fc1e0(0x1f5)](_0x3fc1e0(0x1ef));likes>0x0&&(tkState['activity'][_0x3fc1e0(0x218)]=[{'id':_0x3fc1e0(0x332)+(video?.['id']||_0x3fc1e0(0x352))+'_'+Date[_0x3fc1e0(0x21b)](),'icon':_0x3fc1e0(0x38a),'title':'点赞','text':likes+_0x3fc1e0(0x242),'videoId':video?.['id']||'','createdAt':Date[_0x3fc1e0(0x21b)]()}][_0x3fc1e0(0x32a)](tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x218)])[_0x3fc1e0(0x1ba)](0x0,0x32));saves>0x0&&(tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x3b6)]=[{'id':_0x3fc1e0(0x25d)+(video?.['id']||'video')+'_'+Date['now'](),'icon':_0x3fc1e0(0x271),'title':'收藏','text':saves+'人收藏了你的视频','videoId':video?.['id']||'','createdAt':Date[_0x3fc1e0(0x21b)]()}][_0x3fc1e0(0x32a)](tkState[_0x3fc1e0(0x253)][_0x3fc1e0(0x3b6)])['slice'](0x0,0x32));if(comments>0x0)tkState['activity'][_0x3fc1e0(0x386)]=comments+'人评论了你的视频';if(Array[_0x3fc1e0(0x3ae)](commentEntries)&&commentEntries[_0x3fc1e0(0x3c6)]){const _0x176bb2=commentEntries[_0x3fc1e0(0x329)]((_0x2ce63e,_0x4c4234)=>({'id':_0x2ce63e['id']||_0x3fc1e0(0x203)+Date[_0x3fc1e0(0x21b)]()+'_'+_0x4c4234,'name':_0x2ce63e[_0x3fc1e0(0x1cc)]||_0x2ce63e[_0x3fc1e0(0x362)]||_0x3fc1e0(0x229),'avatar':_0x2ce63e['authorAvatar']||_0x2ce63e['avatar']||'','text':_0x3fc1e0(0x205)+(_0x2ce63e[_0x3fc1e0(0x333)]||''),'videoId':video?.['id']||'','commentId':_0x2ce63e['id']||'','createdAt':Date[_0x3fc1e0(0x21b)]()-_0x4c4234}));tkState['activity'][_0x3fc1e0(0x370)]=_0x176bb2[_0x3fc1e0(0x32a)](tkState['activity'][_0x3fc1e0(0x370)])[_0x3fc1e0(0x1ba)](0x0,0x32);}}window['tkGenerateVideoInteractions']=async function(_0x7a1e22,_0x49dfc5={}){const _0x513304=_0x5de278,_0x15c1b5=window[_0x513304(0x2a8)]?window[_0x513304(0x2a8)](_0x7a1e22):{},_0x3f39ff=_0x15c1b5[_0x513304(0x352)],_0x2e8adb=_0x15c1b5[_0x513304(0x2dd)]||tkState[_0x513304(0x26c)]||{},_0xeb2e62=Boolean(_0x49dfc5[_0x513304(0x334)]);if(!_0x3f39ff)return;if(!window[_0x513304(0x340)]||!window[_0x513304(0x340)][_0x513304(0x1c6)]||!window[_0x513304(0x340)]['apiKey']){if(window['showToast'])window[_0x513304(0x216)](_0x513304(0x235));return;}if(window[_0x513304(0x216)])window[_0x513304(0x216)](_0xeb2e62?_0x513304(0x307):'AI\x20正在生成互动数据...');const _0x1e9f9b=(tkState[_0x513304(0x38b)]||[])[_0x513304(0x1c3)](_0x2cefbf=>_0x2cefbf[_0x513304(0x392)])[_0x513304(0x1ba)](0x0,0x6),_0x20c873=_0x1e9f9b[_0x513304(0x3c6)]?_0x1e9f9b[_0x513304(0x329)](_0x4216a0=>_0x513304(0x219)+_0x4216a0['id']+',\x20名字:\x20'+(_0x4216a0['name']||_0x4216a0[_0x513304(0x359)])+_0x513304(0x1e5)+(_0x4216a0[_0x513304(0x3af)]||''))[_0x513304(0x1f5)]('\x0a'):_0x513304(0x1ed),_0x3a4eee=String(_0x3f39ff[_0x513304(0x2a7)]||'')==='profile'||String(_0x2e8adb['id']||'')===_0x513304(0x26c)||tkState[_0x513304(0x26c)]?.[_0x513304(0x359)]&&String(_0x2e8adb[_0x513304(0x359)]||'')===String(tkState[_0x513304(0x26c)][_0x513304(0x359)]),_0x3495c0={'name':tkState['profile']?.[_0x513304(0x362)]||window[_0x513304(0x250)]?.[_0x513304(0x362)]||_0x513304(0x1ce),'handle':tkState[_0x513304(0x26c)]?.[_0x513304(0x359)]||_0x513304(0x238),'persona':tkState[_0x513304(0x26c)]?.[_0x513304(0x3af)]||window[_0x513304(0x250)]?.[_0x513304(0x3af)]||'','bio':tkState[_0x513304(0x26c)]?.[_0x513304(0x257)]||'','basePersona':window[_0x513304(0x250)]?.['persona']||''},_0x33a1bd=_0x3a4eee?_0x3495c0:{'name':_0x2e8adb['name']||tkState[_0x513304(0x26c)]?.['name']||_0x513304(0x1ce),'handle':_0x2e8adb['handle']||'user','persona':_0x2e8adb[_0x513304(0x3af)]||tkState[_0x513304(0x26c)]?.[_0x513304(0x3af)]||window[_0x513304(0x250)]?.['persona']||'','bio':_0x2e8adb[_0x513304(0x257)]||tkState[_0x513304(0x26c)]?.['bio']||'','basePersona':window['userState']?.[_0x513304(0x3af)]||''},_0x84222b=[_0x3f39ff[_0x513304(0x25f)]||'',_0x3f39ff[_0x513304(0x32c)]||'',Array[_0x513304(0x3ae)](_0x3f39ff[_0x513304(0x285)])?_0x3f39ff[_0x513304(0x285)][_0x513304(0x1f5)]('\x0a'):'',_0x33a1bd[_0x513304(0x3af)]||'',_0x33a1bd[_0x513304(0x257)]||'',_0x33a1bd[_0x513304(0x362)]||'',_0x33a1bd[_0x513304(0x359)]||'',window['userState']?.[_0x513304(0x3af)]||''][_0x513304(0x1c3)](Boolean)[_0x513304(0x1f5)]('\x0a'),_0x12db06=window['tkBuildWorldBookContext']?window[_0x513304(0x3d7)](_0x84222b):'',_0x21dac6=window[_0x513304(0x3c0)]?window[_0x513304(0x3c0)]({'includeUserIdentity':_0x3a4eee,'purpose':'视频发布后的评论、关注、点赞、收藏和主页访客互动','triggerText':_0x84222b}):'',_0x5392f0=_0x513304(0x310)+(_0x3a4eee?'This\x20video\x20was\x20posted\x20by\x20the\x20current\x20user.\x20Treat\x20the\x20creator/blogger\x20as\x20the\x20user\x20TikTok\x20account\x20below,\x20and\x20use\x20the\x20TikTok\x20profile\x20persona\x20as\x20the\x20authoritative\x20persona\x20for\x20followers,\x20likes,\x20comments,\x20and\x20visitors.':_0x513304(0x21e))+'\x0aThe\x20world\x20book\x20context\x20was\x20mounted\x20with\x20the\x20video\x20plus\x20the\x20user\x20TikTok\x20persona\x20as\x20trigger\x20text.\x0a\x0a你是\x20TikTok\x20视频互动模拟器。请根据视频、博主人设、已关注好友和世界书，生成这条视频发布后的真实互动。\x0a\x0a'+_0x21dac6+_0x513304(0x38d)+JSON[_0x513304(0x367)]({'id':_0x3f39ff['id'],'desc':_0x3f39ff['desc']||'','mediaType':_0x4a1275(_0x3f39ff),'sceneText':_0x4d73d7(_0x3f39ff),'sceneSegments':_0x4a6af9(_0x3f39ff),'currentLikes':_0x3f39ff[_0x513304(0x218)]||0x0,'currentSaves':_0x3f39ff[_0x513304(0x3b6)]||_0x3f39ff[_0x513304(0x389)]||0x0,'currentComments':_0x5b83ad(_0x3f39ff)},null,0x2)+'\x0a\x0a博主：\x0a'+JSON[_0x513304(0x367)]({..._0x33a1bd,'isCurrentUserTikTokAccount':_0x3a4eee},null,0x2)+_0x513304(0x291)+_0x20c873+_0x513304(0x37b)+(_0x12db06||'无')+'\x0a\x0a返回格式：\x0a{\x0a\x20\x20\x22newFollowers\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22authorId\x22:\x20\x22follower_unique_id\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22新粉丝名\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=follower\x22,\x0a\x20\x20\x20\x20\x20\x20\x22handle\x22:\x20\x22follower_handle\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22newLikes\x22:\x20128,\x0a\x20\x20\x22newSaves\x22:\x2023,\x0a\x20\x20\x22newComments\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22authorId\x22:\x20\x22commenter_id\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22评论者\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=commenter\x22,\x0a\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22评论内容\x22,\x0a\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22likes\x22:\x2012,\x0a\x20\x20\x20\x20\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorId\x22:\x20\x22reply_id\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22回复者\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22reply\x20text\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22回复文字的中文翻译\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22likes\x22:\x205\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22visitors\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22访客名\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=visitor\x22,\x0a\x20\x20\x20\x20\x20\x20\x22handle\x22:\x20\x22visitor_handle\x22,\x0a\x20\x20\x20\x20\x20\x20\x22thought\x22:\x20\x22这条视频的细节让我想点进主页看看\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}\x0a';try{const _0x28514b=await fetch(_0x4a4dd3(),{'method':'POST','headers':{'Content-Type':_0x513304(0x306),'Authorization':'Bearer\x20'+window[_0x513304(0x340)][_0x513304(0x1cf)]},'body':JSON[_0x513304(0x367)]({'model':window[_0x513304(0x340)]['model']||_0x513304(0x26f),'messages':[{'role':'system','content':'Return\x20strict\x20valid\x20JSON\x20only.\x20Use\x20double-quoted\x20keys\x20and\x20strings.\x20Do\x20not\x20use\x20markdown,\x20comments,\x20prose,\x20or\x20trailing\x20commas.'},{'role':'user','content':_0x5392f0}],'temperature':parseFloat(window[_0x513304(0x340)]['temperature'])||0.8})});if(!_0x28514b['ok'])throw new Error('API\x20Error:\x20'+_0x28514b[_0x513304(0x3b3)]);const _0x47ac82=await _0x28514b[_0x513304(0x33a)](),_0x72d8c2=_0x4a1a71(_0x47ac82['choices']?.[0x0]?.['message']?.[_0x513304(0x272)]||''),_0x3ebd80=Array['isArray'](_0x72d8c2[_0x513304(0x1dd)])?_0x72d8c2[_0x513304(0x1dd)][_0x513304(0x1c3)](_0x599715=>!_0x14ce83(_0x599715))[_0x513304(0x1ba)](0x0,0x5):[],_0x2a4038=Array[_0x513304(0x3ae)](_0x72d8c2['newComments'])?_0x72d8c2[_0x513304(0x24b)][_0x513304(0x1c3)](_0x1222b3=>!_0x14ce83(_0x1222b3))[_0x513304(0x1ba)](0x0,0x5):[],_0x1c7276=Array[_0x513304(0x3ae)](_0x72d8c2['visitors'])?_0x72d8c2[_0x513304(0x2a9)][_0x513304(0x1c3)](_0x1b4e14=>!_0x14ce83(_0x1b4e14))[_0x513304(0x1ba)](0x0,0x3):[],_0x63012c=Math['max'](0x0,Number(_0x72d8c2[_0x513304(0x328)])||0x0),_0x2a8145=Math['max'](0x0,Number(_0x72d8c2['newSaves'])||0x0);_0x3ebd80['forEach']((_0x344533,_0x19c738)=>_0x7dea73(_0x344533,_0x19c738)),_0x3f39ff[_0x513304(0x218)]=(Number(_0x3f39ff[_0x513304(0x218)])||0x0)+_0x63012c,_0x3f39ff[_0x513304(0x389)]=(Number(_0x3f39ff[_0x513304(0x389)]||_0x3f39ff[_0x513304(0x3b6)])||0x0)+_0x2a8145,_0x3f39ff['saves']=_0x3f39ff[_0x513304(0x389)];if(!Array[_0x513304(0x3ae)](_0x3f39ff[_0x513304(0x370)]))_0x3f39ff[_0x513304(0x370)]=[];_0x2a4038[_0x513304(0x329)](_0x24c14a)[_0x513304(0x1c3)](_0x4d05d0=>_0x4d05d0[_0x513304(0x333)])[_0x513304(0x3ba)]()[_0x513304(0x207)](_0x53bf3a=>_0x3f39ff[_0x513304(0x370)][_0x513304(0x296)](_0x53bf3a));_0x1c7276[_0x513304(0x3c6)]&&window[_0x513304(0x230)]&&window['tkSaveProfileVisitors'](_0x1c7276,{'videoId':_0x3f39ff['id']});_0x3f39ff[_0x513304(0x1fe)]=_0x5b83ad(_0x3f39ff),_0x520c9d({'followers':_0x3ebd80[_0x513304(0x3c6)],'followerEntries':_0x3ebd80,'likes':_0x63012c,'saves':_0x2a8145,'comments':_0x2a4038[_0x513304(0x3c6)],'commentEntries':_0x2a4038,'video':_0x3f39ff});if(window[_0x513304(0x2ea)])window[_0x513304(0x2ea)]();if(window[_0x513304(0x2fd)])window[_0x513304(0x2fd)]();if(window['tkRenderProfile'])window['tkRenderProfile']();if(window['tkRenderChat'])window['tkRenderChat']();if(_0x12de14===_0x3f39ff['id'])_0x3ee0c6(_0x3f39ff);const _0x4be535=document[_0x513304(0x23d)](_0x513304(0x374));if(_0x4be535&&_0x4be535[_0x513304(0x36c)][_0x513304(0x215)]===_0x3f39ff['id']){const _0x5f3063=document[_0x513304(0x23d)]('tk-fs-video-likes'),_0xa0504b=document['getElementById'](_0x513304(0x375));if(_0x5f3063)_0x5f3063[_0x513304(0x2d7)]=window[_0x513304(0x286)](_0x3f39ff[_0x513304(0x218)]||0x0);if(_0xa0504b)_0xa0504b['textContent']=window[_0x513304(0x286)](_0x3f39ff[_0x513304(0x1fe)]||0x0);}if(window[_0x513304(0x216)])window[_0x513304(0x216)]('互动数据生成完毕');}catch(_0x1793ed){console[_0x513304(0x3d4)](_0x513304(0x2fa),_0x1793ed);if(window[_0x513304(0x216)])window[_0x513304(0x216)](_0x513304(0x234));}};async function _0x5473ad(_0x57a4d0,_0x16e0fa,_0x45722f,_0x58c845){const _0x37da17=_0x5de278;if(!_0x57a4d0||!_0x16e0fa||!_0x58c845)return;if(!window[_0x37da17(0x340)]||!window['apiConfig'][_0x37da17(0x1c6)]||!window['apiConfig'][_0x37da17(0x1cf)])return;const _0x17dc79={'desc':_0x57a4d0[_0x37da17(0x25f)]||'','mediaType':_0x4a1275(_0x57a4d0),'sceneSegments':_0x4a6af9(_0x57a4d0),'authorName':_0x57a4d0[_0x37da17(0x1cc)]||'User'},_0x2027aa=[window['userState']&&window[_0x37da17(0x250)]['persona']?_0x37da17(0x1e7)+window[_0x37da17(0x250)][_0x37da17(0x3af)]:'',tkState['profile']&&tkState[_0x37da17(0x26c)][_0x37da17(0x3af)]?_0x37da17(0x3c4)+tkState[_0x37da17(0x26c)][_0x37da17(0x3af)]:'',tkState[_0x37da17(0x26c)]&&tkState['profile'][_0x37da17(0x257)]?_0x37da17(0x293)+tkState[_0x37da17(0x26c)]['bio']:'',tkState[_0x37da17(0x26c)]&&tkState[_0x37da17(0x26c)][_0x37da17(0x362)]?'TikTok\x20profile\x20name:\x20'+tkState[_0x37da17(0x26c)]['name']:''][_0x37da17(0x1c3)](Boolean)[_0x37da17(0x1f5)]('\x0a'),_0x2df187=_0x45722f?{'authorName':_0x45722f[_0x37da17(0x1cc)]||'User','text':_0x45722f[_0x37da17(0x333)]||''}:null,_0x393269=window[_0x37da17(0x3d7)]?window[_0x37da17(0x3d7)]((_0x57a4d0[_0x37da17(0x25f)]||'')+'\x0a'+_0x58c845+'\x0a'+(_0x2df187?_0x2df187[_0x37da17(0x333)]:'')+'\x0a'+_0x2027aa):'',_0x16c96e=window[_0x37da17(0x3c0)]?window['tkBuildWorldActorPrompt']({'includeUserIdentity':!![],'purpose':_0x37da17(0x305),'triggerText':(_0x57a4d0['desc']||'')+'\x0a'+_0x58c845}):'',_0x4e32ae=_0x37da17(0x3a9)+_0x16c96e+_0x37da17(0x1c5)+JSON[_0x37da17(0x367)](_0x17dc79,null,0x2)+_0x37da17(0x388)+(_0x2027aa||'No\x20explicit\x20user\x20persona.\x20Infer\x20a\x20normal\x20TikTok\x20user.')+'\x0a\x0a用户评论：\x0a'+JSON[_0x37da17(0x367)](_0x58c845)+'\x0a\x0a'+(_0x2df187?_0x37da17(0x2ac)+JSON[_0x37da17(0x367)](_0x2df187,null,0x2)+_0x37da17(0x2b5):_0x37da17(0x25a))+'\x0a\x0a'+_0x393269+'\x0a\x0a返回格式示例：\x0a{\x0a\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22路人A\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=a\x22,\x0a\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22这句也太像我刚想说的了，尤其是后半句很准。\x22,\x0a\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22likes\x22:\x2018\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22visitors\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22小梨\x22,\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=li\x22,\x0a\x20\x20\x20\x20\x20\x20\x22handle\x22:\x20\x22xiaoli\x22,\x0a\x20\x20\x20\x20\x20\x20\x22thought\x22:\x20\x22她评论太会抓重点了想看看主页\x22\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}\x0a';try{const _0x26ed29=await fetch(_0x4a4dd3(),{'method':_0x37da17(0x26e),'headers':{'Content-Type':_0x37da17(0x306),'Authorization':_0x37da17(0x342)+window[_0x37da17(0x340)][_0x37da17(0x1cf)]},'body':JSON[_0x37da17(0x367)]({'model':window[_0x37da17(0x340)][_0x37da17(0x290)]||_0x37da17(0x26f),'messages':[{'role':_0x37da17(0x2a4),'content':_0x37da17(0x24a)},{'role':_0x37da17(0x238),'content':_0x4e32ae}],'temperature':parseFloat(window[_0x37da17(0x340)]['temperature'])||0.8})});if(!_0x26ed29['ok'])throw new Error(_0x37da17(0x27f)+_0x26ed29[_0x37da17(0x3b3)]);const _0x3d6b24=await _0x26ed29[_0x37da17(0x33a)](),_0x586d41=_0x4a1a71(_0x3d6b24[_0x37da17(0x1f2)]?.[0x0]?.['message']?.[_0x37da17(0x272)]||''),_0x591697=Array['isArray'](_0x586d41[_0x37da17(0x2f9)])?_0x586d41[_0x37da17(0x2f9)]['slice'](0x0,0x5):[],_0x4ed352=Array[_0x37da17(0x3ae)](_0x586d41[_0x37da17(0x2a9)])?_0x586d41['visitors'][_0x37da17(0x1ba)](0x0,0x5):[];if(!Array[_0x37da17(0x3ae)](_0x16e0fa[_0x37da17(0x2f9)]))_0x16e0fa[_0x37da17(0x2f9)]=[];_0x591697[_0x37da17(0x329)](_0x3dcdf3)[_0x37da17(0x1c3)](_0x11cc54=>_0x11cc54[_0x37da17(0x333)])[_0x37da17(0x207)](_0x175420=>_0x16e0fa[_0x37da17(0x2f9)][_0x37da17(0x279)](_0x175420));window[_0x37da17(0x230)]&&window['tkSaveProfileVisitors'](_0x4ed352,{'videoId':_0x57a4d0['id'],'commentId':_0x16e0fa['id']});_0x57a4d0['commentsCount']=_0x5b83ad(_0x57a4d0);if(window[_0x37da17(0x2ea)])window[_0x37da17(0x2ea)]();if(_0x12de14===_0x57a4d0['id'])_0x3ee0c6(_0x57a4d0);window[_0x37da17(0x2fd)]();if(_0x4ed352[_0x37da17(0x3c6)]||_0x591697[_0x37da17(0x3c6)])window[_0x37da17(0x216)](_0x37da17(0x1d2));}catch(_0x283c4d){console[_0x37da17(0x3d4)]('Comment\x20Followup\x20Gen\x20Error:',_0x283c4d);}}const _0x152a0c=document[_0x5de278(0x23d)](_0x5de278(0x2f5)),_0x58cb8b=document[_0x5de278(0x23d)](_0x5de278(0x2cd)),_0x4c2cc9=document[_0x5de278(0x23d)](_0x5de278(0x2af));_0x152a0c&&_0x58cb8b&&(_0x152a0c[_0x5de278(0x38c)](_0x5de278(0x317),_0x59e8f5=>{const _0x18148d=_0x5de278;if(_0x59e8f5['target'][_0x18148d(0x1fb)]!=='INPUT')_0x58cb8b[_0x18148d(0x317)]();}),_0x58cb8b['addEventListener']('change',_0x4fcef2=>{const _0x4e647d=_0x5de278,_0x2ffbb3=_0x4fcef2[_0x4e647d(0x391)]['files'][0x0];if(_0x2ffbb3){const _0x1b450c=new FileReader();_0x1b450c[_0x4e647d(0x1ea)]=_0xf1de8a=>{const _0x15bb0b=_0x4e647d;_0x4c2cc9[_0x15bb0b(0x366)]=_0xf1de8a[_0x15bb0b(0x391)]['result'],_0x4c2cc9[_0x15bb0b(0x22d)][_0x15bb0b(0x1e3)]='block';},_0x1b450c[_0x4e647d(0x284)](_0x2ffbb3);}_0x4fcef2[_0x4e647d(0x391)][_0x4e647d(0x3c3)]='';}));const _0x2b9fa5=document['getElementById'](_0x5de278(0x280));_0x2b9fa5&&_0x2b9fa5['addEventListener']('click',()=>{const _0x386f84=_0x5de278;_0x4c2cc9&&(_0x4c2cc9[_0x386f84(0x366)]='',_0x4c2cc9[_0x386f84(0x22d)][_0x386f84(0x1e3)]=_0x386f84(0x200));});const _0x45246c=document['getElementById'](_0x5de278(0x294));_0x45246c&&_0x45246c['addEventListener'](_0x5de278(0x317),()=>{const _0x1926eb=_0x5de278;if(!_0x4907b9)return;let _0x15567e=null;if(window[_0x1926eb(0x2a8)]){const _0x154795=window[_0x1926eb(0x2a8)](_0x4907b9);if(_0x154795)_0x15567e=_0x154795[_0x1926eb(0x352)];}else _0x15567e=tkState[_0x1926eb(0x378)][_0x1926eb(0x1bf)](_0x1f3f88=>_0x1f3f88['id']===_0x4907b9);if(_0x15567e){_0x15567e['cover']!==undefined&&_0x15567e['cover']!==null?_0x15567e['cover']=_0x4c2cc9&&_0x4c2cc9[_0x1926eb(0x22d)][_0x1926eb(0x1e3)]===_0x1926eb(0x368)?_0x4c2cc9[_0x1926eb(0x366)]:null:_0x15567e[_0x1926eb(0x23b)]=_0x4c2cc9&&_0x4c2cc9[_0x1926eb(0x22d)][_0x1926eb(0x1e3)]===_0x1926eb(0x368)?_0x4c2cc9['src']:null;_0x15567e[_0x1926eb(0x3b0)]=null,_0x15567e['desc']=document[_0x1926eb(0x23d)](_0x1926eb(0x262))[_0x1926eb(0x3c3)][_0x1926eb(0x243)](),_0x15567e[_0x1926eb(0x32c)]=document[_0x1926eb(0x23d)](_0x1926eb(0x20c))[_0x1926eb(0x3c3)][_0x1926eb(0x243)](),_0x15567e['sceneSegments']=_0x2465e6(_0x15567e[_0x1926eb(0x32c)]),_0x15567e['opening']=_0x15567e['sceneSegments'][0x0]||'',_0x15567e[_0x1926eb(0x3cb)]=_0x15567e[_0x1926eb(0x285)][0x1]||'',_0x15567e['ending']=_0x15567e[_0x1926eb(0x285)][0x2]||'';if(window[_0x1926eb(0x2ea)])window[_0x1926eb(0x2ea)]();window[_0x1926eb(0x2fd)]();if(window[_0x1926eb(0x1b6)])window[_0x1926eb(0x1b6)]();const _0x4c9a00=document[_0x1926eb(0x23d)](_0x1926eb(0x374));_0x4c9a00&&_0x4c9a00[_0x1926eb(0x2f7)]['contains'](_0x1926eb(0x270))&&_0x4c9a00['dataset']['videoId']===_0x15567e['id']&&window['tkOpenFullscreenVideo'](_0x15567e['id']),window[_0x1926eb(0x1df)](document[_0x1926eb(0x23d)](_0x1926eb(0x361))),window[_0x1926eb(0x216)]('已保存修改');}});window[_0x5de278(0x36d)]=function(){_0x573cd3=_0x14e560;};function _0x479d98(){const _0x5daa49=_0x5de278,_0x2e232d=Array[_0x5daa49(0x3a3)](document[_0x5daa49(0x2ab)](_0x5daa49(0x2fb)));if(!_0x2e232d['length'])return;_0x2e232d['forEach'](_0x567303=>_0x567303[_0x5daa49(0x2f7)]['remove'](_0x5daa49(0x270)));const _0x4923d3=_0x2e232d['find'](_0xb1d478=>String(_0xb1d478[_0x5daa49(0x2d7)]||'')[_0x5daa49(0x3c7)]('推荐'))||_0x2e232d[0x1]||_0x2e232d[0x0];_0x4923d3[_0x5daa49(0x2f7)]['add'](_0x5daa49(0x270));}window[_0x5de278(0x381)]=function(_0xa80256){const _0x14da82=_0x5de278,_0x22c7bc=document[_0x14da82(0x23d)](_0x14da82(0x3ce));if(_0x22c7bc&&window[_0x14da82(0x1df)])window[_0x14da82(0x1df)](_0x22c7bc);const _0x5be564=document[_0x14da82(0x23d)](_0x14da82(0x2ca));if(_0x5be564)_0x5be564['classList'][_0x14da82(0x335)]('active');_0x479d98(),window[_0x14da82(0x36d)]();const _0x1b479e=document[_0x14da82(0x2e4)](_0x14da82(0x2e7));if(_0x1b479e)_0x1b479e[_0x14da82(0x317)]();else window[_0x14da82(0x2fd)]&&window[_0x14da82(0x2fd)]();requestAnimationFrame(()=>{const _0x1ddef4=_0x14da82,_0x4cf991=_0xa80256&&window[_0x1ddef4(0x34c)]&&typeof CSS[_0x1ddef4(0x1c7)]===_0x1ddef4(0x1ff)?CSS[_0x1ddef4(0x1c7)](String(_0xa80256)):String(_0xa80256||'')[_0x1ddef4(0x320)](/"/g,'\x5c\x22'),_0x894408=_0xa80256&&_0x2b6cd1?_0x2b6cd1['querySelector'](_0x1ddef4(0x36f)+_0x4cf991+'\x22]'):null;if(_0x894408&&_0x894408[_0x1ddef4(0x1d1)])_0x894408[_0x1ddef4(0x1d1)]({'block':_0x1ddef4(0x1d0)});else _0x2b6cd1&&(_0x2b6cd1['scrollTop']=0x0);});},window[_0x5de278(0x2fd)]=function(_0x28d8b5={}){const _0x16cbff=_0x5de278;if(!_0x2b6cd1)return;const _0xdee552=_0x28d8b5&&typeof _0x28d8b5===_0x16cbff(0x398)?_0x28d8b5:{},_0x1a8cb1=document['querySelector'](_0x16cbff(0x2ce)),_0x11d010=_0x1a8cb1&&_0x1a8cb1[_0x16cbff(0x2d7)]==='关注',_0x9739ab=_0x11d010?'following':_0x16cbff(0x289);_0x26ffd8!==_0x9739ab&&!_0xdee552['preserveLimit']&&(_0x573cd3=_0x14e560);_0x26ffd8=_0x9739ab;let _0x165737=[];_0x11d010?_0x165737=tkState[_0x16cbff(0x378)][_0x16cbff(0x1c3)](_0x39711b=>{const _0x34b283=_0x16cbff,_0x5aec62=window['tkGetChar'](_0x39711b[_0x34b283(0x2a7)]);return _0x5aec62&&_0x5aec62['isFollowed'];}):_0x165737=tkState[_0x16cbff(0x378)][_0x16cbff(0x1c3)](_0x349571=>{const _0x391556=_0x16cbff,_0x44e229=window[_0x391556(0x23e)](_0x349571[_0x391556(0x2a7)]);return!_0x44e229||!_0x44e229[_0x391556(0x392)];});_0x2b6cd1['innerHTML']='';if(_0x165737['length']===0x0){_0x3dfbb9=![];_0x11d010?_0x2b6cd1[_0x16cbff(0x1db)]=_0x16cbff(0x33f):_0x2b6cd1[_0x16cbff(0x1db)]=_0x16cbff(0x2b0);return;}const _0x5e579c=_0x165737[_0x16cbff(0x1ba)](0x0,_0x573cd3);_0x3dfbb9=_0x5e579c[_0x16cbff(0x3c6)]<_0x165737[_0x16cbff(0x3c6)],_0x5e579c['forEach']((_0x1528ef,_0xdfab6f)=>{const _0x4f4109=_0x16cbff,_0x314608=window[_0x4f4109(0x23e)](_0x1528ef['authorId']),_0x37115e=_0x314608?_0x314608[_0x4f4109(0x392)]:![],_0x5b8bca=_0x314608?_0x314608[_0x4f4109(0x362)]||_0x314608[_0x4f4109(0x359)]:_0x1528ef[_0x4f4109(0x1cc)],_0x4a5400=window[_0x4f4109(0x327)](_0x1528ef[_0x4f4109(0x2a7)],_0x5b8bca,_0x1528ef[_0x4f4109(0x258)]),_0x20e398=_0x4a5400?_0x4f4109(0x22f)+_0x4a5400+'\x22>':_0x4f4109(0x3c5);let _0x1c095a=_0x1528ef['desc']||'';_0x1c095a=_0x1c095a[_0x4f4109(0x320)](/#([\w\u4e00-\u9fa5]+)/g,'<span\x20class=\x22tk-hashtag\x22\x20onclick=\x22window.tkOpenHashtag(\x27$1\x27,\x20event)\x22>#$1</span>');const _0x3cd1e5=document[_0x4f4109(0x2eb)](_0x4f4109(0x297));_0x3cd1e5[_0x4f4109(0x2d5)]=_0x4f4109(0x247),_0x3cd1e5[_0x4f4109(0x36c)][_0x4f4109(0x215)]=_0x1528ef['id'];let _0x155565=_0x4f4109(0x29f),_0x86142d='';const _0x4b47b7=_0x4a1275(_0x1528ef),_0x86bca1=_0x4b47b7===_0x4f4109(0x22e)?_0x3f5859(_0x1528ef):_0x1528ef[_0x4f4109(0x3ad)]||_0x1528ef['bgImage'];if(_0x86bca1)_0x86142d+=_0x4f4109(0x314)+(_0x4b47b7===_0x4f4109(0x22e)?_0x4f4109(0x301):'')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0x30bbaf(_0x86bca1)+'\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';else _0x1528ef[_0x4f4109(0x3b0)]&&(_0x86142d+=_0x4f4109(0x3d0)+_0x1528ef[_0x4f4109(0x3b0)]+_0x4f4109(0x28a));const _0x56b20b=_0x510bd3(_0x1528ef);if(_0x56b20b)_0x86142d+=_0x56b20b;else{if(_0x1528ef[_0x4f4109(0x32c)]){let _0x3eeec4='#111111';if(_0x1528ef['cover']||_0x1528ef[_0x4f4109(0x23b)])_0x3eeec4=_0x4f4109(0x321);else _0x1528ef['bgColor']&&(_0x3eeec4=_0x4f4109(0x399));_0x86142d+=_0x4f4109(0x20f)+_0x3eeec4+_0x4f4109(0x31d)+_0x1528ef[_0x4f4109(0x32c)]+_0x4f4109(0x255);}else!_0x1528ef[_0x4f4109(0x3ad)]&&!_0x1528ef['bgImage']&&!_0x1528ef[_0x4f4109(0x3b0)]&&(_0x86142d+=_0x4f4109(0x32e));}_0x3cd1e5[_0x4f4109(0x1db)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-video-text-content\x22\x20style=\x22'+_0x155565+_0x4f4109(0x29a)+_0x86142d+_0x4f4109(0x3a4)+_0x1528ef[_0x4f4109(0x2a7)]+_0x4f4109(0x30d)+_0x20e398+_0x4f4109(0x394)+(_0x37115e?_0x4f4109(0x21c):'')+_0x4f4109(0x1b5)+_0x1528ef[_0x4f4109(0x2a7)]+_0x4f4109(0x276)+(_0x1528ef[_0x4f4109(0x2ec)]?_0x4f4109(0x33d):'')+_0x4f4109(0x23c)+_0x1528ef['id']+'\x27,\x20this,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+window[_0x4f4109(0x286)](_0x1528ef[_0x4f4109(0x218)]||0x0)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-action-item\x22\x20onclick=\x22window.tkOpenComments(\x27'+_0x1528ef['id']+_0x4f4109(0x2e1)+window[_0x4f4109(0x286)](_0x1528ef[_0x4f4109(0x1fe)]||0x0)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-action-item\x22\x20onclick=\x22window.tkOpenShare(\x27'+_0x1528ef['id']+_0x4f4109(0x300)+_0x1528ef['id']+'\x22>'+window[_0x4f4109(0x286)](_0x1528ef['shares']||0x0)+_0x4f4109(0x2f4)+_0x49d432(_0x1528ef)+_0x4f4109(0x1cb)+_0x5b8bca+_0x4f4109(0x260)+_0x1c095a+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x2b6cd1['appendChild'](_0x3cd1e5);});};_0x2b6cd1&&!_0x2b6cd1[_0x5de278(0x36c)][_0x5de278(0x348)]&&(_0x2b6cd1[_0x5de278(0x36c)][_0x5de278(0x348)]=_0x5de278(0x283),_0x2b6cd1[_0x5de278(0x38c)]('scroll',()=>{const _0x2e2c67=_0x5de278;if(!_0x3dfbb9||_0x1c97db)return;const _0x8615a7=Math[_0x2e2c67(0x3b2)](0x78,_0x2b6cd1[_0x2e2c67(0x281)]*0.6),_0x3d285d=_0x2b6cd1[_0x2e2c67(0x2bb)]-(_0x2b6cd1[_0x2e2c67(0x27a)]+_0x2b6cd1[_0x2e2c67(0x281)]);if(_0x3d285d>_0x8615a7)return;_0x1c97db=!![];const _0x44e29a=_0x2b6cd1[_0x2e2c67(0x27a)];_0x573cd3+=_0x124f72,window['tkRenderHome']({'preserveLimit':!![],'preserveScroll':!![]}),requestAnimationFrame(()=>{const _0x2e7460=_0x2e2c67;_0x2b6cd1[_0x2e7460(0x27a)]=_0x44e29a,_0x1c97db=![];});},{'passive':!![]}));setTimeout(()=>{const _0x2d226c=_0x5de278,_0x6ca86d=document[_0x2d226c(0x2e4)](_0x2d226c(0x319));if(_0x6ca86d){const _0x21fc4d=_0x6ca86d[_0x2d226c(0x318)](!![]);_0x6ca86d['parentNode'][_0x2d226c(0x3d5)](_0x21fc4d,_0x6ca86d),_0x21fc4d[_0x2d226c(0x38c)]('click',_0x4633f6=>window[_0x2d226c(0x2e2)](_0x4633f6));}},0x1f4);const _0x27929d=document['getElementById'](_0x5de278(0x374)),_0x43cd9f=document[_0x5de278(0x23d)](_0x5de278(0x315)),_0x387b65=document[_0x5de278(0x23d)]('tk-fs-video-magic-btn');_0x43cd9f&&_0x27929d&&_0x43cd9f[_0x5de278(0x38c)](_0x5de278(0x317),()=>{const _0x5482e8=_0x5de278;_0x27929d[_0x5482e8(0x2f7)]['remove'](_0x5482e8(0x270));const _0x105fdf=document[_0x5482e8(0x23d)](_0x5482e8(0x1e0));if(_0x105fdf)_0x105fdf[_0x5482e8(0x22d)][_0x5482e8(0x1e3)]=_0x5482e8(0x368);document[_0x5482e8(0x23d)](_0x5482e8(0x35e))[_0x5482e8(0x22d)][_0x5482e8(0x349)]=_0x5482e8(0x2f3);});window[_0x5de278(0x2a8)]=function(_0x55d79c){const _0x61b3d9=_0x5de278;let _0x3b586a=null,_0x32e0f4=null,_0xac9991=![];tkState['profile']&&tkState[_0x61b3d9(0x26c)][_0x61b3d9(0x2ff)]&&(_0x3b586a=tkState['profile'][_0x61b3d9(0x2ff)][_0x61b3d9(0x1bf)](_0x1961c3=>_0x1961c3['id']===_0x55d79c),_0x3b586a&&(_0x32e0f4=tkState['profile'],_0xac9991=!![]));if(!_0x3b586a&&tkState[_0x61b3d9(0x378)]){_0x3b586a=tkState[_0x61b3d9(0x378)][_0x61b3d9(0x1bf)](_0x1f308e=>_0x1f308e['id']===_0x55d79c);if(_0x3b586a){_0x32e0f4=window['tkGetChar'](_0x3b586a[_0x61b3d9(0x2a7)]);if(!_0x32e0f4&&_0x3b586a[_0x61b3d9(0x2a7)]&&_0x3b586a[_0x61b3d9(0x2a7)][_0x61b3d9(0x1c4)](_0x61b3d9(0x325)))_0x32e0f4={'handle':_0x3b586a[_0x61b3d9(0x1cc)]||'user','persona':_0x61b3d9(0x3b7),'avatar':_0x3b586a[_0x61b3d9(0x258)]};else!_0x32e0f4&&(_0x32e0f4={'handle':_0x3b586a[_0x61b3d9(0x1cc)]||_0x61b3d9(0x263),'persona':_0x61b3d9(0x2a0),'avatar':_0x3b586a[_0x61b3d9(0x258)]||null});}}return{'video':_0x3b586a,'author':_0x32e0f4,'isUser':_0xac9991};},window['currentShareVideoId']=null,setTimeout(()=>{const _0x365a95=_0x5de278,_0x22f6c5=document[_0x365a95(0x2e4)](_0x365a95(0x2e3));_0x22f6c5&&!_0x22f6c5['dataset'][_0x365a95(0x211)]&&(_0x22f6c5[_0x365a95(0x36c)][_0x365a95(0x211)]=_0x365a95(0x283),_0x22f6c5[_0x365a95(0x38c)]('click',_0x4ac414=>{const _0x4d87a7=_0x365a95,_0x155a4c=document['getElementById'](_0x4d87a7(0x374))[_0x4d87a7(0x36c)][_0x4d87a7(0x215)];if(_0x155a4c){const {video:_0xcd197}=window['findVideoGlobal'](_0x155a4c);_0xcd197&&window[_0x4d87a7(0x298)]&&window[_0x4d87a7(0x298)](_0xcd197[_0x4d87a7(0x2a7)],_0x4ac414);}}));const _0x1f3489=document['getElementById'](_0x365a95(0x2e8));_0x1f3489&&!_0x1f3489[_0x365a95(0x36c)][_0x365a95(0x211)]&&(_0x1f3489[_0x365a95(0x36c)][_0x365a95(0x211)]=_0x365a95(0x283),_0x1f3489[_0x365a95(0x38c)](_0x365a95(0x317),_0x28685c=>{const _0x3b3ee6=_0x365a95,_0x105377=document['getElementById'](_0x3b3ee6(0x374))['dataset']['videoId'];if(window[_0x3b3ee6(0x29b)]&&_0x105377)window[_0x3b3ee6(0x29b)](_0x105377,_0x28685c);}));const _0x5dc634=document[_0x365a95(0x23d)](_0x365a95(0x2d0));_0x5dc634&&!_0x5dc634[_0x365a95(0x36c)][_0x365a95(0x211)]&&(_0x5dc634[_0x365a95(0x36c)][_0x365a95(0x211)]=_0x365a95(0x283),_0x5dc634[_0x365a95(0x38c)](_0x365a95(0x317),_0x5da812=>{const _0x5ea058=_0x365a95,_0x3c4f82=document['getElementById']('tk-fullscreen-video-view')[_0x5ea058(0x36c)]['videoId'];if(window[_0x5ea058(0x39b)]&&_0x3c4f82){const {video:_0x53fdad,isUser:_0x5df88c}=window['findVideoGlobal'](_0x3c4f82);if(_0x53fdad&&_0x5df88c){const _0x4a4022=tkState[_0x5ea058(0x378)][_0x5ea058(0x1bf)](_0x498c99=>_0x498c99['id']===_0x53fdad['id']);!_0x4a4022?tkState['videos']['push']({'id':_0x53fdad['id'],'comments':_0x53fdad['comments']||[],'commentsCount':_0x5b83ad(_0x53fdad)}):(_0x4a4022['comments']=_0x53fdad[_0x5ea058(0x370)],_0x4a4022[_0x5ea058(0x1fe)]=_0x5b83ad(_0x53fdad));}window[_0x5ea058(0x39b)](_0x3c4f82,_0x5da812);}}));const _0x5590d0=document[_0x365a95(0x23d)]('tk-fs-video-like-btn');_0x5590d0&&!_0x5590d0[_0x365a95(0x36c)][_0x365a95(0x211)]&&(_0x5590d0['dataset']['bound']=_0x365a95(0x283),_0x5590d0[_0x365a95(0x38c)](_0x365a95(0x317),_0xd83635=>{const _0x240510=_0x365a95,_0x3e5bb8=document[_0x240510(0x23d)](_0x240510(0x374))[_0x240510(0x36c)][_0x240510(0x215)];window[_0x240510(0x1e4)]&&_0x3e5bb8&&window[_0x240510(0x1e4)](_0x3e5bb8,_0x5590d0,_0xd83635);}));},0x1f4),window['tkHandleShareAction']=function(_0x2d7a35){const _0x3fabdd=_0x5de278,_0x241f9e=document['getElementById']('tk-share-sheet');window[_0x3fabdd(0x1df)](_0x241f9e);if(!window['currentShareVideoId'])return;const {video:_0x13f075}=window[_0x3fabdd(0x2a8)](window['currentShareVideoId']);if(!_0x13f075)return;if(_0x2d7a35==='save'){_0x13f075['isSaved']=!_0x13f075[_0x3fabdd(0x24d)];if(window[_0x3fabdd(0x2ea)])window[_0x3fabdd(0x2ea)]();window[_0x3fabdd(0x216)](_0x13f075[_0x3fabdd(0x24d)]?_0x3fabdd(0x2cf):'已取消收藏');}else{if(_0x2d7a35===_0x3fabdd(0x30b)){_0x4907b9=window[_0x3fabdd(0x282)];const _0x5d8535=document[_0x3fabdd(0x23d)](_0x3fabdd(0x2af));if(_0x5d8535){const _0x3f3e6e=_0x13f075['bgImage']||_0x13f075[_0x3fabdd(0x3ad)];_0x3f3e6e?(_0x5d8535[_0x3fabdd(0x366)]=_0x3f3e6e,_0x5d8535[_0x3fabdd(0x22d)][_0x3fabdd(0x1e3)]=_0x3fabdd(0x368)):(_0x5d8535[_0x3fabdd(0x366)]='',_0x5d8535['style']['display']=_0x3fabdd(0x200));}const _0x55e8ae=document[_0x3fabdd(0x23d)](_0x3fabdd(0x262));if(_0x55e8ae)_0x55e8ae[_0x3fabdd(0x3c3)]=_0x13f075[_0x3fabdd(0x25f)]||'';const _0xdf185f=document[_0x3fabdd(0x23d)](_0x3fabdd(0x20c));if(_0xdf185f)_0xdf185f[_0x3fabdd(0x3c3)]=_0x13f075['sceneText']||'';window['openView'](document[_0x3fabdd(0x23d)](_0x3fabdd(0x361)));}else{if(_0x2d7a35==='delete'){if(confirm(_0x3fabdd(0x209))){const _0xeeb457=window[_0x3fabdd(0x282)];tkState[_0x3fabdd(0x378)]=tkState[_0x3fabdd(0x378)]['filter'](_0xe50ab6=>_0xe50ab6['id']!==_0xeeb457);tkState[_0x3fabdd(0x26c)]&&tkState[_0x3fabdd(0x26c)][_0x3fabdd(0x2ff)]&&(tkState[_0x3fabdd(0x26c)][_0x3fabdd(0x2ff)]=tkState[_0x3fabdd(0x26c)][_0x3fabdd(0x2ff)][_0x3fabdd(0x1c3)](_0x40c3bf=>_0x40c3bf['id']!==_0xeeb457));tkState[_0x3fabdd(0x38b)][_0x3fabdd(0x207)](_0x1e6e07=>{const _0x93e7cd=_0x3fabdd;_0x1e6e07[_0x93e7cd(0x2ee)]&&(_0x1e6e07[_0x93e7cd(0x2ee)]=_0x1e6e07[_0x93e7cd(0x2ee)][_0x93e7cd(0x1c3)](_0x4acf06=>_0x4acf06!==_0xeeb457));});if(window[_0x3fabdd(0x2ea)])window['tkPersistState']();window['tkRenderHome']();if(window[_0x3fabdd(0x1b6)])window['tkRenderProfile']();const _0x36eac3=document[_0x3fabdd(0x23d)](_0x3fabdd(0x374));_0x36eac3&&_0x36eac3[_0x3fabdd(0x2f7)][_0x3fabdd(0x224)](_0x3fabdd(0x270))&&_0x36eac3['dataset'][_0x3fabdd(0x215)]===_0xeeb457&&_0x36eac3[_0x3fabdd(0x2f7)][_0x3fabdd(0x2ef)](_0x3fabdd(0x270)),window[_0x3fabdd(0x216)](_0x3fabdd(0x3b9));}}}}},window[_0x5de278(0x2cc)]=function(_0x2cd1f4){const _0x152fe8=_0x5de278;let {video:_0x3cf4f0,author:_0x49186e,isUser:_0x41062d}=window[_0x152fe8(0x2a8)](_0x2cd1f4);if(!_0x3cf4f0){console[_0x152fe8(0x3d4)](_0x152fe8(0x1de),_0x2cd1f4);if(window['showToast'])window[_0x152fe8(0x216)](_0x152fe8(0x337));return;}!_0x49186e&&(_0x49186e={'handle':_0x152fe8(0x263),'avatar':null});if(!_0x27929d){console['error'](_0x152fe8(0x39a));if(window[_0x152fe8(0x216)])window['showToast'](_0x152fe8(0x24c));return;}try{const _0x187b4a=document['getElementById'](_0x152fe8(0x1e0)),_0x5906ef=document[_0x152fe8(0x23d)](_0x152fe8(0x35e));if(_0x5906ef){_0x5906ef['querySelectorAll'](_0x152fe8(0x390))[_0x152fe8(0x207)](_0x284e98=>_0x284e98[_0x152fe8(0x2ef)]());const _0x58952d=_0x49d432(_0x3cf4f0)[_0x152fe8(0x243)]();if(_0x58952d){const _0x1729ae=document[_0x152fe8(0x2eb)]('div');_0x1729ae[_0x152fe8(0x1db)]=_0x58952d;const _0x1fbfc9=_0x1729ae[_0x152fe8(0x3c9)];_0x1fbfc9&&(_0x1fbfc9[_0x152fe8(0x2f7)][_0x152fe8(0x335)](_0x152fe8(0x33b)),_0x5906ef[_0x152fe8(0x37c)](_0x1fbfc9));}let _0x39d78d=document[_0x152fe8(0x23d)](_0x152fe8(0x35c));!_0x39d78d&&(_0x39d78d=document[_0x152fe8(0x2eb)]('div'),_0x39d78d['id']=_0x152fe8(0x35c),_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x21f)]=_0x152fe8(0x331),_0x5906ef[_0x152fe8(0x2f2)](_0x39d78d,_0x5906ef['firstChild']));_0x187b4a&&(_0x187b4a['style'][_0x152fe8(0x244)]=_0x152fe8(0x396),_0x187b4a[_0x152fe8(0x22d)][_0x152fe8(0x2a6)]=_0x152fe8(0x200));if(_0x3cf4f0[_0x152fe8(0x3ad)])_0x187b4a&&(_0x187b4a[_0x152fe8(0x366)]=_0x3cf4f0[_0x152fe8(0x3ad)],_0x187b4a[_0x152fe8(0x22d)]['display']='block'),_0x5906ef[_0x152fe8(0x22d)][_0x152fe8(0x349)]='#ffffff',_0x39d78d[_0x152fe8(0x1db)]='',_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]=_0x152fe8(0x200);else{_0x187b4a&&(_0x3cf4f0[_0x152fe8(0x23b)]?(_0x187b4a[_0x152fe8(0x366)]=_0x3cf4f0['bgImage'],_0x187b4a['style'][_0x152fe8(0x1e3)]='block'):_0x187b4a[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]='none');_0x5906ef[_0x152fe8(0x22d)][_0x152fe8(0x349)]='#ffffff';const _0x5b7fec=_0x510bd3(_0x3cf4f0,{'background':_0x3cf4f0[_0x152fe8(0x23b)]?_0x152fe8(0x345):_0x3cf4f0[_0x152fe8(0x3b0)]?_0x152fe8(0x399):_0x152fe8(0x399)});_0x5b7fec?(_0x39d78d[_0x152fe8(0x1db)]=_0x5b7fec,_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]=_0x152fe8(0x28d),_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x1b7)]=_0x152fe8(0x2f1),_0x39d78d['style']['alignItems']=_0x152fe8(0x2f1),_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x330)]=_0x152fe8(0x31c),_0x39d78d['style']['height']=_0x152fe8(0x31c)):(_0x39d78d['innerHTML']='',_0x39d78d[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]=_0x152fe8(0x200));}}const _0x38901c=_0x3cf4f0[_0x152fe8(0x25f)]?_0x3cf4f0[_0x152fe8(0x25f)]:_0x4d73d7(_0x3cf4f0),_0x226d7c=document[_0x152fe8(0x23d)](_0x152fe8(0x2a3));_0x226d7c&&(_0x226d7c[_0x152fe8(0x2d7)]=_0x38901c,_0x226d7c[_0x152fe8(0x22d)][_0x152fe8(0x1da)]=_0x152fe8(0x399));const _0x257c35=document[_0x152fe8(0x23d)](_0x152fe8(0x376));_0x257c35&&(_0x257c35[_0x152fe8(0x2d7)]='@'+(_0x49186e[_0x152fe8(0x359)]||_0x49186e['id']||_0x152fe8(0x238)),_0x257c35[_0x152fe8(0x22d)][_0x152fe8(0x1da)]=_0x152fe8(0x399));const _0x4039de=document[_0x152fe8(0x23d)](_0x152fe8(0x240)),_0x27cf8e=document[_0x152fe8(0x23d)](_0x152fe8(0x31e)),_0x41a6bf=window[_0x152fe8(0x327)](_0x3cf4f0['authorId'],_0x49186e['name']||_0x49186e['handle']||_0x3cf4f0[_0x152fe8(0x1cc)],_0x49186e['avatar']||_0x3cf4f0[_0x152fe8(0x258)]);if(_0x41a6bf){_0x4039de&&(_0x4039de[_0x152fe8(0x366)]=_0x41a6bf,_0x4039de[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]=_0x152fe8(0x368));if(_0x27cf8e)_0x27cf8e['style'][_0x152fe8(0x1e3)]=_0x152fe8(0x200);}else{if(_0x4039de)_0x4039de[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]=_0x152fe8(0x200);if(_0x27cf8e)_0x27cf8e[_0x152fe8(0x22d)][_0x152fe8(0x1e3)]='block';}const _0x67d573=document[_0x152fe8(0x23d)]('tk-fs-video-likes');if(_0x67d573)_0x67d573[_0x152fe8(0x2d7)]=window[_0x152fe8(0x286)](_0x3cf4f0[_0x152fe8(0x218)]||0x0);const _0x254ac9=document[_0x152fe8(0x2ab)](_0x152fe8(0x2df));_0x254ac9[_0x152fe8(0x207)](_0x149c1f=>{const _0x2e4e6a=_0x152fe8;(_0x149c1f[_0x2e4e6a(0x1fb)]===_0x2e4e6a(0x377)||!_0x149c1f[_0x2e4e6a(0x339)]['classList'][_0x2e4e6a(0x224)]('liked'))&&(_0x149c1f[_0x2e4e6a(0x22d)][_0x2e4e6a(0x1da)]=_0x2e4e6a(0x399),_0x149c1f[_0x2e4e6a(0x22d)]['textShadow']='none');});const _0x40a45f=document[_0x152fe8(0x23d)](_0x152fe8(0x369));if(_0x40a45f){if(_0x3cf4f0[_0x152fe8(0x2ec)]){_0x40a45f[_0x152fe8(0x2f7)][_0x152fe8(0x335)](_0x152fe8(0x33d));const _0x2c768b=_0x40a45f[_0x152fe8(0x2e4)]('i');if(_0x2c768b)_0x2c768b[_0x152fe8(0x22d)][_0x152fe8(0x1da)]=_0x152fe8(0x1ec);}else{_0x40a45f[_0x152fe8(0x2f7)][_0x152fe8(0x2ef)](_0x152fe8(0x33d));const _0x4c17d3=_0x40a45f[_0x152fe8(0x2e4)]('i');if(_0x4c17d3)_0x4c17d3[_0x152fe8(0x22d)][_0x152fe8(0x1da)]=_0x152fe8(0x399);}}const _0x1d1b91=document[_0x152fe8(0x23d)](_0x152fe8(0x375));if(_0x1d1b91)_0x1d1b91[_0x152fe8(0x2d7)]=window[_0x152fe8(0x286)](_0x5b83ad(_0x3cf4f0)||_0x3cf4f0['commentsCount']||0x0);_0x27929d[_0x152fe8(0x36c)][_0x152fe8(0x215)]=_0x2cd1f4,_0x27929d[_0x152fe8(0x2f7)][_0x152fe8(0x335)](_0x152fe8(0x270));}catch(_0x22549d){console[_0x152fe8(0x3d4)](_0x152fe8(0x39e),_0x22549d);if(window[_0x152fe8(0x216)])window['showToast'](_0x152fe8(0x2aa)+_0x22549d[_0x152fe8(0x212)]);}};_0x387b65&&_0x387b65['addEventListener'](_0x5de278(0x317),async()=>{const _0x32d419=_0x5de278,_0x3df6ce=_0x27929d[_0x32d419(0x36c)][_0x32d419(0x215)],{video:_0x55bc6e,author:_0x4a806f,isUser:_0x11f063}=window[_0x32d419(0x2a8)](_0x3df6ce);if(!_0x55bc6e)return;if(!window['apiConfig']||!window[_0x32d419(0x340)][_0x32d419(0x1c6)]||!window[_0x32d419(0x340)]['apiKey']){window[_0x32d419(0x216)](_0x32d419(0x226));return;}window[_0x32d419(0x216)](_0x32d419(0x277));let _0x4a657b='';if(_0x11f063&&tkState&&tkState[_0x32d419(0x38b)]){const _0x1fc41a=tkState[_0x32d419(0x38b)][_0x32d419(0x1c3)](_0x2c04e3=>_0x2c04e3['isFollowed'])[_0x32d419(0x1ba)](0x0,0x3);_0x1fc41a[_0x32d419(0x3c6)]>0x0&&(_0x4a657b=_0x32d419(0x252)+_0x1fc41a[_0x32d419(0x329)](_0x51381a=>_0x32d419(0x219)+_0x51381a['id']+_0x32d419(0x2bf)+_0x51381a[_0x32d419(0x362)]+_0x32d419(0x1e5)+_0x51381a['persona'])['join']('\x0a')+'\x0a如果使用了好友的评论，请把他们的\x20CharID\x20填在\x20authorId\x20字段中，名字填在\x20authorName\x20字段。');}const _0x342796=window[_0x32d419(0x3d7)]?window[_0x32d419(0x3d7)]((_0x55bc6e[_0x32d419(0x25f)]||'')+'\x0a'+(_0x55bc6e[_0x32d419(0x287)]||'')+'\x0a'+(_0x55bc6e[_0x32d419(0x32c)]||'')+'\x0a'+(_0x4a806f[_0x32d419(0x3af)]||'')):'',_0x42dff2='\x0a你现在是一个\x20TikTok\x20互动模拟器。\x0a用户（也就是发视频的博主）的人设是：'+(_0x4a806f[_0x32d419(0x3af)]||_0x32d419(0x3bb))+_0x32d419(0x34e)+(_0x55bc6e[_0x32d419(0x287)]||_0x55bc6e[_0x32d419(0x25f)]||_0x55bc6e[_0x32d419(0x32c)]||_0x32d419(0x27e))+'\x0a'+_0x4a657b+'\x0a'+_0x342796+'\x0a\x0a请为这个视频生成一些观众的互动数据。评论要具有活人感、网感，如果是朋友的评论要符合朋友的人设语气。\x0a重要：评论中可以带上艾特好友（@好友名字）或路人，增加互动真实感。艾特别人时，有几率触发被艾特的人在\x20`replies`\x20数组中进行楼中楼回复。\x0a国际化翻译规则：评论或\x20replies\x20的\x20text\x20如果不是中文，必须同时填写\x20translationZh，内容是自然中文翻译；如果\x20text\x20是中文，translationZh\x20必须是空字符串。\x0a要求返回严格的\x20JSON\x20格式（不要有多余文字或\x20markdown），格式如下：\x0a{\x0a\x20\x20\x22newLikes\x22:\x20850,\x0a\x20\x20\x22newComments\x22:\x20[\x0a\x20\x20\x20\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x22authorId\x22:\x20\x22可能的话填入好友的CharID，否则留空\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22观众A或好友名字\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22可以留空由系统自动生成\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22太有趣了吧！\x20@某某\x22,\x0a\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20{\x20\x22authorName\x22:\x20\x22某某\x22,\x20\x22authorAvatar\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22哈哈哈确实！\x22,\x20\x22translationZh\x22:\x20\x22\x22,\x20\x22likes\x22:\x205\x20}\x0a\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}\x0a';try{let _0xa42d2e=window[_0x32d419(0x340)]['endpoint'];if(_0xa42d2e[_0x32d419(0x236)]('/'))_0xa42d2e=_0xa42d2e['slice'](0x0,-0x1);!_0xa42d2e[_0x32d419(0x236)](_0x32d419(0x3c1))&&(_0xa42d2e=_0xa42d2e[_0x32d419(0x236)](_0x32d419(0x34d))?_0xa42d2e+_0x32d419(0x3c1):_0xa42d2e+_0x32d419(0x360));const _0x4dea81=await fetch(_0xa42d2e,{'method':_0x32d419(0x26e),'headers':{'Content-Type':'application/json','Authorization':_0x32d419(0x342)+window[_0x32d419(0x340)][_0x32d419(0x1cf)]},'body':JSON[_0x32d419(0x367)]({'model':window[_0x32d419(0x340)][_0x32d419(0x290)]||_0x32d419(0x26f),'messages':[{'role':'system','content':_0x32d419(0x312)},{'role':'user','content':_0x42dff2}],'temperature':parseFloat(window[_0x32d419(0x340)][_0x32d419(0x364)])||0.8})});if(!_0x4dea81['ok'])throw new Error(_0x32d419(0x2c6));const _0x5a09e5=await _0x4dea81['json']();let _0xfbd019=_0x5a09e5['choices'][0x0]['message'][_0x32d419(0x272)];const _0xbedc5b=_0x4a1a71(_0xfbd019);_0x55bc6e[_0x32d419(0x218)]=(_0x55bc6e[_0x32d419(0x218)]||0x0)+(_0xbedc5b[_0x32d419(0x328)]||Math[_0x32d419(0x358)](Math[_0x32d419(0x3cc)]()*0x1f4));if(!_0x55bc6e[_0x32d419(0x370)])_0x55bc6e['comments']=[];_0xbedc5b['newComments']&&Array['isArray'](_0xbedc5b[_0x32d419(0x24b)])&&_0xbedc5b['newComments'][_0x32d419(0x329)]((_0x4480a3,_0x4fdb99)=>_0x24c14a(_0x4480a3,_0x4fdb99))[_0x32d419(0x1c3)](_0x327f51=>_0x327f51[_0x32d419(0x333)])[_0x32d419(0x207)](_0x1f3504=>_0x55bc6e['comments'][_0x32d419(0x296)](_0x1f3504));_0x55bc6e[_0x32d419(0x1fe)]=_0x5b83ad(_0x55bc6e);if(window['tkPersistState'])window['tkPersistState']();document[_0x32d419(0x23d)](_0x32d419(0x1f9))[_0x32d419(0x2d7)]=window[_0x32d419(0x286)](_0x55bc6e[_0x32d419(0x218)]),document[_0x32d419(0x23d)]('tk-fs-video-comments')[_0x32d419(0x2d7)]=window[_0x32d419(0x286)](_0x55bc6e[_0x32d419(0x1fe)]||_0x5b83ad(_0x55bc6e)),window[_0x32d419(0x216)](_0x32d419(0x1ee));if(window[_0x32d419(0x1b6)])window[_0x32d419(0x1b6)]();}catch(_0x556ea1){console[_0x32d419(0x3d4)](_0x556ea1),window[_0x32d419(0x216)](_0x32d419(0x234));}});if(_0x387b65&&_0x387b65['parentNode']){const _0x23ebaa=_0x387b65[_0x5de278(0x318)](!![]);_0x387b65[_0x5de278(0x38e)][_0x5de278(0x3d5)](_0x23ebaa,_0x387b65),_0x23ebaa['title']=_0x5de278(0x227),_0x23ebaa[_0x5de278(0x38c)](_0x5de278(0x317),()=>{const _0x1b3f0a=_0x5de278,_0x3bf8d8=_0x27929d?_0x27929d[_0x1b3f0a(0x36c)][_0x1b3f0a(0x215)]:'';_0x3bf8d8&&window[_0x1b3f0a(0x3a6)]&&window['tkGenerateVideoInteractions'](_0x3bf8d8);});}window[_0x5de278(0x298)]=function(_0x1c0dd7,_0x3cb1b9){const _0x39ffe7=_0x5de278;_0x3cb1b9[_0x39ffe7(0x1dc)]();const _0x33025c=window[_0x39ffe7(0x23e)](_0x1c0dd7);if(_0x33025c)window[_0x39ffe7(0x266)]&&window[_0x39ffe7(0x266)](_0x1c0dd7);else{const _0xbe4635=tkState[_0x39ffe7(0x378)][_0x39ffe7(0x1bf)](_0x30478e=>_0x30478e[_0x39ffe7(0x2a7)]===_0x1c0dd7);_0xbe4635&&(window[_0x39ffe7(0x2e9)]({'id':_0x1c0dd7,'name':_0xbe4635[_0x39ffe7(0x1cc)],'handle':_0x1c0dd7,'avatar':_0xbe4635[_0x39ffe7(0x258)]||null,'status':'','persona':'谢谢你的关注','isFollowed':![]}),window['tkOpenSubProfile']&&window['tkOpenSubProfile'](_0x1c0dd7));}},window[_0x5de278(0x380)]=function(_0x42dd31,_0x1a1203){const _0x271c05=_0x5de278;_0x1a1203[_0x271c05(0x1dc)]();const _0x3d7c8c=window['tkGetChar'](_0x42dd31);if(_0x3d7c8c&&!_0x3d7c8c[_0x271c05(0x392)]){_0x3d7c8c['isFollowed']=!![];if(window[_0x271c05(0x2ea)])window[_0x271c05(0x2ea)]();window[_0x271c05(0x2fd)]();if(window[_0x271c05(0x3aa)])window['tkRenderChat']();window['showToast'](_0x271c05(0x326));}else{if(!_0x3d7c8c){const _0x2145d8=tkState[_0x271c05(0x378)][_0x271c05(0x1bf)](_0x130e5c=>_0x130e5c['authorId']===_0x42dd31);if(_0x2145d8){window[_0x271c05(0x2e9)]({'id':_0x42dd31,'name':_0x2145d8['authorName'],'handle':_0x42dd31,'avatar':_0x2145d8[_0x271c05(0x258)]||null,'status':'刚刚发布了视频','persona':_0x271c05(0x2bc),'isFollowed':!![]}),window[_0x271c05(0x2fd)]();if(window['tkRenderChat'])window['tkRenderChat']();window[_0x271c05(0x216)](_0x271c05(0x326));}}}},window[_0x5de278(0x1e4)]=function(_0x2a2ecf,_0x16140f,_0x12f91){const _0x3571f6=_0x5de278;if(_0x12f91)_0x12f91['stopPropagation']();const _0x34b452=window[_0x3571f6(0x2a8)]?window['findVideoGlobal'](_0x2a2ecf):{},_0x33537c=_0x34b452[_0x3571f6(0x352)]||tkState[_0x3571f6(0x378)]['find'](_0x5b284f=>_0x5b284f['id']===_0x2a2ecf);if(_0x33537c){_0x33537c[_0x3571f6(0x218)]=Number(_0x33537c[_0x3571f6(0x218)])||0x0,_0x33537c[_0x3571f6(0x2ec)]=!_0x33537c[_0x3571f6(0x2ec)],_0x33537c[_0x3571f6(0x218)]=Math[_0x3571f6(0x3b2)](0x0,_0x33537c[_0x3571f6(0x218)]+(_0x33537c['isLiked']?0x1:-0x1));if(window[_0x3571f6(0x2ea)])window[_0x3571f6(0x2ea)]();_0x33537c[_0x3571f6(0x2ec)]?_0x16140f[_0x3571f6(0x2f7)]['add'](_0x3571f6(0x33d)):_0x16140f['classList'][_0x3571f6(0x2ef)](_0x3571f6(0x33d));const _0x255be3=_0x16140f[_0x3571f6(0x2e4)]('span');if(_0x255be3)_0x255be3['textContent']=window[_0x3571f6(0x286)](_0x33537c[_0x3571f6(0x218)]);const _0x577737=document['getElementById']('tk-fs-video-likes'),_0xa1762c=document[_0x3571f6(0x23d)]('tk-fullscreen-video-view');_0x577737&&_0xa1762c&&_0xa1762c[_0x3571f6(0x36c)][_0x3571f6(0x215)]===_0x2a2ecf&&(_0x577737[_0x3571f6(0x2d7)]=window['tkFormatCount'](_0x33537c[_0x3571f6(0x218)]));if(window[_0x3571f6(0x1b6)])window[_0x3571f6(0x1b6)]();if(window[_0x3571f6(0x2fd)])window[_0x3571f6(0x2fd)]();}};function _0x3c9055(_0x28d837={},_0x59c3b6={}){const _0x472172=_0x5de278,_0x2b31b4=String(_0x28d837[_0x472172(0x2a7)]||_0x28d837['id']||'')[_0x472172(0x243)](),_0x558d5d=String(_0x28d837[_0x472172(0x1cc)]||_0x28d837['name']||'')['trim'](),_0x88918e=_0x29da85=>String(_0x29da85||'')[_0x472172(0x243)]()[_0x472172(0x320)](/^@/,'')[_0x472172(0x1c1)](),_0x3e674b=String(_0x59c3b6[_0x472172(0x2a7)]||'')['trim'](),_0x1460bb=String(_0x59c3b6[_0x472172(0x1cc)]||'')[_0x472172(0x243)](),_0x48ecd3=_0x3e674b&&(String(_0x2b31b4)===_0x3e674b||_0x558d5d&&_0x88918e(_0x558d5d)===_0x88918e(_0x1460bb));if(_0x48ecd3){const _0x4728c3=window[_0x472172(0x23e)]?window['tkGetChar'](_0x3e674b):null,_0x3a3177=_0x4728c3?.[_0x472172(0x362)]||_0x1460bb||_0x558d5d||_0x472172(0x1ce),_0x1717dd=window['tkResolveAvatar']?window[_0x472172(0x327)](_0x3e674b,_0x3a3177,_0x4728c3?.[_0x472172(0x24f)]||_0x59c3b6[_0x472172(0x258)]||_0x28d837[_0x472172(0x258)]||''):_0x4728c3?.[_0x472172(0x24f)]||_0x59c3b6[_0x472172(0x258)]||_0x28d837[_0x472172(0x258)]||'';return{'authorId':_0x3e674b,'authorName':_0x3a3177,'authorAvatar':_0x1717dd};}const _0x59157e=(tkState[_0x472172(0x38b)]||[])[_0x472172(0x1bf)](_0x43eeb2=>{const _0xd6fb9a=_0x472172;if(!_0x43eeb2)return![];return _0x2b31b4&&String(_0x43eeb2['id'])===_0x2b31b4||_0x2b31b4&&String(_0x43eeb2['imCharId']||'')===_0x2b31b4||_0x558d5d&&_0x88918e(_0x43eeb2[_0xd6fb9a(0x362)])===_0x88918e(_0x558d5d)||_0x558d5d&&_0x88918e(_0x43eeb2['handle'])===_0x88918e(_0x558d5d);});if(_0x59157e){const _0x24fd29=_0x59157e[_0x472172(0x362)]||_0x59157e[_0x472172(0x359)]||_0x558d5d||_0x472172(0x1ce),_0x17c069=window['tkResolveAvatar']?window['tkResolveAvatar'](_0x59157e['id'],_0x24fd29,_0x59157e[_0x472172(0x24f)]||_0x28d837[_0x472172(0x258)]||''):_0x59157e[_0x472172(0x24f)]||_0x28d837[_0x472172(0x258)]||'';return{'authorId':_0x59157e['id'],'authorName':_0x24fd29,'authorAvatar':_0x17c069};}const _0x3178c4=_0x2b31b4||_0x472172(0x34f)+Date[_0x472172(0x21b)]()+'_'+Math['floor'](Math[_0x472172(0x3cc)]()*0x3e8),_0x18a030=_0x558d5d||_0x472172(0x1ce);return{'authorId':_0x3178c4,'authorName':_0x18a030,'authorAvatar':window[_0x472172(0x327)]?window[_0x472172(0x327)](_0x3178c4,_0x18a030,_0x28d837[_0x472172(0x258)]||''):_0x28d837[_0x472172(0x258)]||''};}let _0x12de14=null,_0x3ab1ff=null;function _0x3ee0c6(_0x6c4914){const _0x27bac4=_0x5de278,_0x9926a3=document[_0x27bac4(0x23d)](_0x27bac4(0x323)),_0x82536=document[_0x27bac4(0x23d)](_0x27bac4(0x1d8));if(!_0x9926a3||!_0x82536)return;let _0x9dba7f=_0x6c4914['comments']?_0x6c4914['comments'][_0x27bac4(0x3c6)]:0x0;_0x6c4914[_0x27bac4(0x370)]&&_0x6c4914[_0x27bac4(0x370)][_0x27bac4(0x207)](_0x30e9fc=>{const _0x589573=_0x27bac4;if(_0x30e9fc[_0x589573(0x2f9)])_0x9dba7f+=_0x30e9fc['replies'][_0x589573(0x3c6)];}),_0x82536[_0x27bac4(0x2d7)]=_0x27bac4(0x29e)+window[_0x27bac4(0x286)](_0x9dba7f)+')',_0x9926a3['innerHTML']='',_0x6c4914['comments']&&_0x6c4914[_0x27bac4(0x370)]['length']>0x0?_0x6c4914['comments'][_0x27bac4(0x207)]((_0x520836,_0x397590)=>{const _0xf4ba78=_0x27bac4;if(!_0x520836['id'])_0x520836['id']='cmt_'+Date[_0xf4ba78(0x21b)]()+'_'+_0x397590;const _0x3bf110=_0x3c9055(_0x520836,_0x6c4914);_0x520836[_0xf4ba78(0x2a7)]=_0x3bf110['authorId'],_0x520836[_0xf4ba78(0x1cc)]=_0x3bf110['authorName'],_0x520836[_0xf4ba78(0x258)]=_0x3bf110['authorAvatar'];const _0x2da415=_0x3bf110['authorId'],_0x5c8cf1=_0x3bf110[_0xf4ba78(0x1cc)],_0x9ccac=_0x3bf110[_0xf4ba78(0x258)],_0x40250a=_0xf4ba78(0x33c)+_0x520836['id'],_0x118c3f=_0x3aeee1(_0x520836['translationZh'])?_0xf4ba78(0x1fc)+_0x30bbaf(_0x40250a)+_0xf4ba78(0x397):'',_0x2c19f2=_0x9ccac?_0xf4ba78(0x22f)+_0x30bbaf(_0x9ccac)+'\x22\x20style=\x22width:100%;\x20height:100%;\x20border-radius:50%;\x20object-fit:cover;\x22>':_0xf4ba78(0x3c5),_0x3103e1=document['createElement'](_0xf4ba78(0x297));_0x3103e1[_0xf4ba78(0x2d5)]=_0xf4ba78(0x22a),_0x3103e1[_0xf4ba78(0x1db)]=_0xf4ba78(0x210)+_0x30bbaf(_0x2da415)+_0xf4ba78(0x2be)+_0x30bbaf(_0x5c8cf1)+'\x22\x20data-author-avatar=\x22'+_0x30bbaf(_0x9ccac)+_0xf4ba78(0x1f8)+_0x2c19f2+_0xf4ba78(0x2b8)+_0x30bbaf(_0x2da415)+_0xf4ba78(0x2be)+_0x30bbaf(_0x5c8cf1)+'\x22\x20data-author-avatar=\x22'+_0x30bbaf(_0x9ccac)+'\x22\x20style=\x22cursor:pointer;\x22>'+_0x140580(_0x5c8cf1)+_0xf4ba78(0x355)+_0x520836['id']+_0xf4ba78(0x21a)+_0x520836['id']+_0xf4ba78(0x21a)+_0x30bbaf(_0x5c8cf1)+_0xf4ba78(0x32b)+_0x3d7486(_0x520836[_0xf4ba78(0x333)])+_0xf4ba78(0x1d4)+_0x5f45b6(_0x520836[_0xf4ba78(0x265)],_0x40250a)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>刚刚</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20onclick=\x22window.tkReplyToComment(\x27'+_0x520836['id']+_0xf4ba78(0x21a)+_0x520836['id']+_0xf4ba78(0x21a)+_0x30bbaf(_0x5c8cf1)+_0xf4ba78(0x2d8)+_0x118c3f+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Replies\x20Container\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-replies\x22\x20id=\x22replies-'+_0x520836['id']+_0xf4ba78(0x2d9)+(_0x520836[_0xf4ba78(0x2f9)]&&_0x520836['replies'][_0xf4ba78(0x3c6)]>0x0?_0xf4ba78(0x28e)+_0x520836['id']+_0xf4ba78(0x3a2)+_0x520836['id']+_0xf4ba78(0x2dc)+window[_0xf4ba78(0x286)](_0x520836[_0xf4ba78(0x2f9)][_0xf4ba78(0x3c6)])+_0xf4ba78(0x2fc):'')+_0xf4ba78(0x2de)+(_0x520836[_0xf4ba78(0x2ec)]?_0xf4ba78(0x33d):'')+_0xf4ba78(0x20e)+_0x6c4914['id']+_0xf4ba78(0x21a)+_0x520836['id']+_0xf4ba78(0x2c4)+window[_0xf4ba78(0x286)](_0x520836[_0xf4ba78(0x218)]||0x0)+_0xf4ba78(0x20a),_0x9926a3[_0xf4ba78(0x37c)](_0x3103e1),_0x3103e1[_0xf4ba78(0x2ab)]('.tk-comment-profile-link')[_0xf4ba78(0x207)](_0x5c1ca6=>{const _0x34fc66=_0xf4ba78;_0x5c1ca6[_0x34fc66(0x38c)](_0x34fc66(0x317),_0x48a17d=>{const _0x264262=_0x34fc66;window[_0x264262(0x31a)](_0x5c1ca6[_0x264262(0x36c)][_0x264262(0x2a7)],_0x5c1ca6[_0x264262(0x36c)]['authorName'],_0x5c1ca6['dataset'][_0x264262(0x258)],_0x48a17d);});}),_0x3103e1[_0xf4ba78(0x2ab)]('.tk-comment-translate-btn')[_0xf4ba78(0x207)](_0x240400=>{const _0x45bbf0=_0xf4ba78;_0x240400[_0x45bbf0(0x38c)](_0x45bbf0(0x317),window[_0x45bbf0(0x1b4)]);});if(_0x520836[_0xf4ba78(0x2f9)]&&_0x520836[_0xf4ba78(0x2f9)][_0xf4ba78(0x3c6)]>0x0){const _0x513984=_0x3103e1['querySelector'](_0xf4ba78(0x214)+_0x520836['id']);_0x520836[_0xf4ba78(0x2f9)][_0xf4ba78(0x207)]((_0x47a494,_0x5ed9e9)=>{const _0x5ef759=_0xf4ba78;if(!_0x47a494['id'])_0x47a494['id']=_0x5ef759(0x1f4)+_0x520836['id']+'_'+_0x5ed9e9+'_'+Date[_0x5ef759(0x21b)]();const _0x522407=document[_0x5ef759(0x2eb)](_0x5ef759(0x297));_0x522407[_0x5ef759(0x22d)][_0x5ef759(0x1e3)]=_0x5ef759(0x28d),_0x522407[_0x5ef759(0x22d)][_0x5ef759(0x25b)]=_0x5ef759(0x246),_0x522407[_0x5ef759(0x22d)]['marginBottom']=_0x5ef759(0x3a1);const _0x1fa876=_0x3c9055(_0x47a494,_0x6c4914);_0x47a494[_0x5ef759(0x2a7)]=_0x1fa876[_0x5ef759(0x2a7)],_0x47a494['authorName']=_0x1fa876[_0x5ef759(0x1cc)],_0x47a494[_0x5ef759(0x258)]=_0x1fa876[_0x5ef759(0x258)];const _0x17a89b=_0x1fa876[_0x5ef759(0x1cc)]||_0x5ef759(0x1ce),_0x25aee4=_0x1fa876[_0x5ef759(0x258)],_0x24a08e=_0x25aee4?_0x5ef759(0x22f)+_0x30bbaf(_0x25aee4)+_0x5ef759(0x225):_0x5ef759(0x3c5),_0x27d9b7=_0x47a494[_0x5ef759(0x333)]||'',_0x2df8ec='tk-reply-translation-'+_0x47a494['id'],_0xb4bdda=_0x3aeee1(_0x47a494[_0x5ef759(0x265)])?_0x5ef759(0x1fc)+_0x30bbaf(_0x2df8ec)+_0x5ef759(0x397):'';_0x522407['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-avatar-small\x22\x20style=\x22width:\x2024px;\x20height:\x2024px;\x20font-size:\x2012px;\x22>'+_0x24a08e+_0x5ef759(0x23f)+_0x30bbaf(_0x17a89b)+'\x22>'+_0x140580(_0x17a89b)+_0x5ef759(0x204)+_0x520836['id']+_0x5ef759(0x21a)+_0x47a494['id']+_0x5ef759(0x21a)+_0x30bbaf(_0x17a89b)+_0x5ef759(0x32b)+_0x3d7486(_0x27d9b7)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5f45b6(_0x47a494[_0x5ef759(0x265)],_0x2df8ec)+_0x5ef759(0x3d3)+_0x520836['id']+_0x5ef759(0x21a)+_0x47a494['id']+_0x5ef759(0x21a)+_0x30bbaf(_0x17a89b)+'\x27,\x20event)\x22\x20style=\x22cursor:pointer;\x22>回复</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0xb4bdda+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0x3cce2c=_0x522407[_0x5ef759(0x2e4)]('.tk-reply-profile-link');_0x3cce2c&&_0x3cce2c[_0x5ef759(0x38c)](_0x5ef759(0x317),_0x22521a=>{const _0x2c0650=_0x5ef759;window[_0x2c0650(0x31a)](_0x47a494[_0x2c0650(0x2a7)],_0x17a89b,_0x25aee4,_0x22521a);}),_0x522407['querySelectorAll']('.tk-comment-translate-btn')[_0x5ef759(0x207)](_0x38f46e=>{const _0x302394=_0x5ef759;_0x38f46e[_0x302394(0x38c)](_0x302394(0x317),window[_0x302394(0x1b4)]);}),_0x513984['appendChild'](_0x522407);});}}):_0x9926a3['innerHTML']=_0x27bac4(0x336);}window[_0x5de278(0x39b)]=function(_0x3f8494,_0x57153e){const _0x4475bf=_0x5de278;if(_0x57153e)_0x57153e[_0x4475bf(0x1dc)]();_0x12de14=_0x3f8494,_0x3ab1ff=null,window['currentReplyTargetId']=null;const _0x3e12b5=window[_0x4475bf(0x2a8)]?window[_0x4475bf(0x2a8)](_0x3f8494):{},_0x323ac6=_0x3e12b5['video']||tkState[_0x4475bf(0x378)][_0x4475bf(0x1bf)](_0x10e06b=>_0x10e06b['id']===_0x3f8494);if(!_0x323ac6)return;const _0x135361=document[_0x4475bf(0x23d)](_0x4475bf(0x2f0));if(!_0x135361)return;_0x3ee0c6(_0x323ac6);const _0x40a8e7=_0x135361[_0x4475bf(0x2e4)](_0x4475bf(0x311));_0x40a8e7&&(_0x40a8e7[_0x4475bf(0x3c3)]='',_0x40a8e7[_0x4475bf(0x1fa)]='留下你的精彩评论');window['openView'](_0x135361);!_0x135361[_0x4475bf(0x36c)][_0x4475bf(0x34a)]&&(_0x135361[_0x4475bf(0x36c)][_0x4475bf(0x34a)]=_0x4475bf(0x283),_0x135361[_0x4475bf(0x38c)](_0x4475bf(0x317),_0x4b039e=>{const _0x2ca696=_0x4475bf;_0x4b039e[_0x2ca696(0x391)]===_0x135361&&(window[_0x2ca696(0x1df)](_0x135361),_0x12de14=null);}));const _0x103726=_0x135361[_0x4475bf(0x2e4)]('#tk-comment-send-btn'),_0x4058fc=_0x135361[_0x4475bf(0x2e4)](_0x4475bf(0x311));if(_0x103726&&_0x4058fc){const _0x571531=_0x103726['cloneNode'](!![]);_0x103726[_0x4475bf(0x38e)][_0x4475bf(0x3d5)](_0x571531,_0x103726);const _0x1ab5d9=_0x571531,_0x5ab96a=()=>{const _0x4732cd=_0x4475bf,_0x5cc7fb=_0x4058fc[_0x4732cd(0x3c3)][_0x4732cd(0x243)]();if(!_0x5cc7fb)return;const _0x300299=window[_0x4732cd(0x2a8)]?window[_0x4732cd(0x2a8)](_0x12de14):{},_0x2d57f8=_0x300299[_0x4732cd(0x352)]||tkState[_0x4732cd(0x378)][_0x4732cd(0x1bf)](_0x5ed938=>_0x5ed938['id']===_0x12de14);if(!_0x2d57f8)return;if(!_0x2d57f8['comments'])_0x2d57f8[_0x4732cd(0x370)]=[];let _0x71907d=null,_0x26364c=null;if(_0x3ab1ff){const _0x20801b=_0x2d57f8['comments'][_0x4732cd(0x1bf)](_0x43f1b8=>_0x43f1b8['id']===_0x3ab1ff);if(_0x20801b){let _0x29cac3=_0x20801b;window[_0x4732cd(0x354)]&&window['currentReplyTargetId']!==_0x3ab1ff&&(_0x20801b[_0x4732cd(0x2f9)]&&(_0x29cac3=_0x20801b[_0x4732cd(0x2f9)][_0x4732cd(0x1bf)](_0x49ae54=>_0x49ae54['id']===window['currentReplyTargetId'])||_0x20801b));if(!_0x20801b[_0x4732cd(0x2f9)])_0x20801b[_0x4732cd(0x2f9)]=[];_0x20801b[_0x4732cd(0x2f9)][_0x4732cd(0x279)]({'id':_0x4732cd(0x1f4)+_0x20801b['id']+'_'+Date[_0x4732cd(0x21b)](),'authorName':window[_0x4732cd(0x250)]?window['userState'][_0x4732cd(0x362)]:'我','authorAvatar':tkState[_0x4732cd(0x26c)]&&tkState[_0x4732cd(0x26c)][_0x4732cd(0x24f)]?tkState[_0x4732cd(0x26c)][_0x4732cd(0x24f)]:null,'text':_0x5cc7fb,'likes':0x0}),_0x71907d=_0x20801b,_0x26364c=_0x29cac3,setTimeout(()=>{const _0x4376d1=_0x4732cd,_0x3c0bf7=document[_0x4376d1(0x23d)](_0x4376d1(0x343)+_0x3ab1ff);if(_0x3c0bf7){_0x3c0bf7[_0x4376d1(0x22d)][_0x4376d1(0x1e3)]='block';const _0x3f38fa=document['getElementById'](_0x4376d1(0x3d2)+_0x3ab1ff);_0x3f38fa&&(_0x3f38fa[_0x4376d1(0x1db)]=_0x4376d1(0x1c0));}},0x32);}}else _0x2d57f8[_0x4732cd(0x370)][_0x4732cd(0x296)]({'id':'cmt_'+Date[_0x4732cd(0x21b)](),'authorName':window[_0x4732cd(0x250)]?window[_0x4732cd(0x250)][_0x4732cd(0x362)]:'我','authorAvatar':tkState[_0x4732cd(0x26c)]&&tkState[_0x4732cd(0x26c)][_0x4732cd(0x24f)]?tkState[_0x4732cd(0x26c)]['avatar']:null,'text':_0x5cc7fb,'likes':0x0,'replies':[]}),_0x71907d=_0x2d57f8[_0x4732cd(0x370)][0x0];_0x2d57f8[_0x4732cd(0x1fe)]=_0x5b83ad(_0x2d57f8);if(window[_0x4732cd(0x2ea)])window[_0x4732cd(0x2ea)]();_0x3ee0c6(_0x2d57f8),window[_0x4732cd(0x2fd)](),_0x71907d&&_0x5473ad(_0x2d57f8,_0x71907d,_0x26364c,_0x5cc7fb),_0x4058fc[_0x4732cd(0x3c3)]='',_0x4058fc['placeholder']='留下你的精彩评论',_0x3ab1ff=null,window[_0x4732cd(0x354)]=null,window['showToast'](_0x4732cd(0x322));};_0x1ab5d9[_0x4475bf(0x38c)]('click',_0x5ab96a),_0x4058fc[_0x4475bf(0x372)]=_0x513df1=>{const _0x47c22a=_0x4475bf;_0x513df1[_0x47c22a(0x32d)]==='Enter'&&(_0x513df1[_0x47c22a(0x35d)](),_0x5ab96a());};}},window[_0x5de278(0x30e)]=function(_0x134bad,_0xc5a94a,_0x3270ed,_0x4e6b5b){const _0x24468b=_0x5de278;if(typeof _0xc5a94a===_0x24468b(0x351)&&_0x3270ed&&_0x3270ed['type'])_0x4e6b5b=_0x3270ed,_0x3270ed=_0xc5a94a,_0xc5a94a=_0x134bad;else!_0x4e6b5b&&_0x3270ed&&_0x3270ed[_0x24468b(0x1d3)]&&(_0x4e6b5b=_0x3270ed,_0x3270ed=_0xc5a94a,_0xc5a94a=_0x134bad);if(_0x4e6b5b)_0x4e6b5b[_0x24468b(0x1dc)]();_0x3ab1ff=_0x134bad,window[_0x24468b(0x354)]=_0xc5a94a||_0x134bad;const _0x70e29d=document[_0x24468b(0x23d)](_0x24468b(0x25c));_0x70e29d&&(_0x70e29d[_0x24468b(0x1fa)]='回复\x20@'+_0x3270ed,_0x70e29d['value']='@'+_0x3270ed+'\x20',_0x70e29d[_0x24468b(0x3be)]());},window[_0x5de278(0x237)]=function(_0xc8d137,_0x47021e,_0x1baeb8,_0x35d157){const _0x49b928=_0x5de278;if(_0x35d157)_0x35d157['stopPropagation']();const _0xa72396=window[_0x49b928(0x2a8)]?window['findVideoGlobal'](_0xc8d137):{},_0x55e850=_0xa72396[_0x49b928(0x352)]||tkState[_0x49b928(0x378)][_0x49b928(0x1bf)](_0xe6d927=>_0xe6d927['id']===_0xc8d137);if(!_0x55e850||!_0x55e850[_0x49b928(0x370)])return;const _0x57c3a0=_0x55e850[_0x49b928(0x370)][_0x49b928(0x1bf)](_0x4bb265=>_0x4bb265['id']===_0x47021e);if(_0x57c3a0){_0x57c3a0[_0x49b928(0x2ec)]=!_0x57c3a0[_0x49b928(0x2ec)],_0x57c3a0[_0x49b928(0x218)]=(_0x57c3a0['likes']||0x0)+(_0x57c3a0[_0x49b928(0x2ec)]?0x1:-0x1);if(window[_0x49b928(0x2ea)])window['tkPersistState']();_0x57c3a0[_0x49b928(0x2ec)]?_0x1baeb8['classList'][_0x49b928(0x335)]('liked'):_0x1baeb8[_0x49b928(0x2f7)][_0x49b928(0x2ef)](_0x49b928(0x33d)),_0x1baeb8['querySelector'](_0x49b928(0x357))['textContent']=window[_0x49b928(0x286)](_0x57c3a0[_0x49b928(0x218)]);}},window[_0x5de278(0x2f6)]=function(_0x5f5531,_0x1ade1c){const _0x1cc333=_0x5de278;if(_0x1ade1c)_0x1ade1c[_0x1cc333(0x1dc)]();const _0x5be184=document[_0x1cc333(0x23d)](_0x1cc333(0x343)+_0x5f5531),_0x566db6=document['getElementById'](_0x1cc333(0x3d2)+_0x5f5531);if(!_0x5be184||!_0x566db6)return;if(_0x5be184[_0x1cc333(0x22d)][_0x1cc333(0x1e3)]===_0x1cc333(0x200))_0x5be184[_0x1cc333(0x22d)][_0x1cc333(0x1e3)]='block',_0x566db6[_0x1cc333(0x1db)]='收起\x20<i\x20class=\x22fas\x20fa-chevron-up\x22\x20style=\x22font-size:10px;\x22></i>';else{_0x5be184['style']['display']='none';const _0x19dfc3=_0x5be184[_0x1cc333(0x288)][_0x1cc333(0x3c6)];_0x566db6[_0x1cc333(0x1db)]=_0x1cc333(0x233)+_0x19dfc3+_0x1cc333(0x2b6);}},window['tkToggleCommentTranslation']=function(_0x5ece5d){const _0x10ebb3=_0x5de278;if(_0x5ece5d)_0x5ece5d[_0x10ebb3(0x1dc)]();const _0x5e0a67=_0x5ece5d?.['currentTarget']||_0x5ece5d?.['target'],_0x10369=_0x5e0a67?.['dataset']?.[_0x10ebb3(0x2e0)];if(!_0x10369)return;const _0x14ee14=document[_0x10ebb3(0x23d)](_0x10369);if(!_0x14ee14)return;const _0x4b45a8=_0x14ee14[_0x10ebb3(0x22d)][_0x10ebb3(0x1e3)]==='none'||!_0x14ee14[_0x10ebb3(0x22d)][_0x10ebb3(0x1e3)];_0x14ee14['style'][_0x10ebb3(0x1e3)]=_0x4b45a8?_0x10ebb3(0x368):_0x10ebb3(0x200),_0x5e0a67['textContent']=_0x4b45a8?_0x10ebb3(0x3b8):'翻译';},window[_0x5de278(0x29b)]=function(_0xa0a1d0,_0x35b260){const _0x5e509f=_0x5de278;if(_0x35b260)_0x35b260[_0x5e509f(0x1dc)]();window['currentShareVideoId']=_0xa0a1d0;const _0x14e6b6=document[_0x5e509f(0x23d)]('tk-share-sheet'),_0x2e770f=document[_0x5e509f(0x23d)](_0x5e509f(0x1b8));if(!_0x14e6b6||!_0x2e770f)return;_0x2e770f[_0x5e509f(0x1db)]='';const _0x2e7c50=tkState[_0x5e509f(0x38b)][_0x5e509f(0x1c3)](_0x3e8c36=>_0x3e8c36[_0x5e509f(0x392)]);_0x2e7c50[_0x5e509f(0x3c6)]===0x0?_0x2e770f[_0x5e509f(0x1db)]='<div\x20style=\x22padding:\x2010px\x2015px;\x20color:\x20#999;\x20font-size:\x2013px;\x22>暂无好友可转发</div>':_0x2e7c50[_0x5e509f(0x207)](_0x3c62ae=>{const _0x4598df=_0x5e509f,_0x1e186a=document[_0x4598df(0x2eb)](_0x4598df(0x297));_0x1e186a[_0x4598df(0x2d5)]=_0x4598df(0x2c9);const _0x448aa6=window[_0x4598df(0x327)](_0x3c62ae['id'],_0x3c62ae['name']||_0x3c62ae[_0x4598df(0x359)],_0x3c62ae[_0x4598df(0x24f)]),_0x5cfe54=_0x448aa6?_0x4598df(0x22f)+_0x30bbaf(_0x448aa6)+_0x4598df(0x225):'<i\x20class=\x22fas\x20fa-user\x22></i>';_0x1e186a[_0x4598df(0x1db)]=_0x4598df(0x208)+_0x5cfe54+_0x4598df(0x35a)+(_0x3c62ae[_0x4598df(0x362)]||_0x3c62ae['handle'])+_0x4598df(0x304),_0x1e186a[_0x4598df(0x38c)]('click',()=>{const _0x5b0fdd=_0x4598df;window[_0x5b0fdd(0x216)](_0x5b0fdd(0x3b5)+(_0x3c62ae['name']||_0x3c62ae[_0x5b0fdd(0x359)])),window[_0x5b0fdd(0x1df)](document['getElementById']('tk-share-sheet'));let _0x2b7d5c=tkState['dms']['find'](_0x259ac5=>_0x259ac5[_0x5b0fdd(0x324)]===_0x3c62ae['id']);!_0x2b7d5c&&(_0x2b7d5c={'charId':_0x3c62ae['id'],'messages':[]},tkState[_0x5b0fdd(0x2a5)][_0x5b0fdd(0x279)](_0x2b7d5c));_0x2b7d5c[_0x5b0fdd(0x269)][_0x5b0fdd(0x279)]({'sender':_0x5b0fdd(0x238),'text':_0x5b0fdd(0x202),'sharedVideoId':window[_0x5b0fdd(0x282)]});const {video:_0x426663}=window['findVideoGlobal'](window[_0x5b0fdd(0x282)]);if(_0x426663){_0x426663[_0x5b0fdd(0x373)]=(_0x426663[_0x5b0fdd(0x373)]||0x0)+0x1;const _0x3a44de=document[_0x5b0fdd(0x23d)](_0x5b0fdd(0x25e)+_0x426663['id']);_0x3a44de&&(_0x3a44de[_0x5b0fdd(0x1db)]=_0x5b0fdd(0x39d),_0x3a44de[_0x5b0fdd(0x22d)][_0x5b0fdd(0x1da)]=_0x5b0fdd(0x395),_0x3a44de[_0x5b0fdd(0x275)][_0x5b0fdd(0x22d)][_0x5b0fdd(0x1da)]=_0x5b0fdd(0x395));}if(window['tkPersistState'])window[_0x5b0fdd(0x2ea)]();if(window[_0x5b0fdd(0x3aa)])window['tkRenderChat']();const _0x5438f0=document[_0x5b0fdd(0x2e4)](_0x5b0fdd(0x1b3));if(_0x5438f0)_0x5438f0['click']();setTimeout(()=>{const _0x349a89=_0x5b0fdd;window['tkOpenChatView']&&window[_0x349a89(0x2c7)](_0x3c62ae['id']);},0x12c);}),_0x2e770f['appendChild'](_0x1e186a);});const _0xfbbbb4=document['querySelector'](_0x5e509f(0x267));_0xfbbbb4&&(_0xfbbbb4[_0x5e509f(0x1db)]=_0x5e509f(0x228));if(_0x14e6b6&&!_0x14e6b6[_0x5e509f(0x36c)][_0x5e509f(0x213)]){_0x14e6b6[_0x5e509f(0x36c)][_0x5e509f(0x213)]=_0x5e509f(0x283),_0x14e6b6[_0x5e509f(0x38c)](_0x5e509f(0x317),_0x4f8d09=>{const _0x53aa6f=_0x5e509f;if(_0x4f8d09[_0x53aa6f(0x391)]===_0x14e6b6)window[_0x53aa6f(0x1df)](_0x14e6b6);});const _0x55b54a=_0x14e6b6[_0x5e509f(0x2e4)]('#tk-close-share-btn');_0x55b54a&&_0x55b54a[_0x5e509f(0x38c)](_0x5e509f(0x317),()=>window['closeView'](_0x14e6b6));}const _0x400792=document[_0x5e509f(0x23d)](_0x5e509f(0x2c0));if(_0x400792&&window[_0x5e509f(0x282)]){const {video:_0x5b3c1a}=window[_0x5e509f(0x2a8)](window['currentShareVideoId']);_0x5b3c1a&&_0x5b3c1a[_0x5e509f(0x24d)]?_0x400792['style'][_0x5e509f(0x1da)]=_0x5e509f(0x395):_0x400792[_0x5e509f(0x22d)][_0x5e509f(0x1da)]='';}window['openView'](_0x14e6b6);},window[_0x5de278(0x248)]=function(_0x5cfda3,_0x14c63a){const _0x4f60b8=_0x5de278;if(_0x14c63a)_0x14c63a[_0x4f60b8(0x1dc)]();const _0x209e7=document[_0x4f60b8(0x23d)](_0x4f60b8(0x303)),_0x57b8a6=document[_0x4f60b8(0x23d)](_0x4f60b8(0x2db)),_0x2b6df3=document[_0x4f60b8(0x23d)](_0x4f60b8(0x2fe));if(!_0x209e7||!_0x57b8a6||!_0x2b6df3)return;_0x57b8a6[_0x4f60b8(0x2d7)]='#'+_0x5cfda3;const _0x21758c=tkState[_0x4f60b8(0x378)][_0x4f60b8(0x1c3)](_0x52ca90=>_0x52ca90[_0x4f60b8(0x25f)]&&_0x52ca90[_0x4f60b8(0x25f)]['includes']('#'+_0x5cfda3));_0x2b6df3[_0x4f60b8(0x1db)]='',_0x21758c[_0x4f60b8(0x3c6)]>0x0?_0x21758c[_0x4f60b8(0x207)](_0x4525d7=>{const _0x556a12=_0x4f60b8,_0x4774f5=document[_0x556a12(0x2eb)](_0x556a12(0x297));_0x4774f5[_0x556a12(0x2d5)]=_0x556a12(0x35b);let _0x18a338=_0x556a12(0x3cd);if(_0x4525d7[_0x556a12(0x23b)])_0x18a338=_0x556a12(0x31b)+_0x4525d7[_0x556a12(0x23b)]+_0x556a12(0x3a7);else{if(_0x4525d7[_0x556a12(0x3b0)])_0x18a338=_0x4525d7[_0x556a12(0x3b0)];}_0x4774f5['innerHTML']=_0x556a12(0x313)+_0x18a338+_0x556a12(0x1f3)+_0x140580(_0x4d73d7(_0x4525d7)?_0x4d73d7(_0x4525d7)['substring'](0x0,0xf)+_0x556a12(0x222):_0x556a12(0x1bd))+_0x556a12(0x26d)+window[_0x556a12(0x286)](_0x4525d7['likes']||Math[_0x556a12(0x358)](Math[_0x556a12(0x3cc)]()*0x3e8))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x4774f5[_0x556a12(0x38c)](_0x556a12(0x317),()=>{const _0x11b724=_0x556a12;if(window[_0x11b724(0x2cc)])window[_0x11b724(0x2cc)](_0x4525d7['id']);}),_0x2b6df3['appendChild'](_0x4774f5);}):_0x2b6df3[_0x4f60b8(0x1db)]='<div\x20style=\x22grid-column:\x20span\x203;\x20padding:\x2040px\x200;\x20text-align:\x20center;\x20color:\x20#999;\x20font-size:\x2013px;\x22>暂无相关视频</div>',window[_0x4f60b8(0x1eb)](_0x209e7),!_0x209e7[_0x4f60b8(0x36c)][_0x4f60b8(0x34a)]&&(_0x209e7[_0x4f60b8(0x36c)][_0x4f60b8(0x34a)]='true',_0x209e7['addEventListener'](_0x4f60b8(0x317),_0x4dcdf6=>{const _0x373439=_0x4f60b8;if(_0x4dcdf6['target']===_0x209e7)window[_0x373439(0x1df)](_0x209e7);}));},window[_0x5de278(0x2e2)]=function(_0x40cc21){const _0x6c9ec6=_0x5de278;if(_0x40cc21)_0x40cc21[_0x6c9ec6(0x1dc)]();const _0x3b02a7=document[_0x6c9ec6(0x23d)](_0x6c9ec6(0x39c)),_0x155030=document[_0x6c9ec6(0x23d)](_0x6c9ec6(0x20d));if(!_0x3b02a7||!_0x155030)return;const _0xe549ca=[...tkState[_0x6c9ec6(0x378)]][_0x6c9ec6(0x1be)](()=>0.5-Math[_0x6c9ec6(0x3cc)]())['slice'](0x0,0x8);_0x155030[_0x6c9ec6(0x1db)]='',_0xe549ca['length']>0x0?_0xe549ca['forEach'](_0x4561ef=>{const _0x19bf45=_0x6c9ec6,_0x3a2888=document[_0x19bf45(0x2eb)](_0x19bf45(0x297));_0x3a2888[_0x19bf45(0x2d5)]=_0x19bf45(0x35b);let _0x2aa9e7=_0x19bf45(0x3cd);if(_0x4561ef[_0x19bf45(0x23b)])_0x2aa9e7=_0x19bf45(0x31b)+_0x4561ef[_0x19bf45(0x23b)]+_0x19bf45(0x3a7);else{if(_0x4561ef['bgColor'])_0x2aa9e7=_0x4561ef[_0x19bf45(0x3b0)];}_0x3a2888['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-grid-text\x22\x20style=\x22position:\x20relative;\x20left:\x200;\x20top:\x200;\x20transform:\x20none;\x20background:\x20'+_0x2aa9e7+_0x19bf45(0x1f3)+_0x140580(_0x4d73d7(_0x4561ef)?_0x4d73d7(_0x4561ef)[_0x19bf45(0x26b)](0x0,0xf)+_0x19bf45(0x222):_0x19bf45(0x1bd))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-grid-views\x22\x20style=\x22color:\x20#fff;\x20text-shadow:\x20none;\x22><i\x20class=\x22fas\x20fa-play\x22></i>\x20'+window[_0x19bf45(0x286)](_0x4561ef[_0x19bf45(0x218)]||Math[_0x19bf45(0x358)](Math[_0x19bf45(0x3cc)]()*0x3e8))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x3a2888['addEventListener']('click',()=>{const _0x29dd80=_0x19bf45;if(window[_0x29dd80(0x2cc)])window[_0x29dd80(0x2cc)](_0x4561ef['id']);}),_0x155030[_0x19bf45(0x37c)](_0x3a2888);}):_0x155030[_0x6c9ec6(0x1db)]='<div\x20style=\x22grid-column:\x20span\x203;\x20padding:\x2040px\x200;\x20text-align:\x20center;\x20color:\x20#999;\x20font-size:\x2013px;\x22>暂无相关视频</div>',window['openView'](_0x3b02a7),!_0x3b02a7[_0x6c9ec6(0x36c)]['boundClose']&&(_0x3b02a7[_0x6c9ec6(0x36c)][_0x6c9ec6(0x34a)]=_0x6c9ec6(0x283),_0x3b02a7[_0x6c9ec6(0x38c)](_0x6c9ec6(0x317),_0x5c71c3=>{const _0x1ae34d=_0x6c9ec6;if(_0x5c71c3[_0x1ae34d(0x391)]===_0x3b02a7)window[_0x1ae34d(0x1df)](_0x3b02a7);}));},window['currentCommentModalAuthorId']=null,window[_0x5de278(0x31a)]=function(_0xa4d8a8,_0x39278a,_0x53f136,_0xc827c4){const _0x44f46d=_0x5de278;if(_0xc827c4)_0xc827c4[_0x44f46d(0x1dc)]();const _0xc047e4=_0xa4d8a8||'commenter_'+Date[_0x44f46d(0x21b)]()+'_'+Math[_0x44f46d(0x358)](Math[_0x44f46d(0x3cc)]()*0x3e8),_0x37d78d=_0x39278a||'User';window[_0x44f46d(0x1df)](document['getElementById'](_0x44f46d(0x1e8))),window[_0x44f46d(0x1df)](document[_0x44f46d(0x23d)](_0x44f46d(0x2f0)));let _0x4eca9d=window[_0x44f46d(0x23e)](_0xc047e4);if(!_0x4eca9d)window[_0x44f46d(0x2e9)]({'id':_0xc047e4,'name':_0x37d78d,'handle':_0xc047e4,'avatar':_0x53f136||null,'persona':_0x37d78d+'\x20是从\x20TikTok\x20评论区进入主页的用户。','bio':'来自评论区','following':0x0,'followers':Math[_0x44f46d(0x358)](Math['random']()*0x1388),'likes':Math[_0x44f46d(0x358)](Math[_0x44f46d(0x3cc)]()*0x4e20),'isFollowed':![]}),_0x4eca9d=window[_0x44f46d(0x23e)](_0xc047e4);else{if(_0x53f136&&!_0x4eca9d[_0x44f46d(0x24f)]){_0x4eca9d[_0x44f46d(0x24f)]=_0x53f136;if(window[_0x44f46d(0x2ea)])window[_0x44f46d(0x2ea)]();}}if(window[_0x44f46d(0x266)])window[_0x44f46d(0x266)](_0xc047e4);},window[_0x5de278(0x2c1)]=function(_0xa9c589,_0x5a64bb,_0x1ac991){const _0x29ee5c=_0x5de278;if(_0x1ac991)_0x1ac991[_0x29ee5c(0x1dc)]();const _0xe8fc4f=document['getElementById'](_0x29ee5c(0x1e8)),_0x428021=document[_0x29ee5c(0x23d)]('tk-comment-modal-name'),_0x2edaef=document[_0x29ee5c(0x23d)]('tk-comment-modal-home-btn');if(!_0xe8fc4f)return;_0x428021[_0x29ee5c(0x2d7)]=_0x5a64bb,window['currentCommentModalAuthorId']=_0xa9c589,window[_0x29ee5c(0x36a)]=_0x5a64bb,!_0x2edaef[_0x29ee5c(0x36c)][_0x29ee5c(0x211)]&&(_0x2edaef[_0x29ee5c(0x36c)][_0x29ee5c(0x211)]='true',_0x2edaef['addEventListener'](_0x29ee5c(0x317),()=>{const _0x4b40eb=_0x29ee5c,_0x121033=window['currentCommentModalAuthorId'],_0x1c138b=window['currentCommentModalAuthorName'];if(!_0x121033)return;window['closeView'](_0xe8fc4f),window[_0x4b40eb(0x1df)](document[_0x4b40eb(0x23d)]('tk-video-detail-sheet'));let _0x3b00cb=window[_0x4b40eb(0x23e)](_0x121033);!_0x3b00cb?window[_0x4b40eb(0x363)]?window[_0x4b40eb(0x363)](_0x121033,()=>{const _0x3ee3f3=_0x4b40eb;window[_0x3ee3f3(0x266)](_0x121033);}):(window[_0x4b40eb(0x2e9)]({'id':_0x121033,'name':_0x1c138b,'handle':_0x121033,'persona':_0x4b40eb(0x2bc),'isFollowed':![]}),window[_0x4b40eb(0x266)](_0x121033)):window[_0x4b40eb(0x266)](_0x121033);})),!_0xe8fc4f['dataset']['boundClose']&&(_0xe8fc4f[_0x29ee5c(0x36c)][_0x29ee5c(0x34a)]=_0x29ee5c(0x283),_0xe8fc4f['addEventListener'](_0x29ee5c(0x317),_0x3a4508=>{const _0x51cb8a=_0x29ee5c;if(_0x3a4508['target']===_0xe8fc4f)window[_0x51cb8a(0x1df)](_0xe8fc4f);})),window[_0x29ee5c(0x1eb)](_0xe8fc4f);};function _0x3aaade(){const _0x52062f=_0x5de278;let _0x298ce6=document['getElementById'](_0x52062f(0x3ce));if(_0x298ce6)return _0x298ce6;return _0x298ce6=document[_0x52062f(0x2eb)]('div'),_0x298ce6[_0x52062f(0x2d5)]='bottom-sheet-overlay\x20detail-sheet-overlay',_0x298ce6['id']=_0x52062f(0x3ce),_0x298ce6['innerHTML']=_0x52062f(0x2a2),document[_0x52062f(0x23d)](_0x52062f(0x2ca))?.[_0x52062f(0x37c)](_0x298ce6),_0x298ce6[_0x52062f(0x38c)](_0x52062f(0x317),_0x3406c5=>{const _0x4c0864=_0x52062f;if(_0x3406c5[_0x4c0864(0x391)]===_0x298ce6)window[_0x4c0864(0x1df)](_0x298ce6);}),_0x298ce6['querySelector'](_0x52062f(0x35f))?.['addEventListener'](_0x52062f(0x317),()=>window[_0x52062f(0x1df)](_0x298ce6)),_0x298ce6[_0x52062f(0x2e4)](_0x52062f(0x2d2))?.[_0x52062f(0x38c)](_0x52062f(0x317),()=>{const _0x49f73a=_0x52062f,_0x57b48d=_0x298ce6[_0x49f73a(0x2e4)]('#tk-search-generate-input')?.['value'][_0x49f73a(0x243)]()||'';window[_0x49f73a(0x1df)](_0x298ce6),window[_0x49f73a(0x1d5)](_0x57b48d);}),_0x298ce6['querySelector']('#tk-search-generate-input')?.[_0x52062f(0x38c)](_0x52062f(0x2e5),_0x2ffad3=>{const _0x3406bb=_0x52062f;_0x2ffad3['key']===_0x3406bb(0x2b2)&&(_0x2ffad3[_0x3406bb(0x35d)](),_0x298ce6[_0x3406bb(0x2e4)](_0x3406bb(0x2d2))?.[_0x3406bb(0x317)]());}),_0x298ce6;}window[_0x5de278(0x33e)]=function(_0xf8ba77){const _0x27ae5f=_0x5de278;if(_0xf8ba77)_0xf8ba77[_0x27ae5f(0x1dc)]();const _0x5bdf0f=_0x3aaade(),_0x10e413=_0x5bdf0f[_0x27ae5f(0x2e4)]('#tk-search-generate-input');if(_0x10e413)_0x10e413[_0x27ae5f(0x3c3)]='';window[_0x27ae5f(0x1eb)](_0x5bdf0f),setTimeout(()=>_0x10e413?.['focus'](),0x50);},window[_0x5de278(0x223)]=function(_0x5d0507){const _0x22a531=_0x5de278;window[_0x22a531(0x33e)](_0x5d0507);};_0x3b5e56&&_0x3b5e56[_0x5de278(0x38c)]('click',window[_0x5de278(0x33e)]);window['tkGenerateSearchVideos']=async function(_0x115f9b=''){const _0x20fd13=_0x5de278;if(!window[_0x20fd13(0x340)]||!window[_0x20fd13(0x340)][_0x20fd13(0x1c6)]||!window[_0x20fd13(0x340)][_0x20fd13(0x1cf)]){window['showToast']('请在系统设置中配置\x20API');return;}const _0x118d87=String(_0x115f9b||'')[_0x20fd13(0x243)](),_0x3eed90=_0x118d87||_0x20fd13(0x249),_0x34ee59=window[_0x20fd13(0x3d7)]?window['tkBuildWorldBookContext'](_0x3eed90):'',_0x3c9671=window[_0x20fd13(0x3c0)]?window[_0x20fd13(0x3c0)]({'includeUserIdentity':![],'purpose':'TikTok\x20For\x20You\x20主页内容流','triggerText':_0x118d87||_0x3eed90}):'',_0x2d76bb=_0x20fd13(0x231)+(_0x118d87||'留空，随机生成但要具体、有生活感')+_0x20fd13(0x2d4)+_0x34ee59+'\x0a'+_0x3c9671+'\x0a';try{window[_0x20fd13(0x216)](_0x118d87?'正在按搜索生成内容...':_0x20fd13(0x302));const _0x152cfa=await fetch(_0x4a4dd3(),{'method':'POST','headers':{'Content-Type':_0x20fd13(0x306),'Authorization':_0x20fd13(0x342)+window[_0x20fd13(0x340)][_0x20fd13(0x1cf)]},'body':JSON[_0x20fd13(0x367)]({'model':window[_0x20fd13(0x340)][_0x20fd13(0x290)]||'gpt-3.5-turbo','messages':[{'role':'system','content':_0x20fd13(0x338)},{'role':_0x20fd13(0x238),'content':_0x2d76bb}],'temperature':parseFloat(window[_0x20fd13(0x340)][_0x20fd13(0x364)])||0.8})});if(!_0x152cfa['ok'])throw new Error(_0x20fd13(0x27f)+_0x152cfa[_0x20fd13(0x3b3)]);const _0x458bf4=await _0x152cfa['json']();let _0x4a4c42=_0x458bf4[_0x20fd13(0x1f2)]?.[0x0]?.['message']?.['content']||'';const _0x106e02=_0x4a1a71(_0x4a4c42),_0x3dcaa5=Array[_0x20fd13(0x3ae)](_0x106e02)?_0x106e02:Array['isArray'](_0x106e02['content'])?_0x106e02[_0x20fd13(0x272)]:[];if(!Array['isArray'](_0x3dcaa5)||_0x3dcaa5[_0x20fd13(0x3c6)]===0x0)throw new Error(_0x20fd13(0x3ca));const _0x386fcc=_0x3dcaa5[_0x20fd13(0x1ba)](0x0,0x5)['map'](_0x55ab50=>window[_0x20fd13(0x29d)](_0x55ab50));_0x386fcc[_0x20fd13(0x1ba)]()[_0x20fd13(0x3ba)]()[_0x20fd13(0x207)](_0x1fa4b1=>{const _0x42eb30=_0x20fd13;tkState[_0x42eb30(0x378)][_0x42eb30(0x296)](_0x1fa4b1);});const _0xb755dd=_0x386fcc[0x0]?.['id']||null;if(window[_0x20fd13(0x2ea)])window[_0x20fd13(0x2ea)]();window[_0x20fd13(0x381)]?window['tkShowLatestGeneratedVideo'](_0xb755dd):(window[_0x20fd13(0x2fd)](),requestAnimationFrame(()=>{const _0x37d9ea=_0x20fd13;if(_0x2b6cd1)_0x2b6cd1[_0x37d9ea(0x27a)]=0x0;})),window['showToast'](_0x20fd13(0x1ca));}catch(_0x49588c){console[_0x20fd13(0x3d4)](_0x20fd13(0x3c8),_0x49588c),window[_0x20fd13(0x216)](_0x20fd13(0x1d6));}},setTimeout(()=>{const _0x315c85=_0x5de278,_0x49cea2=document[_0x315c85(0x2e4)](_0x315c85(0x232));_0x49cea2&&(_0x49cea2['innerHTML']=_0x315c85(0x385),_0x49cea2[_0x315c85(0x38c)](_0x315c85(0x317),window[_0x315c85(0x33e)]));},0x64);const _0xe50f93=document['querySelectorAll'](_0x5de278(0x2fb));_0xe50f93[_0x5de278(0x207)](_0x1fcc48=>{const _0x5d85a7=_0x5de278;_0x1fcc48[_0x5d85a7(0x38c)](_0x5d85a7(0x317),()=>{const _0x197f6e=_0x5d85a7;_0xe50f93[_0x197f6e(0x207)](_0x341185=>_0x341185[_0x197f6e(0x2f7)][_0x197f6e(0x2ef)](_0x197f6e(0x270))),_0x1fcc48[_0x197f6e(0x2f7)][_0x197f6e(0x335)]('active');if(window[_0x197f6e(0x36d)])window[_0x197f6e(0x36d)]();window[_0x197f6e(0x2fd)]();});});async function _0x5205c9(){const _0x94e632=_0x5de278;if(!window[_0x94e632(0x340)]||!window['apiConfig'][_0x94e632(0x1c6)]||!window[_0x94e632(0x340)][_0x94e632(0x1cf)]){window[_0x94e632(0x216)](_0x94e632(0x226));return;}window[_0x94e632(0x216)](_0x94e632(0x254));let _0x4e512d=window[_0x94e632(0x3d7)]?window[_0x94e632(0x3d7)]('随机\x20TikTok\x20视频流')+'\x0a\x0a':'';if(window[_0x94e632(0x28c)]){const _0x34d619=window[_0x94e632(0x28c)](),_0x211889=_0x34d619[_0x94e632(0x1c3)](_0x39560b=>_0x39560b[_0x94e632(0x3ab)]);_0x211889['length']>0x0&&(_0x4e512d+=_0x94e632(0x221),_0x211889[_0x94e632(0x207)](_0x10f01c=>{const _0x2d5538=_0x94e632;_0x10f01c[_0x2d5538(0x1fd)][_0x2d5538(0x207)](_0x3fbaa8=>{_0x4e512d+='-\x20'+_0x3fbaa8['keyword']+':\x20'+_0x3fbaa8['content']+'\x0a';});}),_0x4e512d+='\x0a');}if(window[_0x94e632(0x292)]){const _0x36d1c1=window[_0x94e632(0x292)]()[_0x94e632(0x1c3)](_0x365ebb=>_0x365ebb['isGlobal']);_0x36d1c1[_0x94e632(0x3c6)]>0x0&&(_0x4e512d+=_0x94e632(0x2ed),_0x36d1c1[_0x94e632(0x207)](_0x3f0887=>{const _0x5a9f3d=_0x94e632;_0x3f0887[_0x5a9f3d(0x1fd)][_0x5a9f3d(0x207)](_0xd7bc30=>{const _0x27e87f=_0x5a9f3d;_0x4e512d+='-\x20'+_0xd7bc30['keyword']+':\x20'+_0xd7bc30[_0x27e87f(0x272)]+'\x0a';});}),_0x4e512d+='\x0a');}const _0x5eb44d=window[_0x94e632(0x3c0)]?window[_0x94e632(0x3c0)]({'includeUserIdentity':![],'purpose':_0x94e632(0x32f),'triggerText':'随机\x20TikTok\x20视频流'}):'',_0x2d1d12=_0x94e632(0x28f)+_0x4e512d+'\x0a'+_0x5eb44d+'\x0a';try{let _0x3d96d3=window[_0x94e632(0x340)][_0x94e632(0x1c6)];if(_0x3d96d3[_0x94e632(0x236)]('/'))_0x3d96d3=_0x3d96d3[_0x94e632(0x1ba)](0x0,-0x1);!_0x3d96d3[_0x94e632(0x236)](_0x94e632(0x3c1))&&(_0x3d96d3=_0x3d96d3['endsWith'](_0x94e632(0x34d))?_0x3d96d3+_0x94e632(0x3c1):_0x3d96d3+_0x94e632(0x360));const _0x814f6e=await fetch(_0x3d96d3,{'method':_0x94e632(0x26e),'headers':{'Content-Type':_0x94e632(0x306),'Authorization':_0x94e632(0x342)+window[_0x94e632(0x340)][_0x94e632(0x1cf)]},'body':JSON['stringify']({'model':window[_0x94e632(0x340)]['model']||_0x94e632(0x26f),'messages':[{'role':_0x94e632(0x2a4),'content':_0x94e632(0x393)},{'role':_0x94e632(0x238),'content':_0x2d1d12}],'temperature':parseFloat(window[_0x94e632(0x340)][_0x94e632(0x364)])||0.8})});if(!_0x814f6e['ok'])throw new Error('API\x20Error:\x20'+_0x814f6e[_0x94e632(0x3b3)]);const _0x47698f=await _0x814f6e[_0x94e632(0x33a)]();let _0x34e054=_0x47698f[_0x94e632(0x1f2)][0x0][_0x94e632(0x212)]['content'];const _0x47d6ea=_0x4a1a71(_0x34e054);if(Array[_0x94e632(0x3ae)](_0x47d6ea)){const _0x1d566c=_0x47d6ea[_0x94e632(0x1ba)](0x0,0x5)[_0x94e632(0x329)](_0x550917=>window['tkNormalizeVideoPayload'](_0x550917));_0x1d566c[_0x94e632(0x1ba)]()[_0x94e632(0x3ba)]()[_0x94e632(0x207)](_0x1de87b=>{tkState['videos']['unshift'](_0x1de87b);});const _0x3b1e20=_0x1d566c[0x0]?.['id']||null;if(window[_0x94e632(0x2ea)])window[_0x94e632(0x2ea)]();window[_0x94e632(0x381)]?window['tkShowLatestGeneratedVideo'](_0x3b1e20):window[_0x94e632(0x2fd)](),window[_0x94e632(0x216)](_0x94e632(0x2b3));}else throw new Error(_0x94e632(0x37f));}catch(_0x2f8175){console['error'](_0x94e632(0x1f1),_0x2f8175),window[_0x94e632(0x216)](_0x94e632(0x20b));}}}));function _0x5a6d(){const _0x28d4a2=['看完你的评论后，想确认你主页里是不是还有同样真实的内容。','messages','\x0a世界观与\x20user\x20扮演规则（适用于\x20','substring','profile','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-grid-views\x22\x20style=\x22color:\x20#fff;\x20text-shadow:\x20none;\x22><i\x20class=\x22fas\x20fa-play\x22></i>\x20','POST','gpt-3.5-turbo','active','fa-bookmark','content','Visitor\x20','triggerText','previousElementSibling','\x27,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-action-item\x20','AI\x20正在生成互动数据...','TikTok\x20内容生成','push','scrollTop','</span>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-translation\x22\x20id=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','一段有趣的日常视频','API\x20Error:\x20','reset-tk-video-bg-btn','clientHeight','currentShareVideoId','true','readAsDataURL','sceneSegments','tkFormatCount','scene','children','recommend',';\x20position:\x20absolute;\x20top:\x2045%;\x20transform:\x20translateY(-50%);\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','translation','getWorldBooks','flex','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-expand\x22\x20onclick=\x22window.tkToggleReplies(\x27','\x0a你现在是一个\x20TikTok\x20视频内容生成器。请根据挂载的世界书与\x20user\x20人设关键词触发信息，生成\x203-5\x20条\x20TikTok\x20视频数据。\x0a你可以是这个世界观中的任何非\x20user\x20账号；没有必要时不要提到\x20user，禁止扮演\x20user。\x0a要求：\x0a1.\x20整体风格符合世界观，仿真实tk网络视频，内容多样化，文案具有网感。\x0a2.\x20视频内容由\x20opening、middle、ending\x20三个气泡字段组成，必须以第三人称视角描述环境氛围、动作和语言；每个气泡不少于\x2040\x20个字符，建议\x2040-80\x20字。原文可以使用符合作者国籍、世界观和内容语境的任意语言。\x0a3.\x20务必为每个视频生成不少于\x2010\x20条相关评论，具有活人感与网感，可以玩梗。强烈建议在评论正文中加入艾特\x20(@好友名字)\x20增强真实感。\x0a4.\x20每条评论都必须带\x20`replies`\x20数组；每个视频的楼中楼\x20replies\x20总数不少于\x2010\x20条，可以分布在多条评论下。\x0a5.\x20国际化翻译规则：opening/middle/ending\x20如果不是中文，必须分别填写\x20openingTranslationZh/middleTranslationZh/endingTranslationZh；评论或\x20replies\x20的\x20text\x20如果不是中文，必须填写\x20translationZh；如果原文是中文，对应翻译字段必须是空字符串。\x0a6.\x20禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。\x0a7.\x20返回严格的\x20JSON\x20格式（不要有\x20markdown\x20代码块标记，不要多余文字），格式如下：\x0a[\x0a\x20\x20{\x0a\x20\x20\x20\x20\x22authorName\x22:\x20\x22用户昵称\x22,\x0a\x20\x20\x20\x20\x22handle\x22:\x20\x22user_id\x22,\x0a\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22desc\x22:\x20\x22视频文案（简短，带0-3个tag，活人感）\x22,\x0a\x20\x20\x20\x20\x22opening\x22:\x20\x22傍晚的咖啡馆里暖黄色灯光洒在桌面，镜头先扫过排队的人群，再停在窗边那个低头发呆的人身上。\x22,\x0a\x20\x20\x20\x20\x22openingTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22middle\x22:\x20\x22他围着棕色围巾一边搅拌拿铁一边叹气，说下班高峰堵到怀疑人生，旁边朋友忍不住笑出声。\x22,\x0a\x20\x20\x20\x20\x22middleTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22ending\x22:\x20\x22镜头最后切到窗外排队的车灯，他突然接到消息又站起来，评论区都在猜这通电话是谁打来的。\x22,\x0a\x20\x20\x20\x20\x22endingTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22likes\x22:\x201234,\x0a\x20\x20\x20\x20\x22commentsCount\x22:\x2020,\x0a\x20\x20\x20\x20\x22shares\x22:\x2012,\x0a\x20\x20\x20\x20\x22comments\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22评论者A\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22真的！@回复者B\x22,\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22likes\x22:\x2012,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22回复者B\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22我也觉得！\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22likes\x22:\x203\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a]\x0a\x0a最终输出前请自检：每条视频至少\x2010\x20条\x20comments，replies\x20总数至少\x2010\x20条，opening、middle、ending\x20每段都不少于\x2040\x20个字符；如果原文不是中文，对应\x20TranslationZh\x20字段必须给出中文翻译。\x0a\x0a','model','\x0a\x0a已关注好友：\x0a','getBuiltinWorldBooks','TikTok\x20profile\x20bio:\x20','tk-confirm-edit-video-btn','reply_user_','unshift','div','tkHandleProfileClick','mediaType','\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20justify-content:\x20center;\x20height:\x20100%;\x20width:\x20100%;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tkOpenShare','enabled','tkNormalizeVideoPayload','评论\x20(','background:\x20#ffffff;','未知用户','tkCreateFeedProgressHtml','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20tk-search-generate-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22>搜索生成视频</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20tk-search-generate-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-search-generate-box\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22tk-search-generate-input\x22\x20type=\x22text\x22\x20placeholder=\x22想看什么？留空随机生成\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22tk-search-generate-confirm\x22>生成</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x22\x20id=\x22tk-search-generate-cancel\x22>取消</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','tk-fs-video-desc','system','dms','boxShadow','authorId','findVideoGlobal','visitors','打开视频失败:\x20','querySelectorAll','用户回复的【目标评论】上下文：\x0a','follower_','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-feed-progress\x20tk-feed-progress-segments\x20tk-feed-progress-count-','tk-edit-video-bg-img','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-empty-feed\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-magic-btn-large\x22\x20id=\x22tk-api-generate-btn-empty\x22\x20onclick=\x22window.tkTriggerApiGenerate(event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>生成内容</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22color:\x20#999;\x20font-size:\x2013px;\x20margin-top:\x2010px;\x22>点击搜索生成\x20TikTok\x20视频流</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','visitor_','Enter','内容生成成功','isFinite','\x0a（注意：如果目标评论是楼主，请作为楼中楼互动；如果目标评论也是楼中楼，请延续他们的话题）','\x20条回复\x20<i\x20class=\x22fas\x20fa-chevron-down\x22\x20style=\x22font-size:10px;\x22></i>','cmt_','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-content\x22\x20style=\x22cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-name\x20tk-comment-profile-link\x22\x20data-author-id=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-bubble-flow-item\x22\x20style=\x22--tk-flow-index:','83013LvnMIb','scrollHeight','谢谢你的关注','<span\x20class=\x22tk-comment-mention\x22\x20style=\x22color:\x20#ff4b4b;\x20cursor:\x20pointer;\x22\x20onclick=\x22window.tkHandleMention(','\x22\x20data-author-name=\x22',',\x20名字:\x20','tk-share-save-icon','tkOpenCommentUserModal','关注了你','来自新粉丝','\x27,\x20this,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','imageUrl','API\x20Error','tkOpenChatView','avatarUrl','tk-share-friend-item','tiktok-view','&#39;','tkOpenFullscreenVideo','tk-edit-video-bg-upload','.tk-topbar-tab.active','已收藏','tk-fs-video-comment-btn','title','#tk-search-generate-confirm','看完你的评论后访问了主页','\x0a\x0a硬性要求：\x0a1.\x20返回严格\x20JSON\x20数组，数组长度\x202-5，不要\x20markdown，不要解释文字。\x0a2.\x20每条内容必须有\x20mediaType，值只能是\x20\x22video\x22\x20或\x20\x22image\x22；video\x20像真实短视频，image\x20像真实图片帖/随手拍/截图梗图。\x0a3.\x20每条内容必须有\x20opening、middle、ending\x20三段；每段不少于\x2040\x20个字符，建议\x2040-80\x20字，分别呈现开头、中间、结尾，适合在画面中央逐条气泡显示。原文可以使用符合作者国籍、世界观和内容语境的任意语言。\x0a4.\x20image\x20内容必须额外提供\x20imagePrompt，描述图片主体、构图、光线、质感；可选\x20bgImage、cover\x20或\x20imageUrl，如果没有真实\x20URL\x20就留空。\x0a5.\x20每条内容必须有不少于\x2010\x20条\x20comments。每条评论必须有\x20authorName、authorAvatar、text、likes、replies。\x0a6.\x20replies\x20必须保留为数组；每条视频的\x20replies\x20楼中楼回复总数不少于\x2010\x20条，可以分布在多条评论下；每条回复带\x20authorName、authorAvatar、text、likes。\x0a7.\x20desc\x20要像真实\x20TikTok\x20文案，可带\x200-3\x20个\x20tag。内容要有网感、活人感、镜头感，不要像新闻稿。\x0a8.\x20作者和评论头像可使用\x20https://picsum.photos/150/150?random=数字\x20或\x20https://api.dicebear.com/7.x/avataaars/svg?seed=名字。\x0a9.\x20国际化翻译规则：opening/middle/ending\x20如果不是中文，必须分别填写\x20openingTranslationZh/middleTranslationZh/endingTranslationZh；评论或\x20replies\x20的\x20text\x20如果不是中文，必须填写\x20translationZh；如果原文是中文，对应翻译字段必须是空字符串。\x0a10.\x20禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。\x0a\x0aJSON\x20示例：\x0a[\x0a\x20\x20{\x0a\x20\x20\x20\x20\x22mediaType\x22:\x20\x22image\x22,\x0a\x20\x20\x20\x20\x22authorName\x22:\x20\x22用户昵称\x22,\x0a\x20\x20\x20\x20\x22handle\x22:\x20\x22user_id\x22,\x0a\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://picsum.photos/150/150?random=101\x22,\x0a\x20\x20\x20\x20\x22desc\x22:\x20\x22刚刚发生的瞬间\x20#日常\x20#随手拍\x22,\x0a\x20\x20\x20\x20\x22imagePrompt\x22:\x20\x22夜晚便利店门口的暖光随手拍，玻璃反光里有人低头笑，手机纪实感\x22,\x0a\x20\x20\x20\x20\x22opening\x22:\x20\x22开头不少于40字，写环境、第一眼看到的动作和氛围，要像画面中央的长气泡文字。\x22,\x0a\x20\x20\x20\x20\x22openingTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22middle\x22:\x20\x22中间不少于40字，写人物反应、冲突或一句很真实的话，保持第三人称和镜头感。\x22,\x0a\x20\x20\x20\x20\x22middleTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22ending\x22:\x20\x22结尾不少于40字，写收束、反转、余味或下一秒发生什么，不要短于40字。\x22,\x0a\x20\x20\x20\x20\x22endingTranslationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22likes\x22:\x201234,\x0a\x20\x20\x20\x20\x22shares\x22:\x2012,\x0a\x20\x20\x20\x20\x22comments\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22评论者A\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=a\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22评论内容\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22likes\x22:\x2012,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorName\x22:\x20\x22回复者B\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22authorAvatar\x22:\x20\x22https://api.dicebear.com/7.x/avataaars/svg?seed=b\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22楼中楼回复\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22translationZh\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22likes\x22:\x203\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a]\x0a\x0a最终输出前请自检：\x0a-\x20顶层只能是\x20JSON\x20数组，或对象\x20{\x20\x22content\x22:\x20[...]\x20}。\x0a-\x20所有属性名必须是英文双引号。\x0a-\x20每条内容至少\x2010\x20条\x20comments，且\x20replies\x20总数至少\x2010\x20条。\x0a-\x20opening、middle、ending\x20每个字段都不少于\x2040\x20个字符；如果不是中文，对应\x20TranslationZh\x20字段必须给出中文翻译。\x0a-\x20不允许尾逗号、注释、markdown\x20代码块、解释文字、中文引号作为\x20JSON\x20引号。\x0a-\x20如果不确定图片\x20URL，请把\x20imageUrl/bgImage/cover\x20留空，不要编造不可访问链接。\x0a\x0a','className','thought','textContent','\x27,\x20event)\x22>回复</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20style=\x22margin-top:\x2010px;\x20display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','keyword','tk-hashtag-title','\x22>展开\x20','author','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-like\x20','#tk-fullscreen-video-view\x20.tk-action-item\x20i,\x20#tk-fullscreen-video-view\x20.tk-action-item\x20span','translationTarget','\x27,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-comment-dots\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','tkOpenMusic','#tk-fullscreen-video-view\x20.tk-avatar-action','querySelector','keydown','21XHDZbF','.tk-bottom-nav\x20.tk-nav-item[data-target=\x22tk-home-tab\x22]','tk-fs-video-share-btn','tkSaveChar','tkPersistState','createElement','isLiked','内置设定:\x0a','likedVideoIds','remove','tk-video-detail-sheet','center','insertBefore','transparent','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-music-disc\x22\x20onclick=\x22window.tkOpenMusic(event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-music\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tk-edit-video-bg-btn','tkToggleReplies','classList','\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','replies','Video\x20Interaction\x20Gen\x20Error:','.tk-topbar-tab','\x20条回复\x20<i\x20class=\x22fas\x20fa-chevron-down\x22\x20style=\x22font-size:10px;\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tkRenderHome','tk-hashtag-grid','posts','\x27,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-share\x22\x20style=\x22transform:\x20scaleX(-1);\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22share-count-','tk-feed-image-visual','正在随机生成内容...','tk-hashtag-view','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','user\x20发出评论后的楼中楼回复和主页访客','application/json','AI\x20正在生成视频互动...','tk_avatar_','indexOf','tiktok-image','edit','boundWorldBookIds','\x27,\x20event)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tkReplyToComment','some','\x0aCreator\x20identity\x20rule:\x0a','#tk-comment-input','You\x20are\x20a\x20JSON\x20generator.','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-grid-text\x22\x20style=\x22position:\x20relative;\x20left:\x200;\x20top:\x200;\x20transform:\x20none;\x20background:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-feed-visual\x20','tk-fs-video-back-btn','ending','click','cloneNode','#tk-fullscreen-video-view\x20.tk-music-disc','tkOpenCommentAuthorProfile','url(\x27','100%',';\x20color:\x20#ffffff;\x20padding:\x2020px\x2024px;\x20border-radius:\x2020px;\x20max-width:\x2085%;\x20margin:\x200\x20auto;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20text-align:\x20center;\x20font-size:\x2016px;\x20line-height:\x201.6;\x20word-break:\x20break-word;\x20font-weight:\x20500;\x20position:\x20relative;\x20z-index:\x202;\x20transform:\x20translateY(-5vh);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tk-fs-video-avatar-icon','likesSaves','replace','rgba(17,17,17,0.8)','评论已发送','tk-comments-list','charId','user_','已关注','tkResolveAvatar','newLikes','map','concat','\x27,\x20event)\x22>','sceneText','key','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#111111;\x20color:\x20#ffffff;\x20padding:\x2020px\x2024px;\x20border-radius:\x2020px;\x20max-width:\x2085%;\x20margin:\x200\x20auto;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20text-align:\x20center;\x20font-size:\x2016px;\x20line-height:\x201.6;\x20word-break:\x20break-word;\x20font-weight:\x20500;\x20position:\x20relative;\x20z-index:\x202;\x20transform:\x20translateY(-5vh);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20暂无内容\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','TikTok\x20首页随机内容流','width','position:\x20absolute;\x20top:\x2050%;\x20left:\x2050%;\x20transform:\x20translate(-50%,\x20-50%);\x20z-index:\x202;\x20width:\x20100%;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;','likes_','text','isAuto','add','<div\x20style=\x22text-align:center;\x20padding:\x2040px;\x20color:\x20#999;\x20font-size:\x2013px;\x22>暂无评论，快来抢沙发吧</div>','无法加载该视频','Return\x20strict\x20valid\x20JSON\x20only.\x20Use\x20double-quoted\x20property\x20names\x20and\x20string\x20values.\x20Do\x20not\x20include\x20markdown,\x20comments,\x20prose,\x20single-quoted\x20strings,\x20or\x20trailing\x20commas.','parentElement','json','tk-fs-video-progress','tk-comment-translation-','liked','tkOpenSearchGenerateSheet','<div\x20class=\x22tk-empty-feed\x22><p\x20style=\x22color:\x20#999;\x20font-size:\x2014px;\x22>暂无关注的内容，快去探索吧</p></div>','apiConfig','tkGetRandomAvatarUrl','Bearer\x20','replies-','middleTranslationZh','rgba(17,17,17,0.82)','<div\x20class=\x22tk-bubble-translation\x22>','toFixed','tkLazyLoadBound','background','boundClose','新粉丝','CSS','/v1','\x0a刚发布的视频内容或背景描述是：','commenter_','互动消息','string','video','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-bubble-flow\x22\x20style=\x22--tk-flow-total:','currentReplyTargetId','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-text\x22\x20onclick=\x22window.tkReplyToComment(\x27','round','span','floor','handle','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2011px;\x20color:\x20#555;\x20text-align:\x20center;\x20width:\x20100%;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','tk-grid-item','tk-fs-video-text-bubble','preventDefault','tk-fs-video-container','#tk-search-generate-cancel','/v1/chat/completions','tk-edit-single-video-sheet','name','tkGenerateCharVideos','temperature','从评论区被艾特的\x20','src','stringify','block','tk-fs-video-like-btn','currentCommentModalAuthorName','reduce','dataset','tkResetHomeFeedLimit','必要时才可提到的\x20user\x20身份（只作为上下文，不得扮演）：','.tk-video-card[data-video-id=\x22','comments','tk_avatar','onkeydown','shares','tk-fullscreen-video-view','tk-fs-video-comments','tk-fs-video-author','SPAN','videos','openingTranslationZh','tk-feed-container','\x0a\x0a世界书：\x0a','appendChild',',\x20event)\x22>@','settings','JSON\x20is\x20not\x20an\x20array','tkHandleFollow','tkShowLatestGeneratedVideo','min','mention_','imagePrompt','<i\x20class=\x22fas\x20fa-search\x22\x20style=\x22color:\x20#111;\x20cursor:\x20pointer;\x20font-size:\x2020px;\x22></i>','commentsMentions','User\x20','\x0a\x0aUser\x20context:\x0a','savedCount','fa-heart','chars','addEventListener','\x0a\x0a硬性规则：\x0a1.\x20只返回严格\x20JSON\x20对象，不要\x20markdown，不要解释，不要尾逗号。\x0a2.\x20必须包含\x20newFollowers、newLikes、newSaves、newComments、visitors\x20五个字段。\x0a3.\x20newFollowers\x20必须是\x202-5\x20个新粉丝对象；每个对象含\x20authorId、authorName、authorAvatar、handle，可选\x20persona/status。\x0a4.\x20newLikes\x20是点赞人数数字；newSaves\x20是收藏人数数字。\x0a5.\x20newComments\x20必须是\x202-5\x20条评论对象；每条含\x20authorId、authorName、authorAvatar、text、likes、replies。\x0a6.\x20评论可以自然\x20@\x20好友或路人；如果\x20@\x20引发对话，放进\x20replies\x20数组，replies\x20每条含\x20authorId、authorName、authorAvatar、text、likes。\x0a7.\x20禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。严禁扮演、冒充或使用\x20user/博主本人发评论、点赞、收藏、关注；所有互动者必须是路人、粉丝、已关注好友或新访客。\x0a8.\x20评论要有活人感、网感和上下文，不要像公告；如果用了已关注好友，authorId\x20必须填该好友\x20CharID。\x0a9.\x20评论里的\x20@\x20必须使用对方名字，不要使用账号、handle\x20或\x20id。\x0a10.\x20visitors\x20必须是\x201-3\x20个主页访客对象；每个对象含\x20authorName、authorAvatar、handle、thought，thought\x20是\x2020-35\x20个中文字符的心声。\x0a11.\x20国际化翻译规则：评论或\x20replies\x20的\x20text\x20如果不是中文，必须同时填写\x20translationZh，内容是自然中文翻译；如果\x20text\x20是中文，translationZh\x20必须是空字符串。\x0a\x0a视频：\x0a','parentNode','\x20是\x20TikTok\x20上刚关注\x20user\x20的粉丝。','.tk-fs-video-progress','target','isFollowed','You\x20are\x20a\x20helpful\x20JSON\x20data\x20generator.','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-action-plus\x20','#ffb300','contain','\x22>翻译</span>','object','#111111','tkOpenFullscreenVideo:\x20fsView\x20not\x20found','tkOpenComments','tk-music-view','已分享','tkOpenFullscreenVideo\x20DOM报错:','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-feed-progress\x20tk-feed-progress-video\x22\x20style=\x22--tk-progress-duration:9500ms;\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','人收藏了你的视频','12px','\x27,\x20event)\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#888;\x20margin-top:\x208px;\x20font-weight:\x20500;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22expand-text-','from','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-right-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-avatar-action\x22\x20onclick=\x22window.tkHandleProfileClick(\x27','commentId','tkGenerateVideoInteractions','\x27)\x20center/cover\x20no-repeat','opening','\x0a你是\x20TikTok\x20评论区和主页访客模拟器。请根据当前视频、用户刚发出的评论，以及可选楼主评论，生成真实、有网感、符合上下文的互动。\x0a\x0a','tkRenderChat','isGlobal','tkParseAiJson','cover','isArray','persona','bgColor','user\x20人设关键词触发文本（只用于世界书/语境触发，不代表内容必须围绕\x20user；除非主题明确需要，否则不要提到\x20user）：','max','status','2014185GEDQeG','已转发给\x20','saves','一个未知的\x20TikTok\x20用户','收起翻译','已删除','reverse','普通人','&quot;','contentType','focus','boundIds','tkBuildWorldActorPrompt','/chat/completions','刚刚关注了你','value','TikTok\x20profile\x20persona:\x20','<i\x20class=\x22fas\x20fa-user\x22></i>','length','includes','Search\x20Gen\x20Error:','firstElementChild','JSON\x20content\x20is\x20not\x20an\x20array','middle','random','#ffffff','tk-search-generate-sheet','_deleted_or_empty_avatar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20100%;\x20aspect-ratio:\x203/4;\x20background:\x20','当前触发文本：','expand-text-','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-comment-meta\x20tk-reply-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>刚刚</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20onclick=\x22window.tkReplyToComment(\x27','error','replaceChild','realName','tkBuildWorldBookContext','split','ceil','.tk-bottom-nav\x20.tk-nav-item[data-target=\x22tk-chat-tab\x22]','tkToggleCommentTranslation','\x22\x20onclick=\x22window.tkHandleFollow(\x27','tkRenderProfile','justifyContent','tk-share-list','purpose','slice','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','sceneSegmentTranslationsZh','视频片段','sort','find','收起\x20<i\x20class=\x22fas\x20fa-chevron-up\x22\x20style=\x22font-size:10px;\x22></i>','toLowerCase','endingTranslationZh','filter','startsWith','\x0a\x0a硬性规则：\x0a1.\x20只能返回严格\x20JSON，不要\x20markdown，不要解释文字，不要尾逗号，不要单引号。\x0a2.\x20JSON\x20顶层必须是对象，且只包含\x20\x22replies\x22\x20和\x20\x22visitors\x22\x20两个数组。\x0a3.\x20\x22replies\x22\x20必须生成\x202-5\x20条相关楼中楼评论；如果用户是在回复楼主，回复内容必须包含楼主评论语境。\x0a4.\x20\x22visitors\x22\x20必须生成\x202-5\x20条主页访客；每条访客必须有\x20authorName、authorAvatar、handle、thought。\x0a5.\x20thought\x20必须是\x2020-30\x20个中文字符，写清楚这个人为什么看\x20user\x20主页，像真实心声，不要像系统文案。\x0a6.\x20所有\x20key\x20必须使用英文双引号；所有数组和对象最后一项后面不能有逗号。\x0a7.\x20国际化翻译规则：每条\x20replies\x20的\x20text\x20如果不是中文，必须同时填写\x20translationZh，内容是自然中文翻译；如果\x20text\x20是中文，translationZh\x20必须是空字符串。\x0a8.\x20禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。\x0a\x0a视频上下文：\x0a','endpoint','escape','visualPrompt','has','已生成内容','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-bottom-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-video-author\x22>@','authorName','worldBookKeywordMatched','User','apiKey','start','scrollIntoView','评论互动已更新','type','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tkGenerateSearchVideos','生成失败，请检查\x20API\x20或返回格式','abs','tk-comments-title','parse','color','innerHTML','stopPropagation','newFollowers','tkOpenFullscreenVideo:\x20Video\x20not\x20found\x20for\x20id','closeView','tk-fs-video-cover','tkHandleMention','4796790GCbqxd','display','tkHandleLike',',\x20人设:\x20','6115880OXmiJz','User\x20persona:\x20','tk-comment-user-modal',';\x20--tk-progress-duration:','onload','openView','#ff4b4b','没有已关注好友。','互动数据生成完毕！','\x20·\x20','DOMContentLoaded','Gen\x20Error:','choices',';\x20color:#111;\x20display:flex;\x20flex-direction:column;\x20align-items:center;\x20justify-content:center;\x20text-align:center;\x20padding:\x208px;\x20width:\x20100%;\x20height:\x20100%;\x20box-sizing:\x20border-box;\x20border:\x20none;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','reply_','join','&gt;','\x22\x20style=\x22--tk-segment-count:','\x22\x20style=\x22cursor:pointer;\x22>','tk-fs-video-likes','placeholder','tagName','<span\x20class=\x22tk-comment-translate-btn\x22\x20data-translation-target=\x22','entries','commentsCount','function','none','resolveYtLinkedImChar','[分享了视频]','comment_activity_','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:13px;\x20color:#111;\x20line-height:1.4;\x20cursor:pointer;\x22\x20onclick=\x22window.tkReplyToComment(\x27','评论了你的视频：','https://picsum.photos/seed/','forEach','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-avatar-small\x22\x20style=\x22width:\x2048px;\x20height:\x2048px;\x22>','确定要彻底删除这个视频吗？','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','生成失败，请检查\x20API\x20配置或返回格式','tk-edit-video-scene-input','tk-music-grid','\x22\x20onclick=\x22window.tkToggleCommentLike(\x27','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-avatar-small\x20tk-comment-profile-link\x22\x20data-author-id=\x22','bound','message','boundActions','#replies-','videoId','showToast','followers','likes','-\x20CharID:\x20','\x27,\x20\x27','now','followed','triggerMode','This\x20video\x20was\x20posted\x20by\x20another\x20TikTok\x20creator.\x20Use\x20the\x20creator\x20context\x20below,\x20but\x20still\x20avoid\x20impersonating\x20the\x20current\x20user.','cssText',';\x22></span>','世界观背景设定:\x0a','...','tkTriggerApiGenerate','contains','\x22\x20style=\x22width:100%;\x20height:100%;\x20border-radius:50%;\x20object-fit:cover;\x22>','请在系统设置中配置\x20API','生成互动','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-item\x22\x20onclick=\x22window.tkHandleShareAction(\x27save\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-icon\x22><i\x20class=\x22fas\x20fa-bookmark\x22\x20id=\x22tk-share-save-icon\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>收藏</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-item\x22\x20onclick=\x22window.tkHandleShareAction(\x27edit\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-icon\x22><i\x20class=\x22fas\x20fa-pen\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>编辑</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-item\x22\x20onclick=\x22window.tkHandleShareAction(\x27delete\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-icon\x22\x20style=\x22color:\x20#ff3b30;\x22><i\x20class=\x22fas\x20fa-trash-alt\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20#ff3b30;\x22>删除</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-item\x22\x20onclick=\x22window.showToast(\x27链接已复制\x27);\x20window.closeView(document.getElementById(\x27tk-share-sheet\x27));\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-share-action-icon\x22><i\x20class=\x22fas\x20fa-link\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>复制链接</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','评论者','tk-comment-item','ms;\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','zhTranslation','style','image','<img\x20src=\x22','tkSaveProfileVisitors','\x0a你是\x20TikTok\x20For\x20You\x20内容流\x20JSON\x20生成器。根据用户想看的主题、世界书和\x20user\x20人设关键词触发信息，一次生成\x202-5\x20条完整\x20TikTok\x20内容，内容可以是短视频，也可以是图片帖。\x0a你可以是这个世界观里的任何非\x20user\x20创作者/路人/账号；只有主题确实需要时才提到\x20user，且永远不能扮演\x20user。\x0a\x0a用户主题：','.tk-home-topbar\x20.tk-topbar-right','展开\x20','生成互动失败，请检查\x20API','请先在系统设置中配置\x20API','endsWith','tkToggleCommentLike','user','values','1317366ngDolb','bgImage','\x22\x20onclick=\x22window.tkHandleLike(\x27','getElementById','tkGetChar','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:1;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:12px;\x20color:#888;\x20font-weight:500;\x20margin-bottom:2px;\x20cursor:pointer;\x22\x20class=\x22tk-reply-profile-link\x22\x20data-author-name=\x22','tk-fs-video-avatar','/900/1200','人点赞了你','trim','objectFit','AI\x20returned\x20empty\x20content','10px','tk-video-card','tkOpenHashtag','随机\x20TikTok\x20视频流','Return\x20strict\x20valid\x20JSON\x20only.\x20Use\x20double-quoted\x20keys\x20and\x20strings.\x20Do\x20not\x20use\x20markdown,\x20comments,\x20prose,\x20or\x20trailing\x20commas.','newComments','错误:\x20全屏视频容器未加载','isSaved','没有显式\x20user\x20人设；不要自行编造\x20user\x20身份。','avatar','userState','tk-api-generate-btn','\x0a博主(User)有以下几个已关注的好友（你可以安排他们中的1-2个来评论）：\x0a','activity','正在生成内容...','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getBuiltinWorldBookContext','bio','authorAvatar','2096212WnpgVS','用户发的是新的根评论，没有上下文。','gap','tk-comment-input','saves_','share-count-','desc','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22tk-video-desc\x22>','531614ztbwPn','tk-edit-video-desc-input','unknown','includeUserIdentity','translationZh','tkOpenSubProfile','.tk-share-actions-row'];_0x5a6d=function(){return _0x28d4a2;};return _0x5a6d();}
+// ==========================================
+// TIKTOK: 3. HOME TAB & VIDEO FEED
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    const feedContainer = document.getElementById('tk-feed-container');
+    const apiGenBtn = document.getElementById('tk-api-generate-btn');
+    let currentEditingVideoId = null;
+    const TK_HOME_INITIAL_RENDER_COUNT = 10;
+    const TK_HOME_LOAD_STEP = 5;
+    const TK_COMMENT_RENDER_LIMIT = 50;
+    let tkHomeVisibleLimit = TK_HOME_INITIAL_RENDER_COUNT;
+    let tkHomeRenderKey = '';
+    let tkHomeHasMoreVideos = false;
+    let tkHomeIsAppending = false;
+
+    function tkEscapeHtml(value) {
+        return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        }[char]));
+    }
+
+    function tkEscapeAttr(value) {
+        return tkEscapeHtml(value);
+    }
+
+    function tkCleanTranslation(value) {
+        return String(value || '').trim();
+    }
+
+    function tkGetSceneTranslation(video = {}, index = 0) {
+        const translations = Array.isArray(video.sceneSegmentTranslationsZh)
+            ? video.sceneSegmentTranslationsZh
+            : [];
+        const segmentTranslation = tkCleanTranslation(translations[index]);
+        if (segmentTranslation) return segmentTranslation;
+
+        const fieldNames = ['openingTranslationZh', 'middleTranslationZh', 'endingTranslationZh'];
+        const fieldTranslation = tkCleanTranslation(video[fieldNames[index]]);
+        if (fieldTranslation) return fieldTranslation;
+
+        return index === 0 ? tkCleanTranslation(video.translationZh) : '';
+    }
+
+    function tkCommentTranslationHtml(translation, id) {
+        const clean = tkCleanTranslation(translation);
+        if (!clean) return '';
+        return `
+            <div class="tk-comment-translation" id="${tkEscapeAttr(id)}" style="display:none;">
+                ${tkEscapeHtml(clean)}
+            </div>
+        `;
+    }
+
+    function tkSplitSceneText(text) {
+        const clean = String(text || '').trim();
+        if (!clean) return [];
+
+        const sentenceParts = clean
+            .split(/(?<=[。！？!?；;])\s*/)
+            .map(part => part.trim())
+            .filter(Boolean);
+
+        if (sentenceParts.length >= 2) return sentenceParts.slice(0, 5);
+
+        const targetSize = Math.max(30, Math.ceil(clean.length / 3));
+        const parts = [];
+        for (let i = 0; i < clean.length; i += targetSize) {
+            parts.push(clean.slice(i, i + targetSize).trim());
+        }
+        return parts.filter(Boolean).slice(0, 5);
+    }
+
+    function tkGetSceneSegments(video = {}) {
+        const rawSegments = Array.isArray(video.sceneSegments)
+            ? video.sceneSegments
+            : [video.opening, video.middle, video.ending].filter(Boolean);
+        const segments = rawSegments.map(part => String(part || '').trim()).filter(Boolean);
+        if (segments.length) return segments.slice(0, 5);
+        return tkSplitSceneText(video.sceneText);
+    }
+
+    function tkGetSceneText(video = {}) {
+        const segments = tkGetSceneSegments(video);
+        return segments.length ? segments.join(' ') : String(video.sceneText || '').trim();
+    }
+
+    window.tkFormatCount = function(value) {
+        const num = Number(value);
+        if (!Number.isFinite(num)) return '0';
+        const abs = Math.abs(num);
+        if (abs >= 1000000) {
+            const formatted = (num / 1000000).toFixed(abs >= 10000000 ? 0 : 1).replace(/\.0$/, '');
+            return `${formatted}M`;
+        }
+        if (abs >= 1000) {
+            const formatted = (num / 1000).toFixed(abs >= 10000 ? 0 : 1).replace(/\.0$/, '');
+            return `${formatted}K`;
+        }
+        return String(Math.round(num));
+    };
+
+    window.tkGetRandomAvatarUrl = function(seed = '') {
+        const rawSeed = String(seed || `tk_avatar_${Math.floor(Math.random() * 1000000)}`).trim() || 'tk_avatar';
+        return `https://picsum.photos/seed/${encodeURIComponent(rawSeed)}/150/150`;
+    };
+
+    window.tkResolveAvatar = function(id, name, originalAvatar) {
+        const stableSeed = id || name || `tk_avatar_${Math.floor(Math.random() * 1000000)}`;
+        const tkChar = id && window.tkGetChar ? window.tkGetChar(id) : null;
+
+        // 角色存在但头像为空/删除时，统一使用随机图片，避免继续沿用旧视频/旧评论头像或人形图标。
+        if (tkChar) {
+            if (tkChar.avatar) return tkChar.avatar;
+            return window.tkGetRandomAvatarUrl(`${tkChar.id || id || name}_deleted_or_empty_avatar`);
+        }
+
+        if (originalAvatar) return originalAvatar;
+
+        if (window.resolveYtLinkedImChar) {
+            const imChar = window.resolveYtLinkedImChar({
+                id,
+                imCharId: id,
+                handle: id,
+                name
+            });
+            if (imChar && imChar.avatarUrl) return imChar.avatarUrl;
+        }
+
+        return window.tkGetRandomAvatarUrl(stableSeed);
+    };
+
+    function tkStableImageUrl(video = {}) {
+        const existing = video.imageUrl || video.cover || video.bgImage;
+        if (existing) return existing;
+        const seed = encodeURIComponent(video.imagePrompt || video.desc || video.authorName || video.id || 'tiktok-image');
+        return `https://picsum.photos/seed/${seed}/900/1200`;
+    }
+
+    function tkGetMediaType(video = {}) {
+        if (video.mediaType === 'image') return 'image';
+        if (video.mediaType === 'video') return 'video';
+        const hasSegments = tkGetSceneSegments(video).length > 0 || Boolean(video.sceneText);
+        if ((video.imageUrl || video.imagePrompt || video.contentType === 'image') || ((video.cover || video.bgImage) && !hasSegments)) {
+            return 'image';
+        }
+        return 'video';
+    }
+
+    function tkCreateFeedProgressHtml(video = {}) {
+        if (tkGetMediaType(video) === 'image') {
+            const count = Math.max(2, Math.min(5, tkGetSceneSegments(video).length || 3));
+            const duration = Math.max(9000, count * 3200);
+            return `
+                <div class="tk-feed-progress tk-feed-progress-segments tk-feed-progress-count-${count}" style="--tk-segment-count:${count}; --tk-progress-duration:${duration}ms;" aria-hidden="true">
+                    ${Array.from({ length: count }).map((_, index) => `<span style="--tk-segment-index:${index};"></span>`).join('')}
+                </div>
+            `;
+        }
+        return `
+            <div class="tk-feed-progress tk-feed-progress-video" style="--tk-progress-duration:9500ms;" aria-hidden="true">
+                <span></span>
+            </div>
+        `;
+    }
+
+    window.tkCreateFeedProgressHtml = tkCreateFeedProgressHtml;
+
+    window.tkHandleMention = function(name, e) {
+        if(e) e.stopPropagation();
+        let char = tkState.chars.find(c => c.name === name || c.handle === name);
+        if (!char) {
+            let imChar = null;
+            if (window.resolveYtLinkedImChar) {
+                imChar = window.resolveYtLinkedImChar({name: name});
+            }
+            const newId = 'mention_' + Date.now();
+            window.tkSaveChar({
+                id: newId,
+                name: name,
+                handle: name.toLowerCase().replace(/\s+/g, ''),
+                avatar: imChar ? imChar.avatarUrl : window.tkResolveAvatar(newId, name),
+                status: '',
+                persona: `从评论区被艾特的 ${name}`,
+                isFollowed: false
+            });
+            char = window.tkGetChar(newId);
+        }
+        if (char && window.tkOpenSubProfile) {
+            const detailSheet = document.getElementById('tk-video-detail-sheet');
+            if (detailSheet) window.closeView(detailSheet);
+            window.tkOpenSubProfile(char.id);
+        }
+    };
+
+    function tkResolveMentionDisplayName(rawName) {
+        const normalized = String(rawName || '').replace(/^@/, '').trim();
+        if (!normalized) return rawName;
+        const lower = normalized.toLowerCase();
+        const char = tkState.chars.find(c => {
+            return String(c.name || '').toLowerCase() === lower
+                || String(c.handle || '').toLowerCase() === lower
+                || String(c.id || '').toLowerCase() === lower;
+        });
+        return char ? (char.name || char.handle || normalized) : normalized;
+    }
+
+    function renderCommentText(text) {
+        if (!text) return '';
+        const safeText = tkEscapeHtml(text);
+        return safeText.replace(/@([^\s，。！？]+)/g, (match, rawName) => {
+            const displayName = tkResolveMentionDisplayName(rawName);
+            return `<span class="tk-comment-mention" style="color: #ff4b4b; cursor: pointer;" onclick="window.tkHandleMention(${tkEscapeAttr(JSON.stringify(rawName))}, event)">@${tkEscapeHtml(displayName)}</span>`;
+        });
+    }
+
+    function tkCreateBubbleFlowHtml(video = {}, options = {}) {
+        const segments = tkGetSceneSegments(video);
+        if (!segments.length) return '';
+        const bubbleBg = options.background || ((video.cover || video.bgImage) ? 'rgba(17,17,17,0.82)' : '#111111');
+        const total = Math.max(segments.length * 3.4, 6);
+
+        return `
+            <div class="tk-bubble-flow" style="--tk-flow-total:${total}s;">
+                ${segments.map((segment, index) => `
+                    <div class="tk-bubble-flow-item" style="--tk-flow-index:${index}; --tk-flow-bg:${bubbleBg};">
+                        <div>${tkEscapeHtml(segment)}</div>
+                        ${tkGetSceneTranslation(video, index) ? `<div class="tk-bubble-translation">${tkEscapeHtml(tkGetSceneTranslation(video, index))}</div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function tkNormalizeComments(comments = []) {
+        const safeComments = Array.isArray(comments) ? comments.slice(0, TK_COMMENT_RENDER_LIMIT) : [];
+        return safeComments.map((comment, index) => ({
+            id: comment.id || `cmt_${Date.now()}_${index}_${Math.floor(Math.random() * 1000)}`,
+            authorId: comment.authorId || `commenter_${Date.now()}_${index}_${Math.floor(Math.random() * 1000)}`,
+            authorName: comment.authorName || 'User',
+            authorAvatar: comment.authorAvatar || '',
+            text: comment.text || '',
+            translationZh: tkCleanTranslation(comment.translationZh || comment.translation || comment.zhTranslation),
+            likes: Number.isFinite(Number(comment.likes)) ? Number(comment.likes) : 0,
+            isLiked: Boolean(comment.isLiked),
+            replies: Array.isArray(comment.replies) ? comment.replies.slice(0, TK_COMMENT_RENDER_LIMIT).map((reply, replyIndex) => ({
+                id: reply.id || `reply_${Date.now()}_${index}_${replyIndex}_${Math.floor(Math.random() * 1000)}`,
+                authorId: reply.authorId || `reply_user_${Date.now()}_${index}_${replyIndex}_${Math.floor(Math.random() * 1000)}`,
+                authorName: reply.authorName || 'User',
+                authorAvatar: reply.authorAvatar || '',
+                text: reply.text || '',
+                translationZh: tkCleanTranslation(reply.translationZh || reply.translation || reply.zhTranslation),
+                likes: Number.isFinite(Number(reply.likes)) ? Number(reply.likes) : 0
+            })) : []
+        })).filter(comment => comment.text);
+    }
+
+    window.tkNormalizeVideoPayload = function(payload = {}, overrides = {}) {
+        const segments = Array.isArray(payload.sceneSegments)
+            ? payload.sceneSegments
+            : [payload.opening, payload.middle, payload.ending].filter(Boolean);
+        const sceneSegments = segments.map(part => String(part || '').trim()).filter(Boolean).slice(0, 5);
+        const rawSegmentTranslations = Array.isArray(payload.sceneSegmentTranslationsZh)
+            ? payload.sceneSegmentTranslationsZh
+            : [payload.openingTranslationZh, payload.middleTranslationZh, payload.endingTranslationZh];
+        const sceneSegmentTranslationsZh = sceneSegments.map((_, index) => tkCleanTranslation(rawSegmentTranslations[index]));
+        const sceneText = payload.sceneText || sceneSegments.join(' ');
+        const comments = tkNormalizeComments(payload.comments);
+        const inferredMediaType = payload.mediaType === 'image' || payload.contentType === 'image' || payload.imageUrl || payload.imagePrompt || ((payload.cover || payload.bgImage) && !sceneText)
+            ? 'image'
+            : 'video';
+        const mediaType = overrides.mediaType || (payload.mediaType === 'video' ? 'video' : inferredMediaType);
+        const imagePrompt = payload.imagePrompt || payload.visualPrompt || '';
+        const fallbackImage = (mediaType === 'image' || imagePrompt)
+            ? `https://picsum.photos/seed/${encodeURIComponent(imagePrompt || payload.desc || payload.authorName || payload.id || Date.now())}/900/1200`
+            : null;
+
+        return {
+            id: overrides.id || payload.id || `v_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
+            authorId: overrides.authorId || payload.authorId || payload.handle || `user_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
+            authorName: overrides.authorName || payload.authorName || 'User',
+            authorAvatar: overrides.authorAvatar ?? payload.authorAvatar ?? null,
+            mediaType,
+            imagePrompt,
+            imageUrl: payload.imageUrl || null,
+            desc: payload.desc || '',
+            opening: payload.opening || sceneSegments[0] || '',
+            middle: payload.middle || sceneSegments[1] || '',
+            ending: payload.ending || sceneSegments[2] || '',
+            translationZh: tkCleanTranslation(payload.translationZh || payload.sceneTextTranslationZh || payload.translation),
+            openingTranslationZh: tkCleanTranslation(payload.openingTranslationZh || sceneSegmentTranslationsZh[0]),
+            middleTranslationZh: tkCleanTranslation(payload.middleTranslationZh || sceneSegmentTranslationsZh[1]),
+            endingTranslationZh: tkCleanTranslation(payload.endingTranslationZh || sceneSegmentTranslationsZh[2]),
+            sceneSegments,
+            sceneSegmentTranslationsZh,
+            sceneText,
+            likes: Number.isFinite(Number(payload.likes)) ? Number(payload.likes) : Math.floor(Math.random() * 1000),
+            commentsCount: tkCountVideoComments({ comments }),
+            shares: Number.isFinite(Number(payload.shares)) ? Number(payload.shares) : Math.floor(Math.random() * 100),
+            isLiked: Boolean(payload.isLiked),
+            comments,
+            cover: payload.cover || fallbackImage,
+            bgImage: payload.bgImage || null,
+            bgColor: payload.bgColor || null,
+            ...overrides
+        };
+    };
+
+    window.tkBuildWorldBookContext = function(contextText = '', options = {}) {
+        const chunks = [];
+        const normalizeEntry = window.normalizeWorldBookEntry || ((entry) => entry);
+        const formatEntry = window.formatWorldBookEntryForPrompt || ((entry) => {
+            const title = entry.title || entry.keyword || 'World Book Entry';
+            return `【${title}】\n${entry.content || ''}`.trim();
+        });
+        const keywordMatched = window.worldBookKeywordMatched || ((entry, text) => {
+            if (!entry || entry.triggerMode !== 'keyword') return true;
+            const keyword = String(entry.keyword || '').trim();
+            return keyword ? String(text || '').includes(keyword) : false;
+        });
+
+        const explicitBoundIds = Array.isArray(options.boundIds) ? options.boundIds : [];
+        const tkBoundIds = Array.isArray(tkState.settings?.boundWorldBookIds)
+            ? tkState.settings.boundWorldBookIds
+            : [];
+        const boundIdSet = new Set([...explicitBoundIds, ...tkBoundIds]
+            .filter(Boolean)
+            .map(id => String(id)));
+
+        if (window.getWorldBooks) {
+            const books = window.getWorldBooks()
+                .filter(book => book && (book.isGlobal || boundIdSet.has(String(book.id))));
+            const entries = [];
+            books.forEach(book => {
+                (Array.isArray(book.entries) ? book.entries : []).forEach(entry => {
+                    const normalized = normalizeEntry(entry);
+                    if (normalized && normalized.enabled !== false && keywordMatched(normalized, contextText)) {
+                        entries.push(normalized);
+                    }
+                });
+            });
+            if (entries.length) {
+                chunks.push(`User World Book:\n${entries.map(formatEntry).join('\n\n')}`);
+            }
+        }
+
+        if (window.getBuiltinWorldBookContext) {
+            const builtin = window.getBuiltinWorldBookContext(null, contextText);
+            if (builtin) chunks.push(builtin);
+        }
+
+        return chunks.join('\n\n').trim();
+    };
+
+    window.tkBuildWorldActorPrompt = function(options = {}) {
+        const includeUserIdentity = Boolean(options.includeUserIdentity);
+        const purpose = options.purpose || 'TikTok 内容生成';
+        const triggerText = String(options.triggerText || '').trim();
+        const userProfile = {
+            name: tkState.profile?.name || window.userState?.name || '',
+            handle: tkState.profile?.handle || '',
+            tiktokPersona: tkState.profile?.persona || '',
+            tiktokBio: tkState.profile?.bio || '',
+            basePersona: window.userState?.persona || ''
+        };
+        const hasUserPersona = Object.values(userProfile).some(Boolean);
+        const userBlock = hasUserPersona
+            ? (includeUserIdentity
+                ? `必要时才可提到的 user 身份（只作为上下文，不得扮演）：${JSON.stringify(userProfile, null, 2)}`
+                : `user 人设关键词触发文本（只用于世界书/语境触发，不代表内容必须围绕 user；除非主题明确需要，否则不要提到 user）：${JSON.stringify(userProfile, null, 2)}`)
+            : '没有显式 user 人设；不要自行编造 user 身份。';
+
+        return `
+世界观与 user 扮演规则（适用于 ${purpose}）：
+- 你是这个世界观中的任何一个非 user 的真实账号/路人/粉丝/创作者/评论者，而不是旁白机器。
+- 可以使用世界书、主题、角色人设和 user 人设关键词触发世界观信息，但不要强行让所有内容围绕 user。
+- 只有当主题、评论语境或世界书明确需要提到 user 时，才把 user 当作被提及对象；否则不要提到 user。
+- 即使必须提到 user，也只能从外部视角提及，禁止用第一人称替 user 说话，禁止让 user 发视频、发评论、点赞、关注或回复。
+- 所有作者、评论者、回复者、访客和互动者都必须是 user 以外的人。
+${triggerText ? `当前触发文本：${triggerText}` : ''}
+${userBlock}
+`.trim();
+    };
+
+    function tkResolveApiEndpoint() {
+        let endpoint = window.apiConfig.endpoint;
+        if (endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+        if (!endpoint.endsWith('/chat/completions')) {
+            endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+        }
+        return endpoint;
+    }
+
+    function tkParseAiJson(rawText) {
+        const raw = String(rawText || '')
+            .replace(/```json/gi, '')
+            .replace(/```/g, '')
+            .trim();
+        if (!raw) throw new Error('AI returned empty content');
+
+        try {
+            return JSON.parse(raw);
+        } catch (firstError) {
+            const arrayStart = raw.indexOf('[');
+            const objectStart = raw.indexOf('{');
+            const starts = [arrayStart, objectStart].filter(index => index >= 0);
+            if (!starts.length) throw firstError;
+
+            const start = Math.min(...starts);
+            const endChar = raw[start] === '[' ? ']' : '}';
+            const end = raw.lastIndexOf(endChar);
+            if (end <= start) throw firstError;
+
+            const extracted = raw.slice(start, end + 1)
+                .replace(/,\s*([}\]])/g, '$1')
+                .trim();
+            return JSON.parse(extracted);
+        }
+    }
+
+    window.tkParseAiJson = tkParseAiJson;
+
+    function tkSlugText(value) {
+        return String(value || 'user')
+            .trim()
+            .toLowerCase()
+            .replace(/\s+/g, '_')
+            .replace(/[^\w\u4e00-\u9fa5-]/g, '')
+            .slice(0, 40) || 'user';
+    }
+
+    function tkCountVideoComments(video) {
+        if (!video || !Array.isArray(video.comments)) return 0;
+        return video.comments.reduce((total, comment) => {
+            return total + 1 + (Array.isArray(comment.replies) ? comment.replies.length : 0);
+        }, 0);
+    }
+
+    function tkNormalizeGeneratedReply(reply = {}, index = 0) {
+        const name = reply.authorName || reply.name || `User ${index + 1}`;
+        const id = reply.authorId || reply.id || `reply_${tkSlugText(name)}_${Date.now()}_${index}`;
+        const avatar = window.tkResolveAvatar(id, name, reply.authorAvatar || reply.avatar || '');
+        return {
+            id: reply.id || `reply_${Date.now()}_${index}_${Math.floor(Math.random() * 1000)}`,
+            authorId: id,
+            authorName: name,
+            authorAvatar: avatar,
+            text: String(reply.text || reply.content || '').trim(),
+            translationZh: tkCleanTranslation(reply.translationZh || reply.translation || reply.zhTranslation),
+            likes: Number.isFinite(Number(reply.likes)) ? Number(reply.likes) : Math.floor(Math.random() * 80)
+        };
+    }
+
+    window.tkSaveProfileVisitors = function(visitors = [], source = {}) {
+        if (!tkState.profile || typeof tkState.profile !== 'object') tkState.profile = {};
+        const existing = Array.isArray(tkState.profile.visitors) ? tkState.profile.visitors : [];
+        const nextVisitors = [];
+        const seenNew = new Set();
+
+        visitors.slice(0, 5).forEach((visitor, index) => {
+            const name = visitor.authorName || visitor.name || `Visitor ${index + 1}`;
+            const handle = visitor.handle || tkSlugText(name);
+            const id = visitor.authorId || visitor.id || `visitor_${handle}_${Date.now()}_${index}`;
+            const thought = String(visitor.thought || visitor.reason || visitor.text || '').trim().slice(0, 30);
+            const key = String(handle || id || name).toLowerCase();
+            if (!name || seenNew.has(key)) return;
+            seenNew.add(key);
+            nextVisitors.push({
+                id,
+                name,
+                handle,
+                avatar: window.tkResolveAvatar(id, name, visitor.authorAvatar || visitor.avatar || ''),
+                thought: thought || '看完你的评论后，想确认你主页里是不是还有同样真实的内容。',
+                reason: thought || '看完你的评论后访问了主页',
+                sourceVideoId: source.videoId || '',
+                sourceCommentId: source.commentId || '',
+                createdAt: Date.now() - index
+            });
+        });
+
+        const seenAll = new Set(nextVisitors.map(visitor => String(visitor.handle || visitor.id || visitor.name).toLowerCase()));
+        tkState.profile.visitors = nextVisitors
+            .concat(existing.filter(visitor => {
+                const key = String(visitor.handle || visitor.id || visitor.name).toLowerCase();
+                if (seenAll.has(key)) return false;
+                seenAll.add(key);
+                return true;
+            }))
+            .slice(0, 50);
+    };
+
+    function tkInteractionSlug(value, fallback = 'user') {
+        const slug = tkSlugText(value || fallback);
+        return slug || fallback;
+    }
+
+    function tkEnsureFollowerChar(follower = {}, index = 0) {
+        const name = String(follower.authorName || follower.name || `新粉丝${index + 1}`).trim();
+        const handle = tkInteractionSlug(follower.handle || follower.authorId || follower.id || name, `follower_${index + 1}`);
+        const id = String(follower.authorId || follower.id || `follower_${handle}`);
+        let char = window.tkGetChar ? window.tkGetChar(id) : null;
+        const avatar = window.tkResolveAvatar
+            ? window.tkResolveAvatar(id, name, follower.authorAvatar || follower.avatar || '')
+            : (follower.authorAvatar || follower.avatar || '');
+
+        if (!char && window.tkSaveChar) {
+            window.tkSaveChar({
+                id,
+                name,
+                handle,
+                avatar,
+                status: follower.status || '刚刚关注了你',
+                persona: follower.persona || `${name} 是 TikTok 上刚关注 user 的粉丝。`,
+                bio: follower.bio || '来自新粉丝',
+                isFollowed: false,
+                isFollower: true
+            });
+            char = window.tkGetChar ? window.tkGetChar(id) : null;
+        } else if (char) {
+            char.isFollower = true;
+            if (!char.name && name) char.name = name;
+            if (!char.handle && handle) char.handle = handle;
+            if (!char.avatar && avatar) char.avatar = avatar;
+        }
+
+        return char;
+    }
+
+    function tkNormalizeGeneratedComment(comment = {}, index = 0) {
+        const name = comment.authorName || comment.name || `User ${index + 1}`;
+        const authorId = comment.authorId || comment.id || `commenter_${tkInteractionSlug(name)}_${Date.now()}_${index}`;
+        const avatar = window.tkResolveAvatar(authorId, name, comment.authorAvatar || comment.avatar || '');
+        return {
+            id: comment.id || `cmt_${Date.now()}_${index}_${Math.floor(Math.random() * 1000)}`,
+            authorId,
+            authorName: name,
+            authorAvatar: avatar,
+            text: String(comment.text || comment.content || '').trim(),
+            translationZh: tkCleanTranslation(comment.translationZh || comment.translation || comment.zhTranslation),
+            likes: Number.isFinite(Number(comment.likes)) ? Number(comment.likes) : Math.floor(Math.random() * 50),
+            replies: Array.isArray(comment.replies)
+                ? comment.replies.map((reply, replyIndex) => tkNormalizeGeneratedReply(reply, replyIndex)).filter(reply => reply.text)
+            : []
+        };
+    }
+
+    function tkIsUserGeneratedActor(entry = {}) {
+        const ids = ['user', 'profile', tkState.profile?.id, window.userState?.id]
+            .filter(Boolean)
+            .map(value => String(value).toLowerCase());
+        const names = [tkState.profile?.name, window.userState?.name, tkState.profile?.handle, window.userState?.realName]
+            .filter(Boolean)
+            .map(value => String(value).trim().toLowerCase());
+        const entryId = String(entry.authorId || entry.id || '').toLowerCase();
+        const entryName = String(entry.authorName || entry.name || '').trim().toLowerCase();
+        return (entryId && ids.includes(entryId)) || (entryName && names.includes(entryName));
+    }
+
+    function tkRecordVideoActivity({ followers = 0, followerEntries = [], likes = 0, saves = 0, comments = 0, commentEntries = [], video = null } = {}) {
+        tkState.activity = {
+            newFollowers: tkState.activity?.newFollowers || '暂无新粉丝',
+            likesSaves: tkState.activity?.likesSaves || '互动消息',
+            commentsMentions: tkState.activity?.commentsMentions || '互动消息',
+            followers: Array.isArray(tkState.activity?.followers) ? tkState.activity.followers : [],
+            likes: Array.isArray(tkState.activity?.likes) ? tkState.activity.likes : [],
+            saves: Array.isArray(tkState.activity?.saves) ? tkState.activity.saves : [],
+            comments: Array.isArray(tkState.activity?.comments) ? tkState.activity.comments : []
+        };
+
+        if (followers > 0) tkState.activity.newFollowers = `${followers}人关注了你`;
+        if (Array.isArray(followerEntries) && followerEntries.length) {
+            const followerItems = followerEntries.map((entry, index) => ({
+                id: entry.id || entry.authorId || `follower_activity_${Date.now()}_${index}`,
+                name: entry.name || entry.authorName || `新粉丝${index + 1}`,
+                avatar: entry.avatar || entry.authorAvatar || '',
+                text: '关注了你',
+                createdAt: Date.now() - index
+            }));
+            tkState.activity.followers = followerItems.concat(tkState.activity.followers).slice(0, 50);
+        }
+
+        const likeSaveParts = [];
+        if (likes > 0) likeSaveParts.push(`${likes}人点赞了你`);
+        if (saves > 0) likeSaveParts.push(`${saves}人收藏了你的视频`);
+        if (likeSaveParts.length) tkState.activity.likesSaves = likeSaveParts.join(' · ');
+        if (likes > 0) {
+            tkState.activity.likes = [{
+                id: `likes_${video?.id || 'video'}_${Date.now()}`,
+                icon: 'fa-heart',
+                title: '点赞',
+                text: `${likes}人点赞了你`,
+                videoId: video?.id || '',
+                createdAt: Date.now()
+            }].concat(tkState.activity.likes).slice(0, 50);
+        }
+        if (saves > 0) {
+            tkState.activity.saves = [{
+                id: `saves_${video?.id || 'video'}_${Date.now()}`,
+                icon: 'fa-bookmark',
+                title: '收藏',
+                text: `${saves}人收藏了你的视频`,
+                videoId: video?.id || '',
+                createdAt: Date.now()
+            }].concat(tkState.activity.saves).slice(0, 50);
+        }
+
+        if (comments > 0) tkState.activity.commentsMentions = `${comments}人评论了你的视频`;
+        if (Array.isArray(commentEntries) && commentEntries.length) {
+            const commentItems = commentEntries.map((entry, index) => ({
+                id: entry.id || `comment_activity_${Date.now()}_${index}`,
+                name: entry.authorName || entry.name || '评论者',
+                avatar: entry.authorAvatar || entry.avatar || '',
+                text: `评论了你的视频：${entry.text || ''}`,
+                videoId: video?.id || '',
+                commentId: entry.id || '',
+                createdAt: Date.now() - index
+            }));
+            tkState.activity.comments = commentItems.concat(tkState.activity.comments).slice(0, 50);
+        }
+    }
+
+    window.tkGenerateVideoInteractions = async function(videoId, options = {}) {
+        const found = window.findVideoGlobal ? window.findVideoGlobal(videoId) : {};
+        const video = found.video;
+        const author = found.author || tkState.profile || {};
+        const isAuto = Boolean(options.isAuto);
+        if (!video) return;
+
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            if (window.showToast) window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+
+        if (window.showToast) window.showToast(isAuto ? 'AI 正在生成视频互动...' : 'AI 正在生成互动数据...');
+
+        const followedChars = (tkState.chars || []).filter(c => c.isFollowed).slice(0, 6);
+        const followedCharsContext = followedChars.length
+            ? followedChars.map(c => `- CharID: ${c.id}, 名字: ${c.name || c.handle}, 人设: ${c.persona || ''}`).join('\n')
+            : '没有已关注好友。';
+        const isUserPost = String(video.authorId || '') === 'profile'
+            || String(author.id || '') === 'profile'
+            || (tkState.profile?.handle && String(author.handle || '') === String(tkState.profile.handle));
+        const userTikTokProfileContext = {
+            name: tkState.profile?.name || window.userState?.name || 'User',
+            handle: tkState.profile?.handle || 'user',
+            persona: tkState.profile?.persona || window.userState?.persona || '',
+            bio: tkState.profile?.bio || '',
+            basePersona: window.userState?.persona || ''
+        };
+        const effectiveAuthorContext = isUserPost ? userTikTokProfileContext : {
+            name: author.name || tkState.profile?.name || 'User',
+            handle: author.handle || 'user',
+            persona: author.persona || tkState.profile?.persona || window.userState?.persona || '',
+            bio: author.bio || tkState.profile?.bio || '',
+            basePersona: window.userState?.persona || ''
+        };
+        const contextText = [
+            video.desc || '',
+            video.sceneText || '',
+            Array.isArray(video.sceneSegments) ? video.sceneSegments.join('\n') : '',
+            effectiveAuthorContext.persona || '',
+            effectiveAuthorContext.bio || '',
+            effectiveAuthorContext.name || '',
+            effectiveAuthorContext.handle || '',
+            window.userState?.persona || ''
+        ].filter(Boolean).join('\n');
+        const wbContext = window.tkBuildWorldBookContext ? window.tkBuildWorldBookContext(contextText) : '';
+        const worldActorPrompt = window.tkBuildWorldActorPrompt
+            ? window.tkBuildWorldActorPrompt({
+                includeUserIdentity: isUserPost,
+                purpose: '视频发布后的评论、关注、点赞、收藏和主页访客互动',
+                triggerText: contextText
+            })
+            : '';
+
+        const prompt = `
+Creator identity rule:
+${isUserPost
+    ? 'This video was posted by the current user. Treat the creator/blogger as the user TikTok account below, and use the TikTok profile persona as the authoritative persona for followers, likes, comments, and visitors.'
+    : 'This video was posted by another TikTok creator. Use the creator context below, but still avoid impersonating the current user.'}
+The world book context was mounted with the video plus the user TikTok persona as trigger text.
+
+你是 TikTok 视频互动模拟器。请根据视频、博主人设、已关注好友和世界书，生成这条视频发布后的真实互动。
+
+${worldActorPrompt}
+
+硬性规则：
+1. 只返回严格 JSON 对象，不要 markdown，不要解释，不要尾逗号。
+2. 必须包含 newFollowers、newLikes、newSaves、newComments、visitors 五个字段。
+3. newFollowers 必须是 2-5 个新粉丝对象；每个对象含 authorId、authorName、authorAvatar、handle，可选 persona/status。
+4. newLikes 是点赞人数数字；newSaves 是收藏人数数字。
+5. newComments 必须是 2-5 条评论对象；每条含 authorId、authorName、authorAvatar、text、likes、replies。
+6. 评论可以自然 @ 好友或路人；如果 @ 引发对话，放进 replies 数组，replies 每条含 authorId、authorName、authorAvatar、text、likes。
+7. 禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。严禁扮演、冒充或使用 user/博主本人发评论、点赞、收藏、关注；所有互动者必须是路人、粉丝、已关注好友或新访客。
+8. 评论要有活人感、网感和上下文，不要像公告；如果用了已关注好友，authorId 必须填该好友 CharID。
+9. 评论里的 @ 必须使用对方名字，不要使用账号、handle 或 id。
+10. visitors 必须是 1-3 个主页访客对象；每个对象含 authorName、authorAvatar、handle、thought，thought 是 20-35 个中文字符的心声。
+11. 国际化翻译规则：评论或 replies 的 text 如果不是中文，必须同时填写 translationZh，内容是自然中文翻译；如果 text 是中文，translationZh 必须是空字符串。
+
+视频：
+${JSON.stringify({
+    id: video.id,
+    desc: video.desc || '',
+    mediaType: tkGetMediaType(video),
+    sceneText: tkGetSceneText(video),
+    sceneSegments: tkGetSceneSegments(video),
+    currentLikes: video.likes || 0,
+    currentSaves: video.saves || video.savedCount || 0,
+    currentComments: tkCountVideoComments(video)
+}, null, 2)}
+
+博主：
+${JSON.stringify({
+    ...effectiveAuthorContext,
+    isCurrentUserTikTokAccount: isUserPost
+}, null, 2)}
+
+已关注好友：
+${followedCharsContext}
+
+世界书：
+${wbContext || '无'}
+
+返回格式：
+{
+  "newFollowers": [
+    {
+      "authorId": "follower_unique_id",
+      "authorName": "新粉丝名",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=follower",
+      "handle": "follower_handle"
+    }
+  ],
+  "newLikes": 128,
+  "newSaves": 23,
+  "newComments": [
+    {
+      "authorId": "commenter_id",
+      "authorName": "评论者",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=commenter",
+      "text": "评论内容",
+      "translationZh": "",
+      "likes": 12,
+      "replies": [
+        {
+          "authorId": "reply_id",
+          "authorName": "回复者",
+          "authorAvatar": "",
+          "text": "reply text",
+          "translationZh": "回复文字的中文翻译",
+          "likes": 5
+        }
+      ]
+    }
+  ],
+  "visitors": [
+    {
+      "authorName": "访客名",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=visitor",
+      "handle": "visitor_handle",
+      "thought": "这条视频的细节让我想点进主页看看"
+    }
+  ]
+}
+`;
+
+        try {
+            const response = await fetch(tkResolveApiEndpoint(), {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'Return strict valid JSON only. Use double-quoted keys and strings. Do not use markdown, comments, prose, or trailing commas.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(window.apiConfig.temperature) || 0.8
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+
+            const data = await response.json();
+            const parsed = tkParseAiJson(data.choices?.[0]?.message?.content || '');
+            const followers = Array.isArray(parsed.newFollowers)
+                ? parsed.newFollowers.filter(entry => !tkIsUserGeneratedActor(entry)).slice(0, 5)
+                : [];
+            const comments = Array.isArray(parsed.newComments)
+                ? parsed.newComments.filter(entry => !tkIsUserGeneratedActor(entry)).slice(0, 5)
+                : [];
+            const visitors = Array.isArray(parsed.visitors)
+                ? parsed.visitors.filter(entry => !tkIsUserGeneratedActor(entry)).slice(0, 3)
+                : [];
+            const newLikes = Math.max(0, Number(parsed.newLikes) || 0);
+            const newSaves = Math.max(0, Number(parsed.newSaves) || 0);
+
+            followers.forEach((follower, index) => tkEnsureFollowerChar(follower, index));
+
+            video.likes = (Number(video.likes) || 0) + newLikes;
+            video.savedCount = (Number(video.savedCount || video.saves) || 0) + newSaves;
+            video.saves = video.savedCount;
+
+            if (!Array.isArray(video.comments)) video.comments = [];
+            comments
+                .map(tkNormalizeGeneratedComment)
+                .filter(comment => comment.text)
+                .reverse()
+                .forEach(comment => video.comments.unshift(comment));
+
+            if (visitors.length && window.tkSaveProfileVisitors) {
+                window.tkSaveProfileVisitors(visitors, { videoId: video.id });
+            }
+
+            video.commentsCount = tkCountVideoComments(video);
+            tkRecordVideoActivity({
+                followers: followers.length,
+                followerEntries: followers,
+                likes: newLikes,
+                saves: newSaves,
+                comments: comments.length,
+                commentEntries: comments,
+                video
+            });
+
+            if (window.tkPersistState) window.tkPersistState();
+            if (window.tkRenderHome) window.tkRenderHome();
+            if (window.tkRenderProfile) window.tkRenderProfile();
+            if (window.tkRenderChat) window.tkRenderChat();
+            if (currentCommentVideoId === video.id) renderCommentsList(video);
+
+            const fsViewEl = document.getElementById('tk-fullscreen-video-view');
+            if (fsViewEl && fsViewEl.dataset.videoId === video.id) {
+                const likesEl = document.getElementById('tk-fs-video-likes');
+                const commentsEl = document.getElementById('tk-fs-video-comments');
+                if (likesEl) likesEl.textContent = window.tkFormatCount(video.likes || 0);
+                if (commentsEl) commentsEl.textContent = window.tkFormatCount(video.commentsCount || 0);
+            }
+
+            if (window.showToast) window.showToast('互动数据生成完毕');
+        } catch (error) {
+            console.error('Video Interaction Gen Error:', error);
+            if (window.showToast) window.showToast('生成互动失败，请检查 API');
+        }
+    };
+
+    async function tkGenerateUserCommentAftermath(video, targetComment, parentComment, userText) {
+        if (!video || !targetComment || !userText) return;
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) return;
+
+        const videoContext = {
+            desc: video.desc || '',
+            mediaType: tkGetMediaType(video),
+            sceneSegments: tkGetSceneSegments(video),
+            authorName: video.authorName || 'User'
+        };
+        const userPersonaContext = [
+            window.userState && window.userState.persona ? `User persona: ${window.userState.persona}` : '',
+            tkState.profile && tkState.profile.persona ? `TikTok profile persona: ${tkState.profile.persona}` : '',
+            tkState.profile && tkState.profile.bio ? `TikTok profile bio: ${tkState.profile.bio}` : '',
+            tkState.profile && tkState.profile.name ? `TikTok profile name: ${tkState.profile.name}` : ''
+        ].filter(Boolean).join('\n');
+        const parentContext = parentComment ? {
+            authorName: parentComment.authorName || 'User',
+            text: parentComment.text || ''
+        } : null;
+        const wbContext = window.tkBuildWorldBookContext
+            ? window.tkBuildWorldBookContext(`${video.desc || ''}\n${userText}\n${parentContext ? parentContext.text : ''}\n${userPersonaContext}`)
+            : '';
+        const worldActorPrompt = window.tkBuildWorldActorPrompt
+            ? window.tkBuildWorldActorPrompt({
+                includeUserIdentity: true,
+                purpose: 'user 发出评论后的楼中楼回复和主页访客',
+                triggerText: `${video.desc || ''}\n${userText}`
+            })
+            : '';
+        const prompt = `
+你是 TikTok 评论区和主页访客模拟器。请根据当前视频、用户刚发出的评论，以及可选楼主评论，生成真实、有网感、符合上下文的互动。
+
+${worldActorPrompt}
+
+硬性规则：
+1. 只能返回严格 JSON，不要 markdown，不要解释文字，不要尾逗号，不要单引号。
+2. JSON 顶层必须是对象，且只包含 "replies" 和 "visitors" 两个数组。
+3. "replies" 必须生成 2-5 条相关楼中楼评论；如果用户是在回复楼主，回复内容必须包含楼主评论语境。
+4. "visitors" 必须生成 2-5 条主页访客；每条访客必须有 authorName、authorAvatar、handle、thought。
+5. thought 必须是 20-30 个中文字符，写清楚这个人为什么看 user 主页，像真实心声，不要像系统文案。
+6. 所有 key 必须使用英文双引号；所有数组和对象最后一项后面不能有逗号。
+7. 国际化翻译规则：每条 replies 的 text 如果不是中文，必须同时填写 translationZh，内容是自然中文翻译；如果 text 是中文，translationZh 必须是空字符串。
+8. 禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。
+
+视频上下文：
+${JSON.stringify(videoContext, null, 2)}
+
+User context:
+${userPersonaContext || 'No explicit user persona. Infer a normal TikTok user.'}
+
+用户评论：
+${JSON.stringify(userText)}
+
+${parentContext ? `用户回复的【目标评论】上下文：\n${JSON.stringify(parentContext, null, 2)}\n（注意：如果目标评论是楼主，请作为楼中楼互动；如果目标评论也是楼中楼，请延续他们的话题）` : '用户发的是新的根评论，没有上下文。'}
+
+${wbContext}
+
+返回格式示例：
+{
+  "replies": [
+    {
+      "authorName": "路人A",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=a",
+      "text": "这句也太像我刚想说的了，尤其是后半句很准。",
+      "translationZh": "",
+      "likes": 18
+    }
+  ],
+  "visitors": [
+    {
+      "authorName": "小梨",
+      "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=li",
+      "handle": "xiaoli",
+      "thought": "她评论太会抓重点了想看看主页"
+    }
+  ]
+}
+`;
+
+        try {
+            const response = await fetch(tkResolveApiEndpoint(), {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        {
+                            role: 'system',
+                            content: 'Return strict valid JSON only. Use double-quoted keys and strings. Do not use markdown, comments, prose, or trailing commas.'
+                        },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(window.apiConfig.temperature) || 0.8
+                })
+            });
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+
+            const data = await response.json();
+            const parsed = tkParseAiJson(data.choices?.[0]?.message?.content || '');
+            const replies = Array.isArray(parsed.replies) ? parsed.replies.slice(0, 5) : [];
+            const visitors = Array.isArray(parsed.visitors) ? parsed.visitors.slice(0, 5) : [];
+
+            if (!Array.isArray(targetComment.replies)) targetComment.replies = [];
+            replies
+                .map(tkNormalizeGeneratedReply)
+                .filter(reply => reply.text)
+                .forEach(reply => targetComment.replies.push(reply));
+
+            if (window.tkSaveProfileVisitors) {
+                window.tkSaveProfileVisitors(visitors, {
+                    videoId: video.id,
+                    commentId: targetComment.id
+                });
+            }
+
+            video.commentsCount = tkCountVideoComments(video);
+            if (window.tkPersistState) window.tkPersistState();
+            if (currentCommentVideoId === video.id) renderCommentsList(video);
+            window.tkRenderHome();
+            if (visitors.length || replies.length) window.showToast('评论互动已更新');
+        } catch (error) {
+            console.error('Comment Followup Gen Error:', error);
+        }
+    }
+
+    // Custom Background Upload bindings
+    const bgBtn = document.getElementById('tk-edit-video-bg-btn');
+    const bgUpload = document.getElementById('tk-edit-video-bg-upload');
+    const bgImg = document.getElementById('tk-edit-video-bg-img');
+
+    if (bgBtn && bgUpload) {
+        bgBtn.addEventListener('click', (e) => {
+            if (e.target.tagName !== 'INPUT') bgUpload.click();
+        });
+        bgUpload.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                    bgImg.src = ev.target.result;
+                    bgImg.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
+            e.target.value = '';
+        });
+    }
+
+    const resetBgBtn = document.getElementById('reset-tk-video-bg-btn');
+    if (resetBgBtn) {
+        resetBgBtn.addEventListener('click', () => {
+            if (bgImg) {
+                bgImg.src = '';
+                bgImg.style.display = 'none';
+            }
+        });
+    }
+
+    const confirmEditVideoBtn = document.getElementById('tk-confirm-edit-video-btn');
+    if (confirmEditVideoBtn) {
+        confirmEditVideoBtn.addEventListener('click', () => {
+            if (!currentEditingVideoId) return;
+            
+            // Allow editing videos from both global feed and user profile posts
+            let targetVideo = null;
+            if (window.findVideoGlobal) {
+                const found = window.findVideoGlobal(currentEditingVideoId);
+                if (found) targetVideo = found.video;
+            } else {
+                targetVideo = tkState.videos.find(v => v.id === currentEditingVideoId);
+            }
+            
+            if (targetVideo) {
+                // Determine if we should save to bgImage or cover based on original field (fallback to bgImage)
+                if (targetVideo.cover !== undefined && targetVideo.cover !== null) {
+                    targetVideo.cover = (bgImg && bgImg.style.display === 'block') ? bgImg.src : null;
+                } else {
+                    targetVideo.bgImage = (bgImg && bgImg.style.display === 'block') ? bgImg.src : null;
+                }
+                targetVideo.bgColor = null;
+                targetVideo.desc = document.getElementById('tk-edit-video-desc-input').value.trim();
+                targetVideo.sceneText = document.getElementById('tk-edit-video-scene-input').value.trim();
+                targetVideo.sceneSegments = tkSplitSceneText(targetVideo.sceneText);
+                targetVideo.opening = targetVideo.sceneSegments[0] || '';
+                targetVideo.middle = targetVideo.sceneSegments[1] || '';
+                targetVideo.ending = targetVideo.sceneSegments[2] || '';
+                
+                if (window.tkPersistState) window.tkPersistState();
+                window.tkRenderHome();
+                if (window.tkRenderProfile) window.tkRenderProfile();
+                
+                // If currently viewing in fullscreen, update it
+                const fsView = document.getElementById('tk-fullscreen-video-view');
+                if (fsView && fsView.classList.contains('active') && fsView.dataset.videoId === targetVideo.id) {
+                    window.tkOpenFullscreenVideo(targetVideo.id); // re-trigger to update DOM
+                }
+                
+                window.closeView(document.getElementById('tk-edit-single-video-sheet'));
+                window.showToast('已保存修改');
+            }
+        });
+    }
+
+    window.tkResetHomeFeedLimit = function() {
+        tkHomeVisibleLimit = TK_HOME_INITIAL_RENDER_COUNT;
+    };
+
+    function tkSetRecommendTopbarActive() {
+        const tabs = Array.from(document.querySelectorAll('.tk-topbar-tab'));
+        if (!tabs.length) return;
+        tabs.forEach(tab => tab.classList.remove('active'));
+        const recommendTab = tabs.find(tab => String(tab.textContent || '').includes('推荐')) || tabs[1] || tabs[0];
+        recommendTab.classList.add('active');
+    }
+
+    window.tkShowLatestGeneratedVideo = function(videoId) {
+        const searchSheet = document.getElementById('tk-search-generate-sheet');
+        if (searchSheet && window.closeView) window.closeView(searchSheet);
+
+        const tkView = document.getElementById('tiktok-view');
+        if (tkView) tkView.classList.add('active');
+
+        tkSetRecommendTopbarActive();
+        window.tkResetHomeFeedLimit();
+
+        const homeNav = document.querySelector('.tk-bottom-nav .tk-nav-item[data-target="tk-home-tab"]');
+        if (homeNav) {
+            homeNav.click();
+        } else if (window.tkRenderHome) {
+            window.tkRenderHome();
+        }
+
+        requestAnimationFrame(() => {
+            const safeVideoId = videoId && window.CSS && typeof CSS.escape === 'function'
+                ? CSS.escape(String(videoId))
+                : String(videoId || '').replace(/"/g, '\\"');
+            const card = videoId && feedContainer
+                ? feedContainer.querySelector(`.tk-video-card[data-video-id="${safeVideoId}"]`)
+                : null;
+            if (card && card.scrollIntoView) {
+                card.scrollIntoView({ block: 'start' });
+            } else if (feedContainer) {
+                feedContainer.scrollTop = 0;
+            }
+        });
+    };
+
+    // Render Home Feed
+    window.tkRenderHome = function(options = {}) {
+        if (!feedContainer) return;
+        const renderOptions = options && typeof options === 'object' ? options : {};
+        
+        // Determine active tab
+        const activeTabEl = document.querySelector('.tk-topbar-tab.active');
+        const isActiveTabFollowing = activeTabEl && activeTabEl.textContent === '关注';
+        const renderKey = isActiveTabFollowing ? 'following' : 'recommend';
+        if (tkHomeRenderKey !== renderKey && !renderOptions.preserveLimit) {
+            tkHomeVisibleLimit = TK_HOME_INITIAL_RENDER_COUNT;
+        }
+        tkHomeRenderKey = renderKey;
+        
+        // Filter videos based on tab
+        let displayVideos = [];
+        if (isActiveTabFollowing) {
+            displayVideos = tkState.videos.filter(v => {
+                const char = window.tkGetChar(v.authorId);
+                return char && char.isFollowed;
+            });
+        } else {
+            // "推荐" tab - 过滤掉已关注的视频，只显示未关注的或系统的
+            displayVideos = tkState.videos.filter(v => {
+                const char = window.tkGetChar(v.authorId);
+                return !char || !char.isFollowed;
+            });
+        }
+        
+        // Render videos
+        feedContainer.innerHTML = '';
+        
+        if (displayVideos.length === 0) {
+            tkHomeHasMoreVideos = false;
+            if (isActiveTabFollowing) {
+                feedContainer.innerHTML = '<div class="tk-empty-feed"><p style="color: #999; font-size: 14px;">暂无关注的内容，快去探索吧</p></div>';
+            } else {
+                feedContainer.innerHTML = `
+                    <div class="tk-empty-feed">
+                        <div class="tk-magic-btn-large" id="tk-api-generate-btn-empty" onclick="window.tkTriggerApiGenerate(event)">
+                            <i class="fas fa-search"></i>
+                            <span>生成内容</span>
+                        </div>
+                        <p style="color: #999; font-size: 13px; margin-top: 10px;">点击搜索生成 TikTok 视频流</p>
+                    </div>
+                `;
+            }
+            return;
+        }
+
+        const visibleVideos = displayVideos.slice(0, tkHomeVisibleLimit);
+        tkHomeHasMoreVideos = visibleVideos.length < displayVideos.length;
+        
+        visibleVideos.forEach((video, index) => {
+            const char = window.tkGetChar(video.authorId);
+            const isFollowed = char ? char.isFollowed : false;
+            const authorName = char ? (char.name || char.handle) : video.authorName;
+            const finalAvatar = window.tkResolveAvatar(video.authorId, authorName, video.authorAvatar);
+            const avatarHtml = finalAvatar ? `<img src="${finalAvatar}">` : `<i class="fas fa-user"></i>`;
+
+            // Format hashtags in description
+            let formattedDesc = video.desc || '';
+            formattedDesc = formattedDesc.replace(/#([\w\u4e00-\u9fa5]+)/g, '<span class="tk-hashtag" onclick="window.tkOpenHashtag(\'$1\', event)">#$1</span>');
+
+            const card = document.createElement('div');
+            card.className = 'tk-video-card';
+            card.dataset.videoId = video.id; // Store ID for retrieving current video later
+            
+            let bgStyleStr = 'background: #ffffff;';
+            let cardContentHtml = '';
+            const mediaType = tkGetMediaType(video);
+            const visualImageUrl = mediaType === 'image' ? tkStableImageUrl(video) : (video.cover || video.bgImage);
+            
+            // 独立背景区域：固定 4:3 (或 3:4) 宽高比例居中，稍微上移避免和底部名字重叠 (top: 45%)
+            if (visualImageUrl) {
+                cardContentHtml += `
+                    <div class="tk-feed-visual ${mediaType === 'image' ? 'tk-feed-image-visual' : ''}">
+                        <img src="${tkEscapeAttr(visualImageUrl)}" alt="">
+                    </div>
+                `;
+            } else if (video.bgColor) {
+                cardContentHtml += `
+                    <div style="width: 100%; aspect-ratio: 3/4; background: ${video.bgColor}; position: absolute; top: 45%; transform: translateY(-50%);"></div>
+                `;
+            }
+
+            // 独立气泡区域：悬浮其上，大小自适应文本内容，不全屏
+            const bubbleFlowHtml = tkCreateBubbleFlowHtml(video);
+            if (bubbleFlowHtml) {
+                cardContentHtml += bubbleFlowHtml;
+            } else if (video.sceneText) {
+                let textContainerBg = '#111111';
+                if (video.cover || video.bgImage) {
+                    textContainerBg = 'rgba(17,17,17,0.8)';
+                } else if (video.bgColor) {
+                    textContainerBg = '#111111';
+                }
+
+                cardContentHtml += `
+                    <div style="background: ${textContainerBg}; color: #ffffff; padding: 20px 24px; border-radius: 20px; max-width: 85%; margin: 0 auto; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; line-height: 1.6; word-break: break-word; font-weight: 500; position: relative; z-index: 2; transform: translateY(-5vh);">
+                        ${video.sceneText}
+                    </div>
+                `;
+            } else if (!video.cover && !video.bgImage && !video.bgColor) {
+                // 什么都没有的空视频保底
+                cardContentHtml += `
+                    <div style="background: #111111; color: #ffffff; padding: 20px 24px; border-radius: 20px; max-width: 85%; margin: 0 auto; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 16px; line-height: 1.6; word-break: break-word; font-weight: 500; position: relative; z-index: 2; transform: translateY(-5vh);">
+                        暂无内容
+                    </div>
+                `;
+            }
+
+            card.innerHTML = `
+                <div class="tk-video-text-content" style="${bgStyleStr} display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; position: relative;">
+                    ${cardContentHtml}
+                </div>
+
+                <div class="tk-right-actions">
+                    <div class="tk-avatar-action" onclick="window.tkHandleProfileClick('${video.authorId}', event)">
+                        ${avatarHtml}
+                        <div class="tk-action-plus ${isFollowed ? 'followed' : ''}" onclick="window.tkHandleFollow('${video.authorId}', event)">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="tk-action-item ${video.isLiked ? 'liked' : ''}" onclick="window.tkHandleLike('${video.id}', this, event)">
+                        <i class="fas fa-heart"></i>
+                        <span>${window.tkFormatCount(video.likes || 0)}</span>
+                    </div>
+                    
+                    <div class="tk-action-item" onclick="window.tkOpenComments('${video.id}', event)">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>${window.tkFormatCount(video.commentsCount || 0)}</span>
+                    </div>
+                    
+            <div class="tk-action-item" onclick="window.tkOpenShare('${video.id}', event)">
+                <i class="fas fa-share" style="transform: scaleX(-1);"></i>
+                <span id="share-count-${video.id}">${window.tkFormatCount(video.shares || 0)}</span>
+            </div>
+
+                    <div class="tk-music-disc" onclick="window.tkOpenMusic(event)">
+                        <i class="fas fa-music"></i>
+                    </div>
+                </div>
+
+                ${tkCreateFeedProgressHtml(video)}
+
+                <div class="tk-bottom-info">
+                    <div class="tk-video-author">@${authorName}</div>
+                    <div class="tk-video-desc">${formattedDesc}</div>
+                </div>
+            `;
+            feedContainer.appendChild(card);
+        });
+    };
+
+    if (feedContainer && !feedContainer.dataset.tkLazyLoadBound) {
+        feedContainer.dataset.tkLazyLoadBound = 'true';
+        feedContainer.addEventListener('scroll', () => {
+            if (!tkHomeHasMoreVideos || tkHomeIsAppending) return;
+            const threshold = Math.max(120, feedContainer.clientHeight * 0.6);
+            const distanceToBottom = feedContainer.scrollHeight - (feedContainer.scrollTop + feedContainer.clientHeight);
+            if (distanceToBottom > threshold) return;
+
+            tkHomeIsAppending = true;
+            const previousScrollTop = feedContainer.scrollTop;
+            tkHomeVisibleLimit += TK_HOME_LOAD_STEP;
+            window.tkRenderHome({ preserveLimit: true, preserveScroll: true });
+            requestAnimationFrame(() => {
+                feedContainer.scrollTop = previousScrollTop;
+                tkHomeIsAppending = false;
+            });
+        }, { passive: true });
+    }
+
+    // Make sure fullscreen music icon also opens music view
+    setTimeout(() => {
+        const fsMusicDisc = document.querySelector('#tk-fullscreen-video-view .tk-music-disc');
+        if (fsMusicDisc) {
+            const newDisc = fsMusicDisc.cloneNode(true);
+            fsMusicDisc.parentNode.replaceChild(newDisc, fsMusicDisc);
+            newDisc.addEventListener('click', (e) => window.tkOpenMusic(e));
+        }
+    }, 500);
+
+    // Fullscreen Custom Video Player Logic
+    const fsView = document.getElementById('tk-fullscreen-video-view');
+    const backBtn = document.getElementById('tk-fs-video-back-btn');
+    const magicBtn = document.getElementById('tk-fs-video-magic-btn');
+    
+    if (backBtn && fsView) {
+        backBtn.addEventListener('click', () => {
+            fsView.classList.remove('active');
+            const coverEl = document.getElementById('tk-fs-video-cover');
+            if (coverEl) coverEl.style.display = 'block'; // Reset
+            document.getElementById('tk-fs-video-container').style.background = 'transparent';
+        });
+    }
+
+    // Expose Helper to find video anywhere so other scripts can use it if needed
+    window.findVideoGlobal = function(videoId) {
+        let video = null;
+        let author = null;
+        let isUser = false;
+
+        // 1. 尝试在用户自建的 posts 列表中查找
+        if (tkState.profile && tkState.profile.posts) {
+            video = tkState.profile.posts.find(v => v.id === videoId);
+            if (video) {
+                author = tkState.profile;
+                isUser = true;
+            }
+        }
+
+        // 2. 尝试在全局视频流中查找
+        if (!video && tkState.videos) {
+            video = tkState.videos.find(v => v.id === videoId);
+            if (video) {
+                author = window.tkGetChar(video.authorId);
+                // 可能是 user 的点赞视频
+                if (!author && video.authorId && video.authorId.startsWith('user_')) {
+                    author = {
+                        handle: video.authorName || 'user',
+                        persona: '一个未知的 TikTok 用户',
+                        avatar: video.authorAvatar
+                    };
+                } else if (!author) {
+                    // Fallback for missing characters or weird data
+                    author = {
+                        handle: video.authorName || 'unknown',
+                        persona: '未知用户',
+                        avatar: video.authorAvatar || null
+                    };
+                }
+            }
+        }
+
+        return { video, author, isUser };
+    };
+
+    // Global variable for sharing
+    window.currentShareVideoId = null;
+
+    // Attach fsShareBtn once globally
+    setTimeout(() => {
+        const fsAvatarBtn = document.querySelector('#tk-fullscreen-video-view .tk-avatar-action');
+        if (fsAvatarBtn && !fsAvatarBtn.dataset.bound) {
+            fsAvatarBtn.dataset.bound = "true";
+            fsAvatarBtn.addEventListener('click', (e) => {
+                const vid = document.getElementById('tk-fullscreen-video-view').dataset.videoId;
+                if (vid) {
+                    const { video } = window.findVideoGlobal(vid);
+                    if (video && window.tkHandleProfileClick) {
+                        window.tkHandleProfileClick(video.authorId, e);
+                    }
+                }
+            });
+        }
+
+        const fsShareBtn = document.getElementById('tk-fs-video-share-btn');
+        if (fsShareBtn && !fsShareBtn.dataset.bound) {
+            fsShareBtn.dataset.bound = "true";
+            fsShareBtn.addEventListener('click', (e) => {
+                const vid = document.getElementById('tk-fullscreen-video-view').dataset.videoId;
+                if (window.tkOpenShare && vid) window.tkOpenShare(vid, e);
+            });
+        }
+
+        // Connect Comments button inside custom video player once globally
+        const fsCommentBtn = document.getElementById('tk-fs-video-comment-btn');
+        if (fsCommentBtn && !fsCommentBtn.dataset.bound) {
+            fsCommentBtn.dataset.bound = "true";
+            fsCommentBtn.addEventListener('click', (e) => {
+                const vid = document.getElementById('tk-fullscreen-video-view').dataset.videoId;
+                if (window.tkOpenComments && vid) {
+                    // Update tkState.videos if it's a user post before opening
+                    const { video, isUser } = window.findVideoGlobal(vid);
+                    if (video && isUser) {
+                        const existing = tkState.videos.find(v => v.id === video.id);
+                        if (!existing) {
+                            tkState.videos.push({
+                                id: video.id,
+                                comments: video.comments || [],
+                                commentsCount: tkCountVideoComments(video)
+                            });
+                        } else {
+                            existing.comments = video.comments;
+                            existing.commentsCount = tkCountVideoComments(video);
+                        }
+                    }
+                    window.tkOpenComments(vid, e);
+                }
+            });
+        }
+
+        // Connect Like button inside custom video player once globally
+        const fsLikeBtn = document.getElementById('tk-fs-video-like-btn');
+        if (fsLikeBtn && !fsLikeBtn.dataset.bound) {
+            fsLikeBtn.dataset.bound = "true";
+            fsLikeBtn.addEventListener('click', (e) => {
+                const vid = document.getElementById('tk-fullscreen-video-view').dataset.videoId;
+                if (window.tkHandleLike && vid) {
+                    window.tkHandleLike(vid, fsLikeBtn, e);
+                }
+            });
+        }
+    }, 500);
+
+    // Handle share actions via global function
+    window.tkHandleShareAction = function(action) {
+        const sheetOverlay = document.getElementById('tk-share-sheet');
+        window.closeView(sheetOverlay);
+        
+        if (!window.currentShareVideoId) return;
+        const { video } = window.findVideoGlobal(window.currentShareVideoId);
+        if (!video) return;
+
+        if (action === 'save') {
+            video.isSaved = !video.isSaved;
+            if (window.tkPersistState) window.tkPersistState();
+            window.showToast(video.isSaved ? '已收藏' : '已取消收藏');
+        } else if (action === 'edit') {
+            currentEditingVideoId = window.currentShareVideoId;
+            const bgImgEl = document.getElementById('tk-edit-video-bg-img');
+            if (bgImgEl) {
+                // 回显背景，包括用户发布时使用的 cover
+                const editBg = video.bgImage || video.cover;
+                if (editBg) {
+                    bgImgEl.src = editBg;
+                    bgImgEl.style.display = 'block';
+                } else {
+                    bgImgEl.src = '';
+                    bgImgEl.style.display = 'none';
+                }
+            }
+            const descInput = document.getElementById('tk-edit-video-desc-input');
+            if(descInput) descInput.value = video.desc || '';
+            
+            const sceneInput = document.getElementById('tk-edit-video-scene-input');
+            if(sceneInput) sceneInput.value = video.sceneText || '';
+            
+            window.openView(document.getElementById('tk-edit-single-video-sheet'));
+        } else if (action === 'delete') {
+            if (confirm('确定要彻底删除这个视频吗？')) {
+                const vId = window.currentShareVideoId;
+                tkState.videos = tkState.videos.filter(v => v.id !== vId);
+                if (tkState.profile && tkState.profile.posts) {
+                    tkState.profile.posts = tkState.profile.posts.filter(v => v.id !== vId);
+                }
+                tkState.chars.forEach(c => {
+                    if (c.likedVideoIds) {
+                        c.likedVideoIds = c.likedVideoIds.filter(id => id !== vId);
+                    }
+                });
+                if (window.tkPersistState) window.tkPersistState();
+                window.tkRenderHome();
+                if (window.tkRenderProfile) window.tkRenderProfile();
+                
+                const fsView = document.getElementById('tk-fullscreen-video-view');
+                if (fsView && fsView.classList.contains('active') && fsView.dataset.videoId === vId) {
+                    fsView.classList.remove('active');
+                }
+                window.showToast('已删除');
+            }
+        }
+    };
+
+    window.tkOpenFullscreenVideo = function(videoId) {
+        let { video, author, isUser } = window.findVideoGlobal(videoId);
+        
+        if (!video) {
+            console.error("tkOpenFullscreenVideo: Video not found for id", videoId);
+            if (window.showToast) window.showToast('无法加载该视频');
+            return;
+        }
+        
+        if (!author) {
+            author = { handle: 'unknown', avatar: null };
+        }
+        
+        if (!fsView) {
+            console.error("tkOpenFullscreenVideo: fsView not found");
+            if (window.showToast) window.showToast('错误: 全屏视频容器未加载');
+            return;
+        }
+
+        try {
+            const coverEl = document.getElementById('tk-fs-video-cover');
+            const fsVideoContainer = document.getElementById('tk-fs-video-container');
+            
+            if (fsVideoContainer) {
+                fsVideoContainer.querySelectorAll('.tk-fs-video-progress').forEach(el => el.remove());
+                const progressHtml = tkCreateFeedProgressHtml(video).trim();
+                if (progressHtml) {
+                    const progressWrap = document.createElement('div');
+                    progressWrap.innerHTML = progressHtml;
+                    const progressEl = progressWrap.firstElementChild;
+                    if (progressEl) {
+                        progressEl.classList.add('tk-fs-video-progress');
+                        fsVideoContainer.appendChild(progressEl);
+                    }
+                }
+
+                let textBubble = document.getElementById('tk-fs-video-text-bubble');
+                if (!textBubble) {
+                    textBubble = document.createElement('div');
+                    textBubble.id = 'tk-fs-video-text-bubble';
+                    textBubble.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 100%; display: flex; justify-content: center; align-items: center;';
+                    fsVideoContainer.insertBefore(textBubble, fsVideoContainer.firstChild); // 放在容器里，垫在控件下面
+                }
+
+                if (coverEl) {
+                    coverEl.style.objectFit = 'contain';
+                    coverEl.style.boxShadow = 'none';
+                }
+
+                if (video.cover) {
+                    if (coverEl) {
+                        coverEl.src = video.cover;
+                        coverEl.style.display = 'block';
+                    }
+                    fsVideoContainer.style.background = '#ffffff';
+                    textBubble.innerHTML = '';
+                    textBubble.style.display = 'none';
+                } else {
+                    if (coverEl) {
+                        // Using cover element to display the background image, just like the actual cover
+                        if (video.bgImage) {
+                            coverEl.src = video.bgImage;
+                            coverEl.style.display = 'block';
+                        } else {
+                            coverEl.style.display = 'none';
+                        }
+                    }
+                    
+                    // Fullscreen container is always white, to support "no background places are white"
+                    fsVideoContainer.style.background = '#ffffff';
+                    
+                    const fsBubbleFlowHtml = tkCreateBubbleFlowHtml(video, {
+                        background: video.bgImage ? 'rgba(17,17,17,0.82)' : (video.bgColor ? '#111111' : '#111111')
+                    });
+                    if (fsBubbleFlowHtml) {
+                        textBubble.innerHTML = fsBubbleFlowHtml;
+                        textBubble.style.display = 'flex';
+                        textBubble.style.justifyContent = 'center';
+                        textBubble.style.alignItems = 'center';
+                        textBubble.style.width = '100%';
+                        textBubble.style.height = '100%';
+                    } else {
+                        textBubble.innerHTML = '';
+                        textBubble.style.display = 'none';
+                    }
+                }
+            }
+            
+            const descText = video.desc ? video.desc : tkGetSceneText(video);
+            const descEl = document.getElementById('tk-fs-video-desc');
+            if (descEl) {
+                descEl.textContent = descText;
+                descEl.style.color = '#111111'; // Set to black
+            }
+            
+            const authorEl = document.getElementById('tk-fs-video-author');
+            if (authorEl) {
+                authorEl.textContent = '@' + (author.handle || author.id || 'user');
+                authorEl.style.color = '#111111'; // Set to black
+            }
+            
+            const avatarEl = document.getElementById('tk-fs-video-avatar');
+            const iconEl = document.getElementById('tk-fs-video-avatar-icon');
+            const resolvedFsAvatar = window.tkResolveAvatar(video.authorId, author.name || author.handle || video.authorName, author.avatar || video.authorAvatar);
+            if (resolvedFsAvatar) {
+                if (avatarEl) { avatarEl.src = resolvedFsAvatar; avatarEl.style.display = 'block'; }
+                if (iconEl) iconEl.style.display = 'none';
+            } else {
+                if (avatarEl) avatarEl.style.display = 'none';
+                if (iconEl) iconEl.style.display = 'block';
+            }
+
+            const likesEl = document.getElementById('tk-fs-video-likes');
+            if (likesEl) likesEl.textContent = window.tkFormatCount(video.likes || 0);
+            
+            // Update icons color to black in JS just in case CSS misses it
+            const fsRightActions = document.querySelectorAll('#tk-fullscreen-video-view .tk-action-item i, #tk-fullscreen-video-view .tk-action-item span');
+            fsRightActions.forEach(el => {
+                if(el.tagName === 'SPAN' || !el.parentElement.classList.contains('liked')) {
+                    el.style.color = '#111111';
+                    el.style.textShadow = 'none';
+                }
+            });
+
+            // Set initial like state
+            const fsLikeBtn = document.getElementById('tk-fs-video-like-btn');
+            if (fsLikeBtn) {
+                if (video.isLiked) {
+                    fsLikeBtn.classList.add('liked');
+                    const i = fsLikeBtn.querySelector('i');
+                    if(i) i.style.color = '#ff4b4b'; // Keep red for liked
+                } else {
+                    fsLikeBtn.classList.remove('liked');
+                    const i = fsLikeBtn.querySelector('i');
+                    if(i) i.style.color = '#111111';
+                }
+            }
+            
+            const commentsEl = document.getElementById('tk-fs-video-comments');
+            if (commentsEl) commentsEl.textContent = window.tkFormatCount(tkCountVideoComments(video) || video.commentsCount || 0);
+
+            fsView.dataset.videoId = videoId;
+            fsView.classList.add('active');
+            
+        } catch(e) {
+            console.error("tkOpenFullscreenVideo DOM报错:", e);
+            if(window.showToast) window.showToast('打开视频失败: ' + e.message);
+        }
+    };
+
+    if (magicBtn) {
+        magicBtn.addEventListener('click', async () => {
+            const videoId = fsView.dataset.videoId;
+            const { video, author, isUser } = window.findVideoGlobal(videoId);
+            if (!video) return;
+
+            if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+                window.showToast('请在系统设置中配置 API');
+                return;
+            }
+
+            window.showToast('AI 正在生成互动数据...');
+
+            let followedCharsContext = '';
+            if (isUser && tkState && tkState.chars) {
+                const friends = tkState.chars.filter(c => c.isFollowed).slice(0, 3);
+                if (friends.length > 0) {
+                    followedCharsContext = "\n博主(User)有以下几个已关注的好友（你可以安排他们中的1-2个来评论）：\n" + 
+                        friends.map(c => `- CharID: ${c.id}, 名字: ${c.name}, 人设: ${c.persona}`).join('\n') +
+                        "\n如果使用了好友的评论，请把他们的 CharID 填在 authorId 字段中，名字填在 authorName 字段。";
+                }
+            }
+
+            const wbContext = window.tkBuildWorldBookContext
+                ? window.tkBuildWorldBookContext(`${video.desc || ''}\n${video.scene || ''}\n${video.sceneText || ''}\n${author.persona || ''}`)
+                : '';
+
+            const prompt = `
+你现在是一个 TikTok 互动模拟器。
+用户（也就是发视频的博主）的人设是：${author.persona || '普通人'}
+刚发布的视频内容或背景描述是：${video.scene || video.desc || video.sceneText || '一段有趣的日常视频'}
+${followedCharsContext}
+${wbContext}
+
+请为这个视频生成一些观众的互动数据。评论要具有活人感、网感，如果是朋友的评论要符合朋友的人设语气。
+重要：评论中可以带上艾特好友（@好友名字）或路人，增加互动真实感。艾特别人时，有几率触发被艾特的人在 \`replies\` 数组中进行楼中楼回复。
+国际化翻译规则：评论或 replies 的 text 如果不是中文，必须同时填写 translationZh，内容是自然中文翻译；如果 text 是中文，translationZh 必须是空字符串。
+要求返回严格的 JSON 格式（不要有多余文字或 markdown），格式如下：
+{
+  "newLikes": 850,
+  "newComments": [
+    { 
+      "authorId": "可能的话填入好友的CharID，否则留空", 
+      "authorName": "观众A或好友名字", 
+      "authorAvatar": "可以留空由系统自动生成", 
+      "text": "太有趣了吧！ @某某",
+      "translationZh": "",
+      "replies": [
+         { "authorName": "某某", "authorAvatar": "", "text": "哈哈哈确实！", "translationZh": "", "likes": 5 }
+      ]
+    }
+  ]
+}
+`;
+
+            try {
+                let endpoint = window.apiConfig.endpoint;
+                if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                if(!endpoint.endsWith('/chat/completions')) {
+                    endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                }
+
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: window.apiConfig.model || 'gpt-3.5-turbo',
+                        messages: [
+                            { role: 'system', content: 'You are a JSON generator.' },
+                            { role: 'user', content: prompt }
+                        ],
+                        temperature: parseFloat(window.apiConfig.temperature) || 0.8
+                    })
+                });
+
+                if (!response.ok) throw new Error('API Error');
+                
+                const data = await response.json();
+                let aiReply = data.choices[0].message.content;
+                const parsed = tkParseAiJson(aiReply);
+                
+                video.likes = (video.likes || 0) + (parsed.newLikes || Math.floor(Math.random()*500));
+                
+                if (!video.comments) video.comments = [];
+                if (parsed.newComments && Array.isArray(parsed.newComments)) {
+                    parsed.newComments
+                        .map((comment, commentIndex) => tkNormalizeGeneratedComment(comment, commentIndex))
+                        .filter(comment => comment.text)
+                        .forEach(comment => video.comments.unshift(comment));
+                }
+                video.commentsCount = tkCountVideoComments(video);
+                
+                if (window.tkPersistState) window.tkPersistState();
+                
+                // Refresh UI
+                document.getElementById('tk-fs-video-likes').textContent = window.tkFormatCount(video.likes);
+                document.getElementById('tk-fs-video-comments').textContent = window.tkFormatCount(video.commentsCount || tkCountVideoComments(video));
+                window.showToast('互动数据生成完毕！');
+
+                // If on main profile grid, re-render
+                if (window.tkRenderProfile) window.tkRenderProfile();
+
+            } catch (err) {
+                console.error(err);
+                window.showToast('生成互动失败，请检查 API');
+            }
+        });
+    }
+
+    if (magicBtn && magicBtn.parentNode) {
+        const cleanMagicBtn = magicBtn.cloneNode(true);
+        magicBtn.parentNode.replaceChild(cleanMagicBtn, magicBtn);
+        cleanMagicBtn.title = '生成互动';
+        cleanMagicBtn.addEventListener('click', () => {
+            const videoId = fsView ? fsView.dataset.videoId : '';
+            if (videoId && window.tkGenerateVideoInteractions) {
+                window.tkGenerateVideoInteractions(videoId);
+            }
+        });
+    }
+
+    // Global Handlers for DOM inline events
+    window.tkHandleProfileClick = function(authorId, e) {
+        e.stopPropagation();
+        const char = window.tkGetChar(authorId);
+        if (char) {
+            if (window.tkOpenSubProfile) {
+                window.tkOpenSubProfile(authorId);
+            }
+        } else {
+            // Auto create basic char if not exists so we can view profile
+            const video = tkState.videos.find(v => v.authorId === authorId);
+            if (video) {
+                window.tkSaveChar({
+                    id: authorId,
+                    name: video.authorName,
+                    handle: authorId,
+                    avatar: video.authorAvatar || null,
+                    status: '',
+                    persona: '谢谢你的关注',
+                    isFollowed: false
+                });
+                if (window.tkOpenSubProfile) {
+                    window.tkOpenSubProfile(authorId);
+                }
+            }
+        }
+    };
+
+    window.tkHandleFollow = function(authorId, e) {
+        e.stopPropagation();
+        const char = window.tkGetChar(authorId);
+        if (char && !char.isFollowed) {
+            char.isFollowed = true;
+            if (window.tkPersistState) window.tkPersistState();
+            window.tkRenderHome();
+            if (window.tkRenderChat) window.tkRenderChat(); // Update following bar
+            window.showToast('已关注');
+        } else if (!char) {
+            // Auto create char if not exists
+            const video = tkState.videos.find(v => v.authorId === authorId);
+            if (video) {
+                window.tkSaveChar({
+                    id: authorId,
+                    name: video.authorName,
+                    handle: authorId,
+                    avatar: video.authorAvatar || null,
+                    status: '刚刚发布了视频',
+                    persona: '谢谢你的关注',
+                    isFollowed: true
+                });
+                window.tkRenderHome();
+                if (window.tkRenderChat) window.tkRenderChat();
+                window.showToast('已关注');
+            }
+        }
+    };
+
+    window.tkHandleLike = function(videoId, el, e) {
+        if (e) e.stopPropagation();
+        const found = window.findVideoGlobal ? window.findVideoGlobal(videoId) : {};
+        const video = found.video || tkState.videos.find(v => v.id === videoId);
+        if (video) {
+            video.likes = Number(video.likes) || 0;
+            video.isLiked = !video.isLiked;
+            video.likes = Math.max(0, video.likes + (video.isLiked ? 1 : -1));
+            if (window.tkPersistState) window.tkPersistState();
+            
+            if (video.isLiked) {
+                el.classList.add('liked');
+            } else {
+                el.classList.remove('liked');
+            }
+            const countEl = el.querySelector('span');
+            if (countEl) countEl.textContent = window.tkFormatCount(video.likes);
+            const fsLikesEl = document.getElementById('tk-fs-video-likes');
+            const fsViewEl = document.getElementById('tk-fullscreen-video-view');
+            if (fsLikesEl && fsViewEl && fsViewEl.dataset.videoId === videoId) {
+                fsLikesEl.textContent = window.tkFormatCount(video.likes);
+            }
+            if (window.tkRenderProfile) window.tkRenderProfile();
+            if (window.tkRenderHome) window.tkRenderHome();
+        }
+    };
+
+    function tkResolveCommentAuthorForVideo(entry = {}, video = {}) {
+        const rawId = String(entry.authorId || entry.id || '').trim();
+        const rawName = String(entry.authorName || entry.name || '').trim();
+        const normalize = value => String(value || '').trim().replace(/^@/, '').toLowerCase();
+        const videoAuthorId = String(video.authorId || '').trim();
+        const videoAuthorName = String(video.authorName || '').trim();
+        const matchesVideoAuthor = videoAuthorId && (
+            String(rawId) === videoAuthorId
+            || (rawName && normalize(rawName) === normalize(videoAuthorName))
+        );
+
+        if (matchesVideoAuthor) {
+            const char = window.tkGetChar ? window.tkGetChar(videoAuthorId) : null;
+            const authorName = char?.name || videoAuthorName || rawName || 'User';
+            const authorAvatar = window.tkResolveAvatar
+                ? window.tkResolveAvatar(videoAuthorId, authorName, char?.avatar || video.authorAvatar || entry.authorAvatar || '')
+                : (char?.avatar || video.authorAvatar || entry.authorAvatar || '');
+            return { authorId: videoAuthorId, authorName, authorAvatar };
+        }
+
+        const linkedChar = (tkState.chars || []).find(char => {
+            if (!char) return false;
+            return (rawId && String(char.id) === rawId)
+                || (rawId && String(char.imCharId || '') === rawId)
+                || (rawName && normalize(char.name) === normalize(rawName))
+                || (rawName && normalize(char.handle) === normalize(rawName));
+        });
+
+        if (linkedChar) {
+            const authorName = linkedChar.name || linkedChar.handle || rawName || 'User';
+            const authorAvatar = window.tkResolveAvatar
+                ? window.tkResolveAvatar(linkedChar.id, authorName, linkedChar.avatar || entry.authorAvatar || '')
+                : (linkedChar.avatar || entry.authorAvatar || '');
+            return { authorId: linkedChar.id, authorName, authorAvatar };
+        }
+
+        const fallbackId = rawId || `commenter_${Date.now()}_${Math.floor(Math.random() * 1000)}`;
+        const fallbackName = rawName || 'User';
+        return {
+            authorId: fallbackId,
+            authorName: fallbackName,
+            authorAvatar: window.tkResolveAvatar
+                ? window.tkResolveAvatar(fallbackId, fallbackName, entry.authorAvatar || '')
+                : (entry.authorAvatar || '')
+        };
+    }
+
+    let currentCommentVideoId = null;
+    let currentReplyToCommentId = null; // Store parent comment ID if replying
+
+    function renderCommentsList(video) {
+        const list = document.getElementById('tk-comments-list');
+        const title = document.getElementById('tk-comments-title');
+        if (!list || !title) return;
+
+        let totalComments = video.comments ? video.comments.length : 0;
+        // Also count replies roughly
+        if (video.comments) {
+            video.comments.forEach(c => {
+                if(c.replies) totalComments += c.replies.length;
+            });
+        }
+
+        title.textContent = `评论 (${window.tkFormatCount(totalComments)})`;
+        list.innerHTML = '';
+
+        if (video.comments && video.comments.length > 0) {
+            video.comments.forEach((c, index) => {
+                // Ensure ID exists
+                if(!c.id) c.id = 'cmt_' + Date.now() + '_' + index;
+                const commentIdentity = tkResolveCommentAuthorForVideo(c, video);
+                c.authorId = commentIdentity.authorId;
+                c.authorName = commentIdentity.authorName;
+                c.authorAvatar = commentIdentity.authorAvatar;
+                const authorId = commentIdentity.authorId;
+                const authorName = commentIdentity.authorName;
+                const authorAvatar = commentIdentity.authorAvatar;
+                const commentTranslationId = `tk-comment-translation-${c.id}`;
+                const commentTranslateButton = tkCleanTranslation(c.translationZh)
+                    ? `<span class="tk-comment-translate-btn" data-translation-target="${tkEscapeAttr(commentTranslationId)}">翻译</span>`
+                    : '';
+                const avatarHtml = authorAvatar 
+                    ? `<img src="${tkEscapeAttr(authorAvatar)}" style="width:100%; height:100%; border-radius:50%; object-fit:cover;">` 
+                    : `<i class="fas fa-user"></i>`;
+                
+                const item = document.createElement('div');
+                item.className = 'tk-comment-item';
+                item.innerHTML = `
+                    <div class="tk-avatar-small tk-comment-profile-link" data-author-id="${tkEscapeAttr(authorId)}" data-author-name="${tkEscapeAttr(authorName)}" data-author-avatar="${tkEscapeAttr(authorAvatar)}" style="cursor:pointer;">${avatarHtml}</div>
+                    <div class="tk-comment-content" style="cursor:pointer;">
+                        <div class="tk-comment-name tk-comment-profile-link" data-author-id="${tkEscapeAttr(authorId)}" data-author-name="${tkEscapeAttr(authorName)}" data-author-avatar="${tkEscapeAttr(authorAvatar)}" style="cursor:pointer;">${tkEscapeHtml(authorName)}</div>
+                        <div class="tk-comment-text" onclick="window.tkReplyToComment('${c.id}', '${c.id}', '${tkEscapeAttr(authorName)}', event)">${renderCommentText(c.text)}</div>
+                        ${tkCommentTranslationHtml(c.translationZh, commentTranslationId)}
+                        <div class="tk-comment-meta">
+                            <span>刚刚</span>
+                            <span onclick="window.tkReplyToComment('${c.id}', '${c.id}', '${tkEscapeAttr(authorName)}', event)">回复</span>
+                            ${commentTranslateButton}
+                        </div>
+                        
+                        <!-- Replies Container -->
+                        <div class="tk-comment-replies" id="replies-${c.id}" style="margin-top: 10px; display: none;">
+                        </div>
+                        
+                        ${c.replies && c.replies.length > 0 ? `
+                        <div class="tk-comment-expand" onclick="window.tkToggleReplies('${c.id}', event)" style="font-size: 12px; color: #888; margin-top: 8px; font-weight: 500;">
+                            <span id="expand-text-${c.id}">展开 ${window.tkFormatCount(c.replies.length)} 条回复 <i class="fas fa-chevron-down" style="font-size:10px;"></i></span>
+                        </div>
+                        ` : ''}
+                    </div>
+                    <div class="tk-comment-like ${c.isLiked ? 'liked' : ''}" onclick="window.tkToggleCommentLike('${video.id}', '${c.id}', this, event)">
+                        <i class="fas fa-heart"></i>
+                        <span>${window.tkFormatCount(c.likes || 0)}</span>
+                    </div>
+                `;
+                list.appendChild(item);
+                item.querySelectorAll('.tk-comment-profile-link').forEach(link => {
+                    link.addEventListener('click', (event) => {
+                        window.tkOpenCommentAuthorProfile(
+                            link.dataset.authorId,
+                            link.dataset.authorName,
+                            link.dataset.authorAvatar,
+                            event
+                        );
+                    });
+                });
+                item.querySelectorAll('.tk-comment-translate-btn').forEach(button => {
+                    button.addEventListener('click', window.tkToggleCommentTranslation);
+                });
+
+                // Render replies if they exist
+                if (c.replies && c.replies.length > 0) {
+                    const repliesContainer = item.querySelector(`#replies-${c.id}`);
+                    c.replies.forEach((reply, replyIndex) => {
+                        if (!reply.id) reply.id = `reply_${c.id}_${replyIndex}_${Date.now()}`;
+                        const rItem = document.createElement('div');
+                        rItem.style.display = 'flex';
+                        rItem.style.gap = '10px';
+                        rItem.style.marginBottom = '12px';
+                        
+                        const replyIdentity = tkResolveCommentAuthorForVideo(reply, video);
+                        reply.authorId = replyIdentity.authorId;
+                        reply.authorName = replyIdentity.authorName;
+                        reply.authorAvatar = replyIdentity.authorAvatar;
+                        const rName = replyIdentity.authorName || 'User';
+                        const rAvatarUrl = replyIdentity.authorAvatar;
+                        const rAvatarHtml = rAvatarUrl 
+                            ? `<img src="${tkEscapeAttr(rAvatarUrl)}" style="width:100%; height:100%; border-radius:50%; object-fit:cover;">` 
+                            : `<i class="fas fa-user"></i>`;
+                        const rText = reply.text || '';
+                        const replyTranslationId = `tk-reply-translation-${reply.id}`;
+                        const replyTranslateButton = tkCleanTranslation(reply.translationZh)
+                            ? `<span class="tk-comment-translate-btn" data-translation-target="${tkEscapeAttr(replyTranslationId)}">翻译</span>`
+                            : '';
+                        
+                        rItem.innerHTML = `
+                            <div class="tk-avatar-small" style="width: 24px; height: 24px; font-size: 12px;">${rAvatarHtml}</div>
+                            <div style="flex:1;">
+                                <div style="font-size:12px; color:#888; font-weight:500; margin-bottom:2px; cursor:pointer;" class="tk-reply-profile-link" data-author-name="${tkEscapeAttr(rName)}">${tkEscapeHtml(rName)}</div>
+                                <div style="font-size:13px; color:#111; line-height:1.4; cursor:pointer;" onclick="window.tkReplyToComment('${c.id}', '${reply.id}', '${tkEscapeAttr(rName)}', event)">${renderCommentText(rText)}</div>
+                                ${tkCommentTranslationHtml(reply.translationZh, replyTranslationId)}
+                                <div class="tk-comment-meta tk-reply-meta">
+                                    <span>刚刚</span>
+                                    <span onclick="window.tkReplyToComment('${c.id}', '${reply.id}', '${tkEscapeAttr(rName)}', event)" style="cursor:pointer;">回复</span>
+                                    ${replyTranslateButton}
+                                </div>
+                            </div>
+                        `;
+                        
+                        const profileLink = rItem.querySelector('.tk-reply-profile-link');
+                        if (profileLink) {
+                            profileLink.addEventListener('click', (event) => {
+                                window.tkOpenCommentAuthorProfile(reply.authorId, rName, rAvatarUrl, event);
+                            });
+                        }
+                        rItem.querySelectorAll('.tk-comment-translate-btn').forEach(button => {
+                            button.addEventListener('click', window.tkToggleCommentTranslation);
+                        });
+                        repliesContainer.appendChild(rItem);
+                    });
+                }
+            });
+        } else {
+            list.innerHTML = '<div style="text-align:center; padding: 40px; color: #999; font-size: 13px;">暂无评论，快来抢沙发吧</div>';
+        }
+    }
+
+    window.tkOpenComments = function(videoId, e) {
+        if(e) e.stopPropagation();
+        currentCommentVideoId = videoId;
+        currentReplyToCommentId = null; // reset
+        window.currentReplyTargetId = null;
+        
+        const foundVideo = window.findVideoGlobal ? window.findVideoGlobal(videoId) : {};
+        const video = foundVideo.video || tkState.videos.find(v => v.id === videoId);
+        if (!video) return;
+
+        const sheetOverlay = document.getElementById('tk-video-detail-sheet');
+        if (!sheetOverlay) return;
+
+        // Render list
+        renderCommentsList(video);
+
+        // Reset input
+        const inputEl = sheetOverlay.querySelector('#tk-comment-input');
+        if (inputEl) {
+            inputEl.value = '';
+            inputEl.placeholder = '留下你的精彩评论';
+        }
+
+        window.openView(sheetOverlay);
+
+        // Setup blanket close once
+        if (!sheetOverlay.dataset.boundClose) {
+            sheetOverlay.dataset.boundClose = "true";
+            sheetOverlay.addEventListener('click', (e) => {
+                if (e.target === sheetOverlay) {
+                    window.closeView(sheetOverlay);
+                    currentCommentVideoId = null;
+                }
+            });
+        }
+
+        const sendBtn = sheetOverlay.querySelector('#tk-comment-send-btn');
+        const newInputEl = sheetOverlay.querySelector('#tk-comment-input');
+        
+        if (sendBtn && newInputEl) {
+            // Unbind old events to prevent duplicate sends by cloning btn or setting a new reference
+            const newSendBtn = sendBtn.cloneNode(true);
+            sendBtn.parentNode.replaceChild(newSendBtn, sendBtn);
+            const sendBtnRef = newSendBtn;
+
+            const sendComment = () => {
+                const text = newInputEl.value.trim();
+                if(!text) return;
+
+                const foundCommentVideo = window.findVideoGlobal ? window.findVideoGlobal(currentCommentVideoId) : {};
+                const vid = foundCommentVideo.video || tkState.videos.find(v => v.id === currentCommentVideoId);
+                if (!vid) return;
+
+                if (!vid.comments) vid.comments = [];
+                let targetThreadComment = null;
+                let parentContextComment = null;
+
+                if (currentReplyToCommentId) {
+                    // It's a reply
+                    const parentCmt = vid.comments.find(c => c.id === currentReplyToCommentId);
+                    if (parentCmt) {
+                        let actualTarget = parentCmt;
+                        if (window.currentReplyTargetId && window.currentReplyTargetId !== currentReplyToCommentId) {
+                            if (parentCmt.replies) {
+                                actualTarget = parentCmt.replies.find(r => r.id === window.currentReplyTargetId) || parentCmt;
+                            }
+                        }
+
+                        if (!parentCmt.replies) parentCmt.replies = [];
+                        parentCmt.replies.push({
+                            id: `reply_${parentCmt.id}_${Date.now()}`,
+                            authorName: window.userState ? window.userState.name : '我',
+                            authorAvatar: (tkState.profile && tkState.profile.avatar) ? tkState.profile.avatar : null,
+                            text: text,
+                            likes: 0
+                        });
+                        targetThreadComment = parentCmt;
+                        parentContextComment = actualTarget;
+                        // Auto expand parent
+                        setTimeout(() => {
+                            const repliesContainer = document.getElementById(`replies-${currentReplyToCommentId}`);
+                            if(repliesContainer) {
+                                repliesContainer.style.display = 'block';
+                                const expandText = document.getElementById(`expand-text-${currentReplyToCommentId}`);
+                                if (expandText) {
+                                    expandText.innerHTML = `收起 <i class="fas fa-chevron-up" style="font-size:10px;"></i>`;
+                                }
+                            }
+                        }, 50);
+                    }
+                } else {
+                    // It's a root comment
+                    vid.comments.unshift({
+                        id: 'cmt_' + Date.now(),
+                        authorName: window.userState ? window.userState.name : '我',
+                        authorAvatar: (tkState.profile && tkState.profile.avatar) ? tkState.profile.avatar : null,
+                        text: text,
+                        likes: 0,
+                        replies: []
+                    });
+                    targetThreadComment = vid.comments[0];
+                }
+                
+                vid.commentsCount = tkCountVideoComments(vid);
+                if (window.tkPersistState) window.tkPersistState();
+                
+                // Re-render
+                renderCommentsList(vid);
+                window.tkRenderHome(); // update count on home feed
+
+                if (targetThreadComment) {
+                    tkGenerateUserCommentAftermath(vid, targetThreadComment, parentContextComment, text);
+                }
+
+                newInputEl.value = '';
+                newInputEl.placeholder = '留下你的精彩评论';
+                currentReplyToCommentId = null; // reset reply target after send
+                window.currentReplyTargetId = null;
+                window.showToast('评论已发送');
+            };
+
+            sendBtnRef.addEventListener('click', sendComment);
+            newInputEl.onkeydown = (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    sendComment();
+                }
+            };
+        }
+    };
+
+    window.tkReplyToComment = function(rootCommentId, targetCommentId, authorName, e) {
+        if (typeof targetCommentId === 'string' && authorName && authorName.type) {
+            e = authorName;
+            authorName = targetCommentId;
+            targetCommentId = rootCommentId;
+        } else if (!e && authorName && authorName.type) {
+            e = authorName;
+            authorName = targetCommentId;
+            targetCommentId = rootCommentId;
+        }
+
+        if(e) e.stopPropagation();
+        currentReplyToCommentId = rootCommentId;
+        window.currentReplyTargetId = targetCommentId || rootCommentId;
+        
+        const inputEl = document.getElementById('tk-comment-input');
+        if(inputEl) {
+            inputEl.placeholder = `回复 @${authorName}`;
+            inputEl.value = `@${authorName} `;
+            inputEl.focus();
+        }
+    };
+
+    window.tkToggleCommentLike = function(videoId, commentId, el, e) {
+        if(e) e.stopPropagation();
+        const foundVideo = window.findVideoGlobal ? window.findVideoGlobal(videoId) : {};
+        const video = foundVideo.video || tkState.videos.find(v => v.id === videoId);
+        if (!video || !video.comments) return;
+        
+        const cmt = video.comments.find(c => c.id === commentId);
+        if (cmt) {
+            cmt.isLiked = !cmt.isLiked;
+            cmt.likes = (cmt.likes || 0) + (cmt.isLiked ? 1 : -1);
+            if (window.tkPersistState) window.tkPersistState();
+            
+            if (cmt.isLiked) {
+                el.classList.add('liked');
+            } else {
+                el.classList.remove('liked');
+            }
+            el.querySelector('span').textContent = window.tkFormatCount(cmt.likes);
+        }
+    };
+
+    window.tkToggleReplies = function(commentId, e) {
+        if(e) e.stopPropagation();
+        const container = document.getElementById(`replies-${commentId}`);
+        const expandText = document.getElementById(`expand-text-${commentId}`);
+        if (!container || !expandText) return;
+
+        if (container.style.display === 'none') {
+            container.style.display = 'block';
+            expandText.innerHTML = `收起 <i class="fas fa-chevron-up" style="font-size:10px;"></i>`;
+        } else {
+            container.style.display = 'none';
+            // Count replies roughly
+            const count = container.children.length;
+            expandText.innerHTML = `展开 ${count} 条回复 <i class="fas fa-chevron-down" style="font-size:10px;"></i>`;
+        }
+    };
+
+    window.tkToggleCommentTranslation = function(event) {
+        if (event) event.stopPropagation();
+        const button = event?.currentTarget || event?.target;
+        const targetId = button?.dataset?.translationTarget;
+        if (!targetId) return;
+        const translationEl = document.getElementById(targetId);
+        if (!translationEl) return;
+        const isHidden = translationEl.style.display === 'none' || !translationEl.style.display;
+        translationEl.style.display = isHidden ? 'block' : 'none';
+        button.textContent = isHidden ? '收起翻译' : '翻译';
+    };
+    
+    // Share functionality
+    window.tkOpenShare = function(videoId, e) {
+        if(e) e.stopPropagation();
+        window.currentShareVideoId = videoId;
+        const shareSheet = document.getElementById('tk-share-sheet');
+        const shareList = document.getElementById('tk-share-list');
+        if (!shareSheet || !shareList) return;
+
+        // Inject friends into share list
+        shareList.innerHTML = '';
+        const followedChars = tkState.chars.filter(c => c.isFollowed);
+        if (followedChars.length === 0) {
+            shareList.innerHTML = '<div style="padding: 10px 15px; color: #999; font-size: 13px;">暂无好友可转发</div>';
+        } else {
+            followedChars.forEach(char => {
+                const item = document.createElement('div');
+                item.className = 'tk-share-friend-item';
+                
+                const avatarUrl = window.tkResolveAvatar(char.id, char.name || char.handle, char.avatar);
+                const avatarHtml = avatarUrl
+                    ? `<img src="${tkEscapeAttr(avatarUrl)}" style="width:100%; height:100%; border-radius:50%; object-fit:cover;">` 
+                    : `<i class="fas fa-user"></i>`;
+                
+                item.innerHTML = `
+                    <div class="tk-avatar-small" style="width: 48px; height: 48px;">${avatarHtml}</div>
+                    <span style="font-size: 11px; color: #555; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${char.name || char.handle}</span>
+                `;
+                
+                item.addEventListener('click', () => {
+                    window.showToast('已转发给 ' + (char.name || char.handle));
+                    window.closeView(document.getElementById('tk-share-sheet'));
+                    
+                    // Add mock message to DM with sharedVideoId
+                    let dm = tkState.dms.find(d => d.charId === char.id);
+                    if (!dm) {
+                        dm = { charId: char.id, messages: [] };
+                        tkState.dms.push(dm);
+                    }
+                    dm.messages.push({
+                        sender: 'user',
+                        text: '[分享了视频]',
+                        sharedVideoId: window.currentShareVideoId
+                    });
+
+                    // Update shares count
+                    const { video } = window.findVideoGlobal(window.currentShareVideoId);
+                    if (video) {
+                        video.shares = (video.shares || 0) + 1;
+                        // update UI if on home feed
+                        const shareCountEl = document.getElementById(`share-count-${video.id}`);
+                        if (shareCountEl) {
+                            shareCountEl.innerHTML = `已分享`;
+                            shareCountEl.style.color = '#ffb300';
+                            shareCountEl.previousElementSibling.style.color = '#ffb300';
+                        }
+                    }
+
+                    if (window.tkPersistState) window.tkPersistState();
+                    if (window.tkRenderChat) window.tkRenderChat();
+                    
+                    // Auto jump to chat
+                    const chatTabBtn = document.querySelector('.tk-bottom-nav .tk-nav-item[data-target="tk-chat-tab"]');
+                    if (chatTabBtn) chatTabBtn.click();
+                    
+                    setTimeout(() => {
+                        if (window.tkOpenChatView) {
+                            window.tkOpenChatView(char.id);
+                        }
+                    }, 300);
+                });
+                
+                shareList.appendChild(item);
+            });
+        }
+        
+        // Setup bottom actions
+        const actionsRow = document.querySelector('.tk-share-actions-row');
+        if (actionsRow) {
+            actionsRow.innerHTML = `
+                <div class="tk-share-action-item" onclick="window.tkHandleShareAction('save')">
+                    <div class="tk-share-action-icon"><i class="fas fa-bookmark" id="tk-share-save-icon"></i></div>
+                    <span>收藏</span>
+                </div>
+                <div class="tk-share-action-item" onclick="window.tkHandleShareAction('edit')">
+                    <div class="tk-share-action-icon"><i class="fas fa-pen"></i></div>
+                    <span>编辑</span>
+                </div>
+                <div class="tk-share-action-item" onclick="window.tkHandleShareAction('delete')">
+                    <div class="tk-share-action-icon" style="color: #ff3b30;"><i class="fas fa-trash-alt"></i></div>
+                    <span style="color: #ff3b30;">删除</span>
+                </div>
+                <div class="tk-share-action-item" onclick="window.showToast('链接已复制'); window.closeView(document.getElementById('tk-share-sheet'));">
+                    <div class="tk-share-action-icon"><i class="fas fa-link"></i></div>
+                    <span>复制链接</span>
+                </div>
+            `;
+        }
+        
+        // Prevent duplicate bindings on share actions by doing it only once
+        if (shareSheet && !shareSheet.dataset.boundActions) {
+            shareSheet.dataset.boundActions = "true";
+            
+            // Blanket close
+            shareSheet.addEventListener('click', (ev) => {
+                if (ev.target === shareSheet) window.closeView(shareSheet);
+            });
+            
+            // Close btn
+            const closeBtn = shareSheet.querySelector('#tk-close-share-btn');
+            if(closeBtn) {
+                closeBtn.addEventListener('click', () => window.closeView(shareSheet));
+            }
+        }
+        
+        // Before opening, dynamically color the save button if already saved
+        const saveIcon = document.getElementById('tk-share-save-icon');
+        if (saveIcon && window.currentShareVideoId) {
+            const { video } = window.findVideoGlobal(window.currentShareVideoId);
+            if (video && video.isSaved) {
+                saveIcon.style.color = '#ffb300';
+            } else {
+                saveIcon.style.color = '';
+            }
+        }
+        
+        window.openView(shareSheet);
+    };
+
+    window.tkOpenHashtag = function(tag, e) {
+        if(e) e.stopPropagation();
+        
+        const hashtagView = document.getElementById('tk-hashtag-view');
+        const titleEl = document.getElementById('tk-hashtag-title');
+        const gridEl = document.getElementById('tk-hashtag-grid');
+        
+        if (!hashtagView || !titleEl || !gridEl) return;
+        
+        titleEl.textContent = '#' + tag;
+        
+        // Filter videos containing this tag
+        const tagVideos = tkState.videos.filter(v => v.desc && v.desc.includes('#' + tag));
+        
+        gridEl.innerHTML = '';
+        if (tagVideos.length > 0) {
+            tagVideos.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'tk-grid-item';
+                let bgStyleStr = '#ffffff';
+                if (item.bgImage) bgStyleStr = `url('${item.bgImage}') center/cover no-repeat`;
+                else if (item.bgColor) bgStyleStr = item.bgColor;
+                
+                el.innerHTML = `
+                    <div class="tk-grid-text" style="position: relative; left: 0; top: 0; transform: none; background: ${bgStyleStr}; color:#111; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding: 8px; width: 100%; height: 100%; box-sizing: border-box; border: none; ">
+                        ${tkEscapeHtml(tkGetSceneText(item) ? tkGetSceneText(item).substring(0, 15) + '...' : '视频片段')}
+                    </div>
+                    <div class="tk-grid-views" style="color: #fff; text-shadow: none;"><i class="fas fa-play"></i> ${window.tkFormatCount(item.likes || Math.floor(Math.random()*1000))}</div>
+                `;
+                el.addEventListener('click', () => {
+                    if (window.tkOpenFullscreenVideo) window.tkOpenFullscreenVideo(item.id);
+                });
+                gridEl.appendChild(el);
+            });
+        } else {
+            gridEl.innerHTML = '<div style="grid-column: span 3; padding: 40px 0; text-align: center; color: #999; font-size: 13px;">暂无相关视频</div>';
+        }
+        
+        window.openView(hashtagView);
+
+        // Allow blank area click to close (Bind once)
+        if (!hashtagView.dataset.boundClose) {
+            hashtagView.dataset.boundClose = "true";
+            hashtagView.addEventListener('click', (ev) => {
+                if (ev.target === hashtagView) window.closeView(hashtagView);
+            });
+        }
+    };
+
+    window.tkOpenMusic = function(e) {
+        if(e) e.stopPropagation();
+        
+        const musicView = document.getElementById('tk-music-view');
+        const gridEl = document.getElementById('tk-music-grid');
+        
+        if (!musicView || !gridEl) return;
+
+        // Randomly pick a few videos to simulate a music feed
+        const musicVideos = [...tkState.videos].sort(() => 0.5 - Math.random()).slice(0, 8);
+        
+        gridEl.innerHTML = '';
+        if (musicVideos.length > 0) {
+            musicVideos.forEach(item => {
+                const el = document.createElement('div');
+                el.className = 'tk-grid-item';
+                let bgStyleStr = '#ffffff';
+                if (item.bgImage) bgStyleStr = `url('${item.bgImage}') center/cover no-repeat`;
+                else if (item.bgColor) bgStyleStr = item.bgColor;
+                
+                el.innerHTML = `
+                    <div class="tk-grid-text" style="position: relative; left: 0; top: 0; transform: none; background: ${bgStyleStr}; color:#111; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding: 8px; width: 100%; height: 100%; box-sizing: border-box; border: none; ">
+                        ${tkEscapeHtml(tkGetSceneText(item) ? tkGetSceneText(item).substring(0, 15) + '...' : '视频片段')}
+                    </div>
+                    <div class="tk-grid-views" style="color: #fff; text-shadow: none;"><i class="fas fa-play"></i> ${window.tkFormatCount(item.likes || Math.floor(Math.random()*1000))}</div>
+                `;
+                el.addEventListener('click', () => {
+                    if (window.tkOpenFullscreenVideo) window.tkOpenFullscreenVideo(item.id);
+                });
+                gridEl.appendChild(el);
+            });
+        } else {
+            gridEl.innerHTML = '<div style="grid-column: span 3; padding: 40px 0; text-align: center; color: #999; font-size: 13px;">暂无相关视频</div>';
+        }
+        
+        window.openView(musicView);
+
+        // Allow blank area click to close (Bind once)
+        if (!musicView.dataset.boundClose) {
+            musicView.dataset.boundClose = "true";
+            musicView.addEventListener('click', (ev) => {
+                if (ev.target === musicView) window.closeView(musicView);
+            });
+        }
+    };
+
+    // Global variable for current user modal
+    window.currentCommentModalAuthorId = null;
+
+    window.tkOpenCommentAuthorProfile = function(authorId, authorName, avatar, e) {
+        if (e) e.stopPropagation();
+        const safeId = authorId || `commenter_${Date.now()}_${Math.floor(Math.random() * 1000)}`;
+        const safeName = authorName || 'User';
+
+        window.closeView(document.getElementById('tk-comment-user-modal'));
+        window.closeView(document.getElementById('tk-video-detail-sheet'));
+
+        let char = window.tkGetChar(safeId);
+        if (!char) {
+            window.tkSaveChar({
+                id: safeId,
+                name: safeName,
+                handle: safeId,
+                avatar: avatar || null,
+                persona: `${safeName} 是从 TikTok 评论区进入主页的用户。`,
+                bio: '来自评论区',
+                following: 0,
+                followers: Math.floor(Math.random() * 5000),
+                likes: Math.floor(Math.random() * 20000),
+                isFollowed: false
+            });
+            char = window.tkGetChar(safeId);
+        } else if (avatar && !char.avatar) {
+            char.avatar = avatar;
+            if (window.tkPersistState) window.tkPersistState();
+        }
+
+        if (window.tkOpenSubProfile) window.tkOpenSubProfile(safeId);
+    };
+
+    // Comment User Modal Logic
+    window.tkOpenCommentUserModal = function(authorId, authorName, e) {
+        if(e) e.stopPropagation();
+        const modal = document.getElementById('tk-comment-user-modal');
+        const nameEl = document.getElementById('tk-comment-modal-name');
+        const homeBtn = document.getElementById('tk-comment-modal-home-btn');
+        
+        if (!modal) return;
+        
+        nameEl.textContent = authorName;
+        window.currentCommentModalAuthorId = authorId;
+        window.currentCommentModalAuthorName = authorName;
+        
+        // Bind button once globally
+        if (!homeBtn.dataset.bound) {
+            homeBtn.dataset.bound = "true";
+            homeBtn.addEventListener('click', () => {
+                const aId = window.currentCommentModalAuthorId;
+                const aName = window.currentCommentModalAuthorName;
+                if(!aId) return;
+
+                window.closeView(modal);
+                window.closeView(document.getElementById('tk-video-detail-sheet'));
+                
+                let char = window.tkGetChar(aId);
+                if (!char) {
+                    if (window.tkGenerateCharVideos) {
+                        window.tkGenerateCharVideos(aId, () => {
+                            window.tkOpenSubProfile(aId);
+                        });
+                    } else {
+                        window.tkSaveChar({
+                            id: aId,
+                            name: aName,
+                            handle: aId,
+                            persona: '谢谢你的关注',
+                            isFollowed: false
+                        });
+                        window.tkOpenSubProfile(aId);
+                    }
+                } else {
+                    window.tkOpenSubProfile(aId);
+                }
+            });
+        }
+        
+        // Blank area close for modal (Bind once)
+        if (!modal.dataset.boundClose) {
+            modal.dataset.boundClose = "true";
+            modal.addEventListener('click', (ev) => {
+                if (ev.target === modal) window.closeView(modal);
+            });
+        }
+        
+        window.openView(modal);
+    };
+
+    function tkEnsureSearchGenerateSheet() {
+        let sheet = document.getElementById('tk-search-generate-sheet');
+        if (sheet) return sheet;
+
+        sheet = document.createElement('div');
+        sheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+        sheet.id = 'tk-search-generate-sheet';
+        sheet.innerHTML = `
+            <div class="bottom-sheet tk-search-generate-sheet">
+                <div class="sheet-handle"></div>
+                <div class="sheet-title">搜索生成视频</div>
+                <div class="detail-sheet-content tk-search-generate-content">
+                    <div class="tk-search-generate-box">
+                        <i class="fas fa-search"></i>
+                        <input id="tk-search-generate-input" type="text" placeholder="想看什么？留空随机生成">
+                    </div>
+                    <div class="sheet-action confirm-action" id="tk-search-generate-confirm">生成</div>
+                    <div class="sheet-action" id="tk-search-generate-cancel">取消</div>
+                </div>
+            </div>
+        `;
+        document.getElementById('tiktok-view')?.appendChild(sheet);
+
+        sheet.addEventListener('click', (event) => {
+            if (event.target === sheet) window.closeView(sheet);
+        });
+        sheet.querySelector('#tk-search-generate-cancel')?.addEventListener('click', () => window.closeView(sheet));
+        sheet.querySelector('#tk-search-generate-confirm')?.addEventListener('click', () => {
+            const query = sheet.querySelector('#tk-search-generate-input')?.value.trim() || '';
+            window.closeView(sheet);
+            window.tkGenerateSearchVideos(query);
+        });
+        sheet.querySelector('#tk-search-generate-input')?.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                sheet.querySelector('#tk-search-generate-confirm')?.click();
+            }
+        });
+
+        return sheet;
+    }
+
+    window.tkOpenSearchGenerateSheet = function(e) {
+        if (e) e.stopPropagation();
+        const sheet = tkEnsureSearchGenerateSheet();
+        const input = sheet.querySelector('#tk-search-generate-input');
+        if (input) input.value = '';
+        window.openView(sheet);
+        setTimeout(() => input?.focus(), 80);
+    };
+
+    window.tkTriggerApiGenerate = function(e) {
+        window.tkOpenSearchGenerateSheet(e);
+    };
+
+    if (apiGenBtn) {
+        apiGenBtn.addEventListener('click', window.tkOpenSearchGenerateSheet);
+    }
+
+    window.tkGenerateSearchVideos = async function(query = '') {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请在系统设置中配置 API');
+            return;
+        }
+
+        const topic = String(query || '').trim();
+        const contextText = topic || '随机 TikTok 视频流';
+        const wbContext = window.tkBuildWorldBookContext ? window.tkBuildWorldBookContext(contextText) : '';
+        const userPersonaContext = window.tkBuildWorldActorPrompt
+            ? window.tkBuildWorldActorPrompt({
+                includeUserIdentity: false,
+                purpose: 'TikTok For You 主页内容流',
+                triggerText: topic || contextText
+            })
+            : '';
+
+        const prompt = `
+你是 TikTok For You 内容流 JSON 生成器。根据用户想看的主题、世界书和 user 人设关键词触发信息，一次生成 2-5 条完整 TikTok 内容，内容可以是短视频，也可以是图片帖。
+你可以是这个世界观里的任何非 user 创作者/路人/账号；只有主题确实需要时才提到 user，且永远不能扮演 user。
+
+用户主题：${topic || '留空，随机生成但要具体、有生活感'}
+
+硬性要求：
+1. 返回严格 JSON 数组，数组长度 2-5，不要 markdown，不要解释文字。
+2. 每条内容必须有 mediaType，值只能是 "video" 或 "image"；video 像真实短视频，image 像真实图片帖/随手拍/截图梗图。
+3. 每条内容必须有 opening、middle、ending 三段；每段不少于 40 个字符，建议 40-80 字，分别呈现开头、中间、结尾，适合在画面中央逐条气泡显示。原文可以使用符合作者国籍、世界观和内容语境的任意语言。
+4. image 内容必须额外提供 imagePrompt，描述图片主体、构图、光线、质感；可选 bgImage、cover 或 imageUrl，如果没有真实 URL 就留空。
+5. 每条内容必须有不少于 10 条 comments。每条评论必须有 authorName、authorAvatar、text、likes、replies。
+6. replies 必须保留为数组；每条视频的 replies 楼中楼回复总数不少于 10 条，可以分布在多条评论下；每条回复带 authorName、authorAvatar、text、likes。
+7. desc 要像真实 TikTok 文案，可带 0-3 个 tag。内容要有网感、活人感、镜头感，不要像新闻稿。
+8. 作者和评论头像可使用 https://picsum.photos/150/150?random=数字 或 https://api.dicebear.com/7.x/avataaars/svg?seed=名字。
+9. 国际化翻译规则：opening/middle/ending 如果不是中文，必须分别填写 openingTranslationZh/middleTranslationZh/endingTranslationZh；评论或 replies 的 text 如果不是中文，必须填写 translationZh；如果原文是中文，对应翻译字段必须是空字符串。
+10. 禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。
+
+JSON 示例：
+[
+  {
+    "mediaType": "image",
+    "authorName": "用户昵称",
+    "handle": "user_id",
+    "authorAvatar": "https://picsum.photos/150/150?random=101",
+    "desc": "刚刚发生的瞬间 #日常 #随手拍",
+    "imagePrompt": "夜晚便利店门口的暖光随手拍，玻璃反光里有人低头笑，手机纪实感",
+    "opening": "开头不少于40字，写环境、第一眼看到的动作和氛围，要像画面中央的长气泡文字。",
+    "openingTranslationZh": "",
+    "middle": "中间不少于40字，写人物反应、冲突或一句很真实的话，保持第三人称和镜头感。",
+    "middleTranslationZh": "",
+    "ending": "结尾不少于40字，写收束、反转、余味或下一秒发生什么，不要短于40字。",
+    "endingTranslationZh": "",
+    "likes": 1234,
+    "shares": 12,
+    "comments": [
+      {
+        "authorName": "评论者A",
+        "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=a",
+        "text": "评论内容",
+        "translationZh": "",
+        "likes": 12,
+        "replies": [
+          {
+            "authorName": "回复者B",
+            "authorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=b",
+            "text": "楼中楼回复",
+            "translationZh": "",
+            "likes": 3
+          }
+        ]
+      }
+    ]
+  }
+]
+
+最终输出前请自检：
+- 顶层只能是 JSON 数组，或对象 { "content": [...] }。
+- 所有属性名必须是英文双引号。
+- 每条内容至少 10 条 comments，且 replies 总数至少 10 条。
+- opening、middle、ending 每个字段都不少于 40 个字符；如果不是中文，对应 TranslationZh 字段必须给出中文翻译。
+- 不允许尾逗号、注释、markdown 代码块、解释文字、中文引号作为 JSON 引号。
+- 如果不确定图片 URL，请把 imageUrl/bgImage/cover 留空，不要编造不可访问链接。
+
+${wbContext}
+${userPersonaContext}
+`;
+
+        try {
+            window.showToast(topic ? '正在按搜索生成内容...' : '正在随机生成内容...');
+            const response = await fetch(tkResolveApiEndpoint(), {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        {
+                            role: 'system',
+                            content: 'Return strict valid JSON only. Use double-quoted property names and string values. Do not include markdown, comments, prose, single-quoted strings, or trailing commas.'
+                        },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(window.apiConfig.temperature) || 0.8
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+
+            const data = await response.json();
+            let aiReply = data.choices?.[0]?.message?.content || '';
+            const parsed = tkParseAiJson(aiReply);
+            const parsedVideos = Array.isArray(parsed) ? parsed : (Array.isArray(parsed.content) ? parsed.content : []);
+            if (!Array.isArray(parsedVideos) || parsedVideos.length === 0) throw new Error('JSON content is not an array');
+
+            const normalizedVideos = parsedVideos
+                .slice(0, 5)
+                .map(video => window.tkNormalizeVideoPayload(video));
+            normalizedVideos.slice().reverse().forEach(video => {
+                tkState.videos.unshift(video);
+            });
+            const latestVideoId = normalizedVideos[0]?.id || null;
+
+            if (window.tkPersistState) window.tkPersistState();
+            if (window.tkShowLatestGeneratedVideo) {
+                window.tkShowLatestGeneratedVideo(latestVideoId);
+            } else {
+                window.tkRenderHome();
+                requestAnimationFrame(() => {
+                    if (feedContainer) feedContainer.scrollTop = 0;
+                });
+            }
+            window.showToast('已生成内容');
+        } catch (error) {
+            console.error('Search Gen Error:', error);
+            window.showToast('生成失败，请检查 API 或返回格式');
+        }
+    };
+
+    // Keep the TikTok top-right action as search.
+    setTimeout(() => {
+        const topbarRight = document.querySelector('.tk-home-topbar .tk-topbar-right');
+        if (topbarRight) {
+            topbarRight.innerHTML = '<i class="fas fa-search" style="color: #111; cursor: pointer; font-size: 20px;"></i>';
+            topbarRight.addEventListener('click', window.tkOpenSearchGenerateSheet);
+        }
+    }, 100);
+
+    // Top Bar Tabs logic
+    const topTabs = document.querySelectorAll('.tk-topbar-tab');
+    topTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            topTabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            if (window.tkResetHomeFeedLimit) window.tkResetHomeFeedLimit();
+            
+            // Re-render home feed based on active tab
+            window.tkRenderHome();
+        });
+    });
+
+    // API Logic
+    async function generateVideos() {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请在系统设置中配置 API');
+            return;
+        }
+
+        window.showToast('正在生成内容...');
+        
+        // Collect World Book info if any exist globally
+        let wbContext = window.tkBuildWorldBookContext
+            ? `${window.tkBuildWorldBookContext('随机 TikTok 视频流')}\n\n`
+            : '';
+        
+        // 1. 全局世界书
+        if (window.getWorldBooks) {
+            const allWb = window.getWorldBooks();
+            const globalWb = allWb.filter(b => b.isGlobal);
+            if (globalWb.length > 0) {
+                wbContext += "世界观背景设定:\n";
+                globalWb.forEach(b => {
+                    b.entries.forEach(e => {
+                        wbContext += `- ${e.keyword}: ${e.content}\n`;
+                    });
+                });
+                wbContext += "\n";
+            }
+        }
+
+        // 2. 内置世界书
+        if (window.getBuiltinWorldBooks) {
+            const builtinWb = window.getBuiltinWorldBooks().filter(b => b.isGlobal);
+            if (builtinWb.length > 0) {
+                wbContext += "内置设定:\n";
+                builtinWb.forEach(b => {
+                    b.entries.forEach(e => {
+                        wbContext += `- ${e.keyword}: ${e.content}\n`;
+                    });
+                });
+                wbContext += "\n";
+            }
+        }
+
+        // 3. (首页随机流暂不需要特定角色记忆，但可以预留)
+
+        // user 人设只作为世界观/关键词触发，不强制内容围绕 user。
+        const userPersonaContext = window.tkBuildWorldActorPrompt
+            ? window.tkBuildWorldActorPrompt({
+                includeUserIdentity: false,
+                purpose: 'TikTok 首页随机内容流',
+                triggerText: '随机 TikTok 视频流'
+            })
+            : '';
+
+        const prompt = `
+你现在是一个 TikTok 视频内容生成器。请根据挂载的世界书与 user 人设关键词触发信息，生成 3-5 条 TikTok 视频数据。
+你可以是这个世界观中的任何非 user 账号；没有必要时不要提到 user，禁止扮演 user。
+要求：
+1. 整体风格符合世界观，仿真实tk网络视频，内容多样化，文案具有网感。
+2. 视频内容由 opening、middle、ending 三个气泡字段组成，必须以第三人称视角描述环境氛围、动作和语言；每个气泡不少于 40 个字符，建议 40-80 字。原文可以使用符合作者国籍、世界观和内容语境的任意语言。
+3. 务必为每个视频生成不少于 10 条相关评论，具有活人感与网感，可以玩梗。强烈建议在评论正文中加入艾特 (@好友名字) 增强真实感。
+4. 每条评论都必须带 \`replies\` 数组；每个视频的楼中楼 replies 总数不少于 10 条，可以分布在多条评论下。
+5. 国际化翻译规则：opening/middle/ending 如果不是中文，必须分别填写 openingTranslationZh/middleTranslationZh/endingTranslationZh；评论或 replies 的 text 如果不是中文，必须填写 translationZh；如果原文是中文，对应翻译字段必须是空字符串。
+6. 禁止扮演user的身份发抖音和评论，你只能是除了user以外的人。
+7. 返回严格的 JSON 格式（不要有 markdown 代码块标记，不要多余文字），格式如下：
+[
+  {
+    "authorName": "用户昵称",
+    "handle": "user_id",
+    "authorAvatar": "",
+    "desc": "视频文案（简短，带0-3个tag，活人感）",
+    "opening": "傍晚的咖啡馆里暖黄色灯光洒在桌面，镜头先扫过排队的人群，再停在窗边那个低头发呆的人身上。",
+    "openingTranslationZh": "",
+    "middle": "他围着棕色围巾一边搅拌拿铁一边叹气，说下班高峰堵到怀疑人生，旁边朋友忍不住笑出声。",
+    "middleTranslationZh": "",
+    "ending": "镜头最后切到窗外排队的车灯，他突然接到消息又站起来，评论区都在猜这通电话是谁打来的。",
+    "endingTranslationZh": "",
+    "likes": 1234,
+    "commentsCount": 20,
+    "shares": 12,
+    "comments": [
+      { 
+        "authorName": "评论者A", 
+        "authorAvatar": "", 
+        "text": "真的！@回复者B", 
+        "translationZh": "",
+        "likes": 12,
+        "replies": [
+           {
+             "authorName": "回复者B",
+             "authorAvatar": "",
+             "text": "我也觉得！",
+             "translationZh": "",
+             "likes": 3
+           }
+        ]
+      }
+    ]
+  }
+]
+
+最终输出前请自检：每条视频至少 10 条 comments，replies 总数至少 10 条，opening、middle、ending 每段都不少于 40 个字符；如果原文不是中文，对应 TranslationZh 字段必须给出中文翻译。
+
+${wbContext}
+${userPersonaContext}
+`;
+
+        try {
+            let endpoint = window.apiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'You are a helpful JSON data generator.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(window.apiConfig.temperature) || 0.8
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+            
+            const data = await response.json();
+            let aiReply = data.choices[0].message.content;
+            
+            const parsedVideos = tkParseAiJson(aiReply);
+            
+            if (Array.isArray(parsedVideos)) {
+                const normalizedVideos = parsedVideos
+                    .slice(0, 5)
+                    .map(v => window.tkNormalizeVideoPayload(v));
+                normalizedVideos.slice().reverse().forEach(video => {
+                    tkState.videos.unshift(video);
+                });
+                const latestVideoId = normalizedVideos[0]?.id || null;
+                
+                if (window.tkPersistState) window.tkPersistState();
+                if (window.tkShowLatestGeneratedVideo) {
+                    window.tkShowLatestGeneratedVideo(latestVideoId);
+                } else {
+                    window.tkRenderHome();
+                }
+                window.showToast('内容生成成功');
+            } else {
+                throw new Error('JSON is not an array');
+            }
+
+        } catch (error) {
+            console.error('Gen Error:', error);
+            window.showToast('生成失败，请检查 API 配置或返回格式');
+        }
+    }
+
+});

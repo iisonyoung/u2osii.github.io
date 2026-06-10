@@ -1,1 +1,68 @@
-const _0x48d46d=_0x57b6;function _0x4ce4(){const _0x28c59e=['stringify','6802313amsMXr','30kINQMQ','10564428DfkKga','StorageManager','74AQkQBY','localStorage','getItem','error','102092uDaxJj','Storage\x20load\x20error\x20for\x20key\x20\x22','29787qHkjLn','330Bfwscz','Storage\x20save\x20error\x20for\x20key\x20\x22','clear','7075808zOFqhu','Storage\x20clearAll\x20error:','1126854WLAnlE','removeItem','4034637ADVuZh'];_0x4ce4=function(){return _0x28c59e;};return _0x4ce4();}(function(_0x1ef1f3,_0x1ee845){const _0x4eb93d=_0x57b6,_0x4565ff=_0x1ef1f3();while(!![]){try{const _0x4c48d6=parseInt(_0x4eb93d(0x13b))/0x1*(-parseInt(_0x4eb93d(0x135))/0x2)+parseInt(_0x4eb93d(0x143))/0x3+-parseInt(_0x4eb93d(0x139))/0x4*(-parseInt(_0x4eb93d(0x132))/0x5)+-parseInt(_0x4eb93d(0x133))/0x6+-parseInt(_0x4eb93d(0x145))/0x7+-parseInt(_0x4eb93d(0x13f))/0x8+parseInt(_0x4eb93d(0x141))/0x9*(parseInt(_0x4eb93d(0x13c))/0xa);if(_0x4c48d6===_0x1ee845)break;else _0x4565ff['push'](_0x4565ff['shift']());}catch(_0x176faa){_0x4565ff['push'](_0x4565ff['shift']());}}}(_0x4ce4,0xde583));const StorageManager={'save':function(_0x3b9706,_0x437c1d){const _0x4b0068=_0x57b6;try{const _0x326451=JSON[_0x4b0068(0x144)](_0x437c1d);return window[_0x4b0068(0x136)]['setItem'](_0x3b9706,_0x326451),!![];}catch(_0x45dbe5){return console[_0x4b0068(0x138)](_0x4b0068(0x13d)+_0x3b9706+'\x22:',_0x45dbe5),![];}},'load':function(_0x17cd9f,_0x5c08f5=null){const _0x4ad007=_0x57b6;try{const _0x783c4e=window[_0x4ad007(0x136)][_0x4ad007(0x137)](_0x17cd9f);if(_0x783c4e===null)return _0x5c08f5;return JSON['parse'](_0x783c4e);}catch(_0x30ab5c){return console[_0x4ad007(0x138)](_0x4ad007(0x13a)+_0x17cd9f+'\x22:',_0x30ab5c),_0x5c08f5;}},'remove':function(_0x124fe7){const _0x36db81=_0x57b6;try{return window['localStorage'][_0x36db81(0x142)](_0x124fe7),!![];}catch(_0x41a6d7){return console[_0x36db81(0x138)]('Storage\x20remove\x20error\x20for\x20key\x20\x22'+_0x124fe7+'\x22:',_0x41a6d7),![];}},'clearAll':function(){const _0x154165=_0x57b6;try{window[_0x154165(0x136)][_0x154165(0x13e)]();}catch(_0x26b385){console[_0x154165(0x138)](_0x154165(0x140),_0x26b385);}}};function _0x57b6(_0x12b9bf,_0x462d7c){_0x12b9bf=_0x12b9bf-0x132;const _0x4ce4cf=_0x4ce4();let _0x57b62d=_0x4ce4cf[_0x12b9bf];return _0x57b62d;}window[_0x48d46d(0x134)]=StorageManager;
+/**
+ * 移动端数据本地存储模块 */
+const StorageManager = {
+    /**
+     * 保存数据到本地存储
+     * @param {string} key 存储的键名
+     * @param {any} value 要存储的数据（支持对象、数组等，会自动序列化为 JSON）
+     * @returns {boolean} 是否保存成功
+     */
+    save: function(key, value) {
+        try {
+            const serializedValue = JSON.stringify(value);
+            window.localStorage.setItem(key, serializedValue);
+            return true;
+        } catch (error) {
+            console.error(`Storage save error for key "${key}":`, error);
+            // 处理隐私模式下可能抛出的配额异常等
+            return false;
+        }
+    },
+
+    /**
+     * 从本地存储读取数据
+     * @param {string} key 存储的键名
+     * @param {any} defaultValue 读取失败或不存在时的默认值
+     * @returns {any} 解析后的数据或默认值
+     */
+    load: function(key, defaultValue = null) {
+        try {
+            const serializedValue = window.localStorage.getItem(key);
+            if (serializedValue === null) {
+                return defaultValue;
+            }
+            return JSON.parse(serializedValue);
+        } catch (error) {
+            console.error(`Storage load error for key "${key}":`, error);
+            return defaultValue;
+        }
+    },
+
+    /**
+     * 删除指定的本地存储数据
+     * @param {string} key 存储的键名
+     * @returns {boolean} 是否删除成功
+     */
+    remove: function(key) {
+        try {
+            window.localStorage.removeItem(key);
+            return true;
+        } catch (error) {
+            console.error(`Storage remove error for key "${key}":`, error);
+            return false;
+        }
+    },
+
+    /**
+     * 清空所有本地存储数据
+     */
+    clearAll: function() {
+        try {
+            window.localStorage.clear();
+        } catch (error) {
+            console.error('Storage clearAll error:', error);
+        }
+    }
+};
+
+window.StorageManager = StorageManager;

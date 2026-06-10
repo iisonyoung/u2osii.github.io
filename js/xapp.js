@@ -1,1 +1,3193 @@
-function _0x4396(_0x47aa1,_0x54d3db){_0x47aa1=_0x47aa1-0x178;const _0x6274ae=_0x6274();let _0x439669=_0x6274ae[_0x47aa1];return _0x439669;}function _0x6274(){const _0x32ae83=['.x-dm-row[data-dm-id]','#x-super-profile-tabs\x20button[data-super-tab]','sourceFriendId','display','x-profile-close-btn','最近访问了你的主页','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-weight:bold;\x22>','新帖子草稿','chars','unshift','x-profile-post-handle','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0aWorldbook\x20context:\x0a','boundWorldBookIds','Akira','[X]\x20Generate\x20topic\x20posts\x20failed','reply\x20inside\x20a\x20comment\x20thread','temp-','x-reply-context-text','@me','x-edit-name-input','x-edit-avatar-preview','default','x-create-topic-banner-input','insertAdjacentElement','http','key','result','reposts','You\x20generate\x20strict\x20JSON\x20for\x20social-feed\x20replies\x20and\x20profile\x20visitors.','.x-super-title-row\x20button','x-dm-chat-api-btn','getBuiltinWorldBookEntries','data-profile-panel','commentsCount','520','\x0aCurrent\x20Date:\x20','status','已签到','icon','<div\x20class=\x22x-dm-chat-empty\x22>暂无消息</div>','x-global-date-input','Character:\x20','\x20fa-heart','x-super-follow-count','trim','avatarAssetId','Action','Char','关注页用静态占位就能先验证切换体验。','cursor','closest','@user\x20·\x201m','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>','scrollTop','refId','x-visitors-close-btn','.x-feed-card','min','authorName','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-edit\x20x-dm-profile-source\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20x-dm-settings-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-edit-sheet-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-text-btn\x22\x20id=\x22x-post-settings-close-btn\x22\x20type=\x22button\x22>关闭</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>帖子设置</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-settings-spacer\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-settings-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-settings-action\x20danger\x22\x20id=\x22x-post-delete-btn\x22\x20type=\x22button\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-trash-alt\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>删除帖子</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getCurrentAccountId','<i\x20class=\x22fa-brands\x20fa-x-twitter\x22></i>','.x-feed-card[data-post-id=\x22','toString','querySelector','reverse','data:','x-topic-manual-persona','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22x-detail-text\x22>','x-settings-close-btn','\x20fa-heart\x22></i><span>','x-reply-cancel-btn','没有生成可用帖子','iMessage\x20导入','@super\x20·\x2028m','.x-main-content','世界书选择器不可用','3.2K','1047752oFPWLM','x-reply-context','&amp;','\x20·\x20now</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','[X]\x20Failed\x20to\x20load\x20iMessage\x20chars','imStorage','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-profile-home-btn\x22\x20type=\x22button\x22\x20data-dm-profile-id=\x22','x-topic-manual-handle','includes','[Built-in\x20WorldBook]\x0a','<div\x20style=\x22text-align:center;\x20padding:\x2010px;\x22>加载中...</div>','object','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x20x-avatar-dark\x22>X</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22x-reply-input\x22\x20type=\x22text\x22\x20maxlength=\x22180\x22\x20placeholder=\x22Post\x20your\x20reply\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22x-reply-submit-btn\x22\x20type=\x22button\x22>Reply</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#x-home-tab\x20.x-feed-panel','@mina\x20·\x202m','aria-hidden','xPostThreads','activeElement','x-edit-banner-preview','\x22\x20alt=\x22\x22>','@island\x20·\x2012m','User','xTopics','3854766pPcFIW','x-detail-repost-btn','x-compose-sheet','shiftKey','tabindex','.x-header-button','API\x20调用失败，请稍后重试','touchstart','likes','findIndex','gpt-3.5-turbo','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20x-search-generate-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-edit-sheet-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-text-btn\x22\x20id=\x22x-search-generate-close-btn\x22\x20type=\x22button\x22>Close</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>搜索/生成帖子</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-save\x22\x20id=\x22x-search-generate-run-btn\x22\x20type=\x22button\x22>Generate</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-search-generate-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22x-add-dm-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>生成方向</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22x-search-generate-input\x22\x20maxlength=\x22500\x22\x20placeholder=\x22可留空，或输入想生成的帖子主题\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.x-super-feed[data-super-panel=\x22moments\x22]','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-super-follow-avatar\x22>','picture','visitors','getAppState','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20justify-content:space-between;\x20align-items:center;\x20background:#f0f0f0;\x20padding:8px\x2012px;\x20border-radius:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:24px;\x20height:24px;\x20border-radius:50%;\x20overflow:hidden;\x20background:#ccc;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20font-size:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','edited','.x-empty-add-dm-btn','17278670EyTHvJ','querySelectorAll','x-create-topic-cancel-btn','x-search-generate-run-btn','onload','onlineStatus','actionText','x-comments-list','x-topic-manual-char-btn','aria-label','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','island','You\x20are\x20a\x20JSON\x20generator\x20for\x20a\x20fictional\x20social\x20feed.\x20Output\x20only\x20valid\x20JSON\x20object\x20with\x20onlineStatus\x20and\x20items\x20array.','toUpperCase','toISOString','split','persona','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','x-profile-cover','far','application/json','authorAvatar','source','prepend','Luna','Cover','value','\x20·\x20pinned','following','#x-discover-tab\x20.x-section-header','[data-dm-profile-id]','Return\x20strict\x20JSON\x20only.\x20Generate\x201\x20to\x203\x20X/Twitter\x20style\x20posts\x20for\x20the\x20user\x27s\x20feed\x20specifically\x20about\x20the\x20topic:\x20\x22','\x20的私信会话吗？此操作不可恢复。','system','x-topic-detail-generate-btn','dmId','\x22>Reply</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','已添加到\x20X\x20私信','data-feed-panel','x-profile-cover-right-actions','x-dm-profile-body','暂无签名','</strong><span>Messages</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>','imData','x-image-preview-close','林屿\x20Island','x-profile-handle','.x-dm-profile-tabs\x20button[data-dm-profile-tab]','<div\x20class=\x22x-empty-state\x22>暂无精选，点击更新获取内容</div>','\x22\x20data-post-id=\x22','清空聊天记录','<div\x20class=\x22x-super-cover-mark\x22>#</div>','appStorage','apiKey','url(','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-super-follow-item\x22\x20data-topic-id=\x22','x-super-follow-list','x-reply-input','#x-messages-tab\x20.x-message-list','\x20粉丝\x20·\x20连续签到\x20','keyCode','imageUrl','API\x20config\x20missing','@char','app-x-btn','imageText','.x-super-topic-avatar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-body\x22\x20style=\x22margin-left:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-moment-action\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22\x20style=\x22width:24px;height:24px;font-size:10px;\x22>','x-super-tab','add','Reply\x20as\x20the\x20X\x20private-message\x20character.\x20Return\x20only\x20one\x20natural\x20short\x20message,\x20no\x20JSON.','data-dm-profile-tab','getBoundingClientRect','x-dm-chat-input','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','x-topic-manual-container','&quot;','realName','-01-01','xgen','altKey','error','all','cloneNode','.x-topic-pick-char-btn','超话精选','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','359278mqZPSH','isOnline','isFeatured','startsWith','x-feed-card\x20x-generated-feed-card','\x0aUser\x20comment\x20text:\x20','@luna\x20·\x203m','filter','<div\x20class=\x22x-empty-state\x22>加载\x20iMessage\x20Char...</div>','x-create-topic-avatar-input','已生成\x20','pointer','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','\x22\x20in\x20a\x20Chinese\x20social\x20app\x20similar\x20to\x20Weibo.\x0a\x0aPlease\x20generate\x20a\x20JSON\x20OBJECT\x20containing\x20the\x20celebrity\x27s\x20online\x20status\x20and\x20an\x20array\x20of\x2015\x20to\x2020\x20feed\x20items.\x0aThe\x20feed\x20items\x20should\x20be\x20a\x20mix\x20of\x20fan\x20posts,\x20photo\x20posts,\x20featured\x20high-quality\x20posts,\x20and\x20moments.\x0a\x0aJSON\x20Format\x20Requirements:\x0a{\x0a\x20\x20\x22onlineStatus\x22:\x20{\x0a\x20\x20\x20\x20\x22isOnline\x22:\x20boolean,\x20//\x20Is\x20the\x20celebrity\x20online\x20right\x20now?\x0a\x20\x20\x20\x20\x22lastOnline\x22:\x20\x22String\x22\x20//\x20e.g.\x20\x22刚刚\x22,\x20\x2210分钟前\x22,\x20\x222小时前\x22,\x20\x22昨天\x22.\x20Empty\x20string\x20\x22\x22\x20if\x20isOnline\x20is\x20true.\x0a\x20\x20},\x0a\x20\x20\x22items\x22:\x20[\x0a\x20\x20\x20\x20//\x201.\x20\x22Posts\x22\x20(帖子):\x20Fan/entertainment\x20text\x20posts.\x0a\x20\x20\x20\x20//\x20Format:\x20{\x20\x22authorName\x22:\x20\x22\x22,\x20\x22handle\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22,\x20\x22likes\x22:\x200,\x20\x22reposts\x22:\x200,\x20\x22commentsCount\x22:\x2010,\x20\x22mediaType\x22:\x20\x22text\x22,\x20\x22comments\x22:\x20[\x20{\x22authorName\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22}\x20]\x20}\x0a\x0a\x20\x20\x20\x20//\x202.\x20\x22Photos\x22\x20(图片):\x20Posts\x20containing\x20images.\x20\x0a\x20\x20\x20\x20//\x20Format:\x20{\x20\x22authorName\x22:\x20\x22\x22,\x20\x22handle\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22,\x20\x22likes\x22:\x200,\x20\x22reposts\x22:\x200,\x20\x22commentsCount\x22:\x2010,\x20\x22mediaType\x22:\x20\x22image\x22,\x20\x22imagePrompt\x22:\x20\x22Description\x20of\x20image\x22,\x20\x22comments\x22:\x20[\x20{\x22authorName\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22}\x20]\x20}\x0a\x0a\x20\x20\x20\x20//\x203.\x20\x22Featured\x22\x20(精选):\x20High-quality\x20hot\x20posts\x20(can\x20be\x20text\x20or\x20image).\x20MUST\x20add\x20\x22isFeatured\x22:\x20true.\x0a\x20\x20\x20\x20//\x20Format:\x20{\x20\x22authorName\x22:\x20\x22\x22,\x20\x22handle\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22,\x20\x22likes\x22:\x205000,\x20\x22reposts\x22:\x201000,\x20\x22commentsCount\x22:\x2050,\x20\x22mediaType\x22:\x20\x22text|image\x22,\x20\x22isFeatured\x22:\x20true,\x20\x22comments\x22:\x20[...]\x20}\x0a\x0a\x20\x20\x20\x20//\x204.\x20\x22Moments\x22\x20(动态):\x20Celebrity\x20activity\x20logs\x20(名人互动动态).\x20MUST\x20add\x20\x22isMoment\x22:\x20true.\x0a\x20\x20\x20\x20//\x20Represents\x20the\x20celebrity\x20interacting\x20with\x20other\x20posts\x20(likes,\x20comments,\x20reposts).\x0a\x20\x20\x20\x20//\x20Format\x20MUST\x20include:\x20\x22actionText\x22\x20(e.g.\x20\x22点赞了这条帖子\x22,\x20\x22评论了这条帖子\x22),\x20and\x20a\x20nested\x20\x22refPost\x22\x20object\x20representing\x20the\x20original\x20post\x20they\x20interacted\x20with.\x0a\x20\x20\x20\x20//\x20Format:\x20{\x20\x22authorName\x22:\x20\x22Celebrity\x20Name\x22,\x20\x22handle\x22:\x20\x22@celeb\x22,\x20\x22isMoment\x22:\x20true,\x20\x22actionText\x22:\x20\x22点赞了这条帖子\x22,\x20\x22refPost\x22:\x20{\x20\x22authorName\x22:\x20\x22Fan\x20Account\x22,\x20\x22handle\x22:\x20\x22@fan\x22,\x20\x22text\x22:\x20\x22Post\x20content...\x22,\x20\x22likes\x22:\x20200,\x20\x22commentsCount\x22:\x2010,\x20\x22mediaType\x22:\x20\x22text\x22,\x20\x22comments\x22:\x20[\x20{\x22authorName\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22,\x20\x22replies\x22:\x20[]}\x20]\x20}\x20}\x0a\x20\x20]\x0a}\x0a\x0aCRITICAL\x20REQUIREMENT:\x20EVERY\x20SINGLE\x20POST\x20(including\x20normal\x20feed\x20items\x20AND\x20the\x20nested\x20\x22refPost\x22\x20inside\x20moments)\x20MUST\x20contain\x20an\x20array\x20of\x20\x22comments\x22\x20with\x20at\x20least\x2010\x20valid\x20comment\x20objects.\x20For\x20nested\x20\x22replies\x22\x20inside\x20comments,\x20they\x20also\x20count\x20towards\x20the\x20total\x20of\x2010.\x20If\x20the\x20moment\x20actionText\x20says\x20the\x20celebrity\x20\x22评论了这条帖子\x22\x20(commented\x20on\x20this\x20post),\x20YOU\x20MUST\x20include\x20the\x20celebrity\x27s\x20comment\x20directly\x20inside\x20the\x20refPost\x27s\x20\x22comments\x22\x20array!\x0a\x0aEnsure\x20the\x20\x22items\x22\x20array\x20has\x20at\x20least\x203\x20items\x20with\x20\x22isFeatured\x22:\x20true,\x20at\x20least\x203\x20items\x20with\x20\x22mediaType\x22:\x20\x22image\x22,\x20and\x20at\x20least\x203\x20items\x20with\x20\x22isMoment\x22:\x20true.\x0aALL\x20text\x20values,\x20including\x20imagePrompt\x20and\x20any\x20text\x20inside\x20the\x20images\x20array\x20describing\x20the\x20picture,\x20MUST\x20be\x20written\x20in\x20Chinese\x20(简体中文).\x20Do\x20not\x20use\x20English\x20for\x20image\x20descriptions.\x0a\x0aTopic\x20Name:\x20','这是本地临时发布的帖子。','Visitor','.x-profile-cover-actions','alt','@user','X\x20App','append','scroll','data-feed','x-topic-manual-bio','x-dm-chat-messages','repost','x-manual-char-add-btn','reason','x-dm-chat-send-btn','xCentered','manual','x-manual-char-bio','\x20·\x20now','\x0aRoot\x20comment\x20author:\x20','parentNode','<div\x20class=\x22x-empty-state\x22>暂无主页访客</div>','.x-super-follow-item','x-profile-visitors-btn','x-header-button','请输入\x20Char\x20名称','.x-settings-note','charId','forEach','from','Replying\x20to\x20','signature','已删除会话','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','clientHeight','comment','CSS','commentList','.x-post-button','isFinite','banner','backgroundImage','[data-x-close]','onConfirm','textContent','random','\x22\x20data-image-url=\x22','handle','toggle','年度舞台名场面已经进入超话热帖榜。','<b>回复\x20@','.x-generated-feed-card','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-char-pick-row\x22\x20type=\x22button\x22\x20data-char-id=\x22','x-edit-persona-input','Create\x20topic','\x22\x20class=\x22x-topic-pick-char-btn\x22\x20style=\x22padding:4px\x2010px;\x20border-radius:4px;\x20border:1px\x20solid\x20#ccc;\x20background:#fff;\x20cursor:pointer;\x22>添加</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','x-detail-comments','x-centered-header','match','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<main\x20class=\x22x-dm-profile-body\x22\x20id=\x22x-dm-profile-body\x22></main>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','keyword','\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','x-profile-post-avatar','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-comment-reply-btn\x22\x20type=\x22button\x22\x20data-comment-id=\x22','postId','url','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-comment\x22></i>\x200</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22fas\x20fa-retweet\x22></i>\x200</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-heart\x22></i>\x200</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-share-square\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','reposted','<div\x20class=\x22x-empty-state\x20x-home-empty-state\x22>暂无内容，点击搜索生成帖子。</div>','DOMContentLoaded','div','</span>','x-create-topic-save-btn','function','[X]\x20Generate\x20posts\x20failed','xGeneratedPosts','-\x20:','#x-messages-tab\x20.x-message-summary\x20strong','.x-dm-profile-view','x-edit-cancel-btn','replies','x-topic-feed-panel','parse','scrollHeight','assets/x/generated-image-placeholder.jpg','submit','已添加角色','data-profile-tab','entries','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-comment-row\x22\x20data-comment-id=\x22','image','删除帖子','getApiConfig','x-post-detail-menu-btn','<i\x20class=\x22fas\x20fa-user-clock\x22></i>','false','index','getWorldBooks','click','hidden','268','true','x-visitors-list','xVisitors','x-topic-detail-back','open\x20recommendation\x20feed','x-post-settings-close-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20x-dm-settings-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-edit-sheet-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-text-btn\x22\x20id=\x22x-dm-settings-close-btn\x22\x20type=\x22button\x22>关闭</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>私信设置</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-settings-spacer\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-settings-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-settings-action\x22\x20id=\x22x-dm-clear-chat-btn\x22\x20type=\x22button\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-eraser\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>清空聊天记录</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-settings-action\x20danger\x22\x20id=\x22x-dm-delete-chat-btn\x22\x20type=\x22button\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-trash-alt\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>删除会话</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','stopPropagation','\x22\x20within\x20it\x20as\x20a\x20hashtag\x20or\x20text.\x0aEach\x20post\x20must\x20include:\x20authorName,\x20handle,\x20text,\x20likes,\x20reposts,\x20commentsCount,\x20mediaType\x20(\x22text\x22\x20or\x20\x22image\x22),\x20optional\x20imagePrompt/images,\x20and\x20comments.\x0aEach\x20post\x20must\x20have\x20at\x20least\x2010\x20comments.\x20Across\x20each\x20post,\x20replies\x20inside\x20comments\x20must\x20total\x20at\x20least\x2010.\x0aImages\x20are\x20text\x20placeholders:\x20describe\x20the\x20image\x20content\x20in\x20imagePrompt\x20or\x20images[].text.\x0aALL\x20text\x20values,\x20including\x20imagePrompt\x20and\x20any\x20text\x20inside\x20the\x20images\x20array\x20describing\x20the\x20picture,\x20MUST\x20be\x20written\x20in\x20Chinese\x20(简体中文).\x20Do\x20not\x20use\x20English\x20for\x20image\x20descriptions.\x0aX\x20user:\x20','签到成功！已连续签到\x20','@sora\x20·\x20now','signDays','avatar','x-dm-chat-name','setAttribute','has','\x22\x20aria-label=\x22Like\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22','x-manual-char-handle','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','enabled','clientX','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','x-edit-banner-input','15GyHFeQ','<img\x20src=\x22','moments','超话创建成功','beforebegin','x-create-topic-avatar-preview','data-super-tab','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','x-dm-settings-sheet','appendChild','&lt;','x-char','display:none;','</strong><span>Posts</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>','\x22\x20data-reply-id=\x22','x-dm-profile-view','items','desc','addedAt','</div>','\x0aRoot\x20comment\x20text:\x20','.x-feed-panel[data-feed-panel=\x22recommend\x22]','replace','/v1/chat/completions','x-edit-profile-sheet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-online-status-banner\x20offline\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-online-indicator\x20offline\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-online-text\x20offline\x22>离线\x20·\x20上次在线：','x-profile-settings-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-image-preview-close\x22\x20id=\x22x-image-preview-close\x22\x20type=\x22button\x22\x20aria-label=\x22Close\x20image\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-image-preview-card\x22\x20id=\x22x-image-preview-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22x-image-preview-img\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22x-image-preview-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','time','lastOnline','x-edit-avatar-input','change','createElement','article','x-dm-chat-menu-btn','x-add-dm-btn','type','\x0aGenerate\x20the\x20character\x20reply\x20now.','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-post-image-thumb\x22\x20type=\x22button\x22\x20data-image-text=\x22','refPost','focus','userState','x-topic-detail-headline','.x-post-image-thumb','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','scale(0.95)','avatarUrl','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','POST','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','No\x20previous\x20chat.','toFixed','回复生成失败','resize','272','.x-home-empty-state','blur','fans','bottom-sheet-overlay\x20detail-sheet-overlay\x20x-search-generate-overlay','个人主页内容卡片先保持静态，重点是排版、层级和底栏切换体验。','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20justify-content:space-between;\x20align-items:center;\x20padding:5px\x200;\x20border-bottom:1px\x20solid\x20#eee;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:30px;\x20height:30px;\x20border-radius:50%;\x20overflow:hidden;\x20background:#eee;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','You\x20are\x20a\x20JSON\x20generator\x20for\x20a\x20fictional\x20X\x20feed.\x20Output\x20only\x20valid\x20JSON.','x-post-delete-btn','touches','readAsDataURL','x-reply-submit-btn','stringify','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','.x-super-feed[data-super-panel=\x22photos\x22]',',\x20Persona/Bio:\x20','@username\x20·\x20pinned','innerHTML','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','x-visitors-sheet','这条来自个人页\x20Posts\x20分栏。','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','setAppState','prompt','data-target','@xapp\x20·\x20now','X\x20手动添加','loading','files','liked','-comment-','x-dm-clear-chat-btn','x-topic-imessage-list-container','[X]\x20Failed\x20to\x20hydrate\x20iMessage\x20char\x20avatar','choices','x-image-preview-img','今日签到人数上涨\x2024%，热门讨论集中在舞台妆造、路透图和饭制剪辑。','getFullYear','showToast','active','\x5c$&','map','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-share-square\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','endpoint','\x20条内容','className','.x-super-title-row\x20span','x-add-dm-close-btn','x-manual-char-name','messages','push','top-level\x20comment','posts','bottom-sheet-overlay\x20detail-sheet-overlay\x20x-dm-settings-overlay','.x-comment-reply-btn','\x0aPost\x20text:\x20','all\x200.2s\x20ease','getDate','API\x20','x-search-generate-close-btn','x-compose-cancel-btn','[X]\x20Generate\x20super\x20topic\x20update\x20failed','isArray','changedTouches','Topic\x20Bot','\x0aUser\x20display\x20name:\x20','x-worldbook-count','max','sender','preventDefault','<i\x20class=\x22','touchend','x-image-preview-overlay','[WorldBook:\x20','slice','length','\x20followed','data-dm-profile-panel','x-dm-chat-composer','showCustomModal','is-moment','<div\x20style=\x22color:\x20#888;\x20font-size:\x2013px;\x22>暂未添加任何角色</div>','name','topicId','x-search-generate-btn','apiConfig','\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-comment\x22></i>\x20','273','63YYMFyy','Return\x20strict\x20JSON\x20only.\x20Generate\x205\x20to\x2010\x20realistic\x20Weibo/X-style\x20posts\x20for\x20the\x20user\x27s\x20feed.\x0aMix\x20account\x20types:\x20official\x20brand/media\x20accounts,\x20personal\x20accounts,\x20fan\x20accounts,\x20passers-by,\x20marketing\x20accounts,\x20and\x20niche\x20community\x20accounts.\x0aMix\x20tones:\x20serious\x20analysis,\x20funny\x20meme-style\x20posts,\x20subtle\x20sarcasm,\x20heated/controversial\x20takes,\x20recommendations,\x20complaints,\x20fan\x20enthusiasm,\x20and\x20deliberately\x20argument-starting\x20opinions.\x20Keep\x20it\x20plausible,\x20not\x20generic.\x0aEvery\x20post\x20must\x20be\x20grounded\x20in\x20the\x20topic,\x20minimal\x20user\x20profile,\x20and\x20worldbook\x20context\x20when\x20available.\x20Avoid\x20template-like\x20filler.\x0aEach\x20post\x20must\x20include:\x20authorName,\x20handle,\x20text,\x20likes,\x20reposts,\x20commentsCount,\x20mediaType\x20(\x22text\x22\x20or\x20\x22image\x22),\x20comments,\x20and\x20optional\x20imagePrompt/images\x20only\x20when\x20mediaType\x20is\x20\x22image\x22.\x0aPosts\x20can\x20be\x20pure\x20text.\x20Prefer\x20text\x20posts\x20unless\x20an\x20image\x20clearly\x20adds\x20value.\x0aEach\x20post\x20must\x20have\x20at\x20least\x205\x20comments.\x0aComments\x20should\x20feel\x20like\x20a\x20real\x20Chinese\x20social\x20feed:\x20disagreements,\x20jokes,\x20memes,\x20clarifications,\x20fans\x20defending\x20someone,\x20skeptical\x20passers-by,\x20and\x20occasional\x20heated\x20replies\x20are\x20allowed.\x0aEvery\x20comment\x20must\x20be\x20directly\x20related\x20to\x20its\x20own\x20post.\x20It\x20must\x20reference\x20at\x20least\x20one\x20concrete\x20detail\x20from\x20the\x20post\x20text,\x20topic,\x20author\x20stance,\x20event,\x20character,\x20imagePrompt,\x20or\x20images[].text.\x20Do\x20not\x20write\x20generic\x20reactions\x20such\x20as\x20\x22interesting\x22,\x20\x22same\x22,\x20\x22nice\x22,\x20or\x20comments\x20that\x20could\x20fit\x20any\x20post.\x0aReplies\x20are\x20optional.\x20If\x20replies\x20are\x20included,\x20each\x20reply\x20must\x20respond\x20to\x20the\x20parent\x20comment\x27s\x20concrete\x20point\x20and\x20connect\x20back\x20to\x20the\x20post.\x0aIf\x20mediaType\x20is\x20\x22image\x22,\x20describe\x20the\x20image\x20subject,\x20composition,\x20light,\x20mood,\x20and\x20relevant\x20post\x20detail\x20in\x20imagePrompt\x20or\x20images[].text.\x20Do\x20not\x20invent\x20inaccessible\x20URLs.\x0aALL\x20text\x20values,\x20including\x20imagePrompt\x20and\x20any\x20text\x20inside\x20the\x20images\x20array\x20describing\x20the\x20picture,\x20MUST\x20be\x20written\x20in\x20Chinese\x20(简体中文).\x20Do\x20not\x20use\x20English\x20for\x20image\x20descriptions.\x0aTopic:\x20','splice','images','friends','.x-feed-actions\x20span','imessage','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22x-detail-like-btn\x22\x20type=\x22button\x22\x20class=\x22x-detail-inline-action\x20','#x-detail-like-btn','xBound','target','User\x20Name','<i\x20class=\x22fas\x20fa-magic\x22></i>','更新了动态','text','<div\x20class=\x22x-empty-state\x22>暂无帖子</div>','.x-online-status-banner','xCurrentDate','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-online-status-banner\x20online\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-online-indicator\x20online\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-online-text\x20online\x22>明星当前在线</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','x-imessage-char-list','Generate','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','content','x-dm-chat-handle','None','getAccounts','</b>\x20','abs','<div\x20class=\x22x-empty-state\x22>未找到\x20iMessage\x20Char</div>','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','disabled','warn','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>','bio','暂无人设','Bearer\x20','remove','x-detail-likes','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-generated-media-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','round','x-messages-tab','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0aWorldbook:\x0a','loadFriends','authorHandle','temperature','</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','isJiggleMode','.x-profile-panel[data-dm-profile-panel]','zIndex','x-view','worldBookKeywordMatched','x-create-topic-fans-input','comments','#x-dm-profile-back','x-search-generate-input','x-hidden-page-2','\x20条帖子','新粉丝','dmProfileId','\x22\x20aria-label=\x22Repost\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-retweet\x22></i><span>','请输入消息内容','x-edit-save-btn','x-topic-manual-name','生成失败，请检查\x20API\x20配置或返回格式','systemPrompt','concat','xDirectMessages','0.5','\x0aRecent\x20chat:\x0a','/chat/completions','style','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','<div\x20class=\x22x-super-post-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','beforeend','super','该角色已添加','请输入角色名称','title','now','\x22>Reply</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','这个层级更像微博，但底色和按钮都很\x20X。','<i\x20class=\x22fas\x20fa-chevron-left\x22></i>','getElementById','.x-tab-content','Enter','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-comment-reply-btn\x22\x20type=\x22button\x22\x20data-comment-id=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','escape','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-cover\x20x-dm-profile-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-cover-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-header-button\x22\x20id=\x22x-dm-profile-back\x22\x20type=\x22button\x22\x20aria-label=\x22返回\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-left\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-cover-mark\x22>X</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-scroll-area\x20x-profile-scroll\x20x-dm-profile-scroll\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-avatar\x22>','width','770824eAIIXi','\x20的聊天记录吗？此操作不可恢复。','profile','keydown','3449019ZxpoQY','replyToName','@akira\x20·\x204m','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','clientY','commentId','x-profile-name','char','\x0aUser\x20comment\x20type:\x20','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','x-settings-sheet','children','\x22.\x0aImportant:\x20Every\x20post\x20text\x20MUST\x20include\x20the\x20exact\x20text\x20\x22','[X]\x20DM\x20API\x20reply\x20failed','parentElement','\x0aBio/signature:\x20','renderWorldBookSelector','user','128','x-topic-manual-save-btn','x-settings-worldbook-btn','确定删除与\x20','<div\x20class=\x22x-empty-state\x22>暂无动态</div>','x-topic-detail-view','-image-','8.8K','Return\x20strict\x20JSON\x20only.\x20You\x20need\x20to\x20generate\x20an\x20update\x20for\x20a\x20celebrity/entertainment\x20\x22Super\x20Topic\x22\x20(超话)\x20named\x20\x22','.x-hidden-page-2','message','replyName','.x-home-feed-tabs\x20button[data-feed]','Character\x20Name:\x20','endsWith','opacity','8BJccAK','\x0aUser\x20profile:\x20','#x-messages-tab\x20.x-section-header\x20.x-header-button:last-child','x-compose-submit-btn','x-next-day-btn','data-post-id','isMoment','x-super-update-btn','transition','data-x-close','.x-super-cover','like','x-manual-char-persona','<i\x20class=\x22far\x20fa-comment\x22></i>\x20','xData','<div\x20class=\x22x-super-empty-follow\x22>暂无关注</div>','find','getAttribute','#x-super-tab\x20.x-section-header','lastSignDate','更新失败，请检查\x20API\x20配置','/v1','1081446hhOhhE','openView','.x-feed-card[data-post-id]','reply','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-message-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>','删除会话','x-search-generate-sheet','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','@topic\x20·\x209m','getAssetUrl','bottom-sheet-overlay\x20detail-sheet-overlay\x20x-visitors-overlay','<i\x20class=\x22fas\x20fa-sync\x22></i>\x20更新','[X]\x20Generate\x20user\x20reply\x20engagement\x20failed','#x-messages-tab\x20.x-section-header','.x-topic-remove-char','classList','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-comment-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','left','topicTag','join','x-dm-list','x-dm-chat-back','确定要删除这条帖子吗？此操作不可恢复。','dataset','@mina\x20·\x206m','sort','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-stats\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>','x-nav-indicator','x-brand-lockup\x20x-section-brand','x-dm-chat-view','x-detail-reposts','model','toLowerCase','x-dm-chat-avatar','flex','x-profile-bio','createdAt','#x-messages-tab\x20.x-message-summary\x20span','contains','mediaDescription','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-comment-reply\x22\x20data-comment-id=\x22','<span\x20style=\x22color:\x20#1d9bf0;\x22>$1</span>','&#39;','closeView','<div\x20class=\x22x-empty-state\x22>暂无图片</div>','Mina','Image','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22x-dm-profile-intro\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>','642','addEventListener','none','button','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x20x-topic-remove-char\x22\x20data-index=\x22','x-post-detail-back','x-create-topic-name-input','请输入回复内容','replyId','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20更新中...','block','origin','nickname','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-avatar\x20x-avatar\x22>','#x-home-tab\x20.x-header-actions\x20.x-header-button:not(.x-compose-button)'];_0x6274=function(){return _0x32ae83;};return _0x6274();}(function(_0x46ae33,_0x95237f){const _0x128230=_0x4396,_0x4a3ecd=_0x46ae33();while(!![]){try{const _0x38f366=parseInt(_0x128230(0x230))/0x1*(-parseInt(_0x128230(0x357))/0x2)+-parseInt(_0x128230(0x2ec))/0x3+-parseInt(_0x128230(0x20a))/0x4+parseInt(_0x128230(0x3e1))/0x5*(parseInt(_0x128230(0x246))/0x6)+parseInt(_0x128230(0x20e))/0x7+-parseInt(_0x128230(0x2d5))/0x8*(-parseInt(_0x128230(0x1ae))/0x9)+parseInt(_0x128230(0x300))/0xa;if(_0x38f366===_0x95237f)break;else _0x4a3ecd['push'](_0x4a3ecd['shift']());}catch(_0x2158c9){_0x4a3ecd['push'](_0x4a3ecd['shift']());}}}(_0x6274,0xba5d6),(function(){const _0x17042c=_0x4396;document[_0x17042c(0x277)](_0x17042c(0x3aa),()=>{const _0xde68a=_0x17042c,_0x5290f6=document[_0xde68a(0x202)](_0xde68a(0x340)),_0x5731e4=document[_0xde68a(0x202)](_0xde68a(0x1e1)),_0x967591=_0x5731e4?_0x5731e4[_0xde68a(0x2c7)](_0xde68a(0x2d2)):null,_0x50c1ad=_0x5731e4?Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)]('.x-nav-item[data-target]')):[],_0x448623=_0x5731e4?Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)](_0xde68a(0x203))):[],_0x98ecc1=document[_0xde68a(0x202)](_0xde68a(0x261)),_0x1ef97e=document['getElementById']('x-post-detail-view'),_0x3c7afd=document[_0xde68a(0x202)](_0xde68a(0x27b)),_0x3d9964=document[_0xde68a(0x202)](_0xde68a(0x225)),_0x4b4438=document[_0xde68a(0x202)](_0xde68a(0x3cd)),_0x1d4aaf=document['getElementById'](_0xde68a(0x322)),_0x40e04d=document[_0xde68a(0x202)](_0xde68a(0x40b)),_0x4297e1=document[_0xde68a(0x202)](_0xde68a(0x3b6)),_0x58614b=document[_0xde68a(0x202)]('x-create-topic-sheet'),_0x4145fe=document[_0xde68a(0x202)](_0xde68a(0x302)),_0x1b843a=document[_0xde68a(0x202)](_0xde68a(0x3ad)),_0x2cf84a=document[_0xde68a(0x202)]('x-create-topic-banner-preview'),_0x19295f=document[_0xde68a(0x202)](_0xde68a(0x29c)),_0x380d09=document[_0xde68a(0x202)](_0xde68a(0x3e6)),_0x293ba8=document[_0xde68a(0x202)](_0xde68a(0x360)),_0x254fc6=document[_0xde68a(0x202)](_0xde68a(0x27c)),_0x3f5fef=document['getElementById'](_0xde68a(0x1e3)),_0x59ffa4=document[_0xde68a(0x202)]('x-topic-import-imessage-btn'),_0x2965b6=document['getElementById'](_0xde68a(0x308)),_0xbc6418=document[_0xde68a(0x202)](_0xde68a(0x438)),_0x237002=document[_0xde68a(0x202)](_0xde68a(0x34b)),_0x428dc3=document[_0xde68a(0x202)]('x-topic-chars-list'),_0x4bf4ff=document['getElementById'](_0xde68a(0x221)),_0x287577=document[_0xde68a(0x202)](_0xde68a(0x237));let _0x31b21b='',_0x4e4c7a='',_0x3d9510=[];const _0xea85ff=document['getElementById'](_0xde68a(0x3f9)),_0x2a14e5=document['getElementById'](_0xde68a(0x218)),_0x5becff=document[_0xde68a(0x202)](_0xde68a(0x2ee)),_0x4b1f9c=document['getElementById']('x-profile-edit-btn'),_0x1494a1=document[_0xde68a(0x202)](_0xde68a(0x3fb)),_0x88599d=document[_0xde68a(0x202)](_0xde68a(0x3b4)),_0xfb7144=document['getElementById'](_0xde68a(0x1ed)),_0x13d2f3=document[_0xde68a(0x202)](_0xde68a(0x2cc)),_0x3cd14e=document[_0xde68a(0x202)](_0xde68a(0x222)),_0x309b3d=document[_0xde68a(0x202)](_0xde68a(0x191)),_0x3890da=document[_0xde68a(0x202)](_0xde68a(0x233)),_0x478577=document[_0xde68a(0x202)]('x-compose-text-input'),_0x20f62b=document['getElementById'](_0xde68a(0x29a)),_0x5aee1d=document[_0xde68a(0x202)](_0xde68a(0x3ff)),_0xb12313=document[_0xde68a(0x202)](_0xde68a(0x2e7)),_0x1c3007=document['getElementById'](_0xde68a(0x3e0)),_0x42d1d1=document[_0xde68a(0x202)](_0xde68a(0x299)),_0x15ea2a=document[_0xde68a(0x202)]('x-edit-handle-input'),_0x4a8448=document['getElementById']('x-edit-bio-input'),_0x26d831=document[_0xde68a(0x202)](_0xde68a(0x39a)),_0x15047a=[document[_0xde68a(0x202)]('x-back-btn'),document['getElementById'](_0xde68a(0x289))]['filter'](Boolean);if(!_0x5731e4||!_0x5290f6||_0x50c1ad[_0xde68a(0x1a0)]===0x0||_0x448623['length']===0x0)return;const _0x450c9c=document[_0xde68a(0x202)](_0xde68a(0x2ae)),_0xa9c317=document[_0xde68a(0x202)](_0xde68a(0x234)),_0x183c81=new Date()[_0xde68a(0x179)](),_0xa31674=_0x183c81+_0xde68a(0x34e),_0x5d4027={'name':_0xde68a(0x1b9),'handle':'@username','bio':'','persona':'','avatar':'','banner':''},_0x4d4bc2={'xData':{..._0x5d4027,'edited':![]},'xTopics':[],'boundWorldBookIds':[],'xVisitors':[],'xDirectMessages':[],'xPostThreads':{},'xGeneratedPosts':[],'xHomeBannerUrl':'','xSearchBannerUrl':'','xCurrentDate':_0xa31674},_0x17c4a3=_0xde68a(0x3b9),_0x32127e={'island':{'avatar':'林','name':_0xde68a(0x32d),'handle':_0xde68a(0x2e9),'text':'首页信息流先按微博的阅读节奏排，保留热搜、转评赞和图文密度，但整体收进\x20X\x20的黑白系统里。','reposts':'46','likes':_0xde68a(0x2d4),'comments':_0xde68a(0x220),'commentList':[{'avatar':'A','name':_0xde68a(0x293),'handle':_0xde68a(0x210),'text':_0xde68a(0x200)},{'avatar':'M','name':_0xde68a(0x273),'handle':_0xde68a(0x2e3),'text':'评论区做成卡片之后，帖子详情就完整很多。'},{'avatar':'S','name':'Sora','handle':_0xde68a(0x3d4),'text':'图片区域保留静态占位也够看排版了。'}]},'super':{'avatar':'超','name':_0xde68a(0x355),'handle':_0xde68a(0x2d1),'text':_0xde68a(0x178),'reposts':'301','likes':_0xde68a(0x227),'comments':'89','commentList':[{'avatar':'#','name':_0xde68a(0x195),'handle':_0xde68a(0x24e),'text':_0xde68a(0x396)},{'avatar':'L','name':_0xde68a(0x318),'handle':_0xde68a(0x35d),'text':'超话页和详情页之间的关系现在更明确。'}]},'following':{'avatar':'M','name':_0xde68a(0x273),'handle':_0xde68a(0x25e),'text':'Following\x20里先放关注流的静态样式。后续接账号或角色关系时，可以直接把关注对象的帖子渲染进这里。','reposts':'9','likes':_0xde68a(0x276),'comments':'18','commentList':[{'avatar':'U','name':'User','handle':_0xde68a(0x2b9),'text':_0xde68a(0x2b6)}]},'profile':{'avatar':'U','name':_0xde68a(0x1b9),'handle':_0xde68a(0x428),'text':_0xde68a(0x41c),'reposts':'12','likes':_0xde68a(0x2a8),'comments':'34','commentList':[{'avatar':'X','name':_0xde68a(0x36a),'handle':_0xde68a(0x431),'text':_0xde68a(0x42c)}]}};let _0x4bae6e=0x0,_0x508d35=0x0,_0x38455c=0x0,_0x137a02=![],_0x4d56a0=_0x1241ef(),_0x14c153=_0x4d56a0[_0xde68a(0x3d6)]||'',_0x40273e=_0x4d56a0[_0xde68a(0x38d)]||'',_0x4c1339=0x0,_0x24fe6a=null,_0xb1ee5e=null,_0x948afa=null,_0x56ec7a=null,_0x4c5d61=null,_0x9f8e39=null,_0x4607e5=null,_0x379b64=null,_0x4e0d6b=null,_0x1840ca=null,_0x5ef6e2=null,_0x26eb3d=null,_0x25702c=null,_0x3bfcbd=null,_0x4b28d7=null,_0x39247a=null,_0x2178c1=null,_0x4bbbee=null,_0x3d3020=null,_0x3aa39e=null,_0x43c7ba=null,_0x25d531=null,_0x35b8f0=null;function _0x4eb7cb(_0x22d652,_0x1e15d2=''){const _0x362495=_0xde68a,_0x545622=String(_0x22d652==null?'':_0x22d652)[_0x362495(0x2b2)]();return _0x545622||_0x1e15d2;}function _0x2e74f4(_0x193b19){const _0x2829a9=_0xde68a;return String(_0x193b19==null?'':_0x193b19)[_0x2829a9(0x3f7)](/&/g,_0x2829a9(0x2d7))[_0x2829a9(0x3f7)](/</g,_0x2829a9(0x3eb))['replace'](/>/g,'&gt;')[_0x2829a9(0x3f7)](/"/g,_0x2829a9(0x34c))[_0x2829a9(0x3f7)](/'/g,_0x2829a9(0x270));}function _0x36af7d(_0x2c3f10){const _0x1ad0e5=_0xde68a,_0x30463f=String(_0x2c3f10==null?'0':_0x2c3f10)[_0x1ad0e5(0x2b2)]()['replace'](/,/g,''),_0x20059b=_0x30463f['match'](/^([\d.]+)\s*([Kk万])?$/);if(!_0x20059b)return Number(_0x30463f)||0x0;const _0x3e2890=Number(_0x20059b[0x1])||0x0;if(_0x20059b[0x2]==='万')return Math[_0x1ad0e5(0x1d6)](_0x3e2890*0x2710);if(_0x20059b[0x2]&&_0x20059b[0x2][_0x1ad0e5(0x266)]()==='k')return Math[_0x1ad0e5(0x1d6)](_0x3e2890*0x3e8);return Math[_0x1ad0e5(0x1d6)](_0x3e2890);}function _0x48c91e(_0x2c8b06){const _0x253e3c=_0xde68a,_0x741abe=Math[_0x253e3c(0x198)](0x0,Number(_0x2c8b06)||0x0);if(_0x741abe>=0x2710)return(_0x741abe/0x2710)[_0x253e3c(0x414)](_0x741abe>=0x186a0?0x0:0x1)['replace'](/\.0$/,'')+'万';if(_0x741abe>=0x3e8)return(_0x741abe/0x3e8)['toFixed'](_0x741abe>=0x2710?0x0:0x1)[_0x253e3c(0x3f7)](/\.0$/,'')+'K';return String(_0x741abe);}function _0x6bbcdb(_0x298a85){const _0x2c8dc6=_0xde68a;return _0x298a85+'-'+Date[_0x2c8dc6(0x1fe)]()+'-'+Math[_0x2c8dc6(0x392)]()[_0x2c8dc6(0x2c6)](0x24)[_0x2c8dc6(0x19f)](0x2,0x8);}function _0x49c150(_0x1d7c4c,_0x4714b0='?'){const _0x3cf5c8=_0xde68a,_0x7798f1=_0x4eb7cb(_0x1d7c4c);if(_0x7798f1&&/^(data:|https?:|blob:)/i['test'](_0x7798f1))return _0x3cf5c8(0x3e2)+_0x2e74f4(_0x7798f1)+_0x3cf5c8(0x2e8);return _0x2e74f4((_0x7798f1||_0x4714b0||'?')[_0x3cf5c8(0x19f)](0x0,0x2));}function _0x11eb7e(){const _0xd07265=_0xde68a,_0xa8b96b=_0x4eb7cb(_0x4d56a0['name'],'Me');return{'avatar':_0x4d56a0[_0xd07265(0x3d6)]||_0xa8b96b[_0xd07265(0x19f)](0x0,0x1)['toUpperCase'](),'name':_0xa8b96b,'handle':(_0x4d56a0[_0xd07265(0x394)]||_0xd07265(0x298))+_0xd07265(0x377)};}function _0x441d15(_0x1f90f7={}){const _0x37b5c3=_0xde68a;let _0x523f35=_0x4eb7cb(_0x1f90f7[_0x37b5c3(0x180)]);if(!_0x523f35)return'';if(_0x523f35['endsWith']('/'))_0x523f35=_0x523f35['slice'](0x0,-0x1);return!_0x523f35[_0x37b5c3(0x22e)](_0x37b5c3(0x1f5))&&(_0x523f35=_0x523f35[_0x37b5c3(0x22e)](_0x37b5c3(0x245))?_0x523f35+_0x37b5c3(0x1f5):_0x523f35+_0x37b5c3(0x3f8)),_0x523f35;}async function _0x3828db(_0x4a0d92,_0x34b8c7={}){const _0x18a4ca=_0xde68a,_0x57b77f=typeof window[_0x18a4ca(0x3c1)]===_0x18a4ca(0x3ae)?window[_0x18a4ca(0x3c1)]():window[_0x18a4ca(0x1aa)]||{},_0x2daa3c=_0x441d15(_0x57b77f);if(!_0x2daa3c||!_0x57b77f[_0x18a4ca(0x335)])throw new Error(_0x18a4ca(0x33e));const _0x356a79=await fetch(_0x2daa3c,{'method':_0x18a4ca(0x411),'headers':{'Content-Type':_0x18a4ca(0x314),'Authorization':_0x18a4ca(0x1d2)+_0x57b77f['apiKey']},'body':JSON[_0x18a4ca(0x423)]({'model':_0x57b77f[_0x18a4ca(0x265)]||_0x18a4ca(0x2f6),'messages':_0x4a0d92,'temperature':parseFloat(_0x57b77f[_0x18a4ca(0x1dc)])||_0x34b8c7[_0x18a4ca(0x1dc)]||0.8})});if(!_0x356a79['ok'])throw new Error(_0x18a4ca(0x18f)+_0x356a79[_0x18a4ca(0x2aa)]);const _0x49169e=await _0x356a79['json']();return _0x49169e?.['choices']?.[0x0]?.[_0x18a4ca(0x22a)]?.[_0x18a4ca(0x1c5)]||_0x49169e?.[_0x18a4ca(0x43a)]?.[0x0]?.[_0x18a4ca(0x1bc)]||'';}function _0x126bb6(_0x5dd9a2){const _0x6e1a3f=_0xde68a,_0x23f900=_0x4eb7cb(_0x5dd9a2);if(!_0x23f900)throw new Error('Empty\x20API\x20response');try{return JSON[_0x6e1a3f(0x3b7)](_0x23f900);}catch(_0x238f88){const _0x2165c7=_0x23f900['match'](/```(?:json)?\s*([\s\S]*?)```/)||_0x23f900[_0x6e1a3f(0x39f)](/(\{[\s\S]*\}|\[[\s\S]*\])/);if(_0x2165c7)return JSON[_0x6e1a3f(0x3b7)](_0x2165c7[0x1]);throw _0x238f88;}}function _0x4681b4(_0x21d2da=''){const _0x5b8c42=_0xde68a,_0x5d527d=_0x5a5f4e(),_0x25d212=new Set((_0x5d527d[_0x5b8c42(0x292)]||[])[_0x5b8c42(0x17d)](String)),_0xa84e11=[];typeof window[_0x5b8c42(0x3c6)]==='function'&&window[_0x5b8c42(0x3c6)]()[_0x5b8c42(0x381)](_0x2a0546=>{const _0x4ffc3d=_0x5b8c42,_0x542cc9=_0x25d212[_0x4ffc3d(0x3d9)](String(_0x2a0546['id']));if(!_0x542cc9&&!_0x2a0546['isGlobal'])return;const _0x8a5e34=(Array[_0x4ffc3d(0x193)](_0x2a0546[_0x4ffc3d(0x3bd)])?_0x2a0546['entries']:[])[_0x4ffc3d(0x35e)](_0x43db9f=>_0x43db9f&&_0x43db9f['enabled']!==![])[_0x4ffc3d(0x17d)](_0x2fe278=>'-\x20'+(_0x2fe278[_0x4ffc3d(0x3a1)]||_0x2fe278[_0x4ffc3d(0x1fd)]||_0x2a0546[_0x4ffc3d(0x1a7)])+':\x20'+(_0x2fe278[_0x4ffc3d(0x1c5)]||''))[_0x4ffc3d(0x35e)](_0x47d3af=>_0x47d3af[_0x4ffc3d(0x2b2)]()!==_0x4ffc3d(0x3b1));if(_0x8a5e34[_0x4ffc3d(0x1a0)])_0xa84e11[_0x4ffc3d(0x187)](_0x4ffc3d(0x19e)+(_0x2a0546[_0x4ffc3d(0x1a7)]||_0x2a0546['id'])+']\x0a'+_0x8a5e34[_0x4ffc3d(0x259)]('\x0a'));});if(typeof window[_0x5b8c42(0x2a5)]==='function'){const _0x52e18e=window[_0x5b8c42(0x2a5)]()['filter'](_0x54c65a=>_0x54c65a&&_0x54c65a[_0x5b8c42(0x3dd)]!==![])[_0x5b8c42(0x35e)](_0x134e41=>!_0x134e41[_0x5b8c42(0x3a1)]||!window['worldBookKeywordMatched']||window[_0x5b8c42(0x1e2)](_0x134e41,_0x21d2da))[_0x5b8c42(0x19f)](0x0,0xc)[_0x5b8c42(0x17d)](_0x27c3f0=>'-\x20'+(_0x27c3f0[_0x5b8c42(0x3a1)]||_0x27c3f0['title']||'builtin')+':\x20'+(_0x27c3f0[_0x5b8c42(0x1c5)]||''));if(_0x52e18e['length'])_0xa84e11['push'](_0x5b8c42(0x2de)+_0x52e18e['join']('\x0a'));}return _0xa84e11[_0x5b8c42(0x259)]('\x0a\x0a');}function _0x3528c0(_0x13c603,_0x323416=0x0){const _0x1cde0d=_0xde68a,_0x16b2bd=_0x4eb7cb(_0x13c603[_0x1cde0d(0x1bc)]||_0x13c603[_0x1cde0d(0x1c5)]);if(!_0x16b2bd)return null;const _0x583d82=_0x4eb7cb(_0x13c603[_0x1cde0d(0x2c0)]||_0x13c603['name']||_0x13c603['handle']);if(!_0x583d82)return null;return{'id':String(_0x13c603['id']||_0x6bbcdb('comment')),'avatar':_0x13c603[_0x1cde0d(0x315)]||_0x13c603[_0x1cde0d(0x3d6)]||_0x583d82[_0x1cde0d(0x19f)](0x0,0x1)[_0x1cde0d(0x30d)](),'name':_0x583d82,'handle':_0x14bade(_0x583d82,_0x13c603['handle']||_0x583d82),'text':_0x16b2bd,'replies':(Array['isArray'](_0x13c603['replies'])?_0x13c603[_0x1cde0d(0x3b5)]:[])[_0x1cde0d(0x17d)]((_0x4401a4,_0x3d3863)=>{const _0x327c3e=_0x1cde0d,_0x5ba6bb=_0x4eb7cb(_0x4401a4[_0x327c3e(0x1bc)]||_0x4401a4['content']);if(!_0x5ba6bb)return null;const _0x1c0472=_0x4eb7cb(_0x4401a4['authorName']||_0x4401a4['name']||_0x4401a4[_0x327c3e(0x394)]);if(!_0x1c0472)return null;return{'id':String(_0x4401a4['id']||_0x6bbcdb(_0x327c3e(0x249))),'avatar':_0x4401a4[_0x327c3e(0x315)]||_0x4401a4[_0x327c3e(0x3d6)]||_0x1c0472[_0x327c3e(0x19f)](0x0,0x1)[_0x327c3e(0x30d)](),'name':_0x1c0472,'handle':_0x14bade(_0x1c0472,_0x4401a4[_0x327c3e(0x394)]||_0x1c0472),'text':_0x5ba6bb,'replies':[]};})[_0x1cde0d(0x35e)](Boolean)};}function _0x43781a(_0x398680,_0x121a44=0x0){const _0x1ddf20=_0xde68a,_0x2bb9ee=_0x4eb7cb(_0x398680[_0x1ddf20(0x2c0)]||_0x398680[_0x1ddf20(0x1a7)]||_0x398680[_0x1ddf20(0x394)]||_0x398680['authorHandle']);if(!_0x2bb9ee)return null;const _0x291e52=String(_0x398680['id']||_0x6bbcdb(_0x1ddf20(0x34f))),_0x4c634c=_0x4eb7cb(_0x398680[_0x1ddf20(0x1bc)]||_0x398680[_0x1ddf20(0x3f2)]||_0x398680['content']);if(!_0x4c634c&&!_0x398680[_0x1ddf20(0x236)])return null;const _0x5ed8b1=_0x4eb7cb(_0x398680['imageText']||_0x398680['imagePrompt']||_0x398680[_0x1ddf20(0x3bf)]||_0x398680[_0x1ddf20(0x2fa)]||_0x398680[_0x1ddf20(0x26d)]),_0x286415=Array[_0x1ddf20(0x193)](_0x398680[_0x1ddf20(0x1b1)])?_0x398680[_0x1ddf20(0x1b1)]:[],_0x87a3a5=_0x286415[_0x1ddf20(0x1a0)]>0x0?_0x286415[_0x1ddf20(0x17d)]((_0x59f63d,_0xe174e7)=>({'id':String(_0x59f63d['id']||_0x291e52+_0x1ddf20(0x226)+_0xe174e7),'text':_0x4eb7cb(_0x59f63d[_0x1ddf20(0x1bc)]||_0x59f63d[_0x1ddf20(0x42f)]||_0x59f63d['description']||_0x59f63d[_0x1ddf20(0x368)]||_0x5ed8b1),'url':_0x4eb7cb(_0x59f63d[_0x1ddf20(0x3a6)]||_0x59f63d['src']||_0x59f63d[_0x1ddf20(0x33d)])})):_0x5ed8b1||_0x398680['mediaType']===_0x1ddf20(0x3bf)?[{'id':_0x291e52+'-image-0','text':_0x5ed8b1,'url':''}]:[],_0x413c4f=Array[_0x1ddf20(0x193)](_0x398680[_0x1ddf20(0x1e4)])?_0x398680[_0x1ddf20(0x1e4)]:Array['isArray'](_0x398680[_0x1ddf20(0x38a)])?_0x398680[_0x1ddf20(0x38a)]:[],_0x3aaf46=_0x413c4f[_0x1ddf20(0x17d)]((_0x1e03ef,_0x5c2302)=>_0x3528c0(_0x1e03ef,_0x5c2302))[_0x1ddf20(0x35e)](Boolean);return{'id':_0x291e52,'avatar':_0x398680[_0x1ddf20(0x315)]||_0x398680[_0x1ddf20(0x3d6)]||_0x2bb9ee[_0x1ddf20(0x19f)](0x0,0x1)[_0x1ddf20(0x30d)](),'name':_0x2bb9ee,'handle':_0x14bade(_0x2bb9ee,_0x398680[_0x1ddf20(0x394)]||_0x398680[_0x1ddf20(0x1db)]||_0x2bb9ee),'text':_0x4c634c,'reposts':_0x48c91e(_0x398680[_0x1ddf20(0x2a1)]??_0x398680['shares']??0x0),'likes':_0x48c91e(_0x398680[_0x1ddf20(0x2f4)]??0x0),'comments':_0x48c91e(Math[_0x1ddf20(0x198)](Number(_0x398680[_0x1ddf20(0x2a7)])||0x0,_0x3aaf46[_0x1ddf20(0x1a0)])),'commentList':_0x3aaf46,'images':_0x87a3a5,'generated':!![],'topicTag':_0x398680[_0x1ddf20(0x258)]||'','isMoment':!!_0x398680[_0x1ddf20(0x236)],'actionText':_0x4eb7cb(_0x398680[_0x1ddf20(0x306)]),'refPost':_0x398680[_0x1ddf20(0x408)]?_0x43781a(_0x398680[_0x1ddf20(0x408)],0x0):null,'isFeatured':!!_0x398680[_0x1ddf20(0x359)],'createdAt':_0x398680[_0x1ddf20(0x26a)]||Date[_0x1ddf20(0x1fe)]()};}function _0x5941a8(_0x2fcf36){const _0x42330c=_0xde68a;return Array[_0x42330c(0x193)](_0x2fcf36?.[_0x42330c(0x1b1)])?_0x2fcf36[_0x42330c(0x1b1)]:[];}function _0x293a8d(_0x3d4933=[]){const _0x4731ce=_0xde68a;if(!_0x3d4933[_0x4731ce(0x1a0)])return'';return _0x4731ce(0x1d5)+_0x3d4933[_0x4731ce(0x19f)](0x0,0x4)[_0x4731ce(0x17d)](_0x308aec=>_0x4731ce(0x407)+_0x2e74f4(_0x308aec[_0x4731ce(0x1bc)]||_0x4731ce(0x274))+_0x4731ce(0x393)+_0x2e74f4(_0x308aec[_0x4731ce(0x3a6)]||'')+_0x4731ce(0x3df)+_0x2e74f4(_0x308aec['url']||_0x17c4a3)+_0x4731ce(0x3a2))[_0x4731ce(0x259)]('')+_0x4731ce(0x356);}function _0x14bade(_0x235672,_0x307a13){const _0x3b40d3=_0xde68a,_0x55da56=_0x4eb7cb(_0x307a13);if(_0x55da56)return _0x55da56[_0x3b40d3(0x35a)]('@')?_0x55da56:'@'+_0x55da56;const _0x21f315=_0x4eb7cb(_0x235672,_0x3b40d3(0x21f))['toLowerCase']()[_0x3b40d3(0x3f7)](/[^a-z0-9_\u4e00-\u9fa5]+/gi,'');return'@'+(_0x21f315||'user');}function _0x1d79d2(_0x7565a7){const _0x1c7b7f=_0xde68a,_0x3a2e40=_0x7565a7&&typeof _0x7565a7===_0x1c7b7f(0x2e0)?_0x7565a7:{},_0x1cf878=_0x3a2e40[_0x1c7b7f(0x23e)]&&typeof _0x3a2e40['xData']===_0x1c7b7f(0x2e0)?_0x3a2e40[_0x1c7b7f(0x23e)]:{};return{..._0x4d4bc2,..._0x3a2e40,'xData':{..._0x4d4bc2['xData'],..._0x1cf878},'xTopics':Array[_0x1c7b7f(0x193)](_0x3a2e40[_0x1c7b7f(0x2eb)])?_0x3a2e40[_0x1c7b7f(0x2eb)]:[],'boundWorldBookIds':Array[_0x1c7b7f(0x193)](_0x3a2e40['boundWorldBookIds'])?_0x3a2e40[_0x1c7b7f(0x292)][_0x1c7b7f(0x17d)](String):[],'xVisitors':Array['isArray'](_0x3a2e40[_0x1c7b7f(0x3cc)])?_0x3a2e40[_0x1c7b7f(0x3cc)]:[],'xDirectMessages':Array[_0x1c7b7f(0x193)](_0x3a2e40['xDirectMessages'])?_0x3a2e40[_0x1c7b7f(0x1f2)]:[],'xPostThreads':_0x3a2e40[_0x1c7b7f(0x2e5)]&&typeof _0x3a2e40['xPostThreads']==='object'&&!Array[_0x1c7b7f(0x193)](_0x3a2e40[_0x1c7b7f(0x2e5)])?_0x3a2e40[_0x1c7b7f(0x2e5)]:{},'xGeneratedPosts':Array[_0x1c7b7f(0x193)](_0x3a2e40[_0x1c7b7f(0x3b0)])?_0x3a2e40[_0x1c7b7f(0x3b0)]:[],'xCurrentDate':_0x3a2e40['xCurrentDate']||_0xa31674};}function _0x5a5f4e(){const _0x40b8de=_0xde68a,_0x2a2176=typeof window[_0x40b8de(0x2fc)]===_0x40b8de(0x3ae)?window[_0x40b8de(0x2fc)]('x'):window['__xFallbackState'];return _0x1d79d2(_0x2a2176);}function _0x205aa9(_0x338efb){const _0x41e860=_0xde68a,_0x39d00f=_0x1d79d2(_0x338efb);return typeof window[_0x41e860(0x42e)]==='function'?window['setAppState']('x',_0x39d00f):window['__xFallbackState']=_0x39d00f,_0x39d00f;}function _0x662e33(_0x1b2a4e){const _0xc10b26=_0xde68a,_0x5d00ea=_0x5a5f4e(),_0xd75595={..._0x5d00ea,'xVisitors':[..._0x5d00ea['xVisitors']||[]],'xDirectMessages':[..._0x5d00ea[_0xc10b26(0x1f2)]||[]],'xPostThreads':{..._0x5d00ea[_0xc10b26(0x2e5)]||{}},'xGeneratedPosts':[..._0x5d00ea[_0xc10b26(0x3b0)]||[]]};return _0x1b2a4e(_0xd75595),_0x205aa9(_0xd75595);}function _0x4b46e7(_0x180de5,_0x45bb12){const _0x214499=_0xde68a;if(!_0x180de5||_0x180de5[_0x214499(0x25d)][_0x214499(0x374)]===_0x214499(0x3ca))return;const _0x2af737=_0x180de5['querySelector'](_0x214499(0x2f1));if(!_0x2af737)return;_0x2af737[_0x214499(0x3d8)](_0x214499(0x309),_0x2af737[_0x214499(0x241)]('aria-label')||_0x45bb12||_0x214499(0x2b4)),_0x180de5['innerHTML']='';const _0x4fb6ca=document[_0x214499(0x401)](_0x214499(0x279));_0x4fb6ca['className']=_0x214499(0x37d),_0x4fb6ca[_0x214499(0x405)]=_0x214499(0x279),_0x4fb6ca[_0x214499(0x3d8)](_0x214499(0x309),'Back'),_0x4fb6ca['setAttribute'](_0x214499(0x239),_0x214499(0x3ca)),_0x4fb6ca[_0x214499(0x429)]=_0x214499(0x201);const _0xfa0968=document[_0x214499(0x401)](_0x214499(0x3ab));_0xfa0968[_0x214499(0x182)]=_0x214499(0x262),_0xfa0968['innerHTML']=_0x214499(0x2c4),_0x180de5[_0x214499(0x255)][_0x214499(0x345)](_0x214499(0x39e)),_0x180de5[_0x214499(0x36b)](_0x4fb6ca,_0xfa0968,_0x2af737),_0x180de5[_0x214499(0x25d)][_0x214499(0x374)]=_0x214499(0x3ca);}function _0xb839df(){const _0xc8921c=_0xde68a;_0x450c9c&&(_0x450c9c[_0xc8921c(0x31a)]=_0x5a5f4e()[_0xc8921c(0x1bf)]||_0xa31674);}function _0x3c0369(_0x5bcd6b){_0x662e33(_0x3bd75c=>{const _0x2d90fa=_0x4396;_0x3bd75c[_0x2d90fa(0x1bf)]=_0x5bcd6b;}),_0xb839df();}function _0x53c130(){const _0x41c81f=_0xde68a,_0x1b8f78=_0x5a5f4e()['xCurrentDate']||_0xa31674,_0x2b32b8=new Date(_0x1b8f78);_0x2b32b8['setDate'](_0x2b32b8[_0x41c81f(0x18e)]()+0x1);const _0x415cb0=_0x2b32b8[_0x41c81f(0x30e)]()[_0x41c81f(0x30f)]('T')[0x0];_0x3c0369(_0x415cb0);}function _0xe4eb22(){const _0x1b1772=_0xde68a,_0x1cd8f5=document[_0x1b1772(0x2c7)](_0x1b1772(0x242));_0x4b46e7(_0x1cd8f5,_0x1b1772(0x39b));const _0x1ca550=_0x1cd8f5?.['querySelector']('.x-header-button[aria-label=\x22Create\x20topic\x22]');_0x1ca550&&_0x1ca550['addEventListener'](_0x1b1772(0x3c7),_0x38f048);_0x4b46e7(document[_0x1b1772(0x2c7)](_0x1b1772(0x31d)),'Filter'),_0x4b46e7(document[_0x1b1772(0x2c7)](_0x1b1772(0x253)),'New\x20message');const _0x136593=document[_0x1b1772(0x2c7)](_0x1b1772(0x232));if(_0x136593)_0x136593['id']=_0x1b1772(0x404);const _0x297d97=document[_0x1b1772(0x2c7)](_0x1b1772(0x284));if(_0x297d97)_0x297d97['id']='x-search-generate-btn';const _0x4f8b2e=document[_0x1b1772(0x2c7)]('#x-messages-tab\x20.x-message-summary\x20div:first-child\x20span');if(_0x4f8b2e)_0x4f8b2e[_0x1b1772(0x391)]=_0x1b1772(0x1e9);const _0x3ac662=document['querySelectorAll'](_0x1b1772(0x26b)),_0x4af137=['会话','未读','@我'];_0x3ac662[_0x1b1772(0x381)]((_0x177d1e,_0x446b0f)=>{const _0x141af8=_0x1b1772;_0x177d1e[_0x141af8(0x391)]=_0x4af137[_0x446b0f]||_0x177d1e[_0x141af8(0x391)];});const _0x5b77fd=document[_0x1b1772(0x2c7)](_0x1b1772(0x367)),_0x559a6e=document['getElementById']('x-profile-settings-btn');if(_0x5b77fd&&_0x559a6e&&!document[_0x1b1772(0x202)]('x-profile-visitors-btn')){const _0x43a947=document[_0x1b1772(0x401)](_0x1b1772(0x3ab));_0x43a947[_0x1b1772(0x182)]=_0x1b1772(0x327);const _0x475b8e=document[_0x1b1772(0x401)]('button');_0x475b8e[_0x1b1772(0x182)]=_0x1b1772(0x37d),_0x475b8e['id']=_0x1b1772(0x37c),_0x475b8e[_0x1b1772(0x405)]='button',_0x475b8e[_0x1b1772(0x3d8)](_0x1b1772(0x309),'Profile\x20visitors'),_0x475b8e[_0x1b1772(0x429)]=_0x1b1772(0x3c3),_0x559a6e[_0x1b1772(0x379)]['insertBefore'](_0x43a947,_0x559a6e),_0x43a947[_0x1b1772(0x36b)](_0x475b8e,_0x559a6e);}_0xdd3249(),_0x451308(),_0x3aadc0(),_0x1d7b92(),_0x55ef23(),_0x1a9266(),_0x423d50(),_0x51ee9f(),_0x421c7c(),_0x4607e5=document[_0x1b1772(0x202)]('x-dm-list')||document[_0x1b1772(0x2c7)](_0x1b1772(0x33a));if(_0x4607e5)_0x4607e5['id']=_0x1b1772(0x25a);_0x1ffc5c(),_0xdfcec0(),_0xb839df();}function _0xdd3249(){const _0x28bec8=_0xde68a,_0x5ce1ca=document['querySelector']('.x-comment-composer');document[_0x28bec8(0x202)]('x-detail-actions')?.['remove']();if(_0x5ce1ca&&!document[_0x28bec8(0x202)](_0x28bec8(0x339))){const _0x3af1c7=document[_0x28bec8(0x401)](_0x28bec8(0x3ab));_0x3af1c7[_0x28bec8(0x182)]=_0x28bec8(0x2d6),_0x3af1c7['id']=_0x28bec8(0x2d6),_0x3af1c7[_0x28bec8(0x3c8)]=!![],_0x3af1c7[_0x28bec8(0x429)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22x-reply-context-text\x22>Replying\x20to\x20post</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22x-reply-cancel-btn\x22\x20type=\x22button\x22\x20aria-label=\x22Cancel\x20reply\x20target\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x5ce1ca[_0x28bec8(0x29d)](_0x28bec8(0x3e5),_0x3af1c7),_0x5ce1ca[_0x28bec8(0x429)]=_0x28bec8(0x2e1);}const _0x44e077=document[_0x28bec8(0x202)]('x-reply-context');_0x1ef97e&&_0x44e077&&_0x44e077['parentElement']!==_0x1ef97e&&_0x1ef97e[_0x28bec8(0x3ea)](_0x44e077),_0x1ef97e&&_0x5ce1ca&&_0x5ce1ca[_0x28bec8(0x21c)]!==_0x1ef97e&&_0x1ef97e[_0x28bec8(0x3ea)](_0x5ce1ca);}function _0x451308(){const _0x42c395=_0xde68a;_0x948afa=document[_0x42c395(0x202)](_0x42c395(0x42b)),!_0x948afa&&(_0x948afa=document['createElement'](_0x42c395(0x3ab)),_0x948afa[_0x42c395(0x182)]=_0x42c395(0x250),_0x948afa['id']=_0x42c395(0x42b),_0x948afa[_0x42c395(0x1f6)][_0x42c395(0x1e0)]=_0x42c395(0x3c9),_0x948afa[_0x42c395(0x429)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20x-visitors-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-edit-sheet-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-text-btn\x22\x20id=\x22x-visitors-close-btn\x22\x20type=\x22button\x22>Close</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>主页访客</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-settings-spacer\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-visitors-list\x22\x20id=\x22x-visitors-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x5731e4[_0x42c395(0x3ea)](_0x948afa)),_0x56ec7a=document[_0x42c395(0x202)](_0x42c395(0x3cb));}function _0x3aadc0(){const _0x4c1100=_0xde68a;_0x4c5d61=document[_0x4c1100(0x202)]('x-add-dm-sheet'),!_0x4c5d61&&(_0x4c5d61=document[_0x4c1100(0x401)](_0x4c1100(0x3ab)),_0x4c5d61[_0x4c1100(0x182)]='bottom-sheet-overlay\x20detail-sheet-overlay\x20x-add-dm-overlay',_0x4c5d61['id']='x-add-dm-sheet',_0x4c5d61['style']['zIndex']=_0x4c1100(0x417),_0x4c5d61[_0x4c1100(0x429)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20x-add-dm-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-edit-sheet-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-edit-sheet-text-btn\x22\x20id=\x22x-add-dm-close-btn\x22\x20type=\x22button\x22>关闭</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>添加私信</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22x-settings-spacer\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-add-dm-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22x-add-dm-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-add-dm-section-title\x22>从\x20iMessage\x20导入\x20Char</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-imessage-char-list\x22\x20id=\x22x-imessage-char-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-empty-state\x22>加载\x20iMessage\x20Char...</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22x-add-dm-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-add-dm-section-title\x22>手动添加\x20Char</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22x-add-dm-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>名称</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22x-manual-char-name\x22\x20type=\x22text\x22\x20maxlength=\x2232\x22\x20placeholder=\x22Char\x20name\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22x-add-dm-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>@账号</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22x-manual-char-handle\x22\x20type=\x22text\x22\x20maxlength=\x2232\x22\x20placeholder=\x22@char\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22x-add-dm-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>简介</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22x-manual-char-bio\x22\x20maxlength=\x22120\x22\x20placeholder=\x22输入角色简介或签名\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22x-add-dm-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>人设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22x-manual-char-persona\x22\x20maxlength=\x22600\x22\x20placeholder=\x22输入角色说话方式、性格、关系和背景设定\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-add-dm-submit\x22\x20id=\x22x-manual-char-add-btn\x22\x20type=\x22button\x22>保存并添加</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x5731e4[_0x4c1100(0x3ea)](_0x4c5d61)),_0x9f8e39=document[_0x4c1100(0x202)](_0x4c1100(0x1c1)),_0x379b64=document[_0x4c1100(0x202)](_0x4c1100(0x185)),_0x4e0d6b=document['getElementById'](_0x4c1100(0x3db)),_0x1840ca=document[_0x4c1100(0x202)](_0x4c1100(0x376)),_0x5ef6e2=document[_0x4c1100(0x202)](_0x4c1100(0x23c));}function _0x1d7b92(){const _0x428922=_0xde68a;_0x26eb3d=document[_0x428922(0x202)](_0x428922(0x263)),!_0x26eb3d&&(_0x26eb3d=document[_0x428922(0x401)]('div'),_0x26eb3d[_0x428922(0x182)]=_0x428922(0x263),_0x26eb3d['id']=_0x428922(0x263),_0x26eb3d['setAttribute'](_0x428922(0x2e4),_0x428922(0x3ca)),_0x26eb3d[_0x428922(0x429)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<header\x20class=\x22x-dm-chat-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-chat-back\x22\x20id=\x22x-dm-chat-back\x22\x20type=\x22button\x22\x20aria-label=\x22返回\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-left\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-chat-title\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22\x20id=\x22x-dm-chat-avatar\x22>X</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-chat-name\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20id=\x22x-dm-chat-name\x22>Char</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22x-dm-chat-handle\x22>@char</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-chat-menu\x22\x20id=\x22x-dm-chat-menu-btn\x22\x20type=\x22button\x22\x20aria-label=\x22菜单\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-ellipsis-h\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</header>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<main\x20class=\x22x-dm-chat-messages\x22\x20id=\x22x-dm-chat-messages\x22></main>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<form\x20class=\x22x-dm-chat-composer\x22\x20id=\x22x-dm-chat-composer\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-chat-input-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22x-dm-chat-input\x22\x20type=\x22text\x22\x20maxlength=\x22280\x22\x20placeholder=\x22发送消息...\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-chat-api\x22\x20id=\x22x-dm-chat-api-btn\x22\x20type=\x22button\x22\x20aria-label=\x22接收/生成回复\x22><i\x20class=\x22fas\x20fa-arrow-down\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-dm-chat-send\x22\x20id=\x22x-dm-chat-send-btn\x22\x20type=\x22submit\x22\x20aria-label=\x22发送\x22><i\x20class=\x22fas\x20fa-paper-plane\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</form>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x5731e4['appendChild'](_0x26eb3d)),_0x25702c=document[_0x428922(0x202)](_0x428922(0x36f)),_0x3bfcbd=document[_0x428922(0x202)](_0x428922(0x349));}function _0x55ef23(){const _0x5edf82=_0xde68a;_0x4b28d7=document[_0x5edf82(0x202)](_0x5edf82(0x3e9)),!_0x4b28d7&&(_0x4b28d7=document[_0x5edf82(0x401)]('div'),_0x4b28d7[_0x5edf82(0x182)]=_0x5edf82(0x18a),_0x4b28d7['id']=_0x5edf82(0x3e9),_0x4b28d7['style'][_0x5edf82(0x1e0)]='274',_0x4b28d7[_0x5edf82(0x429)]=_0x5edf82(0x3d0),_0x5731e4[_0x5edf82(0x3ea)](_0x4b28d7));}function _0x1a9266(){const _0x174caf=_0xde68a;_0x39247a=document[_0x174caf(0x202)](_0x174caf(0x3f0)),!_0x39247a&&(_0x39247a=document['createElement'](_0x174caf(0x3ab)),_0x39247a[_0x174caf(0x182)]=_0x174caf(0x3f0),_0x39247a['id']=_0x174caf(0x3f0),_0x39247a[_0x174caf(0x3d8)](_0x174caf(0x2e4),_0x174caf(0x3ca)),_0x39247a[_0x174caf(0x429)]=_0x174caf(0x3a0),_0x5731e4[_0x174caf(0x3ea)](_0x39247a));}function _0x423d50(){const _0x48f81c=_0xde68a;_0x4bbbee=document[_0x48f81c(0x202)](_0x48f81c(0x24c)),!_0x4bbbee&&(_0x4bbbee=document[_0x48f81c(0x401)](_0x48f81c(0x3ab)),_0x4bbbee[_0x48f81c(0x182)]=_0x48f81c(0x41b),_0x4bbbee['id']='x-search-generate-sheet',_0x4bbbee[_0x48f81c(0x1f6)][_0x48f81c(0x1e0)]=_0x48f81c(0x1ad),_0x4bbbee['innerHTML']=_0x48f81c(0x2f7),_0x5731e4['appendChild'](_0x4bbbee)),_0x3d3020=document[_0x48f81c(0x202)](_0x48f81c(0x1e6)),_0x4bbbee?.[_0x48f81c(0x301)](_0x48f81c(0x37f))[_0x48f81c(0x381)](_0x22f0ec=>_0x22f0ec[_0x48f81c(0x1d3)]());}function _0x421c7c(){const _0x3037f9=_0xde68a;_0x25d531=document[_0x3037f9(0x202)]('x-post-settings-sheet'),!_0x25d531&&(_0x25d531=document[_0x3037f9(0x401)](_0x3037f9(0x3ab)),_0x25d531[_0x3037f9(0x182)]=_0x3037f9(0x18a),_0x25d531['id']='x-post-settings-sheet',_0x25d531[_0x3037f9(0x1f6)][_0x3037f9(0x1e0)]='275',_0x25d531['innerHTML']=_0x3037f9(0x2c2),_0x5731e4[_0x3037f9(0x3ea)](_0x25d531));}function _0x51ee9f(){const _0x23ebb2=_0xde68a;_0x3aa39e=document[_0x23ebb2(0x202)](_0x23ebb2(0x19d)),!_0x3aa39e&&(_0x3aa39e=document[_0x23ebb2(0x401)](_0x23ebb2(0x3ab)),_0x3aa39e['className']='x-image-preview-overlay',_0x3aa39e['id']=_0x23ebb2(0x19d),_0x3aa39e[_0x23ebb2(0x3d8)]('aria-hidden',_0x23ebb2(0x3ca)),_0x3aa39e['innerHTML']=_0x23ebb2(0x3fc),_0x5731e4[_0x23ebb2(0x3ea)](_0x3aa39e));}function _0x170d9e(){const _0x536bed=_0xde68a,_0x229558=typeof window['getAccounts']===_0x536bed(0x3ae)?window[_0x536bed(0x1c8)]():[],_0x3b8634=typeof window[_0x536bed(0x2c3)]==='function'?window[_0x536bed(0x2c3)]():null,_0x4ef84e=Array[_0x536bed(0x193)](_0x229558)?_0x229558['find'](_0xf136a1=>String(_0xf136a1['id'])===String(_0x3b8634)):null,_0x5e051c=window[_0x536bed(0x40a)]||{},_0x443eff=_0x4ef84e||_0x5e051c||{},_0x1a1968=_0x443eff[_0x536bed(0x1a7)]||_0x443eff[_0x536bed(0x34d)]||_0x5e051c['name']||_0x5e051c['realName']||_0x5d4027[_0x536bed(0x1a7)],_0xc3400b=_0x443eff[_0x536bed(0x384)]||_0x443eff['bio']||_0x443eff['persona']||_0x5e051c[_0x536bed(0x384)]||_0x5e051c[_0x536bed(0x310)]||_0x5d4027[_0x536bed(0x1d0)];return{'name':_0x1a1968,'handle':_0x14bade(_0x1a1968,_0x443eff[_0x536bed(0x394)]||_0x5e051c[_0x536bed(0x394)]),'bio':_0xc3400b,'persona':_0x443eff[_0x536bed(0x310)]||_0x5e051c['persona']||'','avatar':_0x443eff[_0x536bed(0x40f)]||_0x443eff[_0x536bed(0x3d6)]||_0x5e051c[_0x536bed(0x40f)]||_0x5e051c['avatar']||'','banner':_0x443eff[_0x536bed(0x38d)]||_0x443eff['bannerUrl']||''};}function _0x33501e(_0x3f75df={}){const _0x50c1b8=_0xde68a;return Boolean(_0x3f75df[_0x50c1b8(0x2fe)]||_0x3f75df[_0x50c1b8(0x3d6)]||_0x3f75df['banner']||_0x3f75df[_0x50c1b8(0x1d0)]||_0x3f75df[_0x50c1b8(0x310)]||_0x3f75df['name']&&_0x3f75df[_0x50c1b8(0x1a7)]!=='User'||_0x3f75df[_0x50c1b8(0x394)]&&_0x3f75df['handle']!==_0x50c1b8(0x369));}function _0x1241ef(){const _0x54a441=_0xde68a,_0x5c0e94=_0x5a5f4e(),_0x50e124=_0x170d9e(),_0x23c676=_0x33501e(_0x5c0e94[_0x54a441(0x23e)])?_0x5c0e94['xData']:_0x50e124,_0x2f617b=_0x4eb7cb(_0x23c676['name'],_0x50e124['name']||_0x5d4027[_0x54a441(0x1a7)]);return{'name':_0x2f617b,'handle':_0x14bade(_0x2f617b,_0x23c676[_0x54a441(0x394)]||_0x50e124[_0x54a441(0x394)]),'bio':_0x4eb7cb(_0x23c676['bio']||_0x23c676['signature'],_0x50e124[_0x54a441(0x1d0)]||_0x5d4027['bio']),'persona':_0x4eb7cb(_0x23c676[_0x54a441(0x310)],_0x50e124[_0x54a441(0x310)]||''),'avatar':_0x4eb7cb(_0x23c676['avatar']||_0x23c676[_0x54a441(0x40f)],_0x50e124[_0x54a441(0x3d6)]||''),'banner':_0x4eb7cb(_0x23c676['banner']||_0x23c676['bannerUrl'],_0x50e124[_0x54a441(0x38d)]||'')};}function _0xb9ca9f(_0x18a0da,_0x1ffca3){const _0x56b27c=_0xde68a;if(!_0x18a0da)return;const _0x4eec05=_0x4eb7cb(_0x1ffca3[_0x56b27c(0x1a7)],_0x56b27c(0x2ea)),_0x148a4d=_0x4eec05[_0x56b27c(0x19f)](0x0,0x1)[_0x56b27c(0x30d)]();_0x1ffca3[_0x56b27c(0x3d6)]?_0x18a0da[_0x56b27c(0x429)]=_0x56b27c(0x3e2)+_0x2e74f4(_0x1ffca3[_0x56b27c(0x3d6)])+'\x22\x20alt=\x22\x22>':_0x18a0da[_0x56b27c(0x391)]=_0x148a4d;}function _0x549ca6(){const _0x3e1e62=_0xde68a;_0x4d56a0=_0x1241ef();const _0x5d7e11=document[_0x3e1e62(0x202)](_0x3e1e62(0x214)),_0xf6ad08=document[_0x3e1e62(0x202)](_0x3e1e62(0x32e)),_0x208b87=document[_0x3e1e62(0x202)](_0x3e1e62(0x269)),_0xdb6ffb=document[_0x3e1e62(0x202)](_0x3e1e62(0x312)),_0xe1f5e0=document['getElementById']('x-profile-post-name'),_0x27c318=document['getElementById'](_0x3e1e62(0x28f));if(_0x5d7e11)_0x5d7e11[_0x3e1e62(0x391)]=_0x4d56a0['name'];if(_0xf6ad08)_0xf6ad08['textContent']=_0x4d56a0[_0x3e1e62(0x394)];if(_0x208b87)_0x208b87[_0x3e1e62(0x391)]=_0x4d56a0[_0x3e1e62(0x1d0)];if(_0xe1f5e0)_0xe1f5e0[_0x3e1e62(0x391)]=_0x4d56a0[_0x3e1e62(0x1a7)];if(_0x27c318)_0x27c318[_0x3e1e62(0x391)]=_0x4d56a0[_0x3e1e62(0x394)]+_0x3e1e62(0x31b);_0xdb6ffb&&(_0xdb6ffb[_0x3e1e62(0x1f6)][_0x3e1e62(0x38e)]=_0x4d56a0[_0x3e1e62(0x38d)]?'linear-gradient(180deg,\x20rgba(0,0,0,0.08),\x20rgba(0,0,0,0.34)),\x20url(\x22'+_0x4d56a0[_0x3e1e62(0x38d)]+'\x22)':''),_0xb9ca9f(document[_0x3e1e62(0x202)]('x-profile-avatar'),_0x4d56a0),_0xb9ca9f(document[_0x3e1e62(0x202)](_0x3e1e62(0x3a3)),_0x4d56a0),_0x32127e[_0x3e1e62(0x20c)][_0x3e1e62(0x3d6)]=_0x4d56a0[_0x3e1e62(0x3d6)]||_0x4d56a0[_0x3e1e62(0x1a7)][_0x3e1e62(0x19f)](0x0,0x1)[_0x3e1e62(0x30d)](),_0x32127e[_0x3e1e62(0x20c)]['name']=_0x4d56a0[_0x3e1e62(0x1a7)],_0x32127e[_0x3e1e62(0x20c)][_0x3e1e62(0x394)]=_0x4d56a0['handle']+'\x20·\x20pinned';}function _0x5f0f83(_0x36e374,_0xd031bd,_0x50af45){const _0x3e5015=_0xde68a;if(!_0x36e374)return;_0xd031bd?_0x36e374[_0x3e5015(0x429)]='<img\x20src=\x22'+_0x2e74f4(_0xd031bd)+_0x3e5015(0x2e8):_0x36e374[_0x3e5015(0x429)]='<span>'+_0x2e74f4(_0x50af45)+_0x3e5015(0x3ac);}function _0x1ed67d(){const _0x5b8563=_0xde68a;_0x4d56a0=_0x1241ef(),_0x14c153=_0x4d56a0[_0x5b8563(0x3d6)]||'',_0x40273e=_0x4d56a0[_0x5b8563(0x38d)]||'';if(_0x42d1d1)_0x42d1d1['value']=_0x4d56a0[_0x5b8563(0x1a7)];if(_0x15ea2a)_0x15ea2a[_0x5b8563(0x31a)]=_0x4d56a0[_0x5b8563(0x394)];if(_0x4a8448)_0x4a8448[_0x5b8563(0x31a)]=_0x4d56a0[_0x5b8563(0x1d0)];if(_0x26d831)_0x26d831[_0x5b8563(0x31a)]=_0x4d56a0[_0x5b8563(0x310)];_0x5f0f83(_0x20f62b,_0x14c153,_0x4d56a0[_0x5b8563(0x1a7)][_0x5b8563(0x19f)](0x0,0x1)[_0x5b8563(0x30d)]()),_0x5f0f83(_0xb12313,_0x40273e,_0x5b8563(0x319));if(typeof window[_0x5b8563(0x247)]===_0x5b8563(0x3ae))window[_0x5b8563(0x247)](_0xea85ff);else _0xea85ff?.[_0x5b8563(0x255)][_0x5b8563(0x345)](_0x5b8563(0x17b));}function _0x3bf973(){const _0x45da01=_0xde68a;if(typeof window[_0x45da01(0x271)]==='function')window[_0x45da01(0x271)](_0xea85ff);else _0xea85ff?.[_0x45da01(0x255)]['remove'](_0x45da01(0x17b));}function _0x29fc12(){const _0x17a49d=_0xde68a,_0x47e246=_0x4eb7cb(_0x42d1d1?.['value'],_0x5d4027[_0x17a49d(0x1a7)]),_0x5d2cf2={'name':_0x47e246,'handle':_0x14bade(_0x47e246,_0x15ea2a?.[_0x17a49d(0x31a)]||_0x4d56a0['handle']),'bio':_0x4eb7cb(_0x4a8448?.[_0x17a49d(0x31a)],_0x5d4027[_0x17a49d(0x1d0)]),'persona':_0x4eb7cb(_0x26d831?.['value']),'avatar':_0x14c153,'banner':_0x40273e,'edited':!![],'updatedAt':new Date()[_0x17a49d(0x30e)]()},_0x3bbfd0=_0x5a5f4e();_0x205aa9({..._0x3bbfd0,'xData':{..._0x3bbfd0[_0x17a49d(0x23e)],..._0x5d2cf2}}),_0x4d56a0=_0x5d2cf2,_0x549ca6(),_0x3bf973();}function _0x52fea9(){const _0x42c013=_0xde68a,_0x51c800=document[_0x42c013(0x202)](_0x42c013(0x197)),_0x14257c=_0x5a5f4e()['boundWorldBookIds']||[];if(_0x51c800)_0x51c800[_0x42c013(0x391)]=_0x14257c['length']+'\x20selected';}function _0x4963fe(){const _0x348d9c=_0xde68a;_0x52fea9();if(typeof window[_0x348d9c(0x247)]===_0x348d9c(0x3ae))window[_0x348d9c(0x247)](_0x2a14e5);else _0x2a14e5?.[_0x348d9c(0x255)][_0x348d9c(0x345)]('active');}function _0x5cbce6(){const _0x49d8e7=_0xde68a;if(typeof window[_0x49d8e7(0x271)]==='function')window[_0x49d8e7(0x271)](_0x2a14e5);else _0x2a14e5?.[_0x49d8e7(0x255)]['remove'](_0x49d8e7(0x17b));}function _0x44473a(){const _0x9c56b4=_0xde68a,_0x5ae5af=_0x5a5f4e(),_0x23f411=_0x5ae5af['boundWorldBookIds']||[];if(typeof window['renderWorldBookSelector']!==_0x9c56b4(0x3ae)){if(typeof window[_0x9c56b4(0x17a)]===_0x9c56b4(0x3ae))window[_0x9c56b4(0x17a)](_0x9c56b4(0x2d3));return;}window[_0x9c56b4(0x21e)](_0x23f411,_0x39a42c=>{const _0x29e0fb=_0x9c56b4;_0x205aa9({..._0x5a5f4e(),'boundWorldBookIds':Array['isArray'](_0x39a42c)?_0x39a42c[_0x29e0fb(0x17d)](String):[]}),_0x52fea9();});}function _0x17c7ac(){const _0x2ec36b=_0xde68a;if(_0x478577)_0x478577[_0x2ec36b(0x31a)]='';if(typeof window[_0x2ec36b(0x247)]==='function')window['openView'](_0x5becff);else _0x5becff?.['classList'][_0x2ec36b(0x345)](_0x2ec36b(0x17b));}function _0x18fc2e(){const _0x4d94fe=_0xde68a;if(typeof window[_0x4d94fe(0x271)]===_0x4d94fe(0x3ae))window[_0x4d94fe(0x271)](_0x5becff);else _0x5becff?.[_0x4d94fe(0x255)][_0x4d94fe(0x1d3)](_0x4d94fe(0x17b));}function _0x31e7b3(){const _0x5043a9=_0xde68a,_0x2c92f7=_0x4eb7cb(_0x478577?.[_0x5043a9(0x31a)],_0x5043a9(0x28c));_0x4c1339+=0x1;const _0x4ed3dc=_0x5043a9(0x296)+Date[_0x5043a9(0x1fe)]()+'-'+_0x4c1339;_0x32127e[_0x4ed3dc]={'avatar':_0x4d56a0[_0x5043a9(0x3d6)]||_0x4d56a0[_0x5043a9(0x1a7)][_0x5043a9(0x19f)](0x0,0x1)['toUpperCase'](),'name':_0x4d56a0[_0x5043a9(0x1a7)],'handle':_0x4d56a0['handle']+_0x5043a9(0x377),'text':_0x2c92f7,'reposts':'0','likes':'0','comments':'0','commentList':[{'avatar':'X','name':'X\x20App','handle':'@xapp\x20·\x20now','text':_0x5043a9(0x365)}]};const _0x50f201=_0x5731e4[_0x5043a9(0x2c7)]('.x-feed-panel[data-feed-panel=\x22recommend\x22]');if(_0x50f201){_0x2ad491(_0x50f201);const _0x1ad05b=document['createElement'](_0x5043a9(0x402));_0x1ad05b[_0x5043a9(0x182)]='x-feed-card',_0x1ad05b[_0x5043a9(0x3d8)]('data-post-id',_0x4ed3dc),_0x1ad05b[_0x5043a9(0x3d8)](_0x5043a9(0x2f0),'0'),_0x1ad05b[_0x5043a9(0x429)]=_0x5043a9(0x283)+(_0x4d56a0[_0x5043a9(0x3d6)]?'<img\x20src=\x22'+_0x2e74f4(_0x4d56a0[_0x5043a9(0x3d6)])+'\x22\x20alt=\x22\x22>':_0x2e74f4(_0x4d56a0['name'][_0x5043a9(0x19f)](0x0,0x1)[_0x5043a9(0x30d)]()))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x2e74f4(_0x4d56a0[_0x5043a9(0x1a7)])+_0x5043a9(0x1cc)+_0x2e74f4(_0x4d56a0[_0x5043a9(0x394)])+_0x5043a9(0x2d8)+_0x2e74f4(_0x2c92f7)+_0x5043a9(0x3a7),_0x54594d(_0x1ad05b),_0x50f201[_0x5043a9(0x317)](_0x1ad05b);}_0x18fc2e();}function _0x1fe730(_0xf63e66){const _0x19ec3a=_0xde68a,_0x10d4d4=Array[_0x19ec3a(0x193)](_0xf63e66[_0x19ec3a(0x38a)])?_0xf63e66[_0x19ec3a(0x38a)]:[];return _0xf63e66[_0x19ec3a(0x38a)]=_0x10d4d4,_0xf63e66[_0x19ec3a(0x1e4)]=_0x48c91e(Math[_0x19ec3a(0x198)](_0x36af7d(_0xf63e66['comments']),_0x10d4d4[_0x19ec3a(0x1a0)])),_0xf63e66;}function _0x586422(_0x272f4d=[]){const _0x337597=_0xde68a;_0x272f4d[_0x337597(0x381)](_0x113c73=>{const _0xa057=_0x337597;_0x32127e[_0x113c73['id']]=_0x1fe730(_0x113c73),_0x113c73['refPost']&&(_0x32127e[_0x113c73[_0xa057(0x408)]['id']]=_0x1fe730(_0x113c73['refPost']));});}function _0x1ffc5c(){const _0x43a307=_0xde68a;[_0x43a307(0x30b),_0x43a307(0x1fa),_0x43a307(0x31c)][_0x43a307(0x381)](_0x4de0ef=>{const _0x48eb55=_0x43a307;_0x5731e4[_0x48eb55(0x301)](_0x48eb55(0x2c5)+_0x4de0ef+'\x22]')['forEach'](_0x2073b7=>_0x2073b7['remove']());});}function _0x2ad491(_0x4b815e){const _0x4872bc=_0xde68a;_0x4b815e?.[_0x4872bc(0x301)](_0x4872bc(0x418))[_0x4872bc(0x381)](_0x2679b3=>_0x2679b3[_0x4872bc(0x1d3)]());}function _0xdfcec0(){const _0x454ccf=_0xde68a;_0x5731e4[_0x454ccf(0x301)](_0x454ccf(0x2e2))[_0x454ccf(0x381)](_0x46f28e=>{const _0xe8ecf7=_0x454ccf;_0x2ad491(_0x46f28e),!_0x46f28e['querySelector']('.x-feed-card')&&(_0x46f28e[_0xe8ecf7(0x429)]=_0xe8ecf7(0x3a9));});}function _0x26b184(_0x1f1b0a){const _0x4702eb=_0xde68a;let _0x3cf76c=_0x2e74f4(_0x1f1b0a[_0x4702eb(0x1bc)]);return _0x1f1b0a['topicTag']&&(_0x3cf76c=_0x3cf76c[_0x4702eb(0x3f7)](new RegExp('('+_0x2e74f4(_0x1f1b0a[_0x4702eb(0x258)])+')','g'),_0x4702eb(0x26f))),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-feed-avatar\x20x-avatar\x22>'+_0x49c150(_0x1f1b0a[_0x4702eb(0x3d6)],_0x1f1b0a[_0x4702eb(0x1a7)])+_0x4702eb(0x386)+_0x2e74f4(_0x1f1b0a[_0x4702eb(0x1a7)])+'</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x2e74f4(_0x1f1b0a[_0x4702eb(0x394)])+'\x20·\x20now</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>'+_0x3cf76c+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x293a8d(_0x5941a8(_0x1f1b0a))+_0x4702eb(0x1ac)+_0x2e74f4(_0x1f1b0a[_0x4702eb(0x1e4)]||'0')+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22fas\x20fa-retweet\x22></i>\x20'+_0x2e74f4(_0x1f1b0a[_0x4702eb(0x2a1)]||'0')+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-heart\x22></i>\x20'+_0x2e74f4(_0x1f1b0a['likes']||'0')+_0x4702eb(0x17f);}function _0x4c6400(){const _0xb40df6=_0xde68a,_0x3c15e7=_0x5731e4['querySelector'](_0xb40df6(0x3f6));if(!_0x3c15e7)return;_0x1ffc5c(),_0x2ad491(_0x3c15e7),_0x3c15e7[_0xb40df6(0x301)](_0xb40df6(0x398))[_0xb40df6(0x381)](_0x243091=>_0x243091[_0xb40df6(0x1d3)]());const _0x1b68b1=(_0x5a5f4e()[_0xb40df6(0x3b0)]||[])[_0xb40df6(0x17d)]((_0x4b2aa9,_0x2cad6e)=>_0x43781a(_0x4b2aa9,_0x2cad6e))[_0xb40df6(0x35e)](Boolean)['map'](_0x1ec7bb=>_0x1fe730(_0x1ec7bb));_0x586422(_0x1b68b1),_0x1b68b1[_0xb40df6(0x19f)]()[_0xb40df6(0x2c8)]()[_0xb40df6(0x381)](_0x5a99fe=>{const _0x587d52=_0xb40df6;if(_0x5a99fe[_0x587d52(0x236)])return;_0x2ad491(_0x3c15e7);const _0x10c5af=document['createElement'](_0x587d52(0x402));_0x10c5af['className']=_0x587d52(0x35b),_0x10c5af['setAttribute'](_0x587d52(0x235),_0x5a99fe['id']),_0x10c5af[_0x587d52(0x3d8)](_0x587d52(0x2f0),'0'),_0x10c5af[_0x587d52(0x429)]=_0x26b184(_0x5a99fe),_0x54594d(_0x10c5af),_0x3c15e7['prepend'](_0x10c5af),_0x2352c4(_0x5a99fe['id'],_0x360430(_0x5a99fe['id']));}),_0xdfcec0();}function _0x447a31(_0x23c82f){const _0x4ab33f=_0xde68a;if(!_0x4297e1)return;_0x4297e1[_0x4ab33f(0x429)]='';const _0x364a67=(_0x5a5f4e()['xGeneratedPosts']||[])[_0x4ab33f(0x35e)](_0x5cb8fa=>_0x5cb8fa[_0x4ab33f(0x258)]===_0x23c82f)[_0x4ab33f(0x17d)]((_0x23901d,_0x93d34e)=>_0x43781a(_0x23901d,_0x93d34e))[_0x4ab33f(0x35e)](Boolean)[_0x4ab33f(0x17d)](_0x678e7e=>_0x1fe730(_0x678e7e));if(_0x364a67[_0x4ab33f(0x1a0)]===0x0){_0x4297e1[_0x4ab33f(0x429)]='<div\x20class=\x22x-empty-state\x22>暂无帖子，点击右上角生成</div>';return;}_0x364a67[_0x4ab33f(0x19f)]()[_0x4ab33f(0x2c8)]()[_0x4ab33f(0x381)]((_0x5f115f,_0x37d066,_0x593a32)=>{const _0x53cfe2=_0x4ab33f,_0x5181cf=_0x593a32['length']-0x1-_0x37d066,_0x2a0d84=document[_0x53cfe2(0x401)]('article');_0x2a0d84[_0x53cfe2(0x182)]=_0x53cfe2(0x35b),_0x5181cf>=0xa&&(_0x2a0d84['style'][_0x53cfe2(0x288)]='none',_0x2a0d84[_0x53cfe2(0x255)][_0x53cfe2(0x345)](_0x53cfe2(0x1e7))),_0x2a0d84[_0x53cfe2(0x3d8)](_0x53cfe2(0x235),_0x5f115f['id']),_0x2a0d84['setAttribute'](_0x53cfe2(0x2f0),'0'),_0x2a0d84['innerHTML']=_0x26b184(_0x5f115f),_0x54594d(_0x2a0d84),_0x4297e1['prepend'](_0x2a0d84),_0x2352c4(_0x5f115f['id'],_0x360430(_0x5f115f['id']));});}function _0x371318(_0x379190){const _0x3e072a=_0xde68a;_0x43c7ba=_0x379190;if(_0x40e04d)_0x40e04d[_0x3e072a(0x391)]=_0x379190;_0x447a31(_0x379190),_0x3d9964?.[_0x3e072a(0x255)][_0x3e072a(0x345)](_0x3e072a(0x17b)),_0x3d9964?.['setAttribute'](_0x3e072a(0x2e4),_0x3e072a(0x3c4));}function _0x4f7014(){const _0x2541e2=_0xde68a;_0x3d9964?.[_0x2541e2(0x26c)](document[_0x2541e2(0x2e6)])&&document[_0x2541e2(0x2e6)][_0x2541e2(0x419)](),_0x3d9964?.[_0x2541e2(0x255)][_0x2541e2(0x1d3)](_0x2541e2(0x17b)),_0x3d9964?.[_0x2541e2(0x3d8)](_0x2541e2(0x2e4),_0x2541e2(0x3ca)),_0x43c7ba=null;}async function _0x19bb6b(){const _0x454a2d=_0xde68a;if(!_0x43c7ba||!_0x1d4aaf)return;const _0x46700a=_0x43c7ba;_0x1d4aaf[_0x454a2d(0x255)][_0x454a2d(0x345)](_0x454a2d(0x433)),_0x1d4aaf[_0x454a2d(0x429)]='<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>';try{const _0x1f1479=_0x4681b4(_0x46700a+'\x20'+_0x4d56a0[_0x454a2d(0x310)]+'\x20'+_0x4d56a0['bio']),_0x4b5176=_0x454a2d(0x31f)+_0x46700a+_0x454a2d(0x21a)+_0x46700a+_0x454a2d(0x3d2)+JSON['stringify'](_0x4d56a0)+_0x454a2d(0x2a9)+(_0x5a5f4e()[_0x454a2d(0x1bf)]||_0xa31674)+_0x454a2d(0x1d9)+(_0x1f1479||_0x454a2d(0x1c7)),_0x58cc35=await _0x3828db([{'role':_0x454a2d(0x321),'content':_0x454a2d(0x41e)},{'role':_0x454a2d(0x21f),'content':_0x4b5176}],{'temperature':0.9}),_0x2854f1=_0x126bb6(_0x58cc35),_0x31fb37=Array[_0x454a2d(0x193)](_0x2854f1)?_0x2854f1:Array[_0x454a2d(0x193)](_0x2854f1[_0x454a2d(0x189)])?_0x2854f1[_0x454a2d(0x189)]:[];_0x31fb37[_0x454a2d(0x381)](_0x48e70f=>{const _0x164f58=_0x454a2d;!_0x48e70f[_0x164f58(0x1bc)][_0x164f58(0x2dd)](_0x46700a)&&(_0x48e70f[_0x164f58(0x1bc)]+='\x20'+_0x46700a),_0x48e70f[_0x164f58(0x258)]=_0x46700a;});const _0x541bc9=_0x2e0078(_0x31fb37);_0x447a31(_0x46700a);if(typeof window[_0x454a2d(0x17a)]===_0x454a2d(0x3ae))window[_0x454a2d(0x17a)](_0x541bc9[_0x454a2d(0x1a0)]?'已生成\x20'+_0x541bc9[_0x454a2d(0x1a0)]+_0x454a2d(0x1e8):'没有生成可用帖子');}catch(_0x30ff75){console[_0x454a2d(0x351)](_0x454a2d(0x294),_0x30ff75);if(typeof window[_0x454a2d(0x17a)]===_0x454a2d(0x3ae))window[_0x454a2d(0x17a)]('生成失败，请检查\x20API\x20配置或返回格式');}finally{_0x1d4aaf[_0x454a2d(0x255)]['remove']('loading'),_0x1d4aaf['innerHTML']=_0x454a2d(0x1ba);}}function _0x2e0078(_0x4a6bb3){const _0x50f91e=_0xde68a,_0x369c0f=(Array[_0x50f91e(0x193)](_0x4a6bb3)?_0x4a6bb3:[])[_0x50f91e(0x19f)](0x0,0x32)[_0x50f91e(0x17d)]((_0xdf9d44,_0x187a7b)=>_0x43781a(_0xdf9d44,_0x187a7b))['filter'](Boolean)[_0x50f91e(0x17d)](_0x5f330f=>_0x1fe730(_0x5f330f));if(_0x369c0f['length']===0x0)return[];return _0x662e33(_0x5915a6=>{const _0x5409b6=_0x50f91e,_0x18f6a5=new Set((_0x5915a6[_0x5409b6(0x3b0)]||[])[_0x5409b6(0x17d)](_0x51c7d4=>String(_0x51c7d4['id'])));_0x369c0f[_0x5409b6(0x381)](_0x215620=>{const _0x439972=_0x5409b6;if(!_0x18f6a5[_0x439972(0x3d9)](String(_0x215620['id'])))_0x5915a6['xGeneratedPosts'][_0x439972(0x28e)](_0x215620);});const _0x41a2fb={};_0x5915a6[_0x5409b6(0x3b0)]=_0x5915a6[_0x5409b6(0x3b0)][_0x5409b6(0x35e)](_0x358fbc=>{const _0x1de553=_0x5409b6;if(!_0x358fbc['topicTag'])return!![];return _0x41a2fb[_0x358fbc[_0x1de553(0x258)]]=(_0x41a2fb[_0x358fbc['topicTag']]||0x0)+0x1,_0x41a2fb[_0x358fbc[_0x1de553(0x258)]]<=0x14;});}),_0x4c6400(),_0x369c0f;}function _0x48bed0(){const _0xcefa89=_0xde68a,_0x47d094=document['getElementById'](_0xcefa89(0x338)),_0x3d2dea=document[_0xcefa89(0x202)](_0xcefa89(0x2b1));if(!_0x47d094)return;const _0x5fb136=(_0x5a5f4e()[_0xcefa89(0x2eb)]||[])['filter'](Boolean);if(_0x3d2dea)_0x3d2dea[_0xcefa89(0x391)]=_0x5fb136['length']+_0xcefa89(0x1a1);if(_0x5fb136[_0xcefa89(0x1a0)]===0x0){_0x47d094[_0xcefa89(0x429)]=_0xcefa89(0x23f);return;}_0x47d094['innerHTML']=_0x5fb136[_0xcefa89(0x17d)](_0x4e2e96=>{const _0x4110e0=_0xcefa89,_0x531e16=_0x4eb7cb(_0x4e2e96[_0x4110e0(0x1a7)]||_0x4e2e96[_0x4110e0(0x1fd)],'超话'),_0x56ea1f=_0x4eb7cb(_0x4e2e96['avatar']||_0x4e2e96[_0x4110e0(0x2ac)],_0x531e16[_0x4110e0(0x19f)](0x0,0x1)),_0x45b706=_0x56ea1f[_0x4110e0(0x35a)]('data:')||_0x56ea1f[_0x4110e0(0x35a)](_0x4110e0(0x29e))?'<img\x20src=\x22'+_0x2e74f4(_0x56ea1f)+'\x22\x20alt=\x22\x22>':_0x2e74f4(_0x56ea1f['slice'](0x0,0x1));return _0x4110e0(0x337)+_0x2e74f4(_0x4e2e96['id']||_0x531e16)+_0x4110e0(0x2f9)+_0x45b706+_0x4110e0(0x42a)+_0x2e74f4(_0x531e16)+_0x4110e0(0x290);})['join'](''),_0x47d094[_0xcefa89(0x301)](_0xcefa89(0x37b))[_0xcefa89(0x381)](_0x2f8c48=>{const _0x524a56=_0xcefa89;_0x2f8c48[_0x524a56(0x277)]('click',()=>{const _0x56e02b=_0x524a56,_0x1ccefd=_0x2f8c48[_0x56e02b(0x25d)][_0x56e02b(0x1a8)],_0x4d6088=_0x5fb136[_0x56e02b(0x240)](_0x1b2ce1=>String(_0x1b2ce1['id']||_0x1b2ce1[_0x56e02b(0x1a7)])===_0x1ccefd);_0x4d6088&&_0x2989cc(_0x4d6088);});}),_0x5fb136[_0xcefa89(0x1a0)]>0x0&&_0x2989cc(_0x5fb136[0x0]);}let _0x2aa282=null;async function _0x3fa33b(){const _0x3a4629=_0xde68a;if(!_0x2aa282||!_0x287577)return;const _0x20e65d=_0x5a5f4e()[_0x3a4629(0x2eb)]||[],_0x335e21=_0x20e65d[_0x3a4629(0x240)](_0x3ca3f5=>String(_0x3ca3f5['id']||_0x3ca3f5[_0x3a4629(0x1a7)])===String(_0x2aa282));if(!_0x335e21)return;const _0x56c78b=_0x335e21[_0x3a4629(0x1a7)]||_0x335e21[_0x3a4629(0x1fd)]||'超话';let _0x9febb4='';Array[_0x3a4629(0x193)](_0x335e21[_0x3a4629(0x28d)])&&_0x335e21['chars'][_0x3a4629(0x1a0)]>0x0&&(_0x9febb4=_0x335e21[_0x3a4629(0x28d)]['map'](_0x1699e4=>_0x3a4629(0x22d)+_0x1699e4['name']+_0x3a4629(0x427)+(_0x1699e4[_0x3a4629(0x310)]||_0x1699e4[_0x3a4629(0x1d0)]||_0x3a4629(0x1c7)))['join']('\x0a'));_0x287577[_0x3a4629(0x1cd)]=!![],_0x287577[_0x3a4629(0x429)]=_0x3a4629(0x27f);try{const _0x50c575=_0x4681b4(_0x56c78b+'\x20'+_0x9febb4),_0x4783a4=_0x3a4629(0x228)+_0x56c78b+_0x3a4629(0x364)+_0x56c78b+'\x0aTopic\x20Characters\x20Info:\x0a'+(_0x9febb4||_0x3a4629(0x1c7))+'\x0aCurrent\x20Date:\x20'+(_0x5a5f4e()[_0x3a4629(0x1bf)]||_0xa31674)+_0x3a4629(0x291)+(_0x50c575||'None')+'\x0a',_0x59dc80=await _0x3828db([{'role':_0x3a4629(0x321),'content':_0x3a4629(0x30c)},{'role':_0x3a4629(0x21f),'content':_0x4783a4}],{'temperature':0.9}),_0xc7cf8f=_0x126bb6(_0x59dc80);let _0x11f5ed=[],_0x22f1f0={'isOnline':![],'lastOnline':'未知'};if(Array[_0x3a4629(0x193)](_0xc7cf8f))_0x11f5ed=_0xc7cf8f;else{if(_0xc7cf8f&&typeof _0xc7cf8f===_0x3a4629(0x2e0)){_0xc7cf8f['onlineStatus']&&(_0x22f1f0={'isOnline':!!_0xc7cf8f['onlineStatus'][_0x3a4629(0x358)],'lastOnline':_0xc7cf8f['onlineStatus']['lastOnline']||''});if(Array['isArray'](_0xc7cf8f[_0x3a4629(0x3f1)]))_0x11f5ed=_0x11f5ed[_0x3a4629(0x1f1)](_0xc7cf8f[_0x3a4629(0x3f1)]);if(Array[_0x3a4629(0x193)](_0xc7cf8f[_0x3a4629(0x189)]))_0x11f5ed=_0x11f5ed[_0x3a4629(0x1f1)](_0xc7cf8f[_0x3a4629(0x189)]);Array['isArray'](_0xc7cf8f[_0x3a4629(0x3e3)])&&(_0xc7cf8f[_0x3a4629(0x3e3)][_0x3a4629(0x381)](_0x40f275=>_0x40f275[_0x3a4629(0x236)]=!![]),_0x11f5ed=_0x11f5ed['concat'](_0xc7cf8f[_0x3a4629(0x3e3)]));}}_0x662e33(_0x4ccb7d=>{const _0x454a14=_0x3a4629,_0x50c7b1=(_0x4ccb7d[_0x454a14(0x2eb)]||[])[_0x454a14(0x240)](_0xc97263=>String(_0xc97263['id']||_0xc97263[_0x454a14(0x1a7)])===String(_0x2aa282));_0x50c7b1&&(_0x50c7b1[_0x454a14(0x305)]=_0x22f1f0);}),_0x11f5ed[_0x3a4629(0x381)](_0x3a3a69=>{const _0x5110c6=_0x3a4629;_0x3a3a69[_0x5110c6(0x258)]=_0x56c78b;}),_0x335e21[_0x3a4629(0x305)]=_0x22f1f0;const _0x13cccd=_0x2e0078(_0x11f5ed);_0xa3f5ab(_0x335e21),typeof window['showToast']===_0x3a4629(0x3ae)&&window['showToast']('超话已更新，生成\x20'+_0x13cccd['length']+_0x3a4629(0x181));}catch(_0xb200e4){console[_0x3a4629(0x351)](_0x3a4629(0x192),_0xb200e4);if(typeof window[_0x3a4629(0x17a)]===_0x3a4629(0x3ae))window[_0x3a4629(0x17a)](_0x3a4629(0x244));}finally{_0x287577['disabled']=![],_0x287577[_0x3a4629(0x429)]=_0x3a4629(0x251);}}function _0xa3f5ab(_0x587f5d){const _0x2a5217=_0xde68a;if(!_0x587f5d)return;const _0x38777c=_0x587f5d[_0x2a5217(0x1a7)]||_0x587f5d[_0x2a5217(0x1fd)]||'',_0x4ca128=_0x5731e4[_0x2a5217(0x2c7)]('.x-super-feed[data-super-panel=\x22featured\x22]'),_0x38e3f0=_0x5731e4[_0x2a5217(0x2c7)]('.x-super-feed[data-super-panel=\x22posts\x22]'),_0x1b6bd3=_0x5731e4['querySelector'](_0x2a5217(0x426)),_0x25d430=_0x5731e4[_0x2a5217(0x2c7)](_0x2a5217(0x2f8)),_0x1e964b=(_0x5a5f4e()[_0x2a5217(0x3b0)]||[])[_0x2a5217(0x35e)](_0x6dad40=>_0x6dad40[_0x2a5217(0x258)]===_0x38777c)[_0x2a5217(0x17d)]((_0x54d479,_0x58dfeb)=>_0x43781a(_0x54d479,_0x58dfeb))[_0x2a5217(0x35e)](Boolean)[_0x2a5217(0x17d)](_0x17faa1=>_0x1fe730(_0x17faa1));if(_0x4ca128)_0x4ca128[_0x2a5217(0x429)]='';if(_0x38e3f0)_0x38e3f0[_0x2a5217(0x429)]='';if(_0x1b6bd3)_0x1b6bd3['innerHTML']='';if(_0x25d430)_0x25d430['innerHTML']='';let _0x20a401='';if(_0x587f5d[_0x2a5217(0x305)]){const _0xc24109=_0x587f5d[_0x2a5217(0x305)];if(_0xc24109[_0x2a5217(0x358)])_0x20a401=_0x2a5217(0x1c0);else _0xc24109[_0x2a5217(0x3fe)]&&(_0x20a401=_0x2a5217(0x3fa)+_0x2e74f4(_0xc24109[_0x2a5217(0x3fe)])+_0x2a5217(0x1c4));}if(_0x1e964b['length']===0x0){if(_0x4ca128)_0x4ca128[_0x2a5217(0x429)]=_0x2a5217(0x330);if(_0x38e3f0)_0x38e3f0[_0x2a5217(0x429)]=_0x2a5217(0x1bd);if(_0x1b6bd3)_0x1b6bd3[_0x2a5217(0x429)]=_0x2a5217(0x272);_0x25d430&&(_0x25d430[_0x2a5217(0x429)]=_0x20a401+_0x2a5217(0x224));return;}_0x25d430&&_0x20a401&&(_0x25d430[_0x2a5217(0x429)]=_0x20a401);_0x1e964b[_0x2a5217(0x19f)]()[_0x2a5217(0x2c8)]()[_0x2a5217(0x381)]((_0x506b19,_0x573624,_0x2b075d)=>{const _0xf9998b=_0x2a5217,_0x477926=_0x2b075d[_0xf9998b(0x1a0)]-0x1-_0x573624,_0x271c95=document[_0xf9998b(0x401)](_0xf9998b(0x402));_0x271c95['className']='x-feed-card\x20x-generated-feed-card';_0x477926>=0xa&&(_0x271c95['style'][_0xf9998b(0x288)]=_0xf9998b(0x278),_0x271c95[_0xf9998b(0x255)]['add'](_0xf9998b(0x1e7)));_0x271c95[_0xf9998b(0x3d8)](_0xf9998b(0x235),_0x506b19['id']),_0x271c95['setAttribute'](_0xf9998b(0x2f0),'0');if(_0x506b19['isMoment']){_0x271c95[_0xf9998b(0x255)][_0xf9998b(0x345)](_0xf9998b(0x1a5));const _0xadc737=_0x4eb7cb(_0x506b19[_0xf9998b(0x306)],_0xf9998b(0x1bb)),_0x4d7cb8=_0x506b19[_0xf9998b(0x408)]?'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-ref-post\x22\x20data-ref-id=\x22'+_0x2e74f4(_0x506b19[_0xf9998b(0x408)]['id'])+_0xf9998b(0x424)+_0x2e74f4(_0x506b19[_0xf9998b(0x408)][_0xf9998b(0x1a7)])+_0xf9998b(0x363)+_0x2e74f4(_0x506b19['refPost'][_0xf9998b(0x394)])+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>'+_0x2e74f4(_0x506b19[_0xf9998b(0x408)][_0xf9998b(0x1bc)])+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'<p>'+_0x2e74f4(_0x506b19[_0xf9998b(0x1bc)])+'</p>';_0x271c95['innerHTML']=_0xf9998b(0x343)+_0x49c150(_0x506b19[_0xf9998b(0x3d6)],_0x506b19[_0xf9998b(0x1a7)])+_0xf9998b(0x425)+_0x2e74f4(_0x506b19[_0xf9998b(0x1a7)])+'\x20'+_0x2e74f4(_0xadc737)+_0xf9998b(0x1d8)+_0x4d7cb8+_0xf9998b(0x206);if(_0x25d430){const _0x411116=_0x25d430[_0xf9998b(0x2c7)](_0xf9998b(0x1be));_0x411116?_0x411116[_0xf9998b(0x29d)]('afterend',_0x271c95[_0xf9998b(0x353)](!![])):_0x25d430[_0xf9998b(0x317)](_0x271c95[_0xf9998b(0x353)](!![]));}}else{_0x271c95[_0xf9998b(0x429)]=_0x26b184(_0x506b19);if(_0x38e3f0)_0x38e3f0[_0xf9998b(0x317)](_0x271c95[_0xf9998b(0x353)](!![]));_0x506b19[_0xf9998b(0x359)]&&_0x4ca128&&_0x4ca128['prepend'](_0x271c95['cloneNode'](!![]));}const _0x27283c=_0x5731e4[_0xf9998b(0x301)]('.x-feed-card[data-post-id=\x22'+_0x506b19['id']+'\x22]');_0x27283c[_0xf9998b(0x381)](_0x5835f1=>_0x54594d(_0x5835f1)),_0x2352c4(_0x506b19['id'],_0x360430(_0x506b19['id']));});if(_0x1b6bd3){const _0x30bbde=_0x1e964b['flatMap'](_0x3abd16=>{const _0x4be56e=_0x2a5217;if(_0x3abd16[_0x4be56e(0x236)])return[];return _0x5941a8(_0x3abd16)['map'](_0x32a36c=>({..._0x32a36c,'postId':_0x3abd16['id']}));});_0x30bbde[_0x2a5217(0x1a0)]===0x0?_0x1b6bd3['innerHTML']='<div\x20class=\x22x-empty-state\x22>暂无图片</div>':(_0x1b6bd3[_0x2a5217(0x429)]=_0x2a5217(0x1f8)+_0x30bbde[_0x2a5217(0x17d)]((_0x548ef0,_0x471b96)=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-post-image-thumb\x20'+(_0x471b96>=0xc?_0x2a5217(0x1e7):'')+'\x22\x20style=\x22'+(_0x471b96>=0xc?_0x2a5217(0x3ed):'')+'\x22\x20data-image-text=\x22'+_0x2e74f4(_0x548ef0[_0x2a5217(0x1bc)]||'Image')+_0x2a5217(0x393)+_0x2e74f4(_0x548ef0['url']||'')+_0x2a5217(0x331)+_0x548ef0[_0x2a5217(0x3a5)]+_0x2a5217(0x17e)+_0x2e74f4(_0x548ef0[_0x2a5217(0x3a6)]||_0x17c4a3)+_0x2a5217(0x1ab))[_0x2a5217(0x259)]('')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>',_0x1b6bd3[_0x2a5217(0x301)]('.x-post-image-thumb')['forEach'](_0xb11501=>{const _0x3b258b=_0x2a5217;_0xb11501[_0x3b258b(0x277)]('click',_0x2f49c7=>{const _0x441f97=_0x3b258b;_0x2f49c7[_0x441f97(0x19a)](),_0x2f49c7['stopPropagation'](),_0x418fe4(_0xb11501[_0x441f97(0x25d)]['imageText']||'Image',_0xb11501[_0x441f97(0x25d)][_0x441f97(0x33d)]||'');});}));}if(_0x4ca128&&_0x4ca128['children'][_0x2a5217(0x1a0)]===0x0)_0x4ca128['innerHTML']='<div\x20class=\x22x-empty-state\x22>暂无精选内容</div>';if(_0x38e3f0&&_0x38e3f0[_0x2a5217(0x219)][_0x2a5217(0x1a0)]===0x0)_0x38e3f0[_0x2a5217(0x429)]=_0x2a5217(0x1bd);if(_0x25d430){const _0x3d2b7e=_0x25d430[_0x2a5217(0x2c7)](_0x2a5217(0x2be));!_0x3d2b7e&&_0x25d430['insertAdjacentHTML'](_0x2a5217(0x1f9),_0x2a5217(0x224));}}function _0x2989cc(_0x2f8a8c){const _0x3a1ce6=_0xde68a;_0x2aa282=_0x2f8a8c['id']||_0x2f8a8c[_0x3a1ce6(0x1a7)];const _0x1107ab=document[_0x3a1ce6(0x2c7)](_0x3a1ce6(0x23a)),_0x5f3078=document['querySelector'](_0x3a1ce6(0x342)),_0x31b4d9=document[_0x3a1ce6(0x2c7)]('.x-super-title-row\x20h3'),_0x51f053=document[_0x3a1ce6(0x2c7)](_0x3a1ce6(0x183)),_0x4b43e4=document[_0x3a1ce6(0x2c7)](_0x3a1ce6(0x2a3));_0x1107ab&&(_0x2f8a8c[_0x3a1ce6(0x38d)]?(_0x1107ab[_0x3a1ce6(0x1f6)]['backgroundImage']=_0x3a1ce6(0x336)+_0x2f8a8c[_0x3a1ce6(0x38d)]+')',_0x1107ab[_0x3a1ce6(0x429)]=''):(_0x1107ab[_0x3a1ce6(0x1f6)]['backgroundImage']='',_0x1107ab[_0x3a1ce6(0x429)]=_0x3a1ce6(0x333)));if(_0x5f3078){const _0x1dfe66=_0x4eb7cb(_0x2f8a8c['avatar']||_0x2f8a8c['icon'],_0x4eb7cb(_0x2f8a8c['name']||_0x2f8a8c[_0x3a1ce6(0x1fd)],'超')[_0x3a1ce6(0x19f)](0x0,0x1));_0x1dfe66[_0x3a1ce6(0x35a)](_0x3a1ce6(0x2c9))||_0x1dfe66['startsWith']('http')?_0x5f3078[_0x3a1ce6(0x429)]=_0x3a1ce6(0x3e2)+_0x2e74f4(_0x1dfe66)+'\x22\x20alt=\x22\x22\x20style=\x22width:100%;height:100%;object-fit:cover;border-radius:12px;\x22>':_0x5f3078[_0x3a1ce6(0x391)]=_0x1dfe66;}_0x31b4d9&&(_0x31b4d9[_0x3a1ce6(0x391)]=_0x4eb7cb(_0x2f8a8c[_0x3a1ce6(0x1a7)]||_0x2f8a8c[_0x3a1ce6(0x1fd)],'超话'));if(_0x51f053){const _0x53c55c=_0x2f8a8c[_0x3a1ce6(0x3d5)]||0x0,_0x1dd89e=_0x4eb7cb(_0x2f8a8c[_0x3a1ce6(0x41a)],'0');_0x51f053['textContent']='超话\x20·\x20'+_0x1dd89e+_0x3a1ce6(0x33b)+_0x53c55c+'\x20天';}if(_0x4b43e4){const _0x28bbf6=_0x5a5f4e()[_0x3a1ce6(0x1bf)]||new Date()['toISOString']()[_0x3a1ce6(0x30f)]('T')[0x0];_0x2f8a8c[_0x3a1ce6(0x243)]===_0x28bbf6?(_0x4b43e4[_0x3a1ce6(0x391)]=_0x3a1ce6(0x2ab),_0x4b43e4[_0x3a1ce6(0x1cd)]=!![],_0x4b43e4['style'][_0x3a1ce6(0x22f)]=_0x3a1ce6(0x1f3),_0x4b43e4[_0x3a1ce6(0x1f6)]['cursor']=_0x3a1ce6(0x29b)):(_0x4b43e4[_0x3a1ce6(0x391)]='签到',_0x4b43e4['disabled']=![],_0x4b43e4[_0x3a1ce6(0x1f6)][_0x3a1ce6(0x22f)]='1',_0x4b43e4[_0x3a1ce6(0x1f6)][_0x3a1ce6(0x2b7)]=_0x3a1ce6(0x362));}_0xa3f5ab(_0x2f8a8c);}function _0xdf20a3(_0x45e40c){const _0x27dc9a=_0xde68a,_0x13dd7a=_0x5a5f4e()[_0x27dc9a(0x1bf)]||new Date()[_0x27dc9a(0x30e)]()[_0x27dc9a(0x30f)]('T')[0x0];_0x662e33(_0xdd17b9=>{const _0x1079b6=_0x27dc9a,_0x26f76c=(_0xdd17b9[_0x1079b6(0x2eb)]||[])['find'](_0x5b48cc=>String(_0x5b48cc['id']||_0x5b48cc['name'])===String(_0x45e40c));_0x26f76c&&(_0x26f76c[_0x1079b6(0x243)]!==_0x13dd7a&&(_0x26f76c['signDays']=(_0x26f76c[_0x1079b6(0x3d5)]||0x0)+0x1,_0x26f76c[_0x1079b6(0x243)]=_0x13dd7a));});const _0x440a95=_0x5a5f4e()[_0x27dc9a(0x2eb)]||[],_0x12a38a=_0x440a95[_0x27dc9a(0x240)](_0x2d3b4e=>String(_0x2d3b4e['id']||_0x2d3b4e[_0x27dc9a(0x1a7)])===String(_0x45e40c));_0x12a38a&&(_0x2989cc(_0x12a38a),typeof window[_0x27dc9a(0x17a)]==='function'&&window[_0x27dc9a(0x17a)](_0x27dc9a(0x3d3)+_0x12a38a[_0x27dc9a(0x3d5)]+'\x20天'));}function _0x38f048(){const _0x930719=_0xde68a;_0x31b21b='',_0x4e4c7a='',_0x3d9510=[];if(_0x254fc6)_0x254fc6[_0x930719(0x31a)]='';if(_0x3f5fef)_0x3f5fef[_0x930719(0x31a)]='';_0x5f0f83(_0x380d09,'','超'),_0x5f0f83(_0x2cf84a,'',_0x930719(0x319)),_0x54c55f();if(_0xbc6418)_0xbc6418[_0x930719(0x1f6)][_0x930719(0x288)]=_0x930719(0x278);if(_0x237002)_0x237002['style'][_0x930719(0x288)]=_0x930719(0x278);if(typeof window[_0x930719(0x247)]===_0x930719(0x3ae))window[_0x930719(0x247)](_0x58614b);else _0x58614b?.[_0x930719(0x255)][_0x930719(0x345)](_0x930719(0x17b));}function _0xc2cbb7(){const _0x33ed93=_0xde68a;if(typeof window[_0x33ed93(0x271)]===_0x33ed93(0x3ae))window[_0x33ed93(0x271)](_0x58614b);else _0x58614b?.['classList'][_0x33ed93(0x1d3)](_0x33ed93(0x17b));}function _0x4d5d19(){const _0x41880a=_0xde68a,_0xa6ce7a=_0x4eb7cb(_0x254fc6?.[_0x41880a(0x31a)]),_0x49f081=_0x4eb7cb(_0x3f5fef?.[_0x41880a(0x31a)],'0');if(!_0xa6ce7a){if(typeof window['showToast']===_0x41880a(0x3ae))window[_0x41880a(0x17a)]('请输入超话名字');return;}const _0x1b31dd={'id':_0x6bbcdb('topic'),'name':_0xa6ce7a,'fans':_0x49f081,'avatar':_0x31b21b,'banner':_0x4e4c7a,'chars':_0x3d9510,'createdAt':Date[_0x41880a(0x1fe)]()};_0x662e33(_0x2b8d13=>{const _0x3b040b=_0x41880a;_0x2b8d13[_0x3b040b(0x2eb)]=_0x2b8d13['xTopics']||[],_0x2b8d13[_0x3b040b(0x2eb)]['unshift'](_0x1b31dd);}),_0x48bed0(),_0xc2cbb7();if(typeof window['showToast']==='function')window[_0x41880a(0x17a)](_0x41880a(0x3e4));}async function _0x18944f(){const _0x570202=_0xde68a;if(_0x237002)_0x237002['style'][_0x570202(0x288)]=_0x570202(0x278);if(!_0xbc6418)return;if(_0xbc6418[_0x570202(0x1f6)][_0x570202(0x288)]===_0x570202(0x268))_0xbc6418[_0x570202(0x1f6)][_0x570202(0x288)]=_0x570202(0x278);else{_0xbc6418[_0x570202(0x1f6)]['display']=_0x570202(0x268),_0xbc6418['innerHTML']=_0x570202(0x2df);const _0x4b9ce1=await _0xa6f555();if(_0x4b9ce1[_0x570202(0x1a0)]===0x0){_0xbc6418['innerHTML']='<div\x20style=\x22text-align:center;\x20padding:\x2010px;\x22>未找到可导入的角色</div>';return;}_0xbc6418[_0x570202(0x429)]=_0x4b9ce1[_0x570202(0x17d)](_0x2f2530=>{const _0x538eb5=_0x570202,_0x21abee=_0x186820(_0x2f2530,_0x538eb5(0x1b4));return _0x538eb5(0x41d)+_0x49c150(_0x21abee[_0x538eb5(0x3d6)],_0x21abee[_0x538eb5(0x1a7)])+_0x538eb5(0x211)+_0x2e74f4(_0x21abee['name'])+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-char-id=\x22'+_0x21abee['id']+_0x538eb5(0x39c);})[_0x570202(0x259)](''),_0xbc6418[_0x570202(0x301)](_0x570202(0x354))[_0x570202(0x381)](_0x2f4678=>{const _0x23f534=_0x570202;_0x2f4678['addEventListener'](_0x23f534(0x3c7),()=>{const _0x876416=_0x23f534,_0x50537b=_0x2f4678[_0x876416(0x25d)][_0x876416(0x380)],_0x1b0c42=_0x4b9ce1[_0x876416(0x240)](_0x32040c=>String(_0x32040c['id'])===String(_0x50537b));if(_0x1b0c42){const _0x1b981c=_0x186820(_0x1b0c42,_0x876416(0x1b4));if(!_0x3d9510[_0x876416(0x240)](_0x4a31e3=>_0x4a31e3['id']===_0x1b981c['id'])){_0x3d9510[_0x876416(0x187)](_0x1b981c),_0x54c55f();if(typeof window[_0x876416(0x17a)]===_0x876416(0x3ae))window[_0x876416(0x17a)]('已添加角色');}else{if(typeof window[_0x876416(0x17a)]===_0x876416(0x3ae))window[_0x876416(0x17a)](_0x876416(0x1fb));}}});});}}function _0x3fe844(){const _0x9195ba=_0xde68a;if(_0xbc6418)_0xbc6418[_0x9195ba(0x1f6)][_0x9195ba(0x288)]=_0x9195ba(0x278);if(!_0x237002)return;_0x237002[_0x9195ba(0x1f6)][_0x9195ba(0x288)]===_0x9195ba(0x268)?_0x237002[_0x9195ba(0x1f6)][_0x9195ba(0x288)]='none':_0x237002['style']['display']=_0x9195ba(0x268);}function _0x218110(){const _0x5d44d9=_0xde68a,_0x499bd3=document['getElementById'](_0x5d44d9(0x1ee)),_0x586c97=document[_0x5d44d9(0x202)](_0x5d44d9(0x2dc)),_0x17b9b1=document[_0x5d44d9(0x202)](_0x5d44d9(0x36e)),_0x20844a=document[_0x5d44d9(0x202)](_0x5d44d9(0x2ca)),_0xa770b0=_0x4eb7cb(_0x499bd3?.[_0x5d44d9(0x31a)]);if(!_0xa770b0){if(typeof window[_0x5d44d9(0x17a)]===_0x5d44d9(0x3ae))window['showToast'](_0x5d44d9(0x1fc));return;}const _0x165de0={'id':_0x6bbcdb('manual-char'),'origin':_0x5d44d9(0x375),'name':_0xa770b0,'handle':_0x14bade(_0xa770b0,_0x586c97?.[_0x5d44d9(0x31a)]),'bio':_0x4eb7cb(_0x17b9b1?.[_0x5d44d9(0x31a)]),'persona':_0x4eb7cb(_0x20844a?.[_0x5d44d9(0x31a)]),'avatar':''};_0x3d9510[_0x5d44d9(0x187)](_0x165de0),_0x54c55f();if(_0x499bd3)_0x499bd3[_0x5d44d9(0x31a)]='';if(_0x586c97)_0x586c97[_0x5d44d9(0x31a)]='';if(_0x17b9b1)_0x17b9b1[_0x5d44d9(0x31a)]='';if(_0x20844a)_0x20844a[_0x5d44d9(0x31a)]='';if(typeof window[_0x5d44d9(0x17a)]===_0x5d44d9(0x3ae))window[_0x5d44d9(0x17a)](_0x5d44d9(0x3bb));}function _0x54c55f(){const _0x18b6ba=_0xde68a;if(!_0x428dc3)return;if(_0x3d9510[_0x18b6ba(0x1a0)]===0x0){_0x428dc3['innerHTML']=_0x18b6ba(0x1a6);return;}_0x428dc3[_0x18b6ba(0x429)]=_0x3d9510[_0x18b6ba(0x17d)]((_0x231f1e,_0x1e8f59)=>_0x18b6ba(0x2fd)+_0x49c150(_0x231f1e['avatar'],_0x231f1e[_0x18b6ba(0x1a7)])+_0x18b6ba(0x28b)+_0x2e74f4(_0x231f1e['name'])+_0x18b6ba(0x27a)+_0x1e8f59+'\x22\x20style=\x22color:#ff3b30;\x20cursor:pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x18b6ba(0x259)](''),_0x428dc3[_0x18b6ba(0x301)](_0x18b6ba(0x254))[_0x18b6ba(0x381)](_0xca97e=>{const _0x21c2ea=_0x18b6ba;_0xca97e[_0x21c2ea(0x277)](_0x21c2ea(0x3c7),()=>{const _0xa3470a=_0x21c2ea,_0x3a3501=parseInt(_0xca97e[_0xa3470a(0x25d)][_0xa3470a(0x3c5)],0xa);!isNaN(_0x3a3501)&&(_0x3d9510[_0xa3470a(0x1b0)](_0x3a3501,0x1),_0x54c55f());});});}function _0x145ca8(_0x113ce3){const _0xcdebe4=_0xde68a,_0x2a2906=_0x32127e[_0x113ce3]||_0x32127e['island'];return{'likes':_0x36af7d(_0x2a2906[_0xcdebe4(0x2f4)]),'reposts':_0x36af7d(_0x2a2906[_0xcdebe4(0x2a1)]),'commentsCount':_0x36af7d(_0x2a2906[_0xcdebe4(0x1e4)]),'liked':![],'reposted':![],'comments':(Array[_0xcdebe4(0x193)](_0x2a2906[_0xcdebe4(0x38a)])?_0x2a2906['commentList']:[])['map']((_0x1dc9b7,_0xac1895)=>({'id':_0x1dc9b7['id']||_0x113ce3+_0xcdebe4(0x436)+_0xac1895,'avatar':_0x1dc9b7[_0xcdebe4(0x3d6)]||'?','name':_0x1dc9b7[_0xcdebe4(0x1a7)]||_0xcdebe4(0x2ea),'handle':_0x1dc9b7[_0xcdebe4(0x394)]||_0xcdebe4(0x369),'text':_0x1dc9b7[_0xcdebe4(0x1bc)]||'','replies':Array[_0xcdebe4(0x193)](_0x1dc9b7[_0xcdebe4(0x3b5)])?_0x1dc9b7['replies']:[]}))};}function _0x360430(_0x4dfda6){const _0x174fbd=_0xde68a,_0x3757de=_0x145ca8(_0x4dfda6),_0x1e6570=_0x5a5f4e()[_0x174fbd(0x2e5)]?.[_0x4dfda6];if(!_0x1e6570||typeof _0x1e6570!==_0x174fbd(0x2e0))return _0x3757de;return{..._0x3757de,..._0x1e6570,'comments':Array['isArray'](_0x1e6570['comments'])?_0x1e6570[_0x174fbd(0x1e4)]:_0x3757de[_0x174fbd(0x1e4)],'likes':Number[_0x174fbd(0x38c)](Number(_0x1e6570[_0x174fbd(0x2f4)]))?Number(_0x1e6570['likes']):_0x3757de['likes'],'reposts':Number['isFinite'](Number(_0x1e6570[_0x174fbd(0x2a1)]))?Number(_0x1e6570[_0x174fbd(0x2a1)]):_0x3757de[_0x174fbd(0x2a1)],'commentsCount':Number['isFinite'](Number(_0x1e6570[_0x174fbd(0x2a7)]))?Number(_0x1e6570[_0x174fbd(0x2a7)]):_0x3757de[_0x174fbd(0x2a7)],'liked':!!_0x1e6570[_0x174fbd(0x435)],'reposted':!!_0x1e6570['reposted']};}function _0xcb6948(_0xc668de,_0x3bb0b3){_0x662e33(_0x542cd1=>{const _0x4c5975=_0x4396;_0x542cd1[_0x4c5975(0x2e5)][_0xc668de]=_0x3bb0b3;});}function _0x559490(_0x2ef0b9){const _0x1e7593=_0xde68a;if(window[_0x1e7593(0x389)]&&typeof window['CSS'][_0x1e7593(0x207)]===_0x1e7593(0x3ae))return CSS['escape'](String(_0x2ef0b9));return String(_0x2ef0b9)[_0x1e7593(0x3f7)](/["\\]/g,_0x1e7593(0x17c));}function _0x2352c4(_0xb97a19,_0x18243d){const _0x456f7f=_0xde68a,_0x5d565c=_0x32127e[_0xb97a19];_0x5d565c&&(_0x5d565c['likes']=_0x48c91e(_0x18243d[_0x456f7f(0x2f4)]),_0x5d565c[_0x456f7f(0x2a1)]=_0x48c91e(_0x18243d[_0x456f7f(0x2a1)]),_0x5d565c[_0x456f7f(0x1e4)]=_0x48c91e(_0x18243d[_0x456f7f(0x2a7)]));const _0x484b03=_0x5731e4['querySelector'](_0x456f7f(0x2c5)+_0x559490(_0xb97a19)+'\x22]'),_0x1a0d51=_0x484b03?Array[_0x456f7f(0x382)](_0x484b03[_0x456f7f(0x301)](_0x456f7f(0x1b3))):[];if(_0x1a0d51[0x0])_0x1a0d51[0x0]['innerHTML']=_0x456f7f(0x23d)+_0x2e74f4(_0x48c91e(_0x18243d[_0x456f7f(0x2a7)]));_0x1a0d51[0x1]&&(_0x1a0d51[0x1][_0x456f7f(0x255)][_0x456f7f(0x395)](_0x456f7f(0x17b),!!_0x18243d[_0x456f7f(0x3a8)]),_0x1a0d51[0x1][_0x456f7f(0x429)]='<i\x20class=\x22fas\x20fa-retweet\x22></i>\x20'+_0x2e74f4(_0x48c91e(_0x18243d[_0x456f7f(0x2a1)]))),_0x1a0d51[0x2]&&(_0x1a0d51[0x2][_0x456f7f(0x255)]['toggle'](_0x456f7f(0x17b),!!_0x18243d[_0x456f7f(0x435)]),_0x1a0d51[0x2][_0x456f7f(0x429)]=_0x456f7f(0x19b)+(_0x18243d[_0x456f7f(0x435)]?'fas':'far')+'\x20fa-heart\x22></i>\x20'+_0x2e74f4(_0x48c91e(_0x18243d[_0x456f7f(0x2f4)])));}function _0x884e29(_0x515406){const _0x1277bf=_0xde68a,_0x5005f5=document['getElementById'](_0x1277bf(0x2ed)),_0x4a1073=document[_0x1277bf(0x202)]('x-detail-like-btn');_0x5005f5?.['classList']['toggle']('active',!!_0x515406[_0x1277bf(0x3a8)]),_0x4a1073?.[_0x1277bf(0x255)][_0x1277bf(0x395)](_0x1277bf(0x17b),!!_0x515406[_0x1277bf(0x435)]);const _0x24ff9b=_0x4a1073?.[_0x1277bf(0x2c7)]('i');if(_0x24ff9b)_0x24ff9b[_0x1277bf(0x182)]=(_0x515406[_0x1277bf(0x435)]?'fas':_0x1277bf(0x313))+_0x1277bf(0x2b0);}function _0x575c48(){const _0x9c05bf=_0xde68a,_0x17f95c=document[_0x9c05bf(0x202)](_0x9c05bf(0x2d6)),_0x57fa6d=document[_0x9c05bf(0x202)](_0x9c05bf(0x297));if(!_0x17f95c||!_0x57fa6d)return;if(!_0xb1ee5e||!_0x24fe6a){_0x17f95c[_0x9c05bf(0x3c8)]=!![],_0x57fa6d[_0x9c05bf(0x391)]='Replying\x20to\x20post';return;}_0x17f95c[_0x9c05bf(0x3c8)]=![],_0x57fa6d[_0x9c05bf(0x391)]=_0x9c05bf(0x383)+(_0xb1ee5e[_0x9c05bf(0x1a7)]||'comment');}function _0x313314(_0xbda7c8,_0x14e9a3){const _0x3320ba=_0xde68a;return(_0xbda7c8[_0x3320ba(0x1e4)]||[])[_0x3320ba(0x240)](_0x354925=>String(_0x354925['id'])===String(_0x14e9a3))||null;}function _0x5b6266(_0x8dbc72,_0x227fca){const _0x268d02=_0xde68a;return(Array[_0x268d02(0x193)](_0x8dbc72?.['replies'])?_0x8dbc72[_0x268d02(0x3b5)]:[])[_0x268d02(0x240)](_0xd73fc7=>String(_0xd73fc7['id'])===String(_0x227fca))||null;}function _0x421129(_0x23bc5a,_0x421e36){const _0x36c9fc=_0xde68a,_0xf66a37=document['getElementById'](_0x36c9fc(0x307));if(!_0xf66a37)return;_0xf66a37[_0x36c9fc(0x429)]=_0x421e36[_0x36c9fc(0x1e4)][_0x36c9fc(0x17d)](_0x528cee=>{const _0x569b0b=_0x36c9fc,_0x3afb8d=Array[_0x569b0b(0x193)](_0x528cee[_0x569b0b(0x3b5)])?_0x528cee[_0x569b0b(0x3b5)]:[],_0x1b9c38=_0x3afb8d[_0x569b0b(0x1a0)]?'<div\x20class=\x22x-comment-replies\x22>'+_0x3afb8d[_0x569b0b(0x17d)](_0x166b87=>_0x569b0b(0x26e)+_0x2e74f4(_0x528cee['id'])+_0x569b0b(0x3ef)+_0x2e74f4(_0x166b87['id'])+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>'+_0x49c150(_0x166b87[_0x569b0b(0x3d6)],_0x166b87[_0x569b0b(0x1a7)])+_0x569b0b(0x410)+_0x2e74f4(_0x166b87['name'])+_0x569b0b(0x363)+_0x2e74f4(_0x166b87[_0x569b0b(0x394)])+_0x569b0b(0x217)+(_0x166b87['replyToName']?_0x569b0b(0x397)+_0x2e74f4(_0x166b87[_0x569b0b(0x20f)])+_0x569b0b(0x1c9):'')+_0x2e74f4(_0x166b87[_0x569b0b(0x1bc)])+_0x569b0b(0x3a4)+_0x2e74f4(_0x528cee['id'])+_0x569b0b(0x3ef)+_0x2e74f4(_0x166b87['id'])+'\x22\x20data-reply-name=\x22'+_0x2e74f4(_0x166b87[_0x569b0b(0x1a7)])+_0x569b0b(0x324))[_0x569b0b(0x259)]('')+_0x569b0b(0x3f4):'';return _0x569b0b(0x3be)+_0x2e74f4(_0x528cee['id'])+_0x569b0b(0x1cf)+_0x49c150(_0x528cee[_0x569b0b(0x3d6)],_0x528cee[_0x569b0b(0x1a7)])+_0x569b0b(0x256)+_0x2e74f4(_0x528cee[_0x569b0b(0x1a7)])+'</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x2e74f4(_0x528cee['handle'])+_0x569b0b(0x24d)+_0x2e74f4(_0x528cee[_0x569b0b(0x1bc)])+_0x569b0b(0x205)+_0x2e74f4(_0x528cee['id'])+_0x569b0b(0x1ff)+_0x1b9c38+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';})[_0x36c9fc(0x259)]('');}function _0x38047d(_0x1c3849=null){const _0xf9c84=_0xde68a;if(!_0x1c3849)_0xb1ee5e=null;else{if(typeof _0x1c3849===_0xf9c84(0x2e0))_0xb1ee5e={'commentId':String(_0x1c3849[_0xf9c84(0x213)]||''),'replyId':_0x1c3849[_0xf9c84(0x27e)]?String(_0x1c3849[_0xf9c84(0x27e)]):'','name':_0x4eb7cb(_0x1c3849[_0xf9c84(0x1a7)],'comment')};else{const _0x5befba=_0x24fe6a?_0x360430(_0x24fe6a):null,_0x344a67=_0x5befba?_0x313314(_0x5befba,_0x1c3849):null;_0xb1ee5e={'commentId':String(_0x1c3849),'replyId':'','name':_0x4eb7cb(_0x344a67?.[_0xf9c84(0x1a7)],_0xf9c84(0x388))};}}_0x575c48(),document[_0xf9c84(0x202)](_0xf9c84(0x339))?.[_0xf9c84(0x409)]();}function _0xd0fa23(){const _0x3bb183=_0xde68a;if(!_0x24fe6a)return;const _0x512db7=document[_0x3bb183(0x202)]('x-reply-input'),_0x303caf=_0x4eb7cb(_0x512db7?.['value']);if(!_0x303caf){if(typeof window[_0x3bb183(0x17a)]===_0x3bb183(0x3ae))window[_0x3bb183(0x17a)](_0x3bb183(0x27d));return;}const _0x257b31=_0x11eb7e(),_0x21e7da=_0x360430(_0x24fe6a);let _0x2466cd='',_0x25a205=null,_0x133b82=![];if(_0xb1ee5e?.[_0x3bb183(0x213)]){const _0x48912e=_0x313314(_0x21e7da,_0xb1ee5e[_0x3bb183(0x213)]);_0x48912e&&(_0x48912e[_0x3bb183(0x3b5)]=Array[_0x3bb183(0x193)](_0x48912e[_0x3bb183(0x3b5)])?_0x48912e[_0x3bb183(0x3b5)]:[],_0x25a205={'id':_0x6bbcdb(_0x3bb183(0x249)),..._0x257b31,'text':_0x303caf,'replyToId':_0xb1ee5e[_0x3bb183(0x27e)]||'','replyToName':_0xb1ee5e[_0x3bb183(0x1a7)]||_0x48912e[_0x3bb183(0x1a7)]||''},_0x48912e[_0x3bb183(0x3b5)][_0x3bb183(0x187)](_0x25a205),_0x2466cd=_0x48912e['id'],_0x133b82=!![]);}!_0x133b82&&(_0x25a205={'id':_0x6bbcdb(_0x3bb183(0x388)),..._0x257b31,'text':_0x303caf,'replies':[]},_0x21e7da[_0x3bb183(0x1e4)][_0x3bb183(0x28e)](_0x25a205),_0x2466cd=_0x25a205['id']);_0x21e7da[_0x3bb183(0x2a7)]+=0x1,_0xcb6948(_0x24fe6a,_0x21e7da),_0x2352c4(_0x24fe6a,_0x21e7da);if(_0x512db7)_0x512db7[_0x3bb183(0x31a)]='';_0x38047d(null),_0x5e12ad(_0x24fe6a),_0x2466cd&&_0x25a205&&_0x3ff02c(_0x24fe6a,_0x2466cd,_0x25a205,_0x133b82);}function _0x2a534b(_0x16629a,_0x29b848=0x0,_0x2893ee={}){const _0x28e71a=_0xde68a,_0x711e88=_0x4eb7cb(_0x16629a?.[_0x28e71a(0x1bc)]||_0x16629a?.[_0x28e71a(0x1c5)]),_0x1e0100=_0x4eb7cb(_0x16629a?.[_0x28e71a(0x2c0)]||_0x16629a?.['name']||_0x16629a?.[_0x28e71a(0x394)]);if(!_0x711e88||!_0x1e0100)return null;return{'id':String(_0x16629a['id']||_0x6bbcdb('auto-reply')),'avatar':_0x16629a['authorAvatar']||_0x16629a[_0x28e71a(0x3d6)]||_0x1e0100['slice'](0x0,0x1)[_0x28e71a(0x30d)](),'name':_0x1e0100,'handle':_0x14bade(_0x1e0100,_0x16629a[_0x28e71a(0x394)]||_0x1e0100),'text':_0x711e88,'replyToId':_0x2893ee['id']||'','replyToName':_0x2893ee[_0x28e71a(0x1a7)]||'','replies':[]};}function _0x3fb9ed(_0xadadb0,_0x31423c=0x0){const _0x132e35=_0xde68a,_0x5d9f29=_0x4eb7cb(_0xadadb0?.[_0x132e35(0x1a7)]||_0xadadb0?.[_0x132e35(0x2c0)]||_0xadadb0?.[_0x132e35(0x394)]);if(!_0x5d9f29)return null;return{'id':String(_0xadadb0['id']||_0x6bbcdb('x-visitor')),'avatar':_0xadadb0[_0x132e35(0x3d6)]||_0xadadb0['authorAvatar']||_0x5d9f29[_0x132e35(0x19f)](0x0,0x1)[_0x132e35(0x30d)](),'name':_0x5d9f29,'handle':_0x14bade(_0x5d9f29,_0xadadb0['handle']||_0x5d9f29),'bio':_0x4eb7cb(_0xadadb0['bio']||_0xadadb0[_0x132e35(0x372)]||_0xadadb0[_0x132e35(0x1bc)]),'time':_0x4eb7cb(_0xadadb0['time'],_0x132e35(0x1fe)),'createdAt':Date[_0x132e35(0x1fe)]()};}async function _0x3ff02c(_0x43762f,_0x2a389a,_0x2a5130,_0x5ea346=![]){const _0x247e1e=_0xde68a,_0x3fed3d=_0x32127e[_0x43762f]||{},_0x30de01=_0x360430(_0x43762f),_0x281ac1=_0x313314(_0x30de01,_0x2a389a);if(!_0x281ac1||!_0x2a5130)return;try{const _0x4dbb78='Return\x20strict\x20JSON\x20only.\x20A\x20user\x20just\x20commented\x20in\x20an\x20X/Twitter-style\x20post\x20detail\x20page.\x20Generate\x20engagement\x20around\x20this\x20user\x27s\x20exact\x20comment.\x0aOutput\x20JSON\x20shape:\x0a{\x0a\x20\x20\x22replies\x22:\x20[{\x22authorName\x22:\x22\x22,\x20\x22handle\x22:\x22\x22,\x20\x22text\x22:\x22\x22}],\x0a\x20\x20\x22visitors\x22:\x20[{\x22name\x22:\x22\x22,\x20\x22handle\x22:\x22\x22,\x20\x22bio\x22:\x22\x22,\x20\x22avatar\x22:\x22\x22,\x20\x22time\x22:\x22now\x22}]\x0a}\x0aRules:\x0a-\x20replies\x20must\x20contain\x20at\x20least\x205\x20items.\x0a-\x20visitors\x20must\x20contain\x202\x20to\x205\x20items.\x0a-\x20Replies\x20must\x20directly\x20respond\x20to\x20the\x20user\x27s\x20comment,\x20not\x20to\x20the\x20whole\x20post\x20in\x20general.\x0a-\x20Keep\x20replies\x20short,\x20social,\x20varied,\x20and\x20realistic.\x20Mix\x20agreement,\x20disagreement,\x20teasing,\x20clarification,\x20and\x20curiosity.\x0a-\x20Visitors\x20are\x20people\x20who\x20visited\x20the\x20user\x27s\x20profile\x20because\x20of\x20this\x20comment;\x20bio\x20should\x20briefly\x20explain\x20the\x20vibe\x20or\x20reason.\x0a-\x20Do\x20not\x20include\x20markdown\x20or\x20extra\x20text.\x0a\x0aPost\x20author:\x20'+(_0x3fed3d['name']||'')+_0x247e1e(0x18c)+(_0x3fed3d[_0x247e1e(0x1bc)]||'')+_0x247e1e(0x378)+(_0x281ac1[_0x247e1e(0x1a7)]||'')+_0x247e1e(0x3f5)+(_0x281ac1['text']||'')+_0x247e1e(0x196)+_0x4d56a0[_0x247e1e(0x1a7)]+'\x20'+_0x4d56a0[_0x247e1e(0x394)]+_0x247e1e(0x35c)+_0x2a5130[_0x247e1e(0x1bc)]+_0x247e1e(0x216)+(_0x5ea346?_0x247e1e(0x295):_0x247e1e(0x188))+_0x247e1e(0x2a9)+(_0x5a5f4e()[_0x247e1e(0x1bf)]||_0xa31674),_0x588431=await _0x3828db([{'role':_0x247e1e(0x321),'content':_0x247e1e(0x2a2)},{'role':_0x247e1e(0x21f),'content':_0x4dbb78}],{'temperature':0.9}),_0x3b39c0=_0x126bb6(_0x588431),_0x449510=Array[_0x247e1e(0x193)](_0x3b39c0?.['replies'])?_0x3b39c0[_0x247e1e(0x3b5)]:[],_0x425441=Array[_0x247e1e(0x193)](_0x3b39c0?.[_0x247e1e(0x2fb)])?_0x3b39c0[_0x247e1e(0x2fb)]:[],_0xe1a626=_0x5ea346?{'id':_0x2a5130['id'],'name':_0x2a5130[_0x247e1e(0x1a7)]}:{},_0x5f0a0c=_0x449510[_0x247e1e(0x17d)]((_0x32c8cb,_0x20cf9d)=>_0x2a534b(_0x32c8cb,_0x20cf9d,_0xe1a626))[_0x247e1e(0x35e)](Boolean),_0x4deece=_0x425441[_0x247e1e(0x17d)]((_0x4843aa,_0x308679)=>_0x3fb9ed(_0x4843aa,_0x308679))[_0x247e1e(0x35e)](Boolean);if(_0x5f0a0c[_0x247e1e(0x1a0)]){const _0x360185=_0x360430(_0x43762f),_0x46c522=_0x313314(_0x360185,_0x2a389a);if(_0x46c522){_0x46c522[_0x247e1e(0x3b5)]=Array[_0x247e1e(0x193)](_0x46c522['replies'])?_0x46c522['replies']:[];const _0x144357=new Set(_0x46c522[_0x247e1e(0x3b5)]['map'](_0x2aa1ac=>String(_0x2aa1ac['id'])));_0x5f0a0c['forEach'](_0x140f45=>{const _0x61800d=_0x247e1e;if(!_0x144357['has'](String(_0x140f45['id'])))_0x46c522['replies'][_0x61800d(0x187)](_0x140f45);}),_0x360185[_0x247e1e(0x2a7)]+=_0x5f0a0c[_0x247e1e(0x1a0)],_0xcb6948(_0x43762f,_0x360185),_0x2352c4(_0x43762f,_0x360185);if(String(_0x24fe6a)===String(_0x43762f)){_0x421129(_0x43762f,_0x360185);const _0x5018f0=document['getElementById'](_0x247e1e(0x39d));if(_0x5018f0)_0x5018f0[_0x247e1e(0x391)]=_0x48c91e(_0x360185[_0x247e1e(0x2a7)]);}}}_0x4deece['length']&&(_0x662e33(_0x5af450=>{const _0x2fd83c=_0x247e1e,_0x3006cb=new Set((_0x5af450[_0x2fd83c(0x3cc)]||[])[_0x2fd83c(0x17d)](_0x2a1f6b=>String(_0x2a1f6b['id'])));_0x4deece[_0x2fd83c(0x19f)](0x0,0x5)[_0x2fd83c(0x2c8)]()['forEach'](_0x12d406=>{const _0x3e046d=_0x2fd83c;if(!_0x3006cb[_0x3e046d(0x3d9)](String(_0x12d406['id'])))_0x5af450[_0x3e046d(0x3cc)]['unshift'](_0x12d406);});}),_0x576d8c());}catch(_0x49b44){console[_0x247e1e(0x351)](_0x247e1e(0x252),_0x49b44);if(typeof window[_0x247e1e(0x17a)]===_0x247e1e(0x3ae))window[_0x247e1e(0x17a)](_0x247e1e(0x415));}}function _0x5959ea(_0x189037){const _0xffb567=_0xde68a;if(!_0x24fe6a)return;const _0x347234=_0x360430(_0x24fe6a);if(_0x189037===_0xffb567(0x23b))_0x347234['liked']=!_0x347234['liked'],_0x347234[_0xffb567(0x2f4)]+=_0x347234['liked']?0x1:-0x1;else _0x189037===_0xffb567(0x370)&&(_0x347234['reposted']=!_0x347234[_0xffb567(0x3a8)],_0x347234[_0xffb567(0x2a1)]+=_0x347234[_0xffb567(0x3a8)]?0x1:-0x1);_0x347234['likes']=Math[_0xffb567(0x198)](0x0,_0x347234['likes']),_0x347234[_0xffb567(0x2a1)]=Math[_0xffb567(0x198)](0x0,_0x347234[_0xffb567(0x2a1)]),_0xcb6948(_0x24fe6a,_0x347234),_0x2352c4(_0x24fe6a,_0x347234),_0x5e12ad(_0x24fe6a);}function _0x2d480f(_0x8fa00d){const _0x42729f=_0xde68a;if(!Array[_0x42729f(0x193)](_0x8fa00d))return[];return _0x8fa00d[_0x42729f(0x17d)](_0x2f38a3=>{const _0x7ed48f=_0x42729f,_0x23d539=_0x2f38a3?.['source']||_0x2f38a3?.[_0x7ed48f(0x199)];return{'id':String(_0x2f38a3?.['id']||_0x6bbcdb('dm-msg')),'source':_0x23d539===_0x7ed48f(0x21f)?_0x7ed48f(0x21f):_0x7ed48f(0x215),'text':_0x4eb7cb(_0x2f38a3?.['text']||_0x2f38a3?.[_0x7ed48f(0x1c5)]||_0x2f38a3?.[_0x7ed48f(0x22a)]),'createdAt':Number(_0x2f38a3?.[_0x7ed48f(0x26a)]||_0x2f38a3?.['timestamp']||Date[_0x7ed48f(0x1fe)]())};})[_0x42729f(0x35e)](_0x6cd305=>_0x6cd305[_0x42729f(0x1bc)]);}function _0x16004a(_0x5ad88a){const _0x5c2bfb=_0xde68a,_0x2ec22b=_0x2d480f(_0x5ad88a?.[_0x5c2bfb(0x186)]);return _0x2ec22b[_0x5c2bfb(0x1a0)]?_0x2ec22b[_0x2ec22b[_0x5c2bfb(0x1a0)]-0x1]['text']:_0x4eb7cb(_0x5ad88a?.[_0x5c2bfb(0x1d0)],_0x5c2bfb(0x329));}function _0x1ee99b(_0x4775d1=[]){const _0x3d5db3=_0xde68a,_0x5ec6df=document[_0x3d5db3(0x301)](_0x3d5db3(0x3b2));if(_0x5ec6df[0x0])_0x5ec6df[0x0][_0x3d5db3(0x391)]=String(_0x4775d1[_0x3d5db3(0x1a0)]);if(_0x5ec6df[0x1])_0x5ec6df[0x1]['textContent']='0';if(_0x5ec6df[0x2])_0x5ec6df[0x2][_0x3d5db3(0x391)]='0';}function _0x186820(_0x42bbca={},_0x43b6a1=_0xde68a(0x375)){const _0x4ffc5c=_0xde68a,_0x3dfe65=_0x4eb7cb(_0x42bbca[_0x4ffc5c(0x282)]||_0x42bbca[_0x4ffc5c(0x1a7)]||_0x42bbca[_0x4ffc5c(0x34d)],_0x4ffc5c(0x2b5)),_0x454f2d=_0x42bbca[_0x4ffc5c(0x394)]||_0x42bbca[_0x4ffc5c(0x34d)]||_0x42bbca[_0x4ffc5c(0x384)]||_0x3dfe65,_0x126e22=_0x4eb7cb(_0x42bbca['avatarUrl']||_0x42bbca[_0x4ffc5c(0x3d6)]);return{'id':String(_0x42bbca['id']||_0x6bbcdb(_0x43b6a1)),'origin':_0x43b6a1,'sourceFriendId':_0x42bbca[_0x4ffc5c(0x287)]||(_0x43b6a1==='imessage'?_0x42bbca['id']:''),'name':_0x3dfe65,'handle':_0x14bade(_0x3dfe65,_0x454f2d),'bio':_0x4eb7cb(_0x42bbca['bio']||_0x42bbca['signature'],_0x4ffc5c(0x329)),'persona':_0x4eb7cb(_0x42bbca[_0x4ffc5c(0x310)]||_0x42bbca['characterPersona']||_0x42bbca[_0x4ffc5c(0x1f0)]),'avatar':_0x126e22,'messages':_0x2d480f(_0x42bbca[_0x4ffc5c(0x186)]),'addedAt':Number(_0x42bbca['addedAt'])||Date['now']()};}function _0x41b949(_0x393bb7){const _0x519b99=_0xde68a,_0x56520e=_0x186820(_0x393bb7,_0x393bb7[_0x519b99(0x281)]||_0x519b99(0x375));_0x662e33(_0x2ed785=>{const _0x329735=_0x519b99,_0x1ba0a0=_0x2ed785['xDirectMessages'][_0x329735(0x2f5)](_0x37f79e=>String(_0x37f79e['id'])===String(_0x56520e['id'])||_0x4eb7cb(_0x37f79e[_0x329735(0x1a7)])[_0x329735(0x266)]()===_0x56520e[_0x329735(0x1a7)][_0x329735(0x266)]());if(_0x1ba0a0>=0x0){const _0x38497e=_0x186820(_0x2ed785[_0x329735(0x1f2)][_0x1ba0a0],_0x2ed785['xDirectMessages'][_0x1ba0a0]['origin']||_0x56520e[_0x329735(0x281)]),_0x4f1376={..._0x38497e,..._0x56520e,'messages':_0x56520e[_0x329735(0x186)]['length']?_0x56520e[_0x329735(0x186)]:_0x38497e[_0x329735(0x186)],'addedAt':_0x38497e[_0x329735(0x3f3)]||_0x56520e[_0x329735(0x3f3)]};_0x2ed785[_0x329735(0x1f2)][_0x329735(0x1b0)](_0x1ba0a0,0x1),_0x2ed785[_0x329735(0x1f2)][_0x329735(0x28e)](_0x4f1376);}else _0x2ed785[_0x329735(0x1f2)][_0x329735(0x28e)](_0x56520e);}),_0x2150cd();if(typeof window['showToast']==='function')window['showToast'](_0x519b99(0x325));}function _0x2150cd(){const _0x42f25f=_0xde68a;if(!_0x4607e5)_0x4607e5=document[_0x42f25f(0x202)](_0x42f25f(0x25a))||document[_0x42f25f(0x2c7)]('#x-messages-tab\x20.x-message-list');if(!_0x4607e5)return;const _0x615d1d=(_0x5a5f4e()['xDirectMessages']||[])[_0x42f25f(0x17d)](_0x515d10=>_0x186820(_0x515d10,_0x515d10?.[_0x42f25f(0x281)]||_0x42f25f(0x375)))[_0x42f25f(0x25f)]((_0x1ade36,_0xe087d9)=>{const _0x3edcef=_0x42f25f,_0x4be1b2=_0x1ade36[_0x3edcef(0x186)][_0x1ade36[_0x3edcef(0x186)][_0x3edcef(0x1a0)]-0x1]?.['createdAt']||_0x1ade36[_0x3edcef(0x3f3)]||0x0,_0x30306c=_0xe087d9[_0x3edcef(0x186)][_0xe087d9['messages']['length']-0x1]?.[_0x3edcef(0x26a)]||_0xe087d9['addedAt']||0x0;return _0x30306c-_0x4be1b2;});_0x1ee99b(_0x615d1d);if(_0x615d1d[_0x42f25f(0x1a0)]===0x0){_0x4607e5['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-empty-state\x20x-dm-empty-state\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>暂无私信</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>添加一个\x20Char\x20开始聊天吧</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-add-dm-submit\x20x-empty-add-dm-btn\x22\x20type=\x22button\x22>添加\x20Char</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';return;}_0x4607e5[_0x42f25f(0x429)]=_0x615d1d[_0x42f25f(0x17d)](_0x5c19e3=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22x-message-row\x20x-dm-row\x22\x20type=\x22button\x22\x20data-dm-id=\x22'+_0x2e74f4(_0x5c19e3['id'])+_0x42f25f(0x2ba)+_0x49c150(_0x5c19e3[_0x42f25f(0x3d6)],_0x5c19e3[_0x42f25f(0x1a7)])+_0x42f25f(0x3dc)+_0x2e74f4(_0x5c19e3[_0x42f25f(0x1a7)])+_0x42f25f(0x1f7)+_0x2e74f4(_0x16004a(_0x5c19e3))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x2e74f4(_0x5c19e3[_0x42f25f(0x281)]===_0x42f25f(0x1b4)?'iMessage':'X')+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x42f25f(0x259)]('');}function _0x576d8c(){const _0x133f8c=_0xde68a;if(!_0x56ec7a)_0x56ec7a=document['getElementById'](_0x133f8c(0x3cb));if(!_0x56ec7a)return;const _0x31c13a=_0x5a5f4e()[_0x133f8c(0x3cc)]||[];if(_0x31c13a[_0x133f8c(0x1a0)]===0x0){_0x56ec7a[_0x133f8c(0x429)]=_0x133f8c(0x37a);return;}_0x56ec7a[_0x133f8c(0x429)]=_0x31c13a[_0x133f8c(0x17d)](_0xea815c=>_0x133f8c(0x24a)+_0x49c150(_0xea815c[_0x133f8c(0x3d6)],_0xea815c[_0x133f8c(0x1a7)])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x2e74f4(_0xea815c[_0x133f8c(0x1a7)]||_0x133f8c(0x366))+_0x133f8c(0x1f7)+_0x2e74f4(_0xea815c[_0x133f8c(0x1d0)]||_0x133f8c(0x28a))+_0x133f8c(0x1c3)+_0x2e74f4(_0xea815c[_0x133f8c(0x3fd)]||'now')+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x133f8c(0x259)]('');}async function _0x5e4acf(_0x508fda){const _0x4a5523=_0xde68a;if(!_0x508fda||typeof _0x508fda!==_0x4a5523(0x2e0))return _0x508fda;if(_0x508fda[_0x4a5523(0x40f)]||_0x508fda[_0x4a5523(0x3d6)]||!_0x508fda[_0x4a5523(0x2b3)])return _0x508fda;if(!window[_0x4a5523(0x334)]||typeof window['appStorage']['getAssetUrl']!==_0x4a5523(0x3ae))return _0x508fda;try{const _0x58a78c=await window[_0x4a5523(0x334)][_0x4a5523(0x24f)](_0x508fda[_0x4a5523(0x2b3)]);return _0x58a78c?{..._0x508fda,'avatarUrl':_0x58a78c}:_0x508fda;}catch(_0x408b17){return console[_0x4a5523(0x1ce)](_0x4a5523(0x439),_0x408b17),_0x508fda;}}async function _0xa6f555(){const _0x1f92f8=_0xde68a,_0x2bd425=Array['isArray'](window[_0x1f92f8(0x32b)]?.['friends'])?window[_0x1f92f8(0x32b)][_0x1f92f8(0x1b2)]:[];if(_0x2bd425['length']>0x0)return Promise[_0x1f92f8(0x352)](_0x2bd425['filter'](_0x509ebb=>_0x509ebb?.['type']===_0x1f92f8(0x215))[_0x1f92f8(0x17d)](_0x4543fc=>_0x5e4acf(_0x4543fc)));if(window[_0x1f92f8(0x2da)]&&typeof window[_0x1f92f8(0x2da)][_0x1f92f8(0x1da)]===_0x1f92f8(0x3ae))try{const _0x3685c2=await window[_0x1f92f8(0x2da)][_0x1f92f8(0x1da)]();return Array['isArray'](_0x3685c2)?Promise[_0x1f92f8(0x352)](_0x3685c2['filter'](_0x58f92d=>_0x58f92d?.[_0x1f92f8(0x405)]==='char')['map'](_0x346603=>_0x5e4acf(_0x346603))):[];}catch(_0x168ad4){console[_0x1f92f8(0x1ce)](_0x1f92f8(0x2d9),_0x168ad4);}return[];}async function _0x1fbdfb(){const _0x570073=_0xde68a;if(!_0x9f8e39)_0x9f8e39=document[_0x570073(0x202)]('x-imessage-char-list');if(!_0x9f8e39)return;_0x9f8e39[_0x570073(0x429)]=_0x570073(0x35f);const _0x3362ff=await _0xa6f555();if(_0x3362ff[_0x570073(0x1a0)]===0x0){_0x9f8e39[_0x570073(0x429)]=_0x570073(0x1cb);return;}_0x9f8e39[_0x570073(0x429)]=_0x3362ff['map'](_0x528733=>{const _0x1bbc86=_0x570073,_0x24d179=_0x186820(_0x528733,_0x1bbc86(0x1b4));return _0x1bbc86(0x399)+_0x2e74f4(_0x24d179['id'])+_0x1bbc86(0x1cf)+_0x49c150(_0x24d179[_0x1bbc86(0x3d6)],_0x24d179[_0x1bbc86(0x1a7)])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x2e74f4(_0x24d179[_0x1bbc86(0x1a7)])+_0x1bbc86(0x1cc)+_0x2e74f4(_0x24d179[_0x1bbc86(0x1d0)])+_0x1bbc86(0x412);})[_0x570073(0x259)](''),_0x9f8e39[_0x570073(0x301)]('.x-char-pick-row')[_0x570073(0x381)](_0x31547c=>{const _0x12f247=_0x570073;_0x31547c[_0x12f247(0x277)]('click',()=>{const _0x2d6fc6=_0x12f247,_0x2ec83b=_0x3362ff[_0x2d6fc6(0x240)](_0x3b5e93=>String(_0x3b5e93['id'])===String(_0x31547c[_0x2d6fc6(0x25d)][_0x2d6fc6(0x380)]));if(_0x2ec83b)_0x41b949({..._0x2ec83b,'origin':'imessage'});});});}function _0x52a64b(){const _0xc2cc41=_0xde68a;_0x576d8c();if(typeof window[_0xc2cc41(0x247)]==='function')window[_0xc2cc41(0x247)](_0x948afa);else _0x948afa?.[_0xc2cc41(0x255)][_0xc2cc41(0x345)]('active');}function _0x1b074a(){const _0x229d12=_0xde68a;if(typeof window['closeView']===_0x229d12(0x3ae))window[_0x229d12(0x271)](_0x948afa);else _0x948afa?.['classList']['remove'](_0x229d12(0x17b));}function _0x241c9e(){const _0x552de6=_0xde68a;if(_0x379b64)_0x379b64[_0x552de6(0x31a)]='';if(_0x4e0d6b)_0x4e0d6b[_0x552de6(0x31a)]='';if(_0x1840ca)_0x1840ca[_0x552de6(0x31a)]='';if(_0x5ef6e2)_0x5ef6e2['value']='';if(typeof window['openView']===_0x552de6(0x3ae))window[_0x552de6(0x247)](_0x4c5d61);else _0x4c5d61?.[_0x552de6(0x255)]['add'](_0x552de6(0x17b));_0x1fbdfb();}function _0x2e56c5(){const _0x4226cd=_0xde68a;if(typeof window[_0x4226cd(0x271)]===_0x4226cd(0x3ae))window[_0x4226cd(0x271)](_0x4c5d61);else _0x4c5d61?.[_0x4226cd(0x255)][_0x4226cd(0x1d3)](_0x4226cd(0x17b));}function _0x321e8a(){const _0x1f0353=_0xde68a,_0x46d82f=_0x4eb7cb(_0x379b64?.[_0x1f0353(0x31a)]);if(!_0x46d82f){if(typeof window[_0x1f0353(0x17a)]==='function')window[_0x1f0353(0x17a)](_0x1f0353(0x37e));return;}_0x41b949({'id':_0x6bbcdb(_0x1f0353(0x3ec)),'origin':_0x1f0353(0x375),'name':_0x46d82f,'handle':_0x4e0d6b?.[_0x1f0353(0x31a)],'bio':_0x1840ca?.[_0x1f0353(0x31a)],'persona':_0x5ef6e2?.[_0x1f0353(0x31a)]}),_0x2e56c5();}function _0x18c184(_0x46ca6c){const _0x43a7f4=_0xde68a,_0xf31a2d=(_0x5a5f4e()[_0x43a7f4(0x1f2)]||[])['find'](_0x319449=>String(_0x319449['id'])===String(_0x46ca6c));return _0xf31a2d?_0x186820(_0xf31a2d,_0xf31a2d[_0x43a7f4(0x281)]||_0x43a7f4(0x375)):null;}function _0x544303(_0x3437a8,_0x126157=''){const _0x318eba=_0xde68a;if(!_0x3437a8||!_0x3437a8['contains'](document[_0x318eba(0x2e6)]))return;const _0x2c6e7a=document[_0x318eba(0x2e6)];if(_0x2c6e7a&&typeof _0x2c6e7a[_0x318eba(0x419)]===_0x318eba(0x3ae))_0x2c6e7a['blur']();requestAnimationFrame(()=>{const _0x504a0f=_0x318eba;if(!_0x126157)return;const _0x2a3d29=_0x5731e4[_0x504a0f(0x2c7)](_0x126157);if(_0x2a3d29&&typeof _0x2a3d29[_0x504a0f(0x409)]===_0x504a0f(0x3ae))_0x2a3d29[_0x504a0f(0x409)]({'preventScroll':!![]});});}function _0x24285f(_0x5dd8f0){const _0x516956=_0xde68a;return _0x516956(0x275)+_0x49c150(_0x5dd8f0[_0x516956(0x3d6)],_0x5dd8f0[_0x516956(0x1a7)])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+_0x2e74f4(_0x5dd8f0['name'])+_0x516956(0x42d)+_0x2e74f4(_0x5dd8f0['handle']||'@char')+_0x516956(0x311)+_0x2e74f4(_0x5dd8f0[_0x516956(0x1d0)]||_0x516956(0x329))+_0x516956(0x2db)+_0x2e74f4(_0x5dd8f0['id'])+'\x22>主页</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x4ef94a(_0x4a758b=_0x2178c1){const _0x539c3c=_0xde68a,_0x538bff=_0x4a758b?_0x18c184(_0x4a758b):null,_0x1155d0=document[_0x539c3c(0x202)](_0x539c3c(0x328));if(!_0x538bff||!_0x1155d0||!_0x39247a)return;const _0xcfd105=_0x538bff[_0x539c3c(0x281)]===_0x539c3c(0x1b4)?_0x539c3c(0x2d0):_0x539c3c(0x432),_0x2db264=Math[_0x539c3c(0x198)](0x0,_0x2d480f(_0x538bff[_0x539c3c(0x186)])[_0x539c3c(0x35e)](_0x499652=>_0x499652[_0x539c3c(0x316)]===_0x539c3c(0x215))[_0x539c3c(0x1a0)]),_0x4d8f94=_0x5941a8(_0x538bff)[_0x539c3c(0x1a0)]||0x0;_0x1155d0[_0x539c3c(0x429)]=_0x539c3c(0x208)+_0x49c150(_0x538bff[_0x539c3c(0x3d6)],_0x538bff[_0x539c3c(0x1a7)])+_0x539c3c(0x2c1)+_0x2e74f4(_0xcfd105)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>'+_0x2e74f4(_0x538bff[_0x539c3c(0x1a7)])+_0x539c3c(0x1dd)+_0x2e74f4(_0x538bff['handle']||_0x539c3c(0x33f))+_0x539c3c(0x311)+_0x2e74f4(_0x538bff['bio']||'暂无签名')+_0x539c3c(0x260)+_0x2e74f4(String(_0x2db264))+_0x539c3c(0x3ee)+_0x2e74f4(String(_0x2d480f(_0x538bff[_0x539c3c(0x186)])[_0x539c3c(0x1a0)]))+_0x539c3c(0x32a)+_0x2e74f4(String(_0x4d8f94))+'</strong><span>Photos</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-tabs\x20x-dm-profile-tabs\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22active\x22\x20type=\x22button\x22\x20data-dm-profile-tab=\x22posts\x22>Posts</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-dm-profile-tab=\x22photos\x22>Photos</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-panel\x20active\x22\x20data-dm-profile-panel=\x22posts\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-empty-state\x22>'+_0x2e74f4(_0x538bff['persona']||_0x539c3c(0x1d1))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-profile-panel\x22\x20data-dm-profile-panel=\x22photos\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-empty-state\x22>暂无照片</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x39247a[_0x539c3c(0x255)][_0x539c3c(0x345)](_0x539c3c(0x17b)),_0x39247a[_0x539c3c(0x3d8)](_0x539c3c(0x2e4),'false');}function _0x54a50b(){const _0xeac010=_0xde68a;_0x544303(_0x39247a),_0x39247a?.[_0xeac010(0x255)]['remove'](_0xeac010(0x17b)),_0x39247a?.[_0xeac010(0x3d8)]('aria-hidden',_0xeac010(0x3ca));}function _0x2c1267(_0x5464c8={}){const _0x1c27b1=_0xde68a;if(typeof window[_0x1c27b1(0x1a4)]==='function'){window['showCustomModal'](_0x5464c8);return;}window['confirm'](_0x5464c8[_0x1c27b1(0x22a)]||_0x5464c8['title']||'Confirm?')&&_0x5464c8[_0x1c27b1(0x390)]?.();}function _0x384d34(){const _0x5cedba=_0xde68a;if(!_0x2178c1||!_0x18c184(_0x2178c1))return;if(typeof window[_0x5cedba(0x247)]==='function')window[_0x5cedba(0x247)](_0x4b28d7);else _0x4b28d7?.[_0x5cedba(0x255)][_0x5cedba(0x345)](_0x5cedba(0x17b));}function _0x19da14(){const _0x149310=_0xde68a;if(typeof window[_0x149310(0x271)]===_0x149310(0x3ae))window[_0x149310(0x271)](_0x4b28d7);else _0x4b28d7?.[_0x149310(0x255)][_0x149310(0x1d3)](_0x149310(0x17b));}function _0xbeb164(){const _0x3b6eac=_0xde68a,_0x2623f5=_0x2178c1?_0x18c184(_0x2178c1):null;if(!_0x2623f5)return;_0x2c1267({'title':_0x3b6eac(0x332),'message':'确定清空与\x20'+_0x2623f5[_0x3b6eac(0x1a7)]+_0x3b6eac(0x20b),'confirmText':'清空','isDestructive':!![],'onConfirm':()=>{const _0x1092e3=_0x3b6eac;_0x30b97f(_0x2623f5['id'],_0x34f3a4=>{return _0x34f3a4['messages']=[],_0x34f3a4;}),_0x19da14(),_0x2150cd(),_0x33496b();if(typeof window[_0x1092e3(0x17a)]===_0x1092e3(0x3ae))window[_0x1092e3(0x17a)]('已清空聊天记录');}});}function _0x1163d3(){const _0x16a077=_0xde68a,_0x102934=_0x2178c1?_0x18c184(_0x2178c1):null;if(!_0x102934)return;_0x2c1267({'title':_0x16a077(0x24b),'message':_0x16a077(0x223)+_0x102934[_0x16a077(0x1a7)]+_0x16a077(0x320),'confirmText':'删除','isDestructive':!![],'onConfirm':()=>{const _0x5debe1=_0x16a077;_0x662e33(_0x4b2f0f=>{const _0x1e4d0c=_0x4396;_0x4b2f0f[_0x1e4d0c(0x1f2)]=(_0x4b2f0f[_0x1e4d0c(0x1f2)]||[])[_0x1e4d0c(0x35e)](_0x16760d=>String(_0x16760d['id'])!==String(_0x102934['id']));}),_0x19da14(),_0x54a50b(),_0x4ee690(),_0x2150cd();if(typeof window[_0x5debe1(0x17a)]===_0x5debe1(0x3ae))window[_0x5debe1(0x17a)](_0x5debe1(0x385));}});}function _0x30b97f(_0x4df9a4,_0x20e535){let _0x126df9=null;return _0x662e33(_0x123b7a=>{const _0x3615ff=_0x4396;_0x123b7a[_0x3615ff(0x1f2)]=(_0x123b7a[_0x3615ff(0x1f2)]||[])[_0x3615ff(0x17d)](_0x294584=>{const _0xb7d52a=_0x3615ff;if(String(_0x294584['id'])!==String(_0x4df9a4))return _0x294584;const _0x90af11=_0x186820(_0x294584,_0x294584[_0xb7d52a(0x281)]||'manual'),_0x2cf134=_0x20e535({..._0x90af11,'messages':[..._0x90af11['messages']]})||_0x90af11;return _0x126df9=_0x2cf134,_0x2cf134;});}),_0x126df9;}function _0x50f6a9(_0x503bfe,_0x57899b,_0x3ce2c5){const _0x42685d=_0xde68a,_0x337cc5=_0x4eb7cb(_0x3ce2c5);if(!_0x337cc5)return null;const _0x5c9186={'id':_0x6bbcdb('dm-msg'),'source':_0x57899b===_0x42685d(0x21f)?'user':_0x42685d(0x215),'text':_0x337cc5,'createdAt':Date[_0x42685d(0x1fe)]()};return _0x30b97f(_0x503bfe,_0x211a83=>{const _0x225032=_0x42685d;return _0x211a83[_0x225032(0x186)]['push'](_0x5c9186),_0x211a83;}),_0x2150cd(),_0x33496b(),_0x5c9186;}function _0x4e6e5a(_0x32b60a){const _0x47345e=_0xde68a;_0x2178c1=String(_0x32b60a),_0x33496b(),_0x26eb3d?.[_0x47345e(0x255)][_0x47345e(0x345)]('active'),_0x26eb3d?.[_0x47345e(0x3d8)]('aria-hidden','false');}function _0x4ee690(){const _0x5e9121=_0xde68a,_0x30f4a3=_0x2178c1,_0x2fbd91=_0x30f4a3?'.x-dm-row[data-dm-id=\x22'+_0x559490(_0x30f4a3)+'\x22]':'';_0x544303(_0x26eb3d,_0x2fbd91),_0x2178c1=null,_0x26eb3d?.[_0x5e9121(0x255)][_0x5e9121(0x1d3)](_0x5e9121(0x17b)),_0x26eb3d?.[_0x5e9121(0x3d8)](_0x5e9121(0x2e4),'true');}function _0x33496b(){const _0x44d53d=_0xde68a,_0xef0413=_0x2178c1?_0x18c184(_0x2178c1):null;if(!_0xef0413||!_0x26eb3d)return;const _0x4046f3=document[_0x44d53d(0x202)](_0x44d53d(0x267)),_0x361445=document[_0x44d53d(0x202)](_0x44d53d(0x3d7)),_0x41efe2=document[_0x44d53d(0x202)](_0x44d53d(0x1c6)),_0x2c08db=_0x2d480f(_0xef0413[_0x44d53d(0x186)]);if(_0x4046f3)_0x4046f3[_0x44d53d(0x429)]=_0x49c150(_0xef0413[_0x44d53d(0x3d6)],_0xef0413[_0x44d53d(0x1a7)]);if(_0x361445)_0x361445[_0x44d53d(0x391)]=_0xef0413[_0x44d53d(0x1a7)];if(_0x41efe2)_0x41efe2[_0x44d53d(0x391)]=_0xef0413['handle']||_0x44d53d(0x33f);if(_0x25702c){const _0x3c80a0=_0x24285f(_0xef0413);_0x25702c['innerHTML']=_0x2c08db[_0x44d53d(0x1a0)]?''+_0x3c80a0+_0x2c08db[_0x44d53d(0x17d)](_0x532263=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-chat-bubble-row\x20'+(_0x532263['source']==='user'?_0x44d53d(0x21f):_0x44d53d(0x215))+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-dm-chat-bubble\x22>'+_0x2e74f4(_0x532263[_0x44d53d(0x1bc)])+_0x44d53d(0x3e8))[_0x44d53d(0x259)](''):_0x3c80a0+_0x44d53d(0x2ad),_0x25702c[_0x44d53d(0x2bb)]=_0x25702c[_0x44d53d(0x3b8)];}}function _0x486f42(){const _0x1a4f66=_0xde68a;if(!_0x2178c1||!_0x3bfcbd)return;const _0x3f0740=_0x4eb7cb(_0x3bfcbd[_0x1a4f66(0x31a)]);if(!_0x3f0740){if(typeof window[_0x1a4f66(0x17a)]==='function')window[_0x1a4f66(0x17a)](_0x1a4f66(0x1ec));return;}_0x3bfcbd[_0x1a4f66(0x31a)]='',_0x50f6a9(_0x2178c1,'user',_0x3f0740);}async function _0x11d06d(){const _0x3e53b2=_0xde68a;if(!_0x2178c1)return;const _0x48afbd=_0x18c184(_0x2178c1);if(!_0x48afbd)return;const _0x2cb606=document[_0x3e53b2(0x202)](_0x3e53b2(0x2a4));_0x2cb606?.['classList'][_0x3e53b2(0x345)](_0x3e53b2(0x433)),_0x2cb606?.[_0x3e53b2(0x3d8)](_0x3e53b2(0x1cd),'true');try{const _0x195ccd=_0x2d480f(_0x48afbd[_0x3e53b2(0x186)])[_0x3e53b2(0x19f)](-0xc)[_0x3e53b2(0x17d)](_0x549520=>(_0x549520[_0x3e53b2(0x316)]===_0x3e53b2(0x21f)?_0x4d56a0[_0x3e53b2(0x1a7)]:_0x48afbd['name'])+':\x20'+_0x549520['text'])['join']('\x0a'),_0x5170f2=_0x4681b4(_0x48afbd['name']+'\x20'+_0x48afbd[_0x3e53b2(0x1d0)]+'\x20'+_0x4d56a0['persona']),_0x5d5603=await _0x3828db([{'role':'system','content':_0x3e53b2(0x346)},{'role':_0x3e53b2(0x21f),'content':_0x3e53b2(0x2af)+_0x48afbd[_0x3e53b2(0x1a7)]+'\x20'+(_0x48afbd['handle']||'')+'\x0aPersona:\x20'+(_0x48afbd[_0x3e53b2(0x310)]||'ordinary\x20user')+_0x3e53b2(0x21d)+(_0x48afbd[_0x3e53b2(0x1d0)]||'')+_0x3e53b2(0x231)+_0x4d56a0['name']+'\x20'+_0x4d56a0[_0x3e53b2(0x394)]+'\x0aUser\x20persona:\x20'+(_0x4d56a0['persona']||_0x4d56a0[_0x3e53b2(0x1d0)]||'')+_0x3e53b2(0x2a9)+(_0x5a5f4e()[_0x3e53b2(0x1bf)]||_0xa31674)+'\x0aWorldbook:\x0a'+(_0x5170f2||_0x3e53b2(0x1c7))+_0x3e53b2(0x1f4)+(_0x195ccd||_0x3e53b2(0x413))+_0x3e53b2(0x406)}],{'temperature':0.85});_0x50f6a9(_0x2178c1,_0x3e53b2(0x215),_0x5d5603);}catch(_0x5bc179){console['error'](_0x3e53b2(0x21b),_0x5bc179);if(typeof window[_0x3e53b2(0x17a)]===_0x3e53b2(0x3ae))window[_0x3e53b2(0x17a)](_0x3e53b2(0x2f2));}finally{_0x2cb606?.['classList'][_0x3e53b2(0x1d3)]('loading'),_0x2cb606?.['removeAttribute'](_0x3e53b2(0x1cd));}}function _0x418fe4(_0x5cdc40,_0x558bbd=''){const _0xdbb156=_0xde68a;if(!_0x3aa39e)return;const _0x36df82=document[_0xdbb156(0x202)]('x-image-preview-text'),_0x27e860=document[_0xdbb156(0x202)](_0xdbb156(0x43b));if(_0x36df82)_0x36df82[_0xdbb156(0x391)]=_0x4eb7cb(_0x5cdc40,'Image');_0x27e860&&(_0x27e860['src']=_0x558bbd||_0x17c4a3,_0x27e860[_0xdbb156(0x1f6)][_0xdbb156(0x288)]=_0xdbb156(0x280)),_0x3aa39e[_0xdbb156(0x255)][_0xdbb156(0x345)](_0xdbb156(0x17b)),_0x3aa39e['setAttribute']('aria-hidden','false');}function _0x213fa8(){const _0x51712f=_0xde68a;_0x3aa39e?.['classList'][_0x51712f(0x1d3)]('active'),_0x3aa39e?.[_0x51712f(0x3d8)]('aria-hidden',_0x51712f(0x3ca));}function _0x1c23fe(_0x112a19){const _0x3f053d=_0xde68a;_0x35b8f0=_0x112a19;if(typeof window[_0x3f053d(0x247)]==='function')window[_0x3f053d(0x247)](_0x25d531);else _0x25d531?.[_0x3f053d(0x255)][_0x3f053d(0x345)](_0x3f053d(0x17b));}function _0x4793b5(){const _0x5f40e5=_0xde68a;if(typeof window[_0x5f40e5(0x271)]===_0x5f40e5(0x3ae))window[_0x5f40e5(0x271)](_0x25d531);else _0x25d531?.[_0x5f40e5(0x255)]['remove']('active');setTimeout(()=>{_0x35b8f0=null;},0x12c);}function _0x384e2b(){const _0x1c7e03=_0xde68a;if(!_0x35b8f0)return;const _0x300b9c=_0x35b8f0;_0x2c1267({'title':_0x1c7e03(0x3c0),'message':_0x1c7e03(0x25c),'confirmText':'删除','isDestructive':!![],'onConfirm':()=>{const _0x1f28bb=_0x1c7e03;_0x662e33(_0x7b5315=>{const _0x47e267=_0x4396;_0x7b5315[_0x47e267(0x3b0)]=(_0x7b5315[_0x47e267(0x3b0)]||[])[_0x47e267(0x35e)](_0x269d40=>String(_0x269d40['id'])!==String(_0x300b9c));});const _0x126b3a=_0x5731e4[_0x1f28bb(0x301)](_0x1f28bb(0x2c5)+_0x559490(_0x300b9c)+'\x22]');_0x126b3a[_0x1f28bb(0x381)](_0xd21760=>{const _0x25db34=_0x1f28bb;_0xd21760[_0x25db34(0x1f6)][_0x25db34(0x22f)]='0',_0xd21760[_0x25db34(0x1f6)]['transform']=_0x25db34(0x40e),_0xd21760[_0x25db34(0x1f6)][_0x25db34(0x238)]=_0x25db34(0x18d),setTimeout(()=>_0xd21760[_0x25db34(0x1d3)](),0xc8);}),_0x4793b5();_0x24fe6a===_0x300b9c&&_0x34df5e();if(typeof window[_0x1f28bb(0x17a)]===_0x1f28bb(0x3ae))window['showToast']('帖子已删除');}});}function _0x618d16(){const _0x34ec7a=_0xde68a;if(_0x3d3020)_0x3d3020[_0x34ec7a(0x31a)]='';if(typeof window[_0x34ec7a(0x247)]===_0x34ec7a(0x3ae))window[_0x34ec7a(0x247)](_0x4bbbee);else _0x4bbbee?.[_0x34ec7a(0x255)][_0x34ec7a(0x345)](_0x34ec7a(0x17b));}function _0x2c8583(){const _0x4c2ece=_0xde68a;if(typeof window[_0x4c2ece(0x271)]===_0x4c2ece(0x3ae))window[_0x4c2ece(0x271)](_0x4bbbee);else _0x4bbbee?.['classList'][_0x4c2ece(0x1d3)](_0x4c2ece(0x17b));}async function _0x545753(){const _0x3135f4=_0xde68a,_0xbabeff=document[_0x3135f4(0x202)]('x-search-generate-run-btn'),_0x5be176=_0x4eb7cb(_0x3d3020?.['value']);_0xbabeff?.[_0x3135f4(0x255)]['add'](_0x3135f4(0x433));if(_0xbabeff)_0xbabeff['textContent']='Generating';try{const _0x27fd3b=_0x4681b4(_0x5be176+'\x20'+_0x4d56a0['bio']),_0x34fc2d={'name':_0x4d56a0[_0x3135f4(0x1a7)],'handle':_0x4d56a0[_0x3135f4(0x394)],'bio':_0x4d56a0[_0x3135f4(0x1d0)]},_0x6c7379=_0x3135f4(0x1af)+(_0x5be176||_0x3135f4(0x3ce))+_0x3135f4(0x231)+JSON[_0x3135f4(0x423)](_0x34fc2d)+_0x3135f4(0x2a9)+(_0x5a5f4e()[_0x3135f4(0x1bf)]||_0xa31674)+'\x0aWorldbook:\x0a'+(_0x27fd3b||_0x3135f4(0x1c7)),_0x50abc4=await _0x3828db([{'role':_0x3135f4(0x321),'content':_0x3135f4(0x41e)},{'role':_0x3135f4(0x21f),'content':_0x6c7379}],{'temperature':0.9}),_0x540ae3=_0x126bb6(_0x50abc4),_0x1a46b4=Array[_0x3135f4(0x193)](_0x540ae3)?_0x540ae3:Array[_0x3135f4(0x193)](_0x540ae3[_0x3135f4(0x189)])?_0x540ae3[_0x3135f4(0x189)]:[],_0x4c720b=_0x2e0078(_0x1a46b4);_0x2c8583();if(typeof window['showToast']===_0x3135f4(0x3ae))window[_0x3135f4(0x17a)](_0x4c720b[_0x3135f4(0x1a0)]?_0x3135f4(0x361)+_0x4c720b[_0x3135f4(0x1a0)]+'\x20条帖子':_0x3135f4(0x2cf));}catch(_0x2ac9f6){console['error'](_0x3135f4(0x3af),_0x2ac9f6);if(typeof window['showToast']===_0x3135f4(0x3ae))window[_0x3135f4(0x17a)](_0x3135f4(0x1ef));}finally{_0xbabeff?.[_0x3135f4(0x255)]['remove'](_0x3135f4(0x433));if(_0xbabeff)_0xbabeff[_0x3135f4(0x391)]=_0x3135f4(0x1c2);}}function _0x1d7c97(_0x260079){const _0x40f347=_0xde68a;if(!_0x98ecc1||!_0x260079)return;const _0x428e45=_0x260079[_0x40f347(0x21c)];if(!_0x428e45)return;const _0x56f245=_0x428e45['getBoundingClientRect'](),_0x13e908=_0x260079[_0x40f347(0x348)]();_0x98ecc1[_0x40f347(0x1f6)][_0x40f347(0x257)]=_0x13e908[_0x40f347(0x257)]-_0x56f245[_0x40f347(0x257)]+'px',_0x98ecc1[_0x40f347(0x1f6)]['width']=_0x13e908[_0x40f347(0x209)]+'px';}function _0x971cb4(_0xfc3170){const _0x49bdb2=_0xde68a;if(_0xfc3170<0x0||_0xfc3170>=_0x50c1ad[_0x49bdb2(0x1a0)])return;_0x4bae6e=_0xfc3170,_0x50c1ad[_0x49bdb2(0x381)]((_0x574179,_0x3679d5)=>{const _0x5c1ed3=_0x49bdb2;_0x574179[_0x5c1ed3(0x255)][_0x5c1ed3(0x395)]('active',_0x3679d5===_0xfc3170);}),_0x448623[_0x49bdb2(0x381)]((_0x1db57f,_0x4ddc50)=>{const _0x2832fe=_0x49bdb2;_0x1db57f[_0x2832fe(0x255)]['toggle'](_0x2832fe(0x17b),_0x4ddc50===_0xfc3170),_0x1db57f['style']['transform']='translateX(-'+_0xfc3170*0x64+'%)';}),_0x1d7c97(_0x50c1ad[_0xfc3170]);if(_0x50c1ad[_0xfc3170]?.[_0x49bdb2(0x241)](_0x49bdb2(0x430))===_0x49bdb2(0x344))_0x48bed0();if(_0x50c1ad[_0xfc3170]?.['getAttribute'](_0x49bdb2(0x430))===_0x49bdb2(0x1d7))_0x2150cd();_0x34df5e();}function _0x301574(_0x368c6e,_0x347a19,_0x580b3b,_0x362f2d,_0x452041){const _0x133033=_0xde68a;_0x368c6e[_0x133033(0x381)](_0x219f34=>{const _0x48dbbd=_0x133033;_0x219f34[_0x48dbbd(0x255)][_0x48dbbd(0x395)](_0x48dbbd(0x17b),_0x219f34[_0x48dbbd(0x241)](_0x580b3b)===_0x452041);}),_0x347a19[_0x133033(0x381)](_0x58fb4e=>{const _0x14d797=_0x133033;_0x58fb4e['classList'][_0x14d797(0x395)](_0x14d797(0x17b),_0x58fb4e['getAttribute'](_0x362f2d)===_0x452041);});}function _0x5e12ad(_0x62bdc2){const _0x5196b4=_0xde68a,_0x8c1d86=_0x32127e[_0x62bdc2]||_0x32127e['island'];_0x24fe6a=_0x62bdc2;const _0x1d498c=document[_0x5196b4(0x202)]('x-detail-post'),_0x531f30=_0x360430(_0x62bdc2);_0x1d498c&&(_0x1d498c['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-detail-author\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-avatar\x22>'+_0x49c150(_0x8c1d86['avatar'],_0x8c1d86[_0x5196b4(0x1a7)])+_0x5196b4(0x34a)+_0x2e74f4(_0x8c1d86[_0x5196b4(0x1a7)])+_0x5196b4(0x1cc)+_0x2e74f4(_0x8c1d86[_0x5196b4(0x394)])+_0x5196b4(0x2cb)+_0x2e74f4(_0x8c1d86[_0x5196b4(0x1bc)])+_0x5196b4(0x30a)+_0x293a8d(_0x5941a8(_0x8c1d86))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22x-detail-inline-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22x-detail-repost-btn\x22\x20type=\x22button\x22\x20class=\x22x-detail-inline-action\x20'+(_0x531f30[_0x5196b4(0x3a8)]?_0x5196b4(0x17b):'')+_0x5196b4(0x1eb)+_0x2e74f4(_0x48c91e(_0x531f30[_0x5196b4(0x2a1)]))+_0x5196b4(0x1b5)+(_0x531f30[_0x5196b4(0x435)]?_0x5196b4(0x17b):'')+_0x5196b4(0x3da)+(_0x531f30[_0x5196b4(0x435)]?'fas':_0x5196b4(0x313))+_0x5196b4(0x2cd)+_0x2e74f4(_0x48c91e(_0x531f30[_0x5196b4(0x2f4)]))+_0x5196b4(0x40d));const _0x379026=document[_0x5196b4(0x202)](_0x5196b4(0x264)),_0x385df3=document['getElementById'](_0x5196b4(0x1d4)),_0x1edcb1=document[_0x5196b4(0x202)]('x-detail-comments');if(_0x379026)_0x379026[_0x5196b4(0x391)]=_0x48c91e(_0x531f30[_0x5196b4(0x2a1)]);if(_0x385df3)_0x385df3[_0x5196b4(0x391)]=_0x48c91e(_0x531f30[_0x5196b4(0x2f4)]);if(_0x1edcb1)_0x1edcb1['textContent']=_0x48c91e(_0x531f30[_0x5196b4(0x2a7)]);_0x884e29(_0x531f30),_0x575c48(),_0x421129(_0x62bdc2,_0x531f30),_0x2352c4(_0x62bdc2,_0x531f30),_0x1ef97e?.['classList']['add'](_0x5196b4(0x17b)),_0x1ef97e?.['setAttribute'](_0x5196b4(0x2e4),_0x5196b4(0x3c4));}function _0x34df5e(){const _0x3e1e87=_0xde68a;_0x1ef97e?.[_0x3e1e87(0x26c)](document[_0x3e1e87(0x2e6)])&&document[_0x3e1e87(0x2e6)][_0x3e1e87(0x419)](),_0x1ef97e?.['classList'][_0x3e1e87(0x1d3)](_0x3e1e87(0x17b)),_0x1ef97e?.[_0x3e1e87(0x3d8)](_0x3e1e87(0x2e4),'true'),_0x24fe6a=null,_0xb1ee5e=null;}function _0x54594d(_0x519e4f){const _0x43ba1a=_0xde68a,_0x12fe2f=_0x519e4f[_0x43ba1a(0x241)]('data-post-id');if(!_0x12fe2f||_0x519e4f[_0x43ba1a(0x25d)][_0x43ba1a(0x1b7)]===_0x43ba1a(0x3ca))return;_0x519e4f[_0x43ba1a(0x25d)]['xBound']=_0x43ba1a(0x3ca),_0x519e4f[_0x43ba1a(0x277)](_0x43ba1a(0x3c7),_0x10b0c9=>{const _0x125e49=_0x43ba1a;if(_0x10b0c9[_0x125e49(0x1b8)][_0x125e49(0x2b8)]('.x-post-image-thumb'))return;const _0x571821=_0x10b0c9[_0x125e49(0x1b8)][_0x125e49(0x2b8)]('.x-ref-post');if(_0x571821){_0x10b0c9[_0x125e49(0x3d1)](),_0x5e12ad(_0x571821[_0x125e49(0x25d)][_0x125e49(0x2bc)]);return;}if(_0x519e4f[_0x125e49(0x255)]['contains'](_0x125e49(0x1a5)))return;_0x5e12ad(_0x12fe2f);}),_0x519e4f['addEventListener'](_0x43ba1a(0x20d),_0x59b33c=>{const _0x2b1c63=_0x43ba1a;if(_0x59b33c['key']===_0x2b1c63(0x204)||_0x59b33c[_0x2b1c63(0x29f)]==='\x20'){_0x59b33c['preventDefault']();if(_0x519e4f[_0x2b1c63(0x255)]['contains'](_0x2b1c63(0x1a5)))return;_0x5e12ad(_0x12fe2f);}});}function _0x2057b6(_0x480cbb){const _0x3ee469=_0xde68a;if(_0x480cbb)_0x480cbb['stopPropagation']();if(window[_0x3ee469(0x1de)])return;_0xe4eb22(),_0x549ca6(),_0x52fea9(),_0x48bed0(),_0x4c6400(),_0x2150cd(),_0x5731e4[_0x3ee469(0x255)][_0x3ee469(0x345)](_0x3ee469(0x17b)),requestAnimationFrame(()=>_0x971cb4(_0x4bae6e));}function _0x39ae07(){const _0x4f4cb4=_0xde68a;_0x4f7014(),_0x34df5e(),_0x3bf973(),_0xc2cbb7(),_0x5cbce6(),_0x18fc2e(),_0x1b074a(),_0x2e56c5(),_0x4ee690(),_0x19da14(),_0x54a50b(),_0x2c8583(),_0x213fa8(),_0x5731e4[_0x4f4cb4(0x255)][_0x4f4cb4(0x1d3)]('active');}function _0x3fb6c3(_0x3516e4,_0x36e410){const _0x4daa39=_0xde68a;_0x3516e4?.[_0x4daa39(0x277)](_0x4daa39(0x400),()=>{const _0x24105c=_0x4daa39,_0x30774a=_0x3516e4['files']&&_0x3516e4[_0x24105c(0x434)][0x0];if(!_0x30774a)return;const _0x231848=new FileReader();_0x231848[_0x24105c(0x304)]=()=>_0x36e410(String(_0x231848[_0x24105c(0x2a0)]||'')),_0x231848[_0x24105c(0x421)](_0x30774a);});}_0xe4eb22(),_0x5290f6[_0xde68a(0x277)](_0xde68a(0x3c7),_0x2057b6),_0x15047a['forEach'](_0x5d5f78=>_0x5d5f78['addEventListener'](_0xde68a(0x3c7),_0x39ae07)),_0x50c1ad[_0xde68a(0x381)]((_0x53340a,_0x23ebf5)=>_0x53340a[_0xde68a(0x277)](_0xde68a(0x3c7),()=>_0x971cb4(_0x23ebf5))),_0x5731e4[_0xde68a(0x301)](_0xde68a(0x248))[_0xde68a(0x381)](_0x54594d),_0x3c7afd?.[_0xde68a(0x277)]('click',_0x34df5e),_0x4b4438?.['addEventListener'](_0xde68a(0x3c7),_0x4f7014),_0x1d4aaf?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x19bb6b),_0x4b1f9c?.['addEventListener']('click',_0x1ed67d),_0x1494a1?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x4963fe),document[_0xde68a(0x202)]('x-profile-visitors-btn')?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x52a64b),document[_0xde68a(0x202)](_0xde68a(0x2bd))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x1b074a),document['getElementById']('x-add-dm-btn')?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x241c9e),document[_0xde68a(0x202)](_0xde68a(0x184))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x2e56c5),document['getElementById'](_0xde68a(0x371))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x321e8a);_0x450c9c&&_0x450c9c[_0xde68a(0x277)](_0xde68a(0x400),_0x4a799f=>_0x3c0369(_0x4a799f[_0xde68a(0x1b8)][_0xde68a(0x31a)]));_0xa9c317&&_0xa9c317[_0xde68a(0x277)](_0xde68a(0x3c7),_0x53c130);document['getElementById'](_0xde68a(0x1a9))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x618d16),document['getElementById'](_0xde68a(0x190))?.['addEventListener']('click',_0x2c8583),document[_0xde68a(0x202)](_0xde68a(0x303))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x545753),document[_0xde68a(0x202)](_0xde68a(0x3cf))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x4793b5),document[_0xde68a(0x202)](_0xde68a(0x41f))?.['addEventListener'](_0xde68a(0x3c7),_0x384e2b),document['getElementById'](_0xde68a(0x3c2))?.['addEventListener'](_0xde68a(0x3c7),()=>{if(_0x24fe6a)_0x1c23fe(_0x24fe6a);}),document['getElementById'](_0xde68a(0x25b))?.['addEventListener'](_0xde68a(0x3c7),_0x4ee690),document[_0xde68a(0x202)](_0xde68a(0x403))?.['addEventListener'](_0xde68a(0x3c7),_0x384d34),document['getElementById']('x-dm-settings-close-btn')?.['addEventListener'](_0xde68a(0x3c7),_0x19da14),document['getElementById'](_0xde68a(0x437))?.[_0xde68a(0x277)]('click',_0xbeb164),document[_0xde68a(0x202)]('x-dm-delete-chat-btn')?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x1163d3),document[_0xde68a(0x202)]('x-dm-profile-back')?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x54a50b),document['getElementById'](_0xde68a(0x1a3))?.[_0xde68a(0x277)](_0xde68a(0x3ba),_0x27bb4c=>{const _0x5cd3ca=_0xde68a;_0x27bb4c[_0x5cd3ca(0x19a)](),_0x486f42();}),document[_0xde68a(0x202)](_0xde68a(0x373))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x1512f8=>{_0x1512f8['preventDefault'](),_0x486f42();}),document[_0xde68a(0x202)](_0xde68a(0x2a4))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x11d06d),document[_0xde68a(0x202)](_0xde68a(0x349))?.[_0xde68a(0x277)](_0xde68a(0x20d),_0xbaee37=>{const _0x42a92a=_0xde68a;_0xbaee37[_0x42a92a(0x29f)]===_0x42a92a(0x204)&&!_0xbaee37[_0x42a92a(0x2ef)]&&!_0xbaee37['ctrlKey']&&!_0xbaee37[_0x42a92a(0x350)]&&!_0xbaee37['isComposing']&&_0xbaee37[_0x42a92a(0x33c)]!==0xe5&&(_0xbaee37[_0x42a92a(0x19a)](),_0x486f42(),_0xbaee37[_0x42a92a(0x1b8)][_0x42a92a(0x419)]());}),document['getElementById'](_0xde68a(0x32c))?.[_0xde68a(0x277)]('click',_0x213fa8),document[_0xde68a(0x202)](_0xde68a(0x422))?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0xd0fa23),document[_0xde68a(0x202)](_0xde68a(0x2ce))?.[_0xde68a(0x277)]('click',()=>_0x38047d(null)),document[_0xde68a(0x202)](_0xde68a(0x339))?.['addEventListener'](_0xde68a(0x20d),_0x1fe1e2=>{const _0x5d4e5f=_0xde68a;_0x1fe1e2['key']===_0x5d4e5f(0x204)&&!_0x1fe1e2[_0x5d4e5f(0x2ef)]&&!_0x1fe1e2['ctrlKey']&&!_0x1fe1e2['altKey']&&!_0x1fe1e2['isComposing']&&_0x1fe1e2[_0x5d4e5f(0x33c)]!==0xe5&&(_0x1fe1e2[_0x5d4e5f(0x19a)](),_0xd0fa23(),_0x1fe1e2[_0x5d4e5f(0x1b8)][_0x5d4e5f(0x419)]());}),_0x88599d?.[_0xde68a(0x277)]('click',_0x3bf973),_0xfb7144?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x29fc12),_0x13d2f3?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x5cbce6),_0x3cd14e?.['addEventListener']('click',_0x44473a),_0x309b3d?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x18fc2e),_0x3890da?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x31e7b3),document['querySelector']('.x-compose-button')?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x17c7ac),document[_0xde68a(0x2c7)](_0xde68a(0x38b))?.[_0xde68a(0x277)]('click',_0x17c7ac),_0x20f62b?.[_0xde68a(0x277)]('click',()=>_0x5aee1d?.[_0xde68a(0x3c7)]()),_0xb12313?.[_0xde68a(0x277)](_0xde68a(0x3c7),()=>_0x1c3007?.[_0xde68a(0x3c7)]()),_0x5731e4['addEventListener'](_0xde68a(0x3c7),_0x2dfe1b=>{const _0x1f283a=_0xde68a,_0x2a83a1=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x1e5));if(_0x2a83a1){_0x2dfe1b[_0x1f283a(0x19a)](),_0x54a50b();return;}const _0x2473a0=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x32f));if(_0x2473a0){_0x2dfe1b[_0x1f283a(0x19a)]();const _0x4b8b57=_0x2473a0[_0x1f283a(0x241)](_0x1f283a(0x347)),_0x5d85b7=_0x2473a0[_0x1f283a(0x2b8)](_0x1f283a(0x3b3)),_0x3f1f28=Array[_0x1f283a(0x382)](_0x5d85b7?.['querySelectorAll'](_0x1f283a(0x32f))||[]),_0x2e959d=Array[_0x1f283a(0x382)](_0x5d85b7?.['querySelectorAll'](_0x1f283a(0x1df))||[]);_0x301574(_0x3f1f28,_0x2e959d,'data-dm-profile-tab',_0x1f283a(0x1a2),_0x4b8b57);return;}const _0x37f0d0=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x40c));if(_0x37f0d0){_0x2dfe1b[_0x1f283a(0x19a)](),_0x2dfe1b[_0x1f283a(0x3d1)](),_0x418fe4(_0x37f0d0['dataset'][_0x1f283a(0x341)]||_0x1f283a(0x274),_0x37f0d0['dataset']['imageUrl']||'');return;}const _0x4be06f=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x1b6));if(_0x4be06f){_0x2dfe1b[_0x1f283a(0x19a)](),_0x5959ea(_0x1f283a(0x23b));return;}const _0x2c48c9=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)]('#x-detail-repost-btn');if(_0x2c48c9){_0x2dfe1b[_0x1f283a(0x19a)](),_0x5959ea(_0x1f283a(0x370));return;}const _0x38bc50=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x285));if(_0x38bc50){_0x2dfe1b[_0x1f283a(0x19a)](),_0x4e6e5a(_0x38bc50[_0x1f283a(0x25d)][_0x1f283a(0x323)]);return;}const _0x3f57e5=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x2ff));if(_0x3f57e5){_0x2dfe1b[_0x1f283a(0x19a)](),_0x241c9e();return;}const _0x290dbe=_0x2dfe1b['target'][_0x1f283a(0x2b8)](_0x1f283a(0x31e));if(_0x290dbe){_0x2dfe1b[_0x1f283a(0x19a)](),_0x4ef94a(_0x290dbe[_0x1f283a(0x25d)][_0x1f283a(0x1ea)]);return;}const _0x652979=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)](_0x1f283a(0x38f));if(_0x652979){_0x2dfe1b[_0x1f283a(0x19a)](),_0x39ae07();return;}const _0x5805ec=_0x2dfe1b['target'][_0x1f283a(0x2b8)](_0x1f283a(0x18b));if(_0x5805ec){_0x2dfe1b[_0x1f283a(0x19a)]();const _0x4cb8bc=_0x5805ec[_0x1f283a(0x25d)]['commentId'],_0xb9f9fa=_0x5805ec[_0x1f283a(0x25d)][_0x1f283a(0x27e)]||'';let _0xe60929=_0x4eb7cb(_0x5805ec[_0x1f283a(0x25d)][_0x1f283a(0x22b)]);if(!_0xe60929&&_0x24fe6a){const _0x1f4006=_0x360430(_0x24fe6a),_0x1ae92b=_0x313314(_0x1f4006,_0x4cb8bc);_0xe60929=_0xb9f9fa?_0x4eb7cb(_0x5b6266(_0x1ae92b,_0xb9f9fa)?.['name'],_0x1ae92b?.[_0x1f283a(0x1a7)]||'comment'):_0x4eb7cb(_0x1ae92b?.['name'],'comment');}_0x38047d({'commentId':_0x4cb8bc,'replyId':_0xb9f9fa,'name':_0xe60929});return;}const _0x4ade2b=_0x2dfe1b[_0x1f283a(0x1b8)][_0x1f283a(0x2b8)]('.x-trend-row');if(_0x4ade2b){const _0x162d90=_0x4ade2b[_0x1f283a(0x2c7)]('strong');_0x162d90&&_0x371318(_0x162d90[_0x1f283a(0x391)]['trim']());return;}const _0x1754a5=_0x2dfe1b['target'][_0x1f283a(0x2b8)](_0x1f283a(0x2a3));if(_0x1754a5&&!_0x1754a5[_0x1f283a(0x1cd)]&&_0x2aa282){_0x2dfe1b[_0x1f283a(0x19a)](),_0xdf20a3(_0x2aa282);return;}}),[_0x948afa,_0x4c5d61,_0x4b28d7,_0x4bbbee,_0x3aa39e,_0x58614b,_0x25d531]['forEach'](_0x4b37a5=>{const _0x39970c=_0xde68a;_0x4b37a5?.['addEventListener'](_0x39970c(0x3c7),_0x563361=>{const _0x45b15f=_0x39970c;if(_0x563361[_0x45b15f(0x1b8)]===_0x4b37a5){if(_0x4b37a5===_0x948afa)_0x1b074a();if(_0x4b37a5===_0x4c5d61)_0x2e56c5();if(_0x4b37a5===_0x4b28d7)_0x19da14();if(_0x4b37a5===_0x4bbbee)_0x2c8583();if(_0x4b37a5===_0x3aa39e)_0x213fa8();if(_0x4b37a5===_0x58614b)_0xc2cbb7();if(_0x4b37a5===_0x25d531)_0x4793b5();}});}),_0x4145fe?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0xc2cbb7),_0x1b843a?.['addEventListener'](_0xde68a(0x3c7),_0x4d5d19),_0x59ffa4?.['addEventListener']('click',_0x18944f),_0x2965b6?.[_0xde68a(0x277)](_0xde68a(0x3c7),_0x3fe844),_0x4bf4ff?.['addEventListener']('click',_0x218110),_0x287577?.[_0xde68a(0x277)]('click',_0x3fa33b),_0x380d09?.[_0xde68a(0x277)]('click',()=>_0x293ba8?.['click']()),_0x3fb6c3(_0x293ba8,_0x40af31=>{_0x31b21b=_0x40af31,_0x5f0f83(_0x380d09,_0x40af31,'超');}),_0x2cf84a?.[_0xde68a(0x277)]('click',()=>_0x19295f?.[_0xde68a(0x3c7)]()),_0x3fb6c3(_0x19295f,_0x3c571f=>{const _0x5a9528=_0xde68a;_0x4e4c7a=_0x3c571f,_0x5f0f83(_0x2cf84a,_0x3c571f,_0x5a9528(0x319));}),_0x3fb6c3(_0x5aee1d,_0x3bf70f=>{const _0x3c69b7=_0xde68a;_0x14c153=_0x3bf70f,_0x5f0f83(_0x20f62b,_0x14c153,_0x4eb7cb(_0x42d1d1?.[_0x3c69b7(0x31a)],'U')[_0x3c69b7(0x19f)](0x0,0x1)['toUpperCase']());}),_0x3fb6c3(_0x1c3007,_0x5f2119=>{const _0x2ecb75=_0xde68a;_0x40273e=_0x5f2119,_0x5f0f83(_0xb12313,_0x40273e,_0x2ecb75(0x319));});const _0xaa2086=Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)](_0xde68a(0x22c))),_0x188bbf=Array['from'](_0x5731e4[_0xde68a(0x301)]('.x-feed-panel[data-feed-panel]'));_0xaa2086[_0xde68a(0x381)](_0x54bd33=>{const _0x494836=_0xde68a;_0x54bd33[_0x494836(0x277)]('click',()=>{const _0x1f028b=_0x494836;_0x301574(_0xaa2086,_0x188bbf,_0x1f028b(0x36d),_0x1f028b(0x326),_0x54bd33[_0x1f028b(0x241)](_0x1f028b(0x36d)));});});const _0x59f70e=Array['from'](_0x5731e4[_0xde68a(0x301)]('.x-profile-tabs\x20button[data-profile-tab]')),_0x5c93c0=Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)]('.x-profile-panel[data-profile-panel]'));_0x59f70e[_0xde68a(0x381)](_0xdede3b=>{const _0x1152c5=_0xde68a;_0xdede3b[_0x1152c5(0x277)](_0x1152c5(0x3c7),()=>{const _0x56afa0=_0x1152c5;_0x301574(_0x59f70e,_0x5c93c0,_0x56afa0(0x3bc),_0x56afa0(0x2a6),_0xdede3b[_0x56afa0(0x241)](_0x56afa0(0x3bc)));});});const _0x170945=Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)](_0xde68a(0x286))),_0xa661b2=Array[_0xde68a(0x382)](_0x5731e4[_0xde68a(0x301)]('.x-super-feed[data-super-panel]'));_0x170945[_0xde68a(0x381)](_0x4c5169=>{_0x4c5169['addEventListener']('click',()=>{const _0x59b1ab=_0x4396;_0x301574(_0x170945,_0xa661b2,_0x59b1ab(0x3e7),'data-super-panel',_0x4c5169[_0x59b1ab(0x241)](_0x59b1ab(0x3e7)));});}),_0x967591&&(_0x967591[_0xde68a(0x277)](_0xde68a(0x2f3),_0x245cd6=>{const _0x2f9fb2=_0xde68a;if(_0x1ef97e?.[_0x2f9fb2(0x255)][_0x2f9fb2(0x26c)]('active'))return;if(!_0x245cd6[_0x2f9fb2(0x420)]||_0x245cd6['touches'][_0x2f9fb2(0x1a0)]===0x0)return;_0x508d35=_0x245cd6['touches'][0x0][_0x2f9fb2(0x3de)],_0x38455c=_0x245cd6[_0x2f9fb2(0x420)][0x0]['clientY'],_0x137a02=!![];},{'passive':!![]}),_0x967591[_0xde68a(0x277)](_0xde68a(0x19c),_0x232787=>{const _0x3668ab=_0xde68a;if(!_0x137a02||!_0x232787[_0x3668ab(0x194)]||_0x232787[_0x3668ab(0x194)][_0x3668ab(0x1a0)]===0x0)return;_0x137a02=![];const _0x552eaf=_0x232787[_0x3668ab(0x194)][0x0][_0x3668ab(0x3de)],_0xbffa54=_0x232787['changedTouches'][0x0][_0x3668ab(0x212)],_0x4f2d82=_0x508d35-_0x552eaf,_0x56e301=_0x38455c-_0xbffa54;if(Math[_0x3668ab(0x1ca)](_0x4f2d82)<0x34||Math[_0x3668ab(0x1ca)](_0x4f2d82)<Math['abs'](_0x56e301)*1.25)return;_0x4f2d82>0x0?_0x971cb4(Math[_0x3668ab(0x2bf)](_0x4bae6e+0x1,_0x50c1ad['length']-0x1)):_0x971cb4(Math[_0x3668ab(0x198)](_0x4bae6e-0x1,0x0));},{'passive':!![]})),window[_0xde68a(0x277)](_0xde68a(0x416),()=>{const _0x484a85=_0xde68a;if(!_0x5731e4[_0x484a85(0x255)][_0x484a85(0x26c)](_0x484a85(0x17b)))return;_0x1d7c97(_0x50c1ad[_0x4bae6e]);}),_0x5731e4[_0xde68a(0x301)]('.x-scroll-area,\x20.x-detail-scroll')['forEach'](_0x55702d=>{const _0x291e44=_0xde68a;_0x55702d[_0x291e44(0x277)](_0x291e44(0x36c),()=>{const _0x2d4581=_0x291e44;if(_0x55702d[_0x2d4581(0x2bb)]+_0x55702d[_0x2d4581(0x387)]>=_0x55702d[_0x2d4581(0x3b8)]-0xa0){const _0x3ead1a=_0x55702d['querySelectorAll'](_0x2d4581(0x229));_0x3ead1a[_0x2d4581(0x1a0)]>0x0&&_0x3ead1a[_0x2d4581(0x381)](_0x11d04b=>{const _0x54ea52=_0x2d4581;_0x11d04b[_0x54ea52(0x1f6)][_0x54ea52(0x288)]='',_0x11d04b[_0x54ea52(0x255)]['remove'](_0x54ea52(0x1e7));});}},{'passive':!![]});}),_0x549ca6(),_0x52fea9(),_0x48bed0(),_0x4c6400(),_0x2150cd(),requestAnimationFrame(()=>_0x971cb4(0x0));});}()));
+(function() {
+    document.addEventListener('DOMContentLoaded', () => {
+        const appButton = document.getElementById('app-x-btn');
+        const view = document.getElementById('x-view');
+        const mainContent = view ? view.querySelector('.x-main-content') : null;
+        const navItems = view ? Array.from(view.querySelectorAll('.x-nav-item[data-target]')) : [];
+        const tabs = view ? Array.from(view.querySelectorAll('.x-tab-content')) : [];
+        const indicator = document.getElementById('x-nav-indicator');
+        const postDetailView = document.getElementById('x-post-detail-view');
+        const postDetailBack = document.getElementById('x-post-detail-back');
+        const topicDetailView = document.getElementById('x-topic-detail-view');
+        const topicDetailBack = document.getElementById('x-topic-detail-back');
+        const topicDetailGenerateBtn = document.getElementById('x-topic-detail-generate-btn');
+        const topicDetailHeadline = document.getElementById('x-topic-detail-headline');
+        const topicFeedPanel = document.getElementById('x-topic-feed-panel');
+        const createTopicSheet = document.getElementById('x-create-topic-sheet');
+        const createTopicCancelBtn = document.getElementById('x-create-topic-cancel-btn');
+        const createTopicSaveBtn = document.getElementById('x-create-topic-save-btn');
+        const createTopicBannerPreview = document.getElementById('x-create-topic-banner-preview');
+        const createTopicBannerInput = document.getElementById('x-create-topic-banner-input');
+        const createTopicAvatarPreview = document.getElementById('x-create-topic-avatar-preview');
+        const createTopicAvatarInput = document.getElementById('x-create-topic-avatar-input');
+        const createTopicNameInput = document.getElementById('x-create-topic-name-input');
+        const createTopicFansInput = document.getElementById('x-create-topic-fans-input');
+        const createTopicImportBtn = document.getElementById('x-topic-import-imessage-btn');
+        const createTopicManualBtn = document.getElementById('x-topic-manual-char-btn');
+        const createTopicImessageContainer = document.getElementById('x-topic-imessage-list-container');
+        const createTopicManualContainer = document.getElementById('x-topic-manual-container');
+        const createTopicCharsList = document.getElementById('x-topic-chars-list');
+        const topicManualSaveBtn = document.getElementById('x-topic-manual-save-btn');
+        const superUpdateBtn = document.getElementById('x-super-update-btn');
+        
+        let createTopicAvatarDraft = '';
+        let createTopicBannerDraft = '';
+        let createTopicSelectedChars = [];
+
+        const editSheet = document.getElementById('x-edit-profile-sheet');
+        const settingsSheet = document.getElementById('x-settings-sheet');
+        const composeSheet = document.getElementById('x-compose-sheet');
+        const editButton = document.getElementById('x-profile-edit-btn');
+        const settingsButton = document.getElementById('x-profile-settings-btn');
+        const editCancelButton = document.getElementById('x-edit-cancel-btn');
+        const editSaveButton = document.getElementById('x-edit-save-btn');
+        const settingsCloseButton = document.getElementById('x-settings-close-btn');
+        const settingsWorldBookButton = document.getElementById('x-settings-worldbook-btn');
+        const composeCancelButton = document.getElementById('x-compose-cancel-btn');
+        const composeSubmitButton = document.getElementById('x-compose-submit-btn');
+        const composeTextInput = document.getElementById('x-compose-text-input');
+        const editAvatarPreview = document.getElementById('x-edit-avatar-preview');
+        const editAvatarInput = document.getElementById('x-edit-avatar-input');
+        const editBannerPreview = document.getElementById('x-edit-banner-preview');
+        const editBannerInput = document.getElementById('x-edit-banner-input');
+        const editNameInput = document.getElementById('x-edit-name-input');
+        const editHandleInput = document.getElementById('x-edit-handle-input');
+        const editBioInput = document.getElementById('x-edit-bio-input');
+        const editPersonaInput = document.getElementById('x-edit-persona-input');
+        const closeButtons = [
+            document.getElementById('x-back-btn'),
+            document.getElementById('x-profile-close-btn')
+        ].filter(Boolean);
+
+        if (!view || !appButton || navItems.length === 0 || tabs.length === 0) return;
+
+        const globalDateInput = document.getElementById('x-global-date-input');
+        const nextDayBtn = document.getElementById('x-next-day-btn');
+
+        const currentYear = new Date().getFullYear();
+        const defaultDate = `${currentYear}-01-01`;
+
+        const defaultProfile = {
+            name: 'User Name',
+            handle: '@username',
+            bio: '',
+            persona: '',
+            avatar: '',
+            banner: ''
+        };
+
+        const defaultXState = {
+            xData: { ...defaultProfile, edited: false },
+            xTopics: [],
+            boundWorldBookIds: [],
+            xVisitors: [],
+            xDirectMessages: [],
+            xPostThreads: {},
+            xGeneratedPosts: [],
+            xHomeBannerUrl: '',
+            xSearchBannerUrl: '',
+            xCurrentDate: defaultDate
+        };
+        const generatedImagePlaceholderUrl = 'assets/x/generated-image-placeholder.jpg';
+
+        const postData = {
+            island: {
+                avatar: '林',
+                name: '林屿 Island',
+                handle: '@island · 12m',
+                text: '首页信息流先按微博的阅读节奏排，保留热搜、转评赞和图文密度，但整体收进 X 的黑白系统里。',
+                reposts: '46',
+                likes: '3.2K',
+                comments: '128',
+                commentList: [
+                    { avatar: 'A', name: 'Akira', handle: '@akira · 4m', text: '这个层级更像微博，但底色和按钮都很 X。' },
+                    { avatar: 'M', name: 'Mina', handle: '@mina · 2m', text: '评论区做成卡片之后，帖子详情就完整很多。' },
+                    { avatar: 'S', name: 'Sora', handle: '@sora · now', text: '图片区域保留静态占位也够看排版了。' }
+                ]
+            },
+            super: {
+                avatar: '超',
+                name: '超话精选',
+                handle: '@super · 28m',
+                text: '今日签到人数上涨 24%，热门讨论集中在舞台妆造、路透图和饭制剪辑。',
+                reposts: '301',
+                likes: '8.8K',
+                comments: '89',
+                commentList: [
+                    { avatar: '#', name: 'Topic Bot', handle: '@topic · 9m', text: '年度舞台名场面已经进入超话热帖榜。' },
+                    { avatar: 'L', name: 'Luna', handle: '@luna · 3m', text: '超话页和详情页之间的关系现在更明确。' }
+                ]
+            },
+            following: {
+                avatar: 'M',
+                name: 'Mina',
+                handle: '@mina · 6m',
+                text: 'Following 里先放关注流的静态样式。后续接账号或角色关系时，可以直接把关注对象的帖子渲染进这里。',
+                reposts: '9',
+                likes: '642',
+                comments: '18',
+                commentList: [
+                    { avatar: 'U', name: 'User', handle: '@user · 1m', text: '关注页用静态占位就能先验证切换体验。' }
+                ]
+            },
+            profile: {
+                avatar: 'U',
+                name: 'User Name',
+                handle: '@username · pinned',
+                text: '个人主页内容卡片先保持静态，重点是排版、层级和底栏切换体验。',
+                reposts: '12',
+                likes: '520',
+                comments: '34',
+                commentList: [
+                    { avatar: 'X', name: 'X App', handle: '@xapp · now', text: '这条来自个人页 Posts 分栏。' }
+                ]
+            }
+        };
+
+        let currentIndex = 0;
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let isTouching = false;
+        let currentProfile = resolveProfile();
+        let avatarDraft = currentProfile.avatar || '';
+        let bannerDraft = currentProfile.banner || '';
+        let tempPostCounter = 0;
+        let currentDetailPostId = null;
+        let replyTarget = null;
+        let visitorsSheet = null;
+        let visitorsList = null;
+        let addDmSheet = null;
+        let imessageCharList = null;
+        let dmList = null;
+        let manualCharNameInput = null;
+        let manualCharHandleInput = null;
+        let manualCharBioInput = null;
+        let manualCharPersonaInput = null;
+        let dmChatView = null;
+        let dmChatMessagesEl = null;
+        let dmChatInput = null;
+        let dmSettingsSheet = null;
+        let dmProfileView = null;
+        let currentDmId = null;
+        let searchGenerateSheet = null;
+        let searchGenerateInput = null;
+        let imagePreviewOverlay = null;
+        let currentTopicContext = null;
+        let postSettingsSheet = null;
+        let currentActionPostId = null;
+
+        function safeText(value, fallback = '') {
+            const text = String(value == null ? '' : value).trim();
+            return text || fallback;
+        }
+
+        function escapeHtml(value) {
+            return String(value == null ? '' : value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function parseCompactCount(value) {
+            const raw = String(value == null ? '0' : value).trim().replace(/,/g, '');
+            const match = raw.match(/^([\d.]+)\s*([Kk万])?$/);
+            if (!match) return Number(raw) || 0;
+            const number = Number(match[1]) || 0;
+            if (match[2] === '万') return Math.round(number * 10000);
+            if (match[2] && match[2].toLowerCase() === 'k') return Math.round(number * 1000);
+            return Math.round(number);
+        }
+
+        function formatCompactCount(value) {
+            const count = Math.max(0, Number(value) || 0);
+            if (count >= 10000) return `${(count / 10000).toFixed(count >= 100000 ? 0 : 1).replace(/\.0$/, '')}万`;
+            if (count >= 1000) return `${(count / 1000).toFixed(count >= 10000 ? 0 : 1).replace(/\.0$/, '')}K`;
+            return String(count);
+        }
+
+        function makeLocalId(prefix) {
+            return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+        }
+
+        function buildAvatarHtml(value, fallback = '?') {
+            const avatar = safeText(value);
+            if (avatar && (/^(data:|https?:|blob:)/i).test(avatar)) {
+                return `<img src="${escapeHtml(avatar)}" alt="">`;
+            }
+            return escapeHtml((avatar || fallback || '?').slice(0, 2));
+        }
+
+        function getCurrentCommentAuthor() {
+            const name = safeText(currentProfile.name, 'Me');
+            return {
+                avatar: currentProfile.avatar || name.slice(0, 1).toUpperCase(),
+                name,
+                handle: `${currentProfile.handle || '@me'} · now`
+            };
+        }
+
+        function normalizeApiEndpoint(config = {}) {
+            let endpoint = safeText(config.endpoint);
+            if (!endpoint) return '';
+            if (endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if (!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? `${endpoint}/chat/completions` : `${endpoint}/v1/chat/completions`;
+            }
+            return endpoint;
+        }
+
+        async function requestXChatCompletion(messages, options = {}) {
+            const config = typeof window.getApiConfig === 'function' ? window.getApiConfig() : (window.apiConfig || {});
+            const endpoint = normalizeApiEndpoint(config);
+            if (!endpoint || !config.apiKey) throw new Error('API config missing');
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${config.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: config.model || 'gpt-3.5-turbo',
+                    messages,
+                    temperature: parseFloat(config.temperature) || options.temperature || 0.8
+                })
+            });
+            if (!response.ok) throw new Error(`API ${response.status}`);
+            const data = await response.json();
+            return data?.choices?.[0]?.message?.content || data?.choices?.[0]?.text || '';
+        }
+
+        function parseJsonPayload(text) {
+            const raw = safeText(text);
+            if (!raw) throw new Error('Empty API response');
+            try {
+                return JSON.parse(raw);
+            } catch (error) {
+                const match = raw.match(/```(?:json)?\s*([\s\S]*?)```/) || raw.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+                if (match) return JSON.parse(match[1]);
+                throw error;
+            }
+        }
+
+        function getSelectedWorldBookContext(extraText = '') {
+            const state = getXState();
+            const selected = new Set((state.boundWorldBookIds || []).map(String));
+            const parts = [];
+            if (typeof window.getWorldBooks === 'function') {
+                window.getWorldBooks().forEach((book) => {
+                    const isSelected = selected.has(String(book.id));
+                    if (!isSelected && !book.isGlobal) return;
+                    const lines = (Array.isArray(book.entries) ? book.entries : [])
+                        .filter((entry) => entry && entry.enabled !== false)
+                        .map((entry) => `- ${entry.keyword || entry.title || book.name}: ${entry.content || ''}`)
+                        .filter((line) => line.trim() !== '- :');
+                    if (lines.length) parts.push(`[WorldBook: ${book.name || book.id}]\n${lines.join('\n')}`);
+                });
+            }
+            if (typeof window.getBuiltinWorldBookEntries === 'function') {
+                const builtinLines = window.getBuiltinWorldBookEntries()
+                    .filter((entry) => entry && entry.enabled !== false)
+                    .filter((entry) => !entry.keyword || !window.worldBookKeywordMatched || window.worldBookKeywordMatched(entry, extraText))
+                    .slice(0, 12)
+                    .map((entry) => `- ${entry.keyword || entry.title || 'builtin'}: ${entry.content || ''}`);
+                if (builtinLines.length) parts.push(`[Built-in WorldBook]\n${builtinLines.join('\n')}`);
+            }
+            return parts.join('\n\n');
+        }
+
+        function normalizeGeneratedComment(comment, fallbackIndex = 0) {
+            const text = safeText(comment.text || comment.content);
+            if (!text) return null;
+            const name = safeText(comment.authorName || comment.name || comment.handle);
+            if (!name) return null;
+            return {
+                id: String(comment.id || makeLocalId('comment')),
+                avatar: comment.authorAvatar || comment.avatar || name.slice(0, 1).toUpperCase(),
+                name,
+                handle: makeHandle(name, comment.handle || name),
+                text,
+                replies: (Array.isArray(comment.replies) ? comment.replies : []).map((reply, index) => {
+                    const replyText = safeText(reply.text || reply.content);
+                    if (!replyText) return null;
+                    const replyName = safeText(reply.authorName || reply.name || reply.handle);
+                    if (!replyName) return null;
+                    return {
+                        id: String(reply.id || makeLocalId('reply')),
+                        avatar: reply.authorAvatar || reply.avatar || replyName.slice(0, 1).toUpperCase(),
+                        name: replyName,
+                        handle: makeHandle(replyName, reply.handle || replyName),
+                        text: replyText,
+                        replies: []
+                    };
+                }).filter(Boolean)
+            };
+        }
+
+        function normalizeGeneratedPost(raw, index = 0) {
+            const authorName = safeText(raw.authorName || raw.name || raw.handle || raw.authorHandle);
+            if (!authorName) return null;
+            const id = String(raw.id || makeLocalId('xgen'));
+            const text = safeText(raw.text || raw.desc || raw.content);
+            if (!text && !raw.isMoment) return null;
+            const imageText = safeText(raw.imageText || raw.imagePrompt || raw.image || raw.picture || raw.mediaDescription);
+            const rawImages = Array.isArray(raw.images) ? raw.images : [];
+            const images = rawImages.length > 0
+                ? rawImages.map((image, imageIndex) => ({
+                    id: String(image.id || `${id}-image-${imageIndex}`),
+                    text: safeText(image.text || image.prompt || image.description || image.alt || imageText),
+                    url: safeText(image.url || image.src || image.imageUrl)
+                }))
+                : (imageText || raw.mediaType === 'image'
+                    ? [{ id: `${id}-image-0`, text: imageText, url: '' }]
+                    : []);
+            const rawComments = Array.isArray(raw.comments)
+                ? raw.comments
+                : (Array.isArray(raw.commentList) ? raw.commentList : []);
+            const comments = rawComments
+                .map((comment, commentIndex) => normalizeGeneratedComment(comment, commentIndex))
+                .filter(Boolean);
+            return {
+                id,
+                avatar: raw.authorAvatar || raw.avatar || authorName.slice(0, 1).toUpperCase(),
+                name: authorName,
+                handle: makeHandle(authorName, raw.handle || raw.authorHandle || authorName),
+                text,
+                reposts: formatCompactCount(raw.reposts ?? raw.shares ?? 0),
+                likes: formatCompactCount(raw.likes ?? 0),
+                comments: formatCompactCount(Math.max(Number(raw.commentsCount) || 0, comments.length)),
+                commentList: comments,
+                images,
+                generated: true,
+                topicTag: raw.topicTag || '',
+                isMoment: !!raw.isMoment,
+                actionText: safeText(raw.actionText),
+                refPost: raw.refPost ? normalizeGeneratedPost(raw.refPost, 0) : null,
+                isFeatured: !!raw.isFeatured,
+                createdAt: raw.createdAt || Date.now()
+            };
+        }
+
+        function getPostImages(post) {
+            return Array.isArray(post?.images) ? post.images : [];
+        }
+
+        function renderPostImages(images = []) {
+            if (!images.length) return '';
+            return `
+                <div class="x-generated-media-grid">
+                    ${images.slice(0, 4).map((image) => `
+                        <button class="x-post-image-thumb" type="button" data-image-text="${escapeHtml(image.text || 'Image')}" data-image-url="${escapeHtml(image.url || '')}">
+                            <img src="${escapeHtml(image.url || generatedImagePlaceholderUrl)}" alt="">
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function makeHandle(name, handle) {
+            const raw = safeText(handle);
+            if (raw) return raw.startsWith('@') ? raw : `@${raw}`;
+            const base = safeText(name, 'user')
+                .toLowerCase()
+                .replace(/[^a-z0-9_\u4e00-\u9fa5]+/gi, '');
+            return `@${base || 'user'}`;
+        }
+
+        function normalizeXState(rawState) {
+            const safe = rawState && typeof rawState === 'object' ? rawState : {};
+            const xData = safe.xData && typeof safe.xData === 'object' ? safe.xData : {};
+            return {
+                ...defaultXState,
+                ...safe,
+                xData: {
+                    ...defaultXState.xData,
+                    ...xData
+                },
+                xTopics: Array.isArray(safe.xTopics) ? safe.xTopics : [],
+                boundWorldBookIds: Array.isArray(safe.boundWorldBookIds)
+                    ? safe.boundWorldBookIds.map(String)
+                    : [],
+                xVisitors: Array.isArray(safe.xVisitors) ? safe.xVisitors : [],
+                xDirectMessages: Array.isArray(safe.xDirectMessages) ? safe.xDirectMessages : [],
+                xPostThreads: safe.xPostThreads && typeof safe.xPostThreads === 'object' && !Array.isArray(safe.xPostThreads)
+                    ? safe.xPostThreads
+                    : {},
+                xGeneratedPosts: Array.isArray(safe.xGeneratedPosts) ? safe.xGeneratedPosts : [],
+                xCurrentDate: safe.xCurrentDate || defaultDate
+            };
+        }
+
+        function getXState() {
+            const raw = typeof window.getAppState === 'function' ? window.getAppState('x') : window.__xFallbackState;
+            return normalizeXState(raw);
+        }
+
+        function saveXState(nextState) {
+            const normalized = normalizeXState(nextState);
+            if (typeof window.setAppState === 'function') {
+                window.setAppState('x', normalized);
+            } else {
+                window.__xFallbackState = normalized;
+            }
+            return normalized;
+        }
+
+        function updateXState(mutator) {
+            const previous = getXState();
+            const draft = {
+                ...previous,
+                xVisitors: [...(previous.xVisitors || [])],
+                xDirectMessages: [...(previous.xDirectMessages || [])],
+                xPostThreads: { ...(previous.xPostThreads || {}) },
+                xGeneratedPosts: [...(previous.xGeneratedPosts || [])]
+            };
+            mutator(draft);
+            return saveXState(draft);
+        }
+
+        function setupSectionHeader(header, rightButtonLabel) {
+            if (!header || header.dataset.xCentered === 'true') return;
+            const rightButton = header.querySelector('.x-header-button');
+            if (!rightButton) return;
+            rightButton.setAttribute('aria-label', rightButton.getAttribute('aria-label') || rightButtonLabel || 'Action');
+            header.innerHTML = '';
+            const backButton = document.createElement('button');
+            backButton.className = 'x-header-button';
+            backButton.type = 'button';
+            backButton.setAttribute('aria-label', 'Back');
+            backButton.setAttribute('data-x-close', 'true');
+            backButton.innerHTML = '<i class="fas fa-chevron-left"></i>';
+
+            const brand = document.createElement('div');
+            brand.className = 'x-brand-lockup x-section-brand';
+            brand.innerHTML = '<i class="fa-brands fa-x-twitter"></i>';
+
+            header.classList.add('x-centered-header');
+            header.append(backButton, brand, rightButton);
+            header.dataset.xCentered = 'true';
+        }
+
+        function renderGlobalDate() {
+            if (globalDateInput) {
+                globalDateInput.value = getXState().xCurrentDate || defaultDate;
+            }
+        }
+
+        function setGlobalDate(dateStr) {
+            updateXState(draft => {
+                draft.xCurrentDate = dateStr;
+            });
+            renderGlobalDate();
+        }
+
+        function nextDay() {
+            const current = getXState().xCurrentDate || defaultDate;
+            const d = new Date(current);
+            d.setDate(d.getDate() + 1);
+            const nextStr = d.toISOString().split('T')[0];
+            setGlobalDate(nextStr);
+        }
+
+        function ensureXChrome() {
+            const superHeader = document.querySelector('#x-super-tab .x-section-header');
+            setupSectionHeader(superHeader, 'Create topic');
+            const superCreateBtn = superHeader?.querySelector('.x-header-button[aria-label="Create topic"]');
+            if (superCreateBtn) {
+                superCreateBtn.addEventListener('click', openCreateTopicSheet);
+            }
+
+            setupSectionHeader(document.querySelector('#x-discover-tab .x-section-header'), 'Filter');
+            setupSectionHeader(document.querySelector('#x-messages-tab .x-section-header'), 'New message');
+
+            const messageHeaderButton = document.querySelector('#x-messages-tab .x-section-header .x-header-button:last-child');
+            if (messageHeaderButton) messageHeaderButton.id = 'x-add-dm-btn';
+            const homeSearchButton = document.querySelector('#x-home-tab .x-header-actions .x-header-button:not(.x-compose-button)');
+            if (homeSearchButton) homeSearchButton.id = 'x-search-generate-btn';
+            const firstSummaryLabel = document.querySelector('#x-messages-tab .x-message-summary div:first-child span');
+            if (firstSummaryLabel) firstSummaryLabel.textContent = '新粉丝';
+
+            const summaryLabels = document.querySelectorAll('#x-messages-tab .x-message-summary span');
+            const summaryCopy = ['会话', '未读', '@我'];
+            summaryLabels.forEach((label, index) => {
+                label.textContent = summaryCopy[index] || label.textContent;
+            });
+
+            const profileActions = document.querySelector('.x-profile-cover-actions');
+            const settingsBtn = document.getElementById('x-profile-settings-btn');
+            if (profileActions && settingsBtn && !document.getElementById('x-profile-visitors-btn')) {
+                const rightActions = document.createElement('div');
+                rightActions.className = 'x-profile-cover-right-actions';
+                const visitorBtn = document.createElement('button');
+                visitorBtn.className = 'x-header-button';
+                visitorBtn.id = 'x-profile-visitors-btn';
+                visitorBtn.type = 'button';
+                visitorBtn.setAttribute('aria-label', 'Profile visitors');
+                visitorBtn.innerHTML = '<i class="fas fa-user-clock"></i>';
+                settingsBtn.parentNode.insertBefore(rightActions, settingsBtn);
+                rightActions.append(visitorBtn, settingsBtn);
+            }
+
+            setupPostDetailControls();
+            setupVisitorsSheet();
+            setupAddDmSheet();
+            setupDmChatView();
+            setupDmSettingsSheet();
+            setupDmProfileView();
+            setupSearchGenerateSheet();
+            setupImagePreviewOverlay();
+            setupPostSettingsSheet();
+            dmList = document.getElementById('x-dm-list') || document.querySelector('#x-messages-tab .x-message-list');
+            if (dmList) dmList.id = 'x-dm-list';
+            clearDefaultHomeFeedContent();
+            renderHomeEmptyStates();
+            renderGlobalDate();
+        }
+
+        function setupPostDetailControls() {
+            const composer = document.querySelector('.x-comment-composer');
+            document.getElementById('x-detail-actions')?.remove();
+            if (composer && !document.getElementById('x-reply-input')) {
+                const context = document.createElement('div');
+                context.className = 'x-reply-context';
+                context.id = 'x-reply-context';
+                context.hidden = true;
+                context.innerHTML = `
+                    <span id="x-reply-context-text">Replying to post</span>
+                    <button id="x-reply-cancel-btn" type="button" aria-label="Cancel reply target"><i class="fas fa-times"></i></button>
+                `;
+                composer.insertAdjacentElement('beforebegin', context);
+                composer.innerHTML = `
+                    <div class="x-avatar x-avatar-dark">X</div>
+                    <input id="x-reply-input" type="text" maxlength="180" placeholder="Post your reply">
+                    <button id="x-reply-submit-btn" type="button">Reply</button>
+                `;
+            }
+            const context = document.getElementById('x-reply-context');
+            if (postDetailView && context && context.parentElement !== postDetailView) {
+                postDetailView.appendChild(context);
+            }
+            if (postDetailView && composer && composer.parentElement !== postDetailView) {
+                postDetailView.appendChild(composer);
+            }
+        }
+
+        function setupVisitorsSheet() {
+            visitorsSheet = document.getElementById('x-visitors-sheet');
+            if (!visitorsSheet) {
+                visitorsSheet = document.createElement('div');
+                visitorsSheet.className = 'bottom-sheet-overlay detail-sheet-overlay x-visitors-overlay';
+                visitorsSheet.id = 'x-visitors-sheet';
+                visitorsSheet.style.zIndex = '268';
+                visitorsSheet.innerHTML = `
+                    <div class="bottom-sheet x-visitors-sheet">
+                        <div class="sheet-handle"></div>
+                        <div class="x-edit-sheet-header">
+                            <button class="x-edit-sheet-text-btn" id="x-visitors-close-btn" type="button">Close</button>
+                            <strong>主页访客</strong>
+                            <span class="x-settings-spacer"></span>
+                        </div>
+                        <div class="x-visitors-list" id="x-visitors-list"></div>
+                    </div>
+                `;
+                view.appendChild(visitorsSheet);
+            }
+            visitorsList = document.getElementById('x-visitors-list');
+        }
+
+        function setupAddDmSheet() {
+            addDmSheet = document.getElementById('x-add-dm-sheet');
+            if (!addDmSheet) {
+                addDmSheet = document.createElement('div');
+                addDmSheet.className = 'bottom-sheet-overlay detail-sheet-overlay x-add-dm-overlay';
+                addDmSheet.id = 'x-add-dm-sheet';
+                addDmSheet.style.zIndex = '272';
+                addDmSheet.innerHTML = `
+                    <div class="bottom-sheet x-add-dm-sheet">
+                        <div class="sheet-handle"></div>
+                        <div class="x-edit-sheet-header">
+                            <button class="x-edit-sheet-text-btn" id="x-add-dm-close-btn" type="button">关闭</button>
+                            <strong>添加私信</strong>
+                            <span class="x-settings-spacer"></span>
+                        </div>
+                        <div class="x-add-dm-body">
+                            <section class="x-add-dm-section">
+                                <div class="x-add-dm-section-title">从 iMessage 导入 Char</div>
+                                <div class="x-imessage-char-list" id="x-imessage-char-list">
+                                    <div class="x-empty-state">加载 iMessage Char...</div>
+                                </div>
+                            </section>
+                            <section class="x-add-dm-section">
+                                <div class="x-add-dm-section-title">手动添加 Char</div>
+                                <label class="x-add-dm-field">
+                                    <span>名称</span>
+                                    <input id="x-manual-char-name" type="text" maxlength="32" placeholder="Char name">
+                                </label>
+                                <label class="x-add-dm-field">
+                                    <span>@账号</span>
+                                    <input id="x-manual-char-handle" type="text" maxlength="32" placeholder="@char">
+                                </label>
+                                <label class="x-add-dm-field">
+                                    <span>简介</span>
+                                    <textarea id="x-manual-char-bio" maxlength="120" placeholder="输入角色简介或签名"></textarea>
+                                </label>
+                                <label class="x-add-dm-field">
+                                    <span>人设</span>
+                                    <textarea id="x-manual-char-persona" maxlength="600" placeholder="输入角色说话方式、性格、关系和背景设定"></textarea>
+                                </label>
+                                <button class="x-add-dm-submit" id="x-manual-char-add-btn" type="button">保存并添加</button>
+                            </section>
+                        </div>
+                    </div>
+                `;
+                view.appendChild(addDmSheet);
+            }
+            imessageCharList = document.getElementById('x-imessage-char-list');
+            manualCharNameInput = document.getElementById('x-manual-char-name');
+            manualCharHandleInput = document.getElementById('x-manual-char-handle');
+            manualCharBioInput = document.getElementById('x-manual-char-bio');
+            manualCharPersonaInput = document.getElementById('x-manual-char-persona');
+        }
+
+        function setupDmChatView() {
+            dmChatView = document.getElementById('x-dm-chat-view');
+            if (!dmChatView) {
+                dmChatView = document.createElement('div');
+                dmChatView.className = 'x-dm-chat-view';
+                dmChatView.id = 'x-dm-chat-view';
+                dmChatView.setAttribute('aria-hidden', 'true');
+                dmChatView.innerHTML = `
+                    <header class="x-dm-chat-header">
+                        <button class="x-dm-chat-back" id="x-dm-chat-back" type="button" aria-label="返回">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="x-dm-chat-title">
+                            <div class="x-avatar" id="x-dm-chat-avatar">X</div>
+                            <div class="x-dm-chat-name">
+                                <strong id="x-dm-chat-name">Char</strong>
+                                <span id="x-dm-chat-handle">@char</span>
+                            </div>
+                        </div>
+                        <button class="x-dm-chat-menu" id="x-dm-chat-menu-btn" type="button" aria-label="菜单">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </button>
+                    </header>
+                    <main class="x-dm-chat-messages" id="x-dm-chat-messages"></main>
+                    <form class="x-dm-chat-composer" id="x-dm-chat-composer" autocomplete="off">
+                        <div class="x-dm-chat-input-wrapper">
+                            <input id="x-dm-chat-input" type="text" maxlength="280" placeholder="发送消息...">
+                            <button class="x-dm-chat-api" id="x-dm-chat-api-btn" type="button" aria-label="接收/生成回复"><i class="fas fa-arrow-down"></i></button>
+                        </div>
+                        <button class="x-dm-chat-send" id="x-dm-chat-send-btn" type="submit" aria-label="发送"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                `;
+                view.appendChild(dmChatView);
+            }
+            dmChatMessagesEl = document.getElementById('x-dm-chat-messages');
+            dmChatInput = document.getElementById('x-dm-chat-input');
+        }
+
+        function setupDmSettingsSheet() {
+            dmSettingsSheet = document.getElementById('x-dm-settings-sheet');
+            if (!dmSettingsSheet) {
+                dmSettingsSheet = document.createElement('div');
+                dmSettingsSheet.className = 'bottom-sheet-overlay detail-sheet-overlay x-dm-settings-overlay';
+                dmSettingsSheet.id = 'x-dm-settings-sheet';
+                dmSettingsSheet.style.zIndex = '274';
+                dmSettingsSheet.innerHTML = `
+                    <div class="bottom-sheet x-dm-settings-sheet">
+                        <div class="sheet-handle"></div>
+                        <div class="x-edit-sheet-header">
+                            <button class="x-edit-sheet-text-btn" id="x-dm-settings-close-btn" type="button">关闭</button>
+                            <strong>私信设置</strong>
+                            <span class="x-settings-spacer"></span>
+                        </div>
+                        <div class="x-dm-settings-body">
+                            <button class="x-dm-settings-action" id="x-dm-clear-chat-btn" type="button">
+                                <i class="fas fa-eraser"></i>
+                                <span>清空聊天记录</span>
+                            </button>
+                            <button class="x-dm-settings-action danger" id="x-dm-delete-chat-btn" type="button">
+                                <i class="far fa-trash-alt"></i>
+                                <span>删除会话</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                view.appendChild(dmSettingsSheet);
+            }
+        }
+
+        function setupDmProfileView() {
+            dmProfileView = document.getElementById('x-dm-profile-view');
+            if (!dmProfileView) {
+                dmProfileView = document.createElement('div');
+                dmProfileView.className = 'x-dm-profile-view';
+                dmProfileView.id = 'x-dm-profile-view';
+                dmProfileView.setAttribute('aria-hidden', 'true');
+                dmProfileView.innerHTML = `
+                    <main class="x-dm-profile-body" id="x-dm-profile-body"></main>
+                `;
+                view.appendChild(dmProfileView);
+            }
+        }
+
+        function setupSearchGenerateSheet() {
+            searchGenerateSheet = document.getElementById('x-search-generate-sheet');
+            if (!searchGenerateSheet) {
+                searchGenerateSheet = document.createElement('div');
+                searchGenerateSheet.className = 'bottom-sheet-overlay detail-sheet-overlay x-search-generate-overlay';
+                searchGenerateSheet.id = 'x-search-generate-sheet';
+                searchGenerateSheet.style.zIndex = '273';
+                searchGenerateSheet.innerHTML = `
+                    <div class="bottom-sheet x-search-generate-sheet">
+                        <div class="sheet-handle"></div>
+                        <div class="x-edit-sheet-header">
+                            <button class="x-edit-sheet-text-btn" id="x-search-generate-close-btn" type="button">Close</button>
+                            <strong>搜索/生成帖子</strong>
+                            <button class="x-edit-sheet-save" id="x-search-generate-run-btn" type="button">Generate</button>
+                        </div>
+                        <div class="x-search-generate-body">
+                            <label class="x-add-dm-field">
+                                <span>生成方向</span>
+                                <textarea id="x-search-generate-input" maxlength="500" placeholder="可留空，或输入想生成的帖子主题"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                `;
+                view.appendChild(searchGenerateSheet);
+            }
+            searchGenerateInput = document.getElementById('x-search-generate-input');
+            searchGenerateSheet?.querySelectorAll('.x-settings-note').forEach((node) => node.remove());
+        }
+
+        function setupPostSettingsSheet() {
+            postSettingsSheet = document.getElementById('x-post-settings-sheet');
+            if (!postSettingsSheet) {
+                postSettingsSheet = document.createElement('div');
+                postSettingsSheet.className = 'bottom-sheet-overlay detail-sheet-overlay x-dm-settings-overlay';
+                postSettingsSheet.id = 'x-post-settings-sheet';
+                postSettingsSheet.style.zIndex = '275';
+                postSettingsSheet.innerHTML = `
+                    <div class="bottom-sheet x-dm-settings-sheet">
+                        <div class="sheet-handle"></div>
+                        <div class="x-edit-sheet-header">
+                            <button class="x-edit-sheet-text-btn" id="x-post-settings-close-btn" type="button">关闭</button>
+                            <strong>帖子设置</strong>
+                            <span class="x-settings-spacer"></span>
+                        </div>
+                        <div class="x-dm-settings-body">
+                            <button class="x-dm-settings-action danger" id="x-post-delete-btn" type="button">
+                                <i class="far fa-trash-alt"></i>
+                                <span>删除帖子</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                view.appendChild(postSettingsSheet);
+            }
+        }
+
+        function setupImagePreviewOverlay() {
+            imagePreviewOverlay = document.getElementById('x-image-preview-overlay');
+            if (!imagePreviewOverlay) {
+                imagePreviewOverlay = document.createElement('div');
+                imagePreviewOverlay.className = 'x-image-preview-overlay';
+                imagePreviewOverlay.id = 'x-image-preview-overlay';
+                imagePreviewOverlay.setAttribute('aria-hidden', 'true');
+                imagePreviewOverlay.innerHTML = `
+                    <button class="x-image-preview-close" id="x-image-preview-close" type="button" aria-label="Close image"><i class="fas fa-times"></i></button>
+                    <div class="x-image-preview-card" id="x-image-preview-card">
+                        <img id="x-image-preview-img" alt="">
+                        <div id="x-image-preview-text"></div>
+                    </div>
+                `;
+                view.appendChild(imagePreviewOverlay);
+            }
+        }
+
+        function getCurrentAccountProfile() {
+            const accounts = typeof window.getAccounts === 'function' ? window.getAccounts() : [];
+            const currentAccountId = typeof window.getCurrentAccountId === 'function' ? window.getCurrentAccountId() : null;
+            const currentAccount = Array.isArray(accounts)
+                ? accounts.find((account) => String(account.id) === String(currentAccountId))
+                : null;
+            const runtimeUser = window.userState || {};
+            const source = currentAccount || runtimeUser || {};
+            const name = source.name || source.realName || runtimeUser.name || runtimeUser.realName || defaultProfile.name;
+            const bio = source.signature || source.bio || source.persona || runtimeUser.signature || runtimeUser.persona || defaultProfile.bio;
+
+            return {
+                name,
+                handle: makeHandle(name, source.handle || runtimeUser.handle),
+                bio,
+                persona: source.persona || runtimeUser.persona || '',
+                avatar: source.avatarUrl || source.avatar || runtimeUser.avatarUrl || runtimeUser.avatar || '',
+                banner: source.banner || source.bannerUrl || ''
+            };
+        }
+
+        function hasEditedXProfile(xData = {}) {
+            return Boolean(
+                xData.edited ||
+                xData.avatar ||
+                xData.banner ||
+                xData.bio ||
+                xData.persona ||
+                (xData.name && xData.name !== 'User') ||
+                (xData.handle && xData.handle !== '@user')
+            );
+        }
+
+        function resolveProfile() {
+            const xState = getXState();
+            const fallback = getCurrentAccountProfile();
+            const source = hasEditedXProfile(xState.xData) ? xState.xData : fallback;
+            const name = safeText(source.name, fallback.name || defaultProfile.name);
+
+            return {
+                name,
+                handle: makeHandle(name, source.handle || fallback.handle),
+                bio: safeText(source.bio || source.signature, fallback.bio || defaultProfile.bio),
+                persona: safeText(source.persona, fallback.persona || ''),
+                avatar: safeText(source.avatar || source.avatarUrl, fallback.avatar || ''),
+                banner: safeText(source.banner || source.bannerUrl, fallback.banner || '')
+            };
+        }
+
+        function setAvatarNode(node, profile) {
+            if (!node) return;
+            const name = safeText(profile.name, 'User');
+            const initial = name.slice(0, 1).toUpperCase();
+            if (profile.avatar) {
+                node.innerHTML = `<img src="${escapeHtml(profile.avatar)}" alt="">`;
+            } else {
+                node.textContent = initial;
+            }
+        }
+
+        function renderProfile() {
+            currentProfile = resolveProfile();
+            const nameEl = document.getElementById('x-profile-name');
+            const handleEl = document.getElementById('x-profile-handle');
+            const bioEl = document.getElementById('x-profile-bio');
+            const coverEl = document.getElementById('x-profile-cover');
+            const postNameEl = document.getElementById('x-profile-post-name');
+            const postHandleEl = document.getElementById('x-profile-post-handle');
+
+            if (nameEl) nameEl.textContent = currentProfile.name;
+            if (handleEl) handleEl.textContent = currentProfile.handle;
+            if (bioEl) bioEl.textContent = currentProfile.bio;
+            if (postNameEl) postNameEl.textContent = currentProfile.name;
+            if (postHandleEl) postHandleEl.textContent = `${currentProfile.handle} · pinned`;
+            if (coverEl) {
+                coverEl.style.backgroundImage = currentProfile.banner
+                    ? `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.34)), url("${currentProfile.banner}")`
+                    : '';
+            }
+
+            setAvatarNode(document.getElementById('x-profile-avatar'), currentProfile);
+            setAvatarNode(document.getElementById('x-profile-post-avatar'), currentProfile);
+
+            postData.profile.avatar = currentProfile.avatar || currentProfile.name.slice(0, 1).toUpperCase();
+            postData.profile.name = currentProfile.name;
+            postData.profile.handle = `${currentProfile.handle} · pinned`;
+        }
+
+        function renderImagePreview(button, src, fallbackText) {
+            if (!button) return;
+            if (src) {
+                button.innerHTML = `<img src="${escapeHtml(src)}" alt="">`;
+            } else {
+                button.innerHTML = `<span>${escapeHtml(fallbackText)}</span>`;
+            }
+        }
+
+        function openEditProfile() {
+            currentProfile = resolveProfile();
+            avatarDraft = currentProfile.avatar || '';
+            bannerDraft = currentProfile.banner || '';
+            if (editNameInput) editNameInput.value = currentProfile.name;
+            if (editHandleInput) editHandleInput.value = currentProfile.handle;
+            if (editBioInput) editBioInput.value = currentProfile.bio;
+            if (editPersonaInput) editPersonaInput.value = currentProfile.persona;
+            renderImagePreview(editAvatarPreview, avatarDraft, currentProfile.name.slice(0, 1).toUpperCase());
+            renderImagePreview(editBannerPreview, bannerDraft, 'Cover');
+            if (typeof window.openView === 'function') window.openView(editSheet);
+            else editSheet?.classList.add('active');
+        }
+
+        function closeEditProfile() {
+            if (typeof window.closeView === 'function') window.closeView(editSheet);
+            else editSheet?.classList.remove('active');
+        }
+
+        function saveProfile() {
+            const name = safeText(editNameInput?.value, defaultProfile.name);
+            const nextProfile = {
+                name,
+                handle: makeHandle(name, editHandleInput?.value || currentProfile.handle),
+                bio: safeText(editBioInput?.value, defaultProfile.bio),
+                persona: safeText(editPersonaInput?.value),
+                avatar: avatarDraft,
+                banner: bannerDraft,
+                edited: true,
+                updatedAt: new Date().toISOString()
+            };
+            const previous = getXState();
+            saveXState({
+                ...previous,
+                xData: {
+                    ...previous.xData,
+                    ...nextProfile
+                }
+            });
+
+            currentProfile = nextProfile;
+            renderProfile();
+            closeEditProfile();
+        }
+
+        function renderWorldBookSummary() {
+            const countEl = document.getElementById('x-worldbook-count');
+            const selected = getXState().boundWorldBookIds || [];
+            if (countEl) countEl.textContent = `${selected.length} selected`;
+        }
+
+        function openXSettings() {
+            renderWorldBookSummary();
+            if (typeof window.openView === 'function') window.openView(settingsSheet);
+            else settingsSheet?.classList.add('active');
+        }
+
+        function closeXSettings() {
+            if (typeof window.closeView === 'function') window.closeView(settingsSheet);
+            else settingsSheet?.classList.remove('active');
+        }
+
+        function openWorldBookSelector() {
+            const currentState = getXState();
+            const selectedIds = currentState.boundWorldBookIds || [];
+            if (typeof window.renderWorldBookSelector !== 'function') {
+                if (typeof window.showToast === 'function') window.showToast('世界书选择器不可用');
+                return;
+            }
+            window.renderWorldBookSelector(selectedIds, (nextIds) => {
+                saveXState({
+                    ...getXState(),
+                    boundWorldBookIds: Array.isArray(nextIds) ? nextIds.map(String) : []
+                });
+                renderWorldBookSummary();
+            });
+        }
+
+        function openComposer() {
+            if (composeTextInput) composeTextInput.value = '';
+            if (typeof window.openView === 'function') window.openView(composeSheet);
+            else composeSheet?.classList.add('active');
+        }
+
+        function closeComposer() {
+            if (typeof window.closeView === 'function') window.closeView(composeSheet);
+            else composeSheet?.classList.remove('active');
+        }
+
+        function submitComposer() {
+            const text = safeText(composeTextInput?.value, '新帖子草稿');
+            tempPostCounter += 1;
+            const id = `temp-${Date.now()}-${tempPostCounter}`;
+            postData[id] = {
+                avatar: currentProfile.avatar || currentProfile.name.slice(0, 1).toUpperCase(),
+                name: currentProfile.name,
+                handle: `${currentProfile.handle} · now`,
+                text,
+                reposts: '0',
+                likes: '0',
+                comments: '0',
+                commentList: [
+                    { avatar: 'X', name: 'X App', handle: '@xapp · now', text: '这是本地临时发布的帖子。' }
+                ]
+            };
+            const recommendPanel = view.querySelector('.x-feed-panel[data-feed-panel="recommend"]');
+            if (recommendPanel) {
+                clearHomeEmptyState(recommendPanel);
+                const card = document.createElement('article');
+                card.className = 'x-feed-card';
+                card.setAttribute('data-post-id', id);
+                card.setAttribute('tabindex', '0');
+                card.innerHTML = `
+                    <div class="x-feed-avatar x-avatar">${currentProfile.avatar ? `<img src="${escapeHtml(currentProfile.avatar)}" alt="">` : escapeHtml(currentProfile.name.slice(0, 1).toUpperCase())}</div>
+                    <div class="x-feed-body">
+                        <div class="x-feed-meta">
+                            <strong>${escapeHtml(currentProfile.name)}</strong>
+                            <span>${escapeHtml(currentProfile.handle)} · now</span>
+                        </div>
+                        <p>${escapeHtml(text)}</p>
+                        <div class="x-feed-actions">
+                            <span><i class="far fa-comment"></i> 0</span>
+                            <span><i class="fas fa-retweet"></i> 0</span>
+                            <span><i class="far fa-heart"></i> 0</span>
+                            <span><i class="far fa-share-square"></i></span>
+                        </div>
+                    </div>
+                `;
+                bindPostCard(card);
+                recommendPanel.prepend(card);
+            }
+            closeComposer();
+        }
+
+        function ensureCommentDepth(post) {
+            const comments = Array.isArray(post.commentList) ? post.commentList : [];
+            post.commentList = comments;
+            post.comments = formatCompactCount(Math.max(parseCompactCount(post.comments), comments.length));
+            return post;
+        }
+
+        function registerGeneratedPosts(posts = []) {
+            posts.forEach((post) => {
+                postData[post.id] = ensureCommentDepth(post);
+                if (post.refPost) {
+                    postData[post.refPost.id] = ensureCommentDepth(post.refPost);
+                }
+            });
+        }
+
+        function clearDefaultHomeFeedContent() {
+            ['island', 'super', 'following'].forEach((postId) => {
+                view.querySelectorAll(`.x-feed-card[data-post-id="${postId}"]`).forEach((card) => card.remove());
+            });
+        }
+
+        function clearHomeEmptyState(panel) {
+            panel?.querySelectorAll('.x-home-empty-state').forEach((node) => node.remove());
+        }
+
+        function renderHomeEmptyStates() {
+            view.querySelectorAll('#x-home-tab .x-feed-panel').forEach((panel) => {
+                clearHomeEmptyState(panel);
+                if (!panel.querySelector('.x-feed-card')) {
+                    panel.innerHTML = '<div class="x-empty-state x-home-empty-state">暂无内容，点击搜索生成帖子。</div>';
+                }
+            });
+        }
+
+        function buildFeedCardHtml(post) {
+            let textHtml = escapeHtml(post.text);
+            if (post.topicTag) {
+                 textHtml = textHtml.replace(new RegExp(`(${escapeHtml(post.topicTag)})`, 'g'), '<span style="color: #1d9bf0;">$1</span>');
+            }
+            return `
+                <div class="x-feed-avatar x-avatar">${buildAvatarHtml(post.avatar, post.name)}</div>
+                <div class="x-feed-body">
+                    <div class="x-feed-meta">
+                        <strong>${escapeHtml(post.name)}</strong>
+                        <span>${escapeHtml(post.handle)} · now</span>
+                    </div>
+                    <p>${textHtml}</p>
+                    ${renderPostImages(getPostImages(post))}
+                    <div class="x-feed-actions">
+                        <span><i class="far fa-comment"></i> ${escapeHtml(post.comments || '0')}</span>
+                        <span><i class="fas fa-retweet"></i> ${escapeHtml(post.reposts || '0')}</span>
+                        <span><i class="far fa-heart"></i> ${escapeHtml(post.likes || '0')}</span>
+                        <span><i class="far fa-share-square"></i></span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderGeneratedPosts() {
+            const recommendPanel = view.querySelector('.x-feed-panel[data-feed-panel="recommend"]');
+            if (!recommendPanel) return;
+            clearDefaultHomeFeedContent();
+            clearHomeEmptyState(recommendPanel);
+            recommendPanel.querySelectorAll('.x-generated-feed-card').forEach((card) => card.remove());
+            const posts = (getXState().xGeneratedPosts || [])
+                .map((post, index) => normalizeGeneratedPost(post, index))
+                .filter(Boolean)
+                .map((post) => ensureCommentDepth(post));
+            registerGeneratedPosts(posts);
+            posts.slice().reverse().forEach((post) => {
+                if (post.isMoment) return;
+                clearHomeEmptyState(recommendPanel);
+                const card = document.createElement('article');
+                card.className = 'x-feed-card x-generated-feed-card';
+                card.setAttribute('data-post-id', post.id);
+                card.setAttribute('tabindex', '0');
+                card.innerHTML = buildFeedCardHtml(post);
+                bindPostCard(card);
+                recommendPanel.prepend(card);
+                updatePostCountNodes(post.id, getPostThread(post.id));
+            });
+            renderHomeEmptyStates();
+        }
+
+        function renderTopicFeed(topic) {
+            if (!topicFeedPanel) return;
+            topicFeedPanel.innerHTML = '';
+            const posts = (getXState().xGeneratedPosts || [])
+                .filter(p => p.topicTag === topic)
+                .map((post, index) => normalizeGeneratedPost(post, index))
+                .filter(Boolean)
+                .map((post) => ensureCommentDepth(post));
+            
+            if (posts.length === 0) {
+                topicFeedPanel.innerHTML = '<div class="x-empty-state">暂无帖子，点击右上角生成</div>';
+                return;
+            }
+
+            posts.slice().reverse().forEach((post, index, arr) => {
+                const realIndex = arr.length - 1 - index;
+                const card = document.createElement('article');
+                card.className = 'x-feed-card x-generated-feed-card';
+                if (realIndex >= 10) {
+                    card.style.display = 'none';
+                    card.classList.add('x-hidden-page-2');
+                }
+                card.setAttribute('data-post-id', post.id);
+                card.setAttribute('tabindex', '0');
+                card.innerHTML = buildFeedCardHtml(post);
+                bindPostCard(card);
+                topicFeedPanel.prepend(card);
+                updatePostCountNodes(post.id, getPostThread(post.id));
+            });
+        }
+
+        function openTopicDetail(topicText) {
+            currentTopicContext = topicText;
+            if (topicDetailHeadline) topicDetailHeadline.textContent = topicText;
+            renderTopicFeed(topicText);
+            topicDetailView?.classList.add('active');
+            topicDetailView?.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeTopicDetail() {
+            if (topicDetailView?.contains(document.activeElement)) {
+                document.activeElement.blur();
+            }
+            topicDetailView?.classList.remove('active');
+            topicDetailView?.setAttribute('aria-hidden', 'true');
+            currentTopicContext = null;
+        }
+
+        async function generateTopicPosts() {
+            if (!currentTopicContext || !topicDetailGenerateBtn) return;
+            const topic = currentTopicContext;
+            topicDetailGenerateBtn.classList.add('loading');
+            topicDetailGenerateBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            try {
+                const worldbook = getSelectedWorldBookContext(`${topic} ${currentProfile.persona} ${currentProfile.bio}`);
+                const prompt = `Return strict JSON only. Generate 1 to 3 X/Twitter style posts for the user's feed specifically about the topic: "${topic}".
+Important: Every post text MUST include the exact text "${topic}" within it as a hashtag or text.
+Each post must include: authorName, handle, text, likes, reposts, commentsCount, mediaType ("text" or "image"), optional imagePrompt/images, and comments.
+Each post must have at least 10 comments. Across each post, replies inside comments must total at least 10.
+Images are text placeholders: describe the image content in imagePrompt or images[].text.
+ALL text values, including imagePrompt and any text inside the images array describing the picture, MUST be written in Chinese (简体中文). Do not use English for image descriptions.
+X user: ${JSON.stringify(currentProfile)}
+Current Date: ${getXState().xCurrentDate || defaultDate}
+Worldbook:
+${worldbook || 'None'}`;
+                
+                const raw = await requestXChatCompletion([
+                    { role: 'system', content: 'You are a JSON generator for a fictional X feed. Output only valid JSON.' },
+                    { role: 'user', content: prompt }
+                ], { temperature: 0.9 });
+                
+                const parsed = parseJsonPayload(raw);
+                const posts = Array.isArray(parsed) ? parsed : (Array.isArray(parsed.posts) ? parsed.posts : []);
+                
+                posts.forEach(p => {
+                    if (!p.text.includes(topic)) {
+                        p.text += ` ${topic}`;
+                    }
+                    p.topicTag = topic;
+                });
+
+                const added = appendGeneratedPosts(posts);
+                renderTopicFeed(topic);
+                if (typeof window.showToast === 'function') window.showToast(added.length ? `已生成 ${added.length} 条帖子` : '没有生成可用帖子');
+            } catch (error) {
+                console.error('[X] Generate topic posts failed', error);
+                if (typeof window.showToast === 'function') window.showToast('生成失败，请检查 API 配置或返回格式');
+            } finally {
+                topicDetailGenerateBtn.classList.remove('loading');
+                topicDetailGenerateBtn.innerHTML = '<i class="fas fa-magic"></i>';
+            }
+        }
+
+        function appendGeneratedPosts(rawPosts) {
+            const normalized = (Array.isArray(rawPosts) ? rawPosts : [])
+                .slice(0, 50)
+                .map((post, index) => normalizeGeneratedPost(post, index))
+                .filter(Boolean)
+                .map((post) => ensureCommentDepth(post));
+            if (normalized.length === 0) return [];
+            updateXState((draft) => {
+                const existingIds = new Set((draft.xGeneratedPosts || []).map((post) => String(post.id)));
+                normalized.forEach((post) => {
+                    if (!existingIds.has(String(post.id))) draft.xGeneratedPosts.unshift(post);
+                });
+                
+                const topicCounts = {};
+                draft.xGeneratedPosts = draft.xGeneratedPosts.filter(post => {
+                    if (!post.topicTag) return true;
+                    topicCounts[post.topicTag] = (topicCounts[post.topicTag] || 0) + 1;
+                    return topicCounts[post.topicTag] <= 20;
+                });
+            });
+            renderGeneratedPosts();
+            return normalized;
+        }
+
+        function renderSuperFollowBar() {
+            const listEl = document.getElementById('x-super-follow-list');
+            const countEl = document.getElementById('x-super-follow-count');
+            if (!listEl) return;
+            const topics = (getXState().xTopics || []).filter(Boolean);
+            if (countEl) countEl.textContent = `${topics.length} followed`;
+            if (topics.length === 0) {
+                listEl.innerHTML = '<div class="x-super-empty-follow">暂无关注</div>';
+                return;
+            }
+            listEl.innerHTML = topics.map((topic) => {
+                const name = safeText(topic.name || topic.title, '超话');
+                const avatar = safeText(topic.avatar || topic.icon, name.slice(0, 1));
+                const avatarHtml = avatar.startsWith('data:') || avatar.startsWith('http')
+                    ? `<img src="${escapeHtml(avatar)}" alt="">`
+                    : escapeHtml(avatar.slice(0, 1));
+                return `
+                    <div class="x-super-follow-item" data-topic-id="${escapeHtml(topic.id || name)}">
+                        <div class="x-super-follow-avatar">${avatarHtml}</div>
+                        <span>${escapeHtml(name)}</span>
+                    </div>
+                `;
+            }).join('');
+            
+            // 绑定点击事件，切换下方的超话主页卡片
+            listEl.querySelectorAll('.x-super-follow-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const topicId = item.dataset.topicId;
+                    const topic = topics.find(t => String(t.id || t.name) === topicId);
+                    if (topic) {
+                        updateSuperHomeCard(topic);
+                    }
+                });
+            });
+            
+            // 默认渲染第一个
+            if(topics.length > 0) {
+                updateSuperHomeCard(topics[0]);
+            }
+        }
+        
+        let currentActiveTopicId = null;
+
+        async function generateSuperTopicUpdate() {
+            if (!currentActiveTopicId || !superUpdateBtn) return;
+            const topics = getXState().xTopics || [];
+            const topic = topics.find(t => String(t.id || t.name) === String(currentActiveTopicId));
+            if (!topic) return;
+
+            const topicName = topic.name || topic.title || '超话';
+            
+            let charsInfo = '';
+            if (Array.isArray(topic.chars) && topic.chars.length > 0) {
+                charsInfo = topic.chars.map(c => `Character Name: ${c.name}, Persona/Bio: ${c.persona || c.bio || 'None'}`).join('\n');
+            }
+
+            superUpdateBtn.disabled = true;
+            superUpdateBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 更新中...';
+            
+            try {
+                const worldbook = getSelectedWorldBookContext(`${topicName} ${charsInfo}`);
+                
+                const prompt = `Return strict JSON only. You need to generate an update for a celebrity/entertainment "Super Topic" (超话) named "${topicName}" in a Chinese social app similar to Weibo.
+
+Please generate a JSON OBJECT containing the celebrity's online status and an array of 15 to 20 feed items.
+The feed items should be a mix of fan posts, photo posts, featured high-quality posts, and moments.
+
+JSON Format Requirements:
+{
+  "onlineStatus": {
+    "isOnline": boolean, // Is the celebrity online right now?
+    "lastOnline": "String" // e.g. "刚刚", "10分钟前", "2小时前", "昨天". Empty string "" if isOnline is true.
+  },
+  "items": [
+    // 1. "Posts" (帖子): Fan/entertainment text posts.
+    // Format: { "authorName": "", "handle": "", "text": "", "likes": 0, "reposts": 0, "commentsCount": 10, "mediaType": "text", "comments": [ {"authorName": "", "text": ""} ] }
+
+    // 2. "Photos" (图片): Posts containing images. 
+    // Format: { "authorName": "", "handle": "", "text": "", "likes": 0, "reposts": 0, "commentsCount": 10, "mediaType": "image", "imagePrompt": "Description of image", "comments": [ {"authorName": "", "text": ""} ] }
+
+    // 3. "Featured" (精选): High-quality hot posts (can be text or image). MUST add "isFeatured": true.
+    // Format: { "authorName": "", "handle": "", "text": "", "likes": 5000, "reposts": 1000, "commentsCount": 50, "mediaType": "text|image", "isFeatured": true, "comments": [...] }
+
+    // 4. "Moments" (动态): Celebrity activity logs (名人互动动态). MUST add "isMoment": true.
+    // Represents the celebrity interacting with other posts (likes, comments, reposts).
+    // Format MUST include: "actionText" (e.g. "点赞了这条帖子", "评论了这条帖子"), and a nested "refPost" object representing the original post they interacted with.
+    // Format: { "authorName": "Celebrity Name", "handle": "@celeb", "isMoment": true, "actionText": "点赞了这条帖子", "refPost": { "authorName": "Fan Account", "handle": "@fan", "text": "Post content...", "likes": 200, "commentsCount": 10, "mediaType": "text", "comments": [ {"authorName": "", "text": "", "replies": []} ] } }
+  ]
+}
+
+CRITICAL REQUIREMENT: EVERY SINGLE POST (including normal feed items AND the nested "refPost" inside moments) MUST contain an array of "comments" with at least 10 valid comment objects. For nested "replies" inside comments, they also count towards the total of 10. If the moment actionText says the celebrity "评论了这条帖子" (commented on this post), YOU MUST include the celebrity's comment directly inside the refPost's "comments" array!
+
+Ensure the "items" array has at least 3 items with "isFeatured": true, at least 3 items with "mediaType": "image", and at least 3 items with "isMoment": true.
+ALL text values, including imagePrompt and any text inside the images array describing the picture, MUST be written in Chinese (简体中文). Do not use English for image descriptions.
+
+Topic Name: ${topicName}
+Topic Characters Info:
+${charsInfo || 'None'}
+Current Date: ${getXState().xCurrentDate || defaultDate}
+Worldbook context:
+${worldbook || 'None'}
+`;
+                
+                const raw = await requestXChatCompletion([
+                    { role: 'system', content: 'You are a JSON generator for a fictional social feed. Output only valid JSON object with onlineStatus and items array.' },
+                    { role: 'user', content: prompt }
+                ], { temperature: 0.9 });
+                
+                const parsed = parseJsonPayload(raw);
+                let allItems = [];
+                let newOnlineStatus = { isOnline: false, lastOnline: "未知" };
+
+                // Handle Object vs Array Fallback
+                if (Array.isArray(parsed)) {
+                    allItems = parsed;
+                } else if (parsed && typeof parsed === 'object') {
+                    if (parsed.onlineStatus) {
+                        newOnlineStatus = {
+                            isOnline: !!parsed.onlineStatus.isOnline,
+                            lastOnline: parsed.onlineStatus.lastOnline || ""
+                        };
+                    }
+                    if (Array.isArray(parsed.items)) allItems = allItems.concat(parsed.items);
+                    if (Array.isArray(parsed.posts)) allItems = allItems.concat(parsed.posts);
+                    if (Array.isArray(parsed.moments)) {
+                        parsed.moments.forEach(m => m.isMoment = true);
+                        allItems = allItems.concat(parsed.moments);
+                    }
+                }
+                
+                // Update topic online status in state
+                updateXState(draft => {
+                    const t = (draft.xTopics || []).find(x => String(x.id || x.name) === String(currentActiveTopicId));
+                    if (t) {
+                        t.onlineStatus = newOnlineStatus;
+                    }
+                });
+
+                allItems.forEach(p => {
+                    p.topicTag = topicName;
+                });
+
+                // Update the local object for immediate UI rendering
+                topic.onlineStatus = newOnlineStatus;
+                
+                const added = appendGeneratedPosts(allItems);
+                renderSuperTopicFeed(topic);
+                
+                if (typeof window.showToast === 'function') {
+                    window.showToast(`超话已更新，生成 ${added.length} 条内容`);
+                }
+            } catch (error) {
+                console.error('[X] Generate super topic update failed', error);
+                if (typeof window.showToast === 'function') window.showToast('更新失败，请检查 API 配置');
+            } finally {
+                superUpdateBtn.disabled = false;
+                superUpdateBtn.innerHTML = '<i class="fas fa-sync"></i> 更新';
+            }
+        }
+
+        function renderSuperTopicFeed(topic) {
+            if (!topic) return;
+            const topicName = topic.name || topic.title || '';
+            const featuredPanel = view.querySelector('.x-super-feed[data-super-panel="featured"]');
+            const postsPanel = view.querySelector('.x-super-feed[data-super-panel="posts"]');
+            const photosPanel = view.querySelector('.x-super-feed[data-super-panel="photos"]');
+            const momentsPanel = view.querySelector('.x-super-feed[data-super-panel="moments"]');
+            
+            const posts = (getXState().xGeneratedPosts || [])
+                .filter(p => p.topicTag === topicName)
+                .map((post, index) => normalizeGeneratedPost(post, index))
+                .filter(Boolean)
+                .map((post) => ensureCommentDepth(post));
+            
+            if (featuredPanel) featuredPanel.innerHTML = '';
+            if (postsPanel) postsPanel.innerHTML = '';
+            if (photosPanel) photosPanel.innerHTML = '';
+            if (momentsPanel) momentsPanel.innerHTML = '';
+            
+            // Handle Top Online Status for Moments Panel
+            let momentsOnlineHeaderHtml = '';
+            if (topic.onlineStatus) {
+                const status = topic.onlineStatus;
+                if (status.isOnline) {
+                    momentsOnlineHeaderHtml = `
+                        <div class="x-online-status-banner online">
+                            <div class="x-online-indicator online"></div>
+                            <span class="x-online-text online">明星当前在线</span>
+                        </div>
+                    `;
+                } else if (status.lastOnline) {
+                    momentsOnlineHeaderHtml = `
+                        <div class="x-online-status-banner offline">
+                            <div class="x-online-indicator offline"></div>
+                            <span class="x-online-text offline">离线 · 上次在线：${escapeHtml(status.lastOnline)}</span>
+                        </div>
+                    `;
+                }
+            }
+
+            if (posts.length === 0) {
+                if (featuredPanel) featuredPanel.innerHTML = '<div class="x-empty-state">暂无精选，点击更新获取内容</div>';
+                if (postsPanel) postsPanel.innerHTML = '<div class="x-empty-state">暂无帖子</div>';
+                if (photosPanel) photosPanel.innerHTML = '<div class="x-empty-state">暂无图片</div>';
+                if (momentsPanel) {
+                    momentsPanel.innerHTML = momentsOnlineHeaderHtml + '<div class="x-empty-state">暂无动态</div>';
+                }
+                return;
+            }
+
+            if (momentsPanel && momentsOnlineHeaderHtml) {
+                momentsPanel.innerHTML = momentsOnlineHeaderHtml; // Insert header first
+            }
+
+            posts.slice().reverse().forEach((post, index, arr) => {
+                const realIndex = arr.length - 1 - index;
+                const card = document.createElement('article');
+                card.className = 'x-feed-card x-generated-feed-card';
+                if (realIndex >= 10) {
+                    card.style.display = 'none';
+                    card.classList.add('x-hidden-page-2');
+                }
+                card.setAttribute('data-post-id', post.id);
+                card.setAttribute('tabindex', '0');
+                
+                if (post.isMoment) {
+                    card.classList.add('is-moment');
+                    const actionText = safeText(post.actionText, '更新了动态');
+                    const refHtml = post.refPost ? `
+                        <div class="x-ref-post" data-ref-id="${escapeHtml(post.refPost.id)}">
+                            <div class="x-feed-meta">
+                                <strong>${escapeHtml(post.refPost.name)}</strong>
+                                <span>${escapeHtml(post.refPost.handle)}</span>
+                            </div>
+                            <p>${escapeHtml(post.refPost.text)}</p>
+                        </div>
+                    ` : `<p>${escapeHtml(post.text)}</p>`;
+
+                    card.innerHTML = `
+                        <div class="x-feed-body" style="margin-left: 0;">
+                            <div class="x-moment-action">
+                                <div class="x-avatar" style="width:24px;height:24px;font-size:10px;">${buildAvatarHtml(post.avatar, post.name)}</div>
+                                <span>${escapeHtml(post.name)} ${escapeHtml(actionText)}</span>
+                            </div>
+                            ${refHtml}
+                        </div>
+                    `;
+                    if (momentsPanel) {
+                        const existingHeader = momentsPanel.querySelector('.x-online-status-banner');
+                        if (existingHeader) {
+                            existingHeader.insertAdjacentElement('afterend', card.cloneNode(true));
+                        } else {
+                            momentsPanel.prepend(card.cloneNode(true));
+                        }
+                    }
+                } else {
+                    card.innerHTML = buildFeedCardHtml(post);
+                    
+                    if (postsPanel) postsPanel.prepend(card.cloneNode(true));
+                    if (post.isFeatured && featuredPanel) {
+                        featuredPanel.prepend(card.cloneNode(true));
+                    }
+                }
+                
+                // Bind all cloned cards
+                const addedCards = view.querySelectorAll(`.x-feed-card[data-post-id="${post.id}"]`);
+                addedCards.forEach(c => bindPostCard(c));
+                updatePostCountNodes(post.id, getPostThread(post.id));
+            });
+
+            // Handle photos panel as a grid
+            if (photosPanel) {
+                const allImages = posts.flatMap(post => {
+                    if (post.isMoment) return [];
+                    return getPostImages(post).map(img => ({ ...img, postId: post.id }));
+                });
+
+                if (allImages.length === 0) {
+                    photosPanel.innerHTML = '<div class="x-empty-state">暂无图片</div>';
+                } else {
+                    photosPanel.innerHTML = `<div class="x-super-post-grid">
+                        ${allImages.map((img, i) => `
+                            <div class="x-post-image-thumb ${i >= 12 ? 'x-hidden-page-2' : ''}" style="${i >= 12 ? 'display:none;' : ''}" data-image-text="${escapeHtml(img.text || 'Image')}" data-image-url="${escapeHtml(img.url || '')}" data-post-id="${img.postId}">
+                                <img src="${escapeHtml(img.url || generatedImagePlaceholderUrl)}" alt="">
+                            </div>
+                        `).join('')}
+                    </div>`;
+                    
+                    // Bind click for images in photo grid
+                    photosPanel.querySelectorAll('.x-post-image-thumb').forEach(thumb => {
+                        thumb.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            openImagePreview(thumb.dataset.imageText || 'Image', thumb.dataset.imageUrl || '');
+                        });
+                    });
+                }
+            }
+
+            if (featuredPanel && featuredPanel.children.length === 0) featuredPanel.innerHTML = '<div class="x-empty-state">暂无精选内容</div>';
+            if (postsPanel && postsPanel.children.length === 0) postsPanel.innerHTML = '<div class="x-empty-state">暂无帖子</div>';
+            
+            // Check Moments emptiness safely (considering the online header might be the only child)
+            if (momentsPanel) {
+                const hasCards = momentsPanel.querySelector('.x-feed-card');
+                if (!hasCards) {
+                    momentsPanel.insertAdjacentHTML('beforeend', '<div class="x-empty-state">暂无动态</div>');
+                }
+            }
+        }
+
+        function updateSuperHomeCard(topic) {
+            currentActiveTopicId = topic.id || topic.name;
+            const coverEl = document.querySelector('.x-super-cover');
+            const avatarEl = document.querySelector('.x-super-topic-avatar');
+            const titleEl = document.querySelector('.x-super-title-row h3');
+            const statEl = document.querySelector('.x-super-title-row span');
+            const signBtn = document.querySelector('.x-super-title-row button');
+            
+            if (coverEl) {
+                if (topic.banner) {
+                    coverEl.style.backgroundImage = `url(${topic.banner})`;
+                    coverEl.innerHTML = '';
+                } else {
+                    coverEl.style.backgroundImage = '';
+                    coverEl.innerHTML = '<div class="x-super-cover-mark">#</div>';
+                }
+            }
+            
+            if (avatarEl) {
+                const avatar = safeText(topic.avatar || topic.icon, safeText(topic.name || topic.title, '超').slice(0, 1));
+                if (avatar.startsWith('data:') || avatar.startsWith('http')) {
+                    avatarEl.innerHTML = `<img src="${escapeHtml(avatar)}" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">`;
+                } else {
+                    avatarEl.textContent = avatar;
+                }
+            }
+            
+            if (titleEl) {
+                titleEl.textContent = safeText(topic.name || topic.title, '超话');
+            }
+
+            if (statEl) {
+                const signDays = topic.signDays || 0;
+                const fans = safeText(topic.fans, '0');
+                statEl.textContent = `超话 · ${fans} 粉丝 · 连续签到 ${signDays} 天`;
+            }
+
+            if (signBtn) {
+                const currentDate = getXState().xCurrentDate || new Date().toISOString().split('T')[0];
+                if (topic.lastSignDate === currentDate) {
+                    signBtn.textContent = '已签到';
+                    signBtn.disabled = true;
+                    signBtn.style.opacity = '0.5';
+                    signBtn.style.cursor = 'default';
+                } else {
+                    signBtn.textContent = '签到';
+                    signBtn.disabled = false;
+                    signBtn.style.opacity = '1';
+                    signBtn.style.cursor = 'pointer';
+                }
+            }
+            renderSuperTopicFeed(topic);
+        }
+
+        function handleTopicSign(topicId) {
+            const currentDate = getXState().xCurrentDate || new Date().toISOString().split('T')[0];
+            
+            updateXState(draft => {
+                const topic = (draft.xTopics || []).find(t => String(t.id || t.name) === String(topicId));
+                if (topic) {
+                    if (topic.lastSignDate !== currentDate) {
+                        topic.signDays = (topic.signDays || 0) + 1;
+                        topic.lastSignDate = currentDate;
+                    }
+                }
+            });
+
+            const topics = getXState().xTopics || [];
+            const topic = topics.find(t => String(t.id || t.name) === String(topicId));
+            if (topic) {
+                updateSuperHomeCard(topic);
+                if (typeof window.showToast === 'function') {
+                    window.showToast(`签到成功！已连续签到 ${topic.signDays} 天`);
+                }
+            }
+        }
+
+        // --- Create Topic Logic ---
+        function openCreateTopicSheet() {
+            createTopicAvatarDraft = '';
+            createTopicBannerDraft = '';
+            createTopicSelectedChars = [];
+            
+            if (createTopicNameInput) createTopicNameInput.value = '';
+            if (createTopicFansInput) createTopicFansInput.value = '';
+            renderImagePreview(createTopicAvatarPreview, '', '超');
+            renderImagePreview(createTopicBannerPreview, '', 'Cover');
+            renderCreateTopicSelectedChars();
+            
+            if (createTopicImessageContainer) createTopicImessageContainer.style.display = 'none';
+            if (createTopicManualContainer) createTopicManualContainer.style.display = 'none';
+
+            if (typeof window.openView === 'function') window.openView(createTopicSheet);
+            else createTopicSheet?.classList.add('active');
+        }
+
+        function closeCreateTopicSheet() {
+            if (typeof window.closeView === 'function') window.closeView(createTopicSheet);
+            else createTopicSheet?.classList.remove('active');
+        }
+
+        function saveTopic() {
+            const name = safeText(createTopicNameInput?.value);
+            const fans = safeText(createTopicFansInput?.value, '0');
+            if (!name) {
+                if (typeof window.showToast === 'function') window.showToast('请输入超话名字');
+                return;
+            }
+            
+            const newTopic = {
+                id: makeLocalId('topic'),
+                name: name,
+                fans: fans,
+                avatar: createTopicAvatarDraft,
+                banner: createTopicBannerDraft,
+                chars: createTopicSelectedChars,
+                createdAt: Date.now()
+            };
+            
+            updateXState(draft => {
+                draft.xTopics = draft.xTopics || [];
+                draft.xTopics.unshift(newTopic);
+            });
+            
+            renderSuperFollowBar();
+            closeCreateTopicSheet();
+            if (typeof window.showToast === 'function') window.showToast('超话创建成功');
+        }
+
+        async function toggleTopicImportImessage() {
+            if (createTopicManualContainer) createTopicManualContainer.style.display = 'none';
+            if (!createTopicImessageContainer) return;
+            
+            if (createTopicImessageContainer.style.display === 'flex') {
+                createTopicImessageContainer.style.display = 'none';
+            } else {
+                createTopicImessageContainer.style.display = 'flex';
+                createTopicImessageContainer.innerHTML = '<div style="text-align:center; padding: 10px;">加载中...</div>';
+                const chars = await loadImessageChars();
+                if (chars.length === 0) {
+                    createTopicImessageContainer.innerHTML = '<div style="text-align:center; padding: 10px;">未找到可导入的角色</div>';
+                    return;
+                }
+                
+                createTopicImessageContainer.innerHTML = chars.map(char => {
+                    const item = normalizeDmChar(char, 'imessage');
+                    return `
+                        <div style="display:flex; justify-content:space-between; align-items:center; padding:5px 0; border-bottom:1px solid #eee;">
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <div style="width:30px; height:30px; border-radius:50%; overflow:hidden; background:#eee; display:flex; justify-content:center; align-items:center;">
+                                    ${buildAvatarHtml(item.avatar, item.name)}
+                                </div>
+                                <span>${escapeHtml(item.name)}</span>
+                            </div>
+                            <button type="button" data-char-id="${item.id}" class="x-topic-pick-char-btn" style="padding:4px 10px; border-radius:4px; border:1px solid #ccc; background:#fff; cursor:pointer;">添加</button>
+                        </div>
+                    `;
+                }).join('');
+                
+                createTopicImessageContainer.querySelectorAll('.x-topic-pick-char-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const charId = btn.dataset.charId;
+                        const char = chars.find(c => String(c.id) === String(charId));
+                        if (char) {
+                            const normalized = normalizeDmChar(char, 'imessage');
+                            if (!createTopicSelectedChars.find(c => c.id === normalized.id)) {
+                                createTopicSelectedChars.push(normalized);
+                                renderCreateTopicSelectedChars();
+                                if (typeof window.showToast === 'function') window.showToast('已添加角色');
+                            } else {
+                                if (typeof window.showToast === 'function') window.showToast('该角色已添加');
+                            }
+                        }
+                    });
+                });
+            }
+        }
+
+        function toggleTopicManualChar() {
+            if (createTopicImessageContainer) createTopicImessageContainer.style.display = 'none';
+            if (!createTopicManualContainer) return;
+            
+            if (createTopicManualContainer.style.display === 'flex') {
+                createTopicManualContainer.style.display = 'none';
+            } else {
+                createTopicManualContainer.style.display = 'flex';
+            }
+        }
+
+        function saveTopicManualChar() {
+            const nameInput = document.getElementById('x-topic-manual-name');
+            const handleInput = document.getElementById('x-topic-manual-handle');
+            const bioInput = document.getElementById('x-topic-manual-bio');
+            const personaInput = document.getElementById('x-topic-manual-persona');
+            
+            const name = safeText(nameInput?.value);
+            if (!name) {
+                if (typeof window.showToast === 'function') window.showToast('请输入角色名称');
+                return;
+            }
+            
+            const newChar = {
+                id: makeLocalId('manual-char'),
+                origin: 'manual',
+                name: name,
+                handle: makeHandle(name, handleInput?.value),
+                bio: safeText(bioInput?.value),
+                persona: safeText(personaInput?.value),
+                avatar: ''
+            };
+            
+            createTopicSelectedChars.push(newChar);
+            renderCreateTopicSelectedChars();
+            
+            if (nameInput) nameInput.value = '';
+            if (handleInput) handleInput.value = '';
+            if (bioInput) bioInput.value = '';
+            if (personaInput) personaInput.value = '';
+            
+            if (typeof window.showToast === 'function') window.showToast('已添加角色');
+        }
+
+        function renderCreateTopicSelectedChars() {
+            if (!createTopicCharsList) return;
+            if (createTopicSelectedChars.length === 0) {
+                createTopicCharsList.innerHTML = '<div style="color: #888; font-size: 13px;">暂未添加任何角色</div>';
+                return;
+            }
+            createTopicCharsList.innerHTML = createTopicSelectedChars.map((char, index) => `
+                <div style="display:flex; justify-content:space-between; align-items:center; background:#f0f0f0; padding:8px 12px; border-radius:8px;">
+                    <div style="display:flex; align-items:center; gap:10px;">
+                        <div style="width:24px; height:24px; border-radius:50%; overflow:hidden; background:#ccc; display:flex; justify-content:center; align-items:center; font-size:12px;">
+                            ${buildAvatarHtml(char.avatar, char.name)}
+                        </div>
+                        <span style="font-weight:bold;">${escapeHtml(char.name)}</span>
+                    </div>
+                    <i class="fas fa-times x-topic-remove-char" data-index="${index}" style="color:#ff3b30; cursor:pointer;"></i>
+                </div>
+            `).join('');
+            
+            createTopicCharsList.querySelectorAll('.x-topic-remove-char').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const idx = parseInt(btn.dataset.index, 10);
+                    if (!isNaN(idx)) {
+                        createTopicSelectedChars.splice(idx, 1);
+                        renderCreateTopicSelectedChars();
+                    }
+                });
+            });
+        }
+
+        function getBaseThread(postId) {
+            const post = postData[postId] || postData.island;
+            return {
+                likes: parseCompactCount(post.likes),
+                reposts: parseCompactCount(post.reposts),
+                commentsCount: parseCompactCount(post.comments),
+                liked: false,
+                reposted: false,
+                comments: (Array.isArray(post.commentList) ? post.commentList : []).map((comment, index) => ({
+                    id: comment.id || `${postId}-comment-${index}`,
+                    avatar: comment.avatar || '?',
+                    name: comment.name || 'User',
+                    handle: comment.handle || '@user',
+                    text: comment.text || '',
+                    replies: Array.isArray(comment.replies) ? comment.replies : []
+                }))
+            };
+        }
+
+        function getPostThread(postId) {
+            const base = getBaseThread(postId);
+            const saved = getXState().xPostThreads?.[postId];
+            if (!saved || typeof saved !== 'object') return base;
+            return {
+                ...base,
+                ...saved,
+                comments: Array.isArray(saved.comments) ? saved.comments : base.comments,
+                likes: Number.isFinite(Number(saved.likes)) ? Number(saved.likes) : base.likes,
+                reposts: Number.isFinite(Number(saved.reposts)) ? Number(saved.reposts) : base.reposts,
+                commentsCount: Number.isFinite(Number(saved.commentsCount)) ? Number(saved.commentsCount) : base.commentsCount,
+                liked: !!saved.liked,
+                reposted: !!saved.reposted
+            };
+        }
+
+        function savePostThread(postId, thread) {
+            updateXState((draft) => {
+                draft.xPostThreads[postId] = thread;
+            });
+        }
+
+        function escapeCssIdent(value) {
+            if (window.CSS && typeof window.CSS.escape === 'function') return CSS.escape(String(value));
+            return String(value).replace(/["\\]/g, '\\$&');
+        }
+
+        function updatePostCountNodes(postId, thread) {
+            const post = postData[postId];
+            if (post) {
+                post.likes = formatCompactCount(thread.likes);
+                post.reposts = formatCompactCount(thread.reposts);
+                post.comments = formatCompactCount(thread.commentsCount);
+            }
+            const card = view.querySelector(`.x-feed-card[data-post-id="${escapeCssIdent(postId)}"]`);
+            const actionSpans = card ? Array.from(card.querySelectorAll('.x-feed-actions span')) : [];
+            if (actionSpans[0]) actionSpans[0].innerHTML = `<i class="far fa-comment"></i> ${escapeHtml(formatCompactCount(thread.commentsCount))}`;
+            if (actionSpans[1]) {
+                actionSpans[1].classList.toggle('active', !!thread.reposted);
+                actionSpans[1].innerHTML = `<i class="fas fa-retweet"></i> ${escapeHtml(formatCompactCount(thread.reposts))}`;
+            }
+            if (actionSpans[2]) {
+                actionSpans[2].classList.toggle('active', !!thread.liked);
+                actionSpans[2].innerHTML = `<i class="${thread.liked ? 'fas' : 'far'} fa-heart"></i> ${escapeHtml(formatCompactCount(thread.likes))}`;
+            }
+        }
+
+        function renderDetailActions(thread) {
+            const repostBtn = document.getElementById('x-detail-repost-btn');
+            const likeBtn = document.getElementById('x-detail-like-btn');
+            repostBtn?.classList.toggle('active', !!thread.reposted);
+            likeBtn?.classList.toggle('active', !!thread.liked);
+            const likeIcon = likeBtn?.querySelector('i');
+            if (likeIcon) likeIcon.className = `${thread.liked ? 'fas' : 'far'} fa-heart`;
+        }
+
+        function renderReplyContext() {
+            const context = document.getElementById('x-reply-context');
+            const textEl = document.getElementById('x-reply-context-text');
+            if (!context || !textEl) return;
+            if (!replyTarget || !currentDetailPostId) {
+                context.hidden = true;
+                textEl.textContent = 'Replying to post';
+                return;
+            }
+            context.hidden = false;
+            textEl.textContent = `Replying to ${replyTarget.name || 'comment'}`;
+        }
+
+        function findCommentById(thread, commentId) {
+            return (thread.comments || []).find((comment) => String(comment.id) === String(commentId)) || null;
+        }
+
+        function findReplyById(comment, replyId) {
+            return (Array.isArray(comment?.replies) ? comment.replies : [])
+                .find((reply) => String(reply.id) === String(replyId)) || null;
+        }
+
+        function renderCommentsList(postId, thread) {
+            const commentsList = document.getElementById('x-comments-list');
+            if (!commentsList) return;
+            commentsList.innerHTML = thread.comments.map((comment) => {
+                const replies = Array.isArray(comment.replies) ? comment.replies : [];
+                const repliesHtml = replies.length
+                    ? `<div class="x-comment-replies">${replies.map((reply) => `
+                        <div class="x-comment-reply" data-comment-id="${escapeHtml(comment.id)}" data-reply-id="${escapeHtml(reply.id)}">
+                            <div class="x-avatar">${buildAvatarHtml(reply.avatar, reply.name)}</div>
+                            <div>
+                                <strong>${escapeHtml(reply.name)}</strong>
+                                <span>${escapeHtml(reply.handle)}</span>
+                                <p>${reply.replyToName ? `<b>回复 @${escapeHtml(reply.replyToName)}</b> ` : ''}${escapeHtml(reply.text)}</p>
+                                <button class="x-comment-reply-btn" type="button" data-comment-id="${escapeHtml(comment.id)}" data-reply-id="${escapeHtml(reply.id)}" data-reply-name="${escapeHtml(reply.name)}">Reply</button>
+                            </div>
+                        </div>
+                    `).join('')}</div>`
+                    : '';
+                return `
+                    <div class="x-comment-row" data-comment-id="${escapeHtml(comment.id)}">
+                        <div class="x-avatar">${buildAvatarHtml(comment.avatar, comment.name)}</div>
+                        <div class="x-comment-main">
+                            <strong>${escapeHtml(comment.name)}</strong>
+                            <span>${escapeHtml(comment.handle)}</span>
+                            <p>${escapeHtml(comment.text)}</p>
+                            <button class="x-comment-reply-btn" type="button" data-comment-id="${escapeHtml(comment.id)}">Reply</button>
+                            ${repliesHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function setReplyTarget(target = null) {
+            if (!target) {
+                replyTarget = null;
+            } else if (typeof target === 'object') {
+                replyTarget = {
+                    commentId: String(target.commentId || ''),
+                    replyId: target.replyId ? String(target.replyId) : '',
+                    name: safeText(target.name, 'comment')
+                };
+            } else {
+                const thread = currentDetailPostId ? getPostThread(currentDetailPostId) : null;
+                const comment = thread ? findCommentById(thread, target) : null;
+                replyTarget = {
+                    commentId: String(target),
+                    replyId: '',
+                    name: safeText(comment?.name, 'comment')
+                };
+            }
+            renderReplyContext();
+            document.getElementById('x-reply-input')?.focus();
+        }
+
+        function submitReply() {
+            if (!currentDetailPostId) return;
+            const input = document.getElementById('x-reply-input');
+            const text = safeText(input?.value);
+            if (!text) {
+                if (typeof window.showToast === 'function') window.showToast('请输入回复内容');
+                return;
+            }
+            const author = getCurrentCommentAuthor();
+            const thread = getPostThread(currentDetailPostId);
+            let rootCommentId = '';
+            let userReply = null;
+            let appended = false;
+            if (replyTarget?.commentId) {
+                const target = findCommentById(thread, replyTarget.commentId);
+                if (target) {
+                    target.replies = Array.isArray(target.replies) ? target.replies : [];
+                    userReply = {
+                        id: makeLocalId('reply'),
+                        ...author,
+                        text,
+                        replyToId: replyTarget.replyId || '',
+                        replyToName: replyTarget.name || target.name || ''
+                    };
+                    target.replies.push(userReply);
+                    rootCommentId = target.id;
+                    appended = true;
+                }
+            }
+            if (!appended) {
+                userReply = {
+                    id: makeLocalId('comment'),
+                    ...author,
+                    text,
+                    replies: []
+                };
+                thread.comments.unshift(userReply);
+                rootCommentId = userReply.id;
+            }
+            thread.commentsCount += 1;
+            savePostThread(currentDetailPostId, thread);
+            updatePostCountNodes(currentDetailPostId, thread);
+            if (input) input.value = '';
+            setReplyTarget(null);
+            openPostDetail(currentDetailPostId);
+            if (rootCommentId && userReply) {
+                generateUserReplyEngagement(currentDetailPostId, rootCommentId, userReply, appended);
+            }
+        }
+
+        function normalizeEngagementReply(reply, index = 0, replyTo = {}) {
+            const text = safeText(reply?.text || reply?.content);
+            const name = safeText(reply?.authorName || reply?.name || reply?.handle);
+            if (!text || !name) return null;
+            return {
+                id: String(reply.id || makeLocalId('auto-reply')),
+                avatar: reply.authorAvatar || reply.avatar || name.slice(0, 1).toUpperCase(),
+                name,
+                handle: makeHandle(name, reply.handle || name),
+                text,
+                replyToId: replyTo.id || '',
+                replyToName: replyTo.name || '',
+                replies: []
+            };
+        }
+
+        function normalizeGeneratedVisitor(visitor, index = 0) {
+            const name = safeText(visitor?.name || visitor?.authorName || visitor?.handle);
+            if (!name) return null;
+            return {
+                id: String(visitor.id || makeLocalId('x-visitor')),
+                avatar: visitor.avatar || visitor.authorAvatar || name.slice(0, 1).toUpperCase(),
+                name,
+                handle: makeHandle(name, visitor.handle || name),
+                bio: safeText(visitor.bio || visitor.reason || visitor.text),
+                time: safeText(visitor.time, 'now'),
+                createdAt: Date.now()
+            };
+        }
+
+        async function generateUserReplyEngagement(postId, rootCommentId, userReply, isNestedReply = false) {
+            const post = postData[postId] || {};
+            const rootThread = getPostThread(postId);
+            const rootComment = findCommentById(rootThread, rootCommentId);
+            if (!rootComment || !userReply) return;
+            try {
+                const prompt = `Return strict JSON only. A user just commented in an X/Twitter-style post detail page. Generate engagement around this user's exact comment.
+Output JSON shape:
+{
+  "replies": [{"authorName":"", "handle":"", "text":""}],
+  "visitors": [{"name":"", "handle":"", "bio":"", "avatar":"", "time":"now"}]
+}
+Rules:
+- replies must contain at least 5 items.
+- visitors must contain 2 to 5 items.
+- Replies must directly respond to the user's comment, not to the whole post in general.
+- Keep replies short, social, varied, and realistic. Mix agreement, disagreement, teasing, clarification, and curiosity.
+- Visitors are people who visited the user's profile because of this comment; bio should briefly explain the vibe or reason.
+- Do not include markdown or extra text.
+
+Post author: ${post.name || ''}
+Post text: ${post.text || ''}
+Root comment author: ${rootComment.name || ''}
+Root comment text: ${rootComment.text || ''}
+User display name: ${currentProfile.name} ${currentProfile.handle}
+User comment text: ${userReply.text}
+User comment type: ${isNestedReply ? 'reply inside a comment thread' : 'top-level comment'}
+Current Date: ${getXState().xCurrentDate || defaultDate}`;
+                const raw = await requestXChatCompletion([
+                    { role: 'system', content: 'You generate strict JSON for social-feed replies and profile visitors.' },
+                    { role: 'user', content: prompt }
+                ], { temperature: 0.9 });
+                const parsed = parseJsonPayload(raw);
+                const rawReplies = Array.isArray(parsed?.replies) ? parsed.replies : [];
+                const rawVisitors = Array.isArray(parsed?.visitors) ? parsed.visitors : [];
+                const replyTo = isNestedReply ? { id: userReply.id, name: userReply.name } : {};
+                const generatedReplies = rawReplies
+                    .map((reply, index) => normalizeEngagementReply(reply, index, replyTo))
+                    .filter(Boolean);
+                const visitors = rawVisitors
+                    .map((visitor, index) => normalizeGeneratedVisitor(visitor, index))
+                    .filter(Boolean);
+
+                if (generatedReplies.length) {
+                    const latestThread = getPostThread(postId);
+                    const latestRoot = findCommentById(latestThread, rootCommentId);
+                    if (latestRoot) {
+                        latestRoot.replies = Array.isArray(latestRoot.replies) ? latestRoot.replies : [];
+                        const existingIds = new Set(latestRoot.replies.map((reply) => String(reply.id)));
+                        generatedReplies.forEach((reply) => {
+                            if (!existingIds.has(String(reply.id))) latestRoot.replies.push(reply);
+                        });
+                        latestThread.commentsCount += generatedReplies.length;
+                        savePostThread(postId, latestThread);
+                        updatePostCountNodes(postId, latestThread);
+                        if (String(currentDetailPostId) === String(postId)) {
+                            renderCommentsList(postId, latestThread);
+                            const commentsEl = document.getElementById('x-detail-comments');
+                            if (commentsEl) commentsEl.textContent = formatCompactCount(latestThread.commentsCount);
+                        }
+                    }
+                }
+
+                if (visitors.length) {
+                    updateXState((draft) => {
+                        const existingIds = new Set((draft.xVisitors || []).map((visitor) => String(visitor.id)));
+                        visitors.slice(0, 5).reverse().forEach((visitor) => {
+                            if (!existingIds.has(String(visitor.id))) draft.xVisitors.unshift(visitor);
+                        });
+                    });
+                    renderVisitors();
+                }
+            } catch (error) {
+                console.error('[X] Generate user reply engagement failed', error);
+                if (typeof window.showToast === 'function') window.showToast('回复生成失败');
+            }
+        }
+
+        function toggleDetailAction(kind) {
+            if (!currentDetailPostId) return;
+            const thread = getPostThread(currentDetailPostId);
+            if (kind === 'like') {
+                thread.liked = !thread.liked;
+                thread.likes += thread.liked ? 1 : -1;
+            } else if (kind === 'repost') {
+                thread.reposted = !thread.reposted;
+                thread.reposts += thread.reposted ? 1 : -1;
+            }
+            thread.likes = Math.max(0, thread.likes);
+            thread.reposts = Math.max(0, thread.reposts);
+            savePostThread(currentDetailPostId, thread);
+            updatePostCountNodes(currentDetailPostId, thread);
+            openPostDetail(currentDetailPostId);
+        }
+
+        function normalizeDmMessages(messages) {
+            if (!Array.isArray(messages)) return [];
+            return messages.map((message) => {
+                const source = message?.source || message?.sender;
+                return {
+                    id: String(message?.id || makeLocalId('dm-msg')),
+                    source: source === 'user' ? 'user' : 'char',
+                    text: safeText(message?.text || message?.content || message?.message),
+                    createdAt: Number(message?.createdAt || message?.timestamp || Date.now())
+                };
+            }).filter((message) => message.text);
+        }
+
+        function getDmLastMessageText(item) {
+            const messages = normalizeDmMessages(item?.messages);
+            return messages.length ? messages[messages.length - 1].text : safeText(item?.bio, '暂无签名');
+        }
+
+        function updateMessageSummary(messages = []) {
+            const summaryValues = document.querySelectorAll('#x-messages-tab .x-message-summary strong');
+            if (summaryValues[0]) summaryValues[0].textContent = String(messages.length);
+            if (summaryValues[1]) summaryValues[1].textContent = '0';
+            if (summaryValues[2]) summaryValues[2].textContent = '0';
+        }
+
+        function normalizeDmChar(source = {}, origin = 'manual') {
+            const name = safeText(source.nickname || source.name || source.realName, 'Char');
+            const handleSource = source.handle || source.realName || source.signature || name;
+            const avatar = safeText(source.avatarUrl || source.avatar);
+            return {
+                id: String(source.id || makeLocalId(origin)),
+                origin,
+                sourceFriendId: source.sourceFriendId || (origin === 'imessage' ? source.id : ''),
+                name,
+                handle: makeHandle(name, handleSource),
+                bio: safeText(source.bio || source.signature, '暂无签名'),
+                persona: safeText(source.persona || source.characterPersona || source.systemPrompt),
+                avatar: avatar,
+                messages: normalizeDmMessages(source.messages),
+                addedAt: Number(source.addedAt) || Date.now()
+            };
+        }
+
+        function addDirectMessageChar(charItem) {
+            const item = normalizeDmChar(charItem, charItem.origin || 'manual');
+            updateXState((draft) => {
+                const existingIndex = draft.xDirectMessages.findIndex((entry) =>
+                    String(entry.id) === String(item.id) || safeText(entry.name).toLowerCase() === item.name.toLowerCase()
+                );
+                if (existingIndex >= 0) {
+                    const existing = normalizeDmChar(draft.xDirectMessages[existingIndex], draft.xDirectMessages[existingIndex].origin || item.origin);
+                    const merged = {
+                        ...existing,
+                        ...item,
+                        messages: item.messages.length ? item.messages : existing.messages,
+                        addedAt: existing.addedAt || item.addedAt
+                    };
+                    draft.xDirectMessages.splice(existingIndex, 1);
+                    draft.xDirectMessages.unshift(merged);
+                } else {
+                    draft.xDirectMessages.unshift(item);
+                }
+            });
+            renderDirectMessages();
+            if (typeof window.showToast === 'function') window.showToast('已添加到 X 私信');
+        }
+
+        function renderDirectMessages() {
+            if (!dmList) dmList = document.getElementById('x-dm-list') || document.querySelector('#x-messages-tab .x-message-list');
+            if (!dmList) return;
+            const messages = (getXState().xDirectMessages || [])
+                .map((item) => normalizeDmChar(item, item?.origin || 'manual'))
+                .sort((a, b) => {
+                    const aLast = a.messages[a.messages.length - 1]?.createdAt || a.addedAt || 0;
+                    const bLast = b.messages[b.messages.length - 1]?.createdAt || b.addedAt || 0;
+                    return bLast - aLast;
+                });
+            updateMessageSummary(messages);
+            if (messages.length === 0) {
+                dmList.innerHTML = `
+                    <div class="x-empty-state x-dm-empty-state">
+                        <strong>暂无私信</strong>
+                        <span>添加一个 Char 开始聊天吧</span>
+                        <button class="x-add-dm-submit x-empty-add-dm-btn" type="button">添加 Char</button>
+                    </div>
+                `;
+                return;
+            }
+            dmList.innerHTML = messages.map((item) => `
+                <button class="x-message-row x-dm-row" type="button" data-dm-id="${escapeHtml(item.id)}">
+                    <div class="x-avatar">${buildAvatarHtml(item.avatar, item.name)}</div>
+                    <div>
+                        <strong>${escapeHtml(item.name)}</strong>
+                        <p>${escapeHtml(getDmLastMessageText(item))}</p>
+                    </div>
+                    <span>${escapeHtml(item.origin === 'imessage' ? 'iMessage' : 'X')}</span>
+                </button>
+            `).join('');
+        }
+
+        function renderVisitors() {
+            if (!visitorsList) visitorsList = document.getElementById('x-visitors-list');
+            if (!visitorsList) return;
+            const visitors = getXState().xVisitors || [];
+            if (visitors.length === 0) {
+                visitorsList.innerHTML = '<div class="x-empty-state">暂无主页访客</div>';
+                return;
+            }
+            visitorsList.innerHTML = visitors.map((item) => `
+                <div class="x-message-row">
+                    <div class="x-avatar">${buildAvatarHtml(item.avatar, item.name)}</div>
+                    <div>
+                        <strong>${escapeHtml(item.name || 'Visitor')}</strong>
+                        <p>${escapeHtml(item.bio || '最近访问了你的主页')}</p>
+                    </div>
+                    <span>${escapeHtml(item.time || 'now')}</span>
+                </div>
+            `).join('');
+        }
+
+        async function hydrateImessageCharAvatar(friend) {
+            if (!friend || typeof friend !== 'object') return friend;
+            if (friend.avatarUrl || friend.avatar || !friend.avatarAssetId) return friend;
+            if (!window.appStorage || typeof window.appStorage.getAssetUrl !== 'function') return friend;
+            try {
+                const avatarUrl = await window.appStorage.getAssetUrl(friend.avatarAssetId);
+                return avatarUrl ? { ...friend, avatarUrl } : friend;
+            } catch (error) {
+                console.warn('[X] Failed to hydrate iMessage char avatar', error);
+                return friend;
+            }
+        }
+
+        async function loadImessageChars() {
+            const runtimeFriends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+            if (runtimeFriends.length > 0) {
+                return Promise.all(runtimeFriends
+                    .filter((friend) => friend?.type === 'char')
+                    .map((friend) => hydrateImessageCharAvatar(friend)));
+            }
+            if (window.imStorage && typeof window.imStorage.loadFriends === 'function') {
+                try {
+                    const friends = await window.imStorage.loadFriends();
+                    return Array.isArray(friends)
+                        ? Promise.all(friends
+                            .filter((friend) => friend?.type === 'char')
+                            .map((friend) => hydrateImessageCharAvatar(friend)))
+                        : [];
+                } catch (error) {
+                    console.warn('[X] Failed to load iMessage chars', error);
+                }
+            }
+            return [];
+        }
+
+        async function renderImessageCharPicker() {
+            if (!imessageCharList) imessageCharList = document.getElementById('x-imessage-char-list');
+            if (!imessageCharList) return;
+            imessageCharList.innerHTML = '<div class="x-empty-state">加载 iMessage Char...</div>';
+            const chars = await loadImessageChars();
+            if (chars.length === 0) {
+                imessageCharList.innerHTML = '<div class="x-empty-state">未找到 iMessage Char</div>';
+                return;
+            }
+            imessageCharList.innerHTML = chars.map((friend) => {
+                const item = normalizeDmChar(friend, 'imessage');
+                return `
+                    <button class="x-char-pick-row" type="button" data-char-id="${escapeHtml(item.id)}">
+                        <div class="x-avatar">${buildAvatarHtml(item.avatar, item.name)}</div>
+                        <div>
+                            <strong>${escapeHtml(item.name)}</strong>
+                            <span>${escapeHtml(item.bio)}</span>
+                        </div>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                `;
+            }).join('');
+            imessageCharList.querySelectorAll('.x-char-pick-row').forEach((button) => {
+                button.addEventListener('click', () => {
+                    const friend = chars.find((item) => String(item.id) === String(button.dataset.charId));
+                    if (friend) addDirectMessageChar({ ...friend, origin: 'imessage' });
+                });
+            });
+        }
+
+        function openVisitorsSheet() {
+            renderVisitors();
+            if (typeof window.openView === 'function') window.openView(visitorsSheet);
+            else visitorsSheet?.classList.add('active');
+        }
+
+        function closeVisitorsSheet() {
+            if (typeof window.closeView === 'function') window.closeView(visitorsSheet);
+            else visitorsSheet?.classList.remove('active');
+        }
+
+        function openAddDmSheet() {
+            if (manualCharNameInput) manualCharNameInput.value = '';
+            if (manualCharHandleInput) manualCharHandleInput.value = '';
+            if (manualCharBioInput) manualCharBioInput.value = '';
+            if (manualCharPersonaInput) manualCharPersonaInput.value = '';
+            if (typeof window.openView === 'function') window.openView(addDmSheet);
+            else addDmSheet?.classList.add('active');
+            renderImessageCharPicker();
+        }
+
+        function closeAddDmSheet() {
+            if (typeof window.closeView === 'function') window.closeView(addDmSheet);
+            else addDmSheet?.classList.remove('active');
+        }
+
+        function addManualChar() {
+            const name = safeText(manualCharNameInput?.value);
+            if (!name) {
+                if (typeof window.showToast === 'function') window.showToast('请输入 Char 名称');
+                return;
+            }
+            addDirectMessageChar({
+                id: makeLocalId('x-char'),
+                origin: 'manual',
+                name,
+                handle: manualCharHandleInput?.value,
+                bio: manualCharBioInput?.value,
+                persona: manualCharPersonaInput?.value
+            });
+            closeAddDmSheet();
+        }
+
+        function getDirectMessageById(dmId) {
+            const item = (getXState().xDirectMessages || []).find((entry) => String(entry.id) === String(dmId));
+            return item ? normalizeDmChar(item, item.origin || 'manual') : null;
+        }
+
+        function releaseFocusBeforeHide(container, fallbackSelector = '') {
+            if (!container || !container.contains(document.activeElement)) return;
+            const focused = document.activeElement;
+            if (focused && typeof focused.blur === 'function') focused.blur();
+            requestAnimationFrame(() => {
+                if (!fallbackSelector) return;
+                const fallback = view.querySelector(fallbackSelector);
+                if (fallback && typeof fallback.focus === 'function') fallback.focus({ preventScroll: true });
+            });
+        }
+
+        function renderDmProfileIntro(item) {
+            return `
+                <section class="x-dm-profile-intro">
+                    <div class="x-avatar">${buildAvatarHtml(item.avatar, item.name)}</div>
+                    <div>
+                        <strong>${escapeHtml(item.name)}</strong>
+                        <span>${escapeHtml(item.handle || '@char')}</span>
+                        <p>${escapeHtml(item.bio || '暂无签名')}</p>
+                    </div>
+                    <button class="x-dm-profile-home-btn" type="button" data-dm-profile-id="${escapeHtml(item.id)}">主页</button>
+                </section>
+            `;
+        }
+
+        function openDmProfile(dmId = currentDmId) {
+            const item = dmId ? getDirectMessageById(dmId) : null;
+            const body = document.getElementById('x-dm-profile-body');
+            if (!item || !body || !dmProfileView) return;
+            const sourceLabel = item.origin === 'imessage' ? 'iMessage 导入' : 'X 手动添加';
+            const postsCount = Math.max(0, normalizeDmMessages(item.messages).filter((message) => message.source === 'char').length);
+            const photosCount = getPostImages(item).length || 0;
+            body.innerHTML = `
+                <div class="x-profile-cover x-dm-profile-cover">
+                    <div class="x-profile-cover-actions">
+                        <button class="x-header-button" id="x-dm-profile-back" type="button" aria-label="返回">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <span></span>
+                    </div>
+                    <div class="x-profile-cover-mark">X</div>
+                </div>
+                <div class="x-scroll-area x-profile-scroll x-dm-profile-scroll">
+                    <div class="x-profile-card">
+                        <div class="x-profile-avatar">${buildAvatarHtml(item.avatar, item.name)}</div>
+                        <div class="x-profile-edit x-dm-profile-source">${escapeHtml(sourceLabel)}</div>
+                        <h2>${escapeHtml(item.name)}</h2>
+                        <span>${escapeHtml(item.handle || '@char')}</span>
+                        <p>${escapeHtml(item.bio || '暂无签名')}</p>
+                        <div class="x-profile-stats">
+                            <div><strong>${escapeHtml(String(postsCount))}</strong><span>Posts</span></div>
+                            <div><strong>${escapeHtml(String(normalizeDmMessages(item.messages).length))}</strong><span>Messages</span></div>
+                            <div><strong>${escapeHtml(String(photosCount))}</strong><span>Photos</span></div>
+                        </div>
+                    </div>
+                    <div class="x-profile-tabs x-dm-profile-tabs">
+                        <button class="active" type="button" data-dm-profile-tab="posts">Posts</button>
+                        <button type="button" data-dm-profile-tab="photos">Photos</button>
+                    </div>
+                    <div class="x-profile-panel active" data-dm-profile-panel="posts">
+                        <div class="x-empty-state">${escapeHtml(item.persona || '暂无人设')}</div>
+                    </div>
+                    <div class="x-profile-panel" data-dm-profile-panel="photos">
+                        <div class="x-empty-state">暂无照片</div>
+                    </div>
+                </div>
+            `;
+            dmProfileView.classList.add('active');
+            dmProfileView.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeDmProfile() {
+            releaseFocusBeforeHide(dmProfileView);
+            dmProfileView?.classList.remove('active');
+            dmProfileView?.setAttribute('aria-hidden', 'true');
+        }
+
+        function showXConfirm(options = {}) {
+            if (typeof window.showCustomModal === 'function') {
+                window.showCustomModal(options);
+                return;
+            }
+            if (window.confirm(options.message || options.title || 'Confirm?')) {
+                options.onConfirm?.();
+            }
+        }
+
+        function openDmSettingsSheet() {
+            if (!currentDmId || !getDirectMessageById(currentDmId)) return;
+            if (typeof window.openView === 'function') window.openView(dmSettingsSheet);
+            else dmSettingsSheet?.classList.add('active');
+        }
+
+        function closeDmSettingsSheet() {
+            if (typeof window.closeView === 'function') window.closeView(dmSettingsSheet);
+            else dmSettingsSheet?.classList.remove('active');
+        }
+
+        function clearCurrentDmChat() {
+            const item = currentDmId ? getDirectMessageById(currentDmId) : null;
+            if (!item) return;
+            showXConfirm({
+                title: '清空聊天记录',
+                message: `确定清空与 ${item.name} 的聊天记录吗？此操作不可恢复。`,
+                confirmText: '清空',
+                isDestructive: true,
+                onConfirm: () => {
+                    updateDirectMessage(item.id, (draft) => {
+                        draft.messages = [];
+                        return draft;
+                    });
+                    closeDmSettingsSheet();
+                    renderDirectMessages();
+                    renderDmChat();
+                    if (typeof window.showToast === 'function') window.showToast('已清空聊天记录');
+                }
+            });
+        }
+
+        function deleteCurrentDmChat() {
+            const item = currentDmId ? getDirectMessageById(currentDmId) : null;
+            if (!item) return;
+            showXConfirm({
+                title: '删除会话',
+                message: `确定删除与 ${item.name} 的私信会话吗？此操作不可恢复。`,
+                confirmText: '删除',
+                isDestructive: true,
+                onConfirm: () => {
+                    updateXState((draft) => {
+                        draft.xDirectMessages = (draft.xDirectMessages || [])
+                            .filter((entry) => String(entry.id) !== String(item.id));
+                    });
+                    closeDmSettingsSheet();
+                    closeDmProfile();
+                    closeDmChat();
+                    renderDirectMessages();
+                    if (typeof window.showToast === 'function') window.showToast('已删除会话');
+                }
+            });
+        }
+
+        function updateDirectMessage(dmId, updater) {
+            let updated = null;
+            updateXState((draft) => {
+                draft.xDirectMessages = (draft.xDirectMessages || []).map((item) => {
+                    if (String(item.id) !== String(dmId)) return item;
+                    const normalized = normalizeDmChar(item, item.origin || 'manual');
+                    const next = updater({ ...normalized, messages: [...normalized.messages] }) || normalized;
+                    updated = next;
+                    return next;
+                });
+            });
+            return updated;
+        }
+
+        function appendDmMessage(dmId, source, text) {
+            const content = safeText(text);
+            if (!content) return null;
+            const message = {
+                id: makeLocalId('dm-msg'),
+                source: source === 'user' ? 'user' : 'char',
+                text: content,
+                createdAt: Date.now()
+            };
+            updateDirectMessage(dmId, (item) => {
+                item.messages.push(message);
+                return item;
+            });
+            renderDirectMessages();
+            renderDmChat();
+            return message;
+        }
+
+        function openDmChat(dmId) {
+            currentDmId = String(dmId);
+            renderDmChat();
+            dmChatView?.classList.add('active');
+            dmChatView?.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeDmChat() {
+            const closingDmId = currentDmId;
+            const fallbackSelector = closingDmId
+                ? `.x-dm-row[data-dm-id="${escapeCssIdent(closingDmId)}"]`
+                : '';
+            releaseFocusBeforeHide(dmChatView, fallbackSelector);
+            currentDmId = null;
+            dmChatView?.classList.remove('active');
+            dmChatView?.setAttribute('aria-hidden', 'true');
+        }
+
+        function renderDmChat() {
+            const item = currentDmId ? getDirectMessageById(currentDmId) : null;
+            if (!item || !dmChatView) return;
+            const avatarEl = document.getElementById('x-dm-chat-avatar');
+            const nameEl = document.getElementById('x-dm-chat-name');
+            const handleEl = document.getElementById('x-dm-chat-handle');
+            const messages = normalizeDmMessages(item.messages);
+
+            if (avatarEl) avatarEl.innerHTML = buildAvatarHtml(item.avatar, item.name);
+            if (nameEl) nameEl.textContent = item.name;
+            if (handleEl) handleEl.textContent = item.handle || '@char';
+            if (dmChatMessagesEl) {
+                const introHtml = renderDmProfileIntro(item);
+                dmChatMessagesEl.innerHTML = messages.length
+                    ? `${introHtml}${messages.map((message) => `
+                        <div class="x-dm-chat-bubble-row ${message.source === 'user' ? 'user' : 'char'}">
+                            <div class="x-dm-chat-bubble">${escapeHtml(message.text)}</div>
+                        </div>
+                    `).join('')}`
+                    : `${introHtml}<div class="x-dm-chat-empty">暂无消息</div>`;
+                dmChatMessagesEl.scrollTop = dmChatMessagesEl.scrollHeight;
+            }
+        }
+
+        function sendDmUserMessage() {
+            if (!currentDmId || !dmChatInput) return;
+            const text = safeText(dmChatInput.value);
+            if (!text) {
+                if (typeof window.showToast === 'function') window.showToast('请输入消息内容');
+                return;
+            }
+            dmChatInput.value = '';
+            appendDmMessage(currentDmId, 'user', text);
+        }
+
+        async function generateDmApiReply() {
+            if (!currentDmId) return;
+            const item = getDirectMessageById(currentDmId);
+            if (!item) return;
+            const apiBtn = document.getElementById('x-dm-chat-api-btn');
+            apiBtn?.classList.add('loading');
+            apiBtn?.setAttribute('disabled', 'true');
+            try {
+                const recent = normalizeDmMessages(item.messages).slice(-12)
+                    .map((message) => `${message.source === 'user' ? currentProfile.name : item.name}: ${message.text}`)
+                    .join('\n');
+                const worldbook = getSelectedWorldBookContext(`${item.name} ${item.bio} ${currentProfile.persona}`);
+                const content = await requestXChatCompletion([
+                    { role: 'system', content: 'Reply as the X private-message character. Return only one natural short message, no JSON.' },
+                    { role: 'user', content: `Character: ${item.name} ${item.handle || ''}
+Persona: ${item.persona || 'ordinary user'}
+Bio/signature: ${item.bio || ''}
+User profile: ${currentProfile.name} ${currentProfile.handle}
+User persona: ${currentProfile.persona || currentProfile.bio || ''}
+Current Date: ${getXState().xCurrentDate || defaultDate}
+Worldbook:
+${worldbook || 'None'}
+Recent chat:
+${recent || 'No previous chat.'}
+Generate the character reply now.` }
+                ], { temperature: 0.85 });
+                appendDmMessage(currentDmId, 'char', content);
+            } catch (error) {
+                console.error('[X] DM API reply failed', error);
+                if (typeof window.showToast === 'function') window.showToast('API 调用失败，请稍后重试');
+            } finally {
+                apiBtn?.classList.remove('loading');
+                apiBtn?.removeAttribute('disabled');
+            }
+        }
+
+        function openImagePreview(text, url = '') {
+            if (!imagePreviewOverlay) return;
+            const textEl = document.getElementById('x-image-preview-text');
+            const imgEl = document.getElementById('x-image-preview-img');
+            if (textEl) textEl.textContent = safeText(text, 'Image');
+            if (imgEl) {
+                imgEl.src = url || generatedImagePlaceholderUrl;
+                imgEl.style.display = 'block';
+            }
+            imagePreviewOverlay.classList.add('active');
+            imagePreviewOverlay.setAttribute('aria-hidden', 'false');
+        }
+
+        function closeImagePreview() {
+            imagePreviewOverlay?.classList.remove('active');
+            imagePreviewOverlay?.setAttribute('aria-hidden', 'true');
+        }
+
+        function openPostSettingsSheet(postId) {
+            currentActionPostId = postId;
+            if (typeof window.openView === 'function') window.openView(postSettingsSheet);
+            else postSettingsSheet?.classList.add('active');
+        }
+
+        function closePostSettingsSheet() {
+            if (typeof window.closeView === 'function') window.closeView(postSettingsSheet);
+            else postSettingsSheet?.classList.remove('active');
+            setTimeout(() => { currentActionPostId = null; }, 300);
+        }
+
+        function deleteTargetPost() {
+            if (!currentActionPostId) return;
+            const postId = currentActionPostId;
+            showXConfirm({
+                title: '删除帖子',
+                message: '确定要删除这条帖子吗？此操作不可恢复。',
+                confirmText: '删除',
+                isDestructive: true,
+                onConfirm: () => {
+                    updateXState((draft) => {
+                        draft.xGeneratedPosts = (draft.xGeneratedPosts || []).filter(p => String(p.id) !== String(postId));
+                    });
+                    
+                    const cards = view.querySelectorAll(`.x-feed-card[data-post-id="${escapeCssIdent(postId)}"]`);
+                    cards.forEach(card => {
+                        card.style.opacity = '0';
+                        card.style.transform = 'scale(0.95)';
+                        card.style.transition = 'all 0.2s ease';
+                        setTimeout(() => card.remove(), 200);
+                    });
+                    
+                    closePostSettingsSheet();
+                    if (currentDetailPostId === postId) {
+                        closePostDetail();
+                    }
+                    if (typeof window.showToast === 'function') window.showToast('帖子已删除');
+                }
+            });
+        }
+
+        function openSearchGenerateSheet() {
+            if (searchGenerateInput) searchGenerateInput.value = '';
+            if (typeof window.openView === 'function') window.openView(searchGenerateSheet);
+            else searchGenerateSheet?.classList.add('active');
+        }
+
+        function closeSearchGenerateSheet() {
+            if (typeof window.closeView === 'function') window.closeView(searchGenerateSheet);
+            else searchGenerateSheet?.classList.remove('active');
+        }
+
+        async function generateSearchPosts() {
+            const runBtn = document.getElementById('x-search-generate-run-btn');
+            const topic = safeText(searchGenerateInput?.value);
+            runBtn?.classList.add('loading');
+            if (runBtn) runBtn.textContent = 'Generating';
+            try {
+                const worldbook = getSelectedWorldBookContext(`${topic} ${currentProfile.bio}`);
+                const searchUserProfile = {
+                    name: currentProfile.name,
+                    handle: currentProfile.handle,
+                    bio: currentProfile.bio
+                };
+                const prompt = `Return strict JSON only. Generate 5 to 10 realistic Weibo/X-style posts for the user's feed.
+Mix account types: official brand/media accounts, personal accounts, fan accounts, passers-by, marketing accounts, and niche community accounts.
+Mix tones: serious analysis, funny meme-style posts, subtle sarcasm, heated/controversial takes, recommendations, complaints, fan enthusiasm, and deliberately argument-starting opinions. Keep it plausible, not generic.
+Every post must be grounded in the topic, minimal user profile, and worldbook context when available. Avoid template-like filler.
+Each post must include: authorName, handle, text, likes, reposts, commentsCount, mediaType ("text" or "image"), comments, and optional imagePrompt/images only when mediaType is "image".
+Posts can be pure text. Prefer text posts unless an image clearly adds value.
+Each post must have at least 5 comments.
+Comments should feel like a real Chinese social feed: disagreements, jokes, memes, clarifications, fans defending someone, skeptical passers-by, and occasional heated replies are allowed.
+Every comment must be directly related to its own post. It must reference at least one concrete detail from the post text, topic, author stance, event, character, imagePrompt, or images[].text. Do not write generic reactions such as "interesting", "same", "nice", or comments that could fit any post.
+Replies are optional. If replies are included, each reply must respond to the parent comment's concrete point and connect back to the post.
+If mediaType is "image", describe the image subject, composition, light, mood, and relevant post detail in imagePrompt or images[].text. Do not invent inaccessible URLs.
+ALL text values, including imagePrompt and any text inside the images array describing the picture, MUST be written in Chinese (简体中文). Do not use English for image descriptions.
+Topic: ${topic || 'open recommendation feed'}
+User profile: ${JSON.stringify(searchUserProfile)}
+Current Date: ${getXState().xCurrentDate || defaultDate}
+Worldbook:
+${worldbook || 'None'}`;
+                const raw = await requestXChatCompletion([
+                    { role: 'system', content: 'You are a JSON generator for a fictional X feed. Output only valid JSON.' },
+                    { role: 'user', content: prompt }
+                ], { temperature: 0.9 });
+                const parsed = parseJsonPayload(raw);
+                const posts = Array.isArray(parsed) ? parsed : (Array.isArray(parsed.posts) ? parsed.posts : []);
+                const added = appendGeneratedPosts(posts);
+                closeSearchGenerateSheet();
+                if (typeof window.showToast === 'function') window.showToast(added.length ? `已生成 ${added.length} 条帖子` : '没有生成可用帖子');
+            } catch (error) {
+                console.error('[X] Generate posts failed', error);
+                if (typeof window.showToast === 'function') window.showToast('生成失败，请检查 API 配置或返回格式');
+            } finally {
+                runBtn?.classList.remove('loading');
+                if (runBtn) runBtn.textContent = 'Generate';
+            }
+        }
+
+        function updateIndicator(targetItem) {
+            if (!indicator || !targetItem) return;
+            const nav = targetItem.parentElement;
+            if (!nav) return;
+
+            const navRect = nav.getBoundingClientRect();
+            const itemRect = targetItem.getBoundingClientRect();
+            indicator.style.left = `${itemRect.left - navRect.left}px`;
+            indicator.style.width = `${itemRect.width}px`;
+        }
+
+        function switchTab(index) {
+            if (index < 0 || index >= navItems.length) return;
+            currentIndex = index;
+
+            navItems.forEach((item, itemIndex) => {
+                item.classList.toggle('active', itemIndex === index);
+            });
+
+            tabs.forEach((tab, tabIndex) => {
+                tab.classList.toggle('active', tabIndex === index);
+                tab.style.transform = `translateX(-${index * 100}%)`;
+            });
+
+            updateIndicator(navItems[index]);
+            if (navItems[index]?.getAttribute('data-target') === 'x-super-tab') renderSuperFollowBar();
+            if (navItems[index]?.getAttribute('data-target') === 'x-messages-tab') renderDirectMessages();
+            closePostDetail();
+        }
+
+        function switchButtonTabs(buttons, panels, buttonAttr, panelAttr, nextValue) {
+            buttons.forEach((button) => {
+                button.classList.toggle('active', button.getAttribute(buttonAttr) === nextValue);
+            });
+            panels.forEach((panel) => {
+                panel.classList.toggle('active', panel.getAttribute(panelAttr) === nextValue);
+            });
+        }
+
+        function openPostDetail(postId) {
+            const post = postData[postId] || postData.island;
+            currentDetailPostId = postId;
+            const detailPost = document.getElementById('x-detail-post');
+            const thread = getPostThread(postId);
+
+            if (detailPost) {
+                detailPost.innerHTML = `
+                    <div class="x-detail-author">
+                        <div class="x-avatar">${buildAvatarHtml(post.avatar, post.name)}</div>
+                        <div>
+                            <strong>${escapeHtml(post.name)}</strong>
+                            <span>${escapeHtml(post.handle)}</span>
+                        </div>
+                    </div>
+                    <p class="x-detail-text">${escapeHtml(post.text)}</p>
+                    ${renderPostImages(getPostImages(post))}
+                    <div class="x-detail-inline-actions">
+                        <button id="x-detail-repost-btn" type="button" class="x-detail-inline-action ${thread.reposted ? 'active' : ''}" aria-label="Repost">
+                            <i class="fas fa-retweet"></i><span>${escapeHtml(formatCompactCount(thread.reposts))}</span>
+                        </button>
+                        <button id="x-detail-like-btn" type="button" class="x-detail-inline-action ${thread.liked ? 'active' : ''}" aria-label="Like">
+                            <i class="${thread.liked ? 'fas' : 'far'} fa-heart"></i><span>${escapeHtml(formatCompactCount(thread.likes))}</span>
+                        </button>
+                    </div>
+                `;
+            }
+
+            const repostsEl = document.getElementById('x-detail-reposts');
+            const likesEl = document.getElementById('x-detail-likes');
+            const commentsEl = document.getElementById('x-detail-comments');
+            if (repostsEl) repostsEl.textContent = formatCompactCount(thread.reposts);
+            if (likesEl) likesEl.textContent = formatCompactCount(thread.likes);
+            if (commentsEl) commentsEl.textContent = formatCompactCount(thread.commentsCount);
+            renderDetailActions(thread);
+            renderReplyContext();
+            renderCommentsList(postId, thread);
+            updatePostCountNodes(postId, thread);
+
+            postDetailView?.classList.add('active');
+            postDetailView?.setAttribute('aria-hidden', 'false');
+        }
+
+        function closePostDetail() {
+            if (postDetailView?.contains(document.activeElement)) {
+                document.activeElement.blur();
+            }
+            postDetailView?.classList.remove('active');
+            postDetailView?.setAttribute('aria-hidden', 'true');
+            currentDetailPostId = null;
+            replyTarget = null;
+        }
+
+        function bindPostCard(card) {
+            const postId = card.getAttribute('data-post-id');
+            if (!postId || card.dataset.xBound === 'true') return;
+            card.dataset.xBound = 'true';
+            card.addEventListener('click', (event) => {
+                if (event.target.closest('.x-post-image-thumb')) return;
+                
+                const ref = event.target.closest('.x-ref-post');
+                if (ref) {
+                    event.stopPropagation();
+                    openPostDetail(ref.dataset.refId);
+                    return;
+                }
+                
+                if (card.classList.contains('is-moment')) return;
+                
+                openPostDetail(postId);
+            });
+            card.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    if (card.classList.contains('is-moment')) return;
+                    openPostDetail(postId);
+                }
+            });
+        }
+
+        function openXApp(event) {
+            if (event) event.stopPropagation();
+            if (window.isJiggleMode) return;
+            ensureXChrome();
+            renderProfile();
+            renderWorldBookSummary();
+            renderSuperFollowBar();
+            renderGeneratedPosts();
+            renderDirectMessages();
+            view.classList.add('active');
+            requestAnimationFrame(() => switchTab(currentIndex));
+        }
+
+        function closeXApp() {
+            closeTopicDetail();
+            closePostDetail();
+            closeEditProfile();
+            closeCreateTopicSheet();
+            closeXSettings();
+            closeComposer();
+            closeVisitorsSheet();
+            closeAddDmSheet();
+            closeDmChat();
+            closeDmSettingsSheet();
+            closeDmProfile();
+            closeSearchGenerateSheet();
+            closeImagePreview();
+            view.classList.remove('active');
+        }
+
+        function bindFilePreview(input, onLoad) {
+            input?.addEventListener('change', () => {
+                const file = input.files && input.files[0];
+                if (!file) return;
+                const reader = new FileReader();
+                reader.onload = () => onLoad(String(reader.result || ''));
+                reader.readAsDataURL(file);
+            });
+        }
+
+        ensureXChrome();
+
+        appButton.addEventListener('click', openXApp);
+        closeButtons.forEach((button) => button.addEventListener('click', closeXApp));
+        navItems.forEach((item, index) => item.addEventListener('click', () => switchTab(index)));
+
+        view.querySelectorAll('.x-feed-card[data-post-id]').forEach(bindPostCard);
+        postDetailBack?.addEventListener('click', closePostDetail);
+        topicDetailBack?.addEventListener('click', closeTopicDetail);
+        topicDetailGenerateBtn?.addEventListener('click', generateTopicPosts);
+        editButton?.addEventListener('click', openEditProfile);
+        settingsButton?.addEventListener('click', openXSettings);
+        document.getElementById('x-profile-visitors-btn')?.addEventListener('click', openVisitorsSheet);
+        document.getElementById('x-visitors-close-btn')?.addEventListener('click', closeVisitorsSheet);
+        document.getElementById('x-add-dm-btn')?.addEventListener('click', openAddDmSheet);
+        document.getElementById('x-add-dm-close-btn')?.addEventListener('click', closeAddDmSheet);
+        document.getElementById('x-manual-char-add-btn')?.addEventListener('click', addManualChar);
+        if (globalDateInput) {
+            globalDateInput.addEventListener('change', (e) => setGlobalDate(e.target.value));
+        }
+        if (nextDayBtn) {
+            nextDayBtn.addEventListener('click', nextDay);
+        }
+
+        document.getElementById('x-search-generate-btn')?.addEventListener('click', openSearchGenerateSheet);
+        document.getElementById('x-search-generate-close-btn')?.addEventListener('click', closeSearchGenerateSheet);
+        document.getElementById('x-search-generate-run-btn')?.addEventListener('click', generateSearchPosts);
+        document.getElementById('x-post-settings-close-btn')?.addEventListener('click', closePostSettingsSheet);
+        document.getElementById('x-post-delete-btn')?.addEventListener('click', deleteTargetPost);
+        document.getElementById('x-post-detail-menu-btn')?.addEventListener('click', () => {
+            if (currentDetailPostId) openPostSettingsSheet(currentDetailPostId);
+        });
+        document.getElementById('x-dm-chat-back')?.addEventListener('click', closeDmChat);
+        document.getElementById('x-dm-chat-menu-btn')?.addEventListener('click', openDmSettingsSheet);
+        document.getElementById('x-dm-settings-close-btn')?.addEventListener('click', closeDmSettingsSheet);
+        document.getElementById('x-dm-clear-chat-btn')?.addEventListener('click', clearCurrentDmChat);
+        document.getElementById('x-dm-delete-chat-btn')?.addEventListener('click', deleteCurrentDmChat);
+        document.getElementById('x-dm-profile-back')?.addEventListener('click', closeDmProfile);
+        document.getElementById('x-dm-chat-composer')?.addEventListener('submit', (event) => {
+            event.preventDefault();
+            sendDmUserMessage();
+        });
+        document.getElementById('x-dm-chat-send-btn')?.addEventListener('click', (event) => {
+            event.preventDefault();
+            sendDmUserMessage();
+        });
+        document.getElementById('x-dm-chat-api-btn')?.addEventListener('click', generateDmApiReply);
+        document.getElementById('x-dm-chat-input')?.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && !event.shiftKey && !event.ctrlKey && !event.altKey && !event.isComposing && event.keyCode !== 229) {
+                event.preventDefault();
+                sendDmUserMessage();
+                event.target.blur();
+            }
+        });
+        document.getElementById('x-image-preview-close')?.addEventListener('click', closeImagePreview);
+        document.getElementById('x-reply-submit-btn')?.addEventListener('click', submitReply);
+        document.getElementById('x-reply-cancel-btn')?.addEventListener('click', () => setReplyTarget(null));
+        document.getElementById('x-reply-input')?.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter' && !event.shiftKey && !event.ctrlKey && !event.altKey && !event.isComposing && event.keyCode !== 229) {
+                event.preventDefault();
+                submitReply();
+                event.target.blur();
+            }
+        });
+        editCancelButton?.addEventListener('click', closeEditProfile);
+        editSaveButton?.addEventListener('click', saveProfile);
+        settingsCloseButton?.addEventListener('click', closeXSettings);
+        settingsWorldBookButton?.addEventListener('click', openWorldBookSelector);
+        composeCancelButton?.addEventListener('click', closeComposer);
+        composeSubmitButton?.addEventListener('click', submitComposer);
+        document.querySelector('.x-compose-button')?.addEventListener('click', openComposer);
+        document.querySelector('.x-post-button')?.addEventListener('click', openComposer);
+        editAvatarPreview?.addEventListener('click', () => editAvatarInput?.click());
+        editBannerPreview?.addEventListener('click', () => editBannerInput?.click());
+
+        view.addEventListener('click', (event) => {
+            const dmProfileBack = event.target.closest('#x-dm-profile-back');
+            if (dmProfileBack) {
+                event.preventDefault();
+                closeDmProfile();
+                return;
+            }
+            const dmProfileTab = event.target.closest('.x-dm-profile-tabs button[data-dm-profile-tab]');
+            if (dmProfileTab) {
+                event.preventDefault();
+                const nextTab = dmProfileTab.getAttribute('data-dm-profile-tab');
+                const profileView = dmProfileTab.closest('.x-dm-profile-view');
+                const tabButtons = Array.from(profileView?.querySelectorAll('.x-dm-profile-tabs button[data-dm-profile-tab]') || []);
+                const panels = Array.from(profileView?.querySelectorAll('.x-profile-panel[data-dm-profile-panel]') || []);
+                switchButtonTabs(tabButtons, panels, 'data-dm-profile-tab', 'data-dm-profile-panel', nextTab);
+                return;
+            }
+            const imageButton = event.target.closest('.x-post-image-thumb');
+            if (imageButton) {
+                event.preventDefault();
+                event.stopPropagation();
+                openImagePreview(imageButton.dataset.imageText || 'Image', imageButton.dataset.imageUrl || '');
+                return;
+            }
+            const detailLike = event.target.closest('#x-detail-like-btn');
+            if (detailLike) {
+                event.preventDefault();
+                toggleDetailAction('like');
+                return;
+            }
+            const detailRepost = event.target.closest('#x-detail-repost-btn');
+            if (detailRepost) {
+                event.preventDefault();
+                toggleDetailAction('repost');
+                return;
+            }
+            const dmRow = event.target.closest('.x-dm-row[data-dm-id]');
+            if (dmRow) {
+                event.preventDefault();
+                openDmChat(dmRow.dataset.dmId);
+                return;
+            }
+            const emptyAddDmButton = event.target.closest('.x-empty-add-dm-btn');
+            if (emptyAddDmButton) {
+                event.preventDefault();
+                openAddDmSheet();
+                return;
+            }
+            const dmProfileButton = event.target.closest('[data-dm-profile-id]');
+            if (dmProfileButton) {
+                event.preventDefault();
+                openDmProfile(dmProfileButton.dataset.dmProfileId);
+                return;
+            }
+            const closeTrigger = event.target.closest('[data-x-close]');
+            if (closeTrigger) {
+                event.preventDefault();
+                closeXApp();
+                return;
+            }
+            const replyButton = event.target.closest('.x-comment-reply-btn');
+            if (replyButton) {
+                event.preventDefault();
+                const commentId = replyButton.dataset.commentId;
+                const replyId = replyButton.dataset.replyId || '';
+                let targetName = safeText(replyButton.dataset.replyName);
+                if (!targetName && currentDetailPostId) {
+                    const thread = getPostThread(currentDetailPostId);
+                    const comment = findCommentById(thread, commentId);
+                    targetName = replyId
+                        ? safeText(findReplyById(comment, replyId)?.name, comment?.name || 'comment')
+                        : safeText(comment?.name, 'comment');
+                }
+                setReplyTarget({ commentId, replyId, name: targetName });
+                return;
+            }
+            const trendRow = event.target.closest('.x-trend-row');
+            if (trendRow) {
+                const topicStrong = trendRow.querySelector('strong');
+                if (topicStrong) {
+                    openTopicDetail(topicStrong.textContent.trim());
+                }
+                return;
+            }
+
+            const signBtn = event.target.closest('.x-super-title-row button');
+            if (signBtn && !signBtn.disabled && currentActiveTopicId) {
+                event.preventDefault();
+                handleTopicSign(currentActiveTopicId);
+                return;
+            }
+        });
+
+        [visitorsSheet, addDmSheet, dmSettingsSheet, searchGenerateSheet, imagePreviewOverlay, createTopicSheet, postSettingsSheet].forEach((sheet) => {
+            sheet?.addEventListener('click', (event) => {
+                if (event.target === sheet) {
+                    if (sheet === visitorsSheet) closeVisitorsSheet();
+                    if (sheet === addDmSheet) closeAddDmSheet();
+                    if (sheet === dmSettingsSheet) closeDmSettingsSheet();
+                    if (sheet === searchGenerateSheet) closeSearchGenerateSheet();
+                    if (sheet === imagePreviewOverlay) closeImagePreview();
+                    if (sheet === createTopicSheet) closeCreateTopicSheet();
+                    if (sheet === postSettingsSheet) closePostSettingsSheet();
+                }
+            });
+        });
+
+        createTopicCancelBtn?.addEventListener('click', closeCreateTopicSheet);
+        createTopicSaveBtn?.addEventListener('click', saveTopic);
+        createTopicImportBtn?.addEventListener('click', toggleTopicImportImessage);
+        createTopicManualBtn?.addEventListener('click', toggleTopicManualChar);
+        topicManualSaveBtn?.addEventListener('click', saveTopicManualChar);
+        superUpdateBtn?.addEventListener('click', generateSuperTopicUpdate);
+
+        createTopicAvatarPreview?.addEventListener('click', () => createTopicAvatarInput?.click());
+        bindFilePreview(createTopicAvatarInput, (src) => {
+            createTopicAvatarDraft = src;
+            renderImagePreview(createTopicAvatarPreview, src, '超');
+        });
+
+        createTopicBannerPreview?.addEventListener('click', () => createTopicBannerInput?.click());
+        bindFilePreview(createTopicBannerInput, (src) => {
+            createTopicBannerDraft = src;
+            renderImagePreview(createTopicBannerPreview, src, 'Cover');
+        });
+
+        bindFilePreview(editAvatarInput, (src) => {
+            avatarDraft = src;
+            renderImagePreview(editAvatarPreview, avatarDraft, safeText(editNameInput?.value, 'U').slice(0, 1).toUpperCase());
+        });
+
+        bindFilePreview(editBannerInput, (src) => {
+            bannerDraft = src;
+            renderImagePreview(editBannerPreview, bannerDraft, 'Cover');
+        });
+
+        const homeFeedButtons = Array.from(view.querySelectorAll('.x-home-feed-tabs button[data-feed]'));
+        const homeFeedPanels = Array.from(view.querySelectorAll('.x-feed-panel[data-feed-panel]'));
+        homeFeedButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                switchButtonTabs(homeFeedButtons, homeFeedPanels, 'data-feed', 'data-feed-panel', button.getAttribute('data-feed'));
+            });
+        });
+
+        const profileTabButtons = Array.from(view.querySelectorAll('.x-profile-tabs button[data-profile-tab]'));
+        const profilePanels = Array.from(view.querySelectorAll('.x-profile-panel[data-profile-panel]'));
+        profileTabButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                switchButtonTabs(profileTabButtons, profilePanels, 'data-profile-tab', 'data-profile-panel', button.getAttribute('data-profile-tab'));
+            });
+        });
+
+        const superTabButtons = Array.from(view.querySelectorAll('#x-super-profile-tabs button[data-super-tab]'));
+        const superPanels = Array.from(view.querySelectorAll('.x-super-feed[data-super-panel]'));
+        superTabButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                switchButtonTabs(superTabButtons, superPanels, 'data-super-tab', 'data-super-panel', button.getAttribute('data-super-tab'));
+            });
+        });
+
+        if (mainContent) {
+            mainContent.addEventListener('touchstart', (event) => {
+                if (postDetailView?.classList.contains('active')) return;
+                if (!event.touches || event.touches.length === 0) return;
+                touchStartX = event.touches[0].clientX;
+                touchStartY = event.touches[0].clientY;
+                isTouching = true;
+            }, { passive: true });
+
+            mainContent.addEventListener('touchend', (event) => {
+                if (!isTouching || !event.changedTouches || event.changedTouches.length === 0) return;
+                isTouching = false;
+
+                const endX = event.changedTouches[0].clientX;
+                const endY = event.changedTouches[0].clientY;
+                const diffX = touchStartX - endX;
+                const diffY = touchStartY - endY;
+
+                if (Math.abs(diffX) < 52 || Math.abs(diffX) < Math.abs(diffY) * 1.25) return;
+
+                if (diffX > 0) {
+                    switchTab(Math.min(currentIndex + 1, navItems.length - 1));
+                } else {
+                    switchTab(Math.max(currentIndex - 1, 0));
+                }
+            }, { passive: true });
+        }
+
+        window.addEventListener('resize', () => {
+            if (!view.classList.contains('active')) return;
+            updateIndicator(navItems[currentIndex]);
+        });
+        
+        view.querySelectorAll('.x-scroll-area, .x-detail-scroll').forEach(area => {
+            area.addEventListener('scroll', () => {
+                if (area.scrollTop + area.clientHeight >= area.scrollHeight - 160) {
+                    const hiddens = area.querySelectorAll('.x-hidden-page-2');
+                    if (hiddens.length > 0) {
+                        hiddens.forEach(el => {
+                            el.style.display = '';
+                            el.classList.remove('x-hidden-page-2');
+                        });
+                    }
+                }
+            }, { passive: true });
+        });
+
+        renderProfile();
+        renderWorldBookSummary();
+        renderSuperFollowBar();
+        renderGeneratedPosts();
+        renderDirectMessages();
+        requestAnimationFrame(() => switchTab(0));
+    });
+})();

@@ -1,1 +1,300 @@
-function _0x5125(){const _0x5a7039=['add','global-toast','25zeVzEd','onConfirm','modal-message','getDate','removeSplashScreen','pages-container','show','standalone','max','modal-prompt-confirm-btn','cursor','cancelText','getMonth','closest','addEventListener','scroll','clientWidth','defaultValue','modal-input','mousemove','722622hRzatb','body','showCustomModal','block','textContent','onCancel','App\x20is\x20running\x20in\x20Standalone\x20(Fullscreen)\x20mode.','matches','function','DOMContentLoaded','1619811XkYtwP','getHours','remove','forEach','scrollLeft','getMinutes','#007aff','(display-mode:\x20standalone)','450389PYSsja','getFullYear','376060ymminM','matchMedia','target','smooth','now','offsetLeft','appendChild','modal-confirm-content','scrollTo','confirmText','message','padStart','value','style','formatChatBubbleTime','.main-grid','toast-bubble','active','.bottom-sheet-overlay','mousedown','openView','min','preventDefault','classList','display','mouseleave','custom-modal-overlay','none','placeholder','getElementById','toString','app','mouseup','createElement','log','4932864LAJJug','className','offsetWidth','App\x20is\x20running\x20in\x20Browser\x20mode.','1253610qtjCHL','showToast','250TTgJwR','prompt','querySelectorAll','782307ujWciK','touchmove','navigator','21rTasNF','scrollSnapType','modal-title','grabbing','pageX','closeView','onclick','touchend'];_0x5125=function(){return _0x5a7039;};return _0x5125();}function _0x2fa3(_0x2c8c62,_0xe7656f){_0x2c8c62=_0x2c8c62-0x19e;const _0x512514=_0x5125();let _0x2fa3d8=_0x512514[_0x2c8c62];return _0x2fa3d8;}(function(_0x147481,_0x3a50ca){const _0x1acff0=_0x2fa3,_0xecb82=_0x147481();while(!![]){try{const _0x29d0e4=-parseInt(_0x1acff0(0x1c0))/0x1+-parseInt(_0x1acff0(0x1e9))/0x2+-parseInt(_0x1acff0(0x1b8))/0x3+parseInt(_0x1acff0(0x1c2))/0x4*(-parseInt(_0x1acff0(0x1fb))/0x5)+parseInt(_0x1acff0(0x1ae))/0x6*(-parseInt(_0x1acff0(0x1f1))/0x7)+parseInt(_0x1acff0(0x1e5))/0x8+-parseInt(_0x1acff0(0x1ee))/0x9*(-parseInt(_0x1acff0(0x1eb))/0xa);if(_0x29d0e4===_0x3a50ca)break;else _0xecb82['push'](_0xecb82['shift']());}catch(_0x161243){_0xecb82['push'](_0xecb82['shift']());}}}(_0x5125,0x534ae),(function(){const _0x343dc3=_0x2fa3;document['addEventListener'](_0x343dc3(0x1ef),function(_0x10c54d){const _0x23d14e=_0x343dc3;(_0x10c54d[_0x23d14e(0x1c4)]===document[_0x23d14e(0x1af)]||_0x10c54d[_0x23d14e(0x1c4)]===document['documentElement']||_0x10c54d[_0x23d14e(0x1c4)]['id']===_0x23d14e(0x1e1))&&_0x10c54d['preventDefault']();},{'passive':![]});let _0x477c4a=0x0;document['addEventListener'](_0x343dc3(0x1f8),function(_0x71332c){const _0x1a29e7=_0x343dc3,_0x13b374=Date[_0x1a29e7(0x1c6)]();_0x13b374-_0x477c4a<0x12c&&_0x71332c[_0x1a29e7(0x1d8)](),_0x477c4a=_0x13b374;},{'passive':![]});function _0x4f99ef(){const _0x19f43b=_0x343dc3;return'standalone'in window['navigator']&&window[_0x19f43b(0x1f0)][_0x19f43b(0x1a1)]||window[_0x19f43b(0x1c3)](_0x19f43b(0x1bf))[_0x19f43b(0x1b5)];}window[_0x343dc3(0x1d6)]=function(_0x2fe425){const _0x12e3b9=_0x343dc3;if(_0x2fe425)_0x2fe425['classList'][_0x12e3b9(0x1f9)](_0x12e3b9(0x1d3));},window[_0x343dc3(0x1f6)]=function(_0x19e637){const _0x4c50b6=_0x343dc3;if(_0x19e637)_0x19e637[_0x4c50b6(0x1d9)]['remove'](_0x4c50b6(0x1d3));},window[_0x343dc3(0x1b0)]=function(_0x422777){const _0x267d75=_0x343dc3,_0x4f186e=document['getElementById'](_0x267d75(0x1dc));if(!_0x4f186e)return;const _0x169eb1=document[_0x267d75(0x1df)](_0x267d75(0x1f3)),_0x5543f9=document[_0x267d75(0x1df)](_0x267d75(0x1fd)),_0x5108c7=document['getElementById']('modal-cancel-btn'),_0x561558=document['getElementById']('modal-confirm-btn');if(_0x169eb1)_0x169eb1[_0x267d75(0x1b2)]=_0x422777['title']||'提示';if(_0x5543f9)_0x5543f9[_0x267d75(0x1b2)]=_0x422777[_0x267d75(0x1cc)]||'';_0x5108c7&&(_0x5108c7[_0x267d75(0x1b2)]=_0x422777[_0x267d75(0x1a5)]||'取消',_0x5108c7['onclick']=()=>{const _0xe7d02=_0x267d75;window[_0xe7d02(0x1f6)](_0x4f186e);if(_0x422777[_0xe7d02(0x1b3)])_0x422777[_0xe7d02(0x1b3)]();});_0x561558&&(_0x561558['textContent']=_0x422777[_0x267d75(0x1cb)]||'确定',_0x422777['isDestructive']?_0x561558[_0x267d75(0x1cf)]['color']='#ff3b30':_0x561558['style']['color']=_0x267d75(0x1be),_0x561558[_0x267d75(0x1f7)]=()=>{const _0x395c74=_0x267d75;window[_0x395c74(0x1f6)](_0x4f186e);if(_0x422777['onConfirm'])_0x422777[_0x395c74(0x1fc)]();});const _0x168172=document[_0x267d75(0x1df)]('modal-prompt-content'),_0x466496=document[_0x267d75(0x1df)](_0x267d75(0x1c9)),_0xc682ac=document[_0x267d75(0x1df)](_0x267d75(0x1a3)),_0x579411=document[_0x267d75(0x1df)](_0x267d75(0x1ac));if(_0x422777['type']===_0x267d75(0x1ec)){if(_0x168172)_0x168172['style'][_0x267d75(0x1da)]='block';if(_0x466496)_0x466496[_0x267d75(0x1cf)]['display']=_0x267d75(0x1dd);if(_0x561558)_0x561558[_0x267d75(0x1cf)]['display']=_0x267d75(0x1dd);_0xc682ac&&(_0xc682ac[_0x267d75(0x1cf)][_0x267d75(0x1da)]='block',_0xc682ac[_0x267d75(0x1b2)]=_0x422777[_0x267d75(0x1cb)]||'确定',_0xc682ac[_0x267d75(0x1f7)]=()=>{const _0x57b38f=_0x267d75;window['closeView'](_0x4f186e);if(_0x422777['onConfirm'])_0x422777[_0x57b38f(0x1fc)](_0x579411?_0x579411[_0x57b38f(0x1ce)]:'');}),_0x579411&&(_0x579411['placeholder']=_0x422777[_0x267d75(0x1de)]||'请输入',_0x579411['value']=_0x422777[_0x267d75(0x1ab)]||'');}else{if(_0x168172)_0x168172[_0x267d75(0x1cf)][_0x267d75(0x1da)]=_0x267d75(0x1dd);if(_0x466496)_0x466496['style']['display']=_0x267d75(0x1b1);if(_0x561558)_0x561558[_0x267d75(0x1cf)]['display']=_0x267d75(0x1b1);if(_0xc682ac)_0xc682ac[_0x267d75(0x1cf)][_0x267d75(0x1da)]='none';}window[_0x267d75(0x1d6)](_0x4f186e);};let _0x13ccf7=null;window[_0x343dc3(0x1ea)]=function(_0x57fffd,_0x311699=0x7d0){const _0x382f7a=_0x343dc3;let _0x17faf7=document[_0x382f7a(0x1df)](_0x382f7a(0x1fa));if(!_0x17faf7){_0x17faf7=document[_0x382f7a(0x1e3)]('div'),_0x17faf7['id']=_0x382f7a(0x1fa),_0x17faf7[_0x382f7a(0x1e6)]=_0x382f7a(0x1d2);const _0x28a870=document[_0x382f7a(0x1df)]('app');_0x28a870?_0x28a870[_0x382f7a(0x1c8)](_0x17faf7):document['body']['appendChild'](_0x17faf7);}_0x17faf7[_0x382f7a(0x1b2)]=_0x57fffd,_0x17faf7[_0x382f7a(0x1d9)][_0x382f7a(0x1ba)](_0x382f7a(0x1a0)),void _0x17faf7[_0x382f7a(0x1e7)],_0x17faf7['classList'][_0x382f7a(0x1f9)]('show');if(_0x13ccf7)clearTimeout(_0x13ccf7);_0x13ccf7=setTimeout(()=>{const _0x3793e9=_0x382f7a;_0x17faf7[_0x3793e9(0x1d9)]['remove'](_0x3793e9(0x1a0));},_0x311699);},window[_0x343dc3(0x1d0)]=function(_0x417834){const _0x19cbe6=_0x343dc3;if(!_0x417834)return'';const _0x521c40=new Date(_0x417834),_0x2ad5c7=new Date(),_0x43ea60=_0x521c40[_0x19cbe6(0x1c1)](),_0x31cecb=(_0x521c40[_0x19cbe6(0x1a6)]()+0x1)[_0x19cbe6(0x1e0)]()[_0x19cbe6(0x1cd)](0x2,'0'),_0x2df528=_0x521c40[_0x19cbe6(0x1fe)]()[_0x19cbe6(0x1e0)]()['padStart'](0x2,'0'),_0x72494e=_0x521c40[_0x19cbe6(0x1b9)]()[_0x19cbe6(0x1e0)]()[_0x19cbe6(0x1cd)](0x2,'0'),_0x28d55e=_0x521c40[_0x19cbe6(0x1bd)]()[_0x19cbe6(0x1e0)]()['padStart'](0x2,'0'),_0x3fa8e2=_0x43ea60===_0x2ad5c7[_0x19cbe6(0x1c1)]()&&_0x521c40[_0x19cbe6(0x1a6)]()===_0x2ad5c7['getMonth']()&&_0x521c40[_0x19cbe6(0x1fe)]()===_0x2ad5c7[_0x19cbe6(0x1fe)](),_0x129f33=_0x43ea60===_0x2ad5c7[_0x19cbe6(0x1c1)]();if(_0x3fa8e2)return _0x72494e+':'+_0x28d55e;else return _0x129f33?_0x31cecb+'/'+_0x2df528+'\x20'+_0x72494e+':'+_0x28d55e:_0x43ea60+'/'+_0x31cecb+'/'+_0x2df528+'\x20'+_0x72494e+':'+_0x28d55e;};function _0x50a452(){const _0x7dae66=_0x343dc3;return[...document[_0x7dae66(0x1ed)](_0x7dae66(0x1d1))];}function _0xac2b9(){const _0x26a263=_0x343dc3;return Math[_0x26a263(0x1a2)](_0x50a452()['length']-0x1,0x0);}function _0x585d28(){const _0x8d7a3c=_0x343dc3,_0x291914=document['getElementById']('pages-container');if(!_0x291914||!_0x291914[_0x8d7a3c(0x1aa)])return 0x0;const _0x299f86=_0xac2b9();return Math[_0x8d7a3c(0x1d7)](_0x299f86,Math[_0x8d7a3c(0x1a2)](0x0,Math['round'](_0x291914[_0x8d7a3c(0x1bc)]/_0x291914[_0x8d7a3c(0x1aa)])));}function _0x3ec12a(_0x30c61a,_0x52254e=_0x343dc3(0x1c5)){const _0x3bfa95=_0x343dc3,_0x2313f5=document[_0x3bfa95(0x1df)](_0x3bfa95(0x19f));if(!_0x2313f5||!_0x2313f5[_0x3bfa95(0x1aa)])return 0x0;const _0x145a4b=Math[_0x3bfa95(0x1d7)](_0xac2b9(),Math['max'](0x0,_0x30c61a));return _0x2313f5[_0x3bfa95(0x1ca)]({'left':_0x145a4b*_0x2313f5[_0x3bfa95(0x1aa)],'behavior':_0x52254e}),_0x145a4b;}function _0x2f283a(_0x4c33d5=_0x585d28()){const _0x1dffff=_0x343dc3,_0x447f73=document['querySelectorAll']('.page-indicators\x20.dot');_0x447f73[_0x1dffff(0x1bb)]((_0x1c87f,_0x1f15a7)=>{const _0x498ef6=_0x1dffff;if(_0x1f15a7===_0x4c33d5)_0x1c87f[_0x498ef6(0x1d9)]['add'](_0x498ef6(0x1d3));else _0x1c87f[_0x498ef6(0x1d9)][_0x498ef6(0x1ba)](_0x498ef6(0x1d3));});}const _0x4fbabd=document[_0x343dc3(0x1df)](_0x343dc3(0x19f));if(_0x4fbabd){let _0x3aeceb=![],_0x4417fe,_0x303a90,_0x498899=null;_0x4fbabd[_0x343dc3(0x1a8)](_0x343dc3(0x1d5),_0x4bc647=>{const _0x17908f=_0x343dc3;if(window['isJiggleMode']||window['preventAppClick']||_0x4bc647[_0x17908f(0x1c4)][_0x17908f(0x1a7)](_0x17908f(0x1d4)))return;_0x3aeceb=!![],_0x4417fe=_0x4bc647[_0x17908f(0x1f5)]-_0x4fbabd[_0x17908f(0x1c7)],_0x303a90=_0x4fbabd[_0x17908f(0x1bc)],_0x4fbabd['style'][_0x17908f(0x1f2)]=_0x17908f(0x1dd),_0x4fbabd[_0x17908f(0x1cf)][_0x17908f(0x1a4)]=_0x17908f(0x1f4);}),_0x4fbabd[_0x343dc3(0x1a8)](_0x343dc3(0x1db),()=>{const _0x20c0b4=_0x343dc3;if(!_0x3aeceb)return;_0x3aeceb=![],_0x4fbabd[_0x20c0b4(0x1cf)][_0x20c0b4(0x1f2)]='',_0x4fbabd[_0x20c0b4(0x1cf)][_0x20c0b4(0x1a4)]='',_0x27c864();}),_0x4fbabd[_0x343dc3(0x1a8)](_0x343dc3(0x1e2),()=>{const _0x546481=_0x343dc3;if(!_0x3aeceb)return;_0x3aeceb=![],_0x4fbabd[_0x546481(0x1cf)][_0x546481(0x1f2)]='',_0x4fbabd[_0x546481(0x1cf)][_0x546481(0x1a4)]='',_0x27c864();}),_0x4fbabd[_0x343dc3(0x1a8)](_0x343dc3(0x1ad),_0x19c9ef=>{const _0x1aa290=_0x343dc3;if(!_0x3aeceb)return;if(window['isJiggleMode']){_0x3aeceb=![],_0x4fbabd[_0x1aa290(0x1cf)]['scrollSnapType']='',_0x4fbabd[_0x1aa290(0x1cf)]['cursor']='';return;}_0x19c9ef[_0x1aa290(0x1d8)]();const _0x170a62=_0x19c9ef[_0x1aa290(0x1f5)]-_0x4fbabd[_0x1aa290(0x1c7)],_0x2324fd=(_0x170a62-_0x4417fe)*1.5;_0x4fbabd[_0x1aa290(0x1bc)]=_0x303a90-_0x2324fd;});function _0x27c864(){const _0x657dfe=_0x343dc3;if(!_0x4fbabd[_0x657dfe(0x1aa)])return;const _0x34eb92=Math['round'](_0x4fbabd[_0x657dfe(0x1bc)]/_0x4fbabd[_0x657dfe(0x1aa)]);_0x3ec12a(_0x34eb92,'smooth');}_0x4fbabd['addEventListener'](_0x343dc3(0x1a9),()=>{if(_0x498899)return;_0x498899=requestAnimationFrame(()=>{_0x2f283a(),_0x498899=null;});}),_0x2f283a();}document['addEventListener'](_0x343dc3(0x1b7),()=>{const _0x28c4db=_0x343dc3;_0x4f99ef()?console[_0x28c4db(0x1e4)](_0x28c4db(0x1b4)):console[_0x28c4db(0x1e4)](_0x28c4db(0x1e8)),requestAnimationFrame(()=>{requestAnimationFrame(()=>{const _0x508c73=_0x2fa3;typeof window[_0x508c73(0x19e)]===_0x508c73(0x1b6)&&window[_0x508c73(0x19e)]();});});});}()));
+(function() {
+    // ==========================================
+    // 1. 系统与全屏配置 (PWA / iOS 适配)
+    // ==========================================
+    
+    /* 防止 iOS Safari 橡皮筋弹动 (仅限制 body 的 touchmove 以免影响应用内部滚动) */
+    document.addEventListener('touchmove', function(e) {
+        // 如果事件目标是 body 或 html，或者是我们最外层的容器，则阻止默认行为
+        if (e.target === document.body || e.target === document.documentElement || e.target.id === 'app') {
+            e.preventDefault();
+        }
+    }, { passive: false });
+
+    /* 禁止双击缩放（旧版 iOS 兼容） */
+    let lastTap = 0;
+    document.addEventListener('touchend', function(e) {
+        const now = Date.now();
+        if (now - lastTap < 300) { 
+            e.preventDefault(); 
+        }
+        lastTap = now;
+    }, { passive: false });
+
+    /* Standalone detection for PWA/fullscreen mode. */
+    function isStandalone() {
+        return ('standalone' in window.navigator && window.navigator.standalone) || window.matchMedia('(display-mode: standalone)').matches;
+    }
+
+    // ==========================================
+    // 全局通用方法
+    // ==========================================
+    window.openView = function(viewElement) {
+        if(viewElement) viewElement.classList.add('active');
+    };
+
+    window.closeView = function(viewElement) {
+        if(viewElement) viewElement.classList.remove('active');
+    };
+
+    // --- Custom Modal System ---
+    window.showCustomModal = function(options) {
+        const overlay = document.getElementById('custom-modal-overlay');
+        if (!overlay) return;
+
+        const titleEl = document.getElementById('modal-title');
+        const messageEl = document.getElementById('modal-message');
+        const cancelBtn = document.getElementById('modal-cancel-btn');
+        const confirmBtn = document.getElementById('modal-confirm-btn');
+        
+        if (titleEl) titleEl.textContent = options.title || '提示';
+        if (messageEl) messageEl.textContent = options.message || '';
+        
+        if (cancelBtn) {
+            cancelBtn.textContent = options.cancelText || '取消';
+            cancelBtn.onclick = () => {
+                window.closeView(overlay);
+                if (options.onCancel) options.onCancel();
+            };
+        }
+        
+        if (confirmBtn) {
+            confirmBtn.textContent = options.confirmText || '确定';
+            if (options.isDestructive) {
+                confirmBtn.style.color = '#ff3b30';
+            } else {
+                confirmBtn.style.color = '#007aff';
+            }
+            confirmBtn.onclick = () => {
+                window.closeView(overlay);
+                if (options.onConfirm) options.onConfirm();
+            };
+        }
+
+        // Handle prompt vs confirm
+        const promptContent = document.getElementById('modal-prompt-content');
+        const confirmContent = document.getElementById('modal-confirm-content');
+        const promptConfirmBtn = document.getElementById('modal-prompt-confirm-btn');
+        const modalInput = document.getElementById('modal-input');
+
+        if (options.type === 'prompt') {
+            if (promptContent) promptContent.style.display = 'block';
+            if (confirmContent) confirmContent.style.display = 'none';
+            if (confirmBtn) confirmBtn.style.display = 'none';
+            if (promptConfirmBtn) {
+                promptConfirmBtn.style.display = 'block';
+                promptConfirmBtn.textContent = options.confirmText || '确定';
+                promptConfirmBtn.onclick = () => {
+                    window.closeView(overlay);
+                    if (options.onConfirm) options.onConfirm(modalInput ? modalInput.value : '');
+                };
+            }
+            if (modalInput) {
+                modalInput.placeholder = options.placeholder || '请输入';
+                modalInput.value = options.defaultValue || '';
+            }
+        } else {
+            if (promptContent) promptContent.style.display = 'none';
+            if (confirmContent) confirmContent.style.display = 'block';
+            if (confirmBtn) confirmBtn.style.display = 'block';
+            if (promptConfirmBtn) promptConfirmBtn.style.display = 'none';
+        }
+
+        window.openView(overlay);
+    };
+
+    // --- Toast Notification System ---
+    let toastTimeout = null;
+    window.showToast = function(message, duration = 2000) {
+        let toast = document.getElementById('global-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'global-toast';
+            toast.className = 'toast-bubble';
+            // Append to screen container to stay within phone frame
+            const screen = document.getElementById('app');
+            if (screen) {
+                screen.appendChild(toast);
+            } else {
+                document.body.appendChild(toast);
+            }
+        }
+
+        toast.textContent = message;
+        toast.classList.remove('show');
+        
+        // Force reflow
+        void toast.offsetWidth;
+        
+        toast.classList.add('show');
+
+        if (toastTimeout) clearTimeout(toastTimeout);
+        toastTimeout = setTimeout(() => {
+            toast.classList.remove('show');
+        }, duration);
+    };
+
+    window.formatChatBubbleTime = function(timestamp) {
+        if (!timestamp) return '';
+        const date = new Date(timestamp);
+        const now = new Date();
+        
+        const y = date.getFullYear();
+        const m = (date.getMonth() + 1).toString().padStart(2, '0');
+        const d = date.getDate().toString().padStart(2, '0');
+        const hh = date.getHours().toString().padStart(2, '0');
+        const mm = date.getMinutes().toString().padStart(2, '0');
+        
+        const isToday = y === now.getFullYear() && date.getMonth() === now.getMonth() && date.getDate() === now.getDate();
+        const isThisYear = y === now.getFullYear();
+
+        if (isToday) {
+            return `${hh}:${mm}`;
+        } else if (isThisYear) {
+            return `${m}/${d} ${hh}:${mm}`;
+        } else {
+            return `${y}/${m}/${d} ${hh}:${mm}`;
+        }
+    };
+
+    // ==========================================
+    // 2. 状态管理 
+    // ==========================================
+    // TODO: 实现应用状态、页面数据、Widget数据的统一管理
+    // 可考虑结合 window.StorageManager 使用
+
+
+    // ==========================================
+    // 3. UI 交互与事件绑定 (待实现)
+    // ==========================================
+    // TODO: 实现 App 图标点击进入应用的动画及页面切换
+    // TODO: 实现 Widget 组件的点击编辑、数据渲染
+
+    function getAllMainGrids() {
+        return [...document.querySelectorAll('.main-grid')];
+    }
+
+    function getMaxHomePageIndex() {
+        return Math.max(getAllMainGrids().length - 1, 0);
+    }
+
+    function getCurrentHomePageIndex() {
+        const pagesContainerEl = document.getElementById('pages-container');
+        if (!pagesContainerEl || !pagesContainerEl.clientWidth) return 0;
+        const maxIndex = getMaxHomePageIndex();
+        return Math.min(maxIndex, Math.max(0, Math.round(pagesContainerEl.scrollLeft / pagesContainerEl.clientWidth)));
+    }
+
+    function scrollToHomePageIndex(index, behavior = 'smooth') {
+        const pagesContainerEl = document.getElementById('pages-container');
+        if (!pagesContainerEl || !pagesContainerEl.clientWidth) return 0;
+        const targetIndex = Math.min(getMaxHomePageIndex(), Math.max(0, index));
+        pagesContainerEl.scrollTo({
+            left: targetIndex * pagesContainerEl.clientWidth,
+            behavior
+        });
+        return targetIndex;
+    }
+
+    function updateHomePageIndicators(pageIndex = getCurrentHomePageIndex()) {
+        const dots = document.querySelectorAll('.page-indicators .dot');
+        dots.forEach((dot, index) => {
+            if (index === pageIndex) dot.classList.add('active');
+            else dot.classList.remove('active');
+        });
+    }
+
+    // ==========================================
+    // 11. SWIPE / SCROLL NAVIGATION
+    // ==========================================
+    const pagesContainer = document.getElementById('pages-container');
+    if (pagesContainer) {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        let scrollRAF = null;
+
+        // Using mousedown/mousemove/mouseup to support desktop mouse sliding 
+        // while preserving native CSS scroll-snap on touch devices
+        pagesContainer.addEventListener('mousedown', (e) => {
+            if (window.isJiggleMode || window.preventAppClick || e.target.closest('.bottom-sheet-overlay')) return;
+            isDown = true;
+            startX = e.pageX - pagesContainer.offsetLeft;
+            scrollLeft = pagesContainer.scrollLeft;
+            pagesContainer.style.scrollSnapType = 'none'; // Temporarily disable snap during drag
+            pagesContainer.style.cursor = 'grabbing';
+        });
+
+        pagesContainer.addEventListener('mouseleave', () => {
+            if (!isDown) return;
+            isDown = false;
+            pagesContainer.style.scrollSnapType = '';
+            pagesContainer.style.cursor = '';
+            snapToNearestPage();
+        });
+
+        pagesContainer.addEventListener('mouseup', () => {
+            if (!isDown) return;
+            isDown = false;
+            pagesContainer.style.scrollSnapType = '';
+            pagesContainer.style.cursor = '';
+            snapToNearestPage();
+        });
+
+        pagesContainer.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            if (window.isJiggleMode) {
+                isDown = false;
+                pagesContainer.style.scrollSnapType = '';
+                pagesContainer.style.cursor = '';
+                return;
+            }
+            
+            e.preventDefault();
+            const x = e.pageX - pagesContainer.offsetLeft;
+            const walk = (x - startX) * 1.5;
+            pagesContainer.scrollLeft = scrollLeft - walk;
+        });
+
+        function snapToNearestPage() {
+            if (!pagesContainer.clientWidth) return;
+            const pageIndex = Math.round(pagesContainer.scrollLeft / pagesContainer.clientWidth);
+            scrollToHomePageIndex(pageIndex, 'smooth');
+        }
+        
+        pagesContainer.addEventListener('scroll', () => {
+            if (scrollRAF) return;
+            scrollRAF = requestAnimationFrame(() => {
+                updateHomePageIndicators();
+                scrollRAF = null;
+            });
+        });
+
+        updateHomePageIndicators();
+    }
+    
+
+    // ==========================================
+    // 4. 初始化加载
+    // ==========================================
+    document.addEventListener('DOMContentLoaded', () => {
+        if (isStandalone()) {
+            console.log("App is running in Standalone (Fullscreen) mode.");
+            // 在全屏模式下，你可以根据需要做一些特殊的 UI 调整
+        } else {
+            console.log("App is running in Browser mode.");
+            // 可以提示用户将其添加到主屏幕
+        }
+
+        // 初始化主屏幕 UI 等后续操作可在此执行
+        // 延时等待主要 DOM 和 Storage 渲染完毕后，移除开屏动画
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                if (typeof window.removeSplashScreen === 'function') {
+                    window.removeSplashScreen();
+                }
+            });
+        });
+    });
+
+})();

@@ -1,1 +1,591 @@
-function _0x37cd(){const _0x552104=['</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-memory-request-btn\x20is-cancel\x22\x20data-action=\x22cancel-memory-request\x22\x20data-event-id=\x22','6553096HWpjmb','暂无更多详情','filter','showProfileEventDetail','schedule','resolveFriendId','profilePanel','normalizeFriendData','signature','这个人很懒，什么都没写','data-event-id','Unknown','data-tab','applyFriendStatusBarCss','thought','事件详情','length','addEventListener','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20flex-end;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f2f2f7;\x20color:\x20#8e8e93;\x20padding:\x204px\x2010px;\x20border-radius:\x20999px;\x20font-size:\x2013px;\x20font-weight:\x20700;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22></i>\x20','getProfilePanelUiState','cancelMemoryRequestEvent','cancelled','.chat-profile-event-detail-time','toggleProfilePanel','enabled','nickname','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-card\x22\x20data-event-id=\x22','time','description','[data-action=\x22confirm-memory-request\x22],\x20[data-action=\x22cancel-memory-request\x22],\x20[data-action=\x22open-event-detail\x22]','memory','title','latestThought','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-overlay\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-event-detail-close\x22\x20aria-label=\x22关闭\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-label\x22>记忆详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-title\x22>事件详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-time\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-desc\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-detail-detail\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-floating-tabs\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20row;\x20gap:\x2020px;\x20margin-top:\x2024px;\x20z-index:\x20100;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-panel-tab-btn\x20','3591825SlzAFR','profilePanelUiStateByFriendId','7CKQrYx','.chat-profile-panel-close','23:00','display','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','210MUuplq','currentSettingsFriend','\x22>查看详情</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','open','getMinutes','style','hideProfileEventDetail','function','imChat','<div></div>','新的事件','<div\x20class=\x22chat-profile-memory-request-time\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-events\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','想把这一刻记住。','contains','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','join','sourceEventId','initChatSettingsForFriend','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty-title\x22>暂无心声</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty-desc\x22>这里会展示这个角色此刻的心声。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','object','cancel-memory-request','showProfilePanel','reason','confirm-memory-request','requestText','DOMContentLoaded','imData','events','getProfilePanelEvents','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','target','showToast','sleepTime','<div\x20class=\x22chat-profile-event-time\x22>','isCharacterSleeping','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#fff','<div\x20class=\x22chat-profile-memory-request-detail\x22>','classList','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-panel-close\x22\x20aria-label=\x22关闭\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-body\x20chat-profile-panel-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-name-row\x22\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-name\x22>','remove','flex','事件状态更新失败','2240884MgUBaw','hideProfilePanel','珍视回忆','commitScopedFriendChange','4603005QECizb','add','createDefaultProfilePanel','暂无内容','detail','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20width:\x20100%;\x20max-width:\x20320px;\x20margin:\x200\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-card\x22\x20style=\x22width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-header\x20chat-profile-panel-header\x22\x20style=\x22position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-avatar-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-avatar\x22><img\x20src=\x22','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f2f2f7;\x20border-radius:\x2014px;\x20padding:\x2010px\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20font-weight:\x20700;\x22>心情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#333;\x20line-height:\x201.4;\x20word-break:\x20break-all;\x20display:\x20-webkit-box;\x20-webkit-line-clamp:\x202;\x20-webkit-box-orient:\x20vertical;\x20overflow:\x20hidden;\x22>','trim','default','offline','cherished','none','map','buildProfilePanelBody','想记住某件事','getFriendById','保存珍视回忆失败','memory_request','getProfilePanelData','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','renderProfilePanel','.chat-profile-event-detail-overlay','toString','.chat-profile-event-detail-desc','setProfilePanelTab','</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-memory-request-btn\x20is-confirm\x22\x20data-action=\x22confirm-memory-request\x22\x20data-event-id=\x22','preventDefault','memoryPayload','原因：','confirmText','forEach','6JzLEYh','1082BATNus','imApp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty-title\x22>暂无事件</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-empty-desc\x22>这里会展示和这个角色相关的近期事件记录。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','buildCherishedMemoryEntryFromEvent','#111','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-title-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-title\x22>','403ZwctTH','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','number','\x22\x20data-tab=\x22events\x22\x20style=\x22width:\x2052px;\x20height:\x2052px;\x20border-radius:\x2050%;\x20border:\x20none;\x20background:\x20','confirmed','split','getProfilePanelMetrics','content',';\x20\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-size:\x2022px;\x20cursor:\x20pointer;\x20transition:\x20transform\x200.2s,\x20background\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-flag\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f2f2f7;\x20border-radius:\x2014px;\x20padding:\x2010px\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20font-weight:\x20700;\x22>表情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#333;\x20line-height:\x201.4;\x20word-break:\x20break-all;\x20display:\x20-webkit-box;\x20-webkit-line-clamp:\x202;\x20-webkit-box-orient:\x20vertical;\x20overflow:\x20hidden;\x22>','mergeCherishedMemoryText','1677786XexmfH','data-action','916971GJhagx','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getHours','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-content\x22>','querySelectorAll','realName','click','push','status','touchstart','cancelText','includes','<span\x20class=\x22chat-profile-memory-request-badge\x20is-cancelled\x22>已取消</span>','textContent','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','open-event-detail','isArray','action','activeTab','stopPropagation','location','querySelector','\x22\x20data-tab=\x22thought\x22\x20style=\x22width:\x2052px;\x20height:\x2052px;\x20border-radius:\x2050%;\x20border:\x20none;\x20background:\x20','createdAt','cherishedEntries',';\x20color:\x20','getAttribute','<span\x20class=\x22chat-profile-memory-request-badge\x20is-confirmed\x22>已记住</span>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-event-item\x22\x20data-event-id=\x22','affection','stopImmediatePropagation','findIndex','splice','affectionChange','type','online','active','cherished-'];_0x37cd=function(){return _0x552104;};return _0x37cd();}const _0xba8e40=_0x59d1;function _0x59d1(_0x29a5a0,_0x9028cf){_0x29a5a0=_0x29a5a0-0x17d;const _0x37cd33=_0x37cd();let _0x59d135=_0x37cd33[_0x29a5a0];return _0x59d135;}(function(_0x19f01a,_0x52054b){const _0x10c346=_0x59d1,_0x2bf047=_0x19f01a();while(!![]){try{const _0x37bb60=parseInt(_0x10c346(0x19d))/0x1*(parseInt(_0x10c346(0x197))/0x2)+parseInt(_0x10c346(0x1a8))/0x3+-parseInt(_0x10c346(0x226))/0x4+-parseInt(_0x10c346(0x1f3))/0x5*(-parseInt(_0x10c346(0x196))/0x6)+-parseInt(_0x10c346(0x1f5))/0x7*(-parseInt(_0x10c346(0x1d1))/0x8)+parseInt(_0x10c346(0x22a))/0x9+parseInt(_0x10c346(0x1fa))/0xa*(-parseInt(_0x10c346(0x1aa))/0xb);if(_0x37bb60===_0x52054b)break;else _0x2bf047['push'](_0x2bf047['shift']());}catch(_0x9cb353){_0x2bf047['push'](_0x2bf047['shift']());}}}(_0x37cd,0x7dd66),document[_0xba8e40(0x1e2)](_0xba8e40(0x214),()=>{const _0x4138a1=_0xba8e40;window[_0x4138a1(0x202)]=window['imChat']||{};async function _0x280287(_0x56139d,_0x47be3b,_0x27a7ce={}){const _0x3588af=_0x4138a1,_0x4bb1a0={'metaOnly':_0x27a7ce['metaOnly']!==![],..._0x27a7ce};return window[_0x3588af(0x198)][_0x3588af(0x229)](_0x56139d,_0x47be3b,{'syncActive':!![],..._0x4bb1a0});}function _0x1d9752(_0x310d58){const _0xc0204b=_0x4138a1;if(!_0x310d58)return window[_0xc0204b(0x198)][_0xc0204b(0x22c)]({});const _0xc3e00d=window[_0xc0204b(0x198)][_0xc0204b(0x22c)](_0x310d58);return _0x310d58[_0xc0204b(0x1d7)]=_0xc3e00d,_0x310d58[_0xc0204b(0x1f1)]=_0xc3e00d['thought'],_0x310d58['status']=_0xc3e00d['status']||'online',_0xc3e00d;}function _0x3c4b36(_0xc709d0){const _0xbcb69a=_0x4138a1;if(!_0xc709d0)return window[_0xbcb69a(0x198)][_0xbcb69a(0x22c)]({});return _0x1d9752(_0xc709d0);}function _0x1de0c6(_0x525fae){const _0x534883=_0x4138a1,_0x2dcd75=window['imApp'][_0x534883(0x1d6)](_0x525fae),_0x409cc3=_0x2dcd75!=null?String(_0x2dcd75):_0x534883(0x17e),_0x216e5a=window[_0x534883(0x215)]['profilePanelUiStateByFriendId']||(window[_0x534883(0x215)][_0x534883(0x1f4)]={}),_0x28bc25=_0x216e5a[_0x409cc3];return(!_0x28bc25||typeof _0x28bc25!==_0x534883(0x20e)||typeof _0x28bc25['activeTab']!=='string')&&(_0x216e5a[_0x409cc3]={'open':![],'activeTab':_0x534883(0x1df)}),![_0x534883(0x1df),'events']['includes'](_0x216e5a[_0x409cc3][_0x534883(0x1bc)])&&(_0x216e5a[_0x409cc3]['activeTab']='thought'),_0x216e5a[_0x409cc3];}function _0x47ed2e(_0x786fe5,_0x2df573){const _0x10e78b=_0x4138a1,_0x1d4f46=window[_0x10e78b(0x202)][_0x10e78b(0x1e4)](_0x786fe5),_0x4f9ae2=['thought','events']['includes'](_0x2df573)?_0x2df573:'thought';_0x1d4f46[_0x10e78b(0x1bc)]=_0x4f9ae2;const _0x4b3c06=window[_0x10e78b(0x198)][_0x10e78b(0x185)](_0x786fe5);return _0x4b3c06&&(_0x1d9752(_0x4b3c06)['activeTab']=_0x4f9ae2),_0x4f9ae2;}function _0x2e75b4(_0x1f8134){const _0x49a937=_0x4138a1,_0x2553ad=window[_0x49a937(0x202)]['getProfilePanelData'](_0x1f8134);return Array[_0x49a937(0x1ba)](_0x2553ad['events'])?_0x2553ad[_0x49a937(0x216)]:[];}function _0x7b73cd(){return[];}function _0xc2aa9f(_0x3b22d0,_0x591a4a){const _0x16f088=_0x4138a1;if(!_0x3b22d0)return null;const _0x583ff2=_0x3b22d0['memoryPayload']&&typeof _0x3b22d0['memoryPayload']===_0x16f088(0x20e)?_0x3b22d0[_0x16f088(0x192)]:null,_0xe25a76=_0x16f088(0x1cf)+(_0x3b22d0['id']||Date['now']()),_0x3af769=_0x583ff2?.['title']||_0x3b22d0[_0x16f088(0x1f0)]||_0x16f088(0x228),_0x3ace24=_0x583ff2?.[_0x16f088(0x1a4)]||_0x3b22d0[_0x16f088(0x213)]||_0x3b22d0[_0x16f088(0x1ed)]||'',_0x4917de=_0x583ff2?.['detail']||_0x3b22d0[_0x16f088(0x22e)]||'',_0x3a2680=_0x583ff2?.[_0x16f088(0x211)]||'',_0x85e5dd=_0x583ff2?.[_0x16f088(0x1c1)]||_0x3b22d0['time']||'',_0x2c42c6=_0x583ff2?.['sourceThought']||_0x591a4a?.[_0x16f088(0x1d7)]?.[_0x16f088(0x1df)]||_0x591a4a?.[_0x16f088(0x1f1)]||'';if(!_0x3ace24[_0x16f088(0x17d)]())return null;return{'id':_0xe25a76,'title':_0x3af769,'content':_0x3ace24,'detail':_0x4917de,'reason':_0x3a2680,'sourceEventId':String(_0x583ff2?.[_0x16f088(0x20b)]||_0x3b22d0['id']||''),'createdAt':_0x85e5dd,'sourceThought':_0x2c42c6};}function _0x51dbf8(_0x1fce4c,_0x4f4a89){const _0x1d7c90=_0x4138a1,_0x306fba=typeof _0x1fce4c==='string'?_0x1fce4c[_0x1d7c90(0x17d)]():'';if(!_0x4f4a89||!_0x4f4a89[_0x1d7c90(0x1a4)])return _0x306fba;const _0x34cbc9=[_0x4f4a89[_0x1d7c90(0x1f0)]?'【'+_0x4f4a89[_0x1d7c90(0x1f0)]+'】':'',_0x4f4a89[_0x1d7c90(0x1a4)]||'',_0x4f4a89[_0x1d7c90(0x211)]?_0x1d7c90(0x193)+_0x4f4a89[_0x1d7c90(0x211)]:'']['filter'](Boolean),_0x170e35=_0x34cbc9[_0x1d7c90(0x20a)]('\x0a')[_0x1d7c90(0x17d)]();if(!_0x170e35)return _0x306fba;if(_0x306fba[_0x1d7c90(0x1b5)](_0x4f4a89[_0x1d7c90(0x1a4)]))return _0x306fba;return _0x306fba?_0x306fba+'\x0a\x0a'+_0x170e35:_0x170e35;}async function _0x407579(_0x4a91da,_0x18e237){const _0x5624c0=_0x4138a1,_0x2c36e4=window[_0x5624c0(0x198)][_0x5624c0(0x185)](_0x4a91da);if(!_0x2c36e4||!_0x18e237)return![];const _0x203f74=await _0x280287(_0x2c36e4,_0x1a58b6=>{const _0x3ff2a1=_0x5624c0;if(!_0x1a58b6)return;_0x1a58b6[_0x3ff2a1(0x1ef)]=window['imApp'][_0x3ff2a1(0x1d8)](_0x1a58b6)[_0x3ff2a1(0x1ef)];const _0x5b0573=_0x1d9752(_0x1a58b6),_0x3c24d6=Array['isArray'](_0x5b0573[_0x3ff2a1(0x216)])?_0x5b0573[_0x3ff2a1(0x216)]:[],_0x4a4c4f=_0x3c24d6[_0x3ff2a1(0x1c9)](_0x3af00c=>String(_0x3af00c['id'])===String(_0x18e237));if(_0x4a4c4f<0x0)return;const _0x42626a=_0x3c24d6[_0x4a4c4f],_0x9a8c5e=_0xc2aa9f(_0x42626a,_0x1a58b6);if(!_0x9a8c5e){_0x3c24d6[_0x3ff2a1(0x1ca)](_0x4a4c4f,0x1),_0x5b0573[_0x3ff2a1(0x216)]=_0x3c24d6;return;}const _0x426692=Array[_0x3ff2a1(0x1ba)](_0x1a58b6[_0x3ff2a1(0x1ef)]['cherishedEntries'])?_0x1a58b6[_0x3ff2a1(0x1ef)][_0x3ff2a1(0x1c2)]:[],_0x557cda=_0x426692['some'](_0x1c1eab=>{const _0xa72bd2=_0x3ff2a1;if(!_0x1c1eab)return![];if(_0x1c1eab['sourceEventId']&&String(_0x1c1eab[_0xa72bd2(0x20b)])===String(_0x42626a['id']))return!![];return String(_0x1c1eab[_0xa72bd2(0x1a4)]||'')[_0xa72bd2(0x17d)]()&&String(_0x1c1eab['content']||'')['trim']()===String(_0x9a8c5e['content']||'')['trim']();});!_0x557cda&&_0x426692[_0x3ff2a1(0x1b1)](_0x9a8c5e),_0x1a58b6[_0x3ff2a1(0x1ef)][_0x3ff2a1(0x1c2)]=_0x426692,_0x1a58b6[_0x3ff2a1(0x1ef)]['cherished']=_0x51dbf8(_0x1a58b6[_0x3ff2a1(0x1ef)][_0x3ff2a1(0x180)],_0x9a8c5e),_0x3c24d6[_0x3ff2a1(0x1ca)](_0x4a4c4f,0x1),_0x5b0573[_0x3ff2a1(0x216)]=_0x3c24d6;},{'silent':!![]});return _0x203f74;}async function _0x2d87f3(_0x18922e,_0x53ff8c){const _0x128670=_0x4138a1,_0x25f554=window[_0x128670(0x198)][_0x128670(0x185)](_0x18922e);if(!_0x25f554||!_0x53ff8c)return![];return _0x280287(_0x25f554,_0x6570c3=>{const _0x3ac5ed=_0x128670;if(!_0x6570c3)return;const _0x1def33=_0x1d9752(_0x6570c3);let _0x247f75=Array['isArray'](_0x1def33[_0x3ac5ed(0x216)])?_0x1def33[_0x3ac5ed(0x216)]:[];_0x247f75=_0x247f75[_0x3ac5ed(0x1d3)](_0x417a3e=>String(_0x417a3e['id'])!==String(_0x53ff8c)),_0x1def33[_0x3ac5ed(0x216)]=_0x247f75;},{'silent':!![]});}function _0x13c5f6(_0x5389f3,_0x3d66eb,_0x3e9af7){const _0xbce514=_0x4138a1;if(!_0x5389f3||!_0x3d66eb||!_0x3e9af7)return;const _0x4c4666=_0x3e9af7['querySelector'](_0xbce514(0x18b)),_0x35c346=_0x3e9af7[_0xbce514(0x1bf)]('.chat-profile-event-detail-title'),_0x1c2ea1=_0x3e9af7[_0xbce514(0x1bf)](_0xbce514(0x1e7)),_0x2db898=_0x3e9af7[_0xbce514(0x1bf)](_0xbce514(0x18d)),_0x300689=_0x3e9af7[_0xbce514(0x1bf)]('.chat-profile-event-detail-detail');if(!_0x4c4666||!_0x35c346||!_0x1c2ea1||!_0x2db898||!_0x300689)return;const _0x5c46cf=window[_0xbce514(0x202)]['getProfilePanelEvents'](_0x5389f3),_0x1e4c63=_0x5c46cf['find'](_0x10bfd9=>String(_0x10bfd9['id'])===String(_0x3d66eb));if(!_0x1e4c63)return;_0x35c346[_0xbce514(0x1b7)]=_0x1e4c63[_0xbce514(0x1f0)]||_0xbce514(0x1e0),_0x1c2ea1[_0xbce514(0x1b7)]=_0x1e4c63[_0xbce514(0x1ec)]||'',_0x2db898[_0xbce514(0x1b7)]=_0x1e4c63[_0xbce514(0x213)]||_0x1e4c63['description']||_0xbce514(0x22d),_0x300689[_0xbce514(0x1b7)]=_0x1e4c63[_0xbce514(0x22e)]||_0x1e4c63['memoryPayload']?.[_0xbce514(0x22e)]||_0x1e4c63['memoryPayload']?.['reason']||_0xbce514(0x1d2),_0x4c4666[_0xbce514(0x1ff)][_0xbce514(0x1f8)]=_0xbce514(0x224),requestAnimationFrame(()=>{const _0x266dc8=_0xbce514;_0x4c4666['classList'][_0x266dc8(0x22b)]('active');});}function _0x382fb0(_0x1bc4cf){const _0x544960=_0x4138a1;if(!_0x1bc4cf)return;const _0x520b14=_0x1bc4cf[_0x544960(0x1bf)]('.chat-profile-event-detail-overlay');if(!_0x520b14)return;_0x520b14['classList']['remove']('active'),setTimeout(()=>{const _0x82643c=_0x544960;!_0x520b14[_0x82643c(0x221)][_0x82643c(0x208)](_0x82643c(0x1ce))&&(_0x520b14[_0x82643c(0x1ff)][_0x82643c(0x1f8)]=_0x82643c(0x181));},0xdc);}function _0x1a0c94(_0x246ed5,_0x1791fb){const _0x9a60f2=_0x4138a1,_0x3689c2=window[_0x9a60f2(0x202)][_0x9a60f2(0x188)](_0x246ed5),_0x5b8e7d=[_0x9a60f2(0x1df),_0x9a60f2(0x216)][_0x9a60f2(0x1b5)](_0x1791fb)?_0x1791fb:_0x9a60f2(0x1df);if(_0x5b8e7d==='events'){const _0x8b4e65=window[_0x9a60f2(0x202)][_0x9a60f2(0x217)](_0x246ed5);if(_0x8b4e65[_0x9a60f2(0x1e1)]===0x0)return _0x9a60f2(0x199);return _0x9a60f2(0x206)+_0x8b4e65[_0x9a60f2(0x182)](_0x59105e=>{const _0x454c24=_0x9a60f2;if(_0x59105e[_0x454c24(0x1cc)]===_0x454c24(0x187)){const _0x97cdd1=_0x59105e['status']===_0x454c24(0x1a1)?_0x454c24(0x1c5):_0x59105e[_0x454c24(0x1b2)]===_0x454c24(0x1e6)?_0x454c24(0x1b6):'<span\x20class=\x22chat-profile-memory-request-badge\x22>待处理</span>',_0x5039a0=_0x59105e['status']==='pending'?_0x454c24(0x190)+_0x59105e['id']+'\x22>'+(_0x59105e[_0x454c24(0x194)]||'确认')+_0x454c24(0x1d0)+_0x59105e['id']+'\x22>'+(_0x59105e[_0x454c24(0x1b4)]||'取消')+'</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'';return _0x454c24(0x1eb)+_0x59105e['id']+'\x22\x20data-event-type=\x22memory_request\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-top\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-memory-request-title\x22>'+(_0x59105e[_0x454c24(0x1f0)]||_0x454c24(0x184))+_0x454c24(0x209)+_0x97cdd1+_0x454c24(0x1ad)+(_0x59105e[_0x454c24(0x213)]||_0x59105e['description']||_0x454c24(0x207))+_0x454c24(0x1ab)+(_0x59105e['detail']?_0x454c24(0x220)+_0x59105e[_0x454c24(0x22e)]+_0x454c24(0x18f):'')+_0x454c24(0x1f9)+(_0x59105e[_0x454c24(0x1ec)]?_0x454c24(0x205)+_0x59105e['time']+_0x454c24(0x18f):_0x454c24(0x203))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-memory-request-detail-trigger\x22\x20data-action=\x22open-event-detail\x22\x20data-event-id=\x22'+_0x59105e['id']+_0x454c24(0x1fc)+_0x5039a0+_0x454c24(0x19e);}return _0x454c24(0x1c6)+_0x59105e['id']+_0x454c24(0x19c)+(_0x59105e[_0x454c24(0x1f0)]||_0x454c24(0x204))+_0x454c24(0x209)+(_0x59105e[_0x454c24(0x1ec)]?_0x454c24(0x21c)+_0x59105e['time']+_0x454c24(0x18f):'')+_0x454c24(0x21e)+(_0x59105e[_0x454c24(0x1ed)]?'<div\x20class=\x22chat-profile-event-desc\x22>'+_0x59105e[_0x454c24(0x1ed)]+_0x454c24(0x18f):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';})[_0x9a60f2(0x20a)]('')+_0x9a60f2(0x218);}if(!_0x3689c2[_0x9a60f2(0x1df)]||!_0x3689c2['thought']['trim']())return _0x9a60f2(0x20d);return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-profile-panel-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-inner-voice\x20chat-profile-panel-thought\x22>'+_0x3689c2[_0x9a60f2(0x1df)][_0x9a60f2(0x17d)]()+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:\x2010px;\x20margin-top:\x202px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f2f2f7;\x20border-radius:\x2014px;\x20padding:\x2010px\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20font-weight:\x20700;\x22>位置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#333;\x20line-height:\x201.4;\x20word-break:\x20break-all;\x20display:\x20-webkit-box;\x20-webkit-line-clamp:\x202;\x20-webkit-box-orient:\x20vertical;\x20overflow:\x20hidden;\x22>'+(_0x3689c2[_0x9a60f2(0x1be)]||'未知')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f2f2f7;\x20border-radius:\x2014px;\x20padding:\x2010px\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20font-weight:\x20700;\x22>动作</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#333;\x20line-height:\x201.4;\x20word-break:\x20break-all;\x20display:\x20-webkit-box;\x20-webkit-line-clamp:\x202;\x20-webkit-box-orient:\x20vertical;\x20overflow:\x20hidden;\x22>'+(_0x3689c2[_0x9a60f2(0x1bb)]||'暂无')+_0x9a60f2(0x230)+(_0x3689c2['mood']||'平静')+_0x9a60f2(0x1a6)+(_0x3689c2['expression']||'自然')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x41b53d(_0x14f4ac,_0x5748c1){const _0x4f14b3=_0x4138a1;if(!_0x14f4ac||!_0x5748c1)return;const _0x19296e=window[_0x4f14b3(0x202)]['getProfilePanelData'](_0x14f4ac),_0x5041be=window[_0x4f14b3(0x202)]['getProfilePanelUiState'](_0x14f4ac),_0x13aa87=[_0x4f14b3(0x1df),_0x4f14b3(0x216)][_0x4f14b3(0x1b5)](_0x5041be[_0x4f14b3(0x1bc)])?_0x5041be[_0x4f14b3(0x1bc)]:[_0x4f14b3(0x1df),_0x4f14b3(0x216)][_0x4f14b3(0x1b5)](_0x19296e[_0x4f14b3(0x1bc)])?_0x19296e['activeTab']:_0x4f14b3(0x1df);_0x5041be['activeTab']=_0x13aa87,_0x19296e[_0x4f14b3(0x1bc)]=_0x13aa87;const _0x32c731=_0x14f4ac['avatarUrl']||'https://picsum.photos/seed/char/100/100';let _0x10d815=![];if(typeof window[_0x4f14b3(0x198)]['isCharacterSleeping']===_0x4f14b3(0x201))_0x10d815=window['imApp'][_0x4f14b3(0x21d)](_0x14f4ac);else{if(_0x14f4ac[_0x4f14b3(0x1ef)]&&_0x14f4ac[_0x4f14b3(0x1ef)][_0x4f14b3(0x1d5)]&&_0x14f4ac['memory'][_0x4f14b3(0x1d5)][_0x4f14b3(0x1e9)]){const _0x3d1104=new Date(),_0x307acc=_0x3d1104[_0x4f14b3(0x1ac)]()*0x3c+_0x3d1104[_0x4f14b3(0x1fe)](),_0xf880eb=_0x1eccd4=>{const _0x57e2b0=_0x4f14b3;if(!_0x1eccd4)return 0x0;const [_0x25a32c,_0x50c59d]=_0x1eccd4[_0x57e2b0(0x1a2)](':')[_0x57e2b0(0x182)](Number);return(_0x25a32c||0x0)*0x3c+(_0x50c59d||0x0);},_0x2d8619=_0xf880eb(_0x14f4ac[_0x4f14b3(0x1ef)][_0x4f14b3(0x1d5)][_0x4f14b3(0x21b)]||_0x4f14b3(0x1f7)),_0xc31ced=_0xf880eb(_0x14f4ac['memory']['schedule']['wakeTime']||'07:00');_0x2d8619>_0xc31ced?_0x10d815=_0x307acc>=_0x2d8619||_0x307acc<_0xc31ced:_0x10d815=_0x307acc>=_0x2d8619&&_0x307acc<_0xc31ced;}}const _0x511b11=_0x14f4ac[_0x4f14b3(0x1ea)]||_0x14f4ac[_0x4f14b3(0x1af)]||_0x4f14b3(0x1dc),_0x549cc9=_0x14f4ac[_0x4f14b3(0x1d9)]||_0x4f14b3(0x1da),_0x34a26d=_0x10d815?_0x4f14b3(0x17f):(_0x19296e[_0x4f14b3(0x1b2)]||_0x14f4ac[_0x4f14b3(0x1b2)]||_0x4f14b3(0x1cd))[_0x4f14b3(0x18c)]()[_0x4f14b3(0x17d)]()||_0x4f14b3(0x1cd),_0x489b16=typeof _0x14f4ac[_0x4f14b3(0x1d7)]?.['affection']===_0x4f14b3(0x19f)?_0x14f4ac[_0x4f14b3(0x1d7)][_0x4f14b3(0x1c7)]:typeof _0x19296e[_0x4f14b3(0x1c7)]===_0x4f14b3(0x19f)?_0x19296e['affection']:0x0,_0x5d9d48=typeof _0x14f4ac['profilePanel']?.[_0x4f14b3(0x1cb)]==='number'?_0x14f4ac['profilePanel'][_0x4f14b3(0x1cb)]:typeof _0x19296e[_0x4f14b3(0x1cb)]===_0x4f14b3(0x19f)?_0x19296e[_0x4f14b3(0x1cb)]:0x0,_0x591b9b=_0x5d9d48>=0x0?'+'+_0x5d9d48:''+_0x5d9d48;_0x5748c1['innerHTML']=_0x4f14b3(0x22f)+_0x32c731+'\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-status-bubble\x20chat-profile-panel-header-status\x22>'+_0x34a26d+_0x4f14b3(0x222)+_0x511b11+_0x4f14b3(0x1e3)+_0x489b16+_0x4f14b3(0x189)+(_0x5d9d48!==0x0?'<div\x20style=\x22font-size:\x2010px;\x20color:\x20#8e8e93;\x20margin-top:\x204px;\x20font-weight:\x20600;\x22>'+_0x591b9b+_0x4f14b3(0x18f):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-signature\x22>'+_0x549cc9+_0x4f14b3(0x1b8)+window[_0x4f14b3(0x202)][_0x4f14b3(0x183)](_0x14f4ac,_0x13aa87)+_0x4f14b3(0x1f2)+(_0x13aa87===_0x4f14b3(0x1df)?'active':'')+_0x4f14b3(0x1c0)+(_0x13aa87===_0x4f14b3(0x1df)?_0x4f14b3(0x19b):'#fff')+_0x4f14b3(0x1c3)+(_0x13aa87===_0x4f14b3(0x1df)?_0x4f14b3(0x21f):_0x4f14b3(0x19b))+';\x20\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-size:\x2022px;\x20cursor:\x20pointer;\x20transition:\x20transform\x200.2s,\x20background\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-profile-panel-tab-btn\x20'+(_0x13aa87===_0x4f14b3(0x216)?'active':'')+_0x4f14b3(0x1a0)+(_0x13aa87===_0x4f14b3(0x216)?_0x4f14b3(0x19b):_0x4f14b3(0x21f))+';\x20color:\x20'+(_0x13aa87===_0x4f14b3(0x216)?_0x4f14b3(0x21f):_0x4f14b3(0x19b))+_0x4f14b3(0x1a5);const _0x4c8f53=_0x5748c1['querySelector'](_0x4f14b3(0x1f6));_0x4c8f53&&_0x4c8f53[_0x4f14b3(0x1e2)]('click',_0x398d72=>{const _0x4711ea=_0x4f14b3;_0x398d72[_0x4711ea(0x1bd)](),window[_0x4711ea(0x202)][_0x4711ea(0x227)](_0x14f4ac,_0x5748c1);});const _0x57de99=_0x5748c1[_0x4f14b3(0x1bf)](_0x4f14b3(0x18b)),_0x4b4637=_0x5748c1[_0x4f14b3(0x1bf)]('.chat-profile-event-detail-close');_0x57de99&&_0x57de99[_0x4f14b3(0x1e2)]('click',_0x5eb766=>{const _0x41e936=_0x4f14b3;_0x5eb766[_0x41e936(0x219)]===_0x57de99&&window[_0x41e936(0x202)][_0x41e936(0x200)](_0x5748c1);});_0x4b4637&&_0x4b4637[_0x4f14b3(0x1e2)]('click',_0x3e7acf=>{const _0xcdab50=_0x4f14b3;_0x3e7acf[_0xcdab50(0x1bd)](),window[_0xcdab50(0x202)][_0xcdab50(0x200)](_0x5748c1);});const _0x357ce1=_0x5748c1[_0x4f14b3(0x1ae)](_0x4f14b3(0x1ee));_0x357ce1['forEach'](_0x35f333=>{const _0x577651=_0x4f14b3;_0x35f333[_0x577651(0x1e2)](_0x577651(0x1b0),async _0xf5ba1f=>{const _0x3c9359=_0x577651;_0xf5ba1f['stopPropagation']();const _0x53cab3=_0x35f333[_0x3c9359(0x1c4)](_0x3c9359(0x1a9))||'',_0x9e6fff=_0x35f333['getAttribute'](_0x3c9359(0x1db))||'',_0xba958c=window['imApp'][_0x3c9359(0x185)](_0x14f4ac)||_0x14f4ac;if(_0x53cab3===_0x3c9359(0x1b9)){window[_0x3c9359(0x202)][_0x3c9359(0x1d4)](_0xba958c,_0x9e6fff,_0x5748c1);return;}let _0x24a0e7=![];if(_0x53cab3===_0x3c9359(0x212)){_0x24a0e7=await window['imChat']['confirmMemoryRequestEvent'](_0xba958c,_0x9e6fff);if(_0x24a0e7&&window[_0x3c9359(0x21a)])window['showToast']('已写入下载项');}else _0x53cab3===_0x3c9359(0x20f)&&(_0x24a0e7=await window[_0x3c9359(0x202)][_0x3c9359(0x1e5)](_0xba958c,_0x9e6fff));if(!_0x24a0e7){if(window[_0x3c9359(0x21a)])window[_0x3c9359(0x21a)](_0x53cab3==='confirm-memory-request'?_0x3c9359(0x186):_0x3c9359(0x225));return;}const _0x266708=window['imApp'][_0x3c9359(0x185)](_0x14f4ac)||_0xba958c;window['imChat']['renderProfilePanel'](_0x266708,_0x5748c1),window[_0x3c9359(0x215)][_0x3c9359(0x1fb)]&&String(window['imData'][_0x3c9359(0x1fb)]['id'])===String(_0x266708['id'])&&typeof window['imApp'][_0x3c9359(0x20c)]===_0x3c9359(0x201)&&window[_0x3c9359(0x198)]['initChatSettingsForFriend'](_0x266708);});});const _0x19826e=_0x5748c1['querySelectorAll']('.chat-profile-event-item');_0x19826e[_0x4f14b3(0x195)](_0x7a1b9a=>{const _0xed9d8a=_0x4f14b3;_0x7a1b9a[_0xed9d8a(0x1e2)](_0xed9d8a(0x1b0),_0x11a53e=>{const _0x237121=_0xed9d8a;_0x11a53e[_0x237121(0x1bd)]();const _0xa99378=_0x7a1b9a[_0x237121(0x1c4)](_0x237121(0x1db)),_0x1c77d2=window[_0x237121(0x198)][_0x237121(0x185)](_0x14f4ac)||_0x14f4ac;window[_0x237121(0x202)]['showProfileEventDetail'](_0x1c77d2,_0xa99378,_0x5748c1);});});const _0x3fed10=_0x5748c1[_0x4f14b3(0x1ae)]('.chat-profile-panel-tab-btn');_0x3fed10['forEach'](_0x2dabd9=>{const _0x24e2c5=_0x4f14b3,_0x522fdd=_0x313ae3=>{const _0x1f778a=_0x59d1;_0x313ae3['stopPropagation'](),typeof _0x313ae3[_0x1f778a(0x1c8)]===_0x1f778a(0x201)&&_0x313ae3[_0x1f778a(0x1c8)]();},_0x594c15=_0x49cf8f=>{const _0x9999d0=_0x59d1;_0x49cf8f[_0x9999d0(0x191)](),_0x522fdd(_0x49cf8f);};_0x2dabd9['addEventListener']('pointerdown',_0x522fdd,!![]),_0x2dabd9[_0x24e2c5(0x1e2)](_0x24e2c5(0x1b3),_0x522fdd,{'capture':!![],'passive':![]}),_0x2dabd9['addEventListener'](_0x24e2c5(0x1b0),async _0x464d99=>{const _0x5c98b8=_0x24e2c5;_0x594c15(_0x464d99);const _0x56c83a=_0x2dabd9[_0x5c98b8(0x1c4)](_0x5c98b8(0x1dd))||_0x5c98b8(0x1df);window[_0x5c98b8(0x202)][_0x5c98b8(0x18e)](_0x14f4ac,_0x56c83a),await _0x280287(_0x14f4ac,_0x3dde26=>{const _0x1d50f2=_0x5c98b8;if(!_0x3dde26)return;const _0x344883=_0x1d9752(_0x3dde26);_0x344883[_0x1d50f2(0x1bc)]=_0x56c83a;},{'silent':!![]});const _0x4bc63f=window[_0x5c98b8(0x198)][_0x5c98b8(0x185)](_0x14f4ac)||_0x14f4ac;window[_0x5c98b8(0x202)][_0x5c98b8(0x18a)](_0x4bc63f,_0x5748c1);});});}function _0x42ad34(_0x2dbd66,_0x1571e){const _0x134921=_0x4138a1;if(!_0x2dbd66||!_0x1571e)return;const _0x402fba=window[_0x134921(0x202)][_0x134921(0x1e4)](_0x2dbd66);_0x402fba[_0x134921(0x1fd)]=!![],window[_0x134921(0x202)][_0x134921(0x18a)](_0x2dbd66,_0x1571e),_0x1571e[_0x134921(0x1ff)][_0x134921(0x1f8)]='flex',requestAnimationFrame(()=>{const _0x59b2c5=_0x134921;_0x1571e[_0x59b2c5(0x221)][_0x59b2c5(0x22b)](_0x59b2c5(0x1ce));});}function _0x496d01(_0x285f4c,_0xd63b47){const _0x3dc9fe=_0x4138a1,_0x499816=window[_0x3dc9fe(0x202)][_0x3dc9fe(0x1e4)](_0x285f4c);_0x499816['open']=![];if(!_0xd63b47)return;_0xd63b47['classList'][_0x3dc9fe(0x223)](_0x3dc9fe(0x1ce)),setTimeout(()=>{const _0xcbdd1e=_0x3dc9fe;!_0xd63b47[_0xcbdd1e(0x221)][_0xcbdd1e(0x208)](_0xcbdd1e(0x1ce))&&(_0xd63b47[_0xcbdd1e(0x1ff)][_0xcbdd1e(0x1f8)]=_0xcbdd1e(0x181));},0xdc);}function _0x203275(_0xfc4b38,_0x123749){const _0x3ab393=_0x4138a1;if(!_0xfc4b38||!_0x123749)return;const _0x35787f=window[_0x3ab393(0x202)]['getProfilePanelUiState'](_0xfc4b38);_0x35787f[_0x3ab393(0x1fd)]&&_0x123749['classList'][_0x3ab393(0x208)](_0x3ab393(0x1ce))?window[_0x3ab393(0x202)][_0x3ab393(0x227)](_0xfc4b38,_0x123749):window[_0x3ab393(0x202)][_0x3ab393(0x210)](_0xfc4b38,_0x123749);}function _0x6ce73e(){return;}window['imChat'][_0x4138a1(0x188)]=_0x3c4b36,window['imChat'][_0x4138a1(0x1e4)]=_0x1de0c6,window['imChat'][_0x4138a1(0x18e)]=_0x47ed2e,window[_0x4138a1(0x202)][_0x4138a1(0x217)]=_0x2e75b4,window[_0x4138a1(0x202)][_0x4138a1(0x1a3)]=_0x7b73cd,window[_0x4138a1(0x202)][_0x4138a1(0x19a)]=_0xc2aa9f,window['imChat'][_0x4138a1(0x1a7)]=_0x51dbf8,window[_0x4138a1(0x202)]['confirmMemoryRequestEvent']=_0x407579,window['imChat'][_0x4138a1(0x1e5)]=_0x2d87f3,window[_0x4138a1(0x202)][_0x4138a1(0x1d4)]=_0x13c5f6,window['imChat'][_0x4138a1(0x200)]=_0x382fb0,window[_0x4138a1(0x202)][_0x4138a1(0x183)]=_0x1a0c94,window[_0x4138a1(0x202)][_0x4138a1(0x18a)]=_0x41b53d,window[_0x4138a1(0x202)][_0x4138a1(0x210)]=_0x42ad34,window[_0x4138a1(0x202)][_0x4138a1(0x227)]=_0x496d01,window[_0x4138a1(0x202)][_0x4138a1(0x1e8)]=_0x203275,window['imChat'][_0x4138a1(0x1de)]=_0x6ce73e,window['imApp'][_0x4138a1(0x1de)]=_0x6ce73e;}));
+// ==========================================
+// IMESSAGE: 4_chat_status.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    window.imChat = window.imChat || {};
+
+    async function commitStatusFriendChange(friendOrId, mutator, options = {}) {
+        const commitOptions = {
+            metaOnly: options.metaOnly !== false,
+            ...options
+        };
+
+        return window.imApp.commitScopedFriendChange(friendOrId, mutator, {
+            syncActive: true,
+            ...commitOptions
+        });
+    }
+
+    function ensureProfilePanelData(friend) {
+        if (!friend) return window.imApp.createDefaultProfilePanel({});
+        const nextPanel = window.imApp.createDefaultProfilePanel(friend);
+        friend.profilePanel = nextPanel;
+        friend.latestThought = nextPanel.thought;
+        friend.status = nextPanel.status || 'online';
+        return nextPanel;
+    }
+
+    function getProfilePanelData(friend) {
+        if (!friend) return window.imApp.createDefaultProfilePanel({});
+        return ensureProfilePanelData(friend);
+    }
+
+    function getProfilePanelUiState(friendOrId) {
+        const targetId = window.imApp.resolveFriendId(friendOrId);
+        const safeFriendId = targetId != null ? String(targetId) : 'default';
+        const stateMap = window.imData.profilePanelUiStateByFriendId || (window.imData.profilePanelUiStateByFriendId = {});
+        const existingState = stateMap[safeFriendId];
+
+        if (
+            !existingState ||
+            typeof existingState !== 'object' ||
+            typeof existingState.activeTab !== 'string'
+        ) {
+            stateMap[safeFriendId] = {
+                open: false,
+                activeTab: 'thought'
+            };
+        }
+
+        if (!['thought', 'events'].includes(stateMap[safeFriendId].activeTab)) {
+            stateMap[safeFriendId].activeTab = 'thought';
+        }
+
+        return stateMap[safeFriendId];
+    }
+
+    function setProfilePanelTab(friendOrId, tabName) {
+        const uiState = window.imChat.getProfilePanelUiState(friendOrId);
+        const safeTab = ['thought', 'events'].includes(tabName) ? tabName : 'thought';
+        uiState.activeTab = safeTab;
+
+        const targetFriend = window.imApp.getFriendById(friendOrId);
+        if (targetFriend) {
+            ensureProfilePanelData(targetFriend).activeTab = safeTab;
+        }
+
+        return safeTab;
+    }
+
+    function getProfilePanelEvents(friend) {
+        const panel = window.imChat.getProfilePanelData(friend);
+        return Array.isArray(panel.events) ? panel.events : [];
+    }
+
+    function getProfilePanelMetrics() {
+        return [];
+    }
+
+    function buildCherishedMemoryEntryFromEvent(eventItem, friend) {
+        if (!eventItem) return null;
+
+        const payload = eventItem.memoryPayload && typeof eventItem.memoryPayload === 'object'
+            ? eventItem.memoryPayload
+            : null;
+
+        const entryId = `cherished-${eventItem.id || Date.now()}`;
+        const title = payload?.title || eventItem.title || '珍视回忆';
+        const content = payload?.content || eventItem.requestText || eventItem.description || '';
+        const detail = payload?.detail || eventItem.detail || '';
+        const reason = payload?.reason || '';
+        const createdAt = payload?.createdAt || eventItem.time || '';
+        const sourceThought = payload?.sourceThought
+            || friend?.profilePanel?.thought
+            || friend?.latestThought
+            || '';
+
+        if (!content.trim()) return null;
+
+        return {
+            id: entryId,
+            title,
+            content,
+            detail,
+            reason,
+            sourceEventId: String(payload?.sourceEventId || eventItem.id || ''),
+            createdAt,
+            sourceThought
+        };
+    }
+
+    function mergeCherishedMemoryText(existingText, entry) {
+        const baseText = typeof existingText === 'string' ? existingText.trim() : '';
+        if (!entry || !entry.content) return baseText;
+
+        const parts = [
+            entry.title ? `【${entry.title}】` : '',
+            entry.content || '',
+            entry.reason ? `原因：${entry.reason}` : ''
+        ].filter(Boolean);
+
+        const block = parts.join('\n').trim();
+        if (!block) return baseText;
+        if (baseText.includes(entry.content)) return baseText;
+
+        return baseText ? `${baseText}\n\n${block}` : block;
+    }
+
+    async function confirmMemoryRequestEvent(friendOrId, eventId) {
+        const targetFriend = window.imApp.getFriendById(friendOrId);
+        if (!targetFriend || !eventId) return false;
+
+        const saved = await commitStatusFriendChange(targetFriend, (friend) => {
+            if (!friend) return;
+            friend.memory = window.imApp.normalizeFriendData(friend).memory;
+
+            const panel = ensureProfilePanelData(friend);
+            const events = Array.isArray(panel.events) ? panel.events : [];
+            const eventIndex = events.findIndex((eventItem) => String(eventItem.id) === String(eventId));
+            if (eventIndex < 0) return;
+
+            const targetEvent = events[eventIndex];
+            const nextEntry = buildCherishedMemoryEntryFromEvent(targetEvent, friend);
+            if (!nextEntry) {
+                events.splice(eventIndex, 1);
+                panel.events = events;
+                return;
+            }
+
+            const existingEntries = Array.isArray(friend.memory.cherishedEntries)
+                ? friend.memory.cherishedEntries
+                : [];
+
+            const duplicated = existingEntries.some((entry) => {
+                if (!entry) return false;
+                if (entry.sourceEventId && String(entry.sourceEventId) === String(targetEvent.id)) return true;
+                return String(entry.content || '').trim() && String(entry.content || '').trim() === String(nextEntry.content || '').trim();
+            });
+
+            if (!duplicated) {
+                existingEntries.push(nextEntry);
+            }
+
+            friend.memory.cherishedEntries = existingEntries;
+            friend.memory.cherished = mergeCherishedMemoryText(friend.memory.cherished, nextEntry);
+            
+            events.splice(eventIndex, 1);
+            panel.events = events;
+        }, { silent: true });
+
+        return saved;
+    }
+
+    async function cancelMemoryRequestEvent(friendOrId, eventId) {
+        const targetFriend = window.imApp.getFriendById(friendOrId);
+        if (!targetFriend || !eventId) return false;
+
+        return commitStatusFriendChange(targetFriend, (friend) => {
+            if (!friend) return;
+            const panel = ensureProfilePanelData(friend);
+            let events = Array.isArray(panel.events) ? panel.events : [];
+            events = events.filter((eventItem) => String(eventItem.id) !== String(eventId));
+            panel.events = events;
+        }, { silent: true });
+    }
+
+    function showProfileEventDetail(friend, eventId, panelEl) {
+        if (!friend || !eventId || !panelEl) return;
+
+        const overlay = panelEl.querySelector('.chat-profile-event-detail-overlay');
+        const titleEl = panelEl.querySelector('.chat-profile-event-detail-title');
+        const timeEl = panelEl.querySelector('.chat-profile-event-detail-time');
+        const descEl = panelEl.querySelector('.chat-profile-event-detail-desc');
+        const detailEl = panelEl.querySelector('.chat-profile-event-detail-detail');
+
+        if (!overlay || !titleEl || !timeEl || !descEl || !detailEl) return;
+
+        const events = window.imChat.getProfilePanelEvents(friend);
+        const targetEvent = events.find((eventItem) => String(eventItem.id) === String(eventId));
+        if (!targetEvent) return;
+
+        titleEl.textContent = targetEvent.title || '事件详情';
+        timeEl.textContent = targetEvent.time || '';
+        descEl.textContent = targetEvent.requestText || targetEvent.description || '暂无内容';
+        detailEl.textContent = targetEvent.detail
+            || targetEvent.memoryPayload?.detail
+            || targetEvent.memoryPayload?.reason
+            || '暂无更多详情';
+
+        overlay.style.display = 'flex';
+        requestAnimationFrame(() => {
+            overlay.classList.add('active');
+        });
+    }
+
+    function hideProfileEventDetail(panelEl) {
+        if (!panelEl) return;
+        const overlay = panelEl.querySelector('.chat-profile-event-detail-overlay');
+        if (!overlay) return;
+
+        overlay.classList.remove('active');
+        setTimeout(() => {
+            if (!overlay.classList.contains('active')) {
+                overlay.style.display = 'none';
+            }
+        }, 220);
+    }
+
+    function buildProfilePanelBody(friend, activeTab) {
+        const panel = window.imChat.getProfilePanelData(friend);
+        const safeTab = ['thought', 'events'].includes(activeTab) ? activeTab : 'thought';
+
+        if (safeTab === 'events') {
+            const events = window.imChat.getProfilePanelEvents(friend);
+            if (events.length === 0) {
+                return `
+                    <div class="chat-profile-panel-empty">
+                        <div class="chat-profile-panel-empty-title">暂无事件</div>
+                        <div class="chat-profile-panel-empty-desc">这里会展示和这个角色相关的近期事件记录。</div>
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="chat-profile-panel-events">
+                    ${events.map((eventItem) => {
+                        if (eventItem.type === 'memory_request') {
+                            const statusLabel = eventItem.status === 'confirmed'
+                                ? '<span class="chat-profile-memory-request-badge is-confirmed">已记住</span>'
+                                : eventItem.status === 'cancelled'
+                                    ? '<span class="chat-profile-memory-request-badge is-cancelled">已取消</span>'
+                                    : '<span class="chat-profile-memory-request-badge">待处理</span>';
+
+                            const actionHtml = eventItem.status === 'pending'
+                                ? `
+                                    <div class="chat-profile-memory-request-actions">
+                                        <button type="button" class="chat-profile-memory-request-btn is-confirm" data-action="confirm-memory-request" data-event-id="${eventItem.id}">${eventItem.confirmText || '确认'}</button>
+                                        <button type="button" class="chat-profile-memory-request-btn is-cancel" data-action="cancel-memory-request" data-event-id="${eventItem.id}">${eventItem.cancelText || '取消'}</button>
+                                    </div>
+                                `
+                                : '';
+
+                            return `
+                                <div class="chat-profile-memory-request-card" data-event-id="${eventItem.id}" data-event-type="memory_request">
+                                    <div class="chat-profile-memory-request-top">
+                                        <div class="chat-profile-memory-request-title">${eventItem.title || '想记住某件事'}</div>
+                                        ${statusLabel}
+                                    </div>
+                                    <div class="chat-profile-memory-request-content">${eventItem.requestText || eventItem.description || '想把这一刻记住。'}</div>
+                                    ${eventItem.detail ? `<div class="chat-profile-memory-request-detail">${eventItem.detail}</div>` : ''}
+                                    <div class="chat-profile-memory-request-footer">
+                                        ${eventItem.time ? `<div class="chat-profile-memory-request-time">${eventItem.time}</div>` : '<div></div>'}
+                                        <button type="button" class="chat-profile-memory-request-detail-trigger" data-action="open-event-detail" data-event-id="${eventItem.id}">查看详情</button>
+                                    </div>
+                                    ${actionHtml}
+                                </div>
+                            `;
+                        }
+
+                        return `
+                            <div class="chat-profile-event-item" data-event-id="${eventItem.id}">
+                                <div class="chat-profile-event-dot"></div>
+                                <div class="chat-profile-event-main">
+                                    <div class="chat-profile-event-title-row">
+                                        <div class="chat-profile-event-title">${eventItem.title || '新的事件'}</div>
+                                        ${eventItem.time ? `<div class="chat-profile-event-time">${eventItem.time}</div>` : ''}
+                                    </div>
+                                    ${eventItem.description ? `<div class="chat-profile-event-desc">${eventItem.description}</div>` : ''}
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
+
+        if (!panel.thought || !panel.thought.trim()) {
+            return `
+                <div class="chat-profile-panel-empty">
+                    <div class="chat-profile-panel-empty-title">暂无心声</div>
+                    <div class="chat-profile-panel-empty-desc">这里会展示这个角色此刻的心声。</div>
+                </div>
+            `;
+        }
+
+        return `
+            <div class="chat-profile-panel-section">
+                <div class="gmp-inner-voice chat-profile-panel-thought">${panel.thought.trim()}</div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 2px;">
+                    <div style="background: #f2f2f7; border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 11px; color: #8e8e93; font-weight: 700;">位置</div>
+                        <div style="font-size: 13px; color: #333; line-height: 1.4; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${panel.location || '未知'}</div>
+                    </div>
+                    <div style="background: #f2f2f7; border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 11px; color: #8e8e93; font-weight: 700;">动作</div>
+                        <div style="font-size: 13px; color: #333; line-height: 1.4; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${panel.action || '暂无'}</div>
+                    </div>
+                    <div style="background: #f2f2f7; border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 11px; color: #8e8e93; font-weight: 700;">心情</div>
+                        <div style="font-size: 13px; color: #333; line-height: 1.4; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${panel.mood || '平静'}</div>
+                    </div>
+                    <div style="background: #f2f2f7; border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 11px; color: #8e8e93; font-weight: 700;">表情</div>
+                        <div style="font-size: 13px; color: #333; line-height: 1.4; word-break: break-all; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${panel.expression || '自然'}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    function renderProfilePanel(friend, panelEl) {
+        if (!friend || !panelEl) return;
+
+        const panel = window.imChat.getProfilePanelData(friend);
+        const uiState = window.imChat.getProfilePanelUiState(friend);
+        const activeTab = ['thought', 'events'].includes(uiState.activeTab)
+            ? uiState.activeTab
+            : (['thought', 'events'].includes(panel.activeTab) ? panel.activeTab : 'thought');
+
+        uiState.activeTab = activeTab;
+        panel.activeTab = activeTab;
+
+        const avatarUrl = friend.avatarUrl || 'https://picsum.photos/seed/char/100/100';
+        
+        let isSleeping = false;
+        if (typeof window.imApp.isCharacterSleeping === 'function') {
+            isSleeping = window.imApp.isCharacterSleeping(friend);
+        } else if (friend.memory && friend.memory.schedule && friend.memory.schedule.enabled) {
+            const now = new Date();
+            const currentTotalMinutes = now.getHours() * 60 + now.getMinutes();
+            
+            const parseTime = (timeStr) => {
+                if (!timeStr) return 0;
+                const [h, m] = timeStr.split(':').map(Number);
+                return (h || 0) * 60 + (m || 0);
+            };
+            
+            const sleepMin = parseTime(friend.memory.schedule.sleepTime || '23:00');
+            const wakeMin = parseTime(friend.memory.schedule.wakeTime || '07:00');
+            
+            if (sleepMin > wakeMin) {
+                isSleeping = currentTotalMinutes >= sleepMin || currentTotalMinutes < wakeMin;
+            } else {
+                isSleeping = currentTotalMinutes >= sleepMin && currentTotalMinutes < wakeMin;
+            }
+        }
+
+        const name = friend.nickname || friend.realName || 'Unknown';
+        const signature = friend.signature || '这个人很懒，什么都没写';
+        const onlineLabel = isSleeping ? 'offline' : ((panel.status || friend.status || 'online').toString().trim() || 'online');
+        
+        const affection = typeof friend.profilePanel?.affection === 'number' ? friend.profilePanel.affection : (typeof panel.affection === 'number' ? panel.affection : 0);
+        const affectionChange = typeof friend.profilePanel?.affectionChange === 'number' ? friend.profilePanel.affectionChange : (typeof panel.affectionChange === 'number' ? panel.affectionChange : 0);
+        const affectionChangeStr = affectionChange >= 0 ? `+${affectionChange}` : `${affectionChange}`;
+
+        panelEl.innerHTML = `
+            <div style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 320px; margin: 0 auto;">
+                <div class="chat-profile-panel-card" style="width: 100%;">
+                    <div class="gmp-header chat-profile-panel-header" style="position: relative;">
+                        <div class="gmp-avatar-wrapper">
+                            <div class="gmp-avatar"><img src="${avatarUrl}"></div>
+                            <div class="gmp-status-bubble chat-profile-panel-header-status">${onlineLabel}</div>
+                        </div>
+                        <button type="button" class="chat-profile-panel-close" aria-label="关闭">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="gmp-body chat-profile-panel-body">
+                        <div class="gmp-name-row" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                            <div class="gmp-name">${name}</div>
+                            <div style="display: flex; flex-direction: column; align-items: flex-end;">
+                                <div style="background: #f2f2f7; color: #8e8e93; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 4px;">
+                                    <i class="fas fa-heart"></i> ${affection}
+                                </div>
+                                ${affectionChange !== 0 ? `<div style="font-size: 10px; color: #8e8e93; margin-top: 4px; font-weight: 600;">${affectionChangeStr}</div>` : ''}
+                            </div>
+                        </div>
+                        <div class="gmp-signature">${signature}</div>
+                        <div class="chat-profile-panel-content">
+                            ${window.imChat.buildProfilePanelBody(friend, activeTab)}
+                        </div>
+                    </div>
+                    <div class="chat-profile-event-detail-overlay" style="display:none;">
+                        <div class="chat-profile-event-detail-card">
+                            <button type="button" class="chat-profile-event-detail-close" aria-label="关闭">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <div class="chat-profile-event-detail-label">记忆详情</div>
+                            <div class="chat-profile-event-detail-title">事件详情</div>
+                            <div class="chat-profile-event-detail-time"></div>
+                            <div class="chat-profile-event-detail-desc"></div>
+                            <div class="chat-profile-event-detail-detail"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-profile-panel-floating-tabs" style="display: flex; flex-direction: row; gap: 20px; margin-top: 24px; z-index: 100;">
+                    <button type="button" class="chat-profile-panel-tab-btn ${activeTab === 'thought' ? 'active' : ''}" data-tab="thought" style="width: 52px; height: 52px; border-radius: 50%; border: none; background: ${activeTab === 'thought' ? '#111' : '#fff'}; color: ${activeTab === 'thought' ? '#fff' : '#111'};  display: flex; justify-content: center; align-items: center; font-size: 22px; cursor: pointer; transition: transform 0.2s, background 0.2s;">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <button type="button" class="chat-profile-panel-tab-btn ${activeTab === 'events' ? 'active' : ''}" data-tab="events" style="width: 52px; height: 52px; border-radius: 50%; border: none; background: ${activeTab === 'events' ? '#111' : '#fff'}; color: ${activeTab === 'events' ? '#fff' : '#111'};  display: flex; justify-content: center; align-items: center; font-size: 22px; cursor: pointer; transition: transform 0.2s, background 0.2s;">
+                        <i class="fas fa-flag"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+
+        const closeBtn = panelEl.querySelector('.chat-profile-panel-close');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.imChat.hideProfilePanel(friend, panelEl);
+            });
+        }
+
+        const detailOverlay = panelEl.querySelector('.chat-profile-event-detail-overlay');
+        const detailCloseBtn = panelEl.querySelector('.chat-profile-event-detail-close');
+        if (detailOverlay) {
+            detailOverlay.addEventListener('click', (e) => {
+                if (e.target === detailOverlay) {
+                    window.imChat.hideProfileEventDetail(panelEl);
+                }
+            });
+        }
+        if (detailCloseBtn) {
+            detailCloseBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.imChat.hideProfileEventDetail(panelEl);
+            });
+        }
+
+        const eventActionButtons = panelEl.querySelectorAll('[data-action="confirm-memory-request"], [data-action="cancel-memory-request"], [data-action="open-event-detail"]');
+        eventActionButtons.forEach((btn) => {
+            btn.addEventListener('click', async (e) => {
+                e.stopPropagation();
+                const action = btn.getAttribute('data-action') || '';
+                const eventId = btn.getAttribute('data-event-id') || '';
+                const latestFriend = window.imApp.getFriendById(friend) || friend;
+
+                if (action === 'open-event-detail') {
+                    window.imChat.showProfileEventDetail(latestFriend, eventId, panelEl);
+                    return;
+                }
+
+                let saved = false;
+                if (action === 'confirm-memory-request') {
+                    saved = await window.imChat.confirmMemoryRequestEvent(latestFriend, eventId);
+                    if (saved && window.showToast) window.showToast('已写入下载项');
+                } else if (action === 'cancel-memory-request') {
+                    saved = await window.imChat.cancelMemoryRequestEvent(latestFriend, eventId);
+                }
+
+                if (!saved) {
+                    if (window.showToast) window.showToast(action === 'confirm-memory-request' ? '保存珍视回忆失败' : '事件状态更新失败');
+                    return;
+                }
+
+                const refreshedFriend = window.imApp.getFriendById(friend) || latestFriend;
+                window.imChat.renderProfilePanel(refreshedFriend, panelEl);
+
+                if (
+                    window.imData.currentSettingsFriend &&
+                    String(window.imData.currentSettingsFriend.id) === String(refreshedFriend.id) &&
+                    typeof window.imApp.initChatSettingsForFriend === 'function'
+                ) {
+                    window.imApp.initChatSettingsForFriend(refreshedFriend);
+                }
+            });
+        });
+
+        const eventItems = panelEl.querySelectorAll('.chat-profile-event-item');
+        eventItems.forEach((item) => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const eventId = item.getAttribute('data-event-id');
+                const latestFriend = window.imApp.getFriendById(friend) || friend;
+                window.imChat.showProfileEventDetail(latestFriend, eventId, panelEl);
+            });
+        });
+
+        const tabButtons = panelEl.querySelectorAll('.chat-profile-panel-tab-btn');
+        tabButtons.forEach((btn) => {
+            const stopProfileTabEvent = (e) => {
+                e.stopPropagation();
+                if (typeof e.stopImmediatePropagation === 'function') {
+                    e.stopImmediatePropagation();
+                }
+            };
+
+            const handleProfileTabClick = (e) => {
+                e.preventDefault();
+                stopProfileTabEvent(e);
+            };
+
+            btn.addEventListener('pointerdown', stopProfileTabEvent, true);
+            btn.addEventListener('touchstart', stopProfileTabEvent, { capture: true, passive: false });
+
+            btn.addEventListener('click', async (e) => {
+                handleProfileTabClick(e);
+                const nextTab = btn.getAttribute('data-tab') || 'thought';
+                window.imChat.setProfilePanelTab(friend, nextTab);
+
+                await commitStatusFriendChange(friend, (targetFriend) => {
+                    if (!targetFriend) return;
+                    const nextPanel = ensureProfilePanelData(targetFriend);
+                    nextPanel.activeTab = nextTab;
+                }, { silent: true });
+
+                const latestFriend = window.imApp.getFriendById(friend) || friend;
+                window.imChat.renderProfilePanel(latestFriend, panelEl);
+            });
+        });
+    }
+
+    function showProfilePanel(friend, panelEl) {
+        if (!friend || !panelEl) return;
+        const uiState = window.imChat.getProfilePanelUiState(friend);
+        uiState.open = true;
+        window.imChat.renderProfilePanel(friend, panelEl);
+        panelEl.style.display = 'flex';
+        requestAnimationFrame(() => {
+            panelEl.classList.add('active');
+        });
+    }
+
+    function hideProfilePanel(friendOrId, panelEl) {
+        const uiState = window.imChat.getProfilePanelUiState(friendOrId);
+        uiState.open = false;
+        if (!panelEl) return;
+        panelEl.classList.remove('active');
+        setTimeout(() => {
+            if (!panelEl.classList.contains('active')) {
+                panelEl.style.display = 'none';
+            }
+        }, 220);
+    }
+
+    function toggleProfilePanel(friend, panelEl) {
+        if (!friend || !panelEl) return;
+        const uiState = window.imChat.getProfilePanelUiState(friend);
+        if (uiState.open && panelEl.classList.contains('active')) {
+            window.imChat.hideProfilePanel(friend, panelEl);
+        } else {
+            window.imChat.showProfilePanel(friend, panelEl);
+        }
+    }
+
+    function applyFriendStatusBarCss() {
+        // 状态栏资料卡当前没有独立的动态 CSS 注入需求；
+        // 保留该方法作为稳定兼容出口，供现有调用方继续安全调用。
+        return;
+    }
+
+    window.imChat.getProfilePanelData = getProfilePanelData;
+    window.imChat.getProfilePanelUiState = getProfilePanelUiState;
+    window.imChat.setProfilePanelTab = setProfilePanelTab;
+    window.imChat.getProfilePanelEvents = getProfilePanelEvents;
+    window.imChat.getProfilePanelMetrics = getProfilePanelMetrics;
+    window.imChat.buildCherishedMemoryEntryFromEvent = buildCherishedMemoryEntryFromEvent;
+    window.imChat.mergeCherishedMemoryText = mergeCherishedMemoryText;
+    window.imChat.confirmMemoryRequestEvent = confirmMemoryRequestEvent;
+    window.imChat.cancelMemoryRequestEvent = cancelMemoryRequestEvent;
+    window.imChat.showProfileEventDetail = showProfileEventDetail;
+    window.imChat.hideProfileEventDetail = hideProfileEventDetail;
+    window.imChat.buildProfilePanelBody = buildProfilePanelBody;
+    window.imChat.renderProfilePanel = renderProfilePanel;
+    window.imChat.showProfilePanel = showProfilePanel;
+    window.imChat.hideProfilePanel = hideProfilePanel;
+    window.imChat.toggleProfilePanel = toggleProfilePanel;
+    window.imChat.applyFriendStatusBarCss = applyFriendStatusBarCss;
+    window.imApp.applyFriendStatusBarCss = applyFriendStatusBarCss;
+});

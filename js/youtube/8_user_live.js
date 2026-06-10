@@ -1,1 +1,837 @@
-const _0x47710f=_0x33e7;(function(_0x5de02f,_0x449123){const _0x41d721=_0x33e7,_0x493970=_0x5de02f();while(!![]){try{const _0x447ad0=-parseInt(_0x41d721(0x204))/0x1+parseInt(_0x41d721(0x256))/0x2*(-parseInt(_0x41d721(0x26b))/0x3)+-parseInt(_0x41d721(0x1e1))/0x4*(parseInt(_0x41d721(0x27c))/0x5)+parseInt(_0x41d721(0x298))/0x6+parseInt(_0x41d721(0x1f0))/0x7+-parseInt(_0x41d721(0x2a1))/0x8*(parseInt(_0x41d721(0x296))/0x9)+-parseInt(_0x41d721(0x1c5))/0xa*(-parseInt(_0x41d721(0x24d))/0xb);if(_0x447ad0===_0x449123)break;else _0x493970['push'](_0x493970['shift']());}catch(_0xb5452){_0x493970['push'](_0x493970['shift']());}}}(_0x5d1e,0x9f6ec));const startLiveOptionBtn=ytCreateSheet?ytCreateSheet[_0x47710f(0x202)]('.yt-create-bubble-btn')[0x0]:null,userLiveSetupSheet=document[_0x47710f(0x297)](_0x47710f(0x243)),startUserLiveBtn=document[_0x47710f(0x297)](_0x47710f(0x200)),userLiveView=document[_0x47710f(0x297)](_0x47710f(0x264)),userLiveBackBtn=document['getElementById']('yt-user-live-back-btn'),userLiveVideoArea=document[_0x47710f(0x297)](_0x47710f(0x1e6));let userLiveBgUrl='';const userLiveBgUpload=document[_0x47710f(0x297)](_0x47710f(0x29c)),userLiveBgBtn=document[_0x47710f(0x297)](_0x47710f(0x1b6)),userLiveBgImg=document[_0x47710f(0x297)](_0x47710f(0x277));function getCurrentYtLiveUser(){const _0x415c29=_0x47710f;if(typeof window[_0x415c29(0x241)]==='function')return window['getYtEffectiveUserState']()||{};return ytUserState||{};}function stopUserLiveControlEvent(_0x50444b){const _0x546c21=_0x47710f;if(!_0x50444b)return;_0x50444b[_0x546c21(0x1b0)]();}userLiveBgBtn&&userLiveBgUpload&&(userLiveBgBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),_0x147b54=>{stopUserLiveControlEvent(_0x147b54),userLiveBgUpload['click']();}),userLiveBgUpload[_0x47710f(0x1da)](_0x47710f(0x21d),_0x665b3f=>{const _0xc8a52a=_0x47710f,_0x3b43b0=_0x665b3f[_0xc8a52a(0x242)][_0xc8a52a(0x209)][0x0];if(_0x3b43b0){const _0x281052=new FileReader();_0x281052[_0xc8a52a(0x1e2)]=_0x4dedce=>{const _0x5461d4=_0xc8a52a;if(window[_0x5461d4(0x283)])window[_0x5461d4(0x283)](_0x4dedce[_0x5461d4(0x242)][_0x5461d4(0x276)],0x384,0x258,_0x50dea5=>{const _0x11db90=_0x5461d4;userLiveBgUrl=_0x50dea5;userLiveBgImg&&(userLiveBgImg['src']=userLiveBgUrl,userLiveBgImg[_0x11db90(0x1cc)]['display']=_0x11db90(0x24e));const _0x52202c=document[_0x11db90(0x297)](_0x11db90(0x1de));_0x52202c&&(_0x52202c['src']=userLiveBgUrl);});else{userLiveBgUrl=_0x4dedce['target'][_0x5461d4(0x276)];userLiveBgImg&&(userLiveBgImg[_0x5461d4(0x245)]=userLiveBgUrl,userLiveBgImg[_0x5461d4(0x1cc)][_0x5461d4(0x21f)]=_0x5461d4(0x24e));const _0x34da64=document[_0x5461d4(0x297)](_0x5461d4(0x1de));_0x34da64&&(_0x34da64[_0x5461d4(0x245)]=userLiveBgUrl);}},_0x281052[_0xc8a52a(0x222)](_0x3b43b0);}}));startLiveOptionBtn&&userLiveSetupSheet&&(startLiveOptionBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x6c8086=_0x47710f;if(ytCreateSheet)ytCreateSheet[_0x6c8086(0x207)][_0x6c8086(0x229)]('active');userLiveSetupSheet[_0x6c8086(0x207)][_0x6c8086(0x1f5)](_0x6c8086(0x220));}),userLiveSetupSheet[_0x47710f(0x1da)](_0x47710f(0x262),_0x214f24=>{const _0x3b0bac=_0x47710f;if(_0x214f24['target']===userLiveSetupSheet)userLiveSetupSheet['classList']['remove'](_0x3b0bac(0x220));}));startUserLiveBtn&&userLiveView&&startUserLiveBtn['addEventListener'](_0x47710f(0x1b5),()=>{const _0xe331a8=_0x47710f,_0x4e101c=document[_0xe331a8(0x297)](_0xe331a8(0x259)),_0x426bab=_0x4e101c&&_0x4e101c[_0xe331a8(0x23f)]?_0x4e101c[_0xe331a8(0x23f)]:_0xe331a8(0x235);document[_0xe331a8(0x297)](_0xe331a8(0x1e0))[_0xe331a8(0x1e7)]=_0x426bab,userLiveBgUrl?document['getElementById']('yt-user-live-bg-display')[_0xe331a8(0x245)]=userLiveBgUrl:document['getElementById']('yt-user-live-bg-display')[_0xe331a8(0x245)]=_0xe331a8(0x1f1),userLiveSetupSheet[_0xe331a8(0x207)][_0xe331a8(0x229)]('active'),document[_0xe331a8(0x297)](_0xe331a8(0x258))[_0xe331a8(0x25c)]='',document['getElementById']('yt-user-live-bubbles-container')[_0xe331a8(0x25c)]='',document[_0xe331a8(0x297)](_0xe331a8(0x1cb))[_0xe331a8(0x25c)]='',userLiveHistory=[],userLiveView[_0xe331a8(0x207)][_0xe331a8(0x1f5)](_0xe331a8(0x220));});userLiveBackBtn&&userLiveBackBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x3c836c=_0x47710f;window[_0x3c836c(0x24f)]({'title':_0x3c836c(0x239),'message':'确定要结束当前的直播吗？','confirmText':'结束','cancelText':'继续','isDestructive':!![],'onConfirm':()=>{const _0x2f7b01=_0x3c836c;userLiveView[_0x2f7b01(0x207)]['remove'](_0x2f7b01(0x220)),document[_0x2f7b01(0x297)](_0x2f7b01(0x26a))[_0x2f7b01(0x1e7)]=userLiveTotalViews,document[_0x2f7b01(0x297)]('yt-summary-hot')[_0x2f7b01(0x1e7)]=userLiveMaxHot,document['getElementById'](_0x2f7b01(0x20a))[_0x2f7b01(0x1e7)]='+'+userLiveNewSubs,document[_0x2f7b01(0x297)](_0x2f7b01(0x1c6))['textContent']='￥'+userLiveTotalSC;if(userLiveSummarySheet)userLiveSummarySheet[_0x2f7b01(0x207)][_0x2f7b01(0x1f5)](_0x2f7b01(0x220));}});});window['renderDataCenter']=function(){const _0x17dc9d=_0x47710f,_0x3342e7=document['getElementById']('yt-data-center-btn'),_0x31a5db=document[_0x17dc9d(0x297)](_0x17dc9d(0x1b4)),_0x700615=document[_0x17dc9d(0x297)](_0x17dc9d(0x20d)),_0xd80b96=document[_0x17dc9d(0x297)](_0x17dc9d(0x1d5)),_0x5c5652=document['getElementById'](_0x17dc9d(0x29d)),_0x92b08a=document[_0x17dc9d(0x297)](_0x17dc9d(0x244)),_0xf0f60f=document['getElementById'](_0x17dc9d(0x21a)),_0x445c66=document[_0x17dc9d(0x297)](_0x17dc9d(0x23c)),_0x24b48e=document[_0x17dc9d(0x297)](_0x17dc9d(0x289));!channelState[_0x17dc9d(0x1d4)]&&(channelState[_0x17dc9d(0x1d4)]={'views':0x0,'sc':0x0,'subs':0x0,'commission':0x0});if(channelState[_0x17dc9d(0x1d4)][_0x17dc9d(0x29e)]===undefined)channelState[_0x17dc9d(0x1d4)]['commission']=0x0;if(_0xd80b96)_0xd80b96['textContent']=channelState[_0x17dc9d(0x1d4)]['views']||0x0;if(_0x5c5652)_0x5c5652[_0x17dc9d(0x1e7)]=(channelState[_0x17dc9d(0x1d4)]['sc']||0x0)[_0x17dc9d(0x2a4)](0x2);if(_0x92b08a)_0x92b08a[_0x17dc9d(0x1e7)]=channelState['dataCenter']['subs']||0x0;if(_0xf0f60f)_0xf0f60f[_0x17dc9d(0x1e7)]=(channelState[_0x17dc9d(0x1d4)][_0x17dc9d(0x29e)]||0x0)[_0x17dc9d(0x2a4)](0x2);const _0x547a9e=parseFloat(channelState[_0x17dc9d(0x1d4)]['sc']||0x0)+parseFloat(channelState[_0x17dc9d(0x1d4)]['commission']||0x0);if(_0x445c66)_0x445c66[_0x17dc9d(0x1e7)]=_0x547a9e[_0x17dc9d(0x2a4)](0x2);_0x700615&&(_0x547a9e>0x0?(_0x700615[_0x17dc9d(0x1cc)][_0x17dc9d(0x248)]='1',_0x700615[_0x17dc9d(0x1cc)][_0x17dc9d(0x29b)]=_0x17dc9d(0x1bd)):(_0x700615[_0x17dc9d(0x1cc)][_0x17dc9d(0x248)]=_0x17dc9d(0x1bc),_0x700615['style']['pointerEvents']=_0x17dc9d(0x247)));if(_0x24b48e){_0x24b48e['innerHTML']='';let _0x4b177c=![];mockSubscriptions['forEach'](_0x3dcb3e=>{_0x3dcb3e['dmHistory']&&_0x3dcb3e['dmHistory']['forEach'](_0x227023=>{const _0x6ec8b8=_0x33e7;if(_0x227023['isOffer']&&_0x227023[_0x6ec8b8(0x20e)]===_0x6ec8b8(0x270)){_0x4b177c=!![];const _0x14d20b=document[_0x6ec8b8(0x1dd)](_0x6ec8b8(0x1df));_0x14d20b['className']=_0x6ec8b8(0x221),_0x14d20b[_0x6ec8b8(0x1cc)]['padding']=_0x6ec8b8(0x267),_0x14d20b[_0x6ec8b8(0x1cc)][_0x6ec8b8(0x21b)]='pointer';const _0x2d8f11=_0x227023[_0x6ec8b8(0x203)]['price']||'0',_0xf209a1=typeof resolveYtChannelAvatar===_0x6ec8b8(0x1c2)?resolveYtChannelAvatar(_0x3dcb3e):_0x3dcb3e[_0x6ec8b8(0x224)]||_0x6ec8b8(0x250);_0x14d20b['innerHTML']=_0x6ec8b8(0x213)+_0xf209a1+_0x6ec8b8(0x236)+(_0x227023[_0x6ec8b8(0x203)][_0x6ec8b8(0x280)]||_0x6ec8b8(0x287))+_0x6ec8b8(0x286)+_0x3dcb3e[_0x6ec8b8(0x1c3)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#ff3b30;\x20font-weight:\x20600;\x20font-size:\x2015px;\x22>'+_0x2d8f11+_0x6ec8b8(0x28b),_0x14d20b[_0x6ec8b8(0x1da)]('click',()=>{currentSubChannelData=_0x3dcb3e,openOfferDetailSheet(_0x227023);}),_0x24b48e['appendChild'](_0x14d20b);}});}),!_0x4b177c&&(_0x24b48e[_0x17dc9d(0x25c)]='<div\x20style=\x22padding:\x2016px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>暂无进行中的商单</div>');}_0x31a5db&&!_0x31a5db[_0x17dc9d(0x1db)][_0x17dc9d(0x1c9)]&&(_0x31a5db[_0x17dc9d(0x1db)][_0x17dc9d(0x1c9)]=_0x17dc9d(0x1ce),_0x31a5db[_0x17dc9d(0x1da)](_0x17dc9d(0x262),_0x11a445=>{const _0x2a1448=_0x17dc9d;if(_0x11a445[_0x2a1448(0x242)]===_0x31a5db)_0x31a5db[_0x2a1448(0x207)][_0x2a1448(0x229)]('active');}));},setTimeout(()=>{const _0x226d7e=_0x47710f,_0x219cd8=document[_0x226d7e(0x297)](_0x226d7e(0x240)),_0x131782=document[_0x226d7e(0x297)](_0x226d7e(0x1b4));_0x219cd8&&_0x131782&&!_0x219cd8['dataset'][_0x226d7e(0x1c9)]&&(_0x219cd8[_0x226d7e(0x1db)][_0x226d7e(0x1c9)]=_0x226d7e(0x1ce),_0x219cd8[_0x226d7e(0x1da)](_0x226d7e(0x1b5),_0x2cbaa8=>{const _0x4c8543=_0x226d7e;_0x2cbaa8['stopPropagation'](),window[_0x4c8543(0x1c1)](),_0x131782[_0x4c8543(0x207)][_0x4c8543(0x1f5)](_0x4c8543(0x220));}));},0x1f4);const ytWithdrawBtn=document[_0x47710f(0x297)]('yt-withdraw-btn');ytWithdrawBtn&&ytWithdrawBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x29eba6=_0x47710f,_0x1050f9=parseFloat(channelState[_0x29eba6(0x1d4)]['sc']||0x0)+parseFloat(channelState['dataCenter'][_0x29eba6(0x29e)]||0x0);if(_0x1050f9<=0x0)return;if(window[_0x29eba6(0x24f)])window[_0x29eba6(0x24f)]({'title':_0x29eba6(0x272),'message':_0x29eba6(0x27b)+_0x1050f9[_0x29eba6(0x2a4)](0x2)+'\x20提现到\x20Pay\x20钱包吗？','confirmText':_0x29eba6(0x1ea),'cancelText':'取消','onConfirm':()=>{const _0x1a357a=_0x29eba6;channelState['dataCenter']['sc']=0x0,channelState[_0x1a357a(0x1d4)][_0x1a357a(0x29e)]=0x0,saveYoutubeData(),renderDataCenter();window['addPayTransaction']&&window[_0x1a357a(0x260)](_0x1050f9,_0x1a357a(0x214),_0x1a357a(0x1f9));if(window['showToast'])window[_0x1a357a(0x208)](_0x1a357a(0x25e));}});else{if(confirm(_0x29eba6(0x1cd)+_0x1050f9[_0x29eba6(0x2a4)](0x2)+_0x29eba6(0x27d))){channelState[_0x29eba6(0x1d4)]['sc']=0x0,channelState[_0x29eba6(0x1d4)][_0x29eba6(0x29e)]=0x0,saveYoutubeData(),renderDataCenter();if(window['addPayTransaction'])window[_0x29eba6(0x260)](_0x1050f9,_0x29eba6(0x214),_0x29eba6(0x1f9));alert(_0x29eba6(0x1e9));}}});let userLiveHistory=[],userLiveComments=[],userLiveTotalSC=0x0,userLiveTotalViews=0x0,userLiveMaxHot=0x0,userLiveNewSubs=0x0;const userLiveChatInput=document[_0x47710f(0x297)](_0x47710f(0x253)),userLiveChatSend=document[_0x47710f(0x297)](_0x47710f(0x1e5)),userLiveBubblesContainer=document[_0x47710f(0x297)]('yt-user-live-bubbles-container'),userLiveChatContainer=document['getElementById'](_0x47710f(0x258)),userLiveTriggerApiBtn=document[_0x47710f(0x297)](_0x47710f(0x1fc)),userLiveMinimizeBtn=document[_0x47710f(0x297)](_0x47710f(0x1b3));function getUserLiveTitle(){const _0x4d30fd=_0x47710f,_0x476310=document[_0x4d30fd(0x297)]('yt-user-live-title-input');return _0x476310&&_0x476310[_0x4d30fd(0x23f)]?_0x476310[_0x4d30fd(0x23f)]:_0x4d30fd(0x235);}function getUserLiveTopic(){const _0x2d6b82=_0x47710f,_0x285424=document[_0x2d6b82(0x297)](_0x2d6b82(0x1fb));return _0x285424&&_0x285424[_0x2d6b82(0x23f)]?_0x285424[_0x2d6b82(0x23f)]:'';}function getSelectedUserLiveGuest(){return typeof userLiveSelectedGuest!=='undefined'?userLiveSelectedGuest:null;}function buildActiveUserLiveState(_0x56c713={}){const _0x4fb66a=_0x47710f,_0x4b16ab=getCurrentYtLiveUser(),_0x16d710=Number(userLiveTotalViews)||0x0;return{...channelState[_0x4fb66a(0x1ed)]||{},'title':getUserLiveTitle(),'desc':getUserLiveTopic(),'views':_0x16d710+_0x4fb66a(0x288),'thumbnail':userLiveBgUrl||channelState[_0x4fb66a(0x1ed)]?.[_0x4fb66a(0x21c)]||_0x4fb66a(0x1d7),'backgroundUrl':userLiveBgUrl||channelState[_0x4fb66a(0x1ed)]?.[_0x4fb66a(0x218)]||'','comments':Array['isArray'](userLiveComments)?[...userLiveComments]:[],'history':Array[_0x4fb66a(0x290)](userLiveHistory)?[...userLiveHistory]:[],'totalSC':Number(userLiveTotalSC)||0x0,'totalViews':_0x16d710,'maxHot':Number(userLiveMaxHot)||_0x16d710,'newSubs':Number(userLiveNewSubs)||0x0,'guest':getSelectedUserLiveGuest(),'user':{'name':_0x4b16ab[_0x4fb66a(0x1c3)]||'我','avatarUrl':_0x4b16ab[_0x4fb66a(0x1f8)]||'','subs':_0x4b16ab[_0x4fb66a(0x1c0)]||'0'},'updatedAt':Date[_0x4fb66a(0x22d)](),..._0x56c713};}function persistActiveUserLive(_0x18750a={}){const _0x45f142=_0x47710f;if(!channelState)return null;return channelState[_0x45f142(0x1ed)]=buildActiveUserLiveState(_0x18750a),saveYoutubeData(),channelState[_0x45f142(0x1ed)];}function _0x33e7(_0x14bccf,_0x685e1c){_0x14bccf=_0x14bccf-0x1b0;const _0x5d1e05=_0x5d1e();let _0x33e777=_0x5d1e05[_0x14bccf];return _0x33e777;}function renderUserLiveChatRow(_0x58969c){const _0x38f566=_0x47710f;if(!userLiveChatContainer||!_0x58969c)return;const _0x1192ae=document[_0x38f566(0x1dd)](_0x38f566(0x1df));if(_0x58969c['amount'])_0x1192ae['style'][_0x38f566(0x254)]=_0x58969c['color']||'#8e8e93',_0x1192ae[_0x38f566(0x1cc)]['padding']=_0x38f566(0x285),_0x1192ae[_0x38f566(0x1cc)][_0x38f566(0x20c)]=_0x38f566(0x1bb),_0x1192ae[_0x38f566(0x1cc)][_0x38f566(0x284)]=_0x38f566(0x299),_0x1192ae[_0x38f566(0x25c)]=_0x38f566(0x22f)+(_0x58969c['name']||'')+'\x20<span\x20style=\x22margin-left:\x208px;\x22>'+_0x58969c[_0x38f566(0x1d8)]+_0x38f566(0x1e4)+(_0x58969c['text']||'')+_0x38f566(0x22e);else{const _0x831d23=[_0x38f566(0x26f),_0x38f566(0x1ca),_0x38f566(0x1c4),'#808080',_0x38f566(0x1ec),_0x38f566(0x1d2)],_0x3e74c8=_0x831d23[Math[_0x38f566(0x234)](Math[_0x38f566(0x1c8)]()*_0x831d23[_0x38f566(0x1b8)])];_0x1192ae[_0x38f566(0x1cc)][_0x38f566(0x21f)]='flex',_0x1192ae['style'][_0x38f566(0x23b)]=_0x38f566(0x1bb),_0x1192ae[_0x38f566(0x1cc)]['alignItems']=_0x38f566(0x25f),_0x1192ae[_0x38f566(0x1cc)][_0x38f566(0x284)]=_0x38f566(0x293),_0x1192ae[_0x38f566(0x25c)]=_0x38f566(0x263)+_0x3e74c8+';\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20color:#fff;\x20font-size:10px;\x20font-weight:bold;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x58969c[_0x38f566(0x1c3)]&&_0x58969c[_0x38f566(0x1c3)][_0x38f566(0x1b8)]>0x0?_0x58969c['name'][0x0]['toUpperCase']():'?')+_0x38f566(0x278)+(_0x58969c[_0x38f566(0x1c3)]||'')+_0x38f566(0x238)+(_0x58969c[_0x38f566(0x29a)]||'')+_0x38f566(0x295);}userLiveChatContainer['appendChild'](_0x1192ae),userLiveChatContainer[_0x38f566(0x1ff)]=userLiveChatContainer[_0x38f566(0x232)];}function restoreActiveUserLiveState(){const _0x452300=_0x47710f,_0x398e3c=channelState&&channelState['activeUserLive'];if(!_0x398e3c||typeof _0x398e3c!==_0x452300(0x1fe))return;userLiveBgUrl=_0x398e3c[_0x452300(0x218)]||_0x398e3c[_0x452300(0x21c)]||'',userLiveHistory=Array['isArray'](_0x398e3c[_0x452300(0x1fa)])?[..._0x398e3c[_0x452300(0x1fa)]]:[],userLiveComments=Array[_0x452300(0x290)](_0x398e3c[_0x452300(0x274)])?[..._0x398e3c[_0x452300(0x274)]]:[],userLiveTotalSC=Number(_0x398e3c['totalSC'])||0x0,userLiveTotalViews=Number(_0x398e3c[_0x452300(0x28a)])||0x0,userLiveMaxHot=Number(_0x398e3c[_0x452300(0x1f3)])||userLiveTotalViews,userLiveNewSubs=Number(_0x398e3c[_0x452300(0x281)])||0x0;const _0x62f31b=document[_0x452300(0x297)](_0x452300(0x259)),_0x3d7fda=document[_0x452300(0x297)](_0x452300(0x1fb)),_0x1c7069=document['getElementById'](_0x452300(0x1e0)),_0x3a83c3=document[_0x452300(0x297)](_0x452300(0x1de)),_0x1da8a7=document[_0x452300(0x297)](_0x452300(0x2a5));if(_0x62f31b)_0x62f31b[_0x452300(0x23f)]=_0x398e3c['title']||'';if(_0x3d7fda)_0x3d7fda['value']=_0x398e3c[_0x452300(0x20b)]||'';if(_0x1c7069)_0x1c7069[_0x452300(0x1e7)]=_0x398e3c[_0x452300(0x280)]||_0x452300(0x235);userLiveBgImg&&userLiveBgUrl&&(userLiveBgImg[_0x452300(0x245)]=userLiveBgUrl,userLiveBgImg[_0x452300(0x1cc)]['display']='block');if(_0x3a83c3)_0x3a83c3[_0x452300(0x245)]=userLiveBgUrl||_0x452300(0x1f1);if(_0x1da8a7)_0x1da8a7[_0x452300(0x1e7)]=_0x398e3c[_0x452300(0x269)]||userLiveTotalViews+_0x452300(0x288);userLiveChatContainer&&(userLiveChatContainer[_0x452300(0x25c)]='',userLiveComments['forEach'](renderUserLiveChatRow));}[userLiveVideoArea,userLiveBackBtn,userLiveMinimizeBtn,document['getElementById'](_0x47710f(0x2a5)),userLiveTriggerApiBtn,userLiveChatContainer,userLiveChatInput,userLiveChatSend][_0x47710f(0x261)](Boolean)['forEach'](_0x44484b=>{const _0x4c4764=_0x47710f;_0x44484b[_0x4c4764(0x1da)](_0x4c4764(0x1b5),stopUserLiveControlEvent),_0x44484b['addEventListener'](_0x4c4764(0x22b),stopUserLiveControlEvent);}),restoreActiveUserLiveState();startUserLiveBtn&&startUserLiveBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x5041cf=_0x47710f;userLiveComments=[],userLiveTotalSC=0x0,userLiveTotalViews=Math[_0x5041cf(0x234)](Math['random']()*0x1f4)+0x64,userLiveMaxHot=userLiveTotalViews,userLiveNewSubs=0x0,persistActiveUserLive({'minimized':![]});const _0x3b240f=document['getElementById'](_0x5041cf(0x2a5));if(_0x3b240f)_0x3b240f[_0x5041cf(0x1e7)]=userLiveTotalViews+_0x5041cf(0x288);});userLiveMinimizeBtn&&userLiveMinimizeBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x10e62e=_0x47710f;if(userLiveView)userLiveView[_0x10e62e(0x207)][_0x10e62e(0x229)](_0x10e62e(0x220));if(window[_0x10e62e(0x208)])window[_0x10e62e(0x208)](_0x10e62e(0x1ee));const _0x41e96e=getCurrentYtLiveUser();if(_0x41e96e){persistActiveUserLive({'minimized':!![]});if(typeof rebuildYoutubeMockVideos===_0x10e62e(0x1c2))rebuildYoutubeMockVideos();else{const _0xdba820=mockVideos[_0x10e62e(0x251)](_0x5327dd=>_0x5327dd['channelData']&&_0x5327dd[_0x10e62e(0x1f6)]['id']===_0x10e62e(0x1e3));if(_0xdba820>-0x1)mockVideos[_0x10e62e(0x27f)](_0xdba820,0x1);const _0xd1335c=channelState[_0x10e62e(0x1ed)];mockVideos[_0x10e62e(0x275)]({'title':_0xd1335c[_0x10e62e(0x280)],'desc':_0xd1335c['desc'],'views':_0xd1335c['views'],'time':'LIVE','thumbnail':_0xd1335c[_0x10e62e(0x21c)],'isLive':!![],'comments':_0xd1335c['comments']||[],'initialBubbles':[],'guest':_0xd1335c['guest']||null,'channelData':{'id':'user_channel_id','name':_0x41e96e['name']||'我','avatar':_0x41e96e[_0x10e62e(0x1f8)]||_0x10e62e(0x1f2),'subs':_0x41e96e[_0x10e62e(0x1c0)]||'0'}});}renderVideos();}});const userLiveSummarySheet=document[_0x47710f(0x297)]('yt-user-live-summary-sheet'),ytSummaryConfirmBtn=document[_0x47710f(0x297)](_0x47710f(0x2a3));userLiveSummarySheet&&userLiveSummarySheet[_0x47710f(0x1da)](_0x47710f(0x262),_0x13198d=>{const _0x2b79a8=_0x47710f;if(_0x13198d[_0x2b79a8(0x242)]===userLiveSummarySheet)userLiveSummarySheet[_0x2b79a8(0x207)][_0x2b79a8(0x229)]('active');});ytSummaryConfirmBtn&&userLiveSummarySheet&&ytSummaryConfirmBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),()=>{const _0x15c58b=_0x47710f;userLiveSummarySheet[_0x15c58b(0x207)][_0x15c58b(0x229)](_0x15c58b(0x220));if(window['showToast'])window['showToast'](_0x15c58b(0x225));const _0x5109e5=mockVideos['findIndex'](_0x2e3f45=>_0x2e3f45[_0x15c58b(0x1f6)]&&_0x2e3f45[_0x15c58b(0x1f6)]['id']===_0x15c58b(0x1e3));if(_0x5109e5>-0x1)mockVideos[_0x15c58b(0x27f)](_0x5109e5,0x1);!channelState[_0x15c58b(0x1d4)]&&(channelState[_0x15c58b(0x1d4)]={'views':0x0,'sc':0x0,'subs':0x0});channelState[_0x15c58b(0x1d4)]['views']+=userLiveTotalViews,channelState['dataCenter']['sc']+=userLiveTotalSC;if(!channelState[_0x15c58b(0x1d4)][_0x15c58b(0x1c0)])channelState['dataCenter']['subs']=0x0;channelState[_0x15c58b(0x1d4)][_0x15c58b(0x1c0)]+=userLiveNewSubs;const _0x469daa=getCurrentYtLiveUser();if(_0x469daa){const _0x39bcc0=parseSubs(_0x469daa[_0x15c58b(0x1c0)]);_0x469daa[_0x15c58b(0x1c0)]=formatSubs(_0x39bcc0+userLiveNewSubs);const _0x3b3bb4=(_0x469daa[_0x15c58b(0x1e8)]||'0')[_0x15c58b(0x1cf)](/[^0-9]/g,'');let _0xb1202d=parseInt(_0x3b3bb4)||0x0;_0x469daa[_0x15c58b(0x1e8)]=(_0xb1202d+0x1)[_0x15c58b(0x23e)](),ytUserState=_0x469daa,syncYtProfile();}if(!channelState[_0x15c58b(0x249)])channelState[_0x15c58b(0x249)]=[];const _0x5b1c3f=document[_0x15c58b(0x297)](_0x15c58b(0x259)),_0x5da1cf=_0x5b1c3f&&_0x5b1c3f[_0x15c58b(0x23f)]?_0x5b1c3f[_0x15c58b(0x23f)]:_0x15c58b(0x235),_0x31e7e7=document[_0x15c58b(0x297)]('yt-user-live-topic-input'),_0x1559c2=_0x31e7e7&&_0x31e7e7[_0x15c58b(0x23f)]?_0x31e7e7['value']:'',_0x21c5a1={'title':_0x5da1cf,'desc':_0x1559c2,'views':userLiveTotalViews+_0x15c58b(0x1b9),'time':'刚刚','thumbnail':userLiveBgUrl||'https://picsum.photos/seed/user_past/320/180?grayscale','comments':[...userLiveComments],'guest':userLiveSelectedGuest};channelState['pastVideos']['unshift'](_0x21c5a1);if(userLiveSelectedGuest){const _0x5197e2=mockSubscriptions[_0x15c58b(0x210)](_0x34ecfc=>_0x34ecfc['id']===userLiveSelectedGuest['id']);if(_0x5197e2){!_0x5197e2[_0x15c58b(0x2a7)]&&(_0x5197e2['generatedContent']={'pastVideos':[],'communityPosts':[],'currentLive':null,'fanGroup':null});if(!_0x5197e2[_0x15c58b(0x2a7)][_0x15c58b(0x249)])_0x5197e2[_0x15c58b(0x2a7)][_0x15c58b(0x249)]=[];_0x5197e2['generatedContent'][_0x15c58b(0x249)]['unshift']({'title':_0x15c58b(0x211)+_0x5da1cf,'views':Math[_0x15c58b(0x234)](userLiveTotalViews*0.8)+_0x15c58b(0x1b9),'time':'刚刚','thumbnail':_0x21c5a1['thumbnail'],'comments':[{'name':_0x469daa[_0x15c58b(0x1c3)]||'我','text':_0x15c58b(0x1b7)}],'guest':{'name':_0x469daa[_0x15c58b(0x1c3)]||'我'}});}}channelState['activeUserLive']=null,saveYoutubeData(),renderVideos();const _0x52d00f=document['querySelector'](_0x15c58b(0x27a));_0x52d00f&&_0x52d00f[_0x15c58b(0x205)](_0x15c58b(0x230))===_0x15c58b(0x1c7)&&_0x52d00f[_0x15c58b(0x1b5)]();});if(userLiveChatSend&&userLiveChatInput){const sendAction=()=>{const _0x1f22ba=_0x47710f,_0x4d43e9=userLiveChatInput[_0x1f22ba(0x23f)][_0x1f22ba(0x25a)]();if(!_0x4d43e9)return;userLiveHistory[_0x1f22ba(0x22c)]({'type':'host','text':_0x4d43e9});const _0x57e52d=document[_0x1f22ba(0x1dd)](_0x1f22ba(0x1df));_0x57e52d[_0x1f22ba(0x215)]=_0x1f22ba(0x271),_0x57e52d[_0x1f22ba(0x1e7)]=_0x4d43e9,userLiveBubblesContainer['appendChild'](_0x57e52d),setTimeout(()=>{const _0x57f385=_0x1f22ba;_0x57e52d[_0x57f385(0x1cc)]['opacity']='0',_0x57e52d[_0x57f385(0x1cc)][_0x57f385(0x28e)]='opacity\x201s\x20ease',setTimeout(()=>_0x57e52d[_0x57f385(0x229)](),0x3e8);},0x1f40),userLiveChatInput[_0x1f22ba(0x23f)]='',persistActiveUserLive();};userLiveChatSend[_0x47710f(0x1da)](_0x47710f(0x1b5),sendAction),userLiveChatInput[_0x47710f(0x1da)](_0x47710f(0x24c),_0x18ec23=>{const _0x345599=_0x47710f;_0x18ec23[_0x345599(0x266)]===_0x345599(0x273)&&(_0x18ec23['preventDefault'](),sendAction());});}function buildUserLiveAudiencePrompt(){const _0x241662=_0x47710f,_0x5922ee=[];if(typeof window[_0x241662(0x26e)]===_0x241662(0x1c2)){const _0x1c5501=window[_0x241662(0x26e)]();if(_0x1c5501)_0x5922ee[_0x241662(0x22c)](_0x1c5501);}else{if(channelState&&Array[_0x241662(0x290)](channelState[_0x241662(0x29f)])&&typeof window['getWorldBooks']===_0x241662(0x1c2)){const _0x58ad6c=window[_0x241662(0x219)]();channelState[_0x241662(0x29f)][_0x241662(0x1eb)](_0x4f2d2c=>{const _0x1ba907=_0x241662,_0x12b608=_0x58ad6c['find'](_0x185ae4=>String(_0x185ae4['id'])===String(_0x4f2d2c));if(_0x12b608&&Array[_0x1ba907(0x290)](_0x12b608['entries'])&&_0x12b608[_0x1ba907(0x217)][_0x1ba907(0x1b8)]>0x0){const _0x52c2b1=_0x12b608[_0x1ba907(0x217)][_0x1ba907(0x216)](_0x5c794a=>(_0x5c794a[_0x1ba907(0x257)]||'entry')+':\x20'+(_0x5c794a[_0x1ba907(0x2a0)]||''))[_0x1ba907(0x261)](Boolean)[_0x1ba907(0x231)]('\x0a');if(_0x52c2b1['trim']())_0x5922ee[_0x1ba907(0x22c)]('【'+(_0x12b608[_0x1ba907(0x1c3)]||'World\x20Book')+'】\x0a'+_0x52c2b1);}});}}const _0x29555b=getCurrentYtLiveUser(),_0x42f849=_0x29555b['name']||'我',_0x23dc3a=_0x29555b['persona']||_0x29555b[_0x241662(0x20b)]||'普通主播',_0x10388b=getUserLiveTitle(),_0x4dfc01=getUserLiveTopic(),_0x2a99d8=userLiveHistory[_0x241662(0x1f4)](-0x5)[_0x241662(0x216)](_0x2ec5c9=>_0x2ec5c9[_0x241662(0x29a)])[_0x241662(0x261)](Boolean)[_0x241662(0x231)](_0x241662(0x1d9))||_0x241662(0x246),_0x4599dd=getSelectedUserLiveGuest(),_0x4969ab=_0x4599dd?_0x241662(0x1d0)+(_0x4599dd[_0x241662(0x1c3)]||'未知')+_0x241662(0x1bf)+(_0x4599dd['desc']||_0x4599dd['persona']||'未知')+'。':_0x241662(0x21e),_0x17cc3f=_0x5922ee[_0x241662(0x1b8)]>0x0?_0x241662(0x201)+_0x5922ee[_0x241662(0x231)]('\x0a\x0a')+'\x0a':'';return _0x241662(0x28d)+_0x42f849+'\x0a主播人设：'+_0x23dc3a+_0x241662(0x23a)+_0x10388b+_0x241662(0x1dc)+_0x4dfc01+_0x241662(0x24a)+_0x2a99d8+'\x0a'+_0x4969ab+_0x17cc3f+_0x241662(0x20f);}userLiveTriggerApiBtn&&userLiveTriggerApiBtn[_0x47710f(0x1da)](_0x47710f(0x1b5),async()=>{const _0x253a99=_0x47710f;if(!window[_0x253a99(0x1fd)]||!window[_0x253a99(0x1fd)][_0x253a99(0x227)]||!window['apiConfig']['apiKey']){if(window[_0x253a99(0x208)])window[_0x253a99(0x208)](_0x253a99(0x25d));return;}userLiveTriggerApiBtn['style'][_0x253a99(0x248)]=_0x253a99(0x1bc),userLiveTriggerApiBtn[_0x253a99(0x1cc)][_0x253a99(0x29b)]=_0x253a99(0x247),userLiveTriggerApiBtn[_0x253a99(0x25c)]='<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20等待中';try{let _0x2857f9=window[_0x253a99(0x1fd)]['endpoint'];if(_0x2857f9[_0x253a99(0x233)]('/'))_0x2857f9=_0x2857f9['slice'](0x0,-0x1);!_0x2857f9[_0x253a99(0x233)]('/chat/completions')&&(_0x2857f9=_0x2857f9[_0x253a99(0x233)](_0x253a99(0x206))?_0x2857f9+_0x253a99(0x28f):_0x2857f9+_0x253a99(0x27e));const _0xa71d67=await fetch(_0x2857f9,{'method':_0x253a99(0x26d),'headers':{'Content-Type':_0x253a99(0x1b1),'Authorization':_0x253a99(0x25b)+window[_0x253a99(0x1fd)]['apiKey']},'body':JSON[_0x253a99(0x291)]({'model':window[_0x253a99(0x1fd)]['model']||_0x253a99(0x212),'messages':[{'role':'user','content':buildUserLiveAudiencePrompt()}],'temperature':0.8,'response_format':{'type':_0x253a99(0x1be)}})});if(!_0xa71d67['ok'])throw new Error(_0x253a99(0x268));const _0x18acee=await _0xa71d67[_0x253a99(0x22a)]();let _0x2573d9=_0x18acee[_0x253a99(0x24b)][0x0][_0x253a99(0x2a2)][_0x253a99(0x2a0)][_0x253a99(0x1cf)](/```json\n?/g,'')['replace'](/```/g,'')[_0x253a99(0x25a)](),_0x4e09e0;try{_0x4e09e0=sanitizeObj(JSON[_0x253a99(0x1ef)](_0x2573d9));}catch(_0x11b8eb){console['error'](_0x253a99(0x1d6),_0x11b8eb,_0x2573d9);if(window[_0x253a99(0x208)])window[_0x253a99(0x208)](_0x253a99(0x2a6));return;}let _0x27fb14=[];_0x4e09e0[_0x253a99(0x274)]&&Array['isArray'](_0x4e09e0['comments'])&&_0x4e09e0[_0x253a99(0x274)][_0x253a99(0x1eb)](_0x1ce1a9=>_0x27fb14[_0x253a99(0x22c)]({'type':'comment','data':_0x1ce1a9}));_0x4e09e0[_0x253a99(0x28c)]&&Array[_0x253a99(0x290)](_0x4e09e0[_0x253a99(0x28c)])&&_0x4e09e0[_0x253a99(0x28c)][_0x253a99(0x1eb)](_0x131527=>_0x27fb14[_0x253a99(0x22c)]({'type':'sc','data':_0x131527}));_0x4e09e0[_0x253a99(0x281)]&&Array[_0x253a99(0x290)](_0x4e09e0[_0x253a99(0x281)])&&_0x4e09e0[_0x253a99(0x281)][_0x253a99(0x1eb)](_0x29b33f=>_0x27fb14[_0x253a99(0x22c)]({'type':'sub','data':_0x29b33f}));_0x27fb14[_0x253a99(0x23d)](()=>Math[_0x253a99(0x1c8)]()-0.5);let _0x1298a6=0x0;_0x27fb14[_0x253a99(0x1eb)](_0x32464c=>{const _0x2d251f=_0x253a99;_0x1298a6+=Math[_0x2d251f(0x234)](Math[_0x2d251f(0x1c8)]()*0x7d0)+0x1f4,setTimeout(()=>{const _0x2aab4b=_0x2d251f;if(_0x32464c[_0x2aab4b(0x252)]==='comment')addUserLiveChatMessage(_0x32464c[_0x2aab4b(0x292)]['name'],_0x32464c['data'][_0x2aab4b(0x29a)],null,null);else{if(_0x32464c['type']==='sc'){addUserLiveChatMessage(_0x32464c['data']['name'],_0x32464c[_0x2aab4b(0x292)][_0x2aab4b(0x29a)],_0x32464c['data']['displayAmount']||_0x32464c[_0x2aab4b(0x292)][_0x2aab4b(0x1d8)],_0x32464c['data'][_0x2aab4b(0x294)]);const _0x5a5561=parseFloat(_0x32464c[_0x2aab4b(0x292)]['amount'])||0x0;userLiveTotalSC+=_0x5a5561,persistActiveUserLive();}else{if(_0x32464c[_0x2aab4b(0x252)]==='sub'){const _0xf04df6=document['getElementById'](_0x2aab4b(0x1cb));if(_0xf04df6){const _0x435587=document[_0x2aab4b(0x1dd)](_0x2aab4b(0x1df));_0x435587[_0x2aab4b(0x215)]=_0x2aab4b(0x228),_0x435587['innerHTML']=_0x2aab4b(0x1f7)+_0x32464c[_0x2aab4b(0x292)]+_0x2aab4b(0x1d3),_0x435587[_0x2aab4b(0x1cc)]['top']=Math[_0x2aab4b(0x234)](Math['random']()*0x50)+'%',_0xf04df6[_0x2aab4b(0x282)](_0x435587),setTimeout(()=>_0x435587[_0x2aab4b(0x229)](),0x1388),userLiveNewSubs+=0x1;const _0x9cf0d9=document[_0x2aab4b(0x297)](_0x2aab4b(0x2a5));if(_0x9cf0d9){let _0x501972=parseInt(_0x9cf0d9[_0x2aab4b(0x1e7)])||0x0;const _0x3c37c6=Math['floor'](Math['random']()*0x32)+0xa;_0x501972+=_0x3c37c6,userLiveTotalViews+=_0x3c37c6;if(userLiveTotalViews>userLiveMaxHot)userLiveMaxHot=userLiveTotalViews;_0x9cf0d9[_0x2aab4b(0x1e7)]=_0x501972+_0x2aab4b(0x288);}persistActiveUserLive();}}}}},_0x1298a6);});}catch(_0x361d09){console[_0x253a99(0x26c)](_0x361d09);if(window['showToast'])window[_0x253a99(0x208)](_0x253a99(0x1ba));}finally{userLiveTriggerApiBtn['style'][_0x253a99(0x248)]='1',userLiveTriggerApiBtn['style']['pointerEvents']=_0x253a99(0x1bd),userLiveTriggerApiBtn[_0x253a99(0x25c)]=_0x253a99(0x1b2);}});function _0x5d1e(){const _0x188eb7=['yt-user-live-alert','remove','json','pointerdown','push','now','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20bold;\x20font-size:\x2013px;\x20color:\x20rgba(255,255,255,0.9);\x20margin-bottom:\x204px;\x22>','data-target','join','scrollHeight','endsWith','floor','我的直播间','\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20600;\x20font-size:\x2015px;\x20color:\x20#000;\x20white-space:\x20nowrap;\x20text-overflow:\x20ellipsis;\x20overflow:\x20hidden;\x22>','\x20<span\x20style=\x22margin-left:\x208px;\x22>','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:#0f0f0f;\x22>','结束直播','\x0a直播标题：','gap','dc-total-revenue','sort','toString','value','yt-data-center-btn','getYtEffectiveUserState','target','yt-user-live-setup-sheet','dc-total-subs','src','刚开播，还没有明显发言','none','opacity','pastVideos','\x0a最近主播发言或动作：','choices','keydown','69223swLuSx','block','showCustomModal','https://picsum.photos/80/80?grayscale','findIndex','type','yt-user-live-chat-input','backgroundColor','toUpperCase','84466rKjsOS','keyword','yt-user-live-chat-container','yt-user-live-title-input','trim','Bearer\x20','innerHTML','请配置API','提现成功，已存入\x20Pay\x20钱包','flex-start','addPayTransaction','filter','mousedown','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:24px;\x20height:24px;\x20border-radius:50%;\x20background-color:','yt-user-live-view','padding','key','12px\x2016px','API\x20failed','views','yt-summary-views','63RcvBkr','error','POST','getGlobalWorldBookContext','#333333','accepted','yt-user-live-bubble','收益提现','Enter','comments','unshift','result','yt-user-live-bg-img','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:13px;\x20margin-top:2px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:12px;\x20margin-right:4px;\x20color:#606060;\x22>','test','#profile-main-tabs\x20.yt-sliding-tab.active','确认将\x20YouTube\x20创作者收益\x20￥','40dBrTvR','\x20吗？','/v1/chat/completions','splice','title','newSubs','appendChild','compressImage','marginBottom','8px\x2012px','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x22>来自:\x20','商单任务','\x20人正在观看','dc-offers-list','totalViews','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','superchats','你正在为一个真实\x20YouTube\x20直播间生成观众实时反应。\x0a主播名：','transition','/chat/completions','isArray','stringify','data','12px','color','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','9jslugo','getElementById','2428722ndBIAU','4px','text','pointerEvents','yt-user-live-bg-upload','dc-total-sc','commission','boundWorldBookIds','content','3775952ozEkYX','message','yt-summary-confirm-btn','toFixed','yt-user-live-views-display','观众反应格式生成失败，请重试','generatedContent','stopPropagation','application/json','<i\x20class=\x22fas\x20fa-magic\x22></i>','yt-user-live-minimize-btn','yt-data-center-sheet','click','yt-user-live-bg-btn','这把打得不错！','length','\x20次观看','无法获取观众反应','8px','0.5','auto','json_object','。嘉宾人设：','subs','renderDataCenter','function','name','#666666','3590jInnZm','yt-summary-sc','past','random','bound','#4d4d4d','yt-user-live-alert-container','style','确认提现\x20￥','true','replace','联动嘉宾：','#8e8e93','#b3b3b3','\x20刚刚订阅了你！','dataCenter','dc-total-views','JSON\x20Parse\x20Error\x20in\x20Live\x20Audience:','https://picsum.photos/320/180','amount','\x20|\x20','addEventListener','dataset','\x0a直播主题：','createElement','yt-user-live-bg-display','div','yt-user-live-title-display','366028vgZpUP','onload','user_channel_id','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20#fff;\x22>','yt-user-live-chat-send','yt-user-live-video-area','textContent','videos','提现成功！','确认提现','forEach','#999999','activeUserLive','直播已最小化并在后台运行','parse','2725758dVQmsd','https://picsum.photos/900/600','https://picsum.photos/80/80','maxHot','slice','add','channelData','<i\x20class=\x22fas\x20fa-bell\x22></i>\x20','avatarUrl','income','history','yt-user-live-topic-input','yt-user-live-trigger-api-btn','apiConfig','object','scrollTop','start-user-live-btn','\x0a已挂载世界书内容：\x0a','querySelectorAll','offerData','309389feSUne','getAttribute','/v1','classList','showToast','files','yt-summary-subs','desc','borderRadius','yt-withdraw-btn','offerStatus','\x0a请根据主播人设、直播标题、主题、最近发言和联动信息，生成像真实\x20YouTube\x20直播间一样的即时评论、打赏和新订阅。\x0a评论要短、有弹幕感，允许观众有不同语气、追问、吐槽、起哄、支持和轻微跑题，但要贴合当前直播。\x0a\x0a只返回严格\x20JSON，不要\x20Markdown，不要代码块，不要解释，不要\x20emoji。\x0aJSON\x20结构必须完全符合：\x0a{\x0a\x20\x20\x22comments\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22观众1\x22,\x20\x22text\x22:\x20\x22弹幕内容\x22},\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22观众2\x22,\x20\x22text\x22:\x20\x22弹幕内容\x22}\x0a\x20\x20],\x0a\x20\x20\x22superchats\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22打赏观众\x22,\x20\x22text\x22:\x20\x22留言\x22,\x20\x22displayAmount\x22:\x20\x22$50\x22,\x20\x22amount\x22:\x20350,\x20\x22color\x22:\x20\x22#e65100\x22}\x0a\x20\x20],\x0a\x20\x20\x22newSubs\x22:\x20[\x22新粉丝A\x22,\x20\x22新粉丝B\x22]\x0a}\x0a约束：\x0a1.\x20comments\x20必须是\x205\x20到\x2010\x20条\x0a2.\x20superchats\x20必须是\x200\x20到\x202\x20条，displayAmount\x20是带币种符号的展示金额，amount\x20是换算成人民币的纯数字\x0a3.\x20newSubs\x20可以是空数组，也可以是\x201\x20到\x203\x20个名字\x0a4.\x20所有句子自然短促，不要在句末堆标点','find','【联动录播】','gpt-3.5-turbo','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2036px;\x20height:\x2036px;\x20border-radius:\x2050%;\x20overflow:\x20hidden;\x20margin-right:\x2012px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','YouTube\x20创作者收益','className','map','entries','backgroundUrl','getWorldBooks','dc-total-commission','cursor','thumbnail','change','联动嘉宾：无。','display','active','settings-item','readAsDataURL','yt-live-chat-row-anim','avatar','录播已保存至往期记录','flex','endpoint'];_0x5d1e=function(){return _0x188eb7;};return _0x5d1e();}function addUserLiveChatMessage(_0x1a5902,_0x125cc7,_0x2c1102,_0x59bc60){const _0x186c8d=_0x47710f;if(!userLiveChatContainer)return;userLiveComments[_0x186c8d(0x22c)]({'name':_0x1a5902,'text':_0x125cc7,'amount':_0x2c1102,'color':_0x59bc60});const _0x3d11e1=document[_0x186c8d(0x1dd)](_0x186c8d(0x1df));_0x3d11e1[_0x186c8d(0x215)]=_0x186c8d(0x223);if(_0x2c1102){let _0x47b813=_0x2c1102;(typeof _0x2c1102==='number'||/^\d+(\.\d+)?$/[_0x186c8d(0x279)](String(_0x2c1102)))&&(_0x47b813='￥'+_0x2c1102),_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x254)]=_0x59bc60||_0x186c8d(0x1d1),_0x3d11e1['style'][_0x186c8d(0x265)]=_0x186c8d(0x285),_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x20c)]=_0x186c8d(0x1bb),_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x284)]=_0x186c8d(0x299),_0x3d11e1[_0x186c8d(0x25c)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20bold;\x20font-size:\x2013px;\x20color:\x20rgba(255,255,255,0.9);\x20margin-bottom:\x204px;\x22>'+_0x1a5902+_0x186c8d(0x237)+_0x47b813+'</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20#fff;\x22>'+_0x125cc7+_0x186c8d(0x22e);}else{_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x21f)]=_0x186c8d(0x226),_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x23b)]=_0x186c8d(0x1bb),_0x3d11e1[_0x186c8d(0x1cc)]['alignItems']=_0x186c8d(0x25f),_0x3d11e1[_0x186c8d(0x1cc)][_0x186c8d(0x284)]=_0x186c8d(0x293);const _0x433c19=[_0x186c8d(0x26f),'#4d4d4d','#666666','#808080','#999999',_0x186c8d(0x1d2)],_0x1a75f3=_0x433c19[Math[_0x186c8d(0x234)](Math[_0x186c8d(0x1c8)]()*_0x433c19[_0x186c8d(0x1b8)])];_0x3d11e1[_0x186c8d(0x25c)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:24px;\x20height:24px;\x20border-radius:50%;\x20background-color:'+_0x1a75f3+';\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20color:#fff;\x20font-size:10px;\x20font-weight:bold;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1a5902&&_0x1a5902['length']>0x0?_0x1a5902[0x0][_0x186c8d(0x255)]():'?')+_0x186c8d(0x278)+_0x1a5902+_0x186c8d(0x238)+_0x125cc7+_0x186c8d(0x295);}userLiveChatContainer[_0x186c8d(0x282)](_0x3d11e1),userLiveChatContainer[_0x186c8d(0x1ff)]=userLiveChatContainer['scrollHeight'],persistActiveUserLive();}
+// === User Live Setup & Interface ===
+    const startLiveOptionBtn = ytCreateSheet ? ytCreateSheet.querySelectorAll('.yt-create-bubble-btn')[0] : null;
+    
+    const userLiveSetupSheet = document.getElementById('yt-user-live-setup-sheet');
+    const startUserLiveBtn = document.getElementById('start-user-live-btn');
+    const userLiveView = document.getElementById('yt-user-live-view');
+    const userLiveBackBtn = document.getElementById('yt-user-live-back-btn');
+    const userLiveVideoArea = document.getElementById('yt-user-live-video-area');
+
+    let userLiveBgUrl = '';
+    const userLiveBgUpload = document.getElementById('yt-user-live-bg-upload');
+    const userLiveBgBtn = document.getElementById('yt-user-live-bg-btn');
+    const userLiveBgImg = document.getElementById('yt-user-live-bg-img');
+
+    function getCurrentYtLiveUser() {
+        if (typeof window.getYtEffectiveUserState === 'function') {
+            return window.getYtEffectiveUserState() || {};
+        }
+        return ytUserState || {};
+    }
+
+    function stopUserLiveControlEvent(e) {
+        if (!e) return;
+        e.stopPropagation();
+    }
+
+    if (userLiveBgBtn && userLiveBgUpload) {
+        userLiveBgBtn.addEventListener('click', (e) => {
+            stopUserLiveControlEvent(e);
+            userLiveBgUpload.click();
+        });
+        userLiveBgUpload.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                    if (window.compressImage) {
+                        window.compressImage(ev.target.result, 900, 600, (compressedUrl) => {
+                            userLiveBgUrl = compressedUrl;
+                            if(userLiveBgImg) {
+                                userLiveBgImg.src = userLiveBgUrl;
+                                userLiveBgImg.style.display = 'block';
+                            }
+                            const liveDisplay = document.getElementById('yt-user-live-bg-display');
+                            if(liveDisplay) {
+                                liveDisplay.src = userLiveBgUrl;
+                            }
+                        });
+                    } else {
+                        userLiveBgUrl = ev.target.result;
+                        if(userLiveBgImg) {
+                            userLiveBgImg.src = userLiveBgUrl;
+                            userLiveBgImg.style.display = 'block';
+                        }
+                        const liveDisplay = document.getElementById('yt-user-live-bg-display');
+                        if(liveDisplay) {
+                            liveDisplay.src = userLiveBgUrl;
+                        }
+                    }
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    }
+
+    if (startLiveOptionBtn && userLiveSetupSheet) {
+        startLiveOptionBtn.addEventListener('click', () => {
+            if(ytCreateSheet) ytCreateSheet.classList.remove('active');
+            userLiveSetupSheet.classList.add('active');
+        });
+        userLiveSetupSheet.addEventListener('mousedown', (e) => {
+            if(e.target === userLiveSetupSheet) userLiveSetupSheet.classList.remove('active');
+        });
+    }
+
+    if (startUserLiveBtn && userLiveView) {
+        startUserLiveBtn.addEventListener('click', () => {
+            const titleInput = document.getElementById('yt-user-live-title-input');
+            const title = titleInput && titleInput.value ? titleInput.value : '我的直播间';
+
+            document.getElementById('yt-user-live-title-display').textContent = title;
+            if(userLiveBgUrl) {
+                document.getElementById('yt-user-live-bg-display').src = userLiveBgUrl;
+            } else {
+                document.getElementById('yt-user-live-bg-display').src = 'https://picsum.photos/900/600';
+            }
+
+            userLiveSetupSheet.classList.remove('active');
+            
+            // Clean up old state
+            document.getElementById('yt-user-live-chat-container').innerHTML = '';
+            document.getElementById('yt-user-live-bubbles-container').innerHTML = '';
+            document.getElementById('yt-user-live-alert-container').innerHTML = '';
+            userLiveHistory = [];
+
+            userLiveView.classList.add('active');
+        });
+    }
+
+    if (userLiveBackBtn) {
+        userLiveBackBtn.addEventListener('click', () => {
+            window.showCustomModal({
+                title: '结束直播',
+                message: '确定要结束当前的直播吗？',
+                confirmText: '结束',
+                cancelText: '继续',
+                isDestructive: true,
+                onConfirm: () => {
+                    userLiveView.classList.remove('active');
+                    
+                    document.getElementById('yt-summary-views').textContent = userLiveTotalViews;
+                    document.getElementById('yt-summary-hot').textContent = userLiveMaxHot;
+                    document.getElementById('yt-summary-subs').textContent = '+' + userLiveNewSubs;
+                    document.getElementById('yt-summary-sc').textContent = '￥' + userLiveTotalSC;
+                    
+                    if(userLiveSummarySheet) userLiveSummarySheet.classList.add('active');
+                }
+            });
+        });
+    }
+
+    // Data Center Logic
+    window.renderDataCenter = function() {
+        const dataCenterBtn = document.getElementById('yt-data-center-btn');
+        const dataCenterSheet = document.getElementById('yt-data-center-sheet');
+        const ytWithdrawBtn = document.getElementById('yt-withdraw-btn');
+        const dcTotalViews = document.getElementById('dc-total-views');
+        const dcTotalSc = document.getElementById('dc-total-sc');
+        const dcTotalSubs = document.getElementById('dc-total-subs');
+        const dcTotalCommission = document.getElementById('dc-total-commission');
+        const dcTotalRevenue = document.getElementById('dc-total-revenue');
+        const dcOffersList = document.getElementById('dc-offers-list');
+
+        if (!channelState.dataCenter) {
+            channelState.dataCenter = { views: 0, sc: 0, subs: 0, commission: 0 };
+        }
+        if (channelState.dataCenter.commission === undefined) channelState.dataCenter.commission = 0;
+
+        if (dcTotalViews) dcTotalViews.textContent = channelState.dataCenter.views || 0;
+        if (dcTotalSc) dcTotalSc.textContent = (channelState.dataCenter.sc || 0).toFixed(2);
+        if (dcTotalSubs) dcTotalSubs.textContent = channelState.dataCenter.subs || 0;
+        if (dcTotalCommission) dcTotalCommission.textContent = (channelState.dataCenter.commission || 0).toFixed(2);
+        
+        const total = parseFloat(channelState.dataCenter.sc || 0) + parseFloat(channelState.dataCenter.commission || 0);
+        if (dcTotalRevenue) dcTotalRevenue.textContent = total.toFixed(2);
+        
+        if (ytWithdrawBtn) {
+            if (total > 0) {
+                ytWithdrawBtn.style.opacity = '1';
+                ytWithdrawBtn.style.pointerEvents = 'auto';
+            } else {
+                ytWithdrawBtn.style.opacity = '0.5';
+                ytWithdrawBtn.style.pointerEvents = 'none';
+            }
+        }
+
+        if (dcOffersList) {
+            dcOffersList.innerHTML = '';
+            let hasOffers = false;
+
+            mockSubscriptions.forEach(sub => {
+                if (sub.dmHistory) {
+                    sub.dmHistory.forEach(msg => {
+                        if (msg.isOffer && msg.offerStatus === 'accepted') {
+                            hasOffers = true;
+                            const el = document.createElement('div');
+                            el.className = 'settings-item';
+                            el.style.padding = '12px 16px';
+                            el.style.cursor = 'pointer';
+
+                            const priceStr = msg.offerData.price || '0';
+                            const avatarUrl = typeof resolveYtChannelAvatar === 'function'
+                                ? resolveYtChannelAvatar(sub)
+                                : (sub.avatar || 'https://picsum.photos/80/80?grayscale');
+
+                            el.innerHTML = `
+                                <div style="width: 36px; height: 36px; border-radius: 50%; overflow: hidden; margin-right: 12px; flex-shrink: 0;">
+                                    <img src="${avatarUrl}" style="width: 100%; height: 100%; object-fit: cover;">
+                                </div>
+                                <div style="flex: 1; overflow: hidden;">
+                                    <div style="font-weight: 600; font-size: 15px; color: #000; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">${msg.offerData.title || '商单任务'}</div>
+                                    <div style="font-size: 12px; color: #8e8e93; margin-top: 2px;">来自: ${sub.name}</div>
+                                </div>
+                                <div style="color: #ff3b30; font-weight: 600; font-size: 15px;">${priceStr}</div>
+                            `;
+
+                            el.addEventListener('click', () => {
+                                // Set global current sub so the detail sheet context works
+                                currentSubChannelData = sub;
+                                openOfferDetailSheet(msg);
+                            });
+
+                            dcOffersList.appendChild(el);
+                        }
+                    });
+                }
+            });
+
+            if (!hasOffers) {
+                dcOffersList.innerHTML = '<div style="padding: 16px; text-align: center; color: #8e8e93; font-size: 14px;">暂无进行中的商单</div>';
+            }
+        }
+        
+        // Hide sheet handler
+        if (dataCenterSheet && !dataCenterSheet.dataset.bound) {
+            dataCenterSheet.dataset.bound = 'true';
+            dataCenterSheet.addEventListener('mousedown', (e) => {
+                if (e.target === dataCenterSheet) dataCenterSheet.classList.remove('active');
+            });
+        }
+    };
+    
+    // Bind initial load just in case
+    setTimeout(() => {
+        const dataCenterBtn = document.getElementById('yt-data-center-btn');
+        const dataCenterSheet = document.getElementById('yt-data-center-sheet');
+        if (dataCenterBtn && dataCenterSheet && !dataCenterBtn.dataset.bound) {
+            dataCenterBtn.dataset.bound = 'true';
+            dataCenterBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.renderDataCenter();
+                dataCenterSheet.classList.add('active');
+            });
+        }
+    }, 500);
+
+    const ytWithdrawBtn = document.getElementById('yt-withdraw-btn');
+    if (ytWithdrawBtn) {
+        ytWithdrawBtn.addEventListener('click', () => {
+            const total = parseFloat(channelState.dataCenter.sc || 0) + parseFloat(channelState.dataCenter.commission || 0);
+            if (total <= 0) return;
+
+            if (window.showCustomModal) {
+                window.showCustomModal({
+                    title: '收益提现',
+                    message: `确认将 YouTube 创作者收益 ￥${total.toFixed(2)} 提现到 Pay 钱包吗？`,
+                    confirmText: '确认提现',
+                    cancelText: '取消',
+                    onConfirm: () => {
+                        // 重置收益
+                        channelState.dataCenter.sc = 0;
+                        channelState.dataCenter.commission = 0;
+                        saveYoutubeData();
+                        renderDataCenter();
+
+                        // 同步到 Pay App
+                        if (window.addPayTransaction) {
+                            window.addPayTransaction(total, 'YouTube 创作者收益', 'income');
+                        }
+
+                        if(window.showToast) window.showToast('提现成功，已存入 Pay 钱包');
+                    }
+                });
+            } else {
+                if (confirm(`确认提现 ￥${total.toFixed(2)} 吗？`)) {
+                    channelState.dataCenter.sc = 0;
+                    channelState.dataCenter.commission = 0;
+                    saveYoutubeData();
+                    renderDataCenter();
+                    if (window.addPayTransaction) window.addPayTransaction(total, 'YouTube 创作者收益', 'income');
+                    alert('提现成功！');
+                }
+            }
+        });
+    }
+
+    // User Live Chat & API interaction
+    let userLiveHistory = [];
+    let userLiveComments = [];
+    let userLiveTotalSC = 0;
+    let userLiveTotalViews = 0;
+    let userLiveMaxHot = 0;
+    let userLiveNewSubs = 0;
+
+    const userLiveChatInput = document.getElementById('yt-user-live-chat-input');
+    const userLiveChatSend = document.getElementById('yt-user-live-chat-send');
+    const userLiveBubblesContainer = document.getElementById('yt-user-live-bubbles-container');
+    const userLiveChatContainer = document.getElementById('yt-user-live-chat-container');
+    const userLiveTriggerApiBtn = document.getElementById('yt-user-live-trigger-api-btn');
+    const userLiveMinimizeBtn = document.getElementById('yt-user-live-minimize-btn');
+
+    function getUserLiveTitle() {
+        const titleInput = document.getElementById('yt-user-live-title-input');
+        return titleInput && titleInput.value ? titleInput.value : '我的直播间';
+    }
+
+    function getUserLiveTopic() {
+        const topicInput = document.getElementById('yt-user-live-topic-input');
+        return topicInput && topicInput.value ? topicInput.value : '';
+    }
+
+    function getSelectedUserLiveGuest() {
+        return typeof userLiveSelectedGuest !== 'undefined' ? userLiveSelectedGuest : null;
+    }
+
+    function buildActiveUserLiveState(extra = {}) {
+        const effectiveYtUser = getCurrentYtLiveUser();
+        const totalViews = Number(userLiveTotalViews) || 0;
+        return {
+            ...(channelState.activeUserLive || {}),
+            title: getUserLiveTitle(),
+            desc: getUserLiveTopic(),
+            views: `${totalViews} 人正在观看`,
+            thumbnail: userLiveBgUrl || channelState.activeUserLive?.thumbnail || 'https://picsum.photos/320/180',
+            backgroundUrl: userLiveBgUrl || channelState.activeUserLive?.backgroundUrl || '',
+            comments: Array.isArray(userLiveComments) ? [...userLiveComments] : [],
+            history: Array.isArray(userLiveHistory) ? [...userLiveHistory] : [],
+            totalSC: Number(userLiveTotalSC) || 0,
+            totalViews,
+            maxHot: Number(userLiveMaxHot) || totalViews,
+            newSubs: Number(userLiveNewSubs) || 0,
+            guest: getSelectedUserLiveGuest(),
+            user: {
+                name: effectiveYtUser.name || '我',
+                avatarUrl: effectiveYtUser.avatarUrl || '',
+                subs: effectiveYtUser.subs || '0'
+            },
+            updatedAt: Date.now(),
+            ...extra
+        };
+    }
+
+    function persistActiveUserLive(extra = {}) {
+        if (!channelState) return null;
+        channelState.activeUserLive = buildActiveUserLiveState(extra);
+        saveYoutubeData();
+        return channelState.activeUserLive;
+    }
+
+    function renderUserLiveChatRow(comment) {
+        if (!userLiveChatContainer || !comment) return;
+        const row = document.createElement('div');
+        if (comment.amount) {
+            row.style.backgroundColor = comment.color || '#8e8e93';
+            row.style.padding = '8px 12px';
+            row.style.borderRadius = '8px';
+            row.style.marginBottom = '4px';
+            row.innerHTML = `
+                <div style="font-weight: bold; font-size: 13px; color: rgba(255,255,255,0.9); margin-bottom: 4px;">${comment.name || ''} <span style="margin-left: 8px;">${comment.amount}</span></div>
+                <div style="font-size: 14px; color: #fff;">${comment.text || ''}</div>
+            `;
+        } else {
+            const grayColors = ['#333333', '#4d4d4d', '#666666', '#808080', '#999999', '#b3b3b3'];
+            const randColor = grayColors[Math.floor(Math.random() * grayColors.length)];
+            row.style.display = 'flex';
+            row.style.gap = '8px';
+            row.style.alignItems = 'flex-start';
+            row.style.marginBottom = '12px';
+            row.innerHTML = `
+                <div style="width:24px; height:24px; border-radius:50%; background-color:${randColor}; display:flex; justify-content:center; align-items:center; color:#fff; font-size:10px; font-weight:bold; flex-shrink:0;">
+                    ${comment.name && comment.name.length > 0 ? comment.name[0].toUpperCase() : '?'}
+                </div>
+                <div style="font-size:13px; margin-top:2px;">
+                    <span style="font-size:12px; margin-right:4px; color:#606060;">${comment.name || ''}</span>
+                    <span style="color:#0f0f0f;">${comment.text || ''}</span>
+                </div>
+            `;
+        }
+        userLiveChatContainer.appendChild(row);
+        userLiveChatContainer.scrollTop = userLiveChatContainer.scrollHeight;
+    }
+
+    function restoreActiveUserLiveState() {
+        const activeLive = channelState && channelState.activeUserLive;
+        if (!activeLive || typeof activeLive !== 'object') return;
+
+        userLiveBgUrl = activeLive.backgroundUrl || activeLive.thumbnail || '';
+        userLiveHistory = Array.isArray(activeLive.history) ? [...activeLive.history] : [];
+        userLiveComments = Array.isArray(activeLive.comments) ? [...activeLive.comments] : [];
+        userLiveTotalSC = Number(activeLive.totalSC) || 0;
+        userLiveTotalViews = Number(activeLive.totalViews) || 0;
+        userLiveMaxHot = Number(activeLive.maxHot) || userLiveTotalViews;
+        userLiveNewSubs = Number(activeLive.newSubs) || 0;
+
+        const titleInput = document.getElementById('yt-user-live-title-input');
+        const topicInput = document.getElementById('yt-user-live-topic-input');
+        const titleDisplay = document.getElementById('yt-user-live-title-display');
+        const bgDisplay = document.getElementById('yt-user-live-bg-display');
+        const viewsEl = document.getElementById('yt-user-live-views-display');
+
+        if (titleInput) titleInput.value = activeLive.title || '';
+        if (topicInput) topicInput.value = activeLive.desc || '';
+        if (titleDisplay) titleDisplay.textContent = activeLive.title || '我的直播间';
+        if (userLiveBgImg && userLiveBgUrl) {
+            userLiveBgImg.src = userLiveBgUrl;
+            userLiveBgImg.style.display = 'block';
+        }
+        if (bgDisplay) bgDisplay.src = userLiveBgUrl || 'https://picsum.photos/900/600';
+        if (viewsEl) viewsEl.textContent = activeLive.views || `${userLiveTotalViews} 人正在观看`;
+        if (userLiveChatContainer) {
+            userLiveChatContainer.innerHTML = '';
+            userLiveComments.forEach(renderUserLiveChatRow);
+        }
+    }
+
+    [
+        userLiveVideoArea,
+        userLiveBackBtn,
+        userLiveMinimizeBtn,
+        document.getElementById('yt-user-live-views-display'),
+        userLiveTriggerApiBtn,
+        userLiveChatContainer,
+        userLiveChatInput,
+        userLiveChatSend
+    ].filter(Boolean).forEach((el) => {
+        el.addEventListener('click', stopUserLiveControlEvent);
+        el.addEventListener('pointerdown', stopUserLiveControlEvent);
+    });
+
+    if (userLiveChatContainer) {
+        let isDraggingUserLive = false;
+        userLiveChatContainer.addEventListener('touchstart', () => { isDraggingUserLive = false; }, { passive: true });
+        userLiveChatContainer.addEventListener('touchmove', () => { isDraggingUserLive = true; }, { passive: true });
+        userLiveChatContainer.addEventListener('touchend', () => {
+            if (isDraggingUserLive) {
+                if (userLiveChatInput && document.activeElement === userLiveChatInput) userLiveChatInput.blur();
+            }
+        });
+        userLiveChatContainer.addEventListener('click', () => {
+            if (userLiveChatInput && document.activeElement === userLiveChatInput) userLiveChatInput.blur();
+        });
+    }
+
+    if (userLiveBackBtn) {
+        userLiveBackBtn.addEventListener('click', () => {
+            if (userLiveChatInput && document.activeElement === userLiveChatInput) userLiveChatInput.blur();
+        });
+    }
+
+    if (userLiveChatInput) {
+        userLiveChatInput.addEventListener('focus', () => {
+            if (userLiveView) userLiveView.classList.add('keyboard-open');
+        });
+        userLiveChatInput.addEventListener('blur', () => {
+            if (userLiveView) userLiveView.classList.remove('keyboard-open');
+        });
+    }
+
+    restoreActiveUserLiveState();
+
+    if (startUserLiveBtn) {
+        startUserLiveBtn.addEventListener('click', () => {
+            userLiveComments = [];
+            userLiveTotalSC = 0;
+            userLiveTotalViews = Math.floor(Math.random() * 500) + 100;
+            userLiveMaxHot = userLiveTotalViews;
+            userLiveNewSubs = 0;
+            persistActiveUserLive({ minimized: false });
+            const viewsEl = document.getElementById('yt-user-live-views-display');
+            if(viewsEl) viewsEl.textContent = userLiveTotalViews + ' 人正在观看';
+        });
+    }
+
+    if (userLiveMinimizeBtn) {
+        userLiveMinimizeBtn.addEventListener('click', () => {
+            if(userLiveView) userLiveView.classList.remove('active');
+            if(window.showToast) window.showToast('直播已最小化并在后台运行');
+            
+            // Generate a fake active live stream for the user in the channel list
+            const effectiveYtUser = getCurrentYtLiveUser();
+            if (effectiveYtUser) {
+                // Just persist it, rebuildYoutubeMockVideos handles the rest
+                persistActiveUserLive({ minimized: true });
+                if(typeof rebuildYoutubeMockVideos === 'function') {
+                    rebuildYoutubeMockVideos();
+                } else {
+                    // Fallback just in case
+                    const existingIndex = mockVideos.findIndex(v => v.channelData && v.channelData.id === 'user_channel_id');
+                    if(existingIndex > -1) mockVideos.splice(existingIndex, 1);
+                    const activeLive = channelState.activeUserLive;
+                    
+                    mockVideos.unshift({
+                        title: activeLive.title,
+                        desc: activeLive.desc,
+                        views: activeLive.views,
+                        time: 'LIVE',
+                        thumbnail: activeLive.thumbnail,
+                        isLive: true,
+                        comments: activeLive.comments || [],
+                        initialBubbles: [],
+                        guest: activeLive.guest || null,
+                        channelData: {
+                            id: 'user_channel_id',
+                            name: effectiveYtUser.name || '我',
+                            avatar: effectiveYtUser.avatarUrl || 'https://picsum.photos/80/80',
+                            subs: effectiveYtUser.subs || '0'
+                        }
+                    });
+                }
+                renderVideos();
+            }
+        });
+    }
+
+    const userLiveSummarySheet = document.getElementById('yt-user-live-summary-sheet');
+    const ytSummaryConfirmBtn = document.getElementById('yt-summary-confirm-btn');
+
+    if (userLiveSummarySheet) {
+        userLiveSummarySheet.addEventListener('mousedown', (e) => {
+            if (e.target === userLiveSummarySheet) userLiveSummarySheet.classList.remove('active');
+        });
+    }
+
+    if (ytSummaryConfirmBtn && userLiveSummarySheet) {
+        ytSummaryConfirmBtn.addEventListener('click', () => {
+            userLiveSummarySheet.classList.remove('active');
+            if(window.showToast) window.showToast('录播已保存至往期记录');
+            
+            const existingIndex = mockVideos.findIndex(v => v.channelData && v.channelData.id === 'user_channel_id');
+            if(existingIndex > -1) mockVideos.splice(existingIndex, 1);
+
+            // Update Data Center
+            if (!channelState.dataCenter) {
+                channelState.dataCenter = { views: 0, sc: 0, subs: 0 };
+            }
+            channelState.dataCenter.views += userLiveTotalViews;
+            channelState.dataCenter.sc += userLiveTotalSC;
+            if (!channelState.dataCenter.subs) channelState.dataCenter.subs = 0;
+            channelState.dataCenter.subs += userLiveNewSubs;
+            
+            const effectiveYtUser = getCurrentYtLiveUser();
+            if (effectiveYtUser) {
+                const currentSubsNum = parseSubs(effectiveYtUser.subs);
+                effectiveYtUser.subs = formatSubs(currentSubsNum + userLiveNewSubs);
+
+                const currentNumStr = (effectiveYtUser.videos || '0').replace(/[^0-9]/g, '');
+                let currentNum = parseInt(currentNumStr) || 0;
+                effectiveYtUser.videos = (currentNum + 1).toString();
+                ytUserState = effectiveYtUser;
+                syncYtProfile();
+            }
+
+            // Save to Past Videos
+            if (!channelState.pastVideos) channelState.pastVideos = [];
+            const titleInput = document.getElementById('yt-user-live-title-input');
+            const title = titleInput && titleInput.value ? titleInput.value : '我的直播间';
+
+            const topicInput = document.getElementById('yt-user-live-topic-input');
+            const topicDesc = topicInput && topicInput.value ? topicInput.value : '';
+            
+            const pastVid = {
+                title: title,
+                desc: topicDesc,
+                views: userLiveTotalViews + ' 次观看',
+                time: '刚刚',
+                thumbnail: userLiveBgUrl || 'https://picsum.photos/seed/user_past/320/180?grayscale',
+                comments: [...userLiveComments],
+                guest: userLiveSelectedGuest 
+            };
+            channelState.pastVideos.unshift(pastVid);
+            
+            // Sync to Guest Profile
+            if (userLiveSelectedGuest) {
+                const guestSub = mockSubscriptions.find(s => s.id === userLiveSelectedGuest.id);
+                if (guestSub) {
+                    if (!guestSub.generatedContent) {
+                        guestSub.generatedContent = { pastVideos: [], communityPosts: [], currentLive: null, fanGroup: null };
+                    }
+                    if (!guestSub.generatedContent.pastVideos) guestSub.generatedContent.pastVideos = [];
+                    guestSub.generatedContent.pastVideos.unshift({
+                        title: `【联动录播】${title}`,
+                        views: Math.floor(userLiveTotalViews * 0.8) + ' 次观看',
+                        time: '刚刚',
+                        thumbnail: pastVid.thumbnail,
+                        comments: [{name: effectiveYtUser.name || '我', text: '这把打得不错！'}],
+                        guest: { name: effectiveYtUser.name || '我' }
+                    });
+                }
+            }
+
+            channelState.activeUserLive = null;
+            saveYoutubeData();
+
+            renderVideos();
+            
+            // Force refresh profile tab if active
+            const activeTab = document.querySelector('#profile-main-tabs .yt-sliding-tab.active');
+            if (activeTab && activeTab.getAttribute('data-target') === 'past') {
+                activeTab.click(); 
+            }
+        });
+    }
+
+    if (userLiveChatSend && userLiveChatInput) {
+        const sendAction = () => {
+            const text = userLiveChatInput.value.trim();
+            if(!text) return;
+
+            userLiveHistory.push({ type: 'host', text: text });
+            
+            // Create bubble on screen
+            const bubble = document.createElement('div');
+            bubble.className = 'yt-user-live-bubble';
+            bubble.textContent = text;
+            userLiveBubblesContainer.appendChild(bubble);
+
+            setTimeout(() => {
+                bubble.style.opacity = '0';
+                bubble.style.transition = 'opacity 1s ease';
+                setTimeout(() => bubble.remove(), 1000);
+            }, 8000);
+
+            userLiveChatInput.value = '';
+            persistActiveUserLive();
+        };
+
+        userLiveChatSend.addEventListener('click', sendAction);
+        userLiveChatInput.addEventListener('keydown', (e) => {
+            if(e.key === 'Enter') {
+                e.preventDefault();
+                sendAction();
+            }
+        });
+    }
+
+    function buildUserLiveAudiencePrompt() {
+        const worldBookSections = [];
+        if (typeof window.getGlobalWorldBookContext === 'function') {
+            const globalCtx = window.getGlobalWorldBookContext();
+            if (globalCtx) worldBookSections.push(globalCtx);
+        } else if (channelState && Array.isArray(channelState.boundWorldBookIds) && typeof window.getWorldBooks === 'function') {
+            const worldBooks = window.getWorldBooks();
+            channelState.boundWorldBookIds.forEach(id => {
+                const boundBook = worldBooks.find(book => String(book.id) === String(id));
+                if (boundBook && Array.isArray(boundBook.entries) && boundBook.entries.length > 0) {
+                    const entries = boundBook.entries
+                        .map(entry => `${entry.keyword || 'entry'}: ${entry.content || ''}`)
+                        .filter(Boolean)
+                        .join('\n');
+                    if (entries.trim()) worldBookSections.push(`【${boundBook.name || 'World Book'}】\n${entries}`);
+                }
+            });
+        }
+
+        const effectiveYtUser = getCurrentYtLiveUser();
+        const hostName = effectiveYtUser.name || '我';
+        const hostPersona = effectiveYtUser.persona || effectiveYtUser.desc || '普通主播';
+        const liveTitle = getUserLiveTitle();
+        const liveTopic = getUserLiveTopic();
+        const recentHostMsg = userLiveHistory.slice(-5).map(m => m.text).filter(Boolean).join(' | ') || '刚开播，还没有明显发言';
+        const selectedGuest = getSelectedUserLiveGuest();
+        const guestContext = selectedGuest
+            ? `联动嘉宾：${selectedGuest.name || '未知'}。嘉宾人设：${selectedGuest.desc || selectedGuest.persona || '未知'}。`
+            : '联动嘉宾：无。';
+        const worldBookSection = worldBookSections.length > 0
+            ? `\n已挂载世界书内容：\n${worldBookSections.join('\n\n')}\n`
+            : '';
+
+        return `你正在为一个真实 YouTube 直播间生成观众实时反应。
+主播名：${hostName}
+主播人设：${hostPersona}
+直播标题：${liveTitle}
+直播主题：${liveTopic}
+最近主播发言或动作：${recentHostMsg}
+${guestContext}${worldBookSection}
+请根据主播人设、直播标题、主题、最近发言和联动信息，生成像真实 YouTube 直播间一样的即时评论、打赏和新订阅。
+评论要短、有弹幕感，允许观众有不同语气、追问、吐槽、起哄、支持和轻微跑题，但要贴合当前直播。
+
+只返回严格 JSON，不要 Markdown，不要代码块，不要解释，不要 emoji。
+JSON 结构必须完全符合：
+{
+  "comments": [
+    {"name": "观众1", "text": "弹幕内容"},
+    {"name": "观众2", "text": "弹幕内容"}
+  ],
+  "superchats": [
+    {"name": "打赏观众", "text": "留言", "displayAmount": "$50", "amount": 350, "color": "#e65100"}
+  ],
+  "newSubs": ["新粉丝A", "新粉丝B"]
+}
+约束：
+1. comments 必须是 5 到 10 条
+2. superchats 必须是 0 到 2 条，displayAmount 是带币种符号的展示金额，amount 是换算成人民币的纯数字
+3. newSubs 可以是空数组，也可以是 1 到 3 个名字
+4. 所有句子自然短促，不要在句末堆标点`;
+    }
+
+    if (userLiveTriggerApiBtn) {
+        userLiveTriggerApiBtn.addEventListener('click', async () => {
+            if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+                if(window.showToast) window.showToast('请配置API');
+                return;
+            }
+
+            userLiveTriggerApiBtn.style.opacity = '0.5';
+            userLiveTriggerApiBtn.style.pointerEvents = 'none';
+            userLiveTriggerApiBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 等待中';
+
+            try {
+                let endpoint = window.apiConfig.endpoint;
+                if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                if(!endpoint.endsWith('/chat/completions')) {
+                    endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                }
+
+                const res = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: window.apiConfig.model || 'gpt-3.5-turbo',
+                        messages: [{ role: 'user', content: buildUserLiveAudiencePrompt() }],
+                        temperature: 0.8,
+                        response_format: { type: "json_object" } 
+                    })
+                });
+
+                if (!res.ok) throw new Error("API failed");
+                const data = await res.json();
+                let resultText = data.choices[0].message.content.replace(/```json\n?/g, '').replace(/```/g, '').trim();
+                
+                let parsed;
+                try {
+                    parsed = sanitizeObj(JSON.parse(resultText));
+                } catch (parseErr) {
+                    console.error("JSON Parse Error in Live Audience:", parseErr, resultText);
+                    if(window.showToast) window.showToast('观众反应格式生成失败，请重试');
+                    return;
+                }
+
+                // Combine and Shuffle Events for Realistic Streaming
+                let events = [];
+                
+                if (parsed.comments && Array.isArray(parsed.comments)) {
+                    parsed.comments.forEach(c => events.push({ type: 'comment', data: c }));
+                }
+                if (parsed.superchats && Array.isArray(parsed.superchats)) {
+                    parsed.superchats.forEach(sc => events.push({ type: 'sc', data: sc }));
+                }
+                if (parsed.newSubs && Array.isArray(parsed.newSubs)) {
+                    parsed.newSubs.forEach(sub => events.push({ type: 'sub', data: sub }));
+                }
+
+                // Randomly shuffle the events
+                events.sort(() => Math.random() - 0.5);
+
+                let totalDelay = 0;
+                events.forEach(ev => {
+                    // Random delay between 0.5s and 2.5s for each event
+                    totalDelay += Math.floor(Math.random() * 2000) + 500;
+                    
+                    setTimeout(() => {
+                        if (ev.type === 'comment') {
+                            addUserLiveChatMessage(ev.data.name, ev.data.text, null, null);
+                        } else if (ev.type === 'sc') {
+                            addUserLiveChatMessage(ev.data.name, ev.data.text, ev.data.displayAmount || ev.data.amount, ev.data.color);
+                            const amountNum = parseFloat(ev.data.amount) || 0;
+                            userLiveTotalSC += amountNum;
+                            persistActiveUserLive();
+                        } else if (ev.type === 'sub') {
+                            const alertContainer = document.getElementById('yt-user-live-alert-container');
+                            if (alertContainer) {
+                                const alert = document.createElement('div');
+                                alert.className = 'yt-user-live-alert';
+                                alert.innerHTML = `<i class="fas fa-bell"></i> ${ev.data} 刚刚订阅了你！`;
+                                
+                                // random vertical position
+                                alert.style.top = Math.floor(Math.random() * 80) + '%';
+                                
+                                alertContainer.appendChild(alert);
+                                setTimeout(() => alert.remove(), 5000);
+                                
+                                userLiveNewSubs += 1;
+                                
+                                // increment viewer count
+                                const viewsEl = document.getElementById('yt-user-live-views-display');
+                                if(viewsEl) {
+                                    let currentNum = parseInt(viewsEl.textContent) || 0;
+                                    const addedViews = Math.floor(Math.random() * 50) + 10;
+                                    currentNum += addedViews;
+                                    userLiveTotalViews += addedViews;
+                                    if(userLiveTotalViews > userLiveMaxHot) userLiveMaxHot = userLiveTotalViews;
+                                    viewsEl.textContent = currentNum + ' 人正在观看';
+                                }
+                                persistActiveUserLive();
+                            }
+                        }
+                    }, totalDelay);
+                });
+
+            } catch (e) {
+                console.error(e);
+                if(window.showToast) window.showToast('无法获取观众反应');
+            } finally {
+                userLiveTriggerApiBtn.style.opacity = '1';
+                userLiveTriggerApiBtn.style.pointerEvents = 'auto';
+                userLiveTriggerApiBtn.innerHTML = '<i class="fas fa-magic"></i>';
+            }
+        });
+    }
+
+    function addUserLiveChatMessage(name, text, amount, color) {
+        if (!userLiveChatContainer) return;
+        userLiveComments.push({ name: name, text: text, amount: amount, color: color });
+
+        const row = document.createElement('div');
+        row.className = 'yt-live-chat-row-anim';
+        
+        if (amount) {
+            let displayAmount = amount;
+            if (typeof amount === 'number' || /^\d+(\.\d+)?$/.test(String(amount))) {
+                displayAmount = '￥' + amount;
+            }
+            row.style.backgroundColor = color || '#8e8e93';
+            row.style.padding = '8px 12px';
+            row.style.borderRadius = '8px';
+            row.style.marginBottom = '4px';
+            row.innerHTML = `
+                <div style="font-weight: bold; font-size: 13px; color: rgba(255,255,255,0.9); margin-bottom: 4px;">${name} <span style="margin-left: 8px;">${displayAmount}</span></div>
+                <div style="font-size: 14px; color: #fff;">${text}</div>
+            `;
+        } else {
+            row.style.display = 'flex';
+            row.style.gap = '8px';
+            row.style.alignItems = 'flex-start';
+            row.style.marginBottom = '12px';
+            
+            const grayColors = ['#333333', '#4d4d4d', '#666666', '#808080', '#999999', '#b3b3b3'];
+            const randColor = grayColors[Math.floor(Math.random() * grayColors.length)];
+            
+            row.innerHTML = `
+                <div style="width:24px; height:24px; border-radius:50%; background-color:${randColor}; display:flex; justify-content:center; align-items:center; color:#fff; font-size:10px; font-weight:bold; flex-shrink:0;">
+                    ${name && name.length > 0 ? name[0].toUpperCase() : '?'}
+                </div>
+                <div style="font-size:13px; margin-top:2px;">
+                    <span style="font-size:12px; margin-right:4px; color:#606060;">${name}</span>
+                    <span style="color:#0f0f0f;">${text}</span>
+                </div>
+            `;
+        }
+        
+        userLiveChatContainer.appendChild(row);
+        userLiveChatContainer.scrollTop = userLiveChatContainer.scrollHeight;
+        persistActiveUserLive();
+    }

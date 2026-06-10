@@ -1,1 +1,1616 @@
-function _0x1eb5(_0x55cbcb,_0x216810){_0x55cbcb=_0x55cbcb-0x152;const _0x415c20=_0x415c();let _0x1eb5fe=_0x415c20[_0x55cbcb];return _0x1eb5fe;}const _0x48c8a7=_0x1eb5;(function(_0x43741b,_0x817419){const _0x27258c=_0x1eb5,_0x1dd483=_0x43741b();while(!![]){try{const _0x4bc624=parseInt(_0x27258c(0x29d))/0x1+parseInt(_0x27258c(0x1ec))/0x2+parseInt(_0x27258c(0x2ab))/0x3*(parseInt(_0x27258c(0x1a6))/0x4)+-parseInt(_0x27258c(0x236))/0x5+-parseInt(_0x27258c(0x1a0))/0x6+-parseInt(_0x27258c(0x295))/0x7+-parseInt(_0x27258c(0x1c0))/0x8;if(_0x4bc624===_0x817419)break;else _0x1dd483['push'](_0x1dd483['shift']());}catch(_0x467c7f){_0x1dd483['push'](_0x1dd483['shift']());}}}(_0x415c,0x7ac86),document[_0x48c8a7(0x189)](_0x48c8a7(0x194),()=>{const _0x33c327=_0x48c8a7,{apiConfig:_0x1571c8,userState:_0x4e84e7}=window;window['imChat']=window['imChat']||{};const _0x29f6a7=window[_0x33c327(0x169)],_0xed1c53=0x1e,_0x55869a=0xa;function _0x41360a(_0x1f0b45){const _0x27f856=_0x33c327;return String(_0x1f0b45==null?'':_0x1f0b45)[_0x27f856(0x23b)](/&/g,'&')[_0x27f856(0x23b)](/</g,'<')[_0x27f856(0x23b)](/>/g,'>')[_0x27f856(0x23b)](/"/g,'\x22')[_0x27f856(0x23b)](/'/g,_0x27f856(0x1b0));}function _0x384e71(_0x1bc6b8={},_0x269e02=null){const _0x1916ff=_0x33c327;if(typeof window[_0x1916ff(0x169)][_0x1916ff(0x1db)]===_0x1916ff(0x1d9))return window[_0x1916ff(0x169)][_0x1916ff(0x1db)](_0x1bc6b8,_0x269e02);if(typeof window['imChat']['resolvePayTransferParties']==='function')return window[_0x1916ff(0x169)][_0x1916ff(0x1ab)](_0x1bc6b8,_0x269e02);const _0x410e56=_0x1bc6b8[_0x1916ff(0x26b)]||(_0x1bc6b8[_0x1916ff(0x27b)]===_0x1916ff(0x23e)?_0x1916ff(0x1ff):_0x1916ff(0x284)),_0x19e6b1=_0x4e84e7?.[_0x1916ff(0x2a6)]||_0x4e84e7?.[_0x1916ff(0x247)]||_0x4e84e7?.['nickname']||'User',_0x14ad08=_0x1bc6b8[_0x1916ff(0x1c8)]||_0x1bc6b8[_0x1916ff(0x2a7)]||_0x269e02?.[_0x1916ff(0x227)]||_0x269e02?.[_0x1916ff(0x247)]||_0x269e02?.['name']||_0x1916ff(0x249),_0x28f010=_0x1bc6b8[_0x1916ff(0x2a3)]||'',_0x125f52=[_0x1916ff(0x20a),_0x1916ff(0x223),_0x1916ff(0x1ea),_0x1916ff(0x183)],_0x726c61=[_0x1916ff(0x284),_0x1916ff(0x223),_0x1916ff(0x1ea)],_0x22ee78=[_0x1916ff(0x1e3),_0x1916ff(0x221),_0x1916ff(0x183)],_0x16d23b=_0x1bc6b8[_0x1916ff(0x218)]===_0x1916ff(0x165)||_0x1bc6b8[_0x1916ff(0x218)]===_0x1916ff(0x1ff)?_0x1bc6b8[_0x1916ff(0x218)]:_0x125f52['includes'](_0x410e56)?_0x1916ff(0x165):'user_to_char';let _0x51d10c=_0x22ee78[_0x1916ff(0x24f)](_0x410e56)?_0x1916ff(0x26e):_0x726c61[_0x1916ff(0x24f)](_0x410e56)?_0x1916ff(0x255):'pending';if(_0x51d10c===_0x1916ff(0x17c)&&_0x1bc6b8[_0x1916ff(0x255)])_0x51d10c='claimed';let _0x9f883b=_0x1bc6b8[_0x1916ff(0x167)]||'',_0x371079=_0x1bc6b8[_0x1916ff(0x1f8)]||'';_0x16d23b===_0x1916ff(0x165)?(_0x9f883b=_0x9f883b||_0x1bc6b8[_0x1916ff(0x1a2)]||_0x28f010||_0x14ad08,_0x371079=_0x371079||_0x1bc6b8[_0x1916ff(0x1ae)]||_0x19e6b1):(_0x9f883b=_0x9f883b||_0x1bc6b8[_0x1916ff(0x1a2)]||_0x19e6b1,_0x371079=_0x371079||_0x1bc6b8[_0x1916ff(0x1ae)]||(_0x28f010&&_0x28f010!==_0x19e6b1?_0x28f010:_0x14ad08));const _0x1f2336=_0x16d23b===_0x1916ff(0x1ff)?_0x1916ff(0x23e):_0x1916ff(0x299),_0x237ea7=_0x16d23b===_0x1916ff(0x1ff)?'char':'user';return{'payKind':_0x410e56,'direction':_0x16d23b,'status':_0x51d10c,'payerName':_0x9f883b,'payeeName':_0x371079,'payerType':_0x1f2336,'payeeType':_0x237ea7,'canCurrentUserClaim':_0x16d23b===_0x1916ff(0x165)&&_0x51d10c==='pending'&&!_0x1bc6b8[_0x1916ff(0x255)],'senderName':_0x9f883b,'receiverName':_0x371079,'senderType':_0x1f2336,'receiverType':_0x237ea7,'isUserSender':_0x1f2336===_0x1916ff(0x23e)};}function _0x34171a(_0x2c34c0,_0x581849,_0x453752,_0x4287d1,_0x5c50a7,_0x22371e){const _0x344e93=_0x33c327;if(!_0x581849||!_0x581849[_0x344e93(0x1c7)]||_0x22371e)return'';const _0x1d2530=new Date(_0x453752),_0x528082=_0x1d2530['toLocaleString']('en-US',{'month':_0x344e93(0x177),'day':'numeric'}),_0x10ab7d=_0x1d2530['toLocaleString'](_0x344e93(0x269),{'hour':_0x344e93(0x1c4),'minute':_0x344e93(0x1c4),'hour12':!![]});if(_0x2c34c0){const _0x47f3d3=window[_0x344e93(0x1bc)]?.[_0x344e93(0x2a6)]||window[_0x344e93(0x1bc)]?.[_0x344e93(0x247)]||_0x344e93(0x237),_0x5dc841=window[_0x344e93(0x1bc)]?.[_0x344e93(0x1e2)]||'assets/moren.jpg';return _0x344e93(0x258)+_0x47f3d3+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-date\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#888;\x22>'+_0x528082+'\x20'+_0x10ab7d+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-avatar\x22\x20style=\x22width:\x2044px;\x20height:\x2044px;\x20border-radius:\x2050%;\x20overflow:\x20hidden;\x20border:\x201px\x20solid\x20#eee;\x20z-index:\x202;\x20background:\x20#fff;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0x5dc841+_0x344e93(0x214);}else{const _0x4a3542=_0x4287d1||_0x581849[_0x344e93(0x227)]||_0x581849['realName']||'AI',_0x37a9ba=_0x5c50a7||_0x581849[_0x344e93(0x1e2)]||_0x344e93(0x1a3);return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-message-header\x20ai-header\x22\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20width:\x20100%;\x20margin-bottom:\x204px;\x20padding-left:\x200px;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-avatar\x22\x20style=\x22width:\x2044px;\x20height:\x2044px;\x20border-radius:\x2050%;\x20overflow:\x20hidden;\x20border:\x201px\x20solid\x20#eee;\x20z-index:\x202;\x20background:\x20#fff;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0x37a9ba+_0x344e93(0x1b8)+_0x4a3542+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-date\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#888;\x22>'+_0x528082+'\x20'+_0x10ab7d+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}}function _0x578e03(_0x209877,_0x1aac1c,_0x2d3141,_0x5f03ef=Date[_0x33c327(0x202)]()){const _0x4374ea=_0x33c327,_0x5a4bc9=document[_0x4374ea(0x1b1)](_0x4374ea(0x1c1));_0x5a4bc9[_0x4374ea(0x1da)]=_0x4374ea(0x176),_0x5a4bc9[_0x4374ea(0x163)](_0x4374ea(0x1a4),_0x5f03ef),_0x5a4bc9[_0x4374ea(0x163)]('data-message-id',window[_0x4374ea(0x169)]['ensureMessageId'](_0x209877,'notice')),_0x5a4bc9[_0x4374ea(0x2b2)]=_0x4374ea(0x225)+(_0x209877[_0x4374ea(0x219)]||'系统提示')+_0x4374ea(0x198),_0x2d3141[_0x4374ea(0x276)](_0x5a4bc9),window[_0x4374ea(0x169)][_0x4374ea(0x175)](_0x2d3141);}function _0x135ecc(_0x3d09b3,_0x11d0aa,_0x5d47a4,_0x3761bd=Date['now']()){const _0xb255b0=_0x33c327;window['imChat'][_0xb255b0(0x216)](_0x3d09b3,_0x11d0aa);const _0x16bae9=_0x3d09b3[_0xb255b0(0x27b)]==='user',_0x57fcfa=_0x11d0aa[_0xb255b0(0x212)]===_0xb255b0(0x1de)&&!_0x16bae9,_0x3dc15f=_0x3d09b3[_0xb255b0(0x1a2)]||_0x3d09b3[_0xb255b0(0x1c8)]||_0xb255b0(0x25c),_0x329ff9=_0x3d09b3[_0xb255b0(0x182)]||null,_0x457d2e=_0x5d47a4[_0xb255b0(0x250)];let _0x5f5501=![],_0x30714a=![];if(_0x457d2e){if(_0x16bae9&&_0x457d2e[_0xb255b0(0x186)]['contains'](_0xb255b0(0x21a)))_0x5f5501=!![],_0x457d2e[_0xb255b0(0x186)][_0xb255b0(0x210)](_0xb255b0(0x188));else{if(!_0x16bae9&&_0x457d2e[_0xb255b0(0x186)][_0xb255b0(0x23d)](_0xb255b0(0x297))){const _0xb2e23a=_0x457d2e[_0xb255b0(0x1aa)](_0xb255b0(0x1e4))||null;if(_0x57fcfa)_0xb2e23a===_0x3dc15f&&(_0x5f5501=!![],_0x30714a=!![],_0x457d2e[_0xb255b0(0x186)][_0xb255b0(0x210)](_0xb255b0(0x188)));else!_0xb2e23a&&(_0x5f5501=!![],_0x30714a=!![],_0x457d2e[_0xb255b0(0x186)][_0xb255b0(0x210)](_0xb255b0(0x188)));}}}const _0x78533b=document[_0xb255b0(0x1b1)](_0xb255b0(0x1c1));_0x78533b[_0xb255b0(0x1da)]=_0xb255b0(0x1c5)+(_0x16bae9?_0xb255b0(0x21a):_0xb255b0(0x297))+'\x20'+(_0x5f5501?_0xb255b0(0x1dd):'')+'\x20'+(_0x57fcfa?_0xb255b0(0x2b7):'')+'\x20'+(_0x57fcfa&&_0x30714a?_0xb255b0(0x170):''),_0x78533b[_0xb255b0(0x163)](_0xb255b0(0x1a4),_0x3761bd),_0x78533b['setAttribute'](_0xb255b0(0x166),window[_0xb255b0(0x169)][_0xb255b0(0x1e9)](_0x3d09b3,'packet'));_0x3dc15f&&_0x78533b['setAttribute']('data-speaker',_0x3dc15f);const _0x33a6cb=Number(_0x3d09b3[_0xb255b0(0x241)])||0x0,_0x39562d=parseInt(_0x3d09b3[_0xb255b0(0x1cf)],0xa)||0x0,_0x3e13a7=Array[_0xb255b0(0x157)](_0x3d09b3[_0xb255b0(0x280)])?_0x3d09b3[_0xb255b0(0x280)][_0xb255b0(0x1f2)]:0x0,_0x31f4e8=_0x3d09b3[_0xb255b0(0x1b9)]?'已领取\x20·\x20'+_0x3e13a7+'/'+_0x39562d:_0x3d09b3[_0xb255b0(0x161)]?_0x3e13a7+'/'+_0x39562d+_0xb255b0(0x1e5):_0xb255b0(0x1d4),_0x2628b4='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-card\x22\x20style=\x22width:100%;\x20min-width:0;\x20max-width:268px;\x20border-radius:18px;\x20padding:12px\x2014px;\x20background:#fff;\x20color:#111;\x20\x20border:1px\x20solid\x20rgba(0,0,0,0.08);\x20cursor:pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:40px;\x20height:40px;\x20border-radius:14px;\x20background:#111;\x20color:#fff;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20font-size:16px;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-gift\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x20flex:1;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:15px;\x20font-weight:800;\x20color:#111;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>'+(_0x3d09b3[_0xb255b0(0x2a8)]||'恭喜发财')+_0xb255b0(0x24d)+_0x31f4e8+_0xb255b0(0x18f)+_0x33a6cb[_0xb255b0(0x293)](0x2)+_0xb255b0(0x234),_0x18e7db=typeof window[_0xb255b0(0x1f7)]===_0xb255b0(0x1d9)?window[_0xb255b0(0x1f7)](_0x3761bd):((()=>{const _0x50012f=_0xb255b0,_0x1c0bbc=new Date(_0x3761bd);return _0x1c0bbc[_0x50012f(0x206)]()+':'+_0x1c0bbc['getMinutes']()['toString']()[_0x50012f(0x18b)](0x2,'0');})()),_0x502575=_0x34171a(_0x16bae9,_0x11d0aa,_0x3761bd,_0x3dc15f,_0x329ff9,_0x5f5501);if(_0x16bae9){const _0x34ca5f='';_0x78533b[_0xb255b0(0x2b2)]=_0xb255b0(0x27f)+(window[_0xb255b0(0x28e)][_0xb255b0(0x1b6)]?_0xb255b0(0x279):_0xb255b0(0x262))+_0xb255b0(0x263)+_0x3761bd+_0xb255b0(0x254)+_0x502575+_0xb255b0(0x1c3)+_0x2628b4+_0x34ca5f+_0xb255b0(0x1ac);}else{const _0x1fcdbd='';let _0x194ba2='';if(_0x57fcfa){const _0x13c7c9=String(_0x3dc15f)['trim']()[_0xb255b0(0x19f)](0x0)||'?',_0x48580b=_0x329ff9?_0xb255b0(0x2b6)+_0x329ff9+_0xb255b0(0x18e):'<div\x20class=\x22chat-avatar-small\x22>'+_0x13c7c9+_0xb255b0(0x207);_0x194ba2='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x30714a?'':_0xb255b0(0x17f)+_0x3dc15f+_0xb255b0(0x207))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-avatar-slot\x22>'+(_0x30714a?_0xb255b0(0x1a1):_0x48580b)+_0xb255b0(0x22b)+_0x2628b4+_0x1fcdbd+_0xb255b0(0x287);}else _0x194ba2=_0xb255b0(0x2ad)+_0x2628b4+_0x1fcdbd+_0xb255b0(0x207);_0x78533b[_0xb255b0(0x2b2)]=_0xb255b0(0x27f)+(window[_0xb255b0(0x28e)]['batchSelectMode']?_0xb255b0(0x279):'none')+_0xb255b0(0x263)+_0x3761bd+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x502575+_0xb255b0(0x180)+_0x194ba2+_0xb255b0(0x173);}const _0x2e4b3a=_0x78533b[_0xb255b0(0x22d)](_0xb255b0(0x1fe));_0x2e4b3a&&_0x2e4b3a[_0xb255b0(0x189)](_0xb255b0(0x17e),_0x2edcd7=>{const _0x4ec49a=_0xb255b0;_0x2edcd7[_0x4ec49a(0x1bb)](),_0x2edcd7[_0x4ec49a(0x16b)]();const _0x3ff629=_0x5d47a4[_0x4ec49a(0x197)](_0x4ec49a(0x260));if(!_0x3ff629)return;!_0x3ff629[_0x4ec49a(0x15e)]&&window['imChat']['ensureRedPacketDetailOverlayForExistingPage'](_0x3ff629,_0x11d0aa),_0x3ff629['_openGroupRedPacketInteraction']&&_0x3ff629[_0x4ec49a(0x15e)](_0x3d09b3);}),_0x5d47a4[_0xb255b0(0x276)](_0x78533b),window[_0xb255b0(0x169)][_0xb255b0(0x175)](_0x5d47a4);}function _0x4df2cb(_0x161da1,_0x53adb5,_0x225134,_0x563956=Date[_0x33c327(0x202)]()){const _0x5e523a=_0x33c327;if(!_0x161da1||!_0x225134)return![];window[_0x5e523a(0x169)][_0x5e523a(0x1e9)](_0x161da1,_0x161da1[_0x5e523a(0x212)]==='pay_transfer'?_0x5e523a(0x179):_0x5e523a(0x1b5));const _0x43ac3e=_0x563956||_0x161da1[_0x5e523a(0x226)]||Date[_0x5e523a(0x202)]();if(_0x161da1[_0x5e523a(0x212)]===_0x5e523a(0x1e0))return window[_0x5e523a(0x169)][_0x5e523a(0x187)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1['type']===_0x5e523a(0x17a))return window['imChat'][_0x5e523a(0x2af)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1[_0x5e523a(0x212)]===_0x5e523a(0x22c))return window['imChat'][_0x5e523a(0x16f)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1[_0x5e523a(0x212)]===_0x5e523a(0x1f0))return window[_0x5e523a(0x169)][_0x5e523a(0x26d)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1[_0x5e523a(0x212)]===_0x5e523a(0x1c2))return window[_0x5e523a(0x169)]['renderImageBubble'](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1[_0x5e523a(0x212)]==='pay_transfer')return window[_0x5e523a(0x169)][_0x5e523a(0x264)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1['type']===_0x5e523a(0x158))return window[_0x5e523a(0x169)][_0x5e523a(0x283)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1['type']==='system_notice')return window['imChat'][_0x5e523a(0x265)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1[_0x5e523a(0x212)]===_0x5e523a(0x154))return window[_0x5e523a(0x169)][_0x5e523a(0x213)](_0x161da1,_0x53adb5,_0x225134,_0x43ac3e),!![];if(_0x161da1['role']===_0x5e523a(0x23e))return window[_0x5e523a(0x169)]['renderUserBubble'](_0x161da1[_0x5e523a(0x15a)],_0x225134,_0x43ac3e,_0x161da1[_0x5e523a(0x162)],_0x161da1[_0x5e523a(0x15f)],_0x161da1['showTranslation'],_0x161da1['id'],_0x53adb5),!![];if(_0x161da1[_0x5e523a(0x27b)]===_0x5e523a(0x286)){let _0x57aebc=_0x161da1[_0x5e523a(0x1c8)]||null,_0x4b8879=null;if(_0x53adb5[_0x5e523a(0x212)]===_0x5e523a(0x1de)){const _0x432c71=window[_0x5e523a(0x169)]['getSafeGroupSpeaker'](_0x53adb5,_0x161da1[_0x5e523a(0x1c8)]);_0x432c71?(_0x57aebc=_0x432c71[_0x5e523a(0x227)],_0x4b8879=_0x432c71[_0x5e523a(0x1e2)]||null):_0x57aebc=null;}return window['imChat'][_0x5e523a(0x209)](_0x161da1[_0x5e523a(0x15a)],_0x53adb5,_0x225134,_0x43ac3e,_0x161da1[_0x5e523a(0x15f)],_0x161da1[_0x5e523a(0x289)],_0x161da1[_0x5e523a(0x162)],_0x57aebc,_0x4b8879,_0x161da1['id'],_0x161da1['thought']||null,_0x161da1[_0x5e523a(0x1eb)]||null,_0x161da1[_0x5e523a(0x252)]||null),!![];}return![];}function _0x3dbc21(_0x229acb,_0x40d174=0x0,_0x9e5a14=null){const _0x25b562=_0x33c327,_0x40546d=Array['isArray'](_0x229acb)?_0x229acb:[];let _0x3abff9=0x0;const _0x53361a=Math[_0x25b562(0x16e)](0x0,Number(_0x40d174)||0x0),_0x5503a7=Math[_0x25b562(0x290)](_0x40546d[_0x25b562(0x1f2)],Math['max'](_0x53361a,_0x9e5a14==null?_0x40546d[_0x25b562(0x1f2)]:Number(_0x9e5a14)||_0x40546d[_0x25b562(0x1f2)]));for(let _0x283d84=_0x53361a;_0x283d84<_0x5503a7;_0x283d84+=0x1){if(_0x40546d[_0x283d84]&&_0x40546d[_0x283d84][_0x25b562(0x27b)]===_0x25b562(0x23e))_0x3abff9+=0x1;}return _0x3abff9;}function _0x4cb280(_0x1bf9c6,_0x2aba8a){const _0x5ae3ef=_0x33c327,_0x5877d1=Array[_0x5ae3ef(0x157)](_0x1bf9c6)?_0x1bf9c6:[],_0x161050=Math['max'](0x0,Number(_0x2aba8a)||0x0);if(_0x161050<=0x0||_0x5877d1[_0x5ae3ef(0x1f2)]===0x0)return 0x0;let _0x182d4f=0x0;for(let _0x53f183=_0x5877d1[_0x5ae3ef(0x1f2)]-0x1;_0x53f183>=0x0;_0x53f183-=0x1){if(_0x5877d1[_0x53f183]&&_0x5877d1[_0x53f183][_0x5ae3ef(0x27b)]==='user'){_0x182d4f+=0x1;if(_0x182d4f>=_0x161050)return _0x53f183;}}return 0x0;}function _0x388a85(_0x1606ff,_0x12c0e0,_0x497c03){const _0x4d188e=_0x33c327,_0x124a74=Array[_0x4d188e(0x157)](_0x1606ff)?_0x1606ff:[],_0x1c1ec7=Math[_0x4d188e(0x16e)](0x0,Math[_0x4d188e(0x290)](_0x124a74[_0x4d188e(0x1f2)],Number(_0x12c0e0)||0x0)),_0x1a3d79=Math[_0x4d188e(0x16e)](0x1,Number(_0x497c03)||_0x55869a);let _0x3d9a1a=0x0;for(let _0x2a2887=_0x1c1ec7-0x1;_0x2a2887>=0x0;_0x2a2887-=0x1){if(_0x124a74[_0x2a2887]&&_0x124a74[_0x2a2887][_0x4d188e(0x27b)]===_0x4d188e(0x23e)){_0x3d9a1a+=0x1;if(_0x3d9a1a>=_0x1a3d79)return _0x2a2887;}}return 0x0;}function _0x10782f(_0x80f50b){return _0x4cb280(_0x80f50b,_0xed1c53);}function _0x1e144c(_0x3990cf,_0x2e66e9){const _0x321c2e=_0x33c327,_0x47852c=Array['isArray'](_0x3990cf)?_0x3990cf:[];return Math[_0x321c2e(0x16e)](0x0,Math[_0x321c2e(0x290)](_0x47852c[_0x321c2e(0x1f2)],Number(_0x2e66e9)||0x0));}function _0xf9505a(_0x1ba161,_0x27133a,_0x4d1602,_0x59ba8e={}){const _0x1cdabb=_0x33c327,_0x488792=Array[_0x1cdabb(0x157)](_0x4d1602)?_0x4d1602:[],_0x1702f8=_0x1ba161&&_0x1ba161['id']!=null?String(_0x1ba161['id']):'',_0x3e1563=_0x27133a?_0x27133a['_imHistoryState']:null;let _0x20fa4d;if(_0x59ba8e['resetWindow'])_0x20fa4d=_0x10782f(_0x488792);else{if(Number['isFinite'](Number(_0x59ba8e['startIndex'])))_0x20fa4d=_0x1e144c(_0x488792,_0x59ba8e['startIndex']);else _0x3e1563&&_0x3e1563[_0x1cdabb(0x1a5)]===_0x1702f8&&Number[_0x1cdabb(0x1b3)](Number(_0x3e1563[_0x1cdabb(0x259)]))?_0x20fa4d=_0x1e144c(_0x488792,_0x3e1563[_0x1cdabb(0x259)]):_0x20fa4d=_0x10782f(_0x488792);}const _0xd1f98b={'friendId':_0x1702f8,'visibleStartIndex':_0x20fa4d,'totalMessages':_0x488792[_0x1cdabb(0x1f2)]};if(_0x27133a)_0x27133a[_0x1cdabb(0x28c)]=_0xd1f98b;return _0xd1f98b;}function _0x5c6654(_0x43b7d5,_0x589cd7,_0x1ec639,_0x134872){const _0xae061a=_0x33c327;if(!_0x589cd7||!_0x134872||_0x134872['visibleStartIndex']<=0x0)return;const _0x460fec=_0x134872[_0xae061a(0x259)],_0x3f592f=_0x3dbc21(_0x1ec639,0x0,_0x134872[_0xae061a(0x259)]),_0x13bfe9=document[_0xae061a(0x1b1)]('div');_0x13bfe9[_0xae061a(0x1da)]=_0xae061a(0x1fc);const _0x32c30e=document[_0xae061a(0x1b1)]('button');_0x32c30e[_0xae061a(0x212)]=_0xae061a(0x1df),_0x32c30e['className']='chat-history-load-more-btn',_0x32c30e[_0xae061a(0x2b2)]=_0xae061a(0x1d2)+_0x3f592f+_0xae061a(0x2b5)+_0x460fec+_0xae061a(0x193),_0x32c30e[_0xae061a(0x189)](_0xae061a(0x17e),_0x5ed85b=>{const _0x3c9608=_0xae061a;_0x5ed85b[_0x3c9608(0x1bb)](),_0x5ed85b[_0x3c9608(0x16b)]();const _0x32cf3b=Array[_0x3c9608(0x157)](_0x43b7d5[_0x3c9608(0x164)])?_0x43b7d5[_0x3c9608(0x164)]:[],_0x1cb79c=_0x589cd7[_0x3c9608(0x28c)]||_0x134872,_0x477f8e=_0x589cd7[_0x3c9608(0x1dc)],_0x411a09=_0x589cd7['scrollTop'],_0x4d63eb=_0x388a85(_0x32cf3b,_0x1cb79c[_0x3c9608(0x259)],_0x55869a);_0x589cd7[_0x3c9608(0x2b2)]='',_0x3a18db(_0x43b7d5,_0x589cd7,{'startIndex':_0x4d63eb,'scroll':![]});const _0x4741a4=_0x589cd7[_0x3c9608(0x1dc)]-_0x477f8e;_0x589cd7['scrollTop']=_0x411a09+_0x4741a4;}),_0x13bfe9['appendChild'](_0x32c30e),_0x589cd7['appendChild'](_0x13bfe9);}function _0x4432f9(_0x332030,_0x63970b,_0x294309,_0x59f7d1={}){const _0x3c3bb1=_0x33c327;if(!_0x332030||!_0x63970b||!_0x294309)return![];const _0x2b0d68=_0x294309[_0x3c3bb1(0x226)]||Date['now'](),_0x2a3713=Array[_0x3c3bb1(0x238)](_0x63970b[_0x3c3bb1(0x19c)]);let _0x137c8e=0x0;for(let _0x5b2638=_0x2a3713[_0x3c3bb1(0x1f2)]-0x1;_0x5b2638>=0x0;_0x5b2638-=0x1){const _0x2fd3d9=_0x2a3713[_0x5b2638];if(!_0x2fd3d9||!_0x2fd3d9['classList']||!_0x2fd3d9[_0x3c3bb1(0x186)]['contains'](_0x3c3bb1(0x1cd)))continue;_0x137c8e=Number(_0x2fd3d9[_0x3c3bb1(0x1aa)](_0x3c3bb1(0x1a4)))||0x0;if(_0x137c8e)break;}(!_0x137c8e||_0x2b0d68-_0x137c8e>0x493e0)&&window['imChat'][_0x3c3bb1(0x19e)](_0x2b0d68,_0x63970b);const _0x1b2506=_0x4df2cb(_0x294309,_0x332030,_0x63970b,_0x2b0d68);return _0x1b2506&&_0x63970b[_0x3c3bb1(0x28c)]&&_0x63970b['_imHistoryState']['friendId']===String(_0x332030['id'])&&(_0x63970b[_0x3c3bb1(0x28c)][_0x3c3bb1(0x20b)]=Array[_0x3c3bb1(0x157)](_0x332030[_0x3c3bb1(0x164)])?_0x332030['messages'][_0x3c3bb1(0x1f2)]:_0x63970b[_0x3c3bb1(0x28c)][_0x3c3bb1(0x20b)]),_0x1b2506&&_0x59f7d1[_0x3c3bb1(0x21c)]!==![]&&window[_0x3c3bb1(0x169)][_0x3c3bb1(0x175)](_0x63970b),_0x1b2506;}function _0x29edc9(_0x3546f8,_0x5d1835,_0x3dbcde={}){const _0x490eb6=_0x33c327;if(!_0x3546f8||!_0x5d1835)return![];return _0x5d1835[_0x490eb6(0x2b2)]='',window[_0x490eb6(0x169)][_0x490eb6(0x291)](_0x3546f8,_0x5d1835,{'resetWindow':!!_0x3dbcde[_0x490eb6(0x2b1)],'scroll':![]}),_0x3dbcde[_0x490eb6(0x21c)]!==![]&&window[_0x490eb6(0x169)][_0x490eb6(0x175)](_0x5d1835),!![];}function _0x323e6f(_0x177e14,_0x1b5407){const _0x5e83b5=_0x33c327;if(!_0x177e14||_0x1b5407==null)return null;const _0x325824=typeof _0x1b5407===_0x5e83b5(0x28a)&&_0x1b5407!==null&&_0x1b5407['id']!=null?String(_0x1b5407['id']):typeof _0x1b5407!=='object'&&_0x1b5407!=null?String(_0x1b5407):null,_0x38a33a=typeof _0x1b5407==='object'&&_0x1b5407!==null&&_0x1b5407[_0x5e83b5(0x226)]!=null?String(_0x1b5407[_0x5e83b5(0x226)]):null;if(_0x325824){const _0x3675b5=_0x177e14[_0x5e83b5(0x22d)]('.chat-row[data-message-id=\x22'+_0x325824+'\x22]');if(_0x3675b5)return _0x3675b5;}if(_0x38a33a){const _0x475f54=Array[_0x5e83b5(0x238)](_0x177e14[_0x5e83b5(0x220)](_0x5e83b5(0x16c)));return _0x475f54['find'](_0x4ccbdd=>String(_0x4ccbdd[_0x5e83b5(0x1aa)](_0x5e83b5(0x1a4))||'')===_0x38a33a)||null;}return null;}function _0x45509f(_0x96eab6,_0x1d2005,_0x1817f5,_0x3ac29a,_0x2f2423={}){if(!_0x96eab6||!_0x1d2005||!_0x1817f5)return![];return _0x29edc9(_0x96eab6,_0x1d2005,_0x2f2423);}function _0x2c5b03(_0x3bca04,_0x464a46,_0x59f489={}){const _0x5ed098=_0x33c327;if(!_0x3bca04)return![];const _0x4811c7=_0x323e6f(_0x3bca04,_0x464a46);if(!_0x4811c7)return![];const _0x25130f=_0x4811c7['previousElementSibling'],_0x198c23=_0x4811c7[_0x5ed098(0x1fa)];return _0x4811c7['remove'](),_0x25130f&&_0x25130f['classList']&&_0x25130f[_0x5ed098(0x186)][_0x5ed098(0x23d)](_0x5ed098(0x19a))&&(!_0x198c23||!_0x198c23[_0x5ed098(0x186)]||!_0x198c23[_0x5ed098(0x186)][_0x5ed098(0x23d)]('chat-row'))&&_0x25130f[_0x5ed098(0x26f)](),_0x59f489[_0x5ed098(0x21c)]&&window[_0x5ed098(0x169)]['scrollToBottom'](_0x3bca04),!![];}function _0x3a18db(_0xfbb244,_0x1d660b,_0x32941f={}){const _0x1ea762=_0x33c327;if(!_0xfbb244||!_0x1d660b)return;const _0x47dcee=Array[_0x1ea762(0x157)](_0xfbb244[_0x1ea762(0x164)])?_0xfbb244[_0x1ea762(0x164)]:[],_0x4e2d3a=_0xf9505a(_0xfbb244,_0x1d660b,_0x47dcee,_0x32941f);let _0x47409c=0x0;try{_0x1d660b[_0x1ea762(0x27c)]=!![],_0x5c6654(_0xfbb244,_0x1d660b,_0x47dcee,_0x4e2d3a),_0x47dcee[_0x1ea762(0x1f2)]>0x0&&_0x47dcee[_0x1ea762(0x199)](_0x4e2d3a[_0x1ea762(0x259)])[_0x1ea762(0x1ca)](_0x16d74b=>{const _0x42af08=_0x1ea762;window['imChat']['ensureMessageId'](_0x16d74b,_0x16d74b[_0x42af08(0x212)]===_0x42af08(0x18d)?_0x42af08(0x179):_0x42af08(0x1b5));const _0xe95fe6=_0x16d74b['timestamp']||0x0;_0xe95fe6-_0x47409c>0x493e0&&(window[_0x42af08(0x169)][_0x42af08(0x19e)](_0xe95fe6,_0x1d660b),_0x47409c=_0xe95fe6),_0x4df2cb(_0x16d74b,_0xfbb244,_0x1d660b,_0xe95fe6);});}finally{_0x1d660b['_imIsRenderingHistory']=![];}_0x32941f['scroll']!==![]&&window[_0x1ea762(0x169)][_0x1ea762(0x175)](_0x1d660b);}function _0x5ec210(_0x2869af){const _0x400c2c=_0x33c327;if(_0x2869af&&!_0x2869af[_0x400c2c(0x27c)])_0x2869af['scrollTop']=_0x2869af[_0x400c2c(0x1dc)];}function _0x58efed(_0x5257f8,_0x42c39a){const _0x1ad540=_0x33c327;if(!_0x5257f8)return;const _0x37f8e7=document[_0x1ad540(0x1b1)](_0x1ad540(0x1c1));_0x37f8e7[_0x1ad540(0x1da)]='chat-timestamp';let _0x5ab982=window[_0x1ad540(0x15c)][_0x1ad540(0x1cb)]?window[_0x1ad540(0x15c)]['formatTime'](_0x5257f8):'';_0x37f8e7[_0x1ad540(0x2b2)]='<span>'+_0x5ab982+'</span>',_0x42c39a['appendChild'](_0x37f8e7);}function _0x38eca4(_0x8d206f,_0x2ecda6,_0x7ac35=Date[_0x33c327(0x202)]()){const _0x348b57=_0x33c327;if(!_0x8d206f||!_0x2ecda6)return;const _0x46a7c2=document[_0x348b57(0x1b1)](_0x348b57(0x1c1));_0x46a7c2[_0x348b57(0x1da)]='chat-offline-scene-row',_0x46a7c2['setAttribute'](_0x348b57(0x1a4),_0x7ac35),_0x46a7c2[_0x348b57(0x2b2)]='<span>'+_0x41360a(_0x8d206f)+_0x348b57(0x24a),_0x2ecda6['appendChild'](_0x46a7c2);}function _0x460c65(_0x3e7629){const _0x13e89f=_0x33c327;let _0x29a0a5=String(_0x3e7629==null?'':_0x3e7629)[_0x13e89f(0x2a0)]();const _0x3f742b=[['（','）'],['(',')'],['[',']'],['【','】'],['{','}'],['「','」'],['『','』']];let _0x109106=!![];while(_0x109106&&_0x29a0a5[_0x13e89f(0x1f2)]>0x1){_0x109106=![];for(const [_0x568264,_0x366476]of _0x3f742b){if(_0x29a0a5['startsWith'](_0x568264)&&_0x29a0a5['endsWith'](_0x366476)){_0x29a0a5=_0x29a0a5[_0x13e89f(0x199)](_0x568264['length'],_0x29a0a5[_0x13e89f(0x1f2)]-_0x366476['length'])[_0x13e89f(0x2a0)](),_0x109106=!![];break;}}}return _0x29a0a5;}function _0x1fa8f7(_0x35a95b,_0x2a2615,_0x23a82f=Date[_0x33c327(0x202)](),_0x54627c=null,_0x46c897=null,_0x26053b=![],_0xbe4361=null,_0xefde4b=null){const _0x240e0a=_0x33c327,_0x4956ec=Array[_0x240e0a(0x238)](_0x2a2615['children'])[_0x240e0a(0x1e7)](_0xccd48=>_0xccd48[_0x240e0a(0x186)][_0x240e0a(0x23d)](_0x240e0a(0x1cd))&&!_0xccd48[_0x240e0a(0x186)][_0x240e0a(0x23d)](_0x240e0a(0x1f3))),_0x3aa572=_0x4956ec['length']>0x0?_0x4956ec[_0x4956ec['length']-0x1]:null;let _0x1fb0a1=![];_0x3aa572&&_0x3aa572[_0x240e0a(0x186)][_0x240e0a(0x23d)](_0x240e0a(0x21a))&&(_0x1fb0a1=!![],_0x3aa572[_0x240e0a(0x186)]['add']('has-next'));const _0x15d451=_0x34171a(!![],_0xefde4b,_0x23a82f,null,null,_0x1fb0a1),_0x3564cb=document[_0x240e0a(0x1b1)](_0x240e0a(0x1c1));_0x3564cb[_0x240e0a(0x1da)]=_0x240e0a(0x1ef)+(_0x1fb0a1?'has-prev':''),_0x3564cb['setAttribute'](_0x240e0a(0x1a4),_0x23a82f),_0x3564cb[_0x240e0a(0x163)]('data-message-id',_0xbe4361||window[_0x240e0a(0x169)][_0x240e0a(0x1a8)](_0x240e0a(0x1b5)));let _0x370c6a='';_0x54627c&&(_0x370c6a+=_0x240e0a(0x235)+_0x54627c+_0x240e0a(0x207));_0x370c6a+=_0x35a95b;_0x46c897&&_0x26053b&&(_0x370c6a+=_0x240e0a(0x28d)+_0x46c897+_0x240e0a(0x207));const _0x2dc793=typeof window[_0x240e0a(0x1f7)]===_0x240e0a(0x1d9)?window[_0x240e0a(0x1f7)](_0x23a82f):((()=>{const _0x17a4e6=_0x240e0a,_0x49045a=new Date(_0x23a82f);return _0x49045a['getHours']()+':'+_0x49045a[_0x17a4e6(0x23c)]()['toString']()[_0x17a4e6(0x18b)](0x2,'0');})());_0x370c6a+=_0x240e0a(0x266)+_0x2dc793+_0x240e0a(0x21f),_0x3564cb[_0x240e0a(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20'+(window[_0x240e0a(0x28e)]['batchSelectMode']?'flex':_0x240e0a(0x262))+_0x240e0a(0x205)+_0x23a82f+_0x240e0a(0x294)+_0x15d451+_0x240e0a(0x296)+_0x370c6a+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x2a2615[_0x240e0a(0x276)](_0x3564cb),window[_0x240e0a(0x169)]['scrollToBottom'](_0x2a2615);}function _0x3800c5(_0x1a5966,_0x22a77e,_0x291ef4,_0x3ea3fb=Date[_0x33c327(0x202)](),_0x120127=null,_0x3a7baf=![],_0x121917=null,_0x20bebf=null,_0x1f3f59=null,_0x495e69=null,_0x95989f=null,_0x55be21=null,_0x5e2b28=null){const _0x4af8ff=_0x33c327,_0x4dc3c7=Array['from'](_0x291ef4[_0x4af8ff(0x19c)])[_0x4af8ff(0x1e7)](_0x36514e=>!_0x36514e[_0x4af8ff(0x186)][_0x4af8ff(0x23d)](_0x4af8ff(0x19a))&&!_0x36514e[_0x4af8ff(0x186)][_0x4af8ff(0x23d)]('typing-row')&&!_0x36514e[_0x4af8ff(0x186)][_0x4af8ff(0x23d)]('chat-offline-scene-row')),_0x1f85db=_0x4dc3c7['length']>0x0?_0x4dc3c7[_0x4dc3c7[_0x4af8ff(0x1f2)]-0x1]:null,_0x474c08=_0x22a77e[_0x4af8ff(0x212)]===_0x4af8ff(0x1de)&&!!_0x20bebf;let _0x114c15=![],_0x24ded3=![];if(_0x1f85db&&_0x1f85db[_0x4af8ff(0x186)][_0x4af8ff(0x23d)](_0x4af8ff(0x297))){const _0x14455f=_0x1f85db[_0x4af8ff(0x1aa)](_0x4af8ff(0x1e4))||null;if(_0x474c08)_0x14455f===_0x20bebf&&(_0x114c15=!![],_0x24ded3=!![],_0x1f85db[_0x4af8ff(0x186)][_0x4af8ff(0x210)](_0x4af8ff(0x188)));else!_0x14455f&&(_0x114c15=!![],_0x24ded3=!![],_0x1f85db[_0x4af8ff(0x186)][_0x4af8ff(0x210)](_0x4af8ff(0x188)));}const _0x2005c4=document[_0x4af8ff(0x1b1)](_0x4af8ff(0x1c1));_0x2005c4[_0x4af8ff(0x1da)]='chat-row\x20ai-row\x20'+(_0x114c15?_0x4af8ff(0x1dd):'')+'\x20'+(_0x474c08?'group-ai-row':'')+'\x20'+(_0x474c08&&_0x24ded3?_0x4af8ff(0x170):''),_0x2005c4[_0x4af8ff(0x163)](_0x4af8ff(0x1a4),_0x3ea3fb),_0x2005c4[_0x4af8ff(0x163)]('data-message-id',_0x495e69||window[_0x4af8ff(0x169)][_0x4af8ff(0x1a8)](_0x4af8ff(0x1b5)));_0x20bebf&&_0x2005c4['setAttribute'](_0x4af8ff(0x1e4),_0x20bebf);_0x95989f&&_0x2005c4[_0x4af8ff(0x163)](_0x4af8ff(0x16d),_0x95989f);let _0x1a8b29='';_0x121917&&(_0x1a8b29+=_0x4af8ff(0x1ba)+_0x121917+_0x4af8ff(0x207));const _0x3342ab=_0x460c65(_0x5e2b28);_0x3342ab&&(_0x1a8b29+=_0x4af8ff(0x292)+_0x41360a(_0x3342ab)+_0x4af8ff(0x2a2));_0x1a8b29+=_0x1a5966;_0x120127&&_0x3a7baf&&(_0x1a8b29+='<div\x20class=\x22msg-translation\x22\x20style=\x22margin-top:\x206px;\x20padding-top:\x206px;\x20border-top:\x201px\x20solid\x20rgba(0,0,0,0.1);\x20font-size:\x2013px;\x20color:\x20#8e8e93;\x20line-height:\x201.4;\x20word-wrap:\x20break-word;\x20white-space:\x20normal;\x22>'+_0x120127+_0x4af8ff(0x207));const _0xa5de98=typeof window['formatChatBubbleTime']===_0x4af8ff(0x1d9)?window[_0x4af8ff(0x1f7)](_0x3ea3fb):((()=>{const _0x4a1062=_0x4af8ff,_0x1d7a22=new Date(_0x3ea3fb);return _0x1d7a22[_0x4a1062(0x206)]()+':'+_0x1d7a22[_0x4a1062(0x23c)]()['toString']()['padStart'](0x2,'0');})());_0x1a8b29+=_0x4af8ff(0x266)+_0xa5de98+_0x4af8ff(0x1ce);const _0x99cfed=_0x34171a(![],_0x22a77e,_0x3ea3fb,_0x20bebf,_0x1f3f59,_0x114c15);let _0x1f73b8='';if(_0x474c08){const _0xa1480c=String(_0x20bebf)[_0x4af8ff(0x2a0)]()[_0x4af8ff(0x19f)](0x0)||'?',_0x48447c=_0x1f3f59?'<img\x20src=\x22'+_0x1f3f59+_0x4af8ff(0x18e):_0x4af8ff(0x1ee)+_0xa1480c+_0x4af8ff(0x207);_0x1f73b8='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x24ded3?'':_0x4af8ff(0x17f)+_0x20bebf+'</div>')+_0x4af8ff(0x195)+(_0x24ded3?_0x4af8ff(0x1a1):_0x48447c)+_0x4af8ff(0x274)+_0x1a8b29+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}else _0x1f73b8='<div\x20class=\x22chat-bubble\x20ai-bubble\x22>'+_0x1a8b29+_0x4af8ff(0x207);_0x2005c4[_0x4af8ff(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20'+(window[_0x4af8ff(0x28e)][_0x4af8ff(0x1b6)]?'flex':_0x4af8ff(0x262))+_0x4af8ff(0x205)+_0x3ea3fb+_0x4af8ff(0x294)+_0x99cfed+_0x4af8ff(0x1d1)+_0x1f73b8+_0x4af8ff(0x198),_0x55be21&&_0x38eca4(_0x55be21,_0x291ef4,_0x3ea3fb),_0x291ef4[_0x4af8ff(0x276)](_0x2005c4),window[_0x4af8ff(0x169)][_0x4af8ff(0x175)](_0x291ef4);}function _0x5ebaa2(_0x326f82,_0x4a7835,_0x118057,_0x5e8b15){const _0x42c2fb=_0x33c327;let _0x33a473=document['getElementById'](_0x42c2fb(0x273));!_0x33a473&&(_0x33a473=document[_0x42c2fb(0x1b1)](_0x42c2fb(0x1c1)),_0x33a473['id']=_0x42c2fb(0x273),_0x33a473['style'][_0x42c2fb(0x1d7)]=_0x42c2fb(0x1b7),_0x33a473[_0x42c2fb(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-image-detail-card\x22\x20style=\x22width:100%;\x20max-width:360px;\x20max-height:86vh;\x20background:#fff;\x20border-radius:24px;\x20overflow:hidden;\x20\x20display:flex;\x20flex-direction:column;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20justify-content:space-between;\x20gap:12px;\x20padding:14px\x2016px;\x20border-bottom:1px\x20solid\x20#f2f2f7;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-image-detail-sender\x22\x20style=\x22font-size:16px;\x20font-weight:800;\x20color:#111;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-image-detail-time\x22\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:2px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-image-detail-close\x22\x20aria-label=\x22关闭\x22\x20style=\x22width:32px;\x20height:32px;\x20border:none;\x20border-radius:16px;\x20background:#f2f2f7;\x20color:#111;\x20cursor:pointer;\x20flex-shrink:0;\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:#111;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20min-height:220px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22chat-image-detail-img\x22\x20src=\x22\x22\x20alt=\x22\x22\x20style=\x22max-width:100%;\x20max-height:52vh;\x20object-fit:contain;\x20display:block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:14px\x2016px\x2018px;\x20overflow-y:auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20font-weight:700;\x20margin-bottom:7px;\x22>图片详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-image-detail-desc\x22\x20style=\x22font-size:15px;\x20color:#222;\x20line-height:1.55;\x20white-space:pre-wrap;\x20word-break:break-word;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',document['body'][_0x42c2fb(0x276)](_0x33a473),_0x33a473[_0x42c2fb(0x189)](_0x42c2fb(0x17e),_0x2a433=>{const _0x3754f0=_0x42c2fb;(_0x2a433[_0x3754f0(0x1b2)]===_0x33a473||_0x2a433[_0x3754f0(0x1b2)][_0x3754f0(0x197)](_0x3754f0(0x1cc)))&&(_0x33a473[_0x3754f0(0x184)][_0x3754f0(0x1a9)]=_0x3754f0(0x262));}));const _0x13713f=_0x33a473[_0x42c2fb(0x22d)](_0x42c2fb(0x29f)),_0xca2cb8=_0x33a473[_0x42c2fb(0x22d)](_0x42c2fb(0x282)),_0x128055=_0x33a473[_0x42c2fb(0x22d)]('.chat-image-detail-time'),_0x1150e0=_0x33a473[_0x42c2fb(0x22d)](_0x42c2fb(0x201)),_0x4c82f7=new Date(_0x118057||_0x326f82['timestamp']||Date[_0x42c2fb(0x202)]()),_0x4630ef=typeof window['formatChatBubbleTime']===_0x42c2fb(0x1d9)?window[_0x42c2fb(0x1f7)](_0x118057||_0x326f82[_0x42c2fb(0x226)]||Date[_0x42c2fb(0x202)]()):_0x4c82f7['getHours']()+':'+_0x4c82f7[_0x42c2fb(0x23c)]()[_0x42c2fb(0x1bf)]()[_0x42c2fb(0x18b)](0x2,'0');if(_0x13713f)_0x13713f[_0x42c2fb(0x27d)]=_0x326f82[_0x42c2fb(0x15a)]||window['imChat']['CHAT_IMAGE_PLACEHOLDER_URL']||'';if(_0xca2cb8)_0xca2cb8[_0x42c2fb(0x25a)]=_0x5e8b15||_0x4a7835?.[_0x42c2fb(0x227)]||_0x4a7835?.[_0x42c2fb(0x247)]||'图片';if(_0x128055)_0x128055[_0x42c2fb(0x25a)]=_0x4630ef;if(_0x1150e0)_0x1150e0[_0x42c2fb(0x25a)]=_0x326f82[_0x42c2fb(0x219)]||_0x326f82['description']||_0x42c2fb(0x1f5);_0x33a473[_0x42c2fb(0x184)][_0x42c2fb(0x1a9)]=_0x42c2fb(0x279);}function _0x2b024b(_0x256b7e,_0x3ab8f5,_0x32585a,_0x4daf1e=Date[_0x33c327(0x202)]()){const _0x1c7d43=_0x33c327,_0x2928db=_0x256b7e[_0x1c7d43(0x27b)]===_0x1c7d43(0x23e),_0x51c6c2=!_0x2928db&&_0x3ab8f5[_0x1c7d43(0x212)]===_0x1c7d43(0x1de),_0x278d41=_0x51c6c2&&window[_0x1c7d43(0x169)][_0x1c7d43(0x1d8)]?window['imChat'][_0x1c7d43(0x1d8)](_0x3ab8f5,_0x256b7e['speaker']||_0x256b7e[_0x1c7d43(0x1a2)]):null,_0xdb790a=_0x51c6c2?_0x278d41&&_0x278d41['nickname']||_0x256b7e[_0x1c7d43(0x1c8)]||_0x256b7e['senderName']||_0x1c7d43(0x23f):null,_0x3bcd67=_0x278d41&&_0x278d41['avatarUrl']||_0x256b7e[_0x1c7d43(0x182)]||null,_0x28d65e=Array['from'](_0x32585a[_0x1c7d43(0x19c)])['filter'](_0x281782=>!_0x281782[_0x1c7d43(0x186)][_0x1c7d43(0x23d)]('chat-timestamp')&&!_0x281782[_0x1c7d43(0x186)][_0x1c7d43(0x23d)](_0x1c7d43(0x1f3))),_0x392183=_0x28d65e['length']>0x0?_0x28d65e[_0x28d65e[_0x1c7d43(0x1f2)]-0x1]:null;let _0x44bcbe=![],_0xc42e3a=![];if(_0x392183){if(_0x2928db&&_0x392183['classList'][_0x1c7d43(0x23d)]('user-row'))_0x44bcbe=!![],_0x392183[_0x1c7d43(0x186)]['add']('has-next');else{if(!_0x2928db&&_0x392183[_0x1c7d43(0x186)][_0x1c7d43(0x23d)](_0x1c7d43(0x297))){const _0x3ae318=_0x392183[_0x1c7d43(0x1aa)]('data-speaker')||null;if(_0x51c6c2)_0x3ae318===_0xdb790a&&(_0x44bcbe=!![],_0xc42e3a=!![],_0x392183[_0x1c7d43(0x186)][_0x1c7d43(0x210)](_0x1c7d43(0x188)));else!_0x3ae318&&(_0x44bcbe=!![],_0x392183['classList'][_0x1c7d43(0x210)](_0x1c7d43(0x188)));}}}const _0x101082=document[_0x1c7d43(0x1b1)](_0x1c7d43(0x1c1));_0x101082['className']=_0x1c7d43(0x1c5)+(_0x2928db?'user-row':_0x1c7d43(0x297))+'\x20'+(_0x44bcbe?_0x1c7d43(0x1dd):'')+'\x20'+(_0x51c6c2?'group-ai-row':'')+'\x20'+(_0x51c6c2&&_0xc42e3a?_0x1c7d43(0x170):''),_0x101082[_0x1c7d43(0x163)](_0x1c7d43(0x1a4),_0x4daf1e),_0x101082[_0x1c7d43(0x163)](_0x1c7d43(0x166),window[_0x1c7d43(0x169)][_0x1c7d43(0x1e9)](_0x256b7e,'img'));if(_0xdb790a)_0x101082[_0x1c7d43(0x163)](_0x1c7d43(0x1e4),_0xdb790a);const _0x407fdd=_0x256b7e[_0x1c7d43(0x15a)]||window['imChat'][_0x1c7d43(0x1b4)]||'',_0x20af41='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22chat-image-bubble-img\x22\x20src=\x22'+_0x41360a(_0x407fdd)+_0x1c7d43(0x211),_0x3d89c9=typeof window[_0x1c7d43(0x1f7)]===_0x1c7d43(0x1d9)?window[_0x1c7d43(0x1f7)](_0x4daf1e):((()=>{const _0x3b8830=_0x1c7d43,_0x292e05=new Date(_0x4daf1e);return _0x292e05[_0x3b8830(0x206)]()+':'+_0x292e05['getMinutes']()[_0x3b8830(0x1bf)]()['padStart'](0x2,'0');})()),_0x3f23dd='',_0x1176a6=_0x1c7d43(0x1e1)+(_0x2928db?'user-bubble':_0x1c7d43(0x1be))+'\x22\x20style=\x22padding:\x200;\x20background:\x20transparent;\x20\x22>'+_0x20af41+_0x3f23dd+'</div>';let _0x589c3e=_0x1176a6;if(_0x51c6c2){const _0x4ee462=String(_0xdb790a)['trim']()['charAt'](0x0)||'?',_0x4707f3=_0x3bcd67?_0x1c7d43(0x2b6)+_0x41360a(_0x3bcd67)+_0x1c7d43(0x18e):_0x1c7d43(0x1ee)+_0x41360a(_0x4ee462)+_0x1c7d43(0x207);_0x589c3e='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0xc42e3a?'':'<div\x20class=\x22group-ai-speaker-name\x22>'+_0x41360a(_0xdb790a)+_0x1c7d43(0x207))+_0x1c7d43(0x195)+(_0xc42e3a?_0x1c7d43(0x1a1):_0x4707f3)+_0x1c7d43(0x18c)+_0x1176a6+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}const _0x5460b3=_0x34171a(_0x2928db,_0x3ab8f5,_0x4daf1e,_0xdb790a,_0x3bcd67,_0x44bcbe);_0x101082['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20'+(window[_0x1c7d43(0x28e)][_0x1c7d43(0x1b6)]?'flex':'none')+_0x1c7d43(0x205)+_0x4daf1e+_0x1c7d43(0x294)+_0x5460b3+_0x1c7d43(0x27e)+(_0x2928db?_0x1c7d43(0x1f6):_0x1c7d43(0x288))+_0x1c7d43(0x1c6)+_0x589c3e+_0x1c7d43(0x198);const _0xa151c9=_0x101082[_0x1c7d43(0x22d)](_0x1c7d43(0x1ad));_0xa151c9&&_0xa151c9[_0x1c7d43(0x189)](_0x1c7d43(0x17e),_0x3a1dab=>{const _0x44cd9f=_0x1c7d43;_0x3a1dab['preventDefault'](),_0x3a1dab[_0x44cd9f(0x16b)]();const _0xce8e2e=_0x2928db?window[_0x44cd9f(0x1bc)]?.[_0x44cd9f(0x2a6)]||'我':_0xdb790a||_0x3ab8f5?.[_0x44cd9f(0x227)]||_0x3ab8f5?.[_0x44cd9f(0x247)]||_0x44cd9f(0x249);_0x5ebaa2(_0x256b7e,_0x3ab8f5,_0x4daf1e,_0xce8e2e);}),_0x32585a[_0x1c7d43(0x276)](_0x101082),window['imChat'][_0x1c7d43(0x175)](_0x32585a);}function _0x11f454(_0x2fe4c4,_0x14e35e,_0x54af8c,_0x4215f4=Date[_0x33c327(0x202)]()){const _0x5e64b5=_0x33c327,_0x4ca947=_0x2fe4c4[_0x5e64b5(0x27b)]==='user',_0x5c2c81=_0x54af8c[_0x5e64b5(0x250)];let _0x2144b6=![];if(_0x5c2c81){if(_0x4ca947&&_0x5c2c81[_0x5e64b5(0x186)][_0x5e64b5(0x23d)](_0x5e64b5(0x21a)))_0x2144b6=!![],_0x5c2c81[_0x5e64b5(0x186)][_0x5e64b5(0x210)]('has-next');else!_0x4ca947&&_0x5c2c81[_0x5e64b5(0x186)][_0x5e64b5(0x23d)](_0x5e64b5(0x297))&&(_0x2144b6=!![],_0x5c2c81['classList'][_0x5e64b5(0x210)](_0x5e64b5(0x188)));}const _0x171896=document[_0x5e64b5(0x1b1)]('div');_0x171896[_0x5e64b5(0x1da)]='chat-row\x20'+(_0x4ca947?_0x5e64b5(0x21a):_0x5e64b5(0x297))+'\x20'+(_0x2144b6?_0x5e64b5(0x1dd):''),_0x171896[_0x5e64b5(0x163)](_0x5e64b5(0x1a4),_0x4215f4),_0x171896[_0x5e64b5(0x163)](_0x5e64b5(0x166),window['imChat'][_0x5e64b5(0x1e9)](_0x2fe4c4,_0x5e64b5(0x179)));const _0xd4521c=Number(_0x2fe4c4['amount'])||0x0,_0x626189='¥'+_0xd4521c['toFixed'](0x2),_0x2cb4bc=_0x2fe4c4['description']||'转账',_0x79b4c7=_0x384e71(_0x2fe4c4,_0x14e35e),{payKind:_0x5b5ae3,status:_0x27a70c,payerName:_0x281e5b,payeeName:_0x521a14}=_0x79b4c7,_0x3ffd73=_0x2fe4c4['targetName']===_0x5e64b5(0x22a)||_0x2fe4c4[_0x5e64b5(0x200)]===_0x5e64b5(0x21b)||_0x2fe4c4[_0x5e64b5(0x200)]===_0x5e64b5(0x248),_0x42e01e=(_0x2fe4c4[_0x5e64b5(0x231)]||'')+'\x20'+(_0x2fe4c4[_0x5e64b5(0x200)]||'')+'\x20'+(_0x2fe4c4['description']||'')+'\x20'+(_0x2fe4c4[_0x5e64b5(0x15a)]||''),_0x56dbdd=_0x2fe4c4['paymentAction']===_0x5e64b5(0x222)||_0x2fe4c4[_0x5e64b5(0x231)]===_0x5e64b5(0x26c)||_0x42e01e[_0x5e64b5(0x24f)](_0x5e64b5(0x256));let _0xa50260=_0x2fe4c4['cardTitle']||_0x5e64b5(0x22a),_0x56024f=_0x281e5b+_0x5e64b5(0x230)+_0x521a14+'\x20转账',_0x5162fe='';if(_0x27a70c==='claimed')_0xa50260=_0x2fe4c4['cardTitle']||_0x521a14+'已收款',_0x56024f=_0x521a14+_0x5e64b5(0x181)+_0x281e5b+'\x20的转账',_0x5162fe=_0x5b5ae3===_0x5e64b5(0x284)?_0x5e64b5(0x172):_0x5e64b5(0x29e);else{if(_0x27a70c===_0x5e64b5(0x26e))_0xa50260=_0x2fe4c4[_0x5e64b5(0x200)]||_0x5e64b5(0x229),_0x56024f=_0x521a14+_0x5e64b5(0x243)+_0x281e5b+_0x5e64b5(0x240),_0x5162fe='\x20is-rejected';else _0x5b5ae3===_0x5e64b5(0x20a)&&(_0xa50260=_0x2fe4c4[_0x5e64b5(0x200)]||'转账',_0x56024f=_0x281e5b+'\x20向\x20'+_0x521a14+'\x20转账',_0x5162fe=_0x5e64b5(0x29b));}const _0x34b80a=_0x34171a(_0x4ca947,_0x14e35e,_0x4215f4,null,null,_0x2144b6),_0x22a9e3=new Date(_0x4215f4),_0x333417=typeof window['formatChatBubbleTime']===_0x5e64b5(0x1d9)?window[_0x5e64b5(0x1f7)](_0x4215f4):_0x22a9e3[_0x5e64b5(0x206)]()+':'+_0x22a9e3['getMinutes']()[_0x5e64b5(0x1bf)]()['padStart'](0x2,'0');if(_0x3ffd73){const _0x39d445=_0x2fe4c4[_0x5e64b5(0x200)]==='收款通知'?'+':'-';_0x171896[_0x5e64b5(0x2b2)]=_0x5e64b5(0x27f)+(window[_0x5e64b5(0x28e)][_0x5e64b5(0x1b6)]?_0x5e64b5(0x279):_0x5e64b5(0x262))+_0x5e64b5(0x263)+_0x4215f4+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20display:flex;\x20justify-content:center;\x20padding:10px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:280px;\x20background:#fff;\x20border-radius:12px;\x20padding:16px;\x20\x20display:flex;\x20flex-direction:column;\x20align-items:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20color:#111;\x20margin-bottom:8px;\x22>'+_0x2cb4bc+_0x5e64b5(0x21e)+_0x39d445+'¥'+_0xd4521c['toFixed'](0x2)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:#f2f2f7;\x20border-radius:16px;\x20padding:4px\x2012px;\x20font-size:12px;\x20color:#8e8e93;\x20margin-bottom:16px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x333417+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20border-top:1px\x20solid\x20#f2f2f7;\x20padding-top:12px;\x20display:flex;\x20justify-content:space-between;\x20align-items:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:13px;\x20color:#8e8e93;\x22>账单详情</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-right\x22\x20style=\x22font-size:12px;\x20color:#c7c7cc;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}else{const _0x1779ba='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card'+_0x5162fe+_0x5e64b5(0x1c9)+_0xa50260+_0x5e64b5(0x160)+(_0x56dbdd?'':'<div\x20class=\x22pay-transfer-card-subtitle\x22>'+_0x56024f+_0x5e64b5(0x207))+_0x5e64b5(0x24c)+_0x626189+_0x5e64b5(0x232)+_0x2cb4bc+_0x5e64b5(0x217);if(_0x4ca947){const _0x326d3b='';_0x171896[_0x5e64b5(0x2b2)]=_0x5e64b5(0x15b)+(window[_0x5e64b5(0x28e)]['batchSelectMode']?_0x5e64b5(0x279):_0x5e64b5(0x262))+';\x20width:\x2040px;\x20justify-content:\x20center;\x20align-items:\x20flex-end;\x20padding-bottom:\x2010px;\x20flex-shrink:\x200;\x20cursor:\x20pointer;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-circle\x20chat-checkbox\x22\x20data-timestamp=\x22'+_0x4215f4+_0x5e64b5(0x277)+_0x34b80a+_0x5e64b5(0x233)+_0x1779ba+_0x326d3b+_0x5e64b5(0x287);}else{const _0x5da6a1='';_0x171896[_0x5e64b5(0x2b2)]=_0x5e64b5(0x15b)+(window[_0x5e64b5(0x28e)][_0x5e64b5(0x1b6)]?_0x5e64b5(0x279):_0x5e64b5(0x262))+_0x5e64b5(0x22e)+_0x4215f4+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x34b80a+_0x5e64b5(0x24e)+_0x1779ba+_0x5da6a1+_0x5e64b5(0x287);}}_0x54af8c[_0x5e64b5(0x276)](_0x171896);if(_0x5b5ae3===_0x5e64b5(0x20a)||_0x5b5ae3===_0x5e64b5(0x1ff)){const _0x32bff3=_0x171896[_0x5e64b5(0x22d)](_0x5e64b5(0x1bd))||_0x171896['querySelector'](_0x5e64b5(0x24b));_0x32bff3&&(_0x32bff3[_0x5e64b5(0x184)][_0x5e64b5(0x26a)]='pointer',_0x32bff3['addEventListener'](_0x5e64b5(0x17e),_0x4c5adb=>{const _0x5bebd5=_0x5e64b5;_0x4c5adb[_0x5bebd5(0x1bb)](),_0x4c5adb[_0x5bebd5(0x16b)]();const _0x1c9092=_0x54af8c[_0x5bebd5(0x197)](_0x5bebd5(0x260));if(!_0x1c9092){if(window['showToast'])window['showToast'](_0x5bebd5(0x251));return;}!_0x1c9092[_0x5bebd5(0x215)]&&window[_0x5bebd5(0x169)][_0x5bebd5(0x23a)](_0x1c9092,_0x14e35e);if(_0x1c9092[_0x5bebd5(0x215)]){const _0x234085=_0x171896['getAttribute'](_0x5bebd5(0x166)),_0x4717d7=_0x171896[_0x5bebd5(0x1aa)]('data-timestamp'),_0x57f874=window[_0x5bebd5(0x28e)]['currentActiveFriend']&&String(window['imData'][_0x5bebd5(0x2b0)]['id'])===String(_0x14e35e['id'])?window[_0x5bebd5(0x28e)][_0x5bebd5(0x2b0)]:_0x14e35e,_0xb087cd=Array['isArray'](_0x57f874?.['messages'])?_0x57f874[_0x5bebd5(0x164)][_0x5bebd5(0x155)](_0x19d0ab=>{const _0x237705=_0x5bebd5;if(_0x234085&&String(_0x19d0ab['id'])===String(_0x234085))return!![];return _0x4717d7&&String(_0x19d0ab[_0x237705(0x226)])===String(_0x4717d7);}):null;_0x1c9092[_0x5bebd5(0x215)](_0xb087cd||_0x2fe4c4);}else window[_0x5bebd5(0x19d)]&&window[_0x5bebd5(0x19d)]('详情卡片初始化失败');}));}window[_0x5e64b5(0x169)][_0x5e64b5(0x175)](_0x54af8c);}function _0x28beb6(_0x40fa8f,_0x356168,_0x47b36a,_0x43929d=Date['now']()){const _0x2f74f4=_0x33c327;let _0xf26e73={};try{_0xf26e73=JSON[_0x2f74f4(0x168)](_0x40fa8f[_0x2f74f4(0x15a)]);}catch(_0x23a161){_0xf26e73={'text':_0x2f74f4(0x21d)};}const _0x41831f=_0x40fa8f['role']===_0x2f74f4(0x23e),_0x71cc87=_0x47b36a['lastElementChild'];let _0x2059a0=![];if(_0x71cc87){if(_0x41831f&&_0x71cc87[_0x2f74f4(0x186)][_0x2f74f4(0x23d)](_0x2f74f4(0x21a)))_0x2059a0=!![],_0x71cc87['classList'][_0x2f74f4(0x210)](_0x2f74f4(0x188));else!_0x41831f&&_0x71cc87[_0x2f74f4(0x186)][_0x2f74f4(0x23d)]('ai-row')&&(_0x2059a0=!![],_0x71cc87[_0x2f74f4(0x186)][_0x2f74f4(0x210)](_0x2f74f4(0x188)));}const _0x32c370=document[_0x2f74f4(0x1b1)](_0x2f74f4(0x1c1));_0x32c370[_0x2f74f4(0x1da)]=_0x2f74f4(0x1c5)+(_0x41831f?'user-row':_0x2f74f4(0x297))+'\x20'+(_0x2059a0?'has-prev':''),_0x32c370[_0x2f74f4(0x163)](_0x2f74f4(0x166),window[_0x2f74f4(0x169)][_0x2f74f4(0x1e9)](_0x40fa8f,_0x2f74f4(0x1e6)));const _0x3e11e1=_0x2f74f4(0x285),_0x51cf30=_0x34171a(_0x41831f,_0x356168,_0x43929d,null,null,_0x2059a0),_0x2a79c4=typeof window['formatChatBubbleTime']===_0x2f74f4(0x1d9)?window[_0x2f74f4(0x1f7)](_0x43929d):((()=>{const _0x4d427f=_0x2f74f4,_0x2d0c7d=new Date(_0x43929d);return _0x2d0c7d[_0x4d427f(0x206)]()+':'+_0x2d0c7d[_0x4d427f(0x23c)]()[_0x4d427f(0x1bf)]()['padStart'](0x2,'0');})());if(_0x41831f){let _0x20db20='';_0x32c370[_0x2f74f4(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20'+(window[_0x2f74f4(0x28e)][_0x2f74f4(0x1b6)]?'flex':_0x2f74f4(0x262))+_0x2f74f4(0x263)+_0x43929d+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x51cf30+_0x2f74f4(0x178)+_0x3e11e1+_0x2f74f4(0x2a1)+_0x20db20+_0x2f74f4(0x173);}else{let _0x10727c='';_0x32c370[_0x2f74f4(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20'+(window['imData']['batchSelectMode']?_0x2f74f4(0x279):'none')+_0x2f74f4(0x263)+_0x43929d+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x51cf30+_0x2f74f4(0x180)+_0x3e11e1+_0x2f74f4(0x2a1)+_0x10727c+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}_0x32c370[_0x2f74f4(0x22d)](_0x2f74f4(0x208))[_0x2f74f4(0x189)](_0x2f74f4(0x17e),()=>{const _0x134171=_0x2f74f4,_0x2b3b8e=window['imData'][_0x134171(0x278)]['find'](_0x205378=>_0x205378['id']==_0xf26e73['id']);if(_0x2b3b8e){if(window['imApp'][_0x134171(0x28b)])window[_0x134171(0x15c)][_0x134171(0x28b)](_0x2b3b8e);}else{if(window[_0x134171(0x19d)])window[_0x134171(0x19d)](_0x134171(0x2aa));}}),_0x47b36a[_0x2f74f4(0x276)](_0x32c370),window[_0x2f74f4(0x169)]['scrollToBottom'](_0x47b36a);}function _0x17fcd8(_0x3421ee,_0x58a08d,_0x531cdc,_0x246f1e=Date[_0x33c327(0x202)]()){const _0x5db96e=_0x33c327,_0x18f4ed=_0x3421ee[_0x5db96e(0x27b)]!==_0x5db96e(0x286),_0x2bb129=Array[_0x5db96e(0x238)](_0x531cdc[_0x5db96e(0x19c)])[_0x5db96e(0x1e7)](_0x89018=>!_0x89018['classList'][_0x5db96e(0x23d)](_0x5db96e(0x19a))&&!_0x89018[_0x5db96e(0x186)][_0x5db96e(0x23d)](_0x5db96e(0x1f3))&&!_0x89018['classList'][_0x5db96e(0x23d)](_0x5db96e(0x204))),_0xb3351f=_0x2bb129[_0x5db96e(0x1f2)]>0x0?_0x2bb129[_0x2bb129['length']-0x1]:null,_0x5431e2=!_0x18f4ed&&_0x58a08d[_0x5db96e(0x212)]===_0x5db96e(0x1de),_0x316ce6=_0x5431e2&&window[_0x5db96e(0x169)]['getSafeGroupSpeaker']?window[_0x5db96e(0x169)][_0x5db96e(0x1d8)](_0x58a08d,_0x3421ee[_0x5db96e(0x1c8)]||_0x3421ee[_0x5db96e(0x1a2)]):null,_0x5bb353=_0x5431e2?_0x316ce6&&_0x316ce6[_0x5db96e(0x227)]||_0x3421ee[_0x5db96e(0x1c8)]||_0x3421ee[_0x5db96e(0x1a2)]||_0x5db96e(0x25c):null,_0xd2f792=_0x316ce6&&_0x316ce6['avatarUrl']||_0x3421ee[_0x5db96e(0x182)]||null;let _0x550d74=![],_0x19a0b3=![];if(_0xb3351f){if(_0x18f4ed&&_0xb3351f['classList']['contains'](_0x5db96e(0x21a)))_0x550d74=!![],_0xb3351f['classList'][_0x5db96e(0x210)](_0x5db96e(0x188));else{if(!_0x18f4ed&&_0xb3351f[_0x5db96e(0x186)][_0x5db96e(0x23d)](_0x5db96e(0x297))){const _0x5d0667=_0xb3351f['getAttribute'](_0x5db96e(0x1e4))||null;if(_0x5431e2)_0x5d0667===_0x5bb353&&(_0x550d74=!![],_0x19a0b3=!![],_0xb3351f[_0x5db96e(0x186)][_0x5db96e(0x210)](_0x5db96e(0x188)));else!_0x5d0667&&(_0x550d74=!![],_0x19a0b3=!![],_0xb3351f[_0x5db96e(0x186)][_0x5db96e(0x210)]('has-next'));}}}const _0xb737ab=document['createElement'](_0x5db96e(0x1c1));_0xb737ab[_0x5db96e(0x1da)]=_0x5db96e(0x1c5)+(_0x18f4ed?_0x5db96e(0x21a):_0x5db96e(0x297))+'\x20'+(_0x550d74?'has-prev':'')+'\x20'+(_0x5431e2?'group-ai-row':'')+'\x20'+(_0x5431e2&&_0x19a0b3?'group-ai-row-continuous':''),_0xb737ab[_0x5db96e(0x163)](_0x5db96e(0x1a4),_0x246f1e),_0xb737ab[_0x5db96e(0x163)](_0x5db96e(0x166),window[_0x5db96e(0x169)][_0x5db96e(0x1e9)](_0x3421ee,_0x5db96e(0x253)));_0x5bb353&&_0xb737ab['setAttribute'](_0x5db96e(0x1e4),_0x5bb353);const _0x1b1b22=String(_0x3421ee[_0x5db96e(0x1d0)]||_0x3421ee[_0x5db96e(0x219)]||'')[_0x5db96e(0x2a0)](),_0xc9702b=Math['min'](0x12,Math[_0x5db96e(0x16e)](0x3,Math[_0x5db96e(0x192)](_0x1b1b22[_0x5db96e(0x1f2)]/0x3))),_0x150988=Math[_0x5db96e(0x290)](0x12,Math[_0x5db96e(0x16e)](0x3,Number(_0x3421ee['duration'])||_0xc9702b)),_0x173fa2=_0x41360a(_0x1b1b22||_0x5db96e(0x25f)),_0x363ba7=String(_0x3421ee[_0x5db96e(0x15f)]||'')[_0x5db96e(0x2a0)](),_0x50108e=typeof window['formatChatBubbleTime']==='function'?window[_0x5db96e(0x1f7)](_0x246f1e):((()=>{const _0x3720e5=_0x5db96e,_0x2cf312=new Date(_0x246f1e);return _0x2cf312[_0x3720e5(0x206)]()+':'+_0x2cf312['getMinutes']()['toString']()[_0x3720e5(0x18b)](0x2,'0');})()),_0x4bfa73='',_0x49f367=!_0x18f4ed?_0x460c65(_0x3421ee['offlineAction']):'',_0x327c26=_0x49f367?_0x5db96e(0x292)+_0x41360a(_0x49f367)+'）</span>':'',_0x458b8f=_0x5db96e(0x159)+_0x327c26+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22voice-message-bubble-inner\x22\x20aria-expanded=\x22false\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22voice-message-mic\x22><i\x20class=\x22fas\x20fa-microphone-alt\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22voice-message-wave\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span><span></span><span></span><span></span><span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22voice-message-duration\x22>'+_0x150988+_0x5db96e(0x244)+_0x173fa2+_0x5db96e(0x171)+(_0x363ba7&&_0x3421ee[_0x5db96e(0x289)]?'<div\x20class=\x22msg-translation\x22\x20style=\x22margin-top:\x206px;\x20padding-top:\x206px;\x20border-top:\x201px\x20solid\x20'+(_0x18f4ed?_0x5db96e(0x191):_0x5db96e(0x19b))+_0x5db96e(0x15d)+(_0x18f4ed?_0x5db96e(0x25b):'#8e8e93')+_0x5db96e(0x239)+_0x41360a(_0x363ba7)+_0x5db96e(0x207):'')+_0x5db96e(0x159)+_0x4bfa73+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x488b9d=_0x5db96e(0x1e1)+(_0x18f4ed?_0x5db96e(0x28f):_0x5db96e(0x1be))+'\x20voice-message-bubble\x22>'+_0x458b8f+_0x5db96e(0x207);let _0x1d854b=_0x488b9d;if(_0x5431e2){const _0x33e9a3=String(_0x5bb353)[_0x5db96e(0x2a0)]()[_0x5db96e(0x19f)](0x0)||'?',_0x35ecfc=_0xd2f792?'<img\x20src=\x22'+_0xd2f792+_0x5db96e(0x1d5):_0x5db96e(0x1ee)+_0x41360a(_0x33e9a3)+_0x5db96e(0x207);_0x1d854b='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x19a0b3?'':_0x5db96e(0x17f)+_0x41360a(_0x5bb353)+_0x5db96e(0x207))+_0x5db96e(0x195)+(_0x19a0b3?_0x5db96e(0x1a1):_0x35ecfc)+_0x5db96e(0x18c)+_0x488b9d+_0x5db96e(0x173);}const _0x4fa403=_0x34171a(_0x18f4ed,_0x58a08d,_0x246f1e,_0x5bb353,_0xd2f792,_0x550d74);_0xb737ab[_0x5db96e(0x2b2)]=_0x5db96e(0x20e)+(window[_0x5db96e(0x28e)][_0x5db96e(0x1b6)]?'flex':_0x5db96e(0x262))+_0x5db96e(0x205)+_0x246f1e+_0x5db96e(0x294)+_0x4fa403+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20'+(_0x18f4ed?_0x5db96e(0x1f6):_0x5db96e(0x288))+_0x5db96e(0x1c6)+_0x1d854b+_0x5db96e(0x198);const _0x5b2d97=_0xb737ab[_0x5db96e(0x22d)]('.voice-message-bubble-inner'),_0x2d20eb=_0xb737ab[_0x5db96e(0x22d)]('.voice-message-transcript');_0x5b2d97&&_0x2d20eb&&_0x5b2d97['addEventListener'](_0x5db96e(0x17e),async _0x33b218=>{const _0x221fac=_0x5db96e;_0x33b218['preventDefault'](),_0x33b218[_0x221fac(0x16b)]();const _0x1e2f2b=_0x2d20eb[_0x221fac(0x29a)];_0x2d20eb[_0x221fac(0x29a)]=!_0x1e2f2b,_0x5b2d97[_0x221fac(0x163)](_0x221fac(0x1ed),_0x1e2f2b?_0x221fac(0x298):_0x221fac(0x1f4));if(_0x1e2f2b&&window['u2MinimaxTts']&&typeof window[_0x221fac(0x1af)][_0x221fac(0x20f)]==='function')try{const _0x37934d=_0x3421ee&&typeof _0x3421ee==='object'?_0x3421ee:{},_0x3cc16d=await window[_0x221fac(0x1af)]['speakTextCached'](_0x1b1b22,_0x58a08d,_0x37934d);_0x3cc16d&&_0x3421ee&&typeof _0x3421ee===_0x221fac(0x28a)&&!_0x3421ee[_0x221fac(0x16a)]&&window[_0x221fac(0x15c)]?.[_0x221fac(0x245)]&&await window[_0x221fac(0x15c)][_0x221fac(0x245)](_0x58a08d['id'],{'id':_0x3421ee['id']||_0xb737ab[_0x221fac(0x1aa)](_0x221fac(0x166))||null,'timestamp':_0xb737ab[_0x221fac(0x1aa)](_0x221fac(0x1a4))||_0x246f1e||null},_0x5299f5=>{const _0x398ddd=_0x221fac;if(_0x5299f5)_0x5299f5[_0x398ddd(0x16a)]=_0x3cc16d;},{'silent':!![]});}catch(_0x153bfa){console['error'](_0x221fac(0x152),_0x153bfa);if(window[_0x221fac(0x19d)])window['showToast'](_0x221fac(0x2ae));}}),!_0x18f4ed&&_0x3421ee[_0x5db96e(0x1eb)]&&_0x38eca4(_0x3421ee[_0x5db96e(0x1eb)],_0x531cdc,_0x246f1e),_0x531cdc[_0x5db96e(0x276)](_0xb737ab),window['imChat'][_0x5db96e(0x175)](_0x531cdc);}function _0x170a2a(_0x58f96a,_0x2ac85f,_0x134d4d,_0x153934=Date['now']()){const _0x2cb94b=_0x33c327,_0x5f30c9=_0x58f96a[_0x2cb94b(0x27b)]!==_0x2cb94b(0x286),_0x530abb=Array['from'](_0x134d4d[_0x2cb94b(0x19c)])[_0x2cb94b(0x1e7)](_0x2415ce=>!_0x2415ce[_0x2cb94b(0x186)]['contains'](_0x2cb94b(0x19a))&&!_0x2415ce[_0x2cb94b(0x186)][_0x2cb94b(0x23d)]('typing-row')),_0x223ad0=_0x530abb[_0x2cb94b(0x1f2)]>0x0?_0x530abb[_0x530abb[_0x2cb94b(0x1f2)]-0x1]:null,_0x20601e=!_0x5f30c9&&_0x2ac85f[_0x2cb94b(0x212)]===_0x2cb94b(0x1de),_0x1d6073=_0x20601e&&window['imChat'][_0x2cb94b(0x1d8)]?window[_0x2cb94b(0x169)][_0x2cb94b(0x1d8)](_0x2ac85f,_0x58f96a[_0x2cb94b(0x1c8)]||_0x58f96a[_0x2cb94b(0x1a2)]):null,_0x5b1708=_0x20601e?_0x1d6073&&_0x1d6073[_0x2cb94b(0x227)]||_0x58f96a[_0x2cb94b(0x1c8)]||_0x58f96a[_0x2cb94b(0x1a2)]||'Group\x20member':null,_0x391615=_0x1d6073&&_0x1d6073[_0x2cb94b(0x1e2)]||_0x58f96a[_0x2cb94b(0x182)]||null;let _0x503d8e=![],_0x1468f8=![];if(_0x223ad0){if(_0x5f30c9&&_0x223ad0[_0x2cb94b(0x186)][_0x2cb94b(0x23d)](_0x2cb94b(0x21a)))_0x503d8e=!![],_0x223ad0['classList'][_0x2cb94b(0x210)]('has-next');else{if(!_0x5f30c9&&_0x223ad0[_0x2cb94b(0x186)]['contains'](_0x2cb94b(0x297))){const _0x4fea72=_0x223ad0[_0x2cb94b(0x1aa)](_0x2cb94b(0x1e4))||null;if(_0x20601e)_0x4fea72===_0x5b1708&&(_0x503d8e=!![],_0x1468f8=!![],_0x223ad0[_0x2cb94b(0x186)][_0x2cb94b(0x210)](_0x2cb94b(0x188)));else!_0x4fea72&&(_0x503d8e=!![],_0x1468f8=!![],_0x223ad0[_0x2cb94b(0x186)]['add'](_0x2cb94b(0x188)));}}}const _0x382745=document[_0x2cb94b(0x1b1)](_0x2cb94b(0x1c1));_0x382745[_0x2cb94b(0x1da)]=_0x2cb94b(0x1c5)+(_0x5f30c9?'user-row':_0x2cb94b(0x297))+'\x20'+(_0x503d8e?_0x2cb94b(0x1dd):'')+'\x20'+(_0x20601e?_0x2cb94b(0x2b7):'')+'\x20'+(_0x20601e&&_0x1468f8?_0x2cb94b(0x170):''),_0x382745[_0x2cb94b(0x163)](_0x2cb94b(0x1a4),_0x153934),_0x382745[_0x2cb94b(0x163)](_0x2cb94b(0x166),window[_0x2cb94b(0x169)][_0x2cb94b(0x1e9)](_0x58f96a,_0x2cb94b(0x1f0)));_0x5b1708&&_0x382745['setAttribute'](_0x2cb94b(0x1e4),_0x5b1708);const _0x56c81a=String(_0x58f96a[_0x2cb94b(0x1a7)]||_0x58f96a[_0x2cb94b(0x15a)]||'')[_0x2cb94b(0x2a0)](),_0x4ce5b5=String(_0x58f96a[_0x2cb94b(0x1d3)]||_0x58f96a[_0x2cb94b(0x219)]||_0x2cb94b(0x257))[_0x2cb94b(0x2a0)](),_0x1247fb=typeof window['formatChatBubbleTime']==='function'?window[_0x2cb94b(0x1f7)](_0x153934):((()=>{const _0x443a5c=_0x2cb94b,_0x9114f7=new Date(_0x153934);return _0x9114f7[_0x443a5c(0x206)]()+':'+_0x9114f7[_0x443a5c(0x23c)]()[_0x443a5c(0x1bf)]()[_0x443a5c(0x18b)](0x2,'0');})()),_0x3ba4b8='',_0x22a43f=_0x2cb94b(0x281)+_0x41360a(_0x4ce5b5)+_0x2cb94b(0x268)+_0x41360a(_0x56c81a)+_0x2cb94b(0x2b4)+_0x41360a(_0x4ce5b5)+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x3ba4b8+_0x2cb94b(0x153);let _0x30fc4b=_0x22a43f;if(_0x20601e){const _0x18abe9=String(_0x5b1708)[_0x2cb94b(0x2a0)]()[_0x2cb94b(0x19f)](0x0)||'?',_0x556f1d=_0x391615?'<img\x20src=\x22'+_0x41360a(_0x391615)+_0x2cb94b(0x1d5):_0x2cb94b(0x1ee)+_0x41360a(_0x18abe9)+_0x2cb94b(0x207);_0x30fc4b=_0x2cb94b(0x1fb)+(_0x1468f8?'':'<div\x20class=\x22group-ai-speaker-name\x22>'+_0x41360a(_0x5b1708)+'</div>')+_0x2cb94b(0x195)+(_0x1468f8?'<div\x20class=\x22group-ai-avatar-placeholder\x22></div>':_0x556f1d)+_0x2cb94b(0x18c)+_0x22a43f+_0x2cb94b(0x173);}const _0x1296dd=_0x34171a(_0x5f30c9,_0x2ac85f,_0x153934,_0x5b1708,_0x391615,_0x503d8e);_0x382745[_0x2cb94b(0x2b2)]=_0x2cb94b(0x20e)+(window[_0x2cb94b(0x28e)][_0x2cb94b(0x1b6)]?'flex':_0x2cb94b(0x262))+_0x2cb94b(0x205)+_0x153934+_0x2cb94b(0x294)+_0x1296dd+_0x2cb94b(0x27e)+(_0x5f30c9?'flex-end':_0x2cb94b(0x288))+_0x2cb94b(0x1c6)+_0x30fc4b+_0x2cb94b(0x198),_0x134d4d[_0x2cb94b(0x276)](_0x382745),window[_0x2cb94b(0x169)][_0x2cb94b(0x175)](_0x134d4d);}window[_0x33c327(0x169)][_0x33c327(0x265)]=_0x578e03,window[_0x33c327(0x169)][_0x33c327(0x283)]=_0x135ecc,window[_0x33c327(0x169)][_0x33c327(0x26d)]=_0x170a2a,window[_0x33c327(0x169)][_0x33c327(0x20c)]=_0x4df2cb,window[_0x33c327(0x169)][_0x33c327(0x174)]=_0x4432f9,window[_0x33c327(0x169)]['replaceMessageInContainer']=_0x45509f,window[_0x33c327(0x169)][_0x33c327(0x242)]=_0x2c5b03,window[_0x33c327(0x169)][_0x33c327(0x1f9)]=_0x29edc9,window[_0x33c327(0x169)][_0x33c327(0x291)]=_0x3a18db,window['imChat']['scrollToBottom']=_0x5ec210,window[_0x33c327(0x169)][_0x33c327(0x19e)]=_0x58efed,window[_0x33c327(0x169)]['renderOfflineSceneText']=_0x38eca4,window[_0x33c327(0x169)][_0x33c327(0x29c)]=_0x1fa8f7,window[_0x33c327(0x169)]['renderAiBubble']=_0x3800c5,window[_0x33c327(0x169)]['renderImageBubble']=_0x2b024b,window['imChat'][_0x33c327(0x264)]=_0x11f454,window[_0x33c327(0x169)][_0x33c327(0x16f)]=_0x17fcd8;function _0x44ee4d(_0x307366,_0x198586,_0x255ccd,_0x4f6f0f=Date[_0x33c327(0x202)]()){const _0x15a107=_0x33c327,_0x4d6b7c=_0x307366[_0x15a107(0x27b)]===_0x15a107(0x23e),_0x29627f=_0x255ccd['lastElementChild'];let _0x3f6d27=![];if(_0x29627f){if(_0x4d6b7c&&_0x29627f[_0x15a107(0x186)][_0x15a107(0x23d)](_0x15a107(0x21a)))_0x3f6d27=!![],_0x29627f['classList']['add']('has-next');else!_0x4d6b7c&&_0x29627f[_0x15a107(0x186)][_0x15a107(0x23d)](_0x15a107(0x297))&&(_0x3f6d27=!![],_0x29627f[_0x15a107(0x186)][_0x15a107(0x210)](_0x15a107(0x188)));}const _0xd611ba=document['createElement'](_0x15a107(0x1c1));_0xd611ba[_0x15a107(0x1da)]='chat-row\x20'+(_0x4d6b7c?'user-row':_0x15a107(0x297))+'\x20'+(_0x3f6d27?'has-prev':''),_0xd611ba['setAttribute'](_0x15a107(0x1a4),_0x4f6f0f),_0xd611ba['setAttribute'](_0x15a107(0x166),window[_0x15a107(0x169)][_0x15a107(0x1e9)](_0x307366,_0x15a107(0x154)));const _0x526b00=_0x307366[_0x15a107(0x15a)]||_0x307366[_0x15a107(0x219)]||'',_0x1bbda1=_0x34171a(_0x4d6b7c,_0x198586,_0x4f6f0f,null,null,_0x3f6d27),_0x54a361=new Date(_0x4f6f0f),_0x1e62fb=typeof window[_0x15a107(0x1f7)]===_0x15a107(0x1d9)?window[_0x15a107(0x1f7)](_0x4f6f0f):_0x54a361[_0x15a107(0x206)]()+':'+_0x54a361['getMinutes']()[_0x15a107(0x1bf)]()['padStart'](0x2,'0');if(_0x4d6b7c){const _0x523943='';_0xd611ba[_0x15a107(0x2b2)]=_0x15a107(0x27f)+(window[_0x15a107(0x28e)]['batchSelectMode']?_0x15a107(0x279):_0x15a107(0x262))+_0x15a107(0x263)+_0x4f6f0f+'\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1bbda1+_0x15a107(0x2a9)+_0x526b00+_0x15a107(0x203)+_0x523943+_0x15a107(0x1f1);}else{const _0x134a27='';_0xd611ba[_0x15a107(0x2b2)]=_0x15a107(0x27f)+(window[_0x15a107(0x28e)][_0x15a107(0x1b6)]?_0x15a107(0x279):_0x15a107(0x262))+_0x15a107(0x263)+_0x4f6f0f+_0x15a107(0x254)+_0x1bbda1+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20html-bubble\x22\x20style=\x22position:\x20relative;\x20background:\x20transparent;\x20padding:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x526b00+_0x15a107(0x17b)+_0x134a27+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}_0x255ccd['appendChild'](_0xd611ba),window[_0x15a107(0x169)][_0x15a107(0x175)](_0x255ccd);}function _0x5a3fe8(_0x19a28a,_0x3f21e2,_0x5529bf,_0x56b544=Date['now']()){const _0x5aee99=_0x33c327,_0x5b5b32=_0x19a28a[_0x5aee99(0x27b)]==='system',_0x40dcb2=_0x19a28a[_0x5aee99(0x185)]===(window[_0x5aee99(0x28e)][_0x5aee99(0x196)]?window[_0x5aee99(0x28e)][_0x5aee99(0x196)]['id']:'me')||_0x19a28a['senderId']===_0x5aee99(0x1e8)||_0x5b5b32;if(_0x5b5b32&&_0x3f21e2[_0x5aee99(0x212)]===_0x5aee99(0x1de)){const _0xc928d3=document['createElement']('div');_0xc928d3[_0x5aee99(0x1da)]='chat-system-row',_0xc928d3['setAttribute'](_0x5aee99(0x1a4),_0x56b544),_0xc928d3[_0x5aee99(0x163)](_0x5aee99(0x166),window[_0x5aee99(0x169)][_0x5aee99(0x1e9)](_0x19a28a,_0x5aee99(0x275))),_0xc928d3[_0x5aee99(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20display:flex;\x20justify-content:center;\x20padding:2px\x200;\x20margin:\x2010px\x200;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22voice-call-record-card\x22\x20style=\x22max-width:80%;\x20padding:10px\x2016px;\x20border-radius:18px;\x20background:rgba(0,0,0,0.05);\x20color:#000;\x20font-size:13px;\x20line-height:1.4;\x20text-align:center;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-phone-alt\x22\x20style=\x22color:\x20#34c759;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+(_0x19a28a[_0x5aee99(0x272)]||_0x5aee99(0x27a))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0x5e423c=_0xc928d3[_0x5aee99(0x22d)](_0x5aee99(0x18a));_0x5e423c&&_0x5e423c[_0x5aee99(0x189)]('click',_0x194078=>{const _0x118c73=_0x5aee99;_0x194078[_0x118c73(0x1bb)](),_0x194078[_0x118c73(0x16b)](),window[_0x118c73(0x169)]&&window[_0x118c73(0x169)][_0x118c73(0x261)]&&window[_0x118c73(0x169)][_0x118c73(0x261)](_0x19a28a);});_0x5529bf[_0x5aee99(0x276)](_0xc928d3),window[_0x5aee99(0x169)][_0x5aee99(0x175)](_0x5529bf);return;}const _0x10bfda=document[_0x5aee99(0x1b1)]('div');_0x10bfda['className']=_0x5aee99(0x1c5)+(_0x40dcb2?'user-row':_0x5aee99(0x297)),_0x10bfda['setAttribute'](_0x5aee99(0x1a4),_0x56b544),_0x10bfda['setAttribute'](_0x5aee99(0x166),window[_0x5aee99(0x169)][_0x5aee99(0x1e9)](_0x19a28a,_0x5aee99(0x267)));const _0x1107ff=_0x19a28a['duration']||0x0,_0x8afb37=Math[_0x5aee99(0x2a4)](_0x1107ff/0x3c)[_0x5aee99(0x1bf)]()[_0x5aee99(0x18b)](0x2,'0'),_0x57da51=(_0x1107ff%0x3c)[_0x5aee99(0x1bf)]()[_0x5aee99(0x18b)](0x2,'0'),_0x2b2fc9=_0x8afb37+':'+_0x57da51,_0x17cc29=_0x19a28a[_0x5aee99(0x1d6)]?_0x5aee99(0x22f):'语音通话',_0xd22a48=_0x19a28a[_0x5aee99(0x272)]||_0x5aee99(0x1fd);let _0x2bd8ea='';_0xd22a48===_0x5aee99(0x25d)||_0xd22a48===_0x5aee99(0x17d)?_0x2bd8ea=_0x5aee99(0x228)+_0xd22a48+_0x5aee99(0x207):_0x2bd8ea=_0x5aee99(0x246)+_0x2b2fc9+_0x5aee99(0x207);const _0xef7ba3=_0x5aee99(0x224)+(_0x40dcb2?_0x5aee99(0x190):_0x5aee99(0x271))+';\x20border-radius:\x2018px;\x20cursor:\x20pointer;\x20color:\x20#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x2016px;\x20background:\x20'+(_0xd22a48===_0x5aee99(0x25d)||_0xd22a48==='已取消'?_0x5aee99(0x25e):_0x5aee99(0x270))+_0x5aee99(0x2ac)+_0x17cc29+_0x5aee99(0x156)+_0x2bd8ea+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x535d74=typeof window[_0x5aee99(0x1f7)]===_0x5aee99(0x1d9)?window['formatChatBubbleTime'](_0x56b544):((()=>{const _0x8d740f=_0x5aee99,_0x2c6f7e=new Date(_0x56b544);return _0x2c6f7e[_0x8d740f(0x206)]()+':'+_0x2c6f7e[_0x8d740f(0x23c)]()[_0x8d740f(0x1bf)]()[_0x8d740f(0x18b)](0x2,'0');})()),_0x482156=_0x34171a(_0x40dcb2,_0x3f21e2,_0x56b544,null,null,![]);if(_0x40dcb2){const _0x435f60='';_0x10bfda[_0x5aee99(0x2b2)]=_0x5aee99(0x2b3)+_0x482156+_0x5aee99(0x2a5)+_0xef7ba3+_0x435f60+_0x5aee99(0x1ac);}else{const _0xb2ad99='';_0x10bfda[_0x5aee99(0x2b2)]=_0x5aee99(0x2b3)+_0x482156+_0x5aee99(0x20d)+_0xef7ba3+_0xb2ad99+_0x5aee99(0x1ac);}const _0x16b5fb=_0x10bfda[_0x5aee99(0x22d)](_0x5aee99(0x18a));_0x16b5fb&&_0x16b5fb[_0x5aee99(0x189)](_0x5aee99(0x17e),_0x4a518a=>{const _0xdf635d=_0x5aee99;_0x4a518a[_0xdf635d(0x1bb)](),_0x4a518a[_0xdf635d(0x16b)](),window[_0xdf635d(0x169)]&&window[_0xdf635d(0x169)][_0xdf635d(0x261)]&&window[_0xdf635d(0x169)]['openVoiceCallDetail'](_0x19a28a);}),_0x5529bf[_0x5aee99(0x276)](_0x10bfda),window[_0x5aee99(0x169)][_0x5aee99(0x175)](_0x5529bf);}window[_0x33c327(0x169)][_0x33c327(0x187)]=_0x28beb6,window['imChat']['renderVoiceCallRecordBubble']=_0x5a3fe8,window['imChat'][_0x33c327(0x213)]=_0x44ee4d;}));function _0x415c(){const _0xfcf3bd=['视频通话','\x20向\x20','paymentAction','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-desc\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20user-bubble\x20pay-transfer-bubble\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','<div\x20class=\x22msg-reply-quote\x22\x20style=\x22font-size:\x2013px;\x20color:\x20rgba(255,255,255,0.85);\x20background:\x20rgba(255,255,255,0.15);\x20padding:\x208px\x2012px;\x20border-radius:\x2014px;\x20margin-bottom:\x208px;\x20max-width:\x20100%;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20white-space:\x20nowrap;\x22>','2577090ADQmPS','User','from',';\x20line-height:\x201.4;\x20word-wrap:\x20break-word;\x20white-space:\x20normal;\x22>','ensureTransferDetailOverlayForExistingPage','replace','getMinutes','contains','user','Group\x20member','\x20的转账','totalAmount','removeMessageFromContainer','已退还\x20','s</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22voice-message-transcript\x22\x20hidden>','updateFriendMessage','<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x22>通话时长\x20','realName','支付凭证','Char','</span>','.pay-transfer-card','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-amount\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:4px;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20ai-bubble\x20pay-transfer-bubble\x22>','includes','lastElementChild','未找到聊天页面','offlineAction','voice','\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','claimed','亲属卡','Sticker','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-message-header\x20user-header\x22\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20width:\x20100%;\x20margin-bottom:\x204px;\x20padding-right:\x200px;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-info\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20flex-end;\x20justify-content:\x20center;\x20padding-right:\x2025px;\x20margin-bottom:\x200px;\x20margin-right:\x20-20px;\x20padding-bottom:\x200px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-name\x22\x20style=\x22font-size:\x2014px;\x20font-weight:\x20600;\x20color:\x20#333;\x20margin-bottom:\x202px;\x22>','visibleStartIndex','textContent','rgba(255,255,255,0.7)','群成员','已拒绝','#ff3b30','暂无转文字','.active-chat-interface','openVoiceCallDetail','none',';\x20width:\x2040px;\x20justify-content:\x20center;\x20align-items:\x20flex-end;\x20padding-bottom:\x2010px;\x20flex-shrink:\x200;\x20cursor:\x20pointer;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-circle\x20chat-checkbox\x22\x20data-timestamp=\x22','renderPayTransferBubble','renderSystemNoticeBubble','<span\x20class=\x22bubble-meta\x22><span\x20class=\x22bubble-time\x22>','call','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22sticker-message-img\x22\x20src=\x22','en-US','cursor','payKind','family_card_increase','renderStickerMessageBubble','rejected','remove','#34c759','#f2f2f7','statusText','chat-image-detail-overlay','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20ai-bubble\x22>','notice','appendChild','\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','moments','flex','群通话记录','role','_imIsRenderingHistory','src','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20','claimRecords','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sticker-message-wrap\x22\x20title=\x22','.chat-image-detail-sender','renderGroupRedPacketBubble','char_received','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22moment-forward-bubble\x22\x20style=\x22cursor:\x20pointer;\x20background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2012px;\x20\x20border:\x201px\x20solid\x20rgba(0,0,0,0.04);\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x20width:\x20220px;\x20text-align:\x20left;\x20margin:\x204px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2044px;\x20height:\x2044px;\x20border-radius:\x2012px;\x20background:\x20#1c1c1e;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20flex-shrink:\x200;\x20color:\x20#fff;\x20font-size:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-images\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#262626;\x20margin-bottom:\x202px;\x22>分享了动态</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>点击查看详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','assistant','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','flex-start','showTranslation','object','openMomentDetail','_imHistoryState','<div\x20class=\x22msg-translation\x22\x20style=\x22margin-top:\x206px;\x20padding-top:\x206px;\x20border-top:\x201px\x20solid\x20rgba(255,255,255,0.2);\x20font-size:\x2013px;\x20color:\x20rgba(255,255,255,0.7);\x20line-height:\x201.4;\x20word-wrap:\x20break-word;\x20white-space:\x20normal;\x22>','imData','user-bubble','min','renderChatHistory','<span\x20class=\x22chat-offline-action\x22>（','toFixed','\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','3086041TGBHFU','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20user-bubble\x22>','ai-row','true','char','hidden','\x20is-pending','renderUserBubble','392545cFwUdC','\x20is-income','.chat-image-detail-img','trim','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','）</span>','targetName','floor','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20user-bubble\x22\x20style=\x22padding:\x200;\x20background:\x20transparent;\x22>','name','charName','description','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20html-bubble\x22\x20style=\x22position:\x20relative;\x20background:\x20transparent;\x20padding:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','该朋友圈已删除或不存在','18JdDiZk',';\x20color:\x20#fff;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-phone-alt\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x22>','<div\x20class=\x22chat-bubble\x20ai-bubble\x20pay-transfer-bubble\x20group-red-packet-bubble\x22\x20style=\x22padding:6px;\x22>','语音播放失败','renderVoiceCallRecordBubble','currentActiveFriend','resetWindow','innerHTML','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20alt=\x22','轮\x20/\x20','<img\x20src=\x22','group-ai-row','Voice\x20message\x20playback\x20failed','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','html','find','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','isArray','group_red_packet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','content','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20','imApp',';\x20font-size:\x2013px;\x20color:\x20','_openGroupRedPacketInteraction','translation','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','isFinished','replyTo','setAttribute','messages','char_to_user','data-message-id','payerName','parse','imChat','minimaxAudioUrl','stopPropagation','.chat-row','data-thought','max','renderVoiceMessageBubble','group-ai-row-continuous','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20is-received','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appendMessageToContainer','scrollToBottom','chat-system-row','long','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','pay','voice_call_record','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20absolute;\x20bottom:\x208px;\x20right:\x20-25px;\x22>','pending','已取消','click','<div\x20class=\x22group-ai-speaker-name\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','已收取\x20','senderAvatarUrl','user_rejected_from_char','style','senderId','classList','renderMomentForwardBubble','has-next','addEventListener','.voice-call-record-card','padStart','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','pay_transfer','\x22\x20onerror=\x22this.src=\x27assets/moren.jpg\x27\x22\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x2050%;\x20object-fit:\x20cover;\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:10px;\x20font-size:26px;\x20font-weight:800;\x20color:#111;\x20letter-spacing:0.2px;\x22>¥','#e5e5ea','rgba(255,255,255,0.2)','ceil','条更早消息</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','DOMContentLoaded','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-avatar-slot\x22>','currentUser','closest','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','slice','chat-timestamp','rgba(0,0,0,0.1)','children','showToast','renderTimestamp','charAt','450756KwYcqL','<div\x20class=\x22group-ai-avatar-placeholder\x22></div>','senderName','assets/moren.jpg','data-timestamp','friendId','499980eDJYLw','stickerUrl','createMessageId','display','getAttribute','resolvePayTransferParties','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.chat-image-bubble-img','receiverName','u2MinimaxTts','&#039;','createElement','target','isFinite','CHAT_IMAGE_PLACEHOLDER_URL','msg','batchSelectMode','position:fixed;\x20inset:0;\x20z-index:99999;\x20display:none;\x20align-items:center;\x20justify-content:center;\x20background:rgba(0,0,0,0.55);\x20padding:20px;\x20box-sizing:border-box;','\x22\x20onerror=\x22this.src=\x27assets/moren.jpg\x27\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-info\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20flex-start;\x20justify-content:\x20center;\x20padding-left:\x2025px;\x20margin-bottom:\x200px;\x20margin-left:\x20-20px;\x20padding-bottom:\x200px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-header-name\x22\x20style=\x22font-size:\x2014px;\x20font-weight:\x20600;\x20color:\x20#333;\x20margin-bottom:\x202px;\x22>','currentUserClaimed','<div\x20class=\x22msg-reply-quote\x22\x20style=\x22font-size:\x2013px;\x20color:\x20rgba(0,0,0,0.6);\x20background:\x20rgba(0,0,0,0.05);\x20padding:\x208px\x2012px;\x20border-radius:\x2014px;\x20margin-bottom:\x208px;\x20max-width:\x20100%;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20white-space:\x20nowrap;\x22>','preventDefault','userState','.chat-bubble.pay-transfer-bubble','ai-bubble','toString','2900928tpAzIX','div','image','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-end;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20user-bubble\x20pay-transfer-bubble\x20group-red-packet-bubble\x22\x20style=\x22padding:6px;\x22>','numeric','chat-row\x20',';\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','showAvatar','speaker','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-top\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-icon\x22><i\x20class=\x22fas\x20fa-wallet\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-card-title\x22>','forEach','formatTime','.chat-image-detail-close','chat-row','</span></span>','packetCount','transcript','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22chat-history-load-more-title\x22>查看更多历史记录</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22chat-history-load-more-meta\x22>','stickerName','点击领取红包','\x22\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x2050%;\x20object-fit:\x20cover;\x22>','isVideo','cssText','getSafeGroupSpeaker','function','className','normalizePayTransferMessage','scrollHeight','has-prev','group','button','moment_forward','<div\x20class=\x22chat-bubble\x20','avatarUrl','user_to_char_rejected','data-speaker','\x20已领取','moment','filter','__user__','ensureMessageId','user_received_from_char','offlineScene','1508852IqXhWJ','aria-expanded','<div\x20class=\x22chat-avatar-small\x22>','chat-row\x20user-row\x20','sticker','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','length','typing-row','false','暂无图片描述','flex-end','formatChatBubbleTime','payeeName','rerenderChatContainer','nextElementSibling','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-ai-bubble-wrap\x20sticker-group-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','chat-history-loader','通话记录','.group-red-packet-card','user_to_char','cardTitle','.chat-image-detail-desc','now','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20absolute;\x20bottom:\x208px;\x20right:\x20-30px;\x22>','chat-offline-scene-row',';\x20width:\x2040px;\x20justify-content:\x20center;\x20align-items:\x20flex-end;\x20padding-bottom:\x2010px;\x20flex-shrink:\x200;\x20cursor:\x20pointer;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-circle\x20chat-checkbox\x22\x20data-timestamp=\x22','getHours','</div>','.moment-forward-bubble','renderAiBubble','char_to_user_pending','totalMessages','renderMessageBubble','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20flex-start;\x20align-items:\x20flex-end;\x20width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20ai-bubble\x22\x20style=\x22padding:\x200;\x20background:\x20transparent;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-checkbox-wrapper\x22\x20style=\x22display:\x20','speakTextCached','add','\x22\x20style=\x22width:\x20min(56vw,\x20200px);\x20height:\x20min(56vw,\x20200px);\x20max-width:\x20200px;\x20max-height:\x20200px;\x20aspect-ratio:\x201\x20/\x201;\x20border-radius:\x2012px;\x20object-fit:\x20cover;\x20display:\x20block;\x20background:\x20#e5e5ea;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','type','renderHtmlBubble','\x22\x20onerror=\x22this.src=\x27assets/moren.jpg\x27\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','_openTransferDetailOverlay','normalizeGroupRedPacketState','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','payDirection','text','user-row','收款通知','scroll','[解析错误]','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:28px;\x20font-weight:bold;\x20color:#111;\x20margin-bottom:12px;\x22>','</span><i\x20class=\x22fas\x20fa-check\x20bubble-read-icon\x22></i></span>','querySelectorAll','char_to_user_rejected','family_card','char_to_user_claimed','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22voice-call-record-card\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x20padding:\x2010px\x2014px;\x20background:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20display:flex;\x20justify-content:center;\x20padding:2px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22max-width:80%;\x20padding:7px\x2012px;\x20border-radius:999px;\x20background:rgba(142,142,147,0.16);\x20color:#8e8e93;\x20font-size:12px;\x20line-height:1.35;\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','timestamp','nickname','<div\x20style=\x22font-size:\x2013px;\x20color:\x20#ff3b30;\x20margin-top:\x202px;\x20font-weight:\x20500;\x22>','已退还','Payment','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-bubble\x20ai-bubble\x20pay-transfer-bubble\x20group-red-packet-bubble\x22\x20style=\x22padding:6px;\x22>','voice_message','querySelector',';\x20width:\x2040px;\x20justify-content:\x20center;\x20align-items:\x20flex-end;\x20padding-bottom:\x2010px;\x20flex-shrink:\x200;\x20cursor:\x20pointer;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-circle\x20chat-checkbox\x22\x20data-timestamp=\x22'];_0x415c=function(){return _0xfcf3bd;};return _0x415c();}
+// ==========================================
+// IMESSAGE: 4_chat_bubbles.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const { apiConfig, userState } = window;
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+    const INITIAL_HISTORY_USER_ROUNDS = 30;
+    const HISTORY_LOAD_MORE_USER_ROUNDS = 10;
+
+    function escapeHtml(value) {
+        return String(value == null ? '' : value)
+            .replace(/&/g, '&')
+            .replace(/</g, '<')
+            .replace(/>/g, '>')
+            .replace(/"/g, '"')
+            .replace(/'/g, '&#039;');
+    }
+
+    function resolvePayTransferParties(msg = {}, friend = null) {
+        if (typeof window.imChat.normalizePayTransferMessage === 'function') {
+            return window.imChat.normalizePayTransferMessage(msg, friend);
+        }
+
+        if (typeof window.imChat.resolvePayTransferParties === 'function') {
+            return window.imChat.resolvePayTransferParties(msg, friend);
+        }
+
+        const payKind = msg.payKind || (msg.role === 'user' ? 'user_to_char' : 'char_received');
+        const userName = userState?.name || userState?.realName || userState?.nickname || 'User';
+        const charName = msg.speaker || msg.charName || friend?.nickname || friend?.realName || friend?.name || 'Char';
+        const targetName = msg.targetName || '';
+        const charToUserKinds = ['char_to_user_pending', 'char_to_user_claimed', 'user_received_from_char', 'user_rejected_from_char'];
+        const claimedKinds = ['char_received', 'char_to_user_claimed', 'user_received_from_char'];
+        const rejectedKinds = ['user_to_char_rejected', 'char_to_user_rejected', 'user_rejected_from_char'];
+        const direction = msg.payDirection === 'char_to_user' || msg.payDirection === 'user_to_char'
+            ? msg.payDirection
+            : (charToUserKinds.includes(payKind) ? 'char_to_user' : 'user_to_char');
+        let status = rejectedKinds.includes(payKind)
+            ? 'rejected'
+            : (claimedKinds.includes(payKind) ? 'claimed' : 'pending');
+        if (status === 'pending' && msg.claimed) status = 'claimed';
+        let payerName = msg.payerName || '';
+        let payeeName = msg.payeeName || '';
+
+        if (direction === 'char_to_user') {
+            payerName = payerName || msg.senderName || targetName || charName;
+            payeeName = payeeName || msg.receiverName || userName;
+        } else {
+            payerName = payerName || msg.senderName || userName;
+            payeeName = payeeName || msg.receiverName || (targetName && targetName !== userName ? targetName : charName);
+        }
+
+        const payerType = direction === 'user_to_char' ? 'user' : 'char';
+        const payeeType = direction === 'user_to_char' ? 'char' : 'user';
+
+        return {
+            payKind,
+            direction,
+            status,
+            payerName,
+            payeeName,
+            payerType,
+            payeeType,
+            canCurrentUserClaim: direction === 'char_to_user' && status === 'pending' && !msg.claimed,
+            senderName: payerName,
+            receiverName: payeeName,
+            senderType: payerType,
+            receiverType: payeeType,
+            isUserSender: payerType === 'user'
+        };
+    }
+
+    function buildMessageHeaderHtml(isUser, friend, timestamp, speakerName, speakerAvatar, hasPrev) {
+        if (!friend || !friend.showAvatar || hasPrev) return '';
+        const date = new Date(timestamp);
+        const dateStr = date.toLocaleString('en-US', { month: 'long', day: 'numeric' });
+        const ampmTimeStr = date.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+        
+        if (isUser) {
+            const userName = window.userState?.name || window.userState?.realName || 'User';
+            const userAvatar = window.userState?.avatarUrl || 'assets/moren.jpg';
+            return `
+                <div class="chat-message-header user-header" style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 4px; padding-right: 0px; align-items: flex-start;">
+                    <div class="chat-header-info" style="display: flex; flex-direction: column; align-items: flex-end; justify-content: center; padding-right: 25px; margin-bottom: 0px; margin-right: -20px; padding-bottom: 0px;">
+                        <div class="chat-header-name" style="font-size: 14px; font-weight: 600; color: #333; margin-bottom: 2px;">${userName}</div>
+                        <div class="chat-header-date" style="font-size: 12px; color: #888;">${dateStr} ${ampmTimeStr}</div>
+                    </div>
+                    <div class="chat-header-avatar" style="width: 44px; height: 44px; border-radius: 50%; overflow: hidden; border: 1px solid #eee; z-index: 2; background: #fff; flex-shrink: 0;">
+                        <img src="${userAvatar}" onerror="this.src='assets/moren.jpg'" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            `;
+        } else {
+            const aiName = speakerName || friend.nickname || friend.realName || 'AI';
+            const aiAvatar = speakerAvatar || friend.avatarUrl || 'assets/moren.jpg';
+            return `
+                <div class="chat-message-header ai-header" style="display: flex; justify-content: flex-start; width: 100%; margin-bottom: 4px; padding-left: 0px; align-items: flex-start;">
+                    <div class="chat-header-avatar" style="width: 44px; height: 44px; border-radius: 50%; overflow: hidden; border: 1px solid #eee; z-index: 2; background: #fff; flex-shrink: 0;">
+                        <img src="${aiAvatar}" onerror="this.src='assets/moren.jpg'" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="chat-header-info" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding-left: 25px; margin-bottom: 0px; margin-left: -20px; padding-bottom: 0px;">
+                        <div class="chat-header-name" style="font-size: 14px; font-weight: 600; color: #333; margin-bottom: 2px;">${aiName}</div>
+                        <div class="chat-header-date" style="font-size: 12px; color: #888;">${dateStr} ${ampmTimeStr}</div>
+                    </div>
+                </div>
+            `;
+        }
+    }
+
+function renderSystemNoticeBubble(msg, friend, container, timestamp = Date.now()) {
+        const row = document.createElement('div');
+        row.className = 'chat-system-row';
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'notice'));
+        row.innerHTML = `
+            <div style="width:100%; display:flex; justify-content:center; padding:2px 0;">
+                <div style="max-width:80%; padding:7px 12px; border-radius:999px; background:rgba(142,142,147,0.16); color:#8e8e93; font-size:12px; line-height:1.35; text-align:center;">
+                    ${msg.text || '系统提示'}
+                </div>
+            </div>
+        `;
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderGroupRedPacketBubble(msg, friend, container, timestamp = Date.now()) {
+        window.imChat.normalizeGroupRedPacketState(msg, friend);
+
+        const isUser = msg.role === 'user';
+        const isGroupMessage = friend.type === 'group' && !isUser;
+        const speakerName = msg.senderName || msg.speaker || '群成员';
+        const speakerAvatar = msg.senderAvatarUrl || null;
+
+        const lastRow = container.lastElementChild;
+        let hasPrev = false;
+        let sameSpeaker = false;
+
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                const prevSpeaker = lastRow.getAttribute('data-speaker') || null;
+                if (isGroupMessage) {
+                    if (prevSpeaker === speakerName) {
+                        hasPrev = true;
+                        sameSpeaker = true;
+                        lastRow.classList.add('has-next');
+                    }
+                } else if (!prevSpeaker) {
+                    hasPrev = true;
+                    sameSpeaker = true;
+                    lastRow.classList.add('has-next');
+                }
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''} ${isGroupMessage ? 'group-ai-row' : ''} ${isGroupMessage && sameSpeaker ? 'group-ai-row-continuous' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'packet'));
+        if (speakerName) {
+            row.setAttribute('data-speaker', speakerName);
+        }
+
+        const totalAmount = Number(msg.totalAmount) || 0;
+        const packetCount = parseInt(msg.packetCount, 10) || 0;
+        const claimedCount = Array.isArray(msg.claimRecords) ? msg.claimRecords.length : 0;
+        const subtitle = msg.currentUserClaimed
+            ? `已领取 · ${claimedCount}/${packetCount}`
+            : (msg.isFinished ? `${claimedCount}/${packetCount} 已领取` : '点击领取红包');
+
+        const contentHtml = `
+            <div class="group-red-packet-card" style="width:100%; min-width:0; max-width:268px; border-radius:18px; padding:12px 14px; background:#fff; color:#111;  border:1px solid rgba(0,0,0,0.08); cursor:pointer;">
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <div style="width:40px; height:40px; border-radius:14px; background:#111; color:#fff; display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0;">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <div style="min-width:0; flex:1;">
+                        <div style="font-size:15px; font-weight:800; color:#111; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${msg.description || '恭喜发财'}</div>
+                        <div style="font-size:12px; color:#8e8e93; margin-top:4px;">${subtitle}</div>
+                    </div>
+                </div>
+                <div style="margin-top:10px; font-size:26px; font-weight:800; color:#111; letter-spacing:0.2px;">¥${totalAmount.toFixed(2)}</div>
+            </div>
+        `;
+
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, speakerName, speakerAvatar, hasPrev);
+
+        if (isUser) {
+            const metaHtml = "";
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                        <div class="chat-bubble user-bubble pay-transfer-bubble group-red-packet-bubble" style="padding:6px;">${contentHtml}${metaHtml}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            const metaHtml = "";
+            
+            let bubbleWrapperHtml = '';
+            if (isGroupMessage) {
+                const avatarInitial = String(speakerName).trim().charAt(0) || '?';
+                const avatarImg = speakerAvatar
+                    ? `<img src="${speakerAvatar}" onerror="this.src='assets/moren.jpg'" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;">`
+                    : `<div class="chat-avatar-small">${avatarInitial}</div>`;
+
+                bubbleWrapperHtml = `
+                    <div class="group-ai-bubble-wrap">
+                        ${sameSpeaker ? '' : `<div class="group-ai-speaker-name">${speakerName}</div>`}
+                        <div class="group-ai-bubble-row">
+                            <div class="group-ai-avatar-slot">${sameSpeaker ? '<div class="group-ai-avatar-placeholder"></div>' : avatarImg}</div>
+                            <div class="chat-bubble ai-bubble pay-transfer-bubble group-red-packet-bubble" style="padding:6px;">${contentHtml}${metaHtml}</div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                bubbleWrapperHtml = `<div class="chat-bubble ai-bubble pay-transfer-bubble group-red-packet-bubble" style="padding:6px;">${contentHtml}${metaHtml}</div>`;
+            }
+
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                        ${bubbleWrapperHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        const clickableBubble = row.querySelector('.group-red-packet-card');
+        if (clickableBubble) {
+            clickableBubble.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const activePage = container.closest('.active-chat-interface');
+                if (!activePage) return;
+                if (!activePage._openGroupRedPacketInteraction) {
+                    window.imChat.ensureRedPacketDetailOverlayForExistingPage(activePage, friend);
+                }
+                if (activePage._openGroupRedPacketInteraction) {
+                    activePage._openGroupRedPacketInteraction(msg);
+                }
+            });
+        }
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderMessageBubble(msg, friend, container, timestamp = Date.now()) {
+        if (!msg || !container) return false;
+
+        window.imChat.ensureMessageId(msg, msg.type === 'pay_transfer' ? 'pay' : 'msg');
+        const msgTime = timestamp || msg.timestamp || Date.now();
+
+        if (msg.type === 'moment_forward') {
+            window.imChat.renderMomentForwardBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'voice_call_record') {
+            window.imChat.renderVoiceCallRecordBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'voice_message') {
+            window.imChat.renderVoiceMessageBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'sticker') {
+            window.imChat.renderStickerMessageBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'image') {
+            window.imChat.renderImageBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'pay_transfer') {
+            window.imChat.renderPayTransferBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'group_red_packet') {
+            window.imChat.renderGroupRedPacketBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'system_notice') {
+            window.imChat.renderSystemNoticeBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.type === 'html') {
+            window.imChat.renderHtmlBubble(msg, friend, container, msgTime);
+            return true;
+        }
+        if (msg.role === 'user') {
+            window.imChat.renderUserBubble(msg.content, container, msgTime, msg.replyTo, msg.translation, msg.showTranslation, msg.id, friend);
+            return true;
+        }
+        if (msg.role === 'assistant') {
+            let safeSpeakerName = msg.speaker || null;
+            let speakerAvatar = null;
+
+            if (friend.type === 'group') {
+                const safeSpeaker = window.imChat.getSafeGroupSpeaker(friend, msg.speaker);
+                if (safeSpeaker) {
+                    safeSpeakerName = safeSpeaker.nickname;
+                    speakerAvatar = safeSpeaker.avatarUrl || null;
+                } else {
+                    safeSpeakerName = null;
+                }
+            }
+
+            window.imChat.renderAiBubble(
+                msg.content,
+                friend,
+                container,
+                msgTime,
+                msg.translation,
+                msg.showTranslation,
+                msg.replyTo,
+                safeSpeakerName,
+                speakerAvatar,
+                msg.id,
+                msg.thought || null,
+                msg.offlineScene || null,
+                msg.offlineAction || null
+            );
+            return true;
+        }
+
+        return false;
+    }
+
+    function getMessageUserRoundCount(messages, startIndex = 0, endIndex = null) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        let count = 0;
+        const start = Math.max(0, Number(startIndex) || 0);
+        const end = Math.min(safeMessages.length, Math.max(start, endIndex == null ? safeMessages.length : Number(endIndex) || safeMessages.length));
+
+        for (let i = start; i < end; i += 1) {
+            if (safeMessages[i] && safeMessages[i].role === 'user') count += 1;
+        }
+
+        return count;
+    }
+
+    function getHistoryStartIndexForUserRounds(messages, userRoundLimit) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const limit = Math.max(0, Number(userRoundLimit) || 0);
+        if (limit <= 0 || safeMessages.length === 0) return 0;
+
+        let rounds = 0;
+        for (let i = safeMessages.length - 1; i >= 0; i -= 1) {
+            if (safeMessages[i] && safeMessages[i].role === 'user') {
+                rounds += 1;
+                if (rounds >= limit) return i;
+            }
+        }
+
+        return 0;
+    }
+
+    function getExpandedHistoryStartIndex(messages, currentStartIndex, additionalUserRounds) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const currentStart = Math.max(0, Math.min(safeMessages.length, Number(currentStartIndex) || 0));
+        const additionalRounds = Math.max(1, Number(additionalUserRounds) || HISTORY_LOAD_MORE_USER_ROUNDS);
+        let rounds = 0;
+
+        for (let i = currentStart - 1; i >= 0; i -= 1) {
+            if (safeMessages[i] && safeMessages[i].role === 'user') {
+                rounds += 1;
+                if (rounds >= additionalRounds) return i;
+            }
+        }
+
+        return 0;
+    }
+
+    function getInitialHistoryStartIndex(messages) {
+        return getHistoryStartIndexForUserRounds(messages, INITIAL_HISTORY_USER_ROUNDS);
+    }
+
+    function clampHistoryStartIndex(messages, startIndex) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        return Math.max(0, Math.min(safeMessages.length, Number(startIndex) || 0));
+    }
+
+    function getChatHistoryState(friend, container, messages, options = {}) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const friendId = friend && friend.id != null ? String(friend.id) : '';
+        const previousState = container ? container._imHistoryState : null;
+        let visibleStartIndex;
+
+        if (options.resetWindow) {
+            visibleStartIndex = getInitialHistoryStartIndex(safeMessages);
+        } else if (Number.isFinite(Number(options.startIndex))) {
+            visibleStartIndex = clampHistoryStartIndex(safeMessages, options.startIndex);
+        } else if (previousState && previousState.friendId === friendId && Number.isFinite(Number(previousState.visibleStartIndex))) {
+            visibleStartIndex = clampHistoryStartIndex(safeMessages, previousState.visibleStartIndex);
+        } else {
+            visibleStartIndex = getInitialHistoryStartIndex(safeMessages);
+        }
+
+        const state = {
+            friendId,
+            visibleStartIndex,
+            totalMessages: safeMessages.length
+        };
+
+        if (container) container._imHistoryState = state;
+        return state;
+    }
+
+    function renderLoadMoreHistoryControl(friend, container, messages, state) {
+        if (!container || !state || state.visibleStartIndex <= 0) return;
+
+        const hiddenMessageCount = state.visibleStartIndex;
+        const hiddenUserRounds = getMessageUserRoundCount(messages, 0, state.visibleStartIndex);
+        const wrapper = document.createElement('div');
+        wrapper.className = 'chat-history-loader';
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'chat-history-load-more-btn';
+        button.innerHTML = `
+            <span class="chat-history-load-more-title">查看更多历史记录</span>
+            <span class="chat-history-load-more-meta">${hiddenUserRounds}轮 / ${hiddenMessageCount}条更早消息</span>
+        `;
+
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const latestMessages = Array.isArray(friend.messages) ? friend.messages : [];
+            const currentState = container._imHistoryState || state;
+            const previousScrollHeight = container.scrollHeight;
+            const previousScrollTop = container.scrollTop;
+            const nextStartIndex = getExpandedHistoryStartIndex(
+                latestMessages,
+                currentState.visibleStartIndex,
+                HISTORY_LOAD_MORE_USER_ROUNDS
+            );
+
+            container.innerHTML = '';
+            renderChatHistory(friend, container, {
+                startIndex: nextStartIndex,
+                scroll: false
+            });
+
+            const heightDelta = container.scrollHeight - previousScrollHeight;
+            container.scrollTop = previousScrollTop + heightDelta;
+        });
+
+        wrapper.appendChild(button);
+        container.appendChild(wrapper);
+    }
+
+    function appendMessageToContainer(friend, container, msg, options = {}) {
+        if (!friend || !container || !msg) return false;
+
+        const msgTime = msg.timestamp || Date.now();
+        const rows = Array.from(container.children);
+        let lastMessageTimestamp = 0;
+
+        for (let i = rows.length - 1; i >= 0; i -= 1) {
+            const row = rows[i];
+            if (!row || !row.classList || !row.classList.contains('chat-row')) continue;
+            lastMessageTimestamp = Number(row.getAttribute('data-timestamp')) || 0;
+            if (lastMessageTimestamp) break;
+        }
+
+        if (!lastMessageTimestamp || msgTime - lastMessageTimestamp > 300000) {
+            window.imChat.renderTimestamp(msgTime, container);
+        }
+
+        const rendered = renderMessageBubble(msg, friend, container, msgTime);
+        if (rendered && container._imHistoryState && container._imHistoryState.friendId === String(friend.id)) {
+            container._imHistoryState.totalMessages = Array.isArray(friend.messages) ? friend.messages.length : container._imHistoryState.totalMessages;
+        }
+        if (rendered && options.scroll !== false) {
+            window.imChat.scrollToBottom(container);
+        }
+        return rendered;
+    }
+
+    function rerenderChatContainer(friend, container, options = {}) {
+        if (!friend || !container) return false;
+        container.innerHTML = '';
+        window.imChat.renderChatHistory(friend, container, {
+            resetWindow: !!options.resetWindow,
+            scroll: false
+        });
+        if (options.scroll !== false) {
+            window.imChat.scrollToBottom(container);
+        }
+        return true;
+    }
+
+    function findMessageRow(container, descriptor) {
+        if (!container || descriptor == null) return null;
+
+        const descriptorId = typeof descriptor === 'object' && descriptor !== null && descriptor.id != null
+            ? String(descriptor.id)
+            : (typeof descriptor !== 'object' && descriptor != null ? String(descriptor) : null);
+        const descriptorTimestamp = typeof descriptor === 'object' && descriptor !== null && descriptor.timestamp != null
+            ? String(descriptor.timestamp)
+            : null;
+
+        if (descriptorId) {
+            const rowById = container.querySelector(`.chat-row[data-message-id="${descriptorId}"]`);
+            if (rowById) return rowById;
+        }
+
+        if (descriptorTimestamp) {
+            const rows = Array.from(container.querySelectorAll('.chat-row'));
+            return rows.find(row => String(row.getAttribute('data-timestamp') || '') === descriptorTimestamp) || null;
+        }
+
+        return null;
+    }
+
+    function replaceMessageInContainer(friend, container, msg, descriptor, options = {}) {
+        if (!friend || !container || !msg) return false;
+        return rerenderChatContainer(friend, container, options);
+    }
+
+    function removeMessageFromContainer(container, descriptor, options = {}) {
+        if (!container) return false;
+        const targetRow = findMessageRow(container, descriptor);
+        if (!targetRow) return false;
+
+        const previousElement = targetRow.previousElementSibling;
+        const nextElement = targetRow.nextElementSibling;
+        targetRow.remove();
+
+        if (
+            previousElement &&
+            previousElement.classList &&
+            previousElement.classList.contains('chat-timestamp') &&
+            (!nextElement || !nextElement.classList || !nextElement.classList.contains('chat-row'))
+        ) {
+            previousElement.remove();
+        }
+
+        if (options.scroll) {
+            window.imChat.scrollToBottom(container);
+        }
+        return true;
+    }
+
+function renderChatHistory(friend, container, options = {}) {
+        if (!friend || !container) return;
+
+        const messages = Array.isArray(friend.messages) ? friend.messages : [];
+        const state = getChatHistoryState(friend, container, messages, options);
+        let lastTime = 0;
+
+        try {
+            container._imIsRenderingHistory = true;
+            renderLoadMoreHistoryControl(friend, container, messages, state);
+
+            if (messages.length > 0) {
+                messages.slice(state.visibleStartIndex).forEach(msg => {
+                    window.imChat.ensureMessageId(msg, msg.type === 'pay_transfer' ? 'pay' : 'msg');
+                    const msgTime = msg.timestamp || 0;
+                    if (msgTime - lastTime > 300000) { 
+                        window.imChat.renderTimestamp(msgTime, container);
+                        lastTime = msgTime;
+                    }
+                    renderMessageBubble(msg, friend, container, msgTime);
+                });
+            }
+        } finally {
+            container._imIsRenderingHistory = false;
+        }
+
+        if (options.scroll !== false) {
+            window.imChat.scrollToBottom(container);
+        }
+    }
+
+function scrollToBottom(container) {
+        if(container && !container._imIsRenderingHistory) container.scrollTop = container.scrollHeight;
+    }
+
+function renderTimestamp(timestamp, container) {
+        if (!timestamp) return;
+        const div = document.createElement('div');
+        div.className = 'chat-timestamp';
+        let timeStr = window.imApp.formatTime ? window.imApp.formatTime(timestamp) : '';
+        div.innerHTML = `<span>${timeStr}</span>`;
+        container.appendChild(div);
+    }
+
+function renderOfflineSceneText(sceneText, container, timestamp = Date.now()) {
+        if (!sceneText || !container) return;
+        const row = document.createElement('div');
+        row.className = 'chat-offline-scene-row';
+        row.setAttribute('data-timestamp', timestamp);
+        row.innerHTML = `<span>${escapeHtml(sceneText)}</span>`;
+        container.appendChild(row);
+    }
+
+function normalizeOfflineActionText(value) {
+        let text = String(value == null ? '' : value).trim();
+        const wrapperPairs = [
+            ['（', '）'],
+            ['(', ')'],
+            ['[', ']'],
+            ['【', '】'],
+            ['{', '}'],
+            ['「', '」'],
+            ['『', '』']
+        ];
+
+        let changed = true;
+        while (changed && text.length > 1) {
+            changed = false;
+            for (const [open, close] of wrapperPairs) {
+                if (text.startsWith(open) && text.endsWith(close)) {
+                    text = text.slice(open.length, text.length - close.length).trim();
+                    changed = true;
+                    break;
+                }
+            }
+        }
+
+        return text;
+    }
+
+function renderUserBubble(text, container, timestamp = Date.now(), replyTo = null, translation = null, showTranslation = false, messageId = null, friend = null) {
+        const rows = Array.from(container.children).filter(el => el.classList.contains('chat-row') && !el.classList.contains('typing-row'));
+        const lastRow = rows.length > 0 ? rows[rows.length - 1] : null;
+        let hasPrev = false;
+        if (lastRow && lastRow.classList.contains('user-row')) {
+            hasPrev = true;
+            lastRow.classList.add('has-next');
+        }
+
+        const headerHtml = buildMessageHeaderHtml(true, friend, timestamp, null, null, hasPrev);
+
+        const row = document.createElement('div');
+        row.className = `chat-row user-row ${hasPrev ? 'has-prev' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', messageId || window.imChat.createMessageId('msg'));
+        
+        let contentHtml = '';
+        if (replyTo) {
+            contentHtml += `<div class="msg-reply-quote" style="font-size: 13px; color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 14px; margin-bottom: 8px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${replyTo}</div>`;
+        }
+        contentHtml += text;
+        if (translation && showTranslation) {
+            contentHtml += `<div class="msg-translation" style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.2); font-size: 13px; color: rgba(255,255,255,0.7); line-height: 1.4; word-wrap: break-word; white-space: normal;">${translation}</div>`;
+        }
+
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+        contentHtml += `<span class="bubble-meta"><span class="bubble-time">${timeStr}</span><i class="fas fa-check bubble-read-icon"></i></span>`;
+
+        row.innerHTML = `
+            <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+            </div>
+            <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                ${headerHtml}
+                <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                    <div class="chat-bubble user-bubble">${contentHtml}</div>
+                </div>
+            </div>
+        `;
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderAiBubble(text, friend, container, timestamp = Date.now(), translation = null, showTranslation = false, replyTo = null, speakerName = null, speakerAvatar = null, messageId = null, thought = null, offlineScene = null, offlineAction = null) {
+        const rows = Array.from(container.children).filter(el => !el.classList.contains('chat-timestamp') && !el.classList.contains('typing-row') && !el.classList.contains('chat-offline-scene-row'));
+        const lastRow = rows.length > 0 ? rows[rows.length - 1] : null;
+        const isGroupMessage = friend.type === 'group' && !!speakerName;
+        let hasPrev = false;
+        let sameSpeaker = false;
+
+        if (lastRow && lastRow.classList.contains('ai-row')) {
+            const prevSpeaker = lastRow.getAttribute('data-speaker') || null;
+            if (isGroupMessage) {
+                if (prevSpeaker === speakerName) {
+                    hasPrev = true;
+                    sameSpeaker = true;
+                    lastRow.classList.add('has-next');
+                }
+            } else if (!prevSpeaker) {
+                hasPrev = true;
+                sameSpeaker = true;
+                lastRow.classList.add('has-next');
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ai-row ${hasPrev ? 'has-prev' : ''} ${isGroupMessage ? 'group-ai-row' : ''} ${isGroupMessage && sameSpeaker ? 'group-ai-row-continuous' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', messageId || window.imChat.createMessageId('msg'));
+        if (speakerName) {
+            row.setAttribute('data-speaker', speakerName);
+        }
+        if (thought) {
+            row.setAttribute('data-thought', thought);
+        }
+        
+        let contentHtml = '';
+        if (replyTo) {
+            contentHtml += `<div class="msg-reply-quote" style="font-size: 13px; color: rgba(0,0,0,0.6); background: rgba(0,0,0,0.05); padding: 8px 12px; border-radius: 14px; margin-bottom: 8px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${replyTo}</div>`;
+        }
+        const safeOfflineAction = normalizeOfflineActionText(offlineAction);
+        if (safeOfflineAction) {
+            contentHtml += `<span class="chat-offline-action">（${escapeHtml(safeOfflineAction)}）</span>`;
+        }
+        contentHtml += text;
+        if (translation && showTranslation) {
+            contentHtml += `<div class="msg-translation" style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(0,0,0,0.1); font-size: 13px; color: #8e8e93; line-height: 1.4; word-wrap: break-word; white-space: normal;">${translation}</div>`;
+        }
+        
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+        contentHtml += `<span class="bubble-meta"><span class="bubble-time">${timeStr}</span></span>`;
+
+        const headerHtml = buildMessageHeaderHtml(false, friend, timestamp, speakerName, speakerAvatar, hasPrev);
+
+        let bubbleWrapperHtml = '';
+            if (isGroupMessage) {
+                const avatarInitial = String(speakerName).trim().charAt(0) || '?';
+                const avatarImg = speakerAvatar
+                    ? `<img src="${speakerAvatar}" onerror="this.src='assets/moren.jpg'" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;">`
+                    : `<div class="chat-avatar-small">${avatarInitial}</div>`;
+
+                bubbleWrapperHtml = `
+                    <div class="group-ai-bubble-wrap">
+                    ${sameSpeaker ? '' : `<div class="group-ai-speaker-name">${speakerName}</div>`}
+                    <div class="group-ai-bubble-row">
+                        <div class="group-ai-avatar-slot">${sameSpeaker ? '<div class="group-ai-avatar-placeholder"></div>' : avatarImg}</div>
+                        <div class="chat-bubble ai-bubble">${contentHtml}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            bubbleWrapperHtml = `<div class="chat-bubble ai-bubble">${contentHtml}</div>`;
+        }
+
+        row.innerHTML = `
+            <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+            </div>
+            <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                ${headerHtml}
+                <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                    ${bubbleWrapperHtml}
+                </div>
+            </div>
+        `;
+        if (offlineScene) {
+            renderOfflineSceneText(offlineScene, container, timestamp);
+        }
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function openChatImageDetail(msg, friend, timestamp, senderName) {
+        let overlay = document.getElementById('chat-image-detail-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'chat-image-detail-overlay';
+            overlay.style.cssText = 'position:fixed; inset:0; z-index:99999; display:none; align-items:center; justify-content:center; background:rgba(0,0,0,0.55); padding:20px; box-sizing:border-box;';
+            overlay.innerHTML = `
+                <div class="chat-image-detail-card" style="width:100%; max-width:360px; max-height:86vh; background:#fff; border-radius:24px; overflow:hidden;  display:flex; flex-direction:column;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 16px; border-bottom:1px solid #f2f2f7;">
+                        <div style="min-width:0;">
+                            <div class="chat-image-detail-sender" style="font-size:16px; font-weight:800; color:#111; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"></div>
+                            <div class="chat-image-detail-time" style="font-size:12px; color:#8e8e93; margin-top:2px;"></div>
+                        </div>
+                        <button type="button" class="chat-image-detail-close" aria-label="关闭" style="width:32px; height:32px; border:none; border-radius:16px; background:#f2f2f7; color:#111; cursor:pointer; flex-shrink:0;"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div style="background:#111; display:flex; align-items:center; justify-content:center; min-height:220px;">
+                        <img class="chat-image-detail-img" src="" alt="" style="max-width:100%; max-height:52vh; object-fit:contain; display:block;">
+                    </div>
+                    <div style="padding:14px 16px 18px; overflow-y:auto;">
+                        <div style="font-size:12px; color:#8e8e93; font-weight:700; margin-bottom:7px;">图片详情</div>
+                        <div class="chat-image-detail-desc" style="font-size:15px; color:#222; line-height:1.55; white-space:pre-wrap; word-break:break-word;"></div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+            overlay.addEventListener('click', (event) => {
+                if (event.target === overlay || event.target.closest('.chat-image-detail-close')) {
+                    overlay.style.display = 'none';
+                }
+            });
+        }
+
+        const imageEl = overlay.querySelector('.chat-image-detail-img');
+        const senderEl = overlay.querySelector('.chat-image-detail-sender');
+        const timeEl = overlay.querySelector('.chat-image-detail-time');
+        const descEl = overlay.querySelector('.chat-image-detail-desc');
+        const date = new Date(timestamp || msg.timestamp || Date.now());
+        const timeStr = typeof window.formatChatBubbleTime === 'function'
+            ? window.formatChatBubbleTime(timestamp || msg.timestamp || Date.now())
+            : `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+
+        if (imageEl) imageEl.src = msg.content || window.imChat.CHAT_IMAGE_PLACEHOLDER_URL || '';
+        if (senderEl) senderEl.textContent = senderName || friend?.nickname || friend?.realName || '图片';
+        if (timeEl) timeEl.textContent = timeStr;
+        if (descEl) descEl.textContent = msg.text || msg.description || '暂无图片描述';
+        overlay.style.display = 'flex';
+    }
+
+function renderImageBubble(msg, friend, container, timestamp = Date.now()) {
+        const isUser = msg.role === 'user';
+        const isGroupMessage = !isUser && friend.type === 'group';
+        const safeSpeaker = isGroupMessage && window.imChat.getSafeGroupSpeaker
+            ? window.imChat.getSafeGroupSpeaker(friend, msg.speaker || msg.senderName)
+            : null;
+        const speakerName = isGroupMessage
+            ? ((safeSpeaker && safeSpeaker.nickname) || msg.speaker || msg.senderName || 'Group member')
+            : null;
+        const speakerAvatar = (safeSpeaker && safeSpeaker.avatarUrl) || msg.senderAvatarUrl || null;
+        const rows = Array.from(container.children).filter(el => !el.classList.contains('chat-timestamp') && !el.classList.contains('typing-row'));
+        const lastRow = rows.length > 0 ? rows[rows.length - 1] : null;
+        let hasPrev = false;
+        let sameSpeaker = false;
+        
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                const prevSpeaker = lastRow.getAttribute('data-speaker') || null;
+                if (isGroupMessage) {
+                    if (prevSpeaker === speakerName) {
+                        hasPrev = true;
+                        sameSpeaker = true;
+                        lastRow.classList.add('has-next');
+                    }
+                } else if (!prevSpeaker) {
+                    hasPrev = true;
+                    lastRow.classList.add('has-next');
+                }
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''} ${isGroupMessage ? 'group-ai-row' : ''} ${isGroupMessage && sameSpeaker ? 'group-ai-row-continuous' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'img'));
+        if (speakerName) row.setAttribute('data-speaker', speakerName);
+        
+        const imageSrc = msg.content || window.imChat.CHAT_IMAGE_PLACEHOLDER_URL || '';
+        const contentHtml = `
+            <img class="chat-image-bubble-img" src="${escapeHtml(imageSrc)}" style="width: min(56vw, 200px); height: min(56vw, 200px); max-width: 200px; max-height: 200px; aspect-ratio: 1 / 1; border-radius: 12px; object-fit: cover; display: block; background: #e5e5ea; cursor: pointer;">
+        `;
+
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+
+        const metaHtml = "";
+        const bubbleHtml = `<div class="chat-bubble ${isUser ? 'user-bubble' : 'ai-bubble'}" style="padding: 0; background: transparent; ">${contentHtml}${metaHtml}</div>`;
+        let bubbleWrapperHtml = bubbleHtml;
+
+            if (isGroupMessage) {
+                const avatarInitial = String(speakerName).trim().charAt(0) || '?';
+                const avatarImg = speakerAvatar
+                    ? `<img src="${escapeHtml(speakerAvatar)}" onerror="this.src='assets/moren.jpg'" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;">`
+                    : `<div class="chat-avatar-small">${escapeHtml(avatarInitial)}</div>`;
+
+                bubbleWrapperHtml = `
+                    <div class="group-ai-bubble-wrap">
+                    ${sameSpeaker ? '' : `<div class="group-ai-speaker-name">${escapeHtml(speakerName)}</div>`}
+                    <div class="group-ai-bubble-row">
+                        <div class="group-ai-avatar-slot">${sameSpeaker ? '<div class="group-ai-avatar-placeholder"></div>' : avatarImg}</div>
+                        ${bubbleHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, speakerName, speakerAvatar, hasPrev);
+
+        row.innerHTML = `
+            <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+            </div>
+            <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                ${headerHtml}
+                <div style="display: flex; justify-content: ${isUser ? 'flex-end' : 'flex-start'}; align-items: flex-end; width: 100%;">
+                    ${bubbleWrapperHtml}
+                </div>
+            </div>
+        `;
+
+        const imageEl = row.querySelector('.chat-image-bubble-img');
+        if (imageEl) {
+            imageEl.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                const senderName = isUser
+                    ? (window.userState?.name || '我')
+                    : (speakerName || friend?.nickname || friend?.realName || 'Char');
+                openChatImageDetail(msg, friend, timestamp, senderName);
+            });
+        }
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderPayTransferBubble(msg, friend, container, timestamp = Date.now()) {
+        const isUser = msg.role === 'user';
+        const lastRow = container.lastElementChild;
+        let hasPrev = false;
+
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'pay'));
+
+        const amount = Number(msg.amount) || 0;
+        const amountText = `¥${amount.toFixed(2)}`;
+        const description = msg.description || '转账';
+        const parties = resolvePayTransferParties(msg, friend);
+        const { payKind, status, payerName, payeeName } = parties;
+
+        const isOfficialReceipt = msg.targetName === 'Payment' || msg.cardTitle === '收款通知' || msg.cardTitle === '支付凭证';
+        const familyCardText = `${msg.paymentAction || ''} ${msg.cardTitle || ''} ${msg.description || ''} ${msg.content || ''}`;
+        const isFamilyCard = msg.paymentAction === 'family_card'
+            || msg.paymentAction === 'family_card_increase'
+            || familyCardText.includes('亲属卡');
+        let cardTitle = msg.cardTitle || 'Payment';
+        let subtitle = `${payerName} 向 ${payeeName} 转账`;
+        let extraClass = '';
+
+        if (status === 'claimed') {
+            cardTitle = msg.cardTitle || `${payeeName}已收款`;
+            subtitle = `${payeeName}已收取 ${payerName} 的转账`;
+            extraClass = payKind === 'char_received' ? ' is-received' : ' is-income';
+        } else if (status === 'rejected') {
+            cardTitle = msg.cardTitle || '已退还';
+            subtitle = `${payeeName}已退还 ${payerName} 的转账`;
+            extraClass = ' is-rejected';
+        } else if (payKind === 'char_to_user_pending') {
+            cardTitle = msg.cardTitle || '转账';
+            subtitle = `${payerName} 向 ${payeeName} 转账`;
+            extraClass = ' is-pending';
+        }
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, null, null, hasPrev);
+
+        const date = new Date(timestamp);
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+
+        if (isOfficialReceipt) {
+            // 微信支付样式居中大卡片
+            const sign = msg.cardTitle === '收款通知' ? '+' : '-';
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="width:100%; display:flex; justify-content:center; padding:10px 0;">
+                    <div style="width:280px; background:#fff; border-radius:12px; padding:16px;  display:flex; flex-direction:column; align-items:center;">
+                        <div style="font-size:14px; color:#111; margin-bottom:8px;">${description}</div>
+                        <div style="font-size:28px; font-weight:bold; color:#111; margin-bottom:12px;">${sign}¥${amount.toFixed(2)}</div>
+                          <div style="background:#f2f2f7; border-radius:16px; padding:4px 12px; font-size:12px; color:#8e8e93; margin-bottom:16px;">
+                              ${timeStr}
+                          </div>
+                        <div style="width:100%; border-top:1px solid #f2f2f7; padding-top:12px; display:flex; justify-content:space-between; align-items:center;">
+                            <span style="font-size:13px; color:#8e8e93;">账单详情</span>
+                            <i class="fas fa-chevron-right" style="font-size:12px; color:#c7c7cc;"></i>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else {
+            const contentHtml = `
+                <div class="pay-transfer-card${extraClass}">
+                    <div class="pay-transfer-card-top">
+                        <div class="pay-transfer-card-icon"><i class="fas fa-wallet"></i></div>
+                        <div class="pay-transfer-card-meta">
+                            <div class="pay-transfer-card-title">${cardTitle}</div>
+                            ${isFamilyCard ? '' : `<div class="pay-transfer-card-subtitle">${subtitle}</div>`}
+                        </div>
+                    </div>
+                    <div class="pay-transfer-card-amount">${amountText}</div>
+                    <div class="pay-transfer-card-desc">${description}</div>
+                </div>
+            `;
+
+            if (isUser) {
+                const metaHtml = "";
+                row.innerHTML = `
+                    <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                        <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                    </div>
+                    <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                        ${headerHtml}
+                        <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                            <div class="chat-bubble user-bubble pay-transfer-bubble">${contentHtml}${metaHtml}</div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                const metaHtml = "";
+                row.innerHTML = `
+                    <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                        <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                    </div>
+                    <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                        ${headerHtml}
+                        <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                            <div class="chat-bubble ai-bubble pay-transfer-bubble">${contentHtml}${metaHtml}</div>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        container.appendChild(row);
+
+        // 允许用户向AI转账时，以及AI向用户转账时，都可以点击打开弹窗
+        if (payKind === 'char_to_user_pending' || payKind === 'user_to_char') {
+            const clickableBubble = row.querySelector('.chat-bubble.pay-transfer-bubble') || row.querySelector('.pay-transfer-card');
+            if (clickableBubble) {
+                clickableBubble.style.cursor = 'pointer';
+                clickableBubble.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const activePage = container.closest('.active-chat-interface');
+                    if (!activePage) {
+                        if (window.showToast) window.showToast('未找到聊天页面');
+                        return;
+                    }
+
+                    if (!activePage._openTransferDetailOverlay) {
+                        window.imChat.ensureTransferDetailOverlayForExistingPage(activePage, friend);
+                    }
+
+                    if (activePage._openTransferDetailOverlay) {
+                        const messageId = row.getAttribute('data-message-id');
+                        const rowTimestamp = row.getAttribute('data-timestamp');
+                        const liveFriend = window.imData.currentActiveFriend &&
+                            String(window.imData.currentActiveFriend.id) === String(friend.id)
+                            ? window.imData.currentActiveFriend
+                            : friend;
+                        const liveMsg = Array.isArray(liveFriend?.messages)
+                            ? liveFriend.messages.find(item => {
+                                if (messageId && String(item.id) === String(messageId)) return true;
+                                return rowTimestamp && String(item.timestamp) === String(rowTimestamp);
+                            })
+                            : null;
+                        activePage._openTransferDetailOverlay(liveMsg || msg);
+                    } else if (window.showToast) {
+                        window.showToast('详情卡片初始化失败');
+                    }
+                });
+            }
+        }
+
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderMomentForwardBubble(msg, friend, container, timestamp = Date.now()) {
+        let momentData = {};
+        try {
+            momentData = JSON.parse(msg.content);
+        } catch (e) {
+            momentData = { text: '[解析错误]' };
+        }
+
+        const isUser = msg.role === 'user';
+        const lastRow = container.lastElementChild;
+        let hasPrev = false;
+        
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''}`;
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'moment'));
+        
+        const contentHtml = `
+            <div class="moment-forward-bubble" style="cursor: pointer; background: #fff; border-radius: 16px; padding: 12px;  border: 1px solid rgba(0,0,0,0.04); display: flex; align-items: center; gap: 12px; width: 220px; text-align: left; margin: 4px 0;">
+                <div style="width: 44px; height: 44px; border-radius: 12px; background: #1c1c1e; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #fff; font-size: 20px;">
+                    <i class="far fa-images"></i>
+                </div>
+                <div style="flex: 1; overflow: hidden;">
+                    <div style="font-size: 15px; font-weight: 600; color: #262626; margin-bottom: 2px;">分享了动态</div>
+                    <div style="font-size: 13px; color: #8e8e93;">点击查看详情</div>
+                </div>
+            </div>
+        `;
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, null, null, hasPrev);
+
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+        
+        if (isUser) {
+            let metaHtml = "";
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                        ${contentHtml}
+                        ${metaHtml}
+                    </div>
+                </div>
+            `;
+        } else {
+            let metaHtml = "";
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                        ${contentHtml}
+                        ${metaHtml}
+                    </div>
+                </div>
+            `;
+        }
+        
+        row.querySelector('.moment-forward-bubble').addEventListener('click', () => {
+            const foundMoment = window.imData.moments.find(m => m.id == momentData.id);
+            if (foundMoment) {
+                if(window.imApp.openMomentDetail) window.imApp.openMomentDetail(foundMoment);
+            } else {
+                if(window.showToast) window.showToast('该朋友圈已删除或不存在');
+            }
+        });
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderVoiceMessageBubble(msg, friend, container, timestamp = Date.now()) {
+        const isUser = msg.role !== 'assistant';
+        const rows = Array.from(container.children).filter(el => !el.classList.contains('chat-timestamp') && !el.classList.contains('typing-row') && !el.classList.contains('chat-offline-scene-row'));
+        const lastRow = rows.length > 0 ? rows[rows.length - 1] : null;
+        const isGroupMessage = !isUser && friend.type === 'group';
+        const safeSpeaker = isGroupMessage && window.imChat.getSafeGroupSpeaker
+            ? window.imChat.getSafeGroupSpeaker(friend, msg.speaker || msg.senderName)
+            : null;
+        const speakerName = isGroupMessage
+            ? ((safeSpeaker && safeSpeaker.nickname) || msg.speaker || msg.senderName || '群成员')
+            : null;
+        const speakerAvatar = (safeSpeaker && safeSpeaker.avatarUrl) || msg.senderAvatarUrl || null;
+        let hasPrev = false;
+        let sameSpeaker = false;
+
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                const prevSpeaker = lastRow.getAttribute('data-speaker') || null;
+                if (isGroupMessage) {
+                    if (prevSpeaker === speakerName) {
+                        hasPrev = true;
+                        sameSpeaker = true;
+                        lastRow.classList.add('has-next');
+                    }
+                } else if (!prevSpeaker) {
+                    hasPrev = true;
+                    sameSpeaker = true;
+                    lastRow.classList.add('has-next');
+                }
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''} ${isGroupMessage ? 'group-ai-row' : ''} ${isGroupMessage && sameSpeaker ? 'group-ai-row-continuous' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'voice'));
+        if (speakerName) {
+            row.setAttribute('data-speaker', speakerName);
+        }
+
+        const transcript = String(msg.transcript || msg.text || '').trim();
+        const calculatedDuration = Math.min(18, Math.max(3, Math.ceil(transcript.length / 3)));
+        const duration = Math.min(18, Math.max(3, Number(msg.duration) || calculatedDuration));
+        const safeTranscript = escapeHtml(transcript || '暂无转文字');
+        const cleanTranslation = String(msg.translation || '').trim();
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+        const metaHtml = "";
+
+        const safeOfflineAction = !isUser ? normalizeOfflineActionText(msg.offlineAction) : '';
+        const offlineActionHtml = safeOfflineAction
+            ? `<span class="chat-offline-action">（${escapeHtml(safeOfflineAction)}）</span>`
+            : '';
+        const contentHtml = `
+            ${offlineActionHtml}
+            <button type="button" class="voice-message-bubble-inner" aria-expanded="false">
+                <span class="voice-message-mic"><i class="fas fa-microphone-alt"></i></span>
+                <span class="voice-message-wave" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </span>
+                <span class="voice-message-duration">${duration}s</span>
+            </button>
+            <div class="voice-message-transcript" hidden>${safeTranscript}</div>
+            ${cleanTranslation && msg.showTranslation ? `<div class="msg-translation" style="margin-top: 6px; padding-top: 6px; border-top: 1px solid ${isUser ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)'}; font-size: 13px; color: ${isUser ? 'rgba(255,255,255,0.7)' : '#8e8e93'}; line-height: 1.4; word-wrap: break-word; white-space: normal;">${escapeHtml(cleanTranslation)}</div>` : ''}
+            ${metaHtml}
+        `;
+
+        const bubbleHtml = `<div class="chat-bubble ${isUser ? 'user-bubble' : 'ai-bubble'} voice-message-bubble">${contentHtml}</div>`;
+        let bubbleWrapperHtml = bubbleHtml;
+        if (isGroupMessage) {
+            const avatarInitial = String(speakerName).trim().charAt(0) || '?';
+            const avatarImg = speakerAvatar
+                ? `<img src="${speakerAvatar}" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;">`
+                : `<div class="chat-avatar-small">${escapeHtml(avatarInitial)}</div>`;
+
+            bubbleWrapperHtml = `
+                <div class="group-ai-bubble-wrap">
+                    ${sameSpeaker ? '' : `<div class="group-ai-speaker-name">${escapeHtml(speakerName)}</div>`}
+                    <div class="group-ai-bubble-row">
+                        <div class="group-ai-avatar-slot">${sameSpeaker ? '<div class="group-ai-avatar-placeholder"></div>' : avatarImg}</div>
+                        ${bubbleHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, speakerName, speakerAvatar, hasPrev);
+
+        row.innerHTML = `
+            <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+            </div>
+            <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                ${headerHtml}
+                <div style="display: flex; justify-content: ${isUser ? 'flex-end' : 'flex-start'}; align-items: flex-end; width: 100%;">
+                    ${bubbleWrapperHtml}
+                </div>
+            </div>
+        `;
+
+        const toggle = row.querySelector('.voice-message-bubble-inner');
+        const transcriptEl = row.querySelector('.voice-message-transcript');
+        if (toggle && transcriptEl) {
+            toggle.addEventListener('click', async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const shouldExpand = transcriptEl.hidden;
+                transcriptEl.hidden = !shouldExpand;
+                toggle.setAttribute('aria-expanded', shouldExpand ? 'true' : 'false');
+
+                if (shouldExpand && window.u2MinimaxTts && typeof window.u2MinimaxTts.speakTextCached === 'function') {
+                    try {
+                        const cacheOwner = msg && typeof msg === 'object' ? msg : {};
+                        const audioUrl = await window.u2MinimaxTts.speakTextCached(transcript, friend, cacheOwner);
+                        if (audioUrl && msg && typeof msg === 'object' && !msg.minimaxAudioUrl && window.imApp?.updateFriendMessage) {
+                            await window.imApp.updateFriendMessage(friend.id, {
+                                id: msg.id || row.getAttribute('data-message-id') || null,
+                                timestamp: row.getAttribute('data-timestamp') || timestamp || null
+                            }, (targetMsg) => {
+                                if (targetMsg) targetMsg.minimaxAudioUrl = audioUrl;
+                            }, { silent: true });
+                        }
+                    } catch (error) {
+                        console.error('Voice message playback failed', error);
+                        if (window.showToast) window.showToast('语音播放失败');
+                    }
+                }
+            });
+        }
+
+        if (!isUser && msg.offlineScene) {
+            renderOfflineSceneText(msg.offlineScene, container, timestamp);
+        }
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderStickerMessageBubble(msg, friend, container, timestamp = Date.now()) {
+        const isUser = msg.role !== 'assistant';
+        const rows = Array.from(container.children).filter(el => !el.classList.contains('chat-timestamp') && !el.classList.contains('typing-row'));
+        const lastRow = rows.length > 0 ? rows[rows.length - 1] : null;
+        const isGroupMessage = !isUser && friend.type === 'group';
+        const safeSpeaker = isGroupMessage && window.imChat.getSafeGroupSpeaker
+            ? window.imChat.getSafeGroupSpeaker(friend, msg.speaker || msg.senderName)
+            : null;
+        const speakerName = isGroupMessage
+            ? ((safeSpeaker && safeSpeaker.nickname) || msg.speaker || msg.senderName || 'Group member')
+            : null;
+        const speakerAvatar = (safeSpeaker && safeSpeaker.avatarUrl) || msg.senderAvatarUrl || null;
+        let hasPrev = false;
+        let sameSpeaker = false;
+
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                const prevSpeaker = lastRow.getAttribute('data-speaker') || null;
+                if (isGroupMessage) {
+                    if (prevSpeaker === speakerName) {
+                        hasPrev = true;
+                        sameSpeaker = true;
+                        lastRow.classList.add('has-next');
+                    }
+                } else if (!prevSpeaker) {
+                    hasPrev = true;
+                    sameSpeaker = true;
+                    lastRow.classList.add('has-next');
+                }
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''} ${isGroupMessage ? 'group-ai-row' : ''} ${isGroupMessage && sameSpeaker ? 'group-ai-row-continuous' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'sticker'));
+        if (speakerName) {
+            row.setAttribute('data-speaker', speakerName);
+        }
+
+        const stickerUrl = String(msg.stickerUrl || msg.content || '').trim();
+        const stickerName = String(msg.stickerName || msg.text || 'Sticker').trim();
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+        const metaHtml = "";
+        const stickerHtml = `
+            <div class="sticker-message-wrap" title="${escapeHtml(stickerName)}">
+                <img class="sticker-message-img" src="${escapeHtml(stickerUrl)}" alt="${escapeHtml(stickerName)}">
+                ${metaHtml}
+            </div>
+        `;
+
+        let bubbleWrapperHtml = stickerHtml;
+        if (isGroupMessage) {
+            const avatarInitial = String(speakerName).trim().charAt(0) || '?';
+            const avatarImg = speakerAvatar
+                ? `<img src="${escapeHtml(speakerAvatar)}" style="width: 28px; height: 28px; border-radius: 50%; object-fit: cover;">`
+                : `<div class="chat-avatar-small">${escapeHtml(avatarInitial)}</div>`;
+
+            bubbleWrapperHtml = `
+                <div class="group-ai-bubble-wrap sticker-group-wrap">
+                    ${sameSpeaker ? '' : `<div class="group-ai-speaker-name">${escapeHtml(speakerName)}</div>`}
+                    <div class="group-ai-bubble-row">
+                        <div class="group-ai-avatar-slot">${sameSpeaker ? '<div class="group-ai-avatar-placeholder"></div>' : avatarImg}</div>
+                        ${stickerHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, speakerName, speakerAvatar, hasPrev);
+
+        row.innerHTML = `
+            <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+            </div>
+            <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                ${headerHtml}
+                <div style="display: flex; justify-content: ${isUser ? 'flex-end' : 'flex-start'}; align-items: flex-end; width: 100%;">
+                    ${bubbleWrapperHtml}
+                </div>
+            </div>
+        `;
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+    window.imChat.renderSystemNoticeBubble = renderSystemNoticeBubble;
+    window.imChat.renderGroupRedPacketBubble = renderGroupRedPacketBubble;
+    window.imChat.renderStickerMessageBubble = renderStickerMessageBubble;
+    window.imChat.renderMessageBubble = renderMessageBubble;
+    window.imChat.appendMessageToContainer = appendMessageToContainer;
+    window.imChat.replaceMessageInContainer = replaceMessageInContainer;
+    window.imChat.removeMessageFromContainer = removeMessageFromContainer;
+    window.imChat.rerenderChatContainer = rerenderChatContainer;
+    window.imChat.renderChatHistory = renderChatHistory;
+    window.imChat.scrollToBottom = scrollToBottom;
+    window.imChat.renderTimestamp = renderTimestamp;
+    window.imChat.renderOfflineSceneText = renderOfflineSceneText;
+    window.imChat.renderUserBubble = renderUserBubble;
+    window.imChat.renderAiBubble = renderAiBubble;
+    window.imChat.renderImageBubble = renderImageBubble;
+    window.imChat.renderPayTransferBubble = renderPayTransferBubble;
+    window.imChat.renderVoiceMessageBubble = renderVoiceMessageBubble;
+    function renderHtmlBubble(msg, friend, container, timestamp = Date.now()) {
+        const isUser = msg.role === 'user';
+        const lastRow = container.lastElementChild;
+        let hasPrev = false;
+
+        if (lastRow) {
+            if (isUser && lastRow.classList.contains('user-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            } else if (!isUser && lastRow.classList.contains('ai-row')) {
+                hasPrev = true;
+                lastRow.classList.add('has-next');
+            }
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'} ${hasPrev ? 'has-prev' : ''}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'html'));
+
+        const contentHtml = msg.content || msg.text || '';
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, null, null, hasPrev);
+
+        const date = new Date(timestamp);
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+
+        if (isUser) {
+            const metaHtml = "";
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                        <div class="chat-bubble html-bubble" style="position: relative; background: transparent; padding: 0;">
+                            ${contentHtml}
+                            <div style="position: absolute; bottom: 8px; right: -30px;">${metaHtml}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else {
+            const metaHtml = "";
+            row.innerHTML = `
+                <div class="chat-checkbox-wrapper" style="display: ${window.imData.batchSelectMode ? 'flex' : 'none'}; width: 40px; justify-content: center; align-items: flex-end; padding-bottom: 10px; flex-shrink: 0; cursor: pointer; transition: all 0.2s;">
+                    <i class="far fa-circle chat-checkbox" data-timestamp="${timestamp}" style="color: #c7c7cc; font-size: 22px;"></i>
+                </div>
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                        <div class="chat-bubble html-bubble" style="position: relative; background: transparent; padding: 0;">
+                            ${contentHtml}
+                            <div style="position: absolute; bottom: 8px; right: -25px;">${metaHtml}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+function renderVoiceCallRecordBubble(msg, friend, container, timestamp = Date.now()) {
+        const isSystem = msg.role === 'system';
+        const isUser = msg.senderId === (window.imData.currentUser ? window.imData.currentUser.id : 'me') || msg.senderId === '__user__' || isSystem;
+        
+        if (isSystem && friend.type === 'group') {
+            // Group call record
+            const row = document.createElement('div');
+            row.className = 'chat-system-row';
+            row.setAttribute('data-timestamp', timestamp);
+            row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'notice'));
+            row.innerHTML = `
+                <div style="width:100%; display:flex; justify-content:center; padding:2px 0; margin: 10px 0; cursor: pointer;">
+                    <div class="voice-call-record-card" style="max-width:80%; padding:10px 16px; border-radius:18px; background:rgba(0,0,0,0.05); color:#000; font-size:13px; line-height:1.4; text-align:center; display: flex; align-items: center; gap: 8px;">
+                        <i class="fas fa-phone-alt" style="color: #34c759;"></i>
+                        <span>${msg.statusText || '群通话记录'}</span>
+                    </div>
+                </div>
+            `;
+            
+            const clickableCard = row.querySelector('.voice-call-record-card');
+            if (clickableCard) {
+                clickableCard.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    if (window.imChat && window.imChat.openVoiceCallDetail) {
+                        window.imChat.openVoiceCallDetail(msg, friend);
+                    }
+                });
+            }
+
+            container.appendChild(row);
+            window.imChat.scrollToBottom(container);
+            return;
+        }
+
+        const row = document.createElement('div');
+        row.className = `chat-row ${isUser ? 'user-row' : 'ai-row'}`;
+        row.setAttribute('data-timestamp', timestamp);
+        row.setAttribute('data-message-id', window.imChat.ensureMessageId(msg, 'call'));
+
+        const duration = msg.duration || 0;
+        const m = Math.floor(duration / 60).toString().padStart(2, '0');
+        const s = (duration % 60).toString().padStart(2, '0');
+        const durationText = `${m}:${s}`;
+        const title = msg.isVideo ? '视频通话' : '语音通话';
+        const statusText = msg.statusText || '通话记录';
+        
+        let subtitleHtml = '';
+        if (statusText === '已拒绝' || statusText === '已取消') {
+            subtitleHtml = `<div style="font-size: 13px; color: #ff3b30; margin-top: 2px; font-weight: 500;">${statusText}</div>`;
+        } else {
+            subtitleHtml = `<div style="font-size: 13px; color: #8e8e93; margin-top: 2px;">通话时长 ${durationText}</div>`;
+        }
+
+        const contentHtml = `
+            <div class="voice-call-record-card" style="display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: ${isUser ? '#e5e5ea' : '#f2f2f7'}; border-radius: 18px; cursor: pointer; color: #111;">
+                <div style="width: 32px; height: 32px; border-radius: 16px; background: ${statusText === '已拒绝' || statusText === '已取消' ? '#ff3b30' : '#34c759'}; color: #fff; display: flex; justify-content: center; align-items: center; flex-shrink: 0;">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div>
+                    <div style="font-size: 15px; font-weight: 600;">${title}</div>
+                    ${subtitleHtml}
+                </div>
+            </div>
+        `;
+
+        const timeStr = typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(timestamp) : (() => {
+            const date = new Date(timestamp);
+            return `${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        })();
+
+        // For voice call record, it uses simplified DOM structure, but we still need header. 
+        // Note: It doesn't have hasPrev tracking in its code properly, let's just assume false as it lacks context, or compute if possible.
+        // Actually it doesn't compute hasPrev. I'll just pass false for hasPrev as it doesn't track it, 
+        // but wait, is it worth adding? No, VoiceCallRecord is usually a system notice or independent item.
+        const headerHtml = buildMessageHeaderHtml(isUser, friend, timestamp, null, null, false);
+
+        if (isUser) {
+            const metaHtml = "";
+            row.innerHTML = `
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-end; align-items: flex-end; width: 100%;">
+                        <div class="chat-bubble user-bubble" style="padding: 0; background: transparent;">${contentHtml}${metaHtml}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            const metaHtml = "";
+            row.innerHTML = `
+                <div style="flex: 1; display: flex; flex-direction: column; min-width: 0;">
+                    ${headerHtml}
+                    <div style="display: flex; justify-content: flex-start; align-items: flex-end; width: 100%;">
+                        <div class="chat-bubble ai-bubble" style="padding: 0; background: transparent;">${contentHtml}${metaHtml}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        const clickableCard = row.querySelector('.voice-call-record-card');
+        if (clickableCard) {
+            clickableCard.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                if (window.imChat && window.imChat.openVoiceCallDetail) {
+                    window.imChat.openVoiceCallDetail(msg, friend);
+                }
+            });
+        }
+
+        container.appendChild(row);
+        window.imChat.scrollToBottom(container);
+    }
+
+    window.imChat.renderMomentForwardBubble = renderMomentForwardBubble;
+    window.imChat.renderVoiceCallRecordBubble = renderVoiceCallRecordBubble;
+    window.imChat.renderHtmlBubble = renderHtmlBubble;
+
+});

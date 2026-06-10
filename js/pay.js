@@ -1,1 +1,375 @@
-const _0x55544e=_0x5efa;function _0x5efa(_0xe8ebd7,_0x1fbd76){_0xe8ebd7=_0xe8ebd7-0x1c8;const _0x2d3f28=_0x2d3f();let _0x5efa37=_0x2d3f28[_0xe8ebd7];return _0x5efa37;}function _0x2d3f(){const _0x55d6ce=['income','pay-main-card','appendChild','forEach','pay-bank-card\x20','cardType','padStart','name','fas\x20fa-heart','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-number\x22>','262106NyAnqV','type','pay-bill-list','length','function','time','currentCardId','data-filter','pay-main-card-number','div','****\x20****\x20****\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bill-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20','click','<div\x20class=\x22pay-empty-state\x22>暂无交易记录</div>','grant','pay','styleClass','innerHTML','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bill-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bill-title\x22>','pay-main-card-type','pay-main-card-logo','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-logo\x22>','bank-card-blue','亲属卡\x20-\x20','682479lFRYMh','balance','pay-action-scan','pay-scan-modal','icon','1022556JtNtIW','family_','createElement','is-current','addPayTransaction','getAppState','showToast','increase','pay-total-amount','getElementById','remove','bank_2','pay-family-sheet','cards','isFinite','pay-family-list','2YXGReY','filter','927360zqYBkY','textContent','toFixed','#333','74001OHCIJn','isArray','bank_1','family','储蓄卡','pay-total-card\x20','Pay','2012880arkDiW','已支付\x20￥','addOrUpdateFamilyCard','transactions','closeView','toString','VISA\x20信用卡','pay-bank-card\x20family-sheet-card\x20','#666','pay-bank-list','36frdvcS','add','object','DOMContentLoaded','<i\x20class=\x22','amount','getMinutes','fa-shopping-bag','fas\x20fa-globe','mousedown','getDate','saveGlobalData','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','push','className','fas\x20fa-university','some','active','now','classList','find','addEventListener','pay-view','bank','getPayCards','getMonth','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-number\x22>','getPayBalance','招商银行','family-card','title','\x22></i>\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-type\x22>','setAppState','target','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-name\x22><i\x20class=\x22','random','openView','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-name\x22><i\x20class=\x22','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bill-time\x22>','.pay-filter-btn','已到账\x20￥','unshift','803695INugZY','16zkVoPH','****\x20****\x20****\x201234','number','pay-bill-item','getAttribute','fa-arrow-down','logo'];_0x2d3f=function(){return _0x55d6ce;};return _0x2d3f();}(function(_0x3b2e4d,_0x2ce933){const _0x4d4361=_0x5efa,_0xadff4a=_0x3b2e4d();while(!![]){try{const _0x12c91e=parseInt(_0x4d4361(0x1e1))/0x1*(-parseInt(_0x4d4361(0x20e))/0x2)+parseInt(_0x4d4361(0x214))/0x3*(-parseInt(_0x4d4361(0x225))/0x4)+parseInt(_0x4d4361(0x1cf))/0x5+parseInt(_0x4d4361(0x1fe))/0x6+-parseInt(_0x4d4361(0x1f9))/0x7*(-parseInt(_0x4d4361(0x1d0))/0x8)+-parseInt(_0x4d4361(0x210))/0x9+parseInt(_0x4d4361(0x21b))/0xa;if(_0x12c91e===_0x2ce933)break;else _0xadff4a['push'](_0xadff4a['shift']());}catch(_0x38c73b){_0xadff4a['push'](_0xadff4a['shift']());}}}(_0x2d3f,0x2240a),document[_0x55544e(0x23a)](_0x55544e(0x228),()=>{const _0x1d3b09=_0x55544e;let _0x513d10=_0x1d3b09(0x216),_0x56ab2e='all',_0x860379=[{'id':_0x1d3b09(0x216),'type':'bank','name':_0x1d3b09(0x241),'icon':_0x1d3b09(0x234),'cardType':_0x1d3b09(0x218),'number':'****\x20****\x20****\x208888','balance':0x3e8,'logo':'银联','styleClass':'','transactions':[]},{'id':_0x1d3b09(0x209),'type':_0x1d3b09(0x23c),'name':_0x1d3b09(0x221),'icon':_0x1d3b09(0x22d),'cardType':'Credit','number':_0x1d3b09(0x1d1),'balance':0xc350,'logo':'VISA','styleClass':_0x1d3b09(0x1f7),'transactions':[]}];function _0x14ae27(){const _0x144cac=_0x1d3b09,_0x236132=typeof window[_0x144cac(0x203)]===_0x144cac(0x1e5)?window[_0x144cac(0x203)](_0x144cac(0x1f0)):null;return _0x236132&&typeof _0x236132===_0x144cac(0x227)?_0x236132:{};}function _0x2b90dc(_0x157044={}){const _0x3f153d=_0x1d3b09;if(_0x157044[_0x3f153d(0x20b)]&&Array[_0x3f153d(0x215)](_0x157044['cards']))_0x860379=_0x157044['cards'],_0x157044[_0x3f153d(0x1e7)]&&(_0x513d10=_0x157044['currentCardId']);else{if(_0x157044[_0x3f153d(0x21e)]||_0x157044['balance']!==undefined){_0x860379[0x0][_0x3f153d(0x21e)]=Array[_0x3f153d(0x215)](_0x157044[_0x3f153d(0x21e)])?_0x157044['transactions']:[];const _0x90866e=parseFloat(_0x157044[_0x3f153d(0x1fa)]);_0x860379[0x0][_0x3f153d(0x1fa)]=Number[_0x3f153d(0x20c)](_0x90866e)?_0x90866e:0x3e8;}}!_0x860379[_0x3f153d(0x239)](_0x27de85=>_0x27de85['id']===_0x513d10)&&(_0x513d10=_0x860379[0x0]['id']);}_0x2b90dc(_0x14ae27());function _0x29c78d(){const _0x48254b=_0x1d3b09;return _0x860379[_0x48254b(0x239)](_0xccd56f=>_0xccd56f['id']===_0x513d10)||_0x860379[0x0];}function _0xd914df(){const _0xaceeb2=_0x1d3b09;return _0x29c78d()[_0xaceeb2(0x1fa)];}window[_0x1d3b09(0x240)]=_0xd914df,window[_0x1d3b09(0x23d)]=function(){return _0x2b90dc(_0x14ae27()),_0x860379;},window[_0x1d3b09(0x202)]=function(_0x14806b,_0x5bac8f,_0xad9f8e='income',_0x12fca8=null){const _0x5a126d=_0x1d3b09,_0x29099f=Number(_0x14806b);if(!Number['isFinite'](_0x29099f)||_0x29099f<=0x0)return![];const _0x44b5f6=_0x12fca8?_0x860379[_0x5a126d(0x239)](_0x29452d=>_0x29452d['id']===_0x12fca8)||_0x29c78d():_0x29c78d();_0xad9f8e===_0x5a126d(0x1d7)?_0x44b5f6['balance']+=_0x29099f:_0x44b5f6[_0x5a126d(0x1fa)]-=_0x29099f;const _0x1f7616={'id':Date['now'](),'title':_0x5bac8f||'未知交易','amount':_0xad9f8e===_0x5a126d(0x1d7)?_0x29099f:-_0x29099f,'time':Date[_0x5a126d(0x237)](),'icon':_0xad9f8e===_0x5a126d(0x1d7)?_0x5a126d(0x1d5):_0x5a126d(0x22c),'color':_0xad9f8e===_0x5a126d(0x1d7)?_0x5a126d(0x213):_0x5a126d(0x223)};return _0x44b5f6[_0x5a126d(0x21e)]=_0x44b5f6[_0x5a126d(0x21e)]||[],_0x44b5f6[_0x5a126d(0x21e)][_0x5a126d(0x1ce)](_0x1f7616),_0x45df85(),_0x187154(),window[_0x5a126d(0x204)]&&window[_0x5a126d(0x204)](_0xad9f8e===_0x5a126d(0x1d7)?_0x5a126d(0x1cd)+_0x29099f[_0x5a126d(0x212)](0x2):_0x5a126d(0x21c)+_0x29099f['toFixed'](0x2)),!![];};function _0x45df85(){const _0x73adab=_0x1d3b09;if(typeof window[_0x73adab(0x246)]===_0x73adab(0x1e5)){window['setAppState']('pay',{'cards':_0x860379,'currentCardId':_0x513d10});return;}window[_0x73adab(0x230)]&&window[_0x73adab(0x230)]();}const _0x72af7=document['getElementById']('app-pay-btn'),_0x21cebc=document[_0x1d3b09(0x207)](_0x1d3b09(0x23b)),_0x3defab=document[_0x1d3b09(0x207)]('app'),_0x251b94=document[_0x1d3b09(0x207)]('pay-back-btn'),_0x2cb0b3=document['querySelectorAll'](_0x1d3b09(0x1cc)),_0x1b8344=document[_0x1d3b09(0x207)](_0x1d3b09(0x206)),_0x46e47b=document[_0x1d3b09(0x207)](_0x1d3b09(0x1e3)),_0x33fcb3=document[_0x1d3b09(0x207)](_0x1d3b09(0x1d8)),_0x31fbc5=document[_0x1d3b09(0x207)]('pay-main-card-title'),_0x25ad51=document['getElementById'](_0x1d3b09(0x1f4)),_0x428651=document['getElementById'](_0x1d3b09(0x1e9)),_0x2966e8=document['getElementById'](_0x1d3b09(0x1f5)),_0x19e8d5=document[_0x1d3b09(0x207)](_0x1d3b09(0x1fb)),_0x25375b=document[_0x1d3b09(0x207)](_0x1d3b09(0x1fc)),_0x362b77=document[_0x1d3b09(0x207)]('pay-scan-close'),_0x401e8f=document['getElementById']('pay-action-cards'),_0x19a3b6=document[_0x1d3b09(0x207)]('pay-cards-sheet'),_0x100a3=document['getElementById'](_0x1d3b09(0x224)),_0x1b9c5c=document['getElementById']('pay-action-family'),_0x507868=document[_0x1d3b09(0x207)](_0x1d3b09(0x20a)),_0x5205dd=document['getElementById'](_0x1d3b09(0x20d));_0x72af7&&_0x72af7[_0x1d3b09(0x23a)](_0x1d3b09(0x1ed),()=>{_0x187154();});_0x2cb0b3['forEach'](_0x5539a6=>{const _0x25d9a2=_0x1d3b09;_0x5539a6[_0x25d9a2(0x23a)](_0x25d9a2(0x1ed),()=>{const _0x1ac67f=_0x25d9a2;_0x2cb0b3[_0x1ac67f(0x1da)](_0x474772=>_0x474772['classList'][_0x1ac67f(0x208)](_0x1ac67f(0x236))),_0x5539a6[_0x1ac67f(0x238)][_0x1ac67f(0x226)](_0x1ac67f(0x236)),_0x56ab2e=_0x5539a6[_0x1ac67f(0x1d4)](_0x1ac67f(0x1e8)),_0x187154();});});function _0x1f4504(){const _0x383c27=_0x1d3b09;if(_0x100a3){_0x100a3[_0x383c27(0x1f2)]='';const _0x3e0534=_0x860379['filter'](_0x363df8=>_0x363df8[_0x383c27(0x1e2)]==='bank');_0x3e0534['forEach'](_0x1e8666=>{const _0x3c50bc=_0x383c27,_0x49ef88=document[_0x3c50bc(0x200)](_0x3c50bc(0x1ea));_0x49ef88[_0x3c50bc(0x233)]=_0x3c50bc(0x1db)+(_0x1e8666[_0x3c50bc(0x1f1)]||'')+'\x20'+(_0x1e8666['id']===_0x513d10?_0x3c50bc(0x201):''),_0x49ef88[_0x3c50bc(0x1f2)]=_0x3c50bc(0x1ca)+_0x1e8666['icon']+_0x3c50bc(0x244)+_0x1e8666[_0x3c50bc(0x1de)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-type\x22>'+_0x1e8666[_0x3c50bc(0x1dc)]+_0x3c50bc(0x23f)+_0x1e8666[_0x3c50bc(0x1d2)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bank-logo\x22>'+_0x1e8666[_0x3c50bc(0x1d6)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x49ef88[_0x3c50bc(0x23a)](_0x3c50bc(0x1ed),()=>{const _0x55ef46=_0x3c50bc;_0x513d10=_0x1e8666['id'],_0x45df85(),_0x187154();if(window[_0x55ef46(0x21f)])window[_0x55ef46(0x21f)](_0x19a3b6);else _0x19a3b6[_0x55ef46(0x238)][_0x55ef46(0x208)](_0x55ef46(0x236));}),_0x100a3[_0x3c50bc(0x1d9)](_0x49ef88);});}if(_0x5205dd){_0x5205dd['innerHTML']='';const _0x1d5ed1=_0x860379['filter'](_0x46af01=>_0x46af01[_0x383c27(0x1e2)]===_0x383c27(0x217));_0x1d5ed1[_0x383c27(0x1e4)]===0x0?_0x5205dd[_0x383c27(0x1f2)]='<div\x20class=\x22pay-empty-card-state\x22>暂无亲属卡</div>':_0x1d5ed1[_0x383c27(0x1da)](_0x3efbe8=>{const _0x5189f6=_0x383c27,_0x5d66b7=document[_0x5189f6(0x200)](_0x5189f6(0x1ea));_0x5d66b7[_0x5189f6(0x233)]=_0x5189f6(0x222)+(_0x3efbe8['id']===_0x513d10?_0x5189f6(0x201):''),_0x5d66b7[_0x5189f6(0x1f2)]=_0x5189f6(0x248)+_0x3efbe8[_0x5189f6(0x1fd)]+_0x5189f6(0x244)+_0x3efbe8[_0x5189f6(0x1de)]+_0x5189f6(0x245)+_0x3efbe8['cardType']+_0x5189f6(0x1e0)+_0x3efbe8[_0x5189f6(0x1d2)]+_0x5189f6(0x1f6)+_0x3efbe8[_0x5189f6(0x1d6)]+_0x5189f6(0x231),_0x5d66b7['addEventListener'](_0x5189f6(0x1ed),()=>{const _0x33614f=_0x5189f6;_0x513d10=_0x3efbe8['id'],_0x45df85(),_0x187154();if(window['closeView'])window[_0x33614f(0x21f)](_0x507868);else _0x507868['classList'][_0x33614f(0x208)](_0x33614f(0x236));}),_0x5205dd[_0x5189f6(0x1d9)](_0x5d66b7);});}}function _0x187154(){const _0x4e1ad4=_0x1d3b09,_0x3ae21d=_0x29c78d();if(_0x33fcb3&&_0x3ae21d){_0x33fcb3[_0x4e1ad4(0x233)]=_0x4e1ad4(0x219)+(_0x3ae21d['styleClass']||'');if(_0x31fbc5)_0x31fbc5[_0x4e1ad4(0x1f2)]=_0x4e1ad4(0x229)+_0x3ae21d[_0x4e1ad4(0x1fd)]+'\x22></i>\x20'+_0x3ae21d[_0x4e1ad4(0x1de)];if(_0x25ad51)_0x25ad51[_0x4e1ad4(0x211)]=_0x3ae21d['cardType'];if(_0x1b8344)_0x1b8344[_0x4e1ad4(0x211)]=_0x3ae21d['balance'][_0x4e1ad4(0x212)](0x2);if(_0x428651)_0x428651[_0x4e1ad4(0x211)]=_0x3ae21d[_0x4e1ad4(0x1d2)];if(_0x2966e8)_0x2966e8[_0x4e1ad4(0x211)]=_0x3ae21d[_0x4e1ad4(0x1d6)];}_0x1f4504();let _0x22b345=_0x3ae21d[_0x4e1ad4(0x21e)]||[],_0x438f93=_0x22b345;if(_0x56ab2e===_0x4e1ad4(0x1d7))_0x438f93=_0x22b345['filter'](_0x32225b=>_0x32225b['amount']>0x0);else _0x56ab2e==='expense'&&(_0x438f93=_0x22b345[_0x4e1ad4(0x20f)](_0x12af9e=>_0x12af9e['amount']<0x0));_0x46e47b&&(_0x46e47b[_0x4e1ad4(0x1f2)]='',_0x438f93[_0x4e1ad4(0x1e4)]===0x0?_0x46e47b[_0x4e1ad4(0x1f2)]=_0x4e1ad4(0x1ee):_0x438f93[_0x4e1ad4(0x1da)](_0x2a324a=>{const _0x35dbd5=_0x4e1ad4,_0x308959=document[_0x35dbd5(0x200)](_0x35dbd5(0x1ea));_0x308959[_0x35dbd5(0x233)]=_0x35dbd5(0x1d3);const _0x58b21e=new Date(_0x2a324a[_0x35dbd5(0x1e6)]),_0x49e995=_0x58b21e[_0x35dbd5(0x23e)]()+0x1+'-'+_0x58b21e[_0x35dbd5(0x22f)]()+'\x20'+_0x58b21e['getHours']()[_0x35dbd5(0x220)]()[_0x35dbd5(0x1dd)](0x2,'0')+':'+_0x58b21e[_0x35dbd5(0x22b)]()[_0x35dbd5(0x220)]()[_0x35dbd5(0x1dd)](0x2,'0'),_0x48c88e=(_0x2a324a[_0x35dbd5(0x22a)]>0x0?'+':'')+_0x2a324a[_0x35dbd5(0x22a)][_0x35dbd5(0x212)](0x2),_0x288cf4=_0x2a324a['amount']>0x0?'pay-positive':'';_0x308959[_0x35dbd5(0x1f2)]=_0x35dbd5(0x1ec)+_0x2a324a['icon']+_0x35dbd5(0x1f3)+_0x2a324a[_0x35dbd5(0x243)]+_0x35dbd5(0x1cb)+_0x49e995+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-bill-amount\x20'+_0x288cf4+'\x22>'+_0x48c88e+_0x35dbd5(0x231),_0x46e47b[_0x35dbd5(0x1d9)](_0x308959);}));}window[_0x1d3b09(0x21d)]=function(_0x1b63c4,_0xffb41a,_0x5aaf3a){const _0x184e7e=_0x1d3b09,_0x5316dd=_0x184e7e(0x1ff)+_0x1b63c4;let _0x4b478a=_0x860379[_0x184e7e(0x239)](_0x2cf202=>_0x2cf202['id']===_0x5316dd);const _0x26fefb=Number(_0x5aaf3a)||0x0;if(_0x4b478a){_0x4b478a[_0x184e7e(0x1fa)]+=_0x26fefb,_0x45df85();if(typeof _0x187154===_0x184e7e(0x1e5))_0x187154();return{'action':_0x184e7e(0x205),'newBalance':_0x4b478a[_0x184e7e(0x1fa)]};}else{const _0x3c784e={'id':_0x5316dd,'type':_0x184e7e(0x217),'name':_0x184e7e(0x1f8)+(_0xffb41a||'好友'),'icon':_0x184e7e(0x1df),'cardType':'Family\x20Card','number':_0x184e7e(0x1eb)+Math['floor'](0x3e8+Math[_0x184e7e(0x1c8)]()*0x2328),'balance':_0x26fefb,'logo':_0x184e7e(0x21a),'styleClass':_0x184e7e(0x242),'transactions':[]};_0x860379[_0x184e7e(0x232)](_0x3c784e),_0x45df85();if(typeof _0x187154===_0x184e7e(0x1e5))_0x187154();return{'action':_0x184e7e(0x1ef),'newBalance':_0x26fefb};}},window['hasFamilyCard']=function(_0x5032c7){const _0x176ec8=_0x1d3b09;return _0x860379[_0x176ec8(0x235)](_0x1d38e5=>_0x1d38e5['id']===_0x176ec8(0x1ff)+_0x5032c7);},_0x19e8d5&&_0x25375b&&_0x19e8d5[_0x1d3b09(0x23a)](_0x1d3b09(0x1ed),()=>{const _0x29caa7=_0x1d3b09;_0x25375b['classList'][_0x29caa7(0x226)]('active');}),_0x362b77&&_0x25375b&&_0x362b77[_0x1d3b09(0x23a)](_0x1d3b09(0x1ed),()=>{const _0x38618d=_0x1d3b09;_0x25375b[_0x38618d(0x238)][_0x38618d(0x208)](_0x38618d(0x236));}),_0x401e8f&&_0x19a3b6&&_0x401e8f[_0x1d3b09(0x23a)]('click',()=>{const _0xbef705=_0x1d3b09;_0x1f4504();if(window[_0xbef705(0x1c9)])window['openView'](_0x19a3b6);else _0x19a3b6[_0xbef705(0x238)][_0xbef705(0x226)]('active');}),_0x19a3b6&&_0x19a3b6[_0x1d3b09(0x23a)]('mousedown',_0x247324=>{const _0x797016=_0x1d3b09;if(_0x247324[_0x797016(0x247)]===_0x19a3b6){if(window['closeView'])window[_0x797016(0x21f)](_0x19a3b6);else _0x19a3b6[_0x797016(0x238)]['remove'](_0x797016(0x236));}}),_0x1b9c5c&&_0x507868&&_0x1b9c5c[_0x1d3b09(0x23a)](_0x1d3b09(0x1ed),()=>{const _0x247134=_0x1d3b09;_0x1f4504();if(window[_0x247134(0x1c9)])window[_0x247134(0x1c9)](_0x507868);else _0x507868[_0x247134(0x238)][_0x247134(0x226)](_0x247134(0x236));}),_0x507868&&_0x507868[_0x1d3b09(0x23a)](_0x1d3b09(0x22e),_0x19a499=>{const _0x353252=_0x1d3b09;if(_0x19a499['target']===_0x507868){if(window['closeView'])window[_0x353252(0x21f)](_0x507868);else _0x507868[_0x353252(0x238)][_0x353252(0x208)](_0x353252(0x236));}});}));
+document.addEventListener('DOMContentLoaded', () => {
+    // --- State Management ---
+    let currentCardId = 'bank_1'; // 默认选中第一张卡
+    let currentFilter = 'all'; // 'all', 'income', 'expense'
+    
+    let cards = [
+        {
+            id: 'bank_1',
+            type: 'bank',
+            name: '招商银行',
+            icon: 'fas fa-university',
+            cardType: '储蓄卡',
+            number: '**** **** **** 8888',
+            balance: 1000.00,
+            logo: '银联',
+            styleClass: '', // Default white card
+            transactions: []
+        },
+        {
+            id: 'bank_2',
+            type: 'bank',
+            name: 'VISA 信用卡',
+            icon: 'fas fa-globe',
+            cardType: 'Credit',
+            number: '**** **** **** 1234',
+            balance: 50000.00,
+            logo: 'VISA',
+            styleClass: 'bank-card-blue',
+            transactions: []
+        }
+    ];
+
+    function getPayStoreSnapshot() {
+        const raw = typeof window.getAppState === 'function' ? window.getAppState('pay') : null;
+        return raw && typeof raw === 'object' ? raw : {};
+    }
+
+    function applyPaySnapshot(data = {}) {
+        // Migrate old data if necessary, or load saved cards
+        if (data.cards && Array.isArray(data.cards)) {
+            cards = data.cards;
+            if (data.currentCardId) {
+                currentCardId = data.currentCardId;
+            }
+        } else {
+            // Migration from old version
+            if (data.transactions || data.balance !== undefined) {
+                cards[0].transactions = Array.isArray(data.transactions) ? data.transactions : [];
+                const nextBalance = parseFloat(data.balance);
+                cards[0].balance = Number.isFinite(nextBalance) ? nextBalance : 1000.00;
+            }
+        }
+        
+        // Ensure currentCardId is valid
+        if (!cards.find(c => c.id === currentCardId)) {
+            currentCardId = cards[0].id;
+        }
+    }
+
+    applyPaySnapshot(getPayStoreSnapshot());
+
+    function getCurrentCard() {
+        return cards.find(c => c.id === currentCardId) || cards[0];
+    }
+
+    function getPayBalance() {
+        return getCurrentCard().balance;
+    }
+
+    window.getPayBalance = getPayBalance;
+    window.getPayCards = function() {
+        applyPaySnapshot(getPayStoreSnapshot()); // Always fetch latest from state
+        return cards;
+    };
+
+    // Global API to add transactions (adds to current card or specified card)
+    window.addPayTransaction = function(amount, title, type = 'income', targetCardId = null) {
+        const safeAmount = Number(amount);
+        if (!Number.isFinite(safeAmount) || safeAmount <= 0) return false;
+
+        const targetCard = targetCardId 
+            ? cards.find(c => c.id === targetCardId) || getCurrentCard()
+            : getCurrentCard();
+
+        if (type === 'income') {
+            targetCard.balance += safeAmount;
+        } else {
+            targetCard.balance -= safeAmount;
+        }
+
+        const newTx = {
+            id: Date.now(),
+            title: title || '未知交易',
+            amount: type === 'income' ? safeAmount : -safeAmount,
+            time: Date.now(),
+            icon: type === 'income' ? 'fa-arrow-down' : 'fa-shopping-bag',
+            color: type === 'income' ? '#333' : '#666'
+        };
+        
+        targetCard.transactions = targetCard.transactions || [];
+        targetCard.transactions.unshift(newTx);
+        savePayData();
+        renderPayUI();
+
+        if (window.showToast) {
+            window.showToast(type === 'income' ? `已到账 ￥${safeAmount.toFixed(2)}` : `已支付 ￥${safeAmount.toFixed(2)}`);
+        }
+
+        return true;
+    };
+
+    function savePayData() {
+        if (typeof window.setAppState === 'function') {
+            window.setAppState('pay', {
+                cards: cards,
+                currentCardId: currentCardId
+            });
+            return;
+        }
+
+        if (window.saveGlobalData) {
+            window.saveGlobalData();
+        }
+    }
+
+    // --- DOM Elements ---
+    const payAppBtn = document.getElementById('app-pay-btn'); // 更新为包裹整个图标的父元素 ID
+    const payView = document.getElementById('pay-view');
+    const appContainer = document.getElementById('app');
+    const payBackBtn = document.getElementById('pay-back-btn');
+    
+    // Tabs
+    const filterBtns = document.querySelectorAll('.pay-filter-btn');
+    
+    // UI Elements
+    const totalAmountEl = document.getElementById('pay-total-amount');
+    const billListEl = document.getElementById('pay-bill-list');
+    
+    // Main Card Elements
+    const mainCardEl = document.getElementById('pay-main-card');
+    const mainCardTitleEl = document.getElementById('pay-main-card-title');
+    const mainCardTypeEl = document.getElementById('pay-main-card-type');
+    const mainCardNumberEl = document.getElementById('pay-main-card-number');
+    const mainCardLogoEl = document.getElementById('pay-main-card-logo');
+
+    // Modals
+    const btnScan = document.getElementById('pay-action-scan');
+    const scanModal = document.getElementById('pay-scan-modal');
+    const scanClose = document.getElementById('pay-scan-close');
+    
+    const btnCards = document.getElementById('pay-action-cards');
+    const cardsSheet = document.getElementById('pay-cards-sheet');
+    const bankListEl = document.getElementById('pay-bank-list');
+    
+    const btnFamily = document.getElementById('pay-action-family');
+    const familySheet = document.getElementById('pay-family-sheet');
+    const familyListEl = document.getElementById('pay-family-list');
+
+    // --- App Launch/Close ---
+    // Launch logic is now handled in HTML via onclick, but we can hook into render here
+    if (payAppBtn) {
+        payAppBtn.addEventListener('click', () => {
+            renderPayUI();
+        });
+    }
+
+    // --- Filter Switching ---
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.getAttribute('data-filter');
+            renderPayUI();
+        });
+    });
+
+    // --- Render Sheet Lists ---
+    function renderSheetLists() {
+        if (bankListEl) {
+            bankListEl.innerHTML = '';
+            const bankCards = cards.filter(c => c.type === 'bank');
+            bankCards.forEach(c => {
+                const el = document.createElement('div');
+                el.className = `pay-bank-card ${c.styleClass || ''} ${c.id === currentCardId ? 'is-current' : ''}`;
+                
+                el.innerHTML = `
+                    <div class="pay-bank-name"><i class="${c.icon}"></i> ${c.name}</div>
+                    <div class="pay-bank-type">${c.cardType}</div>
+                    <div class="pay-bank-number">${c.number}</div>
+                    <div class="pay-bank-logo">${c.logo}</div>
+                `;
+                
+                el.addEventListener('click', () => {
+                    currentCardId = c.id;
+                    savePayData();
+                    renderPayUI();
+                    if (window.closeView) window.closeView(cardsSheet);
+                    else cardsSheet.classList.remove('active');
+                });
+                
+                bankListEl.appendChild(el);
+            });
+        }
+        
+        if (familyListEl) {
+            familyListEl.innerHTML = '';
+            const familyCards = cards.filter(c => c.type === 'family');
+            if (familyCards.length === 0) {
+                familyListEl.innerHTML = '<div class="pay-empty-card-state">暂无亲属卡</div>';
+            } else {
+                familyCards.forEach(c => {
+                    const el = document.createElement('div');
+                    el.className = `pay-bank-card family-sheet-card ${c.id === currentCardId ? 'is-current' : ''}`;
+                    
+                    el.innerHTML = `
+                        <div class="pay-bank-name"><i class="${c.icon}"></i> ${c.name}</div>
+                        <div class="pay-bank-type">${c.cardType}</div>
+                        <div class="pay-bank-number">${c.number}</div>
+                        <div class="pay-bank-logo">${c.logo}</div>
+                    `;
+                    
+                    el.addEventListener('click', () => {
+                        currentCardId = c.id;
+                        savePayData();
+                        renderPayUI();
+                        if (window.closeView) window.closeView(familySheet);
+                        else familySheet.classList.remove('active');
+                    });
+                    
+                    familyListEl.appendChild(el);
+                });
+            }
+        }
+    }
+
+    // --- Rendering Logic ---
+    function renderPayUI() {
+        const currentCard = getCurrentCard();
+        
+        // Render Main Card
+        if (mainCardEl && currentCard) {
+            mainCardEl.className = 'pay-total-card ' + (currentCard.styleClass || '');
+            if (mainCardTitleEl) mainCardTitleEl.innerHTML = `<i class="${currentCard.icon}"></i> ${currentCard.name}`;
+            if (mainCardTypeEl) mainCardTypeEl.textContent = currentCard.cardType;
+            if (totalAmountEl) totalAmountEl.textContent = currentCard.balance.toFixed(2);
+            if (mainCardNumberEl) mainCardNumberEl.textContent = currentCard.number;
+            if (mainCardLogoEl) mainCardLogoEl.textContent = currentCard.logo;
+        }
+        
+        renderSheetLists();
+
+        // Filter Transactions
+        let txs = currentCard.transactions || [];
+        let filteredTxs = txs;
+        if (currentFilter === 'income') {
+            filteredTxs = txs.filter(tx => tx.amount > 0);
+        } else if (currentFilter === 'expense') {
+            filteredTxs = txs.filter(tx => tx.amount < 0);
+        }
+
+        // Render List
+        if (billListEl) {
+            billListEl.innerHTML = '';
+            if (filteredTxs.length === 0) {
+                billListEl.innerHTML = '<div class="pay-empty-state">暂无交易记录</div>';
+            } else {
+                filteredTxs.forEach(tx => {
+                    const el = document.createElement('div');
+                    el.className = 'pay-bill-item';
+                    
+                    const date = new Date(tx.time);
+                    const timeStr = `${date.getMonth()+1}-${date.getDate()} ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
+                    
+                    const amountStr = (tx.amount > 0 ? '+' : '') + tx.amount.toFixed(2);
+                    const amountClass = tx.amount > 0 ? 'pay-positive' : '';
+
+                    el.innerHTML = `
+                        <div class="pay-bill-icon">
+                            <i class="fas ${tx.icon}"></i>
+                        </div>
+                        <div class="pay-bill-info">
+                            <div class="pay-bill-title">${tx.title}</div>
+                            <div class="pay-bill-time">${timeStr}</div>
+                        </div>
+                        <div class="pay-bill-amount ${amountClass}">${amountStr}</div>
+                    `;
+                    billListEl.appendChild(el);
+                });
+            }
+        }
+    }
+
+    // Family Card API
+    window.addOrUpdateFamilyCard = function(friendId, friendName, amount) {
+        const cardId = 'family_' + friendId;
+        let existingCard = cards.find(c => c.id === cardId);
+        const limit = Number(amount) || 0;
+
+        if (existingCard) {
+            existingCard.balance += limit;
+            savePayData();
+            if (typeof renderPayUI === 'function') renderPayUI();
+            return { action: 'increase', newBalance: existingCard.balance };
+        } else {
+            const newCard = {
+                id: cardId,
+                type: 'family',
+                name: '亲属卡 - ' + (friendName || '好友'),
+                icon: 'fas fa-heart',
+                cardType: 'Family Card',
+                number: '**** **** **** ' + Math.floor(1000 + Math.random() * 9000),
+                balance: limit,
+                logo: 'Pay',
+                styleClass: 'family-card',
+                transactions: []
+            };
+            cards.push(newCard);
+            savePayData();
+            if (typeof renderPayUI === 'function') renderPayUI();
+            return { action: 'grant', newBalance: limit };
+        }
+    };
+
+    window.hasFamilyCard = function(friendId) {
+        return cards.some(c => c.id === 'family_' + friendId);
+    };
+
+    // --- Modals Logic ---
+    if (btnScan && scanModal) {
+        btnScan.addEventListener('click', () => {
+            scanModal.classList.add('active');
+        });
+    }
+
+    if (scanClose && scanModal) {
+        scanClose.addEventListener('click', () => {
+            scanModal.classList.remove('active');
+        });
+    }
+
+    if (btnCards && cardsSheet) {
+        btnCards.addEventListener('click', () => {
+            renderSheetLists();
+            if (window.openView) window.openView(cardsSheet);
+            else cardsSheet.classList.add('active');
+        });
+    }
+
+    if (cardsSheet) {
+        cardsSheet.addEventListener('mousedown', (e) => {
+            if (e.target === cardsSheet) {
+                if (window.closeView) window.closeView(cardsSheet);
+                else cardsSheet.classList.remove('active');
+            }
+        });
+    }
+    
+    if (btnFamily && familySheet) {
+        btnFamily.addEventListener('click', () => {
+            renderSheetLists();
+            if (window.openView) window.openView(familySheet);
+            else familySheet.classList.add('active');
+        });
+    }
+
+    if (familySheet) {
+        familySheet.addEventListener('mousedown', (e) => {
+            if (e.target === familySheet) {
+                if (window.closeView) window.closeView(familySheet);
+                else familySheet.classList.remove('active');
+            }
+        });
+    }
+
+});
