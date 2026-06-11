@@ -1626,7 +1626,7 @@
                 </div>
             </div>
 
-            <div class="bottom-sheet-overlay detail-sheet-overlay wb-centered-modal-overlay" id="memory-entry-detail-modal" style="z-index: 1300; background: #ffffff;">
+            <div class="bottom-sheet-overlay detail-sheet-overlay wb-centered-modal-overlay" id="memory-entry-detail-modal" style="z-index: 1300; background: rgba(0, 0, 0, 0.4);">
                 <div class="wb-centered-modal-card memory-entry-detail-card">
                     <div class="wb-centered-modal-header" style="position: relative;">
                         <div class="wb-centered-modal-title" id="memory-entry-detail-title">记忆详情</div>
@@ -3419,8 +3419,11 @@
             </div>
 
 <div class="bottom-sheet-overlay detail-sheet-overlay" id="chat-settings-sheet" style="z-index: 500;">
-                <div class="bottom-sheet" style="max-height: 85%; height: 80%; display: flex; flex-direction: column; background: #ffffff;">
-                    <div class="sheet-handle"></div>
+                <div class="bottom-sheet" style="max-height: 100%; height: 100%; top: 0; display: flex; flex-direction: column; background: #ffffff; border-radius: 0;">
+                    <div class="sheet-handle" style="display: none;"></div>
+                    <div class="sheet-close-btn" onclick="window.closeView(document.getElementById('chat-settings-sheet'))" style="position: absolute; top: 15px; left: 15px; width: 30px; height: 30px; background: rgba(0,0,0,0.05); border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer; z-index: 10;">
+                        <i class="fas fa-chevron-left" style="color: #666; font-size: 16px;"></i>
+                    </div>
                     <div class="sheet-title">Chat Settings</div>
                     
                     <div class="detail-sheet-content">
@@ -3465,11 +3468,12 @@
                                     <div class="settings-text">编辑角色资料</div>
                                     <i class="fas fa-chevron-right arrow"></i>
                                 </div>
-                                <div class="settings-item" id="chat-bind-id-btn">
+                                <div class="settings-item" id="chat-bind-id-btn" style="position: relative;">
                                     <div class="settings-icon" style="background-color: #34c759;"><i class="fas fa-id-card"></i></div>
                                     <div class="settings-text">绑定ID</div>
-                                    <span id="chat-bind-id-label" style="font-size: 13px; color: #8e8e93; margin-right: 4px;"></span>
-                                    <i class="fas fa-chevron-right arrow"></i>
+                                    <select id="chat-bind-id-select" style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;"></select>
+                                    <span id="chat-bind-id-label" style="font-size: 13px; color: #8e8e93; margin-right: 4px; pointer-events: none;"></span>
+                                    <i class="fas fa-chevron-right arrow" style="pointer-events: none;"></i>
                                 </div>
                                 <div class="settings-item" id="world-book-btn">
                                     <div class="settings-icon" style="background-color: #1c1c1e;"><i class="fas fa-book"></i></div>
