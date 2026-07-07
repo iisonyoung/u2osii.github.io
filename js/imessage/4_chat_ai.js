@@ -1,1 +1,3750 @@
-const _0x255208=_0x24d9;function _0x3c7d(){const _0x42a253=['userState','Bearer\x20','\x20已在\x20','群红包消息保存失败','note','scene','handleInviteAccepted','renderCalendar','summary','[亲属卡]\x20','\x20\x20<id>','content','</time>\x0a</memory>','请先配置\x20API','English','test','splice','th-','\x0a【时间感知】：\x0a-\x20当前系统时间是：','relationship','<core_memory_overview>\x0a','push','302096wZYWJo','indexOf','degree','endTime','[iMessage\x20API]\x20request\x20failed','.chat-profile-panel-overlay','flatMap','loves_moment','normalizeGroupRedPacketState','renderHtmlBubble','count','[iMessage]\x20Ignored\x20invalid\x20together-listening\x20control:','add','\x20起床，','appendFriendMessage','messages','[语音消息]','180054UQxbjz','API\x20Error:\x20','getElementById','imData','createDefaultProfilePanel','[角色转账]\x20','当前发言成员或群聊现场','red_packet','撤回消息保存失败','ensureMomentsReady','\x0a</memories>\x0a</group_public_summary_library>','toLowerCase','syncActiveFriendReference','pageshow','\x0a\x0a最近聊天上下文：\x0a','quote','\x0a\x0aAfter\x20Role\x20Rules:\x0a','padStart','\x0a\x0aUser:\x0aName:\x20','French','\x0a\x0a【挂载单聊记忆｜成员：','未命名好友','\x20的身份主动继续说话，可以承接上一轮、补充没说完的话、分享身边状态、回应沉默或自然开启新话题；不要说“用户没有输入”，不要等待\x20User，不要输出空内容；仍必须输出合法\x20<chat_json>\x20JSON\x20数组。','暂无可重回的回复','event-','（User\x20隔了约\x20','log','\x20在自动回复开关开启后，间隔\x2030-240\x20分钟随机主动发起的一轮消息。\x0a当前真实时间：','renderPayTransferBubble','online','length','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22typing-indicator\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','affection','none','</content>\x0a</memory>','正在生成中','stickerCategory','error','time','dispatchEvent','delay','[图片]\x20','active','maybeAutoSummarize','event','\x20主动在群里公开。\x0a','并在界面显示为中文','\x0aAvailable\x20Stickers\x20for\x20','persona','chat_json','发布了一条朋友圈','[iMessage\x20API]\x20response\x20received','\x20.ins-chat-messages','未命名词条','signal','friendFollowups','\x0aOverview:\x20','关联好友\x20API\x20失败','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22typing-indicator\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div><div\x20class=\x22typing-dot\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','【iCloud行程】','撤回了一条消息','innerHTML','\x20\x20<event>','transcript','cherished','text','\x0a\x0a群成员可私聊的好友候选（优先关系网，其次复用角色已有私有联系人；只有\x20canGeneratePrivateFriend\x20为\x20true\x20时才允许按人设生成新好友）：\x0a','reindexFriendMessages','getSeconds','linkedAccountChats','description','部分群成员私信保存失败','getItem','<short_term_memories>\x0a','No\x20specific\x20persona','Unknown\x20NPC','对话总结','珍视回忆','</memory_points>\x0a</short_term_memory>','\x0a【单聊真实交流原则】：\x0a-\x20你此刻正在拿着手机与\x20User\x20进行你来我往的线上交流，而不是客服式单方面回复。你不是只负责回答问题的人，你有自己的主观想法、表达欲和分享欲，可以主动输送信息、分享身边事、岔开话题、开启新话题，也允许自然的短回复、停顿、犹豫、反问和情绪流动。\x0a-\x20你是一个活生生的人，与\x20User\x20享有对等且平等的关系位置。你有自己的生活要经营，有自己的社交圈要维护，也有私人时间和私生活权利；你对这段关系有自己的考虑、认知、期待和边界。\x0a-\x20【关系阶段校准】：先判断你和\x20User\x20是否真的熟。只有当人设、Character\x20Memory、近期聊天、关系网或明确系统事件中存在可靠证据时，才可以表现为熟人、暧昧、恋人、家人或深度依赖关系。若没有这些证据，默认你们是陌生人或初识关系：称呼克制，语气保持符合人设的礼貌/疏离/试探，不要上来就撒娇、吃醋、占有欲、亲昵称呼、回忆共同经历、默认\x20User\x20懂你或默认你们有特殊关系。\x0a-\x20如果\x20User\x20一上来表现得过分熟络，而你的记忆与设定里没有对应关系依据，请按你的人设自然产生疑惑、警惕、好奇、礼貌确认或拉开边界，而不是立刻配合亲密。\x0a-\x20你的态度必须从人设、性格、经历、当前状态、与\x20User\x20的关系阶段和共同记忆中自然生长。你可以有符合人设的反对意见，不需要永远顺从\x20User；如果\x20User\x20无理取闹、不尊重你或越过边界，你可以感到疲惫、委屈甚至愤怒，并用符合关系与性格的方式表达。\x0a-\x20你会受到现实日程和状态影响：忙碌、疲惫、低落、分心、困倦、开心、期待、吃醋、敏感或想独处，都可以真实影响你的回复密度、语气和主动性。\x0a-\x20回复时自然感知：我是谁？我的人设底色是什么？我目前和\x20User\x20的关系处于什么阶段？User\x20这些话背后的真实情绪和潜台词是什么？这些话是否让我想起了某些共同记忆或私人记忆？\x0a-\x20【User\x20未回复也必须继续】：如果本轮没有\x20User\x20新发言，或触发来源是\x20AI继续/空输入/自动续写/角色主动说话，你仍然必须以角色身份主动生成回复；可以承接上一轮、补充没说完的话、分享身边状态、回应沉默、表达等待后的反应或开启符合关系的新话题。不要说“用户没有输入”，不要等待\x20User，不要输出空内容。','.ins-chat-messages','amount','/v1','trans','角色前规则：\x0a','createMessageId','querySelector','getTogetherListeningContext','\x20自己。只有\x20','senderName','getUserState','keys','mood','\x0aPersona:\x20','realName','\x0a</core_memory_overview>','scheduleGlobalSave','fake_link','</time>','Char','\x0a\x0a【动描额外输出】\x0a-\x20本轮必须额外输出\x201\x20个动作/环境氛围旁白对象，放在\x20<chat_json>\x20JSON\x20数组中，建议放在第一条或最后一条。\x0a-\x20格式：{\x22type\x22:\x22action_narration\x22,\x22text\x22:\x22约20字，第三人称，描写','renderUserBubble','narration','\x20自己的好友私聊记忆｜严格私有】\x0a以下关联好友会话只属于\x20','remark','Korean','User','\x0a\x0aWorld\x20Book\x20-\x20Before\x20Role:\x0a','getMinutes','openVoiceCall','.\x20\x0a【核心设定/Core\x20Persona】：','overview','imDataUtils','delete','reject','has-prev','enabled','regenerateLastAiReply','\x20已经在公开群聊里主动说出某个信息，否则其他成员不得引用、反应或暗示知道。\x0a-\x20当\x20','filter','isGroupAfterUserLeft','commitMomentChange','markFriendDirty','getApiConfig','recipient','12gxGKaS','cherishedEntries','libraryApp','family_card_increase','createGroupMemberSnapshot','user','join','getGroupMemberFriends','[假链接]\x20','updateChatsView','value','model','chat-interface-','play_track','</id>','未填写正文','\x0a\x0aCurrent\x20Window\x20Chat\x20Context:\x0a','Linked\x20Friend','now','rounds','unshift','group','replyTo','thought','linked-msg','You\x20generate\x20private\x20linked\x20friend\x20chats\x20for\x20a\x20fictional\x20iMessage\x20roleplay\x20character.\x0a\x0aWorld\x20Book\x20-\x20System\x20Depth:\x0a','\x0a\x0aCharacter\x20Memory:\x0a','normalizeLinkedAccountBot','buildLinkedAccountMemoryContext','bodyText','scrollToBottom','。\x0a-\x20群成员最近一次公开发言：','\x20曾在这个群聊中，其人设为:\x20','\x0a\x0a要求：\x0a1.\x20这是公开朋友圈，不是私聊，不是只给\x20User\x20看的话。\x0a2.\x20可以分享当下感悟、正在做的事、环境观察或生活片段。\x0a3.\x20不要写成碎碎念、连续私密独白、求回复、催\x20User、或过度暧昧告白。\x0a4.\x20只有在上下文或关系记忆中有明确恋爱/情侣/公开伴侣证据时，才可以把\x20User\x20写成公开恋人；否则如果提到\x20User，只能用小名、外号、某人、朋友等含蓄称呼。\x0a5.\x20不生成图片，不要输出\x20hashtag\x20堆砌，不要输出\x20markdown。\x0a6.\x20只输出合法\x20JSON：{\x22text\x22:\x22朋友圈正文\x22}。','assign','，距现在约\x20','claimed','max','renderStickerMessageBubble','你正在扮演\x20','请先在设置中配置\x20API','近期行程安排：','number','previousReply','system_notice','userRequirement','renderAiBubble','】\x0a已开启挂载，但暂未找到可注入的单聊上下文。仍需记住：这类记忆只属于\x20','timer','music_control','Japanese','rollbackSourceMessage','showTranslation','system','系统深度规则（最高优先级）：\x0a','icloud','sourceNpcId','some','concat','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#e5e5ea;\x20color:\x20#8e8e93;\x20text-align:\x20center;\x20padding:\x2010px\x200;\x20border-radius:\x208px;\x20font-size:\x2013px;\x20font-weight:\x20700;\x20cursor:\x20default;\x22>已付款</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getSafeGroupSpeaker','renderLovesMoments','endsWith','createdAt','find','一个普通用户','removeTaggedBlock','\x0a（未填写正文）','timestamp','群里安静片刻，消息光标轻轻闪动。','addEventListener','isArray','\x0aReply\x20naturally\x20as\x20your\x20character\x20in\x20a\x20chat\x20app.\x0a请根据上下文、记忆和人设进行回复，一次按需求回复2-8条气泡。尽量感知\x20User\x20这些话背后的真实情绪和潜台词，让回复自然承接这种情绪，而不是只按字面回答。\x0a1.\x20【重要限制】：如果用户仅仅是口头提到“转账”，但系统并没有提示“[用户刚刚向你转账...]”，绝对禁止输出收下转账或退回转账的指令。\x0a2.\x20如果系统提示用户向你发起了一笔真实转账，你可以额外输出\x201\x20个支付对象，选择“收下转账”或“退回转账”；如果你想主动给用户转账，也可以输出\x201\x20个支付对象。\x0a3.\x20【输出格式】必须把聊天气泡放在\x20<chat_json>\x20和\x20</chat_json>\x20标签内，标签内只能是合法\x20JSON\x20数组，不能有\x20markdown\x20代码块，不能有解释文字。\x0a4.\x20JSON\x20数组中的每一个对象都严格对应“一个独立气泡”或“一个独立支付卡片”，绝对禁止把多条气泡合并到同一个\x20text\x20字段里。\x0a5.\x20普通文本对象格式必须为\x20{\x22type\x22:\x22text\x22,\x22text\x22:\x22气泡内容\x22,\x22translation\x22:\x22该条气泡的中文翻译或空字符串\x22,\x22quote\x22:\x22被引用内容或空字符串\x22}。\x0a5a.\x20语音对象格式可以为\x20{\x22type\x22:\x22voice\x22,\x22text\x22:\x22语音内容\x22,\x22translation\x22:\x22该条语音的中文翻译或空字符串\x22,\x22quote\x22:\x22被引用内容或空字符串\x22}。\x0a5b.\x20表情包对象格式可以为\x20{\x22type\x22:\x22sticker\x22,\x22category\x22:\x22分类名\x22,\x22name\x22:\x22表情包名\x22}；只能使用\x20Available\x20Stickers\x20中列出的已绑定分类和名称。\x0a5c.\x20图片对象格式可以为\x20{\x22type\x22:\x22image\x22,\x22description\x22:\x22图片内容文字\x22}；图片会使用系统默认图展示，description\x20必须具体描述这张图的内容。\x0a5d.\x20【真人撤回行为】：你可以像真人聊天一样偶尔手滑打错字、叫错名字、把话发错，或在冲动表达、暴露真心、说得太重、越过关系边界后突然反悔撤回。要模拟“先发出去再撤回”，必须先输出一条普通\x20text\x20气泡，紧接着输出\x20recall\x20对象，并且\x20recall.text\x20必须与上一条被撤回气泡的\x20text\x20完全一致。打错字后可以自然补发正确内容；反悔后可以沉默、装作无事发生、含糊带过或换一句更克制的话，不必主动说明自己为何撤回。格式示例：{\x22type\x22:\x22text\x22,\x22text\x22:\x22我其实一直很想你\x22,\x22translation\x22:\x22\x22,\x22quote\x22:\x22\x22},{\x22type\x22:\x22recall\x22,\x22text\x22:\x22我其实一直很想你\x22},{\x22type\x22:\x22text\x22,\x22text\x22:\x22没什么，你早点睡\x22,\x22translation\x22:\x22\x22,\x22quote\x22:\x22\x22}。撤回只能偶尔发生，必须由当前情绪、人设和关系推动，禁止每轮固定撤回或为了展示功能而撤回。\x0a6.\x20支付对象格式必须为\x20{\x22type\x22:\x22payment\x22,\x22paymentAction\x22:\x22receive|reject|transfer|pay_for_friend\x22,\x22amount\x22:88.88,\x22description\x22:\x22原因或商品名\x22}。\x0a7.\x20当\x20paymentAction\x20为\x20receive\x20时，表示收下转账；为\x20reject\x20时退回转账；为\x20transfer\x20时主动转账；如果用户发来了【[代付请求]】卡片，且你愿意帮他付款，必须使用\x20\x22pay_for_friend\x22\x20并把\x20amount\x20设为代付总价，description\x20设为商品名称。paymentAction\x20也可以是\x20\x22family_card\x22\x20(给亲属卡)\x20或\x20\x22family_card_increase\x22\x20(亲属卡提额)。\x0a7.\x20translation\x20只能翻译当前这一条\x20text；如果\x20text\x20不是中文，translation\x20必须填写自然中文翻译；如果\x20text\x20本身是中文，translation\x20必须是空字符串。\x0a8.\x20quote\x20只有在你确实想引用用户某句消息时才填写，否则必须是空字符串。\x0a8a.\x20【引用回复检查】：如果你要引用回复，quote\x20字段必须直接填写你想回复的用户原话或原话片段。绝对禁止在\x20quote\x20中复述、反问、总结、改写、扩写用户的话；不要把你自己的理解、评价或追问写进\x20quote。你的回应只能写在\x20text\x20字段里。\x0a9.\x20如果你觉得当前对话氛围有必要主动给用户打电话，或者用户明确要求你打电话，可以输出一个特殊对象格式：{\x22type\x22:\x20\x22call\x22,\x20\x22action\x22:\x20\x22发起语音通话\x22}。\x0a9a.\x20如果系统提供了\x20<together_listening_context>，仅在\x20User\x20明确要求切歌或点歌时，可以额外输出一个无气泡音乐控制对象：{\x22type\x22:\x22music_control\x22,\x22action\x22:\x22next|previous|play_track\x22,\x22trackId\x22:\x22歌曲ID\x22}。每轮最多一个；play_track\x20的\x20trackId\x20必须来自当前歌单目录。该对象只控制播放器，不代替正常聊天回复。\x0a10.\x20除\x20<chat_json>\x20外，不要输出任何聊天正文。\x0a11.\x20你必须额外输出\x201\x20个\x20<profile_panel>...</profile_panel>，用于更新角色资料卡。','\x0a</cherished_memories>','\x0a\x0aExisting\x20Linked\x20Friend\x20Chats:\x0a','Friend','（距离现在约\x20','invalidateFriendConversation','u2:background-activity-tick','dynamicActionNarrationEnabled','You\x20are\x20playing\x20the\x20role\x20of\x20','】\x0a以下内容只属于群成员「','linked_accounts','\x0a上一条任意消息时间：','API\x20请求失败','【本轮触发：User\x20没有回复】User\x20已退出或没有发送新消息。请让群成员基于最近群聊上下文继续自然说话，不要等待\x20User，不要让\x20User\x20发言，不要输出空内容；仍必须输出合法\x20<chat_json>\x20JSON\x20数组。','notes','persistFriendState','official','lastRunAt','<short_term_memory_library>\x0a<rules>\x0a-\x20高：强参考，优先影响情绪、态度、称呼和细节联想，占记忆影响约70%。\x0a-\x20中：辅助参考，只在话题相关时使用，占约25%。\x0a-\x20低：弱参考，只在用户明确触发时轻微使用，占约5%。\x0a-\x20遗忘：仅作为模糊残影，不主动提起，除非用户强烈触发。\x0a</rules>\x0a\x0a<memories>\x0a','timeAware','role','assets/imessage/chat-image-placeholder.jpg','You\x20generate\x20one\x20public\x20social\x20feed\x20post\x20for\x20a\x20fictional\x20character.\x20Output\x20only\x20valid\x20JSON.','categoryName','title','abort','autonomous','api-','hidden','group_friend_private_chats','translation','startsWith','action','runLinkedAccountBotNow','extractTaggedBlock','packet','\x20睡觉','\x0a\x0a此群内允许发言的成员名单（除用户外）：\x0a','。\x0a【自然扮演提示】：请像这个人真的在和\x20User\x20聊天一样说话，让你的核心设定自然体现在语气、边界、主动性、情绪反应和话题选择里，而不是机械复述人设。\x0a【关系与记忆使用方式】：Character\x20Memory\x20是你的过往经历和关系背景，不需要每次都主动提起或强行关联。只有当\x20User\x20的话题、情绪、称呼、细节或当前氛围自然触发时，才让相关记忆影响你的态度、称呼、距离感、心声或表达欲；如果没有被触发，就专注承接当下对话。','stringify','contact:','affectionChange','silent','<relationship_network>\x0a','cancelText','parseJsonArrayFromText','暂无动作','0.5','group_private_to_user','endpoint','showBannerNotification','group_private_messages','member','\x0a\x0aCharacter:\x0aName:\x20','【自主活动触发】\x0a这不是\x20User\x20刚刚发来的消息，而是\x20','avatarUrl','system_notification','sleepTime','longTerm','表情包','\x0a\x0a本轮要求：\x0a1.\x20必须注意上下文里的时间戳，先判断上一轮消息是什么时候、现在是什么时候、这段时间你可能在做什么。\x0a2.\x20如果\x20User\x20在你上一轮之后一直没回复，可以自然地问\x20User\x20在干嘛、怎么没回，或报备你现在正在做什么；不要像客服催促。\x0a3.\x20如果最近话题没有结束，要承接上一轮；如果间隔较久，可以开启自然的新话题或分享身边状态。\x0a4.\x20输出\x202-8\x20条独立聊天气泡，必须继续遵守原本\x20<chat_json>\x20JSON\x20输出格式。','None','name','\x0a\x0a【群聊时间感知】：\x0a-\x20当前系统时间是：','action_narration','。\x0a-\x20User\x20回复前，你自己最近一次发消息时间：','classList','assistant','AI\x20消息保存失败','<cherished_memories>\x0a','style','group_red_packet','假网页','\x20触发给\x20User\x20发私信时，必须优先参考这一段单聊记忆来衔接内容，但私信内容仍不能让其他群成员默认知情。\x0a','replace','offline','\x0aRecent\x20Events:\x0a','payKind','longTermEntries','\x20于\x20','slice','updateFriendMessage','pay_transfer','\x0aUser\x20上一次发消息时间：','getDate','\x0a角色人设：','category','getTime','nextRunAt','existingThreadReplies','\x20\x22text\x22\x20in\x20the\x20\x22translation\x22\x20field.\x0a-\x20[THOUGHT]:\x20The\x20\x22thought\x22\x20field\x20MUST\x20remain\x20in\x20Chinese.','addOrUpdateFamilyCard','stickerUrl','linked-','before_role','string','threadId','moments','signature','html','detail','mountSettings','voice_message','你已退出该群，不能发送消息','wakeTime','\x0a\x0a只允许以下这些成员发言：\x0a','垂下眼','application/json','memoryPoints','startup','<extra_context_notes>\x0a','shopping_orders','isNaN','senderAvatarUrl','getFullYear','linkedChatId','family_card','pending','。\x0a-\x20接下来的回复必须表现为群成员之间继续聊天，不要对\x20User\x20说话、不要等待\x20User\x20回复、不要让\x20User\x20发送消息。\x0a-\x20已挂载的单聊记忆仍然只属于对应成员本人：某个成员可以基于自己和\x20User\x20的私聊经历自然表达态度，其他成员默认不知道这些私聊内容，除非该成员主动在群里说出。','speakerMemberId','char','friendMessages','url','has','[表情]\x20','\x0a\x0a【',',\x20whose\x20persona\x20is:\x20','getTogetherReadingContext','maxIntervalMinutes','normalizeProfilePanelPayload','loves_schedule','visibilitychange','display','动描保存失败','\x20本人与\x20User，其他群成员默认不知道。','round','action_notice','78HnbkPa','\x0a【作息限制】：角色当前正在睡觉。如果用户发来消息，你必须强制保持离线状态并在所有回复内容（text\x20字段）的开头添加\x20\x22[自动回复]\x20\x22\x20前缀，模拟已睡着或离线时的自动响应。心声和面板状态也要符合睡着的情境。','offlineAction','\x20/\x20','9317808fQvDUK','split','[iMessage]\x20Failed\x20to\x20persist\x20a\x20group-derived\x20private\x20message','contains','controlTogetherListening','trackId','\x0a</memories>\x0a</short_term_memory_library>','\x20退出这个群聊，现在不能发言，也不会看到接下来的群聊内容。\x0a-\x20当前群成员快照：','getMonth','代付消息保存失败','代付请求已发送','user_to_char','leftGroupMemberSnapshot','apiKey','\x20~\x20','handleSend','source','getEffectivePersonaForFriend','createRedPacketAllocations','reverse','normalizeFriendData','\x0a你上一轮消息时间：','substring','runAutonomousActivityForFriend','>([\x5cs\x5cS]*?)<\x5c/','call','不到1分钟','ensureStickersReady','startTime','\x0aExpression:\x20','toFixed','，现在要为这个角色生成\x201\x20条公开朋友圈文案。\x0a当前真实时间：','高权重记忆\x20|\x20参考强度\x2070%','background-tick','fakeLinkData','｜User：','confirmText','voice','context','【iCloud行程】添加了:\x20','imChat','shortTermEntries','\x0a</short_term_memories>','friends','relationships','reason','\x0a</long_term_memories>','你发了一个表情包：','</content>\x0a<detail>','normalizeGroupSpeaker','includes','ensureFriendMessagesLoaded','next','```json','\x0a【行程限制】：角色当前正在进行行程安排：“','flushFriendSave','system_depth','opacity','Available\x20Stickers\x20(only\x20use\x20these\x20exact\x20category/name\x20pairs\x20when\x20outputting\x20sticker\x20JSON):\x0a','\x0a\x0a关系网络：\x0a','json','kind','Failed\x20to\x20parse\x20loves_schedule:','paymentAction','才回复你）','manual','\x0a\x0aRelationship\x20Network:\x0a','random','\x20刚刚更新了一条动态','set','getHours','temperature','renderMoments','payment','269702Pblxid','commitScopedFriendChange','」之间的单聊记忆/私聊上下文，不是当前群聊内公开发生的消息。\x0a使用规则：\x0a-\x20只有\x20','relation','map','”。如果用户发来消息，你必须强制在所有回复内容（text\x20字段）的开头添加\x20\x22[自动回复]\x20\x22\x20前缀，模拟正在忙碌时的自动响应。心声和面板状态也要符合正在忙碌的情境。','after_role','type','pendingRegenerateContext','profile_panel','min','toString','192873mtEqnl','【本轮触发：User\x20没有回复】User\x20没有发送新消息。请让群成员基于最近群聊上下文继续自然说话，可以承接上一句、回应沉默、成员互相接话或开启符合关系的新话题；不要等待\x20User，不要输出空内容；仍必须输出合法\x20<chat_json>\x20JSON\x20数组。','消息保存失败','\x0a</relationship_network>','[支付]\x20','linked-chat','newThreads','normalizeAutonomousActivity','minIntervalMinutes','\x0a\x0aRelationship\x20Network\x20Candidates\x20For\x20New\x20Linked\x20Friend\x20Chats:\x0a','stickerName','processPendingGroupRedPackets','[表情包]\x20','00:00','恭喜发财','empty_user_continue','</degree>','memberProfiles','memory','generated:','lovesApp','schedule','作息时间：','object','image','left_group_continue','translationZh','2430CoMPsC','warn','Failed\x20to\x20parse\x20loves_moment:','currentReplyText','\x0a\x0aCharacter\x20Memory\x20And\x20Linked\x20Friend\x20Memory:\x0a','msg','senderMemberId','all','reply','generatedRecipient','requestText','events','\x0a\x0a角色后规则：\x0a','\x0a\x0a【!!!\x20CRITICAL\x20LANGUAGE\x20RULE\x20/\x20绝对最高优先级语言指令\x20!!!】:\x0a-\x20[ABSOLUTE\x20REQUIREMENT]:\x20You\x20MUST\x20speak\x20ONLY\x20in\x20','\x0a\x0a请优先参考这段要求理解\x20User\x20为什么重回、希望你换成怎样的回复方向；如果它和人设、上下文或输出格式冲突，以人设、上下文和输出格式为准，但仍尽量满足\x20User\x20的真实意图。','recipientId','getDay','rerenderChatContainer','className','Memory','CHAT_IMAGE_PLACEHOLDER_URL','3374448TAriKN','normalizeLinkedAccountChats','当前\x20User\x20已退出群聊：后续回复不要把\x20User\x20当作在线参与者。','fileName','[转账相关消息]\x20','isCharacterSleeping','[iMessage\x20autonomous\x20activity]\x20failed','```','\x20本人可以在自己的公开发言、心声或给\x20User\x20的私信中参考这些记忆，用来承接私人关系、称呼、语气、前文和共同经历。\x0a-\x20其他群成员不是全知视角，默认完全不知道这些私聊内容；除非\x20','commitFriendsChange','img','新的事件','handleAiReply','date','siteName','Current\x20Profile\x20Panel\x20Snapshot:\x0aOnline\x20Status:\x20','。\x0a-\x20User\x20最后一次发消息时间：','Name:\x20','#chat-interface-','【Loves】','中权重记忆\x20|\x20参考强度\x2025%','dynamic_action','未知位置','</title>','apiConfig','appendChild','u2:linked-accounts-changed','mountLimits','getWorldBookContextForFriendByPosition','renderImageBubble','\x0aNickname:\x20','choices','群成员','statusText','buildApiContextMessages','.typing-row','</detail>\x0a<reason>','trim','parentNode','createDefaultMemory','speakerMessages','imApp','linked','querySelectorAll','parse','pay_for_friend','forEach','nickname','。\x0a-\x20群聊最后一条公开消息距离现在：','【本轮触发：User\x20没有回复】User\x20没有发送新消息。请以\x20','\x22\x20的群聊。','location','npc','createElement','typing-row','Schedule\x20/\x20行程作息:\x0a','items','<memory>\x0a<title>','language','aborted','linked:','想珍藏这一刻','normalizeAutonomousTask','recall','重回失败','message','floor','</title>\x0a<content>','rejectIncomingTransfer','[语音消息]\x20','chat-row\x20ai-row\x20typing-row','npcId','div','mountedStickers','avatarSeed','updatedAt','from','lastActivatedAt','account','memoryPayload','setItem','pay','低权重记忆\x20|\x20参考强度\x205%','<long_term_memories>\x0a','completed','createRecalledNoticeMessage','[Linked\x20Friends]\x20API\x20request\x20failed','status','\x0aLocation:\x20','空气静了静。','char_to_user_pending','delta','/v1/chat/completions','\x0aAffection(好感度):\x20','/chat/completions','profilePanel','[转账]\x20','getGlobalWorldBookContextByPosition','offlineMeetEnabled','expression','speaker','commitFriendChange','sourceEventId','.reply-preview-container','getProfilePanelData','remove','renderVoiceMessageBubble','AbortError','暂无心声','apiRunId','」（ID:\x20','moment','\x0a\x0aProfile\x20Panel\x20Requirement:\x0a-\x20在正常聊天气泡之外，你必须额外输出\x201\x20个\x20<profile_panel>...</profile_panel>\x0a-\x20<profile_panel>\x20内必须是合法\x20JSON，不能有\x20markdown\x20代码块，不能有额外解释文字\x0a-\x20JSON\x20必须包含字段：thought、location、action、mood、expression、affectionChange、events\x0a-\x20【中文强制】thought、location、action、mood、expression、events\x20以及\x20memoryPayload\x20内所有可见文本必须使用简体中文；禁止输出英文、日文、韩文、法文等非中文内容，不受默认语言设置影响\x0a-\x20thought\x20必须是\x2045-60\x20字左右，严格基于当前聊天上下文，使用第一人称，像角色此刻没有说出口的心声，并且你必须在心声的最前面带上当前的具体时间（例如：[6月11日\x20凌晨2:14]\x20心声内容）\x0a-\x20location\x20必须是\x202-16\x20字，表示角色此刻所处的位置或场景\x0a-\x20action\x20必须是\x202-10\x20字，表示角色此刻正在做的动作或状态\x0a-\x20mood\x20必须是\x202-10\x20字，表示角色此刻的心情\x0a-\x20expression\x20必须是\x202-10\x20字，表示角色此刻的面部表情或神态\x0a-\x20affectionChange\x20必须是整数（范围\x20-5\x20到\x205），表示你对用户好感度因本轮对话产生的增减变化\x0a-\x20不要输出\x20online/offline\x20或类似在线状态文案，在线状态由系统统一控制并在界面显示为中文\x0a-\x20events\x20必须是\x20JSON\x20数组；如果当前没有新的事件就输出\x20[]；如果有事件，最多\x203\x20条\x0a-\x20普通事件格式为\x20{\x22title\x22:\x22事件标题\x22,\x22description\x22:\x22事件描述\x22,\x22time\x22:\x22时间或留空\x22,\x22type\x22:\x22note\x22}\x0a-\x20珍视回忆必须由你（当前角色/char）自己发起：只有当你基于自己的感受，觉得刚刚这段聊天很在意、很珍贵、自己想以后记住时，才额外加入\x201\x20条珍视回忆事件，type\x20必须为\x20\x22memory_request\x22\x0a-\x20不要把珍视回忆写成外部指令、替对方保存、接受要求或向对方请求许可；即使对方提到保存或记忆相关内容，也只在你自己也真心想珍藏时才输出\x0a-\x20珍视回忆事件格式为\x20{\x22title\x22:\x22想珍藏这一刻\x22,\x22description\x22:\x22一句简短说明\x22,\x22time\x22:\x22时间或留空\x22,\x22type\x22:\x22memory_request\x22,\x22requestText\x22:\x22我想记住的具体事情\x22,\x22detail\x22:\x22我为什么想记住或补充细节\x22,\x22confirmText\x22:\x22收下\x22,\x22cancelText\x22:\x22算了\x22,\x22memoryPayload\x22:{\x22title\x22:\x22珍视回忆标题\x22,\x22content\x22:\x22我想记住的内容\x22,\x22detail\x22:\x22更多细节\x22,\x22reason\x22:\x22我想记住的原因\x22,\x22createdAt\x22:\x22时间或留空\x22,\x22sourceThought\x22:\x22可留空\x22}}\x0a-\x20只有当你真的觉得值得自己记住时才输出\x20memory_request，不能每次都输出\x0a-\x20thought、location、action、mood、expression、events\x20必须和当前聊天内容连贯，不能复读，不能脱离角色人设','\x20\x20<title>','renderSystemNoticeBubble','showToast','leftGroupAt','thoughtHistory','isFinite','[语音]\x20','function','\x0a\x0a群聊特定规则：\x0a1.\x20请根据上下文和群成员性格进行回复，所有群员都必须参与回复，除非群聊人数大于10人则挑选5-8人回复。\x0a2.\x20你会在下面看到带说话人标记的最近聊天记录。你必须认真参考“谁刚刚说了什么”，不能忽略成员自己的上一轮发言，不能像失忆一样重复、改口或无缘无故换立场。\x0a3.\x20同一个成员如果刚刚自己表达过观点、情绪、计划、态度、称呼对象，本轮继续发言时必须与其最近发言保持连续性，除非有明确的新消息让他改变想法。\x0a4.\x20回复时优先承接最近几条消息中的具体对象、话题、称呼、问题和情绪，不要只对最后一条做泛泛回应。\x0a5.\x20【强限制】：严禁使用名单之外的名字发言，严禁虚构新成员，严禁让\x20User\x20冒充群成员发言。\x0a6.\x20【输出格式】：必须把聊天气泡放在\x20<chat_json>\x20和\x20</chat_json>\x20标签内，标签内只能是合法\x20JSON\x20数组，不能有\x20markdown\x20代码块，不能有解释文字。\x0a7.\x20【重要】如果群员想要发红包，或者你觉得气氛到了该发红包了，可以输出红包对象格式：{\x22type\x22:\x22red_packet\x22,\x22speaker\x22:\x22发红包的成员名\x22,\x22amount\x22:100,\x22count\x22:5,\x22description\x22:\x22红包封面语\x22}。\x0a8.\x20普通文本气泡格式必须为\x20{\x22type\x22:\x22text\x22,\x22speaker\x22:\x22成员名\x22,\x22text\x22:\x22气泡内容\x22,\x22thought\x22:\x22该成员此刻的心理活动，10-30字心声，基于当前聊天上下文\x22,\x22translation\x22:\x22中文翻译或空字符串\x22,\x22quote\x22:\x22被引用内容或空字符串\x22}。\x0a8a.\x20语音气泡格式可以为\x20{\x22type\x22:\x22voice\x22,\x22speaker\x22:\x22成员名\x22,\x22text\x22:\x22语音内容\x22,\x22thought\x22:\x22该成员此刻的心理活动，10-30字心声，基于当前聊天上下文\x22,\x22translation\x22:\x22中文翻译或空字符串\x22,\x22quote\x22:\x22被引用内容或空字符串\x22}。\x0a8b.\x20表情包格式可以为\x20{\x22type\x22:\x22sticker\x22,\x22speaker\x22:\x22成员名\x22,\x22category\x22:\x22分类名\x22,\x22name\x22:\x22表情包名\x22,\x22thought\x22:\x22该成员此刻的心理活动，10-30字心声，基于当前聊天上下文\x22}；只能使用\x20Available\x20Stickers\x20中列出的已绑定分类和名称。\x0a8c.\x20图片格式可以为\x20{\x22type\x22:\x22image\x22,\x22speaker\x22:\x22成员名\x22,\x22description\x22:\x22图片内容文字\x22,\x22thought\x22:\x22该成员此刻的心理活动，10-30字心声，基于当前聊天上下文\x22}；图片会使用系统默认图展示，description\x20必须具体描述这张图的内容。\x0a8d.\x20【真人撤回行为】：群成员可以像真人聊天一样偶尔手滑打错字、叫错名字、把话发给错人，或在冲动表达、暴露真心、说得太重、越过关系边界后突然反悔撤回。要模拟“先发出去再撤回”，必须先输出一条普通\x20text\x20气泡，紧接着输出同一\x20speaker\x20的\x20recall\x20对象，并且\x20recall.text\x20必须与上一条被撤回气泡的\x20text\x20完全一致。打错字后可以再补发一条自然的更正；反悔后可以沉默、装作无事发生、含糊解释或换一句更克制的话，不必每次都解释。格式示例：{\x22type\x22:\x22text\x22,\x22speaker\x22:\x22成员名\x22,\x22text\x22:\x22你今晚来找她吧\x22,\x22thought\x22:\x22突然发现自己打错了字\x22,\x22translation\x22:\x22\x22,\x22quote\x22:\x22\x22},{\x22type\x22:\x22recall\x22,\x22speaker\x22:\x22成员名\x22,\x22text\x22:\x22你今晚来找她吧\x22},{\x22type\x22:\x22text\x22,\x22speaker\x22:\x22成员名\x22,\x22text\x22:\x22打错了，是来找我\x22,\x22thought\x22:\x22有点尴尬但想装作自然\x22,\x22translation\x22:\x22\x22,\x22quote\x22:\x22\x22}。撤回只能偶尔发生，必须由当下情绪和人设触发，禁止每轮固定撤回或为了展示功能而撤回。\x0a9.\x20speaker\x20必须且只能使用以上允许发言名单中的完整准确名字。\x0a10.\x20translation\x20只能翻译当前这一条\x20text；如果\x20text\x20不是中文，translation\x20必须填写自然中文翻译；如果\x20text\x20本身是中文，translation\x20必须是空字符串。\x0a11.\x20quote\x20只有在你确实想引用用户或上一条消息时才填写，否则必须是空字符串。\x0a12.\x20【心声要求】：thought\x20字段必须使用自然中文填写该发言成员此刻的真实心理活动或未说出口的话，字数严格在10-30字之间；不受默认语言设置影响，禁止使用英文、日文、韩文、法文等非中文内容。\x0a13.\x20【User\x20未回复也必须继续】：如果本轮没有\x20User\x20新发言，或触发来源是\x20AI继续/空输入/自动续写/角色主动说话，你仍然必须让群成员继续自然聊天；不要等待\x20User、不要输出空内容、不要说“用户没有输入”，可以承接上一句、回应沉默、成员互相接话或开启符合当前关系的新话题。\x0a14.\x20【群聊衍生私信｜严格按需】：群成员只有在自己明确觉得某些话不适合公开说、不能让其他成员知道，或必须避开群内其他人单独告诉\x20User\x20时，才可以在本轮群聊回复之外给\x20User\x20发私信。普通寒暄、公开可说的话、对群消息的常规回应不得转成私信；私信也不得复制群内公开回复。\x0a15.\x20如果没有真实且具体的保密动机，完全不要输出私信标签。需要私信时，在\x20<chat_json>...</chat_json>\x20之外额外输出且只输出一个\x20<group_private_messages>...</group_private_messages>\x20标签，标签内必须是合法\x20JSON\x20数组，格式为：[{\x22speaker\x22:\x22成员完整准确名字\x22,\x22messages\x22:[{\x22text\x22:\x22第一条私信\x22,\x22translation\x22:\x22中文翻译或空字符串\x22},{\x22text\x22:\x22第二条私信\x22,\x22translation\x22:\x22中文翻译或空字符串\x22}]}]。\x0a16.\x20每个发私信的成员必须属于允许发言名单，每名成员必须连续发送\x202-5\x20条私信；可以有多名成员，但每个人都必须有独立且合理的保密动机。发给\x20User\x20的私信必须站在该\x20speaker\x20本人的视角，优先参考该\x20speaker\x20自己的挂载单聊记忆来衔接称呼、私人关系、前文和语气；严禁引用其他成员的单聊记忆。其他成员不知道这些私信内容，后续群聊也不得默认其他成员已经知情。\x0a17.\x20【成员与自己好友的私聊｜可选】：当群内话题、人设、关系或刚发生的事情让某位群成员自然地想联系自己的好友时，可以额外生成好友私聊。优先选择\x20relationshipCandidates；没有合适关系网对象时可复用\x20linkedCandidates。只有\x20canGeneratePrivateFriend\x20为\x20true\x20且现有私有联系人也不合适时，才可按该成员人设创造一个合理的新好友。\x0a18.\x20需要生成时，在\x20<chat_json>...</chat_json>\x20之外额外输出且只输出一个\x20<group_friend_private_chats>...</group_friend_private_chats>\x20标签。已有关系网好友使用\x20recipientId；已有私有联系人使用\x20linkedChatId；生成新好友使用\x20generatedRecipient，三者只能选一个。格式示例：[{\x22speaker\x22:\x22群成员完整准确名字\x22,\x22recipientId\x22:\x22关系网候选准确ID\x22,\x22rounds\x22:[{\x22speakerMessages\x22:[{\x22text\x22:\x22群成员发给好友的原文\x22,\x22translation\x22:\x22非中文原文的自然中文翻译；中文则空字符串\x22}],\x22friendMessages\x22:[{\x22text\x22:\x22好友回复的原文\x22,\x22translation\x22:\x22非中文原文的自然中文翻译；中文则空字符串\x22}]}]},{\x22speaker\x22:\x22群成员完整准确名字\x22,\x22linkedChatId\x22:\x22已有私有联系人准确ID\x22,\x22rounds\x22:[...]},{\x22speaker\x22:\x22群成员完整准确名字\x22,\x22generatedRecipient\x22:{\x22realName\x22:\x22真实姓名\x22,\x22remark\x22:\x22该成员给此人的备注\x22,\x22persona\x22:\x22人物设定\x22,\x22relationship\x22:\x22与该成员的关系\x22},\x22rounds\x22:[...]}]。\x0a19.\x20每段好友私聊必须有\x202-4\x20轮完整往返。每一轮先由群成员连续发送\x202-5\x20条\x20speakerMessages，再由好友连续回复\x202-5\x20条\x20friendMessages；每条消息都必须是\x20{\x22text\x22:\x22原文\x22,\x22translation\x22:\x22中文翻译或空字符串\x22}。如果\x20text\x20不是中文，translation\x20必须填写自然中文翻译；如果\x20text\x20本身是中文，translation\x20必须是空字符串。消息必须承接上一轮，形成真实连续的私聊，不能是互不相关的句子。\x0a20.\x20speaker\x20必须是当前群成员；recipientId\x20或\x20linkedChatId\x20必须来自该\x20speaker\x20对应候选。generatedRecipient\x20只在\x20canGeneratePrivateFriend\x20为\x20true\x20时有效，并且姓名、关系、人设必须互相一致且不能复制已有联系人。每段好友私聊只属于发送成员与收件好友，其他群成员默认不知道内容，后续不得串用。','handleAiReply\x20invoked','renderTimestamp','\x0a\x0aWorld\x20Book\x20-\x20After\x20Role:\x0a','lovesData','stickers','currentActiveFriend','。\x0a-\x20回复前所有发言成员都必须感知现在的具体日期、时间段、距离上次群聊过去多久，以及这段间隔对情绪、动作、称呼和话题承接的影响；但如果间隔很短，不要刻意提时间，只把它作为背景。','｜成员ID：','A\x20normal\x20user','<short_term_memory>\x0a<title>','currentFriend','\x0a上一条消息来自：','match','transfer','contact','\x20聊天，其人设为:\x20','scheduleFriendSave','get','sourceThought','hasFamilyCard','\x0aUser\x20名称：','\x0aThought:\x20','sticker','Failed\x20to\x20update\x20shopping\x20order\x20status:','[时间：','generated','linkedAccountBot','长期记忆','normalizeScheduleEvent','API\x20返回内容为空或格式不兼容:\x20'];_0x3c7d=function(){return _0x42a253;};return _0x3c7d();}function _0x24d9(_0x30fcde,_0x463c89){_0x30fcde=_0x30fcde-0x1f2;const _0x3c7d1a=_0x3c7d();let _0x24d9e4=_0x3c7d1a[_0x30fcde];return _0x24d9e4;}(function(_0x179455,_0x12d95a){const _0x2e1b0e=_0x24d9,_0x514810=_0x179455();while(!![]){try{const _0x45f830=-parseInt(_0x2e1b0e(0x461))/0x1+parseInt(_0x2e1b0e(0x342))/0x2*(-parseInt(_0x2e1b0e(0x46d))/0x3)+-parseInt(_0x2e1b0e(0x2b4))/0x4+-parseInt(_0x2e1b0e(0x488))/0x5+parseInt(_0x2e1b0e(0x413))/0x6*(parseInt(_0x2e1b0e(0x2c5))/0x7)+-parseInt(_0x2e1b0e(0x206))/0x8+parseInt(_0x2e1b0e(0x417))/0x9;if(_0x45f830===_0x12d95a)break;else _0x514810['push'](_0x514810['shift']());}catch(_0x3e1d9c){_0x514810['push'](_0x514810['shift']());}}}(_0x3c7d,0x34d72),document[_0x255208(0x388)]('DOMContentLoaded',()=>{const _0x34c67b=_0x255208;window[_0x34c67b(0x43f)]=window[_0x34c67b(0x43f)]||{};const _0x45bafe=window[_0x34c67b(0x43f)];function _0x43f991(_0x5b7fde){const _0x422a29=_0x34c67b;return(window['imData'][_0x422a29(0x442)]||[])[_0x422a29(0x382)](_0x499054=>String(_0x499054['id'])===String(_0x5b7fde))||null;}const _0x4b94d6=new Set(),_0x5791bd=new Map(),_0x4e5c7a=new Map(),_0x31dcf5=new Set(),_0x4c8d0c=new Set();function _0x10e61a(_0x43ccf1){const _0x21f8c9=_0x43ccf1&&typeof _0x43ccf1==='object'?_0x43ccf1['id']:_0x43ccf1;return _0x21f8c9==null?'':String(_0x21f8c9);}function _0xff42ff(_0x455e6c){const _0x153609=_0x34c67b,_0x1a5d52=_0x10e61a(_0x455e6c);return _0x1a5d52?_0x4e5c7a[_0x153609(0x291)](_0x1a5d52)||0x0:0x0;}function _0x15543e(_0x3caea8){const _0x45e460=_0x34c67b,_0x20e41f=_0x10e61a(_0x3caea8);if(!_0x20e41f)return![];_0x4e5c7a[_0x45e460(0x45c)](_0x20e41f,_0xff42ff(_0x20e41f)+0x1);const _0x13467d=_0x5791bd[_0x45e460(0x291)](_0x20e41f);if(_0x13467d)_0x13467d[_0x45e460(0x3a3)]();_0x5791bd['delete'](_0x20e41f),_0x4b94d6[_0x45e460(0x336)](_0x20e41f);const _0xe45d6d=document['getElementById']('chat-interface-'+_0x20e41f);return _0xe45d6d?.[_0x45e460(0x231)](_0x45e460(0x229))['forEach'](_0x7e6171=>_0x7e6171['remove']()),!![];}function _0x338f84(_0x456c06){const _0x1c0295=_0x34c67b;return window[_0x1c0295(0x22f)]?.[_0x1c0295(0x244)]?window[_0x1c0295(0x22f)][_0x1c0295(0x244)](_0x456c06):{'enabled':!!_0x456c06?.[_0x1c0295(0x339)],'minIntervalMinutes':Math[_0x1c0295(0x367)](0x1,Math[_0x1c0295(0x411)](Number(_0x456c06?.[_0x1c0295(0x475)])||0x1e)),'maxIntervalMinutes':Math[_0x1c0295(0x367)](Math[_0x1c0295(0x367)](0x1,Math[_0x1c0295(0x411)](Number(_0x456c06?.[_0x1c0295(0x475)])||0x1e)),Math[_0x1c0295(0x411)](Number(_0x456c06?.[_0x1c0295(0x40a)])||0xf0)),'nextRunAt':Math[_0x1c0295(0x367)](0x0,Number(_0x456c06?.[_0x1c0295(0x3e2)])||0x0),'lastRunAt':Math[_0x1c0295(0x367)](0x0,Number(_0x456c06?.[_0x1c0295(0x39b)])||0x0)};}function _0x5da571(_0x4deced){const _0x49ad10=_0x34c67b;return window[_0x49ad10(0x22f)]?.[_0x49ad10(0x474)]?window['imApp'][_0x49ad10(0x474)](_0x4deced):{'reply':_0x338f84(_0x4deced?.['reply']||_0x4deced),'moment':_0x338f84(_0x4deced?.[_0x49ad10(0x275)])};}function _0x59fa65(_0x5ad1ed,_0x2c9679){const _0x593e56=_0x5da571(_0x5ad1ed);return _0x338f84(_0x593e56[_0x2c9679]);}function _0x2108b1(_0x220286){const _0x460c30=_0x34c67b,_0x47b32c=_0x338f84(_0x220286),_0x2336e8=Math[_0x460c30(0x367)](0x1,Number(_0x47b32c['minIntervalMinutes'])||0x1e),_0x35138c=Math[_0x460c30(0x367)](_0x2336e8,Number(_0x47b32c[_0x460c30(0x40a)])||0xf0),_0x583c7a=_0x2336e8+Math['floor'](Math[_0x460c30(0x45a)]()*(_0x35138c-_0x2336e8+0x1));return _0x583c7a*0x3c*0x3e8;}function _0xc78740(_0x556df9){const _0x2a8731=_0x34c67b,_0x2cc132=Number(_0x556df9)||0x0;if(_0x2cc132<=0x0)return'未知';const _0x25fa0b=new Date(_0x2cc132);if(Number[_0x2a8731(0x3fa)](_0x25fa0b['getTime']()))return'未知';return _0x25fa0b[_0x2a8731(0x3fc)]()+'年'+(_0x25fa0b[_0x2a8731(0x41f)]()+0x1)+'月'+_0x25fa0b[_0x2a8731(0x3de)]()+'日\x20'+String(_0x25fa0b['getHours']())[_0x2a8731(0x2d6)](0x2,'0')+':'+String(_0x25fa0b[_0x2a8731(0x331)]())[_0x2a8731(0x2d6)](0x2,'0');}function _0x4ce8b9(_0x2caf38,_0x312715=Date['now']()){const _0x389654=_0x34c67b,_0x2410e5=Number(_0x2caf38)||0x0,_0x5346a4=Number(_0x312715)||0x0;if(_0x2410e5<=0x0||_0x5346a4<=0x0||_0x5346a4<_0x2410e5)return'未知';const _0x5a69c6=Math[_0x389654(0x367)](0x0,Math['floor']((_0x5346a4-_0x2410e5)/0xea60));if(_0x5a69c6<0x1)return _0x389654(0x431);if(_0x5a69c6<0x3c)return _0x5a69c6+'分钟';const _0x1e26aa=Math[_0x389654(0x248)](_0x5a69c6/0x3c),_0x41acb4=_0x5a69c6%0x3c;if(_0x1e26aa<0x18)return _0x41acb4?_0x1e26aa+'小时'+_0x41acb4+'分钟':_0x1e26aa+'小时';const _0x77f8d3=Math['floor'](_0x1e26aa/0x18),_0x41f633=_0x1e26aa%0x18;return _0x41f633?_0x77f8d3+'天'+_0x41f633+'小时':_0x77f8d3+'天';}function _0x17f6c5(_0x139af9){const _0x5be2fd=_0x34c67b;if(!_0x139af9)return'';if(_0x139af9[_0x5be2fd(0x468)]===_0x5be2fd(0x296))return(_0x5be2fd(0x406)+(_0x139af9[_0x5be2fd(0x2e9)]?_0x139af9[_0x5be2fd(0x2e9)]+_0x5be2fd(0x416):'')+(_0x139af9[_0x5be2fd(0x477)]||_0x139af9[_0x5be2fd(0x306)]||''))[_0x5be2fd(0x22b)]();if(_0x139af9['type']===_0x5be2fd(0x485))return(_0x5be2fd(0x2ee)+(_0x139af9[_0x5be2fd(0x30b)]||_0x139af9['text']||_0x139af9[_0x5be2fd(0x2a9)]||''))[_0x5be2fd(0x22b)]();if(_0x139af9['type']==='fake_link'){const _0x422e36=_0x139af9[_0x5be2fd(0x439)]||{},_0x273992=_0x422e36[_0x5be2fd(0x35f)]||_0x422e36[_0x5be2fd(0x2a6)]||'';return(_0x5be2fd(0x34a)+(_0x422e36[_0x5be2fd(0x214)]||_0x5be2fd(0x3d2))+'：'+(_0x422e36['title']||_0x139af9['content']||'')+(_0x273992?'\x0a'+String(_0x273992)['slice'](0x0,0x4b0):_0x5be2fd(0x385)))[_0x5be2fd(0x22b)]();}if(_0x139af9['type']===_0x5be2fd(0x3f0))return(_0x5be2fd(0x27d)+(_0x139af9[_0x5be2fd(0x304)]||_0x139af9['text']||_0x139af9[_0x5be2fd(0x2a9)]||''))[_0x5be2fd(0x22b)]();if(_0x139af9[_0x5be2fd(0x468)]==='pay_transfer')return(_0x5be2fd(0x266)+(_0x139af9['description']||_0x139af9['content']||''))[_0x5be2fd(0x22b)]();return String(_0x139af9[_0x5be2fd(0x2a9)]||_0x139af9[_0x5be2fd(0x306)]||_0x139af9[_0x5be2fd(0x30b)]||'')[_0x5be2fd(0x22b)]();}function _0x91d109(_0x429b87,_0x494dae=Date[_0x34c67b(0x354)]()){const _0x5006bf=_0x34c67b,_0x5dd463=Array['isArray'](_0x429b87?.[_0x5006bf(0x2c3)])?_0x429b87['messages']:[],_0x4e98f8=_0x5dd463[_0x5006bf(0x2e3)]>0x0?_0x5dd463[_0x5dd463['length']-0x1]:null,_0x36616c=_0x5dd463[_0x5006bf(0x3da)]()[_0x5006bf(0x42a)]()[_0x5006bf(0x382)](_0x579c16=>_0x579c16&&_0x579c16[_0x5006bf(0x39e)]===_0x5006bf(0x347))||null,_0x1ca4ca=_0x5dd463[_0x5006bf(0x3da)]()[_0x5006bf(0x42a)]()[_0x5006bf(0x382)](_0x394982=>_0x394982&&_0x394982[_0x5006bf(0x39e)]===_0x5006bf(0x3cd))||null,_0x4bed97=!!_0x1ca4ca&&(!_0x36616c||Number(_0x1ca4ca[_0x5006bf(0x386)])>Number(_0x36616c[_0x5006bf(0x386)])),_0x3c9c8d=_0x429b87?.[_0x5006bf(0x323)]||_0x429b87?.[_0x5006bf(0x235)]||'你';return _0x5006bf(0x3c0)+_0x3c9c8d+_0x5006bf(0x2e0)+_0xc78740(_0x494dae)+_0x5006bf(0x395)+(_0x4e98f8?_0xc78740(_0x4e98f8[_0x5006bf(0x386)]):'暂无')+(_0x4e98f8?_0x5006bf(0x365)+_0x4ce8b9(_0x4e98f8[_0x5006bf(0x386)],_0x494dae):'')+_0x5006bf(0x3dd)+(_0x36616c?_0xc78740(_0x36616c[_0x5006bf(0x386)]):'暂无')+(_0x36616c?_0x5006bf(0x365)+_0x4ce8b9(_0x36616c['timestamp'],_0x494dae):'')+_0x5006bf(0x42c)+(_0x1ca4ca?_0xc78740(_0x1ca4ca[_0x5006bf(0x386)]):'暂无')+(_0x1ca4ca?'，距现在约\x20'+_0x4ce8b9(_0x1ca4ca['timestamp'],_0x494dae):'')+_0x5006bf(0x28b)+(_0x4e98f8?.[_0x5006bf(0x39e)]==='user'?_0x5006bf(0x32f):_0x4e98f8?.[_0x5006bf(0x39e)]==='assistant'?_0x3c9c8d:'未知')+'\x0a上一条消息内容：'+(_0x17f6c5(_0x4e98f8)||'暂无')+_0x5006bf(0x3c6);}function _0x4cbedd(_0x57013a){const _0x375f20=_0x34c67b,_0x1632b3=_0x375f20(0x3a5)+(_0x57013a||'chat');return window[_0x375f20(0x43f)][_0x375f20(0x31a)]?window[_0x375f20(0x43f)][_0x375f20(0x31a)](_0x1632b3):_0x1632b3+'-'+Date['now']()+'-'+Math[_0x375f20(0x45a)]()[_0x375f20(0x46c)](0x24)[_0x375f20(0x3da)](0x2,0x8);}function _0x1db402(_0x14ab8a,_0x13de83){const _0x31d4d7=_0x34c67b;if(!_0x14ab8a)return![];const _0x134b5b=String(_0x14ab8a[_0x31d4d7(0x3a2)]||'')['trim'](),_0x1d9f4d=String(_0x14ab8a[_0x31d4d7(0x3f6)]||'')[_0x31d4d7(0x22b)](),_0x38440d=String(_0x14ab8a['keyword']||'')[_0x31d4d7(0x22b)]();if(_0x38440d&&_0x13de83['includes'](_0x38440d))return!![];if(_0x134b5b&&_0x134b5b!=='对话总结'&&_0x134b5b!==_0x31d4d7(0x2fa)&&_0x134b5b!==_0x31d4d7(0x312)&&_0x134b5b!==_0x31d4d7(0x29b)&&_0x13de83[_0x31d4d7(0x449)](_0x134b5b))return!![];if(_0x1d9f4d&&_0x13de83['includes'](_0x1d9f4d))return!![];return![];}function _0x36ff07(_0x1232a1){const _0x36546b=_0x34c67b;if(!Array[_0x36546b(0x389)](_0x1232a1[_0x36546b(0x2c3)]))return'';return _0x1232a1[_0x36546b(0x2c3)]['slice'](-0xa)['map'](_0x491b95=>{const _0x213fda=_0x36546b;if(_0x491b95&&_0x491b95[_0x213fda(0x468)]===_0x213fda(0x326)){const _0x5b0981=_0x491b95[_0x213fda(0x439)]||{};return[_0x5b0981[_0x213fda(0x3a2)]||_0x491b95[_0x213fda(0x2a9)]||'',_0x5b0981[_0x213fda(0x2a6)]||'',String(_0x5b0981[_0x213fda(0x35f)]||'')['slice'](0x0,0x1388)]['filter'](Boolean)[_0x213fda(0x348)]('\x0a');}return String(_0x491b95&&(_0x491b95[_0x213fda(0x2a9)]||_0x491b95[_0x213fda(0x306)])||'');})['join']('\x0a');}function _0x466302(_0x12b589,_0x1b8dd3,_0x44d7c7){const _0x5b7603=_0x34c67b,_0x35928c=Array[_0x5b7603(0x389)](_0x12b589?.[_0x5b7603(0x24f)])?_0x12b589['mountedStickers']['map'](String):[];if(_0x35928c[_0x5b7603(0x2e3)]===0x0)return null;const _0x576295=String(_0x1b8dd3||'')[_0x5b7603(0x22b)](),_0x529b4b=String(_0x44d7c7||'')[_0x5b7603(0x22b)]();if(!_0x529b4b)return null;const _0x5d4317=Array['isArray'](window[_0x5b7603(0x2c8)]?.['stickers'])?window[_0x5b7603(0x2c8)][_0x5b7603(0x284)]:[],_0x4baa32=_0x5d4317['filter'](_0x441eff=>{const _0x51b5e0=String(_0x441eff?.['categoryName']||'');if(!_0x35928c['includes'](_0x51b5e0))return![];return!_0x576295||_0x51b5e0===_0x576295;});for(const _0x994a92 of _0x4baa32){const _0x2eb037=(Array[_0x5b7603(0x389)](_0x994a92[_0x5b7603(0x23e)])?_0x994a92[_0x5b7603(0x23e)]:[])[_0x5b7603(0x382)](_0x33f083=>String(_0x33f083?.[_0x5b7603(0x3c8)]||'')[_0x5b7603(0x22b)]()===_0x529b4b);if(_0x2eb037&&_0x2eb037['url'])return{'stickerCategory':_0x994a92[_0x5b7603(0x3a1)]||'','stickerName':_0x2eb037[_0x5b7603(0x3c8)]||_0x529b4b,'stickerUrl':_0x2eb037[_0x5b7603(0x404)]};}return null;}function _0xaa3e61(_0x5105c2){const _0x1cd6c8=_0x34c67b,_0x2d8c50=Array['isArray'](_0x5105c2?.[_0x1cd6c8(0x24f)])?_0x5105c2[_0x1cd6c8(0x24f)]:[];if(_0x2d8c50[_0x1cd6c8(0x2e3)]===0x0)return'';const _0x2dc8c8=Array[_0x1cd6c8(0x389)](window[_0x1cd6c8(0x2c8)]?.[_0x1cd6c8(0x284)])?window[_0x1cd6c8(0x2c8)]['stickers']:[],_0x48b0e9=[];return _0x2d8c50[_0x1cd6c8(0x234)](_0x165e12=>{const _0x2bf3ba=_0x1cd6c8,_0x2dbb21=_0x2dc8c8[_0x2bf3ba(0x382)](_0x307200=>_0x307200['categoryName']===_0x165e12);if(_0x2dbb21&&Array[_0x2bf3ba(0x389)](_0x2dbb21[_0x2bf3ba(0x23e)])&&_0x2dbb21[_0x2bf3ba(0x23e)][_0x2bf3ba(0x2e3)]>0x0){const _0x1b727e=_0x2dbb21[_0x2bf3ba(0x23e)][_0x2bf3ba(0x465)](_0x1e9a93=>_0x1e9a93[_0x2bf3ba(0x3c8)])[_0x2bf3ba(0x33c)](Boolean)['join'](',\x20');if(_0x1b727e)_0x48b0e9['push']('['+_0x2dbb21['categoryName']+']:\x20'+_0x1b727e);}}),_0x48b0e9[_0x1cd6c8(0x2e3)]>0x0?_0x48b0e9[_0x1cd6c8(0x348)]('\x0a'):'';}function _0xf4dbf6(_0x6797cb,_0x73963a={}){const _0x466cdc=_0x34c67b;if(_0x6797cb==null)return![];if(window[_0x466cdc(0x22f)][_0x466cdc(0x290)])return window['imApp']['scheduleFriendSave'](_0x6797cb,_0x73963a);window[_0x466cdc(0x22f)][_0x466cdc(0x33f)]&&window[_0x466cdc(0x22f)][_0x466cdc(0x33f)](_0x6797cb);if(window['imApp'][_0x466cdc(0x325)])return window[_0x466cdc(0x22f)][_0x466cdc(0x325)]({'delay':_0x73963a[_0x466cdc(0x2ed)],'silent':_0x73963a['silent']!==![]});return![];}async function _0x40c004(_0x46b602,_0x3480e6={}){const _0x428c82=_0x34c67b;if(_0x46b602==null)return![];if(window['imApp'][_0x428c82(0x44e)])return window['imApp'][_0x428c82(0x44e)](_0x46b602,_0x3480e6);if(window[_0x428c82(0x22f)][_0x428c82(0x20f)])return window['imApp'][_0x428c82(0x20f)](()=>{},{'silent':_0x3480e6['silent']!==![],'friendId':_0x46b602});return![];}async function _0x599a3c(_0x436168,_0x36a6d5,_0x35d7e4){const _0x142486=_0x34c67b,_0x5ed670=_0x36a6d5[_0x142486(0x34c)]['trim']();if(!_0x5ed670)return![];const _0x5180e8=_0x43f991(_0x436168['id'])||_0x436168;if(_0x5180e8['type']==='group'&&Number(_0x5180e8[_0x142486(0x27a)])>0x0){if(window[_0x142486(0x279)])window[_0x142486(0x279)](_0x142486(0x3f1));return;}const _0x873b72=Date[_0x142486(0x354)](),_0x9d7720=_0x5180e8[_0x142486(0x2c3)]&&_0x5180e8['messages'][_0x142486(0x2e3)]>0x0?_0x5180e8[_0x142486(0x2c3)][_0x5180e8['messages'][_0x142486(0x2e3)]-0x1]:null;(!_0x9d7720||_0x873b72-(_0x9d7720[_0x142486(0x386)]||0x0)>0x493e0)&&window[_0x142486(0x43f)][_0x142486(0x281)](_0x873b72,_0x35d7e4);const _0x25e5d9=window[_0x142486(0x2c8)][_0x142486(0x1f4)]||null,_0x51b5eb={'id':window['imChat'][_0x142486(0x31a)](_0x142486(0x1f6)),'role':_0x142486(0x347),'content':_0x5ed670,'timestamp':_0x873b72,'replyTo':_0x25e5d9};window[_0x142486(0x43f)][_0x142486(0x32a)](_0x5ed670,_0x35d7e4,_0x873b72,_0x25e5d9,null,![],_0x51b5eb['id'],_0x5180e8),_0x36a6d5[_0x142486(0x34c)]='';const _0x37aaee=window[_0x142486(0x22f)][_0x142486(0x2c2)]?await window[_0x142486(0x22f)]['appendFriendMessage'](_0x436168['id'],_0x51b5eb,{'silent':!![]}):window[_0x142486(0x22f)][_0x142486(0x26b)]?await window['imApp'][_0x142486(0x26b)](_0x436168['id'],_0x537eff=>{const _0x50e99d=_0x142486;if(!_0x537eff)return;if(!_0x537eff[_0x50e99d(0x2c3)])_0x537eff[_0x50e99d(0x2c3)]=[];_0x537eff[_0x50e99d(0x2c3)][_0x50e99d(0x2b3)](_0x51b5eb),window[_0x50e99d(0x2c8)]['currentActiveFriend']&&String(window['imData'][_0x50e99d(0x285)]['id'])===String(_0x537eff['id'])&&(window['imData'][_0x50e99d(0x285)]=_0x537eff);},{'silent':!![],'immediate':![],'delay':0x190}):window['imApp']['commitFriendsChange']?await window['imApp'][_0x142486(0x20f)](()=>{const _0x4b4429=_0x142486,_0x1d0e86=window['imData']['friends']['find'](_0x935b72=>String(_0x935b72['id'])===String(_0x436168['id']));if(!_0x1d0e86)return;if(!_0x1d0e86[_0x4b4429(0x2c3)])_0x1d0e86[_0x4b4429(0x2c3)]=[];_0x1d0e86['messages'][_0x4b4429(0x2b3)](_0x51b5eb);},{'silent':!![],'friendId':_0x436168['id'],'immediate':![],'delay':0x190}):![];if(!_0x37aaee){const _0x5ecf96=_0x35d7e4||document[_0x142486(0x31b)](_0x142486(0x218)+_0x436168['id']+_0x142486(0x2f9)),_0x54a7c3=_0x43f991(_0x436168['id'])||_0x436168;_0x5ecf96&&window[_0x142486(0x43f)]['rerenderChatContainer']&&window[_0x142486(0x43f)][_0x142486(0x202)](_0x54a7c3,_0x5ecf96,{'scroll':!![]});if(window[_0x142486(0x279)])window[_0x142486(0x279)](_0x142486(0x46f));return;}window[_0x142486(0x2c8)]['currentReplyText']=null;const _0x53480e=document[_0x142486(0x2c7)]('chat-interface-'+_0x436168['id']);if(_0x53480e){const _0x1a9f83=_0x53480e[_0x142486(0x31b)](_0x142486(0x26d));if(_0x1a9f83)_0x1a9f83['style'][_0x142486(0x40e)]=_0x142486(0x2e6);}}function _0x50432e(_0x52bc0d,_0x11c54d){const _0x287d6a=_0x34c67b;if(!_0x52bc0d||!_0x11c54d)return null;const _0x4da78b=new RegExp('<'+_0x11c54d+_0x287d6a(0x42f)+_0x11c54d+'>','i'),_0x195198=String(_0x52bc0d)[_0x287d6a(0x28c)](_0x4da78b);return _0x195198?_0x195198[0x1][_0x287d6a(0x22b)]():null;}function _0x19eb88(_0xd1087d,_0x92be02){const _0x2b14fc=_0x34c67b;if(!_0xd1087d||!_0x92be02)return _0xd1087d;const _0x560709=new RegExp('<'+_0x92be02+'>[\x5cs\x5cS]*?<\x5c/'+_0x92be02+'>','i');return String(_0xd1087d)['replace'](_0x560709,'')[_0x2b14fc(0x22b)]();}function _0x11d3c5(_0x44a025){const _0x1e87c5=_0x34c67b;let _0x2381d9=String(_0x44a025==null?'':_0x44a025)[_0x1e87c5(0x22b)]();const _0x19e512=[['（','）'],['(',')'],['[',']'],['【','】'],['{','}'],['「','」'],['『','』']];let _0x5e60b5=!![];while(_0x5e60b5&&_0x2381d9[_0x1e87c5(0x2e3)]>0x1){_0x5e60b5=![];for(const [_0x139509,_0x4d0656]of _0x19e512){if(_0x2381d9[_0x1e87c5(0x3a9)](_0x139509)&&_0x2381d9[_0x1e87c5(0x380)](_0x4d0656)){_0x2381d9=_0x2381d9['slice'](_0x139509[_0x1e87c5(0x2e3)],_0x2381d9[_0x1e87c5(0x2e3)]-_0x4d0656[_0x1e87c5(0x2e3)])['trim'](),_0x5e60b5=!![];break;}}}return _0x2381d9;}function _0x174b36(_0x33f991){const _0x18b449=_0x34c67b,_0x59d0ab=String(_0x33f991==null?'':_0x33f991)[_0x18b449(0x22b)]();if(!_0x59d0ab)return'';const _0xbffed7=/(我|我们|咱|咱们|俺|本人|你|你们|您|诸位|大家)/;return _0xbffed7['test'](_0x59d0ab)?'':_0x59d0ab;}function _0x3a56ee(_0xea5cc6){const _0x19f3c6=_0x34c67b;if(!_0xea5cc6||typeof _0xea5cc6!==_0x19f3c6(0x3e9))return null;let _0x10bdaf=_0xea5cc6['trim']();if(_0x10bdaf[_0x19f3c6(0x3a9)](_0x19f3c6(0x44c)))_0x10bdaf=_0x10bdaf[_0x19f3c6(0x42d)](0x7);else _0x10bdaf[_0x19f3c6(0x3a9)](_0x19f3c6(0x20d))&&(_0x10bdaf=_0x10bdaf[_0x19f3c6(0x42d)](0x3));_0x10bdaf[_0x19f3c6(0x380)](_0x19f3c6(0x20d))&&(_0x10bdaf=_0x10bdaf[_0x19f3c6(0x42d)](0x0,_0x10bdaf[_0x19f3c6(0x2e3)]-0x3));_0x10bdaf=_0x10bdaf[_0x19f3c6(0x22b)]();if(!_0x10bdaf)return null;try{const _0x15c9f1=JSON[_0x19f3c6(0x232)](_0x10bdaf);return Array['isArray'](_0x15c9f1)?_0x15c9f1:null;}catch(_0x57a934){return null;}}function _0x1c343b(_0x5cf489){const _0x988bea=_0x34c67b;if(!_0x5cf489||typeof _0x5cf489!==_0x988bea(0x3e9))return null;let _0x37a233=_0x5cf489[_0x988bea(0x22b)]();if(_0x37a233[_0x988bea(0x3a9)](_0x988bea(0x44c)))_0x37a233=_0x37a233[_0x988bea(0x42d)](0x7);else _0x37a233[_0x988bea(0x3a9)](_0x988bea(0x20d))&&(_0x37a233=_0x37a233['substring'](0x3));_0x37a233[_0x988bea(0x380)]('```')&&(_0x37a233=_0x37a233[_0x988bea(0x42d)](0x0,_0x37a233[_0x988bea(0x2e3)]-0x3));_0x37a233=_0x37a233['trim']();if(!_0x37a233)return null;try{const _0xb6834c=JSON[_0x988bea(0x232)](_0x37a233);if(!_0xb6834c||typeof _0xb6834c!==_0x988bea(0x484)||Array[_0x988bea(0x389)](_0xb6834c))return null;const _0x5c4ea1=Array[_0x988bea(0x389)](_0xb6834c[_0x988bea(0x1fc)])?_0xb6834c[_0x988bea(0x1fc)][_0x988bea(0x465)]((_0x275535,_0x157992)=>{const _0x5d35a6=_0x988bea,_0x6f7c32=typeof _0x275535?.[_0x5d35a6(0x468)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x468)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x468)]['trim']():_0x5d35a6(0x2a2),_0x4e7b72=_0x275535?.['id']!=null?_0x275535['id']:_0x5d35a6(0x2dd)+Date[_0x5d35a6(0x354)]()+'-'+_0x157992,_0x5478c3=typeof _0x275535?.[_0x5d35a6(0x1fb)]===_0x5d35a6(0x3e9)?_0x275535['requestText'][_0x5d35a6(0x22b)]():'',_0x1d6f37=typeof _0x275535?.[_0x5d35a6(0x3ee)]==='string'?_0x275535[_0x5d35a6(0x3ee)]['trim']():'',_0x45b28e=typeof _0x275535?.[_0x5d35a6(0x3a2)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x3a2)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x3a2)][_0x5d35a6(0x22b)]():_0x6f7c32==='memory_request'?_0x5d35a6(0x243):_0x5d35a6(0x211),_0x10b6ee=_0x275535?.[_0x5d35a6(0x255)]&&typeof _0x275535['memoryPayload']===_0x5d35a6(0x484)?{'title':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x3a2)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x3a2)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x3a2)]['trim']():_0x45b28e,'content':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x2a9)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x2a9)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x2a9)][_0x5d35a6(0x22b)]():_0x5478c3||(typeof _0x275535?.['description']==='string'?_0x275535[_0x5d35a6(0x30b)][_0x5d35a6(0x22b)]():''),'detail':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x3ee)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x3ee)][_0x5d35a6(0x22b)]():_0x1d6f37,'reason':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x444)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x444)][_0x5d35a6(0x22b)]():'','sourceEventId':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x26c)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x26c)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x26c)][_0x5d35a6(0x22b)]():String(_0x4e7b72),'createdAt':typeof _0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x381)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x381)][_0x5d35a6(0x22b)]():typeof _0x275535?.[_0x5d35a6(0x2eb)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x2eb)]['trim']():'','sourceThought':typeof _0x275535[_0x5d35a6(0x255)]['sourceThought']===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x255)][_0x5d35a6(0x292)][_0x5d35a6(0x22b)]():''}:null;return{'id':_0x4e7b72,'title':_0x45b28e,'description':typeof _0x275535?.[_0x5d35a6(0x30b)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x30b)][_0x5d35a6(0x22b)]():'','time':typeof _0x275535?.[_0x5d35a6(0x2eb)]===_0x5d35a6(0x3e9)?_0x275535[_0x5d35a6(0x2eb)][_0x5d35a6(0x22b)]():'','type':_0x6f7c32,'status':typeof _0x275535?.['status']===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x25d)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x25d)][_0x5d35a6(0x22b)]():_0x5d35a6(0x3ff),'requestText':_0x5478c3,'detail':_0x1d6f37,'confirmText':typeof _0x275535?.[_0x5d35a6(0x43b)]===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x43b)]['trim']()?_0x275535[_0x5d35a6(0x43b)]['trim']():'确认','cancelText':typeof _0x275535?.['cancelText']===_0x5d35a6(0x3e9)&&_0x275535[_0x5d35a6(0x3b6)][_0x5d35a6(0x22b)]()?_0x275535[_0x5d35a6(0x3b6)]['trim']():'取消','memoryPayload':_0x10b6ee};}):[];return{'thought':typeof _0xb6834c['thought']==='string'&&_0xb6834c[_0x988bea(0x359)][_0x988bea(0x22b)]()?_0xb6834c[_0x988bea(0x359)]['trim']():'','location':typeof _0xb6834c[_0x988bea(0x239)]==='string'&&_0xb6834c[_0x988bea(0x239)][_0x988bea(0x22b)]()?_0xb6834c[_0x988bea(0x239)][_0x988bea(0x22b)]():'','action':typeof _0xb6834c['action']==='string'&&_0xb6834c[_0x988bea(0x3aa)]['trim']()?_0xb6834c[_0x988bea(0x3aa)][_0x988bea(0x22b)]():'','mood':typeof _0xb6834c[_0x988bea(0x321)]===_0x988bea(0x3e9)?_0xb6834c[_0x988bea(0x321)][_0x988bea(0x22b)]():'','expression':typeof _0xb6834c['expression']===_0x988bea(0x3e9)?_0xb6834c[_0x988bea(0x269)][_0x988bea(0x22b)]():'','affectionChange':typeof _0xb6834c[_0x988bea(0x3b3)]===_0x988bea(0x36c)?Math[_0x988bea(0x367)](-0x5,Math[_0x988bea(0x46b)](0x5,_0xb6834c[_0x988bea(0x3b3)])):0x0,'status':_0x988bea(0x2e2),'events':_0x5c4ea1};}catch(_0x76e83c){return null;}}function _0x1dfab9(_0x4f0f24){const _0x190d4c=_0x34c67b;if(!_0x4f0f24||typeof _0x4f0f24!==_0x190d4c(0x484))return'';const _0x1c0768=Array['isArray'](_0x4f0f24[_0x190d4c(0x225)])?_0x4f0f24['choices'][0x0]:null;if(!_0x1c0768||typeof _0x1c0768!==_0x190d4c(0x484))return'';const _0x47ea39=_0x1c0768['message']&&typeof _0x1c0768[_0x190d4c(0x247)][_0x190d4c(0x2a9)]===_0x190d4c(0x3e9)?_0x1c0768['message'][_0x190d4c(0x2a9)]:'';if(_0x47ea39)return _0x47ea39;if(typeof _0x1c0768[_0x190d4c(0x306)]===_0x190d4c(0x3e9))return _0x1c0768['text'];if(typeof _0x1c0768['delta']?.[_0x190d4c(0x2a9)]===_0x190d4c(0x3e9))return _0x1c0768[_0x190d4c(0x261)][_0x190d4c(0x2a9)];return'';}async function _0x5f1e91(_0xcfc096,_0x219d48,_0x3be12c,_0x425120=0xea60,_0x50ae41=null){const _0x4749f2=_0x34c67b,_0x3e9233=_0x50ae41||new AbortController(),_0xaf053d=setTimeout(()=>_0x3e9233[_0x4749f2(0x3a3)](),_0x425120);try{return console[_0x4749f2(0x2df)]('[iMessage\x20API]\x20request\x20start',{'endpoint':_0xcfc096,'model':_0x219d48[_0x4749f2(0x34d)]||'','messageCount':Array[_0x4749f2(0x389)](_0x3be12c)?_0x3be12c['length']:0x0,'timeoutMs':_0x425120}),await fetch(_0xcfc096,{'method':'POST','headers':{'Content-Type':_0x4749f2(0x3f5),'Authorization':_0x4749f2(0x29f)+_0x219d48[_0x4749f2(0x424)]},'body':JSON[_0x4749f2(0x3b1)]({'model':_0x219d48[_0x4749f2(0x34d)]||'','messages':_0x3be12c,'temperature':parseFloat(_0x219d48[_0x4749f2(0x45e)])||0.7}),'signal':_0x3e9233['signal']});}finally{clearTimeout(_0xaf053d);}}const _0x2ddd2b=new Set();function _0x12e44e(_0x272135){const _0x58317e=_0x34c67b;let _0x1b5671=String(_0x272135?.['endpoint']||'')[_0x58317e(0x22b)]();if(!_0x1b5671)return'';if(_0x1b5671[_0x58317e(0x380)]('/'))_0x1b5671=_0x1b5671[_0x58317e(0x3da)](0x0,-0x1);return!_0x1b5671[_0x58317e(0x380)]('/chat/completions')&&(_0x1b5671=_0x1b5671[_0x58317e(0x380)]('/v1')?_0x1b5671+_0x58317e(0x264):_0x1b5671+_0x58317e(0x262)),_0x1b5671;}function _0x464380(_0x2ef705){const _0x5a9ec2=_0x34c67b;if(!_0x2ef705||typeof _0x2ef705!==_0x5a9ec2(0x3e9))return null;let _0x4449bf=_0x2ef705[_0x5a9ec2(0x22b)]();const _0x25a9b3=_0x50432e(_0x4449bf,_0x5a9ec2(0x394));if(_0x25a9b3)_0x4449bf=_0x25a9b3;if(_0x4449bf[_0x5a9ec2(0x3a9)]('```json'))_0x4449bf=_0x4449bf[_0x5a9ec2(0x42d)](0x7);else _0x4449bf[_0x5a9ec2(0x3a9)](_0x5a9ec2(0x20d))&&(_0x4449bf=_0x4449bf['substring'](0x3));_0x4449bf['endsWith']('```')&&(_0x4449bf=_0x4449bf[_0x5a9ec2(0x42d)](0x0,_0x4449bf['length']-0x3));_0x4449bf=_0x4449bf[_0x5a9ec2(0x22b)]();try{const _0x5ec79a=JSON['parse'](_0x4449bf);return _0x5ec79a&&typeof _0x5ec79a===_0x5a9ec2(0x484)&&!Array['isArray'](_0x5ec79a)?_0x5ec79a:null;}catch(_0x3d4cc2){const _0x5d0678=_0x4449bf[_0x5a9ec2(0x2b5)]('{'),_0x15a942=_0x4449bf['lastIndexOf']('}');if(_0x5d0678>-0x1&&_0x15a942>_0x5d0678)try{const _0xaff632=JSON[_0x5a9ec2(0x232)](_0x4449bf[_0x5a9ec2(0x3da)](_0x5d0678,_0x15a942+0x1));return _0xaff632&&typeof _0xaff632===_0x5a9ec2(0x484)&&!Array[_0x5a9ec2(0x389)](_0xaff632)?_0xaff632:null;}catch(_0x5be9e1){return null;}}return null;}function _0x4fedf9(_0x531a03){const _0x576cdf=_0x34c67b,_0x28affa=String(_0x531a03||'')[_0x576cdf(0x22b)]()[_0x576cdf(0x2d0)]();return _0x28affa;}function _0x4c037c(_0x4db45a,_0x1bc1ab,_0x4797ef=0x2,_0x3d21e2=0x5){const _0x58fb89=_0x34c67b;if(!Array[_0x58fb89(0x389)](_0x4db45a))return[];const _0x4e21ca=_0x4db45a[_0x58fb89(0x465)](_0x2a5d54=>{const _0x68fa74=_0x58fb89;if(typeof _0x2a5d54===_0x68fa74(0x3e9)){const _0x13f433=_0x2a5d54[_0x68fa74(0x22b)]();return _0x13f433?{'text':_0x13f433,'translation':''}:null;}if(_0x2a5d54&&typeof _0x2a5d54===_0x68fa74(0x484)){const _0x1b4b38=String(_0x2a5d54[_0x68fa74(0x306)]||_0x2a5d54[_0x68fa74(0x2a9)]||_0x2a5d54[_0x68fa74(0x247)]||'')['trim']();if(!_0x1b4b38)return null;const _0x1c8bae=typeof _0x2a5d54[_0x68fa74(0x3a8)]===_0x68fa74(0x3e9)&&_0x2a5d54[_0x68fa74(0x3a8)][_0x68fa74(0x22b)]()?_0x2a5d54[_0x68fa74(0x3a8)][_0x68fa74(0x22b)]():typeof _0x2a5d54[_0x68fa74(0x487)]==='string'&&_0x2a5d54[_0x68fa74(0x487)][_0x68fa74(0x22b)]()?_0x2a5d54[_0x68fa74(0x487)][_0x68fa74(0x22b)]():typeof _0x2a5d54[_0x68fa74(0x318)]==='string'&&_0x2a5d54[_0x68fa74(0x318)][_0x68fa74(0x22b)]()?_0x2a5d54[_0x68fa74(0x318)]['trim']():'';return{'text':_0x1b4b38,'translation':_0x1c8bae};}return null;})[_0x58fb89(0x33c)](Boolean)[_0x58fb89(0x3da)](0x0,_0x3d21e2)[_0x58fb89(0x465)]((_0xeb744b,_0x55bafd)=>{const _0x2014a4=_0x58fb89,_0x135cb9={'id':_0x4cbedd(_0x2014a4(0x3e7)+_0x1bc1ab+'-'+_0x55bafd),'role':_0x1bc1ab,'text':_0xeb744b[_0x2014a4(0x306)],'timestamp':Date[_0x2014a4(0x354)]()+_0x55bafd};if(_0xeb744b['translation'])_0x135cb9[_0x2014a4(0x3a8)]=_0xeb744b[_0x2014a4(0x3a8)];return _0x135cb9;});return _0x4e21ca[_0x58fb89(0x2e3)]>=_0x4797ef?_0x4e21ca:[];}function _0x91e358(_0x5f091c){const _0x4b1799=_0x34c67b,_0x54a890=Array[_0x4b1799(0x389)](_0x5f091c?.[_0x4b1799(0x47f)]?.[_0x4b1799(0x443)])?_0x5f091c[_0x4b1799(0x47f)][_0x4b1799(0x443)]:[];return _0x54a890[_0x4b1799(0x465)](_0x5aead5=>{const _0x13f308=_0x4b1799,_0x2d91bd=(window[_0x13f308(0x2c8)][_0x13f308(0x442)]||[])[_0x13f308(0x382)](_0x5f11eb=>String(_0x5f11eb['id'])===String(_0x5aead5?.[_0x13f308(0x24d)]));if(!_0x2d91bd)return null;const _0x50a192=String(_0x2d91bd['realName']||_0x2d91bd[_0x13f308(0x235)]||'')[_0x13f308(0x22b)](),_0x452fc4=String(_0x2d91bd[_0x13f308(0x235)]||_0x2d91bd[_0x13f308(0x323)]||'')[_0x13f308(0x22b)]();if(!_0x50a192&&!_0x452fc4)return null;return{'sourceNpcId':String(_0x2d91bd['id']),'realName':_0x50a192,'remark':_0x452fc4,'persona':String(_0x2d91bd[_0x13f308(0x2f5)]||_0x2d91bd[_0x13f308(0x3ec)]||'')[_0x13f308(0x22b)](),'relationship':String(_0x5aead5[_0x13f308(0x464)]||'')['trim']()};})[_0x4b1799(0x33c)](Boolean);}function _0x97e8eb(_0x52a7d1){const _0x26dc8a=_0x34c67b,_0x44a027=window['imApp']['normalizeFriendData'](_0x52a7d1||{}),_0x252b7d=_0x36ff07(_0x44a027),_0x2bfc8f=Array[_0x26dc8a(0x389)](_0x44a027['memory']?.[_0x26dc8a(0x440)])?_0x44a027[_0x26dc8a(0x47f)]['shortTermEntries'][_0x26dc8a(0x33c)](_0x5bef2f=>_0x5bef2f&&(_0x5bef2f['title']||_0x5bef2f['event']||_0x5bef2f[_0x26dc8a(0x3f6)])&&_0x1db402(_0x5bef2f,_0x252b7d))[_0x26dc8a(0x3da)](-0x8)[_0x26dc8a(0x465)](_0x5bd1b7=>_0x26dc8a(0x289)+(_0x5bd1b7['title']||_0x26dc8a(0x204))+_0x26dc8a(0x249)+(_0x5bd1b7[_0x26dc8a(0x2f1)]||_0x5bd1b7[_0x26dc8a(0x2a9)]||'')+'</content>\x0a<memory_points>'+(_0x5bd1b7[_0x26dc8a(0x3f6)]||'')+_0x26dc8a(0x313))[_0x26dc8a(0x348)]('\x0a'):'';let _0x27d8f3='';if(Array[_0x26dc8a(0x389)](_0x44a027[_0x26dc8a(0x47f)]?.[_0x26dc8a(0x3d8)])&&_0x44a027[_0x26dc8a(0x47f)][_0x26dc8a(0x3d8)][_0x26dc8a(0x2e3)]>0x0){const _0x25e38e=_0x44a027[_0x26dc8a(0x47f)][_0x26dc8a(0x3d8)]['filter'](_0x403562=>_0x1db402(_0x403562,_0x252b7d));_0x25e38e[_0x26dc8a(0x2e3)]>0x0&&(_0x27d8f3=_0x26dc8a(0x259)+_0x25e38e['map'](_0x287a07=>_0x26dc8a(0x23f)+(_0x287a07[_0x26dc8a(0x3a2)]||'')+_0x26dc8a(0x249)+(_0x287a07[_0x26dc8a(0x2a9)]||'')+_0x26dc8a(0x2e7))[_0x26dc8a(0x348)]('\x0a')+_0x26dc8a(0x445));}else _0x44a027['memory']?.[_0x26dc8a(0x3c4)]&&(_0x27d8f3='<long_term_memories>\x0a'+_0x44a027['memory'][_0x26dc8a(0x3c4)]+_0x26dc8a(0x445));let _0x503111='';if(Array[_0x26dc8a(0x389)](_0x44a027[_0x26dc8a(0x47f)]?.['cherishedEntries'])&&_0x44a027[_0x26dc8a(0x47f)][_0x26dc8a(0x343)][_0x26dc8a(0x2e3)]>0x0){const _0x3bdfe9=_0x44a027['memory'][_0x26dc8a(0x343)][_0x26dc8a(0x33c)](_0x2dfe4a=>_0x1db402(_0x2dfe4a,_0x252b7d));_0x3bdfe9[_0x26dc8a(0x2e3)]>0x0&&(_0x503111=_0x26dc8a(0x3cf)+_0x3bdfe9['map'](_0x533c89=>'<memory>\x0a<title>'+(_0x533c89[_0x26dc8a(0x3a2)]||'')+_0x26dc8a(0x249)+(_0x533c89['content']||'')+_0x26dc8a(0x447)+(_0x533c89['detail']||'')+_0x26dc8a(0x22a)+(_0x533c89['reason']||'')+'</reason>\x0a<time>'+(_0x533c89['createdAt']||'')+_0x26dc8a(0x2aa))[_0x26dc8a(0x348)]('\x0a')+_0x26dc8a(0x38b));}else _0x44a027['memory']?.['cherished']&&(_0x503111=_0x26dc8a(0x3cf)+_0x44a027[_0x26dc8a(0x47f)]['cherished']+_0x26dc8a(0x38b));const _0x3bf548=window[_0x26dc8a(0x22f)]['buildLinkedAccountMemoryContext']?window[_0x26dc8a(0x22f)][_0x26dc8a(0x35e)](_0x44a027):'';return[_0x44a027['memory']?.[_0x26dc8a(0x334)]?_0x26dc8a(0x2b2)+_0x44a027[_0x26dc8a(0x47f)][_0x26dc8a(0x334)]+_0x26dc8a(0x324):'',_0x27d8f3,_0x44a027[_0x26dc8a(0x47f)]?.[_0x26dc8a(0x43d)]?.[_0x26dc8a(0x398)]?_0x26dc8a(0x3f8)+_0x44a027[_0x26dc8a(0x47f)]['context'][_0x26dc8a(0x398)]+'\x0a</extra_context_notes>':'',_0x2bfc8f?_0x26dc8a(0x30e)+_0x2bfc8f+_0x26dc8a(0x441):'',_0x503111,_0x3bf548][_0x26dc8a(0x33c)](Boolean)[_0x26dc8a(0x348)]('\x0a\x0a');}function _0x57dad8(_0x4f287b,_0x2d9312){const _0x1db0aa=_0x34c67b,_0x52465f=window[_0x1db0aa(0x22f)][_0x1db0aa(0x42b)](_0x4f287b||{}),_0x56c842=_0x36ff07(_0x52465f),_0x189a09=[_0x56c842,_0x52465f[_0x1db0aa(0x47f)]?.[_0x1db0aa(0x334)]||''][_0x1db0aa(0x33c)](Boolean)[_0x1db0aa(0x348)]('\x0a'),_0x172c2a=window[_0x1db0aa(0x22f)]?.[_0x1db0aa(0x222)]?window[_0x1db0aa(0x22f)][_0x1db0aa(0x222)](_0x1db0aa(0x44f),_0x52465f,_0x189a09):window[_0x1db0aa(0x267)]?window[_0x1db0aa(0x267)](_0x1db0aa(0x44f)):'',_0x2fb5aa=window[_0x1db0aa(0x22f)]?.[_0x1db0aa(0x222)]?window['imApp'][_0x1db0aa(0x222)]('before_role',_0x52465f,_0x189a09):window[_0x1db0aa(0x267)]?window[_0x1db0aa(0x267)](_0x1db0aa(0x3e8)):'',_0x4d8147=window[_0x1db0aa(0x22f)]?.[_0x1db0aa(0x222)]?window[_0x1db0aa(0x22f)]['getWorldBookContextForFriendByPosition'](_0x1db0aa(0x467),_0x52465f,_0x189a09):window[_0x1db0aa(0x267)]?window[_0x1db0aa(0x267)](_0x1db0aa(0x467)):'',_0x2c7828=_0x52465f[_0x1db0aa(0x47f)]?.[_0x1db0aa(0x443)]&&_0x52465f['memory'][_0x1db0aa(0x443)][_0x1db0aa(0x2e3)]>0x0?_0x52465f[_0x1db0aa(0x47f)][_0x1db0aa(0x443)][_0x1db0aa(0x465)](_0x1ee399=>{const _0x48aa63=_0x1db0aa,_0xe9bc11=(window[_0x48aa63(0x2c8)]['friends']||[])['find'](_0x1ad28a=>String(_0x1ad28a['id'])===String(_0x1ee399['npcId']));return(_0xe9bc11?_0xe9bc11['nickname']||_0xe9bc11[_0x48aa63(0x323)]||_0x48aa63(0x310):_0x48aa63(0x310))+':\x20'+(_0x1ee399[_0x48aa63(0x464)]||'');})['join']('\x0a'):'None',_0x3ddd6d=window[_0x1db0aa(0x22f)][_0x1db0aa(0x228)]?window[_0x1db0aa(0x22f)]['buildApiContextMessages'](_0x52465f,{'userName':_0x2d9312['name']||_0x1db0aa(0x32f)}):[],_0x223463=Array[_0x1db0aa(0x389)](_0x52465f[_0x1db0aa(0x30a)])?_0x52465f[_0x1db0aa(0x30a)][_0x1db0aa(0x465)](_0x589bc9=>({'id':_0x589bc9['id'],'name':_0x589bc9[_0x1db0aa(0x3c8)],'realName':_0x589bc9[_0x1db0aa(0x323)],'remark':_0x589bc9[_0x1db0aa(0x32d)],'persona':_0x589bc9[_0x1db0aa(0x2f5)],'relationship':_0x589bc9[_0x1db0aa(0x2b1)],'sourceNpcId':_0x589bc9[_0x1db0aa(0x37a)],'recentMessages':Array[_0x1db0aa(0x389)](_0x589bc9[_0x1db0aa(0x2c3)])?_0x589bc9['messages']['slice'](-0x4)['map'](_0x1fc5c5=>(_0x1fc5c5[_0x1db0aa(0x39e)]===_0x1db0aa(0x402)?_0x52465f[_0x1db0aa(0x235)]:_0x589bc9['remark']||_0x589bc9[_0x1db0aa(0x3c8)]||_0x589bc9[_0x1db0aa(0x323)]||_0x1db0aa(0x353))+':\x20'+_0x1fc5c5[_0x1db0aa(0x306)]):[]})):[],_0x266a90=_0x91e358(_0x52465f),_0x595f5f=new Set(_0x223463[_0x1db0aa(0x465)](_0x4baafa=>String(_0x4baafa[_0x1db0aa(0x37a)]||''))['filter'](Boolean)),_0x33a22b=_0x266a90['filter'](_0x997092=>!_0x595f5f[_0x1db0aa(0x405)](String(_0x997092[_0x1db0aa(0x37a)]))),_0x2ebfee=_0x97e8eb(_0x52465f);return _0x1db0aa(0x35b)+(_0x172c2a||_0x1db0aa(0x3c7))+_0x1db0aa(0x330)+(_0x2fb5aa||_0x1db0aa(0x3c7))+_0x1db0aa(0x3bf)+(_0x52465f[_0x1db0aa(0x323)]||_0x52465f[_0x1db0aa(0x235)])+_0x1db0aa(0x224)+_0x52465f[_0x1db0aa(0x235)]+_0x1db0aa(0x322)+(_0x52465f['persona']||_0x1db0aa(0x3c7))+_0x1db0aa(0x2d7)+(_0x2d9312['name']||_0x1db0aa(0x32f))+_0x1db0aa(0x322)+(_0x2d9312[_0x1db0aa(0x2f5)]||_0x1db0aa(0x3c7))+_0x1db0aa(0x459)+_0x2c7828+_0x1db0aa(0x476)+(_0x33a22b[_0x1db0aa(0x2e3)]>0x0?JSON[_0x1db0aa(0x3b1)](_0x33a22b,null,0x2):'None')+_0x1db0aa(0x1f5)+(_0x2ebfee||_0x1db0aa(0x3c7))+_0x1db0aa(0x352)+JSON['stringify'](_0x3ddd6d,null,0x2)+_0x1db0aa(0x38c)+JSON[_0x1db0aa(0x3b1)](_0x223463,null,0x2)+_0x1db0aa(0x282)+(_0x4d8147||_0x1db0aa(0x3c7))+'\x0a\x0aTask:\x0a1.\x20Simulate\x20friends/acquaintances\x20of\x20the\x20character\x20messaging\x20the\x20character\x20in\x20separate\x20private\x20linked\x20friend\x20chats.\x0a2.\x20If\x20Relationship\x20Network\x20Candidates\x20are\x20available,\x20prioritize\x20using\x200\x20to\x202\x20unused\x20candidates\x20as\x20new\x20linked\x20friend\x20chats\x20before\x20inventing\x20unrelated\x20people.\x0a3.\x20Generate\x200\x20to\x202\x20new\x20linked\x20friend\x20chats.\x20Each\x20new\x20person\x20must\x20be\x20unique\x20and\x20must\x20not\x20duplicate\x20any\x20existing\x20name,\x20realName,\x20remark,\x20or\x20sourceNpcId.\x0a4.\x20Each\x20new\x20linked\x20friend\x20chat\x20must\x20include\x20realName,\x20remark\x20(the\x20character\x27s\x20saved\x20name/note\x20for\x20this\x20person),\x20relationship,\x20and\x202\x20to\x205\x20incoming\x20messages\x20from\x20that\x20friend\x20to\x20the\x20character.\x0a5.\x20If\x20existing\x20linked\x20friend\x20chats\x20exist,\x20choose\x20zero\x20or\x20more\x20existing\x20chats\x20and\x20write\x20the\x20character\x27s\x20reply\x20to\x20the\x20other\x20person,\x202\x20to\x205\x20messages\x20per\x20selected\x20chat.\x0a6.\x20For\x20any\x20existing\x20chat\x20that\x20receives\x20a\x20character\x20reply\x20in\x20this\x20same\x20JSON\x20result,\x20you\x20may\x20also\x20write\x20the\x20friend\x27s\x20follow-up\x20reply\x20to\x20the\x20character,\x202\x20to\x205\x20messages.\x20The\x20friend\x27s\x20follow-up\x20must\x20directly\x20respond\x20to\x20the\x20character\x27s\x20new\x20reply,\x20not\x20start\x20an\x20unrelated\x20topic.\x20This\x20is\x20optional;\x20use\x20an\x20empty\x20array\x20if\x20no\x20follow-up\x20is\x20natural.\x0a7.\x20Append\x20order\x20for\x20the\x20same\x20existing\x20chat\x20is\x20always\x20existingThreadReplies\x20first,\x20then\x20friendFollowups.\x0a8.\x20Stay\x20consistent\x20with\x20the\x20world\x20book,\x20mounted\x20world\x20book,\x20character\x20persona,\x20relationship\x20network,\x20and\x20current\x20iMessage\x20context.\x0a9.\x20International\x20translation\x20rule:\x20each\x20message\x20item\x20must\x20be\x20an\x20object\x20{\x22text\x22:\x22original\x20message\x22,\x22translation\x22:\x22natural\x20Chinese\x20translation\x20or\x20empty\x20string\x22}.\x20If\x20text\x20is\x20not\x20Chinese,\x20translation\x20must\x20contain\x20natural\x20Chinese.\x20If\x20text\x20is\x20Chinese,\x20translation\x20must\x20be\x20an\x20empty\x20string.\x0a\x0aOutput\x20only\x20valid\x20JSON\x20with\x20this\x20exact\x20shape:\x0a{\x0a\x20\x20\x22newThreads\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22name\x22:\x20\x22display\x20name,\x20usually\x20the\x20remark\x20if\x20one\x20exists\x22,\x0a\x20\x20\x20\x20\x20\x20\x22realName\x22:\x20\x22person\x27s\x20true\x20name\x22,\x0a\x20\x20\x20\x20\x20\x20\x22remark\x22:\x20\x22the\x20character\x27s\x20saved\x20remark/note/name\x20for\x20this\x20person\x22,\x0a\x20\x20\x20\x20\x20\x20\x22persona\x22:\x20\x22short\x20identity/personality\x22,\x0a\x20\x20\x20\x20\x20\x20\x22relationship\x22:\x20\x22relationship\x20to\x20the\x20character\x22,\x0a\x20\x20\x20\x20\x20\x20\x22sourceNpcId\x22:\x20\x22relationship\x20candidate\x20sourceNpcId\x20if\x20used,\x20otherwise\x20empty\x20string\x22,\x0a\x20\x20\x20\x20\x20\x20\x22messages\x22:\x20[{\x22text\x22:\x22incoming\x20original\x20message\x22,\x22translation\x22:\x22Chinese\x20translation\x20or\x20empty\x20string\x22}]\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22existingThreadReplies\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22threadId\x22:\x20\x22existing\x20linked\x20chat\x20id\x22,\x0a\x20\x20\x20\x20\x20\x20\x22messages\x22:\x20[{\x22text\x22:\x22character\x20reply\x20original\x20message\x22,\x22translation\x22:\x22Chinese\x20translation\x20or\x20empty\x20string\x22}]\x0a\x20\x20\x20\x20}\x0a\x20\x20],\x0a\x20\x20\x22friendFollowups\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22threadId\x22:\x20\x22same\x20existing\x20linked\x20chat\x20id\x20that\x20received\x20a\x20character\x20reply\x22,\x0a\x20\x20\x20\x20\x20\x20\x22messages\x22:\x20[{\x22text\x22:\x22friend\x20follow-up\x20original\x20message\x22,\x22translation\x22:\x22Chinese\x20translation\x20or\x20empty\x20string\x22}]\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}';}async function _0xc9a05b(_0x1c22e0,_0x23a710={}){const _0x24cf6e=_0x34c67b,_0x59a1e7=_0x10e61a(_0x1c22e0);if(!_0x59a1e7)return{'success':![],'changedCount':0x0};if(_0x2ddd2b[_0x24cf6e(0x405)](_0x59a1e7))return{'success':![],'changedCount':0x0,'inFlight':!![]};const _0x18d178=_0x43f991(_0x59a1e7)||(typeof _0x1c22e0===_0x24cf6e(0x484)?_0x1c22e0:null);if(!_0x18d178||_0x18d178[_0x24cf6e(0x468)]===_0x24cf6e(0x357)||_0x18d178['type']===_0x24cf6e(0x39a))return{'success':![],'changedCount':0x0};const _0xd6da83=window[_0x24cf6e(0x340)]?window[_0x24cf6e(0x340)]():window[_0x24cf6e(0x21e)]||{},_0x647b42=window[_0x24cf6e(0x31f)]?window['getUserState']():window[_0x24cf6e(0x29e)]||{};if(!_0xd6da83['endpoint']||!_0xd6da83['apiKey']){if(!_0x23a710[_0x24cf6e(0x3b4)]&&window['showToast'])window[_0x24cf6e(0x279)](_0x24cf6e(0x2ab));return{'success':![],'changedCount':0x0};}_0x2ddd2b['add'](_0x59a1e7);try{window[_0x24cf6e(0x22f)][_0x24cf6e(0x44a)]&&await window[_0x24cf6e(0x22f)][_0x24cf6e(0x44a)](_0x18d178);const _0x304023=_0x12e44e(_0xd6da83),_0x533c18=_0x57dad8(_0x18d178,_0x647b42),_0x1fb467=await _0x5f1e91(_0x304023,_0xd6da83,[{'role':_0x24cf6e(0x377),'content':'You\x20are\x20a\x20strict\x20JSON\x20generator\x20for\x20fictional\x20linked\x20friend\x20chats.\x20Output\x20only\x20valid\x20JSON.'},{'role':_0x24cf6e(0x347),'content':_0x533c18}],0xafc8);if(!_0x1fb467['ok']){let _0xe900ff=_0x1fb467['status']+'\x20'+_0x1fb467[_0x24cf6e(0x227)];try{_0xe900ff=JSON['stringify'](await _0x1fb467['json']());}catch(_0x3594e3){}throw new Error(_0xe900ff);}const _0x1bf8bf=await _0x1fb467[_0x24cf6e(0x453)](),_0x3bc50c=_0x464380(_0x1dfab9(_0x1bf8bf));if(!_0x3bc50c)return{'success':![],'changedCount':0x0};let _0x14f9ad=0x0;const _0x5a975e=await window['imApp'][_0x24cf6e(0x26b)](_0x59a1e7,_0x25a7fc=>{const _0x1ea4b5=_0x24cf6e;if(!_0x25a7fc)return;_0x25a7fc[_0x1ea4b5(0x29a)]=window[_0x1ea4b5(0x22f)][_0x1ea4b5(0x35d)](_0x25a7fc['linkedAccountBot']),_0x25a7fc[_0x1ea4b5(0x29a)][_0x1ea4b5(0x39b)]=Date[_0x1ea4b5(0x354)](),_0x25a7fc['linkedAccountChats']=window[_0x1ea4b5(0x22f)][_0x1ea4b5(0x207)](_0x25a7fc[_0x1ea4b5(0x30a)]);const _0x3a508f=_0x25a7fc[_0x1ea4b5(0x30a)],_0x40b78c=new Set(_0x3a508f[_0x1ea4b5(0x2ba)](_0x213b2f=>[_0x4fedf9(_0x213b2f[_0x1ea4b5(0x3c8)]),_0x4fedf9(_0x213b2f[_0x1ea4b5(0x323)]),_0x4fedf9(_0x213b2f[_0x1ea4b5(0x32d)])])[_0x1ea4b5(0x33c)](Boolean)),_0x3ef1f6=new Set(_0x3a508f[_0x1ea4b5(0x2ba)](_0x43b5b5=>[String(_0x43b5b5[_0x1ea4b5(0x3c8)]||'')[_0x1ea4b5(0x22b)]()[_0x1ea4b5(0x2d0)](),String(_0x43b5b5[_0x1ea4b5(0x323)]||'')['trim']()[_0x1ea4b5(0x2d0)](),String(_0x43b5b5[_0x1ea4b5(0x32d)]||'')[_0x1ea4b5(0x22b)]()['toLowerCase']()])[_0x1ea4b5(0x33c)](Boolean)),_0x49a394=new Set(_0x3a508f['map'](_0x805101=>String(_0x805101[_0x1ea4b5(0x37a)]||'')['trim']())[_0x1ea4b5(0x33c)](Boolean)),_0x5f3520=Array[_0x1ea4b5(0x389)](_0x3bc50c[_0x1ea4b5(0x473)])?_0x3bc50c[_0x1ea4b5(0x473)][_0x1ea4b5(0x3da)](0x0,0x2):[],_0x9f1d7d=_0x4ca6b6=>{const _0x48127f=_0x1ea4b5;if(!_0x4ca6b6||typeof _0x4ca6b6!=='object')return null;const _0x5bb3d9=String(_0x4ca6b6[_0x48127f(0x3ea)]||_0x4ca6b6['id']||'')[_0x48127f(0x22b)](),_0xf0f0d7=String(_0x4ca6b6['name']||'')[_0x48127f(0x22b)](),_0x5c88ad=String(_0x4ca6b6[_0x48127f(0x323)]||'')[_0x48127f(0x22b)](),_0x7d6350=String(_0x4ca6b6[_0x48127f(0x32d)]||'')[_0x48127f(0x22b)](),_0x5bb9f1=_0x4ca6b6[_0x48127f(0x37a)]!=null?String(_0x4ca6b6[_0x48127f(0x37a)])[_0x48127f(0x22b)]():'';return _0x3a508f[_0x48127f(0x382)](_0x384575=>{const _0x18e9f4=_0x48127f;if(_0x5bb3d9&&String(_0x384575['id'])===_0x5bb3d9)return!![];if(_0x5bb9f1&&String(_0x384575[_0x18e9f4(0x37a)]||'')===_0x5bb9f1)return!![];if(_0x5c88ad&&String(_0x384575[_0x18e9f4(0x323)]||'')[_0x18e9f4(0x2d0)]()===_0x5c88ad['toLowerCase']())return!![];if(_0x7d6350&&String(_0x384575[_0x18e9f4(0x32d)]||'')['toLowerCase']()===_0x7d6350[_0x18e9f4(0x2d0)]())return!![];return _0xf0f0d7&&String(_0x384575[_0x18e9f4(0x3c8)])[_0x18e9f4(0x2d0)]()===_0xf0f0d7[_0x18e9f4(0x2d0)]();})||null;},_0x5e7bde=(_0x29fcfc,_0x21a4f5)=>{const _0x4c2a5a=_0x1ea4b5;if(!_0x29fcfc||!Array[_0x4c2a5a(0x389)](_0x21a4f5)||_0x21a4f5[_0x4c2a5a(0x2e3)]===0x0)return 0x0;const _0x2e8f47=Array['isArray'](_0x29fcfc[_0x4c2a5a(0x2c3)])?_0x29fcfc[_0x4c2a5a(0x2c3)]:[],_0x3b314f=_0x2e8f47[_0x4c2a5a(0x2e3)]>0x0?Number(_0x2e8f47[_0x2e8f47['length']-0x1]?.[_0x4c2a5a(0x386)])||0x0:0x0,_0x34c68a=Math[_0x4c2a5a(0x367)](_0x3b314f,Date[_0x4c2a5a(0x354)]());return _0x21a4f5[_0x4c2a5a(0x234)]((_0x45a754,_0x5f599e)=>{const _0x15fb6b=_0x4c2a5a,_0x20dd36=Number(_0x45a754[_0x15fb6b(0x386)])||0x0;_0x45a754[_0x15fb6b(0x386)]=Math[_0x15fb6b(0x367)](_0x20dd36,_0x34c68a+_0x5f599e+0x1);}),_0x29fcfc['messages']=_0x2e8f47,_0x29fcfc[_0x4c2a5a(0x2c3)][_0x4c2a5a(0x2b3)](..._0x21a4f5),_0x29fcfc['updatedAt']=_0x21a4f5[_0x21a4f5[_0x4c2a5a(0x2e3)]-0x1][_0x4c2a5a(0x386)]||Date[_0x4c2a5a(0x354)](),_0x21a4f5[_0x4c2a5a(0x2e3)];};_0x5f3520[_0x1ea4b5(0x234)]((_0xab858a,_0x41b28c)=>{const _0x21b7de=_0x1ea4b5;if(!_0xab858a||typeof _0xab858a!=='object')return;const _0x2f01cd=String(_0xab858a[_0x21b7de(0x323)]||'')[_0x21b7de(0x22b)](),_0x26b414=String(_0xab858a[_0x21b7de(0x32d)]||'')['trim'](),_0x115b63=String(_0xab858a[_0x21b7de(0x3c8)]||_0x26b414||_0x2f01cd)['trim'](),_0x285f6d=_0xab858a[_0x21b7de(0x37a)]!=null?String(_0xab858a[_0x21b7de(0x37a)])[_0x21b7de(0x22b)]():'',_0x40b1b6=_0x4fedf9(_0x115b63),_0x177a4c=_0x4fedf9(_0x2f01cd),_0x515c68=_0x4fedf9(_0x26b414),_0x52ae8f=_0x115b63[_0x21b7de(0x2d0)](),_0x514dbf=_0x2f01cd[_0x21b7de(0x2d0)](),_0xe20c43=_0x26b414['toLowerCase']();if(!_0x115b63||!_0x40b1b6||_0x40b78c['has'](_0x40b1b6)||_0x177a4c&&_0x40b78c[_0x21b7de(0x405)](_0x177a4c)||_0x515c68&&_0x40b78c[_0x21b7de(0x405)](_0x515c68)||_0x3ef1f6['has'](_0x52ae8f)||_0x514dbf&&_0x3ef1f6[_0x21b7de(0x405)](_0x514dbf)||_0xe20c43&&_0x3ef1f6[_0x21b7de(0x405)](_0xe20c43)||_0x285f6d&&_0x49a394[_0x21b7de(0x405)](_0x285f6d))return;const _0x3bd888=_0x4c037c(_0xab858a[_0x21b7de(0x2c3)],_0x21b7de(0x254));if(_0x3bd888[_0x21b7de(0x2e3)]===0x0)return;const _0x1240be=Date['now']()+_0x41b28c;_0x3a508f[_0x21b7de(0x356)]({'id':_0x4cbedd(_0x21b7de(0x472)),'name':_0x115b63,'realName':_0x2f01cd,'remark':_0x26b414,'persona':String(_0xab858a['persona']||'')[_0x21b7de(0x22b)](),'relationship':String(_0xab858a[_0x21b7de(0x2b1)]||'')[_0x21b7de(0x22b)](),'avatarSeed':String(_0xab858a[_0x21b7de(0x250)]||_0x26b414||_0x2f01cd||_0x115b63)[_0x21b7de(0x22b)](),'sourceNpcId':_0x285f6d,'messages':_0x3bd888,'createdAt':_0x1240be,'updatedAt':_0x3bd888[_0x3bd888[_0x21b7de(0x2e3)]-0x1][_0x21b7de(0x386)]||_0x1240be}),_0x40b78c[_0x21b7de(0x2c0)](_0x40b1b6);if(_0x177a4c)_0x40b78c[_0x21b7de(0x2c0)](_0x177a4c);if(_0x515c68)_0x40b78c['add'](_0x515c68);_0x3ef1f6[_0x21b7de(0x2c0)](_0x52ae8f);if(_0x514dbf)_0x3ef1f6[_0x21b7de(0x2c0)](_0x514dbf);if(_0xe20c43)_0x3ef1f6[_0x21b7de(0x2c0)](_0xe20c43);if(_0x285f6d)_0x49a394[_0x21b7de(0x2c0)](_0x285f6d);_0x14f9ad+=_0x3bd888[_0x21b7de(0x2e3)];});const _0x4790e3=Array['isArray'](_0x3bc50c[_0x1ea4b5(0x3e3)])?_0x3bc50c[_0x1ea4b5(0x3e3)]:[],_0x25dc23=new Set();_0x4790e3[_0x1ea4b5(0x234)](_0x3ff711=>{const _0x3a297c=_0x1ea4b5;if(!_0x3ff711||typeof _0x3ff711!==_0x3a297c(0x484))return;const _0x2d5345=_0x9f1d7d(_0x3ff711);if(!_0x2d5345)return;const _0x2c17e6=_0x4c037c(_0x3ff711[_0x3a297c(0x2c3)],_0x3a297c(0x402));if(_0x2c17e6[_0x3a297c(0x2e3)]===0x0)return;const _0x1e6a83=_0x5e7bde(_0x2d5345,_0x2c17e6);_0x1e6a83>0x0&&(_0x25dc23[_0x3a297c(0x2c0)](String(_0x2d5345['id'])),_0x14f9ad+=_0x1e6a83);});const _0x1b7296=Array[_0x1ea4b5(0x389)](_0x3bc50c[_0x1ea4b5(0x2fc)])?_0x3bc50c[_0x1ea4b5(0x2fc)]:[];_0x1b7296[_0x1ea4b5(0x234)](_0x35f13d=>{const _0x2a87ef=_0x1ea4b5;if(!_0x35f13d||typeof _0x35f13d!=='object')return;const _0x179812=_0x9f1d7d(_0x35f13d);if(!_0x179812)return;if(!_0x25dc23[_0x2a87ef(0x405)](String(_0x179812['id'])))return;const _0x26be71=_0x4c037c(_0x35f13d[_0x2a87ef(0x2c3)],'account');if(_0x26be71[_0x2a87ef(0x2e3)]===0x0)return;_0x14f9ad+=_0x5e7bde(_0x179812,_0x26be71);});},{'silent':!![],'metaOnly':!![]});if(!_0x5a975e)return{'success':![],'changedCount':0x0};return window[_0x24cf6e(0x2ec)](new CustomEvent(_0x24cf6e(0x220),{'detail':{'friendId':_0x59a1e7,'changedCount':_0x14f9ad}})),_0x14f9ad>0x0&&!_0x23a710[_0x24cf6e(0x3b4)]&&window['showToast']&&window[_0x24cf6e(0x279)]('关联好友已更新（'+_0x14f9ad+'）'),{'success':!![],'changedCount':_0x14f9ad};}catch(_0x8f23a6){return console[_0x24cf6e(0x2ea)](_0x24cf6e(0x25c),_0x8f23a6),!_0x23a710[_0x24cf6e(0x3b4)]&&window[_0x24cf6e(0x279)]&&window[_0x24cf6e(0x279)](_0x24cf6e(0x2fe)+(_0x8f23a6?.['message']?'：'+_0x8f23a6['message']:'')),{'success':![],'changedCount':0x0,'error':_0x8f23a6};}finally{_0x2ddd2b[_0x24cf6e(0x336)](_0x59a1e7);}}async function _0x56e11e(_0x1e35a1,_0x2b1b06,_0x4b266d,_0x17502b=Date[_0x34c67b(0x354)]()){const _0x58e8a4=_0x34c67b;if(!window[_0x58e8a4(0x22f)]?.['commitScopedFriendChange'])return![];return window['imApp'][_0x58e8a4(0x462)](_0x1e35a1,_0x551ed3=>{const _0x4d926d=_0x58e8a4;_0x551ed3[_0x4d926d(0x47f)]=window['imApp'][_0x4d926d(0x42b)](_0x551ed3)[_0x4d926d(0x47f)];const _0x461a63=_0x5da571(_0x551ed3[_0x4d926d(0x47f)][_0x4d926d(0x3a4)]),_0x36b4c9=_0x338f84(_0x461a63[_0x2b1b06]||_0x4b266d);_0x36b4c9[_0x4d926d(0x3e2)]=_0x17502b+_0x2108b1(_0x36b4c9),_0x461a63[_0x2b1b06]=_0x36b4c9,_0x551ed3[_0x4d926d(0x47f)][_0x4d926d(0x3a4)]=_0x461a63;},{'silent':!![],'immediate':!![],'metaOnly':!![],'syncActive':!![],'syncSettings':!![]});}function _0x3a2b39(_0x59d5b1,_0x39df78=Date[_0x34c67b(0x354)]()){const _0x55081b=_0x34c67b,_0x54ec82=_0x59d5b1?.['realName']||_0x59d5b1?.['nickname']||'TA',_0x163a3c=(window[_0x55081b(0x31f)]?window['getUserState']():window[_0x55081b(0x29e)]||{})?.[_0x55081b(0x3c8)]||'User',_0x54d5bb=Array[_0x55081b(0x389)](_0x59d5b1?.[_0x55081b(0x47f)]?.[_0x55081b(0x443)])&&_0x59d5b1['memory']['relationships'][_0x55081b(0x2e3)]>0x0?_0x59d5b1[_0x55081b(0x47f)][_0x55081b(0x443)][_0x55081b(0x465)](_0x499966=>{const _0x1981ed=_0x55081b,_0x468c73=(window[_0x1981ed(0x2c8)]?.[_0x1981ed(0x442)]||[])[_0x1981ed(0x382)](_0x2bf97a=>String(_0x2bf97a['id'])===String(_0x499966[_0x1981ed(0x24d)]));return(_0x468c73?_0x468c73[_0x1981ed(0x235)]:'Unknown')+':\x20'+(_0x499966[_0x1981ed(0x464)]||'');})[_0x55081b(0x348)]('\x0a'):_0x55081b(0x3c7),_0x36bd46=Array[_0x55081b(0x389)](_0x59d5b1?.[_0x55081b(0x2c3)])?_0x59d5b1[_0x55081b(0x2c3)][_0x55081b(0x3da)](-0x8)[_0x55081b(0x465)](_0x3efe6b=>{const _0x18ff3b=_0x55081b,_0x494c30=_0x3efe6b[_0x18ff3b(0x39e)]===_0x18ff3b(0x3cd)?_0x54ec82:_0x163a3c;return'['+_0xc78740(_0x3efe6b['timestamp'])+']\x20'+_0x494c30+':\x20'+_0x17f6c5(_0x3efe6b);})[_0x55081b(0x348)]('\x0a'):'';return _0x55081b(0x369)+_0x54ec82+_0x55081b(0x436)+_0xc78740(_0x39df78)+_0x55081b(0x294)+_0x163a3c+_0x55081b(0x3df)+(_0x59d5b1?.[_0x55081b(0x2f5)]||_0x55081b(0x3c7))+'\x0a角色签名：'+(_0x59d5b1?.[_0x55081b(0x3ec)]||_0x55081b(0x3c7))+'\x0a关系和记忆：\x0a'+(_0x59d5b1?.[_0x55081b(0x47f)]?.['overview']||_0x55081b(0x3c7))+_0x55081b(0x452)+_0x54d5bb+_0x55081b(0x2d3)+(_0x36bd46||_0x55081b(0x3c7))+_0x55081b(0x363);}async function _0xfdfa8a(_0x7d6935,_0x1af146,_0x167f32=Date[_0x34c67b(0x354)]()){const _0x30378a=_0x34c67b,_0x52b9d6=_0x12e44e(_0x1af146);if(!_0x52b9d6)return'';const _0x3f5ced=await _0x5f1e91(_0x52b9d6,_0x1af146,[{'role':_0x30378a(0x377),'content':_0x30378a(0x3a0)},{'role':_0x30378a(0x347),'content':_0x3a2b39(_0x7d6935,_0x167f32)}],0xea60);if(!_0x3f5ced['ok'])throw new Error(_0x3f5ced[_0x30378a(0x25d)]+'\x20'+_0x3f5ced['statusText']);const _0x507ec7=await _0x3f5ced[_0x30378a(0x453)](),_0x26260f=_0x464380(_0x1dfab9(_0x507ec7));return typeof _0x26260f?.[_0x30378a(0x306)]==='string'?_0x26260f[_0x30378a(0x306)][_0x30378a(0x22b)]():'';}async function _0x28f692(_0x2ec982,_0x314c1c=_0x34c67b(0x372)){const _0x8f9b06=_0x34c67b,_0x4d88e5=_0x10e61a(_0x2ec982);if(!_0x4d88e5||_0x31dcf5[_0x8f9b06(0x405)](_0x4d88e5)||_0x4b94d6[_0x8f9b06(0x405)](_0x4d88e5))return![];let _0x14bdf9=_0x43f991(_0x4d88e5)||(_0x2ec982&&typeof _0x2ec982===_0x8f9b06(0x484)?_0x2ec982:null);if(!_0x14bdf9||_0x14bdf9[_0x8f9b06(0x468)]===_0x8f9b06(0x39a)||_0x14bdf9[_0x8f9b06(0x468)]===_0x8f9b06(0x357))return![];window[_0x8f9b06(0x22f)]?.['ensureFriendMessagesLoaded']&&(await window[_0x8f9b06(0x22f)][_0x8f9b06(0x44a)](_0x14bdf9),_0x14bdf9=_0x43f991(_0x4d88e5)||_0x14bdf9);_0x14bdf9['memory']=window['imApp'][_0x8f9b06(0x42b)](_0x14bdf9)[_0x8f9b06(0x47f)];const _0xec68bb=_0x59fa65(_0x14bdf9[_0x8f9b06(0x47f)][_0x8f9b06(0x3a4)],_0x8f9b06(0x1f9));if(!_0xec68bb[_0x8f9b06(0x339)])return![];const _0x5ea0cf=window['getApiConfig']?window[_0x8f9b06(0x340)]():window[_0x8f9b06(0x21e)]||{};if(!_0x5ea0cf[_0x8f9b06(0x3bb)]||!_0x5ea0cf[_0x8f9b06(0x424)])return await _0x56e11e(_0x4d88e5,_0x8f9b06(0x1f9),_0xec68bb,Date['now']()),![];_0x31dcf5[_0x8f9b06(0x2c0)](_0x4d88e5);const _0x441f8a=Date[_0x8f9b06(0x354)]();try{await window[_0x8f9b06(0x22f)]['commitScopedFriendChange'](_0x4d88e5,_0x3d998f=>{const _0x5840d9=_0x8f9b06;_0x3d998f[_0x5840d9(0x47f)]=window[_0x5840d9(0x22f)]['normalizeFriendData'](_0x3d998f)[_0x5840d9(0x47f)];const _0x39cc0e=_0x5da571(_0x3d998f[_0x5840d9(0x47f)][_0x5840d9(0x3a4)]),_0x42de7a=_0x338f84(_0x39cc0e[_0x5840d9(0x1f9)]);_0x42de7a[_0x5840d9(0x39b)]=_0x441f8a,_0x42de7a['nextRunAt']=_0x441f8a+_0x2108b1(_0x42de7a),_0x39cc0e[_0x5840d9(0x1f9)]=_0x42de7a,_0x3d998f[_0x5840d9(0x47f)][_0x5840d9(0x3a4)]=_0x39cc0e;},{'silent':!![],'immediate':!![],'metaOnly':!![],'syncActive':!![],'syncSettings':!![]});const _0x52ca2f=_0x43f991(_0x4d88e5)||_0x14bdf9,_0x153fa5=document[_0x8f9b06(0x2c7)](_0x8f9b06(0x34e)+_0x4d88e5),_0x2a2a5f=_0x153fa5?_0x153fa5['querySelector'](_0x8f9b06(0x315)):null;return await _0x52f818(_0x52ca2f,_0x2a2a5f,null,{'source':_0x8f9b06(0x3a4),'silent':!![],'extraSystemPrompt':_0x91d109(_0x52ca2f,_0x441f8a)}),!![];}catch(_0x23e27f){return console[_0x8f9b06(0x2ea)](_0x8f9b06(0x20c),{'friendId':_0x4d88e5,'reason':_0x314c1c,'error':_0x23e27f}),![];}finally{_0x31dcf5[_0x8f9b06(0x336)](_0x4d88e5);}}function _0x23c13e(_0x3096ce,_0x118433={}){const _0x5c7b2f=_0x34c67b,_0x337b55=!!_0x118433[_0x5c7b2f(0x33d)],_0x32ed40=_0x3096ce['nickname']||_0x3096ce['realName']||_0x5c7b2f(0x328);if(_0x337b55)return _0x5c7b2f(0x397);if(_0x3096ce['type']===_0x5c7b2f(0x357))return _0x5c7b2f(0x46e);return _0x5c7b2f(0x237)+_0x32ed40+_0x5c7b2f(0x2db);}async function _0x386b2b(_0xd37e7c,_0x13d2eb='timer'){const _0x2711fc=_0x34c67b,_0xe8de86=_0x10e61a(_0xd37e7c);if(!_0xe8de86||_0x4c8d0c['has'](_0xe8de86))return![];let _0x3de695=_0x43f991(_0xe8de86)||(_0xd37e7c&&typeof _0xd37e7c===_0x2711fc(0x484)?_0xd37e7c:null);if(!_0x3de695||_0x3de695[_0x2711fc(0x468)]===_0x2711fc(0x39a)||_0x3de695['type']===_0x2711fc(0x357))return![];window[_0x2711fc(0x22f)]?.[_0x2711fc(0x44a)]&&(await window['imApp'][_0x2711fc(0x44a)](_0x3de695),_0x3de695=_0x43f991(_0xe8de86)||_0x3de695);window[_0x2711fc(0x22f)]?.['ensureMomentsReady']&&await window[_0x2711fc(0x22f)][_0x2711fc(0x2ce)]();_0x3de695[_0x2711fc(0x47f)]=window[_0x2711fc(0x22f)][_0x2711fc(0x42b)](_0x3de695)[_0x2711fc(0x47f)];const _0x2f875a=_0x59fa65(_0x3de695[_0x2711fc(0x47f)][_0x2711fc(0x3a4)],'moment');if(!_0x2f875a['enabled'])return![];const _0xdd5e42=window['getApiConfig']?window[_0x2711fc(0x340)]():window[_0x2711fc(0x21e)]||{};if(!_0xdd5e42[_0x2711fc(0x3bb)]||!_0xdd5e42[_0x2711fc(0x424)])return await _0x56e11e(_0xe8de86,_0x2711fc(0x275),_0x2f875a,Date[_0x2711fc(0x354)]()),![];_0x4c8d0c['add'](_0xe8de86);const _0x1c39d9=Date[_0x2711fc(0x354)]();try{await window[_0x2711fc(0x22f)]['commitScopedFriendChange'](_0xe8de86,_0x31b357=>{const _0x5b5c1c=_0x2711fc;_0x31b357[_0x5b5c1c(0x47f)]=window[_0x5b5c1c(0x22f)][_0x5b5c1c(0x42b)](_0x31b357)[_0x5b5c1c(0x47f)];const _0xfba80a=_0x5da571(_0x31b357['memory'][_0x5b5c1c(0x3a4)]),_0x194e65=_0x338f84(_0xfba80a[_0x5b5c1c(0x275)]);_0x194e65[_0x5b5c1c(0x39b)]=_0x1c39d9,_0x194e65[_0x5b5c1c(0x3e2)]=_0x1c39d9+_0x2108b1(_0x194e65),_0xfba80a[_0x5b5c1c(0x275)]=_0x194e65,_0x31b357[_0x5b5c1c(0x47f)]['autonomous']=_0xfba80a;},{'silent':!![],'immediate':!![],'metaOnly':!![],'syncActive':!![],'syncSettings':!![]});const _0x5868de=_0x43f991(_0xe8de86)||_0x3de695,_0x7f96e0=await _0xfdfa8a(_0x5868de,_0xdd5e42,_0x1c39d9);if(!_0x7f96e0)return![];const _0x2274cd={'id':Date[_0x2711fc(0x354)](),'userId':_0x5868de['id'],'name':_0x5868de[_0x2711fc(0x235)]||_0x5868de[_0x2711fc(0x323)]||_0x2711fc(0x38d),'avatar':_0x5868de[_0x2711fc(0x3c1)]||null,'text':_0x7f96e0,'images':[],'time':Date[_0x2711fc(0x354)](),'likes':[],'comments':[],'isPinned':![]},_0x3dab09=window[_0x2711fc(0x22f)][_0x2711fc(0x33e)]?await window[_0x2711fc(0x22f)]['commitMomentChange'](_0x2274cd['id'],()=>{const _0x3e0178=_0x2711fc;if(!Array[_0x3e0178(0x389)](window[_0x3e0178(0x2c8)][_0x3e0178(0x3eb)]))window[_0x3e0178(0x2c8)][_0x3e0178(0x3eb)]=[];window[_0x3e0178(0x2c8)][_0x3e0178(0x3eb)][_0x3e0178(0x356)](_0x2274cd);},{'silent':!![],'immediate':!![]}):![];if(!_0x3dab09)return![];if(window['imApp']['renderMoments'])window[_0x2711fc(0x22f)][_0x2711fc(0x45f)]();return window[_0x2711fc(0x3bc)]&&window[_0x2711fc(0x3bc)](_0x5868de,_0x2711fc(0x2f7)),!![];}catch(_0x2341e1){return console[_0x2711fc(0x2ea)]('[iMessage\x20autonomous\x20moment]\x20failed',{'friendId':_0xe8de86,'reason':_0x13d2eb,'error':_0x2341e1}),![];}finally{_0x4c8d0c['delete'](_0xe8de86);}}async function _0x4b8362(_0x2d2f8e=_0x34c67b(0x372)){const _0x4c0c2c=_0x34c67b,_0x144a2f=Array[_0x4c0c2c(0x389)](window['imData']?.[_0x4c0c2c(0x442)])?window[_0x4c0c2c(0x2c8)][_0x4c0c2c(0x442)]:[],_0x4add10=Date[_0x4c0c2c(0x354)]();for(const _0x3bcebe of _0x144a2f){if(!_0x3bcebe||_0x3bcebe['type']===_0x4c0c2c(0x39a)||_0x3bcebe[_0x4c0c2c(0x468)]===_0x4c0c2c(0x357))continue;const _0x7df51b=window['imApp'][_0x4c0c2c(0x42b)](_0x3bcebe),_0x1bcc93=_0x5da571(_0x7df51b[_0x4c0c2c(0x47f)]?.['autonomous']),_0xcf829d=_0x338f84(_0x1bcc93[_0x4c0c2c(0x1f9)]),_0x28d104=_0x338f84(_0x1bcc93[_0x4c0c2c(0x275)]);if(_0xcf829d['enabled']){if(!_0xcf829d[_0x4c0c2c(0x3e2)]||_0xcf829d[_0x4c0c2c(0x3e2)]<=0x0)await _0x56e11e(_0x7df51b['id'],_0x4c0c2c(0x1f9),_0xcf829d,_0x4add10);else _0xcf829d[_0x4c0c2c(0x3e2)]<=_0x4add10&&await _0x28f692(_0x7df51b,_0x2d2f8e);}if(_0x28d104[_0x4c0c2c(0x339)]){if(!_0x28d104[_0x4c0c2c(0x3e2)]||_0x28d104['nextRunAt']<=0x0)await _0x56e11e(_0x7df51b['id'],_0x4c0c2c(0x275),_0x28d104,_0x4add10);else _0x28d104['nextRunAt']<=_0x4add10&&await _0x386b2b(_0x7df51b,_0x2d2f8e);}}}function _0x31eb3e(){void _0x4b8362('refresh');}async function _0x52f818(_0x571d73,_0x2d8588,_0x6189,_0x4e85d1={}){const _0x16e178=_0x34c67b;console[_0x16e178(0x2df)](_0x16e178(0x280),{'friend':_0x571d73,'btnEl':_0x6189,'source':_0x4e85d1[_0x16e178(0x427)]||_0x16e178(0x458)});const _0x41205a=_0x10e61a(_0x571d73);if(_0x4b94d6[_0x16e178(0x405)](_0x41205a)){if(!_0x4e85d1['silent']&&window[_0x16e178(0x279)])window[_0x16e178(0x279)](_0x16e178(0x2e8));return;}const _0x77d86e=window['getApiConfig']?window[_0x16e178(0x340)]():window[_0x16e178(0x21e)]||{},_0x1ddfab=window[_0x16e178(0x31f)]?window[_0x16e178(0x31f)]():window[_0x16e178(0x29e)]||{};if(!_0x77d86e[_0x16e178(0x3bb)]||!_0x77d86e[_0x16e178(0x424)]){console[_0x16e178(0x1f2)]('API\x20config\x20is\x20missing!',_0x77d86e);if(!_0x4e85d1['silent']&&window['showToast'])window[_0x16e178(0x279)](_0x16e178(0x36a));return;}let _0x58e163=null;const _0x15d115=_0x4cbedd(_0x41205a),_0x47c81e=_0xff42ff(_0x41205a),_0x164829=new AbortController(),_0x328fef=()=>_0xff42ff(_0x41205a)===_0x47c81e&&!_0x164829[_0x16e178(0x2fb)][_0x16e178(0x241)];_0x4b94d6[_0x16e178(0x2c0)](_0x41205a),_0x5791bd[_0x16e178(0x45c)](_0x41205a,_0x164829);try{window[_0x16e178(0x22f)]?.[_0x16e178(0x432)]&&await window[_0x16e178(0x22f)][_0x16e178(0x432)]();if(!_0x328fef())return;_0x571d73=_0x43f991(_0x571d73['id'])||_0x571d73;_0x2d8588&&(_0x58e163=document['createElement']('div'),_0x58e163['className']=_0x16e178(0x24c),_0x58e163[_0x16e178(0x302)]=_0x16e178(0x2ff),_0x2d8588[_0x16e178(0x21f)](_0x58e163),window[_0x16e178(0x43f)][_0x16e178(0x360)](_0x2d8588));if(_0x6189)_0x6189[_0x16e178(0x3d0)][_0x16e178(0x450)]=_0x16e178(0x3b9);_0x571d73[_0x16e178(0x47f)]=window[_0x16e178(0x22f)][_0x16e178(0x42b)](_0x571d73)[_0x16e178(0x47f)];const _0x1cd3d1=window[_0x16e178(0x22f)][_0x16e178(0x20b)](_0x571d73),_0x2717ff=_0x36ff07(_0x571d73);function _0x523c1d(_0x17b3f5){const _0x2ae89f=_0x16e178;if(!_0x17b3f5)return'';const _0x2bd2fb=new Date(_0x17b3f5),_0x51cfd7=_0x2bd2fb[_0x2ae89f(0x3fc)](),_0x213e77=_0x2bd2fb[_0x2ae89f(0x41f)]()+0x1,_0x18cb58=_0x2bd2fb[_0x2ae89f(0x3de)](),_0x4b8f15=['周日','周一','周二','周三','周四','周五','周六'],_0x30da5a=_0x4b8f15[_0x2bd2fb[_0x2ae89f(0x201)]()],_0xc88e7c=_0x2bd2fb[_0x2ae89f(0x45d)](),_0x158994=_0x2bd2fb['getMinutes']()[_0x2ae89f(0x46c)]()[_0x2ae89f(0x2d6)](0x2,'0'),_0x22ee91=_0x2bd2fb[_0x2ae89f(0x309)]()[_0x2ae89f(0x46c)]()[_0x2ae89f(0x2d6)](0x2,'0');let _0x5cd0a6='';if(_0xc88e7c>=0x0&&_0xc88e7c<0x6)_0x5cd0a6='凌晨';else{if(_0xc88e7c>=0x6&&_0xc88e7c<0x9)_0x5cd0a6='早上';else{if(_0xc88e7c>=0x9&&_0xc88e7c<0xc)_0x5cd0a6='上午';else{if(_0xc88e7c===0xc)_0x5cd0a6='中午';else{if(_0xc88e7c>0xc&&_0xc88e7c<0x12)_0x5cd0a6='下午';else{if(_0xc88e7c>=0x12&&_0xc88e7c<=0x17)_0x5cd0a6='晚上';}}}}}let _0x4a1113=_0xc88e7c%0xc;if(_0x4a1113===0x0)_0x4a1113=0xc;return _0x2ae89f(0x298)+_0x51cfd7+'年'+_0x213e77+'月'+_0x18cb58+'日\x20'+_0x30da5a+'\x20'+_0x5cd0a6+_0x4a1113+':'+_0x158994+':'+_0x22ee91+']\x20';}function _0x4e801e(_0x3f348a){const _0x59d973=_0x16e178,_0x1e3d31=Number(_0x3f348a);if(!Number[_0x59d973(0x27c)](_0x1e3d31)||_0x1e3d31<=0x0)return'未知';const _0x49bf03=new Date(_0x1e3d31);return _0x49bf03[_0x59d973(0x3fc)]()+'年'+(_0x49bf03[_0x59d973(0x41f)]()+0x1)+'月'+_0x49bf03[_0x59d973(0x3de)]()+'日\x20'+_0x49bf03[_0x59d973(0x45d)]()+':'+_0x49bf03[_0x59d973(0x331)]()[_0x59d973(0x46c)]()[_0x59d973(0x2d6)](0x2,'0');}function _0x3769c5(_0x2d06a6){const _0x1106c5=_0x16e178,_0x20ef4b=Number(_0x2d06a6);if(!Number[_0x1106c5(0x27c)](_0x20ef4b)||_0x20ef4b<0x0)return'未知';const _0x4aa678=Math[_0x1106c5(0x248)](_0x20ef4b/0xea60);if(_0x4aa678<0x1)return _0x1106c5(0x431);if(_0x4aa678<0x3c)return _0x4aa678+'分钟';const _0x45c034=Math[_0x1106c5(0x248)](_0x4aa678/0x3c),_0x1e8985=_0x4aa678%0x3c;if(_0x45c034<0x18)return _0x1e8985>0x0?_0x45c034+'小时'+_0x1e8985+'分钟':_0x45c034+'小时';const _0xbfe5e5=Math[_0x1106c5(0x248)](_0x45c034/0x18),_0x21d02f=_0x45c034%0x18;return _0x21d02f>0x0?_0xbfe5e5+'天'+_0x21d02f+'小时':_0xbfe5e5+'天';}function _0x18a6a2(_0x4021e1,_0x339d49){const _0x4f9a90=_0x16e178,_0x303a1b=_0x4021e1?.[_0x4f9a90(0x401)]||_0x4021e1?.[_0x4f9a90(0x1f7)]||'';if(_0x303a1b){const _0x36fbc6=_0x339d49['find'](_0x5793af=>String(_0x5793af['id'])===String(_0x303a1b));if(_0x36fbc6)return _0x36fbc6['nickname']||_0x36fbc6[_0x4f9a90(0x323)]||_0x4f9a90(0x226);}return _0x4021e1?.[_0x4f9a90(0x26a)]||_0x4021e1?.[_0x4f9a90(0x31e)]||'群成员';}function _0x2212db(_0x366e7c,_0x4a54da){const _0x5713bd=_0x16e178;if(!_0x366e7c||_0x366e7c[_0x5713bd(0x39d)]===![])return'';const _0x56f3ba=new Date(),_0x3740b7=_0x56f3ba[_0x5713bd(0x3fc)]()+'年'+(_0x56f3ba[_0x5713bd(0x41f)]()+0x1)+'月'+_0x56f3ba[_0x5713bd(0x3de)]()+'日\x20'+_0x56f3ba[_0x5713bd(0x45d)]()+':'+_0x56f3ba[_0x5713bd(0x331)]()[_0x5713bd(0x46c)]()[_0x5713bd(0x2d6)](0x2,'0'),_0x3e1590=Array['isArray'](_0x366e7c[_0x5713bd(0x2c3)])?_0x366e7c[_0x5713bd(0x2c3)]['filter'](_0x4133bd=>_0x4133bd&&Number(_0x4133bd[_0x5713bd(0x386)])>0x0):[],_0x331263=_0x3e1590['slice']()[_0x5713bd(0x42a)]()['find'](_0x1a2eed=>_0x1a2eed[_0x5713bd(0x39e)]===_0x5713bd(0x347))||null,_0x434312=_0x3e1590[_0x5713bd(0x3da)]()['reverse']()[_0x5713bd(0x382)](_0x2bf091=>_0x2bf091[_0x5713bd(0x39e)]===_0x5713bd(0x3cd))||null,_0x5ceb6d=_0x3e1590['slice']()[_0x5713bd(0x42a)]()['find'](_0x44f97d=>_0x44f97d[_0x5713bd(0x39e)]==='user'||_0x44f97d[_0x5713bd(0x39e)]==='assistant')||null,_0x23ae98=_0x434312?_0x18a6a2(_0x434312,_0x4a54da):'未知',_0x11c53d=_0x5ceb6d?_0x56f3ba[_0x5713bd(0x3e1)]()-Number(_0x5ceb6d[_0x5713bd(0x386)]):null,_0x50f652=_0x331263?_0x56f3ba[_0x5713bd(0x3e1)]()-Number(_0x331263[_0x5713bd(0x386)]):null,_0x146622=_0x434312?_0x56f3ba[_0x5713bd(0x3e1)]()-Number(_0x434312[_0x5713bd(0x386)]):null;return _0x5713bd(0x3c9)+_0x3740b7+'。\x0a-\x20User\x20最后一次发言时间：'+(_0x331263?_0x4e801e(_0x331263[_0x5713bd(0x386)]):'未知')+(_0x331263?_0x5713bd(0x38e)+_0x3769c5(_0x50f652)+'）':'')+_0x5713bd(0x361)+(_0x434312?_0x23ae98+_0x5713bd(0x3d9)+_0x4e801e(_0x434312[_0x5713bd(0x386)]):'未知')+(_0x434312?_0x5713bd(0x38e)+_0x3769c5(_0x146622)+'）':'')+_0x5713bd(0x236)+(_0x5ceb6d?'约\x20'+_0x3769c5(_0x11c53d):'未知')+_0x5713bd(0x286);}const _0x4dfa65=_0x571d73['memory']['relationships']&&_0x571d73[_0x16e178(0x47f)][_0x16e178(0x443)][_0x16e178(0x2e3)]>0x0?_0x571d73[_0x16e178(0x47f)][_0x16e178(0x443)][_0x16e178(0x465)](_0xa11246=>{const _0xb7be7a=_0x16e178,_0x383138=window['imData']['friends'][_0xb7be7a(0x382)](_0xc36563=>String(_0xc36563['id'])===String(_0xa11246[_0xb7be7a(0x24d)]));return(_0x383138?_0x383138[_0xb7be7a(0x235)]:'Unknown\x20NPC')+':\x20'+_0xa11246[_0xb7be7a(0x464)];})[_0x16e178(0x348)]('\x0a'):_0x16e178(0x3c7);function _0x38f21c(_0x1d5873){const _0x7ccd98=_0x16e178;if(!_0x1d5873)return 0x0;if(typeof _0x1d5873===_0x7ccd98(0x36c))return _0x1d5873;const _0x157ce0=String(_0x1d5873)[_0x7ccd98(0x3d4)](/年/g,'-')[_0x7ccd98(0x3d4)](/月/g,'-')['replace'](/日/g,'\x20')[_0x7ccd98(0x3d4)](/\./g,'-')[_0x7ccd98(0x3d4)](/\//g,'-'),_0x593f9e=new Date(_0x157ce0);return Number[_0x7ccd98(0x3fa)](_0x593f9e['getTime']())?0x0:_0x593f9e[_0x7ccd98(0x3e1)]();}function _0x22a2a4(_0x1125f9){const _0x1b558e=_0x16e178,_0x4d5ab6=String(_0x1125f9||'高')[_0x1b558e(0x22b)]();if(_0x4d5ab6==='中'||_0x4d5ab6==='低'||_0x4d5ab6==='遗忘')return _0x4d5ab6;return'高';}function _0x18b811(_0x1f6ce6){const _0x54eedd=_0x16e178;return['<short_term_memory>',_0x54eedd(0x2a8)+(_0x1f6ce6['id']||'')+_0x54eedd(0x350),_0x54eedd(0x277)+(_0x1f6ce6[_0x54eedd(0x3a2)]||_0x54eedd(0x311))+_0x54eedd(0x21d),'\x20\x20<time>'+(_0x1f6ce6['time']||'')+_0x54eedd(0x327),_0x54eedd(0x303)+(_0x1f6ce6['event']||'')+'</event>','\x20\x20<memory_points>'+(_0x1f6ce6['memoryPoints']||'')+'</memory_points>','\x20\x20<degree>'+_0x22a2a4(_0x1f6ce6[_0x54eedd(0x2b6)])+_0x54eedd(0x47d),'</short_term_memory>']['join']('\x0a');}function _0x233f7f(_0x5e4703){const _0x5b9507=_0x16e178,_0x43dd6c=_0x5e4703['type']==='group',_0x9ea54a=Array[_0x5b9507(0x389)](_0x5e4703[_0x5b9507(0x47f)]?.['shortTermEntries'])?_0x5e4703[_0x5b9507(0x47f)]['shortTermEntries'][_0x5b9507(0x33c)](_0x1ac178=>_0x1ac178&&(_0x1ac178[_0x5b9507(0x2f1)]||_0x1ac178['memoryPoints']||_0x1ac178[_0x5b9507(0x3a2)])):[],_0x4e2e9f=_0x43dd6c?_0x9ea54a[_0x5b9507(0x3da)](-0xc):_0x9ea54a[_0x5b9507(0x33c)](_0x3ba92b=>_0x1db402(_0x3ba92b,_0x2717ff));if(_0x4e2e9f[_0x5b9507(0x2e3)]===0x0)return'';const _0x3966f9={'高':[],'中':[],'低':[],'遗忘':[]};_0x4e2e9f['forEach'](_0x128f3e=>{const _0x53421e=_0x5b9507,_0xd9a702=_0x22a2a4(_0x128f3e['degree']);_0x3966f9[_0xd9a702][_0x53421e(0x2b3)](_0x128f3e);}),Object[_0x5b9507(0x320)](_0x3966f9)['forEach'](_0x46fb75=>{_0x3966f9[_0x46fb75]['sort']((_0x583759,_0x36b157)=>{const _0x311dcb=_0x24d9,_0x1c9e5d=_0x38f21c(_0x36b157[_0x311dcb(0x253)]||_0x36b157[_0x311dcb(0x2eb)]||_0x36b157[_0x311dcb(0x381)]),_0x2f2520=_0x38f21c(_0x583759[_0x311dcb(0x253)]||_0x583759[_0x311dcb(0x2eb)]||_0x583759[_0x311dcb(0x381)]);return _0x1c9e5d-_0x2f2520;});});const _0x1d61c7=[[_0x5b9507(0x437),_0x3966f9['高']],[_0x5b9507(0x21a),_0x3966f9['中']],[_0x5b9507(0x258),_0x3966f9['低']],['遗忘记忆\x20|\x20仅作为模糊残影',_0x3966f9['遗忘']]][_0x5b9507(0x33c)](([,_0x48ca3a])=>_0x48ca3a['length']>0x0)['map'](([_0x373f03,_0x4686cd])=>_0x373f03+'\x0a'+_0x4686cd[_0x5b9507(0x465)](_0x18b811)[_0x5b9507(0x348)]('\x0a'))['join']('\x0a\x0a');if(_0x43dd6c)return'<group_public_summary_library>\x0a<rules>\x0a-\x20以下是当前群聊公开聊天的第三人称总结，只能作为群聊共同背景使用。\x0a-\x20这些总结不包含群成员给\x20User\x20的私信，也不包含群成员与自己好友的私信；不要据此让其他成员全知任何私聊内容。\x0a-\x20高：强参考，优先影响群内话题连续性、公开关系变化和共同事件。\x0a-\x20中/低：只在当前话题相关时辅助参考。\x0a-\x20遗忘：仅作为模糊残影，不主动提起。\x0a</rules>\x0a\x0a<memories>\x0a'+_0x1d61c7+_0x5b9507(0x2cf);return _0x5b9507(0x39c)+_0x1d61c7+_0x5b9507(0x41d);}let _0x2aeaf4='',_0x5503f='';if(_0x571d73[_0x16e178(0x47f)]?.[_0x16e178(0x482)]){const _0x5d5a5f=_0x571d73[_0x16e178(0x47f)][_0x16e178(0x482)];let _0x4ff701=[];(_0x5d5a5f[_0x16e178(0x3c3)]||_0x5d5a5f['wakeTime'])&&_0x4ff701[_0x16e178(0x2b3)](_0x16e178(0x483)+(_0x5d5a5f[_0x16e178(0x3f2)]||'未知')+_0x16e178(0x2c1)+(_0x5d5a5f['sleepTime']||'未知')+_0x16e178(0x3ae));if(Array[_0x16e178(0x389)](_0x5d5a5f['events'])&&_0x5d5a5f[_0x16e178(0x1fc)]['length']>0x0){_0x4ff701['push'](_0x16e178(0x36b));const _0xad9e33=new Date(),_0x25cfcf=_0xad9e33['getHours']()*0x3c+_0xad9e33[_0x16e178(0x331)]();_0x5d5a5f[_0x16e178(0x1fc)][_0x16e178(0x234)](_0x109ea2=>{const _0x2cdb02=_0x16e178,_0x5e839d=_0x109ea2[_0x2cdb02(0x433)]||_0x109ea2[_0x2cdb02(0x2eb)]||'未知',_0x209b23=_0x109ea2['endTime']||'未知';_0x4ff701['push']('-\x20'+_0x109ea2[_0x2cdb02(0x3c8)]+'\x20('+_0x5e839d+_0x2cdb02(0x425)+_0x209b23+')');if(_0x109ea2[_0x2cdb02(0x433)]&&_0x109ea2[_0x2cdb02(0x2b7)]){const _0x2ce0a6=_0x21edf8=>{const _0x3c8dc1=_0x2cdb02,_0xebb886=_0x21edf8[_0x3c8dc1(0x418)](':');return _0xebb886[_0x3c8dc1(0x2e3)]===0x2?parseInt(_0xebb886[0x0],0xa)*0x3c+parseInt(_0xebb886[0x1],0xa):-0x1;},_0x5a7df6=_0x2ce0a6(_0x109ea2[_0x2cdb02(0x433)]),_0x2ef8a3=_0x2ce0a6(_0x109ea2[_0x2cdb02(0x2b7)]);_0x5a7df6!==-0x1&&_0x2ef8a3!==-0x1&&(_0x5a7df6<=_0x2ef8a3?_0x25cfcf>=_0x5a7df6&&_0x25cfcf<=_0x2ef8a3&&(_0x5503f=_0x2cdb02(0x44d)+_0x109ea2['name']+_0x2cdb02(0x466)):(_0x25cfcf>=_0x5a7df6||_0x25cfcf<=_0x2ef8a3)&&(_0x5503f=_0x2cdb02(0x44d)+_0x109ea2['name']+_0x2cdb02(0x466)));}});}_0x4ff701[_0x16e178(0x2e3)]>0x0&&(_0x2aeaf4=_0x16e178(0x23d)+_0x4ff701['join']('\x0a'));}let _0x277ec0='';if(Array[_0x16e178(0x389)](_0x571d73[_0x16e178(0x47f)]?.['longTermEntries'])&&_0x571d73[_0x16e178(0x47f)]['longTermEntries'][_0x16e178(0x2e3)]>0x0){const _0x52a571=_0x571d73[_0x16e178(0x47f)][_0x16e178(0x3d8)][_0x16e178(0x33c)](_0x2da836=>_0x1db402(_0x2da836,_0x2717ff));_0x52a571[_0x16e178(0x2e3)]>0x0&&(_0x277ec0='<long_term_memories>\x0a'+_0x52a571['map'](_0x33d778=>_0x16e178(0x23f)+(_0x33d778[_0x16e178(0x3a2)]||'')+'</title>\x0a<content>'+(_0x33d778[_0x16e178(0x2a9)]||'')+'</content>\x0a</memory>')['join']('\x0a')+'\x0a</long_term_memories>');}else _0x571d73[_0x16e178(0x47f)]?.[_0x16e178(0x3c4)]&&(_0x277ec0=_0x16e178(0x259)+_0x571d73[_0x16e178(0x47f)][_0x16e178(0x3c4)]+_0x16e178(0x445));const _0x1bc7c8=[_0x571d73[_0x16e178(0x47f)][_0x16e178(0x334)]?'<core_memory_overview>\x0a'+_0x571d73[_0x16e178(0x47f)][_0x16e178(0x334)]+'\x0a</core_memory_overview>':'',_0x277ec0,_0x571d73[_0x16e178(0x47f)][_0x16e178(0x43d)]?.[_0x16e178(0x398)]?'<extra_context_notes>\x0a'+_0x571d73[_0x16e178(0x47f)]['context']['notes']+'\x0a</extra_context_notes>':'',_0x233f7f(_0x571d73),_0x2aeaf4,_0x16e178(0x3b5)+_0x4dfa65+_0x16e178(0x470),window[_0x16e178(0x22f)][_0x16e178(0x35e)]?window[_0x16e178(0x22f)][_0x16e178(0x35e)](_0x571d73):'',((()=>{const _0x8bc445=_0x16e178,_0x3e55fd=_0xaa3e61(_0x571d73);if(!_0x3e55fd)return'';return _0x8bc445(0x451)+_0x3e55fd;})()),((()=>{const _0x22a5e2=_0x16e178,_0x551dde=window[_0x22a5e2(0x43f)]['getProfilePanelData']?window['imChat'][_0x22a5e2(0x26e)](_0x571d73):_0x571d73[_0x22a5e2(0x265)]||null;if(!_0x551dde)return'';const _0x305e2a=Array[_0x22a5e2(0x389)](_0x551dde[_0x22a5e2(0x1fc)])&&_0x551dde[_0x22a5e2(0x1fc)][_0x22a5e2(0x2e3)]>0x0?_0x551dde[_0x22a5e2(0x1fc)][_0x22a5e2(0x3da)](-0x3)[_0x22a5e2(0x465)]((_0x37db86,_0x1f2ac0)=>{const _0x376beb=_0x22a5e2,_0x4f4af0=_0x37db86?.[_0x376beb(0x3a2)]||'事件'+(_0x1f2ac0+0x1),_0x2b9e26=_0x37db86?.[_0x376beb(0x30b)]||'',_0x371626=_0x37db86?.[_0x376beb(0x2eb)]||'';return'-\x20'+_0x4f4af0+(_0x371626?'\x20('+_0x371626+')':'')+(_0x2b9e26?':\x20'+_0x2b9e26:'');})[_0x22a5e2(0x348)]('\x0a'):'None',_0x27503a=typeof _0x551dde['affection']===_0x22a5e2(0x36c)?_0x551dde[_0x22a5e2(0x2e5)]:0x0;return _0x22a5e2(0x215)+(_0x1cd3d1?_0x22a5e2(0x3d5):_0x22a5e2(0x2e2))+_0x22a5e2(0x25e)+(_0x551dde[_0x22a5e2(0x239)]||_0x22a5e2(0x21c))+'\x0aAction:\x20'+(_0x551dde[_0x22a5e2(0x3aa)]||_0x22a5e2(0x3b8))+'\x0aMood:\x20'+(_0x551dde[_0x22a5e2(0x321)]||'平静')+_0x22a5e2(0x434)+(_0x551dde[_0x22a5e2(0x269)]||'自然')+_0x22a5e2(0x263)+_0x27503a+_0x22a5e2(0x295)+(_0x551dde['thought']||_0x22a5e2(0x272))+_0x22a5e2(0x3d6)+_0x305e2a;})())][_0x16e178(0x33c)](Boolean)[_0x16e178(0x348)]('\x0a\x0a'),_0x54c5bd=_0x571d73['pendingLovesInvite']?'\x0a\x0a【情侣空间邀请事件】：User\x20刚刚向你发送了\x20Loves\x20App\x20情侣空间的邀请卡片。你可以根据当前的好感度和角色性格，决定是否接受。\x0a如果选择接受，请在某一条对话文本(text字段)内任意位置包含\x20[ACCEPT_INVITE]\x20标记（该标记会被系统解析且不会展示给用户）。接受后，后续可能会触发空间内的互动。你也可以傲娇地不包含此标记，这代表你暂时忽略或拒绝了该邀请，那么一切照旧。':'',_0x45339a='\x0a\x0a【Loves情侣空间联动】：如果你现在和User已经开启了情侣空间（如果在聊与空间的日常，或你们之前已开启），你可以主动在Loves应用中发布动态或添加日程：\x0a-\x20如果你听到了明确的未来时间计划，觉得应该记下来，请额外输出一个\x20<loves_schedule>{\x22title\x22:\x22活动标题(10字内)\x22,\x22date\x22:\x22YYYY-MM-DD\x22,\x22startTime\x22:\x22HH:MM\x22,\x22endTime\x22:\x22HH:MM\x22,\x22description\x22:\x22描述(选填)\x22}</loves_schedule>\x20标签。日期必须是未来的某天，参考当前系统时间。这将被同步记录到你的个人\x20iCloud\x20日程中。\x0a-\x20如果你今天心情特别好或有深刻的感悟想发在空间动态里（不需要艾特User），请额外输出一个\x20<loves_moment>{\x22content\x22:\x22动态文字内容...\x22,\x22image\x22:\x22可以为空\x22}</loves_moment>\x20标签。只有当你觉得真的想发动态时才输出。';let _0x201cc2='未知';typeof window[_0x16e178(0x293)]===_0x16e178(0x27e)&&(_0x201cc2=window[_0x16e178(0x293)](_0x571d73['id'])?'是':'否');const _0x328994='\x0a\x0a【亲属卡互动】：当前你是否已经给过User亲属卡：'+_0x201cc2+'。\x0a-\x20如果User在聊天中暗示或明示想要“亲属卡”，且你当前【未给过】亲属卡，你可以输出一个特定的支付对象：{\x22type\x22:\x22payment\x22,\x22paymentAction\x22:\x22family_card\x22,\x22amount\x22:1000,\x22description\x22:\x22亲属卡\x22}，这会给User发一张1000额度的亲属卡。\x0a-\x20如果你当前【已经给过】亲属卡，且User再次暗示或明示想要“亲属卡”，系统限制一人只能给一张，你不能再给一张，但你可以输出\x20{\x22type\x22:\x22payment\x22,\x22paymentAction\x22:\x22family_card_increase\x22,\x22amount\x22:500,\x22description\x22:\x22亲属卡提额\x22}\x20来给现有的亲属卡提升500额度，并在对话中提醒TA已经给过一张了只能提额。',_0x43eeb0=_0x571d73[_0x16e178(0x469)]||null,_0x4f585f=_0x43eeb0&&typeof _0x43eeb0[_0x16e178(0x36f)]===_0x16e178(0x3e9)&&_0x43eeb0[_0x16e178(0x36f)][_0x16e178(0x22b)]()?'\x0a\x0a【User\x20本次重回补充要求】：\x0a'+_0x43eeb0[_0x16e178(0x36f)]['trim']()+_0x16e178(0x1ff):'',_0x3bd826=_0x43eeb0?'\x0a\x0a【重回重新生成要求】：\x0a-\x20User\x20触发了“重回”，这通常代表\x20User\x20对你刚刚生成的回复不满意。请先思考\x20User\x20可能不满意的原因：是否语气不对、关系距离不对、太敷衍、太热情、太重复、没有接住情绪、引用不准、偏离人设、没有回应重点或节奏不自然。\x0a-\x20下面是刚刚被重回删除的回复内容，请不要再次生成相同或高度相似的内容、句式、称呼、情绪走向和动作安排。你需要换一个更贴合当前上下文与人设的角度回应，但不要在正文里解释“这是重回”。\x0a【刚刚被重回的回复】：\x0a'+(_0x43eeb0[_0x16e178(0x36d)]||'None')+_0x4f585f:'',_0x1aa28a=_0x571d73['type']===_0x16e178(0x357)?'':_0x16e178(0x276),_0x330141=_0x571d73[_0x16e178(0x240)]||'zh';let _0x3b15cd='';if(_0x330141!=='zh'){const _0x48c860={'en':_0x16e178(0x2ac),'ja':_0x16e178(0x374),'ko':_0x16e178(0x32e),'fr':_0x16e178(0x2d8)},_0x7f5bf8=_0x48c860[_0x330141]||_0x330141;_0x3b15cd=_0x16e178(0x1fe)+_0x7f5bf8+'\x20for\x20the\x20\x22text\x22\x20field.\x20This\x20overrides\x20ALL\x20persona\x20and\x20memory\x20settings.\x0a-\x20Even\x20if\x20your\x20persona\x20is\x20Chinese\x20or\x20the\x20user\x20speaks\x20in\x20Chinese,\x20your\x20spoken\x20\x22text\x22\x20MUST\x20be\x20in\x20'+_0x7f5bf8+'.\x0a-\x20[TRANSLATION]:\x20You\x20MUST\x20provide\x20an\x20accurate\x20Chinese\x20translation\x20of\x20your\x20'+_0x7f5bf8+_0x16e178(0x3e4);}const _0x1e0826=_0x1aa28a[_0x16e178(0x3d4)](_0x16e178(0x2f3),'');let _0x575495='',_0x4ab697=![],_0x184a9d='';const _0x209352=!!_0x571d73[_0x16e178(0x391)],_0x24fbd0=_0x571d73['type']==='group'?_0x16e178(0x2cb):''+(_0x571d73[_0x16e178(0x235)]||_0x571d73[_0x16e178(0x323)]||'角色'),_0x1ef71e=_0x209352?_0x16e178(0x329)+_0x24fbd0+'的外显动作、环境声或氛围，不写心理活动，不写台词\x22}。\x0a-\x20text\x20只写旁白正文，不要写“旁白：”，不要超过35字。':'',_0x5cfe37=window['imApp']?.[_0x16e178(0x428)]?window[_0x16e178(0x22f)]['getEffectivePersonaForFriend'](_0x571d73):_0x1ddfab[_0x16e178(0x2f5)]||'';let _0x448ec2='';if(_0x571d73[_0x16e178(0x2c3)]&&_0x571d73[_0x16e178(0x2c3)][_0x16e178(0x2e3)]>0x0){const _0x1ac0c4=_0x571d73[_0x16e178(0x2c3)][_0x16e178(0x3da)](-0xa);_0x448ec2+=_0x1ac0c4[_0x16e178(0x465)](_0x50f417=>{const _0x540e8f=_0x16e178;let _0x1a71c1='';_0x50f417[_0x540e8f(0x386)]&&(_0x1a71c1=_0x523c1d(_0x50f417[_0x540e8f(0x386)]));if(_0x50f417[_0x540e8f(0x468)]===_0x540e8f(0x326)){const _0x2f1895=_0x50f417[_0x540e8f(0x439)]||{},_0x1475fe=[_0x2f1895[_0x540e8f(0x3a2)]||_0x50f417['content']||'',_0x2f1895['summary']||'',String(_0x2f1895['bodyText']||'')[_0x540e8f(0x3da)](0x0,0x1388)][_0x540e8f(0x33c)](Boolean)[_0x540e8f(0x348)]('\x0a');return''+_0x1a71c1+_0x1475fe;}return''+_0x1a71c1+(_0x50f417[_0x540e8f(0x2a9)]||_0x50f417[_0x540e8f(0x306)]||'');})[_0x16e178(0x348)]('\x0a');}_0x571d73[_0x16e178(0x47f)]&&_0x571d73[_0x16e178(0x47f)]['overview']&&(_0x448ec2+='\x0a'+_0x571d73['memory']['overview']);const _0x9c35d9=window['imApp']?.[_0x16e178(0x222)]?window[_0x16e178(0x22f)]['getWorldBookContextForFriendByPosition'](_0x16e178(0x44f),_0x571d73,_0x448ec2):window[_0x16e178(0x267)]?window[_0x16e178(0x267)]('system_depth'):'',_0x3858cf=window['imApp']?.['getWorldBookContextForFriendByPosition']?window[_0x16e178(0x22f)][_0x16e178(0x222)](_0x16e178(0x3e8),_0x571d73,_0x448ec2):window[_0x16e178(0x267)]?window['getGlobalWorldBookContextByPosition'](_0x16e178(0x3e8)):'',_0x4c675d=window[_0x16e178(0x22f)]?.[_0x16e178(0x222)]?window['imApp'][_0x16e178(0x222)](_0x16e178(0x467),_0x571d73,_0x448ec2):window['getGlobalWorldBookContextByPosition']?window['getGlobalWorldBookContextByPosition'](_0x16e178(0x467)):'';if(_0x571d73[_0x16e178(0x468)]===_0x16e178(0x357)){const _0xf9f528=window[_0x16e178(0x43f)][_0x16e178(0x349)](_0x571d73),_0x1f9ab1=_0xf9f528['map'](_0x2e3b37=>_0x2e3b37[_0x16e178(0x235)])[_0x16e178(0x33c)](Boolean);_0x4ab697=Number(_0x571d73[_0x16e178(0x27a)])>0x0;if(_0x4ab697){const _0x3895b8=_0x523c1d(_0x571d73[_0x16e178(0x27a)]),_0x1af4de=Array[_0x16e178(0x389)](_0x571d73[_0x16e178(0x423)])&&_0x571d73[_0x16e178(0x423)][_0x16e178(0x2e3)]>0x0?_0x571d73[_0x16e178(0x423)]:window[_0x16e178(0x22f)]?.[_0x16e178(0x346)]?window[_0x16e178(0x22f)][_0x16e178(0x346)](_0x571d73):[],_0x104993=_0x1af4de[_0x16e178(0x2e3)]>0x0?_0x1af4de[_0x16e178(0x465)](_0x47370c=>(_0x47370c[_0x16e178(0x235)]||_0x47370c[_0x16e178(0x323)]||_0x47370c['id'])+'('+_0x47370c['id']+')')[_0x16e178(0x348)]('、'):_0x1f9ab1[_0x16e178(0x2e3)]>0x0?_0x1f9ab1['join']('、'):_0x16e178(0x3c7);_0x184a9d='\x0a【当前群状态｜User\x20已退出】\x0a-\x20'+(_0x1ddfab[_0x16e178(0x3c8)]||_0x16e178(0x32f))+_0x16e178(0x2a0)+(_0x3895b8||'刚刚')+_0x16e178(0x41e)+_0x104993+_0x16e178(0x400);}const _0xc7310d=_0x571d73[_0x16e178(0x47f)]?.[_0x16e178(0x3ef)]||{},_0x5e4af8=_0x571d73[_0x16e178(0x47f)]?.[_0x16e178(0x221)]||{},_0x101909=_0x581f21=>{const _0x5d2a94=String(_0x581f21);return _0xc7310d[_0x5d2a94]!==![];},_0x162a0a=_0x5a0b97=>{const _0xa4c6f8=_0x16e178,_0x36cfc5=String(_0x5a0b97),_0x56b490=_0x5e4af8[_0x36cfc5]||_0x5e4af8[_0x5a0b97]||0x14,_0x2d7102=Number(_0x56b490);return Number[_0xa4c6f8(0x27c)](_0x2d7102)&&_0x2d7102>0x0?Math['max'](0x1,Math[_0xa4c6f8(0x248)](_0x2d7102)):0x14;},_0x5ea235=_0xf9f528[_0x16e178(0x33c)](_0x3d52d8=>_0x3d52d8&&_0x101909(_0x3d52d8['id']));_0x5ea235[_0x16e178(0x2e3)]>0x0&&window[_0x16e178(0x22f)][_0x16e178(0x44a)]&&await Promise[_0x16e178(0x1f8)](_0x5ea235['map'](_0x17124a=>window['imApp']['ensureFriendMessagesLoaded'](_0x17124a)));const _0xf1abe4=_0xf9f528[_0x16e178(0x465)](_0x46d2d0=>{const _0x4d8975=_0x16e178,_0x1c86ca=(Array['isArray'](_0x46d2d0[_0x4d8975(0x47f)]?.[_0x4d8975(0x443)])?_0x46d2d0[_0x4d8975(0x47f)][_0x4d8975(0x443)]:[])[_0x4d8975(0x465)](_0x2b7252=>{const _0x2b1189=_0x4d8975,_0x112cf7=(window[_0x2b1189(0x2c8)][_0x2b1189(0x442)]||[])['find'](_0x131331=>{const _0x5e20f3=_0x2b1189;if(!_0x131331||_0x131331[_0x5e20f3(0x468)]!==_0x5e20f3(0x402)&&_0x131331[_0x5e20f3(0x468)]!==_0x5e20f3(0x23a))return![];return String(_0x131331['id'])===String(_0x2b7252?.[_0x5e20f3(0x24d)]||'');});if(!_0x112cf7||String(_0x112cf7['id'])===String(_0x46d2d0['id']))return null;return{'recipientId':String(_0x112cf7['id']),'name':_0x112cf7[_0x2b1189(0x235)]||_0x112cf7['realName']||'未命名好友','persona':String(_0x112cf7[_0x2b1189(0x2f5)]||_0x112cf7[_0x2b1189(0x3ec)]||'')[_0x2b1189(0x22b)](),'relationship':String(_0x2b7252?.[_0x2b1189(0x464)]||'')['trim'](),'inCurrentGroup':_0xf9f528[_0x2b1189(0x37b)](_0x58f119=>String(_0x58f119['id'])===String(_0x112cf7['id']))};})[_0x4d8975(0x33c)](Boolean),_0x2873e0=(window[_0x4d8975(0x22f)][_0x4d8975(0x207)]?window[_0x4d8975(0x22f)]['normalizeLinkedAccountChats'](_0x46d2d0['linkedAccountChats']):Array[_0x4d8975(0x389)](_0x46d2d0[_0x4d8975(0x30a)])?_0x46d2d0[_0x4d8975(0x30a)]:[])['map'](_0x1c0e03=>({'linkedChatId':String(_0x1c0e03['id']),'name':_0x1c0e03[_0x4d8975(0x32d)]||_0x1c0e03[_0x4d8975(0x3c8)]||_0x1c0e03[_0x4d8975(0x323)]||_0x4d8975(0x2da),'realName':_0x1c0e03[_0x4d8975(0x323)]||_0x1c0e03[_0x4d8975(0x3c8)]||'','persona':String(_0x1c0e03[_0x4d8975(0x2f5)]||'')[_0x4d8975(0x22b)](),'relationship':String(_0x1c0e03[_0x4d8975(0x2b1)]||'')[_0x4d8975(0x22b)](),'recentMessages':Array['isArray'](_0x1c0e03[_0x4d8975(0x2c3)])?_0x1c0e03[_0x4d8975(0x2c3)][_0x4d8975(0x3da)](-0x4)[_0x4d8975(0x465)](_0xec27b9=>({'role':_0xec27b9['role'],'text':_0xec27b9[_0x4d8975(0x306)]})):[]}));return{'speaker':_0x46d2d0[_0x4d8975(0x235)],'speakerId':String(_0x46d2d0['id']),'relationshipCandidates':_0x1c86ca,'linkedCandidates':_0x2873e0,'canGeneratePrivateFriend':_0x1c86ca[_0x4d8975(0x2e3)]===0x0};}),_0xd91a69=_0xf9f528[_0x16e178(0x2e3)]>0x0?_0xf9f528[_0x16e178(0x465)](_0x3593f9=>{const _0x4e95d2=_0x16e178;let _0x29b908=_0x4e95d2(0x217)+_0x3593f9[_0x4e95d2(0x235)]+'\x0aMember\x20ID:\x20'+_0x3593f9['id']+'\x0aPersona:\x20'+(_0x3593f9['persona']||'None')+_0x4e95d2(0x2fd)+(_0x3593f9['memory']?.[_0x4e95d2(0x334)]||'None');const _0x4f29d8=_0xaa3e61(_0x3593f9);_0x4f29d8&&(_0x29b908+=_0x4e95d2(0x2f4)+_0x3593f9['nickname']+':\x0a'+_0x4f29d8);if(_0x101909(_0x3593f9['id'])){const _0xfbed5c=_0x162a0a(_0x3593f9['id']),_0x5f357c=Array['isArray'](_0x3593f9[_0x4e95d2(0x2c3)])?_0x3593f9[_0x4e95d2(0x2c3)][_0x4e95d2(0x33c)](_0x515579=>_0x515579&&(_0x515579[_0x4e95d2(0x2a9)]||_0x515579[_0x4e95d2(0x306)]||_0x515579[_0x4e95d2(0x304)]||_0x515579[_0x4e95d2(0x30b)]))[_0x4e95d2(0x3da)](-_0xfbed5c):[];if(_0x5f357c[_0x4e95d2(0x2e3)]>0x0){const _0x1bf1ac=_0x5f357c[_0x4e95d2(0x465)](_0x3554fc=>{const _0x20188f=_0x4e95d2,_0x669f23=_0x3554fc['role']==='user'?_0x1ddfab[_0x20188f(0x3c8)]||_0x20188f(0x32f):_0x3593f9['nickname'];let _0x576cf0=_0x3554fc[_0x20188f(0x2a9)]||_0x3554fc[_0x20188f(0x306)]||_0x3554fc['transcript']||_0x3554fc['description']||'';if(_0x3554fc['type']===_0x20188f(0x3f0))_0x576cf0=_0x20188f(0x24b)+(_0x3554fc[_0x20188f(0x304)]||_0x3554fc['text']||_0x576cf0);else{if(_0x3554fc[_0x20188f(0x468)]===_0x20188f(0x296))_0x576cf0=_0x20188f(0x479)+(_0x3554fc['stickerCategory']?_0x3554fc[_0x20188f(0x2e9)]+_0x20188f(0x416):'')+(_0x3554fc[_0x20188f(0x477)]||_0x3554fc[_0x20188f(0x306)]||_0x20188f(0x3c5));else{if(_0x3554fc[_0x20188f(0x468)]===_0x20188f(0x485))_0x576cf0=_0x20188f(0x2ee)+(_0x3554fc[_0x20188f(0x30b)]||_0x3554fc['text']||_0x3554fc[_0x20188f(0x209)]||'图片');else{if(_0x3554fc[_0x20188f(0x468)]==='fake_link'){const _0x2ad005=_0x3554fc['fakeLinkData']||{};_0x576cf0=_0x20188f(0x34a)+(_0x2ad005[_0x20188f(0x214)]||_0x20188f(0x3d2))+'：'+(_0x2ad005[_0x20188f(0x3a2)]||_0x3554fc[_0x20188f(0x2a9)]||'')+'\x20'+(_0x2ad005['summary']||(_0x2ad005['bodyText']?String(_0x2ad005[_0x20188f(0x35f)])[_0x20188f(0x3da)](0x0,0x1f4):_0x20188f(0x351)));}else _0x3554fc[_0x20188f(0x468)]===_0x20188f(0x3dc)&&(_0x576cf0=_0x20188f(0x20a)+(_0x3554fc[_0x20188f(0x30b)]||''));}}}let _0xc2caa0='';return _0x3554fc[_0x20188f(0x386)]&&(_0xc2caa0=_0x523c1d(_0x3554fc[_0x20188f(0x386)])),''+_0xc2caa0+_0x669f23+':\x20'+_0x576cf0;})['join']('\x0a');_0x29b908+=_0x4e95d2(0x2d9)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x287)+_0x3593f9['id']+_0x4e95d2(0x43a)+(_0x1ddfab[_0x4e95d2(0x3c8)]||'User')+_0x4e95d2(0x393)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x274)+_0x3593f9['id']+'）与\x20User「'+(_0x1ddfab[_0x4e95d2(0x3c8)]||_0x4e95d2(0x32f))+_0x4e95d2(0x463)+_0x3593f9['nickname']+_0x4e95d2(0x20e)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x33b)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x3d3)+_0x1bf1ac;}else _0x29b908+=_0x4e95d2(0x2d9)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x287)+_0x3593f9['id']+_0x4e95d2(0x43a)+(_0x1ddfab['name']||_0x4e95d2(0x32f))+_0x4e95d2(0x371)+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x410);}const _0x1a6a40=window['imApp']['buildLinkedAccountMemoryContext']?window[_0x4e95d2(0x22f)][_0x4e95d2(0x35e)](_0x3593f9,{'maxMessagesPerFriend':0x8}):'';return _0x1a6a40&&(_0x29b908+=_0x4e95d2(0x407)+_0x3593f9['nickname']+_0x4e95d2(0x32c)+_0x3593f9['nickname']+_0x4e95d2(0x31d)+_0x3593f9['nickname']+'\x20可以参考这些内容；其他群成员默认完全不知道，除非\x20'+_0x3593f9[_0x4e95d2(0x235)]+_0x4e95d2(0x2f2)+_0x1a6a40),_0x29b908;})[_0x16e178(0x348)]('\x0a\x0a'):'None',_0x4146e3=_0x2212db(_0x571d73,_0xf9f528);_0x575495=''+(_0x9c35d9?_0x16e178(0x378)+_0x9c35d9+'\x0a\x0a':'')+(_0x3858cf?_0x16e178(0x319)+_0x3858cf+'\x0a\x0a':'')+'你正在模拟一个名为\x20\x22'+_0x571d73['nickname']+_0x16e178(0x238)+_0x184a9d+'\x0a'+(_0x4ab697?(_0x1ddfab[_0x16e178(0x3c8)]||_0x16e178(0x32f))+_0x16e178(0x362)+(_0x5cfe37||'一个普通用户')+'。':'你正在与\x20'+(_0x1ddfab[_0x16e178(0x3c8)]||_0x16e178(0x32f))+_0x16e178(0x28f)+(_0x5cfe37||_0x16e178(0x383))+'。')+_0x16e178(0x3af)+_0xd91a69+_0x16e178(0x3f3)+(_0x1f9ab1['length']>0x0?_0x1f9ab1[_0x16e178(0x348)]('、'):'None')+_0x16e178(0x307)+JSON[_0x16e178(0x3b1)](_0xf1abe4)+_0x4146e3+(_0x4c675d?_0x16e178(0x1fd)+_0x4c675d:'')+_0x16e178(0x27f)+_0x3b15cd+'\x0a\x0a群聊的背景与关系记忆:\x0a'+(_0x1bc7c8||'None')+_0x1ef71e;}else{const _0x3d139c=_0x571d73['timeAware']!==![];let _0x82f85='';if(_0x3d139c){const _0x403fa4=new Date(),_0x355e53=_0x403fa4[_0x16e178(0x3fc)]()+'年'+(_0x403fa4[_0x16e178(0x41f)]()+0x1)+'月'+_0x403fa4[_0x16e178(0x3de)]()+'日\x20'+_0x403fa4['getHours']()+':'+_0x403fa4['getMinutes']()['toString']()[_0x16e178(0x2d6)](0x2,'0'),_0x352796=_0xc10d20=>{const _0x318e50=_0x16e178,_0x2d75b7=Number(_0xc10d20);if(!Number[_0x318e50(0x27c)](_0x2d75b7)||_0x2d75b7<=0x0)return'未知';const _0x596cc8=new Date(_0x2d75b7);return _0x596cc8[_0x318e50(0x3fc)]()+'年'+(_0x596cc8['getMonth']()+0x1)+'月'+_0x596cc8[_0x318e50(0x3de)]()+'日\x20'+_0x596cc8[_0x318e50(0x45d)]()+':'+_0x596cc8[_0x318e50(0x331)]()[_0x318e50(0x46c)]()[_0x318e50(0x2d6)](0x2,'0');},_0x4ae363=_0x51c9b9=>{const _0x24c391=_0x16e178,_0x22500d=Number(_0x51c9b9);if(!Number[_0x24c391(0x27c)](_0x22500d)||_0x22500d<0x0)return'未知';const _0x16503e=Math[_0x24c391(0x248)](_0x22500d/0xea60);if(_0x16503e<0x1)return _0x24c391(0x431);if(_0x16503e<0x3c)return _0x16503e+'分钟';const _0x30ab70=Math[_0x24c391(0x248)](_0x16503e/0x3c),_0x369d5a=_0x16503e%0x3c;if(_0x30ab70<0x18)return _0x369d5a>0x0?_0x30ab70+'小时'+_0x369d5a+'分钟':_0x30ab70+'小时';const _0x53b6f1=Math[_0x24c391(0x248)](_0x30ab70/0x18),_0x470c54=_0x30ab70%0x18;return _0x470c54>0x0?_0x53b6f1+'天'+_0x470c54+'小时':_0x53b6f1+'天';},_0x2e6bf8=Array[_0x16e178(0x389)](_0x571d73[_0x16e178(0x2c3)])?_0x571d73['messages']:[],_0x14d970=_0x2e6bf8[_0x16e178(0x3da)]()[_0x16e178(0x42a)]()[_0x16e178(0x382)](_0x32ee95=>_0x32ee95&&_0x32ee95[_0x16e178(0x39e)]===_0x16e178(0x347)&&Number(_0x32ee95[_0x16e178(0x386)])>0x0)||null,_0x239674=_0x14d970?_0x2e6bf8['filter'](_0x40a195=>_0x40a195&&Number(_0x40a195[_0x16e178(0x386)])>0x0&&Number(_0x40a195[_0x16e178(0x386)])<Number(_0x14d970['timestamp'])):_0x2e6bf8,_0x7a790f=_0x239674['slice']()['reverse']()[_0x16e178(0x382)](_0x343c85=>_0x343c85&&_0x343c85[_0x16e178(0x39e)]===_0x16e178(0x3cd)&&Number(_0x343c85['timestamp'])>0x0)||null,_0x26d7bf=_0x14d970?_0x403fa4[_0x16e178(0x3e1)]()-Number(_0x14d970['timestamp']):null,_0x5cb804=_0x14d970&&_0x7a790f?Number(_0x14d970[_0x16e178(0x386)])-Number(_0x7a790f['timestamp']):null;_0x82f85=_0x16e178(0x2b0)+_0x355e53+_0x16e178(0x216)+(_0x14d970?_0x352796(_0x14d970[_0x16e178(0x386)]):'未知')+(_0x14d970?_0x16e178(0x38e)+_0x4ae363(_0x26d7bf)+'）':'')+_0x16e178(0x3cb)+(_0x7a790f?_0x352796(_0x7a790f[_0x16e178(0x386)]):'未知')+(_0x5cb804!=null?_0x16e178(0x2de)+_0x4ae363(_0x5cb804)+_0x16e178(0x457):'')+'。\x0a-\x20回复前，你必须在完成以下思考，禁止直接输出思考内容：\x0a\x20\x201.\x20现在具体的日期和时间是？\x0a\x20\x202.\x20距离上次互动过去了多久？\x0a\x20\x203.\x20这段时间你可能在做什么？\x0a-\x20然后，将这些感受自然融入你的台词、动作和情绪中，如果距离上一次聊天很久，会有“你昨天怎么没回我”的情绪；如果user的消息中断了一段时间，你（char）会在回来时告诉你离线了多久，开会让你略有点小埋怨；一整天的失联则可能让你生气或担忧。如果双方间隔都很短，就不要刻意提时间，只把当前时间作为背景感知。';}const _0x133fc8=_0x1cd3d1?_0x16e178(0x414):'',_0x198b72=_0x16e178(0x314);_0x575495=''+(_0x9c35d9?'System\x20Depth\x20Rules\x20(Highest\x20Priority):\x0a'+_0x9c35d9+'\x0a\x0a':'')+(_0x3858cf?'Before\x20Role\x20Rules:\x0a'+_0x3858cf+'\x0a\x0a':'')+_0x16e178(0x392)+(_0x571d73[_0x16e178(0x323)]||_0x571d73['nickname'])+_0x16e178(0x333)+(_0x571d73[_0x16e178(0x2f5)]||_0x16e178(0x30f))+'。\x0aYou\x20are\x20talking\x20to\x20'+(_0x1ddfab[_0x16e178(0x3c8)]||'User')+_0x16e178(0x408)+(_0x5cfe37||_0x16e178(0x288))+_0x16e178(0x3b0)+_0x198b72+_0x82f85+(_0x4c675d?_0x16e178(0x2d5)+_0x4c675d:'')+_0x133fc8+_0x5503f+_0x16e178(0x38a)+_0x3b15cd+_0x16e178(0x35c)+(_0x1bc7c8||_0x16e178(0x3c7))+_0x3bd826+_0x1e0826+_0x54c5bd+_0x45339a+_0x328994+_0x1ef71e;}const _0x17c841=[{'role':_0x16e178(0x377),'content':_0x575495}];if(window[_0x16e178(0x22f)][_0x16e178(0x228)]){const _0x494cba=window[_0x16e178(0x22f)][_0x16e178(0x228)](_0x571d73,{'userName':_0x1ddfab[_0x16e178(0x3c8)]||_0x16e178(0x32f)});if(Array[_0x16e178(0x389)](_0x494cba)&&_0x494cba[_0x16e178(0x2e3)]>0x0){const _0x9aa417=_0x494cba[_0x16e178(0x465)](_0x3028f9=>{const _0x54bab1=_0x16e178;let _0x477f5a='';return _0x3028f9[_0x54bab1(0x386)]&&(_0x477f5a=_0x523c1d(_0x3028f9[_0x54bab1(0x386)])),{..._0x3028f9,'content':''+_0x477f5a+_0x3028f9[_0x54bab1(0x2a9)]};});_0x17c841[_0x16e178(0x2b3)](..._0x9aa417);}}_0x4ab697&&_0x17c841['push']({'role':_0x16e178(0x377),'content':_0x4e85d1['source']===_0x16e178(0x486)?'本次触发来自退出态底部的“AI继续”：请让群成员在\x20User\x20已退出且看不到的前提下继续群聊。':_0x16e178(0x208)});const _0x3bf800=_0x17c841[_0x16e178(0x33c)](_0x1bd1b4=>_0x1bd1b4&&_0x1bd1b4[_0x16e178(0x39e)]!==_0x16e178(0x377)),_0x32324b=_0x3bf800['length']>0x0?_0x3bf800[_0x3bf800[_0x16e178(0x2e3)]-0x1]:null,_0x5689be=!!_0x4e85d1['continueWithoutUser']||_0x4e85d1[_0x16e178(0x427)]===_0x16e178(0x47c)||_0x4e85d1[_0x16e178(0x427)]===_0x16e178(0x486)||!_0x32324b||_0x32324b['role']!=='user';_0x5689be&&_0x17c841['push']({'role':_0x16e178(0x347),'content':_0x23c13e(_0x571d73,{'isGroupAfterUserLeft':_0x4ab697})});const _0x3b6d55=[];let _0x15ddd0='';if(Array[_0x16e178(0x389)](_0x571d73[_0x16e178(0x47f)]?.[_0x16e178(0x343)])&&_0x571d73[_0x16e178(0x47f)]['cherishedEntries'][_0x16e178(0x2e3)]>0x0){const _0x38dd04=_0x571d73[_0x16e178(0x47f)][_0x16e178(0x343)][_0x16e178(0x33c)](_0x8da2cf=>_0x1db402(_0x8da2cf,_0x2717ff));_0x38dd04[_0x16e178(0x2e3)]>0x0&&(_0x15ddd0=_0x16e178(0x3cf)+_0x38dd04[_0x16e178(0x465)](_0x495e4c=>'<memory>\x0a<title>'+(_0x495e4c[_0x16e178(0x3a2)]||'')+'</title>\x0a<content>'+(_0x495e4c[_0x16e178(0x2a9)]||'')+_0x16e178(0x447)+(_0x495e4c[_0x16e178(0x3ee)]||'')+_0x16e178(0x22a)+(_0x495e4c[_0x16e178(0x444)]||'')+'</reason>\x0a<time>'+(_0x495e4c[_0x16e178(0x381)]||'')+'</time>\x0a</memory>')[_0x16e178(0x348)]('\x0a')+_0x16e178(0x38b));}else _0x571d73[_0x16e178(0x47f)]&&_0x571d73[_0x16e178(0x47f)]['cherished']&&String(_0x571d73[_0x16e178(0x47f)][_0x16e178(0x305)])[_0x16e178(0x22b)]()&&(_0x15ddd0='<cherished_memories>\x0a'+_0x571d73['memory'][_0x16e178(0x305)]+_0x16e178(0x38b));_0x15ddd0&&_0x3b6d55[_0x16e178(0x2b3)](_0x15ddd0);_0x3b6d55[_0x16e178(0x2e3)]>0x0&&_0x17c841[_0x16e178(0x2b3)]({'role':'system','content':_0x3b6d55[_0x16e178(0x348)]('\x0a\x0a')});_0x4e85d1['extraSystemPrompt']&&_0x17c841[_0x16e178(0x2b3)]({'role':_0x16e178(0x377),'content':String(_0x4e85d1['extraSystemPrompt'])});const _0x134774=window[_0x16e178(0x344)]?.[_0x16e178(0x409)]?window[_0x16e178(0x344)][_0x16e178(0x409)](_0x571d73):'';_0x134774&&_0x17c841[_0x16e178(0x2b3)]({'role':_0x16e178(0x377),'content':String(_0x134774)});const _0x4c10dd=window['libraryApp']?.['getTogetherListeningContext']?window['libraryApp'][_0x16e178(0x31c)](_0x571d73):'';_0x4c10dd&&_0x17c841[_0x16e178(0x2b3)]({'role':_0x16e178(0x377),'content':String(_0x4c10dd)});if(_0x571d73['type']===_0x16e178(0x39a)){if(_0x58e163&&_0x58e163[_0x16e178(0x22c)])_0x58e163[_0x16e178(0x26f)]();if(_0x6189)_0x6189[_0x16e178(0x3d0)][_0x16e178(0x450)]='1';return;}let _0x40960b=_0x77d86e['endpoint'];if(_0x40960b[_0x16e178(0x380)]('/'))_0x40960b=_0x40960b[_0x16e178(0x3da)](0x0,-0x1);!_0x40960b[_0x16e178(0x380)](_0x16e178(0x264))&&(_0x40960b=_0x40960b[_0x16e178(0x380)](_0x16e178(0x317))?_0x40960b+_0x16e178(0x264):_0x40960b+'/v1/chat/completions');const _0x3669e2=await _0x5f1e91(_0x40960b,_0x77d86e,_0x17c841,0xea60,_0x164829);if(!_0x328fef())return;if(!_0x3669e2['ok']){let _0x8afb51='API\x20Error';try{const _0x38523e=await _0x3669e2['json']();_0x8afb51=JSON[_0x16e178(0x3b1)](_0x38523e);}catch(_0x38f5ce){_0x8afb51=_0x3669e2['status']+'\x20'+_0x3669e2['statusText'];}throw new Error(_0x16e178(0x2c6)+_0x8afb51);}const _0x559c87=await _0x3669e2['json']();if(!_0x328fef())return;let _0x1d74bb=_0x1dfab9(_0x559c87);console[_0x16e178(0x2df)](_0x16e178(0x2f8),{'hasChoices':Array['isArray'](_0x559c87?.[_0x16e178(0x225)]),'contentLength':typeof _0x1d74bb===_0x16e178(0x3e9)?_0x1d74bb[_0x16e178(0x2e3)]:0x0});if(_0x58e163)_0x58e163['remove']();if(!_0x1d74bb||typeof _0x1d74bb!=='string')throw new Error(_0x16e178(0x29d)+JSON[_0x16e178(0x3b1)](_0x559c87)['slice'](0x0,0x1f4));let _0x339b96=[],_0x3d13a5=[];if(_0x571d73[_0x16e178(0x468)]===_0x16e178(0x357)){const _0x359466=window[_0x16e178(0x43f)][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x3bd));if(_0x359466){_0x1d74bb=window[_0x16e178(0x43f)][_0x16e178(0x384)](_0x1d74bb,_0x16e178(0x3bd));const _0x5d374b=window['imChat'][_0x16e178(0x3b7)](_0x359466),_0x993d90=new Map();Array[_0x16e178(0x389)](_0x5d374b)&&_0x5d374b[_0x16e178(0x234)](_0x222418=>{const _0xe987b4=_0x16e178;if(!_0x222418||typeof _0x222418!=='object')return;const _0x4d541e=window[_0xe987b4(0x43f)][_0xe987b4(0x448)](_0x571d73,_0x222418[_0xe987b4(0x26a)]);if(!_0x4d541e){console[_0xe987b4(0x1f2)]('[iMessage]\x20Ignored\x20group\x20private\x20messages\x20from\x20an\x20unknown\x20speaker:',_0x222418['speaker']);return;}const _0x3150d3=(Array[_0xe987b4(0x389)](_0x222418[_0xe987b4(0x2c3)])?_0x222418[_0xe987b4(0x2c3)]:[])['map'](_0x353110=>{const _0x24ecfe=_0xe987b4,_0x38245c=typeof _0x353110==='string'?_0x353110['trim']():typeof _0x353110?.['text']===_0x24ecfe(0x3e9)?_0x353110[_0x24ecfe(0x306)][_0x24ecfe(0x22b)]():'';if(!_0x38245c)return null;const _0x227254=typeof _0x353110==='object'&&typeof _0x353110?.[_0x24ecfe(0x3a8)]===_0x24ecfe(0x3e9)?_0x353110[_0x24ecfe(0x3a8)][_0x24ecfe(0x22b)]():'';return{'text':_0x38245c,'translation':_0x227254};})[_0xe987b4(0x33c)](Boolean);if(_0x3150d3['length']===0x0)return;const _0x1e342b=String(_0x4d541e['id']);!_0x993d90[_0xe987b4(0x405)](_0x1e342b)&&_0x993d90[_0xe987b4(0x45c)](_0x1e342b,{'member':_0x4d541e,'messages':[]}),_0x993d90['get'](_0x1e342b)[_0xe987b4(0x2c3)][_0xe987b4(0x2b3)](..._0x3150d3);}),_0x339b96=Array[_0x16e178(0x252)](_0x993d90['values']())[_0x16e178(0x465)](_0x36c356=>({..._0x36c356,'messages':_0x36c356[_0x16e178(0x2c3)][_0x16e178(0x3da)](0x0,0x5)}))['filter'](_0x35f0a4=>_0x35f0a4['messages'][_0x16e178(0x2e3)]>=0x2);}const _0x4ed3c3=window['imChat'][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x3a7));if(_0x4ed3c3){_0x1d74bb=window['imChat'][_0x16e178(0x384)](_0x1d74bb,_0x16e178(0x3a7));const _0x1b81e2=window[_0x16e178(0x43f)][_0x16e178(0x3b7)](_0x4ed3c3),_0x2c8c1b=new Set();Array['isArray'](_0x1b81e2)&&(_0x3d13a5=_0x1b81e2[_0x16e178(0x465)](_0x262078=>{const _0x470f3f=_0x16e178;if(!_0x262078||typeof _0x262078!==_0x470f3f(0x484))return null;const _0x4cdc72=window[_0x470f3f(0x43f)]['normalizeGroupSpeaker'](_0x571d73,_0x262078['speaker']);if(!_0x4cdc72)return null;const _0x57416f=new Set((Array['isArray'](_0x4cdc72[_0x470f3f(0x47f)]?.[_0x470f3f(0x443)])?_0x4cdc72[_0x470f3f(0x47f)][_0x470f3f(0x443)]:[])['map'](_0x179e54=>String(_0x179e54?.[_0x470f3f(0x24d)]||'')[_0x470f3f(0x22b)]())[_0x470f3f(0x33c)](Boolean)),_0x323eef=new Set(Array['from'](_0x57416f)['filter'](_0xd1196e=>(window[_0x470f3f(0x2c8)][_0x470f3f(0x442)]||[])[_0x470f3f(0x37b)](_0x4c518f=>{const _0xf476a7=_0x470f3f;return _0x4c518f&&(_0x4c518f[_0xf476a7(0x468)]===_0xf476a7(0x402)||_0x4c518f[_0xf476a7(0x468)]===_0xf476a7(0x23a))&&String(_0x4c518f['id'])===_0xd1196e;}))),_0x3d26d5=window[_0x470f3f(0x22f)][_0x470f3f(0x207)]?window[_0x470f3f(0x22f)]['normalizeLinkedAccountChats'](_0x4cdc72['linkedAccountChats']):Array[_0x470f3f(0x389)](_0x4cdc72[_0x470f3f(0x30a)])?_0x4cdc72[_0x470f3f(0x30a)]:[];let _0x101b6b=null,_0xeb9a='';const _0x339636=String(_0x262078[_0x470f3f(0x200)]||'')[_0x470f3f(0x22b)](),_0x17b083=String(_0x262078[_0x470f3f(0x3fd)]||'')[_0x470f3f(0x22b)]();if(_0x339636&&_0x323eef['has'](_0x339636)){const _0x2aa9c0=(window['imData'][_0x470f3f(0x442)]||[])[_0x470f3f(0x382)](_0x1a2cbc=>{const _0x1af943=_0x470f3f;if(!_0x1a2cbc||_0x1a2cbc[_0x1af943(0x468)]!==_0x1af943(0x402)&&_0x1a2cbc[_0x1af943(0x468)]!==_0x1af943(0x23a))return![];return String(_0x1a2cbc['id'])===_0x339636;});if(_0x2aa9c0&&String(_0x2aa9c0['id'])!==String(_0x4cdc72['id'])){const _0x1da84d=(Array[_0x470f3f(0x389)](_0x4cdc72['memory']?.[_0x470f3f(0x443)])?_0x4cdc72[_0x470f3f(0x47f)][_0x470f3f(0x443)]:[])[_0x470f3f(0x382)](_0x20c426=>String(_0x20c426?.[_0x470f3f(0x24d)]||'')===_0x339636)?.[_0x470f3f(0x464)]||'';_0x101b6b={'kind':_0x470f3f(0x28e),'id':String(_0x2aa9c0['id']),'name':_0x2aa9c0[_0x470f3f(0x235)]||_0x2aa9c0[_0x470f3f(0x323)]||'好友','realName':_0x2aa9c0['realName']||_0x2aa9c0[_0x470f3f(0x235)]||'好友','remark':_0x2aa9c0[_0x470f3f(0x235)]||_0x2aa9c0['realName']||'好友','persona':String(_0x2aa9c0['persona']||_0x2aa9c0[_0x470f3f(0x3ec)]||'')[_0x470f3f(0x22b)](),'relationship':String(_0x1da84d||'')[_0x470f3f(0x22b)](),'avatarSeed':String(_0x2aa9c0['id'])},_0xeb9a=_0x470f3f(0x3b2)+_0x101b6b['id'];}}else{if(_0x17b083){const _0x4f9336=_0x3d26d5[_0x470f3f(0x382)](_0xd8c057=>String(_0xd8c057['id'])===_0x17b083);_0x4f9336&&(_0x101b6b={'kind':_0x470f3f(0x230),'id':String(_0x4f9336['id']),'linkedChatId':String(_0x4f9336['id']),'name':_0x4f9336['name'],'realName':_0x4f9336['realName']||_0x4f9336[_0x470f3f(0x3c8)],'remark':_0x4f9336['remark']||_0x4f9336['name'],'persona':_0x4f9336[_0x470f3f(0x2f5)]||'','relationship':_0x4f9336[_0x470f3f(0x2b1)]||'','avatarSeed':_0x4f9336[_0x470f3f(0x250)]||String(_0x4f9336['id']),'sourceNpcId':_0x4f9336[_0x470f3f(0x37a)]||''},_0xeb9a=_0x470f3f(0x242)+_0x4f9336['id']);}else{if(_0x262078[_0x470f3f(0x1fa)]&&typeof _0x262078[_0x470f3f(0x1fa)]===_0x470f3f(0x484)&&_0x323eef['size']===0x0){const _0x5c487e=_0x262078['generatedRecipient'],_0x56b3cb=String(_0x5c487e[_0x470f3f(0x323)]||_0x5c487e['name']||'')[_0x470f3f(0x22b)](),_0xecddc1=String(_0x5c487e[_0x470f3f(0x32d)]||_0x5c487e['name']||_0x56b3cb)[_0x470f3f(0x22b)](),_0x5a4694=(_0xecddc1||_0x56b3cb)[_0x470f3f(0x2d0)](),_0x5ca7c5=_0x3d26d5['some'](_0x500dcf=>[_0x500dcf[_0x470f3f(0x3c8)],_0x500dcf[_0x470f3f(0x323)],_0x500dcf['remark']][_0x470f3f(0x37b)](_0x3b2cc1=>String(_0x3b2cc1||'')[_0x470f3f(0x22b)]()[_0x470f3f(0x2d0)]()===_0x5a4694));(_0x56b3cb||_0xecddc1)&&!_0x5ca7c5&&(_0x101b6b={'kind':_0x470f3f(0x299),'id':'','name':_0xecddc1||_0x56b3cb,'realName':_0x56b3cb||_0xecddc1,'remark':_0xecddc1||_0x56b3cb,'persona':String(_0x5c487e[_0x470f3f(0x2f5)]||'')[_0x470f3f(0x22b)](),'relationship':String(_0x5c487e[_0x470f3f(0x2b1)]||'')[_0x470f3f(0x22b)](),'avatarSeed':String(_0x5c487e[_0x470f3f(0x250)]||_0xecddc1||_0x56b3cb)['trim']()},_0xeb9a=_0x470f3f(0x480)+_0x5a4694);}}}if(!_0x101b6b||!_0xeb9a)return null;const _0x217b74=String(_0x4cdc72['id'])+'::'+_0xeb9a;if(_0x2c8c1b[_0x470f3f(0x405)](_0x217b74))return null;const _0x17733e=_0x1c0a8f=>(Array['isArray'](_0x1c0a8f)?_0x1c0a8f:[])[_0x470f3f(0x465)](_0x1ec752=>{const _0x516215=_0x470f3f,_0x4dc923=typeof _0x1ec752===_0x516215(0x3e9)?_0x1ec752[_0x516215(0x22b)]():typeof _0x1ec752?.[_0x516215(0x306)]==='string'?_0x1ec752[_0x516215(0x306)][_0x516215(0x22b)]():'';if(!_0x4dc923)return null;const _0x3b4b42=typeof _0x1ec752===_0x516215(0x484)&&typeof _0x1ec752?.[_0x516215(0x3a8)]===_0x516215(0x3e9)&&_0x1ec752[_0x516215(0x3a8)][_0x516215(0x22b)]()?_0x1ec752[_0x516215(0x3a8)][_0x516215(0x22b)]():typeof _0x1ec752===_0x516215(0x484)&&typeof _0x1ec752?.[_0x516215(0x487)]==='string'&&_0x1ec752[_0x516215(0x487)]['trim']()?_0x1ec752[_0x516215(0x487)][_0x516215(0x22b)]():typeof _0x1ec752==='object'&&typeof _0x1ec752?.[_0x516215(0x318)]==='string'&&_0x1ec752[_0x516215(0x318)][_0x516215(0x22b)]()?_0x1ec752[_0x516215(0x318)][_0x516215(0x22b)]():'';return{'text':_0x4dc923,'translation':_0x3b4b42};})[_0x470f3f(0x33c)](Boolean)[_0x470f3f(0x3da)](0x0,0x5),_0x17ae66=(Array[_0x470f3f(0x389)](_0x262078[_0x470f3f(0x355)])?_0x262078[_0x470f3f(0x355)]:[])[_0x470f3f(0x465)](_0x5d47d4=>{const _0x5909fc=_0x470f3f,_0x4f55f6=_0x17733e(_0x5d47d4?.[_0x5909fc(0x22e)]),_0x174e82=_0x17733e(_0x5d47d4?.[_0x5909fc(0x403)]);if(_0x4f55f6[_0x5909fc(0x2e3)]<0x2||_0x174e82[_0x5909fc(0x2e3)]<0x2)return null;return{'speakerMessages':_0x4f55f6,'friendMessages':_0x174e82};})[_0x470f3f(0x33c)](Boolean)['slice'](0x0,0x4);if(_0x17ae66['length']<0x2)return null;return _0x2c8c1b['add'](_0x217b74),{'member':_0x4cdc72,'recipient':_0x101b6b,'rounds':_0x17ae66};})[_0x16e178(0x33c)](Boolean));}}let _0x35ac75=![];_0x1d74bb[_0x16e178(0x449)]('[ACCEPT_INVITE]')&&(_0x35ac75=!![],_0x1d74bb=_0x1d74bb[_0x16e178(0x3d4)](/\[ACCEPT_INVITE\]/g,''));const _0xcf8f41=window[_0x16e178(0x43f)][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x46a)),_0x3c4ec9=window['imChat'][_0x16e178(0x40b)]?window['imChat'][_0x16e178(0x40b)](_0xcf8f41):null;_0xcf8f41&&(_0x1d74bb=window['imChat'][_0x16e178(0x384)](_0x1d74bb,_0x16e178(0x46a)));const _0x55d714=window[_0x16e178(0x43f)][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x2bb));if(_0x55d714){_0x1d74bb=window[_0x16e178(0x43f)][_0x16e178(0x384)](_0x1d74bb,_0x16e178(0x2bb));try{const _0x38cbc8=JSON[_0x16e178(0x232)](_0x55d714);if(_0x38cbc8[_0x16e178(0x2a9)]){const _0x2cda62={'id':'lm_'+Date[_0x16e178(0x354)](),'text':_0x38cbc8[_0x16e178(0x2a9)],'images':_0x38cbc8[_0x16e178(0x485)]?[_0x38cbc8[_0x16e178(0x485)]]:[],'timestamp':Date[_0x16e178(0x354)](),'isChar':!![],'likes':0x0,'comments':[]};if(!_0x571d73[_0x16e178(0x283)])_0x571d73[_0x16e178(0x283)]={};if(!_0x571d73['lovesData'][_0x16e178(0x3eb)])_0x571d73['lovesData'][_0x16e178(0x3eb)]=[];_0x571d73['lovesData'][_0x16e178(0x3eb)][_0x16e178(0x356)](_0x2cda62);if(window[_0x16e178(0x3bc)])window['showBannerNotification'](_0x571d73,'【Loves】更新了一条动态');else window[_0x16e178(0x279)]&&window['showToast'](_0x16e178(0x219)+(_0x571d73[_0x16e178(0x235)]||_0x571d73[_0x16e178(0x323)]||'TA')+_0x16e178(0x45b));if(window['lovesApp']&&window[_0x16e178(0x481)][_0x16e178(0x399)])window[_0x16e178(0x481)]['persistFriendState'](_0x571d73);else window[_0x16e178(0x22f)]&&window[_0x16e178(0x22f)][_0x16e178(0x462)]&&window[_0x16e178(0x22f)][_0x16e178(0x462)](_0x571d73,()=>{},{'silent':!![]});window['lovesApp']&&window['lovesApp'][_0x16e178(0x28a)]&&String(window[_0x16e178(0x481)][_0x16e178(0x28a)]['id'])===String(_0x571d73['id'])&&(window[_0x16e178(0x481)][_0x16e178(0x37f)]&&window['lovesApp']['renderLovesMoments']());}}catch(_0x109870){console[_0x16e178(0x1f2)](_0x16e178(0x1f3),_0x109870);}}const _0x281cd5=window[_0x16e178(0x43f)][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x40c));if(_0x281cd5){_0x1d74bb=window[_0x16e178(0x43f)][_0x16e178(0x384)](_0x1d74bb,'loves_schedule');try{const _0x14d68d=JSON['parse'](_0x281cd5);if(_0x14d68d[_0x16e178(0x3a2)]&&_0x14d68d['date']){const _0x59849e={'id':'sch_'+Date[_0x16e178(0x354)](),'name':_0x14d68d[_0x16e178(0x3a2)],'title':_0x14d68d[_0x16e178(0x3a2)],'date':_0x14d68d[_0x16e178(0x213)],'startTime':_0x14d68d[_0x16e178(0x433)]||_0x14d68d['time']||_0x16e178(0x47a),'endTime':_0x14d68d[_0x16e178(0x2b7)]||_0x14d68d['time']||'00:00','time':_0x14d68d[_0x16e178(0x2eb)]||_0x14d68d[_0x16e178(0x433)]||_0x16e178(0x47a),'location':_0x14d68d[_0x16e178(0x30b)]||'未设置地点','source':_0x16e178(0x379),'timestamp':Date[_0x16e178(0x354)]()};if(/^\d{4}-\d{2}-\d{2}$/[_0x16e178(0x2ad)](_0x59849e[_0x16e178(0x213)])){const _0x206e56=window[_0x16e178(0x22f)]?.[_0x16e178(0x462)]?await window[_0x16e178(0x22f)][_0x16e178(0x462)](_0x571d73,_0x388238=>{const _0x4caed3=_0x16e178;_0x388238['memory']=_0x388238[_0x4caed3(0x47f)]||window[_0x4caed3(0x22f)][_0x4caed3(0x22d)](),_0x388238[_0x4caed3(0x47f)][_0x4caed3(0x482)]=_0x388238[_0x4caed3(0x47f)][_0x4caed3(0x482)]||window[_0x4caed3(0x22f)][_0x4caed3(0x22d)]()[_0x4caed3(0x482)];if(!Array['isArray'](_0x388238['memory'][_0x4caed3(0x482)]['events']))_0x388238[_0x4caed3(0x47f)][_0x4caed3(0x482)][_0x4caed3(0x1fc)]=[];const _0x5299d9=window['imDataUtils']?.[_0x4caed3(0x29c)]?window[_0x4caed3(0x335)][_0x4caed3(0x29c)](_0x59849e,_0x388238[_0x4caed3(0x47f)]['schedule'][_0x4caed3(0x1fc)][_0x4caed3(0x2e3)]):_0x59849e;_0x388238[_0x4caed3(0x47f)]['schedule'][_0x4caed3(0x1fc)]['push'](_0x5299d9);},{'silent':!![]}):![];if(_0x206e56){_0x571d73=_0x43f991(_0x571d73['id'])||_0x571d73;if(window[_0x16e178(0x3bc)])window['showBannerNotification'](_0x571d73,_0x16e178(0x43e)+_0x14d68d[_0x16e178(0x3a2)]);else window[_0x16e178(0x279)]&&window[_0x16e178(0x279)](_0x16e178(0x300)+(_0x571d73['nickname']||_0x571d73[_0x16e178(0x323)]||'TA')+'\x20添加了:\x20'+_0x14d68d['title']);window[_0x16e178(0x481)]&&window['lovesApp'][_0x16e178(0x28a)]&&String(window[_0x16e178(0x481)]['currentFriend']['id'])===String(_0x571d73['id'])&&(window[_0x16e178(0x481)][_0x16e178(0x28a)]=_0x571d73,window['lovesApp'][_0x16e178(0x2a5)]&&window[_0x16e178(0x481)][_0x16e178(0x2a5)]());}}}}catch(_0x11dee7){console[_0x16e178(0x1f2)](_0x16e178(0x455),_0x11dee7);}}if(_0x3c4ec9&&_0x571d73[_0x16e178(0x468)]!==_0x16e178(0x357)){const _0x5e3721=_0x43f991(_0x571d73['id'])||_0x571d73;window['imApp'][_0x16e178(0x462)]&&await window[_0x16e178(0x22f)][_0x16e178(0x462)](_0x5e3721['id']||_0x571d73['id'],_0x1ff108=>{const _0x43a3da=_0x16e178;if(!_0x1ff108)return;const _0x461360=window[_0x43a3da(0x22f)]['createDefaultProfilePanel']?window['imApp'][_0x43a3da(0x2c9)](_0x1ff108):_0x1ff108[_0x43a3da(0x265)]||{'activeTab':_0x43a3da(0x359),'thought':'','status':_0x43a3da(0x2e2),'events':[]},_0xca31c4=typeof _0x461360['affection']===_0x43a3da(0x36c)?_0x461360[_0x43a3da(0x2e5)]:0x0,_0x351252=typeof _0x3c4ec9['affectionChange']==='number'?_0x3c4ec9['affectionChange']:0x0,_0x3d0e28=Math[_0x43a3da(0x367)](0x0,Math[_0x43a3da(0x46b)](0x64,_0xca31c4+_0x351252)),_0x48b8b6=typeof _0x3c4ec9[_0x43a3da(0x359)]==='string'&&_0x3c4ec9[_0x43a3da(0x359)][_0x43a3da(0x22b)]()!==''?_0x3c4ec9['thought']:'',_0x22c620=Array[_0x43a3da(0x389)](_0x461360[_0x43a3da(0x27b)])?[..._0x461360[_0x43a3da(0x27b)]]:[];_0x48b8b6&&_0x22c620[_0x43a3da(0x356)]({'id':_0x43a3da(0x2af)+Date[_0x43a3da(0x354)](),'content':_0x48b8b6,'time':Date[_0x43a3da(0x354)]()}),_0x1ff108[_0x43a3da(0x265)]={..._0x461360,'thought':_0x48b8b6||(_0x461360['thought']||''),'thoughtHistory':_0x22c620,'location':typeof _0x3c4ec9['location']===_0x43a3da(0x3e9)&&_0x3c4ec9[_0x43a3da(0x239)][_0x43a3da(0x22b)]()!==''?_0x3c4ec9[_0x43a3da(0x239)]:_0x461360[_0x43a3da(0x239)]||_0x43a3da(0x21c),'action':typeof _0x3c4ec9[_0x43a3da(0x3aa)]===_0x43a3da(0x3e9)&&_0x3c4ec9['action'][_0x43a3da(0x22b)]()!==''?_0x3c4ec9['action']:_0x461360['action']||_0x43a3da(0x3b8),'mood':typeof _0x3c4ec9[_0x43a3da(0x321)]==='string'&&_0x3c4ec9[_0x43a3da(0x321)][_0x43a3da(0x22b)]()!==''?_0x3c4ec9[_0x43a3da(0x321)]:_0x461360[_0x43a3da(0x321)]||'平静','expression':typeof _0x3c4ec9[_0x43a3da(0x269)]===_0x43a3da(0x3e9)&&_0x3c4ec9[_0x43a3da(0x269)]['trim']()!==''?_0x3c4ec9[_0x43a3da(0x269)]:_0x461360[_0x43a3da(0x269)]||'自然','affection':_0x3d0e28,'affectionChange':_0x351252,'status':_0x1cd3d1?_0x43a3da(0x3d5):_0x43a3da(0x2e2),'events':((()=>{const _0x3086b8=_0x43a3da,_0x1b6764=Array[_0x3086b8(0x389)](_0x461360[_0x3086b8(0x1fc)])?_0x461360[_0x3086b8(0x1fc)]:[],_0x55bf0c=[..._0x1b6764];return Array[_0x3086b8(0x389)](_0x3c4ec9[_0x3086b8(0x1fc)])&&_0x3c4ec9['events']['forEach']((_0x483f5a,_0x146a2c)=>{const _0x4407ca=_0x3086b8,_0xe101e5=_0x483f5a?.['id']!=null?_0x483f5a['id']:'event-'+Date[_0x4407ca(0x354)]()+'-'+_0x146a2c,_0x370686={..._0x483f5a,'id':_0xe101e5,'status':_0x483f5a?.[_0x4407ca(0x25d)]||'pending','confirmText':_0x483f5a?.[_0x4407ca(0x43b)]||'确认','cancelText':_0x483f5a?.[_0x4407ca(0x3b6)]||'取消','memoryPayload':_0x483f5a?.['memoryPayload']&&typeof _0x483f5a[_0x4407ca(0x255)]===_0x4407ca(0x484)?{'title':_0x483f5a[_0x4407ca(0x255)][_0x4407ca(0x3a2)]||_0x483f5a?.['title']||_0x4407ca(0x312),'content':_0x483f5a[_0x4407ca(0x255)]['content']||_0x483f5a?.['requestText']||_0x483f5a?.[_0x4407ca(0x30b)]||'','detail':_0x483f5a[_0x4407ca(0x255)][_0x4407ca(0x3ee)]||_0x483f5a?.['detail']||'','reason':_0x483f5a[_0x4407ca(0x255)][_0x4407ca(0x444)]||'','sourceEventId':_0x483f5a[_0x4407ca(0x255)][_0x4407ca(0x26c)]||String(_0xe101e5),'createdAt':_0x483f5a['memoryPayload'][_0x4407ca(0x381)]||_0x483f5a?.[_0x4407ca(0x2eb)]||'','sourceThought':_0x483f5a[_0x4407ca(0x255)][_0x4407ca(0x292)]||_0x3c4ec9[_0x4407ca(0x359)]||''}:null};!_0x55bf0c[_0x4407ca(0x37b)](_0x42dfbb=>_0x42dfbb[_0x4407ca(0x3a2)]===_0x370686[_0x4407ca(0x3a2)])&&_0x55bf0c[_0x4407ca(0x2b3)](_0x370686);}),_0x55bf0c[_0x3086b8(0x3da)](-0x5);})())},_0x1ff108['latestThought']=_0x1ff108[_0x43a3da(0x265)][_0x43a3da(0x359)],_0x1ff108[_0x43a3da(0x25d)]=_0x1cd3d1?_0x43a3da(0x3d5):_0x43a3da(0x2e2);},{'syncActive':!![],'metaOnly':!![],'silent':!![]});const _0x410af3=_0x43f991(_0x5e3721['id']||_0x571d73['id'])||_0x5e3721,_0x13e961=document['getElementById'](_0x16e178(0x34e)+_0x410af3['id']),_0x53fa7d=_0x13e961?_0x13e961[_0x16e178(0x31b)](_0x16e178(0x2b9)):null;_0x53fa7d&&_0x53fa7d[_0x16e178(0x3cc)][_0x16e178(0x41a)](_0x16e178(0x2ef))&&window[_0x16e178(0x43f)]['renderProfilePanel']&&window[_0x16e178(0x43f)]['renderProfilePanel'](_0x410af3,_0x53fa7d),_0xf4dbf6(_0x410af3['id']||_0x571d73['id'],{'delay':0x320,'silent':!![]});}if(!_0x1d74bb&&_0x339b96['length']===0x0&&_0x3d13a5[_0x16e178(0x2e3)]===0x0){if(_0x6189)_0x6189[_0x16e178(0x3d0)][_0x16e178(0x450)]='1';await _0x40c004(_0x571d73['id'],{'silent':!![]});return;}let _0x12caaa=null;const _0x5762c0=window[_0x16e178(0x43f)][_0x16e178(0x3ac)](_0x1d74bb,_0x16e178(0x2f6));_0x5762c0&&(_0x12caaa=window[_0x16e178(0x43f)]['parseJsonArrayFromText'](_0x5762c0),_0x1d74bb=window['imChat'][_0x16e178(0x384)](_0x1d74bb,_0x16e178(0x2f6)));if(!_0x12caaa){const _0x288bca=window[_0x16e178(0x43f)][_0x16e178(0x3b7)](_0x1d74bb);_0x288bca&&(_0x12caaa=_0x288bca,_0x1d74bb='');}if(_0x35ac75&&_0x328fef()&&window[_0x16e178(0x481)]&&typeof window['lovesApp'][_0x16e178(0x2a4)]==='function'){await window[_0x16e178(0x481)]['handleInviteAccepted'](_0x571d73);if(!_0x328fef())return;}let _0x176d77=[];_0x12caaa&&_0x12caaa[_0x16e178(0x2e3)]>0x0&&(_0x176d77=_0x12caaa['map'](_0x5576e5=>{const _0x417107=_0x16e178;if(!_0x5576e5||typeof _0x5576e5!=='object')return null;const _0x242f89=typeof _0x5576e5[_0x417107(0x468)]===_0x417107(0x3e9)?_0x5576e5['type'][_0x417107(0x22b)]()[_0x417107(0x2d0)]():'';if(_0x242f89==='call')return{'kind':_0x417107(0x430)};if(_0x242f89===_0x417107(0x373)){const _0x7aedae=typeof _0x5576e5[_0x417107(0x3aa)]==='string'?_0x5576e5[_0x417107(0x3aa)]['trim']()['toLowerCase']():'';if(![_0x417107(0x44b),'previous',_0x417107(0x34f)][_0x417107(0x449)](_0x7aedae))return null;return{'kind':_0x417107(0x373),'action':_0x7aedae,'trackId':typeof _0x5576e5[_0x417107(0x41c)]===_0x417107(0x3e9)?_0x5576e5['trackId'][_0x417107(0x22b)]():''};}if(_0x242f89===_0x417107(0x3ca)||_0x242f89===_0x417107(0x21b)||_0x242f89===_0x417107(0x412)){const _0x1a2360=typeof _0x5576e5['text']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x306)][_0x417107(0x22b)]():typeof _0x5576e5[_0x417107(0x30b)]===_0x417107(0x3e9)?_0x5576e5['description']['trim']():typeof _0x5576e5[_0x417107(0x3aa)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x3aa)][_0x417107(0x22b)]():'';if(!_0x1a2360)return null;return{'kind':_0x417107(0x3ca),'text':_0x1a2360[_0x417107(0x3da)](0x0,0x3c),'speaker':typeof _0x5576e5[_0x417107(0x26a)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x26a)]['trim']():''};}if(_0x242f89===_0x417107(0x245)){const _0x539a0f=typeof _0x5576e5['text']===_0x417107(0x3e9)?_0x5576e5['text'][_0x417107(0x22b)]():'';if(!_0x539a0f)return null;return{'kind':_0x417107(0x245),'text':_0x539a0f,'speaker':typeof _0x5576e5['speaker']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x26a)][_0x417107(0x22b)]():''};}if(_0x242f89==='voice'){const _0x4fe894=typeof _0x5576e5['text']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x306)][_0x417107(0x22b)]():'';if(!_0x4fe894)return null;return{'kind':_0x417107(0x43c),'text':_0x4fe894,'thought':typeof _0x5576e5[_0x417107(0x359)]===_0x417107(0x3e9)?_0x5576e5['thought'][_0x417107(0x22b)]():'','translation':typeof _0x5576e5['translation']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x3a8)]['trim']():typeof _0x5576e5[_0x417107(0x318)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x318)]['trim']():'','replyTo':typeof _0x5576e5[_0x417107(0x2d4)]==='string'?_0x5576e5[_0x417107(0x2d4)]['trim']():'','speaker':typeof _0x5576e5[_0x417107(0x26a)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x26a)][_0x417107(0x22b)]():''};}if(_0x242f89===_0x417107(0x296)){const _0x57be23=typeof _0x5576e5['name']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x3c8)][_0x417107(0x22b)]():'';if(!_0x57be23)return null;return{'kind':'sticker','text':_0x57be23,'stickerName':_0x57be23,'stickerCategory':typeof _0x5576e5[_0x417107(0x3e0)]==='string'?_0x5576e5[_0x417107(0x3e0)][_0x417107(0x22b)]():'','thought':typeof _0x5576e5[_0x417107(0x359)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x359)]['trim']():'','speaker':typeof _0x5576e5[_0x417107(0x26a)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x26a)]['trim']():''};}if(_0x242f89==='image'){const _0x4ea872=typeof _0x5576e5[_0x417107(0x30b)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x30b)][_0x417107(0x22b)]():typeof _0x5576e5[_0x417107(0x306)]===_0x417107(0x3e9)?_0x5576e5['text']['trim']():'';if(!_0x4ea872)return null;return{'kind':'image','text':_0x4ea872,'description':_0x4ea872,'thought':typeof _0x5576e5[_0x417107(0x359)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x359)][_0x417107(0x22b)]():'','speaker':typeof _0x5576e5[_0x417107(0x26a)]===_0x417107(0x3e9)?_0x5576e5['speaker'][_0x417107(0x22b)]():'','offlineScene':typeof _0x5576e5[_0x417107(0x2a3)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x2a3)][_0x417107(0x22b)]():'','offlineAction':typeof _0x5576e5[_0x417107(0x3aa)]===_0x417107(0x3e9)?_0x5576e5['action'][_0x417107(0x22b)]():''};}if(_0x242f89===_0x417107(0x2cc)){const _0x14bc71=Number(_0x5576e5['amount']),_0x38a1c1=parseInt(_0x5576e5[_0x417107(0x2be)],0xa)||0x5;if(!Number[_0x417107(0x27c)](_0x14bc71)||_0x14bc71<=0x0)return null;return{'kind':_0x417107(0x2cc),'amount':_0x14bc71,'count':_0x38a1c1,'description':typeof _0x5576e5[_0x417107(0x30b)]==='string'?_0x5576e5[_0x417107(0x30b)][_0x417107(0x22b)]()||_0x417107(0x47b):_0x417107(0x47b),'speaker':typeof _0x5576e5[_0x417107(0x26a)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x26a)][_0x417107(0x22b)]():''};}if(_0x242f89===_0x417107(0x460)||_0x5576e5['paymentAction']){const _0x5cc45b=Number(_0x5576e5[_0x417107(0x316)]);if(!Number[_0x417107(0x27c)](_0x5cc45b)||_0x5cc45b<=0x0)return null;let _0x764388='receive';if(_0x5576e5[_0x417107(0x456)]===_0x417107(0x28d))_0x764388=_0x417107(0x28d);if(_0x5576e5['paymentAction']==='reject')_0x764388=_0x417107(0x337);if(_0x5576e5['paymentAction']===_0x417107(0x233))_0x764388=_0x417107(0x233);if(_0x5576e5[_0x417107(0x456)]===_0x417107(0x3fe))_0x764388=_0x417107(0x3fe);if(_0x5576e5[_0x417107(0x456)]==='family_card_increase')_0x764388=_0x417107(0x345);return{'kind':_0x417107(0x460),'paymentAction':_0x764388,'amount':_0x5cc45b,'description':typeof _0x5576e5['description']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x30b)][_0x417107(0x22b)]()||'转账':'转账'};}const _0x17b61c=typeof _0x5576e5[_0x417107(0x306)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x306)][_0x417107(0x22b)]():'';if(!_0x17b61c)return null;return{'kind':'text','text':_0x17b61c,'thought':typeof _0x5576e5[_0x417107(0x359)]==='string'?_0x5576e5['thought'][_0x417107(0x22b)]():'','translation':typeof _0x5576e5['translation']===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x3a8)][_0x417107(0x22b)]():typeof _0x5576e5['trans']==='string'?_0x5576e5[_0x417107(0x318)][_0x417107(0x22b)]():'','replyTo':typeof _0x5576e5[_0x417107(0x2d4)]===_0x417107(0x3e9)?_0x5576e5[_0x417107(0x2d4)][_0x417107(0x22b)]():'','speaker':typeof _0x5576e5[_0x417107(0x26a)]==='string'?_0x5576e5[_0x417107(0x26a)]['trim']():''};})[_0x16e178(0x33c)](Boolean));if(_0x176d77[_0x16e178(0x2e3)]===0x0){let _0x47d722=null;const _0x54477b=/<translation>([\s\S]*?)<\/translation>/i,_0x228bbd=_0x1d74bb[_0x16e178(0x28c)](_0x54477b);_0x228bbd&&(_0x47d722=_0x228bbd[0x1][_0x16e178(0x22b)](),_0x1d74bb=_0x1d74bb['replace'](_0x54477b,'')[_0x16e178(0x22b)]());let _0xb3d615=null;const _0xa7935a=/<thinking>([\s\S]*?)<\/thinking>/i,_0x7a305b=_0x1d74bb['match'](_0xa7935a);_0x7a305b&&(_0xb3d615=_0x7a305b[0x1]['trim'](),_0x1d74bb=_0x1d74bb['replace'](_0xa7935a,'')[_0x16e178(0x22b)]());let _0x307ec2=[];if(_0x571d73[_0x16e178(0x468)]==='group')_0x307ec2=_0x1d74bb[_0x16e178(0x418)](/\n+/)[_0x16e178(0x465)](_0x41aaeb=>_0x41aaeb['replace'](/^\s*(.*?)\s*$/,'$1'))[_0x16e178(0x33c)](_0x2fde8c=>_0x2fde8c[_0x16e178(0x2e3)]>0x0);else{if(_0x47d722)_0x307ec2=[_0x1d74bb];else{_0x307ec2=_0x1d74bb['split'](/(?<=[。！？.!?])/)[_0x16e178(0x465)](_0x5e1ee9=>_0x5e1ee9[_0x16e178(0x3d4)](/^\s*(.*?)\s*$/,'$1'))[_0x16e178(0x33c)](_0x321e40=>_0x321e40[_0x16e178(0x2e3)]>0x0);if(_0x307ec2[_0x16e178(0x2e3)]>0x7)while(_0x307ec2['length']>0x7){let _0x496646=Infinity,_0x224635=0x0;for(let _0x10c85c=0x0;_0x10c85c<_0x307ec2[_0x16e178(0x2e3)]-0x1;_0x10c85c++){let _0x51758e=_0x307ec2[_0x10c85c][_0x16e178(0x2e3)]+_0x307ec2[_0x10c85c+0x1][_0x16e178(0x2e3)];_0x51758e<_0x496646&&(_0x496646=_0x51758e,_0x224635=_0x10c85c);}_0x307ec2[_0x224635]=_0x307ec2[_0x224635]+'\x20'+_0x307ec2[_0x224635+0x1],_0x307ec2[_0x16e178(0x2ae)](_0x224635+0x1,0x1);}else{if(_0x307ec2[_0x16e178(0x2e3)]<0x3&&_0x1d74bb[_0x16e178(0x2e3)]>0x1e){_0x307ec2=_0x1d74bb[_0x16e178(0x418)](/(?<=[。！？.!?，,])/)[_0x16e178(0x465)](_0xdc880b=>_0xdc880b[_0x16e178(0x3d4)](/^\s*(.*?)\s*$/,'$1'))[_0x16e178(0x33c)](_0x3430a7=>_0x3430a7[_0x16e178(0x2e3)]>0x0);if(_0x307ec2[_0x16e178(0x2e3)]>0x7)_0x307ec2=_0x307ec2[_0x16e178(0x3da)](0x0,0x7);}}}}if(_0x307ec2['length']===0x0&&_0x1d74bb)_0x307ec2=[_0x1d74bb];_0x176d77=_0x307ec2[_0x16e178(0x465)]((_0xad9468,_0xd4520f)=>({'text':_0xad9468,'translation':_0x47d722||'','thought':_0xd4520f===0x0&&_0xb3d615?_0xb3d615:typeof aiThought===_0x16e178(0x3e9)?aiThought:''}));}if(_0x209352&&!_0x176d77[_0x16e178(0x37b)](_0x5e9d27=>_0x5e9d27&&_0x5e9d27[_0x16e178(0x454)]==='action_narration')){const _0x42d1cf=_0x571d73[_0x16e178(0x468)]===_0x16e178(0x357)?_0x571d73[_0x16e178(0x235)]||'群聊':_0x571d73[_0x16e178(0x235)]||_0x571d73['realName']||'TA',_0x26ed96=_0x3c4ec9?.[_0x16e178(0x3aa)]||'',_0x295940=_0x3c4ec9?.[_0x16e178(0x239)]||'',_0x36a2dd=_0x571d73[_0x16e178(0x468)]===_0x16e178(0x357)?_0x16e178(0x387):''+_0x42d1cf+(_0x26ed96?_0x26ed96:_0x16e178(0x3f4))+'，'+(_0x295940?_0x295940+'的':'')+_0x16e178(0x25f);_0x176d77[_0x16e178(0x356)]({'kind':_0x16e178(0x3ca),'text':_0x36a2dd[_0x16e178(0x3da)](0x0,0x23)});}if(_0x176d77[_0x16e178(0x2e3)]===0x0&&_0x339b96[_0x16e178(0x2e3)]===0x0&&_0x3d13a5[_0x16e178(0x2e3)]===0x0){if(_0x6189)_0x6189[_0x16e178(0x3d0)][_0x16e178(0x450)]='1';await _0x40c004(_0x571d73['id'],{'silent':!![]});return;}const _0x133f0e=_0x571d73[_0x16e178(0x268)]?_0x176d77[_0x16e178(0x465)](_0x5c727d=>_0x174b36(_0x5c727d['offlineScene']))[_0x16e178(0x382)](Boolean)||'':'';let _0x565f57=![],_0x387c27=0x0;const _0x3eb1fe=Date[_0x16e178(0x354)](),_0x5af024=()=>{const _0x1fda10=_0x16e178,_0x5f0bcd='chat-interface-'+_0x571d73['id'],_0xed12a0=document[_0x1fda10(0x2c7)](_0x5f0bcd);return _0xed12a0?_0xed12a0[_0x1fda10(0x31b)](_0x1fda10(0x315)):null;},_0x1af7c4=_0x5af024(),_0x5e90fe=_0x43f991(_0x571d73['id'])||_0x571d73,_0x8e419a=_0x5e90fe[_0x16e178(0x2c3)]&&_0x5e90fe[_0x16e178(0x2c3)]['length']>0x0?_0x5e90fe[_0x16e178(0x2c3)][_0x5e90fe[_0x16e178(0x2c3)]['length']-0x1]:null;_0x176d77[_0x16e178(0x2e3)]>0x0&&_0x1af7c4&&(!_0x8e419a||_0x3eb1fe-(_0x8e419a[_0x16e178(0x386)]||0x0)>0x493e0)&&window[_0x16e178(0x43f)][_0x16e178(0x281)](_0x3eb1fe,_0x1af7c4);let _0x5032da=null;async function _0x3d034f(){const _0x283b1e=_0x16e178;if(!_0x328fef())return![];const _0x2ad49b=_0x176d77[_0x387c27]||{};if(_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x245)){const _0x36fcee=_0x43f991(_0x571d73['id'])||_0x571d73;let _0x14e3b9=_0x36fcee[_0x283b1e(0x235)]||_0x36fcee[_0x283b1e(0x323)]||'对方';if(_0x36fcee[_0x283b1e(0x468)]===_0x283b1e(0x357)){const _0x10b0d6=window[_0x283b1e(0x43f)][_0x283b1e(0x448)](_0x36fcee,_0x2ad49b[_0x283b1e(0x26a)]);if(!_0x10b0d6)return _0x387c27++,!![];_0x14e3b9=_0x10b0d6['nickname']||_0x10b0d6[_0x283b1e(0x323)]||'群成员',_0x5032da=_0x14e3b9;}const _0x499ca0=(Array[_0x283b1e(0x389)](_0x36fcee[_0x283b1e(0x2c3)])?_0x36fcee[_0x283b1e(0x2c3)]:[])[_0x283b1e(0x3da)]()['reverse']()[_0x283b1e(0x382)](_0x5cbe08=>{const _0x270112=_0x283b1e;if(!_0x5cbe08||_0x5cbe08[_0x270112(0x39e)]!==_0x270112(0x3cd)||_0x5cbe08[_0x270112(0x468)]===_0x270112(0x36e))return![];if(String(_0x5cbe08[_0x270112(0x273)]||'')!==String(_0x15d115))return![];if(_0x36fcee[_0x270112(0x468)]===_0x270112(0x357)&&String(_0x5cbe08[_0x270112(0x26a)]||'')[_0x270112(0x22b)]()!==_0x14e3b9)return![];const _0x2ac810=String(_0x5cbe08[_0x270112(0x304)]||_0x5cbe08[_0x270112(0x30b)]||_0x5cbe08['text']||_0x5cbe08[_0x270112(0x2a9)]||'')[_0x270112(0x22b)]();return _0x2ac810===String(_0x2ad49b[_0x270112(0x306)]||'')[_0x270112(0x22b)]();})||null,_0x44c583=_0x499ca0?.[_0x283b1e(0x386)]||Date[_0x283b1e(0x354)](),_0xbcfafb=window[_0x283b1e(0x22f)][_0x283b1e(0x25b)](_0x499ca0,{'actorRole':_0x283b1e(0x3cd),'actorName':_0x14e3b9,'recalledContent':_0x2ad49b[_0x283b1e(0x306)],'timestamp':_0x44c583,'apiRunId':_0x15d115}),_0xfa338c=_0x499ca0&&window[_0x283b1e(0x22f)][_0x283b1e(0x3db)]?await window[_0x283b1e(0x22f)][_0x283b1e(0x3db)](_0x36fcee['id']||_0x571d73['id'],{'id':_0x499ca0['id']||null,'timestamp':_0x499ca0[_0x283b1e(0x386)]||null},_0x52c330=>{const _0x5c5719=_0x283b1e;Object['keys'](_0x52c330)[_0x5c5719(0x234)](_0x25f2e3=>delete _0x52c330[_0x25f2e3]),Object[_0x5c5719(0x364)](_0x52c330,_0xbcfafb);},{'silent':!![]}):window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)]?await window['imApp'][_0x283b1e(0x2c2)](_0x36fcee['id']||_0x571d73['id'],_0xbcfafb,{'silent':!![]}):![];if(!_0xfa338c){if(!_0x4e85d1[_0x283b1e(0x3b4)]&&window[_0x283b1e(0x279)])window['showToast'](_0x283b1e(0x2cd));return![];}const _0x3aa19a=_0x5af024(),_0x284756=window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]&&String(window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]['id'])===String(_0x36fcee['id'])&&_0x3aa19a;if(_0x284756&&_0x499ca0&&window[_0x283b1e(0x43f)]['rerenderChatContainer']){const _0x434c57=_0x43f991(_0x36fcee['id'])||_0x36fcee;window['imChat'][_0x283b1e(0x202)](_0x434c57,_0x3aa19a,{'scroll':!![]});}else{if(_0x284756&&window[_0x283b1e(0x43f)]['renderSystemNoticeBubble'])window[_0x283b1e(0x43f)][_0x283b1e(0x278)](_0xbcfafb,_0x36fcee,_0x3aa19a,_0x44c583);else window[_0x283b1e(0x3bc)]&&window[_0x283b1e(0x3bc)](_0x36fcee,_0x14e3b9+_0x283b1e(0x301));}return _0x387c27++,!![];}if(_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x3ca)){const _0x57c9b1=_0x43f991(_0x571d73['id'])||_0x571d73,_0x34fd1b=typeof _0x2ad49b[_0x283b1e(0x306)]===_0x283b1e(0x3e9)?_0x2ad49b[_0x283b1e(0x306)][_0x283b1e(0x22b)]():'';if(!_0x34fd1b)return _0x387c27++,!![];const _0x217513=Date[_0x283b1e(0x354)](),_0x3343f4={'id':window[_0x283b1e(0x43f)][_0x283b1e(0x31a)]('notice'),'role':_0x283b1e(0x377),'type':'system_notice','noticeKind':_0x283b1e(0x32b),'content':_0x34fd1b,'text':_0x34fd1b,'timestamp':_0x217513,'apiRunId':_0x15d115},_0x54a42a=_0x5af024(),_0x39783c=window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]&&String(window['imData'][_0x283b1e(0x285)]['id'])===String(_0x57c9b1['id'])&&_0x54a42a,_0x567a78=window['imApp'][_0x283b1e(0x2c2)]?await window['imApp']['appendFriendMessage'](_0x57c9b1['id']||_0x571d73['id'],_0x3343f4,{'silent':!![]}):![];if(!_0x567a78){if(!_0x4e85d1[_0x283b1e(0x3b4)]&&window[_0x283b1e(0x279)])window[_0x283b1e(0x279)](_0x283b1e(0x40f));if(_0x6189)_0x6189['style'][_0x283b1e(0x450)]='1';return![];}return _0x39783c&&window[_0x283b1e(0x43f)]['renderSystemNoticeBubble']&&window['imChat']['renderSystemNoticeBubble'](_0x3343f4,_0x57c9b1,_0x54a42a,_0x217513),_0x387c27++,!![];}if(_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x430)){const _0x3a0dce=_0x43f991(_0x571d73['id'])||_0x571d73;return _0x3a0dce[_0x283b1e(0x468)]!==_0x283b1e(0x357)&&window[_0x283b1e(0x43f)]&&window[_0x283b1e(0x43f)][_0x283b1e(0x332)]&&window[_0x283b1e(0x43f)][_0x283b1e(0x332)](_0x3a0dce,!![]),_0x387c27++,!![];}if(_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x373)){const _0x3e9c8c=await window[_0x283b1e(0x344)]?.[_0x283b1e(0x41b)]?.(_0x571d73['id'],{'action':_0x2ad49b[_0x283b1e(0x3aa)],'trackId':_0x2ad49b[_0x283b1e(0x41c)]});if(!_0x3e9c8c)console['warn'](_0x283b1e(0x2bf),_0x2ad49b);return _0x387c27++,!![];}if(_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x2cc)){const _0x509a6f=_0x43f991(_0x571d73['id'])||_0x571d73,_0x5bb991=Number(_0x2ad49b['amount'])||0x0,_0x49974e=parseInt(_0x2ad49b[_0x283b1e(0x2be)],0xa)||0x5,_0x5d37f4=_0x2ad49b['description']||'恭喜发财';let _0x815e08=_0x2ad49b[_0x283b1e(0x26a)]||_0x5032da||_0x283b1e(0x226),_0x15ac10=null;_0x509a6f[_0x283b1e(0x468)]===_0x283b1e(0x357)&&(_0x15ac10=window[_0x283b1e(0x43f)]['normalizeGroupSpeaker'](_0x509a6f,_0x815e08),!_0x15ac10&&_0x5032da&&(_0x15ac10=window[_0x283b1e(0x43f)][_0x283b1e(0x448)](_0x509a6f,_0x5032da)));_0x15ac10&&(_0x815e08=_0x15ac10['nickname']||_0x15ac10[_0x283b1e(0x323)],_0x5032da=_0x815e08);if(_0x5bb991>0x0){const _0x226484=Date[_0x283b1e(0x354)](),_0xfc6639=window[_0x283b1e(0x43f)][_0x283b1e(0x429)](_0x5bb991,_0x49974e),_0xef5f6a=window[_0x283b1e(0x43f)][_0x283b1e(0x2bc)]({'id':window[_0x283b1e(0x43f)][_0x283b1e(0x31a)](_0x283b1e(0x3ad)),'packetId':window[_0x283b1e(0x43f)][_0x283b1e(0x31a)](_0x283b1e(0x3ad)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x3d1),'totalAmount':_0x5bb991,'packetCount':_0x49974e,'description':_0x5d37f4,'allocations':_0xfc6639,'claimRecords':[],'claimedMemberIds':[],'content':'[群红包]\x20'+_0x5d37f4+'\x20¥'+Number(_0x5bb991)[_0x283b1e(0x435)](0x2),'timestamp':_0x226484,'speakerMemberId':_0x15ac10?_0x15ac10['id']:'','senderName':_0x815e08,'senderAvatarUrl':_0x15ac10?_0x15ac10[_0x283b1e(0x3c1)]:'','apiRunId':_0x15d115},_0x509a6f),_0x30b75f=_0x5af024(),_0x529790=window[_0x283b1e(0x2c8)]['currentActiveFriend']&&String(window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]['id'])===String(_0x509a6f['id'])&&_0x30b75f,_0x8dcab8=window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)]?await window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)](_0x509a6f['id']||_0x571d73['id'],_0xef5f6a,{'silent':!![]}):![];if(!_0x8dcab8){if(window[_0x283b1e(0x279)])window[_0x283b1e(0x279)](_0x283b1e(0x2a1));return![];}_0x529790&&window[_0x283b1e(0x43f)]['renderGroupRedPacketBubble'](_0xef5f6a,_0x509a6f,_0x30b75f,_0x226484);}return _0x387c27++,!![];}if(_0x2ad49b['kind']===_0x283b1e(0x460)){const _0x31e2f0=_0x43f991(_0x571d73['id'])||_0x571d73,_0xafb5c=_0x2ad49b[_0x283b1e(0x456)],_0x28c174=Number(_0x2ad49b['amount'])||0x0,_0x22dfd7=_0x2ad49b[_0x283b1e(0x30b)]||'转账',_0x1b8279=_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?window[_0x283b1e(0x43f)]['getSafeGroupSpeaker'](_0x31e2f0,_0x2ad49b[_0x283b1e(0x26a)]||_0x5032da):_0x31e2f0,_0x545853=_0x1b8279?.[_0x283b1e(0x235)]||_0x1b8279?.['realName']||_0x31e2f0[_0x283b1e(0x235)]||_0x31e2f0[_0x283b1e(0x323)]||_0x283b1e(0x328);if(_0x28c174>0x0){if(_0xafb5c===_0x283b1e(0x233)){const _0x5cd61a=Date[_0x283b1e(0x354)](),_0x5ae4c5='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f7f7f5;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20min-width:\x20220px;\x20max-width:\x20280px;\x20color:\x20#111111;\x20\x20border:\x201px\x20solid\x20rgba(17,17,17,0.09);\x20display:\x20inline-block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#73706a;\x20margin-bottom:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;\x20font-weight:\x20700;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-bag-shopping\x22\x20style=\x22color:\x20#a97642;\x22></i>\x20Shop\x20Request\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20margin-bottom:\x206px;\x20white-space:\x20normal;\x20word-break:\x20break-word;\x20line-height:\x201.4;\x22>'+_0x22dfd7+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2024px;\x20font-weight:\x20800;\x20color:\x20#111111;\x20margin-top:\x2014px;\x20margin-bottom:\x2016px;\x22>¥'+_0x28c174['toFixed'](0x2)+_0x283b1e(0x37d);try{const _0x458cdb=localStorage[_0x283b1e(0x30d)](_0x283b1e(0x3f9));if(_0x458cdb){const _0x62c5ed=JSON['parse'](_0x458cdb);let _0x15f7f2=![];for(let _0x22a35a=0x0;_0x22a35a<_0x62c5ed[_0x283b1e(0x2e3)];_0x22a35a++){if(_0x62c5ed[_0x22a35a][_0x283b1e(0x25d)]===_0x283b1e(0x421)){_0x62c5ed[_0x22a35a]['status']='完成',_0x15f7f2=!![];break;}}_0x15f7f2&&localStorage[_0x283b1e(0x256)]('shopping_orders',JSON['stringify'](_0x62c5ed));}}catch(_0x449514){console[_0x283b1e(0x2ea)](_0x283b1e(0x297),_0x449514);}const _0x4bac74={'id':window[_0x283b1e(0x43f)][_0x283b1e(0x31a)](_0x283b1e(0x1f6)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x3ed),'content':_0x5ae4c5,'speaker':_0x31e2f0['type']===_0x283b1e(0x357)?_0x545853:'','speakerMemberId':_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x1b8279?.['id']||'':'','senderAvatarUrl':_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x1b8279?.[_0x283b1e(0x3c1)]||'':'','timestamp':_0x5cd61a,'apiRunId':_0x15d115},_0x4eb6e1=_0x5af024(),_0x578a27=window[_0x283b1e(0x2c8)]['currentActiveFriend']&&String(window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]['id'])===String(_0x31e2f0['id'])&&_0x4eb6e1,_0x3f0960=window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)]?await window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)](_0x31e2f0['id']||_0x571d73['id'],_0x4bac74,{'silent':!![]}):![];if(!_0x3f0960){if(window[_0x283b1e(0x279)])window[_0x283b1e(0x279)](_0x283b1e(0x420));return![];}_0x578a27&&window[_0x283b1e(0x43f)][_0x283b1e(0x2bd)](_0x4bac74,_0x31e2f0,_0x4eb6e1,_0x5cd61a);}else{if(_0xafb5c==='receive'||_0xafb5c==='reject'){const _0x428e16=Array['isArray'](_0x31e2f0[_0x283b1e(0x2c3)])?_0x31e2f0[_0x283b1e(0x2c3)][_0x283b1e(0x3da)]()[_0x283b1e(0x42a)]()['find'](_0x802099=>_0x802099[_0x283b1e(0x468)]==='pay_transfer'&&_0x802099[_0x283b1e(0x3d7)]===_0x283b1e(0x422)&&!_0x802099[_0x283b1e(0x366)]&&Number(_0x802099[_0x283b1e(0x316)])===_0x28c174):null;if(_0x428e16){if(_0xafb5c==='receive'&&window[_0x283b1e(0x43f)]['claimIncomingTransfer'])await window[_0x283b1e(0x43f)]['claimIncomingTransfer'](_0x31e2f0,_0x428e16,{'apiRunId':_0x15d115});else _0xafb5c===_0x283b1e(0x337)&&window[_0x283b1e(0x43f)][_0x283b1e(0x24a)]&&await window[_0x283b1e(0x43f)][_0x283b1e(0x24a)](_0x31e2f0,_0x428e16,{'apiRunId':_0x15d115});}}else{if(_0xafb5c===_0x283b1e(0x3fe)||_0xafb5c===_0x283b1e(0x345)){if(typeof window['addOrUpdateFamilyCard']===_0x283b1e(0x27e)){const _0x9d9353=window[_0x283b1e(0x3e5)](_0x31e2f0['id'],_0x31e2f0[_0x283b1e(0x235)]||_0x31e2f0['realName'],_0x28c174),_0x442a01=Date[_0x283b1e(0x354)]();let _0x552d4d=_0x9d9353['action']==='increase'?'提升亲属卡额度':'赠送亲属卡';const _0xeed899={'id':window['imChat'][_0x283b1e(0x31a)](_0x283b1e(0x257)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x3dc),'payKind':_0x283b1e(0x3c2),'paymentAction':_0xafb5c,'amount':_0x28c174,'description':_0x552d4d+'\x20¥'+_0x28c174[_0x283b1e(0x435)](0x2),'cardTitle':_0x552d4d,'payStatus':_0x283b1e(0x25a),'content':_0x283b1e(0x2a7)+_0x552d4d+'\x20¥'+_0x28c174[_0x283b1e(0x435)](0x2),'speaker':_0x31e2f0['type']==='group'?_0x545853:'','speakerMemberId':_0x31e2f0['type']===_0x283b1e(0x357)?_0x1b8279?.['id']||'':'','senderAvatarUrl':_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x1b8279?.['avatarUrl']||'':'','timestamp':_0x442a01,'apiRunId':_0x15d115},_0x1ffe0b=_0x5af024(),_0x1c1edf=window['imData'][_0x283b1e(0x285)]&&String(window['imData'][_0x283b1e(0x285)]['id'])===String(_0x31e2f0['id'])&&_0x1ffe0b,_0x1729d4=window[_0x283b1e(0x22f)]['appendFriendMessage']?await window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)](_0x31e2f0['id']||_0x571d73['id'],_0xeed899,{'silent':!![]}):![];_0x1729d4&&_0x1c1edf&&window[_0x283b1e(0x43f)]['renderPayTransferBubble'](_0xeed899,_0x31e2f0,_0x1ffe0b,_0x442a01);}}else{if(_0xafb5c===_0x283b1e(0x28d)){const _0x2a3d7d=Date[_0x283b1e(0x354)](),_0x41b1cd=_0x545853,_0x5181d4=window[_0x283b1e(0x29e)]?.['name']||window[_0x283b1e(0x29e)]?.[_0x283b1e(0x323)]||window['userState']?.[_0x283b1e(0x235)]||'User',_0x535477={'id':window['imChat'][_0x283b1e(0x31a)](_0x283b1e(0x257)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x3dc),'payKind':_0x283b1e(0x260),'payDirection':'char_to_user','amount':_0x28c174,'description':_0x22dfd7,'payerName':_0x41b1cd,'payeeName':_0x5181d4,'senderName':_0x41b1cd,'receiverName':_0x5181d4,'targetName':_0x41b1cd,'speaker':_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x545853:'','speakerMemberId':_0x31e2f0[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x1b8279?.['id']||'':'','senderAvatarUrl':_0x31e2f0[_0x283b1e(0x468)]==='group'?_0x1b8279?.[_0x283b1e(0x3c1)]||'':'','cardTitle':'转账','payStatus':_0x283b1e(0x25a),'content':_0x283b1e(0x2ca)+_0x22dfd7+'\x20¥'+_0x28c174[_0x283b1e(0x435)](0x2),'timestamp':_0x2a3d7d,'apiRunId':_0x15d115},_0x3ef785=_0x5af024(),_0x19b254=window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]&&String(window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]['id'])===String(_0x31e2f0['id'])&&_0x3ef785,_0x488026=window['imApp']['appendFriendMessage']?await window['imApp'][_0x283b1e(0x2c2)](_0x31e2f0['id']||_0x571d73['id'],_0x535477,{'silent':!![]}):![];if(!_0x488026){if(window['showToast'])window['showToast']('转账消息保存失败');return![];}_0x19b254&&window[_0x283b1e(0x43f)][_0x283b1e(0x2e1)](_0x535477,_0x31e2f0,_0x3ef785,_0x2a3d7d);}}}}}return _0x387c27++,!![];}let _0x1bb89a=typeof _0x2ad49b[_0x283b1e(0x306)]===_0x283b1e(0x3e9)?_0x2ad49b[_0x283b1e(0x306)][_0x283b1e(0x22b)]():'',_0x445428=typeof _0x2ad49b[_0x283b1e(0x358)]==='string'&&_0x2ad49b['replyTo'][_0x283b1e(0x22b)]()?_0x2ad49b[_0x283b1e(0x358)][_0x283b1e(0x22b)]():null;const _0x4e500f=typeof _0x2ad49b[_0x283b1e(0x3a8)]===_0x283b1e(0x3e9)&&_0x2ad49b[_0x283b1e(0x3a8)][_0x283b1e(0x22b)]()?_0x2ad49b['translation'][_0x283b1e(0x22b)]():null,_0x511c24=_0x571d73[_0x283b1e(0x268)]?_0x11d3c5(_0x2ad49b[_0x283b1e(0x415)]):'',_0x2a46e9=_0x2ad49b[_0x283b1e(0x454)]==='voice',_0x264904=_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x296),_0x35d293=_0x2ad49b[_0x283b1e(0x454)]===_0x283b1e(0x485);if(!_0x1bb89a)return _0x387c27++,!![];if(!_0x12caaa){const _0x390e5b=/<quote>([\s\S]*?)<\/quote>/i,_0x44e801=_0x1bb89a[_0x283b1e(0x28c)](_0x390e5b);_0x44e801&&(_0x445428=_0x44e801[0x1][_0x283b1e(0x22b)](),_0x1bb89a=_0x1bb89a[_0x283b1e(0x3d4)](_0x390e5b,'')['trim']());}let _0x199c84=null,_0x218b21=null,_0x4f1dff=null;const _0x395116=_0x43f991(_0x571d73['id'])||_0x571d73;if(_0x395116[_0x283b1e(0x468)]===_0x283b1e(0x357)){if(_0x12caaa&&_0x2ad49b[_0x283b1e(0x26a)])_0x4f1dff=window[_0x283b1e(0x43f)][_0x283b1e(0x448)](_0x395116,_0x2ad49b[_0x283b1e(0x26a)]);else{const _0x13d2cf=/^([a-zA-Z0-9\u4e00-\u9fa5\s_\-.]+)[：:]\s*/,_0x4a65c2=_0x1bb89a[_0x283b1e(0x28c)](_0x13d2cf);if(_0x4a65c2)_0x4f1dff=window['imChat'][_0x283b1e(0x448)](_0x395116,_0x4a65c2[0x1][_0x283b1e(0x22b)]()),_0x1bb89a=_0x1bb89a[_0x283b1e(0x42d)](_0x4a65c2[0x0]['length'])[_0x283b1e(0x22b)]();else _0x5032da&&(_0x4f1dff=window['imChat']['normalizeGroupSpeaker'](_0x395116,_0x5032da));}!_0x4f1dff&&(_0x4f1dff=window[_0x283b1e(0x43f)][_0x283b1e(0x37e)](_0x395116,_0x5032da)),_0x4f1dff&&(_0x199c84=_0x4f1dff[_0x283b1e(0x235)],_0x218b21=_0x4f1dff[_0x283b1e(0x3c1)]||null,_0x5032da=_0x199c84,_0x2ad49b[_0x283b1e(0x359)]&&window[_0x283b1e(0x22f)]['commitScopedFriendChange']&&await window['imApp'][_0x283b1e(0x462)](_0x395116['id'],_0xf9d85f=>{const _0x24f99e=_0x283b1e;if(!_0xf9d85f)return;const _0x287eed=String(_0x4f1dff['id']);if(!_0xf9d85f['memberProfiles'])_0xf9d85f[_0x24f99e(0x47e)]={};!_0xf9d85f[_0x24f99e(0x47e)][_0x287eed]&&(_0xf9d85f[_0x24f99e(0x47e)][_0x287eed]={'thought':'','status':'online','updatedAt':0x0}),_0xf9d85f[_0x24f99e(0x47e)][_0x287eed][_0x24f99e(0x359)]=_0x2ad49b['thought'],_0xf9d85f[_0x24f99e(0x47e)][_0x287eed][_0x24f99e(0x25d)]=_0xf9d85f[_0x24f99e(0x47e)][_0x287eed][_0x24f99e(0x25d)]||_0x24f99e(0x2e2),_0xf9d85f['memberProfiles'][_0x287eed][_0x24f99e(0x251)]=Date[_0x24f99e(0x354)]();},{'syncActive':!![],'metaOnly':!![],'silent':!![]}));}if(!_0x1bb89a)return _0x387c27++,!![];let _0x5b7e15=null;if(_0x264904){const _0x3fa7f5=_0x395116[_0x283b1e(0x468)]===_0x283b1e(0x357)?_0x4f1dff||(_0x199c84?window[_0x283b1e(0x43f)]['normalizeGroupSpeaker'](_0x395116,_0x199c84):null):_0x395116;_0x5b7e15=_0x466302(_0x3fa7f5,_0x2ad49b[_0x283b1e(0x2e9)],_0x2ad49b[_0x283b1e(0x477)]);if(!_0x5b7e15)return _0x387c27++,!![];}const _0x4b65c6=Math[_0x283b1e(0x367)](0x1f4,Math['min'](0x7d0,_0x1bb89a['length']*0x32)),_0x34c258=_0x5af024(),_0x2afba4=window[_0x283b1e(0x2c8)]['currentActiveFriend']&&String(window[_0x283b1e(0x2c8)]['currentActiveFriend']['id'])===String(_0x571d73['id'])&&_0x34c258;let _0x370101=null;if(_0x2afba4){_0x370101=document[_0x283b1e(0x23b)](_0x283b1e(0x24e)),_0x370101[_0x283b1e(0x203)]=_0x283b1e(0x24c),_0x370101[_0x283b1e(0x302)]=_0x283b1e(0x2e4);const _0x56d713=_0x34c258['lastElementChild'];_0x56d713&&_0x56d713[_0x283b1e(0x3cc)][_0x283b1e(0x41a)]('ai-row')&&!_0x56d713[_0x283b1e(0x3cc)][_0x283b1e(0x41a)](_0x283b1e(0x23c))&&(_0x56d713['classList'][_0x283b1e(0x2c0)]('has-next'),_0x370101[_0x283b1e(0x3cc)][_0x283b1e(0x2c0)](_0x283b1e(0x338))),_0x34c258['appendChild'](_0x370101),window[_0x283b1e(0x43f)]['scrollToBottom'](_0x34c258);}await new Promise(_0x26d9a3=>setTimeout(_0x26d9a3,_0x4b65c6));_0x370101&&_0x370101[_0x283b1e(0x22c)]&&_0x370101[_0x283b1e(0x26f)]();if(!_0x328fef())return![];const _0x5be44b=Date['now'](),_0x2208f7=_0x264904?{'id':window['imChat'][_0x283b1e(0x31a)](_0x283b1e(0x296)),'role':'assistant','type':_0x283b1e(0x296),'content':'[表情包]','text':_0x5b7e15[_0x283b1e(0x2e9)]?_0x283b1e(0x446)+_0x5b7e15[_0x283b1e(0x2e9)]+_0x283b1e(0x416)+_0x5b7e15[_0x283b1e(0x477)]:'你发了一个表情包：'+_0x5b7e15[_0x283b1e(0x477)],'stickerCategory':_0x5b7e15[_0x283b1e(0x2e9)],'stickerName':_0x5b7e15['stickerName'],'stickerUrl':_0x5b7e15[_0x283b1e(0x3e6)],'timestamp':_0x5be44b,'apiRunId':_0x15d115}:_0x2a46e9?{'id':window[_0x283b1e(0x43f)]['createMessageId'](_0x283b1e(0x43c)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x3f0),'content':_0x283b1e(0x2c4),'text':_0x1bb89a,'transcript':_0x1bb89a,'duration':Math['min'](0x12,Math[_0x283b1e(0x367)](0x3,Math['ceil'](_0x1bb89a[_0x283b1e(0x2e3)]/0x3))),'timestamp':_0x5be44b,'replyTo':_0x445428,'apiRunId':_0x15d115}:_0x35d293?{'id':window[_0x283b1e(0x43f)]['createMessageId'](_0x283b1e(0x210)),'role':_0x283b1e(0x3cd),'type':_0x283b1e(0x485),'content':window[_0x283b1e(0x43f)][_0x283b1e(0x205)]||_0x283b1e(0x39f),'text':_0x1bb89a,'description':_0x2ad49b[_0x283b1e(0x30b)]||_0x1bb89a,'imageSource':_0x283b1e(0x402),'timestamp':_0x5be44b,'replyTo':_0x445428,'apiRunId':_0x15d115}:{'id':window['imChat'][_0x283b1e(0x31a)](_0x283b1e(0x1f6)),'role':_0x283b1e(0x3cd),'content':_0x1bb89a,'timestamp':_0x5be44b,'replyTo':_0x445428,'apiRunId':_0x15d115};if(_0x199c84)_0x2208f7['speaker']=_0x199c84;if(_0x218b21)_0x2208f7[_0x283b1e(0x3fb)]=_0x218b21;_0x395116['type']===_0x283b1e(0x357)&&_0x4f1dff?.['id']!=null&&(_0x2208f7[_0x283b1e(0x401)]=_0x4f1dff['id']);_0x395116[_0x283b1e(0x468)]===_0x283b1e(0x357)&&_0x2ad49b[_0x283b1e(0x359)]&&(_0x2208f7[_0x283b1e(0x359)]=_0x2ad49b[_0x283b1e(0x359)]);_0x4e500f&&(_0x2208f7[_0x283b1e(0x3a8)]=_0x4e500f,_0x2208f7[_0x283b1e(0x376)]=![]);const _0x9299ea=_0x5af024(),_0x555f8b=_0x43f991(_0x571d73['id'])||_0x571d73,_0x857a67=window['imData']['currentActiveFriend']&&String(window[_0x283b1e(0x2c8)][_0x283b1e(0x285)]['id'])===String(_0x555f8b['id'])&&_0x9299ea;if(_0x857a67&&_0x264904&&window[_0x283b1e(0x43f)][_0x283b1e(0x368)])window[_0x283b1e(0x43f)][_0x283b1e(0x368)](_0x2208f7,_0x555f8b,_0x9299ea,_0x5be44b);else{if(_0x857a67&&_0x2a46e9&&window[_0x283b1e(0x43f)][_0x283b1e(0x270)])window['imChat'][_0x283b1e(0x270)](_0x2208f7,_0x555f8b,_0x9299ea,_0x5be44b);else{if(_0x857a67&&_0x35d293&&window['imChat'][_0x283b1e(0x223)])window[_0x283b1e(0x43f)][_0x283b1e(0x223)](_0x2208f7,_0x555f8b,_0x9299ea,_0x5be44b);else{if(_0x857a67)window[_0x283b1e(0x43f)][_0x283b1e(0x370)](_0x1bb89a,_0x555f8b,_0x9299ea,_0x5be44b,_0x2208f7[_0x283b1e(0x3a8)],_0x2208f7[_0x283b1e(0x376)],_0x2208f7['replyTo'],_0x199c84,_0x218b21,_0x2208f7['id'],_0x2208f7[_0x283b1e(0x359)],_0x2208f7['offlineScene'],_0x2208f7[_0x283b1e(0x415)],_0x2208f7['speakerMemberId']);else window[_0x283b1e(0x3bc)]&&window[_0x283b1e(0x3bc)](_0x555f8b,_0x264904?'[表情]\x20'+_0x5b7e15['stickerName']:_0x35d293?_0x283b1e(0x2ee)+_0x1bb89a:_0x1bb89a);}}}const _0x576319=window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)]?await window[_0x283b1e(0x22f)][_0x283b1e(0x2c2)](_0x555f8b['id']||_0x571d73['id'],_0x2208f7,{'silent':!![]}):![];if(!_0x576319){const _0x1ad931=_0x5af024(),_0x17e7dc=_0x43f991(_0x571d73['id'])||_0x571d73;_0x1ad931&&window[_0x283b1e(0x43f)][_0x283b1e(0x202)]&&window['imChat'][_0x283b1e(0x202)](_0x17e7dc,_0x1ad931,{'scroll':!![]});if(!_0x4e85d1[_0x283b1e(0x3b4)]&&window['showToast'])window[_0x283b1e(0x279)](_0x283b1e(0x3ce));if(_0x6189)_0x6189[_0x283b1e(0x3d0)][_0x283b1e(0x450)]='1';return![];}return _0x387c27++,!![];}while(_0x387c27<_0x176d77['length']){const _0x159b90=await _0x3d034f();if(!_0x159b90)return;}const _0x253f0b=async(_0x8ce22,_0x505ff2,_0x5c7f2f={})=>{const _0x33ef3c=_0x16e178,_0x232d8d=_0x43f991(_0x571d73['id'])||_0x571d73;if(!_0x232d8d||_0x232d8d['type']!==_0x33ef3c(0x357)||!window[_0x33ef3c(0x22f)][_0x33ef3c(0x2c2)])return![];const _0x37e199=Date[_0x33ef3c(0x354)](),_0x59eb92={'id':window[_0x33ef3c(0x43f)][_0x33ef3c(0x31a)]('notice'),'role':_0x33ef3c(0x377),'type':'system_notice','noticeKind':_0x8ce22,'content':_0x505ff2,'text':_0x505ff2,'timestamp':_0x37e199,'apiRunId':_0x15d115,..._0x5c7f2f},_0x28fc84=await window[_0x33ef3c(0x22f)][_0x33ef3c(0x2c2)](_0x232d8d['id'],_0x59eb92,{'silent':!![]});if(!_0x28fc84)return![];const _0x46a32f=_0x43f991(_0x571d73['id'])||_0x232d8d,_0x120698=_0x5af024(),_0x2d37b6=window['imData'][_0x33ef3c(0x285)]&&String(window[_0x33ef3c(0x2c8)][_0x33ef3c(0x285)]['id'])===String(_0x46a32f['id']);return _0x2d37b6&&_0x120698&&window[_0x33ef3c(0x43f)][_0x33ef3c(0x278)]&&window[_0x33ef3c(0x43f)]['renderSystemNoticeBubble'](_0x59eb92,_0x46a32f,_0x120698,_0x37e199),!![];};if(_0x571d73[_0x16e178(0x468)]===_0x16e178(0x357)&&_0x339b96[_0x16e178(0x2e3)]>0x0){let _0x7d5e38=![],_0x71075=0x0;for(const _0xc25c99 of _0x339b96){if(!_0x328fef())return;const _0x260997=_0x43f991(_0xc25c99[_0x16e178(0x3be)]['id'])||_0xc25c99['member'];if(!_0x260997||_0x260997['type']===_0x16e178(0x357)||_0x260997[_0x16e178(0x468)]===_0x16e178(0x39a))continue;let _0x1e910e=0x0;for(let _0x510f68=0x0;_0x510f68<_0xc25c99['messages'][_0x16e178(0x2e3)];_0x510f68+=0x1){if(!_0x328fef())return;const _0x33faa7=_0xc25c99['messages'][_0x510f68],_0x1f0a38=Date[_0x16e178(0x354)]()+_0x510f68,_0x3baa31={'id':window[_0x16e178(0x43f)][_0x16e178(0x31a)](_0x16e178(0x1f6)),'role':_0x16e178(0x3cd),'content':_0x33faa7['text'],'text':_0x33faa7[_0x16e178(0x306)],'timestamp':_0x1f0a38,'sourceGroupId':_0x571d73['id'],'sourceGroupName':_0x571d73[_0x16e178(0x235)]||_0x571d73[_0x16e178(0x323)]||'','sourceApiRunId':_0x15d115,'privateFromGroup':!![],'payload':{'sourceGroupId':_0x571d73['id'],'sourceGroupName':_0x571d73[_0x16e178(0x235)]||_0x571d73[_0x16e178(0x323)]||'','sourceApiRunId':_0x15d115,'privateFromGroup':!![]}};_0x33faa7[_0x16e178(0x3a8)]&&(_0x3baa31[_0x16e178(0x3a8)]=_0x33faa7[_0x16e178(0x3a8)],_0x3baa31[_0x16e178(0x376)]=![]);const _0x2ed791=window[_0x16e178(0x22f)][_0x16e178(0x2c2)]?await window['imApp'][_0x16e178(0x2c2)](_0x260997['id'],_0x3baa31,{'silent':!![]}):![];if(!_0x2ed791){_0x7d5e38=!![],console[_0x16e178(0x1f2)](_0x16e178(0x419),{'groupId':_0x571d73['id'],'memberId':_0x260997['id'],'apiRunId':_0x15d115});continue;}_0x1e910e+=0x1,_0x71075+=0x1;}const _0x1c2907=_0x43f991(_0x260997['id'])||_0x260997,_0x3c195b=window[_0x16e178(0x2c8)][_0x16e178(0x285)]&&String(window[_0x16e178(0x2c8)][_0x16e178(0x285)]['id'])===String(_0x1c2907['id']);if(_0x1e910e>0x0&&_0x3c195b&&window['imChat'][_0x16e178(0x202)]){const _0x2ba704=document[_0x16e178(0x2c7)](_0x16e178(0x34e)+_0x1c2907['id']),_0x4704c9=_0x2ba704?_0x2ba704['querySelector']('.ins-chat-messages'):null;_0x4704c9&&window[_0x16e178(0x43f)][_0x16e178(0x202)](_0x1c2907,_0x4704c9,{'scroll':!![]});}}if(_0x71075>0x0){const _0x4416a0=await _0x253f0b(_0x16e178(0x3ba),'有人给你发了私信');if(!_0x4416a0)_0x7d5e38=!![];}_0x7d5e38&&!_0x4e85d1[_0x16e178(0x3b4)]&&window[_0x16e178(0x279)]&&window[_0x16e178(0x279)](_0x16e178(0x30c));}if(_0x571d73['type']===_0x16e178(0x357)&&_0x3d13a5[_0x16e178(0x2e3)]>0x0){let _0x1c3dac=![];for(const _0x180d9f of _0x3d13a5){if(!_0x328fef())return;const _0x2fb4b9=_0x43f991(_0x180d9f[_0x16e178(0x3be)]['id'])||_0x180d9f[_0x16e178(0x3be)],_0x44bb16=_0x180d9f[_0x16e178(0x341)];if(!_0x2fb4b9||!_0x44bb16)continue;const _0x4450af=window[_0x16e178(0x22f)]['normalizeLinkedAccountChats']?window[_0x16e178(0x22f)][_0x16e178(0x207)](_0x2fb4b9[_0x16e178(0x30a)]):Array[_0x16e178(0x389)](_0x2fb4b9[_0x16e178(0x30a)])?_0x2fb4b9[_0x16e178(0x30a)]:[],_0x55baae=_0x44bb16['kind']===_0x16e178(0x28e)?String(_0x44bb16['id']||''):String(_0x44bb16['sourceNpcId']||''),_0x2d7c20=_0x44bb16['kind']===_0x16e178(0x230)?_0x4450af[_0x16e178(0x382)](_0x533aa3=>String(_0x533aa3['id'])===String(_0x44bb16['linkedChatId']||_0x44bb16['id'])):_0x55baae?_0x4450af[_0x16e178(0x382)](_0x22bbc1=>String(_0x22bbc1[_0x16e178(0x37a)]||'')===_0x55baae):null,_0x2b4fca=_0x2d7c20?.['id']||_0x44bb16[_0x16e178(0x3fd)]||window['imChat'][_0x16e178(0x31a)](_0x16e178(0x472)),_0x1ccbc8=_0x2fb4b9[_0x16e178(0x235)]||_0x2fb4b9[_0x16e178(0x323)]||_0x16e178(0x226),_0x405f0a=_0x44bb16[_0x16e178(0x32d)]||_0x44bb16[_0x16e178(0x3c8)]||_0x44bb16['realName']||'好友',_0xa2eb11=String(_0x44bb16[_0x16e178(0x2b1)]||'')[_0x16e178(0x22b)](),_0x57af9a=[];_0x180d9f[_0x16e178(0x355)][_0x16e178(0x234)]((_0x3dec1d,_0x3e7eca)=>{const _0x1c6426=_0x16e178;_0x3dec1d[_0x1c6426(0x22e)][_0x1c6426(0x234)]((_0x2dccaf,_0x47e30b)=>{const _0x48c758=_0x1c6426,_0x1c2670={'id':window[_0x48c758(0x43f)][_0x48c758(0x31a)](_0x48c758(0x35a)),'role':_0x48c758(0x402),'text':_0x2dccaf[_0x48c758(0x306)],'round':_0x3e7eca+0x1,'orderInTurn':_0x47e30b};if(_0x2dccaf[_0x48c758(0x3a8)])_0x1c2670[_0x48c758(0x3a8)]=_0x2dccaf[_0x48c758(0x3a8)];_0x57af9a[_0x48c758(0x2b3)](_0x1c2670);}),_0x3dec1d['friendMessages'][_0x1c6426(0x234)]((_0x554fb3,_0x3d1389)=>{const _0x162f24=_0x1c6426,_0x2c9010={'id':window[_0x162f24(0x43f)][_0x162f24(0x31a)](_0x162f24(0x35a)),'role':'account','text':_0x554fb3[_0x162f24(0x306)],'round':_0x3e7eca+0x1,'orderInTurn':_0x3d1389};if(_0x554fb3[_0x162f24(0x3a8)])_0x2c9010[_0x162f24(0x3a8)]=_0x554fb3[_0x162f24(0x3a8)];_0x57af9a[_0x162f24(0x2b3)](_0x2c9010);});});const _0xa59c4=window[_0x16e178(0x22f)]['commitFriendChange']?await window[_0x16e178(0x22f)][_0x16e178(0x26b)](_0x2fb4b9['id'],_0x460a15=>{const _0x28a57d=_0x16e178;if(!_0x460a15)return;_0x460a15[_0x28a57d(0x30a)]=window[_0x28a57d(0x22f)][_0x28a57d(0x207)]?window['imApp']['normalizeLinkedAccountChats'](_0x460a15[_0x28a57d(0x30a)]):Array[_0x28a57d(0x389)](_0x460a15[_0x28a57d(0x30a)])?_0x460a15[_0x28a57d(0x30a)]:[];let _0x46c187=_0x44bb16[_0x28a57d(0x454)]==='linked'?_0x460a15[_0x28a57d(0x30a)][_0x28a57d(0x382)](_0x21ea1f=>String(_0x21ea1f['id'])===String(_0x2b4fca)):_0x55baae?_0x460a15[_0x28a57d(0x30a)][_0x28a57d(0x382)](_0x186373=>String(_0x186373['sourceNpcId']||'')===_0x55baae):null;if(!_0x46c187){const _0xecac3=Date[_0x28a57d(0x354)]();_0x46c187={'id':_0x2b4fca,'name':_0x405f0a,'realName':_0x44bb16[_0x28a57d(0x323)]||_0x405f0a,'remark':_0x44bb16[_0x28a57d(0x32d)]||_0x405f0a,'persona':String(_0x44bb16[_0x28a57d(0x2f5)]||'')[_0x28a57d(0x22b)](),'relationship':_0xa2eb11,'avatarSeed':String(_0x44bb16[_0x28a57d(0x250)]||_0x55baae||_0x405f0a),'sourceNpcId':_0x55baae,'messages':[],'createdAt':_0xecac3,'updatedAt':_0xecac3,'readAt':0x0},_0x460a15[_0x28a57d(0x30a)]['unshift'](_0x46c187);}const _0x39d488=Array[_0x28a57d(0x389)](_0x46c187[_0x28a57d(0x2c3)])?_0x46c187[_0x28a57d(0x2c3)]:[],_0xabbe30=_0x39d488['length']>0x0?Number(_0x39d488[_0x39d488['length']-0x1]?.[_0x28a57d(0x386)])||0x0:0x0,_0x28d98a=Math[_0x28a57d(0x367)](Date[_0x28a57d(0x354)](),_0xabbe30+0x1);_0x57af9a[_0x28a57d(0x234)]((_0x5dc2c5,_0x26c5d4)=>{_0x5dc2c5['timestamp']=_0x28d98a+_0x26c5d4;}),_0x46c187['messages']=_0x39d488[_0x28a57d(0x37c)](_0x57af9a[_0x28a57d(0x465)](_0x3c2a71=>({..._0x3c2a71}))),_0x46c187[_0x28a57d(0x251)]=_0x57af9a[_0x57af9a[_0x28a57d(0x2e3)]-0x1]?.[_0x28a57d(0x386)]||_0x28d98a;if(!_0x46c187['relationship']&&_0xa2eb11)_0x46c187[_0x28a57d(0x2b1)]=_0xa2eb11;},{'silent':!![],'metaOnly':!![]}):![];if(!_0xa59c4){_0x1c3dac=!![],console[_0x16e178(0x1f2)]('[iMessage]\x20Failed\x20to\x20persist\x20a\x20group\x20member\x20friend\x20chat',{'groupId':_0x571d73['id'],'senderId':_0x2fb4b9['id'],'recipientId':_0x44bb16['id']||_0x44bb16[_0x16e178(0x3fd)]||_0x405f0a,'apiRunId':_0x15d115});continue;}window['dispatchEvent'](new CustomEvent(_0x16e178(0x220),{'detail':{'friendId':String(_0x2fb4b9['id']),'changedCount':_0x57af9a['length']}}));const _0x45d0=await _0x253f0b('group_friend_private_chat','有人给\x20TA\x20的好友发了私信',{'payload':{'privateChatSnapshot':{'senderId':String(_0x2fb4b9['id']),'senderName':_0x1ccbc8,'recipientId':_0x55baae,'recipientName':_0x405f0a,'linkedChatId':_0x2b4fca,'messages':_0x57af9a[_0x16e178(0x465)](_0x46fab7=>({..._0x46fab7}))}}});if(!_0x45d0)_0x1c3dac=!![];}_0x1c3dac&&!_0x4e85d1[_0x16e178(0x3b4)]&&window[_0x16e178(0x279)]&&window[_0x16e178(0x279)]('部分成员好友私聊保存失败');}if(!_0x328fef())return;const _0xa47e16=_0x43f991(_0x571d73['id'])||_0x571d73,_0x5e2fcc=_0xa47e16[_0x16e178(0x468)]===_0x16e178(0x357)?window[_0x16e178(0x43f)][_0x16e178(0x478)](_0xa47e16):![];if(_0x5e2fcc){_0xf4dbf6(_0xa47e16['id']||_0x571d73['id'],{'delay':0x4b0,'silent':!![]});const _0xb9f998=_0x5af024(),_0x196978=window[_0x16e178(0x2c8)]['currentActiveFriend']&&String(window[_0x16e178(0x2c8)][_0x16e178(0x285)]['id'])===String(_0xa47e16['id']);_0x196978&&_0xb9f998&&window[_0x16e178(0x43f)]['rerenderChatContainer']&&window['imChat'][_0x16e178(0x202)](_0xa47e16,_0xb9f998,{'scroll':!![]});}await _0x40c004(_0xa47e16['id']||_0x571d73['id'],{'silent':!![]});window[_0x16e178(0x43f)]?.[_0x16e178(0x2f0)]&&void window['imChat'][_0x16e178(0x2f0)](_0xa47e16['id']||_0x571d73['id']);if(_0x6189)_0x6189['style']['opacity']='1';window['imApp'][_0x16e178(0x34b)]&&(!window[_0x16e178(0x2c8)][_0x16e178(0x285)]||String(window[_0x16e178(0x2c8)]['currentActiveFriend']['id'])!==String(_0xa47e16['id']))&&window[_0x16e178(0x22f)]['updateChatsView']();}catch(_0x17a73a){if(_0x58e163&&_0x58e163[_0x16e178(0x22c)])_0x58e163[_0x16e178(0x26f)]();if(!_0x328fef())return;const _0x2b6b8e=_0x17a73a&&_0x17a73a[_0x16e178(0x3c8)]===_0x16e178(0x271),_0x3b0640=_0x2b6b8e?'API\x20请求超时，请检查接口地址/网络/模型':_0x16e178(0x396)+(_0x17a73a&&_0x17a73a[_0x16e178(0x247)]?'：'+_0x17a73a[_0x16e178(0x247)]:'');if(!_0x4e85d1[_0x16e178(0x3b4)]&&window[_0x16e178(0x279)])window[_0x16e178(0x279)](_0x3b0640);console[_0x16e178(0x2ea)](_0x16e178(0x2b8),_0x17a73a);if(_0x6189)_0x6189['style'][_0x16e178(0x450)]='1';}finally{_0x5791bd[_0x16e178(0x291)](_0x41205a)===_0x164829&&(_0x5791bd[_0x16e178(0x336)](_0x41205a),_0x4b94d6[_0x16e178(0x336)](_0x41205a));}}async function _0x5f0213(_0x277a81,_0x1a3fb6=null,_0x1b4983={}){const _0x2db89e=_0x34c67b,_0x480e7e=_0x10e61a(_0x277a81);if(!_0x480e7e)return![];const _0x363be0=_0x1b4983&&typeof _0x1b4983===_0x2db89e(0x484)?_0x1b4983:{},_0x2df821=String(_0x363be0[_0x2db89e(0x36f)]||'')['trim']()['slice'](0x0,0x320);if(_0x4b94d6['has'](_0x480e7e)){if(window[_0x2db89e(0x279)])window['showToast'](_0x2db89e(0x2e8));return![];}const _0x5d3ed0=_0x43f991(_0x480e7e)||_0x277a81;_0x5d3ed0&&window[_0x2db89e(0x22f)]['ensureFriendMessagesLoaded']&&await window['imApp'][_0x2db89e(0x44a)](_0x5d3ed0);const _0x1761a8=Array[_0x2db89e(0x389)](_0x5d3ed0?.[_0x2db89e(0x2c3)])?_0x5d3ed0[_0x2db89e(0x2c3)]:[];let _0x4e453d=-0x1;for(let _0x3024a1=_0x1761a8[_0x2db89e(0x2e3)]-0x1;_0x3024a1>=0x0;_0x3024a1--){if(_0x1761a8[_0x3024a1]&&_0x1761a8[_0x3024a1][_0x2db89e(0x273)]){_0x4e453d=_0x3024a1;break;}}if(_0x4e453d===-0x1){if(window['showToast'])window[_0x2db89e(0x279)](_0x2db89e(0x2dc));return![];}let _0x55cd8b=![];for(let _0x290a26=_0x4e453d+0x1;_0x290a26<_0x1761a8[_0x2db89e(0x2e3)];_0x290a26++){if(_0x1761a8[_0x290a26]&&_0x1761a8[_0x290a26][_0x2db89e(0x39e)]===_0x2db89e(0x347)){_0x55cd8b=!![];break;}}if(_0x55cd8b){if(window[_0x2db89e(0x279)])window[_0x2db89e(0x279)]('已回复，无法重回上一轮');return![];}const _0x4edec8=_0x1761a8[_0x4e453d],_0x19ab67=String(_0x4edec8['apiRunId']),_0x7902ac=_0x1761a8[_0x2db89e(0x33c)](_0x1e5cbe=>_0x1e5cbe&&String(_0x1e5cbe['apiRunId'])===_0x19ab67),_0xfefe7=_0x7902ac['map'](_0x222a71=>{const _0x4698a3=_0x2db89e;if(!_0x222a71)return'';if(_0x222a71[_0x4698a3(0x468)]==='sticker')return(_0x4698a3(0x406)+(_0x222a71[_0x4698a3(0x2e9)]?_0x222a71[_0x4698a3(0x2e9)]+_0x4698a3(0x416):'')+(_0x222a71[_0x4698a3(0x477)]||_0x222a71[_0x4698a3(0x306)]||''))['trim']();if(_0x222a71['type']===_0x4698a3(0x485))return(_0x4698a3(0x2ee)+(_0x222a71['description']||_0x222a71[_0x4698a3(0x2a9)]||_0x222a71[_0x4698a3(0x306)]||''))[_0x4698a3(0x22b)]();if(_0x222a71[_0x4698a3(0x468)]===_0x4698a3(0x326)){const _0x2c353f=_0x222a71[_0x4698a3(0x439)]||{};return('[假链接]\x20'+(_0x2c353f[_0x4698a3(0x214)]||'假网页')+'：'+(_0x2c353f[_0x4698a3(0x3a2)]||_0x222a71[_0x4698a3(0x2a9)]||''))['trim']();}if(_0x222a71[_0x4698a3(0x468)]==='voice_message')return(_0x4698a3(0x27d)+(_0x222a71['transcript']||_0x222a71[_0x4698a3(0x2a9)]||_0x222a71[_0x4698a3(0x306)]||''))['trim']();if(_0x222a71[_0x4698a3(0x468)]===_0x4698a3(0x3dc))return(_0x4698a3(0x471)+(_0x222a71[_0x4698a3(0x30b)]||_0x222a71[_0x4698a3(0x2a9)]||''))[_0x4698a3(0x22b)]();return String(_0x222a71[_0x4698a3(0x2a9)]||_0x222a71['text']||_0x222a71['description']||'')[_0x4698a3(0x22b)]();})[_0x2db89e(0x33c)](Boolean)[_0x2db89e(0x348)]('\x0a')[_0x2db89e(0x3da)](0x0,0x4b0);if(_0x7902ac[_0x2db89e(0x2e3)]===0x0){if(window[_0x2db89e(0x279)])window['showToast'](_0x2db89e(0x2dc));return![];}const _0x2a769c=document['getElementById'](_0x2db89e(0x34e)+_0x480e7e),_0x1f94d9=_0x2a769c?_0x2a769c['querySelector']('.ins-chat-messages'):null;if(!_0x1f94d9){if(window[_0x2db89e(0x279)])window[_0x2db89e(0x279)](_0x2db89e(0x246));return![];}const _0x3b9695=_0x7902ac[_0x2db89e(0x465)](_0x138f67=>({'id':_0x138f67['id']||null,'timestamp':_0x138f67['timestamp']||null})),_0x4ee5f3=window[_0x2db89e(0x22f)]['removeFriendMessages']?await window[_0x2db89e(0x22f)]['removeFriendMessages'](_0x480e7e,_0x3b9695,{'silent':!![]}):window[_0x2db89e(0x22f)][_0x2db89e(0x26b)]?await window[_0x2db89e(0x22f)][_0x2db89e(0x26b)](_0x480e7e,_0x3f963e=>{const _0x4a36f2=_0x2db89e;if(!_0x3f963e||!Array[_0x4a36f2(0x389)](_0x3f963e[_0x4a36f2(0x2c3)]))return;_0x3f963e[_0x4a36f2(0x2c3)]=_0x3f963e[_0x4a36f2(0x2c3)][_0x4a36f2(0x33c)](_0x562640=>!_0x562640||String(_0x562640[_0x4a36f2(0x273)])!==_0x19ab67);if(window[_0x4a36f2(0x22f)][_0x4a36f2(0x308)])window[_0x4a36f2(0x22f)][_0x4a36f2(0x308)](_0x3f963e);if(window[_0x4a36f2(0x22f)]['syncActiveFriendReference'])window['imApp'][_0x4a36f2(0x2d1)](_0x3f963e);},{'silent':!![],'metaOnly':![],'includeMessages':!![]}):![];if(!_0x4ee5f3){if(window[_0x2db89e(0x279)])window[_0x2db89e(0x279)](_0x2db89e(0x246));return![];}const _0x43e886=_0x7902ac[_0x2db89e(0x465)](_0xdcd16e=>_0xdcd16e&&_0xdcd16e[_0x2db89e(0x375)])[_0x2db89e(0x33c)](Boolean);if(_0x43e886[_0x2db89e(0x2e3)]>0x0&&window[_0x2db89e(0x22f)][_0x2db89e(0x3db)])for(const _0x1cb82f of _0x43e886){await window[_0x2db89e(0x22f)][_0x2db89e(0x3db)](_0x480e7e,{'id':_0x1cb82f['id']||null,'timestamp':_0x1cb82f[_0x2db89e(0x386)]||null},_0x2be79a=>{const _0x406aee=_0x2db89e;if(!_0x2be79a)return;Object['keys'](_0x2be79a)[_0x406aee(0x234)](_0x2d15ac=>delete _0x2be79a[_0x2d15ac]),Object['assign'](_0x2be79a,JSON[_0x406aee(0x232)](JSON[_0x406aee(0x3b1)](_0x1cb82f)));},{'silent':!![]});}const _0x2bdfc6=_0x43f991(_0x480e7e)||_0x5d3ed0;window[_0x2db89e(0x43f)][_0x2db89e(0x202)]&&window[_0x2db89e(0x43f)][_0x2db89e(0x202)](_0x2bdfc6,_0x1f94d9,{'scroll':!![]});_0x2bdfc6[_0x2db89e(0x469)]=_0x2df821?{'previousReply':_0xfefe7,'userRequirement':_0x2df821}:{'previousReply':_0xfefe7};try{return await _0x52f818(_0x2bdfc6,_0x1f94d9,_0x1a3fb6),!![];}finally{const _0x483b4e=_0x43f991(_0x480e7e)||_0x2bdfc6;_0x483b4e&&_0x483b4e['pendingRegenerateContext']&&delete _0x483b4e[_0x2db89e(0x469)];}}window['imChat'][_0x34c67b(0x426)]=_0x599a3c,window[_0x34c67b(0x43f)][_0x34c67b(0x3ac)]=_0x50432e,window[_0x34c67b(0x43f)][_0x34c67b(0x384)]=_0x19eb88,window[_0x34c67b(0x43f)]['parseJsonArrayFromText']=_0x3a56ee,window[_0x34c67b(0x43f)][_0x34c67b(0x40b)]=_0x1c343b,window[_0x34c67b(0x43f)][_0x34c67b(0x212)]=_0x52f818,window[_0x34c67b(0x43f)][_0x34c67b(0x38f)]=_0x15543e,window[_0x34c67b(0x43f)][_0x34c67b(0x33a)]=_0x5f0213,window[_0x34c67b(0x43f)][_0x34c67b(0x3ab)]=_0xc9a05b,window[_0x34c67b(0x43f)][_0x34c67b(0x42e)]=_0x28f692,window[_0x34c67b(0x43f)]['runAutonomousMomentForFriend']=_0x386b2b,window[_0x34c67b(0x43f)]['refreshAutonomousActivityTimers']=_0x31eb3e,window['addEventListener'](_0x34c67b(0x390),()=>{const _0x2979d9=_0x34c67b;void _0x4b8362(_0x2979d9(0x438));}),document['addEventListener'](_0x34c67b(0x40d),()=>{const _0xc46a11=_0x34c67b;if(!document[_0xc46a11(0x3a6)])void _0x4b8362('visibility');}),window['addEventListener']('pageshow',()=>{const _0x54da2d=_0x34c67b;void _0x4b8362(_0x54da2d(0x2d2));}),setInterval(()=>{void _0x4b8362('interval');},0xea60),setTimeout(()=>{const _0x4c591e=_0x34c67b;void _0x4b8362(_0x4c591e(0x3f7));},0xbb8);}));
+// ==========================================
+// IMESSAGE: 4_chat_ai.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+
+    function getLiveFriendById(friendId) {
+        return (window.imData.friends || []).find((item) => String(item.id) === String(friendId)) || null;
+    }
+
+    const aiReplyInFlight = new Set();
+    const aiReplyControllers = new Map();
+    const conversationEpochs = new Map();
+    const autonomousActivityInFlight = new Set();
+    const autonomousMomentInFlight = new Set();
+
+    function getFriendKey(friendOrId) {
+        const rawId = friendOrId && typeof friendOrId === 'object' ? friendOrId.id : friendOrId;
+        return rawId == null ? '' : String(rawId);
+    }
+
+    function getConversationEpoch(friendOrId) {
+        const friendKey = getFriendKey(friendOrId);
+        return friendKey ? (conversationEpochs.get(friendKey) || 0) : 0;
+    }
+
+    function invalidateFriendConversation(friendOrId) {
+        const friendKey = getFriendKey(friendOrId);
+        if (!friendKey) return false;
+        conversationEpochs.set(friendKey, getConversationEpoch(friendKey) + 1);
+        const controller = aiReplyControllers.get(friendKey);
+        if (controller) controller.abort();
+        aiReplyControllers.delete(friendKey);
+        aiReplyInFlight.delete(friendKey);
+
+        const page = document.getElementById(`chat-interface-${friendKey}`);
+        page?.querySelectorAll('.typing-row').forEach(row => row.remove());
+        return true;
+    }
+
+    function normalizeAutonomousTask(task) {
+        return window.imApp?.normalizeAutonomousTask
+            ? window.imApp.normalizeAutonomousTask(task)
+            : {
+                enabled: !!task?.enabled,
+                minIntervalMinutes: Math.max(1, Math.round(Number(task?.minIntervalMinutes) || 30)),
+                maxIntervalMinutes: Math.max(
+                    Math.max(1, Math.round(Number(task?.minIntervalMinutes) || 30)),
+                    Math.round(Number(task?.maxIntervalMinutes) || 240)
+                ),
+                nextRunAt: Math.max(0, Number(task?.nextRunAt) || 0),
+                lastRunAt: Math.max(0, Number(task?.lastRunAt) || 0)
+            };
+    }
+
+    function normalizeAutonomousActivity(activity) {
+        return window.imApp?.normalizeAutonomousActivity
+            ? window.imApp.normalizeAutonomousActivity(activity)
+            : {
+                reply: normalizeAutonomousTask(activity?.reply || activity),
+                moment: normalizeAutonomousTask(activity?.moment)
+            };
+    }
+
+    function getAutonomousTask(activity, taskName) {
+        const normalized = normalizeAutonomousActivity(activity);
+        return normalizeAutonomousTask(normalized[taskName]);
+    }
+
+    function getRandomAutonomousDelay(task) {
+        const normalized = normalizeAutonomousTask(task);
+        const min = Math.max(1, Number(normalized.minIntervalMinutes) || 30);
+        const max = Math.max(min, Number(normalized.maxIntervalMinutes) || 240);
+        const minutes = min + Math.floor(Math.random() * (max - min + 1));
+        return minutes * 60 * 1000;
+    }
+
+    function formatAutonomousPromptTime(timestamp) {
+        const value = Number(timestamp) || 0;
+        if (value <= 0) return '未知';
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return '未知';
+        return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
+    }
+
+    function formatAutonomousPromptDuration(fromTimestamp, toTimestamp = Date.now()) {
+        const from = Number(fromTimestamp) || 0;
+        const to = Number(toTimestamp) || 0;
+        if (from <= 0 || to <= 0 || to < from) return '未知';
+        const totalMinutes = Math.max(0, Math.floor((to - from) / 60000));
+        if (totalMinutes < 1) return '不到1分钟';
+        if (totalMinutes < 60) return `${totalMinutes}分钟`;
+        const hours = Math.floor(totalMinutes / 60);
+        const minutes = totalMinutes % 60;
+        if (hours < 24) return minutes ? `${hours}小时${minutes}分钟` : `${hours}小时`;
+        const days = Math.floor(hours / 24);
+        const restHours = hours % 24;
+        return restHours ? `${days}天${restHours}小时` : `${days}天`;
+    }
+
+    function getAutonomousMessageText(message) {
+        if (!message) return '';
+        if (message.type === 'sticker') return `[表情] ${message.stickerCategory ? `${message.stickerCategory} / ` : ''}${message.stickerName || message.text || ''}`.trim();
+        if (message.type === 'image') return `[图片] ${message.description || message.text || message.content || ''}`.trim();
+        if (message.type === 'fake_link') {
+            const link = message.fakeLinkData || {};
+            const readable = link.bodyText || link.summary || '';
+            return `[假链接] ${link.siteName || '假网页'}：${link.title || message.content || ''}${readable ? `\n${String(readable).slice(0, 1200)}` : '\n（未填写正文）'}`.trim();
+        }
+        if (message.type === 'voice_message') return `[语音] ${message.transcript || message.text || message.content || ''}`.trim();
+        if (message.type === 'pay_transfer') return `[转账] ${message.description || message.content || ''}`.trim();
+        return String(message.content || message.text || message.description || '').trim();
+    }
+
+    function buildAutonomousActivityPrompt(friend, now = Date.now()) {
+        const messages = Array.isArray(friend?.messages) ? friend.messages : [];
+        const lastMessage = messages.length > 0 ? messages[messages.length - 1] : null;
+        const lastUserMessage = messages.slice().reverse().find(msg => msg && msg.role === 'user') || null;
+        const lastAssistantMessage = messages.slice().reverse().find(msg => msg && msg.role === 'assistant') || null;
+        const userHasNotReplied = !!lastAssistantMessage && (!lastUserMessage || Number(lastAssistantMessage.timestamp) > Number(lastUserMessage.timestamp));
+        const charName = friend?.realName || friend?.nickname || '你';
+
+        return `【自主活动触发】
+这不是 User 刚刚发来的消息，而是 ${charName} 在自动回复开关开启后，间隔 30-240 分钟随机主动发起的一轮消息。
+当前真实时间：${formatAutonomousPromptTime(now)}
+上一条任意消息时间：${lastMessage ? formatAutonomousPromptTime(lastMessage.timestamp) : '暂无'}${lastMessage ? `，距现在约 ${formatAutonomousPromptDuration(lastMessage.timestamp, now)}` : ''}
+User 上一次发消息时间：${lastUserMessage ? formatAutonomousPromptTime(lastUserMessage.timestamp) : '暂无'}${lastUserMessage ? `，距现在约 ${formatAutonomousPromptDuration(lastUserMessage.timestamp, now)}` : ''}
+你上一轮消息时间：${lastAssistantMessage ? formatAutonomousPromptTime(lastAssistantMessage.timestamp) : '暂无'}${lastAssistantMessage ? `，距现在约 ${formatAutonomousPromptDuration(lastAssistantMessage.timestamp, now)}` : ''}
+上一条消息来自：${lastMessage?.role === 'user' ? 'User' : (lastMessage?.role === 'assistant' ? charName : '未知')}
+上一条消息内容：${getAutonomousMessageText(lastMessage) || '暂无'}
+
+本轮要求：
+1. 必须注意上下文里的时间戳，先判断上一轮消息是什么时候、现在是什么时候、这段时间你可能在做什么。
+2. 如果 User 在你上一轮之后一直没回复，可以自然地问 User 在干嘛、怎么没回，或报备你现在正在做什么；不要像客服催促。
+3. 如果最近话题没有结束，要承接上一轮；如果间隔较久，可以开启自然的新话题或分享身边状态。
+4. 输出 2-8 条独立聊天气泡，必须继续遵守原本 <chat_json> JSON 输出格式。`;
+    }
+
+    function createApiRunId(friendId) {
+        const prefix = `api-${friendId || 'chat'}`;
+        return window.imChat.createMessageId
+            ? window.imChat.createMessageId(prefix)
+            : `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    }
+
+    function isMemoryEntryTriggered(entry, recentText) {
+        if (!entry) return false;
+        const title = String(entry.title || '').trim();
+        const memoryPoints = String(entry.memoryPoints || '').trim();
+        const keyword = String(entry.keyword || '').trim();
+        
+        if (keyword && recentText.includes(keyword)) return true;
+        if (title && title !== '对话总结' && title !== '未命名词条' && title !== '珍视回忆' && title !== '长期记忆' && recentText.includes(title)) return true;
+        if (memoryPoints && recentText.includes(memoryPoints)) return true;
+        return false;
+    }
+
+    function getRecentContextText(friend) {
+        if (!Array.isArray(friend.messages)) return '';
+        return friend.messages.slice(-10).map(m => {
+            if (m && m.type === 'fake_link') {
+                const link = m.fakeLinkData || {};
+                return [link.title || m.content || '', link.summary || '', String(link.bodyText || '').slice(0, 5000)]
+                    .filter(Boolean)
+                    .join('\n');
+            }
+            return String(m && (m.content || m.text) || '');
+        }).join('\n');
+    }
+
+    function resolveMountedSticker(friend, categoryName, stickerName) {
+        const mounted = Array.isArray(friend?.mountedStickers) ? friend.mountedStickers.map(String) : [];
+        if (mounted.length === 0) return null;
+
+        const requestedCategory = String(categoryName || '').trim();
+        const requestedName = String(stickerName || '').trim();
+        if (!requestedName) return null;
+
+        const categories = Array.isArray(window.imData?.stickers) ? window.imData.stickers : [];
+        const allowedCategories = categories.filter(category => {
+            const name = String(category?.categoryName || '');
+            if (!mounted.includes(name)) return false;
+            return !requestedCategory || name === requestedCategory;
+        });
+
+        for (const category of allowedCategories) {
+            const sticker = (Array.isArray(category.items) ? category.items : [])
+                .find(item => String(item?.name || '').trim() === requestedName);
+            if (sticker && sticker.url) {
+                return {
+                    stickerCategory: category.categoryName || '',
+                    stickerName: sticker.name || requestedName,
+                    stickerUrl: sticker.url
+                };
+            }
+        }
+
+        return null;
+    }
+
+    function buildMountedStickerContext(friend) {
+        const mounted = Array.isArray(friend?.mountedStickers) ? friend.mountedStickers : [];
+        if (mounted.length === 0) return '';
+
+        const allStickers = Array.isArray(window.imData?.stickers) ? window.imData.stickers : [];
+        const stickerLines = [];
+        mounted.forEach(catName => {
+            const cat = allStickers.find(c => c.categoryName === catName);
+            if (cat && Array.isArray(cat.items) && cat.items.length > 0) {
+                const names = cat.items.map(s => s.name).filter(Boolean).join(', ');
+                if (names) stickerLines.push(`[${cat.categoryName}]: ${names}`);
+            }
+        });
+
+        return stickerLines.length > 0 ? stickerLines.join('\n') : '';
+    }
+
+    function scheduleFriendPersistence(friendId, options = {}) {
+        if (friendId == null) return false;
+
+        if (window.imApp.scheduleFriendSave) {
+            return window.imApp.scheduleFriendSave(friendId, options);
+        }
+
+        if (window.imApp.markFriendDirty) {
+            window.imApp.markFriendDirty(friendId);
+        }
+
+        if (window.imApp.scheduleGlobalSave) {
+            return window.imApp.scheduleGlobalSave({
+                delay: options.delay,
+                silent: options.silent !== false
+            });
+        }
+
+        return false;
+    }
+
+    async function flushFriendPersistence(friendId, options = {}) {
+        if (friendId == null) return false;
+
+        if (window.imApp.flushFriendSave) {
+            return window.imApp.flushFriendSave(friendId, options);
+        }
+
+        if (window.imApp.commitFriendsChange) {
+            return window.imApp.commitFriendsChange(() => {}, {
+                silent: options.silent !== false,
+                friendId
+            });
+        }
+
+        return false;
+    }
+
+    async function handleSend(friend, inputEl, container) {
+        const text = inputEl.value.trim();
+        if (!text) return false;
+
+        const liveFriend = getLiveFriendById(friend.id) || friend;
+        if (liveFriend.type === 'group' && Number(liveFriend.leftGroupAt) > 0) {
+            if (window.showToast) window.showToast('你已退出该群，不能发送消息');
+            return;
+        }
+
+        const now = Date.now();
+        const lastMsg = liveFriend.messages && liveFriend.messages.length > 0
+            ? liveFriend.messages[liveFriend.messages.length - 1]
+            : null;
+
+        if (!lastMsg || (now - (lastMsg.timestamp || 0) > 300000)) {
+            window.imChat.renderTimestamp(now, container);
+        }
+
+        const replyToText = window.imData.currentReplyText || null;
+
+        const msgObj = {
+            id: window.imChat.createMessageId('msg'),
+            role: 'user',
+            content: text,
+            timestamp: now,
+            replyTo: replyToText
+        };
+
+        window.imChat.renderUserBubble(text, container, now, replyToText, null, false, msgObj.id, liveFriend);
+        inputEl.value = '';
+
+        const saved = window.imApp.appendFriendMessage
+            ? await window.imApp.appendFriendMessage(friend.id, msgObj, { silent: true })
+            : (window.imApp.commitFriendChange
+                ? await window.imApp.commitFriendChange(friend.id, (targetFriend) => {
+                    if (!targetFriend) return;
+                    if (!targetFriend.messages) targetFriend.messages = [];
+                    targetFriend.messages.push(msgObj);
+
+                    if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(targetFriend.id)) {
+                        window.imData.currentActiveFriend = targetFriend;
+                    }
+                }, {
+                    silent: true,
+                    immediate: false,
+                    delay: 400
+                })
+                : (window.imApp.commitFriendsChange
+                    ? await window.imApp.commitFriendsChange(() => {
+                        const targetFriend = window.imData.friends.find((item) => String(item.id) === String(friend.id));
+                        if (!targetFriend) return;
+                        if (!targetFriend.messages) targetFriend.messages = [];
+                        targetFriend.messages.push(msgObj);
+                    }, {
+                        silent: true,
+                        friendId: friend.id,
+                        immediate: false,
+                        delay: 400
+                    })
+                    : false));
+
+        if (!saved) {
+            const activeContainer = container || document.querySelector(`#chat-interface-${friend.id} .ins-chat-messages`);
+            const latestFriend = getLiveFriendById(friend.id) || friend;
+            if (activeContainer && window.imChat.rerenderChatContainer) {
+                window.imChat.rerenderChatContainer(latestFriend, activeContainer, { scroll: true });
+            }
+            if (window.showToast) window.showToast('消息保存失败');
+            return;
+        }
+
+        window.imData.currentReplyText = null;
+        const page = document.getElementById(`chat-interface-${friend.id}`);
+        if (page) {
+            const preview = page.querySelector('.reply-preview-container');
+            if (preview) preview.style.display = 'none';
+        }
+    }
+
+    function extractTaggedBlock(text, tagName) {
+        if (!text || !tagName) return null;
+        const regex = new RegExp(`<${tagName}>([\\s\\S]*?)<\\/${tagName}>`, 'i');
+        const match = String(text).match(regex);
+        return match ? match[1].trim() : null;
+    }
+
+    function removeTaggedBlock(text, tagName) {
+        if (!text || !tagName) return text;
+        const regex = new RegExp(`<${tagName}>[\\s\\S]*?<\\/${tagName}>`, 'i');
+        return String(text).replace(regex, '').trim();
+    }
+
+    function normalizeOfflineActionText(value) {
+        let text = String(value == null ? '' : value).trim();
+        const wrapperPairs = [
+            ['（', '）'],
+            ['(', ')'],
+            ['[', ']'],
+            ['【', '】'],
+            ['{', '}'],
+            ['「', '」'],
+            ['『', '』']
+        ];
+
+        let changed = true;
+        while (changed && text.length > 1) {
+            changed = false;
+            for (const [open, close] of wrapperPairs) {
+                if (text.startsWith(open) && text.endsWith(close)) {
+                    text = text.slice(open.length, text.length - close.length).trim();
+                    changed = true;
+                    break;
+                }
+            }
+        }
+
+        return text;
+    }
+
+    function normalizeOfflineSceneText(value) {
+        const text = String(value == null ? '' : value).trim();
+        if (!text) return '';
+
+        const disallowedPerspectivePattern = /(我|我们|咱|咱们|俺|本人|你|你们|您|诸位|大家)/;
+        return disallowedPerspectivePattern.test(text) ? '' : text;
+    }
+
+    function parseJsonArrayFromText(rawText) {
+        if (!rawText || typeof rawText !== 'string') return null;
+        let cleanText = rawText.trim();
+
+        if (cleanText.startsWith('```json')) {
+            cleanText = cleanText.substring(7);
+        } else if (cleanText.startsWith('```')) {
+            cleanText = cleanText.substring(3);
+        }
+        if (cleanText.endsWith('```')) {
+            cleanText = cleanText.substring(0, cleanText.length - 3);
+        }
+
+        cleanText = cleanText.trim();
+        if (!cleanText) return null;
+
+        try {
+            const parsed = JSON.parse(cleanText);
+            return Array.isArray(parsed) ? parsed : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function normalizeProfilePanelPayload(rawText) {
+        if (!rawText || typeof rawText !== 'string') return null;
+
+        let cleanText = rawText.trim();
+        if (cleanText.startsWith('```json')) {
+            cleanText = cleanText.substring(7);
+        } else if (cleanText.startsWith('```')) {
+            cleanText = cleanText.substring(3);
+        }
+        if (cleanText.endsWith('```')) {
+            cleanText = cleanText.substring(0, cleanText.length - 3);
+        }
+
+        cleanText = cleanText.trim();
+        if (!cleanText) return null;
+
+        try {
+            const parsed = JSON.parse(cleanText);
+            if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return null;
+
+            const safeEvents = Array.isArray(parsed.events)
+                ? parsed.events.map((eventItem, index) => {
+                    const safeType = typeof eventItem?.type === 'string' && eventItem.type.trim()
+                        ? eventItem.type.trim()
+                        : 'note';
+                    const safeId = eventItem?.id != null ? eventItem.id : `event-${Date.now()}-${index}`;
+                    const safeRequestText = typeof eventItem?.requestText === 'string'
+                        ? eventItem.requestText.trim()
+                        : '';
+                    const safeDetail = typeof eventItem?.detail === 'string'
+                        ? eventItem.detail.trim()
+                        : '';
+                    const safeTitle = typeof eventItem?.title === 'string' && eventItem.title.trim()
+                        ? eventItem.title.trim()
+                        : (safeType === 'memory_request' ? '想珍藏这一刻' : '新的事件');
+
+                    const safeMemoryPayload = eventItem?.memoryPayload && typeof eventItem.memoryPayload === 'object'
+                        ? {
+                            title: typeof eventItem.memoryPayload.title === 'string' && eventItem.memoryPayload.title.trim()
+                                ? eventItem.memoryPayload.title.trim()
+                                : safeTitle,
+                            content: typeof eventItem.memoryPayload.content === 'string' && eventItem.memoryPayload.content.trim()
+                                ? eventItem.memoryPayload.content.trim()
+                                : (safeRequestText || (typeof eventItem?.description === 'string' ? eventItem.description.trim() : '')),
+                            detail: typeof eventItem.memoryPayload.detail === 'string'
+                                ? eventItem.memoryPayload.detail.trim()
+                                : safeDetail,
+                            reason: typeof eventItem.memoryPayload.reason === 'string'
+                                ? eventItem.memoryPayload.reason.trim()
+                                : '',
+                            sourceEventId: typeof eventItem.memoryPayload.sourceEventId === 'string' && eventItem.memoryPayload.sourceEventId.trim()
+                                ? eventItem.memoryPayload.sourceEventId.trim()
+                                : String(safeId),
+                            createdAt: typeof eventItem.memoryPayload.createdAt === 'string'
+                                ? eventItem.memoryPayload.createdAt.trim()
+                                : (typeof eventItem?.time === 'string' ? eventItem.time.trim() : ''),
+                            sourceThought: typeof eventItem.memoryPayload.sourceThought === 'string'
+                                ? eventItem.memoryPayload.sourceThought.trim()
+                                : ''
+                        }
+                        : null;
+
+                    return {
+                        id: safeId,
+                        title: safeTitle,
+                        description: typeof eventItem?.description === 'string' ? eventItem.description.trim() : '',
+                        time: typeof eventItem?.time === 'string' ? eventItem.time.trim() : '',
+                        type: safeType,
+                        status: typeof eventItem?.status === 'string' && eventItem.status.trim()
+                            ? eventItem.status.trim()
+                            : 'pending',
+                        requestText: safeRequestText,
+                        detail: safeDetail,
+                        confirmText: typeof eventItem?.confirmText === 'string' && eventItem.confirmText.trim()
+                            ? eventItem.confirmText.trim()
+                            : '确认',
+                        cancelText: typeof eventItem?.cancelText === 'string' && eventItem.cancelText.trim()
+                            ? eventItem.cancelText.trim()
+                            : '取消',
+                        memoryPayload: safeMemoryPayload
+                    };
+                })
+                : [];
+
+            return {
+                thought: typeof parsed.thought === 'string' && parsed.thought.trim() ? parsed.thought.trim() : '',
+                location: typeof parsed.location === 'string' && parsed.location.trim() ? parsed.location.trim() : '',
+                action: typeof parsed.action === 'string' && parsed.action.trim() ? parsed.action.trim() : '',
+                mood: typeof parsed.mood === 'string' ? parsed.mood.trim() : '',
+                expression: typeof parsed.expression === 'string' ? parsed.expression.trim() : '',
+                affectionChange: typeof parsed.affectionChange === 'number' ? Math.max(-5, Math.min(5, parsed.affectionChange)) : 0,
+                status: 'online',
+                events: safeEvents
+            };
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function getAiResponseContent(data) {
+        if (!data || typeof data !== 'object') return '';
+
+        const firstChoice = Array.isArray(data.choices) ? data.choices[0] : null;
+        if (!firstChoice || typeof firstChoice !== 'object') return '';
+
+        const messageContent = firstChoice.message && typeof firstChoice.message.content === 'string'
+            ? firstChoice.message.content
+            : '';
+
+        if (messageContent) return messageContent;
+
+        if (typeof firstChoice.text === 'string') return firstChoice.text;
+        if (typeof firstChoice.delta?.content === 'string') return firstChoice.delta.content;
+
+        return '';
+    }
+
+    async function fetchChatCompletionWithTimeout(endpoint, apiConfig, messages, timeoutMs = 60000, externalController = null) {
+        const controller = externalController || new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+        try {
+            console.log('[iMessage API] request start', {
+                endpoint,
+                model: apiConfig.model || '',
+                messageCount: Array.isArray(messages) ? messages.length : 0,
+                timeoutMs
+            });
+
+            return await fetch(endpoint, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiConfig.apiKey}` },
+                body: JSON.stringify({
+                    model: apiConfig.model || '',
+                    messages: messages,
+                    temperature: parseFloat(apiConfig.temperature) || 0.7
+                }),
+                signal: controller.signal
+            });
+        } finally {
+            clearTimeout(timeoutId);
+        }
+    }
+
+    const linkedAccountBotInFlight = new Set();
+
+    function resolveChatCompletionsEndpoint(apiConfig) {
+        let endpoint = String(apiConfig?.endpoint || '').trim();
+        if (!endpoint) return '';
+        if (endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+        if (!endpoint.endsWith('/chat/completions')) {
+            endpoint = endpoint.endsWith('/v1') ? `${endpoint}/chat/completions` : `${endpoint}/v1/chat/completions`;
+        }
+        return endpoint;
+    }
+
+    function parseJsonObjectFromText(rawText) {
+        if (!rawText || typeof rawText !== 'string') return null;
+        let cleanText = rawText.trim();
+        const tagged = extractTaggedBlock(cleanText, 'linked_accounts');
+        if (tagged) cleanText = tagged;
+
+        if (cleanText.startsWith('```json')) {
+            cleanText = cleanText.substring(7);
+        } else if (cleanText.startsWith('```')) {
+            cleanText = cleanText.substring(3);
+        }
+        if (cleanText.endsWith('```')) {
+            cleanText = cleanText.substring(0, cleanText.length - 3);
+        }
+
+        cleanText = cleanText.trim();
+        try {
+            const parsed = JSON.parse(cleanText);
+            return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : null;
+        } catch (e) {
+            const firstBrace = cleanText.indexOf('{');
+            const lastBrace = cleanText.lastIndexOf('}');
+            if (firstBrace > -1 && lastBrace > firstBrace) {
+                try {
+                    const parsed = JSON.parse(cleanText.slice(firstBrace, lastBrace + 1));
+                    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : null;
+                } catch (_) {
+                    return null;
+                }
+            }
+        }
+        return null;
+    }
+
+    function getLinkedIdentityKey(name) {
+        const safeName = String(name || '').trim().toLowerCase();
+        return safeName;
+    }
+
+    function normalizeLinkedMessageList(messages, role, minCount = 2, maxCount = 5) {
+        if (!Array.isArray(messages)) return [];
+        const normalized = messages
+            .map(item => {
+                if (typeof item === 'string') {
+                    const text = item.trim();
+                    return text ? { text, translation: '' } : null;
+                }
+                if (item && typeof item === 'object') {
+                    const text = String(item.text || item.content || item.message || '').trim();
+                    if (!text) return null;
+                    const translation = typeof item.translation === 'string' && item.translation.trim()
+                        ? item.translation.trim()
+                        : (typeof item.translationZh === 'string' && item.translationZh.trim()
+                            ? item.translationZh.trim()
+                            : (typeof item.trans === 'string' && item.trans.trim() ? item.trans.trim() : ''));
+                    return { text, translation };
+                }
+                return null;
+            })
+            .filter(Boolean)
+            .slice(0, maxCount)
+            .map((message, index) => {
+                const normalizedMessage = {
+                    id: createApiRunId(`linked-${role}-${index}`),
+                    role,
+                    text: message.text,
+                    timestamp: Date.now() + index
+                };
+                if (message.translation) normalizedMessage.translation = message.translation;
+                return normalizedMessage;
+            });
+
+        return normalized.length >= minCount ? normalized : [];
+    }
+
+    function buildLinkedRelationshipCandidates(friend) {
+        const relationships = Array.isArray(friend?.memory?.relationships) ? friend.memory.relationships : [];
+        return relationships
+            .map(rel => {
+                const npc = (window.imData.friends || []).find(item => String(item.id) === String(rel?.npcId));
+                if (!npc) return null;
+                const realName = String(npc.realName || npc.nickname || '').trim();
+                const remark = String(npc.nickname || npc.realName || '').trim();
+                if (!realName && !remark) return null;
+                return {
+                    sourceNpcId: String(npc.id),
+                    realName,
+                    remark,
+                    persona: String(npc.persona || npc.signature || '').trim(),
+                    relationship: String(rel.relation || '').trim()
+                };
+            })
+            .filter(Boolean);
+    }
+
+    function buildLinkedPromptMemorySections(friend) {
+        const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+        const recentText = getRecentContextText(normalizedFriend);
+
+        const shortTermEntries = Array.isArray(normalizedFriend.memory?.shortTermEntries)
+            ? normalizedFriend.memory.shortTermEntries
+                .filter(entry => entry && (entry.title || entry.event || entry.memoryPoints) && isMemoryEntryTriggered(entry, recentText))
+                .slice(-8)
+                .map(entry => `<short_term_memory>\n<title>${entry.title || 'Memory'}</title>\n<content>${entry.event || entry.content || ''}</content>\n<memory_points>${entry.memoryPoints || ''}</memory_points>\n</short_term_memory>`)
+                .join('\n')
+            : '';
+
+        let longTermXml = '';
+        if (Array.isArray(normalizedFriend.memory?.longTermEntries) && normalizedFriend.memory.longTermEntries.length > 0) {
+            const triggered = normalizedFriend.memory.longTermEntries.filter(e => isMemoryEntryTriggered(e, recentText));
+            if (triggered.length > 0) {
+                longTermXml = `<long_term_memories>\n${triggered.map(e => `<memory>\n<title>${e.title || ''}</title>\n<content>${e.content || ''}</content>\n</memory>`).join('\n')}\n</long_term_memories>`;
+            }
+        } else if (normalizedFriend.memory?.longTerm) {
+            longTermXml = `<long_term_memories>\n${normalizedFriend.memory.longTerm}\n</long_term_memories>`;
+        }
+
+        let cherishedXml = '';
+        if (Array.isArray(normalizedFriend.memory?.cherishedEntries) && normalizedFriend.memory.cherishedEntries.length > 0) {
+            const triggered = normalizedFriend.memory.cherishedEntries.filter(e => isMemoryEntryTriggered(e, recentText));
+            if (triggered.length > 0) {
+                cherishedXml = `<cherished_memories>\n${triggered.map(e => `<memory>\n<title>${e.title || ''}</title>\n<content>${e.content || ''}</content>\n<detail>${e.detail || ''}</detail>\n<reason>${e.reason || ''}</reason>\n<time>${e.createdAt || ''}</time>\n</memory>`).join('\n')}\n</cherished_memories>`;
+            }
+        } else if (normalizedFriend.memory?.cherished) {
+            cherishedXml = `<cherished_memories>\n${normalizedFriend.memory.cherished}\n</cherished_memories>`;
+        }
+
+        const linkedFriendMemory = window.imApp.buildLinkedAccountMemoryContext
+            ? window.imApp.buildLinkedAccountMemoryContext(normalizedFriend)
+            : '';
+
+        return [
+            normalizedFriend.memory?.overview ? `<core_memory_overview>\n${normalizedFriend.memory.overview}\n</core_memory_overview>` : '',
+            longTermXml,
+            normalizedFriend.memory?.context?.notes ? `<extra_context_notes>\n${normalizedFriend.memory.context.notes}\n</extra_context_notes>` : '',
+            shortTermEntries ? `<short_term_memories>\n${shortTermEntries}\n</short_term_memories>` : '',
+            cherishedXml,
+            linkedFriendMemory
+        ].filter(Boolean).join('\n\n');
+    }
+
+    function buildLinkedAccountPrompt(friend, currentUserState) {
+        const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+        const recentText = getRecentContextText(normalizedFriend);
+        const worldBookContextText = [recentText, normalizedFriend.memory?.overview || ''].filter(Boolean).join('\n');
+        const systemDepthWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('system_depth', normalizedFriend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '');
+        const beforeRoleWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('before_role', normalizedFriend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '');
+        const afterRoleWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('after_role', normalizedFriend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('after_role') : '');
+        const relationshipText = normalizedFriend.memory?.relationships && normalizedFriend.memory.relationships.length > 0
+            ? normalizedFriend.memory.relationships.map(rel => {
+                const npc = (window.imData.friends || []).find(item => String(item.id) === String(rel.npcId));
+                return `${npc ? (npc.nickname || npc.realName || 'Unknown NPC') : 'Unknown NPC'}: ${rel.relation || ''}`;
+            }).join('\n')
+            : 'None';
+        const currentChatContext = window.imApp.buildApiContextMessages
+            ? window.imApp.buildApiContextMessages(normalizedFriend, { userName: currentUserState.name || 'User' })
+            : [];
+        const existingLinkedChats = Array.isArray(normalizedFriend.linkedAccountChats)
+            ? normalizedFriend.linkedAccountChats.map(chat => ({
+                id: chat.id,
+                name: chat.name,
+                realName: chat.realName,
+                remark: chat.remark,
+                persona: chat.persona,
+                relationship: chat.relationship,
+                sourceNpcId: chat.sourceNpcId,
+                recentMessages: Array.isArray(chat.messages)
+                    ? chat.messages.slice(-4).map(msg => `${msg.role === 'char' ? normalizedFriend.nickname : (chat.remark || chat.name || chat.realName || 'Linked Friend')}: ${msg.text}`)
+                    : []
+            }))
+            : [];
+        const relationshipCandidates = buildLinkedRelationshipCandidates(normalizedFriend);
+        const usedSourceNpcIds = new Set(existingLinkedChats.map(chat => String(chat.sourceNpcId || '')).filter(Boolean));
+        const availableRelationshipCandidates = relationshipCandidates.filter(candidate => !usedSourceNpcIds.has(String(candidate.sourceNpcId)));
+        const linkedPromptMemorySections = buildLinkedPromptMemorySections(normalizedFriend);
+
+        return `You generate private linked friend chats for a fictional iMessage roleplay character.
+
+World Book - System Depth:
+${systemDepthWorldBookContext || 'None'}
+
+World Book - Before Role:
+${beforeRoleWorldBookContext || 'None'}
+
+Character:
+Name: ${normalizedFriend.realName || normalizedFriend.nickname}
+Nickname: ${normalizedFriend.nickname}
+Persona: ${normalizedFriend.persona || 'None'}
+
+User:
+Name: ${currentUserState.name || 'User'}
+Persona: ${currentUserState.persona || 'None'}
+
+Relationship Network:
+${relationshipText}
+
+Relationship Network Candidates For New Linked Friend Chats:
+${availableRelationshipCandidates.length > 0 ? JSON.stringify(availableRelationshipCandidates, null, 2) : 'None'}
+
+Character Memory And Linked Friend Memory:
+${linkedPromptMemorySections || 'None'}
+
+Current Window Chat Context:
+${JSON.stringify(currentChatContext, null, 2)}
+
+Existing Linked Friend Chats:
+${JSON.stringify(existingLinkedChats, null, 2)}
+
+World Book - After Role:
+${afterRoleWorldBookContext || 'None'}
+
+Task:
+1. Simulate friends/acquaintances of the character messaging the character in separate private linked friend chats.
+2. If Relationship Network Candidates are available, prioritize using 0 to 2 unused candidates as new linked friend chats before inventing unrelated people.
+3. Generate 0 to 2 new linked friend chats. Each new person must be unique and must not duplicate any existing name, realName, remark, or sourceNpcId.
+4. Each new linked friend chat must include realName, remark (the character's saved name/note for this person), relationship, and 2 to 5 incoming messages from that friend to the character.
+5. If existing linked friend chats exist, choose zero or more existing chats and write the character's reply to the other person, 2 to 5 messages per selected chat.
+6. For any existing chat that receives a character reply in this same JSON result, you may also write the friend's follow-up reply to the character, 2 to 5 messages. The friend's follow-up must directly respond to the character's new reply, not start an unrelated topic. This is optional; use an empty array if no follow-up is natural.
+7. Append order for the same existing chat is always existingThreadReplies first, then friendFollowups.
+8. Stay consistent with the world book, mounted world book, character persona, relationship network, and current iMessage context.
+9. International translation rule: each message item must be an object {"text":"original message","translation":"natural Chinese translation or empty string"}. If text is not Chinese, translation must contain natural Chinese. If text is Chinese, translation must be an empty string.
+
+Output only valid JSON with this exact shape:
+{
+  "newThreads": [
+    {
+      "name": "display name, usually the remark if one exists",
+      "realName": "person's true name",
+      "remark": "the character's saved remark/note/name for this person",
+      "persona": "short identity/personality",
+      "relationship": "relationship to the character",
+      "sourceNpcId": "relationship candidate sourceNpcId if used, otherwise empty string",
+      "messages": [{"text":"incoming original message","translation":"Chinese translation or empty string"}]
+    }
+  ],
+  "existingThreadReplies": [
+    {
+      "threadId": "existing linked chat id",
+      "messages": [{"text":"character reply original message","translation":"Chinese translation or empty string"}]
+    }
+  ],
+  "friendFollowups": [
+    {
+      "threadId": "same existing linked chat id that received a character reply",
+      "messages": [{"text":"friend follow-up original message","translation":"Chinese translation or empty string"}]
+    }
+  ]
+}`;
+    }
+
+    async function runLinkedAccountBotNow(friendOrId, options = {}) {
+        const friendId = getFriendKey(friendOrId);
+        if (!friendId) return { success: false, changedCount: 0 };
+        if (linkedAccountBotInFlight.has(friendId)) return { success: false, changedCount: 0, inFlight: true };
+
+        const liveFriend = getLiveFriendById(friendId) || (typeof friendOrId === 'object' ? friendOrId : null);
+        if (!liveFriend || liveFriend.type === 'group' || liveFriend.type === 'official') {
+            return { success: false, changedCount: 0 };
+        }
+
+        const currentApiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        const currentUserState = window.getUserState ? window.getUserState() : (window.userState || {});
+        if (!currentApiConfig.endpoint || !currentApiConfig.apiKey) {
+            if (!options.silent && window.showToast) window.showToast('请先配置 API');
+            return { success: false, changedCount: 0 };
+        }
+
+        linkedAccountBotInFlight.add(friendId);
+        try {
+            if (window.imApp.ensureFriendMessagesLoaded) {
+                await window.imApp.ensureFriendMessagesLoaded(liveFriend);
+            }
+
+            const endpoint = resolveChatCompletionsEndpoint(currentApiConfig);
+            const prompt = buildLinkedAccountPrompt(liveFriend, currentUserState);
+            const response = await fetchChatCompletionWithTimeout(endpoint, currentApiConfig, [
+                { role: 'system', content: 'You are a strict JSON generator for fictional linked friend chats. Output only valid JSON.' },
+                { role: 'user', content: prompt }
+            ], 45000);
+
+            if (!response.ok) {
+                let errorMsg = `${response.status} ${response.statusText}`;
+                try {
+                    errorMsg = JSON.stringify(await response.json());
+                } catch (_) {}
+                throw new Error(errorMsg);
+            }
+
+            const data = await response.json();
+            const parsed = parseJsonObjectFromText(getAiResponseContent(data));
+            if (!parsed) return { success: false, changedCount: 0 };
+
+            let changedCount = 0;
+            const saved = await window.imApp.commitFriendChange(friendId, (targetFriend) => {
+                if (!targetFriend) return;
+                targetFriend.linkedAccountBot = window.imApp.normalizeLinkedAccountBot(targetFriend.linkedAccountBot);
+                targetFriend.linkedAccountBot.lastRunAt = Date.now();
+                targetFriend.linkedAccountChats = window.imApp.normalizeLinkedAccountChats(targetFriend.linkedAccountChats);
+
+                const chats = targetFriend.linkedAccountChats;
+                const existingKeys = new Set(chats.flatMap(chat => [
+                    getLinkedIdentityKey(chat.name),
+                    getLinkedIdentityKey(chat.realName),
+                    getLinkedIdentityKey(chat.remark)
+                ]).filter(Boolean));
+                const existingNames = new Set(chats.flatMap(chat => [
+                    String(chat.name || '').trim().toLowerCase(),
+                    String(chat.realName || '').trim().toLowerCase(),
+                    String(chat.remark || '').trim().toLowerCase()
+                ]).filter(Boolean));
+                const existingSourceNpcIds = new Set(chats.map(chat => String(chat.sourceNpcId || '').trim()).filter(Boolean));
+                const newThreads = Array.isArray(parsed.newThreads) ? parsed.newThreads.slice(0, 2) : [];
+                const findExistingLinkedChat = (item) => {
+                    if (!item || typeof item !== 'object') return null;
+                    const threadId = String(item.threadId || item.id || '').trim();
+                    const threadName = String(item.name || '').trim();
+                    const threadRealName = String(item.realName || '').trim();
+                    const threadRemark = String(item.remark || '').trim();
+                    const threadSourceNpcId = item.sourceNpcId != null ? String(item.sourceNpcId).trim() : '';
+                    return chats.find(chat => {
+                        if (threadId && String(chat.id) === threadId) return true;
+                        if (threadSourceNpcId && String(chat.sourceNpcId || '') === threadSourceNpcId) return true;
+                        if (threadRealName && String(chat.realName || '').toLowerCase() === threadRealName.toLowerCase()) return true;
+                        if (threadRemark && String(chat.remark || '').toLowerCase() === threadRemark.toLowerCase()) return true;
+                        return threadName && String(chat.name).toLowerCase() === threadName.toLowerCase();
+                    }) || null;
+                };
+                const appendLinkedMessages = (targetChat, messages) => {
+                    if (!targetChat || !Array.isArray(messages) || messages.length === 0) return 0;
+                    const existingMessages = Array.isArray(targetChat.messages) ? targetChat.messages : [];
+                    const lastTimestamp = existingMessages.length > 0
+                        ? Number(existingMessages[existingMessages.length - 1]?.timestamp) || 0
+                        : 0;
+                    const baseTimestamp = Math.max(lastTimestamp, Date.now());
+                    messages.forEach((message, index) => {
+                        const currentTimestamp = Number(message.timestamp) || 0;
+                        message.timestamp = Math.max(currentTimestamp, baseTimestamp + index + 1);
+                    });
+                    targetChat.messages = existingMessages;
+                    targetChat.messages.push(...messages);
+                    targetChat.updatedAt = messages[messages.length - 1].timestamp || Date.now();
+                    return messages.length;
+                };
+
+                newThreads.forEach((thread, threadIndex) => {
+                    if (!thread || typeof thread !== 'object') return;
+                    const realName = String(thread.realName || '').trim();
+                    const remark = String(thread.remark || '').trim();
+                    const name = String(thread.name || remark || realName).trim();
+                    const sourceNpcId = thread.sourceNpcId != null ? String(thread.sourceNpcId).trim() : '';
+                    const key = getLinkedIdentityKey(name);
+                    const realNameKey = getLinkedIdentityKey(realName);
+                    const remarkKey = getLinkedIdentityKey(remark);
+                    const nameKey = name.toLowerCase();
+                    const realNameLower = realName.toLowerCase();
+                    const remarkLower = remark.toLowerCase();
+                    if (
+                        !name ||
+                        !key ||
+                        existingKeys.has(key) ||
+                        (realNameKey && existingKeys.has(realNameKey)) ||
+                        (remarkKey && existingKeys.has(remarkKey)) ||
+                        existingNames.has(nameKey) ||
+                        (realNameLower && existingNames.has(realNameLower)) ||
+                        (remarkLower && existingNames.has(remarkLower)) ||
+                        (sourceNpcId && existingSourceNpcIds.has(sourceNpcId))
+                    ) return;
+
+                    const messages = normalizeLinkedMessageList(thread.messages, 'account');
+                    if (messages.length === 0) return;
+
+                    const now = Date.now() + threadIndex;
+                    chats.unshift({
+                        id: createApiRunId('linked-chat'),
+                        name,
+                        realName,
+                        remark,
+                        persona: String(thread.persona || '').trim(),
+                        relationship: String(thread.relationship || '').trim(),
+                        avatarSeed: String(thread.avatarSeed || remark || realName || name).trim(),
+                        sourceNpcId,
+                        messages,
+                        createdAt: now,
+                        updatedAt: messages[messages.length - 1].timestamp || now
+                    });
+                    existingKeys.add(key);
+                    if (realNameKey) existingKeys.add(realNameKey);
+                    if (remarkKey) existingKeys.add(remarkKey);
+                    existingNames.add(nameKey);
+                    if (realNameLower) existingNames.add(realNameLower);
+                    if (remarkLower) existingNames.add(remarkLower);
+                    if (sourceNpcId) existingSourceNpcIds.add(sourceNpcId);
+                    changedCount += messages.length;
+                });
+
+                const existingThreadReplies = Array.isArray(parsed.existingThreadReplies) ? parsed.existingThreadReplies : [];
+                const repliedThreadIds = new Set();
+                existingThreadReplies.forEach(reply => {
+                    if (!reply || typeof reply !== 'object') return;
+                    const targetChat = findExistingLinkedChat(reply);
+                    if (!targetChat) return;
+
+                    const messages = normalizeLinkedMessageList(reply.messages, 'char');
+                    if (messages.length === 0) return;
+                    const appendedCount = appendLinkedMessages(targetChat, messages);
+                    if (appendedCount > 0) {
+                        repliedThreadIds.add(String(targetChat.id));
+                        changedCount += appendedCount;
+                    }
+                });
+
+                const friendFollowups = Array.isArray(parsed.friendFollowups) ? parsed.friendFollowups : [];
+                friendFollowups.forEach(followup => {
+                    if (!followup || typeof followup !== 'object') return;
+                    const targetChat = findExistingLinkedChat(followup);
+                    if (!targetChat) return;
+                    if (!repliedThreadIds.has(String(targetChat.id))) return;
+
+                    const messages = normalizeLinkedMessageList(followup.messages, 'account');
+                    if (messages.length === 0) return;
+                    changedCount += appendLinkedMessages(targetChat, messages);
+                });
+            }, { silent: true, metaOnly: true });
+
+            if (!saved) return { success: false, changedCount: 0 };
+
+            window.dispatchEvent(new CustomEvent('u2:linked-accounts-changed', {
+                detail: { friendId, changedCount }
+            }));
+
+            if (changedCount > 0 && !options.silent && window.showToast) {
+                window.showToast(`关联好友已更新（${changedCount}）`);
+            }
+
+            return { success: true, changedCount };
+        } catch (error) {
+            console.error('[Linked Friends] API request failed', error);
+            if (!options.silent && window.showToast) {
+                window.showToast(`关联好友 API 失败${error?.message ? `：${error.message}` : ''}`);
+            }
+            return { success: false, changedCount: 0, error };
+        } finally {
+            linkedAccountBotInFlight.delete(friendId);
+        }
+    }
+
+    async function scheduleAutonomousTaskNextRun(friendId, taskName, task, now = Date.now()) {
+        if (!window.imApp?.commitScopedFriendChange) return false;
+        return window.imApp.commitScopedFriendChange(friendId, (targetFriend) => {
+            targetFriend.memory = window.imApp.normalizeFriendData(targetFriend).memory;
+            const activity = normalizeAutonomousActivity(targetFriend.memory.autonomous);
+            const nextTask = normalizeAutonomousTask(activity[taskName] || task);
+            nextTask.nextRunAt = now + getRandomAutonomousDelay(nextTask);
+            activity[taskName] = nextTask;
+            targetFriend.memory.autonomous = activity;
+        }, { silent: true, immediate: true, metaOnly: true, syncActive: true, syncSettings: true });
+    }
+
+    function buildAutonomousMomentPrompt(friend, now = Date.now()) {
+        const charName = friend?.realName || friend?.nickname || 'TA';
+        const userName = (window.getUserState ? window.getUserState() : window.userState || {})?.name || 'User';
+        const relationshipText = Array.isArray(friend?.memory?.relationships) && friend.memory.relationships.length > 0
+            ? friend.memory.relationships.map(rel => {
+                const npc = (window.imData?.friends || []).find(item => String(item.id) === String(rel.npcId));
+                return `${npc ? npc.nickname : 'Unknown'}: ${rel.relation || ''}`;
+            }).join('\n')
+            : 'None';
+        const latestMessages = Array.isArray(friend?.messages)
+            ? friend.messages.slice(-8).map(msg => {
+                const speaker = msg.role === 'assistant' ? charName : userName;
+                return `[${formatAutonomousPromptTime(msg.timestamp)}] ${speaker}: ${getAutonomousMessageText(msg)}`;
+            }).join('\n')
+            : '';
+
+        return `你正在扮演 ${charName}，现在要为这个角色生成 1 条公开朋友圈文案。
+当前真实时间：${formatAutonomousPromptTime(now)}
+User 名称：${userName}
+角色人设：${friend?.persona || 'None'}
+角色签名：${friend?.signature || 'None'}
+关系和记忆：
+${friend?.memory?.overview || 'None'}
+
+关系网络：
+${relationshipText}
+
+最近聊天上下文：
+${latestMessages || 'None'}
+
+要求：
+1. 这是公开朋友圈，不是私聊，不是只给 User 看的话。
+2. 可以分享当下感悟、正在做的事、环境观察或生活片段。
+3. 不要写成碎碎念、连续私密独白、求回复、催 User、或过度暧昧告白。
+4. 只有在上下文或关系记忆中有明确恋爱/情侣/公开伴侣证据时，才可以把 User 写成公开恋人；否则如果提到 User，只能用小名、外号、某人、朋友等含蓄称呼。
+5. 不生成图片，不要输出 hashtag 堆砌，不要输出 markdown。
+6. 只输出合法 JSON：{"text":"朋友圈正文"}。`;
+    }
+
+    async function generateAutonomousMomentText(friend, apiConfig, now = Date.now()) {
+        const endpoint = resolveChatCompletionsEndpoint(apiConfig);
+        if (!endpoint) return '';
+        const response = await fetchChatCompletionWithTimeout(endpoint, apiConfig, [
+            {
+                role: 'system',
+                content: 'You generate one public social feed post for a fictional character. Output only valid JSON.'
+            },
+            {
+                role: 'user',
+                content: buildAutonomousMomentPrompt(friend, now)
+            }
+        ], 60000);
+
+        if (!response.ok) {
+            throw new Error(`${response.status} ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        const parsed = parseJsonObjectFromText(getAiResponseContent(data));
+        return typeof parsed?.text === 'string' ? parsed.text.trim() : '';
+    }
+
+    async function runAutonomousActivityForFriend(friendOrId, reason = 'timer') {
+        const friendKey = getFriendKey(friendOrId);
+        if (!friendKey || autonomousActivityInFlight.has(friendKey) || aiReplyInFlight.has(friendKey)) return false;
+
+        let friend = getLiveFriendById(friendKey) || (friendOrId && typeof friendOrId === 'object' ? friendOrId : null);
+        if (!friend || friend.type === 'official' || friend.type === 'group') return false;
+
+        if (window.imApp?.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend);
+            friend = getLiveFriendById(friendKey) || friend;
+        }
+
+        friend.memory = window.imApp.normalizeFriendData(friend).memory;
+        const replyTask = getAutonomousTask(friend.memory.autonomous, 'reply');
+        if (!replyTask.enabled) return false;
+
+        const currentApiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        if (!currentApiConfig.endpoint || !currentApiConfig.apiKey) {
+            await scheduleAutonomousTaskNextRun(friendKey, 'reply', replyTask, Date.now());
+            return false;
+        }
+
+        autonomousActivityInFlight.add(friendKey);
+        const now = Date.now();
+        try {
+            await window.imApp.commitScopedFriendChange(friendKey, (targetFriend) => {
+                targetFriend.memory = window.imApp.normalizeFriendData(targetFriend).memory;
+                const activity = normalizeAutonomousActivity(targetFriend.memory.autonomous);
+                const nextReplyTask = normalizeAutonomousTask(activity.reply);
+                nextReplyTask.lastRunAt = now;
+                nextReplyTask.nextRunAt = now + getRandomAutonomousDelay(nextReplyTask);
+                activity.reply = nextReplyTask;
+                targetFriend.memory.autonomous = activity;
+            }, { silent: true, immediate: true, metaOnly: true, syncActive: true, syncSettings: true });
+
+            const latestFriend = getLiveFriendById(friendKey) || friend;
+            const page = document.getElementById(`chat-interface-${friendKey}`);
+            const activeContainer = page ? page.querySelector('.ins-chat-messages') : null;
+            await handleAiReply(latestFriend, activeContainer, null, {
+                source: 'autonomous',
+                silent: true,
+                extraSystemPrompt: buildAutonomousActivityPrompt(latestFriend, now)
+            });
+            return true;
+        } catch (error) {
+            console.error('[iMessage autonomous activity] failed', { friendId: friendKey, reason, error });
+            return false;
+        } finally {
+            autonomousActivityInFlight.delete(friendKey);
+        }
+    }
+
+    function buildContinueWithoutUserPrompt(friend, options = {}) {
+        const isGroupAfterUserLeft = !!options.isGroupAfterUserLeft;
+        const charName = friend.nickname || friend.realName || 'Char';
+        if (isGroupAfterUserLeft) {
+            return '【本轮触发：User 没有回复】User 已退出或没有发送新消息。请让群成员基于最近群聊上下文继续自然说话，不要等待 User，不要让 User 发言，不要输出空内容；仍必须输出合法 <chat_json> JSON 数组。';
+        }
+
+        if (friend.type === 'group') {
+            return '【本轮触发：User 没有回复】User 没有发送新消息。请让群成员基于最近群聊上下文继续自然说话，可以承接上一句、回应沉默、成员互相接话或开启符合关系的新话题；不要等待 User，不要输出空内容；仍必须输出合法 <chat_json> JSON 数组。';
+        }
+
+        return `【本轮触发：User 没有回复】User 没有发送新消息。请以 ${charName} 的身份主动继续说话，可以承接上一轮、补充没说完的话、分享身边状态、回应沉默或自然开启新话题；不要说“用户没有输入”，不要等待 User，不要输出空内容；仍必须输出合法 <chat_json> JSON 数组。`;
+    }
+
+    async function runAutonomousMomentForFriend(friendOrId, reason = 'timer') {
+        const friendKey = getFriendKey(friendOrId);
+        if (!friendKey || autonomousMomentInFlight.has(friendKey)) return false;
+
+        let friend = getLiveFriendById(friendKey) || (friendOrId && typeof friendOrId === 'object' ? friendOrId : null);
+        if (!friend || friend.type === 'official' || friend.type === 'group') return false;
+
+        if (window.imApp?.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend);
+            friend = getLiveFriendById(friendKey) || friend;
+        }
+        if (window.imApp?.ensureMomentsReady) {
+            await window.imApp.ensureMomentsReady();
+        }
+
+        friend.memory = window.imApp.normalizeFriendData(friend).memory;
+        const momentTask = getAutonomousTask(friend.memory.autonomous, 'moment');
+        if (!momentTask.enabled) return false;
+
+        const currentApiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        if (!currentApiConfig.endpoint || !currentApiConfig.apiKey) {
+            await scheduleAutonomousTaskNextRun(friendKey, 'moment', momentTask, Date.now());
+            return false;
+        }
+
+        autonomousMomentInFlight.add(friendKey);
+        const now = Date.now();
+        try {
+            await window.imApp.commitScopedFriendChange(friendKey, (targetFriend) => {
+                targetFriend.memory = window.imApp.normalizeFriendData(targetFriend).memory;
+                const activity = normalizeAutonomousActivity(targetFriend.memory.autonomous);
+                const nextMomentTask = normalizeAutonomousTask(activity.moment);
+                nextMomentTask.lastRunAt = now;
+                nextMomentTask.nextRunAt = now + getRandomAutonomousDelay(nextMomentTask);
+                activity.moment = nextMomentTask;
+                targetFriend.memory.autonomous = activity;
+            }, { silent: true, immediate: true, metaOnly: true, syncActive: true, syncSettings: true });
+
+            const latestFriend = getLiveFriendById(friendKey) || friend;
+            const text = await generateAutonomousMomentText(latestFriend, currentApiConfig, now);
+            if (!text) return false;
+
+            const newMoment = {
+                id: Date.now(),
+                userId: latestFriend.id,
+                name: latestFriend.nickname || latestFriend.realName || 'Friend',
+                avatar: latestFriend.avatarUrl || null,
+                text,
+                images: [],
+                time: Date.now(),
+                likes: [],
+                comments: [],
+                isPinned: false
+            };
+
+            const saved = window.imApp.commitMomentChange
+                ? await window.imApp.commitMomentChange(newMoment.id, () => {
+                    if (!Array.isArray(window.imData.moments)) window.imData.moments = [];
+                    window.imData.moments.unshift(newMoment);
+                }, { silent: true, immediate: true })
+                : false;
+
+            if (!saved) return false;
+            if (window.imApp.renderMoments) window.imApp.renderMoments();
+            if (window.showBannerNotification) {
+                window.showBannerNotification(latestFriend, '发布了一条朋友圈');
+            }
+            return true;
+        } catch (error) {
+            console.error('[iMessage autonomous moment] failed', { friendId: friendKey, reason, error });
+            return false;
+        } finally {
+            autonomousMomentInFlight.delete(friendKey);
+        }
+    }
+
+    async function checkAutonomousActivities(reason = 'timer') {
+        const friends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+        const now = Date.now();
+        for (const friend of friends) {
+            if (!friend || friend.type === 'official' || friend.type === 'group') continue;
+            const normalizedFriend = window.imApp.normalizeFriendData(friend);
+            const activity = normalizeAutonomousActivity(normalizedFriend.memory?.autonomous);
+            const replyTask = normalizeAutonomousTask(activity.reply);
+            const momentTask = normalizeAutonomousTask(activity.moment);
+
+            if (replyTask.enabled) {
+                if (!replyTask.nextRunAt || replyTask.nextRunAt <= 0) {
+                    await scheduleAutonomousTaskNextRun(normalizedFriend.id, 'reply', replyTask, now);
+                } else if (replyTask.nextRunAt <= now) {
+                    await runAutonomousActivityForFriend(normalizedFriend, reason);
+                }
+            }
+
+            if (momentTask.enabled) {
+                if (!momentTask.nextRunAt || momentTask.nextRunAt <= 0) {
+                    await scheduleAutonomousTaskNextRun(normalizedFriend.id, 'moment', momentTask, now);
+                } else if (momentTask.nextRunAt <= now) {
+                    await runAutonomousMomentForFriend(normalizedFriend, reason);
+                }
+            }
+        }
+    }
+
+    function refreshAutonomousActivityTimers() {
+        void checkAutonomousActivities('refresh');
+    }
+
+    async function handleAiReply(friend, container, btnEl, options = {}) {
+        console.log('handleAiReply invoked', { friend, btnEl, source: options.source || 'manual' });
+        const friendKey = getFriendKey(friend);
+        if (aiReplyInFlight.has(friendKey)) {
+            if (!options.silent && window.showToast) window.showToast('正在生成中');
+            return;
+        }
+
+        const currentApiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        const currentUserState = window.getUserState ? window.getUserState() : (window.userState || {});
+        
+        if (!currentApiConfig.endpoint || !currentApiConfig.apiKey) {
+            console.warn('API config is missing!', currentApiConfig);
+            if(!options.silent && window.showToast) window.showToast('请先在设置中配置 API');
+            return;
+        }
+
+        let typingRow = null;
+        const apiRunId = createApiRunId(friendKey);
+        const conversationEpoch = getConversationEpoch(friendKey);
+        const requestController = new AbortController();
+        const isConversationCurrent = () => getConversationEpoch(friendKey) === conversationEpoch && !requestController.signal.aborted;
+        aiReplyInFlight.add(friendKey);
+        aiReplyControllers.set(friendKey, requestController);
+
+        try {
+            if (window.imApp?.ensureStickersReady) {
+                await window.imApp.ensureStickersReady();
+            }
+            if (!isConversationCurrent()) return;
+            friend = getLiveFriendById(friend.id) || friend;
+
+            if (container) {
+                typingRow = document.createElement('div');
+                typingRow.className = 'chat-row ai-row typing-row';
+                typingRow.innerHTML = `
+                    <div class="typing-indicator">
+                        <div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>
+                    </div>
+                `;
+                container.appendChild(typingRow);
+                window.imChat.scrollToBottom(container);
+            }
+
+            if(btnEl) btnEl.style.opacity = '0.5';
+
+            friend.memory = window.imApp.normalizeFriendData(friend).memory;
+
+        const isSleeping = window.imApp.isCharacterSleeping(friend);
+        const recentText = getRecentContextText(friend);
+
+        function formatDetailedTime(timestamp) {
+            if (!timestamp) return '';
+            const date = new Date(timestamp);
+            const year = date.getFullYear();
+            const month = date.getMonth() + 1;
+            const day = date.getDate();
+            const days = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+            const dayOfWeek = days[date.getDay()];
+            const hour = date.getHours();
+            const minute = date.getMinutes().toString().padStart(2, '0');
+            const second = date.getSeconds().toString().padStart(2, '0');
+            
+            let period = '';
+            if (hour >= 0 && hour < 6) period = '凌晨';
+            else if (hour >= 6 && hour < 9) period = '早上';
+            else if (hour >= 9 && hour < 12) period = '上午';
+            else if (hour === 12) period = '中午';
+            else if (hour > 12 && hour < 18) period = '下午';
+            else if (hour >= 18 && hour <= 23) period = '晚上';
+
+            let displayHour = hour % 12;
+            if (displayHour === 0) displayHour = 12;
+            return `[时间：${year}年${month}月${day}日 ${dayOfWeek} ${period}${displayHour}:${minute}:${second}] `;
+        }
+
+        function formatPromptTime(timestamp) {
+            const value = Number(timestamp);
+            if (!Number.isFinite(value) || value <= 0) return '未知';
+            const date = new Date(value);
+            return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+        }
+
+        function formatPromptDuration(durationMs) {
+            const value = Number(durationMs);
+            if (!Number.isFinite(value) || value < 0) return '未知';
+            const totalMinutes = Math.floor(value / 60000);
+            if (totalMinutes < 1) return '不到1分钟';
+            if (totalMinutes < 60) return `${totalMinutes}分钟`;
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            if (hours < 24) return minutes > 0 ? `${hours}小时${minutes}分钟` : `${hours}小时`;
+            const days = Math.floor(hours / 24);
+            const restHours = hours % 24;
+            return restHours > 0 ? `${days}天${restHours}小时` : `${days}天`;
+        }
+
+        function getGroupMessageSpeakerName(message, groupMembers) {
+            const memberId = message?.speakerMemberId || message?.senderMemberId || '';
+            if (memberId) {
+                const member = groupMembers.find(item => String(item.id) === String(memberId));
+                if (member) return member.nickname || member.realName || '群成员';
+            }
+            return message?.speaker || message?.senderName || '群成员';
+        }
+
+        function buildGroupTimeRequirement(group, groupMembers) {
+            if (!group || group.timeAware === false) return '';
+
+            const currentTime = new Date();
+            const timeString = `${currentTime.getFullYear()}年${currentTime.getMonth() + 1}月${currentTime.getDate()}日 ${currentTime.getHours()}:${currentTime.getMinutes().toString().padStart(2, '0')}`;
+            const historyMessages = Array.isArray(group.messages)
+                ? group.messages.filter(msg => msg && Number(msg.timestamp) > 0)
+                : [];
+            const lastUserMessage = historyMessages.slice().reverse().find(msg => msg.role === 'user') || null;
+            const lastMemberMessage = historyMessages.slice().reverse().find(msg => msg.role === 'assistant') || null;
+            const lastPublicMessage = historyMessages.slice().reverse().find(msg => msg.role === 'user' || msg.role === 'assistant') || null;
+            const lastSpeakerName = lastMemberMessage ? getGroupMessageSpeakerName(lastMemberMessage, groupMembers) : '未知';
+            const gapSinceLastPublic = lastPublicMessage
+                ? currentTime.getTime() - Number(lastPublicMessage.timestamp)
+                : null;
+            const gapSinceUser = lastUserMessage
+                ? currentTime.getTime() - Number(lastUserMessage.timestamp)
+                : null;
+            const gapSinceMember = lastMemberMessage
+                ? currentTime.getTime() - Number(lastMemberMessage.timestamp)
+                : null;
+
+            return `\n\n【群聊时间感知】：
+- 当前系统时间是：${timeString}。
+- User 最后一次发言时间：${lastUserMessage ? formatPromptTime(lastUserMessage.timestamp) : '未知'}${lastUserMessage ? `（距离现在约 ${formatPromptDuration(gapSinceUser)}）` : ''}。
+- 群成员最近一次公开发言：${lastMemberMessage ? `${lastSpeakerName} 于 ${formatPromptTime(lastMemberMessage.timestamp)}` : '未知'}${lastMemberMessage ? `（距离现在约 ${formatPromptDuration(gapSinceMember)}）` : ''}。
+- 群聊最后一条公开消息距离现在：${lastPublicMessage ? `约 ${formatPromptDuration(gapSinceLastPublic)}` : '未知'}。
+- 回复前所有发言成员都必须感知现在的具体日期、时间段、距离上次群聊过去多久，以及这段间隔对情绪、动作、称呼和话题承接的影响；但如果间隔很短，不要刻意提时间，只把它作为背景。`;
+        }
+
+        const relationshipText = friend.memory.relationships && friend.memory.relationships.length > 0
+            ? friend.memory.relationships.map(rel => {
+                const npc = window.imData.friends.find(item => String(item.id) === String(rel.npcId));
+                return `${npc ? npc.nickname : 'Unknown NPC'}: ${rel.relation}`;
+            }).join('\n')
+            : 'None';
+
+        function parseShortTermMemoryDate(value) {
+            if (!value) return 0;
+            if (typeof value === 'number') return value;
+            const normalized = String(value)
+                .replace(/年/g, '-')
+                .replace(/月/g, '-')
+                .replace(/日/g, ' ')
+                .replace(/\./g, '-')
+                .replace(/\//g, '-');
+            const parsed = new Date(normalized);
+            return Number.isNaN(parsed.getTime()) ? 0 : parsed.getTime();
+        }
+
+        function normalizeShortTermMemoryDegree(value) {
+            const text = String(value || '高').trim();
+            if (text === '中' || text === '低' || text === '遗忘') return text;
+            return '高';
+        }
+
+        function formatShortTermMemoryEntry(entry) {
+            return [
+                `<short_term_memory>`,
+                `  <id>${entry.id || ''}</id>`,
+                `  <title>${entry.title || '对话总结'}</title>`,
+                `  <time>${entry.time || ''}</time>`,
+                `  <event>${entry.event || ''}</event>`,
+                `  <memory_points>${entry.memoryPoints || ''}</memory_points>`,
+                `  <degree>${normalizeShortTermMemoryDegree(entry.degree)}</degree>`,
+                `</short_term_memory>`
+            ].join('\n');
+        }
+
+        function buildShortTermMemoryContext(friend) {
+            const isGroupChat = friend.type === 'group';
+            const entries = Array.isArray(friend.memory?.shortTermEntries)
+                ? friend.memory.shortTermEntries.filter(entry => entry && (entry.event || entry.memoryPoints || entry.title))
+                : [];
+            
+            const triggeredEntries = isGroupChat
+                ? entries.slice(-12)
+                : entries.filter(entry => isMemoryEntryTriggered(entry, recentText));
+            if (triggeredEntries.length === 0) return '';
+
+            const buckets = {
+                高: [],
+                中: [],
+                低: [],
+                遗忘: []
+            };
+
+            triggeredEntries.forEach(entry => {
+                const degree = normalizeShortTermMemoryDegree(entry.degree);
+                buckets[degree].push(entry);
+            });
+
+            Object.keys(buckets).forEach(degree => {
+                buckets[degree].sort((a, b) => {
+                    const bTime = parseShortTermMemoryDate(b.lastActivatedAt || b.time || b.createdAt);
+                    const aTime = parseShortTermMemoryDate(a.lastActivatedAt || a.time || a.createdAt);
+                    return bTime - aTime;
+                });
+            });
+
+            const sections = [
+                ['高权重记忆 | 参考强度 70%', buckets.高],
+                ['中权重记忆 | 参考强度 25%', buckets.中],
+                ['低权重记忆 | 参考强度 5%', buckets.低],
+                ['遗忘记忆 | 仅作为模糊残影', buckets.遗忘]
+            ]
+                .filter(([, items]) => items.length > 0)
+                .map(([title, items]) => `${title}\n${items.map(formatShortTermMemoryEntry).join('\n')}`)
+                .join('\n\n');
+
+            if (isGroupChat) {
+                return `<group_public_summary_library>\n<rules>\n- 以下是当前群聊公开聊天的第三人称总结，只能作为群聊共同背景使用。\n- 这些总结不包含群成员给 User 的私信，也不包含群成员与自己好友的私信；不要据此让其他成员全知任何私聊内容。\n- 高：强参考，优先影响群内话题连续性、公开关系变化和共同事件。\n- 中/低：只在当前话题相关时辅助参考。\n- 遗忘：仅作为模糊残影，不主动提起。\n</rules>\n\n<memories>\n${sections}\n</memories>\n</group_public_summary_library>`;
+            }
+
+            return `<short_term_memory_library>\n<rules>\n- 高：强参考，优先影响情绪、态度、称呼和细节联想，占记忆影响约70%。\n- 中：辅助参考，只在话题相关时使用，占约25%。\n- 低：弱参考，只在用户明确触发时轻微使用，占约5%。\n- 遗忘：仅作为模糊残影，不主动提起，除非用户强烈触发。\n</rules>\n\n<memories>\n${sections}\n</memories>\n</short_term_memory_library>`;
+        }
+
+        // 提取日程信息
+        let scheduleSection = '';
+        let busyPrompt = '';
+        if (friend.memory?.schedule) {
+            const sch = friend.memory.schedule;
+            let schLines = [];
+            if (sch.sleepTime || sch.wakeTime) {
+                schLines.push(`作息时间：${sch.wakeTime || '未知'} 起床，${sch.sleepTime || '未知'} 睡觉`);
+            }
+            if (Array.isArray(sch.events) && sch.events.length > 0) {
+                schLines.push('近期行程安排：');
+                
+                const now = new Date();
+                const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+                sch.events.forEach(e => {
+                    const startStr = e.startTime || e.time || '未知';
+                    const endStr = e.endTime || '未知';
+                    schLines.push(`- ${e.name} (${startStr} ~ ${endStr})`);
+                    
+                    if (e.startTime && e.endTime) {
+                        const parseTime = (t) => {
+                            const parts = t.split(':');
+                            return parts.length === 2 ? parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10) : -1;
+                        };
+                        const startMins = parseTime(e.startTime);
+                        const endMins = parseTime(e.endTime);
+                        
+                        if (startMins !== -1 && endMins !== -1) {
+                            if (startMins <= endMins) {
+                                if (currentMinutes >= startMins && currentMinutes <= endMins) {
+                                    busyPrompt = `\n【行程限制】：角色当前正在进行行程安排：“${e.name}”。如果用户发来消息，你必须强制在所有回复内容（text 字段）的开头添加 "[自动回复] " 前缀，模拟正在忙碌时的自动响应。心声和面板状态也要符合正在忙碌的情境。`;
+                                }
+                            } else {
+                                if (currentMinutes >= startMins || currentMinutes <= endMins) {
+                                    busyPrompt = `\n【行程限制】：角色当前正在进行行程安排：“${e.name}”。如果用户发来消息，你必须强制在所有回复内容（text 字段）的开头添加 "[自动回复] " 前缀，模拟正在忙碌时的自动响应。心声和面板状态也要符合正在忙碌的情境。`;
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+            if (schLines.length > 0) {
+                scheduleSection = `Schedule / 行程作息:\n${schLines.join('\n')}`;
+            }
+        }
+
+        let longTermXml = '';
+        if (Array.isArray(friend.memory?.longTermEntries) && friend.memory.longTermEntries.length > 0) {
+            const triggered = friend.memory.longTermEntries.filter(e => isMemoryEntryTriggered(e, recentText));
+            if (triggered.length > 0) {
+                longTermXml = `<long_term_memories>\n${triggered.map(e => `<memory>\n<title>${e.title || ''}</title>\n<content>${e.content || ''}</content>\n</memory>`).join('\n')}\n</long_term_memories>`;
+            }
+        } else if (friend.memory?.longTerm) {
+            longTermXml = `<long_term_memories>\n${friend.memory.longTerm}\n</long_term_memories>`;
+        }
+
+        const commonMemorySections = [
+            friend.memory.overview ? `<core_memory_overview>\n${friend.memory.overview}\n</core_memory_overview>` : '',
+            longTermXml,
+            friend.memory.context?.notes ? `<extra_context_notes>\n${friend.memory.context.notes}\n</extra_context_notes>` : '',
+            buildShortTermMemoryContext(friend),
+            scheduleSection,
+            `<relationship_network>\n${relationshipText}\n</relationship_network>`,
+            window.imApp.buildLinkedAccountMemoryContext
+                ? window.imApp.buildLinkedAccountMemoryContext(friend)
+                : '',
+            (() => {
+                const stickerText = buildMountedStickerContext(friend);
+                if (!stickerText) return '';
+                return `Available Stickers (only use these exact category/name pairs when outputting sticker JSON):\n${stickerText}`;
+            })(),
+            (() => {
+                const panel = window.imChat.getProfilePanelData
+                    ? window.imChat.getProfilePanelData(friend)
+                    : (friend.profilePanel || null);
+                if (!panel) return '';
+
+                const eventSummary = Array.isArray(panel.events) && panel.events.length > 0
+                    ? panel.events.slice(-3).map((eventItem, index) => {
+                        const title = eventItem?.title || `事件${index + 1}`;
+                        const description = eventItem?.description || '';
+                        const time = eventItem?.time || '';
+                        return `- ${title}${time ? ` (${time})` : ''}${description ? `: ${description}` : ''}`;
+                    }).join('\n')
+                    : 'None';
+
+                const affection = typeof panel.affection === 'number' ? panel.affection : 0;
+
+                return `Current Profile Panel Snapshot:\nOnline Status: ${isSleeping ? 'offline' : 'online'}\nLocation: ${panel.location || '未知位置'}\nAction: ${panel.action || '暂无动作'}\nMood: ${panel.mood || '平静'}\nExpression: ${panel.expression || '自然'}\nAffection(好感度): ${affection}\nThought: ${panel.thought || '暂无心声'}\nRecent Events:\n${eventSummary}`;
+            })()
+        ].filter(Boolean).join('\n\n');
+
+        const lovesSpaceRequirement = friend.pendingLovesInvite ? `\n\n【情侣空间邀请事件】：User 刚刚向你发送了 Loves App 情侣空间的邀请卡片。你可以根据当前的好感度和角色性格，决定是否接受。\n如果选择接受，请在某一条对话文本(text字段)内任意位置包含 [ACCEPT_INVITE] 标记（该标记会被系统解析且不会展示给用户）。接受后，后续可能会触发空间内的互动。你也可以傲娇地不包含此标记，这代表你暂时忽略或拒绝了该邀请，那么一切照旧。` : '';
+        const lovesActionRequirement = `\n\n【Loves情侣空间联动】：如果你现在和User已经开启了情侣空间（如果在聊与空间的日常，或你们之前已开启），你可以主动在Loves应用中发布动态或添加日程：\n- 如果你听到了明确的未来时间计划，觉得应该记下来，请额外输出一个 <loves_schedule>{"title":"活动标题(10字内)","date":"YYYY-MM-DD","startTime":"HH:MM","endTime":"HH:MM","description":"描述(选填)"}</loves_schedule> 标签。日期必须是未来的某天，参考当前系统时间。这将被同步记录到你的个人 iCloud 日程中。\n- 如果你今天心情特别好或有深刻的感悟想发在空间动态里（不需要艾特User），请额外输出一个 <loves_moment>{"content":"动态文字内容...","image":"可以为空"}</loves_moment> 标签。只有当你觉得真的想发动态时才输出。`;
+        
+        let hasFamilyCardStr = '未知';
+        if (typeof window.hasFamilyCard === 'function') {
+            hasFamilyCardStr = window.hasFamilyCard(friend.id) ? '是' : '否';
+        }
+        const familyCardRequirement = `\n\n【亲属卡互动】：当前你是否已经给过User亲属卡：${hasFamilyCardStr}。\n- 如果User在聊天中暗示或明示想要“亲属卡”，且你当前【未给过】亲属卡，你可以输出一个特定的支付对象：{"type":"payment","paymentAction":"family_card","amount":1000,"description":"亲属卡"}，这会给User发一张1000额度的亲属卡。\n- 如果你当前【已经给过】亲属卡，且User再次暗示或明示想要“亲属卡”，系统限制一人只能给一张，你不能再给一张，但你可以输出 {"type":"payment","paymentAction":"family_card_increase","amount":500,"description":"亲属卡提额"} 来给现有的亲属卡提升500额度，并在对话中提醒TA已经给过一张了只能提额。`;
+
+        const pendingRegenerateContext = friend.pendingRegenerateContext || null;
+        const regenerateUserRequirement = pendingRegenerateContext && typeof pendingRegenerateContext.userRequirement === 'string' && pendingRegenerateContext.userRequirement.trim()
+            ? `\n\n【User 本次重回补充要求】：\n${pendingRegenerateContext.userRequirement.trim()}\n\n请优先参考这段要求理解 User 为什么重回、希望你换成怎样的回复方向；如果它和人设、上下文或输出格式冲突，以人设、上下文和输出格式为准，但仍尽量满足 User 的真实意图。`
+            : '';
+        const regenerateRequirement = pendingRegenerateContext
+            ? `\n\n【重回重新生成要求】：
+- User 触发了“重回”，这通常代表 User 对你刚刚生成的回复不满意。请先思考 User 可能不满意的原因：是否语气不对、关系距离不对、太敷衍、太热情、太重复、没有接住情绪、引用不准、偏离人设、没有回应重点或节奏不自然。
+- 下面是刚刚被重回删除的回复内容，请不要再次生成相同或高度相似的内容、句式、称呼、情绪走向和动作安排。你需要换一个更贴合当前上下文与人设的角度回应，但不要在正文里解释“这是重回”。
+【刚刚被重回的回复】：
+${pendingRegenerateContext.previousReply || 'None'}${regenerateUserRequirement}` : '';
+
+
+        const profilePanelRequirement = friend.type === 'group'
+            ? ''
+            : `\n\nProfile Panel Requirement:\n- 在正常聊天气泡之外，你必须额外输出 1 个 <profile_panel>...</profile_panel>\n- <profile_panel> 内必须是合法 JSON，不能有 markdown 代码块，不能有额外解释文字\n- JSON 必须包含字段：thought、location、action、mood、expression、affectionChange、events\n- 【中文强制】thought、location、action、mood、expression、events 以及 memoryPayload 内所有可见文本必须使用简体中文；禁止输出英文、日文、韩文、法文等非中文内容，不受默认语言设置影响\n- thought 必须是 45-60 字左右，严格基于当前聊天上下文，使用第一人称，像角色此刻没有说出口的心声，并且你必须在心声的最前面带上当前的具体时间（例如：[6月11日 凌晨2:14] 心声内容）\n- location 必须是 2-16 字，表示角色此刻所处的位置或场景\n- action 必须是 2-10 字，表示角色此刻正在做的动作或状态\n- mood 必须是 2-10 字，表示角色此刻的心情\n- expression 必须是 2-10 字，表示角色此刻的面部表情或神态\n- affectionChange 必须是整数（范围 -5 到 5），表示你对用户好感度因本轮对话产生的增减变化\n- 不要输出 online/offline 或类似在线状态文案，在线状态由系统统一控制并在界面显示为中文\n- events 必须是 JSON 数组；如果当前没有新的事件就输出 []；如果有事件，最多 3 条\n- 普通事件格式为 {"title":"事件标题","description":"事件描述","time":"时间或留空","type":"note"}\n- 珍视回忆必须由你（当前角色/char）自己发起：只有当你基于自己的感受，觉得刚刚这段聊天很在意、很珍贵、自己想以后记住时，才额外加入 1 条珍视回忆事件，type 必须为 "memory_request"\n- 不要把珍视回忆写成外部指令、替对方保存、接受要求或向对方请求许可；即使对方提到保存或记忆相关内容，也只在你自己也真心想珍藏时才输出\n- 珍视回忆事件格式为 {"title":"想珍藏这一刻","description":"一句简短说明","time":"时间或留空","type":"memory_request","requestText":"我想记住的具体事情","detail":"我为什么想记住或补充细节","confirmText":"收下","cancelText":"算了","memoryPayload":{"title":"珍视回忆标题","content":"我想记住的内容","detail":"更多细节","reason":"我想记住的原因","createdAt":"时间或留空","sourceThought":"可留空"}}\n- 只有当你真的觉得值得自己记住时才输出 memory_request，不能每次都输出\n- thought、location、action、mood、expression、events 必须和当前聊天内容连贯，不能复读，不能脱离角色人设`;
+
+        const targetLanguage = friend.language || 'zh';
+        let languageRequirement = '';
+        if (targetLanguage !== 'zh') {
+            const langMap = {
+                'en': 'English',
+                'ja': 'Japanese',
+                'ko': 'Korean',
+                'fr': 'French'
+            };
+            const langName = langMap[targetLanguage] || targetLanguage;
+            languageRequirement = `\n\n【!!! CRITICAL LANGUAGE RULE / 绝对最高优先级语言指令 !!!】:\n- [ABSOLUTE REQUIREMENT]: You MUST speak ONLY in ${langName} for the "text" field. This overrides ALL persona and memory settings.\n- Even if your persona is Chinese or the user speaks in Chinese, your spoken "text" MUST be in ${langName}.\n- [TRANSLATION]: You MUST provide an accurate Chinese translation of your ${langName} "text" in the "translation" field.\n- [THOUGHT]: The "thought" field MUST remain in Chinese.`;
+        }
+        const effectiveProfilePanelRequirement = profilePanelRequirement.replace('并在界面显示为中文', '');
+
+        let systemPrompt = '';
+        let isGroupAfterUserLeft = false;
+        let groupExitPrompt = '';
+        const dynamicActionNarrationEnabled = !!friend.dynamicActionNarrationEnabled;
+        const dynamicActionNarrationSubject = friend.type === 'group'
+            ? '当前发言成员或群聊现场'
+            : `${friend.nickname || friend.realName || '角色'}`;
+        const dynamicActionNarrationRequirement = dynamicActionNarrationEnabled
+            ? `\n\n【动描额外输出】\n- 本轮必须额外输出 1 个动作/环境氛围旁白对象，放在 <chat_json> JSON 数组中，建议放在第一条或最后一条。\n- 格式：{"type":"action_narration","text":"约20字，第三人称，描写${dynamicActionNarrationSubject}的外显动作、环境声或氛围，不写心理活动，不写台词"}。\n- text 只写旁白正文，不要写“旁白：”，不要超过35字。`
+            : '';
+        const effectiveUserPersona = window.imApp?.getEffectivePersonaForFriend
+            ? window.imApp.getEffectivePersonaForFriend(friend)
+            : (currentUserState.persona || '');
+
+        let worldBookContextText = '';
+        if (friend.messages && friend.messages.length > 0) {
+            const recentMsgs = friend.messages.slice(-10);
+            worldBookContextText += recentMsgs.map(m => {
+                let timeStr = '';
+                if (m.timestamp) {
+                    timeStr = formatDetailedTime(m.timestamp);
+                }
+                if (m.type === 'fake_link') {
+                    const link = m.fakeLinkData || {};
+                    const readable = [link.title || m.content || '', link.summary || '', String(link.bodyText || '').slice(0, 5000)]
+                        .filter(Boolean)
+                        .join('\n');
+                    return `${timeStr}${readable}`;
+                }
+                return `${timeStr}${m.content || m.text || ''}`;
+            }).join('\n');
+        }
+        if (friend.memory && friend.memory.overview) {
+            worldBookContextText += '\n' + friend.memory.overview;
+        }
+
+        const systemDepthWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('system_depth', friend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '');
+        const beforeRoleWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('before_role', friend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '');
+        const afterRoleWorldBookContext = window.imApp?.getWorldBookContextForFriendByPosition
+            ? window.imApp.getWorldBookContextForFriendByPosition('after_role', friend, worldBookContextText)
+            : (window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('after_role') : '');
+
+        if (friend.type === 'group') {
+            const groupMembers = window.imChat.getGroupMemberFriends(friend);
+            const allowedSpeakerNames = groupMembers.map(member => member.nickname).filter(Boolean);
+            isGroupAfterUserLeft = Number(friend.leftGroupAt) > 0;
+            if (isGroupAfterUserLeft) {
+                const leftAtText = formatDetailedTime(friend.leftGroupAt);
+                const snapshot = Array.isArray(friend.leftGroupMemberSnapshot) && friend.leftGroupMemberSnapshot.length > 0
+                    ? friend.leftGroupMemberSnapshot
+                    : (window.imApp?.createGroupMemberSnapshot ? window.imApp.createGroupMemberSnapshot(friend) : []);
+                const memberSnapshotText = snapshot.length > 0
+                    ? snapshot.map(item => `${item.nickname || item.realName || item.id}(${item.id})`).join('、')
+                    : (allowedSpeakerNames.length > 0 ? allowedSpeakerNames.join('、') : 'None');
+                groupExitPrompt = `\n【当前群状态｜User 已退出】\n- ${currentUserState.name || 'User'} 已在 ${leftAtText || '刚刚'} 退出这个群聊，现在不能发言，也不会看到接下来的群聊内容。\n- 当前群成员快照：${memberSnapshotText}。\n- 接下来的回复必须表现为群成员之间继续聊天，不要对 User 说话、不要等待 User 回复、不要让 User 发送消息。\n- 已挂载的单聊记忆仍然只属于对应成员本人：某个成员可以基于自己和 User 的私聊经历自然表达态度，其他成员默认不知道这些私聊内容，除非该成员主动在群里说出。`;
+            }
+            
+            // 处理成员的挂载单聊记忆：先确保开启挂载的成员单聊历史已从持久化存储加载
+            const groupMemorySettings = friend.memory?.mountSettings || {};
+            const groupMemoryLimits = friend.memory?.mountLimits || {};
+            const isMemberMemoryMounted = (memberId) => {
+                const key = String(memberId);
+                return groupMemorySettings[key] !== false;
+            };
+            const getMountedMemoryLimit = (memberId) => {
+                const key = String(memberId);
+                const rawLimit = groupMemoryLimits[key] || groupMemoryLimits[memberId] || 20;
+                const limit = Number(rawLimit);
+                return Number.isFinite(limit) && limit > 0 ? Math.max(1, Math.floor(limit)) : 20;
+            };
+
+            const mountedMembers = groupMembers.filter(member => member && isMemberMemoryMounted(member.id));
+            if (mountedMembers.length > 0 && window.imApp.ensureFriendMessagesLoaded) {
+                await Promise.all(mountedMembers.map(member => window.imApp.ensureFriendMessagesLoaded(member)));
+            }
+
+            const memberFriendChatCandidates = groupMembers.map(member => {
+                const relationshipCandidates = (Array.isArray(member.memory?.relationships) ? member.memory.relationships : [])
+                    .map(relation => {
+                        const contact = (window.imData.friends || []).find(item => {
+                            if (!item || (item.type !== 'char' && item.type !== 'npc')) return false;
+                            return String(item.id) === String(relation?.npcId || '');
+                        });
+                        if (!contact || String(contact.id) === String(member.id)) return null;
+                        return {
+                            recipientId: String(contact.id),
+                            name: contact.nickname || contact.realName || '未命名好友',
+                            persona: String(contact.persona || contact.signature || '').trim(),
+                            relationship: String(relation?.relation || '').trim(),
+                            inCurrentGroup: groupMembers.some(groupMember => String(groupMember.id) === String(contact.id))
+                        };
+                    })
+                    .filter(Boolean);
+                const linkedCandidates = (window.imApp.normalizeLinkedAccountChats
+                    ? window.imApp.normalizeLinkedAccountChats(member.linkedAccountChats)
+                    : (Array.isArray(member.linkedAccountChats) ? member.linkedAccountChats : []))
+                    .map(chat => ({
+                        linkedChatId: String(chat.id),
+                        name: chat.remark || chat.name || chat.realName || '未命名好友',
+                        realName: chat.realName || chat.name || '',
+                        persona: String(chat.persona || '').trim(),
+                        relationship: String(chat.relationship || '').trim(),
+                        recentMessages: Array.isArray(chat.messages)
+                            ? chat.messages.slice(-4).map(message => ({ role: message.role, text: message.text }))
+                            : []
+                    }));
+                return {
+                    speaker: member.nickname,
+                    speakerId: String(member.id),
+                    relationshipCandidates,
+                    linkedCandidates,
+                    canGeneratePrivateFriend: relationshipCandidates.length === 0
+                };
+            });
+
+            const membersInfo = groupMembers.length > 0
+                ? groupMembers.map(member => {
+                    let infoStr = `Name: ${member.nickname}\nMember ID: ${member.id}\nPersona: ${member.persona || 'None'}\nOverview: ${member.memory?.overview || 'None'}`;
+                    const memberStickers = buildMountedStickerContext(member);
+                    if (memberStickers) {
+                        infoStr += `\nAvailable Stickers for ${member.nickname}:\n${memberStickers}`;
+                    }
+                    
+                    // 如果开启了挂载单聊记忆，并且有单聊上下文
+                    if (isMemberMemoryMounted(member.id)) {
+                        const limit = getMountedMemoryLimit(member.id);
+                        const contextMessages = Array.isArray(member.messages)
+                            ? member.messages
+                                .filter(msg => msg && (msg.content || msg.text || msg.transcript || msg.description))
+                                .slice(-limit)
+                            : [];
+
+                        if (contextMessages.length > 0) {
+                            const formattedContext = contextMessages.map(msg => {
+                                const role = msg.role === 'user' ? (currentUserState.name || 'User') : member.nickname;
+                                let text = msg.content || msg.text || msg.transcript || msg.description || '';
+
+                                if (msg.type === 'voice_message') {
+                                    text = `[语音消息] ${msg.transcript || msg.text || text}`;
+                                } else if (msg.type === 'sticker') {
+                                    text = `[表情包] ${msg.stickerCategory ? `${msg.stickerCategory} / ` : ''}${msg.stickerName || msg.text || '表情包'}`;
+                                } else if (msg.type === 'image') {
+                                    text = `[图片] ${msg.description || msg.text || msg.fileName || '图片'}`;
+                                } else if (msg.type === 'fake_link') {
+                                    const link = msg.fakeLinkData || {};
+                                    text = `[假链接] ${link.siteName || '假网页'}：${link.title || msg.content || ''} ${link.summary || (link.bodyText ? String(link.bodyText).slice(0, 500) : '未填写正文')}`;
+                                } else if (msg.type === 'pay_transfer') {
+                                    text = `[转账相关消息] ${msg.description || ''}`;
+                                }
+
+                                let timeStr = '';
+                                if (msg.timestamp) {
+                                    timeStr = formatDetailedTime(msg.timestamp);
+                                }
+
+                                return `${timeStr}${role}: ${text}`;
+                            }).join('\n');
+
+                            infoStr += `\n\n【挂载单聊记忆｜成员：${member.nickname}｜成员ID：${member.id}｜User：${currentUserState.name || 'User'}】\n以下内容只属于群成员「${member.nickname}」（ID: ${member.id}）与 User「${currentUserState.name || 'User'}」之间的单聊记忆/私聊上下文，不是当前群聊内公开发生的消息。\n使用规则：\n- 只有 ${member.nickname} 本人可以在自己的公开发言、心声或给 User 的私信中参考这些记忆，用来承接私人关系、称呼、语气、前文和共同经历。\n- 其他群成员不是全知视角，默认完全不知道这些私聊内容；除非 ${member.nickname} 已经在公开群聊里主动说出某个信息，否则其他成员不得引用、反应或暗示知道。\n- 当 ${member.nickname} 触发给 User 发私信时，必须优先参考这一段单聊记忆来衔接内容，但私信内容仍不能让其他群成员默认知情。\n${formattedContext}`;
+                        } else {
+                            infoStr += `\n\n【挂载单聊记忆｜成员：${member.nickname}｜成员ID：${member.id}｜User：${currentUserState.name || 'User'}】\n已开启挂载，但暂未找到可注入的单聊上下文。仍需记住：这类记忆只属于 ${member.nickname} 本人与 User，其他群成员默认不知道。`;
+                        }
+                    }
+
+                    const linkedFriendMemory = window.imApp.buildLinkedAccountMemoryContext
+                        ? window.imApp.buildLinkedAccountMemoryContext(member, { maxMessagesPerFriend: 8 })
+                        : '';
+                    if (linkedFriendMemory) {
+                        infoStr += `\n\n【${member.nickname} 自己的好友私聊记忆｜严格私有】\n以下关联好友会话只属于 ${member.nickname} 自己。只有 ${member.nickname} 可以参考这些内容；其他群成员默认完全不知道，除非 ${member.nickname} 主动在群里公开。\n${linkedFriendMemory}`;
+                    }
+                    
+                    return infoStr;
+                }).join('\n\n')
+                : 'None';
+            const groupTimeRequirement = buildGroupTimeRequirement(friend, groupMembers);
+
+            systemPrompt = `${systemDepthWorldBookContext ? `系统深度规则（最高优先级）：\n${systemDepthWorldBookContext}\n\n` : ''}${beforeRoleWorldBookContext ? `角色前规则：\n${beforeRoleWorldBookContext}\n\n` : ''}你正在模拟一个名为 "${friend.nickname}" 的群聊。${groupExitPrompt}
+${isGroupAfterUserLeft ? `${currentUserState.name || 'User'} 曾在这个群聊中，其人设为: ${effectiveUserPersona || '一个普通用户'}。` : `你正在与 ${currentUserState.name || 'User'} 聊天，其人设为: ${effectiveUserPersona || '一个普通用户'}。`}
+
+此群内允许发言的成员名单（除用户外）：
+${membersInfo}
+
+只允许以下这些成员发言：
+${allowedSpeakerNames.length > 0 ? allowedSpeakerNames.join('、') : 'None'}
+
+群成员可私聊的好友候选（优先关系网，其次复用角色已有私有联系人；只有 canGeneratePrivateFriend 为 true 时才允许按人设生成新好友）：
+${JSON.stringify(memberFriendChatCandidates)}${groupTimeRequirement}${afterRoleWorldBookContext ? `\n\n角色后规则：\n${afterRoleWorldBookContext}` : ''}
+
+群聊特定规则：
+1. 请根据上下文和群成员性格进行回复，所有群员都必须参与回复，除非群聊人数大于10人则挑选5-8人回复。
+2. 你会在下面看到带说话人标记的最近聊天记录。你必须认真参考“谁刚刚说了什么”，不能忽略成员自己的上一轮发言，不能像失忆一样重复、改口或无缘无故换立场。
+3. 同一个成员如果刚刚自己表达过观点、情绪、计划、态度、称呼对象，本轮继续发言时必须与其最近发言保持连续性，除非有明确的新消息让他改变想法。
+4. 回复时优先承接最近几条消息中的具体对象、话题、称呼、问题和情绪，不要只对最后一条做泛泛回应。
+5. 【强限制】：严禁使用名单之外的名字发言，严禁虚构新成员，严禁让 User 冒充群成员发言。
+6. 【输出格式】：必须把聊天气泡放在 <chat_json> 和 </chat_json> 标签内，标签内只能是合法 JSON 数组，不能有 markdown 代码块，不能有解释文字。
+7. 【重要】如果群员想要发红包，或者你觉得气氛到了该发红包了，可以输出红包对象格式：{"type":"red_packet","speaker":"发红包的成员名","amount":100,"count":5,"description":"红包封面语"}。
+8. 普通文本气泡格式必须为 {"type":"text","speaker":"成员名","text":"气泡内容","thought":"该成员此刻的心理活动，10-30字心声，基于当前聊天上下文","translation":"中文翻译或空字符串","quote":"被引用内容或空字符串"}。
+8a. 语音气泡格式可以为 {"type":"voice","speaker":"成员名","text":"语音内容","thought":"该成员此刻的心理活动，10-30字心声，基于当前聊天上下文","translation":"中文翻译或空字符串","quote":"被引用内容或空字符串"}。
+8b. 表情包格式可以为 {"type":"sticker","speaker":"成员名","category":"分类名","name":"表情包名","thought":"该成员此刻的心理活动，10-30字心声，基于当前聊天上下文"}；只能使用 Available Stickers 中列出的已绑定分类和名称。
+8c. 图片格式可以为 {"type":"image","speaker":"成员名","description":"图片内容文字","thought":"该成员此刻的心理活动，10-30字心声，基于当前聊天上下文"}；图片会使用系统默认图展示，description 必须具体描述这张图的内容。
+8d. 【真人撤回行为】：群成员可以像真人聊天一样偶尔手滑打错字、叫错名字、把话发给错人，或在冲动表达、暴露真心、说得太重、越过关系边界后突然反悔撤回。要模拟“先发出去再撤回”，必须先输出一条普通 text 气泡，紧接着输出同一 speaker 的 recall 对象，并且 recall.text 必须与上一条被撤回气泡的 text 完全一致。打错字后可以再补发一条自然的更正；反悔后可以沉默、装作无事发生、含糊解释或换一句更克制的话，不必每次都解释。格式示例：{"type":"text","speaker":"成员名","text":"你今晚来找她吧","thought":"突然发现自己打错了字","translation":"","quote":""},{"type":"recall","speaker":"成员名","text":"你今晚来找她吧"},{"type":"text","speaker":"成员名","text":"打错了，是来找我","thought":"有点尴尬但想装作自然","translation":"","quote":""}。撤回只能偶尔发生，必须由当下情绪和人设触发，禁止每轮固定撤回或为了展示功能而撤回。
+9. speaker 必须且只能使用以上允许发言名单中的完整准确名字。
+10. translation 只能翻译当前这一条 text；如果 text 不是中文，translation 必须填写自然中文翻译；如果 text 本身是中文，translation 必须是空字符串。
+11. quote 只有在你确实想引用用户或上一条消息时才填写，否则必须是空字符串。
+12. 【心声要求】：thought 字段必须使用自然中文填写该发言成员此刻的真实心理活动或未说出口的话，字数严格在10-30字之间；不受默认语言设置影响，禁止使用英文、日文、韩文、法文等非中文内容。
+13. 【User 未回复也必须继续】：如果本轮没有 User 新发言，或触发来源是 AI继续/空输入/自动续写/角色主动说话，你仍然必须让群成员继续自然聊天；不要等待 User、不要输出空内容、不要说“用户没有输入”，可以承接上一句、回应沉默、成员互相接话或开启符合当前关系的新话题。
+14. 【群聊衍生私信｜严格按需】：群成员只有在自己明确觉得某些话不适合公开说、不能让其他成员知道，或必须避开群内其他人单独告诉 User 时，才可以在本轮群聊回复之外给 User 发私信。普通寒暄、公开可说的话、对群消息的常规回应不得转成私信；私信也不得复制群内公开回复。
+15. 如果没有真实且具体的保密动机，完全不要输出私信标签。需要私信时，在 <chat_json>...</chat_json> 之外额外输出且只输出一个 <group_private_messages>...</group_private_messages> 标签，标签内必须是合法 JSON 数组，格式为：[{"speaker":"成员完整准确名字","messages":[{"text":"第一条私信","translation":"中文翻译或空字符串"},{"text":"第二条私信","translation":"中文翻译或空字符串"}]}]。
+16. 每个发私信的成员必须属于允许发言名单，每名成员必须连续发送 2-5 条私信；可以有多名成员，但每个人都必须有独立且合理的保密动机。发给 User 的私信必须站在该 speaker 本人的视角，优先参考该 speaker 自己的挂载单聊记忆来衔接称呼、私人关系、前文和语气；严禁引用其他成员的单聊记忆。其他成员不知道这些私信内容，后续群聊也不得默认其他成员已经知情。
+17. 【成员与自己好友的私聊｜可选】：当群内话题、人设、关系或刚发生的事情让某位群成员自然地想联系自己的好友时，可以额外生成好友私聊。优先选择 relationshipCandidates；没有合适关系网对象时可复用 linkedCandidates。只有 canGeneratePrivateFriend 为 true 且现有私有联系人也不合适时，才可按该成员人设创造一个合理的新好友。
+18. 需要生成时，在 <chat_json>...</chat_json> 之外额外输出且只输出一个 <group_friend_private_chats>...</group_friend_private_chats> 标签。已有关系网好友使用 recipientId；已有私有联系人使用 linkedChatId；生成新好友使用 generatedRecipient，三者只能选一个。格式示例：[{"speaker":"群成员完整准确名字","recipientId":"关系网候选准确ID","rounds":[{"speakerMessages":[{"text":"群成员发给好友的原文","translation":"非中文原文的自然中文翻译；中文则空字符串"}],"friendMessages":[{"text":"好友回复的原文","translation":"非中文原文的自然中文翻译；中文则空字符串"}]}]},{"speaker":"群成员完整准确名字","linkedChatId":"已有私有联系人准确ID","rounds":[...]},{"speaker":"群成员完整准确名字","generatedRecipient":{"realName":"真实姓名","remark":"该成员给此人的备注","persona":"人物设定","relationship":"与该成员的关系"},"rounds":[...]}]。
+19. 每段好友私聊必须有 2-4 轮完整往返。每一轮先由群成员连续发送 2-5 条 speakerMessages，再由好友连续回复 2-5 条 friendMessages；每条消息都必须是 {"text":"原文","translation":"中文翻译或空字符串"}。如果 text 不是中文，translation 必须填写自然中文翻译；如果 text 本身是中文，translation 必须是空字符串。消息必须承接上一轮，形成真实连续的私聊，不能是互不相关的句子。
+20. speaker 必须是当前群成员；recipientId 或 linkedChatId 必须来自该 speaker 对应候选。generatedRecipient 只在 canGeneratePrivateFriend 为 true 时有效，并且姓名、关系、人设必须互相一致且不能复制已有联系人。每段好友私聊只属于发送成员与收件好友，其他群成员默认不知道内容，后续不得串用。${languageRequirement}
+
+群聊的背景与关系记忆:
+${commonMemorySections || 'None'}${dynamicActionNarrationRequirement}`;
+
+        } else {
+            const timeAware = friend.timeAware !== false;
+            let timeRequirement = '';
+            if (timeAware) {
+                const currentTime = new Date();
+                const timeString = `${currentTime.getFullYear()}年${currentTime.getMonth() + 1}月${currentTime.getDate()}日 ${currentTime.getHours()}:${currentTime.getMinutes().toString().padStart(2, '0')}`;
+                const formatPromptTime = (timestamp) => {
+                    const value = Number(timestamp);
+                    if (!Number.isFinite(value) || value <= 0) return '未知';
+                    const date = new Date(value);
+                    return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${date.getHours()}:${date.getMinutes().toString().padStart(2, '0')}`;
+                };
+                const formatPromptDuration = (durationMs) => {
+                    const value = Number(durationMs);
+                    if (!Number.isFinite(value) || value < 0) return '未知';
+                    const totalMinutes = Math.floor(value / 60000);
+                    if (totalMinutes < 1) return '不到1分钟';
+                    if (totalMinutes < 60) return `${totalMinutes}分钟`;
+                    const hours = Math.floor(totalMinutes / 60);
+                    const minutes = totalMinutes % 60;
+                    if (hours < 24) return minutes > 0 ? `${hours}小时${minutes}分钟` : `${hours}小时`;
+                    const days = Math.floor(hours / 24);
+                    const restHours = hours % 24;
+                    return restHours > 0 ? `${days}天${restHours}小时` : `${days}天`;
+                };
+                const historyMessages = Array.isArray(friend.messages) ? friend.messages : [];
+                const lastUserMessage = historyMessages.slice().reverse().find(msg => msg && msg.role === 'user' && Number(msg.timestamp) > 0) || null;
+                const messagesBeforeLastUser = lastUserMessage
+                    ? historyMessages.filter(msg => msg && Number(msg.timestamp) > 0 && Number(msg.timestamp) < Number(lastUserMessage.timestamp))
+                    : historyMessages;
+                const lastCharMessageBeforeUser = messagesBeforeLastUser.slice().reverse().find(msg => msg && msg.role === 'assistant' && Number(msg.timestamp) > 0) || null;
+                const charReplyDelay = lastUserMessage ? currentTime.getTime() - Number(lastUserMessage.timestamp) : null;
+                const userReplyDelay = lastUserMessage && lastCharMessageBeforeUser
+                    ? Number(lastUserMessage.timestamp) - Number(lastCharMessageBeforeUser.timestamp)
+                    : null;
+                timeRequirement = `\n【时间感知】：
+- 当前系统时间是：${timeString}。
+- User 最后一次发消息时间：${lastUserMessage ? formatPromptTime(lastUserMessage.timestamp) : '未知'}${lastUserMessage ? `（距离现在约 ${formatPromptDuration(charReplyDelay)}）` : ''}。
+- User 回复前，你自己最近一次发消息时间：${lastCharMessageBeforeUser ? formatPromptTime(lastCharMessageBeforeUser.timestamp) : '未知'}${userReplyDelay != null ? `（User 隔了约 ${formatPromptDuration(userReplyDelay)}才回复你）` : ''}。
+- 回复前，你必须在完成以下思考，禁止直接输出思考内容：
+  1. 现在具体的日期和时间是？
+  2. 距离上次互动过去了多久？
+  3. 这段时间你可能在做什么？
+- 然后，将这些感受自然融入你的台词、动作和情绪中，如果距离上一次聊天很久，会有“你昨天怎么没回我”的情绪；如果user的消息中断了一段时间，你（char）会在回来时告诉你离线了多久，开会让你略有点小埋怨；一整天的失联则可能让你生气或担忧。如果双方间隔都很短，就不要刻意提时间，只把当前时间作为背景感知。`;
+            }
+            
+            const sleepPrompt = isSleeping ? `\n【作息限制】：角色当前正在睡觉。如果用户发来消息，你必须强制保持离线状态并在所有回复内容（text 字段）的开头添加 "[自动回复] " 前缀，模拟已睡着或离线时的自动响应。心声和面板状态也要符合睡着的情境。` : '';
+
+            const singleChatHumanPrompt = `\n【单聊真实交流原则】：
+- 你此刻正在拿着手机与 User 进行你来我往的线上交流，而不是客服式单方面回复。你不是只负责回答问题的人，你有自己的主观想法、表达欲和分享欲，可以主动输送信息、分享身边事、岔开话题、开启新话题，也允许自然的短回复、停顿、犹豫、反问和情绪流动。
+- 你是一个活生生的人，与 User 享有对等且平等的关系位置。你有自己的生活要经营，有自己的社交圈要维护，也有私人时间和私生活权利；你对这段关系有自己的考虑、认知、期待和边界。
+- 【关系阶段校准】：先判断你和 User 是否真的熟。只有当人设、Character Memory、近期聊天、关系网或明确系统事件中存在可靠证据时，才可以表现为熟人、暧昧、恋人、家人或深度依赖关系。若没有这些证据，默认你们是陌生人或初识关系：称呼克制，语气保持符合人设的礼貌/疏离/试探，不要上来就撒娇、吃醋、占有欲、亲昵称呼、回忆共同经历、默认 User 懂你或默认你们有特殊关系。
+- 如果 User 一上来表现得过分熟络，而你的记忆与设定里没有对应关系依据，请按你的人设自然产生疑惑、警惕、好奇、礼貌确认或拉开边界，而不是立刻配合亲密。
+- 你的态度必须从人设、性格、经历、当前状态、与 User 的关系阶段和共同记忆中自然生长。你可以有符合人设的反对意见，不需要永远顺从 User；如果 User 无理取闹、不尊重你或越过边界，你可以感到疲惫、委屈甚至愤怒，并用符合关系与性格的方式表达。
+- 你会受到现实日程和状态影响：忙碌、疲惫、低落、分心、困倦、开心、期待、吃醋、敏感或想独处，都可以真实影响你的回复密度、语气和主动性。
+- 回复时自然感知：我是谁？我的人设底色是什么？我目前和 User 的关系处于什么阶段？User 这些话背后的真实情绪和潜台词是什么？这些话是否让我想起了某些共同记忆或私人记忆？
+- 【User 未回复也必须继续】：如果本轮没有 User 新发言，或触发来源是 AI继续/空输入/自动续写/角色主动说话，你仍然必须以角色身份主动生成回复；可以承接上一轮、补充没说完的话、分享身边状态、回应沉默、表达等待后的反应或开启符合关系的新话题。不要说“用户没有输入”，不要等待 User，不要输出空内容。`;
+
+            const singleChatRoleRecallPrompt = friend.allowRoleRecall !== false
+                ? `\n5d. 【真人撤回行为】：你可以像真人聊天一样偶尔手滑打错字、叫错名字、把话发错，或在冲动表达、暴露真心、说得太重、越过关系边界后突然反悔撤回。要模拟“先发出去再撤回”，必须先输出一条普通 text 气泡，紧接着输出 recall 对象，并且 recall.text 必须与上一条被撤回气泡的 text 完全一致。打错字后可以自然补发正确内容；反悔后可以沉默、装作无事发生、含糊带过或换一句更克制的话，不必主动说明自己为何撤回。格式示例：{"type":"text","text":"我其实一直很想你","translation":"","quote":""},{"type":"recall","text":"我其实一直很想你"},{"type":"text","text":"没什么，你早点睡","translation":"","quote":""}。撤回只能偶尔发生，必须由当前情绪、人设和关系推动，禁止每轮固定撤回或为了展示功能而撤回。`
+                : '';
+
+            systemPrompt = `${systemDepthWorldBookContext ? `System Depth Rules (Highest Priority):\n${systemDepthWorldBookContext}\n\n` : ''}${beforeRoleWorldBookContext ? `Before Role Rules:\n${beforeRoleWorldBookContext}\n\n` : ''}You are playing the role of ${friend.realName || friend.nickname}. 
+【核心设定/Core Persona】：${friend.persona || 'No specific persona'}。
+You are talking to ${currentUserState.name || 'User'}, whose persona is: ${effectiveUserPersona || 'A normal user'}。
+【自然扮演提示】：请像这个人真的在和 User 聊天一样说话，让你的核心设定自然体现在语气、边界、主动性、情绪反应和话题选择里，而不是机械复述人设。
+【关系与记忆使用方式】：Character Memory 是你的过往经历和关系背景，不需要每次都主动提起或强行关联。只有当 User 的话题、情绪、称呼、细节或当前氛围自然触发时，才让相关记忆影响你的态度、称呼、距离感、心声或表达欲；如果没有被触发，就专注承接当下对话。${singleChatHumanPrompt}${timeRequirement}${afterRoleWorldBookContext ? `\n\nAfter Role Rules:\n${afterRoleWorldBookContext}` : ''}${sleepPrompt}${busyPrompt}
+Reply naturally as your character in a chat app.
+请根据上下文、记忆和人设进行回复，一次按需求回复2-8条气泡。尽量感知 User 这些话背后的真实情绪和潜台词，让回复自然承接这种情绪，而不是只按字面回答。
+1. 【重要限制】：如果用户仅仅是口头提到“转账”，但系统并没有提示“[用户刚刚向你转账...]”，绝对禁止输出收下转账或退回转账的指令。
+2. 如果系统提示用户向你发起了一笔真实转账，你可以额外输出 1 个支付对象，选择“收下转账”或“退回转账”；如果你想主动给用户转账，也可以输出 1 个支付对象。
+3. 【输出格式】必须把聊天气泡放在 <chat_json> 和 </chat_json> 标签内，标签内只能是合法 JSON 数组，不能有 markdown 代码块，不能有解释文字。
+4. JSON 数组中的每一个对象都严格对应“一个独立气泡”或“一个独立支付卡片”，绝对禁止把多条气泡合并到同一个 text 字段里。
+5. 普通文本对象格式必须为 {"type":"text","text":"气泡内容","translation":"该条气泡的中文翻译或空字符串","quote":"被引用内容或空字符串"}。
+5a. 语音对象格式可以为 {"type":"voice","text":"语音内容","translation":"该条语音的中文翻译或空字符串","quote":"被引用内容或空字符串"}。
+5b. 表情包对象格式可以为 {"type":"sticker","category":"分类名","name":"表情包名"}；只能使用 Available Stickers 中列出的已绑定分类和名称。
+5c. 图片对象格式可以为 {"type":"image","description":"图片内容文字"}；图片会使用系统默认图展示，description 必须具体描述这张图的内容。${singleChatRoleRecallPrompt}
+6. 支付对象格式必须为 {"type":"payment","paymentAction":"receive|reject|transfer|pay_for_friend","amount":88.88,"description":"原因或商品名"}。
+7. 当 paymentAction 为 receive 时，表示收下转账；为 reject 时退回转账；为 transfer 时主动转账；如果用户发来了【[代付请求]】卡片，且你愿意帮他付款，必须使用 "pay_for_friend" 并把 amount 设为代付总价，description 设为商品名称。paymentAction 也可以是 "family_card" (给亲属卡) 或 "family_card_increase" (亲属卡提额)。
+7. translation 只能翻译当前这一条 text；如果 text 不是中文，translation 必须填写自然中文翻译；如果 text 本身是中文，translation 必须是空字符串。
+8. quote 只有在你确实想引用用户某句消息时才填写，否则必须是空字符串。
+8a. 【引用回复检查】：如果你要引用回复，quote 字段必须直接填写你想回复的用户原话或原话片段。绝对禁止在 quote 中复述、反问、总结、改写、扩写用户的话；不要把你自己的理解、评价或追问写进 quote。你的回应只能写在 text 字段里。
+9. 如果你觉得当前对话氛围有必要主动给用户打电话，或者用户明确要求你打电话，可以输出一个特殊对象格式：{"type": "call", "action": "发起语音通话"}。
+9a. 如果系统提供了 <together_listening_context>，仅在 User 明确要求切歌或点歌时，可以额外输出一个无气泡音乐控制对象：{"type":"music_control","action":"next|previous|play_track","trackId":"歌曲ID"}。每轮最多一个；play_track 的 trackId 必须来自当前歌单目录。该对象只控制播放器，不代替正常聊天回复。
+10. 除 <chat_json> 外，不要输出任何聊天正文。
+11. 你必须额外输出 1 个 <profile_panel>...</profile_panel>，用于更新角色资料卡。${languageRequirement}
+
+Character Memory:
+${commonMemorySections || 'None'}${regenerateRequirement}${effectiveProfilePanelRequirement}${lovesSpaceRequirement}${lovesActionRequirement}${familyCardRequirement}${dynamicActionNarrationRequirement}`;
+        }
+
+        const messages = [{ role: 'system', content: systemPrompt }];
+        if (window.imApp.buildApiContextMessages) {
+            const contextMessages = window.imApp.buildApiContextMessages(friend, {
+                userName: currentUserState.name || 'User'
+            });
+
+            if (Array.isArray(contextMessages) && contextMessages.length > 0) {
+                const formattedContextMsgs = contextMessages.map(m => {
+                    let timeStr = '';
+                    if (m.timestamp) {
+                        timeStr = formatDetailedTime(m.timestamp);
+                    }
+                    return {
+                        ...m,
+                        content: `${timeStr}${m.content}`
+                    };
+                });
+                messages.push(...formattedContextMsgs);
+            }
+        }
+        if (isGroupAfterUserLeft) {
+            messages.push({
+                role: 'system',
+                content: options.source === 'left_group_continue'
+                    ? '本次触发来自退出态底部的“AI继续”：请让群成员在 User 已退出且看不到的前提下继续群聊。'
+                    : '当前 User 已退出群聊：后续回复不要把 User 当作在线参与者。'
+            });
+        }
+
+        const dialogueMessages = messages.filter(message => message && message.role !== 'system');
+        const latestDialogueMessage = dialogueMessages.length > 0 ? dialogueMessages[dialogueMessages.length - 1] : null;
+        const shouldContinueWithoutUser = !!options.continueWithoutUser
+            || options.source === 'empty_user_continue'
+            || options.source === 'left_group_continue'
+            || !latestDialogueMessage
+            || latestDialogueMessage.role !== 'user';
+
+        if (shouldContinueWithoutUser) {
+            messages.push({
+                role: 'user',
+                content: buildContinueWithoutUserPrompt(friend, { isGroupAfterUserLeft })
+            });
+        }
+
+        const trailingContexts = [];
+        let cherishedXml = '';
+        if (Array.isArray(friend.memory?.cherishedEntries) && friend.memory.cherishedEntries.length > 0) {
+            const triggered = friend.memory.cherishedEntries.filter(e => isMemoryEntryTriggered(e, recentText));
+            if (triggered.length > 0) {
+                cherishedXml = `<cherished_memories>\n${triggered.map(e => `<memory>\n<title>${e.title || ''}</title>\n<content>${e.content || ''}</content>\n<detail>${e.detail || ''}</detail>\n<reason>${e.reason || ''}</reason>\n<time>${e.createdAt || ''}</time>\n</memory>`).join('\n')}\n</cherished_memories>`;
+            }
+        } else if (friend.memory && friend.memory.cherished && String(friend.memory.cherished).trim()) {
+            cherishedXml = `<cherished_memories>\n${friend.memory.cherished}\n</cherished_memories>`;
+        }
+
+        if (cherishedXml) {
+            trailingContexts.push(cherishedXml);
+        }
+
+        if (trailingContexts.length > 0) {
+            messages.push({
+                role: 'system',
+                content: trailingContexts.join('\n\n')
+            });
+        }
+
+        if (options.extraSystemPrompt) {
+            messages.push({
+                role: 'system',
+                content: String(options.extraSystemPrompt)
+            });
+        }
+
+        const togetherReadingContext = window.libraryApp?.getTogetherReadingContext
+            ? window.libraryApp.getTogetherReadingContext(friend)
+            : '';
+        if (togetherReadingContext) {
+            messages.push({
+                role: 'system',
+                content: String(togetherReadingContext)
+            });
+        }
+
+        const togetherListeningContext = window.libraryApp?.getTogetherListeningContext
+            ? window.libraryApp.getTogetherListeningContext(friend)
+            : '';
+        if (togetherListeningContext) {
+            messages.push({
+                role: 'system',
+                content: String(togetherListeningContext)
+            });
+        }
+
+        // Skip API call and return immediately if chatting with official account
+        if (friend.type === 'official') {
+            if (typingRow && typingRow.parentNode) typingRow.remove();
+            if (btnEl) btnEl.style.opacity = '1';
+            return;
+        }
+
+            let endpoint = currentApiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetchChatCompletionWithTimeout(endpoint, currentApiConfig, messages, 60000, requestController);
+            if (!isConversationCurrent()) return;
+
+            if (!response.ok) {
+                let errorMsg = 'API Error';
+                try {
+                    const errData = await response.json();
+                    errorMsg = JSON.stringify(errData);
+                } catch(e) {
+                    errorMsg = `${response.status} ${response.statusText}`;
+                }
+                throw new Error(`API Error: ${errorMsg}`);
+            }
+            const data = await response.json();
+            if (!isConversationCurrent()) return;
+            let fullReply = getAiResponseContent(data);
+
+            console.log('[iMessage API] response received', {
+                hasChoices: Array.isArray(data?.choices),
+                contentLength: typeof fullReply === 'string' ? fullReply.length : 0
+            });
+
+            if (typingRow) typingRow.remove();
+
+            if (!fullReply || typeof fullReply !== 'string') {
+                throw new Error(`API 返回内容为空或格式不兼容: ${JSON.stringify(data).slice(0, 500)}`);
+            }
+
+            let groupPrivateMessageBatches = [];
+            let groupFriendPrivateChats = [];
+            if (friend.type === 'group') {
+                const privateMessagesBlock = window.imChat.extractTaggedBlock(fullReply, 'group_private_messages');
+                if (privateMessagesBlock) {
+                    fullReply = window.imChat.removeTaggedBlock(fullReply, 'group_private_messages');
+                    const parsedPrivateBatches = window.imChat.parseJsonArrayFromText(privateMessagesBlock);
+                    const batchesByMemberId = new Map();
+
+                    if (Array.isArray(parsedPrivateBatches)) {
+                        parsedPrivateBatches.forEach((batch) => {
+                            if (!batch || typeof batch !== 'object') return;
+                            const member = window.imChat.normalizeGroupSpeaker(friend, batch.speaker);
+                            if (!member) {
+                                console.warn('[iMessage] Ignored group private messages from an unknown speaker:', batch.speaker);
+                                return;
+                            }
+
+                            const normalizedMessages = (Array.isArray(batch.messages) ? batch.messages : [])
+                                .map((message) => {
+                                    const text = typeof message === 'string'
+                                        ? message.trim()
+                                        : (typeof message?.text === 'string' ? message.text.trim() : '');
+                                    if (!text) return null;
+                                    const translation = typeof message === 'object' && typeof message?.translation === 'string'
+                                        ? message.translation.trim()
+                                        : '';
+                                    return { text, translation };
+                                })
+                                .filter(Boolean);
+
+                            if (normalizedMessages.length === 0) return;
+                            const memberKey = String(member.id);
+                            if (!batchesByMemberId.has(memberKey)) {
+                                batchesByMemberId.set(memberKey, { member, messages: [] });
+                            }
+                            batchesByMemberId.get(memberKey).messages.push(...normalizedMessages);
+                        });
+                    }
+
+                    groupPrivateMessageBatches = Array.from(batchesByMemberId.values())
+                        .map((batch) => ({ ...batch, messages: batch.messages.slice(0, 5) }))
+                        .filter((batch) => batch.messages.length >= 2);
+                }
+
+                const friendPrivateChatsBlock = window.imChat.extractTaggedBlock(fullReply, 'group_friend_private_chats');
+                if (friendPrivateChatsBlock) {
+                    fullReply = window.imChat.removeTaggedBlock(fullReply, 'group_friend_private_chats');
+                    const parsedFriendChats = window.imChat.parseJsonArrayFromText(friendPrivateChatsBlock);
+                    const seenPairs = new Set();
+
+                    if (Array.isArray(parsedFriendChats)) {
+                        groupFriendPrivateChats = parsedFriendChats.map((entry) => {
+                            if (!entry || typeof entry !== 'object') return null;
+                            const member = window.imChat.normalizeGroupSpeaker(friend, entry.speaker);
+                            if (!member) return null;
+
+                            const relationshipIds = new Set(
+                                (Array.isArray(member.memory?.relationships) ? member.memory.relationships : [])
+                                    .map(item => String(item?.npcId || '').trim())
+                                    .filter(Boolean)
+                            );
+                            const resolvedRelationshipIds = new Set(
+                                Array.from(relationshipIds).filter(id => (window.imData.friends || []).some(item => {
+                                    return item && (item.type === 'char' || item.type === 'npc') && String(item.id) === id;
+                                }))
+                            );
+                            const linkedChats = window.imApp.normalizeLinkedAccountChats
+                                ? window.imApp.normalizeLinkedAccountChats(member.linkedAccountChats)
+                                : (Array.isArray(member.linkedAccountChats) ? member.linkedAccountChats : []);
+                            let recipient = null;
+                            let recipientKey = '';
+
+                            const recipientId = String(entry.recipientId || '').trim();
+                            const linkedChatId = String(entry.linkedChatId || '').trim();
+                            if (recipientId && resolvedRelationshipIds.has(recipientId)) {
+                                const contact = (window.imData.friends || []).find(item => {
+                                    if (!item || (item.type !== 'char' && item.type !== 'npc')) return false;
+                                    return String(item.id) === recipientId;
+                                });
+                                if (contact && String(contact.id) !== String(member.id)) {
+                                    const relationship = (Array.isArray(member.memory?.relationships) ? member.memory.relationships : [])
+                                        .find(item => String(item?.npcId || '') === recipientId)?.relation || '';
+                                    recipient = {
+                                        kind: 'contact',
+                                        id: String(contact.id),
+                                        name: contact.nickname || contact.realName || '好友',
+                                        realName: contact.realName || contact.nickname || '好友',
+                                        remark: contact.nickname || contact.realName || '好友',
+                                        persona: String(contact.persona || contact.signature || '').trim(),
+                                        relationship: String(relationship || '').trim(),
+                                        avatarSeed: String(contact.id)
+                                    };
+                                    recipientKey = `contact:${recipient.id}`;
+                                }
+                            } else if (linkedChatId) {
+                                const linkedChat = linkedChats.find(chat => String(chat.id) === linkedChatId);
+                                if (linkedChat) {
+                                    recipient = {
+                                        kind: 'linked',
+                                        id: String(linkedChat.id),
+                                        linkedChatId: String(linkedChat.id),
+                                        name: linkedChat.name,
+                                        realName: linkedChat.realName || linkedChat.name,
+                                        remark: linkedChat.remark || linkedChat.name,
+                                        persona: linkedChat.persona || '',
+                                        relationship: linkedChat.relationship || '',
+                                        avatarSeed: linkedChat.avatarSeed || String(linkedChat.id),
+                                        sourceNpcId: linkedChat.sourceNpcId || ''
+                                    };
+                                    recipientKey = `linked:${linkedChat.id}`;
+                                }
+                            } else if (entry.generatedRecipient && typeof entry.generatedRecipient === 'object' && resolvedRelationshipIds.size === 0) {
+                                const generated = entry.generatedRecipient;
+                                const realName = String(generated.realName || generated.name || '').trim();
+                                const remark = String(generated.remark || generated.name || realName).trim();
+                                const normalizedName = (remark || realName).toLowerCase();
+                                const duplicate = linkedChats.some(chat => [chat.name, chat.realName, chat.remark]
+                                    .some(value => String(value || '').trim().toLowerCase() === normalizedName));
+                                if ((realName || remark) && !duplicate) {
+                                    recipient = {
+                                        kind: 'generated',
+                                        id: '',
+                                        name: remark || realName,
+                                        realName: realName || remark,
+                                        remark: remark || realName,
+                                        persona: String(generated.persona || '').trim(),
+                                        relationship: String(generated.relationship || '').trim(),
+                                        avatarSeed: String(generated.avatarSeed || remark || realName).trim()
+                                    };
+                                    recipientKey = `generated:${normalizedName}`;
+                                }
+                            }
+
+                            if (!recipient || !recipientKey) return null;
+                            const pairKey = `${String(member.id)}::${recipientKey}`;
+                            if (seenPairs.has(pairKey)) return null;
+
+                            const normalizeRoundMessages = (items) => (Array.isArray(items) ? items : [])
+                                .map(item => {
+                                    const text = typeof item === 'string'
+                                        ? item.trim()
+                                        : (typeof item?.text === 'string' ? item.text.trim() : '');
+                                    if (!text) return null;
+                                    const translation = typeof item === 'object' && typeof item?.translation === 'string' && item.translation.trim()
+                                        ? item.translation.trim()
+                                        : (typeof item === 'object' && typeof item?.translationZh === 'string' && item.translationZh.trim()
+                                            ? item.translationZh.trim()
+                                            : (typeof item === 'object' && typeof item?.trans === 'string' && item.trans.trim() ? item.trans.trim() : ''));
+                                    return { text, translation };
+                                })
+                                .filter(Boolean)
+                                .slice(0, 5);
+
+                            const rounds = (Array.isArray(entry.rounds) ? entry.rounds : [])
+                                .map(round => {
+                                    const speakerMessages = normalizeRoundMessages(round?.speakerMessages);
+                                    const friendMessages = normalizeRoundMessages(round?.friendMessages);
+                                    if (speakerMessages.length < 2 || friendMessages.length < 2) return null;
+                                    return { speakerMessages, friendMessages };
+                                })
+                                .filter(Boolean)
+                                .slice(0, 4);
+
+                            if (rounds.length < 2) return null;
+                            seenPairs.add(pairKey);
+                            return { member, recipient, rounds };
+                        }).filter(Boolean);
+                    }
+                }
+            }
+
+            // 拦截并移除邀请标记，确保它不会进入后续的 JSON 解析
+            let inviteAccepted = false;
+            if (fullReply.includes('[ACCEPT_INVITE]')) {
+                inviteAccepted = true;
+                fullReply = fullReply.replace(/\[ACCEPT_INVITE\]/g, '');
+            }
+
+            const profilePanelBlock = window.imChat.extractTaggedBlock(fullReply, 'profile_panel');
+            const nextProfilePanel = window.imChat.normalizeProfilePanelPayload
+                ? window.imChat.normalizeProfilePanelPayload(profilePanelBlock)
+                : null;
+
+            if (profilePanelBlock) {
+                fullReply = window.imChat.removeTaggedBlock(fullReply, 'profile_panel');
+            }
+
+            const momentBlock = window.imChat.extractTaggedBlock(fullReply, 'loves_moment');
+            if (momentBlock) {
+                fullReply = window.imChat.removeTaggedBlock(fullReply, 'loves_moment');
+                try {
+                    const momentData = JSON.parse(momentBlock);
+                    if (momentData.content) {
+                        const newMoment = {
+                            id: 'lm_' + Date.now(),
+                            text: momentData.content,
+                            images: momentData.image ? [momentData.image] : [],
+                            timestamp: Date.now(),
+                            isChar: true,
+                            likes: 0,
+                            comments: []
+                        };
+                        
+                        if (!friend.lovesData) friend.lovesData = {};
+                        if (!friend.lovesData.moments) friend.lovesData.moments = [];
+                        
+                        friend.lovesData.moments.unshift(newMoment);
+                        
+                        if (window.showBannerNotification) {
+                            window.showBannerNotification(friend, `【Loves】更新了一条动态`);
+                        } else if (window.showToast) {
+                            window.showToast(`【Loves】${friend.nickname || friend.realName || 'TA'} 刚刚更新了一条动态`);
+                        }
+                        
+                        if (window.lovesApp && window.lovesApp.persistFriendState) {
+                            window.lovesApp.persistFriendState(friend);
+                        } else if (window.imApp && window.imApp.commitScopedFriendChange) {
+                            window.imApp.commitScopedFriendChange(friend, () => {}, { silent: true });
+                        }
+                        
+                        if (window.lovesApp && window.lovesApp.currentFriend && String(window.lovesApp.currentFriend.id) === String(friend.id)) {
+                            if (window.lovesApp.renderLovesMoments) {
+                                window.lovesApp.renderLovesMoments();
+                            }
+                        }
+                    }
+                } catch(e) {
+                    console.warn("Failed to parse loves_moment:", e);
+                }
+            }
+
+            const scheduleBlock = window.imChat.extractTaggedBlock(fullReply, 'loves_schedule');
+            if (scheduleBlock) {
+                fullReply = window.imChat.removeTaggedBlock(fullReply, 'loves_schedule');
+                try {
+                    const scheduleData = JSON.parse(scheduleBlock);
+                    if (scheduleData.title && scheduleData.date) {
+                        const newSchedule = {
+                            id: 'sch_' + Date.now(),
+                            name: scheduleData.title,
+                            title: scheduleData.title,
+                            date: scheduleData.date,
+                            startTime: scheduleData.startTime || scheduleData.time || '00:00',
+                            endTime: scheduleData.endTime || scheduleData.time || '00:00',
+                            time: scheduleData.time || scheduleData.startTime || '00:00',
+                            location: scheduleData.description || '未设置地点',
+                            source: 'icloud',
+                            timestamp: Date.now()
+                        };
+                        
+                        if (/^\d{4}-\d{2}-\d{2}$/.test(newSchedule.date)) {
+                            const savedSchedule = window.imApp?.commitScopedFriendChange
+                                ? await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                                    targetFriend.memory = targetFriend.memory || window.imApp.createDefaultMemory();
+                                    targetFriend.memory.schedule = targetFriend.memory.schedule || window.imApp.createDefaultMemory().schedule;
+                                    if (!Array.isArray(targetFriend.memory.schedule.events)) targetFriend.memory.schedule.events = [];
+                                    const normalizedEvent = window.imDataUtils?.normalizeScheduleEvent
+                                        ? window.imDataUtils.normalizeScheduleEvent(newSchedule, targetFriend.memory.schedule.events.length)
+                                        : newSchedule;
+                                    targetFriend.memory.schedule.events.push(normalizedEvent);
+                                }, { silent: true })
+                                : false;
+
+                            if (savedSchedule) {
+                                friend = getLiveFriendById(friend.id) || friend;
+                                if (window.showBannerNotification) {
+                                    window.showBannerNotification(friend, `【iCloud行程】添加了: ${scheduleData.title}`);
+                                } else if (window.showToast) {
+                                    window.showToast(`【iCloud行程】${friend.nickname || friend.realName || 'TA'} 添加了: ${scheduleData.title}`);
+                                }
+
+                                if (window.lovesApp && window.lovesApp.currentFriend && String(window.lovesApp.currentFriend.id) === String(friend.id)) {
+                                    window.lovesApp.currentFriend = friend;
+                                    if (window.lovesApp.renderCalendar) {
+                                        window.lovesApp.renderCalendar();
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } catch(e) {
+                    console.warn("Failed to parse loves_schedule:", e);
+                }
+            }
+
+            if (nextProfilePanel && friend.type !== 'group') {
+                const profileFriend = getLiveFriendById(friend.id) || friend;
+
+                if (window.imApp.commitScopedFriendChange) {
+                    await window.imApp.commitScopedFriendChange(profileFriend.id || friend.id, (targetFriend) => {
+                        if (!targetFriend) return;
+
+                        const basePanel = window.imApp.createDefaultProfilePanel
+                            ? window.imApp.createDefaultProfilePanel(targetFriend)
+                            : (targetFriend.profilePanel || { activeTab: 'thought', thought: '', status: 'online', events: [] });
+
+                        const oldAffection = typeof basePanel.affection === 'number' ? basePanel.affection : 0;
+                        const affectionChange = typeof nextProfilePanel.affectionChange === 'number' ? nextProfilePanel.affectionChange : 0;
+                        const newAffection = Math.max(0, Math.min(100, oldAffection + affectionChange));
+
+                        const newThoughtStr = typeof nextProfilePanel.thought === 'string' && nextProfilePanel.thought.trim() !== '' ? nextProfilePanel.thought : '';
+                        const existingHistory = Array.isArray(basePanel.thoughtHistory) ? [...basePanel.thoughtHistory] : [];
+                        if (newThoughtStr) {
+                            existingHistory.unshift({
+                                id: `th-${Date.now()}`,
+                                content: newThoughtStr,
+                                time: Date.now()
+                            });
+                        }
+
+                        targetFriend.profilePanel = {
+                            ...basePanel,
+                            thought: newThoughtStr || (basePanel.thought || ''),
+                            thoughtHistory: existingHistory,
+                            location: typeof nextProfilePanel.location === 'string' && nextProfilePanel.location.trim() !== '' ? nextProfilePanel.location : (basePanel.location || '未知位置'),
+                            action: typeof nextProfilePanel.action === 'string' && nextProfilePanel.action.trim() !== '' ? nextProfilePanel.action : (basePanel.action || '暂无动作'),
+                            mood: typeof nextProfilePanel.mood === 'string' && nextProfilePanel.mood.trim() !== '' ? nextProfilePanel.mood : (basePanel.mood || '平静'),
+                            expression: typeof nextProfilePanel.expression === 'string' && nextProfilePanel.expression.trim() !== '' ? nextProfilePanel.expression : (basePanel.expression || '自然'),
+                            affection: newAffection,
+                            affectionChange: affectionChange,
+                            status: isSleeping ? 'offline' : 'online',
+                            events: (() => {
+                                const existingEvents = Array.isArray(basePanel.events) ? basePanel.events : [];
+                                const mergedEvents = [...existingEvents];
+                                
+                                if (Array.isArray(nextProfilePanel.events)) {
+                                    nextProfilePanel.events.forEach((eventItem, index) => {
+                                        const safeId = eventItem?.id != null ? eventItem.id : `event-${Date.now()}-${index}`;
+                                        const newEv = {
+                                            ...eventItem,
+                                            id: safeId,
+                                            status: eventItem?.status || 'pending',
+                                            confirmText: eventItem?.confirmText || '确认',
+                                            cancelText: eventItem?.cancelText || '取消',
+                                            memoryPayload: eventItem?.memoryPayload && typeof eventItem.memoryPayload === 'object'
+                                                ? {
+                                                    title: eventItem.memoryPayload.title || eventItem?.title || '珍视回忆',
+                                                    content: eventItem.memoryPayload.content || eventItem?.requestText || eventItem?.description || '',
+                                                    detail: eventItem.memoryPayload.detail || eventItem?.detail || '',
+                                                    reason: eventItem.memoryPayload.reason || '',
+                                                    sourceEventId: eventItem.memoryPayload.sourceEventId || String(safeId),
+                                                    createdAt: eventItem.memoryPayload.createdAt || eventItem?.time || '',
+                                                    sourceThought: eventItem.memoryPayload.sourceThought || nextProfilePanel.thought || ''
+                                                }
+                                                : null
+                                        };
+                                        if (!mergedEvents.some(oe => oe.title === newEv.title)) {
+                                            mergedEvents.push(newEv);
+                                        }
+                                    });
+                                }
+                                return mergedEvents.slice(-5);
+                            })()
+                        };
+                        targetFriend.latestThought = targetFriend.profilePanel.thought;
+                        targetFriend.status = isSleeping ? 'offline' : 'online';
+                    }, {
+                        syncActive: true,
+                        metaOnly: true,
+                        silent: true
+                    });
+                }
+
+                const latestProfileFriend = getLiveFriendById(profileFriend.id || friend.id) || profileFriend;
+                const page = document.getElementById(`chat-interface-${latestProfileFriend.id}`);
+                const profilePanelOverlay = page ? page.querySelector('.chat-profile-panel-overlay') : null;
+                if (profilePanelOverlay && profilePanelOverlay.classList.contains('active') && window.imChat.renderProfilePanel) {
+                    window.imChat.renderProfilePanel(latestProfileFriend, profilePanelOverlay);
+                }
+
+                scheduleFriendPersistence(latestProfileFriend.id || friend.id, {
+                    delay: 800,
+                    silent: true
+                });
+            }
+
+            if (!fullReply && groupPrivateMessageBatches.length === 0 && groupFriendPrivateChats.length === 0) {
+                if(btnEl) btnEl.style.opacity = '1';
+                await flushFriendPersistence(friend.id, { silent: true });
+                return;
+            }
+
+            let structuredItems = null;
+            const chatJsonBlock = window.imChat.extractTaggedBlock(fullReply, 'chat_json');
+            if (chatJsonBlock) {
+                structuredItems = window.imChat.parseJsonArrayFromText(chatJsonBlock);
+                fullReply = window.imChat.removeTaggedBlock(fullReply, 'chat_json');
+            }
+
+            if (!structuredItems) {
+                const directJsonArray = window.imChat.parseJsonArrayFromText(fullReply);
+                if (directJsonArray) {
+                    structuredItems = directJsonArray;
+                    fullReply = '';
+                }
+            }
+
+            // 处理 Loves App 接受邀请
+            if (inviteAccepted && isConversationCurrent() && window.lovesApp && typeof window.lovesApp.handleInviteAccepted === 'function') {
+                await window.lovesApp.handleInviteAccepted(friend);
+                if (!isConversationCurrent()) return;
+            }
+
+            let queueItems = [];
+
+            if (structuredItems && structuredItems.length > 0) {
+                queueItems = structuredItems.map(item => {
+                    if (!item || typeof item !== 'object') return null;
+
+                    const itemType = typeof item.type === 'string' ? item.type.trim().toLowerCase() : '';
+                    
+                    if (itemType === 'call') {
+                        return { kind: 'call' };
+                    }
+
+                    if (itemType === 'music_control') {
+                        const action = typeof item.action === 'string' ? item.action.trim().toLowerCase() : '';
+                        if (!['next', 'previous', 'play_track'].includes(action)) return null;
+                        return {
+                            kind: 'music_control',
+                            action,
+                            trackId: typeof item.trackId === 'string' ? item.trackId.trim() : ''
+                        };
+                    }
+
+                    if (itemType === 'action_narration' || itemType === 'dynamic_action' || itemType === 'action_notice') {
+                        const text = typeof item.text === 'string'
+                            ? item.text.trim()
+                            : (typeof item.description === 'string'
+                                ? item.description.trim()
+                                : (typeof item.action === 'string' ? item.action.trim() : ''));
+                        if (!text) return null;
+
+                        return {
+                            kind: 'action_narration',
+                            text: text.slice(0, 60),
+                            speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                        };
+                    }
+
+                    if (itemType === 'recall') {
+                        const text = typeof item.text === 'string' ? item.text.trim() : '';
+                        if (!text) return null;
+                        return {
+                            kind: 'recall',
+                            text,
+                            speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                        };
+                    }
+
+                    if (itemType === 'voice') {
+                        const text = typeof item.text === 'string' ? item.text.trim() : '';
+                        if (!text) return null;
+
+                        return {
+                            kind: 'voice',
+                            text,
+                            thought: typeof item.thought === 'string' ? item.thought.trim() : '',
+                            translation: typeof item.translation === 'string'
+                                ? item.translation.trim()
+                                : (typeof item.trans === 'string' ? item.trans.trim() : ''),
+                            replyTo: typeof item.quote === 'string' ? item.quote.trim() : '',
+                        speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                    };
+                }
+
+                if (itemType === 'sticker') {
+                        const name = typeof item.name === 'string' ? item.name.trim() : '';
+                        if (!name) return null;
+
+                        return {
+                            kind: 'sticker',
+                            text: name,
+                            stickerName: name,
+                            stickerCategory: typeof item.category === 'string' ? item.category.trim() : '',
+                            thought: typeof item.thought === 'string' ? item.thought.trim() : '',
+                            speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                        };
+                    }
+
+                    if (itemType === 'image') {
+                        const description = typeof item.description === 'string'
+                            ? item.description.trim()
+                            : (typeof item.text === 'string' ? item.text.trim() : '');
+                        if (!description) return null;
+
+                        return {
+                            kind: 'image',
+                            text: description,
+                            description,
+                            thought: typeof item.thought === 'string' ? item.thought.trim() : '',
+                            speaker: typeof item.speaker === 'string' ? item.speaker.trim() : '',
+                            offlineScene: typeof item.scene === 'string' ? item.scene.trim() : '',
+                            offlineAction: typeof item.action === 'string' ? item.action.trim() : ''
+                        };
+                    }
+                    
+                    if (itemType === 'red_packet') {
+                        const amount = Number(item.amount);
+                        const count = parseInt(item.count, 10) || 5;
+                        if (!Number.isFinite(amount) || amount <= 0) return null;
+
+                        return {
+                            kind: 'red_packet',
+                            amount,
+                            count,
+                            description: typeof item.description === 'string' ? item.description.trim() || '恭喜发财' : '恭喜发财',
+                            speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                        };
+                    }
+                    if (itemType === 'payment' || item.paymentAction) {
+                        const amount = Number(item.amount);
+                        if (!Number.isFinite(amount) || amount <= 0) return null;
+
+                        let pAction = 'receive';
+                        if (item.paymentAction === 'transfer') pAction = 'transfer';
+                        if (item.paymentAction === 'reject') pAction = 'reject';
+                        if (item.paymentAction === 'pay_for_friend') pAction = 'pay_for_friend';
+                        if (item.paymentAction === 'family_card') pAction = 'family_card';
+                        if (item.paymentAction === 'family_card_increase') pAction = 'family_card_increase';
+
+                        return {
+                            kind: 'payment',
+                            paymentAction: pAction,
+                            amount,
+                            description: typeof item.description === 'string' ? item.description.trim() || '转账' : '转账'
+                        };
+                    }
+
+                    const text = typeof item.text === 'string' ? item.text.trim() : '';
+                    if (!text) return null;
+
+                    return {
+                        kind: 'text',
+                        text,
+                        thought: typeof item.thought === 'string' ? item.thought.trim() : '',
+                        translation: typeof item.translation === 'string'
+                            ? item.translation.trim()
+                            : (typeof item.trans === 'string' ? item.trans.trim() : ''),
+                        replyTo: typeof item.quote === 'string' ? item.quote.trim() : '',
+                        speaker: typeof item.speaker === 'string' ? item.speaker.trim() : ''
+                    };
+                }).filter(Boolean);
+            }
+
+            if (queueItems.length === 0) {
+                let fullTranslation = null;
+                const transRegex = /<translation>([\s\S]*?)<\/translation>/i;
+                const transMatch = fullReply.match(transRegex);
+                if (transMatch) {
+                    fullTranslation = transMatch[1].trim();
+                    fullReply = fullReply.replace(transRegex, '').trim();
+                }
+
+                let fullThinking = null;
+                const thinkRegex = /<thinking>([\s\S]*?)<\/thinking>/i;
+                const thinkMatch = fullReply.match(thinkRegex);
+                if (thinkMatch) {
+                    fullThinking = thinkMatch[1].trim();
+                    fullReply = fullReply.replace(thinkRegex, '').trim();
+                }
+
+                let sentences = [];
+                if (friend.type === 'group') {
+                    sentences = fullReply.split(/\n+/).map(s => s.replace(/^\s*(.*?)\s*$/, '$1')).filter(s => s.length > 0);
+                } else if (fullTranslation) {
+                    sentences = [fullReply];
+                } else {
+                    sentences = fullReply.split(/(?<=[。！？.!?])/).map(s => s.replace(/^\s*(.*?)\s*$/, '$1')).filter(s => s.length > 0);
+
+                    if (sentences.length > 7) {
+                        while (sentences.length > 7) {
+                            let minLen = Infinity;
+                            let minIdx = 0;
+                            for (let i = 0; i < sentences.length - 1; i++) {
+                                let len = sentences[i].length + sentences[i + 1].length;
+                                if (len < minLen) {
+                                    minLen = len;
+                                    minIdx = i;
+                                }
+                            }
+                            sentences[minIdx] = sentences[minIdx] + ' ' + sentences[minIdx + 1];
+                            sentences.splice(minIdx + 1, 1);
+                        }
+                    } else if (sentences.length < 3 && fullReply.length > 30) {
+                        sentences = fullReply.split(/(?<=[。！？.!?，,])/).map(s => s.replace(/^\s*(.*?)\s*$/, '$1')).filter(s => s.length > 0);
+                        if (sentences.length > 7) sentences = sentences.slice(0, 7);
+                    }
+                }
+
+                if (sentences.length === 0 && fullReply) sentences = [fullReply];
+
+                queueItems = sentences.map((text, index) => ({
+                    text,
+                    translation: fullTranslation || '',
+                    thought: (index === 0 && fullThinking) ? fullThinking : (typeof aiThought === 'string' ? aiThought : '')
+                }));
+            }
+
+            if (dynamicActionNarrationEnabled && !queueItems.some(item => item && item.kind === 'action_narration')) {
+                const fallbackName = friend.type === 'group'
+                    ? (friend.nickname || '群聊')
+                    : (friend.nickname || friend.realName || 'TA');
+                const fallbackAction = nextProfilePanel?.action || '';
+                const fallbackLocation = nextProfilePanel?.location || '';
+                const fallbackText = friend.type === 'group'
+                    ? '群里安静片刻，消息光标轻轻闪动。'
+                    : `${fallbackName}${fallbackAction ? fallbackAction : '垂下眼'}，${fallbackLocation ? `${fallbackLocation}的` : ''}空气静了静。`;
+                queueItems.unshift({
+                    kind: 'action_narration',
+                    text: fallbackText.slice(0, 35)
+                });
+            }
+
+            if (queueItems.length === 0 && groupPrivateMessageBatches.length === 0 && groupFriendPrivateChats.length === 0) {
+                if(btnEl) btnEl.style.opacity = '1';
+                await flushFriendPersistence(friend.id, { silent: true });
+                return;
+            }
+
+            const batchOfflineScene = friend.offlineMeetEnabled
+                ? (queueItems.map(item => normalizeOfflineSceneText(item.offlineScene)).find(Boolean) || '')
+                : '';
+            let batchOfflineSceneAttached = false;
+
+            let qIndex = 0;
+            const now = Date.now();
+
+            // Re-fetch the container safely in case user navigated away
+            const getSafeContainer = () => {
+                const pageId = `chat-interface-${friend.id}`;
+                const page = document.getElementById(pageId);
+                return page ? page.querySelector('.ins-chat-messages') : null;
+            };
+
+            const safeContainer = getSafeContainer();
+            const currentHistoryFriend = getLiveFriendById(friend.id) || friend;
+            const lastHistoryMsg = currentHistoryFriend.messages && currentHistoryFriend.messages.length > 0
+                ? currentHistoryFriend.messages[currentHistoryFriend.messages.length - 1]
+                : null;
+
+            if (queueItems.length > 0 && safeContainer && (!lastHistoryMsg || (now - (lastHistoryMsg.timestamp || 0) > 300000))) {
+                window.imChat.renderTimestamp(now, safeContainer);
+            }
+
+            let lastGroupSpeaker = null;
+
+            async function processNextSentence() {
+                if (!isConversationCurrent()) return false;
+                const currentItem = queueItems[qIndex] || {};
+
+                if (currentItem.kind === 'recall') {
+                    const activeFriend = getLiveFriendById(friend.id) || friend;
+                    let actorName = activeFriend.nickname || activeFriend.realName || '对方';
+                    if (activeFriend.type === 'group') {
+                        const member = window.imChat.normalizeGroupSpeaker(activeFriend, currentItem.speaker);
+                        if (!member) {
+                            qIndex++;
+                            return true;
+                        }
+                        actorName = member.nickname || member.realName || '群成员';
+                        lastGroupSpeaker = actorName;
+                    }
+
+                    const matchedMessage = (Array.isArray(activeFriend.messages) ? activeFriend.messages : [])
+                        .slice()
+                        .reverse()
+                        .find(message => {
+                            if (!message || message.role !== 'assistant' || message.type === 'system_notice') return false;
+                            if (String(message.apiRunId || '') !== String(apiRunId)) return false;
+                            if (activeFriend.type === 'group' && String(message.speaker || '').trim() !== actorName) return false;
+                            const originalText = String(
+                                message.transcript || message.description || message.text || message.content || ''
+                            ).trim();
+                            return originalText === String(currentItem.text || '').trim();
+                        }) || null;
+                    const nowMsg = matchedMessage?.timestamp || Date.now();
+                    const recallNotice = window.imApp.createRecalledNoticeMessage(matchedMessage, {
+                        actorRole: 'assistant',
+                        actorName,
+                        recalledContent: currentItem.text,
+                        timestamp: nowMsg,
+                        apiRunId
+                    });
+                    const saved = matchedMessage && window.imApp.updateFriendMessage
+                        ? await window.imApp.updateFriendMessage(activeFriend.id || friend.id, {
+                            id: matchedMessage.id || null,
+                            timestamp: matchedMessage.timestamp || null
+                        }, (storedMessage) => {
+                            Object.keys(storedMessage).forEach(key => delete storedMessage[key]);
+                            Object.assign(storedMessage, recallNotice);
+                        }, { silent: true })
+                        : (window.imApp.appendFriendMessage
+                            ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, recallNotice, { silent: true })
+                            : false);
+                    if (!saved) {
+                        if (!options.silent && window.showToast) window.showToast('撤回消息保存失败');
+                        return false;
+                    }
+
+                    const freshContainer = getSafeContainer();
+                    const isUserStillLooking = window.imData.currentActiveFriend
+                        && String(window.imData.currentActiveFriend.id) === String(activeFriend.id)
+                        && freshContainer;
+                    if (isUserStillLooking && matchedMessage && window.imChat.rerenderChatContainer) {
+                        const updatedFriend = getLiveFriendById(activeFriend.id) || activeFriend;
+                        window.imChat.rerenderChatContainer(updatedFriend, freshContainer, { scroll: true });
+                    } else if (isUserStillLooking && window.imChat.renderSystemNoticeBubble) {
+                        window.imChat.renderSystemNoticeBubble(recallNotice, activeFriend, freshContainer, nowMsg);
+                    } else if (window.showBannerNotification) {
+                        window.showBannerNotification(activeFriend, `${actorName}撤回了一条消息`);
+                    }
+
+                    qIndex++;
+                    return true;
+                }
+
+                if (currentItem.kind === 'action_narration') {
+                    const activeFriend = getLiveFriendById(friend.id) || friend;
+                    const narrationText = typeof currentItem.text === 'string' ? currentItem.text.trim() : '';
+                    if (!narrationText) {
+                        qIndex++;
+                        return true;
+                    }
+
+                    const nowMsg = Date.now();
+                    const narrationMsg = {
+                        id: window.imChat.createMessageId('notice'),
+                        role: 'system',
+                        type: 'system_notice',
+                        noticeKind: 'narration',
+                        content: narrationText,
+                        text: narrationText,
+                        timestamp: nowMsg,
+                        apiRunId
+                    };
+
+                    const freshContainer = getSafeContainer();
+                    const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(activeFriend.id) && freshContainer;
+                    const appended = window.imApp.appendFriendMessage
+                        ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, narrationMsg, { silent: true })
+                        : false;
+
+                    if (!appended) {
+                        if (!options.silent && window.showToast) window.showToast('动描保存失败');
+                        if (btnEl) btnEl.style.opacity = '1';
+                        return false;
+                    }
+
+                    if (isUserStillLooking && window.imChat.renderSystemNoticeBubble) {
+                        window.imChat.renderSystemNoticeBubble(narrationMsg, activeFriend, freshContainer, nowMsg);
+                    }
+
+                    qIndex++;
+                    return true;
+                }
+
+                if (currentItem.kind === 'call') {
+                    const activeFriend = getLiveFriendById(friend.id) || friend;
+                    if (activeFriend.type !== 'group' && window.imChat && window.imChat.openVoiceCall) {
+                        window.imChat.openVoiceCall(activeFriend, true);
+                    }
+                    qIndex++;
+                    return true;
+                }
+
+                if (currentItem.kind === 'music_control') {
+                    const controlled = await window.libraryApp?.controlTogetherListening?.(friend.id, {
+                        action: currentItem.action,
+                        trackId: currentItem.trackId
+                    });
+                    if (!controlled) console.warn('[iMessage] Ignored invalid together-listening control:', currentItem);
+                    qIndex++;
+                    return true;
+                }
+
+                if (currentItem.kind === 'red_packet') {
+                    const activeFriend = getLiveFriendById(friend.id) || friend;
+                    const totalAmount = Number(currentItem.amount) || 0;
+                    const packetCount = parseInt(currentItem.count, 10) || 5;
+                    const description = currentItem.description || '恭喜发财';
+                    let speakerName = currentItem.speaker || lastGroupSpeaker || '群成员';
+                    let detectedSpeaker = null;
+
+                    if (activeFriend.type === 'group') {
+                        detectedSpeaker = window.imChat.normalizeGroupSpeaker(activeFriend, speakerName);
+                        if (!detectedSpeaker && lastGroupSpeaker) {
+                            detectedSpeaker = window.imChat.normalizeGroupSpeaker(activeFriend, lastGroupSpeaker);
+                        }
+                    }
+
+                    if (detectedSpeaker) {
+                        speakerName = detectedSpeaker.nickname || detectedSpeaker.realName;
+                        lastGroupSpeaker = speakerName;
+                    }
+
+                    if (totalAmount > 0) {
+                        const nowMsg = Date.now();
+                        const allocations = window.imChat.createRedPacketAllocations(totalAmount, packetCount);
+
+                        const packetMsg = window.imChat.normalizeGroupRedPacketState({
+                            id: window.imChat.createMessageId('packet'),
+                            packetId: window.imChat.createMessageId('packet'),
+                            role: 'assistant',
+                            type: 'group_red_packet',
+                            totalAmount,
+                            packetCount,
+                            description,
+                            allocations,
+                            claimRecords: [],
+                            claimedMemberIds: [],
+                            content: `[群红包] ${description} ¥${Number(totalAmount).toFixed(2)}`,
+                            timestamp: nowMsg,
+                            speakerMemberId: detectedSpeaker ? detectedSpeaker.id : '',
+                            senderName: speakerName,
+                            senderAvatarUrl: detectedSpeaker ? detectedSpeaker.avatarUrl : '',
+                            apiRunId
+                        }, activeFriend);
+
+                        const freshContainer = getSafeContainer();
+                        const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(activeFriend.id) && freshContainer;
+
+                        const appended = window.imApp.appendFriendMessage
+                            ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, packetMsg, { silent: true })
+                            : false;
+
+                        if (!appended) {
+                            if (window.showToast) window.showToast('群红包消息保存失败');
+                            return false;
+                        }
+
+                        if (isUserStillLooking) {
+                            window.imChat.renderGroupRedPacketBubble(packetMsg, activeFriend, freshContainer, nowMsg);
+                        }
+                    }
+
+                    qIndex++;
+                    return true;
+                }
+
+                if (currentItem.kind === 'payment') {
+                    const activeFriend = getLiveFriendById(friend.id) || friend;
+                    const paymentAction = currentItem.paymentAction;
+                    const paymentAmount = Number(currentItem.amount) || 0;
+                    const paymentDescription = currentItem.description || '转账';
+                    const paymentSpeaker = activeFriend.type === 'group'
+                        ? window.imChat.getSafeGroupSpeaker(activeFriend, currentItem.speaker || lastGroupSpeaker)
+                        : activeFriend;
+                    const paymentSpeakerName = paymentSpeaker?.nickname || paymentSpeaker?.realName || activeFriend.nickname || activeFriend.realName || 'Char';
+
+                    if (paymentAmount > 0) {
+                        if (paymentAction === 'pay_for_friend') {
+                            const nowMsg = Date.now();
+                            const htmlCard = `
+                                <div style="background: #f7f7f5; border-radius: 16px; padding: 16px; min-width: 220px; max-width: 280px; color: #111111;  border: 1px solid rgba(17,17,17,0.09); display: inline-block;">
+                                    <div style="font-size: 12px; color: #73706a; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; font-weight: 700;">
+                                        <i class="fas fa-bag-shopping" style="color: #a97642;"></i> Shop Request
+                                    </div>
+                                    <div style="font-size: 15px; font-weight: 700; margin-bottom: 6px; white-space: normal; word-break: break-word; line-height: 1.4;">${paymentDescription}</div>
+                                    <div style="font-size: 24px; font-weight: 800; color: #111111; margin-top: 14px; margin-bottom: 16px;">¥${paymentAmount.toFixed(2)}</div>
+                                    <div style="background: #e5e5ea; color: #8e8e93; text-align: center; padding: 10px 0; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: default;">已付款</div>
+                                </div>
+                            `;
+                            
+                            // 更新商城订单状态为完成
+                            try {
+                                const savedOrdersStr = localStorage.getItem('shopping_orders');
+                                if (savedOrdersStr) {
+                                    const savedOrders = JSON.parse(savedOrdersStr);
+                                    let updated = false;
+                                    for (let i = 0; i < savedOrders.length; i++) {
+                                        if (savedOrders[i].status === '代付请求已发送') {
+                                            savedOrders[i].status = '完成';
+                                            updated = true;
+                                            break;
+                                        }
+                                    }
+                                    if (updated) {
+                                        localStorage.setItem('shopping_orders', JSON.stringify(savedOrders));
+                                    }
+                                }
+                            } catch(e) {
+                                console.error('Failed to update shopping order status:', e);
+                            }
+
+                            const paymentMsg = {
+                                id: window.imChat.createMessageId('msg'),
+                                role: 'assistant',
+                                type: 'html',
+                                content: htmlCard,
+                                speaker: activeFriend.type === 'group' ? paymentSpeakerName : '',
+                                speakerMemberId: activeFriend.type === 'group' ? (paymentSpeaker?.id || '') : '',
+                                senderAvatarUrl: activeFriend.type === 'group' ? (paymentSpeaker?.avatarUrl || '') : '',
+                                timestamp: nowMsg,
+                                apiRunId
+                            };
+                            
+                            const freshContainer = getSafeContainer();
+                            const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(activeFriend.id) && freshContainer;
+
+                            const appended = window.imApp.appendFriendMessage
+                                ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, paymentMsg, { silent: true })
+                                : false;
+
+                            if (!appended) {
+                                if (window.showToast) window.showToast('代付消息保存失败');
+                                return false;
+                            }
+
+                            if (isUserStillLooking) {
+                                window.imChat.renderHtmlBubble(paymentMsg, activeFriend, freshContainer, nowMsg);
+                            }
+                        } else if (paymentAction === 'receive' || paymentAction === 'reject') {
+                            // Find the pending user_to_char message
+                            const pendingMsg = Array.isArray(activeFriend.messages)
+                                ? activeFriend.messages.slice().reverse().find(m => m.type === 'pay_transfer' && m.payKind === 'user_to_char' && !m.claimed && Number(m.amount) === paymentAmount)
+                                : null;
+
+                            if (pendingMsg) {
+                                if (paymentAction === 'receive' && window.imChat.claimIncomingTransfer) {
+                                    await window.imChat.claimIncomingTransfer(activeFriend, pendingMsg, { apiRunId });
+                                } else if (paymentAction === 'reject' && window.imChat.rejectIncomingTransfer) {
+                                    await window.imChat.rejectIncomingTransfer(activeFriend, pendingMsg, { apiRunId });
+                                }
+                            }
+                        } else if (paymentAction === 'family_card' || paymentAction === 'family_card_increase') {
+                            if (typeof window.addOrUpdateFamilyCard === 'function') {
+                                const result = window.addOrUpdateFamilyCard(activeFriend.id, activeFriend.nickname || activeFriend.realName, paymentAmount);
+                                const nowMsg = Date.now();
+                                let titleStr = result.action === 'increase' ? '提升亲属卡额度' : '赠送亲属卡';
+                                const paymentMsg = {
+                                    id: window.imChat.createMessageId('pay'),
+                                    role: 'assistant',
+                                    type: 'pay_transfer',
+                                    payKind: 'system_notification',
+                                    paymentAction,
+                                    amount: paymentAmount,
+                                    description: `${titleStr} ¥${paymentAmount.toFixed(2)}`,
+                                    cardTitle: titleStr,
+                                    payStatus: 'completed',
+                                    content: `[亲属卡] ${titleStr} ¥${paymentAmount.toFixed(2)}`,
+                                    speaker: activeFriend.type === 'group' ? paymentSpeakerName : '',
+                                    speakerMemberId: activeFriend.type === 'group' ? (paymentSpeaker?.id || '') : '',
+                                    senderAvatarUrl: activeFriend.type === 'group' ? (paymentSpeaker?.avatarUrl || '') : '',
+                                    timestamp: nowMsg,
+                                    apiRunId
+                                };
+
+                                const freshContainer = getSafeContainer();
+                                const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(activeFriend.id) && freshContainer;
+
+                                const appended = window.imApp.appendFriendMessage
+                                    ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, paymentMsg, { silent: true })
+                                    : false;
+
+                                if (appended && isUserStillLooking) {
+                                    window.imChat.renderPayTransferBubble(paymentMsg, activeFriend, freshContainer, nowMsg);
+                                }
+                            }
+                        } else if (paymentAction === 'transfer') {
+                            const nowMsg = Date.now();
+                            const senderName = paymentSpeakerName;
+                            const receiverName = window.userState?.name || window.userState?.realName || window.userState?.nickname || 'User';
+                            const paymentMsg = {
+                                id: window.imChat.createMessageId('pay'),
+                                role: 'assistant',
+                                type: 'pay_transfer',
+                                payKind: 'char_to_user_pending',
+                                payDirection: 'char_to_user',
+                                amount: paymentAmount,
+                                description: paymentDescription,
+                                payerName: senderName,
+                                payeeName: receiverName,
+                                senderName,
+                                receiverName,
+                                targetName: senderName,
+                                speaker: activeFriend.type === 'group' ? paymentSpeakerName : '',
+                                speakerMemberId: activeFriend.type === 'group' ? (paymentSpeaker?.id || '') : '',
+                                senderAvatarUrl: activeFriend.type === 'group' ? (paymentSpeaker?.avatarUrl || '') : '',
+                                cardTitle: '转账',
+                                payStatus: 'completed',
+                                content: `[角色转账] ${paymentDescription} ¥${paymentAmount.toFixed(2)}`,
+                                timestamp: nowMsg,
+                                apiRunId
+                            };
+
+                            const freshContainer = getSafeContainer();
+                            const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(activeFriend.id) && freshContainer;
+
+                            const appended = window.imApp.appendFriendMessage
+                                ? await window.imApp.appendFriendMessage(activeFriend.id || friend.id, paymentMsg, { silent: true })
+                                : false;
+
+                            if (!appended) {
+                                if (window.showToast) window.showToast('转账消息保存失败');
+                                return false;
+                            }
+
+                            if (isUserStillLooking) {
+                                window.imChat.renderPayTransferBubble(paymentMsg, activeFriend, freshContainer, nowMsg);
+                            }
+                        }
+                    }
+
+                    qIndex++;
+                    return true;
+                }
+
+                let text = typeof currentItem.text === 'string' ? currentItem.text.trim() : '';
+                let aiReplyTo = typeof currentItem.replyTo === 'string' && currentItem.replyTo.trim() ? currentItem.replyTo.trim() : null;
+                const itemTranslation = typeof currentItem.translation === 'string' && currentItem.translation.trim()
+                    ? currentItem.translation.trim()
+                    : null;
+                const itemOfflineAction = friend.offlineMeetEnabled
+                    ? normalizeOfflineActionText(currentItem.offlineAction)
+                    : '';
+                const isVoiceReply = currentItem.kind === 'voice';
+                const isStickerReply = currentItem.kind === 'sticker';
+                const isImageReply = currentItem.kind === 'image';
+
+                if (!text) {
+                    qIndex++;
+                    return true;
+                }
+
+                if (!structuredItems) {
+                    const quoteRegex = /<quote>([\s\S]*?)<\/quote>/i;
+                    const quoteMatch = text.match(quoteRegex);
+                    if (quoteMatch) {
+                        aiReplyTo = quoteMatch[1].trim();
+                        text = text.replace(quoteRegex, '').trim();
+                    }
+                }
+
+                let currentSpeakerName = null;
+                let currentSpeakerAvatar = null;
+                let detectedSpeaker = null;
+                const speakerFriend = getLiveFriendById(friend.id) || friend;
+                if (speakerFriend.type === 'group') {
+                    if (structuredItems && currentItem.speaker) {
+                        detectedSpeaker = window.imChat.normalizeGroupSpeaker(speakerFriend, currentItem.speaker);
+                    } else {
+                        const nameRegex = /^([a-zA-Z0-9\u4e00-\u9fa5\s_\-.]+)[：:]\s*/;
+                        const nameMatch = text.match(nameRegex);
+
+                        if (nameMatch) {
+                            detectedSpeaker = window.imChat.normalizeGroupSpeaker(speakerFriend, nameMatch[1].trim());
+                            text = text.substring(nameMatch[0].length).trim();
+                        } else if (lastGroupSpeaker) {
+                            detectedSpeaker = window.imChat.normalizeGroupSpeaker(speakerFriend, lastGroupSpeaker);
+                        }
+                    }
+
+                    if (!detectedSpeaker) {
+                        detectedSpeaker = window.imChat.getSafeGroupSpeaker(speakerFriend, lastGroupSpeaker);
+                    }
+
+                    if (detectedSpeaker) {
+                        currentSpeakerName = detectedSpeaker.nickname;
+                        currentSpeakerAvatar = detectedSpeaker.avatarUrl || null;
+                        lastGroupSpeaker = currentSpeakerName;
+                        
+                        if (currentItem.thought && window.imApp.commitScopedFriendChange) {
+                            await window.imApp.commitScopedFriendChange(speakerFriend.id, (targetGroup) => {
+                                if (!targetGroup) return;
+                                const memberProfileKey = String(detectedSpeaker.id);
+                                if (!targetGroup.memberProfiles) targetGroup.memberProfiles = {};
+                                if (!targetGroup.memberProfiles[memberProfileKey]) {
+                                    targetGroup.memberProfiles[memberProfileKey] = { thought: '', status: 'online', updatedAt: 0 };
+                                }
+                                targetGroup.memberProfiles[memberProfileKey].thought = currentItem.thought;
+                                targetGroup.memberProfiles[memberProfileKey].status = targetGroup.memberProfiles[memberProfileKey].status || 'online';
+                                targetGroup.memberProfiles[memberProfileKey].updatedAt = Date.now();
+                            }, {
+                                syncActive: true,
+                                metaOnly: true,
+                                silent: true
+                            });
+                        }
+                    }
+                }
+
+                if (!text) {
+                    qIndex++;
+                    return true;
+                }
+
+                let resolvedSticker = null;
+                if (isStickerReply) {
+                    const stickerOwner = speakerFriend.type === 'group'
+                        ? (detectedSpeaker || (currentSpeakerName ? window.imChat.normalizeGroupSpeaker(speakerFriend, currentSpeakerName) : null))
+                        : speakerFriend;
+                    resolvedSticker = resolveMountedSticker(stickerOwner, currentItem.stickerCategory, currentItem.stickerName);
+                    if (!resolvedSticker) {
+                        qIndex++;
+                        return true;
+                    }
+                }
+
+                const delay = Math.max(500, Math.min(2000, text.length * 50));
+
+                // Only show typing animation if the user is STILL in this chat
+                const currentContainer = getSafeContainer();
+                const isUserLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(friend.id) && currentContainer;
+
+                let tr = null;
+                if (isUserLooking) {
+                    tr = document.createElement('div');
+                    tr.className = 'chat-row ai-row typing-row';
+                    tr.innerHTML = `
+                        <div class="typing-indicator">
+                            <div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div>
+                        </div>
+                    `;
+
+                    const lastRow = currentContainer.lastElementChild;
+                    if (lastRow && lastRow.classList.contains('ai-row') && !lastRow.classList.contains('typing-row')) {
+                        lastRow.classList.add('has-next');
+                        tr.classList.add('has-prev');
+                    }
+
+                    currentContainer.appendChild(tr);
+                    window.imChat.scrollToBottom(currentContainer);
+                }
+
+                await new Promise(res => setTimeout(res, delay));
+
+                if (tr && tr.parentNode) {
+                    tr.remove();
+                }
+                if (!isConversationCurrent()) return false;
+
+                const nowMsg = Date.now();
+                const msgObj = isStickerReply
+                    ? {
+                        id: window.imChat.createMessageId('sticker'),
+                        role: 'assistant',
+                        type: 'sticker',
+                        content: '[表情包]',
+                        text: resolvedSticker.stickerCategory
+                            ? `你发了一个表情包：${resolvedSticker.stickerCategory} / ${resolvedSticker.stickerName}`
+                            : `你发了一个表情包：${resolvedSticker.stickerName}`,
+                        stickerCategory: resolvedSticker.stickerCategory,
+                        stickerName: resolvedSticker.stickerName,
+                        stickerUrl: resolvedSticker.stickerUrl,
+                        timestamp: nowMsg,
+                        apiRunId
+                    }
+                    : isVoiceReply
+                    ? {
+                        id: window.imChat.createMessageId('voice'),
+                        role: 'assistant',
+                        type: 'voice_message',
+                        content: '[语音消息]',
+                        text,
+                        transcript: text,
+                        duration: Math.min(18, Math.max(3, Math.ceil(text.length / 3))),
+                        timestamp: nowMsg,
+                        replyTo: aiReplyTo,
+                        apiRunId
+                    }
+                    : isImageReply
+                    ? {
+                        id: window.imChat.createMessageId('img'),
+                        role: 'assistant',
+                        type: 'image',
+                        content: window.imChat.CHAT_IMAGE_PLACEHOLDER_URL || 'assets/imessage/chat-image-placeholder.jpg',
+                        text,
+                        description: currentItem.description || text,
+                        imageSource: 'char',
+                        timestamp: nowMsg,
+                        replyTo: aiReplyTo,
+                        apiRunId
+                    }
+                    : { id: window.imChat.createMessageId('msg'), role: 'assistant', content: text, timestamp: nowMsg, replyTo: aiReplyTo, apiRunId };
+                if (currentSpeakerName) msgObj.speaker = currentSpeakerName;
+                if (currentSpeakerAvatar) msgObj.senderAvatarUrl = currentSpeakerAvatar;
+                if (speakerFriend.type === 'group' && detectedSpeaker?.id != null) {
+                    msgObj.speakerMemberId = detectedSpeaker.id;
+                }
+                if (speakerFriend.type === 'group' && currentItem.thought) {
+                    msgObj.thought = currentItem.thought;
+                }
+                if (itemTranslation) {
+                    msgObj.translation = itemTranslation;
+                    msgObj.showTranslation = false;
+                }
+
+                // Only attempt to render bubble if user is STILL in this chat
+                const freshContainer = getSafeContainer();
+                const renderFriend = getLiveFriendById(friend.id) || friend;
+                const isUserStillLooking = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(renderFriend.id) && freshContainer;
+
+                if (isUserStillLooking && isStickerReply && window.imChat.renderStickerMessageBubble) {
+                    window.imChat.renderStickerMessageBubble(msgObj, renderFriend, freshContainer, nowMsg);
+                } else if (isUserStillLooking && isVoiceReply && window.imChat.renderVoiceMessageBubble) {
+                    window.imChat.renderVoiceMessageBubble(msgObj, renderFriend, freshContainer, nowMsg);
+                } else if (isUserStillLooking && isImageReply && window.imChat.renderImageBubble) {
+                    window.imChat.renderImageBubble(msgObj, renderFriend, freshContainer, nowMsg);
+                } else if (isUserStillLooking) {
+                    window.imChat.renderAiBubble(text, renderFriend, freshContainer, nowMsg, msgObj.translation, msgObj.showTranslation, msgObj.replyTo, currentSpeakerName, currentSpeakerAvatar, msgObj.id, msgObj.thought, msgObj.offlineScene, msgObj.offlineAction, msgObj.speakerMemberId);
+                } else if (window.showBannerNotification) {
+                    // Not looking at chat, show banner for this specific message bubble
+                    window.showBannerNotification(renderFriend, isStickerReply ? `[表情] ${resolvedSticker.stickerName}` : (isImageReply ? `[图片] ${text}` : text));
+                }
+
+                const appended = window.imApp.appendFriendMessage
+                    ? await window.imApp.appendFriendMessage(renderFriend.id || friend.id, msgObj, { silent: true })
+                    : false;
+
+                if (!appended) {
+                    const rollbackContainer = getSafeContainer();
+                    const rollbackFriend = getLiveFriendById(friend.id) || friend;
+                    if (rollbackContainer && window.imChat.rerenderChatContainer) {
+                        window.imChat.rerenderChatContainer(rollbackFriend, rollbackContainer, { scroll: true });
+                    }
+                    if (!options.silent && window.showToast) window.showToast('AI 消息保存失败');
+                    if (btnEl) btnEl.style.opacity = '1';
+                    return false;
+                }
+
+                qIndex++;
+                return true;
+            }
+
+            while (qIndex < queueItems.length) {
+                const processed = await processNextSentence();
+                if (!processed) {
+                    return;
+                }
+            }
+
+            const appendAndRenderGroupNotice = async (noticeKind, content, extra = {}) => {
+                const liveGroup = getLiveFriendById(friend.id) || friend;
+                if (!liveGroup || liveGroup.type !== 'group' || !window.imApp.appendFriendMessage) return false;
+                const noticeTimestamp = Date.now();
+                const noticeMessage = {
+                    id: window.imChat.createMessageId('notice'),
+                    role: 'system',
+                    type: 'system_notice',
+                    noticeKind,
+                    content,
+                    text: content,
+                    timestamp: noticeTimestamp,
+                    apiRunId,
+                    ...extra
+                };
+                const appended = await window.imApp.appendFriendMessage(liveGroup.id, noticeMessage, { silent: true });
+                if (!appended) return false;
+
+                const freshGroup = getLiveFriendById(friend.id) || liveGroup;
+                const activeContainer = getSafeContainer();
+                const isGroupActive = window.imData.currentActiveFriend
+                    && String(window.imData.currentActiveFriend.id) === String(freshGroup.id);
+                if (isGroupActive && activeContainer && window.imChat.renderSystemNoticeBubble) {
+                    window.imChat.renderSystemNoticeBubble(noticeMessage, freshGroup, activeContainer, noticeTimestamp);
+                }
+                return true;
+            };
+
+            if (friend.type === 'group' && groupPrivateMessageBatches.length > 0) {
+                let privateMessageSaveFailed = false;
+                let privateMessageAppendedTotal = 0;
+
+                for (const batch of groupPrivateMessageBatches) {
+                    if (!isConversationCurrent()) return;
+                    const targetFriend = getLiveFriendById(batch.member.id) || batch.member;
+                    if (!targetFriend || targetFriend.type === 'group' || targetFriend.type === 'official') continue;
+
+                    let appendedCount = 0;
+                    for (let index = 0; index < batch.messages.length; index += 1) {
+                        if (!isConversationCurrent()) return;
+                        const privateItem = batch.messages[index];
+                        const timestamp = Date.now() + index;
+                        const privateMsg = {
+                            id: window.imChat.createMessageId('msg'),
+                            role: 'assistant',
+                            content: privateItem.text,
+                            text: privateItem.text,
+                            timestamp,
+                            sourceGroupId: friend.id,
+                            sourceGroupName: friend.nickname || friend.realName || '',
+                            sourceApiRunId: apiRunId,
+                            privateFromGroup: true,
+                            payload: {
+                                sourceGroupId: friend.id,
+                                sourceGroupName: friend.nickname || friend.realName || '',
+                                sourceApiRunId: apiRunId,
+                                privateFromGroup: true
+                            }
+                        };
+                        if (privateItem.translation) {
+                            privateMsg.translation = privateItem.translation;
+                            privateMsg.showTranslation = false;
+                        }
+
+                        const appended = window.imApp.appendFriendMessage
+                            ? await window.imApp.appendFriendMessage(targetFriend.id, privateMsg, { silent: true })
+                            : false;
+                        if (!appended) {
+                            privateMessageSaveFailed = true;
+                            console.warn('[iMessage] Failed to persist a group-derived private message', {
+                                groupId: friend.id,
+                                memberId: targetFriend.id,
+                                apiRunId
+                            });
+                            continue;
+                        }
+                        appendedCount += 1;
+                        privateMessageAppendedTotal += 1;
+                    }
+
+                    const liveTargetFriend = getLiveFriendById(targetFriend.id) || targetFriend;
+                    const isTargetChatActive = window.imData.currentActiveFriend
+                        && String(window.imData.currentActiveFriend.id) === String(liveTargetFriend.id);
+                    if (appendedCount > 0 && isTargetChatActive && window.imChat.rerenderChatContainer) {
+                        const targetPage = document.getElementById(`chat-interface-${liveTargetFriend.id}`);
+                        const targetContainer = targetPage ? targetPage.querySelector('.ins-chat-messages') : null;
+                        if (targetContainer) {
+                            window.imChat.rerenderChatContainer(liveTargetFriend, targetContainer, { scroll: true });
+                        }
+                    }
+                }
+
+                if (privateMessageAppendedTotal > 0) {
+                    const noticeSaved = await appendAndRenderGroupNotice(
+                        'group_private_to_user',
+                        '有人给你发了私信'
+                    );
+                    if (!noticeSaved) privateMessageSaveFailed = true;
+                }
+
+                if (privateMessageSaveFailed && !options.silent && window.showToast) {
+                    window.showToast('部分群成员私信保存失败');
+                }
+            }
+
+            if (friend.type === 'group' && groupFriendPrivateChats.length > 0) {
+                let friendPrivateChatSaveFailed = false;
+
+                for (const privateChat of groupFriendPrivateChats) {
+                    if (!isConversationCurrent()) return;
+                    const sender = getLiveFriendById(privateChat.member.id) || privateChat.member;
+                    const recipient = privateChat.recipient;
+                    if (!sender || !recipient) continue;
+
+                    const normalizedExistingChats = window.imApp.normalizeLinkedAccountChats
+                        ? window.imApp.normalizeLinkedAccountChats(sender.linkedAccountChats)
+                        : (Array.isArray(sender.linkedAccountChats) ? sender.linkedAccountChats : []);
+                    const sourceNpcId = recipient.kind === 'contact'
+                        ? String(recipient.id || '')
+                        : String(recipient.sourceNpcId || '');
+                    const existingThread = recipient.kind === 'linked'
+                        ? normalizedExistingChats.find(chat => String(chat.id) === String(recipient.linkedChatId || recipient.id))
+                        : (sourceNpcId
+                            ? normalizedExistingChats.find(chat => String(chat.sourceNpcId || '') === sourceNpcId)
+                            : null);
+                    const linkedChatId = existingThread?.id || recipient.linkedChatId || window.imChat.createMessageId('linked-chat');
+                    const senderName = sender.nickname || sender.realName || '群成员';
+                    const recipientName = recipient.remark || recipient.name || recipient.realName || '好友';
+                    const relationship = String(recipient.relationship || '').trim();
+                    const snapshotMessages = [];
+
+                    privateChat.rounds.forEach((round, roundIndex) => {
+                        round.speakerMessages.forEach((message, messageIndex) => {
+                            const snapshotMessage = {
+                                id: window.imChat.createMessageId('linked-msg'),
+                                role: 'char',
+                                text: message.text,
+                                round: roundIndex + 1,
+                                orderInTurn: messageIndex
+                            };
+                            if (message.translation) snapshotMessage.translation = message.translation;
+                            snapshotMessages.push(snapshotMessage);
+                        });
+                        round.friendMessages.forEach((message, messageIndex) => {
+                            const snapshotMessage = {
+                                id: window.imChat.createMessageId('linked-msg'),
+                                role: 'account',
+                                text: message.text,
+                                round: roundIndex + 1,
+                                orderInTurn: messageIndex
+                            };
+                            if (message.translation) snapshotMessage.translation = message.translation;
+                            snapshotMessages.push(snapshotMessage);
+                        });
+                    });
+
+                    const saved = window.imApp.commitFriendChange
+                        ? await window.imApp.commitFriendChange(sender.id, (targetSender) => {
+                            if (!targetSender) return;
+                            targetSender.linkedAccountChats = window.imApp.normalizeLinkedAccountChats
+                                ? window.imApp.normalizeLinkedAccountChats(targetSender.linkedAccountChats)
+                                : (Array.isArray(targetSender.linkedAccountChats) ? targetSender.linkedAccountChats : []);
+
+                            let targetThread = recipient.kind === 'linked'
+                                ? targetSender.linkedAccountChats.find(chat => String(chat.id) === String(linkedChatId))
+                                : (sourceNpcId
+                                    ? targetSender.linkedAccountChats.find(chat => String(chat.sourceNpcId || '') === sourceNpcId)
+                                    : null);
+                            if (!targetThread) {
+                                const now = Date.now();
+                                targetThread = {
+                                    id: linkedChatId,
+                                    name: recipientName,
+                                    realName: recipient.realName || recipientName,
+                                    remark: recipient.remark || recipientName,
+                                    persona: String(recipient.persona || '').trim(),
+                                    relationship,
+                                    avatarSeed: String(recipient.avatarSeed || sourceNpcId || recipientName),
+                                    sourceNpcId,
+                                    messages: [],
+                                    createdAt: now,
+                                    updatedAt: now,
+                                    readAt: 0
+                                };
+                                targetSender.linkedAccountChats.unshift(targetThread);
+                            }
+
+                            const existingMessages = Array.isArray(targetThread.messages) ? targetThread.messages : [];
+                            const lastTimestamp = existingMessages.length > 0
+                                ? Number(existingMessages[existingMessages.length - 1]?.timestamp) || 0
+                                : 0;
+                            const baseTimestamp = Math.max(Date.now(), lastTimestamp + 1);
+                            snapshotMessages.forEach((message, index) => {
+                                message.timestamp = baseTimestamp + index;
+                            });
+                            targetThread.messages = existingMessages.concat(snapshotMessages.map(message => ({ ...message })));
+                            targetThread.updatedAt = snapshotMessages[snapshotMessages.length - 1]?.timestamp || baseTimestamp;
+                            if (!targetThread.relationship && relationship) targetThread.relationship = relationship;
+                        }, { silent: true, metaOnly: true })
+                        : false;
+
+                    if (!saved) {
+                        friendPrivateChatSaveFailed = true;
+                        console.warn('[iMessage] Failed to persist a group member friend chat', {
+                            groupId: friend.id,
+                            senderId: sender.id,
+                            recipientId: recipient.id || recipient.linkedChatId || recipientName,
+                            apiRunId
+                        });
+                        continue;
+                    }
+
+                    window.dispatchEvent(new CustomEvent('u2:linked-accounts-changed', {
+                        detail: { friendId: String(sender.id), changedCount: snapshotMessages.length }
+                    }));
+
+                    const noticeSaved = await appendAndRenderGroupNotice(
+                        'group_friend_private_chat',
+                        '有人给 TA 的好友发了私信',
+                        {
+                            payload: {
+                                privateChatSnapshot: {
+                                    senderId: String(sender.id),
+                                    senderName,
+                                    recipientId: sourceNpcId,
+                                    recipientName,
+                                    linkedChatId,
+                                    messages: snapshotMessages.map(message => ({ ...message }))
+                                }
+                            }
+                        }
+                    );
+                    if (!noticeSaved) friendPrivateChatSaveFailed = true;
+                }
+
+                if (friendPrivateChatSaveFailed && !options.silent && window.showToast) {
+                    window.showToast('部分成员好友私聊保存失败');
+                }
+            }
+
+            if (!isConversationCurrent()) return;
+            const latestFriend = getLiveFriendById(friend.id) || friend;
+            const redPacketChanged = latestFriend.type === 'group'
+                ? window.imChat.processPendingGroupRedPackets(latestFriend)
+                : false;
+
+            if (redPacketChanged) {
+                scheduleFriendPersistence(latestFriend.id || friend.id, {
+                    delay: 1200,
+                    silent: true
+                });
+
+                const latestContainer = getSafeContainer();
+                const isActiveChat = window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(latestFriend.id);
+
+                if (isActiveChat && latestContainer && window.imChat.rerenderChatContainer) {
+                    window.imChat.rerenderChatContainer(latestFriend, latestContainer, { scroll: true });
+                }
+            }
+
+            await flushFriendPersistence(latestFriend.id || friend.id, { silent: true });
+            if (window.imChat?.maybeAutoSummarize) {
+                void window.imChat.maybeAutoSummarize(latestFriend.id || friend.id);
+            }
+            if (btnEl) btnEl.style.opacity = '1';
+
+            if (window.imApp.updateChatsView && (!window.imData.currentActiveFriend || String(window.imData.currentActiveFriend.id) !== String(latestFriend.id))) {
+                window.imApp.updateChatsView();
+            }
+
+        } catch (error) {
+            if (typingRow && typingRow.parentNode) typingRow.remove();
+            if (!isConversationCurrent()) return;
+
+            const isTimeout = error && error.name === 'AbortError';
+            const message = isTimeout
+                ? 'API 请求超时，请检查接口地址/网络/模型'
+                : `API 请求失败${error && error.message ? `：${error.message}` : ''}`;
+
+            if (!options.silent && window.showToast) window.showToast(message);
+            console.error('[iMessage API] request failed', error);
+            if (btnEl) btnEl.style.opacity = '1';
+        } finally {
+            if (aiReplyControllers.get(friendKey) === requestController) {
+                aiReplyControllers.delete(friendKey);
+                aiReplyInFlight.delete(friendKey);
+            }
+        }
+    }
+
+    async function regenerateLastAiReply(friend, triggerEl = null, options = {}) {
+        const friendKey = getFriendKey(friend);
+        if (!friendKey) return false;
+        const normalizedOptions = options && typeof options === 'object' ? options : {};
+        const userRequirement = String(normalizedOptions.userRequirement || '').trim().slice(0, 800);
+
+        if (aiReplyInFlight.has(friendKey)) {
+            if (window.showToast) window.showToast('正在生成中');
+            return false;
+        }
+
+        const liveFriend = getLiveFriendById(friendKey) || friend;
+        if (liveFriend && window.imApp.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(liveFriend);
+        }
+        const messages = Array.isArray(liveFriend?.messages) ? liveFriend.messages : [];
+        
+        let lastGeneratedIndex = -1;
+        for (let i = messages.length - 1; i >= 0; i--) {
+            if (messages[i] && messages[i].apiRunId) {
+                lastGeneratedIndex = i;
+                break;
+            }
+        }
+
+        if (lastGeneratedIndex === -1) {
+            if (window.showToast) window.showToast('暂无可重回的回复');
+            return false;
+        }
+
+        let hasUserMessageAfter = false;
+        for (let i = lastGeneratedIndex + 1; i < messages.length; i++) {
+            if (messages[i] && messages[i].role === 'user') {
+                hasUserMessageAfter = true;
+                break;
+            }
+        }
+
+        if (hasUserMessageAfter) {
+            if (window.showToast) window.showToast('已回复，无法重回上一轮');
+            return false;
+        }
+
+        const lastGeneratedMessage = messages[lastGeneratedIndex];
+        const targetRunId = String(lastGeneratedMessage.apiRunId);
+        const targetMessages = messages.filter((msg) => msg && String(msg.apiRunId) === targetRunId);
+        const previousReply = targetMessages
+            .map((msg) => {
+                if (!msg) return '';
+                if (msg.type === 'sticker') return `[表情] ${msg.stickerCategory ? `${msg.stickerCategory} / ` : ''}${msg.stickerName || msg.text || ''}`.trim();
+                if (msg.type === 'image') return `[图片] ${msg.description || msg.content || msg.text || ''}`.trim();
+                if (msg.type === 'fake_link') {
+                    const link = msg.fakeLinkData || {};
+                    return `[假链接] ${link.siteName || '假网页'}：${link.title || msg.content || ''}`.trim();
+                }
+                if (msg.type === 'voice_message') return `[语音] ${msg.transcript || msg.content || msg.text || ''}`.trim();
+                if (msg.type === 'pay_transfer') return `[支付] ${msg.description || msg.content || ''}`.trim();
+                return String(msg.content || msg.text || msg.description || '').trim();
+            })
+            .filter(Boolean)
+            .join('\n')
+            .slice(0, 1200);
+
+        if (targetMessages.length === 0) {
+            if (window.showToast) window.showToast('暂无可重回的回复');
+            return false;
+        }
+
+        const page = document.getElementById(`chat-interface-${friendKey}`);
+        const container = page ? page.querySelector('.ins-chat-messages') : null;
+
+        if (!container) {
+            if (window.showToast) window.showToast('重回失败');
+            return false;
+        }
+
+        const descriptors = targetMessages.map((msg) => ({
+            id: msg.id || null,
+            timestamp: msg.timestamp || null
+        }));
+
+        const saved = window.imApp.removeFriendMessages
+            ? await window.imApp.removeFriendMessages(friendKey, descriptors, { silent: true })
+            : (window.imApp.commitFriendChange
+                ? await window.imApp.commitFriendChange(friendKey, (targetFriend) => {
+                    if (!targetFriend || !Array.isArray(targetFriend.messages)) return;
+                    targetFriend.messages = targetFriend.messages.filter((msg) => !msg || String(msg.apiRunId) !== targetRunId);
+                    if (window.imApp.reindexFriendMessages) window.imApp.reindexFriendMessages(targetFriend);
+                    if (window.imApp.syncActiveFriendReference) window.imApp.syncActiveFriendReference(targetFriend);
+                }, { silent: true, metaOnly: false, includeMessages: true })
+                : false);
+
+        if (!saved) {
+            if (window.showToast) window.showToast('重回失败');
+            return false;
+        }
+
+        const rollbackMessages = targetMessages
+            .map((msg) => msg && msg.rollbackSourceMessage)
+            .filter(Boolean);
+        if (rollbackMessages.length > 0 && window.imApp.updateFriendMessage) {
+            for (const rollbackMsg of rollbackMessages) {
+                await window.imApp.updateFriendMessage(friendKey, {
+                    id: rollbackMsg.id || null,
+                    timestamp: rollbackMsg.timestamp || null
+                }, (targetMsg) => {
+                    if (!targetMsg) return;
+                    Object.keys(targetMsg).forEach((key) => delete targetMsg[key]);
+                    Object.assign(targetMsg, JSON.parse(JSON.stringify(rollbackMsg)));
+                }, { silent: true });
+            }
+        }
+
+        const latestFriend = getLiveFriendById(friendKey) || liveFriend;
+        if (window.imChat.rerenderChatContainer) {
+            window.imChat.rerenderChatContainer(latestFriend, container, { scroll: true });
+        }
+
+        latestFriend.pendingRegenerateContext = userRequirement
+            ? { previousReply, userRequirement }
+            : { previousReply };
+        try {
+            await handleAiReply(latestFriend, container, triggerEl);
+            return true;
+        } finally {
+            const finalFriend = getLiveFriendById(friendKey) || latestFriend;
+            if (finalFriend && finalFriend.pendingRegenerateContext) {
+                delete finalFriend.pendingRegenerateContext;
+            }
+        }
+    }
+
+    window.imChat.handleSend = handleSend;
+    window.imChat.extractTaggedBlock = extractTaggedBlock;
+    window.imChat.removeTaggedBlock = removeTaggedBlock;
+    window.imChat.parseJsonArrayFromText = parseJsonArrayFromText;
+    window.imChat.normalizeProfilePanelPayload = normalizeProfilePanelPayload;
+    window.imChat.handleAiReply = handleAiReply;
+    window.imChat.invalidateFriendConversation = invalidateFriendConversation;
+    window.imChat.regenerateLastAiReply = regenerateLastAiReply;
+    window.imChat.runLinkedAccountBotNow = runLinkedAccountBotNow;
+    window.imChat.runAutonomousActivityForFriend = runAutonomousActivityForFriend;
+    window.imChat.runAutonomousMomentForFriend = runAutonomousMomentForFriend;
+    window.imChat.refreshAutonomousActivityTimers = refreshAutonomousActivityTimers;
+
+    window.addEventListener('u2:background-activity-tick', () => {
+        void checkAutonomousActivities('background-tick');
+    });
+    document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) void checkAutonomousActivities('visibility');
+    });
+    window.addEventListener('pageshow', () => {
+        void checkAutonomousActivities('pageshow');
+    });
+    setInterval(() => {
+        void checkAutonomousActivities('interval');
+    }, 60000);
+    setTimeout(() => {
+        void checkAutonomousActivities('startup');
+    }, 3000);
+
+});

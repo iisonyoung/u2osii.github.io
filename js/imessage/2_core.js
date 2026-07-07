@@ -1,1 +1,5110 @@
-function _0x1a00(_0x2b0cf7,_0x585a83){_0x2b0cf7=_0x2b0cf7-0x130;const _0x370898=_0x3708();let _0x1a007c=_0x370898[_0x2b0cf7];return _0x1a007c;}const _0x557477=_0x1a00;function _0x3708(){const _0x472cf5=['通话记录','get','fake_link','Enter','context','offlineRegexScripts','userName','刚刚取消了这通语音通话。]','\x0a\x20\x20','[提示：','canonicalUrl','见面记录','group_red_packet','resolve','Stickers','date','分类删除失败','iphone','sticker-item','[旁白：','background','23:00','<span>','Failed\x20to\x20lazy\x20load\x20moments','\x20位角色','outline','\x0a总结：','openView','showCustomModal','fileName','latestThought','momentImg','orderInTurn','#007aff','saveState','deleteMoment\x20failed','saveFriendMeta','saveFriendMetaOnly','type','Failed\x20to\x20commit\x20friend\x20change','isJiggleMode','image','pruneRuntimeAssetCache','.text','extractRawText','map','saveMoment','momentMessagesLoaded','replace','朋友圈保存失败，已撤销本次修改','renderChatsList','points','社交账号','boolean','group','flushFriendSave','.chat-memory-modal-cherished-card','朋友圈封面保存失败','584PsgFup',';\x20border:\x202px\x20solid\x20','sticker-grid','scheduleGlobalSave','affection','Failed\x20to\x20persist\x20moment\x20message\x20data','.schedule-event-card','8px','parentNode','memory-location-sheet','158904doBEUp','images','chat-memory-schedule-add-name','messagesLoaded','createDefaultMemory','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>短期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appendFriendMessage','html','moments','Failed\x20to\x20lazy\x20load\x20moment\x20messages','你重新进入群聊','checked','删除消息失败','account','notifyIncomingMessage','from','2242068THVbpF','Legacy\x20iMessage\x20IndexedDB\x20data\x20cleared\x20due\x20to\x20storage\x20schema\x20upgrade.','sticker-category-bind','classList','position','[系统事件：你撤回了一条消息。]','cssText','[群红包]\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-time\x22>','chatBgAssetId','&quot;','.chat-profile-panel-overlay','<div\x20class=\x22stickers-empty-state\x22><i\x20class=\x22far\x20fa-face-smile\x22></i><strong>还没有表情包</strong><span>点击右上角添加第一个分组</span></div>','timer','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22memory-short-summary-title\x22>','currentActiveFriend','persistMomentsCoverData','@container','createGroupMemberSnapshot','location','mountLimits','文件中没有有效的“名称\x20URL”记录','sticker-category-collapse-icon','enabled','聊天记录与上下文清空失败','updatedAt','markFriendDirty','sticker-category-card','normalizeAutonomousTask','clear','normalizeScheduleEvent','loadMomentMessages','No\x20Signature','renderFriendsList','未知位置','user_to_char','setAppState','\x20行格式无效，请修改后重试','input','[系统事件：','imessage-data-ready','categoryName','getBuiltinWorldBookContext','system_depth','object','你已退出群聊','events','getTotalUnreadCount','Bound\x20World\x20Book\x20/\x20绑定角色前','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','__iisoNeedsLegacyStorageReset','currentSettingsFriend','before_role','longterm-','siteName','char_to_user_pending','imStorage.saveFriend\x20unavailable','deletedFriendIds','@page','sourceEndMessageCount','alignContent','Failed\x20to\x20lazy\x20load\x20stickers','limit','friendTimers','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x20flex:1;\x20font-size:14px;\x20color:#111;\x20font-weight:700;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>','replaceFriendMessages','parseStickerManifestText','resolveFriendId','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sticker-bind-role-card\x22\x20style=\x22width:min(100%,360px);\x20max-height:78vh;\x20display:flex;\x20flex-direction:column;\x20background:#fff;\x20border-radius:24px;\x20\x20overflow:hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20justify-content:space-between;\x20padding:16px\x2018px;\x20border-bottom:1px\x20solid\x20#f2f2f7;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:17px;\x20font-weight:800;\x20color:#111;\x22>Bind\x20Roles</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sticker-bind-role-subtitle\x22\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:3px;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22sticker-bind-role-close\x22\x20style=\x22width:32px;\x20height:32px;\x20border:none;\x20border-radius:50%;\x20background:#f2f2f7;\x20color:#636366;\x20cursor:pointer;\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sticker-bind-role-list\x22\x20style=\x22padding:8px;\x20overflow-y:auto;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20gap:8px;\x20padding:12px\x2014px\x2014px;\x20border-top:1px\x20solid\x20#f2f2f7;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22sticker-bind-role-cancel\x22\x20style=\x22flex:1;\x20height:42px;\x20border:none;\x20border-radius:16px;\x20background:#f2f2f7;\x20color:#555;\x20font-size:15px;\x20font-weight:700;\x20cursor:pointer;\x22>Cancel</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22sticker-bind-role-save\x22\x20style=\x22flex:1;\x20height:42px;\x20border:none;\x20border-radius:16px;\x20background:#111;\x20color:#fff;\x20font-size:15px;\x20font-weight:800;\x20cursor:pointer;\x22>Save</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Stickers\x20view\x20or\x20openView\x20not\x20found','persistFriendData','Failed\x20to\x20reset\x20friend\x20conversation','linkedAccountChats','\x20(附带图片:\x20','translationZh','isDestructive','朋友圈通知保存失败','files','#ccc','pendingRegenerateContext','无配文','assign','sticker-group-preview-cell','event','getWorldBookContextForFriendByPosition','user','autonomous','position:absolute;\x20top:6px;\x20right:14px;\x20min-width:16px;\x20height:16px;\x20padding:0\x204px;\x20border-radius:999px;\x20background:#ff3b30;\x20color:#fff;\x20font-size:10px;\x20font-weight:700;\x20line-height:16px;\x20text-align:center;\x20box-sizing:border-box;\x20display:none;\x20pointer-events:none;','表情包保存失败','sourceCount','unreadCount','Failed\x20to\x20clear\x20legacy\x20iMessage\x20IndexedDB\x20data\x20during\x20schema\x20upgrade','drawImage','fromEntries','confirmTone','32530kyqKdL','createClearedConversationMemory','\x20style=\x22width:18px;\x20height:18px;\x20accent-color:#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:34px;\x20height:34px;\x20border-radius:50%;\x20overflow:hidden;\x20background:#f2f2f7;\x20color:#8e8e93;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','dataReadyPromise','detail','imessageChatCssEnabled','u2:stickers-data-changed','注入位置:\x20','name','sourceStartMessageCount','querySelectorAll','@layer','sticker-name-input','loadMessagesByFriendId','sticker-category-title','无描述','img','addEventListener','Failed\x20to\x20update\x20friend\x20message','Failed\x20to\x20clear\x20unread\x20count','visibilitychange','#111111','saveFriendMessage','Failed\x20to\x20process\x20sticker\x20image','memory','memory-entry-detail-modal','requestText','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2040px;\x22>No\x20stickers\x20yet.\x20Tap\x20+\x20to\x20add.</div>','</span>','userOverride','sourceNpcId','flushStickersSave','5wcpHxl','reason','wakeTime','stickers-back-btn','，等待用户领取。]','silent','description','记忆详情','isSaving','deleteFriendMessages','):\x20','isRecallableUserMessage','title','dynamicActionNarrationEnabled','cherished','saveMoments','[用户发了一个表情包：','momentMessagesDirty','keyword','block','group_rejoined','left','filter','signature','DOCX\x20解析组件未加载','\x22\x20?','正文状态：用户未填写正文，只能参考标题、域名和摘要。','toString','mood','maxMessagesPerFriend','Friend\x20message\x20reset\x20persistence\x20unavailable','onCancel','remark','message_recalled','add','placeholder','notice','round','New\x20NPC','hidden','暂无动作','toISOString','avatarSeed','actorRole','memoryPayload','handle','leftGroupAt','compressImageFile','clearRuntimeAssetCache','raw','batch-delete-bar','column','3942785RrVfLB','alt','schedule','<i\x20class=\x22fas\x20fa-check\x22></i>','profilePanel','toDataURL','3887552wvFWEG','关键词:\x20','isFinite','has','saveGlobalData','actorName','match','[系统事件：User\x20重新进入群聊。]','reply','[你刚刚退回了用户的转账\x20¥','.bottom-sheet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','getCurrentMemoryFriend','group_left',';\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20font-size:\x2012px;\x20color:\x20#fff;\x20cursor:\x20pointer;\x20z-index:\x205;\x20','renderMoments','messages','data-event-id','keys','imStorage\x20unavailable','[语音通话记录]\x20','action','position:\x20sticky;\x20top:\x200;\x20z-index:\x2050;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20padding:\x2010px\x2016px;\x20background:\x20rgba(255,255,255,0.95);\x20\x20\x20border-radius:\x2016px;\x20margin-bottom:\x2012px;\x20','thoughtHistory','onLoaded','linked-','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22chat-memory-modal-cherished-card\x22\x20data-entry-id=\x22','user_rejected_from_char','lastSummaryMessageCount','sticker-detail-title','sticker-bind-role-overlay','memory-entry-detail-close','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>短期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-empty\x22>暂无短期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','imData','borderRadius','700','maxLinkBodyChars','avatarUrl','聊天记录清空失败','groups-toggle','preventDefault','stickers-edit-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-item\x22\x20style=\x22gap:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22width:30px;\x20height:30px;\x20border-radius:9px;\x20background:','momentTimers','imDataUtils','sticker-select-checkbox','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>社交账号</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-empty\x22>暂无社交账号</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lastMessagePreview','outside','length','createDefaultLinkedAccountBot','markStickersDirty','nav-chats-btn','buildPersistedData','flushGlobalSave','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20font-weight:400;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>','saveMomentMessages','[朋友圈]','&amp;','dateText','长期记忆','珍视回忆','Char','Failed\x20to\x20load\x20image','lastError','.typing-row','activatedAt','Failed\x20to\x20commit\x20stickers\x20change','.docx','u2:stickers-binding-changed','linkedAccountBot','notes','已删除短期记忆','roundLimit','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20data-friend-id=\x22','表情删除失败','未命名假网页','Failed\x20to\x20commit\x20moment\x20change','新的事件','nav-home-btn','none','markMomentsCoverDirty','World\x20Book\x20/\x20角色前','Bind\x20roles','readFileAsDataUrl','commitFriendsChange','user_received_from_char','then','删除失败','getContext','getAttribute','worldBookKeywordMatched','commitStickersChange','momentsCoverAssetId','[用户已领取你的转账\x20¥','momentDirtyIds','updateAppState','.line-service-item','11342820YRWbSw','momentText','\x22]\x0a','[转账]\x20','chat-memory-schedule-sleep-picker','请输入完整的行程信息','stickers-list-container','markMomentMessagesDirty','已删除\x20','Failed\x20to\x20clear\x20iMessage\x20runtime\x20cache','normalizeWorldBookEntry','span','markMomentMessagesLoaded','sticker-category-detail-sheet','time','关键词','preventAppClick','shortTermEntries','saveMoments\x20failed','sticker-item\x20sticker-detail-item','New\x20Friend','social-','朋友圈消息保存失败','Failed\x20to\x20persist\x20moment\x20data','syncActiveFriendReference','renderMomentsMessages','lastRunAt','saveFriends','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20relative;\x20z-index:\x202;\x20display:\x20flex;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2010px;\x20height:\x2010px;\x20border-radius:\x2050%;\x20background:\x20#5856d6;\x20margin-right:\x2015px;\x20margin-top:\x205px;\x20\x20flex-shrink:\x200;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>睡觉</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x22>','manual','Bind\x20failed','nav-chats-unread-badge','sticker-detail-batch-bar','saveStickers','@font-face','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','[朋友圈]\x20','[你发了一个表情包：','sticker-group-card','set','includeMessages','仅支持\x20TXT\x20和\x20DOCX\x20文件','getContextLimit','刚刚拒绝了这通语音通话。]','页面摘要：','已读取\x20','uiState','style','updateFriendMessage','stringify','customCssEnabled','confirm-add-sticker-btn','reindexFriendMessages','ensureMomentMessagesReady','Unknown','[系统事件：有群成员与自己的好友进行了私聊。私聊内容只属于该成员，其他群成员默认不知道。]','\x0a（通话已结束，请直接用普通文字回复）]','momentsLoaded','[引用了消息：\x22','catch','color:\x20#ff3b30;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20width:\x2028px;\x20height:\x2028px;\x20padding:\x200;\x20display:\x20none;\x20border-radius:\x2050%;\x20align-items:\x20center;\x20justify-content:\x20center;\x20transition:\x20background\x200.2s;','active','\x20(附带图片)','Bookmark\x20clicked','friendDirtyIds','getMomentsCoverUrl','max','currentActiveRow','friendFlushChains','onload','07:00','Bound\x20World\x20Book\x20/\x20绑定系统深度','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22memory-entry-detail-delete-btn\x22\x20style=\x22width:\x20100%;\x20padding:\x2012px;\x20border-radius:\x2012px;\x20background:\x20#ffe5e5;\x20color:\x20#ff3b30;\x20border:\x20none;\x20font-size:\x2015px;\x20font-weight:\x20600;\x20cursor:\x20pointer;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20gap:\x206px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-trash-alt\x22></i>\x20删除这条记忆\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','querySelector','对话总结','memberProfiles','number','stopPropagation','targetName','message','Failed\x20to\x20remove\x20friend\x20messages','.nav-chats-unread-badge','event-','触发机制:\x20','Bound','onchange','visibilityState','cherishedEntries','朋友圈数据保存失败','content','payKind','webPage','confirm','canvas','imApp','getTimezoneOffset','data-memory-entry-id','已添加\x20','friendIds','showCherishedMemoryDetail','__conversation_reset__','customCss','npc','split','Recent\x20private\x20messages,\x20fixed\x20to\x20the\x20latest\x202\x20rounds:','\x20张表情','rgba(255,255,255,0.9)','<img\x20src=\x22','getAppState','message-active','loadMomentsCoverUrl','getImessageUiState','\x20张\x20·\x20已绑定\x20','\x0a时间：','statusCssEnabled','userId','concat','rawTime','getDate','imStorage.saveMomentMessages\x20unavailable','fas\x20fa-link','payload','injectionPosition','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.fa-bookmark','chat-memory-schedule-close','entries','memory-entry-detail-body','confirmText','No\x20file\x20provided','sourceThought','\x22\x20style=\x22background:\x20#f2f2f7;\x20border-radius:\x2016px;\x20padding:\x2012px\x2016px;\x20flex:\x201;\x20cursor:\x20pointer;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>','Failed\x20to\x20measure\x20iMessage\x20storage\x20usage','offsetWidth','relationship','applyGlobalChatCss','error','onerror','updateChatsView','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-label\x22>记忆程度</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-value\x22>','dataset','createElement','dark','relationships','sleepTime','.sticker-category-bind','linked-msg-','persona','Relationship:\x20','，备注：','__messageOrder','div','statusCss','saveMomentMessages\x20failed','World\x20Book\x20/\x20角色后','color','charAt','moment','intervalSeconds','padding','22gEvAos','noticeKind','messageCount','normalizeFriendData','members','sticker-category-delete','voice_call_record','stickerCategory','measureApproximateUsage','contains','setDate','leftGroupMemberSnapshot','ensureDataReady','char','.sticker-bind-role-save','3277350yidxGJ','&gt;','delay','downloads','imStorage.saveMoment\x20unavailable','has-items','every','toggle','system','[你发了一条语音消息，语音内容：','src','loadStickers','cancelText','batch-delete-toggle','[系统事件：有群成员向\x20User\x20发送了私信。其他群成员默认不知道私信内容。]','persistGlobalData','display:\x20flex;\x20align-items:\x20center;\x20gap:\x204px;\x20margin-left:\x20auto;','\x20-\x20开启新的一天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','closeCustomModal','socialAccounts','translation','saveMomentsCover','items','platform','borderColor','lastActivatedAt','padStart','display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20gap:\x208px;\x20cursor:\x20pointer;\x20position:\x20relative;\x20min-height:\x2042px;\x20padding:\x207px\x2012px;\x20flex-shrink:\x200;\x20border-bottom:\x201px\x20solid\x20#f2f2f7;','rotate(-90deg)','runFriendPersistenceTask','已取消','removeFriendMessages','startsWith','markStickersLoaded','linked-chat-','normalizeLinkedAccountBot','isArray','memory-location-sheet-content','button','system_notice','Persona:\x20','warn','mountSettings','[转发了一条朋友圈,\x20内容:\x20\x22','click','<i\x20class=\x22fas\x20fa-pen\x22></i>','role','inside','modal-message','Failed\x20to\x20restore\x20moment\x20deletion\x20rollback','User','setMomentsCoverUrl','transcript','imStorage.saveMomentsCover\x20unavailable','memory-entry-detail-title','2px\x20solid\x20#007aff','closeView','[用户发了一条语音消息，语音内容：','sticker-local-upload-btn','sticker-preview-img','order','replyTo','页面正文：\x0a','imessage','systemDepth','scheduleMomentSave','sticker-category-header','sourceEventId','<i\x20class=\x22fas\x20fa-chevron-down\x22></i>','显示地址：','fakeLinkData','[你刚刚向用户发起了一笔转账\x20¥','botEnabled','sticker-detail-grid','chat-memory-schedule-add-btn','position:\x20absolute;\x20left:\x2050%;\x20transform:\x20translateX(-50%);\x20font-size:\x2014px;\x20font-weight:\x20600;\x20color:\x20#000;\x20white-space:\x20nowrap;\x20pointer-events:\x20none;','trans','flushMomentMessagesSave','parse','degree','\x20-\x20休息时间到了</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','friends','未知时间','User(','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>长期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-list\x22\x20style=\x22padding:\x200\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','@media','sticker-preview-item','createDefaultProfilePanel','syncSettings','系统深度','添加好友保存失败','@keyframes','ensureFriendMessagesLoaded','formatMessageForApiContext','scheduleFriendSave','u2SystemNotifications','youtube','\x20行格式无效','applyAllSavedCss','avatar','meta','className','profilePanelUiStateByFriendId','offline_meeting_active','Bound\x20World\x20Book\x20/\x20绑定角色后','imStorage.saveGlobalData\x20unavailable','sticker-group-preview-cell\x20empty','未读状态保存失败','innerHTML','channelId','momentsCover','These\x20are\x20private\x20friend\x20chats\x20belonging\x20to\x20the\x20character.\x20They\x20are\x20context\x20about\x20the\x20character\x27s\x20own\x20friends,\x20not\x20messages\x20from\x20the\x20current\x20User.','.line-bottom-nav-container','Failed\x20to\x20persist\x20friend\x20data','clearFriendRuntimeMessageContext','&#39;','size','Sticker\x20','点击查看详情','prompt','onRollback','。你可以收下这笔钱，也可以退回，或者正常回复。]','includes','narration','nickname','chatCss','sticker-detail-delete-category-btn','normalizeSchedule','recalledContent','thoughtText','cherished-','currentReplyText','lastMessageTimestamp','Failed\x20to\x20commit\x20global\x20change','amount','moments-content','Failed\x20to\x20import\x20sticker\x20manifest','immediate','setMomentMessages','.memory-short-delete-btn','未命名词条','transform','摘要：','after_role','endsWith','sticker-detail-count','displayUrl','findFriendMessageIndex','stickersDirty','start','@property','flushMomentSave','maxIntervalMinutes','notice_','imessage-view','height','userState','statusText','#8e8e93','getMinutes','online','已选择\x20','chats-content','stickersLoaded','<i\x20class=\x22fas\x20fa-trash\x22></i>\x20删除所选','overview','请添加至少一张表情','Failed\x20to\x20read\x20file','formatWorldBookEntryForPrompt','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20relative;\x20z-index:\x202;\x20display:\x20flex;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2010px;\x20height:\x2010px;\x20border-radius:\x2050%;\x20background:\x20#8e8e93;\x20margin-right:\x2015px;\x20margin-top:\x2015px;\x20\x20flex-shrink:\x200;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22schedule-event-card\x22\x20data-event-id=\x22','深度:\x20','World\x20Book\x20/\x20系统深度','\x20撤回了一条消息。]','clearRuntimeCache','batch-select-info','顺序:\x20','clearAllData','social','[发送了一张图片：','站点：','buildLinkedAccountMemoryContext','心声：','momentFlushChains','getMonth','表情包','normalizeRoundLimit','friendRevisions','syncMomentsUser','u2ThemeState','sticker-manifest-upload-input','data-entry-id','onTargetResolved','onConfirm','renderMemoryView','Remark:\x20','sticker-group-preview','imStorage','dispatchEvent','Failed\x20to\x20load\x20friend\x20messages\x20on\x20demand','撤回了一条消息','thought','relative','syncFriendMessageSummary','findIndex','createdAt','syncSettingsFriendReference','getBoundingClientRect','flexDirection','app','sticker_','formatFakeLinkMessageForApiContext','.fa-cog','closest','persistMomentMessagesData','Friend\x20conversation\x20reset\x20persistence\x20unavailable','行程已删除','tiktok','isCharacterSleeping','options','flex','speaker','34CFQoin','momentId','imessageChatCss','未命名分组','url','pay_transfer','height:\x2028px;\x20min-width:\x2044px;\x20border:\x20none;\x20border-radius:\x2014px;\x20background:\x20#f7f7fa;\x20color:\x20#111;\x20display:\x20inline-flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20gap:\x205px;\x20padding:\x200\x209px;\x20font-size:\x2012px;\x20font-weight:\x20700;\x20cursor:\x20pointer;','createDefaultAutonomousTask','群成员','appendChild','stickers','isPinned','[提示：你们刚刚完成了一通语音通话，时长\x20','Failed\x20to\x20persist\x20sticker\x20data','[旁白]\x20','Linked\x20Friend\x20','None','pending','.sticker-bind-role-close','longTermEntries','commitFriendChange','contextmenu','deleted','[卡片消息]','表情图片处理失败','getFriendById','好友数据保存失败','modal-prompt-confirm-btn','deleteFriend','timestamp','modal-prompt-content','chat-memory-schedule-add-end','删除分类\x20\x22','chat-memory-schedule-add-start','boundBooks','group_private_to_user','key','[系统事件：User\x20撤回了一条消息。你只知道发生了撤回，无法读取被撤回的原文。]','getFullYear','chat-memory-schedule-add-confirm-btn','shortterm-','朋友圈删除失败，已恢复','momentsCoverDirty','scopeUserCss','.sticker-bind-role-subtitle',':root','line-nav-indicator','actionText','normalizeAutonomousActivity','sticker','已拒绝','remove','getRecentContextMessages','syncActive','fab\x20fa-tiktok','renderStickersView','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>社交账号</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','persistMomentData','[系统事件]','删除已总结记录','createMessageId','Friend\x20','rotate(0deg)','function','slice','push','[图片]','getHours','change','toDateString','toLowerCase','保存失败，已撤销本次修改','status','.memory-short-summary-item','flushMomentsCoverSave','.line-header-left','请先选择要删除的表情','loadFriends','note','#ff0000','markMomentDirty','未命名行程','translateY(0)','longTerm','trim','markMomentsLoaded','getGlobalWorldBookContextByPosition','getFriendMessagePreview','display:flex;\x20align-items:center;\x20gap:12px;\x20padding:10px;\x20border-radius:16px;\x20cursor:pointer;','.txt','refreshMemoryLocationSheet','forEach','splice','text','keydown','\x20条，第\x20','indexOf','stripFakeLinkHtmlForApiContext','onclick','parentElement','deleteMoment','floor','affectionChange','invalidateFriendConversation','offline_meeting_record','value','正文状态：内容过长，已截断。','memory-entry-detail-delete-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20relative;\x20z-index:\x202;\x20display:\x20flex;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2010px;\x20height:\x2010px;\x20border-radius:\x2050%;\x20background:\x20#007aff;\x20margin-right:\x2015px;\x20margin-top:\x205px;\x20\x20flex-shrink:\x200;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>起床</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x22>','ensureMomentsReady','内容:\x0a','commitGlobalChange','[表情包]\x20','.sticker-category-delete','join','momentsCoverUrl','showToast','commitScopedFriendChange','add-sticker-sheet','triggerMode','getElementById','dirty','imgDesc','string','nextRunAt','timeAware','loadMoments','char_to_user_rejected','callMessages','imChat','#111','momentRevisions','memoryPoints','summary','getWorldBooks','now','[User\x20分享了一个站内假网页]','stickerName','角色后','imStorage.saveStickers\x20unavailable','min','Failed\x20to\x20commit\x20friends\x20change','defaultValue','reverse','未命名世界书','createDefaultAutonomousActivity','toFixed','mountedStickers','Failed\x20to\x20reset\x20friend\x20messages','确定彻底删除这条已总结记录吗？这会同时从角色记忆上下文中移除，无法恢复。','label','imStorage\x20not\x20available,\x20iMessage\x20will\x20run\x20with\x20volatile\x20in-memory\x20state.','\x20条贴图记录','Failed\x20to\x20append\x20friend\x20message','[转发了一条朋友圈]','cssPresets','角色前','saveFriend','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-item\x20memory-short-summary-item\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20data-memory-entry-id=\x22','renderGroupsList','initializeData','moment_forward','touchstart','showTimestamp','target','sticker-url-input','ready','voice_message','Failed\x20to\x20roll\x20back\x20friend\x20conversation\x20reset','expandLinkContent','已删除分类\x20\x22','假网页','hasPendingSave','momentMessages','.line-content','isSelf','getImFriends','permanent','overflowY','naturalWidth','display','friendId','正文状态：这是较早的假网页记录，本轮只保留摘要。','.line-header-right','Settings\x20clicked','delete','collapsed','[语音]\x20','grid','ytChannelId','find','avatarAssetId','ensureStickersReady','sort','行程：','#ff3b30','.sticker-bind-role-cancel','chatBg','image/jpeg','realName','sourceRoundCount','arrayBuffer','<i\x20class=\x22fas\x20fa-times\x22></i>','assistant','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','modal-cancel-btn','\x0a（该线下见面已经结束，请将这份总结作为后续线上聊天上下文。）','metaOnly','__bookName','onSuccess','\x22\x20style=\x22width:100%;\x20height:100%;\x20object-fit:cover;\x22>','invalidLines','\x20张\x20·\x20','No\x20chars\x20available','cloneDataSnapshot','你撤回了一条消息','focus','width','createRecalledNoticeMessage','textContent','<i\x20class=\x22fas\x20fa-user-plus\x22></i><span>','updateChatsUnreadBadges'];_0x3708=function(){return _0x472cf5;};return _0x3708();}(function(_0x29990f,_0x4ce909){const _0x471e40=_0x1a00,_0x31d791=_0x29990f();while(!![]){try{const _0x3746e4=parseInt(_0x471e40(0x4f4))/0x1*(-parseInt(_0x471e40(0x363))/0x2)+parseInt(_0x471e40(0x286))/0x3+-parseInt(_0x471e40(0x175))/0x4+parseInt(_0x471e40(0x13b))/0x5*(-parseInt(_0x471e40(0x495))/0x6)+parseInt(_0x471e40(0x16f))/0x7+parseInt(_0x471e40(0x47b))/0x8*(-parseInt(_0x471e40(0x485))/0x9)+-parseInt(_0x471e40(0x1d7))/0xa*(-parseInt(_0x471e40(0x277))/0xb);if(_0x3746e4===_0x4ce909)break;else _0x31d791['push'](_0x31d791['shift']());}catch(_0x1d7dc4){_0x31d791['push'](_0x31d791['shift']());}}}(_0x3708,0xb3e25),window['imData']={'friends':[],'moments':[],'momentMessages':[],'currentActiveFriend':null,'currentSettingsFriend':null,'currentDetailMoment':null,'currentOpenUserId':'me','pendingImages':[],'isPublishing':![],'currentEditImageIndex':-0x1,'cssPresets':[],'tempSelectedBookIds':[],'tempRelationshipDrafts':[],'isRelationshipPickerVisible':![],'longPressTimer':null,'currentActiveRow':null,'stickers':[],'momentsCoverUrl':null,'profilePanelUiStateByFriendId':{},'ready':![],'momentsLoaded':![],'momentMessagesLoaded':![],'stickersLoaded':![]},window[_0x557477(0x235)]=window[_0x557477(0x235)]||{},window[_0x557477(0x235)][_0x557477(0x38e)]=function(_0x208b48,_0x162639){if(!_0x208b48||!_0x162639)return'';function _0x255127(_0x5543b5,_0x4910e1){const _0xc6547f=_0x1a00;let _0x4defb6=0x0,_0x15ccc7=null,_0x3b9862=![];for(let _0x849be6=_0x4910e1;_0x849be6<_0x5543b5[_0xc6547f(0x1a6)];_0x849be6+=0x1){const _0xf58f7c=_0x5543b5[_0x849be6],_0x387cac=_0x5543b5[_0x849be6+0x1];if(_0x3b9862){_0xf58f7c==='*'&&_0x387cac==='/'&&(_0x3b9862=![],_0x849be6+=0x1);continue;}if(_0x15ccc7){if(_0xf58f7c==='\x5c')_0x849be6+=0x1;else _0xf58f7c===_0x15ccc7&&(_0x15ccc7=null);continue;}if(_0xf58f7c==='/'&&_0x387cac==='*'){_0x3b9862=!![],_0x849be6+=0x1;continue;}if(_0xf58f7c==='\x22'||_0xf58f7c==='\x27'){_0x15ccc7=_0xf58f7c;continue;}if(_0xf58f7c==='{')_0x4defb6+=0x1;if(_0xf58f7c==='}'){_0x4defb6-=0x1;if(_0x4defb6===0x0)return _0x849be6;}}return-0x1;}function _0xbe17f4(_0xd84d00){const _0x138f61=_0x1a00,_0x160228=[];let _0x32f2c1='',_0x483ca0=0x0,_0x4b7425=0x0,_0x453522=null;for(let _0x4b6b16=0x0;_0x4b6b16<_0xd84d00[_0x138f61(0x1a6)];_0x4b6b16+=0x1){const _0x5cffe5=_0xd84d00[_0x4b6b16];if(_0x453522){_0x32f2c1+=_0x5cffe5;if(_0x5cffe5==='\x5c')_0x4b6b16+=0x1,_0x32f2c1+=_0xd84d00[_0x4b6b16]||'';else _0x5cffe5===_0x453522&&(_0x453522=null);continue;}if(_0x5cffe5==='\x22'||_0x5cffe5==='\x27'){_0x453522=_0x5cffe5,_0x32f2c1+=_0x5cffe5;continue;}if(_0x5cffe5==='[')_0x483ca0+=0x1;if(_0x5cffe5===']')_0x483ca0=Math[_0x138f61(0x219)](0x0,_0x483ca0-0x1);if(_0x5cffe5==='(')_0x4b7425+=0x1;if(_0x5cffe5===')')_0x4b7425=Math['max'](0x0,_0x4b7425-0x1);_0x5cffe5===','&&_0x483ca0===0x0&&_0x4b7425===0x0?(_0x160228[_0x138f61(0x3a4)](_0x32f2c1[_0x138f61(0x3b7)]()),_0x32f2c1=''):_0x32f2c1+=_0x5cffe5;}if(_0x32f2c1[_0x138f61(0x3b7)]())_0x160228['push'](_0x32f2c1[_0x138f61(0x3b7)]());return _0x160228;}function _0x326626(_0x595729){const _0x2ff918=_0x1a00,_0x48f070=_0x595729[_0x2ff918(0x3b7)]();if(!_0x48f070)return _0x48f070;if(_0x48f070[_0x2ff918(0x300)](':scope'))return _0x48f070[_0x2ff918(0x471)](/:scope/g,_0x162639);if(_0x48f070===_0x2ff918(0x390)||_0x48f070===_0x2ff918(0x48c)||_0x48f070==='body')return _0x162639;if(_0x48f070[_0x2ff918(0x2a6)](_0x162639))return _0x48f070;return _0x162639+'\x20'+_0x48f070;}function _0x4aabff(_0x54eee7){const _0x808409=_0x1a00;let _0x1b66dc='',_0x38f498=0x0;while(_0x38f498<_0x54eee7[_0x808409(0x1a6)]){const _0x343bb6=_0x54eee7[_0x808409(0x3c3)]('{',_0x38f498);if(_0x343bb6===-0x1){_0x1b66dc+=_0x54eee7[_0x808409(0x3a3)](_0x38f498);break;}const _0x276522=_0x54eee7[_0x808409(0x3a3)](_0x38f498,_0x343bb6),_0x5d85bb=_0x276522[_0x808409(0x3b7)](),_0x2fd42b=_0x255127(_0x54eee7,_0x343bb6);if(_0x2fd42b===-0x1){_0x1b66dc+=_0x54eee7['slice'](_0x38f498);break;}const _0x13bc95=_0x54eee7['slice'](_0x343bb6+0x1,_0x2fd42b),_0x2924e4=_0x5d85bb[_0x808409(0x3a9)]();if(!_0x5d85bb)_0x1b66dc+=_0x54eee7[_0x808409(0x3a3)](_0x38f498,_0x2fd42b+0x1);else{if(_0x2924e4[_0x808409(0x2a6)](_0x808409(0x2db))||_0x2924e4['startsWith']('@supports')||_0x2924e4[_0x808409(0x2a6)](_0x808409(0x4a6))||_0x2924e4[_0x808409(0x2a6)](_0x808409(0x4ff)))_0x1b66dc+=_0x276522+'{'+_0x4aabff(_0x13bc95)+'}';else{if(_0x2924e4[_0x808409(0x2a6)](_0x808409(0x2e1))||_0x2924e4[_0x808409(0x2a6)]('@-webkit-keyframes')||_0x2924e4['startsWith'](_0x808409(0x1f9))||_0x2924e4[_0x808409(0x2a6)](_0x808409(0x31c))||_0x2924e4[_0x808409(0x2a6)](_0x808409(0x4cf)))_0x1b66dc+=_0x54eee7['slice'](_0x38f498,_0x2fd42b+0x1);else{if(_0x5d85bb[_0x808409(0x2a6)]('@'))_0x1b66dc+=_0x54eee7[_0x808409(0x3a3)](_0x38f498,_0x2fd42b+0x1);else{const _0x5b45ae=_0x276522[_0x808409(0x17b)](/^\s*/)?.[0x0]||'',_0x3c4675=_0xbe17f4(_0x5d85bb)['map'](_0x326626)[_0x808409(0x3d5)](',\x20');_0x1b66dc+=''+_0x5b45ae+_0x3c4675+'{'+_0x13bc95+'}';}}}}_0x38f498=_0x2fd42b+0x1;}return _0x1b66dc;}return _0x4aabff(String(_0x208b48));},window['imApp'][_0x557477(0x25e)]=function(_0x4853b3=window[_0x557477(0x342)]||{}){const _0x1f656b=_0x557477,_0x29c229='global-imessage-chat-css';let _0x12684a=document[_0x1f656b(0x3db)](_0x29c229);!_0x12684a&&(_0x12684a=document['createElement'](_0x1f656b(0x206)),_0x12684a['id']=_0x29c229,document['head'][_0x1f656b(0x36c)](_0x12684a));const _0x528f21=!!_0x4853b3[_0x1f656b(0x4f9)],_0x520b3e=typeof _0x4853b3[_0x1f656b(0x365)]===_0x1f656b(0x3de)?_0x4853b3[_0x1f656b(0x365)]:'';_0x12684a[_0x1f656b(0x43e)]=_0x528f21&&_0x520b3e['trim']()?window['imApp'][_0x1f656b(0x38e)](_0x520b3e,'.active-chat-interface.im-chat-single'):'';},window[_0x557477(0x235)][_0x557477(0x36a)]=function(){return{'enabled':![],'minIntervalMinutes':0x1e,'maxIntervalMinutes':0xf0,'nextRunAt':0x0,'lastRunAt':0x0};},window[_0x557477(0x235)][_0x557477(0x4b1)]=function(_0x14a373){const _0x5ad47a=_0x557477,_0x57db8f=window[_0x5ad47a(0x235)][_0x5ad47a(0x36a)](),_0x8ee145=_0x14a373&&typeof _0x14a373==='object'?_0x14a373:{},_0x1e1e40=Number(_0x8ee145['minIntervalMinutes']),_0x14bd3c=Number(_0x8ee145[_0x5ad47a(0x31e)]),_0x4d41a3=Number[_0x5ad47a(0x177)](_0x1e1e40)?Math[_0x5ad47a(0x219)](0x1,Math[_0x5ad47a(0x160)](_0x1e1e40)):_0x57db8f['minIntervalMinutes'],_0x2c48a1=Number[_0x5ad47a(0x177)](_0x14bd3c)?Math[_0x5ad47a(0x219)](_0x4d41a3,Math[_0x5ad47a(0x160)](_0x14bd3c)):Math[_0x5ad47a(0x219)](_0x4d41a3,_0x57db8f['maxIntervalMinutes']);return{'enabled':!!_0x8ee145['enabled'],'minIntervalMinutes':_0x4d41a3,'maxIntervalMinutes':_0x2c48a1,'nextRunAt':Math[_0x5ad47a(0x219)](0x0,Number(_0x8ee145[_0x5ad47a(0x3df)])||_0x57db8f[_0x5ad47a(0x3df)]),'lastRunAt':Math[_0x5ad47a(0x219)](0x0,Number(_0x8ee145['lastRunAt'])||_0x57db8f[_0x5ad47a(0x1f1)])};},window[_0x557477(0x235)][_0x557477(0x3f4)]=function(){const _0x59af44=_0x557477;return{'reply':window[_0x59af44(0x235)]['createDefaultAutonomousTask'](),'moment':window[_0x59af44(0x235)]['createDefaultAutonomousTask']()};},window[_0x557477(0x235)][_0x557477(0x393)]=function(_0x2ab6ac){const _0x3a3bcb=_0x557477,_0x307ff9=_0x2ab6ac&&typeof _0x2ab6ac===_0x3a3bcb(0x4c1)?_0x2ab6ac:{},_0xa53d12=_0x307ff9[_0x3a3bcb(0x17d)]&&typeof _0x307ff9[_0x3a3bcb(0x17d)]===_0x3a3bcb(0x4c1)||_0x307ff9[_0x3a3bcb(0x274)]&&typeof _0x307ff9[_0x3a3bcb(0x274)]===_0x3a3bcb(0x4c1),_0x10d667=_0xa53d12?_0x307ff9[_0x3a3bcb(0x17d)]:_0x307ff9;return{'reply':window[_0x3a3bcb(0x235)][_0x3a3bcb(0x4b1)](_0x10d667),'moment':window[_0x3a3bcb(0x235)][_0x3a3bcb(0x4b1)](_0x307ff9[_0x3a3bcb(0x274)])};},window[_0x557477(0x235)][_0x557477(0x489)]=function(){const _0x4932f7=_0x557477;return{'overview':'','anniversaries':'','context':{'enabled':!![],'limit':0x50,'notes':''},'summary':{'enabled':![],'limit':0x50,'roundLimit':0x1e,'prompt':''},'autonomous':window[_0x4932f7(0x235)][_0x4932f7(0x3f4)](),'longTerm':'','shortTermEntries':[],'cherished':'','longTermEntries':[],'cherishedEntries':[],'relationships':[],'socialAccounts':[],'schedule':{'enabled':![],'sleepTime':'23:00','wakeTime':_0x4932f7(0x21d),'events':[]},'lastSummaryMessageCount':0x0,'mountSettings':{},'mountLimits':{}};},window[_0x557477(0x235)][_0x557477(0x1a7)]=function(){return{'enabled':![],'intervalSeconds':0x3c,'lastRunAt':0x0};},window[_0x557477(0x235)][_0x557477(0x2a9)]=function(_0x55491f){const _0x18dd6b=_0x557477,_0x563f7c=window[_0x18dd6b(0x235)][_0x18dd6b(0x1a7)](),_0x58319e=_0x55491f&&typeof _0x55491f===_0x18dd6b(0x4c1)?_0x55491f:{},_0x2327df=Number(_0x58319e[_0x18dd6b(0x275)]);return{'enabled':!!_0x58319e[_0x18dd6b(0x4ac)],'intervalSeconds':Number[_0x18dd6b(0x177)](_0x2327df)?Math[_0x18dd6b(0x219)](0x5,Math[_0x18dd6b(0x3ef)](0x15180,Math[_0x18dd6b(0x160)](_0x2327df))):_0x563f7c['intervalSeconds'],'lastRunAt':Number(_0x58319e['lastRunAt'])||_0x563f7c[_0x18dd6b(0x1f1)]};},window['imApp']['normalizeLinkedAccountChats']=function(_0x128804){const _0x44cd80=_0x557477;if(!Array[_0x44cd80(0x2aa)](_0x128804))return[];return _0x128804[_0x44cd80(0x46e)]((_0x1c20e7,_0x1a8ce2)=>{const _0x29f567=_0x44cd80;if(!_0x1c20e7||typeof _0x1c20e7!==_0x29f567(0x4c1))return null;const _0x509983=Array[_0x29f567(0x2aa)](_0x1c20e7[_0x29f567(0x185)])?_0x1c20e7[_0x29f567(0x185)]['map']((_0x2005a4,_0x31c18e)=>{const _0x4eae57=_0x29f567;if(!_0x2005a4||typeof _0x2005a4!==_0x4eae57(0x4c1))return null;const _0x31db74=typeof _0x2005a4['text']==='string'?_0x2005a4[_0x4eae57(0x3c0)][_0x4eae57(0x3b7)]():typeof _0x2005a4['content']==='string'?_0x2005a4[_0x4eae57(0x230)][_0x4eae57(0x3b7)]():'';if(!_0x31db74)return null;const _0xc90a1c=_0x2005a4[_0x4eae57(0x2b4)]===_0x4eae57(0x284)?'char':_0x4eae57(0x492),_0xcad91a=Number(_0x2005a4[_0x4eae57(0x380)])||Date[_0x4eae57(0x3ea)]()+_0x31c18e,_0x5c3455={'id':_0x2005a4['id']||_0x4eae57(0x269)+_0xcad91a+'-'+_0x31c18e,'role':_0xc90a1c,'text':_0x31db74,'timestamp':_0xcad91a},_0x4cb4fa=typeof _0x2005a4[_0x4eae57(0x29a)]===_0x4eae57(0x3de)&&_0x2005a4['translation'][_0x4eae57(0x3b7)]()?_0x2005a4['translation'][_0x4eae57(0x3b7)]():typeof _0x2005a4['translationZh']===_0x4eae57(0x3de)&&_0x2005a4[_0x4eae57(0x4df)][_0x4eae57(0x3b7)]()?_0x2005a4[_0x4eae57(0x4df)][_0x4eae57(0x3b7)]():typeof _0x2005a4[_0x4eae57(0x2d2)]==='string'&&_0x2005a4[_0x4eae57(0x2d2)]['trim']()?_0x2005a4['trans']['trim']():'';if(_0x4cb4fa)_0x5c3455[_0x4eae57(0x29a)]=_0x4cb4fa;const _0x564d95=Number(_0x2005a4[_0x4eae57(0x160)]);if(Number[_0x4eae57(0x177)](_0x564d95)&&_0x564d95>0x0)_0x5c3455[_0x4eae57(0x160)]=_0x564d95;const _0x592d8d=Number(_0x2005a4['orderInTurn']);if(Number[_0x4eae57(0x177)](_0x592d8d)&&_0x592d8d>=0x0)_0x5c3455[_0x4eae57(0x461)]=_0x592d8d;return _0x5c3455;})[_0x29f567(0x151)](Boolean):[],_0x74c993=Date[_0x29f567(0x3ea)](),_0x511dea=Number(_0x1c20e7[_0x29f567(0x4ae)])||(_0x509983[_0x29f567(0x1a6)]>0x0?_0x509983[_0x509983[_0x29f567(0x1a6)]-0x1][_0x29f567(0x380)]:_0x74c993);return{'id':_0x1c20e7['id']||_0x29f567(0x2a8)+_0x511dea+'-'+_0x1a8ce2,'name':typeof _0x1c20e7[_0x29f567(0x4fc)]===_0x29f567(0x3de)&&_0x1c20e7[_0x29f567(0x4fc)][_0x29f567(0x3b7)]()?_0x1c20e7[_0x29f567(0x4fc)][_0x29f567(0x3b7)]():_0x29f567(0x372)+(_0x1a8ce2+0x1),'realName':typeof _0x1c20e7[_0x29f567(0x42a)]===_0x29f567(0x3de)&&_0x1c20e7[_0x29f567(0x42a)][_0x29f567(0x3b7)]()?_0x1c20e7[_0x29f567(0x42a)][_0x29f567(0x3b7)]():typeof _0x1c20e7[_0x29f567(0x4fc)]===_0x29f567(0x3de)?_0x1c20e7[_0x29f567(0x4fc)][_0x29f567(0x3b7)]():'','remark':typeof _0x1c20e7['remark']==='string'?_0x1c20e7[_0x29f567(0x15b)][_0x29f567(0x3b7)]():'','handle':typeof _0x1c20e7[_0x29f567(0x168)]===_0x29f567(0x3de)?_0x1c20e7['handle'][_0x29f567(0x3b7)]():'','persona':typeof _0x1c20e7['persona']===_0x29f567(0x3de)?_0x1c20e7['persona'][_0x29f567(0x3b7)]():'','relationship':typeof _0x1c20e7[_0x29f567(0x25d)]===_0x29f567(0x3de)?_0x1c20e7[_0x29f567(0x25d)][_0x29f567(0x3b7)]():'','avatarSeed':typeof _0x1c20e7[_0x29f567(0x165)]==='string'&&_0x1c20e7[_0x29f567(0x165)][_0x29f567(0x3b7)]()?_0x1c20e7[_0x29f567(0x165)]['trim']():typeof _0x1c20e7[_0x29f567(0x168)]===_0x29f567(0x3de)&&_0x1c20e7[_0x29f567(0x168)]['trim']()?_0x1c20e7[_0x29f567(0x168)]['trim']():typeof _0x1c20e7[_0x29f567(0x4fc)]==='string'?_0x1c20e7[_0x29f567(0x4fc)][_0x29f567(0x3b7)]():_0x29f567(0x18e)+_0x1a8ce2,'sourceNpcId':_0x1c20e7['sourceNpcId']!=null?String(_0x1c20e7[_0x29f567(0x139)]):'','messages':_0x509983,'createdAt':Number(_0x1c20e7['createdAt'])||_0x511dea,'updatedAt':_0x511dea,'readAt':Number(_0x1c20e7['readAt'])||0x0};})[_0x44cd80(0x151)](Boolean);},window[_0x557477(0x235)][_0x557477(0x35f)]=function(_0x4f9d57){const _0x3acaf0=_0x557477;if(!_0x4f9d57||!_0x4f9d57[_0x3acaf0(0x133)]||!_0x4f9d57[_0x3acaf0(0x133)][_0x3acaf0(0x171)]||!_0x4f9d57[_0x3acaf0(0x133)]['schedule'][_0x3acaf0(0x4ac)])return![];const _0x5d1022=_0x4f9d57[_0x3acaf0(0x133)][_0x3acaf0(0x171)],_0x256b04=_0x5d1022[_0x3acaf0(0x267)]||'23:00',_0x12be50=_0x5d1022[_0x3acaf0(0x13d)]||_0x3acaf0(0x21d);if(_0x256b04===_0x12be50)return![];const _0x411fd5=new Date(),_0x45eeda=_0x411fd5[_0x3acaf0(0x3a6)](),_0x3fe274=_0x411fd5[_0x3acaf0(0x325)](),_0x34a5a0=_0x45eeda*0x3c+_0x3fe274,_0x24eec2=_0x2c0460=>{const _0x38c57d=_0x3acaf0,_0x283e42=_0x2c0460[_0x38c57d(0x23e)](':');return parseInt(_0x283e42[0x0],0xa)*0x3c+parseInt(_0x283e42[0x1],0xa);},_0x2ed763=_0x24eec2(_0x256b04),_0x23e7db=_0x24eec2(_0x12be50);return _0x2ed763<_0x23e7db?_0x34a5a0>=_0x2ed763&&_0x34a5a0<_0x23e7db:_0x34a5a0>=_0x2ed763||_0x34a5a0<_0x23e7db;},window[_0x557477(0x235)]['createDefaultProfilePanel']=function(_0x5c5904={}){const _0x2ee6bc=_0x557477;return{'activeTab':_0x2ee6bc(0x34e),'thought':_0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x34e)]||_0x5c5904?.['latestThought']||'','location':_0x5c5904?.['profilePanel']?.[_0x2ee6bc(0x4a8)]||_0x2ee6bc(0x4b7),'action':_0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x18a)]||_0x2ee6bc(0x163),'mood':_0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x157)]||'平静','expression':_0x5c5904?.[_0x2ee6bc(0x173)]?.['expression']||'自然','affection':typeof _0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x47f)]===_0x2ee6bc(0x223)?_0x5c5904[_0x2ee6bc(0x173)][_0x2ee6bc(0x47f)]:0x0,'affectionChange':typeof _0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x3c9)]==='number'?_0x5c5904['profilePanel'][_0x2ee6bc(0x3c9)]:0x0,'status':_0x5c5904?.[_0x2ee6bc(0x173)]?.[_0x2ee6bc(0x3ab)]||_0x5c5904?.[_0x2ee6bc(0x3ab)]||_0x2ee6bc(0x326),'thoughtHistory':Array[_0x2ee6bc(0x2aa)](_0x5c5904?.['profilePanel']?.[_0x2ee6bc(0x18c)])?_0x5c5904[_0x2ee6bc(0x173)][_0x2ee6bc(0x18c)]:[],'events':Array[_0x2ee6bc(0x2aa)](_0x5c5904?.[_0x2ee6bc(0x173)]?.['events'])?_0x5c5904[_0x2ee6bc(0x173)]['events'][_0x2ee6bc(0x46e)]((_0x1d2637,_0x3b6e9b)=>({'id':_0x1d2637?.['id']!=null?_0x1d2637['id']:'event-'+_0x3b6e9b,'title':_0x1d2637?.[_0x2ee6bc(0x147)]||_0x2ee6bc(0x1c3),'description':_0x1d2637?.[_0x2ee6bc(0x141)]||'','time':_0x1d2637?.[_0x2ee6bc(0x1e5)]||'','type':_0x1d2637?.[_0x2ee6bc(0x467)]||_0x2ee6bc(0x3b1),'status':_0x1d2637?.[_0x2ee6bc(0x3ab)]||_0x2ee6bc(0x374),'requestText':_0x1d2637?.[_0x2ee6bc(0x135)]||'','detail':_0x1d2637?.[_0x2ee6bc(0x4f8)]||'','confirmText':_0x1d2637?.[_0x2ee6bc(0x257)]||'确认','cancelText':_0x1d2637?.[_0x2ee6bc(0x292)]||'取消','memoryPayload':_0x1d2637?.['memoryPayload']&&typeof _0x1d2637[_0x2ee6bc(0x167)]===_0x2ee6bc(0x4c1)?{'title':_0x1d2637[_0x2ee6bc(0x167)][_0x2ee6bc(0x147)]||_0x1d2637?.['title']||_0x2ee6bc(0x1b2),'content':_0x1d2637[_0x2ee6bc(0x167)][_0x2ee6bc(0x230)]||_0x1d2637?.[_0x2ee6bc(0x135)]||_0x1d2637?.[_0x2ee6bc(0x141)]||'','detail':_0x1d2637[_0x2ee6bc(0x167)][_0x2ee6bc(0x4f8)]||_0x1d2637?.[_0x2ee6bc(0x4f8)]||'','reason':_0x1d2637[_0x2ee6bc(0x167)][_0x2ee6bc(0x13c)]||'','sourceEventId':_0x1d2637[_0x2ee6bc(0x167)][_0x2ee6bc(0x2c9)]||(_0x1d2637?.['id']!=null?_0x1d2637['id']:_0x2ee6bc(0x229)+_0x3b6e9b),'createdAt':_0x1d2637['memoryPayload'][_0x2ee6bc(0x352)]||_0x1d2637?.[_0x2ee6bc(0x1e5)]||'','sourceThought':_0x1d2637[_0x2ee6bc(0x167)]['sourceThought']||''}:null})):[]};},window[_0x557477(0x235)][_0x557477(0x27a)]=function(_0x4ed221){const _0x2e41bf=_0x557477,_0x16b8b5={..._0x4ed221};_0x16b8b5['id']=_0x16b8b5['id']!=null?_0x16b8b5['id']:Date['now'](),_0x16b8b5[_0x2e41bf(0x467)]=_0x16b8b5['type']||_0x2e41bf(0x284);const _0x12fc56=_0x16b8b5[_0x2e41bf(0x467)]===_0x2e41bf(0x477);_0x16b8b5[_0x2e41bf(0x42a)]=_0x16b8b5[_0x2e41bf(0x42a)]||'',_0x16b8b5['nickname']=_0x16b8b5[_0x2e41bf(0x302)]||(_0x16b8b5['type']==='npc'?_0x2e41bf(0x161):_0x2e41bf(0x1eb)),_0x16b8b5['signature']=_0x16b8b5[_0x2e41bf(0x152)]||_0x2e41bf(0x4b5),_0x16b8b5[_0x2e41bf(0x26a)]=_0x16b8b5[_0x2e41bf(0x26a)]||'',_0x16b8b5['avatarUrl']=_0x16b8b5[_0x2e41bf(0x19a)]||null,_0x16b8b5['avatarAssetId']=_0x16b8b5[_0x2e41bf(0x422)]||null,_0x16b8b5[_0x2e41bf(0x185)]=Array[_0x2e41bf(0x2aa)](_0x16b8b5[_0x2e41bf(0x185)])?_0x16b8b5[_0x2e41bf(0x185)]:[],_0x16b8b5[_0x2e41bf(0x428)]=_0x16b8b5[_0x2e41bf(0x428)]||null,_0x16b8b5[_0x2e41bf(0x49e)]=_0x16b8b5[_0x2e41bf(0x49e)]||null,_0x16b8b5[_0x2e41bf(0x209)]=!!_0x16b8b5['customCssEnabled'],_0x16b8b5[_0x2e41bf(0x23c)]=_0x16b8b5[_0x2e41bf(0x23c)]||'',_0x16b8b5['chatCssEnabled']=!!_0x16b8b5['chatCssEnabled'],_0x16b8b5[_0x2e41bf(0x303)]=_0x16b8b5[_0x2e41bf(0x303)]||'',_0x16b8b5[_0x2e41bf(0x249)]=!!_0x16b8b5[_0x2e41bf(0x249)],_0x16b8b5[_0x2e41bf(0x26f)]=_0x16b8b5[_0x2e41bf(0x26f)]||'',_0x16b8b5['isPinned']=!!_0x16b8b5[_0x2e41bf(0x36e)],_0x16b8b5['unreadCount']=Math[_0x2e41bf(0x219)](0x0,Number(_0x16b8b5[_0x2e41bf(0x4ef)])||0x0),_0x16b8b5[_0x2e41bf(0x406)]=!!_0x16b8b5['showTimestamp'],_0x16b8b5['timeAware']=_0x16b8b5[_0x2e41bf(0x3e0)]!==![],_0x16b8b5['dynamicActionNarrationEnabled']=!!_0x16b8b5[_0x2e41bf(0x148)],_0x16b8b5['timestampPosition']=_0x16b8b5['timestampPosition']==='outside'?_0x2e41bf(0x1a5):_0x2e41bf(0x2b5),_0x16b8b5[_0x2e41bf(0x385)]=Array['isArray'](_0x16b8b5[_0x2e41bf(0x385)])?_0x16b8b5[_0x2e41bf(0x385)]:[],_0x16b8b5['momentsCover']=_0x16b8b5[_0x2e41bf(0x2f4)]||null,_0x16b8b5[_0x2e41bf(0x1d2)]=_0x16b8b5['momentsCoverAssetId']||null,_0x16b8b5[_0x2e41bf(0x27b)]=Array[_0x2e41bf(0x2aa)](_0x16b8b5['members'])?_0x16b8b5[_0x2e41bf(0x27b)]:[],_0x16b8b5['leftGroupAt']=_0x12fc56?Number(_0x16b8b5[_0x2e41bf(0x169)])||0x0:0x0,_0x16b8b5[_0x2e41bf(0x282)]=_0x12fc56&&Array[_0x2e41bf(0x2aa)](_0x16b8b5['leftGroupMemberSnapshot'])?_0x16b8b5['leftGroupMemberSnapshot'][_0x2e41bf(0x151)](_0x239025=>_0x239025&&_0x239025['id']!=null)[_0x2e41bf(0x46e)](_0x5ea5f0=>({'id':_0x5ea5f0['id'],'nickname':_0x5ea5f0[_0x2e41bf(0x302)]||'','realName':_0x5ea5f0['realName']||''})):[],_0x16b8b5[_0x2e41bf(0x222)]=_0x4ed221['memberProfiles']&&typeof _0x4ed221[_0x2e41bf(0x222)]===_0x2e41bf(0x4c1)?_0x4ed221['memberProfiles']:{},_0x16b8b5[_0x2e41bf(0x2ce)]=!!_0x16b8b5[_0x2e41bf(0x2ce)],_0x16b8b5['offlineRegexScripts']=Array[_0x2e41bf(0x2aa)](_0x16b8b5[_0x2e41bf(0x446)])?_0x16b8b5['offlineRegexScripts']:[],_0x16b8b5[_0x2e41bf(0x1bb)]=window[_0x2e41bf(0x235)][_0x2e41bf(0x2a9)](_0x16b8b5[_0x2e41bf(0x1bb)]),_0x16b8b5[_0x2e41bf(0x4dd)]=window[_0x2e41bf(0x235)]['normalizeLinkedAccountChats'](_0x16b8b5['linkedAccountChats']),_0x16b8b5[_0x2e41bf(0x173)]=window['imApp'][_0x2e41bf(0x2dd)](_0x4ed221),_0x16b8b5[_0x2e41bf(0x45f)]=_0x16b8b5[_0x2e41bf(0x173)]['thought'],_0x16b8b5[_0x2e41bf(0x3ab)]=_0x16b8b5[_0x2e41bf(0x173)][_0x2e41bf(0x3ab)]||_0x16b8b5[_0x2e41bf(0x3ab)]||_0x2e41bf(0x326);const _0x507a54=window[_0x2e41bf(0x235)][_0x2e41bf(0x489)](),_0x35ba4a=_0x16b8b5[_0x2e41bf(0x133)]||{},_0x1ceb12=window[_0x2e41bf(0x1a1)]?.[_0x2e41bf(0x305)]?window[_0x2e41bf(0x1a1)][_0x2e41bf(0x305)](_0x35ba4a['schedule']):{'enabled':!!_0x35ba4a[_0x2e41bf(0x171)]?.[_0x2e41bf(0x4ac)],'sleepTime':_0x35ba4a[_0x2e41bf(0x171)]?.[_0x2e41bf(0x267)]||_0x507a54[_0x2e41bf(0x171)][_0x2e41bf(0x267)],'wakeTime':_0x35ba4a['schedule']?.[_0x2e41bf(0x13d)]||_0x507a54['schedule']['wakeTime'],'events':Array['isArray'](_0x35ba4a[_0x2e41bf(0x171)]?.[_0x2e41bf(0x4c3)])?_0x35ba4a[_0x2e41bf(0x171)][_0x2e41bf(0x4c3)]:[]};return _0x16b8b5[_0x2e41bf(0x133)]={'overview':_0x35ba4a[_0x2e41bf(0x32b)]||_0x507a54[_0x2e41bf(0x32b)],'anniversaries':_0x35ba4a['anniversaries']||_0x507a54['anniversaries'],'schedule':_0x1ceb12,'context':{'enabled':typeof _0x35ba4a['context']?.[_0x2e41bf(0x4ac)]===_0x2e41bf(0x476)?_0x35ba4a[_0x2e41bf(0x445)][_0x2e41bf(0x4ac)]:_0x507a54[_0x2e41bf(0x445)][_0x2e41bf(0x4ac)],'limit':Number(_0x35ba4a[_0x2e41bf(0x445)]?.[_0x2e41bf(0x4d3)])>0x0?Number(_0x35ba4a['context'][_0x2e41bf(0x4d3)]):_0x12fc56?0x64:_0x507a54[_0x2e41bf(0x445)]['limit'],'notes':_0x35ba4a['context']?.['notes']||_0x507a54['context'][_0x2e41bf(0x1bc)]},'summary':{'enabled':typeof _0x35ba4a['summary']?.[_0x2e41bf(0x4ac)]===_0x2e41bf(0x476)?_0x35ba4a['summary']['enabled']:_0x507a54['summary']['enabled'],'limit':Number(_0x35ba4a[_0x2e41bf(0x3e8)]?.[_0x2e41bf(0x4d3)])>0x0?Number(_0x35ba4a['summary'][_0x2e41bf(0x4d3)]):_0x507a54[_0x2e41bf(0x3e8)][_0x2e41bf(0x4d3)],'roundLimit':window['imDataUtils']?.['normalizeRoundLimit']?window[_0x2e41bf(0x1a1)][_0x2e41bf(0x33f)](_0x35ba4a[_0x2e41bf(0x3e8)]?.[_0x2e41bf(0x1be)],_0x507a54[_0x2e41bf(0x3e8)][_0x2e41bf(0x1be)]):Number(_0x35ba4a[_0x2e41bf(0x3e8)]?.[_0x2e41bf(0x1be)])>0x0?Math[_0x2e41bf(0x160)](Number(_0x35ba4a[_0x2e41bf(0x3e8)][_0x2e41bf(0x1be)])):_0x507a54['summary'][_0x2e41bf(0x1be)],'prompt':_0x35ba4a[_0x2e41bf(0x3e8)]?.[_0x2e41bf(0x2fd)]||_0x507a54[_0x2e41bf(0x3e8)][_0x2e41bf(0x2fd)]},'autonomous':window[_0x2e41bf(0x235)][_0x2e41bf(0x393)](_0x35ba4a[_0x2e41bf(0x4eb)]),'longTerm':_0x35ba4a[_0x2e41bf(0x3b6)]||_0x507a54[_0x2e41bf(0x3b6)],'shortTermEntries':Array[_0x2e41bf(0x2aa)](_0x35ba4a[_0x2e41bf(0x1e8)])?_0x35ba4a[_0x2e41bf(0x1e8)][_0x2e41bf(0x46e)]((_0x3a0213,_0x195b86)=>({'id':_0x3a0213?.['id']!=null?_0x3a0213['id']:_0x2e41bf(0x38b)+_0x195b86,'title':_0x3a0213?.[_0x2e41bf(0x147)]||_0x2e41bf(0x221),'time':_0x3a0213?.[_0x2e41bf(0x1e5)]||_0x3a0213?.['createdAt']||'','event':_0x3a0213?.[_0x2e41bf(0x4e8)]||_0x3a0213?.['content']||'','memoryPoints':_0x3a0213?.[_0x2e41bf(0x3e7)]||_0x3a0213?.[_0x2e41bf(0x474)]||'','degree':_0x3a0213?.[_0x2e41bf(0x2d5)]||'高','lastActivatedAt':_0x3a0213?.[_0x2e41bf(0x29f)]||_0x3a0213?.[_0x2e41bf(0x1b7)]||_0x3a0213?.['time']||_0x3a0213?.['createdAt']||'','raw':_0x3a0213?.[_0x2e41bf(0x16c)]||'','sourceCount':Math['max'](0x0,Number(_0x3a0213?.[_0x2e41bf(0x4ee)])||0x0),'sourceRoundCount':Math['max'](0x0,Number(_0x3a0213?.[_0x2e41bf(0x42b)])||0x0),'sourceStartMessageCount':Math[_0x2e41bf(0x219)](0x0,Number(_0x3a0213?.[_0x2e41bf(0x4fd)])||0x0),'sourceEndMessageCount':Math[_0x2e41bf(0x219)](0x0,Number(_0x3a0213?.[_0x2e41bf(0x4d0)])||0x0)})):_0x507a54[_0x2e41bf(0x1e8)],'longTermEntries':Array[_0x2e41bf(0x2aa)](_0x35ba4a[_0x2e41bf(0x376)])?_0x35ba4a[_0x2e41bf(0x376)][_0x2e41bf(0x46e)]((_0x5c00a9,_0x8156c1)=>({'id':_0x5c00a9?.['id']!=null?_0x5c00a9['id']:_0x2e41bf(0x4ca)+_0x8156c1,'title':_0x5c00a9?.['title']||_0x2e41bf(0x1b1),'content':_0x5c00a9?.[_0x2e41bf(0x230)]||'','createdAt':_0x5c00a9?.[_0x2e41bf(0x352)]||''})):_0x507a54[_0x2e41bf(0x376)],'lastSummaryMessageCount':typeof _0x35ba4a[_0x2e41bf(0x191)]==='number'?_0x35ba4a['lastSummaryMessageCount']:0x0,'cherished':_0x35ba4a[_0x2e41bf(0x149)]||_0x507a54[_0x2e41bf(0x149)],'cherishedEntries':Array['isArray'](_0x35ba4a[_0x2e41bf(0x22e)])?_0x35ba4a[_0x2e41bf(0x22e)]['map']((_0x4f0f80,_0x3e42c0)=>({'id':_0x4f0f80?.['id']!=null?_0x4f0f80['id']:_0x2e41bf(0x308)+_0x3e42c0,'title':_0x4f0f80?.[_0x2e41bf(0x147)]||_0x2e41bf(0x1b1),'content':_0x4f0f80?.['content']||'','detail':_0x4f0f80?.[_0x2e41bf(0x4f8)]||'','reason':_0x4f0f80?.[_0x2e41bf(0x13c)]||'','sourceEventId':_0x4f0f80?.[_0x2e41bf(0x2c9)]||'','createdAt':_0x4f0f80?.['createdAt']||'','sourceThought':_0x4f0f80?.[_0x2e41bf(0x259)]||''})):_0x507a54[_0x2e41bf(0x22e)],'relationships':Array['isArray'](_0x35ba4a[_0x2e41bf(0x266)])?_0x35ba4a[_0x2e41bf(0x266)]:_0x507a54[_0x2e41bf(0x266)],'socialAccounts':Array[_0x2e41bf(0x2aa)](_0x35ba4a[_0x2e41bf(0x299)])?_0x35ba4a[_0x2e41bf(0x299)][_0x2e41bf(0x46e)]((_0x463d7f,_0xbcd4bd)=>({'platform':_0x463d7f?.[_0x2e41bf(0x29d)]||'','label':_0x463d7f?.[_0x2e41bf(0x3f9)]||_0x463d7f?.[_0x2e41bf(0x29d)]||_0x2e41bf(0x475),'handle':_0x463d7f?.[_0x2e41bf(0x168)]||'','url':_0x463d7f?.['url']||'','ytChannelId':_0x463d7f?.[_0x2e41bf(0x420)]||_0x463d7f?.[_0x2e41bf(0x2f3)]||'','updatedAt':_0x463d7f?.['updatedAt']||'','id':_0x463d7f?.['id']||_0x2e41bf(0x1ec)+_0xbcd4bd}))[_0x2e41bf(0x151)](_0x15bb42=>_0x15bb42[_0x2e41bf(0x29d)]||_0x15bb42[_0x2e41bf(0x168)]||_0x15bb42[_0x2e41bf(0x367)]):_0x507a54[_0x2e41bf(0x299)],'userOverride':_0x35ba4a[_0x2e41bf(0x138)]||null,'mountSettings':_0x35ba4a[_0x2e41bf(0x2b0)]&&typeof _0x35ba4a[_0x2e41bf(0x2b0)]===_0x2e41bf(0x4c1)&&!Array['isArray'](_0x35ba4a[_0x2e41bf(0x2b0)])?{..._0x35ba4a[_0x2e41bf(0x2b0)]}:_0x507a54['mountSettings'],'mountLimits':_0x35ba4a[_0x2e41bf(0x4a9)]&&typeof _0x35ba4a['mountLimits']===_0x2e41bf(0x4c1)&&!Array[_0x2e41bf(0x2aa)](_0x35ba4a['mountLimits'])?Object[_0x2e41bf(0x4f2)](Object[_0x2e41bf(0x255)](_0x35ba4a[_0x2e41bf(0x4a9)])[_0x2e41bf(0x46e)](([_0x19ab84,_0x34acd9])=>{const _0x598351=_0x2e41bf,_0x26c9da=Number(_0x34acd9);return[_0x19ab84,Number[_0x598351(0x177)](_0x26c9da)&&_0x26c9da>0x0?Math[_0x598351(0x219)](0x1,Math['floor'](_0x26c9da)):0x14];})):_0x507a54[_0x2e41bf(0x4a9)]},_0x16b8b5;},window['imApp'][_0x557477(0x4a7)]=function(_0x478ed1){const _0x548b69=_0x557477;if(!_0x478ed1||_0x478ed1[_0x548b69(0x467)]!==_0x548b69(0x477))return[];const _0x15cde7=Array[_0x548b69(0x2aa)](_0x478ed1['members'])?_0x478ed1['members']:[];return _0x15cde7[_0x548b69(0x46e)](_0x2133ca=>{const _0x1a7c87=_0x548b69,_0x11725a=(window['imData']?.[_0x1a7c87(0x2d7)]||[])[_0x1a7c87(0x421)](_0x1a4e19=>String(_0x1a4e19['id'])===String(_0x2133ca));return{'id':_0x2133ca,'nickname':_0x11725a?.[_0x1a7c87(0x302)]||'','realName':_0x11725a?.['realName']||''};});},window[_0x557477(0x235)]['getContextLimit']=function(_0xc5a0fc){const _0x49cd35=_0x557477,_0x442ecb=window[_0x49cd35(0x235)][_0x49cd35(0x27a)](_0xc5a0fc||{}),_0x4423ce=_0x442ecb['type']===_0x49cd35(0x477)?0x64:0x64;if(_0x442ecb[_0x49cd35(0x133)]?.['context']?.[_0x49cd35(0x4ac)]===![])return 0x0;return Number(_0x442ecb['memory']?.[_0x49cd35(0x445)]?.[_0x49cd35(0x4d3)])>0x0?Number(_0x442ecb[_0x49cd35(0x133)][_0x49cd35(0x445)][_0x49cd35(0x4d3)]):_0x4423ce;},window[_0x557477(0x235)][_0x557477(0x397)]=function(_0x3979ce){const _0x465f44=_0x557477,_0x9964eb=window[_0x465f44(0x235)][_0x465f44(0x27a)](_0x3979ce||{}),_0x44be56=window[_0x465f44(0x235)][_0x465f44(0x201)](_0x9964eb),_0x14451a=Array[_0x465f44(0x2aa)](_0x9964eb['messages'])?_0x9964eb[_0x465f44(0x185)]:[];return _0x44be56>0x0?_0x14451a[_0x465f44(0x3a3)](-_0x44be56):[];},window[_0x557477(0x235)][_0x557477(0x146)]=function(_0xe68f95){const _0x42d0b9=_0x557477;if(!_0xe68f95||_0xe68f95[_0x42d0b9(0x2b4)]!==_0x42d0b9(0x4ea))return![];const _0x14c5d0=new Set([_0x42d0b9(0x2ad),_0x42d0b9(0x368),'group_red_packet',_0x42d0b9(0x27d),_0x42d0b9(0x3cb),'html']);return!_0x14c5d0[_0x42d0b9(0x178)](String(_0xe68f95['type']||'')[_0x42d0b9(0x3b7)]());},window[_0x557477(0x235)][_0x557477(0x43d)]=function(_0x2042e8,_0x30d242={}){const _0x43cb27=_0x557477,_0x2b036c=_0x2042e8&&typeof _0x2042e8==='object'?_0x2042e8:{},_0x8a04b3=_0x30d242[_0x43cb27(0x166)]===_0x43cb27(0x4ea)?'user':_0x43cb27(0x42e),_0x56835f=String(_0x30d242[_0x43cb27(0x17a)]||'')[_0x43cb27(0x3b7)](),_0x16a4ae=Number(_0x30d242[_0x43cb27(0x380)]||_0x2b036c['timestamp'])||Date[_0x43cb27(0x3ea)](),_0x3cce37={'id':_0x2b036c['id']||_0x30d242['id']||(window[_0x43cb27(0x3e4)]?.['createMessageId']?window[_0x43cb27(0x3e4)][_0x43cb27(0x39f)](_0x43cb27(0x15f)):_0x43cb27(0x31f)+_0x16a4ae),'role':'system','type':_0x43cb27(0x2ad),'noticeKind':_0x43cb27(0x15c),'actorRole':_0x8a04b3,'actorName':_0x56835f,'content':_0x8a04b3===_0x43cb27(0x4ea)?'你撤回了一条消息':(_0x56835f||'对方')+_0x43cb27(0x34d),'timestamp':_0x16a4ae};_0x8a04b3!==_0x43cb27(0x4ea)&&typeof _0x30d242[_0x43cb27(0x306)]==='string'&&_0x30d242[_0x43cb27(0x306)][_0x43cb27(0x3b7)]()&&(_0x3cce37[_0x43cb27(0x250)]={'recalledContent':_0x30d242[_0x43cb27(0x306)][_0x43cb27(0x3b7)]()});if(_0x30d242['apiRunId'])_0x3cce37['apiRunId']=_0x30d242['apiRunId'];return _0x3cce37;},window[_0x557477(0x235)]['formatSystemNoticeForApiContext']=function(_0x2149f){const _0x15c52a=_0x557477,_0x531ba0=_0x2149f||{},_0x35a4f1=_0x531ba0[_0x15c52a(0x278)]||'',_0x5863db=_0x531ba0[_0x15c52a(0x230)]||_0x531ba0[_0x15c52a(0x3c0)]||'';if(_0x35a4f1===_0x15c52a(0x182))return'[系统事件：User\x20已退出群聊。]';if(_0x35a4f1===_0x15c52a(0x14f))return _0x15c52a(0x17c);if(_0x35a4f1===_0x15c52a(0x301))return _0x15c52a(0x454)+_0x5863db+']';if(_0x35a4f1===_0x15c52a(0x2ed))return'';if(_0x35a4f1===_0x15c52a(0x386))return _0x15c52a(0x294);if(_0x35a4f1==='group_friend_private_chat')return _0x15c52a(0x20e);if(_0x35a4f1===_0x15c52a(0x15c)){if(_0x531ba0[_0x15c52a(0x166)]==='user')return _0x15c52a(0x388);const _0x5558ae=String(_0x531ba0[_0x15c52a(0x17a)]||'')[_0x15c52a(0x3b7)]();return _0x5558ae?_0x15c52a(0x4bc)+_0x5558ae+_0x15c52a(0x332):_0x15c52a(0x49a);}return _0x5863db?'[系统事件：'+_0x5863db+']':_0x15c52a(0x39d);},window['imApp'][_0x557477(0x3c4)]=function(_0x1e90b7,_0x4df303=0x4e20){const _0x102bb2=_0x557477;return String(_0x1e90b7==null?'':_0x1e90b7)[_0x102bb2(0x471)](/<\s*(script|style|iframe|object|embed|svg|canvas)[\s\S]*?<\s*\/\s*\1\s*>/gi,'\x20')[_0x102bb2(0x471)](/<[^>]+>/g,'\x20')[_0x102bb2(0x471)](/&nbsp;/gi,'\x20')[_0x102bb2(0x471)](/&amp;/gi,'&')[_0x102bb2(0x471)](/&lt;/gi,'<')[_0x102bb2(0x471)](/&gt;/gi,'>')[_0x102bb2(0x471)](/&quot;/gi,'\x22')[_0x102bb2(0x471)](/&#039;/gi,'\x27')['replace'](/\s+/g,'\x20')[_0x102bb2(0x3b7)]()[_0x102bb2(0x3a3)](0x0,Math[_0x102bb2(0x219)](0x3e8,Number(_0x4df303)||0x4e20));},window[_0x557477(0x235)][_0x557477(0x358)]=function(_0x45cd51,_0x59ca2e={}){const _0xb20ec2=_0x557477,_0x227331=_0x45cd51||{},_0x560a70=_0x227331[_0xb20ec2(0x2cc)]&&typeof _0x227331[_0xb20ec2(0x2cc)]===_0xb20ec2(0x4c1)?_0x227331['fakeLinkData']:{},_0x1ad29f=String(_0x560a70[_0xb20ec2(0x318)]||_0x560a70[_0xb20ec2(0x44b)]||_0x227331['content']||'')[_0xb20ec2(0x3b7)](),_0x348702=String(_0x560a70[_0xb20ec2(0x4cb)]||_0x560a70['domain']||_0xb20ec2(0x40e))[_0xb20ec2(0x3b7)](),_0x50f4ef=String(_0x560a70['title']||_0x1ad29f||_0xb20ec2(0x1c1))[_0xb20ec2(0x3b7)](),_0xac90c9=String(_0x560a70['summary']||'')['trim'](),_0x2cc176=_0x560a70[_0xb20ec2(0x232)]&&typeof _0x560a70[_0xb20ec2(0x232)]===_0xb20ec2(0x4c1)?_0x560a70[_0xb20ec2(0x232)]:null,_0x370c73=_0x2cc176&&_0x2cc176[_0xb20ec2(0x48c)]?window['imApp'][_0xb20ec2(0x3c4)](_0x2cc176[_0xb20ec2(0x48c)],_0x59ca2e[_0xb20ec2(0x199)]||0x4e20):'',_0x123976=String(_0x560a70['bodyText']||_0x560a70['pageText']||_0x370c73||'')[_0xb20ec2(0x3b7)](),_0x2c3a59=_0x2cc176?String(_0x2cc176['theme']||'')[_0xb20ec2(0x3b7)]():'',_0xfc0e30=_0x59ca2e[_0xb20ec2(0x40c)]!==![],_0x5cdac9=Math[_0xb20ec2(0x219)](0x3e8,Number(_0x59ca2e[_0xb20ec2(0x199)])||0x4e20),_0x245008=[_0xb20ec2(0x3eb),_0xb20ec2(0x339)+_0x348702,'标题：'+_0x50f4ef,_0xb20ec2(0x2cb)+_0x1ad29f];if(_0xac90c9)_0x245008['push'](_0xb20ec2(0x314)+_0xac90c9);if(!_0x123976)return _0x245008[_0xb20ec2(0x3a4)](_0xb20ec2(0x155)),_0x245008['join']('\x0a');if(!_0xfc0e30)return _0x245008[_0xb20ec2(0x3a4)](_0xb20ec2(0x203)+(_0xac90c9||_0x123976[_0xb20ec2(0x3a3)](0x0,0x1f4))),_0x245008[_0xb20ec2(0x3a4)](_0xb20ec2(0x419)),_0x245008['join']('\x0a');const _0x378224=_0x123976['slice'](0x0,_0x5cdac9);return _0x245008[_0xb20ec2(0x3a4)](_0xb20ec2(0x2c4)+_0x378224),_0x123976['length']>_0x378224['length']&&_0x245008['push'](_0xb20ec2(0x3cd)),_0x245008[_0xb20ec2(0x3d5)]('\x0a');},window[_0x557477(0x235)][_0x557477(0x2e3)]=function(_0x3ed54d,_0x52c1c2,_0x4fa3ce={}){const _0x26f90f=_0x557477,_0x38803a=window[_0x26f90f(0x235)][_0x26f90f(0x27a)](_0x52c1c2||{}),_0x43476e=_0x3ed54d||{},_0x17cd8e=_0x38803a['type']===_0x26f90f(0x477);let _0x1b32c8=_0x43476e[_0x26f90f(0x230)]||'';if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x2ad))return{'role':_0x26f90f(0x28e),'content':window[_0x26f90f(0x235)]['formatSystemNoticeForApiContext'](_0x43476e)};if(_0x43476e['type']==='fake_link')_0x1b32c8=window['imApp'][_0x26f90f(0x358)](_0x43476e,_0x4fa3ce);else{if(_0x43476e['type']==='voice_message'){const _0x285ccf=_0x43476e[_0x26f90f(0x2ba)]||_0x43476e[_0x26f90f(0x3c0)]||'';_0x1b32c8=_0x43476e[_0x26f90f(0x2b4)]===_0x26f90f(0x4ea)?_0x26f90f(0x2bf)+_0x285ccf+']':_0x26f90f(0x28f)+_0x285ccf+']';}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x394)){const _0x225e85=_0x43476e['stickerName']||_0x43476e[_0x26f90f(0x3c0)]||'表情包',_0x3cc7f5=_0x43476e[_0x26f90f(0x27e)]||'',_0x3a63a1=_0x3cc7f5?_0x3cc7f5+'\x20/\x20'+_0x225e85:_0x225e85;_0x1b32c8=_0x43476e[_0x26f90f(0x2b4)]==='user'?_0x26f90f(0x14b)+_0x3a63a1+']':_0x26f90f(0x1fc)+_0x3a63a1+']';}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x3cb)){const _0x34ea33=_0x43476e[_0x26f90f(0x1b0)]||'',_0x5c4543=_0x43476e[_0x26f90f(0x147)]||_0x26f90f(0x44c),_0x38ec9b=_0x43476e[_0x26f90f(0x3e8)]||_0x43476e['content']||'';return{'role':_0x26f90f(0x28e),'content':'[见面记录]\x0a结束时间：'+(_0x34ea33||'未知')+'\x0a标题：'+_0x5c4543+_0x26f90f(0x45b)+_0x38ec9b+_0x26f90f(0x431)};}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x27d)){const _0x1ddebd=_0x43476e['duration']||0x0,_0x1cb82e=Math[_0x26f90f(0x3c8)](_0x1ddebd/0x3c)+'分'+_0x1ddebd%0x3c+'秒',_0x56e1b1=_0x43476e[_0x26f90f(0x3e3)]||[],_0x4417ac=_0x43476e['statusText']||_0x26f90f(0x441);if(_0x4417ac===_0x26f90f(0x395))_0x1b32c8=_0x26f90f(0x44a)+(_0x43476e[_0x26f90f(0x412)]?'对方':'你')+_0x26f90f(0x202);else{if(_0x4417ac===_0x26f90f(0x2a4))_0x1b32c8=_0x26f90f(0x44a)+(_0x43476e['isSelf']?'你':'对方')+_0x26f90f(0x448);else{if(_0x56e1b1['length']>0x0){const _0xbcca65=_0x4fa3ce[_0x26f90f(0x447)]||window[_0x26f90f(0x322)]?.['name']||_0x26f90f(0x2b8),_0x339c6a=_0x38803a[_0x26f90f(0x302)]||'对方',_0x5993f3=_0x56e1b1[_0x26f90f(0x46e)](_0x384b89=>{const _0x43a6e5=_0x26f90f,_0x4723d9=_0x384b89[_0x43a6e5(0x412)]?_0xbcca65:_0x339c6a,_0x14c279=[];if(_0x384b89['actionText'])_0x14c279['push'](String(_0x384b89[_0x43a6e5(0x392)])[_0x43a6e5(0x3b7)]());if(_0x384b89[_0x43a6e5(0x307)])_0x14c279[_0x43a6e5(0x3a4)](_0x43a6e5(0x33b)+String(_0x384b89[_0x43a6e5(0x307)])[_0x43a6e5(0x3b7)]());if(_0x384b89[_0x43a6e5(0x3c0)])_0x14c279[_0x43a6e5(0x3a4)](_0x4723d9+'：「'+String(_0x384b89[_0x43a6e5(0x3c0)])[_0x43a6e5(0x3b7)]()+'」');return _0x14c279[_0x43a6e5(0x3d5)](_0x43a6e5(0x449));})[_0x26f90f(0x151)](Boolean)[_0x26f90f(0x3d5)](_0x26f90f(0x449));_0x1b32c8=_0x26f90f(0x36f)+_0x1cb82e+'。通话期间的交流内容如下：\x0a\x20\x20'+_0x5993f3+_0x26f90f(0x20f);}else _0x1b32c8='[提示：你们刚刚完成了一通语音通话，时长\x20'+_0x1cb82e+'，未产生可识别的文本记录。（通话已结束，请直接用普通文字回复）]';}}}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x404))try{const _0x328683=JSON['parse'](_0x43476e[_0x26f90f(0x230)]),_0x225c9b=_0x328683[_0x26f90f(0x3c0)]||_0x26f90f(0x4e5);_0x1b32c8=_0x26f90f(0x2b1)+_0x225c9b+'\x22]',_0x328683[_0x26f90f(0x504)]&&(_0x328683['imgDesc']?_0x1b32c8+=_0x26f90f(0x4de)+_0x328683[_0x26f90f(0x3dd)]+')':_0x1b32c8+=_0x26f90f(0x215));}catch(_0x3072a2){_0x1b32c8=_0x26f90f(0x3fd);}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x46a)){const _0x4509b7=_0x43476e[_0x26f90f(0x3c0)]||_0x43476e[_0x26f90f(0x141)]||_0x43476e[_0x26f90f(0x45e)]||_0x26f90f(0x503);_0x1b32c8=_0x26f90f(0x338)+_0x4509b7+']';}else{if(_0x43476e[_0x26f90f(0x467)]===_0x26f90f(0x368)){const _0x1fd398=Number(_0x43476e[_0x26f90f(0x30c)])||0x0,_0x4c4c25=_0x43476e[_0x26f90f(0x141)]||'转账',_0x48265a=_0x43476e[_0x26f90f(0x225)]||_0x38803a['nickname']||'对方';if(_0x43476e['payKind']===_0x26f90f(0x4b8))_0x1b32c8='[用户刚刚向你转账\x20¥'+_0x1fd398[_0x26f90f(0x3f5)](0x2)+_0x26f90f(0x26c)+_0x4c4c25+'，对象：'+_0x48265a+_0x26f90f(0x2ff);else{if(_0x43476e['payKind']==='char_received')_0x1b32c8='[你刚刚收下了用户的一笔转账\x20¥'+_0x1fd398['toFixed'](0x2)+_0x26f90f(0x26c)+_0x4c4c25+'。]';else{if(_0x43476e['payKind']===_0x26f90f(0x4cc))_0x1b32c8=_0x26f90f(0x2cd)+_0x1fd398[_0x26f90f(0x3f5)](0x2)+_0x26f90f(0x26c)+_0x4c4c25+_0x26f90f(0x13f);else{if(_0x43476e['payKind']==='char_to_user_claimed'||_0x43476e[_0x26f90f(0x231)]===_0x26f90f(0x1cb))_0x1b32c8=_0x26f90f(0x1d3)+_0x1fd398[_0x26f90f(0x3f5)](0x2)+'，备注：'+_0x4c4c25+'。]';else{if(_0x43476e[_0x26f90f(0x231)]===_0x26f90f(0x190))_0x1b32c8='[用户退回了你的转账\x20¥'+_0x1fd398[_0x26f90f(0x3f5)](0x2)+'，备注：'+_0x4c4c25+'。]';else(_0x43476e[_0x26f90f(0x231)]===_0x26f90f(0x3e2)||_0x43476e[_0x26f90f(0x231)]==='user_to_char_rejected')&&(_0x1b32c8=_0x26f90f(0x17e)+_0x1fd398[_0x26f90f(0x3f5)](0x2)+_0x26f90f(0x26c)+_0x4c4c25+'。]');}}}}}}}}}}}}if(_0x17cd8e){const _0x5dc5a2=_0x4fa3ce[_0x26f90f(0x447)]||window[_0x26f90f(0x322)]?.[_0x26f90f(0x4fc)]||_0x26f90f(0x2b8);if(_0x43476e[_0x26f90f(0x2b4)]===_0x26f90f(0x4ea))return _0x43476e[_0x26f90f(0x2c3)]&&(_0x1b32c8=_0x26f90f(0x211)+_0x43476e['replyTo']+'\x22]\x0a'+_0x1b32c8),{'role':_0x26f90f(0x4ea),'content':_0x26f90f(0x2d9)+_0x5dc5a2+_0x26f90f(0x145)+_0x1b32c8};const _0x36e937=typeof _0x43476e[_0x26f90f(0x362)]===_0x26f90f(0x3de)&&_0x43476e[_0x26f90f(0x362)][_0x26f90f(0x3b7)]()?_0x43476e[_0x26f90f(0x362)][_0x26f90f(0x3b7)]():_0x26f90f(0x36b);return _0x43476e[_0x26f90f(0x2c3)]&&(_0x1b32c8='[引用了消息：\x22'+_0x43476e[_0x26f90f(0x2c3)]+_0x26f90f(0x1d9)+_0x1b32c8),{'role':_0x26f90f(0x42e),'content':_0x36e937+':\x20'+_0x1b32c8};}return _0x43476e[_0x26f90f(0x2b4)]===_0x26f90f(0x4ea)&&_0x43476e[_0x26f90f(0x2c3)]&&(_0x1b32c8='[用户引用了消息：\x22'+_0x43476e[_0x26f90f(0x2c3)]+_0x26f90f(0x1d9)+_0x1b32c8),{'role':_0x43476e[_0x26f90f(0x2b4)],'content':_0x1b32c8};},window[_0x557477(0x235)]['buildApiContextMessages']=function(_0x19c133,_0x35125c={}){const _0x14aec0=_0x557477,_0x193c3=window['imApp'][_0x14aec0(0x27a)](_0x19c133||{}),_0x437998=window['imApp']['getRecentContextMessages'](_0x193c3);let _0x24cbe9=-0x1;return _0x437998['forEach']((_0x5bd362,_0x44b993)=>{const _0x4431cd=_0x14aec0;if(_0x5bd362&&_0x5bd362[_0x4431cd(0x467)]==='fake_link')_0x24cbe9=_0x44b993;}),_0x437998['map']((_0x18ba69,_0x577d97)=>window[_0x14aec0(0x235)][_0x14aec0(0x2e3)](_0x18ba69,_0x193c3,{..._0x35125c,'expandLinkContent':_0x18ba69&&_0x18ba69[_0x14aec0(0x467)]===_0x14aec0(0x443)?_0x577d97===_0x24cbe9:_0x35125c['expandLinkContent']}))['filter'](_0x5b18ff=>_0x5b18ff&&_0x5b18ff[_0x14aec0(0x2b4)]&&typeof _0x5b18ff[_0x14aec0(0x230)]===_0x14aec0(0x3de)&&_0x5b18ff[_0x14aec0(0x230)][_0x14aec0(0x3b7)]());},window['imApp'][_0x557477(0x33a)]=function(_0x2dbeae,_0x3765bd={}){const _0x466185=_0x557477,_0x5bec21=window[_0x466185(0x235)][_0x466185(0x27a)](_0x2dbeae||{}),_0x2fe23e=Array[_0x466185(0x2aa)](_0x5bec21['linkedAccountChats'])?_0x5bec21[_0x466185(0x4dd)]:[];if(_0x2fe23e[_0x466185(0x1a6)]===0x0)return'';const _0x587184=_0x5bec21['nickname']||_0x5bec21['realName']||_0x466185(0x1b3),_0x247f5f=Math['max'](0x1,Number(_0x3765bd[_0x466185(0x158)])||0x4),_0x2379c3=_0x203f3f=>{const _0x771c75=_0x466185,_0x2e17bd=Number(_0x203f3f)||0x0;if(!_0x2e17bd)return _0x771c75(0x2d8);const _0x4e73e3=new Date(_0x2e17bd),_0x374a09=_0x1525b0=>String(_0x1525b0)[_0x771c75(0x2a0)](0x2,'0');return _0x4e73e3[_0x771c75(0x389)]()+'-'+_0x374a09(_0x4e73e3[_0x771c75(0x33d)]()+0x1)+'-'+_0x374a09(_0x4e73e3[_0x771c75(0x24d)]())+'\x20'+_0x374a09(_0x4e73e3[_0x771c75(0x3a6)]())+':'+_0x374a09(_0x4e73e3['getMinutes']());},_0x4be04b=['Linked\x20Friend\x20Memory\x20/\x20关联好友记忆:',_0x466185(0x2f5)];return _0x2fe23e[_0x466185(0x3be)]((_0x4c88da,_0x5bd64f)=>{const _0x24b40e=_0x466185,_0x398c8e=_0x4c88da[_0x24b40e(0x15b)]||_0x4c88da[_0x24b40e(0x4fc)]||_0x4c88da[_0x24b40e(0x42a)]||_0x24b40e(0x3a0)+(_0x5bd64f+0x1),_0x2cf67b=_0x4c88da[_0x24b40e(0x42a)]||_0x4c88da[_0x24b40e(0x4fc)]||_0x398c8e,_0x2e8659=Array[_0x24b40e(0x2aa)](_0x4c88da[_0x24b40e(0x185)])?_0x4c88da[_0x24b40e(0x185)][_0x24b40e(0x3a3)](-_0x247f5f):[];_0x4be04b[_0x24b40e(0x3a4)](''),_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x3a0)+(_0x5bd64f+0x1)+':\x20'+_0x398c8e),_0x4be04b[_0x24b40e(0x3a4)]('Real\x20Name:\x20'+(_0x2cf67b||_0x24b40e(0x20d))),_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x348)+(_0x4c88da[_0x24b40e(0x15b)]||_0x398c8e||_0x24b40e(0x373))),_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x26b)+(_0x4c88da[_0x24b40e(0x25d)]||_0x24b40e(0x373))),_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x2ae)+(_0x4c88da[_0x24b40e(0x26a)]||_0x24b40e(0x373))),_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x23f)),_0x2e8659[_0x24b40e(0x1a6)]===0x0?_0x4be04b[_0x24b40e(0x3a4)](_0x24b40e(0x373)):_0x2e8659['forEach'](_0x4e5789=>{const _0x488c77=_0x24b40e,_0x59ecec=_0x4e5789['role']===_0x488c77(0x284)?_0x587184:_0x398c8e;_0x4be04b['push']('['+_0x2379c3(_0x4e5789[_0x488c77(0x380)])+']\x20'+_0x59ecec+':\x20'+(_0x4e5789['text']||''));});}),_0x4be04b[_0x466185(0x3d5)]('\x0a');},window[_0x557477(0x235)]['getMomentMessages']=function(){const _0x42f975=_0x557477;return Array[_0x42f975(0x2aa)](window[_0x42f975(0x196)][_0x42f975(0x410)])?window['imData'][_0x42f975(0x410)]:[];},window[_0x557477(0x235)][_0x557477(0x310)]=function(_0x37796f){const _0x5efc59=_0x557477;window[_0x5efc59(0x196)]['momentMessages']=Array[_0x5efc59(0x2aa)](_0x37796f)?_0x37796f:[];},window[_0x557477(0x235)][_0x557477(0x2e2)]=async function(_0x784e3f,_0x1134f2={}){const _0xe620c3=_0x557477,_0x135ac9=typeof _0x784e3f===_0xe620c3(0x4c1)&&_0x784e3f!==null?_0x784e3f['id']:_0x784e3f;if(_0x135ac9==null)return[];const _0x142115=(window[_0xe620c3(0x196)][_0xe620c3(0x2d7)]||[])['find'](_0x2670af=>String(_0x2670af['id'])===String(_0x135ac9));if(!_0x142115)return[];if(_0x142115[_0xe620c3(0x488)]&&Array[_0xe620c3(0x2aa)](_0x142115[_0xe620c3(0x185)]))return _0x142115[_0xe620c3(0x185)];try{if(!window[_0xe620c3(0x34a)]||!window[_0xe620c3(0x34a)][_0xe620c3(0x501)])return _0x142115[_0xe620c3(0x185)]=Array['isArray'](_0x142115[_0xe620c3(0x185)])?_0x142115[_0xe620c3(0x185)]:[],_0x142115[_0xe620c3(0x488)]=!![],_0x142115[_0xe620c3(0x185)];const _0x515b50=await window[_0xe620c3(0x34a)][_0xe620c3(0x501)](_0x135ac9);_0x142115[_0xe620c3(0x185)]=Array[_0xe620c3(0x2aa)](_0x515b50)?_0x515b50:[],_0x142115[_0xe620c3(0x488)]=!![],_0x142115[_0xe620c3(0x279)]=_0x142115[_0xe620c3(0x185)][_0xe620c3(0x1a6)];if(_0x142115[_0xe620c3(0x185)]['length']>0x0){const _0x2b4eb2=_0x142115[_0xe620c3(0x185)][_0xe620c3(0x151)](_0xd7923d=>window[_0xe620c3(0x235)]['getFriendMessagePreview'](_0xd7923d)),_0x350053=_0x2b4eb2[_0xe620c3(0x1a6)]>0x0?_0x2b4eb2[_0x2b4eb2['length']-0x1]:null;_0x142115['lastMessageTimestamp']=Number(_0x350053?.[_0xe620c3(0x380)])||_0x142115[_0xe620c3(0x30a)]||0x0,_0x142115[_0xe620c3(0x1a4)]=(_0x350053?window[_0xe620c3(0x235)][_0xe620c3(0x3ba)](_0x350053):'')||_0x142115[_0xe620c3(0x1a4)]||'';}return typeof _0x1134f2[_0xe620c3(0x18d)]===_0xe620c3(0x3a2)&&_0x1134f2['onLoaded'](_0x142115[_0xe620c3(0x185)],_0x142115),_0x142115[_0xe620c3(0x185)];}catch(_0x2f6e6e){return console[_0xe620c3(0x25f)](_0xe620c3(0x34c),_0x2f6e6e),_0x142115[_0xe620c3(0x185)]=Array[_0xe620c3(0x2aa)](_0x142115['messages'])?_0x142115[_0xe620c3(0x185)]:[],_0x142115[_0xe620c3(0x488)]=!![],_0x142115[_0xe620c3(0x185)];}},window[_0x557477(0x235)][_0x557477(0x218)]=function(){const _0x2df226=_0x557477;return window['imData'][_0x2df226(0x3d6)]||null;},window[_0x557477(0x235)][_0x557477(0x2b9)]=function(_0x5b62be){const _0x180395=_0x557477;window[_0x180395(0x196)][_0x180395(0x3d6)]=_0x5b62be||null;},window[_0x557477(0x235)][_0x557477(0x439)]=function(_0xe81000){const _0x4803ca=_0x557477;if(typeof structuredClone===_0x4803ca(0x3a2))return structuredClone(_0xe81000);return JSON[_0x4803ca(0x2d4)](JSON['stringify'](_0xe81000));},window[_0x557477(0x235)][_0x557477(0x1aa)]=function(){const _0x4edc13=_0x557477;return{'friends':window[_0x4edc13(0x235)][_0x4edc13(0x439)](Array[_0x4edc13(0x2aa)](window[_0x4edc13(0x196)]['friends'])?window[_0x4edc13(0x196)][_0x4edc13(0x2d7)]:[]),'moments':window['imApp']['cloneDataSnapshot'](Array[_0x4edc13(0x2aa)](window['imData'][_0x4edc13(0x48d)])?window[_0x4edc13(0x196)]['moments']:[]),'momentMessages':window['imApp'][_0x4edc13(0x439)](Array['isArray'](window[_0x4edc13(0x196)][_0x4edc13(0x410)])?window[_0x4edc13(0x196)]['momentMessages']:[]),'stickers':window['imApp'][_0x4edc13(0x439)](Array['isArray'](window[_0x4edc13(0x196)][_0x4edc13(0x36d)])?window[_0x4edc13(0x196)][_0x4edc13(0x36d)]:[]),'momentsCoverUrl':window[_0x4edc13(0x196)][_0x4edc13(0x3d6)]||null};},window[_0x557477(0x235)][_0x557477(0x3b8)]=function(_0x56a781=!![]){const _0x3a750f=_0x557477;window['imData'][_0x3a750f(0x210)]=!!_0x56a781;},window[_0x557477(0x235)][_0x557477(0x1e3)]=function(_0x4fc231=!![]){const _0x461e69=_0x557477;window[_0x461e69(0x196)]['momentMessagesLoaded']=!!_0x4fc231;},window[_0x557477(0x235)][_0x557477(0x2a7)]=function(_0x486ba5=!![]){const _0x2f5a34=_0x557477;window[_0x2f5a34(0x196)][_0x2f5a34(0x329)]=!!_0x486ba5;},window[_0x557477(0x235)]['getFriendMessagePreview']=function(_0x216248){const _0x27dfde=_0x557477,_0x2965c3=_0x216248||{};if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x46a)){const _0x4b86af=_0x2965c3[_0x27dfde(0x3c0)]||_0x2965c3[_0x27dfde(0x141)]||'';return _0x4b86af?('[图片]\x20'+_0x4b86af)[_0x27dfde(0x3b7)]():_0x27dfde(0x3a5);}if(_0x2965c3['type']===_0x27dfde(0x40a))return(_0x27dfde(0x41e)+(_0x2965c3[_0x27dfde(0x2ba)]||_0x2965c3['text']||''))[_0x27dfde(0x3b7)]();if(_0x2965c3[_0x27dfde(0x467)]==='sticker'){const _0x44f788=_0x2965c3[_0x27dfde(0x3ec)]||_0x2965c3[_0x27dfde(0x3c0)]||'';return _0x44f788?(_0x27dfde(0x3d3)+_0x44f788)[_0x27dfde(0x3b7)]():'[表情包]';}if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x404)){let _0xcc6c66='';try{if(_0x2965c3[_0x27dfde(0x230)]){const _0x44197a=JSON[_0x27dfde(0x2d4)](_0x2965c3[_0x27dfde(0x230)]);_0xcc6c66=_0x44197a[_0x27dfde(0x3c0)]||'';}}catch(_0x44d1b4){}return _0xcc6c66?(_0x27dfde(0x1fb)+_0xcc6c66)['trim']():_0x27dfde(0x1ae);}if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x368))return(_0x27dfde(0x1da)+(_0x2965c3[_0x27dfde(0x141)]||''))[_0x27dfde(0x3b7)]();if(_0x2965c3['type']===_0x27dfde(0x44d))return(_0x27dfde(0x49c)+(_0x2965c3['description']||''))[_0x27dfde(0x3b7)]();if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x27d))return _0x2965c3[_0x27dfde(0x3c0)]||(_0x27dfde(0x189)+(_0x2965c3[_0x27dfde(0x323)]||''))[_0x27dfde(0x3b7)]();if(_0x2965c3['type']===_0x27dfde(0x443)){const _0x3715e3=_0x2965c3['fakeLinkData']&&typeof _0x2965c3[_0x27dfde(0x2cc)]==='object'?_0x2965c3[_0x27dfde(0x2cc)]:{},_0x5d0cbf=_0x3715e3[_0x27dfde(0x4cb)]||'假链接',_0x3cf498=_0x3715e3[_0x27dfde(0x147)]||_0x2965c3[_0x27dfde(0x230)]||'';return('['+_0x5d0cbf+']\x20'+_0x3cf498)[_0x27dfde(0x3b7)]();}if(_0x2965c3[_0x27dfde(0x467)]==='offline_meeting_record')return'[见面记录]';if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x2ad)){const _0x12d2f0=_0x2965c3[_0x27dfde(0x278)]||'',_0x3fb0db=_0x2965c3[_0x27dfde(0x230)]||_0x2965c3[_0x27dfde(0x3c0)]||'';if(_0x12d2f0===_0x27dfde(0x182))return _0x27dfde(0x4c2);if(_0x12d2f0==='group_rejoined')return _0x27dfde(0x48f);if(_0x12d2f0===_0x27dfde(0x301))return(_0x27dfde(0x371)+_0x3fb0db)[_0x27dfde(0x3b7)]();if(_0x12d2f0===_0x27dfde(0x2ed))return'';if(_0x12d2f0==='message_recalled'){if(_0x2965c3[_0x27dfde(0x166)]==='user')return _0x27dfde(0x43a);const _0x47681f=String(_0x2965c3[_0x27dfde(0x17a)]||'')[_0x27dfde(0x3b7)]();return(_0x47681f||'对方')+'撤回了一条消息';}return _0x3fb0db;}if(_0x2965c3[_0x27dfde(0x467)]===_0x27dfde(0x48c))return _0x2965c3['text']||_0x27dfde(0x37a);return _0x2965c3[_0x27dfde(0x230)]||_0x2965c3[_0x27dfde(0x3c0)]||'';},window[_0x557477(0x235)][_0x557477(0x350)]=function(_0xc2e5fa){const _0x5843a7=_0x557477;if(!_0xc2e5fa)return null;const _0x1544ac=Array[_0x5843a7(0x2aa)](_0xc2e5fa[_0x5843a7(0x185)])?_0xc2e5fa[_0x5843a7(0x185)]:[],_0x5a09ab=_0x1544ac['filter'](_0x5b51a0=>window['imApp'][_0x5843a7(0x3ba)](_0x5b51a0)),_0x4ae993=_0x5a09ab[_0x5843a7(0x1a6)]>0x0?_0x5a09ab[_0x5a09ab['length']-0x1]:null;return _0xc2e5fa[_0x5843a7(0x185)]=_0x1544ac,_0xc2e5fa[_0x5843a7(0x488)]=!![],_0xc2e5fa[_0x5843a7(0x279)]=_0x1544ac[_0x5843a7(0x1a6)],_0xc2e5fa[_0x5843a7(0x30a)]=Number(_0x4ae993?.[_0x5843a7(0x380)])||0x0,_0xc2e5fa[_0x5843a7(0x1a4)]=_0x4ae993?window['imApp']['getFriendMessagePreview'](_0x4ae993):'',_0xc2e5fa;},window['imApp'][_0x557477(0x4c4)]=function(){const _0x2affe6=_0x557477;return(Array[_0x2affe6(0x2aa)](window[_0x2affe6(0x196)][_0x2affe6(0x2d7)])?window[_0x2affe6(0x196)]['friends']:[])['reduce']((_0x3a07fb,_0x386260)=>_0x3a07fb+Math[_0x2affe6(0x219)](0x0,Number(_0x386260?.['unreadCount'])||0x0),0x0);},window[_0x557477(0x235)]['updateChatsUnreadBadges']=function(){const _0x4f8d96=_0x557477,_0x14e2a1=document[_0x4f8d96(0x3db)](_0x4f8d96(0x1a9));if(!_0x14e2a1)return;let _0x3e072f=_0x14e2a1['querySelector'](_0x4f8d96(0x228));const _0x3e6e20=window['imApp'][_0x4f8d96(0x4c4)](),_0x26442e=_0x3e6e20>0x0&&!_0x14e2a1['classList'][_0x4f8d96(0x280)](_0x4f8d96(0x214));!_0x3e072f&&(_0x3e072f=document[_0x4f8d96(0x264)]('div'),_0x3e072f[_0x4f8d96(0x2eb)]=_0x4f8d96(0x1f6),_0x3e072f[_0x4f8d96(0x206)]['cssText']=_0x4f8d96(0x4ec),_0x14e2a1[_0x4f8d96(0x206)][_0x4f8d96(0x499)]=_0x14e2a1[_0x4f8d96(0x206)][_0x4f8d96(0x499)]||_0x4f8d96(0x34f),_0x14e2a1[_0x4f8d96(0x36c)](_0x3e072f)),_0x3e072f[_0x4f8d96(0x43e)]=_0x3e6e20>0x63?'99+':String(_0x3e6e20),_0x3e072f[_0x4f8d96(0x206)]['display']=_0x26442e?_0x4f8d96(0x14e):_0x4f8d96(0x1c5);},window[_0x557477(0x235)]['clearFriendUnread']=async function(_0x5be2b5,_0xbf8b6c={}){const _0x2116be=_0x557477,_0x1c0e18=String(_0x5be2b5),_0x3cba6f=(window[_0x2116be(0x196)][_0x2116be(0x2d7)]||[])[_0x2116be(0x421)](_0x52925f=>String(_0x52925f['id'])===_0x1c0e18);if(!_0x3cba6f)return![];if(!_0x3cba6f[_0x2116be(0x4ef)]){if(window['imApp']['updateChatsUnreadBadges'])window[_0x2116be(0x235)]['updateChatsUnreadBadges']();return!![];}_0x3cba6f['unreadCount']=0x0;try{if(window['imStorage']?.[_0x2116be(0x465)])await window[_0x2116be(0x34a)][_0x2116be(0x465)](_0x3cba6f);else window[_0x2116be(0x235)][_0x2116be(0x377)]&&await window['imApp']['commitFriendChange'](_0x1c0e18,_0x1bacc5=>{if(_0x1bacc5)_0x1bacc5['unreadCount']=0x0;},{'silent':!![],'metaOnly':!![]});}catch(_0x5a6244){console[_0x2116be(0x25f)](_0x2116be(0x507),_0x5a6244);if(!_0xbf8b6c[_0x2116be(0x140)]&&window[_0x2116be(0x3d7)])window['showToast'](_0x2116be(0x2f1));return![];}finally{if(window['imChat']?.[_0x2116be(0x473)])window[_0x2116be(0x3e4)]['renderChatsList']();if(window['imApp']['updateChatsUnreadBadges'])window[_0x2116be(0x235)]['updateChatsUnreadBadges']();}return!![];},window['imApp'][_0x557477(0x20b)]=function(_0x2718dd){const _0x451dae=_0x557477;if(!_0x2718dd||!Array[_0x451dae(0x2aa)](_0x2718dd[_0x451dae(0x185)]))return[];return _0x2718dd[_0x451dae(0x185)][_0x451dae(0x3be)]((_0x51e96e,_0x4a560d)=>{const _0x19105f=_0x451dae;_0x51e96e&&typeof _0x51e96e===_0x19105f(0x4c1)&&(_0x51e96e['__messageOrder']=_0x4a560d);}),_0x2718dd['messages'];},window['imApp']['findFriendMessageIndex']=function(_0x41da8c,_0x389849){const _0x3053cc=_0x557477,_0x198474=Array[_0x3053cc(0x2aa)](_0x41da8c?.[_0x3053cc(0x185)])?_0x41da8c[_0x3053cc(0x185)]:[];if(_0x198474[_0x3053cc(0x1a6)]===0x0||_0x389849==null)return-0x1;if(typeof _0x389849==='function')return _0x198474[_0x3053cc(0x351)](_0x389849);const _0x2823df=typeof _0x389849===_0x3053cc(0x4c1)&&_0x389849!==null&&_0x389849['id']!=null?String(_0x389849['id']):typeof _0x389849!=='object'?String(_0x389849):null,_0x578c39=typeof _0x389849===_0x3053cc(0x4c1)&&_0x389849!==null&&_0x389849[_0x3053cc(0x380)]!=null?String(_0x389849[_0x3053cc(0x380)]):null;return _0x198474['findIndex'](_0x346d63=>{const _0x126580=_0x3053cc;if(!_0x346d63)return![];if(_0x2823df&&_0x346d63['id']!=null&&String(_0x346d63['id'])===_0x2823df)return!![];if(_0x578c39&&_0x346d63[_0x126580(0x380)]!=null&&String(_0x346d63['timestamp'])===_0x578c39)return!![];return![];});},window[_0x557477(0x235)][_0x557477(0x1ef)]=function(_0x68470f){const _0x1b90dc=_0x557477;if(!_0x68470f)return;window[_0x1b90dc(0x196)][_0x1b90dc(0x4a4)]&&String(window[_0x1b90dc(0x196)][_0x1b90dc(0x4a4)]['id'])===String(_0x68470f['id'])&&(window[_0x1b90dc(0x196)][_0x1b90dc(0x4a4)]=_0x68470f);},window[_0x557477(0x235)][_0x557477(0x353)]=function(_0x27dfbc){const _0x4cedaa=_0x557477;if(!_0x27dfbc)return;window[_0x4cedaa(0x196)][_0x4cedaa(0x4c8)]&&String(window['imData']['currentSettingsFriend']['id'])===String(_0x27dfbc['id'])&&(window[_0x4cedaa(0x196)]['currentSettingsFriend']=_0x27dfbc);},window['imApp'][_0x557477(0x2f8)]=function(_0x55daf8){const _0x33b5b3=_0x557477;if(!_0x55daf8)return;if(_0x55daf8[_0x33b5b3(0x4e4)])delete _0x55daf8[_0x33b5b3(0x4e4)];if(window[_0x33b5b3(0x196)][_0x33b5b3(0x309)])window['imData']['currentReplyText']=null;const _0x52d634=String(_0x55daf8['id']);window[_0x33b5b3(0x196)][_0x33b5b3(0x2ec)]&&delete window['imData'][_0x33b5b3(0x2ec)][_0x52d634];const _0x42df86=document['getElementById']('chat-interface-'+_0x55daf8['id']),_0xc539d5=_0x42df86?_0x42df86[_0x33b5b3(0x220)]('.reply-preview-container'):null;_0xc539d5&&(_0xc539d5[_0x33b5b3(0x206)]['display']='none',_0xc539d5[_0x33b5b3(0x4fe)]('[data-reply-text],\x20.reply-preview-text')[_0x33b5b3(0x3be)](_0x3598d3=>{const _0x1ddc3e=_0x33b5b3;_0x3598d3[_0x1ddc3e(0x43e)]='';})),_0x42df86?.[_0x33b5b3(0x4fe)](_0x33b5b3(0x1b6))['forEach'](_0x508dee=>_0x508dee['remove']()),_0x42df86?.[_0x33b5b3(0x4fe)](_0x33b5b3(0x4a0))[_0x33b5b3(0x3be)](_0x4d74a9=>{const _0x35433e=_0x33b5b3;_0x4d74a9[_0x35433e(0x498)][_0x35433e(0x396)](_0x35433e(0x214)),_0x4d74a9[_0x35433e(0x206)][_0x35433e(0x417)]=_0x35433e(0x1c5);}),window[_0x33b5b3(0x196)][_0x33b5b3(0x21a)]&&(window[_0x33b5b3(0x196)][_0x33b5b3(0x21a)][_0x33b5b3(0x498)]?.[_0x33b5b3(0x396)](_0x33b5b3(0x244)),window[_0x33b5b3(0x196)]['currentActiveRow']=null);},window['imApp'][_0x557477(0x4f5)]=function(_0x442804={}){const _0x21d073=_0x557477,_0x35975b=window[_0x21d073(0x235)]['normalizeFriendData']({'id':_0x21d073(0x23b),'memory':_0x442804})[_0x21d073(0x133)],_0x555501=window['imApp'][_0x21d073(0x489)]();return _0x555501[_0x21d073(0x445)]={'enabled':_0x35975b[_0x21d073(0x445)][_0x21d073(0x4ac)],'limit':_0x35975b[_0x21d073(0x445)][_0x21d073(0x4d3)],'notes':''},_0x555501[_0x21d073(0x3e8)]={'enabled':_0x35975b['summary'][_0x21d073(0x4ac)],'limit':_0x35975b[_0x21d073(0x3e8)]['limit'],'roundLimit':_0x35975b[_0x21d073(0x3e8)][_0x21d073(0x1be)]||0x1e,'prompt':_0x35975b[_0x21d073(0x3e8)][_0x21d073(0x2fd)]||''},_0x555501[_0x21d073(0x4eb)]=window[_0x21d073(0x235)][_0x21d073(0x439)](_0x35975b[_0x21d073(0x4eb)]),_0x555501[_0x21d073(0x171)]={'enabled':!!_0x35975b['schedule'][_0x21d073(0x4ac)],'sleepTime':_0x35975b[_0x21d073(0x171)][_0x21d073(0x267)]||'23:00','wakeTime':_0x35975b[_0x21d073(0x171)][_0x21d073(0x13d)]||_0x21d073(0x21d),'events':[]},_0x555501['userOverride']=_0x35975b[_0x21d073(0x138)]?window[_0x21d073(0x235)][_0x21d073(0x439)](_0x35975b[_0x21d073(0x138)]):null,_0x555501[_0x21d073(0x2b0)]=window[_0x21d073(0x235)][_0x21d073(0x439)](_0x35975b[_0x21d073(0x2b0)]||{}),_0x555501[_0x21d073(0x4a9)]=window[_0x21d073(0x235)][_0x21d073(0x439)](_0x35975b['mountLimits']||{}),_0x555501[_0x21d073(0x191)]=0x0,_0x555501;},window[_0x557477(0x235)][_0x557477(0x4d8)]=function(_0x4bfecb){const _0x592820=_0x557477;if(_0x4bfecb&&typeof _0x4bfecb===_0x592820(0x4c1))return _0x4bfecb['id'];return _0x4bfecb;},window[_0x557477(0x235)][_0x557477(0x37c)]=function(_0x14e553){const _0x4b2c7c=_0x557477,_0x1870cf=window[_0x4b2c7c(0x235)][_0x4b2c7c(0x4d8)](_0x14e553);if(_0x1870cf==null)return null;return(window[_0x4b2c7c(0x196)][_0x4b2c7c(0x2d7)]||[])[_0x4b2c7c(0x421)](_0x461579=>String(_0x461579['id'])===String(_0x1870cf))||null;},window['imApp']['commitScopedFriendChange']=async function(_0x2d27f7,_0x37a047,_0x82d403={}){const _0x66cece=_0x557477;if(!window[_0x66cece(0x235)][_0x66cece(0x377)])return![];const _0x4b0023=window[_0x66cece(0x235)][_0x66cece(0x4d8)](_0x2d27f7);if(_0x4b0023==null)return![];return window[_0x66cece(0x235)][_0x66cece(0x377)](_0x4b0023,(_0x105130,_0x17828d,_0x225d8e)=>{const _0x3f5272=_0x66cece;if(!_0x105130)return;return _0x82d403[_0x3f5272(0x398)]!==![]&&window[_0x3f5272(0x235)][_0x3f5272(0x1ef)](_0x105130),_0x82d403[_0x3f5272(0x2de)]===!![]&&window[_0x3f5272(0x235)][_0x3f5272(0x353)](_0x105130),typeof _0x82d403[_0x3f5272(0x345)]===_0x3f5272(0x3a2)&&_0x82d403[_0x3f5272(0x345)](_0x105130,_0x17828d,_0x225d8e),typeof _0x37a047===_0x3f5272(0x3a2)?_0x37a047(_0x105130,_0x17828d,_0x225d8e):undefined;},_0x82d403);},window[_0x557477(0x235)][_0x557477(0x2a3)]=async function(_0x3879bb,_0x5e5c9c){const _0x406c64=_0x557477,_0x1b6caa=String(_0x3879bb),_0x585d8a=window[_0x406c64(0x235)]['saveState'][_0x406c64(0x21b)]['get'](_0x1b6caa)||Promise['resolve'](),_0x4c9fa1=_0x585d8a[_0x406c64(0x212)](()=>![])[_0x406c64(0x1cc)](async()=>{return _0x5e5c9c();});window[_0x406c64(0x235)][_0x406c64(0x463)][_0x406c64(0x21b)][_0x406c64(0x1fe)](_0x1b6caa,_0x4c9fa1);try{return await _0x4c9fa1;}finally{window['imApp'][_0x406c64(0x463)][_0x406c64(0x21b)][_0x406c64(0x442)](_0x1b6caa)===_0x4c9fa1&&window[_0x406c64(0x235)]['saveState'][_0x406c64(0x21b)][_0x406c64(0x41c)](_0x1b6caa);}},window[_0x557477(0x235)][_0x557477(0x463)]={'timer':null,'delay':0x320,'dirty':![],'isSaving':![],'hasPendingSave':![],'lastError':null,'friendTimers':new Map(),'momentTimers':new Map(),'friendDirtyIds':new Set(),'momentDirtyIds':new Set(),'friendFlushChains':new Map(),'momentFlushChains':new Map(),'friendRevisions':new Map(),'momentRevisions':new Map(),'momentMessagesDirty':![],'stickersDirty':![],'momentsCoverDirty':![]},window['imApp'][_0x557477(0x4af)]=function(_0x57596f){const _0x43a7a3=_0x557477;if(_0x57596f==null)return;const _0xf465c5=String(_0x57596f),_0x144023=window[_0x43a7a3(0x235)][_0x43a7a3(0x463)][_0x43a7a3(0x340)]['get'](_0xf465c5)||0x0;window[_0x43a7a3(0x235)][_0x43a7a3(0x463)][_0x43a7a3(0x340)][_0x43a7a3(0x1fe)](_0xf465c5,_0x144023+0x1),window[_0x43a7a3(0x235)][_0x43a7a3(0x463)][_0x43a7a3(0x217)]['add'](_0xf465c5),window[_0x43a7a3(0x235)][_0x43a7a3(0x463)][_0x43a7a3(0x3dc)]=!![];},window[_0x557477(0x235)][_0x557477(0x3b3)]=function(_0x494c8a){const _0x317fec=_0x557477;if(_0x494c8a==null)return;const _0x4d8997=String(_0x494c8a),_0x2bcf70=window[_0x317fec(0x235)][_0x317fec(0x463)][_0x317fec(0x3e6)]['get'](_0x4d8997)||0x0;window[_0x317fec(0x235)][_0x317fec(0x463)][_0x317fec(0x3e6)][_0x317fec(0x1fe)](_0x4d8997,_0x2bcf70+0x1),window[_0x317fec(0x235)][_0x317fec(0x463)][_0x317fec(0x1d4)][_0x317fec(0x15d)](_0x4d8997),window[_0x317fec(0x235)][_0x317fec(0x463)][_0x317fec(0x3dc)]=!![];},window[_0x557477(0x235)][_0x557477(0x1de)]=function(){const _0x2dfdae=_0x557477;window[_0x2dfdae(0x235)]['saveState'][_0x2dfdae(0x14c)]=!![],window[_0x2dfdae(0x235)][_0x2dfdae(0x463)][_0x2dfdae(0x3dc)]=!![];},window[_0x557477(0x235)][_0x557477(0x1a8)]=function(){const _0x140064=_0x557477;window[_0x140064(0x235)][_0x140064(0x463)][_0x140064(0x31a)]=!![],window['imApp']['saveState'][_0x140064(0x3dc)]=!![];},window['imApp'][_0x557477(0x1c6)]=function(){const _0x6696cc=_0x557477;window[_0x6696cc(0x235)][_0x6696cc(0x463)][_0x6696cc(0x38d)]=!![],window[_0x6696cc(0x235)]['saveState']['dirty']=!![];},window[_0x557477(0x235)][_0x557477(0x295)]=async function(_0x401fa2={}){const _0x21712f=_0x557477;try{if(window[_0x21712f(0x235)]['ensureDataReady'])await window['imApp'][_0x21712f(0x283)]();if(!window['imStorage']||!window[_0x21712f(0x34a)][_0x21712f(0x179)])throw new Error(_0x21712f(0x2ef));const _0x11b699=window[_0x21712f(0x235)][_0x21712f(0x1aa)]();return await window['imStorage'][_0x21712f(0x179)](_0x11b699),window[_0x21712f(0x235)][_0x21712f(0x463)][_0x21712f(0x1b5)]=null,!![];}catch(_0x2bacf8){return console[_0x21712f(0x25f)]('Failed\x20to\x20persist\x20iMessage\x20global\x20data',_0x2bacf8),window['imApp'][_0x21712f(0x463)][_0x21712f(0x1b5)]=_0x2bacf8,!_0x401fa2['silent']&&window[_0x21712f(0x3d7)]&&window[_0x21712f(0x3d7)]('保存失败，可能是浏览器存储不可用'),![];}},window[_0x557477(0x235)][_0x557477(0x4db)]=async function(_0x537f63,_0x3c7168={}){const _0x2f5c4d=_0x557477;try{if(window[_0x2f5c4d(0x235)]['ensureDataReady'])await window[_0x2f5c4d(0x235)][_0x2f5c4d(0x283)]();if(!window[_0x2f5c4d(0x34a)]||!window[_0x2f5c4d(0x34a)][_0x2f5c4d(0x400)])throw new Error(_0x2f5c4d(0x4cd));const _0x3b6c81=(window[_0x2f5c4d(0x196)][_0x2f5c4d(0x2d7)]||[])[_0x2f5c4d(0x421)](_0x587a61=>String(_0x587a61['id'])===String(_0x537f63));if(!_0x3b6c81)return window[_0x2f5c4d(0x34a)][_0x2f5c4d(0x37f)]&&await window[_0x2f5c4d(0x34a)][_0x2f5c4d(0x37f)](_0x537f63),window[_0x2f5c4d(0x235)][_0x2f5c4d(0x463)][_0x2f5c4d(0x1b5)]=null,!![];const _0x224f92=window[_0x2f5c4d(0x235)][_0x2f5c4d(0x439)](_0x3b6c81),_0x559e32=_0x3c7168[_0x2f5c4d(0x432)]===!![]&&!!window['imStorage'][_0x2f5c4d(0x466)];return _0x559e32?await window['imStorage'][_0x2f5c4d(0x466)](_0x224f92):await window['imStorage'][_0x2f5c4d(0x400)](_0x224f92,{'skipMessages':_0x3c7168[_0x2f5c4d(0x1ff)]===![]}),window[_0x2f5c4d(0x235)][_0x2f5c4d(0x463)][_0x2f5c4d(0x1b5)]=null,!![];}catch(_0x5632dc){return console[_0x2f5c4d(0x25f)](_0x2f5c4d(0x2f7),_0x5632dc),window[_0x2f5c4d(0x235)][_0x2f5c4d(0x463)][_0x2f5c4d(0x1b5)]=_0x5632dc,!_0x3c7168[_0x2f5c4d(0x140)]&&window['showToast']&&window[_0x2f5c4d(0x3d7)](_0x2f5c4d(0x37d)),![];}},window[_0x557477(0x235)][_0x557477(0x39c)]=async function(_0x4d557e,_0x587ed4={}){const _0x10fe63=_0x557477;try{if(window[_0x10fe63(0x235)][_0x10fe63(0x283)])await window[_0x10fe63(0x235)]['ensureDataReady']();if(!window[_0x10fe63(0x34a)])throw new Error(_0x10fe63(0x188));const _0x27564a=(window[_0x10fe63(0x196)][_0x10fe63(0x48d)]||[])[_0x10fe63(0x421)](_0x343ce0=>String(_0x343ce0['id'])===String(_0x4d557e));if(!_0x27564a)return window['imStorage']['deleteMoment']&&await window[_0x10fe63(0x34a)][_0x10fe63(0x3c7)](_0x4d557e),window[_0x10fe63(0x235)]['saveState'][_0x10fe63(0x1b5)]=null,!![];if(!window[_0x10fe63(0x34a)][_0x10fe63(0x46f)])throw new Error(_0x10fe63(0x28a));return await window[_0x10fe63(0x34a)][_0x10fe63(0x46f)](window['imApp']['cloneDataSnapshot'](_0x27564a)),window['imApp']['saveState'][_0x10fe63(0x1b5)]=null,!![];}catch(_0x2fde71){return console[_0x10fe63(0x25f)](_0x10fe63(0x1ee),_0x2fde71),window[_0x10fe63(0x235)]['saveState'][_0x10fe63(0x1b5)]=_0x2fde71,!_0x587ed4[_0x10fe63(0x140)]&&window[_0x10fe63(0x3d7)]&&window[_0x10fe63(0x3d7)](_0x10fe63(0x22f)),![];}},window[_0x557477(0x235)][_0x557477(0x48b)]=async function(_0x1a82c6,_0x2e37cc,_0x5ada01={}){const _0x575942=_0x557477,_0x3cbddf=String(_0x1a82c6),_0x1ffa90=(window[_0x575942(0x196)][_0x575942(0x2d7)]||[])['find'](_0x2b153a=>String(_0x2b153a['id'])===_0x3cbddf);if(!_0x1ffa90)return![];window[_0x575942(0x235)][_0x575942(0x2e2)]&&await window[_0x575942(0x235)][_0x575942(0x2e2)](_0x1ffa90);if(!Array[_0x575942(0x2aa)](_0x1ffa90[_0x575942(0x185)]))_0x1ffa90[_0x575942(0x185)]=[];const _0x148cc6=_0x2e37cc&&typeof _0x2e37cc===_0x575942(0x4c1)?_0x2e37cc:{},_0x4cc47d=Math[_0x575942(0x219)](0x0,Number(_0x1ffa90['unreadCount'])||0x0),_0x2e354a=_0x1ffa90[_0x575942(0x185)]['length'];_0x148cc6[_0x575942(0x26d)]=_0x2e354a,_0x1ffa90[_0x575942(0x185)][_0x575942(0x3a4)](_0x148cc6),window['imApp'][_0x575942(0x350)](_0x1ffa90);const _0x26c43a=_0x148cc6[_0x575942(0x2b4)]!==_0x575942(0x4ea),_0x58120c=window[_0x575942(0x196)]['currentActiveFriend']&&String(window[_0x575942(0x196)]['currentActiveFriend']['id'])===_0x3cbddf;_0x26c43a&&!_0x58120c&&(_0x1ffa90[_0x575942(0x4ef)]=Math[_0x575942(0x219)](0x0,Number(_0x1ffa90[_0x575942(0x4ef)])||0x0)+0x1);window[_0x575942(0x235)]['syncActiveFriendReference'](_0x1ffa90);try{if(window[_0x575942(0x235)][_0x575942(0x283)])await window[_0x575942(0x235)][_0x575942(0x283)]();if(!window['imStorage']?.[_0x575942(0x131)]||!window[_0x575942(0x34a)]?.[_0x575942(0x465)])throw new Error('Incremental\x20friend\x20message\x20persistence\x20unavailable');const _0x5ade73=await window[_0x575942(0x235)][_0x575942(0x2a3)](_0x3cbddf,async()=>{const _0xb5ed31=_0x575942,_0x3dcdaf=await window[_0xb5ed31(0x34a)]['saveFriendMessage'](_0x3cbddf,_0x148cc6,_0x2e354a);return await window[_0xb5ed31(0x34a)][_0xb5ed31(0x465)](_0x1ffa90),_0x3dcdaf;});_0x5ade73&&_0x5ade73['id']&&!_0x148cc6['id']&&(_0x148cc6['id']=_0x5ade73['id']);_0x148cc6[_0x575942(0x26d)]=_0x2e354a,window[_0x575942(0x235)]['saveState'][_0x575942(0x1b5)]=null;if(window[_0x575942(0x3e4)]?.[_0x575942(0x473)])window['imChat']['renderChatsList']();if(window['imApp'][_0x575942(0x440)])window[_0x575942(0x235)][_0x575942(0x440)]();return _0x26c43a&&window['u2SystemNotifications']?.['notifyIncomingMessage']&&window[_0x575942(0x2e5)][_0x575942(0x493)]({'friend':_0x1ffa90,'message':_0x148cc6}),!![];}catch(_0x8994f5){console['error'](_0x575942(0x3fc),_0x8994f5),_0x1ffa90[_0x575942(0x185)]=_0x1ffa90['messages'][_0x575942(0x151)]((_0x39341a,_0x36b28a)=>{const _0x1e14fa=_0x575942;if(_0x39341a===_0x148cc6)return![];if(_0x148cc6['id']&&_0x39341a?.['id']&&String(_0x39341a['id'])===String(_0x148cc6['id']))return![];return!(_0x36b28a===_0x2e354a&&_0x39341a?.[_0x1e14fa(0x380)]!=null&&_0x148cc6[_0x1e14fa(0x380)]!=null&&String(_0x39341a[_0x1e14fa(0x380)])===String(_0x148cc6['timestamp']));}),window[_0x575942(0x235)][_0x575942(0x20b)](_0x1ffa90),window['imApp']['syncFriendMessageSummary'](_0x1ffa90),_0x1ffa90[_0x575942(0x4ef)]=_0x4cc47d,window[_0x575942(0x235)][_0x575942(0x1ef)](_0x1ffa90);if(window[_0x575942(0x3e4)]?.['renderChatsList'])window[_0x575942(0x3e4)][_0x575942(0x473)]();if(window[_0x575942(0x235)]['updateChatsUnreadBadges'])window[_0x575942(0x235)][_0x575942(0x440)]();return window[_0x575942(0x235)][_0x575942(0x463)][_0x575942(0x1b5)]=_0x8994f5,!_0x5ada01['silent']&&window[_0x575942(0x3d7)]&&window[_0x575942(0x3d7)]('消息保存失败'),![];}},window[_0x557477(0x235)][_0x557477(0x207)]=async function(_0x373c1d,_0x892c2c,_0x3e80f8,_0x594ce4={}){const _0x57c590=_0x557477,_0x228292=String(_0x373c1d),_0x4fc647=(window['imData'][_0x57c590(0x2d7)]||[])[_0x57c590(0x421)](_0x474906=>String(_0x474906['id'])===_0x228292);if(!_0x4fc647)return![];window[_0x57c590(0x235)][_0x57c590(0x2e2)]&&await window[_0x57c590(0x235)][_0x57c590(0x2e2)](_0x4fc647);if(!Array['isArray'](_0x4fc647[_0x57c590(0x185)]))return![];const _0x485ed2=window[_0x57c590(0x235)]['findFriendMessageIndex'](_0x4fc647,_0x892c2c);if(_0x485ed2<0x0)return![];const _0x23de76=window[_0x57c590(0x235)]['cloneDataSnapshot'](_0x4fc647[_0x57c590(0x185)][_0x485ed2]),_0x473ccb=_0x4fc647[_0x57c590(0x185)][_0x485ed2];try{typeof _0x3e80f8===_0x57c590(0x3a2)&&await _0x3e80f8(_0x473ccb,_0x4fc647,_0x485ed2);_0x473ccb[_0x57c590(0x26d)]=_0x485ed2,window[_0x57c590(0x235)]['syncFriendMessageSummary'](_0x4fc647),window[_0x57c590(0x235)][_0x57c590(0x1ef)](_0x4fc647);if(window[_0x57c590(0x235)][_0x57c590(0x283)])await window[_0x57c590(0x235)][_0x57c590(0x283)]();if(!window[_0x57c590(0x34a)]?.['saveFriendMessage']||!window['imStorage']?.[_0x57c590(0x465)])throw new Error('Incremental\x20friend\x20message\x20persistence\x20unavailable');const _0x572a7=await window[_0x57c590(0x235)]['runFriendPersistenceTask'](_0x228292,async()=>{const _0x726032=_0x57c590,_0xd418e3=await window[_0x726032(0x34a)][_0x726032(0x131)](_0x228292,_0x473ccb,_0x485ed2);return await window[_0x726032(0x34a)][_0x726032(0x465)](_0x4fc647),_0xd418e3;});return _0x572a7&&_0x572a7['id']&&!_0x473ccb['id']&&(_0x473ccb['id']=_0x572a7['id']),_0x473ccb[_0x57c590(0x26d)]=_0x485ed2,window['imApp'][_0x57c590(0x463)]['lastError']=null,!![];}catch(_0x24d544){return console[_0x57c590(0x25f)](_0x57c590(0x506),_0x24d544),_0x4fc647[_0x57c590(0x185)][_0x485ed2]=_0x23de76,window[_0x57c590(0x235)][_0x57c590(0x350)](_0x4fc647),window[_0x57c590(0x235)][_0x57c590(0x1ef)](_0x4fc647),window[_0x57c590(0x235)][_0x57c590(0x463)][_0x57c590(0x1b5)]=_0x24d544,!_0x594ce4[_0x57c590(0x140)]&&window['showToast']&&window[_0x57c590(0x3d7)]('消息保存失败'),![];}},window[_0x557477(0x235)][_0x557477(0x2a5)]=async function(_0x5eb47a,_0x3b9a85,_0x1ee4b3={}){const _0x547941=_0x557477,_0x445b06=String(_0x5eb47a),_0x11a580=(window['imData'][_0x547941(0x2d7)]||[])[_0x547941(0x421)](_0x46420f=>String(_0x46420f['id'])===_0x445b06);if(!_0x11a580)return![];window[_0x547941(0x235)][_0x547941(0x2e2)]&&await window['imApp'][_0x547941(0x2e2)](_0x11a580);if(!Array[_0x547941(0x2aa)](_0x11a580[_0x547941(0x185)]))return![];const _0x2359cf=Array[_0x547941(0x2aa)](_0x3b9a85)?_0x3b9a85:[_0x3b9a85],_0x3a4c5b=window[_0x547941(0x235)][_0x547941(0x439)](_0x11a580[_0x547941(0x185)]),_0x2ca44b=new Set();_0x2359cf[_0x547941(0x3be)](_0x3dbf58=>{const _0x17ddce=_0x547941,_0x2ce63a=window[_0x17ddce(0x235)][_0x17ddce(0x319)](_0x11a580,_0x3dbf58);if(_0x2ce63a>-0x1)_0x2ca44b[_0x17ddce(0x15d)](_0x2ce63a);});if(_0x2ca44b['size']===0x0)return!![];const _0x3e7b7c=Array['from'](_0x2ca44b)['sort']((_0x5318a9,_0x318302)=>_0x5318a9-_0x318302),_0x3dc14b=_0x11a580[_0x547941(0x185)][_0x547941(0x151)]((_0x2783f5,_0x17888e)=>_0x2ca44b['has'](_0x17888e)),_0x1766f3=_0x3e7b7c[_0x547941(0x28c)]((_0x1b7588,_0x30ba8a)=>{const _0x4dec64=_0x547941;return _0x1b7588===_0x3a4c5b[_0x4dec64(0x1a6)]-_0x3e7b7c[_0x4dec64(0x1a6)]+_0x30ba8a;});_0x11a580[_0x547941(0x185)]=_0x11a580[_0x547941(0x185)][_0x547941(0x151)]((_0x556c56,_0x2dd87f)=>!_0x2ca44b[_0x547941(0x178)](_0x2dd87f)),window[_0x547941(0x235)][_0x547941(0x20b)](_0x11a580),window['imApp'][_0x547941(0x350)](_0x11a580),window[_0x547941(0x235)][_0x547941(0x2f8)](_0x11a580),window[_0x547941(0x235)][_0x547941(0x1ef)](_0x11a580),window[_0x547941(0x235)][_0x547941(0x353)](_0x11a580);try{if(window['imApp'][_0x547941(0x283)])await window[_0x547941(0x235)][_0x547941(0x283)]();if(!window[_0x547941(0x34a)]?.[_0x547941(0x465)])throw new Error('Friend\x20meta\x20persistence\x20unavailable');const _0x1e7f56=_0x3dc14b[_0x547941(0x46e)](_0x269c6c=>_0x269c6c?.['id']?String(_0x269c6c['id']):null)['filter'](Boolean);return await window[_0x547941(0x235)][_0x547941(0x2a3)](_0x445b06,async()=>{const _0x1f7db4=_0x547941;if(_0x1766f3&&_0x1e7f56[_0x1f7db4(0x1a6)]===_0x3dc14b[_0x1f7db4(0x1a6)]&&window['imStorage']?.[_0x1f7db4(0x144)])await window[_0x1f7db4(0x34a)][_0x1f7db4(0x144)](_0x1e7f56);else{if(window['imStorage']?.['replaceFriendMessages'])await window[_0x1f7db4(0x34a)][_0x1f7db4(0x4d6)](_0x445b06,_0x11a580['messages']);else throw new Error('Friend\x20message\x20removal\x20persistence\x20unavailable');}return await window[_0x1f7db4(0x34a)][_0x1f7db4(0x465)](_0x11a580),!![];}),window[_0x547941(0x235)]['saveState'][_0x547941(0x1b5)]=null,!![];}catch(_0x17151c){return console[_0x547941(0x25f)](_0x547941(0x227),_0x17151c),_0x11a580[_0x547941(0x185)]=_0x3a4c5b,window[_0x547941(0x235)]['reindexFriendMessages'](_0x11a580),window[_0x547941(0x235)][_0x547941(0x350)](_0x11a580),window[_0x547941(0x235)][_0x547941(0x1ef)](_0x11a580),window[_0x547941(0x235)][_0x547941(0x353)](_0x11a580),window[_0x547941(0x235)]['saveState'][_0x547941(0x1b5)]=_0x17151c,!_0x1ee4b3[_0x547941(0x140)]&&window[_0x547941(0x3d7)]&&window[_0x547941(0x3d7)](_0x547941(0x491)),![];}},window[_0x557477(0x235)]['resetFriendMessages']=async function(_0x78a1fd,_0x159c42={}){const _0x356952=_0x557477,_0x57a432=String(_0x78a1fd),_0x447dae=(window[_0x356952(0x196)][_0x356952(0x2d7)]||[])['find'](_0x589f9b=>String(_0x589f9b['id'])===_0x57a432);if(!_0x447dae)return![];window['imApp'][_0x356952(0x2e2)]&&await window[_0x356952(0x235)][_0x356952(0x2e2)](_0x447dae);const _0xf1c76e=window[_0x356952(0x235)][_0x356952(0x439)](Array[_0x356952(0x2aa)](_0x447dae[_0x356952(0x185)])?_0x447dae[_0x356952(0x185)]:[]);_0x447dae[_0x356952(0x185)]=[],window[_0x356952(0x235)][_0x356952(0x350)](_0x447dae),window[_0x356952(0x235)][_0x356952(0x2f8)](_0x447dae),window['imApp']['syncActiveFriendReference'](_0x447dae),window['imApp'][_0x356952(0x353)](_0x447dae);try{if(window[_0x356952(0x235)][_0x356952(0x283)])await window['imApp'][_0x356952(0x283)]();if(!window[_0x356952(0x34a)]?.[_0x356952(0x4d6)]||!window['imStorage']?.[_0x356952(0x465)])throw new Error(_0x356952(0x159));return await window[_0x356952(0x235)]['runFriendPersistenceTask'](_0x57a432,async()=>{const _0x95a4f7=_0x356952;return await window[_0x95a4f7(0x34a)][_0x95a4f7(0x4d6)](_0x57a432,[]),await window[_0x95a4f7(0x34a)][_0x95a4f7(0x465)](_0x447dae),!![];}),window['imApp'][_0x356952(0x463)]['lastError']=null,!![];}catch(_0x2c2953){return console[_0x356952(0x25f)](_0x356952(0x3f7),_0x2c2953),_0x447dae[_0x356952(0x185)]=_0xf1c76e,window[_0x356952(0x235)]['reindexFriendMessages'](_0x447dae),window[_0x356952(0x235)]['syncFriendMessageSummary'](_0x447dae),window['imApp'][_0x356952(0x1ef)](_0x447dae),window['imApp']['syncSettingsFriendReference'](_0x447dae),window['imApp'][_0x356952(0x463)][_0x356952(0x1b5)]=_0x2c2953,!_0x159c42[_0x356952(0x140)]&&window[_0x356952(0x3d7)]&&window['showToast'](_0x356952(0x19b)),![];}},window[_0x557477(0x235)]['resetFriendConversation']=async function(_0x3d7456,_0x2df5f5={}){const _0x531875=_0x557477,_0x196031=String(_0x3d7456),_0x54cfbf=(window[_0x531875(0x196)][_0x531875(0x2d7)]||[])[_0x531875(0x421)](_0x156168=>String(_0x156168['id'])===_0x196031);if(!_0x54cfbf)return![];window[_0x531875(0x235)]['ensureFriendMessagesLoaded']&&await window[_0x531875(0x235)][_0x531875(0x2e2)](_0x54cfbf);const _0x340b4b=window[_0x531875(0x235)][_0x531875(0x439)](_0x54cfbf),_0x61f495=window[_0x531875(0x235)][_0x531875(0x463)][_0x531875(0x4d4)][_0x531875(0x442)](_0x196031);if(_0x61f495)clearTimeout(_0x61f495);window['imApp']['saveState'][_0x531875(0x4d4)][_0x531875(0x41c)](_0x196031),window[_0x531875(0x235)]['saveState'][_0x531875(0x217)][_0x531875(0x41c)](_0x196031);window[_0x531875(0x3e4)]?.[_0x531875(0x3ca)]&&window[_0x531875(0x3e4)][_0x531875(0x3ca)](_0x196031);_0x54cfbf[_0x531875(0x185)]=[],_0x54cfbf['unreadCount']=0x0,_0x54cfbf[_0x531875(0x133)]=window['imApp']['createClearedConversationMemory'](_0x54cfbf[_0x531875(0x133)]||{}),_0x54cfbf[_0x531875(0x173)]=window[_0x531875(0x235)]['createDefaultProfilePanel']({}),_0x54cfbf[_0x531875(0x45f)]='',_0x54cfbf[_0x531875(0x3ab)]=_0x531875(0x326);if(_0x54cfbf[_0x531875(0x467)]===_0x531875(0x477))_0x54cfbf[_0x531875(0x222)]={};if(_0x54cfbf[_0x531875(0x4e4)])delete _0x54cfbf[_0x531875(0x4e4)];window[_0x531875(0x235)][_0x531875(0x350)](_0x54cfbf),window['imApp'][_0x531875(0x2f8)](_0x54cfbf),window[_0x531875(0x235)][_0x531875(0x1ef)](_0x54cfbf),window['imApp'][_0x531875(0x353)](_0x54cfbf);try{if(window[_0x531875(0x235)][_0x531875(0x283)])await window['imApp'][_0x531875(0x283)]();if(!window['imStorage']?.[_0x531875(0x4d6)]||!window[_0x531875(0x34a)]?.[_0x531875(0x465)])throw new Error(_0x531875(0x35c));await window[_0x531875(0x235)]['runFriendPersistenceTask'](_0x196031,async()=>{const _0x40b22e=_0x531875;return await window[_0x40b22e(0x34a)]['replaceFriendMessages'](_0x196031,[]),await window[_0x40b22e(0x34a)][_0x40b22e(0x465)](_0x54cfbf),!![];}),window[_0x531875(0x235)]['saveState'][_0x531875(0x1b5)]=null;if(window[_0x531875(0x235)][_0x531875(0x440)])window['imApp']['updateChatsUnreadBadges']();return!![];}catch(_0x501551){console[_0x531875(0x25f)](_0x531875(0x4dc),_0x501551),Object[_0x531875(0x187)](_0x54cfbf)['forEach'](_0x13829e=>delete _0x54cfbf[_0x13829e]),Object[_0x531875(0x4e6)](_0x54cfbf,_0x340b4b),window[_0x531875(0x235)]['reindexFriendMessages'](_0x54cfbf),window['imApp']['syncFriendMessageSummary'](_0x54cfbf),window[_0x531875(0x235)][_0x531875(0x1ef)](_0x54cfbf),window[_0x531875(0x235)]['syncSettingsFriendReference'](_0x54cfbf),window[_0x531875(0x235)][_0x531875(0x463)][_0x531875(0x1b5)]=_0x501551;try{window[_0x531875(0x34a)]?.['replaceFriendMessages']&&window['imStorage']?.[_0x531875(0x465)]&&await window[_0x531875(0x235)][_0x531875(0x2a3)](_0x196031,async()=>{const _0x356b64=_0x531875;return await window['imStorage'][_0x356b64(0x4d6)](_0x196031,_0x340b4b['messages']||[]),await window[_0x356b64(0x34a)][_0x356b64(0x465)](_0x340b4b),!![];});}catch(_0x42713a){console[_0x531875(0x25f)](_0x531875(0x40b),_0x42713a);}return!_0x2df5f5[_0x531875(0x140)]&&window[_0x531875(0x3d7)]&&window[_0x531875(0x3d7)](_0x531875(0x4ad)),![];}},window[_0x557477(0x235)][_0x557477(0x35b)]=async function(_0x15185d={}){const _0x5b07ba=_0x557477;try{if(window[_0x5b07ba(0x235)]['ensureDataReady'])await window[_0x5b07ba(0x235)][_0x5b07ba(0x283)]();if(!window['imStorage']||!window[_0x5b07ba(0x34a)][_0x5b07ba(0x1ad)])throw new Error(_0x5b07ba(0x24e));return await window[_0x5b07ba(0x34a)][_0x5b07ba(0x1ad)](window[_0x5b07ba(0x235)]['cloneDataSnapshot'](Array[_0x5b07ba(0x2aa)](window['imData'][_0x5b07ba(0x410)])?window[_0x5b07ba(0x196)][_0x5b07ba(0x410)]:[])),window['imApp']['saveState']['lastError']=null,!![];}catch(_0x3b356a){return console[_0x5b07ba(0x25f)](_0x5b07ba(0x480),_0x3b356a),window[_0x5b07ba(0x235)][_0x5b07ba(0x463)][_0x5b07ba(0x1b5)]=_0x3b356a,!_0x15185d[_0x5b07ba(0x140)]&&window[_0x5b07ba(0x3d7)]&&window[_0x5b07ba(0x3d7)](_0x5b07ba(0x4e1)),![];}},window[_0x557477(0x235)]['persistStickersData']=async function(_0x418d6b={}){const _0x57bfda=_0x557477;try{if(window['imApp'][_0x57bfda(0x283)])await window[_0x57bfda(0x235)][_0x57bfda(0x283)]();if(!window[_0x57bfda(0x34a)]||!window[_0x57bfda(0x34a)][_0x57bfda(0x1f8)])throw new Error(_0x57bfda(0x3ee));return await window[_0x57bfda(0x34a)][_0x57bfda(0x1f8)](window[_0x57bfda(0x235)][_0x57bfda(0x439)](Array['isArray'](window['imData'][_0x57bfda(0x36d)])?window[_0x57bfda(0x196)][_0x57bfda(0x36d)]:[])),window[_0x57bfda(0x235)][_0x57bfda(0x463)][_0x57bfda(0x1b5)]=null,!![];}catch(_0x4080fb){return console['error'](_0x57bfda(0x370),_0x4080fb),window[_0x57bfda(0x235)][_0x57bfda(0x463)][_0x57bfda(0x1b5)]=_0x4080fb,!_0x418d6b[_0x57bfda(0x140)]&&window[_0x57bfda(0x3d7)]&&window['showToast'](_0x57bfda(0x4ed)),![];}},window[_0x557477(0x235)][_0x557477(0x4a5)]=async function(_0x5e3130={}){const _0x562812=_0x557477;try{if(window[_0x562812(0x235)][_0x562812(0x283)])await window['imApp'][_0x562812(0x283)]();if(!window['imStorage']||!window[_0x562812(0x34a)][_0x562812(0x29b)])throw new Error(_0x562812(0x2bb));return await window[_0x562812(0x34a)][_0x562812(0x29b)](window[_0x562812(0x196)][_0x562812(0x3d6)]||null),window[_0x562812(0x235)][_0x562812(0x463)][_0x562812(0x1b5)]=null,!![];}catch(_0x53cee5){return console['error']('Failed\x20to\x20persist\x20moments\x20cover\x20data',_0x53cee5),window[_0x562812(0x235)][_0x562812(0x463)][_0x562812(0x1b5)]=_0x53cee5,!_0x5e3130[_0x562812(0x140)]&&window[_0x562812(0x3d7)]&&window[_0x562812(0x3d7)](_0x562812(0x47a)),![];}},window[_0x557477(0x235)]['flushFriendSave']=async function(_0x4ea3e5,_0x33a919={}){const _0xd4c863=_0x557477,_0x52aebc=String(_0x4ea3e5),_0x3e35e5=window[_0xd4c863(0x235)][_0xd4c863(0x463)]['friendTimers'][_0xd4c863(0x442)](_0x52aebc);_0x3e35e5&&(clearTimeout(_0x3e35e5[_0xd4c863(0x4a2)]||_0x3e35e5),window[_0xd4c863(0x235)]['saveState'][_0xd4c863(0x4d4)][_0xd4c863(0x41c)](_0x52aebc));const _0x434293=window[_0xd4c863(0x235)][_0xd4c863(0x463)][_0xd4c863(0x21b)][_0xd4c863(0x442)](_0x52aebc)||Promise[_0xd4c863(0x44e)](),_0x47d4dc=_0x434293[_0xd4c863(0x212)](()=>![])[_0xd4c863(0x1cc)](async()=>{const _0x201db9=_0xd4c863,_0x38fd63=window[_0x201db9(0x235)][_0x201db9(0x463)][_0x201db9(0x340)]['get'](_0x52aebc)||0x0,_0x2a515f=_0x3e35e5&&typeof _0x3e35e5===_0x201db9(0x4c1)?_0x3e35e5[_0x201db9(0x360)]||{}:{},_0x335f53={..._0x2a515f,..._0x33a919},_0x1045b5=await window[_0x201db9(0x235)][_0x201db9(0x4db)](_0x52aebc,_0x335f53);if(_0x1045b5){const _0x8d94db=window[_0x201db9(0x235)][_0x201db9(0x463)]['friendRevisions'][_0x201db9(0x442)](_0x52aebc)||0x0;_0x8d94db===_0x38fd63&&window['imApp']['saveState'][_0x201db9(0x217)]['delete'](_0x52aebc);}return window[_0x201db9(0x235)][_0x201db9(0x463)][_0x201db9(0x3dc)]=window[_0x201db9(0x235)]['saveState'][_0x201db9(0x217)]['size']>0x0||window[_0x201db9(0x235)]['saveState'][_0x201db9(0x1d4)][_0x201db9(0x2fa)]>0x0||window['imApp'][_0x201db9(0x463)]['momentMessagesDirty']||window[_0x201db9(0x235)][_0x201db9(0x463)][_0x201db9(0x31a)]||window['imApp']['saveState'][_0x201db9(0x38d)],_0x1045b5;});window['imApp'][_0xd4c863(0x463)][_0xd4c863(0x21b)][_0xd4c863(0x1fe)](_0x52aebc,_0x47d4dc);try{return await _0x47d4dc;}finally{window[_0xd4c863(0x235)][_0xd4c863(0x463)]['friendFlushChains'][_0xd4c863(0x442)](_0x52aebc)===_0x47d4dc&&window[_0xd4c863(0x235)][_0xd4c863(0x463)][_0xd4c863(0x21b)][_0xd4c863(0x41c)](_0x52aebc);}},window[_0x557477(0x235)]['scheduleFriendSave']=function(_0x4eef21,_0x19f0f9={}){const _0x33dc0e=_0x557477;if(_0x4eef21==null)return![];const _0x3842fe=String(_0x4eef21),_0x2c2793=Number['isFinite'](Number(_0x19f0f9[_0x33dc0e(0x288)]))?Number(_0x19f0f9[_0x33dc0e(0x288)]):0x1f4;window['imApp'][_0x33dc0e(0x4af)](_0x3842fe);const _0x11ad20=window[_0x33dc0e(0x235)][_0x33dc0e(0x463)][_0x33dc0e(0x4d4)][_0x33dc0e(0x442)](_0x3842fe);_0x11ad20&&clearTimeout(_0x11ad20['timer']||_0x11ad20);const _0x4a6358={'silent':_0x19f0f9[_0x33dc0e(0x140)]!==![],'metaOnly':_0x19f0f9[_0x33dc0e(0x432)]===!![],'includeMessages':_0x19f0f9['includeMessages']},_0xd2c976=setTimeout(()=>{const _0x408d39=_0x33dc0e;window['imApp'][_0x408d39(0x478)](_0x3842fe,_0x4a6358);},Math['max'](0x0,_0x2c2793));return window[_0x33dc0e(0x235)][_0x33dc0e(0x463)][_0x33dc0e(0x4d4)][_0x33dc0e(0x1fe)](_0x3842fe,{'timer':_0xd2c976,'options':_0x4a6358}),!![];},window['imApp'][_0x557477(0x31d)]=async function(_0xa30a1b,_0x2013e2={}){const _0x59dbdd=_0x557477,_0x268593=String(_0xa30a1b),_0x24e80a=window[_0x59dbdd(0x235)]['saveState']['momentTimers'][_0x59dbdd(0x442)](_0x268593);_0x24e80a&&(clearTimeout(_0x24e80a),window[_0x59dbdd(0x235)]['saveState'][_0x59dbdd(0x1a0)]['delete'](_0x268593));const _0x3118b9=window[_0x59dbdd(0x235)][_0x59dbdd(0x463)][_0x59dbdd(0x33c)][_0x59dbdd(0x442)](_0x268593)||Promise[_0x59dbdd(0x44e)](),_0x355842=_0x3118b9[_0x59dbdd(0x212)](()=>![])[_0x59dbdd(0x1cc)](async()=>{const _0x2b527c=_0x59dbdd,_0x33c427=window[_0x2b527c(0x235)][_0x2b527c(0x463)][_0x2b527c(0x3e6)]['get'](_0x268593)||0x0,_0x2f8ed9=await window[_0x2b527c(0x235)][_0x2b527c(0x39c)](_0x268593,_0x2013e2);if(_0x2f8ed9){const _0x1ac4a1=window[_0x2b527c(0x235)]['saveState'][_0x2b527c(0x3e6)]['get'](_0x268593)||0x0;_0x1ac4a1===_0x33c427&&window['imApp'][_0x2b527c(0x463)]['momentDirtyIds'][_0x2b527c(0x41c)](_0x268593);}return window[_0x2b527c(0x235)][_0x2b527c(0x463)]['dirty']=window[_0x2b527c(0x235)][_0x2b527c(0x463)][_0x2b527c(0x217)][_0x2b527c(0x2fa)]>0x0||window[_0x2b527c(0x235)][_0x2b527c(0x463)][_0x2b527c(0x1d4)][_0x2b527c(0x2fa)]>0x0||window[_0x2b527c(0x235)][_0x2b527c(0x463)][_0x2b527c(0x14c)]||window[_0x2b527c(0x235)][_0x2b527c(0x463)]['stickersDirty']||window['imApp'][_0x2b527c(0x463)][_0x2b527c(0x38d)],_0x2f8ed9;});window[_0x59dbdd(0x235)][_0x59dbdd(0x463)][_0x59dbdd(0x33c)][_0x59dbdd(0x1fe)](_0x268593,_0x355842);try{return await _0x355842;}finally{window[_0x59dbdd(0x235)][_0x59dbdd(0x463)][_0x59dbdd(0x33c)][_0x59dbdd(0x442)](_0x268593)===_0x355842&&window[_0x59dbdd(0x235)]['saveState'][_0x59dbdd(0x33c)][_0x59dbdd(0x41c)](_0x268593);}},window['imApp'][_0x557477(0x2c7)]=function(_0x2c1437,_0x1563e6={}){const _0x5cd8b7=_0x557477;if(_0x2c1437==null)return![];const _0x1bb7b4=String(_0x2c1437),_0x4e006c=Number[_0x5cd8b7(0x177)](Number(_0x1563e6[_0x5cd8b7(0x288)]))?Number(_0x1563e6[_0x5cd8b7(0x288)]):0x1f4;window[_0x5cd8b7(0x235)][_0x5cd8b7(0x3b3)](_0x1bb7b4);const _0x4b56fe=window['imApp'][_0x5cd8b7(0x463)][_0x5cd8b7(0x1a0)]['get'](_0x1bb7b4);_0x4b56fe&&clearTimeout(_0x4b56fe);const _0x31f532=setTimeout(()=>{const _0x37570a=_0x5cd8b7;window[_0x37570a(0x235)][_0x37570a(0x31d)](_0x1bb7b4,{'silent':_0x1563e6[_0x37570a(0x140)]!==![]});},Math[_0x5cd8b7(0x219)](0x0,_0x4e006c));return window[_0x5cd8b7(0x235)][_0x5cd8b7(0x463)][_0x5cd8b7(0x1a0)][_0x5cd8b7(0x1fe)](_0x1bb7b4,_0x31f532),!![];},window[_0x557477(0x235)][_0x557477(0x2d3)]=async function(_0x1bb4d0={}){const _0x4f04cb=_0x557477,_0x37b56d=await window[_0x4f04cb(0x235)][_0x4f04cb(0x35b)](_0x1bb4d0);return _0x37b56d&&(window[_0x4f04cb(0x235)][_0x4f04cb(0x463)][_0x4f04cb(0x14c)]=![]),window[_0x4f04cb(0x235)][_0x4f04cb(0x463)][_0x4f04cb(0x3dc)]=window[_0x4f04cb(0x235)]['saveState'][_0x4f04cb(0x217)]['size']>0x0||window[_0x4f04cb(0x235)][_0x4f04cb(0x463)][_0x4f04cb(0x1d4)][_0x4f04cb(0x2fa)]>0x0||window[_0x4f04cb(0x235)]['saveState'][_0x4f04cb(0x14c)]||window[_0x4f04cb(0x235)][_0x4f04cb(0x463)]['stickersDirty']||window['imApp']['saveState']['momentsCoverDirty'],_0x37b56d;},window[_0x557477(0x235)][_0x557477(0x13a)]=async function(_0x1a3ac5={}){const _0x212dc8=_0x557477,_0x38aeca=await window['imApp']['persistStickersData'](_0x1a3ac5);return _0x38aeca&&(window[_0x212dc8(0x235)][_0x212dc8(0x463)]['stickersDirty']=![]),window[_0x212dc8(0x235)][_0x212dc8(0x463)][_0x212dc8(0x3dc)]=window['imApp'][_0x212dc8(0x463)][_0x212dc8(0x217)][_0x212dc8(0x2fa)]>0x0||window[_0x212dc8(0x235)][_0x212dc8(0x463)][_0x212dc8(0x1d4)][_0x212dc8(0x2fa)]>0x0||window['imApp'][_0x212dc8(0x463)][_0x212dc8(0x14c)]||window[_0x212dc8(0x235)][_0x212dc8(0x463)][_0x212dc8(0x31a)]||window[_0x212dc8(0x235)][_0x212dc8(0x463)][_0x212dc8(0x38d)],_0x38aeca;},window[_0x557477(0x235)][_0x557477(0x3ad)]=async function(_0x49768e={}){const _0x4bf4e4=_0x557477,_0x3a9195=await window[_0x4bf4e4(0x235)][_0x4bf4e4(0x4a5)](_0x49768e);return _0x3a9195&&(window[_0x4bf4e4(0x235)][_0x4bf4e4(0x463)][_0x4bf4e4(0x38d)]=![]),window[_0x4bf4e4(0x235)][_0x4bf4e4(0x463)][_0x4bf4e4(0x3dc)]=window['imApp'][_0x4bf4e4(0x463)][_0x4bf4e4(0x217)]['size']>0x0||window[_0x4bf4e4(0x235)][_0x4bf4e4(0x463)][_0x4bf4e4(0x1d4)]['size']>0x0||window[_0x4bf4e4(0x235)][_0x4bf4e4(0x463)][_0x4bf4e4(0x14c)]||window[_0x4bf4e4(0x235)]['saveState']['stickersDirty']||window[_0x4bf4e4(0x235)][_0x4bf4e4(0x463)][_0x4bf4e4(0x38d)],_0x3a9195;},window[_0x557477(0x235)][_0x557477(0x1ab)]=async function(_0x380a3d={}){const _0x46c0f5=_0x557477;window[_0x46c0f5(0x235)][_0x46c0f5(0x463)]['timer']&&(clearTimeout(window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x4a2)]),window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x4a2)]=null);if(window['imApp'][_0x46c0f5(0x463)]['isSaving'])return window[_0x46c0f5(0x235)]['saveState'][_0x46c0f5(0x40f)]=!![],!![];window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x143)]=!![];try{do{window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x40f)]=![];const _0x4fda52=Array[_0x46c0f5(0x494)](window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x217)]),_0x4be572=Array[_0x46c0f5(0x494)](window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x1d4)]);for(const _0x1b438e of _0x4fda52){const _0x128d1c=await window['imApp'][_0x46c0f5(0x478)](_0x1b438e,_0x380a3d);if(!_0x128d1c)return![];}for(const _0xae7e49 of _0x4be572){const _0x5eb510=await window[_0x46c0f5(0x235)]['flushMomentSave'](_0xae7e49,_0x380a3d);if(!_0x5eb510)return![];}if(window[_0x46c0f5(0x235)]['saveState'][_0x46c0f5(0x14c)]){const _0x240fd2=await window[_0x46c0f5(0x235)]['flushMomentMessagesSave'](_0x380a3d);if(!_0x240fd2)return![];}if(window[_0x46c0f5(0x235)][_0x46c0f5(0x463)]['stickersDirty']){const _0x272819=await window[_0x46c0f5(0x235)][_0x46c0f5(0x13a)](_0x380a3d);if(!_0x272819)return![];}if(window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x38d)]){const _0x499019=await window[_0x46c0f5(0x235)][_0x46c0f5(0x3ad)](_0x380a3d);if(!_0x499019)return![];}window['imApp'][_0x46c0f5(0x463)]['dirty']=window[_0x46c0f5(0x235)][_0x46c0f5(0x463)]['friendDirtyIds'][_0x46c0f5(0x2fa)]>0x0||window['imApp'][_0x46c0f5(0x463)][_0x46c0f5(0x1d4)][_0x46c0f5(0x2fa)]>0x0||window['imApp'][_0x46c0f5(0x463)][_0x46c0f5(0x14c)]||window[_0x46c0f5(0x235)][_0x46c0f5(0x463)][_0x46c0f5(0x31a)]||window[_0x46c0f5(0x235)][_0x46c0f5(0x463)]['momentsCoverDirty'];}while(window['imApp'][_0x46c0f5(0x463)][_0x46c0f5(0x40f)]);return!![];}finally{window[_0x46c0f5(0x235)][_0x46c0f5(0x463)]['isSaving']=![];}},window[_0x557477(0x235)][_0x557477(0x47e)]=function(_0x641e5={}){const _0x39a176=_0x557477,_0x1556ce=Number[_0x39a176(0x177)](Number(_0x641e5[_0x39a176(0x288)]))?Number(_0x641e5[_0x39a176(0x288)]):window[_0x39a176(0x235)]['saveState']['delay'];return window['imApp']['saveState'][_0x39a176(0x3dc)]=!![],window[_0x39a176(0x235)]['saveState'][_0x39a176(0x4a2)]&&clearTimeout(window['imApp'][_0x39a176(0x463)][_0x39a176(0x4a2)]),window['imApp'][_0x39a176(0x463)][_0x39a176(0x4a2)]=setTimeout(()=>{const _0x1f7b98=_0x39a176;window[_0x1f7b98(0x235)][_0x1f7b98(0x1ab)]({'silent':_0x641e5[_0x1f7b98(0x140)]!==![]});},Math[_0x39a176(0x219)](0x0,_0x1556ce)),!![];},window[_0x557477(0x235)][_0x557477(0x3d2)]=async function(_0x35f532,_0x52c67e={}){const _0x30c8f9=_0x557477,_0x344bd0=window[_0x30c8f9(0x235)]['buildPersistedData']();try{typeof _0x35f532===_0x30c8f9(0x3a2)&&await _0x35f532();if(_0x52c67e['immediate']===![])return window[_0x30c8f9(0x235)]['scheduleGlobalSave']({'delay':_0x52c67e['delay'],'silent':_0x52c67e['silent']!==![]}),typeof _0x52c67e[_0x30c8f9(0x434)]===_0x30c8f9(0x3a2)&&_0x52c67e[_0x30c8f9(0x434)](window[_0x30c8f9(0x196)]),!![];const _0x5d1936=await window[_0x30c8f9(0x235)][_0x30c8f9(0x1ab)]({'silent':!!_0x52c67e[_0x30c8f9(0x140)]});if(!_0x5d1936)return window['imData']['friends']=_0x344bd0[_0x30c8f9(0x2d7)],window[_0x30c8f9(0x196)][_0x30c8f9(0x48d)]=_0x344bd0[_0x30c8f9(0x48d)],window['imData']['momentMessages']=_0x344bd0[_0x30c8f9(0x410)],window[_0x30c8f9(0x196)][_0x30c8f9(0x36d)]=_0x344bd0['stickers'],window[_0x30c8f9(0x196)][_0x30c8f9(0x3d6)]=_0x344bd0['momentsCoverUrl'],typeof _0x52c67e[_0x30c8f9(0x2fe)]===_0x30c8f9(0x3a2)&&_0x52c67e[_0x30c8f9(0x2fe)](window['imData']),![];return typeof _0x52c67e['onSuccess']===_0x30c8f9(0x3a2)&&_0x52c67e['onSuccess'](window[_0x30c8f9(0x196)]),!![];}catch(_0x23f6e0){return console[_0x30c8f9(0x25f)](_0x30c8f9(0x30b),_0x23f6e0),window[_0x30c8f9(0x196)]['friends']=_0x344bd0[_0x30c8f9(0x2d7)],window[_0x30c8f9(0x196)][_0x30c8f9(0x48d)]=_0x344bd0[_0x30c8f9(0x48d)],window[_0x30c8f9(0x196)][_0x30c8f9(0x410)]=_0x344bd0[_0x30c8f9(0x410)],window[_0x30c8f9(0x196)][_0x30c8f9(0x36d)]=_0x344bd0[_0x30c8f9(0x36d)],window[_0x30c8f9(0x196)][_0x30c8f9(0x3d6)]=_0x344bd0[_0x30c8f9(0x3d6)],typeof _0x52c67e['onRollback']===_0x30c8f9(0x3a2)&&_0x52c67e[_0x30c8f9(0x2fe)](window[_0x30c8f9(0x196)]),!_0x52c67e[_0x30c8f9(0x140)]&&window[_0x30c8f9(0x3d7)]&&window[_0x30c8f9(0x3d7)](_0x30c8f9(0x3aa)),![];}},window['imApp'][_0x557477(0x377)]=async function(_0x552b3c,_0x5e1854,_0x14f2f8={}){const _0x1c0946=_0x557477,_0x280582=Array['isArray'](window['imData']['friends'])?window['imData']['friends']:[],_0x136795=_0x280582[_0x1c0946(0x351)](_0x4e27cc=>String(_0x4e27cc['id'])===String(_0x552b3c)),_0x44da05=_0x136795>-0x1?window['imApp'][_0x1c0946(0x439)](_0x280582[_0x136795]):null;try{const _0xffd101=_0x136795>-0x1?_0x280582[_0x136795]:null;typeof _0x5e1854==='function'&&await _0x5e1854(_0xffd101,_0x280582,_0x136795);window[_0x1c0946(0x235)][_0x1c0946(0x4af)](_0x552b3c);if(_0x14f2f8[_0x1c0946(0x30f)]===![])return window['imApp'][_0x1c0946(0x2e4)](_0x552b3c,{'delay':_0x14f2f8[_0x1c0946(0x288)],'silent':_0x14f2f8['silent']!==![],'metaOnly':_0x14f2f8[_0x1c0946(0x432)]===!![],'includeMessages':_0x14f2f8['includeMessages']}),typeof _0x14f2f8[_0x1c0946(0x434)]===_0x1c0946(0x3a2)&&_0x14f2f8[_0x1c0946(0x434)](window['imData']['friends']),!![];const _0xf82b74=await window[_0x1c0946(0x235)][_0x1c0946(0x478)](_0x552b3c,{'silent':!!_0x14f2f8[_0x1c0946(0x140)],'metaOnly':_0x14f2f8[_0x1c0946(0x432)]===!![],'includeMessages':_0x14f2f8[_0x1c0946(0x1ff)]});if(!_0xf82b74)return _0x136795>-0x1&&(_0x44da05?window[_0x1c0946(0x196)]['friends'][_0x136795]=_0x44da05:window['imData'][_0x1c0946(0x2d7)]['splice'](_0x136795,0x1)),typeof _0x14f2f8['onRollback']==='function'&&_0x14f2f8[_0x1c0946(0x2fe)](window[_0x1c0946(0x196)][_0x1c0946(0x2d7)]),![];return typeof _0x14f2f8[_0x1c0946(0x434)]==='function'&&_0x14f2f8[_0x1c0946(0x434)](window[_0x1c0946(0x196)][_0x1c0946(0x2d7)]),!![];}catch(_0x4608ad){return console['error'](_0x1c0946(0x468),_0x4608ad),_0x136795>-0x1&&(_0x44da05?window['imData']['friends'][_0x136795]=_0x44da05:window[_0x1c0946(0x196)][_0x1c0946(0x2d7)][_0x1c0946(0x3bf)](_0x136795,0x1)),typeof _0x14f2f8[_0x1c0946(0x2fe)]===_0x1c0946(0x3a2)&&_0x14f2f8[_0x1c0946(0x2fe)](window[_0x1c0946(0x196)][_0x1c0946(0x2d7)]),!_0x14f2f8[_0x1c0946(0x140)]&&window[_0x1c0946(0x3d7)]&&window[_0x1c0946(0x3d7)](_0x1c0946(0x3aa)),![];}},window[_0x557477(0x235)][_0x557477(0x1ca)]=async function(_0xfcaeed,_0x2de75e={}){const _0x3bf675=_0x557477;window[_0x3bf675(0x235)][_0x3bf675(0x283)]&&!window[_0x3bf675(0x196)][_0x3bf675(0x409)]&&await window[_0x3bf675(0x235)][_0x3bf675(0x283)]();const _0x2e176e=window[_0x3bf675(0x235)][_0x3bf675(0x439)](Array[_0x3bf675(0x2aa)](window[_0x3bf675(0x196)][_0x3bf675(0x2d7)])?window[_0x3bf675(0x196)][_0x3bf675(0x2d7)]:[]);try{typeof _0xfcaeed==='function'&&await _0xfcaeed();const _0x200a0b=(window[_0x3bf675(0x196)]['friends']||[])[_0x3bf675(0x46e)](_0x380c82=>String(_0x380c82['id'])),_0x59a90f=Array['isArray'](_0x2de75e[_0x3bf675(0x4ce)])?_0x2de75e[_0x3bf675(0x4ce)][_0x3bf675(0x46e)](String):_0x2e176e[_0x3bf675(0x46e)](_0x2fa674=>String(_0x2fa674['id']))[_0x3bf675(0x151)](_0x156f9a=>!_0x200a0b['includes'](_0x156f9a)),_0x562c1d=Array[_0x3bf675(0x2aa)](_0x2de75e['friendIds'])?Array[_0x3bf675(0x494)](new Set([..._0x2de75e[_0x3bf675(0x239)][_0x3bf675(0x46e)](String),..._0x59a90f])):_0x2de75e['friendId']!=null?Array['from'](new Set([String(_0x2de75e[_0x3bf675(0x418)]),..._0x59a90f])):Array[_0x3bf675(0x494)](new Set([..._0x200a0b,..._0x59a90f]));_0x562c1d[_0x3bf675(0x3be)](_0x10ca72=>window[_0x3bf675(0x235)][_0x3bf675(0x4af)](_0x10ca72));if(_0x2de75e[_0x3bf675(0x30f)]===![])return _0x562c1d[_0x3bf675(0x1a6)]===0x1?window[_0x3bf675(0x235)][_0x3bf675(0x2e4)](_0x562c1d[0x0],{'delay':_0x2de75e[_0x3bf675(0x288)],'silent':_0x2de75e[_0x3bf675(0x140)]!==![],'metaOnly':_0x2de75e[_0x3bf675(0x432)]===!![],'includeMessages':_0x2de75e[_0x3bf675(0x1ff)]}):window[_0x3bf675(0x235)][_0x3bf675(0x47e)]({'delay':_0x2de75e[_0x3bf675(0x288)],'silent':_0x2de75e[_0x3bf675(0x140)]!==![]}),typeof _0x2de75e[_0x3bf675(0x434)]===_0x3bf675(0x3a2)&&_0x2de75e[_0x3bf675(0x434)](window['imData'][_0x3bf675(0x2d7)]),!![];const _0x2b1c55=_0x562c1d[_0x3bf675(0x1a6)]===0x1?await window[_0x3bf675(0x235)][_0x3bf675(0x478)](_0x562c1d[0x0],{'silent':!!_0x2de75e[_0x3bf675(0x140)],'metaOnly':_0x2de75e[_0x3bf675(0x432)]===!![],'includeMessages':_0x2de75e['includeMessages']}):await window[_0x3bf675(0x235)]['flushGlobalSave']({'silent':!!_0x2de75e[_0x3bf675(0x140)]});if(!_0x2b1c55)return window[_0x3bf675(0x196)][_0x3bf675(0x2d7)]=_0x2e176e,typeof _0x2de75e[_0x3bf675(0x2fe)]==='function'&&_0x2de75e[_0x3bf675(0x2fe)](window[_0x3bf675(0x196)][_0x3bf675(0x2d7)]),![];return typeof _0x2de75e[_0x3bf675(0x434)]===_0x3bf675(0x3a2)&&_0x2de75e[_0x3bf675(0x434)](window[_0x3bf675(0x196)][_0x3bf675(0x2d7)]),!![];}catch(_0xdedbd1){return console[_0x3bf675(0x25f)](_0x3bf675(0x3f0),_0xdedbd1),window[_0x3bf675(0x196)]['friends']=_0x2e176e,typeof _0x2de75e['onRollback']===_0x3bf675(0x3a2)&&_0x2de75e[_0x3bf675(0x2fe)](window[_0x3bf675(0x196)][_0x3bf675(0x2d7)]),!_0x2de75e[_0x3bf675(0x140)]&&window[_0x3bf675(0x3d7)]&&window[_0x3bf675(0x3d7)](_0x3bf675(0x3aa)),![];}},window[_0x557477(0x235)]['commitMomentChange']=async function(_0x118588,_0x5f0de4,_0x4a410c={}){const _0xcdb38e=_0x557477,_0x5dcf72=Array[_0xcdb38e(0x2aa)](window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)])?window['imData'][_0xcdb38e(0x48d)]:[],_0x574061=_0x5dcf72['findIndex'](_0x4423f=>String(_0x4423f['id'])===String(_0x118588)),_0x5c8ec0=_0x574061>-0x1?window[_0xcdb38e(0x235)][_0xcdb38e(0x439)](_0x5dcf72[_0x574061]):null;try{const _0x4ffe6a=_0x574061>-0x1?_0x5dcf72[_0x574061]:null;typeof _0x5f0de4===_0xcdb38e(0x3a2)&&await _0x5f0de4(_0x4ffe6a,_0x5dcf72,_0x574061);window[_0xcdb38e(0x235)]['markMomentDirty'](_0x118588);if(_0x4a410c[_0xcdb38e(0x30f)]===![])return window[_0xcdb38e(0x235)][_0xcdb38e(0x2c7)](_0x118588,{'delay':_0x4a410c['delay'],'silent':_0x4a410c[_0xcdb38e(0x140)]!==![]}),typeof _0x4a410c[_0xcdb38e(0x434)]==='function'&&_0x4a410c[_0xcdb38e(0x434)](window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)]),!![];const _0x45d2e0=await window[_0xcdb38e(0x235)][_0xcdb38e(0x31d)](_0x118588,{'silent':!!_0x4a410c[_0xcdb38e(0x140)]});if(!_0x45d2e0)return _0x574061>-0x1&&(_0x5c8ec0?window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)][_0x574061]=_0x5c8ec0:window['imData']['moments'][_0xcdb38e(0x3bf)](_0x574061,0x1)),typeof _0x4a410c[_0xcdb38e(0x2fe)]===_0xcdb38e(0x3a2)&&_0x4a410c[_0xcdb38e(0x2fe)](window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)]),![];return typeof _0x4a410c['onSuccess']===_0xcdb38e(0x3a2)&&_0x4a410c[_0xcdb38e(0x434)](window['imData'][_0xcdb38e(0x48d)]),!![];}catch(_0x4df12a){return console[_0xcdb38e(0x25f)](_0xcdb38e(0x1c2),_0x4df12a),_0x574061>-0x1&&(_0x5c8ec0?window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)][_0x574061]=_0x5c8ec0:window['imData'][_0xcdb38e(0x48d)][_0xcdb38e(0x3bf)](_0x574061,0x1)),typeof _0x4a410c[_0xcdb38e(0x2fe)]===_0xcdb38e(0x3a2)&&_0x4a410c[_0xcdb38e(0x2fe)](window[_0xcdb38e(0x196)][_0xcdb38e(0x48d)]),!_0x4a410c[_0xcdb38e(0x140)]&&window[_0xcdb38e(0x3d7)]&&window[_0xcdb38e(0x3d7)](_0xcdb38e(0x472)),![];}},window[_0x557477(0x235)]['deleteMomentPermanently']=async function(_0x3b1fb3,_0x3e6a63={}){const _0x2e33b7=_0x557477;if(_0x3b1fb3==null)return![];const _0x22604b=String(_0x3b1fb3);let _0x2d8b5b=[],_0x51b328=[];try{if(window[_0x2e33b7(0x235)]['ensureDataReady'])await window['imApp'][_0x2e33b7(0x283)]();if(window[_0x2e33b7(0x235)][_0x2e33b7(0x3d0)])await window[_0x2e33b7(0x235)][_0x2e33b7(0x3d0)]();if(window[_0x2e33b7(0x235)][_0x2e33b7(0x20c)])await window[_0x2e33b7(0x235)][_0x2e33b7(0x20c)]();_0x2d8b5b=window['imApp'][_0x2e33b7(0x439)](Array[_0x2e33b7(0x2aa)](window[_0x2e33b7(0x196)][_0x2e33b7(0x48d)])?window['imData'][_0x2e33b7(0x48d)]:[]),_0x51b328=window['imApp']['cloneDataSnapshot'](Array[_0x2e33b7(0x2aa)](window['imData'][_0x2e33b7(0x410)])?window[_0x2e33b7(0x196)][_0x2e33b7(0x410)]:[]);const _0x45af67=window[_0x2e33b7(0x235)][_0x2e33b7(0x463)]['momentTimers'][_0x2e33b7(0x442)](_0x22604b);_0x45af67&&(clearTimeout(_0x45af67),window[_0x2e33b7(0x235)][_0x2e33b7(0x463)]['momentTimers'][_0x2e33b7(0x41c)](_0x22604b));const _0x2a8da9=window[_0x2e33b7(0x235)][_0x2e33b7(0x463)]['momentFlushChains']['get'](_0x22604b);_0x2a8da9&&await _0x2a8da9[_0x2e33b7(0x212)](()=>![]);window[_0x2e33b7(0x196)][_0x2e33b7(0x48d)]=(Array[_0x2e33b7(0x2aa)](window[_0x2e33b7(0x196)][_0x2e33b7(0x48d)])?window[_0x2e33b7(0x196)][_0x2e33b7(0x48d)]:[])[_0x2e33b7(0x151)](_0x901d5d=>String(_0x901d5d?.['id'])!==_0x22604b),window['imData'][_0x2e33b7(0x410)]=(Array['isArray'](window['imData'][_0x2e33b7(0x410)])?window[_0x2e33b7(0x196)][_0x2e33b7(0x410)]:[])[_0x2e33b7(0x151)](_0x539ff9=>String(_0x539ff9?.[_0x2e33b7(0x364)])!==_0x22604b),window[_0x2e33b7(0x235)][_0x2e33b7(0x463)][_0x2e33b7(0x1d4)][_0x2e33b7(0x41c)](_0x22604b),window[_0x2e33b7(0x235)]['saveState'][_0x2e33b7(0x3e6)]['delete'](_0x22604b),window[_0x2e33b7(0x235)][_0x2e33b7(0x463)][_0x2e33b7(0x33c)][_0x2e33b7(0x41c)](_0x22604b);if(window[_0x2e33b7(0x34a)]?.[_0x2e33b7(0x3c7)]){const _0xef6767=await window[_0x2e33b7(0x34a)][_0x2e33b7(0x3c7)](_0x3b1fb3);if(_0xef6767===![])throw new Error(_0x2e33b7(0x464));}if(window[_0x2e33b7(0x34a)]?.[_0x2e33b7(0x14a)]){const _0x1f681f=await window['imStorage'][_0x2e33b7(0x14a)](window[_0x2e33b7(0x196)][_0x2e33b7(0x48d)]);if(_0x1f681f===![])throw new Error(_0x2e33b7(0x1e9));}else{if(window['imApp']['saveMoments']){const _0x1d4526=await window[_0x2e33b7(0x235)][_0x2e33b7(0x14a)]({'silent':_0x3e6a63[_0x2e33b7(0x140)]!==![]});if(!_0x1d4526)throw new Error(_0x2e33b7(0x1e9));}}if(window[_0x2e33b7(0x34a)]?.['saveMomentMessages']){const _0x378bf6=await window[_0x2e33b7(0x34a)][_0x2e33b7(0x1ad)](window[_0x2e33b7(0x196)]['momentMessages']);if(_0x378bf6===![])throw new Error(_0x2e33b7(0x270));window[_0x2e33b7(0x235)][_0x2e33b7(0x463)][_0x2e33b7(0x14c)]=![];}else{if(window[_0x2e33b7(0x235)]['saveMomentMessages']){const _0x2fb73a=await window['imApp'][_0x2e33b7(0x1ad)]({'silent':_0x3e6a63[_0x2e33b7(0x140)]!==![]});if(!_0x2fb73a)throw new Error('saveMomentMessages\x20failed');}}return window[_0x2e33b7(0x235)][_0x2e33b7(0x463)][_0x2e33b7(0x1b5)]=null,window[_0x2e33b7(0x235)]['saveState'][_0x2e33b7(0x3dc)]=window['imApp'][_0x2e33b7(0x463)]['friendDirtyIds'][_0x2e33b7(0x2fa)]>0x0||window[_0x2e33b7(0x235)][_0x2e33b7(0x463)][_0x2e33b7(0x1d4)][_0x2e33b7(0x2fa)]>0x0||window[_0x2e33b7(0x235)]['saveState'][_0x2e33b7(0x14c)]||window['imApp']['saveState'][_0x2e33b7(0x31a)]||window[_0x2e33b7(0x235)][_0x2e33b7(0x463)]['momentsCoverDirty'],!![];}catch(_0x513c2c){console[_0x2e33b7(0x25f)]('Failed\x20to\x20permanently\x20delete\x20moment',_0x513c2c),window[_0x2e33b7(0x196)]['moments']=_0x2d8b5b,window[_0x2e33b7(0x196)]['momentMessages']=_0x51b328,window[_0x2e33b7(0x235)][_0x2e33b7(0x463)]['lastError']=_0x513c2c;try{window[_0x2e33b7(0x34a)]?.[_0x2e33b7(0x14a)]&&await window['imStorage'][_0x2e33b7(0x14a)](_0x2d8b5b),window[_0x2e33b7(0x34a)]?.[_0x2e33b7(0x1ad)]&&await window[_0x2e33b7(0x34a)][_0x2e33b7(0x1ad)](_0x51b328);}catch(_0x51b1c3){console[_0x2e33b7(0x25f)](_0x2e33b7(0x2b7),_0x51b1c3);}return!_0x3e6a63[_0x2e33b7(0x140)]&&window[_0x2e33b7(0x3d7)]&&window[_0x2e33b7(0x3d7)](_0x2e33b7(0x38c)),![];}},window[_0x557477(0x235)][_0x557477(0x1f2)]=async function(_0x1b00dd={}){const _0x2f8aa5=_0x557477;return window[_0x2f8aa5(0x235)][_0x2f8aa5(0x1ab)](_0x1b00dd);},window[_0x557477(0x235)]['saveMoments']=async function(_0x39b726={}){const _0x46bd25=_0x557477;return window['imApp'][_0x46bd25(0x1ab)](_0x39b726);},window[_0x557477(0x235)]['saveMomentMessages']=async function(_0x400938={}){const _0x454df0=_0x557477;window[_0x454df0(0x235)]['markMomentMessagesDirty']();if(_0x400938[_0x454df0(0x30f)]===![])return window['imApp'][_0x454df0(0x47e)]({'delay':_0x400938['delay'],'silent':_0x400938[_0x454df0(0x140)]!==![]}),!![];return window[_0x454df0(0x235)]['flushMomentMessagesSave'](_0x400938);},window[_0x557477(0x235)]['saveStickers']=async function(_0x294e97={}){const _0x5a0981=_0x557477;window[_0x5a0981(0x235)][_0x5a0981(0x1a8)]();if(_0x294e97[_0x5a0981(0x30f)]===![])return window[_0x5a0981(0x235)]['scheduleGlobalSave']({'delay':_0x294e97['delay'],'silent':_0x294e97[_0x5a0981(0x140)]!==![]}),!![];return window['imApp'][_0x5a0981(0x13a)](_0x294e97);},window[_0x557477(0x235)][_0x557477(0x1d1)]=async function(_0x799630,_0x5155a3={}){const _0x11aa2f=_0x557477,_0x4d66d9=window[_0x11aa2f(0x235)][_0x11aa2f(0x439)](Array[_0x11aa2f(0x2aa)](window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)])?window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)]:[]);try{typeof _0x799630===_0x11aa2f(0x3a2)&&await _0x799630(window[_0x11aa2f(0x196)]['stickers']);window[_0x11aa2f(0x235)]['markStickersDirty']();if(_0x5155a3[_0x11aa2f(0x30f)]===![])return window['imApp']['scheduleGlobalSave']({'delay':_0x5155a3['delay'],'silent':_0x5155a3['silent']!==![]}),typeof _0x5155a3[_0x11aa2f(0x434)]===_0x11aa2f(0x3a2)&&_0x5155a3[_0x11aa2f(0x434)](window['imData'][_0x11aa2f(0x36d)]),window[_0x11aa2f(0x34b)](new CustomEvent(_0x11aa2f(0x4fa),{'detail':{'stickers':window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)]}})),!![];const _0x1be891=await window[_0x11aa2f(0x235)][_0x11aa2f(0x13a)]({'silent':!!_0x5155a3[_0x11aa2f(0x140)]});if(!_0x1be891)return window[_0x11aa2f(0x196)]['stickers']=_0x4d66d9,typeof _0x5155a3[_0x11aa2f(0x2fe)]===_0x11aa2f(0x3a2)&&_0x5155a3['onRollback'](window['imData'][_0x11aa2f(0x36d)]),![];return typeof _0x5155a3[_0x11aa2f(0x434)]===_0x11aa2f(0x3a2)&&_0x5155a3[_0x11aa2f(0x434)](window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)]),window['dispatchEvent'](new CustomEvent(_0x11aa2f(0x4fa),{'detail':{'stickers':window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)]}})),!![];}catch(_0x24f47f){return console['error'](_0x11aa2f(0x1b8),_0x24f47f),window['imData'][_0x11aa2f(0x36d)]=_0x4d66d9,typeof _0x5155a3[_0x11aa2f(0x2fe)]===_0x11aa2f(0x3a2)&&_0x5155a3['onRollback'](window[_0x11aa2f(0x196)][_0x11aa2f(0x36d)]),!_0x5155a3[_0x11aa2f(0x140)]&&window[_0x11aa2f(0x3d7)]&&window[_0x11aa2f(0x3d7)]('表情包保存失败，已撤销本次修改'),![];}},window[_0x557477(0x235)]['saveMomentsCover']=async function(_0x4e2272,_0x2a5a2a={}){const _0x42e934=_0x557477;window['imData'][_0x42e934(0x3d6)]=_0x4e2272||null,window[_0x42e934(0x235)]['markMomentsCoverDirty']();if(_0x2a5a2a['immediate']===![])return window[_0x42e934(0x235)]['scheduleGlobalSave']({'delay':_0x2a5a2a['delay'],'silent':_0x2a5a2a[_0x42e934(0x140)]!==![]}),window[_0x42e934(0x196)][_0x42e934(0x3d6)];const _0x5c0227=await window['imApp'][_0x42e934(0x3ad)](_0x2a5a2a);return _0x5c0227?window[_0x42e934(0x196)][_0x42e934(0x3d6)]:null;},window[_0x557477(0x235)]['getStorageUsage']=async function(){const _0x5d3b4b=_0x557477;try{if(!window['imStorage']||!window[_0x5d3b4b(0x34a)][_0x5d3b4b(0x27f)])return 0x0;return await window['imStorage'][_0x5d3b4b(0x27f)]();}catch(_0xa5fdcb){return console[_0x5d3b4b(0x25f)](_0x5d3b4b(0x25b),_0xa5fdcb),0x0;}},window[_0x557477(0x235)][_0x557477(0x333)]=function(){const _0x41654b=_0x557477;try{return window['imStorage']?.[_0x41654b(0x16b)]&&window[_0x41654b(0x34a)][_0x41654b(0x16b)](),window[_0x41654b(0x34a)]?.[_0x41654b(0x46b)]&&window[_0x41654b(0x34a)][_0x41654b(0x46b)](0x0),!![];}catch(_0x1dfb05){return console[_0x41654b(0x25f)](_0x41654b(0x1e0),_0x1dfb05),![];}},window[_0x557477(0x3b9)]=function(_0x40fbd8=_0x557477(0x4c9),_0x53904f=''){const _0x2f48ca=_0x557477,_0x462c6d=window[_0x2f48ca(0x1e1)]?window['normalizeWorldBookEntry']:function(_0x537681={}){const _0x538f1b=_0x2f48ca;return{'title':_0x537681[_0x538f1b(0x147)]||_0x537681[_0x538f1b(0x4fc)]||_0x537681[_0x538f1b(0x14d)]||_0x538f1b(0x312),'keyword':_0x537681[_0x538f1b(0x14d)]||'','content':_0x537681['content']||'','triggerMode':_0x537681['triggerMode']===_0x538f1b(0x14d)?_0x538f1b(0x14d):_0x538f1b(0x414),'injectionPosition':[_0x538f1b(0x4c9),_0x538f1b(0x315),_0x538f1b(0x4c0)][_0x538f1b(0x300)](_0x537681[_0x538f1b(0x251)])?_0x537681['injectionPosition']:_0x538f1b(0x4c9),'systemDepth':Number['isFinite'](Number(_0x537681[_0x538f1b(0x2c6)]))?Number(_0x537681[_0x538f1b(0x2c6)]):0x4,'order':Number[_0x538f1b(0x177)](Number(_0x537681[_0x538f1b(0x2c2)]))?Number(_0x537681['order']):0x64,'recursive':![],'enabled':_0x537681[_0x538f1b(0x4ac)]!==![]};},_0x678c48=window[_0x2f48ca(0x1d0)]?window['worldBookKeywordMatched']:function(_0x35d19a,_0x478f8b=''){const _0xb4de8=_0x2f48ca;if(!_0x35d19a||_0x35d19a['triggerMode']!==_0xb4de8(0x14d))return!![];const _0x5c5752=_0x35d19a['keyword']?String(_0x35d19a[_0xb4de8(0x14d)])[_0xb4de8(0x3b7)]():'';if(!_0x5c5752)return![];return String(_0x478f8b||'')['includes'](_0x5c5752);},_0x2b1f3f=window['formatWorldBookEntryForPrompt']?window['formatWorldBookEntryForPrompt']:function(_0x2c9759){const _0x227a76=_0x2f48ca,_0x300b57=_0x2c9759['title']?String(_0x2c9759[_0x227a76(0x147)])[_0x227a76(0x3b7)]():_0x227a76(0x312),_0x32bf48=_0x2c9759[_0x227a76(0x14d)]?String(_0x2c9759[_0x227a76(0x14d)])[_0x227a76(0x3b7)]():'',_0x350912=_0x2c9759[_0x227a76(0x230)]?String(_0x2c9759[_0x227a76(0x230)])[_0x227a76(0x3b7)]():'',_0x180bcc=_0x2c9759[_0x227a76(0x3da)]==='keyword'?_0x227a76(0x1e6):'永久';let _0x4516d8='角色前';if(_0x2c9759[_0x227a76(0x251)]==='after_role')_0x4516d8='角色后';if(_0x2c9759['injectionPosition']===_0x227a76(0x4c0))_0x4516d8='系统深度';let _0x4c5e72='【'+_0x300b57+'】\x0a';return _0x4c5e72+=_0x227a76(0x22a)+_0x180bcc+'\x0a',_0x4c5e72+=_0x227a76(0x4fb)+_0x4516d8+'\x0a',_0x2c9759[_0x227a76(0x251)]==='system_depth'&&(_0x4c5e72+='深度:\x20'+_0x2c9759[_0x227a76(0x2c6)]+'\x0a',_0x4c5e72+=_0x227a76(0x335)+_0x2c9759[_0x227a76(0x2c2)]+'\x0a'),_0x2c9759[_0x227a76(0x3da)]===_0x227a76(0x14d)&&_0x32bf48&&(_0x4c5e72+=_0x227a76(0x176)+_0x32bf48+'\x0a'),_0x350912&&(_0x4c5e72+=_0x227a76(0x3d1)+_0x350912+'\x0a'),_0x4c5e72[_0x227a76(0x3b7)]();},_0x5c5d73={'before_role':_0x2f48ca(0x1c7),'after_role':_0x2f48ca(0x271),'system_depth':_0x2f48ca(0x331)},_0x1bd13c=[];if(window[_0x2f48ca(0x3e9)]){const _0x1933bd=window[_0x2f48ca(0x3e9)]();if(Array['isArray'](_0x1933bd)&&_0x1933bd[_0x2f48ca(0x1a6)]>0x0){const _0xd2e502=_0x1933bd[_0x2f48ca(0x151)](_0x4890f9=>_0x4890f9&&_0x4890f9['isGlobal']&&Array[_0x2f48ca(0x2aa)](_0x4890f9[_0x2f48ca(0x255)])&&_0x4890f9['entries'][_0x2f48ca(0x1a6)]>0x0);_0xd2e502[_0x2f48ca(0x3be)](_0x1dc821=>{const _0x1cce42=_0x2f48ca;_0x1dc821['entries'][_0x1cce42(0x46e)](_0x3fec19=>_0x462c6d(_0x3fec19))[_0x1cce42(0x151)](_0x13d9da=>_0x13d9da&&_0x13d9da[_0x1cce42(0x4ac)]!==![])[_0x1cce42(0x151)](_0x455bfe=>_0x455bfe['injectionPosition']===_0x40fbd8)[_0x1cce42(0x151)](_0x54cc3b=>_0x678c48(_0x54cc3b,_0x53904f))[_0x1cce42(0x3be)](_0x5e72fc=>{const _0x3810fb=_0x1cce42;_0x1bd13c[_0x3810fb(0x3a4)]({..._0x5e72fc,'__bookName':_0x1dc821[_0x3810fb(0x4fc)]||_0x3810fb(0x3f3)});});});}}const _0x3c76f9=[];if(_0x1bd13c[_0x2f48ca(0x1a6)]>0x0){_0x1bd13c[_0x2f48ca(0x424)]((_0x1b1c71,_0x1bccd1)=>{const _0x40686e=_0x2f48ca;if(_0x40fbd8===_0x40686e(0x4c0)){if(_0x1b1c71[_0x40686e(0x2c6)]!==_0x1bccd1[_0x40686e(0x2c6)])return _0x1b1c71['systemDepth']-_0x1bccd1[_0x40686e(0x2c6)];return _0x1b1c71['order']-_0x1bccd1[_0x40686e(0x2c2)];}return _0x1b1c71['order']-_0x1bccd1[_0x40686e(0x2c2)];});let _0x5cc0af=_0x5c5d73[_0x40fbd8]+':\x0a';_0x1bd13c[_0x2f48ca(0x3be)](_0x4541e1=>{const _0xfac43c=_0x2f48ca;_0x5cc0af+='〔'+_0x4541e1[_0xfac43c(0x433)]+'〕\x0a'+_0x2b1f3f(_0x4541e1)+'\x0a\x0a';}),_0x3c76f9[_0x2f48ca(0x3a4)](_0x5cc0af['trim']());}if(window[_0x2f48ca(0x4bf)]){const _0x41b60a=window[_0x2f48ca(0x4bf)](_0x40fbd8,_0x53904f);_0x41b60a&&_0x3c76f9[_0x2f48ca(0x3a4)](_0x41b60a[_0x2f48ca(0x3b7)]());}return _0x3c76f9[_0x2f48ca(0x3d5)]('\x0a\x0a')[_0x2f48ca(0x3b7)]();},window['getGlobalWorldBookContext']=function(_0x1b5daa=''){const _0x18ca63=_0x557477,_0x21e5dc=[_0x18ca63(0x4c0),'before_role','after_role'],_0x557f11=_0x21e5dc[_0x18ca63(0x46e)](_0x28b6b7=>window[_0x18ca63(0x3b9)](_0x28b6b7,_0x1b5daa))[_0x18ca63(0x151)](Boolean);return _0x557f11[_0x18ca63(0x3d5)]('\x0a\x0a')[_0x18ca63(0x3b7)]();},window['imApp'][_0x557477(0x4e9)]=function(_0x460ef3=_0x557477(0x4c9),_0x518ffb=null,_0x4cf1cc=''){const _0x207f92=_0x557477,_0x49e4da=window['normalizeWorldBookEntry']?window['normalizeWorldBookEntry']:function(_0x22449b={}){const _0x5ebf6a=_0x1a00;return{'title':_0x22449b[_0x5ebf6a(0x147)]||_0x22449b['name']||_0x22449b[_0x5ebf6a(0x14d)]||_0x5ebf6a(0x312),'keyword':_0x22449b[_0x5ebf6a(0x14d)]||'','content':_0x22449b['content']||'','triggerMode':_0x22449b[_0x5ebf6a(0x3da)]===_0x5ebf6a(0x14d)?_0x5ebf6a(0x14d):_0x5ebf6a(0x414),'injectionPosition':[_0x5ebf6a(0x4c9),_0x5ebf6a(0x315),'system_depth'][_0x5ebf6a(0x300)](_0x22449b[_0x5ebf6a(0x251)])?_0x22449b[_0x5ebf6a(0x251)]:_0x5ebf6a(0x4c9),'systemDepth':Number[_0x5ebf6a(0x177)](Number(_0x22449b['systemDepth']))?Number(_0x22449b[_0x5ebf6a(0x2c6)]):0x4,'order':Number[_0x5ebf6a(0x177)](Number(_0x22449b['order']))?Number(_0x22449b['order']):0x64,'enabled':_0x22449b[_0x5ebf6a(0x4ac)]!==![]};},_0x5b8557=window[_0x207f92(0x1d0)]?window['worldBookKeywordMatched']:function(_0x504870,_0x115e68=''){const _0x2592a0=_0x207f92;if(!_0x504870||_0x504870[_0x2592a0(0x3da)]!==_0x2592a0(0x14d))return!![];const _0x1f1f02=_0x504870[_0x2592a0(0x14d)]?String(_0x504870[_0x2592a0(0x14d)])[_0x2592a0(0x3b7)]():'';if(!_0x1f1f02)return![];return String(_0x115e68||'')[_0x2592a0(0x300)](_0x1f1f02);},_0x25f95c=window[_0x207f92(0x32e)]?window[_0x207f92(0x32e)]:function(_0x3bb725){const _0x425ea9=_0x207f92,_0x5d43e0=_0x3bb725[_0x425ea9(0x147)]?String(_0x3bb725['title'])['trim']():'未命名词条',_0x1133c8=_0x3bb725[_0x425ea9(0x14d)]?String(_0x3bb725['keyword'])[_0x425ea9(0x3b7)]():'',_0x35694d=_0x3bb725[_0x425ea9(0x230)]?String(_0x3bb725['content'])[_0x425ea9(0x3b7)]():'',_0x5fe0ba=_0x3bb725[_0x425ea9(0x3da)]===_0x425ea9(0x14d)?_0x425ea9(0x1e6):'永久';let _0x243edf=_0x425ea9(0x3ff);if(_0x3bb725[_0x425ea9(0x251)]==='after_role')_0x243edf=_0x425ea9(0x3ed);if(_0x3bb725['injectionPosition']===_0x425ea9(0x4c0))_0x243edf=_0x425ea9(0x2df);let _0x4c7a6d='【'+_0x5d43e0+'】\x0a';return _0x4c7a6d+=_0x425ea9(0x22a)+_0x5fe0ba+'\x0a',_0x4c7a6d+=_0x425ea9(0x4fb)+_0x243edf+'\x0a',_0x3bb725[_0x425ea9(0x251)]==='system_depth'&&(_0x4c7a6d+='深度:\x20'+_0x3bb725[_0x425ea9(0x2c6)]+'\x0a',_0x4c7a6d+=_0x425ea9(0x335)+_0x3bb725[_0x425ea9(0x2c2)]+'\x0a'),_0x3bb725[_0x425ea9(0x3da)]===_0x425ea9(0x14d)&&_0x1133c8&&(_0x4c7a6d+=_0x425ea9(0x176)+_0x1133c8+'\x0a'),_0x35694d&&(_0x4c7a6d+=_0x425ea9(0x3d1)+_0x35694d+'\x0a'),_0x4c7a6d[_0x425ea9(0x3b7)]();},_0x439aaa={'before_role':_0x207f92(0x4c5),'after_role':_0x207f92(0x2ee),'system_depth':_0x207f92(0x21e)},_0x1bef82=[],_0x2b4762=window['getGlobalWorldBookContextByPosition']?window[_0x207f92(0x3b9)](_0x460ef3,_0x4cf1cc):'';_0x2b4762&&_0x1bef82[_0x207f92(0x3a4)](_0x2b4762['trim']());const _0x642931=_0x518ffb?window[_0x207f92(0x235)]['normalizeFriendData'](_0x518ffb):null,_0x310009=_0x642931&&Array['isArray'](_0x642931[_0x207f92(0x385)])?_0x642931[_0x207f92(0x385)][_0x207f92(0x46e)](_0x555a20=>String(_0x555a20)):[];if(_0x310009[_0x207f92(0x1a6)]>0x0&&window[_0x207f92(0x3e9)]){const _0x4fab88=window[_0x207f92(0x3e9)](),_0x2ec80c=[];Array['isArray'](_0x4fab88)&&_0x4fab88[_0x207f92(0x151)](_0x5134da=>_0x5134da&&_0x310009[_0x207f92(0x300)](String(_0x5134da['id']))&&Array[_0x207f92(0x2aa)](_0x5134da[_0x207f92(0x255)]))[_0x207f92(0x3be)](_0x16081c=>{const _0x7e730b=_0x207f92;_0x16081c[_0x7e730b(0x255)]['map'](_0x5944f0=>_0x49e4da(_0x5944f0))[_0x7e730b(0x151)](_0x37b9e0=>_0x37b9e0&&_0x37b9e0[_0x7e730b(0x4ac)]!==![])[_0x7e730b(0x151)](_0x20bb59=>_0x20bb59['injectionPosition']===_0x460ef3)[_0x7e730b(0x151)](_0x26577e=>_0x5b8557(_0x26577e,_0x4cf1cc))[_0x7e730b(0x3be)](_0x55558b=>{const _0x45642f=_0x7e730b;_0x2ec80c['push']({..._0x55558b,'__bookName':_0x16081c[_0x45642f(0x4fc)]||_0x45642f(0x3f3)});});});if(_0x2ec80c[_0x207f92(0x1a6)]>0x0){_0x2ec80c[_0x207f92(0x424)]((_0x231361,_0x434b24)=>{const _0x370451=_0x207f92;if(_0x460ef3==='system_depth'){if(_0x231361[_0x370451(0x2c6)]!==_0x434b24[_0x370451(0x2c6)])return _0x231361[_0x370451(0x2c6)]-_0x434b24[_0x370451(0x2c6)];return _0x231361[_0x370451(0x2c2)]-_0x434b24['order'];}return _0x231361[_0x370451(0x2c2)]-_0x434b24['order'];});let _0x269e0b=_0x439aaa[_0x460ef3]+':\x0a';_0x2ec80c[_0x207f92(0x3be)](_0x4bbb83=>{_0x269e0b+='〔'+_0x4bbb83['__bookName']+'〕\x0a'+_0x25f95c(_0x4bbb83)+'\x0a\x0a';}),_0x1bef82[_0x207f92(0x3a4)](_0x269e0b[_0x207f92(0x3b7)]());}}return _0x1bef82[_0x207f92(0x3d5)]('\x0a\x0a')[_0x207f92(0x3b7)]();},window[_0x557477(0x4e9)]=function(_0x3f5e72='before_role',_0x58df1e=null,_0x469232=''){const _0x51d897=_0x557477;return window['imApp'][_0x51d897(0x4e9)](_0x3f5e72,_0x58df1e,_0x469232);},window['imApp'][_0x557477(0x4e9)]=function(_0x453ac8=_0x557477(0x4c9),_0x195bd3=null,_0x41423f=''){const _0x1e9ed3=_0x557477,_0x7ba6c5=window[_0x1e9ed3(0x1e1)]?window['normalizeWorldBookEntry']:function(_0x4a4009={}){const _0x51d04d=_0x1e9ed3;return{'title':_0x4a4009[_0x51d04d(0x147)]||_0x4a4009[_0x51d04d(0x4fc)]||_0x4a4009[_0x51d04d(0x14d)]||_0x51d04d(0x312),'keyword':_0x4a4009[_0x51d04d(0x14d)]||'','content':_0x4a4009[_0x51d04d(0x230)]||'','triggerMode':_0x4a4009['triggerMode']===_0x51d04d(0x14d)?'keyword':_0x51d04d(0x414),'injectionPosition':['before_role',_0x51d04d(0x315),_0x51d04d(0x4c0)]['includes'](_0x4a4009['injectionPosition'])?_0x4a4009[_0x51d04d(0x251)]:'before_role','systemDepth':Number[_0x51d04d(0x177)](Number(_0x4a4009[_0x51d04d(0x2c6)]))?Number(_0x4a4009['systemDepth']):0x4,'order':Number[_0x51d04d(0x177)](Number(_0x4a4009[_0x51d04d(0x2c2)]))?Number(_0x4a4009[_0x51d04d(0x2c2)]):0x64,'enabled':_0x4a4009['enabled']!==![]};},_0x207051=window['worldBookKeywordMatched']?window[_0x1e9ed3(0x1d0)]:function(_0x361939,_0x18bc0e=''){const _0x590139=_0x1e9ed3;if(!_0x361939||_0x361939[_0x590139(0x3da)]!==_0x590139(0x14d))return!![];const _0x1d0a7d=_0x361939[_0x590139(0x14d)]?String(_0x361939[_0x590139(0x14d)])[_0x590139(0x3b7)]():'';if(!_0x1d0a7d)return![];return String(_0x18bc0e||'')[_0x590139(0x300)](_0x1d0a7d);},_0xecedd7=window['formatWorldBookEntryForPrompt']?window[_0x1e9ed3(0x32e)]:function(_0x251ba7){const _0x5fd27a=_0x1e9ed3,_0x2169dc=_0x251ba7[_0x5fd27a(0x147)]?String(_0x251ba7[_0x5fd27a(0x147)])['trim']():_0x5fd27a(0x312),_0x5d7825=_0x251ba7[_0x5fd27a(0x14d)]?String(_0x251ba7['keyword'])['trim']():'',_0x285fc9=_0x251ba7[_0x5fd27a(0x230)]?String(_0x251ba7['content'])[_0x5fd27a(0x3b7)]():'',_0x5e24e5=_0x251ba7[_0x5fd27a(0x3da)]===_0x5fd27a(0x14d)?_0x5fd27a(0x1e6):'永久';let _0x3abfac=_0x5fd27a(0x3ff);if(_0x251ba7[_0x5fd27a(0x251)]===_0x5fd27a(0x315))_0x3abfac=_0x5fd27a(0x3ed);if(_0x251ba7['injectionPosition']==='system_depth')_0x3abfac=_0x5fd27a(0x2df);let _0x39ffcf='【'+_0x2169dc+'】\x0a';return _0x39ffcf+=_0x5fd27a(0x22a)+_0x5e24e5+'\x0a',_0x39ffcf+=_0x5fd27a(0x4fb)+_0x3abfac+'\x0a',_0x251ba7[_0x5fd27a(0x251)]==='system_depth'&&(_0x39ffcf+=_0x5fd27a(0x330)+_0x251ba7[_0x5fd27a(0x2c6)]+'\x0a',_0x39ffcf+='顺序:\x20'+_0x251ba7['order']+'\x0a'),_0x251ba7[_0x5fd27a(0x3da)]===_0x5fd27a(0x14d)&&_0x5d7825&&(_0x39ffcf+=_0x5fd27a(0x176)+_0x5d7825+'\x0a'),_0x285fc9&&(_0x39ffcf+=_0x5fd27a(0x3d1)+_0x285fc9+'\x0a'),_0x39ffcf[_0x5fd27a(0x3b7)]();},_0x16e0a3={'before_role':'Bound\x20World\x20Book\x20/\x20绑定角色前','after_role':_0x1e9ed3(0x2ee),'system_depth':'Bound\x20World\x20Book\x20/\x20绑定系统深度'},_0x5d0167=[],_0x5ed920=window[_0x1e9ed3(0x3b9)]?window[_0x1e9ed3(0x3b9)](_0x453ac8,_0x41423f):'';_0x5ed920&&_0x5d0167[_0x1e9ed3(0x3a4)](_0x5ed920[_0x1e9ed3(0x3b7)]());const _0x1d10c1=_0x195bd3?window[_0x1e9ed3(0x235)][_0x1e9ed3(0x27a)](_0x195bd3):null,_0x197905=_0x1d10c1&&Array[_0x1e9ed3(0x2aa)](_0x1d10c1['boundBooks'])?_0x1d10c1[_0x1e9ed3(0x385)][_0x1e9ed3(0x46e)](_0x903797=>String(_0x903797)):[];if(_0x197905[_0x1e9ed3(0x1a6)]>0x0&&window[_0x1e9ed3(0x3e9)]){const _0x433db=window['getWorldBooks'](),_0x40d539=[];Array[_0x1e9ed3(0x2aa)](_0x433db)&&_0x433db[_0x1e9ed3(0x151)](_0x2dd145=>_0x2dd145&&_0x197905[_0x1e9ed3(0x300)](String(_0x2dd145['id']))&&Array[_0x1e9ed3(0x2aa)](_0x2dd145['entries']))[_0x1e9ed3(0x3be)](_0x54880a=>{const _0x5e29b7=_0x1e9ed3;_0x54880a['entries'][_0x5e29b7(0x46e)](_0x429441=>_0x7ba6c5(_0x429441))[_0x5e29b7(0x151)](_0x18134f=>_0x18134f&&_0x18134f['enabled']!==![])[_0x5e29b7(0x151)](_0x5035eb=>_0x5035eb[_0x5e29b7(0x251)]===_0x453ac8)[_0x5e29b7(0x151)](_0x497041=>_0x207051(_0x497041,_0x41423f))[_0x5e29b7(0x3be)](_0x349c76=>{const _0x4bbf6f=_0x5e29b7;_0x40d539[_0x4bbf6f(0x3a4)]({..._0x349c76,'__bookName':_0x54880a[_0x4bbf6f(0x4fc)]||_0x4bbf6f(0x3f3)});});});if(_0x40d539['length']>0x0){_0x40d539[_0x1e9ed3(0x424)]((_0x5915e7,_0x48af33)=>{const _0x4f9773=_0x1e9ed3;if(_0x453ac8===_0x4f9773(0x4c0)){if(_0x5915e7[_0x4f9773(0x2c6)]!==_0x48af33[_0x4f9773(0x2c6)])return _0x5915e7[_0x4f9773(0x2c6)]-_0x48af33[_0x4f9773(0x2c6)];return _0x5915e7[_0x4f9773(0x2c2)]-_0x48af33['order'];}return _0x5915e7[_0x4f9773(0x2c2)]-_0x48af33[_0x4f9773(0x2c2)];});let _0x56a1c6=_0x16e0a3[_0x453ac8]+':\x0a';_0x40d539[_0x1e9ed3(0x3be)](_0x35efb9=>{const _0x3da9f9=_0x1e9ed3;_0x56a1c6+='〔'+_0x35efb9[_0x3da9f9(0x433)]+'〕\x0a'+_0xecedd7(_0x35efb9)+'\x0a\x0a';}),_0x5d0167[_0x1e9ed3(0x3a4)](_0x56a1c6[_0x1e9ed3(0x3b7)]());}}return _0x5d0167[_0x1e9ed3(0x3d5)]('\x0a\x0a')[_0x1e9ed3(0x3b7)]();},window['getWorldBookContextForFriendByPosition']=function(_0x210865=_0x557477(0x4c9),_0x24ab38=null,_0x2f46ab=''){const _0x5701fa=_0x557477;return window[_0x5701fa(0x235)][_0x5701fa(0x4e9)](_0x210865,_0x24ab38,_0x2f46ab);},window[_0x557477(0x413)]=()=>window[_0x557477(0x196)][_0x557477(0x2d7)],window['addImFriend']=async function(_0xb5a563){const _0x4d7531=_0x557477,_0x9ffcf9=window[_0x4d7531(0x235)][_0x4d7531(0x27a)]({'id':Date['now'](),'type':_0xb5a563[_0x4d7531(0x467)]||'char','realName':_0xb5a563['realName']||'','nickname':_0xb5a563['nickname']||_0x4d7531(0x1eb),'signature':_0xb5a563['signature']||'No\x20Signature','persona':_0xb5a563['persona']||'','avatarUrl':_0xb5a563['avatarUrl']||null,'messages':[],'chatBg':null,'customCssEnabled':![],'customCss':'','memory':window['imApp']['createDefaultMemory']()}),_0x242093=window['imApp'][_0x4d7531(0x1ca)]?await window['imApp'][_0x4d7531(0x1ca)](()=>{const _0x11e14e=_0x4d7531;window[_0x11e14e(0x196)][_0x11e14e(0x2d7)]['push'](_0x9ffcf9);},{'friendId':_0x9ffcf9['id'],'silent':!![]}):![];if(!_0x242093){if(window['showToast'])window[_0x4d7531(0x3d7)](_0x4d7531(0x2e0));return![];}if(window['imApp'][_0x4d7531(0x4b6)])window[_0x4d7531(0x235)][_0x4d7531(0x4b6)]();if(window[_0x4d7531(0x3d7)])window[_0x4d7531(0x3d7)]('已添加好友:\x20'+_0x9ffcf9['nickname']);return!![];},window[_0x557477(0x235)]['formatTime']=function(_0x42e11a){const _0x6d5bb7=_0x557477;if(!_0x42e11a)return'';const _0x242c13=new Date(_0x42e11a),_0x1e8323=new Date(),_0x5182db=_0x242c13[_0x6d5bb7(0x3a8)]()===_0x1e8323[_0x6d5bb7(0x3a8)](),_0x1d0272=new Date(_0x1e8323);_0x1d0272[_0x6d5bb7(0x281)](_0x1e8323[_0x6d5bb7(0x24d)]()-0x1);const _0x2f8b10=_0x242c13['toDateString']()===_0x1d0272[_0x6d5bb7(0x3a8)](),_0x246d31=_0x242c13['getHours']()['toString']()['padStart'](0x2,'0'),_0xc7aa0=_0x242c13[_0x6d5bb7(0x325)]()[_0x6d5bb7(0x156)]()[_0x6d5bb7(0x2a0)](0x2,'0');if(_0x5182db)return _0x246d31+':'+_0xc7aa0;if(_0x2f8b10)return'Yesterday';return _0x242c13[_0x6d5bb7(0x33d)]()+0x1+'/'+_0x242c13[_0x6d5bb7(0x24d)]()+'\x20'+_0x246d31+':'+_0xc7aa0;},window[_0x557477(0x235)]['addMomentNotification']=async function(_0x44ea2d,_0x3ebbd1,_0x484c09,_0x58b0c0='',_0x405e7b=''){const _0x4fb954=_0x557477,_0x5b7114={'id':Date['now'](),'type':_0x44ea2d,'userId':_0x3ebbd1['id']||_0x3ebbd1[_0x4fb954(0x24a)],'userName':_0x3ebbd1[_0x4fb954(0x302)]||_0x3ebbd1[_0x4fb954(0x4fc)],'userAvatar':_0x3ebbd1[_0x4fb954(0x19a)]||_0x3ebbd1[_0x4fb954(0x2e9)],'momentId':_0x484c09,'momentImg':null,'momentText':null,'content':_0x58b0c0,'thought':_0x405e7b,'time':Date[_0x4fb954(0x3ea)](),'read':![]},_0x358175=window['imData'][_0x4fb954(0x48d)][_0x4fb954(0x421)](_0x436a4f=>_0x436a4f['id']===_0x484c09);if(_0x358175){if(_0x358175[_0x4fb954(0x486)]&&_0x358175[_0x4fb954(0x486)][_0x4fb954(0x1a6)]>0x0){const _0x20c00f=_0x358175[_0x4fb954(0x486)][0x0];_0x5b7114[_0x4fb954(0x460)]=typeof _0x20c00f===_0x4fb954(0x4c1)?_0x20c00f[_0x4fb954(0x290)]:_0x20c00f;}_0x5b7114[_0x4fb954(0x1d8)]=_0x358175[_0x4fb954(0x3c0)];}const _0x4d9bc8=Array[_0x4fb954(0x2aa)](window[_0x4fb954(0x196)]['momentMessages'])?typeof structuredClone===_0x4fb954(0x3a2)?structuredClone(window[_0x4fb954(0x196)][_0x4fb954(0x410)]):JSON[_0x4fb954(0x2d4)](JSON[_0x4fb954(0x208)](window[_0x4fb954(0x196)]['momentMessages'])):[];window[_0x4fb954(0x196)][_0x4fb954(0x410)]['unshift'](_0x5b7114);const _0x328aa9=await window[_0x4fb954(0x235)]['saveMomentMessages']({'silent':!![]});if(!_0x328aa9){window[_0x4fb954(0x196)][_0x4fb954(0x410)]=_0x4d9bc8;if(window[_0x4fb954(0x235)][_0x4fb954(0x1f0)])window[_0x4fb954(0x235)][_0x4fb954(0x1f0)]();if(window[_0x4fb954(0x3d7)])window[_0x4fb954(0x3d7)](_0x4fb954(0x1ed));return![];}if(window[_0x4fb954(0x235)][_0x4fb954(0x1f0)])window[_0x4fb954(0x235)][_0x4fb954(0x1f0)]();return!![];},window['imApp'][_0x557477(0x246)]=function(){const _0x1de192=_0x557477,_0x124f5a=typeof window[_0x1de192(0x243)]==='function'?window[_0x1de192(0x243)](_0x1de192(0x2c5)):null,_0x5e0416=_0x124f5a&&typeof _0x124f5a===_0x1de192(0x4c1)?_0x124f5a:{},_0x588427=_0x5e0416['uiState']&&typeof _0x5e0416[_0x1de192(0x205)]===_0x1de192(0x4c1)?_0x5e0416['uiState']:{};return{'cssPresets':Array[_0x1de192(0x2aa)](_0x588427[_0x1de192(0x3fe)])?_0x588427[_0x1de192(0x3fe)]:[]};},window[_0x557477(0x235)]['saveImessageUiState']=function(){const _0x29c0ad=_0x557477,_0x496351=typeof window['getAppState']===_0x29c0ad(0x3a2)?window[_0x29c0ad(0x243)](_0x29c0ad(0x2c5))||{}:{},_0x33e72a={..._0x496351,'uiState':{..._0x496351&&_0x496351[_0x29c0ad(0x205)]&&typeof _0x496351[_0x29c0ad(0x205)]==='object'?_0x496351[_0x29c0ad(0x205)]:{},'cssPresets':Array[_0x29c0ad(0x2aa)](window[_0x29c0ad(0x196)][_0x29c0ad(0x3fe)])?window[_0x29c0ad(0x196)][_0x29c0ad(0x3fe)]:[]}};if(typeof window[_0x29c0ad(0x4b9)]===_0x29c0ad(0x3a2))window[_0x29c0ad(0x4b9)]('imessage',_0x33e72a);else window[_0x29c0ad(0x179)]&&window[_0x29c0ad(0x179)]();return _0x33e72a;},window[_0x557477(0x235)]['initializeData']=async function(){const _0x5c5210=_0x557477;if(window[_0x5c5210(0x196)][_0x5c5210(0x409)])return window[_0x5c5210(0x196)];try{if(window[_0x5c5210(0x34a)]){if(window[_0x5c5210(0x4c7)]&&window[_0x5c5210(0x34a)][_0x5c5210(0x336)])try{await window[_0x5c5210(0x34a)][_0x5c5210(0x336)](),console[_0x5c5210(0x2af)](_0x5c5210(0x496));}catch(_0x244986){console[_0x5c5210(0x25f)](_0x5c5210(0x4f0),_0x244986);}finally{window[_0x5c5210(0x4c7)]=![];}const _0x20d1d4={'friends':window[_0x5c5210(0x34a)][_0x5c5210(0x3b0)]?await window[_0x5c5210(0x34a)]['loadFriends']():[],'momentsCoverUrl':window[_0x5c5210(0x34a)]['loadMomentsCoverUrl']?await window[_0x5c5210(0x34a)][_0x5c5210(0x245)]():null};window[_0x5c5210(0x196)][_0x5c5210(0x2d7)]=Array[_0x5c5210(0x2aa)](_0x20d1d4['friends'])?_0x20d1d4[_0x5c5210(0x2d7)][_0x5c5210(0x46e)](_0x3007da=>{const _0x579803=_0x5c5210,_0x4527c7=window[_0x579803(0x235)][_0x579803(0x27a)](_0x3007da);return _0x4527c7[_0x579803(0x185)]=Array[_0x579803(0x2aa)](_0x3007da[_0x579803(0x185)])?_0x3007da['messages']:[],_0x4527c7[_0x579803(0x488)]=!!_0x3007da[_0x579803(0x488)]||_0x4527c7[_0x579803(0x185)][_0x579803(0x1a6)]>0x0,_0x4527c7[_0x579803(0x1a4)]=typeof _0x3007da[_0x579803(0x1a4)]===_0x579803(0x3de)?_0x3007da['lastMessagePreview']:'',_0x4527c7[_0x579803(0x30a)]=Number(_0x3007da[_0x579803(0x30a)])||0x0,_0x4527c7['messageCount']=Number(_0x3007da[_0x579803(0x279)])||_0x4527c7[_0x579803(0x185)][_0x579803(0x1a6)]||0x0,_0x4527c7;}):[],window[_0x5c5210(0x196)][_0x5c5210(0x48d)]=[],window[_0x5c5210(0x196)][_0x5c5210(0x410)]=[],window[_0x5c5210(0x196)][_0x5c5210(0x36d)]=[],window['imData'][_0x5c5210(0x3d6)]=_0x20d1d4[_0x5c5210(0x3d6)]||null,window[_0x5c5210(0x196)][_0x5c5210(0x210)]=![],window[_0x5c5210(0x196)][_0x5c5210(0x470)]=![],window[_0x5c5210(0x196)][_0x5c5210(0x329)]=![];}else console[_0x5c5210(0x2af)](_0x5c5210(0x3fa));const _0x58f270=window[_0x5c5210(0x235)][_0x5c5210(0x246)]?window[_0x5c5210(0x235)][_0x5c5210(0x246)]():{'cssPresets':[]};window[_0x5c5210(0x196)][_0x5c5210(0x3fe)]=Array[_0x5c5210(0x2aa)](_0x58f270['cssPresets'])?_0x58f270['cssPresets']:[],window[_0x5c5210(0x196)]['ready']=!![],typeof window[_0x5c5210(0x1d5)]==='function'&&window[_0x5c5210(0x1d5)](_0x5c5210(0x2c5),_0x14b92e=>{const _0x59ba3f=_0x5c5210,_0x5c13=_0x14b92e&&typeof _0x14b92e===_0x59ba3f(0x4c1)?_0x14b92e:{},_0x5cee49=_0x5c13['meta']&&typeof _0x5c13[_0x59ba3f(0x2ea)]===_0x59ba3f(0x4c1)?_0x5c13[_0x59ba3f(0x2ea)]:{};return{..._0x5c13,'meta':{..._0x5cee49,'storageMode':'indexeddb','dataVersion':0x2,'ready':!![],'friendsCount':Array[_0x59ba3f(0x2aa)](window['imData'][_0x59ba3f(0x2d7)])?window[_0x59ba3f(0x196)][_0x59ba3f(0x2d7)][_0x59ba3f(0x1a6)]:0x0,'momentsCount':Array[_0x59ba3f(0x2aa)](window['imData']['moments'])?window[_0x59ba3f(0x196)]['moments']['length']:0x0,'stickersCount':Array[_0x59ba3f(0x2aa)](window['imData'][_0x59ba3f(0x36d)])?window[_0x59ba3f(0x196)][_0x59ba3f(0x36d)][_0x59ba3f(0x1a6)]:0x0,'lastSyncAt':Date[_0x59ba3f(0x3ea)]()}};},{'save':!![]}),document[_0x5c5210(0x34b)](new CustomEvent('imessage-data-ready'));}catch(_0x2b75df){console[_0x5c5210(0x25f)]('Failed\x20to\x20initialize\x20iMessage\x20data',_0x2b75df),window[_0x5c5210(0x196)][_0x5c5210(0x409)]=!![],document[_0x5c5210(0x34b)](new CustomEvent(_0x5c5210(0x4bd)));}return window['imData'];},window[_0x557477(0x235)][_0x557477(0x4f7)]=window[_0x557477(0x235)][_0x557477(0x403)](),window['imApp'][_0x557477(0x283)]=async function(){const _0x39499a=_0x557477;return window[_0x39499a(0x235)][_0x39499a(0x4f7)];},window[_0x557477(0x235)]['ensureMomentsReady']=async function(){const _0x1d2b4f=_0x557477;if(window[_0x1d2b4f(0x196)][_0x1d2b4f(0x210)])return Array[_0x1d2b4f(0x2aa)](window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)])?window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)]:[];if(window['imApp'][_0x1d2b4f(0x283)])await window[_0x1d2b4f(0x235)][_0x1d2b4f(0x283)]();try{const _0x167fef=window[_0x1d2b4f(0x34a)]?.[_0x1d2b4f(0x3e1)]?await window[_0x1d2b4f(0x34a)]['loadMoments']():[];window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)]=Array['isArray'](_0x167fef)?_0x167fef:[],window[_0x1d2b4f(0x196)]['momentsLoaded']=!![];}catch(_0x47f30e){console['error'](_0x1d2b4f(0x458),_0x47f30e),window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)]=Array['isArray'](window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)])?window['imData'][_0x1d2b4f(0x48d)]:[],window[_0x1d2b4f(0x196)][_0x1d2b4f(0x210)]=!![];}return window[_0x1d2b4f(0x196)][_0x1d2b4f(0x48d)];},window[_0x557477(0x235)][_0x557477(0x20c)]=async function(){const _0x108872=_0x557477;if(window[_0x108872(0x196)][_0x108872(0x470)])return Array[_0x108872(0x2aa)](window[_0x108872(0x196)][_0x108872(0x410)])?window['imData'][_0x108872(0x410)]:[];if(window[_0x108872(0x235)][_0x108872(0x283)])await window[_0x108872(0x235)][_0x108872(0x283)]();try{const _0x2ab3e7=window[_0x108872(0x34a)]?.['loadMomentMessages']?await window[_0x108872(0x34a)][_0x108872(0x4b4)]():[];window[_0x108872(0x196)][_0x108872(0x410)]=Array[_0x108872(0x2aa)](_0x2ab3e7)?_0x2ab3e7:[],window[_0x108872(0x196)][_0x108872(0x470)]=!![];}catch(_0x2804c8){console[_0x108872(0x25f)](_0x108872(0x48e),_0x2804c8),window[_0x108872(0x196)][_0x108872(0x410)]=Array[_0x108872(0x2aa)](window['imData'][_0x108872(0x410)])?window['imData'][_0x108872(0x410)]:[],window['imData']['momentMessagesLoaded']=!![];}return window['imData'][_0x108872(0x410)];},window[_0x557477(0x235)]['ensureStickersReady']=async function(){const _0x3bd39d=_0x557477;if(window[_0x3bd39d(0x196)][_0x3bd39d(0x329)])return Array[_0x3bd39d(0x2aa)](window[_0x3bd39d(0x196)]['stickers'])?window[_0x3bd39d(0x196)]['stickers']:[];if(window[_0x3bd39d(0x235)][_0x3bd39d(0x283)])await window['imApp'][_0x3bd39d(0x283)]();try{const _0x58a820=window[_0x3bd39d(0x34a)]?.[_0x3bd39d(0x291)]?await window[_0x3bd39d(0x34a)][_0x3bd39d(0x291)]():[];window['imData'][_0x3bd39d(0x36d)]=Array[_0x3bd39d(0x2aa)](_0x58a820)?_0x58a820:[],window['imData'][_0x3bd39d(0x329)]=!![];}catch(_0x325dc4){console[_0x3bd39d(0x25f)](_0x3bd39d(0x4d2),_0x325dc4),window[_0x3bd39d(0x196)][_0x3bd39d(0x36d)]=Array[_0x3bd39d(0x2aa)](window[_0x3bd39d(0x196)]['stickers'])?window['imData'][_0x3bd39d(0x36d)]:[],window[_0x3bd39d(0x196)][_0x3bd39d(0x329)]=!![];}return window[_0x3bd39d(0x196)]['stickers'];},document[_0x557477(0x505)](_0x557477(0x508),()=>{const _0x4b7f77=_0x557477;document[_0x4b7f77(0x22d)]===_0x4b7f77(0x162)&&window[_0x4b7f77(0x235)]?.[_0x4b7f77(0x463)]?.[_0x4b7f77(0x3dc)]&&window[_0x4b7f77(0x235)][_0x4b7f77(0x1ab)]({'silent':!![]});}),window['addEventListener']('pagehide',()=>{const _0xc0d728=_0x557477;window['imApp']?.[_0xc0d728(0x463)]?.[_0xc0d728(0x3dc)]&&window[_0xc0d728(0x235)][_0xc0d728(0x1ab)]({'silent':!![]});}),document[_0x557477(0x505)]('DOMContentLoaded',()=>{const _0x86ac87=_0x557477,{UI:_0x106abd,userState:_0x4495cf,apiConfig:_0x5aea77,openView:_0x2b54c5,closeView:_0x5724e5,showToast:_0x464d7c,syncUIs:_0xdc9327}=window;async function _0x1e36ff(_0x107385){return new Promise((_0x236e91,_0x20de42)=>{const _0x2e8fd5=_0x1a00;if(!_0x107385){_0x20de42(new Error(_0x2e8fd5(0x258)));return;}const _0x128594=new FileReader();_0x128594[_0x2e8fd5(0x21c)]=_0x819097=>_0x236e91(_0x819097[_0x2e8fd5(0x407)]?.['result']||null),_0x128594['onerror']=()=>_0x20de42(_0x128594[_0x2e8fd5(0x25f)]||new Error(_0x2e8fd5(0x32d))),_0x128594['readAsDataURL'](_0x107385);});}async function _0x859f4e(_0x304242){return new Promise((_0x1d29d3,_0x165b1b)=>{const _0x4f7341=_0x1a00,_0x689b7=new Image();_0x689b7['onload']=()=>_0x1d29d3(_0x689b7),_0x689b7[_0x4f7341(0x260)]=()=>_0x165b1b(new Error(_0x4f7341(0x1b4))),_0x689b7[_0x4f7341(0x290)]=_0x304242;});}function _0x3cf04e(_0x228901,_0x61b88b=_0x86ac87(0x429),_0x38741d=0.82){const _0x1a42e4=_0x86ac87;try{return _0x228901[_0x1a42e4(0x174)](_0x61b88b,_0x38741d);}catch(_0x4b6977){return _0x228901[_0x1a42e4(0x174)]();}}async function _0x347d5d(_0x5e185c,_0x3fe153={}){const _0x3e8bb3=_0x86ac87;if(!_0x5e185c)return null;const {maxWidth:maxWidth=0x438,maxHeight:maxHeight=0x438,mimeType:mimeType='image/jpeg',quality:quality=0.82}=_0x3fe153,_0x263f51=await _0x1e36ff(_0x5e185c);if(!_0x263f51)return null;const _0x5a733b=await _0x859f4e(_0x263f51),_0xa950bb=_0x5a733b[_0x3e8bb3(0x416)]||_0x5a733b[_0x3e8bb3(0x43c)]||0x0,_0x344304=_0x5a733b['naturalHeight']||_0x5a733b[_0x3e8bb3(0x321)]||0x0;if(!_0xa950bb||!_0x344304)return _0x263f51;const _0x3a8c02=Math[_0x3e8bb3(0x3ef)](0x1,maxWidth/_0xa950bb,maxHeight/_0x344304),_0x22dd01=Math['max'](0x1,Math[_0x3e8bb3(0x160)](_0xa950bb*_0x3a8c02)),_0x2d45e8=Math['max'](0x1,Math[_0x3e8bb3(0x160)](_0x344304*_0x3a8c02)),_0x38be7f=document[_0x3e8bb3(0x264)](_0x3e8bb3(0x234));_0x38be7f['width']=_0x22dd01,_0x38be7f[_0x3e8bb3(0x321)]=_0x2d45e8;const _0x179e85=_0x38be7f[_0x3e8bb3(0x1ce)]('2d');if(!_0x179e85)return _0x263f51;return _0x179e85[_0x3e8bb3(0x4f1)](_0x5a733b,0x0,0x0,_0x22dd01,_0x2d45e8),_0x3cf04e(_0x38be7f,mimeType,quality);}window[_0x86ac87(0x235)]=window[_0x86ac87(0x235)]||{},window[_0x86ac87(0x235)][_0x86ac87(0x1c9)]=_0x1e36ff,window['imApp'][_0x86ac87(0x16a)]=_0x347d5d;const _0x409af4=document[_0x86ac87(0x3db)]('custom-modal-overlay'),_0x47911e=document[_0x86ac87(0x3db)]('modal-title'),_0x2e25c0=document[_0x86ac87(0x3db)]('modal-confirm-content'),_0x581ae8=document['getElementById'](_0x86ac87(0x381)),_0x2beb90=document[_0x86ac87(0x3db)](_0x86ac87(0x2b6)),_0x2782af=document[_0x86ac87(0x3db)]('modal-input'),_0x4ac182=document[_0x86ac87(0x3db)]('modal-confirm-btn'),_0x5a44c8=document[_0x86ac87(0x3db)](_0x86ac87(0x430)),_0x591fb8=document[_0x86ac87(0x3db)](_0x86ac87(0x37e));let _0x2e2015=null,_0x70b443=null;function _0x336ff0(_0x2fe433){const _0x1d604e=_0x86ac87;if(!_0x409af4)return;_0x47911e[_0x1d604e(0x43e)]=_0x2fe433[_0x1d604e(0x147)]||'提示',_0x2e2015=_0x2fe433[_0x1d604e(0x346)],_0x70b443=_0x2fe433[_0x1d604e(0x15a)];if(_0x2fe433[_0x1d604e(0x467)]===_0x1d604e(0x2fd))_0x4ac182[_0x1d604e(0x206)]['display']='none',_0x591fb8[_0x1d604e(0x206)][_0x1d604e(0x417)]='block',_0x2e25c0[_0x1d604e(0x206)][_0x1d604e(0x417)]='none',_0x581ae8[_0x1d604e(0x206)]['display']='block',_0x2beb90[_0x1d604e(0x43e)]=_0x2fe433[_0x1d604e(0x226)]||'',_0x2782af[_0x1d604e(0x3cc)]=_0x2fe433[_0x1d604e(0x3f1)]||'',_0x2782af[_0x1d604e(0x15e)]=_0x2fe433['placeholder']||'',_0x591fb8[_0x1d604e(0x43e)]=_0x2fe433['confirmText']||'确认',_0x591fb8[_0x1d604e(0x206)][_0x1d604e(0x455)]=_0x2fe433[_0x1d604e(0x4f3)]===_0x1d604e(0x265)?_0x1d604e(0x3e5):_0x1d604e(0x462),_0x591fb8['style'][_0x1d604e(0x272)]='#fff';else{_0x4ac182[_0x1d604e(0x206)][_0x1d604e(0x417)]=_0x1d604e(0x14e),_0x591fb8[_0x1d604e(0x206)][_0x1d604e(0x417)]=_0x1d604e(0x1c5),_0x2e25c0[_0x1d604e(0x206)]['display']='block',_0x581ae8[_0x1d604e(0x206)][_0x1d604e(0x417)]='none',_0x2beb90['textContent']=_0x2fe433[_0x1d604e(0x226)]||'',_0x4ac182[_0x1d604e(0x43e)]=_0x2fe433[_0x1d604e(0x257)]||'确认';const _0x4df83a=_0x2fe433[_0x1d604e(0x4e0)]&&String(_0x2fe433[_0x1d604e(0x257)]||'')['trim']()==='删除',_0x510d89=_0x2fe433['confirmTone']===_0x1d604e(0x265);_0x4ac182['style'][_0x1d604e(0x272)]=_0x4df83a||_0x510d89?'#fff':_0x2fe433[_0x1d604e(0x4e0)]?_0x1d604e(0x426):'#2c2c2e',_0x4ac182[_0x1d604e(0x206)][_0x1d604e(0x455)]=_0x4df83a||_0x510d89?'#111':'',_0x4ac182[_0x1d604e(0x206)]['borderRadius']=_0x4df83a?'12px':'',_0x4ac182[_0x1d604e(0x206)]['fontWeight']=_0x4df83a?_0x1d604e(0x198):'';}_0x409af4[_0x1d604e(0x206)][_0x1d604e(0x417)]=_0x1d604e(0x361),void _0x409af4[_0x1d604e(0x25c)],_0x409af4[_0x1d604e(0x498)]['add']('active');const _0x210540=_0x409af4[_0x1d604e(0x220)](_0x1d604e(0x17f));if(_0x210540)_0x210540[_0x1d604e(0x206)][_0x1d604e(0x313)]=_0x1d604e(0x3b5);_0x2fe433[_0x1d604e(0x467)]===_0x1d604e(0x2fd)&&setTimeout(()=>_0x2782af['focus'](),0x12c);}function _0x54c603(_0x277a5e=!![]){const _0x177502=_0x86ac87;if(!_0x409af4)return;_0x409af4['classList'][_0x177502(0x396)](_0x177502(0x214)),setTimeout(()=>{const _0x3b7538=_0x177502;_0x409af4['style'][_0x3b7538(0x417)]=_0x3b7538(0x1c5);},0x12c),_0x277a5e&&typeof _0x70b443===_0x177502(0x3a2)&&_0x70b443(),_0x2e2015=null,_0x70b443=null;}window[_0x86ac87(0x235)][_0x86ac87(0x45d)]=_0x336ff0,window[_0x86ac87(0x235)][_0x86ac87(0x298)]=_0x54c603,window[_0x86ac87(0x45d)]=_0x336ff0,window[_0x86ac87(0x298)]=_0x54c603;if(_0x5a44c8)_0x5a44c8[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>_0x54c603(!![]));_0x4ac182&&_0x4ac182[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{if(_0x2e2015)_0x2e2015(!![]);_0x54c603(![]);});_0x591fb8&&_0x591fb8['addEventListener'](_0x86ac87(0x2b2),()=>{if(_0x2e2015)_0x2e2015(_0x2782af['value']);_0x54c603(![]);});_0x409af4&&_0x409af4[_0x86ac87(0x505)]('click',_0x52ea43=>{if(_0x52ea43['target']===_0x409af4)_0x54c603(!![]);});const _0x4f6880=document[_0x86ac87(0x3db)](_0x86ac87(0x320)),_0x3bda9c=document['getElementById']('dock-icon-imessage');_0x3bda9c&&_0x3bda9c[_0x86ac87(0x505)]('click',_0x12260a=>{const _0x50351e=_0x86ac87;if(window[_0x50351e(0x469)]||window[_0x50351e(0x1e7)]){_0x12260a[_0x50351e(0x19d)](),_0x12260a[_0x50351e(0x224)]();return;}if(_0xdc9327)_0xdc9327();_0x2b54c5(_0x4f6880);if(window[_0x50351e(0x235)][_0x50351e(0x341)])window['imApp'][_0x50351e(0x341)]();if(window['imApp']['renderFriendsList'])window[_0x50351e(0x235)][_0x50351e(0x4b6)]();if(window[_0x50351e(0x235)][_0x50351e(0x402)])window[_0x50351e(0x235)][_0x50351e(0x402)]();if(window[_0x50351e(0x235)]['updateChatsUnreadBadges'])window['imApp'][_0x50351e(0x440)]();});const _0x27b977=document['querySelector'](_0x86ac87(0x3ae));_0x27b977&&_0x27b977[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{_0x5724e5(_0x4f6880);});const _0x45c064=document[_0x86ac87(0x220)](_0x86ac87(0x41a));if(_0x45c064){const _0x350c0a=_0x45c064[_0x86ac87(0x220)](_0x86ac87(0x253)),_0x4379ae=_0x45c064[_0x86ac87(0x220)](_0x86ac87(0x359));if(_0x350c0a)_0x350c0a[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x36c23a=_0x86ac87;if(window[_0x36c23a(0x3d7)])window[_0x36c23a(0x3d7)](_0x36c23a(0x216));});if(_0x4379ae)_0x4379ae[_0x86ac87(0x505)]('click',()=>{const _0xa13e79=_0x86ac87;if(window[_0xa13e79(0x3d7)])window['showToast'](_0xa13e79(0x41b));});}function _0x149afc(){const _0x160acb=_0x86ac87,_0x5242be=document[_0x160acb(0x3db)]('stickers-view'),_0x4f23ed=document['getElementById'](_0x160acb(0x356));return _0x5242be&&_0x4f23ed&&_0x5242be[_0x160acb(0x483)]!==_0x4f23ed&&_0x4f23ed[_0x160acb(0x36c)](_0x5242be),_0x5242be;}const _0x177163=document[_0x86ac87(0x4fe)](_0x86ac87(0x1d6));_0x177163[_0x86ac87(0x3be)](_0x58077e=>{const _0x1308ae=_0x86ac87;_0x58077e[_0x1308ae(0x505)](_0x1308ae(0x2b2),async()=>{const _0xfedc27=_0x1308ae,_0x25bb79=_0x58077e[_0xfedc27(0x220)]('span')?.[_0xfedc27(0x43e)]?.[_0xfedc27(0x3b7)]()||'';if(_0x25bb79===_0xfedc27(0x44f)){try{window[_0xfedc27(0x235)]?.[_0xfedc27(0x423)]&&await window[_0xfedc27(0x235)]['ensureStickersReady']();}catch(_0x5e6fc7){console[_0xfedc27(0x25f)](_0xfedc27(0x4d2),_0x5e6fc7);if(window['showToast'])window[_0xfedc27(0x3d7)]('表情数据加载失败');}const _0x2df3b5=_0x149afc();_0x2df3b5&&window['openView']?(_0x2df3b5[_0xfedc27(0x206)][_0xfedc27(0x417)]=_0xfedc27(0x361),window[_0xfedc27(0x45c)](_0x2df3b5),typeof _0x111cf1==='function'&&_0x111cf1()):console['error'](_0xfedc27(0x4da));}else{}});});const _0x6f5a0b=_0x149afc(),_0x85266b=document[_0x86ac87(0x3db)](_0x86ac87(0x13e)),_0x40cec4=document[_0x86ac87(0x3db)]('stickers-add-btn'),_0x3f5942=document[_0x86ac87(0x3db)](_0x86ac87(0x19e)),_0x5a5db3=document[_0x86ac87(0x3db)](_0x86ac87(0x3d9)),_0x5ab6db=document['getElementById'](_0x86ac87(0x1dd)),_0x23a8d9=document[_0x86ac87(0x3db)]('sticker-category-name'),_0x31c3bb=document[_0x86ac87(0x3db)](_0x86ac87(0x2c0)),_0x6ea658=document[_0x86ac87(0x3db)]('sticker-local-upload-input'),_0x2a7bb1=document[_0x86ac87(0x3db)]('sticker-local-preview'),_0x50b33a=document['getElementById'](_0x86ac87(0x408)),_0x2b8c03=document[_0x86ac87(0x3db)](_0x86ac87(0x20a)),_0x47dd7d=document['getElementById']('sticker-manifest-upload-btn'),_0x1f87d6=document[_0x86ac87(0x3db)](_0x86ac87(0x343)),_0x10837c=document[_0x86ac87(0x3db)](_0x86ac87(0x1e4)),_0x2397df=document['getElementById'](_0x86ac87(0x192)),_0x5b4b70=document[_0x86ac87(0x3db)](_0x86ac87(0x317)),_0x365425=document[_0x86ac87(0x3db)](_0x86ac87(0x2cf)),_0x38766a=document[_0x86ac87(0x3db)]('sticker-detail-bind-btn'),_0x36f84b=document['getElementById'](_0x86ac87(0x304)),_0x3af2aa=document[_0x86ac87(0x3db)](_0x86ac87(0x1f7)),_0x5444cd=document[_0x86ac87(0x3db)]('batch-delete-toggle');let _0x179438=[],_0x3cbb54='';_0x85266b&&_0x6f5a0b&&_0x85266b[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0xf239f2=_0x86ac87;if(window[_0xf239f2(0x2be)])window[_0xf239f2(0x2be)](_0x6f5a0b);else _0x6f5a0b[_0xf239f2(0x206)]['display']=_0xf239f2(0x1c5);});_0x40cec4&&_0x40cec4[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x2789d8=_0x86ac87;if(_0x5a5db3){_0x5a5db3['style'][_0x2789d8(0x417)]='flex',void _0x5a5db3[_0x2789d8(0x25c)],_0x5a5db3[_0x2789d8(0x498)][_0x2789d8(0x15d)](_0x2789d8(0x214));const _0x5db55d=_0x5a5db3['querySelector'](_0x2789d8(0x17f));if(_0x5db55d)_0x5db55d['style'][_0x2789d8(0x313)]=_0x2789d8(0x3b5);if(_0x23a8d9)_0x23a8d9[_0x2789d8(0x3cc)]='';if(_0x50b33a)_0x50b33a['value']='';_0x2a7bb1&&(_0x2a7bb1['innerHTML']='',_0x2a7bb1[_0x2789d8(0x498)][_0x2789d8(0x396)](_0x2789d8(0x28b))),_0x179438=[];}});function _0x52bf69(){const _0xb0f290=_0x86ac87;_0x5a5db3&&(_0x5a5db3['classList']['remove'](_0xb0f290(0x214)),setTimeout(()=>{const _0x7f0c1=_0xb0f290;_0x5a5db3[_0x7f0c1(0x206)][_0x7f0c1(0x417)]=_0x7f0c1(0x1c5),_0x2a7bb1&&(_0x2a7bb1[_0x7f0c1(0x2f2)]='',_0x2a7bb1[_0x7f0c1(0x498)][_0x7f0c1(0x396)]('has-items')),_0x179438=[];},0x12c));}_0x5a5db3&&_0x5a5db3[_0x86ac87(0x505)](_0x86ac87(0x2b2),_0x411b8e=>{const _0x30ab81=_0x86ac87;if(_0x411b8e[_0x30ab81(0x407)]===_0x5a5db3)_0x52bf69();});_0x31c3bb&&_0x6ea658&&(_0x31c3bb[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0xfab9b2=_0x86ac87;_0x6ea658[_0xfab9b2(0x2b2)]();}),_0x6ea658[_0x86ac87(0x505)](_0x86ac87(0x3a7),_0x40163c=>{const _0x4b8813=_0x86ac87,_0x3ef339=_0x40163c['target'][_0x4b8813(0x4e2)];if(!_0x3ef339||_0x3ef339[_0x4b8813(0x1a6)]===0x0)return;_0x179438=[],_0x2a7bb1&&(_0x2a7bb1[_0x4b8813(0x2f2)]='',_0x2a7bb1[_0x4b8813(0x498)]['add']('has-items')),Array[_0x4b8813(0x494)](_0x3ef339)[_0x4b8813(0x3be)](async(_0x128dfe,_0x5baa8e)=>{const _0x22dbf7=_0x4b8813;try{const _0x597a20=window[_0x22dbf7(0x235)][_0x22dbf7(0x16a)]?await window[_0x22dbf7(0x235)]['compressImageFile'](_0x128dfe,{'maxWidth':0x100,'maxHeight':0x100,'mimeType':_0x22dbf7(0x429),'quality':0.8}):await window[_0x22dbf7(0x235)][_0x22dbf7(0x1c9)](_0x128dfe),_0x2cfab7=_0x128dfe['name'][_0x22dbf7(0x471)](/\.[^/.]+$/,'')||_0x22dbf7(0x357)+(_0x5baa8e+0x1),_0x94e210={'name':_0x2cfab7,'url':_0x597a20};_0x179438[_0x22dbf7(0x3a4)](_0x94e210);if(_0x2a7bb1){const _0x3005e6=document[_0x22dbf7(0x264)](_0x22dbf7(0x26e));_0x3005e6[_0x22dbf7(0x2eb)]=_0x22dbf7(0x2dc);const _0x24c87f=document['createElement'](_0x22dbf7(0x504));_0x24c87f[_0x22dbf7(0x290)]=_0x597a20,_0x24c87f[_0x22dbf7(0x2eb)]=_0x22dbf7(0x2c1);const _0x480396=document[_0x22dbf7(0x264)]('input');_0x480396[_0x22dbf7(0x467)]='text',_0x480396['value']=_0x2cfab7,_0x480396[_0x22dbf7(0x2eb)]=_0x22dbf7(0x500),_0x480396[_0x22dbf7(0x15e)]='名称',_0x480396['addEventListener'](_0x22dbf7(0x4bb),()=>{const _0x2e3807=_0x22dbf7,_0x57d242=_0x179438[_0x2e3807(0x351)](_0x38a551=>_0x38a551[_0x2e3807(0x367)]===_0x597a20);_0x57d242!==-0x1&&(_0x179438[_0x57d242][_0x2e3807(0x4fc)]=_0x480396['value']||_0x2cfab7);}),_0x3005e6[_0x22dbf7(0x36c)](_0x24c87f),_0x3005e6[_0x22dbf7(0x36c)](_0x480396),_0x2a7bb1[_0x22dbf7(0x36c)](_0x3005e6);}}catch(_0x134725){console[_0x22dbf7(0x25f)](_0x22dbf7(0x132),_0x134725);if(_0x464d7c)_0x464d7c(_0x22dbf7(0x37b));}}),_0x6ea658['value']='';}));async function _0x1535d6(_0x439eaa){const _0x2d4649=_0x86ac87,_0x1d8a22=String(_0x439eaa?.[_0x2d4649(0x4fc)]||'')[_0x2d4649(0x3a9)]();if(_0x1d8a22[_0x2d4649(0x316)](_0x2d4649(0x1b9))){if(!window['mammoth']?.[_0x2d4649(0x46d)])throw new Error(_0x2d4649(0x153));const _0x2479e8=await window['mammoth']['extractRawText']({'arrayBuffer':await _0x439eaa[_0x2d4649(0x42c)]()});return String(_0x2479e8?.[_0x2d4649(0x3cc)]||'');}return String(await _0x439eaa[_0x2d4649(0x3c0)]())[_0x2d4649(0x471)](/\u0000/g,'');}_0x47dd7d&&_0x1f87d6&&(_0x47dd7d[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>_0x1f87d6['click']()),_0x1f87d6[_0x86ac87(0x505)]('change',async()=>{const _0x23deca=_0x86ac87,_0x101fc0=_0x1f87d6['files']?.[0x0];_0x1f87d6['value']='';if(!_0x101fc0)return;const _0x83b135=String(_0x101fc0[_0x23deca(0x4fc)]||'')['toLowerCase']();if(!_0x83b135['endsWith'](_0x23deca(0x3bc))&&!_0x83b135[_0x23deca(0x316)](_0x23deca(0x46c))&&!_0x83b135[_0x23deca(0x316)](_0x23deca(0x1b9))){if(_0x464d7c)_0x464d7c(_0x23deca(0x200));return;}try{const _0x368b79=await _0x1535d6(_0x101fc0),_0x431a2d=window[_0x23deca(0x1a1)]?.['parseStickerManifestText']?window['imDataUtils'][_0x23deca(0x4d7)](_0x368b79):{'items':[],'invalidLines':[]};if(_0x431a2d[_0x23deca(0x29c)][_0x23deca(0x1a6)]===0x0){if(_0x464d7c)_0x464d7c(_0x23deca(0x4aa));return;}const _0x2b57e5=_0x431a2d['items']['map'](_0x215f65=>_0x215f65['name']+'\x20'+_0x215f65[_0x23deca(0x367)])['join']('\x0a');if(_0x50b33a){const _0x40b069=_0x50b33a[_0x23deca(0x3cc)][_0x23deca(0x3b7)]();_0x50b33a[_0x23deca(0x3cc)]=_0x40b069?_0x40b069+'\x0a'+_0x2b57e5:_0x2b57e5,_0x50b33a[_0x23deca(0x43b)]();}_0x464d7c&&_0x464d7c(_0x431a2d['invalidLines']['length']>0x0?_0x23deca(0x204)+_0x431a2d[_0x23deca(0x29c)]['length']+_0x23deca(0x3c2)+_0x431a2d[_0x23deca(0x436)][_0x23deca(0x3d5)]('、')+_0x23deca(0x2e7):_0x23deca(0x204)+_0x431a2d[_0x23deca(0x29c)][_0x23deca(0x1a6)]+_0x23deca(0x3fb));}catch(_0x38422b){console['error'](_0x23deca(0x30e),_0x38422b);if(_0x464d7c)_0x464d7c(_0x38422b?.[_0x23deca(0x226)]||'贴图清单读取失败');}}));_0x2b8c03&&_0x2b8c03[_0x86ac87(0x505)](_0x86ac87(0x2b2),async()=>{const _0x295bd9=_0x86ac87,_0x5413dd=_0x23a8d9?_0x23a8d9['value']['trim']():'';if(!_0x5413dd){if(_0x464d7c)_0x464d7c('请输入分类名称');return;}const _0x381684=window[_0x295bd9(0x1a1)]?.[_0x295bd9(0x4d7)]?window[_0x295bd9(0x1a1)][_0x295bd9(0x4d7)](_0x50b33a?.['value']||''):{'items':[],'invalidLines':[]},_0x40fa57=_0x381684['items'];if(_0x381684[_0x295bd9(0x436)][_0x295bd9(0x1a6)]>0x0){if(_0x464d7c)_0x464d7c('第\x20'+_0x381684[_0x295bd9(0x436)][_0x295bd9(0x3d5)]('、')+_0x295bd9(0x4ba));return;}const _0x500485=[..._0x179438,..._0x40fa57];if(_0x500485[_0x295bd9(0x1a6)]===0x0){if(_0x464d7c)_0x464d7c(_0x295bd9(0x32c));return;}const _0x2750f2=window['imApp']['commitStickersChange']?await window['imApp']['commitStickersChange'](()=>{const _0x52e3f0=_0x295bd9;if(!window[_0x52e3f0(0x196)][_0x52e3f0(0x36d)])window[_0x52e3f0(0x196)][_0x52e3f0(0x36d)]=[];let _0x4ef22c=window[_0x52e3f0(0x196)][_0x52e3f0(0x36d)][_0x52e3f0(0x421)](_0x44a137=>_0x44a137[_0x52e3f0(0x4be)]===_0x5413dd);_0x4ef22c?_0x4ef22c[_0x52e3f0(0x29c)]=Array[_0x52e3f0(0x2aa)](_0x4ef22c[_0x52e3f0(0x29c)])?_0x4ef22c[_0x52e3f0(0x29c)][_0x52e3f0(0x24b)](_0x500485):[..._0x500485]:window[_0x52e3f0(0x196)][_0x52e3f0(0x36d)][_0x52e3f0(0x3a4)]({'categoryName':_0x5413dd,'items':_0x500485});},{'silent':!![]}):window[_0x295bd9(0x235)]['saveStickers']?await((async()=>{const _0x3b8d42=_0x295bd9;if(!window[_0x3b8d42(0x196)][_0x3b8d42(0x36d)])window[_0x3b8d42(0x196)]['stickers']=[];let _0x440b22=window[_0x3b8d42(0x196)]['stickers'][_0x3b8d42(0x421)](_0x5c289d=>_0x5c289d[_0x3b8d42(0x4be)]===_0x5413dd);return _0x440b22?_0x440b22[_0x3b8d42(0x29c)]=Array[_0x3b8d42(0x2aa)](_0x440b22['items'])?_0x440b22['items'][_0x3b8d42(0x24b)](_0x500485):[..._0x500485]:window[_0x3b8d42(0x196)][_0x3b8d42(0x36d)][_0x3b8d42(0x3a4)]({'categoryName':_0x5413dd,'items':_0x500485}),window[_0x3b8d42(0x235)]['saveStickers']({'silent':!![]});})()):![];if(!_0x2750f2){if(_0x464d7c)_0x464d7c(_0x295bd9(0x4ed));return;}_0x111cf1(),_0x52bf69();if(_0x464d7c)_0x464d7c(_0x295bd9(0x238)+_0x500485[_0x295bd9(0x1a6)]+'\x20张表情到\x20\x22'+_0x5413dd+'\x22');});let _0x48d346=![],_0x41f91c=new Set();_0x3f5942&&_0x3f5942['addEventListener']('click',()=>{const _0x53aa98=_0x86ac87;_0x48d346=!_0x48d346,_0x41f91c['clear'](),_0x3f5942[_0x53aa98(0x2f2)]=_0x48d346?_0x53aa98(0x172):_0x53aa98(0x2b3),_0x111cf1(_0x48d346);});function _0x381204(){const _0x582c52=_0x86ac87;return(Array[_0x582c52(0x2aa)](window[_0x582c52(0x196)]['friends'])?window['imData'][_0x582c52(0x2d7)]:[])['filter'](_0x2c1c66=>_0x2c1c66&&_0x2c1c66['id']!=null&&_0x2c1c66['type']!==_0x582c52(0x477));}function _0xb81470(_0x522972){const _0x18f66c=_0x86ac87;return _0x381204()[_0x18f66c(0x151)](_0x9b5d68=>Array[_0x18f66c(0x2aa)](_0x9b5d68[_0x18f66c(0x3f6)])&&_0x9b5d68[_0x18f66c(0x3f6)]['includes'](_0x522972));}function _0x4a7bdb(_0x48dee2){const _0x3243e3=_0x86ac87,_0x4b4e90=String(_0x48dee2||'')[_0x3243e3(0x3b7)]();if(!_0x4b4e90)return;const _0x3ee4d0=_0x381204();if(_0x3ee4d0[_0x3243e3(0x1a6)]===0x0){if(_0x464d7c)_0x464d7c(_0x3243e3(0x438));return;}let _0x5981ee=document[_0x3243e3(0x3db)](_0x3243e3(0x193));!_0x5981ee&&(_0x5981ee=document[_0x3243e3(0x264)]('div'),_0x5981ee['id']=_0x3243e3(0x193),_0x5981ee[_0x3243e3(0x206)]['cssText']='position:fixed;\x20inset:0;\x20z-index:10020;\x20display:none;\x20align-items:center;\x20justify-content:center;\x20background:rgba(0,0,0,0.24);\x20padding:18px;',_0x5981ee['innerHTML']=_0x3243e3(0x4d9),document['body'][_0x3243e3(0x36c)](_0x5981ee),_0x5981ee[_0x3243e3(0x505)]('click',_0x283b58=>{const _0x23f03d=_0x3243e3;if(_0x283b58[_0x23f03d(0x407)]===_0x5981ee)_0x5981ee['style'][_0x23f03d(0x417)]=_0x23f03d(0x1c5);}),_0x5981ee['querySelector'](_0x3243e3(0x375))?.[_0x3243e3(0x505)](_0x3243e3(0x2b2),()=>{const _0x5c031c=_0x3243e3;_0x5981ee[_0x5c031c(0x206)][_0x5c031c(0x417)]=_0x5c031c(0x1c5);}),_0x5981ee['querySelector'](_0x3243e3(0x427))?.[_0x3243e3(0x505)](_0x3243e3(0x2b2),()=>{const _0x3370e4=_0x3243e3;_0x5981ee[_0x3370e4(0x206)][_0x3370e4(0x417)]=_0x3370e4(0x1c5);}));const _0x2eab75=_0x5981ee[_0x3243e3(0x220)](_0x3243e3(0x38f)),_0xfe4032=_0x5981ee['querySelector']('.sticker-bind-role-list'),_0x4053b0=_0x5981ee[_0x3243e3(0x220)](_0x3243e3(0x285));if(_0x2eab75)_0x2eab75[_0x3243e3(0x43e)]=_0x4b4e90;if(!_0xfe4032||!_0x4053b0)return;_0xfe4032[_0x3243e3(0x2f2)]='',_0x3ee4d0[_0x3243e3(0x3be)](_0x2f150d=>{const _0x214323=_0x3243e3,_0x3002b5=Array[_0x214323(0x2aa)](_0x2f150d['mountedStickers'])&&_0x2f150d[_0x214323(0x3f6)]['includes'](_0x4b4e90),_0x428390=document[_0x214323(0x264)](_0x214323(0x3f9));_0x428390[_0x214323(0x206)][_0x214323(0x49b)]=_0x214323(0x3bb),_0x428390[_0x214323(0x2f2)]=_0x214323(0x1bf)+_0x2f150d['id']+'\x22\x20'+(_0x3002b5?'checked':'')+_0x214323(0x4f6)+(_0x2f150d[_0x214323(0x19a)]?_0x214323(0x242)+_0x2f150d[_0x214323(0x19a)]+_0x214323(0x435):_0x214323(0x457)+String(_0x2f150d[_0x214323(0x302)]||_0x2f150d[_0x214323(0x42a)]||'?')[_0x214323(0x273)](0x0)+_0x214323(0x137))+_0x214323(0x4d5)+(_0x2f150d[_0x214323(0x302)]||_0x2f150d[_0x214323(0x42a)]||'Char')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0xfe4032['appendChild'](_0x428390);}),_0x4053b0[_0x3243e3(0x3c5)]=async()=>{const _0x4ba9f8=_0x3243e3,_0x3b3a05=new Set(Array['from'](_0xfe4032[_0x4ba9f8(0x4fe)]('input[type=\x22checkbox\x22]:checked'))[_0x4ba9f8(0x46e)](_0x27d915=>String(_0x27d915[_0x4ba9f8(0x263)][_0x4ba9f8(0x418)]))),_0x229d86=_0x3ee4d0[_0x4ba9f8(0x46e)](_0x44a20b=>String(_0x44a20b['id'])),_0x1b32a4=window[_0x4ba9f8(0x235)]['commitFriendsChange']?await window['imApp'][_0x4ba9f8(0x1ca)](()=>{_0x3ee4d0['forEach'](_0x17d0c8=>{const _0x223acc=_0x1a00,_0xb8fa39=_0x3b3a05[_0x223acc(0x178)](String(_0x17d0c8['id'])),_0x59e66b=Array['isArray'](_0x17d0c8[_0x223acc(0x3f6)])?_0x17d0c8['mountedStickers']:[],_0x14f336=_0x59e66b[_0x223acc(0x151)](_0x36cf67=>_0x36cf67!==_0x4b4e90);if(_0xb8fa39)_0x14f336[_0x223acc(0x3a4)](_0x4b4e90);_0x17d0c8[_0x223acc(0x3f6)]=Array[_0x223acc(0x494)](new Set(_0x14f336));});},{'silent':!![],'friendIds':_0x229d86,'metaOnly':!![]}):![];if(!_0x1b32a4){if(_0x464d7c)_0x464d7c(_0x4ba9f8(0x1f5));return;}const _0x588b84=window[_0x4ba9f8(0x196)][_0x4ba9f8(0x4a4)];if(_0x588b84&&_0x229d86[_0x4ba9f8(0x300)](String(_0x588b84['id']))){const _0x227092=(window['imData'][_0x4ba9f8(0x2d7)]||[])[_0x4ba9f8(0x421)](_0x2f4f53=>String(_0x2f4f53['id'])===String(_0x588b84['id']));if(_0x227092)window[_0x4ba9f8(0x196)][_0x4ba9f8(0x4a4)]=_0x227092;}const _0x566383=window[_0x4ba9f8(0x196)]['currentSettingsFriend'];if(_0x566383&&_0x229d86[_0x4ba9f8(0x300)](String(_0x566383['id']))){const _0x46e583=(window[_0x4ba9f8(0x196)][_0x4ba9f8(0x2d7)]||[])[_0x4ba9f8(0x421)](_0x371a40=>String(_0x371a40['id'])===String(_0x566383['id']));if(_0x46e583)window[_0x4ba9f8(0x196)]['currentSettingsFriend']=_0x46e583;}_0x5981ee['style'][_0x4ba9f8(0x417)]=_0x4ba9f8(0x1c5),_0x111cf1(!![]),window[_0x4ba9f8(0x34b)](new CustomEvent(_0x4ba9f8(0x1ba),{'detail':{'categoryName':_0x4b4e90,'boundFriendIds':Array[_0x4ba9f8(0x494)](_0x3b3a05)}}));if(_0x464d7c)_0x464d7c(_0x4ba9f8(0x22b));},_0x5981ee[_0x3243e3(0x206)][_0x3243e3(0x417)]=_0x3243e3(0x361);}function _0x3070fc(_0x132fc7){const _0x46d26e=_0x86ac87;if(!_0x5ab6db)return;_0x5ab6db['innerHTML']='';if(!_0x132fc7){_0x48d346=![],_0x41f91c[_0x46d26e(0x4b2)]();if(_0x3f5942)_0x3f5942[_0x46d26e(0x2f2)]=_0x46d26e(0x2b3);}const _0x91564=window[_0x46d26e(0x196)][_0x46d26e(0x36d)]||[];if(_0x91564[_0x46d26e(0x1a6)]===0x0){_0x5ab6db[_0x46d26e(0x2f2)]=_0x46d26e(0x136);return;}if(_0x48d346){const _0xf7f576=document[_0x46d26e(0x264)](_0x46d26e(0x26e));_0xf7f576['id']=_0x46d26e(0x16d),_0xf7f576[_0x46d26e(0x206)][_0x46d26e(0x49b)]=_0x46d26e(0x18b);const _0x3b94c4=document[_0x46d26e(0x264)](_0x46d26e(0x26e));_0x3b94c4['id']=_0x46d26e(0x334),_0x3b94c4[_0x46d26e(0x206)]['cssText']='font-size:\x2014px;\x20color:\x20#8e8e93;\x20font-weight:\x20500;',_0x3b94c4[_0x46d26e(0x43e)]='已选择\x20'+_0x41f91c[_0x46d26e(0x2fa)]+'\x20项';const _0x1d7aa4=document['createElement'](_0x46d26e(0x26e));_0x1d7aa4['id']=_0x46d26e(0x293),_0x1d7aa4[_0x46d26e(0x206)][_0x46d26e(0x49b)]='background:\x20#ff3b30;\x20color:\x20#fff;\x20padding:\x208px\x2016px;\x20border-radius:\x2020px;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20cursor:\x20pointer;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;',_0x1d7aa4['innerHTML']=_0x46d26e(0x32a),_0x1d7aa4['addEventListener'](_0x46d26e(0x2b2),async()=>{const _0x3deda2=_0x46d26e;if(_0x41f91c[_0x3deda2(0x2fa)]===0x0){if(_0x464d7c)_0x464d7c(_0x3deda2(0x3af));return;}const _0x36c1ec=Array[_0x3deda2(0x494)](_0x41f91c)[_0x3deda2(0x424)]((_0x323fb7,_0x2ea179)=>{const _0x514661=_0x3deda2,[_0x32c102,_0xb52740]=_0x323fb7[_0x514661(0x23e)]('-')[_0x514661(0x46e)](Number),[_0x245630,_0x1c7a42]=_0x2ea179[_0x514661(0x23e)]('-')[_0x514661(0x46e)](Number);if(_0x32c102!==_0x245630)return _0x245630-_0x32c102;return _0x1c7a42-_0xb52740;}),_0x113dc6=_0x36c1ec[_0x3deda2(0x1a6)],_0x7bbb03=window[_0x3deda2(0x235)][_0x3deda2(0x1d1)]?await window[_0x3deda2(0x235)][_0x3deda2(0x1d1)](()=>{const _0x2c5fb9=_0x3deda2;_0x36c1ec[_0x2c5fb9(0x3be)](_0x234f63=>{const _0x5a695e=_0x2c5fb9,[_0x5cc1d1,_0x4acbee]=_0x234f63[_0x5a695e(0x23e)]('-')[_0x5a695e(0x46e)](Number);window[_0x5a695e(0x196)][_0x5a695e(0x36d)][_0x5cc1d1]?.[_0x5a695e(0x29c)]?.[_0x4acbee]&&window[_0x5a695e(0x196)][_0x5a695e(0x36d)][_0x5cc1d1][_0x5a695e(0x29c)][_0x5a695e(0x3bf)](_0x4acbee,0x1);}),window['imData'][_0x2c5fb9(0x36d)]=(window[_0x2c5fb9(0x196)][_0x2c5fb9(0x36d)]||[])[_0x2c5fb9(0x151)](_0x24fdff=>Array[_0x2c5fb9(0x2aa)](_0x24fdff['items'])&&_0x24fdff[_0x2c5fb9(0x29c)][_0x2c5fb9(0x1a6)]>0x0);},{'silent':!![]}):window['imApp'][_0x3deda2(0x1f8)]?await((async()=>{const _0x206e56=_0x3deda2;return _0x36c1ec['forEach'](_0x14815e=>{const _0x54d077=_0x1a00,[_0x37e6fa,_0x30f160]=_0x14815e['split']('-')['map'](Number);window[_0x54d077(0x196)]['stickers'][_0x37e6fa]?.[_0x54d077(0x29c)]?.[_0x30f160]&&window['imData'][_0x54d077(0x36d)][_0x37e6fa]['items'][_0x54d077(0x3bf)](_0x30f160,0x1);}),window[_0x206e56(0x196)][_0x206e56(0x36d)]=(window[_0x206e56(0x196)]['stickers']||[])[_0x206e56(0x151)](_0x561597=>Array[_0x206e56(0x2aa)](_0x561597['items'])&&_0x561597['items'][_0x206e56(0x1a6)]>0x0),window[_0x206e56(0x235)][_0x206e56(0x1f8)]({'silent':!![]});})()):![];if(!_0x7bbb03){if(_0x464d7c)_0x464d7c(_0x3deda2(0x1c0));return;}_0x48d346=![],_0x41f91c[_0x3deda2(0x4b2)]();if(_0x3f5942)_0x3f5942[_0x3deda2(0x2f2)]=_0x3deda2(0x2b3);_0x111cf1();if(_0x464d7c)_0x464d7c(_0x3deda2(0x1df)+_0x113dc6+_0x3deda2(0x240));}),_0xf7f576[_0x46d26e(0x36c)](_0x3b94c4),_0xf7f576[_0x46d26e(0x36c)](_0x1d7aa4),_0x5ab6db['appendChild'](_0xf7f576);}_0x91564[_0x46d26e(0x3be)]((_0x3d4bf2,_0x2b63dc)=>{const _0x1ce757=_0x46d26e,_0x460b53=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x460b53[_0x1ce757(0x2eb)]=_0x1ce757(0x4b0),_0x460b53[_0x1ce757(0x206)][_0x1ce757(0x49b)]='background:\x20#fff;\x20border:\x201px\x20solid\x20#f2f2f7;\x20border-radius:\x2014px;\x20padding:\x200;\x20overflow:\x20hidden;\x20\x20display:\x20flex;\x20flex-direction:\x20column;\x20max-height:\x20350px;\x20margin-bottom:\x2012px;';const _0x378491=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x378491[_0x1ce757(0x2eb)]=_0x1ce757(0x2c8),_0x378491[_0x1ce757(0x206)][_0x1ce757(0x49b)]=_0x1ce757(0x2a1);const _0x16a665=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x16a665[_0x1ce757(0x206)][_0x1ce757(0x49b)]='display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;\x20min-width:\x2090px;';const _0x4338ab=document[_0x1ce757(0x264)](_0x1ce757(0x2ac));_0x4338ab[_0x1ce757(0x467)]='button',_0x4338ab['className']=_0x1ce757(0x497);const _0xc1894c=_0xb81470(_0x3d4bf2[_0x1ce757(0x4be)])[_0x1ce757(0x1a6)];_0x4338ab[_0x1ce757(0x2f2)]=_0x1ce757(0x43f)+(_0xc1894c||'')+'</span>',_0x4338ab[_0x1ce757(0x147)]=_0x1ce757(0x1c8),_0x4338ab[_0x1ce757(0x206)][_0x1ce757(0x49b)]=_0x1ce757(0x369),_0x4338ab[_0x1ce757(0x505)](_0x1ce757(0x2b2),_0x2422fe=>{const _0x1b43e2=_0x1ce757;_0x2422fe[_0x1b43e2(0x224)](),_0x4a7bdb(_0x3d4bf2[_0x1b43e2(0x4be)]);}),_0x16a665['appendChild'](_0x4338ab);const _0x2af6f4=document['createElement']('div');_0x2af6f4['className']=_0x1ce757(0x502),_0x2af6f4[_0x1ce757(0x43e)]=_0x3d4bf2[_0x1ce757(0x4be)],_0x2af6f4['style']['cssText']=_0x1ce757(0x2d1);const _0x361ff2=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x361ff2[_0x1ce757(0x206)][_0x1ce757(0x49b)]=_0x1ce757(0x296);const _0x406313=document[_0x1ce757(0x264)]('div');_0x406313[_0x1ce757(0x2eb)]=_0x1ce757(0x27c),_0x406313[_0x1ce757(0x2f2)]=_0x1ce757(0x42d),_0x406313['style']['cssText']=_0x1ce757(0x213),_0x406313[_0x1ce757(0x505)](_0x1ce757(0x2b2),async _0x36c710=>{const _0x1ef560=_0x1ce757;_0x36c710[_0x1ef560(0x224)]();if(confirm('删除分类\x20\x22'+_0x3d4bf2['categoryName']+_0x1ef560(0x154))){const _0x32cd04=window[_0x1ef560(0x235)][_0x1ef560(0x1d1)]?await window[_0x1ef560(0x235)][_0x1ef560(0x1d1)](()=>{const _0x3bcbb9=_0x1ef560;window['imData'][_0x3bcbb9(0x36d)]['splice'](_0x2b63dc,0x1);},{'silent':!![]}):window[_0x1ef560(0x235)][_0x1ef560(0x1f8)]?await((async()=>{const _0x24e71e=_0x1ef560;return window['imData'][_0x24e71e(0x36d)][_0x24e71e(0x3bf)](_0x2b63dc,0x1),window[_0x24e71e(0x235)][_0x24e71e(0x1f8)]({'silent':!![]});})()):![];if(!_0x32cd04){if(_0x464d7c)_0x464d7c(_0x1ef560(0x451));return;}_0x111cf1();if(_0x464d7c)_0x464d7c(_0x1ef560(0x40d)+_0x3d4bf2[_0x1ef560(0x4be)]+'\x22');}});const _0x154d0f=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x154d0f[_0x1ce757(0x2eb)]=_0x1ce757(0x4ab),_0x154d0f['style'][_0x1ce757(0x49b)]='color:\x20#8e8e93;\x20font-size:\x2013px;\x20transition:\x20transform\x200.3s;\x20padding:\x206px;',_0x154d0f['innerHTML']=_0x1ce757(0x2ca),_0x361ff2[_0x1ce757(0x36c)](_0x406313),_0x361ff2[_0x1ce757(0x36c)](_0x154d0f),_0x378491[_0x1ce757(0x36c)](_0x16a665),_0x378491[_0x1ce757(0x36c)](_0x2af6f4),_0x378491['appendChild'](_0x361ff2);const _0x315614=document[_0x1ce757(0x264)](_0x1ce757(0x26e));_0x315614[_0x1ce757(0x2eb)]=_0x1ce757(0x47d),_0x315614[_0x1ce757(0x206)][_0x1ce757(0x415)]='auto',_0x315614['style'][_0x1ce757(0x361)]='1',_0x315614['style']['minHeight']='0',_0x315614[_0x1ce757(0x206)][_0x1ce757(0x276)]='12px\x2012px\x2012px\x2012px',_0x315614['style'][_0x1ce757(0x4d1)]=_0x1ce757(0x31b);let _0x7104c3=_0x3d4bf2[_0x1ce757(0x41d)]||![];_0x7104c3?(_0x315614[_0x1ce757(0x206)]['display']='none',_0x154d0f[_0x1ce757(0x220)]('i')[_0x1ce757(0x206)][_0x1ce757(0x313)]=_0x1ce757(0x2a2),_0x406313[_0x1ce757(0x206)]['display']=_0x1ce757(0x1c5)):_0x406313[_0x1ce757(0x206)][_0x1ce757(0x417)]='flex',_0x378491['addEventListener'](_0x1ce757(0x2b2),_0x4a6e1d=>{const _0xb32c31=_0x1ce757;if(_0x4a6e1d[_0xb32c31(0x407)][_0xb32c31(0x35a)](_0xb32c31(0x3d4)))return;if(_0x4a6e1d[_0xb32c31(0x407)][_0xb32c31(0x35a)](_0xb32c31(0x268)))return;_0x7104c3=!_0x7104c3,_0x3d4bf2[_0xb32c31(0x41d)]=_0x7104c3,_0x315614[_0xb32c31(0x206)]['display']=_0x7104c3?_0xb32c31(0x1c5):_0xb32c31(0x41f),_0x154d0f[_0xb32c31(0x220)]('i')[_0xb32c31(0x206)][_0xb32c31(0x313)]=_0x7104c3?_0xb32c31(0x2a2):_0xb32c31(0x3a1),_0x406313[_0xb32c31(0x206)]['display']=_0x7104c3?_0xb32c31(0x1c5):_0xb32c31(0x361);}),_0x3d4bf2['items'][_0x1ce757(0x3be)]((_0x5a225c,_0x37af6d)=>{const _0x3b1557=_0x1ce757,_0x43e5ea=document[_0x3b1557(0x264)](_0x3b1557(0x26e));_0x43e5ea[_0x3b1557(0x2eb)]=_0x3b1557(0x453),_0x43e5ea[_0x3b1557(0x206)]['position']=_0x3b1557(0x34f);const _0x7b155b=document[_0x3b1557(0x264)]('img');_0x7b155b['src']=_0x5a225c[_0x3b1557(0x367)],_0x7b155b[_0x3b1557(0x170)]=_0x5a225c[_0x3b1557(0x4fc)],_0x7b155b[_0x3b1557(0x147)]=_0x5a225c['name'];if(_0x48d346){const _0x248644=document['createElement'](_0x3b1557(0x26e));_0x248644[_0x3b1557(0x2eb)]=_0x3b1557(0x1a2),_0x248644['dataset'][_0x3b1557(0x387)]=_0x2b63dc+'-'+_0x37af6d;const _0x4bc3b0=_0x41f91c[_0x3b1557(0x178)](_0x2b63dc+'-'+_0x37af6d);_0x248644[_0x3b1557(0x206)][_0x3b1557(0x49b)]='position:\x20absolute;\x20top:\x204px;\x20left:\x204px;\x20width:\x2022px;\x20height:\x2022px;\x20border-radius:\x2050%;\x20background:\x20'+(_0x4bc3b0?_0x3b1557(0x462):_0x3b1557(0x241))+_0x3b1557(0x47c)+(_0x4bc3b0?_0x3b1557(0x462):_0x3b1557(0x4e3))+_0x3b1557(0x183);_0x4bc3b0&&(_0x248644[_0x3b1557(0x2f2)]='<i\x20class=\x22fas\x20fa-check\x22></i>',_0x43e5ea[_0x3b1557(0x206)][_0x3b1557(0x45a)]='2px\x20solid\x20#007aff',_0x43e5ea['style'][_0x3b1557(0x197)]=_0x3b1557(0x482));const _0x257954=_0x296d97=>{const _0xcf9dfe=_0x3b1557;if(_0x296d97)_0x296d97[_0xcf9dfe(0x224)]();const _0x329a7b=_0x2b63dc+'-'+_0x37af6d;_0x41f91c[_0xcf9dfe(0x178)](_0x329a7b)?(_0x41f91c['delete'](_0x329a7b),_0x248644['innerHTML']='',_0x248644['style'][_0xcf9dfe(0x29e)]='#ccc',_0x248644[_0xcf9dfe(0x206)][_0xcf9dfe(0x455)]=_0xcf9dfe(0x241),_0x43e5ea['style'][_0xcf9dfe(0x45a)]=_0xcf9dfe(0x1c5)):(_0x41f91c[_0xcf9dfe(0x15d)](_0x329a7b),_0x248644[_0xcf9dfe(0x2f2)]='<i\x20class=\x22fas\x20fa-check\x22></i>',_0x248644['style']['borderColor']='#007aff',_0x248644[_0xcf9dfe(0x206)][_0xcf9dfe(0x455)]='#007aff',_0x43e5ea[_0xcf9dfe(0x206)][_0xcf9dfe(0x45a)]=_0xcf9dfe(0x2bd));const _0x423b54=document[_0xcf9dfe(0x3db)](_0xcf9dfe(0x334));if(_0x423b54)_0x423b54[_0xcf9dfe(0x43e)]=_0xcf9dfe(0x327)+_0x41f91c[_0xcf9dfe(0x2fa)]+'\x20项';};_0x248644['addEventListener'](_0x3b1557(0x2b2),_0x257954),_0x43e5ea['addEventListener'](_0x3b1557(0x2b2),()=>_0x257954()),_0x43e5ea[_0x3b1557(0x36c)](_0x248644);}_0x43e5ea['appendChild'](_0x7b155b);if(!_0x48d346){let _0x2c9abc;_0x43e5ea[_0x3b1557(0x505)](_0x3b1557(0x405),()=>{_0x2c9abc=setTimeout(()=>{const _0x3096f6=_0x1a00;_0x48d346=!![],_0x41f91c['add'](_0x2b63dc+'-'+_0x37af6d);if(_0x3f5942)_0x3f5942[_0x3096f6(0x2f2)]=_0x3096f6(0x172);_0x111cf1(!![]);},0x320);}),_0x43e5ea[_0x3b1557(0x505)]('touchend',()=>clearTimeout(_0x2c9abc)),_0x43e5ea[_0x3b1557(0x505)]('touchmove',()=>clearTimeout(_0x2c9abc)),_0x43e5ea[_0x3b1557(0x505)](_0x3b1557(0x378),_0x1aad7a=>{const _0x4b8ba1=_0x3b1557;_0x1aad7a[_0x4b8ba1(0x19d)](),_0x48d346=!![],_0x41f91c['add'](_0x2b63dc+'-'+_0x37af6d);if(_0x3f5942)_0x3f5942['innerHTML']=_0x4b8ba1(0x172);_0x111cf1(!![]);});}_0x315614[_0x3b1557(0x36c)](_0x43e5ea);}),_0x460b53[_0x1ce757(0x36c)](_0x378491),_0x460b53['appendChild'](_0x315614),_0x5ab6db[_0x1ce757(0x36c)](_0x460b53);});}function _0x56d4e2(){const _0x42586a=_0x86ac87;return(window[_0x42586a(0x196)][_0x42586a(0x36d)]||[])[_0x42586a(0x421)](_0x3555c6=>_0x3555c6?.[_0x42586a(0x4be)]===_0x3cbb54)||null;}function _0x1520af(){const _0x1d7793=_0x86ac87;if(!_0x365425)return;const _0x335299=_0x56d4e2();if(!_0x335299){if(_0x10837c&&window[_0x1d7793(0x2be)])window[_0x1d7793(0x2be)](_0x10837c);_0x3cbb54='';return;}const _0x28245e=Array[_0x1d7793(0x2aa)](_0x335299[_0x1d7793(0x29c)])?_0x335299[_0x1d7793(0x29c)]:[];if(_0x2397df)_0x2397df[_0x1d7793(0x43e)]=_0x335299[_0x1d7793(0x4be)]||_0x1d7793(0x33e);if(_0x5b4b70)_0x5b4b70['textContent']=_0x28245e['length']+_0x1d7793(0x247)+_0xb81470(_0x335299[_0x1d7793(0x4be)])['length']+_0x1d7793(0x459);if(_0x3af2aa)_0x3af2aa[_0x1d7793(0x162)]=!_0x48d346;const _0x4aecc7=document[_0x1d7793(0x3db)](_0x1d7793(0x334));if(_0x4aecc7)_0x4aecc7['textContent']=_0x1d7793(0x327)+_0x41f91c[_0x1d7793(0x2fa)]+'\x20项';if(_0x3f5942)_0x3f5942[_0x1d7793(0x2f2)]=_0x48d346?'<i\x20class=\x22fas\x20fa-check\x22></i>':_0x1d7793(0x2b3);_0x365425[_0x1d7793(0x2f2)]='',_0x28245e['forEach']((_0x4100ec,_0x4d898f)=>{const _0x22b332=_0x1d7793;if(!_0x4100ec?.[_0x22b332(0x367)])return;const _0x283886=document['createElement'](_0x22b332(0x2ac));_0x283886[_0x22b332(0x467)]='button',_0x283886[_0x22b332(0x2eb)]=_0x22b332(0x1ea),_0x283886[_0x22b332(0x147)]=_0x4100ec[_0x22b332(0x4fc)]||_0x22b332(0x2fb)+(_0x4d898f+0x1);const _0x15ba07=document[_0x22b332(0x264)]('img');_0x15ba07[_0x22b332(0x290)]=_0x4100ec[_0x22b332(0x367)],_0x15ba07[_0x22b332(0x170)]=_0x4100ec[_0x22b332(0x4fc)]||'',_0x283886[_0x22b332(0x36c)](_0x15ba07);if(_0x48d346){const _0x2571ed=_0x41f91c['has'](String(_0x4d898f));_0x283886['classList'][_0x22b332(0x28d)]('selected',_0x2571ed);const _0x27b8cb=document[_0x22b332(0x264)](_0x22b332(0x1e2));_0x27b8cb[_0x22b332(0x2eb)]=_0x22b332(0x1a2),_0x27b8cb['innerHTML']=_0x2571ed?_0x22b332(0x172):'',_0x283886[_0x22b332(0x36c)](_0x27b8cb),_0x283886[_0x22b332(0x505)](_0x22b332(0x2b2),()=>{const _0x5dde15=_0x22b332,_0x1399ad=String(_0x4d898f);if(_0x41f91c['has'](_0x1399ad))_0x41f91c[_0x5dde15(0x41c)](_0x1399ad);else _0x41f91c[_0x5dde15(0x15d)](_0x1399ad);_0x1520af();});}_0x365425[_0x22b332(0x36c)](_0x283886);}),_0x38766a&&(_0x38766a[_0x1d7793(0x3c5)]=()=>_0x4a7bdb(_0x335299['categoryName'])),_0x36f84b&&(_0x36f84b[_0x1d7793(0x3c5)]=async()=>{const _0x35bd18=_0x1d7793;if(!confirm(_0x35bd18(0x383)+_0x335299[_0x35bd18(0x4be)]+_0x35bd18(0x154)))return;const _0x4198f4=await window[_0x35bd18(0x235)][_0x35bd18(0x1d1)](()=>{const _0x25b77f=_0x35bd18;window[_0x25b77f(0x196)]['stickers']=(window[_0x25b77f(0x196)]['stickers']||[])[_0x25b77f(0x151)](_0x22cfe0=>_0x22cfe0!==_0x335299);},{'silent':!![]});if(!_0x4198f4){if(_0x464d7c)_0x464d7c(_0x35bd18(0x451));return;}_0x3cbb54='',_0x48d346=![],_0x41f91c[_0x35bd18(0x4b2)]();if(_0x10837c&&window[_0x35bd18(0x2be)])window[_0x35bd18(0x2be)](_0x10837c);_0x111cf1();if(_0x464d7c)_0x464d7c(_0x35bd18(0x40d)+_0x335299['categoryName']+'\x22');});}function _0x577f2b(_0x402c22){const _0x4d0a9a=_0x86ac87;_0x3cbb54=String(_0x402c22||''),_0x48d346=![],_0x41f91c[_0x4d0a9a(0x4b2)](),_0x1520af();if(_0x10837c&&window[_0x4d0a9a(0x45c)])window[_0x4d0a9a(0x45c)](_0x10837c);}function _0x111cf1(_0x2a0a55){const _0xeaa5de=_0x86ac87;if(!_0x5ab6db)return;!_0x2a0a55&&(_0x48d346=![],_0x41f91c['clear']());_0x5ab6db[_0xeaa5de(0x2f2)]='';const _0x51c2cf=Array[_0xeaa5de(0x2aa)](window[_0xeaa5de(0x196)][_0xeaa5de(0x36d)])?window['imData']['stickers']:[];if(_0x51c2cf['length']===0x0){_0x5ab6db[_0xeaa5de(0x2f2)]=_0xeaa5de(0x4a1);return;}_0x51c2cf['forEach'](_0x1e0398=>{const _0x8e1765=_0xeaa5de;if(!_0x1e0398)return;const _0x3dfafe=Array['isArray'](_0x1e0398[_0x8e1765(0x29c)])?_0x1e0398['items']:[],_0x23869d=document[_0x8e1765(0x264)](_0x8e1765(0x2ac));_0x23869d[_0x8e1765(0x467)]=_0x8e1765(0x2ac),_0x23869d['className']=_0x8e1765(0x1fd);const _0x30a496=document[_0x8e1765(0x264)]('span');_0x30a496[_0x8e1765(0x2eb)]=_0x8e1765(0x349),_0x3dfafe[_0x8e1765(0x3a3)](0x0,0x4)['forEach'](_0x10bcb9=>{const _0x1e5fc9=_0x8e1765,_0x4a90ad=document[_0x1e5fc9(0x264)](_0x1e5fc9(0x1e2));_0x4a90ad[_0x1e5fc9(0x2eb)]=_0x1e5fc9(0x4e7);if(_0x10bcb9?.[_0x1e5fc9(0x367)]){const _0x269620=document[_0x1e5fc9(0x264)](_0x1e5fc9(0x504));_0x269620['src']=_0x10bcb9['url'],_0x269620[_0x1e5fc9(0x170)]=_0x10bcb9[_0x1e5fc9(0x4fc)]||'',_0x4a90ad[_0x1e5fc9(0x36c)](_0x269620);}_0x30a496[_0x1e5fc9(0x36c)](_0x4a90ad);});while(_0x30a496['children']['length']<0x4){const _0x457407=document['createElement']('span');_0x457407[_0x8e1765(0x2eb)]=_0x8e1765(0x2f0),_0x30a496[_0x8e1765(0x36c)](_0x457407);}const _0x5973ea=document[_0x8e1765(0x264)](_0x8e1765(0x1e2));_0x5973ea[_0x8e1765(0x2eb)]='sticker-group-copy';const _0x4e1d9e=document[_0x8e1765(0x264)]('strong');_0x4e1d9e[_0x8e1765(0x43e)]=_0x1e0398[_0x8e1765(0x4be)]||_0x8e1765(0x366);const _0x3a0bb6=document[_0x8e1765(0x264)](_0x8e1765(0x1e2));_0x3a0bb6[_0x8e1765(0x43e)]=_0x3dfafe['length']+_0x8e1765(0x437)+_0xb81470(_0x1e0398[_0x8e1765(0x4be)])[_0x8e1765(0x1a6)]+'\x20位角色',_0x5973ea[_0x8e1765(0x36c)](_0x4e1d9e),_0x5973ea[_0x8e1765(0x36c)](_0x3a0bb6),_0x23869d[_0x8e1765(0x36c)](_0x30a496),_0x23869d[_0x8e1765(0x36c)](_0x5973ea),_0x23869d['addEventListener'](_0x8e1765(0x2b2),()=>_0x577f2b(_0x1e0398[_0x8e1765(0x4be)])),_0x5ab6db['appendChild'](_0x23869d);});if(_0x3cbb54&&_0x56d4e2())_0x1520af();}_0x5444cd&&_0x5444cd[_0x86ac87(0x505)](_0x86ac87(0x2b2),async()=>{const _0x2b9731=_0x86ac87,_0x16f64d=_0x56d4e2();if(!_0x16f64d||_0x41f91c[_0x2b9731(0x2fa)]===0x0){if(_0x464d7c)_0x464d7c(_0x2b9731(0x3af));return;}const _0x49d398=Array[_0x2b9731(0x494)](_0x41f91c)[_0x2b9731(0x46e)](Number)[_0x2b9731(0x424)]((_0x37baf0,_0x2a07bf)=>_0x2a07bf-_0x37baf0),_0x436c24=await window[_0x2b9731(0x235)]['commitStickersChange'](()=>{const _0x356d41=_0x2b9731;_0x49d398[_0x356d41(0x3be)](_0x56897b=>_0x16f64d['items'][_0x356d41(0x3bf)](_0x56897b,0x1)),window[_0x356d41(0x196)][_0x356d41(0x36d)]=(window[_0x356d41(0x196)][_0x356d41(0x36d)]||[])[_0x356d41(0x151)](_0x34f964=>Array[_0x356d41(0x2aa)](_0x34f964[_0x356d41(0x29c)])&&_0x34f964[_0x356d41(0x29c)]['length']>0x0);},{'silent':!![]});if(!_0x436c24){if(_0x464d7c)_0x464d7c(_0x2b9731(0x1c0));return;}_0x48d346=![],_0x41f91c['clear']();if(!_0x56d4e2()){_0x3cbb54='';if(_0x10837c&&window['closeView'])window['closeView'](_0x10837c);}_0x111cf1();if(_0x464d7c)_0x464d7c(_0x2b9731(0x1df)+_0x49d398[_0x2b9731(0x1a6)]+_0x2b9731(0x240));});_0x10837c&&_0x10837c['addEventListener']('click',_0xf9acf0=>{const _0x31571d=_0x86ac87;if(_0xf9acf0[_0x31571d(0x407)]!==_0x10837c)return;_0x48d346=![],_0x41f91c[_0x31571d(0x4b2)]();if(window[_0x31571d(0x2be)])window[_0x31571d(0x2be)](_0x10837c);});window['imApp'][_0x86ac87(0x39a)]=_0x111cf1;const _0x568c16=document[_0x86ac87(0x3db)](_0x86ac87(0x19c));_0x568c16&&_0x568c16[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x513b10=_0x86ac87;_0x568c16['parentElement'][_0x513b10(0x498)][_0x513b10(0x28d)](_0x513b10(0x41d));});const _0x129b32=document[_0x86ac87(0x3db)]('friends-toggle');_0x129b32&&_0x129b32['addEventListener'](_0x86ac87(0x2b2),()=>{const _0x2563a2=_0x86ac87;_0x129b32[_0x2563a2(0x3c6)][_0x2563a2(0x498)]['toggle'](_0x2563a2(0x41d));});const _0x4aafbf=document['getElementById']('npcs-toggle');_0x4aafbf&&_0x4aafbf[_0x86ac87(0x505)]('click',()=>{const _0x2a8083=_0x86ac87;_0x4aafbf[_0x2a8083(0x3c6)][_0x2a8083(0x498)]['toggle'](_0x2a8083(0x41d));});const _0x4a53ce=document[_0x86ac87(0x3db)](_0x86ac87(0x1c4)),_0x28ff52=document['getElementById']('nav-chats-btn'),_0x2e55bf=document[_0x86ac87(0x3db)]('nav-moments-btn'),_0xf33f14=document[_0x86ac87(0x3db)](_0x86ac87(0x391)),_0xca89c8=document['querySelector'](_0x86ac87(0x2f6)),_0x5343f3=document[_0x86ac87(0x220)](_0x86ac87(0x411)),_0x43dbd2=document[_0x86ac87(0x3db)](_0x86ac87(0x328)),_0x3979d4=document[_0x86ac87(0x3db)](_0x86ac87(0x484)),_0x25ddd4=document[_0x86ac87(0x3db)](_0x86ac87(0x2ab)),_0x287151=document[_0x86ac87(0x3db)](_0x86ac87(0x134)),_0x5c86a9=document[_0x86ac87(0x3db)]('chat-memory-schedule-modal'),_0x432e3b=document[_0x86ac87(0x3db)](_0x86ac87(0x254)),_0x4a9fb7=document[_0x86ac87(0x3db)]('chat-memory-schedule-add-modal'),_0x261fcf=document[_0x86ac87(0x3db)](_0x86ac87(0x2bc)),_0x399faa=document[_0x86ac87(0x3db)](_0x86ac87(0x256)),_0xf6f86b=document[_0x86ac87(0x3db)](_0x86ac87(0x194)),_0x2e261d=document[_0x86ac87(0x3db)](_0x86ac87(0x30d));let _0x476b5b=null,_0x414ba4=_0x86ac87(0x452);function _0x455e5a(_0x5ba8c4){const _0x365dfd=_0x86ac87;if(!_0x5ba8c4||!_0xf33f14)return;const _0x1be8ab=_0x5ba8c4[_0x365dfd(0x3c6)][_0x365dfd(0x354)](),_0x1de1ce=_0x5ba8c4[_0x365dfd(0x354)](),_0x583452=_0x1de1ce[_0x365dfd(0x150)]-_0x1be8ab[_0x365dfd(0x150)];_0xf33f14['style'][_0x365dfd(0x43c)]=_0x1de1ce['width']+'px',_0xf33f14['style'][_0x365dfd(0x150)]=_0x583452+'px';}setTimeout(()=>{const _0x17c289=_0x86ac87;if(_0x4a53ce&&_0x4a53ce[_0x17c289(0x498)][_0x17c289(0x280)](_0x17c289(0x214)))_0x455e5a(_0x4a53ce);},0x64);function _0x2454fc(){const _0x2d21fd=_0x86ac87,_0x26824c=Array['isArray'](window[_0x2d21fd(0x196)]?.[_0x2d21fd(0x2d7)])?window[_0x2d21fd(0x196)][_0x2d21fd(0x2d7)]:[];return _0x26824c[_0x2d21fd(0x151)](_0x471bbf=>_0x471bbf&&_0x471bbf[_0x2d21fd(0x467)]!==_0x2d21fd(0x477)&&_0x471bbf[_0x2d21fd(0x467)]!==_0x2d21fd(0x23d));}function _0x1acd2e(_0x4de140){const _0x3fa504=_0x86ac87;return String(_0x4de140==null?'':_0x4de140)[_0x3fa504(0x471)](/&/g,_0x3fa504(0x1af))[_0x3fa504(0x471)](/</g,'&lt;')[_0x3fa504(0x471)](/>/g,_0x3fa504(0x287))[_0x3fa504(0x471)](/"/g,_0x3fa504(0x49f))['replace'](/'/g,_0x3fa504(0x2f9));}function _0x1b5607(_0x392f96){if(!_0x392f96)return;_0x476b5b=_0x392f96['id'];}function _0xaca6d3(){const _0x17c4ff=_0x86ac87;_0x25ddd4&&_0x25ddd4['innerHTML']!==''&&_0x56c23e(_0x414ba4||_0x17c4ff(0x452));}function _0x533a46(){const _0x5539f1=_0x86ac87,_0x44b0d7=_0xf234be();if(!_0x44b0d7)return;const _0x449ba6=window[_0x5539f1(0x235)][_0x5539f1(0x27a)]?window[_0x5539f1(0x235)]['normalizeFriendData'](_0x44b0d7):_0x44b0d7;_0x44b0d7[_0x5539f1(0x133)]=_0x449ba6[_0x5539f1(0x133)]||_0x44b0d7[_0x5539f1(0x133)]||window[_0x5539f1(0x235)][_0x5539f1(0x489)]?.()||{};!_0x44b0d7[_0x5539f1(0x133)][_0x5539f1(0x171)]&&(_0x44b0d7['memory'][_0x5539f1(0x171)]=window['imApp'][_0x5539f1(0x489)]?.()[_0x5539f1(0x171)]||{'enabled':![],'sleepTime':'23:00','wakeTime':_0x5539f1(0x21d),'events':[]});const _0x3cd724=document[_0x5539f1(0x3db)]('chat-memory-schedule-enabled-toggle'),_0xe9d543=document[_0x5539f1(0x3db)]('chat-memory-schedule-sleep-text'),_0x30864e=document['getElementById']('chat-memory-schedule-wake-text'),_0x4503b0=document[_0x5539f1(0x3db)](_0x5539f1(0x1db)),_0x2ebdc7=document[_0x5539f1(0x3db)]('chat-memory-schedule-wake-picker'),_0x4e21cc=document['getElementById']('chat-memory-schedule-timeline'),_0x41621f=document[_0x5539f1(0x3db)](_0x5539f1(0x2d0)),_0x2e685e=_0x44b0d7[_0x5539f1(0x133)]['schedule'];_0x3cd724&&(_0x3cd724['checked']=!!_0x2e685e[_0x5539f1(0x4ac)],_0x3cd724[_0x5539f1(0x22c)]=async _0x2e042a=>{await window['imApp']['commitScopedFriendChange'](_0x44b0d7,_0x3d7478=>{const _0x32bb09=_0x1a00;if(!_0x3d7478[_0x32bb09(0x133)]['schedule'])_0x3d7478[_0x32bb09(0x133)][_0x32bb09(0x171)]={};_0x3d7478[_0x32bb09(0x133)][_0x32bb09(0x171)]['enabled']=_0x2e042a[_0x32bb09(0x407)][_0x32bb09(0x490)];},{'silent':!![]}),_0x533a46();});_0x41621f&&(_0x41621f[_0x5539f1(0x3c5)]=()=>{const _0x1c962a=_0x5539f1;if(_0x4a9fb7&&window[_0x1c962a(0x45c)]){const _0x647bad=document['getElementById'](_0x1c962a(0x487)),_0x3fa679=document['getElementById'](_0x1c962a(0x384)),_0x1ead69=document['getElementById'](_0x1c962a(0x382));if(_0x647bad)_0x647bad['value']='';if(_0x3fa679){const _0x2359ac=new Date();_0x2359ac['setMinutes'](_0x2359ac[_0x1c962a(0x325)]()-_0x2359ac[_0x1c962a(0x236)]()),_0x3fa679[_0x1c962a(0x3cc)]=_0x2359ac['toISOString']()['slice'](0x0,0x10);}if(_0x1ead69){const _0x356946=new Date();_0x356946['setHours'](_0x356946[_0x1c962a(0x3a6)]()+0x1),_0x356946['setMinutes'](_0x356946[_0x1c962a(0x325)]()-_0x356946[_0x1c962a(0x236)]()),_0x1ead69['value']=_0x356946[_0x1c962a(0x164)]()['slice'](0x0,0x10);}window[_0x1c962a(0x45c)](_0x4a9fb7);}});const _0x160d17=document['getElementById'](_0x5539f1(0x38a));_0x160d17&&(_0x160d17[_0x5539f1(0x3c5)]=async()=>{const _0x184f9d=_0x5539f1,_0x4027c8=document[_0x184f9d(0x3db)](_0x184f9d(0x487)),_0x481525=document['getElementById']('chat-memory-schedule-add-start'),_0x4168de=document['getElementById']('chat-memory-schedule-add-end'),_0x199aba=_0x4027c8?_0x4027c8['value'][_0x184f9d(0x3b7)]():'',_0x4ced03=_0x481525?_0x481525['value']:'',_0x5af3ce=_0x4168de?_0x4168de['value']:'';if(!_0x199aba||!_0x4ced03||!_0x5af3ce){if(window[_0x184f9d(0x3d7)])window['showToast'](_0x184f9d(0x1dc));return;}if(new Date(_0x4ced03)>=new Date(_0x5af3ce)){if(window[_0x184f9d(0x3d7)])window['showToast']('结束时间必须晚于开始时间');return;}await window['imApp'][_0x184f9d(0x3d8)](_0x44b0d7,_0xdfdee0=>{const _0x19dc51=_0x184f9d;if(!_0xdfdee0[_0x19dc51(0x133)][_0x19dc51(0x171)])_0xdfdee0['memory'][_0x19dc51(0x171)]={};if(!Array['isArray'](_0xdfdee0[_0x19dc51(0x133)][_0x19dc51(0x171)]['events']))_0xdfdee0[_0x19dc51(0x133)][_0x19dc51(0x171)][_0x19dc51(0x4c3)]=[];const _0x182a85=new Date(_0x4ced03),_0x519b9c=new Date(_0x5af3ce),_0xd6d8b8={'id':Date[_0x19dc51(0x3ea)](),'name':_0x199aba,'title':_0x199aba,'date':_0x182a85['getFullYear']()+'-'+String(_0x182a85[_0x19dc51(0x33d)]()+0x1)[_0x19dc51(0x2a0)](0x2,'0')+'-'+String(_0x182a85[_0x19dc51(0x24d)]())[_0x19dc51(0x2a0)](0x2,'0'),'startTime':String(_0x182a85[_0x19dc51(0x3a6)]())[_0x19dc51(0x2a0)](0x2,'0')+':'+String(_0x182a85[_0x19dc51(0x325)]())['padStart'](0x2,'0'),'endTime':String(_0x519b9c[_0x19dc51(0x3a6)]())[_0x19dc51(0x2a0)](0x2,'0')+':'+String(_0x519b9c[_0x19dc51(0x325)]())[_0x19dc51(0x2a0)](0x2,'0'),'rawTime':_0x4ced03,'endAt':_0x5af3ce,'source':_0x19dc51(0x1f4),'timestamp':Date[_0x19dc51(0x3ea)]()};_0xdfdee0[_0x19dc51(0x133)]['schedule'][_0x19dc51(0x4c3)][_0x19dc51(0x3a4)](window[_0x19dc51(0x1a1)]?.[_0x19dc51(0x4b3)]?window['imDataUtils'][_0x19dc51(0x4b3)](_0xd6d8b8,_0xdfdee0[_0x19dc51(0x133)][_0x19dc51(0x171)][_0x19dc51(0x4c3)]['length']):_0xd6d8b8),_0xdfdee0[_0x19dc51(0x133)][_0x19dc51(0x171)][_0x19dc51(0x4c3)][_0x19dc51(0x424)]((_0xb0e5b5,_0x2cefe7)=>new Date(_0xb0e5b5[_0x19dc51(0x24c)])-new Date(_0x2cefe7[_0x19dc51(0x24c)]));},{'silent':!![]}),_0x4a9fb7&&window['closeView']&&window[_0x184f9d(0x2be)](_0x4a9fb7),_0x533a46();});_0xe9d543&&_0x4503b0&&(_0xe9d543[_0x5539f1(0x43e)]=_0x2e685e[_0x5539f1(0x267)]||_0x5539f1(0x456),_0x4503b0['value']=_0x2e685e[_0x5539f1(0x267)]||'23:00',_0x4503b0[_0x5539f1(0x22c)]=async _0x4df734=>{const _0x2c0042=_0x5539f1;_0xe9d543[_0x2c0042(0x43e)]=_0x4df734['target']['value'],await window[_0x2c0042(0x235)][_0x2c0042(0x3d8)](_0x44b0d7,_0x5c2eb2=>{const _0x4ce9eb=_0x2c0042;if(!_0x5c2eb2[_0x4ce9eb(0x133)][_0x4ce9eb(0x171)])_0x5c2eb2[_0x4ce9eb(0x133)][_0x4ce9eb(0x171)]={};_0x5c2eb2[_0x4ce9eb(0x133)][_0x4ce9eb(0x171)][_0x4ce9eb(0x267)]=_0x4df734[_0x4ce9eb(0x407)][_0x4ce9eb(0x3cc)];},{'silent':!![]}),_0x533a46();});_0x30864e&&_0x2ebdc7&&(_0x30864e[_0x5539f1(0x43e)]=_0x2e685e[_0x5539f1(0x13d)]||'07:00',_0x2ebdc7[_0x5539f1(0x3cc)]=_0x2e685e[_0x5539f1(0x13d)]||'07:00',_0x2ebdc7[_0x5539f1(0x22c)]=async _0x1a4b58=>{const _0x2c3621=_0x5539f1;_0x30864e[_0x2c3621(0x43e)]=_0x1a4b58[_0x2c3621(0x407)]['value'],await window[_0x2c3621(0x235)][_0x2c3621(0x3d8)](_0x44b0d7,_0x262e6d=>{const _0x4b854e=_0x2c3621;if(!_0x262e6d['memory'][_0x4b854e(0x171)])_0x262e6d[_0x4b854e(0x133)]['schedule']={};_0x262e6d[_0x4b854e(0x133)][_0x4b854e(0x171)][_0x4b854e(0x13d)]=_0x1a4b58[_0x4b854e(0x407)][_0x4b854e(0x3cc)];},{'silent':!![]}),_0x533a46();});if(_0x4e21cc){const _0x50245d=_0x2e685e[_0x5539f1(0x13d)]||_0x5539f1(0x21d),_0x339568=_0x2e685e[_0x5539f1(0x267)]||_0x5539f1(0x456),_0x5f0ef6=Array[_0x5539f1(0x2aa)](_0x2e685e[_0x5539f1(0x4c3)])?_0x2e685e['events']:[];let _0x276d95='<div\x20style=\x22position:\x20absolute;\x20left:\x2024px;\x20top:\x2010px;\x20bottom:\x2010px;\x20width:\x202px;\x20background:\x20#e5e5ea;\x20z-index:\x201;\x22></div>';_0x276d95+=_0x5539f1(0x3cf)+_0x50245d+_0x5539f1(0x297),_0x5f0ef6[_0x5539f1(0x3be)](_0x36e49d=>{const _0x352281=_0x5539f1;_0x276d95+=_0x352281(0x32f)+_0x36e49d['id']+_0x352281(0x25a)+_0x1acd2e(_0x36e49d[_0x352281(0x4fc)]||_0x36e49d[_0x352281(0x147)]||_0x352281(0x3b4))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x204px;\x22>'+_0x1acd2e(_0x36e49d[_0x352281(0x1e5)]||((_0x36e49d[_0x352281(0x450)]||'')+'\x20'+(_0x36e49d['startTime']||''))[_0x352281(0x3b7)]())+_0x352281(0x42f);}),_0x276d95+=_0x5539f1(0x1f3)+_0x339568+_0x5539f1(0x2d6),_0x4e21cc['innerHTML']=_0x276d95;const _0x1e4c1b=_0x4e21cc['querySelectorAll'](_0x5539f1(0x481));_0x1e4c1b['forEach'](_0x56053d=>{const _0xa8f64e=_0x5539f1;_0x56053d[_0xa8f64e(0x505)]('click',()=>{const _0x2baa79=_0xa8f64e,_0x205b4a=_0x56053d[_0x2baa79(0x1cf)](_0x2baa79(0x186)),_0x473025=_0x5f0ef6[_0x2baa79(0x421)](_0x453c1c=>String(_0x453c1c['id'])===String(_0x205b4a));_0x473025&&window['imApp'][_0x2baa79(0x45d)]&&window[_0x2baa79(0x235)][_0x2baa79(0x45d)]({'title':'行程详情','message':_0x2baa79(0x425)+(_0x473025[_0x2baa79(0x4fc)]||_0x473025['title']||_0x2baa79(0x3b4))+_0x2baa79(0x248)+(_0x473025[_0x2baa79(0x1e5)]||((_0x473025['date']||'')+'\x20'+(_0x473025['startTime']||''))[_0x2baa79(0x3b7)]())+(_0x473025[_0x2baa79(0x4a8)]?'\x0a地点：'+_0x473025[_0x2baa79(0x4a8)]:''),'isDestructive':!![],'confirmText':'删除行程','onConfirm':async()=>{const _0x1edeed=_0x2baa79;await window[_0x1edeed(0x235)][_0x1edeed(0x3d8)](_0x44b0d7,_0x57d45d=>{const _0x1272a8=_0x1edeed;_0x57d45d[_0x1272a8(0x133)]&&_0x57d45d[_0x1272a8(0x133)][_0x1272a8(0x171)]&&Array[_0x1272a8(0x2aa)](_0x57d45d[_0x1272a8(0x133)][_0x1272a8(0x171)]['events'])&&(_0x57d45d[_0x1272a8(0x133)][_0x1272a8(0x171)][_0x1272a8(0x4c3)]=_0x57d45d['memory']['schedule'][_0x1272a8(0x4c3)]['filter'](_0x186796=>String(_0x186796['id'])!==String(_0x205b4a)));},{'silent':!![]});if(window[_0x1edeed(0x3d7)])window['showToast'](_0x1edeed(0x35d));_0x533a46();}});});});}}function _0xf234be(){const _0x290007=_0x86ac87,_0xd0eb8d=_0x2454fc();return _0xd0eb8d[_0x290007(0x421)](_0x1226fc=>String(_0x1226fc['id'])===String(_0x476b5b))||_0xd0eb8d[0x0]||null;}async function _0x46f6c0(_0x383079,_0x4fb835={}){const _0x2195ca=_0x86ac87;if(!_0x383079)return![];const _0x497567=_0xf234be();if(!_0x497567)return![];const _0x9d48fd=await window['imApp'][_0x2195ca(0x3d8)](_0x497567,_0x22d6a2=>{const _0x4e2ae4=_0x2195ca;if(!_0x22d6a2)return;_0x22d6a2[_0x4e2ae4(0x133)]=_0x22d6a2[_0x4e2ae4(0x133)]||window[_0x4e2ae4(0x235)][_0x4e2ae4(0x489)]();if(!Array[_0x4e2ae4(0x2aa)](_0x22d6a2[_0x4e2ae4(0x133)][_0x4e2ae4(0x1e8)]))_0x22d6a2[_0x4e2ae4(0x133)][_0x4e2ae4(0x1e8)]=[];const _0x2c9c6f=Array[_0x4e2ae4(0x2aa)](_0x22d6a2[_0x4e2ae4(0x133)][_0x4e2ae4(0x1e8)])?_0x22d6a2['memory'][_0x4e2ae4(0x1e8)]:[],_0x3d2de3=_0x2c9c6f['filter'](_0x548925=>String(_0x548925['id'])!==String(_0x383079['id']));_0x22d6a2[_0x4e2ae4(0x133)][_0x4e2ae4(0x1e8)]=_0x3d2de3,_0x22d6a2[_0x4e2ae4(0x133)][_0x4e2ae4(0x191)]=_0x3d2de3['reduce']((_0x521036,_0xdd58c8)=>{const _0x3a99db=_0x4e2ae4;return Math[_0x3a99db(0x219)](_0x521036,Number(_0xdd58c8?.[_0x3a99db(0x4d0)])||0x0);},0x0),window[_0x4e2ae4(0x235)][_0x4e2ae4(0x2f8)]&&window[_0x4e2ae4(0x235)][_0x4e2ae4(0x2f8)](_0x22d6a2);},{'silent':!![]});if(!_0x9d48fd)return![];return _0x4fb835['closeDetail']&&window['closeView']&&_0x287151&&window[_0x2195ca(0x2be)](_0x287151),_0x56c23e(_0x2195ca(0x452)),_0xaca6d3(),!![];}function _0x1bad72(_0x561767,_0x1d01bf={}){const _0xdcb04d=_0x86ac87,_0x5c23bf=async()=>{const _0x38dbea=_0x1a00,_0x56151a=await _0x46f6c0(_0x561767,_0x1d01bf);if(window[_0x38dbea(0x3d7)])window[_0x38dbea(0x3d7)](_0x56151a?_0x38dbea(0x1bd):_0x38dbea(0x1cd));};if(window['showCustomModal']){window[_0xdcb04d(0x45d)]({'title':_0xdcb04d(0x39e),'message':_0xdcb04d(0x3f8),'confirmText':'删除','isDestructive':!![],'onConfirm':_0x5c23bf});return;}window[_0xdcb04d(0x233)](_0xdcb04d(0x3f8))&&_0x5c23bf();}function _0x2e1468(_0x5d0030){const _0x5ce839=_0x86ac87;if(!_0x5d0030||!_0x287151||!_0x399faa)return;if(_0x261fcf)_0x261fcf[_0x5ce839(0x43e)]=_0x5d0030[_0x5ce839(0x147)]||_0x5ce839(0x142);_0x399faa[_0x5ce839(0x2f2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-label\x22>时间</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-value\x22>'+_0x1acd2e(_0x5d0030[_0x5ce839(0x1e5)]||'')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-label\x22>事件</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-value\x22>'+_0x1acd2e(_0x5d0030[_0x5ce839(0x4e8)]||'')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-label\x22>记忆点</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-entry-field-value\x22>'+_0x1acd2e(_0x5d0030[_0x5ce839(0x3e7)]||'')+_0x5ce839(0x262)+_0x1acd2e(_0x5d0030['degree']||'高')+_0x5ce839(0x21f);const _0x14a1e6=document[_0x5ce839(0x3db)](_0x5ce839(0x3ce));_0x14a1e6&&_0x14a1e6['addEventListener'](_0x5ce839(0x2b2),()=>{_0x1bad72(_0x5d0030,{'closeDetail':!![]});});if(window[_0x5ce839(0x45c)])window[_0x5ce839(0x45c)](_0x287151);}function _0x56c23e(_0x31a175){const _0x1bfe4b=_0x86ac87;if(!_0x25ddd4)return;_0x31a175=_0x31a175||_0x1bfe4b(0x452);_0x31a175===_0x1bfe4b(0x337)&&(_0x31a175=_0x1bfe4b(0x379));_0x414ba4=_0x31a175;const _0x3e71e6=_0xf234be(),_0x2ebdf6=_0x3e71e6?window[_0x1bfe4b(0x235)]['normalizeFriendData'](_0x3e71e6):null;if(_0x31a175==='deleted'){const _0x54d4e0=Array[_0x1bfe4b(0x2aa)](_0x2ebdf6?.[_0x1bfe4b(0x133)]?.['socialAccounts'])?_0x2ebdf6[_0x1bfe4b(0x133)][_0x1bfe4b(0x299)]:[];if(_0x54d4e0[_0x1bfe4b(0x1a6)]===0x0){_0x25ddd4[_0x1bfe4b(0x2f2)]=_0x1bfe4b(0x1a3);return;}_0x25ddd4['innerHTML']=_0x1bfe4b(0x39b)+_0x54d4e0[_0x1bfe4b(0x46e)](_0x5989aa=>_0x1bfe4b(0x19f)+(_0x5989aa[_0x1bfe4b(0x29d)]===_0x1bfe4b(0x2e6)?_0x1bfe4b(0x3b2):_0x5989aa['platform']===_0x1bfe4b(0x35e)?_0x1bfe4b(0x130):_0x1bfe4b(0x324))+';\x20color:#fff;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22'+(_0x5989aa[_0x1bfe4b(0x29d)]===_0x1bfe4b(0x2e6)?'fab\x20fa-youtube':_0x5989aa[_0x1bfe4b(0x29d)]===_0x1bfe4b(0x35e)?_0x1bfe4b(0x399):_0x1bfe4b(0x24f))+'\x22\x20style=\x22color:#fff;\x20font-size:15px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22display:flex;\x20flex-direction:column;\x20min-width:0;\x20flex:1;\x20gap:2px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:15px;\x20color:#111;\x20font-weight:600;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>'+_0x1acd2e(_0x5989aa[_0x1bfe4b(0x168)]||_0x5989aa[_0x1bfe4b(0x3f9)]||_0x1bfe4b(0x475))+_0x1bfe4b(0x1ac)+_0x1acd2e(_0x5989aa[_0x1bfe4b(0x367)]||'')+_0x1bfe4b(0x4c6))[_0x1bfe4b(0x3d5)]('')+_0x1bfe4b(0x1fa);return;}if(_0x31a175===_0x1bfe4b(0x289)){const _0x4ed680=Array[_0x1bfe4b(0x2aa)](_0x2ebdf6?.[_0x1bfe4b(0x133)]?.[_0x1bfe4b(0x22e)])?_0x2ebdf6[_0x1bfe4b(0x133)][_0x1bfe4b(0x22e)]:[];if(_0x4ed680['length']===0x0){_0x25ddd4[_0x1bfe4b(0x2f2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-sheet-title\x22>长期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-empty\x22>暂无长期记忆</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';return;}_0x25ddd4[_0x1bfe4b(0x2f2)]=_0x1bfe4b(0x2da)+_0x4ed680[_0x1bfe4b(0x3a3)]()[_0x1bfe4b(0x3f2)]()[_0x1bfe4b(0x46e)](_0x24a108=>_0x1bfe4b(0x18f)+_0x24a108['id']+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-memory-modal-cherished-card-title\x22>'+_0x1acd2e(_0x24a108[_0x1bfe4b(0x147)]||_0x1bfe4b(0x1b1))+_0x1bfe4b(0x49d)+_0x1acd2e(_0x24a108['createdAt']||_0x1bfe4b(0x2fc))+_0x1bfe4b(0x252))[_0x1bfe4b(0x3d5)]('')+_0x1bfe4b(0x1fa),_0x25ddd4['querySelectorAll'](_0x1bfe4b(0x479))['forEach'](_0x2105e1=>{const _0x5dda69=_0x1bfe4b;_0x2105e1[_0x5dda69(0x505)](_0x5dda69(0x2b2),()=>{const _0xc93736=_0x5dda69,_0x3dd1b0=_0x2105e1[_0xc93736(0x1cf)](_0xc93736(0x344)),_0x457fe0=_0x4ed680[_0xc93736(0x421)](_0x42c920=>String(_0x42c920['id'])===String(_0x3dd1b0));_0x457fe0&&window['imApp'][_0xc93736(0x23a)]&&window[_0xc93736(0x235)][_0xc93736(0x23a)](_0x457fe0);});});return;}if(_0x31a175!==_0x1bfe4b(0x452)){_0x25ddd4[_0x1bfe4b(0x2f2)]='';return;}const _0x1ab42b=Array[_0x1bfe4b(0x2aa)](_0x2ebdf6?.[_0x1bfe4b(0x133)]?.[_0x1bfe4b(0x1e8)])?_0x2ebdf6[_0x1bfe4b(0x133)][_0x1bfe4b(0x1e8)]:[];if(_0x1ab42b['length']===0x0){_0x25ddd4[_0x1bfe4b(0x2f2)]=_0x1bfe4b(0x195);return;}_0x25ddd4[_0x1bfe4b(0x2f2)]=_0x1bfe4b(0x48a)+_0x1ab42b[_0x1bfe4b(0x3a3)]()[_0x1bfe4b(0x3f2)]()[_0x1bfe4b(0x46e)](_0x3ce79a=>_0x1bfe4b(0x401)+_0x3ce79a['id']+_0x1bfe4b(0x4a3)+_0x1acd2e(_0x3ce79a[_0x1bfe4b(0x147)]||_0x1bfe4b(0x221))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22memory-short-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22memory-short-delete-btn\x22\x20aria-label=\x22删除已总结记录\x22\x20title=\x22删除已总结记录\x22><i\x20class=\x22fas\x20fa-trash-alt\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-right\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x1bfe4b(0x3d5)]('')+_0x1bfe4b(0x180),_0x25ddd4[_0x1bfe4b(0x4fe)](_0x1bfe4b(0x3ac))['forEach'](_0xe1da96=>{const _0x25b653=_0x1bfe4b,_0x5565f1=()=>{const _0x79af85=_0x1a00,_0x3d8bee=_0xe1da96[_0x79af85(0x1cf)](_0x79af85(0x237)),_0x5087ce=_0x1ab42b[_0x79af85(0x421)](_0x177f64=>String(_0x177f64['id'])===String(_0x3d8bee));if(_0x5087ce)_0x2e1468(_0x5087ce);};_0xe1da96[_0x25b653(0x505)](_0x25b653(0x2b2),_0x38e6ce=>{const _0x550ab1=_0x25b653,_0xc9e82a=_0x38e6ce['target']instanceof Element?_0x38e6ce[_0x550ab1(0x407)]:null;if(_0xc9e82a?.[_0x550ab1(0x35a)]('.memory-short-delete-btn'))return;_0x5565f1();}),_0xe1da96[_0x25b653(0x505)](_0x25b653(0x3c1),_0x37a7d9=>{const _0x2dc003=_0x25b653,_0x5195e0=_0x37a7d9[_0x2dc003(0x407)]instanceof Element?_0x37a7d9[_0x2dc003(0x407)]:null;if(_0x5195e0?.['closest'](_0x2dc003(0x311)))return;(_0x37a7d9['key']===_0x2dc003(0x444)||_0x37a7d9[_0x2dc003(0x387)]==='\x20')&&(_0x37a7d9['preventDefault'](),_0x5565f1());});const _0x363191=_0xe1da96['querySelector'](_0x25b653(0x311));_0x363191&&_0x363191[_0x25b653(0x505)](_0x25b653(0x2b2),_0x553430=>{const _0x31c15c=_0x25b653;_0x553430[_0x31c15c(0x19d)](),_0x553430['stopPropagation']();const _0x3776c2=_0xe1da96[_0x31c15c(0x1cf)](_0x31c15c(0x237)),_0x31c3c0=_0x1ab42b[_0x31c15c(0x421)](_0x33e700=>String(_0x33e700['id'])===String(_0x3776c2));if(_0x31c3c0)_0x1bad72(_0x31c3c0);});});}window[_0x86ac87(0x235)]['openMemoryLocationForFriend']=function(_0x2aebb5,_0x1d0c7d){const _0x2ec732=_0x86ac87,_0x2545aa=window[_0x2ec732(0x235)][_0x2ec732(0x37c)]?window[_0x2ec732(0x235)]['getFriendById'](_0x2aebb5):(window['imData'][_0x2ec732(0x2d7)]||[])[_0x2ec732(0x421)](_0x2659a2=>String(_0x2659a2['id'])===String(_0x2aebb5?.['id']??_0x2aebb5));if(!_0x2545aa)return![];_0x1b5607(_0x2545aa),_0x56c23e(_0x1d0c7d);if(_0x3979d4&&window[_0x2ec732(0x45c)])return window[_0x2ec732(0x45c)](_0x3979d4),!![];return![];},window[_0x86ac87(0x235)]['openMemoryScheduleForFriend']=function(_0xa27eaf){const _0x212213=_0x86ac87,_0xfd5eaf=window[_0x212213(0x235)][_0x212213(0x37c)]?window[_0x212213(0x235)][_0x212213(0x37c)](_0xa27eaf):(window[_0x212213(0x196)][_0x212213(0x2d7)]||[])[_0x212213(0x421)](_0x376161=>String(_0x376161['id'])===String(_0xa27eaf?.['id']??_0xa27eaf));if(!_0xfd5eaf)return![];_0x1b5607(_0xfd5eaf);if(_0x5c86a9&&window['openView'])return _0x533a46(),window['openView'](_0x5c86a9),!![];return![];},window['imApp'][_0x86ac87(0x181)]=_0xf234be,window[_0x86ac87(0x235)][_0x86ac87(0x3bd)]=function(_0x27382f){const _0x585f1f=_0x86ac87;_0x56c23e(_0x27382f||_0x414ba4||_0x585f1f(0x452));};_0xf6f86b&&_0x287151&&_0xf6f86b[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x4359d8=_0x86ac87;if(window[_0x4359d8(0x2be)])window[_0x4359d8(0x2be)](_0x287151);});_0x432e3b&&_0x5c86a9&&_0x432e3b[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x3dcaa2=_0x86ac87;if(window[_0x3dcaa2(0x2be)])window['closeView'](_0x5c86a9);});window[_0x86ac87(0x235)][_0x86ac87(0x347)]=_0xaca6d3;function _0x271cfa(){const _0xd2f1e0=_0x86ac87;if(_0x5343f3)_0x5343f3[_0xd2f1e0(0x206)]['display']=_0xd2f1e0(0x1c5);if(_0x43dbd2)_0x43dbd2[_0xd2f1e0(0x206)]['display']=_0xd2f1e0(0x1c5);if(_0x2e261d)_0x2e261d[_0xd2f1e0(0x206)]['display']='none';if(_0x4a53ce)_0x4a53ce[_0xd2f1e0(0x498)]['remove'](_0xd2f1e0(0x214));if(_0x28ff52)_0x28ff52['classList'][_0xd2f1e0(0x396)]('active');if(_0x2e55bf)_0x2e55bf[_0xd2f1e0(0x498)][_0xd2f1e0(0x396)](_0xd2f1e0(0x214));const _0x1eac25=document[_0xd2f1e0(0x220)](_0xd2f1e0(0x41a));if(_0x1eac25)_0x1eac25['style']['display']='flex';}_0x4a53ce&&_0x4a53ce['addEventListener'](_0x86ac87(0x2b2),()=>{const _0x1cfbbe=_0x86ac87;_0x271cfa();if(_0x5343f3)_0x5343f3[_0x1cfbbe(0x206)]['display']=_0x1cfbbe(0x14e);if(_0xca89c8)_0xca89c8['style'][_0x1cfbbe(0x417)]='flex';_0x4a53ce['classList'][_0x1cfbbe(0x15d)](_0x1cfbbe(0x214)),_0x455e5a(_0x4a53ce);if(window[_0x1cfbbe(0x235)][_0x1cfbbe(0x4b6)])window['imApp']['renderFriendsList']();if(window['imApp'][_0x1cfbbe(0x402)])window[_0x1cfbbe(0x235)]['renderGroupsList']();}),_0x28ff52&&_0x28ff52[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x1f3e76=_0x86ac87;_0x271cfa();if(_0x43dbd2){_0x43dbd2[_0x1f3e76(0x206)][_0x1f3e76(0x417)]=_0x1f3e76(0x361),_0x43dbd2[_0x1f3e76(0x206)][_0x1f3e76(0x355)]=_0x1f3e76(0x16e);if(window['imApp']['updateChatsView'])window['imApp'][_0x1f3e76(0x261)]();}_0x28ff52[_0x1f3e76(0x498)][_0x1f3e76(0x15d)](_0x1f3e76(0x214)),_0x455e5a(_0x28ff52);if(window[_0x1f3e76(0x235)][_0x1f3e76(0x440)])window[_0x1f3e76(0x235)]['updateChatsUnreadBadges']();}),_0x2e55bf&&_0x2e55bf[_0x86ac87(0x505)](_0x86ac87(0x2b2),()=>{const _0x5ec7ff=_0x86ac87;_0x271cfa();if(_0x2e261d){_0x2e261d[_0x5ec7ff(0x206)][_0x5ec7ff(0x417)]='flex',_0x2e261d[_0x5ec7ff(0x206)][_0x5ec7ff(0x355)]=_0x5ec7ff(0x16e);if(window[_0x5ec7ff(0x235)][_0x5ec7ff(0x184)])window['imApp'][_0x5ec7ff(0x184)]();if(_0xca89c8)_0xca89c8['style'][_0x5ec7ff(0x417)]=_0x5ec7ff(0x361);const _0x4fb7ab=document[_0x5ec7ff(0x220)](_0x5ec7ff(0x41a));if(_0x4fb7ab)_0x4fb7ab[_0x5ec7ff(0x206)][_0x5ec7ff(0x417)]=_0x5ec7ff(0x1c5);}_0x2e55bf[_0x5ec7ff(0x498)]['add'](_0x5ec7ff(0x214)),_0x455e5a(_0x2e55bf);if(window[_0x5ec7ff(0x235)]['updateChatsUnreadBadges'])window[_0x5ec7ff(0x235)][_0x5ec7ff(0x440)]();}),setTimeout(()=>{const _0x4b6a79=_0x86ac87;if(window['imApp'][_0x4b6a79(0x2e8)])window[_0x4b6a79(0x235)]['applyAllSavedCss']();},0x64);}));
+// ==========================================
+// IMESSAGE: DATA, STATE, CORE SYSTEM & NAVIGATION
+// ==========================================
+
+window.imData = {
+    friends: [],
+    moments: [],
+    momentMessages: [],
+    currentActiveFriend: null,
+    currentSettingsFriend: null,
+    currentDetailMoment: null,
+    currentOpenUserId: 'me',
+    pendingImages: [],
+    isPublishing: false,
+    currentEditImageIndex: -1,
+    cssPresets: [],
+    tempSelectedBookIds: [],
+    tempRelationshipDrafts: [],
+    isRelationshipPickerVisible: false,
+    longPressTimer: null,
+    currentActiveRow: null,
+    stickers: [],
+    momentsCoverUrl: null,
+    profilePanelUiStateByFriendId: {},
+    ready: false,
+    momentsLoaded: false,
+    momentMessagesLoaded: false,
+    stickersLoaded: false
+};
+
+window.imApp = window.imApp || {};
+
+window.imApp.scopeUserCss = function(css, scope) {
+    if (!css || !scope) return '';
+
+    function findMatchingBrace(text, openIndex) {
+        let depth = 0;
+        let quote = null;
+        let inComment = false;
+
+        for (let i = openIndex; i < text.length; i += 1) {
+            const char = text[i];
+            const next = text[i + 1];
+
+            if (inComment) {
+                if (char === '*' && next === '/') {
+                    inComment = false;
+                    i += 1;
+                }
+                continue;
+            }
+
+            if (quote) {
+                if (char === '\\') {
+                    i += 1;
+                } else if (char === quote) {
+                    quote = null;
+                }
+                continue;
+            }
+
+            if (char === '/' && next === '*') {
+                inComment = true;
+                i += 1;
+                continue;
+            }
+
+            if (char === '"' || char === "'") {
+                quote = char;
+                continue;
+            }
+
+            if (char === '{') depth += 1;
+            if (char === '}') {
+                depth -= 1;
+                if (depth === 0) return i;
+            }
+        }
+
+        return -1;
+    }
+
+    function splitSelectorList(selectorText) {
+        const selectors = [];
+        let current = '';
+        let squareDepth = 0;
+        let parenDepth = 0;
+        let quote = null;
+
+        for (let i = 0; i < selectorText.length; i += 1) {
+            const char = selectorText[i];
+
+            if (quote) {
+                current += char;
+                if (char === '\\') {
+                    i += 1;
+                    current += selectorText[i] || '';
+                } else if (char === quote) {
+                    quote = null;
+                }
+                continue;
+            }
+
+            if (char === '"' || char === "'") {
+                quote = char;
+                current += char;
+                continue;
+            }
+
+            if (char === '[') squareDepth += 1;
+            if (char === ']') squareDepth = Math.max(0, squareDepth - 1);
+            if (char === '(') parenDepth += 1;
+            if (char === ')') parenDepth = Math.max(0, parenDepth - 1);
+
+            if (char === ',' && squareDepth === 0 && parenDepth === 0) {
+                selectors.push(current.trim());
+                current = '';
+            } else {
+                current += char;
+            }
+        }
+
+        if (current.trim()) selectors.push(current.trim());
+        return selectors;
+    }
+
+    function scopeSelector(selector) {
+        const trimmed = selector.trim();
+        if (!trimmed) return trimmed;
+        if (trimmed.includes(':scope')) return trimmed.replace(/:scope/g, scope);
+        if (trimmed === ':root' || trimmed === 'html' || trimmed === 'body') return scope;
+        if (trimmed.startsWith(scope)) return trimmed;
+        return `${scope} ${trimmed}`;
+    }
+
+    function scopeRules(text) {
+        let output = '';
+        let cursor = 0;
+
+        while (cursor < text.length) {
+            const openIndex = text.indexOf('{', cursor);
+            if (openIndex === -1) {
+                output += text.slice(cursor);
+                break;
+            }
+
+            const prelude = text.slice(cursor, openIndex);
+            const trimmedPrelude = prelude.trim();
+            const closeIndex = findMatchingBrace(text, openIndex);
+
+            if (closeIndex === -1) {
+                output += text.slice(cursor);
+                break;
+            }
+
+            const body = text.slice(openIndex + 1, closeIndex);
+            const lowerPrelude = trimmedPrelude.toLowerCase();
+
+            if (!trimmedPrelude) {
+                output += text.slice(cursor, closeIndex + 1);
+            } else if (
+                lowerPrelude.startsWith('@media') ||
+                lowerPrelude.startsWith('@supports') ||
+                lowerPrelude.startsWith('@container') ||
+                lowerPrelude.startsWith('@layer')
+            ) {
+                output += `${prelude}{${scopeRules(body)}}`;
+            } else if (
+                lowerPrelude.startsWith('@keyframes') ||
+                lowerPrelude.startsWith('@-webkit-keyframes') ||
+                lowerPrelude.startsWith('@font-face') ||
+                lowerPrelude.startsWith('@property') ||
+                lowerPrelude.startsWith('@page')
+            ) {
+                output += text.slice(cursor, closeIndex + 1);
+            } else if (trimmedPrelude.startsWith('@')) {
+                output += text.slice(cursor, closeIndex + 1);
+            } else {
+                const leadingWhitespace = prelude.match(/^\s*/)?.[0] || '';
+                const scopedPrelude = splitSelectorList(trimmedPrelude).map(scopeSelector).join(', ');
+                output += `${leadingWhitespace}${scopedPrelude}{${body}}`;
+            }
+
+            cursor = closeIndex + 1;
+        }
+
+        return output;
+    }
+
+    return scopeRules(String(css));
+};
+
+window.imApp.applyGlobalChatCss = function(themeState = window.u2ThemeState || {}) {
+    const styleId = 'global-imessage-chat-css';
+    let styleTag = document.getElementById(styleId);
+
+    if (!styleTag) {
+        styleTag = document.createElement('style');
+        styleTag.id = styleId;
+        document.head.appendChild(styleTag);
+    }
+
+    const enabled = !!themeState.imessageChatCssEnabled;
+    const css = typeof themeState.imessageChatCss === 'string' ? themeState.imessageChatCss : '';
+    styleTag.textContent = enabled && css.trim()
+        ? window.imApp.scopeUserCss(css, '.active-chat-interface.im-chat-single')
+        : '';
+};
+
+window.imApp.createDefaultAutonomousTask = function() {
+    return {
+        enabled: false,
+        minIntervalMinutes: 30,
+        maxIntervalMinutes: 240,
+        nextRunAt: 0,
+        lastRunAt: 0
+    };
+};
+
+window.imApp.normalizeAutonomousTask = function(task) {
+    const defaultTask = window.imApp.createDefaultAutonomousTask();
+    const source = task && typeof task === 'object' ? task : {};
+    const minInterval = Number(source.minIntervalMinutes);
+    const maxInterval = Number(source.maxIntervalMinutes);
+    const normalizedMin = Number.isFinite(minInterval)
+        ? Math.max(1, Math.round(minInterval))
+        : defaultTask.minIntervalMinutes;
+    const normalizedMax = Number.isFinite(maxInterval)
+        ? Math.max(normalizedMin, Math.round(maxInterval))
+        : Math.max(normalizedMin, defaultTask.maxIntervalMinutes);
+
+    return {
+        enabled: !!source.enabled,
+        minIntervalMinutes: normalizedMin,
+        maxIntervalMinutes: normalizedMax,
+        nextRunAt: Math.max(0, Number(source.nextRunAt) || defaultTask.nextRunAt),
+        lastRunAt: Math.max(0, Number(source.lastRunAt) || defaultTask.lastRunAt)
+    };
+};
+
+window.imApp.createDefaultAutonomousActivity = function() {
+    return {
+        reply: window.imApp.createDefaultAutonomousTask(),
+        moment: window.imApp.createDefaultAutonomousTask()
+    };
+};
+
+window.imApp.normalizeAutonomousActivity = function(activity) {
+    const source = activity && typeof activity === 'object' ? activity : {};
+    const hasNestedTasks = source.reply && typeof source.reply === 'object'
+        || source.moment && typeof source.moment === 'object';
+    const legacyReplySource = hasNestedTasks ? source.reply : source;
+
+    return {
+        reply: window.imApp.normalizeAutonomousTask(legacyReplySource),
+        moment: window.imApp.normalizeAutonomousTask(source.moment)
+    };
+};
+
+window.imApp.createDefaultMemory = function() {
+    return {
+        overview: '',
+        anniversaries: '',
+        context: { enabled: true, limit: 80, notes: '' },
+        summary: { enabled: false, limit: 80, roundLimit: 30, prompt: '' },
+        autonomous: window.imApp.createDefaultAutonomousActivity(),
+        longTerm: '',
+        shortTermEntries: [],
+        cherished: '',
+        longTermEntries: [],
+        cherishedEntries: [],
+        relationships: [],
+        socialAccounts: [],
+        schedule: { enabled: false, sleepTime: '23:00', wakeTime: '07:00', events: [] },
+        lastSummaryMessageCount: 0,
+        mountSettings: {},
+        mountLimits: {}
+    };
+};
+
+window.imApp.createDefaultLinkedAccountBot = function() {
+    return {
+        enabled: false,
+        intervalSeconds: 60,
+        lastRunAt: 0
+    };
+};
+
+window.imApp.normalizeLinkedAccountBot = function(bot) {
+    const defaultBot = window.imApp.createDefaultLinkedAccountBot();
+    const source = bot && typeof bot === 'object' ? bot : {};
+    const intervalSeconds = Number(source.intervalSeconds);
+
+    return {
+        enabled: !!source.enabled,
+        intervalSeconds: Number.isFinite(intervalSeconds)
+            ? Math.max(5, Math.min(86400, Math.round(intervalSeconds)))
+            : defaultBot.intervalSeconds,
+        lastRunAt: Number(source.lastRunAt) || defaultBot.lastRunAt
+    };
+};
+
+window.imApp.normalizeLinkedAccountChats = function(chats) {
+    if (!Array.isArray(chats)) return [];
+
+    return chats
+        .map((chat, index) => {
+            if (!chat || typeof chat !== 'object') return null;
+            const messages = Array.isArray(chat.messages)
+                ? chat.messages
+                    .map((message, messageIndex) => {
+                        if (!message || typeof message !== 'object') return null;
+                        const text = typeof message.text === 'string'
+                            ? message.text.trim()
+                            : (typeof message.content === 'string' ? message.content.trim() : '');
+                        if (!text) return null;
+                        const role = message.role === 'char' ? 'char' : 'account';
+                        const timestamp = Number(message.timestamp) || Date.now() + messageIndex;
+                        const normalizedMessage = {
+                            id: message.id || `linked-msg-${timestamp}-${messageIndex}`,
+                            role,
+                            text,
+                            timestamp
+                        };
+                        const translation = typeof message.translation === 'string' && message.translation.trim()
+                            ? message.translation.trim()
+                            : (typeof message.translationZh === 'string' && message.translationZh.trim()
+                                ? message.translationZh.trim()
+                                : (typeof message.trans === 'string' && message.trans.trim() ? message.trans.trim() : ''));
+                        if (translation) normalizedMessage.translation = translation;
+                        const round = Number(message.round);
+                        if (Number.isFinite(round) && round > 0) normalizedMessage.round = round;
+                        const orderInTurn = Number(message.orderInTurn);
+                        if (Number.isFinite(orderInTurn) && orderInTurn >= 0) normalizedMessage.orderInTurn = orderInTurn;
+                        return normalizedMessage;
+                    })
+                    .filter(Boolean)
+                : [];
+            const now = Date.now();
+            const updatedAt = Number(chat.updatedAt) || (messages.length > 0 ? messages[messages.length - 1].timestamp : now);
+
+            return {
+                id: chat.id || `linked-chat-${updatedAt}-${index}`,
+                name: typeof chat.name === 'string' && chat.name.trim() ? chat.name.trim() : `Linked Friend ${index + 1}`,
+                realName: typeof chat.realName === 'string' && chat.realName.trim()
+                    ? chat.realName.trim()
+                    : (typeof chat.name === 'string' ? chat.name.trim() : ''),
+                remark: typeof chat.remark === 'string' ? chat.remark.trim() : '',
+                handle: typeof chat.handle === 'string' ? chat.handle.trim() : '',
+                persona: typeof chat.persona === 'string' ? chat.persona.trim() : '',
+                relationship: typeof chat.relationship === 'string' ? chat.relationship.trim() : '',
+                avatarSeed: typeof chat.avatarSeed === 'string' && chat.avatarSeed.trim()
+                    ? chat.avatarSeed.trim()
+                    : (typeof chat.handle === 'string' && chat.handle.trim() ? chat.handle.trim() : (typeof chat.name === 'string' ? chat.name.trim() : `linked-${index}`)),
+                sourceNpcId: chat.sourceNpcId != null ? String(chat.sourceNpcId) : '',
+                messages,
+                createdAt: Number(chat.createdAt) || updatedAt,
+                updatedAt,
+                readAt: Number(chat.readAt) || 0
+            };
+        })
+        .filter(Boolean);
+};
+
+window.imApp.isCharacterSleeping = function(friend) {
+    if (!friend || !friend.memory || !friend.memory.schedule || !friend.memory.schedule.enabled) {
+        return false;
+    }
+    
+    const schedule = friend.memory.schedule;
+    const sleepTime = schedule.sleepTime || '23:00';
+    const wakeTime = schedule.wakeTime || '07:00';
+    
+    if (sleepTime === wakeTime) return false;
+
+    const now = new Date();
+    const currentHours = now.getHours();
+    const currentMinutes = now.getMinutes();
+    const currentTotalMinutes = currentHours * 60 + currentMinutes;
+
+    const parseTime = (timeStr) => {
+        const parts = timeStr.split(':');
+        return parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+    };
+
+    const sleepTotalMinutes = parseTime(sleepTime);
+    const wakeTotalMinutes = parseTime(wakeTime);
+
+    if (sleepTotalMinutes < wakeTotalMinutes) {
+        // Sleep and wake on the same day (e.g. 13:00 to 15:00)
+        return currentTotalMinutes >= sleepTotalMinutes && currentTotalMinutes < wakeTotalMinutes;
+    } else {
+        // Cross midnight (e.g. 23:00 to 07:00)
+        return currentTotalMinutes >= sleepTotalMinutes || currentTotalMinutes < wakeTotalMinutes;
+    }
+};
+
+window.imApp.createDefaultProfilePanel = function(friend = {}) {
+    return {
+        activeTab: 'thought',
+        thought: friend?.profilePanel?.thought || friend?.latestThought || '',
+        location: friend?.profilePanel?.location || '未知位置',
+        action: friend?.profilePanel?.action || '暂无动作',
+        mood: friend?.profilePanel?.mood || '平静',
+        expression: friend?.profilePanel?.expression || '自然',
+        affection: typeof friend?.profilePanel?.affection === 'number' ? friend.profilePanel.affection : 0,
+        affectionChange: typeof friend?.profilePanel?.affectionChange === 'number' ? friend.profilePanel.affectionChange : 0,
+        status: friend?.profilePanel?.status || friend?.status || 'online',
+        thoughtHistory: Array.isArray(friend?.profilePanel?.thoughtHistory) ? friend.profilePanel.thoughtHistory : [],
+        events: Array.isArray(friend?.profilePanel?.events)
+            ? friend.profilePanel.events.map((eventItem, index) => ({
+                id: eventItem?.id != null ? eventItem.id : `event-${index}`,
+                title: eventItem?.title || '新的事件',
+                description: eventItem?.description || '',
+                time: eventItem?.time || '',
+                type: eventItem?.type || 'note',
+                status: eventItem?.status || 'pending',
+                requestText: eventItem?.requestText || '',
+                detail: eventItem?.detail || '',
+                confirmText: eventItem?.confirmText || '确认',
+                cancelText: eventItem?.cancelText || '取消',
+                memoryPayload: eventItem?.memoryPayload && typeof eventItem.memoryPayload === 'object'
+                    ? {
+                        title: eventItem.memoryPayload.title || eventItem?.title || '珍视回忆',
+                        content: eventItem.memoryPayload.content || eventItem?.requestText || eventItem?.description || '',
+                        detail: eventItem.memoryPayload.detail || eventItem?.detail || '',
+                        reason: eventItem.memoryPayload.reason || '',
+                        sourceEventId: eventItem.memoryPayload.sourceEventId || (eventItem?.id != null ? eventItem.id : `event-${index}`),
+                        createdAt: eventItem.memoryPayload.createdAt || eventItem?.time || '',
+                        sourceThought: eventItem.memoryPayload.sourceThought || ''
+                    }
+                    : null
+            }))
+            : []
+    };
+};
+
+window.imApp.normalizeFriendData = function(friend) {
+    const normalized = { ...friend };
+    normalized.id = normalized.id != null ? normalized.id : Date.now();
+    normalized.type = normalized.type || 'char';
+    const isGroupChat = normalized.type === 'group';
+    normalized.realName = normalized.realName || '';
+    normalized.nickname = normalized.nickname || (normalized.type === 'npc' ? 'New NPC' : 'New Friend');
+    normalized.signature = normalized.signature || 'No Signature';
+    normalized.persona = normalized.persona || '';
+    normalized.avatarUrl = normalized.avatarUrl || null;
+    normalized.avatarAssetId = normalized.avatarAssetId || null;
+    normalized.messages = Array.isArray(normalized.messages) ? normalized.messages : [];
+    normalized.chatBg = normalized.chatBg || null;
+    normalized.chatBgAssetId = normalized.chatBgAssetId || null;
+    normalized.customCssEnabled = !!normalized.customCssEnabled;
+    normalized.customCss = normalized.customCss || '';
+    normalized.chatCssEnabled = !!normalized.chatCssEnabled;
+    normalized.chatCss = normalized.chatCss || '';
+    normalized.statusCssEnabled = !!normalized.statusCssEnabled;
+    normalized.statusCss = normalized.statusCss || '';
+    normalized.isPinned = !!normalized.isPinned;
+    normalized.unreadCount = Math.max(0, Number(normalized.unreadCount) || 0);
+    normalized.showTimestamp = !!normalized.showTimestamp;
+    normalized.timeAware = normalized.timeAware !== false;
+    normalized.allowRoleRecall = normalized.allowRoleRecall !== false;
+    normalized.dynamicActionNarrationEnabled = !!normalized.dynamicActionNarrationEnabled;
+    normalized.timestampPosition = normalized.timestampPosition === 'outside' ? 'outside' : 'inside';
+    normalized.boundBooks = Array.isArray(normalized.boundBooks) ? normalized.boundBooks : [];
+    normalized.momentsCover = normalized.momentsCover || null;
+    normalized.momentsCoverAssetId = normalized.momentsCoverAssetId || null;
+    normalized.members = Array.isArray(normalized.members) ? normalized.members : [];
+    normalized.leftGroupAt = isGroupChat ? (Number(normalized.leftGroupAt) || 0) : 0;
+    normalized.leftGroupMemberSnapshot = isGroupChat && Array.isArray(normalized.leftGroupMemberSnapshot)
+        ? normalized.leftGroupMemberSnapshot
+            .filter(item => item && item.id != null)
+            .map(item => ({
+                id: item.id,
+                nickname: item.nickname || '',
+                realName: item.realName || ''
+            }))
+        : [];
+    normalized.memberProfiles = (friend.memberProfiles && typeof friend.memberProfiles === 'object') ? friend.memberProfiles : {};
+    normalized.botEnabled = !!normalized.botEnabled;
+    // offlineMeetEnabled is deprecated
+    normalized.offlineRegexScripts = Array.isArray(normalized.offlineRegexScripts) ? normalized.offlineRegexScripts : [];
+    normalized.linkedAccountBot = window.imApp.normalizeLinkedAccountBot(normalized.linkedAccountBot);
+    normalized.linkedAccountChats = window.imApp.normalizeLinkedAccountChats(normalized.linkedAccountChats);
+
+    normalized.profilePanel = window.imApp.createDefaultProfilePanel(friend);
+    normalized.latestThought = normalized.profilePanel.thought;
+    normalized.status = normalized.profilePanel.status || normalized.status || 'online';
+
+    const defaultMemory = window.imApp.createDefaultMemory();
+    const memory = normalized.memory || {};
+    const normalizedSchedule = window.imDataUtils?.normalizeSchedule
+        ? window.imDataUtils.normalizeSchedule(memory.schedule)
+        : {
+            enabled: !!memory.schedule?.enabled,
+            sleepTime: memory.schedule?.sleepTime || defaultMemory.schedule.sleepTime,
+            wakeTime: memory.schedule?.wakeTime || defaultMemory.schedule.wakeTime,
+            events: Array.isArray(memory.schedule?.events) ? memory.schedule.events : []
+        };
+    normalized.memory = {
+        overview: memory.overview || defaultMemory.overview,
+        anniversaries: memory.anniversaries || defaultMemory.anniversaries,
+        schedule: normalizedSchedule,
+        context: {
+            enabled: typeof memory.context?.enabled === 'boolean' ? memory.context.enabled : defaultMemory.context.enabled,
+            limit: Number(memory.context?.limit) > 0
+                ? Number(memory.context.limit)
+                : (isGroupChat ? 100 : defaultMemory.context.limit),
+            notes: memory.context?.notes || defaultMemory.context.notes
+        },
+        summary: {
+            enabled: typeof memory.summary?.enabled === 'boolean' ? memory.summary.enabled : defaultMemory.summary.enabled,
+            limit: Number(memory.summary?.limit) > 0 ? Number(memory.summary.limit) : defaultMemory.summary.limit,
+            roundLimit: window.imDataUtils?.normalizeRoundLimit
+                ? window.imDataUtils.normalizeRoundLimit(memory.summary?.roundLimit, defaultMemory.summary.roundLimit)
+                : (Number(memory.summary?.roundLimit) > 0 ? Math.round(Number(memory.summary.roundLimit)) : defaultMemory.summary.roundLimit),
+            prompt: memory.summary?.prompt || defaultMemory.summary.prompt
+        },
+        autonomous: window.imApp.normalizeAutonomousActivity(memory.autonomous),
+        longTerm: memory.longTerm || defaultMemory.longTerm,
+        shortTermEntries: Array.isArray(memory.shortTermEntries)
+            ? memory.shortTermEntries.map((entry, index) => ({
+                id: entry?.id != null ? entry.id : `shortterm-${index}`,
+                title: entry?.title || '对话总结',
+                time: entry?.time || entry?.createdAt || '',
+                event: entry?.event || entry?.content || '',
+                memoryPoints: entry?.memoryPoints || entry?.points || '',
+                degree: entry?.degree || '高',
+                lastActivatedAt: entry?.lastActivatedAt || entry?.activatedAt || entry?.time || entry?.createdAt || '',
+                raw: entry?.raw || '',
+                sourceCount: Math.max(0, Number(entry?.sourceCount) || 0),
+                sourceRoundCount: Math.max(0, Number(entry?.sourceRoundCount) || 0),
+                sourceStartMessageCount: Math.max(0, Number(entry?.sourceStartMessageCount) || 0),
+                sourceEndMessageCount: Math.max(0, Number(entry?.sourceEndMessageCount) || 0)
+            }))
+            : defaultMemory.shortTermEntries,
+        longTermEntries: Array.isArray(memory.longTermEntries)
+            ? memory.longTermEntries.map((entry, index) => ({
+                id: entry?.id != null ? entry.id : `longterm-${index}`,
+                title: entry?.title || '长期记忆',
+                content: entry?.content || '',
+                createdAt: entry?.createdAt || ''
+            }))
+            : defaultMemory.longTermEntries,
+        lastSummaryMessageCount: typeof memory.lastSummaryMessageCount === 'number' ? memory.lastSummaryMessageCount : 0,
+        cherished: memory.cherished || defaultMemory.cherished,
+        cherishedEntries: Array.isArray(memory.cherishedEntries)
+            ? memory.cherishedEntries.map((entry, index) => ({
+                id: entry?.id != null ? entry.id : `cherished-${index}`,
+                title: entry?.title || '长期记忆',
+                content: entry?.content || '',
+                detail: entry?.detail || '',
+                reason: entry?.reason || '',
+                sourceEventId: entry?.sourceEventId || '',
+                createdAt: entry?.createdAt || '',
+                sourceThought: entry?.sourceThought || ''
+            }))
+            : defaultMemory.cherishedEntries,
+        relationships: Array.isArray(memory.relationships) ? memory.relationships : defaultMemory.relationships,
+        socialAccounts: Array.isArray(memory.socialAccounts)
+            ? memory.socialAccounts
+                .map((account, index) => ({
+                    platform: account?.platform || '',
+                    label: account?.label || account?.platform || '社交账号',
+                    handle: account?.handle || '',
+                    url: account?.url || '',
+                    ytChannelId: account?.ytChannelId || account?.channelId || '',
+                    updatedAt: account?.updatedAt || '',
+                    id: account?.id || `social-${index}`
+                }))
+                .filter(account => account.platform || account.handle || account.url)
+            : defaultMemory.socialAccounts,
+        userOverride: memory.userOverride || null,
+        mountSettings: (memory.mountSettings && typeof memory.mountSettings === 'object' && !Array.isArray(memory.mountSettings))
+            ? { ...memory.mountSettings }
+            : defaultMemory.mountSettings,
+        mountLimits: (memory.mountLimits && typeof memory.mountLimits === 'object' && !Array.isArray(memory.mountLimits))
+            ? Object.fromEntries(Object.entries(memory.mountLimits).map(([key, value]) => {
+                const limit = Number(value);
+                return [key, Number.isFinite(limit) && limit > 0 ? Math.max(1, Math.floor(limit)) : 20];
+            }))
+            : defaultMemory.mountLimits
+    };
+
+    return normalized;
+};
+
+window.imApp.createGroupMemberSnapshot = function(group) {
+    if (!group || group.type !== 'group') return [];
+    const memberIds = Array.isArray(group.members) ? group.members : [];
+    return memberIds.map((memberId) => {
+        const member = (window.imData?.friends || []).find(item => String(item.id) === String(memberId));
+        return {
+            id: memberId,
+            nickname: member?.nickname || '',
+            realName: member?.realName || ''
+        };
+    });
+};
+
+window.imApp.getContextLimit = function(friend) {
+    const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+    const defaultContextLimit = normalizedFriend.type === 'group' ? 100 : 100;
+
+    if (normalizedFriend.memory?.context?.enabled === false) {
+        return 0;
+    }
+
+    return Number(normalizedFriend.memory?.context?.limit) > 0
+        ? Number(normalizedFriend.memory.context.limit)
+        : defaultContextLimit;
+};
+
+window.imApp.getRecentContextMessages = function(friend) {
+    const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+    const contextLimit = window.imApp.getContextLimit(normalizedFriend);
+    const allMessages = Array.isArray(normalizedFriend.messages) ? normalizedFriend.messages : [];
+    return contextLimit > 0 ? allMessages.slice(-contextLimit) : [];
+};
+
+window.imApp.isRecallableUserMessage = function(message) {
+    if (!message || message.role !== 'user') return false;
+    const blockedTypes = new Set([
+        'system_notice',
+        'pay_transfer',
+        'group_red_packet',
+        'voice_call_record',
+        'offline_meeting_record',
+        'html'
+    ]);
+    return !blockedTypes.has(String(message.type || '').trim());
+};
+
+window.imApp.createRecalledNoticeMessage = function(originalMessage, options = {}) {
+    const original = originalMessage && typeof originalMessage === 'object' ? originalMessage : {};
+    const actorRole = options.actorRole === 'user' ? 'user' : 'assistant';
+    const actorName = String(options.actorName || '').trim();
+    const timestamp = Number(options.timestamp || original.timestamp) || Date.now();
+    const notice = {
+        id: original.id || options.id || (window.imChat?.createMessageId ? window.imChat.createMessageId('notice') : `notice_${timestamp}`),
+        role: 'system',
+        type: 'system_notice',
+        noticeKind: 'message_recalled',
+        actorRole,
+        actorName,
+        content: actorRole === 'user' ? '你撤回了一条消息' : `${actorName || '对方'}撤回了一条消息`,
+        timestamp
+    };
+
+    if (actorRole !== 'user' && typeof options.recalledContent === 'string' && options.recalledContent.trim()) {
+        notice.payload = {
+            recalledContent: options.recalledContent.trim()
+        };
+    }
+    if (options.apiRunId) notice.apiRunId = options.apiRunId;
+    return notice;
+};
+
+window.imApp.formatSystemNoticeForApiContext = function(message) {
+    const normalizedMessage = message || {};
+    const noticeKind = normalizedMessage.noticeKind || '';
+    const noticeText = normalizedMessage.content || normalizedMessage.text || '';
+
+    if (noticeKind === 'group_left') {
+        return '[系统事件：User 已退出群聊。]';
+    }
+    if (noticeKind === 'group_rejoined') {
+        return '[系统事件：User 重新进入群聊。]';
+    }
+    if (noticeKind === 'narration') {
+        return `[旁白：${noticeText}]`;
+    }
+    if (noticeKind === 'offline_meeting_active') {
+        return '';
+    }
+    if (noticeKind === 'group_private_to_user') {
+        return '[系统事件：有群成员向 User 发送了私信。其他群成员默认不知道私信内容。]';
+    }
+    if (noticeKind === 'group_friend_private_chat') {
+        return '[系统事件：有群成员与自己的好友进行了私聊。私聊内容只属于该成员，其他群成员默认不知道。]';
+    }
+    if (noticeKind === 'message_recalled') {
+        if (normalizedMessage.actorRole === 'user') {
+            return '[系统事件：User 撤回了一条消息。你只知道发生了撤回，无法读取被撤回的原文。]';
+        }
+        const actorName = String(normalizedMessage.actorName || '').trim();
+        return actorName
+            ? `[系统事件：${actorName} 撤回了一条消息。]`
+            : '[系统事件：你撤回了一条消息。]';
+    }
+
+    return noticeText ? `[系统事件：${noticeText}]` : '[系统事件]';
+};
+
+window.imApp.stripFakeLinkHtmlForApiContext = function(value, maxLength = 20000) {
+    return String(value == null ? '' : value)
+        .replace(/<\s*(script|style|iframe|object|embed|svg|canvas)[\s\S]*?<\s*\/\s*\1\s*>/gi, ' ')
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/&nbsp;/gi, ' ')
+        .replace(/&amp;/gi, '&')
+        .replace(/&lt;/gi, '<')
+        .replace(/&gt;/gi, '>')
+        .replace(/&quot;/gi, '"')
+        .replace(/&#039;/gi, "'")
+        .replace(/\s+/g, ' ')
+        .trim()
+        .slice(0, Math.max(1000, Number(maxLength) || 20000));
+};
+
+window.imApp.formatFakeLinkMessageForApiContext = function(message, options = {}) {
+    const normalizedMessage = message || {};
+    const fakeLinkData = normalizedMessage.fakeLinkData && typeof normalizedMessage.fakeLinkData === 'object'
+        ? normalizedMessage.fakeLinkData
+        : {};
+    const displayUrl = String(fakeLinkData.displayUrl || fakeLinkData.canonicalUrl || normalizedMessage.content || '').trim();
+    const platformLabel = String(fakeLinkData.siteName || fakeLinkData.domain || '假网页').trim();
+    const title = String(fakeLinkData.title || displayUrl || '未命名假网页').trim();
+    const description = String(fakeLinkData.summary || '').trim();
+    const webPage = fakeLinkData.webPage && typeof fakeLinkData.webPage === 'object' ? fakeLinkData.webPage : null;
+    const pageHtmlText = webPage && webPage.html
+        ? window.imApp.stripFakeLinkHtmlForApiContext(webPage.html, options.maxLinkBodyChars || 20000)
+        : '';
+    const bodyText = String(fakeLinkData.bodyText || fakeLinkData.pageText || pageHtmlText || '').trim();
+    const webTheme = webPage ? String(webPage.theme || '').trim() : '';
+    const expandContent = options.expandLinkContent !== false;
+    const maxBodyChars = Math.max(1000, Number(options.maxLinkBodyChars) || 20000);
+    const fakeLines = [
+        '[User 分享了一个站内假网页]',
+        '站点：' + platformLabel,
+        '标题：' + title,
+        '显示地址：' + displayUrl
+    ];
+    if (description) fakeLines.push('摘要：' + description);
+    if (!bodyText) {
+        fakeLines.push('正文状态：用户未填写正文，只能参考标题、域名和摘要。');
+        return fakeLines.join('\n');
+    }
+    if (!expandContent) {
+        fakeLines.push('页面摘要：' + (description || bodyText.slice(0, 500)));
+        fakeLines.push('正文状态：这是较早的假网页记录，本轮只保留摘要。');
+        return fakeLines.join('\n');
+    }
+    const fakeInjectedBody = bodyText.slice(0, maxBodyChars);
+    fakeLines.push('页面正文：\n' + fakeInjectedBody);
+    if (bodyText.length > fakeInjectedBody.length) {
+        fakeLines.push('正文状态：内容过长，已截断。');
+    }
+    return fakeLines.join('\n');
+};
+
+window.imApp.formatMessageForApiContext = function(message, friend, options = {}) {
+    const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+    const normalizedMessage = message || {};
+    const isGroupChat = normalizedFriend.type === 'group';
+    let apiContent = normalizedMessage.content || '';
+
+    if (normalizedMessage.type === 'system_notice') {
+        return {
+            role: 'system',
+            content: window.imApp.formatSystemNoticeForApiContext(normalizedMessage)
+        };
+    }
+
+    if (normalizedMessage.type === 'fake_link') {
+        apiContent = window.imApp.formatFakeLinkMessageForApiContext(normalizedMessage, options);
+    } else if (normalizedMessage.type === 'voice_message') {
+        const voiceText = normalizedMessage.transcript || normalizedMessage.text || '';
+        apiContent = normalizedMessage.role === 'user'
+            ? `[用户发了一条语音消息，语音内容：${voiceText}]`
+            : `[你发了一条语音消息，语音内容：${voiceText}]`;
+    } else if (normalizedMessage.type === 'sticker') {
+        const stickerName = normalizedMessage.stickerName || normalizedMessage.text || '表情包';
+        const stickerCategory = normalizedMessage.stickerCategory || '';
+        const stickerLabel = stickerCategory ? `${stickerCategory} / ${stickerName}` : stickerName;
+        apiContent = normalizedMessage.role === 'user'
+            ? `[用户发了一个表情包：${stickerLabel}]`
+            : `[你发了一个表情包：${stickerLabel}]`;
+    } else if (normalizedMessage.type === 'offline_meeting_record') {
+        const dateText = normalizedMessage.dateText || '';
+        const title = normalizedMessage.title || '见面记录';
+        const summary = normalizedMessage.summary || normalizedMessage.content || '';
+        return {
+            role: 'system',
+            content: `[见面记录]\n结束时间：${dateText || '未知'}\n标题：${title}\n总结：${summary}\n（该线下见面已经结束，请将这份总结作为后续线上聊天上下文。）`
+        };
+    } else if (normalizedMessage.type === 'voice_call_record') {
+        const duration = normalizedMessage.duration || 0;
+        const callDurationText = `${Math.floor(duration / 60)}分${duration % 60}秒`;
+        const callMessages = normalizedMessage.callMessages || [];
+        const statusText = normalizedMessage.statusText || '通话记录';
+        
+        if (statusText === '已拒绝') {
+            apiContent = `[提示：${normalizedMessage.isSelf ? '对方' : '你'}刚刚拒绝了这通语音通话。]`;
+        } else if (statusText === '已取消') {
+            apiContent = `[提示：${normalizedMessage.isSelf ? '你' : '对方'}刚刚取消了这通语音通话。]`;
+        } else {
+            if (callMessages.length > 0) {
+                const userName = options.userName || window.userState?.name || 'User';
+                const charName = normalizedFriend.nickname || '对方';
+                const callTranscript = callMessages.map(m => {
+                    const speaker = m.isSelf ? userName : charName;
+                    const parts = [];
+                    if (m.actionText) parts.push(String(m.actionText).trim());
+                    if (m.thoughtText) parts.push(`心声：${String(m.thoughtText).trim()}`);
+                    if (m.text) parts.push(`${speaker}：「${String(m.text).trim()}」`);
+                    return parts.join('\n  ');
+                }).filter(Boolean).join('\n  ');
+                
+                apiContent = `[提示：你们刚刚完成了一通语音通话，时长 ${callDurationText}。通话期间的交流内容如下：\n  ${callTranscript}\n（通话已结束，请直接用普通文字回复）]`;
+            } else {
+                apiContent = `[提示：你们刚刚完成了一通语音通话，时长 ${callDurationText}，未产生可识别的文本记录。（通话已结束，请直接用普通文字回复）]`;
+            }
+        }
+    } else if (normalizedMessage.type === 'moment_forward') {
+        try {
+            const momentData = JSON.parse(normalizedMessage.content);
+            const momentText = momentData.text || '无配文';
+            apiContent = `[转发了一条朋友圈, 内容: "${momentText}"]`;
+            if (momentData.img) {
+                if (momentData.imgDesc) {
+                    apiContent += ` (附带图片: ${momentData.imgDesc})`;
+                } else {
+                    apiContent += ` (附带图片)`;
+                }
+            }
+        } catch (e) {
+            apiContent = `[转发了一条朋友圈]`;
+        }
+    } else if (normalizedMessage.type === 'image') {
+        const imageDescription = normalizedMessage.text || normalizedMessage.description || normalizedMessage.fileName || '无描述';
+        apiContent = `[发送了一张图片：${imageDescription}]`;
+    } else if (normalizedMessage.type === 'pay_transfer') {
+        const payAmount = Number(normalizedMessage.amount) || 0;
+        const payDesc = normalizedMessage.description || '转账';
+        const payTarget = normalizedMessage.targetName || normalizedFriend.nickname || '对方';
+
+        if (normalizedMessage.payKind === 'user_to_char') {
+            apiContent = `[用户刚刚向你转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}，对象：${payTarget}。你可以收下这笔钱，也可以退回，或者正常回复。]`;
+        } else if (normalizedMessage.payKind === 'char_received') {
+            apiContent = `[你刚刚收下了用户的一笔转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}。]`;
+        } else if (normalizedMessage.payKind === 'char_to_user_pending') {
+            apiContent = `[你刚刚向用户发起了一笔转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}，等待用户领取。]`;
+        } else if (normalizedMessage.payKind === 'char_to_user_claimed' || normalizedMessage.payKind === 'user_received_from_char') {
+            apiContent = `[用户已领取你的转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}。]`;
+        } else if (normalizedMessage.payKind === 'user_rejected_from_char') {
+            apiContent = `[用户退回了你的转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}。]`;
+        } else if (normalizedMessage.payKind === 'char_to_user_rejected' || normalizedMessage.payKind === 'user_to_char_rejected') {
+            apiContent = `[你刚刚退回了用户的转账 ¥${payAmount.toFixed(2)}，备注：${payDesc}。]`;
+        }
+    }
+
+    if (isGroupChat) {
+        const userName = options.userName || window.userState?.name || 'User';
+        if (normalizedMessage.role === 'user') {
+            if (normalizedMessage.replyTo) {
+                apiContent = `[引用了消息："${normalizedMessage.replyTo}"]\n${apiContent}`;
+            }
+            return {
+                role: 'user',
+                content: `User(${userName}): ${apiContent}`
+            };
+        }
+
+        const assistantSpeaker = typeof normalizedMessage.speaker === 'string' && normalizedMessage.speaker.trim()
+            ? normalizedMessage.speaker.trim()
+            : '群成员';
+
+        if (normalizedMessage.replyTo) {
+            apiContent = `[引用了消息："${normalizedMessage.replyTo}"]\n${apiContent}`;
+        }
+
+        return {
+            role: 'assistant',
+            content: `${assistantSpeaker}: ${apiContent}`
+        };
+    }
+
+    if (normalizedMessage.role === 'user' && normalizedMessage.replyTo) {
+        apiContent = `[用户引用了消息："${normalizedMessage.replyTo}"]\n${apiContent}`;
+    }
+
+    return {
+        role: normalizedMessage.role,
+        content: apiContent
+    };
+};
+
+window.imApp.buildApiContextMessages = function(friend, options = {}) {
+    const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+    const recentMessages = window.imApp.getRecentContextMessages(normalizedFriend);
+    let latestLinkIndex = -1;
+    recentMessages.forEach((message, index) => {
+        if (message && message.type === 'fake_link') latestLinkIndex = index;
+    });
+
+    return recentMessages
+        .map((message, index) => window.imApp.formatMessageForApiContext(message, normalizedFriend, {
+            ...options,
+            expandLinkContent: message && message.type === 'fake_link' ? index === latestLinkIndex : options.expandLinkContent
+        }))
+        .filter(item => item && item.role && typeof item.content === 'string' && item.content.trim());
+};
+
+window.imApp.buildLinkedAccountMemoryContext = function(friend, options = {}) {
+    const normalizedFriend = window.imApp.normalizeFriendData(friend || {});
+    const linkedChats = Array.isArray(normalizedFriend.linkedAccountChats)
+        ? normalizedFriend.linkedAccountChats
+        : [];
+    if (linkedChats.length === 0) return '';
+
+    const charName = normalizedFriend.nickname || normalizedFriend.realName || 'Char';
+    const maxMessagesPerFriend = Math.max(1, Number(options.maxMessagesPerFriend) || 4);
+    const formatLinkedMessageTime = (timestamp) => {
+        const value = Number(timestamp) || 0;
+        if (!value) return '未知时间';
+        const date = new Date(value);
+        const pad = number => String(number).padStart(2, '0');
+        return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
+    };
+    const lines = [
+        'Linked Friend Memory / 关联好友记忆:',
+        'These are private friend chats belonging to the character. They are context about the character\'s own friends, not messages from the current User.'
+    ];
+
+    linkedChats.forEach((chat, index) => {
+        const displayName = chat.remark || chat.name || chat.realName || `Friend ${index + 1}`;
+        const realName = chat.realName || chat.name || displayName;
+        const recentMessages = Array.isArray(chat.messages)
+            ? chat.messages.slice(-maxMessagesPerFriend)
+            : [];
+
+        lines.push('');
+        lines.push(`Friend ${index + 1}: ${displayName}`);
+        lines.push(`Real Name: ${realName || 'Unknown'}`);
+        lines.push(`Remark: ${chat.remark || displayName || 'None'}`);
+        lines.push(`Relationship: ${chat.relationship || 'None'}`);
+        lines.push(`Persona: ${chat.persona || 'None'}`);
+        lines.push('Recent private messages, fixed to the latest 2 rounds:');
+        if (recentMessages.length === 0) {
+            lines.push('None');
+        } else {
+            recentMessages.forEach(message => {
+                const speaker = message.role === 'char' ? charName : displayName;
+                lines.push(`[${formatLinkedMessageTime(message.timestamp)}] ${speaker}: ${message.text || ''}`);
+            });
+        }
+    });
+
+    return lines.join('\n');
+};
+
+window.imApp.getMomentMessages = function() {
+    return Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : [];
+};
+
+window.imApp.setMomentMessages = function(messages) {
+    window.imData.momentMessages = Array.isArray(messages) ? messages : [];
+};
+
+window.imApp.ensureFriendMessagesLoaded = async function(friendOrId, options = {}) {
+    const targetId = typeof friendOrId === 'object' && friendOrId !== null ? friendOrId.id : friendOrId;
+    if (targetId == null) return [];
+
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === String(targetId)
+    );
+    if (!targetFriend) return [];
+
+    if (targetFriend.messagesLoaded && Array.isArray(targetFriend.messages)) {
+        return targetFriend.messages;
+    }
+
+    try {
+        if (!window.imStorage || !window.imStorage.loadMessagesByFriendId) {
+            targetFriend.messages = Array.isArray(targetFriend.messages) ? targetFriend.messages : [];
+            targetFriend.messagesLoaded = true;
+            return targetFriend.messages;
+        }
+
+        const loadedMessages = await window.imStorage.loadMessagesByFriendId(targetId);
+        targetFriend.messages = Array.isArray(loadedMessages) ? loadedMessages : [];
+        targetFriend.messagesLoaded = true;
+        targetFriend.messageCount = targetFriend.messages.length;
+
+        if (targetFriend.messages.length > 0) {
+            const visibleMessages = targetFriend.messages.filter(message => window.imApp.getFriendMessagePreview(message));
+            const lastMessage = visibleMessages.length > 0 ? visibleMessages[visibleMessages.length - 1] : null;
+            targetFriend.lastMessageTimestamp = Number(lastMessage?.timestamp) || targetFriend.lastMessageTimestamp || 0;
+            targetFriend.lastMessagePreview =
+                (lastMessage ? window.imApp.getFriendMessagePreview(lastMessage) : '') ||
+                targetFriend.lastMessagePreview ||
+                '';
+        }
+
+        if (typeof options.onLoaded === 'function') {
+            options.onLoaded(targetFriend.messages, targetFriend);
+        }
+
+        return targetFriend.messages;
+    } catch (e) {
+        console.error('Failed to load friend messages on demand', e);
+        targetFriend.messages = Array.isArray(targetFriend.messages) ? targetFriend.messages : [];
+        targetFriend.messagesLoaded = true;
+        return targetFriend.messages;
+    }
+};
+
+window.imApp.getMomentsCoverUrl = function() {
+    return window.imData.momentsCoverUrl || null;
+};
+
+window.imApp.setMomentsCoverUrl = function(url) {
+    window.imData.momentsCoverUrl = url || null;
+};
+
+window.imApp.cloneDataSnapshot = function(value) {
+    if (typeof structuredClone === 'function') {
+        return structuredClone(value);
+    }
+    return JSON.parse(JSON.stringify(value));
+};
+
+window.imApp.buildPersistedData = function() {
+    return {
+        friends: window.imApp.cloneDataSnapshot(Array.isArray(window.imData.friends) ? window.imData.friends : []),
+        moments: window.imApp.cloneDataSnapshot(Array.isArray(window.imData.moments) ? window.imData.moments : []),
+        momentMessages: window.imApp.cloneDataSnapshot(Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : []),
+        stickers: window.imApp.cloneDataSnapshot(Array.isArray(window.imData.stickers) ? window.imData.stickers : []),
+        momentsCoverUrl: window.imData.momentsCoverUrl || null
+    };
+};
+
+window.imApp.markMomentsLoaded = function(loaded = true) {
+    window.imData.momentsLoaded = !!loaded;
+};
+
+window.imApp.markMomentMessagesLoaded = function(loaded = true) {
+    window.imData.momentMessagesLoaded = !!loaded;
+};
+
+window.imApp.markStickersLoaded = function(loaded = true) {
+    window.imData.stickersLoaded = !!loaded;
+};
+
+window.imApp.getFriendMessagePreview = function(message) {
+    const targetMessage = message || {};
+    if (targetMessage.type === 'image') {
+        const desc = targetMessage.text || targetMessage.description || '';
+        return desc ? `[图片] ${desc}`.trim() : '[图片]';
+    }
+    if (targetMessage.type === 'voice_message') {
+        return `[语音] ${targetMessage.transcript || targetMessage.text || ''}`.trim();
+    }
+    if (targetMessage.type === 'sticker') {
+        const name = targetMessage.stickerName || targetMessage.text || '';
+        return name ? `[表情包] ${name}`.trim() : '[表情包]';
+    }
+    if (targetMessage.type === 'moment_forward') {
+        let content = '';
+        try {
+            if (targetMessage.content) {
+                const parsed = JSON.parse(targetMessage.content);
+                content = parsed.text || '';
+            }
+        } catch(e) {}
+        return content ? `[朋友圈] ${content}`.trim() : '[朋友圈]';
+    }
+    if (targetMessage.type === 'pay_transfer') {
+        return `[转账] ${targetMessage.description || ''}`.trim();
+    }
+    if (targetMessage.type === 'group_red_packet') {
+        return `[群红包] ${targetMessage.description || ''}`.trim();
+    }
+    if (targetMessage.type === 'voice_call_record') {
+        return targetMessage.text || `[语音通话记录] ${targetMessage.statusText || ''}`.trim();
+    }
+    if (targetMessage.type === 'fake_link') {
+        const fakeLinkData = targetMessage.fakeLinkData && typeof targetMessage.fakeLinkData === 'object'
+            ? targetMessage.fakeLinkData
+            : {};
+        const label = fakeLinkData.siteName || '假链接';
+        const title = fakeLinkData.title || targetMessage.content || '';
+        return `[${label}] ${title}`.trim();
+    }
+    if (targetMessage.type === 'offline_meeting_record') {
+        return '[见面记录]';
+    }
+    if (targetMessage.type === 'system_notice') {
+        const noticeKind = targetMessage.noticeKind || '';
+        const noticeText = targetMessage.content || targetMessage.text || '';
+        if (noticeKind === 'group_left') return '你已退出群聊';
+        if (noticeKind === 'group_rejoined') return '你重新进入群聊';
+        if (noticeKind === 'narration') return `[旁白] ${noticeText}`.trim();
+        if (noticeKind === 'offline_meeting_active') return '';
+        if (noticeKind === 'message_recalled') {
+            if (targetMessage.actorRole === 'user') return '你撤回了一条消息';
+            const actorName = String(targetMessage.actorName || '').trim();
+            return `${actorName || '对方'}撤回了一条消息`;
+        }
+        return noticeText;
+    }
+    if (targetMessage.type === 'html') {
+        return targetMessage.text || '[卡片消息]';
+    }
+    return targetMessage.content || targetMessage.text || '';
+};
+
+window.imApp.syncFriendMessageSummary = function(friend) {
+    if (!friend) return null;
+
+    const messages = Array.isArray(friend.messages) ? friend.messages : [];
+    const visibleMessages = messages.filter(message => window.imApp.getFriendMessagePreview(message));
+    const lastMessage = visibleMessages.length > 0 ? visibleMessages[visibleMessages.length - 1] : null;
+
+    friend.messages = messages;
+    friend.messagesLoaded = true;
+    friend.messageCount = messages.length;
+    friend.lastMessageTimestamp = Number(lastMessage?.timestamp) || 0;
+    friend.lastMessagePreview = lastMessage
+        ? window.imApp.getFriendMessagePreview(lastMessage)
+        : '';
+
+    return friend;
+};
+
+window.imApp.getTotalUnreadCount = function() {
+    return (Array.isArray(window.imData.friends) ? window.imData.friends : [])
+        .reduce((total, friend) => total + Math.max(0, Number(friend?.unreadCount) || 0), 0);
+};
+
+window.imApp.updateChatsUnreadBadges = function() {
+    const navChatsBtn = document.getElementById('nav-chats-btn');
+    if (!navChatsBtn) return;
+
+    let badge = navChatsBtn.querySelector('.nav-chats-unread-badge');
+    const totalUnread = window.imApp.getTotalUnreadCount();
+    const shouldShow = totalUnread > 0 && !navChatsBtn.classList.contains('active');
+
+    if (!badge) {
+        badge = document.createElement('div');
+        badge.className = 'nav-chats-unread-badge';
+        badge.style.cssText = 'position:absolute; top:6px; right:14px; min-width:16px; height:16px; padding:0 4px; border-radius:999px; background:#ff3b30; color:#fff; font-size:10px; font-weight:700; line-height:16px; text-align:center; box-sizing:border-box; display:none; pointer-events:none;';
+        navChatsBtn.style.position = navChatsBtn.style.position || 'relative';
+        navChatsBtn.appendChild(badge);
+    }
+
+    badge.textContent = totalUnread > 99 ? '99+' : String(totalUnread);
+    badge.style.display = shouldShow ? 'block' : 'none';
+};
+
+window.imApp.clearFriendUnread = async function(friendId, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+    if (!targetFriend) return false;
+
+    if (!targetFriend.unreadCount) {
+        if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        return true;
+    }
+
+    targetFriend.unreadCount = 0;
+    try {
+        if (window.imStorage?.saveFriendMeta) {
+            await window.imStorage.saveFriendMeta(targetFriend);
+        } else if (window.imApp.commitFriendChange) {
+            await window.imApp.commitFriendChange(safeFriendId, (friend) => {
+                if (friend) friend.unreadCount = 0;
+            }, { silent: true, metaOnly: true });
+        }
+    } catch (error) {
+        console.error('Failed to clear unread count', error);
+        if (!options.silent && window.showToast) window.showToast('未读状态保存失败');
+        return false;
+    } finally {
+        if (window.imChat?.renderChatsList) window.imChat.renderChatsList();
+        if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+    }
+
+    return true;
+};
+
+window.imApp.reindexFriendMessages = function(friend) {
+    if (!friend || !Array.isArray(friend.messages)) return [];
+
+    friend.messages.forEach((message, index) => {
+        if (message && typeof message === 'object') {
+            message.__messageOrder = index;
+        }
+    });
+
+    return friend.messages;
+};
+
+window.imApp.findFriendMessageIndex = function(friend, descriptor) {
+    const messages = Array.isArray(friend?.messages) ? friend.messages : [];
+    if (messages.length === 0 || descriptor == null) return -1;
+
+    if (typeof descriptor === 'function') {
+        return messages.findIndex(descriptor);
+    }
+
+    const descriptorId = typeof descriptor === 'object' && descriptor !== null && descriptor.id != null
+        ? String(descriptor.id)
+        : (typeof descriptor !== 'object' ? String(descriptor) : null);
+    const descriptorTimestamp = typeof descriptor === 'object' && descriptor !== null && descriptor.timestamp != null
+        ? String(descriptor.timestamp)
+        : null;
+
+    return messages.findIndex((message) => {
+        if (!message) return false;
+        if (descriptorId && message.id != null && String(message.id) === descriptorId) return true;
+        if (descriptorTimestamp && message.timestamp != null && String(message.timestamp) === descriptorTimestamp) return true;
+        return false;
+    });
+};
+
+window.imApp.syncActiveFriendReference = function(friend) {
+    if (!friend) return;
+    if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(friend.id)) {
+        window.imData.currentActiveFriend = friend;
+    }
+};
+
+window.imApp.syncSettingsFriendReference = function(friend) {
+    if (!friend) return;
+    if (window.imData.currentSettingsFriend && String(window.imData.currentSettingsFriend.id) === String(friend.id)) {
+        window.imData.currentSettingsFriend = friend;
+    }
+};
+
+window.imApp.clearFriendRuntimeMessageContext = function(friend) {
+    if (!friend) return;
+    if (friend.pendingRegenerateContext) delete friend.pendingRegenerateContext;
+    if (window.imData.currentReplyText) window.imData.currentReplyText = null;
+    const safeFriendId = String(friend.id);
+    if (window.imData.profilePanelUiStateByFriendId) {
+        delete window.imData.profilePanelUiStateByFriendId[safeFriendId];
+    }
+    const page = document.getElementById(`chat-interface-${friend.id}`);
+    const replyPreview = page ? page.querySelector('.reply-preview-container') : null;
+    if (replyPreview) {
+        replyPreview.style.display = 'none';
+        replyPreview.querySelectorAll('[data-reply-text], .reply-preview-text').forEach(node => {
+            node.textContent = '';
+        });
+    }
+    page?.querySelectorAll('.typing-row').forEach(row => row.remove());
+    page?.querySelectorAll('.chat-profile-panel-overlay').forEach((overlay) => {
+        overlay.classList.remove('active');
+        overlay.style.display = 'none';
+    });
+    if (window.imData.currentActiveRow) {
+        window.imData.currentActiveRow.classList?.remove('message-active');
+        window.imData.currentActiveRow = null;
+    }
+};
+
+window.imApp.createClearedConversationMemory = function(memory = {}) {
+    const normalizedMemory = window.imApp.normalizeFriendData({
+        id: '__conversation_reset__',
+        memory
+    }).memory;
+    const cleared = window.imApp.createDefaultMemory();
+
+    cleared.context = {
+        enabled: normalizedMemory.context.enabled,
+        limit: normalizedMemory.context.limit,
+        notes: ''
+    };
+    cleared.summary = {
+        enabled: normalizedMemory.summary.enabled,
+        limit: normalizedMemory.summary.limit,
+        roundLimit: normalizedMemory.summary.roundLimit || 30,
+        prompt: normalizedMemory.summary.prompt || ''
+    };
+    cleared.autonomous = window.imApp.cloneDataSnapshot(normalizedMemory.autonomous);
+    cleared.schedule = {
+        enabled: !!normalizedMemory.schedule.enabled,
+        sleepTime: normalizedMemory.schedule.sleepTime || '23:00',
+        wakeTime: normalizedMemory.schedule.wakeTime || '07:00',
+        events: []
+    };
+    cleared.userOverride = normalizedMemory.userOverride
+        ? window.imApp.cloneDataSnapshot(normalizedMemory.userOverride)
+        : null;
+    cleared.mountSettings = window.imApp.cloneDataSnapshot(normalizedMemory.mountSettings || {});
+    cleared.mountLimits = window.imApp.cloneDataSnapshot(normalizedMemory.mountLimits || {});
+    cleared.lastSummaryMessageCount = 0;
+    return cleared;
+};
+
+window.imApp.resolveFriendId = function(friendOrId) {
+    if (friendOrId && typeof friendOrId === 'object') {
+        return friendOrId.id;
+    }
+    return friendOrId;
+};
+
+window.imApp.getFriendById = function(friendOrId) {
+    const targetId = window.imApp.resolveFriendId(friendOrId);
+    if (targetId == null) return null;
+
+    return (window.imData.friends || []).find(
+        friend => String(friend.id) === String(targetId)
+    ) || null;
+};
+
+window.imApp.commitScopedFriendChange = async function(friendOrId, mutator, options = {}) {
+    if (!window.imApp.commitFriendChange) return false;
+
+    const targetId = window.imApp.resolveFriendId(friendOrId);
+    if (targetId == null) return false;
+
+    return window.imApp.commitFriendChange(targetId, (targetFriend, friends, targetIndex) => {
+        if (!targetFriend) return;
+
+        if (options.syncActive !== false) {
+            window.imApp.syncActiveFriendReference(targetFriend);
+        }
+
+        if (options.syncSettings === true) {
+            window.imApp.syncSettingsFriendReference(targetFriend);
+        }
+
+        if (typeof options.onTargetResolved === 'function') {
+            options.onTargetResolved(targetFriend, friends, targetIndex);
+        }
+
+        return typeof mutator === 'function'
+            ? mutator(targetFriend, friends, targetIndex)
+            : undefined;
+    }, options);
+};
+
+window.imApp.runFriendPersistenceTask = async function(friendId, task) {
+    const safeFriendId = String(friendId);
+    const previousChain = window.imApp.saveState.friendFlushChains.get(safeFriendId) || Promise.resolve();
+
+    const nextChain = previousChain.catch(() => false).then(async () => {
+        return task();
+    });
+
+    window.imApp.saveState.friendFlushChains.set(safeFriendId, nextChain);
+
+    try {
+        return await nextChain;
+    } finally {
+        if (window.imApp.saveState.friendFlushChains.get(safeFriendId) === nextChain) {
+            window.imApp.saveState.friendFlushChains.delete(safeFriendId);
+        }
+    }
+};
+
+window.imApp.saveState = {
+    timer: null,
+    delay: 800,
+    dirty: false,
+    isSaving: false,
+    hasPendingSave: false,
+    lastError: null,
+    friendTimers: new Map(),
+    momentTimers: new Map(),
+    friendDirtyIds: new Set(),
+    momentDirtyIds: new Set(),
+    friendFlushChains: new Map(),
+    momentFlushChains: new Map(),
+    friendRevisions: new Map(),
+    momentRevisions: new Map(),
+    momentMessagesDirty: false,
+    stickersDirty: false,
+    momentsCoverDirty: false
+};
+
+window.imApp.markFriendDirty = function(friendId) {
+    if (friendId == null) return;
+    const safeFriendId = String(friendId);
+    const currentRevision = window.imApp.saveState.friendRevisions.get(safeFriendId) || 0;
+    window.imApp.saveState.friendRevisions.set(safeFriendId, currentRevision + 1);
+    window.imApp.saveState.friendDirtyIds.add(safeFriendId);
+    window.imApp.saveState.dirty = true;
+};
+
+window.imApp.markMomentDirty = function(momentId) {
+    if (momentId == null) return;
+    const safeMomentId = String(momentId);
+    const currentRevision = window.imApp.saveState.momentRevisions.get(safeMomentId) || 0;
+    window.imApp.saveState.momentRevisions.set(safeMomentId, currentRevision + 1);
+    window.imApp.saveState.momentDirtyIds.add(safeMomentId);
+    window.imApp.saveState.dirty = true;
+};
+
+window.imApp.markMomentMessagesDirty = function() {
+    window.imApp.saveState.momentMessagesDirty = true;
+    window.imApp.saveState.dirty = true;
+};
+
+window.imApp.markStickersDirty = function() {
+    window.imApp.saveState.stickersDirty = true;
+    window.imApp.saveState.dirty = true;
+};
+
+window.imApp.markMomentsCoverDirty = function() {
+    window.imApp.saveState.momentsCoverDirty = true;
+    window.imApp.saveState.dirty = true;
+};
+
+window.imApp.persistGlobalData = async function(options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage || !window.imStorage.saveGlobalData) {
+            throw new Error('imStorage.saveGlobalData unavailable');
+        }
+
+        const payload = window.imApp.buildPersistedData();
+        await window.imStorage.saveGlobalData(payload);
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist iMessage global data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('保存失败，可能是浏览器存储不可用');
+        }
+        return false;
+    }
+};
+
+window.imApp.persistFriendData = async function(friendId, options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage || !window.imStorage.saveFriend) {
+            throw new Error('imStorage.saveFriend unavailable');
+        }
+
+        const targetFriend = (window.imData.friends || []).find(
+            friend => String(friend.id) === String(friendId)
+        );
+
+        if (!targetFriend) {
+            if (window.imStorage.deleteFriend) {
+                await window.imStorage.deleteFriend(friendId);
+            }
+            window.imApp.saveState.lastError = null;
+            return true;
+        }
+
+        const friendSnapshot = window.imApp.cloneDataSnapshot(targetFriend);
+        const shouldPersistMetaOnly = options.metaOnly === true && !!window.imStorage.saveFriendMetaOnly;
+
+        if (shouldPersistMetaOnly) {
+            await window.imStorage.saveFriendMetaOnly(friendSnapshot);
+        } else {
+            await window.imStorage.saveFriend(friendSnapshot, {
+                skipMessages: options.includeMessages === false
+            });
+        }
+
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist friend data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('好友数据保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.persistMomentData = async function(momentId, options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage) {
+            throw new Error('imStorage unavailable');
+        }
+
+        const targetMoment = (window.imData.moments || []).find(
+            moment => String(moment.id) === String(momentId)
+        );
+
+        if (!targetMoment) {
+            if (window.imStorage.deleteMoment) {
+                await window.imStorage.deleteMoment(momentId);
+            }
+            window.imApp.saveState.lastError = null;
+            return true;
+        }
+
+        if (!window.imStorage.saveMoment) {
+            throw new Error('imStorage.saveMoment unavailable');
+        }
+
+        await window.imStorage.saveMoment(window.imApp.cloneDataSnapshot(targetMoment));
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist moment data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('朋友圈数据保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.appendFriendMessage = async function(friendId, message, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+
+    if (!targetFriend) return false;
+    if (window.imApp.ensureFriendMessagesLoaded) {
+        await window.imApp.ensureFriendMessagesLoaded(targetFriend);
+    }
+    if (!Array.isArray(targetFriend.messages)) targetFriend.messages = [];
+
+    const targetMessage = message && typeof message === 'object' ? message : {};
+    const previousUnreadCount = Math.max(0, Number(targetFriend.unreadCount) || 0);
+    const nextOrder = targetFriend.messages.length;
+    targetMessage.__messageOrder = nextOrder;
+    targetFriend.messages.push(targetMessage);
+    window.imApp.syncFriendMessageSummary(targetFriend);
+
+    const isIncomingMessage = targetMessage.role !== 'user';
+    const isActiveChat = window.imData.currentActiveFriend &&
+        String(window.imData.currentActiveFriend.id) === safeFriendId;
+    if (isIncomingMessage && !isActiveChat) {
+        targetFriend.unreadCount = Math.max(0, Number(targetFriend.unreadCount) || 0) + 1;
+    }
+
+    window.imApp.syncActiveFriendReference(targetFriend);
+
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage?.saveFriendMessage || !window.imStorage?.saveFriendMeta) {
+            throw new Error('Incremental friend message persistence unavailable');
+        }
+
+        const persistedMessage = await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+            const stored = await window.imStorage.saveFriendMessage(safeFriendId, targetMessage, nextOrder);
+            await window.imStorage.saveFriendMeta(targetFriend);
+            return stored;
+        });
+
+        if (persistedMessage && persistedMessage.id && !targetMessage.id) {
+            targetMessage.id = persistedMessage.id;
+        }
+        targetMessage.__messageOrder = nextOrder;
+        window.imApp.saveState.lastError = null;
+        if (window.imChat?.renderChatsList) window.imChat.renderChatsList();
+        if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        if (isIncomingMessage && window.u2SystemNotifications?.notifyIncomingMessage) {
+            window.u2SystemNotifications.notifyIncomingMessage({
+                friend: targetFriend,
+                message: targetMessage
+            });
+        }
+        return true;
+    } catch (e) {
+        console.error('Failed to append friend message', e);
+        targetFriend.messages = targetFriend.messages.filter((item, index) => {
+            if (item === targetMessage) return false;
+            if (targetMessage.id && item?.id && String(item.id) === String(targetMessage.id)) return false;
+            return !(index === nextOrder && item?.timestamp != null && targetMessage.timestamp != null && String(item.timestamp) === String(targetMessage.timestamp));
+        });
+        window.imApp.reindexFriendMessages(targetFriend);
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        targetFriend.unreadCount = previousUnreadCount;
+        window.imApp.syncActiveFriendReference(targetFriend);
+        if (window.imChat?.renderChatsList) window.imChat.renderChatsList();
+        if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('消息保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.updateFriendMessage = async function(friendId, descriptor, mutator, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+
+    if (!targetFriend) return false;
+    if (window.imApp.ensureFriendMessagesLoaded) {
+        await window.imApp.ensureFriendMessagesLoaded(targetFriend);
+    }
+    if (!Array.isArray(targetFriend.messages)) return false;
+
+    const targetIndex = window.imApp.findFriendMessageIndex(targetFriend, descriptor);
+    if (targetIndex < 0) return false;
+
+    const previousMessage = window.imApp.cloneDataSnapshot(targetFriend.messages[targetIndex]);
+    const targetMessage = targetFriend.messages[targetIndex];
+
+    try {
+        if (typeof mutator === 'function') {
+            await mutator(targetMessage, targetFriend, targetIndex);
+        }
+
+        targetMessage.__messageOrder = targetIndex;
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        window.imApp.syncActiveFriendReference(targetFriend);
+
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage?.saveFriendMessage || !window.imStorage?.saveFriendMeta) {
+            throw new Error('Incremental friend message persistence unavailable');
+        }
+
+        const persistedMessage = await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+            const stored = await window.imStorage.saveFriendMessage(safeFriendId, targetMessage, targetIndex);
+            await window.imStorage.saveFriendMeta(targetFriend);
+            return stored;
+        });
+
+        if (persistedMessage && persistedMessage.id && !targetMessage.id) {
+            targetMessage.id = persistedMessage.id;
+        }
+        targetMessage.__messageOrder = targetIndex;
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to update friend message', e);
+        targetFriend.messages[targetIndex] = previousMessage;
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        window.imApp.syncActiveFriendReference(targetFriend);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('消息保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.removeFriendMessages = async function(friendId, descriptors, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+
+    if (!targetFriend) return false;
+    if (window.imApp.ensureFriendMessagesLoaded) {
+        await window.imApp.ensureFriendMessagesLoaded(targetFriend);
+    }
+    if (!Array.isArray(targetFriend.messages)) return false;
+
+    const descriptorList = Array.isArray(descriptors) ? descriptors : [descriptors];
+    const previousMessages = window.imApp.cloneDataSnapshot(targetFriend.messages);
+    const removalIndexes = new Set();
+
+    descriptorList.forEach((descriptor) => {
+        const index = window.imApp.findFriendMessageIndex(targetFriend, descriptor);
+        if (index > -1) removalIndexes.add(index);
+    });
+
+    if (removalIndexes.size === 0) return true;
+
+    const sortedRemovalIndexes = Array.from(removalIndexes).sort((a, b) => a - b);
+    const removedMessages = targetFriend.messages.filter((_, index) => removalIndexes.has(index));
+    const canDeleteWithoutReindex = sortedRemovalIndexes.every((index, removalOrder) => {
+        return index === (previousMessages.length - sortedRemovalIndexes.length + removalOrder);
+    });
+
+    targetFriend.messages = targetFriend.messages.filter((_, index) => !removalIndexes.has(index));
+    window.imApp.reindexFriendMessages(targetFriend);
+    window.imApp.syncFriendMessageSummary(targetFriend);
+    window.imApp.clearFriendRuntimeMessageContext(targetFriend);
+    window.imApp.syncActiveFriendReference(targetFriend);
+    window.imApp.syncSettingsFriendReference(targetFriend);
+
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage?.saveFriendMeta) {
+            throw new Error('Friend meta persistence unavailable');
+        }
+
+        const removableIds = removedMessages
+            .map((message) => message?.id ? String(message.id) : null)
+            .filter(Boolean);
+
+        await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+            if (
+                canDeleteWithoutReindex &&
+                removableIds.length === removedMessages.length &&
+                window.imStorage?.deleteFriendMessages
+            ) {
+                await window.imStorage.deleteFriendMessages(removableIds);
+            } else if (window.imStorage?.replaceFriendMessages) {
+                await window.imStorage.replaceFriendMessages(safeFriendId, targetFriend.messages);
+            } else {
+                throw new Error('Friend message removal persistence unavailable');
+            }
+
+            await window.imStorage.saveFriendMeta(targetFriend);
+            return true;
+        });
+
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to remove friend messages', e);
+        targetFriend.messages = previousMessages;
+        window.imApp.reindexFriendMessages(targetFriend);
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        window.imApp.syncActiveFriendReference(targetFriend);
+        window.imApp.syncSettingsFriendReference(targetFriend);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('删除消息失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.resetFriendMessages = async function(friendId, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+
+    if (!targetFriend) return false;
+    if (window.imApp.ensureFriendMessagesLoaded) {
+        await window.imApp.ensureFriendMessagesLoaded(targetFriend);
+    }
+
+    const previousMessages = window.imApp.cloneDataSnapshot(Array.isArray(targetFriend.messages) ? targetFriend.messages : []);
+    targetFriend.messages = [];
+    window.imApp.syncFriendMessageSummary(targetFriend);
+    window.imApp.clearFriendRuntimeMessageContext(targetFriend);
+    window.imApp.syncActiveFriendReference(targetFriend);
+    window.imApp.syncSettingsFriendReference(targetFriend);
+
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage?.replaceFriendMessages || !window.imStorage?.saveFriendMeta) {
+            throw new Error('Friend message reset persistence unavailable');
+        }
+
+        await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+            await window.imStorage.replaceFriendMessages(safeFriendId, []);
+            await window.imStorage.saveFriendMeta(targetFriend);
+            return true;
+        });
+
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to reset friend messages', e);
+        targetFriend.messages = previousMessages;
+        window.imApp.reindexFriendMessages(targetFriend);
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        window.imApp.syncActiveFriendReference(targetFriend);
+        window.imApp.syncSettingsFriendReference(targetFriend);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('聊天记录清空失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.resetFriendConversation = async function(friendId, options = {}) {
+    const safeFriendId = String(friendId);
+    const targetFriend = (window.imData.friends || []).find(
+        friend => String(friend.id) === safeFriendId
+    );
+    if (!targetFriend) return false;
+
+    if (window.imApp.ensureFriendMessagesLoaded) {
+        await window.imApp.ensureFriendMessagesLoaded(targetFriend);
+    }
+
+    const previousFriend = window.imApp.cloneDataSnapshot(targetFriend);
+    const pendingTimer = window.imApp.saveState.friendTimers.get(safeFriendId);
+    if (pendingTimer) clearTimeout(pendingTimer);
+    window.imApp.saveState.friendTimers.delete(safeFriendId);
+    window.imApp.saveState.friendDirtyIds.delete(safeFriendId);
+    if (window.imChat?.invalidateFriendConversation) {
+        window.imChat.invalidateFriendConversation(safeFriendId);
+    }
+
+    targetFriend.messages = [];
+    targetFriend.unreadCount = 0;
+    targetFriend.memory = window.imApp.createClearedConversationMemory(targetFriend.memory || {});
+    targetFriend.profilePanel = window.imApp.createDefaultProfilePanel({});
+    targetFriend.latestThought = '';
+    targetFriend.status = 'online';
+    if (targetFriend.type === 'group') targetFriend.memberProfiles = {};
+    if (targetFriend.pendingRegenerateContext) delete targetFriend.pendingRegenerateContext;
+    window.imApp.syncFriendMessageSummary(targetFriend);
+    window.imApp.clearFriendRuntimeMessageContext(targetFriend);
+    window.imApp.syncActiveFriendReference(targetFriend);
+    window.imApp.syncSettingsFriendReference(targetFriend);
+
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage?.replaceFriendMessages || !window.imStorage?.saveFriendMeta) {
+            throw new Error('Friend conversation reset persistence unavailable');
+        }
+
+        await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+            await window.imStorage.replaceFriendMessages(safeFriendId, []);
+            await window.imStorage.saveFriendMeta(targetFriend);
+            return true;
+        });
+
+        window.imApp.saveState.lastError = null;
+        if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        return true;
+    } catch (error) {
+        console.error('Failed to reset friend conversation', error);
+        Object.keys(targetFriend).forEach(key => delete targetFriend[key]);
+        Object.assign(targetFriend, previousFriend);
+        window.imApp.reindexFriendMessages(targetFriend);
+        window.imApp.syncFriendMessageSummary(targetFriend);
+        window.imApp.syncActiveFriendReference(targetFriend);
+        window.imApp.syncSettingsFriendReference(targetFriend);
+        window.imApp.saveState.lastError = error;
+
+        try {
+            if (window.imStorage?.replaceFriendMessages && window.imStorage?.saveFriendMeta) {
+                await window.imApp.runFriendPersistenceTask(safeFriendId, async () => {
+                    await window.imStorage.replaceFriendMessages(safeFriendId, previousFriend.messages || []);
+                    await window.imStorage.saveFriendMeta(previousFriend);
+                    return true;
+                });
+            }
+        } catch (rollbackError) {
+            console.error('Failed to roll back friend conversation reset', rollbackError);
+        }
+
+        if (!options.silent && window.showToast) {
+            window.showToast('聊天记录与上下文清空失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.persistMomentMessagesData = async function(options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage || !window.imStorage.saveMomentMessages) {
+            throw new Error('imStorage.saveMomentMessages unavailable');
+        }
+
+        await window.imStorage.saveMomentMessages(
+            window.imApp.cloneDataSnapshot(Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : [])
+        );
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist moment message data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('朋友圈通知保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.persistStickersData = async function(options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage || !window.imStorage.saveStickers) {
+            throw new Error('imStorage.saveStickers unavailable');
+        }
+
+        await window.imStorage.saveStickers(
+            window.imApp.cloneDataSnapshot(Array.isArray(window.imData.stickers) ? window.imData.stickers : [])
+        );
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist sticker data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('表情包保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.persistMomentsCoverData = async function(options = {}) {
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (!window.imStorage || !window.imStorage.saveMomentsCover) {
+            throw new Error('imStorage.saveMomentsCover unavailable');
+        }
+
+        await window.imStorage.saveMomentsCover(window.imData.momentsCoverUrl || null);
+        window.imApp.saveState.lastError = null;
+        return true;
+    } catch (e) {
+        console.error('Failed to persist moments cover data', e);
+        window.imApp.saveState.lastError = e;
+        if (!options.silent && window.showToast) {
+            window.showToast('朋友圈封面保存失败');
+        }
+        return false;
+    }
+};
+
+window.imApp.flushFriendSave = async function(friendId, options = {}) {
+    const safeFriendId = String(friendId);
+    const timerRecord = window.imApp.saveState.friendTimers.get(safeFriendId);
+    if (timerRecord) {
+        clearTimeout(timerRecord.timer || timerRecord);
+        window.imApp.saveState.friendTimers.delete(safeFriendId);
+    }
+
+    const previousChain = window.imApp.saveState.friendFlushChains.get(safeFriendId) || Promise.resolve();
+    const nextChain = previousChain.catch(() => false).then(async () => {
+        const revisionBeforeSave = window.imApp.saveState.friendRevisions.get(safeFriendId) || 0;
+        const timerOptions = timerRecord && typeof timerRecord === 'object' ? (timerRecord.options || {}) : {};
+        const persistOptions = {
+            ...timerOptions,
+            ...options
+        };
+        const saved = await window.imApp.persistFriendData(safeFriendId, persistOptions);
+
+        if (saved) {
+            const latestRevision = window.imApp.saveState.friendRevisions.get(safeFriendId) || 0;
+            if (latestRevision === revisionBeforeSave) {
+                window.imApp.saveState.friendDirtyIds.delete(safeFriendId);
+            }
+        }
+
+        window.imApp.saveState.dirty =
+            window.imApp.saveState.friendDirtyIds.size > 0 ||
+            window.imApp.saveState.momentDirtyIds.size > 0 ||
+            window.imApp.saveState.momentMessagesDirty ||
+            window.imApp.saveState.stickersDirty ||
+            window.imApp.saveState.momentsCoverDirty;
+
+        return saved;
+    });
+
+    window.imApp.saveState.friendFlushChains.set(safeFriendId, nextChain);
+
+    try {
+        return await nextChain;
+    } finally {
+        if (window.imApp.saveState.friendFlushChains.get(safeFriendId) === nextChain) {
+            window.imApp.saveState.friendFlushChains.delete(safeFriendId);
+        }
+    }
+};
+
+window.imApp.scheduleFriendSave = function(friendId, options = {}) {
+    if (friendId == null) return false;
+    const safeFriendId = String(friendId);
+    const delay = Number.isFinite(Number(options.delay)) ? Number(options.delay) : 500;
+
+    window.imApp.markFriendDirty(safeFriendId);
+
+    const existingTimer = window.imApp.saveState.friendTimers.get(safeFriendId);
+    if (existingTimer) {
+        clearTimeout(existingTimer.timer || existingTimer);
+    }
+
+    const timerOptions = {
+        silent: options.silent !== false,
+        metaOnly: options.metaOnly === true,
+        includeMessages: options.includeMessages
+    };
+
+    const timer = setTimeout(() => {
+        window.imApp.flushFriendSave(safeFriendId, timerOptions);
+    }, Math.max(0, delay));
+
+    window.imApp.saveState.friendTimers.set(safeFriendId, {
+        timer,
+        options: timerOptions
+    });
+    return true;
+};
+
+window.imApp.flushMomentSave = async function(momentId, options = {}) {
+    const safeMomentId = String(momentId);
+    const timer = window.imApp.saveState.momentTimers.get(safeMomentId);
+    if (timer) {
+        clearTimeout(timer);
+        window.imApp.saveState.momentTimers.delete(safeMomentId);
+    }
+
+    const previousChain = window.imApp.saveState.momentFlushChains.get(safeMomentId) || Promise.resolve();
+    const nextChain = previousChain.catch(() => false).then(async () => {
+        const revisionBeforeSave = window.imApp.saveState.momentRevisions.get(safeMomentId) || 0;
+        const saved = await window.imApp.persistMomentData(safeMomentId, options);
+
+        if (saved) {
+            const latestRevision = window.imApp.saveState.momentRevisions.get(safeMomentId) || 0;
+            if (latestRevision === revisionBeforeSave) {
+                window.imApp.saveState.momentDirtyIds.delete(safeMomentId);
+            }
+        }
+
+        window.imApp.saveState.dirty =
+            window.imApp.saveState.friendDirtyIds.size > 0 ||
+            window.imApp.saveState.momentDirtyIds.size > 0 ||
+            window.imApp.saveState.momentMessagesDirty ||
+            window.imApp.saveState.stickersDirty ||
+            window.imApp.saveState.momentsCoverDirty;
+
+        return saved;
+    });
+
+    window.imApp.saveState.momentFlushChains.set(safeMomentId, nextChain);
+
+    try {
+        return await nextChain;
+    } finally {
+        if (window.imApp.saveState.momentFlushChains.get(safeMomentId) === nextChain) {
+            window.imApp.saveState.momentFlushChains.delete(safeMomentId);
+        }
+    }
+};
+
+window.imApp.scheduleMomentSave = function(momentId, options = {}) {
+    if (momentId == null) return false;
+    const safeMomentId = String(momentId);
+    const delay = Number.isFinite(Number(options.delay)) ? Number(options.delay) : 500;
+
+    window.imApp.markMomentDirty(safeMomentId);
+
+    const existingTimer = window.imApp.saveState.momentTimers.get(safeMomentId);
+    if (existingTimer) {
+        clearTimeout(existingTimer);
+    }
+
+    const timer = setTimeout(() => {
+        window.imApp.flushMomentSave(safeMomentId, {
+            silent: options.silent !== false
+        });
+    }, Math.max(0, delay));
+
+    window.imApp.saveState.momentTimers.set(safeMomentId, timer);
+    return true;
+};
+
+window.imApp.flushMomentMessagesSave = async function(options = {}) {
+    const saved = await window.imApp.persistMomentMessagesData(options);
+    if (saved) {
+        window.imApp.saveState.momentMessagesDirty = false;
+    }
+    window.imApp.saveState.dirty =
+        window.imApp.saveState.friendDirtyIds.size > 0 ||
+        window.imApp.saveState.momentDirtyIds.size > 0 ||
+        window.imApp.saveState.momentMessagesDirty ||
+        window.imApp.saveState.stickersDirty ||
+        window.imApp.saveState.momentsCoverDirty;
+    return saved;
+};
+
+window.imApp.flushStickersSave = async function(options = {}) {
+    const saved = await window.imApp.persistStickersData(options);
+    if (saved) {
+        window.imApp.saveState.stickersDirty = false;
+    }
+    window.imApp.saveState.dirty =
+        window.imApp.saveState.friendDirtyIds.size > 0 ||
+        window.imApp.saveState.momentDirtyIds.size > 0 ||
+        window.imApp.saveState.momentMessagesDirty ||
+        window.imApp.saveState.stickersDirty ||
+        window.imApp.saveState.momentsCoverDirty;
+    return saved;
+};
+
+window.imApp.flushMomentsCoverSave = async function(options = {}) {
+    const saved = await window.imApp.persistMomentsCoverData(options);
+    if (saved) {
+        window.imApp.saveState.momentsCoverDirty = false;
+    }
+    window.imApp.saveState.dirty =
+        window.imApp.saveState.friendDirtyIds.size > 0 ||
+        window.imApp.saveState.momentDirtyIds.size > 0 ||
+        window.imApp.saveState.momentMessagesDirty ||
+        window.imApp.saveState.stickersDirty ||
+        window.imApp.saveState.momentsCoverDirty;
+    return saved;
+};
+
+window.imApp.flushGlobalSave = async function(options = {}) {
+    if (window.imApp.saveState.timer) {
+        clearTimeout(window.imApp.saveState.timer);
+        window.imApp.saveState.timer = null;
+    }
+
+    if (window.imApp.saveState.isSaving) {
+        window.imApp.saveState.hasPendingSave = true;
+        return true;
+    }
+
+    window.imApp.saveState.isSaving = true;
+    try {
+        do {
+            window.imApp.saveState.hasPendingSave = false;
+
+            const dirtyFriendIds = Array.from(window.imApp.saveState.friendDirtyIds);
+            const dirtyMomentIds = Array.from(window.imApp.saveState.momentDirtyIds);
+
+            for (const friendId of dirtyFriendIds) {
+                const saved = await window.imApp.flushFriendSave(friendId, options);
+                if (!saved) return false;
+            }
+
+            for (const momentId of dirtyMomentIds) {
+                const saved = await window.imApp.flushMomentSave(momentId, options);
+                if (!saved) return false;
+            }
+
+            if (window.imApp.saveState.momentMessagesDirty) {
+                const saved = await window.imApp.flushMomentMessagesSave(options);
+                if (!saved) return false;
+            }
+
+            if (window.imApp.saveState.stickersDirty) {
+                const saved = await window.imApp.flushStickersSave(options);
+                if (!saved) return false;
+            }
+
+            if (window.imApp.saveState.momentsCoverDirty) {
+                const saved = await window.imApp.flushMomentsCoverSave(options);
+                if (!saved) return false;
+            }
+
+            window.imApp.saveState.dirty =
+                window.imApp.saveState.friendDirtyIds.size > 0 ||
+                window.imApp.saveState.momentDirtyIds.size > 0 ||
+                window.imApp.saveState.momentMessagesDirty ||
+                window.imApp.saveState.stickersDirty ||
+                window.imApp.saveState.momentsCoverDirty;
+        } while (window.imApp.saveState.hasPendingSave);
+
+        return true;
+    } finally {
+        window.imApp.saveState.isSaving = false;
+    }
+};
+
+window.imApp.scheduleGlobalSave = function(options = {}) {
+    const delay = Number.isFinite(Number(options.delay)) ? Number(options.delay) : window.imApp.saveState.delay;
+    window.imApp.saveState.dirty = true;
+
+    if (window.imApp.saveState.timer) {
+        clearTimeout(window.imApp.saveState.timer);
+    }
+
+    window.imApp.saveState.timer = setTimeout(() => {
+        window.imApp.flushGlobalSave({
+            silent: options.silent !== false
+        });
+    }, Math.max(0, delay));
+
+    return true;
+};
+
+window.imApp.commitGlobalChange = async function(mutator, options = {}) {
+    const previousSnapshot = window.imApp.buildPersistedData();
+
+    try {
+        if (typeof mutator === 'function') {
+            await mutator();
+        }
+
+        if (options.immediate === false) {
+            window.imApp.scheduleGlobalSave({
+                delay: options.delay,
+                silent: options.silent !== false
+            });
+
+            if (typeof options.onSuccess === 'function') {
+                options.onSuccess(window.imData);
+            }
+            return true;
+        }
+
+        const saved = await window.imApp.flushGlobalSave({
+            silent: !!options.silent
+        });
+
+        if (!saved) {
+            window.imData.friends = previousSnapshot.friends;
+            window.imData.moments = previousSnapshot.moments;
+            window.imData.momentMessages = previousSnapshot.momentMessages;
+            window.imData.stickers = previousSnapshot.stickers;
+            window.imData.momentsCoverUrl = previousSnapshot.momentsCoverUrl;
+            if (typeof options.onRollback === 'function') {
+                options.onRollback(window.imData);
+            }
+            return false;
+        }
+
+        if (typeof options.onSuccess === 'function') {
+            options.onSuccess(window.imData);
+        }
+
+        return true;
+    } catch (e) {
+        console.error('Failed to commit global change', e);
+        window.imData.friends = previousSnapshot.friends;
+        window.imData.moments = previousSnapshot.moments;
+        window.imData.momentMessages = previousSnapshot.momentMessages;
+        window.imData.stickers = previousSnapshot.stickers;
+        window.imData.momentsCoverUrl = previousSnapshot.momentsCoverUrl;
+        if (typeof options.onRollback === 'function') {
+            options.onRollback(window.imData);
+        }
+        if (!options.silent && window.showToast) {
+            window.showToast('保存失败，已撤销本次修改');
+        }
+        return false;
+    }
+};
+
+window.imApp.commitFriendChange = async function(friendId, mutator, options = {}) {
+    const friends = Array.isArray(window.imData.friends) ? window.imData.friends : [];
+    const targetIndex = friends.findIndex(
+        friend => String(friend.id) === String(friendId)
+    );
+    const previousFriend = targetIndex > -1
+        ? window.imApp.cloneDataSnapshot(friends[targetIndex])
+        : null;
+
+    try {
+        const targetFriend = targetIndex > -1 ? friends[targetIndex] : null;
+
+        if (typeof mutator === 'function') {
+            await mutator(targetFriend, friends, targetIndex);
+        }
+
+        window.imApp.markFriendDirty(friendId);
+
+        if (options.immediate === false) {
+            window.imApp.scheduleFriendSave(friendId, {
+                delay: options.delay,
+                silent: options.silent !== false,
+                metaOnly: options.metaOnly === true,
+                includeMessages: options.includeMessages
+            });
+
+            if (typeof options.onSuccess === 'function') {
+                options.onSuccess(window.imData.friends);
+            }
+            return true;
+        }
+
+        const saved = await window.imApp.flushFriendSave(friendId, {
+            silent: !!options.silent,
+            metaOnly: options.metaOnly === true,
+            includeMessages: options.includeMessages
+        });
+
+        if (!saved) {
+            if (targetIndex > -1) {
+                if (previousFriend) {
+                    window.imData.friends[targetIndex] = previousFriend;
+                } else {
+                    window.imData.friends.splice(targetIndex, 1);
+                }
+            }
+            if (typeof options.onRollback === 'function') {
+                options.onRollback(window.imData.friends);
+            }
+            return false;
+        }
+
+        if (typeof options.onSuccess === 'function') {
+            options.onSuccess(window.imData.friends);
+        }
+
+        return true;
+    } catch (e) {
+        console.error('Failed to commit friend change', e);
+        if (targetIndex > -1) {
+            if (previousFriend) {
+                window.imData.friends[targetIndex] = previousFriend;
+            } else {
+                window.imData.friends.splice(targetIndex, 1);
+            }
+        }
+        if (typeof options.onRollback === 'function') {
+            options.onRollback(window.imData.friends);
+        }
+        if (!options.silent && window.showToast) {
+            window.showToast('保存失败，已撤销本次修改');
+        }
+        return false;
+    }
+};
+
+window.imApp.commitFriendsChange = async function(mutator, options = {}) {
+    if (window.imApp.ensureDataReady && !window.imData.ready) {
+        await window.imApp.ensureDataReady();
+    }
+
+    const previousFriends = window.imApp.cloneDataSnapshot(
+        Array.isArray(window.imData.friends) ? window.imData.friends : []
+    );
+
+    try {
+        if (typeof mutator === 'function') {
+            await mutator();
+        }
+
+        const currentFriendIds = (window.imData.friends || []).map(friend => String(friend.id));
+        const deletedFriendIds = Array.isArray(options.deletedFriendIds)
+            ? options.deletedFriendIds.map(String)
+            : previousFriends
+                .map(friend => String(friend.id))
+                .filter((friendId) => !currentFriendIds.includes(friendId));
+
+        const friendIds = Array.isArray(options.friendIds)
+            ? Array.from(new Set([...options.friendIds.map(String), ...deletedFriendIds]))
+            : (options.friendId != null
+                ? Array.from(new Set([String(options.friendId), ...deletedFriendIds]))
+                : Array.from(new Set([...currentFriendIds, ...deletedFriendIds])));
+
+        friendIds.forEach((friendId) => window.imApp.markFriendDirty(friendId));
+
+        if (options.immediate === false) {
+            if (friendIds.length === 1) {
+                window.imApp.scheduleFriendSave(friendIds[0], {
+                    delay: options.delay,
+                    silent: options.silent !== false,
+                    metaOnly: options.metaOnly === true,
+                    includeMessages: options.includeMessages
+                });
+            } else {
+                window.imApp.scheduleGlobalSave({
+                    delay: options.delay,
+                    silent: options.silent !== false
+                });
+            }
+
+            if (typeof options.onSuccess === 'function') {
+                options.onSuccess(window.imData.friends);
+            }
+            return true;
+        }
+
+        const saved = friendIds.length === 1
+            ? await window.imApp.flushFriendSave(friendIds[0], {
+                silent: !!options.silent,
+                metaOnly: options.metaOnly === true,
+                includeMessages: options.includeMessages
+            })
+            : await window.imApp.flushGlobalSave({
+                silent: !!options.silent
+            });
+
+        if (!saved) {
+            window.imData.friends = previousFriends;
+            if (typeof options.onRollback === 'function') {
+                options.onRollback(window.imData.friends);
+            }
+            return false;
+        }
+
+        if (typeof options.onSuccess === 'function') {
+            options.onSuccess(window.imData.friends);
+        }
+
+        return true;
+    } catch (e) {
+        console.error('Failed to commit friends change', e);
+        window.imData.friends = previousFriends;
+        if (typeof options.onRollback === 'function') {
+            options.onRollback(window.imData.friends);
+        }
+        if (!options.silent && window.showToast) {
+            window.showToast('保存失败，已撤销本次修改');
+        }
+        return false;
+    }
+};
+
+window.imApp.commitMomentChange = async function(momentId, mutator, options = {}) {
+    const moments = Array.isArray(window.imData.moments) ? window.imData.moments : [];
+    const targetIndex = moments.findIndex(
+        moment => String(moment.id) === String(momentId)
+    );
+    const previousMoment = targetIndex > -1
+        ? window.imApp.cloneDataSnapshot(moments[targetIndex])
+        : null;
+
+    try {
+        const targetMoment = targetIndex > -1 ? moments[targetIndex] : null;
+
+        if (typeof mutator === 'function') {
+            await mutator(targetMoment, moments, targetIndex);
+        }
+
+        window.imApp.markMomentDirty(momentId);
+
+        if (options.immediate === false) {
+            window.imApp.scheduleMomentSave(momentId, {
+                delay: options.delay,
+                silent: options.silent !== false
+            });
+
+            if (typeof options.onSuccess === 'function') {
+                options.onSuccess(window.imData.moments);
+            }
+            return true;
+        }
+
+        const saved = await window.imApp.flushMomentSave(momentId, {
+            silent: !!options.silent
+        });
+
+        if (!saved) {
+            if (targetIndex > -1) {
+                if (previousMoment) {
+                    window.imData.moments[targetIndex] = previousMoment;
+                } else {
+                    window.imData.moments.splice(targetIndex, 1);
+                }
+            }
+            if (typeof options.onRollback === 'function') {
+                options.onRollback(window.imData.moments);
+            }
+            return false;
+        }
+
+        if (typeof options.onSuccess === 'function') {
+            options.onSuccess(window.imData.moments);
+        }
+
+        return true;
+    } catch (e) {
+        console.error('Failed to commit moment change', e);
+        if (targetIndex > -1) {
+            if (previousMoment) {
+                window.imData.moments[targetIndex] = previousMoment;
+            } else {
+                window.imData.moments.splice(targetIndex, 1);
+            }
+        }
+        if (typeof options.onRollback === 'function') {
+            options.onRollback(window.imData.moments);
+        }
+        if (!options.silent && window.showToast) {
+            window.showToast('朋友圈保存失败，已撤销本次修改');
+        }
+        return false;
+    }
+};
+
+window.imApp.deleteMomentPermanently = async function(momentId, options = {}) {
+    if (momentId == null) return false;
+
+    const safeMomentId = String(momentId);
+    let previousMoments = [];
+    let previousMessages = [];
+
+    try {
+        if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+        if (window.imApp.ensureMomentsReady) await window.imApp.ensureMomentsReady();
+        if (window.imApp.ensureMomentMessagesReady) await window.imApp.ensureMomentMessagesReady();
+
+        previousMoments = window.imApp.cloneDataSnapshot(Array.isArray(window.imData.moments) ? window.imData.moments : []);
+        previousMessages = window.imApp.cloneDataSnapshot(Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : []);
+
+        const pendingTimer = window.imApp.saveState.momentTimers.get(safeMomentId);
+        if (pendingTimer) {
+            clearTimeout(pendingTimer);
+            window.imApp.saveState.momentTimers.delete(safeMomentId);
+        }
+
+        const pendingFlush = window.imApp.saveState.momentFlushChains.get(safeMomentId);
+        if (pendingFlush) {
+            await pendingFlush.catch(() => false);
+        }
+
+        window.imData.moments = (Array.isArray(window.imData.moments) ? window.imData.moments : [])
+            .filter(moment => String(moment?.id) !== safeMomentId);
+        window.imData.momentMessages = (Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : [])
+            .filter(msg => String(msg?.momentId) !== safeMomentId);
+
+        window.imApp.saveState.momentDirtyIds.delete(safeMomentId);
+        window.imApp.saveState.momentRevisions.delete(safeMomentId);
+        window.imApp.saveState.momentFlushChains.delete(safeMomentId);
+
+        if (window.imStorage?.deleteMoment) {
+            const deleted = await window.imStorage.deleteMoment(momentId);
+            if (deleted === false) throw new Error('deleteMoment failed');
+        }
+        if (window.imStorage?.saveMoments) {
+            const savedMoments = await window.imStorage.saveMoments(window.imData.moments);
+            if (savedMoments === false) throw new Error('saveMoments failed');
+        } else if (window.imApp.saveMoments) {
+            const saved = await window.imApp.saveMoments({ silent: options.silent !== false });
+            if (!saved) throw new Error('saveMoments failed');
+        }
+
+        if (window.imStorage?.saveMomentMessages) {
+            const savedMessages = await window.imStorage.saveMomentMessages(window.imData.momentMessages);
+            if (savedMessages === false) throw new Error('saveMomentMessages failed');
+            window.imApp.saveState.momentMessagesDirty = false;
+        } else if (window.imApp.saveMomentMessages) {
+            const saved = await window.imApp.saveMomentMessages({ silent: options.silent !== false });
+            if (!saved) throw new Error('saveMomentMessages failed');
+        }
+
+        window.imApp.saveState.lastError = null;
+        window.imApp.saveState.dirty =
+            window.imApp.saveState.friendDirtyIds.size > 0 ||
+            window.imApp.saveState.momentDirtyIds.size > 0 ||
+            window.imApp.saveState.momentMessagesDirty ||
+            window.imApp.saveState.stickersDirty ||
+            window.imApp.saveState.momentsCoverDirty;
+
+        return true;
+    } catch (e) {
+        console.error('Failed to permanently delete moment', e);
+        window.imData.moments = previousMoments;
+        window.imData.momentMessages = previousMessages;
+        window.imApp.saveState.lastError = e;
+
+        try {
+            if (window.imStorage?.saveMoments) {
+                await window.imStorage.saveMoments(previousMoments);
+            }
+            if (window.imStorage?.saveMomentMessages) {
+                await window.imStorage.saveMomentMessages(previousMessages);
+            }
+        } catch (restoreError) {
+            console.error('Failed to restore moment deletion rollback', restoreError);
+        }
+
+        if (!options.silent && window.showToast) {
+            window.showToast('朋友圈删除失败，已恢复');
+        }
+        return false;
+    }
+};
+
+window.imApp.saveFriends = async function(options = {}) {
+    return window.imApp.flushGlobalSave(options);
+};
+
+window.imApp.saveMoments = async function(options = {}) {
+    return window.imApp.flushGlobalSave(options);
+};
+
+window.imApp.saveMomentMessages = async function(options = {}) {
+    window.imApp.markMomentMessagesDirty();
+    if (options.immediate === false) {
+        window.imApp.scheduleGlobalSave({
+            delay: options.delay,
+            silent: options.silent !== false
+        });
+        return true;
+    }
+    return window.imApp.flushMomentMessagesSave(options);
+};
+
+window.imApp.saveStickers = async function(options = {}) {
+    window.imApp.markStickersDirty();
+    if (options.immediate === false) {
+        window.imApp.scheduleGlobalSave({
+            delay: options.delay,
+            silent: options.silent !== false
+        });
+        return true;
+    }
+    return window.imApp.flushStickersSave(options);
+};
+
+window.imApp.commitStickersChange = async function(mutator, options = {}) {
+    const previousStickers = window.imApp.cloneDataSnapshot(
+        Array.isArray(window.imData.stickers) ? window.imData.stickers : []
+    );
+
+    try {
+        if (typeof mutator === 'function') {
+            await mutator(window.imData.stickers);
+        }
+
+        window.imApp.markStickersDirty();
+
+        if (options.immediate === false) {
+            window.imApp.scheduleGlobalSave({
+                delay: options.delay,
+                silent: options.silent !== false
+            });
+
+            if (typeof options.onSuccess === 'function') {
+                options.onSuccess(window.imData.stickers);
+            }
+            window.dispatchEvent(new CustomEvent('u2:stickers-data-changed', {
+                detail: { stickers: window.imData.stickers }
+            }));
+            return true;
+        }
+
+        const saved = await window.imApp.flushStickersSave({
+            silent: !!options.silent
+        });
+
+        if (!saved) {
+            window.imData.stickers = previousStickers;
+            if (typeof options.onRollback === 'function') {
+                options.onRollback(window.imData.stickers);
+            }
+            return false;
+        }
+
+        if (typeof options.onSuccess === 'function') {
+            options.onSuccess(window.imData.stickers);
+        }
+
+        window.dispatchEvent(new CustomEvent('u2:stickers-data-changed', {
+            detail: { stickers: window.imData.stickers }
+        }));
+
+        return true;
+    } catch (e) {
+        console.error('Failed to commit stickers change', e);
+        window.imData.stickers = previousStickers;
+        if (typeof options.onRollback === 'function') {
+            options.onRollback(window.imData.stickers);
+        }
+        if (!options.silent && window.showToast) {
+            window.showToast('表情包保存失败，已撤销本次修改');
+        }
+        return false;
+    }
+};
+
+window.imApp.saveMomentsCover = async function(dataUrlOrUrl, options = {}) {
+    window.imData.momentsCoverUrl = dataUrlOrUrl || null;
+    window.imApp.markMomentsCoverDirty();
+    if (options.immediate === false) {
+        window.imApp.scheduleGlobalSave({
+            delay: options.delay,
+            silent: options.silent !== false
+        });
+        return window.imData.momentsCoverUrl;
+    }
+    const saved = await window.imApp.flushMomentsCoverSave(options);
+    return saved ? window.imData.momentsCoverUrl : null;
+};
+
+window.imApp.getStorageUsage = async function() {
+    try {
+        if (!window.imStorage || !window.imStorage.measureApproximateUsage) return 0;
+        return await window.imStorage.measureApproximateUsage();
+    } catch (e) {
+        console.error('Failed to measure iMessage storage usage', e);
+        return 0;
+    }
+};
+
+window.imApp.clearRuntimeCache = function() {
+    try {
+        if (window.imStorage?.clearRuntimeAssetCache) {
+            window.imStorage.clearRuntimeAssetCache();
+        }
+        if (window.imStorage?.pruneRuntimeAssetCache) {
+            window.imStorage.pruneRuntimeAssetCache(0);
+        }
+        return true;
+    } catch (e) {
+        console.error('Failed to clear iMessage runtime cache', e);
+        return false;
+    }
+};
+
+window.getGlobalWorldBookContextByPosition = function(position = 'before_role', contextText = '') {
+    const normalizeEntry = window.normalizeWorldBookEntry
+        ? window.normalizeWorldBookEntry
+        : function(entry = {}) {
+            return {
+                title: entry.title || entry.name || entry.keyword || '未命名词条',
+                keyword: entry.keyword || '',
+                content: entry.content || '',
+                triggerMode: entry.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+                injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(entry.injectionPosition)
+                    ? entry.injectionPosition
+                    : 'before_role',
+                systemDepth: Number.isFinite(Number(entry.systemDepth)) ? Number(entry.systemDepth) : 4,
+                order: Number.isFinite(Number(entry.order)) ? Number(entry.order) : 100,
+                recursive: false,
+                enabled: entry.enabled !== false
+            };
+        };
+
+    const keywordMatched = window.worldBookKeywordMatched
+        ? window.worldBookKeywordMatched
+        : function(entry, text = '') {
+            if (!entry || entry.triggerMode !== 'keyword') return true;
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            if (!keyword) return false;
+            return String(text || '').includes(keyword);
+        };
+
+    const formatEntry = window.formatWorldBookEntryForPrompt
+        ? window.formatWorldBookEntryForPrompt
+        : function(entry) {
+            const title = entry.title ? String(entry.title).trim() : '未命名词条';
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            const content = entry.content ? String(entry.content).trim() : '';
+            const triggerModeLabel = entry.triggerMode === 'keyword' ? '关键词' : '永久';
+
+            let injectionLabel = '角色前';
+            if (entry.injectionPosition === 'after_role') injectionLabel = '角色后';
+            if (entry.injectionPosition === 'system_depth') injectionLabel = '系统深度';
+
+            let block = `【${title}】\n`;
+            block += `触发机制: ${triggerModeLabel}\n`;
+            block += `注入位置: ${injectionLabel}\n`;
+
+            if (entry.injectionPosition === 'system_depth') {
+                block += `深度: ${entry.systemDepth}\n`;
+                block += `顺序: ${entry.order}\n`;
+            }
+
+            if (entry.triggerMode === 'keyword' && keyword) {
+                block += `关键词: ${keyword}\n`;
+            }
+
+            if (content) {
+                block += `内容:\n${content}\n`;
+            }
+
+            return block.trim();
+        };
+
+    const titleMap = {
+        before_role: 'World Book / 角色前',
+        after_role: 'World Book / 角色后',
+        system_depth: 'World Book / 系统深度'
+    };
+
+    const positionEntries = [];
+
+    if (window.getWorldBooks) {
+        const allBooks = window.getWorldBooks();
+        if (Array.isArray(allBooks) && allBooks.length > 0) {
+            const globalBooks = allBooks.filter(book => book && book.isGlobal && Array.isArray(book.entries) && book.entries.length > 0);
+
+            globalBooks.forEach(book => {
+                book.entries
+                    .map(entry => normalizeEntry(entry))
+                    .filter(entry => entry && entry.enabled !== false)
+                    .filter(entry => entry.injectionPosition === position)
+                    .filter(entry => keywordMatched(entry, contextText))
+                    .forEach(entry => {
+                        positionEntries.push({
+                            ...entry,
+                            __bookName: book.name || '未命名世界书'
+                        });
+                    });
+            });
+        }
+    }
+
+    const sections = [];
+
+    if (positionEntries.length > 0) {
+        positionEntries.sort((a, b) => {
+            if (position === 'system_depth') {
+                if (a.systemDepth !== b.systemDepth) return a.systemDepth - b.systemDepth;
+                return a.order - b.order;
+            }
+            return a.order - b.order;
+        });
+
+        let section = `${titleMap[position]}:\n`;
+        positionEntries.forEach(entry => {
+            section += `〔${entry.__bookName}〕\n${formatEntry(entry)}\n\n`;
+        });
+        sections.push(section.trim());
+    }
+
+    if (window.getBuiltinWorldBookContext) {
+        const builtinSection = window.getBuiltinWorldBookContext(position, contextText);
+        if (builtinSection) {
+            sections.push(builtinSection.trim());
+        }
+    }
+
+    return sections.join('\n\n').trim();
+};
+
+window.getGlobalWorldBookContext = function(contextText = '') {
+    const positions = ['system_depth', 'before_role', 'after_role'];
+    const sections = positions
+        .map(position => window.getGlobalWorldBookContextByPosition(position, contextText))
+        .filter(Boolean);
+
+    return sections.join('\n\n').trim();
+};
+
+window.imApp.getWorldBookContextForFriendByPosition = function(position = 'before_role', friend = null, contextText = '') {
+    const normalizeEntry = window.normalizeWorldBookEntry
+        ? window.normalizeWorldBookEntry
+        : function(entry = {}) {
+            return {
+                title: entry.title || entry.name || entry.keyword || '未命名词条',
+                keyword: entry.keyword || '',
+                content: entry.content || '',
+                triggerMode: entry.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+                injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(entry.injectionPosition)
+                    ? entry.injectionPosition
+                    : 'before_role',
+                systemDepth: Number.isFinite(Number(entry.systemDepth)) ? Number(entry.systemDepth) : 4,
+                order: Number.isFinite(Number(entry.order)) ? Number(entry.order) : 100,
+                enabled: entry.enabled !== false
+            };
+        };
+
+    const keywordMatched = window.worldBookKeywordMatched
+        ? window.worldBookKeywordMatched
+        : function(entry, text = '') {
+            if (!entry || entry.triggerMode !== 'keyword') return true;
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            if (!keyword) return false;
+            return String(text || '').includes(keyword);
+        };
+
+    const formatEntry = window.formatWorldBookEntryForPrompt
+        ? window.formatWorldBookEntryForPrompt
+        : function(entry) {
+            const title = entry.title ? String(entry.title).trim() : '未命名词条';
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            const content = entry.content ? String(entry.content).trim() : '';
+            const triggerModeLabel = entry.triggerMode === 'keyword' ? '关键词' : '永久';
+
+            let injectionLabel = '角色前';
+            if (entry.injectionPosition === 'after_role') injectionLabel = '角色后';
+            if (entry.injectionPosition === 'system_depth') injectionLabel = '系统深度';
+
+            let block = `【${title}】\n`;
+            block += `触发机制: ${triggerModeLabel}\n`;
+            block += `注入位置: ${injectionLabel}\n`;
+
+            if (entry.injectionPosition === 'system_depth') {
+                block += `深度: ${entry.systemDepth}\n`;
+                block += `顺序: ${entry.order}\n`;
+            }
+
+            if (entry.triggerMode === 'keyword' && keyword) {
+                block += `关键词: ${keyword}\n`;
+            }
+
+            if (content) {
+                block += `内容:\n${content}\n`;
+            }
+
+            return block.trim();
+        };
+
+    const titleMap = {
+        before_role: 'Bound World Book / 绑定角色前',
+        after_role: 'Bound World Book / 绑定角色后',
+        system_depth: 'Bound World Book / 绑定系统深度'
+    };
+
+    const sections = [];
+    const globalContext = window.getGlobalWorldBookContextByPosition
+        ? window.getGlobalWorldBookContextByPosition(position, contextText)
+        : '';
+
+    if (globalContext) {
+        sections.push(globalContext.trim());
+    }
+
+    const normalizedFriend = friend ? window.imApp.normalizeFriendData(friend) : null;
+    const boundBookIds = normalizedFriend && Array.isArray(normalizedFriend.boundBooks)
+        ? normalizedFriend.boundBooks.map(id => String(id))
+        : [];
+
+    if (boundBookIds.length > 0 && window.getWorldBooks) {
+        const allBooks = window.getWorldBooks();
+        const boundEntries = [];
+
+        if (Array.isArray(allBooks)) {
+            allBooks
+                .filter(book => book && boundBookIds.includes(String(book.id)) && Array.isArray(book.entries))
+                .forEach(book => {
+                    book.entries
+                        .map(entry => normalizeEntry(entry))
+                        .filter(entry => entry && entry.enabled !== false)
+                        .filter(entry => entry.injectionPosition === position)
+                        .filter(entry => keywordMatched(entry, contextText))
+                        .forEach(entry => {
+                            boundEntries.push({
+                                ...entry,
+                                __bookName: book.name || '未命名世界书'
+                            });
+                        });
+                });
+        }
+
+        if (boundEntries.length > 0) {
+            boundEntries.sort((a, b) => {
+                if (position === 'system_depth') {
+                    if (a.systemDepth !== b.systemDepth) return a.systemDepth - b.systemDepth;
+                    return a.order - b.order;
+                }
+                return a.order - b.order;
+            });
+
+            let section = `${titleMap[position]}:\n`;
+            boundEntries.forEach(entry => {
+                section += `〔${entry.__bookName}〕\n${formatEntry(entry)}\n\n`;
+            });
+            sections.push(section.trim());
+        }
+    }
+
+    return sections.join('\n\n').trim();
+};
+
+window.getWorldBookContextForFriendByPosition = function(position = 'before_role', friend = null, contextText = '') {
+    return window.imApp.getWorldBookContextForFriendByPosition(position, friend, contextText);
+};
+
+window.imApp.getWorldBookContextForFriendByPosition = function(position = 'before_role', friend = null, contextText = '') {
+    const normalizeEntry = window.normalizeWorldBookEntry
+        ? window.normalizeWorldBookEntry
+        : function(entry = {}) {
+            return {
+                title: entry.title || entry.name || entry.keyword || '未命名词条',
+                keyword: entry.keyword || '',
+                content: entry.content || '',
+                triggerMode: entry.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+                injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(entry.injectionPosition)
+                    ? entry.injectionPosition
+                    : 'before_role',
+                systemDepth: Number.isFinite(Number(entry.systemDepth)) ? Number(entry.systemDepth) : 4,
+                order: Number.isFinite(Number(entry.order)) ? Number(entry.order) : 100,
+                enabled: entry.enabled !== false
+            };
+        };
+
+    const keywordMatched = window.worldBookKeywordMatched
+        ? window.worldBookKeywordMatched
+        : function(entry, text = '') {
+            if (!entry || entry.triggerMode !== 'keyword') return true;
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            if (!keyword) return false;
+            return String(text || '').includes(keyword);
+        };
+
+    const formatEntry = window.formatWorldBookEntryForPrompt
+        ? window.formatWorldBookEntryForPrompt
+        : function(entry) {
+            const title = entry.title ? String(entry.title).trim() : '未命名词条';
+            const keyword = entry.keyword ? String(entry.keyword).trim() : '';
+            const content = entry.content ? String(entry.content).trim() : '';
+            const triggerModeLabel = entry.triggerMode === 'keyword' ? '关键词' : '永久';
+
+            let injectionLabel = '角色前';
+            if (entry.injectionPosition === 'after_role') injectionLabel = '角色后';
+            if (entry.injectionPosition === 'system_depth') injectionLabel = '系统深度';
+
+            let block = `【${title}】\n`;
+            block += `触发机制: ${triggerModeLabel}\n`;
+            block += `注入位置: ${injectionLabel}\n`;
+
+            if (entry.injectionPosition === 'system_depth') {
+                block += `深度: ${entry.systemDepth}\n`;
+                block += `顺序: ${entry.order}\n`;
+            }
+
+            if (entry.triggerMode === 'keyword' && keyword) {
+                block += `关键词: ${keyword}\n`;
+            }
+
+            if (content) {
+                block += `内容:\n${content}\n`;
+            }
+
+            return block.trim();
+        };
+
+    const titleMap = {
+        before_role: 'Bound World Book / 绑定角色前',
+        after_role: 'Bound World Book / 绑定角色后',
+        system_depth: 'Bound World Book / 绑定系统深度'
+    };
+
+    const sections = [];
+    const globalContext = window.getGlobalWorldBookContextByPosition
+        ? window.getGlobalWorldBookContextByPosition(position, contextText)
+        : '';
+
+    if (globalContext) {
+        sections.push(globalContext.trim());
+    }
+
+    const normalizedFriend = friend ? window.imApp.normalizeFriendData(friend) : null;
+    const boundBookIds = normalizedFriend && Array.isArray(normalizedFriend.boundBooks)
+        ? normalizedFriend.boundBooks.map(id => String(id))
+        : [];
+
+    if (boundBookIds.length > 0 && window.getWorldBooks) {
+        const allBooks = window.getWorldBooks();
+        const boundEntries = [];
+
+        if (Array.isArray(allBooks)) {
+            allBooks
+                .filter(book => book && boundBookIds.includes(String(book.id)) && Array.isArray(book.entries))
+                .forEach(book => {
+                    book.entries
+                        .map(entry => normalizeEntry(entry))
+                        .filter(entry => entry && entry.enabled !== false)
+                        .filter(entry => entry.injectionPosition === position)
+                        .filter(entry => keywordMatched(entry, contextText))
+                        .forEach(entry => {
+                            boundEntries.push({
+                                ...entry,
+                                __bookName: book.name || '未命名世界书'
+                            });
+                        });
+                });
+        }
+
+        if (boundEntries.length > 0) {
+            boundEntries.sort((a, b) => {
+                if (position === 'system_depth') {
+                    if (a.systemDepth !== b.systemDepth) return a.systemDepth - b.systemDepth;
+                    return a.order - b.order;
+                }
+                return a.order - b.order;
+            });
+
+            let section = `${titleMap[position]}:\n`;
+            boundEntries.forEach(entry => {
+                section += `〔${entry.__bookName}〕\n${formatEntry(entry)}\n\n`;
+            });
+            sections.push(section.trim());
+        }
+    }
+
+    return sections.join('\n\n').trim();
+};
+
+window.getWorldBookContextForFriendByPosition = function(position = 'before_role', friend = null, contextText = '') {
+    return window.imApp.getWorldBookContextForFriendByPosition(position, friend, contextText);
+};
+
+window.getImFriends = () => window.imData.friends;
+
+window.addImFriend = async function(friendData) {
+    const friend = window.imApp.normalizeFriendData({
+        id: Date.now(),
+        type: friendData.type || 'char',
+        realName: friendData.realName || '',
+        nickname: friendData.nickname || 'New Friend',
+        signature: friendData.signature || 'No Signature',
+        persona: friendData.persona || '',
+        avatarUrl: friendData.avatarUrl || null,
+        messages: [],
+        chatBg: null,
+        customCssEnabled: false,
+        customCss: '',
+        memory: window.imApp.createDefaultMemory()
+    });
+
+    const saved = window.imApp.commitFriendsChange
+        ? await window.imApp.commitFriendsChange(() => {
+            window.imData.friends.push(friend);
+        }, { friendId: friend.id, silent: true })
+        : false;
+
+    if (!saved) {
+        if (window.showToast) window.showToast('添加好友保存失败');
+        return false;
+    }
+
+    if (window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+    if (window.showToast) window.showToast(`已添加好友: ${friend.nickname}`);
+    return true;
+};
+
+window.imApp.formatTime = function(timestamp) {
+    if (!timestamp) return '';
+    const date = new Date(timestamp);
+    const now = new Date();
+    const isToday = date.toDateString() === now.toDateString();
+    const yesterday = new Date(now);
+    yesterday.setDate(now.getDate() - 1);
+    const isYesterday = date.toDateString() === yesterday.toDateString();
+
+    const hours = date.getHours().toString().padStart(2, '0');
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+
+      if (isToday) return `${hours}:${minutes}`;
+      if (isYesterday) return `Yesterday`;
+      return `${date.getMonth() + 1}/${date.getDate()} ${hours}:${minutes}`;
+  };
+
+window.imApp.addMomentNotification = async function(type, user, momentId, content = '', thought = '') {
+    const notif = {
+        id: Date.now(),
+        type: type,
+        userId: user.id || user.userId,
+        userName: user.nickname || user.name,
+        userAvatar: user.avatarUrl || user.avatar,
+        momentId: momentId,
+        momentImg: null,
+        momentText: null,
+        content: content,
+        thought: thought,
+        time: Date.now(),
+        read: false
+    };
+
+    const m = window.imData.moments.find(x => x.id === momentId);
+    if (m) {
+        if (m.images && m.images.length > 0) {
+            const img = m.images[0];
+            notif.momentImg = (typeof img === 'object') ? img.src : img;
+        }
+        notif.momentText = m.text;
+    }
+
+    const previousMessages = Array.isArray(window.imData.momentMessages)
+        ? (typeof structuredClone === 'function'
+            ? structuredClone(window.imData.momentMessages)
+            : JSON.parse(JSON.stringify(window.imData.momentMessages)))
+        : [];
+
+    window.imData.momentMessages.unshift(notif);
+    const saved = await window.imApp.saveMomentMessages({ silent: true });
+    if (!saved) {
+        window.imData.momentMessages = previousMessages;
+        if (window.imApp.renderMomentsMessages) window.imApp.renderMomentsMessages();
+        if (window.showToast) window.showToast('朋友圈消息保存失败');
+        return false;
+    }
+
+    if (window.imApp.renderMomentsMessages) window.imApp.renderMomentsMessages();
+    return true;
+};
+
+window.imApp.getImessageUiState = function() {
+    const rawState = typeof window.getAppState === 'function'
+        ? window.getAppState('imessage')
+        : null;
+    const safeState = rawState && typeof rawState === 'object' ? rawState : {};
+    const uiState = safeState.uiState && typeof safeState.uiState === 'object' ? safeState.uiState : {};
+
+    return {
+        cssPresets: Array.isArray(uiState.cssPresets) ? uiState.cssPresets : []
+    };
+};
+
+window.imApp.saveImessageUiState = function() {
+    const currentState = typeof window.getAppState === 'function'
+        ? (window.getAppState('imessage') || {})
+        : {};
+    const nextState = {
+        ...currentState,
+        uiState: {
+            ...(currentState && currentState.uiState && typeof currentState.uiState === 'object' ? currentState.uiState : {}),
+            cssPresets: Array.isArray(window.imData.cssPresets) ? window.imData.cssPresets : []
+        }
+    };
+
+    if (typeof window.setAppState === 'function') {
+        window.setAppState('imessage', nextState);
+    } else if (window.saveGlobalData) {
+        window.saveGlobalData();
+    }
+
+    return nextState;
+};
+
+window.imApp.initializeData = async function() {
+    if (window.imData.ready) return window.imData;
+
+    try {
+        if (window.imStorage) {
+            if (window.__iisoNeedsLegacyStorageReset && window.imStorage.clearAllData) {
+                try {
+                    await window.imStorage.clearAllData();
+                    console.warn('Legacy iMessage IndexedDB data cleared due to storage schema upgrade.');
+                } catch (clearError) {
+                    console.error('Failed to clear legacy iMessage IndexedDB data during schema upgrade', clearError);
+                } finally {
+                    window.__iisoNeedsLegacyStorageReset = false;
+                }
+            }
+
+            const initialPayload = {
+                friends: window.imStorage.loadFriends
+                    ? await window.imStorage.loadFriends()
+                    : [],
+                momentsCoverUrl: window.imStorage.loadMomentsCoverUrl
+                    ? await window.imStorage.loadMomentsCoverUrl()
+                    : null
+            };
+
+            window.imData.friends = Array.isArray(initialPayload.friends)
+                ? initialPayload.friends.map((friend) => {
+                    const normalizedFriend = window.imApp.normalizeFriendData(friend);
+                    normalizedFriend.messages = Array.isArray(friend.messages) ? friend.messages : [];
+                    normalizedFriend.messagesLoaded = !!friend.messagesLoaded || normalizedFriend.messages.length > 0;
+                    normalizedFriend.lastMessagePreview = typeof friend.lastMessagePreview === 'string'
+                        ? friend.lastMessagePreview
+                        : '';
+                    normalizedFriend.lastMessageTimestamp = Number(friend.lastMessageTimestamp) || 0;
+                    normalizedFriend.messageCount = Number(friend.messageCount) || normalizedFriend.messages.length || 0;
+                    return normalizedFriend;
+                })
+                : [];
+            window.imData.moments = [];
+            window.imData.momentMessages = [];
+            window.imData.stickers = [];
+            window.imData.momentsCoverUrl = initialPayload.momentsCoverUrl || null;
+            window.imData.momentsLoaded = false;
+            window.imData.momentMessagesLoaded = false;
+            window.imData.stickersLoaded = false;
+        } else {
+            console.warn('imStorage not available, iMessage will run with volatile in-memory state.');
+        }
+
+        const globalUiState = window.imApp.getImessageUiState
+            ? window.imApp.getImessageUiState()
+            : { cssPresets: [] };
+        window.imData.cssPresets = Array.isArray(globalUiState.cssPresets) ? globalUiState.cssPresets : [];
+
+        window.imData.ready = true;
+
+        if (typeof window.updateAppState === 'function') {
+            window.updateAppState('imessage', (currentState) => {
+                const safeState = currentState && typeof currentState === 'object' ? currentState : {};
+                const existingMeta = safeState.meta && typeof safeState.meta === 'object' ? safeState.meta : {};
+                return {
+                    ...safeState,
+                    meta: {
+                        ...existingMeta,
+                        storageMode: 'indexeddb',
+                        dataVersion: 2,
+                        ready: true,
+                        friendsCount: Array.isArray(window.imData.friends) ? window.imData.friends.length : 0,
+                        momentsCount: Array.isArray(window.imData.moments) ? window.imData.moments.length : 0,
+                        stickersCount: Array.isArray(window.imData.stickers) ? window.imData.stickers.length : 0,
+                        lastSyncAt: Date.now()
+                    }
+                };
+            }, { save: true });
+        }
+
+        document.dispatchEvent(new CustomEvent('imessage-data-ready'));
+    } catch (e) {
+        console.error('Failed to initialize iMessage data', e);
+        window.imData.ready = true;
+        document.dispatchEvent(new CustomEvent('imessage-data-ready'));
+    }
+
+    return window.imData;
+};
+
+window.imApp.dataReadyPromise = window.imApp.initializeData();
+
+window.imApp.ensureDataReady = async function() {
+    return window.imApp.dataReadyPromise;
+};
+
+window.imApp.ensureMomentsReady = async function() {
+    if (window.imData.momentsLoaded) {
+        return Array.isArray(window.imData.moments) ? window.imData.moments : [];
+    }
+
+    if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+
+    try {
+        const moments = window.imStorage?.loadMoments
+            ? await window.imStorage.loadMoments()
+            : [];
+        window.imData.moments = Array.isArray(moments) ? moments : [];
+        window.imData.momentsLoaded = true;
+    } catch (e) {
+        console.error('Failed to lazy load moments', e);
+        window.imData.moments = Array.isArray(window.imData.moments) ? window.imData.moments : [];
+        window.imData.momentsLoaded = true;
+    }
+
+    return window.imData.moments;
+};
+
+window.imApp.ensureMomentMessagesReady = async function() {
+    if (window.imData.momentMessagesLoaded) {
+        return Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : [];
+    }
+
+    if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+
+    try {
+        const messages = window.imStorage?.loadMomentMessages
+            ? await window.imStorage.loadMomentMessages()
+            : [];
+        window.imData.momentMessages = Array.isArray(messages) ? messages : [];
+        window.imData.momentMessagesLoaded = true;
+    } catch (e) {
+        console.error('Failed to lazy load moment messages', e);
+        window.imData.momentMessages = Array.isArray(window.imData.momentMessages) ? window.imData.momentMessages : [];
+        window.imData.momentMessagesLoaded = true;
+    }
+
+    return window.imData.momentMessages;
+};
+
+window.imApp.ensureStickersReady = async function() {
+    if (window.imData.stickersLoaded) {
+        return Array.isArray(window.imData.stickers) ? window.imData.stickers : [];
+    }
+
+    if (window.imApp.ensureDataReady) await window.imApp.ensureDataReady();
+
+    try {
+        const stickers = window.imStorage?.loadStickers
+            ? await window.imStorage.loadStickers()
+            : [];
+        window.imData.stickers = Array.isArray(stickers) ? stickers : [];
+        window.imData.stickersLoaded = true;
+    } catch (e) {
+        console.error('Failed to lazy load stickers', e);
+        window.imData.stickers = Array.isArray(window.imData.stickers) ? window.imData.stickers : [];
+        window.imData.stickersLoaded = true;
+    }
+
+    return window.imData.stickers;
+};
+
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden' && window.imApp?.saveState?.dirty) {
+        window.imApp.flushGlobalSave({ silent: true });
+    }
+});
+
+window.addEventListener('pagehide', () => {
+    if (window.imApp?.saveState?.dirty) {
+        window.imApp.flushGlobalSave({ silent: true });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const { UI, userState, apiConfig, openView, closeView, showToast, syncUIs } = window;
+
+    async function readFileAsDataUrl(file) {
+        return new Promise((resolve, reject) => {
+            if (!file) {
+                reject(new Error('No file provided'));
+                return;
+            }
+            const reader = new FileReader();
+            reader.onload = (event) => resolve(event.target?.result || null);
+            reader.onerror = () => reject(reader.error || new Error('Failed to read file'));
+            reader.readAsDataURL(file);
+        });
+    }
+
+    async function loadImageFromDataUrl(dataUrl) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => resolve(img);
+            img.onerror = () => reject(new Error('Failed to load image'));
+            img.src = dataUrl;
+        });
+    }
+
+    function canvasToDataUrl(canvas, mimeType = 'image/jpeg', quality = 0.82) {
+        try {
+            return canvas.toDataURL(mimeType, quality);
+        } catch (e) {
+            return canvas.toDataURL();
+        }
+    }
+
+    async function compressImageFile(file, options = {}) {
+        if (!file) return null;
+
+        const {
+            maxWidth = 1080,
+            maxHeight = 1080,
+            mimeType = 'image/jpeg',
+            quality = 0.82
+        } = options;
+
+        const rawDataUrl = await readFileAsDataUrl(file);
+        if (!rawDataUrl) return null;
+
+        const img = await loadImageFromDataUrl(rawDataUrl);
+        const naturalWidth = img.naturalWidth || img.width || 0;
+        const naturalHeight = img.naturalHeight || img.height || 0;
+
+        if (!naturalWidth || !naturalHeight) {
+            return rawDataUrl;
+        }
+
+        const scale = Math.min(
+            1,
+            maxWidth / naturalWidth,
+            maxHeight / naturalHeight
+        );
+
+        const targetWidth = Math.max(1, Math.round(naturalWidth * scale));
+        const targetHeight = Math.max(1, Math.round(naturalHeight * scale));
+
+        const canvas = document.createElement('canvas');
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+
+        const ctx = canvas.getContext('2d');
+        if (!ctx) {
+            return rawDataUrl;
+        }
+
+        ctx.drawImage(img, 0, 0, targetWidth, targetHeight);
+        return canvasToDataUrl(canvas, mimeType, quality);
+    }
+
+    window.imApp = window.imApp || {};
+    window.imApp.readFileAsDataUrl = readFileAsDataUrl;
+    window.imApp.compressImageFile = compressImageFile;
+
+    // --- Custom Modal Logic ---
+    const customModalOverlay = document.getElementById('custom-modal-overlay');
+    const modalTitle = document.getElementById('modal-title');
+    const modalConfirmContent = document.getElementById('modal-confirm-content');
+    const modalPromptContent = document.getElementById('modal-prompt-content');
+    const modalMessage = document.getElementById('modal-message');
+    const modalInput = document.getElementById('modal-input');
+    
+    // Buttons
+    const modalConfirmBtn = document.getElementById('modal-confirm-btn');
+    const modalCancelBtn = document.getElementById('modal-cancel-btn');
+    const modalPromptConfirmBtn = document.getElementById('modal-prompt-confirm-btn');
+
+    let currentModalCallback = null;
+    let currentModalCancelCallback = null;
+
+    function showCustomModal(options) {
+        if (!customModalOverlay) return;
+        
+        modalTitle.textContent = options.title || '提示';
+        currentModalCallback = options.onConfirm;
+        currentModalCancelCallback = options.onCancel;
+
+        if (options.type === 'prompt') {
+            modalConfirmBtn.style.display = 'none';
+            modalPromptConfirmBtn.style.display = 'block';
+            modalConfirmContent.style.display = 'none';
+            modalPromptContent.style.display = 'block';
+            
+            modalMessage.textContent = options.message || '';
+            modalInput.value = options.defaultValue || '';
+            modalInput.placeholder = options.placeholder || '';
+            modalPromptConfirmBtn.textContent = options.confirmText || '确认';
+            modalPromptConfirmBtn.style.background = options.confirmTone === 'dark' ? '#111' : '#007aff';
+            modalPromptConfirmBtn.style.color = '#fff';
+        } else {
+            modalConfirmBtn.style.display = 'block';
+            modalPromptConfirmBtn.style.display = 'none';
+            modalConfirmContent.style.display = 'block';
+            modalPromptContent.style.display = 'none';
+            
+            modalMessage.textContent = options.message || '';
+            modalConfirmBtn.textContent = options.confirmText || '确认';
+            const isDeleteAction = options.isDestructive && String(options.confirmText || '').trim() === '删除';
+            const isDarkAction = options.confirmTone === 'dark';
+            modalConfirmBtn.style.color = isDeleteAction || isDarkAction ? '#fff' : (options.isDestructive ? '#ff3b30' : '#2c2c2e');
+            modalConfirmBtn.style.background = isDeleteAction || isDarkAction ? '#111' : '';
+            modalConfirmBtn.style.borderRadius = isDeleteAction ? '12px' : '';
+            modalConfirmBtn.style.fontWeight = isDeleteAction ? '700' : '';
+        }
+
+        customModalOverlay.style.display = 'flex';
+        void customModalOverlay.offsetWidth; // force reflow
+        customModalOverlay.classList.add('active');
+        
+        const sheet = customModalOverlay.querySelector('.bottom-sheet');
+        if(sheet) sheet.style.transform = 'translateY(0)';
+
+        if (options.type === 'prompt') {
+            setTimeout(() => modalInput.focus(), 300);
+        }
+    }
+
+    function closeCustomModal(isCancel = true) {
+        if (!customModalOverlay) return;
+        customModalOverlay.classList.remove('active');
+        setTimeout(() => {
+            customModalOverlay.style.display = 'none';
+        }, 300);
+        if (isCancel && typeof currentModalCancelCallback === 'function') {
+            currentModalCancelCallback();
+        }
+        currentModalCallback = null;
+        currentModalCancelCallback = null;
+    }
+
+    window.imApp.showCustomModal = showCustomModal;
+    window.imApp.closeCustomModal = closeCustomModal;
+
+    // Export for legacy compatibility if any other app uses it directly
+    window.showCustomModal = showCustomModal;
+    window.closeCustomModal = closeCustomModal;
+
+    if (modalCancelBtn) modalCancelBtn.addEventListener('click', () => closeCustomModal(true));
+    
+    if (modalConfirmBtn) {
+        modalConfirmBtn.addEventListener('click', () => {
+            if (currentModalCallback) currentModalCallback(true);
+            closeCustomModal(false);
+        });
+    }
+
+    if (modalPromptConfirmBtn) {
+        modalPromptConfirmBtn.addEventListener('click', () => {
+            if (currentModalCallback) currentModalCallback(modalInput.value);
+            closeCustomModal(false);
+        });
+    }
+
+    if (customModalOverlay) {
+        customModalOverlay.addEventListener('click', (e) => {
+            if (e.target === customModalOverlay) closeCustomModal(true);
+        });
+    }
+
+    // --- iMessage (LINE Style) View Initialization ---
+    const imessageView = document.getElementById('imessage-view');
+    const dockIcon = document.getElementById('dock-icon-imessage');
+    
+    if (dockIcon) {
+        dockIcon.addEventListener('click', (e) => {
+            if (window.isJiggleMode || window.preventAppClick) { e.preventDefault(); e.stopPropagation(); return; }
+            if (syncUIs) syncUIs();
+            openView(imessageView);
+            
+            // Sync user avatar
+            if (window.imApp.syncMomentsUser) window.imApp.syncMomentsUser();
+            // Render friends to ensure up to date
+            if (window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+            if (window.imApp.renderGroupsList) window.imApp.renderGroupsList();
+            if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        });
+    }
+
+    const imHeaderLeft = document.querySelector('.line-header-left');
+    if (imHeaderLeft) {
+        imHeaderLeft.addEventListener('click', () => {
+            closeView(imessageView);
+        });
+    }
+
+    const imHeaderRight = document.querySelector('.line-header-right');
+    if (imHeaderRight) {
+        const bookmarkBtn = imHeaderRight.querySelector('.fa-bookmark');
+        const settingsBtn = imHeaderRight.querySelector('.fa-cog');
+
+        if(bookmarkBtn) bookmarkBtn.addEventListener('click', () => { if(window.showToast) window.showToast('Bookmark clicked'); });
+        if(settingsBtn) settingsBtn.addEventListener('click', () => { if(window.showToast) window.showToast('Settings clicked'); });
+    }
+
+    function ensureStickersViewInApp() {
+        const stickersViewEl = document.getElementById('stickers-view');
+        const appEl = document.getElementById('app');
+        if (stickersViewEl && appEl && stickersViewEl.parentNode !== appEl) {
+            appEl.appendChild(stickersViewEl);
+        }
+        return stickersViewEl;
+    }
+
+    const imServiceItems = document.querySelectorAll('.line-service-item');
+    imServiceItems.forEach(item => {
+        item.addEventListener('click', async () => {
+            const spanText = item.querySelector('span')?.textContent?.trim() || '';
+            // Check if this is the Stickers button
+            if (spanText === 'Stickers') {
+                try {
+                    if (window.imApp?.ensureStickersReady) {
+                        await window.imApp.ensureStickersReady();
+                    }
+                } catch (error) {
+                    console.error('Failed to lazy load stickers', error);
+                    if (window.showToast) window.showToast('表情数据加载失败');
+                }
+
+                // Open stickers view
+                const stickersViewEl = ensureStickersViewInApp();
+                if (stickersViewEl && window.openView) {
+                    stickersViewEl.style.display = 'flex';
+                    window.openView(stickersViewEl);
+                    if (typeof renderStickersView === 'function') {
+                        renderStickersView();
+                    }
+                } else {
+                    console.error('Stickers view or openView not found');
+                }
+            } else {
+                // Ignore general service clicks
+            }
+        });
+    });
+
+    // --- Stickers Feature Logic ---
+    const stickersView = ensureStickersViewInApp();
+    const stickersBackBtn = document.getElementById('stickers-back-btn');
+    const stickersAddBtn = document.getElementById('stickers-add-btn');
+    const stickersEditBtn = document.getElementById('stickers-edit-btn');
+    const addStickerSheet = document.getElementById('add-sticker-sheet');
+    const stickersListContainer = document.getElementById('stickers-list-container');
+    const stickerCategoryNameInput = document.getElementById('sticker-category-name');
+    const stickerLocalUploadBtn = document.getElementById('sticker-local-upload-btn');
+    const stickerLocalUploadInput = document.getElementById('sticker-local-upload-input');
+    const stickerLocalPreview = document.getElementById('sticker-local-preview');
+    const stickerUrlInput = document.getElementById('sticker-url-input');
+    const confirmAddStickerBtn = document.getElementById('confirm-add-sticker-btn');
+    const stickerManifestUploadBtn = document.getElementById('sticker-manifest-upload-btn');
+    const stickerManifestUploadInput = document.getElementById('sticker-manifest-upload-input');
+    const stickerDetailSheet = document.getElementById('sticker-category-detail-sheet');
+    const stickerDetailTitle = document.getElementById('sticker-detail-title');
+    const stickerDetailCount = document.getElementById('sticker-detail-count');
+    const stickerDetailGrid = document.getElementById('sticker-detail-grid');
+    const stickerDetailBindBtn = document.getElementById('sticker-detail-bind-btn');
+    const stickerDetailDeleteCategoryBtn = document.getElementById('sticker-detail-delete-category-btn');
+    const stickerDetailBatchBar = document.getElementById('sticker-detail-batch-bar');
+    const stickerBatchDeleteBtn = document.getElementById('batch-delete-toggle');
+
+    // Temporary storage for local uploaded images
+    let pendingLocalStickers = [];
+
+    let activeStickerCategoryName = '';
+
+    if (stickersBackBtn && stickersView) {
+        stickersBackBtn.addEventListener('click', () => {
+            if (window.closeView) window.closeView(stickersView);
+            else stickersView.style.display = 'none';
+        });
+    }
+
+    // Open add sticker sheet
+    if (stickersAddBtn) {
+        stickersAddBtn.addEventListener('click', () => {
+            if (addStickerSheet) {
+                addStickerSheet.style.display = 'flex';
+                void addStickerSheet.offsetWidth;
+                addStickerSheet.classList.add('active');
+                const sheet = addStickerSheet.querySelector('.bottom-sheet');
+                if (sheet) sheet.style.transform = 'translateY(0)';
+                // Reset form
+                if (stickerCategoryNameInput) stickerCategoryNameInput.value = '';
+                if (stickerUrlInput) stickerUrlInput.value = '';
+                if (stickerLocalPreview) {
+                    stickerLocalPreview.innerHTML = '';
+                    stickerLocalPreview.classList.remove('has-items');
+                }
+                pendingLocalStickers = [];
+            }
+        });
+    }
+
+    // Close add sticker sheet
+    function closeAddStickerSheet() {
+        if (addStickerSheet) {
+            addStickerSheet.classList.remove('active');
+            setTimeout(() => {
+                addStickerSheet.style.display = 'none';
+                if (stickerLocalPreview) {
+                    stickerLocalPreview.innerHTML = '';
+                    stickerLocalPreview.classList.remove('has-items');
+                }
+                pendingLocalStickers = [];
+            }, 300);
+        }
+    }
+
+    if (addStickerSheet) {
+        addStickerSheet.addEventListener('click', (e) => {
+            if (e.target === addStickerSheet) closeAddStickerSheet();
+        });
+    }
+
+    // Local file upload trigger
+    if (stickerLocalUploadBtn && stickerLocalUploadInput) {
+        stickerLocalUploadBtn.addEventListener('click', () => {
+            stickerLocalUploadInput.click();
+        });
+
+        stickerLocalUploadInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (!files || files.length === 0) return;
+
+            pendingLocalStickers = [];
+            if (stickerLocalPreview) {
+                stickerLocalPreview.innerHTML = '';
+                stickerLocalPreview.classList.add('has-items');
+            }
+
+            Array.from(files).forEach(async (file, index) => {
+                try {
+                    const dataUrl = window.imApp.compressImageFile
+                        ? await window.imApp.compressImageFile(file, {
+                            maxWidth: 256,
+                            maxHeight: 256,
+                            mimeType: 'image/jpeg',
+                            quality: 0.8
+                        })
+                        : await window.imApp.readFileAsDataUrl(file);
+
+                    const name = file.name.replace(/\.[^/.]+$/, '') || `sticker_${index + 1}`;
+                    
+                    // Store with temporary index, will update name from input
+                    const stickerObj = { name, url: dataUrl };
+                    pendingLocalStickers.push(stickerObj);
+
+                    // Show preview with name input
+                    if (stickerLocalPreview) {
+                        const previewContainer = document.createElement('div');
+                        previewContainer.className = 'sticker-preview-item';
+                        
+                        const previewImg = document.createElement('img');
+                        previewImg.src = dataUrl;
+                        previewImg.className = 'sticker-preview-img';
+                        
+                        const nameInput = document.createElement('input');
+                        nameInput.type = 'text';
+                        nameInput.value = name;
+                        nameInput.className = 'sticker-name-input';
+                        nameInput.placeholder = '名称';
+                        
+                        // Update name when input changes
+                        nameInput.addEventListener('input', () => {
+                            const idx = pendingLocalStickers.findIndex(s => s.url === dataUrl);
+                            if (idx !== -1) {
+                                pendingLocalStickers[idx].name = nameInput.value || name;
+                            }
+                        });
+                        
+                        previewContainer.appendChild(previewImg);
+                        previewContainer.appendChild(nameInput);
+                        stickerLocalPreview.appendChild(previewContainer);
+                    }
+                } catch (error) {
+                    console.error('Failed to process sticker image', error);
+                    if (showToast) showToast('表情图片处理失败');
+                }
+            });
+
+            // Reset input for re-upload
+            stickerLocalUploadInput.value = '';
+        });
+    }
+
+    async function readStickerManifestFile(file) {
+        const fileName = String(file?.name || '').toLowerCase();
+        if (fileName.endsWith('.docx')) {
+            if (!window.mammoth?.extractRawText) throw new Error('DOCX 解析组件未加载');
+            const result = await window.mammoth.extractRawText({ arrayBuffer: await file.arrayBuffer() });
+            return String(result?.value || '');
+        }
+        return String(await file.text()).replace(/\u0000/g, '');
+    }
+
+    if (stickerManifestUploadBtn && stickerManifestUploadInput) {
+        stickerManifestUploadBtn.addEventListener('click', () => stickerManifestUploadInput.click());
+        stickerManifestUploadInput.addEventListener('change', async () => {
+            const file = stickerManifestUploadInput.files?.[0];
+            stickerManifestUploadInput.value = '';
+            if (!file) return;
+            const lowerName = String(file.name || '').toLowerCase();
+            if (!lowerName.endsWith('.txt') && !lowerName.endsWith('.text') && !lowerName.endsWith('.docx')) {
+                if (showToast) showToast('仅支持 TXT 和 DOCX 文件');
+                return;
+            }
+            try {
+                const text = await readStickerManifestFile(file);
+                const parsed = window.imDataUtils?.parseStickerManifestText
+                    ? window.imDataUtils.parseStickerManifestText(text)
+                    : { items: [], invalidLines: [] };
+                if (parsed.items.length === 0) {
+                    if (showToast) showToast('文件中没有有效的“名称 URL”记录');
+                    return;
+                }
+                const normalizedText = parsed.items.map(item => `${item.name} ${item.url}`).join('\n');
+                if (stickerUrlInput) {
+                    const existing = stickerUrlInput.value.trim();
+                    stickerUrlInput.value = existing ? `${existing}\n${normalizedText}` : normalizedText;
+                    stickerUrlInput.focus();
+                }
+                if (showToast) {
+                    showToast(parsed.invalidLines.length > 0
+                        ? `已读取 ${parsed.items.length} 条，第 ${parsed.invalidLines.join('、')} 行格式无效`
+                        : `已读取 ${parsed.items.length} 条贴图记录`);
+                }
+            } catch (error) {
+                console.error('Failed to import sticker manifest', error);
+                if (showToast) showToast(error?.message || '贴图清单读取失败');
+            }
+        });
+    }
+
+    // Confirm add sticker
+    if (confirmAddStickerBtn) {
+        confirmAddStickerBtn.addEventListener('click', async () => {
+            const categoryName = stickerCategoryNameInput ? stickerCategoryNameInput.value.trim() : '';
+            if (!categoryName) {
+                if (showToast) showToast('请输入分类名称');
+                return;
+            }
+
+            // Parse URL input
+            const parsedManifest = window.imDataUtils?.parseStickerManifestText
+                ? window.imDataUtils.parseStickerManifestText(stickerUrlInput?.value || '')
+                : { items: [], invalidLines: [] };
+            const urlStickers = parsedManifest.items;
+            if (parsedManifest.invalidLines.length > 0) {
+                if (showToast) showToast(`第 ${parsedManifest.invalidLines.join('、')} 行格式无效，请修改后重试`);
+                return;
+            }
+
+            // Combine all stickers
+            const allNewStickers = [...pendingLocalStickers, ...urlStickers];
+            if (allNewStickers.length === 0) {
+                if (showToast) showToast('请添加至少一张表情');
+                return;
+            }
+
+            const saved = window.imApp.commitStickersChange
+                ? await window.imApp.commitStickersChange(() => {
+                    if (!window.imData.stickers) window.imData.stickers = [];
+                    let category = window.imData.stickers.find(c => c.categoryName === categoryName);
+                    if (category) {
+                        category.items = Array.isArray(category.items) ? category.items.concat(allNewStickers) : [...allNewStickers];
+                    } else {
+                        window.imData.stickers.push({
+                            categoryName,
+                            items: allNewStickers
+                        });
+                    }
+                }, { silent: true })
+                : (window.imApp.saveStickers
+                    ? await (async () => {
+                        if (!window.imData.stickers) window.imData.stickers = [];
+                        let category = window.imData.stickers.find(c => c.categoryName === categoryName);
+                        if (category) {
+                            category.items = Array.isArray(category.items) ? category.items.concat(allNewStickers) : [...allNewStickers];
+                        } else {
+                            window.imData.stickers.push({
+                                categoryName,
+                                items: allNewStickers
+                            });
+                        }
+                        return window.imApp.saveStickers({ silent: true });
+                    })()
+                    : false);
+
+            if (!saved) {
+                if (showToast) showToast('表情包保存失败');
+                return;
+            }
+
+            renderStickersView();
+            closeAddStickerSheet();
+            if (showToast) showToast(`已添加 ${allNewStickers.length} 张表情到 "${categoryName}"`);
+        });
+    }
+
+    // Batch delete mode state
+    let batchDeleteMode = false;
+    let selectedStickers = new Set();
+
+    // Edit button to toggle batch delete mode
+    if (stickersEditBtn) {
+        stickersEditBtn.addEventListener('click', () => {
+            batchDeleteMode = !batchDeleteMode;
+            selectedStickers.clear();
+            stickersEditBtn.innerHTML = batchDeleteMode ? '<i class="fas fa-check"></i>' : '<i class="fas fa-pen"></i>';
+            renderStickersView(batchDeleteMode);
+        });
+    }
+
+    function getStickerBindableFriends() {
+        return (Array.isArray(window.imData.friends) ? window.imData.friends : [])
+            .filter(friend => friend && friend.id != null && friend.type !== 'group');
+    }
+
+    function getStickerBoundFriends(categoryName) {
+        return getStickerBindableFriends()
+            .filter(friend => Array.isArray(friend.mountedStickers) && friend.mountedStickers.includes(categoryName));
+    }
+
+    function openStickerBindingDialog(categoryName) {
+        const safeCategoryName = String(categoryName || '').trim();
+        if (!safeCategoryName) return;
+
+        const chars = getStickerBindableFriends();
+        if (chars.length === 0) {
+            if (showToast) showToast('No chars available');
+            return;
+        }
+
+        let overlay = document.getElementById('sticker-bind-role-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.id = 'sticker-bind-role-overlay';
+            overlay.style.cssText = 'position:fixed; inset:0; z-index:10020; display:none; align-items:center; justify-content:center; background:rgba(0,0,0,0.24); padding:18px;';
+            overlay.innerHTML = `
+                <div class="sticker-bind-role-card" style="width:min(100%,360px); max-height:78vh; display:flex; flex-direction:column; background:#fff; border-radius:24px;  overflow:hidden;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; padding:16px 18px; border-bottom:1px solid #f2f2f7;">
+                        <div style="min-width:0;">
+                            <div style="font-size:17px; font-weight:800; color:#111;">Bind Roles</div>
+                            <div class="sticker-bind-role-subtitle" style="font-size:12px; color:#8e8e93; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;"></div>
+                        </div>
+                        <button type="button" class="sticker-bind-role-close" style="width:32px; height:32px; border:none; border-radius:50%; background:#f2f2f7; color:#636366; cursor:pointer;"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="sticker-bind-role-list" style="padding:8px; overflow-y:auto;"></div>
+                    <div style="display:flex; gap:8px; padding:12px 14px 14px; border-top:1px solid #f2f2f7;">
+                        <button type="button" class="sticker-bind-role-cancel" style="flex:1; height:42px; border:none; border-radius:16px; background:#f2f2f7; color:#555; font-size:15px; font-weight:700; cursor:pointer;">Cancel</button>
+                        <button type="button" class="sticker-bind-role-save" style="flex:1; height:42px; border:none; border-radius:16px; background:#111; color:#fff; font-size:15px; font-weight:800; cursor:pointer;">Save</button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+            overlay.addEventListener('click', (event) => {
+                if (event.target === overlay) overlay.style.display = 'none';
+            });
+            overlay.querySelector('.sticker-bind-role-close')?.addEventListener('click', () => {
+                overlay.style.display = 'none';
+            });
+            overlay.querySelector('.sticker-bind-role-cancel')?.addEventListener('click', () => {
+                overlay.style.display = 'none';
+            });
+        }
+
+        const subtitle = overlay.querySelector('.sticker-bind-role-subtitle');
+        const list = overlay.querySelector('.sticker-bind-role-list');
+            const saveBtn = overlay.querySelector('.sticker-bind-role-save');
+        if (subtitle) subtitle.textContent = safeCategoryName;
+        if (!list || !saveBtn) return;
+
+        list.innerHTML = '';
+        chars.forEach(char => {
+            const selected = Array.isArray(char.mountedStickers) && char.mountedStickers.includes(safeCategoryName);
+            const item = document.createElement('label');
+            item.style.cssText = 'display:flex; align-items:center; gap:12px; padding:10px; border-radius:16px; cursor:pointer;';
+            item.innerHTML = `
+                <input type="checkbox" data-friend-id="${char.id}" ${selected ? 'checked' : ''} style="width:18px; height:18px; accent-color:#111;">
+                <div style="width:34px; height:34px; border-radius:50%; overflow:hidden; background:#f2f2f7; color:#8e8e93; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                    ${char.avatarUrl ? `<img src="${char.avatarUrl}" style="width:100%; height:100%; object-fit:cover;">` : `<span>${String(char.nickname || char.realName || '?').charAt(0)}</span>`}
+                </div>
+                <div style="min-width:0; flex:1; font-size:14px; color:#111; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${char.nickname || char.realName || 'Char'}</div>
+            `;
+            list.appendChild(item);
+        });
+
+        saveBtn.onclick = async () => {
+            const checkedIds = new Set(Array.from(list.querySelectorAll('input[type="checkbox"]:checked')).map(input => String(input.dataset.friendId)));
+            const touchedIds = chars.map(char => String(char.id));
+            const saved = window.imApp.commitFriendsChange
+                ? await window.imApp.commitFriendsChange(() => {
+                    chars.forEach(char => {
+                        const shouldBind = checkedIds.has(String(char.id));
+                        const mounted = Array.isArray(char.mountedStickers) ? char.mountedStickers : [];
+                        const nextMounted = mounted.filter(name => name !== safeCategoryName);
+                        if (shouldBind) nextMounted.push(safeCategoryName);
+                        char.mountedStickers = Array.from(new Set(nextMounted));
+                    });
+                }, { silent: true, friendIds: touchedIds, metaOnly: true })
+                : false;
+
+            if (!saved) {
+                if (showToast) showToast('Bind failed');
+                return;
+            }
+
+            const activeFriend = window.imData.currentActiveFriend;
+            if (activeFriend && touchedIds.includes(String(activeFriend.id))) {
+                const latestActive = (window.imData.friends || []).find(friend => String(friend.id) === String(activeFriend.id));
+                if (latestActive) window.imData.currentActiveFriend = latestActive;
+            }
+
+            const settingsFriend = window.imData.currentSettingsFriend;
+            if (settingsFriend && touchedIds.includes(String(settingsFriend.id))) {
+                const latestSettings = (window.imData.friends || []).find(friend => String(friend.id) === String(settingsFriend.id));
+                if (latestSettings) window.imData.currentSettingsFriend = latestSettings;
+            }
+
+            overlay.style.display = 'none';
+            renderStickersView(true);
+            window.dispatchEvent(new CustomEvent('u2:stickers-binding-changed', {
+                detail: {
+                    categoryName: safeCategoryName,
+                    boundFriendIds: Array.from(checkedIds)
+                }
+            }));
+            if (showToast) showToast('Bound');
+        };
+
+        overlay.style.display = 'flex';
+    }
+
+    // Render stickers view
+    function renderLegacyStickersView(keepBatchMode) {
+        if (!stickersListContainer) return;
+        stickersListContainer.innerHTML = '';
+        
+        // If not explicitly keeping batch mode, reset it
+        if (!keepBatchMode) {
+            batchDeleteMode = false;
+            selectedStickers.clear();
+            if (stickersEditBtn) stickersEditBtn.innerHTML = '<i class="fas fa-pen"></i>';
+        }
+
+        const stickers = window.imData.stickers || [];
+        if (stickers.length === 0) {
+            stickersListContainer.innerHTML = '<div style="text-align: center; color: #8e8e93; padding: 40px;">No stickers yet. Tap + to add.</div>';
+            return;
+        }
+
+        // Floating batch delete bar (fixed at bottom when in batch mode)
+        if (batchDeleteMode) {
+            const batchBar = document.createElement('div');
+            batchBar.id = 'batch-delete-bar';
+            batchBar.style.cssText = 'position: sticky; top: 0; z-index: 50; display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; background: rgba(255,255,255,0.95);   border-radius: 16px; margin-bottom: 12px; ';
+            
+            const selectInfo = document.createElement('div');
+            selectInfo.id = 'batch-select-info';
+            selectInfo.style.cssText = 'font-size: 14px; color: #8e8e93; font-weight: 500;';
+            selectInfo.textContent = `已选择 ${selectedStickers.size} 项`;
+            
+            const batchDeleteBtn = document.createElement('div');
+            batchDeleteBtn.id = 'batch-delete-toggle';
+            batchDeleteBtn.style.cssText = 'background: #ff3b30; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px;';
+            batchDeleteBtn.innerHTML = '<i class="fas fa-trash"></i> 删除所选';
+            batchDeleteBtn.addEventListener('click', async () => {
+                if (selectedStickers.size === 0) {
+                    if (showToast) showToast('请先选择要删除的表情');
+                    return;
+                }
+                // Sort selected keys in reverse order to safely splice
+                const sortedKeys = Array.from(selectedStickers).sort((a, b) => {
+                    const [aCat, aIdx] = a.split('-').map(Number);
+                    const [bCat, bIdx] = b.split('-').map(Number);
+                    if (aCat !== bCat) return bCat - aCat;
+                    return bIdx - aIdx;
+                });
+                const count = sortedKeys.length;
+
+                const saved = window.imApp.commitStickersChange
+                    ? await window.imApp.commitStickersChange(() => {
+                        sortedKeys.forEach(key => {
+                            const [catIdx, stickerIdx] = key.split('-').map(Number);
+                            if (window.imData.stickers[catIdx]?.items?.[stickerIdx]) {
+                                window.imData.stickers[catIdx].items.splice(stickerIdx, 1);
+                            }
+                        });
+                        window.imData.stickers = (window.imData.stickers || []).filter(c => Array.isArray(c.items) && c.items.length > 0);
+                    }, { silent: true })
+                    : (window.imApp.saveStickers
+                        ? await (async () => {
+                            sortedKeys.forEach(key => {
+                                const [catIdx, stickerIdx] = key.split('-').map(Number);
+                                if (window.imData.stickers[catIdx]?.items?.[stickerIdx]) {
+                                    window.imData.stickers[catIdx].items.splice(stickerIdx, 1);
+                                }
+                            });
+                            window.imData.stickers = (window.imData.stickers || []).filter(c => Array.isArray(c.items) && c.items.length > 0);
+                            return window.imApp.saveStickers({ silent: true });
+                        })()
+                        : false);
+
+                if (!saved) {
+                    if (showToast) showToast('表情删除失败');
+                    return;
+                }
+
+                batchDeleteMode = false;
+                selectedStickers.clear();
+                if (stickersEditBtn) stickersEditBtn.innerHTML = '<i class="fas fa-pen"></i>';
+                renderStickersView();
+                if (showToast) showToast(`已删除 ${count} 张表情`);
+            });
+            
+            batchBar.appendChild(selectInfo);
+            batchBar.appendChild(batchDeleteBtn);
+            stickersListContainer.appendChild(batchBar);
+        }
+
+        stickers.forEach((category, catIndex) => {
+            const card = document.createElement('div');
+            card.className = 'sticker-category-card';
+            card.style.cssText = 'background: #fff; border: 1px solid #f2f2f7; border-radius: 14px; padding: 0; overflow: hidden;  display: flex; flex-direction: column; max-height: 350px; margin-bottom: 12px;';
+
+            // Header: title center, collapse arrow right
+            const header = document.createElement('div');
+            header.className = 'sticker-category-header';
+            header.style.cssText = 'display: flex; align-items: center; justify-content: space-between; gap: 8px; cursor: pointer; position: relative; min-height: 42px; padding: 7px 12px; flex-shrink: 0; border-bottom: 1px solid #f2f2f7;';
+
+            const leftContainer = document.createElement('div');
+            leftContainer.style.cssText = 'display: flex; align-items: center; gap: 6px; min-width: 90px;';
+
+            const bindBtn = document.createElement('button');
+            bindBtn.type = 'button';
+            bindBtn.className = 'sticker-category-bind';
+            const boundCount = getStickerBoundFriends(category.categoryName).length;
+            bindBtn.innerHTML = `<i class="fas fa-user-plus"></i><span>${boundCount || ''}</span>`;
+            bindBtn.title = 'Bind roles';
+            bindBtn.style.cssText = 'height: 28px; min-width: 44px; border: none; border-radius: 14px; background: #f7f7fa; color: #111; display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 0 9px; font-size: 12px; font-weight: 700; cursor: pointer;';
+            bindBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                openStickerBindingDialog(category.categoryName);
+            });
+
+            leftContainer.appendChild(bindBtn);
+
+            // Center: title (absolutely positioned for true centering)
+            const title = document.createElement('div');
+            title.className = 'sticker-category-title';
+            title.textContent = category.categoryName;
+            title.style.cssText = 'position: absolute; left: 50%; transform: translateX(-50%); font-size: 14px; font-weight: 600; color: #000; white-space: nowrap; pointer-events: none;';
+
+            // Right side container: delete btn + collapse icon
+            const rightContainer = document.createElement('div');
+            rightContainer.style.cssText = 'display: flex; align-items: center; gap: 4px; margin-left: auto;';
+
+            // Delete category button (only visible when expanded)
+            const deleteBtn = document.createElement('div');
+            deleteBtn.className = 'sticker-category-delete';
+            deleteBtn.innerHTML = '<i class="fas fa-times"></i>';
+            deleteBtn.style.cssText = 'color: #ff3b30; cursor: pointer; font-size: 13px; width: 28px; height: 28px; padding: 0; display: none; border-radius: 50%; align-items: center; justify-content: center; transition: background 0.2s;';
+            deleteBtn.addEventListener('click', async (e) => {
+                e.stopPropagation();
+                if (confirm(`删除分类 "${category.categoryName}" ?`)) {
+                    const saved = window.imApp.commitStickersChange
+                        ? await window.imApp.commitStickersChange(() => {
+                            window.imData.stickers.splice(catIndex, 1);
+                        }, { silent: true })
+                        : (window.imApp.saveStickers
+                            ? await (async () => {
+                                window.imData.stickers.splice(catIndex, 1);
+                                return window.imApp.saveStickers({ silent: true });
+                            })()
+                            : false);
+
+                    if (!saved) {
+                        if (showToast) showToast('分类删除失败');
+                        return;
+                    }
+
+                    renderStickersView();
+                    if (showToast) showToast(`已删除分类 "${category.categoryName}"`);
+                }
+            });
+
+            // Collapse indicator
+            const collapseIcon = document.createElement('div');
+            collapseIcon.className = 'sticker-category-collapse-icon';
+            collapseIcon.style.cssText = 'color: #8e8e93; font-size: 13px; transition: transform 0.3s; padding: 6px;';
+            collapseIcon.innerHTML = '<i class="fas fa-chevron-down"></i>';
+
+            rightContainer.appendChild(deleteBtn);
+            rightContainer.appendChild(collapseIcon);
+
+            header.appendChild(leftContainer);
+            header.appendChild(title);
+            header.appendChild(rightContainer);
+
+            // Sticker grid
+            const grid = document.createElement('div');
+            grid.className = 'sticker-grid';
+            grid.style.overflowY = 'auto';
+            grid.style.flex = '1';
+            grid.style.minHeight = '0';
+            grid.style.padding = '12px 12px 12px 12px';
+            grid.style.alignContent = 'start';
+            
+            // Track collapsed state
+            let isCollapsed = category.collapsed || false;
+            if (isCollapsed) {
+                grid.style.display = 'none';
+                collapseIcon.querySelector('i').style.transform = 'rotate(-90deg)';
+                deleteBtn.style.display = 'none';
+            } else {
+                deleteBtn.style.display = 'flex';
+            }
+
+            // Toggle collapse on header click
+            header.addEventListener('click', (e) => {
+                if (e.target.closest('.sticker-category-delete')) return;
+                if (e.target.closest('.sticker-category-bind')) return;
+                
+                isCollapsed = !isCollapsed;
+                category.collapsed = isCollapsed;
+                grid.style.display = isCollapsed ? 'none' : 'grid';
+                collapseIcon.querySelector('i').style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
+                deleteBtn.style.display = isCollapsed ? 'none' : 'flex';
+            });
+
+            category.items.forEach((sticker, stickerIndex) => {
+                const item = document.createElement('div');
+                item.className = 'sticker-item';
+                item.style.position = 'relative';
+                
+                const img = document.createElement('img');
+                img.src = sticker.url;
+                img.alt = sticker.name;
+                img.title = sticker.name;
+
+                // Selection checkbox for batch delete
+                if (batchDeleteMode) {
+                    const checkbox = document.createElement('div');
+                    checkbox.className = 'sticker-select-checkbox';
+                    checkbox.dataset.key = `${catIndex}-${stickerIndex}`;
+                    const isSelected = selectedStickers.has(`${catIndex}-${stickerIndex}`);
+                    checkbox.style.cssText = `position: absolute; top: 4px; left: 4px; width: 22px; height: 22px; border-radius: 50%; background: ${isSelected ? '#007aff' : 'rgba(255,255,255,0.9)'}; border: 2px solid ${isSelected ? '#007aff' : '#ccc'}; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #fff; cursor: pointer; z-index: 5; `;
+                    if (isSelected) {
+                        checkbox.innerHTML = '<i class="fas fa-check"></i>';
+                        item.style.outline = '2px solid #007aff';
+                        item.style.borderRadius = '8px';
+                    }
+                    
+                    const toggleSelect = (e) => {
+                        if (e) e.stopPropagation();
+                        const key = `${catIndex}-${stickerIndex}`;
+                        if (selectedStickers.has(key)) {
+                            selectedStickers.delete(key);
+                            checkbox.innerHTML = '';
+                            checkbox.style.borderColor = '#ccc';
+                            checkbox.style.background = 'rgba(255,255,255,0.9)';
+                            item.style.outline = 'none';
+                        } else {
+                            selectedStickers.add(key);
+                            checkbox.innerHTML = '<i class="fas fa-check"></i>';
+                            checkbox.style.borderColor = '#007aff';
+                            checkbox.style.background = '#007aff';
+                            item.style.outline = '2px solid #007aff';
+                        }
+                        // Update count display
+                        const info = document.getElementById('batch-select-info');
+                        if (info) info.textContent = `已选择 ${selectedStickers.size} 项`;
+                    };
+                    
+                    checkbox.addEventListener('click', toggleSelect);
+                    item.addEventListener('click', () => toggleSelect());
+                    item.appendChild(checkbox);
+                }
+
+                item.appendChild(img);
+
+                // Long press or right click to enter batch mode when not already in it
+                if (!batchDeleteMode) {
+                    let pressTimer;
+                    item.addEventListener('touchstart', () => {
+                        pressTimer = setTimeout(() => {
+                            batchDeleteMode = true;
+                            selectedStickers.add(`${catIndex}-${stickerIndex}`);
+                            if (stickersEditBtn) stickersEditBtn.innerHTML = '<i class="fas fa-check"></i>';
+                            renderStickersView(true);
+                        }, 800);
+                    });
+                    item.addEventListener('touchend', () => clearTimeout(pressTimer));
+                    item.addEventListener('touchmove', () => clearTimeout(pressTimer));
+                    
+                    item.addEventListener('contextmenu', (e) => {
+                        e.preventDefault();
+                        batchDeleteMode = true;
+                        selectedStickers.add(`${catIndex}-${stickerIndex}`);
+                        if (stickersEditBtn) stickersEditBtn.innerHTML = '<i class="fas fa-check"></i>';
+                        renderStickersView(true);
+                    });
+                }
+
+                grid.appendChild(item);
+            });
+
+            card.appendChild(header);
+            card.appendChild(grid);
+            stickersListContainer.appendChild(card);
+        });
+    }
+
+    function getActiveStickerCategory() {
+        return (window.imData.stickers || []).find(category => category?.categoryName === activeStickerCategoryName) || null;
+    }
+
+    function renderStickerDetail() {
+        if (!stickerDetailGrid) return;
+        const category = getActiveStickerCategory();
+        if (!category) {
+            if (stickerDetailSheet && window.closeView) window.closeView(stickerDetailSheet);
+            activeStickerCategoryName = '';
+            return;
+        }
+
+        const items = Array.isArray(category.items) ? category.items : [];
+        if (stickerDetailTitle) stickerDetailTitle.textContent = category.categoryName || '表情包';
+        if (stickerDetailCount) stickerDetailCount.textContent = `${items.length} 张 · 已绑定 ${getStickerBoundFriends(category.categoryName).length} 位角色`;
+        if (stickerDetailBatchBar) stickerDetailBatchBar.hidden = !batchDeleteMode;
+        const batchInfo = document.getElementById('batch-select-info');
+        if (batchInfo) batchInfo.textContent = `已选择 ${selectedStickers.size} 项`;
+        if (stickersEditBtn) stickersEditBtn.innerHTML = batchDeleteMode ? '<i class="fas fa-check"></i>' : '<i class="fas fa-pen"></i>';
+
+        stickerDetailGrid.innerHTML = '';
+        items.forEach((sticker, stickerIndex) => {
+            if (!sticker?.url) return;
+            const item = document.createElement('button');
+            item.type = 'button';
+            item.className = 'sticker-item sticker-detail-item';
+            item.title = sticker.name || `Sticker ${stickerIndex + 1}`;
+            const image = document.createElement('img');
+            image.src = sticker.url;
+            image.alt = sticker.name || '';
+            item.appendChild(image);
+
+            if (batchDeleteMode) {
+                const selected = selectedStickers.has(String(stickerIndex));
+                item.classList.toggle('selected', selected);
+                const checkbox = document.createElement('span');
+                checkbox.className = 'sticker-select-checkbox';
+                checkbox.innerHTML = selected ? '<i class="fas fa-check"></i>' : '';
+                item.appendChild(checkbox);
+                item.addEventListener('click', () => {
+                    const key = String(stickerIndex);
+                    if (selectedStickers.has(key)) selectedStickers.delete(key);
+                    else selectedStickers.add(key);
+                    renderStickerDetail();
+                });
+            }
+            stickerDetailGrid.appendChild(item);
+        });
+
+        if (stickerDetailBindBtn) {
+            stickerDetailBindBtn.onclick = () => openStickerBindingDialog(category.categoryName);
+        }
+        if (stickerDetailDeleteCategoryBtn) {
+            stickerDetailDeleteCategoryBtn.onclick = async () => {
+                if (!confirm(`删除分类 "${category.categoryName}" ?`)) return;
+                const saved = await window.imApp.commitStickersChange(() => {
+                    window.imData.stickers = (window.imData.stickers || []).filter(item => item !== category);
+                }, { silent: true });
+                if (!saved) {
+                    if (showToast) showToast('分类删除失败');
+                    return;
+                }
+                activeStickerCategoryName = '';
+                batchDeleteMode = false;
+                selectedStickers.clear();
+                if (stickerDetailSheet && window.closeView) window.closeView(stickerDetailSheet);
+                renderStickersView();
+                if (showToast) showToast(`已删除分类 "${category.categoryName}"`);
+            };
+        }
+    }
+
+    function openStickerCategoryDetail(categoryName) {
+        activeStickerCategoryName = String(categoryName || '');
+        batchDeleteMode = false;
+        selectedStickers.clear();
+        renderStickerDetail();
+        if (stickerDetailSheet && window.openView) window.openView(stickerDetailSheet);
+    }
+
+    function renderStickersView(keepBatchMode) {
+        if (!stickersListContainer) return;
+        if (!keepBatchMode) {
+            batchDeleteMode = false;
+            selectedStickers.clear();
+        }
+        stickersListContainer.innerHTML = '';
+        const stickers = Array.isArray(window.imData.stickers) ? window.imData.stickers : [];
+        if (stickers.length === 0) {
+            stickersListContainer.innerHTML = '<div class="stickers-empty-state"><i class="far fa-face-smile"></i><strong>还没有表情包</strong><span>点击右上角添加第一个分组</span></div>';
+            return;
+        }
+
+        stickers.forEach(category => {
+            if (!category) return;
+            const items = Array.isArray(category.items) ? category.items : [];
+            const card = document.createElement('button');
+            card.type = 'button';
+            card.className = 'sticker-group-card';
+            const preview = document.createElement('span');
+            preview.className = 'sticker-group-preview';
+            items.slice(0, 4).forEach(sticker => {
+                const cell = document.createElement('span');
+                cell.className = 'sticker-group-preview-cell';
+                if (sticker?.url) {
+                    const image = document.createElement('img');
+                    image.src = sticker.url;
+                    image.alt = sticker.name || '';
+                    cell.appendChild(image);
+                }
+                preview.appendChild(cell);
+            });
+            while (preview.children.length < 4) {
+                const cell = document.createElement('span');
+                cell.className = 'sticker-group-preview-cell empty';
+                preview.appendChild(cell);
+            }
+
+            const copy = document.createElement('span');
+            copy.className = 'sticker-group-copy';
+            const title = document.createElement('strong');
+            title.textContent = category.categoryName || '未命名分组';
+            const meta = document.createElement('span');
+            meta.textContent = `${items.length} 张 · ${getStickerBoundFriends(category.categoryName).length} 位角色`;
+            copy.appendChild(title);
+            copy.appendChild(meta);
+            card.appendChild(preview);
+            card.appendChild(copy);
+            card.addEventListener('click', () => openStickerCategoryDetail(category.categoryName));
+            stickersListContainer.appendChild(card);
+        });
+
+        if (activeStickerCategoryName && getActiveStickerCategory()) renderStickerDetail();
+    }
+
+    if (stickerBatchDeleteBtn) {
+        stickerBatchDeleteBtn.addEventListener('click', async () => {
+            const category = getActiveStickerCategory();
+            if (!category || selectedStickers.size === 0) {
+                if (showToast) showToast('请先选择要删除的表情');
+                return;
+            }
+            const selectedIndexes = Array.from(selectedStickers).map(Number).sort((a, b) => b - a);
+            const saved = await window.imApp.commitStickersChange(() => {
+                selectedIndexes.forEach(index => category.items.splice(index, 1));
+                window.imData.stickers = (window.imData.stickers || []).filter(item => Array.isArray(item.items) && item.items.length > 0);
+            }, { silent: true });
+            if (!saved) {
+                if (showToast) showToast('表情删除失败');
+                return;
+            }
+            batchDeleteMode = false;
+            selectedStickers.clear();
+            if (!getActiveStickerCategory()) {
+                activeStickerCategoryName = '';
+                if (stickerDetailSheet && window.closeView) window.closeView(stickerDetailSheet);
+            }
+            renderStickersView();
+            if (showToast) showToast(`已删除 ${selectedIndexes.length} 张表情`);
+        });
+    }
+
+    if (stickerDetailSheet) {
+        stickerDetailSheet.addEventListener('click', event => {
+            if (event.target !== stickerDetailSheet) return;
+            batchDeleteMode = false;
+            selectedStickers.clear();
+            if (window.closeView) window.closeView(stickerDetailSheet);
+        });
+    }
+
+    // Export render function
+    window.imApp.renderStickersView = renderStickersView;
+
+    const groupsToggle = document.getElementById('groups-toggle');
+    if (groupsToggle) {
+        groupsToggle.addEventListener('click', () => {
+            groupsToggle.parentElement.classList.toggle('collapsed');
+        });
+    }
+
+    const friendsToggle = document.getElementById('friends-toggle');
+    if (friendsToggle) {
+        friendsToggle.addEventListener('click', () => {
+            friendsToggle.parentElement.classList.toggle('collapsed');
+        });
+    }
+
+    const npcsToggle = document.getElementById('npcs-toggle');
+    if (npcsToggle) {
+        npcsToggle.addEventListener('click', () => {
+            npcsToggle.parentElement.classList.toggle('collapsed');
+        });
+    }
+
+    // --- Bottom Nav Logic ---
+    const navHomeBtn = document.getElementById('nav-home-btn');
+    const navChatsBtn = document.getElementById('nav-chats-btn');
+    const navMomentsBtn = document.getElementById('nav-moments-btn');
+    const lineNavIndicator = document.getElementById('line-nav-indicator');
+    const imBottomNavContainer = document.querySelector('.line-bottom-nav-container');
+    
+    const imContent = document.querySelector('.line-content'); 
+    const chatsContent = document.getElementById('chats-content');
+    const memoryLocationSheet = document.getElementById('memory-location-sheet');
+    const memoryLocationSheetContent = document.getElementById('memory-location-sheet-content');
+    const memoryEntryDetailModal = document.getElementById('memory-entry-detail-modal');
+    const scheduleModal = document.getElementById('chat-memory-schedule-modal');
+    const scheduleClose = document.getElementById('chat-memory-schedule-close');
+    const scheduleAddModal = document.getElementById('chat-memory-schedule-add-modal');
+    const memoryEntryDetailTitle = document.getElementById('memory-entry-detail-title');
+    const memoryEntryDetailBody = document.getElementById('memory-entry-detail-body');
+    const memoryEntryDetailClose = document.getElementById('memory-entry-detail-close');
+    const momentsContent = document.getElementById('moments-content');
+    let currentMemoryFriendId = null;
+    let currentMemoryLocation = 'iphone';
+
+    function updateLineNavIndicator(activeItem) {
+        if (!activeItem || !lineNavIndicator) return;
+        const containerRect = activeItem.parentElement.getBoundingClientRect();
+        const itemRect = activeItem.getBoundingClientRect();
+        const relativeLeft = itemRect.left - containerRect.left;
+        
+        lineNavIndicator.style.width = `${itemRect.width}px`;
+        lineNavIndicator.style.left = `${relativeLeft}px`;
+    }
+
+    setTimeout(() => {
+        if(navHomeBtn && navHomeBtn.classList.contains('active')) updateLineNavIndicator(navHomeBtn);
+    }, 100);
+
+    function getMemoryFriends() {
+        const allFriends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+        return allFriends.filter(f => f && f.type !== 'group' && f.type !== 'npc');
+    }
+
+    function escapeMemoryHtml(value) {
+        return String(value == null ? '' : value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function setMemoryFriendSelection(friend) {
+        if (!friend) return;
+        currentMemoryFriendId = friend.id;
+    }
+
+    function renderMemoryView() {
+        if (memoryLocationSheetContent && memoryLocationSheetContent.innerHTML !== '') {
+            renderMemoryLocationSheet(currentMemoryLocation || 'iphone');
+        }
+    }
+
+    function renderScheduleModal() {
+        const friend = getCurrentMemoryFriend();
+        if (!friend) return;
+
+        const normalizedFriend = window.imApp.normalizeFriendData
+            ? window.imApp.normalizeFriendData(friend)
+            : friend;
+        friend.memory = normalizedFriend.memory || friend.memory || window.imApp.createDefaultMemory?.() || {};
+        if (!friend.memory.schedule) {
+            friend.memory.schedule = window.imApp.createDefaultMemory?.().schedule || {
+                enabled: false,
+                sleepTime: '23:00',
+                wakeTime: '07:00',
+                events: []
+            };
+        }
+
+        const enabledToggle = document.getElementById('chat-memory-schedule-enabled-toggle');
+        const sleepText = document.getElementById('chat-memory-schedule-sleep-text');
+        const wakeText = document.getElementById('chat-memory-schedule-wake-text');
+        const sleepPicker = document.getElementById('chat-memory-schedule-sleep-picker');
+        const wakePicker = document.getElementById('chat-memory-schedule-wake-picker');
+        const timeline = document.getElementById('chat-memory-schedule-timeline');
+        const addScheduleBtn = document.getElementById('chat-memory-schedule-add-btn');
+
+        const schedule = friend.memory.schedule;
+
+        if (enabledToggle) {
+            enabledToggle.checked = !!schedule.enabled;
+            enabledToggle.onchange = async (e) => {
+                await window.imApp.commitScopedFriendChange(friend, (f) => {
+                    if (!f.memory.schedule) f.memory.schedule = {};
+                    f.memory.schedule.enabled = e.target.checked;
+                }, { silent: true });
+                renderScheduleModal();
+            };
+        }
+        
+        if (addScheduleBtn) {
+            addScheduleBtn.onclick = () => {
+                if (scheduleAddModal && window.openView) {
+                    const nameInput = document.getElementById('chat-memory-schedule-add-name');
+                    const startInput = document.getElementById('chat-memory-schedule-add-start');
+                    const endInput = document.getElementById('chat-memory-schedule-add-end');
+                    if (nameInput) nameInput.value = '';
+                    if (startInput) {
+                        const now = new Date();
+                        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+                        startInput.value = now.toISOString().slice(0, 16);
+                    }
+                    if (endInput) {
+                        const now = new Date();
+                        now.setHours(now.getHours() + 1);
+                        now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+                        endInput.value = now.toISOString().slice(0, 16);
+                    }
+                    window.openView(scheduleAddModal);
+                }
+            };
+        }
+
+        const confirmAddBtn = document.getElementById('chat-memory-schedule-add-confirm-btn');
+        if (confirmAddBtn) {
+            confirmAddBtn.onclick = async () => {
+                const nameInput = document.getElementById('chat-memory-schedule-add-name');
+                const startInput = document.getElementById('chat-memory-schedule-add-start');
+                const endInput = document.getElementById('chat-memory-schedule-add-end');
+                
+                const eventName = nameInput ? nameInput.value.trim() : '';
+                const startTime = startInput ? startInput.value : '';
+                const endTime = endInput ? endInput.value : '';
+                
+                if (!eventName || !startTime || !endTime) {
+                    if (window.showToast) window.showToast('请输入完整的行程信息');
+                    return;
+                }
+
+                if (new Date(startTime) >= new Date(endTime)) {
+                    if (window.showToast) window.showToast('结束时间必须晚于开始时间');
+                    return;
+                }
+
+                await window.imApp.commitScopedFriendChange(friend, (f) => {
+                    if (!f.memory.schedule) f.memory.schedule = {};
+                    if (!Array.isArray(f.memory.schedule.events)) f.memory.schedule.events = [];
+                    
+                    const startDate = new Date(startTime);
+                    const endDate = new Date(endTime);
+                    const eventData = {
+                        id: Date.now(),
+                        name: eventName,
+                        title: eventName,
+                        date: `${startDate.getFullYear()}-${String(startDate.getMonth() + 1).padStart(2, '0')}-${String(startDate.getDate()).padStart(2, '0')}`,
+                        startTime: `${String(startDate.getHours()).padStart(2, '0')}:${String(startDate.getMinutes()).padStart(2, '0')}`,
+                        endTime: `${String(endDate.getHours()).padStart(2, '0')}:${String(endDate.getMinutes()).padStart(2, '0')}`,
+                        rawTime: startTime,
+                        endAt: endTime,
+                        source: 'manual',
+                        timestamp: Date.now()
+                    };
+                    f.memory.schedule.events.push(window.imDataUtils?.normalizeScheduleEvent
+                        ? window.imDataUtils.normalizeScheduleEvent(eventData, f.memory.schedule.events.length)
+                        : eventData);
+                    
+                    f.memory.schedule.events.sort((a, b) => new Date(a.rawTime) - new Date(b.rawTime));
+                }, { silent: true });
+
+                if (scheduleAddModal && window.closeView) {
+                    window.closeView(scheduleAddModal);
+                }
+                renderScheduleModal();
+            };
+        }
+        
+        if (sleepText && sleepPicker) {
+            sleepText.textContent = schedule.sleepTime || '23:00';
+            sleepPicker.value = schedule.sleepTime || '23:00';
+            sleepPicker.onchange = async (e) => {
+                sleepText.textContent = e.target.value;
+                await window.imApp.commitScopedFriendChange(friend, (f) => {
+                    if (!f.memory.schedule) f.memory.schedule = {};
+                    f.memory.schedule.sleepTime = e.target.value;
+                }, { silent: true });
+                renderScheduleModal();
+            };
+        }
+
+        if (wakeText && wakePicker) {
+            wakeText.textContent = schedule.wakeTime || '07:00';
+            wakePicker.value = schedule.wakeTime || '07:00';
+            wakePicker.onchange = async (e) => {
+                wakeText.textContent = e.target.value;
+                await window.imApp.commitScopedFriendChange(friend, (f) => {
+                    if (!f.memory.schedule) f.memory.schedule = {};
+                    f.memory.schedule.wakeTime = e.target.value;
+                }, { silent: true });
+                renderScheduleModal();
+            };
+        }
+
+        if (timeline) {
+            const wake = schedule.wakeTime || '07:00';
+            const sleep = schedule.sleepTime || '23:00';
+            const events = Array.isArray(schedule.events) ? schedule.events : [];
+            
+            let html = `<div style="position: absolute; left: 24px; top: 10px; bottom: 10px; width: 2px; background: #e5e5ea; z-index: 1;"></div>`;
+            
+            html += `
+                <div style="position: relative; z-index: 2; display: flex; align-items: flex-start;">
+                    <div style="width: 10px; height: 10px; border-radius: 50%; background: #007aff; margin-right: 15px; margin-top: 5px;  flex-shrink: 0;"></div>
+                    <div>
+                        <div style="font-size: 16px; font-weight: 600; color: #111;">起床</div>
+                        <div style="font-size: 13px; color: #8e8e93; margin-top: 2px;">${wake} - 开启新的一天</div>
+                    </div>
+                </div>
+            `;
+
+            events.forEach(evt => {
+                html += `
+                    <div style="position: relative; z-index: 2; display: flex; align-items: flex-start;">
+                        <div style="width: 10px; height: 10px; border-radius: 50%; background: #8e8e93; margin-right: 15px; margin-top: 15px;  flex-shrink: 0;"></div>
+                        <div class="schedule-event-card" data-event-id="${evt.id}" style="background: #f2f2f7; border-radius: 16px; padding: 12px 16px; flex: 1; cursor: pointer; ">
+                            <div style="font-size: 15px; font-weight: 600; color: #111;">${escapeMemoryHtml(evt.name || evt.title || '未命名行程')}</div>
+                            <div style="font-size: 13px; color: #8e8e93; margin-top: 4px;">${escapeMemoryHtml(evt.time || `${evt.date || ''} ${evt.startTime || ''}`.trim())}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `
+                <div style="position: relative; z-index: 2; display: flex; align-items: flex-start;">
+                    <div style="width: 10px; height: 10px; border-radius: 50%; background: #5856d6; margin-right: 15px; margin-top: 5px;  flex-shrink: 0;"></div>
+                    <div>
+                        <div style="font-size: 16px; font-weight: 600; color: #111;">睡觉</div>
+                        <div style="font-size: 13px; color: #8e8e93; margin-top: 2px;">${sleep} - 休息时间到了</div>
+                    </div>
+                </div>
+            `;
+            
+            timeline.innerHTML = html;
+
+            const eventCards = timeline.querySelectorAll('.schedule-event-card');
+            eventCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const eventId = card.getAttribute('data-event-id');
+                    const targetEvent = events.find(e => String(e.id) === String(eventId));
+                    if (targetEvent && window.imApp.showCustomModal) {
+                        window.imApp.showCustomModal({
+                            title: '行程详情',
+                            message: `行程：${targetEvent.name || targetEvent.title || '未命名行程'}\n时间：${targetEvent.time || `${targetEvent.date || ''} ${targetEvent.startTime || ''}`.trim()}${targetEvent.location ? `\n地点：${targetEvent.location}` : ''}`,
+                            isDestructive: true,
+                            confirmText: '删除行程',
+                            onConfirm: async () => {
+                                await window.imApp.commitScopedFriendChange(friend, (f) => {
+                                    if (f.memory && f.memory.schedule && Array.isArray(f.memory.schedule.events)) {
+                                        f.memory.schedule.events = f.memory.schedule.events.filter(e => String(e.id) !== String(eventId));
+                                    }
+                                }, { silent: true });
+                                if (window.showToast) window.showToast('行程已删除');
+                                renderScheduleModal();
+                            }
+                        });
+                    }
+                });
+            });
+        }
+    }
+
+    function getCurrentMemoryFriend() {
+        const friends = getMemoryFriends();
+        return friends.find(f => String(f.id) === String(currentMemoryFriendId)) || friends[0] || null;
+    }
+
+    async function deleteShortTermMemoryEntry(entry, options = {}) {
+        if (!entry) return false;
+        const friend = getCurrentMemoryFriend();
+        if (!friend) return false;
+
+        const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+            if (!targetFriend) return;
+            targetFriend.memory = targetFriend.memory || window.imApp.createDefaultMemory();
+            if (!Array.isArray(targetFriend.memory.shortTermEntries)) targetFriend.memory.shortTermEntries = [];
+            const entries = Array.isArray(targetFriend.memory.shortTermEntries) ? targetFriend.memory.shortTermEntries : [];
+            const nextEntries = entries.filter(e => String(e.id) !== String(entry.id));
+            targetFriend.memory.shortTermEntries = nextEntries;
+            targetFriend.memory.lastSummaryMessageCount = nextEntries.reduce((max, item) => {
+                return Math.max(max, Number(item?.sourceEndMessageCount) || 0);
+            }, 0);
+            if (window.imApp.clearFriendRuntimeMessageContext) {
+                window.imApp.clearFriendRuntimeMessageContext(targetFriend);
+            }
+        }, { silent: true });
+
+        if (!saved) return false;
+        if (options.closeDetail && window.closeView && memoryEntryDetailModal) {
+            window.closeView(memoryEntryDetailModal);
+        }
+        renderMemoryLocationSheet('iphone');
+        renderMemoryView();
+        return true;
+    }
+
+    function confirmDeleteShortTermMemoryEntry(entry, options = {}) {
+        const runDelete = async () => {
+            const saved = await deleteShortTermMemoryEntry(entry, options);
+            if (window.showToast) window.showToast(saved ? '已删除短期记忆' : '删除失败');
+        };
+
+        if (window.showCustomModal) {
+            window.showCustomModal({
+                title: '删除已总结记录',
+                message: '确定彻底删除这条已总结记录吗？这会同时从角色记忆上下文中移除，无法恢复。',
+                confirmText: '删除',
+                isDestructive: true,
+                onConfirm: runDelete
+            });
+            return;
+        }
+
+        if (window.confirm('确定彻底删除这条已总结记录吗？这会同时从角色记忆上下文中移除，无法恢复。')) {
+            runDelete();
+        }
+    }
+
+    function showMemoryEntryDetail(entry) {
+        if (!entry || !memoryEntryDetailModal || !memoryEntryDetailBody) return;
+        if (memoryEntryDetailTitle) memoryEntryDetailTitle.textContent = entry.title || '记忆详情';
+        memoryEntryDetailBody.innerHTML = `
+            <div class="memory-entry-field">
+                <div class="memory-entry-field-label">时间</div>
+                <div class="memory-entry-field-value">${escapeMemoryHtml(entry.time || '')}</div>
+            </div>
+            <div class="memory-entry-field">
+                <div class="memory-entry-field-label">事件</div>
+                <div class="memory-entry-field-value">${escapeMemoryHtml(entry.event || '')}</div>
+            </div>
+            <div class="memory-entry-field">
+                <div class="memory-entry-field-label">记忆点</div>
+                <div class="memory-entry-field-value">${escapeMemoryHtml(entry.memoryPoints || '')}</div>
+            </div>
+            <div class="memory-entry-field">
+                <div class="memory-entry-field-label">记忆程度</div>
+                <div class="memory-entry-field-value">${escapeMemoryHtml(entry.degree || '高')}</div>
+            </div>
+            <div style="margin-top: 20px;">
+                <button type="button" id="memory-entry-detail-delete-btn" style="width: 100%; padding: 12px; border-radius: 12px; background: #ffe5e5; color: #ff3b30; border: none; font-size: 15px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                    <i class="fas fa-trash-alt"></i> 删除这条记忆
+                </button>
+            </div>
+        `;
+        
+        const deleteBtn = document.getElementById('memory-entry-detail-delete-btn');
+        if (deleteBtn) {
+            deleteBtn.addEventListener('click', () => {
+                confirmDeleteShortTermMemoryEntry(entry, { closeDetail: true });
+            });
+        }
+        
+        if (window.openView) window.openView(memoryEntryDetailModal);
+    }
+
+    function renderMemoryLocationSheet(location) {
+        if (!memoryLocationSheetContent) return;
+
+        location = location || 'iphone';
+        if (location === 'social') {
+            location = 'deleted';
+        }
+        currentMemoryLocation = location;
+
+        const friend = getCurrentMemoryFriend();
+
+        const normalizedFriend = friend ? window.imApp.normalizeFriendData(friend) : null;
+
+        if (location === 'deleted') {
+            const socialAccounts = Array.isArray(normalizedFriend?.memory?.socialAccounts)
+                ? normalizedFriend.memory.socialAccounts
+                : [];
+
+            if (socialAccounts.length === 0) {
+                memoryLocationSheetContent.innerHTML = `
+                    <div class="memory-sheet-title">社交账号</div>
+                    <div class="memory-short-list">
+                        <div class="memory-short-empty">暂无社交账号</div>
+                    </div>
+                `;
+                return;
+            }
+
+            memoryLocationSheetContent.innerHTML = `
+                <div class="memory-sheet-title">社交账号</div>
+                <div class="memory-short-list">
+                    ${socialAccounts.map(account => `
+                        <div class="memory-short-item" style="gap:12px;">
+                            <span style="width:30px; height:30px; border-radius:9px; background:${account.platform === 'youtube' ? '#ff0000' : (account.platform === 'tiktok' ? '#111111' : '#8e8e93')}; color:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                <i class="${account.platform === 'youtube' ? 'fab fa-youtube' : (account.platform === 'tiktok' ? 'fab fa-tiktok' : 'fas fa-link')}" style="color:#fff; font-size:15px;"></i>
+                            </span>
+                            <span style="display:flex; flex-direction:column; min-width:0; flex:1; gap:2px;">
+                                <span style="font-size:15px; color:#111; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeMemoryHtml(account.handle || account.label || '社交账号')}</span>
+                                <span style="font-size:12px; color:#8e8e93; font-weight:400; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${escapeMemoryHtml(account.url || '')}</span>
+                            </span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            return;
+        }
+
+        if (location === 'downloads') {
+            const cherishedEntries = Array.isArray(normalizedFriend?.memory?.cherishedEntries)
+                ? normalizedFriend.memory.cherishedEntries
+                : [];
+            
+            if (cherishedEntries.length === 0) {
+                memoryLocationSheetContent.innerHTML = `
+                    <div class="memory-sheet-title">长期记忆</div>
+                    <div class="memory-short-list">
+                        <div class="memory-short-empty">暂无长期记忆</div>
+                    </div>
+                `;
+                return;
+            }
+
+            memoryLocationSheetContent.innerHTML = `
+                <div class="memory-sheet-title">长期记忆</div>
+                <div class="chat-memory-modal-cherished-list" style="padding: 0 16px;">
+                    ${cherishedEntries.slice().reverse().map(entry => `
+                        <button type="button" class="chat-memory-modal-cherished-card" data-entry-id="${entry.id}">
+                            <div class="chat-memory-modal-cherished-card-title">${escapeMemoryHtml(entry.title || '长期记忆')}</div>
+                            <div class="chat-memory-modal-cherished-card-time">${escapeMemoryHtml(entry.createdAt || '点击查看详情')}</div>
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+
+            memoryLocationSheetContent.querySelectorAll('.chat-memory-modal-cherished-card').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const entryId = btn.getAttribute('data-entry-id');
+                    const target = cherishedEntries.find(entry => String(entry.id) === String(entryId));
+                    if (target && window.imApp.showCherishedMemoryDetail) {
+                        window.imApp.showCherishedMemoryDetail(target);
+                    }
+                });
+            });
+            return;
+        }
+
+        if (location !== 'iphone') {
+            memoryLocationSheetContent.innerHTML = '';
+            return;
+        }
+
+        // Short-term memory library for manually generated chat summaries.
+        const entries = Array.isArray(normalizedFriend?.memory?.shortTermEntries)
+            ? normalizedFriend.memory.shortTermEntries
+            : [];
+
+        if (entries.length === 0) {
+            memoryLocationSheetContent.innerHTML = `
+                <div class="memory-sheet-title">短期记忆</div>
+                <div class="memory-short-list">
+                    <div class="memory-short-empty">暂无短期记忆</div>
+                </div>
+            `;
+            return;
+        }
+
+        memoryLocationSheetContent.innerHTML = `
+            <div class="memory-sheet-title">短期记忆</div>
+            <div class="memory-short-list">
+                ${entries.slice().reverse().map(entry => `
+                    <div class="memory-short-item memory-short-summary-item" role="button" tabindex="0" data-memory-entry-id="${entry.id}">
+                        <span class="memory-short-summary-title">${escapeMemoryHtml(entry.title || '对话总结')}</span>
+                        <div class="memory-short-actions">
+                            <button type="button" class="memory-short-delete-btn" aria-label="删除已总结记录" title="删除已总结记录"><i class="fas fa-trash-alt"></i></button>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        memoryLocationSheetContent.querySelectorAll('.memory-short-summary-item').forEach(btn => {
+            const openEntry = () => {
+                const entryId = btn.getAttribute('data-memory-entry-id');
+                const target = entries.find(entry => String(entry.id) === String(entryId));
+                if (target) showMemoryEntryDetail(target);
+            };
+            btn.addEventListener('click', (event) => {
+                const targetEl = event.target instanceof Element ? event.target : null;
+                if (targetEl?.closest('.memory-short-delete-btn')) return;
+                openEntry();
+            });
+            btn.addEventListener('keydown', (event) => {
+                const targetEl = event.target instanceof Element ? event.target : null;
+                if (targetEl?.closest('.memory-short-delete-btn')) return;
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    openEntry();
+                }
+            });
+            const deleteBtn = btn.querySelector('.memory-short-delete-btn');
+            if (deleteBtn) {
+                deleteBtn.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    const entryId = btn.getAttribute('data-memory-entry-id');
+                    const target = entries.find(entry => String(entry.id) === String(entryId));
+                    if (target) confirmDeleteShortTermMemoryEntry(target);
+                });
+            }
+        });
+    }
+
+    window.imApp.openMemoryLocationForFriend = function(friendOrId, location) {
+        const friend = window.imApp.getFriendById
+            ? window.imApp.getFriendById(friendOrId)
+            : ((window.imData.friends || []).find(item => String(item.id) === String(friendOrId?.id ?? friendOrId)));
+        if (!friend) return false;
+        setMemoryFriendSelection(friend);
+        renderMemoryLocationSheet(location);
+        if (memoryLocationSheet && window.openView) {
+            window.openView(memoryLocationSheet);
+            return true;
+        }
+        return false;
+    };
+
+    window.imApp.openMemoryScheduleForFriend = function(friendOrId) {
+        const friend = window.imApp.getFriendById
+            ? window.imApp.getFriendById(friendOrId)
+            : ((window.imData.friends || []).find(item => String(item.id) === String(friendOrId?.id ?? friendOrId)));
+        if (!friend) return false;
+        setMemoryFriendSelection(friend);
+        if (scheduleModal && window.openView) {
+            renderScheduleModal();
+            window.openView(scheduleModal);
+            return true;
+        }
+        return false;
+    };
+
+    window.imApp.getCurrentMemoryFriend = getCurrentMemoryFriend;
+
+    window.imApp.refreshMemoryLocationSheet = function(location) {
+        renderMemoryLocationSheet(location || currentMemoryLocation || 'iphone');
+    };
+
+    if (memoryEntryDetailClose && memoryEntryDetailModal) {
+        memoryEntryDetailClose.addEventListener('click', () => {
+            if (window.closeView) window.closeView(memoryEntryDetailModal);
+        });
+    }
+
+    if (scheduleClose && scheduleModal) {
+        scheduleClose.addEventListener('click', () => {
+            if (window.closeView) window.closeView(scheduleModal);
+        });
+    }
+
+    window.imApp.renderMemoryView = renderMemoryView;
+
+    function hideAllTabs() {
+        if(imContent) imContent.style.display = 'none';
+        if(chatsContent) chatsContent.style.display = 'none';
+        if(momentsContent) momentsContent.style.display = 'none';
+        
+        if(navHomeBtn) navHomeBtn.classList.remove('active');
+        if(navChatsBtn) navChatsBtn.classList.remove('active');
+        if(navMomentsBtn) navMomentsBtn.classList.remove('active');
+        
+        const imHeaderRight = document.querySelector('.line-header-right');
+        if (imHeaderRight) imHeaderRight.style.display = 'flex'; 
+    }
+
+    if (navHomeBtn) {
+        navHomeBtn.addEventListener('click', () => {
+            hideAllTabs();
+            if(imContent) imContent.style.display = 'block';
+            if(imBottomNavContainer) imBottomNavContainer.style.display = 'flex';
+            navHomeBtn.classList.add('active');
+            updateLineNavIndicator(navHomeBtn);
+            if (window.imApp.renderFriendsList) window.imApp.renderFriendsList();
+            if (window.imApp.renderGroupsList) window.imApp.renderGroupsList();
+        });
+    }
+
+    if (navChatsBtn) {
+        navChatsBtn.addEventListener('click', () => {
+            hideAllTabs();
+            if(chatsContent) {
+                chatsContent.style.display = 'flex';
+                chatsContent.style.flexDirection = 'column';
+                if (window.imApp.updateChatsView) window.imApp.updateChatsView();
+            }
+            navChatsBtn.classList.add('active');
+            updateLineNavIndicator(navChatsBtn);
+            if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        });
+    }
+
+    if (navMomentsBtn) {
+        navMomentsBtn.addEventListener('click', () => {
+            hideAllTabs();
+            if(momentsContent) {
+                momentsContent.style.display = 'flex';
+                momentsContent.style.flexDirection = 'column';
+                if (window.imApp.renderMoments) window.imApp.renderMoments();
+                
+                if(imBottomNavContainer) imBottomNavContainer.style.display = 'flex';
+                
+                const imHeaderRight = document.querySelector('.line-header-right');
+                if (imHeaderRight) imHeaderRight.style.display = 'none';
+            }
+            navMomentsBtn.classList.add('active');
+            updateLineNavIndicator(navMomentsBtn);
+            if (window.imApp.updateChatsUnreadBadges) window.imApp.updateChatsUnreadBadges();
+        });
+    }
+
+    // Initialize saved CSS for all friends on boot
+    setTimeout(() => {
+        if (window.imApp.applyAllSavedCss) window.imApp.applyAllSavedCss();
+    }, 100);
+});
+

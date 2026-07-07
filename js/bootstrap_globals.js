@@ -1,1 +1,211 @@
-function _0x5d59(_0x58298e,_0x293c47){_0x58298e=_0x58298e-0x11e;const _0x321c27=_0x321c();let _0x5d5931=_0x321c27[_0x58298e];return _0x5d5931;}function _0x321c(){const _0x32a3bf=['fetch','body','[Failed\x20to\x20read\x20response\x20body]','text','persona','196950yzmnSH','speech-02-hd','1808308tbelLS','isArray','api-error-overlay','signature','parse','606uTMQoc','apiConfig','130512xxflhd','Network\x20Error','localStorage','message','phone','function','204587mhsfJX','9280600kXBJaL','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22api-error-button\x22\x20onclick=\x22this.closest(\x27.api-error-overlay\x27).classList.remove(\x27show\x27);\x20setTimeout(()\x20=>\x20this.closest(\x27.api-error-overlay\x27).remove(),\x20300)\x22>OK</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-message\x22>','u2_apiConfig','userState','StorageManager','14991031fRAWFf','global-api-error-overlay','getElementById','remove','minimaxConfig','5jUDUNK','[bootstrap_globals]\x20Failed\x20to\x20save\x20','getItem','innerHTML','getApiConfig','getBoundingClientRect','X-U2-Silent-Errors','27ljksAu','warn','add','load','replace','name','headers','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-raw-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<pre\x20class=\x22api-error-raw\x22>','save','find','8nqtTaT','avatarUrl','stringify','div','className','getMinimaxConfig','HTTP\x20Error:\x20','object','appendChild','classList','2394OAOfrf'];_0x321c=function(){return _0x32a3bf;};return _0x321c();}(function(_0x24996a,_0x4c7a01){const _0x38fdac=_0x5d59,_0x56fe71=_0x24996a();while(!![]){try{const _0x27455e=parseInt(_0x38fdac(0x142))/0x1+-parseInt(_0x38fdac(0x123))/0x2*(-parseInt(_0x38fdac(0x133))/0x3)+parseInt(_0x38fdac(0x135))/0x4*(parseInt(_0x38fdac(0x14e))/0x5)+parseInt(_0x38fdac(0x13a))/0x6*(parseInt(_0x38fdac(0x12d))/0x7)+parseInt(_0x38fdac(0x13c))/0x8*(parseInt(_0x38fdac(0x155))/0x9)+parseInt(_0x38fdac(0x143))/0xa+-parseInt(_0x38fdac(0x149))/0xb;if(_0x27455e===_0x4c7a01)break;else _0x56fe71['push'](_0x56fe71['shift']());}catch(_0x4c924f){_0x56fe71['push'](_0x56fe71['shift']());}}}(_0x321c,0x8aab3),(function(){const _0x9abd88=_0x5d59,_0x33d2dc={'endpoint':'','apiKey':'','model':'','temperature':0.7},_0x91c285={'region':'cn','customEndpointEnabled':![],'endpoint':'','apiKey':'','groupId':'','ttsModel':_0x9abd88(0x134)},_0x45be2d={'name':'','phone':'','persona':'','avatarUrl':null};function _0x19cbaf(_0x4b7c29,_0x55762b){const _0x5a89e8=_0x9abd88;try{if(window['StorageManager']&&typeof window[_0x5a89e8(0x148)][_0x5a89e8(0x158)]===_0x5a89e8(0x141))return window[_0x5a89e8(0x148)][_0x5a89e8(0x158)](_0x4b7c29,_0x55762b);const _0x3bc7d8=window[_0x5a89e8(0x13e)]?window[_0x5a89e8(0x13e)][_0x5a89e8(0x150)](_0x4b7c29):null;return _0x3bc7d8?JSON[_0x5a89e8(0x139)](_0x3bc7d8):_0x55762b;}catch(_0xfebd5b){return console[_0x5a89e8(0x156)]('[bootstrap_globals]\x20Failed\x20to\x20load\x20'+_0x4b7c29+':',_0xfebd5b),_0x55762b;}}function _0x17f4f2(_0x4f02a2){const _0x479af9=_0x9abd88;return{..._0x33d2dc,..._0x4f02a2&&typeof _0x4f02a2===_0x479af9(0x12a)?_0x4f02a2:{}};}function _0x26aa71(_0x3a5f93){const _0x4e2517=_0x9abd88;return{..._0x91c285,..._0x3a5f93&&typeof _0x3a5f93===_0x4e2517(0x12a)?_0x3a5f93:{}};}function _0x349393(_0x53dfb1,_0x3718bf){const _0x31840a=_0x9abd88;try{if(window[_0x31840a(0x148)]&&typeof window['StorageManager']['save']===_0x31840a(0x141)){window[_0x31840a(0x148)][_0x31840a(0x121)](_0x53dfb1,_0x3718bf);return;}if(window[_0x31840a(0x13e)])window['localStorage']['setItem'](_0x53dfb1,JSON[_0x31840a(0x125)](_0x3718bf));}catch(_0x52b82d){console[_0x31840a(0x156)](_0x31840a(0x14f)+_0x53dfb1+':',_0x52b82d);}}function _0x339c6c(){const _0x24dd84=_0x9abd88,_0x1b27ed=_0x19cbaf('u2_accounts',[]),_0x2edd3b=_0x19cbaf('u2_currentAccountId',null);if(Array[_0x24dd84(0x136)](_0x1b27ed)&&_0x2edd3b!=null){const _0x3a5b22=_0x1b27ed[_0x24dd84(0x122)](_0x2c8744=>String(_0x2c8744['id'])===String(_0x2edd3b));if(_0x3a5b22)return{'name':_0x3a5b22[_0x24dd84(0x11e)]||'','phone':_0x3a5b22[_0x24dd84(0x140)]||'','persona':_0x3a5b22[_0x24dd84(0x132)]||_0x3a5b22[_0x24dd84(0x138)]||'','avatarUrl':_0x3a5b22[_0x24dd84(0x124)]||null};}return{..._0x45be2d};}window[_0x9abd88(0x13b)]=_0x17f4f2(window[_0x9abd88(0x13b)]||_0x19cbaf(_0x9abd88(0x146),_0x33d2dc)),window['minimaxConfig']=_0x26aa71(window['minimaxConfig']||_0x19cbaf('u2_minimaxConfig',_0x91c285)),window['userState']={..._0x45be2d,...window[_0x9abd88(0x147)]&&typeof window[_0x9abd88(0x147)]===_0x9abd88(0x12a)?window[_0x9abd88(0x147)]:_0x339c6c()},window[_0x9abd88(0x152)]=function _0x3bfe25(){const _0x4d5911=_0x9abd88;return window['apiConfig']=_0x17f4f2(window[_0x4d5911(0x13b)]||_0x19cbaf(_0x4d5911(0x146),_0x33d2dc)),window[_0x4d5911(0x13b)];},window[_0x9abd88(0x128)]=function _0x1a6bac(){const _0x3ab351=_0x9abd88;return window['minimaxConfig']=_0x26aa71(window[_0x3ab351(0x14d)]||_0x19cbaf('u2_minimaxConfig',_0x91c285)),window['minimaxConfig'];},window['getUserState']=function _0x16f5c2(){const _0x277d8c=_0x9abd88;return(!window[_0x277d8c(0x147)]||typeof window['userState']!==_0x277d8c(0x12a))&&(window[_0x277d8c(0x147)]=_0x339c6c()),window[_0x277d8c(0x147)];};const _0x4ffd46=window[_0x9abd88(0x12e)];function _0x5d27b4(_0x1394b9,_0x500c9a,_0xd772a7){const _0x4f29e2=_0x9abd88,_0x2f33b9=document[_0x4f29e2(0x14b)]('global-api-error-overlay');_0x2f33b9&&_0x2f33b9[_0x4f29e2(0x14c)]();const _0x2e0a67=document['createElement'](_0x4f29e2(0x126));_0x2e0a67['id']=_0x4f29e2(0x14a),_0x2e0a67[_0x4f29e2(0x127)]=_0x4f29e2(0x137);const _0x3f9a3c=typeof _0xd772a7===_0x4f29e2(0x12a)?JSON[_0x4f29e2(0x125)](_0xd772a7,null,0x2):String(_0xd772a7);_0x2e0a67[_0x4f29e2(0x151)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-modal\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22api-error-title\x22>'+_0x1394b9+_0x4f29e2(0x145)+_0x500c9a+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x3f9a3c?_0x4f29e2(0x120)+_0x3f9a3c[_0x4f29e2(0x159)](/</g,'<')[_0x4f29e2(0x159)](/>/g,'>')+'</pre>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'')+_0x4f29e2(0x144),document[_0x4f29e2(0x12f)][_0x4f29e2(0x12b)](_0x2e0a67),_0x2e0a67[_0x4f29e2(0x153)](),_0x2e0a67[_0x4f29e2(0x12c)][_0x4f29e2(0x157)]('show');}window[_0x9abd88(0x12e)]=async function(..._0x230f69){const _0x26c9c3=_0x9abd88,_0x181dba=_0x230f69[0x0],_0x403476=_0x230f69[0x1]&&typeof _0x230f69[0x1]===_0x26c9c3(0x12a)?_0x230f69[0x1]:{},_0x530ad1=_0x403476['headers']instanceof Headers?_0x403476['headers']:new Headers(_0x403476[_0x26c9c3(0x11f)]||(_0x181dba instanceof Request?_0x181dba['headers']:undefined)),_0x44ed36=_0x530ad1['get'](_0x26c9c3(0x154))==='1';try{const _0xbbdada=await _0x4ffd46(..._0x230f69);if(_0xbbdada['ok'])return _0xbbdada;if(_0x44ed36)return _0xbbdada;const _0x3a9c96=_0xbbdada['clone']();let _0x5279a8='';try{_0x5279a8=await _0x3a9c96[_0x26c9c3(0x131)]();}catch(_0x4ca181){_0x5279a8=_0x26c9c3(0x130);}return setTimeout(()=>{const _0x4cf2b3=_0x26c9c3;_0x5d27b4('API\x20Request\x20Failed',_0x4cf2b3(0x129)+_0xbbdada['status']+'\x20'+_0xbbdada['statusText'],_0x5279a8);},0x0),_0xbbdada;}catch(_0x274baf){!_0x44ed36&&setTimeout(()=>{const _0x1febdf=_0x26c9c3;_0x5d27b4(_0x1febdf(0x13d),'Failed\x20to\x20fetch.\x20Please\x20check\x20your\x20network\x20connection\x20or\x20CORS\x20policy.',_0x274baf[_0x1febdf(0x13f)]||String(_0x274baf));},0x0);throw _0x274baf;}};}()));
+// ==========================================
+// U2: bootstrap_globals.js
+// 在各应用模块注册 DOMContentLoaded 回调之前，提前准备全局配置对象。
+// 这样 iMessage 等模块即使先加载，也不会在初始化时拿到 undefined。
+// ==========================================
+(function () {
+    const defaultApiConfig = {
+        endpoint: '',
+        apiKey: '',
+        model: '',
+        temperature: 0.7
+    };
+
+    const defaultMinimaxConfig = {
+        region: 'cn',
+        customEndpointEnabled: false,
+        endpoint: '',
+        apiKey: '',
+        groupId: '',
+        ttsModel: 'speech-02-hd'
+    };
+
+    const defaultUserState = {
+        name: '',
+        phone: '',
+        persona: '',
+        avatarUrl: null
+    };
+
+    function safeLoad(key, fallback) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(key, fallback);
+            }
+
+            const raw = window.localStorage ? window.localStorage.getItem(key) : null;
+            return raw ? JSON.parse(raw) : fallback;
+        } catch (error) {
+            console.warn(`[bootstrap_globals] Failed to load ${key}:`, error);
+            return fallback;
+        }
+    }
+
+    function normalizeApiConfig(value) {
+        return {
+            ...defaultApiConfig,
+            ...(value && typeof value === 'object' ? value : {})
+        };
+    }
+
+    function normalizeMinimaxConfig(value) {
+        return {
+            ...defaultMinimaxConfig,
+            ...(value && typeof value === 'object' ? value : {})
+        };
+    }
+
+    function safeSave(key, value) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(key, value);
+                return;
+            }
+            if (window.localStorage) window.localStorage.setItem(key, JSON.stringify(value));
+        } catch (error) {
+            console.warn(`[bootstrap_globals] Failed to save ${key}:`, error);
+        }
+    }
+
+    function resolveUserStateFromAccounts() {
+        const accounts = safeLoad('u2_accounts', []);
+        const currentAccountId = safeLoad('u2_currentAccountId', null);
+
+        if (Array.isArray(accounts) && currentAccountId != null) {
+            const account = accounts.find((item) => String(item.id) === String(currentAccountId));
+            if (account) {
+                return {
+                    name: account.name || '',
+                    phone: account.phone || '',
+                    persona: account.persona || account.signature || '',
+                    avatarUrl: account.avatarUrl || null
+                };
+            }
+        }
+
+        return { ...defaultUserState };
+    }
+
+    window.apiConfig = normalizeApiConfig(window.apiConfig || safeLoad('u2_apiConfig', defaultApiConfig));
+    window.minimaxConfig = normalizeMinimaxConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', defaultMinimaxConfig));
+    window.userState = {
+        ...defaultUserState,
+        ...(window.userState && typeof window.userState === 'object' ? window.userState : resolveUserStateFromAccounts())
+    };
+
+    window.getApiConfig = function getApiConfig() {
+        window.apiConfig = normalizeApiConfig(window.apiConfig || safeLoad('u2_apiConfig', defaultApiConfig));
+        return window.apiConfig;
+    };
+
+    window.getMinimaxConfig = function getMinimaxConfig() {
+        window.minimaxConfig = normalizeMinimaxConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', defaultMinimaxConfig));
+        return window.minimaxConfig;
+    };
+
+    window.getUserState = function getUserState() {
+        if (!window.userState || typeof window.userState !== 'object') {
+            window.userState = resolveUserStateFromAccounts();
+        }
+        return window.userState;
+    };
+
+    // ==========================================
+    // 全局 fetch 拦截器：统一处理 API 错误弹窗
+    // ==========================================
+    const originalFetch = window.fetch;
+
+    function showApiErrorPopup(title, message, rawResponse) {
+        // 如果已经有弹窗，先移除
+        const existing = document.getElementById('global-api-error-overlay');
+        if (existing) {
+            existing.remove();
+        }
+
+        const overlay = document.createElement('div');
+        overlay.id = 'global-api-error-overlay';
+        overlay.className = 'api-error-overlay';
+
+        const rawText = typeof rawResponse === 'object' ? JSON.stringify(rawResponse, null, 2) : String(rawResponse);
+
+        overlay.innerHTML = `
+            <div class="api-error-modal">
+                <div class="api-error-content">
+                    <div class="api-error-title">${title}</div>
+                    <div class="api-error-message">${message}</div>
+                    ${rawText ? `
+                    <div class="api-error-raw-wrapper">
+                        <pre class="api-error-raw">${rawText.replace(/</g, '<').replace(/>/g, '>')}</pre>
+                    </div>
+                    ` : ''}
+                </div>
+                <button class="api-error-button" onclick="this.closest('.api-error-overlay').classList.remove('show'); setTimeout(() => this.closest('.api-error-overlay').remove(), 300)">OK</button>
+            </div>
+        `;
+
+        document.body.appendChild(overlay);
+        
+        // 强制重绘以触发动画
+        overlay.getBoundingClientRect();
+        overlay.classList.add('show');
+    }
+
+    window.fetch = async function(...args) {
+        const url = args[0];
+        const requestInit = args[1] && typeof args[1] === 'object' ? args[1] : {};
+        const requestHeaders = requestInit.headers instanceof Headers
+            ? requestInit.headers
+            : new Headers(requestInit.headers || (url instanceof Request ? url.headers : undefined));
+        const silentErrors = requestHeaders.get('X-U2-Silent-Errors') === '1';
+        
+        // 简单过滤，只针对可能是 API 的请求才去深入解析和弹窗
+        // （如果有些纯本地资源文件不想被拦截，可以在这里加判断，比如 if(typeof url === 'string' && !url.startsWith('http')) return originalFetch(...args); ）
+        
+        try {
+            const response = await originalFetch(...args);
+            
+            // 如果请求正常，直接返回原 response
+            if (response.ok) {
+                return response;
+            }
+
+            // --- 出现错误（非 20x 状态码） ---
+            
+            // 复制一份 response 来读取 body，防止 consumed 影响后续调用
+            if (silentErrors) return response;
+
+            const clonedResponse = response.clone();
+            let rawBody = '';
+            try {
+                rawBody = await clonedResponse.text();
+            } catch (e) {
+                rawBody = '[Failed to read response body]';
+            }
+            
+            // 弹出错误提示
+            setTimeout(() => {
+                showApiErrorPopup(
+                    'API Request Failed', 
+                    `HTTP Error: ${response.status} ${response.statusText}`, 
+                    rawBody
+                );
+            }, 0);
+
+            return response; // 依然把 response 返给调用方，让调用方的 catch 也能正常工作
+            
+        } catch (error) {
+            // --- 网络断开或 CORS 等底层 Fetch 异常 ---
+            if (!silentErrors) {
+                setTimeout(() => {
+                    showApiErrorPopup(
+                        'Network Error',
+                        'Failed to fetch. Please check your network connection or CORS policy.',
+                        error.message || String(error)
+                    );
+                }, 0);
+            }
+            throw error;
+        }
+    };
+
+})();

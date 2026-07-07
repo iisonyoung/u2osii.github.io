@@ -1,1 +1,5069 @@
-function _0x22f9(){const _0x191ec2=['\x20-\x20战绩列表','type','renderSavingsJar','#111','friend-contact-list','firstChild','5.\x20title\x202-16\x20字，location\x202-20\x20字。','API\x20must\x20return\x202-5\x20public\x20replies','function','data-idx','currentWeiboAccount','friend-weibo-profile-signature','你是角色扮演对话助手，必须严格返回合法\x20JSON\x20对象。','approveReason','1.8','.friend-weibo-tab-line','records','54px','[imessage]:\x20主账号必须生成一个对于\x20user\x20的专属私密备注\x20userRemark（如宝宝、主人、亲爱的或任何符合人设的专属称呼），并且为主账号生成2-5个与其他人的日常聊天，绝对不要生成与\x20user\x20的聊天记录。为小号严格生成【备忘录】(2-5条己方气泡，情绪文案或关于user的事)、【文件传输助手】(2-5条己方气泡，[图片]关于user的照片或隐私文件)，以及1-3个小号好友的会话(符合小号设定)。小号内的气泡全部体现其暗处的真实心境与癖好。','\x22\x20data-index=\x22','showWeiboImageDetail','<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2024px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-history\x22\x20style=\x22color:\x20#111;\x22></i>\x20近期对局</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#333;\x20line-height:\x201.6;\x20font-size:\x2014px;\x22>','lovers-savings-deposit-sheet',';\x20margin-top:\x208px;\x20background:\x20','normalizeWeiboPost','/v1','friend-weibo-view','fontWeight','friend-weibo-pages','<div\x20class=\x22loves-invite-bubble\x22\x20style=\x22background:#fff;\x20border-radius:16px;\x20padding:12px;\x20border:1px\x20solid\x20#e5e5ea;\x20\x20color:#111;\x20max-width:220px;\x20margin:2px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:8px;\x20margin-bottom:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:28px;\x20height:28px;\x20border-radius:8px;\x20background:#000;\x20color:#fff;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20font-size:14px;\x22><i\x20class=\x22fas\x20fa-heart\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20font-weight:700;\x22>Loves\x20邀请</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:13px;\x20color:#333;\x20line-height:1.4;\x20margin-bottom:8px;\x22>我向你发送了情侣空间的邀请，快来接受吧！</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:11px;\x20color:#8e8e93;\x22>点击接受进入专属空间</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','\x22><i\x20class=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','onchange','bindLauncherButton','html',';\x20border:\x201px\x20solid\x20','mouseup','要求：\x0a1.\x20你必须以\x20Char\x20的身份决定同意或拒绝这次提款，decision\x20只能是\x20\x22approve\x22\x20或\x20\x22reject\x22。\x0a2.\x20返回\x20reason，作为\x20Char\x20给出的同意理由或拒绝理由，语气要符合人设和上下文。\x0a3.\x20提款本金来自存钱罐，不是\x20Char\x20的钱；如果同意，系统会把这笔钱直接转入\x20User\x20的\x20Pay，并从存钱罐余额扣除。\x0a4.\x20生成\x20messages\x20数组，包含\x202-5\x20条\x20Char\x20会发给\x20User\x20的\x20iMessage\x20单聊文本，要围绕提款理由自然展开。\x0a5.\x20extraSupport\x20是\x20Char\x20额外拿自己的钱或亲属卡补贴\x20User，完全看\x20Char\x20本人意愿，不是强制项；不想额外补贴时必须写\x20{\x22type\x22:\x22none\x22}。如果补贴，type\x20可为\x20\x22transfer\x22、\x22family_card\x22、\x22family_card_increase\x22。\x0a6.\x20如果拒绝，extraSupport.type\x20必须是\x20\x22none\x22。\x0a7.\x20如果提款金额超过当前总额，必须拒绝。\x0a8.\x20只返回纯\x20JSON，不要\x20Markdown，不要多余解释。格式如下：\x0a{\x22decision\x22:\x22approve\x22,\x22reason\x22:\x22可以，你先拿去买吃的。\x22,\x22messages\x22:[\x22吃什么？\x22,\x22就提这么点够不够？\x22],\x22extraSupport\x22:{\x22type\x22:\x22none\x22}}','0\x20小时','reduce','lovers-savings-date-input','<div\x20class=\x22loves-moment-images\x20','getLocalDayOrdinal','lovers-savings-actor-input','friend-safari-normal-mode','aria-selected','repeat','linear-gradient(135deg,\x20#141416,\x20#222)','lovers-savings-deposit-save','url','提款到\x20Pay','savingsFabCovered','key','lovers-diary-generate-btn','<div\x20style=\x22aspect-ratio:\x201;\x20border-radius:\x208px;\x20overflow:\x20hidden;\x20background:\x20#f2f2f2;\x22><img\x20src=\x22','visibilitychange','readAsDataURL','<div\x20class=\x22lovers-diary-time\x22>','lovers-space-view','getHours','time','rgba(255,255,255,0.6)','friend-game-view','pay_transfer','is-savings-mode','未知联系人','包含1-3条','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<article\x20class=\x22loves-moment-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-author\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#ccc','lovers-shared-savings-btn','diary-date-item','is-many','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2017px;\x20font-weight:\x20600;\x20color:\x20#fff;\x20letter-spacing:\x200.5px;\x22>','length','\x0a当前总额：','</span></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20onclick=\x22window.lovesApp.addMomentComment(','请输入提款理由','normalizeWeiboAccount','\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x20letter-spacing:\x200;\x22>cm</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','messages','renderFriendWeibo','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20','getLocalDateKey','相册详情','commitScopedFriendChange','friend-safari-private-btn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#999;\x20margin-top:\x202px;\x22>','parentElement','\x0a\x20\x20\x20\x20\x20\x20\x20\x20','size','300px','friend-safari-dock','92%','-0.5px','split','currentActiveFriend','你现在要模拟生成一部手机里不同应用的数据。请严格遵循给定的世界观设定、角色人设和聊天上下文，生成符合角色性格的JSON格式数据。\x0a','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20text-align:\x20center;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background:\x20#111;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2030px;\x20margin-bottom:\x2015px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-compact-disc\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2022px;\x20font-weight:\x20800;\x20color:\x20#111;\x20margin-bottom:\x204px;\x22>','【邀请已接受】','loops','13px','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','currentDiaryDate','matches','lovers-savings-user-amount','message','Savings\x20withdraw\x20request\x20failed:','clientWidth','ensureLovesStartTime','bound','momentIdx','loves-detail-area','changed','friend-phone-app-health','posts','friend-phonecall-view','imageUrl','你先别急着提，跟我说说到底怎么用。','TA\x20拒绝了这次提款。','thoughts','view','JSON\x20Parse\x20error','opacity\x200.25s\x20ease','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22fas\x20fa-retweet\x22></i>\x20','closeSavingsSheet',',\x20\x27','进入\x20','hours','space-between','onscroll','realName','gpt-3.5-turbo','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22border-radius:\x2012px;\x20overflow:\x20hidden;\x20\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2012px\x2015px;\x20background:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2012px;\x20height:\x2012px;\x20border-radius:\x2050%;\x20background:\x20','lovers-savings-withdraw-result-ok','scrollHeight','mousedown','你是严格\x20JSON\x20生成器，只返回合法\x20JSON。','lovers-savings-selected-date','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lovers-publish-btn','friend-music-back-btn','showWeiboPostDetail','lovers-diary-month-display','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2012px;\x20margin-bottom:\x2020px;\x20font-weight:\x20500;\x22>昨天\x2014:20</div>','Pay\x20API\x20unavailable','payment','getSavingsApiEndpoint','src','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x20margin-bottom:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.fa-ellipsis-h','className','lovesApp','friend-imsg-account-modal','\x0a【已有微博大号帖子】:\x20','1676310vEWogG','你是一个数据生成助手。只能返回合法的\x20JSON\x20字符串。','withdrawn','lovesData','[特殊消息]','<small>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20font-weight:\x20500;\x22>','_menuClickBound','\x0a请包含以下字段（根据选择包含对应的对象）：\x0a{\x0a','未知大小','已更换\x20TA\x20的主屏幕背景','showDetailModal','updateDaysCount','friend-imsg-title','Bearer\x20','\x20张图片','\x0aUser\x20已存：','total','请先在设置中配置\x20API','friend-phone-gen-settings-btn','friend-call-tab-contacts','回复\x20','#filesRecentlyDeletedBtn','entries','setSavingsFabCovered','likedLabel','chat-interface-','lovers-savings-total','lovers-space-days','createMessageId','linear-gradient(180deg,\x20rgba(0,0,0,0.12),\x20rgba(0,0,0,0.34)),\x20url(\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-friend-imsg-item\x22\x20data-idx=\x22','completed','\x22\x20style=\x22aspect-ratio:\x201;\x20border-radius:\x206px;\x20overflow:\x20hidden;\x20background:\x20#f2f2f2;\x20cursor:\x20pointer;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','musicData','_realTimeTimer','appendChild','lovers-space-friend-avatar','_sharedSavingsDelegated','\x0a【已有游戏及对局】:\x20','<i\x20class=\x22far\x20fa-pen-to-square\x22></i>','\x22\x20alt=\x22','\x20条时间不合法','isNaN','lovers-space-tab-indicator','reverse-chat-back-btn','choices','addOrUpdateFamilyCard','lovers-diary-generator-cancel','<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#666;\x20font-size:\x2014px;\x22>暂无无痕搜索数据<br><span\x20style=\x22font-size:\x2012px;\x20margin-top:\x205px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>','lovers-publish-image','天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','语音通话','favorites','lovers-savings-withdraw-btn','friend-files-back-btn','lovers-publish-images-container','lovers-space-back-btn','model','loves-browser-detail-modal','lovers-savings-amount-input','getUserState','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22height:\x201px;\x20background:\x20#f2f2f7;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>近期通话时间</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20500;\x20color:\x20#111;\x22>','includes','15px','\x0a\x0a【用户(User)人设】\x0a','add','你是角色扮演对话助手，必须严格返回指定\x20JSON\x20对象。','set','【情侣空间】我接受了你的邀请','overflowY','cardTitle','content','<div\x20class=\x22lovers-diary-end\x22>这一天的日记已全部显示</div>','textContent','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','\x0a【近期聊天上下文】：\x0a','repostCount','100%','visible','sendInviteCard',';\x20color:\x20','1048180YZRwYB','removeProperty','likes','lovers-publish-add-img-btn','transform\x200.25s\x20cubic-bezier(0.25,\x200.8,\x200.25,\x201)','friend-imessage-view','cssText','health','TA\x20已接受了你的情侣空间邀请','pendingLovesInvite','removeAttribute','auto','<i\x20class=\x22far\x20fa-file-alt\x22></i>','forEach','px;\x20height:\x20','clientY','setDate','hasLovesSpace','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x20padding:\x2016px\x200;\x20border-bottom:\x201px\x20solid\x20rgba(255,255,255,0.1);\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22\x20style=\x22color:\x20#666;\x20font-size:\x2014px;\x20pointer-events:\x20none;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2016px;\x20color:\x20#fff;\x20pointer-events:\x20none;\x20font-weight:\x20500;\x22>','alt','新朋友加入，快去打个招呼吧','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','showBrowserDetailModal','【世界书设定】\x0a','#1c1c1e','\x22\x20data-record-id=\x22','timestamp','lovers-panel-','sleepMinutes','friend-phone-device-item','borderRadius','bindFabClick','target','wd_','kind','transform','none','reverse-chat-messages','height','\x22call\x22:\x20{\x0a\x20\x20\x22recentCalls\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22联系人\x22,\x20\x22time\x22:\x20\x22今天\x2014:00\x22,\x20\x22type\x22:\x20\x22incoming/outgoing/missed\x22,\x20\x22dialogue\x22:\x20\x22通话内容(50-100字对话形式，带环境描写)\x22}\x0a\x20\x20],\x0a\x20\x20\x22contacts\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22联系人\x22,\x20\x22addedTime\x22:\x20\x222023年5月12日\x22,\x20\x22recentCallTime\x22:\x20\x22昨天\x2020:00\x22,\x20\x22callReason\x22:\x20\x22通话原因简短说明\x22}\x0a\x20\x20]\x0a}','已生成\x20','无记录','.lovers-space-tab.active','lovers-savings-char-amount','toFixed','#ff3b30','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','likedByMe','setAttribute','from','profile','backBtn','#007aff','<div\x20class=\x22lovers-diary-card\x22>',';\x20opacity:\x200.7;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fa-check','backgroundColor','classList','is-today','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','来自\x20iPhone','\x20条缺少标题','#333','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x20margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#3a3a3c;\x20color:\x20#fff;\x20font-size:\x2011px;\x20padding:\x203px\x2010px;\x20border-radius:\x206px;\x20font-weight:\x20600;\x22>','loves_diary','.game-match-item','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-record-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-record-top\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','&amp;','status','apiConfig','rgba(0,\x200,\x200,\x200.5)','\x22\x20class=\x22loves-moment-menu\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20onclick=\x22window.lovesApp.requestCharComment(','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-record-icon\x20','game','friend-safari-search-bar','filter','lovers-diary-generator-view','resolve','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-record\x20','#loves-browser-detail-modal','object','<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>暂无联系人</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',';\x20flex-shrink:\x200;\x20cursor:\x20pointer;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20font-weight:\x20600;\x20margin-bottom:\x202px;\x22>','切换大号','#f2f2f7','lovers-space-fab','lovers-savings-day-char','openDiaryGeneratorView','已切换到微博大号','friend-files-recently-deleted-view','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22friend-weibo-post-card\x22\x20data-post-type=\x22','loves-note-sign','appendSavingsChatMessage','opacity','发送中','reason','未知时间','trim','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22safari-private-item-new\x22\x20data-idx=\x22','realname','0\x204px\x2020px\x20rgba(0,0,0,0.4)','\x0a提款理由：','日常联系','left','value','is-selected','get','openSavingsSheet','result','3px','.lovers-space-panel','[call]:\x20生成\x202-5\x20个联系人的详细信息及\x202-5\x20条对应的通话记录，严格符合其人设交际圈。请避免使用不符合JSON标准的单引号。','touchmove','fa-heart','friends','\x20fa-heart\x22></i>\x20','</article>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2020px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x20border-left:\x204px\x20solid\x20#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-headset\x22\x20style=\x22color:\x20#111;\x22></i>\x20局内心声</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#333;\x20line-height:\x201.6;\x20font-size:\x2014px;\x20font-style:\x20italic;\x22>“','is-one','呼出通话','application/json','setHours',';\x20padding:\x202px\x2010px;\x20border-radius:\x2012px;\x20font-weight:\x20600;\x22>','cardType','<i\x20class=\x22fas\x20fa-user\x22\x20style=\x22color:\x20#8e8e93;\x20font-size:\x2024px;\x22></i>','friend-imsg-me-icon','<div\x20class=\x22loves-moment-body\x22>','【生成数量】','querySelector','\x22game\x22:\x20{\x0a\x20\x20\x22playerName\x22:\x20\x22游戏内id\x22,\x0a\x20\x20\x22totalHours\x22:\x20\x22200小时\x22,\x0a\x20\x20\x22recentGames\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22游戏名(如王者荣耀)\x22,\x20\x22hours\x22:\x20\x2250小时\x22,\x20\x22rank\x22:\x20\x22王者\x22,\x20\x22winRate\x22:\x20\x2265%\x22,\x20\x22icon\x22:\x20\x22fas\x20fa-gamepad\x22,\x20\x22matches\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22time\x22:\x20\x22昨天\x2021:00\x22,\x20\x22result\x22:\x20\x22胜利\x22,\x20\x22kda\x22:\x20\x228/2/5\x22,\x20\x22hero\x22:\x20\x22李白\x22,\x20\x22highlights\x22:\x20[{\x22time\x22:\x20\x2214:20\x22,\x20\x22desc\x22:\x20\x22抢龙\x22}],\x20\x22innerThoughts\x22:\x20\x22这局打得好累...\x22,\x20\x22postGameReflection\x22:\x20\x22下次注意走位\x22}\x0a\x20\x20\x20\x20]}\x0a\x20\x20]\x0a}','renderLovesMoments','.loves-moment-comment-send','increase','reverse-chat-user-avatar','openSavingsJar','replace','phoneBg','<div\x20style=\x22height:\x20100%;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20color:\x20#999;\x22><i\x20class=\x22far\x20fa-image\x22\x20style=\x22font-size:\x2040px;\x22></i></div>','loves-detail-modal-content','.music-history-item','is-liked','getWeiboRandomAvatar','style','Loves\x20app\x20initialized','\x22weibo\x22:\x20{\x0a\x20\x20\x22mainAccount\x22:\x20{\x0a\x20\x20\x20\x20\x22signature\x22:\x20\x22符合\x20Char\x20大号公开形象的微博签名\x22,\x0a\x20\x20\x20\x20\x22posts\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22text\x22:\x20\x22大号帖子正文，公开、体面、符合熟人可见的大号风格\x22,\x20\x22time\x22:\x20\x22今天\x2018:24\x22,\x20\x22source\x22:\x20\x22来自\x20iPhone\x22,\x20\x22comments\x22:\x20[{\x22author\x22:\x20\x22评论用户名\x22,\x20\x22text\x22:\x20\x22评论内容\x22}],\x20\x22reposts\x22:\x206,\x20\x22likes\x22:\x20128}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22album\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22description\x22:\x20\x22大号相册图片内容描述20-50字\x22}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22liked\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22author\x22:\x20\x22被赞博主名\x22,\x20\x22text\x22:\x20\x22符合微博大号风格的赞过帖子正文\x22,\x20\x22time\x22:\x20\x22昨天\x2021:10\x22,\x20\x22source\x22:\x20\x22来自\x20微博\x22,\x20\x22comments\x22:\x20[{\x22author\x22:\x20\x22评论用户名\x22,\x20\x22text\x22:\x20\x22评论内容\x22}],\x20\x22reposts\x22:\x2012,\x20\x22likes\x22:\x20241}\x0a\x20\x20\x20\x20]\x0a\x20\x20},\x0a\x20\x20\x22altAccount\x22:\x20{\x0a\x20\x20\x20\x20\x22name\x22:\x20\x22符合\x20Char\x20小号风格的小号名\x22,\x0a\x20\x20\x20\x20\x22signature\x22:\x20\x22符合小号隐秘状态的签名，可以关于\x20User、黑泥、珍视记忆或自我思考\x22,\x0a\x20\x20\x20\x20\x22avatarUrl\x22:\x20\x22\x22,\x0a\x20\x20\x20\x20\x22posts\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22text\x22:\x20\x22小号帖子正文，可以写关于\x20User\x20的内容、黑泥、暗恋、嫉妒、占有欲、珍视的记忆、舍不得忘掉的细节或自己的思考\x22,\x20\x22time\x22:\x20\x22今天\x2001:12\x22,\x20\x22source\x22:\x20\x22来自\x20iPhone\x22,\x20\x22comments\x22:\x20[{\x22author\x22:\x20\x22评论用户名\x22,\x20\x22text\x22:\x20\x22评论内容\x22}],\x20\x22reposts\x22:\x201,\x20\x22likes\x22:\x2019}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22album\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22description\x22:\x20\x22小号相册图片内容描述20-50字，可以隐晦关联\x20User、珍视记忆或\x20Char\x20的暗处状态\x22}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22liked\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22author\x22:\x20\x22被赞博主名\x22,\x20\x22text\x22:\x20\x22符合微博小号风格的赞过帖子正文，可体现黑泥、隐秘欲望、珍视记忆、自我思考或对\x20User\x20的投射\x22,\x20\x22time\x22:\x20\x22昨天\x2002:34\x22,\x20\x22source\x22:\x20\x22来自\x20微博\x22,\x20\x22comments\x22:\x20[{\x22author\x22:\x20\x22评论用户名\x22,\x20\x22text\x22:\x20\x22评论内容\x22}],\x20\x22reposts\x22:\x202,\x20\x22likes\x22:\x2033}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a}','metaOnly','friend-phone-app-call','getGlobalWorldBookContextByPosition','addMomentComment','7.\x20只返回\x20JSON，不要\x20Markdown，不要解释文字。','avatarUrl','msg_','flex','bindEvents','.ins-chat-messages','lovers-devices-list','lovers-diary-dates','actor','\x0a【已有主号短信联系人】:\x20','rgba(0,0,0,0.05)','/v1/chat/completions','openFriendPhone',';\x20z-index:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-wallet-card\x22\x20data-idx=\x22','\x22health\x22:\x20{\x0a\x20\x20\x22steps\x22:\x20\x22生成步数数字\x22,\x0a\x20\x20\x22sleepHours\x22:\x20\x22睡眠小时数数字\x22,\x0a\x20\x20\x22sleepMinutes\x22:\x20\x22睡眠分钟数数字\x22,\x0a\x20\x20\x22weight\x22:\x20\x22体重\x22,\x0a\x20\x20\x22height\x22:\x20\x22身高\x22\x0a}','Comment\x20API\x20Error:','Unknown','friend-reverse-chat-view','flexDirection','floor','friend-imsg-panel-chat','privateSearches','<article\x20class=\x22lovers-diary-item\x22\x20data-id=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2015px\x2016px;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20cursor:\x20pointer;\x22\x20onclick=\x22window.lovesApp.switchImsgAccount(\x27alt\x27,\x20true)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20#e5e5ea;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x22><i\x20class=\x22fas\x20fa-user-secret\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2016px;\x20font-weight:\x20500;\x20color:\x20#000;\x22>','lovesLauncherBound','call',';\x20margin-right:\x2012px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2017px;\x20font-weight:\x20600;\x20color:\x20#111;\x20flex:\x201;\x22>','msg','API\x20请求失败，无法评论','生成成功！请返回桌面重新进入\x20App\x20查看','lovers-savings-withdraw-result-title','closeView','addEventListener','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22friend-weibo-album-item\x22\x20data-index=\x22','UTC','approve','scanForAcceptance','friend-health-content','keepFabHidden','gap','loves-note-action','missed','生成数据解析失败，AI可能输出了非标准JSON格式，请重试','lovers-diary-year-display','0\x2020px','\x20条日记少于\x2030\x20字','rgba(0,0,0,0.95)','localeCompare','margin','backgroundImage','random','请输入有效目标金额','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22loves-moment-comment-send\x22\x20data-moment-idx=\x22','span','fas\x20fa-arrow-down','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22loves-moment-more\x22\x20aria-label=\x22动态选项\x22\x20onclick=\x22window.lovesApp.toggleMomentMenu(','catch','【世界书】','loves-moment-menu-','liked','<i\x20class=\x22fas\x20fa-user\x22></i>','lmc_','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22fas\x20fa-retweet\x22></i>\x20','getAttribute','friend-weibo-post-count','color','userComment','发布成功','user','<i\x20class=\x22fas\x20fa-phone-slash\x22\x20style=\x22color:\x20#ff3b30;\x20font-size:\x2010px;\x22></i>','动态图片\x20','getTopFriends','.friend-weibo-avatar-icon','<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2024px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x20border-left:\x204px\x20solid\x20#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-headset\x22\x20style=\x22color:\x20#111;\x22></i>\x20局内心声</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#333;\x20line-height:\x201.6;\x20font-size:\x2014px;\x20font-style:\x20italic;\x22>“','正在发送提款请求...','files','fas\x20fa-times','lovers-savings-goal-input','getApiConfig','\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>','maxWidth','发送请求','toLocaleTimeString','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20flex-end;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20','\x20·\x20','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20#8e8e93;\x20font-size:\x2014px;\x22>','renderWeiboAvatarHtml','friend-weibo-switch-account-btn','ensureFriendMessagesLoaded','_filesRecentlyDeletedBound','\x22safari\x22:\x20{\x0a\x20\x20\x22recentSearches\x22:\x20[\x0a\x20\x20\x20\x20{\x22keyword\x22:\x20\x22搜索关键词1\x22,\x20\x22title\x22:\x20\x22网页标题1\x22,\x20\x22content\x22:\x20\x22网页内容(如知乎,百度百科等真实浏览器内容50-100字)\x22}\x0a\x20\x20],\x0a\x20\x20\x22privateSearches\x22:\x20[\x0a\x20\x20\x20\x20{\x22keyword\x22:\x20\x22无痕搜索词1\x22,\x20\x22title\x22:\x20\x22无痕网页标题1\x22,\x20\x22content\x22:\x20\x22不可告人或极具隐私属性的搜索详情内容(50-100字)\x22}\x0a\x20\x20]\x0a}','findLovesAcceptanceTimestamp','en-US','lovers-savings-withdraw-send','warn','请先在系统设置中配置\x20API','用户(User)','未知搜索','offsetLeft','renderTopFriends','/chat/completions','696KHPrAB','lovers-savings-settings-cancel','\x0a【角色\x20(Char)\x20人设】：\x0a','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20rgba(142,142,147,0.15);\x20color:\x20#8e8e93;\x20font-size:\x2010px;\x20font-weight:\x20600;\x20padding:\x202px\x206px;\x20border-radius:\x206px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x203px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-thumbtack\x22></i>\x20置顶\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#007aff;\x20font-weight:\x20500;\x22>刚刚</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','</span>：','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','loves-view','<img\x20src=\x22','\x0a【已有文件标签】:\x20','sender','\x20-\x20','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a根据选择的应用返回对应的数据。\x0a','Safari\x20private\x20bind\x20error','rotate(45deg)','[支付卡片]\x20','friend-phone-app-settings','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2015px\x200;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2018px;\x20font-weight:\x20600;\x20color:\x20','isLiked','recentCalls','getTime','Game\x20bind\x20error','renderPublishImagePreview','imData','sav_char_daily_','.friend-weibo-avatar-img','endpoint','onload','currentImsgAccount','reverse-chat-user-icon','width','normalizeSavingsWithdrawResult','.lovers-space-tab','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#999;\x22>','friend-imsg-me-avatar','\x22\x20style=\x22position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20right:\x200;\x20height:\x20180px;\x20background:\x20','smooth','loves-detail-modal','is-user','friend-phonecall-back-btn','\x0a注意：必须且只能返回合法的\x20JSON\x20字符串，不要包含任何多余的文字说明，不要\x20Markdown\x20标记。确保\x20JSON\x20格式绝对正确，键名和字符串都使用双引号。','chats','虚拟支付卡','contactName','recentGames','&lt;','parseSavingsJsonObject','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22game-match-item\x22\x20data-match=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22game-history-item-new\x22\x20data-idx=\x22','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','0\x20-4px\x2020px\x20rgba(0,0,0,0.1)','今天还没有日记','is-char','signature','reposts','.safari-history-item-new','进入空间','lovers-savings-char-name','loves-note','altAccount','touches','User','system_depth','\x20/\x20','stopPropagation','borderTopLeftRadius','offsetWidth','center','openView','getDate','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-family:\x20monospace;\x20letter-spacing:\x202px;\x20margin-bottom:\x2020px;\x20text-shadow:\x200\x201px\x202px\x20rgba(0,0,0,0.5);\x22>','likeCount','/800/300',';\x20margin-bottom:\x204px;\x20font-weight:\x20500;\x22>当前金额</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2022px;\x20font-weight:\x20800;\x20letter-spacing:\x20-0.5px;\x22>¥\x20','data-date','zIndex','escapeHTML','friend-phone-app-weibo','true','****\x20****\x20****\x208888','parseDiaryJson','concat','weibo','goal','<div\x20class=\x22lovers-diary-empty\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22music-history-item\x22\x20data-idx=\x22','initialized','friend-imsg-me-name','lovers-publish-file-input','friend-weibo-album-grid','搜索记录','color:\x20#ff8200;','。请为已有游戏生成【不同时间点】的新对局，或生成全新的游戏。','HTTP\x20error!\x20status:\x20','round','危险操作！这将会彻底清空该好友所有的生成应用数据（包含短信、音乐、游戏等），确认清空吗？','文件传输助手','endsWith','friend-safari-back-btn','showCallDetailModal','renderWeiboPostCard','kda','sav_','friend-phone-app-game','https://picsum.photos/seed/weibo_alt_','0\x2020px\x2020px','disabled','winRate','friend-call-tab-recent','\x20<span\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x20letter-spacing:\x200;\x22>小时</span>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22call-history-item-new\x22\x20data-idx=\x22','friend-safari-private-mode','reverse-bubble-left','1px\x20solid\x20','click','&#39;','pay','friend-pay-back-btn','\x20(主账号)</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appendMessageToContainer','card3','contains','<div\x20class=\x22loves-invite-bubble\x22\x20style=\x22background:#fff;\x20border-radius:16px;\x20padding:12px;\x20border:1px\x20solid\x20#e5e5ea;\x20\x20color:#111;\x20max-width:220px;\x20margin:2px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:8px;\x20margin-bottom:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:28px;\x20height:28px;\x20border-radius:8px;\x20background:#ff2d55;\x20color:#fff;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20font-size:14px;\x22><i\x20class=\x22fas\x20fa-heart\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20font-weight:700;\x22>邀请已接受</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:13px;\x20color:#333;\x20line-height:1.4;\x22>我已经接受了你的情侣空间邀请，现在我们可以一起使用了。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','Parse\x20match\x20data\x20error','transparent','touchstart','API\x20请求失败：','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2012px;\x20margin-bottom:\x2020px;\x22>此时以\x20TA\x20的视角查看你们的聊天记录</div>','getLovesDaysCount','\x20的微博</div>','is-two','extraSupport','.game-history-item-new','rgba(255,255,255,0.15)','firstElementChild','请输入有效提款金额','fa-arrow-up-from-bracket','bindLongPress','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x22>','0\x201px\x203px\x20rgba(0,0,0,0.1)','callReason','\x20的电脑</strong><small>当前离线</small></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-device-status\x22>OFFLINE</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','savings','Player\x20One','highlights','<span>','</button>','loves-note-action-enter','parseDateKey','<i\x20class=\x22fas\x20','【User】','queueCharCommentRequest','备忘录','lovers-savings-withdraw-result-reason-label','friend-weibo-back-btn','translateY(100%)','main','5px','[game]:\x20生成符合人设\x201-2\x20个玩的游戏。如果是已有游戏，必须生成全新的对局时间。每局必须包含时间、结果(胜利/失败)、KDA(如8/2/5)、使用英雄、高光时刻(数组)、内心戏(30字)、复盘(30字)。格式必须完全符合提供的JSON模板，不要使用特殊字符。','<strong>','ensureDataReady','amount','lovers-publish-cancel','#8e8e93','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20font-weight:\x20700;\x20color:\x20',')\x22><i\x20class=\x22fas\x20fa-ellipsis-h\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22loves-moment-menu-','visibilityState','800','确定要删除这条日记吗？','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','onclick','deposit','isIncome','right','splice','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20gap:\x2010px;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20background:\x20#fff;\x20padding:\x2012px\x200;\x20border-radius:\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x205px;\x20cursor:\x20pointer;\x20color:\x20#007aff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-comment\x22\x20style=\x22font-size:\x2020px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x22>信息</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20background:\x20#fff;\x20padding:\x2012px\x200;\x20border-radius:\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x205px;\x20cursor:\x20pointer;\x20color:\x20#007aff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-phone-alt\x22\x20style=\x22font-size:\x2020px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x22>电话</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20background:\x20#fff;\x20padding:\x2012px\x200;\x20border-radius:\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x205px;\x20cursor:\x20pointer;\x20color:\x20#007aff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-video\x22\x20style=\x22font-size:\x2020px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x22>视频</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20background:\x20#fff;\x20padding:\x2012px\x200;\x20border-radius:\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x205px;\x20cursor:\x20pointer;\x20color:\x20#007aff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-envelope\x22\x20style=\x22font-size:\x2020px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x22>邮件</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','location','diary','recentSearches','\x20的手机</strong><small>在线\x20·\x20电量\x2092%</small></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-right\x20lovers-feature-chevron\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-feature-row\x20is-static\x20is-offline\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-icon\x22><i\x20class=\x22fas\x20fa-laptop\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-copy\x22><strong>','unshift','getElementById','\x20(小号)</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','red_packet','home','addLocalDateDays','clientX','59913iUafmF','单曲详情','friend-settings-back-btn','z-index','json','#loves-detail-modal','lovers-savings-withdraw-sheet','user_comment','friend-pay-content','\x20<span\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x20letter-spacing:\x200;\x22>分钟</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20身体指标\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x201fr\x201fr;\x20gap:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2024px;\x20padding:\x2020px;\x20border:\x201px\x20solid\x20#f0f0f0;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20color:\x20#111;\x20font-weight:\x20600;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x208px;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22><i\x20class=\x22fas\x20fa-weight\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#007aff;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>体重</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2028px;\x20font-weight:\x20800;\x20color:\x20#111;\x20letter-spacing:\x20-0.5px;\x22>','提升亲属卡额度','remove','bankName','我已经接受了你的情侣空间邀请',';\x20font-size:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-skull\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x20color:\x20','contacts','createSavingsMessageId',';\x20transform:\x20translateY(','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22contact-item-new\x22\x20data-idx=\x22','isArray','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lovers-savings-left','0\x20-4px\x2024px\x20rgba(0,0,0,0.1)','checked','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-top:\x2013px;\x20color:\x20#888;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-comment-dots\x22></i>\x20','group','TA\x20正在回复...','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2012px;\x20padding:\x2012px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20\x20position:\x20relative;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20100%;\x20aspect-ratio:\x201;\x20background:\x20#f2f2f7;\x20border-radius:\x208px;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2030px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','cover','fixed','\x0a【已有文件名称(请勿重复生成同名文件)】:\x20','lovers-savings-settings-sheet','reject','.diary-date-item','findIndex','Music\x20bind\x20error','flex-end','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','所有生成数据已清空','3.\x20每条代表\x20Char\x20今天一个时间点的静态行程，可包含起床、通勤、吃饭、学习/工作、发呆、休息、睡觉等日常。','[只有图片]','renderDiary','.lovers-diary-item','lovers-savings-progress','album','friend-safari-view','lovers-savings-withdraw-result-modal','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','20px','showToast','relative','[safari]:\x20生成\x202-5\x20条日常搜索，以及\x202-5\x20条无痕模式下符合其阴暗面或隐私小癖好的搜索内容。','无对话记录',')\x22>删除</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','createElement','friend-music-view','text','getMinutes','lovers-savings-withdraw-result-amount','imessageData','data-id','#fff','_parsedContacts','v1/chat/completions','2033592VRPFPc','TA\x20额外补贴','#000','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2012px\x200;\x20border-bottom:\x201px\x20solid\x20#e5e5ea;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x20margin-right:\x2015px;\x20font-size:\x2016px;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20font-size:\x2016px;\x20font-weight:\x20600;\x20color:\x20#111;\x20pointer-events:\x20none;\x22>','friend-weibo-home-list','Safari\x20normal\x20bind\x20error','删除第\x20','<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>暂无文件数据<br><span\x20style=\x22font-size:\x2012px;\x20margin-top:\x205px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>','2-digit','\x0a【已有普通搜索】:\x20','reverse-bubble-right','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-cc-visa\x22\x20style=\x22font-size:\x2028px;\x20color:\x20','char_to_user','now','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2016px;\x20padding:\x2015px;\x20margin-bottom:\x2015px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x208px;\x20background:\x20#fff;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-redo-alt\x22\x20style=\x22font-size:\x2014px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>循环次数</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20800;\x20color:\x20#111;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','alignItems','<div\x20style=\x22padding:\x2038px\x2016px;\x20text-align:\x20center;\x20color:\x20#999;\x20font-size:\x2014px;\x22>暂无赞过</div>','transfer','createdAt','lovers-diary-month-picker','请输入有效金额','&quot;','div','letterSpacing','mouseleave','hero','【邀请已接受】TA\x20已接受了你的情侣空间邀请。','<i\x20class=\x22fas\x20fa-share-square\x22></i>','isChar','error','parse','break-word','postGameReflection','【Char】','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20background:\x20','preventDefault','10px\x20auto\x2015px','\x22\x20style=\x22background:\x20#1c1c1e;\x20border:\x201px\x20solid\x20#2c2c2e;\x20border-radius:\x2020px;\x20padding:\x2018px;\x20display:\x20flex;\x20gap:\x2016px;\x20align-items:\x20center;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2056px;\x20height:\x2056px;\x20border-radius:\x2016px;\x20background:\x20#2c2c2e;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-size:\x2024px;\x20color:\x20#fff;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22','\x22music\x22:\x20{\x0a\x20\x20\x22recent\x22:\x20[{\x22name\x22:\x20\x22歌曲名1\x22,\x20\x22artist\x22:\x20\x22歌手1\x22}],\x0a\x20\x20\x22favorites\x22:\x20[{\x22name\x22:\x20\x22最爱歌曲名1\x22,\x20\x22artist\x22:\x20\x22最爱歌手1\x22}],\x0a\x20\x20\x22top\x22:\x20[{\x22name\x22:\x20\x22排行歌曲1\x22,\x20\x22artist\x22:\x20\x22歌手1\x22,\x20\x22loops\x22:\x20156,\x20\x22thoughts\x22:\x20\x22听这首歌时的内心情感与心声，要非常符合人设且细腻，不少于30字\x22}]\x0a}','friend-call-list','friend-imsg-switch-account-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22file-item-clickable\x22\x20data-item=\x22','display','-/-/-','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#333;\x20font-size:\x2014px;\x20line-height:\x201.4;\x22>','tags','innerThoughts','未设置','\x22\x20style=\x22transform:\x20','enterLovesSpace','persona','https://picsum.photos/seed/weibo_photo_','currentTarget','#f4f4f5','friend-phone-app-files','这条评论','addPayTransaction','url(','\x0a【已有微博小号帖子】:\x20','top','1px\x20solid\x20transparent','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>昨天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','lovers-savings-note-input','dataset','未设置地点','”\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','items','<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>暂无搜索数据<br><span\x20style=\x22font-size:\x2012px;\x20margin-top:\x205px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>','AI\x20返回数量不正确：需要\x20','\x0a【用户\x20(User)\x20人设】：\x0a','Error\x20showing\x20browser\x20detail\x20modal:','[files]:\x20生成符合角色人设的文件列表，其中\x20tags\x20内必须包含能够体现其性格、癖好、或对\x20User\x20的看法的隐私内容（如小说草稿、私密日记、账单等），需生成\x202-3\x20个标签，每个标签\x201-3\x20个新文件，确保文件名不要与历史已有的重复。','friend-files-view',';\x22>敌方</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','lovers-savings-back-btn','open','savingsPreviousDisplay','已删除','position','\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','白金信用卡','这首歌旋律很好听，每次听都能让我安静下来。','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-top:\x204px;\x22>','friend-safari-topbar','6212ZQVHxK','music','可以，你先拿去用。','lovers-savings-records','system_notification','loves-back-btn','lm_','false','is-withdrawal','</div>','before','<i\x20class=\x22fas\x20fa-sticky-note\x22\x20style=\x22color:\x20#111;\x20font-size:\x2020px;\x22></i>','safari','回复已生成','showFriendDetail','decisionReason','mainAccount','recentCallTime','icon','这笔我先不同意，','目标已达成','存钱罐当前只有\x20','[Loves\x20Diary]\x20generate\x20failed','close','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','getMilliseconds','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-bottom:\x208px;\x22>通话原因</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#333;\x20line-height:\x201.5;\x20word-break:\x20break-word;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','keyword','resolveLovesChatEndpoint','包含0-2条，可以为空数组','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20min-width:\x200;\x20display:\x20flex;\x20flex-direction:\x20column;\x20justify-content:\x20center;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2017px;\x20font-weight:\x20600;\x20color:\x20#111;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','POST','family_card','friend-weibo-liked-list','post_','delete','你要为\x20Loves\x20情侣空间生成角色的独立行程日记，不要写入或引用\x20iMessage\x20日程。','<button\x20type=\x22button\x22\x20class=\x22lovers-diary-delete\x22>删除</button>','payData','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border:\x201px\x20solid\x20#e5e5ea;\x20border-radius:\x2020px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-bolt\x22\x20style=\x22color:\x20#111;\x22></i>\x20高光时刻</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20alt=\x22动态图片\x20','日记生成失败','min','callData','你现在要扮演给定的角色(Char)。User\x20刚刚在动态评论区直接回应了你。请生成2-5条连续、自然的公开评论回复，并且可选生成0-2条相关私聊消息。\x0a',')\x22><i\x20class=\x22far\x20fa-comment-dots\x22></i><span>','<br>','rgba(0,\x200,\x200,\x200.4)','--:--','隐私记录','<div\x20style=\x22font-size:\x2012px;\x20color:\x20#999;\x20margin-bottom:\x208px;\x22>赞过\x20@','transactions','friend-files-tags-list','File\x20item\x20parse\x20error','getSeconds','friend-imsg-panel-me','邀请\x20','24px','\x22\x20data-date=\x22','/600/600','translateY(0)','filesData','friend-phone-gen-confirm-btn','<button\x20type=\x22button\x22\x20class=\x22','6px','currentPublishImages','fas\x20fa-user','touchAction','\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x20letter-spacing:\x200;\x22>kg</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2024px;\x20padding:\x2020px;\x20border:\x201px\x20solid\x20#f0f0f0;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20color:\x20#111;\x20font-weight:\x20600;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x208px;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22><i\x20class=\x22fas\x20fa-ruler-vertical\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#ff9500;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>身高</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2028px;\x20font-weight:\x20800;\x20color:\x20#111;\x20letter-spacing:\x20-0.5px;\x22>','focus','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20padding:\x2015px\x200;\x20border-bottom:\x201px\x20solid\x20#f0f0f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2012px;\x20background:\x20#f4f4f5;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x20font-size:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22','[id^=\x22loves-moment-menu-\x22]','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-around;\x20color:\x20#777;\x20font-size:\x2013px;\x20padding:\x2012px\x200;\x20border-top:\x201px\x20solid\x20#f2f2f2;\x20border-bottom:\x201px\x20solid\x20#f2f2f2;\x20margin-top:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span><i\x20class=\x22far\x20fa-comment-dots\x22></i>\x20','API\x20Error:','\x22\x20吗？','diaries','lovers-diary-count','log','2.\x20entries\x20数量必须刚好等于\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x206px;\x20width:\x2050px;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20rgba(142,142,147,0.1);\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background:\x20#e5e5ea;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2034px;\x20margin-bottom:\x2010px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2024px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>','(已有对局时间:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20','isFinite','lovers-publish-text','friend-game-back-btn','.contact-item-new','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','”</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','showContactDetailModal','16px','scrollLeft','pending','cursor','lovers-savings-withdraw-amount-input','boxShadow','then','<div\x20style=\x22padding:\x2050px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>暂无钱包数据<br><span\x20style=\x22font-size:\x2013px;\x20margin-top:\x208px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>','toggle','name','wordBreak','已向\x20','；messages\x20','card1','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20步数卡片\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2024px;\x20padding:\x2022px;\x20margin-bottom:\x2015px;\x20border:\x201px\x20solid\x20#f0f0f0;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20color:\x20#111;\x20font-weight:\x20600;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x208px;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22><i\x20class=\x22fas\x20fa-shoe-prints\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#ff3b30;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>步数</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x22>14:20\x20更新</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2042px;\x20font-weight:\x20800;\x20color:\x20#111;\x20display:\x20flex;\x20align-items:\x20baseline;\x20gap:\x206px;\x20letter-spacing:\x20-1px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','无更多详情','正在生成符合设定的数据，请稍候...','TA\x20同意了这次提款。','zh-CN','closest','moments','loves-note-name','\x20|\x20英雄:\x20','getMonth','innerText','friendId',';\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x20margin-bottom:\x202px;\x22>','lovers-savings-withdraw-result-reason-text','<i\x20class=\x22fas\x20fa-phone-alt\x22\x20style=\x22color:\x20#8e8e93;\x20font-size:\x2010px;\x22></i>','【角色(Char)人设】\x0a','#lovers-shared-savings-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','translateY(-20px)','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20absolute;\x20top:\x208px;\x20right:\x208px;\x20background:\x20rgba(0,0,0,0.5);\x20color:\x20#fff;\x20font-size:\x2010px;\x20padding:\x202px\x206px;\x20border-radius:\x206px;\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20800;\x22>','touchcancel','暂无微博小号数据，请在生成设置中生成微博','lovers-savings-add-btn','pointer',')\x22><i\x20class=\x22fas\x20fa-comment-dots\x22></i><span>让\x20TA\x20评论</span></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22is-danger\x22\x20onclick=\x22window.lovesApp.deleteMoment(','persist','\x0a【动态与评论现场】：\x0a','userRemark','<i\x20class=\x22fas\x20fa-image\x22></i>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x20repeat(3,\x201fr);\x20gap:\x205px;\x20margin:\x2014px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','0\x204px\x2012px\x20rgba(0,0,0,0.15)','Enter','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#222;\x20line-height:\x201.55;\x20','#777','getSavingsSummary','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2020px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20800;\x20font-size:\x2020px;\x20color:\x20','finally','saveGlobalData','\x0a【已有小号短信联系人】:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#111;\x20border-radius:\x2020px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-clipboard-list\x22\x20style=\x22color:\x20#fff;\x22></i>\x20局后复盘</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#ccc;\x20line-height:\x201.6;\x20font-size:\x2014px;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','未命名日记','</strong>','普通用户','这个理由我还想再问清楚一点。','\x0a【世界书设定】：\x0a','normalizeWeiboAlbumItem','recent','scrollTop','Parse\x20chat\x20error','them','fontSize','scrollTo','column','startRealTimeJobs','data-match','addedTime','friend-imsg-user-icon','ensureDiaryData','is-rejected','syncAllLovesRealTimeData','Prepaid','lovers-diary-list','.call-history-item-new','</span></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','fas\x20fa-user-secret','rejectReason','.friend-weibo-album-item',';\x20border:\x201px\x20solid\x20#e5e5ea;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20margin-bottom:\x2010px;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20gap:\x206px;\x20width:\x2050px;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20rgba(142,142,147,0.1);\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20','.friend-weibo-post-card','healthData','\x0a附带图片数量：','getFriendWeiboData','init','<div\x20style=\x22grid-column:\x20span\x203;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2040px\x200;\x22>最近删除为空</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','executeCharCommentRequest','note','</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','map','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20flex:\x201;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2018px;\x20font-weight:\x20800;\x20color:\x20','friend-imsg-tabbar-chat','.loves-moment-comment-input[data-moment-idx=\x22','[ACCEPT_INVITE]','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20border-radius:\x206px;\x20background:\x20#111;\x20flex-shrink:\x200;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-music\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20display:\x20flex;\x20flex-direction:\x20column;\x20pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>','2147483647','lovers-moments-empty','stringify','getFullYear','未知记录','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-composer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-composer-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','persistFriendState','\x22files\x22:\x20{\x0a\x20\x20\x22tags\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22新标签名称\x22,\x20\x22color\x22:\x20\x22#ff3b30\x22,\x20\x22items\x22:\x20[{\x22title\x22:\x20\x22新文件名.txt\x22,\x20\x22content\x22:\x20\x22一段极度符合人设的私密内容(50-100字)\x22}]}\x0a\x20\x20]\x0a}','absolute','push','mousemove','source','<div\x20style=\x22background:\x20#f4f4f5;\x20border-radius:\x2024px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x2012px;\x20padding-left:\x204px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-gamepad\x22\x20style=\x22color:\x20#111;\x22></i>\x20近期对局\x20(点击查看单局详情)</div>','lovesSpaceStartTime',';\x20padding:\x204px\x2010px;\x20border-radius:\x208px;\x22>KDA:\x20','lovers-publish-view','has','<div\x20class=\x22loves-invite-bubble\x22\x20style=\x22background:#fff;\x20border-radius:16px;\x20padding:12px;\x20border:1px\x20solid\x20#e5e5ea;\x20\x20color:#111;\x20max-width:220px;\x20margin:2px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:8px;\x20margin-bottom:8px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:28px;\x20height:28px;\x20border-radius:8px;\x20background:#ff2d55;\x20color:#fff;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20font-size:14px;\x22><i\x20class=\x22fas\x20fa-heart\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20font-weight:700;\x22>邀请已接受</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:13px;\x20color:#333;\x20line-height:1.4;\x22>TA\x20已接受了你的情侣空间邀请。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','before_role','toLocaleString','join','暂无短信记录<br><span\x20style=\x22font-size:\x2013px;\x20margin-top:\x208px;\x20display:\x20inline-block;\x22>请在设置中生成</span>','评论用户','未接来电','syncDailySavingsForFriend','lovers-diary-generator-date','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x204px;\x22>时长:\x20','请先进入情侣空间','这笔我同意，记得别乱花。','date','padding:\x2050px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2020px\x2016px;\x20background:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2028px;\x20font-weight:\x20800;\x20color:\x20#111;\x20margin-bottom:\x2020px;\x20letter-spacing:\x20-0.5px;\x22>音乐库</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2015px;\x20overflow-x:\x20auto;\x20padding-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:\x20140px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20140px;\x20height:\x20140px;\x20border-radius:\x2012px;\x20background:\x20#f4f4f5;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x20font-size:\x2030px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-history\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>最近播放</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>','lovers-space-user-avatar','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-ellipsis-h\x22\x20style=\x22color:\x20#999;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','padding','description','authorName','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2018px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x2015px;\x22>常玩的游戏</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','openSavingsWithdrawSheet','block','friend-phone-app-music','char','lovers-savings-goal','saveSavingsSettings','friend-pay-view','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#pay-tx-container\x20{\x20animation:\x20fadeUp\x200.4s\x20ease-out\x20forwards;\x20}\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20fadeUp\x20{\x20from\x20{\x20opacity:\x200;\x20transform:\x20translateY(15px);\x20}\x20to\x20{\x20opacity:\x201;\x20transform:\x20translateY(0);\x20}\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2034px;\x20font-weight:\x20800;\x20color:\x20#111;\x20margin-bottom:\x2025px;\x20letter-spacing:\x20-0.5px;\x22>Cards</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22pay-cards-container\x22\x20style=\x22position:\x20relative;\x20width:\x20100%;\x20height:\x20','friend-music-content','scheduleNextRealTimeSync','<p>','拒绝理由','赠送亲属卡','cards','0\x204px\x2020px\x20rgba(0,0,0,0.03)','\x0aChar\x20已存：','\x0aOriginal\x20Text:','fa-coins','data-tab','。\x0a4.\x20每个数组元素只写一条自然消息，不要带\x20Char/User\x20标签，不要把多条回复合并在一个字符串里。','getDiaryGenerationCount','char_to_user_pending','\x0a【各应用生成要求】：\x0a','data-index','暂无说明','padStart','API\x20Request\x20Failed:\x20','Credit','600','px;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','friend-game-content',';\x20letter-spacing:\x201px;\x22>','innerHTML','imChat','match','currentFriend','\x22\x20style=\x22aspect-ratio:\x201;\x20border-radius:\x208px;\x20overflow:\x20hidden;\x20background:\x20#f2f2f2;\x20cursor:\x20pointer;\x22><img\x20src=\x22','fas','flexShrink','<i\x20class=\x22fas\x20fa-times\x22></i>','author','confirm','paddingRight','<div\x20style=\x22white-space:\x20pre-wrap;\x20font-size:\x2015px;\x20line-height:\x201.6;\x20color:\x20#333;\x22>','getDefaultWeiboData',')\x22><i\x20class=\x22','_charReplyPending','totalHours','getWeiboRandomImage','formatMoney','\x27,\x20','Pay\x20income\x20failed','你现在要扮演给定的角色(Char)，为\x20User\x20发布的动态写1-2条评论，并给\x20User\x20发送1-3条相关私聊消息。\x0a','apiKey','recentTransactions','inline-block','body','userState','\x22></i>','showDeleteConfirm','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-comment\x20','borderTop','lovers-savings-view','1.6','ensureSavingsData','withdrawals','_charReplyPendingCount','【Char\x20人设】','ld_','[Loves]\x20loves-view\x20not\x20found','friend-files-recently-deleted-list','写点什么或添加图片吧','targetCommentText',';\x20border-radius:\x2020px;\x20padding:\x2020px;\x20color:\x20','...','friend-phone-back-btn','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2012px\x2015px;\x20border-top:\x201px\x20solid\x20#f0f0f0;\x20cursor:\x20pointer;\x20background:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-file-alt\x22\x20style=\x22color:\x20#8e8e93;\x20font-size:\x2018px;\x20margin-right:\x2012px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2016px;\x20color:\x20#111;\x20flex:\x201;\x22>',';\x22>','family_card_increase','string','friend','silent','还差\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20margin-top:\x206px;\x22>游戏总时长:\x20<span\x20style=\x22color:\x20#fff;\x20font-weight:\x20500;\x22>','backgroundPosition','27HbBtIA','marginBottom','lovers-savings-withdraw-cancel','imApp','\x20条缺少地点','201IqKHGN','存钱罐提款','images','withdrawal','artist','\x27)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20border-radius:\x2050%;\x20background:\x20#f0f0f0;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20margin-right:\x2015px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','renderFriendImsg','title','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','TA\x20已同意','maxHeight','Char','imessage','700','微博用户','friend-health-view','sleepHours','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','action','app','some','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-author-copy\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-name\x22>','你现在扮演\x20Char，需要处理情侣共享存钱罐的一次提款请求。\x0a\x0a【提款请求】\x0aUser\x20想从存钱罐提款：¥','\x22\x20style=\x22background:\x20#fff;\x20padding:\x2014px\x2016px;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x20padding:\x2010px\x200;\x20border-bottom:\x201px\x20solid\x20#f0f0f0;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x20width:\x2020px;\x20text-align:\x20center;\x22>','translateY(20px)','评论\x20TA\x20的动态...','85%','toString','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20','_realTimeJobsStarted','\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22></div>','\x22\x20onclick=\x22window.lovesApp.toggleMomentLike(','\x20<span\x20style=\x22font-size:\x2013px;\x20font-weight:\x20500;\x20color:\x20#8e8e93;\x22>次</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#111;\x20border-radius:\x2016px;\x20padding:\x2020px;\x20border-left:\x204px\x20solid\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-headphones-alt\x22\x20style=\x22color:\x20#fff;\x22></i>\x20听歌心声\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#ccc;\x20line-height:\x201.6;\x20font-size:\x2014px;\x20font-style:\x20italic;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20“','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','lovers-friend-phone-view','lovers-savings-withdraw-result-icon','API\x20请求失败:\x20','pointerEvents','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22user\x22>我</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22char\x22>','sort','openSavingsDepositSheet','dialogue','gameData','outgoing','find','active','weiboData','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20600;\x20color:\x20#8e8e93;\x20margin-bottom:\x2012px;\x20text-transform:\x20uppercase;\x22>录音转写记录</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#333;\x20line-height:\x201.6;\x20word-break:\x20break-word;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','reverse-chat-user-name','decision','transition','80%','0\x202px\x2010px\x20rgba(0,0,0,0.05)','[转账]\x20','slice',')\x22><span\x20class=\x22loves-moment-comment-author\x22>','phoneGenApps','assistant','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-placeholder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart-crack\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>还没有可邀请的好友</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lovers-savings-withdraw-reason-input','index','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22friend-imsg-chat-with-user-item-dynamic\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2016px;\x20border-radius:\x2020px;\x20background:\x20#f8f8fa;\x20border:\x201px\x20solid\x20#f0f0f0;\x20\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20border-radius:\x2050%;\x20background:\x20#f0f0f0;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20margin-right:\x2015px;\x20flex-shrink:\x200;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','formatDiaryDateLabel','temperature','_momentReplyQueues',')\x22><i\x20class=\x22fas\x20fa-trash-alt\x22></i><span>删除动态</span></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','lovers-savings-percent','回复\x20@','.lovers-friend-imsg-item','\x0a【已有无痕搜索】:\x20','friend-phone-app-imessage','<span\x20class=\x22lovers-diary-location\x22><i\x20class=\x22fas\x20fa-map-marker-alt\x22></i>','日\x22\x20aria-pressed=\x22','<div\x20style=\x22padding:\x2050px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>暂无音乐数据<br><span\x20style=\x22font-size:\x2013px;\x20margin-top:\x208px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>','Char\x20每日存钱','img','querySelectorAll','</p>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x20margin-bottom:\x2030px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2070px;\x20height:\x2070px;\x20border-radius:\x2050%;\x20background:\x20#1c1c1e;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-size:\x2030px;\x20color:\x20#fff;\x20border:\x202px\x20solid\x20#3a3a3c;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20letter-spacing:\x200.5px;\x22>','app-loves-btn','<div\x20class=\x22friend-weibo-detail-image\x22\x20data-index=\x22','nickname','far','getDay','<i\x20class=\x22fas\x20fa-check\x22\x20style=\x22color:\x20#007aff;\x22></i>','1.4','已存入存钱罐','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20color:\x20#222;\x20line-height:\x201.65;\x20word-break:\x20break-word;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:\x20absolute;\x20bottom:\x200;\x20right:\x200;\x20width:\x2014px;\x20height:\x2014px;\x20border-radius:\x2050%;\x20background:\x20#34c759;\x20border:\x202px\x20solid\x20#fff;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20min-width:\x200;\x20display:\x20flex;\x20flex-direction:\x20column;\x20justify-content:\x20center;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2017px;\x20font-weight:\x20600;\x20color:\x20#111;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2013px;\x22>暂无交易记录</div>','#loves-detail-modal\x20.friend-weibo-detail-image','\x22\x20aria-label=\x22','friend-phone-settings-sheet','655616tSnuwP','确定要删除\x20\x22','justifyContent','呼入通话','\x0a【近期聊天上下文(最近10条)】：\x0a','linear-gradient(135deg,\x20#0a0a0c,\x20#161618)','button','4068440ldgnIq','普通角色','loves-call-detail-modal','char_daily','lovers-savings-settings-save','\x0aUser\x20刚刚在这条\x20Char\x20动态下评论：','max','Win','appendFriendMessage','\x20的恋人空间','borderTopRightRadius','data-item','income','borderBottom','card2','savingsPreviousZIndex','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20margin-bottom:\x2015px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>添加为联系人日期</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20500;\x20color:\x20#111;\x22>','lovers-savings-date-filter','comments','background','safariData','recentlyDeleted'];_0x22f9=function(){return _0x191ec2;};return _0x22f9();}const _0x52ecaa=_0x18e0;function _0x18e0(_0x561aa9,_0x4f5167){_0x561aa9=_0x561aa9-0xc8;const _0x22f938=_0x22f9();let _0x18e0bb=_0x22f938[_0x561aa9];return _0x18e0bb;}(function(_0x34f41e,_0x5143b7){const _0x2c0cee=_0x18e0,_0x2c42cc=_0x34f41e();while(!![]){try{const _0x4f895f=-parseInt(_0x2c0cee(0x3d0))/0x1+-parseInt(_0x2c0cee(0x487))/0x2+parseInt(_0x2c0cee(0x372))/0x3*(parseInt(_0x2c0cee(0x234))/0x4)+parseInt(_0x2c0cee(0x3d7))/0x5+parseInt(_0x2c0cee(0x1df))/0x6+-parseInt(_0x2c0cee(0x19f))/0x7*(-parseInt(_0x2c0cee(0xe3))/0x8)+-parseInt(_0x2c0cee(0x36d))/0x9*(-parseInt(_0x2c0cee(0x4da))/0xa);if(_0x4f895f===_0x5143b7)break;else _0x2c42cc['push'](_0x2c42cc['shift']());}catch(_0x1d3681){_0x2c42cc['push'](_0x2c42cc['shift']());}}}(_0x22f9,0xc8ae3),window[_0x52ecaa(0x484)]={'view':null,'backBtn':null,'initialized':![],'currentImsgAccount':'main','currentWeiboAccount':'main','currentFriend':null,'currentSelectedFriendId':null,'lovesProgrammaticScrollUntil':0x0,'_realTimeJobsStarted':![],'_realTimeTimer':null,'_momentReplyQueues':new Map(),'persistFriendState':async function(_0x37916c=this[_0x52ecaa(0x33b)],_0x743d94={}){const _0x43747d=_0x52ecaa;if(!_0x37916c)return![];if(window[_0x43747d(0x370)]&&typeof window[_0x43747d(0x370)][_0x43747d(0x441)]===_0x43747d(0x3f5)){const _0x30746e=await window['imApp'][_0x43747d(0x441)](_0x37916c,_0x280ad6=>{const _0x4862e1=_0x43747d;this['currentFriend']&&String(this[_0x4862e1(0x33b)]['id'])===String(_0x280ad6['id'])&&(this[_0x4862e1(0x33b)]=_0x280ad6);},{'silent':_0x743d94[_0x43747d(0x369)]!==![],'syncActive':!![],'metaOnly':_0x743d94[_0x43747d(0x56d)]===!![]});return!!_0x30746e;}if(typeof window[_0x43747d(0x2c2)]===_0x43747d(0x3f5))return await window['saveGlobalData'](),!![];return![];},'bindLongPress':function(_0x368300,_0x401ea8){const _0x59cb41=_0x52ecaa;let _0x1f08a0=null,_0x556f01=0x0,_0x359bdc=0x0;const _0x71fb13=_0x5a2270=>{const _0x448227=_0x18e0;if(_0x5a2270[_0x448227(0x3ee)]===_0x448227(0x474)&&_0x5a2270[_0x448227(0x3d6)]!==0x0)return;_0x5a2270[_0x448227(0x3ee)]===_0x448227(0x161)?(_0x556f01=_0x5a2270[_0x448227(0x120)][0x0][_0x448227(0x19e)],_0x359bdc=_0x5a2270[_0x448227(0x120)][0x0]['clientY']):(_0x556f01=_0x5a2270['clientX'],_0x359bdc=_0x5a2270[_0x448227(0x4e9)]),_0x1f08a0===null&&(_0x1f08a0=setTimeout(()=>{_0x1f08a0=null,_0x401ea8(_0x5a2270);},0x258));},_0x38fd0c=()=>{_0x1f08a0!==null&&(clearTimeout(_0x1f08a0),_0x1f08a0=null);},_0x129e8d=_0x4bb9ff=>{const _0x31c126=_0x18e0;if(_0x1f08a0===null)return;let _0x547a0a=_0x4bb9ff['type']===_0x31c126(0x54c)?_0x4bb9ff[_0x31c126(0x120)][0x0][_0x31c126(0x19e)]:_0x4bb9ff[_0x31c126(0x19e)],_0x57da52=_0x4bb9ff[_0x31c126(0x3ee)]==='touchmove'?_0x4bb9ff[_0x31c126(0x120)][0x0][_0x31c126(0x4e9)]:_0x4bb9ff[_0x31c126(0x4e9)];(Math['abs'](_0x547a0a-_0x556f01)>0xa||Math['abs'](_0x57da52-_0x359bdc)>0xa)&&_0x38fd0c();};_0x368300['addEventListener'](_0x59cb41(0x474),_0x71fb13),_0x368300['addEventListener'](_0x59cb41(0x161),_0x71fb13,{'passive':!![]}),_0x368300['addEventListener'](_0x59cb41(0x2fc),_0x129e8d),_0x368300['addEventListener'](_0x59cb41(0x54c),_0x129e8d,{'passive':!![]}),_0x368300[_0x59cb41(0x592)](_0x59cb41(0x411),_0x38fd0c),_0x368300['addEventListener']('touchend',_0x38fd0c),_0x368300['addEventListener'](_0x59cb41(0x1f8),_0x38fd0c),_0x368300[_0x59cb41(0x592)](_0x59cb41(0x2b1),_0x38fd0c);},'showDeleteConfirm':function(_0x26fb5e,_0x22a7e2){const _0x1382d3=_0x52ecaa,_0x4c7667=window[_0x1382d3(0x341)](_0x1382d3(0x3d1)+_0x26fb5e+_0x1382d3(0x27e));if(_0x4c7667){Promise[_0x1382d3(0x528)](_0x22a7e2())[_0x1382d3(0x294)](()=>{});if(window[_0x1382d3(0x1d0)])window[_0x1382d3(0x1d0)](_0x1382d3(0x22d));}},'escapeHTML':function(_0x1bd0b5){const _0x493f87=_0x52ecaa;return String(_0x1bd0b5??'')['replace'](/[&<>"']/g,_0xec1bf1=>({'&':_0x493f87(0x51e),'<':_0x493f87(0x110),'>':'&gt;','\x22':_0x493f87(0x1f5),'\x27':_0x493f87(0x157)}[_0xec1bf1]));},'getLocalDateKey':function(_0x147ca9=new Date()){const _0x40e101=_0x52ecaa,_0x43632b=_0x147ca9 instanceof Date?_0x147ca9:new Date(_0x147ca9);if(Number[_0x40e101(0x4b3)](_0x43632b[_0x40e101(0xf7)]()))return this[_0x40e101(0x43f)](new Date());const _0x6067fc=_0x43632b[_0x40e101(0x2f5)](),_0x40a87a=String(_0x43632b[_0x40e101(0x2a5)]()+0x1)['padStart'](0x2,'0'),_0x164e43=String(_0x43632b[_0x40e101(0x129)]())[_0x40e101(0x331)](0x2,'0');return _0x6067fc+'-'+_0x40a87a+'-'+_0x164e43;},'parseDateKey':function(_0x5b57bd){const _0x593a73=_0x52ecaa;if(!_0x5b57bd||typeof _0x5b57bd!==_0x593a73(0x367))return new Date();const _0x4fca86=_0x5b57bd['split']('-')['map'](Number);if(_0x4fca86[_0x593a73(0x436)]!==0x3||_0x4fca86[_0x593a73(0x386)](Number[_0x593a73(0x4b3)]))return new Date();return new Date(_0x4fca86[0x0],_0x4fca86[0x1]-0x1,_0x4fca86[0x2]);},'getLocalDayOrdinal':function(_0x35474d=new Date()){const _0x1fbafd=_0x52ecaa,_0x36c4ff=_0x35474d instanceof Date?_0x35474d:new Date(_0x35474d);if(Number[_0x1fbafd(0x4b3)](_0x36c4ff[_0x1fbafd(0xf7)]()))return this[_0x1fbafd(0x417)](new Date());return Math[_0x1fbafd(0x585)](Date[_0x1fbafd(0x594)](_0x36c4ff[_0x1fbafd(0x2f5)](),_0x36c4ff[_0x1fbafd(0x2a5)](),_0x36c4ff[_0x1fbafd(0x129)]())/0x5265c00);},'addLocalDateDays':function(_0x460154,_0x51039c=0x1){const _0x4f93da=_0x52ecaa,_0x5d8358=this[_0x4f93da(0x178)](_0x460154);return _0x5d8358['setDate'](_0x5d8358[_0x4f93da(0x129)]()+_0x51039c),this['getLocalDateKey'](_0x5d8358);},'findLovesAcceptanceTimestamp':function(_0x8f2caa){const _0x1228fe=_0x52ecaa,_0x33ba14=Array['isArray'](_0x8f2caa?.[_0x1228fe(0x43c)])?_0x8f2caa[_0x1228fe(0x43c)]:[],_0xf76227=_0x33ba14[_0x1228fe(0x39f)](_0xed6937=>{const _0x3c210d=_0x1228fe,_0x266ee7=String(_0xed6937?.[_0x3c210d(0x1d7)]||_0xed6937?.[_0x3c210d(0x4d0)]||'');return _0x266ee7[_0x3c210d(0x4c7)](_0x3c210d(0x2f0))||_0x266ee7[_0x3c210d(0x4c7)](_0x3c210d(0x44f))||_0x266ee7['includes'](_0x3c210d(0x4cd))||_0x266ee7[_0x3c210d(0x4c7)](_0x3c210d(0x4e2))||_0x266ee7[_0x3c210d(0x4c7)](_0x3c210d(0x1ac));}),_0x198803=Number(_0xf76227?.[_0x1228fe(0x4f4)]);return Number[_0x1228fe(0x287)](_0x198803)&&_0x198803>0x0?_0x198803:0x0;},'ensureLovesStartTime':function(_0x3497d1,_0x3192aa=Date[_0x52ecaa(0x1ec)]()){const _0x3965d1=_0x52ecaa;if(!_0x3497d1||!_0x3497d1['hasLovesSpace'])return{'timestamp':0x0,'changed':![]};const _0x5c7792=Number(_0x3497d1['lovesSpaceStartTime']);if(Number[_0x3965d1(0x287)](_0x5c7792)&&_0x5c7792>0x0)return{'timestamp':_0x5c7792,'changed':![]};const _0x5d728e=this[_0x3965d1(0xd9)](_0x3497d1),_0x515d49=Number(_0x3192aa),_0x177f14=_0x5d728e||(Number[_0x3965d1(0x287)](_0x515d49)&&_0x515d49>0x0?_0x515d49:Date[_0x3965d1(0x1ec)]());return _0x3497d1['lovesSpaceStartTime']=_0x177f14,{'timestamp':_0x177f14,'changed':!![]};},'getLovesDaysCount':function(_0xaf1f96,_0x494a1a=new Date()){const _0x387ed2=_0x52ecaa,_0x52dd99=Number(_0xaf1f96?.[_0x387ed2(0x2ff)]);if(!Number[_0x387ed2(0x287)](_0x52dd99)||_0x52dd99<=0x0)return 0x1;const _0xcb755a=this['getLocalDayOrdinal'](new Date(_0x52dd99)),_0x973950=this[_0x387ed2(0x417)](_0x494a1a);return Math[_0x387ed2(0x3dd)](0x1,_0x973950-_0xcb755a+0x1);},'syncDailySavingsForFriend':async function(_0x3bd8eb,_0x3d7d89=new Date(),_0xd65b2e={}){const _0x4af2ea=_0x52ecaa;if(!_0x3bd8eb||!_0x3bd8eb['hasLovesSpace'])return![];const _0x432a7c=this[_0x4af2ea(0x459)](_0x3bd8eb,_0x3d7d89[_0x4af2ea(0xf7)]()),_0x5300d0=this[_0x4af2ea(0x43f)](_0x432a7c['timestamp']),_0x265600=this[_0x4af2ea(0x43f)](_0x3d7d89),_0x3d4de0=this[_0x4af2ea(0x358)](_0x3bd8eb),_0x54269a=new Set(_0x3d4de0[_0x4af2ea(0x3fd)][_0x4af2ea(0x526)](_0x1e73aa=>_0x1e73aa?.[_0x4af2ea(0x2fd)]==='char_daily'||String(_0x1e73aa?.['id']||'')['startsWith']('sav_char_daily_'))[_0x4af2ea(0x2ec)](_0x24b470=>_0x24b470[_0x4af2ea(0x30f)])[_0x4af2ea(0x526)](Boolean));let _0x5d170d=this['getLocalDayOrdinal'](this[_0x4af2ea(0x178)](_0x5300d0))>this[_0x4af2ea(0x417)](_0x3d7d89)?_0x265600:_0x5300d0,_0x6c996d=_0x432a7c[_0x4af2ea(0x45d)],_0x3a7015=0x0;while(_0x5d170d<=_0x265600&&_0x3a7015<0x4e20){if(!_0x54269a[_0x4af2ea(0x302)](_0x5d170d)){const _0x1adb05=_0x5d170d===_0x265600,_0x2033e4=_0x1adb05?new Date(_0x3d7d89):this[_0x4af2ea(0x178)](_0x5d170d);if(!_0x1adb05)_0x2033e4[_0x4af2ea(0x555)](0xc,0x0,0x0,0x0);_0x3d4de0['records'][_0x4af2ea(0x198)]({'id':_0x4af2ea(0xfb)+_0x5d170d,'amount':Math[_0x4af2ea(0x585)](Math[_0x4af2ea(0x5a4)]()*0x64)+0x1,'actor':'char','date':_0x5d170d,'note':_0x4af2ea(0x3bd),'source':_0x4af2ea(0x3da),'timestamp':_0x2033e4[_0x4af2ea(0xf7)]()}),_0x54269a[_0x4af2ea(0x4ca)](_0x5d170d),_0x6c996d=!![];}if(_0x5d170d===_0x265600)break;_0x5d170d=this[_0x4af2ea(0x19d)](_0x5d170d,0x1),_0x3a7015+=0x1;}return _0x6c996d&&_0xd65b2e[_0x4af2ea(0x2b6)]!==![]&&await this[_0x4af2ea(0x2f8)](_0x3bd8eb,{'metaOnly':!![],'silent':!![]}),_0x6c996d;},'syncAllLovesRealTimeData':async function(){const _0x1ced80=_0x52ecaa;if(window[_0x1ced80(0x370)]?.[_0x1ced80(0x184)])await window[_0x1ced80(0x370)][_0x1ced80(0x184)]();const _0x493129=Array['isArray'](window['imData']?.['friends'])?window['imData'][_0x1ced80(0x54e)]:[],_0x26fb0d=_0x493129[_0x1ced80(0x526)](_0x455aa5=>_0x455aa5?.[_0x1ced80(0x4eb)]);for(const _0x35750b of _0x26fb0d){!Number(_0x35750b[_0x1ced80(0x2ff)])&&window['imApp']?.[_0x1ced80(0xd6)]&&await window[_0x1ced80(0x370)][_0x1ced80(0xd6)](_0x35750b),await this['syncDailySavingsForFriend'](_0x35750b);}if(this[_0x1ced80(0x33b)]?.[_0x1ced80(0x4eb)])this[_0x1ced80(0x494)](this[_0x1ced80(0x33b)]);document['getElementById'](_0x1ced80(0x356))?.[_0x1ced80(0x513)]['contains'](_0x1ced80(0x3a0))&&this[_0x1ced80(0x3ef)]();},'scheduleNextRealTimeSync':function(){const _0x299625=_0x52ecaa;if(this['_realTimeTimer'])clearTimeout(this[_0x299625(0x4ab)]);const _0x5bdf9e=new Date(),_0x186f67=new Date(_0x5bdf9e);_0x186f67['setHours'](0x18,0x0,0x1,0x0),this[_0x299625(0x4ab)]=setTimeout(async()=>{const _0x5a9431=_0x299625;await this[_0x5a9431(0x2d9)](),this[_0x5a9431(0x321)]();},Math[_0x299625(0x3dd)](0x3e8,_0x186f67[_0x299625(0xf7)]()-_0x5bdf9e[_0x299625(0xf7)]()));},'startRealTimeJobs':function(){const _0x59805d=_0x52ecaa;if(this[_0x59805d(0x390)])return;this[_0x59805d(0x390)]=!![];const _0x24983b=()=>{const _0x5b0e8c=_0x59805d;void this[_0x5b0e8c(0x2d9)]()[_0x5b0e8c(0x2c1)](()=>this['scheduleNextRealTimeSync']());};document[_0x59805d(0x592)](_0x59805d(0x424),()=>{const _0x420774=_0x59805d;if(document[_0x420774(0x18a)]===_0x420774(0x4d7))_0x24983b();}),window[_0x59805d(0x592)](_0x59805d(0x279),_0x24983b),_0x24983b();},'formatMoney':function(_0x247a4b){const _0x3ce042=_0x52ecaa,_0x83a8e3=Number(_0x247a4b)||0x0;return'¥'+_0x83a8e3[_0x3ce042(0x305)](_0x3ce042(0x2a0),{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2});},'init':function(){const _0x301e6e=_0x52ecaa;if(this[_0x301e6e(0x13a)])return;this[_0x301e6e(0x465)]=document[_0x301e6e(0x199)](_0x301e6e(0xe9)),this[_0x301e6e(0x50d)]=document[_0x301e6e(0x199)](_0x301e6e(0x239));if(!this['view'])return;this[_0x301e6e(0x575)](),this[_0x301e6e(0x40e)](),this[_0x301e6e(0x13a)]=!![],this[_0x301e6e(0x2d3)](),console[_0x301e6e(0x281)](_0x301e6e(0x56b));},'bindEvents':function(){const _0x77dd4d=_0x52ecaa;this[_0x77dd4d(0x50d)]&&this['backBtn']['addEventListener']('click',()=>{const _0x2f1d15=_0x77dd4d;this[_0x2f1d15(0x24b)]();}),!this[_0x77dd4d(0x4ae)]&&(document[_0x77dd4d(0x592)]('click',_0x1a34f1=>{const _0x3ca270=_0x77dd4d,_0x552693=_0x1a34f1[_0x3ca270(0x4fa)][_0x3ca270(0x2a1)](_0x3ca270(0x2ac));if(!_0x552693)return;_0x1a34f1[_0x3ca270(0x203)](),_0x1a34f1['stopPropagation']();const _0x8a57e7=_0x552693[_0x3ca270(0x21f)]['friendId'];!this[_0x3ca270(0x33b)]&&_0x8a57e7&&(this[_0x3ca270(0x33b)]=window['imData']?.[_0x3ca270(0x54e)]?.[_0x3ca270(0x39f)](_0x2eb9c2=>String(_0x2eb9c2['id'])===String(_0x8a57e7))||null),this[_0x3ca270(0x562)]();}),this['_sharedSavingsDelegated']=!![]);},'bindLauncherButton':function(){const _0x4d803e=_0x52ecaa,_0x11e231=document[_0x4d803e(0x199)](_0x4d803e(0x3c2));if(!_0x11e231||_0x11e231['dataset']['lovesLauncherBound']===_0x4d803e(0x132))return;_0x11e231[_0x4d803e(0x21f)][_0x4d803e(0x58a)]=_0x4d803e(0x132),_0x11e231['addEventListener']('click',_0x441f8a=>{const _0x44319a=_0x4d803e;_0x441f8a[_0x44319a(0x203)](),_0x441f8a['stopPropagation'](),window[_0x44319a(0x484)]&&typeof window['lovesApp'][_0x44319a(0x22b)]===_0x44319a(0x3f5)&&window[_0x44319a(0x484)][_0x44319a(0x22b)]();});},'bindSharedSavingsButton':function(_0x37c462=this['currentFriend']){const _0x2e4f30=_0x52ecaa,_0x53258c=document[_0x2e4f30(0x199)](_0x2e4f30(0x432));if(!_0x53258c)return;_0x37c462&&_0x37c462['id']!==undefined&&(_0x53258c[_0x2e4f30(0x21f)][_0x2e4f30(0x2a7)]=String(_0x37c462['id'])),_0x53258c[_0x2e4f30(0x18e)]=_0x3d9618=>{const _0x1865af=_0x2e4f30;_0x3d9618[_0x1865af(0x203)](),_0x3d9618[_0x1865af(0x124)]();if(_0x37c462)this[_0x1865af(0x33b)]=_0x37c462;!this[_0x1865af(0x33b)]&&_0x53258c[_0x1865af(0x21f)][_0x1865af(0x2a7)]&&(this[_0x1865af(0x33b)]=window[_0x1865af(0xfa)]?.[_0x1865af(0x54e)]?.[_0x1865af(0x39f)](_0x517cee=>String(_0x517cee['id'])===String(_0x53258c['dataset'][_0x1865af(0x2a7)]))||null),this['openSavingsJar']();};},'bindFabClick':function(){const _0x4be3a3=_0x52ecaa,_0x4024c1=document[_0x4be3a3(0x199)](_0x4be3a3(0x531));if(!_0x4024c1)return;_0x4024c1['style']['transform']='',_0x4024c1['style'][_0x4be3a3(0x277)]='auto',_0x4024c1[_0x4be3a3(0x18e)]=_0x2df2ff=>{const _0x46c1ad=_0x4be3a3;_0x2df2ff['preventDefault'](),_0x2df2ff['stopPropagation']();const _0x4084c2=document[_0x46c1ad(0x199)](_0x46c1ad(0x356));if(_0x4084c2&&_0x4084c2['classList'][_0x46c1ad(0x15d)](_0x46c1ad(0x3a0))){this[_0x46c1ad(0x39b)](_0x46c1ad(0x5b6));return;}const _0x39032d=document[_0x46c1ad(0x55c)](_0x46c1ad(0x504));if(_0x39032d){const _0xc2d467=_0x39032d[_0x46c1ad(0x5b1)]('data-tab');if(_0xc2d467===_0x46c1ad(0x195))this[_0x46c1ad(0x533)]();else{if(_0xc2d467===_0x46c1ad(0x2a2))this['openPublishView']();else{if(window['showToast'])window[_0x46c1ad(0x1d0)]('此板块暂不支持添加');}}}else this['openPublishView']();};},'currentDiaryDate':new Date(),'formatDiaryDateLabel':function(_0x576a0e){const _0x5bb087=_0x52ecaa,_0x50cc60=this[_0x5bb087(0x178)](_0x576a0e),_0x19fc74=this[_0x5bb087(0x43f)](new Date()),_0x1c63f9=['周日','周一','周二','周三','周四','周五','周六'],_0x34367=_0x576a0e===_0x19fc74?'今天':_0x50cc60[_0x5bb087(0x2a5)]()+0x1+'月'+_0x50cc60[_0x5bb087(0x129)]()+'日';return _0x34367+_0x5bb087(0xd2)+_0x1c63f9[_0x50cc60[_0x5bb087(0x3c6)]()];},'ensureDiaryData':function(_0x243f7c=this[_0x52ecaa(0x33b)]){const _0x5e135f=_0x52ecaa;if(!_0x243f7c)return[];if(!_0x243f7c[_0x5e135f(0x48a)]||typeof _0x243f7c[_0x5e135f(0x48a)]!==_0x5e135f(0x52b))_0x243f7c[_0x5e135f(0x48a)]={};if(!Array[_0x5e135f(0x1b2)](_0x243f7c[_0x5e135f(0x48a)][_0x5e135f(0x27f)]))_0x243f7c['lovesData']['diaries']=[];return _0x243f7c[_0x5e135f(0x48a)]['diaries']=_0x243f7c[_0x5e135f(0x48a)][_0x5e135f(0x27f)]['filter'](_0xa843b5=>_0xa843b5&&typeof _0xa843b5===_0x5e135f(0x52b))[_0x5e135f(0x2ec)]((_0x287371,_0x73453c)=>({'id':_0x287371['id']||_0x5e135f(0x35c)+Date[_0x5e135f(0x1ec)]()+'_'+_0x73453c,'date':String(_0x287371[_0x5e135f(0x30f)]||this['getLocalDateKey'](_0x287371[_0x5e135f(0x1f2)]||Date[_0x5e135f(0x1ec)]())),'time':String(_0x287371[_0x5e135f(0x429)]||'')['slice'](0x0,0x5),'title':String(_0x287371[_0x5e135f(0x379)]||_0x287371['name']||_0x5e135f(0x2c6))[_0x5e135f(0x53d)]()||_0x5e135f(0x2c6),'location':String(_0x287371['location']||_0x5e135f(0x220))[_0x5e135f(0x53d)]()||_0x5e135f(0x220),'diary':String(_0x287371['diary']||_0x287371[_0x5e135f(0x4d0)]||'')[_0x5e135f(0x53d)](),'createdAt':Number(_0x287371['createdAt'])||Number(_0x287371['timestamp'])||Date[_0x5e135f(0x1ec)](),'source':_0x5e135f(0x51b)})),_0x243f7c['lovesData'][_0x5e135f(0x27f)];},'renderDiary':function(){const _0x4e9082=_0x52ecaa,_0x247dd2=document[_0x4e9082(0x199)](_0x4e9082(0x578)),_0x3ccc1a=document[_0x4e9082(0x199)](_0x4e9082(0x2db)),_0x403ca1=document[_0x4e9082(0x199)](_0x4e9082(0x1f3)),_0x57bfde=document[_0x4e9082(0x199)](_0x4e9082(0x59d)),_0x39e498=document['getElementById'](_0x4e9082(0x47b));if(!_0x247dd2||!_0x3ccc1a)return;const _0x5d35ca=new Date(),_0x130f57=this[_0x4e9082(0x453)]||_0x5d35ca,_0x3ebde8=this[_0x4e9082(0x43f)](_0x130f57);_0x57bfde&&_0x39e498&&(_0x57bfde[_0x4e9082(0x4d2)]=_0x130f57[_0x4e9082(0x2f5)]()+'年',_0x39e498[_0x4e9082(0x4d2)]=_0x130f57[_0x4e9082(0x2a5)]()+0x1+'月');if(_0x403ca1){const _0x436aba=String(_0x130f57[_0x4e9082(0x2a5)]()+0x1)[_0x4e9082(0x331)](0x2,'0');_0x403ca1[_0x4e9082(0x544)]=_0x130f57[_0x4e9082(0x2f5)]()+'-'+_0x436aba,_0x403ca1[_0x4e9082(0x40d)]=_0x3fb8d9=>{const _0x16ba7e=_0x4e9082,_0x1aa00c=_0x3fb8d9[_0x16ba7e(0x4fa)][_0x16ba7e(0x544)];if(!_0x1aa00c)return;const _0x46b493=_0x1aa00c[_0x16ba7e(0x44b)]('-')[_0x16ba7e(0x2ec)](Number);if(_0x46b493[_0x16ba7e(0x436)]!==0x2||_0x46b493[_0x16ba7e(0x386)](Number['isNaN']))return;this[_0x16ba7e(0x453)]=new Date(_0x46b493[0x0],_0x46b493[0x1]-0x1,0x1),this[_0x16ba7e(0x1c8)]();};}const _0x4c5549=['日','一','二','三','四','五','六'];let _0x23f569='';for(let _0x577080=-0xf;_0x577080<=0xf;_0x577080++){const _0x307ff0=new Date(_0x130f57);_0x307ff0[_0x4e9082(0x4ea)](_0x130f57[_0x4e9082(0x129)]()+_0x577080);const _0xe97019=this[_0x4e9082(0x43f)](_0x307ff0),_0xd8010b=_0xe97019===this[_0x4e9082(0x43f)](_0x5d35ca),_0x431019=_0xe97019===_0x3ebde8,_0x509462=[_0x4e9082(0x433),_0xd8010b?_0x4e9082(0x514):'',_0x431019?_0x4e9082(0x545):''][_0x4e9082(0x526)](Boolean)[_0x4e9082(0x306)]('\x20');_0x23f569+=[_0x4e9082(0x273),_0x509462,_0x4e9082(0x26e),_0xe97019,_0x4e9082(0x3ce),_0x307ff0['getMonth']()+0x1,'月',_0x307ff0[_0x4e9082(0x129)](),_0x4e9082(0x3bb),String(_0x431019),'\x22>',_0x4e9082(0x48c),_0xd8010b?'今':_0x4c5549[_0x307ff0[_0x4e9082(0x3c6)]()],'</small>',_0x4e9082(0x183),_0x307ff0['getDate'](),_0x4e9082(0x2c7),_0x4e9082(0x176)][_0x4e9082(0x306)]('');}_0x247dd2['innerHTML']=_0x23f569,setTimeout(()=>{const _0x214959=_0x4e9082,_0x214c30=_0x247dd2['querySelector']('.diary-date-item.is-selected');if(_0x214c30&&_0x247dd2['parentElement']){const _0x4585d8=_0x214c30[_0x214959(0xe0)]-_0x247dd2['parentElement'][_0x214959(0x126)]/0x2+_0x214c30[_0x214959(0x126)]/0x2;_0x247dd2[_0x214959(0x444)][_0x214959(0x2d1)]({'left':_0x4585d8,'behavior':_0x214959(0x107)});}},0x32),_0x247dd2[_0x4e9082(0x3bf)](_0x4e9082(0x1c0))[_0x4e9082(0x4e7)](_0x40515b=>{const _0x1d0a86=_0x4e9082;_0x40515b[_0x1d0a86(0x18e)]=()=>{const _0x7c4f0d=_0x1d0a86;this[_0x7c4f0d(0x453)]=this[_0x7c4f0d(0x178)](_0x40515b[_0x7c4f0d(0x5b1)](_0x7c4f0d(0x12e))),this['renderDiary']();};});const _0x4302b8=this[_0x4e9082(0x2d7)]()[_0x4e9082(0x526)](_0x404130=>_0x404130[_0x4e9082(0x30f)]===_0x3ebde8)['sort']((_0x4e482b,_0x16532f)=>String(_0x4e482b[_0x4e9082(0x429)]||'')[_0x4e9082(0x5a1)](String(_0x16532f['time']||'')));if(_0x4302b8[_0x4e9082(0x436)]===0x0){_0x3ccc1a[_0x4e9082(0x338)]=[_0x4e9082(0x138),_0x4e9082(0x4b0),_0x4e9082(0x183),_0x3ebde8===this[_0x4e9082(0x43f)](_0x5d35ca)?_0x4e9082(0x117):'这天还没有日记','</strong>','<span>点击右下角\x20+，让\x20TA\x20生成行程日记</span>',_0x4e9082(0x23d)][_0x4e9082(0x306)]('');return;}_0x3ccc1a['innerHTML']=_0x4302b8[_0x4e9082(0x2ec)](_0x1347c5=>{const _0x247019=_0x4e9082,_0x5e0da1=this['escapeHTML'](_0x1347c5['id']),_0x3538ba=this['escapeHTML'](_0x1347c5[_0x247019(0x429)]||_0x247019(0x264)),_0x3f413d=this[_0x247019(0x130)](_0x1347c5[_0x247019(0x379)]||_0x247019(0x2c6)),_0x315754=this[_0x247019(0x130)](_0x1347c5[_0x247019(0x194)]||_0x247019(0x220)),_0xe823db=this[_0x247019(0x130)](_0x1347c5[_0x247019(0x195)]||'');return[_0x247019(0x588),_0x5e0da1,'\x22>',_0x247019(0x426),_0x3538ba,_0x247019(0x23d),_0x247019(0x50f),'<div\x20class=\x22lovers-diary-card-head\x22>',_0x247019(0x183),_0x3f413d,_0x247019(0x2c7),_0x247019(0x259),'</div>',_0x247019(0x3ba),_0x315754,'</span>',_0x247019(0x322),_0xe823db,_0x247019(0x3c0),_0x247019(0x23d),_0x247019(0x550)][_0x247019(0x306)]('');})[_0x4e9082(0x306)]('')+_0x4e9082(0x4d1),_0x3ccc1a['querySelectorAll']('.lovers-diary-delete')[_0x4e9082(0x4e7)](_0x32d1ed=>{const _0x33e451=_0x4e9082;_0x32d1ed[_0x33e451(0x18e)]=_0x558289=>{const _0x2b0063=_0x33e451;_0x558289['stopPropagation']();const _0x4b6cf0=_0x558289[_0x2b0063(0x4fa)][_0x2b0063(0x2a1)](_0x2b0063(0x1c9)),_0xc367d2=_0x4b6cf0?.[_0x2b0063(0x5b1)](_0x2b0063(0x1db));if(!_0xc367d2)return;if(!confirm(_0x2b0063(0x18c)))return;const _0xba466=this[_0x2b0063(0x2d7)]();this[_0x2b0063(0x33b)][_0x2b0063(0x48a)]['diaries']=_0xba466[_0x2b0063(0x526)](_0x4d8c0e=>String(_0x4d8c0e['id'])!==String(_0xc367d2)),this[_0x2b0063(0x2f8)](),this['renderDiary']();};});},'openDiaryGeneratorView':function(){const _0x78c65b=_0x52ecaa;if(!this[_0x78c65b(0x33b)]){if(window[_0x78c65b(0x1d0)])window[_0x78c65b(0x1d0)](_0x78c65b(0x30d));return;}const _0x293584=document[_0x78c65b(0x199)](_0x78c65b(0x527));if(!_0x293584)return;const _0x347606=this['getLocalDateKey'](this[_0x78c65b(0x453)]||new Date()),_0x3fb7dd=document[_0x78c65b(0x199)](_0x78c65b(0x30b)),_0x1b7152=document[_0x78c65b(0x199)]('lovers-diary-count'),_0x5d7b5d=document['getElementById'](_0x78c65b(0x4b8)),_0x3df0ad=document[_0x78c65b(0x199)](_0x78c65b(0x422));if(_0x3fb7dd)_0x3fb7dd[_0x78c65b(0x4d2)]=this[_0x78c65b(0x3b1)](_0x347606);if(_0x1b7152)_0x1b7152[_0x78c65b(0x544)]='10';if(_0x5d7b5d)_0x5d7b5d['onclick']=()=>{const _0x5bc6d2=_0x78c65b;if(window['closeView'])window[_0x5bc6d2(0x591)](_0x293584);};_0x3df0ad&&(_0x3df0ad['onclick']=async()=>{const _0x1d7452=_0x78c65b,_0x26b790=this[_0x1d7452(0x32c)](),_0x333e4b=_0x3df0ad[_0x1d7452(0x4d2)];_0x3df0ad[_0x1d7452(0x14e)]=!![],_0x3df0ad['textContent']='生成中...';try{const _0x10e65d=await this['requestDiaryEntries'](_0x347606,_0x26b790),_0x2b9c45=this['ensureDiaryData']();this[_0x1d7452(0x33b)]['lovesData'][_0x1d7452(0x27f)]=_0x2b9c45[_0x1d7452(0x526)](_0x3d3a06=>_0x3d3a06[_0x1d7452(0x30f)]!==_0x347606)[_0x1d7452(0x135)](_0x10e65d),await this[_0x1d7452(0x2f8)](),this['currentDiaryDate']=this[_0x1d7452(0x178)](_0x347606),this[_0x1d7452(0x1c8)]();if(window[_0x1d7452(0x591)])window['closeView'](_0x293584);if(window[_0x1d7452(0x1d0)])window['showToast'](_0x1d7452(0x502)+_0x10e65d[_0x1d7452(0x436)]+'\x20条日记');}catch(_0x13e15a){console['error'](_0x1d7452(0x24a),_0x13e15a);const _0x1b1a9f=String(_0x13e15a?.[_0x1d7452(0x456)]||_0x1d7452(0x25d))[_0x1d7452(0x3a9)](0x0,0x50);if(window[_0x1d7452(0x1d0)])window[_0x1d7452(0x1d0)](_0x1b1a9f);else alert(_0x1b1a9f);}finally{_0x3df0ad[_0x1d7452(0x14e)]=![],_0x3df0ad[_0x1d7452(0x4d2)]=_0x333e4b||'生成';}});if(window['openView'])window[_0x78c65b(0x128)](_0x293584);else _0x293584['classList'][_0x78c65b(0x4ca)](_0x78c65b(0x3a0));},'getDiaryGenerationCount':function(){const _0x4c050c=_0x52ecaa,_0x39a430=document[_0x4c050c(0x199)](_0x4c050c(0x280)),_0x17471d=Math[_0x4c050c(0x142)](Number(_0x39a430?.[_0x4c050c(0x544)])||0xa),_0x3938cc=Math['min'](0x1e,Math['max'](0x1,_0x17471d));if(_0x39a430)_0x39a430[_0x4c050c(0x544)]=String(_0x3938cc);return _0x3938cc;},'getLovesApiConfig':function(){const _0x28c280=_0x52ecaa;return typeof window['getApiConfig']===_0x28c280(0x3f5)?window[_0x28c280(0xcc)]()||{}:window['apiConfig']||{};},'resolveLovesChatEndpoint':function(_0x57d241){const _0x145080=_0x52ecaa;let _0x33db42=String(_0x57d241?.[_0x145080(0xfd)]||'')[_0x145080(0x53d)]();if(!_0x33db42)return'';if(!_0x33db42[_0x145080(0x145)](_0x145080(0xe2))){if(_0x33db42[_0x145080(0x145)]('/'))_0x33db42+=_0x145080(0x1de);else{if(_0x33db42['endsWith']('/v1'))_0x33db42+='/chat/completions';else _0x33db42+=_0x145080(0x57c);}}return _0x33db42;},'requestDiaryEntries':async function(_0x39b4ca,_0x5685e3){const _0x153757=_0x52ecaa,_0x3b4921=this['getLovesApiConfig'](),_0x6ec35c=this[_0x153757(0x250)](_0x3b4921);if(!_0x6ec35c||!_0x3b4921[_0x153757(0x34d)])throw new Error(_0x153757(0x49a));const _0x1f676c=this[_0x153757(0x33b)]||{},_0x1ba346=_0x1f676c[_0x153757(0x3c4)]||_0x1f676c[_0x153757(0x53f)]||_0x1f676c[_0x153757(0x46f)]||_0x1f676c['name']||'TA',_0x3a1a62=_0x1f676c[_0x153757(0x212)]||_0x1f676c['signature']||_0x1f676c[_0x153757(0x315)]||_0x153757(0x3d8),_0x142b3f=window[_0x153757(0x351)]?.[_0x153757(0x297)]||window['imData']?.['profile']?.[_0x153757(0x297)]||_0x153757(0x121),_0x172943=window['userState']?.[_0x153757(0x212)]||window[_0x153757(0xfa)]?.['profile']?.['persona']||_0x153757(0x20f),_0x156afb=this[_0x153757(0x3b1)](_0x39b4ca),_0x58cfb0=typeof window[_0x153757(0x56f)]===_0x153757(0x3f5)?window['getGlobalWorldBookContextByPosition'](_0x153757(0x23e))||'':'',_0x3d5e95=[_0x153757(0x258),'',_0x153757(0x201)+_0x1ba346,_0x153757(0x35b),_0x3a1a62,'',_0x153757(0x17a)+_0x142b3f,'【User\x20人设】',_0x172943];_0x58cfb0&&_0x3d5e95['push']('',_0x153757(0x5ab),_0x58cfb0);_0x3d5e95['push']('','【日期】'+_0x39b4ca+'（'+_0x156afb+'）',_0x153757(0x55b)+_0x5685e3+'\x20条','','要求：','1.\x20返回严格\x20JSON，格式只能是\x20{\x22entries\x22:[{\x22time\x22:\x22HH:MM\x22,\x22title\x22:\x22标题\x22,\x22location\x22:\x22地点\x22,\x22diary\x22:\x22日记正文\x22}]}。',_0x153757(0x282)+_0x5685e3+'。',_0x153757(0x1c6),'4.\x20time\x20必须是\x2024\x20小时\x20HH:MM，所有条目按一天自然顺序排列。',_0x153757(0x3f3),'6.\x20diary\x20必须使用\x20Char\x20第一人称视角，贴合\x20Char\x20人设，不少于\x2030\x20个中文字符，像真实日记，不要写成旁白或列表。',_0x153757(0x571));const _0x2ce3ff=_0x3d5e95[_0x153757(0x306)]('\x0a'),_0x2d961d=await fetch(_0x6ec35c,{'method':_0x153757(0x253),'headers':{'Content-Type':_0x153757(0x554),'Authorization':_0x153757(0x496)+_0x3b4921[_0x153757(0x34d)]},'body':JSON['stringify']({'model':_0x3b4921[_0x153757(0x4c2)]||_0x153757(0x470),'messages':[{'role':'system','content':_0x153757(0x475)},{'role':'user','content':_0x2ce3ff}],'temperature':Number['isFinite'](Number(_0x3b4921[_0x153757(0x3b2)]))?Number(_0x3b4921[_0x153757(0x3b2)]):0.7})});if(!_0x2d961d['ok']){let _0x584eb4=_0x153757(0x162)+_0x2d961d[_0x153757(0x51f)];try{const _0x33f478=await _0x2d961d[_0x153757(0x1d7)](),_0x377881=JSON[_0x153757(0x1fe)](_0x33f478);_0x584eb4=_0x377881?.[_0x153757(0x1fd)]?.[_0x153757(0x456)]||_0x33f478||_0x584eb4;}catch(_0x1b75a7){}throw new Error(_0x584eb4);}const _0x472783=await _0x2d961d['json'](),_0x479635=_0x472783['choices']?.[0x0]?.[_0x153757(0x456)]?.[_0x153757(0x4d0)]||_0x472783['choices']?.[0x0]?.['text']||'',_0x287997=this[_0x153757(0x134)](_0x479635);return this['normalizeGeneratedDiaryEntries'](_0x287997?.[_0x153757(0x49f)],_0x39b4ca,_0x5685e3);},'parseDiaryJson':function(_0xb89f39){const _0x2a4ce7=_0x52ecaa,_0x42cb4c=String['fromCharCode'](0x60)[_0x2a4ce7(0x41b)](0x3);let _0x1ab317=String(_0xb89f39||'')[_0x2a4ce7(0x563)](new RegExp(_0x42cb4c+_0x2a4ce7(0x1a3),'gi'),'')[_0x2a4ce7(0x563)](new RegExp(_0x42cb4c,'g'),'')[_0x2a4ce7(0x53d)]();const _0x26b09f=_0x1ab317[_0x2a4ce7(0x33a)](/\{[\s\S]*\}/);if(_0x26b09f)_0x1ab317=_0x26b09f[0x0];try{return JSON[_0x2a4ce7(0x1fe)](_0x1ab317);}catch(_0x49d2be){throw new Error('AI\x20返回不是合法\x20JSON，请重试');}},'normalizeGeneratedDiaryEntries':function(_0x55e21b,_0x422ff6,_0x137229){const _0x31dffd=_0x52ecaa;if(!Array[_0x31dffd(0x1b2)](_0x55e21b))throw new Error('AI\x20返回缺少\x20entries\x20数组');if(_0x55e21b['length']!==_0x137229)throw new Error(_0x31dffd(0x224)+_0x137229+'\x20条');const _0x4c7a59=_0x55e21b[_0x31dffd(0x2ec)]((_0x360a92,_0x50de90)=>{const _0x5f4fef=_0x31dffd,_0xa05009=String(_0x360a92?.[_0x5f4fef(0x429)]||'')['trim'](),_0x277d0a=_0xa05009[_0x5f4fef(0x33a)](/^(\d{1,2}):(\d{2})$/);if(!_0x277d0a)throw new Error('第\x20'+(_0x50de90+0x1)+'\x20条时间格式不正确');const _0xed47bf=Number(_0x277d0a[0x1]),_0x1b9f29=Number(_0x277d0a[0x2]);if(_0xed47bf<0x0||_0xed47bf>0x17||_0x1b9f29<0x0||_0x1b9f29>0x3b)throw new Error('第\x20'+(_0x50de90+0x1)+_0x5f4fef(0x4b2));const _0x70a16c=String(_0xed47bf)[_0x5f4fef(0x331)](0x2,'0')+':'+String(_0x1b9f29)[_0x5f4fef(0x331)](0x2,'0'),_0x4fd194=String(_0x360a92?.[_0x5f4fef(0x379)]||'')[_0x5f4fef(0x53d)](),_0x1c6095=String(_0x360a92?.[_0x5f4fef(0x194)]||'')[_0x5f4fef(0x53d)](),_0x943978=String(_0x360a92?.[_0x5f4fef(0x195)]||_0x360a92?.[_0x5f4fef(0x4d0)]||'')[_0x5f4fef(0x53d)]();if(!_0x4fd194)throw new Error('第\x20'+(_0x50de90+0x1)+_0x5f4fef(0x518));if(!_0x1c6095)throw new Error('第\x20'+(_0x50de90+0x1)+_0x5f4fef(0x371));if([..._0x943978['replace'](/\s/g,'')][_0x5f4fef(0x436)]<0x1e)throw new Error('第\x20'+(_0x50de90+0x1)+_0x5f4fef(0x59f));return{'id':_0x5f4fef(0x35c)+_0x422ff6[_0x5f4fef(0x563)](/-/g,'')+'_'+Date[_0x5f4fef(0x1ec)]()+'_'+_0x50de90+'_'+Math[_0x5f4fef(0x5a4)]()['toString'](0x24)['slice'](0x2,0x7),'date':_0x422ff6,'time':_0x70a16c,'title':_0x4fd194,'location':_0x1c6095,'diary':_0x943978,'createdAt':Date['now'](),'source':_0x5f4fef(0x51b)};});return _0x4c7a59[_0x31dffd(0x39a)]((_0x54fff2,_0x1e2ab8)=>_0x54fff2[_0x31dffd(0x429)][_0x31dffd(0x5a1)](_0x1e2ab8[_0x31dffd(0x429)]));},'openPublishView':function(){const _0x23b680=_0x52ecaa,_0x4547dc=document['getElementById'](_0x23b680(0x301));if(!_0x4547dc)return;if(window[_0x23b680(0x128)])window[_0x23b680(0x128)](_0x4547dc);document[_0x23b680(0x199)]('lovers-publish-text')[_0x23b680(0x544)]='';const _0x16a900=document[_0x23b680(0x199)](_0x23b680(0x4c0)),_0x4daf2a=document['getElementById'](_0x23b680(0x4dd));_0x16a900[_0x23b680(0x338)]='',_0x16a900[_0x23b680(0x4ac)](_0x4daf2a),this[_0x23b680(0x275)]=[];const _0x5c57b6=document[_0x23b680(0x199)](_0x23b680(0x186));_0x5c57b6&&(_0x5c57b6[_0x23b680(0x18e)]=()=>{const _0x47bac4=_0x23b680;if(window[_0x47bac4(0x591)])window[_0x47bac4(0x591)](_0x4547dc);});const _0x43fa51=document[_0x23b680(0x199)](_0x23b680(0x13c));_0x4daf2a&&_0x43fa51&&(_0x4daf2a['onclick']=()=>_0x43fa51[_0x23b680(0x156)](),_0x43fa51['onchange']=_0x3fcb03=>{const _0x8c304b=_0x23b680,_0x1a060f=_0x3fcb03[_0x8c304b(0x4fa)][_0x8c304b(0xc9)];if(!_0x1a060f||_0x1a060f['length']===0x0)return;for(let _0x2dc43f=0x0;_0x2dc43f<_0x1a060f[_0x8c304b(0x436)];_0x2dc43f++){const _0x2cc05c=_0x1a060f[_0x2dc43f],_0x4ce1bd=new FileReader();_0x4ce1bd[_0x8c304b(0xfe)]=_0x10717f=>{const _0x50ab04=_0x8c304b;this[_0x50ab04(0x275)][_0x50ab04(0x2fb)](_0x10717f[_0x50ab04(0x4fa)][_0x50ab04(0x548)]),this[_0x50ab04(0xf9)]();},_0x4ce1bd[_0x8c304b(0x425)](_0x2cc05c);}_0x43fa51[_0x8c304b(0x544)]='';});const _0x4a4644=document[_0x23b680(0x199)](_0x23b680(0x478));_0x4a4644&&(_0x4a4644[_0x23b680(0x18e)]=()=>{const _0x359ba1=_0x23b680,_0x162b5d=document['getElementById'](_0x359ba1(0x288))[_0x359ba1(0x544)]['trim']();if(!_0x162b5d&&this[_0x359ba1(0x275)][_0x359ba1(0x436)]===0x0){if(window[_0x359ba1(0x1d0)])window[_0x359ba1(0x1d0)](_0x359ba1(0x35f));return;}const _0x27cff6={'id':'lm_'+Date[_0x359ba1(0x1ec)](),'text':_0x162b5d,'images':[...this[_0x359ba1(0x275)]],'timestamp':Date[_0x359ba1(0x1ec)](),'likes':0x0,'comments':[]};!this[_0x359ba1(0x33b)][_0x359ba1(0x48a)]&&(this[_0x359ba1(0x33b)][_0x359ba1(0x48a)]={'moments':[]});!this[_0x359ba1(0x33b)][_0x359ba1(0x48a)][_0x359ba1(0x2a2)]&&(this['currentFriend'][_0x359ba1(0x48a)][_0x359ba1(0x2a2)]=[]);this[_0x359ba1(0x33b)]['lovesData']['moments']['unshift'](_0x27cff6),this[_0x359ba1(0x2f8)]();if(window['showToast'])window[_0x359ba1(0x1d0)](_0x359ba1(0x5b5));if(window['closeView'])window[_0x359ba1(0x591)](_0x4547dc);this[_0x359ba1(0x55e)]();});},'renderPublishImagePreview':function(){const _0x37fbc0=_0x52ecaa,_0x3118c7=document[_0x37fbc0(0x199)](_0x37fbc0(0x4c0)),_0x55ce1d=document[_0x37fbc0(0x199)](_0x37fbc0(0x4dd));if(!_0x3118c7||!_0x55ce1d)return;_0x3118c7[_0x37fbc0(0x338)]='',(this['currentPublishImages']||[])[_0x37fbc0(0x4e7)]((_0x4f9da4,_0x5f57e7)=>{const _0x2ea4f8=_0x37fbc0,_0x3bf4cf=document[_0x2ea4f8(0x1d5)](_0x2ea4f8(0x1f6));_0x3bf4cf[_0x2ea4f8(0x483)]=_0x2ea4f8(0x4ba);const _0x22aa3b=document[_0x2ea4f8(0x1d5)](_0x2ea4f8(0x3be));_0x22aa3b[_0x2ea4f8(0x480)]=_0x4f9da4,_0x22aa3b[_0x2ea4f8(0x4ed)]=_0x2ea4f8(0x5b8)+(_0x5f57e7+0x1);const _0x650b73=document['createElement'](_0x2ea4f8(0x3d6));_0x650b73['type']=_0x2ea4f8(0x3d6),_0x650b73[_0x2ea4f8(0x50a)]('aria-label',_0x2ea4f8(0x1e5)+(_0x5f57e7+0x1)+_0x2ea4f8(0x497)),_0x650b73[_0x2ea4f8(0x338)]=_0x2ea4f8(0x33f),_0x650b73[_0x2ea4f8(0x18e)]=()=>{const _0x2858cd=_0x2ea4f8;this[_0x2858cd(0x275)][_0x2858cd(0x192)](_0x5f57e7,0x1),this['renderPublishImagePreview']();},_0x3bf4cf[_0x2ea4f8(0x4ac)](_0x22aa3b),_0x3bf4cf[_0x2ea4f8(0x4ac)](_0x650b73),_0x3118c7[_0x2ea4f8(0x4ac)](_0x3bf4cf);}),_0x3118c7[_0x37fbc0(0x4ac)](_0x55ce1d);},'renderLovesMoments':function(){const _0x4ca83a=_0x52ecaa,_0x13a2e8=document[_0x4ca83a(0x199)]('lovers-moments-list'),_0x2c2ad=document[_0x4ca83a(0x199)](_0x4ca83a(0x2f3));if(!_0x13a2e8||!_0x2c2ad||!this[_0x4ca83a(0x33b)])return;const _0x29f194=this[_0x4ca83a(0x33b)][_0x4ca83a(0x48a)]?.[_0x4ca83a(0x2a2)]||[];if(_0x29f194[_0x4ca83a(0x436)]===0x0){_0x13a2e8['style']['display']=_0x4ca83a(0x4fe),_0x2c2ad[_0x4ca83a(0x56a)][_0x4ca83a(0x20a)]=_0x4ca83a(0x574);return;}_0x13a2e8[_0x4ca83a(0x56a)][_0x4ca83a(0x20a)]='flex',_0x2c2ad[_0x4ca83a(0x56a)][_0x4ca83a(0x20a)]=_0x4ca83a(0x4fe);const _0x14f14b=window[_0x4ca83a(0x351)]?.[_0x4ca83a(0x572)]||window[_0x4ca83a(0xfa)]?.[_0x4ca83a(0x50c)]?.[_0x4ca83a(0x572)],_0x3ad77c=window[_0x4ca83a(0x351)]?.[_0x4ca83a(0x297)]||window[_0x4ca83a(0xfa)]?.[_0x4ca83a(0x50c)]?.['name']||'我',_0x523819=this[_0x4ca83a(0x130)](_0x3ad77c);let _0x47e8b4='';_0x29f194[_0x4ca83a(0x4e7)]((_0x530dfc,_0x9840f0)=>{const _0x4d93ad=_0x4ca83a,_0xe1b68d=new Date(_0x530dfc[_0x4d93ad(0x4f4)]),_0x3c0f31=_0xe1b68d['getMonth']()+0x1+'-'+_0xe1b68d[_0x4d93ad(0x129)]()+'\x20'+_0xe1b68d[_0x4d93ad(0x428)]()[_0x4d93ad(0x38e)]()['padStart'](0x2,'0')+':'+_0xe1b68d[_0x4d93ad(0x1d8)]()[_0x4d93ad(0x38e)]()[_0x4d93ad(0x331)](0x2,'0'),_0x4f7795=_0x530dfc[_0x4d93ad(0x1fc)]?this[_0x4d93ad(0x33b)][_0x4d93ad(0x572)]:_0x14f14b,_0x1afb09=_0x530dfc[_0x4d93ad(0x1fc)]?this[_0x4d93ad(0x33b)][_0x4d93ad(0x3c4)]||this[_0x4d93ad(0x33b)][_0x4d93ad(0x53f)]||'TA':_0x3ad77c,_0x358911=this[_0x4d93ad(0x130)](_0x1afb09),_0x52e5d9=this[_0x4d93ad(0x130)](_0x530dfc[_0x4d93ad(0x1d7)]),_0x1a80d8=this['escapeHTML'](_0x4f7795||''),_0x304f84=this[_0x4d93ad(0x130)](_0x14f14b||'');let _0x3e21c0='';if(_0x530dfc[_0x4d93ad(0x374)]&&_0x530dfc['images']['length']>0x0){const _0x4db45b=_0x530dfc[_0x4d93ad(0x374)]['length']===0x1?_0x4d93ad(0x552):_0x530dfc[_0x4d93ad(0x374)]['length']===0x2?_0x4d93ad(0x166):_0x4d93ad(0x434);_0x3e21c0=_0x4d93ad(0x416)+_0x4db45b+'\x22>',_0x530dfc[_0x4d93ad(0x374)][_0x4d93ad(0x4e7)]((_0x1149fd,_0x6bec5)=>{const _0x564d3f=_0x4d93ad;_0x3e21c0+=_0x564d3f(0xea)+this['escapeHTML'](_0x1149fd)+_0x564d3f(0x25c)+(_0x6bec5+0x1)+'\x22>';}),_0x3e21c0+=_0x4d93ad(0x23d);}let _0x23e5fc='';_0x530dfc[_0x4d93ad(0x3e9)]&&_0x530dfc[_0x4d93ad(0x3e9)][_0x4d93ad(0x436)]>0x0&&(_0x23e5fc='<div\x20class=\x22loves-moment-comments\x22>',_0x530dfc['comments'][_0x4d93ad(0x4e7)]((_0x455904,_0x17b878)=>{const _0x31d5d2=_0x4d93ad,_0x22c9e6=_0x455904['isChar']?this[_0x31d5d2(0x33b)][_0x31d5d2(0x3c4)]||this[_0x31d5d2(0x33b)]['realname']||'TA':_0x3ad77c,_0x35e771=this['escapeHTML'](_0x22c9e6),_0x4b0cd9=this[_0x31d5d2(0x130)](_0x455904[_0x31d5d2(0x1d7)]);_0x23e5fc+=_0x31d5d2(0x354)+(_0x455904['isChar']?_0x31d5d2(0x118):'')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-comment-copy\x22\x20onclick=\x22window.lovesApp.replyToComment('+_0x9840f0+',\x20'+_0x17b878+_0x31d5d2(0x3aa)+_0x35e771+_0x31d5d2(0xe7)+_0x4b0cd9+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22loves-moment-comment-delete\x22\x20onclick=\x22window.lovesApp.deleteComment('+_0x9840f0+',\x20'+_0x17b878+_0x31d5d2(0x1d4);}),_0x23e5fc+='</div>'),_0x47e8b4+=_0x4d93ad(0x430)+(_0x4f7795?_0x4d93ad(0xea)+_0x1a80d8+_0x4d93ad(0x4b1)+_0x358911+'\x22>':_0x4d93ad(0x5ae))+_0x4d93ad(0x387)+_0x358911+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-time\x22>'+_0x3c0f31+_0x4d93ad(0x5a9)+_0x9840f0+_0x4d93ad(0x189)+_0x9840f0+_0x4d93ad(0x522)+_0x9840f0+_0x4d93ad(0x2b5)+_0x9840f0+_0x4d93ad(0x3b4)+(_0x530dfc['text']?_0x4d93ad(0x55a)+_0x52e5d9+_0x4d93ad(0x23d):'')+_0x4d93ad(0x52d)+_0x3e21c0+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22loves-moment-toolbar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22'+(_0x530dfc[_0x4d93ad(0xf5)]?_0x4d93ad(0x568):'')+_0x4d93ad(0x392)+_0x9840f0+_0x4d93ad(0x345)+(_0x530dfc[_0x4d93ad(0xf5)]?_0x4d93ad(0x33d):_0x4d93ad(0x3c5))+'\x20fa-heart\x22></i><span>'+(_0x530dfc['likes']||0x0)+_0x4d93ad(0x438)+_0x9840f0+_0x4d93ad(0x261)+(_0x530dfc[_0x4d93ad(0x3e9)]?_0x530dfc[_0x4d93ad(0x3e9)][_0x4d93ad(0x436)]:0x0)+_0x4d93ad(0x2dd)+_0x23e5fc+_0x4d93ad(0x2f7)+(_0x14f14b?_0x4d93ad(0xea)+_0x304f84+_0x4d93ad(0x4b1)+_0x523819+'\x22>':_0x4d93ad(0x5ae))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22loves-moment-comment-input\x22\x20data-moment-idx=\x22'+_0x9840f0+'\x22\x20placeholder=\x22'+(_0x530dfc[_0x4d93ad(0x1fc)]?_0x4d93ad(0x38c):'添加评论...')+_0x4d93ad(0x5a6)+_0x9840f0+'\x22>发送</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</article>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}),_0x13a2e8['innerHTML']=_0x47e8b4,_0x13a2e8[_0x4ca83a(0x3bf)](_0x4ca83a(0x55f))[_0x4ca83a(0x4e7)](_0xa8b1df=>{const _0x9dedd=_0x4ca83a;_0xa8b1df[_0x9dedd(0x592)](_0x9dedd(0x156),()=>{const _0x2c96fe=_0x9dedd,_0x8abe46=parseInt(_0xa8b1df[_0x2c96fe(0x21f)]['momentIdx'],0xa),_0x5b6a61=_0x13a2e8[_0x2c96fe(0x55c)](_0x2c96fe(0x2ef)+_0x8abe46+'\x22]');this[_0x2c96fe(0x570)](_0x8abe46,_0x5b6a61?_0x5b6a61['value']:'');});}),_0x13a2e8[_0x4ca83a(0x3bf)]('.loves-moment-comment-input')[_0x4ca83a(0x4e7)](_0x3f1d92=>{_0x3f1d92['addEventListener']('keydown',_0x2d105e=>{const _0x5ad132=_0x18e0;if(_0x2d105e[_0x5ad132(0x421)]!==_0x5ad132(0x2bc))return;_0x2d105e[_0x5ad132(0x203)]();const _0x39f650=parseInt(_0x3f1d92['dataset'][_0x5ad132(0x45b)],0xa);this[_0x5ad132(0x570)](_0x39f650,_0x3f1d92[_0x5ad132(0x544)]);});}),!this[_0x4ca83a(0x48f)]&&(document[_0x4ca83a(0x592)](_0x4ca83a(0x156),_0x6b0bde=>{const _0x599026=_0x4ca83a;if(!_0x6b0bde[_0x599026(0x4fa)][_0x599026(0x2a1)](_0x599026(0x27b))&&!_0x6b0bde[_0x599026(0x4fa)]['closest'](_0x599026(0x482))){const _0x337d65=document[_0x599026(0x3bf)](_0x599026(0x27b));_0x337d65['forEach'](_0x5d77ac=>_0x5d77ac[_0x599026(0x56a)][_0x599026(0x20a)]=_0x599026(0x4fe));}}),this[_0x4ca83a(0x48f)]=!![]);},'updateDaysCount':function(_0xf7c16c){const _0x9940a4=_0x52ecaa,_0x5d0e18=document[_0x9940a4(0x199)](_0x9940a4(0x4a4));if(!_0x5d0e18||!_0xf7c16c)return;const _0x2b6c36=this['ensureLovesStartTime'](_0xf7c16c);_0x5d0e18[_0x9940a4(0x4d2)]=String(this[_0x9940a4(0x164)](_0xf7c16c));if(_0x2b6c36[_0x9940a4(0x45d)])void this[_0x9940a4(0x2f8)](_0xf7c16c,{'metaOnly':!![],'silent':!![]});},'toggleMomentMenu':function(_0x40881a){const _0x5b475e=_0x52ecaa,_0x29eaef=document['querySelectorAll']('[id^=\x22loves-moment-menu-\x22]');_0x29eaef[_0x5b475e(0x4e7)]((_0x5b6d94,_0x4e76ef)=>{const _0x47d871=_0x5b475e;if(_0x4e76ef!==_0x40881a)_0x5b6d94[_0x47d871(0x56a)]['display']=_0x47d871(0x4fe);});const _0x135620=document['getElementById'](_0x5b475e(0x5ac)+_0x40881a);_0x135620&&(_0x135620[_0x5b475e(0x56a)][_0x5b475e(0x20a)]=_0x135620[_0x5b475e(0x56a)][_0x5b475e(0x20a)]===_0x5b475e(0x4fe)?_0x5b475e(0x319):_0x5b475e(0x4fe));},'deleteMoment':function(_0x111d84){const _0x37d266=_0x52ecaa;if(!this[_0x37d266(0x33b)]||!this[_0x37d266(0x33b)]['lovesData']||!this['currentFriend'][_0x37d266(0x48a)][_0x37d266(0x2a2)])return;const _0x50154d=document[_0x37d266(0x199)](_0x37d266(0x5ac)+_0x111d84);if(_0x50154d)_0x50154d[_0x37d266(0x56a)][_0x37d266(0x20a)]=_0x37d266(0x4fe);this[_0x37d266(0x353)]('这条动态',()=>{const _0x5b53da=_0x37d266;this[_0x5b53da(0x33b)][_0x5b53da(0x48a)][_0x5b53da(0x2a2)][_0x5b53da(0x192)](_0x111d84,0x1),this[_0x5b53da(0x2f8)](),this[_0x5b53da(0x55e)]();});},'deleteComment':function(_0x562ec8,_0x38e0fb){const _0x4cf4bb=_0x52ecaa;if(!this['currentFriend']||!this[_0x4cf4bb(0x33b)][_0x4cf4bb(0x48a)]||!this[_0x4cf4bb(0x33b)]['lovesData'][_0x4cf4bb(0x2a2)])return;const _0x59d29b=this[_0x4cf4bb(0x33b)]['lovesData'][_0x4cf4bb(0x2a2)][_0x562ec8];if(!_0x59d29b||!_0x59d29b[_0x4cf4bb(0x3e9)])return;this[_0x4cf4bb(0x353)](_0x4cf4bb(0x217),()=>{const _0x46105b=_0x4cf4bb;_0x59d29b[_0x46105b(0x3e9)][_0x46105b(0x192)](_0x38e0fb,0x1),this[_0x46105b(0x2f8)](),this[_0x46105b(0x55e)]();});},'addMomentComment':function(_0x46e692,_0x573f77=''){const _0x592d44=_0x52ecaa;if(!this[_0x592d44(0x33b)]||!this['currentFriend']['lovesData']||!this[_0x592d44(0x33b)][_0x592d44(0x48a)][_0x592d44(0x2a2)])return;const _0x5a5126=this['currentFriend'][_0x592d44(0x48a)][_0x592d44(0x2a2)][_0x46e692];if(!_0x5a5126)return;let _0x5a2e0b=String(_0x573f77||'')[_0x592d44(0x53d)]();if(!_0x5a2e0b){const _0x42493a=prompt(_0x5a5126[_0x592d44(0x1fc)]?'评论\x20TA\x20的动态：':'添加评论：');if(_0x42493a===null)return;_0x5a2e0b=_0x42493a[_0x592d44(0x53d)]();}if(!_0x5a2e0b)return;if(!_0x5a5126[_0x592d44(0x3e9)])_0x5a5126[_0x592d44(0x3e9)]=[];_0x5a5126['comments'][_0x592d44(0x2fb)]({'text':_0x5a2e0b,'isChar':![],'timestamp':Date[_0x592d44(0x1ec)]()}),this[_0x592d44(0x2f8)](),this[_0x592d44(0x55e)](),_0x5a5126['isChar']===!![]&&this['requestCharComment'](_0x46e692,{'reason':_0x592d44(0x1a6),'userComment':_0x5a2e0b,'silentMissingApi':!![]});},'replyToComment':function(_0xeb76cd,_0x5d5a7b){const _0x2322d2=_0x52ecaa;if(!this[_0x2322d2(0x33b)]||!this['currentFriend'][_0x2322d2(0x48a)]||!this[_0x2322d2(0x33b)][_0x2322d2(0x48a)][_0x2322d2(0x2a2)])return;const _0x261788=this[_0x2322d2(0x33b)][_0x2322d2(0x48a)]['moments'][_0xeb76cd];if(!_0x261788||!_0x261788[_0x2322d2(0x3e9)]||!_0x261788[_0x2322d2(0x3e9)][_0x5d5a7b])return;const _0x2a45a4=_0x261788[_0x2322d2(0x3e9)][_0x5d5a7b],_0x4d5d18=_0x2a45a4[_0x2322d2(0x1fc)]?this[_0x2322d2(0x33b)][_0x2322d2(0x3c4)]||this[_0x2322d2(0x33b)][_0x2322d2(0x53f)]||'TA':'我',_0x573f7e=prompt(_0x2322d2(0x49d)+_0x4d5d18+'：');_0x573f7e!==null&&_0x573f7e[_0x2322d2(0x53d)]()!==''&&(_0x261788[_0x2322d2(0x3e9)][_0x2322d2(0x2fb)]({'text':_0x2322d2(0x3b6)+_0x4d5d18+'\x20:\x20'+_0x573f7e[_0x2322d2(0x53d)](),'isChar':![],'timestamp':Date['now']()}),this['persistFriendState'](),this['renderLovesMoments'](),_0x2a45a4[_0x2322d2(0x1fc)]===!![]&&this['requestCharComment'](_0xeb76cd,{'reason':_0x2322d2(0x1a6),'userComment':_0x573f7e['trim'](),'targetCommentText':String(_0x2a45a4['text']||'')[_0x2322d2(0x53d)](),'silentMissingApi':!![]}));},'requestCharComment':function(_0x5632ab,_0x160c52={}){const _0x193b54=_0x52ecaa,_0x3be2de=this[_0x193b54(0x33b)],_0x1a0dc0=_0x3be2de?.[_0x193b54(0x48a)]?.[_0x193b54(0x2a2)]?.[_0x5632ab];if(!_0x3be2de||!_0x1a0dc0)return Promise[_0x193b54(0x528)](![]);!_0x1a0dc0['id']&&(_0x1a0dc0['id']=_0x193b54(0x23a)+(Number(_0x1a0dc0[_0x193b54(0x4f4)])||Date[_0x193b54(0x1ec)]())+'_'+_0x5632ab,void this['persistFriendState'](_0x3be2de,{'metaOnly':!![],'silent':!![]}));const _0x24b7bb=document[_0x193b54(0x199)]('loves-moment-menu-'+_0x5632ab);if(_0x24b7bb)_0x24b7bb[_0x193b54(0x56a)]['display']=_0x193b54(0x4fe);return this[_0x193b54(0x17b)](_0x3be2de['id'],_0x1a0dc0['id'],_0x160c52);},'queueCharCommentRequest':function(_0x2d93a3,_0x300d58,_0x2fc9d7={}){const _0x1203db=_0x52ecaa,_0x1eb936=_0x2d93a3+':'+_0x300d58,_0x241d23=this[_0x1203db(0x3b3)][_0x1203db(0x546)](_0x1eb936)||Promise[_0x1203db(0x528)](),_0xe551e5=_0x241d23[_0x1203db(0x5aa)](()=>![])[_0x1203db(0x294)](()=>this[_0x1203db(0x2e9)](_0x2d93a3,_0x300d58,{..._0x2fc9d7}))[_0x1203db(0x2c1)](()=>{const _0x2d62d6=_0x1203db;this['_momentReplyQueues'][_0x2d62d6(0x546)](_0x1eb936)===_0xe551e5&&this[_0x2d62d6(0x3b3)][_0x2d62d6(0x257)](_0x1eb936);});return this[_0x1203db(0x3b3)][_0x1203db(0x4cc)](_0x1eb936,_0xe551e5),_0xe551e5;},'executeCharCommentRequest':async function(_0x5bb47f,_0x581f5b,_0x33d003={}){const _0xf17957=_0x52ecaa;let _0x405cf8=window['imData']?.[_0xf17957(0x54e)]?.[_0xf17957(0x39f)](_0xf27d28=>String(_0xf27d28['id'])===String(_0x5bb47f)),_0x142e84=_0x405cf8?.['lovesData']?.[_0xf17957(0x2a2)]?.[_0xf17957(0x39f)](_0x122ccc=>String(_0x122ccc['id'])===String(_0x581f5b));if(!_0x405cf8||!_0x142e84)return![];const _0x57edc6=window[_0xf17957(0xcc)]?window['getApiConfig']():window['apiConfig']||{};if(!_0x57edc6[_0xf17957(0xfd)]||!_0x57edc6[_0xf17957(0x34d)]){if(window[_0xf17957(0x1d0)])window[_0xf17957(0x1d0)](_0xf17957(0xdd));return![];}_0x142e84[_0xf17957(0x35a)]=Math[_0xf17957(0x3dd)](0x0,Number(_0x142e84[_0xf17957(0x35a)])||0x0)+0x1,_0x142e84[_0xf17957(0x346)]=!![];if(window[_0xf17957(0x1d0)])window[_0xf17957(0x1d0)](_0x33d003[_0xf17957(0x53b)]===_0xf17957(0x1a6)?_0xf17957(0x1b9):'正在生成评论...');try{if(window[_0xf17957(0x370)]?.[_0xf17957(0xd6)]){await window[_0xf17957(0x370)][_0xf17957(0xd6)](_0x405cf8),_0x405cf8=window[_0xf17957(0xfa)]?.[_0xf17957(0x54e)]?.[_0xf17957(0x39f)](_0x3b1688=>String(_0x3b1688['id'])===String(_0x5bb47f))||_0x405cf8,_0x142e84=_0x405cf8?.[_0xf17957(0x48a)]?.[_0xf17957(0x2a2)]?.['find'](_0x388314=>String(_0x388314['id'])===String(_0x581f5b));if(!_0x142e84)return![];}let _0x57a4b7='';if(window[_0xf17957(0x56f)]){_0x57a4b7=window['getGlobalWorldBookContextByPosition']('system_depth')||'';const _0x536601=window[_0xf17957(0x56f)](_0xf17957(0x304));if(_0x536601)_0x57a4b7+='\x0a'+_0x536601;}const _0x33488d=(window[_0xf17957(0x4c5)]?window[_0xf17957(0x4c5)]():window[_0xf17957(0x351)]||{})?.[_0xf17957(0x212)]||_0xf17957(0x2c8),_0x1446eb=_0x405cf8[_0xf17957(0x212)]||_0xf17957(0x3d8),_0x1fa0ee=Array['isArray'](_0x405cf8['messages'])?_0x405cf8['messages']['slice'](-0xa)[_0xf17957(0x2ec)](_0x4043cb=>{const _0x1a7a77=_0xf17957,_0x1f7abe=_0x4043cb?.['role']==='user'||_0x4043cb?.[_0x1a7a77(0xec)]==='me'?_0x1a7a77(0x121):_0x1a7a77(0x37d);return _0x1f7abe+':\x20'+(_0x4043cb?.[_0x1a7a77(0x1d7)]||_0x4043cb?.['content']||_0x1a7a77(0x48b));})[_0xf17957(0x306)]('\x0a'):'',_0x2d7cdb=_0x142e84[_0xf17957(0x1d7)]||_0xf17957(0x1c7),_0x5d0046=Array['isArray'](_0x142e84['images'])?_0x142e84[_0xf17957(0x374)][_0xf17957(0x436)]:0x0,_0x2b2b04=_0x142e84[_0xf17957(0x1fc)]===!![],_0x3138a6=_0x2b2b04?'角色(Char)':_0xf17957(0xde);let _0x5b60c=_0x3138a6+'发布了一条动态：\x0a文字内容：'+_0x2d7cdb+_0xf17957(0x2e4)+_0x5d0046+'\x20张';if(_0x33d003[_0xf17957(0x360)])_0x5b60c+='\x0aChar\x20之前在动态下评论：'+_0x33d003[_0xf17957(0x360)],_0x5b60c+='\x0aUser\x20刚刚回复\x20Char：'+(_0x33d003[_0xf17957(0x5b4)]||'');else _0x33d003['userComment']&&(_0x5b60c+=_0xf17957(0x3dc)+_0x33d003[_0xf17957(0x5b4)]);let _0xe4b45f=_0x33d003['reason']==='user_comment'?_0xf17957(0x260):_0x2b2b04?'你现在要扮演给定的角色(Char)。这条动态是\x20Char\x20自己发布的，请生成1-3条补充评论，并给\x20User\x20发送1-3条相关私聊消息。\x0a':_0xf17957(0x34c);if(_0x57a4b7)_0xe4b45f+='\x0a【世界书设定】：\x0a'+_0x57a4b7+'\x0a';_0xe4b45f+='\x0a【角色\x20(Char)\x20人设】：\x0a'+_0x1446eb+'\x0a',_0xe4b45f+=_0xf17957(0x225)+_0x33488d+'\x0a';if(_0x1fa0ee)_0xe4b45f+=_0xf17957(0x3d4)+_0x1fa0ee+'\x0a';_0xe4b45f+=_0xf17957(0x2b7)+_0x5b60c+'\x0a',_0xe4b45f+='\x0a要求：\x0a1.\x20内容必须符合人设、世界观和近期关系氛围。\x0a2.\x20只返回纯\x20JSON\x20对象，格式为\x20{\x22comments\x22:[\x22公开回复\x22],\x22messages\x22:[\x22私聊消息\x22]}，不要返回\x20Markdown。\x0a3.\x20comments\x20'+(_0x33d003[_0xf17957(0x53b)]==='user_comment'?'必须包含2-5条\x20Char\x20对\x20User\x20的连续直接回复':_0x2b2b04?_0xf17957(0x42f):'包含1-2条')+_0xf17957(0x29a)+(_0x33d003[_0xf17957(0x53b)]===_0xf17957(0x1a6)?_0xf17957(0x251):'包含1-3条')+_0xf17957(0x32b);let _0x13947a=_0x57edc6['endpoint'];if(_0x13947a&&!_0x13947a[_0xf17957(0x145)](_0xf17957(0xe2))){if(_0x13947a[_0xf17957(0x145)]('/'))_0x13947a+=_0xf17957(0x1de);else{if(_0x13947a[_0xf17957(0x145)]('/v1'))_0x13947a+='/chat/completions';else _0x13947a+=_0xf17957(0x57c);}}const _0x24483c=await fetch(_0x13947a,{'method':_0xf17957(0x253),'headers':{'Content-Type':'application/json','Authorization':_0xf17957(0x496)+_0x57edc6[_0xf17957(0x34d)]},'body':JSON[_0xf17957(0x2f4)]({'model':_0x57edc6['model']||_0xf17957(0x470),'messages':[{'role':'system','content':_0xf17957(0x4cb)},{'role':_0xf17957(0x5b6),'content':_0xe4b45f}],'temperature':parseFloat(_0x57edc6[_0xf17957(0x3b2)])||0.7})});if(!_0x24483c['ok'])throw new Error(_0xf17957(0x332)+_0x24483c['status']);const _0x3ebaf9=await _0x24483c[_0xf17957(0x1a3)](),_0x2aedcd=_0x3ebaf9[_0xf17957(0x4b6)]?.[0x0]?.[_0xf17957(0x456)]?.[_0xf17957(0x4d0)]||'';let _0x3fbe3e=_0x2aedcd[_0xf17957(0x563)](/```json/gi,'')['replace'](/```/g,'')[_0xf17957(0x53d)]();const _0x4dafc2=_0x3fbe3e[_0xf17957(0x33a)](/\{[\s\S]*\}/);if(_0x4dafc2)_0x3fbe3e=_0x4dafc2[0x0];const _0x57beb4=JSON[_0xf17957(0x1fe)](_0x3fbe3e),_0x917c17=(_0x5dbbce,_0x132052)=>Array[_0xf17957(0x1b2)](_0x5dbbce)?_0x5dbbce[_0xf17957(0x2ec)](_0x3a4c6d=>typeof _0x3a4c6d===_0xf17957(0x367)?_0x3a4c6d[_0xf17957(0x53d)]():String(_0x3a4c6d?.[_0xf17957(0x1d7)]||'')[_0xf17957(0x53d)]())[_0xf17957(0x526)](Boolean)['slice'](0x0,_0x132052):[],_0x5bf7b5=_0x917c17(_0x57beb4[_0xf17957(0x3e9)],_0x33d003[_0xf17957(0x53b)]===_0xf17957(0x1a6)?0x5:_0x2b2b04?0x3:0x2),_0x2899ac=_0x917c17(_0x57beb4[_0xf17957(0x43c)],_0x33d003['reason']==='user_comment'?0x2:0x3);if(_0x33d003['reason']===_0xf17957(0x1a6)&&_0x5bf7b5['length']<0x2)throw new Error(_0xf17957(0x3f4));if(_0x33d003['reason']!==_0xf17957(0x1a6)&&_0x5bf7b5[_0xf17957(0x436)]===0x0&&_0x2899ac[_0xf17957(0x436)]===0x0)throw new Error('No\x20comments\x20or\x20messages\x20generated');_0x405cf8=window['imData']?.[_0xf17957(0x54e)]?.['find'](_0x524fd0=>String(_0x524fd0['id'])===String(_0x5bb47f)),_0x142e84=_0x405cf8?.[_0xf17957(0x48a)]?.['moments']?.[_0xf17957(0x39f)](_0x92ef48=>String(_0x92ef48['id'])===String(_0x581f5b));if(!_0x405cf8||!_0x142e84)return![];if(!Array[_0xf17957(0x1b2)](_0x142e84[_0xf17957(0x3e9)]))_0x142e84[_0xf17957(0x3e9)]=[];const _0x586dbc=Date[_0xf17957(0x1ec)]();_0x5bf7b5[_0xf17957(0x4e7)]((_0x449a50,_0x241178)=>{const _0x3224d8=_0xf17957;_0x142e84['comments'][_0x3224d8(0x2fb)]({'id':_0x3224d8(0x5af)+_0x586dbc+'_'+_0x241178,'text':_0x449a50,'isChar':!![],'timestamp':_0x586dbc+_0x241178});});for(let _0x290b19=0x0;_0x290b19<_0x2899ac[_0xf17957(0x436)];_0x290b19+=0x1){const _0x1cc07d=_0x2899ac[_0x290b19],_0x4436f8=_0x586dbc+(_0x290b19+0x1)*0x3e8,_0x1db504={'id':window[_0xf17957(0x339)]?.[_0xf17957(0x4a5)]?window[_0xf17957(0x339)][_0xf17957(0x4a5)]('msg'):'msg_'+_0x4436f8+'_'+_0x290b19,'sender':_0x405cf8['id'],'role':_0xf17957(0x3ac),'text':_0x1cc07d,'content':_0x1cc07d,'timestamp':_0x4436f8,'time':new Date(_0x4436f8)[_0xf17957(0xd0)]('zh-CN',{'hour':_0xf17957(0x1e7),'minute':'2-digit','hour12':![]}),'type':'text'};if(window['imApp']?.[_0xf17957(0x3df)])await window['imApp'][_0xf17957(0x3df)](_0x405cf8['id'],_0x1db504,{'silent':![]});else{if(!Array[_0xf17957(0x1b2)](_0x405cf8[_0xf17957(0x43c)]))_0x405cf8['messages']=[];_0x405cf8[_0xf17957(0x43c)]['push'](_0x1db504);}}await this[_0xf17957(0x2f8)](_0x405cf8,{'metaOnly':!![]});this['currentFriend']&&String(this['currentFriend']['id'])===String(_0x5bb47f)&&(this[_0xf17957(0x33b)]=_0x405cf8,this[_0xf17957(0x55e)]());if(window[_0xf17957(0x1d0)])window['showToast'](_0x2899ac[_0xf17957(0x436)]>0x0?'评论与消息发送成功':_0xf17957(0x241));return!![];}catch(_0x261d5f){return console[_0xf17957(0x1fd)](_0xf17957(0x581),_0x261d5f),window[_0xf17957(0x1d0)]&&window[_0xf17957(0x1d0)](_0x261d5f instanceof SyntaxError||/2-5 public replies/['test'](String(_0x261d5f?.[_0xf17957(0x456)]||''))?'AI\x20生成格式错误，请重试':_0xf17957(0x58e)),![];}finally{const _0x1a012d=window[_0xf17957(0xfa)]?.[_0xf17957(0x54e)]?.[_0xf17957(0x39f)](_0x36f667=>String(_0x36f667['id'])===String(_0x5bb47f)),_0x16fc76=_0x1a012d?.[_0xf17957(0x48a)]?.['moments']?.[_0xf17957(0x39f)](_0x2c4b98=>String(_0x2c4b98['id'])===String(_0x581f5b));_0x16fc76&&(_0x16fc76[_0xf17957(0x35a)]=Math[_0xf17957(0x3dd)](0x0,Number(_0x16fc76[_0xf17957(0x35a)])||0x1)-0x1,_0x16fc76['_charReplyPending']=_0x16fc76[_0xf17957(0x35a)]>0x0);}},'toggleMomentLike':function(_0xa3f013){const _0x309909=_0x52ecaa;if(!this[_0x309909(0x33b)]||!this[_0x309909(0x33b)]['lovesData']||!this[_0x309909(0x33b)]['lovesData'][_0x309909(0x2a2)])return;const _0x1547b2=this['currentFriend'][_0x309909(0x48a)]['moments'][_0xa3f013];_0x1547b2[_0x309909(0xf5)]=!_0x1547b2[_0x309909(0xf5)],_0x1547b2[_0x309909(0x4dc)]=(_0x1547b2[_0x309909(0x4dc)]||0x0)+(_0x1547b2[_0x309909(0xf5)]?0x1:-0x1);if(_0x1547b2[_0x309909(0x4dc)]<0x0)_0x1547b2[_0x309909(0x4dc)]=0x0;this[_0x309909(0x2f8)](),this[_0x309909(0x55e)]();},'ensureSavingsData':function(_0x2a33a7=this[_0x52ecaa(0x33b)]){const _0x4eac8e=_0x52ecaa;if(!_0x2a33a7)return{'goal':0x1450,'records':[],'withdrawals':[]};if(!_0x2a33a7[_0x4eac8e(0x48a)])_0x2a33a7['lovesData']={};(!_0x2a33a7[_0x4eac8e(0x48a)][_0x4eac8e(0x172)]||typeof _0x2a33a7['lovesData'][_0x4eac8e(0x172)]!=='object')&&(_0x2a33a7[_0x4eac8e(0x48a)][_0x4eac8e(0x172)]={});const _0x50a062=_0x2a33a7['lovesData'][_0x4eac8e(0x172)];!Number['isFinite'](Number(_0x50a062[_0x4eac8e(0x137)]))||Number(_0x50a062[_0x4eac8e(0x137)])<=0x0?_0x50a062[_0x4eac8e(0x137)]=0x1450:_0x50a062[_0x4eac8e(0x137)]=Number(_0x50a062[_0x4eac8e(0x137)]);if(!Array['isArray'](_0x50a062[_0x4eac8e(0x3fd)]))_0x50a062[_0x4eac8e(0x3fd)]=[];_0x50a062['records']=_0x50a062[_0x4eac8e(0x3fd)][_0x4eac8e(0x2ec)]((_0xd0970d,_0x1e6d03)=>({'id':_0xd0970d['id']||_0x4eac8e(0x14a)+Date[_0x4eac8e(0x1ec)]()+'_'+_0x1e6d03,'amount':Math[_0x4eac8e(0x3dd)](0x0,Number(_0xd0970d['amount'])||0x0),'actor':_0xd0970d['actor']==='char'?_0x4eac8e(0x31b):'user','date':_0xd0970d[_0x4eac8e(0x30f)]||this[_0x4eac8e(0x43f)](_0xd0970d[_0x4eac8e(0x4f4)]||new Date()),'note':String(_0xd0970d[_0x4eac8e(0x2ea)]||''),'source':_0xd0970d[_0x4eac8e(0x2fd)]===_0x4eac8e(0x3da)||String(_0xd0970d['id']||'')['startsWith']('sav_char_daily_')?_0x4eac8e(0x3da):'','timestamp':Number(_0xd0970d[_0x4eac8e(0x4f4)])||Date[_0x4eac8e(0x1ec)]()}))['filter'](_0x499763=>_0x499763[_0x4eac8e(0x185)]>0x0);if(!Array[_0x4eac8e(0x1b2)](_0x50a062[_0x4eac8e(0x359)]))_0x50a062['withdrawals']=[];return _0x50a062[_0x4eac8e(0x359)]=_0x50a062[_0x4eac8e(0x359)][_0x4eac8e(0x2ec)]((_0x839fd1,_0x15dff2)=>({'id':_0x839fd1['id']||_0x4eac8e(0x4fb)+Date[_0x4eac8e(0x1ec)]()+'_'+_0x15dff2,'amount':Math['max'](0x0,Number(_0x839fd1[_0x4eac8e(0x185)])||0x0),'actor':'user','date':_0x839fd1['date']||this['getLocalDateKey'](_0x839fd1[_0x4eac8e(0x4f4)]||new Date()),'reason':String(_0x839fd1['reason']||_0x839fd1[_0x4eac8e(0x2ea)]||''),'decisionReason':String(_0x839fd1[_0x4eac8e(0x243)]||''),'timestamp':Number(_0x839fd1[_0x4eac8e(0x4f4)])||Date[_0x4eac8e(0x1ec)]()}))[_0x4eac8e(0x526)](_0x332614=>_0x332614['amount']>0x0),_0x50a062;},'getSavingsSummary':function(_0x4791e4=this[_0x52ecaa(0x358)]()){const _0x41571a=_0x52ecaa,_0x452b96=Array[_0x41571a(0x1b2)](_0x4791e4[_0x41571a(0x3fd)])?_0x4791e4[_0x41571a(0x3fd)]:[],_0x72680b=_0x452b96[_0x41571a(0x414)]((_0x5f0e41,_0x180a82)=>{const _0x1b0324=_0x41571a,_0x4e6b45=Number(_0x180a82[_0x1b0324(0x185)])||0x0;_0x5f0e41[_0x1b0324(0x499)]+=_0x4e6b45;if(_0x180a82[_0x1b0324(0x579)]===_0x1b0324(0x31b))_0x5f0e41[_0x1b0324(0x31b)]+=_0x4e6b45;else _0x5f0e41['user']+=_0x4e6b45;return _0x5f0e41;},{'total':0x0,'user':0x0,'char':0x0,'withdrawn':0x0}),_0x394ce0=Array['isArray'](_0x4791e4[_0x41571a(0x359)])?_0x4791e4[_0x41571a(0x359)]:[];return _0x72680b[_0x41571a(0x489)]=_0x394ce0['reduce']((_0x59983b,_0x366906)=>_0x59983b+(Number(_0x366906['amount'])||0x0),0x0),_0x72680b[_0x41571a(0x499)]=Math[_0x41571a(0x3dd)](0x0,_0x72680b[_0x41571a(0x499)]-_0x72680b['withdrawn']),_0x72680b;},'setSavingsFabCovered':function(_0x1e8e9c){const _0x199301=_0x52ecaa,_0x29c620=document['getElementById']('lovers-space-fab');if(!_0x29c620)return;if(_0x1e8e9c){_0x29c620['dataset'][_0x199301(0x420)]!=='1'&&(_0x29c620['dataset'][_0x199301(0x22c)]=_0x29c620[_0x199301(0x56a)][_0x199301(0x20a)]||'',_0x29c620['dataset'][_0x199301(0x3e6)]=_0x29c620['style'][_0x199301(0x12f)]||'');_0x29c620[_0x199301(0x21f)][_0x199301(0x420)]='1',_0x29c620['style'][_0x199301(0x20a)]=_0x199301(0x4fe);return;}const _0x5c90c9=[_0x199301(0x403),_0x199301(0x1be),_0x199301(0x1a5),'lovers-savings-withdraw-result-modal']['some'](_0x315ae3=>document[_0x199301(0x199)](_0x315ae3)?.['classList'][_0x199301(0x15d)](_0x199301(0x3a0)));if(_0x5c90c9)return;_0x29c620[_0x199301(0x21f)][_0x199301(0x420)]==='1'&&(_0x29c620[_0x199301(0x56a)][_0x199301(0x20a)]=_0x29c620[_0x199301(0x21f)][_0x199301(0x22c)]||'',_0x29c620[_0x199301(0x56a)][_0x199301(0x12f)]=_0x29c620[_0x199301(0x21f)][_0x199301(0x3e6)]||'',delete _0x29c620[_0x199301(0x21f)][_0x199301(0x420)],delete _0x29c620[_0x199301(0x21f)]['savingsPreviousDisplay'],delete _0x29c620[_0x199301(0x21f)][_0x199301(0x3e6)]);},'closeSavingsSheet':function(_0x503a40,_0x7c9db1={}){const _0x51bc28=_0x52ecaa;if(!_0x503a40)return;if(window[_0x51bc28(0x591)])window[_0x51bc28(0x591)](_0x503a40);else _0x503a40[_0x51bc28(0x513)]['remove'](_0x51bc28(0x3a0));!_0x7c9db1[_0x51bc28(0x598)]&&setTimeout(()=>this[_0x51bc28(0x4a0)](![]),0x0);},'openSavingsSheet':function(_0xb75df6,_0x381296=null){const _0x4d428b=_0x52ecaa;if(!_0xb75df6)return;_0xb75df6[_0x4d428b(0x18e)]=_0x3b651d=>{const _0x51c7d5=_0x4d428b;_0x3b651d[_0x51c7d5(0x4fa)]===_0xb75df6&&(_0x3b651d[_0x51c7d5(0x124)](),this[_0x51c7d5(0x469)](_0xb75df6));},this[_0x4d428b(0x4a0)](!![]);if(window[_0x4d428b(0x128)])window[_0x4d428b(0x128)](_0xb75df6);else _0xb75df6['classList']['add'](_0x4d428b(0x3a0));if(_0x381296)setTimeout(()=>_0x381296['focus'](),0x50);},'getSavingsApiEndpoint':function(){const _0xd3f7fa=_0x52ecaa;if(!window[_0xd3f7fa(0x520)]||!window[_0xd3f7fa(0x520)][_0xd3f7fa(0xfd)]||!window[_0xd3f7fa(0x520)][_0xd3f7fa(0x34d)])return'';let _0x18c096=window[_0xd3f7fa(0x520)][_0xd3f7fa(0xfd)];if(_0x18c096&&!_0x18c096[_0xd3f7fa(0x145)](_0xd3f7fa(0xe2))){if(_0x18c096[_0xd3f7fa(0x145)]('/'))_0x18c096+=_0xd3f7fa(0x1de);else{if(_0x18c096[_0xd3f7fa(0x145)](_0xd3f7fa(0x406)))_0x18c096+='/chat/completions';else _0x18c096+=_0xd3f7fa(0x57c);}}return _0x18c096;},'parseSavingsJsonObject':function(_0x34dca9){const _0x449e2d=_0x52ecaa;let _0x20abbb=String(_0x34dca9||'')['replace'](/```json/gi,'')['replace'](/```/g,'')['trim']();const _0x3fa551=_0x20abbb[_0x449e2d(0x33a)](/\{[\s\S]*\}/);if(_0x3fa551)_0x20abbb=_0x3fa551[0x0];return JSON[_0x449e2d(0x1fe)](_0x20abbb);},'createSavingsMessageId':function(_0x1d0716='msg'){const _0x3d0a9f=_0x52ecaa;return window[_0x3d0a9f(0x339)]&&window[_0x3d0a9f(0x339)][_0x3d0a9f(0x4a5)]?window['imChat'][_0x3d0a9f(0x4a5)](_0x1d0716):_0x1d0716+'_'+Date['now']()+'_'+Math[_0x3d0a9f(0x5a4)]()[_0x3d0a9f(0x38e)](0x24)[_0x3d0a9f(0x3a9)](0x2,0x8);},'appendSavingsChatMessage':async function(_0xe9a82,_0x4273d5,_0x47c3f4={}){const _0xd2a3be=_0x52ecaa;if(!_0xe9a82||!_0x4273d5)return![];let _0x4c6731=![];if(window[_0xd2a3be(0x370)]&&window[_0xd2a3be(0x370)][_0xd2a3be(0x3df)])_0x4c6731=await window['imApp'][_0xd2a3be(0x3df)](_0xe9a82['id'],_0x4273d5,{'silent':_0x47c3f4[_0xd2a3be(0x369)]!==![]});else{if(!Array[_0xd2a3be(0x1b2)](_0xe9a82[_0xd2a3be(0x43c)]))_0xe9a82['messages']=[];_0xe9a82[_0xd2a3be(0x43c)][_0xd2a3be(0x2fb)](_0x4273d5),_0x4c6731=!![];}if(!_0x4c6731)return![];const _0x2b1c6a=window[_0xd2a3be(0xfa)]?.['currentActiveFriend']&&String(window[_0xd2a3be(0xfa)][_0xd2a3be(0x44c)]['id'])===String(_0xe9a82['id'])?window[_0xd2a3be(0xfa)][_0xd2a3be(0x44c)]:_0xe9a82,_0x5d4363=document['getElementById']('chat-interface-'+_0xe9a82['id']),_0x5c8c80=_0x5d4363?_0x5d4363[_0xd2a3be(0x55c)](_0xd2a3be(0x576)):null,_0x48d683=_0x5c8c80&&window[_0xd2a3be(0xfa)]?.[_0xd2a3be(0x44c)]&&String(window[_0xd2a3be(0xfa)][_0xd2a3be(0x44c)]['id'])===String(_0xe9a82['id']);if(_0x48d683&&window[_0xd2a3be(0x339)]?.[_0xd2a3be(0x15b)]){const _0x1c882a=window[_0xd2a3be(0x339)][_0xd2a3be(0x15b)](_0x2b1c6a,_0x5c8c80,_0x4273d5,{'scroll':!![]});!_0x1c882a&&window[_0xd2a3be(0x339)]['rerenderChatContainer']&&window[_0xd2a3be(0x339)]['rerenderChatContainer'](_0x2b1c6a,_0x5c8c80,{'scroll':!![]});}return!![];},'normalizeSavingsWithdrawResult':function(_0x896be,_0x47ed09,_0x307cbd){const _0x3164ae=_0x52ecaa,_0x23bc83=_0x896be?.['decision']===_0x3164ae(0x1bf)?'reject':_0x3164ae(0x595),_0x5d0841=_0x23bc83==='reject'?_0x3164ae(0x247)+_0x307cbd+'这个理由还不够明确。':'可以，这次先从存钱罐给你提\x20'+_0x47ed09[_0x3164ae(0x506)](0x2)+'。',_0x2d6e89=String(_0x896be?.[_0x3164ae(0x53b)]||_0x896be?.['decisionReason']||_0x896be?.[_0x3164ae(0x3fa)]||_0x896be?.[_0x3164ae(0x2df)]||_0x5d0841)[_0x3164ae(0x53d)]()||_0x5d0841;let _0x4303b8=Array['isArray'](_0x896be?.['messages'])?_0x896be[_0x3164ae(0x43c)]['map'](_0x5274d7=>String(_0x5274d7||'')[_0x3164ae(0x53d)]())[_0x3164ae(0x526)](Boolean):[];const _0x595b3c=_0x23bc83===_0x3164ae(0x1bf)?[_0x3164ae(0x247)+_0x307cbd+_0x3164ae(0x2c9),_0x3164ae(0x462)]:[_0x3164ae(0x236),_0x47ed09<=0x32?'就提\x20'+_0x47ed09[_0x3164ae(0x506)](0x2)+'\x20够不够？':_0x3164ae(0x30e)];_0x595b3c[_0x3164ae(0x4e7)](_0x4c075b=>{const _0x26005c=_0x3164ae;if(_0x4303b8['length']<0x2)_0x4303b8[_0x26005c(0x2fb)](_0x4c075b);}),_0x4303b8=_0x4303b8[_0x3164ae(0x3a9)](0x0,0x5);const _0x5b49b9=_0x896be?.['extraSupport']&&typeof _0x896be[_0x3164ae(0x167)]===_0x3164ae(0x52b)?_0x896be[_0x3164ae(0x167)]:_0x896be?.[_0x3164ae(0x47e)]&&typeof _0x896be[_0x3164ae(0x47e)]===_0x3164ae(0x52b)?_0x896be[_0x3164ae(0x47e)]:{};let _0x3b49eb=String(_0x5b49b9['type']||'none')['trim']();if(_0x3b49eb===_0x3164ae(0x19b))_0x3b49eb=_0x3164ae(0x1f1);if(!['none',_0x3164ae(0x1f1),'family_card',_0x3164ae(0x366)][_0x3164ae(0x4c7)](_0x3b49eb))_0x3b49eb=_0x3164ae(0x4fe);const _0x24eda8=Number[_0x3164ae(0x287)](Number(_0x5b49b9[_0x3164ae(0x185)]))&&Number(_0x5b49b9[_0x3164ae(0x185)])>0x0?Math[_0x3164ae(0x142)](Number(_0x5b49b9['amount'])*0x64)/0x64:0x0;if(_0x24eda8<=0x0)_0x3b49eb=_0x3164ae(0x4fe);return{'decision':_0x23bc83,'reason':_0x2d6e89,'messages':_0x4303b8,'extraSupport':{'type':_0x3b49eb,'amount':_0x24eda8,'description':String(_0x5b49b9[_0x3164ae(0x315)]||_0x3164ae(0x1e0))[_0x3164ae(0x53d)]()||_0x3164ae(0x1e0)}};},'openSavingsJar':function(){const _0x4f0998=_0x52ecaa;if(!this[_0x4f0998(0x33b)]){if(window[_0x4f0998(0x1d0)])window[_0x4f0998(0x1d0)](_0x4f0998(0x30d));return;}const _0x26a982=document['getElementById'](_0x4f0998(0x356));if(!_0x26a982)return;this[_0x4f0998(0x358)]();const _0x46d753=document[_0x4f0998(0x199)](_0x4f0998(0x427));_0x46d753&&_0x26a982[_0x4f0998(0x444)]!==_0x46d753&&_0x46d753[_0x4f0998(0x4ac)](_0x26a982);_0x26a982[_0x4f0998(0x513)][_0x4f0998(0x4ca)](_0x4f0998(0x3a0));const _0x4952d9=document[_0x4f0998(0x199)]('lovers-space-fab');_0x4952d9&&(_0x4952d9[_0x4f0998(0x56a)][_0x4f0998(0x4db)](_0x4f0998(0x20a)),_0x4952d9[_0x4f0998(0x56a)][_0x4f0998(0x4db)](_0x4f0998(0x1a2)),_0x4952d9[_0x4f0998(0x513)][_0x4f0998(0x4ca)]('is-savings-mode'));const _0x3923d8=document[_0x4f0998(0x199)](_0x4f0998(0x22a));_0x3923d8&&(_0x3923d8['onclick']=()=>{const _0x41ecae=_0x4f0998;_0x26a982[_0x41ecae(0x513)]['remove'](_0x41ecae(0x3a0)),_0x4952d9&&(_0x4952d9[_0x41ecae(0x513)][_0x41ecae(0x1aa)](_0x41ecae(0x42d)),_0x4952d9[_0x41ecae(0x56a)][_0x41ecae(0x4db)](_0x41ecae(0x20a)),_0x4952d9[_0x41ecae(0x56a)][_0x41ecae(0x4db)](_0x41ecae(0x1a2)));});const _0x518613=document[_0x4f0998(0x199)](_0x4f0998(0x2b3));_0x518613&&(_0x518613[_0x4f0998(0x18e)]=()=>this['openSavingsSettingsSheet']());const _0x84a064=document[_0x4f0998(0x199)](_0x4f0998(0x3e8));_0x84a064&&(_0x84a064[_0x4f0998(0x40d)]=()=>this[_0x4f0998(0x3ef)]()),this[_0x4f0998(0x3ef)]();},'renderSavingsJar':function(){const _0x133f1d=_0x52ecaa;if(!this[_0x133f1d(0x33b)])return;const _0x5be725=this['ensureSavingsData'](),_0x4985d6=this['getSavingsSummary'](_0x5be725),_0x28a33a=this[_0x133f1d(0x33b)][_0x133f1d(0x3c4)]||this[_0x133f1d(0x33b)][_0x133f1d(0x53f)]||'TA',_0x2713f7=window[_0x133f1d(0x351)]?.[_0x133f1d(0x297)]||window[_0x133f1d(0xfa)]?.[_0x133f1d(0x50c)]?.[_0x133f1d(0x297)]||'我',_0x433390=_0x5be725[_0x133f1d(0x137)]>0x0?Math[_0x133f1d(0x25e)](0x64,Math['round'](_0x4985d6[_0x133f1d(0x499)]/_0x5be725[_0x133f1d(0x137)]*0x64)):0x0,_0x4ee4f9=document['getElementById'](_0x133f1d(0x4a3)),_0x384118=document['getElementById'](_0x133f1d(0x31c)),_0x3d8ebd=document[_0x133f1d(0x199)](_0x133f1d(0x3b5)),_0x4916df=document[_0x133f1d(0x199)](_0x133f1d(0x1ca)),_0x4ea6f4=document[_0x133f1d(0x199)](_0x133f1d(0x455)),_0x58f2ac=document[_0x133f1d(0x199)](_0x133f1d(0x505)),_0x41e581=document[_0x133f1d(0x199)]('lovers-savings-user-name'),_0x91065a=document['getElementById'](_0x133f1d(0x11d)),_0x5d4382=document[_0x133f1d(0x199)](_0x133f1d(0x1b4)),_0x328478=document[_0x133f1d(0x199)](_0x133f1d(0x3e8)),_0x325b49=document[_0x133f1d(0x199)](_0x133f1d(0x476)),_0x382afa=document[_0x133f1d(0x199)](_0x133f1d(0x237));if(_0x4ee4f9)_0x4ee4f9[_0x133f1d(0x4d2)]=this[_0x133f1d(0x349)](_0x4985d6[_0x133f1d(0x499)]);if(_0x384118)_0x384118[_0x133f1d(0x4d2)]='目标\x20'+this['formatMoney'](_0x5be725[_0x133f1d(0x137)]);if(_0x3d8ebd)_0x3d8ebd[_0x133f1d(0x4d2)]=_0x433390+'%';if(_0x4916df)_0x4916df[_0x133f1d(0x56a)]['width']=_0x433390+'%';if(_0x4ea6f4)_0x4ea6f4['textContent']=this['formatMoney'](_0x4985d6['user']);if(_0x58f2ac)_0x58f2ac[_0x133f1d(0x4d2)]=this[_0x133f1d(0x349)](_0x4985d6[_0x133f1d(0x31b)]);if(_0x41e581)_0x41e581['textContent']=_0x2713f7;if(_0x91065a)_0x91065a['textContent']=_0x28a33a;if(_0x5d4382)_0x5d4382[_0x133f1d(0x4d2)]=_0x4985d6[_0x133f1d(0x499)]>=_0x5be725[_0x133f1d(0x137)]?_0x133f1d(0x248):_0x133f1d(0x36a)+this[_0x133f1d(0x349)](_0x5be725[_0x133f1d(0x137)]-_0x4985d6[_0x133f1d(0x499)]);_0x328478&&!_0x328478[_0x133f1d(0x544)]&&(_0x328478[_0x133f1d(0x544)]=this['getLocalDateKey']());const _0x45d64e=_0x328478?.[_0x133f1d(0x544)]||this[_0x133f1d(0x43f)](),_0x5f121b=this[_0x133f1d(0x178)](_0x45d64e);_0x325b49&&(_0x325b49[_0x133f1d(0x4d2)]=_0x5f121b['getMonth']()+0x1+'月'+_0x5f121b[_0x133f1d(0x129)]()+'日');const _0x4007a2=_0x5be725[_0x133f1d(0x3fd)][_0x133f1d(0x526)](_0x5c2818=>_0x5c2818['date']===_0x45d64e)[_0x133f1d(0x2ec)](_0x306992=>({..._0x306992,'kind':_0x133f1d(0x18f)})),_0x45fc5d=(Array[_0x133f1d(0x1b2)](_0x5be725[_0x133f1d(0x359)])?_0x5be725[_0x133f1d(0x359)]:[])[_0x133f1d(0x526)](_0x96df3d=>_0x96df3d[_0x133f1d(0x30f)]===_0x45d64e)[_0x133f1d(0x2ec)](_0x2b005c=>({..._0x2b005c,'kind':_0x133f1d(0x375)})),_0x26862b=_0x4007a2[_0x133f1d(0x135)](_0x45fc5d)[_0x133f1d(0x39a)]((_0x50e3b7,_0x535bdc)=>(_0x535bdc[_0x133f1d(0x4f4)]||0x0)-(_0x50e3b7['timestamp']||0x0)),_0x29aeba=_0x4007a2[_0x133f1d(0x526)](_0x43d723=>_0x43d723[_0x133f1d(0x579)]!==_0x133f1d(0x31b))[_0x133f1d(0x414)]((_0x36df9c,_0x33bb73)=>_0x36df9c+Number(_0x33bb73['amount']||0x0),0x0),_0x25d06d=_0x4007a2['filter'](_0x223151=>_0x223151[_0x133f1d(0x579)]===_0x133f1d(0x31b))['reduce']((_0xf47b51,_0x8c946f)=>_0xf47b51+Number(_0x8c946f[_0x133f1d(0x185)]||0x0),0x0),_0x515e0d=document['getElementById']('lovers-savings-day-user'),_0x1ca708=document['getElementById'](_0x133f1d(0x532));if(_0x515e0d)_0x515e0d[_0x133f1d(0x4d2)]=this[_0x133f1d(0x349)](_0x29aeba);if(_0x1ca708)_0x1ca708[_0x133f1d(0x4d2)]=this[_0x133f1d(0x349)](_0x25d06d);if(!_0x382afa)return;if(_0x26862b['length']===0x0){_0x382afa[_0x133f1d(0x338)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-piggy-bank\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>这天还没有存入记录</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';return;}_0x382afa[_0x133f1d(0x338)]=_0x26862b['map'](_0x3027ef=>{const _0x49bb7f=_0x133f1d,_0x59f8b5=_0x3027ef[_0x49bb7f(0x4fc)]==='withdrawal',_0xf5340f=_0x3027ef['actor']===_0x49bb7f(0x31b),_0x20a376=_0xf5340f?_0x28a33a:_0x2713f7,_0x3dc9ce=new Date(_0x3027ef[_0x49bb7f(0x4f4)]||Date[_0x49bb7f(0x1ec)]())[_0x49bb7f(0xd0)](_0x49bb7f(0x2a0),{'hour':_0x49bb7f(0x1e7),'minute':_0x49bb7f(0x1e7),'hour12':![]});return _0x49bb7f(0x529)+(_0x59f8b5?_0x49bb7f(0x23c):'')+_0x49bb7f(0x4f3)+_0x3027ef['id']+_0x49bb7f(0x523)+(_0xf5340f?_0x49bb7f(0x118):_0x49bb7f(0x109))+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20'+(_0x59f8b5?_0x49bb7f(0x16c):_0xf5340f?_0x49bb7f(0x54d):_0x49bb7f(0x329))+_0x49bb7f(0x51d)+(_0x59f8b5?_0x49bb7f(0x41f):this['escapeHTML'](_0x20a376))+_0x49bb7f(0x515)+(_0x59f8b5?'-':'')+this[_0x49bb7f(0x349)](_0x3027ef[_0x49bb7f(0x185)])+'</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-savings-record-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x3dc9ce+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x59f8b5?_0x49bb7f(0x175)+this[_0x49bb7f(0x130)](_0x3027ef[_0x49bb7f(0x53b)]||_0x49bb7f(0x373))+'</span>':_0x3027ef[_0x49bb7f(0x2ea)]?_0x49bb7f(0x175)+this[_0x49bb7f(0x130)](_0x3027ef[_0x49bb7f(0x2ea)])+'</span>':'')+_0x49bb7f(0x2e8);})['join']('');},'openSavingsDepositSheet':function(_0x12e62d=_0x52ecaa(0x5b6)){const _0x27eb18=_0x52ecaa;if(!this[_0x27eb18(0x33b)])return;const _0x567fd7=document[_0x27eb18(0x199)]('lovers-savings-deposit-sheet');if(!_0x567fd7)return;const _0x3979a6=document['getElementById'](_0x27eb18(0x356));_0x3979a6&&_0x567fd7['parentElement']!==_0x3979a6&&_0x3979a6[_0x27eb18(0x4ac)](_0x567fd7);const _0x30c52a=document[_0x27eb18(0x199)](_0x27eb18(0x4c4)),_0x93aedb=document[_0x27eb18(0x199)](_0x27eb18(0x415)),_0x2c3d5d=document[_0x27eb18(0x199)](_0x27eb18(0x21e)),_0x5a537f=document[_0x27eb18(0x199)](_0x27eb18(0x418)),_0x249c67=this[_0x27eb18(0x33b)]['nickname']||this[_0x27eb18(0x33b)][_0x27eb18(0x53f)]||'TA';if(_0x30c52a)_0x30c52a['value']='';if(_0x93aedb)_0x93aedb[_0x27eb18(0x544)]=this['getLocalDateKey']();if(_0x2c3d5d)_0x2c3d5d['value']='';_0x5a537f&&(_0x5a537f['innerHTML']=_0x27eb18(0x399)+this[_0x27eb18(0x130)](_0x249c67)+_0x27eb18(0x2eb),_0x5a537f['value']=_0x12e62d===_0x27eb18(0x31b)?_0x27eb18(0x31b):'user');const _0x56a9a4=document['getElementById']('lovers-savings-deposit-cancel');if(_0x56a9a4)_0x56a9a4[_0x27eb18(0x18e)]=()=>this['closeSavingsSheet'](_0x567fd7);const _0x3de53d=document[_0x27eb18(0x199)](_0x27eb18(0x41d));_0x3de53d&&(_0x3de53d[_0x27eb18(0x18e)]=()=>this['addSavingsRecord']()),this[_0x27eb18(0x547)](_0x567fd7,_0x30c52a);},'openSavingsSettingsSheet':function(){const _0x4dbf38=_0x52ecaa;if(!this[_0x4dbf38(0x33b)])return;const _0x143e99=document[_0x4dbf38(0x199)](_0x4dbf38(0x1be));if(!_0x143e99)return;const _0x292556=document[_0x4dbf38(0x199)](_0x4dbf38(0x356));_0x292556&&_0x143e99[_0x4dbf38(0x444)]!==_0x292556&&_0x292556[_0x4dbf38(0x4ac)](_0x143e99);const _0x360a08=this['ensureSavingsData'](),_0xa2a58b=document['getElementById'](_0x4dbf38(0xcb));if(_0xa2a58b)_0xa2a58b[_0x4dbf38(0x544)]=String(_0x360a08[_0x4dbf38(0x137)]||0x1450);const _0x674019=document['getElementById'](_0x4dbf38(0xe4));if(_0x674019)_0x674019['onclick']=()=>this['closeSavingsSheet'](_0x143e99);const _0x387d07=document['getElementById'](_0x4dbf38(0x3db));if(_0x387d07)_0x387d07['onclick']=()=>this[_0x4dbf38(0x31d)]();const _0xfc3326=document[_0x4dbf38(0x199)](_0x4dbf38(0x4be));_0xfc3326&&(_0xfc3326[_0x4dbf38(0x18e)]=()=>{const _0x4d7306=_0x4dbf38;this[_0x4d7306(0x469)](_0x143e99,{'keepFabHidden':!![]}),this[_0x4d7306(0x318)]();}),this['openSavingsSheet'](_0x143e99,_0xa2a58b);},'saveSavingsSettings':function(){const _0xbc799f=_0x52ecaa;if(!this[_0xbc799f(0x33b)])return;const _0x216821=document[_0xbc799f(0x199)](_0xbc799f(0x1be)),_0x1b5068=document[_0xbc799f(0x199)](_0xbc799f(0xcb)),_0x2c4c24=Number(_0x1b5068?.[_0xbc799f(0x544)]);if(!Number['isFinite'](_0x2c4c24)||_0x2c4c24<=0x0){if(window['showToast'])window[_0xbc799f(0x1d0)](_0xbc799f(0x5a5));return;}const _0x5e7de1=this[_0xbc799f(0x358)]();_0x5e7de1['goal']=Math[_0xbc799f(0x142)](_0x2c4c24*0x64)/0x64,this[_0xbc799f(0x2f8)](),this[_0xbc799f(0x3ef)](),this[_0xbc799f(0x469)](_0x216821);if(window['showToast'])window[_0xbc799f(0x1d0)]('目标已更新');},'openSavingsWithdrawSheet':function(){const _0x425869=_0x52ecaa;if(!this['currentFriend'])return;const _0x15c377=document[_0x425869(0x199)](_0x425869(0x1a5));if(!_0x15c377)return;const _0x4dc910=document[_0x425869(0x199)]('lovers-savings-view');_0x4dc910&&_0x15c377[_0x425869(0x444)]!==_0x4dc910&&_0x4dc910[_0x425869(0x4ac)](_0x15c377);const _0x53aaa1=document[_0x425869(0x199)]('lovers-savings-withdraw-amount-input'),_0xb000f7=document[_0x425869(0x199)](_0x425869(0x3ae));if(_0x53aaa1)_0x53aaa1['value']='';if(_0xb000f7)_0xb000f7[_0x425869(0x544)]='';const _0xcd8a2e=document[_0x425869(0x199)](_0x425869(0x36f));if(_0xcd8a2e)_0xcd8a2e[_0x425869(0x18e)]=()=>this[_0x425869(0x469)](_0x15c377);const _0x3b07e6=document[_0x425869(0x199)](_0x425869(0xdb));_0x3b07e6&&(_0x3b07e6['disabled']=![],_0x3b07e6['textContent']=_0x425869(0xcf),_0x3b07e6[_0x425869(0x18e)]=()=>this['sendSavingsWithdrawRequest']()),this[_0x425869(0x547)](_0x15c377,_0x53aaa1);},'sendSavingsWithdrawRequest':async function(){const _0x1838af=_0x52ecaa;if(!this[_0x1838af(0x33b)])return;const _0x16962c=document[_0x1838af(0x199)](_0x1838af(0x1a5)),_0x2267d7=document[_0x1838af(0x199)](_0x1838af(0x292)),_0x3ef2f7=document['getElementById'](_0x1838af(0x3ae)),_0x4eee88=document['getElementById'](_0x1838af(0xdb)),_0x31f0eb=Number(_0x2267d7?.[_0x1838af(0x544)]),_0x479d03=String(_0x3ef2f7?.['value']||'')[_0x1838af(0x53d)]();if(!Number[_0x1838af(0x287)](_0x31f0eb)||_0x31f0eb<=0x0){if(window[_0x1838af(0x1d0)])window[_0x1838af(0x1d0)](_0x1838af(0x16b));return;}if(!_0x479d03){if(window[_0x1838af(0x1d0)])window[_0x1838af(0x1d0)](_0x1838af(0x439));return;}const _0x3976fd=this[_0x1838af(0x47f)]();if(!_0x3976fd||!window['apiConfig']?.[_0x1838af(0x34d)]){if(window[_0x1838af(0x1d0)])window[_0x1838af(0x1d0)](_0x1838af(0xdd));return;}const _0x24fc3f=this['currentFriend'];window[_0x1838af(0x370)]?.[_0x1838af(0xd6)]&&await window[_0x1838af(0x370)][_0x1838af(0xd6)](_0x24fc3f);const _0x13a380=this['ensureSavingsData'](_0x24fc3f),_0x1e3118=this[_0x1838af(0x2bf)](_0x13a380),_0x112046=_0x24fc3f[_0x1838af(0x3c4)]||_0x24fc3f['realname']||_0x24fc3f[_0x1838af(0x46f)]||_0x24fc3f[_0x1838af(0x297)]||'TA',_0x267059=window['userState']?.[_0x1838af(0x212)]||_0x1838af(0x2c8),_0x44d64b=_0x24fc3f[_0x1838af(0x212)]||'普通角色',_0x5d7fc7=Array['isArray'](_0x24fc3f[_0x1838af(0x43c)])?_0x24fc3f[_0x1838af(0x43c)][_0x1838af(0x3a9)](-0xa):[],_0x299317=_0x5d7fc7['map'](_0x59e46f=>{const _0x3b95ac=_0x1838af,_0x690c05=_0x59e46f['role']===_0x3b95ac(0x5b6)||_0x59e46f[_0x3b95ac(0xec)]==='me'?_0x3b95ac(0x121):_0x3b95ac(0x37d);let _0x1e28cd=_0x59e46f[_0x3b95ac(0x1d7)]||_0x59e46f[_0x3b95ac(0x4d0)]||'';return _0x59e46f[_0x3b95ac(0x3ee)]==='pay_transfer'&&(_0x1e28cd=(_0x3b95ac(0xf2)+(_0x59e46f[_0x3b95ac(0x315)]||_0x59e46f[_0x3b95ac(0x4cf)]||'')+'\x20'+(_0x59e46f[_0x3b95ac(0x185)]?'¥'+Number(_0x59e46f[_0x3b95ac(0x185)])[_0x3b95ac(0x506)](0x2):''))[_0x3b95ac(0x53d)]()),_0x1e28cd=String(_0x1e28cd||_0x3b95ac(0x48b))[_0x3b95ac(0x563)](/<[^>]+>/g,'')['slice'](0x0,0xb4),_0x690c05+':\x20'+_0x1e28cd;})[_0x1838af(0x306)]('\x0a');let _0x5007f9='';if(window[_0x1838af(0x56f)]){_0x5007f9=window[_0x1838af(0x56f)](_0x1838af(0x122))||'';const _0x4225f0=window[_0x1838af(0x56f)](_0x1838af(0x304));if(_0x4225f0)_0x5007f9+='\x0a'+_0x4225f0;}const _0x4504be=_0x1838af(0x388)+_0x31f0eb['toFixed'](0x2)+_0x1838af(0x541)+_0x479d03+'\x0a\x0a【存钱罐状态】\x0a存钱目标：'+this[_0x1838af(0x349)](_0x13a380[_0x1838af(0x137)])+_0x1838af(0x437)+this[_0x1838af(0x349)](_0x1e3118['total'])+_0x1838af(0x498)+this[_0x1838af(0x349)](_0x1e3118[_0x1838af(0x5b6)])+_0x1838af(0x327)+this['formatMoney'](_0x1e3118[_0x1838af(0x31b)])+'\x0a\x0a'+(_0x5007f9?_0x1838af(0x4f1)+_0x5007f9+'\x0a\x0a':'')+_0x1838af(0x2ab)+_0x44d64b+_0x1838af(0x4c9)+_0x267059+'\x0a\x0a'+(_0x299317?'【近期\x20iMessage\x20上下文】\x0a'+_0x299317+'\x0a\x0a':'')+_0x1838af(0x412);_0x4eee88&&(_0x4eee88[_0x1838af(0x14e)]=!![],_0x4eee88[_0x1838af(0x4d2)]=_0x1838af(0x53a));if(window[_0x1838af(0x1d0)])window['showToast'](_0x1838af(0xc8));try{const _0x261cf3=await fetch(_0x3976fd,{'method':_0x1838af(0x253),'headers':{'Content-Type':'application/json','Authorization':_0x1838af(0x496)+window[_0x1838af(0x520)][_0x1838af(0x34d)]},'body':JSON[_0x1838af(0x2f4)]({'model':window[_0x1838af(0x520)][_0x1838af(0x4c2)]||'gpt-3.5-turbo','messages':[{'role':'system','content':_0x1838af(0x3f9)},{'role':_0x1838af(0x5b6),'content':_0x4504be}],'temperature':0.75})});if(!_0x261cf3['ok'])throw new Error('API\x20Request\x20Failed');const _0x23370=await _0x261cf3['json'](),_0x352517=_0x23370[_0x1838af(0x4b6)]?.[0x0]?.[_0x1838af(0x456)]?.[_0x1838af(0x4d0)]||'',_0x2fbd0f=this[_0x1838af(0x111)](_0x352517),_0x4f15fe=this[_0x1838af(0x102)](_0x2fbd0f,Math[_0x1838af(0x142)](_0x31f0eb*0x64)/0x64,_0x479d03);_0x4f15fe[_0x1838af(0x3a4)]===_0x1838af(0x595)&&_0x31f0eb>_0x1e3118[_0x1838af(0x499)]&&(_0x4f15fe[_0x1838af(0x3a4)]='reject',_0x4f15fe['reason']=_0x1838af(0x249)+this[_0x1838af(0x349)](_0x1e3118[_0x1838af(0x499)])+'，不够提款\x20'+this[_0x1838af(0x349)](_0x31f0eb)+'。',_0x4f15fe[_0x1838af(0x167)]={'type':_0x1838af(0x4fe),'amount':0x0,'description':''});const _0xaa9657=Date['now']();if(_0x4f15fe[_0x1838af(0x3a4)]==='approve'){if(typeof window[_0x1838af(0x218)]!==_0x1838af(0x3f5))throw new Error(_0x1838af(0x47d));const _0xd623c=window[_0x1838af(0x218)](_0x31f0eb,'存钱罐提款\x20·\x20'+_0x112046,_0x1838af(0x3e3));if(!_0xd623c)throw new Error(_0x1838af(0x34b));const _0x43a084=new Date(),_0x14c240=this['getLocalDateKey'](_0x43a084);_0x13a380['withdrawals']['unshift']({'id':_0x1838af(0x4fb)+Date[_0x1838af(0x1ec)](),'amount':Math['round'](_0x31f0eb*0x64)/0x64,'actor':_0x1838af(0x5b6),'date':_0x14c240,'reason':_0x479d03,'decisionReason':_0x4f15fe[_0x1838af(0x53b)],'timestamp':_0x43a084[_0x1838af(0xf7)]()});const _0x3d760e=document[_0x1838af(0x199)]('lovers-savings-date-filter');if(_0x3d760e)_0x3d760e['value']=_0x14c240;}for(let _0x3bb395=0x0;_0x3bb395<_0x4f15fe['messages'][_0x1838af(0x436)];_0x3bb395++){const _0x4da8f9=_0xaa9657+(_0x3bb395+0x1)*0x3e8,_0x2cd517=_0x4f15fe[_0x1838af(0x43c)][_0x3bb395],_0x35c2e1={'id':this[_0x1838af(0x1af)](_0x1838af(0x58d)),'sender':_0x24fc3f['id'],'role':_0x1838af(0x3ac),'type':_0x1838af(0x1d7),'text':_0x2cd517,'content':_0x2cd517,'timestamp':_0x4da8f9,'time':new Date(_0x4da8f9)[_0x1838af(0xd0)](_0x1838af(0x2a0),{'hour':_0x1838af(0x1e7),'minute':_0x1838af(0x1e7),'hour12':![]})};await this['appendSavingsChatMessage'](_0x24fc3f,_0x35c2e1,{'silent':![]});}if(_0x4f15fe[_0x1838af(0x3a4)]===_0x1838af(0x595)&&_0x4f15fe[_0x1838af(0x167)][_0x1838af(0x3ee)]!=='none'){const _0x3006a0=this['createSavingsPaymentMessage'](_0x24fc3f,_0x4f15fe[_0x1838af(0x167)],_0xaa9657+(_0x4f15fe[_0x1838af(0x43c)][_0x1838af(0x436)]+0x1)*0x3e8);_0x3006a0&&await this[_0x1838af(0x538)](_0x24fc3f,_0x3006a0,{'silent':![]});}await this[_0x1838af(0x2f8)](_0x24fc3f),this[_0x1838af(0x3ef)](),this[_0x1838af(0x469)](_0x16962c,{'keepFabHidden':!![]}),this['openSavingsWithdrawResultModal']({'decision':_0x4f15fe[_0x1838af(0x3a4)],'reason':_0x4f15fe['reason'],'amount':Math['round'](_0x31f0eb*0x64)/0x64});}catch(_0x357135){console[_0x1838af(0x1fd)](_0x1838af(0x457),_0x357135);if(window['showToast'])window[_0x1838af(0x1d0)]('提款请求发送失败，请重试');_0x4eee88&&(_0x4eee88['disabled']=![],_0x4eee88['textContent']=_0x1838af(0xcf));}},'openSavingsWithdrawResultModal':function(_0xb19c87){const _0x357f95=_0x52ecaa,_0xece79a=document[_0x357f95(0x199)](_0x357f95(0x1cd));if(!_0xece79a)return;const _0x244cbb=document[_0x357f95(0x199)](_0x357f95(0x356));_0x244cbb&&_0xece79a[_0x357f95(0x444)]!==_0x244cbb&&_0x244cbb[_0x357f95(0x4ac)](_0xece79a);const _0x2d5327=_0xb19c87?.[_0x357f95(0x3a4)]===_0x357f95(0x595),_0x4ebb2f=document['getElementById'](_0x357f95(0x590)),_0x6e8f32=document[_0x357f95(0x199)](_0x357f95(0x1d9)),_0x59c727=document[_0x357f95(0x199)](_0x357f95(0x17d)),_0x2dea6e=document[_0x357f95(0x199)](_0x357f95(0x2a9)),_0x3d1ad3=document[_0x357f95(0x199)](_0x357f95(0x396)),_0x36aa88=document['getElementById']('lovers-savings-withdraw-result-close'),_0x25a7d1=document[_0x357f95(0x199)](_0x357f95(0x472));_0xece79a[_0x357f95(0x513)]['toggle']('is-approved',_0x2d5327),_0xece79a[_0x357f95(0x513)][_0x357f95(0x296)](_0x357f95(0x2d8),!_0x2d5327);if(_0x4ebb2f)_0x4ebb2f[_0x357f95(0x4d2)]=_0x2d5327?_0x357f95(0x37b):'TA\x20已拒绝';if(_0x6e8f32)_0x6e8f32['textContent']=this[_0x357f95(0x349)](_0xb19c87?.[_0x357f95(0x185)]||0x0);if(_0x59c727)_0x59c727[_0x357f95(0x4d2)]=_0x2d5327?'同意理由':_0x357f95(0x323);if(_0x2dea6e)_0x2dea6e[_0x357f95(0x4d2)]=_0xb19c87?.[_0x357f95(0x53b)]||(_0x2d5327?_0x357f95(0x29f):_0x357f95(0x463));_0x3d1ad3&&(_0x3d1ad3['innerHTML']=_0x357f95(0x179)+(_0x2d5327?_0x357f95(0x511):'fa-xmark')+_0x357f95(0x352));const _0x53e49b=()=>this[_0x357f95(0x469)](_0xece79a);if(_0x36aa88)_0x36aa88[_0x357f95(0x18e)]=_0x53e49b;if(_0x25a7d1)_0x25a7d1[_0x357f95(0x18e)]=_0x53e49b;this['openSavingsSheet'](_0xece79a);},'createSavingsPaymentMessage':function(_0x59f430,_0x3835c4,_0x4fc1e1=Date[_0x52ecaa(0x1ec)]()){const _0x54dc81=_0x52ecaa;if(!_0x59f430||!_0x3835c4||_0x3835c4[_0x54dc81(0x3ee)]===_0x54dc81(0x4fe))return null;const _0x340609=Number(_0x3835c4['amount'])||0x0;if(!Number['isFinite'](_0x340609)||_0x340609<=0x0)return null;const _0x5702c4=_0x59f430[_0x54dc81(0x3c4)]||_0x59f430[_0x54dc81(0x53f)]||_0x59f430['realName']||_0x59f430[_0x54dc81(0x297)]||_0x54dc81(0x37d),_0x1eb1ca=window['userState']?.[_0x54dc81(0x297)]||window[_0x54dc81(0x351)]?.[_0x54dc81(0x46f)]||window[_0x54dc81(0x351)]?.[_0x54dc81(0x3c4)]||window[_0x54dc81(0xfa)]?.[_0x54dc81(0x50c)]?.[_0x54dc81(0x297)]||_0x54dc81(0x121),_0x455038=String(_0x3835c4[_0x54dc81(0x315)]||'存钱罐提款')['trim']()||_0x54dc81(0x373);if(_0x3835c4[_0x54dc81(0x3ee)]===_0x54dc81(0x254)||_0x3835c4[_0x54dc81(0x3ee)]===_0x54dc81(0x366)){let _0x597073=_0x3835c4[_0x54dc81(0x3ee)]==='family_card_increase'?_0x54dc81(0x1a9):_0x54dc81(0x324);if(typeof window[_0x54dc81(0x4b7)]===_0x54dc81(0x3f5)){const _0x9ccf2e=window[_0x54dc81(0x4b7)](_0x59f430['id'],_0x5702c4,_0x340609);_0x597073=_0x9ccf2e?.[_0x54dc81(0x384)]===_0x54dc81(0x560)?_0x54dc81(0x1a9):_0x54dc81(0x324);}return{'id':this[_0x54dc81(0x1af)](_0x54dc81(0x158)),'sender':_0x59f430['id'],'role':'assistant','type':_0x54dc81(0x42c),'payKind':_0x54dc81(0x238),'payDirection':_0x54dc81(0x1eb),'amount':_0x340609,'description':_0x597073+'\x20¥'+_0x340609[_0x54dc81(0x506)](0x2),'payerName':_0x5702c4,'payeeName':_0x1eb1ca,'senderName':_0x5702c4,'receiverName':_0x1eb1ca,'targetName':_0x1eb1ca,'cardTitle':_0x597073,'payStatus':_0x54dc81(0x4a8),'content':'[亲属卡]\x20'+_0x597073+'\x20¥'+_0x340609[_0x54dc81(0x506)](0x2),'timestamp':_0x4fc1e1};}return{'id':this[_0x54dc81(0x1af)](_0x54dc81(0x158)),'sender':_0x59f430['id'],'role':_0x54dc81(0x3ac),'type':'pay_transfer','payKind':_0x54dc81(0x32d),'payDirection':'char_to_user','amount':_0x340609,'description':_0x455038,'payerName':_0x5702c4,'payeeName':_0x1eb1ca,'senderName':_0x5702c4,'receiverName':_0x1eb1ca,'targetName':_0x1eb1ca,'cardTitle':'转账','payStatus':_0x54dc81(0x290),'content':_0x54dc81(0x3a8)+_0x455038+'\x20¥'+_0x340609[_0x54dc81(0x506)](0x2),'timestamp':_0x4fc1e1};},'addSavingsRecord':function(){const _0x5046bd=_0x52ecaa;if(!this[_0x5046bd(0x33b)])return;const _0x4a5fb3=document['getElementById'](_0x5046bd(0x4c4)),_0x3ae762=document[_0x5046bd(0x199)]('lovers-savings-date-input'),_0x1953da=document['getElementById'](_0x5046bd(0x21e)),_0x258f81=document[_0x5046bd(0x199)]('lovers-savings-actor-input'),_0x53730c=document['getElementById'](_0x5046bd(0x403)),_0x2201f9=Number(_0x4a5fb3?.[_0x5046bd(0x544)]);if(!Number[_0x5046bd(0x287)](_0x2201f9)||_0x2201f9<=0x0){if(window[_0x5046bd(0x1d0)])window[_0x5046bd(0x1d0)](_0x5046bd(0x1f4));return;}const _0x2006dd=this[_0x5046bd(0x358)](),_0x186241=_0x3ae762?.[_0x5046bd(0x544)]||this[_0x5046bd(0x43f)](),_0x5d22cc=new Date(),_0x445dd4=this[_0x5046bd(0x178)](_0x186241);_0x445dd4[_0x5046bd(0x555)](_0x5d22cc[_0x5046bd(0x428)](),_0x5d22cc[_0x5046bd(0x1d8)](),_0x5d22cc[_0x5046bd(0x26a)](),_0x5d22cc[_0x5046bd(0x24d)]()),_0x2006dd[_0x5046bd(0x3fd)][_0x5046bd(0x198)]({'id':_0x5046bd(0x14a)+Date[_0x5046bd(0x1ec)](),'amount':Math[_0x5046bd(0x142)](_0x2201f9*0x64)/0x64,'actor':_0x258f81?.[_0x5046bd(0x544)]===_0x5046bd(0x31b)?_0x5046bd(0x31b):_0x5046bd(0x5b6),'date':_0x186241,'note':(_0x1953da?.['value']||'')['trim'](),'timestamp':_0x445dd4[_0x5046bd(0xf7)]()});const _0x3bd843=document[_0x5046bd(0x199)](_0x5046bd(0x3e8));if(_0x3bd843)_0x3bd843[_0x5046bd(0x544)]=_0x186241;this[_0x5046bd(0x2f8)](),this[_0x5046bd(0x3ef)](),this[_0x5046bd(0x469)](_0x53730c);if(window[_0x5046bd(0x1d0)])window[_0x5046bd(0x1d0)](_0x5046bd(0x3c9));},'open':function(){const _0x5ee474=_0x52ecaa;!this['initialized']&&this[_0x5ee474(0x2e6)]();if(!this['view'])this[_0x5ee474(0x465)]=document[_0x5ee474(0x199)](_0x5ee474(0xe9));if(this[_0x5ee474(0x465)]){const _0x4df293=document[_0x5ee474(0x199)](_0x5ee474(0x385));_0x4df293&&(_0x4df293[_0x5ee474(0x2cd)]=0x0,_0x4df293[_0x5ee474(0x28f)]=0x0),this[_0x5ee474(0x596)](),typeof window[_0x5ee474(0x128)]===_0x5ee474(0x3f5)?window[_0x5ee474(0x128)](this[_0x5ee474(0x465)]):(this[_0x5ee474(0x465)]['classList'][_0x5ee474(0x4ca)](_0x5ee474(0x3a0)),this[_0x5ee474(0x465)][_0x5ee474(0x56a)][_0x5ee474(0x20a)]='flex'),this['renderTopFriends']();}else console[_0x5ee474(0xdc)](_0x5ee474(0x35d));},'scanForAcceptance':function(){const _0x317531=_0x52ecaa,_0x1b5e78=window['imData']?.[_0x317531(0x54e)]||[];let _0xfafa58=![];_0x1b5e78[_0x317531(0x4e7)](_0x4233be=>{const _0x22c38f=_0x317531;if(_0x4233be[_0x22c38f(0x4e3)]&&!_0x4233be[_0x22c38f(0x4eb)]){const _0x3dbd51=Array['isArray'](_0x4233be[_0x22c38f(0x43c)])?_0x4233be[_0x22c38f(0x43c)]:[];for(let _0x5d44d1=_0x3dbd51[_0x22c38f(0x436)]-0x1;_0x5d44d1>=0x0;_0x5d44d1--){const _0x30ad9e=_0x3dbd51[_0x5d44d1];if(_0x30ad9e[_0x22c38f(0xec)]!=='me'&&_0x30ad9e[_0x22c38f(0x1d7)]&&_0x30ad9e['text']['includes'](_0x22c38f(0x2f0))){_0x4233be[_0x22c38f(0x4eb)]=!![],_0x4233be[_0x22c38f(0x4e3)]=![];!Number(_0x4233be['lovesSpaceStartTime'])&&(_0x4233be['lovesSpaceStartTime']=Number(_0x30ad9e[_0x22c38f(0x4f4)])||Date[_0x22c38f(0x1ec)]());_0x30ad9e[_0x22c38f(0x1d7)]=_0x30ad9e['text'][_0x22c38f(0x563)](/\[ACCEPT_INVITE\]/g,'')[_0x22c38f(0x53d)]();_0x30ad9e['content']&&(_0x30ad9e[_0x22c38f(0x4d0)]=_0x30ad9e[_0x22c38f(0x4d0)]['replace'](/\[ACCEPT_INVITE\]/g,'')[_0x22c38f(0x53d)]());const _0x2f7738={'id':window[_0x22c38f(0x339)]&&window['imChat'][_0x22c38f(0x4a5)]?window[_0x22c38f(0x339)][_0x22c38f(0x4a5)]('msg'):_0x22c38f(0x573)+Date[_0x22c38f(0x1ec)](),'sender':_0x30ad9e['sender'],'role':_0x22c38f(0x3ac),'content':_0x22c38f(0x303),'text':_0x22c38f(0x1fa),'timestamp':Date['now'](),'time':new Date()[_0x22c38f(0xd0)](_0x22c38f(0x2a0),{'hour':_0x22c38f(0x1e7),'minute':'2-digit','hour12':![]}),'type':_0x22c38f(0x40f)};_0x3dbd51[_0x22c38f(0x2fb)](_0x2f7738),void this['syncDailySavingsForFriend'](_0x4233be,new Date(),{'persist':![]}),_0xfafa58=!![];break;}}}}),_0xfafa58&&_0x1b5e78[_0x317531(0x4e7)](_0x45c0cb=>{const _0xf3ea74=_0x317531;if(_0x45c0cb[_0xf3ea74(0x4eb)])this['persistFriendState'](_0x45c0cb,{'metaOnly':!![]});});},'handleInviteAccepted':async function(_0x14e80c){const _0x4d1efc=_0x52ecaa;if(!_0x14e80c)return;const _0x2d3d61=Date[_0x4d1efc(0x1ec)]();_0x14e80c['hasLovesSpace']=!![],_0x14e80c[_0x4d1efc(0x4e3)]=![];if(!Number(_0x14e80c['lovesSpaceStartTime']))_0x14e80c['lovesSpaceStartTime']=_0x2d3d61;const _0x29634d={'id':window[_0x4d1efc(0x339)]&&window[_0x4d1efc(0x339)][_0x4d1efc(0x4a5)]?window[_0x4d1efc(0x339)][_0x4d1efc(0x4a5)](_0x4d1efc(0x58d)):'msg_'+Date['now'](),'sender':_0x14e80c['id'],'role':_0x4d1efc(0x3ac),'content':_0x4d1efc(0x15e),'text':_0x4d1efc(0x4cd),'timestamp':_0x2d3d61-0x64,'type':_0x4d1efc(0x40f)};if(window['imApp']&&window[_0x4d1efc(0x370)][_0x4d1efc(0x3df)])await window[_0x4d1efc(0x370)][_0x4d1efc(0x3df)](_0x14e80c['id'],_0x29634d,{'silent':!![]});else _0x14e80c[_0x4d1efc(0x43c)]&&Array[_0x4d1efc(0x1b2)](_0x14e80c[_0x4d1efc(0x43c)])&&_0x14e80c[_0x4d1efc(0x43c)]['push'](_0x29634d);await this['syncDailySavingsForFriend'](_0x14e80c,new Date(_0x2d3d61),{'persist':![]}),await this[_0x4d1efc(0x2f8)](_0x14e80c,{'metaOnly':!![]});const _0x2ceebe=_0x4d1efc(0x4a2)+_0x14e80c['id'],_0x4ed7cf=document[_0x4d1efc(0x199)](_0x2ceebe);if(_0x4ed7cf){const _0x27c8bd=_0x4ed7cf[_0x4d1efc(0x55c)](_0x4d1efc(0x576));_0x27c8bd&&window[_0x4d1efc(0x339)]&&window[_0x4d1efc(0x339)][_0x4d1efc(0x15b)]&&window[_0x4d1efc(0x339)][_0x4d1efc(0x15b)](_0x14e80c,_0x27c8bd,_0x29634d);}const _0x214d48=document[_0x4d1efc(0x199)]('loves-detail-name'),_0x3d29e6=document[_0x4d1efc(0x199)](_0x4d1efc(0x45c));if(_0x3d29e6&&_0x3d29e6[_0x4d1efc(0x56a)][_0x4d1efc(0x20a)]==='flex'&&_0x214d48){const _0x4a82ca=_0x14e80c[_0x4d1efc(0x3c4)]||_0x14e80c[_0x4d1efc(0x53f)]||_0x4d1efc(0x582);_0x214d48['textContent']===_0x4a82ca&&this[_0x4d1efc(0x242)](_0x14e80c);}},'getTopFriends':function(){const _0x283803=_0x52ecaa,_0x23990b=Array[_0x283803(0x1b2)](window['imData']?.[_0x283803(0x54e)])?window[_0x283803(0xfa)][_0x283803(0x54e)]:[];return _0x23990b[_0x283803(0x526)](_0x230efb=>_0x230efb&&_0x230efb[_0x283803(0x3ee)]!==_0x283803(0x1b8)&&_0x230efb[_0x283803(0x3ee)]!=='npc');},'renderTopFriends':function(){const _0x2842a5=_0x52ecaa,_0x49631b=document[_0x2842a5(0x199)]('loves-board');if(!_0x49631b)return;_0x49631b['innerHTML']='';const _0x166767=this[_0x2842a5(0x5b9)]();if(_0x166767[_0x2842a5(0x436)]===0x0){_0x49631b['innerHTML']=_0x2842a5(0x3ad);return;}_0x166767['forEach']((_0x1f9be3,_0x27f9ee)=>{const _0x502e9f=_0x2842a5,_0xc1b426=document[_0x502e9f(0x1d5)](_0x1f9be3['hasLovesSpace']?_0x502e9f(0x3d6):_0x502e9f(0x1f6));_0xc1b426[_0x502e9f(0x483)]=_0x502e9f(0x11e);_0x1f9be3[_0x502e9f(0x4eb)]&&(_0xc1b426[_0x502e9f(0x3ee)]=_0x502e9f(0x3d6),_0xc1b426[_0x502e9f(0x50a)]('aria-label',_0x502e9f(0x46b)+(_0x1f9be3[_0x502e9f(0x3c4)]||_0x1f9be3[_0x502e9f(0x53f)]||'好友')+_0x502e9f(0x3e0)));const _0x3a5adc=document[_0x502e9f(0x1d5)](_0x502e9f(0x1f6));_0x3a5adc[_0x502e9f(0x483)]='loves-note-avatar';if(_0x1f9be3['avatarUrl']){const _0x250770=document[_0x502e9f(0x1d5)](_0x502e9f(0x3be));_0x250770['src']=_0x1f9be3['avatarUrl'],_0x250770[_0x502e9f(0x4ed)]=_0x1f9be3['nickname']||_0x1f9be3[_0x502e9f(0x53f)]||'好友头像',_0x3a5adc[_0x502e9f(0x4ac)](_0x250770);}else{const _0x4136ca=document[_0x502e9f(0x1d5)]('i');_0x4136ca[_0x502e9f(0x483)]='fas\x20fa-user',_0x3a5adc[_0x502e9f(0x4ac)](_0x4136ca);}const _0x4ab06b=document[_0x502e9f(0x1d5)]('div');_0x4ab06b[_0x502e9f(0x483)]='loves-note-info';const _0x78a418=document[_0x502e9f(0x1d5)](_0x502e9f(0x1f6));_0x78a418[_0x502e9f(0x483)]=_0x502e9f(0x2a3),_0x78a418[_0x502e9f(0x4d2)]=_0x1f9be3['nickname']||_0x1f9be3[_0x502e9f(0x53f)]||_0x502e9f(0x582);const _0xeee4f6=document[_0x502e9f(0x1d5)](_0x502e9f(0x1f6));_0xeee4f6['className']=_0x502e9f(0x537),_0xeee4f6[_0x502e9f(0x4d2)]=_0x1f9be3[_0x502e9f(0x119)]||_0x502e9f(0x4ee),_0x4ab06b[_0x502e9f(0x4ac)](_0x78a418),_0x4ab06b[_0x502e9f(0x4ac)](_0xeee4f6);const _0x583019=document[_0x502e9f(0x1d5)](_0x1f9be3[_0x502e9f(0x4eb)]?_0x502e9f(0x5a7):_0x502e9f(0x3d6));_0x583019[_0x502e9f(0x483)]=_0x502e9f(0x59a),_0x1f9be3['hasLovesSpace']?(_0x583019[_0x502e9f(0x4d2)]=_0x502e9f(0x11c),_0x583019[_0x502e9f(0x513)][_0x502e9f(0x4ca)](_0x502e9f(0x177)),_0xc1b426['onclick']=_0x43de28=>{const _0x543cad=_0x502e9f;_0x43de28[_0x543cad(0x124)](),this[_0x543cad(0x211)](_0x1f9be3);}):(_0x583019[_0x502e9f(0x3ee)]=_0x502e9f(0x3d6),_0x583019[_0x502e9f(0x4d2)]='邀请',_0x583019['setAttribute']('aria-label',_0x502e9f(0x26c)+(_0x1f9be3[_0x502e9f(0x3c4)]||_0x1f9be3[_0x502e9f(0x53f)]||'好友')+'\x20建立恋人空间'),_0x583019[_0x502e9f(0x513)][_0x502e9f(0x4ca)]('loves-note-action-invite'),_0x583019['onclick']=_0x2e6265=>{const _0xa82b29=_0x502e9f;_0x2e6265[_0xa82b29(0x124)](),this[_0xa82b29(0x4d8)](_0x1f9be3),setTimeout(()=>this[_0xa82b29(0xe1)](),0x1f4);}),_0xc1b426['appendChild'](_0x3a5adc),_0xc1b426[_0x502e9f(0x4ac)](_0x4ab06b),_0xc1b426[_0x502e9f(0x4ac)](_0x583019),_0x49631b[_0x502e9f(0x4ac)](_0xc1b426);});},'showFriendDetail':function(_0x448cf6){},'sendInviteCard':async function(_0x1d2308){const _0x1cf20d=_0x52ecaa,_0x54f0c9={'id':window[_0x1cf20d(0x339)]&&window[_0x1cf20d(0x339)][_0x1cf20d(0x4a5)]?window[_0x1cf20d(0x339)]['createMessageId'](_0x1cf20d(0x58d)):_0x1cf20d(0x573)+Date[_0x1cf20d(0x1ec)](),'sender':'me','role':_0x1cf20d(0x5b6),'content':_0x1cf20d(0x40a),'text':'【情侣空间邀请】我向你发送了情侣空间的邀请，快来接受吧！','timestamp':Date[_0x1cf20d(0x1ec)](),'time':new Date()['toLocaleTimeString'](_0x1cf20d(0x2a0),{'hour':_0x1cf20d(0x1e7),'minute':'2-digit','hour12':![]}),'type':_0x1cf20d(0x40f)};let _0x3cb19a=!![];if(window[_0x1cf20d(0x370)]&&window['imApp'][_0x1cf20d(0x3df)])_0x3cb19a=await window['imApp']['appendFriendMessage'](_0x1d2308['id'],_0x54f0c9,{'silent':![]});else _0x1d2308['messages']&&Array[_0x1cf20d(0x1b2)](_0x1d2308[_0x1cf20d(0x43c)])?_0x1d2308[_0x1cf20d(0x43c)][_0x1cf20d(0x2fb)](_0x54f0c9):_0x1d2308[_0x1cf20d(0x43c)]=[_0x54f0c9];if(!_0x3cb19a)return;_0x1d2308[_0x1cf20d(0x4e3)]=!![],await this[_0x1cf20d(0x2f8)](_0x1d2308,{'metaOnly':!![]}),window[_0x1cf20d(0x1d0)]&&window[_0x1cf20d(0x1d0)](_0x1cf20d(0x299)+(_0x1d2308['nickname']||_0x1d2308[_0x1cf20d(0x53f)])+'\x20发送邀请！'),this[_0x1cf20d(0xe1)]();},'getWeiboRandomAvatar':function(_0x2db439){const _0x5b5827=_0x52ecaa,_0xb54136=encodeURIComponent(String(_0x2db439?.['id']||_0x2db439?.[_0x5b5827(0x3c4)]||Date['now']()));return _0x5b5827(0x14c)+_0xb54136+'/160/160';},'getWeiboRandomImage':function(_0x52f340,_0x589ed5=0x0,_0x17fd62='main'){const _0x146e4b=_0x52ecaa,_0x437c94=encodeURIComponent((_0x52f340?.['id']||_0x52f340?.[_0x146e4b(0x3c4)]||_0x146e4b(0x368))+'_'+_0x17fd62+'_'+_0x589ed5);return _0x146e4b(0x213)+_0x437c94+_0x146e4b(0x26f);},'getWeiboRandomCover':function(_0x3159ed,_0x5e369d=_0x52ecaa(0x180)){const _0x267ada=_0x52ecaa,_0x18f002=encodeURIComponent((_0x3159ed?.['id']||_0x3159ed?.[_0x267ada(0x3c4)]||_0x267ada(0x368))+'_'+_0x5e369d);return'https://picsum.photos/seed/weibo_cover_'+_0x18f002+_0x267ada(0x12c);},'normalizeWeiboPost':function(_0x90c900,_0x5b3939=0x0,_0x15a1cd=![]){const _0x2d77f9=_0x52ecaa,_0x35fbb0=_0x90c900&&typeof _0x90c900===_0x2d77f9(0x52b)?_0x90c900:{},_0x230c97=Array[_0x2d77f9(0x1b2)](_0x35fbb0[_0x2d77f9(0x3e9)])?_0x35fbb0[_0x2d77f9(0x3e9)]:[],_0x24b31d=_0x230c97[_0x2d77f9(0x2ec)]((_0x2d1415,_0x4ff368)=>{const _0x26b58d=_0x2d77f9;if(typeof _0x2d1415===_0x26b58d(0x367))return{'author':_0x26b58d(0x308)+(_0x4ff368+0x1),'text':_0x2d1415};return{'author':_0x2d1415?.[_0x26b58d(0x340)]||_0x2d1415?.[_0x26b58d(0x297)]||_0x26b58d(0x308)+(_0x4ff368+0x1),'text':_0x2d1415?.['text']||_0x2d1415?.[_0x26b58d(0x4d0)]||'说得很对。'};});return{'id':_0x35fbb0['id']||_0x2d77f9(0x256)+Date[_0x2d77f9(0x1ec)]()+'_'+_0x5b3939,'author':_0x35fbb0[_0x2d77f9(0x340)]||_0x35fbb0['name']||'','text':_0x35fbb0[_0x2d77f9(0x1d7)]||_0x35fbb0[_0x2d77f9(0x4d0)]||_0x35fbb0[_0x2d77f9(0x379)]||'','time':_0x35fbb0[_0x2d77f9(0x429)]||_0x35fbb0['createdAt']||'','source':_0x35fbb0[_0x2d77f9(0x2fd)]||_0x2d77f9(0x517),'comments':_0x24b31d[_0x2d77f9(0x3a9)](0x0,0x8),'reposts':_0x35fbb0['reposts']??_0x35fbb0[_0x2d77f9(0x4d5)]??Math[_0x2d77f9(0x3dd)](0x1,_0x5b3939+0x2),'likes':_0x35fbb0['likes']??_0x35fbb0[_0x2d77f9(0x12b)]??(_0x15a1cd?0x80+_0x5b3939*0x1f:0x4c+_0x5b3939*0x1b),'likedByMe':_0x15a1cd||_0x35fbb0[_0x2d77f9(0x509)]===!![]};},'normalizeWeiboAlbumItem':function(_0x42314a,_0x2ae87f=0x0,_0x377082=null,_0x3cfab9=_0x52ecaa(0x180)){const _0x7b041a=_0x52ecaa,_0x17729f=_0x42314a&&typeof _0x42314a===_0x7b041a(0x52b)?_0x42314a:{};return{'id':_0x17729f['id']||'album_'+_0x3cfab9+'_'+_0x2ae87f,'url':_0x17729f['url']||_0x17729f['image']||_0x17729f[_0x7b041a(0x461)]||this[_0x7b041a(0x348)](_0x377082,_0x2ae87f,_0x3cfab9),'description':_0x17729f[_0x7b041a(0x315)]||_0x17729f['desc']||_0x17729f[_0x7b041a(0x4d0)]||''};},'getDefaultWeiboData':function(_0x338859){return{'mainAccount':{'signature':'','posts':[],'album':[],'liked':[]}};},'normalizeWeiboAccount':function(_0x53e509,_0x12a2d2,_0x185c15=_0x52ecaa(0x180)){const _0x1f94e8=_0x52ecaa,_0x8a4794=this[_0x1f94e8(0x344)](_0x12a2d2)[_0x1f94e8(0x244)],_0x48313f=_0x53e509&&typeof _0x53e509===_0x1f94e8(0x52b)?_0x53e509:{},_0x4754bc=_0x12a2d2?.[_0x1f94e8(0x3c4)]||_0x12a2d2?.[_0x1f94e8(0x53f)]||_0x12a2d2?.['realName']||_0x12a2d2?.[_0x1f94e8(0x297)]||'好友',_0xfc73db=_0x185c15==='alt',_0x3243ac=_0xfc73db?_0x48313f[_0x1f94e8(0x297)]||'未公开小号':_0x4754bc,_0x5a79ce=_0xfc73db?_0x48313f['avatarUrl']||this[_0x1f94e8(0x569)](_0x12a2d2):_0x12a2d2?.[_0x1f94e8(0x572)]||'',_0x3418b0=(_0x464715,_0x2cf4f7)=>{const _0x48569a=_0x1f94e8,_0x3e3b98=Array['isArray'](_0x464715)?_0x464715[_0x48569a(0x3a9)](0x0,0x3):[];if(!Array[_0x48569a(0x1b2)](_0x464715))return[];const _0x4c085c=Array[_0x48569a(0x1b2)](_0x2cf4f7)&&_0x2cf4f7[_0x48569a(0x436)]?_0x2cf4f7:[{}];while(_0x3e3b98[_0x48569a(0x436)]<0x3){_0x3e3b98[_0x48569a(0x2fb)]({..._0x4c085c[_0x3e3b98[_0x48569a(0x436)]%_0x4c085c[_0x48569a(0x436)]]});}return _0x3e3b98;},_0x141003=_0x3418b0(_0x48313f[_0x1f94e8(0x45f)],_0x8a4794[_0x1f94e8(0x45f)]),_0x232eda=_0x3418b0(_0x48313f[_0x1f94e8(0x1cb)],_0x8a4794[_0x1f94e8(0x1cb)]),_0x2b25c6=_0x3418b0(_0x48313f[_0x1f94e8(0x5ad)],_0x8a4794['liked']);return{'name':_0x3243ac,'signature':_0x48313f['signature']||'','avatarUrl':_0x5a79ce,'posts':_0x141003[_0x1f94e8(0x2ec)]((_0x58abdc,_0x478070)=>this[_0x1f94e8(0x405)](_0x58abdc,_0x478070,![])),'album':_0x232eda['map']((_0x2f73d7,_0x167149)=>this[_0x1f94e8(0x2cb)](_0x2f73d7,_0x167149,_0x12a2d2,_0x185c15)),'liked':_0x2b25c6['map']((_0x385a3d,_0x3f5a47)=>this['normalizeWeiboPost'](_0x385a3d,_0x3f5a47,!![]))};},'getFriendWeiboData':function(_0x157226){const _0x53ba79=_0x52ecaa,_0x5b1ab8=_0x157226?.[_0x53ba79(0x3a1)]&&typeof _0x157226[_0x53ba79(0x3a1)]===_0x53ba79(0x52b),_0x3149a1=_0x5b1ab8?_0x157226[_0x53ba79(0x3a1)]:this[_0x53ba79(0x344)](_0x157226);return{'mainAccount':this[_0x53ba79(0x43a)](_0x3149a1[_0x53ba79(0x244)]||_0x3149a1[_0x53ba79(0x180)]||_0x3149a1,_0x157226,'main'),'altAccount':_0x5b1ab8&&_0x3149a1[_0x53ba79(0x11f)]?this[_0x53ba79(0x43a)](_0x3149a1['altAccount'],_0x157226,_0x53ba79(0x4ed)):null};},'renderWeiboAvatarHtml':function(_0x37930a,_0x30cc7b=0x28){const _0x4844c0=_0x52ecaa,_0x4aad5f=this[_0x4844c0(0x130)](_0x37930a||'');return _0x4844c0(0x286)+_0x30cc7b+_0x4844c0(0x4e8)+_0x30cc7b+'px;\x20border-radius:\x2050%;\x20background:\x20linear-gradient(135deg,\x20#fff2e2,\x20#ffd2c2);\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20color:\x20#ff8200;\x20flex-shrink:\x200;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x4aad5f?_0x4844c0(0xea)+_0x4aad5f+'\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>':'<i\x20class=\x22fas\x20fa-user\x22></i>')+_0x4844c0(0x112);},'renderWeiboPostCard':function(_0x544e2a,_0x52964a,_0x4cb395={}){const _0x552a19=_0x52ecaa,_0x2c4ef2=this[_0x552a19(0x130)](_0x4cb395[_0x552a19(0x316)]||_0x544e2a[_0x552a19(0x340)]||_0x52964a[_0x552a19(0x297)]),_0xd457b5=this[_0x552a19(0x130)](_0x544e2a[_0x552a19(0x1d7)])[_0x552a19(0x563)](/\n/g,'<br>'),_0x8b32dd=this[_0x552a19(0x130)](_0x544e2a['time']||'刚刚'),_0x2a400e=this[_0x552a19(0x130)](_0x544e2a[_0x552a19(0x2fd)]||_0x552a19(0x517)),_0x5e2c40=Array['isArray'](_0x544e2a[_0x552a19(0x3e9)])?_0x544e2a[_0x552a19(0x3e9)][_0x552a19(0x436)]:0x0,_0x4dabf8=_0x4cb395[_0x552a19(0x374)]&&_0x4cb395[_0x552a19(0x374)][_0x552a19(0x436)]?'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20grid;\x20grid-template-columns:\x20repeat(3,\x201fr);\x20gap:\x204px;\x20margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4cb395[_0x552a19(0x374)][_0x552a19(0x3a9)](0x0,0x3)[_0x552a19(0x2ec)](_0xa2b752=>_0x552a19(0x423)+this[_0x552a19(0x130)](_0xa2b752[_0x552a19(0x41e)])+_0x552a19(0x391))[_0x552a19(0x306)]('')+_0x552a19(0x112):'';return _0x552a19(0x536)+(_0x4cb395[_0x552a19(0x3ee)]||_0x552a19(0x19c))+_0x552a19(0x400)+(_0x4cb395[_0x552a19(0x3af)]||0x0)+_0x552a19(0x389)+(_0x4cb395[_0x552a19(0x4a1)]?_0x552a19(0x266)+_0x2c4ef2+_0x552a19(0x165):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x4cb395['likedLabel']?'':this[_0x552a19(0xd4)](_0x52964a[_0x552a19(0x572)],0x28))+_0x552a19(0x1c4)+(_0x4cb395['likedLabel']?'':_0x552a19(0x394)+_0x2c4ef2+_0x552a19(0x443)+_0x8b32dd+'\x20'+_0x2a400e+_0x552a19(0x313))+_0x552a19(0x2bd)+(_0x4cb395[_0x552a19(0x4a1)]?'':'margin-top:\x2010px;')+'\x22>'+_0xd457b5+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4dabf8+_0x552a19(0x1b7)+(_0x5e2c40||Math['max'](0x3,Number(_0x4cb395[_0x552a19(0x3af)]||0x0)+0x3))+_0x552a19(0x5b0)+this[_0x552a19(0x130)](_0x544e2a['reposts']??0x0)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22'+(_0x544e2a[_0x552a19(0x509)]?_0x552a19(0x13f):'')+_0x552a19(0x40b)+(_0x544e2a[_0x552a19(0x509)]?_0x552a19(0x33d):_0x552a19(0x3c5))+_0x552a19(0x54f)+(_0x544e2a[_0x552a19(0x509)]?'已赞':this['escapeHTML'](_0x544e2a[_0x552a19(0x4dc)]??0x0))+_0x552a19(0xe8);},'showWeiboPostDetail':function(_0x15dc0f,_0x3b3b65,_0x2f4d86={}){const _0x4a5f91=_0x52ecaa,_0x1729cf=this[_0x4a5f91(0x130)](_0x2f4d86[_0x4a5f91(0x316)]||_0x15dc0f['author']||_0x3b3b65['name']),_0x477a77=this['escapeHTML'](_0x15dc0f[_0x4a5f91(0x1d7)])[_0x4a5f91(0x563)](/\n/g,_0x4a5f91(0x262)),_0x1c808c=Array['isArray'](_0x15dc0f[_0x4a5f91(0x3e9)])?_0x15dc0f[_0x4a5f91(0x3e9)]:[],_0x2b47d3=_0x1c808c[_0x4a5f91(0x436)]?_0x1c808c[_0x4a5f91(0x2ec)](_0x541176=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2010px\x200;\x20border-top:\x201px\x20solid\x20#f2f2f2;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20font-weight:\x20700;\x20color:\x20#333;\x22>'+this['escapeHTML'](_0x541176[_0x4a5f91(0x340)]||_0x4a5f91(0x308))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#333;\x20line-height:\x201.5;\x22>：'+this[_0x4a5f91(0x130)](_0x541176[_0x4a5f91(0x1d7)]||'')+_0x4a5f91(0x24c))[_0x4a5f91(0x306)](''):'<div\x20style=\x22padding:\x2012px\x200;\x20color:\x20#999;\x20font-size:\x2013px;\x22>暂无评论</div>',_0x549077=_0x2f4d86[_0x4a5f91(0x374)]&&_0x2f4d86[_0x4a5f91(0x374)][_0x4a5f91(0x436)]?_0x4a5f91(0x2ba)+_0x2f4d86[_0x4a5f91(0x374)][_0x4a5f91(0x2ec)]((_0x62026a,_0x2b9dcf)=>_0x4a5f91(0x3c3)+_0x2b9dcf+_0x4a5f91(0x33c)+this['escapeHTML'](_0x62026a[_0x4a5f91(0x41e)])+_0x4a5f91(0x391))[_0x4a5f91(0x306)]('')+_0x4a5f91(0x112):'',_0x426afa=_0x4a5f91(0x481)+this[_0x4a5f91(0xd4)](_0x3b3b65[_0x4a5f91(0x572)],0x2c)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20800;\x20color:\x20#111;\x22>'+_0x1729cf+_0x4a5f91(0x104)+this[_0x4a5f91(0x130)](_0x15dc0f[_0x4a5f91(0x429)]||'刚刚')+'\x20'+this[_0x4a5f91(0x130)](_0x15dc0f[_0x4a5f91(0x2fd)]||_0x4a5f91(0x517))+_0x4a5f91(0x3ca)+_0x477a77+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x549077+_0x4a5f91(0x27c)+_0x1c808c[_0x4a5f91(0x436)]+_0x4a5f91(0x468)+this[_0x4a5f91(0x130)](_0x15dc0f[_0x4a5f91(0x11a)]??0x0)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22'+(_0x15dc0f['likedByMe']?_0x4a5f91(0x13f):'')+_0x4a5f91(0x40b)+(_0x15dc0f['likedByMe']?_0x4a5f91(0x33d):_0x4a5f91(0x3c5))+_0x4a5f91(0x54f)+this[_0x4a5f91(0x130)](_0x15dc0f[_0x4a5f91(0x4dc)]??0x0)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20font-weight:\x20800;\x20margin:\x2016px\x200\x204px;\x20color:\x20#111;\x22>评论</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b47d3+_0x4a5f91(0x445);this[_0x4a5f91(0x493)]('微博详情',_0x426afa),setTimeout(()=>{const _0x30f568=_0x4a5f91;document[_0x30f568(0x3bf)](_0x30f568(0x3cd))[_0x30f568(0x4e7)](_0x431682=>{const _0x4dff3b=_0x30f568;_0x431682[_0x4dff3b(0x592)]('click',()=>{const _0x3632df=_0x4dff3b,_0x55552d=Number(_0x431682[_0x3632df(0x5b1)](_0x3632df(0x32f))||0x0),_0x2b5720=_0x2f4d86['images']?.[_0x55552d];if(_0x2b5720)this[_0x3632df(0x401)](_0x2b5720);});});},0x1e);},'showWeiboImageDetail':function(_0x8c359d){const _0x8d34=_0x52ecaa,_0x4adb89=this['escapeHTML'](_0x8c359d['url']||''),_0x93d4eb=this[_0x8d34(0x130)](_0x8c359d['description']||'')[_0x8d34(0x563)](/\n/g,_0x8d34(0x262)),_0x3a8e4b='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20100%;\x20aspect-ratio:\x201;\x20border-radius:\x2014px;\x20overflow:\x20hidden;\x20background:\x20#f2f2f2;\x20margin-bottom:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x4adb89?_0x8d34(0xea)+_0x4adb89+_0x8d34(0xcd):_0x8d34(0x565))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#222;\x20line-height:\x201.6;\x20word-break:\x20break-word;\x22>'+(_0x93d4eb||'暂无描述')+_0x8d34(0x115);this['showDetailModal'](_0x8d34(0x440),_0x3a8e4b);},'renderFriendWeibo':function(_0x5ba945){const _0x492ade=_0x52ecaa,_0x35da46=document[_0x492ade(0x199)](_0x492ade(0x407));if(!_0x35da46)return;const _0x57f0de=!!(_0x5ba945?.[_0x492ade(0x3a1)]&&typeof _0x5ba945[_0x492ade(0x3a1)]===_0x492ade(0x52b)),_0x48b316=this[_0x492ade(0x2e5)](_0x5ba945);if(this[_0x492ade(0x3f7)]===_0x492ade(0x4ed)&&!_0x48b316[_0x492ade(0x11f)])this[_0x492ade(0x3f7)]=_0x492ade(0x180);const _0x1bae01=this[_0x492ade(0x3f7)]===_0x492ade(0x4ed)?_0x492ade(0x11f):_0x492ade(0x244),_0x51e9bf=_0x48b316[_0x1bae01]||_0x48b316[_0x492ade(0x244)],_0x620d84=document['getElementById']('friend-weibo-profile-name'),_0x14f5b0=document[_0x492ade(0x199)](_0x492ade(0x3f8)),_0x3a60b4=document[_0x492ade(0x199)](_0x492ade(0x5b2)),_0xeadae=document[_0x492ade(0x199)](_0x492ade(0xd5)),_0x54fcd4=document[_0x492ade(0x199)]('friend-weibo-cover');if(_0x620d84)_0x620d84['textContent']=_0x51e9bf[_0x492ade(0x297)];if(_0x14f5b0)_0x14f5b0[_0x492ade(0x4d2)]=_0x51e9bf[_0x492ade(0x119)]||'';if(_0x3a60b4)_0x3a60b4[_0x492ade(0x4d2)]=String((_0x51e9bf[_0x492ade(0x45f)]||[])[_0x492ade(0x436)]);if(_0xeadae)_0xeadae[_0x492ade(0x4d2)]=this[_0x492ade(0x3f7)]==='alt'?_0x492ade(0x52f):'切换账号';if(_0x54fcd4){const _0x53d9cb=_0x57f0de?this['getWeiboRandomCover'](_0x5ba945,this[_0x492ade(0x3f7)]):'';_0x54fcd4[_0x492ade(0x56a)][_0x492ade(0x5a3)]=_0x53d9cb?_0x492ade(0x4a6)+_0x53d9cb+'\x22)':_0x492ade(0x4fe),_0x54fcd4[_0x492ade(0x56a)]['backgroundSize']=_0x492ade(0x1bb),_0x54fcd4['style'][_0x492ade(0x36c)]='center',_0x54fcd4[_0x492ade(0x56a)][_0x492ade(0x512)]=_0x53d9cb?'':'#f2f2f2';}_0x35da46[_0x492ade(0x3bf)](_0x492ade(0xfc))[_0x492ade(0x4e7)](_0x37dc55=>{const _0x39e900=_0x492ade;_0x51e9bf[_0x39e900(0x572)]?(_0x37dc55[_0x39e900(0x480)]=_0x51e9bf[_0x39e900(0x572)],_0x37dc55[_0x39e900(0x56a)][_0x39e900(0x20a)]='block'):(_0x37dc55[_0x39e900(0x4e4)](_0x39e900(0x480)),_0x37dc55[_0x39e900(0x56a)]['display']='none');}),_0x35da46['querySelectorAll'](_0x492ade(0x5ba))[_0x492ade(0x4e7)](_0x5f0aed=>{const _0x84db4b=_0x492ade;_0x5f0aed[_0x84db4b(0x56a)][_0x84db4b(0x20a)]=_0x51e9bf[_0x84db4b(0x572)]?_0x84db4b(0x4fe):_0x84db4b(0x34f);});const _0x5c9531=document[_0x492ade(0x199)](_0x492ade(0x1e3)),_0x1ff594=document[_0x492ade(0x199)](_0x492ade(0x13d)),_0x22f352=document['getElementById'](_0x492ade(0x255)),_0x1a1daf=_0x51e9bf[_0x492ade(0x1cb)]||[];if(_0x5c9531){const _0x59dad5=_0x51e9bf[_0x492ade(0x45f)]||[];_0x5c9531[_0x492ade(0x338)]=_0x59dad5['length']?_0x59dad5[_0x492ade(0x2ec)]((_0x1f8ae,_0xc61d44)=>{const _0x417b7f=_0x492ade,_0x30670f=_0xc61d44===0x0?_0x1a1daf['slice'](0x0,0x3):[];return this[_0x417b7f(0x148)](_0x1f8ae,_0x51e9bf,{'type':_0x417b7f(0x19c),'index':_0xc61d44,'images':_0x30670f});})[_0x492ade(0x306)](''):'<div\x20style=\x22padding:\x2038px\x2016px;\x20text-align:\x20center;\x20color:\x20#999;\x20font-size:\x2014px;\x22>暂无微博<br><span\x20style=\x22font-size:\x2012px;\x20display:\x20inline-block;\x20margin-top:\x206px;\x22>请在设置中生成</span></div>',_0x5c9531[_0x492ade(0x3bf)](_0x492ade(0x2e2))[_0x492ade(0x4e7)](_0x287a27=>{const _0x446755=_0x492ade;_0x287a27[_0x446755(0x592)]('click',()=>{const _0x44aa73=_0x446755,_0x31aefd=Number(_0x287a27['getAttribute'](_0x44aa73(0x32f))||0x0);this['showWeiboPostDetail'](_0x59dad5[_0x31aefd],_0x51e9bf,{'images':_0x31aefd===0x0?_0x1a1daf[_0x44aa73(0x3a9)](0x0,0x3):[]});});});}_0x1ff594&&(_0x1ff594[_0x492ade(0x338)]=_0x1a1daf[_0x492ade(0x436)]?_0x1a1daf[_0x492ade(0x2ec)]((_0x52d54c,_0x25c266)=>_0x492ade(0x593)+_0x25c266+_0x492ade(0x4a9)+this[_0x492ade(0x130)](_0x52d54c['url'])+_0x492ade(0x22f))[_0x492ade(0x306)](''):'<div\x20style=\x22grid-column:\x20span\x203;\x20padding:\x2038px\x200;\x20text-align:\x20center;\x20color:\x20#999;\x20font-size:\x2014px;\x22>暂无相册</div>',_0x1ff594[_0x492ade(0x3bf)](_0x492ade(0x2e0))[_0x492ade(0x4e7)](_0x2f5225=>{const _0x258226=_0x492ade;_0x2f5225[_0x258226(0x592)](_0x258226(0x156),()=>{const _0x4870e3=_0x258226,_0x5b6294=Number(_0x2f5225['getAttribute'](_0x4870e3(0x32f))||0x0);this[_0x4870e3(0x401)](_0x1a1daf[_0x5b6294]);});}));if(_0x22f352){const _0x321ed8=_0x51e9bf['liked']||[];_0x22f352[_0x492ade(0x338)]=_0x321ed8[_0x492ade(0x436)]?_0x321ed8['map']((_0x304762,_0xfa9986)=>{const _0x563038=_0x492ade;return this[_0x563038(0x148)](_0x304762,_0x51e9bf,{'type':_0x563038(0x5ad),'index':_0xfa9986,'likedLabel':!![],'authorName':_0x304762[_0x563038(0x340)]||_0x563038(0x380)});})[_0x492ade(0x306)](''):_0x492ade(0x1f0),_0x22f352[_0x492ade(0x3bf)]('.friend-weibo-post-card')[_0x492ade(0x4e7)](_0x2dc1ce=>{const _0x55b678=_0x492ade;_0x2dc1ce[_0x55b678(0x592)](_0x55b678(0x156),()=>{const _0x27d90=_0x55b678,_0x12ea87=Number(_0x2dc1ce[_0x27d90(0x5b1)]('data-index')||0x0);this[_0x27d90(0x47a)](_0x321ed8[_0x12ea87],_0x51e9bf,{'authorName':_0x321ed8[_0x12ea87]?.[_0x27d90(0x340)]||_0x27d90(0x380)});});});}},'enterLovesSpace':function(_0x362949){const _0x28d3d0=_0x52ecaa,_0x1139bc=document[_0x28d3d0(0x199)](_0x28d3d0(0x427));if(_0x1139bc){if(window['openView'])window[_0x28d3d0(0x128)](_0x1139bc);const _0x257d0a=document[_0x28d3d0(0x199)](_0x28d3d0(0x4c1));_0x257d0a&&(_0x257d0a['onclick']=()=>{const _0x54984a=_0x28d3d0;if(window['closeView'])window[_0x54984a(0x591)](_0x1139bc);});const _0x473b80=document['getElementById'](_0x28d3d0(0x312)),_0x40181d=document[_0x28d3d0(0x199)]('lovers-space-user-icon');let _0x28c2b8=window['userState']?.[_0x28d3d0(0x572)]||window[_0x28d3d0(0xfa)]?.[_0x28d3d0(0x50c)]?.[_0x28d3d0(0x572)];if(!_0x28c2b8){const _0x35ae9c=document[_0x28d3d0(0x199)]('edit-avatar-img')||document[_0x28d3d0(0x199)]('custom-avatar-img-desktop');_0x35ae9c&&_0x35ae9c[_0x28d3d0(0x480)]&&!_0x35ae9c[_0x28d3d0(0x480)][_0x28d3d0(0x145)](_0x28d3d0(0x40f))&&_0x35ae9c[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]!==_0x28d3d0(0x4fe)&&(_0x28c2b8=_0x35ae9c[_0x28d3d0(0x480)]);}if(_0x28c2b8){_0x473b80&&(_0x473b80[_0x28d3d0(0x480)]=_0x28c2b8,_0x473b80['style']['display']='block');if(_0x40181d)_0x40181d[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]='none';}else{if(_0x473b80)_0x473b80[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]=_0x28d3d0(0x4fe);if(_0x40181d)_0x40181d[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]='block';}const _0x35f56a=document['getElementById'](_0x28d3d0(0x4ad)),_0x6c482=document['getElementById']('lovers-space-friend-icon');if(_0x362949[_0x28d3d0(0x572)]){_0x35f56a&&(_0x35f56a['src']=_0x362949[_0x28d3d0(0x572)],_0x35f56a['style'][_0x28d3d0(0x20a)]=_0x28d3d0(0x319));if(_0x6c482)_0x6c482[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]=_0x28d3d0(0x4fe);}else{if(_0x35f56a)_0x35f56a['style'][_0x28d3d0(0x20a)]=_0x28d3d0(0x4fe);if(_0x6c482)_0x6c482[_0x28d3d0(0x56a)][_0x28d3d0(0x20a)]='block';}const _0x245929=_0x362949[_0x28d3d0(0x3c4)]||_0x362949[_0x28d3d0(0x53f)]||'TA',_0x8a1491=this['escapeHTML'](_0x245929),_0x5aa458=document['getElementById'](_0x28d3d0(0x577));if(_0x5aa458){_0x5aa458[_0x28d3d0(0x338)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22lovers-feature-row\x20is-static\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-icon\x22><i\x20class=\x22fas\x20fa-mobile-alt\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-copy\x22><strong>我的手机</strong><small>在线\x20·\x20电量\x2085%</small></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-device-status\x20is-online\x22>ONLINE</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22friend-phone-device-item\x22\x20class=\x22lovers-feature-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-icon\x22><i\x20class=\x22fas\x20fa-mobile-alt\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22lovers-feature-copy\x22><strong>'+_0x8a1491+_0x28d3d0(0x197)+_0x8a1491+_0x28d3d0(0x171);const _0x314bf0=document[_0x28d3d0(0x199)](_0x28d3d0(0x4f7));_0x314bf0&&_0x314bf0[_0x28d3d0(0x592)]('click',()=>{const _0x3498cb=_0x28d3d0;this[_0x3498cb(0x57d)](_0x362949);});}this[_0x28d3d0(0x33b)]=_0x362949,this['bindSharedSavingsButton'](_0x362949),this[_0x28d3d0(0x494)](_0x362949),void this[_0x28d3d0(0x30a)](_0x362949)[_0x28d3d0(0x294)](_0x2d2ae7=>{const _0x57f827=_0x28d3d0;_0x2d2ae7&&document[_0x57f827(0x199)]('lovers-savings-view')?.[_0x57f827(0x513)][_0x57f827(0x15d)]('active')&&this[_0x57f827(0x3ef)]();}),this[_0x28d3d0(0x4f9)](),this['renderLovesMoments'](),this[_0x28d3d0(0x453)]=new Date(),this[_0x28d3d0(0x1c8)]();const _0x570eef=_0x1139bc[_0x28d3d0(0x3bf)](_0x28d3d0(0x103)),_0x335765=document[_0x28d3d0(0x199)](_0x28d3d0(0x4b4)),_0xff0697=_0x1139bc['querySelectorAll'](_0x28d3d0(0x54a)),_0x255218=_0x1139bc[_0x28d3d0(0x55c)]('.lovers-space-tabs-container');_0x255218&&!_0x255218[_0x28d3d0(0x21f)][_0x28d3d0(0x45a)]&&(_0x255218['dataset']['bound']='true',_0x570eef[_0x28d3d0(0x4e7)](_0x1bd963=>{const _0x3c8d61=_0x28d3d0;_0x1bd963[_0x3c8d61(0x592)]('click',_0x1983fc=>{const _0x3f3a12=_0x3c8d61;_0x570eef[_0x3f3a12(0x4e7)](_0x10ed24=>{const _0x2e0ee6=_0x3f3a12;_0x10ed24['classList'][_0x2e0ee6(0x1aa)](_0x2e0ee6(0x3a0)),_0x10ed24[_0x2e0ee6(0x50a)]('aria-selected',_0x2e0ee6(0x23b));}),_0xff0697['forEach'](_0x202070=>{const _0x1605f6=_0x3f3a12;_0x202070[_0x1605f6(0x513)][_0x1605f6(0x1aa)](_0x1605f6(0x3a0));});const _0x324933=_0x1983fc[_0x3f3a12(0x214)];_0x324933[_0x3f3a12(0x513)][_0x3f3a12(0x4ca)]('active'),_0x324933[_0x3f3a12(0x50a)](_0x3f3a12(0x41a),_0x3f3a12(0x132));const _0x13e73d=_0x324933[_0x3f3a12(0xe0)],_0x213c46=_0x324933[_0x3f3a12(0x126)];_0x335765&&(_0x335765[_0x3f3a12(0x56a)]['left']=_0x13e73d+(_0x213c46-0x1e)/0x2+'px');const _0x2e00c9=_0x324933[_0x3f3a12(0x5b1)](_0x3f3a12(0x32a)),_0x20549a=document['getElementById'](_0x3f3a12(0x4f5)+_0x2e00c9);_0x20549a&&_0x20549a[_0x3f3a12(0x513)][_0x3f3a12(0x4ca)](_0x3f3a12(0x3a0)),_0x2e00c9==='diary'&&this[_0x3f3a12(0x1c8)]();});})),_0x570eef[_0x28d3d0(0x436)]>0x0&&_0x335765&&setTimeout(()=>{const _0x37ebd7=_0x28d3d0,_0x1ae161=_0x570eef[0x0],_0x2d0d18=_0x1ae161[_0x37ebd7(0xe0)],_0x26c99a=_0x1ae161[_0x37ebd7(0x126)];_0x335765[_0x37ebd7(0x56a)][_0x37ebd7(0x543)]=_0x2d0d18+(_0x26c99a-0x1e)/0x2+'px';},0xa);}},'openFriendPhone':function(_0x1940b9){const _0x112aee=_0x52ecaa,_0x315f01=document[_0x112aee(0x199)](_0x112aee(0x395));if(!_0x315f01)return;_0x315f01[_0x112aee(0x56a)][_0x112aee(0x5a3)]=_0x1940b9[_0x112aee(0x564)]?_0x112aee(0x219)+_0x1940b9[_0x112aee(0x564)]+')':_0x112aee(0x4fe);if(window[_0x112aee(0x128)])window[_0x112aee(0x128)](_0x315f01);const _0x5729c0=document[_0x112aee(0x199)](_0x112aee(0x363));_0x5729c0&&(_0x5729c0[_0x112aee(0x18e)]=()=>{const _0x25f51f=_0x112aee;if(window['closeView'])window[_0x25f51f(0x591)](_0x315f01);});const _0x26ad79=document[_0x112aee(0x199)](_0x112aee(0x3cf)),_0xc02e76=document['getElementById'](_0x112aee(0xf3));_0xc02e76&&_0x26ad79&&(_0xc02e76[_0x112aee(0x18e)]=()=>window[_0x112aee(0x128)](_0x26ad79));const _0x398334=document[_0x112aee(0x199)](_0x112aee(0x1a1));_0x398334&&_0x26ad79&&(_0x398334[_0x112aee(0x18e)]=()=>{const _0xb19865=_0x112aee;if(window[_0xb19865(0x591)])window[_0xb19865(0x591)](_0x26ad79);});const _0x20310a=document['getElementById'](_0x112aee(0x49b)),_0x5af854=document[_0x112aee(0x199)]('friend-phone-gen-modal'),_0x285a00=()=>Array[_0x112aee(0x50b)](document[_0x112aee(0x3bf)]('.gen-app-checkbox')),_0x5a9f0c=['imessage',_0x112aee(0x235),_0x112aee(0x4e1),_0x112aee(0x158),_0x112aee(0x524),'call',_0x112aee(0x240),_0x112aee(0x136),_0x112aee(0xc9)],_0x49e0ea=()=>{const _0x117cab=_0x112aee;return Array[_0x117cab(0x1b2)](_0x1940b9[_0x117cab(0x3ab)])?_0x1940b9[_0x117cab(0x3ab)]:_0x5a9f0c;},_0x108de2=()=>{const _0x2a87fb=_0x49e0ea();_0x285a00()['forEach'](_0x336f9b=>{const _0x3de509=_0x18e0;_0x336f9b[_0x3de509(0x1b6)]=_0x2a87fb['includes'](_0x336f9b[_0x3de509(0x544)]);});},_0x5cd51d=()=>{const _0x3f50e2=_0x112aee;_0x1940b9[_0x3f50e2(0x3ab)]=_0x285a00()['filter'](_0x5345b7=>_0x5345b7[_0x3f50e2(0x1b6)])['map'](_0x3b6000=>_0x3b6000['value']),this[_0x3f50e2(0x2f8)](_0x1940b9,{'silent':!![]});};_0x285a00()['forEach'](_0x3e30dd=>{const _0x4c3580=_0x112aee;_0x3e30dd[_0x4c3580(0x40d)]=()=>_0x5cd51d();});_0x20310a&&_0x5af854&&(_0x20310a['onclick']=()=>{const _0x1f96af=_0x112aee;_0x108de2();if(window[_0x1f96af(0x128)])window[_0x1f96af(0x128)](_0x5af854);});const _0x457317=document[_0x112aee(0x199)]('friend-phone-clear-all-data-btn');_0x457317&&(_0x457317[_0x112aee(0x18e)]=()=>{const _0x2ce281=_0x112aee;if(!window[_0x2ce281(0x341)](_0x2ce281(0x143)))return;_0x1940b9[_0x2ce281(0x1da)]=null,_0x1940b9[_0x2ce281(0x4aa)]=null,_0x1940b9[_0x2ce281(0x2e3)]=null,_0x1940b9[_0x2ce281(0x25a)]=null,_0x1940b9[_0x2ce281(0x39d)]=null,_0x1940b9['callData']=null,_0x1940b9[_0x2ce281(0x3eb)]=null,_0x1940b9[_0x2ce281(0x271)]=null,_0x1940b9[_0x2ce281(0x3a1)]=null,this[_0x2ce281(0x2f8)](_0x1940b9);if(window[_0x2ce281(0x1d0)])window['showToast'](_0x2ce281(0x1c5));});const _0x5a00b0=document['getElementById'](_0x112aee(0x272));_0x5a00b0&&(_0x5a00b0[_0x112aee(0x18e)]=()=>{const _0x28ea72=_0x112aee;_0x5cd51d();const _0x56fe71=_0x49e0ea();if(_0x56fe71[_0x28ea72(0x436)]===0x0){if(window[_0x28ea72(0x1d0)])window['showToast']('请至少选择一个应用');return;}if(!window['apiConfig']||!window[_0x28ea72(0x520)]['endpoint']||!window[_0x28ea72(0x520)]['apiKey']){if(window[_0x28ea72(0x1d0)])window[_0x28ea72(0x1d0)](_0x28ea72(0xdd));return;}if(window[_0x28ea72(0x591)])window[_0x28ea72(0x591)](_0x5af854);let _0x3c0cf0='';if(window['getGlobalWorldBookContextByPosition']){_0x3c0cf0=window[_0x28ea72(0x56f)]('system_depth')||'';const _0x138041=window['getGlobalWorldBookContextByPosition'](_0x28ea72(0x304));if(_0x138041)_0x3c0cf0+='\x0a'+_0x138041;}const _0x4a241d=window['userState']?.['persona']||_0x28ea72(0x2c8),_0x64216c=_0x1940b9[_0x28ea72(0x212)]||_0x28ea72(0x3d8);let _0x3d9b7d='';if(Array[_0x28ea72(0x1b2)](_0x1940b9[_0x28ea72(0x43c)])){const _0x4405e7=_0x1940b9[_0x28ea72(0x43c)][_0x28ea72(0x3a9)](-0x14);_0x4405e7[_0x28ea72(0x436)]>0x0&&(_0x3d9b7d=_0x4405e7['map'](_0x19d711=>{const _0x85e6cc=_0x28ea72,_0x59ea41=_0x19d711[_0x85e6cc(0xec)]==='me'?_0x85e6cc(0x121):_0x85e6cc(0x37d);return _0x59ea41+':\x20'+(_0x19d711['text']||'[特殊消息]');})[_0x28ea72(0x306)]('\x0a'));}let _0x4972f9='';if(_0x56fe71['includes']('safari')&&_0x1940b9[_0x28ea72(0x3eb)]){const _0x2a9e10=(_0x1940b9['safariData'][_0x28ea72(0x196)]||[])[_0x28ea72(0x3a9)](0x0,0x3)['map'](_0x345dda=>typeof _0x345dda==='string'?_0x345dda:_0x345dda[_0x28ea72(0x24f)])[_0x28ea72(0x306)](',\x20');if(_0x2a9e10)_0x4972f9+=_0x28ea72(0x1e8)+_0x2a9e10;const _0x58d072=(_0x1940b9[_0x28ea72(0x3eb)][_0x28ea72(0x587)]||[])[_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x57fb4a=>typeof _0x57fb4a==='string'?_0x57fb4a:_0x57fb4a['keyword'])[_0x28ea72(0x306)](',\x20');if(_0x58d072)_0x4972f9+=_0x28ea72(0x3b8)+_0x58d072;}if(_0x56fe71[_0x28ea72(0x4c7)](_0x28ea72(0x37e))&&_0x1940b9[_0x28ea72(0x1da)]){const _0x181008=_0x1940b9[_0x28ea72(0x1da)][_0x28ea72(0x244)]?.['chats']||(Array[_0x28ea72(0x1b2)](_0x1940b9['imessageData'])?_0x1940b9[_0x28ea72(0x1da)]:[]),_0x2c915c=_0x1940b9[_0x28ea72(0x1da)]['altAccount']?.[_0x28ea72(0x10c)]||[];if(_0x181008[_0x28ea72(0x436)]>0x0)_0x4972f9+=_0x28ea72(0x57a)+_0x181008[_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x24d0a5=>_0x24d0a5[_0x28ea72(0x10e)])[_0x28ea72(0x306)](',\x20');if(_0x2c915c[_0x28ea72(0x436)]>0x0)_0x4972f9+=_0x28ea72(0x2c3)+_0x2c915c[_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x3a5509=>_0x3a5509['contactName'])['join'](',\x20');}if(_0x56fe71[_0x28ea72(0x4c7)]('game')&&_0x1940b9[_0x28ea72(0x39d)]&&_0x1940b9[_0x28ea72(0x39d)][_0x28ea72(0x10f)]){const _0x1f3e76=_0x1940b9[_0x28ea72(0x39d)][_0x28ea72(0x10f)][_0x28ea72(0x3a9)](0x0,0x3)['map'](_0x2231f4=>{const _0x5deb56=_0x28ea72;let _0x294255=_0x2231f4[_0x5deb56(0x297)];if(_0x2231f4['matches']&&_0x2231f4[_0x5deb56(0x454)]['length']>0x0){const _0x4d1fd1=_0x2231f4['matches'][_0x5deb56(0x3a9)](0x0,0x3)[_0x5deb56(0x2ec)](_0xcafae7=>_0xcafae7[_0x5deb56(0x429)])[_0x5deb56(0x306)]('、');_0x294255+=_0x5deb56(0x285)+_0x4d1fd1+')';}return _0x294255;});_0x4972f9+=_0x28ea72(0x4af)+_0x1f3e76[_0x28ea72(0x306)](';\x20')+_0x28ea72(0x140);}if(_0x56fe71['includes'](_0x28ea72(0xc9))&&_0x1940b9[_0x28ea72(0x271)]&&_0x1940b9[_0x28ea72(0x271)]['tags']){const _0x1a9643=_0x1940b9[_0x28ea72(0x271)][_0x28ea72(0x20d)][_0x28ea72(0x2ec)](_0x32f4cf=>_0x32f4cf[_0x28ea72(0x297)])[_0x28ea72(0x306)](',\x20');let _0x2b3b4d=[];_0x1940b9[_0x28ea72(0x271)]['tags'][_0x28ea72(0x4e7)](_0x419528=>{const _0x3f6b45=_0x28ea72;if(_0x419528[_0x3f6b45(0x222)])_0x2b3b4d=_0x2b3b4d[_0x3f6b45(0x135)](_0x419528[_0x3f6b45(0x222)][_0x3f6b45(0x2ec)](_0x3f8d39=>_0x3f8d39[_0x3f6b45(0x379)]));});if(_0x1a9643)_0x4972f9+=_0x28ea72(0xeb)+_0x1a9643;if(_0x2b3b4d[_0x28ea72(0x436)]>0x0)_0x4972f9+=_0x28ea72(0x1bd)+_0x2b3b4d[_0x28ea72(0x3a9)](0x0,0x5)[_0x28ea72(0x306)](',\x20');}if(_0x56fe71[_0x28ea72(0x4c7)](_0x28ea72(0x58b))&&_0x1940b9[_0x28ea72(0x25f)]&&_0x1940b9[_0x28ea72(0x25f)][_0x28ea72(0xf6)]){const _0x5e550f=_0x1940b9[_0x28ea72(0x25f)][_0x28ea72(0xf6)][_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x41b595=>_0x41b595[_0x28ea72(0x297)])[_0x28ea72(0x306)](',\x20');if(_0x5e550f)_0x4972f9+='\x0a【已有通话联系人】:\x20'+_0x5e550f;}if(_0x56fe71[_0x28ea72(0x4c7)](_0x28ea72(0x136))&&_0x1940b9[_0x28ea72(0x3a1)]){const _0x395e16=_0x1940b9[_0x28ea72(0x3a1)][_0x28ea72(0x244)]?.[_0x28ea72(0x45f)]||[],_0x347d43=_0x1940b9['weiboData'][_0x28ea72(0x11f)]?.[_0x28ea72(0x45f)]||[];if(_0x395e16[_0x28ea72(0x436)]>0x0)_0x4972f9+=_0x28ea72(0x486)+_0x395e16[_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x4781e2=>_0x4781e2[_0x28ea72(0x1d7)]||_0x4781e2['content']||'')[_0x28ea72(0x306)](_0x28ea72(0x123));if(_0x347d43['length']>0x0)_0x4972f9+=_0x28ea72(0x21a)+_0x347d43[_0x28ea72(0x3a9)](0x0,0x3)[_0x28ea72(0x2ec)](_0x568776=>_0x568776['text']||_0x568776[_0x28ea72(0x4d0)]||'')[_0x28ea72(0x306)](_0x28ea72(0x123));}let _0x5a4447=_0x28ea72(0x44d);if(_0x4972f9)_0x5a4447+='\x0a【旧数据参考，本次生成会覆盖旧内容；请参考这些信息避免机械重复，并生成一组新的完整数据】：'+_0x4972f9+'\x0a';if(_0x3c0cf0)_0x5a4447+=_0x28ea72(0x2ca)+_0x3c0cf0+'\x0a';_0x5a4447+=_0x28ea72(0xe5)+_0x64216c+'\x0a',_0x5a4447+=_0x28ea72(0x225)+_0x4a241d+'\x0a';if(_0x3d9b7d)_0x5a4447+=_0x28ea72(0x4d4)+_0x3d9b7d+'\x0a';_0x5a4447+=_0x28ea72(0xef);const _0x3c8855={'imessage':_0x28ea72(0x3ff),'safari':_0x28ea72(0x1d2),'files':_0x28ea72(0x227),'call':_0x28ea72(0x54b),'music':'[music]:\x20生成\x202-5\x20条听歌排行，风格应极大程度体现其人设与心境，每首歌必须包含循环次数(必须为纯数字)和听歌时的细腻心声(不少于20字)。','health':'[health]:\x20严格符合其人设（如是否运动、熬夜、体型等）的近期睡眠、步数、身高体重。','pay':'[pay]:\x20生成符合人设的银行卡总金额和近期不少于\x205\x20条收支记录。','game':_0x28ea72(0x182),'weibo':'[weibo]:\x20生成微博资料。大号必须生成签名、帖子3条，每条帖子3-8条评论；相册生成3张，每张内容描述20-50字；赞过生成3条帖子，必须符合微博大号风格，像公开主页，会更体面、可被熟人看到。另生成一个小号，包含名字和签名，帖子/评论/相册/赞过内容同上，但必须符合微博小号风格：可以发关于\x20User\x20的内容、暗恋/占有欲/嫉妒/窥探/自我厌弃/黑泥情绪，也可以发珍视的记忆、舍不得忘掉的细节、对关系的自我思考、只有小号才敢保存的温柔瞬间；表达要贴合\x20Char\x20人设，不要脱离世界观，也不要让小号只有负面情绪。小号头像使用随机图片，avatarUrl\x20可以留空，由系统随机补图。'},_0x22371a={'imessage':'\x22imessage\x22:\x20{\x0a\x20\x20\x22mainAccount\x22:\x20{\x0a\x20\x20\x20\x20\x22userRemark\x22:\x20\x22对于\x20user\x20的专属备注(如宝宝等)\x22,\x0a\x20\x20\x20\x20\x22chats\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22contactName\x22:\x20\x22其他人1\x22,\x20\x22messages\x22:\x20[{\x22sender\x22:\x20\x22them\x22,\x20\x22text\x22:\x20\x22消息\x22},\x20{\x22sender\x22:\x20\x22char\x22,\x20\x22text\x22:\x20\x22回复\x22}]}\x0a\x20\x20\x20\x20]\x0a\x20\x20},\x0a\x20\x20\x22altAccount\x22:\x20{\x0a\x20\x20\x20\x20\x22name\x22:\x20\x22生成一个小号的名字(符合其隐藏人设)\x22,\x0a\x20\x20\x20\x20\x22chats\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x22contactName\x22:\x20\x22备忘录\x22,\x20\x22messages\x22:\x20[{\x22sender\x22:\x20\x22char\x22,\x20\x22text\x22:\x20\x22情绪文案、自己的感想或关于\x20user\x20的事情(2-5条)\x22}]},\x20\x0a\x20\x20\x20\x20\x20\x20{\x22contactName\x22:\x20\x22文件传输助手\x22,\x20\x22messages\x22:\x20[{\x22sender\x22:\x20\x22char\x22,\x20\x22text\x22:\x20\x22[图片]\x20关于\x20user\x20的隐私照片/文件或其他私密内容(2-5条)\x22}]},\x20\x0a\x20\x20\x20\x20\x20\x20{\x22contactName\x22:\x20\x22小号好友\x22,\x20\x22messages\x22:\x20[{\x22sender\x22:\x20\x22them\x22,\x20\x22text\x22:\x20\x22消息\x22},\x20{\x22sender\x22:\x20\x22char\x22,\x20\x22text\x22:\x20\x22回复\x22}]}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a}','safari':_0x28ea72(0xd8),'files':_0x28ea72(0x2f9),'call':_0x28ea72(0x501),'music':_0x28ea72(0x206),'health':_0x28ea72(0x580),'pay':'\x22pay\x22:\x20{\x0a\x20\x20\x22totalAssets\x22:\x20\x2224560.88\x22,\x0a\x20\x20\x22recentTransactions\x22:\x20[\x0a\x20\x20\x20\x20{\x22title\x22:\x20\x22餐饮美食\x22,\x20\x22time\x22:\x20\x22昨天\x2018:45\x22,\x20\x22amount\x22:\x20\x22-128.00\x22,\x20\x22isIncome\x22:\x20false}\x0a\x20\x20]\x0a}','game':_0x28ea72(0x55d),'weibo':_0x28ea72(0x56c)};_0x5a4447+=_0x28ea72(0x32e),_0x56fe71['forEach'](_0x2ffc62=>{_0x5a4447+=_0x3c8855[_0x2ffc62]+'\x0a';}),_0x5a4447+=_0x28ea72(0x490);let _0x2a91a1=_0x56fe71['map'](_0x432ea1=>_0x22371a[_0x432ea1])[_0x28ea72(0x306)](',\x0a');_0x5a4447+=_0x2a91a1+'\x0a}',_0x5a4447+=_0x28ea72(0x10b);if(window['showToast'])window[_0x28ea72(0x1d0)](_0x28ea72(0x29e));const _0x91e8f6=[{'role':'system','content':_0x28ea72(0x488)},{'role':_0x28ea72(0x5b6),'content':_0x5a4447}],_0x1d9d10=window[_0x28ea72(0x520)]['model']||_0x28ea72(0x470);let _0x388345=window[_0x28ea72(0x520)][_0x28ea72(0xfd)];if(_0x388345&&!_0x388345['endsWith'](_0x28ea72(0xe2))){if(_0x388345['endsWith']('/'))_0x388345+=_0x28ea72(0x1de);else _0x388345['endsWith'](_0x28ea72(0x406))?_0x388345+=_0x28ea72(0xe2):_0x388345+='/v1/chat/completions';}fetch(_0x388345,{'method':'POST','headers':{'Content-Type':'application/json','Authorization':_0x28ea72(0x496)+window[_0x28ea72(0x520)][_0x28ea72(0x34d)]},'body':JSON[_0x28ea72(0x2f4)]({'model':_0x1d9d10,'messages':_0x91e8f6,'temperature':0.7})})[_0x28ea72(0x294)](async _0x22432f=>{const _0x2631f3=_0x28ea72;if(!_0x22432f['ok']){let _0x598476=_0x2631f3(0x141)+_0x22432f['status'];try{const _0x1a4569=await _0x22432f[_0x2631f3(0x1d7)]();console[_0x2631f3(0x1fd)]('API\x20Error\x20Response\x20Body:',_0x1a4569);const _0x5f3e12=JSON[_0x2631f3(0x1fe)](_0x1a4569);_0x5f3e12['error']&&_0x5f3e12[_0x2631f3(0x1fd)][_0x2631f3(0x456)]?_0x598476=_0x5f3e12[_0x2631f3(0x1fd)]['message']:_0x598476+=_0x2631f3(0xed)+_0x1a4569;}catch(_0x581dc){}throw new Error(_0x598476);}return _0x22432f['json']();})[_0x28ea72(0x294)](_0x3709be=>{const _0x540239=_0x28ea72;let _0x4a82de=_0x3709be[_0x540239(0x4b6)]?.[0x0]?.[_0x540239(0x456)]?.[_0x540239(0x4d0)]||'',_0x594b73=_0x4a82de;const _0xa03d7d=_0x4a82de[_0x540239(0x33a)](/\{[\s\S]*\}/);_0xa03d7d?_0x594b73=_0xa03d7d[0x0]:_0x594b73=_0x4a82de[_0x540239(0x563)](/```json/gi,'')[_0x540239(0x563)](/```/g,'')['trim']();try{const _0x24d2f9=JSON['parse'](_0x594b73);_0x24d2f9['music']&&(_0x1940b9['musicData']={'recent':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x235)][_0x540239(0x2cc)])?_0x24d2f9['music']['recent']:[],'favorites':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x235)]['favorites'])?_0x24d2f9[_0x540239(0x235)][_0x540239(0x4bd)]:[],'top':Array['isArray'](_0x24d2f9[_0x540239(0x235)]['top'])?_0x24d2f9['music'][_0x540239(0x21b)]:[]});_0x24d2f9[_0x540239(0x4e1)]&&(_0x1940b9['healthData']=_0x24d2f9[_0x540239(0x4e1)]);_0x24d2f9['pay']&&(_0x1940b9[_0x540239(0x25a)]={..._0x24d2f9['pay'],'recentTransactions':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x158)]['recentTransactions'])?_0x24d2f9[_0x540239(0x158)][_0x540239(0x34e)]:[]});_0x24d2f9[_0x540239(0x524)]&&(_0x1940b9['gameData']={..._0x24d2f9[_0x540239(0x524)],'recentGames':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x524)][_0x540239(0x10f)])?_0x24d2f9[_0x540239(0x524)][_0x540239(0x10f)]:[]});_0x24d2f9[_0x540239(0x58b)]&&(_0x1940b9['callData']={..._0x24d2f9[_0x540239(0x58b)],'recentCalls':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x58b)][_0x540239(0xf6)])?_0x24d2f9[_0x540239(0x58b)][_0x540239(0xf6)]:[],'contacts':Array['isArray'](_0x24d2f9[_0x540239(0x58b)][_0x540239(0x1ae)])?_0x24d2f9[_0x540239(0x58b)][_0x540239(0x1ae)]:[]});_0x24d2f9[_0x540239(0x240)]&&(_0x1940b9['safariData']={'recentSearches':Array[_0x540239(0x1b2)](_0x24d2f9['safari']['recentSearches'])?_0x24d2f9[_0x540239(0x240)][_0x540239(0x196)]:[],'privateSearches':Array['isArray'](_0x24d2f9[_0x540239(0x240)][_0x540239(0x587)])?_0x24d2f9[_0x540239(0x240)]['privateSearches']:[]});_0x24d2f9[_0x540239(0xc9)]&&(_0x1940b9[_0x540239(0x271)]={..._0x24d2f9[_0x540239(0xc9)],'tags':Array['isArray'](_0x24d2f9['files'][_0x540239(0x20d)])?_0x24d2f9[_0x540239(0xc9)][_0x540239(0x20d)]:[],'recent':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0xc9)]['recent'])?_0x24d2f9[_0x540239(0xc9)][_0x540239(0x2cc)]:[]});if(_0x24d2f9[_0x540239(0x136)]){const _0x3f9e19=_0x24d2f9[_0x540239(0x136)]||{},_0x545bf4=(_0x47e085,_0x3ab1a2)=>{const _0x1ee482=_0x540239,_0x3d40be=this[_0x1ee482(0x43a)](_0x47e085||{},_0x1940b9,_0x3ab1a2===_0x1ee482(0x11f)?_0x1ee482(0x4ed):'main');return _0x3d40be[_0x1ee482(0x45f)]=_0x3d40be[_0x1ee482(0x45f)]['slice'](0x0,0x3),_0x3d40be[_0x1ee482(0x1cb)]=_0x3d40be[_0x1ee482(0x1cb)]['slice'](0x0,0x3)[_0x1ee482(0x2ec)]((_0xa5ab83,_0x197f90)=>({..._0xa5ab83,'url':_0xa5ab83['url']||this[_0x1ee482(0x348)](_0x1940b9,_0x197f90,_0x3ab1a2===_0x1ee482(0x11f)?_0x1ee482(0x4ed):_0x1ee482(0x180))})),_0x3d40be[_0x1ee482(0x5ad)]=_0x3d40be[_0x1ee482(0x5ad)][_0x1ee482(0x3a9)](0x0,0x3),_0x3ab1a2==='altAccount'&&!_0x3d40be[_0x1ee482(0x572)]&&(_0x3d40be[_0x1ee482(0x572)]=this['getWeiboRandomAvatar'](_0x1940b9)),_0x3d40be;};_0x1940b9[_0x540239(0x3a1)]={'mainAccount':_0x545bf4(_0x3f9e19[_0x540239(0x244)]||_0x3f9e19[_0x540239(0x180)]||_0x3f9e19,'mainAccount'),'altAccount':_0x545bf4(_0x3f9e19[_0x540239(0x11f)]||_0x3f9e19['alt']||{},_0x540239(0x11f))};}_0x24d2f9[_0x540239(0x37e)]&&(_0x1940b9[_0x540239(0x1da)]={'mainAccount':{..._0x24d2f9[_0x540239(0x37e)][_0x540239(0x244)]||{},'chats':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x37e)][_0x540239(0x244)]?.['chats'])?_0x24d2f9[_0x540239(0x37e)][_0x540239(0x244)][_0x540239(0x10c)]:[]},'altAccount':{'name':_0x24d2f9['imessage'][_0x540239(0x11f)]?.[_0x540239(0x297)]||'小号',..._0x24d2f9[_0x540239(0x37e)][_0x540239(0x11f)]||{},'chats':Array[_0x540239(0x1b2)](_0x24d2f9[_0x540239(0x37e)][_0x540239(0x11f)]?.[_0x540239(0x10c)])?_0x24d2f9[_0x540239(0x37e)][_0x540239(0x11f)]['chats']:[]}});this[_0x540239(0x2f8)](_0x1940b9);if(window[_0x540239(0x1d0)])window['showToast'](_0x540239(0x58f));if(window[_0x540239(0x591)]){window[_0x540239(0x591)](_0x26ad79);const _0x28975f=document[_0x540239(0x199)](_0x540239(0x395));if(_0x28975f)window[_0x540239(0x591)](_0x28975f);}}catch(_0x27b802){console[_0x540239(0x1fd)](_0x540239(0x466),_0x27b802,_0x540239(0x328),_0x4a82de,'\x0aExtracted:',_0x594b73);if(window[_0x540239(0x1d0)])window[_0x540239(0x1d0)](_0x540239(0x59c));}})[_0x28ea72(0x5aa)](_0x4d5555=>{const _0x1b54b0=_0x28ea72;console['error'](_0x1b54b0(0x27d),_0x4d5555);let _0x2c1441=_0x4d5555['message']||'未知网络错误';_0x2c1441[_0x1b54b0(0x436)]>0x32&&(_0x2c1441=_0x2c1441['substring'](0x0,0x32)+_0x1b54b0(0x362));if(window['showToast'])window[_0x1b54b0(0x1d0)](_0x1b54b0(0x397)+_0x2c1441);else alert('API\x20请求失败:\x20'+_0x2c1441);});});const _0x111f11=document[_0x112aee(0x199)]('friend-phone-bg-upload');_0x111f11&&(_0x111f11[_0x112aee(0x40d)]=_0x287e77=>{const _0xd20e6b=_0x112aee,_0x35bdb1=_0x287e77['target'][_0xd20e6b(0xc9)][0x0];if(_0x35bdb1){const _0x567afe=new FileReader();_0x567afe[_0xd20e6b(0xfe)]=_0x2c74c8=>{const _0x44ddd5=_0xd20e6b;_0x1940b9[_0x44ddd5(0x564)]=_0x2c74c8['target']['result'],this[_0x44ddd5(0x2f8)](_0x1940b9),_0x315f01[_0x44ddd5(0x56a)][_0x44ddd5(0x5a3)]='url('+_0x1940b9[_0x44ddd5(0x564)]+')';if(window[_0x44ddd5(0x1d0)])window['showToast'](_0x44ddd5(0x492));if(window[_0x44ddd5(0x591)])window[_0x44ddd5(0x591)](_0x26ad79);},_0x567afe[_0xd20e6b(0x425)](_0x35bdb1);}});this['currentFriend']=_0x1940b9;const _0x34cf03=document['getElementById'](_0x112aee(0x3b9)),_0x514114=document[_0x112aee(0x199)](_0x112aee(0x4df));_0x34cf03&&_0x514114&&(_0x34cf03['onclick']=()=>{const _0x369a55=_0x112aee;this[_0x369a55(0xff)]=_0x369a55(0x180),this['renderFriendImsg'](_0x1940b9);if(window['openView'])window[_0x369a55(0x128)](_0x514114);document[_0x369a55(0x199)]('friend-imsg-user-name')[_0x369a55(0x4d2)]=window[_0x369a55(0x351)]?.[_0x369a55(0x297)]||window[_0x369a55(0xfa)]?.['profile']?.[_0x369a55(0x297)]||'我';const _0x56449d=document[_0x369a55(0x199)]('friend-imsg-user-avatar'),_0x447b7c=document['getElementById'](_0x369a55(0x2d6)),_0x5b5a05=window[_0x369a55(0x351)]?.[_0x369a55(0x572)]||window[_0x369a55(0xfa)]?.[_0x369a55(0x50c)]?.[_0x369a55(0x572)];if(_0x5b5a05){_0x56449d&&(_0x56449d[_0x369a55(0x480)]=_0x5b5a05,_0x56449d[_0x369a55(0x56a)][_0x369a55(0x20a)]=_0x369a55(0x319));if(_0x447b7c)_0x447b7c[_0x369a55(0x56a)]['display']='none';}else{if(_0x56449d)_0x56449d[_0x369a55(0x56a)][_0x369a55(0x20a)]=_0x369a55(0x4fe);if(_0x447b7c)_0x447b7c[_0x369a55(0x56a)][_0x369a55(0x20a)]=_0x369a55(0x319);}});const _0x446869=document[_0x112aee(0x199)](_0x112aee(0x208)),_0x3cf847=document[_0x112aee(0x199)](_0x112aee(0x485));_0x446869&&_0x3cf847&&(_0x446869[_0x112aee(0x18e)]=()=>{const _0x5ccd24=_0x112aee,_0x4b71fd=document['getElementById']('friend-imsg-accounts-list');if(_0x4b71fd){const _0x1efee1=_0x1940b9['nickname']||_0x1940b9[_0x5ccd24(0x53f)]||'TA';let _0x21ad6f='小号',_0x44adb1=![];_0x1940b9[_0x5ccd24(0x1da)]&&!Array[_0x5ccd24(0x1b2)](_0x1940b9['imessageData'])&&_0x1940b9[_0x5ccd24(0x1da)]['altAccount']&&(_0x21ad6f=_0x1940b9[_0x5ccd24(0x1da)]['altAccount']['name']||'小号',_0x44adb1=!![]),_0x4b71fd[_0x5ccd24(0x338)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2015px\x2016px;\x20border-bottom:\x201px\x20solid\x20#f0f0f0;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20cursor:\x20pointer;\x22\x20onclick=\x22window.lovesApp.switchImsgAccount(\x27main\x27,\x20true)\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20#e5e5ea;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2016px;\x20font-weight:\x20500;\x20color:\x20#000;\x22>'+_0x1efee1+_0x5ccd24(0x15a)+(this[_0x5ccd24(0xff)]===_0x5ccd24(0x180)?'<i\x20class=\x22fas\x20fa-check\x22\x20style=\x22color:\x20#007aff;\x22></i>':'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x44adb1?_0x5ccd24(0x589)+_0x21ad6f+_0x5ccd24(0x19a)+(this[_0x5ccd24(0xff)]===_0x5ccd24(0x4ed)?_0x5ccd24(0x3c7):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2015px\x2016px;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20暂无小号数据，请在生成设置中重新生成\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')+_0x5ccd24(0x2ad);}if(window[_0x5ccd24(0x128)])window[_0x5ccd24(0x128)](_0x3cf847);});const _0x10bb8d=document['getElementById']('friend-imsg-back-btn');if(_0x10bb8d)_0x10bb8d['onclick']=()=>{const _0x22cbd2=_0x112aee;if(window[_0x22cbd2(0x591)])window[_0x22cbd2(0x591)](_0x514114);};const _0x2e600d=document[_0x112aee(0x199)](_0x112aee(0x216)),_0x2f18a5=document[_0x112aee(0x199)](_0x112aee(0x228)),_0x88effd=document[_0x112aee(0x199)](_0x112aee(0x535)),_0x493cee=document[_0x112aee(0x199)]('friend-files-recently-deleted-back-btn'),_0x123894=document['getElementById'](_0x112aee(0x35e));!window['lovesApp'][_0x112aee(0xd7)]&&(document[_0x112aee(0x592)](_0x112aee(0x156),_0x59fb37=>{const _0x86896b=_0x112aee,_0x35955e=_0x59fb37['target'][_0x86896b(0x2a1)](_0x86896b(0x49e));if(_0x35955e&&_0x88effd){if(window[_0x86896b(0x128)])window['openView'](_0x88effd);const _0x2fe085=window[_0x86896b(0x484)][_0x86896b(0x33b)];_0x123894&&(_0x2fe085&&_0x2fe085['filesData']&&_0x2fe085[_0x86896b(0x271)][_0x86896b(0x3ec)]&&_0x2fe085[_0x86896b(0x271)][_0x86896b(0x3ec)][_0x86896b(0x436)]>0x0?_0x123894[_0x86896b(0x338)]=_0x2fe085[_0x86896b(0x271)][_0x86896b(0x3ec)][_0x86896b(0x2ec)](_0x2e1d96=>_0x86896b(0x1ba)+(_0x2e1d96[_0x86896b(0x3ee)]==='image'?_0x86896b(0x2b9):_0x86896b(0x4e6))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20font-weight:\x20500;\x20color:\x20#111;\x20text-align:\x20center;\x20width:\x20100%;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>'+_0x2e1d96['name']+_0x86896b(0x232)+(_0x2e1d96[_0x86896b(0x446)]||_0x86896b(0x491))+_0x86896b(0x2af)+(_0x2e1d96['daysLeft']||'30')+_0x86896b(0x4bb))[_0x86896b(0x306)](''):_0x123894[_0x86896b(0x338)]=_0x86896b(0x2e7));}}),_0x493cee&&_0x88effd&&_0x493cee[_0x112aee(0x592)]('click',()=>{const _0x2d849a=_0x112aee;if(window['closeView'])window[_0x2d849a(0x591)](_0x88effd);}),window[_0x112aee(0x484)][_0x112aee(0xd7)]=!![]);_0x2e600d&&_0x2f18a5&&(_0x2e600d[_0x112aee(0x18e)]=()=>{const _0x247149=_0x112aee;if(window['openView'])window[_0x247149(0x128)](_0x2f18a5);const _0x26cfdc=document['getElementById'](_0x247149(0x268));_0x26cfdc&&(_0x1940b9[_0x247149(0x271)]&&_0x1940b9[_0x247149(0x271)]['tags']?(_0x26cfdc['innerHTML']=_0x1940b9['filesData'][_0x247149(0x20d)][_0x247149(0x2ec)]((_0x1c7148,_0x57ba36)=>{const _0x3ad40d=_0x247149,_0x2686d8=_0x1c7148[_0x3ad40d(0x222)]?_0x1c7148[_0x3ad40d(0x222)][_0x3ad40d(0x2ec)]((_0x537808,_0x226c7c)=>{const _0x3a04cf=_0x3ad40d,_0xcc95d0=encodeURIComponent(JSON[_0x3a04cf(0x2f4)](_0x537808));return _0x3a04cf(0x209)+_0xcc95d0+_0x3a04cf(0x364)+_0x537808[_0x3a04cf(0x379)]+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-right\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2014px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';})[_0x3ad40d(0x306)](''):'';return _0x3ad40d(0x471)+(_0x1c7148[_0x3ad40d(0x5b3)]||'#ff9500')+_0x3ad40d(0x58c)+_0x1c7148['name']+_0x3ad40d(0x37a)+_0x2686d8+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';})['join'](''),setTimeout(()=>{const _0x17af77=_0x247149,_0x1511e0=_0x26cfdc[_0x17af77(0x3bf)]('.file-item-clickable');_0x1511e0['forEach'](_0x29e86b=>{const _0x19c487=_0x17af77;_0x29e86b[_0x19c487(0x592)](_0x19c487(0x156),function(_0x31ed2f){const _0x380acd=_0x19c487;_0x31ed2f['preventDefault'](),_0x31ed2f[_0x380acd(0x124)]();try{const _0x3a10dd=JSON[_0x380acd(0x1fe)](decodeURIComponent(this[_0x380acd(0x5b1)](_0x380acd(0x3e2))));window[_0x380acd(0x484)][_0x380acd(0x493)](_0x3a10dd['title'],_0x380acd(0x343)+_0x3a10dd['content']+_0x380acd(0x23d));}catch(_0x5068a9){console[_0x380acd(0x1fd)](_0x380acd(0x269),_0x5068a9);}}),window['lovesApp'][_0x19c487(0x16d)](_0x29e86b,function(){const _0x34403e=_0x19c487;try{const _0x27945c=JSON[_0x34403e(0x1fe)](decodeURIComponent(_0x29e86b[_0x34403e(0x5b1)]('data-item')));window['lovesApp']['showDeleteConfirm'](_0x27945c[_0x34403e(0x379)],()=>{const _0x310ffd=_0x34403e;_0x1940b9[_0x310ffd(0x271)]&&_0x1940b9[_0x310ffd(0x271)][_0x310ffd(0x20d)]&&(_0x1940b9[_0x310ffd(0x271)]['tags'][_0x310ffd(0x4e7)](_0x2086df=>{const _0x45e7de=_0x310ffd;if(_0x2086df[_0x45e7de(0x222)]){const _0x3d720f=_0x2086df[_0x45e7de(0x222)][_0x45e7de(0x1c1)](_0x5e558b=>_0x5e558b[_0x45e7de(0x379)]===_0x27945c[_0x45e7de(0x379)]&&_0x5e558b[_0x45e7de(0x4d0)]===_0x27945c[_0x45e7de(0x4d0)]);if(_0x3d720f!==-0x1)_0x2086df[_0x45e7de(0x222)][_0x45e7de(0x192)](_0x3d720f,0x1);}}),_0x2e600d[_0x310ffd(0x18e)]());});}catch(_0x139c98){}});});},0x32)):_0x26cfdc[_0x247149(0x338)]=_0x247149(0x1e6));});const _0x4765bd=document['getElementById'](_0x112aee(0x4bf));if(_0x4765bd)_0x4765bd[_0x112aee(0x18e)]=()=>{const _0x2f2cec=_0x112aee;if(window['closeView'])window[_0x2f2cec(0x591)](_0x2f18a5);};const _0x19bc7f=document[_0x112aee(0x199)]('friend-phone-app-safari'),_0x2c907f=document[_0x112aee(0x199)](_0x112aee(0x1cc));_0x19bc7f&&_0x2c907f&&(_0x19bc7f[_0x112aee(0x18e)]=()=>{const _0x23d52d=_0x112aee;if(window['openView'])window[_0x23d52d(0x128)](_0x2c907f);const _0x16bf49=document[_0x23d52d(0x199)](_0x23d52d(0x233)),_0x5a939b=document[_0x23d52d(0x199)](_0x23d52d(0x525)),_0xb1eb84=document['getElementById'](_0x23d52d(0x146)),_0x4f4950=document[_0x23d52d(0x199)](_0x23d52d(0x419)),_0x577fa6=document['getElementById'](_0x23d52d(0x153)),_0x2e42cb=document[_0x23d52d(0x199)](_0x23d52d(0x448)),_0x265a54=document[_0x23d52d(0x199)](_0x23d52d(0x442));let _0x6b0349=![];_0x265a54&&(_0x265a54[_0x23d52d(0x18e)]=()=>{const _0x106337=_0x23d52d;_0x6b0349=!_0x6b0349,_0x6b0349?(_0x2c907f[_0x106337(0x56a)][_0x106337(0x3ea)]='#000',_0x16bf49[_0x106337(0x56a)][_0x106337(0x3ea)]='#000',_0x5a939b['style']['background']=_0x106337(0x4f2),_0x5a939b[_0x106337(0x56a)][_0x106337(0x5b3)]=_0x106337(0x187),_0xb1eb84[_0x106337(0x56a)]['color']='#fff',_0x2e42cb[_0x106337(0x56a)][_0x106337(0x3ea)]=_0x106337(0x5a0),_0x2e42cb[_0x106337(0x56a)]['color']='#fff',_0x2e42cb['style'][_0x106337(0x355)]=_0x106337(0x21c),_0x4f4950[_0x106337(0x56a)]['opacity']='0',_0x4f4950[_0x106337(0x56a)][_0x106337(0x398)]=_0x106337(0x4fe),_0x4f4950[_0x106337(0x56a)]['transform']=_0x106337(0x2ae),_0x577fa6[_0x106337(0x56a)]['opacity']='1',_0x577fa6[_0x106337(0x56a)]['pointerEvents']=_0x106337(0x4e5),_0x577fa6['style'][_0x106337(0x4fd)]=_0x106337(0x270)):(_0x2c907f[_0x106337(0x56a)][_0x106337(0x3ea)]=_0x106337(0x215),_0x16bf49['style']['background']=_0x106337(0x215),_0x5a939b['style']['background']='#e5e5ea',_0x5a939b[_0x106337(0x56a)][_0x106337(0x5b3)]='#8e8e93',_0xb1eb84[_0x106337(0x56a)][_0x106337(0x5b3)]=_0x106337(0x3f0),_0x2e42cb[_0x106337(0x56a)]['background']='rgba(255,255,255,0.95)',_0x2e42cb[_0x106337(0x56a)][_0x106337(0x5b3)]=_0x106337(0x3f0),_0x2e42cb['style'][_0x106337(0x355)]='1px\x20solid\x20#f0f0f0',_0x577fa6[_0x106337(0x56a)][_0x106337(0x539)]='0',_0x577fa6[_0x106337(0x56a)][_0x106337(0x398)]=_0x106337(0x4fe),_0x577fa6['style'][_0x106337(0x4fd)]=_0x106337(0x38b),_0x4f4950[_0x106337(0x56a)][_0x106337(0x539)]='1',_0x4f4950[_0x106337(0x56a)][_0x106337(0x398)]=_0x106337(0x4e5),_0x4f4950[_0x106337(0x56a)]['transform']=_0x106337(0x270));});const _0x26c1f4=document['getElementById']('friend-safari-history-list'),_0x4e0ca2=document[_0x23d52d(0x199)]('friend-safari-private-history-list');_0x26c1f4&&(_0x1940b9[_0x23d52d(0x3eb)]&&_0x1940b9[_0x23d52d(0x3eb)][_0x23d52d(0x196)]?(_0x26c1f4[_0x23d52d(0x338)]=_0x1940b9[_0x23d52d(0x3eb)][_0x23d52d(0x196)][_0x23d52d(0x2ec)]((_0x8004c2,_0x355cf7)=>{const _0x5e127a=_0x23d52d;let _0x535974=typeof _0x8004c2===_0x5e127a(0x367)?_0x8004c2:_0x8004c2['keyword']||_0x5e127a(0xdf);return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22safari-history-item-new\x22\x20data-idx=\x22'+_0x355cf7+'\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2015px;\x20padding:\x2016px\x200;\x20border-bottom:\x201px\x20solid\x20rgba(0,0,0,0.04);\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22\x20style=\x22color:\x20#c7c7cc;\x20font-size:\x2014px;\x20pointer-events:\x20none;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2016px;\x20color:\x20#111;\x20pointer-events:\x20none;\x20font-weight:\x20500;\x22>'+_0x535974+_0x5e127a(0x383);})[_0x23d52d(0x306)](''),setTimeout(()=>{const _0x503652=_0x23d52d;try{const _0x3f2279=_0x26c1f4[_0x503652(0x3bf)](_0x503652(0x11b));_0x3f2279['forEach'](_0x17a4ab=>{const _0x48c6d6=_0x503652;_0x17a4ab['addEventListener']('click',function(_0x5cea8d){const _0x4b4979=_0x18e0;_0x5cea8d[_0x4b4979(0x203)](),_0x5cea8d[_0x4b4979(0x124)]();const _0x5dbeaa=this[_0x4b4979(0x5b1)](_0x4b4979(0x3f6)),_0x4e68e6=_0x1940b9[_0x4b4979(0x3eb)][_0x4b4979(0x196)][_0x5dbeaa];typeof _0x4e68e6==='object'&&_0x4e68e6['title']&&_0x4e68e6[_0x4b4979(0x4d0)]?window['lovesApp']['showBrowserDetailModal'](_0x4e68e6[_0x4b4979(0x379)],_0x4e68e6[_0x4b4979(0x4d0)],![]):window[_0x4b4979(0x484)][_0x4b4979(0x4f0)](_0x4b4979(0x13e),'无更多详情',![]);}),window['lovesApp'][_0x48c6d6(0x16d)](_0x17a4ab,function(){const _0x296ab4=_0x48c6d6,_0x588703=_0x17a4ab[_0x296ab4(0x5b1)]('data-idx'),_0x3d1b47=_0x1940b9[_0x296ab4(0x3eb)][_0x296ab4(0x196)][_0x588703],_0x5d2264=typeof _0x3d1b47===_0x296ab4(0x367)?_0x3d1b47:_0x3d1b47[_0x296ab4(0x24f)]||_0x296ab4(0xdf);window['lovesApp'][_0x296ab4(0x353)](_0x5d2264,()=>{const _0x281d4d=_0x296ab4;_0x1940b9[_0x281d4d(0x3eb)]['recentSearches'][_0x281d4d(0x192)](_0x588703,0x1),_0x19bc7f['onclick']();});});});}catch(_0x5b0ea5){console[_0x503652(0x1fd)](_0x503652(0x1e4),_0x5b0ea5);}},0x32)):_0x26c1f4[_0x23d52d(0x338)]=_0x23d52d(0x223)),_0x4e0ca2&&(_0x1940b9[_0x23d52d(0x3eb)]&&_0x1940b9[_0x23d52d(0x3eb)][_0x23d52d(0x587)]?(_0x4e0ca2[_0x23d52d(0x338)]=_0x1940b9['safariData']['privateSearches'][_0x23d52d(0x2ec)]((_0x7ee011,_0x319abe)=>{const _0x13b3f4=_0x23d52d;let _0x55ad00=typeof _0x7ee011===_0x13b3f4(0x367)?_0x7ee011:_0x7ee011['keyword']||_0x13b3f4(0x2f6);return _0x13b3f4(0x53e)+_0x319abe+_0x13b3f4(0x4ec)+_0x55ad00+_0x13b3f4(0x383);})['join'](''),setTimeout(()=>{const _0x412a8e=_0x23d52d;try{const _0x1745b5=_0x4e0ca2[_0x412a8e(0x3bf)]('.safari-private-item-new');_0x1745b5['forEach'](_0x4646b4=>{const _0x197081=_0x412a8e;_0x4646b4[_0x197081(0x592)]('click',function(_0x225fb1){const _0x533ff8=_0x197081;_0x225fb1[_0x533ff8(0x203)](),_0x225fb1[_0x533ff8(0x124)]();const _0xdfc45b=this[_0x533ff8(0x5b1)](_0x533ff8(0x3f6)),_0x452d7a=_0x1940b9[_0x533ff8(0x3eb)][_0x533ff8(0x587)][_0xdfc45b];typeof _0x452d7a==='object'&&_0x452d7a[_0x533ff8(0x379)]&&_0x452d7a[_0x533ff8(0x4d0)]?window[_0x533ff8(0x484)][_0x533ff8(0x4f0)](_0x452d7a[_0x533ff8(0x379)],_0x452d7a[_0x533ff8(0x4d0)],!![]):window[_0x533ff8(0x484)]['showBrowserDetailModal'](_0x533ff8(0x265),_0x533ff8(0x29d),!![]);}),window[_0x197081(0x484)][_0x197081(0x16d)](_0x4646b4,function(){const _0x3c61a5=_0x197081,_0x190dd2=_0x4646b4['getAttribute'](_0x3c61a5(0x3f6)),_0x50273b=_0x1940b9[_0x3c61a5(0x3eb)]['privateSearches'][_0x190dd2],_0x1ba1e2=typeof _0x50273b==='string'?_0x50273b:_0x50273b[_0x3c61a5(0x24f)]||_0x3c61a5(0x2f6);window[_0x3c61a5(0x484)]['showDeleteConfirm'](_0x1ba1e2,()=>{const _0x3c7fb5=_0x3c61a5;_0x1940b9['safariData'][_0x3c7fb5(0x587)][_0x3c7fb5(0x192)](_0x190dd2,0x1),_0x19bc7f['onclick']();});});});}catch(_0x11e3e5){console[_0x412a8e(0x1fd)](_0x412a8e(0xf0),_0x11e3e5);}},0x32)):_0x4e0ca2[_0x23d52d(0x338)]=_0x23d52d(0x4b9));});const _0xd2eb88=document['getElementById'](_0x112aee(0x146));if(_0xd2eb88)_0xd2eb88[_0x112aee(0x18e)]=()=>{const _0x436c33=_0x112aee;if(window[_0x436c33(0x591)])window[_0x436c33(0x591)](_0x2c907f);};const _0x2dc7f3=document[_0x112aee(0x199)](_0x112aee(0x131)),_0x6e4fd7=document[_0x112aee(0x199)](_0x112aee(0x407));_0x2dc7f3&&_0x6e4fd7&&(_0x2dc7f3[_0x112aee(0x18e)]=()=>{const _0x495221=_0x112aee;this[_0x495221(0x3f7)]=_0x495221(0x180),this['renderFriendWeibo'](_0x1940b9);const _0xc357f7=Array['from'](_0x6e4fd7[_0x495221(0x3bf)]('.friend-weibo-tab')),_0x5a61ee=document[_0x495221(0x199)](_0x495221(0x409)),_0xcde5d5=_0xe5ee5=>{const _0x4f04ab=_0x495221;_0xc357f7[_0x4f04ab(0x4e7)]((_0x13d8b6,_0x2edb58)=>{const _0x31864b=_0x4f04ab,_0x42c518=_0x2edb58===_0xe5ee5;_0x13d8b6[_0x31864b(0x56a)][_0x31864b(0x5b3)]=_0x42c518?_0x31864b(0x3f0):_0x31864b(0x2be),_0x13d8b6[_0x31864b(0x56a)]['fontWeight']=_0x42c518?_0x31864b(0x37f):_0x31864b(0x334);const _0x5d87bb=_0x13d8b6[_0x31864b(0x55c)](_0x31864b(0x3fc));if(_0x5d87bb)_0x5d87bb[_0x31864b(0x56a)][_0x31864b(0x20a)]=_0x42c518?_0x31864b(0x319):_0x31864b(0x4fe);});};_0x5a61ee&&_0xc357f7['length']&&(_0xc357f7[_0x495221(0x4e7)]((_0x1c1161,_0x139b24)=>{_0x1c1161['onclick']=()=>{const _0x99a7ad=_0x18e0;_0x5a61ee[_0x99a7ad(0x2d1)]({'left':_0x139b24*_0x5a61ee[_0x99a7ad(0x458)],'behavior':_0x99a7ad(0x107)}),_0xcde5d5(_0x139b24);};}),_0x5a61ee[_0x495221(0x46e)]=()=>{const _0x50396b=_0x495221,_0x41174b=_0x5a61ee[_0x50396b(0x458)]||0x1,_0x120eca=Math[_0x50396b(0x3dd)](0x0,Math[_0x50396b(0x25e)](0x2,Math[_0x50396b(0x142)](_0x5a61ee[_0x50396b(0x28f)]/_0x41174b)));_0xcde5d5(_0x120eca);},_0x5a61ee[_0x495221(0x2d1)]({'left':0x0,'behavior':_0x495221(0x4e5)}),_0xcde5d5(0x0));if(window[_0x495221(0x128)])window[_0x495221(0x128)](_0x6e4fd7);});const _0xd4401c=document[_0x112aee(0x199)]('friend-weibo-switch-account-btn');_0xd4401c&&(_0xd4401c[_0x112aee(0x18e)]=_0x5c019e=>{const _0x524f4d=_0x112aee;_0x5c019e[_0x524f4d(0x203)](),_0x5c019e[_0x524f4d(0x124)]();const _0x3b5804=this[_0x524f4d(0x2e5)](_0x1940b9);if(this[_0x524f4d(0x3f7)]===_0x524f4d(0x180)){if(!_0x3b5804[_0x524f4d(0x11f)]){if(window[_0x524f4d(0x1d0)])window['showToast'](_0x524f4d(0x2b2));return;}this[_0x524f4d(0x3f7)]=_0x524f4d(0x4ed);}else this[_0x524f4d(0x3f7)]=_0x524f4d(0x180);this[_0x524f4d(0x43d)](_0x1940b9);if(window[_0x524f4d(0x1d0)])window[_0x524f4d(0x1d0)](this[_0x524f4d(0x3f7)]===_0x524f4d(0x4ed)?'已切换到微博小号':_0x524f4d(0x534));});const _0xd756ce=document[_0x112aee(0x199)](_0x112aee(0x17e));if(_0xd756ce)_0xd756ce[_0x112aee(0x18e)]=()=>{const _0x176d1d=_0x112aee;if(window[_0x176d1d(0x591)])window['closeView'](_0x6e4fd7);};const _0x431161=document[_0x112aee(0x199)](_0x112aee(0x31a)),_0x147391=document[_0x112aee(0x199)](_0x112aee(0x1d6));_0x431161&&_0x147391&&(_0x431161[_0x112aee(0x18e)]=()=>{const _0x4f22a9=_0x112aee;if(window[_0x4f22a9(0x128)])window['openView'](_0x147391);const _0x36da1c=document[_0x4f22a9(0x199)](_0x4f22a9(0x320));if(_0x36da1c){let _0x29c08f=_0x1940b9[_0x4f22a9(0x4aa)];if(!_0x29c08f||!_0x29c08f[_0x4f22a9(0x21b)]||_0x29c08f[_0x4f22a9(0x21b)][_0x4f22a9(0x436)]===0x0)_0x36da1c['innerHTML']=_0x4f22a9(0x3bc);else{const _0x4f7f65=(_0x29c08f[_0x4f22a9(0x21b)]||[])[_0x4f22a9(0x2ec)]((_0x4c1500,_0x160516)=>_0x4f22a9(0x139)+_0x160516+_0x4f22a9(0x38a)+(_0x160516+0x1)+_0x4f22a9(0x2f1)+_0x4c1500[_0x4f22a9(0x297)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>'+_0x4c1500[_0x4f22a9(0x376)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-ellipsis-v\x22\x20style=\x22color:\x20#c7c7cc;\x20pointer-events:\x20none;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x4f22a9(0x306)]('');_0x36da1c[_0x4f22a9(0x338)]=_0x4f22a9(0x311)+(_0x29c08f[_0x4f22a9(0x2cc)]?_0x29c08f[_0x4f22a9(0x2cc)][_0x4f22a9(0x436)]:0x0)+'\x20首歌曲</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:\x20140px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20140px;\x20height:\x20140px;\x20border-radius:\x2012px;\x20background:\x20#111;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2030px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>最爱</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x22>'+(_0x29c08f[_0x4f22a9(0x4bd)]?_0x29c08f[_0x4f22a9(0x4bd)][_0x4f22a9(0x436)]:0x0)+'\x20首歌曲</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x2010px\x2016px\x2030px;\x20background:\x20#fff;\x20border-top:\x201px\x20solid\x20#f0f0f0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2022px;\x20font-weight:\x20700;\x20color:\x20#111;\x20margin-bottom:\x2015px;\x20margin-top:\x2010px;\x22>听歌排行</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4f7f65+_0x4f22a9(0x477);}setTimeout(()=>{const _0x3ce344=_0x4f22a9;try{const _0x45fef5=_0x36da1c['querySelectorAll'](_0x3ce344(0x567));_0x45fef5['forEach'](_0x26e84e=>{const _0x520db6=_0x3ce344;_0x26e84e[_0x520db6(0x592)](_0x520db6(0x156),function(_0x37d8bc){const _0x97453f=_0x520db6;_0x37d8bc[_0x97453f(0x203)](),_0x37d8bc['stopPropagation']();const _0x147d3b=this['getAttribute'](_0x97453f(0x3f6)),_0x431723=_0x29c08f[_0x97453f(0x21b)][_0x147d3b],_0xd89872=parseInt(_0x431723[_0x97453f(0x450)])||Math[_0x97453f(0x585)](Math['random']()*0x64)+0xa,_0x5f4a2e=_0x431723[_0x97453f(0x464)]||_0x97453f(0x231),_0x20f496=_0x97453f(0x44e)+_0x431723['name']+_0x97453f(0x16e)+_0x431723[_0x97453f(0x376)]+_0x97453f(0x1ed)+_0xd89872+_0x97453f(0x393)+_0x5f4a2e[_0x97453f(0x563)](/\n/g,_0x97453f(0x262))+_0x97453f(0x221);window[_0x97453f(0x484)][_0x97453f(0x493)](_0x97453f(0x1a0),_0x20f496);}),window[_0x520db6(0x484)]['bindLongPress'](_0x26e84e,function(){const _0xa3158c=_0x520db6,_0x2559fd=_0x26e84e[_0xa3158c(0x5b1)](_0xa3158c(0x3f6)),_0x74f326=_0x29c08f[_0xa3158c(0x21b)][_0x2559fd];window[_0xa3158c(0x484)][_0xa3158c(0x353)](_0x74f326['name'],()=>{const _0x13214a=_0xa3158c;_0x29c08f[_0x13214a(0x21b)][_0x13214a(0x192)](_0x2559fd,0x1),_0x431161[_0x13214a(0x18e)]();});});});}catch(_0xed8a71){console[_0x3ce344(0x1fd)](_0x3ce344(0x1c2),_0xed8a71);}},0x32);}});const _0x247f7b=document[_0x112aee(0x199)](_0x112aee(0x479));if(_0x247f7b)_0x247f7b[_0x112aee(0x18e)]=()=>{const _0x488e19=_0x112aee;if(window[_0x488e19(0x591)])window[_0x488e19(0x591)](_0x147391);};const _0x445ea8=document[_0x112aee(0x199)](_0x112aee(0x56e)),_0x9223fd=document[_0x112aee(0x199)](_0x112aee(0x460));_0x445ea8&&_0x9223fd&&(_0x445ea8[_0x112aee(0x18e)]=()=>{const _0x1b30fc=_0x112aee;if(window[_0x1b30fc(0x128)])window[_0x1b30fc(0x128)](_0x9223fd);const _0xdc3a0f=document[_0x1b30fc(0x199)](_0x1b30fc(0x150)),_0x563a29=document['getElementById'](_0x1b30fc(0x49c)),_0x4b3f46=document['getElementById'](_0x1b30fc(0x207)),_0x1c4538=document[_0x1b30fc(0x199)](_0x1b30fc(0x3f1));_0xdc3a0f&&_0x563a29&&_0x4b3f46&&_0x1c4538&&(_0xdc3a0f['onclick']=()=>{const _0x50173c=_0x1b30fc;_0xdc3a0f[_0x50173c(0x56a)][_0x50173c(0x3ea)]=_0x50173c(0x1dc),_0xdc3a0f['style'][_0x50173c(0x5b3)]='#111',_0xdc3a0f[_0x50173c(0x56a)][_0x50173c(0x293)]=_0x50173c(0x16f),_0x563a29[_0x50173c(0x56a)][_0x50173c(0x3ea)]='transparent',_0x563a29[_0x50173c(0x56a)]['color']=_0x50173c(0x187),_0x563a29[_0x50173c(0x56a)]['boxShadow']='none',_0x4b3f46[_0x50173c(0x56a)][_0x50173c(0x20a)]=_0x50173c(0x319),_0x1c4538[_0x50173c(0x56a)][_0x50173c(0x20a)]=_0x50173c(0x4fe);},_0x563a29[_0x1b30fc(0x18e)]=()=>{const _0x2a79e7=_0x1b30fc;_0x563a29['style'][_0x2a79e7(0x3ea)]=_0x2a79e7(0x1dc),_0x563a29[_0x2a79e7(0x56a)][_0x2a79e7(0x5b3)]=_0x2a79e7(0x3f0),_0x563a29[_0x2a79e7(0x56a)][_0x2a79e7(0x293)]=_0x2a79e7(0x16f),_0xdc3a0f[_0x2a79e7(0x56a)][_0x2a79e7(0x3ea)]=_0x2a79e7(0x160),_0xdc3a0f[_0x2a79e7(0x56a)]['color']='#8e8e93',_0xdc3a0f[_0x2a79e7(0x56a)][_0x2a79e7(0x293)]=_0x2a79e7(0x4fe),_0x1c4538['style'][_0x2a79e7(0x20a)]='block',_0x4b3f46['style'][_0x2a79e7(0x20a)]=_0x2a79e7(0x4fe);});if(_0x4b3f46&&_0x1940b9[_0x1b30fc(0x25f)]&&_0x1940b9[_0x1b30fc(0x25f)][_0x1b30fc(0xf6)]){_0x4b3f46[_0x1b30fc(0x338)]=_0x1940b9[_0x1b30fc(0x25f)][_0x1b30fc(0xf6)][_0x1b30fc(0x2ec)]((_0x1662c1,_0x2c96fc)=>{const _0x2667a0=_0x1b30fc;let _0x51f4a1='';if(_0x1662c1['type']===_0x2667a0(0x59b))_0x51f4a1=_0x2667a0(0x5b7);else _0x1662c1[_0x2667a0(0x3ee)]===_0x2667a0(0x39e)?_0x51f4a1='<i\x20class=\x22fas\x20fa-phone\x22\x20style=\x22color:\x20#8e8e93;\x20font-size:\x2010px;\x22></i>':_0x51f4a1=_0x2667a0(0x2aa);return _0x2667a0(0x152)+_0x2c96fc+_0x2667a0(0xf4)+(_0x1662c1['type']===_0x2667a0(0x59b)?_0x2667a0(0x507):_0x2667a0(0x3f0))+_0x2667a0(0x365)+_0x1662c1[_0x2667a0(0x297)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20#8e8e93;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x51f4a1+_0x2667a0(0x4d3)+(_0x1662c1['type']===_0x2667a0(0x59b)?_0x2667a0(0x309):_0x2667a0(0x4bc))+_0x2667a0(0xd3)+_0x1662c1[_0x2667a0(0x429)]+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-info-circle\x22\x20style=\x22color:\x20#007aff;\x20font-size:\x2022px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';})[_0x1b30fc(0x306)]('');if(_0x1c4538){const _0x25f1c6=_0x1940b9['callData'][_0x1b30fc(0x1ae)]||[...new Set(_0x1940b9[_0x1b30fc(0x25f)][_0x1b30fc(0xf6)]['map'](_0x39725a=>_0x39725a['name']))][_0x1b30fc(0x2ec)](_0xe88e04=>({'name':_0xe88e04,'addedTime':_0x1b30fc(0x53c),'recentCallTime':'近期','callReason':_0x1b30fc(0x542)}));_0x1940b9[_0x1b30fc(0x25f)][_0x1b30fc(0x1dd)]=_0x25f1c6,_0x1c4538[_0x1b30fc(0x338)]=_0x25f1c6['map']((_0x2e59d0,_0x48b56e)=>_0x1b30fc(0x1b1)+_0x48b56e+_0x1b30fc(0x1e2)+_0x2e59d0[_0x1b30fc(0x297)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-info-circle\x22\x20style=\x22color:\x20#007aff;\x20font-size:\x2020px;\x20pointer-events:\x20none;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')['join']('');}setTimeout(()=>{const _0x201064=_0x1b30fc;try{const _0x4d8503=_0x4b3f46[_0x201064(0x3bf)](_0x201064(0x2dc));_0x4d8503[_0x201064(0x4e7)](_0x1cacb1=>{const _0x10ad63=_0x201064;_0x1cacb1['addEventListener'](_0x10ad63(0x156),function(_0x40b08b){const _0x420e39=_0x10ad63;_0x40b08b['preventDefault'](),_0x40b08b[_0x420e39(0x124)]();const _0x3ba81f=this['getAttribute'](_0x420e39(0x3f6)),_0xbac4ab=_0x1940b9['callData']['recentCalls'][_0x3ba81f];window['lovesApp'][_0x420e39(0x147)](_0xbac4ab);}),window['lovesApp'][_0x10ad63(0x16d)](_0x1cacb1,function(){const _0x5e13f1=_0x10ad63,_0x456268=_0x1cacb1[_0x5e13f1(0x5b1)]('data-idx'),_0x5a4c47=_0x1940b9[_0x5e13f1(0x25f)][_0x5e13f1(0xf6)][_0x456268];window[_0x5e13f1(0x484)][_0x5e13f1(0x353)](_0x5a4c47[_0x5e13f1(0x297)]+'的通话记录',()=>{const _0x38785d=_0x5e13f1;_0x1940b9[_0x38785d(0x25f)][_0x38785d(0xf6)]['splice'](_0x456268,0x1),_0x445ea8[_0x38785d(0x18e)]();});});});if(_0x1c4538&&_0x1940b9['callData'][_0x201064(0x1dd)]){const _0x547441=_0x1c4538[_0x201064(0x3bf)](_0x201064(0x28a));_0x547441[_0x201064(0x4e7)](_0x401c17=>{const _0x21971c=_0x201064;_0x401c17[_0x21971c(0x592)]('click',function(_0x3e3a07){const _0x5698cf=_0x21971c;_0x3e3a07[_0x5698cf(0x203)](),_0x3e3a07['stopPropagation']();const _0x3cd544=this['getAttribute'](_0x5698cf(0x3f6)),_0x381509=_0x1940b9[_0x5698cf(0x25f)][_0x5698cf(0x1dd)][_0x3cd544];window[_0x5698cf(0x484)][_0x5698cf(0x28d)](_0x381509);});});}}catch(_0x486f14){console[_0x201064(0x1fd)]('Call\x20bind\x20error',_0x486f14);}},0x32);}else _0x4b3f46&&(_0x4b3f46[_0x1b30fc(0x338)]='<div\x20style=\x22padding:\x2030px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x22>暂无通话记录<br><span\x20style=\x22font-size:\x2012px;\x20margin-top:\x205px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>',_0x1c4538&&(_0x1c4538[_0x1b30fc(0x338)]=_0x1b30fc(0x52c)));});const _0x4ca560=document[_0x112aee(0x199)](_0x112aee(0x10a));if(_0x4ca560)_0x4ca560['onclick']=()=>{const _0x330662=_0x112aee;if(window[_0x330662(0x591)])window[_0x330662(0x591)](_0x9223fd);};const _0x7cecbd=document[_0x112aee(0x199)](_0x112aee(0x45e)),_0x369e26=document[_0x112aee(0x199)](_0x112aee(0x381));_0x7cecbd&&_0x369e26&&(_0x7cecbd[_0x112aee(0x18e)]=()=>{const _0x4a90c3=_0x112aee;if(window[_0x4a90c3(0x128)])window[_0x4a90c3(0x128)](_0x369e26);const _0x4339b4=document['getElementById'](_0x4a90c3(0x597));if(_0x4339b4){if(!_0x1940b9[_0x4a90c3(0x2e3)])_0x4339b4[_0x4a90c3(0x338)]='<div\x20style=\x22padding:\x2050px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>暂无健康数据<br><span\x20style=\x22font-size:\x2013px;\x20margin-top:\x208px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>';else{const _0x2d1e42=new Date(),_0x411559=[-0x2,-0x1,0x0,0x1,0x2]['map'](_0x2951ec=>{const _0x5bf048=_0x4a90c3,_0x1f1d10=new Date(_0x2d1e42);_0x1f1d10[_0x5bf048(0x4ea)](_0x2d1e42[_0x5bf048(0x129)]()+_0x2951ec);const _0x9a9fe=_0x1f1d10[_0x5bf048(0x129)](),_0x7066a7=['日','一','二','三','四','五','六'][_0x1f1d10[_0x5bf048(0x3c6)]()],_0x191942=_0x2951ec===0x0;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20justify-content:\x20center;\x20width:\x2044px;\x20height:\x2056px;\x20border-radius:\x2014px;\x20background:\x20'+(_0x191942?_0x5bf048(0x3f0):_0x5bf048(0x160))+_0x5bf048(0x4d9)+(_0x191942?_0x5bf048(0x1dc):_0x5bf048(0x187))+_0x5bf048(0x52e)+_0x7066a7+_0x5bf048(0x2b0)+_0x9a9fe+_0x5bf048(0x1b3);})['join']('');_0x4339b4[_0x4a90c3(0x338)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20顶部日期选择\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2028px;\x20font-weight:\x20800;\x20color:\x20#111;\x20letter-spacing:\x20-0.5px;\x22>摘要</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x2050%;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x20font-size:\x2014px;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-calendar-day\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2025px;\x20background:\x20#fff;\x20border-radius:\x2020px;\x20padding:\x208px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x411559+_0x4a90c3(0x29c)+(_0x1940b9[_0x4a90c3(0x2e3)]['steps']||'0')+'\x20<span\x20style=\x22font-size:\x2015px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x20letter-spacing:\x200;\x22>步</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20睡眠卡片\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2024px;\x20padding:\x2022px;\x20margin-bottom:\x2015px;\x20border:\x201px\x20solid\x20#f0f0f0;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20color:\x20#111;\x20font-weight:\x20600;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2028px;\x20height:\x2028px;\x20border-radius:\x208px;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22><i\x20class=\x22fas\x20fa-bed\x22\x20style=\x22font-size:\x2012px;\x20color:\x20#5856d6;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>睡眠</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20font-weight:\x20600;\x22>昨晚记录</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2036px;\x20font-weight:\x20800;\x20color:\x20#111;\x20display:\x20flex;\x20align-items:\x20baseline;\x20gap:\x206px;\x20letter-spacing:\x20-0.5px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1940b9[_0x4a90c3(0x2e3)][_0x4a90c3(0x382)]||'0')+_0x4a90c3(0x151)+(_0x1940b9['healthData'][_0x4a90c3(0x4f6)]||'0')+_0x4a90c3(0x1a8)+(_0x1940b9[_0x4a90c3(0x2e3)]['weight']||'-')+_0x4a90c3(0x278)+(_0x1940b9[_0x4a90c3(0x2e3)]['height']||'-')+_0x4a90c3(0x43b);}}});const _0x5bf1f8=document[_0x112aee(0x199)]('friend-health-back-btn');if(_0x5bf1f8)_0x5bf1f8[_0x112aee(0x18e)]=()=>{if(window['closeView'])window['closeView'](_0x369e26);};const _0x43a74a=document[_0x112aee(0x199)]('friend-phone-app-pay'),_0x606689=document[_0x112aee(0x199)](_0x112aee(0x31e));_0x43a74a&&_0x606689&&(_0x43a74a[_0x112aee(0x18e)]=()=>{const _0x5c12cd=_0x112aee;if(window['openView'])window[_0x5c12cd(0x128)](_0x606689);const _0x59aaa8=document[_0x5c12cd(0x199)](_0x5c12cd(0x1a7));if(_0x59aaa8){let _0xfdee93=_0x1940b9[_0x5c12cd(0x25a)];if(!_0xfdee93)_0x59aaa8[_0x5c12cd(0x338)]=_0x5c12cd(0x295);else{let _0x9948f3=_0xfdee93[_0x5c12cd(0x325)];if(!_0x9948f3){const _0xf2ae89=String(_0xfdee93['totalAssets']||'0')[_0x5c12cd(0x563)](/,/g,''),_0x3f0df3=parseFloat(_0xf2ae89)||0x0,_0x126792=_0xfdee93[_0x5c12cd(0x34e)]||[];_0x9948f3=[{'id':_0x5c12cd(0x29b),'bankName':'黑金储蓄卡','cardType':'Debit','cardNumber':_0x5c12cd(0x133),'amount':(_0x3f0df3*0.6)['toLocaleString'](_0x5c12cd(0xda),{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2}),'transactions':_0x126792[_0x5c12cd(0x526)]((_0x5caba3,_0x5828ca)=>_0x5828ca%0x2===0x0)},{'id':_0x5c12cd(0x3e5),'bankName':_0x5c12cd(0x230),'cardType':_0x5c12cd(0x333),'cardNumber':'****\x20****\x20****\x201234','amount':(_0x3f0df3*0.4)[_0x5c12cd(0x305)]('en-US',{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2}),'transactions':_0x126792[_0x5c12cd(0x526)]((_0x1d212d,_0x324e6b)=>_0x324e6b%0x2!==0x0)},{'id':_0x5c12cd(0x15c),'bankName':_0x5c12cd(0x10d),'cardType':_0x5c12cd(0x2da),'cardNumber':'****\x20****\x20****\x209999','amount':'0.00','transactions':[]}],_0x1940b9['payData']&&(_0x1940b9[_0x5c12cd(0x25a)][_0x5c12cd(0x325)]=_0x9948f3);}let _0x57a222=0x0;const _0x3d5e97=()=>{const _0x2e33f3=_0x5c12cd,_0x366766=_0x9948f3[_0x2e33f3(0x2ec)]((_0x1fd8d4,_0xf2b78b)=>{const _0x1fbfc2=_0x2e33f3,_0x442536=_0xf2b78b===_0x57a222;let _0x4ee20b=0x0,_0x163723=0x1,_0x49e456=0x1,_0x3287f0=0x64;const _0x52fb3c=['linear-gradient(135deg,\x20#111,\x20#1a1a1c)',_0x1fbfc2(0x41c),_0x1fbfc2(0x3d5)],_0x4f06c5=_0x52fb3c[_0xf2b78b%_0x52fb3c['length']],_0x539f73='#fff',_0x5bfeb8=_0x1fbfc2(0x42a),_0x199e93=_0x1fbfc2(0x169);if(!_0x442536){let _0x4e5ddc=_0xf2b78b-_0x57a222;_0x4e5ddc<0x0&&(_0x4e5ddc+=_0x9948f3[_0x1fbfc2(0x436)]),_0x4ee20b=0x28+(_0x4e5ddc-0x1)*0x14,_0x163723=0x1-0.06*_0x4e5ddc,_0x3287f0=0xa-_0x4e5ddc;}else _0x4ee20b=-0xa,_0x163723=1.02,_0x3287f0=0x64;const _0x369ef7='transform\x200.6s\x20cubic-bezier(0.34,\x201.56,\x200.64,\x201),\x20box-shadow\x200.6s\x20ease';return _0x1fbfc2(0x57f)+_0xf2b78b+_0x1fbfc2(0x106)+_0x4f06c5+_0x1fbfc2(0x361)+_0x539f73+';\x20\x20transition:\x20'+_0x369ef7+_0x1fbfc2(0x1b0)+_0x4ee20b+'px)\x20scale('+_0x163723+');\x20opacity:\x20'+_0x49e456+_0x1fbfc2(0x57e)+_0x3287f0+';\x20cursor:\x20pointer;\x20border:\x201px\x20solid\x20rgba(255,255,255,0.08);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20flex-start;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20letter-spacing:\x200.5px;\x22>'+_0x1fd8d4[_0x1fbfc2(0x1ab)]+_0x1fbfc2(0x43e)+_0x5bfeb8+_0x1fbfc2(0x410)+_0x199e93+_0x1fbfc2(0x556)+_0x1fd8d4[_0x1fbfc2(0x557)]+_0x1fbfc2(0x12a)+_0x1fd8d4['cardNumber']+_0x1fbfc2(0xd1)+_0x5bfeb8+_0x1fbfc2(0x12d)+_0x1fd8d4['amount']+_0x1fbfc2(0x1ea)+_0x539f73+_0x1fbfc2(0x510);})[_0x2e33f3(0x306)](''),_0x4a828c=_0x9948f3[_0x57a222],_0x2b8acb=_0x4a828c[_0x2e33f3(0x267)]&&_0x4a828c[_0x2e33f3(0x267)]['length']>0x0?_0x4a828c['transactions'][_0x2e33f3(0x2ec)](_0xc2e3c6=>_0x2e33f3(0x27a)+(_0xc2e3c6[_0x2e33f3(0x190)]?_0x2e33f3(0x5a8):'fas\x20fa-arrow-up')+_0x2e33f3(0x210)+(_0xc2e3c6[_0x2e33f3(0x190)]?_0x2e33f3(0x4fe):_0x2e33f3(0xf1))+_0x2e33f3(0x2a8)+_0xc2e3c6['title']+_0x2e33f3(0x48e)+_0xc2e3c6['time']+_0x2e33f3(0x4ef)+(_0xc2e3c6[_0x2e33f3(0x190)]?'+':'')+_0xc2e3c6['amount']+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')['join'](''):_0x2e33f3(0x3cc),_0x298dcd=0x32+Math[_0x2e33f3(0x3dd)](0x0,_0x9948f3[_0x2e33f3(0x436)]-0x2)*0x14,_0x220e55=_0x298dcd+0x2d+0xb4;_0x59aaa8[_0x2e33f3(0x338)]=_0x2e33f3(0x31f)+_0x220e55+_0x2e33f3(0x335)+_0x366766+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x200\x2020px\x2040px;\x22\x20id=\x22pay-tx-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2020px;\x20font-weight:\x20800;\x20color:\x20#111;\x20letter-spacing:\x20-0.5px;\x22>Transactions</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2032px;\x20height:\x2032px;\x20border-radius:\x2016px;\x20background:\x20#e5e5ea;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x20font-size:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2020px;\x20padding:\x200\x2020px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2b8acb+_0x2e33f3(0x40c);const _0x567353=document[_0x2e33f3(0x199)]('pay-cards-container');_0x567353&&_0x567353[_0x2e33f3(0x3bf)]('.pay-wallet-card')[_0x2e33f3(0x4e7)](_0x5b0ec7=>{const _0x191a7e=_0x2e33f3;_0x5b0ec7[_0x191a7e(0x18e)]=()=>{const _0x53db42=_0x191a7e,_0x5bbb0f=parseInt(_0x5b0ec7[_0x53db42(0x5b1)](_0x53db42(0x3f6)));_0x5bbb0f!==_0x57a222&&(_0x57a222=_0x5bbb0f,_0x3d5e97());};});};_0x3d5e97();}}});const _0x394a50=document[_0x112aee(0x199)](_0x112aee(0x159));if(_0x394a50)_0x394a50['onclick']=()=>{const _0x1c6cc3=_0x112aee;if(window[_0x1c6cc3(0x591)])window[_0x1c6cc3(0x591)](_0x606689);};const _0x52120f=document[_0x112aee(0x199)](_0x112aee(0x14b)),_0x6f6b7d=document[_0x112aee(0x199)](_0x112aee(0x42b));_0x52120f&&_0x6f6b7d&&(_0x52120f[_0x112aee(0x18e)]=()=>{const _0x32871a=_0x112aee;if(window[_0x32871a(0x128)])window[_0x32871a(0x128)](_0x6f6b7d);const _0x4f402a=document[_0x32871a(0x199)](_0x32871a(0x336));if(_0x4f402a&&_0x1940b9['gameData']){const _0x5020a8=_0x1940b9['gameData']['recentGames']?_0x1940b9[_0x32871a(0x39d)][_0x32871a(0x10f)][_0x32871a(0x2ec)]((_0x398558,_0x549ad7)=>{const _0x1eec86=_0x32871a;return _0x1eec86(0x114)+_0x549ad7+_0x1eec86(0x205)+(_0x398558[_0x1eec86(0x246)]||'fas\x20fa-gamepad')+_0x1eec86(0x435)+_0x398558['name']+_0x1eec86(0x30c)+_0x398558[_0x1eec86(0x46c)]+_0x1eec86(0x51a)+_0x398558['rank']+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x22>胜率:\x20<span\x20style=\x22color:\x20#fff;\x20font-weight:\x20500;\x22>'+_0x398558[_0x1eec86(0x14f)]+_0x1eec86(0xee);})['join'](''):'';_0x4f402a[_0x32871a(0x338)]=_0x32871a(0x3c1)+(_0x1940b9[_0x32871a(0x39d)]['playerName']||_0x32871a(0x173))+_0x32871a(0x36b)+(_0x1940b9['gameData'][_0x32871a(0x347)]||_0x32871a(0x413))+_0x32871a(0x317)+_0x5020a8+_0x32871a(0x2c5),setTimeout(()=>{const _0x2afdfc=_0x32871a;try{const _0xb645df=_0x4f402a['querySelectorAll'](_0x2afdfc(0x168));_0xb645df['forEach'](_0x310895=>{const _0x1f1b9f=_0x2afdfc;window[_0x1f1b9f(0x484)][_0x1f1b9f(0x16d)](_0x310895,function(){const _0x3481ba=_0x1f1b9f,_0x49cb65=_0x310895[_0x3481ba(0x5b1)](_0x3481ba(0x3f6)),_0x4bb82b=_0x1940b9['gameData'][_0x3481ba(0x10f)][_0x49cb65];window['lovesApp']['showDeleteConfirm'](_0x4bb82b[_0x3481ba(0x297)],()=>{const _0x464ea2=_0x3481ba;_0x1940b9[_0x464ea2(0x39d)][_0x464ea2(0x10f)][_0x464ea2(0x192)](_0x49cb65,0x1),_0x52120f[_0x464ea2(0x18e)]();});}),_0x310895[_0x1f1b9f(0x592)](_0x1f1b9f(0x156),function(_0x34207b){const _0x1c40eb=_0x1f1b9f;_0x34207b[_0x1c40eb(0x203)](),_0x34207b[_0x1c40eb(0x124)]();const _0x5de47e=this[_0x1c40eb(0x5b1)](_0x1c40eb(0x3f6)),_0x39d54a=_0x1940b9[_0x1c40eb(0x39d)][_0x1c40eb(0x10f)][_0x5de47e];let _0x2fe2f9='';if(Array['isArray'](_0x39d54a[_0x1c40eb(0x454)]))_0x2fe2f9+=_0x1c40eb(0x2fe),_0x39d54a[_0x1c40eb(0x454)]['forEach']((_0xcbc6c8,_0x112a51)=>{const _0x5581a1=_0x1c40eb,_0x192bce=_0xcbc6c8[_0x5581a1(0x548)]==='胜利'||_0xcbc6c8[_0x5581a1(0x548)]==='Win',_0x5b2613=_0x192bce?_0x5581a1(0x3f0):_0x5581a1(0x1dc),_0x3f1f3e=_0x192bce?_0x5581a1(0x1dc):_0x5581a1(0x187),_0x5165e1=_0x192bce?_0x5581a1(0x1dc):_0x5581a1(0x3f0),_0xef39e7=_0x192bce?_0x5581a1(0x519):_0x5581a1(0x215),_0xe1b669=_0x192bce?_0x5581a1(0x1dc):_0x5581a1(0x3f0),_0x27a455=_0x192bce?'#fff':_0x5581a1(0x3f0),_0x5985da=encodeURIComponent(JSON['stringify'](_0xcbc6c8));_0x2fe2f9+=_0x5581a1(0x113)+_0x5985da+_0x5581a1(0x202)+_0x5b2613+_0x5581a1(0x2e1)+_0x27a455+';\x20font-size:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x20color:\x20'+_0x3f1f3e+';\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20width:\x20100%;\x20text-align:\x20center;\x22>'+(_0xcbc6c8[_0x5581a1(0x1f9)]||'我方')+_0x5581a1(0x2ed)+_0x5165e1+_0x5581a1(0x337)+_0xcbc6c8[_0x5581a1(0x548)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20color:\x20#8e8e93;\x20margin-top:\x206px;\x22>'+_0xcbc6c8[_0x5581a1(0x429)]+_0x5581a1(0x188)+_0xe1b669+_0x5581a1(0x404)+_0xef39e7+_0x5581a1(0x300)+(_0xcbc6c8[_0x5581a1(0x149)]||'-/-/-')+_0x5581a1(0x283)+_0x27a455+_0x5581a1(0x1ad)+_0x3f1f3e+_0x5581a1(0x229);}),_0x2fe2f9+=_0x1c40eb(0x23d);else typeof _0x39d54a[_0x1c40eb(0x454)]===_0x1c40eb(0x367)&&_0x39d54a[_0x1c40eb(0x454)]&&(_0x2fe2f9+=_0x1c40eb(0x402)+_0x39d54a[_0x1c40eb(0x454)][_0x1c40eb(0x563)](/\n/g,_0x1c40eb(0x262))+_0x1c40eb(0x452));_0x39d54a[_0x1c40eb(0x20e)]&&!Array[_0x1c40eb(0x1b2)](_0x39d54a['matches'])&&(_0x2fe2f9+=_0x1c40eb(0x5bb)+_0x39d54a[_0x1c40eb(0x20e)][_0x1c40eb(0x563)](/\n/g,_0x1c40eb(0x262))+_0x1c40eb(0x28c));_0x39d54a[_0x1c40eb(0x200)]&&!Array[_0x1c40eb(0x1b2)](_0x39d54a[_0x1c40eb(0x454)])&&(_0x2fe2f9+='<div\x20style=\x22background:\x20#111;\x20border-radius:\x2024px;\x20padding:\x2016px;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x208px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22><i\x20class=\x22fas\x20fa-clipboard-list\x22\x20style=\x22color:\x20#fff;\x22></i>\x20局后复盘</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#ccc;\x20line-height:\x201.6;\x20font-size:\x2014px;\x22>'+_0x39d54a[_0x1c40eb(0x200)]['replace'](/\n/g,_0x1c40eb(0x262))+_0x1c40eb(0x452));if(!_0x2fe2f9)_0x2fe2f9='暂无更多数据';window[_0x1c40eb(0x484)][_0x1c40eb(0x493)](_0x39d54a[_0x1c40eb(0x297)]+_0x1c40eb(0x3ed),_0x2fe2f9),setTimeout(()=>{const _0x3283e2=_0x1c40eb,_0x225bf6=document[_0x3283e2(0x3bf)](_0x3283e2(0x51c));_0x225bf6[_0x3283e2(0x4e7)](_0x23c70f=>{const _0x2dcf14=_0x3283e2;_0x23c70f[_0x2dcf14(0x592)](_0x2dcf14(0x156),function(){const _0x16d521=_0x2dcf14,_0x378c20=this[_0x16d521(0x5b1)](_0x16d521(0x2d4));if(_0x378c20)try{const _0x16be9c=JSON[_0x16d521(0x1fe)](decodeURIComponent(_0x378c20));let _0xf29d9d='';_0xf29d9d+=_0x16d521(0x2c0)+(_0x16be9c[_0x16d521(0x548)]==='胜利'||_0x16be9c[_0x16d521(0x548)]===_0x16d521(0x3de)?_0x16d521(0x3f0):'#8e8e93')+_0x16d521(0x365)+_0x16be9c[_0x16d521(0x548)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20background:\x20#e5e5ea;\x20padding:\x204px\x2010px;\x20border-radius:\x208px;\x22>KDA:\x20'+(_0x16be9c[_0x16d521(0x149)]||_0x16d521(0x20b))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20color:\x20#8e8e93;\x20font-size:\x2013px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-clock\x22></i>\x20'+_0x16be9c[_0x16d521(0x429)]+_0x16d521(0x2a4)+(_0x16be9c['hero']||'未知')+_0x16d521(0x48d);if(_0x16be9c[_0x16d521(0x174)]&&Array[_0x16d521(0x1b2)](_0x16be9c[_0x16d521(0x174)])&&_0x16be9c[_0x16d521(0x174)][_0x16d521(0x436)]>0x0){let _0x375a80=_0x16be9c[_0x16d521(0x174)]['map'](_0x391755=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2012px;\x20margin-bottom:\x208px;\x20align-items:\x20flex-start;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#111;\x20font-size:\x2013px;\x20background:\x20#e5e5ea;\x20padding:\x202px\x206px;\x20border-radius:\x204px;\x20flex-shrink:\x200;\x22>'+_0x391755[_0x16d521(0x429)]+_0x16d521(0x20c)+_0x391755['desc']+_0x16d521(0x18d))['join']('');_0xf29d9d+=_0x16d521(0x25b)+_0x375a80+_0x16d521(0x1ee);}_0x16be9c[_0x16d521(0x20e)]&&(_0xf29d9d+=_0x16d521(0x551)+_0x16be9c['innerThoughts'][_0x16d521(0x563)](/\n/g,'<br>')+'”</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20');if(_0x16be9c[_0x16d521(0x200)]||_0x16be9c[_0x16d521(0x464)]){const _0xa288b6=_0x16be9c[_0x16d521(0x200)]||_0x16be9c[_0x16d521(0x464)];_0xf29d9d+=_0x16d521(0x2c4)+_0xa288b6['replace'](/\n/g,_0x16d521(0x262))+_0x16d521(0x18d);}if(!_0xf29d9d)_0xf29d9d='暂无详情数据';window[_0x16d521(0x484)]['showDetailModal']('单局详情',_0xf29d9d);}catch(_0x26908e){console[_0x16d521(0x1fd)](_0x16d521(0x15f),_0x26908e);}});});},0x64);});});}catch(_0x4b7e66){console[_0x2afdfc(0x1fd)](_0x2afdfc(0xf8),_0x4b7e66);}},0x32);}else _0x4f402a&&(_0x4f402a[_0x32871a(0x338)]='<div\x20style=\x22padding:\x2050px\x2020px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>暂无游戏数据<br><span\x20style=\x22font-size:\x2013px;\x20margin-top:\x208px;\x20display:\x20inline-block;\x22>请在设置中生成</span></div>');});const _0x1d6f97=document[_0x112aee(0x199)](_0x112aee(0x289));if(_0x1d6f97)_0x1d6f97['onclick']=()=>{const _0x350897=_0x112aee;if(window[_0x350897(0x591)])window['closeView'](_0x6f6b7d);};const _0x538643=document[_0x112aee(0x199)](_0x112aee(0x2ee)),_0x438db2=document[_0x112aee(0x199)]('friend-imsg-tabbar-me'),_0x1fb02e=document[_0x112aee(0x199)](_0x112aee(0x586)),_0x3764ff=document['getElementById'](_0x112aee(0x26b)),_0x37b75d=document['getElementById'](_0x112aee(0x495));if(_0x538643)_0x538643[_0x112aee(0x18e)]=()=>{const _0xd7e195=_0x112aee;_0x538643[_0xd7e195(0x56a)][_0xd7e195(0x5b3)]='#007aff';if(_0x438db2)_0x438db2[_0xd7e195(0x56a)]['color']='#8e8e93';if(_0x1fb02e)_0x1fb02e[_0xd7e195(0x56a)]['display']=_0xd7e195(0x574);if(_0x3764ff)_0x3764ff[_0xd7e195(0x56a)]['display']=_0xd7e195(0x4fe);if(_0x37b75d)_0x37b75d[_0xd7e195(0x4d2)]='信息';};if(_0x438db2)_0x438db2[_0x112aee(0x18e)]=()=>{const _0x5bda78=_0x112aee;_0x438db2[_0x5bda78(0x56a)][_0x5bda78(0x5b3)]=_0x5bda78(0x50e);if(_0x538643)_0x538643[_0x5bda78(0x56a)][_0x5bda78(0x5b3)]='#8e8e93';if(_0x3764ff)_0x3764ff['style'][_0x5bda78(0x20a)]=_0x5bda78(0x574);if(_0x1fb02e)_0x1fb02e['style']['display']=_0x5bda78(0x4fe);if(_0x37b75d)_0x37b75d[_0x5bda78(0x4d2)]='我';};const _0x545611=document[_0x112aee(0x199)](_0x112aee(0x583)),_0x9df6f7=document['getElementById'](_0x112aee(0x4b5));if(_0x9df6f7)_0x9df6f7[_0x112aee(0x18e)]=()=>{const _0x11e446=_0x112aee;if(window[_0x11e446(0x591)])window[_0x11e446(0x591)](_0x545611);};},'showContactDetailModal':function(_0xebd446){const _0x17fc10=_0x52ecaa;try{const _0x462a14=document[_0x17fc10(0x3bf)]('#loves-contact-detail-modal');_0x462a14[_0x17fc10(0x4e7)](_0x111e12=>_0x111e12[_0x17fc10(0x1aa)]());const _0x566126=document['createElement'](_0x17fc10(0x1f6));_0x566126['id']='loves-contact-detail-modal',_0x566126['style'][_0x17fc10(0x22e)]=_0x17fc10(0x1bc),_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x21b)]='0',_0x566126[_0x17fc10(0x56a)]['left']='0',_0x566126[_0x17fc10(0x56a)]['width']=_0x17fc10(0x4d6),_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x500)]=_0x17fc10(0x4d6),_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x512)]=_0x17fc10(0x263),_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x12f)]=_0x17fc10(0x2f2),_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x20a)]='flex',_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x584)]='column',_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x3d2)]='flex-end';const _0x4727d6=document[_0x17fc10(0x1d5)](_0x17fc10(0x1f6));_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x512)]=_0x17fc10(0x530),_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x125)]='24px',_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x3e1)]=_0x17fc10(0x26d),_0x4727d6[_0x17fc10(0x56a)]['width']=_0x17fc10(0x4d6),_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x37c)]=_0x17fc10(0x38d),_0x4727d6[_0x17fc10(0x56a)]['display']='flex',_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x584)]=_0x17fc10(0x2d2),_0x4727d6[_0x17fc10(0x56a)]['pointerEvents']='auto',_0x4727d6[_0x17fc10(0x56a)]['boxShadow']=_0x17fc10(0x116);const _0x4b3084=document['createElement']('div');_0x4b3084['style']['width']='36px',_0x4b3084[_0x17fc10(0x56a)][_0x17fc10(0x500)]=_0x17fc10(0x181),_0x4b3084[_0x17fc10(0x56a)]['backgroundColor']=_0x17fc10(0x431),_0x4b3084[_0x17fc10(0x56a)][_0x17fc10(0x4f8)]=_0x17fc10(0x549),_0x4b3084[_0x17fc10(0x56a)][_0x17fc10(0x5a2)]=_0x17fc10(0x204);const _0x5b1f7a=document[_0x17fc10(0x1d5)](_0x17fc10(0x1f6));_0x5b1f7a['style'][_0x17fc10(0x574)]='1',_0x5b1f7a[_0x17fc10(0x56a)][_0x17fc10(0x4ce)]=_0x17fc10(0x4e5),_0x5b1f7a[_0x17fc10(0x56a)][_0x17fc10(0x314)]='0\x2020px\x2020px';const _0x4d5285=_0x17fc10(0x284)+_0xebd446[_0x17fc10(0x297)]+_0x17fc10(0x508),_0x13ad6a=_0x17fc10(0x193),_0x45018b=_0x17fc10(0x3e7)+(_0xebd446[_0x17fc10(0x2d5)]||_0x17fc10(0x53c))+_0x17fc10(0x4c6)+(_0xebd446[_0x17fc10(0x245)]||_0x17fc10(0x503))+_0x17fc10(0x28b),_0x2c9aee=_0x17fc10(0x24e)+(_0xebd446[_0x17fc10(0x170)]||_0x17fc10(0x330))+_0x17fc10(0x516);_0x5b1f7a[_0x17fc10(0x338)]=_0x4d5285+_0x13ad6a+_0x45018b+_0x2c9aee,_0x4727d6[_0x17fc10(0x4ac)](_0x4b3084),_0x4727d6[_0x17fc10(0x4ac)](_0x5b1f7a),_0x566126[_0x17fc10(0x592)](_0x17fc10(0x156),_0x41f701=>{const _0x1b17d9=_0x17fc10;_0x41f701[_0x1b17d9(0x4fa)]===_0x566126&&(_0x566126['style'][_0x1b17d9(0x539)]='0',_0x4727d6[_0x1b17d9(0x56a)][_0x1b17d9(0x4fd)]=_0x1b17d9(0x17f),setTimeout(()=>_0x566126['remove'](),0xfa));}),_0x566126['style'][_0x17fc10(0x539)]='0',_0x566126['style'][_0x17fc10(0x3a5)]=_0x17fc10(0x467),_0x4727d6[_0x17fc10(0x56a)]['transform']=_0x17fc10(0x17f),_0x4727d6[_0x17fc10(0x56a)]['transition']=_0x17fc10(0x4de),_0x566126[_0x17fc10(0x4ac)](_0x4727d6),document['body']['appendChild'](_0x566126),void _0x566126['offsetWidth'],_0x566126[_0x17fc10(0x56a)][_0x17fc10(0x539)]='1',_0x4727d6[_0x17fc10(0x56a)][_0x17fc10(0x4fd)]=_0x17fc10(0x270);}catch(_0x54a276){console['error']('Error\x20showing\x20contact\x20detail\x20modal:',_0x54a276);}},'showCallDetailModal':function(_0x3def59){const _0x2ee8cf=_0x52ecaa;try{const _0x1aa55b=document[_0x2ee8cf(0x3bf)]('#loves-call-detail-modal');_0x1aa55b[_0x2ee8cf(0x4e7)](_0x55bbd3=>_0x55bbd3[_0x2ee8cf(0x1aa)]());const _0x19b8c9=document['createElement'](_0x2ee8cf(0x1f6));_0x19b8c9['id']=_0x2ee8cf(0x3d9),_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x22e)]='fixed',_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x21b)]='0',_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x543)]='0',_0x19b8c9[_0x2ee8cf(0x56a)]['width']=_0x2ee8cf(0x4d6),_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x500)]=_0x2ee8cf(0x4d6),_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x512)]=_0x2ee8cf(0x263),_0x19b8c9['style'][_0x2ee8cf(0x12f)]=_0x2ee8cf(0x2f2),_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x20a)]=_0x2ee8cf(0x574),_0x19b8c9[_0x2ee8cf(0x56a)]['flexDirection']='column',_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x3d2)]='flex-end';let _0x283205=_0x2ee8cf(0x4bc),_0x2d41de=_0x2ee8cf(0x187);if(_0x3def59['type']===_0x2ee8cf(0x59b))_0x283205=_0x2ee8cf(0x309),_0x2d41de=_0x2ee8cf(0x507);else _0x3def59['type']===_0x2ee8cf(0x39e)?_0x283205=_0x2ee8cf(0x553):_0x283205=_0x2ee8cf(0x3d3);const _0x168c08=_0x3def59[_0x2ee8cf(0x39c)]||_0x2ee8cf(0x1d3),_0xb113dc=document[_0x2ee8cf(0x1d5)](_0x2ee8cf(0x1f6));_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x512)]=_0x2ee8cf(0x530),_0xb113dc['style'][_0x2ee8cf(0x125)]='24px',_0xb113dc['style'][_0x2ee8cf(0x3e1)]='24px',_0xb113dc['style']['width']='100%',_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x37c)]=_0x2ee8cf(0x38d),_0xb113dc['style'][_0x2ee8cf(0x20a)]=_0x2ee8cf(0x574),_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x584)]=_0x2ee8cf(0x2d2),_0xb113dc['style'][_0x2ee8cf(0x398)]=_0x2ee8cf(0x4e5),_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x293)]='0\x20-4px\x2020px\x20rgba(0,0,0,0.1)';const _0x4798a4=document[_0x2ee8cf(0x1d5)]('div');_0x4798a4[_0x2ee8cf(0x56a)][_0x2ee8cf(0x101)]='36px',_0x4798a4[_0x2ee8cf(0x56a)][_0x2ee8cf(0x500)]=_0x2ee8cf(0x181),_0x4798a4[_0x2ee8cf(0x56a)][_0x2ee8cf(0x512)]=_0x2ee8cf(0x431),_0x4798a4[_0x2ee8cf(0x56a)][_0x2ee8cf(0x4f8)]='3px',_0x4798a4['style'][_0x2ee8cf(0x5a2)]=_0x2ee8cf(0x204);const _0x28c687=document['createElement'](_0x2ee8cf(0x1f6));_0x28c687[_0x2ee8cf(0x56a)][_0x2ee8cf(0x574)]='1',_0x28c687[_0x2ee8cf(0x56a)][_0x2ee8cf(0x4ce)]=_0x2ee8cf(0x4e5),_0x28c687[_0x2ee8cf(0x56a)]['padding']=_0x2ee8cf(0x14d);const _0x32eb26='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20margin-bottom:\x2025px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background:\x20#e5e5ea;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2034px;\x20margin-bottom:\x2010px;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2024px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>'+_0x3def59[_0x2ee8cf(0x297)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x52d999=_0x2ee8cf(0x193),_0x2675c8='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x20margin-bottom:\x208px;\x22>'+_0x3def59['time']+_0x2ee8cf(0x38f)+_0x2d41de+_0x2ee8cf(0x365)+_0x283205+_0x2ee8cf(0x508),_0x21c9d9=_0x2ee8cf(0x3a2)+_0x168c08[_0x2ee8cf(0x563)](/\n/g,_0x2ee8cf(0x262))+_0x2ee8cf(0x516);_0x28c687[_0x2ee8cf(0x338)]=_0x32eb26+_0x52d999+_0x2675c8+_0x21c9d9,_0xb113dc['appendChild'](_0x4798a4),_0xb113dc['appendChild'](_0x28c687),_0x19b8c9[_0x2ee8cf(0x592)](_0x2ee8cf(0x156),_0x39e797=>{const _0x21de50=_0x2ee8cf;_0x39e797[_0x21de50(0x4fa)]===_0x19b8c9&&(_0x19b8c9['style'][_0x21de50(0x539)]='0',_0xb113dc[_0x21de50(0x56a)][_0x21de50(0x4fd)]='translateY(100%)',setTimeout(()=>_0x19b8c9['remove'](),0xfa));}),_0x19b8c9['style'][_0x2ee8cf(0x539)]='0',_0x19b8c9[_0x2ee8cf(0x56a)][_0x2ee8cf(0x3a5)]=_0x2ee8cf(0x467),_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x4fd)]=_0x2ee8cf(0x17f),_0xb113dc[_0x2ee8cf(0x56a)][_0x2ee8cf(0x3a5)]=_0x2ee8cf(0x4de),_0x19b8c9[_0x2ee8cf(0x4ac)](_0xb113dc),document[_0x2ee8cf(0x350)][_0x2ee8cf(0x4ac)](_0x19b8c9),void _0x19b8c9[_0x2ee8cf(0x126)],_0x19b8c9['style'][_0x2ee8cf(0x539)]='1',_0xb113dc[_0x2ee8cf(0x56a)]['transform']=_0x2ee8cf(0x270);}catch(_0x3b8bdc){console[_0x2ee8cf(0x1fd)]('Error\x20showing\x20call\x20detail\x20modal:',_0x3b8bdc);}},'showDetailModal':function(_0x5ac075,_0x52a8ee){const _0x7f18e5=_0x52ecaa;try{const _0x168a95=document['querySelectorAll'](_0x7f18e5(0x1a4));_0x168a95[_0x7f18e5(0x4e7)](_0x2c0a9d=>_0x2c0a9d['remove']());const _0x1a0d10=document['createElement'](_0x7f18e5(0x1f6));_0x1a0d10['id']=_0x7f18e5(0x108),_0x1a0d10[_0x7f18e5(0x56a)]['position']=_0x7f18e5(0x1bc),_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x21b)]='0',_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x543)]='0',_0x1a0d10['style'][_0x7f18e5(0x101)]=_0x7f18e5(0x4d6),_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x500)]=_0x7f18e5(0x4d6),_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x512)]=_0x7f18e5(0x521),_0x1a0d10[_0x7f18e5(0x56a)]['zIndex']=_0x7f18e5(0x2f2),_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x20a)]=_0x7f18e5(0x574),_0x1a0d10[_0x7f18e5(0x56a)][_0x7f18e5(0x3d2)]=_0x7f18e5(0x127),_0x1a0d10['style']['alignItems']=_0x7f18e5(0x127);const _0x18e666=document[_0x7f18e5(0x1d5)]('div');_0x18e666['style'][_0x7f18e5(0x512)]=_0x7f18e5(0x1dc),_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x4f8)]=_0x7f18e5(0x28e),_0x18e666[_0x7f18e5(0x56a)]['width']=_0x7f18e5(0x3a6),_0x18e666['style'][_0x7f18e5(0xce)]=_0x7f18e5(0x447),_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x314)]=_0x7f18e5(0x1cf),_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x293)]=_0x7f18e5(0x2bb),_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x22e)]=_0x7f18e5(0x1d1),_0x18e666[_0x7f18e5(0x56a)]['maxHeight']=_0x7f18e5(0x3a6),_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x4ce)]='auto',_0x18e666[_0x7f18e5(0x56a)][_0x7f18e5(0x398)]=_0x7f18e5(0x4e5);const _0x425efe=document[_0x7f18e5(0x1d5)]('i');_0x425efe['className']=_0x7f18e5(0xca),_0x425efe[_0x7f18e5(0x56a)][_0x7f18e5(0x22e)]=_0x7f18e5(0x2fa),_0x425efe['style']['top']=_0x7f18e5(0x4c8),_0x425efe[_0x7f18e5(0x56a)][_0x7f18e5(0x191)]=_0x7f18e5(0x4c8),_0x425efe[_0x7f18e5(0x56a)][_0x7f18e5(0x2d0)]=_0x7f18e5(0x1cf),_0x425efe[_0x7f18e5(0x56a)]['color']='#8e8e93',_0x425efe[_0x7f18e5(0x56a)][_0x7f18e5(0x291)]=_0x7f18e5(0x2b4),_0x425efe[_0x7f18e5(0x18e)]=_0x4ff975=>{const _0x174196=_0x7f18e5;_0x4ff975[_0x174196(0x124)](),_0x1a0d10[_0x174196(0x1aa)]();};const _0x1e9028=document['createElement']('div');_0x1e9028['id']='loves-detail-modal-title',_0x1e9028['style'][_0x7f18e5(0x2d0)]=_0x7f18e5(0x1cf),_0x1e9028['style']['fontWeight']=_0x7f18e5(0x18b),_0x1e9028['style'][_0x7f18e5(0x5b3)]=_0x7f18e5(0x3f0),_0x1e9028[_0x7f18e5(0x56a)][_0x7f18e5(0x36e)]='18px',_0x1e9028[_0x7f18e5(0x56a)][_0x7f18e5(0x342)]=_0x7f18e5(0x1cf),_0x1e9028[_0x7f18e5(0x2a6)]=_0x5ac075;const _0x54f7ae=document[_0x7f18e5(0x1d5)](_0x7f18e5(0x1f6));_0x54f7ae['id']=_0x7f18e5(0x566),_0x54f7ae[_0x7f18e5(0x56a)][_0x7f18e5(0x2d0)]=_0x7f18e5(0x4c8),_0x54f7ae['style'][_0x7f18e5(0x5b3)]=_0x7f18e5(0x519),_0x54f7ae[_0x7f18e5(0x56a)]['lineHeight']=_0x7f18e5(0x357),_0x54f7ae[_0x7f18e5(0x338)]=_0x52a8ee,_0x18e666[_0x7f18e5(0x4ac)](_0x425efe),_0x18e666['appendChild'](_0x1e9028),_0x18e666[_0x7f18e5(0x4ac)](_0x54f7ae),_0x1a0d10[_0x7f18e5(0x4ac)](_0x18e666),_0x1a0d10[_0x7f18e5(0x592)](_0x7f18e5(0x156),_0x379d99=>{const _0x175313=_0x7f18e5;_0x379d99[_0x175313(0x4fa)]===_0x1a0d10&&_0x1a0d10[_0x175313(0x1aa)]();}),document['body']['appendChild'](_0x1a0d10);}catch(_0x2548ab){console[_0x7f18e5(0x1fd)]('Error\x20showing\x20detail\x20modal:',_0x2548ab);}},'showBrowserDetailModal':function(_0x236cfa,_0x25baf9,_0x5dd254=![]){const _0x441dd1=_0x52ecaa;try{const _0x5bb2ea=document[_0x441dd1(0x3bf)](_0x441dd1(0x52a));_0x5bb2ea[_0x441dd1(0x4e7)](_0x10ce72=>_0x10ce72[_0x441dd1(0x1aa)]());const _0x2b43cd=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x2b43cd['id']=_0x441dd1(0x4c3),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x22e)]=_0x441dd1(0x1bc),_0x2b43cd['style']['top']='0',_0x2b43cd[_0x441dd1(0x56a)]['left']='0',_0x2b43cd['style'][_0x441dd1(0x101)]=_0x441dd1(0x4d6),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x500)]=_0x441dd1(0x4d6),_0x2b43cd[_0x441dd1(0x56a)]['backgroundColor']=_0x441dd1(0x521),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x12f)]=_0x441dd1(0x2f2),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x20a)]=_0x441dd1(0x574),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x584)]=_0x441dd1(0x2d2),_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x3d2)]=_0x441dd1(0x1c3);const _0xd865dd=_0x5dd254?_0x441dd1(0x1e1):_0x441dd1(0x215),_0x21d98b=_0x5dd254?_0x441dd1(0x4f2):'#fff',_0x50062f=_0x5dd254?_0x441dd1(0x1dc):'#111',_0x5c96f9=_0x5dd254?_0x441dd1(0x431):'#333',_0x534611=_0x5dd254?_0x441dd1(0x160):_0x441dd1(0x57b),_0x43de93=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x512)]=_0xd865dd,_0x43de93[_0x441dd1(0x56a)]['borderTopLeftRadius']=_0x441dd1(0x26d),_0x43de93['style'][_0x441dd1(0x3e1)]=_0x441dd1(0x26d),_0x43de93[_0x441dd1(0x56a)]['width']='100%',_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x500)]=_0x441dd1(0x449),_0x43de93[_0x441dd1(0x56a)]['display']=_0x441dd1(0x574),_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x584)]='column',_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x398)]='auto',_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x293)]=_0x441dd1(0x1b5);const _0x19282c=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x500)]=_0x441dd1(0x3fe),_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x20a)]=_0x441dd1(0x574),_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x1ef)]='center',_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x3d2)]=_0x441dd1(0x46d),_0x19282c['style'][_0x441dd1(0x314)]=_0x441dd1(0x59e),_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x512)]=_0xd865dd,_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x3e4)]=_0x441dd1(0x155)+_0x534611,_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x125)]=_0x441dd1(0x26d),_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x3e1)]=_0x441dd1(0x26d),_0x19282c[_0x441dd1(0x56a)][_0x441dd1(0x33e)]='0';const _0x99b8cf=document['createElement']('div');_0x99b8cf[_0x441dd1(0x2a6)]='完成',_0x99b8cf['style']['color']=_0x50062f,_0x99b8cf['style']['fontSize']=_0x441dd1(0x28e),_0x99b8cf[_0x441dd1(0x56a)][_0x441dd1(0x408)]=_0x441dd1(0x334),_0x99b8cf['style'][_0x441dd1(0x291)]=_0x441dd1(0x2b4),_0x99b8cf['onclick']=()=>{const _0x50f103=_0x441dd1;_0x2b43cd['style']['opacity']='0',_0x43de93[_0x50f103(0x56a)][_0x50f103(0x4fd)]=_0x50f103(0x17f),setTimeout(()=>_0x2b43cd[_0x50f103(0x1aa)](),0xfa);};const _0x3f1424=document[_0x441dd1(0x1d5)]('div');_0x3f1424['style'][_0x441dd1(0x20a)]=_0x441dd1(0x574),_0x3f1424[_0x441dd1(0x56a)][_0x441dd1(0x1ef)]=_0x441dd1(0x127),_0x3f1424[_0x441dd1(0x56a)]['justifyContent']=_0x441dd1(0x127),_0x3f1424['style'][_0x441dd1(0x599)]=_0x441dd1(0x274),_0x3f1424['style'][_0x441dd1(0x2d0)]=_0x441dd1(0x451),_0x3f1424['style']['fontWeight']='500',_0x3f1424['style'][_0x441dd1(0x5b3)]=_0x441dd1(0x187),_0x3f1424[_0x441dd1(0x56a)]['flex']='1',_0x3f1424[_0x441dd1(0x338)]='<i\x20class=\x22fas\x20fa-lock\x22\x20style=\x22font-size:\x2010px;\x22></i>\x20search.com';const _0x5a704f=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x5a704f[_0x441dd1(0x338)]=_0x441dd1(0x1fb),_0x5a704f[_0x441dd1(0x56a)][_0x441dd1(0x5b3)]=_0x50062f,_0x5a704f[_0x441dd1(0x56a)][_0x441dd1(0x2d0)]=_0x441dd1(0x1cf),_0x19282c[_0x441dd1(0x4ac)](_0x99b8cf),_0x19282c[_0x441dd1(0x4ac)](_0x3f1424),_0x19282c[_0x441dd1(0x4ac)](_0x5a704f);const _0x3a5c78=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x3a5c78[_0x441dd1(0x56a)][_0x441dd1(0x574)]='1',_0x3a5c78[_0x441dd1(0x56a)]['overflowY']=_0x441dd1(0x4e5),_0x3a5c78['style'][_0x441dd1(0x314)]='0',_0x3a5c78['style'][_0x441dd1(0x512)]=_0xd865dd;const _0x302b27=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x302b27['style'][_0x441dd1(0x512)]=_0x21d98b,_0x302b27[_0x441dd1(0x56a)][_0x441dd1(0x5a2)]=_0x441dd1(0x1cf),_0x302b27[_0x441dd1(0x56a)]['borderRadius']=_0x441dd1(0x26d),_0x302b27['style'][_0x441dd1(0x314)]='30px\x2024px',_0x302b27[_0x441dd1(0x56a)][_0x441dd1(0x293)]=_0x5dd254?_0x441dd1(0x540):_0x441dd1(0x326);const _0x46198f=document[_0x441dd1(0x1d5)]('h1');_0x46198f[_0x441dd1(0x56a)][_0x441dd1(0x2d0)]='24px',_0x46198f['style'][_0x441dd1(0x408)]=_0x441dd1(0x18b),_0x46198f[_0x441dd1(0x56a)]['color']=_0x50062f,_0x46198f['style'][_0x441dd1(0x36e)]=_0x441dd1(0x26d),_0x46198f[_0x441dd1(0x56a)]['lineHeight']=_0x441dd1(0x3c8),_0x46198f[_0x441dd1(0x56a)][_0x441dd1(0x1f7)]=_0x441dd1(0x44a),_0x46198f['innerText']=_0x236cfa;const _0x37e3a6=document[_0x441dd1(0x1d5)](_0x441dd1(0x1f6));_0x37e3a6[_0x441dd1(0x56a)][_0x441dd1(0x2d0)]=_0x441dd1(0x28e),_0x37e3a6[_0x441dd1(0x56a)][_0x441dd1(0x5b3)]=_0x5c96f9,_0x37e3a6[_0x441dd1(0x56a)]['lineHeight']=_0x441dd1(0x3fb),_0x37e3a6['style'][_0x441dd1(0x298)]=_0x441dd1(0x1ff),_0x37e3a6[_0x441dd1(0x338)]=decodeURIComponent(_0x25baf9),_0x302b27[_0x441dd1(0x4ac)](_0x46198f),_0x302b27[_0x441dd1(0x4ac)](_0x37e3a6),_0x3a5c78[_0x441dd1(0x4ac)](_0x302b27),_0x43de93['appendChild'](_0x19282c),_0x43de93[_0x441dd1(0x4ac)](_0x3a5c78),_0x2b43cd[_0x441dd1(0x592)](_0x441dd1(0x156),_0xe15f42=>{const _0x3d9970=_0x441dd1;_0xe15f42[_0x3d9970(0x4fa)]===_0x2b43cd&&(_0x2b43cd[_0x3d9970(0x56a)][_0x3d9970(0x539)]='0',_0x43de93[_0x3d9970(0x56a)][_0x3d9970(0x4fd)]='translateY(100%)',setTimeout(()=>_0x2b43cd[_0x3d9970(0x1aa)](),0xfa));}),_0x2b43cd[_0x441dd1(0x56a)]['opacity']='0',_0x2b43cd[_0x441dd1(0x56a)][_0x441dd1(0x3a5)]=_0x441dd1(0x467),_0x43de93['style'][_0x441dd1(0x4fd)]=_0x441dd1(0x17f),_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x3a5)]=_0x441dd1(0x4de),_0x2b43cd['appendChild'](_0x43de93),document[_0x441dd1(0x350)][_0x441dd1(0x4ac)](_0x2b43cd),void _0x2b43cd['offsetWidth'],_0x2b43cd['style']['opacity']='1',_0x43de93[_0x441dd1(0x56a)][_0x441dd1(0x4fd)]=_0x441dd1(0x270);}catch(_0x409934){console[_0x441dd1(0x1fd)](_0x441dd1(0x226),_0x409934);}},'switchImsgAccount':function(_0xe04851,_0x485a16){const _0x2252e3=_0x52ecaa;if(!_0x485a16)return;this['currentImsgAccount']=_0xe04851;const _0x1a2b92=document[_0x2252e3(0x199)](_0x2252e3(0x485));if(window[_0x2252e3(0x591)]&&_0x1a2b92)window[_0x2252e3(0x591)](_0x1a2b92);this[_0x2252e3(0x33b)]&&this['renderFriendImsg'](this['currentFriend']);},'renderFriendImsg':function(_0x57348d){const _0xa11e34=_0x52ecaa,_0x5afc14=document[_0xa11e34(0x199)](_0xa11e34(0x586)),_0x590aba=document[_0xa11e34(0x199)](_0xa11e34(0x13b)),_0x55cd15=document['getElementById'](_0xa11e34(0x105)),_0xf80de=document[_0xa11e34(0x199)](_0xa11e34(0x559));if(!_0x5afc14)return;let _0x3c1ad5=this[_0xa11e34(0xff)]==='main',_0x531325=[],_0x42791b=[],_0x52745b='小号',_0x14573f=window[_0xa11e34(0xfa)]?.[_0xa11e34(0x50c)]?.[_0xa11e34(0x297)]||'我';_0x57348d[_0xa11e34(0x1da)]&&(Array[_0xa11e34(0x1b2)](_0x57348d['imessageData'])?_0x531325=_0x57348d[_0xa11e34(0x1da)]:(_0x531325=_0x57348d[_0xa11e34(0x1da)][_0xa11e34(0x244)]?.[_0xa11e34(0x10c)]||[],_0x42791b=_0x57348d[_0xa11e34(0x1da)]['altAccount']?.[_0xa11e34(0x10c)]||[],_0x52745b=_0x57348d[_0xa11e34(0x1da)]['altAccount']?.[_0xa11e34(0x297)]||'小号',_0x57348d[_0xa11e34(0x1da)][_0xa11e34(0x244)]?.[_0xa11e34(0x2b8)]&&(_0x14573f=_0x57348d[_0xa11e34(0x1da)][_0xa11e34(0x244)]['userRemark'])));if(_0x3c1ad5){if(_0x590aba)_0x590aba[_0xa11e34(0x4d2)]=_0x57348d[_0xa11e34(0x3c4)]||_0x57348d['realname']||'TA';if(_0x57348d[_0xa11e34(0x572)]){_0x55cd15&&(_0x55cd15[_0xa11e34(0x480)]=_0x57348d[_0xa11e34(0x572)],_0x55cd15[_0xa11e34(0x56a)][_0xa11e34(0x20a)]=_0xa11e34(0x319));if(_0xf80de)_0xf80de['style'][_0xa11e34(0x20a)]='none';}else{if(_0x55cd15)_0x55cd15[_0xa11e34(0x56a)][_0xa11e34(0x20a)]=_0xa11e34(0x4fe);_0xf80de&&(_0xf80de[_0xa11e34(0x56a)][_0xa11e34(0x20a)]=_0xa11e34(0x319),_0xf80de[_0xa11e34(0x483)]=_0xa11e34(0x276));}}else{if(_0x590aba)_0x590aba['textContent']=_0x52745b;if(_0x55cd15)_0x55cd15[_0xa11e34(0x56a)][_0xa11e34(0x20a)]='none';_0xf80de&&(_0xf80de[_0xa11e34(0x56a)][_0xa11e34(0x20a)]=_0xa11e34(0x319),_0xf80de[_0xa11e34(0x483)]=_0xa11e34(0x2de));}_0x5afc14[_0xa11e34(0x338)]='';if(_0x3c1ad5){const _0x2c1e70=window[_0xa11e34(0x351)]?.[_0xa11e34(0x572)]||window[_0xa11e34(0xfa)]?.[_0xa11e34(0x50c)]?.[_0xa11e34(0x572)],_0x2d0cb4=window[_0xa11e34(0xfa)]?.[_0xa11e34(0x43c)]?.[_0x57348d['id']]||[],_0x386efb=_0x2d0cb4[_0xa11e34(0x436)]>0x0?_0x2d0cb4[_0x2d0cb4[_0xa11e34(0x436)]-0x1][_0xa11e34(0x1d7)]:_0xa11e34(0x362),_0x562506=_0xa11e34(0x3b0)+(_0x2c1e70?_0xa11e34(0xea)+_0x2c1e70+_0xa11e34(0xcd):_0xa11e34(0x558))+_0xa11e34(0x3cb)+_0x14573f+_0xa11e34(0xe6)+_0x386efb+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>',_0x536df0=document[_0xa11e34(0x1d5)](_0xa11e34(0x1f6));_0x536df0[_0xa11e34(0x338)]=_0x562506;const _0x488906=_0x536df0[_0xa11e34(0x16a)];_0x488906[_0xa11e34(0x18e)]=()=>{const _0x521357=_0xa11e34,_0x2e37cd=document['getElementById']('friend-reverse-chat-view');if(_0x2e37cd){if(window[_0x521357(0x128)])window[_0x521357(0x128)](_0x2e37cd);document[_0x521357(0x199)](_0x521357(0x3a3))[_0x521357(0x4d2)]=_0x14573f;const _0x2f88a7=document['getElementById']('reverse-chat-user-avatar'),_0x5bdaf3=document[_0x521357(0x199)](_0x521357(0x100));if(_0x2c1e70){_0x2f88a7&&(_0x2f88a7[_0x521357(0x480)]=_0x2c1e70,_0x2f88a7[_0x521357(0x56a)][_0x521357(0x20a)]=_0x521357(0x319));if(_0x5bdaf3)_0x5bdaf3[_0x521357(0x56a)][_0x521357(0x20a)]=_0x521357(0x4fe);}else{if(_0x2f88a7)_0x2f88a7['style'][_0x521357(0x20a)]='none';if(_0x5bdaf3)_0x5bdaf3[_0x521357(0x56a)]['display']=_0x521357(0x319);}const _0x8b342f=document[_0x521357(0x199)](_0x521357(0x4ff));if(_0x8b342f){_0x8b342f['innerHTML']=_0x521357(0x163);const _0x21a606=window[_0x521357(0xfa)]?.['messages']?.[_0x57348d['id']]||[],_0x5dc692=_0x21a606['slice'](-0xa);_0x5dc692['forEach'](_0x15c066=>{const _0x2f296d=_0x521357,_0x536382=document[_0x2f296d(0x1d5)]('div');_0x15c066[_0x2f296d(0xec)]==='me'?_0x536382[_0x2f296d(0x483)]=_0x2f296d(0x154):_0x536382[_0x2f296d(0x483)]=_0x2f296d(0x1e9),_0x536382['textContent']=_0x15c066[_0x2f296d(0x1d7)]||_0x2f296d(0x48b),_0x8b342f['appendChild'](_0x536382);}),setTimeout(()=>_0x8b342f['scrollTop']=_0x8b342f[_0x521357(0x473)],0x32);}}},_0x5afc14[_0xa11e34(0x4ac)](_0x488906);}const _0x15e17a=_0x3c1ad5?_0x531325:_0x42791b,_0x279326=_0x15e17a[_0xa11e34(0x2ec)]((_0x2570fc,_0x44db11)=>{const _0x14e6ad=_0xa11e34,_0x57aacb=_0x2570fc[_0x14e6ad(0x43c)]&&_0x2570fc[_0x14e6ad(0x43c)]['length']>0x0?_0x2570fc[_0x14e6ad(0x43c)][_0x2570fc[_0x14e6ad(0x43c)][_0x14e6ad(0x436)]-0x1]:null,_0x294681=_0x57aacb?_0x57aacb[_0x14e6ad(0x1d7)]:'...';let _0x3eaa33=_0x14e6ad(0x558);if(_0x2570fc[_0x14e6ad(0x10e)]===_0x14e6ad(0x144))_0x3eaa33='<i\x20class=\x22fas\x20fa-folder\x22\x20style=\x22color:\x20#111;\x20font-size:\x2020px;\x22></i>';else{if(_0x2570fc[_0x14e6ad(0x10e)]===_0x14e6ad(0x17c))_0x3eaa33=_0x14e6ad(0x23f);}return _0x14e6ad(0x4a7)+_0x44db11+'\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20padding:\x2016px;\x20border-radius:\x2020px;\x20background:\x20#fff;\x20\x20cursor:\x20pointer;\x22\x20onclick=\x22window.lovesApp.openGeneratedChat(\x27'+(_0x3c1ad5?'main':_0x14e6ad(0x4ed))+_0x14e6ad(0x34a)+_0x44db11+_0x14e6ad(0x46a)+encodeURIComponent(JSON[_0x14e6ad(0x2f4)](_0x2570fc))+_0x14e6ad(0x377)+_0x3eaa33+_0x14e6ad(0x252)+(_0x2570fc[_0x14e6ad(0x10e)]||_0x14e6ad(0x42e))+_0x14e6ad(0x21d)+_0x294681+_0x14e6ad(0x1ce);})['join']('');if(_0x279326){const _0x29dfd6=document[_0xa11e34(0x1d5)]('div');_0x29dfd6[_0xa11e34(0x338)]=_0x279326;while(_0x29dfd6['firstChild']){_0x5afc14[_0xa11e34(0x4ac)](_0x29dfd6[_0xa11e34(0x3f2)]);}}else{if(!_0x3c1ad5){const _0x1f64f2=document[_0xa11e34(0x1d5)](_0xa11e34(0x1f6));_0x1f64f2[_0xa11e34(0x56a)][_0xa11e34(0x4e0)]=_0xa11e34(0x310),_0x1f64f2[_0xa11e34(0x338)]=_0xa11e34(0x307),_0x5afc14[_0xa11e34(0x4ac)](_0x1f64f2);}}setTimeout(()=>{const _0x570dd1=_0xa11e34,_0x5f2b1c=_0x5afc14['querySelectorAll'](_0x570dd1(0x3b7));_0x5f2b1c['forEach'](_0x2d1581=>{const _0x16750=_0x570dd1;window[_0x16750(0x484)][_0x16750(0x16d)](_0x2d1581,function(){const _0x1e20fb=_0x16750,_0x14b986=_0x2d1581['getAttribute'](_0x1e20fb(0x3f6)),_0x1c081d=_0x15e17a[_0x14b986];window[_0x1e20fb(0x484)][_0x1e20fb(0x353)](_0x1c081d[_0x1e20fb(0x10e)],()=>{const _0x5c94df=_0x1e20fb;_0x15e17a[_0x5c94df(0x192)](_0x14b986,0x1),window['lovesApp'][_0x5c94df(0x378)](_0x57348d);});});});},0x32);},'openGeneratedChat':function(_0x43c4f4,_0x3f89f7,_0x754bc6){const _0xa68810=_0x52ecaa;try{const _0x549df2=JSON[_0xa68810(0x1fe)](decodeURIComponent(_0x754bc6)),_0x144710=document[_0xa68810(0x199)](_0xa68810(0x583));if(_0x144710){if(window[_0xa68810(0x128)])window[_0xa68810(0x128)](_0x144710);document[_0xa68810(0x199)](_0xa68810(0x3a3))[_0xa68810(0x4d2)]=_0x549df2[_0xa68810(0x10e)]||'联系人';const _0x552f48=document[_0xa68810(0x199)](_0xa68810(0x561)),_0x3e5b39=document['getElementById']('reverse-chat-user-icon');if(_0x552f48)_0x552f48[_0xa68810(0x56a)][_0xa68810(0x20a)]='none';if(_0x3e5b39)_0x3e5b39['style'][_0xa68810(0x20a)]=_0xa68810(0x319);const _0x1bd6e8=document[_0xa68810(0x199)](_0xa68810(0x4ff));if(_0x1bd6e8){_0x1bd6e8[_0xa68810(0x338)]=_0xa68810(0x47c);const _0x1aeae1=_0x549df2[_0xa68810(0x43c)]||[];_0x1aeae1[_0xa68810(0x4e7)](_0x4d397a=>{const _0x53739c=_0xa68810,_0xe39af7=document['createElement']('div');_0x4d397a['sender']===_0x53739c(0x2cf)?(_0xe39af7[_0x53739c(0x483)]=_0x53739c(0x154),_0xe39af7[_0x53739c(0x56a)][_0x53739c(0x3ea)]=_0x53739c(0x1dc),_0xe39af7[_0x53739c(0x56a)][_0x53739c(0x5b3)]='#111',_0xe39af7[_0x53739c(0x56a)][_0x53739c(0x293)]='0\x202px\x2010px\x20rgba(0,0,0,0.03)'):(_0xe39af7[_0x53739c(0x483)]=_0x53739c(0x1e9),_0xe39af7['style'][_0x53739c(0x3ea)]='#111',_0xe39af7['style'][_0x53739c(0x5b3)]=_0x53739c(0x1dc),_0xe39af7[_0x53739c(0x56a)][_0x53739c(0x293)]=_0x53739c(0x3a7)),_0xe39af7[_0x53739c(0x4d2)]=_0x4d397a['text']||_0x53739c(0x48b),_0x1bd6e8[_0x53739c(0x4ac)](_0xe39af7);}),setTimeout(()=>_0x1bd6e8[_0xa68810(0x2cd)]=_0x1bd6e8['scrollHeight'],0x32);}}}catch(_0xa16503){console[_0xa68810(0x1fd)](_0xa68810(0x2ce),_0xa16503);}},'close':function(){const _0x5b7ecf=_0x52ecaa;if(this[_0x5b7ecf(0x465)]){window[_0x5b7ecf(0x591)](this[_0x5b7ecf(0x465)]);const _0x2a5415=document[_0x5b7ecf(0x199)](_0x5b7ecf(0x45c));if(_0x2a5415)_0x2a5415[_0x5b7ecf(0x56a)]['display']=_0x5b7ecf(0x4fe);}}},document['addEventListener']('DOMContentLoaded',()=>{setTimeout(()=>{const _0x28a74b=_0x18e0;window[_0x28a74b(0x484)]&&window['lovesApp'][_0x28a74b(0x2e6)]();},0x64);}));
+/**
+ * Loves App Logic
+ */
+window.lovesApp = {
+    view: null,
+    backBtn: null,
+    initialized: false,
+    currentImsgAccount: 'main',
+    currentWeiboAccount: 'main',
+    currentFriend: null,
+    currentSelectedFriendId: null,
+    lovesProgrammaticScrollUntil: 0,
+    _realTimeJobsStarted: false,
+    _realTimeTimer: null,
+    _momentReplyQueues: new Map(),
+
+    persistFriendState: async function(friend = this.currentFriend, options = {}) {
+        if (!friend) return false;
+
+        if (window.imApp && typeof window.imApp.commitScopedFriendChange === 'function') {
+            const saved = await window.imApp.commitScopedFriendChange(friend, (targetFriend) => {
+                if (this.currentFriend && String(this.currentFriend.id) === String(targetFriend.id)) {
+                    this.currentFriend = targetFriend;
+                }
+            }, {
+                silent: options.silent !== false,
+                syncActive: true,
+                metaOnly: options.metaOnly === true
+            });
+            return !!saved;
+        }
+
+        if (typeof window.saveGlobalData === 'function') {
+            await window.saveGlobalData();
+            return true;
+        }
+
+        return false;
+    },
+
+    bindLongPress: function(element, callback) {
+        let pressTimer = null;
+        let startX = 0, startY = 0;
+
+        const start = (e) => {
+            if (e.type === 'mousedown' && e.button !== 0) return;
+            if (e.type === 'touchstart') {
+                startX = e.touches[0].clientX;
+                startY = e.touches[0].clientY;
+            } else {
+                startX = e.clientX;
+                startY = e.clientY;
+            }
+            if (pressTimer === null) {
+                pressTimer = setTimeout(() => {
+                    pressTimer = null;
+                    callback(e);
+                }, 600);
+            }
+        };
+
+        const cancel = () => {
+            if (pressTimer !== null) {
+                clearTimeout(pressTimer);
+                pressTimer = null;
+            }
+        };
+
+        const move = (e) => {
+            if (pressTimer === null) return;
+            let currentX = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+            let currentY = e.type === 'touchmove' ? e.touches[0].clientY : e.clientY;
+            if (Math.abs(currentX - startX) > 10 || Math.abs(currentY - startY) > 10) {
+                cancel();
+            }
+        };
+
+        element.addEventListener('mousedown', start);
+        element.addEventListener('touchstart', start, {passive: true});
+        element.addEventListener('mousemove', move);
+        element.addEventListener('touchmove', move, {passive: true});
+        element.addEventListener('mouseup', cancel);
+        element.addEventListener('touchend', cancel);
+        element.addEventListener('mouseleave', cancel);
+        element.addEventListener('touchcancel', cancel);
+    },
+
+    showDeleteConfirm: function(text, onConfirm) {
+        const result = window.confirm('确定要删除 "' + text + '" 吗？');
+        if (result) {
+            Promise.resolve(onConfirm()).then(() => {
+            });
+            if (window.showToast) window.showToast('已删除');
+        }
+    },
+
+    escapeHTML: function(value) {
+        return String(value ?? '').replace(/[&<>"']/g, (char) => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[char]);
+    },
+
+    getLocalDateKey: function(value = new Date()) {
+        const date = value instanceof Date ? value : new Date(value);
+        if (Number.isNaN(date.getTime())) return this.getLocalDateKey(new Date());
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    },
+
+    parseDateKey: function(dateKey) {
+        if (!dateKey || typeof dateKey !== 'string') return new Date();
+        const parts = dateKey.split('-').map(Number);
+        if (parts.length !== 3 || parts.some(Number.isNaN)) return new Date();
+        return new Date(parts[0], parts[1] - 1, parts[2]);
+    },
+
+    getLocalDayOrdinal: function(value = new Date()) {
+        const date = value instanceof Date ? value : new Date(value);
+        if (Number.isNaN(date.getTime())) return this.getLocalDayOrdinal(new Date());
+        return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
+    },
+
+    addLocalDateDays: function(dateKey, amount = 1) {
+        const date = this.parseDateKey(dateKey);
+        date.setDate(date.getDate() + amount);
+        return this.getLocalDateKey(date);
+    },
+
+    findLovesAcceptanceTimestamp: function(friend) {
+        const messages = Array.isArray(friend?.messages) ? friend.messages : [];
+        const acceptedMessage = messages.find((message) => {
+            const text = String(message?.text || message?.content || '');
+            return text.includes('[ACCEPT_INVITE]')
+                || text.includes('【邀请已接受】')
+                || text.includes('【情侣空间】我接受了你的邀请')
+                || text.includes('TA 已接受了你的情侣空间邀请')
+                || text.includes('我已经接受了你的情侣空间邀请');
+        });
+        const timestamp = Number(acceptedMessage?.timestamp);
+        return Number.isFinite(timestamp) && timestamp > 0 ? timestamp : 0;
+    },
+
+    ensureLovesStartTime: function(friend, fallbackTimestamp = Date.now()) {
+        if (!friend || !friend.hasLovesSpace) return { timestamp: 0, changed: false };
+        const existing = Number(friend.lovesSpaceStartTime);
+        if (Number.isFinite(existing) && existing > 0) {
+            return { timestamp: existing, changed: false };
+        }
+
+        const recovered = this.findLovesAcceptanceTimestamp(friend);
+        const fallback = Number(fallbackTimestamp);
+        const timestamp = recovered || (Number.isFinite(fallback) && fallback > 0 ? fallback : Date.now());
+        friend.lovesSpaceStartTime = timestamp;
+        return { timestamp, changed: true };
+    },
+
+    getLovesDaysCount: function(friend, now = new Date()) {
+        const startTimestamp = Number(friend?.lovesSpaceStartTime);
+        if (!Number.isFinite(startTimestamp) || startTimestamp <= 0) return 1;
+        const startDay = this.getLocalDayOrdinal(new Date(startTimestamp));
+        const currentDay = this.getLocalDayOrdinal(now);
+        return Math.max(1, currentDay - startDay + 1);
+    },
+
+    syncDailySavingsForFriend: async function(friend, now = new Date(), options = {}) {
+        if (!friend || !friend.hasLovesSpace) return false;
+        const startState = this.ensureLovesStartTime(friend, now.getTime());
+        const startDateKey = this.getLocalDateKey(startState.timestamp);
+        const todayKey = this.getLocalDateKey(now);
+        const savings = this.ensureSavingsData(friend);
+        const existingDailyDates = new Set(
+            savings.records
+                .filter(record => record?.source === 'char_daily' || String(record?.id || '').startsWith('sav_char_daily_'))
+                .map(record => record.date)
+                .filter(Boolean)
+        );
+
+        let cursor = this.getLocalDayOrdinal(this.parseDateKey(startDateKey)) > this.getLocalDayOrdinal(now)
+            ? todayKey
+            : startDateKey;
+        let changed = startState.changed;
+        let safety = 0;
+
+        while (cursor <= todayKey && safety < 20000) {
+            if (!existingDailyDates.has(cursor)) {
+                const isToday = cursor === todayKey;
+                const recordDate = isToday ? new Date(now) : this.parseDateKey(cursor);
+                if (!isToday) recordDate.setHours(12, 0, 0, 0);
+                savings.records.unshift({
+                    id: `sav_char_daily_${cursor}`,
+                    amount: Math.floor(Math.random() * 100) + 1,
+                    actor: 'char',
+                    date: cursor,
+                    note: 'Char 每日存钱',
+                    source: 'char_daily',
+                    timestamp: recordDate.getTime()
+                });
+                existingDailyDates.add(cursor);
+                changed = true;
+            }
+            if (cursor === todayKey) break;
+            cursor = this.addLocalDateDays(cursor, 1);
+            safety += 1;
+        }
+
+        if (changed && options.persist !== false) {
+            await this.persistFriendState(friend, { metaOnly: true, silent: true });
+        }
+        return changed;
+    },
+
+    syncAllLovesRealTimeData: async function() {
+        if (window.imApp?.ensureDataReady) await window.imApp.ensureDataReady();
+        const friends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+        const acceptedFriends = friends.filter(friend => friend?.hasLovesSpace);
+
+        for (const friend of acceptedFriends) {
+            if (!Number(friend.lovesSpaceStartTime) && window.imApp?.ensureFriendMessagesLoaded) {
+                await window.imApp.ensureFriendMessagesLoaded(friend);
+            }
+            await this.syncDailySavingsForFriend(friend);
+        }
+
+        if (this.currentFriend?.hasLovesSpace) this.updateDaysCount(this.currentFriend);
+        if (document.getElementById('lovers-savings-view')?.classList.contains('active')) {
+            this.renderSavingsJar();
+        }
+    },
+
+    scheduleNextRealTimeSync: function() {
+        if (this._realTimeTimer) clearTimeout(this._realTimeTimer);
+        const now = new Date();
+        const nextMidnight = new Date(now);
+        nextMidnight.setHours(24, 0, 1, 0);
+        this._realTimeTimer = setTimeout(async () => {
+            await this.syncAllLovesRealTimeData();
+            this.scheduleNextRealTimeSync();
+        }, Math.max(1000, nextMidnight.getTime() - now.getTime()));
+    },
+
+    startRealTimeJobs: function() {
+        if (this._realTimeJobsStarted) return;
+        this._realTimeJobsStarted = true;
+
+        const refresh = () => {
+            void this.syncAllLovesRealTimeData().finally(() => this.scheduleNextRealTimeSync());
+        };
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') refresh();
+        });
+        window.addEventListener('focus', refresh);
+        refresh();
+    },
+
+    formatMoney: function(amount) {
+        const value = Number(amount) || 0;
+        return '¥' + value.toLocaleString('zh-CN', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        });
+    },
+    
+    init: function() {
+        if (this.initialized) return;
+        
+        this.view = document.getElementById('loves-view');
+        this.backBtn = document.getElementById('loves-back-btn');
+        
+        if (!this.view) return;
+        
+        this.bindEvents();
+        this.bindLauncherButton();
+        this.initialized = true;
+        this.startRealTimeJobs();
+        console.log('Loves app initialized');
+    },
+    
+    bindEvents: function() {
+        if (this.backBtn) {
+            this.backBtn.addEventListener('click', () => {
+                this.close();
+            });
+        }
+
+        if (!this._sharedSavingsDelegated) {
+            document.addEventListener('click', (e) => {
+                const savingsBtn = e.target.closest('#lovers-shared-savings-btn');
+                if (!savingsBtn) return;
+                e.preventDefault();
+                e.stopPropagation();
+                const friendId = savingsBtn.dataset.friendId;
+                if (!this.currentFriend && friendId) {
+                    this.currentFriend = window.imData?.friends?.find(friend => String(friend.id) === String(friendId)) || null;
+                }
+                this.openSavingsJar();
+            });
+            this._sharedSavingsDelegated = true;
+        }
+    },
+
+    bindLauncherButton: function() {
+        const launcher = document.getElementById('app-loves-btn');
+        if (!launcher || launcher.dataset.lovesLauncherBound === 'true') return;
+        launcher.dataset.lovesLauncherBound = 'true';
+        launcher.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            if (window.lovesApp && typeof window.lovesApp.open === 'function') {
+                window.lovesApp.open();
+            }
+        });
+    },
+
+    bindSharedSavingsButton: function(friend = this.currentFriend) {
+        const sharedSavingsBtn = document.getElementById('lovers-shared-savings-btn');
+        if (!sharedSavingsBtn) return;
+        if (friend && friend.id !== undefined) {
+            sharedSavingsBtn.dataset.friendId = String(friend.id);
+        }
+        sharedSavingsBtn.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            if (friend) this.currentFriend = friend;
+            if (!this.currentFriend && sharedSavingsBtn.dataset.friendId) {
+                this.currentFriend = window.imData?.friends?.find(item => String(item.id) === String(sharedSavingsBtn.dataset.friendId)) || null;
+            }
+            this.openSavingsJar();
+        };
+    },
+    
+    // 添加动态 / 日记辅助方法
+    bindFabClick: function() {
+        const fab = document.getElementById('lovers-space-fab');
+        if (!fab) return;
+        
+        // 移除拖拽相关样式，确保它固定，并恢复默认的触摸行为防止点击被吞
+        fab.style.transform = '';
+        fab.style.touchAction = 'auto';
+        
+        // 使用 onclick 简单粗暴覆盖绑定，避免因为 DOM 刷新或重进导致事件丢失
+        fab.onclick = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            const savingsView = document.getElementById('lovers-savings-view');
+            if (savingsView && savingsView.classList.contains('active')) {
+                this.openSavingsDepositSheet('user');
+                return;
+            }
+            
+            // 判断当前活跃的 tab
+            const activeTab = document.querySelector('.lovers-space-tab.active');
+            if (activeTab) {
+                const tabName = activeTab.getAttribute('data-tab');
+                if (tabName === 'diary') {
+                    this.openDiaryGeneratorView();
+                } else if (tabName === 'moments') {
+                    this.openPublishView();
+                } else {
+                    if (window.showToast) window.showToast('此板块暂不支持添加');
+                }
+            } else {
+                this.openPublishView(); // 默认 fallback
+            }
+        };
+    },
+
+    currentDiaryDate: new Date(),
+
+    formatDiaryDateLabel: function(dateKey) {
+        const date = this.parseDateKey(dateKey);
+        const todayKey = this.getLocalDateKey(new Date());
+        const weekNames = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
+        const prefix = dateKey === todayKey ? '今天' : (date.getMonth() + 1) + '月' + date.getDate() + '日';
+        return prefix + ' · ' + weekNames[date.getDay()];
+    },
+
+    ensureDiaryData: function(friend = this.currentFriend) {
+        if (!friend) return [];
+        if (!friend.lovesData || typeof friend.lovesData !== 'object') friend.lovesData = {};
+        if (!Array.isArray(friend.lovesData.diaries)) friend.lovesData.diaries = [];
+        friend.lovesData.diaries = friend.lovesData.diaries
+            .filter(item => item && typeof item === 'object')
+            .map((item, index) => ({
+                id: item.id || 'ld_' + Date.now() + '_' + index,
+                date: String(item.date || this.getLocalDateKey(item.createdAt || Date.now())),
+                time: String(item.time || '').slice(0, 5),
+                title: String(item.title || item.name || '未命名日记').trim() || '未命名日记',
+                location: String(item.location || '未设置地点').trim() || '未设置地点',
+                diary: String(item.diary || item.content || '').trim(),
+                createdAt: Number(item.createdAt) || Number(item.timestamp) || Date.now(),
+                source: 'loves_diary'
+            }));
+        return friend.lovesData.diaries;
+    },
+
+    renderDiary: function() {
+        const datesContainer = document.getElementById('lovers-diary-dates');
+        const listContainer = document.getElementById('lovers-diary-list');
+        const monthPicker = document.getElementById('lovers-diary-month-picker');
+        const yearDisplay = document.getElementById('lovers-diary-year-display');
+        const monthDisplay = document.getElementById('lovers-diary-month-display');
+        if (!datesContainer || !listContainer) return;
+
+        const today = new Date();
+        const baseDate = this.currentDiaryDate || today;
+        const selectedDateStr = this.getLocalDateKey(baseDate);
+
+        if (yearDisplay && monthDisplay) {
+            yearDisplay.textContent = baseDate.getFullYear() + '年';
+            monthDisplay.textContent = (baseDate.getMonth() + 1) + '月';
+        }
+
+        if (monthPicker) {
+            const mm = String(baseDate.getMonth() + 1).padStart(2, '0');
+            monthPicker.value = baseDate.getFullYear() + '-' + mm;
+            monthPicker.onchange = (e) => {
+                const val = e.target.value;
+                if (!val) return;
+                const parts = val.split('-').map(Number);
+                if (parts.length !== 2 || parts.some(Number.isNaN)) return;
+                this.currentDiaryDate = new Date(parts[0], parts[1] - 1, 1);
+                this.renderDiary();
+            };
+        }
+
+        const dayNames = ['日', '一', '二', '三', '四', '五', '六'];
+        let datesHtml = '';
+        for (let i = -15; i <= 15; i++) {
+            const d = new Date(baseDate);
+            d.setDate(baseDate.getDate() + i);
+            const dateStr = this.getLocalDateKey(d);
+            const isToday = dateStr === this.getLocalDateKey(today);
+            const isSelected = dateStr === selectedDateStr;
+            const stateClasses = [
+                'diary-date-item',
+                isToday ? 'is-today' : '',
+                isSelected ? 'is-selected' : ''
+            ].filter(Boolean).join(' ');
+            datesHtml += [
+                '<button type="button" class="', stateClasses, '" data-date="', dateStr, '" aria-label="',
+                d.getMonth() + 1, '月', d.getDate(), '日" aria-pressed="', String(isSelected), '">',
+                '<small>', isToday ? '今' : dayNames[d.getDay()], '</small>',
+                '<strong>', d.getDate(), '</strong>',
+                '</button>'
+            ].join('');
+        }
+        datesContainer.innerHTML = datesHtml;
+
+        setTimeout(() => {
+            const selectedEl = datesContainer.querySelector('.diary-date-item.is-selected');
+            if (selectedEl && datesContainer.parentElement) {
+                const scrollLeft = selectedEl.offsetLeft - datesContainer.parentElement.offsetWidth / 2 + selectedEl.offsetWidth / 2;
+                datesContainer.parentElement.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+            }
+        }, 50);
+
+        datesContainer.querySelectorAll('.diary-date-item').forEach(item => {
+            item.onclick = () => {
+                this.currentDiaryDate = this.parseDateKey(item.getAttribute('data-date'));
+                this.renderDiary();
+            };
+        });
+
+        const entries = this.ensureDiaryData()
+            .filter(item => item.date === selectedDateStr)
+            .sort((a, b) => String(a.time || '').localeCompare(String(b.time || '')));
+
+        if (entries.length === 0) {
+            listContainer.innerHTML = [
+                '<div class="lovers-diary-empty">',
+                '<i class="far fa-pen-to-square"></i>',
+                '<strong>', selectedDateStr === this.getLocalDateKey(today) ? '今天还没有日记' : '这天还没有日记', '</strong>',
+                '<span>点击右下角 +，让 TA 生成行程日记</span>',
+                '</div>'
+            ].join('');
+            return;
+        }
+
+        listContainer.innerHTML = entries.map(entry => {
+            const safeId = this.escapeHTML(entry.id);
+            const safeTime = this.escapeHTML(entry.time || '--:--');
+            const safeTitle = this.escapeHTML(entry.title || '未命名日记');
+            const safeLocation = this.escapeHTML(entry.location || '未设置地点');
+            const safeDiary = this.escapeHTML(entry.diary || '');
+            return [
+                '<article class="lovers-diary-item" data-id="', safeId, '">',
+                '<div class="lovers-diary-time">', safeTime, '</div>',
+                '<div class="lovers-diary-card">',
+                '<div class="lovers-diary-card-head">',
+                '<strong>', safeTitle, '</strong>',
+                '<button type="button" class="lovers-diary-delete">删除</button>',
+                '</div>',
+                '<span class="lovers-diary-location"><i class="fas fa-map-marker-alt"></i>', safeLocation, '</span>',
+                '<p>', safeDiary, '</p>',
+                '</div>',
+                '</article>'
+            ].join('');
+        }).join('') + '<div class="lovers-diary-end">这一天的日记已全部显示</div>';
+
+        listContainer.querySelectorAll('.lovers-diary-delete').forEach(btn => {
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                const itemEl = e.target.closest('.lovers-diary-item');
+                const entryId = itemEl?.getAttribute('data-id');
+                if (!entryId) return;
+                if (!confirm('确定要删除这条日记吗？')) return;
+                const diaries = this.ensureDiaryData();
+                this.currentFriend.lovesData.diaries = diaries.filter(item => String(item.id) !== String(entryId));
+                this.persistFriendState();
+                this.renderDiary();
+            };
+        });
+    },
+
+    openDiaryGeneratorView: function() {
+        if (!this.currentFriend) {
+            if (window.showToast) window.showToast('请先进入情侣空间');
+            return;
+        }
+        const generatorView = document.getElementById('lovers-diary-generator-view');
+        if (!generatorView) return;
+
+        const dateKey = this.getLocalDateKey(this.currentDiaryDate || new Date());
+        const dateLabel = document.getElementById('lovers-diary-generator-date');
+        const countInput = document.getElementById('lovers-diary-count');
+        const cancelBtn = document.getElementById('lovers-diary-generator-cancel');
+        const generateBtn = document.getElementById('lovers-diary-generate-btn');
+
+        if (dateLabel) dateLabel.textContent = this.formatDiaryDateLabel(dateKey);
+        if (countInput) countInput.value = '10';
+        if (cancelBtn) cancelBtn.onclick = () => {
+            if (window.closeView) window.closeView(generatorView);
+        };
+
+        if (generateBtn) {
+            generateBtn.onclick = async () => {
+                const count = this.getDiaryGenerationCount();
+                const originalText = generateBtn.textContent;
+                generateBtn.disabled = true;
+                generateBtn.textContent = '生成中...';
+                try {
+                    const entries = await this.requestDiaryEntries(dateKey, count);
+                    const diaries = this.ensureDiaryData();
+                    this.currentFriend.lovesData.diaries = diaries
+                        .filter(item => item.date !== dateKey)
+                        .concat(entries);
+                    await this.persistFriendState();
+                    this.currentDiaryDate = this.parseDateKey(dateKey);
+                    this.renderDiary();
+                    if (window.closeView) window.closeView(generatorView);
+                    if (window.showToast) window.showToast('已生成 ' + entries.length + ' 条日记');
+                } catch (error) {
+                    console.error('[Loves Diary] generate failed', error);
+                    const message = String(error?.message || '日记生成失败').slice(0, 80);
+                    if (window.showToast) window.showToast(message);
+                    else alert(message);
+                } finally {
+                    generateBtn.disabled = false;
+                    generateBtn.textContent = originalText || '生成';
+                }
+            };
+        }
+
+        if (window.openView) window.openView(generatorView);
+        else generatorView.classList.add('active');
+    },
+
+    getDiaryGenerationCount: function() {
+        const input = document.getElementById('lovers-diary-count');
+        const value = Math.round(Number(input?.value) || 10);
+        const count = Math.min(30, Math.max(1, value));
+        if (input) input.value = String(count);
+        return count;
+    },
+
+    getLovesApiConfig: function() {
+        return typeof window.getApiConfig === 'function' ? (window.getApiConfig() || {}) : (window.apiConfig || {});
+    },
+
+    resolveLovesChatEndpoint: function(apiConfig) {
+        let endpoint = String(apiConfig?.endpoint || '').trim();
+        if (!endpoint) return '';
+        if (!endpoint.endsWith('/chat/completions')) {
+            if (endpoint.endsWith('/')) endpoint += 'v1/chat/completions';
+            else if (endpoint.endsWith('/v1')) endpoint += '/chat/completions';
+            else endpoint += '/v1/chat/completions';
+        }
+        return endpoint;
+    },
+
+    requestDiaryEntries: async function(dateKey, count) {
+        const apiConfig = this.getLovesApiConfig();
+        const endpoint = this.resolveLovesChatEndpoint(apiConfig);
+        if (!endpoint || !apiConfig.apiKey) throw new Error('请先在设置中配置 API');
+
+        const friend = this.currentFriend || {};
+        const charName = friend.nickname || friend.realname || friend.realName || friend.name || 'TA';
+        const charPersona = friend.persona || friend.signature || friend.description || '普通角色';
+        const userName = window.userState?.name || window.imData?.profile?.name || 'User';
+        const userPersona = window.userState?.persona || window.imData?.profile?.persona || '未设置';
+        const dateLabel = this.formatDiaryDateLabel(dateKey);
+        const worldBook = typeof window.getGlobalWorldBookContextByPosition === 'function'
+            ? (window.getGlobalWorldBookContextByPosition('before') || '')
+            : '';
+
+        const promptLines = [
+            '你要为 Loves 情侣空间生成角色的独立行程日记，不要写入或引用 iMessage 日程。',
+            '',
+            '【Char】' + charName,
+            '【Char 人设】',
+            charPersona,
+            '',
+            '【User】' + userName,
+            '【User 人设】',
+            userPersona
+        ];
+        if (worldBook) {
+            promptLines.push('', '【世界书】', worldBook);
+        }
+        promptLines.push(
+            '',
+            '【日期】' + dateKey + '（' + dateLabel + '）',
+            '【生成数量】' + count + ' 条',
+            '',
+            '要求：',
+            '1. 返回严格 JSON，格式只能是 {"entries":[{"time":"HH:MM","title":"标题","location":"地点","diary":"日记正文"}]}。',
+            '2. entries 数量必须刚好等于 ' + count + '。',
+            '3. 每条代表 Char 今天一个时间点的静态行程，可包含起床、通勤、吃饭、学习/工作、发呆、休息、睡觉等日常。',
+            '4. time 必须是 24 小时 HH:MM，所有条目按一天自然顺序排列。',
+            '5. title 2-16 字，location 2-20 字。',
+            '6. diary 必须使用 Char 第一人称视角，贴合 Char 人设，不少于 30 个中文字符，像真实日记，不要写成旁白或列表。',
+            '7. 只返回 JSON，不要 Markdown，不要解释文字。'
+        );
+        const prompt = promptLines.join('\n');
+
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + apiConfig.apiKey
+            },
+            body: JSON.stringify({
+                model: apiConfig.model || 'gpt-3.5-turbo',
+                messages: [
+                    { role: 'system', content: '你是严格 JSON 生成器，只返回合法 JSON。' },
+                    { role: 'user', content: prompt }
+                ],
+                temperature: Number.isFinite(Number(apiConfig.temperature)) ? Number(apiConfig.temperature) : 0.7
+            })
+        });
+
+        if (!response.ok) {
+            let errorText = 'API 请求失败：' + response.status;
+            try {
+                const body = await response.text();
+                const parsed = JSON.parse(body);
+                errorText = parsed?.error?.message || body || errorText;
+            } catch (_) {}
+            throw new Error(errorText);
+        }
+
+        const data = await response.json();
+        const resultText = data.choices?.[0]?.message?.content || data.choices?.[0]?.text || '';
+        const parsed = this.parseDiaryJson(resultText);
+        return this.normalizeGeneratedDiaryEntries(parsed?.entries, dateKey, count);
+    },
+
+    parseDiaryJson: function(resultText) {
+        const fence = String.fromCharCode(96).repeat(3);
+        let jsonStr = String(resultText || '').replace(new RegExp(fence + 'json', 'gi'), '').replace(new RegExp(fence, 'g'), '').trim();
+        const match = jsonStr.match(/\{[\s\S]*\}/);
+        if (match) jsonStr = match[0];
+        try {
+            return JSON.parse(jsonStr);
+        } catch (error) {
+            throw new Error('AI 返回不是合法 JSON，请重试');
+        }
+    },
+
+    normalizeGeneratedDiaryEntries: function(rawEntries, dateKey, count) {
+        if (!Array.isArray(rawEntries)) throw new Error('AI 返回缺少 entries 数组');
+        if (rawEntries.length !== count) throw new Error('AI 返回数量不正确：需要 ' + count + ' 条');
+
+        const normalized = rawEntries.map((entry, index) => {
+            const rawTime = String(entry?.time || '').trim();
+            const timeMatch = rawTime.match(/^(\d{1,2}):(\d{2})$/);
+            if (!timeMatch) throw new Error('第 ' + (index + 1) + ' 条时间格式不正确');
+            const hour = Number(timeMatch[1]);
+            const minute = Number(timeMatch[2]);
+            if (hour < 0 || hour > 23 || minute < 0 || minute > 59) throw new Error('第 ' + (index + 1) + ' 条时间不合法');
+            const time = String(hour).padStart(2, '0') + ':' + String(minute).padStart(2, '0');
+            const title = String(entry?.title || '').trim();
+            const location = String(entry?.location || '').trim();
+            const diary = String(entry?.diary || entry?.content || '').trim();
+            if (!title) throw new Error('第 ' + (index + 1) + ' 条缺少标题');
+            if (!location) throw new Error('第 ' + (index + 1) + ' 条缺少地点');
+            if ([...diary.replace(/\s/g, '')].length < 30) throw new Error('第 ' + (index + 1) + ' 条日记少于 30 字');
+            return {
+                id: 'ld_' + dateKey.replace(/-/g, '') + '_' + Date.now() + '_' + index + '_' + Math.random().toString(36).slice(2, 7),
+                date: dateKey,
+                time,
+                title,
+                location,
+                diary,
+                createdAt: Date.now(),
+                source: 'loves_diary'
+            };
+        });
+
+        return normalized.sort((a, b) => a.time.localeCompare(b.time));
+    },
+
+    openPublishView: function() {
+        const publishView = document.getElementById('lovers-publish-view');
+        if (!publishView) return;
+        
+        if (window.openView) window.openView(publishView);
+        
+        document.getElementById('lovers-publish-text').value = '';
+        
+        const imgContainer = document.getElementById('lovers-publish-images-container');
+        const addBtn = document.getElementById('lovers-publish-add-img-btn');
+        imgContainer.innerHTML = '';
+        imgContainer.appendChild(addBtn);
+        
+        // 初始化当前上传的图片数组
+        this.currentPublishImages = [];
+        
+        // 绑定事件
+        const cancelBtn = document.getElementById('lovers-publish-cancel');
+        if (cancelBtn) {
+            cancelBtn.onclick = () => {
+                if (window.closeView) window.closeView(publishView);
+            };
+        }
+        
+        const fileInput = document.getElementById('lovers-publish-file-input');
+        if (addBtn && fileInput) {
+            addBtn.onclick = () => fileInput.click();
+            fileInput.onchange = (e) => {
+                const files = e.target.files;
+                if (!files || files.length === 0) return;
+                
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    const reader = new FileReader();
+                    reader.onload = (ev) => {
+                        this.currentPublishImages.push(ev.target.result);
+                        this.renderPublishImagePreview();
+                    };
+                    reader.readAsDataURL(file);
+                }
+                fileInput.value = '';
+            };
+        }
+        
+        const publishBtn = document.getElementById('lovers-publish-btn');
+        if (publishBtn) {
+            publishBtn.onclick = () => {
+                const text = document.getElementById('lovers-publish-text').value.trim();
+                if (!text && this.currentPublishImages.length === 0) {
+                    if (window.showToast) window.showToast('写点什么或添加图片吧');
+                    return;
+                }
+                
+                const moment = {
+                    id: 'lm_' + Date.now(),
+                    text: text,
+                    images: [...this.currentPublishImages],
+                    timestamp: Date.now(),
+                    likes: 0,
+                    comments: []
+                };
+                
+                if (!this.currentFriend.lovesData) {
+                    this.currentFriend.lovesData = { moments: [] };
+                }
+                if (!this.currentFriend.lovesData.moments) {
+                    this.currentFriend.lovesData.moments = [];
+                }
+                
+                this.currentFriend.lovesData.moments.unshift(moment);
+                
+                this.persistFriendState();
+                if (window.showToast) window.showToast('发布成功');
+                if (window.closeView) window.closeView(publishView);
+                
+                this.renderLovesMoments();
+            };
+        }
+    },
+    
+    renderPublishImagePreview: function() {
+        const imgContainer = document.getElementById('lovers-publish-images-container');
+        const addBtn = document.getElementById('lovers-publish-add-img-btn');
+        if (!imgContainer || !addBtn) return;
+        
+        imgContainer.innerHTML = '';
+        
+        (this.currentPublishImages || []).forEach((src, index) => {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'lovers-publish-image';
+            
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = `动态图片 ${index + 1}`;
+            
+            const delBtn = document.createElement('button');
+            delBtn.type = 'button';
+            delBtn.setAttribute('aria-label', `删除第 ${index + 1} 张图片`);
+            delBtn.innerHTML = '<i class="fas fa-times"></i>';
+            delBtn.onclick = () => {
+                this.currentPublishImages.splice(index, 1);
+                this.renderPublishImagePreview();
+            };
+            
+            wrapper.appendChild(img);
+            wrapper.appendChild(delBtn);
+            imgContainer.appendChild(wrapper);
+        });
+        
+        imgContainer.appendChild(addBtn);
+    },
+
+    renderLovesMoments: function() {
+        const list = document.getElementById('lovers-moments-list');
+        const empty = document.getElementById('lovers-moments-empty');
+        if (!list || !empty || !this.currentFriend) return;
+        
+        const moments = this.currentFriend.lovesData?.moments || [];
+        
+        if (moments.length === 0) {
+            list.style.display = 'none';
+            empty.style.display = 'flex';
+            return;
+        }
+        
+        list.style.display = 'flex';
+        empty.style.display = 'none';
+        
+        const userAvatar = window.userState?.avatarUrl || window.imData?.profile?.avatarUrl;
+        const userName = window.userState?.name || window.imData?.profile?.name || '我';
+        const safeUserName = this.escapeHTML(userName);
+        
+        let html = '';
+        moments.forEach((m, idx) => {
+            const date = new Date(m.timestamp);
+            const timeStr = `${date.getMonth()+1}-${date.getDate()} ${date.getHours().toString().padStart(2,'0')}:${date.getMinutes().toString().padStart(2,'0')}`;
+            
+            const displayAvatar = m.isChar ? this.currentFriend.avatarUrl : userAvatar;
+            const displayName = m.isChar ? (this.currentFriend.nickname || this.currentFriend.realname || 'TA') : userName;
+            const safeDisplayName = this.escapeHTML(displayName);
+            const safeMomentText = this.escapeHTML(m.text);
+            const safeDisplayAvatar = this.escapeHTML(displayAvatar || '');
+            const safeUserAvatar = this.escapeHTML(userAvatar || '');
+
+            let imagesHtml = '';
+            if (m.images && m.images.length > 0) {
+                const imageLayout = m.images.length === 1 ? 'is-one' : (m.images.length === 2 ? 'is-two' : 'is-many');
+                imagesHtml = `<div class="loves-moment-images ${imageLayout}">`;
+                m.images.forEach((src, imageIndex) => {
+                    imagesHtml += `<img src="${this.escapeHTML(src)}" alt="动态图片 ${imageIndex + 1}">`;
+                });
+                imagesHtml += `</div>`;
+            }
+            
+            let commentsHtml = '';
+            if (m.comments && m.comments.length > 0) {
+                commentsHtml = `<div class="loves-moment-comments">`;
+                m.comments.forEach((c, cIdx) => {
+                    const cAuthor = c.isChar ? (this.currentFriend.nickname || this.currentFriend.realname || 'TA') : userName;
+                    const safeAuthor = this.escapeHTML(cAuthor);
+                    const safeCommentText = this.escapeHTML(c.text);
+                    commentsHtml += `
+                        <div class="loves-moment-comment ${c.isChar ? 'is-char' : ''}">
+                            <div class="loves-moment-comment-copy" onclick="window.lovesApp.replyToComment(${idx}, ${cIdx})"><span class="loves-moment-comment-author">${safeAuthor}</span>：${safeCommentText}</div>
+                            <button type="button" class="loves-moment-comment-delete" onclick="window.lovesApp.deleteComment(${idx}, ${cIdx})">删除</button>
+                        </div>
+                    `;
+                });
+                commentsHtml += `</div>`;
+            }
+
+            html += `
+            <article class="loves-moment-card">
+                <div class="loves-moment-head">
+                    <div class="loves-moment-author">
+                        <div class="loves-moment-avatar">
+                            ${displayAvatar ? `<img src="${safeDisplayAvatar}" alt="${safeDisplayName}">` : `<i class="fas fa-user"></i>`}
+                        </div>
+                        <div class="loves-moment-author-copy">
+                            <div class="loves-moment-name">${safeDisplayName}</div>
+                            <div class="loves-moment-time">${timeStr}</div>
+                        </div>
+                    </div>
+                    <div class="loves-moment-actions">
+                        <button type="button" class="loves-moment-more" aria-label="动态选项" onclick="window.lovesApp.toggleMomentMenu(${idx})"><i class="fas fa-ellipsis-h"></i></button>
+                        <div id="loves-moment-menu-${idx}" class="loves-moment-menu">
+                            <button type="button" onclick="window.lovesApp.requestCharComment(${idx})"><i class="fas fa-comment-dots"></i><span>让 TA 评论</span></button>
+                            <button type="button" class="is-danger" onclick="window.lovesApp.deleteMoment(${idx})"><i class="fas fa-trash-alt"></i><span>删除动态</span></button>
+                        </div>
+                    </div>
+                </div>
+                
+                ${m.text ? `<div class="loves-moment-body">${safeMomentText}</div>` : ''}
+                ${imagesHtml}
+                
+                <div class="loves-moment-toolbar">
+                    <button type="button" class="${m.isLiked ? 'is-liked' : ''}" onclick="window.lovesApp.toggleMomentLike(${idx})"><i class="${m.isLiked ? 'fas' : 'far'} fa-heart"></i><span>${m.likes || 0}</span></button>
+                    <button type="button" onclick="window.lovesApp.addMomentComment(${idx})"><i class="far fa-comment-dots"></i><span>${m.comments ? m.comments.length : 0}</span></button>
+                </div>
+                
+                ${commentsHtml}
+                <div class="loves-moment-composer">
+                    <div class="loves-moment-composer-avatar">
+                        ${userAvatar ? `<img src="${safeUserAvatar}" alt="${safeUserName}">` : `<i class="fas fa-user"></i>`}
+                    </div>
+                    <input type="text" class="loves-moment-comment-input" data-moment-idx="${idx}" placeholder="${m.isChar ? '评论 TA 的动态...' : '添加评论...'}">
+                    <button type="button" class="loves-moment-comment-send" data-moment-idx="${idx}">发送</button>
+                </div>
+            </article>
+            `;
+        });
+        
+        list.innerHTML = html;
+        list.querySelectorAll('.loves-moment-comment-send').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const idx = parseInt(btn.dataset.momentIdx, 10);
+                const input = list.querySelector(`.loves-moment-comment-input[data-moment-idx="${idx}"]`);
+                this.addMomentComment(idx, input ? input.value : '');
+            });
+        });
+        list.querySelectorAll('.loves-moment-comment-input').forEach(input => {
+            input.addEventListener('keydown', (e) => {
+                if (e.key !== 'Enter') return;
+                e.preventDefault();
+                const idx = parseInt(input.dataset.momentIdx, 10);
+                this.addMomentComment(idx, input.value);
+            });
+        });
+        
+        // 全局点击关闭菜单
+        if (!this._menuClickBound) {
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('[id^="loves-moment-menu-"]') && !e.target.closest('.fa-ellipsis-h')) {
+                    const menus = document.querySelectorAll('[id^="loves-moment-menu-"]');
+                    menus.forEach(m => m.style.display = 'none');
+                }
+            });
+            this._menuClickBound = true;
+        }
+    },
+    
+    updateDaysCount: function(friend) {
+        const daysEl = document.getElementById('lovers-space-days');
+        if (!daysEl || !friend) return;
+        const startState = this.ensureLovesStartTime(friend);
+        daysEl.textContent = String(this.getLovesDaysCount(friend));
+        if (startState.changed) void this.persistFriendState(friend, { metaOnly: true, silent: true });
+    },
+
+    toggleMomentMenu: function(idx) {
+        const menus = document.querySelectorAll('[id^="loves-moment-menu-"]');
+        menus.forEach((m, i) => {
+            if (i !== idx) m.style.display = 'none';
+        });
+        const targetMenu = document.getElementById(`loves-moment-menu-${idx}`);
+        if (targetMenu) {
+            targetMenu.style.display = targetMenu.style.display === 'none' ? 'block' : 'none';
+        }
+    },
+    
+    deleteMoment: function(idx) {
+        if (!this.currentFriend || !this.currentFriend.lovesData || !this.currentFriend.lovesData.moments) return;
+        const targetMenu = document.getElementById(`loves-moment-menu-${idx}`);
+        if (targetMenu) targetMenu.style.display = 'none';
+        
+        this.showDeleteConfirm('这条动态', () => {
+            this.currentFriend.lovesData.moments.splice(idx, 1);
+            this.persistFriendState();
+            this.renderLovesMoments();
+        });
+    },
+
+    deleteComment: function(mIdx, cIdx) {
+        if (!this.currentFriend || !this.currentFriend.lovesData || !this.currentFriend.lovesData.moments) return;
+        const m = this.currentFriend.lovesData.moments[mIdx];
+        if (!m || !m.comments) return;
+        
+        this.showDeleteConfirm('这条评论', () => {
+            m.comments.splice(cIdx, 1);
+            this.persistFriendState();
+            this.renderLovesMoments();
+        });
+    },
+
+    addMomentComment: function(mIdx, presetText = '') {
+        if (!this.currentFriend || !this.currentFriend.lovesData || !this.currentFriend.lovesData.moments) return;
+        const m = this.currentFriend.lovesData.moments[mIdx];
+        if (!m) return;
+
+        let commentText = String(presetText || '').trim();
+        if (!commentText) {
+            const prompted = prompt(m.isChar ? '评论 TA 的动态：' : '添加评论：');
+            if (prompted === null) return;
+            commentText = prompted.trim();
+        }
+        if (!commentText) return;
+
+        if (!m.comments) m.comments = [];
+        m.comments.push({
+            text: commentText,
+            isChar: false,
+            timestamp: Date.now()
+        });
+
+        this.persistFriendState();
+        this.renderLovesMoments();
+
+        if (m.isChar === true) {
+            this.requestCharComment(mIdx, {
+                reason: 'user_comment',
+                userComment: commentText,
+                silentMissingApi: true
+            });
+        }
+    },
+
+    replyToComment: function(mIdx, cIdx) {
+        if (!this.currentFriend || !this.currentFriend.lovesData || !this.currentFriend.lovesData.moments) return;
+        const m = this.currentFriend.lovesData.moments[mIdx];
+        if (!m || !m.comments || !m.comments[cIdx]) return;
+        
+        const targetComment = m.comments[cIdx];
+        const targetName = targetComment.isChar ? (this.currentFriend.nickname || this.currentFriend.realname || 'TA') : '我';
+        
+        const replyText = prompt(`回复 ${targetName}：`);
+        if (replyText !== null && replyText.trim() !== '') {
+            m.comments.push({
+                text: `回复 @${targetName} : ${replyText.trim()}`,
+                isChar: false,
+                timestamp: Date.now()
+            });
+            this.persistFriendState();
+            this.renderLovesMoments();
+
+            if (targetComment.isChar === true) {
+                this.requestCharComment(mIdx, {
+                    reason: 'user_comment',
+                    userComment: replyText.trim(),
+                    targetCommentText: String(targetComment.text || '').trim(),
+                    silentMissingApi: true
+                });
+            }
+        }
+    },
+
+    requestCharComment: function(idx, options = {}) {
+        const friend = this.currentFriend;
+        const moment = friend?.lovesData?.moments?.[idx];
+        if (!friend || !moment) return Promise.resolve(false);
+        if (!moment.id) {
+            moment.id = `lm_${Number(moment.timestamp) || Date.now()}_${idx}`;
+            void this.persistFriendState(friend, { metaOnly: true, silent: true });
+        }
+
+        const targetMenu = document.getElementById(`loves-moment-menu-${idx}`);
+        if (targetMenu) targetMenu.style.display = 'none';
+        return this.queueCharCommentRequest(friend.id, moment.id, options);
+    },
+
+    queueCharCommentRequest: function(friendId, momentId, options = {}) {
+        const queueKey = `${friendId}:${momentId}`;
+        const previous = this._momentReplyQueues.get(queueKey) || Promise.resolve();
+        const next = previous
+            .catch(() => false)
+            .then(() => this.executeCharCommentRequest(friendId, momentId, { ...options }))
+            .finally(() => {
+                if (this._momentReplyQueues.get(queueKey) === next) {
+                    this._momentReplyQueues.delete(queueKey);
+                }
+            });
+        this._momentReplyQueues.set(queueKey, next);
+        return next;
+    },
+
+    executeCharCommentRequest: async function(friendId, momentId, options = {}) {
+        let friend = window.imData?.friends?.find(item => String(item.id) === String(friendId));
+        let moment = friend?.lovesData?.moments?.find(item => String(item.id) === String(momentId));
+        if (!friend || !moment) return false;
+
+        const apiConfig = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        if (!apiConfig.endpoint || !apiConfig.apiKey) {
+            if (window.showToast) window.showToast('请先在系统设置中配置 API');
+            return false;
+        }
+
+        moment._charReplyPendingCount = Math.max(0, Number(moment._charReplyPendingCount) || 0) + 1;
+        moment._charReplyPending = true;
+        if (window.showToast) window.showToast(options.reason === 'user_comment' ? 'TA 正在回复...' : '正在生成评论...');
+
+        try {
+            if (window.imApp?.ensureFriendMessagesLoaded) {
+                await window.imApp.ensureFriendMessagesLoaded(friend);
+                friend = window.imData?.friends?.find(item => String(item.id) === String(friendId)) || friend;
+                moment = friend?.lovesData?.moments?.find(item => String(item.id) === String(momentId));
+                if (!moment) return false;
+            }
+
+            let globalRule = '';
+            if (window.getGlobalWorldBookContextByPosition) {
+                globalRule = window.getGlobalWorldBookContextByPosition('system_depth') || '';
+                const beforeRole = window.getGlobalWorldBookContextByPosition('before_role');
+                if (beforeRole) globalRule += '\n' + beforeRole;
+            }
+
+            const userPersona = (window.getUserState ? window.getUserState() : window.userState || {})?.persona || '普通用户';
+            const charPersona = friend.persona || '普通角色';
+            const chatContext = Array.isArray(friend.messages)
+                ? friend.messages.slice(-10).map((msg) => {
+                    const sender = msg?.role === 'user' || msg?.sender === 'me' ? 'User' : 'Char';
+                    return `${sender}: ${msg?.text || msg?.content || '[特殊消息]'}`;
+                }).join('\n')
+                : '';
+
+            const momentContent = moment.text || '[只有图片]';
+            const imageCount = Array.isArray(moment.images) ? moment.images.length : 0;
+            const isCharMoment = moment.isChar === true;
+            const momentAuthor = isCharMoment ? '角色(Char)' : '用户(User)';
+            let momentDesc = `${momentAuthor}发布了一条动态：\n文字内容：${momentContent}\n附带图片数量：${imageCount} 张`;
+            if (options.targetCommentText) {
+                momentDesc += `\nChar 之前在动态下评论：${options.targetCommentText}`;
+                momentDesc += `\nUser 刚刚回复 Char：${options.userComment || ''}`;
+            } else if (options.userComment) {
+                momentDesc += `\nUser 刚刚在这条 Char 动态下评论：${options.userComment}`;
+            }
+
+            let prompt = options.reason === 'user_comment'
+                ? '你现在要扮演给定的角色(Char)。User 刚刚在动态评论区直接回应了你。请生成2-5条连续、自然的公开评论回复，并且可选生成0-2条相关私聊消息。\n'
+                : isCharMoment
+                ? '你现在要扮演给定的角色(Char)。这条动态是 Char 自己发布的，请生成1-3条补充评论，并给 User 发送1-3条相关私聊消息。\n'
+                : '你现在要扮演给定的角色(Char)，为 User 发布的动态写1-2条评论，并给 User 发送1-3条相关私聊消息。\n';
+            if (globalRule) prompt += `\n【世界书设定】：\n${globalRule}\n`;
+            prompt += `\n【角色 (Char) 人设】：\n${charPersona}\n`;
+            prompt += `\n【用户 (User) 人设】：\n${userPersona}\n`;
+            if (chatContext) prompt += `\n【近期聊天上下文(最近10条)】：\n${chatContext}\n`;
+            prompt += `\n【动态与评论现场】：\n${momentDesc}\n`;
+            prompt += `\n要求：
+1. 内容必须符合人设、世界观和近期关系氛围。
+2. 只返回纯 JSON 对象，格式为 {"comments":["公开回复"],"messages":["私聊消息"]}，不要返回 Markdown。
+3. comments ${options.reason === 'user_comment' ? '必须包含2-5条 Char 对 User 的连续直接回复' : (isCharMoment ? '包含1-3条' : '包含1-2条')}；messages ${options.reason === 'user_comment' ? '包含0-2条，可以为空数组' : '包含1-3条'}。
+4. 每个数组元素只写一条自然消息，不要带 Char/User 标签，不要把多条回复合并在一个字符串里。`;
+
+            let endpoint = apiConfig.endpoint;
+            if (endpoint && !endpoint.endsWith('/chat/completions')) {
+                if (endpoint.endsWith('/')) endpoint += 'v1/chat/completions';
+                else if (endpoint.endsWith('/v1')) endpoint += '/chat/completions';
+                else endpoint += '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + apiConfig.apiKey
+                },
+                body: JSON.stringify({
+                    model: apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: '你是角色扮演对话助手，必须严格返回指定 JSON 对象。' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(apiConfig.temperature) || 0.7
+                })
+            });
+            if (!response.ok) throw new Error(`API Request Failed: ${response.status}`);
+
+            const data = await response.json();
+            const resultText = data.choices?.[0]?.message?.content || '';
+            let jsonStr = resultText.replace(/```json/gi, '').replace(/```/g, '').trim();
+            const match = jsonStr.match(/\{[\s\S]*\}/);
+            if (match) jsonStr = match[0];
+            const parsed = JSON.parse(jsonStr);
+            const normalizeTextList = (list, limit) => Array.isArray(list)
+                ? list.map(item => typeof item === 'string' ? item.trim() : String(item?.text || '').trim()).filter(Boolean).slice(0, limit)
+                : [];
+            const comments = normalizeTextList(parsed.comments, options.reason === 'user_comment' ? 5 : (isCharMoment ? 3 : 2));
+            const privateMessages = normalizeTextList(parsed.messages, options.reason === 'user_comment' ? 2 : 3);
+            if (options.reason === 'user_comment' && comments.length < 2) {
+                throw new Error('API must return 2-5 public replies');
+            }
+            if (options.reason !== 'user_comment' && comments.length === 0 && privateMessages.length === 0) {
+                throw new Error('No comments or messages generated');
+            }
+
+            friend = window.imData?.friends?.find(item => String(item.id) === String(friendId));
+            moment = friend?.lovesData?.moments?.find(item => String(item.id) === String(momentId));
+            if (!friend || !moment) return false;
+            if (!Array.isArray(moment.comments)) moment.comments = [];
+            const baseTime = Date.now();
+            comments.forEach((text, index) => {
+                moment.comments.push({
+                    id: `lmc_${baseTime}_${index}`,
+                    text,
+                    isChar: true,
+                    timestamp: baseTime + index
+                });
+            });
+
+            for (let index = 0; index < privateMessages.length; index += 1) {
+                const msgText = privateMessages[index];
+                const timestamp = baseTime + (index + 1) * 1000;
+                const msgObj = {
+                    id: window.imChat?.createMessageId ? window.imChat.createMessageId('msg') : `msg_${timestamp}_${index}`,
+                    sender: friend.id,
+                    role: 'assistant',
+                    text: msgText,
+                    content: msgText,
+                    timestamp,
+                    time: new Date(timestamp).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false }),
+                    type: 'text'
+                };
+                if (window.imApp?.appendFriendMessage) {
+                    await window.imApp.appendFriendMessage(friend.id, msgObj, { silent: false });
+                } else {
+                    if (!Array.isArray(friend.messages)) friend.messages = [];
+                    friend.messages.push(msgObj);
+                }
+            }
+
+            await this.persistFriendState(friend, { metaOnly: true });
+            if (this.currentFriend && String(this.currentFriend.id) === String(friendId)) {
+                this.currentFriend = friend;
+                this.renderLovesMoments();
+            }
+            if (window.showToast) window.showToast(privateMessages.length > 0 ? '评论与消息发送成功' : '回复已生成');
+            return true;
+        } catch (error) {
+            console.error('Comment API Error:', error);
+            if (window.showToast) {
+                window.showToast(error instanceof SyntaxError || /2-5 public replies/.test(String(error?.message || ''))
+                    ? 'AI 生成格式错误，请重试'
+                    : 'API 请求失败，无法评论');
+            }
+            return false;
+        } finally {
+            const liveFriend = window.imData?.friends?.find(item => String(item.id) === String(friendId));
+            const liveMoment = liveFriend?.lovesData?.moments?.find(item => String(item.id) === String(momentId));
+            if (liveMoment) {
+                liveMoment._charReplyPendingCount = Math.max(0, Number(liveMoment._charReplyPendingCount) || 1) - 1;
+                liveMoment._charReplyPending = liveMoment._charReplyPendingCount > 0;
+            }
+        }
+    },
+    
+    toggleMomentLike: function(idx) {
+        if (!this.currentFriend || !this.currentFriend.lovesData || !this.currentFriend.lovesData.moments) return;
+        const m = this.currentFriend.lovesData.moments[idx];
+        m.isLiked = !m.isLiked;
+        m.likes = (m.likes || 0) + (m.isLiked ? 1 : -1);
+        if (m.likes < 0) m.likes = 0;
+        this.persistFriendState();
+        this.renderLovesMoments();
+    },
+
+    ensureSavingsData: function(friend = this.currentFriend) {
+        if (!friend) return { goal: 5200, records: [], withdrawals: [] };
+        if (!friend.lovesData) friend.lovesData = {};
+        if (!friend.lovesData.savings || typeof friend.lovesData.savings !== 'object') {
+            friend.lovesData.savings = {};
+        }
+        const savings = friend.lovesData.savings;
+        if (!Number.isFinite(Number(savings.goal)) || Number(savings.goal) <= 0) {
+            savings.goal = 5200;
+        } else {
+            savings.goal = Number(savings.goal);
+        }
+        if (!Array.isArray(savings.records)) savings.records = [];
+        savings.records = savings.records.map((record, index) => ({
+            id: record.id || `sav_${Date.now()}_${index}`,
+            amount: Math.max(0, Number(record.amount) || 0),
+            actor: record.actor === 'char' ? 'char' : 'user',
+            date: record.date || this.getLocalDateKey(record.timestamp || new Date()),
+            note: String(record.note || ''),
+            source: record.source === 'char_daily' || String(record.id || '').startsWith('sav_char_daily_') ? 'char_daily' : '',
+            timestamp: Number(record.timestamp) || Date.now()
+        })).filter(record => record.amount > 0);
+        if (!Array.isArray(savings.withdrawals)) savings.withdrawals = [];
+        savings.withdrawals = savings.withdrawals.map((record, index) => ({
+            id: record.id || `wd_${Date.now()}_${index}`,
+            amount: Math.max(0, Number(record.amount) || 0),
+            actor: 'user',
+            date: record.date || this.getLocalDateKey(record.timestamp || new Date()),
+            reason: String(record.reason || record.note || ''),
+            decisionReason: String(record.decisionReason || ''),
+            timestamp: Number(record.timestamp) || Date.now()
+        })).filter(record => record.amount > 0);
+        return savings;
+    },
+
+    getSavingsSummary: function(savings = this.ensureSavingsData()) {
+        const records = Array.isArray(savings.records) ? savings.records : [];
+        const summary = records.reduce((nextSummary, record) => {
+            const amount = Number(record.amount) || 0;
+            nextSummary.total += amount;
+            if (record.actor === 'char') nextSummary.char += amount;
+            else nextSummary.user += amount;
+            return nextSummary;
+        }, { total: 0, user: 0, char: 0, withdrawn: 0 });
+        const withdrawals = Array.isArray(savings.withdrawals) ? savings.withdrawals : [];
+        summary.withdrawn = withdrawals.reduce((sum, record) => sum + (Number(record.amount) || 0), 0);
+        summary.total = Math.max(0, summary.total - summary.withdrawn);
+        return summary;
+    },
+
+    setSavingsFabCovered: function(covered) {
+        const fab = document.getElementById('lovers-space-fab');
+        if (!fab) return;
+
+        if (covered) {
+            if (fab.dataset.savingsFabCovered !== '1') {
+                fab.dataset.savingsPreviousDisplay = fab.style.display || '';
+                fab.dataset.savingsPreviousZIndex = fab.style.zIndex || '';
+            }
+            fab.dataset.savingsFabCovered = '1';
+            fab.style.display = 'none';
+            return;
+        }
+
+        const hasActiveSavingsSheet = [
+            'lovers-savings-deposit-sheet',
+            'lovers-savings-settings-sheet',
+            'lovers-savings-withdraw-sheet',
+            'lovers-savings-withdraw-result-modal'
+        ].some(id => document.getElementById(id)?.classList.contains('active'));
+
+        if (hasActiveSavingsSheet) return;
+
+        if (fab.dataset.savingsFabCovered === '1') {
+            fab.style.display = fab.dataset.savingsPreviousDisplay || '';
+            fab.style.zIndex = fab.dataset.savingsPreviousZIndex || '';
+            delete fab.dataset.savingsFabCovered;
+            delete fab.dataset.savingsPreviousDisplay;
+            delete fab.dataset.savingsPreviousZIndex;
+        }
+    },
+
+    closeSavingsSheet: function(sheet, options = {}) {
+        if (!sheet) return;
+        if (window.closeView) window.closeView(sheet);
+        else sheet.classList.remove('active');
+        if (!options.keepFabHidden) {
+            setTimeout(() => this.setSavingsFabCovered(false), 0);
+        }
+    },
+
+    openSavingsSheet: function(sheet, focusEl = null) {
+        if (!sheet) return;
+        sheet.onclick = (e) => {
+            if (e.target === sheet) {
+                e.stopPropagation();
+                this.closeSavingsSheet(sheet);
+            }
+        };
+        this.setSavingsFabCovered(true);
+        if (window.openView) window.openView(sheet);
+        else sheet.classList.add('active');
+        if (focusEl) setTimeout(() => focusEl.focus(), 80);
+    },
+
+    getSavingsApiEndpoint: function() {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) return '';
+        let endpoint = window.apiConfig.endpoint;
+        if (endpoint && !endpoint.endsWith('/chat/completions')) {
+            if (endpoint.endsWith('/')) endpoint += 'v1/chat/completions';
+            else if (endpoint.endsWith('/v1')) endpoint += '/chat/completions';
+            else endpoint += '/v1/chat/completions';
+        }
+        return endpoint;
+    },
+
+    parseSavingsJsonObject: function(resultText) {
+        let jsonStr = String(resultText || '').replace(/```json/gi, '').replace(/```/g, '').trim();
+        const match = jsonStr.match(/\{[\s\S]*\}/);
+        if (match) jsonStr = match[0];
+        return JSON.parse(jsonStr);
+    },
+
+    createSavingsMessageId: function(prefix = 'msg') {
+        return window.imChat && window.imChat.createMessageId
+            ? window.imChat.createMessageId(prefix)
+            : `${prefix}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+    },
+
+    appendSavingsChatMessage: async function(friend, msgObj, options = {}) {
+        if (!friend || !msgObj) return false;
+        let saved = false;
+
+        if (window.imApp && window.imApp.appendFriendMessage) {
+            saved = await window.imApp.appendFriendMessage(friend.id, msgObj, { silent: options.silent !== false });
+        } else {
+            if (!Array.isArray(friend.messages)) friend.messages = [];
+            friend.messages.push(msgObj);
+            saved = true;
+        }
+
+        if (!saved) return false;
+
+        const activeFriend = window.imData?.currentActiveFriend &&
+            String(window.imData.currentActiveFriend.id) === String(friend.id)
+            ? window.imData.currentActiveFriend
+            : friend;
+        const page = document.getElementById(`chat-interface-${friend.id}`);
+        const container = page ? page.querySelector('.ins-chat-messages') : null;
+        const isActiveChat = container && window.imData?.currentActiveFriend &&
+            String(window.imData.currentActiveFriend.id) === String(friend.id);
+
+        if (isActiveChat && window.imChat?.appendMessageToContainer) {
+            const appended = window.imChat.appendMessageToContainer(activeFriend, container, msgObj, { scroll: true });
+            if (!appended && window.imChat.rerenderChatContainer) {
+                window.imChat.rerenderChatContainer(activeFriend, container, { scroll: true });
+            }
+        }
+
+        return true;
+    },
+
+    normalizeSavingsWithdrawResult: function(parsed, amount, reason) {
+        const decision = parsed?.decision === 'reject' ? 'reject' : 'approve';
+        const defaultReason = decision === 'reject'
+            ? `这笔我先不同意，${reason}这个理由还不够明确。`
+            : `可以，这次先从存钱罐给你提 ${amount.toFixed(2)}。`;
+        const decisionReason = String(parsed?.reason || parsed?.decisionReason || parsed?.approveReason || parsed?.rejectReason || defaultReason).trim() || defaultReason;
+        let messages = Array.isArray(parsed?.messages)
+            ? parsed.messages.map(item => String(item || '').trim()).filter(Boolean)
+            : [];
+        const fallbackMessages = decision === 'reject'
+            ? [
+                `这笔我先不同意，${reason}这个理由我还想再问清楚一点。`,
+                `你先别急着提，跟我说说到底怎么用。`
+            ]
+            : [
+                `可以，你先拿去用。`,
+                amount <= 50 ? `就提 ${amount.toFixed(2)} 够不够？` : `这笔我同意，记得别乱花。`
+            ];
+        fallbackMessages.forEach(text => {
+            if (messages.length < 2) messages.push(text);
+        });
+        messages = messages.slice(0, 5);
+
+        const rawExtra = parsed?.extraSupport && typeof parsed.extraSupport === 'object'
+            ? parsed.extraSupport
+            : (parsed?.payment && typeof parsed.payment === 'object' ? parsed.payment : {});
+        let extraType = String(rawExtra.type || 'none').trim();
+        if (extraType === 'red_packet') extraType = 'transfer';
+        if (!['none', 'transfer', 'family_card', 'family_card_increase'].includes(extraType)) extraType = 'none';
+
+        const extraAmount = Number.isFinite(Number(rawExtra.amount)) && Number(rawExtra.amount) > 0
+            ? Math.round(Number(rawExtra.amount) * 100) / 100
+            : 0;
+        if (extraAmount <= 0) extraType = 'none';
+
+        return {
+            decision,
+            reason: decisionReason,
+            messages,
+            extraSupport: {
+                type: extraType,
+                amount: extraAmount,
+                description: String(rawExtra.description || 'TA 额外补贴').trim() || 'TA 额外补贴'
+            }
+        };
+    },
+
+    openSavingsJar: function() {
+        if (!this.currentFriend) {
+            if (window.showToast) window.showToast('请先进入情侣空间');
+            return;
+        }
+        const savingsView = document.getElementById('lovers-savings-view');
+        if (!savingsView) return;
+
+        this.ensureSavingsData();
+        const spaceView = document.getElementById('lovers-space-view');
+        if (spaceView && savingsView.parentElement !== spaceView) {
+            spaceView.appendChild(savingsView);
+        }
+        savingsView.classList.add('active');
+        const fab = document.getElementById('lovers-space-fab');
+        if (fab) {
+            fab.style.removeProperty('display');
+            fab.style.removeProperty('z-index');
+            fab.classList.add('is-savings-mode');
+        }
+
+        const backBtn = document.getElementById('lovers-savings-back-btn');
+        if (backBtn) {
+            backBtn.onclick = () => {
+                savingsView.classList.remove('active');
+                if (fab) {
+                    fab.classList.remove('is-savings-mode');
+                    fab.style.removeProperty('display');
+                    fab.style.removeProperty('z-index');
+                }
+            };
+        }
+
+        const addBtn = document.getElementById('lovers-savings-add-btn');
+        if (addBtn) {
+            addBtn.onclick = () => this.openSavingsSettingsSheet();
+        }
+
+        const dateFilter = document.getElementById('lovers-savings-date-filter');
+        if (dateFilter) {
+            dateFilter.onchange = () => this.renderSavingsJar();
+        }
+
+        this.renderSavingsJar();
+    },
+
+    renderSavingsJar: function() {
+        if (!this.currentFriend) return;
+        const savings = this.ensureSavingsData();
+        const summary = this.getSavingsSummary(savings);
+        const friendName = this.currentFriend.nickname || this.currentFriend.realname || 'TA';
+        const userName = window.userState?.name || window.imData?.profile?.name || '我';
+        const percent = savings.goal > 0 ? Math.min(100, Math.round((summary.total / savings.goal) * 100)) : 0;
+
+        const totalEl = document.getElementById('lovers-savings-total');
+        const goalEl = document.getElementById('lovers-savings-goal');
+        const percentEl = document.getElementById('lovers-savings-percent');
+        const progressEl = document.getElementById('lovers-savings-progress');
+        const userAmountEl = document.getElementById('lovers-savings-user-amount');
+        const charAmountEl = document.getElementById('lovers-savings-char-amount');
+        const userNameEl = document.getElementById('lovers-savings-user-name');
+        const charNameEl = document.getElementById('lovers-savings-char-name');
+        const leftEl = document.getElementById('lovers-savings-left');
+        const dateFilter = document.getElementById('lovers-savings-date-filter');
+        const selectedDateLabel = document.getElementById('lovers-savings-selected-date');
+        const listEl = document.getElementById('lovers-savings-records');
+
+        if (totalEl) totalEl.textContent = this.formatMoney(summary.total);
+        if (goalEl) goalEl.textContent = `目标 ${this.formatMoney(savings.goal)}`;
+        if (percentEl) percentEl.textContent = `${percent}%`;
+        if (progressEl) progressEl.style.width = `${percent}%`;
+        if (userAmountEl) userAmountEl.textContent = this.formatMoney(summary.user);
+        if (charAmountEl) charAmountEl.textContent = this.formatMoney(summary.char);
+        if (userNameEl) userNameEl.textContent = userName;
+        if (charNameEl) charNameEl.textContent = friendName;
+        if (leftEl) leftEl.textContent = summary.total >= savings.goal ? '目标已达成' : `还差 ${this.formatMoney(savings.goal - summary.total)}`;
+
+        if (dateFilter && !dateFilter.value) {
+            dateFilter.value = this.getLocalDateKey();
+        }
+
+        const selectedDate = dateFilter?.value || this.getLocalDateKey();
+        const selectedDateObj = this.parseDateKey(selectedDate);
+        if (selectedDateLabel) {
+            selectedDateLabel.textContent = `${selectedDateObj.getMonth() + 1}月${selectedDateObj.getDate()}日`;
+        }
+
+        const depositRecords = savings.records
+            .filter(record => record.date === selectedDate)
+            .map(record => ({ ...record, kind: 'deposit' }));
+        const withdrawalRecords = (Array.isArray(savings.withdrawals) ? savings.withdrawals : [])
+            .filter(record => record.date === selectedDate)
+            .map(record => ({ ...record, kind: 'withdrawal' }));
+        const dayRecords = depositRecords
+            .concat(withdrawalRecords)
+            .sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+        const dayUser = depositRecords.filter(record => record.actor !== 'char').reduce((sum, record) => sum + Number(record.amount || 0), 0);
+        const dayChar = depositRecords.filter(record => record.actor === 'char').reduce((sum, record) => sum + Number(record.amount || 0), 0);
+
+        const dayUserEl = document.getElementById('lovers-savings-day-user');
+        const dayCharEl = document.getElementById('lovers-savings-day-char');
+        if (dayUserEl) dayUserEl.textContent = this.formatMoney(dayUser);
+        if (dayCharEl) dayCharEl.textContent = this.formatMoney(dayChar);
+
+        if (!listEl) return;
+        if (dayRecords.length === 0) {
+            listEl.innerHTML = `
+                <div class="lovers-savings-empty">
+                    <i class="fas fa-piggy-bank"></i>
+                    <div>这天还没有存入记录</div>
+                </div>
+            `;
+            return;
+        }
+
+        listEl.innerHTML = dayRecords.map((record) => {
+            const isWithdrawal = record.kind === 'withdrawal';
+            const isChar = record.actor === 'char';
+            const actorName = isChar ? friendName : userName;
+            const time = new Date(record.timestamp || Date.now()).toLocaleTimeString('zh-CN', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            return `
+                <div class="lovers-savings-record ${isWithdrawal ? 'is-withdrawal' : ''}" data-record-id="${record.id}">
+                    <div class="lovers-savings-record-icon ${isChar ? 'is-char' : 'is-user'}">
+                        <i class="fas ${isWithdrawal ? 'fa-arrow-up-from-bracket' : (isChar ? 'fa-heart' : 'fa-coins')}"></i>
+                    </div>
+                    <div class="lovers-savings-record-main">
+                        <div class="lovers-savings-record-top">
+                            <span>${isWithdrawal ? '提款到 Pay' : this.escapeHTML(actorName)}</span>
+                            <strong>${isWithdrawal ? '-' : ''}${this.formatMoney(record.amount)}</strong>
+                        </div>
+                        <div class="lovers-savings-record-meta">
+                            <span>${time}</span>
+                            ${isWithdrawal
+                                ? `<span>${this.escapeHTML(record.reason || '存钱罐提款')}</span>`
+                                : (record.note ? `<span>${this.escapeHTML(record.note)}</span>` : '')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    },
+
+    openSavingsDepositSheet: function(defaultActor = 'user') {
+        if (!this.currentFriend) return;
+        const sheet = document.getElementById('lovers-savings-deposit-sheet');
+        if (!sheet) return;
+        const savingsView = document.getElementById('lovers-savings-view');
+        if (savingsView && sheet.parentElement !== savingsView) {
+            savingsView.appendChild(sheet);
+        }
+
+        const amountInput = document.getElementById('lovers-savings-amount-input');
+        const dateInput = document.getElementById('lovers-savings-date-input');
+        const noteInput = document.getElementById('lovers-savings-note-input');
+        const actorInput = document.getElementById('lovers-savings-actor-input');
+        const friendName = this.currentFriend.nickname || this.currentFriend.realname || 'TA';
+
+        if (amountInput) amountInput.value = '';
+        if (dateInput) dateInput.value = this.getLocalDateKey();
+        if (noteInput) noteInput.value = '';
+        if (actorInput) {
+            actorInput.innerHTML = `
+                <option value="user">我</option>
+                <option value="char">${this.escapeHTML(friendName)}</option>
+            `;
+            actorInput.value = defaultActor === 'char' ? 'char' : 'user';
+        }
+
+        const cancelBtn = document.getElementById('lovers-savings-deposit-cancel');
+        if (cancelBtn) cancelBtn.onclick = () => this.closeSavingsSheet(sheet);
+
+        const saveBtn = document.getElementById('lovers-savings-deposit-save');
+        if (saveBtn) {
+            saveBtn.onclick = () => this.addSavingsRecord();
+        }
+
+        this.openSavingsSheet(sheet, amountInput);
+    },
+
+    openSavingsSettingsSheet: function() {
+        if (!this.currentFriend) return;
+        const sheet = document.getElementById('lovers-savings-settings-sheet');
+        if (!sheet) return;
+        const savingsView = document.getElementById('lovers-savings-view');
+        if (savingsView && sheet.parentElement !== savingsView) {
+            savingsView.appendChild(sheet);
+        }
+
+        const savings = this.ensureSavingsData();
+        const goalInput = document.getElementById('lovers-savings-goal-input');
+        if (goalInput) goalInput.value = String(savings.goal || 5200);
+
+        const cancelBtn = document.getElementById('lovers-savings-settings-cancel');
+        if (cancelBtn) cancelBtn.onclick = () => this.closeSavingsSheet(sheet);
+
+        const saveBtn = document.getElementById('lovers-savings-settings-save');
+        if (saveBtn) saveBtn.onclick = () => this.saveSavingsSettings();
+
+        const withdrawBtn = document.getElementById('lovers-savings-withdraw-btn');
+        if (withdrawBtn) {
+            withdrawBtn.onclick = () => {
+                this.closeSavingsSheet(sheet, { keepFabHidden: true });
+                this.openSavingsWithdrawSheet();
+            };
+        }
+
+        this.openSavingsSheet(sheet, goalInput);
+    },
+
+    saveSavingsSettings: function() {
+        if (!this.currentFriend) return;
+        const sheet = document.getElementById('lovers-savings-settings-sheet');
+        const goalInput = document.getElementById('lovers-savings-goal-input');
+        const nextGoal = Number(goalInput?.value);
+
+        if (!Number.isFinite(nextGoal) || nextGoal <= 0) {
+            if (window.showToast) window.showToast('请输入有效目标金额');
+            return;
+        }
+
+        const savings = this.ensureSavingsData();
+        savings.goal = Math.round(nextGoal * 100) / 100;
+        this.persistFriendState();
+        this.renderSavingsJar();
+        this.closeSavingsSheet(sheet);
+        if (window.showToast) window.showToast('目标已更新');
+    },
+
+    openSavingsWithdrawSheet: function() {
+        if (!this.currentFriend) return;
+        const sheet = document.getElementById('lovers-savings-withdraw-sheet');
+        if (!sheet) return;
+        const savingsView = document.getElementById('lovers-savings-view');
+        if (savingsView && sheet.parentElement !== savingsView) {
+            savingsView.appendChild(sheet);
+        }
+
+        const amountInput = document.getElementById('lovers-savings-withdraw-amount-input');
+        const reasonInput = document.getElementById('lovers-savings-withdraw-reason-input');
+        if (amountInput) amountInput.value = '';
+        if (reasonInput) reasonInput.value = '';
+
+        const cancelBtn = document.getElementById('lovers-savings-withdraw-cancel');
+        if (cancelBtn) cancelBtn.onclick = () => this.closeSavingsSheet(sheet);
+
+        const sendBtn = document.getElementById('lovers-savings-withdraw-send');
+        if (sendBtn) {
+            sendBtn.disabled = false;
+            sendBtn.textContent = '发送请求';
+            sendBtn.onclick = () => this.sendSavingsWithdrawRequest();
+        }
+
+        this.openSavingsSheet(sheet, amountInput);
+    },
+
+    sendSavingsWithdrawRequest: async function() {
+        if (!this.currentFriend) return;
+
+        const sheet = document.getElementById('lovers-savings-withdraw-sheet');
+        const amountInput = document.getElementById('lovers-savings-withdraw-amount-input');
+        const reasonInput = document.getElementById('lovers-savings-withdraw-reason-input');
+        const sendBtn = document.getElementById('lovers-savings-withdraw-send');
+        const amount = Number(amountInput?.value);
+        const reason = String(reasonInput?.value || '').trim();
+
+        if (!Number.isFinite(amount) || amount <= 0) {
+            if (window.showToast) window.showToast('请输入有效提款金额');
+            return;
+        }
+
+        if (!reason) {
+            if (window.showToast) window.showToast('请输入提款理由');
+            return;
+        }
+
+        const endpoint = this.getSavingsApiEndpoint();
+        if (!endpoint || !window.apiConfig?.apiKey) {
+            if (window.showToast) window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+
+        const friend = this.currentFriend;
+        if (window.imApp?.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend);
+        }
+
+        const savings = this.ensureSavingsData(friend);
+        const summary = this.getSavingsSummary(savings);
+        const friendName = friend.nickname || friend.realname || friend.realName || friend.name || 'TA';
+        const userPersona = window.userState?.persona || '普通用户';
+        const charPersona = friend.persona || '普通角色';
+        const recentMessages = Array.isArray(friend.messages) ? friend.messages.slice(-10) : [];
+        const chatContext = recentMessages.map(msg => {
+            const sender = msg.role === 'user' || msg.sender === 'me' ? 'User' : 'Char';
+            let content = msg.text || msg.content || '';
+            if (msg.type === 'pay_transfer') {
+                content = `[支付卡片] ${msg.description || msg.cardTitle || ''} ${msg.amount ? `¥${Number(msg.amount).toFixed(2)}` : ''}`.trim();
+            }
+            content = String(content || '[特殊消息]').replace(/<[^>]+>/g, '').slice(0, 180);
+            return `${sender}: ${content}`;
+        }).join('\n');
+
+        let globalRule = '';
+        if (window.getGlobalWorldBookContextByPosition) {
+            globalRule = window.getGlobalWorldBookContextByPosition('system_depth') || '';
+            const beforeRole = window.getGlobalWorldBookContextByPosition('before_role');
+            if (beforeRole) globalRule += '\n' + beforeRole;
+        }
+
+        const prompt = `你现在扮演 Char，需要处理情侣共享存钱罐的一次提款请求。
+
+【提款请求】
+User 想从存钱罐提款：¥${amount.toFixed(2)}
+提款理由：${reason}
+
+【存钱罐状态】
+存钱目标：${this.formatMoney(savings.goal)}
+当前总额：${this.formatMoney(summary.total)}
+User 已存：${this.formatMoney(summary.user)}
+Char 已存：${this.formatMoney(summary.char)}
+
+${globalRule ? `【世界书设定】\n${globalRule}\n\n` : ''}【角色(Char)人设】
+${charPersona}
+
+【用户(User)人设】
+${userPersona}
+
+${chatContext ? `【近期 iMessage 上下文】\n${chatContext}\n\n` : ''}要求：
+1. 你必须以 Char 的身份决定同意或拒绝这次提款，decision 只能是 "approve" 或 "reject"。
+2. 返回 reason，作为 Char 给出的同意理由或拒绝理由，语气要符合人设和上下文。
+3. 提款本金来自存钱罐，不是 Char 的钱；如果同意，系统会把这笔钱直接转入 User 的 Pay，并从存钱罐余额扣除。
+4. 生成 messages 数组，包含 2-5 条 Char 会发给 User 的 iMessage 单聊文本，要围绕提款理由自然展开。
+5. extraSupport 是 Char 额外拿自己的钱或亲属卡补贴 User，完全看 Char 本人意愿，不是强制项；不想额外补贴时必须写 {"type":"none"}。如果补贴，type 可为 "transfer"、"family_card"、"family_card_increase"。
+6. 如果拒绝，extraSupport.type 必须是 "none"。
+7. 如果提款金额超过当前总额，必须拒绝。
+8. 只返回纯 JSON，不要 Markdown，不要多余解释。格式如下：
+{"decision":"approve","reason":"可以，你先拿去买吃的。","messages":["吃什么？","就提这么点够不够？"],"extraSupport":{"type":"none"}}`;
+
+        if (sendBtn) {
+            sendBtn.disabled = true;
+            sendBtn.textContent = '发送中';
+        }
+        if (window.showToast) window.showToast('正在发送提款请求...');
+
+        try {
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': 'Bearer ' + window.apiConfig.apiKey
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: '你是角色扮演对话助手，必须严格返回合法 JSON 对象。' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: 0.75
+                })
+            });
+
+            if (!response.ok) throw new Error('API Request Failed');
+            const data = await response.json();
+            const resultText = data.choices?.[0]?.message?.content || '';
+            const parsed = this.parseSavingsJsonObject(resultText);
+            const result = this.normalizeSavingsWithdrawResult(parsed, Math.round(amount * 100) / 100, reason);
+
+            if (result.decision === 'approve' && amount > summary.total) {
+                result.decision = 'reject';
+                result.reason = `存钱罐当前只有 ${this.formatMoney(summary.total)}，不够提款 ${this.formatMoney(amount)}。`;
+                result.extraSupport = { type: 'none', amount: 0, description: '' };
+            }
+
+            const baseTime = Date.now();
+            if (result.decision === 'approve') {
+                if (typeof window.addPayTransaction !== 'function') {
+                    throw new Error('Pay API unavailable');
+                }
+
+                const incomeSuccess = window.addPayTransaction(amount, `存钱罐提款 · ${friendName}`, 'income');
+                if (!incomeSuccess) throw new Error('Pay income failed');
+
+                const now = new Date();
+                const date = this.getLocalDateKey(now);
+                savings.withdrawals.unshift({
+                    id: 'wd_' + Date.now(),
+                    amount: Math.round(amount * 100) / 100,
+                    actor: 'user',
+                    date,
+                    reason,
+                    decisionReason: result.reason,
+                    timestamp: now.getTime()
+                });
+                const dateFilter = document.getElementById('lovers-savings-date-filter');
+                if (dateFilter) dateFilter.value = date;
+            }
+
+            for (let idx = 0; idx < result.messages.length; idx++) {
+                const msgTime = baseTime + (idx + 1) * 1000;
+                const msgText = result.messages[idx];
+                const msgObj = {
+                    id: this.createSavingsMessageId('msg'),
+                    sender: friend.id,
+                    role: 'assistant',
+                    type: 'text',
+                    text: msgText,
+                    content: msgText,
+                    timestamp: msgTime,
+                    time: new Date(msgTime).toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false })
+                };
+                await this.appendSavingsChatMessage(friend, msgObj, { silent: false });
+            }
+
+            if (result.decision === 'approve' && result.extraSupport.type !== 'none') {
+                const paymentMsg = this.createSavingsPaymentMessage(friend, result.extraSupport, baseTime + (result.messages.length + 1) * 1000);
+                if (paymentMsg) {
+                    await this.appendSavingsChatMessage(friend, paymentMsg, { silent: false });
+                }
+            }
+
+            await this.persistFriendState(friend);
+            this.renderSavingsJar();
+            this.closeSavingsSheet(sheet, { keepFabHidden: true });
+            this.openSavingsWithdrawResultModal({
+                decision: result.decision,
+                reason: result.reason,
+                amount: Math.round(amount * 100) / 100
+            });
+        } catch (err) {
+            console.error('Savings withdraw request failed:', err);
+            if (window.showToast) window.showToast('提款请求发送失败，请重试');
+            if (sendBtn) {
+                sendBtn.disabled = false;
+                sendBtn.textContent = '发送请求';
+            }
+        }
+    },
+
+    openSavingsWithdrawResultModal: function(result) {
+        const modal = document.getElementById('lovers-savings-withdraw-result-modal');
+        if (!modal) return;
+        const savingsView = document.getElementById('lovers-savings-view');
+        if (savingsView && modal.parentElement !== savingsView) {
+            savingsView.appendChild(modal);
+        }
+
+        const approved = result?.decision === 'approve';
+        const titleEl = document.getElementById('lovers-savings-withdraw-result-title');
+        const amountEl = document.getElementById('lovers-savings-withdraw-result-amount');
+        const labelEl = document.getElementById('lovers-savings-withdraw-result-reason-label');
+        const reasonEl = document.getElementById('lovers-savings-withdraw-result-reason-text');
+        const iconEl = document.getElementById('lovers-savings-withdraw-result-icon');
+        const closeBtn = document.getElementById('lovers-savings-withdraw-result-close');
+        const okBtn = document.getElementById('lovers-savings-withdraw-result-ok');
+
+        modal.classList.toggle('is-approved', approved);
+        modal.classList.toggle('is-rejected', !approved);
+        if (titleEl) titleEl.textContent = approved ? 'TA 已同意' : 'TA 已拒绝';
+        if (amountEl) amountEl.textContent = this.formatMoney(result?.amount || 0);
+        if (labelEl) labelEl.textContent = approved ? '同意理由' : '拒绝理由';
+        if (reasonEl) reasonEl.textContent = result?.reason || (approved ? 'TA 同意了这次提款。' : 'TA 拒绝了这次提款。');
+        if (iconEl) {
+            iconEl.innerHTML = `<i class="fas ${approved ? 'fa-check' : 'fa-xmark'}"></i>`;
+        }
+
+        const closeModal = () => this.closeSavingsSheet(modal);
+        if (closeBtn) closeBtn.onclick = closeModal;
+        if (okBtn) okBtn.onclick = closeModal;
+        this.openSavingsSheet(modal);
+    },
+
+    createSavingsPaymentMessage: function(friend, payment, timestamp = Date.now()) {
+        if (!friend || !payment || payment.type === 'none') return null;
+
+        const amount = Number(payment.amount) || 0;
+        if (!Number.isFinite(amount) || amount <= 0) return null;
+
+        const friendName = friend.nickname || friend.realname || friend.realName || friend.name || 'Char';
+        const userName = window.userState?.name || window.userState?.realName || window.userState?.nickname || window.imData?.profile?.name || 'User';
+        const description = String(payment.description || '存钱罐提款').trim() || '存钱罐提款';
+
+        if (payment.type === 'family_card' || payment.type === 'family_card_increase') {
+            let titleStr = payment.type === 'family_card_increase' ? '提升亲属卡额度' : '赠送亲属卡';
+            if (typeof window.addOrUpdateFamilyCard === 'function') {
+                const result = window.addOrUpdateFamilyCard(friend.id, friendName, amount);
+                titleStr = result?.action === 'increase' ? '提升亲属卡额度' : '赠送亲属卡';
+            }
+            return {
+                id: this.createSavingsMessageId('pay'),
+                sender: friend.id,
+                role: 'assistant',
+                type: 'pay_transfer',
+                payKind: 'system_notification',
+                payDirection: 'char_to_user',
+                amount,
+                description: `${titleStr} ¥${amount.toFixed(2)}`,
+                payerName: friendName,
+                payeeName: userName,
+                senderName: friendName,
+                receiverName: userName,
+                targetName: userName,
+                cardTitle: titleStr,
+                payStatus: 'completed',
+                content: `[亲属卡] ${titleStr} ¥${amount.toFixed(2)}`,
+                timestamp
+            };
+        }
+
+        return {
+            id: this.createSavingsMessageId('pay'),
+            sender: friend.id,
+            role: 'assistant',
+            type: 'pay_transfer',
+            payKind: 'char_to_user_pending',
+            payDirection: 'char_to_user',
+            amount,
+            description,
+            payerName: friendName,
+            payeeName: userName,
+            senderName: friendName,
+            receiverName: userName,
+            targetName: userName,
+            cardTitle: '转账',
+            payStatus: 'pending',
+            content: `[转账] ${description} ¥${amount.toFixed(2)}`,
+            timestamp
+        };
+    },
+
+    addSavingsRecord: function() {
+        if (!this.currentFriend) return;
+        const amountInput = document.getElementById('lovers-savings-amount-input');
+        const dateInput = document.getElementById('lovers-savings-date-input');
+        const noteInput = document.getElementById('lovers-savings-note-input');
+        const actorInput = document.getElementById('lovers-savings-actor-input');
+        const sheet = document.getElementById('lovers-savings-deposit-sheet');
+
+        const amount = Number(amountInput?.value);
+        if (!Number.isFinite(amount) || amount <= 0) {
+            if (window.showToast) window.showToast('请输入有效金额');
+            return;
+        }
+
+        const savings = this.ensureSavingsData();
+        const date = dateInput?.value || this.getLocalDateKey();
+        const now = new Date();
+        const recordDate = this.parseDateKey(date);
+        recordDate.setHours(now.getHours(), now.getMinutes(), now.getSeconds(), now.getMilliseconds());
+
+        savings.records.unshift({
+            id: 'sav_' + Date.now(),
+            amount: Math.round(amount * 100) / 100,
+            actor: actorInput?.value === 'char' ? 'char' : 'user',
+            date: date,
+            note: (noteInput?.value || '').trim(),
+            timestamp: recordDate.getTime()
+        });
+
+        const dateFilter = document.getElementById('lovers-savings-date-filter');
+        if (dateFilter) dateFilter.value = date;
+
+        this.persistFriendState();
+        this.renderSavingsJar();
+        this.closeSavingsSheet(sheet);
+        if (window.showToast) window.showToast('已存入存钱罐');
+    },
+
+    open: function() {
+        if (!this.initialized) {
+            this.init();
+        }
+        
+        if (!this.view) this.view = document.getElementById('loves-view');
+        if (this.view) {
+            const appContainer = document.getElementById('app');
+            if (appContainer) {
+                appContainer.scrollTop = 0;
+                appContainer.scrollLeft = 0;
+            }
+            this.scanForAcceptance();
+            if (typeof window.openView === 'function') {
+                window.openView(this.view);
+            } else {
+                this.view.classList.add('active');
+                this.view.style.display = 'flex';
+            }
+            this.renderTopFriends();
+        } else {
+            console.warn('[Loves] loves-view not found');
+        }
+    },
+    
+    scanForAcceptance: function() {
+        const friends = window.imData?.friends || [];
+        let updated = false;
+
+        friends.forEach(friend => {
+            if (friend.pendingLovesInvite && !friend.hasLovesSpace) {
+                const msgs = Array.isArray(friend.messages) ? friend.messages : [];
+                for (let i = msgs.length - 1; i >= 0; i--) {
+                    const msg = msgs[i];
+                    if (msg.sender !== 'me' && msg.text && msg.text.includes('[ACCEPT_INVITE]')) {
+                        // Found acceptance
+                        friend.hasLovesSpace = true;
+                        friend.pendingLovesInvite = false;
+                        if (!Number(friend.lovesSpaceStartTime)) {
+                            friend.lovesSpaceStartTime = Number(msg.timestamp) || Date.now();
+                        }
+                        
+                        // Replace the tag in the original message
+                        msg.text = msg.text.replace(/\[ACCEPT_INVITE\]/g, '').trim();
+                        if (msg.content) {
+                            msg.content = msg.content.replace(/\[ACCEPT_INVITE\]/g, '').trim();
+                        }
+                        
+                        // Append the visual card
+                        const acceptMsg = {
+                            id: window.imChat && window.imChat.createMessageId ? window.imChat.createMessageId('msg') : 'msg_' + Date.now(),
+                            sender: msg.sender,
+                            role: 'assistant',
+                            content: `<div class="loves-invite-bubble" style="background:#fff; border-radius:16px; padding:12px; border:1px solid #e5e5ea;  color:#111; max-width:220px; margin:2px;">
+                                <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                                    <div style="width:28px; height:28px; border-radius:8px; background:#ff2d55; color:#fff; display:flex; justify-content:center; align-items:center; font-size:14px;"><i class="fas fa-heart"></i></div>
+                                    <div style="font-size:14px; font-weight:700;">邀请已接受</div>
+                                </div>
+                                <div style="font-size:13px; color:#333; line-height:1.4;">TA 已接受了你的情侣空间邀请。</div>
+                            </div>`,
+                            text: '【邀请已接受】TA 已接受了你的情侣空间邀请。',
+                            timestamp: Date.now(),
+                            time: new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false }),
+                            type: 'html'
+                        };
+                        
+                        msgs.push(acceptMsg);
+                        void this.syncDailySavingsForFriend(friend, new Date(), { persist: false });
+                        updated = true;
+                        break; // Stop scanning for this friend
+                    }
+                }
+            }
+        });
+
+        if (updated) {
+            friends.forEach(friend => {
+                if (friend.hasLovesSpace) this.persistFriendState(friend, { metaOnly: true });
+            });
+        }
+    },
+
+    handleInviteAccepted: async function(friend) {
+        if (!friend) return;
+
+        const acceptedAt = Date.now();
+        friend.hasLovesSpace = true;
+        friend.pendingLovesInvite = false;
+        if (!Number(friend.lovesSpaceStartTime)) friend.lovesSpaceStartTime = acceptedAt;
+        
+        const acceptMsg = {
+            id: window.imChat && window.imChat.createMessageId ? window.imChat.createMessageId('msg') : 'msg_' + Date.now(),
+            sender: friend.id,
+            role: 'assistant',
+            content: `<div class="loves-invite-bubble" style="background:#fff; border-radius:16px; padding:12px; border:1px solid #e5e5ea;  color:#111; max-width:220px; margin:2px;">
+                <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                    <div style="width:28px; height:28px; border-radius:8px; background:#ff2d55; color:#fff; display:flex; justify-content:center; align-items:center; font-size:14px;"><i class="fas fa-heart"></i></div>
+                    <div style="font-size:14px; font-weight:700;">邀请已接受</div>
+                </div>
+                <div style="font-size:13px; color:#333; line-height:1.4;">我已经接受了你的情侣空间邀请，现在我们可以一起使用了。</div>
+            </div>`,
+            text: '【情侣空间】我接受了你的邀请',
+            timestamp: acceptedAt - 100, // 稍微提早一点以便排在前面
+            type: 'html'
+        };
+        
+        if (window.imApp && window.imApp.appendFriendMessage) {
+            await window.imApp.appendFriendMessage(friend.id, acceptMsg, { silent: true });
+        } else if (friend.messages && Array.isArray(friend.messages)) {
+            friend.messages.push(acceptMsg);
+        }
+        
+        await this.syncDailySavingsForFriend(friend, new Date(acceptedAt), { persist: false });
+        await this.persistFriendState(friend, { metaOnly: true });
+        
+        // 尝试立即渲染到聊天面板中
+        const pageId = `chat-interface-${friend.id}`;
+        const page = document.getElementById(pageId);
+        if (page) {
+            const container = page.querySelector('.ins-chat-messages');
+            if (container && window.imChat && window.imChat.appendMessageToContainer) {
+                // 将接受卡片动态添加到 DOM，不刷新整个列表，避免抖动
+                window.imChat.appendMessageToContainer(friend, container, acceptMsg);
+            }
+        }
+
+        // 如果当前打开的是这名好友的 Loves 详情页，立即更新按钮状态
+        const detailName = document.getElementById('loves-detail-name');
+        const detailArea = document.getElementById('loves-detail-area');
+        if (detailArea && detailArea.style.display === 'flex' && detailName) {
+            const expectedName = friend.nickname || friend.realname || 'Unknown';
+            if (detailName.textContent === expectedName) {
+                this.showFriendDetail(friend);
+            }
+        }
+    },
+
+    getTopFriends: function() {
+        const allFriends = Array.isArray(window.imData?.friends) ? window.imData.friends : [];
+        return allFriends.filter(f => f && f.type !== 'group' && f.type !== 'npc');
+    },
+    
+    renderTopFriends: function() {
+        const container = document.getElementById('loves-board');
+        if (!container) return;
+        
+        container.innerHTML = '';
+        
+        // 获取有效的好友列表 (排除群组, 官方号, NPC)
+        const validFriends = this.getTopFriends();
+        
+        if (validFriends.length === 0) {
+            container.innerHTML = `
+                <div class="loves-placeholder">
+                    <i class="fas fa-heart-crack"></i>
+                    <p>还没有可邀请的好友</p>
+                </div>
+            `;
+            return;
+        }
+
+        validFriends.forEach((friend, idx) => {
+            const note = document.createElement(friend.hasLovesSpace ? 'button' : 'div');
+            note.className = 'loves-note';
+            if (friend.hasLovesSpace) {
+                note.type = 'button';
+                note.setAttribute('aria-label', `进入 ${friend.nickname || friend.realname || '好友'} 的恋人空间`);
+            }
+            
+            // 头像区
+            const avatarWrapper = document.createElement('div');
+            avatarWrapper.className = 'loves-note-avatar';
+            if (friend.avatarUrl) {
+                const img = document.createElement('img');
+                img.src = friend.avatarUrl;
+                img.alt = friend.nickname || friend.realname || '好友头像';
+                avatarWrapper.appendChild(img);
+            } else {
+                const icon = document.createElement('i');
+                icon.className = 'fas fa-user';
+                avatarWrapper.appendChild(icon);
+            }
+            
+            // 中间信息区
+            const infoArea = document.createElement('div');
+            infoArea.className = 'loves-note-info';
+            
+            const nameEl = document.createElement('div');
+            nameEl.className = 'loves-note-name';
+            nameEl.textContent = friend.nickname || friend.realname || 'Unknown';
+            
+            const signEl = document.createElement('div');
+            signEl.className = 'loves-note-sign';
+            signEl.textContent = friend.signature || '新朋友加入，快去打个招呼吧';
+            
+            infoArea.appendChild(nameEl);
+            infoArea.appendChild(signEl);
+            
+            // 右侧按钮区
+            const actionBtn = document.createElement(friend.hasLovesSpace ? 'span' : 'button');
+            actionBtn.className = 'loves-note-action';
+            
+            if (friend.hasLovesSpace) {
+                actionBtn.textContent = '进入空间';
+                actionBtn.classList.add('loves-note-action-enter');
+                note.onclick = (e) => {
+                    e.stopPropagation();
+                    this.enterLovesSpace(friend);
+                };
+            } else {
+                actionBtn.type = 'button';
+                actionBtn.textContent = '邀请';
+                actionBtn.setAttribute('aria-label', `邀请 ${friend.nickname || friend.realname || '好友'} 建立恋人空间`);
+                actionBtn.classList.add('loves-note-action-invite');
+                actionBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    this.sendInviteCard(friend);
+                    // 假设发送后重新渲染界面
+                    setTimeout(() => this.renderTopFriends(), 500);
+                };
+            }
+            
+            note.appendChild(avatarWrapper);
+            note.appendChild(infoArea);
+            note.appendChild(actionBtn);
+            
+            container.appendChild(note);
+        });
+    },
+    
+    // showFriendDetail 已废弃，因为按钮直接放在头像下方了
+    showFriendDetail: function(friend) {
+        // do nothing
+    },
+    
+    sendInviteCard: async function(friend) {
+        const inviteMsg = {
+            id: window.imChat && window.imChat.createMessageId ? window.imChat.createMessageId('msg') : 'msg_' + Date.now(),
+            sender: 'me',
+            role: 'user',
+            content: `<div class="loves-invite-bubble" style="background:#fff; border-radius:16px; padding:12px; border:1px solid #e5e5ea;  color:#111; max-width:220px; margin:2px;">
+                <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                    <div style="width:28px; height:28px; border-radius:8px; background:#000; color:#fff; display:flex; justify-content:center; align-items:center; font-size:14px;"><i class="fas fa-heart"></i></div>
+                    <div style="font-size:14px; font-weight:700;">Loves 邀请</div>
+                </div>
+                <div style="font-size:13px; color:#333; line-height:1.4; margin-bottom:8px;">我向你发送了情侣空间的邀请，快来接受吧！</div>
+                <div style="font-size:11px; color:#8e8e93;">点击接受进入专属空间</div>
+            </div>`,
+            text: '【情侣空间邀请】我向你发送了情侣空间的邀请，快来接受吧！',
+            timestamp: Date.now(),
+            time: new Date().toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false }),
+            type: 'html'
+        };
+        
+        // 尝试通过 imApp 接口追加消息，如果不存在则直接 push
+        let saved = true;
+        if (window.imApp && window.imApp.appendFriendMessage) {
+            saved = await window.imApp.appendFriendMessage(friend.id, inviteMsg, { silent: false });
+        } else if (friend.messages && Array.isArray(friend.messages)) {
+             friend.messages.push(inviteMsg);
+        } else {
+             friend.messages = [inviteMsg];
+        }
+        if (!saved) return;
+        
+        friend.pendingLovesInvite = true;
+        // 注意：这里移除了强制设置 friend.hasLovesSpace = true，改由AI回复后更新
+
+        await this.persistFriendState(friend, { metaOnly: true });
+        
+        if (window.showToast) {
+            window.showToast('已向 ' + (friend.nickname || friend.realname) + ' 发送邀请！');
+        }
+        
+        // 动态更新列表中的按钮状态（仅模拟，实际上需要对方接受）
+        this.renderTopFriends();
+    },
+
+    getWeiboRandomAvatar: function(friend) {
+        const seed = encodeURIComponent(String(friend?.id || friend?.nickname || Date.now()));
+        return `https://picsum.photos/seed/weibo_alt_${seed}/160/160`;
+    },
+
+    getWeiboRandomImage: function(friend, index = 0, account = 'main') {
+        const seed = encodeURIComponent(`${friend?.id || friend?.nickname || 'friend'}_${account}_${index}`);
+        return `https://picsum.photos/seed/weibo_photo_${seed}/600/600`;
+    },
+
+    getWeiboRandomCover: function(friend, account = 'main') {
+        const seed = encodeURIComponent(`${friend?.id || friend?.nickname || 'friend'}_${account}`);
+        return `https://picsum.photos/seed/weibo_cover_${seed}/800/300`;
+    },
+
+    normalizeWeiboPost: function(post, index = 0, liked = false) {
+        const safePost = post && typeof post === 'object' ? post : {};
+        const rawComments = Array.isArray(safePost.comments) ? safePost.comments : [];
+        const comments = rawComments.map((comment, cIdx) => {
+            if (typeof comment === 'string') {
+                return { author: `评论用户${cIdx + 1}`, text: comment };
+            }
+            return {
+                author: comment?.author || comment?.name || `评论用户${cIdx + 1}`,
+                text: comment?.text || comment?.content || '说得很对。'
+            };
+        });
+        return {
+            id: safePost.id || `post_${Date.now()}_${index}`,
+            author: safePost.author || safePost.name || '',
+            text: safePost.text || safePost.content || safePost.title || '',
+            time: safePost.time || safePost.createdAt || '',
+            source: safePost.source || '来自 iPhone',
+            comments: comments.slice(0, 8),
+            reposts: safePost.reposts ?? safePost.repostCount ?? Math.max(1, index + 2),
+            likes: safePost.likes ?? safePost.likeCount ?? (liked ? 128 + index * 31 : 76 + index * 27),
+            likedByMe: liked || safePost.likedByMe === true
+        };
+    },
+
+    normalizeWeiboAlbumItem: function(item, index = 0, friend = null, account = 'main') {
+        const safeItem = item && typeof item === 'object' ? item : {};
+        return {
+            id: safeItem.id || `album_${account}_${index}`,
+            url: safeItem.url || safeItem.image || safeItem.imageUrl || this.getWeiboRandomImage(friend, index, account),
+            description: safeItem.description || safeItem.desc || safeItem.content || ''
+        };
+    },
+
+    getDefaultWeiboData: function(friend) {
+        return {
+            mainAccount: {
+                signature: '',
+                posts: [],
+                album: [],
+                liked: []
+            }
+        };
+    },
+
+    normalizeWeiboAccount: function(rawAccount, friend, account = 'main') {
+        const defaultData = this.getDefaultWeiboData(friend).mainAccount;
+        const source = rawAccount && typeof rawAccount === 'object' ? rawAccount : {};
+        const displayName = friend?.nickname || friend?.realname || friend?.realName || friend?.name || '好友';
+        const isAlt = account === 'alt';
+        const name = isAlt ? (source.name || '未公开小号') : displayName;
+        const avatarUrl = isAlt ? (source.avatarUrl || this.getWeiboRandomAvatar(friend)) : (friend?.avatarUrl || '');
+        const ensureGeneratedItems = (items, fallbackItems) => {
+            const list = Array.isArray(items) ? items.slice(0, 3) : [];
+            if (!Array.isArray(items)) return [];
+            const fallback = Array.isArray(fallbackItems) && fallbackItems.length ? fallbackItems : [{}];
+            while (list.length < 3) {
+                list.push({ ...fallback[list.length % fallback.length] });
+            }
+            return list;
+        };
+        const posts = ensureGeneratedItems(source.posts, defaultData.posts);
+        const album = ensureGeneratedItems(source.album, defaultData.album);
+        const liked = ensureGeneratedItems(source.liked, defaultData.liked);
+        return {
+            name,
+            signature: source.signature || '',
+            avatarUrl,
+            posts: posts.map((post, index) => this.normalizeWeiboPost(post, index, false)),
+            album: album.map((item, index) => this.normalizeWeiboAlbumItem(item, index, friend, account)),
+            liked: liked.map((post, index) => this.normalizeWeiboPost(post, index, true))
+        };
+    },
+
+    getFriendWeiboData: function(friend) {
+        const hasGeneratedData = friend?.weiboData && typeof friend.weiboData === 'object';
+        const data = hasGeneratedData ? friend.weiboData : this.getDefaultWeiboData(friend);
+        return {
+            mainAccount: this.normalizeWeiboAccount(data.mainAccount || data.main || data, friend, 'main'),
+            altAccount: hasGeneratedData && data.altAccount ? this.normalizeWeiboAccount(data.altAccount, friend, 'alt') : null
+        };
+    },
+
+    renderWeiboAvatarHtml: function(avatarUrl, size = 40) {
+        const safeUrl = this.escapeHTML(avatarUrl || '');
+        return `
+            <div style="width: ${size}px; height: ${size}px; border-radius: 50%; background: linear-gradient(135deg, #fff2e2, #ffd2c2); display: flex; align-items: center; justify-content: center; color: #ff8200; flex-shrink: 0; overflow: hidden;">
+                ${safeUrl ? `<img src="${safeUrl}" style="width: 100%; height: 100%; object-fit: cover;">` : `<i class="fas fa-user"></i>`}
+            </div>
+        `;
+    },
+
+    renderWeiboPostCard: function(post, accountData, options = {}) {
+        const safeName = this.escapeHTML(options.authorName || post.author || accountData.name);
+        const safeText = this.escapeHTML(post.text).replace(/\n/g, '<br>');
+        const safeTime = this.escapeHTML(post.time || '刚刚');
+        const safeSource = this.escapeHTML(post.source || '来自 iPhone');
+        const commentCount = Array.isArray(post.comments) ? post.comments.length : 0;
+        const imagePreview = options.images && options.images.length ? `
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 10px;">
+                ${options.images.slice(0, 3).map(img => `<div style="aspect-ratio: 1; border-radius: 8px; overflow: hidden; background: #f2f2f2;"><img src="${this.escapeHTML(img.url)}" style="width: 100%; height: 100%; object-fit: cover;"></div>`).join('')}
+            </div>
+        ` : '';
+        return `
+            <div class="friend-weibo-post-card" data-post-type="${options.type || 'home'}" data-index="${options.index || 0}" style="background: #fff; padding: 14px 16px; cursor: pointer;">
+                ${options.likedLabel ? `<div style="font-size: 12px; color: #999; margin-bottom: 8px;">赞过 @${safeName} 的微博</div>` : ''}
+                <div style="display: flex; gap: 10px;">
+                    ${options.likedLabel ? '' : this.renderWeiboAvatarHtml(accountData.avatarUrl, 40)}
+                    <div style="flex: 1; min-width: 0;">
+                        ${options.likedLabel ? '' : `
+                        <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px;">
+                            <div>
+                                <div style="font-size: 15px; font-weight: 700; color: #111;">${safeName}</div>
+                                <div style="font-size: 12px; color: #999; margin-top: 2px;">${safeTime} ${safeSource}</div>
+                            </div>
+                            <i class="fas fa-ellipsis-h" style="color: #999;"></i>
+                        </div>`}
+                        <div style="font-size: 15px; color: #222; line-height: 1.55; ${options.likedLabel ? '' : 'margin-top: 10px;'}">${safeText}</div>
+                        ${imagePreview}
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 13px; color: #888; font-size: 13px;">
+                            <span><i class="far fa-comment-dots"></i> ${commentCount || Math.max(3, Number(options.index || 0) + 3)}</span>
+                            <span><i class="fas fa-retweet"></i> ${this.escapeHTML(post.reposts ?? 0)}</span>
+                            <span style="${post.likedByMe ? 'color: #ff8200;' : ''}"><i class="${post.likedByMe ? 'fas' : 'far'} fa-heart"></i> ${post.likedByMe ? '已赞' : this.escapeHTML(post.likes ?? 0)}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    },
+
+    showWeiboPostDetail: function(post, accountData, options = {}) {
+        const safeName = this.escapeHTML(options.authorName || post.author || accountData.name);
+        const safeText = this.escapeHTML(post.text).replace(/\n/g, '<br>');
+        const comments = Array.isArray(post.comments) ? post.comments : [];
+        const commentsHtml = comments.length ? comments.map(comment => `
+            <div style="padding: 10px 0; border-top: 1px solid #f2f2f2;">
+                <span style="font-size: 13px; font-weight: 700; color: #333;">${this.escapeHTML(comment.author || '评论用户')}</span>
+                <span style="font-size: 13px; color: #333; line-height: 1.5;">：${this.escapeHTML(comment.text || '')}</span>
+            </div>
+        `).join('') : '<div style="padding: 12px 0; color: #999; font-size: 13px;">暂无评论</div>';
+        const imagesHtml = options.images && options.images.length ? `
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin: 14px 0;">
+                ${options.images.map((img, idx) => `<div class="friend-weibo-detail-image" data-index="${idx}" style="aspect-ratio: 1; border-radius: 8px; overflow: hidden; background: #f2f2f2; cursor: pointer;"><img src="${this.escapeHTML(img.url)}" style="width: 100%; height: 100%; object-fit: cover;"></div>`).join('')}
+            </div>
+        ` : '';
+        const content = `
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+                ${this.renderWeiboAvatarHtml(accountData.avatarUrl, 44)}
+                <div style="min-width: 0;">
+                    <div style="font-size: 16px; font-weight: 800; color: #111;">${safeName}</div>
+                    <div style="font-size: 12px; color: #999;">${this.escapeHTML(post.time || '刚刚')} ${this.escapeHTML(post.source || '来自 iPhone')}</div>
+                </div>
+            </div>
+            <div style="font-size: 16px; color: #222; line-height: 1.65; word-break: break-word;">${safeText}</div>
+            ${imagesHtml}
+            <div style="display: flex; justify-content: space-around; color: #777; font-size: 13px; padding: 12px 0; border-top: 1px solid #f2f2f2; border-bottom: 1px solid #f2f2f2; margin-top: 14px;">
+                <span><i class="far fa-comment-dots"></i> ${comments.length}</span>
+                <span><i class="fas fa-retweet"></i> ${this.escapeHTML(post.reposts ?? 0)}</span>
+                <span style="${post.likedByMe ? 'color: #ff8200;' : ''}"><i class="${post.likedByMe ? 'fas' : 'far'} fa-heart"></i> ${this.escapeHTML(post.likes ?? 0)}</span>
+            </div>
+            <div style="font-size: 14px; font-weight: 800; margin: 16px 0 4px; color: #111;">评论</div>
+            ${commentsHtml}
+        `;
+        this.showDetailModal('微博详情', content);
+        setTimeout(() => {
+            document.querySelectorAll('#loves-detail-modal .friend-weibo-detail-image').forEach(el => {
+                el.addEventListener('click', () => {
+                    const idx = Number(el.getAttribute('data-index') || 0);
+                    const image = options.images?.[idx];
+                    if (image) this.showWeiboImageDetail(image);
+                });
+            });
+        }, 30);
+    },
+
+    showWeiboImageDetail: function(item) {
+        const safeUrl = this.escapeHTML(item.url || '');
+        const safeDesc = this.escapeHTML(item.description || '').replace(/\n/g, '<br>');
+        const content = `
+            <div style="width: 100%; aspect-ratio: 1; border-radius: 14px; overflow: hidden; background: #f2f2f2; margin-bottom: 14px;">
+                ${safeUrl ? `<img src="${safeUrl}" style="width: 100%; height: 100%; object-fit: cover;">` : `<div style="height: 100%; display: flex; align-items: center; justify-content: center; color: #999;"><i class="far fa-image" style="font-size: 40px;"></i></div>`}
+            </div>
+            <div style="font-size: 15px; color: #222; line-height: 1.6; word-break: break-word;">${safeDesc || '暂无描述'}</div>
+        `;
+        this.showDetailModal('相册详情', content);
+    },
+
+    renderFriendWeibo: function(friend) {
+        const weiboView = document.getElementById('friend-weibo-view');
+        if (!weiboView) return;
+
+        const hasGeneratedWeiboData = !!(friend?.weiboData && typeof friend.weiboData === 'object');
+        const allData = this.getFriendWeiboData(friend);
+        if (this.currentWeiboAccount === 'alt' && !allData.altAccount) this.currentWeiboAccount = 'main';
+        const accountKey = this.currentWeiboAccount === 'alt' ? 'altAccount' : 'mainAccount';
+        const accountData = allData[accountKey] || allData.mainAccount;
+
+        const profileName = document.getElementById('friend-weibo-profile-name');
+        const signatureEl = document.getElementById('friend-weibo-profile-signature');
+        const postCountEl = document.getElementById('friend-weibo-post-count');
+        const switchBtn = document.getElementById('friend-weibo-switch-account-btn');
+        const coverEl = document.getElementById('friend-weibo-cover');
+        if (profileName) profileName.textContent = accountData.name;
+        if (signatureEl) signatureEl.textContent = accountData.signature || '';
+        if (postCountEl) postCountEl.textContent = String((accountData.posts || []).length);
+        if (switchBtn) switchBtn.textContent = this.currentWeiboAccount === 'alt' ? '切换大号' : '切换账号';
+        if (coverEl) {
+            const coverUrl = hasGeneratedWeiboData ? this.getWeiboRandomCover(friend, this.currentWeiboAccount) : '';
+            coverEl.style.backgroundImage = coverUrl ? `linear-gradient(180deg, rgba(0,0,0,0.12), rgba(0,0,0,0.34)), url("${coverUrl}")` : 'none';
+            coverEl.style.backgroundSize = 'cover';
+            coverEl.style.backgroundPosition = 'center';
+            coverEl.style.backgroundColor = coverUrl ? '' : '#f2f2f2';
+        }
+
+        weiboView.querySelectorAll('.friend-weibo-avatar-img').forEach(img => {
+            if (accountData.avatarUrl) {
+                img.src = accountData.avatarUrl;
+                img.style.display = 'block';
+            } else {
+                img.removeAttribute('src');
+                img.style.display = 'none';
+            }
+        });
+        weiboView.querySelectorAll('.friend-weibo-avatar-icon').forEach(icon => {
+            icon.style.display = accountData.avatarUrl ? 'none' : 'inline-block';
+        });
+
+        const homeList = document.getElementById('friend-weibo-home-list');
+        const albumGrid = document.getElementById('friend-weibo-album-grid');
+        const likedList = document.getElementById('friend-weibo-liked-list');
+        const albumImages = accountData.album || [];
+
+        if (homeList) {
+            const posts = accountData.posts || [];
+            homeList.innerHTML = posts.length ? posts.map((post, index) => {
+                const previewImages = index === 0 ? albumImages.slice(0, 3) : [];
+                return this.renderWeiboPostCard(post, accountData, { type: 'home', index, images: previewImages });
+            }).join('') : '<div style="padding: 38px 16px; text-align: center; color: #999; font-size: 14px;">暂无微博<br><span style="font-size: 12px; display: inline-block; margin-top: 6px;">请在设置中生成</span></div>';
+            homeList.querySelectorAll('.friend-weibo-post-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const index = Number(card.getAttribute('data-index') || 0);
+                    this.showWeiboPostDetail(posts[index], accountData, { images: index === 0 ? albumImages.slice(0, 3) : [] });
+                });
+            });
+        }
+
+        if (albumGrid) {
+            albumGrid.innerHTML = albumImages.length ? albumImages.map((item, index) => `
+                <div class="friend-weibo-album-item" data-index="${index}" style="aspect-ratio: 1; border-radius: 6px; overflow: hidden; background: #f2f2f2; cursor: pointer; position: relative;">
+                    <img src="${this.escapeHTML(item.url)}" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            `).join('') : '<div style="grid-column: span 3; padding: 38px 0; text-align: center; color: #999; font-size: 14px;">暂无相册</div>';
+            albumGrid.querySelectorAll('.friend-weibo-album-item').forEach(itemEl => {
+                itemEl.addEventListener('click', () => {
+                    const index = Number(itemEl.getAttribute('data-index') || 0);
+                    this.showWeiboImageDetail(albumImages[index]);
+                });
+            });
+        }
+
+        if (likedList) {
+            const likedPosts = accountData.liked || [];
+            likedList.innerHTML = likedPosts.length ? likedPosts.map((post, index) => {
+                return this.renderWeiboPostCard(post, accountData, { type: 'liked', index, likedLabel: true, authorName: post.author || '微博用户' });
+            }).join('') : '<div style="padding: 38px 16px; text-align: center; color: #999; font-size: 14px;">暂无赞过</div>';
+            likedList.querySelectorAll('.friend-weibo-post-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    const index = Number(card.getAttribute('data-index') || 0);
+                    this.showWeiboPostDetail(likedPosts[index], accountData, { authorName: likedPosts[index]?.author || '微博用户' });
+                });
+            });
+        }
+    },
+    
+    enterLovesSpace: function(friend) {
+        const spaceView = document.getElementById('lovers-space-view');
+        if (spaceView) {
+            if (window.openView) window.openView(spaceView);
+            
+            const backBtn = document.getElementById('lovers-space-back-btn');
+            if (backBtn) {
+                backBtn.onclick = () => {
+                    if (window.closeView) window.closeView(spaceView);
+                };
+            }
+            
+            // 1. 设置我的头像
+            const myAvatarImg = document.getElementById('lovers-space-user-avatar');
+            const myAvatarIcon = document.getElementById('lovers-space-user-icon');
+            let myAvatarUrl = window.userState?.avatarUrl || window.imData?.profile?.avatarUrl;
+            if (!myAvatarUrl) {
+                const domAvatar = document.getElementById('edit-avatar-img') || document.getElementById('custom-avatar-img-desktop');
+                if (domAvatar && domAvatar.src && !domAvatar.src.endsWith('html') && domAvatar.style.display !== 'none') {
+                    myAvatarUrl = domAvatar.src;
+                }
+            }
+            if (myAvatarUrl) {
+                if(myAvatarImg) { myAvatarImg.src = myAvatarUrl; myAvatarImg.style.display = 'block'; }
+                if(myAvatarIcon) myAvatarIcon.style.display = 'none';
+            } else {
+                if(myAvatarImg) myAvatarImg.style.display = 'none';
+                if(myAvatarIcon) myAvatarIcon.style.display = 'block';
+            }
+            
+            // 2. 设置好友的头像
+            const friendAvatarImg = document.getElementById('lovers-space-friend-avatar');
+            const friendAvatarIcon = document.getElementById('lovers-space-friend-icon');
+            if (friend.avatarUrl) {
+                if(friendAvatarImg) { friendAvatarImg.src = friend.avatarUrl; friendAvatarImg.style.display = 'block'; }
+                if(friendAvatarIcon) friendAvatarIcon.style.display = 'none';
+            } else {
+                if(friendAvatarImg) friendAvatarImg.style.display = 'none';
+                if(friendAvatarIcon) friendAvatarIcon.style.display = 'block';
+            }
+
+            // 渲染设备列表
+            const friendName = friend.nickname || friend.realname || 'TA';
+            const safeFriendName = this.escapeHTML(friendName);
+            const devicesList = document.getElementById('lovers-devices-list');
+            if (devicesList) {
+                devicesList.innerHTML = `
+                    <div class="lovers-feature-row is-static">
+                        <span class="lovers-feature-icon"><i class="fas fa-mobile-alt"></i></span>
+                        <span class="lovers-feature-copy"><strong>我的手机</strong><small>在线 · 电量 85%</small></span>
+                        <span class="lovers-device-status is-online">ONLINE</span>
+                    </div>
+                    <button type="button" id="friend-phone-device-item" class="lovers-feature-row">
+                        <span class="lovers-feature-icon"><i class="fas fa-mobile-alt"></i></span>
+                        <span class="lovers-feature-copy"><strong>${safeFriendName} 的手机</strong><small>在线 · 电量 92%</small></span>
+                        <i class="fas fa-chevron-right lovers-feature-chevron"></i>
+                    </button>
+                    <div class="lovers-feature-row is-static is-offline">
+                        <span class="lovers-feature-icon"><i class="fas fa-laptop"></i></span>
+                        <span class="lovers-feature-copy"><strong>${safeFriendName} 的电脑</strong><small>当前离线</small></span>
+                        <span class="lovers-device-status">OFFLINE</span>
+                    </div>
+                `;
+                
+                const friendPhoneItem = document.getElementById('friend-phone-device-item');
+                if (friendPhoneItem) {
+                    friendPhoneItem.addEventListener('click', () => {
+                        this.openFriendPhone(friend);
+                    });
+                }
+            }
+            
+            this.currentFriend = friend;
+            this.bindSharedSavingsButton(friend);
+            this.updateDaysCount(friend);
+            void this.syncDailySavingsForFriend(friend).then((changed) => {
+                if (changed && document.getElementById('lovers-savings-view')?.classList.contains('active')) {
+                    this.renderSavingsJar();
+                }
+            });
+            
+            // 绑定点击
+            this.bindFabClick();
+            // 首次渲染动态
+            this.renderLovesMoments();
+            // 初始化日记并渲染
+            this.currentDiaryDate = new Date();
+            this.renderDiary();
+
+            // 3. Tabs 切换逻辑绑定
+            const tabs = spaceView.querySelectorAll('.lovers-space-tab');
+            const indicator = document.getElementById('lovers-space-tab-indicator');
+            const panels = spaceView.querySelectorAll('.lovers-space-panel');
+            
+            // 避免克隆节点破坏原生绑定，改为检查是否已绑定自定义属性
+            const tabsContainer = spaceView.querySelector('.lovers-space-tabs-container');
+            if (tabsContainer && !tabsContainer.dataset.bound) {
+                tabsContainer.dataset.bound = 'true';
+                
+                tabs.forEach(tab => {
+                    tab.addEventListener('click', (e) => {
+                        tabs.forEach(t => {
+                            t.classList.remove('active');
+                            t.setAttribute('aria-selected', 'false');
+                        });
+                        panels.forEach(p => {
+                            p.classList.remove('active');
+                        });
+                        
+                        const target = e.currentTarget;
+                        target.classList.add('active');
+                        target.setAttribute('aria-selected', 'true');
+                        
+                        const targetLeft = target.offsetLeft;
+                        const targetWidth = target.offsetWidth;
+                        if (indicator) {
+                            indicator.style.left = (targetLeft + (targetWidth - 30) / 2) + 'px';
+                        }
+                        
+                        const tabName = target.getAttribute('data-tab');
+                        const panel = document.getElementById('lovers-panel-' + tabName);
+                        if (panel) {
+                            panel.classList.add('active');
+                        }
+                        if (tabName === 'diary') {
+                            this.renderDiary();
+                        }
+                    });
+                });
+            }
+            
+            // 默认触发第一个 tab 居中计算
+            if (tabs.length > 0 && indicator) {
+                // 等待重绘
+                setTimeout(() => {
+                    const firstTab = tabs[0];
+                    const targetLeft = firstTab.offsetLeft;
+                    const targetWidth = firstTab.offsetWidth;
+                    indicator.style.left = (targetLeft + (targetWidth - 30) / 2) + 'px';
+                }, 10);
+            }
+        }
+    },
+    
+    openFriendPhone: function(friend) {
+        const phoneView = document.getElementById('lovers-friend-phone-view');
+        if (!phoneView) return;
+        
+        phoneView.style.backgroundImage = friend.phoneBg ? `url(${friend.phoneBg})` : 'none';
+        
+        if (window.openView) window.openView(phoneView);
+        
+        const backBtn = document.getElementById('friend-phone-back-btn');
+        if (backBtn) {
+            backBtn.onclick = () => {
+                if (window.closeView) window.closeView(phoneView);
+            };
+        }
+        
+        // 绑定设置
+        const settingsSheet = document.getElementById('friend-phone-settings-sheet');
+        const settingsBtn = document.getElementById('friend-phone-app-settings');
+        if (settingsBtn && settingsSheet) {
+            settingsBtn.onclick = () => window.openView(settingsSheet);
+        }
+        
+        const settingsBackBtn = document.getElementById('friend-settings-back-btn');
+        if (settingsBackBtn && settingsSheet) {
+            settingsBackBtn.onclick = () => {
+                if (window.closeView) window.closeView(settingsSheet);
+            };
+        }
+
+        const genSettingsBtn = document.getElementById('friend-phone-gen-settings-btn');
+        const genModal = document.getElementById('friend-phone-gen-modal');
+        const getGenAppCheckboxes = () => Array.from(document.querySelectorAll('.gen-app-checkbox'));
+        const defaultGenApps = ['imessage', 'music', 'health', 'pay', 'game', 'call', 'safari', 'weibo', 'files'];
+        const getSavedGenApps = () => {
+            return Array.isArray(friend.phoneGenApps) ? friend.phoneGenApps : defaultGenApps;
+        };
+        const applySavedGenApps = () => {
+            const savedApps = getSavedGenApps();
+            getGenAppCheckboxes().forEach(cb => {
+                cb.checked = savedApps.includes(cb.value);
+            });
+        };
+        const saveGenApps = () => {
+            friend.phoneGenApps = getGenAppCheckboxes().filter(cb => cb.checked).map(cb => cb.value);
+            this.persistFriendState(friend, { silent: true });
+        };
+        getGenAppCheckboxes().forEach(cb => {
+            cb.onchange = () => saveGenApps();
+        });
+        if (genSettingsBtn && genModal) {
+            genSettingsBtn.onclick = () => {
+                applySavedGenApps();
+                if (window.openView) window.openView(genModal);
+            };
+        }
+
+        const clearAllDataBtn = document.getElementById('friend-phone-clear-all-data-btn');
+        if (clearAllDataBtn) {
+            clearAllDataBtn.onclick = () => {
+                if (!window.confirm('危险操作！这将会彻底清空该好友所有的生成应用数据（包含短信、音乐、游戏等），确认清空吗？')) return;
+                
+                friend.imessageData = null;
+                friend.musicData = null;
+                friend.healthData = null;
+                friend.payData = null;
+                friend.gameData = null;
+                friend.callData = null;
+                friend.safariData = null;
+                friend.filesData = null;
+                friend.weiboData = null;
+                
+                this.persistFriendState(friend);
+                if (window.showToast) window.showToast('所有生成数据已清空');
+            };
+        }
+
+        const genConfirmBtn = document.getElementById('friend-phone-gen-confirm-btn');
+        if (genConfirmBtn) {
+            genConfirmBtn.onclick = () => {
+                saveGenApps();
+                const selectedApps = getSavedGenApps();
+                
+                if (selectedApps.length === 0) {
+                    if (window.showToast) window.showToast('请至少选择一个应用');
+                    return;
+                }
+
+                if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+                    if (window.showToast) window.showToast('请先在系统设置中配置 API');
+                    return;
+                }
+
+                if (window.closeView) window.closeView(genModal);
+                
+                // 收集世界书与人设
+                let globalRule = '';
+                if (window.getGlobalWorldBookContextByPosition) {
+                    globalRule = window.getGlobalWorldBookContextByPosition('system_depth') || '';
+                    const beforeRole = window.getGlobalWorldBookContextByPosition('before_role');
+                    if (beforeRole) globalRule += '\n' + beforeRole;
+                }
+                
+                const userPersona = window.userState?.persona || '普通用户';
+                const charPersona = friend.persona || '普通角色';
+                
+                // 收集聊天上下文
+                let chatContext = '';
+                if (Array.isArray(friend.messages)) {
+                    const msgs = friend.messages.slice(-20); // 取最近20条
+                    if (msgs.length > 0) {
+                        chatContext = msgs.map(m => {
+                            const sender = m.sender === 'me' ? 'User' : 'Char';
+                            return `${sender}: ${m.text || '[特殊消息]'}`;
+                        }).join('\n');
+                    }
+                }
+                
+                let oldContext = '';
+                if (selectedApps.includes('safari') && friend.safariData) {
+                    const rs = (friend.safariData.recentSearches || []).slice(0, 3).map(s => typeof s === 'string' ? s : s.keyword).join(', ');
+                    if (rs) oldContext += `\n【已有普通搜索】: ${rs}`;
+                    const ps = (friend.safariData.privateSearches || []).slice(0, 3).map(s => typeof s === 'string' ? s : s.keyword).join(', ');
+                    if (ps) oldContext += `\n【已有无痕搜索】: ${ps}`;
+                }
+                if (selectedApps.includes('imessage') && friend.imessageData) {
+                    const mainChats = friend.imessageData.mainAccount?.chats || (Array.isArray(friend.imessageData) ? friend.imessageData : []);
+                    const altChats = friend.imessageData.altAccount?.chats || [];
+                    if (mainChats.length > 0) oldContext += `\n【已有主号短信联系人】: ` + mainChats.slice(0,3).map(c => c.contactName).join(', ');
+                    if (altChats.length > 0) oldContext += `\n【已有小号短信联系人】: ` + altChats.slice(0,3).map(c => c.contactName).join(', ');
+                }
+                if (selectedApps.includes('game') && friend.gameData && friend.gameData.recentGames) {
+                    const gameInfos = friend.gameData.recentGames.slice(0,3).map(g => {
+                        let info = g.name;
+                        if (g.matches && g.matches.length > 0) {
+                            const times = g.matches.slice(0, 3).map(m => m.time).join('、');
+                            info += `(已有对局时间: ${times})`;
+                        }
+                        return info;
+                    });
+                    oldContext += `\n【已有游戏及对局】: ` + gameInfos.join('; ') + '。请为已有游戏生成【不同时间点】的新对局，或生成全新的游戏。';
+                }
+                if (selectedApps.includes('files') && friend.filesData && friend.filesData.tags) {
+                    const tagNames = friend.filesData.tags.map(t => t.name).join(', ');
+                    let fileTitles = [];
+                    friend.filesData.tags.forEach(t => {
+                        if (t.items) fileTitles = fileTitles.concat(t.items.map(i => i.title));
+                    });
+                    if (tagNames) oldContext += `\n【已有文件标签】: ${tagNames}`;
+                    if (fileTitles.length > 0) oldContext += `\n【已有文件名称(请勿重复生成同名文件)】: ${fileTitles.slice(0, 5).join(', ')}`;
+                }
+                if (selectedApps.includes('call') && friend.callData && friend.callData.recentCalls) {
+                    const calls = friend.callData.recentCalls.slice(0, 3).map(c => c.name).join(', ');
+                    if (calls) oldContext += `\n【已有通话联系人】: ${calls}`;
+                }
+                if (selectedApps.includes('weibo') && friend.weiboData) {
+                    const mainPosts = friend.weiboData.mainAccount?.posts || [];
+                    const altPosts = friend.weiboData.altAccount?.posts || [];
+                    if (mainPosts.length > 0) oldContext += `\n【已有微博大号帖子】: ${mainPosts.slice(0, 3).map(p => p.text || p.content || '').join(' / ')}`;
+                    if (altPosts.length > 0) oldContext += `\n【已有微博小号帖子】: ${altPosts.slice(0, 3).map(p => p.text || p.content || '').join(' / ')}`;
+                }
+                
+                let prompt = `你现在要模拟生成一部手机里不同应用的数据。请严格遵循给定的世界观设定、角色人设和聊天上下文，生成符合角色性格的JSON格式数据。\n`;
+                if (oldContext) prompt += `\n【旧数据参考，本次生成会覆盖旧内容；请参考这些信息避免机械重复，并生成一组新的完整数据】：${oldContext}\n`;
+                
+                if (globalRule) prompt += `\n【世界书设定】：\n${globalRule}\n`;
+                prompt += `\n【角色 (Char) 人设】：\n${charPersona}\n`;
+                prompt += `\n【用户 (User) 人设】：\n${userPersona}\n`;
+                if (chatContext) prompt += `\n【近期聊天上下文】：\n${chatContext}\n`;
+                
+                prompt += `\n根据选择的应用返回对应的数据。\n`;
+
+                const requirementParts = {
+                    imessage: `[imessage]: 主账号必须生成一个对于 user 的专属私密备注 userRemark（如宝宝、主人、亲爱的或任何符合人设的专属称呼），并且为主账号生成2-5个与其他人的日常聊天，绝对不要生成与 user 的聊天记录。为小号严格生成【备忘录】(2-5条己方气泡，情绪文案或关于user的事)、【文件传输助手】(2-5条己方气泡，[图片]关于user的照片或隐私文件)，以及1-3个小号好友的会话(符合小号设定)。小号内的气泡全部体现其暗处的真实心境与癖好。`,
+                    safari: `[safari]: 生成 2-5 条日常搜索，以及 2-5 条无痕模式下符合其阴暗面或隐私小癖好的搜索内容。`,
+                    files: `[files]: 生成符合角色人设的文件列表，其中 tags 内必须包含能够体现其性格、癖好、或对 User 的看法的隐私内容（如小说草稿、私密日记、账单等），需生成 2-3 个标签，每个标签 1-3 个新文件，确保文件名不要与历史已有的重复。`,
+                    call: `[call]: 生成 2-5 个联系人的详细信息及 2-5 条对应的通话记录，严格符合其人设交际圈。请避免使用不符合JSON标准的单引号。`,
+                    music: `[music]: 生成 2-5 条听歌排行，风格应极大程度体现其人设与心境，每首歌必须包含循环次数(必须为纯数字)和听歌时的细腻心声(不少于20字)。`,
+                    health: `[health]: 严格符合其人设（如是否运动、熬夜、体型等）的近期睡眠、步数、身高体重。`,
+                    pay: `[pay]: 生成符合人设的银行卡总金额和近期不少于 5 条收支记录。`,
+                    game: `[game]: 生成符合人设 1-2 个玩的游戏。如果是已有游戏，必须生成全新的对局时间。每局必须包含时间、结果(胜利/失败)、KDA(如8/2/5)、使用英雄、高光时刻(数组)、内心戏(30字)、复盘(30字)。格式必须完全符合提供的JSON模板，不要使用特殊字符。`,
+                    weibo: `[weibo]: 生成微博资料。大号必须生成签名、帖子3条，每条帖子3-8条评论；相册生成3张，每张内容描述20-50字；赞过生成3条帖子，必须符合微博大号风格，像公开主页，会更体面、可被熟人看到。另生成一个小号，包含名字和签名，帖子/评论/相册/赞过内容同上，但必须符合微博小号风格：可以发关于 User 的内容、暗恋/占有欲/嫉妒/窥探/自我厌弃/黑泥情绪，也可以发珍视的记忆、舍不得忘掉的细节、对关系的自我思考、只有小号才敢保存的温柔瞬间；表达要贴合 Char 人设，不要脱离世界观，也不要让小号只有负面情绪。小号头像使用随机图片，avatarUrl 可以留空，由系统随机补图。`
+                };
+
+                const promptParts = {
+                    imessage: `"imessage": {\n  "mainAccount": {\n    "userRemark": "对于 user 的专属备注(如宝宝等)",\n    "chats": [\n      {"contactName": "其他人1", "messages": [{"sender": "them", "text": "消息"}, {"sender": "char", "text": "回复"}]}\n    ]\n  },\n  "altAccount": {\n    "name": "生成一个小号的名字(符合其隐藏人设)",\n    "chats": [\n      {"contactName": "备忘录", "messages": [{"sender": "char", "text": "情绪文案、自己的感想或关于 user 的事情(2-5条)"}]}, \n      {"contactName": "文件传输助手", "messages": [{"sender": "char", "text": "[图片] 关于 user 的隐私照片/文件或其他私密内容(2-5条)"}]}, \n      {"contactName": "小号好友", "messages": [{"sender": "them", "text": "消息"}, {"sender": "char", "text": "回复"}]}\n    ]\n  }\n}`,
+                    safari: `"safari": {\n  "recentSearches": [\n    {"keyword": "搜索关键词1", "title": "网页标题1", "content": "网页内容(如知乎,百度百科等真实浏览器内容50-100字)"}\n  ],\n  "privateSearches": [\n    {"keyword": "无痕搜索词1", "title": "无痕网页标题1", "content": "不可告人或极具隐私属性的搜索详情内容(50-100字)"}\n  ]\n}`,
+                    files: `"files": {\n  "tags": [\n    {"name": "新标签名称", "color": "#ff3b30", "items": [{"title": "新文件名.txt", "content": "一段极度符合人设的私密内容(50-100字)"}]}\n  ]\n}`,
+                    call: `"call": {\n  "recentCalls": [\n    {"name": "联系人", "time": "今天 14:00", "type": "incoming/outgoing/missed", "dialogue": "通话内容(50-100字对话形式，带环境描写)"}\n  ],\n  "contacts": [\n    {"name": "联系人", "addedTime": "2023年5月12日", "recentCallTime": "昨天 20:00", "callReason": "通话原因简短说明"}\n  ]\n}`,
+                    music: `"music": {\n  "recent": [{"name": "歌曲名1", "artist": "歌手1"}],\n  "favorites": [{"name": "最爱歌曲名1", "artist": "最爱歌手1"}],\n  "top": [{"name": "排行歌曲1", "artist": "歌手1", "loops": 156, "thoughts": "听这首歌时的内心情感与心声，要非常符合人设且细腻，不少于30字"}]\n}`,
+                    health: `"health": {\n  "steps": "生成步数数字",\n  "sleepHours": "睡眠小时数数字",\n  "sleepMinutes": "睡眠分钟数数字",\n  "weight": "体重",\n  "height": "身高"\n}`,
+                    pay: `"pay": {\n  "totalAssets": "24560.88",\n  "recentTransactions": [\n    {"title": "餐饮美食", "time": "昨天 18:45", "amount": "-128.00", "isIncome": false}\n  ]\n}`,
+                    game: `"game": {\n  "playerName": "游戏内id",\n  "totalHours": "200小时",\n  "recentGames": [\n    {"name": "游戏名(如王者荣耀)", "hours": "50小时", "rank": "王者", "winRate": "65%", "icon": "fas fa-gamepad", "matches": [\n      {"time": "昨天 21:00", "result": "胜利", "kda": "8/2/5", "hero": "李白", "highlights": [{"time": "14:20", "desc": "抢龙"}], "innerThoughts": "这局打得好累...", "postGameReflection": "下次注意走位"}\n    ]}\n  ]\n}`,
+                    weibo: `"weibo": {\n  "mainAccount": {\n    "signature": "符合 Char 大号公开形象的微博签名",\n    "posts": [\n      {"text": "大号帖子正文，公开、体面、符合熟人可见的大号风格", "time": "今天 18:24", "source": "来自 iPhone", "comments": [{"author": "评论用户名", "text": "评论内容"}], "reposts": 6, "likes": 128}\n    ],\n    "album": [\n      {"description": "大号相册图片内容描述20-50字"}\n    ],\n    "liked": [\n      {"author": "被赞博主名", "text": "符合微博大号风格的赞过帖子正文", "time": "昨天 21:10", "source": "来自 微博", "comments": [{"author": "评论用户名", "text": "评论内容"}], "reposts": 12, "likes": 241}\n    ]\n  },\n  "altAccount": {\n    "name": "符合 Char 小号风格的小号名",\n    "signature": "符合小号隐秘状态的签名，可以关于 User、黑泥、珍视记忆或自我思考",\n    "avatarUrl": "",\n    "posts": [\n      {"text": "小号帖子正文，可以写关于 User 的内容、黑泥、暗恋、嫉妒、占有欲、珍视的记忆、舍不得忘掉的细节或自己的思考", "time": "今天 01:12", "source": "来自 iPhone", "comments": [{"author": "评论用户名", "text": "评论内容"}], "reposts": 1, "likes": 19}\n    ],\n    "album": [\n      {"description": "小号相册图片内容描述20-50字，可以隐晦关联 User、珍视记忆或 Char 的暗处状态"}\n    ],\n    "liked": [\n      {"author": "被赞博主名", "text": "符合微博小号风格的赞过帖子正文，可体现黑泥、隐秘欲望、珍视记忆、自我思考或对 User 的投射", "time": "昨天 02:34", "source": "来自 微博", "comments": [{"author": "评论用户名", "text": "评论内容"}], "reposts": 2, "likes": 33}\n    ]\n  }\n}`
+                };
+
+                prompt += `\n【各应用生成要求】：\n`;
+                selectedApps.forEach(app => {
+                    prompt += requirementParts[app] + `\n`;
+                });
+
+                prompt += `\n请包含以下字段（根据选择包含对应的对象）：\n{\n`;
+                let selectedPrompts = selectedApps.map(app => promptParts[app]).join(",\n");
+                prompt += selectedPrompts + `\n}`;
+
+                prompt += `\n注意：必须且只能返回合法的 JSON 字符串，不要包含任何多余的文字说明，不要 Markdown 标记。确保 JSON 格式绝对正确，键名和字符串都使用双引号。`;
+                
+                if (window.showToast) window.showToast('正在生成符合设定的数据，请稍候...');
+                
+                const messages = [
+                    { role: "system", content: "你是一个数据生成助手。只能返回合法的 JSON 字符串。" },
+                    { role: "user", content: prompt }
+                ];
+                
+                const model = window.apiConfig.model || 'gpt-3.5-turbo';
+                
+                let endpoint = window.apiConfig.endpoint;
+                // 智能补全 endpoint (兼容直接填写的 base url)
+                if (endpoint && !endpoint.endsWith('/chat/completions')) {
+                    if (endpoint.endsWith('/')) {
+                        endpoint += 'v1/chat/completions';
+                    } else if (endpoint.endsWith('/v1')) {
+                        endpoint += '/chat/completions';
+                    } else {
+                        endpoint += '/v1/chat/completions';
+                    }
+                }
+
+                fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + window.apiConfig.apiKey
+                    },
+                    body: JSON.stringify({
+                        model: model,
+                        messages: messages,
+                        temperature: 0.7
+                    })
+                })
+                .then(async response => {
+                    if (!response.ok) {
+                        let errorMsg = `HTTP error! status: ${response.status}`;
+                        try {
+                            const errorBody = await response.text();
+                            console.error('API Error Response Body:', errorBody);
+                            const errorObj = JSON.parse(errorBody);
+                            if (errorObj.error && errorObj.error.message) {
+                                errorMsg = errorObj.error.message;
+                            } else {
+                                errorMsg += ` - ${errorBody}`;
+                            }
+                        } catch(e) {
+                            // ignore
+                        }
+                        throw new Error(errorMsg);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    let resultText = data.choices?.[0]?.message?.content || "";
+                    
+                    // 防御性处理：使用正则表达式尝试提取可能被文字包裹的 JSON 结构
+                    let jsonStr = resultText;
+                    const jsonMatch = resultText.match(/\{[\s\S]*\}/);
+                    if (jsonMatch) {
+                        jsonStr = jsonMatch[0];
+                    } else {
+                        // 兜底正则移除 markdown
+                        jsonStr = resultText.replace(/```json/gi, '').replace(/```/g, '').trim();
+                    }
+
+                    try {
+                        const parsed = JSON.parse(jsonStr);
+                        
+                        // 本次生成的数据直接覆盖对应应用的旧内容。
+                        if (parsed.music) {
+                            friend.musicData = {
+                                recent: Array.isArray(parsed.music.recent) ? parsed.music.recent : [],
+                                favorites: Array.isArray(parsed.music.favorites) ? parsed.music.favorites : [],
+                                top: Array.isArray(parsed.music.top) ? parsed.music.top : []
+                            };
+                        }
+                        if (parsed.health) {
+                            friend.healthData = parsed.health;
+                        }
+                        if (parsed.pay) {
+                            friend.payData = {
+                                ...parsed.pay,
+                                recentTransactions: Array.isArray(parsed.pay.recentTransactions) ? parsed.pay.recentTransactions : []
+                            };
+                        }
+                        if (parsed.game) {
+                            friend.gameData = {
+                                ...parsed.game,
+                                recentGames: Array.isArray(parsed.game.recentGames) ? parsed.game.recentGames : []
+                            };
+                        }
+                        if (parsed.call) {
+                            friend.callData = {
+                                ...parsed.call,
+                                recentCalls: Array.isArray(parsed.call.recentCalls) ? parsed.call.recentCalls : [],
+                                contacts: Array.isArray(parsed.call.contacts) ? parsed.call.contacts : []
+                            };
+                        }
+                        if (parsed.safari) {
+                            friend.safariData = {
+                                recentSearches: Array.isArray(parsed.safari.recentSearches) ? parsed.safari.recentSearches : [],
+                                privateSearches: Array.isArray(parsed.safari.privateSearches) ? parsed.safari.privateSearches : []
+                            };
+                        }
+                        if (parsed.files) {
+                            friend.filesData = {
+                                ...parsed.files,
+                                tags: Array.isArray(parsed.files.tags) ? parsed.files.tags : [],
+                                recent: Array.isArray(parsed.files.recent) ? parsed.files.recent : []
+                            };
+                        }
+                        if (parsed.weibo) {
+                            const rawWeibo = parsed.weibo || {};
+                            const ensureAccount = (rawAccount, accountKey) => {
+                                const normalized = this.normalizeWeiboAccount(rawAccount || {}, friend, accountKey === 'altAccount' ? 'alt' : 'main');
+                                normalized.posts = normalized.posts.slice(0, 3);
+                                normalized.album = normalized.album.slice(0, 3).map((item, index) => ({
+                                    ...item,
+                                    url: item.url || this.getWeiboRandomImage(friend, index, accountKey === 'altAccount' ? 'alt' : 'main')
+                                }));
+                                normalized.liked = normalized.liked.slice(0, 3);
+                                if (accountKey === 'altAccount' && !normalized.avatarUrl) {
+                                    normalized.avatarUrl = this.getWeiboRandomAvatar(friend);
+                                }
+                                return normalized;
+                            };
+                            friend.weiboData = {
+                                mainAccount: ensureAccount(rawWeibo.mainAccount || rawWeibo.main || rawWeibo, 'mainAccount'),
+                                altAccount: ensureAccount(rawWeibo.altAccount || rawWeibo.alt || {}, 'altAccount')
+                            };
+                        }
+                        if (parsed.imessage) {
+                            friend.imessageData = {
+                                mainAccount: {
+                                    ...(parsed.imessage.mainAccount || {}),
+                                    chats: Array.isArray(parsed.imessage.mainAccount?.chats) ? parsed.imessage.mainAccount.chats : []
+                                },
+                                altAccount: {
+                                    name: parsed.imessage.altAccount?.name || '小号',
+                                    ...(parsed.imessage.altAccount || {}),
+                                    chats: Array.isArray(parsed.imessage.altAccount?.chats) ? parsed.imessage.altAccount.chats : []
+                                }
+                            };
+                        }
+                        
+                        this.persistFriendState(friend);
+                        
+                        if (window.showToast) window.showToast('生成成功！请返回桌面重新进入 App 查看');
+                        
+                        // 强制刷新并关闭弹窗
+                        if (window.closeView) {
+                            window.closeView(settingsSheet);
+                            const phoneView = document.getElementById('lovers-friend-phone-view');
+                            if (phoneView) window.closeView(phoneView);
+                        }
+                    } catch (e) {
+                        console.error('JSON Parse error', e, '\nOriginal Text:', resultText, '\nExtracted:', jsonStr);
+                        if (window.showToast) window.showToast('生成数据解析失败，AI可能输出了非标准JSON格式，请重试');
+                    }
+                })
+                .catch(err => {
+                    console.error('API Error:', err);
+                    let displayMsg = err.message || '未知网络错误';
+                    if (displayMsg.length > 50) {
+                        displayMsg = displayMsg.substring(0, 50) + '...'; // 防止超长报错撑爆 toast
+                    }
+                    if (window.showToast) window.showToast('API 请求失败: ' + displayMsg);
+                    else alert('API 请求失败: ' + displayMsg);
+                });
+            };
+        }
+
+        const bgUpload = document.getElementById('friend-phone-bg-upload');
+        if (bgUpload) {
+            bgUpload.onchange = (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (ev) => {
+                        friend.phoneBg = ev.target.result;
+                        this.persistFriendState(friend);
+                        phoneView.style.backgroundImage = `url(${friend.phoneBg})`;
+                        if (window.showToast) window.showToast('已更换 TA 的主屏幕背景');
+                        if (window.closeView) window.closeView(settingsSheet);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            };
+        }
+        
+        this.currentFriend = friend;
+        
+        // 绑定 iMessage
+        const imsgBtn = document.getElementById('friend-phone-app-imessage');
+        const imsgView = document.getElementById('friend-imessage-view');
+        if (imsgBtn && imsgView) {
+            imsgBtn.onclick = () => {
+                this.currentImsgAccount = 'main';
+                this.renderFriendImsg(friend);
+                if (window.openView) window.openView(imsgView);
+                
+                document.getElementById('friend-imsg-user-name').textContent = window.userState?.name || window.imData?.profile?.name || '我';
+                const userImg = document.getElementById('friend-imsg-user-avatar');
+                const userIcon = document.getElementById('friend-imsg-user-icon');
+                const myUserAvatarUrl = window.userState?.avatarUrl || window.imData?.profile?.avatarUrl;
+                if (myUserAvatarUrl) {
+                    if (userImg) { userImg.src = myUserAvatarUrl; userImg.style.display = 'block'; }
+                    if (userIcon) userIcon.style.display = 'none';
+                } else {
+                    if (userImg) userImg.style.display = 'none';
+                    if (userIcon) userIcon.style.display = 'block';
+                }
+            };
+        }
+        
+        const switchBtn = document.getElementById('friend-imsg-switch-account-btn');
+        const accountModal = document.getElementById('friend-imsg-account-modal');
+        if (switchBtn && accountModal) {
+            switchBtn.onclick = () => {
+                const listEl = document.getElementById('friend-imsg-accounts-list');
+                if (listEl) {
+                    const mainName = friend.nickname || friend.realname || 'TA';
+                    let altName = '小号';
+                    let hasAlt = false;
+                    if (friend.imessageData && !Array.isArray(friend.imessageData) && friend.imessageData.altAccount) {
+                        altName = friend.imessageData.altAccount.name || '小号';
+                        hasAlt = true;
+                    }
+
+                    listEl.innerHTML = `
+                        <div style="padding: 15px 16px; border-bottom: 1px solid #f0f0f0; display: flex; align-items: center; justify-content: space-between; cursor: pointer;" onclick="window.lovesApp.switchImsgAccount('main', true)">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 40px; height: 40px; border-radius: 50%; background: #e5e5ea; display: flex; justify-content: center; align-items: center; color: #8e8e93;"><i class="fas fa-user"></i></div>
+                                <span style="font-size: 16px; font-weight: 500; color: #000;">${mainName} (主账号)</span>
+                            </div>
+                            ${this.currentImsgAccount === 'main' ? '<i class="fas fa-check" style="color: #007aff;"></i>' : ''}
+                        </div>
+                        ${hasAlt ? `
+                        <div style="padding: 15px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer;" onclick="window.lovesApp.switchImsgAccount('alt', true)">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 40px; height: 40px; border-radius: 50%; background: #e5e5ea; display: flex; justify-content: center; align-items: center; color: #8e8e93;"><i class="fas fa-user-secret"></i></div>
+                                <span style="font-size: 16px; font-weight: 500; color: #000;">${altName} (小号)</span>
+                            </div>
+                            ${this.currentImsgAccount === 'alt' ? '<i class="fas fa-check" style="color: #007aff;"></i>' : ''}
+                        </div>
+                        ` : `
+                        <div style="padding: 15px 16px; display: flex; align-items: center; justify-content: center; color: #8e8e93; font-size: 14px;">
+                            暂无小号数据，请在生成设置中重新生成
+                        </div>
+                        `}
+                    `;
+                }
+                if (window.openView) window.openView(accountModal);
+            };
+        }
+        
+        const imsgBackBtn = document.getElementById('friend-imsg-back-btn');
+        if (imsgBackBtn) imsgBackBtn.onclick = () => { if (window.closeView) window.closeView(imsgView); };
+
+        // 绑定 Files (文件)
+        const filesBtn = document.getElementById('friend-phone-app-files');
+        const filesView = document.getElementById('friend-files-view');
+        
+        // 全局事件代理绑定最近删除按钮，避免重复绑定和闭包问题，并确保点击能被捕获
+        const filesRecentlyDeletedView = document.getElementById('friend-files-recently-deleted-view');
+        const filesRecentlyDeletedBackBtn = document.getElementById('friend-files-recently-deleted-back-btn');
+        const filesRecentlyDeletedList = document.getElementById('friend-files-recently-deleted-list');
+
+        // 只在未绑定过时绑定，通过标识位防止重复绑定
+        if (!window.lovesApp._filesRecentlyDeletedBound) {
+            document.addEventListener('click', (e) => {
+                const targetBtn = e.target.closest('#filesRecentlyDeletedBtn');
+                if (targetBtn && filesRecentlyDeletedView) {
+                    if (window.openView) window.openView(filesRecentlyDeletedView);
+                    
+                    const activeFriend = window.lovesApp.currentFriend;
+                    
+                    if (filesRecentlyDeletedList) {
+                        if (activeFriend && activeFriend.filesData && activeFriend.filesData.recentlyDeleted && activeFriend.filesData.recentlyDeleted.length > 0) {
+                            filesRecentlyDeletedList.innerHTML = activeFriend.filesData.recentlyDeleted.map(item => `
+                                <div style="background: #fff; border-radius: 12px; padding: 12px; display: flex; flex-direction: column; align-items: center;  position: relative; cursor: pointer;">
+                                    <div style="width: 100%; aspect-ratio: 1; background: #f2f2f7; border-radius: 8px; margin-bottom: 8px; display: flex; justify-content: center; align-items: center; color: #8e8e93; font-size: 30px;">
+                                        ${item.type === 'image' ? '<i class="fas fa-image"></i>' : '<i class="far fa-file-alt"></i>'}
+                                    </div>
+                                    <div style="font-size: 13px; font-weight: 500; color: #111; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${item.name}</div>
+                                    <div style="font-size: 11px; color: #8e8e93; margin-top: 4px;">${item.size || '未知大小'}</div>
+                                    <div style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.5); color: #fff; font-size: 10px; padding: 2px 6px; border-radius: 6px;">${item.daysLeft || '30'}天</div>
+                                </div>
+                            `).join('');
+                        } else {
+                            filesRecentlyDeletedList.innerHTML = `<div style="grid-column: span 3; text-align: center; color: #8e8e93; padding: 40px 0;">最近删除为空</div>`;
+                        }
+                    }
+                }
+            });
+            
+            if (filesRecentlyDeletedBackBtn && filesRecentlyDeletedView) {
+                filesRecentlyDeletedBackBtn.addEventListener('click', () => {
+                    if (window.closeView) window.closeView(filesRecentlyDeletedView);
+                });
+            }
+            window.lovesApp._filesRecentlyDeletedBound = true;
+        }
+
+        if (filesBtn && filesView) {
+            filesBtn.onclick = () => {
+                if (window.openView) window.openView(filesView);
+
+                const tagsList = document.getElementById('friend-files-tags-list');
+                if (tagsList) {
+                    if (friend.filesData && friend.filesData.tags) {
+                        tagsList.innerHTML = friend.filesData.tags.map((tag, tagIdx) => {
+                            const itemsHtml = tag.items ? tag.items.map((item, itemIdx) => {
+                                const itemStr = encodeURIComponent(JSON.stringify(item));
+                                return `
+                                    <div class="file-item-clickable" data-item="${itemStr}" style="display: flex; align-items: center; padding: 12px 15px; border-top: 1px solid #f0f0f0; cursor: pointer; background: #fff;">
+                                        <i class="far fa-file-alt" style="color: #8e8e93; font-size: 18px; margin-right: 12px;"></i>
+                                        <span style="font-size: 16px; color: #111; flex: 1;">${item.title}</span>
+                                        <i class="fas fa-chevron-right" style="color: #c7c7cc; font-size: 14px;"></i>
+                                    </div>
+                                `;
+                            }).join('') : '';
+
+                            return `
+                                <div style="border-radius: 12px; overflow: hidden;  margin-bottom: 10px;">
+                                    <div style="display: flex; align-items: center; padding: 12px 15px; background: #fff;">
+                                        <div style="width: 12px; height: 12px; border-radius: 50%; background: ${tag.color || '#ff9500'}; margin-right: 12px;"></div>
+                                        <span style="font-size: 17px; font-weight: 600; color: #111; flex: 1;">${tag.name}</span>
+                                    </div>
+                                    ${itemsHtml}
+                                </div>
+                            `;
+                        }).join('');
+                        
+                        setTimeout(() => {
+                            const fileItems = tagsList.querySelectorAll('.file-item-clickable');
+                            fileItems.forEach(el => {
+                                el.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    try {
+                                        const item = JSON.parse(decodeURIComponent(this.getAttribute('data-item')));
+                                        window.lovesApp.showDetailModal(item.title, `<div style="white-space: pre-wrap; font-size: 15px; line-height: 1.6; color: #333;">${item.content}</div>`);
+                                    } catch (err) {
+                                        console.error('File item parse error', err);
+                                    }
+                                });
+                                window.lovesApp.bindLongPress(el, function() {
+                                    try {
+                                        const item = JSON.parse(decodeURIComponent(el.getAttribute('data-item')));
+                                        window.lovesApp.showDeleteConfirm(item.title, () => {
+                                            if (friend.filesData && friend.filesData.tags) {
+                                                friend.filesData.tags.forEach(tag => {
+                                                    if (tag.items) {
+                                                        const idx = tag.items.findIndex(i => i.title === item.title && i.content === item.content);
+                                                        if (idx !== -1) tag.items.splice(idx, 1);
+                                                    }
+                                                });
+                                                filesBtn.onclick();
+                                            }
+                                        });
+                                    } catch(e) {}
+                                });
+                            });
+                        }, 50);
+                    } else {
+                        tagsList.innerHTML = '<div style="padding: 30px; text-align: center; color: #8e8e93; font-size: 14px;">暂无文件数据<br><span style="font-size: 12px; margin-top: 5px; display: inline-block;">请在设置中生成</span></div>';
+                    }
+                }
+            };
+        }
+        const filesBackBtn = document.getElementById('friend-files-back-btn');
+        if (filesBackBtn) filesBackBtn.onclick = () => { if (window.closeView) window.closeView(filesView); };
+
+        // 绑定 Safari
+        const safariBtn = document.getElementById('friend-phone-app-safari');
+        const safariView = document.getElementById('friend-safari-view');
+        if (safariBtn && safariView) {
+            safariBtn.onclick = () => {
+                if (window.openView) window.openView(safariView);
+                
+                const topbar = document.getElementById('friend-safari-topbar');
+                const searchBar = document.getElementById('friend-safari-search-bar');
+                const backBtnIcon = document.getElementById('friend-safari-back-btn');
+                const normalMode = document.getElementById('friend-safari-normal-mode');
+                const privateMode = document.getElementById('friend-safari-private-mode');
+                const dock = document.getElementById('friend-safari-dock');
+                const privateToggleBtn = document.getElementById('friend-safari-private-btn');
+
+                // State
+                let isPrivateMode = false;
+
+                if (privateToggleBtn) {
+                    privateToggleBtn.onclick = () => {
+                        isPrivateMode = !isPrivateMode;
+                        
+                        if (isPrivateMode) {
+                            safariView.style.background = '#000';
+                            topbar.style.background = '#000';
+                            searchBar.style.background = '#1c1c1e';
+                            searchBar.style.color = '#8e8e93';
+                            backBtnIcon.style.color = '#fff';
+                            dock.style.background = 'rgba(0,0,0,0.95)';
+                            dock.style.color = '#fff';
+                            dock.style.borderTop = '1px solid transparent'; // 移除无痕白线
+                            
+                            normalMode.style.opacity = '0';
+                            normalMode.style.pointerEvents = 'none';
+                            normalMode.style.transform = 'translateY(-20px)';
+                            
+                            privateMode.style.opacity = '1';
+                            privateMode.style.pointerEvents = 'auto';
+                            privateMode.style.transform = 'translateY(0)';
+                        } else {
+                            safariView.style.background = '#f4f4f5';
+                            topbar.style.background = '#f4f4f5';
+                            searchBar.style.background = '#e5e5ea';
+                            searchBar.style.color = '#8e8e93';
+                            backBtnIcon.style.color = '#111';
+                            dock.style.background = 'rgba(255,255,255,0.95)';
+                            dock.style.color = '#111';
+                            dock.style.borderTop = '1px solid #f0f0f0'; // 恢复普通模式白线
+                            
+                            privateMode.style.opacity = '0';
+                            privateMode.style.pointerEvents = 'none';
+                            privateMode.style.transform = 'translateY(20px)';
+                            
+                            normalMode.style.opacity = '1';
+                            normalMode.style.pointerEvents = 'auto';
+                            normalMode.style.transform = 'translateY(0)';
+                        }
+                    };
+                }
+
+                const historyList = document.getElementById('friend-safari-history-list');
+                const privateHistoryList = document.getElementById('friend-safari-private-history-list');
+
+                if (historyList) {
+                    if (friend.safariData && friend.safariData.recentSearches) {
+                        historyList.innerHTML = friend.safariData.recentSearches.map((s, idx) => {
+                            let text = typeof s === 'string' ? s : (s.keyword || '未知搜索');
+                            return `
+                        <div class="safari-history-item-new" data-idx="${idx}" style="display: flex; align-items: center; gap: 15px; padding: 16px 0; border-bottom: 1px solid rgba(0,0,0,0.04); cursor: pointer;">
+                            <i class="fas fa-search" style="color: #c7c7cc; font-size: 14px; pointer-events: none;"></i>
+                            <span style="font-size: 16px; color: #111; pointer-events: none; font-weight: 500;">${text}</span>
+                        </div>
+                        `}).join('');
+
+                        setTimeout(() => {
+                            try {
+                                const items = historyList.querySelectorAll('.safari-history-item-new');
+                                items.forEach(el => {
+                                    el.addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        const idx = this.getAttribute('data-idx');
+                                        const s = friend.safariData.recentSearches[idx];
+                                        if (typeof s === 'object' && s.title && s.content) {
+                                            window.lovesApp.showBrowserDetailModal(s.title, s.content, false);
+                                        } else {
+                                            window.lovesApp.showBrowserDetailModal('搜索记录', '无更多详情', false);
+                                        }
+                                    });
+                                    window.lovesApp.bindLongPress(el, function() {
+                                        const idx = el.getAttribute('data-idx');
+                                        const s = friend.safariData.recentSearches[idx];
+                                        const text = typeof s === 'string' ? s : (s.keyword || '未知搜索');
+                                        window.lovesApp.showDeleteConfirm(text, () => {
+                                            friend.safariData.recentSearches.splice(idx, 1);
+                                            safariBtn.onclick(); // 重新渲染
+                                        });
+                                    });
+                                });
+                            } catch(err) {
+                                console.error('Safari normal bind error', err);
+                            }
+                        }, 50);
+                    } else {
+                        historyList.innerHTML = '<div style="padding: 30px; text-align: center; color: #8e8e93; font-size: 14px;">暂无搜索数据<br><span style="font-size: 12px; margin-top: 5px; display: inline-block;">请在设置中生成</span></div>';
+                    }
+                }
+
+                // 渲染无痕模式列表
+                if (privateHistoryList) {
+                    if (friend.safariData && friend.safariData.privateSearches) {
+                        privateHistoryList.innerHTML = friend.safariData.privateSearches.map((s, idx) => {
+                            let text = typeof s === 'string' ? s : (s.keyword || '未知记录');
+                            return `
+                        <div class="safari-private-item-new" data-idx="${idx}" style="display: flex; align-items: center; gap: 15px; padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.1); cursor: pointer;">
+                            <i class="fas fa-search" style="color: #666; font-size: 14px; pointer-events: none;"></i>
+                            <span style="font-size: 16px; color: #fff; pointer-events: none; font-weight: 500;">${text}</span>
+                        </div>
+                        `}).join('');
+
+                        setTimeout(() => {
+                            try {
+                                const items = privateHistoryList.querySelectorAll('.safari-private-item-new');
+                                items.forEach(el => {
+                                    el.addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        const idx = this.getAttribute('data-idx');
+                                        const s = friend.safariData.privateSearches[idx];
+                                        if (typeof s === 'object' && s.title && s.content) {
+                                            window.lovesApp.showBrowserDetailModal(s.title, s.content, true);
+                                        } else {
+                                            window.lovesApp.showBrowserDetailModal('隐私记录', '无更多详情', true);
+                                        }
+                                    });
+                                    window.lovesApp.bindLongPress(el, function() {
+                                        const idx = el.getAttribute('data-idx');
+                                        const s = friend.safariData.privateSearches[idx];
+                                        const text = typeof s === 'string' ? s : (s.keyword || '未知记录');
+                                        window.lovesApp.showDeleteConfirm(text, () => {
+                                            friend.safariData.privateSearches.splice(idx, 1);
+                                            safariBtn.onclick(); // 重新渲染
+                                        });
+                                    });
+                                });
+                            } catch(err) {
+                                console.error('Safari private bind error', err);
+                            }
+                        }, 50);
+                    } else {
+                        privateHistoryList.innerHTML = '<div style="padding: 30px; text-align: center; color: #666; font-size: 14px;">暂无无痕搜索数据<br><span style="font-size: 12px; margin-top: 5px; display: inline-block;">请在设置中生成</span></div>';
+                    }
+                }
+            };
+        }
+        const safariBackBtn = document.getElementById('friend-safari-back-btn');
+        if (safariBackBtn) safariBackBtn.onclick = () => { if (window.closeView) window.closeView(safariView); };
+
+        // 绑定微博
+        const weiboBtn = document.getElementById('friend-phone-app-weibo');
+        const weiboView = document.getElementById('friend-weibo-view');
+        if (weiboBtn && weiboView) {
+            weiboBtn.onclick = () => {
+                this.currentWeiboAccount = 'main';
+                this.renderFriendWeibo(friend);
+
+                const tabs = Array.from(weiboView.querySelectorAll('.friend-weibo-tab'));
+                const pages = document.getElementById('friend-weibo-pages');
+                const setActiveWeiboTab = (activeIndex) => {
+                    tabs.forEach((tab, index) => {
+                        const isActive = index === activeIndex;
+                        tab.style.color = isActive ? '#111' : '#777';
+                        tab.style.fontWeight = isActive ? '700' : '600';
+                        const line = tab.querySelector('.friend-weibo-tab-line');
+                        if (line) line.style.display = isActive ? 'block' : 'none';
+                    });
+                };
+                if (pages && tabs.length) {
+                    tabs.forEach((tab, index) => {
+                        tab.onclick = () => {
+                            pages.scrollTo({ left: index * pages.clientWidth, behavior: 'smooth' });
+                            setActiveWeiboTab(index);
+                        };
+                    });
+                    pages.onscroll = () => {
+                        const pageWidth = pages.clientWidth || 1;
+                        const activeIndex = Math.max(0, Math.min(2, Math.round(pages.scrollLeft / pageWidth)));
+                        setActiveWeiboTab(activeIndex);
+                    };
+                    pages.scrollTo({ left: 0, behavior: 'auto' });
+                    setActiveWeiboTab(0);
+                }
+
+                if (window.openView) window.openView(weiboView);
+            };
+        }
+        const weiboSwitchBtn = document.getElementById('friend-weibo-switch-account-btn');
+        if (weiboSwitchBtn) {
+            weiboSwitchBtn.onclick = (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const data = this.getFriendWeiboData(friend);
+                if (this.currentWeiboAccount === 'main') {
+                    if (!data.altAccount) {
+                        if (window.showToast) window.showToast('暂无微博小号数据，请在生成设置中生成微博');
+                        return;
+                    }
+                    this.currentWeiboAccount = 'alt';
+                } else {
+                    this.currentWeiboAccount = 'main';
+                }
+                this.renderFriendWeibo(friend);
+                if (window.showToast) window.showToast(this.currentWeiboAccount === 'alt' ? '已切换到微博小号' : '已切换到微博大号');
+            };
+        }
+        const weiboBackBtn = document.getElementById('friend-weibo-back-btn');
+        if (weiboBackBtn) weiboBackBtn.onclick = () => { if (window.closeView) window.closeView(weiboView); };
+
+        // 绑定 Music
+        const musicBtn = document.getElementById('friend-phone-app-music');
+        const musicView = document.getElementById('friend-music-view');
+        if (musicBtn && musicView) {
+            musicBtn.onclick = () => {
+                if (window.openView) window.openView(musicView);
+                const musicContent = document.getElementById('friend-music-content');
+                if (musicContent) {
+                    let musicData = friend.musicData;
+                    
+                    if (!musicData || !musicData.top || musicData.top.length === 0) {
+                        musicContent.innerHTML = '<div style="padding: 50px 20px; text-align: center; color: #8e8e93; font-size: 15px;">暂无音乐数据<br><span style="font-size: 13px; margin-top: 8px; display: inline-block;">请在设置中生成</span></div>';
+                    } else {
+                        const topListHTML = (musicData.top || []).map((song, index) => `
+                            <div class="music-history-item" data-idx="${index}" style="display: flex; align-items: center; gap: 15px; padding: 10px 0; border-bottom: 1px solid #f0f0f0; cursor: pointer;">
+                                <div style="font-size: 16px; font-weight: 700; color: #111; width: 20px; text-align: center;">${index + 1}</div>
+                                <div style="width: 50px; height: 50px; border-radius: 6px; background: #111; flex-shrink: 0; display: flex; justify-content: center; align-items: center; color: #fff;">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <div style="flex: 1; display: flex; flex-direction: column; pointer-events: none;">
+                                    <div style="font-size: 16px; font-weight: 600; color: #111;">${song.name}</div>
+                                    <div style="font-size: 13px; color: #8e8e93;">${song.artist}</div>
+                                </div>
+                                <i class="fas fa-ellipsis-v" style="color: #c7c7cc; pointer-events: none;"></i>
+                            </div>
+                        `).join('');
+
+                        musicContent.innerHTML = `
+                        <div style="padding: 20px 16px; background: #fff;">
+                            <div style="font-size: 28px; font-weight: 800; color: #111; margin-bottom: 20px; letter-spacing: -0.5px;">音乐库</div>
+                            <div style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 15px;">
+                                <div style="min-width: 140px; display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="width: 140px; height: 140px; border-radius: 12px; background: #f4f4f5; display: flex; justify-content: center; align-items: center; color: #111; font-size: 30px; ">
+                                        <i class="fas fa-history"></i>
+                                    </div>
+                                    <div style="font-size: 15px; font-weight: 700; color: #111;">最近播放</div>
+                                    <div style="font-size: 13px; color: #8e8e93;">${musicData.recent ? musicData.recent.length : 0} 首歌曲</div>
+                                </div>
+                                <div style="min-width: 140px; display: flex; flex-direction: column; gap: 10px;">
+                                    <div style="width: 140px; height: 140px; border-radius: 12px; background: #111; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 30px; ">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div style="font-size: 15px; font-weight: 700; color: #111;">最爱</div>
+                                    <div style="font-size: 13px; color: #8e8e93;">${musicData.favorites ? musicData.favorites.length : 0} 首歌曲</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="padding: 10px 16px 30px; background: #fff; border-top: 1px solid #f0f0f0;">
+                            <div style="font-size: 22px; font-weight: 700; color: #111; margin-bottom: 15px; margin-top: 10px;">听歌排行</div>
+                            <div style="display: flex; flex-direction: column; gap: 5px;">
+                                ${topListHTML}
+                            </div>
+                        </div>
+                        `;
+                    }
+
+                    setTimeout(() => {
+                        try {
+                            const items = musicContent.querySelectorAll('.music-history-item');
+                            items.forEach(el => {
+                                el.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    const idx = this.getAttribute('data-idx');
+                                    const song = musicData.top[idx];
+                                    
+                                    const loops = parseInt(song.loops) || Math.floor(Math.random() * 100) + 10;
+                                    const thoughts = song.thoughts || '这首歌旋律很好听，每次听都能让我安静下来。';
+                                    
+                                    const content = `
+                                        <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 20px;">
+                                            <div style="width: 80px; height: 80px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 30px; margin-bottom: 15px; ">
+                                                <i class="fas fa-compact-disc"></i>
+                                            </div>
+                                            <div style="font-size: 22px; font-weight: 800; color: #111; margin-bottom: 4px;">${song.name}</div>
+                                            <div style="font-size: 15px; color: #8e8e93;">${song.artist}</div>
+                                        </div>
+                                        
+                                        <div style="background: #f4f4f5; border-radius: 16px; padding: 15px; margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+                                            <div style="display: flex; align-items: center; gap: 8px;">
+                                                <div style="width: 32px; height: 32px; border-radius: 8px; background: #fff; display: flex; justify-content: center; align-items: center; color: #111;">
+                                                    <i class="fas fa-redo-alt" style="font-size: 14px;"></i>
+                                                </div>
+                                                <span style="font-size: 15px; font-weight: 600; color: #111;">循环次数</span>
+                                            </div>
+                                            <div style="font-size: 20px; font-weight: 800; color: #111;">${loops} <span style="font-size: 13px; font-weight: 500; color: #8e8e93;">次</span></div>
+                                        </div>
+
+                                        <div style="background: #111; border-radius: 16px; padding: 20px; border-left: 4px solid #fff;">
+                                            <div style="font-weight: 700; color: #fff; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                                                <i class="fas fa-headphones-alt" style="color: #fff;"></i> 听歌心声
+                                            </div>
+                                            <div style="color: #ccc; line-height: 1.6; font-size: 14px; font-style: italic;">
+                                                “${thoughts.replace(/\n/g, '<br>')}”
+                                            </div>
+                                        </div>
+                                    `;
+                                    window.lovesApp.showDetailModal('单曲详情', content);
+                                });
+                                window.lovesApp.bindLongPress(el, function() {
+                                    const idx = el.getAttribute('data-idx');
+                                    const song = musicData.top[idx];
+                                    window.lovesApp.showDeleteConfirm(song.name, () => {
+                                        musicData.top.splice(idx, 1);
+                                        musicBtn.onclick(); // 重新渲染
+                                    });
+                                });
+                            });
+                        } catch(err) {
+                            console.error('Music bind error', err);
+                        }
+                    }, 50);
+                }
+            };
+        }
+        const musicBackBtn = document.getElementById('friend-music-back-btn');
+        if (musicBackBtn) musicBackBtn.onclick = () => { if (window.closeView) window.closeView(musicView); };
+
+        // 绑定 电话
+        const callBtn = document.getElementById('friend-phone-app-call');
+        const callView = document.getElementById('friend-phonecall-view');
+        if (callBtn && callView) {
+            callBtn.onclick = () => {
+                if (window.openView) window.openView(callView);
+                
+                const tabRecent = document.getElementById('friend-call-tab-recent');
+                const tabContacts = document.getElementById('friend-call-tab-contacts');
+                const listRecent = document.getElementById('friend-call-list');
+                const listContacts = document.getElementById('friend-contact-list');
+                
+                // Tabs toggle logic
+                if (tabRecent && tabContacts && listRecent && listContacts) {
+                    tabRecent.onclick = () => {
+                        tabRecent.style.background = '#fff';
+                        tabRecent.style.color = '#111';
+                        tabRecent.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+                        
+                        tabContacts.style.background = 'transparent';
+                        tabContacts.style.color = '#8e8e93';
+                        tabContacts.style.boxShadow = 'none';
+                        
+                        listRecent.style.display = 'block';
+                        listContacts.style.display = 'none';
+                    };
+                    
+                    tabContacts.onclick = () => {
+                        tabContacts.style.background = '#fff';
+                        tabContacts.style.color = '#111';
+                        tabContacts.style.boxShadow = '0 1px 3px rgba(0,0,0,0.1)';
+                        
+                        tabRecent.style.background = 'transparent';
+                        tabRecent.style.color = '#8e8e93';
+                        tabRecent.style.boxShadow = 'none';
+                        
+                        listContacts.style.display = 'block';
+                        listRecent.style.display = 'none';
+                    };
+                }
+
+                if (listRecent && friend.callData && friend.callData.recentCalls) {
+                    listRecent.innerHTML = friend.callData.recentCalls.map((c, idx) => {
+                        let typeIcon = '';
+                        if (c.type === 'missed') {
+                            typeIcon = '<i class="fas fa-phone-slash" style="color: #ff3b30; font-size: 10px;"></i>';
+                        } else if (c.type === 'outgoing') {
+                            typeIcon = '<i class="fas fa-phone" style="color: #8e8e93; font-size: 10px;"></i>';
+                        } else {
+                            typeIcon = '<i class="fas fa-phone-alt" style="color: #8e8e93; font-size: 10px;"></i>';
+                        }
+                        return `
+                        <div class="call-history-item-new" data-idx="${idx}" style="display: flex; align-items: center; padding: 15px 0; cursor: pointer;">
+                            <div style="flex: 1; display: flex; flex-direction: column; pointer-events: none;">
+                                <div style="font-size: 18px; font-weight: 600; color: ${c.type === 'missed' ? '#ff3b30' : '#111'};">${c.name}</div>
+                                <div style="font-size: 14px; color: #8e8e93; display: flex; align-items: center; gap: 6px; margin-top: 4px;">
+                                    ${typeIcon}
+                                    <span>${c.type === 'missed' ? '未接来电' : '语音通话'}</span>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 15px; pointer-events: none;">
+                                <span style="color: #8e8e93; font-size: 14px;">${c.time}</span>
+                                <i class="fas fa-info-circle" style="color: #007aff; font-size: 22px;"></i>
+                            </div>
+                        </div>`;
+                    }).join('');
+                    
+                    // Render contacts list
+                    if (listContacts) {
+                        const contacts = friend.callData.contacts || [...new Set(friend.callData.recentCalls.map(c => c.name))].map(name => ({
+                            name: name,
+                            addedTime: '未知时间',
+                            recentCallTime: '近期',
+                            callReason: '日常联系'
+                        }));
+                        friend.callData._parsedContacts = contacts;
+
+                        listContacts.innerHTML = contacts.map((contact, idx) => `
+                            <div class="contact-item-new" data-idx="${idx}" style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #e5e5ea; cursor: pointer;">
+                                <div style="width: 40px; height: 40px; border-radius: 50%; background: #f2f2f7; display: flex; justify-content: center; align-items: center; color: #8e8e93; margin-right: 15px; font-size: 16px; pointer-events: none;">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div style="flex: 1; font-size: 16px; font-weight: 600; color: #111; pointer-events: none;">${contact.name}</div>
+                                <i class="fas fa-info-circle" style="color: #007aff; font-size: 20px; pointer-events: none;"></i>
+                            </div>
+                        `).join('');
+                    }
+
+                    setTimeout(() => {
+                        try {
+                            const items = listRecent.querySelectorAll('.call-history-item-new');
+                            items.forEach(el => {
+                                el.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    const idx = this.getAttribute('data-idx');
+                                    const c = friend.callData.recentCalls[idx];
+                                    window.lovesApp.showCallDetailModal(c);
+                                });
+                                window.lovesApp.bindLongPress(el, function() {
+                                    const idx = el.getAttribute('data-idx');
+                                    const c = friend.callData.recentCalls[idx];
+                                    window.lovesApp.showDeleteConfirm(c.name + '的通话记录', () => {
+                                        friend.callData.recentCalls.splice(idx, 1);
+                                        callBtn.onclick();
+                                    });
+                                });
+                            });
+
+                            if (listContacts && friend.callData._parsedContacts) {
+                                const contactItems = listContacts.querySelectorAll('.contact-item-new');
+                                contactItems.forEach(el => {
+                                    el.addEventListener('click', function(e) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        const idx = this.getAttribute('data-idx');
+                                        const c = friend.callData._parsedContacts[idx];
+                                        window.lovesApp.showContactDetailModal(c);
+                                    });
+                                });
+                            }
+                        } catch(err) {
+                            console.error('Call bind error', err);
+                        }
+                    }, 50);
+                } else if (listRecent) {
+                    listRecent.innerHTML = '<div style="padding: 30px; text-align: center; color: #8e8e93; font-size: 14px;">暂无通话记录<br><span style="font-size: 12px; margin-top: 5px; display: inline-block;">请在设置中生成</span></div>';
+                    if (listContacts) {
+                        listContacts.innerHTML = '<div style="padding: 30px; text-align: center; color: #8e8e93; font-size: 14px;">暂无联系人</div>';
+                    }
+                }
+            };
+        }
+        const callBackBtn = document.getElementById('friend-phonecall-back-btn');
+        if (callBackBtn) callBackBtn.onclick = () => { if (window.closeView) window.closeView(callView); };
+
+        // 绑定 健康
+        const healthBtn = document.getElementById('friend-phone-app-health');
+        const healthView = document.getElementById('friend-health-view');
+        if (healthBtn && healthView) {
+            healthBtn.onclick = () => {
+                if (window.openView) window.openView(healthView);
+                const healthContent = document.getElementById('friend-health-content');
+                if (healthContent) {
+                    if (!friend.healthData) {
+                        healthContent.innerHTML = '<div style="padding: 50px 20px; text-align: center; color: #8e8e93; font-size: 15px;">暂无健康数据<br><span style="font-size: 13px; margin-top: 8px; display: inline-block;">请在设置中生成</span></div>';
+                    } else {
+                    const today = new Date();
+                    
+                    // 生成日期选项
+                    const datesHtml = [-2, -1, 0, 1, 2].map(offset => {
+                        const d = new Date(today);
+                        d.setDate(today.getDate() + offset);
+                        const dayStr = d.getDate();
+                        const weekStr = ['日','一','二','三','四','五','六'][d.getDay()];
+                        const isActive = offset === 0;
+                        
+                        return `
+                            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 44px; height: 56px; border-radius: 14px; background: ${isActive ? '#111' : 'transparent'}; color: ${isActive ? '#fff' : '#8e8e93'}; flex-shrink: 0; cursor: pointer; ">
+                                <div style="font-size: 11px; font-weight: 600; margin-bottom: 2px;">${weekStr}</div>
+                                <div style="font-size: 16px; font-weight: 800;">${dayStr}</div>
+                            </div>
+                        `;
+                    }).join('');
+
+                    healthContent.innerHTML = `
+                        <!-- 顶部日期选择 -->
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px;">
+                            <div style="font-size: 28px; font-weight: 800; color: #111; letter-spacing: -0.5px;">摘要</div>
+                            <div style="width: 32px; height: 32px; border-radius: 50%; background: #f2f2f7; display: flex; justify-content: center; align-items: center; color: #111; font-size: 14px; cursor: pointer;">
+                                <i class="fas fa-calendar-day"></i>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; background: #fff; border-radius: 20px; padding: 8px; ">
+                            ${datesHtml}
+                        </div>
+
+                        <!-- 步数卡片 -->
+                        <div style="background: #fff; border-radius: 24px; padding: 22px; margin-bottom: 15px; border: 1px solid #f0f0f0; ">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px; color: #111; font-weight: 600;">
+                                    <div style="width: 28px; height: 28px; border-radius: 8px; background: #f2f2f7; display: flex; justify-content: center; align-items: center;"><i class="fas fa-shoe-prints" style="font-size: 12px; color: #ff3b30;"></i></div>
+                                    <span>步数</span>
+                                </div>
+                                <div style="font-size: 12px; color: #8e8e93; font-weight: 600;">14:20 更新</div>
+                            </div>
+                            <div style="font-size: 42px; font-weight: 800; color: #111; display: flex; align-items: baseline; gap: 6px; letter-spacing: -1px;">
+                                ${friend.healthData.steps || '0'} <span style="font-size: 15px; color: #8e8e93; font-weight: 600; letter-spacing: 0;">步</span>
+                            </div>
+                        </div>
+
+                        <!-- 睡眠卡片 -->
+                        <div style="background: #fff; border-radius: 24px; padding: 22px; margin-bottom: 15px; border: 1px solid #f0f0f0; ">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 8px; color: #111; font-weight: 600;">
+                                    <div style="width: 28px; height: 28px; border-radius: 8px; background: #f2f2f7; display: flex; justify-content: center; align-items: center;"><i class="fas fa-bed" style="font-size: 12px; color: #5856d6;"></i></div>
+                                    <span>睡眠</span>
+                                </div>
+                                <div style="font-size: 12px; color: #8e8e93; font-weight: 600;">昨晚记录</div>
+                            </div>
+                            <div style="font-size: 36px; font-weight: 800; color: #111; display: flex; align-items: baseline; gap: 6px; letter-spacing: -0.5px;">
+                                ${friend.healthData.sleepHours || '0'} <span style="font-size: 15px; color: #8e8e93; font-weight: 600; letter-spacing: 0;">小时</span> 
+                                ${friend.healthData.sleepMinutes || '0'} <span style="font-size: 15px; color: #8e8e93; font-weight: 600; letter-spacing: 0;">分钟</span>
+                            </div>
+                        </div>
+
+                        <!-- 身体指标 -->
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <div style="background: #fff; border-radius: 24px; padding: 20px; border: 1px solid #f0f0f0; ">
+                                <div style="display: flex; align-items: center; gap: 8px; color: #111; font-weight: 600; margin-bottom: 16px;">
+                                    <div style="width: 28px; height: 28px; border-radius: 8px; background: #f2f2f7; display: flex; justify-content: center; align-items: center;"><i class="fas fa-weight" style="font-size: 12px; color: #007aff;"></i></div>
+                                    <span>体重</span>
+                                </div>
+                                <div style="font-size: 28px; font-weight: 800; color: #111; letter-spacing: -0.5px;">${friend.healthData.weight || '-'} <span style="font-size: 13px; color: #8e8e93; font-weight: 600; letter-spacing: 0;">kg</span></div>
+                            </div>
+                            <div style="background: #fff; border-radius: 24px; padding: 20px; border: 1px solid #f0f0f0; ">
+                                <div style="display: flex; align-items: center; gap: 8px; color: #111; font-weight: 600; margin-bottom: 16px;">
+                                    <div style="width: 28px; height: 28px; border-radius: 8px; background: #f2f2f7; display: flex; justify-content: center; align-items: center;"><i class="fas fa-ruler-vertical" style="font-size: 12px; color: #ff9500;"></i></div>
+                                    <span>身高</span>
+                                </div>
+                                <div style="font-size: 28px; font-weight: 800; color: #111; letter-spacing: -0.5px;">${friend.healthData.height || '-'} <span style="font-size: 13px; color: #8e8e93; font-weight: 600; letter-spacing: 0;">cm</span></div>
+                            </div>
+                        </div>
+                    `;
+                    }
+                }
+            };
+        }
+        const healthBackBtn = document.getElementById('friend-health-back-btn');
+        if (healthBackBtn) healthBackBtn.onclick = () => { if (window.closeView) window.closeView(healthView); };
+
+        // 绑定 Pay
+        const payBtn = document.getElementById('friend-phone-app-pay');
+        const payView = document.getElementById('friend-pay-view');
+        if (payBtn && payView) {
+            payBtn.onclick = () => {
+                if (window.openView) window.openView(payView);
+                const payContent = document.getElementById('friend-pay-content');
+                if (payContent) {
+                    let payData = friend.payData;
+                    if (!payData) {
+                        payContent.innerHTML = '<div style="padding: 50px 20px; text-align: center; color: #8e8e93; font-size: 15px;">暂无钱包数据<br><span style="font-size: 13px; margin-top: 8px; display: inline-block;">请在设置中生成</span></div>';
+                    } else {
+                    let cards = payData.cards;
+                    if (!cards) {
+                        const totalStr = String(payData.totalAssets || '0').replace(/,/g, '');
+                        const total = parseFloat(totalStr) || 0;
+                        const txs = payData.recentTransactions || [];
+                        
+                        cards = [
+                            {
+                                id: 'card1',
+                                bankName: '黑金储蓄卡',
+                                cardType: 'Debit',
+                                cardNumber: '**** **** **** 8888',
+                                amount: (total * 0.6).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+                                transactions: txs.filter((_, i) => i % 2 === 0)
+                            },
+                            {
+                                id: 'card2',
+                                bankName: '白金信用卡',
+                                cardType: 'Credit',
+                                cardNumber: '**** **** **** 1234',
+                                amount: (total * 0.4).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
+                                transactions: txs.filter((_, i) => i % 2 !== 0)
+                            },
+                            {
+                                id: 'card3',
+                                bankName: '虚拟支付卡',
+                                cardType: 'Prepaid',
+                                cardNumber: '**** **** **** 9999',
+                                amount: '0.00',
+                                transactions: []
+                            }
+                        ];
+                        // If we didn't generate payData earlier, we attach it now
+                        if (friend.payData) {
+                            friend.payData.cards = cards;
+                        }
+                    }
+                    
+                    let activeCardIndex = 0;
+
+                    const renderPayView = () => {
+                        const cardsHTML = cards.map((c, i) => {
+                            // 层叠算法：active在最上，其它卡在下方依次堆叠
+                            const isActive = i === activeCardIndex;
+                            let translateY = 0;
+                            let scale = 1;
+                            let opacity = 1;
+                            let zIndex = 100;
+
+                            // 极简纯深色系，完全消除反差防止刺眼，统一为偏黑质感
+                            const bgStyles = [
+                                'linear-gradient(135deg, #111, #1a1a1c)', // 深邃黑
+                                'linear-gradient(135deg, #141416, #222)', // 稍亮一点黑
+                                'linear-gradient(135deg, #0a0a0c, #161618)' // 更暗的黑
+                            ];
+                            const bgStyle = bgStyles[i % bgStyles.length];
+                            
+                            // 统一灰白文字
+                            const textColor = '#fff';
+                            const subtitleColor = 'rgba(255,255,255,0.6)';
+                            const borderColor = 'rgba(255,255,255,0.15)';
+                            
+                            if (!isActive) {
+                                // 重构：计算从激活卡片之后开始排队的严格递增索引 (1, 2, 3...)
+                                // 取消原来可能出现跳跃的计算方式，只要你不是激活卡，你就排在下面
+                                let rank = i - activeCardIndex;
+                                if (rank < 0) {
+                                    rank += cards.length;
+                                }
+                                // rank 会是 1, 2... 表示在你下面排第几位
+                                
+                                // 修改：增加基础偏移量，使未激活卡片被往下推，从而在切换时产生更明显的抽拉感
+                                translateY = 40 + ((rank - 1) * 20); 
+                                scale = 1 - (0.06 * rank); // 按名次缩小更多，增加层叠的空间感
+                                zIndex = 10 - rank;
+                            } else {
+                                translateY = -10; // 激活卡片稍微往上浮动一点
+                                scale = 1.02; // 稍微放大
+                                zIndex = 100;
+                            }
+
+                            // 过渡曲线稍快，消除生硬感，非常平滑，甚至带一点弹性
+                            const transCSS = 'transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.6s ease';
+
+                            return `
+                                <div class="pay-wallet-card" data-idx="${i}" style="position: absolute; top: 0; left: 0; right: 0; height: 180px; background: ${bgStyle}; border-radius: 20px; padding: 20px; color: ${textColor};  transition: ${transCSS}; transform: translateY(${translateY}px) scale(${scale}); opacity: ${opacity}; z-index: ${zIndex}; cursor: pointer; border: 1px solid rgba(255,255,255,0.08);">
+                                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+                                        <div style="font-size: 16px; font-weight: 700; letter-spacing: 0.5px;">${c.bankName}</div>
+                                        <div style="font-size: 11px; color: ${subtitleColor}; border: 1px solid ${borderColor}; padding: 2px 10px; border-radius: 12px; font-weight: 600;">${c.cardType}</div>
+                                    </div>
+                                    <div style="font-size: 20px; font-family: monospace; letter-spacing: 2px; margin-bottom: 20px; text-shadow: 0 1px 2px rgba(0,0,0,0.5);">${c.cardNumber}</div>
+                                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                                        <div>
+                                            <div style="font-size: 11px; color: ${subtitleColor}; margin-bottom: 4px; font-weight: 500;">当前金额</div>
+                                            <div style="font-size: 22px; font-weight: 800; letter-spacing: -0.5px;">¥ ${c.amount}</div>
+                                        </div>
+                                        <i class="fab fa-cc-visa" style="font-size: 28px; color: ${textColor}; opacity: 0.7;"></i>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('');
+
+                        const activeCard = cards[activeCardIndex];
+                        // 极简黑白灰交易明细
+                        const txHTML = activeCard.transactions && activeCard.transactions.length > 0 ? activeCard.transactions.map(tx => `
+                            <div style="display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #f0f0f0;">
+                                <div style="display: flex; align-items: center; gap: 12px;">
+                                    <div style="width: 40px; height: 40px; border-radius: 12px; background: #f4f4f5; display: flex; justify-content: center; align-items: center; color: #111; font-size: 14px;">
+                                        <i class="${tx.isIncome ? 'fas fa-arrow-down' : 'fas fa-arrow-up'}" style="transform: ${tx.isIncome ? 'none' : 'rotate(45deg)'};"></i>
+                                    </div>
+                                    <div>
+                                        <div style="font-size: 15px; font-weight: 600; color: #111; margin-bottom: 2px;">${tx.title}</div>
+                                        <div style="font-size: 12px; color: #8e8e93; font-weight: 500;">${tx.time}</div>
+                                    </div>
+                                </div>
+                                <div style="font-size: 16px; font-weight: 700; color: #111;">${tx.isIncome ? '+' : ''}${tx.amount}</div>
+                            </div>
+                        `).join('') : '<div style="padding: 30px; text-align: center; color: #8e8e93; font-size: 13px;">暂无交易记录</div>';
+
+                        // 高度计算：基于堆叠的最底下一张卡片的 translateY 加上露出部分
+                        const maxTranslateY = 50 + (Math.max(0, cards.length - 2) * 20);
+                        const containerHeight = maxTranslateY + 45 + 180; // 确保留出足够的空间
+
+                        payContent.innerHTML = `
+                            <style>
+                            #pay-tx-container { animation: fadeUp 0.4s ease-out forwards; } 
+                            @keyframes fadeUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+                            </style>
+                            <div style="padding: 20px;">
+                                <div style="font-size: 34px; font-weight: 800; color: #111; margin-bottom: 25px; letter-spacing: -0.5px;">Cards</div>
+                                <div id="pay-cards-container" style="position: relative; width: 100%; height: ${containerHeight}px; margin-bottom: 10px;">
+                                    ${cardsHTML}
+                                </div>
+                            </div>
+                            
+                            <div style="padding: 0 20px 40px;" id="pay-tx-container">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                                    <div style="font-size: 20px; font-weight: 800; color: #111; letter-spacing: -0.5px;">Transactions</div>
+                                    <div style="width: 32px; height: 32px; border-radius: 16px; background: #e5e5ea; display: flex; justify-content: center; align-items: center; color: #111; font-size: 14px;">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                                <div style="background: #fff; border-radius: 20px; padding: 0 20px; ">
+                                    ${txHTML}
+                                </div>
+                            </div>
+                        `;
+
+                        const container = document.getElementById('pay-cards-container');
+                        if (container) {
+                            container.querySelectorAll('.pay-wallet-card').forEach(el => {
+                                el.onclick = () => {
+                                    const idx = parseInt(el.getAttribute('data-idx'));
+                                    if (idx !== activeCardIndex) {
+                                        activeCardIndex = idx;
+                                        renderPayView(); // 重新渲染触发动画
+                                    }
+                                };
+                            });
+                        }
+                    };
+
+                    renderPayView();
+                    }
+                }
+            };
+        }
+        const payBackBtn = document.getElementById('friend-pay-back-btn');
+        if (payBackBtn) payBackBtn.onclick = () => { if (window.closeView) window.closeView(payView); };
+
+        // 绑定 Game
+        const gameBtn = document.getElementById('friend-phone-app-game');
+        const gameView = document.getElementById('friend-game-view');
+        if (gameBtn && gameView) {
+            gameBtn.onclick = () => {
+                if (window.openView) window.openView(gameView);
+                const gameContent = document.getElementById('friend-game-content');
+                if (gameContent && friend.gameData) {
+                    const gamesHTML = friend.gameData.recentGames ? friend.gameData.recentGames.map((g, idx) => {
+                        return `
+                        <div class="game-history-item-new" data-idx="${idx}" style="background: #1c1c1e; border: 1px solid #2c2c2e; border-radius: 20px; padding: 18px; display: flex; gap: 16px; align-items: center; cursor: pointer;">
+                            <div style="width: 56px; height: 56px; border-radius: 16px; background: #2c2c2e; display: flex; justify-content: center; align-items: center; font-size: 24px; color: #fff; pointer-events: none;">
+                                <i class="${g.icon || 'fas fa-gamepad'}"></i>
+                            </div>
+                            <div style="flex: 1; pointer-events: none;">
+                                <div style="font-size: 17px; font-weight: 600; color: #fff; letter-spacing: 0.5px;">${g.name}</div>
+                                <div style="font-size: 13px; color: #8e8e93; margin-top: 4px;">时长: ${g.hours}</div>
+                                <div style="display: flex; align-items: center; gap: 10px; margin-top: 10px;">
+                                    <div style="background: #3a3a3c; color: #fff; font-size: 11px; padding: 3px 10px; border-radius: 6px; font-weight: 600;">${g.rank}</div>
+                                    <div style="font-size: 12px; color: #8e8e93;">胜率: <span style="color: #fff; font-weight: 500;">${g.winRate}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    `}).join('') : '';
+
+                    gameContent.innerHTML = `
+                        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 30px;">
+                            <div style="width: 70px; height: 70px; border-radius: 50%; background: #1c1c1e; display: flex; justify-content: center; align-items: center; font-size: 30px; color: #fff; border: 2px solid #3a3a3c;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div>
+                                <div style="font-size: 20px; font-weight: 700; color: #fff; letter-spacing: 0.5px;">${friend.gameData.playerName || 'Player One'}</div>
+                                <div style="font-size: 13px; color: #8e8e93; margin-top: 6px;">游戏总时长: <span style="color: #fff; font-weight: 500;">${friend.gameData.totalHours || '0 小时'}</span></div>
+                            </div>
+                        </div>
+                        <div style="font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 15px;">常玩的游戏</div>
+                        <div style="display: flex; flex-direction: column; gap: 15px;">
+                            ${gamesHTML}
+                        </div>
+                    `;
+
+                    setTimeout(() => {
+                        try {
+                            const items = gameContent.querySelectorAll('.game-history-item-new');
+                            items.forEach(el => {
+                                window.lovesApp.bindLongPress(el, function() {
+                                    const idx = el.getAttribute('data-idx');
+                                    const g = friend.gameData.recentGames[idx];
+                                    window.lovesApp.showDeleteConfirm(g.name, () => {
+                                        friend.gameData.recentGames.splice(idx, 1);
+                                        gameBtn.onclick();
+                                    });
+                                });
+
+                                el.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    const idx = this.getAttribute('data-idx');
+                                    const g = friend.gameData.recentGames[idx];
+                                    let content = '';
+                                    if (Array.isArray(g.matches)) {
+                                        content += `<div style="background: #f4f4f5; border-radius: 24px; padding: 16px; margin-bottom: 16px;">
+                                            <div style="font-weight: 700; color: #111; margin-bottom: 12px; padding-left: 4px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-gamepad" style="color: #111;"></i> 近期对局 (点击查看单局详情)</div>`;
+                                        
+                                        g.matches.forEach((m, mIdx) => {
+                                            const isWin = m.result === '胜利' || m.result === 'Win';
+                                            const bgColor = isWin ? '#111' : '#fff';
+                                            const textColor = isWin ? '#fff' : '#8e8e93';
+                                            const resultColor = isWin ? '#fff' : '#111';
+                                            const kdaBgColor = isWin ? '#333' : '#f4f4f5';
+                                            const kdaTextColor = isWin ? '#fff' : '#111';
+                                            const iconColor = isWin ? '#fff' : '#111';
+                                            
+                                            // Encode match data for onclick handler
+                                            const matchDataStr = encodeURIComponent(JSON.stringify(m));
+
+                                            content += `
+                                            <div class="game-match-item" data-match="${matchDataStr}" style="display: flex; align-items: center; justify-content: space-between; background: ${bgColor}; border: 1px solid #e5e5ea; border-radius: 16px; padding: 16px; margin-bottom: 10px; cursor: pointer;">
+                                                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px; width: 50px; pointer-events: none;">
+                                                    <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(142,142,147,0.1); display: flex; justify-content: center; align-items: center; color: ${iconColor}; font-size: 16px;">
+                                                        <i class="fas fa-user"></i>
+                                                    </div>
+                                                    <div style="font-size: 11px; font-weight: 500; color: ${textColor}; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; text-align: center;">${m.hero || '我方'}</div>
+                                                </div>
+                                                
+                                                <div style="display: flex; flex-direction: column; align-items: center; flex: 1; pointer-events: none;">
+                                                    <div style="font-size: 18px; font-weight: 800; color: ${resultColor}; letter-spacing: 1px;">${m.result}</div>
+                                                    <div style="font-size: 11px; color: #8e8e93; margin-top: 6px;">${m.time}</div>
+                                                    <div style="font-size: 12px; font-weight: 700; color: ${kdaTextColor}; margin-top: 8px; background: ${kdaBgColor}; padding: 4px 10px; border-radius: 8px;">KDA: ${m.kda || '-/-/-'}</div>
+                                                </div>
+
+                                                <div style="display: flex; flex-direction: column; align-items: center; gap: 6px; width: 50px; pointer-events: none;">
+                                                    <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(142,142,147,0.1); display: flex; justify-content: center; align-items: center; color: ${iconColor}; font-size: 16px;">
+                                                        <i class="fas fa-skull"></i>
+                                                    </div>
+                                                    <div style="font-size: 11px; font-weight: 500; color: ${textColor};">敌方</div>
+                                                </div>
+                                            </div>`;
+                                        });
+                                        content += `</div>`;
+                                    } else if (typeof g.matches === 'string' && g.matches) {
+                                        content += `<div style="background: #f4f4f5; border-radius: 24px; padding: 16px; margin-bottom: 16px;">
+                                            <div style="font-weight: 700; color: #111; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-history" style="color: #111;"></i> 近期对局</div>
+                                            <div style="color: #333; line-height: 1.6; font-size: 14px;">${g.matches.replace(/\n/g, '<br>')}</div>
+                                        </div>`;
+                                    }
+
+                                    // For older data formats where thoughts were at the game level rather than match level
+                                    if (g.innerThoughts && !Array.isArray(g.matches)) {
+                                        content += `<div style="background: #f4f4f5; border-radius: 24px; padding: 16px; margin-bottom: 16px; border-left: 4px solid #111;">
+                                            <div style="font-weight: 700; color: #111; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-headset" style="color: #111;"></i> 局内心声</div>
+                                            <div style="color: #333; line-height: 1.6; font-size: 14px; font-style: italic;">“${g.innerThoughts.replace(/\n/g, '<br>')}”</div>
+                                        </div>`;
+                                    }
+                                    
+                                    if (g.postGameReflection && !Array.isArray(g.matches)) {
+                                        content += `<div style="background: #111; border-radius: 24px; padding: 16px; margin-bottom: 16px;">
+                                            <div style="font-weight: 700; color: #fff; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-clipboard-list" style="color: #fff;"></i> 局后复盘</div>
+                                            <div style="color: #ccc; line-height: 1.6; font-size: 14px;">${g.postGameReflection.replace(/\n/g, '<br>')}</div>
+                                        </div>`;
+                                    }
+                                    
+                                    if (!content) content = '暂无更多数据';
+                                    window.lovesApp.showDetailModal(g.name + ' - 战绩列表', content);
+
+                                    // Bind match click events
+                                    setTimeout(() => {
+                                        const matchItems = document.querySelectorAll('.game-match-item');
+                                        matchItems.forEach(item => {
+                                            item.addEventListener('click', function() {
+                                                const matchStr = this.getAttribute('data-match');
+                                                if (matchStr) {
+                                                    try {
+                                                        const m = JSON.parse(decodeURIComponent(matchStr));
+                                                        let matchDetailContent = '';
+                                                        
+                                                        // Base Stats
+                                                        matchDetailContent += `
+                                                            <div style="background: #f4f4f5; border-radius: 20px; padding: 16px; margin-bottom: 16px;">
+                                                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                                                    <div style="font-weight: 800; font-size: 20px; color: ${m.result === '胜利' || m.result === 'Win' ? '#111' : '#8e8e93'};">${m.result}</div>
+                                                                    <div style="font-weight: 700; color: #111; background: #e5e5ea; padding: 4px 10px; border-radius: 8px;">KDA: ${m.kda || '-/-/-'}</div>
+                                                                </div>
+                                                                <div style="display: flex; align-items: center; gap: 8px; color: #8e8e93; font-size: 13px;">
+                                                                    <i class="fas fa-clock"></i> ${m.time} | 英雄: ${m.hero || '未知'}
+                                                                </div>
+                                                            </div>
+                                                        `;
+
+                                                        // Highlights
+                                                        if (m.highlights && Array.isArray(m.highlights) && m.highlights.length > 0) {
+                                                            let highlightsHtml = m.highlights.map(h => `
+                                                                <div style="display: flex; gap: 12px; margin-bottom: 8px; align-items: flex-start;">
+                                                                    <div style="font-weight: 700; color: #111; font-size: 13px; background: #e5e5ea; padding: 2px 6px; border-radius: 4px; flex-shrink: 0;">${h.time}</div>
+                                                                    <div style="color: #333; font-size: 14px; line-height: 1.4;">${h.desc}</div>
+                                                                </div>
+                                                            `).join('');
+                                                            
+                                                            matchDetailContent += `
+                                                                <div style="background: #fff; border: 1px solid #e5e5ea; border-radius: 20px; padding: 16px; margin-bottom: 16px;">
+                                                                    <div style="font-weight: 700; color: #111; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-bolt" style="color: #111;"></i> 高光时刻</div>
+                                                                    ${highlightsHtml}
+                                                                </div>
+                                                            `;
+                                                        }
+
+                                                        // Inner Thoughts
+                                                        if (m.innerThoughts) {
+                                                            matchDetailContent += `
+                                                                <div style="background: #f4f4f5; border-radius: 20px; padding: 16px; margin-bottom: 16px; border-left: 4px solid #111;">
+                                                                    <div style="font-weight: 700; color: #111; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-headset" style="color: #111;"></i> 局内心声</div>
+                                                                    <div style="color: #333; line-height: 1.6; font-size: 14px; font-style: italic;">“${m.innerThoughts.replace(/\n/g, '<br>')}”</div>
+                                                                </div>
+                                                            `;
+                                                        }
+
+                                                        // Post Game Reflection
+                                                        if (m.postGameReflection || m.thoughts) {
+                                                            const reflectionText = m.postGameReflection || m.thoughts;
+                                                            matchDetailContent += `
+                                                                <div style="background: #111; border-radius: 20px; padding: 16px; margin-bottom: 16px;">
+                                                                    <div style="font-weight: 700; color: #fff; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-clipboard-list" style="color: #fff;"></i> 局后复盘</div>
+                                                                    <div style="color: #ccc; line-height: 1.6; font-size: 14px;">${reflectionText.replace(/\n/g, '<br>')}</div>
+                                                                </div>
+                                                            `;
+                                                        }
+
+                                                        if (!matchDetailContent) matchDetailContent = '暂无详情数据';
+                                                        
+                                                        // Show secondary modal
+                                                        window.lovesApp.showDetailModal('单局详情', matchDetailContent);
+                                                    } catch (e) {
+                                                        console.error('Parse match data error', e);
+                                                    }
+                                                }
+                                            });
+                                        });
+                                    }, 100);
+                                });
+                            });
+                        } catch(err) {
+                            console.error('Game bind error', err);
+                        }
+                    }, 50);
+                } else if (gameContent) {
+                    gameContent.innerHTML = '<div style="padding: 50px 20px; text-align: center; color: #8e8e93; font-size: 15px;">暂无游戏数据<br><span style="font-size: 13px; margin-top: 8px; display: inline-block;">请在设置中生成</span></div>';
+                }
+            };
+        }
+        const gameBackBtn = document.getElementById('friend-game-back-btn');
+        if (gameBackBtn) gameBackBtn.onclick = () => { if (window.closeView) window.closeView(gameView); };
+        
+        // iMessage Tab 切换
+        const tabChat = document.getElementById('friend-imsg-tabbar-chat');
+        const tabMe = document.getElementById('friend-imsg-tabbar-me');
+        const panelChat = document.getElementById('friend-imsg-panel-chat');
+        const panelMe = document.getElementById('friend-imsg-panel-me');
+        const titleEl = document.getElementById('friend-imsg-title');
+        
+        if (tabChat) tabChat.onclick = () => {
+            tabChat.style.color = '#007aff';
+            if (tabMe) tabMe.style.color = '#8e8e93';
+            if (panelChat) panelChat.style.display = 'flex';
+            if (panelMe) panelMe.style.display = 'none';
+            if (titleEl) titleEl.textContent = '信息';
+        };
+        if (tabMe) tabMe.onclick = () => {
+            tabMe.style.color = '#007aff';
+            if (tabChat) tabChat.style.color = '#8e8e93';
+            if (panelMe) panelMe.style.display = 'flex';
+            if (panelChat) panelChat.style.display = 'none';
+            if (titleEl) titleEl.textContent = '我';
+        };
+        
+        // 反向聊天室
+        const revChatView = document.getElementById('friend-reverse-chat-view');
+        // 将点击事件代理在外部方法中执行
+        
+        const revBackBtn = document.getElementById('reverse-chat-back-btn');
+        if (revBackBtn) revBackBtn.onclick = () => { if (window.closeView) window.closeView(revChatView); };
+
+    },
+    
+    showContactDetailModal: function(contactData) {
+        try {
+            const oldModals = document.querySelectorAll('#loves-contact-detail-modal');
+            oldModals.forEach(m => m.remove());
+
+            const modal = document.createElement('div');
+            modal.id = 'loves-contact-detail-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+            modal.style.zIndex = '2147483647'; 
+            modal.style.display = 'flex';
+            modal.style.flexDirection = 'column';
+            modal.style.justifyContent = 'flex-end';
+
+            const card = document.createElement('div');
+            card.style.backgroundColor = '#f2f2f7';
+            card.style.borderTopLeftRadius = '24px';
+            card.style.borderTopRightRadius = '24px';
+            card.style.width = '100%';
+            card.style.maxHeight = '85%';
+            card.style.display = 'flex';
+            card.style.flexDirection = 'column';
+            card.style.pointerEvents = 'auto'; 
+            card.style.boxShadow = '0 -4px 20px rgba(0,0,0,0.1)';
+
+            const handle = document.createElement('div');
+            handle.style.width = '36px';
+            handle.style.height = '5px';
+            handle.style.backgroundColor = '#ccc';
+            handle.style.borderRadius = '3px';
+            handle.style.margin = '10px auto 15px';
+
+            const contentWrap = document.createElement('div');
+            contentWrap.style.flex = '1';
+            contentWrap.style.overflowY = 'auto';
+            contentWrap.style.padding = '0 20px 20px';
+
+            // Top Header: Avatar & Name
+            const headerHtml = `
+                <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 25px;">
+                    <div style="width: 80px; height: 80px; border-radius: 50%; background: #e5e5ea; display: flex; justify-content: center; align-items: center; color: #8e8e93; font-size: 34px; margin-bottom: 10px; ">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: 600; color: #111;">${contactData.name}</div>
+                </div>
+            `;
+
+            // Action Buttons Row
+            const actionsHtml = `
+                <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 25px;">
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-comment" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">信息</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-phone-alt" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">电话</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-video" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">视频</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-envelope" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">邮件</span>
+                    </div>
+                </div>
+            `;
+
+            // Contact Info Details
+            const infoHtml = `
+                <div style="background: #fff; border-radius: 16px; padding: 16px; margin-bottom: 15px; display: flex; flex-direction: column; gap: 15px;">
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 13px; color: #8e8e93;">添加为联系人日期</div>
+                        <div style="font-size: 15px; font-weight: 500; color: #111;">${contactData.addedTime || '未知时间'}</div>
+                    </div>
+                    <div style="height: 1px; background: #f2f2f7;"></div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <div style="font-size: 13px; color: #8e8e93;">近期通话时间</div>
+                        <div style="font-size: 15px; font-weight: 500; color: #111;">${contactData.recentCallTime || '无记录'}</div>
+                    </div>
+                </div>
+            `;
+
+            // Reason Card
+            const reasonHtml = `
+                <div style="background: #fff; border-radius: 16px; padding: 16px;">
+                    <div style="font-size: 13px; color: #8e8e93; margin-bottom: 8px;">通话原因</div>
+                    <div style="font-size: 15px; color: #333; line-height: 1.5; word-break: break-word;">
+                        ${contactData.callReason || '暂无说明'}
+                    </div>
+                </div>
+            `;
+
+            contentWrap.innerHTML = headerHtml + actionsHtml + infoHtml + reasonHtml;
+
+            card.appendChild(handle);
+            card.appendChild(contentWrap);
+            
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.opacity = '0';
+                    card.style.transform = 'translateY(100%)';
+                    setTimeout(() => modal.remove(), 250);
+                }
+            });
+
+            modal.style.opacity = '0';
+            modal.style.transition = 'opacity 0.25s ease';
+            card.style.transform = 'translateY(100%)';
+            card.style.transition = 'transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1)';
+            
+            modal.appendChild(card);
+            document.body.appendChild(modal);
+
+            void modal.offsetWidth;
+            modal.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+
+        } catch (e) {
+            console.error('Error showing contact detail modal:', e);
+        }
+    },
+
+    showCallDetailModal: function(callData) {
+        try {
+            const oldModals = document.querySelectorAll('#loves-call-detail-modal');
+            oldModals.forEach(m => m.remove());
+
+            const modal = document.createElement('div');
+            modal.id = 'loves-call-detail-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+            modal.style.zIndex = '2147483647'; 
+            modal.style.display = 'flex';
+            modal.style.flexDirection = 'column';
+            modal.style.justifyContent = 'flex-end';
+            
+            // Format data
+            let typeText = '语音通话';
+            let typeColor = '#8e8e93';
+            if (callData.type === 'missed') {
+                typeText = '未接来电';
+                typeColor = '#ff3b30';
+            } else if (callData.type === 'outgoing') {
+                typeText = '呼出通话';
+            } else {
+                typeText = '呼入通话';
+            }
+
+            const dialogue = callData.dialogue || '无对话记录';
+
+            const card = document.createElement('div');
+            card.style.backgroundColor = '#f2f2f7';
+            card.style.borderTopLeftRadius = '24px';
+            card.style.borderTopRightRadius = '24px';
+            card.style.width = '100%';
+            card.style.maxHeight = '85%';
+            card.style.display = 'flex';
+            card.style.flexDirection = 'column';
+            card.style.pointerEvents = 'auto'; 
+            card.style.boxShadow = '0 -4px 20px rgba(0,0,0,0.1)';
+
+            const handle = document.createElement('div');
+            handle.style.width = '36px';
+            handle.style.height = '5px';
+            handle.style.backgroundColor = '#ccc';
+            handle.style.borderRadius = '3px';
+            handle.style.margin = '10px auto 15px';
+
+            const contentWrap = document.createElement('div');
+            contentWrap.style.flex = '1';
+            contentWrap.style.overflowY = 'auto';
+            contentWrap.style.padding = '0 20px 20px';
+
+            // Top Header: Avatar & Name
+            const headerHtml = `
+                <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 25px;">
+                    <div style="width: 80px; height: 80px; border-radius: 50%; background: #e5e5ea; display: flex; justify-content: center; align-items: center; color: #8e8e93; font-size: 34px; margin-bottom: 10px; ">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div style="font-size: 24px; font-weight: 600; color: #111;">${callData.name}</div>
+                </div>
+            `;
+
+            // Action Buttons Row
+            const actionsHtml = `
+                <div style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 25px;">
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-comment" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">信息</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-phone-alt" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">电话</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-video" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">视频</span>
+                    </div>
+                    <div style="flex: 1; background: #fff; padding: 12px 0; border-radius: 12px; display: flex; flex-direction: column; align-items: center; gap: 5px; cursor: pointer; color: #007aff;">
+                        <i class="fas fa-envelope" style="font-size: 20px;"></i>
+                        <span style="font-size: 11px; font-weight: 500;">邮件</span>
+                    </div>
+                </div>
+            `;
+
+            // Call Details Card
+            const detailsHtml = `
+                <div style="background: #fff; border-radius: 16px; padding: 16px; margin-bottom: 15px;">
+                    <div style="font-size: 15px; font-weight: 600; color: #111; margin-bottom: 8px;">${callData.time}</div>
+                    <div style="font-size: 14px; color: ${typeColor};">${typeText}</div>
+                </div>
+            `;
+
+            // Dialogue Translation Card
+            const dialogueHtml = `
+                <div style="background: #fff; border-radius: 16px; padding: 16px;">
+                    <div style="font-size: 13px; font-weight: 600; color: #8e8e93; margin-bottom: 12px; text-transform: uppercase;">录音转写记录</div>
+                    <div style="font-size: 15px; color: #333; line-height: 1.6; word-break: break-word;">
+                        ${dialogue.replace(/\n/g, '<br>')}
+                    </div>
+                </div>
+            `;
+
+            contentWrap.innerHTML = headerHtml + actionsHtml + detailsHtml + dialogueHtml;
+
+            card.appendChild(handle);
+            card.appendChild(contentWrap);
+            
+            // Add click-to-close behavior
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.opacity = '0';
+                    card.style.transform = 'translateY(100%)';
+                    setTimeout(() => modal.remove(), 250);
+                }
+            });
+
+            // Entry animation
+            modal.style.opacity = '0';
+            modal.style.transition = 'opacity 0.25s ease';
+            card.style.transform = 'translateY(100%)';
+            card.style.transition = 'transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1)';
+            
+            modal.appendChild(card);
+            document.body.appendChild(modal);
+
+            // Trigger reflow to start animation
+            void modal.offsetWidth;
+            modal.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+
+        } catch (e) {
+            console.error('Error showing call detail modal:', e);
+        }
+    },
+
+    showDetailModal: function(title, content) {
+        try {
+            // 清理旧的
+            const oldModals = document.querySelectorAll('#loves-detail-modal');
+            oldModals.forEach(m => m.remove());
+
+            const modal = document.createElement('div');
+            modal.id = 'loves-detail-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+            modal.style.zIndex = '2147483647'; 
+            modal.style.display = 'flex';
+            modal.style.justifyContent = 'center';
+            modal.style.alignItems = 'center';
+            
+            const card = document.createElement('div');
+            card.style.backgroundColor = '#fff';
+            card.style.borderRadius = '16px';
+            card.style.width = '80%';
+            card.style.maxWidth = '300px';
+            card.style.padding = '20px';
+            card.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+            card.style.position = 'relative';
+            card.style.maxHeight = '80%';
+            card.style.overflowY = 'auto';
+            card.style.pointerEvents = 'auto'; 
+            
+            const closeBtn = document.createElement('i');
+            closeBtn.className = 'fas fa-times';
+            closeBtn.style.position = 'absolute';
+            closeBtn.style.top = '15px';
+            closeBtn.style.right = '15px';
+            closeBtn.style.fontSize = '20px';
+            closeBtn.style.color = '#8e8e93';
+            closeBtn.style.cursor = 'pointer';
+            closeBtn.onclick = (e) => { 
+                e.stopPropagation();
+                modal.remove(); 
+            };
+            
+            const titleEl = document.createElement('div');
+            titleEl.id = 'loves-detail-modal-title';
+            titleEl.style.fontSize = '20px';
+            titleEl.style.fontWeight = '800';
+            titleEl.style.color = '#111';
+            titleEl.style.marginBottom = '18px';
+            titleEl.style.paddingRight = '20px';
+            titleEl.innerText = title;
+            
+            const contentEl = document.createElement('div');
+            contentEl.id = 'loves-detail-modal-content';
+            contentEl.style.fontSize = '15px';
+            contentEl.style.color = '#333';
+            contentEl.style.lineHeight = '1.6';
+            contentEl.innerHTML = content;
+            
+            card.appendChild(closeBtn);
+            card.appendChild(titleEl);
+            card.appendChild(contentEl);
+            modal.appendChild(card);
+            
+            // 点击背景关闭
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+            
+            document.body.appendChild(modal);
+        } catch (e) {
+            console.error('Error showing detail modal:', e);
+        }
+    },
+
+    showBrowserDetailModal: function(title, content, isDark = false) {
+        try {
+            // 清理旧的
+            const oldModals = document.querySelectorAll('#loves-browser-detail-modal');
+            oldModals.forEach(m => m.remove());
+
+            const modal = document.createElement('div');
+            modal.id = 'loves-browser-detail-modal';
+            modal.style.position = 'fixed';
+            modal.style.top = '0';
+            modal.style.left = '0';
+            modal.style.width = '100%';
+            modal.style.height = '100%';
+            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+            modal.style.zIndex = '2147483647'; 
+            modal.style.display = 'flex';
+            modal.style.flexDirection = 'column';
+            modal.style.justifyContent = 'flex-end'; // 从底部升起
+            
+            const bgOuterColor = isDark ? '#000' : '#f4f4f5';
+            const bgInnerColor = isDark ? '#1c1c1e' : '#fff';
+            const textMainColor = isDark ? '#fff' : '#111';
+            const textSubColor = isDark ? '#ccc' : '#333';
+            const borderColor = isDark ? 'transparent' : 'rgba(0,0,0,0.05)';
+            
+            const card = document.createElement('div');
+            card.style.backgroundColor = bgOuterColor;
+            card.style.borderTopLeftRadius = '24px'; 
+            card.style.borderTopRightRadius = '24px';
+            card.style.width = '100%';
+            card.style.height = '92%'; // 占据大部分屏幕
+            card.style.display = 'flex';
+            card.style.flexDirection = 'column';
+            card.style.pointerEvents = 'auto'; 
+            card.style.boxShadow = '0 -4px 24px rgba(0,0,0,0.1)';
+            
+            // 极简黑白灰 Safari 风格的顶部导航栏
+            const header = document.createElement('div');
+            header.style.height = '54px';
+            header.style.display = 'flex';
+            header.style.alignItems = 'center';
+            header.style.justifyContent = 'space-between';
+            header.style.padding = '0 20px';
+            header.style.backgroundColor = bgOuterColor;
+            header.style.borderBottom = '1px solid ' + borderColor;
+            header.style.borderTopLeftRadius = '24px';
+            header.style.borderTopRightRadius = '24px';
+            header.style.flexShrink = '0';
+
+            const doneBtn = document.createElement('div');
+            doneBtn.innerText = '完成';
+            doneBtn.style.color = textMainColor; 
+            doneBtn.style.fontSize = '16px';
+            doneBtn.style.fontWeight = '600';
+            doneBtn.style.cursor = 'pointer';
+            doneBtn.onclick = () => {
+                modal.style.opacity = '0';
+                card.style.transform = 'translateY(100%)';
+                setTimeout(() => modal.remove(), 250);
+            };
+
+            const headerDomain = document.createElement('div');
+            headerDomain.style.display = 'flex';
+            headerDomain.style.alignItems = 'center';
+            headerDomain.style.justifyContent = 'center';
+            headerDomain.style.gap = '6px';
+            headerDomain.style.fontSize = '13px';
+            headerDomain.style.fontWeight = '500';
+            headerDomain.style.color = '#8e8e93';
+            headerDomain.style.flex = '1';
+            headerDomain.innerHTML = '<i class="fas fa-lock" style="font-size: 10px;"></i> search.com';
+
+            const shareBtn = document.createElement('div');
+            shareBtn.innerHTML = '<i class="fas fa-share-square"></i>';
+            shareBtn.style.color = textMainColor;
+            shareBtn.style.fontSize = '20px';
+
+            header.appendChild(doneBtn);
+            header.appendChild(headerDomain);
+            header.appendChild(shareBtn);
+
+            // 内容包裹区
+            const contentWrap = document.createElement('div');
+            contentWrap.style.flex = '1';
+            contentWrap.style.overflowY = 'auto';
+            contentWrap.style.padding = '0';
+            contentWrap.style.backgroundColor = bgOuterColor;
+
+            const pagePaper = document.createElement('div');
+            pagePaper.style.backgroundColor = bgInnerColor;
+            pagePaper.style.margin = '20px'; // 四周留白
+            pagePaper.style.borderRadius = '24px'; // 大圆角
+            pagePaper.style.padding = '30px 24px';
+            pagePaper.style.boxShadow = isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 4px 20px rgba(0,0,0,0.03)';
+            
+            const titleEl = document.createElement('h1');
+            titleEl.style.fontSize = '24px'; 
+            titleEl.style.fontWeight = '800';
+            titleEl.style.color = textMainColor;
+            titleEl.style.marginBottom = '24px';
+            titleEl.style.lineHeight = '1.4';
+            titleEl.style.letterSpacing = '-0.5px';
+            titleEl.innerText = title;
+            
+            const textEl = document.createElement('div');
+            textEl.style.fontSize = '16px';
+            textEl.style.color = textSubColor;
+            textEl.style.lineHeight = '1.8';
+            textEl.style.wordBreak = 'break-word';
+            // Decode component if it was passed safely encoded
+            textEl.innerHTML = decodeURIComponent(content);
+            
+            pagePaper.appendChild(titleEl);
+            pagePaper.appendChild(textEl);
+            contentWrap.appendChild(pagePaper);
+
+            card.appendChild(header);
+            card.appendChild(contentWrap);
+            
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.opacity = '0';
+                    card.style.transform = 'translateY(100%)';
+                    setTimeout(() => modal.remove(), 250);
+                }
+            });
+
+            // Entry animation
+            modal.style.opacity = '0';
+            modal.style.transition = 'opacity 0.25s ease';
+            card.style.transform = 'translateY(100%)';
+            card.style.transition = 'transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1)';
+
+            modal.appendChild(card);
+            document.body.appendChild(modal);
+
+            // Trigger reflow to start animation
+            void modal.offsetWidth;
+            modal.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+        } catch (e) {
+            console.error('Error showing browser detail modal:', e);
+        }
+    },
+
+    switchImsgAccount: function(accType, hasData) {
+        if (!hasData) return;
+        this.currentImsgAccount = accType;
+        
+        const accountModal = document.getElementById('friend-imsg-account-modal');
+        if (window.closeView && accountModal) window.closeView(accountModal);
+
+        if (this.currentFriend) {
+            this.renderFriendImsg(this.currentFriend);
+        }
+    },
+
+    renderFriendImsg: function(friend) {
+        const imsgList = document.getElementById('friend-imsg-panel-chat');
+        const meNameEl = document.getElementById('friend-imsg-me-name');
+        const meImg = document.getElementById('friend-imsg-me-avatar');
+        const meIcon = document.getElementById('friend-imsg-me-icon');
+
+        if (!imsgList) return;
+
+        let isMain = this.currentImsgAccount === 'main';
+        
+        let mainChats = [];
+        let altChats = [];
+        let altName = '小号';
+        let userRemark = window.imData?.profile?.name || '我'; // 默认备注为用户自身名字
+        
+        if (friend.imessageData) {
+            if (Array.isArray(friend.imessageData)) {
+                mainChats = friend.imessageData;
+            } else {
+                mainChats = friend.imessageData.mainAccount?.chats || [];
+                altChats = friend.imessageData.altAccount?.chats || [];
+                altName = friend.imessageData.altAccount?.name || '小号';
+                if (friend.imessageData.mainAccount?.userRemark) {
+                    userRemark = friend.imessageData.mainAccount.userRemark;
+                }
+            }
+        }
+
+        if (isMain) {
+            if (meNameEl) meNameEl.textContent = friend.nickname || friend.realname || 'TA';
+            if (friend.avatarUrl) {
+                if (meImg) { meImg.src = friend.avatarUrl; meImg.style.display = 'block'; }
+                if (meIcon) meIcon.style.display = 'none';
+            } else {
+                if (meImg) meImg.style.display = 'none';
+                if (meIcon) { meIcon.style.display = 'block'; meIcon.className = 'fas fa-user'; }
+            }
+        } else {
+            if (meNameEl) meNameEl.textContent = altName;
+            if (meImg) meImg.style.display = 'none';
+            if (meIcon) {
+                meIcon.style.display = 'block';
+                meIcon.className = 'fas fa-user-secret';
+            }
+        }
+
+        // 清空列表
+        imsgList.innerHTML = '';
+        
+        // 渲染与 user 的固定聊天室（仅主账号展示）
+        if (isMain) {
+            const userAvatarUrl = window.userState?.avatarUrl || window.imData?.profile?.avatarUrl;
+            const msgs = window.imData?.messages?.[friend.id] || [];
+            const latestMsg = msgs.length > 0 ? msgs[msgs.length - 1].text : '...';
+
+            const userChatHTML = `
+            <div id="friend-imsg-chat-with-user-item-dynamic" style="display: flex; align-items: center; padding: 16px; border-radius: 20px; background: #f8f8fa; border: 1px solid #f0f0f0;  cursor: pointer;">
+                <div style="width: 50px; height: 50px; border-radius: 50%; background: #f0f0f0; display: flex; justify-content: center; align-items: center; margin-right: 15px; flex-shrink: 0; overflow: hidden; position: relative;">
+                    ${userAvatarUrl ? `<img src="${userAvatarUrl}" style="width: 100%; height: 100%; object-fit: cover;">` : `<i class="fas fa-user" style="color: #8e8e93; font-size: 24px;"></i>`}
+                    <div style="position: absolute; bottom: 0; right: 0; width: 14px; height: 14px; border-radius: 50%; background: #34c759; border: 2px solid #fff;"></div>
+                </div>
+                <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 4px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 17px; font-weight: 600; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 8px;">
+                            ${userRemark}
+                            <div style="background: rgba(142,142,147,0.15); color: #8e8e93; font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: 6px; display: flex; align-items: center; gap: 3px;">
+                                <i class="fas fa-thumbtack"></i> 置顶
+                            </div>
+                        </div>
+                        <div style="font-size: 13px; color: #007aff; font-weight: 500;">刚刚</div>
+                    </div>
+                    <div style="font-size: 15px; color: #8e8e93; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        ${latestMsg}
+                    </div>
+                </div>
+            </div>`;
+
+            const userChatWrapper = document.createElement('div');
+            userChatWrapper.innerHTML = userChatHTML;
+            const userChatEl = userChatWrapper.firstElementChild;
+            
+            userChatEl.onclick = () => {
+                const revChatView = document.getElementById('friend-reverse-chat-view');
+                if (revChatView) {
+                    if (window.openView) window.openView(revChatView);
+                    document.getElementById('reverse-chat-user-name').textContent = userRemark;
+                    const revAvatarImg = document.getElementById('reverse-chat-user-avatar');
+                    const revAvatarIcon = document.getElementById('reverse-chat-user-icon');
+                    if (userAvatarUrl) {
+                        if (revAvatarImg) { revAvatarImg.src = userAvatarUrl; revAvatarImg.style.display = 'block'; }
+                        if (revAvatarIcon) revAvatarIcon.style.display = 'none';
+                    } else {
+                        if (revAvatarImg) revAvatarImg.style.display = 'none';
+                        if (revAvatarIcon) revAvatarIcon.style.display = 'block';
+                    }
+                    
+                    const msgContainer = document.getElementById('reverse-chat-messages');
+                    if (msgContainer) {
+                        msgContainer.innerHTML = '<div style="text-align: center; color: #8e8e93; font-size: 12px; margin-bottom: 20px;">此时以 TA 的视角查看你们的聊天记录</div>';
+                        const realMsgs = window.imData?.messages?.[friend.id] || [];
+                        const last10Msgs = realMsgs.slice(-10); // 只取最近 10 条真实记录
+                        last10Msgs.forEach(m => {
+                            const div = document.createElement('div');
+                            // 在对方视角，m.sender === 'me' 是对方收到的，所以在左边
+                            if (m.sender === 'me') {
+                                div.className = 'reverse-bubble-left';
+                            } else {
+                                div.className = 'reverse-bubble-right';
+                            }
+                            div.textContent = m.text || '[特殊消息]';
+                            msgContainer.appendChild(div);
+                        });
+                        setTimeout(() => msgContainer.scrollTop = msgContainer.scrollHeight, 50);
+                    }
+                }
+            };
+            imsgList.appendChild(userChatEl);
+        }
+
+        const currentChats = isMain ? mainChats : altChats;
+
+        const extraChatsHTML = currentChats.map((chat, idx) => {
+            const lastMsgObj = chat.messages && chat.messages.length > 0 ? chat.messages[chat.messages.length - 1] : null;
+            const lastMsgText = lastMsgObj ? lastMsgObj.text : '...';
+            
+            let avatarHtml = '<i class="fas fa-user" style="color: #8e8e93; font-size: 24px;"></i>';
+            if (chat.contactName === '文件传输助手') avatarHtml = '<i class="fas fa-folder" style="color: #111; font-size: 20px;"></i>';
+            else if (chat.contactName === '备忘录') avatarHtml = '<i class="fas fa-sticky-note" style="color: #111; font-size: 20px;"></i>';
+
+            return `
+            <div class="lovers-friend-imsg-item" data-idx="${idx}" style="display: flex; align-items: center; padding: 16px; border-radius: 20px; background: #fff;  cursor: pointer;" onclick="window.lovesApp.openGeneratedChat('${isMain ? 'main' : 'alt'}', ${idx}, '${encodeURIComponent(JSON.stringify(chat))}')">
+                <div style="width: 50px; height: 50px; border-radius: 50%; background: #f0f0f0; display: flex; justify-content: center; align-items: center; margin-right: 15px; flex-shrink: 0;">
+                    ${avatarHtml}
+                </div>
+                <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 4px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div style="font-size: 17px; font-weight: 600; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${chat.contactName || '未知联系人'}</div>
+                        <div style="font-size: 13px; color: #8e8e93;">昨天</div>
+                    </div>
+                    <div style="font-size: 15px; color: #8e8e93; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${lastMsgText}</div>
+                </div>
+            </div>`;
+        }).join('');
+        
+        if (extraChatsHTML) {
+            const extraDiv = document.createElement('div');
+            extraDiv.innerHTML = extraChatsHTML;
+            while(extraDiv.firstChild) {
+                imsgList.appendChild(extraDiv.firstChild);
+            }
+        } else if (!isMain) {
+            const emptyMsg = document.createElement('div');
+            emptyMsg.style.cssText = 'padding: 50px 20px; text-align: center; color: #8e8e93; font-size: 15px;';
+            emptyMsg.innerHTML = '暂无短信记录<br><span style="font-size: 13px; margin-top: 8px; display: inline-block;">请在设置中生成</span>';
+            imsgList.appendChild(emptyMsg);
+        }
+
+        setTimeout(() => {
+            const imsgItems = imsgList.querySelectorAll('.lovers-friend-imsg-item');
+            imsgItems.forEach(el => {
+                window.lovesApp.bindLongPress(el, function() {
+                    const idx = el.getAttribute('data-idx');
+                    const chat = currentChats[idx];
+                    window.lovesApp.showDeleteConfirm(chat.contactName, () => {
+                        currentChats.splice(idx, 1);
+                        window.lovesApp.renderFriendImsg(friend);
+                    });
+                });
+            });
+        }, 50);
+    },
+
+    openGeneratedChat: function(accType, idx, chatDataStr) {
+        try {
+            const chat = JSON.parse(decodeURIComponent(chatDataStr));
+            const revChatView = document.getElementById('friend-reverse-chat-view');
+            if (revChatView) {
+                if (window.openView) window.openView(revChatView);
+                document.getElementById('reverse-chat-user-name').textContent = chat.contactName || '联系人';
+                
+                const revAvatarImg = document.getElementById('reverse-chat-user-avatar');
+                const revAvatarIcon = document.getElementById('reverse-chat-user-icon');
+                if (revAvatarImg) revAvatarImg.style.display = 'none';
+                if (revAvatarIcon) revAvatarIcon.style.display = 'block';
+                
+                const msgContainer = document.getElementById('reverse-chat-messages');
+                if (msgContainer) {
+                    msgContainer.innerHTML = `<div style="text-align: center; color: #8e8e93; font-size: 12px; margin-bottom: 20px; font-weight: 500;">昨天 14:20</div>`;
+                    const msgs = chat.messages || [];
+                    msgs.forEach(m => {
+                        const div = document.createElement('div');
+                        // 角色(char)是"我"，them是对方
+                        if (m.sender === 'them') {
+                            div.className = 'reverse-bubble-left';
+                            div.style.background = '#fff';
+                            div.style.color = '#111';
+                            div.style.boxShadow = '0 2px 10px rgba(0,0,0,0.03)';
+                        } else {
+                            div.className = 'reverse-bubble-right';
+                            div.style.background = '#111';
+                            div.style.color = '#fff';
+                            div.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
+                        }
+                        div.textContent = m.text || '[特殊消息]';
+                        msgContainer.appendChild(div);
+                    });
+                    setTimeout(() => msgContainer.scrollTop = msgContainer.scrollHeight, 50);
+                }
+            }
+        } catch(e) {
+            console.error('Parse chat error', e);
+        }
+    },
+
+    close: function() {
+        if (this.view) {
+            window.closeView(this.view);
+            const detailArea = document.getElementById('loves-detail-area');
+            if (detailArea) detailArea.style.display = 'none';
+        }
+    }
+};
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    // 延迟初始化以确保 DOM 完全加载
+    setTimeout(() => {
+        if (window.lovesApp) {
+            window.lovesApp.init();
+        }
+    }, 100);
+});

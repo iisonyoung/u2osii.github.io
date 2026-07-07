@@ -1,1 +1,244 @@
-function _0xa613(_0x407ceb,_0x905d7d){_0x407ceb=_0x407ceb-0x64;const _0x59b4ae=_0x59b4();let _0xa61394=_0x59b4ae[_0x407ceb];return _0xa61394;}function _0x59b4(){const _0x22a68a=['u2-login-submit','5397TSVTUk','164270TZjfdO','1398TtoWiV','is-invalid','click','readyState','6xLHOZU','Show\x20password','focus','10CDbkPl','function','false','aria-hidden','aria-pressed','4179934ZhViod','accountInput','showToast','u2-login-password','u2-login-error','u2-login-locked','u2-login-password-toggle','submit','remove','is-hidden','object','Account\x20and\x20password\x20are\x20required.','setItem','fa-eye-slash','passwordInput','9aIBOoq','[u2Auth]\x20Failed\x20to\x20remove\x20session:','add','stringify','108785coGvWG','1947208shjuDp','getElementById','loading','3261444KAaKKA','dispatchEvent','addEventListener','forEach','localStorage','accountField','u2Auth','split','u2-login-authenticated','text','Enter\x20account\x20and\x20password\x20/\x20请输入账号和密码','u2-login-account','classList','removeItem','preventDefault','value','account','warn','setAttribute','passwordField','u2-login-screen','toggle','aria-label','form','input','318617ofjLHl','true','4oZXCHA','[u2Auth]\x20Failed\x20to\x20save\x20session:','[u2Auth]\x20Failed\x20to\x20load\x20session:','now','trim','passwordToggle','u2-login-account-field','Unable\x20to\x20sign\x20in.','body','u2-login-form','screen','error','u2_mockAuthSession','type','DOMContentLoaded','password'];_0x59b4=function(){return _0x22a68a;};return _0x59b4();}(function(_0x29d26f,_0x38c7e3){const _0x383b20=_0xa613,_0x2d0c4d=_0x29d26f();while(!![]){try{const _0x2c05a7=-parseInt(_0x383b20(0xa5))/0x1+-parseInt(_0x383b20(0x68))/0x2*(parseInt(_0x383b20(0x6d))/0x3)+-parseInt(_0x383b20(0xa7))/0x4*(parseInt(_0x383b20(0x88))/0x5)+-parseInt(_0x383b20(0x69))/0x6*(parseInt(_0x383b20(0x67))/0x7)+parseInt(_0x383b20(0x89))/0x8*(parseInt(_0x383b20(0x84))/0x9)+-parseInt(_0x383b20(0x70))/0xa*(-parseInt(_0x383b20(0x75))/0xb)+parseInt(_0x383b20(0x8c))/0xc;if(_0x2c05a7===_0x38c7e3)break;else _0x2d0c4d['push'](_0x2d0c4d['shift']());}catch(_0x185090){_0x2d0c4d['push'](_0x2d0c4d['shift']());}}}(_0x59b4,0x337cf),(function(){const _0x18dcfa=_0xa613,_0x50d80c=_0x18dcfa(0xb3);let _0x2c5124=null;function _0x2b65d4(_0x1f23e1){const _0x2384b5=_0x18dcfa;if(!_0x1f23e1||typeof _0x1f23e1!==_0x2384b5(0x7f))return _0x1f23e1;if(typeof structuredClone===_0x2384b5(0x71))return structuredClone(_0x1f23e1);return JSON['parse'](JSON['stringify'](_0x1f23e1));}function _0x3239b3(){const _0x599281=_0x18dcfa;try{const _0x15e4a9=window[_0x599281(0x90)]?window[_0x599281(0x90)]['getItem'](_0x50d80c):null;if(!_0x15e4a9)return null;const _0x37b6a1=JSON['parse'](_0x15e4a9);if(!_0x37b6a1||typeof _0x37b6a1!=='object'||!_0x37b6a1['account'])return null;return _0x37b6a1;}catch(_0x32c0cf){return console['warn'](_0x599281(0xa9),_0x32c0cf),null;}}function _0x5df5ac(_0x490477){const _0x329ee9=_0x18dcfa;try{window[_0x329ee9(0x90)]&&window[_0x329ee9(0x90)][_0x329ee9(0x81)](_0x50d80c,JSON[_0x329ee9(0x87)](_0x490477));}catch(_0x7dc681){console[_0x329ee9(0x9d)](_0x329ee9(0xa8),_0x7dc681);}}function _0x2b0fee(){const _0x235540=_0x18dcfa;try{if(window[_0x235540(0x90)])window[_0x235540(0x90)][_0x235540(0x99)](_0x50d80c);}catch(_0x171369){console[_0x235540(0x9d)](_0x235540(0x85),_0x171369);}}function _0x1957a2(_0x2bea34){const _0xd5e948=_0x18dcfa,_0x10ea1b=String(_0x2bea34||'')[_0xd5e948(0xab)]();if(!_0x10ea1b)return'';const _0x12501f=_0x10ea1b[_0xd5e948(0x93)]('@')[0x0];return _0x12501f||_0x10ea1b;}function _0x34bdfa(_0x35e327){const _0x3c39b8=_0x18dcfa;window[_0x3c39b8(0x8d)](new CustomEvent('u2:auth-changed',{'detail':{'session':_0x35e327?_0x2b65d4(_0x35e327):null,'isLoggedIn':!!_0x35e327}}));}function _0x4fabec(_0x23b4bf){const _0x2cd4d1=_0x18dcfa;document[_0x2cd4d1(0xaf)]&&(document[_0x2cd4d1(0xaf)][_0x2cd4d1(0x98)][_0x2cd4d1(0xa1)](_0x2cd4d1(0x7a),!!_0x23b4bf),document[_0x2cd4d1(0xaf)][_0x2cd4d1(0x98)][_0x2cd4d1(0xa1)](_0x2cd4d1(0x94),!_0x23b4bf));}function _0x4fa212(_0x225caf={}){const _0x161fbb=_0x18dcfa,_0x3eeeec=_0x2c5124||_0x2af74f();if(!_0x3eeeec[_0x161fbb(0xb1)])return;_0x3eeeec[_0x161fbb(0xb1)][_0x161fbb(0x98)]['remove']('is-hidden'),_0x3eeeec[_0x161fbb(0xb1)][_0x161fbb(0x9e)](_0x161fbb(0x73),'false'),_0x4fabec(!![]),_0x225caf[_0x161fbb(0x6f)]&&_0x3eeeec[_0x161fbb(0x76)]&&setTimeout(()=>_0x3eeeec['accountInput'][_0x161fbb(0x6f)](),0x50);}function _0x2aab86(){const _0x5b5e95=_0x18dcfa,_0x25070b=_0x2c5124||_0x2af74f();if(!_0x25070b[_0x5b5e95(0xb1)])return;_0x25070b[_0x5b5e95(0xb1)][_0x5b5e95(0x98)][_0x5b5e95(0x86)](_0x5b5e95(0x7e)),_0x25070b[_0x5b5e95(0xb1)][_0x5b5e95(0x9e)]('aria-hidden',_0x5b5e95(0xa6)),_0x4fabec(![]);}function _0x6c4093(){return _0x3239b3();}function _0x4b07cc(){return!!_0x6c4093();}function _0x196913(_0x15371c={}){const _0x24be8e=_0x18dcfa,_0x541b0d=String(_0x15371c[_0x24be8e(0x9c)]||'')[_0x24be8e(0xab)](),_0x530bc0=String(_0x15371c[_0x24be8e(0x65)]||'');if(!_0x541b0d||!_0x530bc0)return{'ok':![],'error':_0x24be8e(0x80)};const _0x5f3dff={'account':_0x541b0d,'displayName':_0x1957a2(_0x541b0d),'loginAt':Date[_0x24be8e(0xaa)]()};return _0x5df5ac(_0x5f3dff),_0x2aab86(),_0x34bdfa(_0x5f3dff),{'ok':!![],'session':_0x2b65d4(_0x5f3dff)};}function _0x21146b(){return _0x2b0fee(),_0x4fa212({'focus':!![]}),_0x34bdfa(null),!![];}function _0x2af74f(){const _0x2b2b31=_0x18dcfa;return _0x2c5124={'screen':document[_0x2b2b31(0x8a)](_0x2b2b31(0xa0)),'form':document[_0x2b2b31(0x8a)](_0x2b2b31(0xb0)),'accountField':document[_0x2b2b31(0x8a)](_0x2b2b31(0xad)),'passwordField':document[_0x2b2b31(0x8a)]('u2-login-password-field'),'accountInput':document[_0x2b2b31(0x8a)](_0x2b2b31(0x97)),'passwordInput':document[_0x2b2b31(0x8a)](_0x2b2b31(0x78)),'passwordToggle':document[_0x2b2b31(0x8a)](_0x2b2b31(0x7b)),'submitButton':document['getElementById'](_0x2b2b31(0x66)),'error':document[_0x2b2b31(0x8a)](_0x2b2b31(0x79))},_0x2c5124;}function _0x453707(_0x359a64){const _0x164ff5=_0x18dcfa,_0x11c65b=_0x2c5124||_0x2af74f();if(_0x11c65b[_0x164ff5(0xb2)])_0x11c65b[_0x164ff5(0xb2)]['textContent']=_0x359a64||'';}function _0x127fdb(){const _0x57b75d=_0x18dcfa,_0x281d09=_0x2c5124||_0x2af74f();_0x281d09[_0x57b75d(0x91)]?.['classList'][_0x57b75d(0x7d)](_0x57b75d(0x6a)),_0x281d09[_0x57b75d(0x9f)]?.[_0x57b75d(0x98)][_0x57b75d(0x7d)](_0x57b75d(0x6a)),_0x453707('');}function _0x1aa858(_0x1b1271,_0x59372d){const _0x3f6d12=_0x18dcfa,_0x5b6d60=_0x2c5124||_0x2af74f();_0x5b6d60[_0x3f6d12(0x91)]?.['classList'][_0x3f6d12(0xa1)]('is-invalid',!!_0x1b1271),_0x5b6d60[_0x3f6d12(0x9f)]?.[_0x3f6d12(0x98)][_0x3f6d12(0xa1)](_0x3f6d12(0x6a),!!_0x59372d);}function _0xff56ee(_0x39853a){const _0x5c3295=_0x18dcfa;_0x39853a[_0x5c3295(0x9a)]();const _0x277ef5=_0x2c5124||_0x2af74f(),_0x57cad7=_0x277ef5[_0x5c3295(0x76)]?_0x277ef5[_0x5c3295(0x76)][_0x5c3295(0x9b)][_0x5c3295(0xab)]():'',_0x3667f5=_0x277ef5[_0x5c3295(0x83)]?_0x277ef5[_0x5c3295(0x83)][_0x5c3295(0x9b)]:'',_0x5b5e1b=!_0x57cad7,_0x5edbb5=!_0x3667f5;if(_0x5b5e1b||_0x5edbb5){_0x1aa858(_0x5b5e1b,_0x5edbb5),_0x453707(_0x5c3295(0x96));if(_0x5b5e1b&&_0x277ef5[_0x5c3295(0x76)])_0x277ef5['accountInput'][_0x5c3295(0x6f)]();else{if(_0x5edbb5&&_0x277ef5['passwordInput'])_0x277ef5[_0x5c3295(0x83)][_0x5c3295(0x6f)]();}return;}_0x127fdb();const _0x33169c=_0x196913({'account':_0x57cad7,'password':_0x3667f5});if(!_0x33169c['ok']){_0x453707(_0x33169c[_0x5c3295(0xb2)]||_0x5c3295(0xae));return;}if(_0x277ef5[_0x5c3295(0x83)])_0x277ef5[_0x5c3295(0x83)]['value']='';typeof window[_0x5c3295(0x77)]===_0x5c3295(0x71)&&window[_0x5c3295(0x77)]('Signed\x20in');}function _0x50f17a(){const _0x714b8d=_0x18dcfa,_0x5b6f9d=_0x2c5124||_0x2af74f();if(!_0x5b6f9d['passwordToggle']||!_0x5b6f9d['passwordInput'])return;_0x5b6f9d[_0x714b8d(0xac)]['addEventListener'](_0x714b8d(0x6b),()=>{const _0x5230e7=_0x714b8d,_0x21ce61=_0x5b6f9d['passwordInput'][_0x5230e7(0xb4)]===_0x5230e7(0x65);_0x5b6f9d[_0x5230e7(0x83)]['type']=_0x21ce61?_0x5230e7(0x95):_0x5230e7(0x65),_0x5b6f9d[_0x5230e7(0xac)][_0x5230e7(0x9e)](_0x5230e7(0x74),_0x21ce61?_0x5230e7(0xa6):_0x5230e7(0x72)),_0x5b6f9d[_0x5230e7(0xac)][_0x5230e7(0x9e)](_0x5230e7(0xa2),_0x21ce61?'Hide\x20password':_0x5230e7(0x6e));const _0xcf22ed=_0x5b6f9d[_0x5230e7(0xac)]['querySelector']('i');_0xcf22ed&&(_0xcf22ed[_0x5230e7(0x98)][_0x5230e7(0xa1)]('fa-eye',!_0x21ce61),_0xcf22ed[_0x5230e7(0x98)][_0x5230e7(0xa1)](_0x5230e7(0x82),_0x21ce61));});}function _0x332ee5(){const _0x273591=_0x18dcfa,_0x2e4810=_0x2c5124||_0x2af74f();[_0x2e4810[_0x273591(0x76)],_0x2e4810[_0x273591(0x83)]][_0x273591(0x8f)](_0x4a1171=>{const _0x5b0afc=_0x273591;if(!_0x4a1171)return;_0x4a1171[_0x5b0afc(0x8e)](_0x5b0afc(0xa4),()=>{_0x127fdb();});});}function _0x2b1065(){const _0x922fdf=_0x18dcfa,_0x53507f=_0x2af74f();if(!_0x53507f['screen']||!_0x53507f[_0x922fdf(0xa3)])return;_0x53507f['form'][_0x922fdf(0x8e)](_0x922fdf(0x7c),_0xff56ee),_0x50f17a(),_0x332ee5();const _0x563da8=_0x6c4093();if(_0x563da8){_0x2aab86(),_0x34bdfa(_0x563da8);return;}_0x4fa212(),_0x34bdfa(null);}window[_0x18dcfa(0x92)]={'login':_0x196913,'logout':_0x21146b,'getSession':_0x6c4093,'isLoggedIn':_0x4b07cc,'showLoginScreen':_0x4fa212,'hideLoginScreen':_0x2aab86},document[_0x18dcfa(0x6c)]===_0x18dcfa(0x8b)?document[_0x18dcfa(0x8e)](_0x18dcfa(0x64),_0x2b1065,{'once':!![]}):_0x2b1065();}()));
+(function() {
+    const SESSION_KEY = 'u2_mockAuthSession';
+    let cachedDom = null;
+
+    function clonePlainData(value) {
+        if (!value || typeof value !== 'object') return value;
+        if (typeof structuredClone === 'function') return structuredClone(value);
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    function safeLoadSession() {
+        try {
+            const raw = window.localStorage ? window.localStorage.getItem(SESSION_KEY) : null;
+            if (!raw) return null;
+            const parsed = JSON.parse(raw);
+            if (!parsed || typeof parsed !== 'object' || !parsed.account) return null;
+            return parsed;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to load session:', error);
+            return null;
+        }
+    }
+
+    function safeSaveSession(session) {
+        try {
+            if (window.localStorage) {
+                window.localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+            }
+        } catch (error) {
+            console.warn('[u2Auth] Failed to save session:', error);
+        }
+    }
+
+    function safeRemoveSession() {
+        try {
+            if (window.localStorage) window.localStorage.removeItem(SESSION_KEY);
+        } catch (error) {
+            console.warn('[u2Auth] Failed to remove session:', error);
+        }
+    }
+
+    function resolveDisplayName(account) {
+        const safeAccount = String(account || '').trim();
+        if (!safeAccount) return '';
+        const emailName = safeAccount.split('@')[0];
+        return emailName || safeAccount;
+    }
+
+    function emitAuthChanged(session) {
+        window.dispatchEvent(new CustomEvent('u2:auth-changed', {
+            detail: {
+                session: session ? clonePlainData(session) : null,
+                isLoggedIn: !!session
+            }
+        }));
+    }
+
+    function setLoginLocked(locked) {
+        if (document.body) {
+            document.body.classList.toggle('u2-login-locked', !!locked);
+            document.body.classList.toggle('u2-login-authenticated', !locked);
+        }
+    }
+
+    function showLoginScreen(options = {}) {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        dom.screen.classList.remove('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'false');
+        setLoginLocked(true);
+        if (options.focus && dom.accountInput) {
+            setTimeout(() => dom.accountInput.focus(), 80);
+        }
+    }
+
+    function hideLoginScreen() {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        dom.screen.classList.add('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'true');
+        setLoginLocked(false);
+    }
+
+    function getSession() {
+        return safeLoadSession();
+    }
+
+    function isLoggedIn() {
+        return !!getSession();
+    }
+
+    function login(credentials = {}) {
+        const account = String(credentials.account || '').trim();
+        const password = String(credentials.password || '');
+        if (!account || !password) {
+            return {
+                ok: false,
+                error: 'Account and password are required.'
+            };
+        }
+
+        const session = {
+            account,
+            displayName: resolveDisplayName(account),
+            loginAt: Date.now()
+        };
+        safeSaveSession(session);
+        hideLoginScreen();
+        emitAuthChanged(session);
+        return {
+            ok: true,
+            session: clonePlainData(session)
+        };
+    }
+
+    function logout() {
+        safeRemoveSession();
+        showLoginScreen({ focus: true });
+        emitAuthChanged(null);
+        return true;
+    }
+
+    function collectDom() {
+        cachedDom = {
+            screen: document.getElementById('u2-login-screen'),
+            form: document.getElementById('u2-login-form'),
+            accountField: document.getElementById('u2-login-account-field'),
+            passwordField: document.getElementById('u2-login-password-field'),
+            accountInput: document.getElementById('u2-login-account'),
+            passwordInput: document.getElementById('u2-login-password'),
+            passwordToggle: document.getElementById('u2-login-password-toggle'),
+            submitButton: document.getElementById('u2-login-submit'),
+            error: document.getElementById('u2-login-error')
+        };
+        return cachedDom;
+    }
+
+    function setError(message) {
+        const dom = cachedDom || collectDom();
+        if (dom.error) dom.error.textContent = message || '';
+    }
+
+    function clearInvalidState() {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.remove('is-invalid');
+        dom.passwordField?.classList.remove('is-invalid');
+        setError('');
+    }
+
+    function markInvalid(accountMissing, passwordMissing) {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.toggle('is-invalid', !!accountMissing);
+        dom.passwordField?.classList.toggle('is-invalid', !!passwordMissing);
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+        const dom = cachedDom || collectDom();
+        const account = dom.accountInput ? dom.accountInput.value.trim() : '';
+        const password = dom.passwordInput ? dom.passwordInput.value : '';
+        const accountMissing = !account;
+        const passwordMissing = !password;
+
+        if (accountMissing || passwordMissing) {
+            markInvalid(accountMissing, passwordMissing);
+            setError('Enter account and password / 请输入账号和密码');
+            if (accountMissing && dom.accountInput) dom.accountInput.focus();
+            else if (passwordMissing && dom.passwordInput) dom.passwordInput.focus();
+            return;
+        }
+
+        clearInvalidState();
+        const result = login({ account, password });
+        if (!result.ok) {
+            setError(result.error || 'Unable to sign in.');
+            return;
+        }
+
+        if (dom.passwordInput) dom.passwordInput.value = '';
+        if (typeof window.showToast === 'function') {
+            window.showToast('Signed in');
+        }
+    }
+
+    function bindPasswordToggle() {
+        const dom = cachedDom || collectDom();
+        if (!dom.passwordToggle || !dom.passwordInput) return;
+        dom.passwordToggle.addEventListener('click', () => {
+            const shouldShow = dom.passwordInput.type === 'password';
+            dom.passwordInput.type = shouldShow ? 'text' : 'password';
+            dom.passwordToggle.setAttribute('aria-pressed', shouldShow ? 'true' : 'false');
+            dom.passwordToggle.setAttribute('aria-label', shouldShow ? 'Hide password' : 'Show password');
+            const icon = dom.passwordToggle.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-eye', !shouldShow);
+                icon.classList.toggle('fa-eye-slash', shouldShow);
+            }
+        });
+    }
+
+    function bindInputReset() {
+        const dom = cachedDom || collectDom();
+        [dom.accountInput, dom.passwordInput].forEach((input) => {
+            if (!input) return;
+            input.addEventListener('input', () => {
+                clearInvalidState();
+            });
+        });
+    }
+
+    function initLoginScreen() {
+        const dom = collectDom();
+        if (!dom.screen || !dom.form) return;
+
+        dom.form.addEventListener('submit', handleSubmit);
+        bindPasswordToggle();
+        bindInputReset();
+
+        const session = getSession();
+        if (session) {
+            hideLoginScreen();
+            emitAuthChanged(session);
+            return;
+        }
+
+        showLoginScreen();
+        emitAuthChanged(null);
+    }
+
+    window.u2Auth = {
+        login,
+        logout,
+        getSession,
+        isLoggedIn,
+        showLoginScreen,
+        hideLoginScreen
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initLoginScreen, { once: true });
+    } else {
+        initLoginScreen();
+    }
+})();

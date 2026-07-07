@@ -1,1 +1,1513 @@
-function _0x44a7(){const _0x80f05a=['width','#34c759','transformOrigin','msg-context-menu','error','keyboard-open','.ins-chat-messages','disabled','isPinned','309bSFRSX','无法调用\x20AI\x20接口','keyCode','openAttachmentSheet','.chat-profile-panel-overlay','u2ThemeState','.chat-link-card,\x20.chat-fake-link-card','776015wQsHPu','includes','handleSend','clientWidth','status','7414127KOucoz','scrollTo','syncGroupExitState','some','.im-left-group-bar','abs','contains','top\x20right','showContextMenu','.im-together-listening-player','function','style','visualViewport','now','custom-call-overlay','touchmove','fas\x20fa-check-circle','.group-header-right-avatar','padding','.reply-preview-container','innerText','charAt','title','ensureRedPacketDetailOverlayForExistingPage','addEventListener','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-avatar-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-avatar\x22><img\x20src=\x22','commitScopedFriendChange','border-box','rgba(0,0,0,0.4)','16px','.ins-chat-input-wrapper','translate(-50%,\x20-50%)\x20scale(0.85)','center','click','data-thought','target','.chat-batch-action-bar','_togetherListeningEventBound','block','getBoundingClientRect','</div>','.batch-delete-btn','全体成员','sys-','DOMContentLoaded','pinned-chat','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-batch-action-bar\x22\x20style=\x22display:none;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20padding:\x2015px\x2040px;\x20padding-bottom:\x2015px;\x20background:\x20rgba(242,\x20242,\x20247,\x200.95);\x20\x20\x20border-top:\x201px\x20solid\x20rgba(0,0,0,0.1);\x20position:\x20absolute;\x20bottom:\x200;\x20left:\x200;\x20width:\x20100%;\x20z-index:\x20100;\x20box-sizing:\x20border-box;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-share\x20batch-forward-btn\x22\x20style=\x22font-size:\x2022px;\x20color:\x20#8e8e93;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-star\x20batch-star-btn\x22\x20style=\x22font-size:\x2022px;\x20color:\x20#8e8e93;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-trash-alt\x20batch-delete-btn\x22\x20style=\x22font-size:\x2022px;\x20color:\x20#ff3b30;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#393939','fontSize','928870jTpToq','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','.ins-chat-avatar','toLowerCase','<div\x20class=\x22chat-menu-btn\x20im-chat-icon-btn\x22><i\x20class=\x22fas\x20fa-bars\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-cancel-batch-btn\x20im-chat-cancel-batch-btn\x22\x20style=\x22display:none;\x22>取消</div>','outside','<div\x20class=\x22chat-back-btn\x22\x20style=\x22cursor:\x20pointer;\x20width:\x2036px;\x20height:\x2036px;\x20background:\x20rgba(242,\x20242,\x20247,\x200.85);\x20\x20\x20border-radius:\x2050%;\x20\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20pointer-events:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-left\x22\x20style=\x22pointer-events:\x20none;\x20margin-right:\x202px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','msg-context-actions','data-message-id','backgroundColor','请选择要删除的消息','alt','Enter','inset','timestamp','视频通话','.chat-back-btn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-sign\x22><div\x20class=\x22im-chat-status-dot\x22></div><span>','group','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-sticky-container\x20','clientY','clearFriendUnread','9999','chat-interface-','14px','chat-profile-panel-overlay','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-chat-title-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-name\x22>','\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-status-bubble\x22\x20contenteditable=\x22','batchSelectMode','isRecallableUserMessage','.chat-checkbox-wrapper\x20i.fa-check-circle','imData','progress','right','closest','touches','<i\x20class=\x22fas\x20fa-user\x22></i>','openChatTab','leftGroupMemberSnapshot','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22active-chat-right-avatar-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','value','none','.gmp-status-bubble','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','currentReplyText','div','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-name-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-name\x22>','[data-together-listening-control=\x22toggle\x22]','focus','messages','<i\x20class=\x22fas\x20','min','group_rejoined','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.group-member-profile-card','commitFriendChange','cloneNode','forEach','openVoiceCall','flex-start','4339268KNzpnM','.mic-btn','max','margin','textAlign','members','\x20条消息吗？','touchstart','currentActiveRow','getElementById','#c7c7cc','push','active','refocus','overflow','applyFriendBg','applyGlobalChatCss','[data-together-listening-control]','position','querySelectorAll','getAttribute','<div\x20class=\x22im-chat-avatar-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-avatar\x22\x20style=\x22pointer-events:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','opacity\x200.3s\x20ease','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','maxWidth','9136ODgfYt','currentActiveFriend','stopPropagation','realName','app','user-row','<div\x20class=\x22chat-back-btn\x20im-chat-back-btn\x22><i\x20class=\x22fas\x20fa-chevron-left\x22\x20style=\x22pointer-events:\x20none;\x22></i></div>','resize','20px','innerWidth','.chat-cancel-batch-btn','ensureTransferDetailOverlayForExistingPage','color','nickname','状态保存失败','nav-chats-btn','.im-together-listening-art','0\x200\x20auto','.im-together-listening-title','.ins-chat-header','openGroupDetails','<i\x20class=\x22fas\x20fa-music\x22></i>','#007aff','msg-context-more-actions','scrollTop','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-top-bar\x20im-chat-top-bar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-chat-header-left\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','isAll','6FMEFzE','add','substring','test','online','.chat-checkbox-wrapper\x20i','max(10px,\x20env(safe-area-inset-bottom))','fixed','\x22></i>','transparent','filter','clientHeight','coverUrl','showToast','openChatSettingsForFriend','updateChatsView','pointer','getTogetherListeningSnapshot','.im-together-listening-main','thought','timestamp-outside','未知歌手','closeContextMenu','276RVUWqf','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-sign\x22\x20style=\x22font-size:\x2011px;\x20font-weight:\x20500;\x20color:\x20#8e8e93;\x20margin-top:\x200;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x204px;\x22>','setSelectionRange','1740475SkoFOt','memberId','flex','length','imChat','renderTogetherListeningPlayer','bottom','.chat-bubble','<div\x20class=\x22group-header-right-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-header-right-avatar-inner\x22>','removeFriendMessages','scale(0.85)','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22at-mention-name\x22>','im-chat-npc','all','opacity','toggleProfilePanel','shiftKey','type','initTimestampSetting','<div\x20class=\x22ins-input-icon\x20plus-btn\x22><i\x20class=\x22fas\x20fa-plus\x22></i></div>','#8e8e93','left_group_continue','.im-left-group-ai-btn','alignItems','11116968smgfvA','groupTitle','.sticker-message-wrap','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-left-group-bar\x22\x20style=\x22display:none;\x20align-items:center;\x20justify-content:space-between;\x20gap:10px;\x20margin:0\x2010px;\x20padding:8px\x2010px;\x20border-radius:22px;\x20background:#f2f2f7;\x20border:1px\x20solid\x20#e5e5ea;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20color:#8e8e93;\x20font-weight:600;\x20white-space:nowrap;\x22>已退出该群</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:8px;\x20min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-left-group-rejoin-btn\x22\x20style=\x22border:0;\x20border-radius:18px;\x20background:#007aff;\x20color:#fff;\x20height:34px;\x20padding:0\x2012px;\x20font-size:14px;\x20font-weight:700;\x20cursor:pointer;\x20white-space:nowrap;\x22>重新进入</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-left-group-ai-btn\x22\x20style=\x22border:0;\x20border-radius:18px;\x20background:#1c1c1e;\x20color:#fff;\x20height:34px;\x20padding:0\x2012px;\x20font-size:14px;\x20font-weight:700;\x20cursor:pointer;\x20white-space:nowrap;\x22>AI继续</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','documentElement','@全体成员\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22at-mention-avatar\x22>','50%','applyFriendStatusBarCss','friends','--im-chat-status-color','blur','isArray','altKey','删除消息','char','cursor','确定要删除选中的\x20','showCustomModal','offsetHeight','log','top','.ai-row','msg-context-bubble-clone','aria-label','rerenderChatContainer','ctrlKey','insertBefore','far\x20fa-circle','3OcJcUC','toUpperCase','className','group-member-profile-card','<div\x20class=\x22chat-call-btn\x20im-chat-icon-btn\x22><i\x20class=\x22fas\x20fa-phone-alt\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-menu-btn\x20im-chat-icon-btn\x22><i\x20class=\x22fas\x20fa-bars\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-cancel-batch-btn\x20im-chat-cancel-batch-btn\x22\x20style=\x22display:none;\x22>取消</div>','borderRadius','normalizeGroupSpeaker','.sheet-overlay','activeElement','npc','libraryApp','chat-attachment-sheet','position:\x20relative;\x20top:\x200;\x20padding:\x200\x2016px;\x20align-items:\x20center;','openView','imApp','remove','leftGroupAt','at-mention-list','auto','selectionStart','scale(1)','.sheet-content','fa-circle','true','justifyContent','createElement','togetherListeningControl','36ZVaPDJ','closeView','is-group','keydown','_androidViewportListenersBound','isCharacterSleeping','100%','.send-btn','.bottom-sheet','firstElementChild','round','trim','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-header\x20im-chat-header-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.chat-checkbox-wrapper','refreshGroupHeaderAvatar','classList','<div\x20class=\x22im-chat-group-title-wrap\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20justify-content:\x20center;\x20min-width:\x200;\x20padding:\x204px\x2016px;\x20background:\x20rgba(242,\x20242,\x20247,\x200.85);\x20\x20\x20border-radius:\x2040px;\x20\x20pointer-events:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-name\x22\x20style=\x22font-size:\x2014px;\x20font-weight:\x20700;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20max-width:\x20150px;\x22>','.chat-link-card,\x20.chat-fake-link-card,\x20.pay-transfer-card,\x20.voice-call-record-card','1px\x20solid\x20#e5e5ea','Mic\x20button\x20clicked!','src','你重新进入群聊','boxSizing','msg-context-card-clone','getFriendById','setAttribute','official-chat-settings-sheet','.im-left-group-rejoin-btn','群成员','global-gmp-overlay','handleAiReply','hideProfilePanel','.at-mention-list','avatarUrl','isComposing','appendChild','querySelector','hidden','preventDefault','.group-ai-avatar-slot','transform','map','system','im-card-bubble','left','zIndex','onclick','im-chat-group','[data-action=\x22recall\x22]','showTimestamp','.chat-input','signature','official','img','\x22\x20alt=\x22\x22>','find','scrollToBottom','flex-end','vibrate','chats-content','.im-together-listening-artist','语音通话准备中...','display','height','touchend','active-chat-interface\x20im-chat-interface\x20','memberProfiles','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-messages\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-input-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-together-listening-player\x22\x20hidden>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22im-together-listening-main\x22\x20type=\x22button\x22\x20aria-label=\x22打开正在播放\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22im-together-listening-art\x22><i\x20class=\x22fas\x20fa-music\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22im-together-listening-copy\x22><strong\x20class=\x22im-together-listening-title\x22>未知歌曲</strong><small\x20class=\x22im-together-listening-artist\x22>未知歌手</small></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22im-together-listening-control\x22\x20type=\x22button\x22\x20data-together-listening-control=\x22toggle\x22\x20aria-label=\x22播放\x22><i\x20class=\x22fas\x20fa-play\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22im-together-listening-control\x22\x20type=\x22button\x22\x20data-together-listening-control=\x22next\x22\x20aria-label=\x22下一首\x22><i\x20class=\x22fas\x20fa-forward-step\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22im-together-listening-progress\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22reply-preview-container\x22\x20style=\x22display:none;\x20padding:\x2010px\x2014px;\x20background:\x20#f2f2f7;\x20border-radius:\x2018px;\x20margin-bottom:\x2010px;\x20font-size:\x2013px;\x20color:\x20#8e8e93;\x20position:\x20relative;\x20margin-left:\x2010px;\x20margin-right:\x2010px;\x20max-width:\x20fit-content;\x20border:\x201px\x20solid\x20#e5e5ea;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22reply-preview-text\x22\x20style=\x22white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x20padding-right:\x2024px;\x20color:\x20#333;\x20max-width:\x20250px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22reply-cancel-btn\x22\x20style=\x22position:\x20absolute;\x20right:\x2010px;\x20top:\x2050%;\x20transform:\x20translateY(-50%);\x20width:\x2020px;\x20height:\x2020px;\x20border-radius:\x2050%;\x20background:\x20#ccc;\x20color:\x20#fff;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20cursor:\x20pointer;\x20font-size:\x2010px;\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-input-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<img\x20class=\x22im-group-header-avatar-img\x22\x20src=\x22','showGroupMemberProfileCard','getGroupMemberFriends','renderChatHistory','controlTogetherListening','at-mention-item','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.active-chat-interface[style*=\x22display:\x20flex\x22]','textContent','scrollHeight','innerHTML','message-active','input','dataset','key','innerHeight','.reply-cancel-btn','<div\x20class=\x22im-chat-avatar-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','offline','body','pointerdown','setProperty','.plus-btn','18px\x200','default','mousedown','已重新进入群聊','data-timestamp','window.imChat.handleAiReply\x20is\x20not\x20defined','isPlaying','视频通话功能开发中...','toggle','object','https://picsum.photos/seed/char/100/100','.active-chat-interface'];_0x44a7=function(){return _0x80f05a;};return _0x44a7();}function _0x5981(_0xa0458f,_0x5ee1c3){_0xa0458f=_0xa0458f-0x76;const _0x44a75b=_0x44a7();let _0x5981fa=_0x44a75b[_0xa0458f];return _0x5981fa;}const _0x55685d=_0x5981;(function(_0x581bad,_0x4490b3){const _0x33c5cc=_0x5981,_0x3889a5=_0x581bad();while(!![]){try{const _0x34837f=parseInt(_0x33c5cc(0x198))/0x1*(parseInt(_0x33c5cc(0xa2))/0x2)+-parseInt(_0x33c5cc(0x10c))/0x3*(-parseInt(_0x33c5cc(0x89))/0x4)+parseInt(_0x33c5cc(0x19f))/0x5*(-parseInt(_0x33c5cc(0xbd))/0x6)+parseInt(_0x33c5cc(0x1a4))/0x7+parseInt(_0x33c5cc(0xef))/0x8+parseInt(_0x33c5cc(0x127))/0x9*(-parseInt(_0x33c5cc(0x1d5))/0xa)+-parseInt(_0x33c5cc(0xd7))/0xb*(parseInt(_0x33c5cc(0xd4))/0xc);if(_0x34837f===_0x4490b3)break;else _0x3889a5['push'](_0x3889a5['shift']());}catch(_0x882c71){_0x3889a5['push'](_0x3889a5['shift']());}}}(_0x44a7,0xbe3b1),document[_0x55685d(0x1bc)](_0x55685d(0x1d0),()=>{const _0xb01087=_0x55685d,{apiConfig:_0x32f92d,userState:_0x5c8ebd}=window;window[_0xb01087(0xdb)]=window[_0xb01087(0xdb)]||{};const _0x1ff119=window[_0xb01087(0xdb)],_0x2e6988=/Android/i[_0xb01087(0xc0)](navigator['userAgent']||'');let _0x26e907=[],_0x148e25=0x0,_0x93b2d7=0x0,_0x39c033=![];function _0x58a85d(_0x464212,_0xb7360b=![]){const _0x5ca540=_0xb01087;if(_0xb7360b)return _0x5ca540(0x17e);const _0x4c770d=String(_0x464212||_0x5ca540(0xc1))[_0x5ca540(0x132)](),_0x40cf17=_0x4c770d['toLowerCase']();if(_0x40cf17===_0x5ca540(0x17e)||_0x4c770d==='离线')return _0x5ca540(0x17e);if(_0x40cf17==='online'||_0x4c770d==='在线')return _0x5ca540(0xc1);return _0x4c770d||_0x5ca540(0xc1);}function _0x2ac860(_0x8c3a57){const _0x163037=_0xb01087,_0x26bb68=String(_0x8c3a57||'')[_0x163037(0x132)](),_0x23bbee=_0x26bb68[_0x163037(0x1d8)]();if(!_0x26bb68||_0x23bbee===_0x163037(0xc1)||_0x26bb68==='在线')return'online';if(_0x23bbee===_0x163037(0x17e)||_0x26bb68==='离线')return _0x163037(0x17e);return _0x26bb68;}function _0x146be4(_0xbbd32b){const _0x5c6b88=Math['max'](0x0,Number(_0xbbd32b)||0x0);return _0x5c6b88+'\x20member'+(_0x5c6b88===0x1?'':'s');}function _0xa2228(_0x2f81e2){const _0x38d625=_0xb01087,_0x1600cf=_0x2f81e2?.[_0x38d625(0x14c)](_0x38d625(0x15a));return!!_0x1600cf&&document['activeElement']===_0x1600cf;}function _0x4cbe2b(){const _0x547910=_0xb01087,_0x29ab9f=window['visualViewport'];return{'height':Math[_0x547910(0x131)](_0x29ab9f?.[_0x547910(0x167)]||window[_0x547910(0x17b)]||0x0),'width':Math['round'](_0x29ab9f?.[_0x547910(0x18f)]||window[_0x547910(0xab)]||0x0)};}function _0x4682a6(){const _0x4114c5=_0xb01087;if(!_0x2e6988)return;const _0x70ef4d=_0x4cbe2b();if(_0x70ef4d['width']>0x0&&Math[_0x4114c5(0x1a9)](_0x70ef4d[_0x4114c5(0x18f)]-_0x93b2d7)>0x30){_0x93b2d7=_0x70ef4d['width'],_0x148e25=_0x70ef4d[_0x4114c5(0x167)],_0x39c033=![];return;}_0x93b2d7=_0x70ef4d[_0x4114c5(0x18f)]||_0x93b2d7,_0x148e25=Math['max'](_0x148e25,_0x70ef4d['height']);}function _0x3dcdf9(){const _0x292ada=_0xb01087;_0x26e907[_0x292ada(0x86)](_0x190e4a=>clearTimeout(_0x190e4a)),_0x26e907=[];}function _0x19c03c(_0x3ed7c7,_0x7e345){const _0x3c3109=_0xb01087;if(!_0x2e6988||!_0x3ed7c7||_0x3ed7c7[_0x3c3109(0x1af)]['display']===_0x3c3109(0x76))return;_0x3ed7c7['classList'][_0x3c3109(0x11b)](_0x3c3109(0x194)),window[_0x3c3109(0x1a5)](0x0,0x0),document[_0x3c3109(0xf3)][_0x3c3109(0xba)]=0x0,document[_0x3c3109(0x17f)][_0x3c3109(0xba)]=0x0,requestAnimationFrame(()=>{const _0x344f5a=_0x3c3109;if(_0x7e345)_0x7e345['scrollTop']=_0x7e345[_0x344f5a(0x175)];});}function _0x39e3e3(_0x2ba71d,_0x345470){if(!_0x2e6988)return;_0x3dcdf9(),[0x0,0x3c,0xb4,0x168]['forEach'](_0x53ac54=>{const _0x28258c=_0x5981;_0x26e907[_0x28258c(0x94)](setTimeout(()=>{_0x19c03c(_0x2ba71d,_0x345470);},_0x53ac54));});}_0x4682a6();if(_0x2e6988&&window[_0xb01087(0x1b0)]&&!_0x1ff119[_0xb01087(0x12b)]){_0x1ff119[_0xb01087(0x12b)]=!![];const _0x4650b0=()=>{const _0x2364c5=_0xb01087,_0x5d5382=document['querySelector'](_0x2364c5(0x173));if(!_0x5d5382)return;const _0x5083a6=_0x4cbe2b();if(Math[_0x2364c5(0x1a9)](_0x5083a6[_0x2364c5(0x18f)]-_0x93b2d7)>0x30){_0x93b2d7=_0x5083a6[_0x2364c5(0x18f)],_0x148e25=_0x5083a6[_0x2364c5(0x167)],_0x39c033=![];return;}const _0x3d6e2e=_0x5d5382['querySelector']('.ins-chat-messages'),_0x401ce0=_0xa2228(_0x5d5382);!_0x401ce0&&!_0x39c033&&(_0x148e25=Math[_0x2364c5(0x8b)](_0x148e25,_0x5083a6[_0x2364c5(0x167)]));if(_0x148e25-_0x5083a6['height']>0x64){_0x39c033=!![];return;}_0x39c033&&_0x5083a6['height']>=_0x148e25-0x48&&(_0x39c033=![],_0x148e25=Math[_0x2364c5(0x8b)](_0x148e25,_0x5083a6[_0x2364c5(0x167)]),_0x39e3e3(_0x5d5382,_0x3d6e2e));};window[_0xb01087(0x1b0)]['addEventListener'](_0xb01087(0xa9),_0x4650b0,{'passive':!![]}),window[_0xb01087(0x1b0)][_0xb01087(0x1bc)]('scroll',_0x4650b0,{'passive':!![]});}function _0x3a7bbc(){const _0x208ea1=_0xb01087;['group-call-invite-sheet','group-more-sheet'][_0x208ea1(0x86)](_0x2ee596=>{const _0x225479=_0x208ea1,_0x4c5f2e=document[_0x225479(0x92)](_0x2ee596);if(!_0x4c5f2e)return;_0x4c5f2e[_0x225479(0x137)]['remove']('active'),_0x4c5f2e['style']['pointerEvents']='';});}function _0x1cc68f(_0x1b0463){const _0x1fa272=_0xb01087,_0x4fb417=String(typeof _0x1b0463==='object'?_0x1b0463?.['id']??'':_0x1b0463??'');if(!_0x4fb417)return;const _0x31da6b=(window[_0x1fa272(0x1f4)]?.[_0x1fa272(0xf8)]||[])[_0x1fa272(0x15f)](_0x4403bc=>String(_0x4403bc['id'])===_0x4fb417)||(typeof _0x1b0463===_0x1fa272(0x18c)?_0x1b0463:null),_0x564078=document[_0x1fa272(0x92)](_0x1fa272(0x1ec)+_0x4fb417),_0x4e9bf8=_0x564078?.[_0x1fa272(0x14c)](_0x1fa272(0x1ad));if(!_0x4e9bf8)return;const _0x357cce=_0x31da6b?.[_0x1fa272(0xe8)]===_0x1fa272(0xfe)&&window[_0x1fa272(0x116)]?.[_0x1fa272(0xce)]?window[_0x1fa272(0x116)][_0x1fa272(0xce)](_0x4fb417):null;_0x4e9bf8['hidden']=!_0x357cce;if(!_0x357cce)return;const _0x454c50=_0x4e9bf8['querySelector'](_0x1fa272(0xb2)),_0x542960=_0x4e9bf8['querySelector'](_0x1fa272(0xb4)),_0x57cac2=_0x4e9bf8[_0x1fa272(0x14c)](_0x1fa272(0x164)),_0x4aba12=_0x4e9bf8['querySelector'](_0x1fa272(0x7c));if(_0x454c50){_0x454c50[_0x1fa272(0x176)]=_0x357cce['coverUrl']?'':_0x1fa272(0xb7);if(_0x357cce[_0x1fa272(0xc9)]){const _0x5c74a8=document[_0x1fa272(0x125)](_0x1fa272(0x15d));_0x5c74a8[_0x1fa272(0x13c)]=_0x357cce[_0x1fa272(0xc9)],_0x5c74a8[_0x1fa272(0x1e0)]='',_0x5c74a8['referrerPolicy']='no-referrer',_0x454c50[_0x1fa272(0x14b)](_0x5c74a8);}}if(_0x542960)_0x542960[_0x1fa272(0x174)]=_0x357cce[_0x1fa272(0x1ba)]||'未知歌曲';if(_0x57cac2)_0x57cac2[_0x1fa272(0x174)]=_0x357cce['artist']||_0x1fa272(0xd2);_0x4aba12&&(_0x4aba12[_0x1fa272(0x176)]=_0x1fa272(0x7f)+(_0x357cce['isPlaying']?'fa-pause':'fa-play')+_0x1fa272(0xc5),_0x4aba12[_0x1fa272(0x141)](_0x1fa272(0x107),_0x357cce[_0x1fa272(0x189)]?'暂停':'播放')),_0x4e9bf8[_0x1fa272(0x1af)][_0x1fa272(0x181)]('--together-progress',Math[_0x1fa272(0x131)]((_0x357cce[_0x1fa272(0x1f5)]||0x0)*0x2710)/0x64+'%');}_0x1ff119[_0xb01087(0xdc)]=_0x1cc68f;!_0x1ff119[_0xb01087(0x1c9)]&&(_0x1ff119[_0xb01087(0x1c9)]=!![],window[_0xb01087(0x1bc)]('library:together-listening-change',()=>{const _0x1c1b91=_0xb01087;document['querySelectorAll'](_0x1c1b91(0x1ad))[_0x1c1b91(0x86)](_0x489ac6=>{const _0x1a9e6b=_0x1c1b91,_0x1d4d7e=_0x489ac6['closest'](_0x1a9e6b(0x18e)),_0x52cbf8=String(_0x1d4d7e?.['id']||'')['replace'](/^chat-interface-/,'');if(_0x52cbf8)_0x1cc68f(_0x52cbf8);});}));function _0x116653(_0x2d2ef2){const _0xfc0f80=_0xb01087;return String(_0x2d2ef2?.[_0xfc0f80(0xaf)]||_0x2d2ef2?.[_0xfc0f80(0xa5)]||'G')[_0xfc0f80(0x1b9)](0x0)[_0xfc0f80(0x10d)]();}function _0x36ab97(_0x1d3210){const _0x4ea3ca=_0xb01087,_0x39cff1=_0x1d3210?.[_0x4ea3ca(0x149)]||'';if(_0x39cff1)return _0x4ea3ca(0x16c)+_0x39cff1+_0x4ea3ca(0x15e);return'<div\x20class=\x22im-group-header-avatar-fallback\x22>'+_0x116653(_0x1d3210)+_0x4ea3ca(0x1cc);}_0x1ff119[_0xb01087(0x136)]=function(_0x1311c8){const _0x4608c1=_0xb01087,_0x2cfa46=_0x1311c8&&typeof _0x1311c8===_0x4608c1(0x18c)?_0x1311c8['id']:_0x1311c8;if(_0x2cfa46==null)return![];const _0xfd3d3d=(window[_0x4608c1(0x1f4)]?.[_0x4608c1(0xf8)]||[])[_0x4608c1(0x15f)](_0x414bdc=>String(_0x414bdc['id'])===String(_0x2cfa46))||(_0x1311c8&&typeof _0x1311c8==='object'?_0x1311c8:null);if(!_0xfd3d3d||_0xfd3d3d[_0x4608c1(0xe8)]!=='group')return![];const _0x3aca13=document[_0x4608c1(0x92)](_0x4608c1(0x1ec)+_0xfd3d3d['id']);if(!_0x3aca13)return![];const _0xc3cfb8=_0x3aca13[_0x4608c1(0x14c)]('.group-header-right-avatar-inner');if(!_0xc3cfb8)return![];return _0xc3cfb8[_0x4608c1(0x176)]=_0x36ab97(_0xfd3d3d),!![];};function _0x345d6a(_0x1c14c9){const _0x15f9bd=_0xb01087,_0x4e76e3=_0x1c14c9&&typeof _0x1c14c9===_0x15f9bd(0x18c)?_0x1c14c9['id']:_0x1c14c9;if(_0x4e76e3==null)return _0x1c14c9&&typeof _0x1c14c9==='object'?_0x1c14c9:null;return(window[_0x15f9bd(0x1f4)]?.[_0x15f9bd(0xf8)]||[])[_0x15f9bd(0x15f)](_0x4dd0ff=>String(_0x4dd0ff['id'])===String(_0x4e76e3))||(_0x1c14c9&&typeof _0x1c14c9===_0x15f9bd(0x18c)?_0x1c14c9:null);}function _0xda2a6a(_0x7b1274){const _0x5b0d0b=_0xb01087;return _0x7b1274&&_0x7b1274[_0x5b0d0b(0xe8)]===_0x5b0d0b(0x1e7)&&Number(_0x7b1274[_0x5b0d0b(0x11c)])>0x0;}async function _0x42a7de(_0x4b6ef3,_0x47a3b2){const _0x24000c=_0xb01087,_0x387b19=_0x345d6a(_0x4b6ef3);if(!_0x387b19||_0x387b19[_0x24000c(0xe8)]!==_0x24000c(0x1e7))return![];const _0x4b8c5d=window[_0x24000c(0x11a)]?.[_0x24000c(0x1be)]?await window[_0x24000c(0x11a)][_0x24000c(0x1be)](_0x387b19['id'],_0x537d96=>{const _0x56fa20=_0x24000c;if(!_0x537d96)return;_0x537d96[_0x56fa20(0x11c)]=0x0,_0x537d96[_0x56fa20(0x1fb)]=[];},{'syncActive':!![],'metaOnly':!![],'silent':!![]}):![];if(!_0x4b8c5d){if(window[_0x24000c(0xca)])window[_0x24000c(0xca)]('重新进入失败');return![];}const _0x1f3b5a={'id':_0x24000c(0x1cf)+Date['now'](),'role':_0x24000c(0x152),'type':'system_notice','noticeKind':_0x24000c(0x81),'content':_0x24000c(0x13d),'text':_0x24000c(0x13d),'timestamp':Date[_0x24000c(0x1b1)]()};await window[_0x24000c(0x11a)]['appendFriendMessage'](_0x387b19['id'],_0x1f3b5a,{'silent':!![]});const _0x578ec1=_0x345d6a(_0x387b19)||_0x387b19;if(window[_0x24000c(0xca)])window[_0x24000c(0xca)](_0x24000c(0x186));if(_0x47a3b2)_0x1ff119[_0x24000c(0x1a6)](_0x578ec1,_0x47a3b2);const _0x853aa5=_0x47a3b2?_0x47a3b2['querySelector'](_0x24000c(0x195)):null;_0x853aa5&&window[_0x24000c(0xdb)]?.[_0x24000c(0x108)]&&window[_0x24000c(0xdb)][_0x24000c(0x108)](_0x578ec1,_0x853aa5,{'scroll':!![]});if(window[_0x24000c(0x11a)][_0x24000c(0x1fa)])window['imApp'][_0x24000c(0x1fa)](_0x578ec1);return!![];}_0x1ff119['syncGroupExitState']=function(_0xaaa071,_0x5c797a){const _0x403f34=_0xb01087,_0x1151e4=_0x345d6a(_0xaaa071);if(!_0x1151e4||_0x1151e4[_0x403f34(0xe8)]!==_0x403f34(0x1e7)||!_0x5c797a)return![];const _0x32f3f3=_0xda2a6a(_0x1151e4),_0x4c8f2c=_0x5c797a[_0x403f34(0x14c)](_0x403f34(0x1c2)),_0x5e83e7=_0x5c797a[_0x403f34(0x14c)](_0x403f34(0x1a8)),_0x526224=_0x5c797a['querySelector']('.chat-input'),_0x2baaf0=_0x5c797a[_0x403f34(0x14c)](_0x403f34(0x1b7)),_0x3ce41c=_0x5c797a['querySelector'](_0x403f34(0x148));if(_0x4c8f2c)_0x4c8f2c['style']['display']=_0x32f3f3?_0x403f34(0x76):_0x403f34(0xd9);if(_0x5e83e7)_0x5e83e7[_0x403f34(0x1af)]['display']=_0x32f3f3?_0x403f34(0xd9):_0x403f34(0x76);_0x526224&&(_0x526224[_0x403f34(0x196)]=_0x32f3f3,_0x526224[_0x403f34(0x1fd)]=_0x32f3f3?'':_0x526224[_0x403f34(0x1fd)]);if(_0x32f3f3&&_0x2baaf0)_0x2baaf0[_0x403f34(0x1af)][_0x403f34(0x166)]=_0x403f34(0x76);if(_0x32f3f3&&_0x3ce41c)_0x3ce41c[_0x403f34(0x1af)][_0x403f34(0x166)]=_0x403f34(0x76);const _0x4edfce=_0x5e83e7?_0x5e83e7[_0x403f34(0x14c)](_0x403f34(0x143)):null,_0x281ac7=_0x5e83e7?_0x5e83e7[_0x403f34(0x14c)](_0x403f34(0xed)):null,_0x1de787=_0x5c797a['querySelector']('.ins-chat-messages');return _0x4edfce&&(_0x4edfce[_0x403f34(0x156)]=_0x550872=>{const _0x12daf8=_0x403f34;_0x550872[_0x12daf8(0x14e)](),void _0x42a7de(_0x1151e4,_0x5c797a);}),_0x281ac7&&(_0x281ac7[_0x403f34(0x156)]=_0x41b247=>{const _0x3f9124=_0x403f34;_0x41b247['preventDefault']();if(!window[_0x3f9124(0xdb)]?.[_0x3f9124(0x146)]){if(window['showToast'])window['showToast']('无法调用\x20AI\x20接口');return;}const _0x324d01=_0x345d6a(_0x1151e4)||_0x1151e4;window[_0x3f9124(0xdb)]['handleAiReply'](_0x324d01,_0x1de787,_0x281ac7,{'source':_0x3f9124(0xec)});}),!![];};async function _0x32b843(_0x3202ef){const _0x287f0c=_0xb01087,_0x54d289=document[_0x287f0c(0x92)](_0x287f0c(0x163)),_0x2d6491=document[_0x287f0c(0x92)](_0x287f0c(0xb1));_0x3a7bbc();window[_0x287f0c(0x11a)]['ensureFriendMessagesLoaded']&&await window[_0x287f0c(0x11a)]['ensureFriendMessagesLoaded'](_0x3202ef,{'onLoaded':(_0x2c3df2,_0x4c66a3)=>{const _0x17af01=_0x287f0c;window['imData'][_0x17af01(0xa3)]&&String(window[_0x17af01(0x1f4)][_0x17af01(0xa3)]['id'])===String(_0x4c66a3['id'])&&(window[_0x17af01(0x1f4)][_0x17af01(0xa3)]=_0x4c66a3);}});const _0x1e5bb9=(window[_0x287f0c(0x1f4)][_0x287f0c(0xf8)]||[])[_0x287f0c(0x15f)](_0x5530d5=>String(_0x5530d5['id'])===String(_0x3202ef['id']))||_0x3202ef;window[_0x287f0c(0x1f4)][_0x287f0c(0xa3)]=_0x1e5bb9,_0x3202ef=_0x1e5bb9;window['imApp'][_0x287f0c(0x1ea)]&&await window['imApp'][_0x287f0c(0x1ea)](_0x3202ef['id'],{'silent':!![]});let _0x1ad032='chat-interface-'+_0x3202ef['id'],_0x40d0c8=document['getElementById'](_0x1ad032);const _0x1d18d4=_0x3202ef['type']===_0x287f0c(0x1e7),_0x424a61=_0x3202ef['type']===_0x287f0c(0x115),_0x4070a2=_0x287f0c(0x169)+(_0x1d18d4?_0x287f0c(0x157):_0x424a61?_0x287f0c(0xe3):'im-chat-single'),_0x55d239=window['imApp']['isCharacterSleeping'](_0x3202ef),_0x7ee859=_0x58a85d(_0x55d239?_0x287f0c(0x17e):_0x287f0c(0xc1),_0x55d239),_0x211175=_0x55d239?'#8e8e93':_0x287f0c(0x190);if(_0x40d0c8){_0x40d0c8['className']=_0x4070a2,_0x40d0c8['style'][_0x287f0c(0x181)](_0x287f0c(0xf9),_0x211175);const _0x92e666=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x195));if(_0x92e666)_0x92e666[_0x287f0c(0x176)]='';}if(!_0x40d0c8){_0x40d0c8=document[_0x287f0c(0x125)]('div'),_0x40d0c8['id']=_0x1ad032,_0x40d0c8['className']=_0x4070a2,_0x40d0c8['style'][_0x287f0c(0x166)]=_0x287f0c(0x76),_0x40d0c8[_0x287f0c(0x1af)][_0x287f0c(0x181)](_0x287f0c(0xf9),_0x211175);let _0x822b3b;_0x1d18d4?_0x822b3b=_0x36ab97(_0x3202ef):_0x822b3b=_0x3202ef[_0x287f0c(0x149)]?'<img\x20src=\x22'+_0x3202ef[_0x287f0c(0x149)]+'\x22\x20style=\x22display:\x20block;\x22>':'<i\x20class=\x22fas\x20fa-user\x22></i>';const _0x4ec2b8=_0x1d18d4?'position:\x20relative;\x20top:\x200;\x20padding:\x200\x2016px;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20display:\x20flex;\x20pointer-events:\x20none;\x20width:\x20100%;':_0x287f0c(0x118);let _0x45958='';if(_0x1d18d4)_0x45958=_0x287f0c(0x138)+_0x3202ef[_0x287f0c(0xaf)]+_0x287f0c(0xd5)+_0x146be4((_0x3202ef[_0x287f0c(0x8e)]?_0x3202ef[_0x287f0c(0x8e)][_0x287f0c(0xda)]:0x0)+0x1)+_0x287f0c(0xa0);else{if(_0x3202ef[_0x287f0c(0xe8)]===_0x287f0c(0x15c))_0x45958=_0x287f0c(0x9e)+_0x822b3b+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-chat-title-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ins-chat-name\x22>'+_0x3202ef[_0x287f0c(0xaf)]+_0x287f0c(0x1e6)+_0x7ee859+_0x287f0c(0x133);else _0x424a61?_0x45958=_0x287f0c(0x17d)+_0x822b3b+_0x287f0c(0x1ef)+_0x3202ef[_0x287f0c(0xaf)]+_0x287f0c(0xa0):_0x45958=_0x287f0c(0x17d)+_0x822b3b+_0x287f0c(0x1ef)+_0x3202ef[_0x287f0c(0xaf)]+_0x287f0c(0x1e6)+_0x7ee859+'</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';}let _0x20314c='';if(_0x1d18d4)_0x20314c=_0x287f0c(0xdf)+_0x822b3b+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';else{if(_0x3202ef[_0x287f0c(0xe8)]===_0x287f0c(0x15c))_0x20314c=_0x287f0c(0x1d9);else _0x424a61?_0x20314c=_0x287f0c(0x1d9):_0x20314c=_0x287f0c(0x110);}const _0x679d06=_0x1d18d4?_0x287f0c(0x1db):_0x287f0c(0xa8);let _0x323ce2='';_0x1d18d4?_0x323ce2='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chat-top-bar\x22\x20style=\x22'+_0x4ec2b8+_0x287f0c(0x82)+_0x679d06+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20flex:\x201;\x20pointer-events:\x20none;\x22\x20class=\x22ins-chat-header\x22\x20id=\x22active-chat-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x45958+_0x287f0c(0x1fc)+_0x20314c+_0x287f0c(0x78):_0x323ce2=_0x287f0c(0xbb)+_0x679d06+_0x287f0c(0x134)+_0x45958+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-chat-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x20314c+_0x287f0c(0x78);_0x40d0c8[_0x287f0c(0x176)]=_0x287f0c(0x1e8)+(_0x1d18d4?_0x287f0c(0x129):'is-friend')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x323ce2+_0x287f0c(0x16b)+(_0x424a61?'':_0x287f0c(0xea))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20placeholder=\x22imessage...\x22\x20class=\x22ins-message-input\x20chat-input\x22\x20inputmode=\x22text\x22\x20enterkeyhint=\x22send\x22\x20autocomplete=\x22off\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-chat-input-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22send-btn-icon\x20send-btn\x22><i\x20class=\x22fas\x20fa-paper-plane\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22send-btn-icon\x20mic-btn\x22><i\x20class=\x22fas\x20fa-arrow-down\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1d18d4?_0x287f0c(0xf2):'')+_0x287f0c(0x1d2);if(_0x54d289)_0x54d289[_0x287f0c(0x14b)](_0x40d0c8);window[_0x287f0c(0x11a)][_0x287f0c(0x99)]&&window[_0x287f0c(0x11a)][_0x287f0c(0x99)](window[_0x287f0c(0x19d)]||{});const _0x4d12c8=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1e5));_0x4d12c8&&_0x4d12c8[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x129aeb=_0x287f0c;if(_0x283bf7){const _0x1833a2=window[_0x129aeb(0x11a)][_0x129aeb(0x140)](_0x3202ef)||_0x3202ef;window[_0x129aeb(0xdb)]['hideProfilePanel'](_0x1833a2,_0x283bf7);}window[_0x129aeb(0x1f4)][_0x129aeb(0xa3)]=null,window['imChat'][_0x129aeb(0xcc)]();});const _0x449684=_0x40d0c8['querySelector'](_0x287f0c(0xac)),_0x4a59f5=_0x40d0c8['querySelector']('.chat-menu-btn'),_0x152604=_0x40d0c8[_0x287f0c(0x14c)]('.chat-call-btn'),_0x18dac1=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1c8)),_0xb5054b=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1c2)),_0x734145=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1cd));function _0x42972f(){const _0x13e4a1=_0x287f0c;window['imData'][_0x13e4a1(0x1f1)]=![];if(_0x449684)_0x449684[_0x13e4a1(0x1af)][_0x13e4a1(0x166)]=_0x13e4a1(0x76);if(_0x4a59f5)_0x4a59f5['style'][_0x13e4a1(0x166)]=_0x13e4a1(0x1ca);if(_0x152604)_0x152604[_0x13e4a1(0x1af)][_0x13e4a1(0x166)]='block';if(_0x18dac1)_0x18dac1['style'][_0x13e4a1(0x166)]=_0x13e4a1(0x76);if(_0xb5054b)_0xb5054b['style'][_0x13e4a1(0x166)]=_0x13e4a1(0xd9);const _0x2e3b66=_0x40d0c8[_0x13e4a1(0x9c)](_0x13e4a1(0x135));_0x2e3b66[_0x13e4a1(0x86)](_0x140b70=>{const _0x3fda9d=_0x13e4a1;_0x140b70['style'][_0x3fda9d(0x166)]=_0x3fda9d(0x76);const _0x4ec8a7=_0x140b70[_0x3fda9d(0x14c)]('i');_0x4ec8a7&&(_0x4ec8a7['className']='far\x20fa-circle',_0x4ec8a7['style']['color']=_0x3fda9d(0x93));});}window[_0x287f0c(0xdb)][_0x287f0c(0xad)](_0x40d0c8,_0x3202ef),window[_0x287f0c(0xdb)][_0x287f0c(0x1bb)](_0x40d0c8,_0x3202ef);_0x152604&&_0x152604[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x43e4e8=_0x287f0c;let _0x2ae789=document[_0x43e4e8(0x92)](_0x43e4e8(0x1b2));if(!_0x2ae789){_0x2ae789=document[_0x43e4e8(0x125)](_0x43e4e8(0x7a)),_0x2ae789['id']=_0x43e4e8(0x1b2),_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0x9b)]='fixed',_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0x1e2)]='0',_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0x1de)]=_0x43e4e8(0x1c0),_0x2ae789['style']['zIndex']='10000',_0x2ae789['style'][_0x43e4e8(0x166)]=_0x43e4e8(0xd9),_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0xee)]='flex-end',_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0x124)]=_0x43e4e8(0x1c4);const _0x1feae0=document[_0x43e4e8(0x125)](_0x43e4e8(0x7a));_0x1feae0[_0x43e4e8(0x1af)][_0x43e4e8(0x18f)]='100%',_0x1feae0[_0x43e4e8(0x1af)]['backgroundColor']=_0x43e4e8(0xc6),_0x1feae0[_0x43e4e8(0x1af)][_0x43e4e8(0x1b6)]='10px',_0x1feae0['style'][_0x43e4e8(0x13e)]=_0x43e4e8(0x1bf),_0x1feae0[_0x43e4e8(0x1af)]['paddingBottom']=_0x43e4e8(0xc3);const _0x37ab69=document['createElement'](_0x43e4e8(0x7a));_0x37ab69[_0x43e4e8(0x1af)]['backgroundColor']='#fff',_0x37ab69[_0x43e4e8(0x1af)][_0x43e4e8(0x111)]=_0x43e4e8(0x1ed),_0x37ab69[_0x43e4e8(0x1af)][_0x43e4e8(0x97)]=_0x43e4e8(0x14d);const _0x2a2914=document['createElement'](_0x43e4e8(0x7a));_0x2a2914[_0x43e4e8(0x1b8)]=_0x43e4e8(0x1e4),_0x2a2914[_0x43e4e8(0x1af)][_0x43e4e8(0x1b6)]=_0x43e4e8(0x183),_0x2a2914['style'][_0x43e4e8(0x8d)]=_0x43e4e8(0x1c4),_0x2a2914['style'][_0x43e4e8(0x1d4)]=_0x43e4e8(0xaa),_0x2a2914['style'][_0x43e4e8(0xae)]=_0x43e4e8(0xb8),_0x2a2914['style']['borderBottom']=_0x43e4e8(0x13a),_0x2a2914['style'][_0x43e4e8(0xff)]='pointer',_0x2a2914['addEventListener'](_0x43e4e8(0x1c5),_0x34ad1b=>{const _0x104096=_0x43e4e8;_0x34ad1b[_0x104096(0xa4)](),_0x2ae789['style']['display']='none';if(window[_0x104096(0xca)])window['showToast'](_0x104096(0x18a));});const _0x2c9d5f=document[_0x43e4e8(0x125)](_0x43e4e8(0x7a));_0x2c9d5f[_0x43e4e8(0x1b8)]='语音通话',_0x2c9d5f['style'][_0x43e4e8(0x1b6)]=_0x43e4e8(0x183),_0x2c9d5f['style']['textAlign']=_0x43e4e8(0x1c4),_0x2c9d5f['style']['fontSize']=_0x43e4e8(0xaa),_0x2c9d5f[_0x43e4e8(0x1af)][_0x43e4e8(0xae)]=_0x43e4e8(0xb8),_0x2c9d5f[_0x43e4e8(0x1af)][_0x43e4e8(0xff)]=_0x43e4e8(0xcd),_0x2c9d5f[_0x43e4e8(0x1bc)](_0x43e4e8(0x1c5),_0x1c0c22=>{const _0xc97438=_0x43e4e8;_0x1c0c22[_0xc97438(0xa4)](),_0x2ae789['style']['display']=_0xc97438(0x76);if(window[_0xc97438(0xdb)]&&window[_0xc97438(0xdb)][_0xc97438(0x87)])window[_0xc97438(0xdb)][_0xc97438(0x87)](_0x3202ef);else{if(window['showToast'])window[_0xc97438(0xca)](_0xc97438(0x165));}}),_0x37ab69['appendChild'](_0x2a2914),_0x37ab69['appendChild'](_0x2c9d5f),_0x1feae0[_0x43e4e8(0x14b)](_0x37ab69),_0x2ae789[_0x43e4e8(0x14b)](_0x1feae0),document[_0x43e4e8(0x17f)][_0x43e4e8(0x14b)](_0x2ae789),_0x2ae789[_0x43e4e8(0x1bc)]('click',_0x3c378b=>{const _0x1c8b89=_0x43e4e8;_0x3c378b[_0x1c8b89(0x1c7)]===_0x2ae789&&(_0x2ae789['style']['display']='none');});}_0x2ae789[_0x43e4e8(0x1af)][_0x43e4e8(0x166)]=_0x43e4e8(0xd9);});_0x449684&&_0x449684[_0x287f0c(0x1bc)]('click',()=>{_0x42972f();});_0x734145&&_0x734145[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x5d21fb=_0x287f0c,_0xe1e6fe=_0x40d0c8['querySelectorAll'](_0x5d21fb(0x1f3)),_0x3cdc78=Array['from'](_0xe1e6fe)[_0x5d21fb(0x151)](_0x322cb8=>{const _0xfa7283=_0x5d21fb,_0x22066c=_0x322cb8[_0xfa7283(0x1f7)]('.chat-row');return{'id':_0x22066c?.[_0xfa7283(0x9d)](_0xfa7283(0x1dd))||null,'timestamp':_0x322cb8['getAttribute'](_0xfa7283(0x187))||_0x22066c?.[_0xfa7283(0x9d)](_0xfa7283(0x187))||null};})[_0x5d21fb(0xc7)](_0x1b587b=>_0x1b587b['id']||_0x1b587b[_0x5d21fb(0x1e3)]);if(_0x3cdc78[_0x5d21fb(0xda)]===0x0){if(window[_0x5d21fb(0xca)])window['showToast'](_0x5d21fb(0x1df));return;}window[_0x5d21fb(0x101)]&&window[_0x5d21fb(0x101)]({'title':_0x5d21fb(0xfd),'message':_0x5d21fb(0x100)+_0x3cdc78[_0x5d21fb(0xda)]+_0x5d21fb(0x8f),'confirmText':'删除','cancelText':'取消','onConfirm':async()=>{const _0x929347=_0x5d21fb,_0x5a4312=window[_0x929347(0x11a)][_0x929347(0xe0)]?await window[_0x929347(0x11a)][_0x929347(0xe0)](_0x3202ef['id'],_0x3cdc78,{'silent':!![]}):window['imApp'][_0x929347(0x84)]?await window['imApp'][_0x929347(0x84)](_0x3202ef['id'],_0x23405c=>{const _0x38017a=_0x929347;if(!_0x23405c||!Array[_0x38017a(0xfb)](_0x23405c[_0x38017a(0x7e)]))return;_0x23405c[_0x38017a(0x7e)]=_0x23405c['messages']['filter'](_0x5052a4=>!_0x3cdc78[_0x38017a(0x1a7)](_0x511475=>{const _0xeef7cc=_0x38017a;if(!_0x5052a4)return!![];if(_0x511475['id']&&String(_0x5052a4['id'])===String(_0x511475['id']))return!![];if(_0x511475[_0xeef7cc(0x1e3)]&&String(_0x5052a4[_0xeef7cc(0x1e3)])===String(_0x511475['timestamp']))return!![];return![];}));},{'silent':!![]}):![];if(!_0x5a4312){if(window[_0x929347(0xca)])window[_0x929347(0xca)]('删除失败，消息已恢复');const _0xadad0d=_0x40d0c8[_0x929347(0x14c)]('.ins-chat-messages');if(_0xadad0d){_0xadad0d[_0x929347(0x176)]='';const _0x536a45=window[_0x929347(0x11a)][_0x929347(0x140)]?window[_0x929347(0x11a)]['getFriendById'](_0x3202ef['id'])||_0x3202ef:_0x3202ef;window[_0x929347(0xdb)][_0x929347(0x16f)](_0x536a45,_0xadad0d),window[_0x929347(0xdb)][_0x929347(0x160)](_0xadad0d);}return;}const _0x500efb=_0x40d0c8[_0x929347(0x14c)](_0x929347(0x195));if(_0x500efb){_0x500efb['innerHTML']='';const _0x19a5dc=window[_0x929347(0x11a)][_0x929347(0x140)]?window[_0x929347(0x11a)][_0x929347(0x140)](_0x3202ef['id'])||_0x3202ef:_0x3202ef;window[_0x929347(0xdb)][_0x929347(0x16f)](_0x19a5dc,_0x500efb),window[_0x929347(0xdb)][_0x929347(0x160)](_0x500efb);}_0x42972f();}});});const _0x10214c=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x195));_0x10214c&&_0x10214c[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),_0x4dfe06=>{const _0x55a884=_0x287f0c,_0x37b317=_0x4dfe06[_0x55a884(0x1c7)][_0x55a884(0x1f7)]('.chat-row');if(window[_0x55a884(0x1f4)][_0x55a884(0x1f1)]){_0x4dfe06[_0x55a884(0xa4)](),_0x4dfe06['preventDefault']();if(_0x37b317){const _0x45c906=_0x37b317[_0x55a884(0x14c)](_0x55a884(0xc2));_0x45c906&&(_0x45c906[_0x55a884(0x137)]['contains'](_0x55a884(0x122))?(_0x45c906[_0x55a884(0x10e)]=_0x55a884(0x1b4),_0x45c906[_0x55a884(0x1af)][_0x55a884(0xae)]=_0x55a884(0x1d3)):(_0x45c906['className']=_0x55a884(0x10b),_0x45c906[_0x55a884(0x1af)]['color']=_0x55a884(0x93)));}return;}},!![]);const _0x4f1d82=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x17c));_0x4f1d82&&_0x4f1d82[_0x287f0c(0x1bc)]('click',()=>{const _0x464c0b=_0x287f0c;window[_0x464c0b(0x1f4)][_0x464c0b(0x79)]=null;const _0xfbf4f9=_0x40d0c8[_0x464c0b(0x14c)](_0x464c0b(0x1b7));if(_0xfbf4f9)_0xfbf4f9[_0x464c0b(0x1af)]['display']=_0x464c0b(0x76);});let _0x283bf7=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x19c));!_0x283bf7&&(_0x283bf7=document[_0x287f0c(0x125)]('div'),_0x283bf7[_0x287f0c(0x10e)]=_0x287f0c(0x1ee),_0x283bf7[_0x287f0c(0x1af)][_0x287f0c(0x166)]=_0x287f0c(0x76),_0x40d0c8[_0x287f0c(0x14b)](_0x283bf7),_0x283bf7['addEventListener'](_0x287f0c(0x1c5),_0x14d79a=>{const _0x508c2f=_0x287f0c;if(_0x14d79a[_0x508c2f(0x1c7)]===_0x283bf7){const _0xb72bf=window[_0x508c2f(0x11a)]['getFriendById'](_0x3202ef)||_0x3202ef;window['imChat'][_0x508c2f(0x147)](_0xb72bf,_0x283bf7);}}));const _0x3181c1=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1d7)),_0x101ce5=_0x40d0c8['querySelector'](_0x287f0c(0xb5));function _0x137780(_0x417dc5){const _0x1044e3=_0x287f0c;if(_0x3202ef['type']===_0x1044e3(0x15c)||_0x3202ef[_0x1044e3(0xe8)]===_0x1044e3(0x1e7)||_0x3202ef[_0x1044e3(0xe8)]===_0x1044e3(0x115))return;_0x417dc5['stopPropagation']();const _0x3043b4=window[_0x1044e3(0x11a)][_0x1044e3(0x140)](_0x3202ef)||_0x3202ef;window[_0x1044e3(0xdb)][_0x1044e3(0xe6)](_0x3043b4,_0x283bf7);}_0x3181c1&&(_0x3202ef[_0x287f0c(0xe8)]===_0x287f0c(0x15c)||_0x3202ef[_0x287f0c(0xe8)]===_0x287f0c(0x115)?_0x3181c1[_0x287f0c(0x1af)]['cursor']=_0x287f0c(0x184):(_0x3181c1[_0x287f0c(0x1af)]['cursor']=_0x287f0c(0xcd),_0x3181c1[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),_0x137780)));_0x101ce5&&_0x3202ef['type']!=='group'&&(_0x3202ef[_0x287f0c(0xe8)]==='official'||_0x3202ef[_0x287f0c(0xe8)]==='npc'?_0x101ce5[_0x287f0c(0x1af)]['cursor']=_0x287f0c(0x184):(_0x101ce5['style'][_0x287f0c(0xff)]='pointer',_0x101ce5[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),_0x137780)));_0x40d0c8[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),_0x3d054c=>{const _0x1fcc0b=_0x287f0c;if(_0x283bf7&&_0x283bf7[_0x1fcc0b(0x137)][_0x1fcc0b(0x1aa)](_0x1fcc0b(0x95))&&!_0x3d054c[_0x1fcc0b(0x1c7)]['closest']('.chat-profile-panel-card')&&!_0x3d054c[_0x1fcc0b(0x1c7)]['closest']('.ins-chat-avatar')&&!_0x3d054c[_0x1fcc0b(0x1c7)][_0x1fcc0b(0x1f7)](_0x1fcc0b(0xb5))){const _0x574491=window['imApp']['getFriendById'](_0x3202ef)||_0x3202ef;window[_0x1fcc0b(0xdb)]['hideProfilePanel'](_0x574491,_0x283bf7);}});if(_0x3202ef[_0x287f0c(0xe8)]==='group'){const _0x2a6dda=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x1b5));_0x2a6dda&&_0x2a6dda[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x4805b9=_0x287f0c;window[_0x4805b9(0x11a)][_0x4805b9(0xb6)]&&window['imApp'][_0x4805b9(0xb6)](_0x3202ef);});const _0x2c0cc9=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0xb5));_0x2c0cc9&&_0x2c0cc9[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x387aa2=_0x287f0c;window[_0x387aa2(0x11a)]['openGroupDetails']&&window[_0x387aa2(0x11a)]['openGroupDetails'](_0x3202ef);});const _0x1cfbbf=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x195));if(_0x1cfbbf){let _0x42341c=![],_0x3a79a3=0x0;_0x1cfbbf['addEventListener'](_0x287f0c(0x90),_0x828722=>{const _0x40aa98=_0x287f0c;_0x42341c=![],_0x3a79a3=_0x828722[_0x40aa98(0x1f8)][0x0]['clientY'];},{'passive':!![]}),_0x1cfbbf[_0x287f0c(0x1bc)](_0x287f0c(0x1b3),_0x48d9b3=>{const _0xeec8d4=_0x287f0c;Math['abs'](_0x48d9b3[_0xeec8d4(0x1f8)][0x0][_0xeec8d4(0x1e9)]-_0x3a79a3)>0xa&&(_0x42341c=!![]);},{'passive':!![]}),_0x1cfbbf[_0x287f0c(0x1bc)](_0x287f0c(0x168),_0x528570=>{const _0x508386=_0x287f0c;if(_0x42341c){const _0x56413e=_0x40d0c8[_0x508386(0x14c)](_0x508386(0x15a));_0x56413e&&document['activeElement']===_0x56413e&&_0x56413e[_0x508386(0xfa)]();}_0x42341c=![];},{'passive':!![]}),_0x1cfbbf['addEventListener'](_0x287f0c(0x1c5),_0xe38a93=>{const _0x13d067=_0x287f0c,_0x409c44=_0x40d0c8[_0x13d067(0x14c)](_0x13d067(0x15a));_0x409c44&&document[_0x13d067(0x114)]===_0x409c44&&_0x409c44['blur']();const _0x2a895e=_0xe38a93[_0x13d067(0x1c7)][_0x13d067(0x1f7)](_0x13d067(0x14f));if(_0x2a895e){const _0x673ce=_0x2a895e[_0x13d067(0x1f7)](_0x13d067(0x105));if(_0x673ce){const _0x30a708=_0x673ce[_0x13d067(0x9d)]('data-speaker'),_0x47f977=_0x673ce[_0x13d067(0x9d)]('data-speaker-member-id'),_0x3df829=_0x673ce['getAttribute'](_0x13d067(0x1c6));if(_0x30a708||_0x47f977){const _0x472f86=window[_0x13d067(0x11a)][_0x13d067(0x140)]?window[_0x13d067(0x11a)][_0x13d067(0x140)](_0x3202ef['id'])||_0x3202ef:_0x3202ef,_0x2ad7a1=window[_0x13d067(0xdb)][_0x13d067(0x112)]?window['imChat'][_0x13d067(0x112)](_0x472f86,_0x30a708,_0x47f977):null;_0x2ad7a1&&window[_0x13d067(0xdb)]['showGroupMemberProfileCard']&&window[_0x13d067(0xdb)][_0x13d067(0x16d)](_0x2ad7a1,_0x40d0c8,_0x2a895e,_0x472f86,_0x3df829);}}}});}}_0x4a59f5&&_0x3202ef[_0x287f0c(0xe8)]!==_0x287f0c(0x1e7)&&_0x4a59f5[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{const _0x2d0388=_0x287f0c;if(_0x3202ef[_0x2d0388(0xe8)]===_0x2d0388(0x15c)){const _0x3c7ecc=document[_0x2d0388(0x92)](_0x2d0388(0x142));_0x3c7ecc&&(window[_0x2d0388(0x119)]?window['openView'](_0x3c7ecc):(_0x3c7ecc[_0x2d0388(0x1af)][_0x2d0388(0x166)]='flex',setTimeout(()=>{const _0x1446d0=_0x2d0388;_0x3c7ecc[_0x1446d0(0x1af)][_0x1446d0(0xe5)]='1';const _0x38d46d=_0x3c7ecc['querySelector'](_0x1446d0(0x12f));if(_0x38d46d)_0x38d46d[_0x1446d0(0x1af)][_0x1446d0(0x150)]='translateY(0)';},0xa)),_0x3c7ecc[_0x2d0388(0x156)]=_0x588518=>{const _0x401167=_0x2d0388;if(_0x588518[_0x401167(0x1c7)]===_0x3c7ecc){if(window[_0x401167(0x128)])window[_0x401167(0x128)](_0x3c7ecc);else _0x3c7ecc[_0x401167(0x1af)][_0x401167(0x166)]='none';}});return;}window['imApp'][_0x2d0388(0xcb)]&&window[_0x2d0388(0x11a)]['openChatSettingsForFriend'](_0x3202ef);});const _0x4df47f=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x15a)),_0x5257b3=_0x40d0c8['querySelector'](_0x287f0c(0x12e)),_0x7b7a4c=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x8a)),_0x45b4c8=_0x40d0c8[_0x287f0c(0x14c)](_0x287f0c(0x182)),_0xfc2dbb=_0x40d0c8['querySelector']('.ins-chat-messages'),_0x1e10a3=_0x40d0c8[_0x287f0c(0x14c)]('.im-together-listening-player');_0x1e10a3&&(_0x1e10a3[_0x287f0c(0x14c)](_0x287f0c(0xcf))?.[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),()=>{window['libraryApp']?.['openTogetherListeningPlayer']?.(_0x3202ef['id']);}),_0x1e10a3[_0x287f0c(0x9c)](_0x287f0c(0x9a))[_0x287f0c(0x86)](_0x2cd443=>{const _0x5ba4ae=_0x287f0c;_0x2cd443['addEventListener'](_0x5ba4ae(0x1c5),()=>{const _0x5ab7d0=_0x5ba4ae,_0x43b449=_0x2cd443[_0x5ab7d0(0x179)][_0x5ab7d0(0x126)];window[_0x5ab7d0(0x116)]?.[_0x5ab7d0(0x170)]?.(_0x3202ef['id'],{'action':_0x43b449});});}),_0x1cc68f(_0x3202ef));const _0x457834=_0x354b16=>{const _0x33aa61=_0x287f0c;if(_0x354b16&&typeof _0x354b16[_0x33aa61(0x14e)]===_0x33aa61(0x1ae))_0x354b16[_0x33aa61(0x14e)]();if(_0x4df47f)_0x4df47f[_0x33aa61(0xfa)]();window[_0x33aa61(0xdb)][_0x33aa61(0x19b)]&&window[_0x33aa61(0xdb)][_0x33aa61(0x19b)]();};_0x45b4c8&&_0x45b4c8[_0x287f0c(0x1bc)](_0x287f0c(0x1c5),_0x457834);_0x4df47f&&(_0x2e6988&&(_0x4df47f[_0x287f0c(0x1bc)](_0x287f0c(0x180),_0x4682a6,{'passive':!![]}),_0x4df47f[_0x287f0c(0x1bc)]('touchstart',_0x4682a6,{'passive':!![]})),_0x4df47f[_0x287f0c(0x1bc)](_0x287f0c(0x7d),()=>{const _0xbe0770=_0x287f0c;_0x4682a6(),_0x40d0c8[_0xbe0770(0x137)][_0xbe0770(0xbe)](_0xbe0770(0x194));const _0x546e37=document[_0xbe0770(0x92)](_0xbe0770(0x117));if(_0x546e37){const _0x11743c=_0x546e37[_0xbe0770(0x14c)](_0xbe0770(0x113)),_0x1c9a59=_0x546e37[_0xbe0770(0x14c)](_0xbe0770(0x121));if(_0x11743c)_0x11743c[_0xbe0770(0x1af)][_0xbe0770(0xe5)]='0';if(_0x1c9a59)_0x1c9a59[_0xbe0770(0x1af)][_0xbe0770(0x150)]='translateY(100%)';_0x546e37[_0xbe0770(0x1af)]['display']=_0xbe0770(0x76);}setTimeout(()=>{const _0x3f5585=_0xbe0770;if(_0xfc2dbb)_0xfc2dbb[_0x3f5585(0xba)]=_0xfc2dbb['scrollHeight'];},0x64);}),_0x4df47f[_0x287f0c(0x1bc)](_0x287f0c(0xfa),()=>{const _0x364ffe=_0x287f0c;_0x40d0c8['classList'][_0x364ffe(0x11b)](_0x364ffe(0x194)),_0x2e6988&&!window[_0x364ffe(0x1b0)]&&_0x39e3e3(_0x40d0c8,_0xfc2dbb);}));let _0x3441fb=null,_0x2fb3a7='',_0x11771a=-0x1;function _0x280a5f(_0x292390,_0x23faef){const _0x505695=_0x287f0c;if(_0x3202ef[_0x505695(0xe8)]!=='group'||!_0x3202ef[_0x505695(0x8e)])return;const _0xe05b89=_0x40d0c8[_0x505695(0x14c)](_0x505695(0x148));if(!_0xe05b89)return;const _0x4830ca=window[_0x505695(0xdb)][_0x505695(0x16e)](_0x3202ef),_0x3db1f6=[{'id':_0x505695(0xe4),'nickname':_0x505695(0x1ce),'isAll':!![]},..._0x4830ca],_0x39952b=_0x3db1f6[_0x505695(0xc7)](_0x1f9314=>_0x1f9314[_0x505695(0xbc)]||_0x1f9314['nickname']&&_0x1f9314[_0x505695(0xaf)][_0x505695(0x1d8)]()[_0x505695(0x1a0)](_0x292390[_0x505695(0x1d8)]()));if(_0x39952b[_0x505695(0xda)]===0x0){_0xe05b89[_0x505695(0x1af)][_0x505695(0x166)]='none';return;}_0xe05b89[_0x505695(0x176)]='',_0x39952b[_0x505695(0x86)](_0x3ebf52=>{const _0xcec7d3=_0x505695,_0x4da0d7=document['createElement']('div');_0x4da0d7[_0xcec7d3(0x10e)]=_0xcec7d3(0x171);let _0x31e426='';if(_0x3ebf52[_0xcec7d3(0xbc)])_0x31e426='<i\x20class=\x22fas\x20fa-users\x22\x20style=\x22color:\x20#007aff;\x22></i>';else _0x3ebf52['avatarUrl']?_0x31e426='<img\x20src=\x22'+_0x3ebf52['avatarUrl']+'\x22>':_0x31e426=_0xcec7d3(0x1f9);_0x4da0d7[_0xcec7d3(0x176)]=_0xcec7d3(0xf5)+_0x31e426+_0xcec7d3(0xe2)+(_0x3ebf52[_0xcec7d3(0xbc)]?_0x3ebf52[_0xcec7d3(0xaf)]:_0x3ebf52[_0xcec7d3(0xaf)])+_0xcec7d3(0x172),_0x4da0d7[_0xcec7d3(0x1bc)](_0xcec7d3(0x1c5),_0x27b2b9=>{const _0xe408f3=_0xcec7d3;_0x27b2b9['preventDefault'](),_0x27b2b9['stopPropagation']();const _0x5ed246=_0x23faef['value'],_0x1cc313=_0x5ed246[_0xe408f3(0xbf)](0x0,_0x11771a),_0x48c293=_0x5ed246[_0xe408f3(0xbf)](_0x23faef['selectionStart']),_0xd695ef=_0x3ebf52['isAll']?_0xe408f3(0xf4):'@'+_0x3ebf52[_0xe408f3(0xaf)]+'\x20';_0x23faef['value']=_0x1cc313+_0xd695ef+_0x48c293;const _0x58452d=_0x1cc313[_0xe408f3(0xda)]+_0xd695ef[_0xe408f3(0xda)];_0x23faef[_0xe408f3(0xd6)](_0x58452d,_0x58452d),_0x23faef[_0xe408f3(0x7d)](),_0xe05b89['style']['display']='none',_0x11771a=-0x1,_0x2fb3a7='';}),_0xe05b89[_0xcec7d3(0x14b)](_0x4da0d7);}),_0xe05b89['style'][_0x505695(0x166)]=_0x505695(0xd9);}_0x4df47f[_0x287f0c(0x1bc)](_0x287f0c(0x178),_0x306900=>{const _0x5169df=_0x287f0c;if(_0x3202ef['type']!==_0x5169df(0x1e7))return;const _0x267e11=_0x4df47f[_0x5169df(0x1fd)],_0x4bea62=_0x4df47f[_0x5169df(0x11f)];let _0x5c60f9=-0x1;for(let _0x466726=_0x4bea62-0x1;_0x466726>=0x0;_0x466726--){if(_0x267e11[_0x466726]==='@'){_0x5c60f9=_0x466726;break;}if(_0x267e11[_0x466726]==='\x20'||_0x267e11[_0x466726]==='\x0a')break;}if(_0x5c60f9!==-0x1){_0x11771a=_0x5c60f9,_0x2fb3a7=_0x267e11['substring'](_0x5c60f9+0x1,_0x4bea62);let _0x5d9eb5=_0x40d0c8['querySelector'](_0x5169df(0x148));if(!_0x5d9eb5){_0x5d9eb5=document[_0x5169df(0x125)]('div'),_0x5d9eb5['className']=_0x5169df(0x11d);const _0x50f50e=_0x40d0c8['querySelector'](_0x5169df(0x1c2));_0x50f50e['parentNode'][_0x5169df(0x10a)](_0x5d9eb5,_0x50f50e);}_0x280a5f(_0x2fb3a7,_0x4df47f);}else{_0x11771a=-0x1,_0x2fb3a7='';const _0x324c40=_0x40d0c8[_0x5169df(0x14c)](_0x5169df(0x148));if(_0x324c40)_0x324c40[_0x5169df(0x1af)][_0x5169df(0x166)]=_0x5169df(0x76);}}),_0x4df47f[_0x287f0c(0x1bc)](_0x287f0c(0x12a),_0x2d662d=>{const _0x29b7e2=_0x287f0c;if(_0x2d662d[_0x29b7e2(0x14a)]||_0x2d662d[_0x29b7e2(0x19a)]===0xe5)return;if(_0x2d662d[_0x29b7e2(0x17a)]!==_0x29b7e2(0x1e1)||_0x2d662d[_0x29b7e2(0xe7)]||_0x2d662d[_0x29b7e2(0x109)]||_0x2d662d[_0x29b7e2(0xfc)]||_0x2d662d['metaKey'])return;_0x2d662d[_0x29b7e2(0x14e)]();const _0x3ae0bc=window[_0x29b7e2(0x1f4)][_0x29b7e2(0xa3)]||_0x3202ef;window[_0x29b7e2(0xdb)]['handleSend'](_0x3ae0bc,_0x4df47f,_0xfc2dbb);const _0x1f7249=_0x40d0c8['querySelector']('.at-mention-list');if(_0x1f7249)_0x1f7249[_0x29b7e2(0x1af)][_0x29b7e2(0x166)]=_0x29b7e2(0x76);});let _0x5c262d=0x0;const _0x4f22f7=(_0x33beea,_0x559343={})=>{const _0x5e91fb=_0x287f0c;if(_0x33beea&&typeof _0x33beea[_0x5e91fb(0x14e)]===_0x5e91fb(0x1ae))_0x33beea[_0x5e91fb(0x14e)]();const _0x2b7ff9=window[_0x5e91fb(0x1f4)][_0x5e91fb(0xa3)]||_0x3202ef;window[_0x5e91fb(0xdb)][_0x5e91fb(0x1a1)](_0x2b7ff9,_0x4df47f,_0xfc2dbb);const _0x29f57e=_0x40d0c8[_0x5e91fb(0x14c)](_0x5e91fb(0x148));if(_0x29f57e)_0x29f57e['style'][_0x5e91fb(0x166)]='none';_0x559343[_0x5e91fb(0x96)]&&_0x4df47f&&setTimeout(()=>{const _0x4d9fbc=_0x5e91fb;_0x4df47f[_0x4d9fbc(0x7d)]();},0x32);};_0x5257b3['addEventListener']('click',_0x37cfd3=>{const _0x2674b8=_0x287f0c;if(Date[_0x2674b8(0x1b1)]()-_0x5c262d<0x1f4){_0x37cfd3[_0x2674b8(0x14e)]();return;}_0x4f22f7(_0x37cfd3);}),_0x5257b3['addEventListener'](_0x287f0c(0x90),_0x314228=>{const _0xb117ae=_0x287f0c;_0x5c262d=Date[_0xb117ae(0x1b1)](),_0x4f22f7(_0x314228,{'refocus':!![]});},{'passive':![]});const _0x55830f=_0x3bb2be=>{const _0x3b35ca=_0x287f0c;if(_0x3bb2be&&typeof _0x3bb2be['preventDefault']===_0x3b35ca(0x1ae))_0x3bb2be[_0x3b35ca(0x14e)]();console[_0x3b35ca(0x103)](_0x3b35ca(0x13b));const _0x57127e=window[_0x3b35ca(0x1f4)][_0x3b35ca(0xa3)]||_0x3202ef;if(window[_0x3b35ca(0xdb)]&&window[_0x3b35ca(0xdb)][_0x3b35ca(0x146)])window[_0x3b35ca(0xdb)][_0x3b35ca(0x146)](_0x57127e,_0xfc2dbb,_0x7b7a4c);else{console[_0x3b35ca(0x193)](_0x3b35ca(0x188));if(window[_0x3b35ca(0xca)])window[_0x3b35ca(0xca)](_0x3b35ca(0x199));}};_0x7b7a4c[_0x287f0c(0x1bc)](_0x287f0c(0x185),_0x55830f),_0x7b7a4c[_0x287f0c(0x1bc)](_0x287f0c(0x90),_0x55830f,{'passive':![]}),window['imChat'][_0x287f0c(0x16f)](_0x3202ef,_0xfc2dbb,{'resetWindow':!![]});}else{window[_0x287f0c(0xdb)][_0x287f0c(0xad)](_0x40d0c8,_0x3202ef),window[_0x287f0c(0xdb)][_0x287f0c(0x1bb)](_0x40d0c8,_0x3202ef);_0x1d18d4&&window[_0x287f0c(0xdb)][_0x287f0c(0x136)]&&window[_0x287f0c(0xdb)][_0x287f0c(0x136)](_0x3202ef);const _0x7fcdad=_0x40d0c8[_0x287f0c(0x14c)]('.ins-chat-messages');window[_0x287f0c(0xdb)][_0x287f0c(0x16f)](_0x3202ef,_0x7fcdad,{'resetWindow':!![]});}if(window['imApp'][_0x287f0c(0x98)])window[_0x287f0c(0x11a)][_0x287f0c(0x98)](_0x3202ef);if(window[_0x287f0c(0x11a)][_0x287f0c(0xe9)])window[_0x287f0c(0x11a)][_0x287f0c(0xe9)](_0x3202ef);if(_0x40d0c8){_0x40d0c8[_0x287f0c(0x137)][_0x287f0c(0x18b)]('show-timestamps',!!_0x3202ef[_0x287f0c(0x159)]),_0x40d0c8[_0x287f0c(0x137)][_0x287f0c(0x18b)](_0x287f0c(0xd1),!!_0x3202ef[_0x287f0c(0x159)]&&_0x3202ef['timestampPosition']===_0x287f0c(0x1da));if(_0x3202ef[_0x287f0c(0x197)])_0x40d0c8[_0x287f0c(0x137)][_0x287f0c(0xbe)](_0x287f0c(0x1d1));else _0x40d0c8['classList'][_0x287f0c(0x11b)](_0x287f0c(0x1d1));if(window['imApp'][_0x287f0c(0xf7)])window['imApp'][_0x287f0c(0xf7)](_0x3202ef);_0x1d18d4&&window['imChat'][_0x287f0c(0x1a6)]&&window[_0x287f0c(0xdb)][_0x287f0c(0x1a6)](_0x3202ef,_0x40d0c8);}if(_0x2d6491){if(_0x2d6491[_0x287f0c(0x137)][_0x287f0c(0x1aa)](_0x287f0c(0x95)))window['imChat'][_0x287f0c(0xcc)]();else _0x2d6491[_0x287f0c(0x1c5)]();}}function _0x460e56(_0xa50359,_0x5e5535){const _0x52b3c0=_0xb01087,_0x1a2005=document[_0x52b3c0(0x92)]('msg-context-overlay'),_0x387301=document['getElementById'](_0x52b3c0(0x192));if(!_0x1a2005||!_0x387301)return;if(navigator['vibrate'])navigator[_0x52b3c0(0x162)](0x32);window[_0x52b3c0(0x1f4)][_0x52b3c0(0x91)]=_0xa50359,_0xa50359[_0x52b3c0(0x137)][_0x52b3c0(0xbe)]('message-active');const _0x4723bd=_0xa50359[_0x52b3c0(0x14c)](_0x52b3c0(0xde))||_0xa50359[_0x52b3c0(0x14c)](_0x52b3c0(0xf1));if(!_0x4723bd)return;const _0x20a417=document['getElementById'](_0x52b3c0(0xa6))||document[_0x52b3c0(0x17f)],_0x2493c1=_0x20a417[_0x52b3c0(0x1cb)](),_0xb8c72f=_0x4723bd[_0x52b3c0(0x1cb)](),_0x1a21af=_0x4723bd['classList'][_0x52b3c0(0x1aa)](_0x52b3c0(0x153))||!!_0x4723bd[_0x52b3c0(0x14c)](_0x52b3c0(0x139)),_0x204e0b=document[_0x52b3c0(0x92)](_0x52b3c0(0x106));if(_0x204e0b){_0x204e0b['innerHTML']='';const _0x5bb089=_0x4723bd[_0x52b3c0(0x85)](!![]);_0x5bb089[_0x52b3c0(0x1af)][_0x52b3c0(0x8c)]='0';if(_0x1a21af){const _0x5b3d46=Math[_0x52b3c0(0x8b)](0xb4,Math[_0x52b3c0(0x80)](_0xb8c72f[_0x52b3c0(0x18f)]||0x104,0x10e,_0x2493c1[_0x52b3c0(0x18f)]-0x30));_0x5bb089[_0x52b3c0(0x137)][_0x52b3c0(0xbe)](_0x52b3c0(0x13f)),_0x5bb089[_0x52b3c0(0x1af)][_0x52b3c0(0x18f)]=_0x5b3d46+'px',_0x5bb089[_0x52b3c0(0x1af)][_0x52b3c0(0xa1)]=_0x5b3d46+'px',_0x5bb089[_0x52b3c0(0x1af)][_0x52b3c0(0xd9)]=_0x52b3c0(0xb3),_0x5bb089[_0x52b3c0(0x9c)](_0x52b3c0(0x19e))[_0x52b3c0(0x86)](_0x57c193=>{const _0x390276=_0x52b3c0;_0x57c193[_0x390276(0x1af)]['width']='100%',_0x57c193[_0x390276(0x1af)]['maxWidth']='100%',_0x57c193[_0x390276(0x1af)][_0x390276(0x13e)]=_0x390276(0x1bf);});}else _0x5bb089[_0x52b3c0(0x1af)][_0x52b3c0(0xa1)]=_0x52b3c0(0x12d);_0x204e0b['appendChild'](_0x5bb089);}const _0x43c37f=document[_0x52b3c0(0x92)](_0x52b3c0(0xb9)),_0x35ffac=document[_0x52b3c0(0x92)](_0x52b3c0(0x1dc));if(_0x43c37f)_0x43c37f[_0x52b3c0(0x1af)][_0x52b3c0(0x166)]='none';if(_0x35ffac)_0x35ffac[_0x52b3c0(0x1af)][_0x52b3c0(0x166)]='flex';const _0x38cbef=_0x387301['querySelector'](_0x52b3c0(0x158));if(_0x38cbef){const _0x16d190=window[_0x52b3c0(0x1f4)]['currentActiveFriend'],_0x3a23e3=_0xa50359['getAttribute'](_0x52b3c0(0x1dd)),_0x1de73c=_0xa50359[_0x52b3c0(0x9d)](_0x52b3c0(0x187)),_0x2b8f2e=_0x16d190&&Array[_0x52b3c0(0xfb)](_0x16d190[_0x52b3c0(0x7e)])?_0x16d190[_0x52b3c0(0x7e)][_0x52b3c0(0x15f)](_0x488f5b=>{if(!_0x488f5b)return![];if(_0x3a23e3&&String(_0x488f5b['id'])===String(_0x3a23e3))return!![];return _0x1de73c&&String(_0x488f5b['timestamp'])===String(_0x1de73c);}):null,_0x111503=_0xa50359[_0x52b3c0(0x137)][_0x52b3c0(0x1aa)](_0x52b3c0(0xa7))&&!!window[_0x52b3c0(0x11a)]?.[_0x52b3c0(0x1f2)]?.(_0x2b8f2e);_0x38cbef['style'][_0x52b3c0(0x166)]=_0x111503?_0x52b3c0(0xd9):'none';}const _0x318c5c=_0xa50359[_0x52b3c0(0x137)][_0x52b3c0(0x1aa)](_0x52b3c0(0xa7));_0x1a2005[_0x52b3c0(0x1af)][_0x52b3c0(0x166)]=_0x52b3c0(0xd9),_0x1a2005[_0x52b3c0(0x1af)][_0x52b3c0(0xe5)]='1';const _0x4db2e4=Math['min'](_0x2493c1[_0x52b3c0(0x18f)]-0x20,0x12c);_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0x18f)]=_0x4db2e4+'px';_0x318c5c?(_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0xee)]=_0x52b3c0(0x161),_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0x1f6)]=_0x52b3c0(0x1c1),_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0x154)]=_0x52b3c0(0x11e)):(_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0xee)]=_0x52b3c0(0x88),_0x387301[_0x52b3c0(0x1af)]['left']=_0x52b3c0(0x1c1),_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0x1f6)]='auto');const _0x383742=_0x4723bd['getBoundingClientRect'](),_0x2c1a1c=_0x383742['top']+_0x383742[_0x52b3c0(0x167)]/0x2-_0x2493c1[_0x52b3c0(0x104)],_0x59de5a=_0x204e0b?.[_0x52b3c0(0x130)]?.[_0x52b3c0(0x1cb)]?.(),_0x11fa95=Math[_0x52b3c0(0x80)](_0x59de5a?.[_0x52b3c0(0x167)]||_0x383742[_0x52b3c0(0x167)],Math[_0x52b3c0(0x8b)](0x50,_0x2493c1['height']*0.45)),_0x4cb7e3=0x32+_0x11fa95+0xdc;let _0x46c59f=_0x2c1a1c-_0x4cb7e3/0x2;if(_0x46c59f<0x3c)_0x46c59f=0x3c;_0x46c59f+_0x4cb7e3>_0x2493c1[_0x52b3c0(0x167)]-0x14&&(_0x46c59f=_0x2493c1['height']-_0x4cb7e3-0x14);if(_0x46c59f<0x3c)_0x46c59f=0x3c;_0x387301[_0x52b3c0(0x1af)][_0x52b3c0(0x104)]=_0x46c59f+'px',_0x387301['style'][_0x52b3c0(0x191)]=_0x318c5c?_0x52b3c0(0x1ab):'top\x20left',requestAnimationFrame(()=>{const _0x1ba458=_0x52b3c0;_0x387301['style'][_0x1ba458(0xe5)]='1',_0x387301[_0x1ba458(0x1af)][_0x1ba458(0x150)]=_0x1ba458(0x120);});}function _0x12d430(){const _0x228217=_0xb01087,_0x631c59=document['getElementById']('msg-context-overlay'),_0x9cb56c=document[_0x228217(0x92)]('msg-context-menu');if(!_0x631c59||!_0x9cb56c)return;_0x9cb56c[_0x228217(0x1af)][_0x228217(0xe5)]='0',_0x9cb56c[_0x228217(0x1af)][_0x228217(0x150)]=_0x228217(0xe1),window[_0x228217(0x1f4)]['currentActiveRow']&&(window['imData'][_0x228217(0x91)][_0x228217(0x137)][_0x228217(0x11b)](_0x228217(0x177)),window[_0x228217(0x1f4)]['currentActiveRow']=null),setTimeout(()=>{const _0x3a075f=_0x228217;_0x631c59['style'][_0x3a075f(0x166)]=_0x3a075f(0x76);const _0x2acbbc=document[_0x3a075f(0x92)](_0x3a075f(0x106));if(_0x2acbbc)_0x2acbbc[_0x3a075f(0x176)]='';},0xfa);}function _0x4769d7(_0x4f4fe0,_0x2272a6,_0x495e2e,_0x479592,_0x3f6525=null){const _0x5ab15e=_0xb01087;if(!_0x2272a6)return;const _0x4e1c74=_0x479592&&window[_0x5ab15e(0x11a)][_0x5ab15e(0x140)]?window[_0x5ab15e(0x11a)][_0x5ab15e(0x140)](_0x479592['id']||_0x479592)||_0x479592:_0x479592,_0xa7d559=String(_0x4f4fe0?.['id']??_0x4f4fe0?.[_0x5ab15e(0xd8)]??'');let _0x14b3d5=document['getElementById']('global-gmp-overlay');if(!_0x14b3d5){_0x14b3d5=document['createElement'](_0x5ab15e(0x7a)),_0x14b3d5['id']=_0x5ab15e(0x145),_0x14b3d5[_0x5ab15e(0x10e)]='group-member-profile-overlay',_0x14b3d5['style'][_0x5ab15e(0x9b)]=_0x5ab15e(0xc4),_0x14b3d5[_0x5ab15e(0x1af)][_0x5ab15e(0x104)]='0',_0x14b3d5[_0x5ab15e(0x1af)][_0x5ab15e(0x154)]='0',_0x14b3d5[_0x5ab15e(0x1af)][_0x5ab15e(0x18f)]='100%',_0x14b3d5['style'][_0x5ab15e(0x167)]=_0x5ab15e(0x12d),_0x14b3d5[_0x5ab15e(0x1af)]['backgroundColor']=_0x5ab15e(0x1c0),_0x14b3d5['style'][_0x5ab15e(0x155)]=_0x5ab15e(0x1eb),_0x14b3d5[_0x5ab15e(0x1af)][_0x5ab15e(0x166)]='none',_0x14b3d5[_0x5ab15e(0x1af)][_0x5ab15e(0xe5)]='0',_0x14b3d5[_0x5ab15e(0x1af)]['transition']=_0x5ab15e(0x9f);const _0x4fac0d=document[_0x5ab15e(0x125)](_0x5ab15e(0x7a));_0x4fac0d[_0x5ab15e(0x10e)]=_0x5ab15e(0x10f),_0x14b3d5[_0x5ab15e(0x14b)](_0x4fac0d),document[_0x5ab15e(0x17f)]['appendChild'](_0x14b3d5),_0x14b3d5[_0x5ab15e(0x1bc)]('click',_0x414bcd=>{const _0x6d4d3f=_0x5ab15e;_0x414bcd['target']===_0x14b3d5&&(_0x14b3d5['style'][_0x6d4d3f(0xe5)]='0',_0x4fac0d['classList']['remove']('active'),setTimeout(()=>_0x14b3d5[_0x6d4d3f(0x1af)][_0x6d4d3f(0x166)]=_0x6d4d3f(0x76),0x12c));});}const _0x86ae03=_0x14b3d5[_0x5ab15e(0x14c)](_0x5ab15e(0x83)),_0x2e89ec=_0x4f4fe0['avatarUrl']||_0x5ab15e(0x18d),_0x552ca5=_0x4f4fe0[_0x5ab15e(0xaf)]||_0x5ab15e(0x144),_0x1d2656=_0x4f4fe0[_0x5ab15e(0x15b)]||'这个人很懒，什么都没写',_0x142601=_0x4f4fe0[_0x5ab15e(0xf0)]||'';let _0xd1a2cf={};_0x4e1c74&&_0x4e1c74['memberProfiles']&&(_0xd1a2cf=_0x4e1c74[_0x5ab15e(0x16a)][_0xa7d559]||_0x4e1c74['memberProfiles'][_0x4f4fe0['id']]||{});const _0x37e8fe=typeof _0x3f6525==='string'&&_0x3f6525[_0x5ab15e(0x132)](),_0x27e2db=_0x37e8fe?_0x3f6525[_0x5ab15e(0x132)]():_0xd1a2cf[_0x5ab15e(0xd0)]||'暂无心声';let _0x32e6c5=![];const _0x402493=window['imChat'][_0x5ab15e(0x16e)](_0x4e1c74),_0xa28985=_0x402493[_0x5ab15e(0x15f)](_0x21a596=>String(_0x21a596['id'])===_0xa7d559);_0xa28985&&(_0x32e6c5=window[_0x5ab15e(0x11a)][_0x5ab15e(0x12c)](_0xa28985));const _0x478ead=_0x58a85d(_0xd1a2cf[_0x5ab15e(0x1a3)]||_0x5ab15e(0xc1),_0x32e6c5),_0x4ca02d=_0x32e6c5?_0x5ab15e(0xeb):_0x5ab15e(0x190);let _0x4eaba5=_0x142601?'<div\x20class=\x22gmp-title\x22>'+_0x142601+_0x5ab15e(0x1cc):'';_0x86ae03[_0x5ab15e(0x176)]=_0x5ab15e(0x1bd)+_0x2e89ec+_0x5ab15e(0x1f0)+(_0x32e6c5?'false':_0x5ab15e(0x123))+'\x22\x20spellcheck=\x22false\x22>'+_0x478ead+_0x5ab15e(0x7b)+_0x552ca5+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4eaba5+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-signature\x22>'+_0x1d2656+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22gmp-inner-voice\x22>'+_0x27e2db+_0x5ab15e(0x1d6);const _0x1eddba=_0x86ae03[_0x5ab15e(0x14c)](_0x5ab15e(0x77));_0x1eddba[_0x5ab15e(0x1bc)](_0x5ab15e(0xfa),async _0x1d36fd=>{const _0x3c3ade=_0x5ab15e,_0x245d41=_0x2ac860(_0x1d36fd[_0x3c3ade(0x1c7)]['innerText']);if(_0x4e1c74){const _0x31f77a=window['imApp']['commitFriendChange']?await window[_0x3c3ade(0x11a)]['commitFriendChange'](_0x4e1c74['id'],_0x1a66f7=>{const _0x5e5101=_0x3c3ade;if(!_0x1a66f7)return;if(!_0x1a66f7[_0x5e5101(0x16a)])_0x1a66f7[_0x5e5101(0x16a)]={};!_0x1a66f7[_0x5e5101(0x16a)][_0xa7d559]&&(_0x1a66f7[_0x5e5101(0x16a)][_0xa7d559]={'thought':'暂无心声','status':_0x5e5101(0xc1),'updatedAt':0x0}),_0x1a66f7[_0x5e5101(0x16a)][_0xa7d559][_0x5e5101(0x1a3)]=_0x245d41,_0x1a66f7[_0x5e5101(0x16a)][_0xa7d559]['updatedAt']=Date[_0x5e5101(0x1b1)]();},{'silent':!![]}):![];if(!_0x31f77a){_0x1d36fd[_0x3c3ade(0x1c7)][_0x3c3ade(0x1b8)]=_0x478ead;if(window[_0x3c3ade(0xca)])window[_0x3c3ade(0xca)](_0x3c3ade(0xb0));return;}_0x1d36fd['target'][_0x3c3ade(0x1b8)]=_0x58a85d(_0x245d41,_0x32e6c5);}else _0x1d36fd[_0x3c3ade(0x1c7)]['innerText']=_0x478ead;}),_0x14b3d5['style'][_0x5ab15e(0x166)]=_0x5ab15e(0x1ca),_0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x166)]=_0x5ab15e(0xd9);if(_0x495e2e){const _0x578ed5=_0x495e2e[_0x5ab15e(0x1cb)](),_0x51585d=0x12c,_0x5bc390=_0x86ae03[_0x5ab15e(0x102)]||0x17c;let _0x115fcb=_0x578ed5[_0x5ab15e(0xdd)]+0xa,_0x33c8c5=_0x578ed5[_0x5ab15e(0x154)];const _0x486933=Math[_0x5ab15e(0x8b)](0x0,window[_0x5ab15e(0x1b0)]?.[_0x5ab15e(0x18f)]||document[_0x5ab15e(0xf3)][_0x5ab15e(0x1a2)]||window[_0x5ab15e(0xab)]||0x0),_0x2590b8=Math[_0x5ab15e(0x8b)](0x0,window[_0x5ab15e(0x1b0)]?.[_0x5ab15e(0x167)]||document['documentElement'][_0x5ab15e(0xc8)]||window[_0x5ab15e(0x17b)]||0x0);_0x33c8c5+_0x51585d>_0x486933-0x14&&(_0x33c8c5=_0x486933-_0x51585d-0x14);_0x115fcb+_0x5bc390>_0x2590b8-0x14&&(_0x115fcb=_0x578ed5[_0x5ab15e(0x104)]-_0x5bc390-0xa);const _0x454d87=_0x115fcb<_0x578ed5[_0x5ab15e(0x104)]?_0x5ab15e(0xdd):'top',_0x3f10cd=_0x33c8c5===_0x578ed5[_0x5ab15e(0x154)]?_0x5ab15e(0x154):'right';_0x86ae03[_0x5ab15e(0x1af)]['top']=_0x115fcb+'px',_0x86ae03['style']['left']=_0x33c8c5+'px',_0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x191)]=_0x3f10cd+'\x20'+_0x454d87;}else _0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x104)]=_0x5ab15e(0xf6),_0x86ae03['style']['left']='50%',_0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x150)]=_0x5ab15e(0x1c3),_0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x191)]='center\x20center';void _0x14b3d5[_0x5ab15e(0x102)],void _0x86ae03[_0x5ab15e(0x102)],_0x14b3d5['style'][_0x5ab15e(0xe5)]='1',_0x86ae03[_0x5ab15e(0x137)][_0x5ab15e(0xbe)](_0x5ab15e(0x95)),_0x495e2e&&(_0x86ae03[_0x5ab15e(0x1af)][_0x5ab15e(0x150)]=_0x5ab15e(0x120));}window[_0xb01087(0xdb)][_0xb01087(0x1fa)]=_0x32b843,window[_0xb01087(0xdb)][_0xb01087(0x1ac)]=_0x460e56,window[_0xb01087(0xdb)][_0xb01087(0xd3)]=_0x12d430,window[_0xb01087(0xdb)][_0xb01087(0x16d)]=_0x4769d7;}));
+
+// ==========================================
+// IMESSAGE: 4_chat_interface.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const { apiConfig, userState } = window;
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+    const isAndroid = /Android/i.test(navigator.userAgent || '');
+    let keyboardRestoreTimers = [];
+    let androidRestingViewportHeight = 0;
+    let androidViewportWidth = 0;
+    let androidKeyboardWasOpen = false;
+
+    function formatStatusLabel(value, isSleeping = false) {
+        if (isSleeping) return 'offline';
+        const raw = String(value || 'online').trim();
+        const normalized = raw.toLowerCase();
+        if (normalized === 'offline' || raw === '离线') return 'offline';
+        if (normalized === 'online' || raw === '在线') return 'online';
+        return raw || 'online';
+    }
+
+    function normalizeStatusForStorage(value) {
+        const raw = String(value || '').trim();
+        const normalized = raw.toLowerCase();
+        if (!raw || normalized === 'online' || raw === '在线') return 'online';
+        if (normalized === 'offline' || raw === '离线') return 'offline';
+        return raw;
+    }
+
+    function formatGroupMemberCount(count) {
+        const safeCount = Math.max(0, Number(count) || 0);
+        return `${safeCount} member${safeCount === 1 ? '' : 's'}`;
+    }
+
+    function isChatInputFocused(page) {
+        const input = page?.querySelector('.chat-input');
+        return !!input && document.activeElement === input;
+    }
+
+    function getAndroidViewportMetrics() {
+        const viewport = window.visualViewport;
+        return {
+            height: Math.round(viewport?.height || window.innerHeight || 0),
+            width: Math.round(viewport?.width || window.innerWidth || 0)
+        };
+    }
+
+    function captureAndroidRestingViewport() {
+        if (!isAndroid) return;
+        const metrics = getAndroidViewportMetrics();
+        if (metrics.width > 0 && Math.abs(metrics.width - androidViewportWidth) > 48) {
+            androidViewportWidth = metrics.width;
+            androidRestingViewportHeight = metrics.height;
+            androidKeyboardWasOpen = false;
+            return;
+        }
+        androidViewportWidth = metrics.width || androidViewportWidth;
+        androidRestingViewportHeight = Math.max(androidRestingViewportHeight, metrics.height);
+    }
+
+    function clearKeyboardRestoreTimers() {
+        keyboardRestoreTimers.forEach(timer => clearTimeout(timer));
+        keyboardRestoreTimers = [];
+    }
+
+    function restoreAndroidChatViewport(page, msgContainer) {
+        if (!isAndroid || !page || page.style.display === 'none') return;
+
+        page.classList.remove('keyboard-open');
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+
+        requestAnimationFrame(() => {
+            if (msgContainer) msgContainer.scrollTop = msgContainer.scrollHeight;
+        });
+    }
+
+    function scheduleAndroidChatViewportRestore(page, msgContainer) {
+        if (!isAndroid) return;
+        clearKeyboardRestoreTimers();
+        [0, 60, 180, 360].forEach(delay => {
+            keyboardRestoreTimers.push(setTimeout(() => {
+                restoreAndroidChatViewport(page, msgContainer);
+            }, delay));
+        });
+    }
+
+    captureAndroidRestingViewport();
+
+    if (isAndroid && window.visualViewport && !imChat._androidViewportListenersBound) {
+        imChat._androidViewportListenersBound = true;
+        const handleViewportChange = () => {
+            const page = document.querySelector('.active-chat-interface[style*="display: flex"]');
+            if (!page) return;
+
+            const metrics = getAndroidViewportMetrics();
+            if (Math.abs(metrics.width - androidViewportWidth) > 48) {
+                androidViewportWidth = metrics.width;
+                androidRestingViewportHeight = metrics.height;
+                androidKeyboardWasOpen = false;
+                return;
+            }
+
+            const msgContainer = page.querySelector('.ins-chat-messages');
+            const inputFocused = isChatInputFocused(page);
+            if (!inputFocused && !androidKeyboardWasOpen) {
+                androidRestingViewportHeight = Math.max(androidRestingViewportHeight, metrics.height);
+            }
+
+            if (androidRestingViewportHeight - metrics.height > 100) {
+                androidKeyboardWasOpen = true;
+                return;
+            }
+
+            if (androidKeyboardWasOpen && metrics.height >= androidRestingViewportHeight - 72) {
+                androidKeyboardWasOpen = false;
+                androidRestingViewportHeight = Math.max(androidRestingViewportHeight, metrics.height);
+                scheduleAndroidChatViewportRestore(page, msgContainer);
+            }
+        };
+
+        window.visualViewport.addEventListener('resize', handleViewportChange, { passive: true });
+        window.visualViewport.addEventListener('scroll', handleViewportChange, { passive: true });
+    }
+
+    function closeStaleGroupCallSheets() {
+        ['group-call-invite-sheet', 'group-more-sheet'].forEach((id) => {
+            const sheet = document.getElementById(id);
+            if (!sheet) return;
+
+            sheet.classList.remove('active');
+            sheet.style.pointerEvents = '';
+        });
+    }
+
+    function renderTogetherListeningPlayer(friendOrId) {
+        const friendId = String(typeof friendOrId === 'object' ? (friendOrId?.id ?? '') : (friendOrId ?? ''));
+        if (!friendId) return;
+        const friend = (window.imData?.friends || []).find((item) => String(item.id) === friendId)
+            || (typeof friendOrId === 'object' ? friendOrId : null);
+        const page = document.getElementById(`chat-interface-${friendId}`);
+        const card = page?.querySelector('.im-together-listening-player');
+        if (!card) return;
+        const snapshot = friend?.type === 'char' && window.libraryApp?.getTogetherListeningSnapshot
+            ? window.libraryApp.getTogetherListeningSnapshot(friendId)
+            : null;
+        card.hidden = !snapshot;
+        if (!snapshot) return;
+
+        const art = card.querySelector('.im-together-listening-art');
+        const title = card.querySelector('.im-together-listening-title');
+        const artist = card.querySelector('.im-together-listening-artist');
+        const play = card.querySelector('[data-together-listening-control="toggle"]');
+        if (art) {
+            art.innerHTML = snapshot.coverUrl ? '' : '<i class="fas fa-music"></i>';
+            if (snapshot.coverUrl) {
+                const image = document.createElement('img');
+                image.src = snapshot.coverUrl;
+                image.alt = '';
+                image.referrerPolicy = 'no-referrer';
+                art.appendChild(image);
+            }
+        }
+        if (title) title.textContent = snapshot.title || '未知歌曲';
+        if (artist) artist.textContent = snapshot.artist || '未知歌手';
+        if (play) {
+            play.innerHTML = `<i class="fas ${snapshot.isPlaying ? 'fa-pause' : 'fa-play'}"></i>`;
+            play.setAttribute('aria-label', snapshot.isPlaying ? '暂停' : '播放');
+        }
+        card.style.setProperty('--together-progress', `${Math.round((snapshot.progress || 0) * 10000) / 100}%`);
+    }
+
+    imChat.renderTogetherListeningPlayer = renderTogetherListeningPlayer;
+    if (!imChat._togetherListeningEventBound) {
+        imChat._togetherListeningEventBound = true;
+        window.addEventListener('library:together-listening-change', () => {
+            document.querySelectorAll('.im-together-listening-player').forEach((card) => {
+                const page = card.closest('.active-chat-interface');
+                const friendId = String(page?.id || '').replace(/^chat-interface-/, '');
+                if (friendId) renderTogetherListeningPlayer(friendId);
+            });
+        });
+    }
+
+    function getGroupAvatarInitial(friend) {
+        return String(friend?.nickname || friend?.realName || 'G').charAt(0).toUpperCase();
+    }
+
+    function renderGroupHeaderAvatarInnerHtml(friend) {
+        const avatarUrl = friend?.avatarUrl || '';
+        if (avatarUrl) {
+            return `<img class="im-group-header-avatar-img" src="${avatarUrl}" alt="">`;
+        }
+
+        return `<div class="im-group-header-avatar-fallback">${getGroupAvatarInitial(friend)}</div>`;
+    }
+
+    imChat.refreshGroupHeaderAvatar = function(groupOrId) {
+        const groupId = groupOrId && typeof groupOrId === 'object' ? groupOrId.id : groupOrId;
+        if (groupId == null) return false;
+
+        const latestGroup = (window.imData?.friends || []).find(item => String(item.id) === String(groupId))
+            || (groupOrId && typeof groupOrId === 'object' ? groupOrId : null);
+        if (!latestGroup || latestGroup.type !== 'group') return false;
+
+        const page = document.getElementById(`chat-interface-${latestGroup.id}`);
+        if (!page) return false;
+
+        const inner = page.querySelector('.group-header-right-avatar-inner');
+        if (!inner) return false;
+
+        inner.innerHTML = renderGroupHeaderAvatarInnerHtml(latestGroup);
+        return true;
+    };
+
+    function getLiveGroup(groupOrId) {
+        const groupId = groupOrId && typeof groupOrId === 'object' ? groupOrId.id : groupOrId;
+        if (groupId == null) return groupOrId && typeof groupOrId === 'object' ? groupOrId : null;
+        return (window.imData?.friends || []).find(item => String(item.id) === String(groupId))
+            || (groupOrId && typeof groupOrId === 'object' ? groupOrId : null);
+    }
+
+    function isLeftGroup(group) {
+        return group && group.type === 'group' && Number(group.leftGroupAt) > 0;
+    }
+
+    async function rejoinGroupChat(group, page) {
+        const liveGroup = getLiveGroup(group);
+        if (!liveGroup || liveGroup.type !== 'group') return false;
+
+        const saved = window.imApp?.commitScopedFriendChange
+            ? await window.imApp.commitScopedFriendChange(liveGroup.id, (targetGroup) => {
+                if (!targetGroup) return;
+                targetGroup.leftGroupAt = 0;
+                targetGroup.leftGroupMemberSnapshot = [];
+            }, {
+                syncActive: true,
+                metaOnly: true,
+                silent: true
+            })
+            : false;
+
+        if (!saved) {
+            if (window.showToast) window.showToast('重新进入失败');
+            return false;
+        }
+
+        const groupRejoinedNotice = {
+            id: `sys-${Date.now()}`,
+            role: 'system',
+            type: 'system_notice',
+            noticeKind: 'group_rejoined',
+            content: '你重新进入群聊',
+            text: '你重新进入群聊',
+            timestamp: Date.now()
+        };
+        await window.imApp.appendFriendMessage(liveGroup.id, groupRejoinedNotice, { silent: true });
+
+        const latestGroup = getLiveGroup(liveGroup) || liveGroup;
+        if (window.showToast) window.showToast('已重新进入群聊');
+        if (page) imChat.syncGroupExitState(latestGroup, page);
+        const msgContainer = page ? page.querySelector('.ins-chat-messages') : null;
+        if (msgContainer && window.imChat?.rerenderChatContainer) {
+            window.imChat.rerenderChatContainer(latestGroup, msgContainer, { scroll: true });
+        }
+        if (window.imApp.openChatTab) window.imApp.openChatTab(latestGroup);
+        return true;
+    }
+
+    imChat.syncGroupExitState = function(groupOrId, page) {
+        const group = getLiveGroup(groupOrId);
+        if (!group || group.type !== 'group' || !page) return false;
+
+        const left = isLeftGroup(group);
+        const inputWrapper = page.querySelector('.ins-chat-input-wrapper');
+        const leftBar = page.querySelector('.im-left-group-bar');
+        const input = page.querySelector('.chat-input');
+        const replyPreview = page.querySelector('.reply-preview-container');
+        const mentionList = page.querySelector('.at-mention-list');
+
+        if (inputWrapper) inputWrapper.style.display = left ? 'none' : 'flex';
+        if (leftBar) leftBar.style.display = left ? 'flex' : 'none';
+        if (input) {
+            input.disabled = left;
+            input.value = left ? '' : input.value;
+        }
+        if (left && replyPreview) replyPreview.style.display = 'none';
+        if (left && mentionList) mentionList.style.display = 'none';
+
+        const rejoinBtn = leftBar ? leftBar.querySelector('.im-left-group-rejoin-btn') : null;
+        const aiBtn = leftBar ? leftBar.querySelector('.im-left-group-ai-btn') : null;
+        const msgContainer = page.querySelector('.ins-chat-messages');
+
+        if (rejoinBtn) {
+            rejoinBtn.onclick = (e) => {
+                e.preventDefault();
+                void rejoinGroupChat(group, page);
+            };
+        }
+
+        if (aiBtn) {
+            aiBtn.onclick = (e) => {
+                e.preventDefault();
+                if (!window.imChat?.handleAiReply) {
+                    if (window.showToast) window.showToast('无法调用 AI 接口');
+                    return;
+                }
+                const latestGroup = getLiveGroup(group) || group;
+                window.imChat.handleAiReply(latestGroup, msgContainer, aiBtn, { source: 'left_group_continue' });
+            };
+        }
+
+        return true;
+    };
+
+async function openChatTab(friend) {
+        const chatsContent = document.getElementById('chats-content');
+        const navChatsBtn = document.getElementById('nav-chats-btn');
+        closeStaleGroupCallSheets();
+
+        if (window.imApp.ensureFriendMessagesLoaded) {
+            await window.imApp.ensureFriendMessagesLoaded(friend, {
+                onLoaded: (_, loadedFriend) => {
+                    if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(loadedFriend.id)) {
+                        window.imData.currentActiveFriend = loadedFriend;
+                    }
+                }
+            });
+        }
+
+        const activeFriend = (window.imData.friends || []).find(
+            item => String(item.id) === String(friend.id)
+        ) || friend;
+
+        window.imData.currentActiveFriend = activeFriend;
+        friend = activeFriend;
+        if (window.imApp.clearFriendUnread) {
+            await window.imApp.clearFriendUnread(friend.id, { silent: true });
+        }
+        let pageId = `chat-interface-${friend.id}`;
+        let page = document.getElementById(pageId);
+        const isGroupChat = friend.type === 'group';
+        const isNpcChat = friend.type === 'npc';
+        const interfaceClassName = `active-chat-interface im-chat-interface ${isGroupChat ? 'im-chat-group' : (isNpcChat ? 'im-chat-npc' : 'im-chat-single')}`;
+        const isSleeping = window.imApp.isCharacterSleeping(friend);
+        const statusLabel = formatStatusLabel(isSleeping ? 'offline' : 'online', isSleeping);
+        const statusColor = isSleeping ? '#8e8e93' : '#34c759';
+
+        if (page) {
+            page.className = interfaceClassName;
+            page.style.setProperty('--im-chat-status-color', statusColor);
+            const msgContainer = page.querySelector('.ins-chat-messages');
+            if (msgContainer) msgContainer.innerHTML = '';
+        }
+
+        if (!page) {
+            page = document.createElement('div');
+            page.id = pageId;
+            page.className = interfaceClassName;
+            page.style.display = 'none';
+            page.style.setProperty('--im-chat-status-color', statusColor);
+            
+            let avatarHtml;
+            if (isGroupChat) {
+                avatarHtml = renderGroupHeaderAvatarInnerHtml(friend);
+            } else {
+                avatarHtml = friend.avatarUrl 
+                    ? `<img src="${friend.avatarUrl}" style="display: block;">` 
+                    : `<i class="fas fa-user"></i>`;
+            }
+
+            const headerStyle = isGroupChat
+                ? `position: relative; top: 0; padding: 0 16px; align-items: center; justify-content: space-between; display: flex; pointer-events: none; width: 100%;`
+                : `position: relative; top: 0; padding: 0 16px; align-items: center;`;
+                
+            let titleHtml = '';
+            if (isGroupChat) {
+                titleHtml = `<div class="im-chat-group-title-wrap" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; padding: 4px 16px; background: rgba(242, 242, 247, 0.85);   border-radius: 40px;  pointer-events: auto;">
+                        <div class="ins-chat-name" style="font-size: 14px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px;">${friend.nickname}</div>
+                        <div class="ins-chat-sign" style="font-size: 11px; font-weight: 500; color: #8e8e93; margin-top: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 4px;">${formatGroupMemberCount((friend.members ? friend.members.length : 0) + 1)}</div>
+                   </div>`;
+            } else if (friend.type === 'official') {
+                titleHtml = `<div class="im-chat-avatar-wrap">
+                        <div class="ins-chat-avatar" style="pointer-events: none;">
+                            ${avatarHtml}
+                        </div>
+                   </div>
+                   <div class="im-chat-title-wrap">
+                        <div class="ins-chat-name">${friend.nickname}</div>
+                        <div class="ins-chat-sign"><div class="im-chat-status-dot"></div><span>${statusLabel}</span></div>
+                   </div>`;
+            } else if (isNpcChat) {
+                titleHtml = `<div class="im-chat-avatar-wrap">
+                        <div class="ins-chat-avatar">
+                            ${avatarHtml}
+                        </div>
+                   </div>
+                   <div class="im-chat-title-wrap">
+                        <div class="ins-chat-name">${friend.nickname}</div>
+                   </div>`;
+            } else {
+                titleHtml = `<div class="im-chat-avatar-wrap">
+                        <div class="ins-chat-avatar">
+                            ${avatarHtml}
+                        </div>
+                   </div>
+                   <div class="im-chat-title-wrap">
+                        <div class="ins-chat-name">${friend.nickname}</div>
+                        <div class="ins-chat-sign"><div class="im-chat-status-dot"></div><span>${statusLabel}</span></div>
+                   </div>`;
+            }
+
+            // Make the right avatar a floating bubble as well
+            let groupRightAvatarHtml = '';
+            if (isGroupChat) {
+                groupRightAvatarHtml = `<div class="group-header-right-avatar">
+                        <div class="group-header-right-avatar-inner">${avatarHtml}</div>
+                   </div>`;
+            } else if (friend.type === 'official') {
+                groupRightAvatarHtml = `<div class="chat-menu-btn im-chat-icon-btn"><i class="fas fa-bars"></i></div>
+                   <div class="chat-cancel-batch-btn im-chat-cancel-batch-btn" style="display:none;">取消</div>`;
+            } else if (isNpcChat) {
+                groupRightAvatarHtml = `<div class="chat-menu-btn im-chat-icon-btn"><i class="fas fa-bars"></i></div>
+                   <div class="chat-cancel-batch-btn im-chat-cancel-batch-btn" style="display:none;">取消</div>`;
+            } else {
+                groupRightAvatarHtml = `<div class="chat-call-btn im-chat-icon-btn"><i class="fas fa-phone-alt"></i></div>
+                   <div class="chat-menu-btn im-chat-icon-btn"><i class="fas fa-bars"></i></div>
+                   <div class="chat-cancel-batch-btn im-chat-cancel-batch-btn" style="display:none;">取消</div>`;
+            }
+
+            const backBtnHtml = isGroupChat
+                ? `<div class="chat-back-btn" style="cursor: pointer; width: 36px; height: 36px; background: rgba(242, 242, 247, 0.85);   border-radius: 50%;  display: flex; justify-content: center; align-items: center; pointer-events: auto;">
+                        <i class="fas fa-chevron-left" style="pointer-events: none; margin-right: 2px;"></i>
+                   </div>`
+                : `<div class="chat-back-btn im-chat-back-btn"><i class="fas fa-chevron-left" style="pointer-events: none;"></i></div>`;
+
+            let topBarHtml = '';
+            if (isGroupChat) {
+                topBarHtml = `
+                    <div class="chat-top-bar" style="${headerStyle}">
+                        ${backBtnHtml}
+                        <div style="display: flex; align-items: center; justify-content: center; flex: 1; pointer-events: none;" class="ins-chat-header" id="active-chat-header">
+                            ${titleHtml}
+                        </div>
+                        <div id="active-chat-right-avatar-container">
+                            ${groupRightAvatarHtml}
+                        </div>
+                    </div>
+                `;
+            } else {
+                topBarHtml = `
+                    <div class="chat-top-bar im-chat-top-bar">
+                        <div class="im-chat-header-left">
+                            ${backBtnHtml}
+                            <div class="ins-chat-header im-chat-header-main">
+                                ${titleHtml}
+                            </div>
+                        </div>
+                        <div class="im-chat-actions">
+                            ${groupRightAvatarHtml}
+                        </div>
+                    </div>
+                `;
+            }
+
+            page.innerHTML = `
+                <div class="chat-sticky-container ${isGroupChat ? 'is-group' : 'is-friend'}">
+                    ${topBarHtml}
+                </div>
+                <div class="ins-chat-messages"></div>
+                <div class="ins-chat-input-container">
+                    <div class="im-together-listening-player" hidden>
+                        <button class="im-together-listening-main" type="button" aria-label="打开正在播放">
+                            <span class="im-together-listening-art"><i class="fas fa-music"></i></span>
+                            <span class="im-together-listening-copy"><strong class="im-together-listening-title">未知歌曲</strong><small class="im-together-listening-artist">未知歌手</small></span>
+                        </button>
+                        <button class="im-together-listening-control" type="button" data-together-listening-control="toggle" aria-label="播放"><i class="fas fa-play"></i></button>
+                        <button class="im-together-listening-control" type="button" data-together-listening-control="next" aria-label="下一首"><i class="fas fa-forward-step"></i></button>
+                        <span class="im-together-listening-progress"></span>
+                    </div>
+                    <div class="reply-preview-container" style="display:none; padding: 10px 14px; background: #f2f2f7; border-radius: 18px; margin-bottom: 10px; font-size: 13px; color: #8e8e93; position: relative; margin-left: 10px; margin-right: 10px; max-width: fit-content; border: 1px solid #e5e5ea; ">
+                        <div class="reply-preview-text" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 24px; color: #333; max-width: 250px;"></div>
+                        <div class="reply-cancel-btn" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; border-radius: 50%; background: #ccc; color: #fff; display: flex; justify-content: center; align-items: center; cursor: pointer; font-size: 10px;"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="ins-chat-input-wrapper">
+                        ${isNpcChat ? '' : '<div class="ins-input-icon plus-btn"><i class="fas fa-plus"></i></div>'}
+                        <input type="text" placeholder="imessage..." class="ins-message-input chat-input" inputmode="text" enterkeyhint="send" autocomplete="off">
+                        <div class="im-chat-input-actions">
+                            <div class="send-btn-icon send-btn"><i class="fas fa-paper-plane"></i></div>
+                            <div class="send-btn-icon mic-btn"><i class="fas fa-arrow-down"></i></div>
+                        </div>
+                    </div>
+                    ${isGroupChat ? `
+                    <div class="im-left-group-bar" style="display:none; align-items:center; justify-content:space-between; gap:10px; margin:0 10px; padding:8px 10px; border-radius:22px; background:#f2f2f7; border:1px solid #e5e5ea;">
+                        <div style="font-size:14px; color:#8e8e93; font-weight:600; white-space:nowrap;">已退出该群</div>
+                        <div style="display:flex; align-items:center; gap:8px; min-width:0;">
+                            <button type="button" class="im-left-group-rejoin-btn" style="border:0; border-radius:18px; background:#007aff; color:#fff; height:34px; padding:0 12px; font-size:14px; font-weight:700; cursor:pointer; white-space:nowrap;">重新进入</button>
+                            <button type="button" class="im-left-group-ai-btn" style="border:0; border-radius:18px; background:#1c1c1e; color:#fff; height:34px; padding:0 12px; font-size:14px; font-weight:700; cursor:pointer; white-space:nowrap;">AI继续</button>
+                        </div>
+                    </div>
+                    ` : ''}
+                    <div class="chat-batch-action-bar" style="display:none; justify-content: space-between; align-items: center; padding: 15px 40px; padding-bottom: 15px; background: rgba(242, 242, 247, 0.95);   border-top: 1px solid rgba(0,0,0,0.1); position: absolute; bottom: 0; left: 0; width: 100%; z-index: 100; box-sizing: border-box;">
+                        <i class="fas fa-share batch-forward-btn" style="font-size: 22px; color: #8e8e93; cursor: pointer;"></i>
+                        <i class="far fa-star batch-star-btn" style="font-size: 22px; color: #8e8e93; cursor: pointer;"></i>
+                        <i class="far fa-trash-alt batch-delete-btn" style="font-size: 22px; color: #ff3b30; cursor: pointer;"></i>
+                    </div>
+                </div>
+            `;
+
+            if(chatsContent) chatsContent.appendChild(page);
+            if (window.imApp.applyGlobalChatCss) {
+                window.imApp.applyGlobalChatCss(window.u2ThemeState || {});
+            }
+
+            const backBtn = page.querySelector('.chat-back-btn');
+            if (backBtn) {
+                backBtn.addEventListener('click', () => {
+                    if (profilePanelOverlay) {
+                        const latestFriend = window.imApp.getFriendById(friend) || friend;
+                        window.imChat.hideProfilePanel(latestFriend, profilePanelOverlay);
+                    }
+                    window.imData.currentActiveFriend = null;
+                    window.imChat.updateChatsView();
+                });
+            }
+
+            const cancelBatchBtn = page.querySelector('.chat-cancel-batch-btn');
+            const menuBtn = page.querySelector('.chat-menu-btn');
+            const callBtn = page.querySelector('.chat-call-btn');
+            const batchActionBar = page.querySelector('.chat-batch-action-bar');
+            const inputWrapper = page.querySelector('.ins-chat-input-wrapper');
+            const batchDeleteBtn = page.querySelector('.batch-delete-btn');
+
+            function exitBatchSelectMode() {
+                window.imData.batchSelectMode = false;
+                if (cancelBatchBtn) cancelBatchBtn.style.display = 'none';
+                if (menuBtn) menuBtn.style.display = 'block';
+                if (callBtn) callBtn.style.display = 'block';
+                if (batchActionBar) batchActionBar.style.display = 'none';
+                if (inputWrapper) inputWrapper.style.display = 'flex';
+
+                const checkboxes = page.querySelectorAll('.chat-checkbox-wrapper');
+                checkboxes.forEach(cb => {
+                    cb.style.display = 'none';
+                    const icon = cb.querySelector('i');
+                    if (icon) {
+                        icon.className = 'far fa-circle';
+                        icon.style.color = '#c7c7cc';
+                    }
+                });
+            }
+
+            window.imChat.ensureTransferDetailOverlayForExistingPage(page, friend);
+            window.imChat.ensureRedPacketDetailOverlayForExistingPage(page, friend);
+
+            if (callBtn) {
+                callBtn.addEventListener('click', () => {
+                    let callOverlay = document.getElementById('custom-call-overlay');
+                    if (!callOverlay) {
+                        callOverlay = document.createElement('div');
+                        callOverlay.id = 'custom-call-overlay';
+                        callOverlay.style.position = 'fixed';
+                        callOverlay.style.inset = '0';
+                        callOverlay.style.backgroundColor = 'rgba(0,0,0,0.4)';
+                        callOverlay.style.zIndex = '10000';
+                        callOverlay.style.display = 'flex';
+                        callOverlay.style.alignItems = 'flex-end';
+                        callOverlay.style.justifyContent = 'center';
+                        
+                        const sheet = document.createElement('div');
+                        sheet.style.width = '100%';
+                        sheet.style.backgroundColor = 'transparent';
+                        sheet.style.padding = '10px';
+                        sheet.style.boxSizing = 'border-box';
+                        sheet.style.paddingBottom = 'max(10px, env(safe-area-inset-bottom))';
+                        
+                        const menuGroup = document.createElement('div');
+                        menuGroup.style.backgroundColor = '#fff';
+                        menuGroup.style.borderRadius = '14px';
+                        menuGroup.style.overflow = 'hidden';
+                        
+                        const videoBtn = document.createElement('div');
+                        videoBtn.innerText = '视频通话';
+                        videoBtn.style.padding = '18px 0';
+                        videoBtn.style.textAlign = 'center';
+                        videoBtn.style.fontSize = '20px';
+                        videoBtn.style.color = '#007aff';
+                        videoBtn.style.borderBottom = '1px solid #e5e5ea';
+                        videoBtn.style.cursor = 'pointer';
+                        videoBtn.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            callOverlay.style.display = 'none';
+                            if(window.showToast) window.showToast('视频通话功能开发中...');
+                        });
+                        
+                        const voiceBtn = document.createElement('div');
+                        voiceBtn.innerText = '语音通话';
+                        voiceBtn.style.padding = '18px 0';
+                        voiceBtn.style.textAlign = 'center';
+                        voiceBtn.style.fontSize = '20px';
+                        voiceBtn.style.color = '#007aff';
+                        voiceBtn.style.cursor = 'pointer';
+                        voiceBtn.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            callOverlay.style.display = 'none';
+                            if (window.imChat && window.imChat.openVoiceCall) {
+                                window.imChat.openVoiceCall(friend);
+                            } else {
+                                if(window.showToast) window.showToast('语音通话准备中...');
+                            }
+                        });
+                        
+                        menuGroup.appendChild(videoBtn);
+                        menuGroup.appendChild(voiceBtn);
+                        sheet.appendChild(menuGroup);
+                        callOverlay.appendChild(sheet);
+                        
+                        document.body.appendChild(callOverlay);
+                        
+                        callOverlay.addEventListener('click', (e) => {
+                            if (e.target === callOverlay) {
+                                callOverlay.style.display = 'none';
+                            }
+                        });
+                    }
+                    callOverlay.style.display = 'flex';
+                });
+            }
+
+            if (cancelBatchBtn) {
+                cancelBatchBtn.addEventListener('click', () => {
+                    exitBatchSelectMode();
+                });
+            }
+
+            if (batchDeleteBtn) {
+                batchDeleteBtn.addEventListener('click', () => {
+                    const selectedIcons = page.querySelectorAll('.chat-checkbox-wrapper i.fa-check-circle');
+                    const selectedDescriptors = Array.from(selectedIcons)
+                        .map((icon) => {
+                            const row = icon.closest('.chat-row');
+                            return {
+                                id: row?.getAttribute('data-message-id') || null,
+                                timestamp: icon.getAttribute('data-timestamp') || row?.getAttribute('data-timestamp') || null
+                            };
+                        })
+                        .filter((descriptor) => descriptor.id || descriptor.timestamp);
+                    if (selectedDescriptors.length === 0) {
+                        if(window.showToast) window.showToast('请选择要删除的消息');
+                        return;
+                    }
+                    if (window.showCustomModal) {
+                        window.showCustomModal({
+                            title: '删除消息',
+                            message: `确定要删除选中的 ${selectedDescriptors.length} 条消息吗？`,
+                            confirmText: '删除',
+                            cancelText: '取消',
+                            onConfirm: async () => {
+                                const saved = window.imApp.removeFriendMessages
+                                    ? await window.imApp.removeFriendMessages(
+                                        friend.id,
+                                        selectedDescriptors,
+                                        { silent: true }
+                                    )
+                                    : (window.imApp.commitFriendChange
+                                        ? await window.imApp.commitFriendChange(friend.id, (targetFriend) => {
+                                            if (!targetFriend || !Array.isArray(targetFriend.messages)) return;
+                                            targetFriend.messages = targetFriend.messages.filter((m) => !selectedDescriptors.some((descriptor) => {
+                                                if (!m) return true;
+                                                if (descriptor.id && String(m.id) === String(descriptor.id)) return true;
+                                                if (descriptor.timestamp && String(m.timestamp) === String(descriptor.timestamp)) return true;
+                                                return false;
+                                            }));
+                                        }, { silent: true })
+                                        : false);
+
+                                if (!saved) {
+                                    if (window.showToast) window.showToast('删除失败，消息已恢复');
+                                    const failedContainer = page.querySelector('.ins-chat-messages');
+                                    if (failedContainer) {
+                                        failedContainer.innerHTML = '';
+                                        const failedFriend = window.imApp.getFriendById ? (window.imApp.getFriendById(friend.id) || friend) : friend;
+                                        window.imChat.renderChatHistory(failedFriend, failedContainer);
+                                        window.imChat.scrollToBottom(failedContainer);
+                                    }
+                                    return;
+                                }
+
+                                const container = page.querySelector('.ins-chat-messages');
+                                if(container) {
+                                    container.innerHTML = '';
+                                    const latestFriend = window.imApp.getFriendById ? (window.imApp.getFriendById(friend.id) || friend) : friend;
+                                    window.imChat.renderChatHistory(latestFriend, container);
+                                    window.imChat.scrollToBottom(container);
+                                }
+                                exitBatchSelectMode();
+                            }
+                        });
+                    }
+                });
+            }
+
+            const msgContainerProxy = page.querySelector('.ins-chat-messages');
+            if (msgContainerProxy) {
+                msgContainerProxy.addEventListener('click', (e) => {
+                    const row = e.target.closest('.chat-row');
+
+                    if (window.imData.batchSelectMode) {
+                        e.stopPropagation();
+                        e.preventDefault();
+                        if (row) {
+                            const icon = row.querySelector('.chat-checkbox-wrapper i');
+                            if (icon) {
+                                if (icon.classList.contains('fa-circle')) {
+                                    icon.className = 'fas fa-check-circle';
+                                    icon.style.color = '#393939';
+                                } else {
+                                    icon.className = 'far fa-circle';
+                                    icon.style.color = '#c7c7cc';
+                                }
+                            }
+                        }
+                        return;
+                    }
+
+                }, true);
+            }
+
+
+            const replyCancelBtn = page.querySelector('.reply-cancel-btn');
+            if (replyCancelBtn) {
+                replyCancelBtn.addEventListener('click', () => {
+                    window.imData.currentReplyText = null;
+                    const preview = page.querySelector('.reply-preview-container');
+                    if(preview) preview.style.display = 'none';
+                });
+            }
+
+            let profilePanelOverlay = page.querySelector('.chat-profile-panel-overlay');
+            if (!profilePanelOverlay) {
+                profilePanelOverlay = document.createElement('div');
+                profilePanelOverlay.className = 'chat-profile-panel-overlay';
+                profilePanelOverlay.style.display = 'none';
+
+                page.appendChild(profilePanelOverlay);
+
+                profilePanelOverlay.addEventListener('click', (e) => {
+                    if (e.target === profilePanelOverlay) {
+                        const latestFriend = window.imApp.getFriendById(friend) || friend;
+                        window.imChat.hideProfilePanel(latestFriend, profilePanelOverlay);
+                    }
+                });
+            }
+
+            const avatarContainer = page.querySelector('.ins-chat-avatar');
+            const singleChatHeader = page.querySelector('.ins-chat-header');
+
+            function handleSingleChatProfileTrigger(e) {
+                if (friend.type === 'official' || friend.type === 'group' || friend.type === 'npc') return;
+                e.stopPropagation();
+                const latestFriend = window.imApp.getFriendById(friend) || friend;
+                window.imChat.toggleProfilePanel(latestFriend, profilePanelOverlay);
+            }
+
+            if (avatarContainer) {
+                if (friend.type === 'official' || friend.type === 'npc') {
+                    avatarContainer.style.cursor = 'default';
+                } else {
+                    avatarContainer.style.cursor = 'pointer';
+                    avatarContainer.addEventListener('click', handleSingleChatProfileTrigger);
+                }
+            }
+
+            if (singleChatHeader && friend.type !== 'group') {
+                if (friend.type === 'official' || friend.type === 'npc') {
+                    singleChatHeader.style.cursor = 'default';
+                } else {
+                    singleChatHeader.style.cursor = 'pointer';
+                    singleChatHeader.addEventListener('click', handleSingleChatProfileTrigger);
+                }
+            }
+
+            page.addEventListener('click', (e) => {
+                if (
+                    profilePanelOverlay &&
+                    profilePanelOverlay.classList.contains('active') &&
+                    !e.target.closest('.chat-profile-panel-card') &&
+                    !e.target.closest('.ins-chat-avatar') &&
+                    !e.target.closest('.ins-chat-header')
+                ) {
+                    const latestFriend = window.imApp.getFriendById(friend) || friend;
+                    window.imChat.hideProfilePanel(latestFriend, profilePanelOverlay);
+                }
+            });
+
+            if (friend.type === 'group') {
+                const rightAvatar = page.querySelector('.group-header-right-avatar');
+                if (rightAvatar) {
+                    rightAvatar.addEventListener('click', () => {
+                        if (window.imApp.openGroupDetails) {
+                            window.imApp.openGroupDetails(friend);
+                        }
+                    });
+                }
+                const header = page.querySelector('.ins-chat-header');
+                if (header) {
+                    header.addEventListener('click', () => {
+                        if (window.imApp.openGroupDetails) {
+                            window.imApp.openGroupDetails(friend);
+                        }
+                    });
+                }
+
+                // Event delegation for clicking on member avatars in group chat to show profile card
+                const messagesArea = page.querySelector('.ins-chat-messages');
+                if (messagesArea) {
+                    // Start dragging detection for keyboard dismissal
+                    let isDragging = false;
+                    let startY = 0;
+                    
+                    messagesArea.addEventListener('touchstart', (e) => {
+                        isDragging = false;
+                        startY = e.touches[0].clientY;
+                    }, { passive: true });
+                    
+                    messagesArea.addEventListener('touchmove', (e) => {
+                        if (Math.abs(e.touches[0].clientY - startY) > 10) {
+                            isDragging = true;
+                        }
+                    }, { passive: true });
+                    
+                    messagesArea.addEventListener('touchend', (e) => {
+                        if (isDragging) {
+                            // User is scrolling, dismiss keyboard
+                            const input = page.querySelector('.chat-input');
+                            if (input && document.activeElement === input) {
+                                input.blur();
+                            }
+                        }
+                        isDragging = false;
+                    }, { passive: true });
+
+                    messagesArea.addEventListener('click', (e) => {
+                        // User clicked somewhere in the chat messages area, dismiss keyboard
+                        const input = page.querySelector('.chat-input');
+                        if (input && document.activeElement === input) {
+                            input.blur();
+                        }
+                        const avatarSlot = e.target.closest('.group-ai-avatar-slot');
+                        if (avatarSlot) {
+                            const row = avatarSlot.closest('.ai-row');
+                            if (row) {
+                                const speakerName = row.getAttribute('data-speaker');
+                                const speakerMemberId = row.getAttribute('data-speaker-member-id');
+                                const thought = row.getAttribute('data-thought');
+                                if (speakerName || speakerMemberId) {
+                                    const latestGroup = window.imApp.getFriendById
+                                        ? (window.imApp.getFriendById(friend.id) || friend)
+                                        : friend;
+                                    const speakerInfo = window.imChat.normalizeGroupSpeaker
+                                        ? window.imChat.normalizeGroupSpeaker(latestGroup, speakerName, speakerMemberId)
+                                        : null;
+                                    if (speakerInfo && window.imChat.showGroupMemberProfileCard) {
+                                        window.imChat.showGroupMemberProfileCard(speakerInfo, page, avatarSlot, latestGroup, thought);
+                                    }
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+            
+            // Re-bind menuBtn properly for chat settings (whether single or group if needed, but per request it's mainly single chat setting missing)
+            if (menuBtn && friend.type !== 'group') {
+                menuBtn.addEventListener('click', () => {
+                    if (friend.type === 'official') {
+                        const officialSettingsSheet = document.getElementById('official-chat-settings-sheet');
+                        if (officialSettingsSheet) {
+                            if (window.openView) {
+                                window.openView(officialSettingsSheet);
+                            } else {
+                                officialSettingsSheet.style.display = 'flex';
+                                setTimeout(() => {
+                                    officialSettingsSheet.style.opacity = '1';
+                                    const bottomSheet = officialSettingsSheet.querySelector('.bottom-sheet');
+                                    if(bottomSheet) bottomSheet.style.transform = 'translateY(0)';
+                                }, 10);
+                            }
+                            
+                            // add empty click listener so clicking outside closes it
+                            officialSettingsSheet.onclick = (e) => {
+                                if (e.target === officialSettingsSheet) {
+                                    if (window.closeView) window.closeView(officialSettingsSheet);
+                                    else officialSettingsSheet.style.display = 'none';
+                                }
+                            };
+                        }
+                        return;
+                    }
+
+                    if (window.imApp.openChatSettingsForFriend) {
+                        window.imApp.openChatSettingsForFriend(friend);
+                    }
+                });
+            }
+
+            const input = page.querySelector('.chat-input');
+            const sendBtn = page.querySelector('.send-btn');
+            const micBtn = page.querySelector('.mic-btn');
+            const plusBtn = page.querySelector('.plus-btn');
+            const msgContainer = page.querySelector('.ins-chat-messages');
+            const togetherPlayer = page.querySelector('.im-together-listening-player');
+
+            if (togetherPlayer) {
+                togetherPlayer.querySelector('.im-together-listening-main')?.addEventListener('click', () => {
+                    window.libraryApp?.openTogetherListeningPlayer?.(friend.id);
+                });
+                togetherPlayer.querySelectorAll('[data-together-listening-control]').forEach((button) => {
+                    button.addEventListener('click', () => {
+                        const action = button.dataset.togetherListeningControl;
+                        window.libraryApp?.controlTogetherListening?.(friend.id, { action });
+                    });
+                });
+                renderTogetherListeningPlayer(friend);
+            }
+
+            const onPlusClick = (e) => {
+                if (e && typeof e.preventDefault === 'function') e.preventDefault();
+                if (input) input.blur();
+                if (window.imChat.openAttachmentSheet) {
+                    window.imChat.openAttachmentSheet();
+                }
+            };
+
+            if (plusBtn) {
+                plusBtn.addEventListener('click', onPlusClick);
+            }
+
+            if (input) {
+                if (isAndroid) {
+                    input.addEventListener('pointerdown', captureAndroidRestingViewport, { passive: true });
+                    input.addEventListener('touchstart', captureAndroidRestingViewport, { passive: true });
+                }
+
+                input.addEventListener('focus', () => {
+                    captureAndroidRestingViewport();
+                    page.classList.add('keyboard-open');
+                    const attachmentSheet = document.getElementById('chat-attachment-sheet');
+                    if (attachmentSheet) {
+                        const overlay = attachmentSheet.querySelector('.sheet-overlay');
+                        const content = attachmentSheet.querySelector('.sheet-content');
+                        if (overlay) overlay.style.opacity = '0';
+                        if (content) content.style.transform = 'translateY(100%)';
+                        attachmentSheet.style.display = 'none';
+                    }
+
+                    setTimeout(() => {
+                        if (msgContainer) msgContainer.scrollTop = msgContainer.scrollHeight;
+                    }, 100);
+                });
+
+                input.addEventListener('blur', () => {
+                    page.classList.remove('keyboard-open');
+                    if (isAndroid && !window.visualViewport) {
+                        scheduleAndroidChatViewportRestore(page, msgContainer);
+                    }
+                });
+            }
+
+            // @ mention logic variables
+            let mentionList = null;
+            let currentMentionQuery = '';
+            let mentionStartIndex = -1;
+
+            function renderMentionList(query, inputEl) {
+                if (friend.type !== 'group' || !friend.members) return;
+                
+                const listContainer = page.querySelector('.at-mention-list');
+                if (!listContainer) return;
+
+                const members = window.imChat.getGroupMemberFriends(friend);
+                const allOptions = [
+                    { id: 'all', nickname: '全体成员', isAll: true },
+                    ...members
+                ];
+
+                const filtered = allOptions.filter(m => 
+                    m.isAll || (m.nickname && m.nickname.toLowerCase().includes(query.toLowerCase()))
+                );
+
+                if (filtered.length === 0) {
+                    listContainer.style.display = 'none';
+                    return;
+                }
+
+                listContainer.innerHTML = '';
+                filtered.forEach(m => {
+                    const item = document.createElement('div');
+                    item.className = 'at-mention-item';
+                    
+                    let avatarHtml = '';
+                    if (m.isAll) {
+                        avatarHtml = `<i class="fas fa-users" style="color: #007aff;"></i>`;
+                    } else if (m.avatarUrl) {
+                        avatarHtml = `<img src="${m.avatarUrl}">`;
+                    } else {
+                        avatarHtml = `<i class="fas fa-user"></i>`;
+                    }
+
+                    item.innerHTML = `
+                        <div class="at-mention-avatar">${avatarHtml}</div>
+                        <div class="at-mention-name">${m.isAll ? m.nickname : m.nickname}</div>
+                    `;
+
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const text = inputEl.value;
+                        const before = text.substring(0, mentionStartIndex);
+                        const after = text.substring(inputEl.selectionStart);
+                        const mentionText = m.isAll ? '@全体成员 ' : `@${m.nickname} `;
+                        
+                        inputEl.value = before + mentionText + after;
+                        const newCursorPos = before.length + mentionText.length;
+                        inputEl.setSelectionRange(newCursorPos, newCursorPos);
+                        inputEl.focus();
+                        
+                        listContainer.style.display = 'none';
+                        mentionStartIndex = -1;
+                        currentMentionQuery = '';
+                    });
+
+                    listContainer.appendChild(item);
+                });
+
+                listContainer.style.display = 'flex';
+            }
+
+            input.addEventListener('input', (e) => {
+                if (friend.type !== 'group') return;
+                
+                const text = input.value;
+                const cursorPos = input.selectionStart;
+                
+                // Search backwards for the @ symbol
+                let foundAt = -1;
+                for (let i = cursorPos - 1; i >= 0; i--) {
+                    if (text[i] === '@') {
+                        foundAt = i;
+                        break;
+                    }
+                    if (text[i] === ' ' || text[i] === '\n') {
+                        break; // Stop if we hit a space before @
+                    }
+                }
+
+                if (foundAt !== -1) {
+                    mentionStartIndex = foundAt;
+                    currentMentionQuery = text.substring(foundAt + 1, cursorPos);
+                    
+                    let listContainer = page.querySelector('.at-mention-list');
+                    if (!listContainer) {
+                        listContainer = document.createElement('div');
+                        listContainer.className = 'at-mention-list';
+                        const inputWrapper = page.querySelector('.ins-chat-input-wrapper');
+                        inputWrapper.parentNode.insertBefore(listContainer, inputWrapper);
+                    }
+                    
+                    renderMentionList(currentMentionQuery, input);
+                } else {
+                    mentionStartIndex = -1;
+                    currentMentionQuery = '';
+                    const listContainer = page.querySelector('.at-mention-list');
+                    if (listContainer) listContainer.style.display = 'none';
+                }
+            });
+
+            input.addEventListener('keydown', (e) => {
+                if (e.isComposing || e.keyCode === 229) return;
+                if (e.key !== 'Enter' || e.shiftKey || e.ctrlKey || e.altKey || e.metaKey) return;
+
+                e.preventDefault();
+                const currentFriend = window.imData.currentActiveFriend || friend;
+                window.imChat.handleSend(currentFriend, input, msgContainer);
+                const listContainer = page.querySelector('.at-mention-list');
+                if (listContainer) listContainer.style.display = 'none';
+            });
+
+            let lastSendTouchAt = 0;
+
+            const onSendClick = (e, options = {}) => {
+                if (e && typeof e.preventDefault === 'function') e.preventDefault();
+                const currentFriend = window.imData.currentActiveFriend || friend;
+                window.imChat.handleSend(currentFriend, input, msgContainer);
+                const listContainer = page.querySelector('.at-mention-list');
+                if (listContainer) listContainer.style.display = 'none';
+                if (options.refocus && input) {
+                    setTimeout(() => {
+                        input.focus();
+                    }, 50);
+                }
+            };
+
+            sendBtn.addEventListener('click', (e) => {
+                if (Date.now() - lastSendTouchAt < 500) {
+                    e.preventDefault();
+                    return;
+                }
+                onSendClick(e);
+            });
+            sendBtn.addEventListener('touchstart', (e) => {
+                lastSendTouchAt = Date.now();
+                onSendClick(e, { refocus: true });
+            }, { passive: false });
+
+            const onMicClick = (e) => {
+                if (e && typeof e.preventDefault === 'function') e.preventDefault();
+                console.log('Mic button clicked!');
+                const currentFriend = window.imData.currentActiveFriend || friend;
+                if (window.imChat && window.imChat.handleAiReply) {
+                    window.imChat.handleAiReply(currentFriend, msgContainer, micBtn);
+                } else {
+                    console.error('window.imChat.handleAiReply is not defined');
+                    if (window.showToast) window.showToast('无法调用 AI 接口');
+                }
+            };
+
+            micBtn.addEventListener('mousedown', onMicClick);
+            micBtn.addEventListener('touchstart', onMicClick, { passive: false });
+
+            window.imChat.renderChatHistory(friend, msgContainer, { resetWindow: true });
+        } else {
+             // 如果页面已存在，我们需要确保已有页面的麦克风按钮能够正常触发，
+             // 但原逻辑只有在 !page 也就是创建页面时绑定了 click，
+             // 所以如果是复用的页面，原先的闭包引用的 friend 可能旧了，或者节点变了。
+             // 不过通常这种 SPA 是在元素上保留原本监听器的，所以先看看原先的逻辑。
+             window.imChat.ensureTransferDetailOverlayForExistingPage(page, friend);
+             window.imChat.ensureRedPacketDetailOverlayForExistingPage(page, friend);
+              if (isGroupChat && window.imChat.refreshGroupHeaderAvatar) {
+                  window.imChat.refreshGroupHeaderAvatar(friend);
+              }
+              const msgContainer = page.querySelector('.ins-chat-messages');
+              window.imChat.renderChatHistory(friend, msgContainer, { resetWindow: true });
+
+             // 确保在已存在页面下，麦克风按钮也能绑定点击事件，或者原先的事件中的闭包上下文能够更新
+             // 更好的做法是将最新 friend 更新给全局上下文。上面已经做了:
+             // window.imData.currentActiveFriend = activeFriend;
+             // 所以原绑定的闭包会读到最新的 window.imData.currentActiveFriend，这是有效的。
+        }
+
+        if(window.imApp.applyFriendBg) window.imApp.applyFriendBg(friend);
+        if(window.imApp.initTimestampSetting) window.imApp.initTimestampSetting(friend);
+        
+        if(page) {
+            page.classList.toggle('show-timestamps', !!friend.showTimestamp);
+            page.classList.toggle('timestamp-outside', !!friend.showTimestamp && friend.timestampPosition === 'outside');
+            
+            if(friend.isPinned) page.classList.add('pinned-chat');
+            else page.classList.remove('pinned-chat');
+            
+            // Re-apply status bar css
+            if(window.imApp.applyFriendStatusBarCss) window.imApp.applyFriendStatusBarCss(friend);
+            if (isGroupChat && window.imChat.syncGroupExitState) {
+                window.imChat.syncGroupExitState(friend, page);
+            }
+        }
+
+        if (navChatsBtn) {
+            if (navChatsBtn.classList.contains('active')) window.imChat.updateChatsView();
+            else navChatsBtn.click();
+        }
+    }
+
+function showContextMenu(row, e) {
+        const msgContextOverlay = document.getElementById('msg-context-overlay');
+        const msgContextMenu = document.getElementById('msg-context-menu');
+        
+        if (!msgContextOverlay || !msgContextMenu) return;
+        
+        if (navigator.vibrate) navigator.vibrate(50);
+        
+        window.imData.currentActiveRow = row;
+        row.classList.add('message-active');
+        
+        const bubble = row.querySelector('.chat-bubble') || row.querySelector('.sticker-message-wrap');
+        if (!bubble) return;
+        
+        const screenEl = document.getElementById('app') || document.body;
+        const screenRect = screenEl.getBoundingClientRect();
+        const sourceBubbleRect = bubble.getBoundingClientRect();
+        const isUserRow = row.classList.contains('user-row');
+        const isCardBubble = bubble.classList.contains('im-card-bubble')
+            || !!bubble.querySelector('.chat-link-card, .chat-fake-link-card, .pay-transfer-card, .voice-call-record-card');
+        
+        // Clone bubble into context menu
+        const bubbleClone = document.getElementById('msg-context-bubble-clone');
+        if (bubbleClone) {
+            bubbleClone.innerHTML = '';
+            const activeFriend = window.imData.currentActiveFriend;
+            if (activeFriend?.id != null) {
+                bubbleClone.setAttribute('data-current-friend-id', String(activeFriend.id));
+            } else {
+                bubbleClone.removeAttribute('data-current-friend-id');
+            }
+            const clonedRow = document.createElement('div');
+            clonedRow.className = [
+                'chat-row',
+                'msg-context-row-clone',
+                isUserRow ? 'user-row' : 'ai-row',
+                row.classList.contains('has-prev') ? 'has-prev' : '',
+                row.classList.contains('has-next') ? 'has-next' : ''
+            ].filter(Boolean).join(' ');
+            const clonedBubble = bubble.cloneNode(true);
+            clonedBubble.style.margin = '0';
+            if (isCardBubble) {
+                const cloneWidth = Math.max(180, Math.min(sourceBubbleRect.width || 260, 270, screenRect.width - 48));
+                clonedBubble.classList.add('msg-context-card-clone');
+                clonedBubble.style.width = cloneWidth + 'px';
+                clonedBubble.style.maxWidth = cloneWidth + 'px';
+                clonedBubble.style.flex = '0 0 auto';
+                clonedBubble.querySelectorAll('.chat-link-card, .chat-fake-link-card').forEach(card => {
+                    card.style.width = '100%';
+                    card.style.maxWidth = '100%';
+                    card.style.boxSizing = 'border-box';
+                });
+            } else {
+                clonedBubble.style.maxWidth = '100%';
+            }
+            clonedRow.appendChild(clonedBubble);
+            bubbleClone.appendChild(clonedRow);
+        }
+        
+        // Reset more actions
+        const moreActions = document.getElementById('msg-context-more-actions');
+        const mainActions = document.getElementById('msg-context-actions');
+        if (moreActions) moreActions.style.display = 'none';
+        if (mainActions) mainActions.style.display = 'flex';
+
+        const recallAction = msgContextMenu.querySelector('[data-action="recall"]');
+        if (recallAction) {
+            const activeFriend = window.imData.currentActiveFriend;
+            const messageId = row.getAttribute('data-message-id');
+            const messageTimestamp = row.getAttribute('data-timestamp');
+            const targetMessage = activeFriend && Array.isArray(activeFriend.messages)
+                ? activeFriend.messages.find(message => {
+                    if (!message) return false;
+                    if (messageId && String(message.id) === String(messageId)) return true;
+                    return messageTimestamp && String(message.timestamp) === String(messageTimestamp);
+                })
+                : null;
+            const canRecall = row.classList.contains('user-row')
+                && !!window.imApp?.isRecallableUserMessage?.(targetMessage);
+            recallAction.style.display = canRecall ? 'flex' : 'none';
+        }
+        
+        msgContextOverlay.style.display = 'flex';
+        msgContextOverlay.style.opacity = '1';
+        
+        // Position the menu centered or aligned
+        const menuWidth = Math.min(screenRect.width - 32, 300);
+        msgContextMenu.style.width = menuWidth + 'px';
+        
+        if (isUserRow) {
+            msgContextMenu.style.alignItems = 'flex-end';
+            msgContextMenu.style.right = '16px';
+            msgContextMenu.style.left = 'auto';
+        } else {
+            msgContextMenu.style.alignItems = 'flex-start';
+            msgContextMenu.style.left = '16px';
+            msgContextMenu.style.right = 'auto';
+        }
+        
+        // Vertical centering: place bubble roughly at its original position
+        const bubbleRect = bubble.getBoundingClientRect();
+        const bubbleCenterY = bubbleRect.top + bubbleRect.height / 2 - screenRect.top;
+        const clonedBubbleRect = bubbleClone?.firstElementChild?.getBoundingClientRect?.();
+        const safeBubbleHeight = Math.min(
+            clonedBubbleRect?.height || bubbleRect.height,
+            Math.max(80, screenRect.height * 0.45)
+        );
+        
+        // Estimate menu total height (reaction bar ~50 + bubble + actions ~200)
+        const estimatedMenuHeight = 50 + safeBubbleHeight + 220;
+        let topOffset = bubbleCenterY - estimatedMenuHeight / 2;
+        
+        // Clamp to screen bounds
+        if (topOffset < 60) topOffset = 60;
+        if (topOffset + estimatedMenuHeight > screenRect.height - 20) {
+            topOffset = screenRect.height - estimatedMenuHeight - 20;
+        }
+        if (topOffset < 60) topOffset = 60;
+        
+        msgContextMenu.style.top = topOffset + 'px';
+        
+        msgContextMenu.style.transformOrigin = isUserRow ? 'top right' : 'top left';
+        
+        requestAnimationFrame(() => {
+            msgContextMenu.style.opacity = '1';
+            msgContextMenu.style.transform = 'scale(1)';
+        });
+    }
+
+function closeContextMenu() {
+        const msgContextOverlay = document.getElementById('msg-context-overlay');
+        const msgContextMenu = document.getElementById('msg-context-menu');
+        
+        if (!msgContextOverlay || !msgContextMenu) return;
+        msgContextMenu.style.opacity = '0';
+        msgContextMenu.style.transform = 'scale(0.85)';
+        
+        if (window.imData.currentActiveRow) {
+            window.imData.currentActiveRow.classList.remove('message-active');
+            window.imData.currentActiveRow = null;
+        }
+        
+        setTimeout(() => {
+            msgContextOverlay.style.display = 'none';
+            // Clean up cloned bubble
+            const bubbleClone = document.getElementById('msg-context-bubble-clone');
+            if (bubbleClone) {
+                bubbleClone.innerHTML = '';
+                bubbleClone.removeAttribute('data-current-friend-id');
+            }
+        }, 250);
+    }
+
+    function showGroupMemberProfileCard(speakerInfo, page, anchorElement, group, historicalThought = null) {
+        if (!page) return;
+        const latestGroup = group && window.imApp.getFriendById
+            ? (window.imApp.getFriendById(group.id || group) || group)
+            : group;
+        const memberProfileKey = String(speakerInfo?.id ?? speakerInfo?.memberId ?? '');
+        let overlay = document.getElementById('global-gmp-overlay');
+        if (!overlay) {
+            // Mount overlay to body so it covers everything and isn't clipped
+            overlay = document.createElement('div');
+            overlay.id = 'global-gmp-overlay';
+            overlay.className = 'group-member-profile-overlay';
+            overlay.style.position = 'fixed';
+            overlay.style.top = '0';
+            overlay.style.left = '0';
+            overlay.style.width = '100%';
+            overlay.style.height = '100%';
+            overlay.style.backgroundColor = 'rgba(0,0,0,0.4)';
+            overlay.style.zIndex = '9999';
+            overlay.style.display = 'none';
+            overlay.style.opacity = '0';
+            overlay.style.transition = 'opacity 0.3s ease';
+
+            const card = document.createElement('div');
+            card.className = 'group-member-profile-card';
+            
+            overlay.appendChild(card);
+            document.body.appendChild(overlay);
+
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) {
+                    overlay.style.opacity = '0';
+                    card.classList.remove('active');
+                    setTimeout(() => overlay.style.display = 'none', 300);
+                }
+            });
+        }
+
+        const card = overlay.querySelector('.group-member-profile-card');
+        const avatarUrl = speakerInfo.avatarUrl || 'https://picsum.photos/seed/char/100/100';
+        const name = speakerInfo.nickname || '群成员';
+        const signature = speakerInfo.signature || '这个人很懒，什么都没写';
+        const title = speakerInfo.groupTitle || '';
+        
+        let groupProfile = {};
+        if (latestGroup && latestGroup.memberProfiles) {
+            groupProfile = latestGroup.memberProfiles[memberProfileKey]
+                || latestGroup.memberProfiles[speakerInfo.id]
+                || {};
+        }
+        
+        const hasHistoricalThought = typeof historicalThought === 'string' && historicalThought.trim();
+        const thought = hasHistoricalThought ? historicalThought.trim() : (groupProfile.thought || '暂无心声');
+        
+        // For group members, we check if they have individual sleeping schedules if we can retrieve them
+        let isSleeping = false;
+        const members = window.imChat.getGroupMemberFriends(latestGroup);
+        const actualMember = members.find(m => String(m.id) === memberProfileKey);
+        if (actualMember) {
+            isSleeping = window.imApp.isCharacterSleeping(actualMember);
+        }
+        
+        const status = formatStatusLabel(groupProfile.status || 'online', isSleeping);
+        const statusColor = isSleeping ? '#8e8e93' : '#34c759';
+
+        let titleHtml = title ? `<div class="gmp-title">${title}</div>` : '';
+
+        card.innerHTML = `
+            <div class="gmp-header">
+                <div class="gmp-avatar-wrapper">
+                    <div class="gmp-avatar"><img src="${avatarUrl}"></div>
+                    <div class="gmp-status-bubble" contenteditable="${isSleeping ? 'false' : 'true'}" spellcheck="false">${status}</div>
+                </div>
+            </div>
+            <div class="gmp-body">
+                <div class="gmp-name-row">
+                    <div class="gmp-name">${name}</div>
+                    ${titleHtml}
+                </div>
+                <div class="gmp-signature">${signature}</div>
+                <div class="gmp-inner-voice">${thought}</div>
+            </div>
+        `;
+
+        const statusBubble = card.querySelector('.gmp-status-bubble');
+        statusBubble.addEventListener('blur', async (e) => {
+            const nextStatus = normalizeStatusForStorage(e.target.innerText);
+            if (latestGroup) {
+                const saved = window.imApp.commitFriendChange
+                    ? await window.imApp.commitFriendChange(latestGroup.id, (targetGroup) => {
+                        if (!targetGroup) return;
+                        if (!targetGroup.memberProfiles) targetGroup.memberProfiles = {};
+                        if (!targetGroup.memberProfiles[memberProfileKey]) {
+                            targetGroup.memberProfiles[memberProfileKey] = { thought: '暂无心声', status: 'online', updatedAt: 0 };
+                        }
+                        targetGroup.memberProfiles[memberProfileKey].status = nextStatus;
+                        targetGroup.memberProfiles[memberProfileKey].updatedAt = Date.now();
+                    }, { silent: true })
+                    : false;
+
+                if (!saved) {
+                    e.target.innerText = status;
+                    if (window.showToast) window.showToast('状态保存失败');
+                    return;
+                }
+                e.target.innerText = formatStatusLabel(nextStatus, isSleeping);
+            } else {
+                // Fallback if no group context
+                e.target.innerText = status;
+            }
+        });
+
+        // Step 1: Explicitly set display flex to make it part of the render tree
+        overlay.style.display = 'block';
+        card.style.display = 'flex'; // CRITICAL FIX: Make the card itself visible
+
+        // Calculate position based on anchor element
+        if (anchorElement) {
+            const rect = anchorElement.getBoundingClientRect();
+            const cardWidth = 300;
+            const cardHeight = card.offsetHeight || 380; // approximate if 0
+
+            let top = rect.bottom + 10;
+            let left = rect.left;
+
+            // Adjust if it goes off screen
+            const viewportWidth = Math.max(
+                0,
+                window.visualViewport?.width ||
+                document.documentElement.clientWidth ||
+                window.innerWidth ||
+                0
+            );
+            const viewportHeight = Math.max(
+                0,
+                window.visualViewport?.height ||
+                document.documentElement.clientHeight ||
+                window.innerHeight ||
+                0
+            );
+
+            if (left + cardWidth > viewportWidth - 20) {
+                left = viewportWidth - cardWidth - 20;
+            }
+            if (top + cardHeight > viewportHeight - 20) {
+                top = rect.top - cardHeight - 10;
+            }
+
+            const originY = (top < rect.top) ? 'bottom' : 'top';
+            const originX = (left === rect.left) ? 'left' : 'right';
+            
+            card.style.top = top + 'px';
+            card.style.left = left + 'px';
+            card.style.transformOrigin = `${originX} ${originY}`;
+        } else {
+            card.style.top = '50%';
+            card.style.left = '50%';
+            card.style.transform = 'translate(-50%, -50%) scale(0.85)';
+            card.style.transformOrigin = 'center center';
+        }
+
+        // Step 2: Force reflow so browser registers the new display state BEFORE animating
+        void overlay.offsetHeight;
+        void card.offsetHeight;
+        
+        // Step 3: Trigger the transition
+        overlay.style.opacity = '1';
+        card.classList.add('active');
+        
+        // Cleanup translation for anchor if needed after scale animation is triggered
+        if (anchorElement) {
+            card.style.transform = 'scale(1)';
+        }
+    }
+
+    window.imChat.openChatTab = openChatTab;
+    window.imChat.showContextMenu = showContextMenu;
+    window.imChat.closeContextMenu = closeContextMenu;
+    window.imChat.showGroupMemberProfileCard = showGroupMemberProfileCard;
+
+});
+
+

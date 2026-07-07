@@ -1,1 +1,212 @@
-function _0x4b79(_0x4a2a7c,_0x421d1a){_0x4a2a7c=_0x4a2a7c-0x8c;const _0x59bd6b=_0x59bd();let _0x4b7982=_0x59bd6b[_0x4a2a7c];return _0x4b7982;}function _0x59bd(){const _0x251f3f=['metaKey','keyboard-open','visualViewport','restingHeight','viewportWidth','isComposing','get','preventDefault','keyCode','delete','resize','blurAfterSend','4448313qPzpba','focusin','input','innerHeight','removeEventListener','root','abs','mobileInputCompat','documentElement','height','2785VXefWP','round','3697918WSGnuT','Enter','touchstart','function','onSend','target','enterkeyhint','addEventListener','scrollTop','8oYqrek','1362752KgmxoK','error','value','altKey','scrollHeight','scroll','focus','max','userAgent','blur','classList','innerWidth','keyboardWasOpen','multiline','restoreWindowScroll','catch','shiftKey','filter','7097624FDKCdl','test','cleanup','key','restoreTimers','set','trim','enterKeyHint','width','isConnected','openClasses','onRestore','ctrlKey','body','forEach','60dLTmKf','10969277oHVGrF','scrollContainer','7110rtBlWp','closeTolerance','6621138wPkXXm','openThreshold','allowEmpty','activeElement','[mobileInputCompat]\x20send\x20failed','2TGuvkE','pointerdown'];_0x59bd=function(){return _0x251f3f;};return _0x59bd();}(function(_0x17dc09,_0x36f96d){const _0x59395d=_0x4b79,_0x1524ed=_0x17dc09();while(!![]){try{const _0x1c5818=-parseInt(_0x59395d(0x94))/0x1+-parseInt(_0x59395d(0xbf))/0x2*(parseInt(_0x59395d(0xcd))/0x3)+-parseInt(_0x59395d(0xa6))/0x4+parseInt(_0x59395d(0xd7))/0x5*(-parseInt(_0x59395d(0xb8))/0x6)+-parseInt(_0x59395d(0xd9))/0x7+parseInt(_0x59395d(0x93))/0x8*(parseInt(_0x59395d(0xba))/0x9)+parseInt(_0x59395d(0xb5))/0xa*(parseInt(_0x59395d(0xb6))/0xb);if(_0x1c5818===_0x36f96d)break;else _0x1524ed['push'](_0x1524ed['shift']());}catch(_0xbfe153){_0x1524ed['push'](_0x1524ed['shift']());}}}(_0x59bd,0xde554),(function(){const _0xc5636d=_0x4b79,_0x1570d7=/Android/i[_0xc5636d(0xa7)](navigator[_0xc5636d(0x9c)]||''),_0x3160ad=new Map();let _0x971d3b=null,_0x4268c6=![];function _0x519618(_0x1a0f0c){const _0x16bfb1=_0xc5636d;if(typeof _0x1a0f0c===_0x16bfb1(0x8d))return _0x1a0f0c()||null;if(typeof _0x1a0f0c==='string')return document['querySelector'](_0x1a0f0c);return _0x1a0f0c||null;}function _0x2230c0(){const _0x59d030=_0xc5636d,_0x4e4276=window['visualViewport'];return{'height':Math[_0x59d030(0xd8)](_0x4e4276?.['height']||window[_0x59d030(0xd0)]||0x0),'width':Math['round'](_0x4e4276?.[_0x59d030(0xae)]||window[_0x59d030(0x9f)]||0x0)};}function _0x18a3e4(_0x4c528a,_0x5dc33a={}){const _0x1c9ff6=_0xc5636d;if(!_0x4c528a||_0x4c528a[_0x1c9ff6(0xa9)]!==_0x1c9ff6(0xda))return![];if(_0x4c528a[_0x1c9ff6(0xc6)]||_0x4c528a[_0x1c9ff6(0xc9)]===0xe5)return![];if(_0x4c528a[_0x1c9ff6(0xb2)]||_0x4c528a[_0x1c9ff6(0xc1)]||_0x4c528a[_0x1c9ff6(0x97)])return![];if(_0x4c528a['shiftKey'])return![];if(_0x5dc33a[_0x1c9ff6(0xa1)]&&_0x4c528a[_0x1c9ff6(0xa4)])return![];return!![];}function _0x5dadd1(_0x114916){const _0x49b485=_0xc5636d;if(!_0x1570d7||!_0x114916)return;const _0x330036=_0x2230c0();if(_0x330036[_0x49b485(0xae)]>0x0&&Math['abs'](_0x330036[_0x49b485(0xae)]-_0x114916[_0x49b485(0xc5)])>0x30){_0x114916['viewportWidth']=_0x330036[_0x49b485(0xae)],_0x114916[_0x49b485(0xc4)]=_0x330036[_0x49b485(0xd6)],_0x114916[_0x49b485(0xa0)]=![];return;}_0x114916[_0x49b485(0xc5)]=_0x330036[_0x49b485(0xae)]||_0x114916[_0x49b485(0xc5)],_0x114916[_0x49b485(0xc4)]=Math[_0x49b485(0x9b)](_0x114916[_0x49b485(0xc4)],_0x330036[_0x49b485(0xd6)]);}function _0x374161(_0x5d3024){const _0x463523=_0xc5636d;if(!_0x1570d7||!_0x5d3024||!_0x5d3024[_0x463523(0xcf)][_0x463523(0xaf)])return;const _0x2a2d80=_0x519618(_0x5d3024[_0x463523(0xd2)]),_0x238edc=_0x519618(_0x5d3024['scrollContainer']);_0x2a2d80?.[_0x463523(0x9e)]&&_0x5d3024[_0x463523(0xb0)][_0x463523(0xb4)](_0x27629a=>_0x2a2d80[_0x463523(0x9e)]['remove'](_0x27629a)),_0x5d3024[_0x463523(0xa2)]&&(window['scrollTo'](0x0,0x0),document[_0x463523(0xd5)][_0x463523(0x92)]=0x0,document[_0x463523(0xb3)][_0x463523(0x92)]=0x0),requestAnimationFrame(()=>{const _0x3c8a90=_0x463523;if(_0x238edc)_0x238edc[_0x3c8a90(0x92)]=_0x238edc[_0x3c8a90(0x98)];if(typeof _0x5d3024[_0x3c8a90(0xb1)]===_0x3c8a90(0x8d))_0x5d3024['onRestore'](_0x5d3024);});}function _0x15615a(_0x3dd808){const _0x181a6b=_0xc5636d;_0x3dd808[_0x181a6b(0xaa)][_0x181a6b(0xb4)](_0x141870=>clearTimeout(_0x141870)),_0x3dd808[_0x181a6b(0xaa)]=[],[0x0,0x3c,0xb4,0x168][_0x181a6b(0xb4)](_0x6d362e=>{_0x3dd808['restoreTimers']['push'](setTimeout(()=>_0x374161(_0x3dd808),_0x6d362e));});}function _0x2c55cf(){const _0x304818=_0xc5636d,_0x5d1784=_0x971d3b;if(!_0x1570d7||!_0x5d1784||!_0x5d1784[_0x304818(0xcf)][_0x304818(0xaf)])return;const _0x426022=_0x2230c0();if(Math[_0x304818(0xd3)](_0x426022[_0x304818(0xae)]-_0x5d1784[_0x304818(0xc5)])>0x30){_0x5d1784[_0x304818(0xc5)]=_0x426022[_0x304818(0xae)],_0x5d1784['restingHeight']=_0x426022['height'],_0x5d1784[_0x304818(0xa0)]=![];return;}const _0x4922ae=document[_0x304818(0xbd)]===_0x5d1784['input'];!_0x4922ae&&!_0x5d1784[_0x304818(0xa0)]&&(_0x5d1784['restingHeight']=Math[_0x304818(0x9b)](_0x5d1784[_0x304818(0xc4)],_0x426022[_0x304818(0xd6)]));if(_0x4922ae&&_0x5d1784['restingHeight']-_0x426022[_0x304818(0xd6)]>_0x5d1784[_0x304818(0xbb)]){_0x5d1784[_0x304818(0xa0)]=!![];return;}_0x5d1784[_0x304818(0xa0)]&&_0x426022[_0x304818(0xd6)]>=_0x5d1784['restingHeight']-_0x5d1784[_0x304818(0xb9)]&&(_0x5d1784[_0x304818(0xa0)]=![],_0x5d1784[_0x304818(0xc4)]=Math[_0x304818(0x9b)](_0x5d1784[_0x304818(0xc4)],_0x426022['height']),_0x15615a(_0x5d1784));}function _0x4ccdf8(){const _0xf48d38=_0xc5636d;if(!_0x1570d7||!window[_0xf48d38(0xc3)]||_0x4268c6)return;_0x4268c6=!![],window['visualViewport']['addEventListener'](_0xf48d38(0xcb),_0x2c55cf,{'passive':!![]}),window[_0xf48d38(0xc3)]['addEventListener'](_0xf48d38(0x99),_0x2c55cf,{'passive':!![]});}function _0x4f1ed0(_0x405389={}){const _0x3b0e88=_0xc5636d,_0x25792e=_0x519618(_0x405389[_0x3b0e88(0xcf)]);if(!_0x25792e)return function(){};const _0x188b21=_0x3160ad[_0x3b0e88(0xc7)](_0x25792e);if(_0x188b21)_0x188b21[_0x3b0e88(0xa8)]();const _0x21fbac={'input':_0x25792e,'root':_0x405389[_0x3b0e88(0xd2)]||null,'scrollContainer':_0x405389[_0x3b0e88(0xb7)]||null,'onSend':typeof _0x405389[_0x3b0e88(0x8e)]===_0x3b0e88(0x8d)?_0x405389[_0x3b0e88(0x8e)]:null,'onRestore':typeof _0x405389[_0x3b0e88(0xb1)]==='function'?_0x405389[_0x3b0e88(0xb1)]:null,'allowEmpty':!!_0x405389[_0x3b0e88(0xbc)],'multiline':!!_0x405389[_0x3b0e88(0xa1)],'blurAfterSend':!!_0x405389[_0x3b0e88(0xcc)],'restoreWindowScroll':_0x405389['restoreWindowScroll']!==![],'openClasses':Array['isArray'](_0x405389['openClasses'])?_0x405389[_0x3b0e88(0xb0)][_0x3b0e88(0xa5)](Boolean):[_0x3b0e88(0xc2)],'openThreshold':Number(_0x405389[_0x3b0e88(0xbb)])||0x64,'closeTolerance':Number(_0x405389[_0x3b0e88(0xb9)])||0x48,'restingHeight':0x0,'viewportWidth':0x0,'keyboardWasOpen':![],'restoreTimers':[],'cleanup':null};_0x405389[_0x3b0e88(0xad)]!==![]&&_0x25792e['setAttribute'](_0x3b0e88(0x90),_0x405389['enterKeyHint']||'send');const _0x11b9bc=()=>{_0x971d3b=_0x21fbac,_0x5dadd1(_0x21fbac);},_0x328af1=_0x39f544=>{const _0x4ad223=_0x3b0e88;if(!_0x18a3e4(_0x39f544,_0x21fbac))return;_0x39f544[_0x4ad223(0xc8)]();const _0x51c2cb=String(_0x25792e[_0x4ad223(0x96)]||'')[_0x4ad223(0xac)]();if(!_0x21fbac[_0x4ad223(0xbc)]&&!_0x51c2cb)return;if(!_0x21fbac[_0x4ad223(0x8e)])return;try{const _0x4bfa89=_0x21fbac[_0x4ad223(0x8e)]({'event':_0x39f544,'input':_0x25792e,'text':_0x51c2cb});_0x4bfa89&&typeof _0x4bfa89[_0x4ad223(0xa3)]===_0x4ad223(0x8d)&&_0x4bfa89['catch'](_0x3963ce=>console[_0x4ad223(0x95)](_0x4ad223(0xbe),_0x3963ce));}catch(_0x45dadc){console[_0x4ad223(0x95)](_0x4ad223(0xbe),_0x45dadc);}if(_0x21fbac[_0x4ad223(0xcc)])_0x25792e[_0x4ad223(0x9d)]();},_0x21579f=()=>{const _0xc8364d=_0x3b0e88;if(_0x1570d7&&!window[_0xc8364d(0xc3)])_0x15615a(_0x21fbac);};return _0x25792e[_0x3b0e88(0x91)](_0x3b0e88(0xc0),_0x11b9bc,{'passive':!![]}),_0x25792e[_0x3b0e88(0x91)](_0x3b0e88(0x8c),_0x11b9bc,{'passive':!![]}),_0x25792e[_0x3b0e88(0x91)](_0x3b0e88(0x9a),_0x11b9bc),_0x25792e['addEventListener'](_0x3b0e88(0x9d),_0x21579f),_0x25792e[_0x3b0e88(0x91)]('keydown',_0x328af1),_0x21fbac[_0x3b0e88(0xa8)]=()=>{const _0x36d95d=_0x3b0e88;_0x21fbac['restoreTimers']['forEach'](_0xb1f58d=>clearTimeout(_0xb1f58d)),_0x25792e[_0x36d95d(0xd1)](_0x36d95d(0xc0),_0x11b9bc),_0x25792e[_0x36d95d(0xd1)](_0x36d95d(0x8c),_0x11b9bc),_0x25792e[_0x36d95d(0xd1)]('focus',_0x11b9bc),_0x25792e[_0x36d95d(0xd1)](_0x36d95d(0x9d),_0x21579f),_0x25792e[_0x36d95d(0xd1)]('keydown',_0x328af1),_0x3160ad[_0x36d95d(0xca)](_0x25792e);if(_0x971d3b===_0x21fbac)_0x971d3b=null;},_0x3160ad[_0x3b0e88(0xab)](_0x25792e,_0x21fbac),_0x5dadd1(_0x21fbac),_0x4ccdf8(),_0x21fbac[_0x3b0e88(0xa8)];}document[_0xc5636d(0x91)](_0xc5636d(0xce),_0x4b0553=>{const _0x3ed8bc=_0xc5636d,_0x3f8af5=_0x3160ad[_0x3ed8bc(0xc7)](_0x4b0553[_0x3ed8bc(0x8f)]);if(_0x3f8af5)_0x971d3b=_0x3f8af5,_0x5dadd1(_0x3f8af5);else _0x971d3b&&!_0x971d3b['keyboardWasOpen']&&(_0x971d3b=null);},!![]),window[_0xc5636d(0xd4)]={'isAndroid':_0x1570d7,'isSendEnter':_0x18a3e4,'register':_0x4f1ed0,'unregister'(_0x4c6cf9){const _0x1a41de=_0xc5636d,_0x1c3452=_0x519618(_0x4c6cf9);_0x3160ad[_0x1a41de(0xc7)](_0x1c3452)?.[_0x1a41de(0xa8)]();}};}()));
+(function() {
+    const isAndroid = /Android/i.test(navigator.userAgent || '');
+    const registrations = new Map();
+    let activeEntry = null;
+    let viewportListenersBound = false;
+
+    function resolveElement(value) {
+        if (typeof value === 'function') return value() || null;
+        if (typeof value === 'string') return document.querySelector(value);
+        return value || null;
+    }
+
+    function getViewportMetrics() {
+        const viewport = window.visualViewport;
+        return {
+            height: Math.round(viewport?.height || window.innerHeight || 0),
+            width: Math.round(viewport?.width || window.innerWidth || 0)
+        };
+    }
+
+    function isSendEnter(event, options = {}) {
+        if (!event || event.key !== 'Enter') return false;
+        if (event.isComposing || event.keyCode === 229) return false;
+        if (event.ctrlKey || event.metaKey || event.altKey) return false;
+        if (event.shiftKey) return false;
+        if (options.multiline && event.shiftKey) return false;
+        return true;
+    }
+
+    function captureRestingViewport(entry) {
+        if (!isAndroid || !entry) return;
+        const metrics = getViewportMetrics();
+        if (metrics.width > 0 && Math.abs(metrics.width - entry.viewportWidth) > 48) {
+            entry.viewportWidth = metrics.width;
+            entry.restingHeight = metrics.height;
+            entry.keyboardWasOpen = false;
+            return;
+        }
+        entry.viewportWidth = metrics.width || entry.viewportWidth;
+        entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+    }
+
+    function restoreEntry(entry) {
+        if (!isAndroid || !entry || !entry.input.isConnected) return;
+        const root = resolveElement(entry.root);
+        const scrollContainer = resolveElement(entry.scrollContainer);
+
+        if (root?.classList) {
+            entry.openClasses.forEach(className => root.classList.remove(className));
+        }
+
+        if (entry.restoreWindowScroll) {
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        }
+
+        requestAnimationFrame(() => {
+            if (scrollContainer) scrollContainer.scrollTop = scrollContainer.scrollHeight;
+            if (typeof entry.onRestore === 'function') entry.onRestore(entry);
+        });
+    }
+
+    function scheduleRestore(entry) {
+        entry.restoreTimers.forEach(timer => clearTimeout(timer));
+        entry.restoreTimers = [];
+        [0, 60, 180, 360].forEach(delay => {
+            entry.restoreTimers.push(setTimeout(() => restoreEntry(entry), delay));
+        });
+    }
+
+    function handleViewportChange() {
+        const entry = activeEntry;
+        if (!isAndroid || !entry || !entry.input.isConnected) return;
+
+        const metrics = getViewportMetrics();
+        if (Math.abs(metrics.width - entry.viewportWidth) > 48) {
+            entry.viewportWidth = metrics.width;
+            entry.restingHeight = metrics.height;
+            entry.keyboardWasOpen = false;
+            return;
+        }
+
+        const inputFocused = document.activeElement === entry.input;
+        if (!inputFocused && !entry.keyboardWasOpen) {
+            entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+        }
+
+        if (inputFocused && entry.restingHeight - metrics.height > entry.openThreshold) {
+            entry.keyboardWasOpen = true;
+            return;
+        }
+
+        if (entry.keyboardWasOpen && metrics.height >= entry.restingHeight - entry.closeTolerance) {
+            entry.keyboardWasOpen = false;
+            entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+            scheduleRestore(entry);
+        }
+    }
+
+    function bindViewportListeners() {
+        if (!isAndroid || !window.visualViewport || viewportListenersBound) return;
+        viewportListenersBound = true;
+        window.visualViewport.addEventListener('resize', handleViewportChange, { passive: true });
+        window.visualViewport.addEventListener('scroll', handleViewportChange, { passive: true });
+    }
+
+    function register(options = {}) {
+        const input = resolveElement(options.input);
+        if (!input) return function() {};
+
+        const existing = registrations.get(input);
+        if (existing) existing.cleanup();
+
+        const entry = {
+            input,
+            root: options.root || null,
+            scrollContainer: options.scrollContainer || null,
+            onSend: typeof options.onSend === 'function' ? options.onSend : null,
+            onRestore: typeof options.onRestore === 'function' ? options.onRestore : null,
+            allowEmpty: !!options.allowEmpty,
+            multiline: !!options.multiline,
+            blurAfterSend: !!options.blurAfterSend,
+            restoreWindowScroll: options.restoreWindowScroll !== false,
+            openClasses: Array.isArray(options.openClasses)
+                ? options.openClasses.filter(Boolean)
+                : ['keyboard-open'],
+            openThreshold: Number(options.openThreshold) || 100,
+            closeTolerance: Number(options.closeTolerance) || 72,
+            restingHeight: 0,
+            viewportWidth: 0,
+            keyboardWasOpen: false,
+            restoreTimers: [],
+            cleanup: null
+        };
+
+        if (options.enterKeyHint !== false) {
+            input.setAttribute('enterkeyhint', options.enterKeyHint || 'send');
+        }
+
+        const activate = () => {
+            activeEntry = entry;
+            captureRestingViewport(entry);
+        };
+
+        const handleKeydown = (event) => {
+            if (!isSendEnter(event, entry)) return;
+            event.preventDefault();
+
+            const text = String(input.value || '').trim();
+            if (!entry.allowEmpty && !text) return;
+            if (!entry.onSend) return;
+
+            try {
+                const result = entry.onSend({ event, input, text });
+                if (result && typeof result.catch === 'function') {
+                    result.catch(error => console.error('[mobileInputCompat] send failed', error));
+                }
+            } catch (error) {
+                console.error('[mobileInputCompat] send failed', error);
+            }
+
+            if (entry.blurAfterSend) input.blur();
+        };
+
+        const handleBlur = () => {
+            if (isAndroid && !window.visualViewport) scheduleRestore(entry);
+        };
+
+        input.addEventListener('pointerdown', activate, { passive: true });
+        input.addEventListener('touchstart', activate, { passive: true });
+        input.addEventListener('focus', activate);
+        input.addEventListener('blur', handleBlur);
+        input.addEventListener('keydown', handleKeydown);
+
+        entry.cleanup = () => {
+            entry.restoreTimers.forEach(timer => clearTimeout(timer));
+            input.removeEventListener('pointerdown', activate);
+            input.removeEventListener('touchstart', activate);
+            input.removeEventListener('focus', activate);
+            input.removeEventListener('blur', handleBlur);
+            input.removeEventListener('keydown', handleKeydown);
+            registrations.delete(input);
+            if (activeEntry === entry) activeEntry = null;
+        };
+
+        registrations.set(input, entry);
+        captureRestingViewport(entry);
+        bindViewportListeners();
+        return entry.cleanup;
+    }
+
+    document.addEventListener('focusin', (event) => {
+        const entry = registrations.get(event.target);
+        if (entry) {
+            activeEntry = entry;
+            captureRestingViewport(entry);
+        } else if (activeEntry && !activeEntry.keyboardWasOpen) {
+            activeEntry = null;
+        }
+    }, true);
+
+    window.mobileInputCompat = {
+        isAndroid,
+        isSendEnter,
+        register,
+        unregister(input) {
+            const element = resolveElement(input);
+            registrations.get(element)?.cleanup();
+        }
+    };
+})();

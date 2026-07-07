@@ -1,1 +1,143 @@
-function _0x4704(_0x26a129,_0xb4de01){_0x26a129=_0x26a129-0x183;const _0x482a1f=_0x482a();let _0x47045f=_0x482a1f[_0x26a129];return _0x47045f;}(function(_0x108568,_0x330dae){const _0x47cdff=_0x4704,_0x351d73=_0x108568();while(!![]){try{const _0x94a4=parseInt(_0x47cdff(0x194))/0x1*(-parseInt(_0x47cdff(0x18b))/0x2)+-parseInt(_0x47cdff(0x189))/0x3+parseInt(_0x47cdff(0x19e))/0x4+parseInt(_0x47cdff(0x197))/0x5*(parseInt(_0x47cdff(0x1a2))/0x6)+-parseInt(_0x47cdff(0x192))/0x7+-parseInt(_0x47cdff(0x19b))/0x8*(parseInt(_0x47cdff(0x1ac))/0x9)+parseInt(_0x47cdff(0x183))/0xa*(parseInt(_0x47cdff(0x18f))/0xb);if(_0x94a4===_0x330dae)break;else _0x351d73['push'](_0x351d73['shift']());}catch(_0x3f357c){_0x351d73['push'](_0x351d73['shift']());}}}(_0x482a,0x1dbb2),(function(){const _0x1ca61c=_0x4704,_0x2c7daf=_0x1ca61c(0x191),_0x213ee6={'enabled':![],'permission':typeof Notification!==_0x1ca61c(0x193)?Notification[_0x1ca61c(0x19d)]:_0x1ca61c(0x1ab)};let _0x41ce9e=_0x2ee408(_0x151a0b());function _0x2ee408(_0x42bc5a){const _0x133dd8=_0x1ca61c,_0x54adca=_0x42bc5a&&typeof _0x42bc5a==='object'?_0x42bc5a:{};return{'enabled':!!_0x54adca[_0x133dd8(0x19f)],'permission':_0x453f93()};}function _0x453f93(){const _0x37754d=_0x1ca61c;if(typeof Notification===_0x37754d(0x193))return _0x37754d(0x1ab);return Notification[_0x37754d(0x19d)];}function _0x151a0b(){const _0x165ef5=_0x1ca61c;try{if(window['StorageManager']&&typeof window[_0x165ef5(0x198)]['load']===_0x165ef5(0x18e))return window[_0x165ef5(0x198)]['load'](_0x2c7daf,_0x213ee6);const _0x718c32=window[_0x165ef5(0x1ad)]?window['localStorage'][_0x165ef5(0x1a1)](_0x2c7daf):null;return _0x718c32?JSON[_0x165ef5(0x18a)](_0x718c32):_0x213ee6;}catch(_0x22399f){return console[_0x165ef5(0x1a6)](_0x165ef5(0x185),_0x22399f),_0x213ee6;}}function _0x58cbce(){const _0x1ebeb3=_0x1ca61c;try{if(window[_0x1ebeb3(0x198)]&&typeof window['StorageManager']['save']===_0x1ebeb3(0x18e)){window[_0x1ebeb3(0x198)][_0x1ebeb3(0x18d)](_0x2c7daf,_0x41ce9e);return;}window['localStorage']&&window[_0x1ebeb3(0x1ad)][_0x1ebeb3(0x19c)](_0x2c7daf,JSON[_0x1ebeb3(0x1ae)](_0x41ce9e));}catch(_0x1b3e37){console['warn']('[system_notifications]\x20Failed\x20to\x20save\x20settings:',_0x1b3e37);}}function _0x4f7072(){const _0x2f48e2=_0x1ca61c;return _0x41ce9e[_0x2f48e2(0x19d)]=_0x453f93(),(_0x41ce9e[_0x2f48e2(0x19d)]==='denied'||_0x41ce9e['permission']===_0x2f48e2(0x1ab))&&(_0x41ce9e[_0x2f48e2(0x19f)]=![],_0x58cbce()),{..._0x41ce9e};}async function _0x5afcf5(_0x3903a5={}){const _0x477259=_0x1ca61c,_0x26aa48=!!_0x3903a5[_0x477259(0x19f)];if(_0x453f93()==='unsupported')return _0x41ce9e={'enabled':![],'permission':'unsupported'},_0x58cbce(),{..._0x41ce9e,'unsupported':!![]};let _0x2fe0de=_0x453f93();if(_0x26aa48&&_0x2fe0de==='default')try{_0x2fe0de=await Notification['requestPermission']();}catch(_0x18d64e){console['warn'](_0x477259(0x1af),_0x18d64e),_0x2fe0de=_0x453f93();}return _0x41ce9e={'enabled':_0x26aa48&&_0x2fe0de==='granted','permission':_0x2fe0de},_0x58cbce(),{..._0x41ce9e};}function _0xfdca2b(_0x5325fd={}){const _0x2bd062=_0x1ca61c,_0x530de1=_0x5325fd['friend']||{},_0x11be94=_0x5325fd[_0x2bd062(0x1a0)]||{};return _0x11be94[_0x2bd062(0x186)]||_0x11be94[_0x2bd062(0x1a8)]||_0x530de1['nickname']||_0x530de1['realName']||_0x530de1[_0x2bd062(0x1a5)]||_0x530de1[_0x2bd062(0x1a4)]||_0x2bd062(0x190);}function _0x494f9a(_0x2fd569={}){const _0x297720=_0x1ca61c,_0x4647e6=_0x2fd569[_0x297720(0x1a0)]||{},_0xeca269=window['imApp']?.[_0x297720(0x1aa)]?window['imApp'][_0x297720(0x1aa)](_0x4647e6):_0x4647e6['content']||_0x4647e6[_0x297720(0x18c)]||_0x4647e6[_0x297720(0x1a0)]||'';return String(_0xeca269||_0x297720(0x1a9))[_0x297720(0x19a)](/\s+/g,'\x20')['trim']()[_0x297720(0x1b1)](0x0,0xb4);}function _0x3318f4(_0x16f97f={}){const _0x3cad9e=_0x1ca61c,_0x85ecc4=_0x4f7072();if(!_0x85ecc4[_0x3cad9e(0x19f)]||_0x85ecc4[_0x3cad9e(0x19d)]!==_0x3cad9e(0x1a7))return![];const _0x36c7d9=_0x16f97f['friend']||{},_0x378318=_0xfdca2b(_0x16f97f),_0x13ac9d=_0x494f9a(_0x16f97f),_0x2447aa=_0x16f97f[_0x3cad9e(0x1a0)]?.['id']?_0x3cad9e(0x187)+_0x16f97f[_0x3cad9e(0x1a0)]['id']:_0x3cad9e(0x187)+(_0x36c7d9['id']||Date[_0x3cad9e(0x199)]()),_0x3e1139={'body':_0x13ac9d,'tag':_0x2447aa,'renotify':!![],'icon':_0x36c7d9[_0x3cad9e(0x195)]||_0x3cad9e(0x196),'badge':'assets/moren.jpg','data':{'app':'imessage','friendId':_0x36c7d9['id']||null,'messageId':_0x16f97f[_0x3cad9e(0x1a0)]?.['id']||null}};try{const _0x5d9f2c=new Notification(_0x378318,_0x3e1139);return _0x5d9f2c[_0x3cad9e(0x1a3)]=()=>{const _0x3fff28=_0x3cad9e;window[_0x3fff28(0x184)](),_0x5d9f2c[_0x3fff28(0x188)]();},!![];}catch(_0x486a95){return console[_0x3cad9e(0x1a6)](_0x3cad9e(0x1b0),_0x486a95),![];}}window['u2SystemNotifications']={'getSettings':_0x4f7072,'updateSettings':_0x5afcf5,'notifyIncomingMessage':_0x3318f4};}()));function _0x482a(){const _0x28dd06=['169450eAFnAA','StorageManager','now','replace','1674408RYOIwJ','setItem','permission','146916LDYCoV','enabled','message','getItem','18OCWJEp','onclick','name','realname','warn','granted','senderName','新消息','getFriendMessagePreview','unsupported','9CKWGPS','localStorage','stringify','[system_notifications]\x20Failed\x20to\x20request\x20permission:','[system_notifications]\x20Failed\x20to\x20show\x20notification:','slice','183500WFvgUg','focus','[system_notifications]\x20Failed\x20to\x20load\x20settings:','speaker','imessage-','close','458586IbWzcn','parse','36636XgmeUA','text','save','function','363sJgyQs','iMessage','u2_systemNotificationSettings','1435378oknnEj','undefined','3HhDhqS','avatarUrl','assets/moren.jpg'];_0x482a=function(){return _0x28dd06;};return _0x482a();}
+// Real browser/system notifications for incoming app messages.
+(function () {
+    const STORAGE_KEY = 'u2_systemNotificationSettings';
+
+    const defaults = {
+        enabled: false,
+        permission: typeof Notification !== 'undefined' ? Notification.permission : 'unsupported'
+    };
+
+    let settings = normalize(loadSettings());
+
+    function normalize(value) {
+        const safe = value && typeof value === 'object' ? value : {};
+        return {
+            enabled: !!safe.enabled,
+            permission: getPermission()
+        };
+    }
+
+    function getPermission() {
+        if (typeof Notification === 'undefined') return 'unsupported';
+        return Notification.permission;
+    }
+
+    function loadSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(STORAGE_KEY, defaults);
+            }
+
+            const raw = window.localStorage ? window.localStorage.getItem(STORAGE_KEY) : null;
+            return raw ? JSON.parse(raw) : defaults;
+        } catch (error) {
+            console.warn('[system_notifications] Failed to load settings:', error);
+            return defaults;
+        }
+    }
+
+    function saveSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(STORAGE_KEY, settings);
+                return;
+            }
+
+            if (window.localStorage) {
+                window.localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
+            }
+        } catch (error) {
+            console.warn('[system_notifications] Failed to save settings:', error);
+        }
+    }
+
+    function getSettings() {
+        settings.permission = getPermission();
+        if (settings.permission === 'denied' || settings.permission === 'unsupported') {
+            settings.enabled = false;
+            saveSettings();
+        }
+        return { ...settings };
+    }
+
+    async function updateSettings(nextSettings = {}) {
+        const wantsEnabled = !!nextSettings.enabled;
+
+        if (getPermission() === 'unsupported') {
+            settings = { enabled: false, permission: 'unsupported' };
+            saveSettings();
+            return { ...settings, unsupported: true };
+        }
+
+        let permission = getPermission();
+        if (wantsEnabled && permission === 'default') {
+            try {
+                permission = await Notification.requestPermission();
+            } catch (error) {
+                console.warn('[system_notifications] Failed to request permission:', error);
+                permission = getPermission();
+            }
+        }
+
+        settings = {
+            enabled: wantsEnabled && permission === 'granted',
+            permission
+        };
+        saveSettings();
+        return { ...settings };
+    }
+
+    function resolveTitle(payload = {}) {
+        const friend = payload.friend || {};
+        const message = payload.message || {};
+        return message.speaker || message.senderName || friend.nickname || friend.realName || friend.realname || friend.name || 'iMessage';
+    }
+
+    function resolveBody(payload = {}) {
+        const message = payload.message || {};
+        const preview = window.imApp?.getFriendMessagePreview
+            ? window.imApp.getFriendMessagePreview(message)
+            : (message.content || message.text || message.message || '');
+        return String(preview || '新消息').replace(/\s+/g, ' ').trim().slice(0, 180);
+    }
+
+    function notifyIncomingMessage(payload = {}) {
+        const current = getSettings();
+        if (!current.enabled || current.permission !== 'granted') return false;
+
+        const friend = payload.friend || {};
+        const title = resolveTitle(payload);
+        const body = resolveBody(payload);
+        const tag = payload.message?.id ? `imessage-${payload.message.id}` : `imessage-${friend.id || Date.now()}`;
+        const options = {
+            body,
+            tag,
+            renotify: true,
+            icon: friend.avatarUrl || 'assets/moren.jpg',
+            badge: 'assets/moren.jpg',
+            data: {
+                app: 'imessage',
+                friendId: friend.id || null,
+                messageId: payload.message?.id || null
+            }
+        };
+
+        try {
+            const notification = new Notification(title, options);
+            notification.onclick = () => {
+                window.focus();
+                notification.close();
+            };
+            return true;
+        } catch (error) {
+            console.warn('[system_notifications] Failed to show notification:', error);
+            return false;
+        }
+    }
+
+    window.u2SystemNotifications = {
+        getSettings,
+        updateSettings,
+        notifyIncomingMessage
+    };
+})();

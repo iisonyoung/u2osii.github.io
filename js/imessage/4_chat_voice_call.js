@@ -1,1 +1,1620 @@
-function _0x71dd(_0x446799,_0x146414){_0x446799=_0x446799-0x85;const _0x39fd77=_0x39fd();let _0x71dd34=_0x39fd77[_0x446799];return _0x71dd34;}(function(_0x22166c,_0x4c1858){const _0x3374d4=_0x71dd,_0x2d36db=_0x22166c();while(!![]){try{const _0x55592d=-parseInt(_0x3374d4(0x14e))/0x1*(-parseInt(_0x3374d4(0x18b))/0x2)+parseInt(_0x3374d4(0x10d))/0x3+parseInt(_0x3374d4(0x106))/0x4+parseInt(_0x3374d4(0x1e3))/0x5*(-parseInt(_0x3374d4(0x20c))/0x6)+-parseInt(_0x3374d4(0x1f4))/0x7*(parseInt(_0x3374d4(0x1ed))/0x8)+parseInt(_0x3374d4(0x1b3))/0x9*(-parseInt(_0x3374d4(0x178))/0xa)+parseInt(_0x3374d4(0x11a))/0xb;if(_0x55592d===_0x4c1858)break;else _0x2d36db['push'](_0x2d36db['shift']());}catch(_0xf615b9){_0x2d36db['push'](_0x2d36db['shift']());}}}(_0x39fd,0xc5104),(function(){const _0xd4717d=_0x71dd;window[_0xd4717d(0xf1)]=window['imChat']||{};let _0x26a557=null,_0x75f84f=0x0,_0x1b4a58=null,_0x523a55=[],_0x83e103=0x0,_0x20bfdb=null;function _0x10d3a2(_0x392dd0){const _0x43842a=_0xd4717d,_0x4464d1=Math[_0x43842a(0x16b)](_0x392dd0/0x3c)['toString']()[_0x43842a(0xbb)](0x2,'0'),_0xd63cbf=(_0x392dd0%0x3c)[_0x43842a(0x20a)]()[_0x43842a(0xbb)](0x2,'0');return _0x4464d1+':'+_0xd63cbf;}let _0x150088=null;function _0x3a1755(_0x1e6136,_0x5a0aa5){const _0x18f36c=_0xd4717d;_0x75f84f=0x0;if(_0x1e6136)_0x1e6136[_0x18f36c(0x169)]='00:00';if(_0x5a0aa5)_0x5a0aa5[_0x18f36c(0x169)]=_0x18f36c(0x1fb);_0x26a557=setInterval(()=>{const _0x324491=_0x18f36c;_0x75f84f++;const _0x1ba40a=_0x10d3a2(_0x75f84f);if(_0x1e6136)_0x1e6136[_0x324491(0x169)]=_0x1ba40a;if(_0x5a0aa5)_0x5a0aa5['innerText']=_0x1ba40a;if(_0x150088)_0x150088[_0x324491(0x169)]=_0x1ba40a;},0x3e8);}function _0x55596a(){_0x26a557&&(clearInterval(_0x26a557),_0x26a557=null);}function _0x2b34de(_0x35e0c4,_0x5b90e4=_0x1b4a58){const _0x305dbe=_0xd4717d;if(_0x35e0c4?.[_0x305dbe(0x1fc)])return _0x35e0c4[_0x305dbe(0x1fc)];if(_0x35e0c4?.[_0x305dbe(0xea)])return window['userState']?.[_0x305dbe(0x137)]||window[_0x305dbe(0x1ee)]?.['realName']||_0x305dbe(0x188);if(_0x5b90e4?.[_0x305dbe(0xe5)]===_0x305dbe(0x1d6)&&_0x35e0c4?.['senderId']){const _0xf6f3db=(window[_0x305dbe(0x8c)]?.[_0x305dbe(0x1c2)]||[])[_0x305dbe(0x94)](_0x19d72e=>String(_0x19d72e['id'])===String(_0x35e0c4['senderId']));if(_0xf6f3db)return _0xf6f3db[_0x305dbe(0x1b6)]||_0xf6f3db[_0x305dbe(0x16c)]||_0x305dbe(0x211);}return _0x5b90e4?.[_0x305dbe(0x1b6)]||_0x5b90e4?.[_0x305dbe(0x16c)]||_0x305dbe(0x1f5);}function _0x39f776(_0x5a9efc){const _0x4c2832=_0xd4717d,_0x4813af=String(_0x5a9efc||'')[_0x4c2832(0x1d2)]();return _0x4813af?'「'+_0x4813af+'」':'';}function _0x54f9a0(_0x5bd37f,_0x104762={}){const _0x664323=_0xd4717d,_0x44c609=document[_0x664323(0x136)](_0x664323(0x128));_0x44c609[_0x664323(0xca)]['width']=_0x664323(0x85),_0x44c609[_0x664323(0xca)]['marginBottom']=_0x664323(0xee),_0x44c609[_0x664323(0xca)][_0x664323(0x1bd)]=_0x664323(0x14b),_0x44c609[_0x664323(0xca)][_0x664323(0x1a3)]=_0x664323(0xba);const _0x533c1c=document[_0x664323(0x136)](_0x664323(0x128));if(_0x104762['callTurnId'])_0x533c1c['dataset'][_0x664323(0x195)]=_0x104762[_0x664323(0x195)];if(_0x104762[_0x664323(0x1cb)])_0x533c1c[_0x664323(0x155)]['callLineType']=_0x104762[_0x664323(0x1cb)];_0x533c1c[_0x664323(0xca)][_0x664323(0xc0)]=_0x664323(0x85),_0x533c1c[_0x664323(0xca)]['display']=_0x664323(0x14b),_0x533c1c['style']['alignItems']='flex-start',_0x533c1c['style'][_0x664323(0x1aa)]=_0x664323(0x1d0),_0x533c1c['style'][_0x664323(0x98)]='8px',_0x533c1c['style'][_0x664323(0xe1)]=_0x664323(0xfa),_0x533c1c['style']['boxSizing']='border-box',_0x533c1c[_0x664323(0xca)]['fontSize']=_0x104762[_0x664323(0x1c7)]||'15px',_0x533c1c[_0x664323(0xca)][_0x664323(0x1ae)]='1.55',_0x533c1c['style'][_0x664323(0x18e)]=_0x104762[_0x664323(0x18e)]||_0x664323(0x1ba),_0x533c1c[_0x664323(0xca)][_0x664323(0x180)]='left',_0x533c1c['style'][_0x664323(0x10f)]=_0x664323(0x93);const _0x447fbb=document[_0x664323(0x136)]('div');_0x447fbb[_0x664323(0xca)][_0x664323(0x118)]='0',_0x447fbb[_0x664323(0xca)]['flex']='1',_0x447fbb['style'][_0x664323(0x1d1)]=_0x664323(0x95);if(_0x104762[_0x664323(0x8b)]){const _0x43fc02=document[_0x664323(0x136)]('span');_0x43fc02['style'][_0x664323(0x1bd)]='inline-block',_0x43fc02[_0x664323(0xca)][_0x664323(0xe1)]=_0x664323(0x170),_0x43fc02[_0x664323(0xca)][_0x664323(0x124)]=_0x664323(0x196),_0x43fc02['style'][_0x664323(0xec)]=_0x664323(0x11e),_0x43fc02[_0x664323(0xca)][_0x664323(0x1c7)]=_0x664323(0x1f6),_0x43fc02[_0x664323(0xca)][_0x664323(0x1c4)]=_0x664323(0x1e2),_0x43fc02[_0x664323(0xca)][_0x664323(0x18d)]=_0x664323(0x161),_0x104762[_0x664323(0xea)]?(_0x43fc02[_0x664323(0xca)][_0x664323(0xae)]=_0x664323(0xf0),_0x43fc02[_0x664323(0xca)][_0x664323(0x18e)]=_0x664323(0x1ba)):(_0x43fc02['style'][_0x664323(0xae)]='rgba(255,\x20255,\x20255,\x200.15)',_0x43fc02[_0x664323(0xca)]['color']=_0x664323(0x1ba)),_0x43fc02[_0x664323(0x169)]='@'+_0x104762[_0x664323(0x8b)],_0x447fbb[_0x664323(0x117)](_0x43fc02),_0x447fbb[_0x664323(0x117)](document[_0x664323(0x123)](_0x5bd37f));}else _0x447fbb[_0x664323(0x169)]=_0x5bd37f;_0x533c1c['appendChild'](_0x447fbb);const _0x9f79f6=document[_0x664323(0x136)](_0x664323(0x128));_0x9f79f6[_0x664323(0xca)][_0x664323(0x1bd)]=_0x664323(0x14b),_0x9f79f6[_0x664323(0xca)][_0x664323(0x98)]='4px',_0x9f79f6[_0x664323(0xca)][_0x664323(0x1c0)]='0';if(_0x104762[_0x664323(0x186)]){const _0x47cf5f=document[_0x664323(0x136)](_0x664323(0xfb));_0x47cf5f[_0x664323(0xe5)]=_0x664323(0xfb),_0x47cf5f[_0x664323(0x18f)]=_0x664323(0x127),_0x47cf5f[_0x664323(0xca)][_0x664323(0xc0)]=_0x664323(0xf5),_0x47cf5f[_0x664323(0xca)][_0x664323(0x1b5)]=_0x664323(0xf5),_0x47cf5f['style'][_0x664323(0x15d)]='1px\x20solid\x20rgba(255,255,255,0.35)',_0x47cf5f[_0x664323(0xca)][_0x664323(0x124)]=_0x664323(0x12b),_0x47cf5f[_0x664323(0xca)]['background']='rgba(255,255,255,0.14)',_0x47cf5f['style'][_0x664323(0x18e)]=_0x664323(0x1ba),_0x47cf5f[_0x664323(0xca)][_0x664323(0x1bd)]=_0x664323(0xd7),_0x47cf5f[_0x664323(0xca)][_0x664323(0x1a9)]=_0x664323(0xfd),_0x47cf5f[_0x664323(0xca)]['justifyContent']='center',_0x47cf5f[_0x664323(0xca)][_0x664323(0x1f2)]=_0x664323(0x17b),_0x47cf5f[_0x664323(0xca)][_0x664323(0xe1)]='0',_0x47cf5f[_0x664323(0xca)]['fontSize']='12px',_0x47cf5f['innerText']='译';const _0xd902ea=document['createElement'](_0x664323(0x128));_0xd902ea[_0x664323(0xca)][_0x664323(0xe1)]=_0x664323(0x1a2),_0xd902ea[_0x664323(0xca)][_0x664323(0x1c7)]=_0x664323(0x16e),_0xd902ea['style']['color']=_0x664323(0x17e),_0xd902ea[_0x664323(0xca)][_0x664323(0x1bd)]=_0x664323(0x122),_0xd902ea['style']['marginTop']='4px',_0xd902ea['innerText']=_0x104762[_0x664323(0x186)],_0x47cf5f[_0x664323(0x176)](_0x664323(0x103),_0x21609c=>{const _0x49e38a=_0x664323;_0x21609c['preventDefault'](),_0x21609c[_0x49e38a(0x11f)](),_0xd902ea['style']['display']=_0xd902ea['style'][_0x49e38a(0x1bd)]===_0x49e38a(0x122)?_0x49e38a(0xd4):_0x49e38a(0x122);}),_0x9f79f6[_0x664323(0x117)](_0x47cf5f),_0x44c609[_0x664323(0x153)]=_0xd902ea;}return _0x104762[_0x664323(0x12c)]&&_0x9f79f6[_0x664323(0x117)](_0x104762['voiceButton']),_0x9f79f6[_0x664323(0x19c)][_0x664323(0x121)]>0x0&&_0x533c1c[_0x664323(0x117)](_0x9f79f6),_0x44c609[_0x664323(0x117)](_0x533c1c),_0x44c609[_0x664323(0x153)]&&_0x44c609[_0x664323(0x117)](_0x44c609[_0x664323(0x153)]),_0x44c609;}function _0x482d5e(_0x4875c3,_0x3943a9,_0x215e54=_0x1b4a58){const _0x5371fa=_0xd4717d,_0x23b16c=document[_0x5371fa(0x136)]('button');return _0x23b16c['type']=_0x5371fa(0xfb),_0x23b16c[_0x5371fa(0x18f)]='播放语音',_0x23b16c[_0x5371fa(0x9e)](_0x5371fa(0xb4),'播放语音'),_0x23b16c[_0x5371fa(0xca)]['width']=_0x5371fa(0xf5),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x1b5)]=_0x5371fa(0xf5),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x15d)]='1px\x20solid\x20rgba(255,255,255,0.35)',_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x124)]=_0x5371fa(0x12b),_0x23b16c['style'][_0x5371fa(0xae)]=_0x5371fa(0x1d9),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x18e)]='#fff',_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x1bd)]=_0x5371fa(0xd7),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x1a9)]=_0x5371fa(0xfd),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x1aa)]=_0x5371fa(0xfd),_0x23b16c[_0x5371fa(0xca)][_0x5371fa(0x1f2)]=_0x5371fa(0x17b),_0x23b16c['style'][_0x5371fa(0x1c0)]='0',_0x23b16c['style']['padding']='0',_0x23b16c[_0x5371fa(0x1ad)]=_0x5371fa(0x168),_0x23b16c[_0x5371fa(0x176)](_0x5371fa(0x103),async _0x522751=>{const _0x2c847f=_0x5371fa;_0x522751[_0x2c847f(0x194)](),_0x522751[_0x2c847f(0x11f)]();if(!window[_0x2c847f(0x1e8)]||typeof window['u2MinimaxTts'][_0x2c847f(0x108)]!==_0x2c847f(0x111)){if(window[_0x2c847f(0x1fd)])window[_0x2c847f(0x1fd)](_0x2c847f(0x173));return;}_0x23b16c[_0x2c847f(0xca)]['opacity']=_0x2c847f(0x152),_0x23b16c[_0x2c847f(0xca)][_0x2c847f(0xeb)]=_0x2c847f(0x122);try{await window['u2MinimaxTts']['speakTextCached'](_0x4875c3,_0x215e54,_0x3943a9);}catch(_0x404086){console['error'](_0x2c847f(0xa7),_0x404086);if(window[_0x2c847f(0x1fd)])window[_0x2c847f(0x1fd)]('语音播放失败');}finally{_0x23b16c[_0x2c847f(0xca)][_0x2c847f(0xac)]='1',_0x23b16c['style'][_0x2c847f(0xeb)]='auto';}}),_0x23b16c;}function _0x2e74aa(_0x72defb,_0x54ad31,_0x3d371e,_0x714575='',_0x45544a='',_0x2f4094=''){const _0x4a358d=_0xd4717d,_0x465b3c=_0x4a358d(0x90)+Date['now']()+'-'+ ++_0x83e103,_0x55a17d={'text':_0x72defb,'actionText':_0x714575,'thoughtText':_0x45544a,'translationText':_0x2f4094,'isSelf':_0x54ad31,'timestamp':Date['now'](),'callTurnId':_0x465b3c};_0x523a55[_0x4a358d(0x9d)](_0x55a17d);_0x714575&&_0x3d371e&&_0x3d371e[_0x4a358d(0x117)](_0x54f9a0(_0x714575,{'callTurnId':_0x465b3c,'callLineType':_0x4a358d(0x97)}));_0x45544a&&_0x3d371e&&_0x3d371e[_0x4a358d(0x117)](_0x54f9a0(_0x45544a,{'callTurnId':_0x465b3c,'callLineType':_0x4a358d(0x20b),'color':_0x4a358d(0x183),'fontSize':_0x4a358d(0x16e)}));if(_0x72defb&&_0x3d371e){const _0x17a94a=_0x2b34de(_0x55a17d);_0x3d371e[_0x4a358d(0x117)](_0x54f9a0(_0x39f776(_0x72defb),{'voiceButton':_0x54ad31?null:_0x482d5e(_0x72defb,_0x55a17d),'callTurnId':_0x465b3c,'callLineType':_0x4a358d(0xce),'speakerName':_0x17a94a,'isSelf':_0x54ad31,'translationText':_0x2f4094}));}return _0x3d371e&&(_0x3d371e['scrollTop']=_0x3d371e[_0x4a358d(0x115)]),_0x55a17d;}window[_0xd4717d(0xf1)]['openVoiceCall']=function(_0x3c5aa8,_0x3be9aa=![]){const _0x1ee4ee=_0xd4717d,_0xc4c8d3=document[_0x1ee4ee(0xd5)](_0x1ee4ee(0x1a1));if(!_0xc4c8d3)return;const _0x5ae778=_0xc4c8d3['cloneNode'](!![]);_0xc4c8d3[_0x1ee4ee(0xb2)]['replaceChild'](_0x5ae778,_0xc4c8d3);const _0x543193=_0x5ae778[_0x1ee4ee(0x138)]('#voice-call-minimize-btn'),_0x4a4ff7=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0xa0)),_0x19eb53=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0xcc)),_0x2ae822=_0x5ae778[_0x1ee4ee(0x138)]('#voice-call-name'),_0x3fe5fc=_0x5ae778[_0x1ee4ee(0x138)]('#voice-call-status'),_0x5aa12d=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x159)),_0x2cdd18=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x1b8)),_0x2c57c2=_0x5ae778['querySelector'](_0x1ee4ee(0x10b)),_0x436e4a=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x1b7)),_0x5eca2a=_0x5ae778[_0x1ee4ee(0x138)]('#voice-call-send-btn'),_0x529cd1=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x1cd)),_0x5a030b=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x181)),_0x358b0a=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x1a4)),_0x23136c=_0x5ae778['querySelector'](_0x1ee4ee(0x18c)),_0x383c36=_0x5ae778['querySelector']('#voice-call-minimized-float'),_0x1e6a05=_0x5ae778[_0x1ee4ee(0x138)]('#voice-call-main-content'),_0x5810d0=_0x5ae778['querySelector'](_0x1ee4ee(0x167)),_0x3f7921=_0x5ae778['querySelector']('#voice-call-info-area');_0x150088=_0x5ae778[_0x1ee4ee(0x138)](_0x1ee4ee(0x1dd)),_0x1b4a58=_0x3c5aa8,_0x523a55=[],_0x83e103=0x0,_0x20bfdb=null;if(_0x5aa12d)_0x5aa12d['innerHTML']='';if(_0x436e4a)_0x436e4a[_0x1ee4ee(0xb3)]='';if(_0x3c5aa8['avatarUrl']){_0x4a4ff7&&(_0x4a4ff7[_0x1ee4ee(0x12a)]=_0x3c5aa8[_0x1ee4ee(0x125)],_0x4a4ff7['style'][_0x1ee4ee(0x1bd)]='block');if(_0x19eb53)_0x19eb53[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x122);}else{_0x4a4ff7&&(_0x4a4ff7['src']='',_0x4a4ff7[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x122));if(_0x19eb53)_0x19eb53['style']['display']=_0x1ee4ee(0xd4);}if(_0x2ae822)_0x2ae822[_0x1ee4ee(0x169)]=_0x3c5aa8[_0x1ee4ee(0x1b6)]||'对方';_0x5ae778[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x14b),_0x5ae778['style'][_0x1ee4ee(0xac)]='1',_0x5ae778[_0x1ee4ee(0xca)]['pointerEvents']=_0x1ee4ee(0xf4),_0x5ae778[_0x1ee4ee(0x18a)]['add'](_0x1ee4ee(0x197));if(_0x383c36&&_0x1e6a05){_0x383c36[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]='none',_0x1e6a05[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x14b),_0x1e6a05[_0x1ee4ee(0xca)][_0x1ee4ee(0xac)]='1',_0x1e6a05['style'][_0x1ee4ee(0xeb)]='auto';if(_0x5810d0)_0x5810d0[_0x1ee4ee(0xca)][_0x1ee4ee(0xac)]='1';}_0x3f7921&&(_0x3f7921[_0x1ee4ee(0xca)][_0x1ee4ee(0x88)]=_0x1ee4ee(0x1ac));if(window[_0x1ee4ee(0x1f9)])window[_0x1ee4ee(0x1f9)](_0x5ae778);let _0x1105c4=![],_0x16b9ed=null;_0x3be9aa?(_0x3fe5fc['innerText']=_0x1ee4ee(0x160),_0x2cdd18[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x122),_0x23136c[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x14b)):(_0x3fe5fc[_0x1ee4ee(0x169)]='正在呼叫...',_0x2cdd18[_0x1ee4ee(0xca)][_0x1ee4ee(0x1bd)]='none',_0x23136c['style'][_0x1ee4ee(0x1bd)]=_0x1ee4ee(0x122),_0x16b9ed=setTimeout(()=>{_0x3e878c();},0x7d0));function _0x3e878c(){const _0x4f894b=_0x1ee4ee;_0x1105c4=!![],_0x2cdd18[_0x4f894b(0xca)][_0x4f894b(0x1bd)]=_0x4f894b(0x14b),_0x23136c[_0x4f894b(0xca)][_0x4f894b(0x1bd)]=_0x4f894b(0x122),_0x3fe5fc[_0x4f894b(0x169)]='00:00',_0x3f7921&&(_0x3f7921[_0x4f894b(0xca)][_0x4f894b(0x88)]=_0x4f894b(0x1c6)),_0x3a1755(_0x3fe5fc,_0x150088);}_0x23136c&&_0x23136c[_0x1ee4ee(0x176)](_0x1ee4ee(0x103),_0x3e878c);function _0x2e3951(){const _0x42494f=_0x1ee4ee;if(_0x16b9ed)clearTimeout(_0x16b9ed);const _0x44399c=_0x1105c4?_0x75f84f:0x0,_0x5cbe9b=[..._0x523a55],_0x35191f=_0x1105c4?_0x42494f(0x87):_0x3be9aa?_0x42494f(0x12f):_0x42494f(0x16a),_0x21e7de=_0x1b4a58;_0x55596a(),_0x150088=null,_0x5ae778[_0x42494f(0xca)][_0x42494f(0x1bd)]=_0x42494f(0x122),_0x5ae778[_0x42494f(0xca)][_0x42494f(0xac)]='0',_0x5ae778[_0x42494f(0xca)]['pointerEvents']='none',_0x5ae778['classList'][_0x42494f(0x1ef)](_0x42494f(0x197));if(window[_0x42494f(0xb9)])window[_0x42494f(0xb9)](_0x5ae778);if(_0x21e7de){const _0x3cfdfc=!_0x3be9aa,_0x30debb={'id':Date['now']()[_0x42494f(0x20a)](),'type':'voice_call_record','role':_0x3cfdfc?_0x42494f(0x1f3):'assistant','content':_0x42494f(0xdc),'senderId':_0x3cfdfc?window[_0x42494f(0x8c)][_0x42494f(0x8d)]?window[_0x42494f(0x8c)][_0x42494f(0x8d)]['id']:'me':_0x21e7de['id'],'timestamp':Date[_0x42494f(0x91)](),'duration':_0x44399c,'callMessages':_0x5cbe9b,'isSelf':_0x3cfdfc,'statusText':_0x35191f};if(window[_0x42494f(0x114)]&&window[_0x42494f(0x114)][_0x42494f(0x1bc)]){window['imApp'][_0x42494f(0x1bc)](_0x21e7de['id'],_0x30debb);const _0x45ccf1=_0x42494f(0x164)+_0x1b4a58['id'],_0x2346af=document['getElementById'](_0x45ccf1);if(_0x2346af){const _0xb5fdef=_0x2346af[_0x42494f(0x138)](_0x42494f(0x1a0));_0xb5fdef&&window['imChat']['appendMessageToContainer']&&(window[_0x42494f(0xf1)]['appendMessageToContainer'](_0x1b4a58,_0xb5fdef,_0x30debb),window[_0x42494f(0xf1)]['scrollToBottom'](_0xb5fdef));}}}_0x1b4a58=null;}_0x5a030b&&_0x5a030b[_0x1ee4ee(0x176)](_0x1ee4ee(0x103),_0x2e3951);_0x543193&&_0x383c36&&_0x1e6a05&&_0x543193['addEventListener'](_0x1ee4ee(0x103),()=>{const _0x1bbc1f=_0x1ee4ee;_0x1e6a05['style']['opacity']='0',_0x1e6a05['style']['pointerEvents']=_0x1bbc1f(0x122);if(_0x5810d0)_0x5810d0[_0x1bbc1f(0xca)][_0x1bbc1f(0xac)]='0';setTimeout(()=>{const _0x2701b7=_0x1bbc1f;_0x1e6a05[_0x2701b7(0xca)][_0x2701b7(0x1bd)]=_0x2701b7(0x122),_0x383c36['style'][_0x2701b7(0x1bd)]=_0x2701b7(0x14b);},0x12c),_0x5ae778[_0x1bbc1f(0xca)][_0x1bbc1f(0xeb)]=_0x1bbc1f(0x122),_0x383c36['style'][_0x1bbc1f(0x1db)]=_0x1bbc1f(0x102),_0x383c36['style'][_0x1bbc1f(0xf6)]=_0x1bbc1f(0x11c),_0x383c36['style'][_0x1bbc1f(0x158)]=_0x1bbc1f(0xf4),_0x383c36[_0x1bbc1f(0xca)]['bottom']=_0x1bbc1f(0xf4);});if(_0x383c36&&_0x1e6a05){let _0x2dac58=![],_0x44a803,_0x2e3236,_0x2f33fe,_0x438535;const _0x5aa963=_0x10c843=>{const _0x84e5bc=_0x1ee4ee;_0x2dac58=![];const _0x25f3ea=_0x10c843[_0x84e5bc(0xe5)][_0x84e5bc(0x146)](_0x84e5bc(0x1b1))?_0x10c843[_0x84e5bc(0xd8)][0x0]:_0x10c843;_0x44a803=_0x25f3ea[_0x84e5bc(0x13d)],_0x2e3236=_0x25f3ea[_0x84e5bc(0x1d3)];const _0x19f448=_0x383c36['getBoundingClientRect']();_0x2f33fe=_0x19f448[_0x84e5bc(0x158)],_0x438535=_0x19f448[_0x84e5bc(0xf6)],_0x383c36['style'][_0x84e5bc(0x110)]=_0x84e5bc(0x122),_0x383c36[_0x84e5bc(0xca)]['right']=_0x84e5bc(0xf4),_0x383c36[_0x84e5bc(0xca)][_0x84e5bc(0xc1)]=_0x84e5bc(0xf4),_0x383c36[_0x84e5bc(0xca)]['left']=_0x2f33fe+'px',_0x383c36['style']['top']=_0x438535+'px',document[_0x84e5bc(0x176)](_0x84e5bc(0x112),_0x27da3b,{'passive':![]}),document['addEventListener']('touchmove',_0x27da3b,{'passive':![]}),document[_0x84e5bc(0x176)]('mouseup',_0x410708),document[_0x84e5bc(0x176)]('touchend',_0x410708);},_0x27da3b=_0x60a3e4=>{const _0x9afcbf=_0x1ee4ee,_0x49158d=_0x60a3e4[_0x9afcbf(0xe5)][_0x9afcbf(0x146)](_0x9afcbf(0x1b1))?_0x60a3e4[_0x9afcbf(0xd8)][0x0]:_0x60a3e4,_0x1e56c8=_0x49158d[_0x9afcbf(0x13d)]-_0x44a803,_0x9b79a6=_0x49158d[_0x9afcbf(0x1d3)]-_0x2e3236;(Math[_0x9afcbf(0x1ec)](_0x1e56c8)>0x5||Math[_0x9afcbf(0x1ec)](_0x9b79a6)>0x5)&&(_0x2dac58=!![]);if(_0x2dac58){_0x60a3e4[_0x9afcbf(0x194)]();let _0x34285f=_0x2f33fe+_0x1e56c8,_0x3d97d4=_0x438535+_0x9b79a6;const _0x3d4240=window[_0x9afcbf(0x140)]-_0x383c36[_0x9afcbf(0x1f1)],_0x2ec8f7=window['innerHeight']-_0x383c36[_0x9afcbf(0x126)];_0x34285f=Math[_0x9afcbf(0x19d)](0x0,Math[_0x9afcbf(0x1f8)](_0x34285f,_0x3d4240)),_0x3d97d4=Math[_0x9afcbf(0x19d)](0x0,Math[_0x9afcbf(0x1f8)](_0x3d97d4,_0x2ec8f7)),_0x383c36['style'][_0x9afcbf(0x158)]=_0x34285f+'px',_0x383c36['style'][_0x9afcbf(0xf6)]=_0x3d97d4+'px';}},_0x410708=()=>{const _0x254cb9=_0x1ee4ee;_0x383c36[_0x254cb9(0xca)][_0x254cb9(0x110)]='all\x200.3s\x20ease',document[_0x254cb9(0x11b)]('mousemove',_0x27da3b),document[_0x254cb9(0x11b)]('touchmove',_0x27da3b),document[_0x254cb9(0x11b)](_0x254cb9(0xaa),_0x410708),document[_0x254cb9(0x11b)]('touchend',_0x410708);};_0x383c36['addEventListener'](_0x1ee4ee(0x19b),_0x5aa963),_0x383c36[_0x1ee4ee(0x176)](_0x1ee4ee(0x189),_0x5aa963,{'passive':![]}),_0x383c36[_0x1ee4ee(0x176)](_0x1ee4ee(0x103),_0x2ab548=>{const _0x3d2a83=_0x1ee4ee;if(_0x2dac58){_0x2ab548[_0x3d2a83(0x11f)](),_0x2ab548['preventDefault']();return;}_0x383c36[_0x3d2a83(0xca)][_0x3d2a83(0x1bd)]=_0x3d2a83(0x122),_0x1e6a05['style'][_0x3d2a83(0x1bd)]=_0x3d2a83(0x14b);if(_0x5810d0)_0x5810d0[_0x3d2a83(0xca)][_0x3d2a83(0xac)]='1';setTimeout(()=>{const _0x17b755=_0x3d2a83;_0x1e6a05[_0x17b755(0xca)][_0x17b755(0xac)]='1',_0x1e6a05[_0x17b755(0xca)][_0x17b755(0xeb)]=_0x17b755(0xf4);},0xa),_0x5ae778['style'][_0x3d2a83(0xeb)]='auto';});}_0x5eca2a&&_0x436e4a&&_0x5aa12d&&_0x5eca2a[_0x1ee4ee(0x176)](_0x1ee4ee(0x103),async()=>{const _0xd75ada=_0x1ee4ee;if(!_0x1105c4)return;const _0x51274e=_0x436e4a[_0xd75ada(0xb3)][_0xd75ada(0x1d2)]();if(!_0x51274e||!_0x1b4a58)return;_0x2e74aa(_0x51274e,!![],_0x5aa12d),_0x20bfdb=null,_0x436e4a['value']='';if(window[_0xd75ada(0xf1)][_0xd75ada(0x206)])await window['imChat']['handleCallApiReply'](_0x1b4a58,_0x51274e,(_0x2ffb41,_0x3037ae)=>_0x2e74aa(_0x2ffb41,_0x3037ae,_0x5aa12d));else window[_0xd75ada(0xf1)][_0xd75ada(0x193)]&&setTimeout(()=>{const _0x230aaa=_0xd75ada;_0x2e74aa(window[_0x230aaa(0xf1)]['generateMockReply'](_0x1b4a58,_0x51274e),![],_0x5aa12d);},0x3e8);});function _0x30be9d(_0x386248,_0x575c5d){const _0x36b2a0=_0x1ee4ee;if(!_0x386248?.['message']?.[_0x36b2a0(0x195)]||!_0x575c5d)return;_0x575c5d['querySelectorAll'](_0x36b2a0(0xef)+_0x386248[_0x36b2a0(0xc6)][_0x36b2a0(0x195)]+'\x22]')[_0x36b2a0(0x1b9)](_0x5a9551=>_0x5a9551['remove']());}function _0x4b5c8f(_0x366a4a){const _0x19af50=_0x1ee4ee;return _0x366a4a?_0x19af50(0xf8)+_0x366a4a:'';}async function _0x3b7d77(_0x329f7b={}){const _0x104263=_0x1ee4ee,_0x1b2271=_0x329f7b[_0x104263(0x120)]?_0x358b0a:_0x529cd1;if(!_0x1105c4||!_0x1b4a58||!_0x5aa12d)return;const {apiConfig:_0x316cf3,userState:_0x1a08e6}=window;if(!_0x316cf3||!_0x316cf3[_0x104263(0xbc)]||!_0x316cf3[_0x104263(0x15c)]){if(window['showToast'])window['showToast']('请先配置\x20API');return;}let _0x215239=null;if(_0x329f7b['regenerate']){if(!_0x20bfdb?.['message']){if(window[_0x104263(0x1fd)])window[_0x104263(0x1fd)](_0x104263(0x147));return;}_0x215239={'previousAction':_0x20bfdb['message']['actionText']||'','previousThought':_0x20bfdb['message'][_0x104263(0x1bb)]||'','previousText':_0x20bfdb[_0x104263(0xc6)][_0x104263(0xce)]||'','previousReply':[_0x20bfdb[_0x104263(0xc6)]['actionText']?_0x104263(0x157)+_0x20bfdb[_0x104263(0xc6)]['actionText']:'',_0x20bfdb[_0x104263(0xc6)][_0x104263(0x1bb)]?'心声：'+_0x20bfdb[_0x104263(0xc6)]['thoughtText']:'',_0x20bfdb[_0x104263(0xc6)][_0x104263(0xce)]?'对话：'+_0x20bfdb[_0x104263(0xc6)][_0x104263(0xce)]:'']['filter'](Boolean)[_0x104263(0x185)]('\x0a')},_0x30be9d(_0x20bfdb,_0x5aa12d),_0x523a55=_0x523a55['filter'](_0x82716d=>_0x82716d!==_0x20bfdb[_0x104263(0xc6)]),_0x20bfdb=null;}_0x1b2271&&(_0x1b2271[_0x104263(0xca)][_0x104263(0xac)]=_0x104263(0x99),_0x1b2271[_0x104263(0xca)][_0x104263(0xeb)]='none');try{const _0xe7f4fa=window[_0x104263(0x135)]?window['getGlobalWorldBookContextByPosition'](_0x104263(0xe4)):'',_0x24e972=window[_0x104263(0x135)]?window[_0x104263(0x135)](_0x104263(0x1cc)):'',_0x1fec1f=window[_0x104263(0x114)]?.[_0x104263(0x182)]?window[_0x104263(0x114)][_0x104263(0x182)](_0x1b4a58):_0x1a08e6?.['persona']||_0x104263(0x113),_0x46e4bc=window[_0x104263(0x114)]?.[_0x104263(0x1e4)]?window['imApp'][_0x104263(0x1e4)](_0x1b4a58):0x14,_0x3fbc09=_0x1b4a58['language']||'zh',_0x28f653={'en':_0x104263(0x109),'ja':'Japanese','ko':_0x104263(0x10e),'fr':_0x104263(0xbf),'de':_0x104263(0x214),'ru':'Russian','es':_0x104263(0x17a),'pt':'Portuguese','it':_0x104263(0x171),'th':'Thai','vi':_0x104263(0x156),'ar':_0x104263(0x13e),'hi':_0x104263(0x1eb)};let _0x4d075d='',_0x2a54a5=_0x104263(0xb8),_0x533079=['zh','cn',_0x104263(0x8f),'chinese']['includes'](_0x3fbc09[_0x104263(0x19f)]());if(!_0x533079){const _0x5dfb55=_0x28f653[_0x3fbc09[_0x104263(0x19f)]()]||_0x28f653[_0x3fbc09]||_0x3fbc09;_0x4d075d=_0x104263(0x1e1)+_0x5dfb55+_0x104263(0x14c)+_0x5dfb55+_0x104263(0x9f)+_0x5dfb55+_0x104263(0xe2),_0x2a54a5=_0x104263(0x132)+_0x5dfb55+_0x104263(0x184);}let _0x53efc2='';if(window[_0x104263(0x114)]?.[_0x104263(0xe7)]){const _0x3f9be5=window[_0x104263(0x114)][_0x104263(0xe7)](_0x1b4a58);_0x3f9be5&&_0x3f9be5[_0x104263(0x121)]>0x0&&(_0x53efc2=_0x3f9be5[_0x104263(0x143)](_0x477258=>{const _0x39a5e1=_0x104263,_0x2e674f=_0x477258['role']===_0x39a5e1(0x1f3)?_0x1a08e6[_0x39a5e1(0x137)]||_0x39a5e1(0x188):_0x477258[_0x39a5e1(0x198)]||_0x1b4a58[_0x39a5e1(0x1b6)],_0x98b7e6=_0x477258[_0x39a5e1(0xce)]||_0x477258['content']||'';let _0x240a44='';if(_0x477258[_0x39a5e1(0x142)]){const _0x49d02a=new Date(_0x477258[_0x39a5e1(0x142)]);_0x240a44='['+(_0x49d02a[_0x39a5e1(0x12d)]()+0x1)['toString']()['padStart'](0x2,'0')+'/'+_0x49d02a['getDate']()[_0x39a5e1(0x20a)]()['padStart'](0x2,'0')+'\x20'+_0x49d02a['getHours']()[_0x39a5e1(0x20a)]()[_0x39a5e1(0xbb)](0x2,'0')+':'+_0x49d02a[_0x39a5e1(0x16f)]()[_0x39a5e1(0x20a)]()[_0x39a5e1(0xbb)](0x2,'0')+']\x20';}return''+_0x240a44+_0x2e674f+':\x20'+_0x98b7e6;})[_0x104263(0x185)]('\x0a'));}const _0x446851=_0x523a55[_0x104263(0x13f)](-_0x46e4bc)[_0x104263(0x143)](_0x9af28e=>{const _0x123101=_0x104263,_0x2cd6ed=_0x9af28e[_0x123101(0xea)]?_0x1a08e6[_0x123101(0x137)]||'User':_0x1b4a58['nickname'],_0x2aeb51=[];if(_0x9af28e[_0x123101(0x162)])_0x2aeb51[_0x123101(0x9d)](_0x123101(0x157)+_0x9af28e[_0x123101(0x162)]);if(_0x9af28e['thoughtText'])_0x2aeb51['push'](_0x123101(0x187)+_0x9af28e['thoughtText']);if(_0x9af28e[_0x123101(0xce)])_0x2aeb51[_0x123101(0x9d)](_0x123101(0xe9)+_0x9af28e[_0x123101(0xce)]);return _0x2cd6ed+':\x20'+_0x2aeb51[_0x123101(0x185)](_0x123101(0xc5));})['join']('\x0a'),_0x259c85=_0x1b4a58['realName']||_0x1b4a58[_0x104263(0x1b6)]||_0x104263(0x1f5),_0x59e733=_0x4b5c8f(_0x215239?.[_0x104263(0x15f)]||''),_0x47c26b=''+(_0xe7f4fa?'System\x20Depth\x20Rules:\x0a'+_0xe7f4fa+'\x0a\x0a':'')+(_0x24e972?'Before\x20Role\x20Rules:\x0a'+_0x24e972+'\x0a\x0a':'')+_0x104263(0x92)+_0x259c85+_0x104263(0xb7)+(_0x1b4a58[_0x104263(0xe8)]||_0x104263(0x1c3))+_0x104263(0x205)+(_0x1a08e6[_0x104263(0x137)]||_0x104263(0x188))+',\x20whose\x20persona\x20is:\x20'+_0x1fec1f+_0x104263(0x148)+(_0x53efc2||'无')+_0x104263(0x1c8)+_0x259c85+_0x104263(0x12e)+_0x259c85+_0x104263(0x1e9)+_0x259c85+_0x104263(0x20d)+_0x259c85+_0x104263(0x1bf)+_0x259c85+'\x20此刻没说出口的当下心声，必须使用第一人称自述视角（即以“我”自称），可以体现口是心非、犹豫、压住的情绪、真正想说但没说的话；必须贴合人设和当前电话氛围。\x0a7.\x20text\x20是角色真正说出口的话，可以和\x20thought\x20有反差，但不能让\x20text\x20解释\x20thought。\x0a8.\x20action、thought、text\x20都要简短、口语、贴近实时通话，不要长篇独白。'+_0x4d075d+_0x104263(0xb6)+_0x2a54a5+_0x59e733+'\x0a\x0a【当前的语音通话上下文】:\x0a'+_0x446851;let _0x1d37de=_0x316cf3[_0x104263(0xbc)];if(_0x1d37de[_0x104263(0xcd)]('/'))_0x1d37de=_0x1d37de['slice'](0x0,-0x1);!_0x1d37de[_0x104263(0xcd)](_0x104263(0xcf))&&(_0x1d37de=_0x1d37de[_0x104263(0xcd)](_0x104263(0x1da))?_0x1d37de+_0x104263(0xcf):_0x1d37de+_0x104263(0x150));const _0x1a9ed8=await fetch(_0x1d37de,{'method':_0x104263(0xad),'headers':{'Content-Type':'application/json','Authorization':'Bearer\x20'+_0x316cf3[_0x104263(0x15c)]},'body':JSON[_0x104263(0xc3)]({'model':_0x316cf3[_0x104263(0x13a)]||'','messages':[{'role':_0x104263(0x9a),'content':_0x47c26b},{'role':_0x104263(0x1f3),'content':_0x329f7b['regenerate']?_0x104263(0x154):_0x104263(0xde)}],'temperature':parseFloat(_0x316cf3[_0x104263(0x1f7)])||0.7})});if(!_0x1a9ed8['ok'])throw new Error(_0x104263(0x17f));const _0x3f0bca=await _0x1a9ed8[_0x104263(0x1e5)]();let _0x1515c4=_0x3f0bca[_0x104263(0xa1)][0x0]['message'][_0x104263(0x20f)],_0x2c4be8=null,_0x487173=_0x1515c4[_0x104263(0x1d2)]();if(_0x487173[_0x104263(0x212)](_0x104263(0x1e0)))_0x487173=_0x487173['substring'](0x7);else{if(_0x487173[_0x104263(0x212)]('```'))_0x487173=_0x487173[_0x104263(0xa6)](0x3);}if(_0x487173['endsWith'](_0x104263(0x13b)))_0x487173=_0x487173[_0x104263(0xa6)](0x0,_0x487173[_0x104263(0x121)]-0x3);try{_0x2c4be8=JSON['parse'](_0x487173);}catch(_0x171d6b){_0x2c4be8={'action':'','text':_0x487173};}if(!_0x1b4a58)return;if(_0x2c4be8&&(_0x2c4be8[_0x104263(0xce)]||_0x2c4be8[_0x104263(0x97)]||_0x2c4be8[_0x104263(0x20b)])){const _0x57f940=_0x2e74aa(_0x2c4be8['text']||'',![],_0x5aa12d,_0x2c4be8[_0x104263(0x97)]||'',_0x2c4be8[_0x104263(0x20b)]||'',_0x2c4be8[_0x104263(0xcb)]||'');_0x20bfdb={'message':_0x57f940};}}catch(_0x2e0d44){console[_0x104263(0x145)](_0x2e0d44);if(_0x329f7b[_0x104263(0x120)]&&_0x215239?.[_0x104263(0x15f)]){const _0x233124=_0x2e74aa(_0x215239['previousText']||'',![],_0x5aa12d,_0x215239['previousAction']||'',_0x215239[_0x104263(0x1f0)]||'',_0x215239[_0x104263(0xf3)]||'');_0x20bfdb={'message':_0x233124};}if(window[_0x104263(0x1fd)])window[_0x104263(0x1fd)](_0x329f7b[_0x104263(0x120)]?_0x104263(0x1fe):_0x104263(0x141));}finally{_0x1b2271&&(_0x1b2271[_0x104263(0xca)][_0x104263(0xac)]='1',_0x1b2271[_0x104263(0xca)]['pointerEvents']=_0x104263(0xf4));}}_0x529cd1&&_0x5aa12d&&_0x529cd1[_0x1ee4ee(0x176)]('click',async()=>{await _0x3b7d77();}),_0x358b0a&&_0x5aa12d&&_0x358b0a[_0x1ee4ee(0x176)](_0x1ee4ee(0x103),async()=>{await _0x3b7d77({'regenerate':!![]});}),_0x436e4a&&_0x5eca2a&&_0x436e4a[_0x1ee4ee(0x176)]('keydown',_0x471576=>{const _0x32f027=_0x1ee4ee;if(_0x471576[_0x32f027(0x210)]||_0x471576[_0x32f027(0x1e6)]===0xe5)return;(_0x471576['key']===_0x32f027(0xc8)||_0x471576['keyCode']===0xd)&&_0x5eca2a[_0x32f027(0x103)]();});};let _0x280187=null,_0x5ab8fb=0x0,_0x199d5f=null,_0x493b12=[],_0x1019d0=[],_0x44ff4e=0x0;function _0x12869f(_0x3c4206,_0x3b74b4){const _0x32f6ce=_0xd4717d;_0x5ab8fb=0x0;if(_0x3c4206)_0x3c4206['innerText']=_0x32f6ce(0x1fb);if(_0x3b74b4)_0x3b74b4[_0x32f6ce(0x169)]='00:00';_0x280187=setInterval(()=>{const _0x54ffec=_0x32f6ce;_0x5ab8fb++;const _0x3aeb22=_0x10d3a2(_0x5ab8fb);if(_0x3c4206)_0x3c4206['innerText']=_0x3aeb22;if(_0x3b74b4)_0x3b74b4[_0x54ffec(0x169)]=_0x3aeb22;},0x3e8);}function _0x2fb883(){_0x280187&&(clearInterval(_0x280187),_0x280187=null);}function _0x5a1cf3(_0x5a8312,_0x20ad91,_0x7dec38,_0x3c207e='',_0x56618d=''){const _0x4e079a=_0xd4717d;if(!_0x5a8312&&!_0x3c207e)return null;let _0x3bf41c=_0x20ad91===_0x4e079a(0x1c5)||_0x20ad91==null,_0xce0bfe=_0x3bf41c?window['userState']?.['name']||_0x4e079a(0x188):_0x4e079a(0x211),_0x126f94='',_0x59ede1=null;if(!_0x3bf41c&&_0x199d5f){const _0x58d3e8=window[_0x4e079a(0x8c)][_0x4e079a(0x1c2)][_0x4e079a(0x94)](_0x430390=>_0x430390['id']===_0x20ad91);_0x58d3e8&&(_0xce0bfe=_0x58d3e8[_0x4e079a(0x1b6)],_0x126f94=_0x58d3e8['avatarUrl'],_0x59ede1=_0x58d3e8);}const _0x21e447='group-call-msg-'+Date[_0x4e079a(0x91)]()+'-'+ ++_0x44ff4e,_0x46788f={'text':_0x5a8312,'actionText':_0x3c207e,'thoughtText':'','translationText':_0x56618d,'senderId':_0x20ad91==null?_0x4e079a(0x1c5):_0x20ad91,'senderName':_0xce0bfe,'senderAvatarUrl':_0x126f94||'','isSelf':_0x3bf41c,'timestamp':Date[_0x4e079a(0x91)](),'callTurnId':_0x21e447};return _0x493b12['push'](_0x46788f),_0x3c207e&&_0x7dec38&&_0x7dec38[_0x4e079a(0x117)](_0x54f9a0(_0x3c207e,{'callTurnId':_0x21e447,'callLineType':'action'})),_0x5a8312&&_0x7dec38&&_0x7dec38['appendChild'](_0x54f9a0(_0x39f776(_0x5a8312),{'voiceButton':_0x3bf41c?null:_0x482d5e(_0x5a8312,_0x46788f,_0x59ede1||_0x199d5f),'callTurnId':_0x21e447,'callLineType':_0x4e079a(0xce),'speakerName':_0xce0bfe,'isSelf':_0x3bf41c,'translationText':_0x56618d})),_0x7dec38&&(_0x7dec38[_0x4e079a(0x151)]=_0x7dec38[_0x4e079a(0x115)]),_0x46788f;}window[_0xd4717d(0xf1)][_0xd4717d(0xed)]=function(_0x4bcf14,_0x37f762){const _0x4392f6=_0xd4717d,_0x1bc306=document['getElementById'](_0x4392f6(0xda));if(!_0x1bc306)return;const _0x12fcae=_0x1bc306[_0x4392f6(0x1d7)](!![]);_0x1bc306[_0x4392f6(0xb2)]['replaceChild'](_0x12fcae,_0x1bc306),_0x199d5f=_0x4bcf14,_0x1019d0=_0x37f762,_0x493b12=[],_0x44ff4e=0x0;const _0x45804e=_0x12fcae[_0x4392f6(0x138)](_0x4392f6(0xb0)),_0x2135ac=_0x12fcae[_0x4392f6(0x138)](_0x4392f6(0xc7)),_0x2ff44b=_0x12fcae[_0x4392f6(0x138)](_0x4392f6(0x204)),_0x5efbec=_0x12fcae[_0x4392f6(0x138)](_0x4392f6(0x19e)),_0x297de9=_0x12fcae[_0x4392f6(0x138)]('#group-call-messages'),_0xc3daaf=_0x12fcae['querySelector'](_0x4392f6(0x144)),_0x35cef0=_0x12fcae[_0x4392f6(0x138)]('#group-call-send-btn'),_0x1501ed=_0x12fcae[_0x4392f6(0x138)](_0x4392f6(0x1ca));let _0xb0780=document[_0x4392f6(0xd5)](_0x4392f6(0x1b2)),_0x27fd3d=null,_0x59d5e9=null;if(_0xb0780){const _0x32a9dd=_0xb0780[_0x4392f6(0x1d7)](!![]);_0xb0780[_0x4392f6(0xb2)][_0x4392f6(0x1ff)](_0x32a9dd,_0xb0780),_0xb0780=_0x32a9dd,_0x27fd3d=document[_0x4392f6(0xd5)](_0x4392f6(0x1de)),_0x59d5e9=document[_0x4392f6(0xd5)]('group-call-minimized-time'),_0xb0780[_0x4392f6(0x176)](_0x4392f6(0x103),()=>{const _0x271f29=_0x4392f6;_0xb0780[_0x271f29(0xca)][_0x271f29(0x1bd)]='none',_0x12fcae[_0x271f29(0xca)]['display']=_0x271f29(0x14b);const _0x2c1845=_0x12fcae['querySelector'](_0x271f29(0xb1)),_0x6d7553=_0x12fcae[_0x271f29(0x138)]('#group-call-bg');_0x2c1845&&(_0x2c1845[_0x271f29(0xca)][_0x271f29(0xac)]='1',_0x2c1845['style']['pointerEvents']=_0x271f29(0xf4)),_0x6d7553&&(_0x6d7553[_0x271f29(0xca)][_0x271f29(0xac)]='1'),_0x12fcae[_0x271f29(0xca)][_0x271f29(0xac)]='1',_0x12fcae[_0x271f29(0xca)][_0x271f29(0xeb)]=_0x271f29(0xf4),_0x12fcae[_0x271f29(0x18a)][_0x271f29(0x1cf)](_0x271f29(0x197));});}_0x297de9[_0x4392f6(0x1ad)]='',_0xc3daaf[_0x4392f6(0xb3)]='',_0x5efbec[_0x4392f6(0x1ad)]='',_0x2ff44b[_0x4392f6(0x169)]='等待接通...',_0x12fcae[_0x4392f6(0xca)][_0x4392f6(0x1bd)]='flex',_0x12fcae[_0x4392f6(0xca)][_0x4392f6(0xac)]='1',_0x12fcae[_0x4392f6(0xca)]['pointerEvents']=_0x4392f6(0xf4),_0x12fcae[_0x4392f6(0x18a)][_0x4392f6(0x1cf)](_0x4392f6(0x197));window[_0x4392f6(0x1f9)]&&window[_0x4392f6(0x1f9)](_0x12fcae);const _0x2150d7=[{'id':_0x4392f6(0x1c5),'isUser':!![]},..._0x37f762[_0x4392f6(0x143)](_0x468bfa=>window['imData'][_0x4392f6(0x1c2)][_0x4392f6(0x94)](_0x5f0c9e=>_0x5f0c9e['id']===_0x468bfa))[_0x4392f6(0x192)](Boolean)];_0x2150d7[_0x4392f6(0x1b9)](_0x4b53dc=>{const _0x138bf3=_0x4392f6,_0x456a48=document['createElement'](_0x138bf3(0x128));_0x456a48['style'][_0x138bf3(0x1bd)]='flex',_0x456a48[_0x138bf3(0xca)][_0x138bf3(0x1a3)]=_0x138bf3(0xba),_0x456a48[_0x138bf3(0xca)]['alignItems']=_0x138bf3(0xfd),_0x456a48[_0x138bf3(0xca)]['gap']=_0x138bf3(0x11e);const _0x323553=document[_0x138bf3(0x136)](_0x138bf3(0x128));_0x323553[_0x138bf3(0xca)][_0x138bf3(0xc0)]='64px',_0x323553['style'][_0x138bf3(0x1b5)]=_0x138bf3(0x1b0),_0x323553[_0x138bf3(0xca)][_0x138bf3(0x124)]=_0x138bf3(0x12b),_0x323553['style']['border']=_0x138bf3(0x1c1),_0x323553[_0x138bf3(0xca)][_0x138bf3(0xae)]=_0x138bf3(0x10c),_0x323553['style'][_0x138bf3(0x9b)]=_0x138bf3(0x1df),_0x323553[_0x138bf3(0xca)][_0x138bf3(0x110)]=_0x138bf3(0x10a);_0x4b53dc['isUser']?(_0x323553[_0x138bf3(0xca)][_0x138bf3(0x192)]=_0x138bf3(0x166),_0x323553[_0x138bf3(0xca)][_0x138bf3(0x15d)]=_0x138bf3(0xa2)):_0x323553['style'][_0x138bf3(0x192)]=_0x138bf3(0x190);if(_0x4b53dc[_0x138bf3(0xc4)]){const _0x1a58b3=window[_0x138bf3(0x1ee)]?.[_0x138bf3(0x125)]||window[_0x138bf3(0x1ee)]?.['avatar'];_0x1a58b3?_0x323553[_0x138bf3(0x1ad)]=_0x138bf3(0x17c)+_0x1a58b3+_0x138bf3(0x16d):_0x323553[_0x138bf3(0x1ad)]=_0x138bf3(0x17d);}else _0x4b53dc[_0x138bf3(0x125)]?_0x323553[_0x138bf3(0x1ad)]=_0x138bf3(0x17c)+_0x4b53dc['avatarUrl']+_0x138bf3(0x16d):_0x323553[_0x138bf3(0x1ad)]=_0x138bf3(0x177);const _0x30cb77=document['createElement'](_0x138bf3(0x128));_0x30cb77[_0x138bf3(0xca)][_0x138bf3(0x1c7)]=_0x138bf3(0x1f6),_0x30cb77['style'][_0x138bf3(0x18e)]=_0x138bf3(0xa8),_0x30cb77[_0x138bf3(0xca)][_0x138bf3(0x1d8)]='70px',_0x30cb77['style'][_0x138bf3(0x9b)]=_0x138bf3(0x1df),_0x30cb77[_0x138bf3(0xca)][_0x138bf3(0x1a7)]=_0x138bf3(0xe3),_0x30cb77[_0x138bf3(0xca)][_0x138bf3(0x1d1)]=_0x138bf3(0x9c),_0x30cb77[_0x138bf3(0x169)]=_0x4b53dc[_0x138bf3(0xc4)]?window[_0x138bf3(0x1ee)]?.[_0x138bf3(0x137)]||_0x138bf3(0x188):_0x4b53dc[_0x138bf3(0x1b6)],_0x456a48['appendChild'](_0x323553),_0x456a48[_0x138bf3(0x117)](_0x30cb77),_0x5efbec[_0x138bf3(0x117)](_0x456a48),!_0x4b53dc[_0x138bf3(0xc4)]&&setTimeout(()=>{const _0x3cf6c9=_0x138bf3;_0x323553[_0x3cf6c9(0xca)][_0x3cf6c9(0x192)]=_0x3cf6c9(0x166),_0x323553[_0x3cf6c9(0xca)][_0x3cf6c9(0x15d)]=_0x3cf6c9(0xa2);},0x3e8+Math[_0x138bf3(0xd3)]()*0x7d0);}),setTimeout(()=>{const _0x2ac69b=_0x4392f6;_0x12869f(_0x2ff44b,_0x59d5e9);if(_0x27fd3d)_0x27fd3d[_0x2ac69b(0x169)]=_0x2150d7[_0x2ac69b(0x121)]+_0x2ac69b(0x1be);},0x3e8);const _0x2d499f=()=>{const _0x44063e=_0x4392f6,_0x57f9d4=_0x10d3a2(_0x5ab8fb),_0xe841d4=[..._0x493b12],_0x867a7e=_0x5ab8fb;_0x2fb883(),_0x12fcae[_0x44063e(0xca)][_0x44063e(0x1bd)]=_0x44063e(0x122),_0x12fcae[_0x44063e(0xca)][_0x44063e(0xac)]='0',_0x12fcae[_0x44063e(0xca)]['pointerEvents']=_0x44063e(0x122),_0x12fcae['classList'][_0x44063e(0x1ef)]('active');if(window[_0x44063e(0xb9)])window['closeView'](_0x12fcae);if(_0xb0780)_0xb0780[_0x44063e(0xca)][_0x44063e(0x1bd)]=_0x44063e(0x122);if(_0x199d5f&&window[_0x44063e(0x114)]&&window[_0x44063e(0x114)][_0x44063e(0x1bc)]){let _0x36b966='';_0xe841d4[_0x44063e(0x121)]>0x0?_0x36b966=_0xe841d4[_0x44063e(0x143)](_0x38a124=>{const _0x48940a=_0x44063e,_0x568369=[];if(_0x38a124[_0x48940a(0x162)])_0x568369[_0x48940a(0x9d)](_0x48940a(0x209)+_0x38a124[_0x48940a(0x162)]);if(_0x38a124['text'])_0x568369[_0x48940a(0x9d)](_0x38a124[_0x48940a(0x1fc)]+':\x20'+_0x38a124[_0x48940a(0xce)]);if(_0x38a124[_0x48940a(0x186)])_0x568369[_0x48940a(0x9d)]('翻译：'+_0x38a124[_0x48940a(0x186)]);return _0x568369['join']('\x20/\x20');})['filter'](Boolean)[_0x44063e(0x185)](_0x44063e(0xaf)):_0x36b966=_0x44063e(0xd6);const _0x2a3e61={'id':Date[_0x44063e(0x91)]()[_0x44063e(0x20a)](),'type':_0x44063e(0xbe),'role':_0x44063e(0x9a),'content':_0x44063e(0x201),'senderId':_0x44063e(0x1c5),'timestamp':Date[_0x44063e(0x91)](),'duration':_0x867a7e,'callMessages':_0xe841d4,'statusText':'群通话时长\x20'+_0x57f9d4,'isSelf':!![]};window[_0x44063e(0x114)]['appendFriendMessage'](_0x199d5f['id'],_0x2a3e61);const _0x4f3d82={'id':(Date[_0x44063e(0x91)]()+0x1)['toString'](),'type':_0x44063e(0xce),'role':_0x44063e(0x9a),'content':_0x44063e(0x1a8)+_0x57f9d4+_0x44063e(0x133)+_0x36b966+']','timestamp':Date[_0x44063e(0x91)]()+0x1};window[_0x44063e(0x114)]['appendFriendMessage'](_0x199d5f['id'],_0x4f3d82);const _0x3fd532='chat-interface-'+_0x199d5f['id'],_0x30f301=document[_0x44063e(0xd5)](_0x3fd532);if(_0x30f301){const _0x4de250=_0x30f301[_0x44063e(0x138)](_0x44063e(0x1a0));_0x4de250&&window[_0x44063e(0xf1)][_0x44063e(0x105)]&&(window[_0x44063e(0xf1)]['appendMessageToContainer'](_0x199d5f,_0x4de250,_0x2a3e61),window[_0x44063e(0xf1)][_0x44063e(0xa3)](_0x4de250));}}_0x199d5f=null,_0x493b12=[];};if(_0x45804e)_0x45804e['addEventListener']('click',_0x2d499f);_0x2135ac&&_0x2135ac[_0x4392f6(0x176)](_0x4392f6(0x103),()=>{const _0x2b3b4b=_0x4392f6,_0x5b0db6=_0x12fcae['querySelector']('#group-call-main-content'),_0x45f6ab=_0x12fcae[_0x2b3b4b(0x138)](_0x2b3b4b(0x129));_0x5b0db6&&(_0x5b0db6[_0x2b3b4b(0xca)][_0x2b3b4b(0xac)]='0',_0x5b0db6[_0x2b3b4b(0xca)][_0x2b3b4b(0xeb)]='none');_0x45f6ab&&(_0x45f6ab[_0x2b3b4b(0xca)][_0x2b3b4b(0xac)]='0');setTimeout(()=>{const _0x1728ad=_0x2b3b4b;_0x12fcae[_0x1728ad(0xca)][_0x1728ad(0x1bd)]=_0x1728ad(0x122),_0x12fcae['style']['opacity']='0',_0x12fcae[_0x1728ad(0x18a)][_0x1728ad(0x1ef)](_0x1728ad(0x197));},0x12c),_0x12fcae[_0x2b3b4b(0xca)][_0x2b3b4b(0xeb)]=_0x2b3b4b(0x122);if(_0xb0780)_0xb0780[_0x2b3b4b(0xca)]['display']=_0x2b3b4b(0x14b);}),_0x35cef0&&_0x35cef0['addEventListener'](_0x4392f6(0x103),()=>{const _0x2d61ae=_0x4392f6,_0x8d0c28=_0xc3daaf[_0x2d61ae(0xb3)][_0x2d61ae(0x1d2)]();if(!_0x8d0c28)return;_0x5a1cf3(_0x8d0c28,_0x2d61ae(0x1c5),_0x297de9),_0xc3daaf['value']='';}),_0xc3daaf&&_0xc3daaf[_0x4392f6(0x176)](_0x4392f6(0xe0),_0x18429c=>{const _0x59f184=_0x4392f6;if(_0x18429c[_0x59f184(0x210)]||_0x18429c[_0x59f184(0x1e6)]===0xe5)return;if(_0x18429c['key']==='Enter'||_0x18429c['keyCode']===0xd)_0x35cef0['click']();}),_0x1501ed&&_0x1501ed[_0x4392f6(0x176)](_0x4392f6(0x103),async()=>{const _0x1383da=_0x4392f6;if(!_0x199d5f)return;const {apiConfig:_0x1ba6e5}=window,_0x3137ce=window[_0x1383da(0x1ee)]||{};if(!_0x1ba6e5||!_0x1ba6e5[_0x1383da(0xbc)]||!_0x1ba6e5[_0x1383da(0x15c)]){if(window[_0x1383da(0x1fd)])window[_0x1383da(0x1fd)](_0x1383da(0x1a6));return;}_0x1501ed[_0x1383da(0xca)][_0x1383da(0xac)]=_0x1383da(0x99),_0x1501ed[_0x1383da(0xca)][_0x1383da(0xeb)]=_0x1383da(0x122);try{const _0x46b53d=_0x1019d0[_0x1383da(0x143)](_0x5c3630=>window[_0x1383da(0x8c)]['friends'][_0x1383da(0x94)](_0x5d8947=>_0x5d8947['id']===_0x5c3630))['filter'](Boolean),_0x3493bc=_0x199d5f[_0x1383da(0x100)]?.[_0x1383da(0xa5)]||{},_0x45c555=_0x199d5f['memory']?.[_0x1383da(0x15b)]||{},_0x48d4ed=_0x46b53d[_0x1383da(0x143)](_0x2c26bc=>{const _0x490c08=_0x1383da;let _0x5c9e15=_0x490c08(0x191)+_0x2c26bc[_0x490c08(0x1b6)]+_0x490c08(0x8a)+(_0x2c26bc[_0x490c08(0xe8)]||_0x490c08(0x1af));if(_0x3493bc[_0x2c26bc['id']]){const _0x4848d0=_0x45c555[_0x2c26bc['id']]||0x14;let _0xcbf0dd=_0x2c26bc[_0x490c08(0x1dc)]||[];window[_0x490c08(0x114)]['getRecentContextMessages']&&_0xcbf0dd[_0x490c08(0x121)]===0x0&&(_0xcbf0dd=window[_0x490c08(0x114)][_0x490c08(0xe7)](_0x2c26bc)||[]);_0xcbf0dd[_0x490c08(0x121)]>_0x4848d0&&(_0xcbf0dd=_0xcbf0dd[_0x490c08(0x13f)](-_0x4848d0));if(_0xcbf0dd&&_0xcbf0dd['length']>0x0){const _0x2ad533=_0xcbf0dd[_0x490c08(0x143)](_0x549f7f=>{const _0x2d9e15=_0x490c08,_0x35bb0d=_0x549f7f['role']==='user'?_0x3137ce['name']||_0x2d9e15(0x188):_0x549f7f['speaker']||_0x2c26bc[_0x2d9e15(0x1b6)];let _0x5526f3='';if(_0x549f7f[_0x2d9e15(0x142)]){const _0x1319cf=new Date(_0x549f7f[_0x2d9e15(0x142)]);_0x5526f3='['+(_0x1319cf[_0x2d9e15(0x12d)]()+0x1)[_0x2d9e15(0x20a)]()[_0x2d9e15(0xbb)](0x2,'0')+'/'+_0x1319cf['getDate']()[_0x2d9e15(0x20a)]()['padStart'](0x2,'0')+'\x20'+_0x1319cf[_0x2d9e15(0xff)]()[_0x2d9e15(0x20a)]()[_0x2d9e15(0xbb)](0x2,'0')+':'+_0x1319cf[_0x2d9e15(0x16f)]()[_0x2d9e15(0x20a)]()[_0x2d9e15(0xbb)](0x2,'0')+']\x20';}return''+_0x5526f3+_0x35bb0d+':\x20'+(_0x549f7f[_0x2d9e15(0xce)]||_0x549f7f[_0x2d9e15(0x20f)]||'');})[_0x490c08(0x185)]('\x0a');_0x5c9e15+='\x0a【'+_0x2c26bc[_0x490c08(0x1b6)]+_0x490c08(0x203)+(_0x3137ce[_0x490c08(0x137)]||_0x490c08(0x188))+'\x20的单聊记忆（供参考该角色的态度和背景）】:\x0a'+_0x2ad533;}}return _0x5c9e15;})[_0x1383da(0x185)](_0x1383da(0xfc)),_0x6938d2=window[_0x1383da(0x135)]?window['getGlobalWorldBookContextByPosition'](_0x1383da(0xe4)):'',_0x531a8c=window[_0x1383da(0x135)]?window[_0x1383da(0x135)]('before_role'):'',_0x3d013e=window[_0x1383da(0x135)]?window[_0x1383da(0x135)]('after_role'):'',_0x34f916=_0x199d5f['memory']?.[_0x1383da(0x202)]?.[_0x1383da(0x165)]||'',_0x5f3c65=window[_0x1383da(0x114)]?.[_0x1383da(0x182)]?window[_0x1383da(0x114)]['getEffectivePersonaForFriend'](_0x199d5f):_0x3137ce?.[_0x1383da(0xe8)]||'普通用户',_0x3884da=_0x493b12[_0x1383da(0x13f)](-0x14)[_0x1383da(0x143)](_0x408077=>{const _0x11cd05=_0x1383da,_0x59d66c=[];if(_0x408077[_0x11cd05(0x162)])_0x59d66c[_0x11cd05(0x9d)]('动作：'+_0x408077[_0x11cd05(0x162)]);if(_0x408077['text'])_0x59d66c[_0x11cd05(0x9d)]('发言：'+_0x408077[_0x11cd05(0xce)]);if(_0x408077[_0x11cd05(0x186)])_0x59d66c[_0x11cd05(0x9d)](_0x11cd05(0xe6)+_0x408077[_0x11cd05(0x186)]);return _0x408077[_0x11cd05(0x1fc)]+':\x20'+_0x59d66c[_0x11cd05(0x185)]('\x20/\x20');})[_0x1383da(0x185)]('\x0a'),_0x3e9d32=_0x46b53d['map'](_0x1fd008=>_0x1fd008[_0x1383da(0x1b6)]||_0x1fd008[_0x1383da(0x16c)])['filter'](Boolean);let _0x1a4220='';if(_0x6938d2)_0x1a4220+=_0x1383da(0x1ce)+_0x6938d2+'\x0a\x0a';if(_0x531a8c)_0x1a4220+=_0x1383da(0x15e)+_0x531a8c+'\x0a\x0a';_0x1a4220+=_0x1383da(0x89)+_0x199d5f[_0x1383da(0x1b6)]+'\x22.\x0a【群聊成员设定】:\x0a'+_0x48d4ed+'\x0a\x0aThe\x20user\x20is\x20'+(_0x3137ce?.[_0x1383da(0x137)]||_0x1383da(0x188))+_0x1383da(0xdf)+_0x5f3c65+_0x1383da(0x13c)+(_0x3884da||'无')+'\x0a';if(_0x34f916)_0x1a4220+=_0x1383da(0x101)+_0x34f916+'\x0a';if(_0x3d013e)_0x1a4220+=_0x1383da(0x20e)+_0x3d013e+'\x0a';_0x1a4220+='\x0a【!!!重要指示!!!】:\x0a你现在正处于真实的群聊实时语音通话中。\x0a【要求】:\x0a1.\x20本轮必须让所有已接入的非\x20User\x20群成员各发言一次，不能遗漏，也不要额外添加名单外的人。\x0a2.\x20已接入成员名单：'+(_0x3e9d32[_0x1383da(0x121)]>0x0?_0x3e9d32[_0x1383da(0x185)]('、'):'None')+_0x1383da(0xa9);let _0x29f24c=_0x1ba6e5[_0x1383da(0xbc)];if(_0x29f24c[_0x1383da(0xcd)]('/'))_0x29f24c=_0x29f24c['slice'](0x0,-0x1);!_0x29f24c[_0x1383da(0xcd)]('/chat/completions')&&(_0x29f24c=_0x29f24c[_0x1383da(0xcd)](_0x1383da(0x1da))?_0x29f24c+'/chat/completions':_0x29f24c+_0x1383da(0x150));const _0x1c7662=await fetch(_0x29f24c,{'method':_0x1383da(0xad),'headers':{'Content-Type':'application/json','Authorization':_0x1383da(0x174)+_0x1ba6e5[_0x1383da(0x15c)]},'body':JSON[_0x1383da(0xc3)]({'model':_0x1ba6e5[_0x1383da(0x13a)]||'','messages':[{'role':'system','content':_0x1a4220},{'role':_0x1383da(0x1f3),'content':_0x1383da(0x104)}],'temperature':parseFloat(_0x1ba6e5['temperature'])||0.8})});if(!_0x1c7662['ok'])throw new Error(_0x1383da(0x17f));const _0x272671=await _0x1c7662[_0x1383da(0x1e5)]();let _0x19cb7b=_0x272671[_0x1383da(0xa1)][0x0][_0x1383da(0xc6)][_0x1383da(0x20f)],_0xeee0b7=null;try{let _0x1bf016=_0x19cb7b[_0x1383da(0xd2)](/\[[\s\S]*\]/);if(_0x1bf016)_0xeee0b7=JSON[_0x1383da(0xdd)](_0x1bf016[0x0]);else{let _0x5d4ec6=_0x19cb7b[_0x1383da(0xd2)](/\{[\s\S]*\}/);if(_0x5d4ec6)_0xeee0b7=[JSON[_0x1383da(0xdd)](_0x5d4ec6[0x0])];else{let _0x2232e3=_0x19cb7b['trim']();if(_0x2232e3[_0x1383da(0x212)](_0x1383da(0x1e0)))_0x2232e3=_0x2232e3[_0x1383da(0xa6)](0x7);else{if(_0x2232e3[_0x1383da(0x212)](_0x1383da(0x13b)))_0x2232e3=_0x2232e3[_0x1383da(0xa6)](0x3);}if(_0x2232e3[_0x1383da(0xcd)](_0x1383da(0x13b)))_0x2232e3=_0x2232e3[_0x1383da(0xa6)](0x0,_0x2232e3['length']-0x3);_0xeee0b7=JSON[_0x1383da(0xdd)](_0x2232e3[_0x1383da(0x1d2)]());}}if(!Array['isArray'](_0xeee0b7))_0xeee0b7=[_0xeee0b7];}catch(_0x5da010){console[_0x1383da(0x145)](_0x1383da(0x207),_0x5da010,_0x19cb7b),_0xeee0b7=[];if(window[_0x1383da(0x1fd)])window[_0x1383da(0x1fd)](_0x1383da(0x14f));}if(!_0x199d5f)return;_0xeee0b7[_0x1383da(0x1b9)](_0x2553d2=>{const _0x3873c2=_0x1383da;if(_0x2553d2['senderName']&&(_0x2553d2[_0x3873c2(0xce)]||_0x2553d2[_0x3873c2(0x97)])){let _0x50ef39=_0x46b53d[_0x3873c2(0x94)](_0x314150=>_0x314150['nickname']===_0x2553d2['senderName']||_0x314150[_0x3873c2(0x16c)]===_0x2553d2['senderName']||_0x314150[_0x3873c2(0x1b6)]&&_0x2553d2[_0x3873c2(0x1fc)][_0x3873c2(0x146)](_0x314150[_0x3873c2(0x1b6)])||_0x314150[_0x3873c2(0x16c)]&&_0x2553d2[_0x3873c2(0x1fc)][_0x3873c2(0x146)](_0x314150[_0x3873c2(0x16c)]));!_0x50ef39&&_0x46b53d['length']>0x0&&(_0x50ef39=_0x46b53d[_0x3873c2(0x94)](_0x1921f4=>_0x1921f4['id']!==_0x3873c2(0x1c5))||_0x46b53d[0x0]),_0x50ef39?setTimeout(()=>{const _0x5cc690=_0x3873c2;_0x5a1cf3(_0x2553d2[_0x5cc690(0xce)]||'',_0x50ef39['id'],_0x297de9,_0x2553d2[_0x5cc690(0x97)]||'',_0x2553d2[_0x5cc690(0xcb)]||'');},0x1f4):setTimeout(()=>{const _0x261570=_0x3873c2;_0x5a1cf3(_0x2553d2['text']||'',null,_0x297de9,_0x2553d2[_0x261570(0x97)]||'',_0x2553d2[_0x261570(0xcb)]||'');},0x1f4);}});}catch(_0x2e7808){console[_0x1383da(0x145)](_0x2e7808);if(window[_0x1383da(0x1fd)])window['showToast'](_0x1383da(0x141));}finally{_0x1501ed['style']['opacity']='1',_0x1501ed[_0x1383da(0xca)][_0x1383da(0xeb)]=_0x1383da(0xf4);}});},window['imChat'][_0xd4717d(0xd9)]=function(_0x5e9861){const _0x28e8d4=_0xd4717d,_0x52c147=document[_0x28e8d4(0xd5)](_0x28e8d4(0x1e7)),_0x3e2871=document[_0x28e8d4(0xd5)](_0x28e8d4(0xfe)),_0x151175=document[_0x28e8d4(0xd5)](_0x28e8d4(0x96));if(!_0x52c147||!_0x3e2871||!_0x151175)return;_0x151175[_0x28e8d4(0x169)]=_0x28e8d4(0xa4)+_0x10d3a2(_0x5e9861[_0x28e8d4(0xab)]||0x0),_0x3e2871['innerHTML']='',!_0x5e9861[_0x28e8d4(0x1d4)]||_0x5e9861[_0x28e8d4(0x1d4)][_0x28e8d4(0x121)]===0x0?_0x3e2871[_0x28e8d4(0x1ad)]=_0x28e8d4(0x119):_0x5e9861[_0x28e8d4(0x1d4)][_0x28e8d4(0x1b9)](_0x298407=>{const _0x7d1fcd=_0x28e8d4,_0x24e3a2=document[_0x7d1fcd(0x136)]('div');_0x24e3a2['style'][_0x7d1fcd(0x1c9)]=_0x7d1fcd(0x1f6);const _0x201342=document[_0x7d1fcd(0x136)]('div');_0x201342['style'][_0x7d1fcd(0x1c7)]=_0x7d1fcd(0x1f6),_0x201342[_0x7d1fcd(0xca)][_0x7d1fcd(0x18e)]=_0x7d1fcd(0x213),_0x201342[_0x7d1fcd(0xca)]['marginBottom']=_0x7d1fcd(0x8e),_0x201342[_0x7d1fcd(0x169)]=_0x298407['isSelf']?'我':'对方';const _0x22b409=document[_0x7d1fcd(0x136)](_0x7d1fcd(0x128));_0x22b409[_0x7d1fcd(0xca)][_0x7d1fcd(0x1bd)]='inline-block',_0x22b409[_0x7d1fcd(0xca)][_0x7d1fcd(0xe1)]=_0x7d1fcd(0x131),_0x22b409[_0x7d1fcd(0xca)][_0x7d1fcd(0x124)]='12px',_0x22b409['style'][_0x7d1fcd(0x1c7)]=_0x7d1fcd(0xf2),_0x22b409[_0x7d1fcd(0xca)]['maxWidth']=_0x7d1fcd(0x130),_0x22b409['style'][_0x7d1fcd(0x10f)]=_0x7d1fcd(0x93),_0x298407[_0x7d1fcd(0xea)]?(_0x22b409[_0x7d1fcd(0xca)][_0x7d1fcd(0xae)]=_0x7d1fcd(0xf7),_0x22b409[_0x7d1fcd(0xca)][_0x7d1fcd(0x18e)]='#000'):(_0x22b409['style']['background']=_0x7d1fcd(0x1b4),_0x22b409['style']['color']=_0x7d1fcd(0xc2)),_0x22b409[_0x7d1fcd(0x169)]=_0x298407['text'],_0x24e3a2[_0x7d1fcd(0x117)](_0x201342),_0x24e3a2[_0x7d1fcd(0x117)](_0x22b409),_0x3e2871[_0x7d1fcd(0x117)](_0x24e3a2);}),window[_0x28e8d4(0x1f9)]?window['openView'](_0x52c147):_0x52c147['style'][_0x28e8d4(0x1bd)]=_0x28e8d4(0x14b);};function _0x483754(_0xc2b4a3,_0xee1373=null){const _0x3870f8=_0xd4717d,_0x49e80d=Array['isArray'](_0xc2b4a3)?_0xc2b4a3:[];return _0x49e80d[_0x3870f8(0x143)](_0x17d7db=>{const _0x3b99d3=_0x3870f8,_0xe5c2b3=[];if(_0x17d7db['actionText'])_0xe5c2b3[_0x3b99d3(0x9d)](String(_0x17d7db['actionText'])[_0x3b99d3(0x1d2)]());if(_0x17d7db['thoughtText'])_0xe5c2b3['push'](_0x3b99d3(0x187)+String(_0x17d7db[_0x3b99d3(0x1bb)])[_0x3b99d3(0x1d2)]());if(_0x17d7db[_0x3b99d3(0xce)])_0xe5c2b3[_0x3b99d3(0x9d)](_0x2b34de(_0x17d7db,_0xee1373)+'：'+_0x39f776(_0x17d7db[_0x3b99d3(0xce)]));if(_0x17d7db[_0x3b99d3(0x186)])_0xe5c2b3[_0x3b99d3(0x9d)]('翻译：'+String(_0x17d7db[_0x3b99d3(0x186)])['trim']());return _0xe5c2b3['join']('\x0a');})['filter'](Boolean)[_0x3870f8(0x185)]('\x0a\x0a');}function _0x20a267(_0x121f3f,_0x3d4f9c=null,_0x9e8455=0x0,_0x114957=_0xd4717d(0x87)){const _0x507ef7=_0xd4717d,_0xb0554c=Array[_0x507ef7(0x1ea)](_0x121f3f)?_0x121f3f:[],_0x9cae9c=Math['floor']((Number(_0x9e8455)||0x0)/0x3c)+'分'+(Number(_0x9e8455)||0x0)%0x3c+'秒';if(_0x114957===_0x507ef7(0x12f))return _0x507ef7(0x199);if(_0x114957===_0x507ef7(0x16a))return _0x507ef7(0x15a);const _0x3fe538=_0xb0554c[_0x507ef7(0x143)](_0x5303a3=>{const _0x1da6de=_0x507ef7,_0x4843d7=[];if(_0x5303a3['actionText'])_0x4843d7[_0x1da6de(0x9d)](String(_0x5303a3[_0x1da6de(0x162)])[_0x1da6de(0x1d2)]());if(_0x5303a3[_0x1da6de(0x1bb)])_0x4843d7[_0x1da6de(0x9d)](_0x1da6de(0x187)+String(_0x5303a3[_0x1da6de(0x1bb)])['trim']());if(_0x5303a3[_0x1da6de(0xce)])_0x4843d7[_0x1da6de(0x9d)](_0x2b34de(_0x5303a3,_0x3d4f9c)+'：'+_0x39f776(_0x5303a3[_0x1da6de(0xce)]));if(_0x5303a3[_0x1da6de(0x186)])_0x4843d7['push'](_0x1da6de(0xe6)+String(_0x5303a3[_0x1da6de(0x186)])[_0x1da6de(0x1d2)]());return _0x4843d7[_0x1da6de(0x185)]('\x0a');})[_0x507ef7(0x192)](Boolean)['join']('\x0a');return _0x3fe538?_0x507ef7(0x139)+_0x9cae9c+'\x0a'+_0x3fe538:'[语音通话记录]\x20时长\x20'+_0x9cae9c+_0x507ef7(0xd0);}function _0xfc4007(_0x55a86d,_0x350fa9=[],_0x16fa29=null){const _0x5d4083=_0xd4717d,_0x5de1e8=[window[_0x5d4083(0x1ee)]?.['name'],window[_0x5d4083(0x1ee)]?.[_0x5d4083(0x16c)],_0x5d4083(0x188),'我'][_0x5d4083(0x192)](Boolean)[_0x5d4083(0x143)](_0x518ce7=>String(_0x518ce7)['trim']()),_0x4121c6=[_0x16fa29?.[_0x5d4083(0x1b6)],_0x16fa29?.[_0x5d4083(0x16c)],'Char','对方']['filter'](Boolean)[_0x5d4083(0x143)](_0x5b93a5=>String(_0x5b93a5)['trim']()),_0x2bf393=[];let _0xc2ea06='',_0x5b092c='',_0x133a58='';String(_0x55a86d||'')[_0x5d4083(0xb5)](/\r?\n/)[_0x5d4083(0x1b9)](_0x5a92eb=>{const _0x367814=_0x5d4083,_0x190d96=_0x5a92eb[_0x367814(0x1d2)]();if(!_0x190d96)return;const _0x4848a7=_0x190d96[_0x367814(0xd2)](/^心声[：:]\s*(.+)$/);if(_0x4848a7){_0x5b092c=String(_0x4848a7[0x1]||'')[_0x367814(0x1d2)]();return;}const _0x340d11=_0x190d96[_0x367814(0xd2)](/^翻译[：:]\s*(.+)$/);if(_0x340d11){_0x133a58=String(_0x340d11[0x1]||'')['trim']();return;}const _0x3e8a70=_0x190d96[_0x367814(0xd2)](/^(?:(.+?)[：:]\s*)?[「"](.*?)[」"]$/);if(_0x3e8a70){const _0x31990b=String(_0x3e8a70[0x1]||'')[_0x367814(0x1d2)](),_0x1886a4=String(_0x3e8a70[0x2]||'')[_0x367814(0x1d2)](),_0x63e654=_0x350fa9[_0x2bf393[_0x367814(0x121)]]||{};let _0x1d836c=!!_0x63e654[_0x367814(0xea)];if(_0x31990b){if(_0x5de1e8[_0x367814(0x208)](_0x2aa558=>_0x2aa558&&_0x31990b[_0x367814(0x146)](_0x2aa558)))_0x1d836c=!![];if(_0x4121c6[_0x367814(0x208)](_0x59f6e8=>_0x59f6e8&&_0x31990b[_0x367814(0x146)](_0x59f6e8)))_0x1d836c=![];}_0x2bf393[_0x367814(0x9d)]({'text':_0x1886a4,'actionText':_0xc2ea06,'thoughtText':_0x5b092c,'translationText':_0x133a58,'isSelf':_0x1d836c,'timestamp':_0x63e654['timestamp']||Date['now']()}),_0xc2ea06='',_0x5b092c='',_0x133a58='';return;}_0xc2ea06=_0xc2ea06?_0xc2ea06+'\x0a'+_0x190d96:_0x190d96;});if(_0xc2ea06||_0x5b092c||_0x133a58){const _0x24156f=_0x350fa9[_0x2bf393[_0x5d4083(0x121)]]||{};_0x2bf393['push']({'text':'','actionText':_0xc2ea06,'thoughtText':_0x5b092c,'translationText':_0x133a58,'isSelf':!!_0x24156f['isSelf'],'timestamp':_0x24156f[_0x5d4083(0x142)]||Date[_0x5d4083(0x91)]()});}return _0x2bf393;}function _0x36c487(_0x21a3f4,_0x1a7102,_0x1bbc12=null){const _0x294e18=_0xd4717d;_0x21a3f4[_0x294e18(0x1ad)]='';const _0x81b5b6=Array[_0x294e18(0x1ea)](_0x1a7102[_0x294e18(0x1d4)])?_0x1a7102['callMessages']:[];if(_0x81b5b6[_0x294e18(0x121)]===0x0){_0x21a3f4['innerHTML']=_0x294e18(0x1d5);return;}_0x81b5b6[_0x294e18(0x1b9)](_0x5f52f8=>{const _0x3497aa=_0x294e18,_0x43d169=document['createElement'](_0x3497aa(0x128));_0x43d169['style'][_0x3497aa(0x1c9)]=_0x3497aa(0xf2),_0x43d169[_0x3497aa(0xca)]['textAlign']=_0x3497aa(0x158),_0x43d169['style'][_0x3497aa(0x18e)]=_0x3497aa(0x1fa),_0x43d169[_0x3497aa(0xca)]['fontSize']=_0x3497aa(0x175),_0x43d169[_0x3497aa(0xca)][_0x3497aa(0x1ae)]=_0x3497aa(0x14d);if(_0x5f52f8[_0x3497aa(0x162)]){const _0x4eb058=document['createElement'](_0x3497aa(0x128));_0x4eb058[_0x3497aa(0xca)][_0x3497aa(0x1d1)]=_0x3497aa(0x95),_0x4eb058[_0x3497aa(0xca)]['wordBreak']=_0x3497aa(0x93),_0x4eb058['innerText']=_0x5f52f8[_0x3497aa(0x162)],_0x43d169[_0x3497aa(0x117)](_0x4eb058);}if(_0x5f52f8[_0x3497aa(0x1bb)]){const _0x2439d0=document['createElement'](_0x3497aa(0x128));_0x2439d0[_0x3497aa(0xca)]['whiteSpace']=_0x3497aa(0x95),_0x2439d0[_0x3497aa(0xca)][_0x3497aa(0x10f)]=_0x3497aa(0x93),_0x2439d0[_0x3497aa(0xca)][_0x3497aa(0x18e)]=_0x3497aa(0x213),_0x2439d0[_0x3497aa(0xca)][_0x3497aa(0x1c7)]='13px',_0x2439d0[_0x3497aa(0x169)]=_0x5f52f8[_0x3497aa(0x1bb)],_0x43d169[_0x3497aa(0x117)](_0x2439d0);}if(_0x5f52f8[_0x3497aa(0xce)]){const _0x1d8e39=document['createElement'](_0x3497aa(0x128));_0x1d8e39['style'][_0x3497aa(0x1d1)]=_0x3497aa(0x95),_0x1d8e39[_0x3497aa(0xca)][_0x3497aa(0x10f)]='break-word',_0x1d8e39[_0x3497aa(0x169)]=_0x2b34de(_0x5f52f8,_0x1bbc12)+'：'+_0x39f776(_0x5f52f8[_0x3497aa(0xce)]),_0x43d169[_0x3497aa(0x117)](_0x1d8e39);}if(_0x5f52f8[_0x3497aa(0x186)]){const _0xa2bc36=document[_0x3497aa(0x136)](_0x3497aa(0x128));_0xa2bc36[_0x3497aa(0xca)][_0x3497aa(0x1d1)]=_0x3497aa(0x95),_0xa2bc36[_0x3497aa(0xca)][_0x3497aa(0x10f)]=_0x3497aa(0x93),_0xa2bc36[_0x3497aa(0xca)][_0x3497aa(0x18e)]=_0x3497aa(0x213),_0xa2bc36[_0x3497aa(0xca)][_0x3497aa(0x1c7)]=_0x3497aa(0x16e),_0xa2bc36[_0x3497aa(0xca)][_0x3497aa(0x1ab)]=_0x3497aa(0x8e),_0xa2bc36[_0x3497aa(0x169)]=_0x3497aa(0xe6)+_0x5f52f8[_0x3497aa(0x186)],_0x43d169[_0x3497aa(0x117)](_0xa2bc36);}_0x21a3f4[_0x3497aa(0x117)](_0x43d169);});}function _0x5c94bf(_0x8bfa0,_0x349e90,_0x51d152=null){const _0x530022=_0xd4717d;_0x8bfa0[_0x530022(0x1ad)]='';const _0x4f2b4f=document[_0x530022(0x136)](_0x530022(0x86));_0x4f2b4f['id']='voice-call-detail-editor',_0x4f2b4f['value']=_0x483754(_0x349e90[_0x530022(0x1d4)],_0x51d152),_0x4f2b4f[_0x530022(0xca)][_0x530022(0xc0)]=_0x530022(0x85),_0x4f2b4f[_0x530022(0xca)][_0x530022(0x1b5)]=_0x530022(0x85),_0x4f2b4f[_0x530022(0xca)][_0x530022(0x19a)]=_0x530022(0x134),_0x4f2b4f[_0x530022(0xca)][_0x530022(0xc9)]=_0x530022(0x179),_0x4f2b4f[_0x530022(0xca)][_0x530022(0x15d)]=_0x530022(0x172),_0x4f2b4f[_0x530022(0xca)][_0x530022(0x124)]=_0x530022(0x1f6),_0x4f2b4f[_0x530022(0xca)]['padding']=_0x530022(0x1f6),_0x4f2b4f[_0x530022(0xca)]['fontSize']=_0x530022(0x175),_0x4f2b4f[_0x530022(0xca)][_0x530022(0x1ae)]=_0x530022(0x163),_0x4f2b4f['style'][_0x530022(0x200)]=_0x530022(0x122),_0x4f2b4f[_0x530022(0xca)]['resize']='none',_0x4f2b4f['style'][_0x530022(0xae)]='#fff',_0x4f2b4f[_0x530022(0xca)][_0x530022(0x18e)]=_0x530022(0x1fa),_0x8bfa0[_0x530022(0x117)](_0x4f2b4f),_0x4f2b4f[_0x530022(0x11d)]();}window[_0xd4717d(0xf1)]['openVoiceCallDetail']=function(_0x164e56,_0x113427=null){const _0x5a0c13=_0xd4717d,_0xcf65ca=document[_0x5a0c13(0xd5)]('voice-call-detail-modal'),_0x1fcfaf=document['getElementById']('voice-call-detail-content'),_0x586f0c=document[_0x5a0c13(0xd5)](_0x5a0c13(0x96)),_0x5a5f6a=document['getElementById']('voice-call-detail-edit-btn'),_0xc6968a=document[_0x5a0c13(0xd5)](_0x5a0c13(0x107)),_0x26bcd3=document[_0x5a0c13(0xd5)]('voice-call-detail-cancel-btn');if(!_0xcf65ca||!_0x1fcfaf||!_0x586f0c)return;const _0x5223d0=_0x113427||window[_0x5a0c13(0x8c)]?.[_0x5a0c13(0x14a)]||null;let _0x3f4d35=![];const _0xca6f52=_0x40abc4=>{const _0x3ca402=_0x5a0c13;_0x3f4d35=_0x40abc4;if(_0x5a5f6a)_0x5a5f6a[_0x3ca402(0xca)]['display']=_0x3f4d35?'none':'block';if(_0xc6968a)_0xc6968a[_0x3ca402(0xca)][_0x3ca402(0x1bd)]=_0x3f4d35?_0x3ca402(0xd4):_0x3ca402(0x122);if(_0x26bcd3)_0x26bcd3['style']['display']=_0x3f4d35?_0x3ca402(0xd4):_0x3ca402(0x122);if(_0x3f4d35)_0x5c94bf(_0x1fcfaf,_0x164e56,_0x5223d0);else _0x36c487(_0x1fcfaf,_0x164e56,_0x5223d0);};_0x586f0c[_0x5a0c13(0x169)]=_0x5a0c13(0xa4)+_0x10d3a2(_0x164e56[_0x5a0c13(0xab)]||0x0);if(_0x5a5f6a)_0x5a5f6a['onclick']=()=>_0xca6f52(!![]);if(_0x26bcd3)_0x26bcd3[_0x5a0c13(0xd1)]=()=>_0xca6f52(![]);_0xc6968a&&(_0xc6968a[_0x5a0c13(0xd1)]=async()=>{const _0x2be513=_0x5a0c13,_0x1d88b4=document[_0x2be513(0xd5)]('voice-call-detail-editor');if(!_0x1d88b4)return;const _0x3c8319=Array[_0x2be513(0x1ea)](_0x164e56[_0x2be513(0x1d4)])?_0x164e56[_0x2be513(0x1d4)]:[],_0x25635f=_0xfc4007(_0x1d88b4['value'],_0x3c8319,_0x5223d0),_0x3cc73f=_0x20a267(_0x25635f,_0x5223d0,_0x164e56[_0x2be513(0xab)]||0x0,_0x164e56[_0x2be513(0x116)]||_0x2be513(0x87));_0x164e56[_0x2be513(0x1d4)]=_0x25635f,_0x164e56['content']=_0x3cc73f,_0x164e56[_0x2be513(0xce)]=_0x3cc73f,_0x164e56[_0x2be513(0xbd)]=new Date()[_0x2be513(0x149)]();let _0x3b61b3=!![];_0x5223d0?.['id']&&window[_0x2be513(0x114)]?.[_0x2be513(0x1a5)]&&(_0x3b61b3=await window[_0x2be513(0x114)]['updateFriendMessage'](_0x5223d0['id'],{'id':_0x164e56['id']||null,'timestamp':_0x164e56['timestamp']||null},_0x495c27=>{const _0x473981=_0x2be513;_0x495c27['callMessages']=_0x25635f,_0x495c27['content']=_0x3cc73f,_0x495c27[_0x473981(0xce)]=_0x3cc73f,_0x495c27[_0x473981(0xbd)]=_0x164e56[_0x473981(0xbd)];},{'silent':!![]}),!_0x3b61b3&&window[_0x2be513(0x1fd)]&&window[_0x2be513(0x1fd)](_0x2be513(0xdb)));const _0x26797c=_0x5223d0?.['id']?document['getElementById'](_0x2be513(0x164)+_0x5223d0['id']):null,_0x1a894d=_0x26797c?_0x26797c['querySelector'](_0x2be513(0x1a0)):null;if(_0x1a894d&&window['imChat'][_0x2be513(0xf9)]){const _0x49b1a2=(window['imData']?.[_0x2be513(0x1c2)]||[])[_0x2be513(0x94)](_0x431c28=>String(_0x431c28['id'])===String(_0x5223d0['id']))||_0x5223d0;window[_0x2be513(0xf1)]['rerenderChatContainer'](_0x49b1a2,_0x1a894d,{'scroll':![]});}if(_0x3b61b3&&window[_0x2be513(0x1fd)])window[_0x2be513(0x1fd)]('通话上下文已更新');_0xca6f52(![]);}),_0xca6f52(![]),window['openView']?window[_0x5a0c13(0x1f9)](_0xcf65ca):_0xcf65ca[_0x5a0c13(0xca)][_0x5a0c13(0x1bd)]=_0x5a0c13(0x14b);};}()));function _0x39fd(){const _0x3bdc64=['通话记录','transform','You\x20are\x20simulating\x20a\x20group\x20voice\x20call\x20in\x20the\x20group\x20\x22','\x0aPersona:\x20','speakerName','imData','currentUser','4px','zh-cn','call-msg-','now','You\x20are\x20playing\x20the\x20role\x20of\x20','break-word','find','pre-wrap','voice-call-detail-meta','action','gap','0.5','system','overflow','nowrap','push','setAttribute','.\x0a-\x20[TRANSLATION]:\x20You\x20MUST\x20provide\x20an\x20accurate\x20Chinese\x20translation\x20of\x20your\x20','#voice-call-avatar','choices','2px\x20solid\x20#34c759','scrollToBottom','通话时长:\x20','mountSettings','substring','Call\x20voice\x20playback\x20failed','rgba(255,255,255,0.6)','。\x0a3.\x20每个成员只输出\x201\x20条简短自然的语音回复，务必口语化，像真人在打电话，不要长篇大论。\x0a4.\x20action\x20必须是能被通话感知到的动作、环境声或语气描写，必须包含该成员名字，不要写心声、内心、心理活动。\x0a5.\x20text\x20是该成员真正说出口的原文台词；translation\x20必须是\x20text\x20对应的自然中文翻译，即使\x20text\x20本身是中文也要给出中文复述，不要留空。\x0a6.\x20严禁输出\x20thought、inner、心声、心理活动等字段；即使想表达情绪，也只能放在\x20action\x20的外显动作或语气里。\x0a7.\x20【输出格式】：必须返回纯\x20JSON\x20数组，格式为：[{\x22senderName\x22:\x22成员名\x22,\x22action\x22:\x22动作/环境描写\x22,\x22text\x22:\x22原文台词\x22,\x22translation\x22:\x22中文翻译\x22}]。','mouseup','duration','opacity','POST','background','\x0a\x20\x20','#group-call-hangup-btn','#group-call-main-content','parentNode','value','aria-label','split','\x0a【输出格式】：必须返回纯\x20JSON，格式为\x20','.\x0a【核心设定/Core\x20Persona】：','{\x22action\x22:\x20\x22第三人称动作/环境声/氛围描写，必须带${charDisplayName}的名字\x22,\x20\x22thought\x22:\x20\x22角色当下心声，不说出口的话（第一人称视角）\x22,\x20\x22text\x22:\x20\x22角色说出口的对话内容\x22}','closeView','column','padStart','endpoint','updatedAt','voice_call_record','French','width','bottom','#000','stringify','isUser','\x20/\x20','message','#group-call-minimize-btn','Enter','boxSizing','style','translation','#voice-call-avatar-icon','endsWith','text','/chat/completions','，未产生可识别的文本记录。','onclick','match','random','block','getElementById','无对话','inline-flex','touches','openVoiceCallDetail','group-voice-call-view','通话记录保存失败','[语音通话记录]','parse','请继续语音通话',',\x20whose\x20persona\x20is:\x20','keydown','padding','\x20\x22text\x22\x20in\x20the\x20\x22translation\x22\x20field.\x0a-\x20[CHINESE\x20ONLY]:\x20The\x20\x22thought\x22\x20and\x20\x22action\x22\x20fields\x20MUST\x20ALWAYS\x20be\x20written\x20in\x20Chinese\x20(必须使用中文).','ellipsis','system_depth','type','翻译：','getRecentContextMessages','persona','对话：','isSelf','pointerEvents','marginRight','openGroupVoiceCall','10px','[data-call-turn-id=\x22','rgba(255,\x20255,\x20255,\x200.15)','imChat','14px','previousTranslation','auto','30px','top','#e5e5ea','\x0a\x0a【重回重新生成要求】：\x0a-\x20User\x20按下了“重回”，这通常代表\x20User\x20对上一轮语音回复不满意。\x0a-\x20请先在内部思考：User\x20为什么重回、刚刚生成的内容不好的点在哪里、User\x20现在更需要怎样的电话回复。可能问题包括：语气不对、关系距离不对、动作氛围太泛、没有接住情绪、对话太长、太敷衍、太热情、偏离人设、节奏不像电话、没有回应重点。\x0a-\x20禁止与上一轮重复或高度相似，不能复用相同句式、称呼、情绪走向、动作安排、环境声细节或结尾。\x0a-\x20不要在\x20action\x20或\x20text\x20里解释“重回”。\x0a【刚刚被重回的回复】：\x0a','rerenderChatContainer','0\x2010px','button','\x0a\x0a-----------------\x0a\x0a','center','voice-call-detail-content','getHours','memory','\x0a【群聊特殊设定】:\x0a','20px','click','请继续群语音通话','appendMessageToContainer','556436dKhNCU','voice-call-detail-save-btn','speakTextCached','English','all\x200.5s\x20ease','#voice-call-actions-row','#333','1025037nQsxIC','Korean','wordBreak','transition','function','mousemove','普通用户','imApp','scrollHeight','statusText','appendChild','minWidth','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20padding:\x2020px;\x22>无通话内容记录</div>','5133865SwtWbb','removeEventListener','100px','focus','6px','stopPropagation','regenerate','length','none','createTextNode','borderRadius','avatarUrl','offsetHeight','显示翻译','div','#group-call-bg','src','50%','voiceButton','getMonth','）现在在做什么，以及此时应该用怎样的语气来应对。\x0a2.\x20话题推进：如果这不是一通带有明确紧急事由的电话，仅仅是日常闲聊，你是否应该主动给用户分享你正在做的事情，或者主动挑起一些能够延续通话的有趣话题？请在内心（thought）进行推演，并在文本（text）中自然地表达出来。\x0a3.\x20结合记录：请结合之前的文字聊天记录以及当前的语音通话上下文，给出一个连贯自然的电话回复。\x0a4.\x20action\x20必须用第三人称描写动作、环境声或通话氛围，必须包含角色名字“','已拒绝','85%','8px\x2012px','{\x22action\x22:\x20\x22第三人称动作/环境声/氛围描写，必须带${charDisplayName}的名字(必须用中文)\x22,\x20\x22thought\x22:\x20\x22角色当下心声，不说出口的话（第一人称视角）(必须用中文)\x22,\x20\x22text\x22:\x20\x22角色说出口的对话内容（使用','。通话内容：\x0a','320px','getGlobalWorldBookContextByPosition','createElement','name','querySelector','[语音通话记录]\x20时长\x20','model','```','.\x0a\x0a【当前的语音通话记录】:\x0a','clientX','Arabic','slice','innerWidth','API\x20请求失败','timestamp','map','#group-call-input','error','includes','暂无可重回的回复','。\x0a\x0a【之前的文字聊天记录】：\x0a','toISOString','currentActiveFriend','flex','\x20for\x20the\x20\x22text\x22\x20field.\x20This\x20overrides\x20ALL\x20persona\x20and\x20memory\x20settings.\x0a-\x20Even\x20if\x20your\x20persona\x20is\x20Chinese\x20or\x20the\x20user\x20speaks\x20in\x20Chinese,\x20your\x20spoken\x20\x22text\x22\x20MUST\x20be\x20in\x20','1.65','6134vdHAwt','AI返回格式错误，请重试','/v1/chat/completions','scrollTop','0.55','translationElNode','请重回并重新生成这一轮语音通话回复','dataset','Vietnamese','动作/氛围：','left','#voice-call-messages','[语音通话记录]\x20用户刚刚取消了这通语音通话。','mountLimits','apiKey','border','【前置设定\x20(Before\x20Role)】\x0a','previousReply','正在邀请你进行语音通话...','baseline','actionText','1.6','chat-interface-','prompt','grayscale(0%)\x20opacity(1)','#voice-call-bg','<i\x20class=\x22fas\x20fa-volume-up\x22\x20style=\x22font-size:\x2012px;\x22></i>','innerText','已取消','floor','realName','\x22\x20style=\x22width:100%;height:100%;object-fit:cover;\x22>','13px','getMinutes','1px\x206px','Italian','1px\x20solid\x20#d1d1d6','Minimax\x20语音不可用','Bearer\x20','15px','addEventListener','<div\x20style=\x22width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#fff;\x22><i\x20class=\x22fas\x20fa-robot\x22></i></div>','50dwTCLh','border-box','Spanish','pointer','<img\x20src=\x22','<div\x20style=\x22width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#fff;\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>','rgba(255,255,255,0.7)','API\x20Error','textAlign','#voice-call-hangup-btn','getEffectivePersonaForFriend','rgba(255,255,255,0.55)','）\x22,\x20\x22translation\x22:\x20\x22text字段对应的中文翻译（必须用中文）\x22}','join','translationText','心声：','User','touchstart','classList','122qnwczK','#voice-call-accept-btn','verticalAlign','color','title','grayscale(100%)\x20opacity(0.5)','Name:\x20','filter','generateMockReply','preventDefault','callTurnId','8px','active','speaker','[语音通话记录]\x20对方刚刚拒绝了这通语音通话。','minHeight','mousedown','children','max','#group-call-avatars-grid','toLowerCase','.ins-chat-messages','voice-call-view','4px\x2010px','flexDirection','#voice-call-regenerate-btn','updateFriendMessage','请先配置\x20API','textOverflow','[系统提示：刚刚完成了一次群语音通话，时长\x20','alignItems','justifyContent','marginTop','scale(1)','innerHTML','lineHeight','None','64px','touch','group-call-minimized-banner','563184CSwdbF','#f2f2f7','height','nickname','#voice-call-input','#voice-call-input-row','forEach','#fff','thoughtText','appendFriendMessage','display','人正在群通话中...','压低了呼吸，背景里有很轻的脚步声。\x0a6.\x20thought\x20是\x20','flexShrink','2px\x20solid\x20rgba(255,255,255,0.1)','friends','No\x20specific\x20persona','fontWeight','__user__','scale(0.8)','fontSize','\x0a\x0a【当前场景】：你和用户正处于实时的语音通话中。\x0a【要求】：\x0a1.\x20思考来电/接听背景：仔细思考用户打来电话或接听电话的原因，用户目前的情绪是怎样的，你（','marginBottom','#group-call-ai-btn','callLineType','before_role','#voice-call-ai-btn','【系统规则\x20(System\x20Depth)】\x0a','add','flex-start','whiteSpace','trim','clientY','callMessages','<div\x20style=\x22text-align:left;\x20color:#8e8e93;\x20padding:20px\x200;\x22>无通话内容记录</div>','group','cloneNode','maxWidth','rgba(255,255,255,0.14)','/v1','right','messages','#voice-call-minimized-time','group-call-minimized-text','hidden','```json','\x0a\x0a【!!!\x20CRITICAL\x20LANGUAGE\x20RULE\x20/\x20绝对最高优先级语言指令\x20!!!】:\x0a-\x20[ABSOLUTE\x20REQUIREMENT]:\x20You\x20MUST\x20speak\x20ONLY\x20in\x20','500','203855sLkNzC','getContextLimit','json','keyCode','voice-call-detail-modal','u2MinimaxTts','”，不要用“我/你”开头。\x0a5.\x20action\x20要像电话那头能听到或感受到的细节，例如：','isArray','Hindi','abs','816ZHJJeO','userState','remove','previousThought','offsetWidth','cursor','user','11039EdGIsn','Char','12px','temperature','min','openView','#111','00:00','senderName','showToast','重回失败','replaceChild','outline','[群语音通话记录]','context','\x20与\x20','#group-call-status-text','。\x0aYou\x20are\x20talking\x20to\x20','handleCallApiReply','Failed\x20to\x20parse\x20JSON\x20in\x20group\x20call','some','动作：','toString','thought','6HUXMwE','翻了个身，电话那头传来布料摩擦声；','\x0a【补充设定\x20(After\x20Role)】:\x0a','content','isComposing','Member','startsWith','#8e8e93','German','100%','textarea'];_0x39fd=function(){return _0x3bdc64;};return _0x39fd();}
+// ==========================================
+// IMESSAGE: 4_chat_voice_call.js
+// ==========================================
+(function() {
+    window.imChat = window.imChat || {};
+
+    let callTimer = null;
+    let callSeconds = 0;
+    let callFriend = null;
+    let callMessages = [];
+    let callMessageSeq = 0;
+    let lastCallAiTurn = null;
+
+    function formatTime(seconds) {
+        const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const s = (seconds % 60).toString().padStart(2, '0');
+        return `${m}:${s}`;
+    }
+
+    let minTimeEl = null;
+
+    function startTimer(statusEl, minEl) {
+        callSeconds = 0;
+        if(statusEl) statusEl.innerText = '00:00';
+        if(minEl) minEl.innerText = '00:00';
+        callTimer = setInterval(() => {
+            callSeconds++;
+            const t = formatTime(callSeconds);
+            if(statusEl) statusEl.innerText = t;
+            if(minEl) minEl.innerText = t;
+            if(minTimeEl) minTimeEl.innerText = t;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        if (callTimer) {
+            clearInterval(callTimer);
+            callTimer = null;
+        }
+    }
+
+    function getCallSpeakerName(message, friend = callFriend) {
+        if (message?.senderName) {
+            return message.senderName;
+        }
+        if (message?.isSelf) {
+            return window.userState?.name || window.userState?.realName || 'User';
+        }
+        if (friend?.type === 'group' && message?.senderId) {
+            const member = (window.imData?.friends || []).find(item => String(item.id) === String(message.senderId));
+            if (member) return member.nickname || member.realName || 'Member';
+        }
+        return friend?.nickname || friend?.realName || 'Char';
+    }
+
+    function formatCallLineText(text) {
+        const cleanText = String(text || '').trim();
+        return cleanText ? `「${cleanText}」` : '';
+    }
+
+    function createCallNovelLine(text, options = {}) {
+        const rowWrap = document.createElement('div');
+        rowWrap.style.width = '100%';
+        rowWrap.style.marginBottom = '10px';
+        rowWrap.style.display = 'flex';
+        rowWrap.style.flexDirection = 'column';
+
+        const row = document.createElement('div');
+        if (options.callTurnId) row.dataset.callTurnId = options.callTurnId;
+        if (options.callLineType) row.dataset.callLineType = options.callLineType;
+        row.style.width = '100%';
+        row.style.display = 'flex';
+        row.style.alignItems = 'flex-start';
+        row.style.justifyContent = 'flex-start';
+        row.style.gap = '8px';
+        row.style.padding = '0 10px';
+        row.style.boxSizing = 'border-box';
+        row.style.fontSize = options.fontSize || '15px';
+        row.style.lineHeight = '1.55';
+        row.style.color = options.color || '#fff';
+        row.style.textAlign = 'left';
+        row.style.wordBreak = 'break-word';
+
+        const textEl = document.createElement('div');
+        textEl.style.minWidth = '0';
+        textEl.style.flex = '1';
+        textEl.style.whiteSpace = 'pre-wrap';
+        
+        if (options.speakerName) {
+            const nameTag = document.createElement('span');
+            nameTag.style.display = 'inline-block';
+            nameTag.style.padding = '1px 6px';
+            nameTag.style.borderRadius = '8px';
+            nameTag.style.marginRight = '6px';
+            nameTag.style.fontSize = '12px';
+            nameTag.style.fontWeight = '500';
+            nameTag.style.verticalAlign = 'baseline';
+            
+            if (options.isSelf) {
+                nameTag.style.background = 'rgba(255, 255, 255, 0.15)';
+                nameTag.style.color = '#fff';
+            } else {
+                nameTag.style.background = 'rgba(255, 255, 255, 0.15)';
+                nameTag.style.color = '#fff';
+            }
+            nameTag.innerText = `@${options.speakerName}`;
+            
+            textEl.appendChild(nameTag);
+            textEl.appendChild(document.createTextNode(text));
+        } else {
+            textEl.innerText = text;
+        }
+
+        row.appendChild(textEl);
+
+        const actionsContainer = document.createElement('div');
+        actionsContainer.style.display = 'flex';
+        actionsContainer.style.gap = '4px';
+        actionsContainer.style.flexShrink = '0';
+
+        if (options.translationText) {
+            const translateBtn = document.createElement('button');
+            translateBtn.type = 'button';
+            translateBtn.title = '显示翻译';
+            translateBtn.style.width = '30px';
+            translateBtn.style.height = '30px';
+            translateBtn.style.border = '1px solid rgba(255,255,255,0.35)';
+            translateBtn.style.borderRadius = '50%';
+            translateBtn.style.background = 'rgba(255,255,255,0.14)';
+            translateBtn.style.color = '#fff';
+            translateBtn.style.display = 'inline-flex';
+            translateBtn.style.alignItems = 'center';
+            translateBtn.style.justifyContent = 'center';
+            translateBtn.style.cursor = 'pointer';
+            translateBtn.style.padding = '0';
+            translateBtn.style.fontSize = '12px';
+            translateBtn.innerText = '译';
+
+            const translationEl = document.createElement('div');
+            translationEl.style.padding = '4px 10px';
+            translationEl.style.fontSize = '13px';
+            translationEl.style.color = 'rgba(255,255,255,0.7)';
+            translationEl.style.display = 'none';
+            translationEl.style.marginTop = '4px';
+            translationEl.innerText = options.translationText;
+
+            translateBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                translationEl.style.display = translationEl.style.display === 'none' ? 'block' : 'none';
+            });
+            
+            actionsContainer.appendChild(translateBtn);
+            rowWrap.translationElNode = translationEl;
+        }
+
+        if (options.voiceButton) {
+            actionsContainer.appendChild(options.voiceButton);
+        }
+
+        if (actionsContainer.children.length > 0) {
+            row.appendChild(actionsContainer);
+        }
+
+        rowWrap.appendChild(row);
+
+        if (rowWrap.translationElNode) {
+            rowWrap.appendChild(rowWrap.translationElNode);
+        }
+
+        return rowWrap;
+    }
+
+    function createCallVoiceButton(text, message, friend = callFriend) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.title = '播放语音';
+        btn.setAttribute('aria-label', '播放语音');
+        btn.style.width = '30px';
+        btn.style.height = '30px';
+        btn.style.border = '1px solid rgba(255,255,255,0.35)';
+        btn.style.borderRadius = '50%';
+        btn.style.background = 'rgba(255,255,255,0.14)';
+        btn.style.color = '#fff';
+        btn.style.display = 'inline-flex';
+        btn.style.alignItems = 'center';
+        btn.style.justifyContent = 'center';
+        btn.style.cursor = 'pointer';
+        btn.style.flexShrink = '0';
+        btn.style.padding = '0';
+        btn.innerHTML = '<i class="fas fa-volume-up" style="font-size: 12px;"></i>';
+
+        btn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+
+            if (!window.u2MinimaxTts || typeof window.u2MinimaxTts.speakTextCached !== 'function') {
+                if (window.showToast) window.showToast('Minimax 语音不可用');
+                return;
+            }
+
+            btn.style.opacity = '0.55';
+            btn.style.pointerEvents = 'none';
+            try {
+                await window.u2MinimaxTts.speakTextCached(text, friend, message);
+            } catch (error) {
+                console.error('Call voice playback failed', error);
+                if (window.showToast) window.showToast('语音播放失败');
+            } finally {
+                btn.style.opacity = '1';
+                btn.style.pointerEvents = 'auto';
+            }
+        });
+
+        return btn;
+    }
+
+    function addCallBubble(text, isSelf, messagesArea, actionText = '', thoughtText = '', translationText = '') {
+        const turnId = `call-msg-${Date.now()}-${++callMessageSeq}`;
+        const message = {
+            text: text,
+            actionText: actionText,
+            thoughtText: thoughtText,
+            translationText: translationText,
+            isSelf: isSelf,
+            timestamp: Date.now(),
+            callTurnId: turnId
+        };
+        callMessages.push(message);
+
+        if (actionText && messagesArea) {
+            messagesArea.appendChild(createCallNovelLine(actionText, {
+                callTurnId: turnId,
+                callLineType: 'action'
+            }));
+        }
+
+        if (thoughtText && messagesArea) {
+            messagesArea.appendChild(createCallNovelLine(thoughtText, {
+                callTurnId: turnId,
+                callLineType: 'thought',
+                color: 'rgba(255,255,255,0.55)',
+                fontSize: '13px'
+            }));
+        }
+
+        if (text && messagesArea) {
+            const speakerName = getCallSpeakerName(message);
+            messagesArea.appendChild(createCallNovelLine(formatCallLineText(text), {
+                voiceButton: isSelf ? null : createCallVoiceButton(text, message),
+                callTurnId: turnId,
+                callLineType: 'text',
+                speakerName: speakerName,
+                isSelf: isSelf,
+                translationText: translationText
+            }));
+        }
+
+        if (messagesArea) {
+            messagesArea.scrollTop = messagesArea.scrollHeight;
+        }
+
+        return message;
+    }
+
+    window.imChat.openVoiceCall = function(friend, isIncoming = false) {
+        const view = document.getElementById('voice-call-view');
+        
+        if (!view) return;
+
+        // Clean up old listeners by cloning
+        const newView = view.cloneNode(true);
+        view.parentNode.replaceChild(newView, view);
+
+        const newMinimizeBtn = newView.querySelector('#voice-call-minimize-btn');
+        const newAvatarImg = newView.querySelector('#voice-call-avatar');
+        const newAvatarIcon = newView.querySelector('#voice-call-avatar-icon');
+        const newNameEl = newView.querySelector('#voice-call-name');
+        const newStatusEl = newView.querySelector('#voice-call-status');
+        const newMessagesArea = newView.querySelector('#voice-call-messages');
+        
+        const newInputRow = newView.querySelector('#voice-call-input-row');
+        const newActionsRow = newView.querySelector('#voice-call-actions-row');
+        const newInput = newView.querySelector('#voice-call-input');
+        const newSendBtn = newView.querySelector('#voice-call-send-btn');
+        const newAiBtn = newView.querySelector('#voice-call-ai-btn');
+        const newHangupBtn = newView.querySelector('#voice-call-hangup-btn');
+        const newRegenerateBtn = newView.querySelector('#voice-call-regenerate-btn');
+        const newAcceptBtn = newView.querySelector('#voice-call-accept-btn');
+        
+        const minimizedFloat = newView.querySelector('#voice-call-minimized-float');
+        const mainContent = newView.querySelector('#voice-call-main-content');
+        const bgEl = newView.querySelector('#voice-call-bg');
+        const infoArea = newView.querySelector('#voice-call-info-area');
+        minTimeEl = newView.querySelector('#voice-call-minimized-time');
+
+        callFriend = friend;
+        callMessages = [];
+        callMessageSeq = 0;
+        lastCallAiTurn = null;
+        if(newMessagesArea) newMessagesArea.innerHTML = '';
+        if(newInput) newInput.value = '';
+
+        if (friend.avatarUrl) {
+            if(newAvatarImg) {
+                newAvatarImg.src = friend.avatarUrl;
+                newAvatarImg.style.display = 'block';
+            }
+            if(newAvatarIcon) newAvatarIcon.style.display = 'none';
+        } else {
+            if(newAvatarImg) {
+                newAvatarImg.src = '';
+                newAvatarImg.style.display = 'none';
+            }
+            if(newAvatarIcon) newAvatarIcon.style.display = 'block';
+        }
+
+        if(newNameEl) newNameEl.innerText = friend.nickname || '对方';
+        
+        newView.style.display = 'flex';
+        newView.style.opacity = '1';
+        newView.style.pointerEvents = 'auto';
+        newView.classList.add('active');
+        
+        if (minimizedFloat && mainContent) {
+            minimizedFloat.style.display = 'none';
+            mainContent.style.display = 'flex';
+            mainContent.style.opacity = '1';
+            mainContent.style.pointerEvents = 'auto';
+            if(bgEl) bgEl.style.opacity = '1';
+        }
+        
+        if (infoArea) {
+            infoArea.style.transform = 'scale(1)';
+        }
+
+        if (window.openView) window.openView(newView);
+
+        // State control
+        let isConnected = false;
+        let dialTimeout = null;
+
+        if (isIncoming) {
+            newStatusEl.innerText = '正在邀请你进行语音通话...';
+            newInputRow.style.display = 'none';
+            newAcceptBtn.style.display = 'flex';
+        } else {
+            newStatusEl.innerText = '正在呼叫...';
+            newInputRow.style.display = 'none';
+            newAcceptBtn.style.display = 'none';
+            
+            // Auto connect after 2 seconds for outgoing call
+            dialTimeout = setTimeout(() => {
+                connectCall();
+            }, 2000);
+        }
+
+        function connectCall() {
+            isConnected = true;
+            newInputRow.style.display = 'flex';
+            newAcceptBtn.style.display = 'none';
+            newStatusEl.innerText = '00:00';
+            if (infoArea) {
+                infoArea.style.transform = 'scale(0.8)';
+            }
+            startTimer(newStatusEl, minTimeEl);
+        }
+
+        if (newAcceptBtn) {
+            newAcceptBtn.addEventListener('click', connectCall);
+        }
+
+        function closeCall() {
+            if (dialTimeout) clearTimeout(dialTimeout);
+            
+            // Capture final duration BEFORE doing anything else
+            const finalDuration = isConnected ? callSeconds : 0;
+            const finalMessages = [...callMessages];
+            const finalStatusText = isConnected ? '通话记录' : (isIncoming ? '已拒绝' : '已取消');
+            const targetFriend = callFriend;
+
+            stopTimer();
+            minTimeEl = null;
+            newView.style.display = 'none';
+            newView.style.opacity = '0';
+            newView.style.pointerEvents = 'none';
+            newView.classList.remove('active');
+            if (window.closeView) window.closeView(newView);
+            
+            if (targetFriend) {
+                // Save call record
+                const isSelfRecord = !isIncoming;
+                const recordMsg = {
+                    id: Date.now().toString(),
+                    type: 'voice_call_record',
+                    role: isSelfRecord ? 'user' : 'assistant',
+                    content: '[语音通话记录]',
+                    senderId: isSelfRecord ? (window.imData.currentUser ? window.imData.currentUser.id : 'me') : targetFriend.id,
+                    timestamp: Date.now(),
+                    duration: finalDuration,
+                    callMessages: finalMessages,
+                    isSelf: isSelfRecord,
+                    statusText: finalStatusText
+                };
+
+                if (window.imApp && window.imApp.appendFriendMessage) {
+                    window.imApp.appendFriendMessage(targetFriend.id, recordMsg);
+                    
+                    // Appended in real-time UI without re-rendering whole list
+                    const pageId = `chat-interface-${callFriend.id}`;
+                    const page = document.getElementById(pageId);
+                    if (page) {
+                        const msgContainer = page.querySelector('.ins-chat-messages');
+                        if (msgContainer && window.imChat.appendMessageToContainer) {
+                            window.imChat.appendMessageToContainer(callFriend, msgContainer, recordMsg);
+                            window.imChat.scrollToBottom(msgContainer);
+                        }
+                    }
+                }
+            }
+
+            callFriend = null;
+        }
+
+        if (newHangupBtn) {
+            newHangupBtn.addEventListener('click', closeCall);
+        }
+
+        if (newMinimizeBtn && minimizedFloat && mainContent) {
+            newMinimizeBtn.addEventListener('click', () => {
+                mainContent.style.opacity = '0';
+                mainContent.style.pointerEvents = 'none';
+                if(bgEl) bgEl.style.opacity = '0';
+                
+                setTimeout(() => {
+                    mainContent.style.display = 'none';
+                    minimizedFloat.style.display = 'flex';
+                }, 300);
+                
+                // 设置整个视图不拦截点击
+                newView.style.pointerEvents = 'none';
+                
+                // Reset float position
+                minimizedFloat.style.right = '20px';
+                minimizedFloat.style.top = '100px';
+                minimizedFloat.style.left = 'auto';
+                minimizedFloat.style.bottom = 'auto';
+            });
+        }
+
+        if (minimizedFloat && mainContent) {
+            let isDragging = false;
+            let startX, startY, initialX, initialY;
+
+            const onDragStart = (e) => {
+                isDragging = false;
+                const touch = e.type.includes('touch') ? e.touches[0] : e;
+                startX = touch.clientX;
+                startY = touch.clientY;
+                const rect = minimizedFloat.getBoundingClientRect();
+                initialX = rect.left;
+                initialY = rect.top;
+                
+                minimizedFloat.style.transition = 'none';
+                minimizedFloat.style.right = 'auto';
+                minimizedFloat.style.bottom = 'auto';
+                minimizedFloat.style.left = initialX + 'px';
+                minimizedFloat.style.top = initialY + 'px';
+
+                document.addEventListener('mousemove', onDragMove, { passive: false });
+                document.addEventListener('touchmove', onDragMove, { passive: false });
+                document.addEventListener('mouseup', onDragEnd);
+                document.addEventListener('touchend', onDragEnd);
+            };
+
+            const onDragMove = (e) => {
+                const touch = e.type.includes('touch') ? e.touches[0] : e;
+                const dx = touch.clientX - startX;
+                const dy = touch.clientY - startY;
+
+                if (Math.abs(dx) > 5 || Math.abs(dy) > 5) {
+                    isDragging = true;
+                }
+
+                if (isDragging) {
+                    e.preventDefault();
+                    let newX = initialX + dx;
+                    let newY = initialY + dy;
+                    
+                    // Boundary check
+                    const maxX = window.innerWidth - minimizedFloat.offsetWidth;
+                    const maxY = window.innerHeight - minimizedFloat.offsetHeight;
+                    newX = Math.max(0, Math.min(newX, maxX));
+                    newY = Math.max(0, Math.min(newY, maxY));
+
+                    minimizedFloat.style.left = newX + 'px';
+                    minimizedFloat.style.top = newY + 'px';
+                }
+            };
+
+            const onDragEnd = () => {
+                minimizedFloat.style.transition = 'all 0.3s ease';
+                document.removeEventListener('mousemove', onDragMove);
+                document.removeEventListener('touchmove', onDragMove);
+                document.removeEventListener('mouseup', onDragEnd);
+                document.removeEventListener('touchend', onDragEnd);
+            };
+
+            minimizedFloat.addEventListener('mousedown', onDragStart);
+            minimizedFloat.addEventListener('touchstart', onDragStart, { passive: false });
+
+            minimizedFloat.addEventListener('click', (e) => {
+                if (isDragging) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    return;
+                }
+                minimizedFloat.style.display = 'none';
+                mainContent.style.display = 'flex';
+                if(bgEl) bgEl.style.opacity = '1';
+                setTimeout(() => {
+                    mainContent.style.opacity = '1';
+                    mainContent.style.pointerEvents = 'auto';
+                }, 10);
+                
+                // 恢复整个视图的点击拦截
+                newView.style.pointerEvents = 'auto';
+            });
+        }
+
+        if (newSendBtn && newInput && newMessagesArea) {
+            newSendBtn.addEventListener('click', async () => {
+                if (!isConnected) return;
+                const text = newInput.value.trim();
+                if (!text || !callFriend) return;
+                
+                addCallBubble(text, true, newMessagesArea);
+                lastCallAiTurn = null;
+                newInput.value = '';
+
+                // Optional: trigger API for character response inside call
+                if (window.imChat.handleCallApiReply) {
+                    await window.imChat.handleCallApiReply(callFriend, text, (txt, isSelf) => addCallBubble(txt, isSelf, newMessagesArea));
+                } else if (window.imChat.generateMockReply) {
+                    setTimeout(() => {
+                        addCallBubble(window.imChat.generateMockReply(callFriend, text), false, newMessagesArea);
+                    }, 1000);
+                }
+            });
+        }
+
+        function removeCallTurnFromView(turn, messagesArea) {
+            if (!turn?.message?.callTurnId || !messagesArea) return;
+            messagesArea.querySelectorAll(`[data-call-turn-id="${turn.message.callTurnId}"]`).forEach(node => node.remove());
+        }
+
+        function buildCallRegeneratePrompt(previousReply) {
+            return previousReply ? `
+
+【重回重新生成要求】：
+- User 按下了“重回”，这通常代表 User 对上一轮语音回复不满意。
+- 请先在内部思考：User 为什么重回、刚刚生成的内容不好的点在哪里、User 现在更需要怎样的电话回复。可能问题包括：语气不对、关系距离不对、动作氛围太泛、没有接住情绪、对话太长、太敷衍、太热情、偏离人设、节奏不像电话、没有回应重点。
+- 禁止与上一轮重复或高度相似，不能复用相同句式、称呼、情绪走向、动作安排、环境声细节或结尾。
+- 不要在 action 或 text 里解释“重回”。
+【刚刚被重回的回复】：
+${previousReply}` : '';
+        }
+
+        async function runCallAiReply(options = {}) {
+            const triggerBtn = options.regenerate ? newRegenerateBtn : newAiBtn;
+            if (!isConnected || !callFriend || !newMessagesArea) return;
+            const { apiConfig, userState } = window;
+            if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+                if (window.showToast) window.showToast('请先配置 API');
+                return;
+            }
+
+            let regenerateContext = null;
+            if (options.regenerate) {
+                if (!lastCallAiTurn?.message) {
+                    if (window.showToast) window.showToast('暂无可重回的回复');
+                    return;
+                }
+                regenerateContext = {
+                    previousAction: lastCallAiTurn.message.actionText || '',
+                    previousThought: lastCallAiTurn.message.thoughtText || '',
+                    previousText: lastCallAiTurn.message.text || '',
+                    previousReply: [
+                        lastCallAiTurn.message.actionText ? `动作/氛围：${lastCallAiTurn.message.actionText}` : '',
+                        lastCallAiTurn.message.thoughtText ? `心声：${lastCallAiTurn.message.thoughtText}` : '',
+                        lastCallAiTurn.message.text ? `对话：${lastCallAiTurn.message.text}` : ''
+                    ].filter(Boolean).join('\n')
+                };
+                removeCallTurnFromView(lastCallAiTurn, newMessagesArea);
+                callMessages = callMessages.filter(item => item !== lastCallAiTurn.message);
+                lastCallAiTurn = null;
+            }
+
+            if (triggerBtn) {
+                triggerBtn.style.opacity = '0.5';
+                triggerBtn.style.pointerEvents = 'none';
+            }
+
+            try {
+                const systemDepth = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '';
+                const beforeRole = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '';
+                
+                const effectiveUserPersona = window.imApp?.getEffectivePersonaForFriend ? window.imApp.getEffectivePersonaForFriend(callFriend) : (userState?.persona || '普通用户');
+                
+                const contextLimit = window.imApp?.getContextLimit ? window.imApp.getContextLimit(callFriend) : 20;
+                
+                const targetLanguage = callFriend.language || 'zh';
+                const langMap = {
+                    'en': 'English',
+                    'ja': 'Japanese',
+                    'ko': 'Korean',
+                    'fr': 'French',
+                    'de': 'German',
+                    'ru': 'Russian',
+                    'es': 'Spanish',
+                    'pt': 'Portuguese',
+                    'it': 'Italian',
+                    'th': 'Thai',
+                    'vi': 'Vietnamese',
+                    'ar': 'Arabic',
+                    'hi': 'Hindi'
+                };
+                let languageRequirement = '';
+                let jsonFormat = `{"action": "第三人称动作/环境声/氛围描写，必须带\${charDisplayName}的名字", "thought": "角色当下心声，不说出口的话（第一人称视角）", "text": "角色说出口的对话内容"}`;
+                
+                let isChinese = ['zh', 'cn', 'zh-cn', 'chinese'].includes(targetLanguage.toLowerCase());
+                if (!isChinese) {
+                    const langName = langMap[targetLanguage.toLowerCase()] || langMap[targetLanguage] || targetLanguage;
+                    languageRequirement = `\n\n【!!! CRITICAL LANGUAGE RULE / 绝对最高优先级语言指令 !!!】:\n- [ABSOLUTE REQUIREMENT]: You MUST speak ONLY in ${langName} for the "text" field. This overrides ALL persona and memory settings.\n- Even if your persona is Chinese or the user speaks in Chinese, your spoken "text" MUST be in ${langName}.\n- [TRANSLATION]: You MUST provide an accurate Chinese translation of your ${langName} "text" in the "translation" field.\n- [CHINESE ONLY]: The "thought" and "action" fields MUST ALWAYS be written in Chinese (必须使用中文).`;
+                    jsonFormat = `{"action": "第三人称动作/环境声/氛围描写，必须带\${charDisplayName}的名字(必须用中文)", "thought": "角色当下心声，不说出口的话（第一人称视角）(必须用中文)", "text": "角色说出口的对话内容（使用${langName}）", "translation": "text字段对应的中文翻译（必须用中文）"}`;
+                }
+
+                let chatContextStr = '';
+                if (window.imApp?.getRecentContextMessages) {
+                    const contextMsgs = window.imApp.getRecentContextMessages(callFriend);
+                    if (contextMsgs && contextMsgs.length > 0) {
+                        chatContextStr = contextMsgs.map(m => {
+                            const roleName = m.role === 'user' ? (userState.name || 'User') : (m.speaker || callFriend.nickname);
+                            const content = m.text || m.content || '';
+                            let timeStr = '';
+                            if (m.timestamp) {
+                                const date = new Date(m.timestamp);
+                                timeStr = `[${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getDate().toString().padStart(2, '0')} ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}] `;
+                            }
+                            return `${timeStr}${roleName}: ${content}`;
+                        }).join('\n');
+                    }
+                }
+
+                const recentMessages = callMessages.slice(-contextLimit).map(m => {
+                    const speaker = m.isSelf ? (userState.name || 'User') : callFriend.nickname;
+                    const parts = [];
+                    if (m.actionText) parts.push(`动作/氛围：${m.actionText}`);
+                    if (m.thoughtText) parts.push(`心声：${m.thoughtText}`);
+                    if (m.text) parts.push(`对话：${m.text}`);
+                    return `${speaker}: ${parts.join(' / ')}`;
+                }).join('\n');
+
+                const charDisplayName = callFriend.realName || callFriend.nickname || 'Char';
+                const regeneratePrompt = buildCallRegeneratePrompt(regenerateContext?.previousReply || '');
+                const systemPrompt = `${systemDepth ? `System Depth Rules:\n${systemDepth}\n\n` : ''}${beforeRole ? `Before Role Rules:\n${beforeRole}\n\n` : ''}You are playing the role of ${charDisplayName}.
+【核心设定/Core Persona】：${callFriend.persona || 'No specific persona'}。
+You are talking to ${userState.name || 'User'}, whose persona is: ${effectiveUserPersona}。
+
+【之前的文字聊天记录】：
+${chatContextStr || '无'}
+
+【当前场景】：你和用户正处于实时的语音通话中。
+【要求】：
+1. 思考来电/接听背景：仔细思考用户打来电话或接听电话的原因，用户目前的情绪是怎样的，你（${charDisplayName}）现在在做什么，以及此时应该用怎样的语气来应对。
+2. 话题推进：如果这不是一通带有明确紧急事由的电话，仅仅是日常闲聊，你是否应该主动给用户分享你正在做的事情，或者主动挑起一些能够延续通话的有趣话题？请在内心（thought）进行推演，并在文本（text）中自然地表达出来。
+3. 结合记录：请结合之前的文字聊天记录以及当前的语音通话上下文，给出一个连贯自然的电话回复。
+4. action 必须用第三人称描写动作、环境声或通话氛围，必须包含角色名字“${charDisplayName}”，不要用“我/你”开头。
+5. action 要像电话那头能听到或感受到的细节，例如：${charDisplayName}翻了个身，电话那头传来布料摩擦声；${charDisplayName}压低了呼吸，背景里有很轻的脚步声。
+6. thought 是 ${charDisplayName} 此刻没说出口的当下心声，必须使用第一人称自述视角（即以“我”自称），可以体现口是心非、犹豫、压住的情绪、真正想说但没说的话；必须贴合人设和当前电话氛围。
+7. text 是角色真正说出口的话，可以和 thought 有反差，但不能让 text 解释 thought。
+8. action、thought、text 都要简短、口语、贴近实时通话，不要长篇独白。${languageRequirement}
+【输出格式】：必须返回纯 JSON，格式为 ${jsonFormat}${regeneratePrompt}
+
+【当前的语音通话上下文】:
+${recentMessages}`;
+
+                let endpoint = apiConfig.endpoint;
+                if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                if(!endpoint.endsWith('/chat/completions')) {
+                    endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                }
+
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiConfig.apiKey}` },
+                    body: JSON.stringify({
+                        model: apiConfig.model || '',
+                        messages: [
+                            { role: 'system', content: systemPrompt },
+                            { role: 'user', content: options.regenerate ? '请重回并重新生成这一轮语音通话回复' : '请继续语音通话' }
+                        ],
+                        temperature: parseFloat(apiConfig.temperature) || 0.7
+                    })
+                });
+
+                if (!response.ok) throw new Error('API Error');
+                const data = await response.json();
+                let fullReply = data.choices[0].message.content;
+
+                let parsed = null;
+                let cleanText = fullReply.trim();
+                if (cleanText.startsWith('```json')) cleanText = cleanText.substring(7);
+                else if (cleanText.startsWith('```')) cleanText = cleanText.substring(3);
+                if (cleanText.endsWith('```')) cleanText = cleanText.substring(0, cleanText.length - 3);
+
+                try {
+                    parsed = JSON.parse(cleanText);
+                } catch (e) {
+                    parsed = { action: '', text: cleanText };
+                }
+
+                if (!callFriend) return;
+
+                if (parsed && (parsed.text || parsed.action || parsed.thought)) {
+                    const message = addCallBubble(parsed.text || '', false, newMessagesArea, parsed.action || '', parsed.thought || '', parsed.translation || '');
+                    lastCallAiTurn = { message };
+                }
+
+            } catch (error) {
+                console.error(error);
+                if (options.regenerate && regenerateContext?.previousReply) {
+                    const restored = addCallBubble(
+                        regenerateContext.previousText || '',
+                        false,
+                        newMessagesArea,
+                        regenerateContext.previousAction || '',
+                        regenerateContext.previousThought || '',
+                        regenerateContext.previousTranslation || ''
+                    );
+                    lastCallAiTurn = { message: restored };
+                }
+                if (window.showToast) window.showToast(options.regenerate ? '重回失败' : 'API 请求失败');
+            } finally {
+                if (triggerBtn) {
+                    triggerBtn.style.opacity = '1';
+                    triggerBtn.style.pointerEvents = 'auto';
+                }
+            }
+        }
+
+        if (newAiBtn && newMessagesArea) {
+            newAiBtn.addEventListener('click', async () => {
+                await runCallAiReply();
+            });
+        }
+
+        if (newRegenerateBtn && newMessagesArea) {
+            newRegenerateBtn.addEventListener('click', async () => {
+                await runCallAiReply({ regenerate: true });
+            });
+        }
+
+        if (newInput && newSendBtn) {
+            newInput.addEventListener('keydown', (e) => {
+                if (e.isComposing || e.keyCode === 229) return;
+                if (e.key === 'Enter' || e.keyCode === 13) {
+                    newSendBtn.click();
+                }
+            });
+        }
+    };
+
+    // Call Details Modal Logic
+    // ==========================================
+    // GROUP VOICE CALL
+    // ==========================================
+    let groupCallTimer = null;
+    let groupCallSeconds = 0;
+    let groupCallTarget = null;
+    let groupCallMessages = [];
+    let activeGroupMembers = [];
+    let groupCallMessageSeq = 0;
+
+    function startGroupTimer(statusEl, minTimeTextEl) {
+        groupCallSeconds = 0;
+        if(statusEl) statusEl.innerText = '00:00';
+        if(minTimeTextEl) minTimeTextEl.innerText = '00:00';
+        groupCallTimer = setInterval(() => {
+            groupCallSeconds++;
+            const t = formatTime(groupCallSeconds);
+            if(statusEl) statusEl.innerText = t;
+            if(minTimeTextEl) minTimeTextEl.innerText = t;
+        }, 1000);
+    }
+
+    function stopGroupTimer() {
+        if (groupCallTimer) {
+            clearInterval(groupCallTimer);
+            groupCallTimer = null;
+        }
+    }
+
+    function addGroupCallBubble(text, senderId, messagesArea, actionText = '', translationText = '') {
+        if (!text && !actionText) return null;
+
+        let isSelf = (senderId === '__user__' || senderId == null);
+        let senderName = isSelf ? (window.userState?.name || 'User') : 'Member';
+        let senderAvatar = '';
+        let senderFriend = null;
+        
+        if (!isSelf && groupCallTarget) {
+            const friend = window.imData.friends.find(f => f.id === senderId);
+            if (friend) {
+                senderName = friend.nickname;
+                senderAvatar = friend.avatarUrl;
+                senderFriend = friend;
+            }
+        }
+
+        const turnId = `group-call-msg-${Date.now()}-${++groupCallMessageSeq}`;
+        const message = {
+            text: text,
+            actionText: actionText,
+            thoughtText: '',
+            translationText: translationText,
+            senderId: senderId == null ? '__user__' : senderId,
+            senderName: senderName,
+            senderAvatarUrl: senderAvatar || '',
+            isSelf: isSelf,
+            timestamp: Date.now(),
+            callTurnId: turnId
+        };
+        groupCallMessages.push(message);
+
+        if (actionText && messagesArea) {
+            messagesArea.appendChild(createCallNovelLine(actionText, {
+                callTurnId: turnId,
+                callLineType: 'action'
+            }));
+        }
+
+        if (text && messagesArea) {
+            messagesArea.appendChild(createCallNovelLine(formatCallLineText(text), {
+                voiceButton: isSelf ? null : createCallVoiceButton(text, message, senderFriend || groupCallTarget),
+                callTurnId: turnId,
+                callLineType: 'text',
+                speakerName: senderName,
+                isSelf: isSelf,
+                translationText: translationText
+            }));
+        }
+
+        if (messagesArea) {
+            messagesArea.scrollTop = messagesArea.scrollHeight;
+        }
+
+        return message;
+    }
+
+    window.imChat.openGroupVoiceCall = function(group, memberIds) {
+        const view = document.getElementById('group-voice-call-view');
+        if (!view) return;
+
+        // Clean up old listeners
+        const newView = view.cloneNode(true);
+        view.parentNode.replaceChild(newView, view);
+
+        groupCallTarget = group;
+        activeGroupMembers = memberIds;
+        groupCallMessages = [];
+        groupCallMessageSeq = 0;
+
+        // UI Elements
+        const hangupBtn = newView.querySelector('#group-call-hangup-btn');
+        const minimizeBtn = newView.querySelector('#group-call-minimize-btn');
+        const statusText = newView.querySelector('#group-call-status-text');
+        const avatarsGrid = newView.querySelector('#group-call-avatars-grid');
+        const messagesArea = newView.querySelector('#group-call-messages');
+        const inputEl = newView.querySelector('#group-call-input');
+        const sendBtn = newView.querySelector('#group-call-send-btn');
+        const aiBtn = newView.querySelector('#group-call-ai-btn');
+        
+        let minBanner = document.getElementById('group-call-minimized-banner');
+        let minText = null;
+        let minTime = null;
+
+        // 提前克隆并更新引用，防止后续使用旧 DOM
+        if (minBanner) {
+            const newMinBanner = minBanner.cloneNode(true);
+            minBanner.parentNode.replaceChild(newMinBanner, minBanner);
+            minBanner = newMinBanner;
+            
+            minText = document.getElementById('group-call-minimized-text');
+            minTime = document.getElementById('group-call-minimized-time');
+            
+            minBanner.addEventListener('click', () => {
+                minBanner.style.display = 'none';
+                newView.style.display = 'flex';
+                const mainContent = newView.querySelector('#group-call-main-content');
+                const bgEl = newView.querySelector('#group-call-bg');
+                if (mainContent) {
+                    mainContent.style.opacity = '1';
+                    mainContent.style.pointerEvents = 'auto';
+                }
+                if (bgEl) {
+                    bgEl.style.opacity = '1';
+                }
+                newView.style.opacity = '1';
+                newView.style.pointerEvents = 'auto';
+                newView.classList.add('active');
+            });
+        }
+
+        // Reset UI
+        messagesArea.innerHTML = '';
+        inputEl.value = '';
+        avatarsGrid.innerHTML = '';
+        statusText.innerText = '等待接通...';
+        
+        newView.style.display = 'flex';
+        newView.style.opacity = '1';
+        newView.style.pointerEvents = 'auto';
+        newView.classList.add('active');
+        if (window.openView) {
+            window.openView(newView);
+        }
+
+        // Include user in avatars grid
+        const allParticipants = [{ id: '__user__', isUser: true }, ...memberIds.map(id => window.imData.friends.find(f => f.id === id)).filter(Boolean)];
+        
+        allParticipants.forEach(p => {
+            const wrap = document.createElement('div');
+            wrap.style.display = 'flex';
+            wrap.style.flexDirection = 'column';
+            wrap.style.alignItems = 'center';
+            wrap.style.gap = '6px';
+            
+            const avatar = document.createElement('div');
+            avatar.style.width = '64px';
+            avatar.style.height = '64px';
+            avatar.style.borderRadius = '50%';
+            avatar.style.border = '2px solid rgba(255,255,255,0.1)';
+            avatar.style.background = '#333';
+            avatar.style.overflow = 'hidden';
+            avatar.style.transition = 'all 0.5s ease';
+            
+            if (p.isUser) {
+                // User initiating the call is fully colored and active immediately
+                avatar.style.filter = 'grayscale(0%) opacity(1)';
+                avatar.style.border = '2px solid #34c759';
+            } else {
+                // Others grayed out initially
+                avatar.style.filter = 'grayscale(100%) opacity(0.5)';
+            }
+            
+            if (p.isUser) {
+                const userAvatar = window.userState?.avatarUrl || window.userState?.avatar;
+                if (userAvatar) {
+                    avatar.innerHTML = `<img src="${userAvatar}" style="width:100%;height:100%;object-fit:cover;">`;
+                } else {
+                    avatar.innerHTML = `<div style="width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#fff;"><i class="fas fa-user"></i></div>`;
+                }
+            } else {
+                if (p.avatarUrl) {
+                    avatar.innerHTML = `<img src="${p.avatarUrl}" style="width:100%;height:100%;object-fit:cover;">`;
+                } else {
+                    avatar.innerHTML = `<div style="width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#fff;"><i class="fas fa-robot"></i></div>`;
+                }
+            }
+
+            const name = document.createElement('div');
+            name.style.fontSize = '12px';
+            name.style.color = 'rgba(255,255,255,0.6)';
+            name.style.maxWidth = '70px';
+            name.style.overflow = 'hidden';
+            name.style.textOverflow = 'ellipsis';
+            name.style.whiteSpace = 'nowrap';
+            name.innerText = p.isUser ? (window.userState?.name || 'User') : p.nickname;
+
+            wrap.appendChild(avatar);
+            wrap.appendChild(name);
+            avatarsGrid.appendChild(wrap);
+
+            if (!p.isUser) {
+                // Animate to color after random delay (1-3 seconds)
+                setTimeout(() => {
+                    avatar.style.filter = 'grayscale(0%) opacity(1)';
+                    avatar.style.border = '2px solid #34c759'; // Green border when connected
+                }, 1000 + Math.random() * 2000);
+            }
+        });
+
+        // Start timer after 1 second
+        setTimeout(() => {
+            startGroupTimer(statusText, minTime);
+            if (minText) minText.innerText = `${allParticipants.length}人正在群通话中...`;
+        }, 1000);
+
+        const closeGroupCall = () => {
+            const durationText = formatTime(groupCallSeconds);
+            const finalMessages = [...groupCallMessages];
+            const finalDuration = groupCallSeconds;
+
+            stopGroupTimer();
+            newView.style.display = 'none';
+            newView.style.opacity = '0';
+            newView.style.pointerEvents = 'none';
+            newView.classList.remove('active');
+            if (window.closeView) window.closeView(newView);
+            
+            if (minBanner) minBanner.style.display = 'none';
+            
+            // Save to group
+            if (groupCallTarget && window.imApp && window.imApp.appendFriendMessage) {
+                let callTranscript = '';
+                if (finalMessages.length > 0) {
+                    callTranscript = finalMessages.map(m => {
+                        const parts = [];
+                        if (m.actionText) parts.push(`动作：${m.actionText}`);
+                        if (m.text) parts.push(`${m.senderName}: ${m.text}`);
+                        if (m.translationText) parts.push(`翻译：${m.translationText}`);
+                        return parts.join(' / ');
+                    }).filter(Boolean).join('\n  ');
+                } else {
+                    callTranscript = '无对话';
+                }
+
+                // Append the call card
+                const recordMsg = {
+                    id: Date.now().toString(),
+                    type: 'voice_call_record',
+                    role: 'system',
+                    content: '[群语音通话记录]',
+                    senderId: '__user__',
+                    timestamp: Date.now(),
+                    duration: finalDuration,
+                    callMessages: finalMessages,
+                    statusText: `群通话时长 ${durationText}`,
+                    isSelf: true
+                };
+
+                window.imApp.appendFriendMessage(groupCallTarget.id, recordMsg);
+                
+                // Add text note for context
+                const contextNotice = {
+                    id: (Date.now() + 1).toString(),
+                    type: 'text',
+                    role: 'system',
+                    content: `[系统提示：刚刚完成了一次群语音通话，时长 ${durationText}。通话内容：\n${callTranscript}]`,
+                    timestamp: Date.now() + 1
+                };
+                window.imApp.appendFriendMessage(groupCallTarget.id, contextNotice);
+
+                // Update UI if needed
+                const pageId = `chat-interface-${groupCallTarget.id}`;
+                const page = document.getElementById(pageId);
+                if (page) {
+                    const msgContainer = page.querySelector('.ins-chat-messages');
+                    if (msgContainer && window.imChat.appendMessageToContainer) {
+                        window.imChat.appendMessageToContainer(groupCallTarget, msgContainer, recordMsg);
+                        window.imChat.scrollToBottom(msgContainer);
+                    }
+                }
+            }
+
+            groupCallTarget = null;
+            groupCallMessages = [];
+        };
+
+        if (hangupBtn) hangupBtn.addEventListener('click', closeGroupCall);
+
+        if (minimizeBtn) {
+            minimizeBtn.addEventListener('click', () => {
+                const mainContent = newView.querySelector('#group-call-main-content');
+                const bgEl = newView.querySelector('#group-call-bg');
+                
+                if (mainContent) {
+                    mainContent.style.opacity = '0';
+                    mainContent.style.pointerEvents = 'none';
+                }
+                if (bgEl) {
+                    bgEl.style.opacity = '0';
+                }
+
+                setTimeout(() => {
+                    newView.style.display = 'none';
+                    newView.style.opacity = '0';
+                    newView.classList.remove('active');
+                }, 300);
+                
+                newView.style.pointerEvents = 'none';
+                if (minBanner) minBanner.style.display = 'flex'; // 恢复显示悬浮气泡
+            });
+        }
+
+        if (sendBtn) {
+            sendBtn.addEventListener('click', () => {
+                const text = inputEl.value.trim();
+                if (!text) return;
+                addGroupCallBubble(text, '__user__', messagesArea);
+                inputEl.value = '';
+            });
+        }
+
+        if (inputEl) {
+            inputEl.addEventListener('keydown', (e) => {
+                if (e.isComposing || e.keyCode === 229) return;
+                if (e.key === 'Enter' || e.keyCode === 13) sendBtn.click();
+            });
+        }
+
+        if (aiBtn) {
+            aiBtn.addEventListener('click', async () => {
+                if (!groupCallTarget) return;
+                
+                const { apiConfig } = window;
+                const userState = window.userState || {};
+                if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+                    if (window.showToast) window.showToast('请先配置 API');
+                    return;
+                }
+
+                aiBtn.style.opacity = '0.5';
+                aiBtn.style.pointerEvents = 'none';
+
+                try {
+                    // Fetch group members details
+                    const groupMembers = activeGroupMembers.map(id => window.imData.friends.find(f => f.id === id)).filter(Boolean);
+                    
+                    // 获取群聊成员的挂载单聊记忆
+                    const groupMemorySettings = groupCallTarget.memory?.mountSettings || {};
+                    const groupMemoryLimits = groupCallTarget.memory?.mountLimits || {};
+                    const membersInfo = groupMembers.map(m => {
+                        let memberStr = `Name: ${m.nickname}\nPersona: ${m.persona || 'None'}`;
+                        
+                        // 挂载单聊上下文
+                        if (groupMemorySettings[m.id]) {
+                            const limit = groupMemoryLimits[m.id] || 20;
+                            let contextMsgs = m.messages || [];
+                            if (window.imApp.getRecentContextMessages && contextMsgs.length === 0) {
+                                contextMsgs = window.imApp.getRecentContextMessages(m) || [];
+                            }
+                            if (contextMsgs.length > limit) {
+                                contextMsgs = contextMsgs.slice(-limit);
+                            }
+                            if (contextMsgs && contextMsgs.length > 0) {
+                                const chatContextStr = contextMsgs.map(msg => {
+                                    const roleName = msg.role === 'user' ? (userState.name || 'User') : (msg.speaker || m.nickname);
+                                    let timeStr = '';
+                                    if (msg.timestamp) {
+                                        const date = new Date(msg.timestamp);
+                                        timeStr = `[${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getDate().toString().padStart(2, '0')} ${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}] `;
+                                    }
+                                    return `${timeStr}${roleName}: ${msg.text || msg.content || ''}`;
+                                }).join('\n');
+                                memberStr += `\n【${m.nickname} 与 ${userState.name || 'User'} 的单聊记忆（供参考该角色的态度和背景）】:\n${chatContextStr}`;
+                            }
+                        }
+                        return memberStr;
+                    }).join('\n\n-----------------\n\n');
+                    
+                    const systemDepth = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '';
+                    const beforeRole = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '';
+                    const afterRole = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('after_role') : '';
+                    const customGroupPrompt = groupCallTarget.memory?.context?.prompt || '';
+                    
+                    const effectiveUserPersona = window.imApp?.getEffectivePersonaForFriend ? window.imApp.getEffectivePersonaForFriend(groupCallTarget) : (userState?.persona || '普通用户');
+                    
+                    const recentMsgs = groupCallMessages.slice(-20).map(m => {
+                        const parts = [];
+                        if (m.actionText) parts.push(`动作：${m.actionText}`);
+                        if (m.text) parts.push(`发言：${m.text}`);
+                        if (m.translationText) parts.push(`翻译：${m.translationText}`);
+                        return `${m.senderName}: ${parts.join(' / ')}`;
+                    }).join('\n');
+                    const activeSpeakerNames = groupMembers.map(m => m.nickname || m.realName).filter(Boolean);
+                    
+                    let systemPrompt = '';
+                    if (systemDepth) systemPrompt += `【系统规则 (System Depth)】\n${systemDepth}\n\n`;
+                    if (beforeRole) systemPrompt += `【前置设定 (Before Role)】\n${beforeRole}\n\n`;
+                    
+                    systemPrompt += `You are simulating a group voice call in the group "${groupCallTarget.nickname}".
+【群聊成员设定】:
+${membersInfo}
+
+The user is ${userState?.name || 'User'}, whose persona is: ${effectiveUserPersona}.
+
+【当前的语音通话记录】:
+${recentMsgs || '无'}
+`;
+                    if (customGroupPrompt) systemPrompt += `\n【群聊特殊设定】:\n${customGroupPrompt}\n`;
+                    if (afterRole) systemPrompt += `\n【补充设定 (After Role)】:\n${afterRole}\n`;
+
+systemPrompt += `\n【!!!重要指示!!!】:
+你现在正处于真实的群聊实时语音通话中。
+【要求】:
+1. 本轮必须让所有已接入的非 User 群成员各发言一次，不能遗漏，也不要额外添加名单外的人。
+2. 已接入成员名单：${activeSpeakerNames.length > 0 ? activeSpeakerNames.join('、') : 'None'}。
+3. 每个成员只输出 1 条简短自然的语音回复，务必口语化，像真人在打电话，不要长篇大论。
+4. action 必须是能被通话感知到的动作、环境声或语气描写，必须包含该成员名字，不要写心声、内心、心理活动。
+5. text 是该成员真正说出口的原文台词；translation 必须是 text 对应的自然中文翻译，即使 text 本身是中文也要给出中文复述，不要留空。
+6. 严禁输出 thought、inner、心声、心理活动等字段；即使想表达情绪，也只能放在 action 的外显动作或语气里。
+7. 【输出格式】：必须返回纯 JSON 数组，格式为：[{"senderName":"成员名","action":"动作/环境描写","text":"原文台词","translation":"中文翻译"}]。`;
+                    let endpoint = apiConfig.endpoint;
+                    if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                    if(!endpoint.endsWith('/chat/completions')) {
+                        endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                    }
+
+                    const response = await fetch(endpoint, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiConfig.apiKey}` },
+                        body: JSON.stringify({
+                            model: apiConfig.model || '',
+                            messages: [
+                                { role: 'system', content: systemPrompt },
+                                { role: 'user', content: '请继续群语音通话' }
+                            ],
+                            temperature: parseFloat(apiConfig.temperature) || 0.8
+                        })
+                    });
+
+                    if (!response.ok) throw new Error('API Error');
+                    const data = await response.json();
+                    let fullReply = data.choices[0].message.content;
+
+                    let parsed = null;
+                    
+                    try {
+                        // 更鲁棒的 JSON 提取
+                        let match = fullReply.match(/\[[\s\S]*\]/);
+                        if (match) {
+                            parsed = JSON.parse(match[0]);
+                        } else {
+                            let singleMatch = fullReply.match(/\{[\s\S]*\}/);
+                            if (singleMatch) {
+                                parsed = [JSON.parse(singleMatch[0])];
+                            } else {
+                                let cleanText = fullReply.trim();
+                                if (cleanText.startsWith('```json')) cleanText = cleanText.substring(7);
+                                else if (cleanText.startsWith('```')) cleanText = cleanText.substring(3);
+                                if (cleanText.endsWith('```')) cleanText = cleanText.substring(0, cleanText.length - 3);
+                                parsed = JSON.parse(cleanText.trim());
+                            }
+                        }
+                        if (!Array.isArray(parsed)) parsed = [parsed];
+                    } catch (e) {
+                        console.error("Failed to parse JSON in group call", e, fullReply);
+                        parsed = [];
+                        if (window.showToast) window.showToast('AI返回格式错误，请重试');
+                    }
+
+                    if (!groupCallTarget) return; // if hung up during fetch
+
+                    parsed.forEach(msgObj => {
+                        if (msgObj.senderName && (msgObj.text || msgObj.action)) {
+                            // Find member id by name
+                            let friend = groupMembers.find(m => 
+                                m.nickname === msgObj.senderName || 
+                                m.realName === msgObj.senderName || 
+                                (m.nickname && msgObj.senderName.includes(m.nickname)) || 
+                                (m.realName && msgObj.senderName.includes(m.realName))
+                            );
+                            
+                            // 兜底方案，如果找不到对应角色，默认使用第一位非用户的群成员
+                            if (!friend && groupMembers.length > 0) {
+                                friend = groupMembers.find(m => m.id !== '__user__') || groupMembers[0];
+                            }
+
+                            if (friend) {
+                                setTimeout(() => {
+                                    addGroupCallBubble(msgObj.text || '', friend.id, messagesArea, msgObj.action || '', msgObj.translation || '');
+                                }, 500); // slight delay
+                            } else {
+                                // 极端情况依然没找到，强行以纯文本显示
+                                setTimeout(() => {
+                                    addGroupCallBubble(msgObj.text || '', null, messagesArea, msgObj.action || '', msgObj.translation || '');
+                                }, 500);
+                            }
+                        }
+                    });
+
+                } catch (err) {
+                    console.error(err);
+                    if (window.showToast) window.showToast('API 请求失败');
+                } finally {
+                    aiBtn.style.opacity = '1';
+                    aiBtn.style.pointerEvents = 'auto';
+                }
+            });
+        }
+    };
+
+    window.imChat.openVoiceCallDetail = function(msg) {
+        const detailModal = document.getElementById('voice-call-detail-modal');
+        const detailContent = document.getElementById('voice-call-detail-content');
+        const detailMeta = document.getElementById('voice-call-detail-meta');
+
+        if (!detailModal || !detailContent || !detailMeta) return;
+        
+        detailMeta.innerText = `通话时长: ${formatTime(msg.duration || 0)}`;
+        detailContent.innerHTML = '';
+
+        if (!msg.callMessages || msg.callMessages.length === 0) {
+            detailContent.innerHTML = '<div style="text-align: center; color: #8e8e93; padding: 20px;">无通话内容记录</div>';
+        } else {
+            msg.callMessages.forEach(cMsg => {
+                const row = document.createElement('div');
+                row.style.marginBottom = '12px';
+                
+                const name = document.createElement('div');
+                name.style.fontSize = '12px';
+                name.style.color = '#8e8e93';
+                name.style.marginBottom = '4px';
+                name.innerText = cMsg.isSelf ? '我' : '对方';
+
+                const bubble = document.createElement('div');
+                bubble.style.display = 'inline-block';
+                bubble.style.padding = '8px 12px';
+                bubble.style.borderRadius = '12px';
+                bubble.style.fontSize = '14px';
+                bubble.style.maxWidth = '85%';
+                bubble.style.wordBreak = 'break-word';
+
+                if (cMsg.isSelf) {
+                    bubble.style.background = '#e5e5ea';
+                    bubble.style.color = '#000';
+                } else {
+                    bubble.style.background = '#f2f2f7';
+                    bubble.style.color = '#000';
+                }
+
+                bubble.innerText = cMsg.text;
+                
+                row.appendChild(name);
+                row.appendChild(bubble);
+                detailContent.appendChild(row);
+            });
+        }
+
+        if (window.openView) {
+            window.openView(detailModal);
+        } else {
+            detailModal.style.display = 'flex';
+        }
+    };
+    function serializeCallMessagesForEdit(messages, friend = null) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        return safeMessages.map((message) => {
+            const lines = [];
+            if (message.actionText) lines.push(String(message.actionText).trim());
+            if (message.thoughtText) lines.push(`心声：${String(message.thoughtText).trim()}`);
+            if (message.text) lines.push(`${getCallSpeakerName(message, friend)}：${formatCallLineText(message.text)}`);
+            if (message.translationText) lines.push(`翻译：${String(message.translationText).trim()}`);
+            return lines.join('\n');
+        }).filter(Boolean).join('\n\n');
+    }
+
+    function buildCallRecordContextText(messages, friend = null, duration = 0, statusText = '通话记录') {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const durationText = `${Math.floor((Number(duration) || 0) / 60)}分${(Number(duration) || 0) % 60}秒`;
+
+        if (statusText === '已拒绝') {
+            return '[语音通话记录] 对方刚刚拒绝了这通语音通话。';
+        }
+        if (statusText === '已取消') {
+            return '[语音通话记录] 用户刚刚取消了这通语音通话。';
+        }
+
+        const transcript = safeMessages.map((message) => {
+            const parts = [];
+            if (message.actionText) parts.push(String(message.actionText).trim());
+            if (message.thoughtText) parts.push(`心声：${String(message.thoughtText).trim()}`);
+            if (message.text) parts.push(`${getCallSpeakerName(message, friend)}：${formatCallLineText(message.text)}`);
+            if (message.translationText) parts.push(`翻译：${String(message.translationText).trim()}`);
+            return parts.join('\n');
+        }).filter(Boolean).join('\n');
+
+        return transcript
+            ? `[语音通话记录] 时长 ${durationText}\n${transcript}`
+            : `[语音通话记录] 时长 ${durationText}，未产生可识别的文本记录。`;
+    }
+
+    function parseCallMessagesFromEdit(rawText, previousMessages = [], friend = null) {
+        const userNames = [window.userState?.name, window.userState?.realName, 'User', '我']
+            .filter(Boolean)
+            .map(name => String(name).trim());
+        const charNames = [friend?.nickname, friend?.realName, 'Char', '对方']
+            .filter(Boolean)
+            .map(name => String(name).trim());
+        const messages = [];
+        let pendingAction = '';
+        let pendingThought = '';
+        let pendingTranslation = '';
+
+        String(rawText || '').split(/\r?\n/).forEach((rawLine) => {
+            const line = rawLine.trim();
+            if (!line) return;
+
+            const thoughtMatch = line.match(/^心声[：:]\s*(.+)$/);
+            if (thoughtMatch) {
+                pendingThought = String(thoughtMatch[1] || '').trim();
+                return;
+            }
+
+            const translationMatch = line.match(/^翻译[：:]\s*(.+)$/);
+            if (translationMatch) {
+                pendingTranslation = String(translationMatch[1] || '').trim();
+                return;
+            }
+
+            const dialogMatch = line.match(/^(?:(.+?)[：:]\s*)?[「"](.*?)[」"]$/);
+            if (dialogMatch) {
+                const speaker = String(dialogMatch[1] || '').trim();
+                const text = String(dialogMatch[2] || '').trim();
+                const fallback = previousMessages[messages.length] || {};
+                let isSelf = !!fallback.isSelf;
+
+                if (speaker) {
+                    if (userNames.some(name => name && speaker.includes(name))) isSelf = true;
+                    if (charNames.some(name => name && speaker.includes(name))) isSelf = false;
+                }
+
+                messages.push({
+                    text,
+                    actionText: pendingAction,
+                    thoughtText: pendingThought,
+                    translationText: pendingTranslation,
+                    isSelf,
+                    timestamp: fallback.timestamp || Date.now()
+                });
+                pendingAction = '';
+                pendingThought = '';
+                pendingTranslation = '';
+                return;
+            }
+
+            pendingAction = pendingAction ? `${pendingAction}\n${line}` : line;
+        });
+
+        if (pendingAction || pendingThought || pendingTranslation) {
+            const fallback = previousMessages[messages.length] || {};
+            messages.push({
+                text: '',
+                actionText: pendingAction,
+                thoughtText: pendingThought,
+                translationText: pendingTranslation,
+                isSelf: !!fallback.isSelf,
+                timestamp: fallback.timestamp || Date.now()
+            });
+        }
+
+        return messages;
+    }
+
+    function renderCallDetailReadMode(detailContent, msg, friend = null) {
+        detailContent.innerHTML = '';
+        const safeMessages = Array.isArray(msg.callMessages) ? msg.callMessages : [];
+
+        if (safeMessages.length === 0) {
+            detailContent.innerHTML = '<div style="text-align:left; color:#8e8e93; padding:20px 0;">无通话内容记录</div>';
+            return;
+        }
+
+        safeMessages.forEach((cMsg) => {
+            const block = document.createElement('div');
+            block.style.marginBottom = '14px';
+            block.style.textAlign = 'left';
+            block.style.color = '#111';
+            block.style.fontSize = '15px';
+            block.style.lineHeight = '1.65';
+
+            if (cMsg.actionText) {
+                const action = document.createElement('div');
+                action.style.whiteSpace = 'pre-wrap';
+                action.style.wordBreak = 'break-word';
+                action.innerText = cMsg.actionText;
+                block.appendChild(action);
+            }
+
+            if (cMsg.thoughtText) {
+                const thought = document.createElement('div');
+                thought.style.whiteSpace = 'pre-wrap';
+                thought.style.wordBreak = 'break-word';
+                thought.style.color = '#8e8e93';
+                thought.style.fontSize = '13px';
+                thought.innerText = cMsg.thoughtText;
+                block.appendChild(thought);
+            }
+
+            if (cMsg.text) {
+                const line = document.createElement('div');
+                line.style.whiteSpace = 'pre-wrap';
+                line.style.wordBreak = 'break-word';
+                line.innerText = `${getCallSpeakerName(cMsg, friend)}：${formatCallLineText(cMsg.text)}`;
+                block.appendChild(line);
+            }
+
+            if (cMsg.translationText) {
+                const translation = document.createElement('div');
+                translation.style.whiteSpace = 'pre-wrap';
+                translation.style.wordBreak = 'break-word';
+                translation.style.color = '#8e8e93';
+                translation.style.fontSize = '13px';
+                translation.style.marginTop = '4px';
+                translation.innerText = `翻译：${cMsg.translationText}`;
+                block.appendChild(translation);
+            }
+
+            detailContent.appendChild(block);
+        });
+    }
+
+    function renderCallDetailEditMode(detailContent, msg, friend = null) {
+        detailContent.innerHTML = '';
+        const textarea = document.createElement('textarea');
+        textarea.id = 'voice-call-detail-editor';
+        // 保留说话人名称，便于保存时识别通话双方。
+        textarea.value = serializeCallMessagesForEdit(msg.callMessages, friend);
+        textarea.style.width = '100%';
+        textarea.style.height = '100%';
+        textarea.style.minHeight = '320px';
+        textarea.style.boxSizing = 'border-box';
+        textarea.style.border = '1px solid #d1d1d6';
+        textarea.style.borderRadius = '12px';
+        textarea.style.padding = '12px';
+        textarea.style.fontSize = '15px';
+        textarea.style.lineHeight = '1.6';
+        textarea.style.outline = 'none';
+        textarea.style.resize = 'none';
+        textarea.style.background = '#fff';
+        textarea.style.color = '#111';
+        detailContent.appendChild(textarea);
+        textarea.focus();
+    }
+
+    window.imChat.openVoiceCallDetail = function(msg, friend = null) {
+        const detailModal = document.getElementById('voice-call-detail-modal');
+        const detailContent = document.getElementById('voice-call-detail-content');
+        const detailMeta = document.getElementById('voice-call-detail-meta');
+        const editBtn = document.getElementById('voice-call-detail-edit-btn');
+        const saveBtn = document.getElementById('voice-call-detail-save-btn');
+        const cancelBtn = document.getElementById('voice-call-detail-cancel-btn');
+
+        if (!detailModal || !detailContent || !detailMeta) return;
+
+        const detailFriend = friend || window.imData?.currentActiveFriend || null;
+        let isEditing = false;
+
+        const setEditMode = (nextEditing) => {
+            isEditing = nextEditing;
+            if (editBtn) editBtn.style.display = isEditing ? 'none' : 'block';
+            if (saveBtn) saveBtn.style.display = isEditing ? 'block' : 'none';
+            if (cancelBtn) cancelBtn.style.display = isEditing ? 'block' : 'none';
+            if (isEditing) renderCallDetailEditMode(detailContent, msg, detailFriend);
+            else renderCallDetailReadMode(detailContent, msg, detailFriend);
+        };
+
+        detailMeta.innerText = `通话时长: ${formatTime(msg.duration || 0)}`;
+
+        if (editBtn) editBtn.onclick = () => setEditMode(true);
+        if (cancelBtn) cancelBtn.onclick = () => setEditMode(false);
+        if (saveBtn) {
+            saveBtn.onclick = async () => {
+                const editor = document.getElementById('voice-call-detail-editor');
+                if (!editor) return;
+
+                const previousMessages = Array.isArray(msg.callMessages) ? msg.callMessages : [];
+                const nextMessages = parseCallMessagesFromEdit(editor.value, previousMessages, detailFriend);
+                const nextContextText = buildCallRecordContextText(
+                    nextMessages,
+                    detailFriend,
+                    msg.duration || 0,
+                    msg.statusText || '通话记录'
+                );
+                msg.callMessages = nextMessages;
+                msg.content = nextContextText;
+                msg.text = nextContextText;
+                msg.updatedAt = new Date().toISOString();
+
+                let saved = true;
+                if (detailFriend?.id && window.imApp?.updateFriendMessage) {
+                    saved = await window.imApp.updateFriendMessage(detailFriend.id, {
+                        id: msg.id || null,
+                        timestamp: msg.timestamp || null
+                    }, (targetMsg) => {
+                        targetMsg.callMessages = nextMessages;
+                        targetMsg.content = nextContextText;
+                        targetMsg.text = nextContextText;
+                        targetMsg.updatedAt = msg.updatedAt;
+                    }, { silent: true });
+
+                    if (!saved && window.showToast) {
+                        window.showToast('通话记录保存失败');
+                    }
+                }
+
+                const page = detailFriend?.id ? document.getElementById(`chat-interface-${detailFriend.id}`) : null;
+                const msgContainer = page ? page.querySelector('.ins-chat-messages') : null;
+                if (msgContainer && window.imChat.rerenderChatContainer) {
+                    const latestFriend = (window.imData?.friends || []).find(item => String(item.id) === String(detailFriend.id)) || detailFriend;
+                    window.imChat.rerenderChatContainer(latestFriend, msgContainer, { scroll: false });
+                }
+
+                if (saved && window.showToast) window.showToast('通话上下文已更新');
+                setEditMode(false);
+            };
+        }
+
+        setEditMode(false);
+
+        if (window.openView) {
+            window.openView(detailModal);
+        } else {
+            detailModal.style.display = 'flex';
+        }
+    };
+})();
+
