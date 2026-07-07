@@ -1,1 +1,2763 @@
-function _0x32b7(){const _0x56ad51=['xHomeBannerUrl','[朋友圈]','u2_','wbGroups','_msg_','max','下雨天的城市，也有别样的浪漫\x20🌧️\x20📸\x20#扫街\x20#下雨天\x20#摄影','getItem','moment_msg_','system-ui,\x20-apple-system,\x20BlinkMacSystemFont,\x20\x22PingFang\x20SC\x22,\x20sans-serif','u2_minimaxConfig','[语音]\x20','YouTube','u2_appState','app_global_data','group_red_packet','正在生成备份文件...','isPinned','CityWalker','round','payerName','data:','schemaVersion','checksum','phone','isArray','onerror','map','imMoments','group_left','voice_message','80NLJWdR','清理旧数据...','timestamp','objectStoreNames','moments','User','split','claims','type','3092795VjaIjq','恢复本地兼容数据...','shopping_generated_food','色彩太棒了，求个滤镜参数','lastMessageTimestamp','some','get','opacity','accounts','message','from','v_default_2','apps','Loves','正在读取:\x20','previousMeta','onload','cardTitle','bound','Spotify','stickerName',')...','receiverName','u2phone','delete','stickerCategory','readAsDataURL','appState','forEach','stats','legacy','chatBg','Jay','packetCount','time','offlineAction','schema_version','avatarAssetId','application/octet-stream','then','put','StorageManager','localeCompare','迁移聊天联系人...','user123','momentsCoverUrl','temperature','fnv1a32','stickerUrl','error','@user','themeState','senderName','indexeddb_unavailable','imul','currentAccountId','迁移旧格式全局数据...','imessageChatCssEnabled','description',',\x20\x22exportedAt\x22:\x20','xSearchBannerUrl','imStickers','version','rollbackSourceMessage','imMessages','enabled','friendId_order','text','callMessages','random','u2_apiConfig','updatedAt','开始恢复数据...','deleted','symbol','contains','iiso_imessage_storage','min','externalUrl','准备导出数据...','settings','blob','friendId','onsuccess','entries','u2_worldBooks','你重新进入群聊','350127MgypRQ','dock-icon-youtube','周末的正确打开方式，当然是和猫猫一起虚度光阴啦\x20🐈\x20#猫咪日常\x20#周末vlog','showTranslation','friend','preset','storeCount','summary','getAll','order','packetId','u2_accounts','paymentAction','getRegistrations','payStatus','targetName','Invalid\x20backup\x20payload.','clear','385216KsYwTx','bstage','blob:','shopping_orders','shopping_generated_mall','function','narration','filter','好治愈的画面，想去你家偷猫！','sort','spotify','dataUrl','values','app-icon-1','worldBooks','迁移聊天记录...','set','u2_currentAccountId','claimedMemberIds','onabort','src','imFriends','shopping_','indexNames','imessage','replyTo','user_default_1','isFinite','MAX_SAFE_INTEGER','你已退出群聊','parse','totalAmount','floor','claimRecords','startsWith','Failed\x20to\x20convert\x20asset\x20','speakerMemberId','caches','lastMessagePreview','userId','fetchedModels','resolve','value','save','serviceWorker','u2_fetchedModels','packetMsg','image','ios_emulator_global_data','payeeName','254AZNaGK','app-icon-8','处理\x20','diary','packetType','Mew','result','approximateBytes','uiState','正在恢复:\x20','avatarUrl','object','shopping_comments','imMomentMessages','charAt','...','statusText','TikTok','旧格式迁移完成','duration','removeItem','670842DLEOjM','offlineMode','__all__','unregister','iiso_auth_','charCodeAt','Transaction\x20aborted','payload','同步本地缓存...','shopping_bound_wb_id','add','app-icon-7','avatar','endpoint','assistiveBallSettings','isSelf','pay_transfer','readonly','b.stage','app_state','im_moments','[表情]\x20','stores','tiktok','迁移图片资源...','迁移贴纸...','role','9527YQAPOv','find','snapshot','assetCount','revokeObjectURL','\x22:\x20[','pay','createObjectURL','\x20to\x20dataUrl','userState','offlineScene','worldbooks','apiPresets','readwrite','images','momentsCoverUrlMeta','name','u2_assistiveBallSettings','app-icon-2','imessageChatCss','MIN_SAFE_INTEGER','迁移朋友圈消息...','Pay','im_moment','momentsCover','length','shopping_qa','slice','点击添加个人简介','noticeKind','momentsCoverAssetId','assetId','2372427vhUtYu','createIndex','keys','[旁白]\x20','v_default_1','minimaxConfig','app_version','senderAvatarUrl','stringify','xTopics','xData','unreadCount','deleteDatabase','恢复完成','transcript','status','app-icon-5','maps','translation','friendId_timestamp','payKind','group_rejoined','trim','exportedAt','index','objectStore','moment_img','includes','Failed\x20to\x20restore\x20asset\x20','im_moment_messages','u2_themeState','content','shopping_cart','senderId','globalData','apiKey','warn','model','now','momentMessages','createObjectStore','desktop','开始清理旧数据...','Unsupported\x20backup\x20format.','categoryName','user_default_2','meta','恢复\x20','has','setItem','all','messages','stickers','string','blocked','target','size','这猫怎么长得跟人一样哈哈哈','apiConfig','u2_wbGroups','localStorage','key','hasOwnProperty','localStorageKeyCount','im_messages','Netflix','scope','导入完成','indexedDB','friends','theme','u2_userState','74214EzPjMk','close','处理表\x20','生成备份文件...','onblocked','appStorage','match','[群红包]\x20','迁移朋友圈...','{\x22version\x22:\x20','messageCount','messagesLoaded','youtube','imMomentsCoverAssetId','unknown','application/json','镜头跟随着一把透明雨伞，穿梭在霓虹闪烁的积水街道。水面倒映着红蓝色的灯牌，雨滴砸在伞面上发出清脆的白噪音，氛围感拉满。','transaction','iiso_app_storage','mimeType','system_notice','im_moments_cover_me','allocations','undefined','sticker','u2_apiPresets','toISOString','apiRunId','阳光穿过窗纱洒在木地板上，一只橘猫正四仰八叉地躺在阳光里打呼噜。镜头缓慢拉近，画面色调温暖治愈，配着慵懒的\x20lofi\x20音乐。','读取本地兼容数据...','call','push','prototype',',\x20\x22stores\x22:\x20{','speaker','imageSource','padStart','format','open','onupgradeneeded','assets','toString','dock-icon-settings','payDirection','IndexedDB\x20is\x20not\x20supported\x20in\x20this\x20browser.'];_0x32b7=function(){return _0x56ad51;};return _0x32b7();}function _0x9418(_0x2b8733,_0x21a785){_0x2b8733=_0x2b8733-0xb5;const _0x32b711=_0x32b7();let _0x94187d=_0x32b711[_0x2b8733];return _0x94187d;}(function(_0x288eea,_0x44d593){const _0x2215f7=_0x9418,_0x3c460a=_0x288eea();while(!![]){try{const _0x3a45cb=parseInt(_0x2215f7(0x149))/0x1*(-parseInt(_0x2215f7(0x119))/0x2)+parseInt(_0x2215f7(0x169))/0x3+parseInt(_0x2215f7(0xe7))/0x4+parseInt(_0x2215f7(0x206))/0x5+parseInt(_0x2215f7(0x12e))/0x6+-parseInt(_0x2215f7(0x1b1))/0x7+-parseInt(_0x2215f7(0x1fd))/0x8*(-parseInt(_0x2215f7(0xd5))/0x9);if(_0x3a45cb===_0x44d593)break;else _0x3c460a['push'](_0x3c460a['shift']());}catch(_0x12043d){_0x3c460a['push'](_0x3c460a['shift']());}}}(_0x32b7,0xbfe3a),(function(){const _0x3c5cfe=_0x9418,_0x430160=_0x3c5cfe(0x1c3),_0x222e1e=0x3,_0x4e1ae9=0x4,_0x3c8c26=_0x3c5cfe(0x21d),_0x59e5c8=[_0x3c5cfe(0x132)],_0x5985fb=new Set([_0x3c5cfe(0x1ec),_0x3c5cfe(0x117),_0x3c5cfe(0x137),_0x3c5cfe(0x208),_0x3c5cfe(0xeb),_0x3c5cfe(0x125),_0x3c5cfe(0x163),_0x3c5cfe(0xea),_0x3c5cfe(0x189)]),_0x510597=[_0x3c5cfe(0x1e0),_0x3c5cfe(0xfd)],_0x2675eb={'meta':_0x3c5cfe(0x197),'settings':_0x3c5cfe(0xce),'accounts':_0x3c5cfe(0x20e),'appState':_0x3c5cfe(0x141),'theme':_0x3c5cfe(0x1af),'worldbooks':'worldbooks','assets':'assets','imFriends':'im_friends','imMessages':_0x3c5cfe(0x1a9),'imMoments':_0x3c5cfe(0x142),'imMomentMessages':_0x3c5cfe(0x186),'imStickers':'im_stickers'},_0x5ac5b0={'schemaVersion':_0x3c5cfe(0x22a),'appVersion':_0x3c5cfe(0x16f),'imMomentsCoverAssetId':'im_moments_cover_asset_id'},_0xfd3faa=new Map(),_0x57746b=new Map(),_0x2cf1f5=0x78;let _0x15a5dd=null;function _0x430e8f(_0x41b60b){const _0x29b06e=_0x3c5cfe;if(typeof structuredClone==='function')return structuredClone(_0x41b60b);return JSON['parse'](JSON[_0x29b06e(0x171)](_0x41b60b));}function _0x179bf6(_0x14b897){const _0x4fd8de=_0x3c5cfe;return!!(_0x14b897&&typeof _0x14b897===_0x4fd8de(0x124)&&typeof Node!=='undefined'&&_0x14b897 instanceof Node);}function _0x1e4cd9(_0x1eddae,_0x4a0ab1=new WeakSet()){const _0x1a3a86=_0x3c5cfe;if(_0x1eddae==null)return _0x1eddae;if(typeof _0x1eddae===_0x1a3a86(0xec)||typeof _0x1eddae===_0x1a3a86(0xc8))return undefined;if(typeof _0x1eddae==='string'&&_0x1fcccc(_0x1eddae))return null;if(typeof _0x1eddae!==_0x1a3a86(0x124))return _0x1eddae;if(_0x179bf6(_0x1eddae))return undefined;if(_0x1eddae instanceof Date)return _0x1eddae[_0x1a3a86(0x1cb)]();if(typeof Blob!==_0x1a3a86(0x1c8)&&_0x1eddae instanceof Blob)return _0x1eddae;if(typeof File!==_0x1a3a86(0x1c8)&&_0x1eddae instanceof File)return _0x1eddae;if(_0x4a0ab1['has'](_0x1eddae))return undefined;_0x4a0ab1[_0x1a3a86(0x138)](_0x1eddae);if(Array[_0x1a3a86(0x1f7)](_0x1eddae))return _0x1eddae[_0x1a3a86(0x1f9)](_0x311855=>_0x1e4cd9(_0x311855,_0x4a0ab1))[_0x1a3a86(0xee)](_0xcb6abe=>_0xcb6abe!==undefined);const _0x5d0205={};return Object[_0x1a3a86(0x16b)](_0x1eddae)[_0x1a3a86(0x222)](_0x5756b6=>{const _0x4d7e4a=_0x1a3a86;if(_0x5756b6[_0x4d7e4a(0x127)](0x0)==='_')return;const _0x62a081=_0x1e4cd9(_0x1eddae[_0x5756b6],_0x4a0ab1);if(_0x62a081!==undefined)_0x5d0205[_0x5756b6]=_0x62a081;}),_0x5d0205;}function _0x573c9f(_0x3cf268){const _0x5e0f6b=_0x3c5cfe,_0x2b369e=Number(_0x3cf268);if(!Number[_0x5e0f6b(0x102)](_0x2b369e))return 0x0;return Math[_0x5e0f6b(0x1e3)](0x0,Math[_0x5e0f6b(0xcb)](0x64,Math[_0x5e0f6b(0x1f1)](_0x2b369e)));}function _0x79706f(_0x1f7ca3,_0x409ac7,_0x24d55e){const _0x558082=_0x3c5cfe;typeof _0x1f7ca3===_0x558082(0xec)&&_0x1f7ca3({'message':_0x409ac7,'progress':_0x573c9f(_0x24d55e)});}function _0x5d75e3(_0x5429cc){const _0x5c805c=_0x3c5cfe;return _0x59e5c8['some'](_0x44ea69=>String(_0x5429cc||'')[_0x5c805c(0x109)](_0x44ea69));}function _0x1c4bc1(_0x250a5f){const _0x56d559=_0x3c5cfe,_0x531324=String(_0x250a5f||'');if(!_0x531324||_0x5d75e3(_0x531324))return![];if(_0x5985fb[_0x56d559(0x199)](_0x531324))return!![];return _0x510597[_0x56d559(0x20b)](_0x48d3b0=>_0x531324[_0x56d559(0x109)](_0x48d3b0));}function _0x286910(_0x44b113,_0x3458dd){const _0x2ddc11=_0x3c5cfe;if(!_0x44b113||_0x5d75e3(_0x44b113))return;localStorage[_0x2ddc11(0x19a)](String(_0x44b113),String(_0x3458dd??''));}function _0xf593e9(_0x30edc8,_0x85dd93){const _0x24f027=_0x3c5cfe;_0x286910(_0x30edc8,JSON[_0x24f027(0x171)](_0x1e4cd9(_0x85dd93)));}function _0x4d0d98(){const _0x5ede9e=_0x3c5cfe,_0xfa9a9d=[];if(!window[_0x5ede9e(0x1a5)])return _0xfa9a9d;const _0x42baea=[];for(let _0x56f661=0x0;_0x56f661<localStorage[_0x5ede9e(0x162)];_0x56f661+=0x1){const _0x56c376=localStorage[_0x5ede9e(0x1a6)](_0x56f661);if(_0x1c4bc1(_0x56c376))_0x42baea[_0x5ede9e(0x1d0)](_0x56c376);}return _0x42baea[_0x5ede9e(0xf0)]()[_0x5ede9e(0x222)](_0x4c312c=>{const _0x92c1f6=_0x5ede9e;_0xfa9a9d['push']({'key':_0x4c312c,'value':localStorage[_0x92c1f6(0x1e5)](_0x4c312c)});}),_0xfa9a9d;}function _0x308896(){const _0x2a8a13=_0x3c5cfe;if(!window['localStorage'])return[];const _0x339613=[],_0x25078d=[];for(let _0x43ba62=0x0;_0x43ba62<localStorage[_0x2a8a13(0x162)];_0x43ba62+=0x1){const _0x5b9d3e=localStorage[_0x2a8a13(0x1a6)](_0x43ba62);if(_0x1c4bc1(_0x5b9d3e))_0x25078d[_0x2a8a13(0x1d0)](_0x5b9d3e);}return _0x25078d[_0x2a8a13(0x222)](_0x4d408e=>{const _0x183089=_0x2a8a13;localStorage[_0x183089(0x12d)](_0x4d408e),_0x339613[_0x183089(0x1d0)](_0x4d408e);}),_0x339613;}function _0x5978fa(_0x41d4ec=[]){const _0x449d7c=_0x3c5cfe;if(!window['localStorage'])return 0x0;const _0x1e51ec=Array[_0x449d7c(0x1f7)](_0x41d4ec)?_0x41d4ec:[];let _0x43ecef=0x0;return _0x1e51ec[_0x449d7c(0x222)](_0x467394=>{const _0x5d587f=_0x449d7c;if(!_0x467394||!_0x1c4bc1(_0x467394['key']))return;const _0x2f0b73=String(_0x467394[_0x5d587f(0x111)]??'');let _0x20866c=_0x2f0b73;try{_0x20866c=JSON[_0x5d587f(0x171)](_0x1e4cd9(JSON[_0x5d587f(0x105)](_0x2f0b73)));}catch(_0x2f1aab){_0x20866c=_0x1fcccc(_0x2f0b73)?'':_0x2f0b73;}_0x286910(_0x467394[_0x5d587f(0x1a6)],_0x20866c),_0x43ecef+=0x1;}),_0x43ecef;}function _0x1548f6(_0xf34496=[],_0x57b92c){const _0x2228a1=_0x3c5cfe,_0x420447=Array[_0x2228a1(0x1f7)](_0xf34496)?_0xf34496[_0x2228a1(0x14a)](_0x42c202=>_0x42c202&&_0x42c202[_0x2228a1(0x1a6)]===_0x57b92c):null;return _0x420447?_0x420447[_0x2228a1(0x111)]:undefined;}function _0xff3f51(_0x1aa7cb=[],_0x73991b){const _0x51014c=_0x3c5cfe,_0x2b49e4=_0x1548f6(_0x1aa7cb,_0x73991b);if(_0x2b49e4===undefined||_0x2b49e4===null||_0x2b49e4==='')return undefined;try{return JSON[_0x51014c(0x105)](_0x2b49e4);}catch(_0x46a624){return console[_0x51014c(0x18d)]('Failed\x20to\x20parse\x20localStorage\x20backup\x20key\x20\x22'+_0x73991b+'\x22:',_0x46a624),undefined;}}function _0x32d8e9(_0x3c2914=[],_0x40a360){const _0x3db86d=_0x3c5cfe;return Array['isArray'](_0x3c2914)&&_0x3c2914[_0x3db86d(0x20b)](_0xb42f0c=>_0xb42f0c&&_0xb42f0c[_0x3db86d(0x1a6)]===_0x40a360);}function _0x3dd2f0(_0x2afe03,_0x4d6d76,_0x24268b){const _0x3f9dc5=_0x3c5cfe;if(_0x24268b===undefined)return;if(!Array[_0x3f9dc5(0x1f7)](_0x2afe03[_0x2675eb[_0x3f9dc5(0xce)]]))_0x2afe03[_0x2675eb[_0x3f9dc5(0xce)]]=[];const _0xaaa3b9=_0x2afe03[_0x2675eb[_0x3f9dc5(0xce)]][_0x3f9dc5(0x14a)](_0x542c99=>_0x542c99&&_0x542c99[_0x3f9dc5(0x1a6)]===_0x4d6d76);_0xaaa3b9?_0xaaa3b9['value']=_0x430e8f(_0x24268b):_0x2afe03[_0x2675eb['settings']][_0x3f9dc5(0x1d0)]({'key':_0x4d6d76,'value':_0x430e8f(_0x24268b)});}function _0x5c2b15(_0x1d3193={},_0x4cdddb=[]){const _0x1eb09b=_0x3c5cfe,_0xcf9fe2={'u2_userState':_0x1eb09b(0x152),'u2_apiConfig':_0x1eb09b(0x1a3),'u2_minimaxConfig':_0x1eb09b(0x16e),'u2_apiPresets':_0x1eb09b(0x155),'u2_fetchedModels':_0x1eb09b(0x10f),'u2_assistiveBallSettings':_0x1eb09b(0x13c),'u2_themeState':_0x1eb09b(0x239),'u2_currentAccountId':'currentAccountId','u2_wbGroups':'wbGroups','u2_worldBooks':_0x1eb09b(0xf5),'u2_appState':_0x1eb09b(0x221)};Object[_0x1eb09b(0xd2)](_0xcf9fe2)[_0x1eb09b(0x222)](([_0x3ae6fa,_0x231bde])=>{const _0x40b963=_0xff3f51(_0x4cdddb,_0x3ae6fa);if(_0x40b963!==undefined)_0x3dd2f0(_0x1d3193,_0x231bde,_0x40b963);});const _0x317f07=_0xff3f51(_0x4cdddb,_0x1eb09b(0xe0));if(Array['isArray'](_0x317f07)){if(!Array['isArray'](_0x1d3193[_0x2675eb[_0x1eb09b(0x20e)]]))_0x1d3193[_0x2675eb[_0x1eb09b(0x20e)]]=[];const _0x2f4467=_0x1d3193[_0x2675eb['accounts']][_0x1eb09b(0x14a)](_0xa0f4c9=>_0xa0f4c9&&_0xa0f4c9['id']===_0x1eb09b(0x130));_0x2f4467?_0x2f4467[_0x1eb09b(0x111)]=_0x430e8f(_0x317f07):_0x1d3193[_0x2675eb[_0x1eb09b(0x20e)]][_0x1eb09b(0x1d0)]({'id':_0x1eb09b(0x130),'value':_0x430e8f(_0x317f07)});}}function _0x239bf5(_0x5328a2){const _0x4bc7a4=_0x3c5cfe;try{return new Blob([JSON[_0x4bc7a4(0x171)](_0x5328a2)])[_0x4bc7a4(0x1a1)];}catch(_0x1ed75d){try{return JSON[_0x4bc7a4(0x171)](_0x5328a2)[_0x4bc7a4(0x162)];}catch(_0xedd757){return 0x0;}}}function _0x4d5fa0(_0x1a2501){const _0x2b180e=_0x3c5cfe;let _0x1168a3='';try{_0x1168a3=JSON[_0x2b180e(0x171)](_0x1a2501);}catch(_0x5df0cc){_0x1168a3=String(_0x1a2501||'');}let _0xc09613=0x811c9dc5;for(let _0x3db426=0x0;_0x3db426<_0x1168a3[_0x2b180e(0x162)];_0x3db426+=0x1){_0xc09613^=_0x1168a3[_0x2b180e(0x133)](_0x3db426),_0xc09613=Math[_0x2b180e(0x23c)](_0xc09613,0x1000193);}return(_0xc09613>>>0x0)[_0x2b180e(0x1da)](0x10)[_0x2b180e(0x1d5)](0x8,'0');}function _0x8fb48b(_0x54b8eb){const _0x461065=_0x3c5cfe;if(!_0x54b8eb)return;_0x57746b[_0x461065(0xf7)](_0x54b8eb,Date['now']());}function _0x41bef2(_0x4ea5a5){const _0x186a2f=_0x3c5cfe,_0x3d84c6=_0xfd3faa[_0x186a2f(0x20c)](_0x4ea5a5);if(_0x3d84c6){try{URL[_0x186a2f(0x14d)](_0x3d84c6);}catch(_0x197e92){}_0xfd3faa[_0x186a2f(0x21e)](_0x4ea5a5);}_0x57746b[_0x186a2f(0x21e)](_0x4ea5a5);}function _0x81dc95(){const _0x1e55fb=_0x3c5cfe;try{Array['from'](_0xfd3faa['keys']())['forEach'](_0x383555=>_0x41bef2(_0x383555));}catch(_0x109516){}return _0xfd3faa[_0x1e55fb(0xe6)](),_0x57746b[_0x1e55fb(0xe6)](),!![];}async function _0x2eaeef(){const _0x4b11f3=_0x3c5cfe,_0x77c65a=Array[_0x4b11f3(0x210)](_0xfd3faa[_0x4b11f3(0x16b)]());if(_0x77c65a[_0x4b11f3(0x162)]===0x0)return 0x0;let _0x1f1e12=0x0;for(const _0x1b04e9 of _0x77c65a){const _0x2e9912=await _0xe72e9a(_0x1b04e9);_0x1f1e12+=Number(_0x2e9912?.['size'])||0x0;}return _0x1f1e12;}function _0x5ad099(_0xd77677=_0x2cf1f5){const _0x39314a=_0x3c5cfe,_0x115bbe=Math['max'](0x0,Number(_0xd77677)||0x0);if(_0x115bbe===0x0)return _0x81dc95(),0x0;if(_0xfd3faa[_0x39314a(0x1a1)]<=_0x115bbe)return _0xfd3faa[_0x39314a(0x1a1)];const _0x36eecc=Array['from'](_0xfd3faa[_0x39314a(0x16b)]())[_0x39314a(0xf0)]((_0x299126,_0x29019d)=>(_0x57746b[_0x39314a(0x20c)](_0x299126)||0x0)-(_0x57746b['get'](_0x29019d)||0x0))[_0x39314a(0x164)](0x0,Math[_0x39314a(0x1e3)](0x0,_0xfd3faa[_0x39314a(0x1a1)]-_0x115bbe));return _0x36eecc[_0x39314a(0x222)](_0x3fdc73=>_0x41bef2(_0x3fdc73)),_0xfd3faa[_0x39314a(0x1a1)];}function _0x5a35f2(_0x481e09){const _0x129aba=_0x3c5cfe;return typeof _0x481e09==='string'&&_0x481e09[_0x129aba(0x109)](_0x129aba(0x1f3));}function _0x1fcccc(_0x318015){const _0x3a1619=_0x3c5cfe;return typeof _0x318015===_0x3a1619(0x19e)&&_0x318015['startsWith'](_0x3a1619(0xe9));}function _0x4c89bb(_0x4b9b52,_0x429e37){const _0x3a5e9f=_0x3c5cfe;if(!_0x4b9b52||!_0x4b9b52['indexNames'])return![];if(typeof _0x4b9b52[_0x3a5e9f(0xfe)]['contains']===_0x3a5e9f(0xec))return _0x4b9b52[_0x3a5e9f(0xfe)][_0x3a5e9f(0xc9)](_0x429e37);return Array[_0x3a5e9f(0x210)](_0x4b9b52['indexNames'])[_0x3a5e9f(0x184)](_0x429e37);}function _0x3227f3(_0x71347a){const _0x4ac1e1=_0x3c5cfe,_0x3f65be=String(_0x71347a||'')[_0x4ac1e1(0x203)](','),_0x372bce=_0x3f65be[0x0]||'',_0x3f43de=_0x3f65be[0x1]||'',_0x115b32=_0x372bce[_0x4ac1e1(0x1b7)](/data:(.*?);base64/),_0x157303=_0x115b32?_0x115b32[0x1]:_0x4ac1e1(0x22c),_0x38c8d4=atob(_0x3f43de),_0x5d7c1e=_0x38c8d4[_0x4ac1e1(0x162)],_0x58f23b=new Uint8Array(_0x5d7c1e);for(let _0x55871e=0x0;_0x55871e<_0x5d7c1e;_0x55871e+=0x1){_0x58f23b[_0x55871e]=_0x38c8d4[_0x4ac1e1(0x133)](_0x55871e);}return new Blob([_0x58f23b],{'type':_0x157303});}function _0x4ad73c(_0x2896a9){return new Promise((_0x480e92,_0x4d6d44)=>{const _0x38cabd=_0x9418,_0x33e077=new FileReader();_0x33e077[_0x38cabd(0x216)]=()=>_0x480e92(_0x33e077[_0x38cabd(0x11f)]),_0x33e077[_0x38cabd(0x1f8)]=_0x4d6d44,_0x33e077[_0x38cabd(0x220)](_0x2896a9);});}function _0x2e3c0a(_0x3c1df6){return new Promise((_0x1c9657,_0x425ec2)=>{const _0x58a296=_0x9418;_0x3c1df6[_0x58a296(0xd1)]=()=>_0x1c9657(_0x3c1df6['result']),_0x3c1df6['onerror']=()=>_0x425ec2(_0x3c1df6[_0x58a296(0x237)]);});}function _0x5b35e6(_0x25de8d){return new Promise(_0x2000cd=>{const _0x3d9c73=_0x9418;if(!window[_0x3d9c73(0x1ad)]||!_0x25de8d){_0x2000cd({'name':_0x25de8d,'deleted':![],'reason':_0x3d9c73(0x23b)});return;}let _0x254150=![];const _0x4deb25=window[_0x3d9c73(0x1ad)][_0x3d9c73(0x175)](_0x25de8d);_0x4deb25[_0x3d9c73(0xd1)]=()=>{const _0x24df9d=_0x3d9c73;if(_0x254150)return;_0x254150=!![],_0x2000cd({'name':_0x25de8d,'deleted':!![],'reason':_0x24df9d(0xc7)});},_0x4deb25[_0x3d9c73(0x1f8)]=()=>{const _0x509402=_0x3d9c73;if(_0x254150)return;_0x254150=!![],_0x2000cd({'name':_0x25de8d,'deleted':![],'reason':_0x4deb25['error']?.[_0x509402(0x20f)]||_0x4deb25[_0x509402(0x237)]?.[_0x509402(0x159)]||'delete_error'});},_0x4deb25[_0x3d9c73(0x1b5)]=()=>{const _0x1fc8f6=_0x3d9c73;if(_0x254150)return;_0x254150=!![],_0x2000cd({'name':_0x25de8d,'deleted':![],'reason':_0x1fc8f6(0x19f)});};});}async function _0xa1adaf(){const _0x58227f=_0x3c5cfe;if(!window['caches']||typeof window['caches'][_0x58227f(0x16b)]!==_0x58227f(0xec))return[];try{const _0xaedd8c=await window[_0x58227f(0x10c)]['keys'](),_0x485588=[];for(const _0x1e089a of _0xaedd8c){const _0x159b81=await window[_0x58227f(0x10c)][_0x58227f(0x21e)](_0x1e089a);_0x485588[_0x58227f(0x1d0)]({'name':_0x1e089a,'deleted':!!_0x159b81});}return _0x485588;}catch(_0x5b4cf6){return[{'name':'*','deleted':![],'reason':_0x5b4cf6?.[_0x58227f(0x20f)]||'cache_clear_failed'}];}}async function _0x1c38e3(){const _0x599d4e=_0x3c5cfe;if(!navigator[_0x599d4e(0x113)]||typeof navigator['serviceWorker'][_0x599d4e(0xe2)]!==_0x599d4e(0xec))return[];try{const _0x2f5017=await navigator[_0x599d4e(0x113)]['getRegistrations'](),_0x395770=[];for(const _0x303fbf of _0x2f5017){const _0xf6b35e=_0x303fbf?.[_0x599d4e(0x1ab)]||_0x599d4e(0x1bf),_0x487c51=await _0x303fbf[_0x599d4e(0x131)]();_0x395770[_0x599d4e(0x1d0)]({'scope':_0xf6b35e,'unregistered':!!_0x487c51});}return _0x395770;}catch(_0x5b8229){return[{'scope':'*','unregistered':![],'reason':_0x5b8229?.[_0x599d4e(0x20f)]||'sw_unregister_failed'}];}}function _0x276c37(){return new Promise((_0x38f945,_0x1b9d26)=>{const _0x41a50e=_0x9418;if(!window[_0x41a50e(0x1ad)]){_0x1b9d26(new Error(_0x41a50e(0x1dd)));return;}const _0x170a5b=window[_0x41a50e(0x1ad)][_0x41a50e(0x1d7)](_0x430160,_0x222e1e);_0x170a5b['onerror']=()=>{const _0x5abbbf=_0x41a50e;_0x15a5dd=null,_0x1b9d26(_0x170a5b[_0x5abbbf(0x237)]);},_0x170a5b[_0x41a50e(0x1d8)]=_0x42e473=>{const _0x3b5e69=_0x41a50e,_0xd66f3a=_0x42e473[_0x3b5e69(0x1a0)][_0x3b5e69(0x11f)];!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0x197)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0x197)],{'keyPath':'key'});!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0xce)])&&_0xd66f3a['createObjectStore'](_0x2675eb[_0x3b5e69(0xce)],{'keyPath':'key'});!_0xd66f3a[_0x3b5e69(0x200)]['contains'](_0x2675eb[_0x3b5e69(0x20e)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0x20e)],{'keyPath':'id'});!_0xd66f3a['objectStoreNames'][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0x221)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb['appState'],{'keyPath':_0x3b5e69(0x1a6)});!_0xd66f3a[_0x3b5e69(0x200)]['contains'](_0x2675eb[_0x3b5e69(0x1af)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb['theme'],{'keyPath':_0x3b5e69(0x1a6)});!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0x154)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0x154)],{'keyPath':_0x3b5e69(0x1a6)});!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0x1d9)])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0x1d9)],{'keyPath':'id'});!_0xd66f3a[_0x3b5e69(0x200)]['contains'](_0x2675eb['imFriends'])&&_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0xfc)],{'keyPath':'id'});if(!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb['imMessages'])){const _0x9c3137=_0xd66f3a[_0x3b5e69(0x191)](_0x2675eb[_0x3b5e69(0xbe)],{'keyPath':'id'});_0x9c3137[_0x3b5e69(0x16a)](_0x3b5e69(0xd0),_0x3b5e69(0xd0),{'unique':![]}),_0x9c3137[_0x3b5e69(0x16a)](_0x3b5e69(0x17c),[_0x3b5e69(0xd0),_0x3b5e69(0x1ff)],{'unique':![]}),_0x9c3137[_0x3b5e69(0x16a)]('friendId_order',[_0x3b5e69(0xd0),_0x3b5e69(0xde)],{'unique':![]});}else{const _0x235cad=_0x42e473['target'][_0x3b5e69(0x1c2)];if(_0x235cad){const _0x35d3bf=_0x235cad[_0x3b5e69(0x182)](_0x2675eb[_0x3b5e69(0xbe)]);!_0x4c89bb(_0x35d3bf,_0x3b5e69(0xd0))&&_0x35d3bf[_0x3b5e69(0x16a)](_0x3b5e69(0xd0),_0x3b5e69(0xd0),{'unique':![]}),!_0x4c89bb(_0x35d3bf,'friendId_timestamp')&&_0x35d3bf[_0x3b5e69(0x16a)](_0x3b5e69(0x17c),['friendId',_0x3b5e69(0x1ff)],{'unique':![]}),!_0x4c89bb(_0x35d3bf,_0x3b5e69(0xc0))&&_0x35d3bf['createIndex'](_0x3b5e69(0xc0),[_0x3b5e69(0xd0),'order'],{'unique':![]});}}if(!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb[_0x3b5e69(0x1fa)])){const _0x3ad816=_0xd66f3a['createObjectStore'](_0x2675eb['imMoments'],{'keyPath':'id'});_0x3ad816[_0x3b5e69(0x16a)](_0x3b5e69(0x10e),_0x3b5e69(0x10e),{'unique':![]}),_0x3ad816['createIndex']('time',_0x3b5e69(0x228),{'unique':![]});}if(!_0xd66f3a[_0x3b5e69(0x200)]['contains'](_0x2675eb['imMomentMessages'])){const _0x1fbf98=_0xd66f3a['createObjectStore'](_0x2675eb[_0x3b5e69(0x126)],{'keyPath':'id'});_0x1fbf98[_0x3b5e69(0x16a)](_0x3b5e69(0x228),_0x3b5e69(0x228),{'unique':![]});}!_0xd66f3a[_0x3b5e69(0x200)][_0x3b5e69(0xc9)](_0x2675eb['imStickers'])&&_0xd66f3a['createObjectStore'](_0x2675eb[_0x3b5e69(0xbb)],{'keyPath':_0x3b5e69(0x195)});},_0x170a5b[_0x41a50e(0xd1)]=()=>{const _0x50a2d4=_0x41a50e,_0x8c1ca8=_0x170a5b[_0x50a2d4(0x11f)];_0x8c1ca8['onversionchange']=()=>{const _0x20e623=_0x50a2d4;try{_0x8c1ca8[_0x20e623(0x1b2)]();}catch(_0x38e35a){}_0x15a5dd=null;},_0x38f945(_0x8c1ca8);};});}function _0xedf95d(){return!_0x15a5dd&&(_0x15a5dd=_0x276c37()['catch'](_0x5997e2=>{_0x15a5dd=null;throw _0x5997e2;})),_0x15a5dd;}async function _0x23a8fb(_0x3d6253,_0x3e9351,_0x394fa2){const _0x4bc0e2=await _0xedf95d();return new Promise((_0x36b829,_0x155445)=>{const _0x58366b=_0x9418,_0xe7361e=_0x4bc0e2['transaction'](_0x3d6253,_0x3e9351),_0x53be2a={};_0x3d6253[_0x58366b(0x222)](_0x4940ed=>{const _0x4b9a74=_0x58366b;_0x53be2a[_0x4940ed]=_0xe7361e[_0x4b9a74(0x182)](_0x4940ed);});let _0x78ca29;try{_0x78ca29=_0x394fa2(_0x53be2a,_0xe7361e);}catch(_0x4ada71){_0x155445(_0x4ada71);return;}_0xe7361e['oncomplete']=async()=>{const _0x10b1ca=_0x58366b;try{const _0xc8c921=await Promise[_0x10b1ca(0x110)](_0x78ca29);_0x36b829(_0xc8c921);}catch(_0x2eb520){_0x155445(_0x2eb520);}},_0xe7361e[_0x58366b(0x1f8)]=()=>_0x155445(_0xe7361e['error']),_0xe7361e[_0x58366b(0xfa)]=()=>_0x155445(_0xe7361e[_0x58366b(0x237)]||new Error(_0x58366b(0x134)));});}async function _0x5151c8(_0x46fbac,_0x826a49){const _0x46eba1=_0x3c5cfe;return _0x23a8fb([_0x46fbac],_0x46eba1(0x13f),async _0x4f343a=>{const _0x51f2d6=_0x46eba1,_0x5451db=await _0x2e3c0a(_0x4f343a[_0x46fbac][_0x51f2d6(0x20c)](_0x826a49));return _0x5451db||null;});}async function _0x4c284e(_0x42f493,_0x34c308){const _0x17493f=_0x3c5cfe;return _0x23a8fb([_0x42f493],_0x17493f(0x156),_0x344118=>{_0x344118[_0x42f493]['put'](_0x34c308);});}async function _0x3598ce(_0x110541,_0x3c812f){const _0x454390=_0x3c5cfe;return _0x23a8fb([_0x110541],_0x454390(0x156),_0x2df25e=>{const _0x25ed2a=_0x454390;_0x2df25e[_0x110541][_0x25ed2a(0x21e)](_0x3c812f);});}async function _0x8d61d0(_0x3dcbec){const _0xc05aa1=_0x3c5cfe;return _0x23a8fb([_0x3dcbec],_0xc05aa1(0x13f),async _0x3df03b=>{const _0x16231a=_0xc05aa1,_0x383694=await _0x2e3c0a(_0x3df03b[_0x3dcbec][_0x16231a(0xdd)]());return Array[_0x16231a(0x1f7)](_0x383694)?_0x383694:[];});}async function _0x25439a(_0x31e068){const _0x437cc7=_0x3c5cfe,_0x2f01fe=await _0x5151c8(_0x2675eb[_0x437cc7(0x197)],_0x31e068);return _0x2f01fe?_0x2f01fe[_0x437cc7(0x111)]:null;}async function _0x26c71a(_0x1ff1f6,_0xa51d03){const _0x3863d0=_0x3c5cfe;return _0x4c284e(_0x2675eb[_0x3863d0(0x197)],{'key':_0x1ff1f6,'value':_0xa51d03});}async function _0x5b90a4(_0xb69266,_0x33d1fb=null){const _0x53f54f=_0x3c5cfe,_0xa50a85=await _0x5151c8(_0x2675eb[_0x53f54f(0xce)],_0xb69266);return _0xa50a85?_0x430e8f(_0xa50a85[_0x53f54f(0x111)]):_0x33d1fb;}async function _0x53f168(_0xe5b1db,_0x3a2d84){const _0x464478=_0x3c5cfe;return _0x4c284e(_0x2675eb[_0x464478(0xce)],{'key':_0xe5b1db,'value':_0x1e4cd9(_0x430e8f(_0x3a2d84))});}async function _0x5afd37(_0x3d279c,_0x49c96a,_0xfdadbb={}){const _0x21d25b=_0x3c5cfe;if(!_0x3d279c||!_0x5a35f2(_0x49c96a))return null;_0x41bef2(_0x3d279c);const _0x2cb96d=_0x3227f3(_0x49c96a);return _0x23a8fb([_0x2675eb['assets']],_0x21d25b(0x156),_0xcb7cd0=>{const _0x223c8a=_0x21d25b;_0xcb7cd0[_0x2675eb[_0x223c8a(0x1d9)]][_0x223c8a(0x22e)]({'id':_0x3d279c,'blob':_0x2cb96d,'mimeType':_0x2cb96d[_0x223c8a(0x205)]||_0xfdadbb[_0x223c8a(0x1c4)]||_0x223c8a(0x22c),'createdAt':Date[_0x223c8a(0x18f)](),'updatedAt':Date['now'](),..._0xfdadbb});})[_0x21d25b(0x22d)](()=>_0x3d279c);}async function _0xe72e9a(_0x445ca1){const _0x4c40c8=_0x3c5cfe;if(!_0x445ca1)return null;const _0x3a6643=await _0x5151c8(_0x2675eb[_0x4c40c8(0x1d9)],_0x445ca1);return _0x3a6643&&_0x3a6643['blob']?_0x3a6643[_0x4c40c8(0xcf)]:null;}async function _0x58fcf3(_0x2bf1f0){const _0x3861dc=_0x3c5cfe;if(!_0x2bf1f0)return null;const _0x148870=_0xfd3faa[_0x3861dc(0x20c)](_0x2bf1f0);if(_0x148870)return _0x8fb48b(_0x2bf1f0),_0x148870;const _0x557aea=await _0xe72e9a(_0x2bf1f0);if(!_0x557aea)return null;const _0x198d2a=URL[_0x3861dc(0x150)](_0x557aea);return _0xfd3faa[_0x3861dc(0xf7)](_0x2bf1f0,_0x198d2a),_0x8fb48b(_0x2bf1f0),_0x5ad099(),_0x198d2a;}async function _0x993348(_0x47c2d0){const _0x2e5a20=_0x3c5cfe;if(!_0x47c2d0)return;return _0x41bef2(_0x47c2d0),_0x3598ce(_0x2675eb[_0x2e5a20(0x1d9)],_0x47c2d0);}function _0x5245be(_0x3d37f8,_0x335275=0x0){const _0x229cc9=_0x3c5cfe;if(_0x3d37f8&&Number[_0x229cc9(0x102)](Number(_0x3d37f8['__messageOrder'])))return Number(_0x3d37f8['__messageOrder']);return Number[_0x229cc9(0x102)](Number(_0x335275))?Number(_0x335275):0x0;}function _0xc5dc28(_0x2a5455,_0x5a29e9,_0x186f9c){const _0x3bbc3d=_0x3c5cfe,_0xc0fcd5=_0x5a29e9||{},_0x32cc36=_0x5245be(_0xc0fcd5,_0x186f9c);return{'id':_0xc0fcd5['id']||String(_0x2a5455)+_0x3bbc3d(0x1e2)+(_0xc0fcd5[_0x3bbc3d(0x1ff)]||Date[_0x3bbc3d(0x18f)]())+'_'+_0x32cc36,'friendId':String(_0x2a5455),'order':_0x32cc36,'role':_0xc0fcd5[_0x3bbc3d(0x148)]||'assistant','type':_0xc0fcd5[_0x3bbc3d(0x205)]||_0x3bbc3d(0xc1),'noticeKind':typeof _0xc0fcd5['noticeKind']===_0x3bbc3d(0x19e)?_0xc0fcd5[_0x3bbc3d(0x166)]:'','content':typeof _0xc0fcd5[_0x3bbc3d(0x188)]===_0x3bbc3d(0x19e)?_0xc0fcd5[_0x3bbc3d(0x188)]:'','text':typeof _0xc0fcd5['text']===_0x3bbc3d(0x19e)?_0xc0fcd5[_0x3bbc3d(0xc1)]:'','transcript':typeof _0xc0fcd5[_0x3bbc3d(0x177)]==='string'?_0xc0fcd5[_0x3bbc3d(0x177)]:'','stickerCategory':typeof _0xc0fcd5[_0x3bbc3d(0x21f)]==='string'?_0xc0fcd5[_0x3bbc3d(0x21f)]:'','stickerName':typeof _0xc0fcd5['stickerName']===_0x3bbc3d(0x19e)?_0xc0fcd5['stickerName']:'','stickerUrl':typeof _0xc0fcd5[_0x3bbc3d(0x236)]===_0x3bbc3d(0x19e)?_0xc0fcd5['stickerUrl']:'','translation':typeof _0xc0fcd5[_0x3bbc3d(0x17b)]===_0x3bbc3d(0x19e)?_0xc0fcd5[_0x3bbc3d(0x17b)]:'','showTranslation':!!_0xc0fcd5[_0x3bbc3d(0xd8)],'replyTo':_0xc0fcd5[_0x3bbc3d(0x100)]||null,'offlineMode':!!_0xc0fcd5['offlineMode'],'offlineScene':typeof _0xc0fcd5[_0x3bbc3d(0x153)]===_0x3bbc3d(0x19e)?_0xc0fcd5[_0x3bbc3d(0x153)]:'','offlineAction':typeof _0xc0fcd5[_0x3bbc3d(0x229)]==='string'?_0xc0fcd5['offlineAction']:'','timestamp':Number(_0xc0fcd5[_0x3bbc3d(0x1ff)])||Date[_0x3bbc3d(0x18f)](),'amount':_0xc0fcd5['amount'],'description':_0xc0fcd5[_0x3bbc3d(0xb8)],'targetName':_0xc0fcd5[_0x3bbc3d(0xe4)],'payKind':_0xc0fcd5[_0x3bbc3d(0x17d)],'speaker':_0xc0fcd5[_0x3bbc3d(0x1d3)],'senderName':_0xc0fcd5[_0x3bbc3d(0x23a)],'senderAvatarUrl':_0xc0fcd5['senderAvatarUrl'],'packetMsg':_0xc0fcd5[_0x3bbc3d(0x115)],'claims':_0xc0fcd5[_0x3bbc3d(0x204)],'packetCount':_0xc0fcd5[_0x3bbc3d(0x227)],'packetType':_0xc0fcd5['packetType'],'allocations':_0xc0fcd5[_0x3bbc3d(0x1c7)],'status':_0xc0fcd5[_0x3bbc3d(0x178)],'duration':_0xc0fcd5[_0x3bbc3d(0x12c)],'callMessages':_0xc0fcd5[_0x3bbc3d(0xc2)],'isSelf':_0xc0fcd5[_0x3bbc3d(0x13d)],'statusText':_0xc0fcd5[_0x3bbc3d(0x129)],'senderId':_0xc0fcd5['senderId'],'apiRunId':_0xc0fcd5[_0x3bbc3d(0x1cc)],'rollbackSourceMessage':_0xc0fcd5['rollbackSourceMessage']||null,'paymentAction':_0xc0fcd5['paymentAction'],'payDirection':_0xc0fcd5[_0x3bbc3d(0x1dc)],'payerName':_0xc0fcd5[_0x3bbc3d(0x1f2)],'payeeName':_0xc0fcd5['payeeName'],'receiverName':_0xc0fcd5[_0x3bbc3d(0x21c)],'cardTitle':_0xc0fcd5[_0x3bbc3d(0x217)],'payStatus':_0xc0fcd5[_0x3bbc3d(0xe3)],'claimed':!!_0xc0fcd5['claimed'],'imageSource':_0xc0fcd5[_0x3bbc3d(0x1d4)],'packetId':_0xc0fcd5[_0x3bbc3d(0xdf)],'totalAmount':_0xc0fcd5[_0x3bbc3d(0x106)],'claimRecords':_0xc0fcd5[_0x3bbc3d(0x108)],'claimedMemberIds':_0xc0fcd5[_0x3bbc3d(0xf9)],'speakerMemberId':_0xc0fcd5['speakerMemberId'],'payload':_0xc0fcd5[_0x3bbc3d(0x135)]||null};}function _0x5e98a1(_0x2da367){const _0x28a33e=_0x3c5cfe;return{'id':_0x2da367['id'],'role':_0x2da367[_0x28a33e(0x148)],'type':_0x2da367[_0x28a33e(0x205)],'noticeKind':_0x2da367[_0x28a33e(0x166)]||'','content':_0x2da367[_0x28a33e(0x188)],'text':_0x2da367[_0x28a33e(0xc1)],'transcript':_0x2da367[_0x28a33e(0x177)],'stickerCategory':_0x2da367[_0x28a33e(0x21f)],'stickerName':_0x2da367['stickerName'],'stickerUrl':_0x2da367[_0x28a33e(0x236)],'translation':_0x2da367['translation'],'showTranslation':_0x2da367[_0x28a33e(0xd8)],'replyTo':_0x2da367[_0x28a33e(0x100)],'offlineMode':!!_0x2da367[_0x28a33e(0x12f)],'offlineScene':_0x2da367[_0x28a33e(0x153)]||'','offlineAction':_0x2da367['offlineAction']||'','timestamp':_0x2da367[_0x28a33e(0x1ff)],'amount':_0x2da367['amount'],'description':_0x2da367[_0x28a33e(0xb8)],'targetName':_0x2da367[_0x28a33e(0xe4)],'payKind':_0x2da367[_0x28a33e(0x17d)],'speaker':_0x2da367['speaker'],'senderName':_0x2da367[_0x28a33e(0x23a)],'senderAvatarUrl':_0x2da367[_0x28a33e(0x170)],'packetMsg':_0x2da367[_0x28a33e(0x115)],'claims':_0x2da367[_0x28a33e(0x204)],'packetCount':_0x2da367['packetCount'],'packetType':_0x2da367[_0x28a33e(0x11d)],'allocations':_0x2da367[_0x28a33e(0x1c7)],'status':_0x2da367[_0x28a33e(0x178)],'duration':_0x2da367['duration'],'callMessages':_0x2da367['callMessages'],'isSelf':_0x2da367[_0x28a33e(0x13d)],'statusText':_0x2da367['statusText'],'senderId':_0x2da367[_0x28a33e(0x18a)],'apiRunId':_0x2da367[_0x28a33e(0x1cc)],'rollbackSourceMessage':_0x2da367[_0x28a33e(0xbd)]||null,'paymentAction':_0x2da367[_0x28a33e(0xe1)],'payDirection':_0x2da367[_0x28a33e(0x1dc)],'payerName':_0x2da367[_0x28a33e(0x1f2)],'payeeName':_0x2da367[_0x28a33e(0x118)],'receiverName':_0x2da367['receiverName'],'cardTitle':_0x2da367[_0x28a33e(0x217)],'payStatus':_0x2da367[_0x28a33e(0xe3)],'claimed':!!_0x2da367['claimed'],'imageSource':_0x2da367['imageSource'],'packetId':_0x2da367[_0x28a33e(0xdf)],'totalAmount':_0x2da367[_0x28a33e(0x106)],'claimRecords':_0x2da367['claimRecords'],'claimedMemberIds':_0x2da367[_0x28a33e(0xf9)],'speakerMemberId':_0x2da367[_0x28a33e(0x10b)],'payload':_0x2da367[_0x28a33e(0x135)],'__messageOrder':Number(_0x2da367[_0x28a33e(0xde)])||0x0};}function _0x94985(_0x3b1c9a,_0x4bd281,_0x84dbb7){return _0x3b1c9a+'_'+String(_0x4bd281)+'_'+String(_0x84dbb7);}const _0x114251=[[_0x3c5cfe(0x123),_0x3c5cfe(0x22b)],[_0x3c5cfe(0x225),'chatBgAssetId'],[_0x3c5cfe(0x161),_0x3c5cfe(0x167)]];async function _0x45c0ca(_0xcc2413){if(!_0xcc2413)return _0xcc2413;const _0x54e354={..._0xcc2413};for(const [_0x521a1b,_0x593247]of _0x114251){const _0x3aebe9=_0x54e354[_0x521a1b];if(_0x5a35f2(_0x3aebe9)){const _0x111072=_0x54e354[_0x593247]||_0x94985('friend',_0x54e354['id'],_0x521a1b);await _0x5afd37(_0x111072,_0x3aebe9,{'ownerType':'im_friend','ownerId':String(_0x54e354['id']),'field':_0x521a1b}),_0x54e354[_0x593247]=_0x111072,_0x54e354[_0x521a1b]=null;continue;}_0x54e354[_0x593247]&&_0x1fcccc(_0x3aebe9)&&(_0x54e354[_0x521a1b]=null);}return _0x54e354;}async function _0x5409a1(_0x47d823){const _0x21e5d7=_0x3c5cfe;if(!_0x47d823)return _0x47d823;const _0x47105d={..._0x47d823},_0x4915f0=[[_0x21e5d7(0x22b),_0x21e5d7(0x123)],['chatBgAssetId',_0x21e5d7(0x225)],[_0x21e5d7(0x167),'momentsCover']];for(const [_0x33eb0e,_0x10e3a1]of _0x4915f0){_0x47105d[_0x33eb0e]&&(!_0x47105d[_0x10e3a1]||_0x1fcccc(_0x47105d[_0x10e3a1]))&&(_0x47105d[_0x10e3a1]=await _0x58fcf3(_0x47105d[_0x33eb0e]));}return _0x47105d;}function _0x1e0adc(_0x8837df){const _0x2c685c=_0x3c5cfe;if(!_0x8837df)return[];return Array['from'](new Set(_0x114251[_0x2c685c(0x1f9)](([,_0x1bbcee])=>_0x8837df[_0x1bbcee]?String(_0x8837df[_0x1bbcee]):null)['filter'](Boolean)));}function _0x428c7d(_0x34d0a2){const _0x18fc80=_0x3c5cfe;if(!_0x34d0a2||_0x34d0a2['id']==null)return[];return Array['from'](new Set(_0x114251[_0x18fc80(0x1f9)](([_0x464cdd,_0x353d64])=>{const _0x2391bc=_0x18fc80;if(_0x34d0a2[_0x353d64])return String(_0x34d0a2[_0x353d64]);if(_0x5a35f2(_0x34d0a2[_0x464cdd]))return _0x94985(_0x2391bc(0xd9),_0x34d0a2['id'],_0x464cdd);return null;})[_0x18fc80(0xee)](Boolean)));}async function _0x531941(_0x13397a){const _0x4f95ea=_0x3c5cfe;if(_0x13397a==null)return null;return _0x5151c8(_0x2675eb[_0x4f95ea(0xfc)],String(_0x13397a));}async function _0x5f510c(_0x3bec46){const _0x40778e=_0x3c5cfe;return _0x3598ce(_0x2675eb[_0x40778e(0xfc)],String(_0x3bec46));}async function _0x98c075(_0x16715c,_0x298d7d,_0x202c32=new Set()){const _0x24e857=_0x3c5cfe;if(!_0x16715c)return;const _0x352ae6=new Set(_0x428c7d(_0x298d7d));for(const _0x366de3 of _0x1e0adc(_0x16715c)){if(_0x352ae6[_0x24e857(0x199)](_0x366de3)||_0x202c32[_0x24e857(0x199)](_0x366de3))continue;await _0x993348(_0x366de3);}}async function _0x434544(_0x328e06){const _0x37af7e=_0x3c5cfe,_0x1f07e7=Array[_0x37af7e(0x1f7)](_0x328e06)?_0x328e06:[],_0x451dcb=_0x1f07e7['length']>0x0?_0x1f07e7[_0x1f07e7[_0x37af7e(0x162)]-0x1]:null;let _0x454ac0='';if(_0x451dcb){if(_0x451dcb['type']===_0x37af7e(0x116))_0x454ac0=_0x451dcb[_0x37af7e(0xc1)]||'[图片]';else{if(_0x451dcb[_0x37af7e(0x205)]===_0x37af7e(0x1fc))_0x454ac0=(_0x37af7e(0x1e9)+(_0x451dcb[_0x37af7e(0x177)]||_0x451dcb['text']||''))[_0x37af7e(0x17f)]();else{if(_0x451dcb[_0x37af7e(0x205)]===_0x37af7e(0x1c9))_0x454ac0=(_0x37af7e(0x143)+(_0x451dcb[_0x37af7e(0x21a)]||_0x451dcb[_0x37af7e(0xc1)]||''))[_0x37af7e(0x17f)]();else{if(_0x451dcb[_0x37af7e(0x205)]==='moment_forward')_0x454ac0=_0x37af7e(0x1df);else{if(_0x451dcb[_0x37af7e(0x205)]===_0x37af7e(0x13e))_0x454ac0=('[转账]\x20'+(_0x451dcb['description']||''))[_0x37af7e(0x17f)]();else{if(_0x451dcb[_0x37af7e(0x205)]===_0x37af7e(0x1ed))_0x454ac0=(_0x37af7e(0x1b8)+(_0x451dcb[_0x37af7e(0xb8)]||''))[_0x37af7e(0x17f)]();else{if(_0x451dcb['type']===_0x37af7e(0x1c5)){if(_0x451dcb[_0x37af7e(0x166)]===_0x37af7e(0x1fb))_0x454ac0=_0x37af7e(0x104);else{if(_0x451dcb[_0x37af7e(0x166)]===_0x37af7e(0x17e))_0x454ac0=_0x37af7e(0xd4);else _0x451dcb[_0x37af7e(0x166)]===_0x37af7e(0xed)?_0x454ac0=(_0x37af7e(0x16c)+(_0x451dcb['content']||_0x451dcb[_0x37af7e(0xc1)]||''))[_0x37af7e(0x17f)]():_0x454ac0=_0x451dcb[_0x37af7e(0x188)]||_0x451dcb[_0x37af7e(0xc1)]||'';}}else _0x454ac0=_0x451dcb[_0x37af7e(0x188)]||_0x451dcb[_0x37af7e(0xc1)]||'';}}}}}}}return{'lastMessagePreview':_0x454ac0||'','lastMessageTimestamp':Number(_0x451dcb?.[_0x37af7e(0x1ff)])||0x0,'messageCount':_0x1f07e7[_0x37af7e(0x162)]};}function _0x58338b(_0x5dd63d,_0x12c965=null){const _0x8c99ca=_0x3c5cfe;if(!_0x5dd63d||_0x5dd63d['messagesLoaded']!==![])return _0x434544(_0x5dd63d?_0x5dd63d[_0x8c99ca(0x19c)]:[]);const _0x478185=typeof _0x5dd63d[_0x8c99ca(0x10d)]==='string'?_0x5dd63d['lastMessagePreview']:typeof _0x12c965?.['lastMessagePreview']===_0x8c99ca(0x19e)?_0x12c965[_0x8c99ca(0x10d)]:'',_0x392ea7=_0x5dd63d[_0x8c99ca(0x20a)]!=null?_0x5dd63d[_0x8c99ca(0x20a)]:_0x12c965?.[_0x8c99ca(0x20a)],_0x108194=_0x5dd63d[_0x8c99ca(0x1bb)]!=null?_0x5dd63d[_0x8c99ca(0x1bb)]:_0x12c965?.[_0x8c99ca(0x1bb)];return{'lastMessagePreview':_0x478185,'lastMessageTimestamp':Number(_0x392ea7)||0x0,'messageCount':Number(_0x108194)||0x0};}async function _0x56fa99(_0x454e70,_0x545632={}){const _0x649d38=_0x3c5cfe;if(!_0x454e70||_0x454e70['id']==null)return![];const _0x3e5f90=Object[_0x649d38(0x1d1)][_0x649d38(0x1a7)][_0x649d38(0x1cf)](_0x545632,'previousMeta')?_0x545632[_0x649d38(0x215)]:await _0x531941(_0x454e70['id']),_0x293af9=await _0x45c0ca(_0x454e70),_0x250083={..._0x293af9},_0x257a43=await _0x58338b(_0x293af9,_0x3e5f90);return delete _0x250083[_0x649d38(0x19c)],_0x250083['id']=String(_0x250083['id']),_0x250083[_0x649d38(0xc5)]=Date[_0x649d38(0x18f)](),_0x250083[_0x649d38(0x10d)]=_0x257a43[_0x649d38(0x10d)],_0x250083[_0x649d38(0x20a)]=_0x257a43[_0x649d38(0x20a)],_0x250083[_0x649d38(0x1bb)]=_0x257a43['messageCount'],_0x250083['unreadCount']=Math['max'](0x0,Number(_0x293af9['unreadCount'])||0x0),_0x4c284e(_0x2675eb[_0x649d38(0xfc)],_0x1e4cd9(_0x250083));}async function _0x311781(_0x1bf0c5,_0x2d92e9,_0x543a72=0x0){const _0x4f105c=_0x3c5cfe,_0x113a96=String(_0x1bf0c5),_0x1023c9=_0xc5dc28(_0x113a96,{..._0x2d92e9||{},'__messageOrder':_0x5245be(_0x2d92e9,_0x543a72)},_0x543a72);return await _0x4c284e(_0x2675eb[_0x4f105c(0xbe)],_0x1023c9),_0x1023c9;}async function _0x1dee5d(_0x236f0a){const _0x5b83a6=_0x3c5cfe;if(!_0x236f0a)return![];return await _0x3598ce(_0x2675eb[_0x5b83a6(0xbe)],_0x236f0a),!![];}async function _0x5ed02f(_0x5de277){const _0x4c2621=_0x3c5cfe,_0x360fce=Array[_0x4c2621(0x1f7)](_0x5de277)?_0x5de277[_0x4c2621(0x1f9)](_0x48a8a8=>String(_0x48a8a8))['filter'](Boolean):[];if(_0x360fce['length']===0x0)return!![];return await _0x23a8fb([_0x2675eb[_0x4c2621(0xbe)]],_0x4c2621(0x156),_0x37391d=>{const _0x213b3c=_0x4c2621;_0x360fce[_0x213b3c(0x222)](_0x384e26=>_0x37391d[_0x2675eb[_0x213b3c(0xbe)]][_0x213b3c(0x21e)](_0x384e26));}),!![];}async function _0x22dab3(_0x472fe9,_0x1217b9){const _0x498b00=_0x3c5cfe,_0x4b5fe0=String(_0x472fe9),_0x1e2455=Array[_0x498b00(0x1f7)](_0x1217b9)?_0x1217b9:[],_0x3c4bef=_0x1e2455[_0x498b00(0x1f9)]((_0x23be88,_0x57395a)=>_0xc5dc28(_0x4b5fe0,_0x23be88,_0x57395a)),_0x3cd358=new Set(_0x3c4bef[_0x498b00(0x1f9)](_0x4c3ea3=>String(_0x4c3ea3['id'])));return _0x23a8fb([_0x2675eb[_0x498b00(0xbe)]],_0x498b00(0x156),async _0x7220f8=>{const _0x20de1e=_0x498b00,_0x53e355=_0x7220f8[_0x2675eb[_0x20de1e(0xbe)]][_0x20de1e(0x181)](_0x20de1e(0xd0)),_0x4854f9=IDBKeyRange['only'](_0x4b5fe0),_0x323d96=await _0x2e3c0a(_0x53e355['getAllKeys'](_0x4854f9));_0x323d96[_0x20de1e(0x222)](_0x2d3a56=>{const _0x189a12=_0x20de1e;!_0x3cd358['has'](String(_0x2d3a56))&&_0x7220f8[_0x2675eb[_0x189a12(0xbe)]][_0x189a12(0x21e)](_0x2d3a56);}),_0x3c4bef['forEach'](_0x1f0295=>_0x7220f8[_0x2675eb[_0x20de1e(0xbe)]][_0x20de1e(0x22e)](_0x1f0295));});}async function _0x2fd16f(_0xed68c7,_0x4bae39){return _0x22dab3(_0xed68c7,_0x4bae39);}async function _0x5db4a0(_0x1adcb1,_0x381a3a={}){if(!_0x1adcb1||_0x1adcb1['id']==null)return![];const _0x186a55=await _0x531941(_0x1adcb1['id']),_0x570b96=new Set(_0x428c7d(_0x1adcb1)),_0x5e7387=_0x381a3a['skipMessages']!==!![]&&_0x1adcb1['messagesLoaded']!==![];return await _0x56fa99(_0x1adcb1,{'previousMeta':_0x186a55}),_0x5e7387&&await _0x22dab3(_0x1adcb1['id'],_0x1adcb1['messages']||[]),await _0x98c075(_0x186a55,_0x1adcb1,_0x570b96),!![];}async function _0x4caabf(_0x4e9107){return _0x5db4a0(_0x4e9107,{'skipMessages':!![]});}async function _0x25bb7c(_0x99bdb6){if(_0x99bdb6==null)return![];const _0x4f5445=await _0x531941(_0x99bdb6);return await _0x22dab3(_0x99bdb6,[]),await _0x5f510c(_0x99bdb6),await _0x98c075(_0x4f5445,null),!![];}async function _0x953fd5(_0x4253c3){const _0x308083=_0x3c5cfe,_0x42ba2d=String(_0x4253c3);return _0x23a8fb([_0x2675eb[_0x308083(0xbe)]],_0x308083(0x13f),async _0x1dec79=>{const _0x4a4f85=_0x308083,_0x3c0757=_0x1dec79[_0x2675eb[_0x4a4f85(0xbe)]];if(_0x4c89bb(_0x3c0757,_0x4a4f85(0xc0))){const _0x4e2538=_0x3c0757[_0x4a4f85(0x181)](_0x4a4f85(0xc0)),_0x4362e5=IDBKeyRange[_0x4a4f85(0x218)]([_0x42ba2d,Number[_0x4a4f85(0x15d)]],[_0x42ba2d,Number[_0x4a4f85(0x103)]]),_0x5e8ed3=await _0x2e3c0a(_0x4e2538[_0x4a4f85(0xdd)](_0x4362e5));return _0x5e8ed3[_0x4a4f85(0x1f9)](_0x5e98a1);}const _0x26473f=_0x3c0757[_0x4a4f85(0x181)](_0x4a4f85(0x17c)),_0x5668aa=IDBKeyRange[_0x4a4f85(0x218)]([_0x42ba2d,0x0],[_0x42ba2d,Number[_0x4a4f85(0x103)]]),_0x221083=await _0x2e3c0a(_0x26473f[_0x4a4f85(0xdd)](_0x5668aa));return _0x221083[_0x4a4f85(0xf0)]((_0x38f8d1,_0x5a9ced)=>{const _0x34f451=_0x4a4f85;if((_0x38f8d1[_0x34f451(0x1ff)]||0x0)!==(_0x5a9ced[_0x34f451(0x1ff)]||0x0))return(_0x38f8d1[_0x34f451(0x1ff)]||0x0)-(_0x5a9ced['timestamp']||0x0);return(_0x38f8d1['order']||0x0)-(_0x5a9ced[_0x34f451(0xde)]||0x0);})[_0x4a4f85(0x1f9)](_0x5e98a1);});}async function _0x63dbe5(_0x4b6548){const _0x4e15aa=_0x3c5cfe,_0x119ff3=Array['isArray'](_0x4b6548)?_0x4b6548[_0x4e15aa(0xee)](_0x7fd104=>_0x7fd104&&_0x7fd104['id']!=null):[],_0x155aa5=new Set(_0x119ff3[_0x4e15aa(0x1f9)](_0x5ec279=>String(_0x5ec279['id']))),_0x4343e6=new Set();_0x119ff3[_0x4e15aa(0x222)](_0x1d6f30=>{const _0x6292bc=_0x4e15aa;_0x428c7d(_0x1d6f30)[_0x6292bc(0x222)](_0x290026=>_0x4343e6[_0x6292bc(0x138)](_0x290026));});const _0x491344=await _0x8d61d0(_0x2675eb[_0x4e15aa(0xfc)]),_0x1426bb=new Map(_0x491344[_0x4e15aa(0x1f9)](_0x475e41=>[String(_0x475e41['id']),_0x475e41]));for(const _0x6ad714 of _0x491344){const _0x4a351c=String(_0x6ad714['id']);!_0x155aa5['has'](_0x4a351c)&&await _0x25bb7c(_0x4a351c);}for(const _0x8b8cb0 of _0x119ff3){const _0x5bbb80=_0x1426bb[_0x4e15aa(0x20c)](String(_0x8b8cb0['id']))||null;await _0x56fa99(_0x8b8cb0,{'previousMeta':_0x5bbb80}),_0x8b8cb0[_0x4e15aa(0x1bc)]!==![]&&await _0x22dab3(_0x8b8cb0['id'],_0x8b8cb0[_0x4e15aa(0x19c)]||[]),await _0x98c075(_0x5bbb80,_0x8b8cb0,_0x4343e6);}return!![];}async function _0x466ba8(){const _0x22ee07=_0x3c5cfe,_0x1251ef=await _0x8d61d0(_0x2675eb[_0x22ee07(0xfc)]),_0x372f16=await Promise[_0x22ee07(0x19b)](_0x1251ef[_0x22ee07(0x1f9)](async _0x3dff87=>{const _0x335433=_0x22ee07,_0x4369ac=await _0x5409a1(_0x3dff87);return _0x4369ac['messages']=[],_0x4369ac['messagesLoaded']=![],_0x4369ac['lastMessagePreview']=typeof _0x4369ac[_0x335433(0x10d)]===_0x335433(0x19e)?_0x4369ac[_0x335433(0x10d)]:'',_0x4369ac[_0x335433(0x20a)]=Number(_0x4369ac[_0x335433(0x20a)])||0x0,_0x4369ac[_0x335433(0x1bb)]=Number(_0x4369ac[_0x335433(0x1bb)])||0x0,_0x4369ac[_0x335433(0x174)]=Math[_0x335433(0x1e3)](0x0,Number(_0x4369ac['unreadCount'])||0x0),_0x4369ac;}));return _0x372f16[_0x22ee07(0xf0)]((_0x3a82fc,_0x1b6046)=>{const _0x4be142=_0x22ee07,_0x2f4686=_0x3a82fc[_0x4be142(0x1ef)]?0x1:0x0,_0x29e2c5=_0x1b6046['isPinned']?0x1:0x0;if(_0x2f4686!==_0x29e2c5)return _0x29e2c5-_0x2f4686;const _0x1b4442=Number(_0x3a82fc[_0x4be142(0x20a)])||0x0,_0x2d0132=Number(_0x1b6046[_0x4be142(0x20a)])||0x0;if(_0x1b4442!==_0x2d0132)return _0x2d0132-_0x1b4442;return String(_0x3a82fc['id'])[_0x4be142(0x230)](String(_0x1b6046['id']));}),_0x372f16;}async function _0x47cbcf(_0x4b9597){const _0x123a45=_0x3c5cfe;if(!_0x4b9597)return _0x4b9597;const _0x3f16e0={..._0x4b9597};if(_0x5a35f2(_0x3f16e0[_0x123a45(0x13a)])){const _0x1163c6=_0x3f16e0['avatarAssetId']||_0x94985('moment_avatar',_0x3f16e0['id'],_0x123a45(0x13a));await _0x5afd37(_0x1163c6,_0x3f16e0['avatar'],{'ownerType':'im_moment','ownerId':String(_0x3f16e0['id']),'field':_0x123a45(0x13a)}),_0x3f16e0[_0x123a45(0x22b)]=_0x1163c6,_0x3f16e0[_0x123a45(0x13a)]=null;}else _0x3f16e0[_0x123a45(0x22b)]&&_0x1fcccc(_0x3f16e0[_0x123a45(0x13a)])&&(_0x3f16e0[_0x123a45(0x13a)]=null);if(Array[_0x123a45(0x1f7)](_0x3f16e0[_0x123a45(0x157)])){const _0x2e7129=[];for(let _0x272ce5=0x0;_0x272ce5<_0x3f16e0[_0x123a45(0x157)][_0x123a45(0x162)];_0x272ce5+=0x1){const _0x3ac594=_0x3f16e0[_0x123a45(0x157)][_0x272ce5];if(typeof _0x3ac594===_0x123a45(0x19e)&&_0x5a35f2(_0x3ac594)){const _0x577edc=_0x94985(_0x123a45(0x183),_0x3f16e0['id'],_0x272ce5);await _0x5afd37(_0x577edc,_0x3ac594,{'ownerType':_0x123a45(0x160),'ownerId':String(_0x3f16e0['id']),'field':_0x123a45(0x157),'index':_0x272ce5}),_0x2e7129[_0x123a45(0x1d0)]({'assetId':_0x577edc,'desc':''});}else{if(_0x3ac594&&typeof _0x3ac594==='object'&&_0x5a35f2(_0x3ac594[_0x123a45(0xfb)])){const _0x4aa2c4=_0x3ac594[_0x123a45(0x168)]||_0x94985(_0x123a45(0x183),_0x3f16e0['id'],_0x272ce5);await _0x5afd37(_0x4aa2c4,_0x3ac594[_0x123a45(0xfb)],{'ownerType':_0x123a45(0x160),'ownerId':String(_0x3f16e0['id']),'field':_0x123a45(0x157),'index':_0x272ce5}),_0x2e7129[_0x123a45(0x1d0)]({..._0x3ac594,'assetId':_0x4aa2c4,'src':null});}else _0x3ac594&&typeof _0x3ac594===_0x123a45(0x124)&&_0x3ac594[_0x123a45(0x168)]&&_0x1fcccc(_0x3ac594[_0x123a45(0xfb)])?_0x2e7129[_0x123a45(0x1d0)]({..._0x3ac594,'src':null}):_0x2e7129['push'](_0x3ac594);}}_0x3f16e0['images']=_0x2e7129;}return _0x3f16e0;}async function _0x19e8d6(_0x3e8f92){const _0x3685bf=_0x3c5cfe;if(!_0x3e8f92)return _0x3e8f92;const _0x84e745={..._0x3e8f92};_0x84e745[_0x3685bf(0x22b)]&&(!_0x84e745[_0x3685bf(0x13a)]||_0x1fcccc(_0x84e745[_0x3685bf(0x13a)]))&&(_0x84e745[_0x3685bf(0x13a)]=await _0x58fcf3(_0x84e745['avatarAssetId']));if(Array[_0x3685bf(0x1f7)](_0x84e745[_0x3685bf(0x157)])){const _0x12218a=[];for(const _0x41fa45 of _0x84e745['images']){_0x41fa45&&typeof _0x41fa45==='object'&&_0x41fa45[_0x3685bf(0x168)]&&(!_0x41fa45[_0x3685bf(0xfb)]||_0x1fcccc(_0x41fa45['src']))?_0x12218a[_0x3685bf(0x1d0)]({..._0x41fa45,'src':await _0x58fcf3(_0x41fa45['assetId'])}):_0x12218a[_0x3685bf(0x1d0)](_0x41fa45);}_0x84e745[_0x3685bf(0x157)]=_0x12218a;}return _0x84e745;}function _0x306fb3(_0x5beb08){const _0x2088bf=_0x3c5cfe;if(!_0x5beb08)return[];const _0x4555d3=[];if(_0x5beb08[_0x2088bf(0x22b)])_0x4555d3[_0x2088bf(0x1d0)](String(_0x5beb08['avatarAssetId']));return Array[_0x2088bf(0x1f7)](_0x5beb08[_0x2088bf(0x157)])&&_0x5beb08[_0x2088bf(0x157)][_0x2088bf(0x222)](_0xac8031=>{const _0x26f65b=_0x2088bf;_0xac8031&&typeof _0xac8031===_0x26f65b(0x124)&&_0xac8031[_0x26f65b(0x168)]&&_0x4555d3['push'](String(_0xac8031[_0x26f65b(0x168)]));}),Array[_0x2088bf(0x210)](new Set(_0x4555d3));}function _0x3b9d4d(_0x358c12){const _0x4bf422=_0x3c5cfe;if(!_0x358c12||_0x358c12['id']==null)return[];const _0x2edb25=[];if(_0x358c12[_0x4bf422(0x22b)])_0x2edb25[_0x4bf422(0x1d0)](String(_0x358c12[_0x4bf422(0x22b)]));else _0x5a35f2(_0x358c12['avatar'])&&_0x2edb25[_0x4bf422(0x1d0)](_0x94985('moment_avatar',_0x358c12['id'],_0x4bf422(0x13a)));return Array[_0x4bf422(0x1f7)](_0x358c12[_0x4bf422(0x157)])&&_0x358c12[_0x4bf422(0x157)][_0x4bf422(0x222)]((_0x100389,_0x39003d)=>{const _0x3172dc=_0x4bf422;if(_0x100389&&typeof _0x100389===_0x3172dc(0x124)&&_0x100389[_0x3172dc(0x168)]){_0x2edb25[_0x3172dc(0x1d0)](String(_0x100389['assetId']));return;}if(typeof _0x100389===_0x3172dc(0x19e)&&_0x5a35f2(_0x100389)){_0x2edb25[_0x3172dc(0x1d0)](_0x94985('moment_img',_0x358c12['id'],_0x39003d));return;}_0x100389&&typeof _0x100389===_0x3172dc(0x124)&&_0x5a35f2(_0x100389[_0x3172dc(0xfb)])&&_0x2edb25['push'](String(_0x100389[_0x3172dc(0x168)]||_0x94985(_0x3172dc(0x183),_0x358c12['id'],_0x39003d)));}),Array[_0x4bf422(0x210)](new Set(_0x2edb25));}async function _0x15dd1f(_0x34541c){const _0x1f7862=_0x3c5cfe;if(_0x34541c==null)return null;return _0x5151c8(_0x2675eb[_0x1f7862(0x1fa)],_0x34541c);}async function _0x1f9160(_0x4d04cf,_0x20053c,_0x10ef0f=new Set()){const _0x205b53=_0x3c5cfe;if(!_0x4d04cf)return;const _0x567aec=new Set(_0x3b9d4d(_0x20053c));for(const _0x2e545c of _0x306fb3(_0x4d04cf)){if(_0x567aec[_0x205b53(0x199)](_0x2e545c)||_0x10ef0f[_0x205b53(0x199)](_0x2e545c))continue;await _0x993348(_0x2e545c);}}async function _0x1bc271(_0x2368f0){const _0x4a3006=_0x3c5cfe;if(!_0x2368f0||_0x2368f0['id']==null)return![];const _0x1faa8d=await _0x15dd1f(_0x2368f0['id']),_0x2e1966=new Set(_0x3b9d4d(_0x2368f0)),_0x4fecd0=await _0x47cbcf(_0x2368f0);return await _0x4c284e(_0x2675eb[_0x4a3006(0x1fa)],{..._0x4fecd0,'id':_0x4fecd0['id'],'updatedAt':Date['now']()}),await _0x1f9160(_0x1faa8d,_0x2368f0,_0x2e1966),!![];}async function _0x5e653c(_0x5cc552){const _0x1f6cc5=_0x3c5cfe;if(_0x5cc552==null)return![];const _0x4fb0a0=await _0x8d61d0(_0x2675eb[_0x1f6cc5(0x1fa)]),_0x3e1f0a=_0x4fb0a0['filter'](_0x55de0d=>String(_0x55de0d?.['id'])===String(_0x5cc552)),_0x4e98e4=await _0x15dd1f(_0x5cc552),_0x35c7ab=[],_0x2c3dc4=new Set([_0x5cc552]);_0x4e98e4&&(_0x35c7ab[_0x1f6cc5(0x1d0)](_0x4e98e4),_0x2c3dc4[_0x1f6cc5(0x138)](_0x4e98e4['id']));_0x3e1f0a[_0x1f6cc5(0x222)](_0x208917=>{const _0x538cd8=_0x1f6cc5;if(!_0x208917)return;_0x35c7ab[_0x538cd8(0x1d0)](_0x208917),_0x2c3dc4[_0x538cd8(0x138)](_0x208917['id']);});for(const _0x158345 of _0x2c3dc4){await _0x3598ce(_0x2675eb[_0x1f6cc5(0x1fa)],_0x158345);}const _0x5aace2=new Set();for(const _0x3c35ab of _0x35c7ab){const _0x3d9465=typeof _0x3c35ab['id']+':'+String(_0x3c35ab['id']);if(_0x5aace2[_0x1f6cc5(0x199)](_0x3d9465))continue;_0x5aace2[_0x1f6cc5(0x138)](_0x3d9465),await _0x1f9160(_0x3c35ab,null);}return!![];}async function _0x1a01dc(_0x3377c7){const _0x34c785=_0x3c5cfe,_0x114360=Array[_0x34c785(0x1f7)](_0x3377c7)?_0x3377c7:[],_0x359997=await _0x8d61d0(_0x2675eb['imMoments']),_0x3eb312=new Set(_0x114360[_0x34c785(0x1f9)](_0x135c7d=>String(_0x135c7d['id']))),_0x14ca85=new Set();_0x114360['forEach'](_0x2f9006=>{const _0x8799d3=_0x34c785;_0x3b9d4d(_0x2f9006)[_0x8799d3(0x222)](_0x1fd05e=>_0x14ca85['add'](_0x1fd05e));});for(const _0x4d10b4 of _0x359997){!_0x3eb312['has'](String(_0x4d10b4['id']))&&await _0x5e653c(_0x4d10b4['id']);}for(const _0x40ee60 of _0x114360){await _0x1bc271(_0x40ee60);}return!![];}async function _0x37158f(){const _0x1529ac=_0x3c5cfe,_0x5876c8=await _0x8d61d0(_0x2675eb[_0x1529ac(0x1fa)]),_0x2d0979=await Promise[_0x1529ac(0x19b)](_0x5876c8[_0x1529ac(0x1f9)](_0x1f7452=>_0x19e8d6(_0x1f7452)));return _0x2d0979[_0x1529ac(0xf0)]((_0x657025,_0x29a2eb)=>(_0x29a2eb[_0x1529ac(0x228)]||0x0)-(_0x657025[_0x1529ac(0x228)]||0x0)),_0x2d0979;}async function _0x3cfef2(_0x374ba7){const _0x44e027=_0x3c5cfe,_0x467ab0=Array[_0x44e027(0x1f7)](_0x374ba7)?_0x374ba7:[],_0x589304=_0x467ab0[_0x44e027(0x1f9)](_0x5a5013=>({..._0x5a5013,'id':_0x5a5013?.['id']||_0x44e027(0x1e6)+Date['now']()+'_'+Math[_0x44e027(0xc3)]()[_0x44e027(0x1da)](0x24)[_0x44e027(0x164)](0x2,0x8)})),_0x5f15d4=new Set(_0x589304['map'](_0x4238b6=>String(_0x4238b6['id'])));return _0x23a8fb([_0x2675eb['imMomentMessages']],_0x44e027(0x156),async _0xe7c6ea=>{const _0x5cd54e=_0x44e027,_0x2777a1=await _0x2e3c0a(_0xe7c6ea[_0x2675eb[_0x5cd54e(0x126)]][_0x5cd54e(0xdd)]()),_0x1b92f2=new Map((Array[_0x5cd54e(0x1f7)](_0x2777a1)?_0x2777a1:[])[_0x5cd54e(0x1f9)](_0x349094=>[String(_0x349094['id']),_0x349094]));_0x1b92f2[_0x5cd54e(0x222)]((_0x53b701,_0x25f4d4)=>{const _0x11d502=_0x5cd54e;!_0x5f15d4[_0x11d502(0x199)](_0x25f4d4)&&_0xe7c6ea[_0x2675eb[_0x11d502(0x126)]][_0x11d502(0x21e)](_0x53b701['id']);}),_0x589304[_0x5cd54e(0x222)](_0x8ad6d0=>{const _0x32087a=_0x5cd54e;_0xe7c6ea[_0x2675eb[_0x32087a(0x126)]][_0x32087a(0x22e)](_0x8ad6d0);});});}async function _0x569e2f(){const _0x27da55=_0x3c5cfe,_0x4476d1=await _0x8d61d0(_0x2675eb[_0x27da55(0x126)]);return Array['isArray'](_0x4476d1)?_0x4476d1[_0x27da55(0xf0)]((_0x52a492,_0x54341f)=>(_0x54341f[_0x27da55(0x228)]||0x0)-(_0x52a492['time']||0x0)):[];}async function _0x2df259(_0x33e4f1){const _0x22bf05=_0x3c5cfe,_0x8598f6=Array[_0x22bf05(0x1f7)](_0x33e4f1)?_0x33e4f1[_0x22bf05(0xee)](_0x5124b9=>_0x5124b9&&_0x5124b9[_0x22bf05(0x195)]!=null):[],_0x3d461e=_0x8598f6[_0x22bf05(0x1f9)](_0x4fbd9a=>({..._0x4fbd9a,'categoryName':String(_0x4fbd9a[_0x22bf05(0x195)])})),_0x456f21=new Set(_0x3d461e[_0x22bf05(0x1f9)](_0x22366c=>_0x22366c[_0x22bf05(0x195)]));return _0x23a8fb([_0x2675eb[_0x22bf05(0xbb)]],_0x22bf05(0x156),async _0x3e61d9=>{const _0xc21049=_0x22bf05,_0x2a34e2=await _0x2e3c0a(_0x3e61d9[_0x2675eb[_0xc21049(0xbb)]][_0xc21049(0xdd)]()),_0x52b84a=new Map((Array[_0xc21049(0x1f7)](_0x2a34e2)?_0x2a34e2:[])[_0xc21049(0x1f9)](_0x4efaf9=>[String(_0x4efaf9['categoryName']),_0x4efaf9]));_0x52b84a[_0xc21049(0x222)]((_0x2ca6d2,_0x3b65a9)=>{const _0x6c62aa=_0xc21049;!_0x456f21[_0x6c62aa(0x199)](_0x3b65a9)&&_0x3e61d9[_0x2675eb['imStickers']][_0x6c62aa(0x21e)](_0x2ca6d2[_0x6c62aa(0x195)]);}),_0x3d461e[_0xc21049(0x222)](_0x37aa30=>_0x3e61d9[_0x2675eb[_0xc21049(0xbb)]][_0xc21049(0x22e)](_0x37aa30));});}async function _0x5eb994(){const _0x389e66=_0x3c5cfe;return _0x8d61d0(_0x2675eb[_0x389e66(0xbb)]);}async function _0x18a8b6(_0x77536e){const _0x195923=_0x3c5cfe;if(!_0x77536e){const _0x3b6c2f=await _0x25439a(_0x5ac5b0['imMomentsCoverAssetId']);if(_0x3b6c2f&&typeof _0x3b6c2f==='string')await _0x993348(_0x3b6c2f);return await _0x26c71a(_0x5ac5b0[_0x195923(0x1be)],null),null;}if(_0x5a35f2(_0x77536e)){const _0x55a7ef=_0x195923(0x1c6);return await _0x5afd37(_0x55a7ef,_0x77536e,{'ownerType':'im_moments','ownerId':'me','field':'momentsCover'}),await _0x26c71a(_0x5ac5b0[_0x195923(0x1be)],_0x55a7ef),_0x55a7ef;}return await _0x26c71a(_0x5ac5b0[_0x195923(0x1be)],{'externalUrl':_0x77536e}),_0x77536e;}async function _0x1a213a(){const _0x5e22f0=_0x3c5cfe,_0x39a7d2=await _0x25439a(_0x5ac5b0['imMomentsCoverAssetId']);if(!_0x39a7d2)return null;if(typeof _0x39a7d2===_0x5e22f0(0x124)&&_0x39a7d2[_0x5e22f0(0xcc)])return _0x39a7d2[_0x5e22f0(0xcc)];if(typeof _0x39a7d2===_0x5e22f0(0x19e))return _0x58fcf3(_0x39a7d2);return null;}function _0xbfe026(){const _0x4998db=_0x3c5cfe;return{'youtube':{'channelState':{'bannerUrl':null,'url':'','boundWorldBookIds':[],'systemPrompt':'','summaryPrompt':'','groupChatPrompt':'','vodPrompt':'','postPrompt':'','liveSummaryPrompt':'','liveSummaries':[],'groupChatHistory':[],'cachedTrendingLive':null,'cachedTrendingSub':null,'activeUserLive':null,'pastVideos':[]},'subscriptions':[],'userState':null},'tiktok':{'profile':{'name':_0x4998db(0x202),'handle':_0x4998db(0x232),'avatar':null,'status':'思考中...','bio':_0x4998db(0x165),'persona':'','following':0x0,'followers':0x0,'likes':0x0,'posts':[]},'chars':[],'videos':[{'id':_0x4998db(0x16d),'authorId':_0x4998db(0x101),'authorName':_0x4998db(0x11e),'desc':_0x4998db(0xd7),'sceneText':_0x4998db(0x1cd),'likes':0x30ff,'commentsCount':0x1b0,'shares':0x80,'isLiked':![],'comments':[{'authorName':'Cici','text':_0x4998db(0xef),'likes':0xe7},{'authorName':'鱼蛋','text':_0x4998db(0x1a2),'likes':0x59}]},{'id':_0x4998db(0x211),'authorId':_0x4998db(0x196),'authorName':_0x4998db(0x1f0),'desc':_0x4998db(0x1e4),'sceneText':_0x4998db(0x1c1),'likes':0x223a,'commentsCount':0xd7,'shares':0x156,'isLiked':![],'comments':[{'authorName':'光影','text':_0x4998db(0x209),'likes':0x9c},{'authorName':_0x4998db(0x226),'text':'喜欢下雨天的人，内心都很温柔吧','likes':0x2c}]}],'dms':[]},'pay':{'transactions':[],'balance':0x3e8},'spotify':{'customName':'','avatarUrl':'','backgroundUrl':''},'diary':{'notes':[]},'maps':{'mapsStore':[],'activeMapId':null,'friendPositionsStore':{}},'desktop':{},'bstage':{},'x':{'xData':{'name':'User','handle':_0x4998db(0x238),'bio':'点击编辑资料添加简介','location':'','following':'0','followers':'0','persona':'','avatar':'','banner':''},'xTopics':[],'xHomeBannerUrl':'','xSearchBannerUrl':''},'imessage':{'uiState':{'cssPresets':[]}}};}function _0x4c4ddd(_0x36d1a0={}){const _0x511101=_0x3c5cfe,_0x454326=_0xbfe026(),_0x2f29a6=_0x36d1a0&&typeof _0x36d1a0===_0x511101(0x124)?_0x36d1a0:{};return{..._0x454326,..._0x2f29a6,'youtube':{..._0x454326[_0x511101(0x1bd)],..._0x2f29a6[_0x511101(0x1bd)]&&typeof _0x2f29a6[_0x511101(0x1bd)]===_0x511101(0x124)?_0x2f29a6[_0x511101(0x1bd)]:{}},'tiktok':{..._0x454326[_0x511101(0x145)],..._0x2f29a6[_0x511101(0x145)]&&typeof _0x2f29a6['tiktok']===_0x511101(0x124)?_0x2f29a6['tiktok']:{}},'pay':{..._0x454326['pay'],..._0x2f29a6[_0x511101(0x14f)]&&typeof _0x2f29a6[_0x511101(0x14f)]===_0x511101(0x124)?_0x2f29a6[_0x511101(0x14f)]:{}},'spotify':{..._0x454326[_0x511101(0xf1)],..._0x2f29a6['spotify']&&typeof _0x2f29a6[_0x511101(0xf1)]===_0x511101(0x124)?_0x2f29a6[_0x511101(0xf1)]:{}},'diary':{..._0x454326[_0x511101(0x11c)],..._0x2f29a6['diary']&&typeof _0x2f29a6[_0x511101(0x11c)]==='object'?_0x2f29a6[_0x511101(0x11c)]:{}},'maps':{..._0x454326['maps'],..._0x2f29a6['maps']&&typeof _0x2f29a6['maps']===_0x511101(0x124)?_0x2f29a6[_0x511101(0x17a)]:{}},'desktop':_0x2f29a6[_0x511101(0x192)]&&typeof _0x2f29a6[_0x511101(0x192)]===_0x511101(0x124)?_0x2f29a6['desktop']:_0x454326[_0x511101(0x192)],'bstage':_0x2f29a6[_0x511101(0xe8)]&&typeof _0x2f29a6[_0x511101(0xe8)]===_0x511101(0x124)?_0x2f29a6[_0x511101(0xe8)]:_0x454326[_0x511101(0xe8)],'x':{..._0x454326['x'],..._0x2f29a6['x']&&typeof _0x2f29a6['x']===_0x511101(0x124)?_0x2f29a6['x']:{},'xData':{..._0x454326['x'][_0x511101(0x173)],..._0x2f29a6['x']&&_0x2f29a6['x'][_0x511101(0x173)]&&typeof _0x2f29a6['x'][_0x511101(0x173)]==='object'?_0x2f29a6['x'][_0x511101(0x173)]:{}},'xTopics':Array[_0x511101(0x1f7)](_0x2f29a6['x']?.['xTopics'])?_0x2f29a6['x'][_0x511101(0x172)]:_0x454326['x'][_0x511101(0x172)],'xHomeBannerUrl':typeof _0x2f29a6['x']?.[_0x511101(0x1de)]===_0x511101(0x19e)?_0x2f29a6['x'][_0x511101(0x1de)]:_0x454326['x']['xHomeBannerUrl'],'xSearchBannerUrl':typeof _0x2f29a6['x']?.[_0x511101(0xba)]==='string'?_0x2f29a6['x'][_0x511101(0xba)]:_0x454326['x']['xSearchBannerUrl']},'imessage':{..._0x454326[_0x511101(0xff)],..._0x2f29a6[_0x511101(0xff)]&&typeof _0x2f29a6[_0x511101(0xff)]==='object'?_0x2f29a6[_0x511101(0xff)]:{},'uiState':{..._0x454326[_0x511101(0xff)]['uiState'],..._0x2f29a6['imessage']&&_0x2f29a6[_0x511101(0xff)][_0x511101(0x121)]&&typeof _0x2f29a6[_0x511101(0xff)][_0x511101(0x121)]===_0x511101(0x124)?_0x2f29a6[_0x511101(0xff)][_0x511101(0x121)]:{}}}};}function _0x18403b(_0x5a0ba1={}){const _0x569301=_0x3c5cfe,_0x5038f0=_0x5a0ba1&&typeof _0x5a0ba1===_0x569301(0x124)?_0x5a0ba1:{},_0x4f6140=_0x5038f0[_0x569301(0x239)]&&typeof _0x5038f0[_0x569301(0x239)]===_0x569301(0x124)?_0x5038f0[_0x569301(0x239)]:null;return _0x4f6140&&(_0x4f6140[_0x569301(0xb7)]=!!_0x4f6140[_0x569301(0xb7)],_0x4f6140[_0x569301(0x15c)]=typeof _0x4f6140[_0x569301(0x15c)]===_0x569301(0x19e)?_0x4f6140[_0x569301(0x15c)]:'',Array['isArray'](_0x4f6140['apps'])&&(_0x4f6140[_0x569301(0x212)]=_0x4f6140[_0x569301(0x212)][_0x569301(0x1f9)](_0x5d1177=>{const _0x26b61d=_0x569301;if(!_0x5d1177||typeof _0x5d1177!==_0x26b61d(0x124))return _0x5d1177;if(_0x5d1177['id']===_0x26b61d(0x11a)&&_0x5d1177[_0x26b61d(0x159)]===_0x26b61d(0x219))return{..._0x5d1177,'name':'Loves'};return _0x5d1177;}))),{'storageSchemaVersion':_0x4e1ae9,'userState':_0x5038f0[_0x569301(0x152)]&&typeof _0x5038f0['userState']===_0x569301(0x124)?{'name':_0x5038f0['userState'][_0x569301(0x159)]||'','phone':_0x5038f0[_0x569301(0x152)][_0x569301(0x1f6)]||'','persona':_0x5038f0[_0x569301(0x152)]['persona']||'','avatarUrl':_0x5038f0[_0x569301(0x152)][_0x569301(0x123)]||null}:{'name':'','phone':'','persona':'','avatarUrl':null},'accounts':Array[_0x569301(0x1f7)](_0x5038f0[_0x569301(0x20e)])?_0x5038f0['accounts']:[],'currentAccountId':_0x5038f0[_0x569301(0xb5)]??null,'apiConfig':_0x5038f0[_0x569301(0x1a3)]&&typeof _0x5038f0[_0x569301(0x1a3)]===_0x569301(0x124)?{'endpoint':typeof _0x5038f0[_0x569301(0x1a3)][_0x569301(0x13b)]===_0x569301(0x19e)?_0x5038f0[_0x569301(0x1a3)][_0x569301(0x13b)]:'','apiKey':typeof _0x5038f0[_0x569301(0x1a3)][_0x569301(0x18c)]===_0x569301(0x19e)?_0x5038f0[_0x569301(0x1a3)][_0x569301(0x18c)]:'','model':typeof _0x5038f0[_0x569301(0x1a3)][_0x569301(0x18e)]===_0x569301(0x19e)?_0x5038f0[_0x569301(0x1a3)][_0x569301(0x18e)]:'','temperature':Number['isFinite'](parseFloat(_0x5038f0['apiConfig'][_0x569301(0x234)]))?parseFloat(_0x5038f0['apiConfig'][_0x569301(0x234)]):0.7}:{'endpoint':'','apiKey':'','model':'','temperature':0.7},'apiPresets':Array['isArray'](_0x5038f0[_0x569301(0x155)])?_0x5038f0['apiPresets']:[],'fetchedModels':Array[_0x569301(0x1f7)](_0x5038f0['fetchedModels'])?_0x5038f0[_0x569301(0x10f)]:[],'assistiveBallSettings':_0x5038f0[_0x569301(0x13c)]&&typeof _0x5038f0['assistiveBallSettings']==='object'?{'enabled':!!_0x5038f0[_0x569301(0x13c)][_0x569301(0xbf)],'x':Number['isFinite'](parseFloat(_0x5038f0[_0x569301(0x13c)]['x']))?parseFloat(_0x5038f0[_0x569301(0x13c)]['x']):null,'y':Number[_0x569301(0x102)](parseFloat(_0x5038f0[_0x569301(0x13c)]['y']))?parseFloat(_0x5038f0[_0x569301(0x13c)]['y']):null,'opacity':Number['isFinite'](parseFloat(_0x5038f0[_0x569301(0x13c)][_0x569301(0x20d)]))?Math[_0x569301(0x1e3)](0.2,Math[_0x569301(0xcb)](0x1,parseFloat(_0x5038f0[_0x569301(0x13c)][_0x569301(0x20d)])>0x1?parseFloat(_0x5038f0[_0x569301(0x13c)][_0x569301(0x20d)])/0x64:parseFloat(_0x5038f0[_0x569301(0x13c)]['opacity']))):0.72}:{'enabled':![],'x':null,'y':null,'opacity':0.72},'themeState':_0x4f6140||{'bgUrl':null,'fontMode':_0x569301(0xda),'fontPresetKey':'system-default','fontFamily':_0x569301(0x1e7),'fontCssName':'','fontSize':0x10,'fontSources':{'woff2':'','woff':'','ttf':''},'savedFontPresets':[],'imessageChatCssEnabled':![],'imessageChatCss':'','apps':[{'id':_0x569301(0xf4),'name':_0x569301(0x15f),'icon':null},{'id':_0x569301(0x15b),'name':_0x569301(0x12a),'icon':null},{'id':'app-icon-3','name':_0x569301(0x140),'icon':null},{'id':'app-icon-4','name':'X','icon':null},{'id':_0x569301(0x179),'name':'Shop','icon':null},{'id':'app-icon-6','name':_0x569301(0x1cf),'icon':null},{'id':_0x569301(0x139),'name':_0x569301(0x1aa),'icon':null},{'id':_0x569301(0x11a),'name':_0x569301(0x213),'icon':null},{'id':_0x569301(0x1db),'name':'设置','icon':null},{'id':'dock-icon-imessage','name':'信息','icon':null},{'id':_0x569301(0xd6),'name':_0x569301(0x1ea),'icon':null}]},'wbGroups':Array['isArray'](_0x5038f0['wbGroups'])?_0x5038f0[_0x569301(0x1e1)]:[],'worldBooks':Array['isArray'](_0x5038f0[_0x569301(0xf5)])?_0x5038f0[_0x569301(0xf5)]:[],'appState':_0x4c4ddd(_0x5038f0['appState'])};}async function _0x32141a(_0x1435b6={}){const _0x48c164=_0x3c5cfe,_0x1c701d=_0x18403b(_0x1435b6);return await Promise[_0x48c164(0x19b)]([_0x53f168('userState',_0x1c701d[_0x48c164(0x152)]),_0x53f168(_0x48c164(0xb5),_0x1c701d['currentAccountId']),_0x53f168(_0x48c164(0x1a3),_0x1c701d[_0x48c164(0x1a3)]),_0x53f168(_0x48c164(0x155),_0x1c701d['apiPresets']),_0x53f168(_0x48c164(0x10f),_0x1c701d['fetchedModels']),_0x53f168('assistiveBallSettings',_0x1c701d[_0x48c164(0x13c)]),_0x53f168('themeState',_0x1c701d[_0x48c164(0x239)]),_0x53f168(_0x48c164(0x1e1),_0x1c701d[_0x48c164(0x1e1)]),_0x53f168('worldBooks',_0x1c701d['worldBooks']),_0x53f168(_0x48c164(0x221),_0x1c701d['appState']),_0x4c284e(_0x2675eb['accounts'],{'id':_0x48c164(0x130),'value':_0x430e8f(_0x1c701d['accounts'])}),_0x26c71a(_0x5ac5b0[_0x48c164(0x1f4)],_0x4e1ae9)]),!![];}async function _0x2ffb57(){const _0x3414c0=_0x3c5cfe,[_0x47efa7,_0x26f2f9,_0xb7e6c5,_0x471112,_0x46afa4,_0x2676f2,_0x481303,_0x3018e6,_0x38eb39,_0x525e5a,_0x541c42,_0x196a42]=await Promise['all']([_0x25439a(_0x5ac5b0['schemaVersion']),_0x5b90a4('userState',null),_0x5b90a4(_0x3414c0(0xb5),null),_0x5b90a4(_0x3414c0(0x1a3),null),_0x5b90a4(_0x3414c0(0x155),[]),_0x5b90a4(_0x3414c0(0x10f),[]),_0x5b90a4('assistiveBallSettings',{'enabled':![]}),_0x5b90a4(_0x3414c0(0x239),null),_0x5b90a4(_0x3414c0(0x1e1),[]),_0x5b90a4(_0x3414c0(0xf5),[]),_0x5b90a4(_0x3414c0(0x221),_0xbfe026()),_0x5151c8(_0x2675eb['accounts'],_0x3414c0(0x130))]);return{..._0x18403b({'userState':_0x26f2f9,'accounts':_0x196a42&&Array[_0x3414c0(0x1f7)](_0x196a42['value'])?_0x196a42[_0x3414c0(0x111)]:[],'currentAccountId':_0xb7e6c5,'apiConfig':_0x471112,'apiPresets':_0x46afa4,'fetchedModels':_0x2676f2,'assistiveBallSettings':_0x481303,'themeState':_0x3018e6,'wbGroups':_0x38eb39,'worldBooks':_0x525e5a,'appState':_0x541c42}),'storageSchemaVersion':Number(_0x47efa7)||0x0};}async function _0x4992ae(_0x458777){const _0x4b180c=_0x3c5cfe;if(_0x458777)_0x458777({'message':_0x4b180c(0xcd),'progress':0x0});const _0x5ae653=[];_0x5ae653[_0x4b180c(0x1d0)](_0x4b180c(0x1ba)+_0x4e1ae9+_0x4b180c(0xb9)+Date[_0x4b180c(0x18f)]()+_0x4b180c(0x1d2));const _0x1dbb8f=Object[_0x4b180c(0xf3)](_0x2675eb),_0x24535a=_0x1dbb8f[_0x4b180c(0x162)];for(let _0x3e485d=0x0;_0x3e485d<_0x24535a;_0x3e485d++){const _0x218580=_0x1dbb8f[_0x3e485d],_0x2b708e=Math[_0x4b180c(0x107)](_0x3e485d/_0x24535a*0x5a);if(_0x458777)_0x458777({'message':_0x4b180c(0x214)+_0x218580,'progress':_0x2b708e});_0x5ae653['push']('\x22'+_0x218580+_0x4b180c(0x14e));const _0x47afaa=await _0x8d61d0(_0x218580),_0x2e861c=_0x47afaa['length'];for(let _0x375f69=0x0;_0x375f69<_0x2e861c;_0x375f69++){const _0x1a1136=_0x47afaa[_0x375f69];if(_0x218580===_0x2675eb[_0x4b180c(0x1d9)]&&_0x1a1136&&_0x1a1136[_0x4b180c(0xcf)])try{const _0x11c060=await _0x4ad73c(_0x1a1136['blob']);_0x1a1136[_0x4b180c(0xf2)]=_0x11c060,_0x1a1136[_0x4b180c(0xcf)]=undefined;}catch(_0x11f69a){console[_0x4b180c(0x18d)]('Failed\x20to\x20convert\x20asset\x20'+_0x1a1136['id']+_0x4b180c(0x151),_0x11f69a);}_0x5ae653[_0x4b180c(0x1d0)](JSON[_0x4b180c(0x171)](_0x1a1136));_0x375f69<_0x2e861c-0x1&&_0x5ae653['push'](',');if((_0x218580===_0x2675eb[_0x4b180c(0x1d9)]||_0x218580===_0x2675eb['imMessages'])&&_0x375f69>0x0&&_0x375f69%0x14===0x0&&_0x458777){const _0x437e8d=Math[_0x4b180c(0x107)](_0x375f69/_0x2e861c*(0x5a/_0x24535a));_0x458777({'message':_0x4b180c(0x1b3)+_0x218580+'\x20('+_0x375f69+'/'+_0x2e861c+_0x4b180c(0x21b),'progress':_0x2b708e+_0x437e8d});}}_0x5ae653[_0x4b180c(0x1d0)](']'),_0x3e485d<_0x24535a-0x1&&_0x5ae653['push'](',');}_0x5ae653['push']('}}');if(_0x458777)_0x458777({'message':_0x4b180c(0x1ee),'progress':0x5f});return new Blob(_0x5ae653,{'type':'application/json'});}async function _0x2d8656(_0x47118c={},_0xb47676){const _0x31ea80=_0x3c5cfe;if(_0xb47676)_0xb47676({'message':_0x31ea80(0x193),'progress':0x0});await _0x47428e();const _0x419fa8=!!_0x47118c[_0x31ea80(0x144)];if(_0x419fa8){const _0x125718=_0x47118c[_0x31ea80(0x144)]||{};if(_0xb47676)_0xb47676({'message':_0x31ea80(0xc6),'progress':0xa});let _0x44b66a={};const _0x52a145=Object[_0x31ea80(0x16b)](_0x125718),_0x488187=_0x52a145[_0x31ea80(0x162)];for(let _0x3bf07d=0x0;_0x3bf07d<_0x488187;_0x3bf07d++){const _0x5741af=_0x52a145[_0x3bf07d],_0xa218ea=_0x125718[_0x5741af];if(!Array[_0x31ea80(0x1f7)](_0xa218ea)||_0xa218ea[_0x31ea80(0x162)]===0x0)continue;const _0xea5bc6=0xa+Math[_0x31ea80(0x107)](_0x3bf07d/_0x488187*0x50);if(_0xb47676)_0xb47676({'message':_0x31ea80(0x122)+_0x5741af+_0x31ea80(0x128),'progress':_0xea5bc6});await _0x23a8fb([_0x5741af],_0x31ea80(0x156),_0x122dc4=>{const _0x1c505a=_0x31ea80,_0x296c0a=_0x122dc4[_0x5741af];_0xa218ea[_0x1c505a(0x222)](_0x489abe=>{const _0x2d46e9=_0x1c505a;if(_0x5741af===_0x2675eb[_0x2d46e9(0x1d9)]&&_0x489abe['dataUrl'])try{const _0x6edd00=_0x3227f3(_0x489abe[_0x2d46e9(0xf2)]);_0x489abe[_0x2d46e9(0xcf)]=_0x6edd00,_0x489abe[_0x2d46e9(0xf2)]=undefined;}catch(_0x51afc7){console[_0x2d46e9(0x18d)](_0x2d46e9(0x185)+_0x489abe['id'],_0x51afc7);}_0x296c0a['put'](_0x489abe);});}),_0x5741af===_0x2675eb[_0x31ea80(0xce)]&&_0xa218ea[_0x31ea80(0x222)](_0x2ee383=>{const _0x4fa3cd=_0x31ea80;_0x2ee383&&_0x2ee383['key']&&(_0x44b66a[_0x2ee383['key']]=_0x2ee383[_0x4fa3cd(0x111)]);});}if(_0xb47676)_0xb47676({'message':_0x31ea80(0x136),'progress':0x5f});try{const _0x2a27c1={'userState':_0x31ea80(0x1b0),'apiConfig':_0x31ea80(0xc4),'minimaxConfig':'u2_minimaxConfig','apiPresets':_0x31ea80(0x1ca),'fetchedModels':'u2_fetchedModels','assistiveBallSettings':_0x31ea80(0x15a),'themeState':'u2_themeState','currentAccountId':_0x31ea80(0xf8)};for(const [_0x1b20ff,_0x2fa948]of Object[_0x31ea80(0xd2)](_0x2a27c1)){_0x44b66a[_0x1b20ff]!==undefined&&(window[_0x31ea80(0x22f)]&&typeof window[_0x31ea80(0x22f)][_0x31ea80(0x112)]===_0x31ea80(0xec)?StorageManager[_0x31ea80(0x112)](_0x2fa948,_0x44b66a[_0x1b20ff]):localStorage[_0x31ea80(0x19a)](_0x2fa948,JSON['stringify'](_0x44b66a[_0x1b20ff])));}if(_0x125718[_0x2675eb['accounts']]){const _0x537659=_0x125718[_0x2675eb[_0x31ea80(0x20e)]][_0x31ea80(0x14a)](_0x3870e6=>_0x3870e6['id']===_0x31ea80(0x130));_0x537659&&_0x537659[_0x31ea80(0x111)]&&(window['StorageManager']&&typeof window[_0x31ea80(0x22f)]['save']===_0x31ea80(0xec)?StorageManager[_0x31ea80(0x112)](_0x31ea80(0xe0),_0x537659[_0x31ea80(0x111)]):localStorage[_0x31ea80(0x19a)](_0x31ea80(0xe0),JSON[_0x31ea80(0x171)](_0x537659['value'])));}}catch(_0x46c6cc){console['warn']('Failed\x20to\x20sync\x20imported\x20data\x20to\x20localStorage:',_0x46c6cc);}}else{const _0x1f430c=_0x47118c&&typeof _0x47118c==='object'?_0x47118c:{},_0x38fe1c=_0x1f430c[_0x31ea80(0x18b)]||{};await _0x32141a(_0x38fe1c);try{if(window['StorageManager']&&typeof window['StorageManager']['save']===_0x31ea80(0xec)){if(_0x38fe1c['userState'])StorageManager['save']('u2_userState',_0x38fe1c[_0x31ea80(0x152)]);if(_0x38fe1c['apiConfig'])StorageManager['save'](_0x31ea80(0xc4),_0x38fe1c[_0x31ea80(0x1a3)]);if(_0x38fe1c[_0x31ea80(0x16e)])StorageManager[_0x31ea80(0x112)](_0x31ea80(0x1e8),_0x38fe1c[_0x31ea80(0x16e)]);if(_0x38fe1c[_0x31ea80(0x155)])StorageManager[_0x31ea80(0x112)]('u2_apiPresets',_0x38fe1c['apiPresets']);if(_0x38fe1c['fetchedModels'])StorageManager['save'](_0x31ea80(0x114),_0x38fe1c[_0x31ea80(0x10f)]);if(_0x38fe1c[_0x31ea80(0x13c)])StorageManager[_0x31ea80(0x112)](_0x31ea80(0x15a),_0x38fe1c[_0x31ea80(0x13c)]);if(_0x38fe1c[_0x31ea80(0x20e)])StorageManager[_0x31ea80(0x112)](_0x31ea80(0xe0),_0x38fe1c[_0x31ea80(0x20e)]);if(_0x38fe1c[_0x31ea80(0xb5)]!==undefined)StorageManager[_0x31ea80(0x112)](_0x31ea80(0xf8),_0x38fe1c[_0x31ea80(0xb5)]);if(_0x38fe1c[_0x31ea80(0x239)])StorageManager['save'](_0x31ea80(0x187),_0x38fe1c[_0x31ea80(0x239)]);}else{if(_0x38fe1c[_0x31ea80(0x152)])localStorage['setItem']('u2_userState',JSON['stringify'](_0x38fe1c[_0x31ea80(0x152)]));if(_0x38fe1c[_0x31ea80(0x1a3)])localStorage['setItem'](_0x31ea80(0xc4),JSON[_0x31ea80(0x171)](_0x38fe1c[_0x31ea80(0x1a3)]));if(_0x38fe1c['minimaxConfig'])localStorage[_0x31ea80(0x19a)](_0x31ea80(0x1e8),JSON['stringify'](_0x38fe1c[_0x31ea80(0x16e)]));if(_0x38fe1c[_0x31ea80(0x155)])localStorage[_0x31ea80(0x19a)](_0x31ea80(0x1ca),JSON['stringify'](_0x38fe1c[_0x31ea80(0x155)]));if(_0x38fe1c[_0x31ea80(0x10f)])localStorage[_0x31ea80(0x19a)]('u2_fetchedModels',JSON[_0x31ea80(0x171)](_0x38fe1c[_0x31ea80(0x10f)]));if(_0x38fe1c[_0x31ea80(0x13c)])localStorage[_0x31ea80(0x19a)](_0x31ea80(0x15a),JSON['stringify'](_0x38fe1c['assistiveBallSettings']));if(_0x38fe1c[_0x31ea80(0x20e)])localStorage[_0x31ea80(0x19a)](_0x31ea80(0xe0),JSON[_0x31ea80(0x171)](_0x38fe1c[_0x31ea80(0x20e)]));if(_0x38fe1c[_0x31ea80(0xb5)]!==undefined)localStorage[_0x31ea80(0x19a)]('u2_currentAccountId',JSON['stringify'](_0x38fe1c[_0x31ea80(0xb5)]));if(_0x38fe1c[_0x31ea80(0x239)])localStorage['setItem'](_0x31ea80(0x187),JSON[_0x31ea80(0x171)](_0x38fe1c['themeState']));}}catch(_0x3011b5){console[_0x31ea80(0x18d)]('Failed\x20to\x20sync\x20imported\x20data\x20to\x20localStorage:',_0x3011b5);}const _0x592df6=_0x1f430c[_0x31ea80(0xff)]&&typeof _0x1f430c[_0x31ea80(0xff)]===_0x31ea80(0x124)?_0x1f430c['imessage']:{},_0x621d3a=Array['isArray'](_0x592df6[_0x31ea80(0x1ae)])?_0x592df6[_0x31ea80(0x1ae)]:[];_0x621d3a[_0x31ea80(0x162)]>0x0&&await _0x23a8fb([_0x2675eb[_0x31ea80(0xfc)]],_0x31ea80(0x156),_0x1b452c=>{const _0xdf4c8f=_0x31ea80;_0x621d3a['forEach'](_0x1e1d99=>_0x1b452c[_0x2675eb['imFriends']][_0xdf4c8f(0x22e)](_0x1e1d99));});const _0x146128=Array[_0x31ea80(0x1f7)](_0x592df6[_0x31ea80(0x19c)])?_0x592df6['messages']:[];_0x146128[_0x31ea80(0x162)]>0x0&&await _0x23a8fb([_0x2675eb['imMessages']],_0x31ea80(0x156),_0x1647c9=>{const _0x356fb0=_0x31ea80;_0x146128[_0x356fb0(0x222)](_0x35be37=>_0x1647c9[_0x2675eb[_0x356fb0(0xbe)]][_0x356fb0(0x22e)](_0x35be37));});const _0x1f1e07=Array[_0x31ea80(0x1f7)](_0x592df6['moments'])?_0x592df6[_0x31ea80(0x201)]:[];_0x1f1e07[_0x31ea80(0x162)]>0x0&&await _0x23a8fb([_0x2675eb[_0x31ea80(0x1fa)]],'readwrite',_0x3fc034=>{const _0x5a6074=_0x31ea80;_0x1f1e07['forEach'](_0x1d78e6=>_0x3fc034[_0x2675eb[_0x5a6074(0x1fa)]]['put'](_0x1d78e6));});const _0x59f1d3=Array[_0x31ea80(0x1f7)](_0x592df6['momentMessages'])?_0x592df6['momentMessages']:[];_0x59f1d3[_0x31ea80(0x162)]>0x0&&await _0x23a8fb([_0x2675eb[_0x31ea80(0x126)]],_0x31ea80(0x156),_0x9f740f=>{const _0x10a6dd=_0x31ea80;_0x59f1d3['forEach'](_0x5432cb=>_0x9f740f[_0x2675eb[_0x10a6dd(0x126)]][_0x10a6dd(0x22e)](_0x5432cb));});const _0x44ad90=Array['isArray'](_0x592df6[_0x31ea80(0x19d)])?_0x592df6[_0x31ea80(0x19d)]:[];_0x44ad90[_0x31ea80(0x162)]>0x0&&await _0x23a8fb([_0x2675eb[_0x31ea80(0xbb)]],_0x31ea80(0x156),_0xc20480=>{const _0x264ecb=_0x31ea80;_0x44ad90[_0x264ecb(0x222)](_0x24cf8a=>_0xc20480[_0x2675eb[_0x264ecb(0xbb)]]['put'](_0x24cf8a));});if(_0x592df6[_0x31ea80(0x158)]!==undefined)await _0x26c71a(_0x5ac5b0['imMomentsCoverAssetId'],_0x592df6[_0x31ea80(0x158)]);else _0x592df6[_0x31ea80(0x233)]&&await _0x18a8b6(_0x592df6[_0x31ea80(0x233)]);const _0x5e8947=Array[_0x31ea80(0x1f7)](_0x1f430c[_0x31ea80(0x1d9)])?_0x1f430c[_0x31ea80(0x1d9)]:[];_0x5e8947['length']>0x0&&await _0x23a8fb([_0x2675eb[_0x31ea80(0x1d9)]],_0x31ea80(0x156),_0x45c6bd=>{const _0x5d0b50=_0x31ea80;_0x5e8947[_0x5d0b50(0x222)](_0x5cb808=>{const _0x255de3=_0x5d0b50;if(_0x5cb808&&_0x5cb808['id']&&_0x5cb808[_0x255de3(0xf2)])try{const _0xc4dbef=_0x3227f3(_0x5cb808['dataUrl']);_0x45c6bd[_0x2675eb['assets']][_0x255de3(0x22e)]({..._0x5cb808,'blob':_0xc4dbef,'dataUrl':undefined});}catch(_0x565250){console[_0x255de3(0x18d)](_0x255de3(0x185)+_0x5cb808['id'],_0x565250);}});});}if(_0xb47676)_0xb47676({'message':_0x31ea80(0x176),'progress':0x64});return!![];}async function _0x258c69(_0x28bf2b,_0x12ad29){const _0x57adb1=_0x3c5cfe,_0x402d00=_0x430e8f(_0x12ad29);if(_0x28bf2b===_0x2675eb[_0x57adb1(0x1d9)]&&_0x402d00&&_0x402d00[_0x57adb1(0xcf)])try{_0x402d00[_0x57adb1(0xf2)]=await _0x4ad73c(_0x402d00[_0x57adb1(0xcf)]),delete _0x402d00[_0x57adb1(0xcf)];}catch(_0x21e3f4){console[_0x57adb1(0x18d)](_0x57adb1(0x10a)+_0x402d00['id']+_0x57adb1(0x151),_0x21e3f4);}return _0x402d00;}function _0x49a66f(_0x2ade0d,_0x240359){const _0xe9c593=_0x3c5cfe,_0x3d730a=_0x430e8f(_0x240359);if(_0x2ade0d===_0x2675eb[_0xe9c593(0x1d9)]&&_0x3d730a&&_0x3d730a[_0xe9c593(0xf2)])try{_0x3d730a[_0xe9c593(0xcf)]=_0x3227f3(_0x3d730a[_0xe9c593(0xf2)]),delete _0x3d730a[_0xe9c593(0xf2)];}catch(_0x10723f){console[_0xe9c593(0x18d)](_0xe9c593(0x185)+_0x3d730a['id'],_0x10723f);}return _0x3d730a;}function _0x836d3b(_0x4b54c9={},_0xd776ab=[]){const _0x1c978e=_0x3c5cfe,_0x15620a={};let _0x3a988f=0x0,_0x2d94b8=0x0;return Object[_0x1c978e(0xf3)](_0x2675eb)[_0x1c978e(0x222)](_0x4d7512=>{const _0xc1eab3=_0x1c978e,_0x4a5aab=Array['isArray'](_0x4b54c9[_0x4d7512])?_0x4b54c9[_0x4d7512][_0xc1eab3(0x162)]:0x0;_0x15620a[_0x4d7512]=_0x4a5aab,_0x3a988f+=_0x4a5aab;}),Array[_0x1c978e(0x1f7)](_0x4b54c9[_0x2675eb[_0x1c978e(0x1d9)]])&&(_0x2d94b8=_0x4b54c9[_0x2675eb[_0x1c978e(0x1d9)]]['length']),{'stores':_0x15620a,'storeCount':Object[_0x1c978e(0xf3)](_0x2675eb)[_0x1c978e(0x162)],'recordCount':_0x3a988f,'assetCount':_0x2d94b8,'localStorageKeyCount':Array[_0x1c978e(0x1f7)](_0xd776ab)?_0xd776ab[_0x1c978e(0x162)]:0x0,'approximateBytes':_0x239bf5({'stores':_0x4b54c9,'localStorage':_0xd776ab})};}async function _0x532323(_0x48d899){const _0x3e8547=_0x3c5cfe;_0x79706f(_0x48d899,_0x3e8547(0xcd),0x0);const _0x4a55fe={},_0x2c7007=Object[_0x3e8547(0xf3)](_0x2675eb);for(let _0x2f8289=0x0;_0x2f8289<_0x2c7007[_0x3e8547(0x162)];_0x2f8289+=0x1){const _0x1ac516=_0x2c7007[_0x2f8289],_0x35c517=Math['floor'](_0x2f8289/_0x2c7007['length']*0x52);_0x79706f(_0x48d899,'读取\x20'+_0x1ac516+_0x3e8547(0x128),_0x35c517);const _0x445a58=await _0x8d61d0(_0x1ac516),_0x5c0e51=[];for(let _0x132849=0x0;_0x132849<_0x445a58[_0x3e8547(0x162)];_0x132849+=0x1){_0x5c0e51['push'](await _0x258c69(_0x1ac516,_0x445a58[_0x132849]));if((_0x1ac516===_0x2675eb['assets']||_0x1ac516===_0x2675eb[_0x3e8547(0xbe)])&&_0x132849>0x0&&_0x132849%0x14===0x0){const _0x109a66=Math[_0x3e8547(0x107)](_0x132849/_0x445a58[_0x3e8547(0x162)]*(0x52/_0x2c7007[_0x3e8547(0x162)]));_0x79706f(_0x48d899,_0x3e8547(0x11b)+_0x1ac516+'\x20('+_0x132849+'/'+_0x445a58[_0x3e8547(0x162)]+_0x3e8547(0x21b),_0x35c517+_0x109a66);}}_0x4a55fe[_0x1ac516]=_0x5c0e51;}_0x79706f(_0x48d899,_0x3e8547(0x1ce),0x56);const _0x24c1b7=_0x4d0d98();_0x5c2b15(_0x4a55fe,_0x24c1b7);const _0x46be00={'stores':_0x4a55fe,'localStorage':_0x24c1b7},_0x535882=_0x836d3b(_0x4a55fe,_0x24c1b7);return{'app':_0x3c8c26,'schemaVersion':_0x4e1ae9,'version':_0x4e1ae9,'exportedAt':Date[_0x3e8547(0x18f)](),'stores':_0x4a55fe,'localStorage':_0x24c1b7,'stats':_0x535882,'checksum':{'algorithm':_0x3e8547(0x235),'value':_0x4d5fa0(_0x46be00)}};}async function _0x150bfc(_0x11896c,_0x5b9ae7){const _0x9a23e0=_0x3c5cfe;return _0x79706f(_0x5b9ae7,_0x9a23e0(0x1b4),0x5f),new Blob([JSON[_0x9a23e0(0x171)](_0x11896c)],{'type':_0x9a23e0(0x1c0)});}function _0x59995d(_0x1b120c={}){const _0xeafb90=_0x3c5cfe,_0x3b46ee=_0x1b120c&&typeof _0x1b120c===_0xeafb90(0x124)?_0x1b120c:{},_0x369b07=_0x3b46ee['stores']&&typeof _0x3b46ee[_0xeafb90(0x144)]===_0xeafb90(0x124)?_0x3b46ee['stores']:{},_0x5d5dc9=Array[_0xeafb90(0x1f7)](_0x3b46ee[_0xeafb90(0x1a5)])?_0x3b46ee['localStorage']:[],_0xc38253=_0x3b46ee[_0xeafb90(0x223)]&&typeof _0x3b46ee['stats']===_0xeafb90(0x124)?_0x3b46ee[_0xeafb90(0x223)]:_0x836d3b(_0x369b07,_0x5d5dc9);return{'app':_0x3b46ee['app']||_0x3c8c26,'schemaVersion':Number(_0x3b46ee[_0xeafb90(0x1f4)]||_0x3b46ee[_0xeafb90(0xbc)])||0x1,'exportedAt':Number(_0x3b46ee[_0xeafb90(0x180)])||0x0,'storeCount':Number(_0xc38253[_0xeafb90(0xdb)])||Object[_0xeafb90(0x16b)](_0x369b07)[_0xeafb90(0x162)],'recordCount':Number(_0xc38253['recordCount'])||0x0,'assetCount':Number(_0xc38253[_0xeafb90(0x14c)])||0x0,'localStorageKeyCount':Number(_0xc38253[_0xeafb90(0x1a8)])||_0x5d5dc9[_0xeafb90(0x162)],'approximateBytes':Number(_0xc38253[_0xeafb90(0x120)])||_0x239bf5(_0x3b46ee),'checksum':_0x3b46ee[_0xeafb90(0x1f5)]?.[_0xeafb90(0x111)]||''};}function _0x17a871(_0x29acef={}){const _0x2a2eb6=_0x3c5cfe;if(!_0x29acef||typeof _0x29acef!==_0x2a2eb6(0x124))throw new Error(_0x2a2eb6(0xe5));if(_0x29acef['stores']&&typeof _0x29acef[_0x2a2eb6(0x144)]==='object'){const _0x3ff37b={};Object[_0x2a2eb6(0xf3)](_0x2675eb)[_0x2a2eb6(0x222)](_0x43a4ad=>{const _0x401e57=_0x2a2eb6;_0x3ff37b[_0x43a4ad]=Array[_0x401e57(0x1f7)](_0x29acef[_0x401e57(0x144)][_0x43a4ad])?_0x29acef['stores'][_0x43a4ad]:[];});const _0x5c7ea7={..._0x29acef,'stores':_0x3ff37b,'localStorage':Array[_0x2a2eb6(0x1f7)](_0x29acef['localStorage'])?_0x29acef[_0x2a2eb6(0x1a5)]:[]};return{'format':_0x2a2eb6(0x14b),'payload':_0x5c7ea7,'summary':_0x59995d(_0x5c7ea7)};}if(_0x29acef[_0x2a2eb6(0x18b)]||_0x29acef[_0x2a2eb6(0xff)]||_0x29acef['assets'])return{'format':_0x2a2eb6(0x224),'payload':_0x29acef,'summary':{'app':_0x3c8c26,'schemaVersion':Number(_0x29acef[_0x2a2eb6(0xbc)])||0x1,'exportedAt':Number(_0x29acef['exportedAt'])||0x0,'storeCount':0x0,'recordCount':0x0,'assetCount':Array[_0x2a2eb6(0x1f7)](_0x29acef['assets'])?_0x29acef[_0x2a2eb6(0x1d9)][_0x2a2eb6(0x162)]:0x0,'localStorageKeyCount':0x0,'approximateBytes':_0x239bf5(_0x29acef),'checksum':''}};throw new Error(_0x2a2eb6(0x194));}function _0x4bf553(_0x5e6704={}){const _0x1ddc71=_0x3c5cfe;return _0x17a871(_0x5e6704)[_0x1ddc71(0xdc)];}async function _0x5f3e00(){const _0xd15676=_0x3c5cfe;try{_0x81dc95();}catch(_0x263330){}const _0x4e6b70=_0x308896();try{sessionStorage[_0xd15676(0xe6)]();}catch(_0x5155e9){}const _0x192e80=await _0x47428e();return{'databaseDeleted':_0x192e80,'localStorageRemovedKeys':_0x4e6b70};}function _0x47611c(_0x6d3efe={},_0x3ac438=[]){const _0x1c5443=_0x3c5cfe;if(!window[_0x1c5443(0x1a5)])return;const _0x5bf48e=Array[_0x1c5443(0x1f7)](_0x6d3efe[_0x2675eb[_0x1c5443(0xce)]])?_0x6d3efe[_0x2675eb[_0x1c5443(0xce)]]:[],_0xcdb15={};_0x5bf48e['forEach'](_0x3532ed=>{const _0x3523e4=_0x1c5443;if(_0x3532ed&&_0x3532ed[_0x3523e4(0x1a6)])_0xcdb15[_0x3532ed[_0x3523e4(0x1a6)]]=_0x3532ed[_0x3523e4(0x111)];});const _0x1329dc={'userState':_0x1c5443(0x1b0),'apiConfig':_0x1c5443(0xc4),'minimaxConfig':'u2_minimaxConfig','apiPresets':'u2_apiPresets','fetchedModels':_0x1c5443(0x114),'assistiveBallSettings':_0x1c5443(0x15a),'themeState':'u2_themeState','currentAccountId':_0x1c5443(0xf8),'wbGroups':'u2_wbGroups','worldBooks':'u2_worldBooks','appState':_0x1c5443(0x1eb)};Object[_0x1c5443(0xd2)](_0x1329dc)['forEach'](([_0x476989,_0x31d867])=>{if(_0x32d8e9(_0x3ac438,_0x31d867))return;_0xcdb15[_0x476989]!==undefined&&_0xf593e9(_0x31d867,_0xcdb15[_0x476989]);});const _0x9d3a13=Array['isArray'](_0x6d3efe[_0x2675eb[_0x1c5443(0x20e)]])?_0x6d3efe[_0x2675eb[_0x1c5443(0x20e)]]:[],_0x727c10=_0x9d3a13[_0x1c5443(0x14a)](_0x4b6399=>_0x4b6399&&_0x4b6399['id']==='__all__');!_0x32d8e9(_0x3ac438,_0x1c5443(0xe0))&&_0x727c10&&Array[_0x1c5443(0x1f7)](_0x727c10[_0x1c5443(0x111)])&&_0xf593e9(_0x1c5443(0xe0),_0x727c10[_0x1c5443(0x111)]);}function _0x5b123f(_0x401185={}){const _0x4dff23=_0x3c5cfe,_0x43ce01={'userState':_0x4dff23(0x1b0),'apiConfig':'u2_apiConfig','minimaxConfig':_0x4dff23(0x1e8),'apiPresets':_0x4dff23(0x1ca),'fetchedModels':_0x4dff23(0x114),'assistiveBallSettings':_0x4dff23(0x15a),'accounts':'u2_accounts','currentAccountId':_0x4dff23(0xf8),'themeState':'u2_themeState','wbGroups':_0x4dff23(0x1a4),'worldBooks':_0x4dff23(0xd3),'appState':_0x4dff23(0x1eb)};Object[_0x4dff23(0xd2)](_0x43ce01)[_0x4dff23(0x222)](([_0x522364,_0x2da541])=>{_0x401185[_0x522364]!==undefined&&_0xf593e9(_0x2da541,_0x401185[_0x522364]);});}async function _0x55e5f4(_0x426e08={},_0x37f73c){const _0x56a189=_0x3c5cfe,_0x444fb4=_0x426e08['stores']||{},_0x59b127=Object[_0x56a189(0xf3)](_0x2675eb);_0x79706f(_0x37f73c,_0x56a189(0x1fe),0x0),await _0x5f3e00(),_0x79706f(_0x37f73c,'恢复数据库...',0xc);for(let _0x28b573=0x0;_0x28b573<_0x59b127[_0x56a189(0x162)];_0x28b573+=0x1){const _0x15f3cd=_0x59b127[_0x28b573],_0x284570=Array[_0x56a189(0x1f7)](_0x444fb4[_0x15f3cd])?_0x444fb4[_0x15f3cd]:[],_0x35d96a=0xc+Math[_0x56a189(0x107)](_0x28b573/_0x59b127[_0x56a189(0x162)]*0x48);_0x79706f(_0x37f73c,_0x56a189(0x198)+_0x15f3cd+_0x56a189(0x128),_0x35d96a);if(_0x284570[_0x56a189(0x162)]===0x0)continue;await _0x23a8fb([_0x15f3cd],_0x56a189(0x156),_0x4c10b9=>{const _0x3e16af=_0x4c10b9[_0x15f3cd];_0x284570['forEach'](_0x2783e9=>{_0x3e16af['put'](_0x49a66f(_0x15f3cd,_0x2783e9));});});}return _0x79706f(_0x37f73c,_0x56a189(0x207),0x5a),_0x5978fa(_0x426e08['localStorage']),_0x47611c(_0x444fb4,_0x426e08[_0x56a189(0x1a5)]),_0x79706f(_0x37f73c,_0x56a189(0x1ac),0x64),!![];}async function _0x7374f8(_0x2bdf3b={},_0x46dc4a){const _0x1cd647=_0x3c5cfe,_0x20c624=_0x2bdf3b&&typeof _0x2bdf3b===_0x1cd647(0x124)?_0x2bdf3b:{},_0x4781ac=_0x20c624[_0x1cd647(0x18b)]||{};_0x79706f(_0x46dc4a,_0x1cd647(0xb6),0x12),await _0x32141a(_0x4781ac),_0x5b123f(_0x4781ac);const _0x5c1962=_0x20c624[_0x1cd647(0xff)]&&typeof _0x20c624[_0x1cd647(0xff)]===_0x1cd647(0x124)?_0x20c624[_0x1cd647(0xff)]:{},_0x994f8a=Array[_0x1cd647(0x1f7)](_0x5c1962['friends'])?_0x5c1962[_0x1cd647(0x1ae)]:[];_0x994f8a[_0x1cd647(0x162)]>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0x231),0x24),await _0x23a8fb([_0x2675eb[_0x1cd647(0xfc)]],'readwrite',_0x4bebe7=>{const _0x4bdf3f=_0x1cd647;_0x994f8a['forEach'](_0x290ef3=>_0x4bebe7[_0x2675eb[_0x4bdf3f(0xfc)]][_0x4bdf3f(0x22e)](_0x290ef3));}));const _0x1eac78=Array[_0x1cd647(0x1f7)](_0x5c1962[_0x1cd647(0x19c)])?_0x5c1962['messages']:[];_0x1eac78['length']>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0xf6),0x30),await _0x23a8fb([_0x2675eb[_0x1cd647(0xbe)]],_0x1cd647(0x156),_0x306a9f=>{const _0x445e71=_0x1cd647;_0x1eac78[_0x445e71(0x222)](_0x538929=>_0x306a9f[_0x2675eb[_0x445e71(0xbe)]][_0x445e71(0x22e)](_0x538929));}));const _0x88a1=Array[_0x1cd647(0x1f7)](_0x5c1962[_0x1cd647(0x201)])?_0x5c1962[_0x1cd647(0x201)]:[];_0x88a1[_0x1cd647(0x162)]>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0x1b9),0x3a),await _0x23a8fb([_0x2675eb[_0x1cd647(0x1fa)]],_0x1cd647(0x156),_0xd271a=>{const _0x4c7af0=_0x1cd647;_0x88a1['forEach'](_0x270a21=>_0xd271a[_0x2675eb[_0x4c7af0(0x1fa)]][_0x4c7af0(0x22e)](_0x270a21));}));const _0x2a4669=Array[_0x1cd647(0x1f7)](_0x5c1962[_0x1cd647(0x190)])?_0x5c1962[_0x1cd647(0x190)]:[];_0x2a4669[_0x1cd647(0x162)]>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0x15e),0x44),await _0x23a8fb([_0x2675eb['imMomentMessages']],_0x1cd647(0x156),_0x238803=>{const _0x529077=_0x1cd647;_0x2a4669[_0x529077(0x222)](_0x243f86=>_0x238803[_0x2675eb[_0x529077(0x126)]][_0x529077(0x22e)](_0x243f86));}));const _0x18e998=Array[_0x1cd647(0x1f7)](_0x5c1962['stickers'])?_0x5c1962['stickers']:[];_0x18e998[_0x1cd647(0x162)]>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0x147),0x4c),await _0x23a8fb([_0x2675eb['imStickers']],_0x1cd647(0x156),_0x351552=>{const _0x46c247=_0x1cd647;_0x18e998[_0x46c247(0x222)](_0x19ac09=>_0x351552[_0x2675eb[_0x46c247(0xbb)]][_0x46c247(0x22e)](_0x19ac09));}));if(_0x5c1962[_0x1cd647(0x158)]!==undefined)await _0x26c71a(_0x5ac5b0[_0x1cd647(0x1be)],_0x5c1962['momentsCoverUrlMeta']);else _0x5c1962[_0x1cd647(0x233)]&&await _0x18a8b6(_0x5c1962['momentsCoverUrl']);const _0x4f516=Array[_0x1cd647(0x1f7)](_0x20c624[_0x1cd647(0x1d9)])?_0x20c624['assets']:[];return _0x4f516[_0x1cd647(0x162)]>0x0&&(_0x79706f(_0x46dc4a,_0x1cd647(0x146),0x56),await _0x23a8fb([_0x2675eb['assets']],_0x1cd647(0x156),_0x2f1701=>{_0x4f516['forEach'](_0x335e51=>{const _0x372f67=_0x9418;_0x335e51&&_0x335e51['id']&&_0x335e51[_0x372f67(0xf2)]&&_0x2f1701[_0x2675eb[_0x372f67(0x1d9)]][_0x372f67(0x22e)](_0x49a66f(_0x2675eb[_0x372f67(0x1d9)],_0x335e51));});})),_0x79706f(_0x46dc4a,_0x1cd647(0x12b),0x64),!![];}async function _0x4992ae(_0x1f458e){const _0x56e1e1=await _0x532323(_0x1f458e),_0x60132c=await _0x150bfc(_0x56e1e1,_0x1f458e);return _0x79706f(_0x1f458e,'导出完成',0x64),_0x60132c;}async function _0x2d8656(_0x3a40db={},_0x22efc8){const _0x12f5c0=_0x3c5cfe,_0x52115a=_0x17a871(_0x3a40db);if(_0x52115a[_0x12f5c0(0x1d6)]===_0x12f5c0(0x14b))return _0x55e5f4(_0x52115a['payload'],_0x22efc8);return _0x79706f(_0x22efc8,_0x12f5c0(0x1fe),0x0),await _0x5f3e00(),_0x7374f8(_0x52115a[_0x12f5c0(0x135)],_0x22efc8);}function _0x2fbdfb(_0x2a0e02=0x0){const _0x43ad51=_0x3c5cfe,_0x562ba4=Math['max'](0x0,Number(_0x2a0e02)||0x0);if(_0x562ba4<0x400)return _0x562ba4+'\x20B';const _0x340a77=['KB','MB','GB','TB'];let _0x3f5382=_0x562ba4/0x400,_0x28741f=0x0;while(_0x3f5382>=0x400&&_0x28741f<_0x340a77[_0x43ad51(0x162)]-0x1){_0x3f5382/=0x400,_0x28741f+=0x1;}const _0x1a0b95=_0x3f5382>=0x64?0x0:_0x3f5382>=0xa?0x1:0x2;return _0x3f5382['toFixed'](_0x1a0b95)+'\x20'+_0x340a77[_0x28741f];}async function _0x35a4e4(){const _0x4a29b6=await _0x4992ae();return _0x4a29b6['size'];}async function _0x4286c9(){const _0x55d9d5=_0x3c5cfe,[_0x5405d1,_0x4405cb]=await Promise[_0x55d9d5(0x19b)]([_0x2eaeef(),_0x35a4e4()]);return{'cacheBytes':_0x5405d1,'totalBytes':_0x4405cb,'cacheFormatted':_0x2fbdfb(_0x5405d1),'totalFormatted':_0x2fbdfb(_0x4405cb),'label':_0x2fbdfb(_0x5405d1)+'\x20/\x20'+_0x2fbdfb(_0x4405cb)};}async function _0x47428e(){const _0xfe74be=_0x3c5cfe;try{_0x81dc95();}catch(_0x30fb0f){}try{const _0x17d01a=await _0x15a5dd;if(_0x17d01a)_0x17d01a[_0xfe74be(0x1b2)]();}catch(_0x45cda4){}_0x15a5dd=null;const _0x52a4ca=await _0x5b35e6(_0x430160);return!!_0x52a4ca[_0xfe74be(0xc7)];}async function _0x25ed59(){const _0x5449f3=_0x3c5cfe;try{_0x81dc95();}catch(_0x13103f){}try{const _0xb790bc=await _0x15a5dd;if(_0xb790bc)_0xb790bc[_0x5449f3(0x1b2)]();}catch(_0x51ffcb){}_0x15a5dd=null;const _0x809680=[];let _0x640fc5=![],_0x4a7e08=![];try{const _0x38af60=[];for(let _0x5e6a54=0x0;_0x5e6a54<localStorage[_0x5449f3(0x162)];_0x5e6a54+=0x1){const _0x142e81=localStorage[_0x5449f3(0x1a6)](_0x5e6a54);if(_0x142e81!=null)_0x38af60[_0x5449f3(0x1d0)](_0x142e81);}_0x38af60['forEach'](_0x57d3a0=>{const _0x5a60cf=_0x5449f3,_0x2ecd3d=_0x59e5c8[_0x5a60cf(0x20b)](_0x5ce56a=>_0x57d3a0['startsWith'](_0x5ce56a));if(_0x2ecd3d)return;_0x809680['push'](_0x57d3a0),localStorage[_0x5a60cf(0x12d)](_0x57d3a0);}),_0x640fc5=!![];}catch(_0x203502){try{localStorage[_0x5449f3(0x12d)](_0x5449f3(0x117)),_0x809680[_0x5449f3(0x1d0)](_0x5449f3(0x117));}catch(_0x36bf8d){}}try{sessionStorage[_0x5449f3(0xe6)](),_0x4a7e08=!![];}catch(_0x1377f5){}const [_0x244c09,_0x3a3b5c,_0x2b616f,_0x14af1a]=await Promise[_0x5449f3(0x19b)]([_0x5b35e6(_0x430160),_0x5b35e6(_0x5449f3(0xca)),_0xa1adaf(),_0x1c38e3()]);return{'runtimeCacheCleared':!![],'localStorageCleared':_0x640fc5,'localStorageRemovedKeys':_0x809680,'sessionStorageCleared':_0x4a7e08,'databases':[_0x244c09,_0x3a3b5c],'caches':_0x2b616f,'serviceWorkers':_0x14af1a};}window[_0x3c5cfe(0x1b6)]={'DB_NAME':_0x430160,'STORES':_0x2675eb,'openDb':_0xedf95d,'withStore':_0x23a8fb,'requestToPromise':_0x2e3c0a,'cloneDeep':_0x430e8f,'dataUrlToBlob':_0x3227f3,'blobToDataUrl':_0x4ad73c,'clearRuntimeAssetCache':_0x81dc95,'pruneRuntimeAssetCache':_0x5ad099,'measureRuntimeCacheUsage':_0x2eaeef,'formatBytes':_0x2fbdfb,'getUsageSummary':_0x4286c9,'saveAssetFromDataUrl':_0x5afd37,'getAssetUrl':_0x58fcf3,'deleteAsset':_0x993348,'getMeta':_0x25439a,'setMeta':_0x26c71a,'getSetting':_0x5b90a4,'setSetting':_0x53f168,'saveGlobalData':_0x32141a,'loadGlobalData':_0x2ffb57,'collectBackupSnapshot':_0x532323,'inspectBackupPayload':_0x4bf553,'validateBackupPayload':_0x17a871,'exportAllData':_0x4992ae,'importAllData':_0x2d8656,'clearAllData':_0x47428e,'clearManagedPersistence':_0x5f3e00,'clearAllPersistentData':_0x25ed59,'clearBrowserCaches':_0xa1adaf,'unregisterServiceWorkers':_0x1c38e3,'measureApproximateUsage':_0x35a4e4,'saveFriends':_0x63dbe5,'saveFriend':_0x5db4a0,'saveFriendMetaOnly':_0x4caabf,'saveFriendMeta':_0x56fa99,'deleteFriend':_0x25bb7c,'loadFriends':_0x466ba8,'saveFriendMessage':_0x311781,'deleteFriendMessage':_0x1dee5d,'deleteFriendMessages':_0x5ed02f,'saveFriendMessages':_0x22dab3,'replaceFriendMessages':_0x2fd16f,'loadMessagesByFriendId':_0x953fd5,'saveMoments':_0x1a01dc,'saveMoment':_0x1bc271,'deleteMoment':_0x5e653c,'loadMoments':_0x37158f,'saveMomentMessages':_0x3cfef2,'loadMomentMessages':_0x569e2f,'saveStickers':_0x2df259,'loadStickers':_0x5eb994,'saveMomentsCover':_0x18a8b6,'loadMomentsCoverUrl':_0x1a213a};}()));
+// ==========================================
+// APP STORAGE LAYER
+// Unified IndexedDB repository for the whole project
+// Mobile-first, no legacy migration retention
+// ==========================================
+
+(function() {
+    const DB_NAME = 'iiso_app_storage';
+    const DB_VERSION = 4;
+    const STORAGE_SCHEMA_VERSION = 5;
+    const BACKUP_APP_NAME = 'u2phone';
+    const PERSISTENT_LOCALSTORAGE_EXCLUDE_PREFIXES = ['iiso_auth_'];
+    const MANAGED_LOCALSTORAGE_EXACT_KEYS = new Set([
+        'app_global_data',
+        'ios_emulator_global_data',
+        'shopping_bound_wb_id',
+        'shopping_generated_food',
+        'shopping_generated_mall',
+        'shopping_comments',
+        'shopping_qa',
+        'shopping_orders',
+        'shopping_cart'
+    ]);
+    const MANAGED_LOCALSTORAGE_PREFIXES = ['u2_', 'shopping_'];
+
+    const STORES = {
+        meta: 'meta',
+        settings: 'settings',
+        accounts: 'accounts',
+        appState: 'app_state',
+        theme: 'theme',
+        worldbooks: 'worldbooks',
+        assets: 'assets',
+        imFriends: 'im_friends',
+        imMessages: 'im_messages',
+        imMoments: 'im_moments',
+        imMomentMessages: 'im_moment_messages',
+        imStickers: 'im_stickers',
+        libraryBooks: 'library_books',
+        libraryPlaylists: 'library_playlists',
+        libraryTracks: 'library_tracks',
+        libraryDailyStats: 'library_daily_stats'
+    };
+
+    const META_KEYS = {
+        schemaVersion: 'schema_version',
+        appVersion: 'app_version',
+        imMomentsCoverAssetId: 'im_moments_cover_asset_id'
+    };
+
+    const runtimeBlobUrls = new Map();
+    const runtimeBlobUrlAccess = new Map();
+    const MAX_RUNTIME_BLOB_URLS = 120;
+    let dbPromise = null;
+
+    function cloneDeep(value) {
+        if (typeof structuredClone === 'function') {
+            return structuredClone(value);
+        }
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    function isDomNode(value) {
+        return !!(
+            value &&
+            typeof value === 'object' &&
+            typeof Node !== 'undefined' &&
+            value instanceof Node
+        );
+    }
+
+    function sanitizePersistentValue(value, seen = new WeakSet()) {
+        if (value == null) return value;
+        if (typeof value === 'function' || typeof value === 'symbol') return undefined;
+        if (typeof value === 'string' && isBlobUrl(value)) return null;
+        if (typeof value !== 'object') return value;
+        if (isDomNode(value)) return undefined;
+        if (value instanceof Date) return value.toISOString();
+        if (typeof Blob !== 'undefined' && value instanceof Blob) return value;
+        if (typeof File !== 'undefined' && value instanceof File) return value;
+
+        if (seen.has(value)) return undefined;
+        seen.add(value);
+
+        if (Array.isArray(value)) {
+            return value
+                .map((item) => sanitizePersistentValue(item, seen))
+                .filter((item) => item !== undefined);
+        }
+
+        const result = {};
+        Object.keys(value).forEach((key) => {
+            if (key.charAt(0) === '_') return;
+            const sanitized = sanitizePersistentValue(value[key], seen);
+            if (sanitized !== undefined) result[key] = sanitized;
+        });
+        return result;
+    }
+
+    function clampProgress(value) {
+        const parsed = Number(value);
+        if (!Number.isFinite(parsed)) return 0;
+        return Math.max(0, Math.min(100, Math.round(parsed)));
+    }
+
+    function reportProgress(callback, message, progress) {
+        if (typeof callback === 'function') {
+            callback({ message, progress: clampProgress(progress) });
+        }
+    }
+
+    function isExcludedLocalStorageKey(key) {
+        return PERSISTENT_LOCALSTORAGE_EXCLUDE_PREFIXES.some((prefix) => String(key || '').startsWith(prefix));
+    }
+
+    function isManagedLocalStorageKey(key) {
+        const safeKey = String(key || '');
+        if (!safeKey || isExcludedLocalStorageKey(safeKey)) return false;
+        if (MANAGED_LOCALSTORAGE_EXACT_KEYS.has(safeKey)) return true;
+        return MANAGED_LOCALSTORAGE_PREFIXES.some((prefix) => safeKey.startsWith(prefix));
+    }
+
+    function setLocalStorageRaw(key, value) {
+        if (!key || isExcludedLocalStorageKey(key)) return;
+        localStorage.setItem(String(key), String(value ?? ''));
+    }
+
+    function setLocalStorageJson(key, value) {
+        setLocalStorageRaw(key, JSON.stringify(sanitizePersistentValue(value)));
+    }
+
+    function collectManagedLocalStorageSnapshot() {
+        const rows = [];
+        if (!window.localStorage) return rows;
+
+        const keys = [];
+        for (let i = 0; i < localStorage.length; i += 1) {
+            const key = localStorage.key(i);
+            if (isManagedLocalStorageKey(key)) keys.push(key);
+        }
+
+        keys.sort().forEach((key) => {
+            rows.push({
+                key,
+                value: localStorage.getItem(key)
+            });
+        });
+
+        return rows;
+    }
+
+    function clearManagedLocalStorage() {
+        if (!window.localStorage) return [];
+        const removedKeys = [];
+        const keys = [];
+
+        for (let i = 0; i < localStorage.length; i += 1) {
+            const key = localStorage.key(i);
+            if (isManagedLocalStorageKey(key)) keys.push(key);
+        }
+
+        keys.forEach((key) => {
+            localStorage.removeItem(key);
+            removedKeys.push(key);
+        });
+
+        return removedKeys;
+    }
+
+    function restoreManagedLocalStorageSnapshot(snapshot = []) {
+        if (!window.localStorage) return 0;
+        const rows = Array.isArray(snapshot) ? snapshot : [];
+        let restored = 0;
+
+        rows.forEach((row) => {
+            if (!row || !isManagedLocalStorageKey(row.key)) return;
+            const rawValue = String(row.value ?? '');
+            let restoredValue = rawValue;
+
+            try {
+                restoredValue = JSON.stringify(sanitizePersistentValue(JSON.parse(rawValue)));
+            } catch (error) {
+                restoredValue = isBlobUrl(rawValue) ? '' : rawValue;
+            }
+
+            setLocalStorageRaw(row.key, restoredValue);
+            restored += 1;
+        });
+
+        return restored;
+    }
+
+    function getLocalStorageSnapshotValue(snapshot = [], key) {
+        const row = Array.isArray(snapshot)
+            ? snapshot.find((item) => item && item.key === key)
+            : null;
+        return row ? row.value : undefined;
+    }
+
+    function parseLocalStorageSnapshotJson(snapshot = [], key) {
+        const rawValue = getLocalStorageSnapshotValue(snapshot, key);
+        if (rawValue === undefined || rawValue === null || rawValue === '') return undefined;
+
+        try {
+            return JSON.parse(rawValue);
+        } catch (error) {
+            console.warn(`Failed to parse localStorage backup key "${key}":`, error);
+            return undefined;
+        }
+    }
+
+    function hasLocalStorageSnapshotKey(snapshot = [], key) {
+        return Array.isArray(snapshot) && snapshot.some((item) => item && item.key === key);
+    }
+
+    function upsertBackupSettingRecord(storesData, key, value) {
+        if (value === undefined) return;
+        if (!Array.isArray(storesData[STORES.settings])) storesData[STORES.settings] = [];
+
+        const existing = storesData[STORES.settings].find((record) => record && record.key === key);
+        if (existing) {
+            existing.value = cloneDeep(value);
+        } else {
+            storesData[STORES.settings].push({ key, value: cloneDeep(value) });
+        }
+    }
+
+    function mergeLocalStorageCompatibilityIntoStores(storesData = {}, localStorageSnapshot = []) {
+        const localStorageSettingsMap = {
+            u2_userState: 'userState',
+            u2_apiConfig: 'apiConfig',
+            u2_minimaxConfig: 'minimaxConfig',
+            u2_apiPresets: 'apiPresets',
+            u2_fetchedModels: 'fetchedModels',
+            u2_assistiveBallSettings: 'assistiveBallSettings',
+            u2_themeState: 'themeState',
+            u2_currentAccountId: 'currentAccountId',
+            u2_wbGroups: 'wbGroups',
+            u2_worldBooks: 'worldBooks',
+            u2_appState: 'appState'
+        };
+
+        Object.entries(localStorageSettingsMap).forEach(([storageKey, settingKey]) => {
+            const value = parseLocalStorageSnapshotJson(localStorageSnapshot, storageKey);
+            if (value !== undefined) upsertBackupSettingRecord(storesData, settingKey, value);
+        });
+
+        const accounts = parseLocalStorageSnapshotJson(localStorageSnapshot, 'u2_accounts');
+        if (Array.isArray(accounts)) {
+            if (!Array.isArray(storesData[STORES.accounts])) storesData[STORES.accounts] = [];
+            const existing = storesData[STORES.accounts].find((record) => record && record.id === '__all__');
+            if (existing) {
+                existing.value = cloneDeep(accounts);
+            } else {
+                storesData[STORES.accounts].push({ id: '__all__', value: cloneDeep(accounts) });
+            }
+        }
+    }
+
+    function estimateJsonBytes(value) {
+        try {
+            return new Blob([JSON.stringify(value)]).size;
+        } catch (error) {
+            try {
+                return JSON.stringify(value).length;
+            } catch (e) {
+                return 0;
+            }
+        }
+    }
+
+    function createChecksum(value) {
+        let text = '';
+        try {
+            text = JSON.stringify(value);
+        } catch (error) {
+            text = String(value || '');
+        }
+
+        let hash = 2166136261;
+        for (let i = 0; i < text.length; i += 1) {
+            hash ^= text.charCodeAt(i);
+            hash = Math.imul(hash, 16777619);
+        }
+
+        return (hash >>> 0).toString(16).padStart(8, '0');
+    }
+
+    function touchRuntimeBlobUrl(assetId) {
+        if (!assetId) return;
+        runtimeBlobUrlAccess.set(assetId, Date.now());
+    }
+
+    function revokeRuntimeBlobUrl(assetId) {
+        const existing = runtimeBlobUrls.get(assetId);
+        if (existing) {
+            try {
+                URL.revokeObjectURL(existing);
+            } catch (e) {}
+            runtimeBlobUrls.delete(assetId);
+        }
+        runtimeBlobUrlAccess.delete(assetId);
+    }
+
+    function clearRuntimeAssetCache() {
+        try {
+            Array.from(runtimeBlobUrls.keys()).forEach((assetId) => revokeRuntimeBlobUrl(assetId));
+        } catch (e) {}
+        runtimeBlobUrls.clear();
+        runtimeBlobUrlAccess.clear();
+        return true;
+    }
+
+    async function measureRuntimeCacheUsage() {
+        const assetIds = Array.from(runtimeBlobUrls.keys());
+        if (assetIds.length === 0) return 0;
+
+        let total = 0;
+        for (const assetId of assetIds) {
+            const blob = await getAssetBlob(assetId);
+            total += Number(blob?.size) || 0;
+        }
+        return total;
+    }
+
+    function pruneRuntimeAssetCache(maxEntries = MAX_RUNTIME_BLOB_URLS) {
+        const limit = Math.max(0, Number(maxEntries) || 0);
+        if (limit === 0) {
+            clearRuntimeAssetCache();
+            return 0;
+        }
+
+        if (runtimeBlobUrls.size <= limit) {
+            return runtimeBlobUrls.size;
+        }
+
+        const removableIds = Array.from(runtimeBlobUrls.keys())
+            .sort((a, b) => (runtimeBlobUrlAccess.get(a) || 0) - (runtimeBlobUrlAccess.get(b) || 0))
+            .slice(0, Math.max(0, runtimeBlobUrls.size - limit));
+
+        removableIds.forEach((assetId) => revokeRuntimeBlobUrl(assetId));
+        return runtimeBlobUrls.size;
+    }
+
+    function isDataUrl(value) {
+        return typeof value === 'string' && value.startsWith('data:');
+    }
+
+    function isBlobUrl(value) {
+        return typeof value === 'string' && value.startsWith('blob:');
+    }
+
+    function hasStoreIndex(store, indexName) {
+        if (!store || !store.indexNames) return false;
+        if (typeof store.indexNames.contains === 'function') {
+            return store.indexNames.contains(indexName);
+        }
+        return Array.from(store.indexNames).includes(indexName);
+    }
+
+    function dataUrlToBlob(dataUrl) {
+        const parts = String(dataUrl || '').split(',');
+        const header = parts[0] || '';
+        const data = parts[1] || '';
+        const mimeMatch = header.match(/data:(.*?);base64/);
+        const mimeType = mimeMatch ? mimeMatch[1] : 'application/octet-stream';
+        const binary = atob(data);
+        const len = binary.length;
+        const bytes = new Uint8Array(len);
+        for (let i = 0; i < len; i += 1) {
+            bytes[i] = binary.charCodeAt(i);
+        }
+        return new Blob([bytes], { type: mimeType });
+    }
+
+    function blobToDataUrl(blob) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = reject;
+            reader.readAsDataURL(blob);
+        });
+    }
+
+    function requestToPromise(request) {
+        return new Promise((resolve, reject) => {
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error);
+        });
+    }
+
+    function deleteDatabaseSafe(name) {
+        return new Promise((resolve) => {
+            if (!window.indexedDB || !name) {
+                resolve({ name, deleted: false, reason: 'indexeddb_unavailable' });
+                return;
+            }
+
+            let settled = false;
+            const request = window.indexedDB.deleteDatabase(name);
+
+            request.onsuccess = () => {
+                if (settled) return;
+                settled = true;
+                resolve({ name, deleted: true, reason: 'deleted' });
+            };
+
+            request.onerror = () => {
+                if (settled) return;
+                settled = true;
+                resolve({
+                    name,
+                    deleted: false,
+                    reason: request.error?.message || request.error?.name || 'delete_error'
+                });
+            };
+
+            request.onblocked = () => {
+                if (settled) return;
+                settled = true;
+                resolve({ name, deleted: false, reason: 'blocked' });
+            };
+        });
+    }
+
+    async function clearBrowserCaches() {
+        if (!window.caches || typeof window.caches.keys !== 'function') {
+            return [];
+        }
+
+        try {
+            const cacheNames = await window.caches.keys();
+            const results = [];
+
+            for (const cacheName of cacheNames) {
+                const deleted = await window.caches.delete(cacheName);
+                results.push({ name: cacheName, deleted: !!deleted });
+            }
+
+            return results;
+        } catch (error) {
+            return [{ name: '*', deleted: false, reason: error?.message || 'cache_clear_failed' }];
+        }
+    }
+
+    async function unregisterServiceWorkers() {
+        if (!navigator.serviceWorker || typeof navigator.serviceWorker.getRegistrations !== 'function') {
+            return [];
+        }
+
+        try {
+            const registrations = await navigator.serviceWorker.getRegistrations();
+            const results = [];
+
+            for (const registration of registrations) {
+                const scope = registration?.scope || 'unknown';
+                const unregistered = await registration.unregister();
+                results.push({ scope, unregistered: !!unregistered });
+            }
+
+            return results;
+        } catch (error) {
+            return [{ scope: '*', unregistered: false, reason: error?.message || 'sw_unregister_failed' }];
+        }
+    }
+
+    function createDbConnection() {
+        return new Promise((resolve, reject) => {
+            if (!window.indexedDB) {
+                reject(new Error('IndexedDB is not supported in this browser.'));
+                return;
+            }
+
+            const request = window.indexedDB.open(DB_NAME, DB_VERSION);
+
+            request.onerror = () => {
+                dbPromise = null;
+                reject(request.error);
+            };
+
+            request.onupgradeneeded = (event) => {
+                const db = event.target.result;
+
+                if (!db.objectStoreNames.contains(STORES.meta)) {
+                    db.createObjectStore(STORES.meta, { keyPath: 'key' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.settings)) {
+                    db.createObjectStore(STORES.settings, { keyPath: 'key' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.accounts)) {
+                    db.createObjectStore(STORES.accounts, { keyPath: 'id' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.appState)) {
+                    db.createObjectStore(STORES.appState, { keyPath: 'key' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.theme)) {
+                    db.createObjectStore(STORES.theme, { keyPath: 'key' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.worldbooks)) {
+                    db.createObjectStore(STORES.worldbooks, { keyPath: 'key' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.assets)) {
+                    db.createObjectStore(STORES.assets, { keyPath: 'id' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.imFriends)) {
+                    db.createObjectStore(STORES.imFriends, { keyPath: 'id' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.imMessages)) {
+                    const messageStore = db.createObjectStore(STORES.imMessages, { keyPath: 'id' });
+                    messageStore.createIndex('friendId', 'friendId', { unique: false });
+                    messageStore.createIndex('friendId_timestamp', ['friendId', 'timestamp'], { unique: false });
+                    messageStore.createIndex('friendId_order', ['friendId', 'order'], { unique: false });
+                } else {
+                    const upgradeTransaction = event.target.transaction;
+                    if (upgradeTransaction) {
+                        const messageStore = upgradeTransaction.objectStore(STORES.imMessages);
+                        if (!hasStoreIndex(messageStore, 'friendId')) {
+                            messageStore.createIndex('friendId', 'friendId', { unique: false });
+                        }
+                        if (!hasStoreIndex(messageStore, 'friendId_timestamp')) {
+                            messageStore.createIndex('friendId_timestamp', ['friendId', 'timestamp'], { unique: false });
+                        }
+                        if (!hasStoreIndex(messageStore, 'friendId_order')) {
+                            messageStore.createIndex('friendId_order', ['friendId', 'order'], { unique: false });
+                        }
+                    }
+                }
+
+                if (!db.objectStoreNames.contains(STORES.imMoments)) {
+                    const momentsStore = db.createObjectStore(STORES.imMoments, { keyPath: 'id' });
+                    momentsStore.createIndex('userId', 'userId', { unique: false });
+                    momentsStore.createIndex('time', 'time', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.imMomentMessages)) {
+                    const momentMsgStore = db.createObjectStore(STORES.imMomentMessages, { keyPath: 'id' });
+                    momentMsgStore.createIndex('time', 'time', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.imStickers)) {
+                    db.createObjectStore(STORES.imStickers, { keyPath: 'categoryName' });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.libraryBooks)) {
+                    const booksStore = db.createObjectStore(STORES.libraryBooks, { keyPath: 'id' });
+                    booksStore.createIndex('updatedAt', 'updatedAt', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.libraryPlaylists)) {
+                    const playlistsStore = db.createObjectStore(STORES.libraryPlaylists, { keyPath: 'id' });
+                    playlistsStore.createIndex('updatedAt', 'updatedAt', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.libraryTracks)) {
+                    const tracksStore = db.createObjectStore(STORES.libraryTracks, { keyPath: 'id' });
+                    tracksStore.createIndex('playlistId', 'playlistId', { unique: false });
+                    tracksStore.createIndex('updatedAt', 'updatedAt', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.libraryDailyStats)) {
+                    const statsStore = db.createObjectStore(STORES.libraryDailyStats, { keyPath: 'id' });
+                    statsStore.createIndex('date', 'date', { unique: false });
+                    statsStore.createIndex('kind', 'kind', { unique: false });
+                    statsStore.createIndex('date_kind', ['date', 'kind'], { unique: false });
+                }
+            };
+
+            request.onsuccess = () => {
+                const db = request.result;
+
+                db.onversionchange = () => {
+                    try {
+                        db.close();
+                    } catch (e) {}
+                    dbPromise = null;
+                };
+
+                resolve(db);
+            };
+        });
+    }
+
+    function openDb() {
+        if (!dbPromise) {
+            dbPromise = createDbConnection().catch((error) => {
+                dbPromise = null;
+                throw error;
+            });
+        }
+        return dbPromise;
+    }
+
+    async function withStore(storeNames, mode, callback) {
+        const db = await openDb();
+        return new Promise((resolve, reject) => {
+            const transaction = db.transaction(storeNames, mode);
+            const stores = {};
+            storeNames.forEach((name) => {
+                stores[name] = transaction.objectStore(name);
+            });
+
+            let callbackResult;
+            try {
+                callbackResult = callback(stores, transaction);
+            } catch (error) {
+                reject(error);
+                return;
+            }
+
+            transaction.oncomplete = async () => {
+                try {
+                    const resolved = await Promise.resolve(callbackResult);
+                    resolve(resolved);
+                } catch (error) {
+                    reject(error);
+                }
+            };
+
+            transaction.onerror = () => reject(transaction.error);
+            transaction.onabort = () => reject(transaction.error || new Error('Transaction aborted'));
+        });
+    }
+
+    async function getRecord(storeName, key) {
+        return withStore([storeName], 'readonly', async (stores) => {
+            const row = await requestToPromise(stores[storeName].get(key));
+            return row || null;
+        });
+    }
+
+    async function putRecord(storeName, record) {
+        return withStore([storeName], 'readwrite', (stores) => {
+            stores[storeName].put(record);
+        });
+    }
+
+    async function deleteRecord(storeName, key) {
+        return withStore([storeName], 'readwrite', (stores) => {
+            stores[storeName].delete(key);
+        });
+    }
+
+    async function getAllRecords(storeName) {
+        return withStore([storeName], 'readonly', async (stores) => {
+            const rows = await requestToPromise(stores[storeName].getAll());
+            return Array.isArray(rows) ? rows : [];
+        });
+    }
+
+    function sanitizeLibraryRecord(record) {
+        return sanitizePersistentValue(cloneDeep(record || {}));
+    }
+
+    async function loadLibraryBooks() {
+        return cloneDeep(await getAllRecords(STORES.libraryBooks));
+    }
+
+    async function saveLibraryBook(book) {
+        const record = sanitizeLibraryRecord(book);
+        if (!record.id) throw new Error('Library book id is required.');
+        await putRecord(STORES.libraryBooks, record);
+        return cloneDeep(record);
+    }
+
+    async function deleteLibraryBook(bookId) {
+        return deleteRecord(STORES.libraryBooks, String(bookId || ''));
+    }
+
+    async function loadLibraryPlaylists() {
+        return cloneDeep(await getAllRecords(STORES.libraryPlaylists));
+    }
+
+    async function loadLibraryTracks() {
+        return cloneDeep(await getAllRecords(STORES.libraryTracks));
+    }
+
+    async function saveLibraryPlaylistBundle(playlist, tracks = [], options = {}) {
+        const playlistRecord = sanitizeLibraryRecord(playlist);
+        if (!playlistRecord.id) throw new Error('Library playlist id is required.');
+        const trackRecords = (Array.isArray(tracks) ? tracks : [])
+            .map(sanitizeLibraryRecord)
+            .filter((track) => track.id);
+
+        await withStore([STORES.libraryPlaylists, STORES.libraryTracks], 'readwrite', (stores) => {
+            const playlistStore = stores[STORES.libraryPlaylists];
+            const trackStore = stores[STORES.libraryTracks];
+            const writeBundle = () => {
+                playlistStore.put(playlistRecord);
+                trackRecords.forEach((track) => trackStore.put(track));
+            };
+
+            if (options.replaceTracks) {
+                const keepIds = new Set(trackRecords.map((track) => track.id));
+                const existingKeysRequest = trackStore.index('playlistId').getAllKeys(playlistRecord.id);
+                existingKeysRequest.onsuccess = () => {
+                    (Array.isArray(existingKeysRequest.result) ? existingKeysRequest.result : []).forEach((trackId) => {
+                        if (!keepIds.has(trackId)) trackStore.delete(trackId);
+                    });
+                    writeBundle();
+                };
+                return;
+            }
+
+            writeBundle();
+        });
+
+        return {
+            playlist: cloneDeep(playlistRecord),
+            tracks: cloneDeep(trackRecords)
+        };
+    }
+
+    async function saveLibraryTrack(track) {
+        const record = sanitizeLibraryRecord(track);
+        if (!record.id) throw new Error('Library track id is required.');
+        await putRecord(STORES.libraryTracks, record);
+        return cloneDeep(record);
+    }
+
+    async function deleteLibraryTrack(trackId) {
+        return deleteRecord(STORES.libraryTracks, String(trackId || ''));
+    }
+
+    async function deleteLibraryPlaylist(playlistId) {
+        const safePlaylistId = String(playlistId || '');
+        if (!safePlaylistId) return;
+
+        return withStore([STORES.libraryPlaylists, STORES.libraryTracks], 'readwrite', async (stores) => {
+            const trackRows = await requestToPromise(stores[STORES.libraryTracks].getAll());
+            (Array.isArray(trackRows) ? trackRows : []).forEach((track) => {
+                if (track && track.playlistId === safePlaylistId) {
+                    stores[STORES.libraryTracks].delete(track.id);
+                }
+            });
+            stores[STORES.libraryPlaylists].delete(safePlaylistId);
+        });
+    }
+
+    async function loadLibraryDailyStats() {
+        return cloneDeep(await getAllRecords(STORES.libraryDailyStats));
+    }
+
+    async function incrementLibraryDailyStat({ date, kind, itemId, seconds = 0, count = 0 }) {
+        const safeDate = String(date || '');
+        const safeKind = String(kind || '');
+        const safeItemId = String(itemId || 'all');
+        const rawSeconds = Number(seconds);
+        const rawCount = Number(count);
+        const safeSeconds = Number.isFinite(rawSeconds) ? Math.max(0, rawSeconds) : 0;
+        const safeCount = Number.isFinite(rawCount) ? Math.max(0, Math.floor(rawCount)) : 0;
+        if (!safeDate || !safeKind || (safeSeconds <= 0 && safeCount <= 0)) return null;
+
+        const id = `${safeDate}|${safeKind}|${safeItemId}`;
+        return withStore([STORES.libraryDailyStats], 'readwrite', async (stores) => {
+            const store = stores[STORES.libraryDailyStats];
+            const existing = await requestToPromise(store.get(id));
+            const record = {
+                id,
+                date: safeDate,
+                kind: safeKind,
+                itemId: safeItemId,
+                seconds: Math.max(0, Number(existing?.seconds) || 0) + safeSeconds,
+                count: Math.max(0, Number(existing?.count) || 0) + safeCount,
+                updatedAt: Date.now()
+            };
+            store.put(record);
+            return cloneDeep(record);
+        });
+    }
+
+    async function getMeta(key) {
+        const record = await getRecord(STORES.meta, key);
+        return record ? record.value : null;
+    }
+
+    async function setMeta(key, value) {
+        return putRecord(STORES.meta, { key, value });
+    }
+
+    async function getSetting(key, fallbackValue = null) {
+        const record = await getRecord(STORES.settings, key);
+        return record ? cloneDeep(record.value) : fallbackValue;
+    }
+
+    async function setSetting(key, value) {
+        return putRecord(STORES.settings, { key, value: sanitizePersistentValue(cloneDeep(value)) });
+    }
+
+    async function saveAssetFromDataUrl(assetId, dataUrl, extra = {}) {
+        if (!assetId || !isDataUrl(dataUrl)) return null;
+        revokeRuntimeBlobUrl(assetId);
+        const blob = dataUrlToBlob(dataUrl);
+        return withStore([STORES.assets], 'readwrite', (stores) => {
+            stores[STORES.assets].put({
+                id: assetId,
+                blob,
+                mimeType: blob.type || extra.mimeType || 'application/octet-stream',
+                createdAt: Date.now(),
+                updatedAt: Date.now(),
+                ...extra
+            });
+        }).then(() => assetId);
+    }
+
+    async function getAssetBlob(assetId) {
+        if (!assetId) return null;
+        const record = await getRecord(STORES.assets, assetId);
+        return record && record.blob ? record.blob : null;
+    }
+
+    async function getAssetUrl(assetId) {
+        if (!assetId) return null;
+        const existing = runtimeBlobUrls.get(assetId);
+        if (existing) {
+            touchRuntimeBlobUrl(assetId);
+            return existing;
+        }
+
+        const blob = await getAssetBlob(assetId);
+        if (!blob) return null;
+
+        const url = URL.createObjectURL(blob);
+        runtimeBlobUrls.set(assetId, url);
+        touchRuntimeBlobUrl(assetId);
+        pruneRuntimeAssetCache();
+        return url;
+    }
+
+    async function deleteAsset(assetId) {
+        if (!assetId) return;
+        revokeRuntimeBlobUrl(assetId);
+        return deleteRecord(STORES.assets, assetId);
+    }
+
+    function resolveMessageOrder(message, fallbackIndex = 0) {
+        if (message && Number.isFinite(Number(message.__messageOrder))) {
+            return Number(message.__messageOrder);
+        }
+        return Number.isFinite(Number(fallbackIndex)) ? Number(fallbackIndex) : 0;
+    }
+
+    function normalizeMessageRecord(friendId, msg, index) {
+        const safe = msg || {};
+        const resolvedOrder = resolveMessageOrder(safe, index);
+        return {
+            id: safe.id || `${String(friendId)}_msg_${safe.timestamp || Date.now()}_${resolvedOrder}`,
+            friendId: String(friendId),
+            order: resolvedOrder,
+            role: safe.role || 'assistant',
+            type: safe.type || 'text',
+            noticeKind: typeof safe.noticeKind === 'string' ? safe.noticeKind : '',
+            actorRole: safe.actorRole === 'user' || safe.actorRole === 'assistant' ? safe.actorRole : '',
+            actorName: typeof safe.actorName === 'string' ? safe.actorName : '',
+            content: typeof safe.content === 'string' ? safe.content : '',
+            text: typeof safe.text === 'string' ? safe.text : '',
+            transcript: typeof safe.transcript === 'string' ? safe.transcript : '',
+            stickerCategory: typeof safe.stickerCategory === 'string' ? safe.stickerCategory : '',
+            stickerName: typeof safe.stickerName === 'string' ? safe.stickerName : '',
+            stickerUrl: typeof safe.stickerUrl === 'string' ? safe.stickerUrl : '',
+            translation: typeof safe.translation === 'string' ? safe.translation : '',
+            showTranslation: !!safe.showTranslation,
+            replyTo: safe.replyTo || null,
+            offlineMode: !!safe.offlineMode,
+            offlineScene: typeof safe.offlineScene === 'string' ? safe.offlineScene : '',
+            offlineAction: typeof safe.offlineAction === 'string' ? safe.offlineAction : '',
+            timestamp: Number(safe.timestamp) || Date.now(),
+            amount: safe.amount,
+            description: safe.description,
+            targetName: safe.targetName,
+            payKind: safe.payKind,
+            speaker: safe.speaker,
+            senderName: safe.senderName,
+            senderAvatarUrl: safe.senderAvatarUrl,
+            packetMsg: safe.packetMsg,
+            claims: safe.claims,
+            packetCount: safe.packetCount,
+            packetType: safe.packetType,
+            allocations: safe.allocations,
+            status: safe.status,
+            duration: safe.duration,
+            callMessages: safe.callMessages,
+            isSelf: safe.isSelf,
+            statusText: safe.statusText,
+            senderId: safe.senderId,
+            apiRunId: safe.apiRunId,
+            rollbackSourceMessage: safe.rollbackSourceMessage || null,
+            paymentAction: safe.paymentAction,
+            payDirection: safe.payDirection,
+            payerName: safe.payerName,
+            payeeName: safe.payeeName,
+            receiverName: safe.receiverName,
+            cardTitle: safe.cardTitle,
+            payStatus: safe.payStatus,
+            claimed: !!safe.claimed,
+            imageSource: safe.imageSource,
+            fakeLinkData: safe.fakeLinkData && typeof safe.fakeLinkData === 'object'
+                ? sanitizePersistentValue(cloneDeep(safe.fakeLinkData))
+                : null,
+            packetId: safe.packetId,
+            totalAmount: safe.totalAmount,
+            claimRecords: safe.claimRecords,
+            claimedMemberIds: safe.claimedMemberIds,
+            speakerMemberId: safe.speakerMemberId,
+            payload: safe.payload || null
+        };
+    }
+
+    function denormalizeMessageRecord(row) {
+        const inferredRecallActorRole = row.noticeKind === 'message_recalled'
+            ? (String(row.content || '').trim().startsWith('你撤回了') ? 'user' : 'assistant')
+            : '';
+        return {
+            id: row.id,
+            role: row.role,
+            type: row.type,
+            noticeKind: row.noticeKind || '',
+            actorRole: row.actorRole === 'user' || row.actorRole === 'assistant'
+                ? row.actorRole
+                : inferredRecallActorRole,
+            actorName: row.actorName || '',
+            content: row.content,
+            text: row.text,
+            transcript: row.transcript,
+            stickerCategory: row.stickerCategory,
+            stickerName: row.stickerName,
+            stickerUrl: row.stickerUrl,
+            translation: row.translation,
+            showTranslation: row.showTranslation,
+            replyTo: row.replyTo,
+            offlineMode: !!row.offlineMode,
+            offlineScene: row.offlineScene || '',
+            offlineAction: row.offlineAction || '',
+            timestamp: row.timestamp,
+            amount: row.amount,
+            description: row.description,
+            targetName: row.targetName,
+            payKind: row.payKind,
+            speaker: row.speaker,
+            senderName: row.senderName,
+            senderAvatarUrl: row.senderAvatarUrl,
+            packetMsg: row.packetMsg,
+            claims: row.claims,
+            packetCount: row.packetCount,
+            packetType: row.packetType,
+            allocations: row.allocations,
+            status: row.status,
+            duration: row.duration,
+            callMessages: row.callMessages,
+            isSelf: row.isSelf,
+            statusText: row.statusText,
+            senderId: row.senderId,
+            apiRunId: row.apiRunId,
+            rollbackSourceMessage: row.rollbackSourceMessage || null,
+            paymentAction: row.paymentAction,
+            payDirection: row.payDirection,
+            payerName: row.payerName,
+            payeeName: row.payeeName,
+            receiverName: row.receiverName,
+            cardTitle: row.cardTitle,
+            payStatus: row.payStatus,
+            claimed: !!row.claimed,
+            imageSource: row.imageSource,
+            fakeLinkData: row.fakeLinkData && typeof row.fakeLinkData === 'object'
+                ? cloneDeep(row.fakeLinkData)
+                : null,
+            packetId: row.packetId,
+            totalAmount: row.totalAmount,
+            claimRecords: row.claimRecords,
+            claimedMemberIds: row.claimedMemberIds,
+            speakerMemberId: row.speakerMemberId,
+            payload: row.payload,
+            __messageOrder: Number(row.order) || 0
+        };
+    }
+
+    function buildAssetId(prefix, ownerId, fieldName) {
+        return `${prefix}_${String(ownerId)}_${String(fieldName)}`;
+    }
+
+    const FRIEND_ASSET_FIELDS = [
+        ['avatarUrl', 'avatarAssetId'],
+        ['chatBg', 'chatBgAssetId'],
+        ['momentsCover', 'momentsCoverAssetId']
+    ];
+
+    async function persistFriendAssets(friend) {
+        if (!friend) return friend;
+        const result = { ...friend };
+
+        for (const [urlField, assetField] of FRIEND_ASSET_FIELDS) {
+            const currentValue = result[urlField];
+            if (isDataUrl(currentValue)) {
+                const assetId = result[assetField] || buildAssetId('friend', result.id, urlField);
+                await saveAssetFromDataUrl(assetId, currentValue, {
+                    ownerType: 'im_friend',
+                    ownerId: String(result.id),
+                    field: urlField
+                });
+                result[assetField] = assetId;
+                result[urlField] = null;
+                continue;
+            }
+
+            if (result[assetField] && isBlobUrl(currentValue)) {
+                result[urlField] = null;
+            }
+        }
+
+        return result;
+    }
+
+    async function hydrateFriendAssets(friend) {
+        if (!friend) return friend;
+        const result = { ...friend };
+        const mappings = [
+            ['avatarAssetId', 'avatarUrl'],
+            ['chatBgAssetId', 'chatBg'],
+            ['momentsCoverAssetId', 'momentsCover']
+        ];
+
+        for (const [assetField, urlField] of mappings) {
+            if (result[assetField] && (!result[urlField] || isBlobUrl(result[urlField]))) {
+                result[urlField] = await getAssetUrl(result[assetField]);
+            }
+        }
+
+        return result;
+    }
+
+    function collectFriendAssetIds(friend) {
+        if (!friend) return [];
+        return Array.from(new Set(
+            FRIEND_ASSET_FIELDS
+                .map(([, assetField]) => friend[assetField] ? String(friend[assetField]) : null)
+                .filter(Boolean)
+        ));
+    }
+
+    function getExpectedFriendAssetIds(friend) {
+        if (!friend || friend.id == null) return [];
+        return Array.from(new Set(
+            FRIEND_ASSET_FIELDS
+                .map(([urlField, assetField]) => {
+                    if (friend[assetField]) return String(friend[assetField]);
+                    if (isDataUrl(friend[urlField])) return buildAssetId('friend', friend.id, urlField);
+                    return null;
+                })
+                .filter(Boolean)
+        ));
+    }
+
+    async function getFriendMetaById(friendId) {
+        if (friendId == null) return null;
+        return getRecord(STORES.imFriends, String(friendId));
+    }
+
+    async function deleteFriendMetaById(friendId) {
+        return deleteRecord(STORES.imFriends, String(friendId));
+    }
+
+    async function cleanupRemovedFriendAssets(previousFriend, nextFriend, retainedAssetIds = new Set()) {
+        if (!previousFriend) return;
+        const nextIds = new Set(getExpectedFriendAssetIds(nextFriend));
+        for (const assetId of collectFriendAssetIds(previousFriend)) {
+            if (nextIds.has(assetId) || retainedAssetIds.has(assetId)) continue;
+            await deleteAsset(assetId);
+        }
+    }
+
+    async function buildFriendMessageSummary(messages) {
+        const list = Array.isArray(messages) ? messages : [];
+        const lastMessage = list.length > 0 ? list[list.length - 1] : null;
+
+        let previewText = '';
+        if (lastMessage) {
+            if (lastMessage.type === 'image') {
+                previewText = lastMessage.text || '[图片]';
+            } else if (lastMessage.type === 'voice_message') {
+                previewText = `[语音] ${lastMessage.transcript || lastMessage.text || ''}`.trim();
+            } else if (lastMessage.type === 'sticker') {
+                previewText = `[表情] ${lastMessage.stickerName || lastMessage.text || ''}`.trim();
+            } else if (lastMessage.type === 'moment_forward') {
+                previewText = '[朋友圈]';
+            } else if (lastMessage.type === 'pay_transfer') {
+                previewText = `[转账] ${lastMessage.description || ''}`.trim();
+            } else if (lastMessage.type === 'group_red_packet') {
+                previewText = `[群红包] ${lastMessage.description || ''}`.trim();
+            } else if (lastMessage.type === 'system_notice') {
+                if (lastMessage.noticeKind === 'group_left') {
+                    previewText = '你已退出群聊';
+                } else if (lastMessage.noticeKind === 'group_rejoined') {
+                    previewText = '你重新进入群聊';
+                } else if (lastMessage.noticeKind === 'narration') {
+                    previewText = `[旁白] ${lastMessage.content || lastMessage.text || ''}`.trim();
+                } else {
+                    previewText = lastMessage.content || lastMessage.text || '';
+                }
+            } else {
+                previewText = lastMessage.content || lastMessage.text || '';
+            }
+        }
+
+        return {
+            lastMessagePreview: previewText || '',
+            lastMessageTimestamp: Number(lastMessage?.timestamp) || 0,
+            messageCount: list.length
+        };
+    }
+
+    function resolveFriendMessageSummary(friend, previousMeta = null) {
+        if (!friend || friend.messagesLoaded !== false) {
+            return buildFriendMessageSummary(friend ? friend.messages : []);
+        }
+
+        const preview = typeof friend.lastMessagePreview === 'string'
+            ? friend.lastMessagePreview
+            : typeof previousMeta?.lastMessagePreview === 'string'
+                ? previousMeta.lastMessagePreview
+                : '';
+
+        const timestampSource = friend.lastMessageTimestamp != null
+            ? friend.lastMessageTimestamp
+            : previousMeta?.lastMessageTimestamp;
+
+        const countSource = friend.messageCount != null
+            ? friend.messageCount
+            : previousMeta?.messageCount;
+
+        return {
+            lastMessagePreview: preview,
+            lastMessageTimestamp: Number(timestampSource) || 0,
+            messageCount: Number(countSource) || 0
+        };
+    }
+
+    async function saveFriendMeta(friend, options = {}) {
+        if (!friend || friend.id == null) return false;
+
+        const previousMeta = Object.prototype.hasOwnProperty.call(options, 'previousMeta')
+            ? options.previousMeta
+            : await getFriendMetaById(friend.id);
+
+        const prepared = await persistFriendAssets(friend);
+        const meta = { ...prepared };
+        const messageSummary = await resolveFriendMessageSummary(prepared, previousMeta);
+
+        delete meta.messages;
+
+        meta.id = String(meta.id);
+        meta.updatedAt = Date.now();
+        meta.lastMessagePreview = messageSummary.lastMessagePreview;
+        meta.lastMessageTimestamp = messageSummary.lastMessageTimestamp;
+        meta.messageCount = messageSummary.messageCount;
+        meta.unreadCount = Math.max(0, Number(prepared.unreadCount) || 0);
+
+        return putRecord(STORES.imFriends, sanitizePersistentValue(meta));
+    }
+
+    async function saveFriendMessage(friendId, message, order = 0) {
+        const safeFriendId = String(friendId);
+        const normalized = normalizeMessageRecord(safeFriendId, {
+            ...(message || {}),
+            __messageOrder: resolveMessageOrder(message, order)
+        }, order);
+
+        await putRecord(STORES.imMessages, normalized);
+        return normalized;
+    }
+
+    async function deleteFriendMessage(messageId) {
+        if (!messageId) return false;
+        await deleteRecord(STORES.imMessages, messageId);
+        return true;
+    }
+
+    async function deleteFriendMessages(messageIds) {
+        const safeIds = Array.isArray(messageIds) ? messageIds.map((id) => String(id)).filter(Boolean) : [];
+        if (safeIds.length === 0) return true;
+
+        await withStore([STORES.imMessages], 'readwrite', (stores) => {
+            safeIds.forEach((messageId) => stores[STORES.imMessages].delete(messageId));
+        });
+        return true;
+    }
+
+    async function saveFriendMessages(friendId, messages) {
+        const safeFriendId = String(friendId);
+        const list = Array.isArray(messages) ? messages : [];
+        const normalizedList = list.map((msg, idx) => normalizeMessageRecord(safeFriendId, msg, idx));
+        const nextMessageIds = new Set(normalizedList.map((msg) => String(msg.id)));
+
+        return withStore([STORES.imMessages], 'readwrite', async (stores) => {
+            const index = stores[STORES.imMessages].index('friendId');
+            const range = IDBKeyRange.only(safeFriendId);
+            const existingKeys = await requestToPromise(index.getAllKeys(range));
+
+            existingKeys.forEach((messageId) => {
+                if (!nextMessageIds.has(String(messageId))) {
+                    stores[STORES.imMessages].delete(messageId);
+                }
+            });
+
+            normalizedList.forEach((msg) => stores[STORES.imMessages].put(msg));
+        });
+    }
+
+    async function replaceFriendMessages(friendId, messages) {
+        return saveFriendMessages(friendId, messages);
+    }
+
+    async function saveFriend(friend, options = {}) {
+        if (!friend || friend.id == null) return false;
+        const previousFriend = await getFriendMetaById(friend.id);
+        const retainedAssetIds = new Set(getExpectedFriendAssetIds(friend));
+        const shouldPersistMessages = options.skipMessages !== true && friend.messagesLoaded !== false;
+
+        await saveFriendMeta(friend, { previousMeta: previousFriend });
+
+        if (shouldPersistMessages) {
+            await saveFriendMessages(friend.id, friend.messages || []);
+        }
+
+        await cleanupRemovedFriendAssets(previousFriend, friend, retainedAssetIds);
+        return true;
+    }
+
+    async function saveFriendMetaOnly(friend) {
+        return saveFriend(friend, { skipMessages: true });
+    }
+
+    async function deleteFriend(friendId) {
+        if (friendId == null) return false;
+        const previousFriend = await getFriendMetaById(friendId);
+        await saveFriendMessages(friendId, []);
+        await deleteFriendMetaById(friendId);
+        await cleanupRemovedFriendAssets(previousFriend, null);
+        return true;
+    }
+
+    async function loadMessagesByFriendId(friendId) {
+        const safeFriendId = String(friendId);
+        return withStore([STORES.imMessages], 'readonly', async (stores) => {
+            const messageStore = stores[STORES.imMessages];
+
+            if (hasStoreIndex(messageStore, 'friendId_order')) {
+                const orderIndex = messageStore.index('friendId_order');
+                const orderRange = IDBKeyRange.bound(
+                    [safeFriendId, Number.MIN_SAFE_INTEGER],
+                    [safeFriendId, Number.MAX_SAFE_INTEGER]
+                );
+                const orderedRows = await requestToPromise(orderIndex.getAll(orderRange));
+                return orderedRows.map(denormalizeMessageRecord);
+            }
+
+            const timeIndex = messageStore.index('friendId_timestamp');
+            const timeRange = IDBKeyRange.bound([safeFriendId, 0], [safeFriendId, Number.MAX_SAFE_INTEGER]);
+            const rows = await requestToPromise(timeIndex.getAll(timeRange));
+            return rows
+                .sort((a, b) => {
+                    if ((a.timestamp || 0) !== (b.timestamp || 0)) return (a.timestamp || 0) - (b.timestamp || 0);
+                    return (a.order || 0) - (b.order || 0);
+                })
+                .map(denormalizeMessageRecord);
+        });
+    }
+
+    async function saveFriends(friends) {
+        const safeFriends = Array.isArray(friends) ? friends.filter((friend) => friend && friend.id != null) : [];
+        const nextFriendIds = new Set(safeFriends.map((friend) => String(friend.id)));
+        const retainedAssetIds = new Set();
+        safeFriends.forEach((friend) => {
+            getExpectedFriendAssetIds(friend).forEach((assetId) => retainedAssetIds.add(assetId));
+        });
+
+        const existingFriends = await getAllRecords(STORES.imFriends);
+        const existingById = new Map(existingFriends.map((friend) => [String(friend.id), friend]));
+
+        for (const existingFriend of existingFriends) {
+            const friendId = String(existingFriend.id);
+            if (!nextFriendIds.has(friendId)) {
+                await deleteFriend(friendId);
+            }
+        }
+
+        for (const friend of safeFriends) {
+            const previousFriend = existingById.get(String(friend.id)) || null;
+            await saveFriendMeta(friend, { previousMeta: previousFriend });
+            if (friend.messagesLoaded !== false) {
+                await saveFriendMessages(friend.id, friend.messages || []);
+            }
+            await cleanupRemovedFriendAssets(previousFriend, friend, retainedAssetIds);
+        }
+
+        return true;
+    }
+
+    async function loadFriends() {
+        const allFriends = await getAllRecords(STORES.imFriends);
+        const hydrated = await Promise.all(
+            allFriends.map(async (friend) => {
+                const next = await hydrateFriendAssets(friend);
+                next.messages = [];
+                next.messagesLoaded = false;
+                next.lastMessagePreview = typeof next.lastMessagePreview === 'string' ? next.lastMessagePreview : '';
+                next.lastMessageTimestamp = Number(next.lastMessageTimestamp) || 0;
+                next.messageCount = Number(next.messageCount) || 0;
+                next.unreadCount = Math.max(0, Number(next.unreadCount) || 0);
+                return next;
+            })
+        );
+
+        hydrated.sort((a, b) => {
+            const aPinned = a.isPinned ? 1 : 0;
+            const bPinned = b.isPinned ? 1 : 0;
+            if (aPinned !== bPinned) return bPinned - aPinned;
+            const aTime = Number(a.lastMessageTimestamp) || 0;
+            const bTime = Number(b.lastMessageTimestamp) || 0;
+            if (aTime !== bTime) return bTime - aTime;
+            return String(a.id).localeCompare(String(b.id));
+        });
+
+        return hydrated;
+    }
+
+    async function persistMomentAssets(moment) {
+        if (!moment) return moment;
+        const result = { ...moment };
+
+        if (isDataUrl(result.avatar)) {
+            const assetId = result.avatarAssetId || buildAssetId('moment_avatar', result.id, 'avatar');
+            await saveAssetFromDataUrl(assetId, result.avatar, {
+                ownerType: 'im_moment',
+                ownerId: String(result.id),
+                field: 'avatar'
+            });
+            result.avatarAssetId = assetId;
+            result.avatar = null;
+        } else if (result.avatarAssetId && isBlobUrl(result.avatar)) {
+            result.avatar = null;
+        }
+
+        if (Array.isArray(result.images)) {
+            const nextImages = [];
+            for (let i = 0; i < result.images.length; i += 1) {
+                const item = result.images[i];
+                if (typeof item === 'string' && isDataUrl(item)) {
+                    const assetId = buildAssetId('moment_img', result.id, i);
+                    await saveAssetFromDataUrl(assetId, item, {
+                        ownerType: 'im_moment',
+                        ownerId: String(result.id),
+                        field: 'images',
+                        index: i
+                    });
+                    nextImages.push({ assetId, desc: '' });
+                } else if (item && typeof item === 'object' && isDataUrl(item.src)) {
+                    const assetId = item.assetId || buildAssetId('moment_img', result.id, i);
+                    await saveAssetFromDataUrl(assetId, item.src, {
+                        ownerType: 'im_moment',
+                        ownerId: String(result.id),
+                        field: 'images',
+                        index: i
+                    });
+                    nextImages.push({ ...item, assetId, src: null });
+                } else if (item && typeof item === 'object' && item.assetId && isBlobUrl(item.src)) {
+                    nextImages.push({ ...item, src: null });
+                } else {
+                    nextImages.push(item);
+                }
+            }
+            result.images = nextImages;
+        }
+
+        return result;
+    }
+
+    async function hydrateMomentAssets(moment) {
+        if (!moment) return moment;
+        const result = { ...moment };
+
+        if (result.avatarAssetId && (!result.avatar || isBlobUrl(result.avatar))) {
+            result.avatar = await getAssetUrl(result.avatarAssetId);
+        }
+
+        if (Array.isArray(result.images)) {
+            const nextImages = [];
+            for (const item of result.images) {
+                if (item && typeof item === 'object' && item.assetId && (!item.src || isBlobUrl(item.src))) {
+                    nextImages.push({ ...item, src: await getAssetUrl(item.assetId) });
+                } else {
+                    nextImages.push(item);
+                }
+            }
+            result.images = nextImages;
+        }
+
+        return result;
+    }
+
+    function collectMomentAssetIds(moment) {
+        if (!moment) return [];
+        const ids = [];
+        if (moment.avatarAssetId) ids.push(String(moment.avatarAssetId));
+        if (Array.isArray(moment.images)) {
+            moment.images.forEach((item) => {
+                if (item && typeof item === 'object' && item.assetId) {
+                    ids.push(String(item.assetId));
+                }
+            });
+        }
+        return Array.from(new Set(ids));
+    }
+
+    function getExpectedMomentAssetIds(moment) {
+        if (!moment || moment.id == null) return [];
+        const ids = [];
+
+        if (moment.avatarAssetId) {
+            ids.push(String(moment.avatarAssetId));
+        } else if (isDataUrl(moment.avatar)) {
+            ids.push(buildAssetId('moment_avatar', moment.id, 'avatar'));
+        }
+
+        if (Array.isArray(moment.images)) {
+            moment.images.forEach((item, index) => {
+                if (item && typeof item === 'object' && item.assetId) {
+                    ids.push(String(item.assetId));
+                    return;
+                }
+                if (typeof item === 'string' && isDataUrl(item)) {
+                    ids.push(buildAssetId('moment_img', moment.id, index));
+                    return;
+                }
+                if (item && typeof item === 'object' && isDataUrl(item.src)) {
+                    ids.push(String(item.assetId || buildAssetId('moment_img', moment.id, index)));
+                }
+            });
+        }
+
+        return Array.from(new Set(ids));
+    }
+
+    async function getMomentById(momentId) {
+        if (momentId == null) return null;
+        return getRecord(STORES.imMoments, momentId);
+    }
+
+    async function cleanupRemovedMomentAssets(previousMoment, nextMoment, retainedAssetIds = new Set()) {
+        if (!previousMoment) return;
+        const nextIds = new Set(getExpectedMomentAssetIds(nextMoment));
+        for (const assetId of collectMomentAssetIds(previousMoment)) {
+            if (nextIds.has(assetId) || retainedAssetIds.has(assetId)) continue;
+            await deleteAsset(assetId);
+        }
+    }
+
+    async function saveMoment(moment) {
+        if (!moment || moment.id == null) return false;
+        const previousMoment = await getMomentById(moment.id);
+        const retainedAssetIds = new Set(getExpectedMomentAssetIds(moment));
+        const prepared = await persistMomentAssets(moment);
+
+        await putRecord(STORES.imMoments, {
+            ...prepared,
+            id: prepared.id,
+            updatedAt: Date.now()
+        });
+
+        await cleanupRemovedMomentAssets(previousMoment, moment, retainedAssetIds);
+        return true;
+    }
+
+    async function deleteMoment(momentId) {
+        if (momentId == null) return false;
+        const existingMoments = await getAllRecords(STORES.imMoments);
+        const matchingMoments = existingMoments.filter((moment) => String(moment?.id) === String(momentId));
+        const directMoment = await getMomentById(momentId);
+        const momentsToCleanup = [];
+        const keysToDelete = new Set([momentId]);
+
+        if (directMoment) {
+            momentsToCleanup.push(directMoment);
+            keysToDelete.add(directMoment.id);
+        }
+
+        matchingMoments.forEach((moment) => {
+            if (!moment) return;
+            momentsToCleanup.push(moment);
+            keysToDelete.add(moment.id);
+        });
+
+        for (const key of keysToDelete) {
+            await deleteRecord(STORES.imMoments, key);
+        }
+
+        const cleanedIds = new Set();
+        for (const moment of momentsToCleanup) {
+            const cleanupKey = `${typeof moment.id}:${String(moment.id)}`;
+            if (cleanedIds.has(cleanupKey)) continue;
+            cleanedIds.add(cleanupKey);
+            await cleanupRemovedMomentAssets(moment, null);
+        }
+        return true;
+    }
+
+    async function saveMoments(moments) {
+        const safeMoments = Array.isArray(moments) ? moments : [];
+        const existingMoments = await getAllRecords(STORES.imMoments);
+        const nextMomentIds = new Set(safeMoments.map((moment) => String(moment.id)));
+        const retainedAssetIds = new Set();
+
+        safeMoments.forEach((moment) => {
+            getExpectedMomentAssetIds(moment).forEach((assetId) => retainedAssetIds.add(assetId));
+        });
+
+        for (const existingMoment of existingMoments) {
+            if (!nextMomentIds.has(String(existingMoment.id))) {
+                await deleteMoment(existingMoment.id);
+            }
+        }
+
+        for (const rawMoment of safeMoments) {
+            await saveMoment(rawMoment);
+        }
+
+        return true;
+    }
+
+    async function loadMoments() {
+        const allMoments = await getAllRecords(STORES.imMoments);
+        const hydrated = await Promise.all(allMoments.map((moment) => hydrateMomentAssets(moment)));
+        hydrated.sort((a, b) => (b.time || 0) - (a.time || 0));
+        return hydrated;
+    }
+
+    async function saveMomentMessages(messages) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const normalizedMessages = safeMessages.map((msg) => ({
+            ...msg,
+            id: msg?.id || `moment_msg_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`
+        }));
+        const nextIds = new Set(normalizedMessages.map((msg) => String(msg.id)));
+
+        return withStore([STORES.imMomentMessages], 'readwrite', async (stores) => {
+            const existing = await requestToPromise(stores[STORES.imMomentMessages].getAll());
+            const existingById = new Map((Array.isArray(existing) ? existing : []).map((item) => [String(item.id), item]));
+
+            existingById.forEach((item, itemId) => {
+                if (!nextIds.has(itemId)) {
+                    stores[STORES.imMomentMessages].delete(item.id);
+                }
+            });
+
+            normalizedMessages.forEach((msg) => {
+                stores[STORES.imMomentMessages].put(msg);
+            });
+        });
+    }
+
+    async function loadMomentMessages() {
+        const rows = await getAllRecords(STORES.imMomentMessages);
+        return Array.isArray(rows) ? rows.sort((a, b) => (b.time || 0) - (a.time || 0)) : [];
+    }
+
+    async function saveStickers(stickers) {
+        const safeStickers = Array.isArray(stickers)
+            ? stickers.filter((category) => category && category.categoryName != null)
+            : [];
+        const normalizedStickers = safeStickers.map((category) => ({
+            ...category,
+            categoryName: String(category.categoryName)
+        }));
+        const nextIds = new Set(normalizedStickers.map((category) => category.categoryName));
+
+        return withStore([STORES.imStickers], 'readwrite', async (stores) => {
+            const existing = await requestToPromise(stores[STORES.imStickers].getAll());
+            const existingById = new Map((Array.isArray(existing) ? existing : []).map((item) => [String(item.categoryName), item]));
+
+            existingById.forEach((item, categoryName) => {
+                if (!nextIds.has(categoryName)) {
+                    stores[STORES.imStickers].delete(item.categoryName);
+                }
+            });
+
+            normalizedStickers.forEach((category) => stores[STORES.imStickers].put(category));
+        });
+    }
+
+    async function loadStickers() {
+        return getAllRecords(STORES.imStickers);
+    }
+
+    async function saveMomentsCover(dataUrlOrUrl) {
+        if (!dataUrlOrUrl) {
+            const oldAssetId = await getMeta(META_KEYS.imMomentsCoverAssetId);
+            if (oldAssetId && typeof oldAssetId === 'string') await deleteAsset(oldAssetId);
+            await setMeta(META_KEYS.imMomentsCoverAssetId, null);
+            return null;
+        }
+
+        if (isDataUrl(dataUrlOrUrl)) {
+            const assetId = 'im_moments_cover_me';
+            await saveAssetFromDataUrl(assetId, dataUrlOrUrl, {
+                ownerType: 'im_moments',
+                ownerId: 'me',
+                field: 'momentsCover'
+            });
+            await setMeta(META_KEYS.imMomentsCoverAssetId, assetId);
+            return assetId;
+        }
+
+        await setMeta(META_KEYS.imMomentsCoverAssetId, { externalUrl: dataUrlOrUrl });
+        return dataUrlOrUrl;
+    }
+
+    async function loadMomentsCoverUrl() {
+        const assetMeta = await getMeta(META_KEYS.imMomentsCoverAssetId);
+        if (!assetMeta) return null;
+        if (typeof assetMeta === 'object' && assetMeta.externalUrl) return assetMeta.externalUrl;
+        if (typeof assetMeta === 'string') return getAssetUrl(assetMeta);
+        return null;
+    }
+
+    function createDefaultAppState() {
+        return {
+            youtube: {
+                channelState: {
+                    bannerUrl: null,
+                    url: '',
+                    boundWorldBookIds: [],
+                    systemPrompt: '',
+                    summaryPrompt: '',
+                    groupChatPrompt: '',
+                    vodPrompt: '',
+                    postPrompt: '',
+                    liveSummaryPrompt: '',
+                    liveSummaries: [],
+                    groupChatHistory: [],
+                    cachedTrendingLive: null,
+                    cachedTrendingSub: null,
+                    activeUserLive: null,
+                    pastVideos: []
+                },
+                subscriptions: [],
+                userState: null
+            },
+            tiktok: {
+                profile: {
+                    name: 'User',
+                    handle: 'user123',
+                    avatar: null,
+                    status: '思考中...',
+                    bio: '点击添加个人简介',
+                    persona: '',
+                    following: 0,
+                    followers: 0,
+                    likes: 0,
+                    posts: []
+                },
+                chars: [],
+                videos: [
+                    {
+                        id: 'v_default_1',
+                        authorId: 'user_default_1',
+                        authorName: 'Mew',
+                        desc: '周末的正确打开方式，当然是和猫猫一起虚度光阴啦 🐈 #猫咪日常 #周末vlog',
+                        sceneText: '阳光穿过窗纱洒在木地板上，一只橘猫正四仰八叉地躺在阳光里打呼噜。镜头缓慢拉近，画面色调温暖治愈，配着慵懒的 lofi 音乐。',
+                        likes: 12543,
+                        commentsCount: 432,
+                        shares: 128,
+                        isLiked: false,
+                        comments: [
+                            { authorName: 'Cici', text: '好治愈的画面，想去你家偷猫！', likes: 231 },
+                            { authorName: '鱼蛋', text: '这猫怎么长得跟人一样哈哈哈', likes: 89 }
+                        ]
+                    },
+                    {
+                        id: 'v_default_2',
+                        authorId: 'user_default_2',
+                        authorName: 'CityWalker',
+                        desc: '下雨天的城市，也有别样的浪漫 🌧️ 📸 #扫街 #下雨天 #摄影',
+                        sceneText: '镜头跟随着一把透明雨伞，穿梭在霓虹闪烁的积水街道。水面倒映着红蓝色的灯牌，雨滴砸在伞面上发出清脆的白噪音，氛围感拉满。',
+                        likes: 8762,
+                        commentsCount: 215,
+                        shares: 342,
+                        isLiked: false,
+                        comments: [
+                            { authorName: '光影', text: '色彩太棒了，求个滤镜参数', likes: 156 },
+                            { authorName: 'Jay', text: '喜欢下雨天的人，内心都很温柔吧', likes: 44 }
+                        ]
+                    }
+                ],
+                dms: []
+            },
+            pay: {
+                transactions: [],
+                balance: 1000
+            },
+            spotify: {
+                customName: '',
+                avatarUrl: '',
+                backgroundUrl: ''
+            },
+            diary: {
+                notes: []
+            },
+            maps: {
+                mapsStore: [],
+                activeMapId: null,
+                friendPositionsStore: {}
+            },
+            desktop: {},
+            bstage: {},
+            x: {
+                xData: {
+                    name: 'User',
+                    handle: '@user',
+                    bio: '点击编辑资料添加简介',
+                    location: '',
+                    following: '0',
+                    followers: '0',
+                    persona: '',
+                    avatar: '',
+                    banner: ''
+                },
+                xTopics: [],
+                xHomeBannerUrl: '',
+                xSearchBannerUrl: ''
+            },
+            imessage: {
+                uiState: {
+                    cssPresets: []
+                }
+            }
+        };
+    }
+
+    function ensureAppStateShape(rawState = {}) {
+        const defaults = createDefaultAppState();
+        const safeState = rawState && typeof rawState === 'object' ? rawState : {};
+
+        return {
+            ...defaults,
+            ...safeState,
+            youtube: {
+                ...defaults.youtube,
+                ...(safeState.youtube && typeof safeState.youtube === 'object' ? safeState.youtube : {})
+            },
+            tiktok: {
+                ...defaults.tiktok,
+                ...(safeState.tiktok && typeof safeState.tiktok === 'object' ? safeState.tiktok : {})
+            },
+            pay: {
+                ...defaults.pay,
+                ...(safeState.pay && typeof safeState.pay === 'object' ? safeState.pay : {})
+            },
+            spotify: {
+                ...defaults.spotify,
+                ...(safeState.spotify && typeof safeState.spotify === 'object' ? safeState.spotify : {})
+            },
+            diary: {
+                ...defaults.diary,
+                ...(safeState.diary && typeof safeState.diary === 'object' ? safeState.diary : {})
+            },
+            maps: {
+                ...defaults.maps,
+                ...(safeState.maps && typeof safeState.maps === 'object' ? safeState.maps : {})
+            },
+            desktop: safeState.desktop && typeof safeState.desktop === 'object' ? safeState.desktop : defaults.desktop,
+            bstage: safeState.bstage && typeof safeState.bstage === 'object' ? safeState.bstage : defaults.bstage,
+            x: {
+                ...defaults.x,
+                ...(safeState.x && typeof safeState.x === 'object' ? safeState.x : {}),
+                xData: {
+                    ...defaults.x.xData,
+                    ...(safeState.x && safeState.x.xData && typeof safeState.x.xData === 'object'
+                        ? safeState.x.xData
+                        : {})
+                },
+                xTopics: Array.isArray(safeState.x?.xTopics) ? safeState.x.xTopics : defaults.x.xTopics,
+                xHomeBannerUrl: typeof safeState.x?.xHomeBannerUrl === 'string'
+                    ? safeState.x.xHomeBannerUrl
+                    : defaults.x.xHomeBannerUrl,
+                xSearchBannerUrl: typeof safeState.x?.xSearchBannerUrl === 'string'
+                    ? safeState.x.xSearchBannerUrl
+                    : defaults.x.xSearchBannerUrl
+            },
+            imessage: {
+                ...defaults.imessage,
+                ...(safeState.imessage && typeof safeState.imessage === 'object' ? safeState.imessage : {}),
+                uiState: {
+                    ...defaults.imessage.uiState,
+                    ...(safeState.imessage && safeState.imessage.uiState && typeof safeState.imessage.uiState === 'object'
+                        ? safeState.imessage.uiState
+                        : {})
+                }
+            }
+        };
+    }
+
+    function normalizeGlobalPayload(payload = {}) {
+        const safe = payload && typeof payload === 'object' ? payload : {};
+        const themeState = safe.themeState && typeof safe.themeState === 'object' ? safe.themeState : null;
+        if (themeState) {
+            themeState.imessageChatCssEnabled = !!themeState.imessageChatCssEnabled;
+            themeState.imessageChatCss = typeof themeState.imessageChatCss === 'string' ? themeState.imessageChatCss : '';
+            if (Array.isArray(themeState.apps)) {
+                themeState.apps = themeState.apps.map(app => {
+                    if (!app || typeof app !== 'object') return app;
+                    if (app.id === 'app-icon-8' && app.name === 'Spotify') {
+                        return { ...app, name: 'Loves' };
+                    }
+                    return app;
+                });
+            }
+        }
+
+        return {
+            storageSchemaVersion: STORAGE_SCHEMA_VERSION,
+            userState: safe.userState && typeof safe.userState === 'object'
+                ? {
+                    name: safe.userState.name || '',
+                    phone: safe.userState.phone || '',
+                    persona: safe.userState.persona || '',
+                    avatarUrl: safe.userState.avatarUrl || null
+                }
+                : {
+                    name: '',
+                    phone: '',
+                    persona: '',
+                    avatarUrl: null
+                },
+            accounts: Array.isArray(safe.accounts) ? safe.accounts : [],
+            currentAccountId: safe.currentAccountId ?? null,
+            apiConfig: safe.apiConfig && typeof safe.apiConfig === 'object'
+                ? {
+                    endpoint: typeof safe.apiConfig.endpoint === 'string' ? safe.apiConfig.endpoint : '',
+                    apiKey: typeof safe.apiConfig.apiKey === 'string' ? safe.apiConfig.apiKey : '',
+                    model: typeof safe.apiConfig.model === 'string' ? safe.apiConfig.model : '',
+                    temperature: Number.isFinite(parseFloat(safe.apiConfig.temperature))
+                        ? parseFloat(safe.apiConfig.temperature)
+                        : 0.7
+                }
+                : { endpoint: '', apiKey: '', model: '', temperature: 0.7 },
+            apiPresets: Array.isArray(safe.apiPresets) ? safe.apiPresets : [],
+            fetchedModels: Array.isArray(safe.fetchedModels) ? safe.fetchedModels : [],
+            assistiveBallSettings: safe.assistiveBallSettings && typeof safe.assistiveBallSettings === 'object'
+                ? {
+                    enabled: !!safe.assistiveBallSettings.enabled,
+                    x: Number.isFinite(parseFloat(safe.assistiveBallSettings.x))
+                        ? parseFloat(safe.assistiveBallSettings.x)
+                        : null,
+                    y: Number.isFinite(parseFloat(safe.assistiveBallSettings.y))
+                        ? parseFloat(safe.assistiveBallSettings.y)
+                        : null,
+                    opacity: Number.isFinite(parseFloat(safe.assistiveBallSettings.opacity))
+                        ? Math.max(0.2, Math.min(1, parseFloat(safe.assistiveBallSettings.opacity) > 1
+                            ? parseFloat(safe.assistiveBallSettings.opacity) / 100
+                            : parseFloat(safe.assistiveBallSettings.opacity)))
+                        : 0.72
+                }
+                : { enabled: false, x: null, y: null, opacity: 0.72 },
+            themeState: themeState || {
+                bgUrl: null,
+                fontMode: 'preset',
+                fontPresetKey: 'system-default',
+            fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif',
+            fontCssName: '',
+            fontSize: 16,
+                fontSources: {
+                    woff2: '',
+                    woff: '',
+                    ttf: ''
+                },
+                savedFontPresets: [],
+                imessageChatCssEnabled: false,
+                imessageChatCss: '',
+                apps: [
+                    { id: 'app-icon-1', name: 'Pay', icon: null },
+                    { id: 'app-icon-2', name: 'TikTok', icon: null },
+                    { id: 'app-icon-3', name: 'b.stage', icon: null },
+                    { id: 'app-icon-4', name: 'X', icon: null },
+                    { id: 'app-icon-5', name: 'Shop', icon: null },
+            { id: 'app-icon-6', name: 'call', icon: null },
+                    { id: 'app-icon-7', name: 'Netflix', icon: null },
+                    { id: 'app-icon-8', name: 'Loves', icon: null },
+                    { id: 'dock-icon-settings', name: '设置', icon: null },
+                    { id: 'dock-icon-imessage', name: '信息', icon: null },
+                    { id: 'dock-icon-youtube', name: 'YouTube', icon: null }
+                ]
+            },
+            wbGroups: Array.isArray(safe.wbGroups) ? safe.wbGroups : [],
+            worldBooks: Array.isArray(safe.worldBooks) ? safe.worldBooks : [],
+            appState: ensureAppStateShape(safe.appState)
+        };
+    }
+
+    async function saveGlobalData(payload = {}) {
+        const normalized = normalizeGlobalPayload(payload);
+
+        await Promise.all([
+            setSetting('userState', normalized.userState),
+            setSetting('currentAccountId', normalized.currentAccountId),
+            setSetting('apiConfig', normalized.apiConfig),
+            setSetting('apiPresets', normalized.apiPresets),
+            setSetting('fetchedModels', normalized.fetchedModels),
+            setSetting('assistiveBallSettings', normalized.assistiveBallSettings),
+            setSetting('themeState', normalized.themeState),
+            setSetting('wbGroups', normalized.wbGroups),
+            setSetting('worldBooks', normalized.worldBooks),
+            setSetting('appState', normalized.appState),
+            putRecord(STORES.accounts, { id: '__all__', value: cloneDeep(normalized.accounts) }),
+            setMeta(META_KEYS.schemaVersion, STORAGE_SCHEMA_VERSION)
+        ]);
+
+        return true;
+    }
+
+    async function loadGlobalData() {
+        const [
+            storedSchemaVersion,
+            userState,
+            currentAccountId,
+            apiConfig,
+            apiPresets,
+            fetchedModels,
+            assistiveBallSettings,
+            themeState,
+            wbGroups,
+            worldBooks,
+            appState,
+            accountsRecord
+        ] = await Promise.all([
+            getMeta(META_KEYS.schemaVersion),
+            getSetting('userState', null),
+            getSetting('currentAccountId', null),
+            getSetting('apiConfig', null),
+            getSetting('apiPresets', []),
+            getSetting('fetchedModels', []),
+            getSetting('assistiveBallSettings', { enabled: false }),
+            getSetting('themeState', null),
+            getSetting('wbGroups', []),
+            getSetting('worldBooks', []),
+            getSetting('appState', createDefaultAppState()),
+            getRecord(STORES.accounts, '__all__')
+        ]);
+
+        return {
+            ...normalizeGlobalPayload({
+                userState,
+                accounts: accountsRecord && Array.isArray(accountsRecord.value) ? accountsRecord.value : [],
+                currentAccountId,
+                apiConfig,
+                apiPresets,
+                fetchedModels,
+                assistiveBallSettings,
+                themeState,
+                wbGroups,
+                worldBooks,
+                appState
+            }),
+            storageSchemaVersion: Number(storedSchemaVersion) || 0
+        };
+    }
+
+    async function exportAllData(progressCallback) {
+        if (progressCallback) progressCallback({ message: '准备导出数据...', progress: 0 });
+        
+        const chunks = [];
+        chunks.push(`{"version": ${STORAGE_SCHEMA_VERSION}, "exportedAt": ${Date.now()}, "stores": {`);
+
+        const storeNames = Object.values(STORES);
+        const totalStores = storeNames.length;
+        
+        for (let i = 0; i < totalStores; i++) {
+            const storeName = storeNames[i];
+            
+            const baseProgress = Math.floor((i / totalStores) * 90);
+            if (progressCallback) progressCallback({ message: `正在读取: ${storeName}`, progress: baseProgress });
+            
+            chunks.push(`"${storeName}": [`);
+            
+            const records = await getAllRecords(storeName);
+            const totalRecords = records.length;
+            
+            for (let j = 0; j < totalRecords; j++) {
+                const record = records[j];
+                
+                if (storeName === STORES.assets && record && record.blob) {
+                    try {
+                        const dataUrl = await blobToDataUrl(record.blob);
+                        record.dataUrl = dataUrl;
+                        record.blob = undefined;
+                    } catch (err) {
+                        console.warn(`Failed to convert asset ${record.id} to dataUrl`, err);
+                    }
+                }
+                
+                chunks.push(JSON.stringify(record));
+                if (j < totalRecords - 1) {
+                    chunks.push(',');
+                }
+                
+                if ((storeName === STORES.assets || storeName === STORES.imMessages) && j > 0 && j % 20 === 0 && progressCallback) {
+                    const stepProgress = Math.floor((j / totalRecords) * (90 / totalStores));
+                    progressCallback({ message: `处理表 ${storeName} (${j}/${totalRecords})...`, progress: baseProgress + stepProgress });
+                }
+            }
+            
+            chunks.push(']');
+            if (i < totalStores - 1) {
+                chunks.push(',');
+            }
+        }
+        
+        chunks.push(`}}`);
+        
+        if (progressCallback) progressCallback({ message: '正在生成备份文件...', progress: 95 });
+        
+        return new Blob(chunks, { type: 'application/json' });
+    }
+
+    async function importAllData(payload = {}, progressCallback) {
+        if (progressCallback) progressCallback({ message: '开始清理旧数据...', progress: 0 });
+        
+        await clearAllData();
+        
+        const isNewFormat = !!payload.stores;
+        
+        if (isNewFormat) {
+            const storesData = payload.stores || {};
+            if (progressCallback) progressCallback({ message: '开始恢复数据...', progress: 10 });
+            
+            let globalDataForLocalStorage = {};
+            const storeNames = Object.keys(storesData);
+            const totalStores = storeNames.length;
+            
+            for (let i = 0; i < totalStores; i++) {
+                const storeName = storeNames[i];
+                const records = storesData[storeName];
+                if (!Array.isArray(records) || records.length === 0) continue;
+
+                const baseProgress = 10 + Math.floor((i / totalStores) * 80);
+                if (progressCallback) progressCallback({ message: `正在恢复: ${storeName}...`, progress: baseProgress });
+
+                await withStore([storeName], 'readwrite', (stores) => {
+                    const store = stores[storeName];
+                    records.forEach((record) => {
+                        if (storeName === STORES.assets && record.dataUrl) {
+                            try {
+                                const blob = dataUrlToBlob(record.dataUrl);
+                                record.blob = blob;
+                                record.dataUrl = undefined;
+                            } catch (err) {
+                                console.warn(`Failed to restore asset ${record.id}`, err);
+                            }
+                        }
+                        store.put(record);
+                    });
+                });
+                
+                if (storeName === STORES.settings) {
+                    records.forEach(record => {
+                        if (record && record.key) {
+                            globalDataForLocalStorage[record.key] = record.value;
+                        }
+                    });
+                }
+            }
+            
+            if (progressCallback) progressCallback({ message: '同步本地缓存...', progress: 95 });
+
+            try {
+                const lsKeys = {
+                    'userState': 'u2_userState',
+                    'apiConfig': 'u2_apiConfig',
+                    'minimaxConfig': 'u2_minimaxConfig',
+                    'apiPresets': 'u2_apiPresets',
+                    'fetchedModels': 'u2_fetchedModels',
+                    'assistiveBallSettings': 'u2_assistiveBallSettings',
+                    'themeState': 'u2_themeState',
+                    'currentAccountId': 'u2_currentAccountId'
+                };
+                for (const [memKey, lsKey] of Object.entries(lsKeys)) {
+                    if (globalDataForLocalStorage[memKey] !== undefined) {
+                        if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                            StorageManager.save(lsKey, globalDataForLocalStorage[memKey]);
+                        } else {
+                            localStorage.setItem(lsKey, JSON.stringify(globalDataForLocalStorage[memKey]));
+                        }
+                    }
+                }
+                if (storesData[STORES.accounts]) {
+                    const accountsRecord = storesData[STORES.accounts].find(r => r.id === '__all__');
+                    if (accountsRecord && accountsRecord.value) {
+                        if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                            StorageManager.save('u2_accounts', accountsRecord.value);
+                        } else {
+                            localStorage.setItem('u2_accounts', JSON.stringify(accountsRecord.value));
+                        }
+                    }
+                }
+            } catch (e) {
+                console.warn('Failed to sync imported data to localStorage:', e);
+            }
+        } else {
+            const safe = payload && typeof payload === 'object' ? payload : {};
+            const globalData = safe.globalData || {};
+            await saveGlobalData(globalData);
+
+            try {
+                if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                    if (globalData.userState) StorageManager.save('u2_userState', globalData.userState);
+                    if (globalData.apiConfig) StorageManager.save('u2_apiConfig', globalData.apiConfig);
+                    if (globalData.minimaxConfig) StorageManager.save('u2_minimaxConfig', globalData.minimaxConfig);
+                    if (globalData.apiPresets) StorageManager.save('u2_apiPresets', globalData.apiPresets);
+                    if (globalData.fetchedModels) StorageManager.save('u2_fetchedModels', globalData.fetchedModels);
+                    if (globalData.assistiveBallSettings) StorageManager.save('u2_assistiveBallSettings', globalData.assistiveBallSettings);
+                    if (globalData.accounts) StorageManager.save('u2_accounts', globalData.accounts);
+                    if (globalData.currentAccountId !== undefined) StorageManager.save('u2_currentAccountId', globalData.currentAccountId);
+                    if (globalData.themeState) StorageManager.save('u2_themeState', globalData.themeState);
+                } else {
+                    if (globalData.userState) localStorage.setItem('u2_userState', JSON.stringify(globalData.userState));
+                    if (globalData.apiConfig) localStorage.setItem('u2_apiConfig', JSON.stringify(globalData.apiConfig));
+                    if (globalData.minimaxConfig) localStorage.setItem('u2_minimaxConfig', JSON.stringify(globalData.minimaxConfig));
+                    if (globalData.apiPresets) localStorage.setItem('u2_apiPresets', JSON.stringify(globalData.apiPresets));
+                    if (globalData.fetchedModels) localStorage.setItem('u2_fetchedModels', JSON.stringify(globalData.fetchedModels));
+                    if (globalData.assistiveBallSettings) localStorage.setItem('u2_assistiveBallSettings', JSON.stringify(globalData.assistiveBallSettings));
+                    if (globalData.accounts) localStorage.setItem('u2_accounts', JSON.stringify(globalData.accounts));
+                    if (globalData.currentAccountId !== undefined) localStorage.setItem('u2_currentAccountId', JSON.stringify(globalData.currentAccountId));
+                    if (globalData.themeState) localStorage.setItem('u2_themeState', JSON.stringify(globalData.themeState));
+                }
+            } catch (e) {
+                console.warn('Failed to sync imported data to localStorage:', e);
+            }
+
+            const imessage = safe.imessage && typeof safe.imessage === 'object' ? safe.imessage : {};
+            const friends = Array.isArray(imessage.friends) ? imessage.friends : [];
+            if (friends.length > 0) {
+                await withStore([STORES.imFriends], 'readwrite', (stores) => {
+                    friends.forEach(f => stores[STORES.imFriends].put(f));
+                });
+            }
+            
+            const messages = Array.isArray(imessage.messages) ? imessage.messages : [];
+            if (messages.length > 0) {
+                await withStore([STORES.imMessages], 'readwrite', (stores) => {
+                    messages.forEach(msg => stores[STORES.imMessages].put(msg));
+                });
+            }
+
+            const moments = Array.isArray(imessage.moments) ? imessage.moments : [];
+            if (moments.length > 0) {
+                await withStore([STORES.imMoments], 'readwrite', (stores) => {
+                    moments.forEach(m => stores[STORES.imMoments].put(m));
+                });
+            }
+
+            const momentMessages = Array.isArray(imessage.momentMessages) ? imessage.momentMessages : [];
+            if (momentMessages.length > 0) {
+                await withStore([STORES.imMomentMessages], 'readwrite', (stores) => {
+                    momentMessages.forEach(m => stores[STORES.imMomentMessages].put(m));
+                });
+            }
+
+            const stickers = Array.isArray(imessage.stickers) ? imessage.stickers : [];
+            if (stickers.length > 0) {
+                await withStore([STORES.imStickers], 'readwrite', (stores) => {
+                    stickers.forEach(s => stores[STORES.imStickers].put(s));
+                });
+            }
+
+            if (imessage.momentsCoverUrlMeta !== undefined) {
+                await setMeta(META_KEYS.imMomentsCoverAssetId, imessage.momentsCoverUrlMeta);
+            } else if (imessage.momentsCoverUrl) {
+                await saveMomentsCover(imessage.momentsCoverUrl);
+            }
+
+            const assetsArray = Array.isArray(safe.assets) ? safe.assets : [];
+            if (assetsArray.length > 0) {
+                await withStore([STORES.assets], 'readwrite', (stores) => {
+                    assetsArray.forEach((record) => {
+                        if (record && record.id && record.dataUrl) {
+                            try {
+                                const blob = dataUrlToBlob(record.dataUrl);
+                                stores[STORES.assets].put({ ...record, blob, dataUrl: undefined });
+                            } catch (err) {
+                                console.warn(`Failed to restore asset ${record.id}`, err);
+                            }
+                        }
+                    });
+                });
+            }
+        }
+        
+        if (progressCallback) progressCallback({ message: '恢复完成', progress: 100 });
+        return true;
+    }
+
+    async function serializeRecordForBackup(storeName, record) {
+        const serialized = cloneDeep(record);
+
+        if (storeName === STORES.assets && serialized && serialized.blob) {
+            try {
+                serialized.dataUrl = await blobToDataUrl(serialized.blob);
+                delete serialized.blob;
+            } catch (err) {
+                console.warn(`Failed to convert asset ${serialized.id} to dataUrl`, err);
+            }
+        }
+
+        return serialized;
+    }
+
+    function deserializeBackupRecord(storeName, record) {
+        const restored = cloneDeep(record);
+
+        if (storeName === STORES.assets && restored && restored.dataUrl) {
+            try {
+                restored.blob = dataUrlToBlob(restored.dataUrl);
+                delete restored.dataUrl;
+            } catch (err) {
+                console.warn(`Failed to restore asset ${restored.id}`, err);
+            }
+        }
+
+        return restored;
+    }
+
+    function buildBackupStats(storesData = {}, localStorageSnapshot = []) {
+        const storeStats = {};
+        let recordCount = 0;
+        let assetCount = 0;
+
+        Object.values(STORES).forEach((storeName) => {
+            const count = Array.isArray(storesData[storeName]) ? storesData[storeName].length : 0;
+            storeStats[storeName] = count;
+            recordCount += count;
+        });
+
+        if (Array.isArray(storesData[STORES.assets])) {
+            assetCount = storesData[STORES.assets].length;
+        }
+
+        return {
+            stores: storeStats,
+            storeCount: Object.values(STORES).length,
+            recordCount,
+            assetCount,
+            localStorageKeyCount: Array.isArray(localStorageSnapshot) ? localStorageSnapshot.length : 0,
+            approximateBytes: estimateJsonBytes({ stores: storesData, localStorage: localStorageSnapshot })
+        };
+    }
+
+    async function collectBackupSnapshot(progressCallback) {
+        reportProgress(progressCallback, '准备导出数据...', 0);
+
+        const storesData = {};
+        const storeNames = Object.values(STORES);
+
+        for (let i = 0; i < storeNames.length; i += 1) {
+            const storeName = storeNames[i];
+            const baseProgress = Math.floor((i / storeNames.length) * 82);
+            reportProgress(progressCallback, `读取 ${storeName}...`, baseProgress);
+
+            const records = await getAllRecords(storeName);
+            const serializedRecords = [];
+
+            for (let j = 0; j < records.length; j += 1) {
+                serializedRecords.push(await serializeRecordForBackup(storeName, records[j]));
+                if ((storeName === STORES.assets || storeName === STORES.imMessages) && j > 0 && j % 20 === 0) {
+                    const stepProgress = Math.floor((j / records.length) * (82 / storeNames.length));
+                    reportProgress(progressCallback, `处理 ${storeName} (${j}/${records.length})...`, baseProgress + stepProgress);
+                }
+            }
+
+            storesData[storeName] = serializedRecords;
+        }
+
+        reportProgress(progressCallback, '读取本地兼容数据...', 86);
+        const localStorageSnapshot = collectManagedLocalStorageSnapshot();
+        mergeLocalStorageCompatibilityIntoStores(storesData, localStorageSnapshot);
+        const checksumSource = {
+            stores: storesData,
+            localStorage: localStorageSnapshot
+        };
+        const stats = buildBackupStats(storesData, localStorageSnapshot);
+
+        return {
+            app: BACKUP_APP_NAME,
+            schemaVersion: STORAGE_SCHEMA_VERSION,
+            version: STORAGE_SCHEMA_VERSION,
+            exportedAt: Date.now(),
+            stores: storesData,
+            localStorage: localStorageSnapshot,
+            stats,
+            checksum: {
+                algorithm: 'fnv1a32',
+                value: createChecksum(checksumSource)
+            }
+        };
+    }
+
+    async function serializeBackupBlob(snapshot, progressCallback) {
+        reportProgress(progressCallback, '生成备份文件...', 95);
+        return new Blob([JSON.stringify(snapshot)], { type: 'application/json' });
+    }
+
+    function summarizeBackupPayload(payload = {}) {
+        const safe = payload && typeof payload === 'object' ? payload : {};
+        const storesData = safe.stores && typeof safe.stores === 'object' ? safe.stores : {};
+        const localStorageSnapshot = Array.isArray(safe.localStorage) ? safe.localStorage : [];
+        const stats = safe.stats && typeof safe.stats === 'object'
+            ? safe.stats
+            : buildBackupStats(storesData, localStorageSnapshot);
+
+        return {
+            app: safe.app || BACKUP_APP_NAME,
+            schemaVersion: Number(safe.schemaVersion || safe.version) || 1,
+            exportedAt: Number(safe.exportedAt) || 0,
+            storeCount: Number(stats.storeCount) || Object.keys(storesData).length,
+            recordCount: Number(stats.recordCount) || 0,
+            assetCount: Number(stats.assetCount) || 0,
+            localStorageKeyCount: Number(stats.localStorageKeyCount) || localStorageSnapshot.length,
+            approximateBytes: Number(stats.approximateBytes) || estimateJsonBytes(safe),
+            checksum: safe.checksum?.value || ''
+        };
+    }
+
+    function validateBackupPayload(payload = {}) {
+        if (!payload || typeof payload !== 'object') {
+            throw new Error('Invalid backup payload.');
+        }
+
+        if (payload.stores && typeof payload.stores === 'object') {
+            const storesData = {};
+            Object.values(STORES).forEach((storeName) => {
+                storesData[storeName] = Array.isArray(payload.stores[storeName]) ? payload.stores[storeName] : [];
+            });
+
+            const normalized = {
+                ...payload,
+                stores: storesData,
+                localStorage: Array.isArray(payload.localStorage) ? payload.localStorage : []
+            };
+
+            return {
+                format: 'snapshot',
+                payload: normalized,
+                summary: summarizeBackupPayload(normalized)
+            };
+        }
+
+        if (payload.globalData || payload.imessage || payload.assets) {
+            return {
+                format: 'legacy',
+                payload,
+                summary: {
+                    app: BACKUP_APP_NAME,
+                    schemaVersion: Number(payload.version) || 1,
+                    exportedAt: Number(payload.exportedAt) || 0,
+                    storeCount: 0,
+                    recordCount: 0,
+                    assetCount: Array.isArray(payload.assets) ? payload.assets.length : 0,
+                    localStorageKeyCount: 0,
+                    approximateBytes: estimateJsonBytes(payload),
+                    checksum: ''
+                }
+            };
+        }
+
+        throw new Error('Unsupported backup format.');
+    }
+
+    function inspectBackupPayload(payload = {}) {
+        return validateBackupPayload(payload).summary;
+    }
+
+    async function clearManagedPersistence() {
+        try {
+            clearRuntimeAssetCache();
+        } catch (e) {}
+
+        const localStorageRemovedKeys = clearManagedLocalStorage();
+
+        try {
+            sessionStorage.clear();
+        } catch (e) {}
+
+        const databaseDeleted = await clearAllData();
+        return {
+            databaseDeleted,
+            localStorageRemovedKeys
+        };
+    }
+
+    function syncCompatibilityLocalStorageFromStores(storesData = {}, restoredLocalStorageSnapshot = []) {
+        if (!window.localStorage) return;
+
+        const settingsRows = Array.isArray(storesData[STORES.settings]) ? storesData[STORES.settings] : [];
+        const settingsByKey = {};
+        settingsRows.forEach((record) => {
+            if (record && record.key) settingsByKey[record.key] = record.value;
+        });
+
+        const compatibilityMap = {
+            userState: 'u2_userState',
+            apiConfig: 'u2_apiConfig',
+            minimaxConfig: 'u2_minimaxConfig',
+            apiPresets: 'u2_apiPresets',
+            fetchedModels: 'u2_fetchedModels',
+            assistiveBallSettings: 'u2_assistiveBallSettings',
+            themeState: 'u2_themeState',
+            currentAccountId: 'u2_currentAccountId',
+            wbGroups: 'u2_wbGroups',
+            worldBooks: 'u2_worldBooks',
+            appState: 'u2_appState'
+        };
+
+        Object.entries(compatibilityMap).forEach(([settingKey, storageKey]) => {
+            if (hasLocalStorageSnapshotKey(restoredLocalStorageSnapshot, storageKey)) return;
+            if (settingsByKey[settingKey] !== undefined) {
+                setLocalStorageJson(storageKey, settingsByKey[settingKey]);
+            }
+        });
+
+        const accountsRows = Array.isArray(storesData[STORES.accounts]) ? storesData[STORES.accounts] : [];
+        const accountsRecord = accountsRows.find((row) => row && row.id === '__all__');
+        if (!hasLocalStorageSnapshotKey(restoredLocalStorageSnapshot, 'u2_accounts') && accountsRecord && Array.isArray(accountsRecord.value)) {
+            setLocalStorageJson('u2_accounts', accountsRecord.value);
+        }
+    }
+
+    function syncCompatibilityLocalStorageFromGlobalData(globalData = {}) {
+        const map = {
+            userState: 'u2_userState',
+            apiConfig: 'u2_apiConfig',
+            minimaxConfig: 'u2_minimaxConfig',
+            apiPresets: 'u2_apiPresets',
+            fetchedModels: 'u2_fetchedModels',
+            assistiveBallSettings: 'u2_assistiveBallSettings',
+            accounts: 'u2_accounts',
+            currentAccountId: 'u2_currentAccountId',
+            themeState: 'u2_themeState',
+            wbGroups: 'u2_wbGroups',
+            worldBooks: 'u2_worldBooks',
+            appState: 'u2_appState'
+        };
+
+        Object.entries(map).forEach(([dataKey, storageKey]) => {
+            if (globalData[dataKey] !== undefined) {
+                setLocalStorageJson(storageKey, globalData[dataKey]);
+            }
+        });
+    }
+
+    async function restoreBackupSnapshot(snapshot = {}, progressCallback) {
+        const storesData = snapshot.stores || {};
+        const storeNames = Object.values(STORES);
+
+        reportProgress(progressCallback, '清理旧数据...', 0);
+        await clearManagedPersistence();
+        reportProgress(progressCallback, '恢复数据库...', 12);
+
+        for (let i = 0; i < storeNames.length; i += 1) {
+            const storeName = storeNames[i];
+            const records = Array.isArray(storesData[storeName]) ? storesData[storeName] : [];
+            const baseProgress = 12 + Math.floor((i / storeNames.length) * 72);
+            reportProgress(progressCallback, `恢复 ${storeName}...`, baseProgress);
+
+            if (records.length === 0) continue;
+
+            await withStore([storeName], 'readwrite', (stores) => {
+                const store = stores[storeName];
+                records.forEach((record) => {
+                    store.put(deserializeBackupRecord(storeName, record));
+                });
+            });
+        }
+
+        reportProgress(progressCallback, '恢复本地兼容数据...', 90);
+        restoreManagedLocalStorageSnapshot(snapshot.localStorage);
+        syncCompatibilityLocalStorageFromStores(storesData, snapshot.localStorage);
+        reportProgress(progressCallback, '导入完成', 100);
+        return true;
+    }
+
+    async function importLegacyBackupPayload(payload = {}, progressCallback) {
+        const safe = payload && typeof payload === 'object' ? payload : {};
+        const globalData = safe.globalData || {};
+
+        reportProgress(progressCallback, '迁移旧格式全局数据...', 18);
+        await saveGlobalData(globalData);
+        syncCompatibilityLocalStorageFromGlobalData(globalData);
+
+        const imessage = safe.imessage && typeof safe.imessage === 'object' ? safe.imessage : {};
+        const friends = Array.isArray(imessage.friends) ? imessage.friends : [];
+        if (friends.length > 0) {
+            reportProgress(progressCallback, '迁移聊天联系人...', 36);
+            await withStore([STORES.imFriends], 'readwrite', (stores) => {
+                friends.forEach((friend) => stores[STORES.imFriends].put(friend));
+            });
+        }
+
+        const messages = Array.isArray(imessage.messages) ? imessage.messages : [];
+        if (messages.length > 0) {
+            reportProgress(progressCallback, '迁移聊天记录...', 48);
+            await withStore([STORES.imMessages], 'readwrite', (stores) => {
+                messages.forEach((message) => stores[STORES.imMessages].put(message));
+            });
+        }
+
+        const moments = Array.isArray(imessage.moments) ? imessage.moments : [];
+        if (moments.length > 0) {
+            reportProgress(progressCallback, '迁移朋友圈...', 58);
+            await withStore([STORES.imMoments], 'readwrite', (stores) => {
+                moments.forEach((moment) => stores[STORES.imMoments].put(moment));
+            });
+        }
+
+        const momentMessages = Array.isArray(imessage.momentMessages) ? imessage.momentMessages : [];
+        if (momentMessages.length > 0) {
+            reportProgress(progressCallback, '迁移朋友圈消息...', 68);
+            await withStore([STORES.imMomentMessages], 'readwrite', (stores) => {
+                momentMessages.forEach((message) => stores[STORES.imMomentMessages].put(message));
+            });
+        }
+
+        const stickers = Array.isArray(imessage.stickers) ? imessage.stickers : [];
+        if (stickers.length > 0) {
+            reportProgress(progressCallback, '迁移贴纸...', 76);
+            await withStore([STORES.imStickers], 'readwrite', (stores) => {
+                stickers.forEach((sticker) => stores[STORES.imStickers].put(sticker));
+            });
+        }
+
+        if (imessage.momentsCoverUrlMeta !== undefined) {
+            await setMeta(META_KEYS.imMomentsCoverAssetId, imessage.momentsCoverUrlMeta);
+        } else if (imessage.momentsCoverUrl) {
+            await saveMomentsCover(imessage.momentsCoverUrl);
+        }
+
+        const assetsArray = Array.isArray(safe.assets) ? safe.assets : [];
+        if (assetsArray.length > 0) {
+            reportProgress(progressCallback, '迁移图片资源...', 86);
+            await withStore([STORES.assets], 'readwrite', (stores) => {
+                assetsArray.forEach((record) => {
+                    if (record && record.id && record.dataUrl) {
+                        stores[STORES.assets].put(deserializeBackupRecord(STORES.assets, record));
+                    }
+                });
+            });
+        }
+
+        reportProgress(progressCallback, '旧格式迁移完成', 100);
+        return true;
+    }
+
+    async function exportAllData(progressCallback) {
+        const snapshot = await collectBackupSnapshot(progressCallback);
+        const blob = await serializeBackupBlob(snapshot, progressCallback);
+        reportProgress(progressCallback, '导出完成', 100);
+        return blob;
+    }
+
+    async function importAllData(payload = {}, progressCallback) {
+        const validation = validateBackupPayload(payload);
+
+        if (validation.format === 'snapshot') {
+            return restoreBackupSnapshot(validation.payload, progressCallback);
+        }
+
+        reportProgress(progressCallback, '清理旧数据...', 0);
+        await clearManagedPersistence();
+        return importLegacyBackupPayload(validation.payload, progressCallback);
+    }
+
+    function formatBytes(bytes = 0) {
+        const size = Math.max(0, Number(bytes) || 0);
+        if (size < 1024) return `${size} B`;
+
+        const units = ['KB', 'MB', 'GB', 'TB'];
+        let value = size / 1024;
+        let unitIndex = 0;
+
+        while (value >= 1024 && unitIndex < units.length - 1) {
+            value /= 1024;
+            unitIndex += 1;
+        }
+
+        const precision = value >= 100 ? 0 : value >= 10 ? 1 : 2;
+        return `${value.toFixed(precision)} ${units[unitIndex]}`;
+    }
+
+    async function measureApproximateUsage() {
+        const blob = await exportAllData();
+        return blob.size;
+    }
+
+    async function getUsageSummary() {
+        const [cacheBytes, totalBytes] = await Promise.all([
+            measureRuntimeCacheUsage(),
+            measureApproximateUsage()
+        ]);
+
+        return {
+            cacheBytes,
+            totalBytes,
+            cacheFormatted: formatBytes(cacheBytes),
+            totalFormatted: formatBytes(totalBytes),
+            label: `${formatBytes(cacheBytes)} / ${formatBytes(totalBytes)}`
+        };
+    }
+
+    async function clearAllData() {
+        try {
+            clearRuntimeAssetCache();
+        } catch (e) {}
+
+        try {
+            const db = await dbPromise;
+            if (db) db.close();
+        } catch (e) {}
+        dbPromise = null;
+
+        const result = await deleteDatabaseSafe(DB_NAME);
+        return !!result.deleted;
+    }
+
+    async function clearAllPersistentData() {
+        try {
+            clearRuntimeAssetCache();
+        } catch (e) {}
+
+        try {
+            const db = await dbPromise;
+            if (db) db.close();
+        } catch (e) {}
+        dbPromise = null;
+
+        const localStorageRemovedKeys = [];
+        let localStorageCleared = false;
+        let sessionStorageCleared = false;
+
+        try {
+            const keys = [];
+            for (let i = 0; i < localStorage.length; i += 1) {
+                const key = localStorage.key(i);
+                if (key != null) keys.push(key);
+            }
+            keys.forEach((key) => {
+                const shouldKeep = PERSISTENT_LOCALSTORAGE_EXCLUDE_PREFIXES.some((prefix) => key.startsWith(prefix));
+                if (shouldKeep) return;
+                localStorageRemovedKeys.push(key);
+                localStorage.removeItem(key);
+            });
+            localStorageCleared = true;
+        } catch (error) {
+            try {
+                localStorage.removeItem('ios_emulator_global_data');
+                localStorageRemovedKeys.push('ios_emulator_global_data');
+            } catch (e) {}
+        }
+
+        try {
+            sessionStorage.clear();
+            sessionStorageCleared = true;
+        } catch (e) {}
+
+        const [currentDbResult, legacyDbResult, cacheResults, swResults] = await Promise.all([
+            deleteDatabaseSafe(DB_NAME),
+            deleteDatabaseSafe('iiso_imessage_storage'),
+            clearBrowserCaches(),
+            unregisterServiceWorkers()
+        ]);
+
+        return {
+            runtimeCacheCleared: true,
+            localStorageCleared,
+            localStorageRemovedKeys,
+            sessionStorageCleared,
+            databases: [currentDbResult, legacyDbResult],
+            caches: cacheResults,
+            serviceWorkers: swResults
+        };
+    }
+
+    window.appStorage = {
+        DB_NAME,
+        STORES,
+        openDb,
+        withStore,
+        requestToPromise,
+        cloneDeep,
+        dataUrlToBlob,
+        blobToDataUrl,
+        clearRuntimeAssetCache,
+        pruneRuntimeAssetCache,
+        measureRuntimeCacheUsage,
+        formatBytes,
+        getUsageSummary,
+        saveAssetFromDataUrl,
+        getAssetUrl,
+        deleteAsset,
+        getMeta,
+        setMeta,
+        getSetting,
+        setSetting,
+        saveGlobalData,
+        loadGlobalData,
+        collectBackupSnapshot,
+        inspectBackupPayload,
+        validateBackupPayload,
+        exportAllData,
+        importAllData,
+        clearAllData,
+        clearManagedPersistence,
+        clearAllPersistentData,
+        clearBrowserCaches,
+        unregisterServiceWorkers,
+        measureApproximateUsage,
+        saveFriends,
+        saveFriend,
+        saveFriendMetaOnly,
+        saveFriendMeta,
+        deleteFriend,
+        loadFriends,
+        saveFriendMessage,
+        deleteFriendMessage,
+        deleteFriendMessages,
+        saveFriendMessages,
+        replaceFriendMessages,
+        loadMessagesByFriendId,
+        saveMoments,
+        saveMoment,
+        deleteMoment,
+        loadMoments,
+        saveMomentMessages,
+        loadMomentMessages,
+        saveStickers,
+        loadStickers,
+        saveMomentsCover,
+        loadMomentsCoverUrl,
+        loadLibraryBooks,
+        saveLibraryBook,
+        deleteLibraryBook,
+        loadLibraryPlaylists,
+        loadLibraryTracks,
+        saveLibraryPlaylistBundle,
+        saveLibraryTrack,
+        deleteLibraryTrack,
+        deleteLibraryPlaylist,
+        loadLibraryDailyStats,
+        incrementLibraryDailyStat
+    };
+})();

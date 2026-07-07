@@ -1,1 +1,146 @@
-function _0x2dba(){const _0x59805=['function','loadFriends','saveAssetFromDataUrl','imessage','saveMoments','openDb','4186QarLKf','loadMoments','saveMomentsCover','1100835DKHeDL','\x20unavailable','friends','saveMoment','deleteFriendMessages','deleteFriendMessage','stringify','isArray','dataUrlToBlob','156BGghJV','imStorage','deleteFriend','saveFriend','saveMomentMessages','1402944VgpCpw','saveStickers','exportAllData','deleteMoment','loadMessagesByFriendId','saveFriendMessages','replaceFriendMessages','5112225YpIhzO','cloneDeep','loadMomentsCoverUrl','momentMessages','appStorage.','getAssetUrl','size','clearRuntimeAssetCache','saveFriends','blobToDataUrl','1356776RoIivB','DB_NAME','saveFriendMessage','loadStickers','stickers','moments','1884904mpRIen','appStorage','5sZWjGK','2582946bQwliJ','loadMomentMessages','now','apply'];_0x2dba=function(){return _0x59805;};return _0x2dba();}function _0x5df9(_0x3ef795,_0x5e336){_0x3ef795=_0x3ef795-0x76;const _0x2dba7f=_0x2dba();let _0x5df99b=_0x2dba7f[_0x3ef795];return _0x5df99b;}(function(_0x519006,_0x395d7b){const _0x4787be=_0x5df9,_0x4311fd=_0x519006();while(!![]){try{const _0x188827=-parseInt(_0x4787be(0x84))/0x1*(parseInt(_0x4787be(0x90))/0x2)+-parseInt(_0x4787be(0x87))/0x3+parseInt(_0x4787be(0x95))/0x4+-parseInt(_0x4787be(0x79))/0x5*(-parseInt(_0x4787be(0x7a))/0x6)+-parseInt(_0x4787be(0x77))/0x7+-parseInt(_0x4787be(0xa6))/0x8+parseInt(_0x4787be(0x9c))/0x9;if(_0x188827===_0x395d7b)break;else _0x4311fd['push'](_0x4311fd['shift']());}catch(_0x19b488){_0x4311fd['push'](_0x4311fd['shift']());}}}(_0x2dba,0x34f62),(function(){const _0x47890c=_0x5df9;function _0xd6033c(){const _0x4dc96f=_0x5df9;if(!window[_0x4dc96f(0x78)])throw new Error('appStorage\x20unavailable');return window['appStorage'];}function _0x5a008d(_0x280ed3,_0xce5607){return async function(..._0x247066){const _0x5e139f=_0x5df9,_0x39a718=_0xd6033c(),_0x5882cf=_0x39a718[_0x280ed3];if(typeof _0x5882cf!==_0x5e139f(0x7e)){if(typeof _0xce5607==='function')return _0xce5607(..._0x247066);throw new Error('appStorage.'+_0x280ed3+'\x20unavailable');}return _0x5882cf['apply'](_0x39a718,_0x247066);};}function _0x40d309(_0x1ce84b,_0x2857b6){return function(..._0x47707e){const _0x280bac=_0x5df9,_0x3d495e=_0xd6033c(),_0x500cbf=_0x3d495e[_0x1ce84b];if(typeof _0x500cbf!==_0x280bac(0x7e)){if(typeof _0x2857b6===_0x280bac(0x7e))return _0x2857b6(..._0x47707e);throw new Error(_0x280bac(0xa0)+_0x1ce84b+_0x280bac(0x88));}return _0x500cbf[_0x280bac(0x7d)](_0x3d495e,_0x47707e);};}window[_0x47890c(0x91)]={get 'DB_NAME'(){const _0x1a13bb=_0x47890c;return _0xd6033c()[_0x1a13bb(0xa7)];},'openDb':_0x5a008d(_0x47890c(0x83)),'exportAllData':async function(){const _0x40e3ed=_0x47890c,_0x876788=_0xd6033c();return{'version':0x1,'exportedAt':Date[_0x40e3ed(0x7c)](),'friends':await _0x876788[_0x40e3ed(0x7f)](),'moments':await _0x876788[_0x40e3ed(0x85)](),'momentMessages':await _0x876788['loadMomentMessages'](),'stickers':await _0x876788[_0x40e3ed(0xa9)](),'momentsCoverUrl':await _0x876788['loadMomentsCoverUrl']()};},'importAllData':async function(_0x498bf9={}){const _0x307c62=_0x47890c,_0xb84a63=_0xd6033c();return await _0xb84a63['saveFriends'](Array[_0x307c62(0x8e)](_0x498bf9['friends'])?_0x498bf9[_0x307c62(0x89)]:[]),await _0xb84a63[_0x307c62(0x82)](Array['isArray'](_0x498bf9[_0x307c62(0x76)])?_0x498bf9[_0x307c62(0x76)]:[]),await _0xb84a63[_0x307c62(0x94)](Array[_0x307c62(0x8e)](_0x498bf9['momentMessages'])?_0x498bf9[_0x307c62(0x9f)]:[]),await _0xb84a63[_0x307c62(0x96)](Array['isArray'](_0x498bf9[_0x307c62(0xaa)])?_0x498bf9[_0x307c62(0xaa)]:[]),await _0xb84a63[_0x307c62(0x86)](_0x498bf9['momentsCoverUrl']||null),!![];},'clearAllData':async function(){const _0x5762fd=_0x47890c,_0x263b67=_0xd6033c();return await _0x263b67[_0x5762fd(0xa4)]([]),await _0x263b67[_0x5762fd(0x82)]([]),await _0x263b67[_0x5762fd(0x94)]([]),await _0x263b67[_0x5762fd(0x96)]([]),await _0x263b67[_0x5762fd(0x86)](null),_0x263b67[_0x5762fd(0xa3)]&&_0x263b67[_0x5762fd(0xa3)](),!![];},'saveGlobalData':async function(_0x1df2eb={}){const _0x4eab52=_0x47890c,_0x1cf439=_0xd6033c();return await _0x1cf439[_0x4eab52(0xa4)](Array[_0x4eab52(0x8e)](_0x1df2eb['friends'])?_0x1df2eb[_0x4eab52(0x89)]:[]),await _0x1cf439[_0x4eab52(0x82)](Array['isArray'](_0x1df2eb[_0x4eab52(0x76)])?_0x1df2eb[_0x4eab52(0x76)]:[]),await _0x1cf439['saveMomentMessages'](Array['isArray'](_0x1df2eb['momentMessages'])?_0x1df2eb[_0x4eab52(0x9f)]:[]),await _0x1cf439[_0x4eab52(0x96)](Array[_0x4eab52(0x8e)](_0x1df2eb[_0x4eab52(0xaa)])?_0x1df2eb[_0x4eab52(0xaa)]:[]),await _0x1cf439['saveMomentsCover'](_0x1df2eb['momentsCoverUrl']||null),!![];},'loadGlobalData':async function(){const _0x131e7c=_0x47890c,_0x1d1f67=_0xd6033c();return{'friends':await _0x1d1f67['loadFriends'](),'moments':await _0x1d1f67['loadMoments'](),'momentMessages':await _0x1d1f67[_0x131e7c(0x7b)](),'stickers':await _0x1d1f67[_0x131e7c(0xa9)](),'momentsCoverUrl':await _0x1d1f67[_0x131e7c(0x9e)]()};},'saveFriends':_0x5a008d(_0x47890c(0xa4)),'saveFriend':_0x5a008d(_0x47890c(0x93)),'saveFriendMetaOnly':_0x5a008d('saveFriendMetaOnly'),'deleteFriend':_0x5a008d(_0x47890c(0x92)),'loadFriends':_0x5a008d(_0x47890c(0x7f)),'saveFriendMeta':_0x5a008d('saveFriendMeta'),'saveFriendMessage':_0x5a008d(_0x47890c(0xa8)),'deleteFriendMessage':_0x5a008d(_0x47890c(0x8c)),'deleteFriendMessages':_0x5a008d(_0x47890c(0x8b)),'saveFriendMessages':_0x5a008d(_0x47890c(0x9a)),'replaceFriendMessages':_0x5a008d(_0x47890c(0x9b)),'loadMessagesByFriendId':_0x5a008d(_0x47890c(0x99)),'saveMoments':_0x5a008d(_0x47890c(0x82)),'saveMoment':_0x5a008d(_0x47890c(0x8a)),'deleteMoment':_0x5a008d(_0x47890c(0x98)),'loadMoments':_0x5a008d(_0x47890c(0x85)),'saveMomentMessages':_0x5a008d('saveMomentMessages'),'loadMomentMessages':_0x5a008d(_0x47890c(0x7b)),'saveStickers':_0x5a008d('saveStickers'),'loadStickers':_0x5a008d('loadStickers'),'saveAssetFromDataUrl':_0x5a008d(_0x47890c(0x80)),'getAssetUrl':_0x5a008d(_0x47890c(0xa1)),'deleteAsset':_0x5a008d('deleteAsset'),'saveMomentsCover':_0x5a008d(_0x47890c(0x86)),'loadMomentsCoverUrl':_0x5a008d(_0x47890c(0x9e)),'measureApproximateUsage':async function(){const _0x3c739f=_0x47890c,_0x19f5cf=_0xd6033c(),_0x776a8d=await _0x19f5cf[_0x3c739f(0x97)](),_0x367fb=_0x776a8d&&_0x776a8d[_0x3c739f(0x81)]?_0x776a8d[_0x3c739f(0x81)]:{};return new Blob([JSON[_0x3c739f(0x8d)](_0x367fb)])[_0x3c739f(0xa2)];},'clearRuntimeAssetCache':_0x40d309('clearRuntimeAssetCache',()=>!![]),'pruneRuntimeAssetCache':_0x40d309('pruneRuntimeAssetCache',()=>0x0),'blobToDataUrl':_0x5a008d(_0x47890c(0xa5)),'dataUrlToBlob':_0x40d309(_0x47890c(0x8f)),'cloneDeep':_0x40d309(_0x47890c(0x9d))};}()));
+// ==========================================
+// IMESSAGE STORAGE ADAPTER
+// Unified appStorage bridge for legacy iMessage APIs
+// ==========================================
+
+(function() {
+    function getStorage() {
+        if (!window.appStorage) {
+            throw new Error('appStorage unavailable');
+        }
+        return window.appStorage;
+    }
+
+    function proxy(methodName, fallback) {
+        return async function(...args) {
+            const storage = getStorage();
+            const method = storage[methodName];
+            if (typeof method !== 'function') {
+                if (typeof fallback === 'function') {
+                    return fallback(...args);
+                }
+                throw new Error(`appStorage.${methodName} unavailable`);
+            }
+            return method.apply(storage, args);
+        };
+    }
+
+    function proxySync(methodName, fallback) {
+        return function(...args) {
+            const storage = getStorage();
+            const method = storage[methodName];
+            if (typeof method !== 'function') {
+                if (typeof fallback === 'function') {
+                    return fallback(...args);
+                }
+                throw new Error(`appStorage.${methodName} unavailable`);
+            }
+            return method.apply(storage, args);
+        };
+    }
+
+    window.imStorage = {
+        get DB_NAME() {
+            return getStorage().DB_NAME;
+        },
+
+        openDb: proxy('openDb'),
+        exportAllData: async function() {
+            const storage = getStorage();
+            return {
+                version: 1,
+                exportedAt: Date.now(),
+                friends: await storage.loadFriends(),
+                moments: await storage.loadMoments(),
+                momentMessages: await storage.loadMomentMessages(),
+                stickers: await storage.loadStickers(),
+                momentsCoverUrl: await storage.loadMomentsCoverUrl()
+            };
+        },
+        importAllData: async function(payload = {}) {
+            const storage = getStorage();
+            await storage.saveFriends(Array.isArray(payload.friends) ? payload.friends : []);
+            await storage.saveMoments(Array.isArray(payload.moments) ? payload.moments : []);
+            await storage.saveMomentMessages(Array.isArray(payload.momentMessages) ? payload.momentMessages : []);
+            await storage.saveStickers(Array.isArray(payload.stickers) ? payload.stickers : []);
+            await storage.saveMomentsCover(payload.momentsCoverUrl || null);
+            return true;
+        },
+        clearAllData: async function() {
+            const storage = getStorage();
+            await storage.saveFriends([]);
+            await storage.saveMoments([]);
+            await storage.saveMomentMessages([]);
+            await storage.saveStickers([]);
+            await storage.saveMomentsCover(null);
+            if (storage.clearRuntimeAssetCache) {
+                storage.clearRuntimeAssetCache();
+            }
+            return true;
+        },
+
+        saveGlobalData: async function(payload = {}) {
+            const storage = getStorage();
+            await storage.saveFriends(Array.isArray(payload.friends) ? payload.friends : []);
+            await storage.saveMoments(Array.isArray(payload.moments) ? payload.moments : []);
+            await storage.saveMomentMessages(Array.isArray(payload.momentMessages) ? payload.momentMessages : []);
+            await storage.saveStickers(Array.isArray(payload.stickers) ? payload.stickers : []);
+            await storage.saveMomentsCover(payload.momentsCoverUrl || null);
+            return true;
+        },
+        loadGlobalData: async function() {
+            const storage = getStorage();
+            return {
+                friends: await storage.loadFriends(),
+                moments: await storage.loadMoments(),
+                momentMessages: await storage.loadMomentMessages(),
+                stickers: await storage.loadStickers(),
+                momentsCoverUrl: await storage.loadMomentsCoverUrl()
+            };
+        },
+
+        saveFriends: proxy('saveFriends'),
+        saveFriend: proxy('saveFriend'),
+        saveFriendMetaOnly: proxy('saveFriendMetaOnly'),
+        deleteFriend: proxy('deleteFriend'),
+        loadFriends: proxy('loadFriends'),
+        saveFriendMeta: proxy('saveFriendMeta'),
+        saveFriendMessage: proxy('saveFriendMessage'),
+        deleteFriendMessage: proxy('deleteFriendMessage'),
+        deleteFriendMessages: proxy('deleteFriendMessages'),
+        saveFriendMessages: proxy('saveFriendMessages'),
+        replaceFriendMessages: proxy('replaceFriendMessages'),
+        loadMessagesByFriendId: proxy('loadMessagesByFriendId'),
+
+        saveMoments: proxy('saveMoments'),
+        saveMoment: proxy('saveMoment'),
+        deleteMoment: proxy('deleteMoment'),
+        loadMoments: proxy('loadMoments'),
+
+        saveMomentMessages: proxy('saveMomentMessages'),
+        loadMomentMessages: proxy('loadMomentMessages'),
+
+        saveStickers: proxy('saveStickers'),
+        loadStickers: proxy('loadStickers'),
+
+        saveAssetFromDataUrl: proxy('saveAssetFromDataUrl'),
+        getAssetUrl: proxy('getAssetUrl'),
+        deleteAsset: proxy('deleteAsset'),
+
+        saveMomentsCover: proxy('saveMomentsCover'),
+        loadMomentsCoverUrl: proxy('loadMomentsCoverUrl'),
+
+        measureApproximateUsage: async function() {
+            const storage = getStorage();
+            const payload = await storage.exportAllData();
+            const imessage = payload && payload.imessage ? payload.imessage : {};
+            return new Blob([JSON.stringify(imessage)]).size;
+        },
+
+        clearRuntimeAssetCache: proxySync('clearRuntimeAssetCache', () => true),
+        pruneRuntimeAssetCache: proxySync('pruneRuntimeAssetCache', () => 0),
+        blobToDataUrl: proxy('blobToDataUrl'),
+        dataUrlToBlob: proxySync('dataUrlToBlob'),
+        cloneDeep: proxySync('cloneDeep')
+    };
+})();
