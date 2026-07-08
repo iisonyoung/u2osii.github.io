@@ -183,9 +183,34 @@ test('supports guided regenerate from the iMessage More sheet', async () => {
 
     assert.match(aiSource, /regenerateLastAiReply\(friend, triggerEl = null, options = \{\}\)/);
     assert.match(aiSource, /normalizedOptions\.userRequirement/);
-    assert.match(aiSource, /pendingRegenerateContext\.userRequirement/);
-    assert.match(aiSource, /User 本次重回补充要求/);
-    assert.match(aiSource, /\{ previousReply, userRequirement \}/);
+    assert.match(aiSource, /regenerateContext\.userRequirement/);
+    assert.match(aiSource, /User 本次重回额外要求/);
+    assert.match(aiSource, /previousReplyForSimilarity: previousReply/);
+    assert.doesNotMatch(aiSource, /【上一轮回复：禁止复读的负例】/);
+    assert.doesNotMatch(aiSource, /\{ previousReply, userRequirement \}/);
+    assert.match(aiSource, /handleAiReply\(latestFriend, container, triggerEl, \{ source: 'regenerate' \}\)/);
+    assert.match(aiSource, /captureRegenerateRunSnapshot\(friend, apiRunId\)/);
+    assert.match(aiSource, /restoreRegenerateRunSnapshot\(friendKey, targetRunId\)/);
+    assert.match(aiSource, /remainingTargetRunMessages/);
+    assert.match(aiSource, /buildRegenerateRetrySystemPrompt\(pendingRegenerateContext\)/);
+    assert.match(aiSource, /role: 'system',\s*content: buildRegenerateRetrySystemPrompt\(pendingRegenerateContext\)/);
+    assert.doesNotMatch(aiSource, /\$\{commonMemorySections \|\| 'None'\}\$\{regenerateRequirement\}/);
+    assert.match(aiSource, /function isRegenerateReplyTooSimilar\(previousReply, rawReply\)/);
+    assert.match(aiSource, /firstBubbleSame/);
+    assert.match(aiSource, /consecutivePairSimilar/);
+    assert.match(aiSource, /overallSimilarity >= 0\.76/);
+    assert.match(aiSource, /getRegenerateRequestApiConfig\(currentApiConfig, isRegenerateRequest\)/);
+    assert.match(aiSource, /Math\.max\(currentTemperature, 0\.85\)/);
+    assert.match(aiSource, /regenerateAttempt < 2/);
+    assert.match(aiSource, /regenerate reply too similar; retrying once/);
+
+    const regeneratePromptSource = aiSource.slice(
+        aiSource.indexOf('function buildRegenerateRetrySystemPrompt'),
+        aiSource.indexOf('const linkedAccountBotInFlight')
+    );
+    assert.doesNotMatch(regeneratePromptSource, /previousReply/);
+    assert.match(regeneratePromptSource, /直接根据当前保留下来的聊天上下文/);
+    assert.match(regeneratePromptSource, /User 填写的重回额外要求就是本次唯一参考要求/);
 });
 
 test('keeps offline meeting summary third-person and context bubble theme scoping', async () => {
@@ -248,6 +273,11 @@ test('keeps iOS modal, theme preset, stickers, and private-chat safeguards', asy
     assert.match(coreSource, /appEl\.appendChild\(stickersViewEl\)/);
     assert.match(settingsSource, /function refreshThemePresetUi\(\)/);
     assert.ok((settingsSource.match(/refreshThemePresetUi\(\)/g) || []).length >= 4);
+    assert.match(settingsSource, /iconDiv\.classList\.add\('has-custom-app-icon'\)/);
+    assert.match(settingsSource, /iconDiv\.style\.setProperty\('background', `url\(\$\{app\.icon\}\) center \/ cover no-repeat`, 'important'\)/);
+    assert.match(settingsSource, /iconDiv\.style\.setProperty\('background-image', `url\(\$\{app\.icon\}\)`, 'important'\)/);
+    assert.match(settingsSource, /iconDiv\.classList\.remove\('has-custom-app-icon'\)/);
+    assert.match(settingsSource, /iconDiv\.style\.removeProperty\('background'\)/);
     assert.match(indexSource, /<div class="app-view im-theme-config-view" id="theme-config-sheet"/);
     assert.doesNotMatch(indexSource, /<div class="bottom-sheet-overlay detail-sheet-overlay" id="theme-config-sheet"/);
     assert.match(indexSource, /id="theme-current-apply-btn"/);
@@ -279,14 +309,16 @@ test('keeps iOS modal, theme preset, stickers, and private-chat safeguards', asy
 });
 
 test('keeps group time awareness, role recall toggle, Chinese generated thoughts, member removal, and clear-context safeguards', async () => {
-    const [indexSource, groupsSource, aiSource, interfaceSource, statusSource, coreSource, settingsSource] = await Promise.all([
+    const [indexSource, groupsSource, aiSource, interfaceSource, statusSource, coreSource, settingsSource, contactsSource, builtinWorldBookSource] = await Promise.all([
         fs.readFile(new URL('../index.html', import.meta.url), 'utf8'),
         fs.readFile(new URL('../js/imessage/3_groups.js', import.meta.url), 'utf8'),
         fs.readFile(new URL('../js/imessage/4_chat_ai.js', import.meta.url), 'utf8'),
         fs.readFile(new URL('../js/imessage/4_chat_interface.js', import.meta.url), 'utf8'),
         fs.readFile(new URL('../js/imessage/4_chat_status.js', import.meta.url), 'utf8'),
         fs.readFile(new URL('../js/imessage/2_core.js', import.meta.url), 'utf8'),
-        fs.readFile(new URL('../js/imessage/5_settings.js', import.meta.url), 'utf8')
+        fs.readFile(new URL('../js/imessage/5_settings.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/imessage/3_contacts.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/builtin_worldbook.js', import.meta.url), 'utf8')
     ]);
 
     assert.match(indexSource, /id="group-time-aware-toggle"/);
@@ -310,6 +342,20 @@ test('keeps group time awareness, role recall toggle, Chinese generated thoughts
     assert.match(aiSource, /singleChatRoleRecallPrompt/);
     assert.match(aiSource, /friend\.allowRoleRecall\s*!==\s*false/);
     assert.match(aiSource, /\$\{singleChatRoleRecallPrompt\}/);
+    assert.match(aiSource, /const userRelationship = String\(friend\.relationship \|\| ''\)\.trim\(\) \|\| '未填写'/);
+    assert.match(aiSource, /现在认为与 User 的关系是：\$\{userRelationship\}/);
+    assert.equal(aiSource.includes('User 发送的内容/消息为线上打字发送的文字消息，除非上下文明确标注为“语音消息”的才为user发的语音'), true);
+    assert.equal((aiSource.match(/\$\{userInputModalityRule\}/g) || []).length, 2);
+    assert.match(aiSource, /chatBubbleFormatGuardPrompt/);
+    assert.equal((aiSource.match(/\$\{chatBubbleFormatGuardPrompt\}/g) || []).length, 2);
+    assert.match(aiSource, /严禁把多条气泡合并进同一个 text 字段/);
+    assert.match(aiSource, /严禁输出 JSON 数组以外的正文/);
+
+    const enabledBuiltinWorldBookSource = builtinWorldBookSource.slice(
+        builtinWorldBookSource.indexOf('const ENABLED_BUILTIN_WORLD_BOOK_ENTRY_IDS'),
+        builtinWorldBookSource.indexOf('window.getBuiltinWorldBookEntries')
+    );
+    assert.doesNotMatch(enabledBuiltinWorldBookSource, /builtin-anti-format-drop-1-0/);
 
     assert.match(interfaceSource, /window\.imApp\.getFriendById\(friend\.id\)/);
     assert.match(interfaceSource, /hasHistoricalThought/);
@@ -319,6 +365,7 @@ test('keeps group time awareness, role recall toggle, Chinese generated thoughts
     assert.match(statusSource, /formatProfileStatusLabel/);
 
     assert.match(coreSource, /targetFriend\.messages\s*=\s*\[\]/);
+    assert.match(coreSource, /normalized\.relationship\s*=/);
     assert.match(coreSource, /normalized\.allowRoleRecall\s*=\s*normalized\.allowRoleRecall\s*!==\s*false/);
     assert.match(coreSource, /targetFriend\.memberProfiles\s*=\s*\{\}/);
     assert.match(coreSource, /notes:\s*''/);
@@ -328,4 +375,12 @@ test('keeps group time awareness, role recall toggle, Chinese generated thoughts
 
     assert.match(settingsSource, /chatRoleRecallToggle\.checked\s*=\s*friend\.allowRoleRecall\s*!==\s*false/);
     assert.match(settingsSource, /targetFriend\.allowRoleRecall\s*=\s*nextValue/);
+    assert.match(indexSource, /id="friend-relationship-input"/);
+    assert.match(indexSource, /id="char-relationship-input"/);
+    assert.match(indexSource, /Char 认为你们的关系/);
+    assert.match(contactsSource, /friendRelationship/);
+    assert.match(contactsSource, /relationship:\s*document\.getElementById\('friend-relationship-input'\)/);
+    assert.match(settingsSource, /char-relationship-input/);
+    assert.match(settingsSource, /relationshipInput\.value\s*=\s*friend\.relationship \|\| ''/);
+    assert.match(settingsSource, /targetFriend\.relationship\s*=\s*relationshipInput \? relationshipInput\.value : ''/);
 });

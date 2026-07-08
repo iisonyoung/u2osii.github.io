@@ -1915,6 +1915,29 @@ button.group-private-chat-detail-bubble {
     box-sizing: border-box !important;
 }
 
+#msg-context-bubble-clone .msg-context-row-clone {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0 !important;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    box-sizing: border-box;
+}
+
+#msg-context-bubble-clone .msg-context-row-clone.user-row {
+    justify-content: flex-end;
+}
+
+#msg-context-bubble-clone .msg-context-row-clone.ai-row {
+    justify-content: flex-start;
+}
+
+#msg-context-bubble-clone .msg-context-row-clone .chat-bubble {
+    flex: 0 1 auto;
+}
+
 .chat-row .chat-bubble.image-message-bubble {
     max-width: min(62vw, 204px) !important;
 }
