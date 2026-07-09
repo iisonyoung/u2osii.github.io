@@ -343,6 +343,42 @@
     color: #c7c7cc;
 }
 
+/* Android API sheet focus guard: keep the sheet pinned while keyboard/selection UI opens. */
+#api-config-sheet {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    touch-action: none;
+}
+
+#api-config-sheet .bottom-sheet {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#api-config-sheet .detail-sheet-content,
+#api-config-sheet .form-group,
+#api-config-sheet .form-item {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#api-config-sheet .form-item {
+    min-width: 0;
+}
+
+#api-config-sheet .form-item input,
+#api-config-sheet .form-item select {
+    min-width: 0;
+    max-width: 100%;
+}
+
 /* Tall Input (Legacy) */
 .tall-input-group {
     min-height: 100px;
