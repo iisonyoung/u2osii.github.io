@@ -1,1 +1,359 @@
-function _0x569e(){const _0x1ac143=['StorageManager','258JxTMmQ','info','isFinite','pointerEvents','appendChild','playsInline','intervalSeconds','DOMContentLoaded','removeEventListener','play','11114nSLeUn','setUint32','style','user-gesture','file:','lastTickAt','2526984OzinsI','u2_backgroundActivitySettings','object','358920oREDwa','settings','2EiMzzz','length','RIFF','request','1px','position','height','volume','wakeLock','body','parseInt','min','1012476bxzgld','auto','audio','7737070IgieTp','true','addEventListener','screen','fixed','data:audio/wav;base64,','[background_activity]\x20Audio\x20keep-alive\x20is\x20waiting\x20for\x20a\x20user\x20gesture:','opacity','setAttribute','src','u2BackgroundActivity','u2:background-activity-tick','boot','none','u2:background-audio-active','-9999px','75467RqbjET','left','load','forEach','loop','keydown','[background_activity]\x20Failed\x20to\x20release\x20wake\x20lock:','preload','[background_activity]\x20Failed\x20to\x20load\x20settings:','warn','4808guKVBJ','save','subarray','release','enabled','pageshow','setUint8','data','click','touchstart','hidden','width','pause','sin','now','fromCharCode','450BYYmLH','setUint16','dispatchEvent','createObjectURL','createElement','WAVE'];_0x569e=function(){return _0x1ac143;};return _0x569e();}function _0x2f47(_0x4d9a09,_0x3a3e38){_0x4d9a09=_0x4d9a09-0xac;const _0x569ea8=_0x569e();let _0x2f47aa=_0x569ea8[_0x4d9a09];return _0x2f47aa;}(function(_0x4f60db,_0xe4dac9){const _0x27c1bc=_0x2f47,_0x59343c=_0x4f60db();while(!![]){try{const _0x2c7d5a=-parseInt(_0x27c1bc(0xfb))/0x1*(-parseInt(_0x27c1bc(0xb1))/0x2)+parseInt(_0x27c1bc(0xbd))/0x3+parseInt(_0x27c1bc(0xda))/0x4*(-parseInt(_0x27c1bc(0xea))/0x5)+parseInt(_0x27c1bc(0xf1))/0x6*(parseInt(_0x27c1bc(0xd0))/0x7)+parseInt(_0x27c1bc(0xac))/0x8+parseInt(_0x27c1bc(0xaf))/0x9+-parseInt(_0x27c1bc(0xc0))/0xa;if(_0x2c7d5a===_0xe4dac9)break;else _0x59343c['push'](_0x59343c['shift']());}catch(_0x70ddb8){_0x59343c['push'](_0x59343c['shift']());}}}(_0x569e,0x45d67),(function(){const _0x1af6b5=_0x2f47,_0x487e8b=_0x1af6b5(0xad),_0x364c75=0x1,_0x142602=0xe10,_0x3f65e7={'enabled':![],'intervalSeconds':0x3c,'lastTickAt':0x0};let _0x126bdb=_0x215bf8(_0x1e7a53()),_0x3bd580=null,_0x567cd7=null,_0x22e43a=null,_0x304a6d='',_0x11a36d=![];function _0xd3d5d2(_0x24941d){const _0x4773a5=_0x1af6b5,_0x3cf2a=Number[_0x4773a5(0xbb)](_0x24941d,0xa);if(!Number[_0x4773a5(0xf3)](_0x3cf2a))return _0x3f65e7[_0x4773a5(0xf7)];return Math['max'](_0x364c75,Math[_0x4773a5(0xbc)](_0x142602,_0x3cf2a));}function _0x215bf8(_0x3b953e){const _0x37f029=_0x1af6b5,_0x4a292f=_0x3b953e&&typeof _0x3b953e===_0x37f029(0xae)?_0x3b953e:{};return{'enabled':!!_0x4a292f[_0x37f029(0xde)],'intervalSeconds':_0xd3d5d2(_0x4a292f['intervalSeconds']),'lastTickAt':Number['isFinite'](Number(_0x4a292f[_0x37f029(0x100)]))?Number(_0x4a292f[_0x37f029(0x100)]):0x0};}function _0x1e7a53(){const _0x3c99d5=_0x1af6b5;try{if(window['StorageManager']&&typeof window[_0x3c99d5(0xf0)][_0x3c99d5(0xd2)]==='function')return window[_0x3c99d5(0xf0)][_0x3c99d5(0xd2)](_0x487e8b,_0x3f65e7);return _0x3f65e7;}catch(_0x486709){return console['warn'](_0x3c99d5(0xd8),_0x486709),_0x3f65e7;}}function _0x374dcc(){const _0x31db90=_0x1af6b5;try{if(window[_0x31db90(0xf0)]&&typeof window[_0x31db90(0xf0)]['save']==='function'){window[_0x31db90(0xf0)][_0x31db90(0xdb)](_0x487e8b,_0x126bdb);return;}}catch(_0x5cd315){console['warn']('[background_activity]\x20Failed\x20to\x20save\x20settings:',_0x5cd315);}}function _0xbbc6c2(){_0x3bd580&&(clearInterval(_0x3bd580),_0x3bd580=null);}async function _0x38f38b(){const _0x1a3f0b=_0x1af6b5;if(!_0x567cd7)return;try{await _0x567cd7['release']();}catch(_0x20ead1){console[_0x1a3f0b(0xd9)](_0x1a3f0b(0xd6),_0x20ead1);}finally{_0x567cd7=null;}}function _0xda7d4b(){const _0x3acbc4=_0x1af6b5;if(_0x304a6d)return _0x304a6d;const _0x1b352b=0x1f40,_0x2bc931=0x1,_0xe8785a=_0x1b352b*_0x2bc931,_0x397212=0x2,_0x504984=_0xe8785a*_0x397212,_0x3a1019=new ArrayBuffer(0x2c+_0x504984),_0x2b4d3b=new DataView(_0x3a1019);let _0xf9f5a1=0x0;const _0x52ef57=_0x4a0258=>{const _0x3cdae2=_0x2f47;for(let _0x352286=0x0;_0x352286<_0x4a0258[_0x3cdae2(0xb2)];_0x352286+=0x1){_0x2b4d3b[_0x3cdae2(0xe0)](_0xf9f5a1+_0x352286,_0x4a0258['charCodeAt'](_0x352286));}_0xf9f5a1+=_0x4a0258['length'];};_0x52ef57(_0x3acbc4(0xb3)),_0x2b4d3b[_0x3acbc4(0xfc)](_0xf9f5a1,0x24+_0x504984,!![]),_0xf9f5a1+=0x4,_0x52ef57(_0x3acbc4(0xef)),_0x52ef57('fmt\x20'),_0x2b4d3b[_0x3acbc4(0xfc)](_0xf9f5a1,0x10,!![]),_0xf9f5a1+=0x4,_0x2b4d3b[_0x3acbc4(0xeb)](_0xf9f5a1,0x1,!![]),_0xf9f5a1+=0x2,_0x2b4d3b[_0x3acbc4(0xeb)](_0xf9f5a1,0x1,!![]),_0xf9f5a1+=0x2,_0x2b4d3b[_0x3acbc4(0xfc)](_0xf9f5a1,_0x1b352b,!![]),_0xf9f5a1+=0x4,_0x2b4d3b[_0x3acbc4(0xfc)](_0xf9f5a1,_0x1b352b*_0x397212,!![]),_0xf9f5a1+=0x4,_0x2b4d3b[_0x3acbc4(0xeb)](_0xf9f5a1,_0x397212,!![]),_0xf9f5a1+=0x2,_0x2b4d3b['setUint16'](_0xf9f5a1,0x8*_0x397212,!![]),_0xf9f5a1+=0x2,_0x52ef57(_0x3acbc4(0xe1)),_0x2b4d3b[_0x3acbc4(0xfc)](_0xf9f5a1,_0x504984,!![]),_0xf9f5a1+=0x4;for(let _0x5aa5a1=0x0;_0x5aa5a1<_0xe8785a;_0x5aa5a1+=0x1){const _0xc97c31=Math[_0x3acbc4(0xe7)](0x2*Math['PI']*0x12*_0x5aa5a1/_0x1b352b)*0x6;_0x2b4d3b['setInt16'](_0xf9f5a1,_0xc97c31,!![]),_0xf9f5a1+=_0x397212;}if(location['protocol']===_0x3acbc4(0xff)){const _0x5401ef=new Uint8Array(_0x3a1019),_0x3dd50b=0x8000;let _0x1c3655='';for(let _0x2ab9cb=0x0;_0x2ab9cb<_0x5401ef['length'];_0x2ab9cb+=_0x3dd50b){_0x1c3655+=String[_0x3acbc4(0xe9)](..._0x5401ef[_0x3acbc4(0xdc)](_0x2ab9cb,_0x2ab9cb+_0x3dd50b));}_0x304a6d=_0x3acbc4(0xc5)+btoa(_0x1c3655);}else _0x304a6d=URL[_0x3acbc4(0xed)](new Blob([_0x3a1019],{'type':'audio/wav'}));return _0x304a6d;}function _0x1619cf(){const _0x2068df=_0x1af6b5;if(_0x22e43a)return _0x22e43a;_0x22e43a=document[_0x2068df(0xee)](_0x2068df(0xbf)),_0x22e43a[_0x2068df(0xd4)]=!![],_0x22e43a[_0x2068df(0xd7)]=_0x2068df(0xbe),_0x22e43a[_0x2068df(0xf6)]=!![],_0x22e43a[_0x2068df(0xb8)]=0x1,_0x22e43a[_0x2068df(0xc9)]=_0xda7d4b(),_0x22e43a[_0x2068df(0xc8)]('aria-hidden','true'),_0x22e43a[_0x2068df(0xc8)]('webkit-playsinline',_0x2068df(0xc1)),_0x22e43a[_0x2068df(0xfd)][_0x2068df(0xb6)]=_0x2068df(0xc4),_0x22e43a['style'][_0x2068df(0xe5)]=_0x2068df(0xb5),_0x22e43a[_0x2068df(0xfd)][_0x2068df(0xb7)]=_0x2068df(0xb5),_0x22e43a[_0x2068df(0xfd)][_0x2068df(0xc7)]='0',_0x22e43a['style'][_0x2068df(0xf4)]=_0x2068df(0xcd),_0x22e43a[_0x2068df(0xfd)][_0x2068df(0xd1)]='-9999px',_0x22e43a[_0x2068df(0xfd)]['top']=_0x2068df(0xcf);const _0xc58b19=()=>{const _0x231e52=_0x2068df;document[_0x231e52(0xba)]&&!_0x22e43a['isConnected']&&document[_0x231e52(0xba)][_0x231e52(0xf5)](_0x22e43a);};return document[_0x2068df(0xba)]?_0xc58b19():document[_0x2068df(0xc2)](_0x2068df(0xf8),_0xc58b19,{'once':!![]}),_0x22e43a;}function _0x24501d(){const _0x8b6bc9=_0x1af6b5;if(_0x11a36d)return;_0x11a36d=!![],['pointerdown','touchstart',_0x8b6bc9(0xe2),_0x8b6bc9(0xd5)][_0x8b6bc9(0xd3)](_0x17cfb7=>{const _0x29fa54=_0x8b6bc9;document[_0x29fa54(0xc2)](_0x17cfb7,_0x1a230f,{'capture':!![],'passive':!![]});});}function _0x2cc6e9(){const _0x24a609=_0x1af6b5;if(!_0x11a36d)return;_0x11a36d=![],['pointerdown',_0x24a609(0xe3),_0x24a609(0xe2),_0x24a609(0xd5)][_0x24a609(0xd3)](_0x952055=>{const _0x150aae=_0x24a609;document[_0x150aae(0xf9)](_0x952055,_0x1a230f,!![]);});}function _0x1a230f(){const _0x4fbdf6=_0x1af6b5;_0x126bdb[_0x4fbdf6(0xde)]?_0x4f7492(_0x4fbdf6(0xfe)):_0x2cc6e9();}async function _0x4f7492(_0x400dfb='audio'){const _0xb5c554=_0x1af6b5;if(!_0x126bdb[_0xb5c554(0xde)])return![];const _0x4fade2=_0x1619cf();try{return(_0x4fade2['paused']||_0x4fade2['ended'])&&await _0x4fade2[_0xb5c554(0xfa)](),_0x2cc6e9(),window[_0xb5c554(0xec)](new CustomEvent(_0xb5c554(0xce),{'detail':{'reason':_0x400dfb,'activeAt':Date[_0xb5c554(0xe8)]()}})),!![];}catch(_0x2e896b){return _0x24501d(),console[_0xb5c554(0xf2)](_0xb5c554(0xc6),_0x2e896b),![];}}function _0x320eb9(){const _0xe304ed=_0x1af6b5;_0x2cc6e9();if(!_0x22e43a)return;_0x22e43a[_0xe304ed(0xe6)](),_0x22e43a['currentTime']=0x0;}async function _0x2dcc80(){const _0x5a3542=_0x1af6b5;if(!_0x126bdb[_0x5a3542(0xde)]||document[_0x5a3542(0xe4)]||_0x567cd7||!navigator[_0x5a3542(0xb9)]?.[_0x5a3542(0xb4)])return;try{_0x567cd7=await navigator[_0x5a3542(0xb9)]['request'](_0x5a3542(0xc3)),_0x567cd7['addEventListener'](_0x5a3542(0xdd),()=>{_0x567cd7=null;});}catch(_0x197ed3){_0x567cd7=null,console['info']('[background_activity]\x20Wake\x20Lock\x20is\x20unavailable:',_0x197ed3);}}function _0x1e6aef(_0x419da7){const _0x4c8992=_0x1af6b5,_0x4b5834=Date['now'](),_0x3b2f2a=_0x126bdb[_0x4c8992(0x100)]||0x0;_0x126bdb['lastTickAt']=_0x4b5834,_0x374dcc(),window['dispatchEvent'](new CustomEvent(_0x4c8992(0xcb),{'detail':{'reason':_0x419da7,'enabled':_0x126bdb[_0x4c8992(0xde)],'intervalSeconds':_0x126bdb[_0x4c8992(0xf7)],'tickAt':_0x4b5834,'previousTickAt':_0x3b2f2a,'elapsedSeconds':_0x3b2f2a?Math['max'](0x0,Math['round']((_0x4b5834-_0x3b2f2a)/0x3e8)):0x0}}));}function _0x419158(){const _0x11ca8c=_0x1af6b5;if(!_0x126bdb[_0x11ca8c(0xde)]||!_0x126bdb[_0x11ca8c(0x100)])return;const _0x2c3a97=Date[_0x11ca8c(0xe8)]()-_0x126bdb[_0x11ca8c(0x100)];_0x2c3a97>=_0x126bdb[_0x11ca8c(0xf7)]*0x3e8&&_0x1e6aef('resume');}function _0x2dc78b(){const _0xefa11b=_0x1af6b5;_0xbbc6c2();if(!_0x126bdb[_0xefa11b(0xde)])return;_0x3bd580=setInterval(()=>{_0x1e6aef('interval');},_0x126bdb[_0xefa11b(0xf7)]*0x3e8);}function _0x38b41a(_0x3df82d='start'){const _0x13b604=_0x1af6b5;if(!_0x126bdb[_0x13b604(0xde)]){_0x5cb582();return;}!_0x126bdb[_0x13b604(0x100)]?_0x1e6aef(_0x3df82d):_0x419158(),_0x2dc78b(),_0x2dcc80(),_0x4f7492(_0x3df82d);}function _0x5cb582(){_0xbbc6c2(),_0x38f38b(),_0x320eb9();}function _0x1ed8c7(_0x3eb670={}){const _0x32d72c=_0x1af6b5;return _0x126bdb=_0x215bf8({..._0x126bdb,..._0x3eb670}),_0x374dcc(),_0x126bdb[_0x32d72c(0xde)]?_0x38b41a(_0x32d72c(0xb0)):_0x5cb582(),_0xb34943();}function _0xb34943(){return{..._0x126bdb};}document[_0x1af6b5(0xc2)]('visibilitychange',()=>{const _0x48f8d0=_0x1af6b5;if(document[_0x48f8d0(0xe4)]){_0x38f38b(),_0x2dc78b(),_0x4f7492(_0x48f8d0(0xe4));return;}_0x38b41a('visible');}),window['addEventListener']('pagehide',()=>{_0xbbc6c2(),_0x38f38b(),_0x320eb9();}),window[_0x1af6b5(0xc2)](_0x1af6b5(0xdf),()=>{const _0x26bf16=_0x1af6b5;_0x38b41a(_0x26bf16(0xdf));}),window[_0x1af6b5(0xca)]={'getSettings':_0xb34943,'updateSettings':_0x1ed8c7,'start':_0x38b41a,'stop':_0x5cb582},_0x126bdb[_0x1af6b5(0xde)]&&_0x38b41a(_0x1af6b5(0xcc));}()));
+// U2 background activity manager.
+// Best-effort PWA heartbeat. When enabled, it keeps a tiny looping audio session alive
+// because mobile browsers usually preserve active audio more aggressively than timers.
+(function () {
+    const STORAGE_KEY = 'u2_backgroundActivitySettings';
+    const MIN_INTERVAL_SECONDS = 1;
+    const MAX_INTERVAL_SECONDS = 3600;
+
+    const defaults = {
+        enabled: false,
+        intervalSeconds: 60,
+        lastTickAt: 0
+    };
+
+    let settings = normalize(loadSettings());
+    let timerId = null;
+    let wakeLock = null;
+    let keepAliveAudio = null;
+    let keepAliveAudioUrl = '';
+    let audioUnlockBound = false;
+
+    function clampInterval(value) {
+        const number = Number.parseInt(value, 10);
+        if (!Number.isFinite(number)) return defaults.intervalSeconds;
+        return Math.max(MIN_INTERVAL_SECONDS, Math.min(MAX_INTERVAL_SECONDS, number));
+    }
+
+    function normalize(value) {
+        const safe = value && typeof value === 'object' ? value : {};
+        return {
+            enabled: !!safe.enabled,
+            intervalSeconds: clampInterval(safe.intervalSeconds),
+            lastTickAt: Number.isFinite(Number(safe.lastTickAt)) ? Number(safe.lastTickAt) : 0
+        };
+    }
+
+    function loadSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(STORAGE_KEY, defaults);
+            }
+
+            return defaults;
+        } catch (error) {
+            console.warn('[background_activity] Failed to load settings:', error);
+            return defaults;
+        }
+    }
+
+    function saveSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(STORAGE_KEY, settings);
+                return;
+            }
+
+        } catch (error) {
+            console.warn('[background_activity] Failed to save settings:', error);
+        }
+    }
+
+    function clearTimer() {
+        if (timerId) {
+            clearInterval(timerId);
+            timerId = null;
+        }
+    }
+
+    async function releaseWakeLock() {
+        if (!wakeLock) return;
+
+        try {
+            await wakeLock.release();
+        } catch (error) {
+            console.warn('[background_activity] Failed to release wake lock:', error);
+        } finally {
+            wakeLock = null;
+        }
+    }
+
+    function createKeepAliveAudioUrl() {
+        if (keepAliveAudioUrl) return keepAliveAudioUrl;
+
+        const sampleRate = 8000;
+        const durationSeconds = 1;
+        const sampleCount = sampleRate * durationSeconds;
+        const bytesPerSample = 2;
+        const dataSize = sampleCount * bytesPerSample;
+        const buffer = new ArrayBuffer(44 + dataSize);
+        const view = new DataView(buffer);
+        let offset = 0;
+
+        const writeString = (value) => {
+            for (let index = 0; index < value.length; index += 1) {
+                view.setUint8(offset + index, value.charCodeAt(index));
+            }
+            offset += value.length;
+        };
+
+        writeString('RIFF');
+        view.setUint32(offset, 36 + dataSize, true); offset += 4;
+        writeString('WAVE');
+        writeString('fmt ');
+        view.setUint32(offset, 16, true); offset += 4;
+        view.setUint16(offset, 1, true); offset += 2;
+        view.setUint16(offset, 1, true); offset += 2;
+        view.setUint32(offset, sampleRate, true); offset += 4;
+        view.setUint32(offset, sampleRate * bytesPerSample, true); offset += 4;
+        view.setUint16(offset, bytesPerSample, true); offset += 2;
+        view.setUint16(offset, 8 * bytesPerSample, true); offset += 2;
+        writeString('data');
+        view.setUint32(offset, dataSize, true); offset += 4;
+
+        for (let index = 0; index < sampleCount; index += 1) {
+            const sample = Math.sin((2 * Math.PI * 18 * index) / sampleRate) * 6;
+            view.setInt16(offset, sample, true);
+            offset += bytesPerSample;
+        }
+
+        if (location.protocol === 'file:') {
+            const bytes = new Uint8Array(buffer);
+            const chunkSize = 0x8000;
+            let binary = '';
+
+            for (let index = 0; index < bytes.length; index += chunkSize) {
+                binary += String.fromCharCode(...bytes.subarray(index, index + chunkSize));
+            }
+
+            keepAliveAudioUrl = `data:audio/wav;base64,${btoa(binary)}`;
+        } else {
+            keepAliveAudioUrl = URL.createObjectURL(new Blob([buffer], { type: 'audio/wav' }));
+        }
+
+        return keepAliveAudioUrl;
+    }
+
+    function ensureKeepAliveAudio() {
+        if (keepAliveAudio) return keepAliveAudio;
+
+        keepAliveAudio = document.createElement('audio');
+        keepAliveAudio.loop = true;
+        keepAliveAudio.preload = 'auto';
+        keepAliveAudio.playsInline = true;
+        keepAliveAudio.volume = 1;
+        keepAliveAudio.src = createKeepAliveAudioUrl();
+        keepAliveAudio.setAttribute('aria-hidden', 'true');
+        keepAliveAudio.setAttribute('webkit-playsinline', 'true');
+        keepAliveAudio.style.position = 'fixed';
+        keepAliveAudio.style.width = '1px';
+        keepAliveAudio.style.height = '1px';
+        keepAliveAudio.style.opacity = '0';
+        keepAliveAudio.style.pointerEvents = 'none';
+        keepAliveAudio.style.left = '-9999px';
+        keepAliveAudio.style.top = '-9999px';
+
+        const mount = () => {
+            if (document.body && !keepAliveAudio.isConnected) {
+                document.body.appendChild(keepAliveAudio);
+            }
+        };
+
+        if (document.body) {
+            mount();
+        } else {
+            document.addEventListener('DOMContentLoaded', mount, { once: true });
+        }
+
+        return keepAliveAudio;
+    }
+
+    function bindAudioUnlock() {
+        if (audioUnlockBound) return;
+        audioUnlockBound = true;
+
+        ['pointerdown', 'touchstart', 'click', 'keydown'].forEach((eventName) => {
+            document.addEventListener(eventName, handleAudioUnlock, {
+                capture: true,
+                passive: true
+            });
+        });
+    }
+
+    function unbindAudioUnlock() {
+        if (!audioUnlockBound) return;
+        audioUnlockBound = false;
+
+        ['pointerdown', 'touchstart', 'click', 'keydown'].forEach((eventName) => {
+            document.removeEventListener(eventName, handleAudioUnlock, true);
+        });
+    }
+
+    function handleAudioUnlock() {
+        if (settings.enabled) {
+            startKeepAliveAudio('user-gesture');
+        } else {
+            unbindAudioUnlock();
+        }
+    }
+
+    async function startKeepAliveAudio(reason = 'audio') {
+        if (!settings.enabled) return false;
+
+        const audio = ensureKeepAliveAudio();
+
+        try {
+            if (audio.paused || audio.ended) {
+                await audio.play();
+            }
+            unbindAudioUnlock();
+            window.dispatchEvent(new CustomEvent('u2:background-audio-active', {
+                detail: { reason, activeAt: Date.now() }
+            }));
+            return true;
+        } catch (error) {
+            bindAudioUnlock();
+            console.info('[background_activity] Audio keep-alive is waiting for a user gesture:', error);
+            return false;
+        }
+    }
+
+    function stopKeepAliveAudio() {
+        unbindAudioUnlock();
+
+        if (!keepAliveAudio) return;
+
+        keepAliveAudio.pause();
+        keepAliveAudio.currentTime = 0;
+    }
+
+    async function requestWakeLock() {
+        if (!settings.enabled || document.hidden || wakeLock || !navigator.wakeLock?.request) {
+            return;
+        }
+
+        try {
+            wakeLock = await navigator.wakeLock.request('screen');
+            wakeLock.addEventListener('release', () => {
+                wakeLock = null;
+            });
+        } catch (error) {
+            wakeLock = null;
+            console.info('[background_activity] Wake Lock is unavailable:', error);
+        }
+    }
+
+    function dispatchTick(reason) {
+        const now = Date.now();
+        const previousTickAt = settings.lastTickAt || 0;
+        settings.lastTickAt = now;
+        saveSettings();
+
+        window.dispatchEvent(new CustomEvent('u2:background-activity-tick', {
+            detail: {
+                reason,
+                enabled: settings.enabled,
+                intervalSeconds: settings.intervalSeconds,
+                tickAt: now,
+                previousTickAt,
+                elapsedSeconds: previousTickAt ? Math.max(0, Math.round((now - previousTickAt) / 1000)) : 0
+            }
+        }));
+    }
+
+    function maybeCatchUpAfterHidden() {
+        if (!settings.enabled || !settings.lastTickAt) return;
+
+        const elapsedMs = Date.now() - settings.lastTickAt;
+        if (elapsedMs >= settings.intervalSeconds * 1000) {
+            dispatchTick('resume');
+        }
+    }
+
+    function schedule() {
+        clearTimer();
+
+        if (!settings.enabled) {
+            return;
+        }
+
+        timerId = setInterval(() => {
+            dispatchTick('interval');
+        }, settings.intervalSeconds * 1000);
+    }
+
+    function start(reason = 'start') {
+        if (!settings.enabled) {
+            stop();
+            return;
+        }
+
+        if (!settings.lastTickAt) {
+            dispatchTick(reason);
+        } else {
+            maybeCatchUpAfterHidden();
+        }
+
+        schedule();
+        requestWakeLock();
+        startKeepAliveAudio(reason);
+    }
+
+    function stop() {
+        clearTimer();
+        releaseWakeLock();
+        stopKeepAliveAudio();
+    }
+
+    function updateSettings(nextSettings = {}) {
+        settings = normalize({
+            ...settings,
+            ...nextSettings
+        });
+        saveSettings();
+
+        if (settings.enabled) {
+            start('settings');
+        } else {
+            stop();
+        }
+
+        return getSettings();
+    }
+
+    function getSettings() {
+        return { ...settings };
+    }
+
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            releaseWakeLock();
+            schedule();
+            startKeepAliveAudio('hidden');
+            return;
+        }
+
+        start('visible');
+    });
+
+    window.addEventListener('pagehide', () => {
+        clearTimer();
+        releaseWakeLock();
+        stopKeepAliveAudio();
+    });
+
+    window.addEventListener('pageshow', () => {
+        start('pageshow');
+    });
+
+    window.u2BackgroundActivity = {
+        getSettings,
+        updateSettings,
+        start,
+        stop
+    };
+
+    if (settings.enabled) {
+        start('boot');
+    }
+})();

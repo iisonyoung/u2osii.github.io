@@ -1,1 +1,879 @@
-function _0x3003(_0x25f97e,_0x213de1){_0x25f97e=_0x25f97e-0x83;const _0x4be90b=_0x4be9();let _0x300377=_0x4be90b[_0x25f97e];return _0x300377;}function _0x4be9(){const _0x460c99=['cover','span','object','then','clientX','min','-\x20Maximillian','textarea','thumbSrc','setAppState','tabindex','function','右侧文字','src','profileTitle','.home-widget-image-thumb','showSearch','trim','textField','home-widget-image-thumb','[home_widget_panel_enhance]\x20getAppState\x20failed','showStatusBar','closest','target','getAppState','Posts','profileFollowing','[home_widget_panel_enhance]\x20StorageManager\x20save\x20failed','avatar','12iStkpN','stopPropagation','split','profile','.home-widget-text-input','pet','forEach','images','text','home-widget-image-input','774862xMmVkN','.home-widget-card-controls','左侧文字','touch','home-widget-image-btn','aria-label','742179bMCqoi','home-widget-text-input','图片\x203','body','重置透明度','显示状态栏','home-ios-battery','toggle-switch','small','home-ios-status-time','iisonyoung','dataset','36819jmcpGL','range','toggle','compressImage','onerror','home-widget-library','appendChild','.home-widget-image-url-input','remove','observe','歌词\x203','button','.home-widget-card-chevron','home-widget-image-field','style','9:41','组件背景透明度','home-widget-editor-field','musicLyric3','我喜欢淡淡的生活','rgba(','15725905dCKUuX','accept','removeAttribute','catch','DOMContentLoaded','step','widgetId','rgba(255,\x20255,\x20255,\x200.85)','className','checked','abs','StorageManager','.home-widget-form','getMinutes','getElementById','4235399TtjgWV','musicTitle','.home-widget-library-card','fas\x20fa-chevron-down','home-search-toggle','save','level','home_desktop_state','歌词\x202','372DumQik','querySelector','rgba(255,255,255,0.7)','home-ios-status-right','value','主界面底栏上方\x20Search\x20样式','notificationTitle','.home-widget-opacity-slider','setProperty','[home_widget_panel_enhance]\x20StorageManager\x20load\x20failed','Failed\x20to\x20read\x20image','match','disabled','气泡文字','home-widget-image-url-input','home-ios-status-bar','notificationDesc','disconnect','.home-widget-image-url-input[data-image-field=\x22','max','input','868155meBspV','widgets','slice','contains','onload','div','activeElement','coupleLeft','slider','.home-widget-image-input','home-statusbar-toggle','length','preventDefault','widgetType','padStart','--battery-level','load','pointermove','photo','home-widget-card-expanded','homeWidgetPanelEnhanceSettings','key','.home-widget-image-thumb[data-image-field=\x22','addEventListener','multiline','scrollFriendlyTouchBound','left','就像雨滴落在地面没有任何痕迹','2690KhZDhB','role','CSS','happytwogether','Following','18HqiGnC','img','右侧图片','files','click','home-widget-opacity-slider','levelchange','map','收起小组件设置','placeholder','classList','展开小组件设置','test','backgroundColor','6341yYRqTa','insertBefore','assign','home-widget-setting-row','imageField','4CmqzeC','querySelectorAll','home-ios-battery-level','replace','textContent','.couple-img-wrapper,\x20.couple-bubble','file','aria-expanded','fas\x20fa-wifi','oxo','join','includes','.pet-widget-img-wrapper','[home_widget_panel_enhance]\x20image\x20read\x20failed','desktop','warn','false','photo3','color','couple','inputId','rgba(255,\x20255,\x20255,\x200.7)','setAttribute','fas\x20fa-signal','profilePosts','100','顶部时间、电量等仿\x20iPhone\x20状态','[home_widget_panel_enhance]\x20setAppState\x20failed','inputMode','显示搜索','home-ios-status-left','string','photo2','图片链接\x20URL','change','true','home-panel-chrome-settings','8ZQQFHQ','profileFollowers','home-widget-reset-btn','label','fas\x20fa-image','rows','escape','type','is-added','name\x20@iisonyoung','desc','title','round','home-widget-editor-section','petText','url','getBattery','clientY','notification','battery','createElement'];_0x4be9=function(){return _0x460c99;};return _0x4be9();}(function(_0x5efceb,_0xc70413){const _0x325085=_0x3003,_0x17d6c5=_0x5efceb();while(!![]){try{const _0x5150ba=parseInt(_0x325085(0x133))/0x1*(-parseInt(_0x325085(0xef))/0x2)+parseInt(_0x325085(0xb6))/0x3*(-parseInt(_0x325085(0x138))/0x4)+parseInt(_0x325085(0x104))/0x5*(parseInt(_0x325085(0x125))/0x6)+-parseInt(_0x325085(0xe6))/0x7*(parseInt(_0x325085(0x15d))/0x8)+-parseInt(_0x325085(0xc2))/0x9*(-parseInt(_0x325085(0x120))/0xa)+-parseInt(_0x325085(0xb0))/0xb+parseInt(_0x325085(0xa6))/0xc*(parseInt(_0x325085(0xd7))/0xd);if(_0x5150ba===_0xc70413)break;else _0x17d6c5['push'](_0x17d6c5['shift']());}catch(_0x478b70){_0x17d6c5['push'](_0x17d6c5['shift']());}}}(_0x4be9,0xb1ea3),(function(){'use strict';const _0x5abcbf=_0x3003;const _0x3bb12d=_0x5abcbf(0x118),_0x37b6d3=_0x5abcbf(0x146),_0x582fc7={'profile':{'color':_0x5abcbf(0x14d)},'pet':{'color':'rgba(255,\x20255,\x20255,\x200.7)'},'music':{'color':_0x5abcbf(0x14d)},'couple':{'color':_0x5abcbf(0xde)},'photo':{'color':_0x5abcbf(0x14d)},'notification':{'color':_0x5abcbf(0x14d)}},_0x3ac614={'profileTitle':_0x5abcbf(0x166),'profilePosts':'0','profileFollowers':'1314','profileFollowing':'520','petText':_0x5abcbf(0x141),'musicTitle':_0x5abcbf(0x123),'musicArtist':_0x5abcbf(0x8f),'musicLyric1':_0x5abcbf(0xd5),'musicLyric2':'淡淡的情绪，淡淡的心情和简略的语言','musicLyric3':_0x5abcbf(0x11f),'coupleLeft':'左侧','coupleRight':'右侧','photoTitle':_0x5abcbf(0xc0),'photoBody':'','notificationTitle':'u2phone','notificationDesc':'I\x20was\x20with\x20you\x20in\x20a\x20happy,\x20translucent,\x20endless\x20dream.\x20In\x20contrast\x20to\x20my\x20usual\x20dreams.'},_0x546042={'profile':[{'key':_0x5abcbf(0x97),'label':'名称'},{'key':_0x5abcbf(0x150),'label':_0x5abcbf(0xa2)},{'key':_0x5abcbf(0x15e),'label':'Followers'},{'key':_0x5abcbf(0xa3),'label':_0x5abcbf(0x124)}],'pet':[{'key':_0x5abcbf(0x16b),'label':_0x5abcbf(0xfc)}],'music':[{'key':_0x5abcbf(0xe7),'label':'标题'},{'key':'musicLyric1','label':'歌词\x201'},{'key':'musicLyric2','label':_0x5abcbf(0xee)},{'key':_0x5abcbf(0xd4),'label':_0x5abcbf(0xcc)}],'couple':[{'key':_0x5abcbf(0x10b),'label':_0x5abcbf(0xb2)},{'key':'coupleRight','label':_0x5abcbf(0x95)}],'notification':[{'key':_0x5abcbf(0xf5),'label':'标题'},{'key':_0x5abcbf(0xff),'label':'内容','multiline':!![]}]},_0x52f792={'profile':[{'key':_0x5abcbf(0xa5),'label':'头像'}],'pet':[{'key':_0x5abcbf(0xab),'label':'图片'}],'music':[{'key':_0x5abcbf(0x89),'label':'封面'}],'couple':[{'key':_0x5abcbf(0x11e),'label':'左侧图片'},{'key':'right','label':_0x5abcbf(0x127)}],'photo':[{'key':_0x5abcbf(0x116),'label':'图片\x201'},{'key':_0x5abcbf(0x158),'label':'图片\x202'},{'key':_0x5abcbf(0x149),'label':_0x5abcbf(0xb8)}],'notification':[{'key':_0x5abcbf(0xa5),'label':'头像'}]};let _0xbf864a=null,_0x17c5af=0x64;document[_0x5abcbf(0x11b)](_0x5abcbf(0xdb),_0x392fb4);function _0x392fb4(){_0x5c6106(),_0x4a6340(),_0x3cd1f9(),_0x2add22(),_0x5be02c(),setInterval(_0x5be02c,0x7530),_0x43678f();}function _0x39a9a2(){const _0x24ead3=_0x5abcbf;try{const _0x4e0711=window['StorageManager']?.['load'](_0x3bb12d,{})||{};return{'showStatusBar':_0x4e0711[_0x24ead3(0x9e)]===!![],'showSearch':_0x4e0711[_0x24ead3(0x99)]!==![]};}catch(_0x4ffdc5){return{'showStatusBar':![],'showSearch':!![]};}}function _0x59237f(_0x450e36){const _0x337c74=_0x5abcbf;window[_0x337c74(0xe2)]?.[_0x337c74(0xeb)](_0x3bb12d,_0x450e36);}function _0x52fabe(){const _0x487fe6=_0x5abcbf;try{if(typeof window['getAppState']===_0x487fe6(0x94)){const _0x4fccbd=window[_0x487fe6(0xa1)](_0x37b6d3);if(_0x4fccbd&&typeof _0x4fccbd===_0x487fe6(0x8b))return _0x4fccbd;}}catch(_0x3352b1){console[_0x487fe6(0x147)](_0x487fe6(0x9d),_0x3352b1);}try{if(window[_0x487fe6(0xe2)]&&typeof window[_0x487fe6(0xe2)][_0x487fe6(0x114)]==='function'){const _0x59da76=window[_0x487fe6(0xe2)]['load']('home_desktop_state');if(_0x59da76&&typeof _0x59da76==='object')return _0x59da76;}}catch(_0x323d6f){console[_0x487fe6(0x147)](_0x487fe6(0xf8),_0x323d6f);}return null;}function _0x1cb3ba(_0x3cacf2){const _0x4f9444=_0x5abcbf;try{if(typeof window[_0x4f9444(0x92)]===_0x4f9444(0x94)){window['setAppState'](_0x37b6d3,_0x3cacf2);return;}}catch(_0x325dc6){console['warn'](_0x4f9444(0x153),_0x325dc6);}try{window['StorageManager']&&typeof window['StorageManager'][_0x4f9444(0xeb)]===_0x4f9444(0x94)&&window[_0x4f9444(0xe2)][_0x4f9444(0xeb)](_0x4f9444(0xed),_0x3cacf2);}catch(_0x296438){console[_0x4f9444(0x147)](_0x4f9444(0xa4),_0x296438);}}function _0x4a6340(){const _0x22aec9=_0x5abcbf,_0x17ddf8=document[_0x22aec9(0xf0)](_0x22aec9(0xe3)),_0x4b486a=document[_0x22aec9(0xe5)](_0x22aec9(0xc7));if(!_0x17ddf8||!_0x4b486a||document[_0x22aec9(0xe5)]('home-panel-chrome-settings'))return;const _0x216cb8=_0x39a9a2(),_0xdb5166=document['createElement']('div');_0xdb5166[_0x22aec9(0xdf)]='home-widget-panel-settings',_0xdb5166['id']=_0x22aec9(0x15c),_0xdb5166[_0x22aec9(0xc8)](_0x104fa9({'title':_0x22aec9(0xbb),'desc':_0x22aec9(0x152),'inputId':_0x22aec9(0x10e),'checked':_0x216cb8[_0x22aec9(0x9e)],'onChange':function(_0xeeac3a){const _0x15a5a3=_0x22aec9,_0x3acccf=Object[_0x15a5a3(0x135)]({},_0x39a9a2(),{'showStatusBar':_0xeeac3a});_0x59237f(_0x3acccf),_0x3cd1f9();}})),_0xdb5166[_0x22aec9(0xc8)](_0x104fa9({'title':_0x22aec9(0x155),'desc':_0x22aec9(0xf4),'inputId':_0x22aec9(0xea),'checked':_0x216cb8[_0x22aec9(0x99)],'onChange':function(_0x178ad2){const _0x4ac45a=_0x22aec9,_0x4b808e=Object[_0x4ac45a(0x135)]({},_0x39a9a2(),{'showSearch':_0x178ad2});_0x59237f(_0x4b808e),_0x3cd1f9();}})),_0x17ddf8[_0x22aec9(0x134)](_0xdb5166,_0x4b486a);}function _0x104fa9(_0x381d1c){const _0xaef6b8=_0x5abcbf,_0x4b56a1=document['createElement'](_0xaef6b8(0x109));_0x4b56a1[_0xaef6b8(0xdf)]=_0xaef6b8(0x136);const _0x4d4826=document[_0xaef6b8(0x88)]('div'),_0x12a040=document[_0xaef6b8(0x88)]('span');_0x12a040['textContent']=_0x381d1c[_0xaef6b8(0x168)];const _0x10947f=document[_0xaef6b8(0x88)](_0xaef6b8(0xbe));_0x10947f[_0xaef6b8(0x13c)]=_0x381d1c[_0xaef6b8(0x167)],_0x4d4826[_0xaef6b8(0xc8)](_0x12a040),_0x4d4826[_0xaef6b8(0xc8)](_0x10947f);const _0x52dc53=document['createElement']('label');_0x52dc53['className']=_0xaef6b8(0xbd);const _0x41ba8f=document[_0xaef6b8(0x88)]('input');_0x41ba8f[_0xaef6b8(0x164)]='checkbox',_0x41ba8f['id']=_0x381d1c[_0xaef6b8(0x14c)],_0x41ba8f[_0xaef6b8(0xe0)]=!!_0x381d1c[_0xaef6b8(0xe0)];const _0x3e90aa=document[_0xaef6b8(0x88)]('span');return _0x3e90aa[_0xaef6b8(0xdf)]=_0xaef6b8(0x10c),_0x41ba8f[_0xaef6b8(0x11b)](_0xaef6b8(0x15a),function(){const _0x3b87d3=_0xaef6b8;_0x381d1c['onChange'](_0x41ba8f[_0x3b87d3(0xe0)]);}),_0x52dc53[_0xaef6b8(0xc8)](_0x41ba8f),_0x52dc53[_0xaef6b8(0xc8)](_0x3e90aa),_0x4b56a1['appendChild'](_0x4d4826),_0x4b56a1[_0xaef6b8(0xc8)](_0x52dc53),_0x4b56a1;}function _0x3cd1f9(){const _0x2b0c32=_0x5abcbf,_0x4b936b=_0x39a9a2();document[_0x2b0c32(0xb9)]['classList']['toggle']('home-statusbar-visible',_0x4b936b['showStatusBar']),document[_0x2b0c32(0xb9)]['classList'][_0x2b0c32(0xc4)]('home-search-hidden',!_0x4b936b[_0x2b0c32(0x99)]);const _0x35d5ce=document[_0x2b0c32(0xe5)]('home-statusbar-toggle'),_0x40a2ce=document[_0x2b0c32(0xe5)](_0x2b0c32(0xea));if(_0x35d5ce)_0x35d5ce[_0x2b0c32(0xe0)]=_0x4b936b['showStatusBar'];if(_0x40a2ce)_0x40a2ce[_0x2b0c32(0xe0)]=_0x4b936b[_0x2b0c32(0x99)];}function _0x5c6106(){const _0x3c4089=_0x5abcbf,_0x77b92=document[_0x3c4089(0xe5)]('app');if(!_0x77b92||document['getElementById'](_0x3c4089(0xfe)))return;const _0x5066ad=document[_0x3c4089(0x88)](_0x3c4089(0x109));_0x5066ad[_0x3c4089(0xdf)]=_0x3c4089(0xfe),_0x5066ad['id']=_0x3c4089(0xfe);const _0x4f216a=document['createElement'](_0x3c4089(0x109));_0x4f216a[_0x3c4089(0xdf)]=_0x3c4089(0x156),_0x4f216a['id']=_0x3c4089(0xbf),_0x4f216a['textContent']=_0x3c4089(0xd1);const _0x2e4fd1=document[_0x3c4089(0x88)](_0x3c4089(0x109));_0x2e4fd1[_0x3c4089(0xdf)]=_0x3c4089(0xf2);const _0x17b961=document[_0x3c4089(0x88)]('i');_0x17b961['className']=_0x3c4089(0x14f);const _0x274c4e=document[_0x3c4089(0x88)]('i');_0x274c4e[_0x3c4089(0xdf)]=_0x3c4089(0x140);const _0x9d3580=document[_0x3c4089(0x88)](_0x3c4089(0x109));_0x9d3580[_0x3c4089(0xdf)]=_0x3c4089(0xbc),_0x9d3580[_0x3c4089(0x14e)](_0x3c4089(0xb5),_0x3c4089(0x87));const _0x12aeb6=document['createElement'](_0x3c4089(0x109));_0x12aeb6[_0x3c4089(0xdf)]=_0x3c4089(0x13a),_0x12aeb6['id']=_0x3c4089(0x13a),_0x9d3580[_0x3c4089(0xc8)](_0x12aeb6),_0x2e4fd1[_0x3c4089(0xc8)](_0x17b961),_0x2e4fd1[_0x3c4089(0xc8)](_0x274c4e),_0x2e4fd1['appendChild'](_0x9d3580),_0x5066ad[_0x3c4089(0xc8)](_0x4f216a),_0x5066ad[_0x3c4089(0xc8)](_0x2e4fd1),_0x77b92[_0x3c4089(0x134)](_0x5066ad,_0x77b92['firstChild']);}function _0x5be02c(){const _0x368ba1=_0x5abcbf,_0x28af90=document['getElementById'](_0x368ba1(0xbf));if(!_0x28af90)return;const _0x4e8b50=new Date();_0x28af90[_0x368ba1(0x13c)]=_0x4e8b50['getHours']()+':'+String(_0x4e8b50[_0x368ba1(0xe4)]())[_0x368ba1(0x112)](0x2,'0');const _0x1098b6=document[_0x368ba1(0xe5)](_0x368ba1(0x13a));_0x1098b6&&_0x1098b6[_0x368ba1(0xd0)][_0x368ba1(0xf7)](_0x368ba1(0x113),Math[_0x368ba1(0x102)](0x8,Math[_0x368ba1(0x8e)](0x64,_0x17c5af))+'%');}function _0x43678f(){const _0x531e16=_0x5abcbf;if(!navigator[_0x531e16(0x84)])return;navigator['getBattery']()['then'](function(_0x4a6236){const _0x4ecbef=_0x531e16,_0x33d6cf=function(){const _0x8eb8aa=_0x3003;_0x17c5af=Math[_0x8eb8aa(0x169)]((_0x4a6236[_0x8eb8aa(0xec)]||0x1)*0x64),_0x5be02c();};_0x33d6cf(),_0x4a6236[_0x4ecbef(0x11b)](_0x4ecbef(0x12b),_0x33d6cf);})[_0x531e16(0xda)](function(){});}function _0x2add22(){const _0x335e97=_0x5abcbf,_0x549492=document['getElementById'](_0x335e97(0xc7));if(!_0x549492){setTimeout(_0x2add22,0xfa);return;}_0x35052d();if(_0xbf864a)_0xbf864a[_0x335e97(0x100)]();_0xbf864a=new MutationObserver(_0x35052d),_0xbf864a[_0x335e97(0xcb)](_0x549492,{'childList':!![]}),_0xdbae1a(_0x549492),_0x549492[_0x335e97(0x11b)](_0x335e97(0x129),_0x304e70,!![]),_0x549492[_0x335e97(0x11b)](_0x335e97(0x103),_0x17599e,!![]),_0x549492[_0x335e97(0x11b)](_0x335e97(0x15a),_0x455c71,!![]);}function _0xdbae1a(_0x37e563){const _0x32cd2a=_0x5abcbf;if(_0x37e563[_0x32cd2a(0xc1)][_0x32cd2a(0x11d)]==='1')return;_0x37e563[_0x32cd2a(0xc1)][_0x32cd2a(0x11d)]='1';let _0x5e93a6=0x0,_0x2defc7=0x0,_0x4e0f88=![];_0x37e563[_0x32cd2a(0x11b)]('pointerdown',function(_0x3d43ba){const _0x2c121f=_0x32cd2a;if(_0x3d43ba['pointerType']!==_0x2c121f(0xb3))return;_0x5e93a6=_0x3d43ba[_0x2c121f(0x8d)],_0x2defc7=_0x3d43ba[_0x2c121f(0x85)],_0x4e0f88=![];},{'passive':!![]}),_0x37e563[_0x32cd2a(0x11b)](_0x32cd2a(0x115),function(_0x1035d5){const _0x5791af=_0x32cd2a;if(_0x1035d5['pointerType']!==_0x5791af(0xb3))return;const _0x59118d=Math[_0x5791af(0xe1)](_0x1035d5[_0x5791af(0x8d)]-_0x5e93a6),_0x3214c3=Math['abs'](_0x1035d5['clientY']-_0x2defc7);if(_0x59118d>0x8||_0x3214c3>0x8)_0x4e0f88=!![];},{'passive':!![]}),_0x37e563[_0x32cd2a(0x11b)](_0x32cd2a(0x129),function(_0x3ae58b){if(!_0x4e0f88)return;_0x3ae58b['preventDefault'](),_0x3ae58b['stopPropagation'](),_0x4e0f88=![];},!![]);}function _0x35052d(){const _0x4d927f=_0x5abcbf,_0x113cd8=document[_0x4d927f(0xe5)](_0x4d927f(0xc7));if(!_0x113cd8)return;_0x113cd8[_0x4d927f(0x139)](_0x4d927f(0xe8))[_0x4d927f(0xac)](function(_0x47f415){const _0x5ee992=_0x4d927f,_0x2244ff=_0x47f415[_0x5ee992(0xc1)]['widgetId'];if(!_0x2244ff)return;if(_0x47f415[_0x5ee992(0x12f)][_0x5ee992(0x107)](_0x5ee992(0x165))){_0x47f415[_0x5ee992(0xfb)]=![],_0x47f415[_0x5ee992(0xd9)](_0x5ee992(0x121)),_0x47f415[_0x5ee992(0xd9)](_0x5ee992(0x93)),_0x47f415[_0x5ee992(0x14e)](_0x5ee992(0x13f),_0x47f415[_0x5ee992(0x12f)][_0x5ee992(0x107)](_0x5ee992(0x117))?_0x5ee992(0x15b):_0x5ee992(0x148));if(!_0x47f415[_0x5ee992(0xf0)]('.home-widget-card-chevron')){const _0x1f929d=document[_0x5ee992(0x88)](_0x5ee992(0xcd));_0x1f929d['className']='home-widget-card-chevron',_0x1f929d[_0x5ee992(0x164)]=_0x5ee992(0xcd),_0x1f929d[_0x5ee992(0x14e)]('aria-label',_0x47f415[_0x5ee992(0x12f)][_0x5ee992(0x107)](_0x5ee992(0x117))?_0x5ee992(0x12d):_0x5ee992(0x130));const _0x35f212=document[_0x5ee992(0x88)]('i');_0x35f212[_0x5ee992(0xdf)]=_0x5ee992(0xe9),_0x1f929d[_0x5ee992(0xc8)](_0x35f212),_0x47f415[_0x5ee992(0xc8)](_0x1f929d);}!_0x47f415['querySelector'](_0x5ee992(0xb1))?_0x47f415[_0x5ee992(0xc8)](_0x50bdcb(_0x47f415)):_0x4a4c41(_0x47f415);}else{_0x47f415[_0x5ee992(0x12f)]['remove'](_0x5ee992(0x117));const _0x3986cf=_0x47f415['querySelector'](_0x5ee992(0xb1));if(_0x3986cf)_0x3986cf['remove']();const _0x147662=_0x47f415[_0x5ee992(0xf0)]('.home-widget-card-chevron');if(_0x147662)_0x147662[_0x5ee992(0xca)]();}});}function _0x304e70(_0x5495d7){const _0xcc0146=_0x5abcbf,_0x253b2f=_0x5495d7[_0xcc0146(0xa0)][_0xcc0146(0x9f)](_0xcc0146(0xce)),_0x34edd5=_0x253b2f&&_0x253b2f[_0xcc0146(0x9f)]('.home-widget-library-card.is-added');if(!_0x34edd5)return;_0x5495d7[_0xcc0146(0x110)](),_0x5495d7['stopPropagation'](),_0x34edd5[_0xcc0146(0x12f)][_0xcc0146(0xc4)](_0xcc0146(0x117));const _0x25985e=_0x34edd5[_0xcc0146(0x12f)][_0xcc0146(0x107)](_0xcc0146(0x117));_0x34edd5['setAttribute'](_0xcc0146(0x13f),_0x25985e?_0xcc0146(0x15b):_0xcc0146(0x148)),_0x253b2f[_0xcc0146(0x14e)]('aria-label',_0x25985e?_0xcc0146(0x12d):_0xcc0146(0x130)),_0x4a4c41(_0x34edd5);}function _0x17599e(_0x2b680d){const _0x15c178=_0x5abcbf,_0x2485dc=_0x2b680d[_0x15c178(0xa0)][_0x15c178(0x9f)](_0x15c178(0xc9));if(_0x2485dc){const _0xb724b5=_0x2485dc[_0x15c178(0x9f)](_0x15c178(0xe8)),_0x16abab=_0xb724b5&&_0xb724b5['dataset'][_0x15c178(0xdd)],_0x4021db=_0x2485dc[_0x15c178(0xc1)][_0x15c178(0x137)],_0x1b114d=_0x2485dc[_0x15c178(0xf3)]['trim']();if(!_0x16abab||!_0x4021db)return;(!_0x1b114d||_0x2a523d(_0x1b114d))&&(_0x68d5f7(_0x16abab,_0x4021db,_0x1b114d),_0x1c0038(_0xb724b5,_0x4021db,_0x1b114d));return;}const _0x4c1f76=_0x2b680d[_0x15c178(0xa0)]['closest'](_0x15c178(0xaa));if(_0x4c1f76){const _0xe12c10=_0x4c1f76['closest'](_0x15c178(0xe8)),_0x2fbf6c=_0xe12c10&&_0xe12c10['dataset'][_0x15c178(0xdd)],_0x3faaa7=_0x4c1f76[_0x15c178(0xc1)]['textField'];if(!_0x2fbf6c||!_0x3faaa7)return;_0x3d9e73(_0x2fbf6c,_0x3faaa7,_0x4c1f76[_0x15c178(0xf3)]);return;}const _0x3facb4=_0x2b680d[_0x15c178(0xa0)][_0x15c178(0x9f)](_0x15c178(0xf6));if(!_0x3facb4)return;const _0x1278a2=_0x3facb4[_0x15c178(0x9f)](_0x15c178(0xe8)),_0x14c268=_0x1278a2&&_0x1278a2[_0x15c178(0xc1)][_0x15c178(0xdd)],_0x2f3aba=_0x1278a2&&_0x1278a2[_0x15c178(0xc1)][_0x15c178(0x111)]||_0x3dc733(_0x14c268);if(!_0x14c268||!_0x2f3aba)return;const _0x3befc1=Number(_0x3facb4[_0x15c178(0xf3)])/0x64;_0x29a756(_0x14c268,_0x2f3aba,_0x3befc1),_0x4a4c41(_0x1278a2,_0x3befc1);}function _0x455c71(_0xe0b742){const _0x12465e=_0x5abcbf,_0x58abca=_0xe0b742[_0x12465e(0xa0)][_0x12465e(0x9f)](_0x12465e(0x10d));if(!_0x58abca)return;const _0x4cf71e=_0x58abca[_0x12465e(0x9f)]('.home-widget-library-card'),_0x5f4bae=_0x4cf71e&&_0x4cf71e[_0x12465e(0xc1)]['widgetId'],_0x4f0186=_0x58abca[_0x12465e(0xc1)][_0x12465e(0x137)],_0x1e59af=_0x58abca[_0x12465e(0x128)]&&_0x58abca[_0x12465e(0x128)][0x0];_0x58abca[_0x12465e(0xf3)]='';if(!_0x5f4bae||!_0x4f0186||!_0x1e59af)return;_0x4db0a8(_0x1e59af)[_0x12465e(0x8c)](function(_0x43329c){_0x68d5f7(_0x5f4bae,_0x4f0186,_0x43329c),_0x1c0038(_0x4cf71e,_0x4f0186,_0x43329c);})[_0x12465e(0xda)](function(_0x336c1b){const _0x2b90f1=_0x12465e;console[_0x2b90f1(0x147)](_0x2b90f1(0x145),_0x336c1b);});}function _0x50bdcb(_0xf1c2ec){const _0x1bff9e=_0x5abcbf,_0x2c60d4=_0xf1c2ec[_0x1bff9e(0xc1)][_0x1bff9e(0xdd)],_0x32aae0=_0xf1c2ec[_0x1bff9e(0xc1)]['widgetType']||_0x3dc733(_0x2c60d4),_0x580e22=_0x14082e(_0x2c60d4,_0x32aae0),_0x4b69b2=_0x40e396(_0x2c60d4,_0x32aae0),_0x226bcc=document['createElement'](_0x1bff9e(0x109));_0x226bcc[_0x1bff9e(0xdf)]='home-widget-card-controls';const _0x26a2d3=document[_0x1bff9e(0x88)](_0x1bff9e(0x109));_0x26a2d3[_0x1bff9e(0xdf)]=_0x1bff9e(0x16a),_0x26a2d3[_0x1bff9e(0xc8)](_0x1891e1('内容'));const _0x5ae2b3=_0x546042[_0x32aae0]||[];_0x5ae2b3['forEach'](function(_0x279161){const _0x206e7f=_0x1bff9e;_0x26a2d3[_0x206e7f(0xc8)](_0x211eb3(_0x279161,_0x4b69b2));});const _0x1ec29c=_0x52f792[_0x32aae0]||[],_0x79b476=document[_0x1bff9e(0x88)]('div');_0x79b476[_0x1bff9e(0xdf)]=_0x1bff9e(0x16a),_0x79b476[_0x1bff9e(0xc8)](_0x1891e1('图片')),_0x1ec29c[_0x1bff9e(0xac)](function(_0x1fb58a){const _0x5aa953=_0x1bff9e;_0x79b476[_0x5aa953(0xc8)](_0x319ab4(_0x1fb58a,_0x4b69b2));});const _0x1755ca=document[_0x1bff9e(0x88)](_0x1bff9e(0x109));_0x1755ca[_0x1bff9e(0xdf)]='home-widget-opacity-label';const _0x1daa1c=document[_0x1bff9e(0x88)](_0x1bff9e(0x8a));_0x1daa1c[_0x1bff9e(0x13c)]=_0x1bff9e(0xd2);const _0x5a81c=document['createElement'](_0x1bff9e(0x8a));_0x5a81c['className']='home-widget-opacity-value',_0x5a81c[_0x1bff9e(0x13c)]=Math[_0x1bff9e(0x169)](_0x580e22*0x64)+'%',_0x1755ca[_0x1bff9e(0xc8)](_0x1daa1c),_0x1755ca[_0x1bff9e(0xc8)](_0x5a81c);const _0x30639c=document[_0x1bff9e(0x88)]('div');_0x30639c[_0x1bff9e(0xdf)]='home-widget-opacity-row';const _0x5cf677=document[_0x1bff9e(0x88)](_0x1bff9e(0x103));_0x5cf677[_0x1bff9e(0xdf)]=_0x1bff9e(0x12a),_0x5cf677[_0x1bff9e(0x164)]=_0x1bff9e(0xc3),_0x5cf677['min']='0',_0x5cf677[_0x1bff9e(0x102)]=_0x1bff9e(0x151),_0x5cf677[_0x1bff9e(0xdc)]='1',_0x5cf677[_0x1bff9e(0xf3)]=String(Math[_0x1bff9e(0x169)](_0x580e22*0x64)),_0x5cf677['setAttribute']('aria-label',_0x1bff9e(0xd2));const _0x200ae0=document['createElement'](_0x1bff9e(0xcd));_0x200ae0[_0x1bff9e(0xdf)]=_0x1bff9e(0x15f),_0x200ae0[_0x1bff9e(0x164)]=_0x1bff9e(0xcd),_0x200ae0[_0x1bff9e(0x168)]=_0x1bff9e(0xba),_0x200ae0[_0x1bff9e(0x14e)](_0x1bff9e(0xb5),_0x1bff9e(0xba));const _0x56569e=document[_0x1bff9e(0x88)]('i');_0x56569e[_0x1bff9e(0xdf)]='fas\x20fa-rotate-left',_0x200ae0[_0x1bff9e(0xc8)](_0x56569e),_0x200ae0[_0x1bff9e(0x11b)](_0x1bff9e(0x129),function(_0x405008){const _0x42b5bf=_0x1bff9e;_0x405008[_0x42b5bf(0x110)](),_0x405008[_0x42b5bf(0xa7)]();const _0x1a6812=_0xf1c2ec['dataset'][_0x42b5bf(0x111)]||_0x3dc733(_0x2c60d4);_0x3f1f8b(_0x2c60d4,_0x1a6812),_0x4a4c41(_0xf1c2ec);}),_0x30639c[_0x1bff9e(0xc8)](_0x5cf677),_0x30639c[_0x1bff9e(0xc8)](_0x200ae0);const _0xf75fff=document[_0x1bff9e(0x88)](_0x1bff9e(0x109));_0xf75fff[_0x1bff9e(0xdf)]=_0x1bff9e(0x16a),_0xf75fff[_0x1bff9e(0xc8)](_0x1755ca),_0xf75fff[_0x1bff9e(0xc8)](_0x30639c);if(_0x5ae2b3[_0x1bff9e(0x10f)])_0x226bcc[_0x1bff9e(0xc8)](_0x26a2d3);if(_0x1ec29c[_0x1bff9e(0x10f)])_0x226bcc[_0x1bff9e(0xc8)](_0x79b476);return _0x226bcc[_0x1bff9e(0xc8)](_0xf75fff),_0x226bcc;}function _0x1891e1(_0x18ff19){const _0x17e81a=_0x5abcbf,_0x238a66=document[_0x17e81a(0x88)]('div');return _0x238a66['className']='home-widget-editor-title',_0x238a66[_0x17e81a(0x13c)]=_0x18ff19,_0x238a66;}function _0x211eb3(_0x4f5ad6,_0x58bc68){const _0x28212d=_0x5abcbf,_0x1de1f6=document[_0x28212d(0x88)]('label');_0x1de1f6['className']=_0x28212d(0xd3);const _0x4805fa=document['createElement']('span');_0x4805fa[_0x28212d(0x13c)]=_0x4f5ad6[_0x28212d(0x160)];const _0x5bfb39=document['createElement'](_0x4f5ad6['multiline']?_0x28212d(0x90):'input');_0x5bfb39[_0x28212d(0xdf)]=_0x28212d(0xb7),_0x5bfb39[_0x28212d(0xc1)]['textField']=_0x4f5ad6['key'],_0x5bfb39[_0x28212d(0xf3)]=_0x30aa5a(_0x58bc68,_0x4f5ad6[_0x28212d(0x119)]);if(!_0x4f5ad6[_0x28212d(0x11c)])_0x5bfb39[_0x28212d(0x164)]=_0x28212d(0xae);if(_0x4f5ad6[_0x28212d(0x11c)])_0x5bfb39[_0x28212d(0x162)]=0x2;return _0x1de1f6[_0x28212d(0xc8)](_0x4805fa),_0x1de1f6[_0x28212d(0xc8)](_0x5bfb39),_0x1de1f6;}function _0x319ab4(_0x4abe3c,_0x477fae){const _0x507a79=_0x5abcbf,_0x3f3ee2=document[_0x507a79(0x88)](_0x507a79(0x109));_0x3f3ee2[_0x507a79(0xdf)]=_0x507a79(0xcf);const _0x5ce7e7=document[_0x507a79(0x88)](_0x507a79(0xcd));_0x5ce7e7[_0x507a79(0xdf)]=_0x507a79(0xb4),_0x5ce7e7[_0x507a79(0x164)]=_0x507a79(0xcd),_0x5ce7e7[_0x507a79(0xc1)][_0x507a79(0x137)]=_0x4abe3c[_0x507a79(0x119)],_0x5ce7e7[_0x507a79(0x14e)](_0x507a79(0xb5),'更换'+_0x4abe3c[_0x507a79(0x160)]);const _0x28c134=_0x5b6323(_0x477fae,_0x4abe3c['key']),_0x5c776c=document['createElement'](_0x507a79(0x8a));_0x5c776c['className']=_0x507a79(0x9c),_0x5c776c['dataset'][_0x507a79(0x137)]=_0x4abe3c[_0x507a79(0x119)],_0xd3fdde(_0x5c776c,_0x28c134);const _0x492b71=document[_0x507a79(0x88)](_0x507a79(0x8a));_0x492b71[_0x507a79(0x13c)]=_0x4abe3c[_0x507a79(0x160)];const _0x22ddd1=document[_0x507a79(0x88)]('i');_0x22ddd1[_0x507a79(0xdf)]=_0x507a79(0x161),_0x5ce7e7['appendChild'](_0x5c776c),_0x5ce7e7[_0x507a79(0xc8)](_0x492b71),_0x5ce7e7[_0x507a79(0xc8)](_0x22ddd1);const _0x940bbd=document['createElement'](_0x507a79(0x103));_0x940bbd[_0x507a79(0xdf)]=_0x507a79(0xaf),_0x940bbd[_0x507a79(0x164)]=_0x507a79(0x13e),_0x940bbd[_0x507a79(0xd8)]='image/*',_0x940bbd['dataset']['imageField']=_0x4abe3c[_0x507a79(0x119)];const _0x1307bb=document['createElement'](_0x507a79(0x103));return _0x1307bb[_0x507a79(0xdf)]=_0x507a79(0xfd),_0x1307bb['type']='url',_0x1307bb[_0x507a79(0x154)]=_0x507a79(0x83),_0x1307bb[_0x507a79(0x12e)]=_0x507a79(0x159),_0x1307bb[_0x507a79(0xc1)][_0x507a79(0x137)]=_0x4abe3c[_0x507a79(0x119)],_0x1307bb[_0x507a79(0xf3)]=_0x2a523d(_0x28c134)?_0x28c134:'',_0x5ce7e7[_0x507a79(0x11b)](_0x507a79(0x129),function(_0x30dae6){const _0x4f31ac=_0x507a79;_0x30dae6[_0x4f31ac(0x110)](),_0x30dae6['stopPropagation'](),_0x940bbd['click']();}),_0x3f3ee2[_0x507a79(0xc8)](_0x5ce7e7),_0x3f3ee2['appendChild'](_0x940bbd),_0x3f3ee2['appendChild'](_0x1307bb),_0x3f3ee2;}function _0x4a4c41(_0x477c4c,_0x244e87){const _0x15b595=_0x5abcbf,_0x269eb8=_0x477c4c&&_0x477c4c[_0x15b595(0xc1)][_0x15b595(0xdd)],_0x56a379=_0x477c4c&&_0x477c4c['dataset'][_0x15b595(0x111)]||_0x3dc733(_0x269eb8);if(!_0x269eb8||!_0x56a379)return;const _0x1b94c7=_0x40e396(_0x269eb8,_0x56a379),_0x488fcd=typeof _0x244e87==='number'?_0x244e87:_0x14082e(_0x269eb8,_0x56a379),_0x377699=Math[_0x15b595(0x169)](_0x488fcd*0x64),_0x280a0e=_0x477c4c[_0x15b595(0xf0)]('.home-widget-opacity-slider'),_0x1b022a=_0x477c4c[_0x15b595(0xf0)]('.home-widget-opacity-value');if(_0x280a0e)_0x280a0e['value']=String(_0x377699);if(_0x1b022a)_0x1b022a['textContent']=_0x377699+'%';_0x477c4c['querySelectorAll'](_0x15b595(0xaa))[_0x15b595(0xac)](function(_0x544466){const _0x3d8e54=_0x15b595,_0x3a3c4a=document['activeElement']===_0x544466;if(!_0x3a3c4a)_0x544466[_0x3d8e54(0xf3)]=_0x30aa5a(_0x1b94c7,_0x544466[_0x3d8e54(0xc1)][_0x3d8e54(0x9b)]);}),_0x477c4c[_0x15b595(0x139)](_0x15b595(0x98))[_0x15b595(0xac)](function(_0x36491b){const _0xa03e5f=_0x15b595;_0xd3fdde(_0x36491b,_0x5b6323(_0x1b94c7,_0x36491b[_0xa03e5f(0xc1)][_0xa03e5f(0x137)]));}),_0x477c4c[_0x15b595(0x139)](_0x15b595(0xc9))[_0x15b595(0xac)](function(_0x4ace99){const _0x4cc0be=_0x15b595,_0x5d28d6=document['activeElement']===_0x4ace99,_0x3fb4d9=_0x5b6323(_0x1b94c7,_0x4ace99[_0x4cc0be(0xc1)]['imageField']);if(!_0x5d28d6)_0x4ace99['value']=_0x2a523d(_0x3fb4d9)?_0x3fb4d9:'';});}function _0x1c0038(_0xadd6df,_0x204734,_0x5b43ab){const _0x37d64a=_0x5abcbf;if(!_0xadd6df||!_0x204734)return;const _0x18ad97=_0xadd6df[_0x37d64a(0xf0)](_0x37d64a(0x11a)+_0xc6cd34(_0x204734)+'\x22]');if(_0x18ad97)_0xd3fdde(_0x18ad97,_0x5b43ab);const _0x3b3407=_0xadd6df[_0x37d64a(0xf0)](_0x37d64a(0x101)+_0xc6cd34(_0x204734)+'\x22]');if(_0x3b3407&&document[_0x37d64a(0x10a)]!==_0x3b3407)_0x3b3407['value']=_0x2a523d(_0x5b43ab)?_0x5b43ab:'';}function _0x3dc733(_0x2020f7){const _0x83483=_0x5abcbf,_0x287b0d=_0x52fabe();return _0x287b0d&&_0x287b0d[_0x83483(0x105)]&&_0x287b0d[_0x83483(0x105)][_0x2020f7]&&_0x287b0d[_0x83483(0x105)][_0x2020f7]['type']||_0x1b61ab(_0x2020f7);}function _0x1b61ab(_0x5efd2c){const _0x324468=_0x5abcbf,_0x21a8c6=_0x5efd2c||'';if(_0x21a8c6['includes'](_0x324468(0xa9)))return _0x324468(0xa9);if(_0x21a8c6[_0x324468(0x143)](_0x324468(0xab)))return _0x324468(0xab);if(_0x21a8c6[_0x324468(0x143)]('music'))return'music';if(_0x21a8c6[_0x324468(0x143)]('couple'))return'couple';if(_0x21a8c6[_0x324468(0x143)](_0x324468(0x86)))return _0x324468(0x86);return _0x324468(0x116);}function _0x40e396(_0x26bb2e,_0x103442){const _0x247642=_0x5abcbf,_0x400123=_0x103442||_0x3dc733(_0x26bb2e)||_0x247642(0x116),_0x4f8041=_0x52fabe(),_0x31222d=_0x4f8041&&_0x4f8041['widgets']&&_0x4f8041['widgets'][_0x26bb2e]?_0x4f8041[_0x247642(0x105)][_0x26bb2e]:{};return{'type':_0x400123,'color':_0x31222d['color']||_0x582fc7[_0x400123]&&_0x582fc7[_0x400123][_0x247642(0x14a)]||_0x247642(0xf1),'text':Object['assign']({},_0x3ac614,_0x31222d[_0x247642(0xae)]||{}),'images':Object[_0x247642(0x135)]({},_0x31222d[_0x247642(0xad)]||{})};}function _0x30aa5a(_0x1d2cc1,_0x43d2a6){const _0x149713=_0x5abcbf;return String(_0x1d2cc1&&_0x1d2cc1[_0x149713(0xae)]&&_0x1d2cc1[_0x149713(0xae)][_0x43d2a6]||_0x3ac614[_0x43d2a6]||'');}function _0x5b6323(_0x2d5dc2,_0x1b6110){const _0x778c35=_0x5abcbf;return _0x2d5dc2&&_0x2d5dc2[_0x778c35(0xad)]&&_0x2d5dc2[_0x778c35(0xad)][_0x1b6110]||'';}function _0x3d9e73(_0x3cd49b,_0x2c32ea,_0x1dc5fe){const _0x4ef217=_0x5abcbf,_0x12ef52=_0x40e396(_0x3cd49b);_0x12ef52[_0x4ef217(0xae)][_0x2c32ea]=_0x1dc5fe,_0x4155cb(_0x3cd49b,{'text':_0x12ef52['text']});}function _0x68d5f7(_0x101b51,_0x3d9436,_0x28a201){const _0x4bf22c=_0x5abcbf,_0x1ab378=_0x40e396(_0x101b51);_0x1ab378['images'][_0x3d9436]=_0x28a201,_0x4155cb(_0x101b51,{'images':_0x1ab378[_0x4bf22c(0xad)]});}function _0x4155cb(_0x5586d6,_0x2a63a9){const _0x4ccb83=_0x5abcbf;if(!_0x5586d6||!_0x2a63a9)return null;if(typeof window['updateHomeWidgetConfigFromPanel']==='function')return window['updateHomeWidgetConfigFromPanel'](_0x5586d6,_0x2a63a9);const _0x52ac42=_0x52fabe();if(!_0x52ac42||!_0x52ac42[_0x4ccb83(0x105)])return null;const _0x266d45=_0x2a63a9[_0x4ccb83(0x164)]||_0x3dc733(_0x5586d6)||'photo',_0x11b85c=_0x52ac42['widgets'][_0x5586d6]||{},_0x577ed7=Object[_0x4ccb83(0x135)]({},_0x11b85c,_0x2a63a9,{'type':_0x11b85c[_0x4ccb83(0x164)]||_0x266d45,'text':Object[_0x4ccb83(0x135)]({},_0x3ac614,_0x11b85c[_0x4ccb83(0xae)]||{},_0x2a63a9[_0x4ccb83(0xae)]||{}),'images':Object[_0x4ccb83(0x135)]({},_0x11b85c[_0x4ccb83(0xad)]||{},_0x2a63a9[_0x4ccb83(0xad)]||{})});_0x52ac42[_0x4ccb83(0x105)][_0x5586d6]=_0x577ed7,_0x1cb3ba(_0x52ac42);if(typeof window['renderHomeDesktop']===_0x4ccb83(0x94))window['renderHomeDesktop']();return _0x577ed7;}function _0xd3fdde(_0x146f79,_0x9ff63d){const _0x1747e5=_0x5abcbf;if(!_0x146f79)return;const _0xb3b877=_0x9ff63d||'';if(_0x146f79['dataset'][_0x1747e5(0x91)]===_0xb3b877)return;_0x146f79[_0x1747e5(0xc1)][_0x1747e5(0x91)]=_0xb3b877,_0x146f79['innerHTML']='';if(_0xb3b877){const _0x27cb76=document[_0x1747e5(0x88)](_0x1747e5(0x126));_0x27cb76[_0x1747e5(0x96)]=_0xb3b877,_0x27cb76['alt']='',_0x146f79[_0x1747e5(0xc8)](_0x27cb76);}else{const _0x15631b=document[_0x1747e5(0x88)]('i');_0x15631b[_0x1747e5(0xdf)]='fas\x20fa-image',_0x146f79[_0x1747e5(0xc8)](_0x15631b);}}function _0x2a523d(_0x52e917){const _0x5a7231=_0x5abcbf;return/^https?:\/\//i[_0x5a7231(0x131)](String(_0x52e917||'')[_0x5a7231(0x9a)]());}function _0x4db0a8(_0x42106a){return new Promise(function(_0x264686,_0x5604d7){const _0x153134=_0x3003,_0x5cc715=new FileReader();_0x5cc715[_0x153134(0x108)]=function(_0x13e4db){const _0x1e51f5=_0x153134,_0x2ca749=_0x13e4db['target']&&_0x13e4db[_0x1e51f5(0xa0)]['result'];if(!_0x2ca749||typeof _0x2ca749!==_0x1e51f5(0x157)){_0x5604d7(new Error(_0x1e51f5(0xf9)));return;}window[_0x1e51f5(0xc5)]?window[_0x1e51f5(0xc5)](_0x2ca749,0x200,0x200,_0x264686):_0x264686(_0x2ca749);},_0x5cc715[_0x153134(0xc6)]=function(){_0x5604d7(new Error('Failed\x20to\x20read\x20image'));},_0x5cc715['readAsDataURL'](_0x42106a);});}function _0xc6cd34(_0x510dce){const _0x56689b=_0x5abcbf;if(window[_0x56689b(0x122)]&&typeof window[_0x56689b(0x122)][_0x56689b(0x163)]===_0x56689b(0x94))return window[_0x56689b(0x122)][_0x56689b(0x163)](_0x510dce);return String(_0x510dce)[_0x56689b(0x13b)](/["\\]/g,'\x5c$&');}function _0x14082e(_0x4b0117,_0x360de9){const _0x2436bb=_0x5abcbf,_0x3fd1f2=_0x52fabe(),_0x2bd22a=_0x3fd1f2&&_0x3fd1f2[_0x2436bb(0x105)]&&_0x3fd1f2[_0x2436bb(0x105)][_0x4b0117]&&_0x3fd1f2[_0x2436bb(0x105)][_0x4b0117][_0x2436bb(0x14a)],_0x1c9970=_0x2bd22a||_0x582fc7[_0x360de9]&&_0x582fc7[_0x360de9][_0x2436bb(0x14a)]||'rgba(255,255,255,0.7)';return _0x5f506d(_0x1c9970)['a'];}function _0x29a756(_0x4f7ad4,_0x4a76a9,_0x94bbec){const _0x1810f7=_0x5abcbf,_0x54b8cf=_0x52fabe();if(!_0x54b8cf||!_0x54b8cf['widgets'])return;const _0x2426a3=_0x54b8cf['widgets'][_0x4f7ad4]||{},_0x915047=_0x582fc7[_0x4a76a9]&&_0x582fc7[_0x4a76a9]['color']||_0x1810f7(0xf1),_0x542faa=_0x5f506d(_0x2426a3['color']||_0x915047),_0x58887e=_0x1810f7(0xd6)+_0x542faa['r']+',\x20'+_0x542faa['g']+',\x20'+_0x542faa['b']+',\x20'+_0x1dd3d4(_0x94bbec)+')';_0x4155cb(_0x4f7ad4,{'type':_0x2426a3['type']||_0x4a76a9,'color':_0x58887e}),_0x38bf9d(_0x4f7ad4,_0x4a76a9,_0x58887e);}function _0x3f1f8b(_0x6f53f4,_0x11467e){const _0x1e92ff=_0x5abcbf,_0x322e77=_0x52fabe();if(!_0x322e77||!_0x322e77[_0x1e92ff(0x105)])return;const _0xc5fc6b=_0x582fc7[_0x11467e]&&_0x582fc7[_0x11467e]['color']||'rgba(255,255,255,0.7)';_0x4155cb(_0x6f53f4,{'type':_0x322e77[_0x1e92ff(0x105)][_0x6f53f4]&&_0x322e77[_0x1e92ff(0x105)][_0x6f53f4][_0x1e92ff(0x164)]||_0x11467e,'color':_0xc5fc6b}),_0x38bf9d(_0x6f53f4,_0x11467e,_0xc5fc6b);}function _0x38bf9d(_0x4a061a,_0x40ddd7,_0x204f8c){const _0x5c7e5c=_0x5abcbf,_0x370a7d=document['getElementById'](_0x4a061a);if(!_0x370a7d)return;if([_0x5c7e5c(0xa9),'music','photo',_0x5c7e5c(0x86)]['includes'](_0x40ddd7)){_0x370a7d[_0x5c7e5c(0xd0)][_0x5c7e5c(0x132)]=_0x204f8c;return;}if(_0x40ddd7===_0x5c7e5c(0xab)){const _0x476450=_0x370a7d[_0x5c7e5c(0xf0)](_0x5c7e5c(0x144));if(_0x476450)_0x476450[_0x5c7e5c(0xd0)][_0x5c7e5c(0x132)]=_0x204f8c;return;}_0x40ddd7===_0x5c7e5c(0x14b)&&_0x370a7d[_0x5c7e5c(0x139)](_0x5c7e5c(0x13d))[_0x5c7e5c(0xac)](function(_0x2317ce){const _0x102bb9=_0x5c7e5c;_0x2317ce[_0x102bb9(0xd0)]['backgroundColor']=_0x204f8c;});}function _0x5f506d(_0x952840){const _0x2c200b=_0x5abcbf,_0x48f94e={'r':0xff,'g':0xff,'b':0xff,'a':0.7};if(!_0x952840||typeof _0x952840!==_0x2c200b(0x157))return _0x48f94e;const _0x558de0=_0x952840['match'](/rgba?\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)(?:\s*,\s*([\d.]+))?\s*\)/i);if(_0x558de0)return{'r':_0x520bc6(_0x558de0[0x1]),'g':_0x520bc6(_0x558de0[0x2]),'b':_0x520bc6(_0x558de0[0x3]),'a':_0x558de0[0x4]===undefined?0x1:Math[_0x2c200b(0x102)](0x0,Math['min'](0x1,Number(_0x558de0[0x4])||0x0))};const _0x522a55=_0x952840[_0x2c200b(0x9a)]()[_0x2c200b(0xfa)](/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);if(_0x522a55){let _0x2f1493=_0x522a55[0x1];if(_0x2f1493[_0x2c200b(0x10f)]===0x3)_0x2f1493=_0x2f1493[_0x2c200b(0xa8)]('')[_0x2c200b(0x12c)](function(_0x3604cc){return _0x3604cc+_0x3604cc;})[_0x2c200b(0x142)]('');return{'r':parseInt(_0x2f1493[_0x2c200b(0x106)](0x0,0x2),0x10),'g':parseInt(_0x2f1493[_0x2c200b(0x106)](0x2,0x4),0x10),'b':parseInt(_0x2f1493['slice'](0x4,0x6),0x10),'a':0x1};}return _0x48f94e;}function _0x520bc6(_0x25b74a){const _0x45c94e=_0x5abcbf;return Math[_0x45c94e(0x102)](0x0,Math['min'](0xff,Math['round'](Number(_0x25b74a)||0x0)));}function _0x1dd3d4(_0x126d5d){const _0x269d1a=_0x5abcbf;return Math[_0x269d1a(0x102)](0x0,Math[_0x269d1a(0x8e)](0x1,Number(_0x126d5d)))['toFixed'](0x2)['replace'](/0+$/,'')[_0x269d1a(0x13b)](/\.$/,'');}}()));
+﻿(function () {
+    'use strict';
+
+    const SETTINGS_KEY = 'homeWidgetPanelEnhanceSettings';
+    const DESKTOP_STATE_KEY = 'desktop';
+
+    const WIDGET_DEFAULTS = {
+        profile: { color: 'rgba(255, 255, 255, 0.7)' },
+        pet: { color: 'rgba(255, 255, 255, 0.7)' },
+        music: { color: 'rgba(255, 255, 255, 0.7)' },
+        couple: { color: 'rgba(255, 255, 255, 0.85)' },
+        photo: { color: 'rgba(255, 255, 255, 0.7)' },
+        notification: { color: 'rgba(255, 255, 255, 0.7)' }
+    };
+
+    const WIDGET_TEXT_DEFAULTS = {
+        profileTitle: 'name @iisonyoung',
+        profilePosts: '0',
+        profileFollowers: '1314',
+        profileFollowing: '520',
+        petText: 'oxo',
+        musicTitle: 'happytwogether',
+        musicArtist: '- Maximillian',
+        musicLyric1: '我喜欢淡淡的生活',
+        musicLyric2: '淡淡的情绪，淡淡的心情和简略的语言',
+        musicLyric3: '就像雨滴落在地面没有任何痕迹',
+        coupleLeft: '左侧',
+        coupleRight: '右侧',
+        photoTitle: 'iisonyoung',
+        photoBody: '',
+        notificationTitle: 'u2phone',
+        notificationDesc: 'I was with you in a happy, translucent, endless dream. In contrast to my usual dreams.'
+    };
+
+    const WIDGET_TEXT_FIELDS = {
+        profile: [
+            { key: 'profileTitle', label: '名称' },
+            { key: 'profilePosts', label: 'Posts' },
+            { key: 'profileFollowers', label: 'Followers' },
+            { key: 'profileFollowing', label: 'Following' }
+        ],
+        pet: [
+            { key: 'petText', label: '气泡文字' }
+        ],
+        music: [
+            { key: 'musicTitle', label: '标题' },
+            { key: 'musicLyric1', label: '歌词 1' },
+            { key: 'musicLyric2', label: '歌词 2' },
+            { key: 'musicLyric3', label: '歌词 3' }
+        ],
+        couple: [
+            { key: 'coupleLeft', label: '左侧文字' },
+            { key: 'coupleRight', label: '右侧文字' }
+        ],
+        notification: [
+            { key: 'notificationTitle', label: '标题' },
+            { key: 'notificationDesc', label: '内容', multiline: true }
+        ]
+    };
+
+    const WIDGET_IMAGE_FIELDS = {
+        profile: [{ key: 'avatar', label: '头像' }],
+        pet: [{ key: 'pet', label: '图片' }],
+        music: [{ key: 'cover', label: '封面' }],
+        couple: [
+            { key: 'left', label: '左侧图片' },
+            { key: 'right', label: '右侧图片' }
+        ],
+        photo: [
+            { key: 'photo', label: '图片 1' },
+            { key: 'photo2', label: '图片 2' },
+            { key: 'photo3', label: '图片 3' }
+        ],
+        notification: [{ key: 'avatar', label: '头像' }]
+    };
+
+    let libraryObserver = null;
+    let batteryLevel = 100;
+
+    document.addEventListener('DOMContentLoaded', init);
+
+    function init() {
+        ensureStatusBar();
+        ensurePanelSwitches();
+        applyHomeChromeSettings();
+        enhanceLibraryWhenReady();
+        updateStatusClock();
+        setInterval(updateStatusClock, 30000);
+        initBattery();
+    }
+
+    function loadSettings() {
+        try {
+            const parsed = window.StorageManager?.load(SETTINGS_KEY, {}) || {};
+            return {
+                showStatusBar: parsed.showStatusBar === true,
+                showSearch: parsed.showSearch !== false
+            };
+        } catch (error) {
+            return { showStatusBar: false, showSearch: true };
+        }
+    }
+
+    function saveSettings(next) {
+        window.StorageManager?.save(SETTINGS_KEY, next);
+    }
+
+    function getDesktopState() {
+        try {
+            if (typeof window.getAppState === 'function') {
+                const state = window.getAppState(DESKTOP_STATE_KEY);
+                if (state && typeof state === 'object') return state;
+            }
+        } catch (error) {
+            console.warn('[home_widget_panel_enhance] getAppState failed', error);
+        }
+
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                const state = window.StorageManager.load('home_desktop_state');
+                if (state && typeof state === 'object') return state;
+            }
+        } catch (error) {
+            console.warn('[home_widget_panel_enhance] StorageManager load failed', error);
+        }
+
+        return null;
+    }
+
+    function setDesktopState(state) {
+        try {
+            if (typeof window.setAppState === 'function') {
+                window.setAppState(DESKTOP_STATE_KEY, state);
+                return;
+            }
+        } catch (error) {
+            console.warn('[home_widget_panel_enhance] setAppState failed', error);
+        }
+
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('home_desktop_state', state);
+            }
+        } catch (error) {
+            console.warn('[home_widget_panel_enhance] StorageManager save failed', error);
+        }
+    }
+
+    function ensurePanelSwitches() {
+        const form = document.querySelector('.home-widget-form');
+        const library = document.getElementById('home-widget-library');
+        if (!form || !library || document.getElementById('home-panel-chrome-settings')) return;
+
+        const settings = loadSettings();
+        const group = document.createElement('div');
+        group.className = 'home-widget-panel-settings';
+        group.id = 'home-panel-chrome-settings';
+
+        group.appendChild(createSettingRow({
+            title: '显示状态栏',
+            desc: '顶部时间、电量等仿 iPhone 状态',
+            inputId: 'home-statusbar-toggle',
+            checked: settings.showStatusBar,
+            onChange: function (checked) {
+                const next = Object.assign({}, loadSettings(), { showStatusBar: checked });
+                saveSettings(next);
+                applyHomeChromeSettings();
+            }
+        }));
+
+        group.appendChild(createSettingRow({
+            title: '显示搜索',
+            desc: '主界面底栏上方 Search 样式',
+            inputId: 'home-search-toggle',
+            checked: settings.showSearch,
+            onChange: function (checked) {
+                const next = Object.assign({}, loadSettings(), { showSearch: checked });
+                saveSettings(next);
+                applyHomeChromeSettings();
+            }
+        }));
+
+        form.insertBefore(group, library);
+    }
+
+    function createSettingRow(options) {
+        const row = document.createElement('div');
+        row.className = 'home-widget-setting-row';
+
+        const text = document.createElement('div');
+        const title = document.createElement('span');
+        title.textContent = options.title;
+        const desc = document.createElement('small');
+        desc.textContent = options.desc;
+        text.appendChild(title);
+        text.appendChild(desc);
+
+        const label = document.createElement('label');
+        label.className = 'toggle-switch';
+
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.id = options.inputId;
+        input.checked = !!options.checked;
+
+        const slider = document.createElement('span');
+        slider.className = 'slider';
+
+        input.addEventListener('change', function () {
+            options.onChange(input.checked);
+        });
+
+        label.appendChild(input);
+        label.appendChild(slider);
+        row.appendChild(text);
+        row.appendChild(label);
+
+        return row;
+    }
+
+    function applyHomeChromeSettings() {
+        const settings = loadSettings();
+        document.body.classList.toggle('home-statusbar-visible', settings.showStatusBar);
+        document.body.classList.toggle('home-search-hidden', !settings.showSearch);
+
+        const statusToggle = document.getElementById('home-statusbar-toggle');
+        const searchToggle = document.getElementById('home-search-toggle');
+        if (statusToggle) statusToggle.checked = settings.showStatusBar;
+        if (searchToggle) searchToggle.checked = settings.showSearch;
+    }
+
+    function ensureStatusBar() {
+        const app = document.getElementById('app');
+        if (!app || document.getElementById('home-ios-status-bar')) return;
+
+        const bar = document.createElement('div');
+        bar.className = 'home-ios-status-bar';
+        bar.id = 'home-ios-status-bar';
+
+        const left = document.createElement('div');
+        left.className = 'home-ios-status-left';
+        left.id = 'home-ios-status-time';
+        left.textContent = '9:41';
+
+        const right = document.createElement('div');
+        right.className = 'home-ios-status-right';
+
+        const signal = document.createElement('i');
+        signal.className = 'fas fa-signal';
+
+        const wifi = document.createElement('i');
+        wifi.className = 'fas fa-wifi';
+
+        const battery = document.createElement('div');
+        battery.className = 'home-ios-battery';
+        battery.setAttribute('aria-label', 'battery');
+
+        const batteryLevelEl = document.createElement('div');
+        batteryLevelEl.className = 'home-ios-battery-level';
+        batteryLevelEl.id = 'home-ios-battery-level';
+
+        battery.appendChild(batteryLevelEl);
+        right.appendChild(signal);
+        right.appendChild(wifi);
+        right.appendChild(battery);
+
+        bar.appendChild(left);
+        bar.appendChild(right);
+        app.insertBefore(bar, app.firstChild);
+    }
+
+    function updateStatusClock() {
+        const timeEl = document.getElementById('home-ios-status-time');
+        if (!timeEl) return;
+
+        const now = new Date();
+        timeEl.textContent = now.getHours() + ':' + String(now.getMinutes()).padStart(2, '0');
+
+        const batteryEl = document.getElementById('home-ios-battery-level');
+        if (batteryEl) {
+            batteryEl.style.setProperty('--battery-level', Math.max(8, Math.min(100, batteryLevel)) + '%');
+        }
+    }
+
+    function initBattery() {
+        if (!navigator.getBattery) return;
+
+        navigator.getBattery().then(function (battery) {
+            const sync = function () {
+                batteryLevel = Math.round((battery.level || 1) * 100);
+                updateStatusClock();
+            };
+
+            sync();
+            battery.addEventListener('levelchange', sync);
+        }).catch(function () {});
+    }
+
+    function enhanceLibraryWhenReady() {
+        const library = document.getElementById('home-widget-library');
+        if (!library) {
+            setTimeout(enhanceLibraryWhenReady, 250);
+            return;
+        }
+
+        enhanceLibraryCards();
+
+        if (libraryObserver) libraryObserver.disconnect();
+        libraryObserver = new MutationObserver(enhanceLibraryCards);
+        libraryObserver.observe(library, { childList: true });
+
+        bindScrollFriendlyLibraryTouch(library);
+        library.addEventListener('click', onLibraryClick, true);
+        library.addEventListener('input', onLibraryInput, true);
+        library.addEventListener('change', onLibraryChange, true);
+    }
+
+    function bindScrollFriendlyLibraryTouch(library) {
+        if (library.dataset.scrollFriendlyTouchBound === '1') return;
+        library.dataset.scrollFriendlyTouchBound = '1';
+
+        let startX = 0;
+        let startY = 0;
+        let moved = false;
+
+        library.addEventListener('pointerdown', function (event) {
+            if (event.pointerType !== 'touch') return;
+            startX = event.clientX;
+            startY = event.clientY;
+            moved = false;
+        }, { passive: true });
+
+        library.addEventListener('pointermove', function (event) {
+            if (event.pointerType !== 'touch') return;
+            const dx = Math.abs(event.clientX - startX);
+            const dy = Math.abs(event.clientY - startY);
+            if (dx > 8 || dy > 8) moved = true;
+        }, { passive: true });
+
+        library.addEventListener('click', function (event) {
+            if (!moved) return;
+            event.preventDefault();
+            event.stopPropagation();
+            moved = false;
+        }, true);
+    }
+
+    function enhanceLibraryCards() {
+        const library = document.getElementById('home-widget-library');
+        if (!library) return;
+
+        library.querySelectorAll('.home-widget-library-card').forEach(function (card) {
+            const widgetId = card.dataset.widgetId;
+            if (!widgetId) return;
+
+            if (card.classList.contains('is-added')) {
+                card.disabled = false;
+                card.removeAttribute('role');
+                card.removeAttribute('tabindex');
+                card.setAttribute('aria-expanded', card.classList.contains('home-widget-card-expanded') ? 'true' : 'false');
+
+                if (!card.querySelector('.home-widget-card-chevron')) {
+                    const toggle = document.createElement('button');
+                    toggle.className = 'home-widget-card-chevron';
+                    toggle.type = 'button';
+                    toggle.setAttribute(
+                        'aria-label',
+                        card.classList.contains('home-widget-card-expanded') ? '收起小组件设置' : '展开小组件设置'
+                    );
+
+                    const icon = document.createElement('i');
+                    icon.className = 'fas fa-chevron-down';
+                    toggle.appendChild(icon);
+                    card.appendChild(toggle);
+                }
+
+                if (!card.querySelector('.home-widget-card-controls')) {
+                    card.appendChild(createControls(card));
+                } else {
+                    syncControl(card);
+                }
+            } else {
+                card.classList.remove('home-widget-card-expanded');
+
+                const controls = card.querySelector('.home-widget-card-controls');
+                if (controls) controls.remove();
+
+                const chevron = card.querySelector('.home-widget-card-chevron');
+                if (chevron) chevron.remove();
+            }
+        });
+    }
+
+    function onLibraryClick(event) {
+        const toggle = event.target.closest('.home-widget-card-chevron');
+        const card = toggle && toggle.closest('.home-widget-library-card.is-added');
+        if (!card) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        card.classList.toggle('home-widget-card-expanded');
+        const isExpanded = card.classList.contains('home-widget-card-expanded');
+        card.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        toggle.setAttribute('aria-label', isExpanded ? '收起小组件设置' : '展开小组件设置');
+        syncControl(card);
+    }
+
+    function onLibraryInput(event) {
+        const imageUrlInput = event.target.closest('.home-widget-image-url-input');
+        if (imageUrlInput) {
+            const card = imageUrlInput.closest('.home-widget-library-card');
+            const widgetId = card && card.dataset.widgetId;
+            const field = imageUrlInput.dataset.imageField;
+            const src = imageUrlInput.value.trim();
+            if (!widgetId || !field) return;
+
+            if (!src || isRemoteImageUrl(src)) {
+                setWidgetImage(widgetId, field, src);
+                syncImageButton(card, field, src);
+            }
+            return;
+        }
+
+        const textField = event.target.closest('.home-widget-text-input');
+        if (textField) {
+            const card = textField.closest('.home-widget-library-card');
+            const widgetId = card && card.dataset.widgetId;
+            const field = textField.dataset.textField;
+            if (!widgetId || !field) return;
+
+            setWidgetText(widgetId, field, textField.value);
+            return;
+        }
+
+        const slider = event.target.closest('.home-widget-opacity-slider');
+        if (!slider) return;
+        const card = slider.closest('.home-widget-library-card');
+        const widgetId = card && card.dataset.widgetId;
+        const widgetType = (card && card.dataset.widgetType) || resolveWidgetType(widgetId);
+        if (!widgetId || !widgetType) return;
+
+        const alpha = Number(slider.value) / 100;
+        setWidgetAlpha(widgetId, widgetType, alpha);
+        syncControl(card, alpha);
+    }
+
+    function onLibraryChange(event) {
+        const imageInput = event.target.closest('.home-widget-image-input');
+        if (!imageInput) return;
+
+        const card = imageInput.closest('.home-widget-library-card');
+        const widgetId = card && card.dataset.widgetId;
+        const field = imageInput.dataset.imageField;
+        const file = imageInput.files && imageInput.files[0];
+        imageInput.value = '';
+        if (!widgetId || !field || !file) return;
+
+        readWidgetImage(file).then(function (imageData) {
+            setWidgetImage(widgetId, field, imageData);
+            syncImageButton(card, field, imageData);
+        }).catch(function (error) {
+            console.warn('[home_widget_panel_enhance] image read failed', error);
+        });
+    }
+
+    function createControls(card) {
+        const widgetId = card.dataset.widgetId;
+        const widgetType = card.dataset.widgetType || resolveWidgetType(widgetId);
+        const alpha = getWidgetAlpha(widgetId, widgetType);
+        const config = getWidgetConfig(widgetId, widgetType);
+
+        const panel = document.createElement('div');
+        panel.className = 'home-widget-card-controls';
+
+        const textSection = document.createElement('div');
+        textSection.className = 'home-widget-editor-section';
+        textSection.appendChild(createSectionTitle('内容'));
+        const textFields = WIDGET_TEXT_FIELDS[widgetType] || [];
+        textFields.forEach(function (field) {
+            textSection.appendChild(createTextField(field, config));
+        });
+
+        const imageFields = WIDGET_IMAGE_FIELDS[widgetType] || [];
+        const imageSection = document.createElement('div');
+        imageSection.className = 'home-widget-editor-section';
+        imageSection.appendChild(createSectionTitle('图片'));
+        imageFields.forEach(function (field) {
+            imageSection.appendChild(createImageField(field, config));
+        });
+
+        const label = document.createElement('div');
+        label.className = 'home-widget-opacity-label';
+
+        const labelText = document.createElement('span');
+        labelText.textContent = '组件背景透明度';
+
+        const value = document.createElement('span');
+        value.className = 'home-widget-opacity-value';
+        value.textContent = Math.round(alpha * 100) + '%';
+
+        label.appendChild(labelText);
+        label.appendChild(value);
+
+        const row = document.createElement('div');
+        row.className = 'home-widget-opacity-row';
+
+        const slider = document.createElement('input');
+        slider.className = 'home-widget-opacity-slider';
+        slider.type = 'range';
+        slider.min = '0';
+        slider.max = '100';
+        slider.step = '1';
+        slider.value = String(Math.round(alpha * 100));
+        slider.setAttribute('aria-label', '组件背景透明度');
+
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'home-widget-reset-btn';
+        resetBtn.type = 'button';
+        resetBtn.title = '重置透明度';
+        resetBtn.setAttribute('aria-label', '重置透明度');
+
+        const resetIcon = document.createElement('i');
+        resetIcon.className = 'fas fa-rotate-left';
+        resetBtn.appendChild(resetIcon);
+
+        resetBtn.addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            const type = card.dataset.widgetType || resolveWidgetType(widgetId);
+            resetWidgetAlpha(widgetId, type);
+            syncControl(card);
+        });
+
+        row.appendChild(slider);
+        row.appendChild(resetBtn);
+
+        const opacitySection = document.createElement('div');
+        opacitySection.className = 'home-widget-editor-section';
+        opacitySection.appendChild(label);
+        opacitySection.appendChild(row);
+
+        if (textFields.length) panel.appendChild(textSection);
+        if (imageFields.length) panel.appendChild(imageSection);
+        panel.appendChild(opacitySection);
+
+        return panel;
+    }
+
+    function createSectionTitle(text) {
+        const title = document.createElement('div');
+        title.className = 'home-widget-editor-title';
+        title.textContent = text;
+        return title;
+    }
+
+    function createTextField(field, config) {
+        const label = document.createElement('label');
+        label.className = 'home-widget-editor-field';
+
+        const title = document.createElement('span');
+        title.textContent = field.label;
+
+        const input = document.createElement(field.multiline ? 'textarea' : 'input');
+        input.className = 'home-widget-text-input';
+        input.dataset.textField = field.key;
+        input.value = getWidgetTextValue(config, field.key);
+        if (!field.multiline) input.type = 'text';
+        if (field.multiline) input.rows = 2;
+
+        label.appendChild(title);
+        label.appendChild(input);
+        return label;
+    }
+
+    function createImageField(field, config) {
+        const row = document.createElement('div');
+        row.className = 'home-widget-image-field';
+
+        const button = document.createElement('button');
+        button.className = 'home-widget-image-btn';
+        button.type = 'button';
+        button.dataset.imageField = field.key;
+        button.setAttribute('aria-label', '更换' + field.label);
+
+        const src = getWidgetImageValue(config, field.key);
+        const preview = document.createElement('span');
+        preview.className = 'home-widget-image-thumb';
+        preview.dataset.imageField = field.key;
+        setImageThumb(preview, src);
+
+        const text = document.createElement('span');
+        text.textContent = field.label;
+
+        const icon = document.createElement('i');
+        icon.className = 'fas fa-image';
+
+        button.appendChild(preview);
+        button.appendChild(text);
+        button.appendChild(icon);
+
+        const input = document.createElement('input');
+        input.className = 'home-widget-image-input';
+        input.type = 'file';
+        input.accept = 'image/*';
+        input.dataset.imageField = field.key;
+
+        const urlInput = document.createElement('input');
+        urlInput.className = 'home-widget-image-url-input';
+        urlInput.type = 'url';
+        urlInput.inputMode = 'url';
+        urlInput.placeholder = '图片链接 URL';
+        urlInput.dataset.imageField = field.key;
+        urlInput.value = isRemoteImageUrl(src) ? src : '';
+
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            input.click();
+        });
+
+        row.appendChild(button);
+        row.appendChild(input);
+        row.appendChild(urlInput);
+        return row;
+    }
+    function syncControl(card, forcedAlpha) {
+        const widgetId = card && card.dataset.widgetId;
+        const widgetType = (card && card.dataset.widgetType) || resolveWidgetType(widgetId);
+        if (!widgetId || !widgetType) return;
+
+        const config = getWidgetConfig(widgetId, widgetType);
+        const alpha = typeof forcedAlpha === 'number' ? forcedAlpha : getWidgetAlpha(widgetId, widgetType);
+        const value = Math.round(alpha * 100);
+
+        const slider = card.querySelector('.home-widget-opacity-slider');
+        const label = card.querySelector('.home-widget-opacity-value');
+        if (slider) slider.value = String(value);
+        if (label) label.textContent = value + '%';
+
+        card.querySelectorAll('.home-widget-text-input').forEach(function (input) {
+            const focused = document.activeElement === input;
+            if (!focused) input.value = getWidgetTextValue(config, input.dataset.textField);
+        });
+
+        card.querySelectorAll('.home-widget-image-thumb').forEach(function (thumb) {
+            setImageThumb(thumb, getWidgetImageValue(config, thumb.dataset.imageField));
+        });
+
+        card.querySelectorAll('.home-widget-image-url-input').forEach(function (input) {
+            const focused = document.activeElement === input;
+            const src = getWidgetImageValue(config, input.dataset.imageField);
+            if (!focused) input.value = isRemoteImageUrl(src) ? src : '';
+        });
+    }
+
+    function syncImageButton(card, field, src) {
+        if (!card || !field) return;
+        const thumb = card.querySelector('.home-widget-image-thumb[data-image-field="' + cssEscape(field) + '"]');
+        if (thumb) setImageThumb(thumb, src);
+        const input = card.querySelector('.home-widget-image-url-input[data-image-field="' + cssEscape(field) + '"]');
+        if (input && document.activeElement !== input) input.value = isRemoteImageUrl(src) ? src : '';
+    }
+
+    function resolveWidgetType(widgetId) {
+        const state = getDesktopState();
+        return (state && state.widgets && state.widgets[widgetId] && state.widgets[widgetId].type) || inferTypeFromId(widgetId);
+    }
+
+    function inferTypeFromId(widgetId) {
+        const id = widgetId || '';
+        if (id.includes('profile')) return 'profile';
+        if (id.includes('pet')) return 'pet';
+        if (id.includes('music')) return 'music';
+        if (id.includes('couple')) return 'couple';
+        if (id.includes('notification')) return 'notification';
+        return 'photo';
+    }
+
+    function getWidgetConfig(widgetId, widgetType) {
+        const type = widgetType || resolveWidgetType(widgetId) || 'photo';
+        const state = getDesktopState();
+        const current = state && state.widgets && state.widgets[widgetId] ? state.widgets[widgetId] : {};
+        return {
+            type,
+            color: current.color || (WIDGET_DEFAULTS[type] && WIDGET_DEFAULTS[type].color) || 'rgba(255,255,255,0.7)',
+            text: Object.assign({}, WIDGET_TEXT_DEFAULTS, current.text || {}),
+            images: Object.assign({}, current.images || {})
+        };
+    }
+
+    function getWidgetTextValue(config, field) {
+        return String((config && config.text && config.text[field]) || WIDGET_TEXT_DEFAULTS[field] || '');
+    }
+
+    function getWidgetImageValue(config, field) {
+        return (config && config.images && config.images[field]) || '';
+    }
+
+    function setWidgetText(widgetId, field, value) {
+        const config = getWidgetConfig(widgetId);
+        config.text[field] = value;
+        updateWidgetConfig(widgetId, { text: config.text });
+    }
+
+    function setWidgetImage(widgetId, field, value) {
+        const config = getWidgetConfig(widgetId);
+        config.images[field] = value;
+        updateWidgetConfig(widgetId, { images: config.images });
+    }
+
+    function updateWidgetConfig(widgetId, patch) {
+        if (!widgetId || !patch) return null;
+
+        if (typeof window.updateHomeWidgetConfigFromPanel === 'function') {
+            return window.updateHomeWidgetConfigFromPanel(widgetId, patch);
+        }
+
+        const state = getDesktopState();
+        if (!state || !state.widgets) return null;
+        const type = patch.type || resolveWidgetType(widgetId) || 'photo';
+        const current = state.widgets[widgetId] || {};
+        const next = Object.assign({}, current, patch, {
+            type: current.type || type,
+            text: Object.assign({}, WIDGET_TEXT_DEFAULTS, current.text || {}, patch.text || {}),
+            images: Object.assign({}, current.images || {}, patch.images || {})
+        });
+        state.widgets[widgetId] = next;
+        setDesktopState(state);
+        if (typeof window.renderHomeDesktop === 'function') window.renderHomeDesktop();
+        return next;
+    }
+
+    function setImageThumb(thumb, src) {
+        if (!thumb) return;
+        const value = src || '';
+        if (thumb.dataset.thumbSrc === value) return;
+        thumb.dataset.thumbSrc = value;
+
+        thumb.innerHTML = '';
+        if (value) {
+            const img = document.createElement('img');
+            img.src = value;
+            img.alt = '';
+            thumb.appendChild(img);
+        } else {
+            const icon = document.createElement('i');
+            icon.className = 'fas fa-image';
+            thumb.appendChild(icon);
+        }
+    }
+
+    function isRemoteImageUrl(value) {
+        return /^https?:\/\//i.test(String(value || '').trim());
+    }
+
+    function readWidgetImage(file) {
+        return new Promise(function (resolve, reject) {
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                const raw = event.target && event.target.result;
+                if (!raw || typeof raw !== 'string') {
+                    reject(new Error('Failed to read image'));
+                    return;
+                }
+                if (window.compressImage) {
+                    window.compressImage(raw, 512, 512, resolve);
+                } else {
+                    resolve(raw);
+                }
+            };
+            reader.onerror = function () {
+                reject(new Error('Failed to read image'));
+            };
+            reader.readAsDataURL(file);
+        });
+    }
+
+    function cssEscape(value) {
+        if (window.CSS && typeof window.CSS.escape === 'function') return window.CSS.escape(value);
+        return String(value).replace(/["\\]/g, '\\$&');
+    }
+
+    function getWidgetAlpha(widgetId, widgetType) {
+        const state = getDesktopState();
+        const savedColor = state && state.widgets && state.widgets[widgetId] && state.widgets[widgetId].color;
+        const color = savedColor || (WIDGET_DEFAULTS[widgetType] && WIDGET_DEFAULTS[widgetType].color) || 'rgba(255,255,255,0.7)';
+        return parseColor(color).a;
+    }
+
+    function setWidgetAlpha(widgetId, widgetType, alpha) {
+        const state = getDesktopState();
+        if (!state || !state.widgets) return;
+
+        const current = state.widgets[widgetId] || {};
+        const defaultColor = (WIDGET_DEFAULTS[widgetType] && WIDGET_DEFAULTS[widgetType].color) || 'rgba(255,255,255,0.7)';
+        const parsed = parseColor(current.color || defaultColor);
+        const nextColor = 'rgba(' + parsed.r + ', ' + parsed.g + ', ' + parsed.b + ', ' + roundAlpha(alpha) + ')';
+
+        updateWidgetConfig(widgetId, {
+            type: current.type || widgetType,
+            color: nextColor
+        });
+        applyWidgetColor(widgetId, widgetType, nextColor);
+    }
+
+    function resetWidgetAlpha(widgetId, widgetType) {
+        const state = getDesktopState();
+        if (!state || !state.widgets) return;
+
+        const defaultColor = (WIDGET_DEFAULTS[widgetType] && WIDGET_DEFAULTS[widgetType].color) || 'rgba(255,255,255,0.7)';
+        updateWidgetConfig(widgetId, {
+            type: (state.widgets[widgetId] && state.widgets[widgetId].type) || widgetType,
+            color: defaultColor
+        });
+        applyWidgetColor(widgetId, widgetType, defaultColor);
+    }
+
+    function applyWidgetColor(widgetId, widgetType, color) {
+        const widget = document.getElementById(widgetId);
+        if (!widget) return;
+
+        if (['profile', 'music', 'photo', 'notification'].includes(widgetType)) {
+            widget.style.backgroundColor = color;
+            return;
+        }
+
+        if (widgetType === 'pet') {
+            const petSurface = widget.querySelector('.pet-widget-img-wrapper');
+            if (petSurface) petSurface.style.backgroundColor = color;
+            return;
+        }
+
+        if (widgetType === 'couple') {
+            widget.querySelectorAll('.couple-img-wrapper, .couple-bubble').forEach(function (el) {
+                el.style.backgroundColor = color;
+            });
+        }
+    }
+
+    function parseColor(color) {
+        const fallback = { r: 255, g: 255, b: 255, a: 0.7 };
+        if (!color || typeof color !== 'string') return fallback;
+
+        const rgba = color.match(/rgba?\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)(?:\s*,\s*([\d.]+))?\s*\)/i);
+        if (rgba) {
+            return {
+                r: clampColor(rgba[1]),
+                g: clampColor(rgba[2]),
+                b: clampColor(rgba[3]),
+                a: rgba[4] === undefined ? 1 : Math.max(0, Math.min(1, Number(rgba[4]) || 0))
+            };
+        }
+
+        const hex = color.trim().match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+        if (hex) {
+            let value = hex[1];
+            if (value.length === 3) value = value.split('').map(function (ch) { return ch + ch; }).join('');
+            return {
+                r: parseInt(value.slice(0, 2), 16),
+                g: parseInt(value.slice(2, 4), 16),
+                b: parseInt(value.slice(4, 6), 16),
+                a: 1
+            };
+        }
+
+        return fallback;
+    }
+
+    function clampColor(value) {
+        return Math.max(0, Math.min(255, Math.round(Number(value) || 0)));
+    }
+
+    function roundAlpha(value) {
+        return Math.max(0, Math.min(1, Number(value))).toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
+    }
+})();
+

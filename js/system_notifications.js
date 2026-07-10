@@ -1,1 +1,139 @@
-function _0xf360(_0x2f7c15,_0x127c11){_0x2f7c15=_0x2f7c15-0x8b;const _0x99cc0f=_0x99cc();let _0xf36038=_0x99cc0f[_0x2f7c15];return _0xf36038;}(function(_0x4a4483,_0x3fabe3){const _0x46bd18=_0xf360,_0x441522=_0x4a4483();while(!![]){try{const _0x390f7f=-parseInt(_0x46bd18(0xb4))/0x1+-parseInt(_0x46bd18(0xac))/0x2*(-parseInt(_0x46bd18(0x97))/0x3)+parseInt(_0x46bd18(0x8c))/0x4*(parseInt(_0x46bd18(0xb3))/0x5)+parseInt(_0x46bd18(0x9c))/0x6+-parseInt(_0x46bd18(0x96))/0x7+parseInt(_0x46bd18(0x8d))/0x8+-parseInt(_0x46bd18(0xaf))/0x9;if(_0x390f7f===_0x3fabe3)break;else _0x441522['push'](_0x441522['shift']());}catch(_0x214684){_0x441522['push'](_0x441522['shift']());}}}(_0x99cc,0xb6970),(function(){const _0x4e6043=_0xf360,_0x270d94=_0x4e6043(0xa9),_0x1aaec6={'enabled':![],'permission':typeof Notification!==_0x4e6043(0xae)?Notification[_0x4e6043(0x92)]:'unsupported'};let _0x590767=_0x577c70(_0x4d6e9a());function _0x577c70(_0x334366){const _0x584c04=_0x4e6043,_0x13dcc5=_0x334366&&typeof _0x334366===_0x584c04(0x90)?_0x334366:{};return{'enabled':!!_0x13dcc5['enabled'],'permission':_0x342804()};}function _0x342804(){const _0x4d1a46=_0x4e6043;if(typeof Notification===_0x4d1a46(0xae))return'unsupported';return Notification[_0x4d1a46(0x92)];}function _0x4d6e9a(){const _0x4ca86f=_0x4e6043;try{if(window['StorageManager']&&typeof window[_0x4ca86f(0xb9)]['load']===_0x4ca86f(0xb7))return window[_0x4ca86f(0xb9)][_0x4ca86f(0x94)](_0x270d94,_0x1aaec6);return _0x1aaec6;}catch(_0x31e49e){return console[_0x4ca86f(0xa4)](_0x4ca86f(0x9d),_0x31e49e),_0x1aaec6;}}function _0x7774f8(){const _0x194f5c=_0x4e6043;try{if(window[_0x194f5c(0xb9)]&&typeof window[_0x194f5c(0xb9)][_0x194f5c(0xab)]===_0x194f5c(0xb7)){window[_0x194f5c(0xb9)][_0x194f5c(0xab)](_0x270d94,_0x590767);return;}}catch(_0x365b87){console[_0x194f5c(0xa4)]('[system_notifications]\x20Failed\x20to\x20save\x20settings:',_0x365b87);}}function _0x50cee5(){const _0x26587a=_0x4e6043;return _0x590767['permission']=_0x342804(),(_0x590767['permission']===_0x26587a(0x9e)||_0x590767[_0x26587a(0x92)]===_0x26587a(0xad))&&(_0x590767[_0x26587a(0x98)]=![],_0x7774f8()),{..._0x590767};}async function _0x5d5878(_0x17ac7b={}){const _0x1787f3=_0x4e6043,_0x5ed5e2=!!_0x17ac7b['enabled'];if(_0x342804()===_0x1787f3(0xad))return _0x590767={'enabled':![],'permission':_0x1787f3(0xad)},_0x7774f8(),{..._0x590767,'unsupported':!![]};let _0x5a8b7b=_0x342804();if(_0x5ed5e2&&_0x5a8b7b==='default')try{_0x5a8b7b=await Notification[_0x1787f3(0xba)]();}catch(_0x4b8d50){console[_0x1787f3(0xa4)](_0x1787f3(0xa2),_0x4b8d50),_0x5a8b7b=_0x342804();}return _0x590767={'enabled':_0x5ed5e2&&_0x5a8b7b===_0x1787f3(0xb1),'permission':_0x5a8b7b},_0x7774f8(),{..._0x590767};}function _0x3d2ecd(_0x145130={}){const _0x421b6d=_0x4e6043,_0x20e02f=_0x145130['friend']||{},_0x468978=_0x145130[_0x421b6d(0x9a)]||{};return _0x468978[_0x421b6d(0xb0)]||_0x468978[_0x421b6d(0xb2)]||_0x20e02f[_0x421b6d(0x95)]||_0x20e02f[_0x421b6d(0x8e)]||_0x20e02f[_0x421b6d(0xa8)]||_0x20e02f[_0x421b6d(0x91)]||'iMessage';}function _0xdb0c51(_0x59b8be={}){const _0x4e0d58=_0x4e6043,_0x187e6d=_0x59b8be['message']||{},_0x3cde98=window[_0x4e0d58(0xa0)]?.[_0x4e0d58(0x99)]?window[_0x4e0d58(0xa0)][_0x4e0d58(0x99)](_0x187e6d):_0x187e6d[_0x4e0d58(0xa7)]||_0x187e6d[_0x4e0d58(0xa1)]||_0x187e6d['message']||'';return String(_0x3cde98||_0x4e0d58(0xb5))[_0x4e0d58(0x9b)](/\s+/g,'\x20')[_0x4e0d58(0x8f)]()[_0x4e0d58(0xa6)](0x0,0xb4);}function _0x54d3ba(_0x30f785={}){const _0x5d10db=_0x4e6043,_0x4e212c=_0x50cee5();if(!_0x4e212c[_0x5d10db(0x98)]||_0x4e212c[_0x5d10db(0x92)]!==_0x5d10db(0xb1))return![];const _0x280274=_0x30f785[_0x5d10db(0x8b)]||{},_0x245831=_0x3d2ecd(_0x30f785),_0x4db602=_0xdb0c51(_0x30f785),_0x48ab7f=_0x30f785[_0x5d10db(0x9a)]?.['id']?'imessage-'+_0x30f785[_0x5d10db(0x9a)]['id']:_0x5d10db(0xb8)+(_0x280274['id']||Date[_0x5d10db(0xbb)]()),_0x1f8936={'body':_0x4db602,'tag':_0x48ab7f,'renotify':!![],'icon':_0x280274[_0x5d10db(0xa5)]||_0x5d10db(0x93),'badge':_0x5d10db(0x93),'data':{'app':'imessage','friendId':_0x280274['id']||null,'messageId':_0x30f785[_0x5d10db(0x9a)]?.['id']||null}};try{const _0x51eb2e=new Notification(_0x245831,_0x1f8936);return _0x51eb2e[_0x5d10db(0xa3)]=()=>{const _0x51b8ee=_0x5d10db;window[_0x51b8ee(0xb6)](),_0x51eb2e[_0x51b8ee(0x9f)]();},!![];}catch(_0xde3258){return console[_0x5d10db(0xa4)](_0x5d10db(0xaa),_0xde3258),![];}}window['u2SystemNotifications']={'getSettings':_0x50cee5,'updateSettings':_0x5d5878,'notifyIncomingMessage':_0x54d3ba};}()));function _0x99cc(){const _0x299d5f=['imApp','text','[system_notifications]\x20Failed\x20to\x20request\x20permission:','onclick','warn','avatarUrl','slice','content','realname','u2_systemNotificationSettings','[system_notifications]\x20Failed\x20to\x20show\x20notification:','save','2397236koIqHt','unsupported','undefined','28219806IbhGqJ','speaker','granted','senderName','7014085kkcvDk','8768WykEoi','新消息','focus','function','imessage-','StorageManager','requestPermission','now','friend','4dfqImb','8692592PnThrn','realName','trim','object','name','permission','assets/moren.jpg','load','nickname','207907UtzDIf','3zWMMTk','enabled','getFriendMessagePreview','message','replace','1403292pJZsTV','[system_notifications]\x20Failed\x20to\x20load\x20settings:','denied','close'];_0x99cc=function(){return _0x299d5f;};return _0x99cc();}
+// Real browser/system notifications for incoming app messages.
+(function () {
+    const STORAGE_KEY = 'u2_systemNotificationSettings';
+
+    const defaults = {
+        enabled: false,
+        permission: typeof Notification !== 'undefined' ? Notification.permission : 'unsupported'
+    };
+
+    let settings = normalize(loadSettings());
+
+    function normalize(value) {
+        const safe = value && typeof value === 'object' ? value : {};
+        return {
+            enabled: !!safe.enabled,
+            permission: getPermission()
+        };
+    }
+
+    function getPermission() {
+        if (typeof Notification === 'undefined') return 'unsupported';
+        return Notification.permission;
+    }
+
+    function loadSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(STORAGE_KEY, defaults);
+            }
+
+            return defaults;
+        } catch (error) {
+            console.warn('[system_notifications] Failed to load settings:', error);
+            return defaults;
+        }
+    }
+
+    function saveSettings() {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(STORAGE_KEY, settings);
+                return;
+            }
+
+        } catch (error) {
+            console.warn('[system_notifications] Failed to save settings:', error);
+        }
+    }
+
+    function getSettings() {
+        settings.permission = getPermission();
+        if (settings.permission === 'denied' || settings.permission === 'unsupported') {
+            settings.enabled = false;
+            saveSettings();
+        }
+        return { ...settings };
+    }
+
+    async function updateSettings(nextSettings = {}) {
+        const wantsEnabled = !!nextSettings.enabled;
+
+        if (getPermission() === 'unsupported') {
+            settings = { enabled: false, permission: 'unsupported' };
+            saveSettings();
+            return { ...settings, unsupported: true };
+        }
+
+        let permission = getPermission();
+        if (wantsEnabled && permission === 'default') {
+            try {
+                permission = await Notification.requestPermission();
+            } catch (error) {
+                console.warn('[system_notifications] Failed to request permission:', error);
+                permission = getPermission();
+            }
+        }
+
+        settings = {
+            enabled: wantsEnabled && permission === 'granted',
+            permission
+        };
+        saveSettings();
+        return { ...settings };
+    }
+
+    function resolveTitle(payload = {}) {
+        const friend = payload.friend || {};
+        const message = payload.message || {};
+        return message.speaker || message.senderName || friend.nickname || friend.realName || friend.realname || friend.name || 'iMessage';
+    }
+
+    function resolveBody(payload = {}) {
+        const message = payload.message || {};
+        const preview = window.imApp?.getFriendMessagePreview
+            ? window.imApp.getFriendMessagePreview(message)
+            : (message.content || message.text || message.message || '');
+        return String(preview || '新消息').replace(/\s+/g, ' ').trim().slice(0, 180);
+    }
+
+    function notifyIncomingMessage(payload = {}) {
+        const current = getSettings();
+        if (!current.enabled || current.permission !== 'granted') return false;
+
+        const friend = payload.friend || {};
+        const title = resolveTitle(payload);
+        const body = resolveBody(payload);
+        const tag = payload.message?.id ? `imessage-${payload.message.id}` : `imessage-${friend.id || Date.now()}`;
+        const options = {
+            body,
+            tag,
+            renotify: true,
+            icon: friend.avatarUrl || 'assets/moren.jpg',
+            badge: 'assets/moren.jpg',
+            data: {
+                app: 'imessage',
+                friendId: friend.id || null,
+                messageId: payload.message?.id || null
+            }
+        };
+
+        try {
+            const notification = new Notification(title, options);
+            notification.onclick = () => {
+                window.focus();
+                notification.close();
+            };
+            return true;
+        } catch (error) {
+            console.warn('[system_notifications] Failed to show notification:', error);
+            return false;
+        }
+    }
+
+    window.u2SystemNotifications = {
+        getSettings,
+        updateSettings,
+        notifyIncomingMessage
+    };
+})();

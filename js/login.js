@@ -1,1 +1,264 @@
-function _0x20ba(_0x2791c1,_0x3a4c8a){_0x2791c1=_0x2791c1-0xc1;const _0x7f36c4=_0x7f36();let _0x20ba09=_0x7f36c4[_0x2791c1];return _0x20ba09;}(function(_0x5e85c7,_0x233932){const _0x505f6a=_0x20ba,_0x2ec793=_0x5e85c7();while(!![]){try{const _0x5139c0=parseInt(_0x505f6a(0x107))/0x1+parseInt(_0x505f6a(0xcd))/0x2+-parseInt(_0x505f6a(0xe4))/0x3+parseInt(_0x505f6a(0xc7))/0x4*(parseInt(_0x505f6a(0xd6))/0x5)+-parseInt(_0x505f6a(0xcc))/0x6+parseInt(_0x505f6a(0xd9))/0x7*(-parseInt(_0x505f6a(0x10c))/0x8)+parseInt(_0x505f6a(0x103))/0x9;if(_0x5139c0===_0x233932)break;else _0x2ec793['push'](_0x2ec793['shift']());}catch(_0x5bb1b4){_0x2ec793['push'](_0x2ec793['shift']());}}}(_0x7f36,0x6a28a),(function(){const _0x404565=_0x20ba;let _0x2ed02a=null,_0x3e8d06=null,_0x3efef6,_0x852e80;const _0x319f58=new Promise((_0x4c52ec,_0x12a441)=>{_0x3efef6=_0x4c52ec,_0x852e80=_0x12a441;});function _0x366939(_0x433318){const _0x8e9322=_0x20ba;if(!_0x433318||typeof _0x433318!==_0x8e9322(0xe5))return _0x433318;if(typeof structuredClone===_0x8e9322(0xf9))return structuredClone(_0x433318);return JSON[_0x8e9322(0xf2)](JSON[_0x8e9322(0x10a)](_0x433318));}async function _0x1672aa(){const _0x309ba4=_0x20ba;try{if(!window[_0x309ba4(0xd1)]?.[_0x309ba4(0xf6)])return null;await window[_0x309ba4(0xd1)]['ready'];const _0x4408f0=await window[_0x309ba4(0xd1)][_0x309ba4(0xf6)]();return _0x4408f0&&typeof _0x4408f0===_0x309ba4(0xe5)&&_0x4408f0[_0x309ba4(0xc9)]?_0x4408f0:null;}catch(_0x442710){return console[_0x309ba4(0xc6)](_0x309ba4(0xf5),_0x442710),null;}}async function _0x3bd676(_0x2a26c6){const _0x338c32=_0x20ba;try{if(!window['appStorage']?.[_0x338c32(0xc1)])throw new Error(_0x338c32(0xd3));return await window[_0x338c32(0xd1)][_0x338c32(0x104)],_0x3e8d06=await window[_0x338c32(0xd1)][_0x338c32(0xc1)](_0x2a26c6),_0x3e8d06;}catch(_0x479069){console['warn']('[u2Auth]\x20Failed\x20to\x20save\x20session:',_0x479069);throw _0x479069;}}async function _0x36ad92(){const _0x1ac880=_0x20ba;try{if(!window[_0x1ac880(0xd1)]?.[_0x1ac880(0xcb)])throw new Error(_0x1ac880(0xd3));await window[_0x1ac880(0xd1)][_0x1ac880(0x104)],await window['appStorage'][_0x1ac880(0xcb)](),_0x3e8d06=null;}catch(_0x5bae63){console['warn']('[u2Auth]\x20Failed\x20to\x20remove\x20session:',_0x5bae63);throw _0x5bae63;}}function _0x211457(_0x46548a){const _0x46351e=_0x20ba,_0x11e1c6=String(_0x46548a||'')['trim']();if(!_0x11e1c6)return'';const _0x3c2e82=_0x11e1c6[_0x46351e(0xca)]('@')[0x0];return _0x3c2e82||_0x11e1c6;}function _0x1fd327(_0x5269b6){const _0x3e497b=_0x20ba;window[_0x3e497b(0xfc)](new CustomEvent(_0x3e497b(0xcf),{'detail':{'session':_0x5269b6?_0x366939(_0x5269b6):null,'isLoggedIn':!!_0x5269b6}}));}function _0x12a508(_0x2f88e8){const _0xc57ea2=_0x20ba;document['body']&&(document[_0xc57ea2(0xfa)][_0xc57ea2(0xf0)][_0xc57ea2(0xc2)]('u2-login-locked',!!_0x2f88e8),document['body'][_0xc57ea2(0xf0)][_0xc57ea2(0xc2)](_0xc57ea2(0xf7),!_0x2f88e8));}function _0x1df60b(_0x16e57f={}){const _0x576db8=_0x20ba,_0x1b7f4f=_0x2ed02a||_0x3d72f1();if(!_0x1b7f4f['screen'])return;_0x1b7f4f[_0x576db8(0xc4)][_0x576db8(0xf0)]['remove'](_0x576db8(0xef)),_0x1b7f4f[_0x576db8(0xc4)][_0x576db8(0xe7)]('aria-hidden',_0x576db8(0xe1)),_0x12a508(!![]),_0x16e57f[_0x576db8(0xe9)]&&_0x1b7f4f[_0x576db8(0xe6)]&&setTimeout(()=>_0x1b7f4f[_0x576db8(0xe6)][_0x576db8(0xe9)](),0x50);}function _0x2374d2(){const _0x4a59af=_0x20ba,_0x21f104=_0x2ed02a||_0x3d72f1();if(!_0x21f104[_0x4a59af(0xc4)])return;_0x21f104[_0x4a59af(0xc4)][_0x4a59af(0xf0)][_0x4a59af(0xee)](_0x4a59af(0xef)),_0x21f104['screen'][_0x4a59af(0xe7)]('aria-hidden','true'),_0x12a508(![]);}function _0x3db98c(){return _0x3e8d06?_0x366939(_0x3e8d06):null;}function _0x331412(){return!!_0x3db98c();}async function _0x28094b(_0x57e658={}){const _0x21949d=_0x20ba,_0x5450e4=String(_0x57e658['account']||'')[_0x21949d(0xed)](),_0x1954f6=String(_0x57e658[_0x21949d(0xda)]||'');if(!_0x5450e4||!_0x1954f6)return{'ok':![],'error':_0x21949d(0xdf)};const _0x11c491={'account':_0x5450e4,'displayName':_0x211457(_0x5450e4),'loginAt':Date[_0x21949d(0xff)]()};return await _0x3bd676(_0x11c491),_0x2374d2(),_0x1fd327(_0x11c491),{'ok':!![],'session':_0x366939(_0x11c491)};}async function _0x2af1a5(){return await _0x36ad92(),_0x1df60b({'focus':!![]}),_0x1fd327(null),!![];}function _0x3d72f1(){const _0x540669=_0x20ba;return _0x2ed02a={'screen':document['getElementById'](_0x540669(0x10d)),'form':document[_0x540669(0x108)]('u2-login-form'),'accountField':document[_0x540669(0x108)](_0x540669(0x102)),'passwordField':document[_0x540669(0x108)](_0x540669(0xdb)),'accountInput':document['getElementById'](_0x540669(0x100)),'passwordInput':document['getElementById']('u2-login-password'),'passwordToggle':document[_0x540669(0x108)]('u2-login-password-toggle'),'submitButton':document[_0x540669(0x108)](_0x540669(0xea)),'error':document[_0x540669(0x108)](_0x540669(0xf8))},_0x2ed02a;}function _0x3f3538(_0x4395ee){const _0x30bc63=_0x20ba,_0x5a3d6a=_0x2ed02a||_0x3d72f1();if(_0x5a3d6a[_0x30bc63(0xe8)])_0x5a3d6a[_0x30bc63(0xe8)][_0x30bc63(0xce)]=_0x4395ee||'';}function _0x1fd7b7(){const _0x11a27=_0x20ba,_0xf561e5=_0x2ed02a||_0x3d72f1();_0xf561e5[_0x11a27(0xe0)]?.[_0x11a27(0xf0)][_0x11a27(0xec)](_0x11a27(0xe2)),_0xf561e5[_0x11a27(0x105)]?.[_0x11a27(0xf0)][_0x11a27(0xec)](_0x11a27(0xe2)),_0x3f3538('');}function _0x30fda6(_0xf2720c,_0xf98b4f){const _0x271db9=_0x20ba,_0x3190f7=_0x2ed02a||_0x3d72f1();_0x3190f7[_0x271db9(0xe0)]?.[_0x271db9(0xf0)][_0x271db9(0xc2)]('is-invalid',!!_0xf2720c),_0x3190f7['passwordField']?.[_0x271db9(0xf0)][_0x271db9(0xc2)](_0x271db9(0xe2),!!_0xf98b4f);}async function _0x880658(_0x29e54d){const _0x304fc5=_0x20ba;_0x29e54d[_0x304fc5(0x109)]();const _0x27dddf=_0x2ed02a||_0x3d72f1(),_0xb20c0c=_0x27dddf['accountInput']?_0x27dddf[_0x304fc5(0xe6)][_0x304fc5(0xfe)][_0x304fc5(0xed)]():'',_0x5e577e=_0x27dddf[_0x304fc5(0xd7)]?_0x27dddf[_0x304fc5(0xd7)][_0x304fc5(0xfe)]:'',_0xbf230c=!_0xb20c0c,_0x2fc140=!_0x5e577e;if(_0xbf230c||_0x2fc140){_0x30fda6(_0xbf230c,_0x2fc140),_0x3f3538(_0x304fc5(0xf1));if(_0xbf230c&&_0x27dddf[_0x304fc5(0xe6)])_0x27dddf[_0x304fc5(0xe6)][_0x304fc5(0xe9)]();else{if(_0x2fc140&&_0x27dddf['passwordInput'])_0x27dddf[_0x304fc5(0xd7)][_0x304fc5(0xe9)]();}return;}_0x1fd7b7();let _0x4a2d7b;try{_0x4a2d7b=await _0x28094b({'account':_0xb20c0c,'password':_0x5e577e});}catch(_0xe07aab){_0x3f3538('Unable\x20to\x20save\x20login\x20session\x20/\x20无法保存登录状态');return;}if(!_0x4a2d7b['ok']){_0x3f3538(_0x4a2d7b[_0x304fc5(0xe8)]||_0x304fc5(0xc3));return;}if(_0x27dddf[_0x304fc5(0xd7)])_0x27dddf[_0x304fc5(0xd7)][_0x304fc5(0xfe)]='';typeof window['showToast']===_0x304fc5(0xf9)&&window[_0x304fc5(0xf4)](_0x304fc5(0xc8));}function _0x1707d1(){const _0x7c0825=_0x20ba,_0x19fe70=_0x2ed02a||_0x3d72f1();if(!_0x19fe70[_0x7c0825(0xd0)]||!_0x19fe70['passwordInput'])return;_0x19fe70[_0x7c0825(0xd0)][_0x7c0825(0xeb)](_0x7c0825(0xfd),()=>{const _0xb8d647=_0x7c0825,_0x2c8d9a=_0x19fe70['passwordInput'][_0xb8d647(0x106)]===_0xb8d647(0xda);_0x19fe70[_0xb8d647(0xd7)][_0xb8d647(0x106)]=_0x2c8d9a?'text':'password',_0x19fe70[_0xb8d647(0xd0)][_0xb8d647(0xe7)]('aria-pressed',_0x2c8d9a?_0xb8d647(0xd2):_0xb8d647(0xe1)),_0x19fe70[_0xb8d647(0xd0)][_0xb8d647(0xe7)](_0xb8d647(0xd5),_0x2c8d9a?_0xb8d647(0xdd):'Show\x20password');const _0x221225=_0x19fe70['passwordToggle']['querySelector']('i');_0x221225&&(_0x221225[_0xb8d647(0xf0)]['toggle'](_0xb8d647(0xe3),!_0x2c8d9a),_0x221225['classList'][_0xb8d647(0xc2)]('fa-eye-slash',_0x2c8d9a));});}function _0x51ee06(){const _0x7852be=_0x20ba,_0x398abf=_0x2ed02a||_0x3d72f1();[_0x398abf[_0x7852be(0xe6)],_0x398abf[_0x7852be(0xd7)]][_0x7852be(0x101)](_0x574586=>{const _0x4dfebe=_0x7852be;if(!_0x574586)return;_0x574586['addEventListener'](_0x4dfebe(0x10b),()=>{_0x1fd7b7();});});}async function _0x30f6f8(){const _0x311f27=_0x20ba,_0x3e7343=_0x3d72f1();if(!_0x3e7343[_0x311f27(0xc4)]||!_0x3e7343[_0x311f27(0xc5)])return;_0x3e7343['form'][_0x311f27(0xeb)](_0x311f27(0xf3),_0x880658),_0x1707d1(),_0x51ee06(),_0x3e8d06=await _0x1672aa(),_0x3efef6(!![]);const _0x536a88=_0x3db98c();if(_0x536a88){_0x2374d2(),_0x1fd327(_0x536a88);return;}_0x1df60b(),_0x1fd327(null);}window[_0x404565(0xdc)]={'ready':_0x319f58,'login':_0x28094b,'logout':_0x2af1a5,'getSession':_0x3db98c,'isLoggedIn':_0x331412,'showLoginScreen':_0x1df60b,'hideLoginScreen':_0x2374d2},document[_0x404565(0xde)]===_0x404565(0xd8)?document[_0x404565(0xeb)](_0x404565(0xd4),()=>_0x30f6f8()[_0x404565(0xfb)](_0x852e80),{'once':!![]}):_0x30f6f8()[_0x404565(0xfb)](_0x852e80);}()));function _0x7f36(){const _0x3d3cdd=['DOMContentLoaded','aria-label','130GIgNkV','passwordInput','loading','2366YwaVUh','password','u2-login-password-field','u2Auth','Hide\x20password','readyState','Account\x20and\x20password\x20are\x20required.','accountField','false','is-invalid','fa-eye','955344lgvStn','object','accountInput','setAttribute','error','focus','u2-login-submit','addEventListener','remove','trim','add','is-hidden','classList','Enter\x20account\x20and\x20password\x20/\x20请输入账号和密码','parse','submit','showToast','[u2Auth]\x20Failed\x20to\x20load\x20session:','getAuthSession','u2-login-authenticated','u2-login-error','function','body','catch','dispatchEvent','click','value','now','u2-login-account','forEach','u2-login-account-field','9881694WijiRf','ready','passwordField','type','275489aoALCr','getElementById','preventDefault','stringify','input','17576mzoOni','u2-login-screen','setAuthSession','toggle','Unable\x20to\x20sign\x20in.','screen','form','warn','66716YRsjIU','Signed\x20in','account','split','clearAuthSession','2356908mbrOIX','163138xjHskR','textContent','u2:auth-changed','passwordToggle','appStorage','true','IndexedDB\x20auth\x20storage\x20unavailable'];_0x7f36=function(){return _0x3d3cdd;};return _0x7f36();}
+(function() {
+    let cachedDom = null;
+    let cachedSession = null;
+    let authReadyResolve;
+    let authReadyReject;
+    const authReady = new Promise((resolve, reject) => {
+        authReadyResolve = resolve;
+        authReadyReject = reject;
+    });
+
+    function clonePlainData(value) {
+        if (!value || typeof value !== 'object') return value;
+        if (typeof structuredClone === 'function') return structuredClone(value);
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    async function safeLoadSession() {
+        try {
+            if (!window.appStorage?.getAuthSession) return null;
+            await window.appStorage.ready;
+            const session = await window.appStorage.getAuthSession();
+            return session && typeof session === 'object' && session.account ? session : null;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to load session:', error);
+            return null;
+        }
+    }
+
+    async function safeSaveSession(session) {
+        try {
+            if (!window.appStorage?.setAuthSession) throw new Error('IndexedDB auth storage unavailable');
+            await window.appStorage.ready;
+            cachedSession = await window.appStorage.setAuthSession(session);
+            return cachedSession;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to save session:', error);
+            throw error;
+        }
+    }
+
+    async function safeRemoveSession() {
+        try {
+            if (!window.appStorage?.clearAuthSession) throw new Error('IndexedDB auth storage unavailable');
+            await window.appStorage.ready;
+            await window.appStorage.clearAuthSession();
+            cachedSession = null;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to remove session:', error);
+            throw error;
+        }
+    }
+
+    function resolveDisplayName(account) {
+        const safeAccount = String(account || '').trim();
+        if (!safeAccount) return '';
+        const emailName = safeAccount.split('@')[0];
+        return emailName || safeAccount;
+    }
+
+    function emitAuthChanged(session) {
+        window.dispatchEvent(new CustomEvent('u2:auth-changed', {
+            detail: {
+                session: session ? clonePlainData(session) : null,
+                isLoggedIn: !!session
+            }
+        }));
+    }
+
+    function setLoginLocked(locked) {
+        if (document.body) {
+            document.body.classList.toggle('u2-login-locked', !!locked);
+            document.body.classList.toggle('u2-login-authenticated', !locked);
+        }
+    }
+
+    function showLoginScreen(options = {}) {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        dom.screen.classList.remove('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'false');
+        setLoginLocked(true);
+        if (options.focus && dom.accountInput) {
+            setTimeout(() => dom.accountInput.focus(), 80);
+        }
+    }
+
+    function hideLoginScreen() {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        dom.screen.classList.add('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'true');
+        setLoginLocked(false);
+    }
+
+    function getSession() {
+        return cachedSession ? clonePlainData(cachedSession) : null;
+    }
+
+    function isLoggedIn() {
+        return !!getSession();
+    }
+
+    async function login(credentials = {}) {
+        const account = String(credentials.account || '').trim();
+        const password = String(credentials.password || '');
+        if (!account || !password) {
+            return {
+                ok: false,
+                error: 'Account and password are required.'
+            };
+        }
+
+        const session = {
+            account,
+            displayName: resolveDisplayName(account),
+            loginAt: Date.now()
+        };
+        await safeSaveSession(session);
+        hideLoginScreen();
+        emitAuthChanged(session);
+        return {
+            ok: true,
+            session: clonePlainData(session)
+        };
+    }
+
+    async function logout() {
+        await safeRemoveSession();
+        showLoginScreen({ focus: true });
+        emitAuthChanged(null);
+        return true;
+    }
+
+    function collectDom() {
+        cachedDom = {
+            screen: document.getElementById('u2-login-screen'),
+            form: document.getElementById('u2-login-form'),
+            accountField: document.getElementById('u2-login-account-field'),
+            passwordField: document.getElementById('u2-login-password-field'),
+            accountInput: document.getElementById('u2-login-account'),
+            passwordInput: document.getElementById('u2-login-password'),
+            passwordToggle: document.getElementById('u2-login-password-toggle'),
+            submitButton: document.getElementById('u2-login-submit'),
+            error: document.getElementById('u2-login-error')
+        };
+        return cachedDom;
+    }
+
+    function setError(message) {
+        const dom = cachedDom || collectDom();
+        if (dom.error) dom.error.textContent = message || '';
+    }
+
+    function clearInvalidState() {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.remove('is-invalid');
+        dom.passwordField?.classList.remove('is-invalid');
+        setError('');
+    }
+
+    function markInvalid(accountMissing, passwordMissing) {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.toggle('is-invalid', !!accountMissing);
+        dom.passwordField?.classList.toggle('is-invalid', !!passwordMissing);
+    }
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const dom = cachedDom || collectDom();
+        const account = dom.accountInput ? dom.accountInput.value.trim() : '';
+        const password = dom.passwordInput ? dom.passwordInput.value : '';
+        const accountMissing = !account;
+        const passwordMissing = !password;
+
+        if (accountMissing || passwordMissing) {
+            markInvalid(accountMissing, passwordMissing);
+            setError('Enter account and password / 请输入账号和密码');
+            if (accountMissing && dom.accountInput) dom.accountInput.focus();
+            else if (passwordMissing && dom.passwordInput) dom.passwordInput.focus();
+            return;
+        }
+
+        clearInvalidState();
+        let result;
+        try {
+            result = await login({ account, password });
+        } catch (error) {
+            setError('Unable to save login session / 无法保存登录状态');
+            return;
+        }
+        if (!result.ok) {
+            setError(result.error || 'Unable to sign in.');
+            return;
+        }
+
+        if (dom.passwordInput) dom.passwordInput.value = '';
+        if (typeof window.showToast === 'function') {
+            window.showToast('Signed in');
+        }
+    }
+
+    function bindPasswordToggle() {
+        const dom = cachedDom || collectDom();
+        if (!dom.passwordToggle || !dom.passwordInput) return;
+        dom.passwordToggle.addEventListener('click', () => {
+            const shouldShow = dom.passwordInput.type === 'password';
+            dom.passwordInput.type = shouldShow ? 'text' : 'password';
+            dom.passwordToggle.setAttribute('aria-pressed', shouldShow ? 'true' : 'false');
+            dom.passwordToggle.setAttribute('aria-label', shouldShow ? 'Hide password' : 'Show password');
+            const icon = dom.passwordToggle.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-eye', !shouldShow);
+                icon.classList.toggle('fa-eye-slash', shouldShow);
+            }
+        });
+    }
+
+    function bindInputReset() {
+        const dom = cachedDom || collectDom();
+        [dom.accountInput, dom.passwordInput].forEach((input) => {
+            if (!input) return;
+            input.addEventListener('input', () => {
+                clearInvalidState();
+            });
+        });
+    }
+
+    async function initLoginScreen() {
+        const dom = collectDom();
+        if (!dom.screen || !dom.form) return;
+
+        dom.form.addEventListener('submit', handleSubmit);
+        bindPasswordToggle();
+        bindInputReset();
+
+        cachedSession = await safeLoadSession();
+        authReadyResolve(true);
+        const session = getSession();
+        if (session) {
+            hideLoginScreen();
+            emitAuthChanged(session);
+            return;
+        }
+
+        showLoginScreen();
+        emitAuthChanged(null);
+    }
+
+    window.u2Auth = {
+        ready: authReady,
+        login,
+        logout,
+        getSession,
+        isLoggedIn,
+        showLoginScreen,
+        hideLoginScreen
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => initLoginScreen().catch(authReadyReject), { once: true });
+    } else {
+        initLoginScreen().catch(authReadyReject);
+    }
+})();

@@ -1,1 +1,1392 @@
-const _0x566f9a=_0x26ea;function _0x26ea(_0x3599fb,_0x30d5ed){_0x3599fb=_0x3599fb-0x7f;const _0x6444d8=_0x6444();let _0x26eac8=_0x6444d8[_0x3599fb];return _0x26eac8;}(function(_0x3044dc,_0x59c3d1){const _0x1c4259=_0x26ea,_0x4c14d5=_0x3044dc();while(!![]){try{const _0x4ffa7d=parseInt(_0x1c4259(0x11c))/0x1+-parseInt(_0x1c4259(0x142))/0x2*(-parseInt(_0x1c4259(0x126))/0x3)+-parseInt(_0x1c4259(0x184))/0x4*(-parseInt(_0x1c4259(0x90))/0x5)+-parseInt(_0x1c4259(0x9a))/0x6*(-parseInt(_0x1c4259(0x11d))/0x7)+parseInt(_0x1c4259(0x152))/0x8*(-parseInt(_0x1c4259(0x9e))/0x9)+-parseInt(_0x1c4259(0xc8))/0xa*(parseInt(_0x1c4259(0x145))/0xb)+-parseInt(_0x1c4259(0xb5))/0xc;if(_0x4ffa7d===_0x59c3d1)break;else _0x4c14d5['push'](_0x4c14d5['shift']());}catch(_0x714b21){_0x4c14d5['push'](_0x4c14d5['shift']());}}}(_0x6444,0xad98a),document[_0x566f9a(0x9f)]('DOMContentLoaded',()=>{const _0x334a22=_0x566f9a,{apiConfig:_0x340a53,userState:_0x78e4e8}=window;window['imChat']=window[_0x334a22(0xa6)]||{};const _0x4b7c72=window[_0x334a22(0xa6)];async function _0x540201(_0x4b4f79,_0x18db31,_0x2dcd2d={}){const _0x369f40=_0x334a22;if(!window[_0x369f40(0x13c)]['commitFriendChange'])return![];const _0x156716=typeof _0x4b4f79==='object'&&_0x4b4f79!==null?_0x4b4f79['id']:_0x4b4f79;return window['imApp'][_0x369f40(0x14b)](_0x156716,_0x4fe7c2=>{const _0x3dbecd=_0x369f40;if(!_0x4fe7c2)return;return window[_0x3dbecd(0x110)][_0x3dbecd(0x16d)]&&String(window[_0x3dbecd(0x110)][_0x3dbecd(0x16d)]['id'])===String(_0x4fe7c2['id'])&&(window[_0x3dbecd(0x110)][_0x3dbecd(0x16d)]=_0x4fe7c2),_0x18db31(_0x4fe7c2);},_0x2dcd2d);}function _0x53afce(_0x11d9f2){const _0x47d3f1=_0x334a22;if(!_0x11d9f2||_0x11d9f2[_0x47d3f1(0xd7)]!==_0x47d3f1(0xd5)||!Array[_0x47d3f1(0x109)](_0x11d9f2[_0x47d3f1(0x18c)]))return[];return _0x11d9f2[_0x47d3f1(0x18c)][_0x47d3f1(0x94)](_0x22a831=>{const _0x81a04=_0x47d3f1;return window['imData'][_0x81a04(0x193)]['find'](_0x223f5d=>{const _0xd41076=_0x81a04;if(!_0x223f5d||_0x223f5d[_0xd41076(0xd7)]===_0xd41076(0xd5)||_0x223f5d['type']===_0xd41076(0x191))return![];return String(_0x223f5d['id'])===String(_0x22a831)||_0x223f5d[_0xd41076(0x93)]===_0x22a831;});})['filter'](Boolean);}function _0x44ac75(_0x57f691,_0x1b608a,_0x36b9ae=null){const _0x35d9cd=_0x334a22;if(!_0x57f691||_0x57f691[_0x35d9cd(0xd7)]!==_0x35d9cd(0xd5))return null;const _0xa82e53=window['imChat']['getGroupMemberFriends'](_0x57f691);if(_0xa82e53[_0x35d9cd(0xda)]===0x0)return null;if(_0x36b9ae!=null&&String(_0x36b9ae)['trim']()){const _0x5b876f=_0xa82e53['find'](_0x41f0eb=>String(_0x41f0eb['id'])===String(_0x36b9ae));if(_0x5b876f)return _0x5b876f;}const _0x338baf=String(_0x1b608a||'')['trim']();if(!_0x338baf)return null;const _0x399d0f=_0xa82e53[_0x35d9cd(0x84)](_0x3f844b=>_0x3f844b[_0x35d9cd(0x93)]===_0x338baf||_0x3f844b[_0x35d9cd(0xac)]===_0x338baf);if(_0x399d0f)return _0x399d0f;const _0x264c8d=_0x338baf[_0x35d9cd(0x139)](),_0x195709=_0xa82e53[_0x35d9cd(0x84)](_0x2b4dc0=>[_0x2b4dc0[_0x35d9cd(0x93)],_0x2b4dc0[_0x35d9cd(0xac)]][_0x35d9cd(0x159)](_0x59e156=>String(_0x59e156||'')[_0x35d9cd(0x16a)]()[_0x35d9cd(0x139)]()===_0x264c8d));return _0x195709||null;}function _0x35375b(_0x2f4f61,_0x49a1b0={}){const _0x5d80ef=_0x334a22;if(!_0x49a1b0||typeof _0x49a1b0!==_0x5d80ef(0xb0))return null;const _0x52ee45=window[_0x5d80ef(0xa6)][_0x5d80ef(0x8c)](_0x2f4f61,_0x49a1b0[_0x5d80ef(0xd0)]||_0x49a1b0[_0x5d80ef(0x17f)]||'',_0x49a1b0[_0x5d80ef(0x101)]||_0x49a1b0['senderMemberId']||null);if(_0x52ee45)return _0x52ee45;const _0x49572c=String(_0x49a1b0['senderAvatarUrl']||'')['trim']();if(!_0x49572c)return null;const _0x39606e=window[_0x5d80ef(0xa6)][_0x5d80ef(0x17e)](_0x2f4f61)[_0x5d80ef(0x17b)](_0xdf8ea5=>String(_0xdf8ea5?.[_0x5d80ef(0xd8)]||'')['trim']()===_0x49572c);return _0x39606e['length']===0x1?_0x39606e[0x0]:null;}function _0x5d4d34(_0x426488,_0x24b7e2=null,_0x39bcf7=null){const _0x5f4d4d=_0x334a22,_0x26c61b=window[_0x5f4d4d(0xa6)][_0x5f4d4d(0x8c)](_0x426488,_0x24b7e2,_0x39bcf7);if(_0x26c61b)return _0x26c61b;const _0x377774=window['imChat'][_0x5f4d4d(0x17e)](_0x426488);return _0x377774[_0x5f4d4d(0xda)]>0x0?_0x377774[0x0]:null;}function _0x28b11d(_0x6b896a,_0x3575b3){const _0x3a37d8=_0x334a22;if(!_0x6b896a||!_0x3575b3)return'群成员';const _0x2c1b4e=window[_0x3a37d8(0xa6)][_0x3a37d8(0x17e)](_0x6b896a)[_0x3a37d8(0x84)](_0x97f4bd=>String(_0x97f4bd['id'])===String(_0x3575b3));return _0x2c1b4e?_0x2c1b4e[_0x3a37d8(0x93)]||_0x2c1b4e[_0x3a37d8(0xac)]||'群成员':_0x3a37d8(0xae);}function _0x58bb53(){const _0x2f443c=_0x334a22,_0x5a39c3=window[_0x2f443c(0x166)]||_0x78e4e8||{};return _0x5a39c3[_0x2f443c(0xde)]||_0x5a39c3[_0x2f443c(0xac)]||_0x5a39c3[_0x2f443c(0x93)]||_0x2f443c(0x146);}function _0x223bc4(_0x12740c,_0x3afeab=''){const _0x2458a2=_0x334a22;return _0x3afeab||_0x12740c?.[_0x2458a2(0x93)]||_0x12740c?.[_0x2458a2(0xac)]||_0x12740c?.[_0x2458a2(0xde)]||'Char';}function _0x556005(){const _0x215c26=_0x334a22,_0x577c1f=window[_0x215c26(0x166)]||_0x78e4e8||{};return _0x577c1f['avatarUrl']||_0x577c1f['avatar']||'';}function _0x366c2a(_0x253fba){const _0x1d1e5a=_0x334a22;return _0x253fba?.[_0x1d1e5a(0xd8)]||_0x253fba?.[_0x1d1e5a(0xc0)]||'';}function _0x53a6ea(_0xfbf644={},_0x4d1304=null){const _0x46b16b=_0x334a22,_0x47b00a=_0xfbf644[_0x46b16b(0x124)]||(_0xfbf644['role']===_0x46b16b(0x131)?_0x46b16b(0x169):_0x46b16b(0x148)),_0x5194ed=_0x58bb53(),_0x342f50=_0x223bc4(_0x4d1304,_0xfbf644[_0x46b16b(0xd0)]||_0xfbf644[_0x46b16b(0xa4)]||''),_0x4a3a16=_0xfbf644[_0x46b16b(0x96)]||'',_0x479554=['char_to_user_pending',_0x46b16b(0x15c),_0x46b16b(0x102),_0x46b16b(0x154)],_0x2f2a5f=[_0x46b16b(0x148),'char_to_user_claimed','user_received_from_char'],_0x2f0dc5=[_0x46b16b(0x120),_0x46b16b(0x182),_0x46b16b(0x154)],_0x36d39f=_0xfbf644[_0x46b16b(0x174)]===_0x46b16b(0x8b)||_0xfbf644[_0x46b16b(0x174)]===_0x46b16b(0x169)?_0xfbf644[_0x46b16b(0x174)]:'',_0x45242f=_0x36d39f||(_0x479554[_0x46b16b(0xf1)](_0x47b00a)?'char_to_user':_0x46b16b(0x169));let _0x3f0d95=_0x2f0dc5[_0x46b16b(0xf1)](_0x47b00a)?_0x46b16b(0x18a):_0x2f2a5f[_0x46b16b(0xf1)](_0x47b00a)?'claimed':_0x46b16b(0x15f);if(_0x3f0d95==='pending'&&_0xfbf644[_0x46b16b(0xbd)])_0x3f0d95='claimed';let _0x4785d7=_0xfbf644[_0x46b16b(0xc4)]||'',_0x1047bc=_0xfbf644[_0x46b16b(0x12a)]||'';_0x45242f===_0x46b16b(0x8b)?(_0x4785d7=_0x4785d7||_0xfbf644[_0x46b16b(0x17f)]||_0x4a3a16||_0x342f50,_0x1047bc=_0x1047bc||_0xfbf644[_0x46b16b(0x10b)]||_0x5194ed):(_0x4785d7=_0x4785d7||_0xfbf644[_0x46b16b(0x17f)]||_0x5194ed,_0x1047bc=_0x1047bc||_0xfbf644['receiverName']||(_0x4a3a16&&_0x4a3a16!==_0x5194ed?_0x4a3a16:_0x342f50));const _0x3c9ba8=_0x45242f===_0x46b16b(0x169)?_0x46b16b(0x131):_0x46b16b(0xc1),_0x3f6fd9=_0x45242f===_0x46b16b(0x169)?_0x46b16b(0xc1):_0x46b16b(0x131);return{'payKind':_0x47b00a,'direction':_0x45242f,'status':_0x3f0d95,'payerName':_0x4785d7,'payeeName':_0x1047bc,'payerType':_0x3c9ba8,'payeeType':_0x3f6fd9,'payerAvatar':_0x3c9ba8===_0x46b16b(0x131)?_0x556005():_0x366c2a(_0x4d1304),'payeeAvatar':_0x3f6fd9===_0x46b16b(0x131)?_0x556005():_0x366c2a(_0x4d1304),'canCurrentUserClaim':_0x45242f===_0x46b16b(0x8b)&&_0x3f0d95===_0x46b16b(0x15f)&&!_0xfbf644[_0x46b16b(0xbd)],'senderName':_0x4785d7,'receiverName':_0x1047bc,'senderType':_0x3c9ba8,'receiverType':_0x3f6fd9,'isUserSender':_0x3c9ba8===_0x46b16b(0x131)};}function _0x507555(_0x15f06b={},_0x2c55c1=null){return _0x53a6ea(_0x15f06b,_0x2c55c1);}window[_0x334a22(0xa6)][_0x334a22(0x190)]=_0x53a6ea,window[_0x334a22(0xa6)]['resolvePayTransferParties']=_0x507555;function _0xefc458(_0x456beb){const _0x2ae3b0=_0x334a22;return window[_0x2ae3b0(0xa6)][_0x2ae3b0(0x17e)](_0x456beb)['filter'](_0x132bf1=>_0x132bf1&&_0x132bf1[_0x2ae3b0(0xd7)]!=='group');}function _0x4d6d0e(_0x17819b){const _0x4112d9=_0x334a22,_0x1238d5=typeof window[_0x4112d9(0x188)]==='function'?window[_0x4112d9(0x188)]():null,_0x461122=typeof window[_0x4112d9(0x165)]==='function'?window[_0x4112d9(0x165)]():[],_0x1d1c99=_0x461122['find'](_0x3a7428=>String(_0x3a7428['id'])===String(_0x1238d5))||null,_0x3752e7=_0x17819b&&_0x17819b['memory']?_0x17819b[_0x4112d9(0x14e)][_0x4112d9(0x11e)]||null:null,_0x4cc3bc=_0x78e4e8&&(_0x78e4e8['name']||_0x78e4e8['realName'])||_0x1d1c99?.[_0x4112d9(0xde)]||'你',_0x1f9644=_0x78e4e8&&(_0x78e4e8[_0x4112d9(0xd8)]||_0x78e4e8[_0x4112d9(0xc0)])||_0x1d1c99?.[_0x4112d9(0xd8)]||_0x1d1c99?.[_0x4112d9(0xc0)]||'';return{'id':'__user__','accountId':_0x3752e7?.['id']||_0x1d1c99?.['id']||null,'nickname':_0x3752e7?.[_0x4112d9(0xde)]||_0x4cc3bc,'realName':_0x3752e7?.[_0x4112d9(0xde)]||_0x4cc3bc,'avatarUrl':_0x3752e7?.[_0x4112d9(0xd8)]||_0x3752e7?.[_0x4112d9(0xc0)]||_0x1f9644,'persona':_0x3752e7?.['persona']||_0x1d1c99?.['persona']||(_0x78e4e8?_0x78e4e8[_0x4112d9(0xe7)]:'')||'','signature':_0x3752e7?.['signature']||_0x1d1c99?.[_0x4112d9(0xd9)]||'','type':_0x4112d9(0x131)};}function _0x4cf615(_0x3fae0c){const _0x18d05b=_0x334a22,_0x18b9ea=window[_0x18d05b(0xa6)]['getAvailableGroupRecipients'](_0x3fae0c)['slice']();return _0x18b9ea[_0x18d05b(0xe2)](window[_0x18d05b(0xa6)][_0x18d05b(0xa8)](_0x3fae0c)),_0x18b9ea;}function _0x1a5dc9(_0x395025,_0x2f1a3d,_0x3acb30=null){const _0xf20d0b=_0x334a22;if(!_0x395025)return{'id':'','name':_0x3acb30?.['nickname']||_0x3acb30?.[_0xf20d0b(0xac)]||_0xf20d0b(0xfa),'avatarUrl':_0x3acb30?.['avatarUrl']||''};const _0x180637=_0x395025[_0xf20d0b(0xa0)];if(String(_0x180637)===_0xf20d0b(0x108)){const _0x33b823=window[_0xf20d0b(0xa6)]['getCurrentUserPacketMember'](_0x2f1a3d);return{'id':_0x33b823['id'],'name':_0x395025[_0xf20d0b(0x17f)]||_0x33b823[_0xf20d0b(0x93)],'avatarUrl':_0x395025['senderAvatarUrl']||_0x33b823[_0xf20d0b(0xd8)]||''};}const _0x552c1d=window[_0xf20d0b(0xa6)][_0xf20d0b(0x85)](_0x2f1a3d)[_0xf20d0b(0x84)](_0x4a3f6d=>String(_0x4a3f6d['id'])===String(_0x180637));return{'id':_0x180637||'','name':_0x395025[_0xf20d0b(0x17f)]||_0x552c1d?.[_0xf20d0b(0x93)]||_0x552c1d?.['realName']||_0x3acb30?.[_0xf20d0b(0x93)]||_0x3acb30?.[_0xf20d0b(0xac)]||_0xf20d0b(0xfa),'avatarUrl':_0x395025[_0xf20d0b(0xcd)]||_0x552c1d?.['avatarUrl']||_0x3acb30?.[_0xf20d0b(0xd8)]||''};}function _0x290a3f(_0x41b5a2){const _0x5dc072=_0x334a22;if(!_0x41b5a2||!Array['isArray'](_0x41b5a2['claimRecords']))return null;return _0x41b5a2['claimRecords'][_0x5dc072(0x84)](_0x5a1bb9=>String(_0x5a1bb9[_0x5dc072(0x10d)])===_0x5dc072(0x108))||null;}function _0x469548(_0x18c4cd,_0xe65945,_0x90e6c6){const _0x38c6cd=_0x334a22;if(!_0xe65945)return'有人领取了红包';const _0x1e49f1=_0xe65945[_0x38c6cd(0xff)]||'有人',_0x4b0692=_0x90e6c6?.['name']||'对方';if(String(_0xe65945[_0x38c6cd(0x10d)])===_0x38c6cd(0x108))return _0x38c6cd(0x175)+_0x4b0692+_0x38c6cd(0x164);if(String(_0xe65945[_0x38c6cd(0x10d)])===String(_0x90e6c6?.['id']))return _0x1e49f1+'领取了自己发的红包';return _0x1e49f1+_0x38c6cd(0x117)+_0x4b0692+_0x38c6cd(0x164);}function _0x3fb693(_0x5e5bbb,_0x2e52dc,_0x3b6ecd,_0x48148d={}){const _0x1ce4f2=_0x334a22;if(!_0x5e5bbb||!_0x2e52dc||_0x2e52dc['type']!==_0x1ce4f2(0xbe)||!_0x3b6ecd)return null;window[_0x1ce4f2(0xa6)][_0x1ce4f2(0xed)](_0x2e52dc,_0x5e5bbb);if(_0x2e52dc[_0x1ce4f2(0x178)])return null;const _0x54b3db=String(_0x3b6ecd['id']),_0xdb9ed5=new Set((_0x2e52dc['claimedMemberIds']||[])[_0x1ce4f2(0x94)](String));if(_0xdb9ed5[_0x1ce4f2(0x13a)](_0x54b3db))return _0x2e52dc[_0x1ce4f2(0x151)]['find'](_0x419e70=>String(_0x419e70[_0x1ce4f2(0x10d)])===_0x54b3db)||null;const _0x599ce7=Array[_0x1ce4f2(0x109)](_0x2e52dc[_0x1ce4f2(0x151)])?_0x2e52dc['claimRecords']['length']:0x0,_0x2d4310=Number((_0x2e52dc[_0x1ce4f2(0x114)]||[])[_0x599ce7]||0x0);if(!_0x2d4310||_0x2d4310<=0x0)return window[_0x1ce4f2(0xa6)][_0x1ce4f2(0xed)](_0x2e52dc,_0x5e5bbb),null;const _0x965c3b={'memberId':_0x3b6ecd['id'],'memberName':_0x3b6ecd[_0x1ce4f2(0x93)]||_0x3b6ecd['realName']||_0x1ce4f2(0xae),'amount':_0x2d4310,'claimedAt':_0x48148d[_0x1ce4f2(0xeb)]||Date[_0x1ce4f2(0x12c)]()};_0x2e52dc[_0x1ce4f2(0x151)][_0x1ce4f2(0xe2)](_0x965c3b),_0x2e52dc['claimedMemberIds'][_0x1ce4f2(0xe2)](_0x54b3db),_0x2e52dc['deferAutoClaimUntilNextTurn']=![],window[_0x1ce4f2(0xa6)]['normalizeGroupRedPacketState'](_0x2e52dc,_0x5e5bbb);if(String(_0x54b3db)===_0x1ce4f2(0x108)&&typeof window[_0x1ce4f2(0xd1)]==='function'&&_0x2d4310>0x0){const _0x75d985=_0x2e52dc[_0x1ce4f2(0x17f)]||_0x1ce4f2(0xae);window[_0x1ce4f2(0xd1)](_0x2d4310,(_0x2e52dc['description']||'群红包')+_0x1ce4f2(0xc5)+_0x75d985,_0x1ce4f2(0x11a));}if(!_0x48148d[_0x1ce4f2(0xb2)]){const _0x46797a=window[_0x1ce4f2(0xa6)][_0x1ce4f2(0x104)](_0x2e52dc,_0x5e5bbb);_0x5e5bbb[_0x1ce4f2(0xe3)][_0x1ce4f2(0xe2)]({'id':window[_0x1ce4f2(0xa6)]['createMessageId'](_0x1ce4f2(0x92)),'type':_0x1ce4f2(0xb7),'noticeKind':_0x1ce4f2(0x9c),'text':window['imChat'][_0x1ce4f2(0xf9)](_0x2e52dc,_0x965c3b,_0x46797a),'relatedPacketId':_0x2e52dc[_0x1ce4f2(0x105)]||_0x2e52dc['id'],'timestamp':_0x965c3b[_0x1ce4f2(0xeb)]});}return _0x965c3b;}function _0x13e6ed(_0x5e0f81,_0x59f3ec){const _0x428213=_0x334a22,_0x4a0943=Math['round']((Number(_0x5e0f81)||0x0)*0x64),_0x524ce4=Math[_0x428213(0x15a)](0x1,parseInt(_0x59f3ec,0xa)||0x1);if(_0x4a0943<_0x524ce4)return[];let _0x4e5974=_0x4a0943;const _0x471815=[];for(let _0x4839b5=0x0;_0x4839b5<_0x524ce4;_0x4839b5++){const _0x361082=_0x524ce4-_0x4839b5;if(_0x361082===0x1){_0x471815[_0x428213(0xe2)](Number((_0x4e5974/0x64)[_0x428213(0x15e)](0x2))),_0x4e5974=0x0;break;}const _0x526cb4=_0x361082-0x1,_0x541f1b=_0x4e5974-_0x526cb4,_0x3b8e0d=Math[_0x428213(0xe6)](_0x4e5974/_0x361082),_0x244eb0=Math[_0x428213(0x15a)](0x1,Math[_0x428213(0xc9)](_0x541f1b,_0x3b8e0d*0x2)),_0x5f4747=0x1,_0x5cd183=Math[_0x428213(0x15a)](_0x5f4747,Math[_0x428213(0xc9)](_0x541f1b,Math[_0x428213(0xe6)](Math['random']()*_0x244eb0)+0x1));_0x471815[_0x428213(0xe2)](Number((_0x5cd183/0x64)[_0x428213(0x15e)](0x2))),_0x4e5974-=_0x5cd183;}const _0x7cb425=Number((Number(_0x5e0f81)-_0x471815[_0x428213(0xce)]((_0x40b579,_0x3db339)=>_0x40b579+Number(_0x3db339||0x0),0x0))['toFixed'](0x2));return _0x471815[_0x428213(0xda)]>0x0&&Math[_0x428213(0x86)](_0x7cb425)>0x0&&(_0x471815[_0x471815[_0x428213(0xda)]-0x1]=Number((_0x471815[_0x471815[_0x428213(0xda)]-0x1]+_0x7cb425)['toFixed'](0x2))),_0x471815;}function _0x45821a(_0x1fac4a){const _0x1ecdaf=_0x334a22;if(!_0x1fac4a||!Array[_0x1ecdaf(0x109)](_0x1fac4a[_0x1ecdaf(0x151)])||_0x1fac4a['claimRecords'][_0x1ecdaf(0xda)]===0x0)return null;return _0x1fac4a[_0x1ecdaf(0x151)][_0x1ecdaf(0xce)]((_0x398bb3,_0x47d36b)=>{const _0x5106c2=_0x1ecdaf;if(!_0x398bb3)return _0x47d36b;return Number(_0x47d36b[_0x5106c2(0x121)]||0x0)>Number(_0x398bb3[_0x5106c2(0x121)]||0x0)?_0x47d36b:_0x398bb3;},null)?.['memberId']||null;}function _0x43f772(_0x260bcd,_0x610fee){const _0x10adae=_0x334a22;if(!_0x260bcd||_0x260bcd[_0x10adae(0xd7)]!==_0x10adae(0xbe))return _0x260bcd;if(!Array['isArray'](_0x260bcd[_0x10adae(0x151)]))_0x260bcd[_0x10adae(0x151)]=[];if(!Array['isArray'](_0x260bcd[_0x10adae(0x18d)]))_0x260bcd[_0x10adae(0x18d)]=[];(!Array[_0x10adae(0x109)](_0x260bcd[_0x10adae(0x114)])||_0x260bcd[_0x10adae(0x114)][_0x10adae(0xda)]===0x0)&&(_0x260bcd['allocations']=window['imChat']['createRedPacketAllocations'](_0x260bcd['totalAmount'],_0x260bcd[_0x10adae(0x14c)]));if(!_0x260bcd[_0x10adae(0xea)])_0x260bcd[_0x10adae(0xea)]=_0x260bcd[_0x10adae(0x129)]===_0x10adae(0x128)?'assistant':_0x10adae(0x131);!_0x260bcd[_0x10adae(0xa0)]&&(_0x260bcd['senderMemberId']=_0x260bcd[_0x10adae(0xea)]==='user'?_0x10adae(0x108):_0x260bcd['speakerMemberId']||'');if(!_0x260bcd[_0x10adae(0x17f)]){const _0x14a3bf=window[_0x10adae(0xa6)][_0x10adae(0x104)](_0x260bcd,_0x610fee);_0x260bcd['senderName']=_0x14a3bf[_0x10adae(0xde)],_0x260bcd['senderAvatarUrl']=_0x260bcd[_0x10adae(0xcd)]||_0x14a3bf['avatarUrl']||'';}_0x260bcd[_0x10adae(0x18d)]=_0x260bcd[_0x10adae(0x151)][_0x10adae(0x94)](_0x779c93=>String(_0x779c93[_0x10adae(0x10d)])),_0x260bcd[_0x10adae(0x130)]=Math[_0x10adae(0x15a)](0x0,(parseInt(_0x260bcd[_0x10adae(0x14c)],0xa)||0x0)-_0x260bcd[_0x10adae(0x151)][_0x10adae(0xda)]),_0x260bcd[_0x10adae(0x187)]=Number(((Number(_0x260bcd[_0x10adae(0x170)])||0x0)-_0x260bcd[_0x10adae(0x151)][_0x10adae(0xce)]((_0x3ae429,_0x3a218e)=>_0x3ae429+Number(_0x3a218e['amount']||0x0),0x0))[_0x10adae(0x15e)](0x2)),_0x260bcd[_0x10adae(0xe9)]=window[_0x10adae(0xa6)][_0x10adae(0x143)](_0x260bcd);const _0x43a13c=window['imChat'][_0x10adae(0x85)](_0x610fee),_0x387569=Math[_0x10adae(0x15a)](0x1,parseInt(_0x260bcd[_0x10adae(0x14c)],0xa)||0x1),_0xd397c7=Math['min'](_0x43a13c[_0x10adae(0xda)],_0x387569);_0x260bcd['packetCount']=_0x387569,_0x260bcd[_0x10adae(0x89)]=_0xd397c7,_0x260bcd[_0x10adae(0x130)]=Math['min'](_0x260bcd[_0x10adae(0x130)],Math[_0x10adae(0x15a)](0x0,_0xd397c7-_0x260bcd['claimRecords'][_0x10adae(0xda)])),_0x260bcd[_0x10adae(0x178)]=_0x260bcd[_0x10adae(0x151)][_0x10adae(0xda)]>=_0xd397c7||_0x260bcd['remainingCount']<=0x0||_0x260bcd['remainingAmount']<=0x0,_0x260bcd[_0x10adae(0x125)]=_0x260bcd[_0x10adae(0x178)]?_0x10adae(0x140):_0x10adae(0x7f);const _0x24ba8b=window[_0x10adae(0xa6)][_0x10adae(0xd6)](_0x260bcd);return _0x260bcd[_0x10adae(0x10c)]=_0x24ba8b,_0x260bcd['currentUserClaimed']=!!_0x24ba8b,_0x260bcd['currentUserClaimAmount']=_0x24ba8b?Number(_0x24ba8b['amount']||0x0):0x0,_0x260bcd;}function _0x36d315(_0x213d89){const _0x8593ba=_0x334a22;if(!_0x213d89||_0x213d89[_0x8593ba(0xd7)]!=='group'||!Array[_0x8593ba(0x109)](_0x213d89['messages'])||_0x213d89[_0x8593ba(0xe3)][_0x8593ba(0xda)]===0x0)return![];const _0x49497e=_0x213d89[_0x8593ba(0xe3)][_0x8593ba(0x17b)](_0x4e18ed=>_0x4e18ed&&_0x4e18ed[_0x8593ba(0xd7)]===_0x8593ba(0xbe)&&!_0x4e18ed[_0x8593ba(0x178)]);if(_0x49497e['length']===0x0)return![];const _0x5b037b=window[_0x8593ba(0xa6)][_0x8593ba(0x85)](_0x213d89)[_0x8593ba(0x17b)](_0x51066b=>String(_0x51066b['id'])!==_0x8593ba(0x108));if(_0x5b037b['length']===0x0)return![];let _0x492a0b=![];return _0x49497e['forEach'](_0x3bfc9a=>{const _0x554298=_0x8593ba;window[_0x554298(0xa6)]['normalizeGroupRedPacketState'](_0x3bfc9a,_0x213d89);if(_0x3bfc9a[_0x554298(0x178)])return;if(_0x3bfc9a[_0x554298(0xb1)]){_0x3bfc9a['deferAutoClaimUntilNextTurn']=![],_0x492a0b=!![];return;}const _0x1983c9=new Set((_0x3bfc9a['claimedMemberIds']||[])['map'](String)),_0x5bd362=_0x5b037b[_0x554298(0x17b)](_0x523cc0=>!_0x1983c9[_0x554298(0x13a)](String(_0x523cc0['id']))),_0x26cc32=(_0x3bfc9a[_0x554298(0x114)]||[])['slice'](_0x3bfc9a[_0x554298(0x151)]['length']);if(_0x5bd362['length']===0x0||_0x26cc32[_0x554298(0xda)]===0x0){window[_0x554298(0xa6)]['normalizeGroupRedPacketState'](_0x3bfc9a,_0x213d89);return;}const _0xe43acb=Math[_0x554298(0xc9)](_0x26cc32['length'],_0x5bd362[_0x554298(0xda)],Math[_0x554298(0x15a)](0x1,Math['min'](0x3,_0x5bd362[_0x554298(0xda)]))),_0x566069=Math[_0x554298(0x15a)](0x1,Math[_0x554298(0xc9)](_0xe43acb,Math[_0x554298(0xef)](Math[_0x554298(0xaf)]()*_0xe43acb))),_0x5347dc=_0x5bd362[_0x554298(0x141)]()[_0x554298(0x150)](()=>Math['random']()-0.5)[_0x554298(0x141)](0x0,_0x566069);_0x5347dc[_0x554298(0x180)]((_0x369efd,_0x8c3d68)=>{const _0x424830=_0x554298,_0x209cae=window[_0x424830(0xa6)]['claimGroupRedPacketForMember'](_0x213d89,_0x3bfc9a,_0x369efd,{'claimedAt':Date[_0x424830(0x12c)]()+_0x8c3d68});if(_0x209cae)_0x492a0b=!![];}),window[_0x554298(0xa6)]['normalizeGroupRedPacketState'](_0x3bfc9a,_0x213d89);}),_0x492a0b&&_0x213d89[_0x8593ba(0xe3)]['sort']((_0x5476b3,_0x1267d7)=>(_0x5476b3['timestamp']||0x0)-(_0x1267d7[_0x8593ba(0x83)]||0x0)),_0x492a0b;}function _0xc0f4a6(_0x28d129,_0x35d9d5,_0x62e036){const _0x27a4f1=_0x334a22;if(!_0x28d129||!_0x35d9d5||!_0x62e036)return![];const _0x49995e=_0x28d129[_0x27a4f1(0x177)](_0x27a4f1(0x176));if(!_0x49995e)return![];const _0x4bc888=_0x62e036['id']||_0x62e036[_0x27a4f1(0x105)]||null,_0x3441a7=_0x62e036['timestamp']||null,_0x1ab3f7=_0x4bc888?_0x49995e[_0x27a4f1(0x177)]('.chat-row[data-message-id=\x22'+_0x4bc888+'\x22]'):_0x3441a7?_0x49995e[_0x27a4f1(0x177)](_0x27a4f1(0xa5)+_0x3441a7+'\x22]'):null;if(!_0x1ab3f7)return![];const _0x4d29d4=document['createElement'](_0x27a4f1(0x10f));window[_0x27a4f1(0xa6)][_0x27a4f1(0x82)](_0x62e036,_0x35d9d5,_0x4d29d4,_0x62e036[_0x27a4f1(0x83)]||Date['now']());const _0x356479=_0x4d29d4['querySelector'](_0x27a4f1(0x113));if(!_0x356479)return![];return _0x1ab3f7[_0x27a4f1(0xb8)](_0x356479),!![];}function _0x3e80c1(_0x55fa2f,_0x4b93a4){const _0x45f0e1=_0x334a22;if(!_0x55fa2f||_0x55fa2f[_0x45f0e1(0x177)]('.group-red-packet-detail-overlay'))return;_0x55fa2f[_0x45f0e1(0x97)](_0x45f0e1(0xe0),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-overlay\x22\x20style=\x22display:none;\x20position:absolute;\x20inset:0;\x20z-index:1201;\x20background:rgba(0,0,0,0.32);\x20opacity:0;\x20transition:opacity\x200.3s\x20ease;\x20align-items:center;\x20justify-content:center;\x20padding:18px;\x20box-sizing:border-box;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-card\x22\x20style=\x22width:100%;\x20max-width:320px;\x20border-radius:24px;\x20background:#fff;\x20color:#111;\x20\x20padding:32px\x2024px\x2028px;\x20box-sizing:border-box;\x20text-align:center;\x20position:relative;\x20transform:scale(0.9);\x20opacity:0;\x20transition:all\x200.4s\x20cubic-bezier(0.175,\x200.885,\x200.32,\x201.275);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22group-red-packet-claim-close\x22\x20style=\x22position:absolute;\x20right:16px;\x20top:16px;\x20width:32px;\x20height:32px;\x20border:none;\x20border-radius:50%;\x20background:#f2f2f7;\x20color:#666;\x20cursor:pointer;\x20transition:background\x200.2s;\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-avatar\x22\x20style=\x22width:64px;\x20height:64px;\x20border-radius:50%;\x20overflow:hidden;\x20margin:0\x20auto\x2016px;\x20background:#f2f2f7;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20font-size:22px;\x20color:#8e8e93;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-sender\x22\x20style=\x22font-size:18px;\x20font-weight:800;\x20color:#111;\x22>发红包的人</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-desc\x22\x20style=\x22font-size:14px;\x20color:#8e8e93;\x20margin-top:8px;\x20line-height:1.5;\x22>恭喜发财</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-action-area\x22\x20style=\x22margin-top:36px;\x20min-height:110px;\x20display:flex;\x20flex-direction:column;\x20align-items:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22group-red-packet-claim-action\x22\x20style=\x22width:90px;\x20height:90px;\x20border:none;\x20border-radius:50%;\x20background:#ff4d4f;\x20color:#fff;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20font-size:42px;\x20cursor:pointer;\x20\x20transition:transform\x200.2s\x20cubic-bezier(0.175,\x200.885,\x200.32,\x201.275);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-envelope-open-text\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-empty-text\x22\x20style=\x22display:none;\x20font-size:24px;\x20font-weight:800;\x20color:#111;\x20margin-bottom:10px;\x22>手慢了，红包派完了</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-claim-view-detail\x22\x20style=\x22margin-top:auto;\x20font-size:13px;\x20color:#007aff;\x20cursor:pointer;\x20font-weight:500;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20gap:4px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20查看详情\x20<i\x20class=\x22fas\x20fa-chevron-right\x22\x20style=\x22font-size:10px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-overlay\x22\x20style=\x22display:none;\x20position:absolute;\x20inset:0;\x20z-index:1202;\x20background:rgba(0,0,0,0.28);\x20opacity:0;\x20transition:opacity\x200.3s\x20ease;\x20align-items:center;\x20justify-content:center;\x20padding:18px;\x20box-sizing:border-box;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-card\x22\x20style=\x22width:100%;\x20max-width:340px;\x20max-height:82%;\x20overflow:hidden;\x20border-radius:30px;\x20background:rgba(255,255,255,0.98);\x20\x20\x20\x20display:flex;\x20flex-direction:column;\x20transform:translateY(20px);\x20opacity:0;\x20transition:all\x200.3s\x20cubic-bezier(0.25,\x200.8,\x200.25,\x201);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22position:relative;\x20padding:18px\x2018px\x2014px;\x20border-bottom:1px\x20solid\x20rgba(0,0,0,0.06);\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:18px;\x20font-weight:800;\x20color:#111;\x20text-align:center;\x22>红包详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22group-red-packet-detail-close\x22\x20style=\x22position:absolute;\x20right:18px;\x20top:16px;\x20width:32px;\x20height:32px;\x20border:none;\x20border-radius:50%;\x20background:#f2f2f7;\x20color:#666;\x20cursor:pointer;\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-header\x22\x20style=\x22display:flex;\x20flex-direction:column;\x20align-items:center;\x20justify-content:center;\x20margin-top:14px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-avatar\x22\x20style=\x22width:58px;\x20height:58px;\x20border-radius:50%;\x20overflow:hidden;\x20background:#e5e5ea;\x20color:#8e8e93;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20font-size:20px;\x20margin-bottom:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-title\x22\x20style=\x22font-size:17px;\x20font-weight:700;\x20color:#111;\x20text-align:center;\x22>发红包的人</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-summary\x22\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:6px;\x20text-align:center;\x22>总金额\x20¥0.00\x20·\x20恭喜发财</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-claim-amount\x22\x20style=\x22font-size:36px;\x20line-height:1.1;\x20font-weight:800;\x20color:#111;\x20text-align:center;\x20margin-top:14px;\x22>¥0.00</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:6px;\x22>你抢到的金额</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:14px\x2018px\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-progress\x22\x20style=\x22border-radius:18px;\x20background:#f7f7fa;\x20padding:12px\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-progress-text\x22\x20style=\x22font-size:14px;\x20color:#333;\x20line-height:1.5;\x22>0/0\x20人领取</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-status\x22\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:4px;\x22>待领取</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22group-red-packet-detail-list\x22\x20style=\x22flex:1;\x20overflow-y:auto;\x20padding:0\x2018px\x2018px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20');const _0x3f6b32=_0x55fa2f['querySelector'](_0x45f0e1(0x11f)),_0x4d741b=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0xcf)),_0x31f87d=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x163)),_0x4a5894=_0x55fa2f[_0x45f0e1(0x177)]('.group-red-packet-claim-sender'),_0x80d80c=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x17c)),_0x248fb5=_0x55fa2f['querySelector'](_0x45f0e1(0x144)),_0x556759=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x147)),_0x394eb0=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x13f)),_0x402679=_0x55fa2f[_0x45f0e1(0x177)]('.group-red-packet-detail-title'),_0x282a13=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0xfc)),_0x5caa93=_0x55fa2f['querySelector'](_0x45f0e1(0xba)),_0x13676f=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0xd4)),_0x598150=_0x55fa2f[_0x45f0e1(0x177)]('.group-red-packet-detail-status'),_0x47308f=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x10a)),_0x4b21aa=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x12e));let _0x594f1d=null;function _0x3a6cfc(){const _0x4b0e4a=_0x45f0e1;_0x594f1d=null;if(_0x3f6b32){_0x3f6b32[_0x4b0e4a(0x80)][_0x4b0e4a(0x160)]='0';const _0x15a26e=_0x3f6b32[_0x4b0e4a(0x177)](_0x4b0e4a(0x137));_0x15a26e&&(_0x15a26e['style'][_0x4b0e4a(0xa7)]=_0x4b0e4a(0xd3),_0x15a26e['style'][_0x4b0e4a(0x160)]='0'),setTimeout(()=>{const _0x5913c5=_0x4b0e4a;_0x3f6b32[_0x5913c5(0x80)][_0x5913c5(0x8e)]=_0x5913c5(0xbf);},0x12c);}}function _0xe13e04(){const _0x438954=_0x45f0e1;_0x594f1d=null;if(_0x556759){_0x556759[_0x438954(0x80)][_0x438954(0x160)]='0';const _0x242f22=_0x556759['querySelector'](_0x438954(0xc2));_0x242f22&&(_0x242f22[_0x438954(0x80)]['transform']=_0x438954(0xe8),_0x242f22[_0x438954(0x80)][_0x438954(0x160)]='0'),setTimeout(()=>{const _0x2dd565=_0x438954;_0x556759[_0x2dd565(0x80)]['display']=_0x2dd565(0xbf);},0x12c);}}function _0x435720(_0x4b1905){const _0x579a92=_0x45f0e1;if(!_0x556759||!_0x4b1905)return;_0x594f1d=_0x4b1905,window['imChat'][_0x579a92(0xed)](_0x4b1905,_0x4b93a4);const _0x3df83b=window[_0x579a92(0xa6)]['getPacketSenderDisplayMeta'](_0x4b1905,_0x4b93a4,_0x4b93a4),_0x313c1a=Array['isArray'](_0x4b1905[_0x579a92(0x151)])?_0x4b1905[_0x579a92(0x151)][_0x579a92(0x141)]():[],_0x386cc6=_0x313c1a[_0x579a92(0xda)],_0x482728=parseInt(_0x4b1905[_0x579a92(0x14c)],0xa)||0x0,_0x221b1e=Number(_0x4b1905[_0x579a92(0x170)])||0x0,_0x19be28=_0x4b1905['luckiestMemberId']||window[_0x579a92(0xa6)][_0x579a92(0x143)](_0x4b1905),_0xf5976f=Number(_0x4b1905[_0x579a92(0xbc)]||0x0);if(_0x402679)_0x402679[_0x579a92(0x12b)]=_0x3df83b[_0x579a92(0xde)]||_0x579a92(0xfa);if(_0x282a13)_0x282a13['textContent']=_0x579a92(0xcb)+_0x221b1e[_0x579a92(0x15e)](0x2)+_0x579a92(0xfd)+(_0x4b1905[_0x579a92(0x14f)]||_0x579a92(0x153));if(_0x5caa93)_0x5caa93[_0x579a92(0x12b)]='¥'+_0xf5976f[_0x579a92(0x15e)](0x2);if(_0x13676f)_0x13676f['textContent']=_0x386cc6+'/'+_0x482728+_0x579a92(0x149);if(_0x598150)_0x598150[_0x579a92(0x12b)]=_0x4b1905['isFinished']?_0x579a92(0x140):_0x579a92(0x111)+(_0x4b1905[_0x579a92(0x130)]||0x0)+_0x579a92(0x98)+Number(_0x4b1905['remainingAmount']||0x0)[_0x579a92(0x15e)](0x2);const _0x392eb6=_0x3df83b[_0x579a92(0xd8)]?'<img\x20src=\x22'+_0x3df83b[_0x579a92(0xd8)]+'\x22\x20style=\x22width:100%;\x20height:100%;\x20object-fit:cover;\x20display:block;\x22>':_0x579a92(0x10e)+String(_0x3df83b['name']||'群')['charAt'](0x0)+_0x579a92(0xb3);if(_0x4b21aa)_0x4b21aa[_0x579a92(0x17a)]=_0x392eb6;if(_0x47308f){const _0x4f1a47=_0x313c1a[_0x579a92(0x94)](_0x1b5975=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20justify-content:space-between;\x20padding:12px\x200;\x20border-bottom:1px\x20solid\x20rgba(0,0,0,0.05);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:10px;\x20min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:36px;\x20height:36px;\x20border-radius:50%;\x20background:#f2f2f7;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20color:#8e8e93;\x20font-size:15px;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x1b5975[_0x579a92(0xff)]||'群')[_0x579a92(0xf2)](0x0)+_0x579a92(0x13d)+(_0x1b5975[_0x579a92(0xff)]||window[_0x579a92(0xa6)][_0x579a92(0x95)](_0x4b93a4,_0x1b5975[_0x579a92(0x10d)]))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(String(_0x1b5975[_0x579a92(0x10d)])===String(_0x19be28)?_0x579a92(0xaa):'')+_0x579a92(0xee)+(window[_0x579a92(0x13c)][_0x579a92(0x88)]?window[_0x579a92(0x13c)][_0x579a92(0x88)](_0x1b5975[_0x579a92(0xeb)]):'')+_0x579a92(0x8d)+Number(_0x1b5975[_0x579a92(0x121)]||0x0)[_0x579a92(0x15e)](0x2)+_0x579a92(0xbb))[_0x579a92(0x119)]('');_0x47308f[_0x579a92(0x17a)]=_0x4f1a47?_0x4f1a47:'<div\x20style=\x22padding:28px\x200;\x20text-align:center;\x20color:#8e8e93;\x20font-size:13px;\x22>还没有人领取红包</div>';}_0x556759[_0x579a92(0x80)][_0x579a92(0x8e)]=_0x579a92(0xa3),_0x556759[_0x579a92(0x13e)],_0x556759['style'][_0x579a92(0x160)]='1';const _0x36a181=_0x556759[_0x579a92(0x177)](_0x579a92(0xc2));_0x36a181&&(_0x36a181[_0x579a92(0x80)][_0x579a92(0xa7)]=_0x579a92(0xf4),_0x36a181[_0x579a92(0x80)][_0x579a92(0x160)]='1');}function _0x5b7001(_0x1ef1c9){const _0x1e717f=_0x45f0e1;if(!_0x3f6b32||!_0x1ef1c9)return;_0x594f1d=_0x1ef1c9,window[_0x1e717f(0xa6)][_0x1e717f(0xed)](_0x1ef1c9,_0x4b93a4);const _0x165910=window[_0x1e717f(0xa6)]['getPacketSenderDisplayMeta'](_0x1ef1c9,_0x4b93a4,_0x4b93a4),_0x59e70d=_0x165910['avatarUrl']?_0x1e717f(0x112)+_0x165910[_0x1e717f(0xd8)]+_0x1e717f(0xdc):_0x1e717f(0x10e)+String(_0x165910[_0x1e717f(0xde)]||'群')['charAt'](0x0)+'</span>';if(_0x31f87d)_0x31f87d['innerHTML']=_0x59e70d;if(_0x4a5894)_0x4a5894[_0x1e717f(0x12b)]=_0x165910['name']||_0x1e717f(0xfa);if(_0x80d80c)_0x80d80c[_0x1e717f(0x12b)]=_0x1ef1c9[_0x1e717f(0x14f)]||_0x1e717f(0x153);const _0x27fb9e=_0x3f6b32[_0x1e717f(0x177)](_0x1e717f(0x144)),_0x39e197=_0x3f6b32[_0x1e717f(0x177)](_0x1e717f(0x127));if(_0x1ef1c9[_0x1e717f(0x178)]){if(_0x27fb9e)_0x27fb9e['style']['display']=_0x1e717f(0xbf);if(_0x39e197)_0x39e197[_0x1e717f(0x80)]['display']='block';}else{if(_0x27fb9e)_0x27fb9e[_0x1e717f(0x80)][_0x1e717f(0x8e)]='flex';if(_0x39e197)_0x39e197[_0x1e717f(0x80)][_0x1e717f(0x8e)]=_0x1e717f(0xbf);}_0x3f6b32[_0x1e717f(0x80)][_0x1e717f(0x8e)]=_0x1e717f(0xa3),_0x3f6b32[_0x1e717f(0x13e)],_0x3f6b32['style'][_0x1e717f(0x160)]='1';const _0x2be676=_0x3f6b32[_0x1e717f(0x177)](_0x1e717f(0x137));_0x2be676&&(_0x2be676[_0x1e717f(0x80)][_0x1e717f(0xa7)]=_0x1e717f(0x173),_0x2be676[_0x1e717f(0x80)][_0x1e717f(0x160)]='1');}function _0x4ac1a7(_0x316900){const _0x371fc4=_0x45f0e1;if(!_0x316900)return;window[_0x371fc4(0xa6)][_0x371fc4(0xed)](_0x316900,_0x4b93a4);if(_0x316900[_0x371fc4(0x15d)]){_0x435720(_0x316900);return;}_0x5b7001(_0x316900);}_0x55fa2f[_0x45f0e1(0x18f)]=_0x435720,_0x55fa2f[_0x45f0e1(0x14a)]=_0xe13e04,_0x55fa2f[_0x45f0e1(0x99)]=_0x5b7001,_0x55fa2f[_0x45f0e1(0x91)]=_0x3a6cfc,_0x55fa2f[_0x45f0e1(0x186)]=_0x4ac1a7;_0x3f6b32&&_0x3f6b32[_0x45f0e1(0x9f)](_0x45f0e1(0x16c),_0x16ecb7=>{const _0xc94ede=_0x45f0e1;if(_0x16ecb7[_0xc94ede(0x157)]===_0x3f6b32)_0x3a6cfc();});_0x4d741b&&_0x4d741b['addEventListener'](_0x45f0e1(0x16c),()=>{_0x3a6cfc();});const _0x47abfd=_0x55fa2f[_0x45f0e1(0x177)](_0x45f0e1(0x8f));_0x47abfd&&_0x47abfd[_0x45f0e1(0x9f)](_0x45f0e1(0x16c),()=>{if(!_0x594f1d)return;const _0x17a26b=_0x594f1d;_0x3a6cfc(),setTimeout(()=>{_0x435720(_0x17a26b);},0xc8);}),_0x248fb5&&_0x248fb5[_0x45f0e1(0x9f)](_0x45f0e1(0x16c),()=>{const _0x4e52be=_0x45f0e1;if(!_0x594f1d)return;_0x248fb5['style']['transform']=_0x4e52be(0xd3),setTimeout(async()=>{const _0x3cc335=_0x4e52be;_0x248fb5[_0x3cc335(0x80)][_0x3cc335(0xa7)]=_0x3cc335(0x173);const _0x484b15=_0x594f1d['packetId']||_0x594f1d['id'];let _0x1d6e72=null;const _0x1c2f1f=await _0x540201(_0x4b93a4,_0x377c26=>{const _0x17cd4c=_0x3cc335,_0x17b64f=Array['isArray'](_0x377c26[_0x17cd4c(0xe3)])?_0x377c26[_0x17cd4c(0xe3)][_0x17cd4c(0x84)](_0x108db7=>_0x108db7&&(_0x108db7['packetId']===_0x484b15||_0x108db7['id']===_0x484b15)):null;if(!_0x17b64f)return;const _0x4b55e9=window['imChat'][_0x17cd4c(0xf7)](_0x377c26,_0x17b64f,window['imChat'][_0x17cd4c(0xa8)](_0x377c26));if(!_0x4b55e9)return;_0x1d6e72=_0x17b64f;},{'silent':!![]});if(!_0x1d6e72){if(window[_0x3cc335(0x9b)])window[_0x3cc335(0x9b)](_0x3cc335(0xf8));_0x5b7001(_0x594f1d);return;}if(!_0x1c2f1f){if(window[_0x3cc335(0x9b)])window[_0x3cc335(0x9b)](_0x3cc335(0xa1));return;}const _0x50b9e2=_0x55fa2f[_0x3cc335(0x177)](_0x3cc335(0x176));if(_0x50b9e2){const _0x37fe1a=_0xc0f4a6(_0x55fa2f,_0x4b93a4,_0x1d6e72);!_0x37fe1a&&(_0x50b9e2['innerHTML']='',window[_0x3cc335(0xa6)][_0x3cc335(0x87)](_0x4b93a4,_0x50b9e2)),window[_0x3cc335(0xa6)]['scrollToBottom'](_0x50b9e2);}_0x3a6cfc(),setTimeout(()=>{_0x435720(_0x1d6e72);},0xfa);},0x96);}),_0x556759&&_0x556759[_0x45f0e1(0x9f)]('click',_0x1029e4=>{const _0x55016e=_0x45f0e1;if(_0x1029e4[_0x55016e(0x157)]===_0x556759)_0xe13e04();}),_0x394eb0&&_0x394eb0[_0x45f0e1(0x9f)](_0x45f0e1(0x16c),()=>{_0xe13e04();});}function _0x13e835(_0x5e905d,_0x570531){const _0x8bde96=_0x334a22;if(!_0x5e905d)return;const _0x58c29c=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0x107)),_0x2b4dca=_0x58c29c&&_0x5e905d[_0x8bde96(0xe5)]===!![]&&typeof _0x5e905d['_openTransferDetailOverlay']===_0x8bde96(0x103);if(_0x2b4dca)return;_0x58c29c&&(_0x58c29c[_0x8bde96(0xf6)](),_0x5e905d[_0x8bde96(0x185)]=null,_0x5e905d[_0x8bde96(0x8a)]=null,_0x5e905d[_0x8bde96(0xe5)]=![]);_0x5e905d[_0x8bde96(0x97)](_0x8bde96(0xe0),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-overlay\x22\x20style=\x22display:none;\x20position:absolute;\x20inset:0;\x20z-index:1200;\x20background:rgba(0,0,0,0.28);\x20align-items:center;\x20justify-content:center;\x20padding:20px;\x20box-sizing:border-box;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-card\x22\x20style=\x22width:100%;\x20max-width:320px;\x20border-radius:28px;\x20background:rgba(255,255,255,0.96);\x20\x20\x20\x20padding:20px\x2018px\x2016px;\x20box-sizing:border-box;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:12px;\x20margin-bottom:16px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-avatar\x22\x20style=\x22width:52px;\x20height:52px;\x20border-radius:50%;\x20overflow:hidden;\x20background:#e5e5ea;\x20display:flex;\x20align-items:center;\x20justify-content:center;\x20flex-shrink:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22\x20style=\x22color:#8e8e93;\x20font-size:20px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-name\x22\x20style=\x22font-size:17px;\x20font-weight:700;\x20color:#111;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>付款人</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-action-text\x22\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-top:3px;\x22>向你转账</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-amount\x22\x20style=\x22font-size:34px;\x20line-height:1.1;\x20font-weight:800;\x20color:#111;\x20text-align:center;\x20margin:8px\x200\x2010px;\x22>¥0.00</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-desc\x22\x20style=\x22font-size:14px;\x20color:#666;\x20text-align:center;\x20line-height:1.5;\x20min-height:21px;\x20margin-bottom:18px;\x22>转账说明</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22border-radius:18px;\x20background:#f7f7fa;\x20padding:12px\x2014px;\x20margin-bottom:16px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:12px;\x20color:#8e8e93;\x20margin-bottom:6px;\x22>转账详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22pay-transfer-detail-summary\x22\x20style=\x22font-size:14px;\x20color:#222;\x20line-height:1.5;\x22>付款人向你转账</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20gap:10px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22pay-transfer-detail-reject-btn\x22\x20style=\x22flex:1;\x20height:46px;\x20border:none;\x20border-radius:16px;\x20background:#f2f2f7;\x20color:#666;\x20font-size:16px;\x20font-weight:600;\x20cursor:pointer;\x22>退回</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22pay-transfer-detail-claim-btn\x22\x20style=\x22flex:1;\x20height:46px;\x20border:none;\x20border-radius:16px;\x20background:#111;\x20color:#fff;\x20font-size:16px;\x20font-weight:700;\x20cursor:pointer;\x22>收下</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20');const _0x17067c=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0x107)),_0x28d571=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0xab)),_0x1cc42d=_0x5e905d['querySelector'](_0x8bde96(0x168)),_0xabafcf=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0x14d)),_0x2160cb=_0x5e905d['querySelector'](_0x8bde96(0x12f)),_0x3326bf=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0x11b)),_0x3eff2f=_0x5e905d['querySelector'](_0x8bde96(0x16e)),_0x173acd=_0x5e905d['querySelector'](_0x8bde96(0x162)),_0x586d2d=_0x5e905d[_0x8bde96(0x177)](_0x8bde96(0x176));let _0x346b40=null;function _0x4c9a85(){const _0x282462=_0x8bde96;_0x346b40=null;if(_0x17067c)_0x17067c['style'][_0x282462(0x8e)]=_0x282462(0xbf);}function _0x5f43d0(_0x3f1c64){const _0x1d0e0d=_0x8bde96;if(!_0x17067c||!_0x3f1c64)return;_0x346b40=_0x3f1c64;const _0xe72f09=_0x53a6ea(_0x3f1c64,_0x570531),{status:_0x29c7ad,payerName:_0x2f48f2,payeeName:_0x312548,payerAvatar:_0x1995ce,canCurrentUserClaim:_0x3540f1}=_0xe72f09,_0x384a1a=Number(_0x3f1c64[_0x1d0e0d(0x121)])||0x0,_0x12e69c=_0x3f1c64[_0x1d0e0d(0x14f)]||'转账',_0x3642af=(_0x3f1c64[_0x1d0e0d(0xe4)]||'')+'\x20'+(_0x3f1c64[_0x1d0e0d(0x171)]||'')+'\x20'+(_0x3f1c64[_0x1d0e0d(0x14f)]||'')+'\x20'+(_0x3f1c64['content']||''),_0x52d8a4=_0x3f1c64[_0x1d0e0d(0xe4)]==='family_card'||_0x3f1c64[_0x1d0e0d(0xe4)]==='family_card_increase'||_0x3642af['includes'](_0x1d0e0d(0xa2));if(_0x1cc42d)_0x1cc42d[_0x1d0e0d(0x12b)]=_0x2f48f2;if(_0xabafcf)_0xabafcf[_0x1d0e0d(0x12b)]='¥'+_0x384a1a['toFixed'](0x2);if(_0x2160cb)_0x2160cb[_0x1d0e0d(0x12b)]=_0x12e69c;if(_0x3326bf)_0x3326bf[_0x1d0e0d(0x12b)]=_0x52d8a4?_0x1d0e0d(0x167)+_0x12e69c:_0x2f48f2+_0x1d0e0d(0x123)+_0x312548+_0x1d0e0d(0x132)+_0x12e69c;const _0x15a406=_0x5e905d[_0x1d0e0d(0x177)](_0x1d0e0d(0x15b));if(_0x15a406){if(_0x52d8a4)_0x15a406['textContent']='';else{if(_0x29c7ad===_0x1d0e0d(0xbd))_0x15a406[_0x1d0e0d(0x12b)]=_0x312548+'已收款';else{if(_0x29c7ad==='rejected')_0x15a406['textContent']=_0x1d0e0d(0x81);else _0x3540f1?_0x15a406[_0x1d0e0d(0x12b)]='向你转账':_0x15a406[_0x1d0e0d(0x12b)]=_0x1d0e0d(0x116)+_0x312548;}}}_0x28d571&&(_0x1995ce?_0x28d571[_0x1d0e0d(0x17a)]=_0x1d0e0d(0x112)+_0x1995ce+_0x1d0e0d(0xdc):_0x28d571[_0x1d0e0d(0x17a)]=_0x1d0e0d(0xb4));const _0x1011c7=_0x3eff2f?_0x3eff2f['parentElement']:null;if(_0x3540f1){if(_0x1011c7)_0x1011c7[_0x1d0e0d(0x80)][_0x1d0e0d(0x8e)]=_0x1d0e0d(0xa3);_0x3eff2f&&(_0x3eff2f[_0x1d0e0d(0x80)][_0x1d0e0d(0x8e)]=_0x1d0e0d(0xb6),_0x3eff2f[_0x1d0e0d(0x12b)]='退回'),_0x173acd&&(_0x173acd[_0x1d0e0d(0x80)][_0x1d0e0d(0x8e)]=_0x1d0e0d(0xb6),_0x173acd[_0x1d0e0d(0x12b)]='收下');}else{if(_0x1011c7)_0x1011c7[_0x1d0e0d(0x80)]['display']='none';}_0x17067c[_0x1d0e0d(0x80)][_0x1d0e0d(0x8e)]=_0x1d0e0d(0xa3);}_0x5e905d[_0x8bde96(0x185)]=_0x5f43d0,_0x5e905d[_0x8bde96(0x8a)]=_0x4c9a85,_0x5e905d[_0x8bde96(0xe5)]=!![],window[_0x8bde96(0xa6)]['ensureRedPacketDetailOverlayForExistingPage'](_0x5e905d,_0x570531),_0x586d2d&&_0x586d2d[_0x8bde96(0x9f)]('click',_0x3724e9=>{const _0x557504=_0x8bde96,_0x5c605f=_0x3724e9[_0x557504(0x157)][_0x557504(0xdd)]('.chat-row');if(!_0x5c605f)return;const _0x3efdfe=_0x5c605f['getAttribute'](_0x557504(0xf3)),_0x3c9448=_0x5c605f[_0x557504(0xdb)](_0x557504(0xad)),_0x381595=window['imData'][_0x557504(0x16d)]&&String(window['imData']['currentActiveFriend']['id'])===String(_0x570531['id'])?window[_0x557504(0x110)][_0x557504(0x16d)]:_0x570531;if(!_0x3efdfe&&!_0x3c9448||!_0x381595[_0x557504(0xe3)])return;const _0x334ae2=_0x381595['messages'][_0x557504(0x84)](_0x44aa4e=>{const _0x2e35ac=_0x557504;if(_0x3efdfe&&String(_0x44aa4e['id'])===String(_0x3efdfe))return!![];return String(_0x44aa4e[_0x2e35ac(0x83)])===String(_0x3c9448);});if(!_0x334ae2||_0x334ae2[_0x557504(0xd7)]!==_0x557504(0x161))return;const _0x33a0da=[_0x557504(0x169),_0x557504(0xec),'char_received',_0x557504(0x15c),_0x557504(0x102),_0x557504(0x154),_0x557504(0x182),_0x557504(0x120)];if(!_0x33a0da[_0x557504(0xf1)](_0x334ae2[_0x557504(0x124)]))return;const _0x440019=_0x3724e9[_0x557504(0x157)][_0x557504(0xdd)](_0x557504(0x134));if(!_0x440019)return;_0x3724e9[_0x557504(0x18e)](),_0x3724e9['stopPropagation'](),_0x5f43d0(_0x334ae2);},!![]),_0x17067c&&_0x17067c['addEventListener'](_0x8bde96(0x16c),_0x579cf0=>{const _0x1b8e7f=_0x8bde96;_0x579cf0[_0x1b8e7f(0x157)]===_0x17067c&&_0x4c9a85();}),_0x3eff2f&&_0x3eff2f['addEventListener'](_0x8bde96(0x16c),()=>{const _0xb1e280=_0x8bde96,_0x4bb878=_0x346b40;_0x4c9a85(),_0x4bb878&&(window['imChat']['rejectIncomingTransfer']&&window[_0xb1e280(0xa6)][_0xb1e280(0x13b)](_0x570531,_0x4bb878));}),_0x173acd&&_0x173acd[_0x8bde96(0x9f)](_0x8bde96(0x16c),()=>{const _0x4793c8=_0x8bde96,_0x13b1ba=_0x346b40;_0x4c9a85(),_0x13b1ba&&window[_0x4793c8(0xa6)][_0x4793c8(0x183)](_0x570531,_0x13b1ba);});}async function _0x3d29cf(_0x2af56d,_0x4b0016,_0x319f17={}){const _0x4a2322=_0x334a22;if(!_0x2af56d||!_0x4b0016||_0x4b0016[_0x4a2322(0xbd)])return;if(_0x4b0016[_0x4a2322(0x124)]!==_0x4a2322(0xec)&&_0x4b0016[_0x4a2322(0x124)]!=='user_to_char')return;const _0x332038=Number(_0x4b0016[_0x4a2322(0x121)])||0x0,_0x175978=_0x4b0016[_0x4a2322(0x14f)]||'转账',_0x273878=_0x53a6ea(_0x4b0016,_0x2af56d),_0x578f2e=_0x273878[_0x4a2322(0xc4)],_0x5c30c6=_0x273878[_0x4a2322(0x12a)];if(_0x332038<=0x0){if(window[_0x4a2322(0x9b)])window['showToast'](_0x4a2322(0x100));return;}const _0x3784af=window[_0x4a2322(0x110)][_0x4a2322(0x16d)],_0x4ce58b=document[_0x4a2322(0xf0)](_0x4a2322(0x118)+_0x2af56d['id']),_0x2e856c=_0x4ce58b?_0x4ce58b['querySelector'](_0x4a2322(0x176)):null,_0x6158af=_0x2e856c&&_0x4b0016['id']?_0x2e856c['querySelector'](_0x4a2322(0x156)+_0x4b0016['id']+'\x22]'):null,_0x24d5d4=_0x4b0016[_0x4a2322(0x124)]===_0x4a2322(0xec);if(_0x24d5d4){const _0x2213a8=typeof window[_0x4a2322(0xd1)]===_0x4a2322(0x103)?window[_0x4a2322(0xd1)](_0x332038,_0x175978+_0x4a2322(0xfd)+_0x578f2e,'income'):![];if(!_0x2213a8){if(window[_0x4a2322(0x9b)])window[_0x4a2322(0x9b)](_0x4a2322(0x9d));return;}}const _0x4093dc=_0x4b0016['id'],_0x1b4814=JSON[_0x4a2322(0x17d)](JSON[_0x4a2322(0xc6)](_0x4b0016));let _0x19091c=null,_0x4b5780=null,_0x2d9747=Date[_0x4a2322(0x12c)]();_0x24d5d4?_0x4b5780={'id':window[_0x4a2322(0xa6)][_0x4a2322(0x115)](_0x4a2322(0x16b)),'role':_0x4a2322(0x131),'type':_0x4a2322(0x161),'payKind':_0x4a2322(0x102),'payDirection':_0x273878[_0x4a2322(0x172)],'amount':_0x332038,'description':_0x175978,'payerName':_0x578f2e,'payeeName':_0x5c30c6,'senderName':_0x578f2e,'receiverName':_0x5c30c6,'targetName':_0x578f2e,'cardTitle':'收款','payStatus':_0x4a2322(0xfb),'content':_0x4a2322(0x155)+_0x175978+'\x20¥'+_0x332038['toFixed'](0x2),'timestamp':_0x2d9747,'apiRunId':_0x319f17[_0x4a2322(0x138)]||null,'rollbackSourceMessage':_0x1b4814}:_0x4b5780={'id':window[_0x4a2322(0xa6)][_0x4a2322(0x115)](_0x4a2322(0x16b)),'role':_0x4a2322(0x128),'type':_0x4a2322(0x161),'payKind':'char_received','payDirection':_0x273878[_0x4a2322(0x172)],'amount':_0x332038,'description':_0x175978,'payerName':_0x578f2e,'payeeName':_0x5c30c6,'senderName':_0x578f2e,'receiverName':_0x5c30c6,'targetName':_0x578f2e,'cardTitle':_0x5c30c6+_0x4a2322(0x179),'payStatus':_0x4a2322(0xfb),'content':_0x4a2322(0x133)+_0x175978+'\x20¥'+_0x332038[_0x4a2322(0x15e)](0x2),'timestamp':_0x2d9747,'apiRunId':_0x319f17['apiRunId']||null,'rollbackSourceMessage':_0x1b4814};let _0x5b53f2=![];if(window['imApp'][_0x4a2322(0xdf)]&&window[_0x4a2322(0x13c)][_0x4a2322(0x181)]){const _0x435f56=await window[_0x4a2322(0x13c)]['updateFriendMessage'](_0x2af56d['id'],{'id':_0x4093dc||null,'timestamp':_0x4b0016[_0x4a2322(0x83)]||null},_0x42fcb1=>{const _0x3d4660=_0x4a2322;if(!_0x42fcb1)return;_0x42fcb1[_0x3d4660(0xbd)]=!![],_0x24d5d4?(_0x42fcb1[_0x3d4660(0x124)]=_0x3d4660(0x15c),_0x42fcb1[_0x3d4660(0x174)]=_0x273878[_0x3d4660(0x172)],_0x42fcb1[_0x3d4660(0x171)]=_0x5c30c6+_0x3d4660(0x179),_0x42fcb1[_0x3d4660(0x96)]=_0x578f2e,_0x42fcb1['payerName']=_0x578f2e,_0x42fcb1[_0x3d4660(0x12a)]=_0x5c30c6,_0x42fcb1[_0x3d4660(0x17f)]=_0x578f2e,_0x42fcb1['receiverName']=_0x5c30c6,_0x42fcb1[_0x3d4660(0xe1)]=_0x3d4660(0xfe)+_0x175978+'\x20¥'+_0x332038[_0x3d4660(0x15e)](0x2)):(_0x42fcb1[_0x3d4660(0x124)]='char_received',_0x42fcb1[_0x3d4660(0x174)]=_0x273878[_0x3d4660(0x172)],_0x42fcb1[_0x3d4660(0x171)]=_0x5c30c6+_0x3d4660(0x179),_0x42fcb1[_0x3d4660(0x96)]=_0x578f2e,_0x42fcb1[_0x3d4660(0xc4)]=_0x578f2e,_0x42fcb1[_0x3d4660(0x12a)]=_0x5c30c6,_0x42fcb1[_0x3d4660(0x17f)]=_0x578f2e,_0x42fcb1['receiverName']=_0x5c30c6,_0x42fcb1[_0x3d4660(0xe1)]=_0x3d4660(0xfe)+_0x175978+'\x20¥'+_0x332038[_0x3d4660(0x15e)](0x2)),_0x19091c=_0x42fcb1;},{'silent':!![]});_0x435f56&&(_0x5b53f2=await window[_0x4a2322(0x13c)][_0x4a2322(0x181)](_0x2af56d['id'],_0x4b5780,{'silent':!![]}));}else _0x5b53f2=await _0x540201(_0x2af56d,_0x324401=>{const _0x2007fd=_0x4a2322,_0x431b25=Array[_0x2007fd(0x109)](_0x324401['messages'])?_0x324401[_0x2007fd(0xe3)][_0x2007fd(0x84)](_0x4b7958=>_0x4b7958&&String(_0x4b7958['id'])===String(_0x4093dc)):null;if(!_0x431b25)return;_0x431b25[_0x2007fd(0xbd)]=!![];_0x24d5d4?(_0x431b25['payKind']=_0x2007fd(0x15c),_0x431b25[_0x2007fd(0x174)]=_0x273878['direction'],_0x431b25[_0x2007fd(0x171)]=_0x5c30c6+_0x2007fd(0x179),_0x431b25['targetName']=_0x578f2e,_0x431b25[_0x2007fd(0xc4)]=_0x578f2e,_0x431b25[_0x2007fd(0x12a)]=_0x5c30c6,_0x431b25[_0x2007fd(0x17f)]=_0x578f2e,_0x431b25['receiverName']=_0x5c30c6,_0x431b25['content']=_0x2007fd(0xfe)+_0x175978+'\x20¥'+_0x332038[_0x2007fd(0x15e)](0x2)):(_0x431b25[_0x2007fd(0x124)]=_0x2007fd(0x148),_0x431b25[_0x2007fd(0x174)]=_0x273878[_0x2007fd(0x172)],_0x431b25[_0x2007fd(0x171)]=_0x5c30c6+_0x2007fd(0x179),_0x431b25[_0x2007fd(0x96)]=_0x578f2e,_0x431b25[_0x2007fd(0xc4)]=_0x578f2e,_0x431b25[_0x2007fd(0x12a)]=_0x5c30c6,_0x431b25[_0x2007fd(0x17f)]=_0x578f2e,_0x431b25[_0x2007fd(0x10b)]=_0x5c30c6,_0x431b25['content']='[对方转账已领取]\x20'+_0x175978+'\x20¥'+_0x332038['toFixed'](0x2));if(!_0x324401[_0x2007fd(0xe3)])_0x324401['messages']=[];_0x324401[_0x2007fd(0xe3)][_0x2007fd(0xe2)](_0x4b5780),_0x19091c=_0x431b25;},{'silent':!![]});if(!_0x5b53f2||!_0x19091c||!_0x4b5780){if(window[_0x4a2322(0x9b)])window[_0x4a2322(0x9b)](_0x4a2322(0xca));return;}if(_0x3784af&&String(_0x3784af['id'])===String(_0x2af56d['id'])&&_0x2e856c){if(_0x6158af){const _0x51e6e9=document[_0x4a2322(0xb9)](_0x4a2322(0x10f));window[_0x4a2322(0xa6)][_0x4a2322(0x189)](_0x19091c,_0x2af56d,_0x51e6e9,_0x19091c['timestamp']||_0x2d9747);const _0x35b9f7=_0x51e6e9['querySelector'](_0x4a2322(0x113));_0x35b9f7&&_0x6158af[_0x4a2322(0xb8)](_0x35b9f7);const _0x12b1fb=document[_0x4a2322(0xb9)](_0x4a2322(0x10f)),_0x4d574a=_0x2af56d['messages']['length']>0x1?_0x2af56d[_0x4a2322(0xe3)][_0x2af56d['messages'][_0x4a2322(0xda)]-0x2]:null;(!_0x4d574a||_0x2d9747-(_0x4d574a['timestamp']||0x0)>0x493e0)&&window['imChat'][_0x4a2322(0xc3)](_0x2d9747,_0x12b1fb);window['imChat']['renderPayTransferBubble'](_0x4b5780,_0x2af56d,_0x12b1fb,_0x2d9747);while(_0x12b1fb[_0x4a2322(0xa9)]){_0x2e856c[_0x4a2322(0xd2)](_0x12b1fb['firstChild']);}window[_0x4a2322(0xa6)][_0x4a2322(0xcc)](_0x2e856c);}else _0x2e856c[_0x4a2322(0x17a)]='',window[_0x4a2322(0xa6)][_0x4a2322(0x87)](_0x2af56d,_0x2e856c),window[_0x4a2322(0xa6)][_0x4a2322(0xcc)](_0x2e856c);}}window['imChat']['getGroupMemberFriends']=_0x53afce,window['imChat']['normalizeGroupSpeaker']=_0x44ac75,window[_0x334a22(0xa6)][_0x334a22(0xc7)]=_0x35375b,window['imChat'][_0x334a22(0x136)]=_0x5d4d34,window['imChat']['getDisplayNameByMemberId']=_0x28b11d,window['imChat'][_0x334a22(0x16f)]=_0xefc458,window[_0x334a22(0xa6)][_0x334a22(0xa8)]=_0x4d6d0e,window[_0x334a22(0xa6)]['getAllRedPacketParticipants']=_0x4cf615,window['imChat'][_0x334a22(0x104)]=_0x1a5dc9,window[_0x334a22(0xa6)]['getCurrentUserClaimRecord']=_0x290a3f,window['imChat']['createRedPacketClaimNoticeText']=_0x469548,window[_0x334a22(0xa6)][_0x334a22(0xf7)]=_0x3fb693,window[_0x334a22(0xa6)][_0x334a22(0xf5)]=_0x13e6ed,window[_0x334a22(0xa6)]['getRedPacketLuckiestMemberId']=_0x45821a,window['imChat'][_0x334a22(0xed)]=_0x43f772,window['imChat'][_0x334a22(0x106)]=_0x36d315,window[_0x334a22(0xa6)][_0x334a22(0x122)]=_0x3e80c1;async function _0x1ee896(_0x3d427c,_0x561cd2,_0x54b5f0={}){const _0xfeffe=_0x334a22;if(!_0x3d427c||!_0x561cd2||_0x561cd2['claimed'])return;if(_0x561cd2[_0xfeffe(0x124)]!==_0xfeffe(0xec)&&_0x561cd2[_0xfeffe(0x124)]!==_0xfeffe(0x169))return;const _0x1c8f23=Number(_0x561cd2['amount'])||0x0,_0x4d07f4=_0x561cd2[_0xfeffe(0x14f)]||'转账',_0x271ebf=_0x53a6ea(_0x561cd2,_0x3d427c),_0x14c13d=_0x271ebf[_0xfeffe(0xc4)],_0x4ecafa=_0x271ebf['payeeName'],_0x395ae0=_0x561cd2[_0xfeffe(0x124)]==='char_to_user_pending';if(_0x1c8f23<=0x0)return;const _0x102384=window['imData'][_0xfeffe(0x16d)],_0x24b926=document['getElementById']('chat-interface-'+_0x3d427c['id']),_0x5ba091=_0x24b926?_0x24b926['querySelector'](_0xfeffe(0x176)):null,_0x3ddd3a=_0x5ba091&&_0x561cd2['id']?_0x5ba091['querySelector'](_0xfeffe(0x156)+_0x561cd2['id']+'\x22]'):null;!_0x395ae0&&typeof window[_0xfeffe(0xd1)]===_0xfeffe(0x103)&&window[_0xfeffe(0xd1)](_0x1c8f23,_0x4d07f4+_0xfeffe(0x192)+_0x4ecafa,_0xfeffe(0x11a));const _0x160ffd=_0x561cd2['id'],_0x390019=JSON[_0xfeffe(0x17d)](JSON[_0xfeffe(0xc6)](_0x561cd2));let _0x85d4e7=null,_0x5219f1=null,_0x3af43c=Date['now']();_0x395ae0?_0x5219f1={'id':window[_0xfeffe(0xa6)][_0xfeffe(0x115)](_0xfeffe(0x16b)),'role':_0xfeffe(0x131),'type':_0xfeffe(0x161),'payKind':'user_rejected_from_char','payDirection':_0x271ebf[_0xfeffe(0x172)],'amount':_0x1c8f23,'description':_0x4d07f4,'payerName':_0x14c13d,'payeeName':_0x4ecafa,'senderName':_0x14c13d,'receiverName':_0x4ecafa,'targetName':_0x14c13d,'cardTitle':_0xfeffe(0x81),'payStatus':'completed','content':'[已退还]\x20'+_0x4d07f4+'\x20¥'+_0x1c8f23[_0xfeffe(0x15e)](0x2),'timestamp':_0x3af43c,'apiRunId':_0x54b5f0[_0xfeffe(0x138)]||null,'rollbackSourceMessage':_0x390019}:_0x5219f1={'id':window['imChat']['createMessageId']('pay'),'role':_0xfeffe(0x128),'type':_0xfeffe(0x161),'payKind':_0xfeffe(0x182),'payDirection':_0x271ebf[_0xfeffe(0x172)],'amount':_0x1c8f23,'description':_0x4d07f4,'payerName':_0x14c13d,'payeeName':_0x4ecafa,'senderName':_0x14c13d,'receiverName':_0x4ecafa,'targetName':_0x14c13d,'cardTitle':'已退还','payStatus':_0xfeffe(0xfb),'content':_0xfeffe(0x158)+_0x4d07f4+'\x20¥'+_0x1c8f23[_0xfeffe(0x15e)](0x2),'timestamp':_0x3af43c,'apiRunId':_0x54b5f0[_0xfeffe(0x138)]||null,'rollbackSourceMessage':_0x390019};let _0xa84ea5=![];if(window[_0xfeffe(0x13c)]['updateFriendMessage']&&window[_0xfeffe(0x13c)][_0xfeffe(0x181)]){const _0x3c23e0=await window[_0xfeffe(0x13c)]['updateFriendMessage'](_0x3d427c['id'],{'id':_0x160ffd||null,'timestamp':_0x561cd2['timestamp']||null},_0x532afb=>{const _0xaba9c2=_0xfeffe;if(!_0x532afb)return;_0x532afb['claimed']=!![],_0x395ae0?(_0x532afb[_0xaba9c2(0x124)]='user_rejected_from_char',_0x532afb[_0xaba9c2(0x174)]=_0x271ebf[_0xaba9c2(0x172)],_0x532afb[_0xaba9c2(0x171)]=_0xaba9c2(0x81),_0x532afb['targetName']=_0x14c13d,_0x532afb['payerName']=_0x14c13d,_0x532afb[_0xaba9c2(0x12a)]=_0x4ecafa,_0x532afb[_0xaba9c2(0x17f)]=_0x14c13d,_0x532afb[_0xaba9c2(0x10b)]=_0x4ecafa,_0x532afb[_0xaba9c2(0xe1)]=_0xaba9c2(0x135)+_0x4d07f4+'\x20¥'+_0x1c8f23[_0xaba9c2(0x15e)](0x2)):(_0x532afb[_0xaba9c2(0x124)]='user_to_char_rejected',_0x532afb[_0xaba9c2(0x174)]=_0x271ebf[_0xaba9c2(0x172)],_0x532afb[_0xaba9c2(0x171)]=_0xaba9c2(0x81),_0x532afb[_0xaba9c2(0x96)]=_0x14c13d,_0x532afb[_0xaba9c2(0xc4)]=_0x14c13d,_0x532afb[_0xaba9c2(0x12a)]=_0x4ecafa,_0x532afb[_0xaba9c2(0x17f)]=_0x14c13d,_0x532afb['receiverName']=_0x4ecafa,_0x532afb[_0xaba9c2(0xe1)]=_0xaba9c2(0x135)+_0x4d07f4+'\x20¥'+_0x1c8f23[_0xaba9c2(0x15e)](0x2)),_0x85d4e7=_0x532afb;},{'silent':!![]});_0x3c23e0&&(_0xa84ea5=await window[_0xfeffe(0x13c)][_0xfeffe(0x181)](_0x3d427c['id'],_0x5219f1,{'silent':!![]}));}else _0xa84ea5=await _0x540201(_0x3d427c,_0x37c755=>{const _0x4e8cf1=_0xfeffe,_0x4172c2=Array['isArray'](_0x37c755[_0x4e8cf1(0xe3)])?_0x37c755[_0x4e8cf1(0xe3)][_0x4e8cf1(0x84)](_0x554719=>_0x554719&&String(_0x554719['id'])===String(_0x160ffd)):null;if(!_0x4172c2)return;_0x4172c2[_0x4e8cf1(0xbd)]=!![];_0x395ae0?(_0x4172c2[_0x4e8cf1(0x124)]=_0x4e8cf1(0x154),_0x4172c2[_0x4e8cf1(0x174)]=_0x271ebf[_0x4e8cf1(0x172)],_0x4172c2[_0x4e8cf1(0x171)]=_0x4e8cf1(0x81),_0x4172c2[_0x4e8cf1(0x96)]=_0x14c13d,_0x4172c2[_0x4e8cf1(0xc4)]=_0x14c13d,_0x4172c2[_0x4e8cf1(0x12a)]=_0x4ecafa,_0x4172c2['senderName']=_0x14c13d,_0x4172c2[_0x4e8cf1(0x10b)]=_0x4ecafa,_0x4172c2['content']=_0x4e8cf1(0x135)+_0x4d07f4+'\x20¥'+_0x1c8f23[_0x4e8cf1(0x15e)](0x2)):(_0x4172c2[_0x4e8cf1(0x124)]='user_to_char_rejected',_0x4172c2[_0x4e8cf1(0x174)]=_0x271ebf[_0x4e8cf1(0x172)],_0x4172c2[_0x4e8cf1(0x171)]=_0x4e8cf1(0x81),_0x4172c2[_0x4e8cf1(0x96)]=_0x14c13d,_0x4172c2[_0x4e8cf1(0xc4)]=_0x14c13d,_0x4172c2[_0x4e8cf1(0x12a)]=_0x4ecafa,_0x4172c2[_0x4e8cf1(0x17f)]=_0x14c13d,_0x4172c2[_0x4e8cf1(0x10b)]=_0x4ecafa,_0x4172c2[_0x4e8cf1(0xe1)]=_0x4e8cf1(0x135)+_0x4d07f4+'\x20¥'+_0x1c8f23[_0x4e8cf1(0x15e)](0x2));if(!_0x37c755[_0x4e8cf1(0xe3)])_0x37c755[_0x4e8cf1(0xe3)]=[];_0x37c755[_0x4e8cf1(0xe3)]['push'](_0x5219f1),_0x85d4e7=_0x4172c2;},{'silent':!![]});if(!_0xa84ea5||!_0x85d4e7||!_0x5219f1){if(window[_0xfeffe(0x9b)])window[_0xfeffe(0x9b)](_0xfeffe(0x18b));return;}if(_0x102384&&String(_0x102384['id'])===String(_0x3d427c['id'])&&_0x5ba091){if(_0x3ddd3a){const _0x1a2800=document['createElement'](_0xfeffe(0x10f));window['imChat'][_0xfeffe(0x189)](_0x85d4e7,_0x3d427c,_0x1a2800,_0x85d4e7['timestamp']||_0x3af43c);const _0x1cc0ab=_0x1a2800['querySelector']('.chat-row');_0x1cc0ab&&_0x3ddd3a['replaceWith'](_0x1cc0ab);const _0xdc9c63=document[_0xfeffe(0xb9)](_0xfeffe(0x10f)),_0x5069f4=_0x3d427c[_0xfeffe(0xe3)][_0xfeffe(0xda)]>0x1?_0x3d427c[_0xfeffe(0xe3)][_0x3d427c[_0xfeffe(0xe3)][_0xfeffe(0xda)]-0x2]:null;(!_0x5069f4||_0x3af43c-(_0x5069f4['timestamp']||0x0)>0x493e0)&&window['imChat'][_0xfeffe(0xc3)](_0x3af43c,_0xdc9c63);window[_0xfeffe(0xa6)]['renderPayTransferBubble'](_0x5219f1,_0x3d427c,_0xdc9c63,_0x3af43c);while(_0xdc9c63[_0xfeffe(0xa9)]){_0x5ba091[_0xfeffe(0xd2)](_0xdc9c63[_0xfeffe(0xa9)]);}window[_0xfeffe(0xa6)]['scrollToBottom'](_0x5ba091);}else _0x5ba091['innerHTML']='',window['imChat'][_0xfeffe(0x87)](_0x3d427c,_0x5ba091),window[_0xfeffe(0xa6)][_0xfeffe(0xcc)](_0x5ba091);}}window[_0x334a22(0xa6)][_0x334a22(0x12d)]=_0x13e835,window['imChat'][_0x334a22(0x183)]=_0x3d29cf,window[_0x334a22(0xa6)]['rejectIncomingTransfer']=_0x1ee896;}));function _0x6444(){const _0x2e90a3=['已被抢完','slice','2oFHvsg','getRedPacketLuckiestMemberId','.group-red-packet-claim-action','40007WRPbfP','User','.group-red-packet-detail-overlay','char_received','\x20人领取','_closeRedPacketDetailOverlay','commitFriendChange','packetCount','.pay-transfer-detail-amount','memory','description','sort','claimRecords','61360hsSVuA','恭喜发财','user_rejected_from_char','[收款]\x20','.chat-row[data-message-id=\x22','target','[对方已退还]\x20','some','max','.pay-transfer-detail-action-text','char_to_user_claimed','currentUserClaimed','toFixed','pending','opacity','pay_transfer','.pay-transfer-detail-claim-btn','.group-red-packet-claim-avatar','的红包','getAccounts','userState','备注：','.pay-transfer-detail-name','user_to_char','trim','pay','click','currentActiveFriend','.pay-transfer-detail-reject-btn','getAvailableGroupRecipients','totalAmount','cardTitle','direction','scale(1)','payDirection','你领取了','.ins-chat-messages','querySelector','isFinished','已收款','innerHTML','filter','.group-red-packet-claim-desc','parse','getGroupMemberFriends','senderName','forEach','appendFriendMessage','char_to_user_rejected','claimIncomingTransfer','128KNIIrf','_openTransferDetailOverlay','_openGroupRedPacketInteraction','remainingAmount','getCurrentAccountId','renderPayTransferBubble','rejected','退还记录保存失败','members','claimedMemberIds','preventDefault','_openRedPacketDetailOverlay','normalizePayTransferMessage','official','\x20·\x20转账退还\x20·\x20','friends','待领取','style','已退还','renderGroupRedPacketBubble','timestamp','find','getAllRedPacketParticipants','abs','renderChatHistory','formatTime','maxClaimable','_closeTransferDetailOverlay','char_to_user','normalizeGroupSpeaker','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:16px;\x20font-weight:800;\x20color:#111;\x22>¥','display','.group-red-packet-claim-view-detail','10210DAkeRf','_closeRedPacketClaimOverlay','notice','nickname','map','getDisplayNameByMemberId','targetName','insertAdjacentHTML','\x20个，¥','_openRedPacketClaimOverlay','98562HGRZiJ','showToast','red_packet_claim','收款失败','1197VmXjDo','addEventListener','senderMemberId','红包领取保存失败','亲属卡','flex','charName','.chat-row[data-timestamp=\x22','imChat','transform','getCurrentUserPacketMember','firstChild','<span\x20style=\x22display:inline-flex;\x20align-items:center;\x20padding:2px\x208px;\x20border-radius:999px;\x20background:#f2f2f7;\x20color:#111;\x20font-size:10px;\x20font-weight:700;\x22>运气王</span>','.pay-transfer-detail-avatar','realName','data-timestamp','群成员','random','object','deferAutoClaimUntilNextTurn','silentNotice','</span>','<i\x20class=\x22fas\x20fa-user\x22\x20style=\x22color:#8e8e93;\x20font-size:20px;\x22></i>','4669860xoyXnl','block','system_notice','replaceWith','createElement','.group-red-packet-detail-claim-amount','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','currentUserClaimAmount','claimed','group_red_packet','none','avatar','char','.group-red-packet-detail-card','renderTimestamp','payerName','\x20·\x20抢到红包\x20·\x20','stringify','getGroupMessageSpeaker','610BSqURq','min','收款记录保存失败','总金额\x20¥','scrollToBottom','senderAvatarUrl','reduce','.group-red-packet-claim-close','speaker','addPayTransaction','appendChild','scale(0.9)','.group-red-packet-detail-progress-text','group','getCurrentUserClaimRecord','type','avatarUrl','signature','length','getAttribute','\x22\x20style=\x22width:100%;\x20height:100%;\x20object-fit:cover;\x20display:block;\x22>','closest','name','updateFriendMessage','beforeend','content','push','messages','paymentAction','_transferDetailOverlayManaged','floor','persona','translateY(20px)','luckiestMemberId','senderRole','claimedAt','char_to_user_pending','normalizeGroupRedPacketState','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:11px;\x20color:#8e8e93;\x20margin-top:3px;\x22>','ceil','getElementById','includes','charAt','data-message-id','translateY(0)','createRedPacketAllocations','remove','claimGroupRedPacketForMember','手慢了，红包派完了','createRedPacketClaimNoticeText','发红包的人','completed','.group-red-packet-detail-summary','\x20·\x20','[对方转账已领取]\x20','memberName','金额无效','speakerMemberId','user_received_from_char','function','getPacketSenderDisplayMeta','packetId','processPendingGroupRedPackets','.pay-transfer-detail-overlay','__user__','isArray','.group-red-packet-detail-list','receiverName','currentUserClaimRecord','memberId','<span>','div','imData','剩余\x20','<img\x20src=\x22','.chat-row','allocations','createMessageId','转账给\x20','领取了','chat-interface-','join','income','.pay-transfer-detail-summary','822114aMkgkf','231tgPNHG','userOverride','.group-red-packet-claim-overlay','user_to_char_rejected','amount','ensureRedPacketDetailOverlayForExistingPage','\x20向\x20','payKind','statusText','2737869bcAtjj','.group-red-packet-claim-empty-text','assistant','role','payeeName','textContent','now','ensureTransferDetailOverlayForExistingPage','.group-red-packet-detail-avatar','.pay-transfer-detail-desc','remainingCount','user','\x20转账，备注：','[对方已收款]\x20','.chat-bubble.pay-transfer-bubble,\x20.pay-transfer-card','[转账已退还]\x20','getSafeGroupSpeaker','.group-red-packet-claim-card','apiRunId','toLowerCase','has','rejectIncomingTransfer','imApp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22min-width:0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:14px;\x20font-weight:600;\x20color:#111;\x20display:flex;\x20align-items:center;\x20gap:6px;\x20white-space:nowrap;\x20overflow:hidden;\x20text-overflow:ellipsis;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','offsetHeight','.group-red-packet-detail-close'];_0x6444=function(){return _0x2e90a3;};return _0x6444();}
+
+// ==========================================
+// IMESSAGE: 4_chat_payment.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const { apiConfig, userState } = window;
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+
+async function commitPaymentFriendChange(friendOrId, mutator, options = {}) {
+        if (!window.imApp.commitFriendChange) return false;
+        const targetId = typeof friendOrId === 'object' && friendOrId !== null ? friendOrId.id : friendOrId;
+
+        return window.imApp.commitFriendChange(targetId, (targetFriend) => {
+            if (!targetFriend) return;
+            if (window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(targetFriend.id)) {
+                window.imData.currentActiveFriend = targetFriend;
+            }
+            return mutator(targetFriend);
+        }, options);
+    }
+
+function getGroupMemberFriends(group) {
+        if (!group || group.type !== 'group' || !Array.isArray(group.members)) return [];
+        return group.members
+            .map(memberRef => {
+                return window.imData.friends.find(item => {
+                    if (!item || item.type === 'group' || item.type === 'official') return false;
+                    return String(item.id) === String(memberRef) || item.nickname === memberRef;
+                });
+            })
+            .filter(Boolean);
+    }
+
+function normalizeGroupSpeaker(group, rawSpeakerName, speakerMemberId = null) {
+        if (!group || group.type !== 'group') return null;
+        const groupMembers = window.imChat.getGroupMemberFriends(group);
+        if (groupMembers.length === 0) return null;
+
+        if (speakerMemberId != null && String(speakerMemberId).trim()) {
+            const idMatch = groupMembers.find(member => String(member.id) === String(speakerMemberId));
+            if (idMatch) return idMatch;
+        }
+
+        const safeName = String(rawSpeakerName || '').trim();
+        if (!safeName) return null;
+
+        const exactMatch = groupMembers.find(member => member.nickname === safeName || member.realName === safeName);
+        if (exactMatch) return exactMatch;
+
+        const normalizedTarget = safeName.toLowerCase();
+        const fuzzyMatch = groupMembers.find(member => [member.nickname, member.realName]
+            .some(value => String(value || '').trim().toLowerCase() === normalizedTarget));
+        return fuzzyMatch || null;
+    }
+
+function getGroupMessageSpeaker(group, message = {}) {
+        if (!message || typeof message !== 'object') return null;
+        const directMatch = window.imChat.normalizeGroupSpeaker(
+            group,
+            message.speaker || message.senderName || '',
+            message.speakerMemberId || message.senderMemberId || null
+        );
+        if (directMatch) return directMatch;
+
+        const storedAvatar = String(message.senderAvatarUrl || '').trim();
+        if (!storedAvatar) return null;
+        const avatarMatches = window.imChat.getGroupMemberFriends(group)
+            .filter(member => String(member?.avatarUrl || '').trim() === storedAvatar);
+        return avatarMatches.length === 1 ? avatarMatches[0] : null;
+    }
+
+ function getSafeGroupSpeaker(group, preferredSpeakerName = null, speakerMemberId = null) {
+        const normalized = window.imChat.normalizeGroupSpeaker(group, preferredSpeakerName, speakerMemberId);
+        if (normalized) return normalized;
+
+        const members = window.imChat.getGroupMemberFriends(group);
+        return members.length > 0 ? members[0] : null;
+    }
+
+function getDisplayNameByMemberId(group, memberId) {
+        if (!group || !memberId) return '群成员';
+        const member = window.imChat.getGroupMemberFriends(group).find(item => String(item.id) === String(memberId));
+        return member ? (member.nickname || member.realName || '群成员') : '群成员';
+    }
+
+function getPayUserName() {
+        const currentUserState = window.userState || userState || {};
+        return currentUserState.name || currentUserState.realName || currentUserState.nickname || 'User';
+    }
+
+function getPayFriendName(friend, fallback = '') {
+        return fallback || friend?.nickname || friend?.realName || friend?.name || 'Char';
+    }
+
+function getPayUserAvatar() {
+        const currentUserState = window.userState || userState || {};
+        return currentUserState.avatarUrl || currentUserState.avatar || '';
+    }
+
+function getPayFriendAvatar(friend) {
+        return friend?.avatarUrl || friend?.avatar || '';
+    }
+
+function normalizePayTransferMessage(msg = {}, friend = null) {
+        const payKind = msg.payKind || (msg.role === 'user' ? 'user_to_char' : 'char_received');
+        const userName = getPayUserName();
+        const charName = getPayFriendName(friend, msg.speaker || msg.charName || '');
+        const targetName = msg.targetName || '';
+        const charToUserKinds = ['char_to_user_pending', 'char_to_user_claimed', 'user_received_from_char', 'user_rejected_from_char'];
+        const claimedKinds = ['char_received', 'char_to_user_claimed', 'user_received_from_char'];
+        const rejectedKinds = ['user_to_char_rejected', 'char_to_user_rejected', 'user_rejected_from_char'];
+        const explicitDirection = msg.payDirection === 'char_to_user' || msg.payDirection === 'user_to_char'
+            ? msg.payDirection
+            : '';
+        const direction = explicitDirection || (charToUserKinds.includes(payKind) ? 'char_to_user' : 'user_to_char');
+        let status = rejectedKinds.includes(payKind)
+            ? 'rejected'
+            : (claimedKinds.includes(payKind) ? 'claimed' : 'pending');
+        if (status === 'pending' && msg.claimed) status = 'claimed';
+
+        let payerName = msg.payerName || '';
+        let payeeName = msg.payeeName || '';
+
+        if (direction === 'char_to_user') {
+            payerName = payerName || msg.senderName || targetName || charName;
+            payeeName = payeeName || msg.receiverName || userName;
+        } else {
+            payerName = payerName || msg.senderName || userName;
+            payeeName = payeeName || msg.receiverName || (targetName && targetName !== userName ? targetName : charName);
+        }
+
+        const payerType = direction === 'user_to_char' ? 'user' : 'char';
+        const payeeType = direction === 'user_to_char' ? 'char' : 'user';
+
+        return {
+            payKind,
+            direction,
+            status,
+            payerName,
+            payeeName,
+            payerType,
+            payeeType,
+            payerAvatar: payerType === 'user' ? getPayUserAvatar() : getPayFriendAvatar(friend),
+            payeeAvatar: payeeType === 'user' ? getPayUserAvatar() : getPayFriendAvatar(friend),
+            canCurrentUserClaim: direction === 'char_to_user' && status === 'pending' && !msg.claimed,
+            senderName: payerName,
+            receiverName: payeeName,
+            senderType: payerType,
+            receiverType: payeeType,
+            isUserSender: payerType === 'user'
+        };
+    }
+
+function resolvePayTransferParties(msg = {}, friend = null) {
+        return normalizePayTransferMessage(msg, friend);
+    }
+
+    window.imChat.normalizePayTransferMessage = normalizePayTransferMessage;
+    window.imChat.resolvePayTransferParties = resolvePayTransferParties;
+
+function getAvailableGroupRecipients(group) {
+        return window.imChat.getGroupMemberFriends(group).filter(member => member && member.type !== 'group');
+    }
+
+function getCurrentUserPacketMember(group) {
+        const currentAccountId = typeof window.getCurrentAccountId === 'function' ? window.getCurrentAccountId() : null;
+        const accounts = typeof window.getAccounts === 'function' ? window.getAccounts() : [];
+        const currentAccount = accounts.find(acc => String(acc.id) === String(currentAccountId)) || null;
+        const override = group && group.memory ? (group.memory.userOverride || null) : null;
+
+        const fallbackName = (userState && (userState.name || userState.realName))
+            || currentAccount?.name
+            || '你';
+        const fallbackAvatarUrl = (userState && (userState.avatarUrl || userState.avatar))
+            || currentAccount?.avatarUrl
+            || currentAccount?.avatar
+            || '';
+
+        return {
+            id: '__user__',
+            accountId: override?.id || currentAccount?.id || null,
+            nickname: override?.name || fallbackName,
+            realName: override?.name || fallbackName,
+            avatarUrl: override?.avatarUrl || override?.avatar || fallbackAvatarUrl,
+            persona: override?.persona || currentAccount?.persona || (userState ? userState.persona : '') || '',
+            signature: override?.signature || currentAccount?.signature || '',
+            type: 'user'
+        };
+    }
+
+function getAllRedPacketParticipants(group) {
+        const members = window.imChat.getAvailableGroupRecipients(group).slice();
+        members.push(window.imChat.getCurrentUserPacketMember(group));
+        return members;
+    }
+
+function getPacketSenderDisplayMeta(packetMsg, group, fallbackFriend = null) {
+        if (!packetMsg) {
+            return {
+                id: '',
+                name: fallbackFriend?.nickname || fallbackFriend?.realName || '发红包的人',
+                avatarUrl: fallbackFriend?.avatarUrl || ''
+            };
+        }
+
+        const senderMemberId = packetMsg.senderMemberId;
+        if (String(senderMemberId) === '__user__') {
+            const userMember = window.imChat.getCurrentUserPacketMember(group);
+            return {
+                id: userMember.id,
+                name: packetMsg.senderName || userMember.nickname,
+                avatarUrl: packetMsg.senderAvatarUrl || userMember.avatarUrl || ''
+            };
+        }
+
+        const member = window.imChat.getAllRedPacketParticipants(group).find(item => String(item.id) === String(senderMemberId));
+        return {
+            id: senderMemberId || '',
+            name: packetMsg.senderName || member?.nickname || member?.realName || fallbackFriend?.nickname || fallbackFriend?.realName || '发红包的人',
+            avatarUrl: packetMsg.senderAvatarUrl || member?.avatarUrl || fallbackFriend?.avatarUrl || ''
+        };
+    }
+
+function getCurrentUserClaimRecord(packetMsg) {
+        if (!packetMsg || !Array.isArray(packetMsg.claimRecords)) return null;
+        return packetMsg.claimRecords.find(item => String(item.memberId) === '__user__') || null;
+    }
+
+function createRedPacketClaimNoticeText(packetMsg, claimRecord, senderMeta) {
+        if (!claimRecord) return '有人领取了红包';
+        const claimerName = claimRecord.memberName || '有人';
+        const senderName = senderMeta?.name || '对方';
+
+        if (String(claimRecord.memberId) === '__user__') {
+            return `你领取了${senderName}的红包`;
+        }
+
+        if (String(claimRecord.memberId) === String(senderMeta?.id)) {
+            return `${claimerName}领取了自己发的红包`;
+        }
+
+        return `${claimerName}领取了${senderName}的红包`;
+    }
+
+function claimGroupRedPacketForMember(group, packetMsg, memberMeta, options = {}) {
+        if (!group || !packetMsg || packetMsg.type !== 'group_red_packet' || !memberMeta) return null;
+
+        window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+        if (packetMsg.isFinished) return null;
+
+        const memberId = String(memberMeta.id);
+        const alreadyClaimedSet = new Set((packetMsg.claimedMemberIds || []).map(String));
+        if (alreadyClaimedSet.has(memberId)) {
+            return packetMsg.claimRecords.find(item => String(item.memberId) === memberId) || null;
+        }
+
+        const nextIndex = Array.isArray(packetMsg.claimRecords) ? packetMsg.claimRecords.length : 0;
+        const amount = Number((packetMsg.allocations || [])[nextIndex] || 0);
+        if (!amount || amount <= 0) {
+            window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+            return null;
+        }
+
+        const claimRecord = {
+            memberId: memberMeta.id,
+            memberName: memberMeta.nickname || memberMeta.realName || '群成员',
+            amount,
+            claimedAt: options.claimedAt || Date.now()
+        };
+
+        packetMsg.claimRecords.push(claimRecord);
+        packetMsg.claimedMemberIds.push(memberId);
+        packetMsg.deferAutoClaimUntilNextTurn = false;
+
+        window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+        
+        // 抢到红包同步到PayApp
+        if (String(memberId) === '__user__' && typeof window.addPayTransaction === 'function' && amount > 0) {
+            const senderName = packetMsg.senderName || '群成员';
+            window.addPayTransaction(
+                amount,
+                `${packetMsg.description || '群红包'} · 抢到红包 · ${senderName}`,
+                'income'
+            );
+        }
+
+        if (!options.silentNotice) {
+            const senderMeta = window.imChat.getPacketSenderDisplayMeta(packetMsg, group);
+            group.messages.push({
+                id: window.imChat.createMessageId('notice'),
+                type: 'system_notice',
+                noticeKind: 'red_packet_claim',
+                text: window.imChat.createRedPacketClaimNoticeText(packetMsg, claimRecord, senderMeta),
+                relatedPacketId: packetMsg.packetId || packetMsg.id,
+                timestamp: claimRecord.claimedAt
+            });
+        }
+
+        return claimRecord;
+    }
+
+function createRedPacketAllocations(totalAmount, packetCount) {
+        const centsTotal = Math.round((Number(totalAmount) || 0) * 100);
+        const count = Math.max(1, parseInt(packetCount, 10) || 1);
+        if (centsTotal < count) return [];
+
+        let remaining = centsTotal;
+        const allocations = [];
+
+        for (let i = 0; i < count; i++) {
+            const packetsLeft = count - i;
+            if (packetsLeft === 1) {
+                allocations.push(Number((remaining / 100).toFixed(2)));
+                remaining = 0;
+                break;
+            }
+
+            const minRemainingForOthers = packetsLeft - 1;
+            const maxForCurrent = remaining - minRemainingForOthers;
+            const average = Math.floor(remaining / packetsLeft);
+            const upper = Math.max(1, Math.min(maxForCurrent, average * 2));
+            const lower = 1;
+            const current = Math.max(lower, Math.min(maxForCurrent, Math.floor(Math.random() * upper) + 1));
+
+            allocations.push(Number((current / 100).toFixed(2)));
+            remaining -= current;
+        }
+
+        const diff = Number((Number(totalAmount) - allocations.reduce((sum, item) => sum + Number(item || 0), 0)).toFixed(2));
+        if (allocations.length > 0 && Math.abs(diff) > 0) {
+            allocations[allocations.length - 1] = Number((allocations[allocations.length - 1] + diff).toFixed(2));
+        }
+
+        return allocations;
+    }
+
+function getRedPacketLuckiestMemberId(packetMsg) {
+        if (!packetMsg || !Array.isArray(packetMsg.claimRecords) || packetMsg.claimRecords.length === 0) return null;
+        return packetMsg.claimRecords.reduce((best, item) => {
+            if (!best) return item;
+            return Number(item.amount || 0) > Number(best.amount || 0) ? item : best;
+        }, null)?.memberId || null;
+    }
+
+function normalizeGroupRedPacketState(packetMsg, group) {
+        if (!packetMsg || packetMsg.type !== 'group_red_packet') return packetMsg;
+
+        if (!Array.isArray(packetMsg.claimRecords)) packetMsg.claimRecords = [];
+        if (!Array.isArray(packetMsg.claimedMemberIds)) packetMsg.claimedMemberIds = [];
+        if (!Array.isArray(packetMsg.allocations) || packetMsg.allocations.length === 0) {
+            packetMsg.allocations = window.imChat.createRedPacketAllocations(packetMsg.totalAmount, packetMsg.packetCount);
+        }
+
+        if (!packetMsg.senderRole) packetMsg.senderRole = packetMsg.role === 'assistant' ? 'assistant' : 'user';
+        if (!packetMsg.senderMemberId) {
+            packetMsg.senderMemberId = packetMsg.senderRole === 'user'
+                ? '__user__'
+                : (packetMsg.speakerMemberId || '');
+        }
+        if (!packetMsg.senderName) {
+            const senderMeta = window.imChat.getPacketSenderDisplayMeta(packetMsg, group);
+            packetMsg.senderName = senderMeta.name;
+            packetMsg.senderAvatarUrl = packetMsg.senderAvatarUrl || senderMeta.avatarUrl || '';
+        }
+
+        packetMsg.claimedMemberIds = packetMsg.claimRecords.map(item => String(item.memberId));
+        packetMsg.remainingCount = Math.max(0, (parseInt(packetMsg.packetCount, 10) || 0) - packetMsg.claimRecords.length);
+        packetMsg.remainingAmount = Number((
+            (Number(packetMsg.totalAmount) || 0) -
+            packetMsg.claimRecords.reduce((sum, item) => sum + Number(item.amount || 0), 0)
+        ).toFixed(2));
+        packetMsg.luckiestMemberId = window.imChat.getRedPacketLuckiestMemberId(packetMsg);
+
+        const participants = window.imChat.getAllRedPacketParticipants(group);
+        const configuredPacketCount = Math.max(1, parseInt(packetMsg.packetCount, 10) || 1);
+        const maxClaimable = Math.min(participants.length, configuredPacketCount);
+        packetMsg.packetCount = configuredPacketCount;
+        packetMsg.maxClaimable = maxClaimable;
+        packetMsg.remainingCount = Math.min(packetMsg.remainingCount, Math.max(0, maxClaimable - packetMsg.claimRecords.length));
+        packetMsg.isFinished = packetMsg.claimRecords.length >= maxClaimable || packetMsg.remainingCount <= 0 || packetMsg.remainingAmount <= 0;
+        packetMsg.statusText = packetMsg.isFinished ? '已被抢完' : '待领取';
+
+        const currentUserClaimRecord = window.imChat.getCurrentUserClaimRecord(packetMsg);
+        packetMsg.currentUserClaimRecord = currentUserClaimRecord;
+        packetMsg.currentUserClaimed = !!currentUserClaimRecord;
+        packetMsg.currentUserClaimAmount = currentUserClaimRecord ? Number(currentUserClaimRecord.amount || 0) : 0;
+        return packetMsg;
+    }
+
+function processPendingGroupRedPackets(group) {
+        if (!group || group.type !== 'group' || !Array.isArray(group.messages) || group.messages.length === 0) return false;
+
+        const packets = group.messages.filter(msg => msg && msg.type === 'group_red_packet' && !msg.isFinished);
+        if (packets.length === 0) return false;
+
+        const participants = window.imChat.getAllRedPacketParticipants(group).filter(member => String(member.id) !== '__user__');
+        if (participants.length === 0) return false;
+
+        let changed = false;
+
+        packets.forEach(packetMsg => {
+            window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+            if (packetMsg.isFinished) return;
+
+            if (packetMsg.deferAutoClaimUntilNextTurn) {
+                packetMsg.deferAutoClaimUntilNextTurn = false;
+                changed = true;
+                return;
+            }
+
+            const alreadyClaimedSet = new Set((packetMsg.claimedMemberIds || []).map(String));
+            const claimableMembers = participants.filter(member => !alreadyClaimedSet.has(String(member.id)));
+            const remainingAllocations = (packetMsg.allocations || []).slice(packetMsg.claimRecords.length);
+            if (claimableMembers.length === 0 || remainingAllocations.length === 0) {
+                window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+                return;
+            }
+
+            const maxClaimsThisRound = Math.min(
+                remainingAllocations.length,
+                claimableMembers.length,
+                Math.max(1, Math.min(3, claimableMembers.length))
+            );
+            const shouldClaimCount = Math.max(1, Math.min(maxClaimsThisRound, Math.ceil(Math.random() * maxClaimsThisRound)));
+            const shuffledMembers = claimableMembers.slice().sort(() => Math.random() - 0.5).slice(0, shouldClaimCount);
+
+            shuffledMembers.forEach((member, index) => {
+                const claimRecord = window.imChat.claimGroupRedPacketForMember(group, packetMsg, member, {
+                    claimedAt: Date.now() + index
+                });
+                if (claimRecord) changed = true;
+            });
+
+            window.imChat.normalizeGroupRedPacketState(packetMsg, group);
+        });
+
+        if (changed) {
+            group.messages.sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+        }
+
+        return changed;
+    }
+
+function refreshRedPacketMessageInContainer(page, friend, targetMsg) {
+        if (!page || !friend || !targetMsg) return false;
+        const latestContainer = page.querySelector('.ins-chat-messages');
+        if (!latestContainer) return false;
+
+        const targetMessageId = targetMsg.id || targetMsg.packetId || null;
+        const targetTimestamp = targetMsg.timestamp || null;
+        const existingRow = targetMessageId
+            ? latestContainer.querySelector(`.chat-row[data-message-id="${targetMessageId}"]`)
+            : (targetTimestamp
+                ? latestContainer.querySelector(`.chat-row[data-timestamp="${targetTimestamp}"]`)
+                : null);
+
+        if (!existingRow) return false;
+
+        const replaceHost = document.createElement('div');
+        window.imChat.renderGroupRedPacketBubble(targetMsg, friend, replaceHost, targetMsg.timestamp || Date.now());
+        const updatedRow = replaceHost.querySelector('.chat-row');
+        if (!updatedRow) return false;
+
+        existingRow.replaceWith(updatedRow);
+        return true;
+    }
+
+function ensureRedPacketDetailOverlayForExistingPage(page, friend) {
+        if (!page || page.querySelector('.group-red-packet-detail-overlay')) return;
+
+        page.insertAdjacentHTML('beforeend', `
+            <div class="group-red-packet-claim-overlay" style="display:none; position:absolute; inset:0; z-index:1201; background:rgba(0,0,0,0.32); opacity:0; transition:opacity 0.3s ease; align-items:center; justify-content:center; padding:18px; box-sizing:border-box;">
+                <div class="group-red-packet-claim-card" style="width:100%; max-width:320px; border-radius:24px; background:#fff; color:#111;  padding:32px 24px 28px; box-sizing:border-box; text-align:center; position:relative; transform:scale(0.9); opacity:0; transition:all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                    <button type="button" class="group-red-packet-claim-close" style="position:absolute; right:16px; top:16px; width:32px; height:32px; border:none; border-radius:50%; background:#f2f2f7; color:#666; cursor:pointer; transition:background 0.2s;"><i class="fas fa-times"></i></button>
+                    
+                    <div class="group-red-packet-claim-avatar" style="width:64px; height:64px; border-radius:50%; overflow:hidden; margin:0 auto 16px; background:#f2f2f7; display:flex; align-items:center; justify-content:center; font-size:22px; color:#8e8e93;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="group-red-packet-claim-sender" style="font-size:18px; font-weight:800; color:#111;">发红包的人</div>
+                    <div class="group-red-packet-claim-desc" style="font-size:14px; color:#8e8e93; margin-top:8px; line-height:1.5;">恭喜发财</div>
+                    
+                    <div class="group-red-packet-claim-action-area" style="margin-top:36px; min-height:110px; display:flex; flex-direction:column; align-items:center;">
+                        <button type="button" class="group-red-packet-claim-action" style="width:90px; height:90px; border:none; border-radius:50%; background:#ff4d4f; color:#fff; display:flex; align-items:center; justify-content:center; font-size:42px; cursor:pointer;  transition:transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </button>
+                        <div class="group-red-packet-claim-empty-text" style="display:none; font-size:24px; font-weight:800; color:#111; margin-bottom:10px;">手慢了，红包派完了</div>
+                        
+                        <div class="group-red-packet-claim-view-detail" style="margin-top:auto; font-size:13px; color:#007aff; cursor:pointer; font-weight:500; display:flex; align-items:center; justify-content:center; gap:4px;">
+                            查看详情 <i class="fas fa-chevron-right" style="font-size:10px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group-red-packet-detail-overlay" style="display:none; position:absolute; inset:0; z-index:1202; background:rgba(0,0,0,0.28); opacity:0; transition:opacity 0.3s ease; align-items:center; justify-content:center; padding:18px; box-sizing:border-box;">
+                <div class="group-red-packet-detail-card" style="width:100%; max-width:340px; max-height:82%; overflow:hidden; border-radius:30px; background:rgba(255,255,255,0.98);    display:flex; flex-direction:column; transform:translateY(20px); opacity:0; transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);">
+                    <div style="position:relative; padding:18px 18px 14px; border-bottom:1px solid rgba(0,0,0,0.06); text-align:center;">
+                        <div style="font-size:18px; font-weight:800; color:#111; text-align:center;">红包详情</div>
+                        <button type="button" class="group-red-packet-detail-close" style="position:absolute; right:18px; top:16px; width:32px; height:32px; border:none; border-radius:50%; background:#f2f2f7; color:#666; cursor:pointer;"><i class="fas fa-times"></i></button>
+                        <div class="group-red-packet-detail-header" style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-top:14px;">
+                            <div class="group-red-packet-detail-avatar" style="width:58px; height:58px; border-radius:50%; overflow:hidden; background:#e5e5ea; color:#8e8e93; display:flex; align-items:center; justify-content:center; font-size:20px; margin-bottom:10px;">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="group-red-packet-detail-title" style="font-size:17px; font-weight:700; color:#111; text-align:center;">发红包的人</div>
+                            <div class="group-red-packet-detail-summary" style="font-size:12px; color:#8e8e93; margin-top:6px; text-align:center;">总金额 ¥0.00 · 恭喜发财</div>
+                            <div class="group-red-packet-detail-claim-amount" style="font-size:36px; line-height:1.1; font-weight:800; color:#111; text-align:center; margin-top:14px;">¥0.00</div>
+                            <div style="font-size:12px; color:#8e8e93; margin-top:6px;">你抢到的金额</div>
+                        </div>
+                    </div>
+                    <div style="padding:14px 18px 10px;">
+                        <div class="group-red-packet-detail-progress" style="border-radius:18px; background:#f7f7fa; padding:12px 14px;">
+                            <div class="group-red-packet-detail-progress-text" style="font-size:14px; color:#333; line-height:1.5;">0/0 人领取</div>
+                            <div class="group-red-packet-detail-status" style="font-size:12px; color:#8e8e93; margin-top:4px;">待领取</div>
+                        </div>
+                    </div>
+                    <div class="group-red-packet-detail-list" style="flex:1; overflow-y:auto; padding:0 18px 18px;"></div>
+                </div>
+            </div>
+        `);
+
+        const claimOverlay = page.querySelector('.group-red-packet-claim-overlay');
+        const claimCloseBtn = page.querySelector('.group-red-packet-claim-close');
+        const claimAvatarEl = page.querySelector('.group-red-packet-claim-avatar');
+        const claimSenderEl = page.querySelector('.group-red-packet-claim-sender');
+        const claimDescEl = page.querySelector('.group-red-packet-claim-desc');
+        const claimActionBtn = page.querySelector('.group-red-packet-claim-action');
+
+        const overlay = page.querySelector('.group-red-packet-detail-overlay');
+        const closeBtn = page.querySelector('.group-red-packet-detail-close');
+        const titleEl = page.querySelector('.group-red-packet-detail-title');
+        const summaryEl = page.querySelector('.group-red-packet-detail-summary');
+        const claimAmountEl = page.querySelector('.group-red-packet-detail-claim-amount');
+        const progressTextEl = page.querySelector('.group-red-packet-detail-progress-text');
+        const statusEl = page.querySelector('.group-red-packet-detail-status');
+        const listEl = page.querySelector('.group-red-packet-detail-list');
+        const avatarEl = page.querySelector('.group-red-packet-detail-avatar');
+        let activePacketMsg = null;
+
+        function closeRedPacketClaimOverlay() {
+            activePacketMsg = null;
+            if (claimOverlay) {
+                claimOverlay.style.opacity = '0';
+                const card = claimOverlay.querySelector('.group-red-packet-claim-card');
+                if (card) {
+                    card.style.transform = 'scale(0.9)';
+                    card.style.opacity = '0';
+                }
+                setTimeout(() => {
+                    claimOverlay.style.display = 'none';
+                }, 300);
+            }
+        }
+
+        function closeRedPacketDetailOverlay() {
+            activePacketMsg = null;
+            if (overlay) {
+                overlay.style.opacity = '0';
+                const card = overlay.querySelector('.group-red-packet-detail-card');
+                if (card) {
+                    card.style.transform = 'translateY(20px)';
+                    card.style.opacity = '0';
+                }
+                setTimeout(() => {
+                    overlay.style.display = 'none';
+                }, 300);
+            }
+        }
+
+        function openRedPacketDetailOverlay(targetMsg) {
+            if (!overlay || !targetMsg) return;
+            activePacketMsg = targetMsg;
+            window.imChat.normalizeGroupRedPacketState(targetMsg, friend);
+
+            const senderMeta = window.imChat.getPacketSenderDisplayMeta(targetMsg, friend, friend);
+            const claimRecords = Array.isArray(targetMsg.claimRecords) ? targetMsg.claimRecords.slice() : [];
+            const claimedCount = claimRecords.length;
+            const packetCount = parseInt(targetMsg.packetCount, 10) || 0;
+            const totalAmount = Number(targetMsg.totalAmount) || 0;
+            const luckiestMemberId = targetMsg.luckiestMemberId || window.imChat.getRedPacketLuckiestMemberId(targetMsg);
+            const myAmount = Number(targetMsg.currentUserClaimAmount || 0);
+
+            if (titleEl) titleEl.textContent = senderMeta.name || '发红包的人';
+            if (summaryEl) summaryEl.textContent = `总金额 ¥${totalAmount.toFixed(2)} · ${targetMsg.description || '恭喜发财'}`;
+            if (claimAmountEl) claimAmountEl.textContent = `¥${myAmount.toFixed(2)}`;
+            if (progressTextEl) progressTextEl.textContent = `${claimedCount}/${packetCount} 人领取`;
+            if (statusEl) statusEl.textContent = targetMsg.isFinished ? '已被抢完' : `剩余 ${targetMsg.remainingCount || 0} 个，¥${Number(targetMsg.remainingAmount || 0).toFixed(2)}`;
+
+            const senderAvatarHtml = senderMeta.avatarUrl
+                ? `<img src="${senderMeta.avatarUrl}" style="width:100%; height:100%; object-fit:cover; display:block;">`
+                : `<span>${String(senderMeta.name || '群').charAt(0)}</span>`;
+            if (avatarEl) avatarEl.innerHTML = senderAvatarHtml;
+
+            if (listEl) {
+                const claimedHtml = claimRecords.map(item => `
+                    <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 0; border-bottom:1px solid rgba(0,0,0,0.05);">
+                        <div style="display:flex; align-items:center; gap:10px; min-width:0;">
+                            <div style="width:36px; height:36px; border-radius:50%; background:#f2f2f7; display:flex; align-items:center; justify-content:center; color:#8e8e93; font-size:15px; flex-shrink:0;">
+                                ${(item.memberName || '群').charAt(0)}
+                            </div>
+                            <div style="min-width:0;">
+                                <div style="font-size:14px; font-weight:600; color:#111; display:flex; align-items:center; gap:6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+                                    <span>${item.memberName || window.imChat.getDisplayNameByMemberId(friend, item.memberId)}</span>
+                                    ${String(item.memberId) === String(luckiestMemberId) ? '<span style="display:inline-flex; align-items:center; padding:2px 8px; border-radius:999px; background:#f2f2f7; color:#111; font-size:10px; font-weight:700;">运气王</span>' : ''}
+                                </div>
+                                <div style="font-size:11px; color:#8e8e93; margin-top:3px;">${window.imApp.formatTime ? window.imApp.formatTime(item.claimedAt) : ''}</div>
+                            </div>
+                        </div>
+                        <div style="font-size:16px; font-weight:800; color:#111;">¥${Number(item.amount || 0).toFixed(2)}</div>
+                    </div>
+                `).join('');
+
+                listEl.innerHTML = claimedHtml
+                    ? claimedHtml
+                    : `<div style="padding:28px 0; text-align:center; color:#8e8e93; font-size:13px;">还没有人领取红包</div>`;
+            }
+
+            overlay.style.display = 'flex';
+            // Trigger reflow for animation
+            overlay.offsetHeight;
+            overlay.style.opacity = '1';
+            const card = overlay.querySelector('.group-red-packet-detail-card');
+            if (card) {
+                card.style.transform = 'translateY(0)';
+                card.style.opacity = '1';
+            }
+        }
+
+        function openRedPacketClaimOverlay(targetMsg) {
+            if (!claimOverlay || !targetMsg) return;
+            activePacketMsg = targetMsg;
+            window.imChat.normalizeGroupRedPacketState(targetMsg, friend);
+
+            const senderMeta = window.imChat.getPacketSenderDisplayMeta(targetMsg, friend, friend);
+            const senderAvatarHtml = senderMeta.avatarUrl
+                ? `<img src="${senderMeta.avatarUrl}" style="width:100%; height:100%; object-fit:cover; display:block;">`
+                : `<span>${String(senderMeta.name || '群').charAt(0)}</span>`;
+
+            if (claimAvatarEl) claimAvatarEl.innerHTML = senderAvatarHtml;
+            if (claimSenderEl) claimSenderEl.textContent = senderMeta.name || '发红包的人';
+            if (claimDescEl) claimDescEl.textContent = targetMsg.description || '恭喜发财';
+            
+            const actionBtn = claimOverlay.querySelector('.group-red-packet-claim-action');
+            const emptyText = claimOverlay.querySelector('.group-red-packet-claim-empty-text');
+            if (targetMsg.isFinished) {
+                if (actionBtn) actionBtn.style.display = 'none';
+                if (emptyText) emptyText.style.display = 'block';
+            } else {
+                if (actionBtn) actionBtn.style.display = 'flex';
+                if (emptyText) emptyText.style.display = 'none';
+            }
+
+            claimOverlay.style.display = 'flex';
+            // Trigger reflow for animation
+            claimOverlay.offsetHeight;
+            claimOverlay.style.opacity = '1';
+            const card = claimOverlay.querySelector('.group-red-packet-claim-card');
+            if (card) {
+                card.style.transform = 'scale(1)';
+                card.style.opacity = '1';
+            }
+        }
+
+        function openGroupRedPacketInteraction(targetMsg) {
+            if (!targetMsg) return;
+            window.imChat.normalizeGroupRedPacketState(targetMsg, friend);
+            if (targetMsg.currentUserClaimed) {
+                openRedPacketDetailOverlay(targetMsg);
+                return;
+            }
+            openRedPacketClaimOverlay(targetMsg);
+        }
+
+        page._openRedPacketDetailOverlay = openRedPacketDetailOverlay;
+        page._closeRedPacketDetailOverlay = closeRedPacketDetailOverlay;
+        page._openRedPacketClaimOverlay = openRedPacketClaimOverlay;
+        page._closeRedPacketClaimOverlay = closeRedPacketClaimOverlay;
+        page._openGroupRedPacketInteraction = openGroupRedPacketInteraction;
+
+        if (claimOverlay) {
+            claimOverlay.addEventListener('click', (e) => {
+                if (e.target === claimOverlay) closeRedPacketClaimOverlay();
+            });
+        }
+
+        if (claimCloseBtn) {
+            claimCloseBtn.addEventListener('click', () => {
+                closeRedPacketClaimOverlay();
+            });
+        }
+
+        const viewDetailBtn = page.querySelector('.group-red-packet-claim-view-detail');
+        if (viewDetailBtn) {
+            viewDetailBtn.addEventListener('click', () => {
+                if (!activePacketMsg) return;
+                const msg = activePacketMsg;
+                closeRedPacketClaimOverlay();
+                setTimeout(() => {
+                    openRedPacketDetailOverlay(msg);
+                }, 200);
+            });
+        }
+
+        if (claimActionBtn) {
+            claimActionBtn.addEventListener('click', () => {
+                if (!activePacketMsg) return;
+                
+                claimActionBtn.style.transform = 'scale(0.9)';
+                setTimeout(async () => {
+                    claimActionBtn.style.transform = 'scale(1)';
+
+                    const packetId = activePacketMsg.packetId || activePacketMsg.id;
+                    let claimedPacketMsg = null;
+
+                    const saved = await commitPaymentFriendChange(friend, (targetFriend) => {
+                        const targetPacket = Array.isArray(targetFriend.messages)
+                            ? targetFriend.messages.find((item) => item && (item.packetId === packetId || item.id === packetId))
+                            : null;
+                        if (!targetPacket) return;
+
+                        const claimRecord = window.imChat.claimGroupRedPacketForMember(
+                            targetFriend,
+                            targetPacket,
+                            window.imChat.getCurrentUserPacketMember(targetFriend)
+                        );
+                        if (!claimRecord) return;
+                        claimedPacketMsg = targetPacket;
+                    }, { silent: true });
+
+                    if (!claimedPacketMsg) {
+                        if (window.showToast) window.showToast('手慢了，红包派完了');
+                        openRedPacketClaimOverlay(activePacketMsg);
+                        return;
+                    }
+
+                    if (!saved) {
+                        if (window.showToast) window.showToast('红包领取保存失败');
+                        return;
+                    }
+
+                    const latestContainer = page.querySelector('.ins-chat-messages');
+                    if (latestContainer) {
+                        const patched = refreshRedPacketMessageInContainer(page, friend, claimedPacketMsg);
+                        if (!patched) {
+                            latestContainer.innerHTML = '';
+                            window.imChat.renderChatHistory(friend, latestContainer);
+                        }
+                        window.imChat.scrollToBottom(latestContainer);
+                    }
+
+                    closeRedPacketClaimOverlay();
+                    setTimeout(() => {
+                        openRedPacketDetailOverlay(claimedPacketMsg);
+                    }, 250);
+                }, 150);
+            });
+        }
+
+        if (overlay) {
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) closeRedPacketDetailOverlay();
+            });
+        }
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                closeRedPacketDetailOverlay();
+            });
+        }
+    }
+
+function ensureTransferDetailOverlayForExistingPage(page, friend) {
+        if (!page) return;
+
+        const existingOverlay = page.querySelector('.pay-transfer-detail-overlay');
+        const hasManagedOverlay = existingOverlay &&
+            page._transferDetailOverlayManaged === true &&
+            typeof page._openTransferDetailOverlay === 'function';
+
+        if (hasManagedOverlay) return;
+
+        if (existingOverlay) {
+            existingOverlay.remove();
+            page._openTransferDetailOverlay = null;
+            page._closeTransferDetailOverlay = null;
+            page._transferDetailOverlayManaged = false;
+        }
+
+        page.insertAdjacentHTML('beforeend', `
+                <div class="pay-transfer-detail-overlay" style="display:none; position:absolute; inset:0; z-index:1200; background:rgba(0,0,0,0.28); align-items:center; justify-content:center; padding:20px; box-sizing:border-box;">
+                    <div class="pay-transfer-detail-card" style="width:100%; max-width:320px; border-radius:28px; background:rgba(255,255,255,0.96);    padding:20px 18px 16px; box-sizing:border-box;">
+                        <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+                            <div class="pay-transfer-detail-avatar" style="width:52px; height:52px; border-radius:50%; overflow:hidden; background:#e5e5ea; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+                                <i class="fas fa-user" style="color:#8e8e93; font-size:20px;"></i>
+                            </div>
+                            <div style="min-width:0;">
+                                <div class="pay-transfer-detail-name" style="font-size:17px; font-weight:700; color:#111; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">付款人</div>
+                                <div class="pay-transfer-detail-action-text" style="font-size:12px; color:#8e8e93; margin-top:3px;">向你转账</div>
+                            </div>
+                        </div>
+                        <div class="pay-transfer-detail-amount" style="font-size:34px; line-height:1.1; font-weight:800; color:#111; text-align:center; margin:8px 0 10px;">¥0.00</div>
+                        <div class="pay-transfer-detail-desc" style="font-size:14px; color:#666; text-align:center; line-height:1.5; min-height:21px; margin-bottom:18px;">转账说明</div>
+                        <div style="border-radius:18px; background:#f7f7fa; padding:12px 14px; margin-bottom:16px;">
+                            <div style="font-size:12px; color:#8e8e93; margin-bottom:6px;">转账详情</div>
+                            <div class="pay-transfer-detail-summary" style="font-size:14px; color:#222; line-height:1.5;">付款人向你转账</div>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button type="button" class="pay-transfer-detail-reject-btn" style="flex:1; height:46px; border:none; border-radius:16px; background:#f2f2f7; color:#666; font-size:16px; font-weight:600; cursor:pointer;">退回</button>
+                            <button type="button" class="pay-transfer-detail-claim-btn" style="flex:1; height:46px; border:none; border-radius:16px; background:#111; color:#fff; font-size:16px; font-weight:700; cursor:pointer;">收下</button>
+                        </div>
+                    </div>
+                </div>
+        `);
+
+        const transferDetailOverlay = page.querySelector('.pay-transfer-detail-overlay');
+        const transferDetailAvatar = page.querySelector('.pay-transfer-detail-avatar');
+        const transferDetailName = page.querySelector('.pay-transfer-detail-name');
+        const transferDetailAmount = page.querySelector('.pay-transfer-detail-amount');
+        const transferDetailDesc = page.querySelector('.pay-transfer-detail-desc');
+        const transferDetailSummary = page.querySelector('.pay-transfer-detail-summary');
+        const transferDetailRejectBtn = page.querySelector('.pay-transfer-detail-reject-btn');
+        const transferDetailClaimBtn = page.querySelector('.pay-transfer-detail-claim-btn');
+        const msgContainerProxy = page.querySelector('.ins-chat-messages');
+        let pendingTransferMsg = null;
+
+        function closeTransferDetailOverlay() {
+            pendingTransferMsg = null;
+            if (transferDetailOverlay) transferDetailOverlay.style.display = 'none';
+        }
+
+        function openTransferDetailOverlay(targetMsg) {
+            if (!transferDetailOverlay || !targetMsg) return;
+
+            pendingTransferMsg = targetMsg;
+
+            const model = normalizePayTransferMessage(targetMsg, friend);
+            const {
+                status,
+                payerName,
+                payeeName,
+                payerAvatar,
+                canCurrentUserClaim
+            } = model;
+            
+            const amount = Number(targetMsg.amount) || 0;
+            const description = targetMsg.description || '转账';
+            const familyCardText = `${targetMsg.paymentAction || ''} ${targetMsg.cardTitle || ''} ${targetMsg.description || ''} ${targetMsg.content || ''}`;
+            const isFamilyCard = targetMsg.paymentAction === 'family_card'
+                || targetMsg.paymentAction === 'family_card_increase'
+                || familyCardText.includes('亲属卡');
+
+            if (transferDetailName) transferDetailName.textContent = payerName;
+            if (transferDetailAmount) transferDetailAmount.textContent = `¥${amount.toFixed(2)}`;
+            if (transferDetailDesc) transferDetailDesc.textContent = description;
+            if (transferDetailSummary) transferDetailSummary.textContent = isFamilyCard ? `备注：${description}` : `${payerName} 向 ${payeeName} 转账，备注：${description}`;
+
+            const transferDetailActionText = page.querySelector('.pay-transfer-detail-action-text');
+            if (transferDetailActionText) {
+                if (isFamilyCard) {
+                    transferDetailActionText.textContent = '';
+                } else if (status === 'claimed') {
+                    transferDetailActionText.textContent = `${payeeName}已收款`;
+                } else if (status === 'rejected') {
+                    transferDetailActionText.textContent = '已退还';
+                } else if (canCurrentUserClaim) {
+                    transferDetailActionText.textContent = '向你转账';
+                } else {
+                    transferDetailActionText.textContent = `转账给 ${payeeName}`;
+                }
+            }
+
+            if (transferDetailAvatar) {
+                if (payerAvatar) {
+                    transferDetailAvatar.innerHTML = `<img src="${payerAvatar}" style="width:100%; height:100%; object-fit:cover; display:block;">`;
+                } else {
+                    transferDetailAvatar.innerHTML = `<i class="fas fa-user" style="color:#8e8e93; font-size:20px;"></i>`;
+                }
+            }
+
+            // 按钮容器
+            const actionsContainer = transferDetailRejectBtn ? transferDetailRejectBtn.parentElement : null;
+
+            // 根据状态控制按钮显示
+            // 如果是已经被处理过的记录（任何已收下或退回的状态），隐藏所有按钮及其容器
+            if (canCurrentUserClaim) {
+                if (actionsContainer) actionsContainer.style.display = 'flex';
+                if (transferDetailRejectBtn) {
+                    transferDetailRejectBtn.style.display = 'block';
+                    transferDetailRejectBtn.textContent = '退回';
+                }
+                if (transferDetailClaimBtn) {
+                    transferDetailClaimBtn.style.display = 'block';
+                    transferDetailClaimBtn.textContent = '收下';
+                }
+            } else {
+                if (actionsContainer) actionsContainer.style.display = 'none';
+            }
+
+            transferDetailOverlay.style.display = 'flex';
+        }
+
+            page._openTransferDetailOverlay = openTransferDetailOverlay;
+            page._closeTransferDetailOverlay = closeTransferDetailOverlay;
+            page._transferDetailOverlayManaged = true;
+            window.imChat.ensureRedPacketDetailOverlayForExistingPage(page, friend);
+
+        if (msgContainerProxy) {
+            msgContainerProxy.addEventListener('click', (e) => {
+                const row = e.target.closest('.chat-row');
+                if (!row) return;
+
+                const messageId = row.getAttribute('data-message-id');
+                const ts = row.getAttribute('data-timestamp');
+                const liveFriend = window.imData.currentActiveFriend &&
+                    String(window.imData.currentActiveFriend.id) === String(friend.id)
+                    ? window.imData.currentActiveFriend
+                    : friend;
+
+                if ((!messageId && !ts) || !liveFriend.messages) return;
+
+                const msg = liveFriend.messages.find(item => {
+                    if (messageId && String(item.id) === String(messageId)) return true;
+                    return String(item.timestamp) === String(ts);
+                });
+                
+                // 允许双方转账在点击时都弹出（包括处理前和处理后的所有payKind）
+                if (!msg || msg.type !== 'pay_transfer') return;
+                
+                // 仅允许基础的转账和系统交互过的转账气泡可点击（排除某些纯通知类型的转账卡片如果存在的话）
+                const validKinds = [
+                    'user_to_char', 'char_to_user_pending', // 待处理
+                    'char_received', 'char_to_user_claimed', 'user_received_from_char', // 已收下
+                    'user_rejected_from_char', 'char_to_user_rejected', 'user_to_char_rejected' // 已退还
+                ];
+                
+                if (!validKinds.includes(msg.payKind)) return;
+
+                const bubble = e.target.closest('.chat-bubble.pay-transfer-bubble, .pay-transfer-card');
+                if (!bubble) return;
+
+                e.preventDefault();
+                e.stopPropagation();
+                openTransferDetailOverlay(msg);
+            }, true);
+        }
+
+        if (transferDetailOverlay) {
+            transferDetailOverlay.addEventListener('click', (e) => {
+                if (e.target === transferDetailOverlay) {
+                    closeTransferDetailOverlay();
+                }
+            });
+        }
+
+        if (transferDetailRejectBtn) {
+            transferDetailRejectBtn.addEventListener('click', () => {
+                const targetMsg = pendingTransferMsg;
+                closeTransferDetailOverlay();
+                if (targetMsg) {
+                    if (window.imChat.rejectIncomingTransfer) {
+                        window.imChat.rejectIncomingTransfer(friend, targetMsg);
+                    }
+                }
+            });
+        }
+
+        if (transferDetailClaimBtn) {
+            transferDetailClaimBtn.addEventListener('click', () => {
+                const targetMsg = pendingTransferMsg;
+                closeTransferDetailOverlay();
+                if (targetMsg) {
+                    window.imChat.claimIncomingTransfer(friend, targetMsg);
+                }
+            });
+        }
+    }
+
+async function claimIncomingTransfer(friend, msg, options = {}) {
+        if (!friend || !msg || msg.claimed) return;
+        
+        // 允许自己收下AI的转账，或者AI收下自己的转账
+        if (msg.payKind !== 'char_to_user_pending' && msg.payKind !== 'user_to_char') return;
+
+        const amount = Number(msg.amount) || 0;
+        const description = msg.description || '转账';
+        const transferModel = normalizePayTransferMessage(msg, friend);
+        const senderName = transferModel.payerName;
+        const receiverName = transferModel.payeeName;
+
+        if (amount <= 0) {
+            if (window.showToast) window.showToast('金额无效');
+            return;
+        }
+
+        const activeFriend = window.imData.currentActiveFriend;
+        const activePage = document.getElementById(`chat-interface-${friend.id}`);
+        const activeContainer = activePage ? activePage.querySelector('.ins-chat-messages') : null;
+        const existingRow = activeContainer && msg.id
+            ? activeContainer.querySelector(`.chat-row[data-message-id="${msg.id}"]`)
+            : null;
+
+        const isUserClaiming = msg.payKind === 'char_to_user_pending';
+
+        if (isUserClaiming) {
+            const incomeSuccess = typeof window.addPayTransaction === 'function'
+                ? window.addPayTransaction(
+                    amount,
+                    `${description} · ${senderName}`,
+                    'income'
+                )
+                : false;
+
+            if (!incomeSuccess) {
+                if (window.showToast) window.showToast('收款失败');
+                return;
+            }
+        }
+
+        const sourceMessageId = msg.id;
+        const sourceMessageSnapshot = JSON.parse(JSON.stringify(msg));
+        let updatedMsg = null;
+        let receiveMsg = null;
+        let receiveTimestamp = Date.now();
+
+        if (isUserClaiming) {
+            receiveMsg = {
+                id: window.imChat.createMessageId('pay'),
+                role: 'user',
+                type: 'pay_transfer',
+                payKind: 'user_received_from_char',
+                payDirection: transferModel.direction,
+                amount,
+                description,
+                payerName: senderName,
+                payeeName: receiverName,
+                senderName,
+                receiverName,
+                targetName: senderName,
+                cardTitle: '收款',
+                payStatus: 'completed',
+                content: `[收款] ${description} ¥${amount.toFixed(2)}`,
+                timestamp: receiveTimestamp,
+                apiRunId: options.apiRunId || null,
+                rollbackSourceMessage: sourceMessageSnapshot
+            };
+        } else {
+            // AI收下用户的钱
+            receiveMsg = {
+                id: window.imChat.createMessageId('pay'),
+                role: 'assistant',
+                type: 'pay_transfer',
+                payKind: 'char_received',
+                payDirection: transferModel.direction,
+                amount,
+                description,
+                payerName: senderName,
+                payeeName: receiverName,
+                senderName,
+                receiverName,
+                targetName: senderName,
+                cardTitle: `${receiverName}已收款`,
+                payStatus: 'completed',
+                content: `[对方已收款] ${description} ¥${amount.toFixed(2)}`,
+                timestamp: receiveTimestamp,
+                apiRunId: options.apiRunId || null,
+                rollbackSourceMessage: sourceMessageSnapshot
+            };
+        }
+
+        let saved = false;
+
+        if (window.imApp.updateFriendMessage && window.imApp.appendFriendMessage) {
+            const updated = await window.imApp.updateFriendMessage(friend.id, {
+                id: sourceMessageId || null,
+                timestamp: msg.timestamp || null
+            }, (targetMsg) => {
+                if (!targetMsg) return;
+                targetMsg.claimed = true;
+                if (isUserClaiming) {
+                    targetMsg.payKind = 'char_to_user_claimed';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = `${receiverName}已收款`;
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[对方转账已领取] ${description} ¥${amount.toFixed(2)}`;
+                } else {
+                    targetMsg.payKind = 'char_received';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = `${receiverName}已收款`;
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[对方转账已领取] ${description} ¥${amount.toFixed(2)}`;
+                }
+                updatedMsg = targetMsg;
+            }, { silent: true });
+
+            if (updated) {
+                saved = await window.imApp.appendFriendMessage(friend.id, receiveMsg, { silent: true });
+            }
+        } else {
+            saved = await commitPaymentFriendChange(friend, (targetFriend) => {
+                const targetMsg = Array.isArray(targetFriend.messages)
+                    ? targetFriend.messages.find((item) => item && String(item.id) === String(sourceMessageId))
+                    : null;
+                if (!targetMsg) return;
+
+                targetMsg.claimed = true;
+                if (isUserClaiming) {
+                    targetMsg.payKind = 'char_to_user_claimed';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = `${receiverName}已收款`;
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[对方转账已领取] ${description} ¥${amount.toFixed(2)}`;
+                } else {
+                    targetMsg.payKind = 'char_received';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = `${receiverName}已收款`;
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[对方转账已领取] ${description} ¥${amount.toFixed(2)}`;
+                }
+
+                if (!targetFriend.messages) targetFriend.messages = [];
+                targetFriend.messages.push(receiveMsg);
+                updatedMsg = targetMsg;
+            }, { silent: true });
+        }
+
+        if (!saved || !updatedMsg || !receiveMsg) {
+            if (window.showToast) window.showToast('收款记录保存失败');
+            return;
+        }
+
+        if (activeFriend && String(activeFriend.id) === String(friend.id) && activeContainer) {
+            if (existingRow) {
+                const replaceHost = document.createElement('div');
+                window.imChat.renderPayTransferBubble(updatedMsg, friend, replaceHost, updatedMsg.timestamp || receiveTimestamp);
+                const updatedClaimedRow = replaceHost.querySelector('.chat-row');
+
+                if (updatedClaimedRow) {
+                    existingRow.replaceWith(updatedClaimedRow);
+                }
+
+                const appendHost = document.createElement('div');
+                const lastMsgBeforeReceive = friend.messages.length > 1 ? friend.messages[friend.messages.length - 2] : null;
+
+                if (!lastMsgBeforeReceive || (receiveTimestamp - (lastMsgBeforeReceive.timestamp || 0) > 300000)) {
+                    window.imChat.renderTimestamp(receiveTimestamp, appendHost);
+                }
+
+                window.imChat.renderPayTransferBubble(receiveMsg, friend, appendHost, receiveTimestamp);
+
+                while (appendHost.firstChild) {
+                    activeContainer.appendChild(appendHost.firstChild);
+                }
+
+                window.imChat.scrollToBottom(activeContainer);
+            } else {
+                activeContainer.innerHTML = '';
+                window.imChat.renderChatHistory(friend, activeContainer);
+                window.imChat.scrollToBottom(activeContainer);
+            }
+        }
+    }
+
+    window.imChat.getGroupMemberFriends = getGroupMemberFriends;
+    window.imChat.normalizeGroupSpeaker = normalizeGroupSpeaker;
+    window.imChat.getGroupMessageSpeaker = getGroupMessageSpeaker;
+    window.imChat.getSafeGroupSpeaker = getSafeGroupSpeaker;
+    window.imChat.getDisplayNameByMemberId = getDisplayNameByMemberId;
+    window.imChat.getAvailableGroupRecipients = getAvailableGroupRecipients;
+    window.imChat.getCurrentUserPacketMember = getCurrentUserPacketMember;
+    window.imChat.getAllRedPacketParticipants = getAllRedPacketParticipants;
+    window.imChat.getPacketSenderDisplayMeta = getPacketSenderDisplayMeta;
+    window.imChat.getCurrentUserClaimRecord = getCurrentUserClaimRecord;
+    window.imChat.createRedPacketClaimNoticeText = createRedPacketClaimNoticeText;
+    window.imChat.claimGroupRedPacketForMember = claimGroupRedPacketForMember;
+    window.imChat.createRedPacketAllocations = createRedPacketAllocations;
+    window.imChat.getRedPacketLuckiestMemberId = getRedPacketLuckiestMemberId;
+    window.imChat.normalizeGroupRedPacketState = normalizeGroupRedPacketState;
+    window.imChat.processPendingGroupRedPackets = processPendingGroupRedPackets;
+    window.imChat.ensureRedPacketDetailOverlayForExistingPage = ensureRedPacketDetailOverlayForExistingPage;
+    async function rejectIncomingTransfer(friend, msg, options = {}) {
+        if (!friend || !msg || msg.claimed) return;
+        
+        // 允许退回AI的转账，或者模拟AI退回用户的转账
+        if (msg.payKind !== 'char_to_user_pending' && msg.payKind !== 'user_to_char') return;
+
+        const amount = Number(msg.amount) || 0;
+        const description = msg.description || '转账';
+        const transferModel = normalizePayTransferMessage(msg, friend);
+        const senderName = transferModel.payerName;
+        const receiverName = transferModel.payeeName;
+        // isUserRejecting true 代表：用户退回 char 的钱（用户发出的退回气泡）
+        // isUserRejecting false 代表：char 退回 用户的钱（char/assistant 发出的退回气泡）
+        const isUserRejecting = msg.payKind === 'char_to_user_pending';
+
+        if (amount <= 0) return;
+
+        const activeFriend = window.imData.currentActiveFriend;
+        const activePage = document.getElementById(`chat-interface-${friend.id}`);
+        const activeContainer = activePage ? activePage.querySelector('.ins-chat-messages') : null;
+        const existingRow = activeContainer && msg.id
+            ? activeContainer.querySelector(`.chat-row[data-message-id="${msg.id}"]`)
+            : null;
+
+        // 如果是AI退回用户的转账，钱回到用户余额
+        if (!isUserRejecting && typeof window.addPayTransaction === 'function') {
+            window.addPayTransaction(
+                amount,
+                `${description} · 转账退还 · ${receiverName}`,
+                'income'
+            );
+        }
+
+        const sourceMessageId = msg.id;
+        const sourceMessageSnapshot = JSON.parse(JSON.stringify(msg));
+        let updatedMsg = null;
+        let rejectMsg = null;
+        let rejectTimestamp = Date.now();
+
+        if (isUserRejecting) {
+            rejectMsg = {
+                id: window.imChat.createMessageId('pay'),
+                role: 'user', // 用户发起拒绝
+                type: 'pay_transfer',
+                payKind: 'user_rejected_from_char', // 用户的拒绝消息，UI将渲染为 "已退还"
+                payDirection: transferModel.direction,
+                amount,
+                description,
+                payerName: senderName,
+                payeeName: receiverName,
+                senderName,
+                receiverName,
+                targetName: senderName,
+                cardTitle: '已退还',
+                payStatus: 'completed',
+                content: `[已退还] ${description} ¥${amount.toFixed(2)}`,
+                timestamp: rejectTimestamp,
+                apiRunId: options.apiRunId || null,
+                rollbackSourceMessage: sourceMessageSnapshot
+            };
+        } else {
+            rejectMsg = {
+                id: window.imChat.createMessageId('pay'),
+                role: 'assistant', // AI发起的退回
+                type: 'pay_transfer',
+                payKind: 'char_to_user_rejected', // AI的拒绝消息（或 user_to_char_rejected）
+                payDirection: transferModel.direction,
+                amount,
+                description,
+                payerName: senderName,
+                payeeName: receiverName,
+                senderName,
+                receiverName,
+                targetName: senderName,
+                cardTitle: '已退还',
+                payStatus: 'completed',
+                content: `[对方已退还] ${description} ¥${amount.toFixed(2)}`,
+                timestamp: rejectTimestamp,
+                apiRunId: options.apiRunId || null,
+                rollbackSourceMessage: sourceMessageSnapshot
+            };
+        }
+
+        let saved = false;
+
+        if (window.imApp.updateFriendMessage && window.imApp.appendFriendMessage) {
+            const updated = await window.imApp.updateFriendMessage(friend.id, {
+                id: sourceMessageId || null,
+                timestamp: msg.timestamp || null
+            }, (targetMsg) => {
+                if (!targetMsg) return;
+                targetMsg.claimed = true;
+                if (isUserRejecting) {
+                    targetMsg.payKind = 'user_rejected_from_char'; // 原始卡片状态更新
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = '已退还';
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[转账已退还] ${description} ¥${amount.toFixed(2)}`;
+                } else {
+                    targetMsg.payKind = 'user_to_char_rejected'; // 原始卡片状态更新
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = '已退还';
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[转账已退还] ${description} ¥${amount.toFixed(2)}`;
+                }
+                updatedMsg = targetMsg;
+            }, { silent: true });
+
+            if (updated) {
+                saved = await window.imApp.appendFriendMessage(friend.id, rejectMsg, { silent: true });
+            }
+        } else {
+            saved = await commitPaymentFriendChange(friend, (targetFriend) => {
+                const targetMsg = Array.isArray(targetFriend.messages)
+                    ? targetFriend.messages.find((item) => item && String(item.id) === String(sourceMessageId))
+                    : null;
+                if (!targetMsg) return;
+
+                targetMsg.claimed = true;
+                if (isUserRejecting) {
+                    targetMsg.payKind = 'user_rejected_from_char';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = '已退还';
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[转账已退还] ${description} ¥${amount.toFixed(2)}`;
+                } else {
+                    targetMsg.payKind = 'user_to_char_rejected';
+                    targetMsg.payDirection = transferModel.direction;
+                    targetMsg.cardTitle = '已退还';
+                    targetMsg.targetName = senderName;
+                    targetMsg.payerName = senderName;
+                    targetMsg.payeeName = receiverName;
+                    targetMsg.senderName = senderName;
+                    targetMsg.receiverName = receiverName;
+                    targetMsg.content = `[转账已退还] ${description} ¥${amount.toFixed(2)}`;
+                }
+
+                if (!targetFriend.messages) targetFriend.messages = [];
+                targetFriend.messages.push(rejectMsg);
+                updatedMsg = targetMsg;
+            }, { silent: true });
+        }
+
+        if (!saved || !updatedMsg || !rejectMsg) {
+            if (window.showToast) window.showToast('退还记录保存失败');
+            return;
+        }
+
+        if (activeFriend && String(activeFriend.id) === String(friend.id) && activeContainer) {
+            if (existingRow) {
+                const replaceHost = document.createElement('div');
+                window.imChat.renderPayTransferBubble(updatedMsg, friend, replaceHost, updatedMsg.timestamp || rejectTimestamp);
+                const updatedClaimedRow = replaceHost.querySelector('.chat-row');
+
+                if (updatedClaimedRow) {
+                    existingRow.replaceWith(updatedClaimedRow);
+                }
+
+                const appendHost = document.createElement('div');
+                const lastMsgBeforeReceive = friend.messages.length > 1 ? friend.messages[friend.messages.length - 2] : null;
+
+                if (!lastMsgBeforeReceive || (rejectTimestamp - (lastMsgBeforeReceive.timestamp || 0) > 300000)) {
+                    window.imChat.renderTimestamp(rejectTimestamp, appendHost);
+                }
+
+                window.imChat.renderPayTransferBubble(rejectMsg, friend, appendHost, rejectTimestamp);
+
+                while (appendHost.firstChild) {
+                    activeContainer.appendChild(appendHost.firstChild);
+                }
+
+                window.imChat.scrollToBottom(activeContainer);
+            } else {
+                activeContainer.innerHTML = '';
+                window.imChat.renderChatHistory(friend, activeContainer);
+                window.imChat.scrollToBottom(activeContainer);
+            }
+        }
+    }
+
+    window.imChat.ensureTransferDetailOverlayForExistingPage = ensureTransferDetailOverlayForExistingPage;
+    window.imChat.claimIncomingTransfer = claimIncomingTransfer;
+    window.imChat.rejectIncomingTransfer = rejectIncomingTransfer;
+
+});

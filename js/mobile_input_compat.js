@@ -1,1 +1,394 @@
-(function(_0x4d67bb,_0x38ed50){const _0x4c591b=_0x7f19,_0x1358ff=_0x4d67bb();while(!![]){try{const _0x4a020c=parseInt(_0x4c591b(0x194))/0x1+-parseInt(_0x4c591b(0x139))/0x2*(parseInt(_0x4c591b(0x17f))/0x3)+parseInt(_0x4c591b(0x160))/0x4*(parseInt(_0x4c591b(0x196))/0x5)+parseInt(_0x4c591b(0x180))/0x6+-parseInt(_0x4c591b(0x14f))/0x7*(parseInt(_0x4c591b(0x190))/0x8)+-parseInt(_0x4c591b(0x14d))/0x9*(-parseInt(_0x4c591b(0x136))/0xa)+parseInt(_0x4c591b(0x167))/0xb;if(_0x4a020c===_0x38ed50)break;else _0x1358ff['push'](_0x1358ff['shift']());}catch(_0x18bc65){_0x1358ff['push'](_0x1358ff['shift']());}}}(_0xf202,0x89dbc),(function(){const _0x37aff4=_0x7f19,_0x15a822=/Android/i['test'](navigator['userAgent']||''),_0x3d1d3c=new Map(),_0x1becdc=new Set(['file',_0x37aff4(0x172),_0x37aff4(0x137),_0x37aff4(0x181),'range',_0x37aff4(0x155)]);let _0x568b5a=null,_0x302b68=![],_0x1397bd=![];const _0x4ae416={'active':![],'overlay':null,'scrollLeft':0x0,'previousScrollSnapType':'','previousScrollBehavior':'','previousOverflowX':'','previousTouchAction':'','restoreTimers':[]};function _0x56b7e7(_0x40cd90){const _0x1c350e=_0x37aff4;if(typeof _0x40cd90==='function')return _0x40cd90()||null;if(typeof _0x40cd90===_0x1c350e(0x138))return document[_0x1c350e(0x156)](_0x40cd90);return _0x40cd90||null;}function _0x175ef4(){const _0x40d1b7=_0x37aff4,_0x4032d9=window['visualViewport'];return{'height':Math[_0x40d1b7(0x143)](_0x4032d9?.[_0x40d1b7(0x135)]||window[_0x40d1b7(0x16e)]||0x0),'width':Math[_0x40d1b7(0x143)](_0x4032d9?.[_0x40d1b7(0x149)]||window['innerWidth']||0x0)};}function _0x309f35(){const _0x56ca23=_0x37aff4;return document[_0x56ca23(0x146)](_0x56ca23(0x198));}function _0x56a416(_0x4a5e07){const _0x5eb6e8=_0x37aff4;if(!_0x4a5e07||!_0x4a5e07[_0x5eb6e8(0x144)]||_0x4a5e07[_0x5eb6e8(0x19a)])return![];const _0x2ff155=_0x4a5e07[_0x5eb6e8(0x185)];if(_0x2ff155===_0x5eb6e8(0x13e))return!_0x4a5e07[_0x5eb6e8(0x17d)];if(_0x2ff155==='SELECT')return!![];if(_0x2ff155!=='INPUT')return![];const _0x28de3a=String(_0x4a5e07[_0x5eb6e8(0x18d)](_0x5eb6e8(0x16c))||_0x4a5e07[_0x5eb6e8(0x16c)]||_0x5eb6e8(0x169))[_0x5eb6e8(0x174)]();return!_0x4a5e07[_0x5eb6e8(0x17d)]&&!_0x1becdc[_0x5eb6e8(0x134)](_0x28de3a);}function _0x34c128(_0x22d294){const _0x1bf1b1=_0x37aff4;if(!_0x22d294||!_0x22d294['closest'])return null;const _0xaf9e0c=_0x22d294[_0x1bf1b1(0x144)](_0x1bf1b1(0x168));return _0xaf9e0c||null;}function _0x42fd19(){const _0x2a34d8=_0x37aff4;try{window[_0x2a34d8(0x12d)](0x0,window['scrollY']||document[_0x2a34d8(0x15e)][_0x2a34d8(0x15b)]||document[_0x2a34d8(0x165)][_0x2a34d8(0x15b)]||0x0);}catch(_0x416c77){}document[_0x2a34d8(0x15e)][_0x2a34d8(0x14a)]=0x0,document[_0x2a34d8(0x165)][_0x2a34d8(0x14a)]=0x0;}function _0x34e02b(){const _0x1c12cc=_0x37aff4;if(!_0x15a822||!_0x4ae416[_0x1c12cc(0x19c)])return;const _0x1042d4=_0x309f35();if(_0x1042d4){try{_0x1042d4[_0x1c12cc(0x12d)]({'left':_0x4ae416[_0x1c12cc(0x14a)],'behavior':_0x1c12cc(0x17c)});}catch(_0x189031){_0x1042d4['scrollLeft']=_0x4ae416[_0x1c12cc(0x14a)];}_0x1042d4[_0x1c12cc(0x14a)]=_0x4ae416[_0x1c12cc(0x14a)];}_0x42fd19();}function _0x5da610(){const _0x316825=_0x37aff4;if(!_0x15a822||!_0x4ae416[_0x316825(0x19c)])return;_0x4ae416[_0x316825(0x189)][_0x316825(0x19d)](_0x3a86e1=>clearTimeout(_0x3a86e1)),_0x4ae416['restoreTimers']=[],requestAnimationFrame(_0x34e02b),[0x0,0x3c,0xb4,0x168][_0x316825(0x19d)](_0x5f3af4=>{const _0xd54432=_0x316825;_0x4ae416['restoreTimers'][_0xd54432(0x130)](setTimeout(_0x34e02b,_0x5f3af4));});}function _0x139520(_0x34443d){const _0x14a41e=_0x37aff4;if(!_0x15a822||!_0x56a416(_0x34443d))return![];const _0x5e9615=_0x34c128(_0x34443d);if(!_0x5e9615)return![];const _0x24f971=_0x309f35();return!_0x4ae416['active']&&(_0x4ae416[_0x14a41e(0x19c)]=!![],_0x4ae416[_0x14a41e(0x14a)]=_0x24f971?_0x24f971[_0x14a41e(0x14a)]:0x0,_0x24f971&&(_0x4ae416[_0x14a41e(0x18b)]=_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x191)]||'',_0x4ae416[_0x14a41e(0x14b)]=_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x170)]||'',_0x4ae416['previousOverflowX']=_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x164)]||'',_0x4ae416[_0x14a41e(0x16b)]=_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x142)]||'')),_0x4ae416['overlay']=_0x5e9615,_0x5e9615[_0x14a41e(0x197)][_0x14a41e(0x17e)](_0x14a41e(0x16f)),_0x24f971&&(_0x24f971['style'][_0x14a41e(0x191)]='none',_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x170)]=_0x14a41e(0x17c),_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x164)]=_0x14a41e(0x172),_0x24f971[_0x14a41e(0x15c)][_0x14a41e(0x142)]=_0x14a41e(0x182)),_0x21ffdb(),_0x5da610(),!![];}function _0x197b06(){const _0x1edad2=_0x37aff4;if(!_0x4ae416[_0x1edad2(0x19c)])return;_0x4ae416[_0x1edad2(0x189)]['forEach'](_0x3213f8=>clearTimeout(_0x3213f8)),_0x4ae416[_0x1edad2(0x189)]=[];const _0x4b064d=_0x309f35();_0x4b064d&&(_0x4b064d[_0x1edad2(0x15c)][_0x1edad2(0x191)]=_0x4ae416['previousScrollSnapType'],_0x4b064d[_0x1edad2(0x15c)][_0x1edad2(0x170)]=_0x4ae416['previousScrollBehavior'],_0x4b064d[_0x1edad2(0x15c)][_0x1edad2(0x164)]=_0x4ae416[_0x1edad2(0x154)],_0x4b064d[_0x1edad2(0x15c)][_0x1edad2(0x142)]=_0x4ae416[_0x1edad2(0x16b)],_0x4b064d[_0x1edad2(0x14a)]=_0x4ae416[_0x1edad2(0x14a)]),_0x4ae416['overlay']?.['classList']&&_0x4ae416['overlay'][_0x1edad2(0x197)][_0x1edad2(0x145)]('u2-android-input-locked'),_0x4ae416[_0x1edad2(0x19c)]=![],_0x4ae416[_0x1edad2(0x148)]=null,_0x4ae416['scrollLeft']=0x0,_0x4ae416[_0x1edad2(0x18b)]='',_0x4ae416[_0x1edad2(0x14b)]='',_0x4ae416['previousOverflowX']='',_0x4ae416[_0x1edad2(0x16b)]='',_0x42fd19();}function _0x4ad9c4(){const _0x7065ca=_0x37aff4,_0x12d336=document[_0x7065ca(0x175)];return _0x56a416(_0x12d336)&&!!_0x34c128(_0x12d336);}function _0x5ae28b(){const _0x249770=_0x37aff4;if(!_0x15a822||!_0x4ae416[_0x249770(0x19c)])return;if(_0x4ad9c4()){_0x5da610();return;}_0x197b06();}function _0x299f26(){const _0x3c4dff=_0x37aff4;if(!_0x15a822||!_0x4ae416[_0x3c4dff(0x19c)])return;_0x5da610(),setTimeout(_0x5ae28b,0x78);}function _0x21ffdb(){const _0x490a30=_0x37aff4;if(!_0x15a822||!window[_0x490a30(0x18c)]||_0x1397bd)return;_0x1397bd=!![],window[_0x490a30(0x18c)][_0x490a30(0x13f)](_0x490a30(0x171),_0x299f26,{'passive':!![]}),window[_0x490a30(0x18c)][_0x490a30(0x13f)](_0x490a30(0x13d),_0x299f26,{'passive':!![]});}function _0x6c35a7(_0x1e74ea,_0x26a86f={}){const _0xf52f7=_0x37aff4;if(!_0x1e74ea||_0x1e74ea['key']!==_0xf52f7(0x147))return![];if(_0x1e74ea['isComposing']||_0x1e74ea[_0xf52f7(0x176)]===0xe5)return![];if(_0x1e74ea[_0xf52f7(0x19e)]||_0x1e74ea[_0xf52f7(0x186)]||_0x1e74ea[_0xf52f7(0x159)])return![];if(_0x1e74ea[_0xf52f7(0x14e)])return![];if(_0x26a86f[_0xf52f7(0x179)]&&_0x1e74ea[_0xf52f7(0x14e)])return![];return!![];}function _0x582685(_0x8c6f43){const _0x318566=_0x37aff4;if(!_0x15a822||!_0x8c6f43)return;const _0x432862=_0x175ef4();if(_0x432862[_0x318566(0x149)]>0x0&&Math[_0x318566(0x19b)](_0x432862[_0x318566(0x149)]-_0x8c6f43[_0x318566(0x173)])>0x30){_0x8c6f43['viewportWidth']=_0x432862[_0x318566(0x149)],_0x8c6f43[_0x318566(0x153)]=_0x432862[_0x318566(0x135)],_0x8c6f43[_0x318566(0x16d)]=![];return;}_0x8c6f43[_0x318566(0x173)]=_0x432862[_0x318566(0x149)]||_0x8c6f43['viewportWidth'],_0x8c6f43['restingHeight']=Math['max'](_0x8c6f43[_0x318566(0x153)],_0x432862[_0x318566(0x135)]);}function _0x1c97df(_0x37245d){const _0x514de3=_0x37aff4;if(!_0x15a822||!_0x37245d||!_0x37245d[_0x514de3(0x16a)][_0x514de3(0x199)])return;const _0x12c2cc=_0x56b7e7(_0x37245d[_0x514de3(0x158)]),_0x41e192=_0x56b7e7(_0x37245d[_0x514de3(0x157)]);_0x12c2cc?.[_0x514de3(0x197)]&&_0x37245d[_0x514de3(0x166)][_0x514de3(0x19d)](_0x2bd0a0=>_0x12c2cc['classList'][_0x514de3(0x145)](_0x2bd0a0)),_0x37245d[_0x514de3(0x183)]&&(window[_0x514de3(0x12d)](0x0,0x0),document[_0x514de3(0x15e)][_0x514de3(0x15b)]=0x0,document['body']['scrollTop']=0x0),requestAnimationFrame(()=>{const _0x22dcf8=_0x514de3;if(_0x41e192)_0x41e192[_0x22dcf8(0x15b)]=_0x41e192[_0x22dcf8(0x195)];if(typeof _0x37245d['onRestore']===_0x22dcf8(0x15a))_0x37245d['onRestore'](_0x37245d);});}function _0x19f19f(_0x231e6b){const _0x58964b=_0x37aff4;_0x231e6b[_0x58964b(0x189)][_0x58964b(0x19d)](_0x4e2eef=>clearTimeout(_0x4e2eef)),_0x231e6b[_0x58964b(0x189)]=[],[0x0,0x3c,0xb4,0x168][_0x58964b(0x19d)](_0x4ca6c2=>{const _0x25f7b3=_0x58964b;_0x231e6b[_0x25f7b3(0x189)][_0x25f7b3(0x130)](setTimeout(()=>_0x1c97df(_0x231e6b),_0x4ca6c2));});}function _0x112ca5(){const _0x37782e=_0x37aff4,_0x5c490f=_0x568b5a;if(!_0x15a822||!_0x5c490f||!_0x5c490f[_0x37782e(0x16a)][_0x37782e(0x199)])return;const _0x232205=_0x175ef4();if(Math[_0x37782e(0x19b)](_0x232205['width']-_0x5c490f[_0x37782e(0x173)])>0x30){_0x5c490f[_0x37782e(0x173)]=_0x232205[_0x37782e(0x149)],_0x5c490f['restingHeight']=_0x232205['height'],_0x5c490f[_0x37782e(0x16d)]=![];return;}const _0x5f09f6=document[_0x37782e(0x175)]===_0x5c490f['input'];!_0x5f09f6&&!_0x5c490f[_0x37782e(0x16d)]&&(_0x5c490f[_0x37782e(0x153)]=Math['max'](_0x5c490f[_0x37782e(0x153)],_0x232205[_0x37782e(0x135)]));if(_0x5f09f6&&_0x5c490f[_0x37782e(0x153)]-_0x232205[_0x37782e(0x135)]>_0x5c490f[_0x37782e(0x15f)]){_0x5c490f[_0x37782e(0x16d)]=!![];return;}_0x5c490f[_0x37782e(0x16d)]&&_0x232205[_0x37782e(0x135)]>=_0x5c490f[_0x37782e(0x153)]-_0x5c490f[_0x37782e(0x188)]&&(_0x5c490f[_0x37782e(0x16d)]=![],_0x5c490f['restingHeight']=Math[_0x37782e(0x133)](_0x5c490f[_0x37782e(0x153)],_0x232205[_0x37782e(0x135)]),_0x19f19f(_0x5c490f));}function _0x559a00(){const _0x5a90f9=_0x37aff4;if(!_0x15a822||!window['visualViewport']||_0x302b68)return;_0x302b68=!![],window['visualViewport'][_0x5a90f9(0x13f)]('resize',_0x112ca5,{'passive':!![]}),window[_0x5a90f9(0x18c)][_0x5a90f9(0x13f)](_0x5a90f9(0x13d),_0x112ca5,{'passive':!![]});}function _0x18b67f(_0x43a604={}){const _0x4530fb=_0x37aff4,_0x2ca965=_0x56b7e7(_0x43a604[_0x4530fb(0x16a)]);if(!_0x2ca965)return function(){};const _0x43975c=_0x3d1d3c[_0x4530fb(0x12e)](_0x2ca965);if(_0x43975c)_0x43975c[_0x4530fb(0x18e)]();const _0x58113c={'input':_0x2ca965,'root':_0x43a604[_0x4530fb(0x158)]||null,'scrollContainer':_0x43a604[_0x4530fb(0x157)]||null,'onSend':typeof _0x43a604[_0x4530fb(0x18a)]===_0x4530fb(0x15a)?_0x43a604[_0x4530fb(0x18a)]:null,'onRestore':typeof _0x43a604[_0x4530fb(0x18f)]===_0x4530fb(0x15a)?_0x43a604[_0x4530fb(0x18f)]:null,'allowEmpty':!!_0x43a604[_0x4530fb(0x161)],'multiline':!!_0x43a604['multiline'],'blurAfterSend':!!_0x43a604['blurAfterSend'],'restoreWindowScroll':_0x43a604[_0x4530fb(0x183)]!==![],'openClasses':Array[_0x4530fb(0x15d)](_0x43a604[_0x4530fb(0x166)])?_0x43a604[_0x4530fb(0x166)][_0x4530fb(0x140)](Boolean):[_0x4530fb(0x177)],'openThreshold':Number(_0x43a604[_0x4530fb(0x15f)])||0x64,'closeTolerance':Number(_0x43a604['closeTolerance'])||0x48,'restingHeight':0x0,'viewportWidth':0x0,'keyboardWasOpen':![],'restoreTimers':[],'cleanup':null};_0x43a604[_0x4530fb(0x19f)]!==![]&&_0x2ca965[_0x4530fb(0x13a)](_0x4530fb(0x163),_0x43a604['enterKeyHint']||_0x4530fb(0x131));const _0x3b0d01=()=>{_0x568b5a=_0x58113c,_0x582685(_0x58113c);},_0x5d6c56=_0x115b21=>{const _0x567ae=_0x4530fb;if(!_0x6c35a7(_0x115b21,_0x58113c))return;_0x115b21[_0x567ae(0x141)]();const _0x23880a=String(_0x2ca965['value']||'')[_0x567ae(0x12f)]();if(!_0x58113c[_0x567ae(0x161)]&&!_0x23880a)return;if(!_0x58113c['onSend'])return;try{const _0x674ddd=_0x58113c[_0x567ae(0x18a)]({'event':_0x115b21,'input':_0x2ca965,'text':_0x23880a});_0x674ddd&&typeof _0x674ddd[_0x567ae(0x132)]===_0x567ae(0x15a)&&_0x674ddd['catch'](_0xdfcc4f=>console[_0x567ae(0x187)]('[mobileInputCompat]\x20send\x20failed',_0xdfcc4f));}catch(_0x479b86){console[_0x567ae(0x187)]('[mobileInputCompat]\x20send\x20failed',_0x479b86);}if(_0x58113c['blurAfterSend'])_0x2ca965[_0x567ae(0x162)]();},_0x2170a0=()=>{const _0x4771b0=_0x4530fb;if(_0x15a822&&!window[_0x4771b0(0x18c)])_0x19f19f(_0x58113c);};return _0x2ca965[_0x4530fb(0x13f)]('pointerdown',_0x3b0d01,{'passive':!![]}),_0x2ca965[_0x4530fb(0x13f)](_0x4530fb(0x193),_0x3b0d01,{'passive':!![]}),_0x2ca965[_0x4530fb(0x13f)](_0x4530fb(0x17a),_0x3b0d01),_0x2ca965[_0x4530fb(0x13f)](_0x4530fb(0x162),_0x2170a0),_0x2ca965['addEventListener'](_0x4530fb(0x14c),_0x5d6c56),_0x58113c['cleanup']=()=>{const _0x2af8dd=_0x4530fb;_0x58113c[_0x2af8dd(0x189)][_0x2af8dd(0x19d)](_0x26c28=>clearTimeout(_0x26c28)),_0x2ca965[_0x2af8dd(0x178)]('pointerdown',_0x3b0d01),_0x2ca965[_0x2af8dd(0x178)](_0x2af8dd(0x193),_0x3b0d01),_0x2ca965[_0x2af8dd(0x178)](_0x2af8dd(0x17a),_0x3b0d01),_0x2ca965['removeEventListener'](_0x2af8dd(0x162),_0x2170a0),_0x2ca965[_0x2af8dd(0x178)](_0x2af8dd(0x14c),_0x5d6c56),_0x3d1d3c[_0x2af8dd(0x13b)](_0x2ca965);if(_0x568b5a===_0x58113c)_0x568b5a=null;},_0x3d1d3c[_0x4530fb(0x150)](_0x2ca965,_0x58113c),_0x582685(_0x58113c),_0x559a00(),_0x58113c[_0x4530fb(0x18e)];}document[_0x37aff4(0x13f)](_0x37aff4(0x152),_0x40a537=>{const _0xa7893e=_0x37aff4;_0x139520(_0x40a537[_0xa7893e(0x17b)]);const _0x48cba3=_0x3d1d3c[_0xa7893e(0x12e)](_0x40a537[_0xa7893e(0x17b)]);if(_0x48cba3)_0x568b5a=_0x48cba3,_0x582685(_0x48cba3);else _0x568b5a&&!_0x568b5a[_0xa7893e(0x16d)]&&(_0x568b5a=null);},!![]),document[_0x37aff4(0x13f)](_0x37aff4(0x151),_0x5282f1=>{const _0x30f7f3=_0x37aff4;_0x139520(_0x5282f1[_0x30f7f3(0x17b)]);},{'capture':!![],'passive':!![]}),document['addEventListener'](_0x37aff4(0x193),_0x4ede6a=>{const _0x7cc527=_0x37aff4;_0x139520(_0x4ede6a[_0x7cc527(0x17b)]);},{'capture':!![],'passive':!![]}),document[_0x37aff4(0x13f)](_0x37aff4(0x184),()=>{if(!_0x15a822||!_0x4ae416['active'])return;setTimeout(_0x5ae28b,0x78);},!![]),document[_0x37aff4(0x13f)](_0x37aff4(0x13c),()=>{const _0x5a1c26=_0x37aff4;if(!_0x15a822||!_0x4ae416[_0x5a1c26(0x19c)])return;_0x4ad9c4()?_0x5da610():setTimeout(_0x5ae28b,0x78);}),window[_0x37aff4(0x192)]={'isAndroid':_0x15a822,'isSendEnter':_0x6c35a7,'register':_0x18b67f,'unregister'(_0x1fdf17){const _0x2ce77d=_0x37aff4,_0x10be95=_0x56b7e7(_0x1fdf17);_0x3d1d3c['get'](_0x10be95)?.[_0x2ce77d(0x18e)]();}};}()));function _0x7f19(_0x5c6efa,_0x52dd68){_0x5c6efa=_0x5c6efa-0x12d;const _0xf202fa=_0xf202();let _0x7f1902=_0xf202fa[_0x5c6efa];return _0x7f1902;}function _0xf202(){const _0x165865=['filter','preventDefault','touchAction','round','closest','remove','getElementById','Enter','overlay','width','scrollLeft','previousScrollBehavior','keydown','657GkQxhj','shiftKey','3031drfkbH','set','pointerdown','focusin','restingHeight','previousOverflowX','color','querySelector','scrollContainer','root','altKey','function','scrollTop','style','isArray','documentElement','openThreshold','68BSnsOf','allowEmpty','blur','enterkeyhint','overflowX','body','openClasses','634689hxWFHy','.bottom-sheet-overlay.active','text','input','previousTouchAction','type','keyboardWasOpen','innerHeight','u2-android-input-locked','scrollBehavior','resize','hidden','viewportWidth','toLowerCase','activeElement','keyCode','keyboard-open','removeEventListener','multiline','focus','target','auto','readOnly','add','34680PxZcRH','4650456saXWcm','radio','none','restoreWindowScroll','focusout','tagName','metaKey','error','closeTolerance','restoreTimers','onSend','previousScrollSnapType','visualViewport','getAttribute','cleanup','onRestore','11600NnfCvn','scrollSnapType','mobileInputCompat','touchstart','177963OVIJdQ','scrollHeight','24695GkzGBR','classList','pages-container','isConnected','disabled','abs','active','forEach','ctrlKey','enterKeyHint','scrollTo','get','trim','push','send','catch','max','has','height','62490quWOqO','checkbox','string','62sjHCSs','setAttribute','delete','selectionchange','scroll','TEXTAREA','addEventListener'];_0xf202=function(){return _0x165865;};return _0xf202();}
+(function() {
+    const isAndroid = /Android/i.test(navigator.userAgent || '');
+    const registrations = new Map();
+    const bottomSheetExcludedInputTypes = new Set(['file', 'hidden', 'checkbox', 'radio', 'range', 'color']);
+    let activeEntry = null;
+    let viewportListenersBound = false;
+    let bottomSheetViewportGuardBound = false;
+    const bottomSheetFocusGuard = {
+        active: false,
+        overlay: null,
+        scrollLeft: 0,
+        previousScrollSnapType: '',
+        previousScrollBehavior: '',
+        previousOverflowX: '',
+        previousTouchAction: '',
+        restoreTimers: []
+    };
+
+    function resolveElement(value) {
+        if (typeof value === 'function') return value() || null;
+        if (typeof value === 'string') return document.querySelector(value);
+        return value || null;
+    }
+
+    function getViewportMetrics() {
+        const viewport = window.visualViewport;
+        return {
+            height: Math.round(viewport?.height || window.innerHeight || 0),
+            width: Math.round(viewport?.width || window.innerWidth || 0)
+        };
+    }
+
+    function getPagesContainer() {
+        return document.getElementById('pages-container');
+    }
+
+    function isBottomSheetEditableTarget(target) {
+        if (!target || !target.closest || target.disabled) return false;
+
+        const tagName = target.tagName;
+        if (tagName === 'TEXTAREA') return !target.readOnly;
+        if (tagName === 'SELECT') return true;
+        if (tagName !== 'INPUT') return false;
+
+        const type = String(target.getAttribute('type') || target.type || 'text').toLowerCase();
+        return !target.readOnly && !bottomSheetExcludedInputTypes.has(type);
+    }
+
+    function getActiveBottomSheetOverlay(target) {
+        if (!target || !target.closest) return null;
+        const overlay = target.closest('.bottom-sheet-overlay.active');
+        return overlay || null;
+    }
+
+    function resetHorizontalWindowScroll() {
+        try {
+            window.scrollTo(0, window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0);
+        } catch (error) {
+            // Some embedded Android WebViews can reject scrollTo while the keyboard is animating.
+        }
+        document.documentElement.scrollLeft = 0;
+        document.body.scrollLeft = 0;
+    }
+
+    function restoreBottomSheetFocusPosition() {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+
+        const pagesContainer = getPagesContainer();
+        if (pagesContainer) {
+            try {
+                pagesContainer.scrollTo({ left: bottomSheetFocusGuard.scrollLeft, behavior: 'auto' });
+            } catch (error) {
+                pagesContainer.scrollLeft = bottomSheetFocusGuard.scrollLeft;
+            }
+            pagesContainer.scrollLeft = bottomSheetFocusGuard.scrollLeft;
+        }
+        resetHorizontalWindowScroll();
+    }
+
+    function scheduleBottomSheetFocusRestore() {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+        bottomSheetFocusGuard.restoreTimers.forEach(timer => clearTimeout(timer));
+        bottomSheetFocusGuard.restoreTimers = [];
+        requestAnimationFrame(restoreBottomSheetFocusPosition);
+        [0, 60, 180, 360].forEach(delay => {
+            bottomSheetFocusGuard.restoreTimers.push(setTimeout(restoreBottomSheetFocusPosition, delay));
+        });
+    }
+
+    function lockBottomSheetFocusScroll(target) {
+        if (!isAndroid || !isBottomSheetEditableTarget(target)) return false;
+
+        const overlay = getActiveBottomSheetOverlay(target);
+        if (!overlay) return false;
+
+        const pagesContainer = getPagesContainer();
+        if (!bottomSheetFocusGuard.active) {
+            bottomSheetFocusGuard.active = true;
+            bottomSheetFocusGuard.scrollLeft = pagesContainer ? pagesContainer.scrollLeft : 0;
+            if (pagesContainer) {
+                bottomSheetFocusGuard.previousScrollSnapType = pagesContainer.style.scrollSnapType || '';
+                bottomSheetFocusGuard.previousScrollBehavior = pagesContainer.style.scrollBehavior || '';
+                bottomSheetFocusGuard.previousOverflowX = pagesContainer.style.overflowX || '';
+                bottomSheetFocusGuard.previousTouchAction = pagesContainer.style.touchAction || '';
+            }
+        }
+
+        bottomSheetFocusGuard.overlay = overlay;
+        overlay.classList.add('u2-android-input-locked');
+
+        if (pagesContainer) {
+            pagesContainer.style.scrollSnapType = 'none';
+            pagesContainer.style.scrollBehavior = 'auto';
+            pagesContainer.style.overflowX = 'hidden';
+            pagesContainer.style.touchAction = 'none';
+        }
+
+        bindBottomSheetViewportGuard();
+        scheduleBottomSheetFocusRestore();
+        return true;
+    }
+
+    function unlockBottomSheetFocusScroll() {
+        if (!bottomSheetFocusGuard.active) return;
+
+        bottomSheetFocusGuard.restoreTimers.forEach(timer => clearTimeout(timer));
+        bottomSheetFocusGuard.restoreTimers = [];
+
+        const pagesContainer = getPagesContainer();
+        if (pagesContainer) {
+            pagesContainer.style.scrollSnapType = bottomSheetFocusGuard.previousScrollSnapType;
+            pagesContainer.style.scrollBehavior = bottomSheetFocusGuard.previousScrollBehavior;
+            pagesContainer.style.overflowX = bottomSheetFocusGuard.previousOverflowX;
+            pagesContainer.style.touchAction = bottomSheetFocusGuard.previousTouchAction;
+            pagesContainer.scrollLeft = bottomSheetFocusGuard.scrollLeft;
+        }
+
+        if (bottomSheetFocusGuard.overlay?.classList) {
+            bottomSheetFocusGuard.overlay.classList.remove('u2-android-input-locked');
+        }
+
+        bottomSheetFocusGuard.active = false;
+        bottomSheetFocusGuard.overlay = null;
+        bottomSheetFocusGuard.scrollLeft = 0;
+        bottomSheetFocusGuard.previousScrollSnapType = '';
+        bottomSheetFocusGuard.previousScrollBehavior = '';
+        bottomSheetFocusGuard.previousOverflowX = '';
+        bottomSheetFocusGuard.previousTouchAction = '';
+        resetHorizontalWindowScroll();
+    }
+
+    function isBottomSheetGuardContextActive() {
+        const activeElement = document.activeElement;
+        return isBottomSheetEditableTarget(activeElement) && !!getActiveBottomSheetOverlay(activeElement);
+    }
+
+    function releaseBottomSheetFocusScrollIfIdle() {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+        if (isBottomSheetGuardContextActive()) {
+            scheduleBottomSheetFocusRestore();
+            return;
+        }
+        unlockBottomSheetFocusScroll();
+    }
+
+    function handleBottomSheetViewportChange() {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+        scheduleBottomSheetFocusRestore();
+        setTimeout(releaseBottomSheetFocusScrollIfIdle, 120);
+    }
+
+    function bindBottomSheetViewportGuard() {
+        if (!isAndroid || !window.visualViewport || bottomSheetViewportGuardBound) return;
+        bottomSheetViewportGuardBound = true;
+        window.visualViewport.addEventListener('resize', handleBottomSheetViewportChange, { passive: true });
+        window.visualViewport.addEventListener('scroll', handleBottomSheetViewportChange, { passive: true });
+    }
+
+    function isSendEnter(event, options = {}) {
+        if (!event || event.key !== 'Enter') return false;
+        if (event.isComposing || event.keyCode === 229) return false;
+        if (event.ctrlKey || event.metaKey || event.altKey) return false;
+        if (event.shiftKey) return false;
+        if (options.multiline && event.shiftKey) return false;
+        return true;
+    }
+
+    function captureRestingViewport(entry) {
+        if (!isAndroid || !entry) return;
+        const metrics = getViewportMetrics();
+        if (metrics.width > 0 && Math.abs(metrics.width - entry.viewportWidth) > 48) {
+            entry.viewportWidth = metrics.width;
+            entry.restingHeight = metrics.height;
+            entry.keyboardWasOpen = false;
+            return;
+        }
+        entry.viewportWidth = metrics.width || entry.viewportWidth;
+        entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+    }
+
+    function restoreEntry(entry) {
+        if (!isAndroid || !entry || !entry.input.isConnected) return;
+        const root = resolveElement(entry.root);
+        const scrollContainer = resolveElement(entry.scrollContainer);
+
+        if (root?.classList) {
+            entry.openClasses.forEach(className => root.classList.remove(className));
+        }
+
+        if (entry.restoreWindowScroll) {
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        }
+
+        requestAnimationFrame(() => {
+            if (scrollContainer) scrollContainer.scrollTop = scrollContainer.scrollHeight;
+            if (typeof entry.onRestore === 'function') entry.onRestore(entry);
+        });
+    }
+
+    function scheduleRestore(entry) {
+        entry.restoreTimers.forEach(timer => clearTimeout(timer));
+        entry.restoreTimers = [];
+        [0, 60, 180, 360].forEach(delay => {
+            entry.restoreTimers.push(setTimeout(() => restoreEntry(entry), delay));
+        });
+    }
+
+    function handleViewportChange() {
+        const entry = activeEntry;
+        if (!isAndroid || !entry || !entry.input.isConnected) return;
+
+        const metrics = getViewportMetrics();
+        if (Math.abs(metrics.width - entry.viewportWidth) > 48) {
+            entry.viewportWidth = metrics.width;
+            entry.restingHeight = metrics.height;
+            entry.keyboardWasOpen = false;
+            return;
+        }
+
+        const inputFocused = document.activeElement === entry.input;
+        if (!inputFocused && !entry.keyboardWasOpen) {
+            entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+        }
+
+        if (inputFocused && entry.restingHeight - metrics.height > entry.openThreshold) {
+            entry.keyboardWasOpen = true;
+            return;
+        }
+
+        if (entry.keyboardWasOpen && metrics.height >= entry.restingHeight - entry.closeTolerance) {
+            entry.keyboardWasOpen = false;
+            entry.restingHeight = Math.max(entry.restingHeight, metrics.height);
+            scheduleRestore(entry);
+        }
+    }
+
+    function bindViewportListeners() {
+        if (!isAndroid || !window.visualViewport || viewportListenersBound) return;
+        viewportListenersBound = true;
+        window.visualViewport.addEventListener('resize', handleViewportChange, { passive: true });
+        window.visualViewport.addEventListener('scroll', handleViewportChange, { passive: true });
+    }
+
+    function register(options = {}) {
+        const input = resolveElement(options.input);
+        if (!input) return function() {};
+
+        const existing = registrations.get(input);
+        if (existing) existing.cleanup();
+
+        const entry = {
+            input,
+            root: options.root || null,
+            scrollContainer: options.scrollContainer || null,
+            onSend: typeof options.onSend === 'function' ? options.onSend : null,
+            onRestore: typeof options.onRestore === 'function' ? options.onRestore : null,
+            allowEmpty: !!options.allowEmpty,
+            multiline: !!options.multiline,
+            blurAfterSend: !!options.blurAfterSend,
+            restoreWindowScroll: options.restoreWindowScroll !== false,
+            openClasses: Array.isArray(options.openClasses)
+                ? options.openClasses.filter(Boolean)
+                : ['keyboard-open'],
+            openThreshold: Number(options.openThreshold) || 100,
+            closeTolerance: Number(options.closeTolerance) || 72,
+            restingHeight: 0,
+            viewportWidth: 0,
+            keyboardWasOpen: false,
+            restoreTimers: [],
+            cleanup: null
+        };
+
+        if (options.enterKeyHint !== false) {
+            input.setAttribute('enterkeyhint', options.enterKeyHint || 'send');
+        }
+
+        const activate = () => {
+            activeEntry = entry;
+            captureRestingViewport(entry);
+        };
+
+        const handleKeydown = (event) => {
+            if (!isSendEnter(event, entry)) return;
+            event.preventDefault();
+
+            const text = String(input.value || '').trim();
+            if (!entry.allowEmpty && !text) return;
+            if (!entry.onSend) return;
+
+            try {
+                const result = entry.onSend({ event, input, text });
+                if (result && typeof result.catch === 'function') {
+                    result.catch(error => console.error('[mobileInputCompat] send failed', error));
+                }
+            } catch (error) {
+                console.error('[mobileInputCompat] send failed', error);
+            }
+
+            if (entry.blurAfterSend) input.blur();
+        };
+
+        const handleBlur = () => {
+            if (isAndroid && !window.visualViewport) scheduleRestore(entry);
+        };
+
+        input.addEventListener('pointerdown', activate, { passive: true });
+        input.addEventListener('touchstart', activate, { passive: true });
+        input.addEventListener('focus', activate);
+        input.addEventListener('blur', handleBlur);
+        input.addEventListener('keydown', handleKeydown);
+
+        entry.cleanup = () => {
+            entry.restoreTimers.forEach(timer => clearTimeout(timer));
+            input.removeEventListener('pointerdown', activate);
+            input.removeEventListener('touchstart', activate);
+            input.removeEventListener('focus', activate);
+            input.removeEventListener('blur', handleBlur);
+            input.removeEventListener('keydown', handleKeydown);
+            registrations.delete(input);
+            if (activeEntry === entry) activeEntry = null;
+        };
+
+        registrations.set(input, entry);
+        captureRestingViewport(entry);
+        bindViewportListeners();
+        return entry.cleanup;
+    }
+
+    document.addEventListener('focusin', (event) => {
+        lockBottomSheetFocusScroll(event.target);
+
+        const entry = registrations.get(event.target);
+        if (entry) {
+            activeEntry = entry;
+            captureRestingViewport(entry);
+        } else if (activeEntry && !activeEntry.keyboardWasOpen) {
+            activeEntry = null;
+        }
+    }, true);
+
+    document.addEventListener('pointerdown', (event) => {
+        lockBottomSheetFocusScroll(event.target);
+    }, { capture: true, passive: true });
+
+    document.addEventListener('touchstart', (event) => {
+        lockBottomSheetFocusScroll(event.target);
+    }, { capture: true, passive: true });
+
+    document.addEventListener('focusout', () => {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+        setTimeout(releaseBottomSheetFocusScrollIfIdle, 120);
+    }, true);
+
+    document.addEventListener('selectionchange', () => {
+        if (!isAndroid || !bottomSheetFocusGuard.active) return;
+        if (isBottomSheetGuardContextActive()) {
+            scheduleBottomSheetFocusRestore();
+        } else {
+            setTimeout(releaseBottomSheetFocusScrollIfIdle, 120);
+        }
+    });
+
+    window.mobileInputCompat = {
+        isAndroid,
+        isSendEnter,
+        register,
+        unregister(input) {
+            const element = resolveElement(input);
+            registrations.get(element)?.cleanup();
+        }
+    };
+})();

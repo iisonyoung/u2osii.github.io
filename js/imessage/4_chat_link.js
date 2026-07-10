@@ -1,1 +1,944 @@
-function _0xb7d8(_0x3f89cb,_0x385220){_0x3f89cb=_0x3f89cb-0x14f;const _0x1889ac=_0x1889();let _0xb7d81b=_0x1889ac[_0x3f89cb];return _0xb7d81b;}(function(_0x49a7f9,_0x2ab7b4){const _0x525185=_0xb7d8,_0x7f3e9d=_0x49a7f9();while(!![]){try{const _0x315f64=-parseInt(_0x525185(0x159))/0x1*(-parseInt(_0x525185(0x1a3))/0x2)+parseInt(_0x525185(0x1fe))/0x3+-parseInt(_0x525185(0x1bc))/0x4*(-parseInt(_0x525185(0x288))/0x5)+parseInt(_0x525185(0x282))/0x6*(parseInt(_0x525185(0x209))/0x7)+-parseInt(_0x525185(0x22e))/0x8*(-parseInt(_0x525185(0x207))/0x9)+-parseInt(_0x525185(0x18f))/0xa+-parseInt(_0x525185(0x15d))/0xb;if(_0x315f64===_0x2ab7b4)break;else _0x7f3e9d['push'](_0x7f3e9d['shift']());}catch(_0x314bda){_0x7f3e9d['push'](_0x7f3e9d['shift']());}}}(_0x1889,0x80cea),document['addEventListener']('DOMContentLoaded',()=>{const _0x56230b=_0xb7d8;window[_0x56230b(0x249)]=window[_0x56230b(0x249)]||{};const _0x3570fe=window[_0x56230b(0x249)],_0x495133=_0x56230b(0x255),_0x269446='picsum.photos',_0x64669d=_0x56230b(0x257);function _0x518752(_0x58d294,_0x22a946=0xc350){const _0x294a91=_0x56230b;return String(_0x58d294==null?'':_0x58d294)[_0x294a91(0x1d0)](/\u0000/g,'')['trim']()[_0x294a91(0x17d)](0x0,_0x22a946);}function _0x4cc9a1(_0x10f136){const _0x15f2e8=_0x56230b;return String(_0x10f136==null?'':_0x10f136)[_0x15f2e8(0x1d0)](/&/g,'&amp;')[_0x15f2e8(0x1d0)](/</g,'&lt;')[_0x15f2e8(0x1d0)](/>/g,_0x15f2e8(0x223))['replace'](/"/g,_0x15f2e8(0x1ca))[_0x15f2e8(0x1d0)](/'/g,_0x15f2e8(0x246));}function _0x2e5f8b(_0x4ebe10,_0x147bb5=0xc350){const _0xa511c9=_0x56230b;return _0x518752(_0x4ebe10,_0x147bb5)[_0xa511c9(0x1d0)](/<\s*(script|style|iframe|object|embed|svg|canvas)[\s\S]*?<\s*\/\s*\1\s*>/gi,'\x20')[_0xa511c9(0x1d0)](/<[^>]+>/g,'\x20')[_0xa511c9(0x1d0)](/&nbsp;/gi,'\x20')[_0xa511c9(0x1d0)](/&amp;/gi,'&')[_0xa511c9(0x1d0)](/&lt;/gi,'<')[_0xa511c9(0x1d0)](/&gt;/gi,'>')['replace'](/&quot;/gi,'\x22')[_0xa511c9(0x1d0)](/&#039;/gi,'\x27')['replace'](/\s+/g,'\x20')[_0xa511c9(0x20b)]()[_0xa511c9(0x17d)](0x0,_0x147bb5);}function _0x25e7f2(_0x5b1283){const _0x3b2820=_0x56230b,_0x5e4a28=String(_0x5b1283==null?'':_0x5b1283);let _0x4c7bea=0x811c9dc5;for(let _0x5f4e2c=0x0;_0x5f4e2c<_0x5e4a28[_0x3b2820(0x208)];_0x5f4e2c+=0x1){_0x4c7bea^=_0x5e4a28[_0x3b2820(0x293)](_0x5f4e2c),_0x4c7bea=Math[_0x3b2820(0x15e)](_0x4c7bea,0x1000193);}return(_0x4c7bea>>>0x0)['toString'](0x24);}function _0x7da8d5(_0x70e39e=[],_0x1e46ea=0x0,_0x192450=0x384,_0x2d2291=0x258){const _0x413630=_0x56230b,_0xf73b2d=_0x25e7f2([][_0x413630(0x176)](_0x70e39e,_0x1e46ea)[_0x413630(0x1f3)]('|'))||'u2';return _0x413630(0x242)+_0x269446+'/seed/u2-'+_0xf73b2d+'-'+_0x1e46ea+'/'+_0x192450+'/'+_0x2d2291;}function _0x3e5467(_0x32eff0){const _0x190e6a=_0x56230b;try{const _0x16c3cb=new URL(String(_0x32eff0||''));return _0x16c3cb[_0x190e6a(0x1ff)]===_0x190e6a(0x1cd)&&_0x16c3cb[_0x190e6a(0x23d)]===_0x269446;}catch(_0x3e7e7c){return![];}}function _0x2b3e66(_0x133236,_0x5af356={}){const _0x4cb7c1=_0x56230b,_0x257d6d=_0x518752(_0x133236,0x13880);if(!_0x257d6d)return'';const _0xf491a0=[_0x518752(_0x5af356[_0x4cb7c1(0x28d)]||'',0xb4),_0x518752(_0x5af356[_0x4cb7c1(0x171)]||'',0x3e8),_0x518752(_0x5af356[_0x4cb7c1(0x1ce)]||'',0x50),_0x518752(_0x5af356['siteName']||'',0x50)];let _0x30a0a4=0x0;const _0x32d470=(_0x37f7f6,_0x578652='')=>{const _0x4062e8=_0x4cb7c1,_0x4baf59=String(_0x578652)['match'](/\s+src\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/i),_0x36d62d=_0x4baf59?_0x4baf59[0x1][_0x4062e8(0x1d0)](/^['"]|['"]$/g,''):'',_0x3f7bb0=_0x3e5467(_0x36d62d)?_0x36d62d:_0x7da8d5(_0xf491a0,_0x30a0a4);_0x30a0a4+=0x1;let _0x1aa9d6=String(_0x578652)[_0x4062e8(0x1d0)](/\s+src\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig,'')[_0x4062e8(0x1d0)](/\s+srcset\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig,'')[_0x4062e8(0x1d0)](/\s+loading\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig,'');if(!/\salt\s*=/i['test'](_0x1aa9d6))_0x1aa9d6+=_0x4062e8(0x266);return _0x4062e8(0x158)+_0x1aa9d6+'\x20src=\x22'+_0x4cc9a1(_0x3f7bb0)+_0x4062e8(0x24f);};let _0x16e06c=_0x257d6d['replace'](/<img\b([^>]*)>/gi,_0x32d470);return _0x30a0a4===0x0&&/\b(data-fake-image|fake-image-slot|image-placeholder|photo-placeholder)\b/i[_0x4cb7c1(0x153)](_0x16e06c)&&(_0x16e06c=_0x16e06c['replace'](/<([a-z0-9-]+)([^>]*(?:data-fake-image|fake-image-slot|image-placeholder|photo-placeholder)[^>]*)>/gi,_0x577ccd=>{const _0x49c9da=_0x4cb7c1,_0x47d739=_0x7da8d5(_0xf491a0,_0x30a0a4);return _0x30a0a4+=0x1,_0x577ccd+_0x49c9da(0x179)+_0x4cc9a1(_0x47d739)+_0x49c9da(0x21b);})),_0x16e06c;}function _0x4d408e(){const _0x32053c=_0x56230b,_0x413025={'includeCharPersona':![],'includeUserPersona':![]};try{const _0x5a997f=window[_0x32053c(0x240)]&&typeof window[_0x32053c(0x240)][_0x32053c(0x1e6)]===_0x32053c(0x1f0)?window[_0x32053c(0x240)][_0x32053c(0x1e6)](_0x495133,_0x413025):null;return{'includeCharPersona':!!_0x5a997f?.[_0x32053c(0x22d)],'includeUserPersona':!!_0x5a997f?.[_0x32053c(0x15a)]};}catch(_0x153368){return _0x413025;}}function _0x4c4594(_0x58ead2={}){const _0x2946d9=_0x56230b,_0x34592={'includeCharPersona':!!_0x58ead2[_0x2946d9(0x22d)],'includeUserPersona':!!_0x58ead2['includeUserPersona']};try{window['StorageManager']&&typeof window[_0x2946d9(0x240)]['save']===_0x2946d9(0x1f0)&&window['StorageManager'][_0x2946d9(0x174)](_0x495133,_0x34592);}catch(_0x6d21cd){}return _0x34592;}function _0xaefe6(){const _0x1ca04b=_0x56230b;return document[_0x1ca04b(0x20a)]('app')||document[_0x1ca04b(0x231)];}function _0x39e3c3(_0x453019){const _0x4fa419=_0x56230b;if(!_0x453019||typeof _0x453019[_0x4fa419(0x286)]!=='function')return;try{_0x453019[_0x4fa419(0x286)]({'preventScroll':!![]});}catch(_0x5f439b){_0x453019[_0x4fa419(0x286)]();}}function _0x3130b3(_0x35d80b,_0x4bbb16=''){const _0x2fa77e=_0x56230b,_0x57465f=[_0x2fa77e(0x19c),_0x2fa77e(0x1cb),'after_role'],_0x16ce7e=[];return _0x57465f[_0x2fa77e(0x1a7)](_0x37bd82=>{const _0x131a8e=_0x2fa77e;let _0x4435df='';if(_0x35d80b&&window['imApp']?.[_0x131a8e(0x230)])_0x4435df=window[_0x131a8e(0x155)][_0x131a8e(0x230)](_0x37bd82,_0x35d80b,_0x4bbb16)||'';else window['getGlobalWorldBookContextByPosition']&&(_0x4435df=window[_0x131a8e(0x15c)](_0x37bd82,_0x4bbb16)||'');if(_0x4435df)_0x16ce7e[_0x131a8e(0x21e)](_0x37bd82+':\x0a'+_0x4435df);}),_0x16ce7e[_0x2fa77e(0x1f3)]('\x0a\x0a');}function _0x4fb040(_0x489c91){const _0xb6ad9c=_0x56230b;if(!_0x489c91||typeof _0x489c91!==_0xb6ad9c(0x229))return'';const _0x4ea909=_0x489c91['realName']||_0x489c91['nickname']||_0x489c91['name']||_0xb6ad9c(0x1a2),_0xd5c030=_0x518752(_0x489c91['persona']||_0x489c91[_0xb6ad9c(0x22c)]||_0x489c91[_0xb6ad9c(0x1a1)]||'',0x1388);if(!_0xd5c030)return'';return _0xb6ad9c(0x26d)+_0x4ea909+_0xb6ad9c(0x1ac)+_0xd5c030;}function _0x521134(_0x47e87e){const _0x26d9aa=_0x56230b,_0x17d5b0=window[_0x26d9aa(0x26b)]?window['getUserState']():window[_0x26d9aa(0x264)]||{},_0x2c5e88=_0x17d5b0['name']||_0x17d5b0[_0x26d9aa(0x28e)]||'User',_0x541a6a=_0x518752((window[_0x26d9aa(0x155)]?.[_0x26d9aa(0x220)]?window[_0x26d9aa(0x155)][_0x26d9aa(0x220)](_0x47e87e):'')||_0x17d5b0[_0x26d9aa(0x24b)]||_0x17d5b0[_0x26d9aa(0x22c)]||'',0x1388);if(!_0x541a6a)return'';return _0x26d9aa(0x178)+_0x2c5e88+_0x26d9aa(0x262)+_0x541a6a;}function _0x1aae13(_0x25e4a8){const _0x2e7883=_0x56230b,_0x32ee0a=_0x518752(_0x25e4a8,0xdc);if(!_0x32ee0a||/[\u0000-\u001F\u007F]/[_0x2e7883(0x153)](_0x32ee0a)||/[\s<>"'\x60\\]/['test'](_0x32ee0a))return null;if(/^[a-z][a-z0-9+.-]*:\/\//i['test'](_0x32ee0a)&&!/^https?:\/\//i[_0x2e7883(0x153)](_0x32ee0a))return null;const _0x1e280b=/^https?:\/\//i[_0x2e7883(0x153)](_0x32ee0a)?_0x32ee0a:_0x2e7883(0x242)+_0x32ee0a;try{const _0xc751db=new URL(_0x1e280b);if(![_0x2e7883(0x243),_0x2e7883(0x1cd)][_0x2e7883(0x1f7)](_0xc751db['protocol'])||!_0xc751db[_0x2e7883(0x23d)])return null;const _0x38d346=_0xc751db['hostname']['toLowerCase'](),_0x1cc13b=_0xc751db['pathname']&&_0xc751db['pathname']!=='/'?_0xc751db['pathname']:'',_0x4743ed=_0xc751db[_0x2e7883(0x163)]||'',_0x4df879=(_0x38d346+_0x1cc13b+_0x4743ed)[_0x2e7883(0x1d0)](/\/+$/,'');if(!_0x4df879||_0x4df879[_0x2e7883(0x208)]>0xb4)return null;return{'domain':_0x38d346,'path':_0x1cc13b,'search':_0x4743ed,'displayUrl':_0x4df879,'canonicalUrl':_0x2e7883(0x242)+_0x4df879};}catch(_0x2d9856){return null;}}function _0x476d2a(_0x5d83c2){const _0x4d2e64=_0x1aae13(_0x5d83c2);return _0x4d2e64?_0x4d2e64['displayUrl']:'';}function _0x4e3236(_0x403080={}){const _0x2b5949=_0x56230b,_0x9959ce=String(_0x403080[_0x2b5949(0x181)]||'')[_0x2b5949(0x20b)]()[_0x2b5949(0x1d0)](/\/+$/,'');if(!_0x9959ce)return'';if(/\/chat\/completions$/i[_0x2b5949(0x153)](_0x9959ce))return _0x9959ce;return _0x9959ce[_0x2b5949(0x239)](_0x2b5949(0x200))?_0x9959ce+'/chat/completions':_0x9959ce+'/v1/chat/completions';}function _0x37bc35(_0x3a14b8){const _0x95f7e8=_0x56230b,_0x5a8775=String(_0x3a14b8||'')[_0x95f7e8(0x20b)]();if(!_0x5a8775)return null;const _0x55ed99=new RegExp('\x5cx60\x5cx60\x5cx60(?:json)?\x5cs*([\x5cs\x5cS]*?)\x5cx60\x5cx60\x5cx60','i'),_0x122263=_0x5a8775['match'](_0x55ed99),_0x1456f5=_0x122263?_0x122263[0x1]['trim']():_0x5a8775;try{return JSON['parse'](_0x1456f5);}catch(_0x3fc6d1){const _0x4cf934=_0x1456f5[_0x95f7e8(0x191)]('{'),_0x4f95ed=_0x1456f5[_0x95f7e8(0x1db)]('}');if(_0x4cf934>=0x0&&_0x4f95ed>_0x4cf934)try{return JSON[_0x95f7e8(0x1ee)](_0x1456f5['slice'](_0x4cf934,_0x4f95ed+0x1));}catch(_0x450f45){}}return null;}function _0x5dfc9a(_0x500e0c){const _0x3d4473=_0x56230b;let _0x102418=_0x518752(_0x500e0c,0x13880);if(!_0x102418)return'';return _0x102418=_0x102418[_0x3d4473(0x1d0)](/<\s*(script|style|iframe|object|embed|svg|canvas|link|meta|base|form|input|textarea|select|option)[\s\S]*?<\s*\/\s*\1\s*>/gi,'')[_0x3d4473(0x1d0)](/<\s*\/?\s*(script|style|iframe|object|embed|svg|canvas|link|meta|base|form|input|textarea|select|option)[^>]*>/gi,'')[_0x3d4473(0x1d0)](/\s+on[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,'')[_0x3d4473(0x1d0)](/\s+(href|src|srcset|action|formaction)\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,(_0x3ab501,_0x2c4e42,_0x4280b2)=>{const _0x3a3608=_0x3d4473;if(String(_0x2c4e42||'')[_0x3a3608(0x1ba)]()===_0x3a3608(0x210)){const _0x4731b1=String(_0x4280b2||'')[_0x3a3608(0x1d0)](/^['"]|['"]$/g,'');if(_0x3e5467(_0x4731b1))return'\x20src=\x22'+_0x4cc9a1(_0x4731b1)+_0x3a3608(0x24c);}return'';})['replace'](/\s+style\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi,''),_0x102418[_0x3d4473(0x17d)](0x0,0x13880);}function _0x30582d(_0x18aab2){const _0x49e5b1=_0x56230b;return _0x518752(_0x18aab2,0x9c40)[_0x49e5b1(0x1d0)](/@import[^;]+;/gi,'')[_0x49e5b1(0x1d0)](/url\s*\([^)]*\)/gi,_0x49e5b1(0x198))['replace'](/expression\s*\([^)]*\)/gi,'')[_0x49e5b1(0x1d0)](/javascript\s*:/gi,'')[_0x49e5b1(0x1d0)](/behavior\s*:/gi,'')[_0x49e5b1(0x1d0)](/-moz-binding\s*:/gi,'')[_0x49e5b1(0x1d0)](/position\s*:\s*fixed\s*;?/gi,_0x49e5b1(0x1dc))[_0x49e5b1(0x17d)](0x0,0x9c40);}function _0xc6412c(_0x534c1d={}){const _0xa36d51=_0x56230b;if(!_0x534c1d||typeof _0x534c1d!==_0xa36d51(0x229))return null;const _0x5edc72=new Set([_0xa36d51(0x22a),_0xa36d51(0x1a5),'increment','switchPanel']),_0x2e7c22=_0x5edc72[_0xa36d51(0x252)](_0x534c1d[_0xa36d51(0x168)])?_0x534c1d[_0xa36d51(0x168)]:_0xa36d51(0x22a),_0x1c6199=_0x518752(_0x534c1d[_0xa36d51(0x173)]||_0x534c1d['target']||'',0xa0);if(!_0x1c6199||/[<>{}]/[_0xa36d51(0x153)](_0x1c6199))return null;return{'type':_0x2e7c22,'selector':_0x1c6199,'targetSelector':_0x518752(_0x534c1d[_0xa36d51(0x218)]||_0x534c1d['target']||_0x1c6199,0xa0),'className':_0x518752(_0x534c1d[_0xa36d51(0x1b9)]||'is-active',0x3c)||_0xa36d51(0x1e9),'activeText':_0x518752(_0x534c1d[_0xa36d51(0x23e)]||'',0x50),'inactiveText':_0x518752(_0x534c1d[_0xa36d51(0x215)]||'',0x50),'countSelector':_0x518752(_0x534c1d[_0xa36d51(0x17f)]||'',0xa0),'panelGroup':_0x518752(_0x534c1d['panelGroup']||'',0x50)};}function _0x1650e6(_0xe55fdd={},_0x46e55c={}){const _0xa5dd6b=_0x56230b,_0x4805b8=_0xe55fdd&&typeof _0xe55fdd==='object'?_0xe55fdd:{},_0x212e19=_0x518752(_0x4805b8[_0xa5dd6b(0x1ce)]||_0x46e55c[_0xa5dd6b(0x1ce)]||'generic',0x28)[_0xa5dd6b(0x1ba)]()||'generic',_0x588700=_0x2b3e66(_0x4805b8['html']||_0x4805b8[_0xa5dd6b(0x1ad)]||'',{'domain':_0x46e55c['domain']||_0x4805b8[_0xa5dd6b(0x28d)]||'','prompt':_0x46e55c['prompt']||_0x4805b8[_0xa5dd6b(0x171)]||'','theme':_0x212e19,'siteName':_0x46e55c[_0xa5dd6b(0x219)]||_0x4805b8[_0xa5dd6b(0x219)]||''}),_0x834bd=_0x5dfc9a(_0x588700),_0x1c2369=_0x30582d(_0x4805b8[_0xa5dd6b(0x25d)]||_0x4805b8[_0xa5dd6b(0x157)]||''),_0x1bc09d=Array[_0xa5dd6b(0x283)](_0x4805b8[_0xa5dd6b(0x1d4)])?_0x4805b8[_0xa5dd6b(0x1d4)]:[],_0x24b870=_0x1bc09d['map'](_0xc6412c)['filter'](Boolean)[_0xa5dd6b(0x17d)](0x0,0x18);return{'theme':_0x212e19,'html':_0x834bd,'css':_0x1c2369,'interactions':_0x24b870,'source':_0x518752(_0x4805b8['source']||_0x46e55c[_0xa5dd6b(0x290)]||'',0x1e)};}function _0x355a43(_0x33968c){const _0xb6c0f4=_0x56230b,_0x193f62=_0x518752(_0x33968c,0x2ee0)[_0xb6c0f4(0x270)](/\n{2,}|\r?\n/)[_0xb6c0f4(0x291)](_0x244df6=>_0x518752(_0x244df6,0x4b0))['filter'](Boolean);return _0x193f62[_0xb6c0f4(0x208)]?_0x193f62:[_0xb6c0f4(0x274)];}function _0x5abe85({siteName:_0x589054,title:_0x1ebe44,summary:_0x1f16a3,bodyText:_0x305bdf,displayUrl:_0x30cb8f,theme:theme=_0x56230b(0x24a)}={}){const _0x51334b=_0x56230b,_0x488d63=_0x518752(_0x589054,0x50)||_0x51334b(0x276),_0x4b2db8=_0x518752(_0x1ebe44,0xb4)||_0x488d63,_0x40aad8=_0x518752(_0x1f16a3,0x320)||_0x518752(_0x305bdf,0xa0),_0x1a2ccc=_0x518752(_0x30cb8f,0xb4),_0x51495a=_0x355a43(_0x305bdf),_0x191ab9=_0x51495a[_0x51334b(0x291)](_0x159af3=>'<p>'+_0x4cc9a1(_0x159af3)+_0x51334b(0x25e))[_0x51334b(0x1f3)](''),_0x59bed3=_0x1a2ccc[_0x51334b(0x270)](/[./?&=-]+/)[_0x51334b(0x291)](_0xfd2ccb=>_0x518752(_0xfd2ccb,0x12))[_0x51334b(0x251)](_0x3240ea=>_0x3240ea&&_0x3240ea[_0x51334b(0x208)]>0x2)[_0x51334b(0x17d)](0x0,0x3),_0x563ed3=_0x59bed3['length']?_0x59bed3['map'](_0x26873a=>_0x51334b(0x19f)+_0x4cc9a1(_0x26873a)+_0x51334b(0x256))['join'](''):_0x51334b(0x16b),_0x40dae9=['<article\x20class=\x22u2-fake-generic-page\x22>',_0x51334b(0x217),_0x51334b(0x156)+_0x4cc9a1(_0x488d63)+_0x51334b(0x245),_0x51334b(0x289)+_0x4cc9a1(_0x4b2db8)+_0x51334b(0x1f4),_0x40aad8?'\x20\x20\x20\x20<p\x20class=\x22u2-fake-generic-summary\x22>'+_0x4cc9a1(_0x40aad8)+'</p>':'',_0x51334b(0x285),'\x20\x20<section\x20class=\x22u2-fake-generic-card\x22>',_0x51334b(0x167)+_0x4cc9a1(_0x488d63[_0x51334b(0x28b)](0x0)[_0x51334b(0x1fd)]()||'W')+'</span></div>',_0x51334b(0x1af)+_0x563ed3+_0x51334b(0x245),_0x51334b(0x184)+_0x191ab9+_0x51334b(0x245),_0x51334b(0x1b2),_0x51334b(0x20e),_0x51334b(0x1d9),_0x51334b(0x154),_0x51334b(0x222),_0x51334b(0x185),_0x51334b(0x28f),_0x51334b(0x21c),'\x20\x20\x20\x20\x20\x20<p>细节做得不错，像是真的网页截图延展开了。</p>',_0x51334b(0x26a),_0x51334b(0x222),_0x51334b(0x1c7),'</article>'][_0x51334b(0x251)](Boolean)[_0x51334b(0x1f3)](''),_0x3222da=[_0x51334b(0x1ef),'.u2-fake-generic-hero{padding:24px\x2018px\x2016px;}',_0x51334b(0x295),_0x51334b(0x1a0),_0x51334b(0x193),_0x51334b(0x23c),'.u2-fake-generic-cover{height:150px;background:radial-gradient(circle\x20at\x2025%\x2020%,#8fd3ff,transparent\x2036%),linear-gradient(135deg,#111827,#4f46e5);display:flex;align-items:center;justify-content:center;color:#fff;}','.u2-fake-generic-cover\x20span{width:70px;height:70px;border-radius:24px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:900;backdrop-filter:blur(12px);}',_0x51334b(0x186),_0x51334b(0x17e),_0x51334b(0x1da),_0x51334b(0x24e),_0x51334b(0x226),_0x51334b(0x284),'.u2-fake-generic-actions\x20button.is-active{background:#111;color:#fff;}',_0x51334b(0x1d7),_0x51334b(0x280),'.u2-fake-generic-comments\x20strong{display:block;margin:4px\x200\x208px;color:#111;}',_0x51334b(0x287)][_0x51334b(0x1f3)]('');return{'theme':theme,'html':_0x40dae9,'css':_0x3222da,'interactions':[{'type':_0x51334b(0x22a),'selector':_0x51334b(0x182),'className':_0x51334b(0x1e9)},{'type':_0x51334b(0x1e3),'selector':_0x51334b(0x182),'countSelector':_0x51334b(0x17b)},{'type':_0x51334b(0x22a),'selector':_0x51334b(0x237),'className':_0x51334b(0x1e9)},{'type':_0x51334b(0x22a),'selector':_0x51334b(0x25f),'targetSelector':_0x51334b(0x1aa),'className':'is-open'}],'source':'manual'};}function _0x1aa87e({domain:_0x233083,prompt:_0x7b06b4,worldBookContext:worldBookContext='',charPersonaContext:charPersonaContext='',userPersonaContext:userPersonaContext='',includeCharPersona:includeCharPersona=![],includeUserPersona:includeUserPersona=![]}){const _0xb968a6=_0x56230b,_0x1b317a=['',_0xb968a6(0x1c0),_0xb968a6(0x195),worldBookContext||'无'];return includeCharPersona&&charPersonaContext&&_0x1b317a[_0xb968a6(0x21e)]('',_0xb968a6(0x1cc),charPersonaContext),includeUserPersona&&userPersonaContext&&_0x1b317a[_0xb968a6(0x21e)]('',_0xb968a6(0x197),userPersonaContext),['你正在为站内\x20iMessage\x20假链接功能生成一个“虚构但可信的仿真网页”。',_0xb968a6(0x1e1),_0xb968a6(0x292),_0xb968a6(0x18c),_0xb968a6(0x1ed),'webPage.html\x20要包含完整页面主体结构，可做小红书式笔记、评论区、点赞栏、购物页、新闻页等，但不要包含\x20html/head/body\x20外壳。',_0xb968a6(0x27d),_0xb968a6(0x18e),'如果需要\x20JS\x20效果，只能在\x20interactions\x20里输出受控交互配置；允许\x20type\x20为\x20toggleClass、toggleText、increment、switchPanel。',_0xb968a6(0x265),_0xb968a6(0x1b4),_0xb968a6(0x27f),'',_0xb968a6(0x160)+_0x233083,_0xb968a6(0x26e)+(_0x7b06b4||_0xb968a6(0x259))][_0xb968a6(0x176)](_0x1b317a)[_0xb968a6(0x1f3)]('\x0a');}async function _0x3f6de7({domain:_0x1f5e83,prompt:_0x3e03b4,friend:friend=null,includeCharPersona:includeCharPersona=![],includeUserPersona:includeUserPersona=![]}){const _0x5208e1=_0x56230b,_0x253fb2=window[_0x5208e1(0x27b)]?window[_0x5208e1(0x27b)]():window[_0x5208e1(0x189)]||{},_0x2a5e76=_0x4e3236(_0x253fb2);if(!_0x2a5e76||!_0x253fb2[_0x5208e1(0x1dd)]||!_0x253fb2[_0x5208e1(0x14f)])throw new Error(_0x5208e1(0x152));const _0x396767=[_0x1f5e83,_0x3e03b4||''][_0x5208e1(0x251)](Boolean)['join']('\x0a'),_0x1f35fd=_0x3130b3(friend,_0x396767),_0x5e3034=includeCharPersona?_0x4fb040(friend):'',_0x45b7ab=includeUserPersona?_0x521134(friend):'',_0x4d5354=await fetch(_0x2a5e76,{'method':_0x5208e1(0x19a),'headers':{'Content-Type':_0x5208e1(0x24d),'Authorization':_0x5208e1(0x1c8)+_0x253fb2[_0x5208e1(0x1dd)],'X-U2-Silent-Errors':'1'},'body':JSON[_0x5208e1(0x1f6)]({'model':_0x253fb2[_0x5208e1(0x14f)],'temperature':Number['isFinite'](Number(_0x253fb2[_0x5208e1(0x260)]))?Number(_0x253fb2[_0x5208e1(0x260)]):0.72,'messages':[{'role':'system','content':_0x5208e1(0x172)},{'role':_0x5208e1(0x20c),'content':_0x1aa87e({'domain':_0x1f5e83,'prompt':_0x3e03b4,'worldBookContext':_0x1f35fd,'charPersonaContext':_0x5e3034,'userPersonaContext':_0x45b7ab,'includeCharPersona':includeCharPersona,'includeUserPersona':includeUserPersona})}]})}),_0x17ea18=await _0x4d5354[_0x5208e1(0x27e)]()[_0x5208e1(0x1b3)](()=>null);if(!_0x4d5354['ok']||!_0x17ea18)throw new Error(_0x5208e1(0x216)+_0x4d5354[_0x5208e1(0x187)]);const _0x27d931=_0x17ea18[_0x5208e1(0x1a9)]?.[0x0]?.['message']?.['content']||_0x17ea18[_0x5208e1(0x1a9)]?.[0x0]?.[_0x5208e1(0x1c2)]||'',_0x253965=_0x37bc35(_0x27d931);if(!_0x253965||typeof _0x253965!==_0x5208e1(0x229))throw new Error(_0x5208e1(0x1df));const _0x46d680=_0x518752(_0x253965[_0x5208e1(0x219)],0x50),_0x29481f=_0x518752(_0x253965['title'],0xb4),_0x1e341f=_0x518752(_0x253965[_0x5208e1(0x211)],0x320),_0x362130=_0x253965['webPage']&&typeof _0x253965[_0x5208e1(0x17a)]==='object'?_0x253965['webPage']:{'theme':_0x253965[_0x5208e1(0x1ce)],'html':_0x253965[_0x5208e1(0x1ae)]||_0x253965[_0x5208e1(0x1ad)],'css':_0x253965[_0x5208e1(0x25d)]||_0x253965[_0x5208e1(0x157)],'interactions':_0x253965[_0x5208e1(0x1d4)]};let _0x4393b8=_0x1650e6(_0x362130,{'source':'ai','domain':_0x1f5e83,'prompt':_0x3e03b4,'siteName':_0x46d680});const _0x54e2c6=_0x518752(_0x253965[_0x5208e1(0x26c)]||_0x253965[_0x5208e1(0x199)]||_0x2e5f8b(_0x4393b8['html'],0xc350)||_0x1e341f,0xc350);return!_0x4393b8['html']?(_0x4393b8=_0x5abe85({'siteName':_0x46d680,'title':_0x29481f,'summary':_0x1e341f,'bodyText':_0x54e2c6,'displayUrl':_0x1f5e83,'theme':_0x4393b8[_0x5208e1(0x1ce)]||_0x5208e1(0x24a)}),_0x4393b8[_0x5208e1(0x290)]='ai-fallback'):_0x4393b8[_0x5208e1(0x290)]='ai',{'siteName':_0x46d680,'title':_0x29481f,'summary':_0x1e341f,'bodyText':_0x54e2c6,'webPage':_0x4393b8};}function _0x142994(_0xeea618){const _0xe7a4c1=_0x56230b,_0x2800bf=_0xaefe6();let _0x31852f=document[_0xe7a4c1(0x20a)](_0xe7a4c1(0x1ea))||document[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x20d));if(_0x31852f){if(_0x31852f['parentNode']!==_0x2800bf)_0x2800bf[_0xe7a4c1(0x1eb)](_0x31852f);return _0x31852f[_0xe7a4c1(0x16c)]=_0xeea618,_0x31852f;}_0x31852f=document[_0xe7a4c1(0x192)](_0xe7a4c1(0x236)),_0x31852f['id']=_0xe7a4c1(0x1ea),_0x31852f[_0xe7a4c1(0x1b9)]='im-fake-link-composer-overlay',_0x31852f[_0xe7a4c1(0x17c)]=[_0xe7a4c1(0x275),'<section\x20class=\x22im-fake-link-composer-card\x22\x20role=\x22dialog\x22\x20aria-modal=\x22true\x22\x20aria-label=\x22发送链接\x22>',_0xe7a4c1(0x188),'\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-fake-link-composer-close\x22\x20aria-label=\x22关闭\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>','\x20\x20\x20\x20<strong>发送链接</strong>','\x20\x20\x20\x20<span></span>','\x20\x20</header>',_0xe7a4c1(0x233),_0xe7a4c1(0x23b),_0xe7a4c1(0x25b),'\x20\x20</div>',_0xe7a4c1(0x235),_0xe7a4c1(0x27c),_0xe7a4c1(0x213),_0xe7a4c1(0x1b1),_0xe7a4c1(0x169),'\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-context-toggle\x22><input\x20class=\x22im-fake-link-char-persona-toggle\x22\x20type=\x22checkbox\x22><span>挂载\x20char\x20人设</span></label>',_0xe7a4c1(0x19e),_0xe7a4c1(0x190),_0xe7a4c1(0x28c),'\x20\x20\x20\x20</div>','\x20\x20\x20\x20<div\x20class=\x22im-fake-link-panel\x22\x20data-panel=\x22manual\x22\x20hidden>','\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>域名\x20/\x20地址</span><input\x20class=\x22im-fake-link-manual-domain-input\x22\x20type=\x22text\x22\x20inputmode=\x22url\x22\x20autocomplete=\x22off\x22\x20placeholder=\x22example.com/page\x22></label>','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-edit-grid\x22>',_0xe7a4c1(0x1d2),'\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>标题</span><input\x20class=\x22im-fake-link-title-input\x22\x20type=\x22text\x22\x20autocomplete=\x22off\x22\x20placeholder=\x22网页标题\x22></label>',_0xe7a4c1(0x190),_0xe7a4c1(0x1b0),_0xe7a4c1(0x261),_0xe7a4c1(0x222),'\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview\x22\x20hidden>',_0xe7a4c1(0x23a),_0xe7a4c1(0x164),_0xe7a4c1(0x294),_0xe7a4c1(0x25a),_0xe7a4c1(0x16f),_0xe7a4c1(0x1fc),'\x20\x20\x20\x20\x20\x20</div>',_0xe7a4c1(0x222),_0xe7a4c1(0x23f),_0xe7a4c1(0x1d8),_0xe7a4c1(0x212),_0xe7a4c1(0x222),_0xe7a4c1(0x21d),_0xe7a4c1(0x1ec),_0xe7a4c1(0x1ab),_0xe7a4c1(0x1c9),_0xe7a4c1(0x248),_0xe7a4c1(0x1a8)][_0xe7a4c1(0x1f3)](''),_0x2800bf['appendChild'](_0x31852f),_0x31852f['_imFakeLinkPage']=_0xeea618;const _0x2b8b3c=Array[_0xe7a4c1(0x214)](_0x31852f[_0xe7a4c1(0x15b)](_0xe7a4c1(0x22b))),_0x461c4a=Array[_0xe7a4c1(0x214)](_0x31852f['querySelectorAll'](_0xe7a4c1(0x254))),_0x257a2b=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x202)),_0x48930a=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1fa)),_0x56c2a4=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1f1)),_0x4f2578=_0x31852f[_0xe7a4c1(0x1e0)]('.im-fake-link-user-persona-toggle'),_0x199d8d=_0x31852f[_0xe7a4c1(0x1e0)]('.im-fake-link-manual-domain-input'),_0x36fa22=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x201)),_0x5e9569=_0x31852f['querySelector'](_0xe7a4c1(0x22f)),_0xc91272=_0x31852f[_0xe7a4c1(0x1e0)]('.im-fake-link-summary-input'),_0x513b0c=_0x31852f['querySelector'](_0xe7a4c1(0x16e)),_0x255a1b=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1f8)),_0x47dd9c=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1c3)),_0x1ed297=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1bf)),_0xc2fb48=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x273)),_0x39d332=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1cf)),_0x544771=_0x31852f['querySelector'](_0xe7a4c1(0x180)),_0x32b5d3=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1d1)),_0x46508e=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x203)),_0x493a3e=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x26f)),_0x48fbf1=_0x31852f['querySelector'](_0xe7a4c1(0x1a4)),_0x538e1e=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x227)),_0x1747e8=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x247)),_0x2bcd48=_0x31852f[_0xe7a4c1(0x1e0)](_0xe7a4c1(0x1c1)),_0x4d2b8b=_0x4d408e();if(_0x56c2a4)_0x56c2a4[_0xe7a4c1(0x1e2)]=_0x4d2b8b['includeCharPersona'];if(_0x4f2578)_0x4f2578[_0xe7a4c1(0x1e2)]=_0x4d2b8b['includeUserPersona'];const _0x28f82d={'activeTab':'ai','generatedBy':_0xe7a4c1(0x161),'generatedData':null,'sending':![],'generating':![]};_0x31852f[_0xe7a4c1(0x1b7)]=_0x28f82d;function _0x14d06d(_0x756b03){const _0x3b93e8=_0xe7a4c1;if(!_0x255a1b)return;const _0x26735f=_0x255a1b[_0x3b93e8(0x1e0)]('i');if(_0x26735f)_0x26735f[_0x3b93e8(0x1b9)]=_0x756b03?_0x3b93e8(0x15f):_0x3b93e8(0x194);_0x255a1b[_0x3b93e8(0x1d5)]('aria-busy',String(!!_0x756b03));}function _0x59792e(_0x562168,_0x1a0367='idle'){if(!_0x47dd9c)return;_0x47dd9c['textContent']=_0x562168||'',_0x47dd9c['dataset']['status']=_0x1a0367;}function _0x551c9c(){const _0xb3a53b=_0xe7a4c1;return _0x28f82d[_0xb3a53b(0x258)]===_0xb3a53b(0x161)?_0x199d8d:_0x257a2b;}function _0xc98286(_0x3dc8a6){const _0x5d3790=_0xe7a4c1,_0x4295bd=_0x3dc8a6?.['displayUrl']||_0x518752(_0x199d8d[_0x5d3790(0x19d)],0xb4),_0x4dfd0a=_0x3dc8a6?.[_0x5d3790(0x28d)]||'',_0x34476e=_0x518752(_0x36fa22[_0x5d3790(0x19d)],0x50)||_0x4dfd0a||_0x4295bd||'Web',_0x208bff=_0x518752(_0x5e9569[_0x5d3790(0x19d)],0xb4)||_0x34476e,_0x42707d=_0x518752(_0xc91272[_0x5d3790(0x19d)],0x320),_0x4b5404=_0x518752(_0x513b0c[_0x5d3790(0x19d)],0xc350);return{'domain':_0x4dfd0a,'displayUrl':_0x4295bd,'canonicalUrl':_0x3dc8a6?.['canonicalUrl']||'','siteName':_0x34476e,'title':_0x208bff,'summary':_0x42707d,'bodyText':_0x4b5404,'prompt':'','generatedBy':_0x5d3790(0x161),'webPage':_0x5abe85({'siteName':_0x34476e,'title':_0x208bff,'summary':_0x42707d,'bodyText':_0x4b5404,'displayUrl':_0x4295bd,'theme':_0x5d3790(0x24a)}),'createdAt':Date[_0x5d3790(0x1bd)]()};}function _0x2b5d30(_0x1f342f){const _0x321a38=_0xe7a4c1,_0x2e51f4=_0x1f342f?.['displayUrl']||_0x518752(_0x257a2b[_0x321a38(0x19d)],0xb4),_0x42ff88=_0x1f342f?.[_0x321a38(0x28d)]||'',_0x1e78c7=_0x28f82d[_0x321a38(0x263)]||{},_0x53397c=_0x518752(_0x1e78c7[_0x321a38(0x219)],0x50)||_0x42ff88||_0x2e51f4||_0x321a38(0x177),_0x19d402=_0x518752(_0x1e78c7['title'],0xb4)||_0x53397c,_0x14d26a=_0x518752(_0x1e78c7[_0x321a38(0x211)],0x320),_0x552994=_0x518752(_0x1e78c7['bodyText'],0xc350),_0xc0280b=_0x1e78c7[_0x321a38(0x17a)]&&_0x1e78c7[_0x321a38(0x17a)][_0x321a38(0x1ae)]?_0x1650e6(_0x1e78c7[_0x321a38(0x17a)],{'source':'ai'}):null;return{'domain':_0x42ff88,'displayUrl':_0x2e51f4,'canonicalUrl':_0x1f342f?.[_0x321a38(0x175)]||'','siteName':_0x53397c,'title':_0x19d402,'summary':_0x14d26a,'bodyText':_0x552994,'prompt':_0x518752(_0x48930a['value'],0x3e8),'includeCharPersona':!!_0x56c2a4?.[_0x321a38(0x1e2)],'includeUserPersona':!!_0x4f2578?.[_0x321a38(0x1e2)],'generatedBy':_0xc0280b?'ai':_0x321a38(0x161),'webPage':_0xc0280b,'createdAt':Date[_0x321a38(0x1bd)]()};}function _0x388f99(){const _0x2786b1=_0xe7a4c1,_0xc8a772=_0x551c9c(),_0x2f0b86=_0x1aae13(_0xc8a772[_0x2786b1(0x19d)]),_0x3fbcad=_0x28f82d['activeTab']===_0x2786b1(0x161)?_0xc98286(_0x2f0b86):_0x2b5d30(_0x2f0b86);return{'normalized':_0x2f0b86,'data':_0x3fbcad};}function _0x3cd2b1(_0x590b3a){const _0x145880=_0xe7a4c1;if(!_0x46508e||!_0x493a3e)return;if(!_0x590b3a||!_0x590b3a[_0x145880(0x1ae)]){_0x46508e[_0x145880(0x27a)]=!![],_0x493a3e[_0x145880(0x17c)]='';return;}_0x46508e[_0x145880(0x27a)]=![],_0x493a3e[_0x145880(0x17c)]='<div\x20class=\x22im-fake-link-web-mini-root\x22>'+_0x5dfc9a(_0x590b3a[_0x145880(0x1ae)])+_0x145880(0x245);}function _0x496af2(){const _0x3c76ce=_0xe7a4c1,_0x53d74a=_0x551c9c(),_0x410aac=_0x388f99(),_0x444207=_0x410aac[_0x3c76ce(0x18a)],_0x520dcc=_0x410aac[_0x3c76ce(0x170)];_0x1ed297[_0x3c76ce(0x27a)]=!_0x444207;if(!_0x444207){_0x3cd2b1(null);if(_0x53d74a[_0x3c76ce(0x19d)]['trim']())_0x59792e(_0x3c76ce(0x225),'error');else _0x59792e(_0x28f82d[_0x3c76ce(0x258)]==='ai'?'输入域名和提示词后，点搜索调用\x20API':_0x64669d,_0x3c76ce(0x277));return;}_0xc2fb48[_0x3c76ce(0x1f2)]=_0x520dcc[_0x3c76ce(0x219)],_0x39d332[_0x3c76ce(0x1f2)]=_0x520dcc[_0x3c76ce(0x18d)],_0x544771[_0x3c76ce(0x1f2)]=_0x520dcc['summary']||_0x520dcc['bodyText'][_0x3c76ce(0x17d)](0x0,0x78)||_0x3c76ce(0x1fb),_0x32b5d3[_0x3c76ce(0x1f2)]=_0x520dcc[_0x3c76ce(0x267)],_0x3cd2b1(_0x520dcc['webPage']),_0x28f82d['activeTab']==='ai'?_0x59792e(_0x520dcc[_0x3c76ce(0x17a)]?_0x3c76ce(0x281):_0x3c76ce(0x269),_0x520dcc['webPage']?_0x3c76ce(0x228):_0x3c76ce(0x277)):_0x59792e(_0x3c76ce(0x16a),'ready');}function _0x3d971e(_0x5891a5){const _0x3b3bb7=_0xe7a4c1;_0x28f82d[_0x3b3bb7(0x258)]=_0x5891a5==='manual'?_0x3b3bb7(0x161):'ai',_0x2b8b3c['forEach'](_0x12b5b5=>{const _0x54f99f=_0x3b3bb7,_0x12995=_0x12b5b5[_0x54f99f(0x183)][_0x54f99f(0x272)]===_0x28f82d[_0x54f99f(0x258)];_0x12b5b5['classList'][_0x54f99f(0x19b)](_0x54f99f(0x21f),_0x12995),_0x12b5b5[_0x54f99f(0x1d5)](_0x54f99f(0x1e5),_0x12995?_0x54f99f(0x250):'false');}),_0x461c4a[_0x3b3bb7(0x1a7)](_0x1454b5=>{const _0x2223d3=_0x3b3bb7,_0x5e2108=_0x1454b5[_0x2223d3(0x183)][_0x2223d3(0x165)]===_0x28f82d['activeTab'];_0x1454b5[_0x2223d3(0x278)][_0x2223d3(0x19b)]('active',_0x5e2108),_0x1454b5[_0x2223d3(0x27a)]=!_0x5e2108;}),_0x496af2();}function _0x4b80bf(){const _0x380807=_0xe7a4c1,_0x3b2447=document[_0x380807(0x1e8)];_0x3b2447&&_0x31852f[_0x380807(0x1c6)](_0x3b2447)&&typeof _0x3b2447[_0x380807(0x1e7)]===_0x380807(0x1f0)&&_0x3b2447['blur'](),_0x28f82d[_0x380807(0x221)]=![],_0x28f82d[_0x380807(0x234)]=![],_0x31852f[_0x380807(0x278)][_0x380807(0x1d3)](_0x380807(0x21f)),setTimeout(()=>{const _0x10679a=_0x380807;if(!_0x31852f[_0x10679a(0x278)][_0x10679a(0x1c6)]('active'))_0x31852f['style'][_0x10679a(0x253)]=_0x10679a(0x198);},0xdc);}async function _0x24712f(){const _0x14ac2f=_0xe7a4c1,_0xf193fa=_0x1aae13(_0x257a2b[_0x14ac2f(0x19d)]);if(!_0xf193fa){_0x59792e(_0x14ac2f(0x151),_0x14ac2f(0x1b8)),_0x39e3c3(_0x257a2b);return;}if(_0x28f82d[_0x14ac2f(0x234)])return;_0x28f82d[_0x14ac2f(0x234)]=!![],_0x28f82d[_0x14ac2f(0x263)]=null,_0x255a1b[_0x14ac2f(0x224)]=!![],_0x14d06d(!![]),_0x59792e('正在让\x20AI\x20生成仿真网页…','loading'),_0x496af2();try{const _0x80f713=_0x4c4594({'includeCharPersona':!!_0x56c2a4?.[_0x14ac2f(0x1e2)],'includeUserPersona':!!_0x4f2578?.[_0x14ac2f(0x1e2)]}),_0x28fa32=await _0x3f6de7({'domain':_0xf193fa[_0x14ac2f(0x267)],'prompt':_0x518752(_0x48930a[_0x14ac2f(0x19d)],0x3e8),'friend':window['imData']?.[_0x14ac2f(0x206)]||null,'includeCharPersona':_0x80f713[_0x14ac2f(0x22d)],'includeUserPersona':_0x80f713[_0x14ac2f(0x15a)]});_0x28f82d[_0x14ac2f(0x263)]={..._0x28fa32,'siteName':_0x28fa32[_0x14ac2f(0x219)]||_0xf193fa['domain'],'title':_0x28fa32['title']||_0xf193fa[_0x14ac2f(0x28d)],'includeCharPersona':_0x80f713['includeCharPersona'],'includeUserPersona':_0x80f713[_0x14ac2f(0x15a)],'webPage':_0x1650e6(_0x28fa32[_0x14ac2f(0x17a)],{'source':'ai','domain':_0xf193fa[_0x14ac2f(0x267)],'prompt':_0x518752(_0x48930a[_0x14ac2f(0x19d)],0x3e8),'siteName':_0x28fa32[_0x14ac2f(0x219)]||_0xf193fa[_0x14ac2f(0x28d)]})},_0x28f82d[_0x14ac2f(0x1f9)]='ai',_0x496af2();}catch(_0x352cb0){console[_0x14ac2f(0x166)](_0x14ac2f(0x1d6),_0x352cb0);const _0xa36fff=_0x352cb0&&_0x352cb0['message']===_0x14ac2f(0x152)?'未配置\x20API，请到设置里填写后再生成':_0x14ac2f(0x1b5);_0x59792e(_0xa36fff,'error');if(window['showToast'])window[_0x14ac2f(0x279)](_0xa36fff);}finally{_0x28f82d[_0x14ac2f(0x234)]=![],_0x255a1b[_0x14ac2f(0x224)]=![],_0x14d06d(![]);}}async function _0x40c64d(){const _0x3adc5b=_0xe7a4c1;if(_0x28f82d[_0x3adc5b(0x221)])return;const _0x276ea3=_0x388f99(),_0x775894=_0x276ea3['normalized'],_0x3cde07=_0x276ea3[_0x3adc5b(0x170)],_0x23ff50=_0x551c9c();if(!_0x775894){_0x59792e('请先输入有效域名',_0x3adc5b(0x1b8)),_0x39e3c3(_0x23ff50);return;}if(_0x28f82d[_0x3adc5b(0x258)]==='ai'&&(!_0x3cde07[_0x3adc5b(0x17a)]||!_0x3cde07[_0x3adc5b(0x17a)][_0x3adc5b(0x1ae)])){_0x59792e(_0x3adc5b(0x268),_0x3adc5b(0x1b8)),_0x39e3c3(_0x255a1b);return;}const _0x81d7e8=window[_0x3adc5b(0x1b6)][_0x3adc5b(0x206)];if(!_0x81d7e8||_0x81d7e8[_0x3adc5b(0x168)]===_0x3adc5b(0x25c)&&Number(_0x81d7e8['leftGroupAt'])>0x0){if(window[_0x3adc5b(0x279)])window[_0x3adc5b(0x279)]('当前聊天无法发送链接');return;}_0x28f82d[_0x3adc5b(0x221)]=!![],_0x1747e8[_0x3adc5b(0x224)]=!![],_0x1747e8[_0x3adc5b(0x1f2)]=_0x3adc5b(0x238);const _0x1736d6=Date['now'](),_0x39c706={..._0x3cde07,'createdAt':_0x1736d6},_0x16ea84={'id':_0x3570fe[_0x3adc5b(0x1de)]?_0x3570fe['createMessageId']('fake-link'):'fake-link-'+_0x1736d6,'role':'user','type':_0x3adc5b(0x1f5),'content':_0x39c706[_0x3adc5b(0x267)],'text':_0x3adc5b(0x241)+_0x39c706['siteName']+'：'+_0x39c706[_0x3adc5b(0x18d)],'fakeLinkData':_0x39c706,'timestamp':_0x1736d6},_0x2709db=window[_0x3adc5b(0x155)][_0x3adc5b(0x1e4)]?await window[_0x3adc5b(0x155)][_0x3adc5b(0x1e4)](_0x81d7e8['id'],_0x16ea84,{'silent':!![]}):![];if(!_0x2709db){if(window[_0x3adc5b(0x279)])window[_0x3adc5b(0x279)](_0x3adc5b(0x21a));_0x28f82d[_0x3adc5b(0x221)]=![],_0x1747e8[_0x3adc5b(0x224)]=![],_0x1747e8[_0x3adc5b(0x1f2)]='发送';return;}const _0x1742ee=_0x31852f[_0x3adc5b(0x16c)]||document[_0x3adc5b(0x20a)](_0x3adc5b(0x150)+_0x81d7e8['id'])||_0xeea618,_0x11a6e5=_0x1742ee?_0x1742ee[_0x3adc5b(0x1e0)](_0x3adc5b(0x205)):null;if(_0x11a6e5){const _0x25e77e=_0x3570fe[_0x3adc5b(0x162)]?_0x3570fe['appendMessageToContainer'](_0x81d7e8,_0x11a6e5,_0x16ea84,{'scroll':!![]}):![];!_0x25e77e&&_0x3570fe[_0x3adc5b(0x1bb)]&&_0x3570fe[_0x3adc5b(0x1bb)](_0x81d7e8,_0x11a6e5,{'scroll':!![]});}_0x4b80bf(),_0x28f82d[_0x3adc5b(0x221)]=![],_0x1747e8[_0x3adc5b(0x224)]=![],_0x1747e8[_0x3adc5b(0x1f2)]='发送';}return _0x2b8b3c[_0xe7a4c1(0x1a7)](_0x53895a=>{const _0x185be2=_0xe7a4c1;_0x53895a[_0x185be2(0x1be)](_0x185be2(0x28a),()=>_0x3d971e(_0x53895a[_0x185be2(0x183)]['tab']));}),[_0x257a2b,_0x48930a,_0x199d8d,_0x36fa22,_0x5e9569,_0xc91272,_0x513b0c][_0xe7a4c1(0x1a7)](_0x4461a9=>{const _0x526e7a=_0xe7a4c1;_0x4461a9['addEventListener'](_0x526e7a(0x232),()=>{const _0x1d1845=_0x526e7a;_0x28f82d['activeTab']==='ai'&&(_0x4461a9===_0x257a2b||_0x4461a9===_0x48930a)&&(_0x28f82d[_0x1d1845(0x263)]=null),_0x496af2();});}),_0x255a1b['addEventListener']('click',()=>void _0x24712f()),_0x1747e8[_0xe7a4c1(0x1be)](_0xe7a4c1(0x28a),()=>void _0x40c64d()),_0x48fbf1[_0xe7a4c1(0x1be)]('click',_0x4b80bf),_0x538e1e[_0xe7a4c1(0x1be)]('click',_0x4b80bf),_0x2bcd48['addEventListener'](_0xe7a4c1(0x28a),_0x4b80bf),_0x31852f[_0xe7a4c1(0x20f)]=()=>{const _0x1c7324=_0xe7a4c1;_0x28f82d[_0x1c7324(0x258)]='ai',_0x28f82d[_0x1c7324(0x1f9)]='manual',_0x28f82d[_0x1c7324(0x263)]=null,_0x28f82d[_0x1c7324(0x221)]=![],_0x28f82d['generating']=![],_0x257a2b[_0x1c7324(0x19d)]='',_0x48930a[_0x1c7324(0x19d)]='',_0x199d8d['value']='',_0x36fa22['value']='',_0x5e9569['value']='',_0xc91272[_0x1c7324(0x19d)]='',_0x513b0c[_0x1c7324(0x19d)]='';const _0x190829=_0x4d408e();if(_0x56c2a4)_0x56c2a4[_0x1c7324(0x1e2)]=_0x190829[_0x1c7324(0x22d)];if(_0x4f2578)_0x4f2578[_0x1c7324(0x1e2)]=_0x190829[_0x1c7324(0x15a)];_0x1747e8[_0x1c7324(0x224)]=![],_0x1747e8['textContent']='发送',_0x255a1b[_0x1c7324(0x224)]=![],_0x14d06d(![]),_0x3d971e('ai'),_0x31852f[_0x1c7324(0x157)][_0x1c7324(0x253)]='flex',void _0x31852f[_0x1c7324(0x244)],_0x31852f[_0x1c7324(0x278)]['add']('active');},_0x31852f;}function _0x1e826d(){const _0x542ec5=_0x56230b,_0xf4da55=window[_0x542ec5(0x1b6)][_0x542ec5(0x206)];if(!_0xf4da55)return;const _0x395b78=document[_0x542ec5(0x20a)]('chat-interface-'+_0xf4da55['id']);if(!_0x395b78)return;const _0x3b6292=_0x142994(_0x395b78);_0x3b6292['_imFakeLinkPage']=_0x395b78,_0x3b6292['_openFakeLinkComposer']();}_0x3570fe['normalizeFakeLinkInput']=_0x1aae13,_0x3570fe[_0x56230b(0x1c4)]=_0x476d2a,_0x3570fe[_0x56230b(0x16d)]=_0x1aa87e,_0x3570fe[_0x56230b(0x271)]=_0x7da8d5,_0x3570fe[_0x56230b(0x18b)]=_0x3e5467,_0x3570fe[_0x56230b(0x1a6)]=_0x2b3e66,_0x3570fe[_0x56230b(0x204)]=_0x5abe85,_0x3570fe[_0x56230b(0x196)]=_0x1650e6,_0x3570fe[_0x56230b(0x1c5)]=_0x5dfc9a,_0x3570fe['sanitizeFakeLinkCssForStorage']=_0x30582d,_0x3570fe['openFakeLinkComposer']=_0x1e826d;}));function _0x1889(){const _0xfc8af2=['toUpperCase','2468049EdHZxD','protocol','/v1','.im-fake-link-site-input','.im-fake-link-ai-domain-input','.im-fake-link-web-mini-preview','buildManualFakeLinkWebPage','.ins-chat-messages','currentActiveFriend','4977369qwUyGj','length','42525wbLMif','getElementById','trim','user','.im-fake-link-composer-overlay','\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-fake-action=\x22like\x22>♡\x20喜欢\x20<span\x20data-fake-count=\x22like\x22>12</span></button>','_openFakeLinkComposer','src','summary','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-web-mini-frame\x22></div>','\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>域名\x20/\x20地址</span><input\x20class=\x22im-fake-link-ai-domain-input\x22\x20type=\x22text\x22\x20inputmode=\x22url\x22\x20autocomplete=\x22off\x22\x20placeholder=\x22xiaohongshu.com/explore/example\x22></label>','from','inactiveText','HTTP_','\x20\x20<header\x20class=\x22u2-fake-generic-hero\x22>','targetSelector','siteName','链接消息保存失败','\x22\x20alt=\x22\x22\x20loading=\x22lazy\x22>','\x20\x20\x20\x20\x20\x20<p>这个页面看起来很完整，信息也挺自然。</p>','\x20\x20</div>','push','active','getEffectivePersonaForFriend','sending','\x20\x20\x20\x20</div>','&gt;','disabled','请输入有效域名或\x20http/https\x20地址','.u2-fake-generic-actions{display:flex;gap:8px;padding:12px\x2014px;border-top:1px\x20solid\x20#f2f2f7;}','.im-fake-link-composer-cancel','ready','object','toggleClass','.im-fake-link-tab','signature','includeCharPersona','8SoDLZv','.im-fake-link-title-input','getWorldBookContextForFriendByPosition','body','input','\x20\x20<div\x20class=\x22im-fake-link-composer-tabs\x22\x20role=\x22tablist\x22>','generating','\x20\x20<div\x20class=\x22im-fake-link-composer-body\x22>','div','[data-fake-action=\x22save\x22]','发送中…','endsWith','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-cover\x22><i\x20class=\x22fas\x20fa-link\x22></i></div>','\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-fake-link-tab\x20active\x22\x20data-tab=\x22ai\x22\x20role=\x22tab\x22\x20aria-selected=\x22true\x22>AI\x20生成</button>','.u2-fake-generic-card{margin:0\x2014px\x2024px;border-radius:26px;background:#fff;box-shadow:0\x2016px\x2042px\x20rgba(0,0,0,.09);overflow:hidden;}','hostname','activeText','\x20\x20\x20\x20<div\x20class=\x22im-fake-link-web-mini-preview\x22\x20hidden>','StorageManager','[假链接]\x20','https://','http:','offsetWidth','</div>','&#039;','.im-fake-link-composer-send','\x20\x20</footer>','imChat','generic','persona','\x22\x20loading=\x22lazy\x22','application/json','.u2-fake-generic-body\x20p{margin:0\x200\x2013px;}','\x22\x20loading=\x22lazy\x22>','true','filter','has','display','.im-fake-link-panel','u2_fakeLinkAiContextOptions','</span>','AI\x20生成只需域名和提示词；手动填入会套用通用美化网页','activeTab','根据域名生成一个可读、可信、排版精致的虚构网页。','\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-title\x22></div>','\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-fake-link-tab\x22\x20data-tab=\x22manual\x22\x20role=\x22tab\x22\x20aria-selected=\x22false\x22>手动填入</button>','group','css','</p>','[data-fake-action=\x22comments\x22]','temperature','\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>正文</span><textarea\x20class=\x22im-fake-link-body-input\x22\x20rows=\x227\x22\x20placeholder=\x22打开假网页后显示的正文；会自动套用通用美化网页\x22></textarea></label>','\x0aUser\x20persona:\x0a','generatedData','userState','示例\x20interaction：{\x22type\x22:\x22toggleClass\x22,\x22selector\x22:\x22[data-fake-action=\x5c\x22like\x5c\x22]\x22,\x22className\x22:\x22is-active\x22}。','\x20alt=\x22\x22','displayUrl','请先点击搜索生成网页','填写提示词后点击搜索生成网页','\x20\x20\x20\x20\x20\x20<p>已收藏，晚点再细看。</p>','getUserState','bodyText','Char\x20name:\x20','用户提示：','.im-fake-link-web-mini-frame','split','buildRandomFakeLinkImageUrl','tab','.im-fake-link-preview-site','这个页面内容由手动填写生成，展示为通用美化网页。','<div\x20class=\x22im-fake-link-composer-backdrop\x22></div>','Web','idle','classList','showToast','hidden','getApiConfig','\x20\x20\x20\x20<div\x20class=\x22im-fake-link-panel\x20active\x22\x20data-panel=\x22ai\x22>','webPage.css\x20只写页面内部样式，不要使用\x20@import、url()、position:fixed、外部字体或外部图片。','json','bodyText\x20必须是纯文本，概括页面正文和评论，控制在\x20600-1500\x20字；不能包含\x20HTML。','.u2-fake-generic-comments.is-open{display:block;}','AI\x20网页已生成，可以发送或重新生成','570JjbWLk','isArray','.u2-fake-generic-actions\x20button{flex:1;border:0;border-radius:15px;background:#f7f7fa;color:#3a3a3c;min-height:38px;font-weight:800;}','\x20\x20</header>','focus','.u2-fake-generic-comments\x20p{margin:7px\x200;padding:9px\x2011px;border-radius:14px;background:#f7f7fa;}','2055vsBaBK','\x20\x20\x20\x20<h1>','click','charAt','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-generation-row\x22><button\x20type=\x22button\x22\x20class=\x22im-fake-link-generate-btn\x22\x20aria-label=\x22调用\x20API\x20生成网页\x22\x20title=\x22调用\x20API\x20生成网页\x22><i\x20class=\x22fas\x20fa-search\x22></i></button><span\x20class=\x22im-fake-link-status\x22>输入域名和提示词后，点搜索调用\x20API</span></div>','domain','realName','\x20\x20\x20\x20\x20\x20<strong>精选评论</strong>','source','map','只返回合法\x20JSON，不要\x20Markdown，不要解释。','charCodeAt','\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-site\x22></div>','.u2-fake-generic-site{color:#0a84ff;font-size:12px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;}','model','chat-interface-','请先输入有效域名','API_NOT_CONFIGURED','test','\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-fake-action=\x22comments\x22>评论\x203</button>','imApp','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-site\x22>','style','<img','1259dKORuO','includeUserPersona','querySelectorAll','getGlobalWorldBookContextByPosition','19541753NgfAxW','imul','fas\x20fa-spinner\x20fa-spin','域名：','manual','appendMessageToContainer','search','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-copy\x22>','panel','warn','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-cover\x22><span>','type','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-context-options\x22>','手动网页预览已就绪，可以发送','<span>#站内网页</span><span>#链接预览</span>','_imFakeLinkPage','buildFakeLinkPrompt','.im-fake-link-body-input','\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-summary\x22></div>','data','prompt','你是受控网页包生成器。只输出严格\x20JSON；不输出脚本、外链、登录、支付或钓鱼内容。','selector','save','canonicalUrl','concat','AI\x20Web','User\x20name:\x20','<img\x20class=\x22u2-fake-random-image\x22\x20src=\x22','webPage','[data-fake-count=\x22like\x22]','innerHTML','slice','.u2-fake-generic-tags\x20span{border-radius:999px;background:#f2f2f7;color:#0a84ff;padding:6px\x2010px;font-size:12px;font-weight:800;}','countSelector','.im-fake-link-preview-summary','endpoint','[data-fake-action=\x22like\x22]','dataset','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-body\x22>','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-comments\x22\x20data-fake-panel=\x22comments\x22>','.u2-fake-generic-tags{display:flex;flex-wrap:wrap;gap:7px;padding:15px\x2015px\x200;}','status','\x20\x20<header\x20class=\x22im-fake-link-composer-header\x22>','apiConfig','normalized','isAllowedFakeLinkImageUrl','JSON\x20顶层字段固定为：','title','禁止输出\x20<script>、iframe、form、input、textarea、select、外链、登录、支付、账号密码采集。','4654860zphdMd','\x20\x20\x20\x20\x20\x20</div>','indexOf','createElement','.u2-fake-generic-summary{margin:12px\x200\x200;color:#636366;font-size:15px;line-height:1.55;}','fas\x20fa-search','世界书上下文（生成时必须参考；如为空则忽略）：','normalizeFakeLinkWebPage','User\x20人设（用户开启时参考）：','none','pageText','POST','toggle','system_depth','value','\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-context-toggle\x22><input\x20class=\x22im-fake-link-user-persona-toggle\x22\x20type=\x22checkbox\x22><span>挂载\x20user\x20人设</span></label>','<span>#','.u2-fake-generic-hero\x20h1{margin:10px\x200\x200;font-size:27px;line-height:1.12;letter-spacing:-.05em;}','description','Char','1114pHNWys','.im-fake-link-composer-close','toggleText','injectRandomFakeLinkImages','forEach','</section>','choices','[data-fake-panel=\x22comments\x22]','\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-fake-link-composer-cancel\x22>取消</button>','\x0aChar\x20persona:\x0a','bodyHtml','html','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-tags\x22>','\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>摘要</span><textarea\x20class=\x22im-fake-link-summary-input\x22\x20rows=\x222\x22\x20placeholder=\x22显示在聊天卡片里的简短摘要\x22></textarea></label>','\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>提示词</span><textarea\x20class=\x22im-fake-link-ai-prompt-input\x22\x20rows=\x224\x22\x20placeholder=\x22例如：生成一个小红书笔记页，主题是深夜咖啡店探店，带作者、正文、标签和评论\x22></textarea></label>','\x20\x20\x20\x20<div\x20class=\x22u2-fake-generic-actions\x22>','catch','如果用户要求“小红书”，请生成类似笔记详情页：作者栏、图文内容、标签、点赞/收藏/评论栏、3-6\x20条自然评论。','AI\x20生成失败，可切到手动填入','imData','_imFakeLinkState','error','className','toLowerCase','rerenderChatContainer','1124kFLeHE','now','addEventListener','.im-fake-link-preview','图片要求：页面中凡是图片、封面、配图、头像、商品图、笔记图的位置，都必须输出\x20<img>\x20标签；src\x20可以留空或使用\x20https://picsum.photos/seed/...，系统会统一替换为\x20allowlist\x20随机图片链接。不要使用其它外部图片链接。','.im-fake-link-composer-backdrop','text','.im-fake-link-status','normalizeFakeLinkDomain','sanitizeFakeLinkHtmlForStorage','contains','\x20\x20</section>','Bearer\x20','\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22im-fake-link-composer-send\x22>发送</button>','&quot;','before_role','Char\x20人设（用户开启时参考）：','https:','theme','.im-fake-link-preview-title','replace','.im-fake-link-preview-url','\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22im-fake-link-field\x22><span>站点名</span><input\x20class=\x22im-fake-link-site-input\x22\x20type=\x22text\x22\x20autocomplete=\x22off\x22\x20placeholder=\x22站点名\x22></label>','remove','interactions','setAttribute','[iMessage\x20fake\x20link]\x20AI\x20generation\x20failed','.u2-fake-generic-comments{display:none;padding:0\x2016px\x2017px;color:#3a3a3c;font-size:13px;line-height:1.45;}','\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-web-mini-label\x22>仿真网页预览</div>','\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-fake-action=\x22save\x22>☆\x20收藏</button>','.u2-fake-generic-body{padding:14px\x2016px\x204px;font-size:15px;line-height:1.72;}','lastIndexOf','position:absolute;','apiKey','createMessageId','INVALID_JSON','querySelector','不要访问真实网站，不要声称读取了真实页面；只根据域名和用户提示创作。','checked','increment','appendFriendMessage','aria-selected','load','blur','activeElement','is-active','im-fake-link-composer-overlay','appendChild','\x20\x20<footer\x20class=\x22im-fake-link-composer-actions\x22>','{\x22siteName\x22:\x22站点名\x22,\x22title\x22:\x22卡片标题\x22,\x22summary\x22:\x22卡片摘要\x22,\x22bodyText\x22:\x22纯文本页面内容摘要\x22,\x22webPage\x22:{\x22theme\x22:\x22xiaohongshu|news|shop|generic\x22,\x22html\x22:\x22受控\x20HTML\x22,\x22css\x22:\x22受控\x20CSS\x22,\x22interactions\x22:[]}}','parse','.u2-fake-generic-page{min-height:100%;background:linear-gradient(180deg,#f8f8fb\x200%,#fff\x2038%);font-family:-apple-system,BlinkMacSystemFont,\x22PingFang\x20SC\x22,sans-serif;color:#111;}','function','.im-fake-link-char-persona-toggle','textContent','join','</h1>','fake_link','stringify','includes','.im-fake-link-generate-btn','generatedBy','.im-fake-link-ai-prompt-input','站内仿真网页内容','\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22im-fake-link-preview-url\x22></div>'];_0x1889=function(){return _0xfc8af2;};return _0x1889();}
+// ==========================================
+// IMESSAGE: fake link composer
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+
+    const FAKE_LINK_CONTEXT_OPTIONS_KEY = 'u2_fakeLinkAiContextOptions';
+    const FAKE_LINK_RANDOM_IMAGE_HOST = 'picsum.photos';
+    const DEFAULT_FAKE_LINK_STATUS = 'AI 生成只需域名和提示词；手动填入会套用通用美化网页';
+
+    function cleanText(value, maxLength = 50000) {
+        return String(value == null ? '' : value)
+            .replace(/\u0000/g, '')
+            .trim()
+            .slice(0, maxLength);
+    }
+
+    function escapeHtml(value) {
+        return String(value == null ? '' : value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function stripHtmlToPlainText(value, maxLength = 50000) {
+        return cleanText(value, maxLength)
+            .replace(/<\s*(script|style|iframe|object|embed|svg|canvas)[\s\S]*?<\s*\/\s*\1\s*>/gi, ' ')
+            .replace(/<[^>]+>/g, ' ')
+            .replace(/&nbsp;/gi, ' ')
+            .replace(/&amp;/gi, '&')
+            .replace(/&lt;/gi, '<')
+            .replace(/&gt;/gi, '>')
+            .replace(/&quot;/gi, '"')
+            .replace(/&#039;/gi, "'")
+            .replace(/\s+/g, ' ')
+            .trim()
+            .slice(0, maxLength);
+    }
+
+    function hashFakeLinkSeed(value) {
+        const text = String(value == null ? '' : value);
+        let hash = 2166136261;
+        for (let i = 0; i < text.length; i += 1) {
+            hash ^= text.charCodeAt(i);
+            hash = Math.imul(hash, 16777619);
+        }
+        return (hash >>> 0).toString(36);
+    }
+
+    function buildRandomFakeLinkImageUrl(seedParts = [], index = 0, width = 900, height = 600) {
+        const seed = hashFakeLinkSeed([].concat(seedParts, index).join('|')) || 'u2';
+        return 'https://' + FAKE_LINK_RANDOM_IMAGE_HOST + '/seed/u2-' + seed + '-' + index + '/' + width + '/' + height;
+    }
+
+    function isAllowedFakeLinkImageUrl(value) {
+        try {
+            const parsed = new URL(String(value || ''));
+            return parsed.protocol === 'https:' && parsed.hostname === FAKE_LINK_RANDOM_IMAGE_HOST;
+        } catch (_) {
+            return false;
+        }
+    }
+
+    function injectRandomFakeLinkImages(html, options = {}) {
+        const sourceHtml = cleanText(html, 80000);
+        if (!sourceHtml) return '';
+        const seedParts = [
+            cleanText(options.domain || '', 180),
+            cleanText(options.prompt || '', 1000),
+            cleanText(options.theme || '', 80),
+            cleanText(options.siteName || '', 80)
+        ];
+        let imageIndex = 0;
+        const replaceImg = (match, attrs = '') => {
+            const srcMatch = String(attrs).match(/\s+src\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/i);
+            const currentSrc = srcMatch ? srcMatch[1].replace(/^['"]|['"]$/g, '') : '';
+            const nextSrc = isAllowedFakeLinkImageUrl(currentSrc)
+                ? currentSrc
+                : buildRandomFakeLinkImageUrl(seedParts, imageIndex);
+            imageIndex += 1;
+            let nextAttrs = String(attrs)
+                .replace(/\s+src\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig, '')
+                .replace(/\s+srcset\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig, '')
+                .replace(/\s+loading\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/ig, '');
+            if (!/\salt\s*=/i.test(nextAttrs)) nextAttrs += ' alt=""';
+            return '<img' + nextAttrs + ' src="' + escapeHtml(nextSrc) + '" loading="lazy">';
+        };
+        let nextHtml = sourceHtml.replace(/<img\b([^>]*)>/gi, replaceImg);
+        if (imageIndex === 0 && /\b(data-fake-image|fake-image-slot|image-placeholder|photo-placeholder)\b/i.test(nextHtml)) {
+            nextHtml = nextHtml.replace(/<([a-z0-9-]+)([^>]*(?:data-fake-image|fake-image-slot|image-placeholder|photo-placeholder)[^>]*)>/gi, (match) => {
+                const src = buildRandomFakeLinkImageUrl(seedParts, imageIndex);
+                imageIndex += 1;
+                return match + '<img class="u2-fake-random-image" src="' + escapeHtml(src) + '" alt="" loading="lazy">';
+            });
+        }
+        return nextHtml;
+    }
+
+    function loadFakeLinkContextOptions() {
+        const fallback = { includeCharPersona: false, includeUserPersona: false };
+        try {
+            const loaded = window.StorageManager && typeof window.StorageManager.load === 'function'
+                ? window.StorageManager.load(FAKE_LINK_CONTEXT_OPTIONS_KEY, fallback)
+                : null;
+            return {
+                includeCharPersona: !!loaded?.includeCharPersona,
+                includeUserPersona: !!loaded?.includeUserPersona
+            };
+        } catch (_) {
+            return fallback;
+        }
+    }
+
+    function saveFakeLinkContextOptions(options = {}) {
+        const normalized = {
+            includeCharPersona: !!options.includeCharPersona,
+            includeUserPersona: !!options.includeUserPersona
+        };
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(FAKE_LINK_CONTEXT_OPTIONS_KEY, normalized);
+            }
+        } catch (_) {}
+        return normalized;
+    }
+
+    function getFakeLinkAppContainer() {
+        return document.getElementById('app') || document.body;
+    }
+
+    function focusFakeLinkControl(element) {
+        if (!element || typeof element.focus !== 'function') return;
+        try {
+            element.focus({ preventScroll: true });
+        } catch (_) {
+            element.focus();
+        }
+    }
+
+    function resolveFakeLinkWorldBookContext(friend, contextText = '') {
+        const positions = ['system_depth', 'before_role', 'after_role'];
+        const sections = [];
+        positions.forEach((position) => {
+            let text = '';
+            if (friend && window.imApp?.getWorldBookContextForFriendByPosition) {
+                text = window.imApp.getWorldBookContextForFriendByPosition(position, friend, contextText) || '';
+            } else if (window.getGlobalWorldBookContextByPosition) {
+                text = window.getGlobalWorldBookContextByPosition(position, contextText) || '';
+            }
+            if (text) sections.push(position + ':\n' + text);
+        });
+        return sections.join('\n\n');
+    }
+
+    function resolveFakeLinkCharPersona(friend) {
+        if (!friend || typeof friend !== 'object') return '';
+        const name = friend.realName || friend.nickname || friend.name || 'Char';
+        const persona = cleanText(friend.persona || friend.signature || friend.description || '', 5000);
+        if (!persona) return '';
+        return 'Char name: ' + name + '\nChar persona:\n' + persona;
+    }
+
+    function resolveFakeLinkUserPersona(friend) {
+        const user = window.getUserState ? window.getUserState() : (window.userState || {});
+        const name = user.name || user.realName || 'User';
+        const persona = cleanText(
+            (window.imApp?.getEffectivePersonaForFriend ? window.imApp.getEffectivePersonaForFriend(friend) : '') ||
+            user.persona ||
+            user.signature ||
+            '',
+            5000
+        );
+        if (!persona) return '';
+        return 'User name: ' + name + '\nUser persona:\n' + persona;
+    }
+
+    function normalizeFakeLinkInput(value) {
+        const raw = cleanText(value, 220);
+        if (!raw || /[\u0000-\u001F\u007F]/.test(raw) || /[\s<>"'\x60\\]/.test(raw)) return null;
+        if (/^[a-z][a-z0-9+.-]*:\/\//i.test(raw) && !/^https?:\/\//i.test(raw)) return null;
+
+        const candidate = /^https?:\/\//i.test(raw) ? raw : 'https://' + raw;
+        try {
+            const parsed = new URL(candidate);
+            if (!['http:', 'https:'].includes(parsed.protocol) || !parsed.hostname) return null;
+            const domain = parsed.hostname.toLowerCase();
+            const path = parsed.pathname && parsed.pathname !== '/' ? parsed.pathname : '';
+            const search = parsed.search || '';
+            const displayUrl = (domain + path + search).replace(/\/+$/, '');
+            if (!displayUrl || displayUrl.length > 180) return null;
+            return {
+                domain,
+                path,
+                search,
+                displayUrl,
+                canonicalUrl: 'https://' + displayUrl
+            };
+        } catch (_) {
+            return null;
+        }
+    }
+
+    function normalizeFakeLinkDomain(value) {
+        const normalized = normalizeFakeLinkInput(value);
+        return normalized ? normalized.displayUrl : '';
+    }
+
+    function resolveChatCompletionsEndpoint(config = {}) {
+        const endpoint = String(config.endpoint || '').trim().replace(/\/+$/, '');
+        if (!endpoint) return '';
+        if (/\/chat\/completions$/i.test(endpoint)) return endpoint;
+        return endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+    }
+
+    function extractJsonObject(text) {
+        const raw = String(text || '').trim();
+        if (!raw) return null;
+        const fencePattern = new RegExp('\\x60\\x60\\x60(?:json)?\\s*([\\s\\S]*?)\\x60\\x60\\x60', 'i');
+        const fenced = raw.match(fencePattern);
+        const candidate = fenced ? fenced[1].trim() : raw;
+        try {
+            return JSON.parse(candidate);
+        } catch (_) {
+            const start = candidate.indexOf('{');
+            const end = candidate.lastIndexOf('}');
+            if (start >= 0 && end > start) {
+                try { return JSON.parse(candidate.slice(start, end + 1)); } catch (_) {}
+            }
+        }
+        return null;
+    }
+
+    function sanitizeFakeLinkHtmlForStorage(value) {
+        let html = cleanText(value, 80000);
+        if (!html) return '';
+        html = html
+            .replace(/<\s*(script|style|iframe|object|embed|svg|canvas|link|meta|base|form|input|textarea|select|option)[\s\S]*?<\s*\/\s*\1\s*>/gi, '')
+            .replace(/<\s*\/?\s*(script|style|iframe|object|embed|svg|canvas|link|meta|base|form|input|textarea|select|option)[^>]*>/gi, '')
+            .replace(/\s+on[a-z]+\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '')
+            .replace(/\s+(href|src|srcset|action|formaction)\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, (match, attrName, attrValue) => {
+                if (String(attrName || '').toLowerCase() === 'src') {
+                    const srcValue = String(attrValue || '').replace(/^['"]|['"]$/g, '');
+                    if (isAllowedFakeLinkImageUrl(srcValue)) {
+                        return ' src="' + escapeHtml(srcValue) + '" loading="lazy"';
+                    }
+                }
+                return '';
+            })
+            .replace(/\s+style\s*=\s*("[^"]*"|'[^']*'|[^\s>]+)/gi, '');
+        return html.slice(0, 80000);
+    }
+
+    function sanitizeFakeLinkCssForStorage(value) {
+        return cleanText(value, 40000)
+            .replace(/@import[^;]+;/gi, '')
+            .replace(/url\s*\([^)]*\)/gi, 'none')
+            .replace(/expression\s*\([^)]*\)/gi, '')
+            .replace(/javascript\s*:/gi, '')
+            .replace(/behavior\s*:/gi, '')
+            .replace(/-moz-binding\s*:/gi, '')
+            .replace(/position\s*:\s*fixed\s*;?/gi, 'position:absolute;')
+            .slice(0, 40000);
+    }
+
+    function normalizeFakeLinkInteraction(source = {}) {
+        if (!source || typeof source !== 'object') return null;
+        const allowedTypes = new Set(['toggleClass', 'toggleText', 'increment', 'switchPanel']);
+        const type = allowedTypes.has(source.type) ? source.type : 'toggleClass';
+        const selector = cleanText(source.selector || source.target || '', 160);
+        if (!selector || /[<>{}]/.test(selector)) return null;
+        return {
+            type,
+            selector,
+            targetSelector: cleanText(source.targetSelector || source.target || selector, 160),
+            className: cleanText(source.className || 'is-active', 60) || 'is-active',
+            activeText: cleanText(source.activeText || '', 80),
+            inactiveText: cleanText(source.inactiveText || '', 80),
+            countSelector: cleanText(source.countSelector || '', 160),
+            panelGroup: cleanText(source.panelGroup || '', 80)
+        };
+    }
+
+    function normalizeFakeLinkWebPage(source = {}, fallback = {}) {
+        const safeSource = source && typeof source === 'object' ? source : {};
+        const theme = cleanText(safeSource.theme || fallback.theme || 'generic', 40).toLowerCase() || 'generic';
+        const rawHtml = injectRandomFakeLinkImages(safeSource.html || safeSource.bodyHtml || '', {
+            domain: fallback.domain || safeSource.domain || '',
+            prompt: fallback.prompt || safeSource.prompt || '',
+            theme,
+            siteName: fallback.siteName || safeSource.siteName || ''
+        });
+        const html = sanitizeFakeLinkHtmlForStorage(rawHtml);
+        const css = sanitizeFakeLinkCssForStorage(safeSource.css || safeSource.style || '');
+        const rawInteractions = Array.isArray(safeSource.interactions) ? safeSource.interactions : [];
+        const interactions = rawInteractions
+            .map(normalizeFakeLinkInteraction)
+            .filter(Boolean)
+            .slice(0, 24);
+        return {
+            theme,
+            html,
+            css,
+            interactions,
+            source: cleanText(safeSource.source || fallback.source || '', 30)
+        };
+    }
+
+    function splitBodyParagraphs(bodyText) {
+        const parts = cleanText(bodyText, 12000)
+            .split(/\n{2,}|\r?\n/)
+            .map(part => cleanText(part, 1200))
+            .filter(Boolean);
+        return parts.length ? parts : ['这个页面内容由手动填写生成，展示为通用美化网页。'];
+    }
+
+    function buildManualFakeLinkWebPage({ siteName, title, summary, bodyText, displayUrl, theme = 'generic' } = {}) {
+        const safeSite = cleanText(siteName, 80) || 'Web';
+        const safeTitle = cleanText(title, 180) || safeSite;
+        const safeSummary = cleanText(summary, 800) || cleanText(bodyText, 160);
+        const safeDisplayUrl = cleanText(displayUrl, 180);
+        const paragraphs = splitBodyParagraphs(bodyText);
+        const paragraphsHtml = paragraphs
+            .map(part => '<p>' + escapeHtml(part) + '</p>')
+            .join('');
+        const tags = safeDisplayUrl
+            .split(/[./?&=-]+/)
+            .map(part => cleanText(part, 18))
+            .filter(part => part && part.length > 2)
+            .slice(0, 3);
+        const tagHtml = tags.length
+            ? tags.map(tag => '<span>#' + escapeHtml(tag) + '</span>').join('')
+            : '<span>#站内网页</span><span>#链接预览</span>';
+        const html = [
+            '<article class="u2-fake-generic-page">',
+            '  <header class="u2-fake-generic-hero">',
+            '    <div class="u2-fake-generic-site">' + escapeHtml(safeSite) + '</div>',
+            '    <h1>' + escapeHtml(safeTitle) + '</h1>',
+            safeSummary ? '    <p class="u2-fake-generic-summary">' + escapeHtml(safeSummary) + '</p>' : '',
+            '  </header>',
+            '  <section class="u2-fake-generic-card">',
+            '    <div class="u2-fake-generic-cover"><span>' + escapeHtml(safeSite.charAt(0).toUpperCase() || 'W') + '</span></div>',
+            '    <div class="u2-fake-generic-tags">' + tagHtml + '</div>',
+            '    <div class="u2-fake-generic-body">' + paragraphsHtml + '</div>',
+            '    <div class="u2-fake-generic-actions">',
+            '      <button type="button" data-fake-action="like">♡ 喜欢 <span data-fake-count="like">12</span></button>',
+            '      <button type="button" data-fake-action="save">☆ 收藏</button>',
+            '      <button type="button" data-fake-action="comments">评论 3</button>',
+            '    </div>',
+            '    <div class="u2-fake-generic-comments" data-fake-panel="comments">',
+            '      <strong>精选评论</strong>',
+            '      <p>这个页面看起来很完整，信息也挺自然。</p>',
+            '      <p>细节做得不错，像是真的网页截图延展开了。</p>',
+            '      <p>已收藏，晚点再细看。</p>',
+            '    </div>',
+            '  </section>',
+            '</article>'
+        ].filter(Boolean).join('');
+        const css = [
+            '.u2-fake-generic-page{min-height:100%;background:linear-gradient(180deg,#f8f8fb 0%,#fff 38%);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;color:#111;}',
+            '.u2-fake-generic-hero{padding:24px 18px 16px;}',
+            '.u2-fake-generic-site{color:#0a84ff;font-size:12px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;}',
+            '.u2-fake-generic-hero h1{margin:10px 0 0;font-size:27px;line-height:1.12;letter-spacing:-.05em;}',
+            '.u2-fake-generic-summary{margin:12px 0 0;color:#636366;font-size:15px;line-height:1.55;}',
+            '.u2-fake-generic-card{margin:0 14px 24px;border-radius:26px;background:#fff;box-shadow:0 16px 42px rgba(0,0,0,.09);overflow:hidden;}',
+            '.u2-fake-generic-cover{height:150px;background:radial-gradient(circle at 25% 20%,#8fd3ff,transparent 36%),linear-gradient(135deg,#111827,#4f46e5);display:flex;align-items:center;justify-content:center;color:#fff;}',
+            '.u2-fake-generic-cover span{width:70px;height:70px;border-radius:24px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:900;backdrop-filter:blur(12px);}',
+            '.u2-fake-generic-tags{display:flex;flex-wrap:wrap;gap:7px;padding:15px 15px 0;}',
+            '.u2-fake-generic-tags span{border-radius:999px;background:#f2f2f7;color:#0a84ff;padding:6px 10px;font-size:12px;font-weight:800;}',
+            '.u2-fake-generic-body{padding:14px 16px 4px;font-size:15px;line-height:1.72;}',
+            '.u2-fake-generic-body p{margin:0 0 13px;}',
+            '.u2-fake-generic-actions{display:flex;gap:8px;padding:12px 14px;border-top:1px solid #f2f2f7;}',
+            '.u2-fake-generic-actions button{flex:1;border:0;border-radius:15px;background:#f7f7fa;color:#3a3a3c;min-height:38px;font-weight:800;}',
+            '.u2-fake-generic-actions button.is-active{background:#111;color:#fff;}',
+            '.u2-fake-generic-comments{display:none;padding:0 16px 17px;color:#3a3a3c;font-size:13px;line-height:1.45;}',
+            '.u2-fake-generic-comments.is-open{display:block;}',
+            '.u2-fake-generic-comments strong{display:block;margin:4px 0 8px;color:#111;}',
+            '.u2-fake-generic-comments p{margin:7px 0;padding:9px 11px;border-radius:14px;background:#f7f7fa;}'
+        ].join('');
+        return {
+            theme,
+            html,
+            css,
+            interactions: [
+                { type: 'toggleClass', selector: '[data-fake-action="like"]', className: 'is-active' },
+                { type: 'increment', selector: '[data-fake-action="like"]', countSelector: '[data-fake-count="like"]' },
+                { type: 'toggleClass', selector: '[data-fake-action="save"]', className: 'is-active' },
+                { type: 'toggleClass', selector: '[data-fake-action="comments"]', targetSelector: '[data-fake-panel="comments"]', className: 'is-open' }
+            ],
+            source: 'manual'
+        };
+    }
+
+    function buildFakeLinkPrompt({ domain, prompt, worldBookContext = '', charPersonaContext = '', userPersonaContext = '', includeCharPersona = false, includeUserPersona = false }) {
+        const contextLines = [
+            '',
+            '图片要求：页面中凡是图片、封面、配图、头像、商品图、笔记图的位置，都必须输出 <img> 标签；src 可以留空或使用 https://picsum.photos/seed/...，系统会统一替换为 allowlist 随机图片链接。不要使用其它外部图片链接。',
+            '世界书上下文（生成时必须参考；如为空则忽略）：',
+            worldBookContext || '无'
+        ];
+        if (includeCharPersona && charPersonaContext) {
+            contextLines.push('', 'Char 人设（用户开启时参考）：', charPersonaContext);
+        }
+        if (includeUserPersona && userPersonaContext) {
+            contextLines.push('', 'User 人设（用户开启时参考）：', userPersonaContext);
+        }
+        return [
+            '你正在为站内 iMessage 假链接功能生成一个“虚构但可信的仿真网页”。',
+            '不要访问真实网站，不要声称读取了真实页面；只根据域名和用户提示创作。',
+            '只返回合法 JSON，不要 Markdown，不要解释。',
+            'JSON 顶层字段固定为：',
+            '{"siteName":"站点名","title":"卡片标题","summary":"卡片摘要","bodyText":"纯文本页面内容摘要","webPage":{"theme":"xiaohongshu|news|shop|generic","html":"受控 HTML","css":"受控 CSS","interactions":[]}}',
+            'webPage.html 要包含完整页面主体结构，可做小红书式笔记、评论区、点赞栏、购物页、新闻页等，但不要包含 html/head/body 外壳。',
+            'webPage.css 只写页面内部样式，不要使用 @import、url()、position:fixed、外部字体或外部图片。',
+            '禁止输出 <script>、iframe、form、input、textarea、select、外链、登录、支付、账号密码采集。',
+            '如果需要 JS 效果，只能在 interactions 里输出受控交互配置；允许 type 为 toggleClass、toggleText、increment、switchPanel。',
+            '示例 interaction：{"type":"toggleClass","selector":"[data-fake-action=\\"like\\"]","className":"is-active"}。',
+            '如果用户要求“小红书”，请生成类似笔记详情页：作者栏、图文内容、标签、点赞/收藏/评论栏、3-6 条自然评论。',
+            'bodyText 必须是纯文本，概括页面正文和评论，控制在 600-1500 字；不能包含 HTML。',
+            '',
+            '域名：' + domain,
+            '用户提示：' + (prompt || '根据域名生成一个可读、可信、排版精致的虚构网页。')
+        ].concat(contextLines).join('\n');
+    }
+
+    async function requestFakeLinkAiContent({ domain, prompt, friend = null, includeCharPersona = false, includeUserPersona = false }) {
+        const api = window.getApiConfig ? window.getApiConfig() : (window.apiConfig || {});
+        const endpoint = resolveChatCompletionsEndpoint(api);
+        if (!endpoint || !api.apiKey || !api.model) {
+            throw new Error('API_NOT_CONFIGURED');
+        }
+        const contextText = [domain, prompt || ''].filter(Boolean).join('\n');
+        const worldBookContext = resolveFakeLinkWorldBookContext(friend, contextText);
+        const charPersonaContext = includeCharPersona ? resolveFakeLinkCharPersona(friend) : '';
+        const userPersonaContext = includeUserPersona ? resolveFakeLinkUserPersona(friend) : '';
+
+        const response = await fetch(endpoint, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + api.apiKey,
+                'X-U2-Silent-Errors': '1'
+            },
+            body: JSON.stringify({
+                model: api.model,
+                temperature: Number.isFinite(Number(api.temperature)) ? Number(api.temperature) : 0.72,
+                messages: [
+                    { role: 'system', content: '你是受控网页包生成器。只输出严格 JSON；不输出脚本、外链、登录、支付或钓鱼内容。' },
+                    { role: 'user', content: buildFakeLinkPrompt({
+                        domain,
+                        prompt,
+                        worldBookContext,
+                        charPersonaContext,
+                        userPersonaContext,
+                        includeCharPersona,
+                        includeUserPersona
+                    }) }
+                ]
+            })
+        });
+
+        const payload = await response.json().catch(() => null);
+        if (!response.ok || !payload) {
+            throw new Error('HTTP_' + response.status);
+        }
+        const text = payload.choices?.[0]?.message?.content || payload.choices?.[0]?.text || '';
+        const parsed = extractJsonObject(text);
+        if (!parsed || typeof parsed !== 'object') {
+            throw new Error('INVALID_JSON');
+        }
+
+        const siteName = cleanText(parsed.siteName, 80);
+        const title = cleanText(parsed.title, 180);
+        const summary = cleanText(parsed.summary, 800);
+        const pageSource = parsed.webPage && typeof parsed.webPage === 'object'
+            ? parsed.webPage
+            : {
+                theme: parsed.theme,
+                html: parsed.html || parsed.bodyHtml,
+                css: parsed.css || parsed.style,
+                interactions: parsed.interactions
+            };
+        let webPage = normalizeFakeLinkWebPage(pageSource, { source: 'ai', domain, prompt, siteName });
+        const bodyText = cleanText(
+            parsed.bodyText || parsed.pageText || stripHtmlToPlainText(webPage.html, 50000) || summary,
+            50000
+        );
+
+        if (!webPage.html) {
+            webPage = buildManualFakeLinkWebPage({
+                siteName,
+                title,
+                summary,
+                bodyText,
+                displayUrl: domain,
+                theme: webPage.theme || 'generic'
+            });
+            webPage.source = 'ai-fallback';
+        } else {
+            webPage.source = 'ai';
+        }
+
+        return {
+            siteName,
+            title,
+            summary,
+            bodyText,
+            webPage
+        };
+    }
+
+    function createFakeLinkComposer(page) {
+        const host = getFakeLinkAppContainer();
+        let overlay = document.getElementById('im-fake-link-composer-overlay') || document.querySelector('.im-fake-link-composer-overlay');
+        if (overlay) {
+            if (overlay.parentNode !== host) host.appendChild(overlay);
+            overlay._imFakeLinkPage = page;
+            return overlay;
+        }
+
+        overlay = document.createElement('div');
+        overlay.id = 'im-fake-link-composer-overlay';
+        overlay.className = 'im-fake-link-composer-overlay';
+        overlay.innerHTML = [
+            '<div class="im-fake-link-composer-backdrop"></div>',
+            '<section class="im-fake-link-composer-card" role="dialog" aria-modal="true" aria-label="发送链接">',
+            '  <header class="im-fake-link-composer-header">',
+            '    <button type="button" class="im-fake-link-composer-close" aria-label="关闭"><i class="fas fa-times"></i></button>',
+            '    <strong>发送链接</strong>',
+            '    <span></span>',
+            '  </header>',
+            '  <div class="im-fake-link-composer-tabs" role="tablist">',
+            '    <button type="button" class="im-fake-link-tab active" data-tab="ai" role="tab" aria-selected="true">AI 生成</button>',
+            '    <button type="button" class="im-fake-link-tab" data-tab="manual" role="tab" aria-selected="false">手动填入</button>',
+            '  </div>',
+            '  <div class="im-fake-link-composer-body">',
+            '    <div class="im-fake-link-panel active" data-panel="ai">',
+            '      <label class="im-fake-link-field"><span>域名 / 地址</span><input class="im-fake-link-ai-domain-input" type="text" inputmode="url" autocomplete="off" placeholder="xiaohongshu.com/explore/example"></label>',
+            '      <label class="im-fake-link-field"><span>提示词</span><textarea class="im-fake-link-ai-prompt-input" rows="4" placeholder="例如：生成一个小红书笔记页，主题是深夜咖啡店探店，带作者、正文、标签和评论"></textarea></label>',
+            '      <div class="im-fake-link-context-options">',
+            '        <label class="im-fake-link-context-toggle"><input class="im-fake-link-char-persona-toggle" type="checkbox"><span>挂载 char 人设</span></label>',
+            '        <label class="im-fake-link-context-toggle"><input class="im-fake-link-user-persona-toggle" type="checkbox"><span>挂载 user 人设</span></label>',
+            '      </div>',
+            '      <div class="im-fake-link-generation-row"><button type="button" class="im-fake-link-generate-btn" aria-label="调用 API 生成网页" title="调用 API 生成网页"><i class="fas fa-search"></i></button><span class="im-fake-link-status">输入域名和提示词后，点搜索调用 API</span></div>',
+            '    </div>',
+            '    <div class="im-fake-link-panel" data-panel="manual" hidden>',
+            '      <label class="im-fake-link-field"><span>域名 / 地址</span><input class="im-fake-link-manual-domain-input" type="text" inputmode="url" autocomplete="off" placeholder="example.com/page"></label>',
+            '      <div class="im-fake-link-edit-grid">',
+            '        <label class="im-fake-link-field"><span>站点名</span><input class="im-fake-link-site-input" type="text" autocomplete="off" placeholder="站点名"></label>',
+            '        <label class="im-fake-link-field"><span>标题</span><input class="im-fake-link-title-input" type="text" autocomplete="off" placeholder="网页标题"></label>',
+            '      </div>',
+            '      <label class="im-fake-link-field"><span>摘要</span><textarea class="im-fake-link-summary-input" rows="2" placeholder="显示在聊天卡片里的简短摘要"></textarea></label>',
+            '      <label class="im-fake-link-field"><span>正文</span><textarea class="im-fake-link-body-input" rows="7" placeholder="打开假网页后显示的正文；会自动套用通用美化网页"></textarea></label>',
+            '    </div>',
+            '    <div class="im-fake-link-preview" hidden>',
+            '      <div class="im-fake-link-preview-cover"><i class="fas fa-link"></i></div>',
+            '      <div class="im-fake-link-preview-copy">',
+            '        <div class="im-fake-link-preview-site"></div>',
+            '        <div class="im-fake-link-preview-title"></div>',
+            '        <div class="im-fake-link-preview-summary"></div>',
+            '        <div class="im-fake-link-preview-url"></div>',
+            '      </div>',
+            '    </div>',
+            '    <div class="im-fake-link-web-mini-preview" hidden>',
+            '      <div class="im-fake-link-web-mini-label">仿真网页预览</div>',
+            '      <div class="im-fake-link-web-mini-frame"></div>',
+            '    </div>',
+            '  </div>',
+            '  <footer class="im-fake-link-composer-actions">',
+            '    <button type="button" class="im-fake-link-composer-cancel">取消</button>',
+            '    <button type="button" class="im-fake-link-composer-send">发送</button>',
+            '  </footer>',
+            '</section>'
+        ].join('');
+        host.appendChild(overlay);
+        overlay._imFakeLinkPage = page;
+
+        const tabButtons = Array.from(overlay.querySelectorAll('.im-fake-link-tab'));
+        const panels = Array.from(overlay.querySelectorAll('.im-fake-link-panel'));
+        const aiDomainInput = overlay.querySelector('.im-fake-link-ai-domain-input');
+        const aiPromptInput = overlay.querySelector('.im-fake-link-ai-prompt-input');
+        const includeCharPersonaInput = overlay.querySelector('.im-fake-link-char-persona-toggle');
+        const includeUserPersonaInput = overlay.querySelector('.im-fake-link-user-persona-toggle');
+        const manualDomainInput = overlay.querySelector('.im-fake-link-manual-domain-input');
+        const siteInput = overlay.querySelector('.im-fake-link-site-input');
+        const titleInput = overlay.querySelector('.im-fake-link-title-input');
+        const summaryInput = overlay.querySelector('.im-fake-link-summary-input');
+        const bodyInput = overlay.querySelector('.im-fake-link-body-input');
+        const generateButton = overlay.querySelector('.im-fake-link-generate-btn');
+        const statusText = overlay.querySelector('.im-fake-link-status');
+        const preview = overlay.querySelector('.im-fake-link-preview');
+        const previewSite = overlay.querySelector('.im-fake-link-preview-site');
+        const previewTitle = overlay.querySelector('.im-fake-link-preview-title');
+        const previewSummary = overlay.querySelector('.im-fake-link-preview-summary');
+        const previewUrl = overlay.querySelector('.im-fake-link-preview-url');
+        const miniPreview = overlay.querySelector('.im-fake-link-web-mini-preview');
+        const miniFrame = overlay.querySelector('.im-fake-link-web-mini-frame');
+        const closeButton = overlay.querySelector('.im-fake-link-composer-close');
+        const cancelButton = overlay.querySelector('.im-fake-link-composer-cancel');
+        const sendButton = overlay.querySelector('.im-fake-link-composer-send');
+        const backdrop = overlay.querySelector('.im-fake-link-composer-backdrop');
+        const savedContextOptions = loadFakeLinkContextOptions();
+        if (includeCharPersonaInput) includeCharPersonaInput.checked = savedContextOptions.includeCharPersona;
+        if (includeUserPersonaInput) includeUserPersonaInput.checked = savedContextOptions.includeUserPersona;
+
+        const state = {
+            activeTab: 'ai',
+            generatedBy: 'manual',
+            generatedData: null,
+            sending: false,
+            generating: false
+        };
+        overlay._imFakeLinkState = state;
+
+        function setGenerateButtonLoading(isLoading) {
+            if (!generateButton) return;
+            const icon = generateButton.querySelector('i');
+            if (icon) icon.className = isLoading ? 'fas fa-spinner fa-spin' : 'fas fa-search';
+            generateButton.setAttribute('aria-busy', String(!!isLoading));
+        }
+
+        function setStatus(message, tone = 'idle') {
+            if (!statusText) return;
+            statusText.textContent = message || '';
+            statusText.dataset.status = tone;
+        }
+
+        function getActiveDomainInput() {
+            return state.activeTab === 'manual' ? manualDomainInput : aiDomainInput;
+        }
+
+        function buildDataFromManual(normalized) {
+            const displayUrl = normalized?.displayUrl || cleanText(manualDomainInput.value, 180);
+            const domain = normalized?.domain || '';
+            const siteName = cleanText(siteInput.value, 80) || domain || displayUrl || 'Web';
+            const title = cleanText(titleInput.value, 180) || siteName;
+            const summary = cleanText(summaryInput.value, 800);
+            const bodyText = cleanText(bodyInput.value, 50000);
+            return {
+                domain,
+                displayUrl,
+                canonicalUrl: normalized?.canonicalUrl || '',
+                siteName,
+                title,
+                summary,
+                bodyText,
+                prompt: '',
+                generatedBy: 'manual',
+                webPage: buildManualFakeLinkWebPage({ siteName, title, summary, bodyText, displayUrl, theme: 'generic' }),
+                createdAt: Date.now()
+            };
+        }
+
+        function buildDataFromAi(normalized) {
+            const displayUrl = normalized?.displayUrl || cleanText(aiDomainInput.value, 180);
+            const domain = normalized?.domain || '';
+            const generated = state.generatedData || {};
+            const siteName = cleanText(generated.siteName, 80) || domain || displayUrl || 'AI Web';
+            const title = cleanText(generated.title, 180) || siteName;
+            const summary = cleanText(generated.summary, 800);
+            const bodyText = cleanText(generated.bodyText, 50000);
+            const webPage = generated.webPage && generated.webPage.html
+                ? normalizeFakeLinkWebPage(generated.webPage, { source: 'ai' })
+                : null;
+            return {
+                domain,
+                displayUrl,
+                canonicalUrl: normalized?.canonicalUrl || '',
+                siteName,
+                title,
+                summary,
+                bodyText,
+                prompt: cleanText(aiPromptInput.value, 1000),
+                includeCharPersona: !!includeCharPersonaInput?.checked,
+                includeUserPersona: !!includeUserPersonaInput?.checked,
+                generatedBy: webPage ? 'ai' : 'manual',
+                webPage,
+                createdAt: Date.now()
+            };
+        }
+
+        function getDraftData() {
+            const domainInput = getActiveDomainInput();
+            const normalized = normalizeFakeLinkInput(domainInput.value);
+            const data = state.activeTab === 'manual'
+                ? buildDataFromManual(normalized)
+                : buildDataFromAi(normalized);
+            return { normalized, data };
+        }
+
+        function renderMiniPreview(webPage) {
+            if (!miniPreview || !miniFrame) return;
+            if (!webPage || !webPage.html) {
+                miniPreview.hidden = true;
+                miniFrame.innerHTML = '';
+                return;
+            }
+            miniPreview.hidden = false;
+            miniFrame.innerHTML = '<div class="im-fake-link-web-mini-root">' + sanitizeFakeLinkHtmlForStorage(webPage.html) + '</div>';
+        }
+
+        function renderPreview() {
+            const domainInput = getActiveDomainInput();
+            const draft = getDraftData();
+            const normalized = draft.normalized;
+            const data = draft.data;
+            preview.hidden = !normalized;
+            if (!normalized) {
+                renderMiniPreview(null);
+                if (domainInput.value.trim()) setStatus('请输入有效域名或 http/https 地址', 'error');
+                else setStatus(state.activeTab === 'ai' ? '输入域名和提示词后，点搜索调用 API' : DEFAULT_FAKE_LINK_STATUS, 'idle');
+                return;
+            }
+            previewSite.textContent = data.siteName;
+            previewTitle.textContent = data.title;
+            previewSummary.textContent = data.summary || data.bodyText.slice(0, 120) || '站内仿真网页内容';
+            previewUrl.textContent = data.displayUrl;
+            renderMiniPreview(data.webPage);
+            if (state.activeTab === 'ai') {
+                setStatus(data.webPage ? 'AI 网页已生成，可以发送或重新生成' : '填写提示词后点击搜索生成网页', data.webPage ? 'ready' : 'idle');
+            } else {
+                setStatus('手动网页预览已就绪，可以发送', 'ready');
+            }
+        }
+
+        function setActiveTab(tab) {
+            state.activeTab = tab === 'manual' ? 'manual' : 'ai';
+            tabButtons.forEach((button) => {
+                const active = button.dataset.tab === state.activeTab;
+                button.classList.toggle('active', active);
+                button.setAttribute('aria-selected', active ? 'true' : 'false');
+            });
+            panels.forEach((panel) => {
+                const active = panel.dataset.panel === state.activeTab;
+                panel.classList.toggle('active', active);
+                panel.hidden = !active;
+            });
+            renderPreview();
+        }
+
+        function closeComposer() {
+            const activeElement = document.activeElement;
+            if (activeElement && overlay.contains(activeElement) && typeof activeElement.blur === 'function') {
+                activeElement.blur();
+            }
+            state.sending = false;
+            state.generating = false;
+            overlay.classList.remove('active');
+            setTimeout(() => {
+                if (!overlay.classList.contains('active')) overlay.style.display = 'none';
+            }, 220);
+        }
+
+        async function generateContent() {
+            const normalized = normalizeFakeLinkInput(aiDomainInput.value);
+            if (!normalized) {
+                setStatus('请先输入有效域名', 'error');
+                focusFakeLinkControl(aiDomainInput);
+                return;
+            }
+            if (state.generating) return;
+            state.generating = true;
+            state.generatedData = null;
+            generateButton.disabled = true;
+            setGenerateButtonLoading(true);
+            setStatus('正在让 AI 生成仿真网页…', 'loading');
+            renderPreview();
+            try {
+                const contextOptions = saveFakeLinkContextOptions({
+                    includeCharPersona: !!includeCharPersonaInput?.checked,
+                    includeUserPersona: !!includeUserPersonaInput?.checked
+                });
+                const generated = await requestFakeLinkAiContent({
+                    domain: normalized.displayUrl,
+                    prompt: cleanText(aiPromptInput.value, 1000),
+                    friend: window.imData?.currentActiveFriend || null,
+                    includeCharPersona: contextOptions.includeCharPersona,
+                    includeUserPersona: contextOptions.includeUserPersona
+                });
+                state.generatedData = {
+                    ...generated,
+                    siteName: generated.siteName || normalized.domain,
+                    title: generated.title || normalized.domain,
+                    includeCharPersona: contextOptions.includeCharPersona,
+                    includeUserPersona: contextOptions.includeUserPersona,
+                    webPage: normalizeFakeLinkWebPage(generated.webPage, {
+                        source: 'ai',
+                        domain: normalized.displayUrl,
+                        prompt: cleanText(aiPromptInput.value, 1000),
+                        siteName: generated.siteName || normalized.domain
+                    })
+                };
+                state.generatedBy = 'ai';
+                renderPreview();
+            } catch (error) {
+                console.warn('[iMessage fake link] AI generation failed', error);
+                const message = error && error.message === 'API_NOT_CONFIGURED'
+                    ? '未配置 API，请到设置里填写后再生成'
+                    : 'AI 生成失败，可切到手动填入';
+                setStatus(message, 'error');
+                if (window.showToast) window.showToast(message);
+            } finally {
+                state.generating = false;
+                generateButton.disabled = false;
+                setGenerateButtonLoading(false);
+            }
+        }
+
+        async function sendFakeLinkMessage() {
+            if (state.sending) return;
+            const draft = getDraftData();
+            const normalized = draft.normalized;
+            const data = draft.data;
+            const domainInput = getActiveDomainInput();
+            if (!normalized) {
+                setStatus('请先输入有效域名', 'error');
+                focusFakeLinkControl(domainInput);
+                return;
+            }
+            if (state.activeTab === 'ai' && (!data.webPage || !data.webPage.html)) {
+                setStatus('请先点击搜索生成网页', 'error');
+                focusFakeLinkControl(generateButton);
+                return;
+            }
+
+            const friend = window.imData.currentActiveFriend;
+            if (!friend || (friend.type === 'group' && Number(friend.leftGroupAt) > 0)) {
+                if (window.showToast) window.showToast('当前聊天无法发送链接');
+                return;
+            }
+
+            state.sending = true;
+            sendButton.disabled = true;
+            sendButton.textContent = '发送中…';
+            const now = Date.now();
+            const fakeLinkData = { ...data, createdAt: now };
+            const msgObj = {
+                id: imChat.createMessageId ? imChat.createMessageId('fake-link') : 'fake-link-' + now,
+                role: 'user',
+                type: 'fake_link',
+                content: fakeLinkData.displayUrl,
+                text: '[假链接] ' + fakeLinkData.siteName + '：' + fakeLinkData.title,
+                fakeLinkData,
+                timestamp: now
+            };
+
+            const saved = window.imApp.appendFriendMessage
+                ? await window.imApp.appendFriendMessage(friend.id, msgObj, { silent: true })
+                : false;
+            if (!saved) {
+                if (window.showToast) window.showToast('链接消息保存失败');
+                state.sending = false;
+                sendButton.disabled = false;
+                sendButton.textContent = '发送';
+                return;
+            }
+
+            const activePage = overlay._imFakeLinkPage || document.getElementById('chat-interface-' + friend.id) || page;
+            const container = activePage ? activePage.querySelector('.ins-chat-messages') : null;
+            if (container) {
+                const appended = imChat.appendMessageToContainer
+                    ? imChat.appendMessageToContainer(friend, container, msgObj, { scroll: true })
+                    : false;
+                if (!appended && imChat.rerenderChatContainer) {
+                    imChat.rerenderChatContainer(friend, container, { scroll: true });
+                }
+            }
+
+            closeComposer();
+            state.sending = false;
+            sendButton.disabled = false;
+            sendButton.textContent = '发送';
+        }
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => setActiveTab(button.dataset.tab));
+        });
+        [aiDomainInput, aiPromptInput, manualDomainInput, siteInput, titleInput, summaryInput, bodyInput].forEach((node) => {
+            node.addEventListener('input', () => {
+                if (state.activeTab === 'ai' && (node === aiDomainInput || node === aiPromptInput)) {
+                    state.generatedData = null;
+                }
+                renderPreview();
+            });
+        });
+        generateButton.addEventListener('click', () => void generateContent());
+        sendButton.addEventListener('click', () => void sendFakeLinkMessage());
+        closeButton.addEventListener('click', closeComposer);
+        cancelButton.addEventListener('click', closeComposer);
+        backdrop.addEventListener('click', closeComposer);
+
+        overlay._openFakeLinkComposer = () => {
+            state.activeTab = 'ai';
+            state.generatedBy = 'manual';
+            state.generatedData = null;
+            state.sending = false;
+            state.generating = false;
+            aiDomainInput.value = '';
+            aiPromptInput.value = '';
+            manualDomainInput.value = '';
+            siteInput.value = '';
+            titleInput.value = '';
+            summaryInput.value = '';
+            bodyInput.value = '';
+            const nextContextOptions = loadFakeLinkContextOptions();
+            if (includeCharPersonaInput) includeCharPersonaInput.checked = nextContextOptions.includeCharPersona;
+            if (includeUserPersonaInput) includeUserPersonaInput.checked = nextContextOptions.includeUserPersona;
+            sendButton.disabled = false;
+            sendButton.textContent = '发送';
+            generateButton.disabled = false;
+            setGenerateButtonLoading(false);
+            setActiveTab('ai');
+            overlay.style.display = 'flex';
+            void overlay.offsetWidth;
+            overlay.classList.add('active');
+        };
+
+        return overlay;
+    }
+
+    function openFakeLinkComposer() {
+        const friend = window.imData.currentActiveFriend;
+        if (!friend) return;
+        const page = document.getElementById('chat-interface-' + friend.id);
+        if (!page) return;
+        const overlay = createFakeLinkComposer(page);
+        overlay._imFakeLinkPage = page;
+        overlay._openFakeLinkComposer();
+    }
+
+    imChat.normalizeFakeLinkInput = normalizeFakeLinkInput;
+    imChat.normalizeFakeLinkDomain = normalizeFakeLinkDomain;
+    imChat.buildFakeLinkPrompt = buildFakeLinkPrompt;
+    imChat.buildRandomFakeLinkImageUrl = buildRandomFakeLinkImageUrl;
+    imChat.isAllowedFakeLinkImageUrl = isAllowedFakeLinkImageUrl;
+    imChat.injectRandomFakeLinkImages = injectRandomFakeLinkImages;
+    imChat.buildManualFakeLinkWebPage = buildManualFakeLinkWebPage;
+    imChat.normalizeFakeLinkWebPage = normalizeFakeLinkWebPage;
+    imChat.sanitizeFakeLinkHtmlForStorage = sanitizeFakeLinkHtmlForStorage;
+    imChat.sanitizeFakeLinkCssForStorage = sanitizeFakeLinkCssForStorage;
+    imChat.openFakeLinkComposer = openFakeLinkComposer;
+});

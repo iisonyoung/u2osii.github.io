@@ -1,1 +1,301 @@
-const _0x5999c7=_0x4275;(function(_0x4b067e,_0x4e8159){const _0x27c3de=_0x4275,_0x447055=_0x4b067e();while(!![]){try{const _0x2932ec=parseInt(_0x27c3de(0x192))/0x1+-parseInt(_0x27c3de(0x1c0))/0x2*(-parseInt(_0x27c3de(0x140))/0x3)+parseInt(_0x27c3de(0x171))/0x4+-parseInt(_0x27c3de(0x197))/0x5+parseInt(_0x27c3de(0x17a))/0x6*(parseInt(_0x27c3de(0x163))/0x7)+-parseInt(_0x27c3de(0x1b0))/0x8+parseInt(_0x27c3de(0x1a2))/0x9;if(_0x2932ec===_0x4e8159)break;else _0x447055['push'](_0x447055['shift']());}catch(_0x498812){_0x447055['push'](_0x447055['shift']());}}}(_0x5922,0x920d6));const trendRefreshBtn=document[_0x5999c7(0x151)]('yt-trending-refresh-btn'),trendList=document['getElementById'](_0x5999c7(0x184));function _0x5922(){const _0x561f6b=['5.1K','I\x20do\x20crazy\x20challenges\x20and\x20give\x20away\x20money.','请根据世界书生成八个正在直播的频道（NO.1-8）。\x0a要求返回严格的JSON格式，必须完全符合以下结构：\x0a{\x0a\x20\x20\x22trending\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22rank\x22:\x201,\x0a\x20\x20\x20\x20\x20\x20\x22name\x22:\x20\x22频道名称\x22,\x0a\x20\x20\x20\x20\x20\x20\x22handle\x22:\x20\x22账号名不带@\x22,\x0a\x20\x20\x20\x20\x20\x20\x22desc\x22:\x20\x22频道简介或主播人设\x22,\x0a\x20\x20\x20\x20\x20\x20\x22subs\x22:\x20\x22254万\x22,\x0a\x20\x20\x20\x20\x20\x20\x22videos\x22:\x20\x22120\x22,\x0a\x20\x20\x20\x20\x20\x20\x22isLive\x22:\x20true\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}\x0a注意：isLive\x20必须全部设为\x20true。\x0a','gpt-3.5-turbo','apiConfig','6000万','name','filter','7453552wuDUkA','cachedTrendingLive','endpoint','stopPropagation','entries','handle','application/json','Just\x20playing\x20games\x20for\x20fun.','avatarUrl','getGlobalWorldBookContext','top-2','remove','find','400','boundWorldBookIds','gawrgura','901436FAxzIX','<div\x20style=\x22text-align:center;\x20padding:\x2040px;\x20color:#8e8e93;\x22>没有生成到有效榜单，请重试</div>','mrbeast','290万','<div\x20style=\x22text-align:center;\x20padding:\x2040px;\x20color:#8e8e93;\x22><i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22\x20style=\x22font-size:24px;\x20margin-bottom:10px;\x22></i><p>正在拉取最新榜单数据...</p></div>','/v1/chat/completions','addEventListener','trending','object','replace','6LItKnw','avatar','yt-trend-filter-sub','jacksepticeye','markiplier','isArray','PewDiePie','yt-trend-filter-live','MKBHD','json','subs','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20margin-top:\x2040px;\x22>点击右上角魔法棒生成最新榜单</div>','getWorldBooks','persona','message','780','live','getElementById','400万','innerHTML','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<div\x20class=\x22yt-live-badge\x22\x20style=\x22position:static;\x20margin-left:10px;\x22><i\x20class=\x22fas\x20fa-broadcast-tower\x22></i></div>','<div\x20style=\x22text-align:center;\x20padding:\x2040px;\x20color:#ff3b30;\x22>生成失败，请重试</div>','char_trend_','POST','/v1','click','div','/chat/completions','endsWith','IShowSpeed','Valkyrae','JSON\x20Parse\x20Error\x20in\x20Trending:','https://picsum.photos/seed/','Shark\x20girl\x20from\x20Atlantis.\x20Chumbuds\x20assemble!','2341892FkRNFK','showToast','Sykkuno','length','大模型返回的格式有误，请重试','banner','classList','\x20•\x20','Tech\x20reviews\x20and\x20crispy\x20videos.','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20500;\x20color:\x20#0f0f0f;\x20white-space:\x20nowrap;\x20text-overflow:\x20ellipsis;\x20overflow:\x20hidden;\x22>','channel','choices','pewdiepie','/80/80','840384bzhZhp','active','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#606060;\x20margin-top:\x202px;\x22>@','top-1','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22yt-trending-rank\x20','dudeperfect','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22yt-video-avatar\x22\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','desc','slice','6OVnxFD','yt-trending-list-item','trim','match','Gaming,\x20lifestyle\x20and\x20good\x20vibes.','3000万','\x0a不要包含任何Markdown标记。','5.4K','content','top-3','yt-trending-list','1.11亿','className','ishowspeed','sykkuno','Gawr\x20Gura','请根据世界书生成NO.1-8订阅最多的人。\x0a要求返回严格的JSON格式，必须完全符合以下结构：\x0a{\x0a\x20\x20\x22trending\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22rank\x22:\x201,\x0a\x20\x20\x20\x20\x20\x20\x22name\x22:\x20\x22频道名称\x22,\x0a\x20\x20\x20\x20\x20\x20\x22handle\x22:\x20\x22账号名不带@\x22,\x0a\x20\x20\x20\x20\x20\x20\x22desc\x22:\x20\x22频道简介或主播人设\x22,\x0a\x20\x20\x20\x20\x20\x20\x22subs\x22:\x20\x22254万\x22,\x0a\x20\x20\x20\x20\x20\x20\x22videos\x22:\x20\x22120\x22,\x0a\x20\x20\x20\x20\x20\x20\x22isLive\x22:\x20false\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}\x0a注意：isLive\x20必须全部设为\x20false。\x0a','videos','sub','valkyrae','1.2K','model','function','】:\x0a','158117VkzpTA','error','MrBeast','API\x20Request\x20Failed','isLive','4713595aEtDnw','join','2200万','add','keys','Gameplays,\x20memes\x20and\x20everything\x20in\x20between.','cachedTrendingSub','rank','json_object','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','map','7815942SCSUId','keyword','stringify','user','600','char_trend'];_0x5922=function(){return _0x561f6b;};return _0x5922();}let isTrendingLoading=![],currentTrendingType=_0x5999c7(0x150);const trendFilterLive=document[_0x5999c7(0x151)](_0x5999c7(0x147)),trendFilterSub=document[_0x5999c7(0x151)](_0x5999c7(0x142));trendFilterLive&&trendFilterSub&&(trendFilterLive[_0x5999c7(0x1c6)](_0x5999c7(0x15a),()=>{const _0x267ff4=_0x5999c7;trendFilterLive[_0x267ff4(0x169)][_0x267ff4(0x19a)](_0x267ff4(0x172)),trendFilterSub['classList'][_0x267ff4(0x1bb)](_0x267ff4(0x172)),currentTrendingType=_0x267ff4(0x150);if(channelState['cachedTrendingLive']&&channelState[_0x267ff4(0x1b1)][_0x267ff4(0x166)]>0x0)renderTrendingData(channelState[_0x267ff4(0x1b1)]);else trendList&&(trendList[_0x267ff4(0x153)]=_0x267ff4(0x14b));}),trendFilterSub[_0x5999c7(0x1c6)](_0x5999c7(0x15a),()=>{const _0x2dcbf1=_0x5999c7;trendFilterSub[_0x2dcbf1(0x169)][_0x2dcbf1(0x19a)](_0x2dcbf1(0x172)),trendFilterLive['classList'][_0x2dcbf1(0x1bb)](_0x2dcbf1(0x172)),currentTrendingType=_0x2dcbf1(0x18c);if(channelState[_0x2dcbf1(0x19d)]&&channelState[_0x2dcbf1(0x19d)][_0x2dcbf1(0x166)]>0x0)renderTrendingData(channelState[_0x2dcbf1(0x19d)]);else trendList&&(trendList[_0x2dcbf1(0x153)]='<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20margin-top:\x2040px;\x22>点击右上角魔法棒生成最新榜单</div>');}));const mockTrendingData=[{'rank':0x1,'name':_0x5999c7(0x146),'handle':_0x5999c7(0x16f),'desc':_0x5999c7(0x19c),'subs':_0x5999c7(0x185),'videos':'4.7K','isLive':!![]},{'rank':0x2,'name':_0x5999c7(0x194),'handle':_0x5999c7(0x1c2),'desc':_0x5999c7(0x1a9),'subs':'2.5亿','videos':_0x5999c7(0x14f),'isLive':![]},{'rank':0x3,'name':'Markiplier','handle':_0x5999c7(0x144),'desc':'Welcome\x20to\x20Markiplier!\x20Here\x20you\x27ll\x20find\x20hilarious\x20gaming\x20videos.','subs':'3600万','videos':_0x5999c7(0x181),'isLive':![]},{'rank':0x4,'name':_0x5999c7(0x189),'handle':_0x5999c7(0x1bf),'desc':_0x5999c7(0x162),'subs':'440万','videos':'500','isLive':!![]},{'rank':0x5,'name':_0x5999c7(0x148),'handle':_0x5999c7(0x144),'desc':_0x5999c7(0x16b),'subs':'1800万','videos':'1.5K','isLive':![]},{'rank':0x6,'name':_0x5999c7(0x15e),'handle':_0x5999c7(0x187),'desc':'Loud,\x20crazy,\x20and\x20always\x20entertaining.','subs':_0x5999c7(0x199),'videos':_0x5999c7(0x18e),'isLive':!![]},{'rank':0x7,'name':'Jacksepticeye','handle':_0x5999c7(0x143),'desc':'Top\x20of\x20the\x20mornin\x20to\x20ya\x20laddies!','subs':_0x5999c7(0x17f),'videos':_0x5999c7(0x1a8),'isLive':![]},{'rank':0x8,'name':'Dude\x20Perfect','handle':_0x5999c7(0x176),'desc':'5\x20best\x20friends\x20and\x20a\x20panda.','subs':_0x5999c7(0x1ad),'videos':'300','isLive':![]},{'rank':0x9,'name':_0x5999c7(0x15f),'handle':_0x5999c7(0x18d),'desc':_0x5999c7(0x17e),'subs':_0x5999c7(0x152),'videos':_0x5999c7(0x1bd),'isLive':!![]},{'rank':0xa,'name':_0x5999c7(0x165),'handle':_0x5999c7(0x188),'desc':_0x5999c7(0x1b7),'subs':_0x5999c7(0x1c3),'videos':_0x5999c7(0x1a6),'isLive':![]}];function normalizeTrendingArray(_0x2e9a9d,_0x231e7b=currentTrendingType){const _0x1c3f5c=_0x5999c7;if(!Array['isArray'](_0x2e9a9d))return[];return _0x2e9a9d[_0x1c3f5c(0x1af)](_0x35ef0c=>_0x35ef0c&&typeof _0x35ef0c===_0x1c3f5c(0x13e))[_0x1c3f5c(0x1a1)]((_0x2a7747,_0x2d1f1c)=>{const _0x3b480e=_0x1c3f5c,_0x5db079=Number(_0x2a7747[_0x3b480e(0x19e)])||_0x2d1f1c+0x1,_0x1cd55c=String(_0x2a7747['name']||_0x2a7747['nickname']||'频道'+_0x5db079)[_0x3b480e(0x17c)](),_0x313b14=String(_0x2a7747['handle']||_0x1cd55c||_0x3b480e(0x16d)+_0x5db079)[_0x3b480e(0x13f)](/^@/,'')['replace'](/\s+/g,'')['trim']()||_0x3b480e(0x16d)+_0x5db079,_0x1258df=_0x2a7747['id']||(typeof createStableYtChannelId===_0x3b480e(0x190)?createStableYtChannelId(_0x231e7b+'_'+_0x313b14,_0x3b480e(0x1a7)):_0x3b480e(0x157)+_0x231e7b+'_'+_0x313b14),_0x234d6e=_0x2a7747['avatar']||_0x2a7747[_0x3b480e(0x1b8)]||_0x3b480e(0x161)+encodeURIComponent(_0x313b14)+'/80/80';return{..._0x2a7747,'id':_0x1258df,'rank':_0x5db079,'name':_0x1cd55c,'handle':_0x313b14,'avatar':_0x234d6e,'banner':_0x2a7747[_0x3b480e(0x168)]||null,'desc':_0x2a7747[_0x3b480e(0x178)]||_0x2a7747[_0x3b480e(0x14d)]||'','subs':_0x2a7747[_0x3b480e(0x14a)]||'0','videos':_0x2a7747[_0x3b480e(0x18b)]||'10','isLive':_0x231e7b===_0x3b480e(0x150)?!![]:!!_0x2a7747['isLive']};});}function persistTrendingCache(_0x46d455,_0x4a9308){const _0x4f5f47=_0x5999c7,_0x1a3f86=normalizeTrendingArray(_0x4a9308,_0x46d455);_0x46d455==='live'?channelState[_0x4f5f47(0x1b1)]=_0x1a3f86:channelState[_0x4f5f47(0x19d)]=_0x1a3f86;if(typeof saveYoutubeData===_0x4f5f47(0x190))saveYoutubeData();return _0x1a3f86;}function renderTrendingData(_0x346898){const _0x53a9db=_0x5999c7;if(!trendList)return;trendList['innerHTML']='';const _0x109231=normalizeTrendingArray(_0x346898);_0x109231['length']>0x0?_0x109231['forEach']((_0x45b2ce,_0x27d481)=>{const _0x4d8c57=_0x4275,_0x54b788=_0x45b2ce[_0x4d8c57(0x141)]||'https://picsum.photos/seed/'+encodeURIComponent(_0x45b2ce[_0x4d8c57(0x1b5)])+_0x4d8c57(0x170),_0x3e4b2a=document['createElement'](_0x4d8c57(0x15b));_0x3e4b2a[_0x4d8c57(0x186)]=_0x4d8c57(0x17b);let _0x7e946a='';if(_0x45b2ce[_0x4d8c57(0x19e)]===0x1)_0x7e946a=_0x4d8c57(0x174);if(_0x45b2ce[_0x4d8c57(0x19e)]===0x2)_0x7e946a=_0x4d8c57(0x1ba);if(_0x45b2ce['rank']===0x3)_0x7e946a=_0x4d8c57(0x183);_0x3e4b2a['innerHTML']=_0x4d8c57(0x175)+_0x7e946a+'\x22>'+_0x45b2ce[_0x4d8c57(0x19e)]+_0x4d8c57(0x177)+_0x54b788+_0x4d8c57(0x16c)+_0x45b2ce[_0x4d8c57(0x1ae)]+_0x4d8c57(0x173)+_0x45b2ce['handle']+_0x4d8c57(0x16a)+_0x45b2ce[_0x4d8c57(0x14a)]+'\x20订阅</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20margin-top:\x202px;\x20white-space:\x20nowrap;\x20text-overflow:\x20ellipsis;\x20overflow:\x20hidden;\x22>'+_0x45b2ce['desc']+_0x4d8c57(0x154)+(_0x45b2ce[_0x4d8c57(0x196)]?_0x4d8c57(0x155):'')+_0x4d8c57(0x1a0),_0x3e4b2a[_0x4d8c57(0x1c6)](_0x4d8c57(0x15a),()=>{const _0x36aab7=_0x4d8c57;let _0x4f946c=typeof buildYtChannelFromTrendingItem==='function'?buildYtChannelFromTrendingItem(_0x45b2ce,currentTrendingType,_0x27d481):{..._0x45b2ce,'avatar':_0x54b788,'isSubscribed':![]};if(typeof mergeYtChannelIntoSubscriptions==='function')_0x4f946c=mergeYtChannelIntoSubscriptions(_0x4f946c,{'save':!![],'preferExistingSubscription':!![]})||_0x4f946c;else typeof saveYoutubeData===_0x36aab7(0x190)&&saveYoutubeData();openSubChannelView(_0x4f946c);}),trendList['appendChild'](_0x3e4b2a);}):trendList[_0x53a9db(0x153)]='<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20margin-top:\x2040px;\x22>点击右上角魔法棒生成最新榜单</div>';}function _0x4275(_0x5f0f42,_0x4a4ab5){_0x5f0f42=_0x5f0f42-0x13d;const _0x59220f=_0x5922();let _0x4275a5=_0x59220f[_0x5f0f42];return _0x4275a5;}if(trendList){const initialTrending=channelState[_0x5999c7(0x1b1)]||channelState[_0x5999c7(0x19d)];Array[_0x5999c7(0x145)](initialTrending)&&initialTrending[_0x5999c7(0x166)]>0x0&&(!channelState[_0x5999c7(0x1b1)]&&channelState[_0x5999c7(0x19d)]&&(currentTrendingType=_0x5999c7(0x18c),trendFilterSub&&trendFilterLive&&(trendFilterSub[_0x5999c7(0x169)][_0x5999c7(0x19a)](_0x5999c7(0x172)),trendFilterLive[_0x5999c7(0x169)]['remove'](_0x5999c7(0x172)))),renderTrendingData(initialTrending));}trendRefreshBtn&&trendList&&trendRefreshBtn[_0x5999c7(0x1c6)](_0x5999c7(0x15a),async _0x345aa9=>{const _0x2feda6=_0x5999c7;if(_0x345aa9)_0x345aa9[_0x2feda6(0x1b3)]();if(isTrendingLoading)return;if(!window[_0x2feda6(0x1ac)]||!window[_0x2feda6(0x1ac)]['endpoint']||!window[_0x2feda6(0x1ac)]['apiKey']){if(window[_0x2feda6(0x164)])window[_0x2feda6(0x164)]('请先配置\x20API，当前显示默认榜单');const _0x479d7d=persistTrendingCache(currentTrendingType,mockTrendingData);renderTrendingData(_0x479d7d);return;}let _0x5a381a='';if(typeof window['getGlobalWorldBookContext']===_0x2feda6(0x190))_0x5a381a=window[_0x2feda6(0x1b9)]()||'';else{if(channelState&&channelState[_0x2feda6(0x1be)]&&Array[_0x2feda6(0x145)](channelState['boundWorldBookIds'])&&window[_0x2feda6(0x14c)]){const _0x299629=window[_0x2feda6(0x14c)]();channelState['boundWorldBookIds']['forEach'](_0x1a54e6=>{const _0x4209c2=_0x2feda6,_0x4d2d3b=_0x299629[_0x4209c2(0x1bc)](_0x43e3bd=>_0x43e3bd['id']===_0x1a54e6);_0x4d2d3b&&_0x4d2d3b['entries']&&(_0x5a381a+='\x0a【'+_0x4d2d3b[_0x4209c2(0x1ae)]+_0x4209c2(0x191)+_0x4d2d3b[_0x4209c2(0x1b4)]['map'](_0x5365c0=>_0x5365c0[_0x4209c2(0x1a3)]+':\x20'+_0x5365c0[_0x4209c2(0x182)])[_0x4209c2(0x198)]('\x0a'));});}}isTrendingLoading=!![],trendList[_0x2feda6(0x153)]=_0x2feda6(0x1c4);let _0x16e6a2='';currentTrendingType===_0x2feda6(0x150)?_0x16e6a2=_0x2feda6(0x1aa)+_0x5a381a+_0x2feda6(0x180):_0x16e6a2=_0x2feda6(0x18a)+_0x5a381a+_0x2feda6(0x180);try{let _0x1062be=window[_0x2feda6(0x1ac)][_0x2feda6(0x1b2)];if(_0x1062be[_0x2feda6(0x15d)]('/'))_0x1062be=_0x1062be[_0x2feda6(0x179)](0x0,-0x1);!_0x1062be[_0x2feda6(0x15d)](_0x2feda6(0x15c))&&(_0x1062be=_0x1062be[_0x2feda6(0x15d)](_0x2feda6(0x159))?_0x1062be+_0x2feda6(0x15c):_0x1062be+_0x2feda6(0x1c5));const _0x611b2b=await fetch(_0x1062be,{'method':_0x2feda6(0x158),'headers':{'Content-Type':_0x2feda6(0x1b6),'Authorization':'Bearer\x20'+window[_0x2feda6(0x1ac)]['apiKey']},'body':JSON[_0x2feda6(0x1a4)]({'model':window[_0x2feda6(0x1ac)][_0x2feda6(0x18f)]||_0x2feda6(0x1ab),'messages':[{'role':_0x2feda6(0x1a5),'content':_0x16e6a2}],'temperature':0.9,'response_format':{'type':_0x2feda6(0x19f)}})});if(!_0x611b2b['ok'])throw new Error(_0x2feda6(0x195));const _0x498f40=await _0x611b2b[_0x2feda6(0x149)]();let _0x3ef88d=_0x498f40[_0x2feda6(0x16e)][0x0][_0x2feda6(0x14e)]['content'],_0x5a7313=_0x3ef88d[_0x2feda6(0x17d)](/\{[\s\S]*\}|\[[\s\S]*\]/),_0x1ac141=_0x5a7313?_0x5a7313[0x0]:_0x3ef88d;_0x1ac141=_0x1ac141['replace'](/```json/gi,'')['replace'](/```/g,'')['trim']();let _0x403ada;try{_0x403ada=sanitizeObj(JSON['parse'](_0x1ac141));}catch(_0x567dcf){console[_0x2feda6(0x193)](_0x2feda6(0x160),_0x567dcf,_0x1ac141);if(window[_0x2feda6(0x164)])window[_0x2feda6(0x164)](_0x2feda6(0x167));trendList[_0x2feda6(0x153)]='<div\x20style=\x22text-align:center;\x20padding:\x2040px;\x20color:#ff3b30;\x22><i\x20class=\x22fas\x20fa-exclamation-triangle\x22\x20style=\x22font-size:24px;\x20margin-bottom:10px;\x22></i><p>生成数据解析失败，请点击右上角重新生成</p></div>',isTrendingLoading=![];return;}trendList[_0x2feda6(0x153)]='';let _0x561424=[];if(Array[_0x2feda6(0x145)](_0x403ada))_0x561424=_0x403ada;else{if(_0x403ada[_0x2feda6(0x13d)]&&Array['isArray'](_0x403ada[_0x2feda6(0x13d)]))_0x561424=_0x403ada[_0x2feda6(0x13d)];else{if(typeof _0x403ada===_0x2feda6(0x13e)){const _0x3c8405=Object[_0x2feda6(0x19b)](_0x403ada);_0x3c8405[_0x2feda6(0x166)]>0x0&&Array[_0x2feda6(0x145)](_0x403ada[_0x3c8405[0x0]])?_0x561424=_0x403ada[_0x3c8405[0x0]]:_0x561424=[_0x403ada];}}}if(_0x561424[_0x2feda6(0x166)]>0x0){const _0x5804b3=persistTrendingCache(currentTrendingType,_0x561424);renderTrendingData(_0x5804b3);}else trendList['innerHTML']=_0x2feda6(0x1c1);}catch(_0xee14e9){console[_0x2feda6(0x193)](_0xee14e9),trendList[_0x2feda6(0x153)]=_0x2feda6(0x156);}finally{isTrendingLoading=![];}});
+// === Trending (榜单) Logic ===
+    const trendRefreshBtn = document.getElementById('yt-trending-refresh-btn');
+    const trendList = document.getElementById('yt-trending-list');
+    let isTrendingLoading = false;
+    let currentTrendingType = 'live';
+
+    const trendFilterLive = document.getElementById('yt-trend-filter-live');
+    const trendFilterSub = document.getElementById('yt-trend-filter-sub');
+
+    if (trendFilterLive && trendFilterSub) {
+        trendFilterLive.addEventListener('click', () => {
+            trendFilterLive.classList.add('active');
+            trendFilterSub.classList.remove('active');
+            currentTrendingType = 'live';
+            if (channelState.cachedTrendingLive && channelState.cachedTrendingLive.length > 0) {
+                renderTrendingData(channelState.cachedTrendingLive);
+            } else if (trendList) {
+                trendList.innerHTML = '<div style="text-align: center; color: #8e8e93; margin-top: 40px;">点击右上角魔法棒生成最新榜单</div>';
+            }
+        });
+        trendFilterSub.addEventListener('click', () => {
+            trendFilterSub.classList.add('active');
+            trendFilterLive.classList.remove('active');
+            currentTrendingType = 'sub';
+            if (channelState.cachedTrendingSub && channelState.cachedTrendingSub.length > 0) {
+                renderTrendingData(channelState.cachedTrendingSub);
+            } else if (trendList) {
+                trendList.innerHTML = '<div style="text-align: center; color: #8e8e93; margin-top: 40px;">点击右上角魔法棒生成最新榜单</div>';
+            }
+        });
+    }
+
+    // 默认的 Mock 榜单数据
+    const mockTrendingData = [
+        { rank: 1, name: 'PewDiePie', handle: 'pewdiepie', desc: 'Gameplays, memes and everything in between.', subs: '1.11亿', videos: '4.7K', isLive: true },
+        { rank: 2, name: 'MrBeast', handle: 'mrbeast', desc: 'I do crazy challenges and give away money.', subs: '2.5亿', videos: '780', isLive: false },
+        { rank: 3, name: 'Markiplier', handle: 'markiplier', desc: 'Welcome to Markiplier! Here you\'ll find hilarious gaming videos.', subs: '3600万', videos: '5.4K', isLive: false },
+        { rank: 4, name: 'Gawr Gura', handle: 'gawrgura', desc: 'Shark girl from Atlantis. Chumbuds assemble!', subs: '440万', videos: '500', isLive: true },
+        { rank: 5, name: 'MKBHD', handle: 'markiplier', desc: 'Tech reviews and crispy videos.', subs: '1800万', videos: '1.5K', isLive: false },
+        { rank: 6, name: 'IShowSpeed', handle: 'ishowspeed', desc: 'Loud, crazy, and always entertaining.', subs: '2200万', videos: '1.2K', isLive: true },
+        { rank: 7, name: 'Jacksepticeye', handle: 'jacksepticeye', desc: 'Top of the mornin to ya laddies!', subs: '3000万', videos: '5.1K', isLive: false },
+        { rank: 8, name: 'Dude Perfect', handle: 'dudeperfect', desc: '5 best friends and a panda.', subs: '6000万', videos: '300', isLive: false },
+        { rank: 9, name: 'Valkyrae', handle: 'valkyrae', desc: 'Gaming, lifestyle and good vibes.', subs: '400万', videos: '400', isLive: true },
+        { rank: 10, name: 'Sykkuno', handle: 'sykkuno', desc: 'Just playing games for fun.', subs: '290万', videos: '600', isLive: false }
+    ];
+
+    function normalizeTrendingArray(trendingArray, type = currentTrendingType) {
+        if (!Array.isArray(trendingArray)) return [];
+        return trendingArray
+            .filter(item => item && typeof item === 'object')
+            .map((item, index) => {
+                const rank = Number(item.rank) || index + 1;
+                const name = String(item.name || item.nickname || `频道${rank}`).trim();
+                const handle = String(item.handle || name || `channel${rank}`).replace(/^@/, '').replace(/\s+/g, '').trim() || `channel${rank}`;
+                const id = item.id || (typeof createStableYtChannelId === 'function'
+                    ? createStableYtChannelId(`${type}_${handle}`, 'char_trend')
+                    : `char_trend_${type}_${handle}`);
+                const avatar = item.avatar || item.avatarUrl || `https://picsum.photos/seed/${encodeURIComponent(handle)}/80/80`;
+
+                return {
+                    ...item,
+                    id,
+                    rank,
+                    name,
+                    handle,
+                    avatar,
+                    banner: item.banner || null,
+                    desc: item.desc || item.persona || '',
+                    subs: item.subs || '0',
+                    videos: item.videos || '10',
+                    isLive: type === 'live' ? true : !!item.isLive
+                };
+            });
+    }
+
+    function persistTrendingCache(type, trendingArray) {
+        const normalized = normalizeTrendingArray(trendingArray, type);
+        if (type === 'live') {
+            channelState.cachedTrendingLive = normalized;
+        } else {
+            channelState.cachedTrendingSub = normalized;
+        }
+        if (typeof saveYoutubeData === 'function') saveYoutubeData();
+        return normalized;
+    }
+
+    function renderTrendingData(trendingArray) {
+        if (!trendList) return;
+        trendList.innerHTML = '';
+
+        const normalizedTrending = normalizeTrendingArray(trendingArray);
+        
+        if (normalizedTrending.length > 0) {
+            normalizedTrending.forEach((item, index) => {
+                const avatarUrl = item.avatar || `https://picsum.photos/seed/${encodeURIComponent(item.handle)}/80/80`;
+                
+                const el = document.createElement('div');
+                el.className = 'yt-trending-list-item';
+                
+                let rankClass = '';
+                if (item.rank === 1) rankClass = 'top-1';
+                if (item.rank === 2) rankClass = 'top-2';
+                if (item.rank === 3) rankClass = 'top-3';
+
+                el.innerHTML = `
+                    <div class="yt-trending-rank ${rankClass}">${item.rank}</div>
+                    <div class="yt-video-avatar" style="width: 50px; height: 50px; flex-shrink: 0;">
+                        <img src="${avatarUrl}">
+                    </div>
+                    <div style="flex: 1; overflow: hidden;">
+                        <div style="font-size: 16px; font-weight: 500; color: #0f0f0f; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">${item.name}</div>
+                        <div style="font-size: 12px; color: #606060; margin-top: 2px;">@${item.handle} • ${item.subs} 订阅</div>
+                        <div style="font-size: 12px; color: #8e8e93; margin-top: 2px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;">${item.desc}</div>
+                    </div>
+                    ${item.isLive ? '<div class="yt-live-badge" style="position:static; margin-left:10px;"><i class="fas fa-broadcast-tower"></i></div>' : ''}
+                `;
+
+                el.addEventListener('click', () => {
+                    let channelData = typeof buildYtChannelFromTrendingItem === 'function'
+                        ? buildYtChannelFromTrendingItem(item, currentTrendingType, index)
+                        : {
+                            ...item,
+                            avatar: avatarUrl,
+                            isSubscribed: false
+                        };
+
+                    if (typeof mergeYtChannelIntoSubscriptions === 'function') {
+                        channelData = mergeYtChannelIntoSubscriptions(channelData, { save: true, preferExistingSubscription: true }) || channelData;
+                    } else if (typeof saveYoutubeData === 'function') {
+                        saveYoutubeData();
+                    }
+
+                    openSubChannelView(channelData);
+                });
+
+                trendList.appendChild(el);
+            });
+        } else {
+            trendList.innerHTML = '<div style="text-align: center; color: #8e8e93; margin-top: 40px;">点击右上角魔法棒生成最新榜单</div>';
+        }
+    }
+
+    if (trendList) {
+        const initialTrending = channelState.cachedTrendingLive || channelState.cachedTrendingSub;
+        if (Array.isArray(initialTrending) && initialTrending.length > 0) {
+            if (!channelState.cachedTrendingLive && channelState.cachedTrendingSub) {
+                currentTrendingType = 'sub';
+                if (trendFilterSub && trendFilterLive) {
+                    trendFilterSub.classList.add('active');
+                    trendFilterLive.classList.remove('active');
+                }
+            }
+            renderTrendingData(initialTrending);
+        }
+    }
+
+    if (trendRefreshBtn && trendList) {
+        trendRefreshBtn.addEventListener('click', async (e) => {
+            if (e) e.stopPropagation();
+            if (isTrendingLoading) return;
+            
+            if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+                if(window.showToast) window.showToast('请先配置 API，当前显示默认榜单');
+                const fallbackTrending = persistTrendingCache(currentTrendingType, mockTrendingData);
+                renderTrendingData(fallbackTrending);
+                return;
+            }
+
+            let wbContext = '';
+            if (typeof window.getGlobalWorldBookContext === 'function') {
+                wbContext = window.getGlobalWorldBookContext() || '';
+            } else if (channelState && channelState.boundWorldBookIds && Array.isArray(channelState.boundWorldBookIds) && window.getWorldBooks) {
+                const wbs = window.getWorldBooks();
+                channelState.boundWorldBookIds.forEach(id => {
+                    const boundWb = wbs.find(w => w.id === id);
+                    if (boundWb && boundWb.entries) {
+                        wbContext += `\n【${boundWb.name}】:\n` + boundWb.entries.map(e => `${e.keyword}: ${e.content}`).join('\n');
+                    }
+                });
+            }
+
+            isTrendingLoading = true;
+            trendList.innerHTML = '<div style="text-align:center; padding: 40px; color:#8e8e93;"><i class="fas fa-spinner fa-spin" style="font-size:24px; margin-bottom:10px;"></i><p>正在拉取最新榜单数据...</p></div>';
+
+
+            let prompt = "";
+            if (currentTrendingType === 'live') {
+                prompt = `请根据世界书生成八个正在直播的频道（NO.1-8）。
+要求返回严格的JSON格式，必须完全符合以下结构：
+{
+  "trending": [
+    {
+      "rank": 1,
+      "name": "频道名称",
+      "handle": "账号名不带@",
+      "desc": "频道简介或主播人设",
+      "subs": "254万",
+      "videos": "120",
+      "isLive": true
+    }
+  ]
+}
+注意：isLive 必须全部设为 true。
+${wbContext}
+不要包含任何Markdown标记。`;
+            } else {
+                prompt = `请根据世界书生成NO.1-8订阅最多的人。
+要求返回严格的JSON格式，必须完全符合以下结构：
+{
+  "trending": [
+    {
+      "rank": 1,
+      "name": "频道名称",
+      "handle": "账号名不带@",
+      "desc": "频道简介或主播人设",
+      "subs": "254万",
+      "videos": "120",
+      "isLive": false
+    }
+  ]
+}
+注意：isLive 必须全部设为 false。
+${wbContext}
+不要包含任何Markdown标记。`;
+            }
+
+            try {
+                let endpoint = window.apiConfig.endpoint;
+                if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                if(!endpoint.endsWith('/chat/completions')) {
+                    endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                }
+
+                const res = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: window.apiConfig.model || 'gpt-3.5-turbo',
+                        messages: [{ role: 'user', content: prompt }],
+                        temperature: 0.9,
+                        response_format: { type: "json_object" } 
+                    })
+                });
+
+                if (!res.ok) throw new Error("API Request Failed");
+                const data = await res.json();
+                
+                // 更健壮的 JSON 提取正则：提取大括号或中括号内的内容，防止大模型前言不搭后语
+                let rawText = data.choices[0].message.content;
+                let jsonMatch = rawText.match(/\{[\s\S]*\}|\[[\s\S]*\]/);
+                let resultText = jsonMatch ? jsonMatch[0] : rawText;
+                
+                // 移除可能的 Markdown 包装
+                resultText = resultText.replace(/```json/gi, '').replace(/```/g, '').trim();
+                
+                let parsed;
+                try {
+                    parsed = sanitizeObj(JSON.parse(resultText));
+                } catch (parseErr) {
+                    console.error("JSON Parse Error in Trending:", parseErr, resultText);
+                    if(window.showToast) window.showToast('大模型返回的格式有误，请重试');
+                    trendList.innerHTML = '<div style="text-align:center; padding: 40px; color:#ff3b30;"><i class="fas fa-exclamation-triangle" style="font-size:24px; margin-bottom:10px;"></i><p>生成数据解析失败，请点击右上角重新生成</p></div>';
+                    isTrendingLoading = false;
+                    return;
+                }
+
+                trendList.innerHTML = '';
+                
+                let trendingArray = [];
+                if (Array.isArray(parsed)) {
+                    trendingArray = parsed;
+                } else if (parsed.trending && Array.isArray(parsed.trending)) {
+                    trendingArray = parsed.trending;
+                } else if (typeof parsed === 'object') {
+                    // Fallback if the object is unexpectedly structured
+                    const keys = Object.keys(parsed);
+                    if (keys.length > 0 && Array.isArray(parsed[keys[0]])) {
+                        trendingArray = parsed[keys[0]];
+                    } else {
+                        trendingArray = [parsed]; 
+                    }
+                }
+
+                if (trendingArray.length > 0) {
+                    const normalizedTrending = persistTrendingCache(currentTrendingType, trendingArray);
+                    renderTrendingData(normalizedTrending);
+                } else {
+                    trendList.innerHTML = '<div style="text-align:center; padding: 40px; color:#8e8e93;">没有生成到有效榜单，请重试</div>';
+                }
+
+            } catch(e) {
+                console.error(e);
+                trendList.innerHTML = '<div style="text-align:center; padding: 40px; color:#ff3b30;">生成失败，请重试</div>';
+            } finally {
+                isTrendingLoading = false;
+            }
+        });
+    }

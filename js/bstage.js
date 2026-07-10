@@ -1,1 +1,5891 @@
-function _0x456f(){const _0x4ade84=['content','duration','POP','maxWidth','bstage-locker-modal','\x20个视频','\x20本人的近况、和其他队友的关系/合作/互动，也可以向\x20','bstage-team-bg-preview','result','image','video-comment-Stan','userState','includes','bstage-edit-profile-avatar-preview','\x20/\x20中文：','该角色已不存在，无法生成回复','<div\x20style=\x22text-align:center;\x20color:#666;\x20padding:20px;\x22>暂无视频</div>','BlueFan','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Header\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-logo\x22\x20id=\x22bstage-back-btn\x22>b.stage</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-header-right\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x20bstage-icon-btn\x22\x20id=\x22bstage-search-generate-btn\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-cog\x20bstage-icon-btn\x22\x20id=\x22bstage-global-settings-btn\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-avatar-placeholder\x22\x20id=\x22bstage-header-profile-container\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Following\x20Bar\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-following-bar\x22\x20id=\x22bstage-following-bar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Add\x20Button\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-team-item\x22\x20id=\x22bstage-create-team-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-create-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-team-name\x22>创建</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Teams\x20will\x20be\x20injected\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Content\x20Area\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-content-area\x22\x20id=\x22bstage-content-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Default\x20Empty\x20State\x20or\x20Team\x20View\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22height:\x20100%;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#333;\x20font-size:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20请选择或创建一个团队\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Floating\x20Bottom\x20Nav\x20(Hidden\x20by\x20default)\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-bottom-nav-container\x22\x20id=\x22bstage-bottom-nav\x22\x20style=\x22display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-bottom-nav\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-nav-indicator\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-nav-item\x20active\x22\x20data-tab=\x22home\x22>Home</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-nav-item\x22\x20data-tab=\x22content\x22>Content</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-nav-item\x22\x20data-tab=\x22shop\x22>Shop</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-nav-item\x22\x20data-tab=\x22pop\x22>Pop</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','已订阅\x20','load','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-small-magic-btn\x22\x20id=\x22bstage-shop-magic-btn\x22\x20style=\x22margin-left:\x205px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','星期二','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20color:\x20#fff;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','visibilityState','.bstage-price-option.selected','<div\x20style=\x22text-align:center;\x20padding:20px;\x20color:#aaa;\x22>暂无可拉取的好友</div>','添加成员','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-item\x22\x20data-shop-id=\x22','rgba(0,\x200,\x200,\x200.9)','生成回复失败','block','test','bstage-char-role-input','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-duration\x22>','\x0a你是一个偶像视频内容生成器。\x0a请根据以下信息，生成视频简介、视频画面的内容描述（分镜/字幕），以及几条粉丝评论。\x0a团队:\x20','\x0a\x0a要求：\x0a1.\x20\x22description\x22:\x20生成一段自然的视频简介，贴合团队/账号和用户想看的类型。\x0a2.\x20\x22content\x22:\x20生成\x205\x20到\x2010\x20条简短的视频画面描述或字幕文本，用于逐条显示在视频画面上。内容要有趣，符合人设。\x0a3.\x20\x22comments\x22:\x20生成\x202\x20到\x203\x20条粉丝评论，包含\x20name、text、trans。非中文\x20text\x20必须提供自然中文翻译，中文\x20text\x20的\x20trans\x20为空字符串。\x0a4.\x20返回严格的\x20JSON\x20格式，不要\x20markdown\x20标记。\x0a格式示例:\x0a{\x0a\x20\x20\x22description\x22:\x20\x22视频简介\x22,\x0a\x20\x20\x22content\x22:\x20[\x22成员A正在大笑\x22,\x20\x22字幕:\x20今天天气真好\x22,\x20\x22成员B突然闯入镜头\x22],\x0a\x20\x20\x22comments\x22:\x20[\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22Fan1\x22,\x20\x22text\x22:\x20\x22太可爱了！\x22,\x20\x22trans\x22:\x20\x22\x22},\x0a\x20\x20\x20\x20{\x22name\x22:\x20\x22Fan2\x22,\x20\x22text\x22:\x20\x22Love\x20this!\x22,\x20\x22trans\x22:\x20\x22太喜欢了！\x22}\x0a\x20\x20]\x0a}\x0a','该角色已不存在，无法打开聊天','warn','files','bstage-back-btn','#333','toggle','\x0a你所在的团队信息是：','bstageDataReadyPromise','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-price\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-content-view\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-top-carousel\x22\x20id=\x22bstage-carousel-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-fan-chat-reply-preview-text','Love\x20this\x20team!!!','fanMessages','\x0a必须返回严格\x20JSON\x20对象，不要\x20markdown，不要解释：\x0a{\x0a\x20\x20\x22otherFanMessages\x22:\x20[\x0a\x20\x20\x20\x20{\x22id\x22:\x20\x22fan_1\x22,\x20\x22name\x22:\x20\x22粉丝昵称\x22,\x20\x22text\x22:\x20\x22直接发给\x20','\x202024\x20Season\x20Greeting','0.55','\x0aAfter\x20Role\x20Rules:\x0a','80%','1m\x20ago','73368eXQoAs','&lt;','确定要删除这个团队吗？','style','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-view\x20.bstage-chat-msg.income\x20img\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','确认生成','粉丝聊天室已清空','\x0a视频标题：',';\x20cursor:\x20pointer;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#2c2c2e','\x22\x20data-cat=\x22','查看其他人消息已','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','团队已生成','app-view\x20bstage-chat-view','parse','missing_api_config','bstage-search-query-input','Bearer\x20','bstage-chat-days','char','withdrawnCny','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-quote\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>回复\x20','bstage-friend-list','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-msg-reply-btn\x22\x20type=\x22button\x22\x20aria-label=\x22回复消息\x22\x20title=\x22回复消息\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-reply\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','生成失败','otherFansEnabled','keyCode','未命名商品','category','isArray','bstage-video-detail-magic-btn','bstage-fan-trans-switch','formatChatBubbleTime','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-sub-btn\x22\x20id=\x22bstage-locked-sub-btn\x22\x20style=\x22background-color:\x20#007aff;\x20color:\x20#fff;\x20padding:\x2010px\x2024px;\x22>去订阅</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','too_few_other_fans','left','\x0a\x0aUser\x20团队成员：\x0a','#1c1c1e','Luna','[id:','请输入新的系列名称:','暂无可提现收益','bstage-fan-detail-name','&quot;','当前粉丝','\x0a团队人数：','该角色已不存在，无法发送消息','星期一','Fan','bstage-generate-type-title','91ldahVR','abs','getAttribute','video-comment-','active','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20600;\x20color:\x20#fff;\x20font-size:\x2015px;\x22>','top','video-comment-K-Pop\x20Fan','\x20的粉丝或订阅者群体，不是\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-text\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#fff;\x20font-weight:\x20bold;\x20margin-bottom:\x204px;\x22>','请先在系统设置中配置\x20API\x20或检查预设','Behind\x20The\x20Scenes\x20Ep.1','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-team-name\x22>','backgroundColor','bstage-chat-reply-preview','<i\x20class=\x22fas\x20fa-user\x22></i>','border','after_role','ctrlKey','.bstage-nav-item[data-tab=\x22home\x22]','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-time\x22>','placeholder','avatarEmoji','#bstage-edit-profile-avatar-upload\x20i','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-fan-chat-view\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','https://picsum.photos/seed/','bstage-vid-publisher-name','17323240zTVEnc','\x0a你是一个偶像团体的内容策划。\x0a请根据以下团队信息和角色人设，以及系列主题，生成2-3个相关的视频物料。\x0a团队名称:\x20','bstage-search-confirm-btn','string','invalid_fan_chat_payload','评论\x20(','backgroundPosition','globalDataReadyPromise','generatedContent','bstage-chars-preview-list','bstage-chat-menu-btn','#bstage-shop-detail-img\x20.bstage-shop-detail-placeholder','bstageOrders','background-color:#222;','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2090%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>CSS\x20预设管理</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22\x20style=\x22padding-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2010px;\x20margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-preset-tab\x20active\x22\x20data-type=\x22chatCss\x22\x20style=\x22flex:\x201;\x20padding:\x208px;\x20background:\x20#fff;\x20color:\x20#000;\x20border-radius:\x208px;\x20border:\x20none;\x20font-weight:\x20bold;\x22>聊天界面</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-preset-tab\x22\x20data-type=\x22avatarFrameCss\x22\x20style=\x22flex:\x201;\x20padding:\x208px;\x20background:\x20#2c2c2e;\x20color:\x20#fff;\x20border-radius:\x208px;\x20border:\x20none;\x20font-weight:\x20bold;\x22>头像框</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-preset-tab\x22\x20data-type=\x22bubbleCss\x22\x20style=\x22flex:\x201;\x20padding:\x208px;\x20background:\x20#2c2c2e;\x20color:\x20#fff;\x20border-radius:\x208px;\x20border:\x20none;\x20font-weight:\x20bold;\x22>气泡</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-preset-list\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x20margin-bottom:\x2015px;\x20max-height:\x20200px;\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20预设列表将在这里渲染\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-preset-name-input\x22\x20placeholder=\x22预设名称\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x208px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22bstage-preset-css-input\x22\x20placeholder=\x22输入\x20CSS\x20代码...\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x208px\x200;\x20height:\x20100px;\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-save-preset-btn\x22\x20style=\x22background-color:\x20#007aff;\x20color:\x20#fff;\x20margin-top:\x2015px;\x22>保存为新预设</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','b.stage\x20数据正在加载，请稍候','bstage-my-orders-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','temperature','bstage-team-bg-upload','scrollTo','\x0a\x0a要求：\x0a1.\x20如果用户填写了想看的类型，商品必须围绕该类型生成；如果留空，则随机生成有吸引力的商品。\x0a2.\x20价格要合理（韩元），格式如\x20\x22₩45,000\x22。\x0a3.\x20category\x20应该使用已有分类或根据用户想看的类型给出自然分类。\x0a4.\x20desc\x20是商品详情简介。\x0a5.\x20返回严格的\x20JSON\x20数组格式，不要\x20markdown\x20标记。\x0a格式示例:\x0a[\x0a\x20\x20{\x22name\x22:\x20\x22商品名称1\x22,\x20\x22price\x22:\x20\x22₩35,000\x22,\x20\x22category\x22:\x20\x22周边\x22,\x20\x22desc\x22:\x20\x22商品详情\x22},\x0a\x20\x20{\x22name\x22:\x20\x22商品名称2\x22,\x20\x22price\x22:\x20\x22₩12,000\x22,\x20\x22category\x22:\x20\x22其他\x22,\x20\x22desc\x22:\x20\x22商品详情\x22}\x0a]\x0a','bstage-detail-avatar','。\x0a3.\x20name\x20是团队名或艺名，desc\x20是团队/明星信息。\x0a4.\x20每个成员必须包含\x20name\x20和\x20role，role\x20是可供\x20AI\x20扮演使用的人设。\x0a5.\x20','bstage-vid-comment-send-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-status-text\x22>已发送</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-time\x22>','bstage-chat-back-btn','\x20Official\x20Light\x20Stick','\x0a你的人设是：','false','63zJLkfY','views','想看什么类型的视频内容','stringify','bstage-vid-comments-header','星期日','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22height:\x20100%;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#666;\x20background-color:\x20#000;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','chatCssId','bstage-shop-magic-btn','bstage-locker-item','button','fixed','<div\x20class=\x22',']\x20[','name','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','bstage-comment-user-avatar','可提现\x20','-shop-photo-set','system','12px','All\x20Videos','target','getBoundingClientRect','\x0a团队信息：','API\x20Error','bstage-generate-type-label','Star','addEventListener','bstage-edit-team-avatar-upload','<div\x20style=\x22color:\x20#888;\x20font-size:\x2013px;\x20padding:\x2010px\x200;\x22>暂无照片</div>','replyTo','backgroundImage','\x20的界面把很多粉丝消息汇总成聊天室。\x0a3.\x20如果\x20User\x20的某条消息带有\x20replyTo，说明\x20User\x20翻牌/回复了某位粉丝；其他粉丝可能猜测被翻牌的是谁、羡慕、起哄、提出翻牌请求，但不要写成所有粉丝都知道完整群聊上下文。\x0a4.\x20一次生成不少于\x2010\x20条、最多\x2014\x20条来自不同粉丝/订阅者的实时聊天室消息。\x0a5.\x20消息要像真实国际化粉丝互动：可以应援、闲聊、提问、刷屏、玩梗、跨语言互动，不要每条都机械回复\x20User\x20上一句话。\x0a6.\x20可以自然评价\x20User\x20的视频物料、讨论已上架周边、期待新物料或询问下一次更新。\x0a7.\x20粉丝知道\x20User\x20团队的名字、简介和成员，可以自然询问\x20','model','autoActivityPresetId','bstage-edit-team-bg-upload','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-text\x22\x20style=\x22padding:\x200;\x20background:\x20transparent;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22bstage-chat-image-clickable\x22\x20src=\x22','未填写','<div\x20class=\x22bstage-pop-status\x22>粉丝聊天室\x20<i\x20class=\x22fas\x20fa-chevron-right\x22></i></div>','customAvatar','bstage-fan-chat-subtitle','<img\x20class=\x22','bstage-chat-reply-cancel-btn','error','video_comment','\x27);\x20background-size:\x20cover;\x20background-position:\x20center;','friends','members','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2070%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>我的订单</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-orders-list\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x20padding:\x200\x2016px\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Orders\x20Injected\x20Here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','bstage-chat-css-select','\x0a人设/资料：','fan_batch','.bstage-video-player-placeholder','请输入预设名称和\x20CSS\x20代码','User\x20正在回复评论：','bstage-edit-video-sheet','bstage-vid-comment-input','opacity','bstage-center-modal-overlay','bstage-fan-chat-css-select','loadFriends','。不回复则省略或填空。\x0a7.\x20你可以发送普通文本气泡，也可以发送图片，但发图片的概率很低，禁止每一条都发图片，比如有很多粉丝希望你发图片再发。\x0a8.\x20如果是图片，请使用\x20\x22type\x22:\x20\x22image\x22\x20并在\x20\x22description\x22\x20字段中写明画面的详细提示词描述（必须是中文描述）。\x0a','\x20本人，也不是单一角色。\x0a2.\x20这不是真正的群聊：每个粉丝从自己的视角像是在和\x20','disabled','未命名成员','bstage-chat-msg\x20income','bstage-fan-bubble-css-select','10:05','maxHeight','当前\x20b.stage\x20团队：','position','bstage-user-team-editing','scrollLeft','bstage-edit-video-cover-preview','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-quote-text\x22>','738256LBrlHq','invalid_team_payload','innerHTML','data-del-series','background','getMinutes','bstage-user-team-','prototype','16px','textAlign','正在生成内容...','<div\x20class=\x22bstage-system-notice\x22>粉丝聊天室已开启</div>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-add-photo-btn\x22\x20id=\x22bstage-add-content-photo-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-confirm-create-btn','scrollWidth','borderColor','click','[图片]','bstageRevenueState','bstageFanChatSettings','.bstage-comment-trans-btn','resolve','这是\x20','\x22\x20data-desc=\x22','bstage-member-','color','已更新成员:\x20','contain','星期三','bstage-save-profile-btn','\x0a\x0a要求：\x0a1.\x20如果用户填写了想看的类型，视频必须围绕该类型生成；如果留空，则随机生成有吸引力的视频内容。\x0a2.\x20生成虚拟的时长(如\x2012:30)、观看量(如\x201.2M)、发布日期(如\x202\x20days\x20ago)。\x0a3.\x20series\x20可以沿用当前系列，也可以根据用户想看的类型给出新系列名。\x0a4.\x20返回严格的\x20JSON\x20数组格式，不要\x20markdown\x20标记。\x0a格式示例:\x0a[\x0a\x20\x20{\x22title\x22:\x20\x22Video\x20Title\x201\x22,\x20\x22duration\x22:\x20\x2210:05\x22,\x20\x22views\x22:\x20\x22500K\x22,\x20\x22date\x22:\x20\x221\x20day\x20ago\x22,\x20\x22series\x22:\x20\x22vlog\x22},\x0a\x20\x20{\x22title\x22:\x20\x22Video\x20Title\x202\x22,\x20\x22duration\x22:\x20\x2203:20\x22,\x20\x22views\x22:\x20\x221.2M\x22,\x20\x22date\x22:\x20\x223\x20days\x20ago\x22,\x20\x22series\x22:\x20\x22behind\x22}\x0a]\x0a','zIndex','syncUIs','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','星期六','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22height:\x20100%;\x20display:\x20flex;\x20flex-direction:\x20column;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#666;\x20background-color:\x20#000;\x20gap:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-lock\x22\x20style=\x22font-size:\x2040px;\x20opacity:\x200.5;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>需要订阅会员才能查看\x20','bstage-shop-detail-price','StorageManager','bstage-locker-item\x20add-btn','bstage-fan-chat-send-btn','聊天室挂载资料\x20/\x20可讨论人物资料（注意：这不是当前发言的\x20User\x20本人）：\x0a名称：','charCodeAt','\x0a必须返回严格\x20JSON\x20数组，不要\x20markdown，不要解释：\x0a[\x0a\x20\x20{\x22type\x22:\x20\x22text\x22,\x20\x22text\x22:\x20\x22气泡1原文\x22,\x20\x22trans\x22:\x20\x22气泡1中文翻译\x22,\x20\x22replyToUserId\x22:\x20\x22可选的当前粉丝消息\x20id\x22},\x0a\x20\x20{\x22type\x22:\x20\x22image\x22,\x20\x22description\x22:\x20\x22一张帅气偶像的自拍，面带微笑，后台背景，明亮的灯光\x22,\x20\x22replyToUserId\x22:\x20\x22可选\x22}\x0a]\x0a','DOMContentLoaded','isContextEnabled','bstage-fan-reset-bg-btn','生成中...','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','join','bstage-locker-grid','聊天记录已清空','replyToUserId','avatarDataUrl','bstage-withdraw-revenue-btn','hasOwnProperty','bstage-preset-name-input','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-comment-time\x22>','\x0a用户想看的类型:\x20','width','<option\x20value=\x22','setAppState','bstage-locked-sub-btn','bstage-detail-days','msg','Bstage\x20search\x20generate\x20failed:','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-fan-chat-view\x20.bstage-chat-bubble\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<i\x20class=\x22fas\x20fa-spinner\x22></i>','\x20的精彩视频内容。\x0a请大家多多支持，不要忘记点赞评论哦！','stopPropagation','bstage-other-fans-title','pop','\x20的聊天记录吗？此操作不可恢复。','isComposing','every','too_few_fan_chat_payload','choices','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2090%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>置物柜</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-locker-grid\x22\x20id=\x22bstage-locker-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Photos\x20+\x20Add\x20Button\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','bstage-profile-pop-sub-count','focus','Vlog\x20#5:\x20Day\x20Off','reply_to_fan_id','videos','div','application/json','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-other-fan-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-other-fan-name\x22>','你正在模拟\x20b.stage\x20的粉丝聊天室。b.stage\x20是国际化粉丝互动应用。\x0a\x0a当前账号\x20/\x20User：','\x0a材质:\x20Detailed\x20on\x20package\x0a尺寸:\x20Free\x20Size\x0a制造国:\x20Korea','90%','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2080%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22>编辑团队</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Avatar\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-avatar-upload\x22\x20id=\x22bstage-edit-team-avatar-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-camera\x22\x20style=\x22color:\x20#aaa;\x20position:\x20relative;\x20z-index:\x201;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-edit-team-avatar-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Name\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>团队名</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-edit-team-name-input\x22\x20placeholder=\x22输入团队名称\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Background\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22margin-top:\x2020px;\x20margin-bottom:\x2010px;\x22>主页背景</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-bg-upload\x22\x20id=\x22bstage-edit-team-bg-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#444;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20#888;\x20font-size:\x2014px;\x20position:\x20relative;\x20z-index:\x201;\x22>点击上传背景图</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-edit-team-bg-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Manage\x20Members\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22margin-top:\x2020px;\x20margin-bottom:\x2010px;\x20color:\x20#fff;\x22>成员管理</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chars-list-preview\x22\x20id=\x22bstage-edit-team-members-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Members\x20Injected\x20Here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-add-char-btn\x22\x20id=\x22bstage-edit-team-add-member-btn\x22\x20style=\x22flex:\x201;\x20background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20padding:\x2010px;\x20border-radius:\x2012px;\x20font-size:\x2014px;\x22>+\x20手动添加</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-add-char-btn\x22\x20id=\x22bstage-edit-team-pull-friend-btn\x22\x20style=\x22flex:\x201;\x20background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20padding:\x2010px;\x20border-radius:\x2012px;\x20font-size:\x2014px;\x22>+\x20拉取已有好友</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-edit-team-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x20margin-top:\x2030px;\x22>保存修改</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x22\x20id=\x22bstage-delete-team-btn\x22\x20style=\x22background-color:\x20#ff3b30;\x20color:\x20#fff;\x20margin-top:\x2010px;\x22>删除团队</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','.bstage-video-content-bubble','appendChild','<span\x20class=\x22bstage-emoji-avatar-text\x22>','Joon','onclick','/900/1200','100vh','storage_write_failed','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20bstage-search-generate-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>搜索生成团队</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-search-generate-hint\x22>输入想搜索的团队或明星，AI\x20会按内容生成团队资料和成员设定；留空则随机生成。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-search-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22bstage-search-label\x22\x20for=\x22bstage-search-query-input\x22>搜索内容</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-search-query-input\x22\x20class=\x22bstage-search-input\x22\x20placeholder=\x22例如：韩系男团、清冷女演员、摇滚乐队；留空随机\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-search-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22bstage-search-label\x22\x20for=\x22bstage-search-member-count\x22>团队人数</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22bstage-search-member-count\x22\x20class=\x22bstage-search-input\x22\x20value=\x221\x22\x20min=\x221\x22\x20max=\x2212\x22\x20step=\x221\x22\x20inputmode=\x22numeric\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-search-loading\x22\x20class=\x22bstage-search-loading\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-spinner\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>正在生成团队...</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x20bstage-search-confirm-btn\x22\x20id=\x22bstage-search-confirm-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x22>生成团队</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','成功订阅\x20','\x27);','temp','会员已订阅','<div\x20class=\x22bstage-other-fans-empty\x22>本轮没有可查看的其他粉丝消息</div>','bstagePresets','</div>','团队成员:\x0a','bstage-fan-','chatHistory','100vw','has-cover','生成评论回复失败','bstage-chat-avatar','\x20单聊；只有\x20','<div\x20class=\x22bstage-carousel-item\x22><img\x20src=\x22','img','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-author\x22>','生成视频内容','bstage-profile-name-display','暂无团队成员。','bstage-edit-profile-persona','translation','bstage-locker-see-all-btn','realName','avatarFrameCss','flex','price','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-text\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2085%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22>编辑视频信息</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Cover\x20Upload\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22margin-top:\x200;\x20margin-bottom:\x2010px;\x20font-size:\x2014px;\x22>封面</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-bg-upload\x22\x20id=\x22bstage-edit-video-cover-upload\x22\x20style=\x22height:\x20120px;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20#888;\x20font-size:\x2013px;\x20position:\x20relative;\x20z-index:\x201;\x22>点击上传封面</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-edit-video-cover-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Info\x20Form\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>视频标题</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-edit-video-title\x22\x20placeholder=\x22输入标题\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>简介</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22bstage-edit-video-desc\x22\x20placeholder=\x22输入视频简介...\x22\x20style=\x22height:\x2080px;\x20color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-edit-video-btn\x22\x20style=\x22background-color:\x20#000;\x20color:\x20#fff;\x20margin-top:\x2020px;\x22>保存</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x22\x20id=\x22bstage-delete-video-btn\x22\x20style=\x22background-color:\x20#ff3b30;\x20color:\x20#fff;\x20margin-top:\x2010px;\x22>删除视频</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','-shop-videocall','.bstage-price-option','toFixed','member-','\x0a\x0aUser\x20团队\x20Shop\x20周边商品：\x0a','comments','translationZh','未命名人物','预设已保存','Thanks\x20for\x20subscribing!','\x22\x20style=\x22max-width:\x20250px;\x20width:\x20100%;\x20border-radius:\x2012px;\x20display:\x20block;\x20object-fit:\x20cover;\x20cursor:\x20zoom-in;\x20border:\x201px\x20solid\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-trans-switch','display','input','imStorage','bstage-following-bar','customName','background-color:\x20#111','flexDirection','bstage-edit-video-desc','getHours','bstage-view','get','nextElementSibling','暂无人设','Enter','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-char-preview-name\x22>','<img\x20src=\x22','bstage-search-loading','你好！我是','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22\x20style=\x22text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background-color:\x20#2c2c2e;\x20margin:\x200\x20auto\x2015px;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20overflow:\x20hidden;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-profile-avatar-display\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22\x20id=\x22bstage-profile-avatar-icon\x22\x20style=\x22font-size:\x2030px;\x20color:\x20#aaa;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20margin-bottom:\x2020px;\x20color:\x20#fff;\x22\x20id=\x22bstage-profile-name-display\x22>User\x20Name</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-stats-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-stat-bubble\x22\x20style=\x22background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-stat-label\x22\x20style=\x22color:\x20#aaa;\x22>POP\x20订阅</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-stat-value\x22\x20id=\x22bstage-profile-pop-sub-count\x22\x20style=\x22color:\x20#fff;\x22>0</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-stat-bubble\x22\x20style=\x22background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-stat-label\x22\x20style=\x22color:\x20#aaa;\x22>订阅收益</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-stat-value\x22\x20id=\x22bstage-profile-sub-revenue\x22\x20style=\x22color:\x20#fff;\x22>￥0.00</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-btn\x22\x20id=\x22bstage-edit-profile-btn\x22\x20style=\x22background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-pen\x22></i>\x20编辑资料\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-btn\x22\x20id=\x22bstage-withdraw-revenue-btn\x22\x20style=\x22background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-wallet\x22></i>\x20提现到\x20Pay\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-profile-btn\x22\x20id=\x22bstage-my-orders-btn\x22\x20style=\x22background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-receipt\x22></i>\x20我的订单\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','暂无周边商品。','chat_member_removed','bstage-profile-sub-revenue','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-section-header\x22>','生成结果格式或人数不匹配','编辑成员','bstage-pop-item','parentNode','cursor','。\x0a\x0a请扮演该角色，与当前粉丝进行沉浸式对话。\x0a视角说明：当前粉丝在界面上看到的是与你的单聊；但从你的视角，你正在面对很多粉丝/订阅者的实时消息，当前粉丝只是其中一个可能被你看见的人。聊天室挂载资料不是当前粉丝本人，只是一个可被讨论的人物/设定。\x0a\x0a要求：\x0a1.\x20根据char的人设进行一次日常消息的营业，根据你的人设选择输出什么语言，例如你是韩国人，输出韩语。\x0a2.\x20一句一发，将你想说的话拆分成\x203\x20到\x206\x20条简短的气泡回复。\x0a3.\x20从你的视角看会有很多很多粉丝的消息，你不一定能看见当前粉丝发的消息，禁止每一条都回复当前粉丝，禁止顺着当前粉丝的话机械往下说，请按真实一对多的逻辑回复。\x0a4.\x20如果某条当前粉丝消息带有\x20replyTo，说明当前粉丝在引用/翻牌你的某条营业消息；你可以注意到，也可以像真实营业一样不一定回应。\x0a5.\x20所有\x20text\x20都要包含原文和中文翻译字段\x20trans；如果原文是中文则\x20trans\x20为空字符串；如果原文不是纯中文，trans\x20必须是自然中文翻译。\x0a6.\x20你可以回复某条当前粉丝消息；如需回复，请在消息对象中填写\x20replyToUserId，值只能从这些当前粉丝消息\x20id\x20中选择：','bstage-profile-avatar-icon','生成商品','</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-list\x22\x20id=\x22bstage-pop-list-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Members\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','bstage-char-name-input','background-image:\x20url(\x27','lastWithdrawAt','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-comment-trans-btn\x22\x20type=\x22button\x22>翻译</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-trans-text\x22\x20style=\x22display:none;\x22>','imgDesc','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-action\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','5202kdOIwF','生成团队','❤️❤️❤️','borderRadius','\x0a商品分类:\x20','bstage-fan-detail-subscribers','alignItems','bstage-home-sub-btn','showBannerNotification','\x0a\x0a格式：\x0a{\x0a\x20\x20\x22name\x22:\x20\x22团队名\x22,\x0a\x20\x20\x22desc\x22:\x20\x22团队信息\x22,\x0a\x20\x20\x22members\x22:\x20[\x0a\x20\x20\x20\x20{\x20\x22name\x22:\x20\x22成员名\x22,\x20\x22role\x22:\x20\x22成员人设\x22\x20}\x0a\x20\x20]\x0a}\x0a','bstage-team-avatar-preview','.bstage-nav-indicator','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','User\x20团队为固定团队，不能删除','bstage-friend-item','key','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-text\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-preset-del-btn\x22\x20style=\x22color:\x20#ff3b30;\x20padding:\x205px;\x20cursor:\x20pointer;\x22><i\x20class=\x22fas\x20fa-trash\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','previousElementSibling','filter','bstage-other-fan-','星期五','Ari','.bstage-nav-item','apiConfig','bstage-fan-chat-reply-cancel-btn','bstage-other-fans-trigger','readAsDataURL','fan','bstage-fan-chat-content','getAppState','<div\x20class=\x22bstage-shop-cat-item\x20','已一同\x20','\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check-circle\x20bstage-verified-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','backgroundSize','你现在的身份是：','其他人消息少于\x2010\x20条，请重试','autoActivityEnabled','.bstage-preset-tab','smooth','contentSeries','replaceChild','2000','bstage-edit-team-name-input','bstage-char-avatar-preview','objectFit','正在生成商品...','Pay\x20暂不可用，请稍后重试','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-detail-avatar\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','订阅\x20','api_error_','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20margin-bottom:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-category-bar\x22\x20style=\x22flex:\x201;\x20margin-bottom:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','showToast','\x20-\x20','<div\x20class=\x22bstage-pop-sub-btn\x22>订阅</div>','bstage-detail-name','desc','Fan\x20Meeting:\x20OUR\x20ZONE\x20Ticket','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','zoom-out','bstage-pop-sub-modal','bstage-generate-type-input','\x0a\x0aAfter\x20Role\x20Rules:\x0a','isUser','floor','bstage-other-fans-list','ALL\x20ITEMS','app','video-comment-User123','boolean','\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>','slice','head','trim','Bstage\x20fan\x20chat\x20API\x20failed:','bstage-team-item','bstage-chat-name','.bstage-msg-status-text','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#aaa;\x20margin-top:\x204px;\x22>','确认成员信息','json','is-loading','\x20的原文消息\x22,\x20\x22trans\x22:\x20\x22非中文消息的中文翻译，中文消息则为空字符串\x22}\x0a\x20\x20],\x0a\x20\x20\x22charMessages\x22:\x20[\x0a\x20\x20\x20\x20{\x22type\x22:\x20\x22text\x22,\x20\x22text\x22:\x20\x22气泡1原文\x22,\x20\x22trans\x22:\x20\x22气泡1中文翻译\x22,\x20\x22replyToUserId\x22:\x20\x22可选的当前粉丝消息\x20id\x22,\x20\x22replyToFanId\x22:\x20\x22可选的其他粉丝消息\x20id\x22},\x0a\x20\x20\x20\x20{\x22type\x22:\x20\x22image\x22,\x20\x22description\x22:\x20\x22一张帅气偶像的自拍，面带微笑，后台背景，明亮的灯光\x22,\x20\x22replyToUserId\x22:\x20\x22可选\x22,\x20\x22replyToFanId\x22:\x20\x22可选\x22}\x0a\x20\x20]\x0a}\x0a','\x0a团队简介:\x20','imessage','bstage-team-','clientWidth','signature','max','has','自主活动已开启','text','\x0a\x0a要求：\x0a1.\x20只返回严格\x20JSON\x20对象，不要\x20markdown，不要解释。\x0a2.\x20members\x20数组长度必须严格等于\x20','saveGlobalData','.sheet-handle','bstage-search-member-count','justifyContent','/v1/chat/completions','data-desc','getGlobalWorldBookContextByPosition','push','留空，随机生成适合该团队/账号的视频内容','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','value','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-view\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-banner\x22\x20id=\x22bstage-shop-banner-edit\x22\x20style=\x22','\x22\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20object-fit:\x20cover;\x22>','<div\x20style=\x22text-align:center;\x20color:#666;\x20padding:20px;\x20font-size:13px;\x22>聊天记录已清空</div>','getElementById','实时翻译已','fan-','status','bstage-vid-comment-reply-preview','bstage-edit-team-bg-preview','__bstage_user_member__','querySelectorAll','请等待\x20','pop-sub-char-name','请输入团队名称','想看什么类型的视频细节','bstage-content-area','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-shop-banner-input','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Summer','-shop-season','Just\x20now','0\x2010px\x2030px\x20rgba(0,0,0,0.5)','getFullYear','charMessages','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','未定价','POST','avatar','bstage-fan-context-switch','bstage-other-fans-modal','bstage-preset-list','title','bstage-chat-date','bstage-frame-css-select','user','9440aFeMXr','blur','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;height:100%;background-color:#222;display:flex;justify-content:center;align-items:center;opacity:0.5;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20style=\x22font-size:40px;color:#444;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','replace','Dance\x20Practice','bstage-preset-css-input','视频已删除','You\x20generate\x20strict\x20JSON\x20objects\x20for\x20immersive\x20b.stage\x20character\x20fan\x20interactions.','16434374zCZotN','bstageFanSubscriberCount','display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x20padding:\x2012px;\x20background-color:\x20#2c2c2e;\x20border-radius:\x2012px;\x20cursor:\x20pointer;','date','__bstageGlobalState','-shop-ticket','shopCategories','bstage-bottom-nav','自主活动已关闭','bstage-auto-activity-options','bstage-pop-role\x20bstage-fan-subscriber-label','bstage-chat-exit-btn','translateX(','customDesc','vlog','subStartDate','Char','Membership','info','bstage-edit-team-sheet','bstage-team-desc-input','bstage-create-sheet','isUserTeam','200','\x20的消息','preventDefault','</span>','<i\x20class=\x22fas\x20fa-play\x22\x20style=\x22font-size:\x2040px;\x20opacity:\x200.8;\x20align-self:\x20center;\x20margin-top:\x20auto;\x20margin-bottom:\x20auto;\x22></i>','cloneNode','background:\x20#2c2c2e;\x20padding:\x2015px;\x20border-radius:\x2012px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;','contextMessageCount','none','-video-','scrollHeight','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-team-home\x22\x20style=\x22','add','-shop-','assets/moren.jpg','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x20auto;\x20max-height:\x2070%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20id=\x22bstage-generate-type-title\x22>生成内容</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20id=\x22bstage-generate-type-label\x22\x20style=\x22color:\x20#aaa;\x22>想看什么类型</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-generate-type-input\x22\x20placeholder=\x22留空则随机生成\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-generate-type-confirm-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x22>确认生成</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-title\x22>','bstage-generate-type-sheet','#bstage-other-fans-close-btn','bstage-fan-chat-api-btn','replyToId','reply_to_id','unshift','openView','description','transform','isSubscribed','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-view\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20justify-content:space-between;\x20align-items:center;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22font-size:20px;\x20font-weight:700;\x22>','catch','closest','2DVFCHE','chatBg','\x0a团队简介：','bstage-pop-avatar','-bg','shopBanner','bubbleCssId','video-comment-reply-','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','scrollTop','reply_to_user_id','生成粉丝消息失败','bstage-edit-profile-avatar-upload','-\x20暂无成员\x0a','apiKey','bstage-char-preview-avatar','\x0a请生成一个适合\x20b.stage\x20的虚构团队或明星企划。\x0a\x0a','bstage-add-char-sheet','body','bstage-chat-content','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>编辑资料</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-avatar-upload\x22\x20id=\x22bstage-edit-profile-avatar-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-camera\x22\x20style=\x22color:\x20#aaa;\x20position:\x20relative;\x20z-index:\x201;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-edit-profile-avatar-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>昵称</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-edit-profile-name\x22\x20placeholder=\x22输入昵称\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>人设</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-edit-profile-persona\x22\x20placeholder=\x22输入你的粉丝人设\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-save-profile-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x22>保存</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','收起翻译','Before\x20Role\x20Rules:\x0a','bstage-sub-modal','#bstage-shop-detail-img\x20img','data-type','forEach','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2090%;\x20background:\x20#1c1c1e;\x20border:\x201px\x20solid\x20#333;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-modal-content\x22\x20style=\x22padding:\x200;\x20display:\x20flex;\x20flex-direction:\x20column;\x20height:\x20100%;\x20background-color:\x20#000;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-scroll\x22\x20style=\x22flex:1;\x20overflow-y:auto;\x20padding-bottom:80px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Image\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-img\x22\x20id=\x22bstage-shop-detail-img\x22\x20style=\x22width:100%;\x20aspect-ratio:1/1;\x20background-color:#1a1a1a;\x20position:relative;\x20overflow:hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22\x22\x20style=\x22width:100%;\x20height:100%;\x20object-fit:cover;\x20display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-placeholder\x22\x20style=\x22width:100%;\x20height:100%;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20color:#555;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-image\x22\x20style=\x22font-size:50px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Info\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-info\x22\x20style=\x22padding:20px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-shop-badge\x22\x20id=\x22bstage-shop-detail-cat\x22\x20style=\x22margin-bottom:8px;\x22>Category</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-title\x22\x20id=\x22bstage-shop-detail-title\x22\x20style=\x22font-size:22px;\x20font-weight:700;\x20margin-bottom:8px;\x20line-height:1.3;\x22>Title</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-price\x22\x20id=\x22bstage-shop-detail-price\x22\x20style=\x22font-size:24px;\x20font-weight:800;\x20color:#fff;\x20margin-bottom:24px;\x22>₩0</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;\x20height:1px;\x20background-color:#222;\x20margin-bottom:24px;\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-desc-title\x22\x20style=\x22font-size:16px;\x20font-weight:600;\x20margin-bottom:12px;\x22>商品详情</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-detail-desc\x22\x20id=\x22bstage-shop-detail-desc\x22\x20style=\x22font-size:14px;\x20color:#ccc;\x20line-height:1.6;\x20white-space:\x20pre-wrap;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Description...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Buy\x20Bar\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-buy-bar\x22\x20style=\x22padding:16px\x2020px;\x20border-top:1px\x20solid\x20#222;\x20background-color:#000;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-buy-btn\x22\x20style=\x22width:100%;\x20background-color:#fff;\x20color:#000;\x20font-weight:700;\x20font-size:16px;\x20height:50px;\x20border-radius:25px;\x20display:flex;\x20justify-content:center;\x20align-items:center;\x20cursor:pointer;\x22>立即购买</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','.bstage-msg-reply-btn','__bstage_user_team__','keydown','You\x20generate\x20strict\x20JSON\x20arrays\x20for\x20live\x20fan\x20chat\x20messages.','616XyKoGH','random','altKey','-content-photo-1','px)','背景已重置','Bstage\x20data\x20load\x20failed:','bstage-edit-team-add-member-btn','bstage-dynamic-styles','replyToFanId','User\x20官方空间','bstage-context-switch','bstage-video-content-bubble','toString','&gt;','teams','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-fan-chat-sender\x22>','bstage-fan-chat-clear-btn','<div\x20style=\x22color:\x20#888;\x20text-align:\x20center;\x20padding:\x2010px;\x22>暂无预设</div>','<div\x20style=\x22width:100%;height:100%;background:#333;border-radius:50%;display:flex;justify-content:center;align-items:center;color:#fff;\x22>','bstage-delete-team-btn','dataset','delay','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-view\x20.bstage-chat-bubble\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','time','\x0a\x0aUser\x20团队\x20Content\x20视频物料：\x0a','toLocaleDateString','\x20的新消息','shopItems','background:\x20transparent;\x20padding:\x200;','then','请输入新的备注名:','#bstage-edit-profile-avatar-upload\x20input','shop','chat','\x22\x20吗？','<div\x20style=\x22text-align:center;\x20padding:20px;\x20color:#ff3b30;\x22>拉取好友失败</div>','bstage-header-profile-container','bstage','):\x20','/chat/completions','messages','isUserMember','contentPhotos','\x22></div>',')：「','isFinite','bstage-context-count','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-header\x20chat-header\x22\x20style=\x22background-color:\x20transparent;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-icon-btn\x22\x20id=\x22bstage-chat-back-btn\x22><i\x20class=\x22fas\x20fa-chevron-left\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-header-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-name\x22\x20id=\x22bstage-chat-name\x22>Name</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-days\x22\x20id=\x22bstage-chat-days\x22>已一同\x201\x20天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-icon-btn\x22\x20id=\x22bstage-chat-menu-btn\x22><i\x20class=\x22fas\x20fa-bars\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-content\x22\x20id=\x22bstage-chat-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Messages\x20go\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-input-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview\x22\x20id=\x22bstage-chat-reply-preview\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-label\x22>正在回复</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-text\x22\x20id=\x22bstage-chat-reply-preview-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-close\x22\x20id=\x22bstage-chat-reply-cancel-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22取消回复\x22\x20title=\x22取消回复\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-input-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-chat-input\x22\x20placeholder=\x22Send\x20a\x20message...\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-chat-send-btn\x22\x20class=\x22bstage-chat-action-btn\x20bstage-chat-send-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22发送消息\x22\x20title=\x22发送消息\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-paper-plane\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-chat-api-btn\x22\x20class=\x22bstage-chat-action-btn\x20bstage-chat-api-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22调用\x20API\x22\x20title=\x22调用\x20API\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-arrow-down\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','.bstage-price-title','customBg','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','10000','createElement','暂无视频物料。','订阅会员','autoActivityInterval','.bstage-pop-sub-btn','timestamp','income','team-','contains','bstage-chat-input','[图片]\x20','未命名视频','\x0a视频简介:\x20','\x0a当前真实时间：','bstage-search-generate-modal','bstageFanChatHistory','1754186UHqOkq','因为用户填写了搜索内容，本次不允许随机偏题，所有核心设定必须服务于该搜索内容。','bstage-edit-video-title','User123','map','暂无聊天记录。\x0a','subExpiryDate','column','series','chatCss','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','aria-disabled','\x20正在输入...','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','。不回复则省略或填空。\x0a10.\x20返回严格\x20JSON\x20数组，不要\x20markdown，不要解释，不要外层对象。\x0a11.\x20每条必须包含\x20name、text、trans。\x0a\x0a格式：\x0a[\x0a\x20\x20{\x20\x22name\x22:\x20\x22粉丝昵称\x22,\x20\x22text\x22:\x20\x22原文消息\x22,\x20\x22trans\x22:\x20\x22非中文消息的中文翻译，中文消息则为空字符串\x22,\x20\x22replyToId\x22:\x20\x22可选的\x20User\x20消息\x20id\x22\x20}\x0a]\x0a','fontSize','bstage-search-generate-btn','bstage-edit-profile-modal','&amp;','今天\x20','querySelector','bstage-global-settings-modal','bottom-sheet-overlay\x20detail-sheet-overlay','bstage-fan-chat-reply-preview','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-fan-chat-view','persona','css','bstage-edit-team-pull-friend-btn','cssText','change','scrollBy','<div\x20class=\x22bstage-trans-text\x22>','请先在系统设置中配置\x20API','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-other-fan-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-confirm-edit-video-btn','1h\x20ago','replies','show-trans','聊天记录（每条都有\x20id，replyTo\x20表示正在引用/翻牌某条消息）:\x0a','bstage-add-series-btn','setAttribute','find','<option\x20value=\x22\x22>默认全局API</option>','endsWith','setDate','team','/v1','type','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-name\x22>','bstage-profile-avatar-display','User\x20POP',']\x20[其他粉丝消息批次]:\x20','bstage-edit-team-avatar-preview','bstage-shop-detail-modal','\x20•\x20','src','bstage-video-detail-modal','bstage-confirm-add-char-btn','.bstage-bottom-nav','selected','endpoint','Bstage\x20data\x20save\x20failed\x20(possibly\x20quota\x20exceeded):','留空则随机生成','length','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-replies\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.bstage-cat-delete','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-text\x22>','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-home-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-home-title\x22>','背景已更换','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2095%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-detail-scroll\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Video\x20Player\x20Placeholder\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-player-placeholder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-play\x22\x20style=\x22font-size:\x2040px;\x20opacity:\x200.8;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Info\x20Section\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-info-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-detail-title\x22\x20id=\x22bstage-vid-detail-title\x22>Title</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-detail-meta\x22\x20id=\x22bstage-vid-detail-meta\x22>Views\x20•\x20Date</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-publisher-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-publisher-avatar\x22\x20id=\x22bstage-vid-publisher-avatar\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-publisher-name\x22\x20id=\x22bstage-vid-publisher-name\x22>Team\x20Name</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-small-magic-btn\x22\x20id=\x22bstage-video-detail-magic-btn\x22\x20style=\x22margin-left:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-description\x22\x20id=\x22bstage-vid-description\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Description\x20text...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Comments\x20Section\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comments-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comments-header\x22\x20id=\x22bstage-vid-comments-header\x22>评论\x20(0)</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-list\x22\x20id=\x22bstage-vid-comments-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Comments\x20injected\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Comment\x20Input\x20(Sticky\x20Bottom)\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-input-area\x22\x20style=\x22background-color:\x20#1c1c1e;\x20border-top:\x201px\x20solid\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-preview\x22\x20id=\x22bstage-vid-comment-reply-preview\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-preview-text\x22\x20id=\x22bstage-vid-comment-reply-preview-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-reply-cancel\x22\x20id=\x22bstage-vid-comment-reply-cancel-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22取消回复\x22\x20title=\x22取消回复\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-user-avatar-small\x22\x20id=\x22bstage-comment-user-avatar\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22bstage-comment-input\x22\x20id=\x22bstage-vid-comment-input\x22\x20placeholder=\x22添加评论...\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-paper-plane\x20bstage-comment-send-btn\x20disabled\x22\x20id=\x22bstage-vid-comment-send-btn\x22\x20style=\x22color:\x20#aaa;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','<div\x20class=\x22bstage-pop-status\x22>订阅中\x20<i\x20class=\x22fas\x20fa-chevron-right\x22></i></div>','&#39;','bstage-team-name-input','星期四','bstage-orders-modal','当前没有选中的\x20b.stage\x20团队。','bstage-vid-detail-title','User','\x0a\x0a其他粉丝消息功能已开启：\x0a-\x20你必须先生成本轮\x20otherFanMessages，再生成你的回复\x20charMessages。\x0a-\x20otherFanMessages\x20不少于\x2010\x20条，最多\x2014\x20条，来自不同粉丝。\x0a-\x20otherFanMessages\x20必须是这些粉丝直接发给你（','role','getDay','生成视频详情','bstage-fan-chat-detail-sheet','textContent','bstage-content-magic-btn','bstage-pop-list-container','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-name-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-pop-name\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bstage-my-chatroom-btn','avatarUrl','before_role','msgId','bstage-fan-chat-bg-input','isTranslationEnabled','\x0a\x0a上下文只包含\x20User\x20自己发过的消息，不包含任何粉丝历史消息。每条都有\x20id，replyTo\x20表示\x20User\x20正在引用/翻牌某条粉丝消息：\x0a','getDate','\x0a视频简介：','\x0a你是一个周边商品策划。\x0a请根据以下团队信息和角色人设，以及商品分类，生成2-3个相关的商品。\x0a团队名称:\x20','className','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-avatar\x22>','bstage-fan-detail-avatar-icon','member','bstage-char-preview-item','生成团队失败','cover','bstage-chat-clear-btn','bstage-shop-detail-cat','bstage-team-avatar-upload','bstage-edit-team-members-list','\x0a当前真实时间是\x20','2200','gpt-3.5-turbo','.renew','message','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>MEMBERSHIP</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20margin-bottom:\x208px;\x20color:\x20#fff;\x22>加入团队会员</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22color:\x20#aaa;\x20font-size:\x2013px;\x22>享受独家内容与购物特权</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-price-options\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-price-option\x20selected\x22\x20data-type=\x22year\x22\x20style=\x22border:\x201px\x20solid\x20#fff;\x20border-radius:\x2012px;\x20margin-bottom:\x2010px;\x20padding:\x2015px;\x20cursor:\x20pointer;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20background-color:\x20#2c2c2e;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-title\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>年卡会员</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-amount\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>₩89,000\x20/\x20年</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-price-option\x22\x20data-type=\x22month\x22\x20style=\x22border:\x201px\x20solid\x20transparent;\x20border-radius:\x2012px;\x20padding:\x2015px;\x20cursor:\x20pointer;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20background-color:\x20#2c2c2e;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-title\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>月卡会员</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-amount\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>₩8,900\x20/\x20月</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-sub-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x20margin-top:\x2020px;\x20border-radius:\x2025px;\x22>立即订阅</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','invalid_member_payload','user_comment','u2_apiPresets','url(\x27','上下文携带已','bstage-edit-profile-btn','System\x20Depth\x20Rules:\x0a','frameCssId','New\x20Video','1200','thumb','You\x20are\x20a\x20JSON\x20generator.','preset_','bstage-add-content-photo-btn','chatPhotos','otherFanMessages','\x22\x20style=\x22width:100%;height:100%;object-fit:cover;border-radius:50%;\x22>','）的消息：他们在和你说话、向你提问、对你应援、催你营业、请你翻牌或向你提到某个话题。\x0a-\x20禁止写成其他粉丝在和当前粉丝/User聊天，禁止让其他粉丝对当前粉丝/User发问、打招呼或回复。\x0a-\x20其他粉丝可以向你提到聊天室挂载资料里的可讨论人物/设定，但表达方式必须是“对你说”：例如问你怎么看、你和对方什么关系、你能不能聊聊，而不是粉丝之间互相讨论。\x0a-\x20你可以回复本轮\x20otherFanMessages\x20里的某条其他粉丝消息；如需回复，请在\x20charMessages\x20对象中填写\x20replyToFanId，值只能来自你本次生成的\x20otherFanMessages.id。\x0a','Video\x20Call\x20Event\x20#3','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','<option\x20value=\x22\x22>默认</option>','bstageUserTeamState','\x0a系列主题:\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-grid\x22\x20id=\x22bstage-shop-grid-container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','object','bstage-other-fan-avatar','1000','bstage-char-avatar-upload','data-tab','Bstage\x20global\x20data\x20recovery\x20failed:','bstage-auto-activity-switch','trans','\x0aUser\x20评论：','20px','split','\x0a视频标题:\x20','...','bstage-fan-context-count','\x20的精彩视频内容...','.bstage-avatar-placeholder','.bstage-shop-cat-item','</option>','\x20的回复','.bstage-nav-item[data-tab=\x22pop\x22]','bstage-confirm-sub-btn','closeView','查看图片详情','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>添加成员</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-avatar-upload\x22\x20id=\x22bstage-char-avatar-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22\x20style=\x22color:\x20#aaa;\x20position:\x20relative;\x20z-index:\x201;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-char-avatar-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>名字</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-char-name-input\x22\x20placeholder=\x22成员名字\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>人设</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-char-role-input\x22\x20placeholder=\x22简单的描述\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-add-char-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x22>添加</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','\x0a你正在模拟\x20b.stage\x20视频评论区。\x0a团队/账号：','bstage-chat-view','updatedAt','-content-','b.stage\x20POP\x20订阅收益','remove','例如：练习室、旅行\x20vlog、后台花絮；留空则随机','例如：后台互动、开箱、舞台花絮；留空则随机','bstage-edit-profile-name','bstage-pull-friend-sheet','marginTop','true','center','bstage-global-settings-btn','padStart','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-status\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-status-text\x22>','bstage-create-team-btn','\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-shop-badge\x22>','flush','.selected\x20.bstage-price-amount','bstage-generate-type-confirm-btn','#fff','speaker','昨天\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2080%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>创建团队</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Background\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22margin-top:\x200;\x20margin-bottom:\x2010px;\x20color:\x20#aaa;\x20font-size:\x2014px;\x22>主页背景</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-bg-upload\x22\x20id=\x22bstage-team-bg-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#444;\x20overflow:\x20hidden;\x20position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22color:\x20#aaa;\x20font-size:\x2014px;\x20position:\x20relative;\x20z-index:\x201;\x22>点击上传背景图</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-team-bg-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Avatar\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-avatar-upload\x22\x20id=\x22bstage-team-avatar-upload\x22\x20style=\x22background-color:\x20#2c2c2e;\x20margin-top:\x20-60px;\x20position:\x20relative;\x20z-index:\x202;\x20border:\x204px\x20solid\x20#1c1c1e;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-camera\x22\x20style=\x22color:\x20#aaa;\x20position:\x20relative;\x20z-index:\x201;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-team-avatar-preview\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x20position:\x20absolute;\x20top:\x200;\x20left:\x200;\x20z-index:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Team\x20Name\x20&\x20Info\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-group\x22\x20style=\x22background-color:\x20#2c2c2e;\x20border-color:\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22\x20style=\x22border-bottom-color:\x20#444;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>团队名</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-team-name-input\x22\x20placeholder=\x22输入团队名称\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-form-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22color:\x20#aaa;\x22>团队信息</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22bstage-team-desc-input\x22\x20placeholder=\x22输入团队简介...\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x20width:\x20100%;\x20padding:\x204px\x200;\x20margin-top:\x204px;\x20min-height:\x2060px;\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Add\x20Characters\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22margin-top:\x2020px;\x20margin-bottom:\x2010px;\x20color:\x20#fff;\x22>添加成员</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chars-list-preview\x22\x20id=\x22bstage-chars-preview-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Preview\x20of\x20added\x20chars\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-add-char-btn\x22\x20id=\x22bstage-add-char-btn\x22\x20style=\x22flex:\x201;\x20background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20padding:\x2010px;\x20border-radius:\x2012px;\x20font-size:\x2014px;\x22>+\x20手动添加</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-add-char-btn\x22\x20id=\x22bstage-pull-friend-btn\x22\x20style=\x22flex:\x201;\x20background-color:\x20#2c2c2e;\x20color:\x20#fff;\x20padding:\x2010px;\x20border-radius:\x2012px;\x20font-size:\x2014px;\x22>+\x20拉取已有好友</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-create-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x20margin-top:\x2030px;\x22>完成创建</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','bstage-detail-avatar-container','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-small-magic-btn\x22\x20id=\x22bstage-content-magic-btn\x22\x20style=\x22margin-left:\x205px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.bstage-shop-item','确定要清空与\x20','\x20bstage-emoji-avatar\x22\x20aria-label=\x22','订阅成功！您现在可以访问\x20Content\x20和\x20Shop。','bstage-vid-publisher-avatar','bubbleCss','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus-circle\x22\x20style=\x22color:\x20#007aff;\x20font-size:\x2020px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.bstage-chat-image-clickable','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-msg-text\x22>','addPayTransaction','onload','\x0a说明：当前粉丝可以提到、讨论或询问这个资料里的人物，但当前粉丝发来的消息在\x20','.bstage-fan-subscriber-label','function','bstage-fan-chat-input','\x22\x20alt=\x22\x22>','#bstage-add-char-sheet\x20.sheet-title','#000','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2070%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>选择好友</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22\x20style=\x22flex:\x201;\x20overflow-y:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-friend-list\x22\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x20padding-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Friend\x20items\x20injected\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','now','Shop\x20背景已更新','boxShadow','bstage-chat-api-btn','\x20眼里只是普通粉丝消息，不能把当前粉丝当成该人物本人。\x0a','」。必须围绕这个内容生成，团队名、团队信息、成员名字、成员人设都要明显贴合该内容，禁止忽略搜索内容或生成无关的随机团队。','团队已删除','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-img\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','bstage-auto-activity-preset','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-banner-text\x22>OFFICIAL\x20SHOP</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22bstage-shop-banner-input\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20margin-bottom:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-category-bar\x22\x20style=\x22flex:\x201;\x20margin-bottom:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getMonth','\x0a\x0a要求：\x0a1.\x20你现在扮演的是\x20','-content-photo-3','classList'];_0x456f=function(){return _0x4ade84;};return _0x456f();}function _0x5131(_0x3a6012,_0x2c7a33){_0x3a6012=_0x3a6012-0x1b2;const _0x456f7b=_0x456f();let _0x5131fd=_0x456f7b[_0x3a6012];return _0x5131fd;}const _0x355575=_0x5131;(function(_0x36aba2,_0x3c23dc){const _0x2193bc=_0x5131,_0x169e65=_0x36aba2();while(!![]){try{const _0x52262b=-parseInt(_0x2193bc(0x2e2))/0x1*(parseInt(_0x2193bc(0x348))/0x2)+parseInt(_0x2193bc(0x218))/0x3*(parseInt(_0x2193bc(0x302))/0x4)+-parseInt(_0x2193bc(0x2a5))/0x5+-parseInt(_0x2193bc(0x463))/0x6*(parseInt(_0x2193bc(0x496))/0x7)+parseInt(_0x2193bc(0x51d))/0x8*(-parseInt(_0x2193bc(0x4d1))/0x9)+parseInt(_0x2193bc(0x4b3))/0xa+parseInt(_0x2193bc(0x2ad))/0xb;if(_0x52262b===_0x3c23dc)break;else _0x169e65['push'](_0x169e65['shift']());}catch(_0x590a6a){_0x169e65['push'](_0x169e65['shift']());}}}(_0x456f,0xe3a1e),document[_0x355575(0x4ed)](_0x355575(0x548),()=>{const _0x40029b=_0x355575,_0x5d3842=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x5d3842[_0x40029b(0x3ab)]='app-view\x20bstage-view',_0x5d3842['id']=_0x40029b(0x1f9),_0x5d3842[_0x40029b(0x51f)]=_0x40029b(0x43b),document[_0x40029b(0x284)]('app')[_0x40029b(0x1be)](_0x5d3842);const _0x4523e6=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x4523e6[_0x40029b(0x3ab)]=_0x40029b(0x471),_0x4523e6['id']='bstage-chat-view',_0x4523e6[_0x40029b(0x466)][_0x40029b(0x4a5)]=_0x40029b(0x489),_0x4523e6[_0x40029b(0x51f)]=_0x40029b(0x333),document['getElementById'](_0x40029b(0x25c))['appendChild'](_0x4523e6);const _0xbbb6c=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0xbbb6c[_0x40029b(0x3ab)]='app-view\x20bstage-chat-view\x20bstage-fan-chat-view',_0xbbb6c['id']=_0x40029b(0x361),_0xbbb6c['style']['backgroundColor']=_0x40029b(0x489),_0xbbb6c['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-header\x20chat-header\x22\x20style=\x22background-color:\x20transparent;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-icon-btn\x22\x20id=\x22bstage-fan-chat-back-btn\x22><i\x20class=\x22fas\x20fa-chevron-left\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-header-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-name\x22\x20id=\x22bstage-fan-chat-name\x22>粉丝聊天室</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-days\x22\x20id=\x22bstage-fan-chat-subtitle\x22>已订阅\x200\x20人</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-icon-btn\x22\x20id=\x22bstage-fan-chat-menu-btn\x22><i\x20class=\x22fas\x20fa-bars\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-content\x22\x20id=\x22bstage-fan-chat-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Fan\x20messages\x20go\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-input-area\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview\x22\x20id=\x22bstage-fan-chat-reply-preview\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-label\x22>正在回复</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-text\x22\x20id=\x22bstage-fan-chat-reply-preview-text\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-preview-close\x22\x20id=\x22bstage-fan-chat-reply-cancel-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22取消回复\x22\x20title=\x22取消回复\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-input-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22bstage-fan-chat-input\x22\x20placeholder=\x22对粉丝说点什么...\x22\x20style=\x22color:\x20#fff;\x20background-color:\x20transparent;\x20border:\x20none;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-fan-chat-send-btn\x22\x20class=\x22bstage-chat-action-btn\x20bstage-chat-send-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22发送消息\x22\x20title=\x22发送消息\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-paper-plane\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-fan-chat-api-btn\x22\x20class=\x22bstage-chat-action-btn\x20bstage-chat-api-btn\x22\x20role=\x22button\x22\x20tabindex=\x220\x22\x20aria-label=\x22调用\x20API\x22\x20title=\x22调用\x20API\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-arrow-down\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0xbbb6c);const _0x548be7=document['createElement'](_0x40029b(0x1b6));_0x548be7[_0x40029b(0x3ab)]=_0x40029b(0x50c),_0x548be7['id']=_0x40029b(0x29f),_0x548be7['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22bstage-center-modal-card\x22\x20role=\x22dialog\x22\x20aria-modal=\x22true\x22\x20aria-labelledby=\x22bstage-other-fans-title\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-center-modal-heading\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>OTHER\x20FANS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20id=\x22bstage-other-fans-title\x22>其他人的消息</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22bstage-center-modal-close\x22\x20id=\x22bstage-other-fans-close-btn\x22\x20aria-label=\x22关闭\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-other-fans-list\x22\x20id=\x22bstage-other-fans-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20',document['getElementById'](_0x40029b(0x25c))['appendChild'](_0x548be7),_0x548be7[_0x40029b(0x4ed)]('click',_0x568558=>{const _0x1c56a3=_0x40029b;if(_0x568558[_0x1c56a3(0x4e7)]===_0x548be7)_0xa57738();});const _0x61b600=_0x548be7['querySelector'](_0x40029b(0x2d6));if(_0x61b600)_0x61b600[_0x40029b(0x4ed)](_0x40029b(0x52d),_0xa57738);const _0x1f1f8f=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x1f1f8f[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x1f1f8f['id']=_0x40029b(0x35d),_0x1f1f8f[_0x40029b(0x466)][_0x40029b(0x53c)]=_0x40029b(0x242),_0x1f1f8f[_0x40029b(0x51f)]=_0x40029b(0x4c1),document['getElementById'](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x1f1f8f);const _0x3fe37c=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x3fe37c[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x3fe37c['id']=_0x40029b(0x346),_0x3fe37c[_0x40029b(0x466)][_0x40029b(0x53c)]='1200',_0x3fe37c[_0x40029b(0x51f)]=_0x40029b(0x1c5),document[_0x40029b(0x284)]('app')[_0x40029b(0x1be)](_0x3fe37c);const _0x9697d6=document['createElement'](_0x40029b(0x1b6));_0x9697d6[_0x40029b(0x3ab)]='bottom-sheet-overlay\x20detail-sheet-overlay',_0x9697d6['id']=_0x40029b(0x2c2),_0x9697d6[_0x40029b(0x466)][_0x40029b(0x53c)]=_0x40029b(0x2c4),_0x9697d6['innerHTML']=_0x40029b(0x404),document['getElementById'](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x9697d6);const _0x59f726=document[_0x40029b(0x338)]('div');_0x59f726[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x59f726['id']=_0x40029b(0x2f3),_0x59f726[_0x40029b(0x466)][_0x40029b(0x53c)]='1500',_0x59f726['innerHTML']=_0x40029b(0x3eb),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x59f726);const _0x2f1bd=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x2f1bd['className']=_0x40029b(0x35e),_0x2f1bd['id']=_0x40029b(0x3f5),_0x2f1bd['style']['zIndex']='1550',_0x2f1bd['innerHTML']=_0x40029b(0x41a),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x2f1bd);const _0x3096cd=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x3096cd[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x3096cd['id']=_0x40029b(0x2f9),_0x3096cd[_0x40029b(0x51f)]=_0x40029b(0x3bb),document['getElementById'](_0x40029b(0x25c))['appendChild'](_0x3096cd);const _0x2914c3=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x2914c3['className']='bottom-sheet-overlay\x20detail-sheet-overlay',_0x2914c3['id']=_0x40029b(0x255),_0x2914c3[_0x40029b(0x51f)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20style=\x22color:\x20#fff;\x22>POP\x20SUBSCRIPTION</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20margin-bottom:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20margin-bottom:\x208px;\x20color:\x20#fff;\x22\x20id=\x22pop-sub-char-name\x22>Subscribe\x20to\x20Character</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20style=\x22color:\x20#aaa;\x20font-size:\x2013px;\x22>开启私密聊天之旅</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-price-options\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-price-option\x20selected\x22\x20style=\x22border:\x201px\x20solid\x20#fff;\x20border-radius:\x2012px;\x20padding:\x2015px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20background-color:\x20#2c2c2e;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-title\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>月度订阅</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-price-amount\x22\x20style=\x22color:\x20#fff;\x20font-weight:\x20600;\x22>₩4,500\x20/\x20月</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22bstage-confirm-pop-sub-btn\x22\x20style=\x22background-color:\x20#fff;\x20color:\x20#000;\x20margin-top:\x2020px;\x20border-radius:\x2025px;\x22>确认支付</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x2914c3);const _0x3f689c=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x3f689c[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x3f689c['id']='bstage-user-profile-modal',_0x3f689c[_0x40029b(0x51f)]=_0x40029b(0x203),document[_0x40029b(0x284)](_0x40029b(0x25c))['appendChild'](_0x3f689c);const _0x52ed94=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x52ed94[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x52ed94['id']=_0x40029b(0x394),_0x52ed94[_0x40029b(0x51f)]=_0x40029b(0x502),document[_0x40029b(0x284)]('app')[_0x40029b(0x1be)](_0x52ed94);const _0x57e4a7=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x57e4a7[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x57e4a7['id']=_0x40029b(0x359),_0x57e4a7[_0x40029b(0x51f)]=_0x40029b(0x2f6),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x57e4a7);const _0x1dca68=document['createElement'](_0x40029b(0x1b6));_0x1dca68[_0x40029b(0x3ab)]='bottom-sheet-overlay\x20detail-sheet-overlay',_0x1dca68['id']=_0x40029b(0x2d5),_0x1dca68[_0x40029b(0x466)][_0x40029b(0x53c)]=_0x40029b(0x3b7),_0x1dca68[_0x40029b(0x51f)]=_0x40029b(0x2d3),document['getElementById'](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x1dca68);const _0x345709=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x345709[_0x40029b(0x3ab)]='bottom-sheet-overlay\x20detail-sheet-overlay',_0x345709['id']='bstage-edit-team-sheet',_0x345709[_0x40029b(0x51f)]=_0x40029b(0x1bc),document[_0x40029b(0x284)]('app')['appendChild'](_0x345709);const _0x10e664=document[_0x40029b(0x338)]('div');_0x10e664[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x10e664['id']=_0x40029b(0x509),_0x10e664['style']['zIndex']=_0x40029b(0x3d6),_0x10e664['innerHTML']=_0x40029b(0x1e3),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x10e664);const _0xe26d2a=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0xe26d2a[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0xe26d2a['id']='bstage-chat-detail-sheet',_0xe26d2a[_0x40029b(0x466)][_0x40029b(0x53c)]=_0x40029b(0x3c5),_0xe26d2a[_0x40029b(0x51f)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-detail-sheet\x20.bstage-setting-item\x20{\x20background-color:\x20#2c2c2e\x20!important;\x20color:\x20#fff\x20!important;\x20border-bottom:\x20none\x20!important;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-detail-sheet\x20.bstage-setting-icon\x20{\x20color:\x20#aaa\x20!important;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-detail-sheet\x20.bstage-setting-label\x20{\x20color:\x20#fff\x20!important;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-detail-sheet\x20.bstage-settings-list\x20{\x20background-color:\x20#1c1c1e;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2090%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22\x20style=\x22padding:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Profile\x20Section\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2020px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-detail-avatar-container\x22\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background-color:\x20#1c1c1e;\x20margin:\x200\x20auto\x2010px;\x20overflow:\x20hidden;\x20border:\x201px\x20solid\x20#333;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-detail-avatar\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-detail-avatar-text\x22\x20style=\x22display:none;\x20color:#fff;\x20font-size:30px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x205px;\x22\x20id=\x22bstage-detail-name\x22>Name</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22\x20style=\x22color:\x20#ff3b30;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22bstage-detail-days\x22>已一同\x201\x20天</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Locker\x20Section\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22padding:\x200\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2014px;\x20font-weight:\x20600;\x20color:\x20#aaa;\x22>置物柜</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2014px;\x20color:\x20#fff;\x20cursor:\x20pointer;\x22\x20id=\x22bstage-locker-see-all-btn\x22>看全部</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x208px;\x20overflow-x:\x20auto;\x20padding-bottom:\x2010px;\x20margin-bottom:\x2020px;\x22\x20id=\x22bstage-locker-preview-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Preview\x20Photos\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Settings\x20List\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-settings-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22\x20id=\x22bstage-setting-nickname\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22>昵称设置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-image\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20id=\x22bstage-setting-bg\x22\x20style=\x22flex:1;\x22>背景设定</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-right-action\x22\x20id=\x22bstage-reset-bg-btn\x22\x20style=\x22color:\x20#aaa;\x22>重置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22bstage-chat-bg-input\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20CSS\x20Presets\x20Settings\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-paint-brush\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:1;\x22>界面\x20CSS</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-chat-css-select\x22\x20style=\x22background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20width:\x20120px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-crop-alt\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:1;\x22>头像框\x20CSS</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-frame-css-select\x22\x20style=\x22background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20width:\x20120px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-comment-dots\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:1;\x22>气泡\x20CSS</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-bubble-css-select\x22\x20style=\x22background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20width:\x20120px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Context\x20Setting\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-history\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>上下文携带</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22bstage-context-count\x22\x20value=\x2250\x22\x20style=\x22width:\x2050px;\x20background:\x20transparent;\x20border:\x201px\x20solid\x20#444;\x20color:\x20#fff;\x20text-align:\x20center;\x20border-radius:\x204px;\x20margin-right:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x20active\x22\x20id=\x22bstage-context-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Translation\x20Switch\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-language\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>实时翻译</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x22\x20id=\x22bstage-trans-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Other\x20Fans\x20Messages\x20Setting\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-comments\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>查看其他人消息</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x22\x20id=\x22bstage-other-fans-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Auto\x20Activity\x20Setting\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22\x20style=\x22flex-wrap:\x20wrap;\x20padding-top:\x2010px;\x20padding-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x20100%;\x20display:\x20flex;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-robot\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>自主活动</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x22\x20id=\x22bstage-auto-activity-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-auto-activity-options\x22\x20style=\x22width:\x20100%;\x20margin-top:\x2010px;\x20display:\x20none;\x20background:\x20#1c1c1e;\x20padding:\x2010px;\x20border-radius:\x208px;\x20border:\x201px\x20solid\x20#333;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20width:\x2070px;\x22>调用间隔</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22bstage-auto-activity-interval\x22\x20value=\x2260\x22\x20style=\x22flex:\x201;\x20background:\x20#2c2c2e;\x20border:\x201px\x20solid\x20#444;\x20color:\x20#fff;\x20border-radius:\x204px;\x20padding:\x204px\x208px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20margin-left:\x208px;\x22>秒</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20width:\x2070px;\x22>API预设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-auto-activity-preset\x22\x20style=\x22flex:\x201;\x20background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认全局API</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22\x20style=\x22color:\x20#ff3b30;\x22\x20id=\x22bstage-chat-exit-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22\x20style=\x22color:\x20#ff3b30\x20!important;\x22><i\x20class=\x22fas\x20fa-sign-out-alt\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22color:\x20#ff3b30\x20!important;\x22>退出</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document['getElementById'](_0x40029b(0x25c))[_0x40029b(0x1be)](_0xe26d2a);const _0xd1ed97=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0xd1ed97[_0x40029b(0x3ab)]='bottom-sheet-overlay\x20detail-sheet-overlay',_0xd1ed97['id']=_0x40029b(0x39c),_0xd1ed97[_0x40029b(0x466)][_0x40029b(0x53c)]='1200',_0xd1ed97['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2090%;\x20background:\x20#1c1c1e;\x20color:\x20#fff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22\x20style=\x22background-color:\x20#444;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x20bstage-modal-content\x22\x20style=\x22padding:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2020px\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22bstage-fan-detail-avatar-container\x22\x20style=\x22width:\x2080px;\x20height:\x2080px;\x20border-radius:\x2050%;\x20background-color:\x20#2c2c2e;\x20margin:\x200\x20auto\x2010px;\x20overflow:\x20hidden;\x20border:\x201px\x20solid\x20#333;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22bstage-fan-detail-avatar\x22\x20src=\x22\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x20display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user-friends\x22\x20id=\x22bstage-fan-detail-avatar-icon\x22\x20style=\x22font-size:\x2028px;\x20color:\x20#aaa;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22font-size:\x2020px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20margin-bottom:\x205px;\x22\x20id=\x22bstage-fan-detail-name\x22>粉丝聊天室</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#aaa;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20gap:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-heart\x22\x20style=\x22color:\x20#ff3b30;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22bstage-fan-detail-subscribers\x22>已订阅\x200\x20人</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-settings-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-image\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20id=\x22bstage-fan-setting-bg\x22\x20style=\x22flex:1;\x22>背景设定</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-right-action\x22\x20id=\x22bstage-fan-reset-bg-btn\x22\x20style=\x22color:\x20#aaa;\x22>重置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22bstage-fan-chat-bg-input\x22\x20accept=\x22image/*\x22\x20style=\x22display:none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-paint-brush\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:1;\x22>界面\x20CSS</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-fan-chat-css-select\x22\x20style=\x22background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20width:\x20120px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-comment-dots\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:1;\x22>气泡\x20CSS</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22bstage-fan-bubble-css-select\x22\x20style=\x22background:\x20#2c2c2e;\x20color:\x20#fff;\x20border:\x201px\x20solid\x20#444;\x20border-radius:\x204px;\x20padding:\x204px;\x20width:\x20120px;\x20outline:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22\x22>默认</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-history\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>上下文携带</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22bstage-fan-context-count\x22\x20value=\x2250\x22\x20style=\x22width:\x2050px;\x20background:\x20transparent;\x20border:\x201px\x20solid\x20#444;\x20color:\x20#fff;\x20text-align:\x20center;\x20border-radius:\x204px;\x20margin-right:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x20active\x22\x20id=\x22bstage-fan-context-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22><i\x20class=\x22fas\x20fa-language\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22flex:\x201;\x22>实时翻译</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch\x22\x20id=\x22bstage-fan-trans-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-switch-knob\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-item\x22\x20style=\x22color:\x20#ff3b30;\x22\x20id=\x22bstage-fan-chat-clear-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-icon\x22\x20style=\x22color:\x20#ff3b30\x20!important;\x22><i\x20class=\x22fas\x20fa-trash-alt\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-setting-label\x22\x20style=\x22color:\x20#ff3b30\x20!important;\x22>清空聊天</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document['getElementById']('app')[_0x40029b(0x1be)](_0xd1ed97);const _0x18eae2=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x18eae2['className']=_0x40029b(0x35e),_0x18eae2['id']=_0x40029b(0x42d),_0x18eae2[_0x40029b(0x466)][_0x40029b(0x53c)]='1250',_0x18eae2[_0x40029b(0x51f)]=_0x40029b(0x569),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x18eae2);const _0x334c82=document['createElement'](_0x40029b(0x1b6));_0x334c82[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x334c82['id']=_0x40029b(0x381),_0x334c82[_0x40029b(0x51f)]=_0x40029b(0x38e),document[_0x40029b(0x284)](_0x40029b(0x25c))[_0x40029b(0x1be)](_0x334c82);const _0x25afd9=document[_0x40029b(0x338)](_0x40029b(0x1b6));_0x25afd9[_0x40029b(0x3ab)]=_0x40029b(0x35e),_0x25afd9['id']=_0x40029b(0x37e),_0x25afd9['innerHTML']=_0x40029b(0x2fd),document[_0x40029b(0x284)]('app')[_0x40029b(0x1be)](_0x25afd9);const _0x33f253=0x2,_0x28acc9=0x1194,_0x5a1627=0.0052;let _0x10b4c8=[],_0x4633b3=null,_0x4a3c94=[],_0x579506=![],_0x5eea56=null,_0x5d0a30=null,_0x16a7b0=null,_0x25d921=null,_0x30ac69=null,_0x18df9d=![],_0xaea4d2=!![],_0x207604=0x32,_0x1f75f9=0x0,_0x322f3e=[],_0x1b99c6=[],_0x2094ea={'chatBg':null,'chatCssId':'','bubbleCssId':''},_0x5d963b={'id':_0x40029b(0x2ff),'isUserTeam':!![],'isSubscribed':!![]},_0x3ad594=null,_0xdeb302=null,_0x469a3e=0x0,_0x1aa780=![],_0xee7d3f={'withdrawnCny':0x0,'lastWithdrawAt':null},_0x2a803b=null,_0x34590b=null,_0x28175c=[],_0x6ac26=null,_0x20e24d={'chatCss':[],'avatarFrameCss':[],'bubbleCss':[]},_0x36f1a5=_0x40029b(0x351),_0x3321bc={};function _0x38842d(_0x3a4b4e){const _0x3c0674=_0x40029b,_0x4b58ac=new Date(_0x3a4b4e),_0x57550c=new Date(),_0x26b5ee=_0x57550c-_0x4b58ac,_0x4d16a4=Math[_0x3c0674(0x259)](_0x26b5ee/(0x3e8*0x3c*0x3c*0x18)),_0x93172b=_0x4b58ac[_0x3c0674(0x1f8)]()[_0x3c0674(0x30f)]()[_0x3c0674(0x3fa)](0x2,'0')+':'+_0x4b58ac[_0x3c0674(0x522)]()['toString']()[_0x3c0674(0x3fa)](0x2,'0'),_0xb85dee=_0x4b58ac[_0x3c0674(0x3a8)]()===_0x57550c[_0x3c0674(0x3a8)]()&&_0x4b58ac['getMonth']()===_0x57550c[_0x3c0674(0x425)]()&&_0x4b58ac['getFullYear']()===_0x57550c[_0x3c0674(0x298)](),_0x13ba6b=new Date(_0x57550c);_0x13ba6b[_0x3c0674(0x375)](_0x57550c[_0x3c0674(0x3a8)]()-0x1);const _0x4bd9b2=_0x4b58ac[_0x3c0674(0x3a8)]()===_0x13ba6b[_0x3c0674(0x3a8)]()&&_0x4b58ac['getMonth']()===_0x13ba6b['getMonth']()&&_0x4b58ac[_0x3c0674(0x298)]()===_0x13ba6b[_0x3c0674(0x298)]();if(_0xb85dee)return _0x3c0674(0x35b)+_0x93172b;else{if(_0x4bd9b2)return _0x3c0674(0x403)+_0x93172b;else{const _0x1d85f2=[_0x3c0674(0x4d6),'星期一',_0x3c0674(0x440),'星期三','星期四',_0x3c0674(0x22d),_0x3c0674(0x53f)];return _0x4d16a4<0x7?_0x1d85f2[_0x4b58ac[_0x3c0674(0x39a)]()]+'\x20'+_0x93172b:_0x4b58ac[_0x3c0674(0x298)]()+'年'+(_0x4b58ac[_0x3c0674(0x425)]()+0x1)+'月'+_0x4b58ac[_0x3c0674(0x3a8)]()+'日\x20'+_0x93172b;}}}function _0x18aa20(_0x9ce618){const _0x4f4fe0=_0x40029b;let _0xb25539=String(_0x9ce618||'')[_0x4f4fe0(0x262)]();if(_0xb25539[_0x4f4fe0(0x374)]('/'))_0xb25539=_0xb25539[_0x4f4fe0(0x260)](0x0,-0x1);return!_0xb25539['endsWith']('/chat/completions')&&(_0xb25539=_0xb25539[_0x4f4fe0(0x374)](_0x4f4fe0(0x377))?_0xb25539+_0x4f4fe0(0x32a):_0xb25539+_0x4f4fe0(0x27a)),_0xb25539;}function _0x53d238(_0x383cf0,_0x2b58b5=''){const _0x432ce1=_0x40029b;return String(_0x383cf0||_0x2b58b5||'')[_0x432ce1(0x2a8)](/[<>]/g,'')[_0x432ce1(0x262)]();}function _0x245dba(_0x554cae){const _0x5fde01=_0x40029b;return String(_0x554cae||'')[_0x5fde01(0x2a8)](/&/g,_0x5fde01(0x35a))[_0x5fde01(0x2a8)](/</g,_0x5fde01(0x464))[_0x5fde01(0x2a8)](/>/g,_0x5fde01(0x310))[_0x5fde01(0x2a8)](/"/g,_0x5fde01(0x48f))[_0x5fde01(0x2a8)](/'/g,_0x5fde01(0x391));}function _0x54a5c5(_0x574008=_0x40029b(0x328)){const _0x38a90d=_0x40029b;return encodeURIComponent(_0x574008+'-'+Date[_0x38a90d(0x41b)]()+'-'+Math['random']()[_0x38a90d(0x30f)](0x24)[_0x38a90d(0x260)](0x2));}const _0x48e709=['😀','😎','🥳','🤩','😊','😺','🌟','✨','🎤','🎧','🎵','🎸','💿','📀','🎬','📸','🌈','🔥','💜','💙','🍒','🍓','🍑','🍋','🍀','🌙','☀️','⭐','🪩','🫶'];function _0x3a51a5(_0xb59ec8){const _0x5e0353=_0x40029b,_0x5b3dcf=String(_0xb59ec8||'bstage');let _0x72015b=0x0;for(let _0x47459a=0x0;_0x47459a<_0x5b3dcf[_0x5e0353(0x388)];_0x47459a++){_0x72015b=(_0x72015b<<0x5)-_0x72015b+_0x5b3dcf[_0x5e0353(0x546)](_0x47459a),_0x72015b|=0x0;}return Math[_0x5e0353(0x497)](_0x72015b);}function _0x31f8eb(_0x3a5f88){const _0x5a2e7d=_0x40029b;return _0x48e709[_0x3a51a5(_0x3a5f88)%_0x48e709[_0x5a2e7d(0x388)]];}function _0x44083b(_0x39bed8){const _0x1fa358=_0x40029b;return/^https:\/\/i\.pravatar\.cc\//[_0x1fa358(0x44b)](String(_0x39bed8||''));}function _0x57c4db(_0x243d4d,_0x5232c3){const _0x500d16=_0x40029b;if(!_0x243d4d||typeof _0x243d4d!==_0x500d16(0x3d4))return _0x31f8eb(_0x5232c3);if(!_0x243d4d[_0x500d16(0x4ae)])_0x243d4d[_0x500d16(0x4ae)]=_0x31f8eb(_0x5232c3||_0x243d4d['name']||_0x243d4d['id']||_0x243d4d[_0x500d16(0x33d)]||_0x500d16(0x328));return _0x243d4d['avatarEmoji'];}function _0x51b122(_0x544465,_0x5bac19='User',_0x360a9a=''){const _0x27f3c4=_0x40029b,_0x5515e5=_0x544465&&_0x544465['avatar']?String(_0x544465[_0x27f3c4(0x29d)]):'';if(_0x5515e5&&!_0x44083b(_0x5515e5))return _0x27f3c4(0x4fb)+_0x245dba(_0x360a9a)+'\x22\x20src=\x22'+_0x245dba(_0x5515e5)+_0x27f3c4(0x416);const _0x5c25b5=_0x57c4db(_0x544465,_0x5bac19);return _0x27f3c4(0x4dd)+_0x245dba(_0x360a9a)+_0x27f3c4(0x409)+_0x245dba(_0x5bac19)+'\x22>'+_0x245dba(_0x5c25b5)+_0x27f3c4(0x1cc);}function _0x10d7b4(_0x37998a,_0x31be27=_0x40029b(0x397)){const _0x5ed2dd=_0x40029b,_0x3fa500=_0x37998a&&_0x37998a[_0x5ed2dd(0x29d)]?String(_0x37998a['avatar']):'';if(_0x3fa500&&!_0x44083b(_0x3fa500))return _0x5ed2dd(0x200)+_0x245dba(_0x3fa500)+_0x5ed2dd(0x416);return _0x5ed2dd(0x1bf)+_0x245dba(_0x57c4db(_0x37998a,_0x31be27))+_0x5ed2dd(0x2c7);}function _0x391fff(_0x467cd4){const _0x1135a6=_0x40029b;return!!_0x467cd4&&(_0x467cd4[_0x1135a6(0x2c3)]||_0x467cd4['id']===_0x1135a6(0x2ff));}function _0x13d678(){const _0x55b7c5=_0x40029b,_0x404120=window[_0x55b7c5(0x434)]&&window[_0x55b7c5(0x434)][_0x55b7c5(0x4df)]?window[_0x55b7c5(0x434)][_0x55b7c5(0x4df)]:_0x55b7c5(0x397),_0x5cdb9d=typeof _0x5d963b[_0x55b7c5(0x1f4)]===_0x55b7c5(0x4b6)?_0x5d963b[_0x55b7c5(0x1f4)]['trim']():'',_0x19248a=_0x5cdb9d||_0x404120,_0x5cada8=Object[_0x55b7c5(0x524)]['hasOwnProperty']['call'](_0x5d963b,_0x55b7c5(0x4f9)),_0xf9b890=_0x5cada8?_0x5d963b[_0x55b7c5(0x4f9)]:window[_0x55b7c5(0x434)]&&window['userState'][_0x55b7c5(0x3a2)]?window[_0x55b7c5(0x434)][_0x55b7c5(0x3a2)]:null;_0x5d963b['id']=_0x55b7c5(0x2ff),_0x5d963b[_0x55b7c5(0x2c3)]=!![],_0x5d963b['isSubscribed']=!![],_0x5d963b[_0x55b7c5(0x4df)]=_0x19248a,_0x5d963b[_0x55b7c5(0x251)]=_0x5d963b[_0x55b7c5(0x2ba)]||(window[_0x55b7c5(0x434)]&&window[_0x55b7c5(0x434)][_0x55b7c5(0x362)]?window['userState']['persona']:_0x55b7c5(0x30c)),_0x5d963b[_0x55b7c5(0x29d)]=_0xf9b890;Object[_0x55b7c5(0x524)][_0x55b7c5(0x553)]['call'](_0x5d963b,_0x55b7c5(0x335))&&(_0x5d963b['bg']=_0x5d963b[_0x55b7c5(0x335)]||null);_0x5d963b[_0x55b7c5(0x4ae)]=_0x5d963b[_0x55b7c5(0x4ae)]||_0x31f8eb(_0x55b7c5(0x523)+_0x19248a);const _0x5adf42=Array[_0x55b7c5(0x481)](_0x5d963b[_0x55b7c5(0x501)])?_0x5d963b['members']['filter'](_0x352e7b=>_0x352e7b&&!_0x352e7b[_0x55b7c5(0x32c)]&&_0x352e7b['id']!==_0x55b7c5(0x28a)):[];return _0x5d963b['members']=[{'id':_0x55b7c5(0x28a),'isUserMember':!![],'name':_0x19248a,'role':window[_0x55b7c5(0x434)]&&window[_0x55b7c5(0x434)][_0x55b7c5(0x362)]?window[_0x55b7c5(0x434)]['persona']:_0x55b7c5(0x397),'avatar':_0xf9b890,'avatarEmoji':_0x5d963b[_0x55b7c5(0x4ae)],'isSubscribed':!![],'subStartDate':Date[_0x55b7c5(0x41b)]()},..._0x5adf42],_0x5d963b;}function _0x1169ad(_0x101261,_0x426e77=null){const _0x3a4a82=_0x40029b;if(_0x101261===undefined||_0x101261===null)return null;const _0x273340=String(_0x101261),_0x3fa9f5=_0x426e77===undefined||_0x426e77===null?null:String(_0x426e77),_0x2e78b2=_0x13d678(),_0x3afe23=[_0x2e78b2,..._0x10b4c8],_0x4b65f4=_0x3fa9f5?_0x3afe23['filter'](_0x20aa6c=>_0x20aa6c&&String(_0x20aa6c['id'])===_0x3fa9f5):_0x3afe23,_0x4055fe=_0x4b65f4[_0x3a4a82(0x388)]>0x0?_0x4b65f4:_0x3afe23;for(const _0x19bd61 of _0x4055fe){const _0xa46409=Array['isArray'](_0x19bd61?.[_0x3a4a82(0x501)])?_0x19bd61[_0x3a4a82(0x501)][_0x3a4a82(0x372)](_0x42d7d3=>_0x42d7d3&&String(_0x42d7d3['id'])===_0x273340):null;if(_0xa46409)return{'team':_0x19bd61,'member':_0xa46409};}return null;}function _0x44b072(){const _0x3c8be4=_0x40029b,_0x1f4a25=_0x4633b3?.['id'];_0x1f4a25!==undefined&&_0x1f4a25!==null&&(_0x4633b3=String(_0x1f4a25)===_0x3c8be4(0x2ff)?_0x13d678():_0x10b4c8[_0x3c8be4(0x372)](_0x462c1f=>_0x462c1f&&String(_0x462c1f['id'])===String(_0x1f4a25))||null);if(!_0x16a7b0)return![];const _0xb0138e=_0x1169ad(_0x16a7b0['id'],_0x4633b3?.['id']);_0x16a7b0=_0xb0138e?_0xb0138e['member']:null;if(_0xb0138e)_0x4633b3=_0xb0138e[_0x3c8be4(0x376)];return!!_0xb0138e;}function _0x449905(_0x4469ad=!![]){const _0x2abad1=_0x40029b;if(_0x1aa780)return!![];return _0x4469ad&&typeof window['showToast']===_0x2abad1(0x414)&&window[_0x2abad1(0x24d)]('b.stage\x20数据正在加载，请稍候'),![];}function _0x21a229(_0x23666f){const _0x4438ee=_0x40029b;return _0x4438ee(0x4b1)+encodeURIComponent(_0x23666f)+_0x4438ee(0x1c2);}function _0x10ddb1(_0x36b089,_0x503c71=0x320,_0x3525c3=0x320){const _0x3aeafd=_0x40029b;return _0x3aeafd(0x4b1)+encodeURIComponent(_0x36b089)+'/'+_0x503c71+'/'+_0x3525c3;}function _0x523254(_0x524c2c){const _0x485936=_0x40029b;if(!_0x524c2c||typeof _0x524c2c!==_0x485936(0x3d4))return![];let _0x2fc602=![];const _0xbc03b3=_0x524c2c['id']||_0x524c2c['name']||'';if(Array[_0x485936(0x481)](_0x524c2c[_0x485936(0x31e)])){const _0x39d43e=new Set([_0x524c2c[_0x485936(0x4df)]+_0x485936(0x45e),_0x524c2c[_0x485936(0x4df)]+_0x485936(0x4ce),_0x485936(0x252),_0x485936(0x3ce),'Behind\x20Photo\x20Set\x20A']),_0x289169=new Set([_0x10ddb1(_0xbc03b3+_0x485936(0x295),0x258,0x258),_0x10ddb1(_0xbc03b3+'-shop-lightstick',0x258,0x258),_0x10ddb1(_0xbc03b3+_0x485936(0x2b2),0x258,0x258),_0x10ddb1(_0xbc03b3+_0x485936(0x1e4),0x258,0x258),_0x10ddb1(_0xbc03b3+_0x485936(0x4e3),0x258,0x258)]),_0xd6a20a=_0x524c2c['shopItems'][_0x485936(0x388)];_0x524c2c['shopItems']=_0x524c2c[_0x485936(0x31e)]['filter'](_0x41cc08=>{const _0x19ca74=_0x485936,_0x32afe1=_0x41cc08&&_0x41cc08[_0x19ca74(0x4df)]?String(_0x41cc08[_0x19ca74(0x4df)]):'',_0x2d3b7e=_0x41cc08&&_0x41cc08[_0x19ca74(0x1d6)]?String(_0x41cc08['img']):'';return!(_0x39d43e[_0x19ca74(0x272)](_0x32afe1)||_0x289169[_0x19ca74(0x272)](_0x2d3b7e));});if(_0x524c2c[_0x485936(0x31e)][_0x485936(0x388)]!==_0xd6a20a)_0x2fc602=!![];}if(Array[_0x485936(0x481)](_0x524c2c[_0x485936(0x2b3)])&&_0x524c2c[_0x485936(0x2b3)]['length']===0x5){const _0x49505c=['全部','周边','票务','签售','其他'];_0x49505c[_0x485936(0x566)]((_0x507430,_0x537d2a)=>_0x524c2c[_0x485936(0x2b3)][_0x537d2a]===_0x507430)&&(!_0x524c2c['shopItems']||_0x524c2c[_0x485936(0x31e)][_0x485936(0x388)]===0x0)&&(_0x524c2c[_0x485936(0x2b3)]=['全部'],_0x2fc602=!![]);}if(Array[_0x485936(0x481)](_0x524c2c[_0x485936(0x32d)])){const _0x51f250=new Set([_0x10ddb1(_0xbc03b3+_0x485936(0x305),0x384,0x258),_0x10ddb1(_0xbc03b3+'-content-photo-2',0x384,0x258),_0x10ddb1(_0xbc03b3+_0x485936(0x427),0x384,0x258)]),_0x317615=_0x524c2c[_0x485936(0x32d)][_0x485936(0x388)];_0x524c2c[_0x485936(0x32d)]=_0x524c2c[_0x485936(0x32d)][_0x485936(0x22b)](_0x57b331=>!_0x51f250['has'](String(_0x57b331||'')));if(_0x524c2c[_0x485936(0x32d)][_0x485936(0x388)]!==_0x317615)_0x2fc602=!![];}if(Array[_0x485936(0x481)](_0x524c2c['videos'])){const _0x3dfd4d=new Set([_0x485936(0x4a3),_0x485936(0x2a9),_0x485936(0x1b3)]),_0x227569=_0x524c2c[_0x485936(0x1b5)]['length'];_0x524c2c[_0x485936(0x1b5)]=_0x524c2c[_0x485936(0x1b5)]['filter'](_0x19666a=>!_0x3dfd4d[_0x485936(0x272)](_0x19666a&&_0x19666a[_0x485936(0x2a1)]?String(_0x19666a[_0x485936(0x2a1)]):''));if(_0x524c2c[_0x485936(0x1b5)][_0x485936(0x388)]!==_0x227569)_0x2fc602=!![];}return Array['isArray'](_0x524c2c[_0x485936(0x240)])&&_0x524c2c[_0x485936(0x240)][_0x485936(0x388)]===0x2&&_0x524c2c[_0x485936(0x240)][0x0]==='全部'&&_0x524c2c[_0x485936(0x240)][0x1]===_0x485936(0x2bb)&&(!_0x524c2c[_0x485936(0x1b5)]||_0x524c2c[_0x485936(0x1b5)]['length']===0x0)&&(_0x524c2c[_0x485936(0x240)]=['全部'],_0x2fc602=!![]),_0x2fc602;}function _0x467780(_0x4349c1=_0x40029b(0x55c)){const _0x56f177=_0x40029b;return _0x4349c1+'_'+Date[_0x56f177(0x41b)]()+'_'+Math['random']()[_0x56f177(0x30f)](0x24)[_0x56f177(0x260)](0x2,0x8);}function _0x24332e(_0x4a3658,_0xb81949='msg'){const _0x45f292=_0x40029b;if(!_0x4a3658||typeof _0x4a3658!==_0x45f292(0x3d4))return'';if(!_0x4a3658['id'])_0x4a3658['id']=_0xb81949+'_'+(_0x4a3658[_0x45f292(0x33d)]||Date['now']())+'_'+Math[_0x45f292(0x303)]()[_0x45f292(0x30f)](0x24)[_0x45f292(0x260)](0x2,0x8);return _0x4a3658['id'];}function _0x2a9ab6(_0x3ef2c6){const _0xfb177=_0x40029b;if(!_0x3ef2c6)return'';const _0x39fbed=_0x3ef2c6[_0xfb177(0x378)]===_0xfb177(0x432)?_0xfb177(0x342)+(_0x3ef2c6[_0xfb177(0x216)]||_0x3ef2c6[_0xfb177(0x2dc)]||''):_0x3ef2c6['text']||'',_0x568b76=_0x53d238(_0x39fbed,_0x3ef2c6[_0xfb177(0x378)]===_0xfb177(0x432)?_0xfb177(0x52e):'');return _0x568b76[_0xfb177(0x388)]>0x40?_0x568b76[_0xfb177(0x260)](0x0,0x40)+_0xfb177(0x3e0):_0x568b76;}function _0x2ab085(_0xf77d99,_0x1f3a59){const _0x30fc36=_0x40029b;if(!_0xf77d99)return null;return{'id':_0x24332e(_0xf77d99,_0xf77d99[_0x30fc36(0x258)]?'user':'ai'),'speaker':_0x53d238(_0x1f3a59,_0xf77d99[_0x30fc36(0x258)]?_0x30fc36(0x397):'AI'),'text':_0x2a9ab6(_0xf77d99),'isUser':!!_0xf77d99[_0x30fc36(0x258)]};}function _0x3055c0(_0x1485b5){const _0x209bf3=_0x40029b;if(!_0x1485b5||!_0x1485b5[_0x209bf3(0x274)])return'';return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-quote\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-reply-quote-speaker\x22>'+_0x245dba(_0x1485b5[_0x209bf3(0x402)]||'消息')+_0x209bf3(0x51c)+_0x245dba(_0x1485b5['text'])+_0x209bf3(0x336);}function _0x48ff8f(_0x4eccc6){const _0x2fcdd3=_0x40029b;if(!_0x4eccc6||!_0x4eccc6['id'])return'';return'；回复\x20'+(_0x4eccc6[_0x2fcdd3(0x402)]||'消息')+'('+_0x4eccc6['id']+_0x2fcdd3(0x32f)+(_0x4eccc6[_0x2fcdd3(0x274)]||'')+'」';}function _0x437475(_0x10e05f,_0x25fd00,_0x176216){const _0x55cc50=_0x40029b;if(!_0x25fd00||!Array[_0x55cc50(0x481)](_0x10e05f))return null;return _0x10e05f[_0x55cc50(0x372)](_0x3c9d0f=>_0x3c9d0f&&_0x3c9d0f['id']===_0x25fd00&&(!_0x176216||_0x176216(_0x3c9d0f)))||null;}function _0x1fb091(_0x1125a9,_0x5c1a4c=Date[_0x40029b(0x41b)]()){const _0x1dbf3e=_0x40029b;if(!Array[_0x1dbf3e(0x481)](_0x1125a9))return[];return _0x1125a9[_0x1dbf3e(0x260)](0x0,0xe)[_0x1dbf3e(0x34c)]((_0x56229b,_0xf47382)=>{const _0xbf150f=_0x1dbf3e,_0x346388=_0x53d238(_0x56229b&&_0x56229b['name'],_0xfa7496(_0xf47382)),_0x17b5c4=_0x53d238(typeof _0x56229b==='string'?_0x56229b:_0x56229b&&_0x56229b[_0xbf150f(0x274)]),_0x36581a=_0x53d238(_0x56229b&&(_0x56229b[_0xbf150f(0x3db)]||_0x56229b[_0xbf150f(0x1ea)]||_0x56229b[_0xbf150f(0x1dc)]));if(!_0x17b5c4)return null;if(_0x1e2ec0(_0x17b5c4)&&!_0x36581a)return null;const _0x1192e8=_0x53d238(_0x56229b&&_0x56229b['id'],_0x467780('other_fan'));return{'id':_0x1192e8,'name':_0x346388,'text':_0x17b5c4,'trans':_0x36581a,'timestamp':_0x5c1a4c+_0xf47382,'avatarEmoji':_0x53d238(_0x56229b&&_0x56229b[_0xbf150f(0x4ae)])||_0x31f8eb(_0xbf150f(0x22c)+_0x346388+'-'+_0x1192e8)};})[_0x1dbf3e(0x22b)](Boolean);}function _0x464c04(_0x5c926a){const _0x429572=_0x40029b;if(!_0x5c926a||typeof _0x5c926a!==_0x429572(0x3d4))return null;return _0x24332e(_0x5c926a,_0x429572(0x505)),_0x5c926a['type']=_0x429572(0x505),_0x5c926a[_0x429572(0x33d)]=_0x5c926a[_0x429572(0x33d)]||Date['now'](),_0x5c926a[_0x429572(0x45c)]=_0x1fb091(_0x5c926a['fanMessages']||_0x5c926a[_0x429572(0x32b)]||_0x5c926a[_0x429572(0x3cb)]||[],_0x5c926a[_0x429572(0x33d)]),_0x5c926a;}function _0x486be1(_0x5cbea6){const _0x5694c3=_0x40029b,_0xf7225d=_0x464c04(_0x5cbea6);if(!_0xf7225d||_0xf7225d[_0x5694c3(0x45c)][_0x5694c3(0x388)]===0x0)return'';const _0x297fc6=_0xf7225d[_0x5694c3(0x45c)][_0x5694c3(0x260)](0x0,0x8)['map'](_0x365966=>(_0x365966['name']||'粉丝')+'('+_0x365966['id']+_0x5694c3(0x329)+(_0x365966['text']||'')+(_0x365966['trans']?_0x5694c3(0x437)+_0x365966[_0x5694c3(0x3db)]:''))[_0x5694c3(0x54d)]('\x20|\x20');return _0x5694c3(0x48b)+_0xf7225d['id']+_0x5694c3(0x37c)+_0x297fc6;}function _0x5d1f3e(_0x368d29){const _0x48b1eb=_0x40029b;if(!_0x368d29)return null;return{'id':_0x368d29['id'],'speaker':_0x53d238(_0x368d29[_0x48b1eb(0x4df)],'粉丝'),'text':_0x2a9ab6({'type':'text','text':_0x368d29[_0x48b1eb(0x274)]}),'isUser':![],'isOtherFan':!![]};}function _0xa57738(){const _0x137446=_0x40029b;if(!_0x548be7)return;_0x548be7[_0x137446(0x428)][_0x137446(0x3f1)](_0x137446(0x49a));}function _0x4c38d1(_0x458f5a,_0x1d064a){const _0x84af07=_0x40029b,_0xfff524=_0x464c04(_0x1d064a),_0x5d0768=document[_0x84af07(0x284)](_0x84af07(0x562)),_0x1c3ca7=document[_0x84af07(0x284)](_0x84af07(0x25a));if(!_0xfff524||!_0x1c3ca7)return;const _0xe69a43=_0x458f5a&&_0x458f5a[_0x84af07(0x4df)]?_0x458f5a[_0x84af07(0x4df)]:_0x84af07(0x2bd);if(_0x5d0768)_0x5d0768[_0x84af07(0x39d)]='其他粉丝给\x20'+_0xe69a43+_0x84af07(0x2c5);const _0x5ecea6=_0xfff524[_0x84af07(0x45c)]||[];_0x5ecea6[_0x84af07(0x388)]===0x0?_0x1c3ca7['innerHTML']=_0x84af07(0x1ca):_0x1c3ca7[_0x84af07(0x51f)]=_0x5ecea6[_0x84af07(0x34c)](_0x3a7191=>{const _0x10d223=_0x84af07,_0x23f2c7=_0x3a7191[_0x10d223(0x3db)]?'<div\x20class=\x22bstage-other-fan-trans\x22>'+_0x245dba(_0x3a7191[_0x10d223(0x3db)])+'</div>':'';return _0x10d223(0x36a)+_0x51b122(_0x3a7191,_0x3a7191['name']||'粉丝',_0x10d223(0x3d5))+_0x10d223(0x1b8)+_0x245dba(_0x3a7191[_0x10d223(0x4df)]||'粉丝')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-other-fan-text\x22>'+_0x245dba(_0x3a7191[_0x10d223(0x274)]||'')+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x23f2c7+_0x10d223(0x4c4);})['join'](''),_0x548be7[_0x84af07(0x428)][_0x84af07(0x2d0)]('active');}function _0x3ee4f2(_0x3db7ed,_0x32945b){const _0x45e6fd=_0x40029b,_0x4810fc=document['createElement'](_0x45e6fd(0x1b6));_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x518)]='fixed',_0x4810fc['style']['top']='0',_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x487)]='0',_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x557)]=_0x45e6fd(0x1d0),_0x4810fc['style']['height']=_0x45e6fd(0x1c3),_0x4810fc['style']['backgroundColor']='rgba(0,\x200,\x200,\x200.9)',_0x4810fc[_0x45e6fd(0x466)]['zIndex']=_0x45e6fd(0x337),_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x1f0)]=_0x45e6fd(0x1e0),_0x4810fc[_0x45e6fd(0x466)]['flexDirection']=_0x45e6fd(0x34f),_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x279)]=_0x45e6fd(0x3f8),_0x4810fc[_0x45e6fd(0x466)][_0x45e6fd(0x21e)]='center',_0x4810fc['style'][_0x45e6fd(0x20c)]=_0x45e6fd(0x254);const _0x1a7028=document[_0x45e6fd(0x338)](_0x45e6fd(0x1d6));_0x1a7028[_0x45e6fd(0x380)]=_0x3db7ed,_0x1a7028['style'][_0x45e6fd(0x42c)]='90%',_0x1a7028[_0x45e6fd(0x466)]['maxHeight']=_0x45e6fd(0x461),_0x1a7028[_0x45e6fd(0x466)]['objectFit']=_0x45e6fd(0x538),_0x1a7028[_0x45e6fd(0x466)][_0x45e6fd(0x21b)]=_0x45e6fd(0x4e5),_0x1a7028['style'][_0x45e6fd(0x41d)]=_0x45e6fd(0x297),_0x4810fc[_0x45e6fd(0x1be)](_0x1a7028);if(_0x32945b){const _0x51cd1f=document['createElement']('div');_0x51cd1f['style'][_0x45e6fd(0x536)]=_0x45e6fd(0x401),_0x51cd1f['style'][_0x45e6fd(0x3f6)]=_0x45e6fd(0x3dd),_0x51cd1f[_0x45e6fd(0x466)][_0x45e6fd(0x42c)]='90%',_0x51cd1f[_0x45e6fd(0x466)][_0x45e6fd(0x526)]=_0x45e6fd(0x3f8),_0x51cd1f[_0x45e6fd(0x466)][_0x45e6fd(0x357)]=_0x45e6fd(0x525),_0x51cd1f[_0x45e6fd(0x39d)]=_0x32945b,_0x4810fc[_0x45e6fd(0x1be)](_0x51cd1f);}document[_0x45e6fd(0x2f4)][_0x45e6fd(0x1be)](_0x4810fc),_0x4810fc['addEventListener']('click',()=>_0x4810fc[_0x45e6fd(0x3f1)]());}function _0x3ba2c9(_0x1299ea){const _0x53ec7f=_0x40029b;if(!_0x1299ea)return;const _0x198427=_0x1299ea[_0x53ec7f(0x35c)](_0x53ec7f(0x40e));if(!_0x198427)return;_0x198427[_0x53ec7f(0x4ed)](_0x53ec7f(0x52d),_0x279b3c=>{const _0x2dad15=_0x53ec7f;_0x279b3c[_0x2dad15(0x561)](),_0x3ee4f2(_0x198427[_0x2dad15(0x380)],_0x198427[_0x2dad15(0x498)](_0x2dad15(0x27b))||'');});}function _0x33f391(_0x2b2fd8,_0x22bee0){const _0x40a9af=_0x40029b;if(!_0x2b2fd8||_0x2b2fd8[_0x40a9af(0x378)]===_0x40a9af(0x2b0))return'';if(_0x2b2fd8['type']===_0x40a9af(0x505))return _0x486be1(_0x2b2fd8);_0x24332e(_0x2b2fd8,_0x2b2fd8[_0x40a9af(0x258)]?'user':'ai');const _0x4673c7=_0x2a9ab6(_0x2b2fd8),_0x5d4002=_0x48ff8f(_0x2b2fd8[_0x40a9af(0x4f0)]);return _0x40a9af(0x48b)+_0x2b2fd8['id']+_0x40a9af(0x4de)+_0x22bee0+']'+_0x5d4002+':\x20'+_0x4673c7;}function _0x13a8ef(_0x37cd7c,_0x4d3654){const _0x5e91b3=_0x40029b,_0x3edb98=_0x37cd7c==='fan';if(_0x3edb98)_0x30ac69=_0x4d3654;else _0x25d921=_0x4d3654;const _0xdb604c=document[_0x5e91b3(0x284)](_0x3edb98?_0x5e91b3(0x35f):_0x5e91b3(0x4a6)),_0x3ee8dd=document[_0x5e91b3(0x284)](_0x3edb98?_0x5e91b3(0x45a):'bstage-chat-reply-preview-text');_0xdb604c&&_0x3ee8dd&&(_0x4d3654?(_0x3ee8dd[_0x5e91b3(0x39d)]=_0x4d3654['speaker']+':\x20'+_0x4d3654[_0x5e91b3(0x274)],_0xdb604c[_0x5e91b3(0x466)][_0x5e91b3(0x1f0)]=_0x5e91b3(0x1e0),_0xdb604c[_0x5e91b3(0x428)]['add']('active')):(_0x3ee8dd[_0x5e91b3(0x39d)]='',_0xdb604c[_0x5e91b3(0x466)][_0x5e91b3(0x1f0)]=_0x5e91b3(0x2cc),_0xdb604c[_0x5e91b3(0x428)][_0x5e91b3(0x3f1)]('active')));const _0x9438fc=document['getElementById'](_0x3edb98?_0x5e91b3(0x415):'bstage-chat-input');if(_0x4d3654&&_0x9438fc)_0x9438fc[_0x5e91b3(0x1b2)]();}function _0x3c3ce1(_0x5a1d01){_0x13a8ef(_0x5a1d01,null);}function _0x3a86da(_0x412df6,_0x5389a4){const _0x3465d1=_0x40029b;if(!_0x412df6)return;_0x412df6[_0x3465d1(0x428)]['toggle'](_0x3465d1(0x26a),_0x5389a4),_0x412df6[_0x3465d1(0x371)]('aria-disabled',_0x5389a4?_0x3465d1(0x3f7):_0x3465d1(0x4d0)),_0x412df6[_0x3465d1(0x51f)]=_0x5389a4?_0x3465d1(0x55f):'<i\x20class=\x22fas\x20fa-arrow-down\x22></i>';}function _0xec4781(_0x1b1063){const _0x21c2c3=_0x40029b,_0x5db27d=String(_0x1b1063||'')[_0x21c2c3(0x2a8)](/```json/g,'')[_0x21c2c3(0x2a8)](/```/g,'')['trim']();return JSON[_0x21c2c3(0x472)](_0x5db27d);}async function _0xde158a(_0x253081,_0x1291b9=_0x40029b(0x3c7),_0x1b7b17=0.7){const _0xe49e9=_0x40029b;if(!window[_0xe49e9(0x230)]||!window[_0xe49e9(0x230)][_0xe49e9(0x385)]||!window[_0xe49e9(0x230)][_0xe49e9(0x2f0)])throw new Error(_0xe49e9(0x473));const _0x46e10a=window[_0xe49e9(0x230)][_0xe49e9(0x4c5)]!==undefined?window[_0xe49e9(0x230)][_0xe49e9(0x4c5)]:window[_0xe49e9(0x230)][_0xe49e9(0x1c8)],_0x2f3b35=await fetch(_0x18aa20(window[_0xe49e9(0x230)]['endpoint']),{'method':_0xe49e9(0x29c),'headers':{'Content-Type':_0xe49e9(0x1b7),'Authorization':_0xe49e9(0x475)+window[_0xe49e9(0x230)][_0xe49e9(0x2f0)]},'body':JSON[_0xe49e9(0x4d4)]({'model':window[_0xe49e9(0x230)][_0xe49e9(0x4f3)]||_0xe49e9(0x3b8),'messages':[{'role':_0xe49e9(0x4e4),'content':_0x1291b9},{'role':_0xe49e9(0x2a4),'content':_0x253081}],'temperature':parseFloat(_0x46e10a)||_0x1b7b17})});if(!_0x2f3b35['ok'])throw new Error(_0xe49e9(0x24b)+_0x2f3b35[_0xe49e9(0x287)]);const _0xbf9d6c=await _0x2f3b35['json']();return _0xec4781(_0xbf9d6c&&_0xbf9d6c[_0xe49e9(0x568)]&&_0xbf9d6c[_0xe49e9(0x568)][0x0]&&_0xbf9d6c[_0xe49e9(0x568)][0x0][_0xe49e9(0x3ba)]?_0xbf9d6c[_0xe49e9(0x568)][0x0][_0xe49e9(0x3ba)][_0xe49e9(0x429)]:'');}function _0xf849c7({title:_0x1f7555,label:_0x31d12a,placeholder:_0x5af960,onConfirm:_0x3b577a}){const _0x2b6e63=_0x40029b;_0x34590b=typeof _0x3b577a===_0x2b6e63(0x414)?_0x3b577a:null;const _0x42c4f0=document[_0x2b6e63(0x284)](_0x2b6e63(0x495)),_0x4480c2=document[_0x2b6e63(0x284)](_0x2b6e63(0x4eb)),_0x34359d=document['getElementById'](_0x2b6e63(0x256)),_0x50aeef=document[_0x2b6e63(0x284)](_0x2b6e63(0x400));if(_0x42c4f0)_0x42c4f0[_0x2b6e63(0x39d)]=_0x1f7555||'生成内容';if(_0x4480c2)_0x4480c2[_0x2b6e63(0x39d)]=_0x31d12a||'想看什么类型';_0x34359d&&(_0x34359d[_0x2b6e63(0x280)]='',_0x34359d[_0x2b6e63(0x4ad)]=_0x5af960||_0x2b6e63(0x387)),_0x50aeef&&(_0x50aeef[_0x2b6e63(0x428)]['remove']('is-loading'),_0x50aeef[_0x2b6e63(0x39d)]=_0x2b6e63(0x468)),window[_0x2b6e63(0x2db)](_0x1dca68),setTimeout(()=>{if(_0x34359d)_0x34359d['focus']();},0x50);}async function _0x2addf6(){const _0x5d7f0b=_0x40029b;if(!_0x34590b)return;const _0x2b9bce=document[_0x5d7f0b(0x284)](_0x5d7f0b(0x400)),_0x359339=document[_0x5d7f0b(0x284)](_0x5d7f0b(0x256));if(_0x2b9bce&&_0x2b9bce[_0x5d7f0b(0x428)][_0x5d7f0b(0x340)](_0x5d7f0b(0x26a)))return;_0x2b9bce&&(_0x2b9bce['classList'][_0x5d7f0b(0x2d0)](_0x5d7f0b(0x26a)),_0x2b9bce[_0x5d7f0b(0x39d)]=_0x5d7f0b(0x54b));try{await _0x34590b(_0x359339?_0x359339[_0x5d7f0b(0x280)][_0x5d7f0b(0x262)]():''),window['closeView'](_0x1dca68);}finally{_0x2b9bce&&(_0x2b9bce[_0x5d7f0b(0x428)]['remove']('is-loading'),_0x2b9bce[_0x5d7f0b(0x39d)]=_0x5d7f0b(0x468));}}function _0x175990(_0x3fd933,_0x3c38f4,_0xbaf72a){const _0x40a229=_0x40029b;if(!_0x3fd933['chatHistory'])_0x3fd933[_0x40a229(0x1cf)]=[];let _0x2d14c3=null;for(let _0x5439b3=_0x3fd933[_0x40a229(0x1cf)][_0x40a229(0x388)]-0x1;_0x5439b3>=0x0;_0x5439b3--){if(_0x3fd933[_0x40a229(0x1cf)][_0x5439b3]['type']!==_0x40a229(0x2b0)){_0x2d14c3=_0x3fd933['chatHistory'][_0x5439b3];break;}}const _0x13316c=0x5*0x3c*0x3e8;if(!_0x2d14c3||!_0x2d14c3[_0x40a229(0x33d)]||_0xbaf72a-_0x2d14c3[_0x40a229(0x33d)]>_0x13316c){const _0x11d798=_0x38842d(_0xbaf72a),_0x31201b={'type':_0x40a229(0x2b0),'text':_0x11d798,'timestamp':_0xbaf72a};_0x3fd933[_0x40a229(0x1cf)][_0x40a229(0x27d)](_0x31201b);if(_0x3c38f4){const _0x2dd5b0=document[_0x40a229(0x338)]('div');_0x2dd5b0[_0x40a229(0x3ab)]=_0x40a229(0x2a2),_0x2dd5b0[_0x40a229(0x39d)]=_0x11d798,_0x3c38f4[_0x40a229(0x1be)](_0x2dd5b0);}return _0x31201b;}return null;}function _0x1baf3(_0x343b1a,_0x4730f0){const _0x3c671e=_0x40029b;if(!_0x343b1a||typeof _0x343b1a!==_0x3c671e(0x3d4))return![];let _0x706ae=![];return _0x44083b(_0x343b1a[_0x3c671e(0x29d)])&&(_0x343b1a[_0x3c671e(0x4ae)]=_0x343b1a[_0x3c671e(0x4ae)]||_0x31f8eb(_0x4730f0||_0x343b1a['avatar']),_0x343b1a['avatar']=null,_0x706ae=!![]),_0x706ae;}function _0x1483ce(){const _0xf7af17=_0x40029b;let _0x3df2bd=![];const _0x314a0c=_0x2290e8=>{const _0x292f32=_0x5131;if(!_0x2290e8||!Array[_0x292f32(0x481)](_0x2290e8['videos']))return;_0x2290e8[_0x292f32(0x1b5)][_0x292f32(0x2fc)](_0x24321c=>{const _0x1f49d1=_0x292f32;if(!_0x24321c||!Array[_0x1f49d1(0x481)](_0x24321c['comments']))return;_0x24321c['comments']['forEach'](_0x500e2c=>{const _0x4fac19=_0x1f49d1;if(!_0x500e2c||typeof _0x500e2c!==_0x4fac19(0x3d4))return;const _0x5435f0=_0x500e2c['id'];_0x24332e(_0x500e2c,_0x500e2c['isUser']?_0x4fac19(0x3bd):_0x4fac19(0x4fe));if(!_0x5435f0)_0x3df2bd=!![];!_0x500e2c[_0x4fac19(0x258)]&&!_0x500e2c[_0x4fac19(0x29d)]&&!_0x500e2c[_0x4fac19(0x4ae)]&&(_0x500e2c[_0x4fac19(0x4ae)]=_0x31f8eb(_0x4fac19(0x499)+(_0x500e2c[_0x4fac19(0x4df)]||_0x500e2c['id'])),_0x3df2bd=!![]),!Array[_0x4fac19(0x481)](_0x500e2c[_0x4fac19(0x36d)])&&(_0x500e2c[_0x4fac19(0x36d)]=[],_0x3df2bd=!![]),_0x500e2c[_0x4fac19(0x36d)][_0x4fac19(0x2fc)](_0x20411f=>{const _0x329ad9=_0x4fac19;if(!_0x20411f||typeof _0x20411f!==_0x329ad9(0x3d4))return;const _0x4b6dab=_0x20411f['id'];_0x24332e(_0x20411f,'video_comment_reply');if(!_0x4b6dab)_0x3df2bd=!![];!_0x20411f[_0x329ad9(0x4ae)]&&(_0x20411f[_0x329ad9(0x4ae)]=_0x31f8eb(_0x329ad9(0x2e9)+(_0x20411f[_0x329ad9(0x4df)]||_0x20411f['id'])),_0x3df2bd=!![]);});});});};return _0x10b4c8[_0xf7af17(0x2fc)](_0x2eb940=>{const _0x368deb=_0xf7af17;_0x3df2bd=_0x523254(_0x2eb940)||_0x3df2bd,_0x3df2bd=_0x1baf3(_0x2eb940,_0x368deb(0x33f)+(_0x2eb940['id']||_0x2eb940[_0x368deb(0x4df)]))||_0x3df2bd,Array[_0x368deb(0x481)](_0x2eb940['members'])&&_0x2eb940[_0x368deb(0x501)][_0x368deb(0x2fc)](_0x2ff266=>{const _0x1fceb2=_0x368deb;_0x3df2bd=_0x1baf3(_0x2ff266,_0x1fceb2(0x1e7)+(_0x2ff266['id']||_0x2ff266['name']))||_0x3df2bd,Array['isArray'](_0x2ff266[_0x1fceb2(0x1cf)])&&_0x2ff266['chatHistory'][_0x1fceb2(0x2fc)](_0x5a5038=>{const _0x58a6f7=_0x1fceb2;if(!_0x5a5038||_0x5a5038[_0x58a6f7(0x378)]===_0x58a6f7(0x2b0))return;if(_0x5a5038['type']===_0x58a6f7(0x505)){const _0xcac11c=_0x5a5038['id'],_0x356289=Array['isArray'](_0x5a5038['fanMessages'])?_0x5a5038[_0x58a6f7(0x45c)][_0x58a6f7(0x388)]:-0x1;_0x464c04(_0x5a5038);if(!_0xcac11c||_0x356289!==_0x5a5038[_0x58a6f7(0x45c)][_0x58a6f7(0x388)])_0x3df2bd=!![];return;}const _0x4db8fe=_0x5a5038['id'];_0x24332e(_0x5a5038,_0x5a5038[_0x58a6f7(0x258)]?_0x58a6f7(0x2a4):'char');if(!_0x4db8fe)_0x3df2bd=!![];});}),_0x314a0c(_0x2eb940);}),_0x3df2bd=_0x523254(_0x5d963b)||_0x3df2bd,_0x3df2bd=_0x1baf3(_0x5d963b,_0xf7af17(0x33f)+(_0x5d963b['id']||_0x5d963b[_0xf7af17(0x4df)]||'user'))||_0x3df2bd,_0x314a0c(_0x5d963b),Array[_0xf7af17(0x481)](_0x1b99c6)&&_0x1b99c6[_0xf7af17(0x2fc)](_0x126eed=>{const _0x1801f0=_0xf7af17;if(!_0x126eed||_0x126eed['type']===_0x1801f0(0x2b0))return;const _0x59a9d0=_0x126eed['id'];_0x24332e(_0x126eed,_0x126eed[_0x1801f0(0x258)]?'user':_0x1801f0(0x234));if(!_0x59a9d0)_0x3df2bd=!![];!_0x126eed[_0x1801f0(0x258)]&&(_0x3df2bd=_0x1baf3(_0x126eed,'fan-'+(_0x126eed['name']||_0x126eed['id']))||_0x3df2bd,!_0x126eed[_0x1801f0(0x4ae)]&&(_0x126eed[_0x1801f0(0x4ae)]=_0x31f8eb(_0x1801f0(0x286)+(_0x126eed[_0x1801f0(0x4df)]||_0x126eed['id']||_0x126eed['timestamp'])),_0x3df2bd=!![]));}),_0x3df2bd;}function _0x3f4fff(_0x1aad49={}){const _0x5b37ac=_0x40029b;if(!_0x1aa780)return![];try{const _0x3f2f9f=_0x1aad49&&_0x1aad49[_0x5b37ac(0x3fe)]===!![],_0x5e52ba=Date[_0x5b37ac(0x41b)]();_0x469a3e=_0x5e52ba;const _0x21f05f={'schemaVersion':_0x33f253,'updatedAt':_0x5e52ba,'teams':_0x10b4c8,'bstageOrders':_0x322f3e,'bstageFanChatHistory':_0x1b99c6,'bstageFanChatSettings':_0x2094ea,'bstageUserTeamState':_0x5d963b,'bstageFanSubscriberCount':_0x3ad594,'bstageRevenueState':_0xee7d3f,'chatPhotos':_0x28175c,'bstagePresets':_0x20e24d,'isTranslationEnabled':_0x18df9d,'isContextEnabled':_0xaea4d2,'contextMessageCount':_0x207604};window[_0x5b37ac(0x2b1)]=_0x21f05f;if(typeof window[_0x5b37ac(0x559)]==='function'){window[_0x5b37ac(0x559)](_0x5b37ac(0x328),_0x21f05f);if(_0x3f2f9f&&typeof window[_0x5b37ac(0x276)]===_0x5b37ac(0x414))return Promise['resolve'](window[_0x5b37ac(0x276)]())[_0x5b37ac(0x320)](Boolean);return!![];}if(window[_0x5b37ac(0x276)])return _0x3f2f9f?Promise[_0x5b37ac(0x532)](window['saveGlobalData']())[_0x5b37ac(0x320)](Boolean):window[_0x5b37ac(0x276)]();}catch(_0x542143){console[_0x5b37ac(0x451)](_0x5b37ac(0x386),_0x542143);}return![];}function _0x598789(_0x186f9b={}){const _0x48b01b=_0x40029b,_0x450050=_0x186f9b['persistNormalized']!==![];let _0x322bb2=![];try{const _0x121389=typeof window['getAppState']===_0x48b01b(0x414)?window[_0x48b01b(0x236)](_0x48b01b(0x328)):window[_0x48b01b(0x2b1)];window['__bstageGlobalState']=_0x121389&&typeof _0x121389===_0x48b01b(0x3d4)?_0x121389:{};if(Array[_0x48b01b(0x481)](window['__bstageGlobalState'][_0x48b01b(0x311)]))_0x10b4c8=window['__bstageGlobalState']['teams'];if(Array[_0x48b01b(0x481)](window[_0x48b01b(0x2b1)][_0x48b01b(0x4bf)]))_0x322f3e=window[_0x48b01b(0x2b1)][_0x48b01b(0x4bf)];if(Array[_0x48b01b(0x481)](window[_0x48b01b(0x2b1)]['bstageFanChatHistory']))_0x1b99c6=window[_0x48b01b(0x2b1)][_0x48b01b(0x347)];window['__bstageGlobalState'][_0x48b01b(0x530)]&&typeof window[_0x48b01b(0x2b1)][_0x48b01b(0x530)]==='object'&&(_0x2094ea={..._0x2094ea,...window[_0x48b01b(0x2b1)][_0x48b01b(0x530)]});window['__bstageGlobalState'][_0x48b01b(0x3d1)]&&typeof window['__bstageGlobalState'][_0x48b01b(0x3d1)]===_0x48b01b(0x3d4)&&(_0x5d963b={..._0x5d963b,...window[_0x48b01b(0x2b1)][_0x48b01b(0x3d1)]});Number[_0x48b01b(0x330)](Number(window['__bstageGlobalState'][_0x48b01b(0x2ae)]))&&(_0x3ad594=Math[_0x48b01b(0x271)](0x0,parseInt(window[_0x48b01b(0x2b1)]['bstageFanSubscriberCount'],0xa)||0x0));if(window['__bstageGlobalState'][_0x48b01b(0x52f)]&&typeof window['__bstageGlobalState']['bstageRevenueState']==='object'){const _0x3cf398=Number(window[_0x48b01b(0x2b1)]['bstageRevenueState'][_0x48b01b(0x478)]);_0xee7d3f={'withdrawnCny':Number[_0x48b01b(0x330)](_0x3cf398)?Math[_0x48b01b(0x271)](0x0,_0x3cf398):0x0,'lastWithdrawAt':window['__bstageGlobalState'][_0x48b01b(0x52f)][_0x48b01b(0x213)]||null};}if(Array[_0x48b01b(0x481)](window[_0x48b01b(0x2b1)]['chatPhotos']))_0x28175c=window[_0x48b01b(0x2b1)][_0x48b01b(0x3ca)];if(window['__bstageGlobalState']['bstagePresets'])_0x20e24d=window[_0x48b01b(0x2b1)][_0x48b01b(0x1cb)];if(typeof window[_0x48b01b(0x2b1)][_0x48b01b(0x3a6)]==='boolean')_0x18df9d=window['__bstageGlobalState']['isTranslationEnabled'];if(typeof window['__bstageGlobalState'][_0x48b01b(0x549)]===_0x48b01b(0x25e))_0xaea4d2=window[_0x48b01b(0x2b1)][_0x48b01b(0x549)];Number[_0x48b01b(0x330)](Number(window['__bstageGlobalState'][_0x48b01b(0x2cb)]))&&(_0x207604=Math[_0x48b01b(0x271)](0x1,parseInt(window[_0x48b01b(0x2b1)][_0x48b01b(0x2cb)],0xa)||0x32));Number[_0x48b01b(0x330)](Number(window[_0x48b01b(0x2b1)][_0x48b01b(0x3ee)]))&&(_0x469a3e=Number(window[_0x48b01b(0x2b1)][_0x48b01b(0x3ee)])||0x0);if(_0x450050){_0x322bb2=_0x1483ce();if(_0x322bb2&&_0x1aa780)_0x3f4fff();}}catch(_0x2f6d4b){console[_0x48b01b(0x4fd)](_0x48b01b(0x308),_0x2f6d4b);}return _0x322bb2;}_0x598789({'persistNormalized':![]});const _0x2a5f90=window[_0x40029b(0x24d)];window[_0x40029b(0x24d)]=function(_0x35acea){_0x3f4fff();if(_0x2a5f90)_0x2a5f90(_0x35acea);};const _0x4f0f45=window['closeView'];window[_0x40029b(0x3e9)]=function(_0x45a434){_0x3f4fff();if(_0x4f0f45)_0x4f0f45(_0x45a434);};let _0x8563b7=null,_0x5aaf05=null,_0xe9d9c5=null;function _0x368609(){_0x8563b7&&(clearTimeout(_0x8563b7),_0x8563b7=null),_0x3f4fff(),typeof window['saveGlobalData']==='function'&&window['saveGlobalData']();}window[_0x40029b(0x4ed)]('pagehide',_0x368609),document[_0x40029b(0x4ed)]('visibilitychange',()=>{const _0x7b260c=_0x40029b;if(document[_0x7b260c(0x443)]==='hidden')_0x368609();}),document[_0x40029b(0x2f4)][_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{if(_0x5aaf05)return;_0x5aaf05=requestAnimationFrame(()=>{clearTimeout(_0x8563b7),_0x8563b7=setTimeout(_0x3f4fff,0x3e8),_0x5aaf05=null;});}),document[_0x40029b(0x2f4)][_0x40029b(0x4ed)]('keyup',()=>{if(_0xe9d9c5)return;_0xe9d9c5=requestAnimationFrame(()=>{clearTimeout(_0x8563b7),_0x8563b7=setTimeout(_0x3f4fff,0x3e8),_0xe9d9c5=null;});});const _0x474be1=document[_0x40029b(0x284)]('app-bstage-btn');_0x474be1&&_0x474be1[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x3becd1=_0x40029b;window['openView'](_0x5d3842),!_0x1aa780&&typeof window[_0x3becd1(0x24d)]==='function'&&window[_0x3becd1(0x24d)](_0x3becd1(0x4c2));});document[_0x40029b(0x284)](_0x40029b(0x453))[_0x40029b(0x4ed)]('click',()=>{const _0x15febb=_0x40029b;window[_0x15febb(0x3e9)](_0x5d3842);}),document['getElementById'](_0x40029b(0x4cd))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x417270=_0x40029b;window[_0x417270(0x3e9)](_0x4523e6);}),document[_0x40029b(0x284)]('bstage-fan-chat-back-btn')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x2ec2f3=_0x40029b;window[_0x2ec2f3(0x3e9)](_0xbbb6c);}),document[_0x40029b(0x284)]('bstage-fan-chat-menu-btn')['addEventListener'](_0x40029b(0x52d),()=>{_0x4e582a();});const _0x5dc474=document[_0x40029b(0x284)](_0x40029b(0x4fc));_0x5dc474&&(_0x5dc474[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>_0x3c3ce1(_0x40029b(0x324))),_0x5dc474['addEventListener'](_0x40029b(0x300),_0x34a0f7=>{const _0x111247=_0x40029b;(_0x34a0f7[_0x111247(0x227)]===_0x111247(0x1fd)||_0x34a0f7[_0x111247(0x227)]==='\x20')&&(_0x34a0f7[_0x111247(0x2c6)](),_0x3c3ce1('chat'));}));const _0x27a6b2=document[_0x40029b(0x284)](_0x40029b(0x231));_0x27a6b2&&(_0x27a6b2['addEventListener'](_0x40029b(0x52d),()=>_0x3c3ce1(_0x40029b(0x234))),_0x27a6b2[_0x40029b(0x4ed)]('keydown',_0x57771c=>{const _0x27d24a=_0x40029b;(_0x57771c[_0x27d24a(0x227)]===_0x27d24a(0x1fd)||_0x57771c[_0x27d24a(0x227)]==='\x20')&&(_0x57771c['preventDefault'](),_0x3c3ce1('fan'));}));const _0x17c3d3=document[_0x40029b(0x284)](_0x40029b(0x400)),_0x120460=document['getElementById'](_0x40029b(0x256));if(_0x17c3d3)_0x17c3d3[_0x40029b(0x4ed)](_0x40029b(0x52d),_0x2addf6);_0x120460&&_0x120460['addEventListener'](_0x40029b(0x300),_0x186a1e=>{const _0x12109d=_0x40029b;_0x186a1e['key']===_0x12109d(0x1fd)&&!_0x186a1e[_0x12109d(0x565)]&&_0x186a1e[_0x12109d(0x47e)]!==0xe5&&(_0x186a1e[_0x12109d(0x2c6)](),_0x2addf6());});function _0x2422fc(_0x43f2f0){const _0x43b399=_0x40029b;if(_0x3321bc[_0x43f2f0['id']])clearInterval(_0x3321bc[_0x43f2f0['id']]);let _0x593c3b=_0x43f2f0[_0x43b399(0x33b)]||0x3c;_0x3321bc[_0x43f2f0['id']]=setInterval(()=>{const _0x2e0ade=_0x43b399;if(!_0x449905(![]))return;const _0x5e1d2f=_0x1169ad(_0x43f2f0['id']);if(!_0x5e1d2f){_0x2b6aa1(_0x43f2f0);return;}_0x43f2f0=_0x5e1d2f[_0x2e0ade(0x3ae)];const _0x5748ef=_0x16a7b0&&_0x16a7b0['id']===_0x43f2f0['id']&&_0x4523e6[_0x2e0ade(0x466)][_0x2e0ade(0x1f0)]!=='none'?document[_0x2e0ade(0x284)]('bstage-chat-content'):null;_0x7bf56f(_0x43f2f0,_0x5748ef,!![]);},_0x593c3b*0x3e8);}function _0x2b6aa1(_0x1374b8){_0x3321bc[_0x1374b8['id']]&&(clearInterval(_0x3321bc[_0x1374b8['id']]),delete _0x3321bc[_0x1374b8['id']]);}function _0x22587d(){const _0x551400=_0x40029b;_0x10b4c8[_0x551400(0x2fc)](_0x5904f4=>{const _0x14d017=_0x551400;_0x5904f4['members']&&_0x5904f4[_0x14d017(0x501)][_0x14d017(0x2fc)](_0x52d59c=>{const _0xdeef28=_0x14d017;_0x52d59c[_0xdeef28(0x23d)]&&_0x2422fc(_0x52d59c);});});}document['getElementById'](_0x40029b(0x4bd))['addEventListener']('click',()=>{const _0x5dba8a=_0x40029b;if(_0x16a7b0){document[_0x5dba8a(0x284)](_0x5dba8a(0x250))[_0x5dba8a(0x39d)]=_0x16a7b0[_0x5dba8a(0x4df)];const _0xdc8ea0=Math[_0x5dba8a(0x259)]((Date[_0x5dba8a(0x41b)]()-_0x16a7b0[_0x5dba8a(0x2bc)])/(0x3e8*0x3c*0x3c*0x18))+0x1;document[_0x5dba8a(0x284)](_0x5dba8a(0x55b))[_0x5dba8a(0x39d)]=_0x5dba8a(0x238)+_0xdc8ea0+'\x20天';const _0x523508=document[_0x5dba8a(0x284)](_0x5dba8a(0x4c9)),_0x37ab1b=document['getElementById']('bstage-detail-avatar-text'),_0x402727=document['getElementById'](_0x5dba8a(0x405));_0x16a7b0[_0x5dba8a(0x29d)]?(_0x523508[_0x5dba8a(0x380)]=_0x16a7b0[_0x5dba8a(0x29d)],_0x523508[_0x5dba8a(0x466)][_0x5dba8a(0x1f0)]=_0x5dba8a(0x44a),_0x37ab1b['style'][_0x5dba8a(0x1f0)]=_0x5dba8a(0x2cc),_0x402727[_0x5dba8a(0x466)][_0x5dba8a(0x4a5)]=_0x5dba8a(0x489)):(_0x523508[_0x5dba8a(0x466)][_0x5dba8a(0x1f0)]=_0x5dba8a(0x2cc),_0x37ab1b['style'][_0x5dba8a(0x1f0)]=_0x5dba8a(0x44a),_0x37ab1b[_0x5dba8a(0x39d)]=_0x16a7b0['name'][0x0],_0x402727[_0x5dba8a(0x466)][_0x5dba8a(0x4a5)]=_0x5dba8a(0x454));const _0x393525=document['getElementById'](_0x5dba8a(0x30d));if(_0xaea4d2)_0x393525[_0x5dba8a(0x428)]['add']('active');else _0x393525[_0x5dba8a(0x428)][_0x5dba8a(0x3f1)](_0x5dba8a(0x49a));document[_0x5dba8a(0x284)](_0x5dba8a(0x331))[_0x5dba8a(0x280)]=_0x207604;const _0x2632db=document[_0x5dba8a(0x284)](_0x5dba8a(0x1ef));if(_0x18df9d)_0x2632db['classList'][_0x5dba8a(0x2d0)](_0x5dba8a(0x49a));else _0x2632db[_0x5dba8a(0x428)][_0x5dba8a(0x3f1)]('active');const _0x58e298=document[_0x5dba8a(0x284)]('bstage-other-fans-switch');if(_0x58e298)_0x58e298[_0x5dba8a(0x428)][_0x5dba8a(0x455)](_0x5dba8a(0x49a),!!_0x16a7b0['otherFansEnabled']);_0xe31a17(),_0x1f3f05();const _0x1bb1c4=document[_0x5dba8a(0x284)](_0x5dba8a(0x3da)),_0x168f2b=document[_0x5dba8a(0x284)](_0x5dba8a(0x2b6)),_0x212ad1=document[_0x5dba8a(0x284)]('bstage-auto-activity-interval'),_0x9ba48f=document['getElementById'](_0x5dba8a(0x423));_0x16a7b0[_0x5dba8a(0x23d)]?(_0x1bb1c4['classList'][_0x5dba8a(0x2d0)]('active'),_0x168f2b['style'][_0x5dba8a(0x1f0)]=_0x5dba8a(0x44a)):(_0x1bb1c4[_0x5dba8a(0x428)][_0x5dba8a(0x3f1)](_0x5dba8a(0x49a)),_0x168f2b[_0x5dba8a(0x466)][_0x5dba8a(0x1f0)]=_0x5dba8a(0x2cc));_0x212ad1[_0x5dba8a(0x280)]=_0x16a7b0[_0x5dba8a(0x33b)]||0x3c,_0x9ba48f[_0x5dba8a(0x51f)]=_0x5dba8a(0x373);let _0x38dac4=[];try{window[_0x5dba8a(0x542)]&&(_0x38dac4=window[_0x5dba8a(0x542)]['load'](_0x5dba8a(0x3be),[]));}catch(_0x546474){}_0x38dac4[_0x5dba8a(0x2fc)](_0x373d62=>{const _0xd37cc7=_0x5dba8a;_0x9ba48f['innerHTML']+='<option\x20value=\x22'+_0x373d62['id']+'\x22>'+_0x373d62[_0xd37cc7(0x4df)]+_0xd37cc7(0x3e5);}),_0x16a7b0[_0x5dba8a(0x4f4)]&&(_0x9ba48f['value']=_0x16a7b0[_0x5dba8a(0x4f4)]),window[_0x5dba8a(0x2db)](_0xe26d2a);}}),document['getElementById']('bstage-auto-activity-switch')[_0x40029b(0x4ed)]('click',function(){const _0x43bcd5=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0[_0x43bcd5(0x23d)]=!_0x16a7b0[_0x43bcd5(0x23d)];const _0x2c3bc0=document[_0x43bcd5(0x284)](_0x43bcd5(0x2b6));_0x16a7b0[_0x43bcd5(0x23d)]?(this[_0x43bcd5(0x428)][_0x43bcd5(0x2d0)]('active'),_0x2c3bc0[_0x43bcd5(0x466)][_0x43bcd5(0x1f0)]=_0x43bcd5(0x44a),_0x2422fc(_0x16a7b0),window[_0x43bcd5(0x24d)](_0x43bcd5(0x273))):(this[_0x43bcd5(0x428)][_0x43bcd5(0x3f1)]('active'),_0x2c3bc0['style']['display']=_0x43bcd5(0x2cc),_0x2b6aa1(_0x16a7b0),window[_0x43bcd5(0x24d)](_0x43bcd5(0x2b5))),_0x3f4fff();}),document[_0x40029b(0x284)]('bstage-auto-activity-interval')[_0x40029b(0x4ed)]('change',function(){const _0x4a0d6c=_0x40029b;if(!_0x16a7b0)return;let _0x410a95=parseInt(this[_0x4a0d6c(0x280)],0xa);if(isNaN(_0x410a95)||_0x410a95<0x5)_0x410a95=0x5;this[_0x4a0d6c(0x280)]=_0x410a95,_0x16a7b0[_0x4a0d6c(0x33b)]=_0x410a95,_0x16a7b0[_0x4a0d6c(0x23d)]&&_0x2422fc(_0x16a7b0),_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x423))[_0x40029b(0x4ed)](_0x40029b(0x366),function(){const _0x6008ee=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0[_0x6008ee(0x4f4)]=this[_0x6008ee(0x280)],_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x3f9))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x17f4d7=_0x40029b;_0xda1b4e(),window[_0x17f4d7(0x2db)](_0x1f1f8f);}),document[_0x40029b(0x28b)](_0x40029b(0x23e))[_0x40029b(0x2fc)](_0x3554d1=>{const _0x3401c4=_0x40029b;_0x3554d1[_0x3401c4(0x4ed)](_0x3401c4(0x52d),_0x3670fd=>{const _0x5a99e0=_0x3401c4;document[_0x5a99e0(0x28b)](_0x5a99e0(0x23e))[_0x5a99e0(0x2fc)](_0x3a739a=>{const _0x31d02d=_0x5a99e0;_0x3a739a[_0x31d02d(0x428)]['remove'](_0x31d02d(0x49a)),_0x3a739a[_0x31d02d(0x466)]['background']=_0x31d02d(0x46c),_0x3a739a[_0x31d02d(0x466)]['color']=_0x31d02d(0x401);}),_0x3670fd[_0x5a99e0(0x4e7)]['classList'][_0x5a99e0(0x2d0)]('active'),_0x3670fd[_0x5a99e0(0x4e7)][_0x5a99e0(0x466)][_0x5a99e0(0x521)]='#fff',_0x3670fd[_0x5a99e0(0x4e7)][_0x5a99e0(0x466)][_0x5a99e0(0x536)]=_0x5a99e0(0x418),_0x36f1a5=_0x3670fd['target']['getAttribute'](_0x5a99e0(0x2fb)),_0xda1b4e();});}),document[_0x40029b(0x284)]('bstage-save-preset-btn')['addEventListener'](_0x40029b(0x52d),()=>{const _0x12b40d=_0x40029b,_0x5b6430=document[_0x12b40d(0x284)](_0x12b40d(0x554)),_0x28fa8c=document['getElementById'](_0x12b40d(0x2aa)),_0x103f1f=_0x5b6430[_0x12b40d(0x280)][_0x12b40d(0x262)](),_0x5d3427=_0x28fa8c[_0x12b40d(0x280)][_0x12b40d(0x262)]();if(!_0x103f1f||!_0x5d3427){window[_0x12b40d(0x24d)](_0x12b40d(0x507));return;}const _0x5a9023={'id':_0x12b40d(0x3c8)+Date[_0x12b40d(0x41b)](),'name':_0x103f1f,'css':_0x5d3427};!_0x20e24d[_0x36f1a5]&&(_0x20e24d[_0x36f1a5]=[]),_0x20e24d[_0x36f1a5][_0x12b40d(0x27d)](_0x5a9023),_0x3f4fff(),_0xda1b4e(),_0x5b6430[_0x12b40d(0x280)]='',_0x28fa8c['value']='',window[_0x12b40d(0x24d)](_0x12b40d(0x1ec));});function _0xda1b4e(){const _0x5ae940=_0x40029b,_0x1ac30f=document[_0x5ae940(0x284)](_0x5ae940(0x2a0));_0x1ac30f[_0x5ae940(0x51f)]='';const _0x583b3=_0x20e24d[_0x36f1a5]||[];if(_0x583b3[_0x5ae940(0x388)]===0x0){_0x1ac30f['innerHTML']=_0x5ae940(0x314);return;}_0x583b3[_0x5ae940(0x2fc)](_0x3cec50=>{const _0xce58d4=_0x5ae940,_0x122ede=document[_0xce58d4(0x338)](_0xce58d4(0x1b6));_0x122ede[_0xce58d4(0x466)][_0xce58d4(0x365)]='background:\x20#2c2c2e;\x20padding:\x2010px;\x20border-radius:\x208px;\x20display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;',_0x122ede[_0xce58d4(0x51f)]=_0xce58d4(0x4a1)+_0x3cec50['name']+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#aaa;\x20font-size:\x2012px;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>'+_0x3cec50[_0xce58d4(0x363)]+_0xce58d4(0x229),_0x122ede[_0xce58d4(0x35c)]('.bstage-preset-del-btn')[_0xce58d4(0x4ed)]('click',()=>{_0x20e24d[_0x36f1a5]=_0x20e24d[_0x36f1a5]['filter'](_0x5e3d63=>_0x5e3d63['id']!==_0x3cec50['id']),_0x3f4fff(),_0xda1b4e();}),_0x1ac30f[_0xce58d4(0x1be)](_0x122ede);});}function _0x1f3f05(){const _0x14bdc3=_0x40029b,_0x1d4fd6=document['getElementById']('bstage-chat-css-select'),_0x26240c=document[_0x14bdc3(0x284)](_0x14bdc3(0x2a3)),_0x359689=document['getElementById']('bstage-bubble-css-select');_0x1d4fd6[_0x14bdc3(0x51f)]=_0x14bdc3(0x3d0),(_0x20e24d['chatCss']||[])[_0x14bdc3(0x2fc)](_0x2cbc0a=>{const _0x5198b3=_0x14bdc3;_0x1d4fd6['innerHTML']+=_0x5198b3(0x558)+_0x2cbc0a['id']+'\x22>'+_0x2cbc0a[_0x5198b3(0x4df)]+_0x5198b3(0x3e5);}),_0x16a7b0&&_0x16a7b0[_0x14bdc3(0x4d8)]&&(_0x1d4fd6[_0x14bdc3(0x280)]=_0x16a7b0[_0x14bdc3(0x4d8)]),_0x26240c[_0x14bdc3(0x51f)]=_0x14bdc3(0x3d0),(_0x20e24d['avatarFrameCss']||[])[_0x14bdc3(0x2fc)](_0x36a65c=>{const _0x273d73=_0x14bdc3;_0x26240c[_0x273d73(0x51f)]+=_0x273d73(0x558)+_0x36a65c['id']+'\x22>'+_0x36a65c[_0x273d73(0x4df)]+_0x273d73(0x3e5);}),_0x16a7b0&&_0x16a7b0[_0x14bdc3(0x3c3)]&&(_0x26240c[_0x14bdc3(0x280)]=_0x16a7b0[_0x14bdc3(0x3c3)]),_0x359689[_0x14bdc3(0x51f)]=_0x14bdc3(0x3d0),(_0x20e24d['bubbleCss']||[])[_0x14bdc3(0x2fc)](_0x254520=>{const _0x238a11=_0x14bdc3;_0x359689[_0x238a11(0x51f)]+='<option\x20value=\x22'+_0x254520['id']+'\x22>'+_0x254520[_0x238a11(0x4df)]+_0x238a11(0x3e5);}),_0x16a7b0&&_0x16a7b0[_0x14bdc3(0x2e8)]&&(_0x359689[_0x14bdc3(0x280)]=_0x16a7b0[_0x14bdc3(0x2e8)]);}function _0x481b8c(){const _0x296aa9=_0x40029b,_0x360e78=document[_0x296aa9(0x284)](_0x296aa9(0x50d)),_0x466e8f=document['getElementById'](_0x296aa9(0x514));if(!_0x360e78||!_0x466e8f)return;_0x360e78[_0x296aa9(0x51f)]=_0x296aa9(0x3d0),(_0x20e24d['chatCss']||[])[_0x296aa9(0x2fc)](_0x5f34f3=>{const _0x15f653=_0x296aa9;_0x360e78[_0x15f653(0x51f)]+=_0x15f653(0x558)+_0x5f34f3['id']+'\x22>'+_0x5f34f3[_0x15f653(0x4df)]+'</option>';}),_0x360e78['value']=_0x2094ea[_0x296aa9(0x4d8)]||'',_0x466e8f[_0x296aa9(0x51f)]=_0x296aa9(0x3d0),(_0x20e24d['bubbleCss']||[])['forEach'](_0x2f3d91=>{const _0x142a19=_0x296aa9;_0x466e8f[_0x142a19(0x51f)]+='<option\x20value=\x22'+_0x2f3d91['id']+'\x22>'+_0x2f3d91[_0x142a19(0x4df)]+_0x142a19(0x3e5);}),_0x466e8f[_0x296aa9(0x280)]=_0x2094ea[_0x296aa9(0x2e8)]||'';}document['getElementById'](_0x40029b(0x503))[_0x40029b(0x4ed)](_0x40029b(0x366),_0x377f4e=>{const _0x14b32c=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0['chatCssId']=_0x377f4e[_0x14b32c(0x4e7)][_0x14b32c(0x280)],_0x4bedef(),_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x2a3))[_0x40029b(0x4ed)](_0x40029b(0x366),_0x117d54=>{const _0x456cf6=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0[_0x456cf6(0x3c3)]=_0x117d54[_0x456cf6(0x4e7)][_0x456cf6(0x280)],_0x4bedef(),_0x3f4fff();}),document[_0x40029b(0x284)]('bstage-bubble-css-select')['addEventListener'](_0x40029b(0x366),_0x524cce=>{const _0x25ef70=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0[_0x25ef70(0x2e8)]=_0x524cce[_0x25ef70(0x4e7)][_0x25ef70(0x280)],_0x4bedef(),_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x50d))[_0x40029b(0x4ed)](_0x40029b(0x366),_0x27d5ca=>{const _0xf86a05=_0x40029b;_0x2094ea[_0xf86a05(0x4d8)]=_0x27d5ca['target'][_0xf86a05(0x280)],_0x53fa7a(),_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x514))['addEventListener'](_0x40029b(0x366),_0x571718=>{const _0x1222b0=_0x40029b;_0x2094ea[_0x1222b0(0x2e8)]=_0x571718[_0x1222b0(0x4e7)][_0x1222b0(0x280)],_0x53fa7a(),_0x3f4fff();});function _0x4bedef(){const _0x1d171d=_0x40029b;let _0x2fb117=document[_0x1d171d(0x284)]('bstage-dynamic-styles');!_0x2fb117&&(_0x2fb117=document['createElement']('style'),_0x2fb117['id']=_0x1d171d(0x30a),document[_0x1d171d(0x261)][_0x1d171d(0x1be)](_0x2fb117));let _0x480059='';if(_0x16a7b0&&_0x16a7b0[_0x1d171d(0x4d8)]){const _0x4634a1=(_0x20e24d['chatCss']||[])[_0x1d171d(0x372)](_0x3fa5dd=>_0x3fa5dd['id']===_0x16a7b0[_0x1d171d(0x4d8)]);_0x4634a1&&(_0x480059+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#bstage-chat-view\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4634a1[_0x1d171d(0x363)]+_0x1d171d(0x293));}if(_0x16a7b0&&_0x16a7b0[_0x1d171d(0x3c3)]){const _0x5c6e64=(_0x20e24d[_0x1d171d(0x1df)]||[])[_0x1d171d(0x372)](_0x324bcf=>_0x324bcf['id']===_0x16a7b0[_0x1d171d(0x3c3)]);_0x5c6e64&&(_0x480059+=_0x1d171d(0x467)+_0x5c6e64[_0x1d171d(0x363)]+_0x1d171d(0x249)+_0x5c6e64[_0x1d171d(0x363)]+_0x1d171d(0x293));}if(_0x16a7b0&&_0x16a7b0[_0x1d171d(0x2e8)]){const _0x46256b=(_0x20e24d['bubbleCss']||[])[_0x1d171d(0x372)](_0x2917db=>_0x2917db['id']===_0x16a7b0[_0x1d171d(0x2e8)]);_0x46256b&&(_0x480059+=_0x1d171d(0x319)+_0x46256b[_0x1d171d(0x363)]+_0x1d171d(0x293));}if(_0x2094ea[_0x1d171d(0x4d8)]){const _0x4bfa55=(_0x20e24d['chatCss']||[])[_0x1d171d(0x372)](_0x213520=>_0x213520['id']===_0x2094ea['chatCssId']);_0x4bfa55&&(_0x480059+=_0x1d171d(0x4b0)+_0x4bfa55[_0x1d171d(0x363)]+_0x1d171d(0x293));}if(_0x2094ea['bubbleCssId']){const _0x4b7ac5=(_0x20e24d[_0x1d171d(0x40c)]||[])[_0x1d171d(0x372)](_0x5dbd7d=>_0x5dbd7d['id']===_0x2094ea[_0x1d171d(0x2e8)]);_0x4b7ac5&&(_0x480059+=_0x1d171d(0x55e)+_0x4b7ac5['css']+_0x1d171d(0x293));}_0x2fb117['textContent']=_0x480059;}document[_0x40029b(0x284)]('bstage-context-switch')[_0x40029b(0x4ed)](_0x40029b(0x52d),function(){const _0x3f4994=_0x40029b;_0xaea4d2=!_0xaea4d2;if(_0xaea4d2)this[_0x3f4994(0x428)]['add']('active');else this[_0x3f4994(0x428)][_0x3f4994(0x3f1)](_0x3f4994(0x49a));const _0x42bddc=document[_0x3f4994(0x284)](_0x3f4994(0x29e));if(_0x42bddc)_0x42bddc[_0x3f4994(0x428)][_0x3f4994(0x455)](_0x3f4994(0x49a),_0xaea4d2);_0x3f4fff(),window[_0x3f4994(0x24d)](_0x3f4994(0x3c0)+(_0xaea4d2?'开启':'关闭'));}),document[_0x40029b(0x284)](_0x40029b(0x331))[_0x40029b(0x4ed)](_0x40029b(0x366),function(){const _0x1ce539=_0x40029b;let _0x1abfe1=parseInt(this[_0x1ce539(0x280)],0xa);if(isNaN(_0x1abfe1)||_0x1abfe1<0x1)_0x1abfe1=0x1;_0x207604=_0x1abfe1,this[_0x1ce539(0x280)]=_0x1abfe1;const _0x4507f7=document['getElementById'](_0x1ce539(0x3e1));if(_0x4507f7)_0x4507f7[_0x1ce539(0x280)]=_0x1abfe1;_0x3f4fff();}),document[_0x40029b(0x284)](_0x40029b(0x29e))['addEventListener']('click',function(){const _0x4b17c9=_0x40029b;_0xaea4d2=!_0xaea4d2;if(_0xaea4d2)this[_0x4b17c9(0x428)][_0x4b17c9(0x2d0)]('active');else this['classList'][_0x4b17c9(0x3f1)](_0x4b17c9(0x49a));const _0x148204=document['getElementById'](_0x4b17c9(0x30d));if(_0x148204)_0x148204['classList']['toggle']('active',_0xaea4d2);_0x3f4fff(),window['showToast'](_0x4b17c9(0x3c0)+(_0xaea4d2?'开启':'关闭'));}),document['getElementById'](_0x40029b(0x3e1))[_0x40029b(0x4ed)](_0x40029b(0x366),function(){const _0x5630b8=_0x40029b;let _0x5b0c06=parseInt(this[_0x5630b8(0x280)],0xa);if(isNaN(_0x5b0c06)||_0x5b0c06<0x1)_0x5b0c06=0x1;_0x207604=_0x5b0c06,this['value']=_0x5b0c06;const _0x3431ed=document[_0x5630b8(0x284)](_0x5630b8(0x331));if(_0x3431ed)_0x3431ed['value']=_0x5b0c06;_0x3f4fff();});const _0x1cf356=document[_0x40029b(0x284)](_0x40029b(0x3b2));_0x1cf356&&_0x1cf356['addEventListener'](_0x40029b(0x52d),()=>{const _0x2f3146=_0x40029b;if(!_0x16a7b0)return;if(confirm(_0x2f3146(0x408)+_0x16a7b0['name']+_0x2f3146(0x564))){_0x16a7b0[_0x2f3146(0x1cf)]=[],_0x3f4fff();const _0x572017=document[_0x2f3146(0x284)](_0x2f3146(0x2f5));_0x572017&&(_0x572017[_0x2f3146(0x51f)]=_0x2f3146(0x283)),window[_0x2f3146(0x24d)](_0x2f3146(0x54f)),window['closeView'](_0xe26d2a);}});const _0x4480ee=document[_0x40029b(0x284)](_0x40029b(0x2b8));_0x4480ee&&_0x4480ee[_0x40029b(0x4ed)]('click',()=>{const _0x1b2d2e=_0x40029b;if(!_0x16a7b0)return;if(confirm(_0x1b2d2e(0x408)+_0x16a7b0[_0x1b2d2e(0x4df)]+'\x20的聊天记录吗？此操作不可恢复。')){_0x16a7b0[_0x1b2d2e(0x1cf)]=[],_0x3f4fff();const _0x4d0a02=document[_0x1b2d2e(0x284)](_0x1b2d2e(0x2f5));_0x4d0a02&&(_0x4d0a02[_0x1b2d2e(0x51f)]='<div\x20style=\x22text-align:center;\x20color:#666;\x20padding:20px;\x20font-size:13px;\x22>聊天记录已清空</div>'),window[_0x1b2d2e(0x24d)](_0x1b2d2e(0x54f)),window['closeView'](_0xe26d2a);}});document[_0x40029b(0x284)](_0x40029b(0x1ef))[_0x40029b(0x4ed)](_0x40029b(0x52d),function(){const _0x5dd5e2=_0x40029b;_0x18df9d=!_0x18df9d;if(_0x18df9d)this['classList'][_0x5dd5e2(0x2d0)](_0x5dd5e2(0x49a));else this[_0x5dd5e2(0x428)][_0x5dd5e2(0x3f1)](_0x5dd5e2(0x49a));const _0xb99c43=document[_0x5dd5e2(0x284)](_0x5dd5e2(0x2f5));if(_0xb99c43){if(_0x18df9d)_0xb99c43[_0x5dd5e2(0x428)]['add'](_0x5dd5e2(0x36e));else _0xb99c43[_0x5dd5e2(0x428)][_0x5dd5e2(0x3f1)](_0x5dd5e2(0x36e));}_0x4122e3();const _0x1ad772=document[_0x5dd5e2(0x284)](_0x5dd5e2(0x483));if(_0x1ad772)_0x1ad772[_0x5dd5e2(0x428)][_0x5dd5e2(0x455)](_0x5dd5e2(0x49a),_0x18df9d);_0x3f4fff(),window['showToast'](_0x5dd5e2(0x285)+(_0x18df9d?'开启':'关闭'));}),document[_0x40029b(0x284)](_0x40029b(0x483))[_0x40029b(0x4ed)](_0x40029b(0x52d),function(){const _0x3d8d88=_0x40029b;_0x18df9d=!_0x18df9d;if(_0x18df9d)this[_0x3d8d88(0x428)][_0x3d8d88(0x2d0)]('active');else this[_0x3d8d88(0x428)][_0x3d8d88(0x3f1)](_0x3d8d88(0x49a));const _0x34b1a0=document[_0x3d8d88(0x284)](_0x3d8d88(0x2f5));if(_0x34b1a0){if(_0x18df9d)_0x34b1a0[_0x3d8d88(0x428)]['add'](_0x3d8d88(0x36e));else _0x34b1a0[_0x3d8d88(0x428)]['remove'](_0x3d8d88(0x36e));}_0x4122e3();const _0x49a27a=document['getElementById'](_0x3d8d88(0x1ef));if(_0x49a27a)_0x49a27a[_0x3d8d88(0x428)][_0x3d8d88(0x455)]('active',_0x18df9d);_0x3f4fff(),window[_0x3d8d88(0x24d)]('实时翻译已'+(_0x18df9d?'开启':'关闭'));}),document[_0x40029b(0x284)]('bstage-other-fans-switch')['addEventListener'](_0x40029b(0x52d),function(){const _0x47241a=_0x40029b;if(!_0x16a7b0)return;_0x16a7b0['otherFansEnabled']=!_0x16a7b0[_0x47241a(0x47d)],this[_0x47241a(0x428)]['toggle'](_0x47241a(0x49a),!!_0x16a7b0['otherFansEnabled']),_0x3f4fff(),window[_0x47241a(0x24d)](_0x47241a(0x46e)+(_0x16a7b0[_0x47241a(0x47d)]?'开启':'关闭'));}),[_0x3fe37c,_0x1dca68,_0x9697d6,_0x59f726,_0x2f1bd,_0x3096cd,_0x2914c3,_0x3f689c,_0x52ed94,_0x57e4a7,_0x345709,_0xe26d2a,_0xd1ed97,_0x18eae2,_0x334c82,_0x10e664,_0x25afd9][_0x40029b(0x2fc)](_0x1c2c12=>{const _0x4e05ab=_0x40029b;_0x1c2c12[_0x4e05ab(0x4ed)](_0x4e05ab(0x52d),_0x23bab5=>{_0x23bab5['target']===_0x1c2c12&&window['closeView'](_0x1c2c12);});}),document[_0x40029b(0x284)]('bstage-setting-nickname')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x4880d3=_0x40029b;if(!_0x16a7b0)return;const _0x4889f0=prompt(_0x4880d3(0x321),_0x16a7b0[_0x4880d3(0x4df)]);if(_0x4889f0&&_0x4889f0['trim']()!==''){_0x16a7b0['name']=_0x4889f0[_0x4880d3(0x262)](),document[_0x4880d3(0x284)](_0x4880d3(0x250))['textContent']=_0x16a7b0['name'],document[_0x4880d3(0x284)](_0x4880d3(0x265))[_0x4880d3(0x39d)]=_0x16a7b0[_0x4880d3(0x4df)],window[_0x4880d3(0x24d)]('备注已修改');if(_0x4633b3)_0x2bfc9b(_0x4633b3);}}),document[_0x40029b(0x284)]('bstage-setting-bg')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x42913d=_0x40029b;document[_0x42913d(0x284)]('bstage-chat-bg-input')[_0x42913d(0x52d)]();}),document[_0x40029b(0x284)]('bstage-reset-bg-btn')[_0x40029b(0x4ed)](_0x40029b(0x52d),_0xe02984=>{const _0x49da19=_0x40029b;_0xe02984[_0x49da19(0x561)]();const _0x4b65d8=document['getElementById'](_0x49da19(0x3ed));_0x4b65d8['style'][_0x49da19(0x4f1)]=_0x49da19(0x2cc),_0x16a7b0&&(_0x16a7b0[_0x49da19(0x2e3)]=null),window['showToast'](_0x49da19(0x307));}),document['getElementById']('bstage-chat-bg-input')[_0x40029b(0x4ed)](_0x40029b(0x366),_0x2b2e60=>{const _0x3e4314=_0x40029b,_0x5210d3=_0x2b2e60['target']['files'][0x0];if(_0x5210d3){const _0x3955d2=new FileReader();_0x3955d2[_0x3e4314(0x411)]=_0xbf8c86=>{const _0x44ee46=_0x3e4314,_0x2a7c9e=_0xbf8c86['target'][_0x44ee46(0x431)],_0x2f4b1d=document[_0x44ee46(0x284)]('bstage-chat-view');_0x2f4b1d[_0x44ee46(0x466)][_0x44ee46(0x4f1)]=_0x44ee46(0x3bf)+_0x2a7c9e+'\x27)',_0x2f4b1d[_0x44ee46(0x466)][_0x44ee46(0x23a)]=_0x44ee46(0x3b1),_0x2f4b1d[_0x44ee46(0x466)][_0x44ee46(0x4b9)]=_0x44ee46(0x3f8),_0x16a7b0&&(_0x16a7b0[_0x44ee46(0x2e3)]=_0x2a7c9e),window[_0x44ee46(0x24d)]('背景已更换'),window[_0x44ee46(0x3e9)](_0xe26d2a);},_0x3955d2['readAsDataURL'](_0x5210d3);}}),document[_0x40029b(0x284)]('bstage-fan-setting-bg')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x12c0e0=_0x40029b;document[_0x12c0e0(0x284)](_0x12c0e0(0x3a5))['click']();}),document[_0x40029b(0x284)](_0x40029b(0x54a))[_0x40029b(0x4ed)](_0x40029b(0x52d),_0xcb1a05=>{const _0x3603cb=_0x40029b;_0xcb1a05[_0x3603cb(0x561)](),_0x2094ea[_0x3603cb(0x2e3)]=null,_0x53fa7a(),_0x3f4fff(),window[_0x3603cb(0x24d)](_0x3603cb(0x307));}),document[_0x40029b(0x284)](_0x40029b(0x3a5))[_0x40029b(0x4ed)](_0x40029b(0x366),_0x1aa831=>{const _0x5c92d5=_0x40029b,_0x4fa534=_0x1aa831['target'][_0x5c92d5(0x452)][0x0];if(!_0x4fa534)return;const _0x3c4c0e=new FileReader();_0x3c4c0e[_0x5c92d5(0x411)]=_0x23922c=>{const _0x395535=_0x5c92d5;_0x2094ea[_0x395535(0x2e3)]=_0x23922c[_0x395535(0x4e7)][_0x395535(0x431)],_0x53fa7a(),_0x3f4fff(),window[_0x395535(0x24d)](_0x395535(0x38d)),window[_0x395535(0x3e9)](_0xd1ed97);},_0x3c4c0e[_0x5c92d5(0x233)](_0x4fa534);}),document[_0x40029b(0x284)](_0x40029b(0x313))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x2c3e6c=_0x40029b;if(!confirm('确定要清空粉丝聊天室记录吗？此操作不可恢复。'))return;_0x1b99c6=[],_0x88c7da(),_0x4b478e(),_0x3f4fff(),window[_0x2c3e6c(0x24d)](_0x2c3e6c(0x469)),window[_0x2c3e6c(0x3e9)](_0xd1ed97);}),document[_0x40029b(0x284)](_0x40029b(0x1dd))['addEventListener'](_0x40029b(0x52d),()=>{const _0x17e784=_0x40029b;_0x15e381(),window[_0x17e784(0x2db)](_0x18eae2);});function _0x15e381(){const _0x30401f=_0x40029b,_0x257692=document[_0x30401f(0x284)](_0x30401f(0x54e));_0x257692[_0x30401f(0x51f)]='',_0x28175c[_0x30401f(0x2fc)](_0x3a53c1=>{const _0x2b5f9b=_0x30401f,_0x223524=document[_0x2b5f9b(0x338)](_0x2b5f9b(0x1b6));_0x223524[_0x2b5f9b(0x3ab)]=_0x2b5f9b(0x4da),_0x223524[_0x2b5f9b(0x51f)]=_0x2b5f9b(0x200)+_0x3a53c1+'\x22>',_0x223524[_0x2b5f9b(0x2a1)]='查看图片详情',_0x223524[_0x2b5f9b(0x4ed)](_0x2b5f9b(0x52d),()=>{_0x3ee4f2(_0x3a53c1,'置物柜照片');}),_0x257692[_0x2b5f9b(0x1be)](_0x223524);});const _0xdfb786=document['createElement'](_0x30401f(0x1b6));_0xdfb786['className']=_0x30401f(0x543),_0xdfb786['innerHTML']=_0x30401f(0x3cf),_0xdfb786['addEventListener'](_0x30401f(0x52d),()=>{const _0x595ce3=_0x30401f;_0xdfb786[_0x595ce3(0x35c)]('input')[_0x595ce3(0x52d)]();}),_0xdfb786[_0x30401f(0x35c)](_0x30401f(0x1f1))[_0x30401f(0x4ed)](_0x30401f(0x366),_0xd6036f=>{const _0x2b6a57=_0x30401f,_0x40d28d=_0xd6036f[_0x2b6a57(0x4e7)][_0x2b6a57(0x452)][0x0];if(_0x40d28d){const _0x4cf75a=new FileReader();_0x4cf75a[_0x2b6a57(0x411)]=_0x297393=>{const _0x55f1a2=_0x2b6a57;_0x28175c[_0x55f1a2(0x27d)](_0x297393[_0x55f1a2(0x4e7)]['result']),_0x15e381(),_0xe31a17();},_0x4cf75a['readAsDataURL'](_0x40d28d);}}),_0x257692[_0x30401f(0x1be)](_0xdfb786);}function _0xe31a17(){const _0x1b6b36=_0x40029b,_0x1e2beb=document['getElementById']('bstage-locker-preview-list');_0x1e2beb['innerHTML']='',_0x28175c[_0x1b6b36(0x260)](0x0,0x4)['forEach'](_0x552cd1=>{const _0x5b0871=_0x1b6b36,_0xbc6601=document[_0x5b0871(0x338)](_0x5b0871(0x1b6));_0xbc6601['style'][_0x5b0871(0x365)]='width:\x2070px;\x20height:\x2070px;\x20border-radius:\x208px;\x20flex-shrink:\x200;\x20overflow:\x20hidden;\x20position:\x20relative;\x20cursor:\x20pointer;',_0xbc6601[_0x5b0871(0x51f)]=_0x5b0871(0x200)+_0x552cd1+'\x22\x20style=\x22width:\x20100%;\x20height:\x20100%;\x20object-fit:\x20cover;\x22>',_0xbc6601[_0x5b0871(0x2a1)]=_0x5b0871(0x3ea),_0xbc6601['addEventListener']('click',()=>{_0x3ee4f2(_0x552cd1,'置物柜照片');}),_0x1e2beb[_0x5b0871(0x1be)](_0xbc6601);}),_0x28175c[_0x1b6b36(0x388)]===0x0&&(_0x1e2beb[_0x1b6b36(0x51f)]=_0x1b6b36(0x4ef));}const _0x34ca16=document[_0x40029b(0x284)](_0x40029b(0x3fc));_0x34ca16['addEventListener'](_0x40029b(0x52d),()=>{const _0x366a69=_0x40029b;_0x579506=![],document[_0x366a69(0x284)](_0x366a69(0x392))[_0x366a69(0x280)]='';const _0x529999=document[_0x366a69(0x284)](_0x366a69(0x2c1));if(_0x529999)_0x529999[_0x366a69(0x280)]='';document[_0x366a69(0x284)](_0x366a69(0x222))[_0x366a69(0x380)]='',document[_0x366a69(0x284)]('bstage-team-avatar-preview')[_0x366a69(0x466)][_0x366a69(0x1f0)]='none',document[_0x366a69(0x284)](_0x366a69(0x430))['src']='',document[_0x366a69(0x284)](_0x366a69(0x430))[_0x366a69(0x466)]['display']='none',_0x4a3c94=[],_0x4303d1(),window[_0x366a69(0x2db)](_0x9697d6);});function _0x5e09e2(_0x5a4ec2){const _0x1e12f1=parseInt(_0x5a4ec2,0xa);if(!Number['isFinite'](_0x1e12f1)||_0x1e12f1<0x1)return 0x1;if(_0x1e12f1>0xc)return 0xc;return _0x1e12f1;}function _0x50f3d0(_0x20c286){const _0x29cf6d=_0x40029b,_0x371526=document[_0x29cf6d(0x284)](_0x29cf6d(0x4b5)),_0x58a432=document[_0x29cf6d(0x284)](_0x29cf6d(0x201));_0x371526&&(_0x371526[_0x29cf6d(0x428)]['toggle']('is-loading',_0x20c286),_0x371526[_0x29cf6d(0x39d)]=_0x20c286?'生成中...':_0x29cf6d(0x219));if(_0x58a432)_0x58a432[_0x29cf6d(0x466)][_0x29cf6d(0x1f0)]=_0x20c286?_0x29cf6d(0x1e0):_0x29cf6d(0x2cc);}function _0x2fdacc(){const _0x403f25=_0x40029b,_0x44d8bf=document['getElementById'](_0x403f25(0x474)),_0x33c561=document[_0x403f25(0x284)](_0x403f25(0x278));if(_0x44d8bf)_0x44d8bf['value']='';if(_0x33c561)_0x33c561[_0x403f25(0x280)]='1';_0x50f3d0(![]),window[_0x403f25(0x2db)](_0x3fe37c),setTimeout(()=>{if(_0x44d8bf)_0x44d8bf['focus']();},0x50);}async function _0xb11499(_0x13dc8c,_0x19cef3){const _0xe0dc9=_0x40029b,_0x373446=String(_0x13dc8c||'')['trim'](),_0x318995=!_0x373446,_0x2c6960=_0x318995?'用户没有填写搜索内容。请随机生成一个虚构的\x20b.stage\x20团队或明星企划，可以自由选择风格、国家地区、成员定位和团队概念。':'用户填写的搜索内容是「'+_0x373446+_0xe0dc9(0x420),_0x46d3f7=_0xe0dc9(0x2f2)+_0x2c6960+_0xe0dc9(0x491)+_0x19cef3+_0xe0dc9(0x275)+_0x19cef3+_0xe0dc9(0x4ca)+(_0x318995?'因为用户留空，本次可以随机发挥，但仍要保持团队设定完整、统一。':_0xe0dc9(0x349))+_0xe0dc9(0x221),_0x1893d9=await _0xde158a(_0x46d3f7,'You\x20generate\x20strict\x20JSON\x20for\x20fictional\x20idol/team\x20profiles.',0.8);if(!_0x1893d9||typeof _0x1893d9!==_0xe0dc9(0x3d4)||Array[_0xe0dc9(0x481)](_0x1893d9))throw new Error('invalid_team_payload');const _0x45b812=_0x53d238(_0x1893d9[_0xe0dc9(0x4df)]),_0x9bd228=_0x53d238(_0x1893d9[_0xe0dc9(0x251)]||_0x1893d9[_0xe0dc9(0x2bf)]||_0x1893d9[_0xe0dc9(0x2dc)]),_0x2c41c9=Array[_0xe0dc9(0x481)](_0x1893d9[_0xe0dc9(0x501)])?_0x1893d9['members']:[];if(!_0x45b812||!_0x9bd228||_0x2c41c9[_0xe0dc9(0x388)]!==_0x19cef3)throw new Error(_0xe0dc9(0x51e));const _0x5ec4b1=_0x2c41c9[_0xe0dc9(0x34c)]((_0x175b7d,_0x5b0d68)=>{const _0x8a43e9=_0xe0dc9,_0xf70827=_0x53d238(_0x175b7d&&_0x175b7d['name'],'成员'+(_0x5b0d68+0x1)),_0x485ef8=_0x53d238(_0x175b7d&&(_0x175b7d[_0x8a43e9(0x399)]||_0x175b7d[_0x8a43e9(0x362)]||_0x175b7d['desc']));if(!_0xf70827||!_0x485ef8)throw new Error(_0x8a43e9(0x3bc));const _0x1eb326=_0x54a5c5(_0x8a43e9(0x535)+_0x45b812+'-'+_0xf70827+'-'+_0x5b0d68);return{'id':Date[_0x8a43e9(0x41b)]()+_0x5b0d68+Math[_0x8a43e9(0x303)](),'name':_0xf70827,'role':_0x485ef8,'avatar':null,'avatarEmoji':_0x31f8eb(_0x1eb326),'isSubscribed':![],'subStartDate':null};}),_0x357427=_0x54a5c5(_0xe0dc9(0x26e)+_0x45b812);return{'id':Date[_0xe0dc9(0x41b)](),'name':_0x45b812,'desc':_0x9bd228,'avatar':null,'avatarEmoji':_0x31f8eb(_0x357427+'-avatar'),'bg':_0x21a229(_0x357427+_0xe0dc9(0x2e6)),'members':_0x5ec4b1,'isSubscribed':![]};}async function _0x189b10(){const _0x440fab=_0x40029b,_0x4c22c=document[_0x440fab(0x284)]('bstage-search-confirm-btn');if(_0x4c22c&&_0x4c22c[_0x440fab(0x428)][_0x440fab(0x340)](_0x440fab(0x26a)))return;const _0x12eb6b=document['getElementById']('bstage-search-query-input'),_0xdf3650=document[_0x440fab(0x284)]('bstage-search-member-count'),_0x3c99ec=_0x12eb6b?_0x12eb6b['value'][_0x440fab(0x262)]():'',_0x254b7b=_0x5e09e2(_0xdf3650?_0xdf3650[_0x440fab(0x280)]:0x1);if(_0xdf3650)_0xdf3650['value']=String(_0x254b7b);_0x50f3d0(!![]);try{const _0x5b6e0b=await _0xb11499(_0x3c99ec,_0x254b7b);_0x10b4c8[_0x440fab(0x27d)](_0x5b6e0b),_0x3f4fff(),_0x4fbbe9(),window[_0x440fab(0x3e9)](_0x3fe37c),_0x4d6ec5(_0x5b6e0b),window[_0x440fab(0x24d)](_0x440fab(0x470));}catch(_0xffc53d){console[_0x440fab(0x4fd)](_0x440fab(0x55d),_0xffc53d);if(_0xffc53d&&_0xffc53d[_0x440fab(0x3ba)]==='missing_api_config')window[_0x440fab(0x24d)](_0x440fab(0x369));else _0xffc53d&&/member|payload/[_0x440fab(0x44b)](_0xffc53d[_0x440fab(0x3ba)]||'')?window[_0x440fab(0x24d)](_0x440fab(0x208)):window[_0x440fab(0x24d)](_0x440fab(0x3b0));}finally{_0x50f3d0(![]);}}document[_0x40029b(0x284)](_0x40029b(0x358))[_0x40029b(0x4ed)](_0x40029b(0x52d),_0x2fdacc),document[_0x40029b(0x284)]('bstage-search-confirm-btn')[_0x40029b(0x4ed)]('click',_0x189b10),[_0x40029b(0x474),_0x40029b(0x278)][_0x40029b(0x2fc)](_0x3db6e3=>{const _0x15da03=_0x40029b,_0x49f5fd=document[_0x15da03(0x284)](_0x3db6e3);if(!_0x49f5fd)return;_0x49f5fd[_0x15da03(0x4ed)](_0x15da03(0x300),_0x10be55=>{const _0x4a30cd=_0x15da03;_0x10be55[_0x4a30cd(0x227)]===_0x4a30cd(0x1fd)&&!_0x10be55[_0x4a30cd(0x565)]&&_0x10be55['keyCode']!==0xe5&&(_0x10be55[_0x4a30cd(0x2c6)](),_0x189b10());});});function _0x559c8c(_0x4131d6,_0x54c849,_0x58a6ce){const _0xd98da8=_0x40029b,_0x194ac7=document['getElementById'](_0x4131d6),_0x1b128a=_0x194ac7[_0xd98da8(0x35c)](_0xd98da8(0x1f1)),_0x543e00=document[_0xd98da8(0x284)](_0x58a6ce);if(!_0x194ac7||!_0x1b128a)return;_0x194ac7[_0xd98da8(0x4ed)]('click',()=>_0x1b128a['click']()),_0x1b128a['addEventListener'](_0xd98da8(0x366),_0xf11c3f=>{const _0x148667=_0xd98da8,_0x1ef599=_0xf11c3f[_0x148667(0x4e7)][_0x148667(0x452)][0x0];if(_0x1ef599){const _0x26ad32=new FileReader();_0x26ad32[_0x148667(0x411)]=_0x141bb0=>{const _0x471966=_0x148667;_0x543e00&&(_0x543e00[_0x471966(0x380)]=_0x141bb0[_0x471966(0x4e7)][_0x471966(0x431)],_0x543e00[_0x471966(0x466)]['display']=_0x471966(0x44a));},_0x26ad32[_0x148667(0x233)](_0x1ef599);}});}_0x559c8c(_0x40029b(0x3b4),_0x40029b(0x1f1),_0x40029b(0x222)),_0x559c8c(_0x40029b(0x4c6),_0x40029b(0x1f1),'bstage-team-bg-preview'),_0x559c8c(_0x40029b(0x3d7),_0x40029b(0x1f1),_0x40029b(0x244)),_0x559c8c(_0x40029b(0x4ee),_0x40029b(0x1f1),'bstage-edit-team-avatar-preview'),_0x559c8c(_0x40029b(0x4f5),_0x40029b(0x1f1),_0x40029b(0x289)),_0x559c8c('bstage-edit-video-cover-upload','input',_0x40029b(0x51b));const _0x29274a=async()=>{const _0x5c15d0=_0x40029b,_0x555211=document['getElementById'](_0x5c15d0(0x47a));_0x555211['innerHTML']='<div\x20style=\x22text-align:center;\x20padding:20px;\x20color:#aaa;\x22>加载中...</div>',window[_0x5c15d0(0x2db)](_0x2f1bd);try{let _0x16da07=[];if(window[_0x5c15d0(0x1f2)]&&window[_0x5c15d0(0x1f2)][_0x5c15d0(0x50e)])_0x16da07=await window[_0x5c15d0(0x1f2)]['loadFriends']();else{if(window[_0x5c15d0(0x236)]){const _0x4ab3e1=window['getAppState'](_0x5c15d0(0x26d));if(_0x4ab3e1&&_0x4ab3e1['friends'])_0x16da07=_0x4ab3e1[_0x5c15d0(0x500)];}}const _0x21424e=_0x16da07[_0x5c15d0(0x22b)](_0x3dbc50=>{const _0x30acf1=_0x5c15d0;if(!_0x3dbc50)return![];return _0x3dbc50[_0x30acf1(0x378)]===_0x30acf1(0x477);});if(_0x21424e[_0x5c15d0(0x388)]===0x0){_0x555211[_0x5c15d0(0x51f)]=_0x5c15d0(0x445);return;}_0x555211[_0x5c15d0(0x51f)]='',_0x21424e[_0x5c15d0(0x2fc)](_0x20e0c5=>{const _0x9dab27=_0x5c15d0,_0x3755d3=document[_0x9dab27(0x338)](_0x9dab27(0x1b6));_0x3755d3[_0x9dab27(0x3ab)]=_0x9dab27(0x226),_0x3755d3['style'][_0x9dab27(0x365)]=_0x9dab27(0x2af);const _0x366c75=_0x20e0c5[_0x9dab27(0x29d)]||(_0x20e0c5[_0x9dab27(0x551)]?_0x20e0c5[_0x9dab27(0x551)]:''),_0x56ef23=_0x20e0c5[_0x9dab27(0x1de)]||_0x20e0c5['originalName']||_0x20e0c5[_0x9dab27(0x4df)]||'',_0x2ea5f2=_0x366c75?_0x9dab27(0x200)+_0x366c75+_0x9dab27(0x282):'<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background-color:\x20#444;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x22>'+(_0x56ef23?_0x56ef23[0x0]:'U')+'</div>',_0x2bfb8a=_0x20e0c5[_0x9dab27(0x362)]||_0x20e0c5[_0x9dab27(0x270)]||_0x20e0c5['desc']||_0x20e0c5[_0x9dab27(0x399)]||'';_0x3755d3[_0x9dab27(0x51f)]=_0x9dab27(0x43c)+_0x2ea5f2+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20overflow:\x20hidden;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20color:\x20#fff;\x20font-weight:\x20500;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>'+_0x56ef23+_0x9dab27(0x54c)+_0x2bfb8a+_0x9dab27(0x40d),_0x3755d3[_0x9dab27(0x4ed)](_0x9dab27(0x52d),()=>{const _0x467e13=_0x9dab27;_0x5eea56=null,document[_0x467e13(0x284)](_0x467e13(0x211))[_0x467e13(0x280)]=_0x56ef23,document['getElementById']('bstage-char-role-input')[_0x467e13(0x280)]=_0x2bfb8a;const _0x14e54b=document['getElementById'](_0x467e13(0x244));_0x366c75?(_0x14e54b[_0x467e13(0x380)]=_0x366c75,_0x14e54b[_0x467e13(0x466)][_0x467e13(0x1f0)]='block'):(_0x14e54b['src']='',_0x14e54b[_0x467e13(0x466)]['display']=_0x467e13(0x2cc));const _0x13189e=document[_0x467e13(0x35c)](_0x467e13(0x417));if(_0x13189e)_0x13189e[_0x467e13(0x39d)]=_0x467e13(0x268);const _0xdaf1f1=document['getElementById']('bstage-confirm-add-char-btn');if(_0xdaf1f1)_0xdaf1f1[_0x467e13(0x39d)]='添加';window[_0x467e13(0x3e9)](_0x2f1bd),window[_0x467e13(0x2db)](_0x59f726);}),_0x555211[_0x9dab27(0x1be)](_0x3755d3);});}catch(_0x5cd2f0){console[_0x5c15d0(0x4fd)]('Failed\x20to\x20pull\x20friends',_0x5cd2f0),_0x555211[_0x5c15d0(0x51f)]=_0x5c15d0(0x326);}};document['getElementById']('bstage-pull-friend-btn')['addEventListener']('click',_0x29274a),document[_0x40029b(0x284)]('bstage-add-char-btn')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x1feb6a=_0x40029b;_0x5eea56=null,document['getElementById'](_0x1feb6a(0x211))[_0x1feb6a(0x280)]='',document[_0x1feb6a(0x284)]('bstage-char-role-input')['value']='',document[_0x1feb6a(0x284)](_0x1feb6a(0x244))[_0x1feb6a(0x466)][_0x1feb6a(0x1f0)]=_0x1feb6a(0x2cc);const _0x49eaa3=document['querySelector'](_0x1feb6a(0x417));if(_0x49eaa3)_0x49eaa3['textContent']=_0x1feb6a(0x446);const _0x396b62=document[_0x1feb6a(0x284)](_0x1feb6a(0x382));if(_0x396b62)_0x396b62[_0x1feb6a(0x39d)]='添加';window[_0x1feb6a(0x2db)](_0x59f726);}),document['getElementById']('bstage-confirm-add-char-btn')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x3d6e0c=_0x40029b,_0x1fb524=document['getElementById']('bstage-char-name-input')[_0x3d6e0c(0x280)],_0x39c903=document[_0x3d6e0c(0x284)](_0x3d6e0c(0x44c))[_0x3d6e0c(0x280)],_0x29b518=document[_0x3d6e0c(0x284)](_0x3d6e0c(0x244))[_0x3d6e0c(0x380)],_0x557cae=document['getElementById']('bstage-char-avatar-preview')[_0x3d6e0c(0x466)][_0x3d6e0c(0x1f0)]!==_0x3d6e0c(0x2cc);if(_0x1fb524){if(_0x5eea56)_0x5eea56['name']=_0x1fb524,_0x5eea56[_0x3d6e0c(0x399)]=_0x39c903,_0x5eea56[_0x3d6e0c(0x29d)]=_0x557cae?_0x29b518:null,_0x5eea56[_0x3d6e0c(0x4ae)]=_0x557cae?null:_0x5eea56[_0x3d6e0c(0x4ae)]||_0x31f8eb(_0x3d6e0c(0x1e7)+(_0x5eea56['id']||_0x1fb524)),_0x579506&&_0x4633b3?(_0x36ae2c(),_0x3f4fff(),document[_0x3d6e0c(0x35c)](_0x3d6e0c(0x3e7))[_0x3d6e0c(0x428)][_0x3d6e0c(0x340)]('active')&&_0x2bfc9b(_0x4633b3)):_0x4303d1(),window[_0x3d6e0c(0x24d)](_0x3d6e0c(0x537)+_0x1fb524),_0x5eea56=null;else{const _0x45b291={'id':Date[_0x3d6e0c(0x41b)](),'name':_0x1fb524,'role':_0x39c903,'avatar':_0x557cae?_0x29b518:null,'avatarEmoji':_0x557cae?null:_0x31f8eb('member-'+_0x1fb524+'-'+Date[_0x3d6e0c(0x41b)]()),'isSubscribed':![],'subStartDate':null};_0x579506&&_0x4633b3?(_0x4633b3[_0x3d6e0c(0x501)][_0x3d6e0c(0x27d)](_0x45b291),_0x36ae2c(),_0x3f4fff(),document['querySelector'](_0x3d6e0c(0x3e7))['classList'][_0x3d6e0c(0x340)](_0x3d6e0c(0x49a))&&_0x2bfc9b(_0x4633b3),window['showToast']('已添加成员:\x20'+_0x1fb524)):(_0x4a3c94[_0x3d6e0c(0x27d)](_0x45b291),_0x4303d1());}window[_0x3d6e0c(0x3e9)](_0x59f726);}});function _0x4303d1(){const _0x376a28=_0x40029b,_0x4f8df1=document[_0x376a28(0x284)](_0x376a28(0x4bc));_0x4f8df1[_0x376a28(0x51f)]='',_0x4a3c94['forEach'](_0x359afd=>{const _0x1f7cde=_0x376a28,_0x4239f8=document[_0x1f7cde(0x338)](_0x1f7cde(0x1b6));_0x4239f8[_0x1f7cde(0x3ab)]=_0x1f7cde(0x3af),_0x4239f8[_0x1f7cde(0x466)][_0x1f7cde(0x20c)]='pointer',_0x4239f8[_0x1f7cde(0x51f)]=_0x1f7cde(0x442)+_0x51b122(_0x359afd,_0x359afd['name'],_0x1f7cde(0x2f1))+_0x1f7cde(0x1ff)+_0x245dba(_0x359afd[_0x1f7cde(0x4df)])+_0x1f7cde(0x352),_0x4239f8[_0x1f7cde(0x4ed)](_0x1f7cde(0x52d),()=>{const _0x326309=_0x1f7cde;_0x5eea56=_0x359afd,document[_0x326309(0x284)](_0x326309(0x211))[_0x326309(0x280)]=_0x359afd[_0x326309(0x4df)],document[_0x326309(0x284)](_0x326309(0x44c))[_0x326309(0x280)]=_0x359afd[_0x326309(0x399)]||'';const _0xa760d1=document['getElementById'](_0x326309(0x244));_0x359afd[_0x326309(0x29d)]?(_0xa760d1[_0x326309(0x380)]=_0x359afd['avatar'],_0xa760d1['style'][_0x326309(0x1f0)]=_0x326309(0x44a)):(_0xa760d1[_0x326309(0x380)]='',_0xa760d1[_0x326309(0x466)]['display']='none');const _0x1bc14d=document[_0x326309(0x35c)]('#bstage-add-char-sheet\x20.sheet-title');if(_0x1bc14d)_0x1bc14d['textContent']='编辑成员';const _0x446f9b=document['getElementById'](_0x326309(0x382));if(_0x446f9b)_0x446f9b[_0x326309(0x39d)]='保存';window['openView'](_0x59f726);}),_0x4f8df1['appendChild'](_0x4239f8);});}document[_0x40029b(0x284)](_0x40029b(0x52a))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x180fac=_0x40029b,_0x58ab02=document[_0x180fac(0x284)](_0x180fac(0x392))[_0x180fac(0x280)],_0x17cff0=document['getElementById'](_0x180fac(0x2c1)),_0xf4aae2=_0x17cff0?_0x17cff0[_0x180fac(0x280)]:'',_0x354c15=document[_0x180fac(0x284)](_0x180fac(0x222))[_0x180fac(0x380)],_0x3de42e=document[_0x180fac(0x284)](_0x180fac(0x222))[_0x180fac(0x466)][_0x180fac(0x1f0)]!=='none',_0x256cd0=document[_0x180fac(0x284)](_0x180fac(0x430))['src'],_0x4b2443=document['getElementById'](_0x180fac(0x430))[_0x180fac(0x466)][_0x180fac(0x1f0)]!==_0x180fac(0x2cc);if(!_0x58ab02){window['showToast'](_0x180fac(0x28e));return;}const _0xb80a9d={'id':Date[_0x180fac(0x41b)](),'name':_0x58ab02,'desc':_0xf4aae2,'avatar':_0x3de42e?_0x354c15:null,'avatarEmoji':_0x3de42e?null:_0x31f8eb('team-'+_0x58ab02+'-'+Date['now']()),'bg':_0x4b2443?_0x256cd0:null,'members':[..._0x4a3c94],'isSubscribed':![]};_0x10b4c8[_0x180fac(0x27d)](_0xb80a9d),_0x3f4fff(),_0x4fbbe9(),window[_0x180fac(0x3e9)](_0x9697d6),_0x4d6ec5(_0xb80a9d);});function _0x4fbbe9(){const _0x48ea47=_0x40029b,_0x378a14=document[_0x48ea47(0x284)](_0x48ea47(0x1f3)),_0x4a4662=_0x378a14['firstElementChild'];_0x378a14['innerHTML']='',_0x378a14['appendChild'](_0x4a4662),[_0x13d678(),..._0x10b4c8][_0x48ea47(0x2fc)](_0x3b4790=>{const _0xed7c3c=_0x48ea47,_0x11773f=document[_0xed7c3c(0x338)](_0xed7c3c(0x1b6));_0x11773f[_0xed7c3c(0x3ab)]=_0xed7c3c(0x264);if(_0x4633b3&&_0x4633b3['id']===_0x3b4790['id'])_0x11773f[_0xed7c3c(0x428)][_0xed7c3c(0x2d0)]('active');_0x11773f['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-team-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x10d7b4(_0x3b4790,_0x3b4790[_0xed7c3c(0x4df)])+_0xed7c3c(0x4a4)+_0x245dba(_0x3b4790[_0xed7c3c(0x4df)])+_0xed7c3c(0x352),_0x11773f[_0xed7c3c(0x4ed)](_0xed7c3c(0x52d),()=>{_0x4633b3&&_0x4633b3['id']===_0x3b4790['id']?_0x25c0b8(_0x3b4790):_0x4d6ec5(_0x3b4790);}),_0x378a14[_0xed7c3c(0x1be)](_0x11773f);});}function _0x25c0b8(_0x17e3c3){const _0x5ae27e=_0x40029b;if(_0x391fff(_0x17e3c3))_0x17e3c3=_0x13d678();_0x4633b3=_0x17e3c3,_0x579506=!![],_0x345709[_0x5ae27e(0x428)]['toggle'](_0x5ae27e(0x519),_0x391fff(_0x17e3c3));const _0x5ef992=document[_0x5ae27e(0x284)](_0x5ae27e(0x316));if(_0x5ef992)_0x5ef992[_0x5ae27e(0x466)]['display']=_0x391fff(_0x17e3c3)?_0x5ae27e(0x2cc):'';document[_0x5ae27e(0x284)](_0x5ae27e(0x243))[_0x5ae27e(0x280)]=_0x17e3c3[_0x5ae27e(0x4df)];const _0x1aaed2=document['getElementById'](_0x5ae27e(0x37d));if(_0x17e3c3['avatar']){_0x1aaed2[_0x5ae27e(0x380)]=_0x17e3c3[_0x5ae27e(0x29d)],_0x1aaed2[_0x5ae27e(0x466)][_0x5ae27e(0x1f0)]=_0x5ae27e(0x44a);if(_0x1aaed2['previousElementSibling'])_0x1aaed2[_0x5ae27e(0x22a)]['style'][_0x5ae27e(0x50b)]='0';}else{_0x1aaed2[_0x5ae27e(0x380)]='',_0x1aaed2[_0x5ae27e(0x466)][_0x5ae27e(0x1f0)]=_0x5ae27e(0x2cc);if(_0x1aaed2[_0x5ae27e(0x22a)])_0x1aaed2[_0x5ae27e(0x22a)][_0x5ae27e(0x466)][_0x5ae27e(0x50b)]='1';}const _0x3dd762=document['getElementById'](_0x5ae27e(0x289));if(_0x17e3c3['bg']){_0x3dd762[_0x5ae27e(0x380)]=_0x17e3c3['bg'],_0x3dd762[_0x5ae27e(0x466)][_0x5ae27e(0x1f0)]=_0x5ae27e(0x44a);if(_0x3dd762[_0x5ae27e(0x22a)])_0x3dd762[_0x5ae27e(0x22a)][_0x5ae27e(0x466)][_0x5ae27e(0x50b)]='0';}else{_0x3dd762['src']='',_0x3dd762[_0x5ae27e(0x466)][_0x5ae27e(0x1f0)]=_0x5ae27e(0x2cc);if(_0x3dd762[_0x5ae27e(0x22a)])_0x3dd762[_0x5ae27e(0x22a)][_0x5ae27e(0x466)]['opacity']='1';}_0x36ae2c(),window['openView'](_0x345709);}function _0x36ae2c(){const _0x1fb803=_0x40029b,_0x5a657c=document[_0x1fb803(0x284)](_0x1fb803(0x3b5));if(!_0x5a657c||!_0x4633b3)return;_0x5a657c[_0x1fb803(0x51f)]='',_0x4633b3[_0x1fb803(0x501)]['forEach'](_0x1269ca=>{const _0x3bd504=_0x1fb803,_0x13cdfa=document[_0x3bd504(0x338)]('div');_0x13cdfa[_0x3bd504(0x3ab)]=_0x3bd504(0x3af),_0x13cdfa[_0x3bd504(0x51f)]=_0x3bd504(0x442)+_0x51b122(_0x1269ca,_0x1269ca[_0x3bd504(0x4df)],_0x3bd504(0x2f1))+_0x3bd504(0x1ff)+_0x245dba(_0x1269ca['name'])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x13cdfa[_0x3bd504(0x4ed)](_0x3bd504(0x52d),()=>{const _0x16998b=_0x3bd504;if(_0x391fff(_0x4633b3)&&_0x1269ca[_0x16998b(0x32c)])return;_0x5eea56=_0x1269ca,document[_0x16998b(0x284)](_0x16998b(0x211))['value']=_0x1269ca[_0x16998b(0x4df)],document[_0x16998b(0x284)](_0x16998b(0x44c))[_0x16998b(0x280)]=_0x1269ca[_0x16998b(0x399)]||'';const _0x3fd208=document[_0x16998b(0x284)](_0x16998b(0x244));_0x1269ca['avatar']?(_0x3fd208['src']=_0x1269ca[_0x16998b(0x29d)],_0x3fd208['style']['display']=_0x16998b(0x44a)):(_0x3fd208[_0x16998b(0x380)]='',_0x3fd208[_0x16998b(0x466)]['display']='none');const _0x1ebe23=document['querySelector']('#bstage-add-char-sheet\x20.sheet-title');if(_0x1ebe23)_0x1ebe23[_0x16998b(0x39d)]=_0x16998b(0x209);const _0x3ef715=document[_0x16998b(0x284)](_0x16998b(0x382));if(_0x3ef715)_0x3ef715[_0x16998b(0x39d)]='保存';window['openView'](_0x59f726);}),_0x5a657c[_0x3bd504(0x1be)](_0x13cdfa);});}document['getElementById'](_0x40029b(0x2c0))[_0x40029b(0x4ed)]('click',_0x150e83=>{const _0x382c8e=_0x40029b;if(_0x150e83[_0x382c8e(0x4e7)]['id']===_0x382c8e(0x309)){_0x5eea56=null,document[_0x382c8e(0x284)](_0x382c8e(0x211))['value']='',document[_0x382c8e(0x284)]('bstage-char-role-input')[_0x382c8e(0x280)]='',document[_0x382c8e(0x284)](_0x382c8e(0x244))[_0x382c8e(0x466)][_0x382c8e(0x1f0)]='none';const _0x538281=document['querySelector'](_0x382c8e(0x417));if(_0x538281)_0x538281[_0x382c8e(0x39d)]=_0x382c8e(0x446);const _0x262aba=document[_0x382c8e(0x284)]('bstage-confirm-add-char-btn');if(_0x262aba)_0x262aba['textContent']='添加';window[_0x382c8e(0x2db)](_0x59f726);}else _0x150e83[_0x382c8e(0x4e7)]['id']===_0x382c8e(0x364)&&_0x29274a();}),document[_0x40029b(0x284)]('bstage-confirm-edit-team-btn')[_0x40029b(0x4ed)]('click',()=>{const _0x562a08=_0x40029b;if(!_0x4633b3)return;const _0x404e6e=document[_0x562a08(0x284)](_0x562a08(0x243))[_0x562a08(0x280)],_0x55af99=document[_0x562a08(0x284)](_0x562a08(0x37d))[_0x562a08(0x380)],_0x3c8d37=document[_0x562a08(0x284)](_0x562a08(0x37d))[_0x562a08(0x466)]['display']!==_0x562a08(0x2cc),_0x1cc3a9=document[_0x562a08(0x284)](_0x562a08(0x289))[_0x562a08(0x380)],_0x2320e0=document[_0x562a08(0x284)](_0x562a08(0x289))[_0x562a08(0x466)][_0x562a08(0x1f0)]!==_0x562a08(0x2cc);_0x404e6e&&(_0x391fff(_0x4633b3)?(_0x5d963b[_0x562a08(0x1f4)]=_0x404e6e,_0x5d963b[_0x562a08(0x4f9)]=_0x3c8d37?_0x55af99:null,_0x5d963b[_0x562a08(0x335)]=_0x2320e0?_0x1cc3a9:null,_0x5d963b['avatarEmoji']=_0x3c8d37?null:_0x5d963b[_0x562a08(0x4ae)]||_0x31f8eb(_0x562a08(0x33f)+(_0x4633b3['id']||_0x404e6e)),_0x4633b3=_0x13d678()):(_0x4633b3[_0x562a08(0x4df)]=_0x404e6e,_0x4633b3[_0x562a08(0x29d)]=_0x3c8d37?_0x55af99:null,_0x4633b3[_0x562a08(0x4ae)]=_0x3c8d37?null:_0x4633b3['avatarEmoji']||_0x31f8eb(_0x562a08(0x33f)+(_0x4633b3['id']||_0x404e6e)),_0x4633b3['bg']=_0x2320e0?_0x1cc3a9:null),_0x3f4fff(),_0x4fbbe9(),document[_0x562a08(0x35c)](_0x562a08(0x4ab))['classList'][_0x562a08(0x340)](_0x562a08(0x49a))&&_0x2193f7(_0x4633b3),_0x579506=![],window[_0x562a08(0x3e9)](_0x345709),window[_0x562a08(0x24d)]('团队信息已更新'));}),document[_0x40029b(0x284)](_0x40029b(0x316))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x5b88f6=_0x40029b;if(!_0x4633b3)return;if(_0x391fff(_0x4633b3)){window[_0x5b88f6(0x24d)](_0x5b88f6(0x225));return;}confirm(_0x5b88f6(0x465))&&(_0x10b4c8=_0x10b4c8[_0x5b88f6(0x22b)](_0x223301=>_0x223301['id']!==_0x4633b3['id']),_0x4633b3=null,_0x3f4fff(),_0x4fbbe9(),document['getElementById'](_0x5b88f6(0x2b4))[_0x5b88f6(0x466)][_0x5b88f6(0x1f0)]='none',document['getElementById'](_0x5b88f6(0x290))['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22height:\x20100%;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#333;\x20font-size:\x2014px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20请选择或创建一个团队\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x579506=![],window['closeView'](_0x345709),window[_0x5b88f6(0x24d)](_0x5b88f6(0x421)));}),_0x345709[_0x40029b(0x35c)](_0x40029b(0x277))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{_0x579506=![];});function _0x4d6ec5(_0x13c67b){const _0x3c9bab=_0x40029b;_0x4633b3=_0x13c67b,_0x4fbbe9(),document['getElementById'](_0x3c9bab(0x2b4))[_0x3c9bab(0x466)][_0x3c9bab(0x1f0)]=_0x3c9bab(0x44a),_0x2193f7(_0x13c67b),document[_0x3c9bab(0x28b)](_0x3c9bab(0x22f))[_0x3c9bab(0x2fc)](_0x344cb2=>_0x344cb2['classList'][_0x3c9bab(0x3f1)](_0x3c9bab(0x49a)));const _0x7c6e1b=document['querySelector']('.bstage-nav-item[data-tab=\x22home\x22]');_0x7c6e1b[_0x3c9bab(0x428)][_0x3c9bab(0x2d0)]('active'),typeof _0x7afae0==='function'&&setTimeout(()=>_0x7afae0(_0x7c6e1b),0xa);}const _0x1a9053=document['getElementById'](_0x40029b(0x290));function _0x2193f7(_0x5b9dda){const _0x4a01ae=_0x40029b,_0x954c0a=_0x5b9dda['bg']?_0x4a01ae(0x212)+_0x5b9dda['bg']+'\x27)':_0x4a01ae(0x1f5),_0xae0f3d=_0x391fff(_0x5b9dda);_0x1a9053['innerHTML']=_0x4a01ae(0x2cf)+_0x954c0a+_0x4a01ae(0x38c)+_0x5b9dda[_0x4a01ae(0x4df)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-social-icons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-instagram\x20bstage-social-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-twitter\x20bstage-social-icon\x22></i>\x20<!--\x20X\x20icon\x20usually\x20fontawesome\x20twitter\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-youtube\x20bstage-social-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-tiktok\x20bstage-social-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-facebook\x20bstage-social-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-sub-bubble\x22\x20id=\x22bstage-home-sub-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+(_0xae0f3d?'User\x20Space':_0x5b9dda[_0x4a01ae(0x2de)]?_0x4a01ae(0x1c9):_0x4a01ae(0x33a))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-right\x22\x20style=\x22font-size:\x2012px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20',!_0xae0f3d&&document[_0x4a01ae(0x284)](_0x4a01ae(0x21f))[_0x4a01ae(0x4ed)](_0x4a01ae(0x52d),_0x349595);}function _0x2bfc9b(_0x9bc051){const _0x5dfbaf=_0x40029b,_0x55f6f4=_0x391fff(_0x9bc051),_0x1e3b86=_0x55f6f4?_0x13d678():_0x9bc051;if(_0x55f6f4)_0x4633b3=_0x1e3b86;_0x1a9053[_0x5dfbaf(0x51f)]=_0x5dfbaf(0x2df)+(_0x55f6f4?_0x5dfbaf(0x37b):_0x5dfbaf(0x4ec))+_0x5dfbaf(0x210);const _0x259bdc=document[_0x5dfbaf(0x284)](_0x5dfbaf(0x39f));_0x1e3b86[_0x5dfbaf(0x501)]&&_0x1e3b86['members'][_0x5dfbaf(0x388)]>0x0?_0x1e3b86['members']['forEach'](_0x912e8c=>{const _0x198199=_0x5dfbaf,_0x31083d=document[_0x198199(0x338)](_0x198199(0x1b6));_0x31083d[_0x198199(0x3ab)]=_0x198199(0x20a);const _0x4a588b=_0x55f6f4&&_0x912e8c[_0x198199(0x32c)];let _0x1d5069=![],_0x117b34=![];if(!_0x4a588b&&_0x912e8c[_0x198199(0x2de)]&&_0x912e8c[_0x198199(0x34e)]){const _0x460c66=Date['now'](),_0x2494a4=_0x912e8c[_0x198199(0x34e)]+0x3*0x18*0x3c*0x3c*0x3e8;if(_0x460c66>_0x2494a4)_0x1d5069=!![],_0x912e8c[_0x198199(0x2de)]=![],_0x912e8c[_0x198199(0x2bc)]=null,_0x912e8c[_0x198199(0x34e)]=null,_0x3f4fff();else _0x460c66>_0x912e8c[_0x198199(0x34e)]&&(_0x117b34=!![]);}let _0x249a9f='';if(_0x4a588b)_0x249a9f=_0x2c164d();else{if(_0x912e8c[_0x198199(0x2de)]&&_0x912e8c[_0x198199(0x2bc)]){const _0x37e1f3=Math['floor']((Date['now']()-_0x912e8c['subStartDate'])/(0x3e8*0x3c*0x3c*0x18))+0x1;_0x249a9f=_0x198199(0x238)+_0x37e1f3+'\x20天';}}let _0x576601='';if(_0x4a588b)_0x576601=_0x198199(0x4f8);else _0x912e8c[_0x198199(0x2de)]?_0x117b34?_0x576601='<div\x20class=\x22bstage-pop-sub-btn\x20renew\x22\x20style=\x22background-color:\x20#ffcc00;\x20color:\x20#000;\x22>续费(缓冲)</div>':_0x576601=_0x198199(0x390):_0x576601=_0x198199(0x24f);const _0x1b0c64=_0x4a588b?_0x198199(0x2b7):'bstage-pop-role';_0x31083d['innerHTML']=_0x198199(0x53e)+_0x51b122(_0x912e8c,_0x912e8c[_0x198199(0x4df)],_0x198199(0x2e5))+_0x198199(0x3a0)+_0x245dba(_0x912e8c[_0x198199(0x4df)])+_0x198199(0x239)+(_0x249a9f?_0x198199(0x4dd)+_0x1b0c64+'\x22>'+_0x249a9f+_0x198199(0x1cc):'')+_0x198199(0x217)+_0x576601+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';if(_0x4a588b)_0x31083d[_0x198199(0x4ed)]('click',_0x4a49e7);else{if(_0x912e8c['isSubscribed']&&!_0x117b34)_0x31083d[_0x198199(0x4ed)]('click',()=>_0x5df4d7(_0x912e8c));else{if(_0x912e8c[_0x198199(0x2de)]&&_0x117b34){const _0x5cb598=_0x31083d[_0x198199(0x35c)](_0x198199(0x3b9));_0x5cb598&&_0x5cb598['addEventListener'](_0x198199(0x52d),_0x864ff3=>{const _0xbfb9a3=_0x198199;_0x864ff3[_0xbfb9a3(0x561)](),_0x5d0a30=_0x912e8c,document['getElementById'](_0xbfb9a3(0x28d))[_0xbfb9a3(0x39d)]='续订\x20'+_0x912e8c[_0xbfb9a3(0x4df)],window['openView'](_0x2914c3);}),_0x31083d[_0x198199(0x4ed)](_0x198199(0x52d),_0x50ea54=>{const _0x214e52=_0x198199;if(_0x50ea54[_0x214e52(0x4e7)]!==_0x5cb598)_0x5df4d7(_0x912e8c);});}else{const _0x468e2e=_0x31083d[_0x198199(0x35c)](_0x198199(0x33c));_0x468e2e&&_0x468e2e[_0x198199(0x4ed)](_0x198199(0x52d),_0x4c3eed=>{const _0x1959c7=_0x198199;_0x4c3eed[_0x1959c7(0x561)](),_0x5d0a30=_0x912e8c,document[_0x1959c7(0x284)]('pop-sub-char-name')[_0x1959c7(0x39d)]=_0x1959c7(0x24a)+_0x912e8c[_0x1959c7(0x4df)],window['openView'](_0x2914c3);});}}}_0x259bdc['appendChild'](_0x31083d);}):_0x259bdc[_0x5dfbaf(0x51f)]='<div\x20style=\x22text-align:center;\x20color:#666;\x20padding:20px;\x22>暂无成员</div>';}document[_0x40029b(0x284)]('bstage-confirm-pop-sub-btn')['addEventListener'](_0x40029b(0x52d),()=>{const _0x4e3eb8=_0x40029b;if(_0x5d0a30){const _0x3ac100=Date['now'](),_0x25c2c1=0x1e*0x18*0x3c*0x3c*0x3e8;_0x5d0a30[_0x4e3eb8(0x2de)]&&_0x5d0a30['subExpiryDate']&&_0x3ac100>_0x5d0a30[_0x4e3eb8(0x34e)]?(_0x5d0a30[_0x4e3eb8(0x34e)]+=_0x25c2c1,window[_0x4e3eb8(0x24d)]('成功续订\x20'+_0x5d0a30[_0x4e3eb8(0x4df)]+'！')):(_0x5d0a30[_0x4e3eb8(0x2de)]=!![],_0x5d0a30[_0x4e3eb8(0x2bc)]=_0x3ac100,_0x5d0a30[_0x4e3eb8(0x34e)]=_0x3ac100+_0x25c2c1,window[_0x4e3eb8(0x24d)](_0x4e3eb8(0x1c6)+_0x5d0a30[_0x4e3eb8(0x4df)]+'！'));const _0x456e7d=_0x2914c3[_0x4e3eb8(0x35c)](_0x4e3eb8(0x3ff));_0x322f3e[_0x4e3eb8(0x2da)]({'id':Date['now'](),'title':_0x4e3eb8(0x24a)+_0x5d0a30[_0x4e3eb8(0x4df)],'price':_0x456e7d?_0x456e7d[_0x4e3eb8(0x39d)]:'₩4,500\x20/\x20月','date':new Date()['toLocaleDateString'](),'type':_0x4e3eb8(0x42b)});if(_0x4633b3)_0x2bfc9b(_0x4633b3);_0x3f4fff(),window[_0x4e3eb8(0x24d)](_0x4e3eb8(0x1c6)+_0x5d0a30['name']+'！'),window[_0x4e3eb8(0x3e9)](_0x2914c3);}});function _0x305954(_0x2e29a9,_0x35b946,_0x28c37f){const _0x5cd714=_0x40029b;if(!_0x2e29a9||!_0x35b946||!_0x28c37f)return;if(_0x35b946[_0x5cd714(0x378)]===_0x5cd714(0x2b0)){const _0x627627=document['createElement']('div');_0x627627[_0x5cd714(0x3ab)]='bstage-chat-date',_0x627627[_0x5cd714(0x39d)]=_0x35b946[_0x5cd714(0x274)],_0x28c37f[_0x5cd714(0x1be)](_0x627627);return;}if(_0x35b946[_0x5cd714(0x378)]===_0x5cd714(0x505)){_0x464c04(_0x35b946);const _0x421074=document[_0x5cd714(0x338)](_0x5cd714(0x4db));_0x421074[_0x5cd714(0x378)]=_0x5cd714(0x4db),_0x421074['className']=_0x5cd714(0x232);const _0xa35196=Array[_0x5cd714(0x481)](_0x35b946[_0x5cd714(0x45c)])?_0x35b946[_0x5cd714(0x45c)][_0x5cd714(0x388)]:0x0;_0x421074[_0x5cd714(0x51f)]='<i\x20class=\x22fas\x20fa-comments\x22></i><span>查看其他人的消息'+(_0xa35196?'（'+_0xa35196+'）':'')+'</span>',_0x421074[_0x5cd714(0x4ed)](_0x5cd714(0x52d),()=>_0x4c38d1(_0x2e29a9,_0x35b946)),_0x28c37f[_0x5cd714(0x1be)](_0x421074);return;}_0x24332e(_0x35b946,_0x35b946['isUser']?'user':_0x5cd714(0x477));if(_0x35b946[_0x5cd714(0x258)]){const _0x472dfd=document[_0x5cd714(0x338)]('div');_0x472dfd[_0x5cd714(0x3ab)]='bstage-chat-msg\x20outgoing',_0x472dfd[_0x5cd714(0x317)][_0x5cd714(0x3a4)]=_0x35b946['id'],_0x472dfd['innerHTML']=_0x5cd714(0x3fb)+_0x245dba(_0x35b946[_0x5cd714(0x287)]||'已读')+_0x5cd714(0x4ac)+_0x245dba(_0x35b946['time']||_0x5bb6ae(_0x35b946['timestamp']))+_0x5cd714(0x46f)+_0x3055c0(_0x35b946[_0x5cd714(0x4f0)])+_0x5cd714(0x49f)+_0x245dba(_0x35b946['text'])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x28c37f[_0x5cd714(0x1be)](_0x472dfd);return;}const _0x2ae873=document['createElement'](_0x5cd714(0x1b6));_0x2ae873[_0x5cd714(0x3ab)]=_0x5cd714(0x513),_0x2ae873[_0x5cd714(0x317)][_0x5cd714(0x3a4)]=_0x35b946['id'];let _0x28b1f3='';_0x35b946[_0x5cd714(0x378)]===_0x5cd714(0x432)?_0x28b1f3=_0x5cd714(0x442)+_0x3055c0(_0x35b946[_0x5cd714(0x4f0)])+_0x5cd714(0x4f6)+_0x245dba(_0x35b946['imgUrl']||'assets/moren.jpg')+_0x5cd714(0x534)+_0x245dba(_0x35b946['imgDesc']||'')+_0x5cd714(0x1ee):_0x28b1f3=_0x5cd714(0x442)+_0x3055c0(_0x35b946[_0x5cd714(0x4f0)])+_0x5cd714(0x40f)+_0x245dba(_0x35b946[_0x5cd714(0x274)])+_0x5cd714(0x224)+(_0x35b946[_0x5cd714(0x3db)]&&_0x35b946[_0x5cd714(0x3db)][_0x5cd714(0x262)]()!==''?_0x5cd714(0x368)+_0x245dba(_0x35b946[_0x5cd714(0x3db)])+_0x5cd714(0x1cc):'')+_0x5cd714(0x419);_0x2ae873['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x51b122(_0x2e29a9,_0x2e29a9[_0x5cd714(0x4df)],'bstage-chat-avatar')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-bubble\x22\x20style=\x22'+(_0x35b946[_0x5cd714(0x378)]===_0x5cd714(0x432)&&!_0x35b946[_0x5cd714(0x4f0)]?_0x5cd714(0x31f):'')+'\x22>'+_0x28b1f3+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22bstage-msg-reply-btn\x22\x20type=\x22button\x22\x20aria-label=\x22回复消息\x22\x20title=\x22回复消息\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-reply\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';const _0x588163=_0x2ae873[_0x5cd714(0x35c)](_0x5cd714(0x2fe));_0x588163&&_0x588163['addEventListener'](_0x5cd714(0x52d),_0x1cb9ea=>{const _0x39db57=_0x5cd714;_0x1cb9ea[_0x39db57(0x561)](),_0x13a8ef('chat',_0x2ab085(_0x35b946,_0x2e29a9[_0x39db57(0x4df)]));}),_0x3ba2c9(_0x2ae873),_0x28c37f[_0x5cd714(0x1be)](_0x2ae873);}function _0x5df4d7(_0x10f456){const _0x3243c7=_0x40029b;if(!_0x449905())return;const _0x32fdd0=_0x1169ad(_0x10f456?.['id'],_0x4633b3?.['id']);if(!_0x32fdd0){if(typeof window['showToast']===_0x3243c7(0x414))window['showToast'](_0x3243c7(0x450));return;}_0x4633b3=_0x32fdd0[_0x3243c7(0x376)],_0x10f456=_0x32fdd0[_0x3243c7(0x3ae)],_0x16a7b0=_0x10f456,document[_0x3243c7(0x284)](_0x3243c7(0x265))[_0x3243c7(0x39d)]=_0x10f456['name'];const _0x272773=Math[_0x3243c7(0x259)]((Date[_0x3243c7(0x41b)]()-_0x10f456['subStartDate'])/(0x3e8*0x3c*0x3c*0x18))+0x1;document['getElementById'](_0x3243c7(0x476))[_0x3243c7(0x39d)]=_0x3243c7(0x238)+_0x272773+'\x20天';const _0x555bec=document[_0x3243c7(0x284)](_0x3243c7(0x3ed));_0x10f456[_0x3243c7(0x2e3)]?_0x555bec[_0x3243c7(0x466)][_0x3243c7(0x4f1)]=_0x3243c7(0x3bf)+_0x10f456[_0x3243c7(0x2e3)]+'\x27)':(_0x555bec['style'][_0x3243c7(0x4f1)]=_0x3243c7(0x2cc),_0x555bec[_0x3243c7(0x466)][_0x3243c7(0x4a5)]=_0x3243c7(0x489));_0x4bedef(),_0x1f75f9=0x0;const _0x9e42f6=document[_0x3243c7(0x284)](_0x3243c7(0x2f5));if(_0x18df9d)_0x9e42f6[_0x3243c7(0x428)]['add']('show-trans');else _0x9e42f6[_0x3243c7(0x428)]['remove'](_0x3243c7(0x36e));(!_0x10f456[_0x3243c7(0x1cf)]||!Array[_0x3243c7(0x481)](_0x10f456['chatHistory']))&&(_0x10f456[_0x3243c7(0x1cf)]=[{'type':'date','text':_0x38842d(Date[_0x3243c7(0x41b)]()),'timestamp':Date[_0x3243c7(0x41b)]()},{'isUser':![],'type':_0x3243c7(0x274),'text':'Hello!\x20I\x27m\x20'+_0x10f456[_0x3243c7(0x4df)]+'.','trans':_0x3243c7(0x202)+_0x10f456[_0x3243c7(0x4df)]+'。','timestamp':Date[_0x3243c7(0x41b)]()},{'isUser':![],'type':_0x3243c7(0x274),'text':_0x3243c7(0x1ed),'trans':'谢谢你的订阅！','timestamp':Date[_0x3243c7(0x41b)]()+0x64}],_0x3f4fff());_0x9e42f6['innerHTML']='',_0x10f456[_0x3243c7(0x1cf)]['forEach'](_0x51a0c5=>_0x305954(_0x10f456,_0x51a0c5,_0x9e42f6)),_0x3c3ce1(_0x3243c7(0x324)),setTimeout(()=>{const _0x520fed=_0x3243c7;_0x9e42f6[_0x520fed(0x2eb)]=_0x9e42f6[_0x520fed(0x2ce)];},0x64);const _0x28c115=document[_0x3243c7(0x284)](_0x3243c7(0x341)),_0x6f2f60=document[_0x3243c7(0x284)]('bstage-chat-send-btn'),_0x38000c=document[_0x3243c7(0x284)](_0x3243c7(0x41e));if(!_0x28c115||!_0x6f2f60||!_0x38000c)return;const _0x5f2d04=_0x6f2f60[_0x3243c7(0x2c9)](!![]);_0x6f2f60[_0x3243c7(0x20b)]['replaceChild'](_0x5f2d04,_0x6f2f60);const _0x4af29e=_0x38000c[_0x3243c7(0x2c9)](!![]);_0x38000c['parentNode'][_0x3243c7(0x241)](_0x4af29e,_0x38000c);const _0x4b0c77=()=>{const _0x226b39=_0x3243c7,_0x3a340f=Date[_0x226b39(0x41b)]();return typeof window[_0x226b39(0x484)]==='function'?window[_0x226b39(0x484)](_0x3a340f):((()=>{const _0x5b3535=_0x226b39,_0x3ff010=new Date();return _0x3ff010[_0x5b3535(0x1f8)]()+':'+_0x3ff010['getMinutes']()[_0x5b3535(0x30f)]()[_0x5b3535(0x3fa)](0x2,'0');})());},_0x3f2760=()=>{const _0x405132=_0x3243c7;if(!_0x449905())return;const _0x5ec0ad=_0x1169ad(_0x10f456?.['id'],_0x4633b3?.['id']);if(!_0x5ec0ad){if(typeof window[_0x405132(0x24d)]===_0x405132(0x414))window[_0x405132(0x24d)](_0x405132(0x492));return;}_0x4633b3=_0x5ec0ad[_0x405132(0x376)],_0x10f456=_0x5ec0ad[_0x405132(0x3ae)],_0x16a7b0=_0x10f456;const _0x4abc5f=_0x28c115[_0x405132(0x280)][_0x405132(0x262)]();if(!_0x4abc5f)return;if(_0x1f75f9>=0x3){const _0x3851d0=document['createElement']('div');_0x3851d0[_0x405132(0x3ab)]='bstage-system-notice',_0x3851d0[_0x405132(0x39d)]=_0x405132(0x28c)+_0x16a7b0[_0x405132(0x4df)]+_0x405132(0x3e6),_0x9e42f6[_0x405132(0x1be)](_0x3851d0),_0x28c115[_0x405132(0x280)]='',_0x9e42f6[_0x405132(0x2eb)]=_0x9e42f6[_0x405132(0x2ce)];return;}_0x1f75f9++;const _0xa641d0=_0x4b0c77(),_0x55bd3f=Date['now']();_0x175990(_0x10f456,_0x9e42f6,_0x55bd3f);if(!_0x10f456[_0x405132(0x1cf)])_0x10f456['chatHistory']=[];const _0x1a65a2={'id':_0x467780(_0x405132(0x2a4)),'isUser':!![],'type':_0x405132(0x274),'text':_0x4abc5f,'time':_0xa641d0,'timestamp':_0x55bd3f,'status':'未读','replyTo':_0x25d921?{..._0x25d921}:null};_0x10f456[_0x405132(0x1cf)][_0x405132(0x27d)](_0x1a65a2),_0x305954(_0x10f456,_0x1a65a2,_0x9e42f6),_0x3f4fff(),_0x28c115[_0x405132(0x280)]='',_0x3c3ce1(_0x405132(0x324)),_0x9e42f6[_0x405132(0x2eb)]=_0x9e42f6[_0x405132(0x2ce)];};_0x5f2d04[_0x3243c7(0x4ed)](_0x3243c7(0x52d),_0x3f2760),_0x5f2d04[_0x3243c7(0x4ed)](_0x3243c7(0x300),_0x113140=>{const _0x200cff=_0x3243c7;(_0x113140['key']===_0x200cff(0x1fd)||_0x113140[_0x200cff(0x227)]==='\x20')&&(_0x113140[_0x200cff(0x2c6)](),_0x3f2760());}),_0x4af29e[_0x3243c7(0x4ed)]('click',async()=>{const _0x69e417=_0x3243c7;if(_0x4af29e['classList']['contains'](_0x69e417(0x26a)))return;_0x3a86da(_0x4af29e,!![]),_0x28c115[_0x69e417(0x511)]=!![];try{await _0x7bf56f(_0x10f456,_0x9e42f6);}finally{_0x28c115['disabled']=![],_0x3a86da(_0x4af29e,![]);}}),_0x4af29e[_0x3243c7(0x4ed)]('keydown',_0x437154=>{const _0x370bc5=_0x3243c7;(_0x437154['key']===_0x370bc5(0x1fd)||_0x437154[_0x370bc5(0x227)]==='\x20')&&(_0x437154[_0x370bc5(0x2c6)](),_0x4af29e[_0x370bc5(0x52d)]());}),_0x28c115['onkeydown']=_0x3531cd=>{const _0x165031=_0x3243c7;_0x3531cd[_0x165031(0x227)]===_0x165031(0x1fd)&&!_0x3531cd['shiftKey']&&!_0x3531cd[_0x165031(0x4aa)]&&!_0x3531cd[_0x165031(0x304)]&&!_0x3531cd['isComposing']&&_0x3531cd[_0x165031(0x47e)]!==0xe5&&(_0x3531cd['preventDefault'](),_0x3f2760(),_0x28c115[_0x165031(0x2a6)]());},window[_0x3243c7(0x2db)](document[_0x3243c7(0x284)](_0x3243c7(0x3ed)));}async function _0x7bf56f(_0x1b8d4d,_0x29f8df,_0x109445=![]){const _0x47351d=_0x40029b;if(!_0x449905(!_0x109445))return![];const _0x45c081=_0x1169ad(_0x1b8d4d?.['id'],_0x4633b3?.['id']);if(!_0x45c081){if(!_0x109445&&typeof window[_0x47351d(0x24d)]===_0x47351d(0x414))window[_0x47351d(0x24d)](_0x47351d(0x438));return![];}_0x4633b3=_0x45c081[_0x47351d(0x376)],_0x1b8d4d=_0x45c081[_0x47351d(0x3ae)];_0x16a7b0&&String(_0x16a7b0['id'])===String(_0x1b8d4d['id'])&&(_0x16a7b0=_0x1b8d4d);let _0x16a4de=window[_0x47351d(0x230)];if(_0x1b8d4d[_0x47351d(0x4f4)])try{let _0x3b837e=window['StorageManager']?window[_0x47351d(0x542)][_0x47351d(0x43e)](_0x47351d(0x3be),[]):[];const _0x311ad9=_0x3b837e[_0x47351d(0x372)](_0x5cd2e2=>String(_0x5cd2e2['id'])===String(_0x1b8d4d[_0x47351d(0x4f4)]));_0x311ad9&&(_0x16a4de={'endpoint':_0x311ad9[_0x47351d(0x385)],'apiKey':_0x311ad9['apiKey'],'model':_0x311ad9[_0x47351d(0x4f3)],'temperature':_0x311ad9[_0x47351d(0x1c8)]!==undefined?_0x311ad9[_0x47351d(0x1c8)]:0.7});}catch(_0x3a7df1){console[_0x47351d(0x451)]('Failed\x20to\x20load\x20preset\x20config',_0x3a7df1);}if(!_0x16a4de||!_0x16a4de[_0x47351d(0x385)]||!_0x16a4de[_0x47351d(0x2f0)]){if(!_0x109445)window['showToast'](_0x47351d(0x4a2));return;}if(!_0x109445)window[_0x47351d(0x24d)](_0x1b8d4d[_0x47351d(0x4df)]+_0x47351d(0x354));if(!_0x1b8d4d['chatHistory']||!Array[_0x47351d(0x481)](_0x1b8d4d[_0x47351d(0x1cf)]))_0x1b8d4d[_0x47351d(0x1cf)]=[];let _0x57d0d6=_0xaea4d2?_0x207604:0x1;const _0x46e2ba=_0x1b8d4d[_0x47351d(0x1cf)]['filter'](_0x48675f=>_0x48675f&&_0x48675f['type']!==_0x47351d(0x2b0))['slice'](-_0x57d0d6);let _0x3d2606=_0x47351d(0x36f);_0x46e2ba[_0x47351d(0x388)]===0x0?_0x3d2606+=_0x47351d(0x34d):_0x46e2ba[_0x47351d(0x2fc)](_0x2f0b40=>{const _0x1fe841=_0x47351d,_0x4987f2=_0x2f0b40[_0x1fe841(0x258)]?'当前粉丝':_0x1b8d4d[_0x1fe841(0x4df)],_0x2e72f7=_0x33f391(_0x2f0b40,_0x4987f2);if(_0x2e72f7)_0x3d2606+=_0x2e72f7+'\x0a';});const _0x3b5bfd=_0x46e2ba[_0x47351d(0x22b)](_0x27069b=>_0x27069b&&_0x27069b['isUser']&&_0x27069b['id'])[_0x47351d(0x34c)](_0x543187=>_0x543187['id']),_0x3c96d0=window[_0x47351d(0x434)]&&window['userState'][_0x47351d(0x4df)]?window[_0x47351d(0x434)][_0x47351d(0x4df)]:_0x47351d(0x1eb),_0x12f412=window[_0x47351d(0x434)]&&window['userState']['persona']?window[_0x47351d(0x434)][_0x47351d(0x362)]:'',_0x158e26=_0x47351d(0x545)+_0x3c96d0+_0x47351d(0x504)+(_0x12f412||_0x47351d(0x4f7))+_0x47351d(0x412)+_0x1b8d4d['name']+_0x47351d(0x41f),_0x9f6645=window[_0x47351d(0x27c)]?window[_0x47351d(0x27c)]('system_depth'):'',_0x572864=window[_0x47351d(0x27c)]?window[_0x47351d(0x27c)]('before_role'):'',_0x547cc1=window['getGlobalWorldBookContextByPosition']?window[_0x47351d(0x27c)](_0x47351d(0x4a9)):'',_0x2e5de8=new Date(),_0x27842d=['星期日',_0x47351d(0x493),_0x47351d(0x440),_0x47351d(0x539),_0x47351d(0x393),_0x47351d(0x22d),_0x47351d(0x53f)],_0x182e9e=_0x2e5de8['getFullYear']()+'年'+(_0x2e5de8['getMonth']()+0x1)+'月'+_0x2e5de8['getDate']()+'日\x20'+_0x27842d[_0x2e5de8[_0x47351d(0x39a)]()]+'\x20'+_0x2e5de8[_0x47351d(0x1f8)]()+':'+String(_0x2e5de8[_0x47351d(0x522)]())[_0x47351d(0x3fa)](0x2,'0'),_0x550745=!!_0x1b8d4d[_0x47351d(0x47d)],_0x26b6ca=_0x550745?_0x47351d(0x398)+_0x1b8d4d[_0x47351d(0x4df)]+_0x47351d(0x3cd):'',_0x1d0b7f=_0x550745?_0x47351d(0x45d)+_0x1b8d4d[_0x47351d(0x4df)]+_0x47351d(0x26b):_0x47351d(0x547),_0x5690c6='\x0a'+(_0x9f6645?'System\x20Depth\x20Rules:\x0a'+_0x9f6645+'\x0a\x0a':'')+(_0x572864?_0x47351d(0x2f8)+_0x572864+'\x0a\x0a':'')+_0x47351d(0x23b)+_0x1b8d4d[_0x47351d(0x4df)]+_0x47351d(0x4cf)+(_0x1b8d4d['role']||'爱豆/明星/gong')+'\x0a你所在的团队名称是：'+(_0x4633b3?_0x4633b3[_0x47351d(0x4df)]:'Unknown\x20Team')+_0x47351d(0x456)+(_0x4633b3&&_0x4633b3['desc']?_0x4633b3[_0x47351d(0x251)]:'无')+(_0x547cc1?_0x47351d(0x257)+_0x547cc1:'')+_0x47351d(0x3b6)+_0x182e9e+_0x47351d(0x20d)+(_0x3b5bfd[_0x47351d(0x388)]?_0x3b5bfd[_0x47351d(0x54d)](',\x20'):'无')+_0x47351d(0x50f)+_0x26b6ca+'\x0a'+_0x1d0b7f+'\x0a\x0a'+_0x158e26+'\x0a'+_0x3d2606+'\x0a';try{let _0x4ee440=_0x16a4de[_0x47351d(0x385)];if(_0x4ee440[_0x47351d(0x374)]('/'))_0x4ee440=_0x4ee440[_0x47351d(0x260)](0x0,-0x1);!_0x4ee440['endsWith'](_0x47351d(0x32a))&&(_0x4ee440=_0x4ee440['endsWith'](_0x47351d(0x377))?_0x4ee440+_0x47351d(0x32a):_0x4ee440+_0x47351d(0x27a));const _0x31da7d=await fetch(_0x4ee440,{'method':_0x47351d(0x29c),'headers':{'Content-Type':'application/json','Authorization':_0x47351d(0x475)+_0x16a4de[_0x47351d(0x2f0)]},'body':JSON['stringify']({'model':_0x16a4de[_0x47351d(0x4f3)]||_0x47351d(0x3b8),'messages':[{'role':_0x47351d(0x4e4),'content':_0x47351d(0x2ac)},{'role':_0x47351d(0x2a4),'content':_0x5690c6}],'temperature':parseFloat(_0x16a4de['temperature'])||0.8})});if(!_0x31da7d['ok'])throw new Error('API\x20Error');const _0x42c1b3=await _0x31da7d[_0x47351d(0x269)](),_0x30503d=_0x1169ad(_0x1b8d4d['id'],_0x4633b3?.['id']);if(!_0x30503d)throw new Error(_0x47351d(0x205));_0x4633b3=_0x30503d[_0x47351d(0x376)],_0x1b8d4d=_0x30503d[_0x47351d(0x3ae)];_0x16a7b0&&String(_0x16a7b0['id'])===String(_0x1b8d4d['id'])&&(_0x16a7b0=_0x1b8d4d);let _0x50e678=_0x42c1b3[_0x47351d(0x568)][0x0][_0x47351d(0x3ba)][_0x47351d(0x429)];_0x50e678=_0x50e678[_0x47351d(0x2a8)](/```json/g,'')[_0x47351d(0x2a8)](/```/g,'')[_0x47351d(0x262)]();let _0xbc1733=[],_0x371f89=[];try{const _0x3ffe40=JSON[_0x47351d(0x472)](_0x50e678);if(Array[_0x47351d(0x481)](_0x3ffe40))_0xbc1733=_0x3ffe40;else _0x3ffe40&&typeof _0x3ffe40===_0x47351d(0x3d4)?(_0xbc1733=Array[_0x47351d(0x481)](_0x3ffe40[_0x47351d(0x299)])?_0x3ffe40[_0x47351d(0x299)]:Array[_0x47351d(0x481)](_0x3ffe40[_0x47351d(0x32b)])?_0x3ffe40[_0x47351d(0x32b)]:[],_0x550745&&(_0x371f89=_0x1fb091(_0x3ffe40[_0x47351d(0x3cb)]||_0x3ffe40[_0x47351d(0x45c)]||_0x3ffe40['other_fan_messages']||[],Date[_0x47351d(0x41b)]()))):_0xbc1733=[_0x50e678];}catch(_0x1c30c0){const _0x262133=_0x50e678[_0x47351d(0x3de)]('\x0a')[_0x47351d(0x22b)](_0x9dfbaa=>_0x9dfbaa['trim']()['length']>0x0);_0xbc1733=_0x262133[_0x47351d(0x34c)](_0x30b1b6=>({'text':_0x30b1b6,'trans':'翻译失败'}));}if(_0x550745&&_0x371f89['length']<0xa)throw new Error(_0x47351d(0x486));if(_0x29f8df){_0x1f75f9=0x0;const _0x25eb44=_0x29f8df['querySelectorAll'](_0x47351d(0x266));_0x25eb44['forEach'](_0x46d2f7=>{const _0x283bed=_0x47351d;if(_0x46d2f7[_0x283bed(0x51f)]==='未读')_0x46d2f7[_0x283bed(0x51f)]='已读';});}_0x1b8d4d[_0x47351d(0x1cf)]&&_0x1b8d4d[_0x47351d(0x1cf)][_0x47351d(0x2fc)](_0x242e60=>{const _0x1734be=_0x47351d;if(_0x242e60['isUser']&&_0x242e60[_0x1734be(0x287)]==='未读')_0x242e60[_0x1734be(0x287)]='已读';});function _0x3b0b95(_0x3ef4f7,_0x2f8f84){const _0x8e14e3=_0x47351d,_0x3e4a48=document['createElement'](_0x8e14e3(0x1b6));_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x518)]=_0x8e14e3(0x4dc),_0x3e4a48['style'][_0x8e14e3(0x49c)]='0',_0x3e4a48[_0x8e14e3(0x466)]['left']='0',_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x557)]=_0x8e14e3(0x1d0),_0x3e4a48['style']['height']=_0x8e14e3(0x1c3),_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x4a5)]=_0x8e14e3(0x448),_0x3e4a48[_0x8e14e3(0x466)]['zIndex']=_0x8e14e3(0x337),_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x1f0)]=_0x8e14e3(0x1e0),_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x1f6)]='column',_0x3e4a48['style'][_0x8e14e3(0x279)]=_0x8e14e3(0x3f8),_0x3e4a48['style']['alignItems']=_0x8e14e3(0x3f8),_0x3e4a48[_0x8e14e3(0x466)][_0x8e14e3(0x20c)]=_0x8e14e3(0x254);const _0x3948e9=document[_0x8e14e3(0x338)](_0x8e14e3(0x1d6));_0x3948e9[_0x8e14e3(0x380)]=_0x3ef4f7,_0x3948e9['style']['maxWidth']=_0x8e14e3(0x1bb),_0x3948e9[_0x8e14e3(0x466)][_0x8e14e3(0x516)]=_0x8e14e3(0x461),_0x3948e9[_0x8e14e3(0x466)][_0x8e14e3(0x245)]=_0x8e14e3(0x538),_0x3948e9[_0x8e14e3(0x466)][_0x8e14e3(0x21b)]=_0x8e14e3(0x4e5),_0x3948e9['style'][_0x8e14e3(0x41d)]=_0x8e14e3(0x297),_0x3e4a48[_0x8e14e3(0x1be)](_0x3948e9);if(_0x2f8f84){const _0x5e1013=document[_0x8e14e3(0x338)]('div');_0x5e1013[_0x8e14e3(0x466)][_0x8e14e3(0x536)]=_0x8e14e3(0x401),_0x5e1013[_0x8e14e3(0x466)][_0x8e14e3(0x3f6)]=_0x8e14e3(0x3dd),_0x5e1013[_0x8e14e3(0x466)][_0x8e14e3(0x42c)]=_0x8e14e3(0x1bb),_0x5e1013[_0x8e14e3(0x466)][_0x8e14e3(0x526)]='center',_0x5e1013['style']['fontSize']=_0x8e14e3(0x525),_0x5e1013[_0x8e14e3(0x39d)]=_0x2f8f84,_0x3e4a48['appendChild'](_0x5e1013);}document[_0x8e14e3(0x2f4)][_0x8e14e3(0x1be)](_0x3e4a48),_0x3e4a48[_0x8e14e3(0x4ed)](_0x8e14e3(0x52d),()=>{const _0x105d88=_0x8e14e3;_0x3e4a48[_0x105d88(0x3f1)]();});}const _0x1e8d45=Date[_0x47351d(0x41b)](),_0x5b09e4=[],_0x1b7399=_0xbc1733[_0x47351d(0x388)]>0x0||_0x371f89['length']>0x0?_0x175990(_0x1b8d4d,null,_0x1e8d45):null;let _0x24688f=0x0;const _0x1a2c0d=new Map(_0x371f89[_0x47351d(0x34c)](_0x175900=>[String(_0x175900['id']),_0x175900]));_0xbc1733['forEach'](_0x2595c6=>{const _0x8324d3=_0x47351d;let _0x497312='',_0x3297a4='',_0x311bf6=_0x8324d3(0x274),_0x3d0e8b='',_0x3ca39a='',_0x10799b='';typeof _0x2595c6===_0x8324d3(0x4b6)?_0x497312=_0x53d238(_0x2595c6):(_0x311bf6=_0x2595c6[_0x8324d3(0x378)]||_0x8324d3(0x274),_0x497312=_0x53d238(_0x2595c6[_0x8324d3(0x274)]||''),_0x3297a4=_0x53d238(_0x2595c6[_0x8324d3(0x3db)]||_0x2595c6[_0x8324d3(0x1dc)]||_0x2595c6['translationZh']||''),_0x3d0e8b=_0x53d238(_0x2595c6[_0x8324d3(0x2dc)]||''),_0x3ca39a=_0x53d238(_0x2595c6[_0x8324d3(0x550)]||_0x2595c6[_0x8324d3(0x2ec)]||_0x2595c6[_0x8324d3(0x2d8)]||_0x2595c6[_0x8324d3(0x2d9)]||''),_0x10799b=_0x53d238(_0x2595c6[_0x8324d3(0x30b)]||_0x2595c6[_0x8324d3(0x1b4)]||''));if(_0x311bf6!==_0x8324d3(0x432)&&!_0x497312)return;const _0x54c067=_0x10799b?_0x1a2c0d[_0x8324d3(0x1fa)](String(_0x10799b)):null,_0x38856c=_0x437475(_0x1b8d4d[_0x8324d3(0x1cf)],_0x3ca39a,_0x4df942=>_0x4df942&&_0x4df942[_0x8324d3(0x258)]),_0x5e6c05=_0x54c067?_0x5d1f3e(_0x54c067):_0x38856c?_0x2ab085(_0x38856c,_0x8324d3(0x490)):null,_0x1bc61d=_0x311bf6===_0x8324d3(0x432)?{'id':_0x467780(_0x8324d3(0x477)),'isUser':![],'type':_0x8324d3(0x432),'imgUrl':_0x8324d3(0x2d2),'imgDesc':_0x3d0e8b,'timestamp':_0x1e8d45+_0x24688f,'replyTo':_0x5e6c05,'isUnread':!_0x29f8df}:{'id':_0x467780('char'),'isUser':![],'type':_0x8324d3(0x274),'text':_0x497312,'trans':_0x3297a4,'timestamp':_0x1e8d45+_0x24688f,'replyTo':_0x5e6c05,'isUnread':!_0x29f8df};if(!_0x1b8d4d[_0x8324d3(0x1cf)])_0x1b8d4d[_0x8324d3(0x1cf)]=[];_0x1b8d4d[_0x8324d3(0x1cf)][_0x8324d3(0x27d)](_0x1bc61d);if(_0x311bf6==='image')_0x28175c[_0x8324d3(0x27d)](_0x1bc61d['imgUrl']);_0x5b09e4[_0x8324d3(0x27d)]({'delay':_0x24688f,'message':_0x1bc61d}),_0x24688f+=0x5dc+Math[_0x8324d3(0x303)]()*0x3e8;});if(_0x371f89[_0x47351d(0x388)]>0x0){const _0x423896={'id':_0x467780(_0x47351d(0x505)),'type':'fan_batch','timestamp':_0x1e8d45+_0x24688f,'fanMessages':_0x371f89};if(!_0x1b8d4d[_0x47351d(0x1cf)])_0x1b8d4d[_0x47351d(0x1cf)]=[];_0x1b8d4d['chatHistory'][_0x47351d(0x27d)](_0x423896),_0x5b09e4['push']({'delay':_0x24688f+(_0xbc1733[_0x47351d(0x388)]>0x0?0xfa:0x0),'message':_0x423896});}if(_0x5b09e4['length']===0x0&&!_0x1b7399)return;const _0x5d5d13=await _0x3f4fff({'flush':!![]});if(!_0x5d5d13)throw new Error(_0x47351d(0x1c4));if(!_0x29f8df){if(_0x109445&&_0x5b09e4[_0x47351d(0x388)]>0x0){const _0xa5df2e=_0x5b09e4[0x0][_0x47351d(0x3ba)];if(window[_0x47351d(0x220)])window[_0x47351d(0x220)]({'nickname':_0x1b8d4d[_0x47351d(0x4df)],'avatarUrl':_0x1b8d4d[_0x47351d(0x29d)],'id':_0x1b8d4d['id'],'sourceApp':_0x47351d(0x328)},_0xa5df2e[_0x47351d(0x378)]==='image'?'[图片]':_0xa5df2e[_0x47351d(0x274)]);else window[_0x47351d(0x24d)]&&window['showToast']('收到来自\x20'+_0x1b8d4d[_0x47351d(0x4df)]+_0x47351d(0x31d));}return;}if(_0x1b7399)_0x305954(_0x1b8d4d,_0x1b7399,_0x29f8df);let _0x595983=0x0;for(const _0x49b6d6 of _0x5b09e4){const _0x3e05d1=Math[_0x47351d(0x271)](0x0,_0x49b6d6[_0x47351d(0x318)]-_0x595983);if(_0x3e05d1>0x0)await new Promise(_0x10fce0=>setTimeout(_0x10fce0,_0x3e05d1));_0x595983=_0x49b6d6['delay'];if(_0x49b6d6[_0x47351d(0x3ba)][_0x47351d(0x378)]===_0x47351d(0x432)){const _0xe64ed8=document[_0x47351d(0x284)]('bstage-locker-preview-list');if(_0xe64ed8&&_0xe26d2a[_0x47351d(0x466)][_0x47351d(0x1f0)]===_0x47351d(0x44a))_0xe31a17();}_0x305954(_0x1b8d4d,_0x49b6d6[_0x47351d(0x3ba)],_0x29f8df),_0x29f8df[_0x47351d(0x2eb)]=_0x29f8df[_0x47351d(0x2ce)];}}catch(_0x2f5494){console[_0x47351d(0x4fd)](_0x2f5494);if(!_0x109445)window['showToast'](_0x2f5494&&_0x2f5494[_0x47351d(0x3ba)]===_0x47351d(0x486)?_0x47351d(0x23c):_0x47351d(0x449));}}function _0x2f7af9(_0x33f512){const _0x1f6bcd=_0x40029b;if(_0x523254(_0x33f512))_0x3f4fff();!Array['isArray'](_0x33f512[_0x1f6bcd(0x31e)])&&(_0x33f512[_0x1f6bcd(0x31e)]=[]);(!Array[_0x1f6bcd(0x481)](_0x33f512[_0x1f6bcd(0x2b3)])||_0x33f512[_0x1f6bcd(0x2b3)][_0x1f6bcd(0x388)]===0x0)&&(_0x33f512[_0x1f6bcd(0x2b3)]=['全部']);let _0x1f8d36='全部';const _0x465ac6=_0x839240=>{const _0x11e7e5=_0x1f6bcd;let _0x51ef24='';const _0x5d770d=_0x839240==='全部'?_0x33f512['shopItems']:_0x33f512[_0x11e7e5(0x31e)][_0x11e7e5(0x22b)](_0x24b7c3=>_0x24b7c3['category']===_0x839240);return _0x5d770d['length']===0x0?_0x51ef24='<div\x20style=\x22grid-column:span\x202;text-align:center;padding:20px;color:#666;\x22>暂无商品</div>':_0x5d770d[_0x11e7e5(0x2fc)](_0x18d63d=>{const _0x34fcba=_0x11e7e5,_0x386e68=_0x18d63d['img']||_0x10ddb1((_0x33f512['id']||_0x33f512[_0x34fcba(0x4df)])+_0x34fcba(0x2d1)+(_0x18d63d['id']||_0x18d63d[_0x34fcba(0x4df)]),0x258,0x258);_0x18d63d[_0x34fcba(0x1d6)]=_0x386e68,_0x51ef24+=_0x34fcba(0x447)+_0x18d63d['id']+_0x34fcba(0x422)+_0x245dba(_0x386e68)+_0x34fcba(0x3fd)+_0x245dba(_0x18d63d['category'])+_0x34fcba(0x379)+_0x245dba(_0x18d63d[_0x34fcba(0x4df)])+_0x34fcba(0x458)+_0x245dba(_0x18d63d[_0x34fcba(0x1e1)])+_0x34fcba(0x355);}),_0x51ef24;},_0x504961=()=>{const _0x2a41c5=_0x1f6bcd;let _0x50f741='';_0x33f512[_0x2a41c5(0x2b3)]['forEach'](_0x5cfa5a=>{const _0x204451=_0x2a41c5,_0x577ac8=_0x5cfa5a===_0x1f8d36?_0x204451(0x49a):'';_0x50f741+=_0x204451(0x237)+_0x577ac8+_0x204451(0x46d)+_0x5cfa5a+'\x22>'+_0x5cfa5a+_0x204451(0x1cc);});const _0x5956a1=_0x2a41c5(0x43f),_0x274373=_0x33f512[_0x2a41c5(0x2e7)]?'background-image:\x20url(\x27'+_0x33f512[_0x2a41c5(0x2e7)]+_0x2a41c5(0x1c7):_0x2a41c5(0x4c0),_0x30cb20=_0x33f512[_0x2a41c5(0x2e7)]?'':_0x2a41c5(0x2a7);_0x1a9053['innerHTML']=_0x2a41c5(0x281)+_0x274373+_0x2a41c5(0x46b)+_0x30cb20+_0x2a41c5(0x424)+_0x50f741+_0x2a41c5(0x291)+_0x5956a1+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-section-title\x22>'+(_0x1f8d36==='全部'?_0x2a41c5(0x25b):_0x1f8d36)+_0x2a41c5(0x3d3)+_0x465ac6(_0x1f8d36)+_0x2a41c5(0x248),_0x1a9053[_0x2a41c5(0x28b)](_0x2a41c5(0x3e4))[_0x2a41c5(0x2fc)](_0x915634=>{const _0x3c8cec=_0x2a41c5;_0x915634[_0x3c8cec(0x4ed)]('click',()=>{const _0x4cfa71=_0x3c8cec;_0x1f8d36=_0x915634[_0x4cfa71(0x498)]('data-cat'),_0x504961();});});const _0x33799c=document['getElementById']('bstage-shop-banner-edit'),_0x1b8a18=document['getElementById'](_0x2a41c5(0x292));_0x33799c&&_0x1b8a18&&(_0x33799c['addEventListener'](_0x2a41c5(0x52d),_0x22c2cf=>{_0x1b8a18['click']();}),_0x1b8a18[_0x2a41c5(0x4ed)](_0x2a41c5(0x366),_0x2bd08b=>{const _0x2096c8=_0x2a41c5,_0x419e9e=_0x2bd08b[_0x2096c8(0x4e7)][_0x2096c8(0x452)][0x0];if(_0x419e9e){const _0x58b2e9=new FileReader();_0x58b2e9['onload']=_0x1fa91e=>{const _0x41b2a7=_0x2096c8;_0x33f512['shopBanner']=_0x1fa91e['target']['result'],_0x504961(),window[_0x41b2a7(0x24d)](_0x41b2a7(0x41c));},_0x58b2e9[_0x2096c8(0x233)](_0x419e9e);}_0x2bd08b[_0x2096c8(0x561)]();}),_0x1b8a18[_0x2a41c5(0x4ed)](_0x2a41c5(0x52d),_0x5623f0=>_0x5623f0['stopPropagation']()));const _0x1ca20b=document[_0x2a41c5(0x284)](_0x2a41c5(0x4d9));_0x1ca20b&&_0x1ca20b[_0x2a41c5(0x4ed)](_0x2a41c5(0x52d),()=>{const _0x54e84c=_0x2a41c5;_0xf849c7({'title':_0x54e84c(0x20f),'label':'想看什么类型的商品','placeholder':'例如：应援棒、签售周边、冬季套装；留空则随机','onConfirm':_0xba2e28=>_0x20708f(_0x33f512,_0x1f8d36,_0xba2e28)});}),_0x1a9053['querySelectorAll'](_0x2a41c5(0x407))['forEach']((_0x12ad44,_0x3ceabc)=>{const _0x141b71=_0x2a41c5;_0x12ad44[_0x141b71(0x4ed)](_0x141b71(0x52d),()=>{const _0x32576b=_0x141b71,_0x3b6d2a=_0x1f8d36==='全部'?_0x33f512[_0x32576b(0x31e)]:_0x33f512[_0x32576b(0x31e)][_0x32576b(0x22b)](_0x55795c=>_0x55795c[_0x32576b(0x480)]===_0x1f8d36);_0x3b6d2a[_0x3ceabc]&&_0x486439(_0x3b6d2a[_0x3ceabc]);});});};_0x504961();}function _0x486439(_0x5a0170){const _0x222e01=_0x40029b;document['getElementById']('bstage-shop-detail-title')[_0x222e01(0x39d)]=_0x5a0170[_0x222e01(0x4df)],document[_0x222e01(0x284)](_0x222e01(0x541))['textContent']=_0x5a0170[_0x222e01(0x1e1)],document[_0x222e01(0x284)](_0x222e01(0x3b3))['textContent']=_0x5a0170[_0x222e01(0x480)];const _0xbf7265=_0x5a0170['desc']||_0x4633b3[_0x222e01(0x4df)]+'\x20官方正品周边。\x0a\x0a[商品信息]\x0a品名:\x20'+_0x5a0170['name']+_0x222e01(0x1ba);document[_0x222e01(0x284)]('bstage-shop-detail-desc')[_0x222e01(0x39d)]=_0xbf7265;const _0x250e9f=document[_0x222e01(0x35c)](_0x222e01(0x2fa)),_0x26340a=document['querySelector'](_0x222e01(0x4be));_0x5a0170[_0x222e01(0x1d6)]?(_0x250e9f[_0x222e01(0x380)]=_0x5a0170['img'],_0x250e9f[_0x222e01(0x466)][_0x222e01(0x1f0)]='block',_0x26340a[_0x222e01(0x466)][_0x222e01(0x1f0)]=_0x222e01(0x2cc)):(_0x250e9f[_0x222e01(0x466)][_0x222e01(0x1f0)]=_0x222e01(0x2cc),_0x26340a[_0x222e01(0x466)][_0x222e01(0x1f0)]=_0x222e01(0x1e0)),window[_0x222e01(0x2db)](document[_0x222e01(0x284)](_0x222e01(0x37e)));}async function _0x20708f(_0x34d69b,_0x2ee2bb,_0x363e28=''){const _0x106533=_0x40029b;if(!window[_0x106533(0x230)]||!window[_0x106533(0x230)][_0x106533(0x385)]||!window[_0x106533(0x230)][_0x106533(0x2f0)]){window[_0x106533(0x24d)](_0x106533(0x369));return;}if(!Array[_0x106533(0x481)](_0x34d69b[_0x106533(0x31e)]))_0x34d69b[_0x106533(0x31e)]=[];if(!Array[_0x106533(0x481)](_0x34d69b[_0x106533(0x2b3)]))_0x34d69b[_0x106533(0x2b3)]=['全部'];window['showToast'](_0x106533(0x246));let _0x1b43b9=_0x106533(0x1cd);_0x34d69b[_0x106533(0x501)]&&_0x34d69b[_0x106533(0x501)][_0x106533(0x2fc)](_0x4c67b6=>{const _0x1e379e=_0x106533;_0x1b43b9+='-\x20'+_0x4c67b6[_0x1e379e(0x4df)]+'\x20('+_0x4c67b6[_0x1e379e(0x399)]+')\x0a';});const _0x5291cb=_0x106533(0x3aa)+_0x34d69b[_0x106533(0x4df)]+'\x0a'+_0x1b43b9+_0x106533(0x21c)+_0x2ee2bb+_0x106533(0x556)+(_0x363e28||'留空，随机生成适合该团队/账号的商品')+_0x106533(0x4c8);try{let _0x4508b8=window[_0x106533(0x230)]['endpoint'];if(_0x4508b8[_0x106533(0x374)]('/'))_0x4508b8=_0x4508b8[_0x106533(0x260)](0x0,-0x1);!_0x4508b8['endsWith'](_0x106533(0x32a))&&(_0x4508b8=_0x4508b8[_0x106533(0x374)]('/v1')?_0x4508b8+_0x106533(0x32a):_0x4508b8+_0x106533(0x27a));const _0x6a9ef8=await fetch(_0x4508b8,{'method':_0x106533(0x29c),'headers':{'Content-Type':_0x106533(0x1b7),'Authorization':'Bearer\x20'+window[_0x106533(0x230)][_0x106533(0x2f0)]},'body':JSON[_0x106533(0x4d4)]({'model':window['apiConfig']['model']||_0x106533(0x3b8),'messages':[{'role':_0x106533(0x4e4),'content':'You\x20are\x20a\x20JSON\x20generator.'},{'role':_0x106533(0x2a4),'content':_0x5291cb}],'temperature':0.7})});if(!_0x6a9ef8['ok'])throw new Error('API\x20Error');const _0x38c7d1=await _0x6a9ef8['json']();let _0x53cf6b=_0x38c7d1[_0x106533(0x568)][0x0][_0x106533(0x3ba)]['content'];_0x53cf6b=_0x53cf6b[_0x106533(0x2a8)](/```json/g,'')[_0x106533(0x2a8)](/```/g,'')[_0x106533(0x262)]();const _0x81fbd6=JSON['parse'](_0x53cf6b);Array[_0x106533(0x481)](_0x81fbd6)&&(_0x81fbd6[_0x106533(0x2fc)](_0x3f3b64=>{const _0x16aada=_0x106533,_0x35955b=_0x53d238(_0x3f3b64&&_0x3f3b64[_0x16aada(0x4df)],'New\x20Item'),_0x29ba2a=_0x53d238(_0x3f3b64&&_0x3f3b64[_0x16aada(0x480)],_0x2ee2bb==='全部'?_0x363e28||'周边':_0x2ee2bb);if(_0x29ba2a&&!_0x34d69b['shopCategories'][_0x16aada(0x435)](_0x29ba2a))_0x34d69b[_0x16aada(0x2b3)][_0x16aada(0x27d)](_0x29ba2a);_0x34d69b[_0x16aada(0x31e)]['unshift']({'id':Date['now']()+Math[_0x16aada(0x303)](),'name':_0x35955b,'price':_0x53d238(_0x3f3b64&&_0x3f3b64[_0x16aada(0x1e1)],'₩35,000'),'img':_0x10ddb1((_0x34d69b['id']||_0x34d69b[_0x16aada(0x4df)])+_0x16aada(0x2d1)+_0x35955b+'-'+Date[_0x16aada(0x41b)](),0x258,0x258),'category':_0x29ba2a,'desc':_0x53d238(_0x3f3b64&&_0x3f3b64[_0x16aada(0x251)])});}),_0x3f4fff(),_0x2f7af9(_0x34d69b),window['showToast']('已生成\x20'+_0x81fbd6[_0x106533(0x388)]+'\x20个商品'));}catch(_0x5677cf){console[_0x106533(0x4fd)](_0x5677cf),window[_0x106533(0x24d)](_0x106533(0x47c));}}function _0x4af726(_0x1e4050){const _0x357c91=_0x40029b;if(_0x523254(_0x1e4050))_0x3f4fff();!Array[_0x357c91(0x481)](_0x1e4050[_0x357c91(0x32d)])&&(_0x1e4050['contentPhotos']=[]);if(!Array[_0x357c91(0x481)](_0x1e4050['videos']))_0x1e4050[_0x357c91(0x1b5)]=[];(!Array[_0x357c91(0x481)](_0x1e4050[_0x357c91(0x240)])||_0x1e4050[_0x357c91(0x240)][_0x357c91(0x388)]===0x0)&&(_0x1e4050[_0x357c91(0x240)]=['全部']);let _0x58c412='全部';const _0x2b625b=()=>{const _0x110093=_0x357c91;let _0x3890f8='';_0x1e4050[_0x110093(0x32d)][_0x110093(0x2fc)](_0x55a6b3=>{const _0xd49eb=_0x110093;_0x3890f8+=_0xd49eb(0x1d5)+_0x55a6b3+_0xd49eb(0x32e);}),_0x3890f8+=_0x110093(0x529);let _0x5d5801='';_0x1e4050[_0x110093(0x240)]['forEach'](_0x2edd72=>{const _0x412877=_0x110093,_0x5e79f3=_0x2edd72===_0x58c412?_0x412877(0x49a):'';let _0x26af67='';_0x2edd72!=='全部'&&(_0x26af67='<div\x20class=\x22bstage-cat-delete\x22\x20data-del-series=\x22'+_0x2edd72+'\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>'),_0x5d5801+=_0x412877(0x237)+_0x5e79f3+'\x22\x20data-series=\x22'+_0x2edd72+'\x22>'+_0x2edd72+_0x26af67+'</div>';}),_0x5d5801+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-shop-cat-item\x22\x20id=\x22bstage-add-series-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0x2fb6c3=_0x110093(0x406);let _0x912d85='';const _0x31c3cf=_0x58c412==='全部'?_0x1e4050[_0x110093(0x1b5)]:_0x1e4050[_0x110093(0x1b5)][_0x110093(0x22b)](_0x5be5cc=>_0x5be5cc[_0x110093(0x350)]===_0x58c412||!_0x5be5cc[_0x110093(0x350)]&&_0x58c412==='全部');_0x31c3cf[_0x110093(0x388)]===0x0?_0x912d85=_0x110093(0x439):_0x31c3cf[_0x110093(0x2fc)](_0x4423c5=>{const _0x19b103=_0x110093;if(!_0x4423c5[_0x19b103(0x3c6)])_0x4423c5[_0x19b103(0x3c6)]=_0x10ddb1((_0x1e4050['id']||_0x1e4050[_0x19b103(0x4df)])+_0x19b103(0x2cd)+(_0x4423c5[_0x19b103(0x2a1)]||Date[_0x19b103(0x41b)]()),0x320,0x1c2);const _0x38aec1=_0x4423c5['thumb']?_0x19b103(0x212)+_0x4423c5['thumb']+_0x19b103(0x4ff):'',_0x56746c=_0x4423c5['thumb']?'':'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#555;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-play\x22\x20style=\x22font-size:30px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';_0x912d85+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-thumb\x22\x20style=\x22'+_0x38aec1+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x56746c+_0x19b103(0x44d)+_0x4423c5[_0x19b103(0x42a)]+_0x19b103(0x2d4)+_0x4423c5[_0x19b103(0x2a1)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-video-meta\x22>'+_0x4423c5[_0x19b103(0x4d2)]+_0x19b103(0x37f)+_0x4423c5[_0x19b103(0x2b0)]+_0x19b103(0x355);});_0x1a9053[_0x110093(0x51f)]=_0x110093(0x459)+_0x3890f8+_0x110093(0x24c)+_0x5d5801+_0x110093(0x253)+_0x2fb6c3+_0x110093(0x207)+(_0x58c412==='全部'?_0x110093(0x4e6):_0x58c412)+_0x110093(0x29a)+_0x912d85+_0x110093(0x38f),_0x1a9053[_0x110093(0x28b)]('.bstage-video-card')[_0x110093(0x2fc)]((_0x7921db,_0x3dbcf2)=>{const _0x3f35fc=_0x110093;_0x7921db[_0x3f35fc(0x4ed)](_0x3f35fc(0x52d),()=>{_0x31c3cf[_0x3dbcf2]&&_0xad1f48(_0x31c3cf[_0x3dbcf2]);});});const _0x54c296=document[_0x110093(0x284)](_0x110093(0x3c9));if(_0x54c296){const _0x52cdcb=_0x54c296[_0x110093(0x35c)](_0x110093(0x1f1));_0x54c296[_0x110093(0x4ed)]('click',()=>_0x52cdcb['click']()),_0x52cdcb[_0x110093(0x4ed)](_0x110093(0x366),_0x25a4f6=>{const _0x510ae8=_0x110093,_0x4ff979=_0x25a4f6[_0x510ae8(0x4e7)][_0x510ae8(0x452)][0x0];if(_0x4ff979){const _0xe5577b=new FileReader();_0xe5577b[_0x510ae8(0x411)]=_0x4e7b3b=>{const _0x56b53b=_0x510ae8;_0x1e4050[_0x56b53b(0x32d)][_0x56b53b(0x2da)](_0x4e7b3b[_0x56b53b(0x4e7)][_0x56b53b(0x431)]),_0x2b625b();},_0xe5577b[_0x510ae8(0x233)](_0x4ff979);}});}_0x1a9053['querySelectorAll']('.bstage-shop-cat-item')['forEach'](_0x31420a=>{const _0x3b160e=_0x110093;if(_0x31420a['id']===_0x3b160e(0x370))_0x31420a[_0x3b160e(0x4ed)]('click',()=>{const _0x29924f=_0x3b160e,_0xfc5cc5=prompt(_0x29924f(0x48c));_0xfc5cc5&&_0xfc5cc5[_0x29924f(0x262)]()&&(_0x1e4050[_0x29924f(0x240)][_0x29924f(0x27d)](_0xfc5cc5[_0x29924f(0x262)]()),_0x58c412=_0xfc5cc5[_0x29924f(0x262)](),_0x2b625b());});else{const _0x4b1171=_0x31420a[_0x3b160e(0x35c)](_0x3b160e(0x38a));_0x4b1171&&_0x4b1171['addEventListener'](_0x3b160e(0x52d),_0x1628fb=>{const _0x26cda1=_0x3b160e;_0x1628fb[_0x26cda1(0x561)]();const _0xfff4a8=_0x4b1171['getAttribute'](_0x26cda1(0x520));if(confirm('确定要删除系列\x20\x22'+_0xfff4a8+_0x26cda1(0x325))){_0x1e4050['contentSeries']=_0x1e4050[_0x26cda1(0x240)][_0x26cda1(0x22b)](_0x527036=>_0x527036!==_0xfff4a8);if(_0x58c412===_0xfff4a8)_0x58c412='全部';_0x2b625b();}}),_0x31420a[_0x3b160e(0x4ed)](_0x3b160e(0x52d),_0x41e41f=>{const _0x22760b=_0x3b160e;if(_0x41e41f[_0x22760b(0x4e7)]['closest'](_0x22760b(0x38a)))return;_0x58c412=_0x31420a[_0x22760b(0x498)]('data-series'),_0x2b625b();});}});const _0x5b92a7=document['getElementById'](_0x110093(0x39e));_0x5b92a7&&_0x5b92a7[_0x110093(0x4ed)](_0x110093(0x52d),()=>{const _0x4fbfb4=_0x110093;_0xf849c7({'title':_0x4fbfb4(0x1d8),'label':_0x4fbfb4(0x4d3),'placeholder':_0x4fbfb4(0x3f2),'onConfirm':_0x36b28e=>_0x3eba58(_0x1e4050,_0x58c412,_0x36b28e)});}),_0x5adf27();};_0x2b625b();}function _0x5adf27(){if(_0x6ac26)clearInterval(_0x6ac26);const _0x502ab9=document['getElementById']('bstage-carousel-container');if(!_0x502ab9)return;_0x6ac26=setInterval(()=>{const _0x182c09=_0x5131;if(!_0x502ab9)return;const _0x3a87b5=0x122;_0x502ab9[_0x182c09(0x51a)]+_0x502ab9[_0x182c09(0x26f)]>=_0x502ab9[_0x182c09(0x52b)]-0xa?_0x502ab9[_0x182c09(0x4c7)]({'left':0x0,'behavior':'smooth'}):_0x502ab9[_0x182c09(0x367)]({'left':_0x3a87b5,'behavior':_0x182c09(0x23f)});},0xbb8);}let _0x271af8=null;function _0xad1f48(_0x4748a9){const _0x4ff18f=_0x40029b;_0x271af8=_0x4748a9,_0x1ea3bf(null),document[_0x4ff18f(0x284)](_0x4ff18f(0x396))[_0x4ff18f(0x39d)]=_0x4748a9[_0x4ff18f(0x2a1)],document[_0x4ff18f(0x284)]('bstage-vid-detail-meta')[_0x4ff18f(0x39d)]=_0x4748a9['views']+_0x4ff18f(0x37f)+_0x4748a9[_0x4ff18f(0x2b0)],document['getElementById'](_0x4ff18f(0x4b2))[_0x4ff18f(0x39d)]=_0x4633b3[_0x4ff18f(0x4df)];const _0x58d76e=document['getElementById'](_0x4ff18f(0x40b));if(_0x58d76e)_0x58d76e[_0x4ff18f(0x51f)]=_0x10d7b4(_0x4633b3,_0x4633b3['name']);const _0x484786=_0x334c82['querySelector'](_0x4ff18f(0x506));_0x4748a9[_0x4ff18f(0x3c6)]?(_0x484786[_0x4ff18f(0x466)][_0x4ff18f(0x4f1)]=_0x4ff18f(0x3bf)+_0x4748a9[_0x4ff18f(0x3c6)]+'\x27)',_0x484786['style'][_0x4ff18f(0x23a)]=_0x4ff18f(0x3b1),_0x484786[_0x4ff18f(0x466)]['backgroundPosition']=_0x4ff18f(0x3f8),_0x484786['classList'][_0x4ff18f(0x2d0)]('has-cover')):(_0x484786[_0x4ff18f(0x466)]['backgroundImage']='',_0x484786[_0x4ff18f(0x428)]['remove'](_0x4ff18f(0x1d1)));_0x484786[_0x4ff18f(0x51f)]='';!_0x4748a9['generatedContent']||_0x4748a9['generatedContent'][_0x4ff18f(0x388)]===0x0?!_0x4748a9[_0x4ff18f(0x3c6)]&&(_0x484786[_0x4ff18f(0x51f)]=_0x4ff18f(0x2c8)):_0x4748a9[_0x4ff18f(0x4bb)][_0x4ff18f(0x2fc)](_0x2bf3c6=>{const _0x4e6d78=_0x4ff18f,_0x529b6b=document['createElement']('div');_0x529b6b[_0x4e6d78(0x3ab)]='bstage-video-content-bubble',_0x529b6b['textContent']=_0x2bf3c6,_0x484786[_0x4e6d78(0x1be)](_0x529b6b);});const _0xca4dd2=_0x4748a9[_0x4ff18f(0x2dc)]||'这是\x20'+_0x4633b3[_0x4ff18f(0x4df)]+_0x4ff18f(0x560);document[_0x4ff18f(0x284)]('bstage-vid-description')[_0x4ff18f(0x39d)]=_0xca4dd2;!_0x4748a9[_0x4ff18f(0x1e9)]&&(_0x4748a9[_0x4ff18f(0x1e9)]=[{'id':0x1,'name':_0x4ff18f(0x34b),'text':'太棒了！😍','time':_0x4ff18f(0x462),'avatar':null,'avatarEmoji':_0x31f8eb(_0x4ff18f(0x25d))},{'id':0x2,'name':'K-Pop\x20Fan','text':_0x4ff18f(0x45b),'time':'5m\x20ago','avatar':null,'avatarEmoji':_0x31f8eb(_0x4ff18f(0x49d))},{'id':0x3,'name':'Stan','text':_0x4ff18f(0x21a),'time':_0x4ff18f(0x36c),'avatar':null,'avatarEmoji':_0x31f8eb(_0x4ff18f(0x433))}]);_0x21d431();const _0x5e9fae=document[_0x4ff18f(0x284)](_0x4ff18f(0x4e1));window[_0x4ff18f(0x434)]&&window['userState'][_0x4ff18f(0x3a2)]?_0x5e9fae[_0x4ff18f(0x51f)]='<img\x20src=\x22'+window[_0x4ff18f(0x434)]['avatarUrl']+_0x4ff18f(0x3cc):_0x5e9fae['innerHTML']='<i\x20class=\x22fas\x20fa-user\x22\x20style=\x22color:#888;font-size:16px;display:flex;justify-content:center;align-items:center;height:100%;\x22></i>',window[_0x4ff18f(0x2db)](_0x334c82);}_0x334c82[_0x40029b(0x35c)](_0x40029b(0x506))[_0x40029b(0x4ed)](_0x40029b(0x52d),_0x17a2bb=>{_0x271af8&&_0x3a812c(_0x271af8);});function _0x3a812c(_0x599e71){const _0x1c0759=_0x40029b;document['getElementById'](_0x1c0759(0x34a))[_0x1c0759(0x280)]=_0x599e71[_0x1c0759(0x2a1)];const _0x40884b=_0x599e71[_0x1c0759(0x2dc)]||'';document[_0x1c0759(0x284)](_0x1c0759(0x1f7))[_0x1c0759(0x280)]=_0x40884b;const _0x589fda=document['getElementById'](_0x1c0759(0x51b));if(_0x599e71[_0x1c0759(0x3c6)]){_0x589fda[_0x1c0759(0x380)]=_0x599e71[_0x1c0759(0x3c6)],_0x589fda[_0x1c0759(0x466)][_0x1c0759(0x1f0)]=_0x1c0759(0x44a);if(_0x589fda[_0x1c0759(0x22a)])_0x589fda[_0x1c0759(0x22a)][_0x1c0759(0x466)][_0x1c0759(0x50b)]='0';}else{_0x589fda[_0x1c0759(0x380)]='',_0x589fda[_0x1c0759(0x466)][_0x1c0759(0x1f0)]=_0x1c0759(0x2cc);if(_0x589fda[_0x1c0759(0x22a)])_0x589fda[_0x1c0759(0x22a)]['style'][_0x1c0759(0x50b)]='1';}window['openView'](document[_0x1c0759(0x284)](_0x1c0759(0x509)));}document[_0x40029b(0x284)](_0x40029b(0x36b))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0xc7b59b=_0x40029b;if(_0x271af8){const _0xa76e22=document[_0xc7b59b(0x284)](_0xc7b59b(0x34a))[_0xc7b59b(0x280)],_0x381662=document[_0xc7b59b(0x284)]('bstage-edit-video-desc')[_0xc7b59b(0x280)],_0x29b6e6=document[_0xc7b59b(0x284)]('bstage-edit-video-cover-preview')['src'],_0x491b16=document[_0xc7b59b(0x284)]('bstage-edit-video-cover-preview')[_0xc7b59b(0x466)][_0xc7b59b(0x1f0)]!==_0xc7b59b(0x2cc);if(_0xa76e22){_0x271af8[_0xc7b59b(0x2a1)]=_0xa76e22,_0x271af8[_0xc7b59b(0x2dc)]=_0x381662,_0x271af8['thumb']=_0x491b16?_0x29b6e6:null,document[_0xc7b59b(0x284)](_0xc7b59b(0x396))[_0xc7b59b(0x39d)]=_0xa76e22,document[_0xc7b59b(0x284)]('bstage-vid-description')['textContent']=_0x381662||_0xc7b59b(0x533)+_0x4633b3[_0xc7b59b(0x4df)]+_0xc7b59b(0x3e2);const _0x2971ad=_0x334c82[_0xc7b59b(0x35c)](_0xc7b59b(0x506));_0x271af8['thumb']?(_0x2971ad['style'][_0xc7b59b(0x4f1)]=_0xc7b59b(0x3bf)+_0x271af8['thumb']+'\x27)',_0x2971ad[_0xc7b59b(0x466)][_0xc7b59b(0x23a)]=_0xc7b59b(0x3b1),_0x2971ad[_0xc7b59b(0x466)][_0xc7b59b(0x4b9)]='center',_0x2971ad['classList']['add'](_0xc7b59b(0x1d1)),!_0x2971ad[_0xc7b59b(0x35c)](_0xc7b59b(0x1bd))&&(_0x2971ad[_0xc7b59b(0x51f)]='')):(_0x2971ad['style'][_0xc7b59b(0x4f1)]='',_0x2971ad[_0xc7b59b(0x428)][_0xc7b59b(0x3f1)](_0xc7b59b(0x1d1)),!_0x2971ad[_0xc7b59b(0x35c)]('.bstage-video-content-bubble')&&(_0x2971ad['innerHTML']='<i\x20class=\x22fas\x20fa-play\x22\x20style=\x22font-size:\x2040px;\x20opacity:\x200.8;\x20align-self:\x20center;\x20margin-top:\x20auto;\x20margin-bottom:\x20auto;\x22></i>')),_0x4633b3&&_0x4af726(_0x4633b3),window[_0xc7b59b(0x3e9)](document[_0xc7b59b(0x284)](_0xc7b59b(0x509))),window[_0xc7b59b(0x24d)]('视频信息已更新');}}}),document[_0x40029b(0x284)]('bstage-delete-video-btn')[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x180321=_0x40029b;if(!_0x4633b3||!_0x271af8||!Array[_0x180321(0x481)](_0x4633b3[_0x180321(0x1b5)]))return;if(!confirm('确定要删除这个视频吗？'))return;const _0xc4d32f=_0x271af8,_0x19df22=_0x4633b3[_0x180321(0x1b5)][_0x180321(0x388)];_0x4633b3[_0x180321(0x1b5)]=_0x4633b3['videos'][_0x180321(0x22b)](_0x4d90ae=>{const _0x3ec084=_0x180321;if(_0x4d90ae===_0xc4d32f)return![];if(_0x4d90ae['id']&&_0xc4d32f['id'])return _0x4d90ae['id']!==_0xc4d32f['id'];return!(_0x4d90ae[_0x3ec084(0x2a1)]===_0xc4d32f['title']&&_0x4d90ae['duration']===_0xc4d32f[_0x3ec084(0x42a)]&&_0x4d90ae[_0x3ec084(0x2b0)]===_0xc4d32f['date']);});if(_0x4633b3[_0x180321(0x1b5)][_0x180321(0x388)]===_0x19df22){window[_0x180321(0x24d)]('未找到要删除的视频');return;}_0x3f4fff(),_0x4af726(_0x4633b3),_0x271af8=null,window[_0x180321(0x3e9)](document[_0x180321(0x284)](_0x180321(0x509))),window[_0x180321(0x3e9)](_0x334c82),window['showToast'](_0x180321(0x2ab));}),document[_0x40029b(0x284)](_0x40029b(0x482))[_0x40029b(0x4ed)]('click',()=>{const _0x5a8d4a=_0x40029b;_0x271af8&&_0xf849c7({'title':_0x5a8d4a(0x39b),'label':_0x5a8d4a(0x28f),'placeholder':_0x5a8d4a(0x3f3),'onConfirm':_0x51e95a=>_0x5bc4a2(_0x271af8,_0x51e95a)});});async function _0x5bc4a2(_0x183e6d,_0x51cc6a=''){const _0x2118c5=_0x40029b;if(!window[_0x2118c5(0x230)]||!window[_0x2118c5(0x230)]['endpoint']||!window[_0x2118c5(0x230)][_0x2118c5(0x2f0)]){window['showToast']('请先在系统设置中配置\x20API');return;}window[_0x2118c5(0x24d)](_0x2118c5(0x527));let _0x3e9b39=_0x2118c5(0x1cd);_0x4633b3['members']&&_0x4633b3[_0x2118c5(0x501)][_0x2118c5(0x2fc)](_0x1424f9=>{_0x3e9b39+='-\x20'+_0x1424f9['name']+'\x20('+_0x1424f9['role']+')\x0a';});const _0x2a767d=_0x2118c5(0x44e)+_0x4633b3['name']+'\x0a'+_0x3e9b39+_0x2118c5(0x3df)+_0x183e6d[_0x2118c5(0x2a1)]+_0x2118c5(0x344)+(_0x183e6d[_0x2118c5(0x2dc)]||'无')+'\x0a用户想看的类型:\x20'+(_0x51cc6a||'留空，随机生成适合该视频的细节')+_0x2118c5(0x44f);try{let _0xdbb0b9=window['apiConfig'][_0x2118c5(0x385)];if(_0xdbb0b9[_0x2118c5(0x374)]('/'))_0xdbb0b9=_0xdbb0b9[_0x2118c5(0x260)](0x0,-0x1);!_0xdbb0b9[_0x2118c5(0x374)]('/chat/completions')&&(_0xdbb0b9=_0xdbb0b9[_0x2118c5(0x374)]('/v1')?_0xdbb0b9+_0x2118c5(0x32a):_0xdbb0b9+_0x2118c5(0x27a));const _0x404a00=await fetch(_0xdbb0b9,{'method':_0x2118c5(0x29c),'headers':{'Content-Type':_0x2118c5(0x1b7),'Authorization':_0x2118c5(0x475)+window['apiConfig']['apiKey']},'body':JSON['stringify']({'model':window[_0x2118c5(0x230)][_0x2118c5(0x4f3)]||_0x2118c5(0x3b8),'messages':[{'role':'system','content':_0x2118c5(0x3c7)},{'role':_0x2118c5(0x2a4),'content':_0x2a767d}],'temperature':0.7})});if(!_0x404a00['ok'])throw new Error('API\x20Error');const _0xb08628=await _0x404a00[_0x2118c5(0x269)]();let _0x4f2a27=_0xb08628[_0x2118c5(0x568)][0x0][_0x2118c5(0x3ba)][_0x2118c5(0x429)];_0x4f2a27=_0x4f2a27[_0x2118c5(0x2a8)](/```json/g,'')[_0x2118c5(0x2a8)](/```/g,'')[_0x2118c5(0x262)]();const _0x3d37a2=JSON[_0x2118c5(0x472)](_0x4f2a27);if(_0x3d37a2[_0x2118c5(0x2dc)]){_0x183e6d[_0x2118c5(0x2dc)]=_0x53d238(_0x3d37a2[_0x2118c5(0x2dc)]);const _0x1fcdeb=document[_0x2118c5(0x284)]('bstage-vid-description');if(_0x1fcdeb)_0x1fcdeb[_0x2118c5(0x39d)]=_0x183e6d[_0x2118c5(0x2dc)];}if(_0x3d37a2[_0x2118c5(0x429)]&&Array[_0x2118c5(0x481)](_0x3d37a2[_0x2118c5(0x429)])){_0x183e6d[_0x2118c5(0x4bb)]=_0x3d37a2[_0x2118c5(0x429)];const _0x2ca9ba=_0x334c82[_0x2118c5(0x35c)](_0x2118c5(0x506));_0x2ca9ba[_0x2118c5(0x51f)]='';let _0x44a486=0x0;_0x3d37a2['content'][_0x2118c5(0x2fc)](_0x1287f0=>{setTimeout(()=>{const _0x247b0f=_0x5131,_0x2d498b=document['createElement']('div');_0x2d498b[_0x247b0f(0x3ab)]=_0x247b0f(0x30e),_0x2d498b[_0x247b0f(0x39d)]=_0x1287f0,_0x2ca9ba[_0x247b0f(0x1be)](_0x2d498b),_0x2ca9ba['scrollTop']=_0x2ca9ba[_0x247b0f(0x2ce)];},_0x44a486),_0x44a486+=0x320;});}_0x3d37a2[_0x2118c5(0x1e9)]&&Array['isArray'](_0x3d37a2[_0x2118c5(0x1e9)])&&(_0x3d37a2[_0x2118c5(0x1e9)]['forEach'](_0xd77104=>{const _0xd61607=_0x2118c5,_0x162b61=_0x53d238(_0xd77104&&_0xd77104[_0xd61607(0x4df)],'Fan');_0x183e6d[_0xd61607(0x1e9)][_0xd61607(0x2da)]({'id':Date[_0xd61607(0x41b)]()+Math['random'](),'name':_0x162b61,'text':_0x53d238(_0xd77104&&_0xd77104[_0xd61607(0x274)]),'trans':_0x53d238(_0xd77104&&(_0xd77104[_0xd61607(0x3db)]||_0xd77104[_0xd61607(0x1ea)]||_0xd77104[_0xd61607(0x1dc)])),'time':'Just\x20now','avatar':null,'avatarEmoji':_0x31f8eb(_0xd61607(0x499)+_0x162b61+'-'+Date[_0xd61607(0x41b)]()+'-'+Math[_0xd61607(0x303)]()),'replies':[]});}),_0x21d431()),_0x3f4fff(),window[_0x2118c5(0x24d)]('内容生成完成');}catch(_0x3ca3b3){console[_0x2118c5(0x4fd)](_0x3ca3b3),window['showToast'](_0x2118c5(0x47c));}}function _0x1ea3bf(_0x5281a1){const _0x94aabf=_0x40029b;_0x2a803b=_0x5281a1||null;const _0x39f425=document[_0x94aabf(0x284)](_0x94aabf(0x288)),_0x19425b=document[_0x94aabf(0x284)]('bstage-vid-comment-reply-preview-text');_0x39f425&&_0x19425b&&(_0x5281a1?(_0x19425b['textContent']='回复\x20'+_0x5281a1[_0x94aabf(0x4df)]+':\x20'+_0x2a9ab6(_0x5281a1),_0x39f425['style'][_0x94aabf(0x1f0)]=_0x94aabf(0x1e0)):(_0x19425b[_0x94aabf(0x39d)]='',_0x39f425['style'][_0x94aabf(0x1f0)]=_0x94aabf(0x2cc)));const _0x35e714=document['getElementById']('bstage-vid-comment-input');if(_0x5281a1&&_0x35e714)_0x35e714['focus']();}function _0x1f92af(_0x29055e){const _0x26dceb=_0x40029b,_0x32936b=_0x53d238(_0x29055e&&(_0x29055e['trans']||_0x29055e[_0x26dceb(0x1ea)]||_0x29055e['translation']));if(!_0x32936b)return'';return _0x26dceb(0x215)+_0x245dba(_0x32936b)+_0x26dceb(0x4e0);}function _0x255420(_0x2ff910){const _0x366ece=_0x40029b;if(!_0x2ff910||!_0x2ff910[_0x366ece(0x4f0)])return'';const _0x285c37=_0x53d238(_0x2ff910[_0x366ece(0x4f0)]['name']||_0x2ff910[_0x366ece(0x4f0)][_0x366ece(0x402)],'评论'),_0x46dc57=_0x2a9ab6({'text':_0x2ff910[_0x366ece(0x4f0)][_0x366ece(0x274)]||''});return _0x366ece(0x479)+_0x245dba(_0x285c37)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>'+_0x245dba(_0x46dc57)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x5bd50f(_0x256b4d){const _0x1ad3de=_0x40029b;if(!_0x256b4d||!Array[_0x1ad3de(0x481)](_0x256b4d['replies'])||_0x256b4d[_0x1ad3de(0x36d)][_0x1ad3de(0x388)]===0x0)return'';return _0x1ad3de(0x389)+_0x256b4d[_0x1ad3de(0x36d)][_0x1ad3de(0x34c)](_0x3ca461=>_0x1ad3de(0x1d7)+_0x245dba(_0x3ca461[_0x1ad3de(0x4df)]||_0x1ad3de(0x494))+_0x1ad3de(0x1e2)+_0x245dba(_0x3ca461[_0x1ad3de(0x274)]||'')+_0x1ad3de(0x214)+_0x1f92af(_0x3ca461)+_0x1ad3de(0x4a0))[_0x1ad3de(0x54d)]('')+_0x1ad3de(0x1fe);}function _0x21d431(){const _0x1ddba1=_0x40029b;if(!_0x271af8)return;const _0x38936a=document[_0x1ddba1(0x284)]('bstage-vid-comments-list'),_0x34ebb1=_0x271af8[_0x1ddba1(0x1e9)]['length'];document['getElementById'](_0x1ddba1(0x4d5))['textContent']=_0x1ddba1(0x4b8)+_0x34ebb1+')',_0x38936a['innerHTML']='',_0x271af8['comments'][_0x1ddba1(0x2fc)](_0x364ce3=>{const _0x58f954=_0x1ddba1,_0x1b0ba1=document[_0x58f954(0x338)](_0x58f954(0x1b6));_0x1b0ba1['className']='bstage-comment-item';const _0x124b47=_0x53d238(_0x364ce3&&_0x364ce3['name'],_0x58f954(0x397)),_0x4128cd=_0x364ce3['avatar']?_0x58f954(0x200)+_0x245dba(_0x364ce3[_0x58f954(0x29d)])+_0x58f954(0x3cc):_0x58f954(0x315)+_0x245dba(_0x364ce3['avatarEmoji']||(_0x364ce3['isUser']?_0x124b47[_0x58f954(0x260)](0x0,0x1)||'U':_0x31f8eb(_0x58f954(0x499)+_0x124b47+'-'+(_0x364ce3['id']||''))))+'</div>';_0x1b0ba1[_0x58f954(0x51f)]=_0x58f954(0x3ac)+_0x4128cd+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-comment-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22bstage-comment-author\x22>'+_0x245dba(_0x124b47)+_0x58f954(0x555)+_0x245dba(_0x364ce3[_0x58f954(0x31a)]||'')+_0x58f954(0x27f)+_0x255420(_0x364ce3)+_0x58f954(0x228)+_0x245dba(_0x364ce3[_0x58f954(0x274)]||'')+_0x58f954(0x360)+_0x1f92af(_0x364ce3)+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x5bd50f(_0x364ce3)+_0x58f954(0x332),_0x1b0ba1[_0x58f954(0x4ed)](_0x58f954(0x52d),_0x465697=>{const _0x5798bf=_0x58f954;if(_0x465697[_0x5798bf(0x4e7)][_0x5798bf(0x2e1)]('.bstage-comment-trans-btn')||_0x465697[_0x5798bf(0x4e7)][_0x5798bf(0x2e1)]('.bstage-comment-replies'))return;_0x1ea3bf(_0x364ce3);}),_0x1b0ba1[_0x58f954(0x28b)](_0x58f954(0x531))[_0x58f954(0x2fc)](_0x3dfce1=>{const _0x33524d=_0x58f954;_0x3dfce1['addEventListener'](_0x33524d(0x52d),_0x383f31=>{const _0x431f8d=_0x33524d;_0x383f31[_0x431f8d(0x561)]();const _0xba5aae=_0x3dfce1[_0x431f8d(0x1fb)];if(!_0xba5aae)return;const _0x42f526=_0xba5aae[_0x431f8d(0x466)]['display']===_0x431f8d(0x2cc);_0xba5aae['style']['display']=_0x42f526?'block':_0x431f8d(0x2cc),_0x3dfce1[_0x431f8d(0x39d)]=_0x42f526?_0x431f8d(0x2f7):'翻译';});}),_0x38936a[_0x58f954(0x1be)](_0x1b0ba1);});}const _0x33f879=document[_0x40029b(0x284)](_0x40029b(0x50a)),_0x4637cc=document[_0x40029b(0x284)](_0x40029b(0x4cb)),_0x2205f8=document[_0x40029b(0x284)]('bstage-vid-comment-reply-cancel-btn');_0x2205f8&&(_0x2205f8['addEventListener'](_0x40029b(0x52d),()=>_0x1ea3bf(null)),_0x2205f8['addEventListener'](_0x40029b(0x300),_0x3c641b=>{const _0xee45c1=_0x40029b;(_0x3c641b[_0xee45c1(0x227)]==='Enter'||_0x3c641b[_0xee45c1(0x227)]==='\x20')&&(_0x3c641b['preventDefault'](),_0x1ea3bf(null));}));_0x33f879&&_0x4637cc&&(_0x33f879[_0x40029b(0x4ed)]('input',()=>{const _0xb4446f=_0x40029b;_0x33f879[_0xb4446f(0x280)][_0xb4446f(0x262)]()[_0xb4446f(0x388)]>0x0?_0x4637cc[_0xb4446f(0x428)][_0xb4446f(0x3f1)]('disabled'):_0x4637cc[_0xb4446f(0x428)][_0xb4446f(0x2d0)](_0xb4446f(0x511));}),_0x4637cc[_0x40029b(0x4ed)]('click',()=>{const _0x2f5ed6=_0x40029b;if(_0x4637cc['classList'][_0x2f5ed6(0x340)](_0x2f5ed6(0x511)))return;const _0x39c6ad=_0x33f879[_0x2f5ed6(0x280)][_0x2f5ed6(0x262)]();if(_0x39c6ad&&_0x271af8){const _0x5268ed={'id':Date[_0x2f5ed6(0x41b)](),'name':window[_0x2f5ed6(0x434)]?window[_0x2f5ed6(0x434)]['name']:'User','avatar':window['userState']?window[_0x2f5ed6(0x434)][_0x2f5ed6(0x3a2)]:null,'text':_0x39c6ad,'time':'Just\x20now','isUser':!![],'replyTo':_0x2a803b?{'id':_0x2a803b['id'],'name':_0x2a803b[_0x2f5ed6(0x4df)],'text':_0x2a803b[_0x2f5ed6(0x274)]}:null,'replies':[]};_0x271af8[_0x2f5ed6(0x1e9)]['unshift'](_0x5268ed),_0x21d431(),_0x33f879['value']='',_0x4637cc[_0x2f5ed6(0x428)][_0x2f5ed6(0x2d0)](_0x2f5ed6(0x511)),_0x1ea3bf(null),_0x3d1ee2(_0x271af8,_0x5268ed);}}));async function _0x3d1ee2(_0x4d3454,_0x47d1bb){const _0x27d5d1=_0x40029b;if(!_0x4d3454||!_0x47d1bb)return;if(!window['apiConfig']||!window['apiConfig']['endpoint']||!window[_0x27d5d1(0x230)]['apiKey']){window[_0x27d5d1(0x24d)](_0x27d5d1(0x369));return;}let _0x40f500=_0x27d5d1(0x1cd);_0x4633b3&&_0x4633b3['members']&&_0x4633b3[_0x27d5d1(0x501)]['forEach'](_0x3d934d=>{const _0x294d21=_0x27d5d1;_0x40f500+='-\x20'+_0x3d934d[_0x294d21(0x4df)]+'\x20('+_0x3d934d['role']+')\x0a';});const _0x2f437a=_0x27d5d1(0x3ec)+(_0x4633b3?_0x4633b3['name']:_0x27d5d1(0x397))+'\x0a'+_0x40f500+_0x27d5d1(0x46a)+(_0x4d3454[_0x27d5d1(0x2a1)]||_0x27d5d1(0x343))+_0x27d5d1(0x3a9)+(_0x4d3454[_0x27d5d1(0x2dc)]||'无')+_0x27d5d1(0x3dc)+_0x47d1bb['text']+'\x0a'+(_0x47d1bb[_0x27d5d1(0x4f0)]?_0x27d5d1(0x508)+_0x47d1bb[_0x27d5d1(0x4f0)][_0x27d5d1(0x4df)]+':\x20'+_0x47d1bb[_0x27d5d1(0x4f0)][_0x27d5d1(0x274)]:'')+'\x0a\x0a要求：\x0a1.\x20生成不少于\x2010\x20条、最多\x2014\x20条来自粉丝/观众的回复，围绕\x20User\x20的评论自然互动。\x0a2.\x20可以有人赞同、补充、提问、羡慕或讨论视频内容。\x0a3.\x20b.stage\x20是国际化应用，text\x20可以是中文或外文；非中文\x20text\x20必须提供自然中文翻译\x20trans，中文则\x20trans\x20为空字符串。\x0a4.\x20只返回严格\x20JSON\x20数组，不要\x20markdown。\x0a格式：\x0a[\x0a\x20\x20{\x20\x22name\x22:\x20\x22评论者\x22,\x20\x22text\x22:\x20\x22原文\x22,\x20\x22trans\x22:\x20\x22中文翻译或空\x22\x20}\x0a]\x0a';try{const _0x2f6dfe=await _0xde158a(_0x2f437a,'You\x20generate\x20strict\x20JSON\x20arrays\x20for\x20b.stage\x20video\x20comment\x20replies.',0.85);if(!Array[_0x27d5d1(0x481)](_0x2f6dfe))throw new Error('invalid_comment_replies');const _0x46eff1=_0x2f6dfe[_0x27d5d1(0x260)](0x0,0xe)[_0x27d5d1(0x34c)]((_0x16f77e,_0xf71e07)=>{const _0x88cd4=_0x27d5d1,_0x3f7263=_0x53d238(_0x16f77e&&_0x16f77e[_0x88cd4(0x4df)],_0xfa7496(_0xf71e07)),_0x24c5ac=_0x53d238(typeof _0x16f77e===_0x88cd4(0x4b6)?_0x16f77e:_0x16f77e&&_0x16f77e[_0x88cd4(0x274)]),_0x4661de=_0x53d238(_0x16f77e&&(_0x16f77e[_0x88cd4(0x3db)]||_0x16f77e[_0x88cd4(0x1ea)]||_0x16f77e[_0x88cd4(0x1dc)]));if(!_0x24c5ac)return null;if(_0x1e2ec0(_0x24c5ac)&&!_0x4661de)return null;return{'id':Date[_0x88cd4(0x41b)]()+Math['random'](),'name':_0x3f7263,'text':_0x24c5ac,'trans':_0x4661de,'avatarEmoji':_0x31f8eb(_0x88cd4(0x2e9)+_0x3f7263+'-'+_0xf71e07+'-'+Date[_0x88cd4(0x41b)]()),'time':_0x88cd4(0x296)};})['filter'](Boolean);if(_0x46eff1[_0x27d5d1(0x388)]<0xa)throw new Error('too_few_comment_replies');_0x47d1bb[_0x27d5d1(0x36d)]=_0x46eff1,_0x3f4fff(),_0x21d431();}catch(_0x476ef3){console[_0x27d5d1(0x4fd)]('Bstage\x20video\x20comment\x20reply\x20API\x20failed:',_0x476ef3),window['showToast'](_0x27d5d1(0x1d2));}}async function _0x3eba58(_0x24e3cb,_0x4fdd75,_0x125431=''){const _0x121f87=_0x40029b;if(!window[_0x121f87(0x230)]||!window[_0x121f87(0x230)]['endpoint']||!window['apiConfig'][_0x121f87(0x2f0)]){window['showToast'](_0x121f87(0x369));return;}if(!Array[_0x121f87(0x481)](_0x24e3cb[_0x121f87(0x1b5)]))_0x24e3cb['videos']=[];if(!Array['isArray'](_0x24e3cb[_0x121f87(0x240)]))_0x24e3cb[_0x121f87(0x240)]=['全部'];window[_0x121f87(0x24d)]('正在生成视频物料...');let _0x20c8a5='团队成员:\x0a';Array['isArray'](_0x24e3cb[_0x121f87(0x501)])&&_0x24e3cb[_0x121f87(0x501)][_0x121f87(0x388)]>0x0?_0x24e3cb['members'][_0x121f87(0x2fc)](_0x6e4678=>{const _0x16b4a3=_0x121f87;_0x20c8a5+='-\x20'+_0x6e4678[_0x16b4a3(0x4df)]+'\x20('+_0x6e4678['role']+')\x0a';}):_0x20c8a5+=_0x121f87(0x2ef);const _0x1eca79=_0x121f87(0x4b4)+_0x24e3cb['name']+_0x121f87(0x26c)+(_0x24e3cb[_0x121f87(0x251)]||'无')+'\x0a'+_0x20c8a5+_0x121f87(0x3d2)+_0x4fdd75+_0x121f87(0x556)+(_0x125431||_0x121f87(0x27e))+_0x121f87(0x53b);try{let _0x34cb1a=window[_0x121f87(0x230)]['endpoint'];if(_0x34cb1a[_0x121f87(0x374)]('/'))_0x34cb1a=_0x34cb1a[_0x121f87(0x260)](0x0,-0x1);!_0x34cb1a[_0x121f87(0x374)]('/chat/completions')&&(_0x34cb1a=_0x34cb1a[_0x121f87(0x374)](_0x121f87(0x377))?_0x34cb1a+_0x121f87(0x32a):_0x34cb1a+_0x121f87(0x27a));const _0x218362=await fetch(_0x34cb1a,{'method':_0x121f87(0x29c),'headers':{'Content-Type':'application/json','Authorization':_0x121f87(0x475)+window['apiConfig'][_0x121f87(0x2f0)]},'body':JSON[_0x121f87(0x4d4)]({'model':window[_0x121f87(0x230)][_0x121f87(0x4f3)]||_0x121f87(0x3b8),'messages':[{'role':_0x121f87(0x4e4),'content':_0x121f87(0x3c7)},{'role':_0x121f87(0x2a4),'content':_0x1eca79}],'temperature':0.7})});if(!_0x218362['ok'])throw new Error(_0x121f87(0x4ea));const _0x6a611a=await _0x218362['json']();let _0x42552a=_0x6a611a[_0x121f87(0x568)][0x0][_0x121f87(0x3ba)]['content'];_0x42552a=_0x42552a['replace'](/```json/g,'')[_0x121f87(0x2a8)](/```/g,'')[_0x121f87(0x262)]();const _0x12146a=JSON['parse'](_0x42552a);Array['isArray'](_0x12146a)&&(_0x12146a[_0x121f87(0x2fc)](_0x416f66=>{const _0x3b6958=_0x121f87,_0x3c13d8=_0x53d238(_0x416f66&&_0x416f66['title'],_0x3b6958(0x3c4)),_0x2d9515=_0x53d238(_0x416f66&&_0x416f66[_0x3b6958(0x350)],_0x4fdd75==='全部'?_0x125431||_0x3b6958(0x2bb):_0x4fdd75);if(_0x2d9515&&!_0x24e3cb[_0x3b6958(0x240)][_0x3b6958(0x435)](_0x2d9515))_0x24e3cb['contentSeries'][_0x3b6958(0x27d)](_0x2d9515);_0x24e3cb[_0x3b6958(0x1b5)][_0x3b6958(0x2da)]({'title':_0x3c13d8,'duration':_0x53d238(_0x416f66&&_0x416f66['duration'],_0x3b6958(0x515)),'views':_0x53d238(_0x416f66&&_0x416f66[_0x3b6958(0x4d2)],'500K'),'date':_0x53d238(_0x416f66&&_0x416f66[_0x3b6958(0x2b0)],'Just\x20now'),'thumb':_0x10ddb1((_0x24e3cb['id']||_0x24e3cb[_0x3b6958(0x4df)])+_0x3b6958(0x3ef)+_0x3c13d8+'-'+Date[_0x3b6958(0x41b)](),0x320,0x1c2),'series':_0x2d9515});}),_0x3f4fff(),_0x4af726(_0x24e3cb),window['showToast']('已生成\x20'+_0x12146a['length']+_0x121f87(0x42e)));}catch(_0x2bc3d8){console[_0x121f87(0x4fd)](_0x2bc3d8),window[_0x121f87(0x24d)](_0x121f87(0x47c));}}function _0x559531(_0x122746){const _0x5aee74=_0x40029b;_0x1a9053[_0x5aee74(0x51f)]=_0x5aee74(0x4d7)+_0x122746+'\x20功能暂空\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';}function _0x7afae0(_0x6b3d1){const _0x4222c6=_0x40029b,_0x1e3baa=document[_0x4222c6(0x35c)](_0x4222c6(0x223)),_0x56b25a=document['querySelector'](_0x4222c6(0x383));if(!_0x1e3baa||!_0x6b3d1||!_0x56b25a)return;const _0x1e792b=_0x56b25a['getBoundingClientRect'](),_0x20d200=_0x6b3d1[_0x4222c6(0x4e8)](),_0x37fc10=_0x20d200[_0x4222c6(0x487)]-_0x1e792b['left']-0x5;_0x1e3baa[_0x4222c6(0x466)][_0x4222c6(0x557)]=_0x20d200['width']+'px',_0x1e3baa[_0x4222c6(0x466)][_0x4222c6(0x2dd)]=_0x4222c6(0x2b9)+_0x37fc10+_0x4222c6(0x306);}document['querySelectorAll']('.bstage-nav-item')[_0x40029b(0x2fc)](_0x4a2787=>{const _0x128304=_0x40029b;_0x4a2787[_0x128304(0x4ed)]('click',_0x2b8a05=>{const _0x169435=_0x128304;if(!_0x4633b3)return;_0x6ac26&&(clearInterval(_0x6ac26),_0x6ac26=null);document['querySelectorAll']('.bstage-nav-item')['forEach'](_0x4c8582=>_0x4c8582[_0x169435(0x428)][_0x169435(0x3f1)]('active')),_0x2b8a05[_0x169435(0x4e7)][_0x169435(0x428)][_0x169435(0x2d0)](_0x169435(0x49a)),_0x7afae0(_0x2b8a05[_0x169435(0x4e7)]);const _0x174a39=_0x2b8a05[_0x169435(0x4e7)]['getAttribute'](_0x169435(0x3d8));if((_0x174a39===_0x169435(0x429)||_0x174a39===_0x169435(0x323))&&!_0x4633b3[_0x169435(0x2de)]&&!_0x391fff(_0x4633b3))_0x36d60c(_0x174a39);else{if(_0x174a39==='home')_0x2193f7(_0x4633b3);else{if(_0x174a39===_0x169435(0x563))_0x2bfc9b(_0x4633b3);else{if(_0x174a39===_0x169435(0x429))_0x4af726(_0x4633b3);else{if(_0x174a39==='shop')_0x2f7af9(_0x4633b3);}}}}});});function _0x36d60c(_0x82b130){const _0x1e155a=_0x40029b;_0x1a9053[_0x1e155a(0x51f)]=_0x1e155a(0x540)+_0x82b130+_0x1e155a(0x485),document[_0x1e155a(0x284)](_0x1e155a(0x55a))[_0x1e155a(0x4ed)](_0x1e155a(0x52d),_0x349595);}function _0x349595(){window['openView'](_0x3096cd);}document[_0x40029b(0x28b)](_0x40029b(0x1e5))['forEach'](_0x2111c9=>{const _0x391a7b=_0x40029b;_0x2111c9['addEventListener'](_0x391a7b(0x52d),()=>{const _0x1437b9=_0x391a7b;document[_0x1437b9(0x28b)](_0x1437b9(0x1e5))['forEach'](_0x2b7e4b=>{const _0x69d5d1=_0x1437b9;_0x2b7e4b[_0x69d5d1(0x428)][_0x69d5d1(0x3f1)](_0x69d5d1(0x384)),_0x2b7e4b[_0x69d5d1(0x466)][_0x69d5d1(0x52c)]=_0x69d5d1(0x454);}),_0x2111c9[_0x1437b9(0x428)][_0x1437b9(0x2d0)]('selected'),_0x2111c9[_0x1437b9(0x466)]['borderColor']=_0x1437b9(0x401);});}),document[_0x40029b(0x284)](_0x40029b(0x3e8))[_0x40029b(0x4ed)]('click',()=>{const _0x2f0369=_0x40029b;if(_0x4633b3){_0x4633b3[_0x2f0369(0x2de)]=!![];const _0x1e079a=_0x3096cd['querySelector'](_0x2f0369(0x444)),_0x42cdec=_0x1e079a[_0x2f0369(0x35c)](_0x2f0369(0x334))[_0x2f0369(0x39d)],_0x471458=_0x1e079a[_0x2f0369(0x35c)]('.bstage-price-amount')['textContent'];_0x322f3e['unshift']({'id':Date[_0x2f0369(0x41b)](),'title':_0x4633b3[_0x2f0369(0x4df)]+_0x2f0369(0x24e)+_0x42cdec,'price':_0x471458,'date':new Date()[_0x2f0369(0x31c)](),'type':_0x2f0369(0x2be)}),window[_0x2f0369(0x24d)](_0x2f0369(0x40a)),document[_0x2f0369(0x35c)](_0x2f0369(0x4ab))[_0x2f0369(0x428)]['contains'](_0x2f0369(0x49a))&&_0x2193f7(_0x4633b3);}window[_0x2f0369(0x3e9)](_0x3096cd);});const _0x4187f7=_0x5d3842[_0x40029b(0x35c)](_0x40029b(0x3e3));_0x4187f7[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x38fe51=_0x40029b,_0x128458=window[_0x38fe51(0x434)]?window['userState'][_0x38fe51(0x4df)]:_0x38fe51(0x397),_0x1dd658=window['userState']?window[_0x38fe51(0x434)][_0x38fe51(0x3a2)]:null;document[_0x38fe51(0x284)](_0x38fe51(0x1d9))[_0x38fe51(0x39d)]=_0x128458;const _0x18e274=document[_0x38fe51(0x284)](_0x38fe51(0x37a)),_0x4b059c=document[_0x38fe51(0x284)](_0x38fe51(0x20e));_0x1dd658?(_0x18e274[_0x38fe51(0x380)]=_0x1dd658,_0x18e274[_0x38fe51(0x466)]['display']='block',_0x4b059c[_0x38fe51(0x466)][_0x38fe51(0x1f0)]=_0x38fe51(0x2cc)):(_0x18e274[_0x38fe51(0x466)]['display']=_0x38fe51(0x2cc),_0x4b059c[_0x38fe51(0x466)]['display']=_0x38fe51(0x44a)),_0x13075c(),window[_0x38fe51(0x2db)](_0x3f689c);}),document['getElementById'](_0x40029b(0x3c1))[_0x40029b(0x4ed)]('click',()=>{const _0x2e6c26=_0x40029b,_0x18b919=window[_0x2e6c26(0x434)]?window['userState'][_0x2e6c26(0x4df)]:'',_0x45c8c8=window[_0x2e6c26(0x434)]?window[_0x2e6c26(0x434)][_0x2e6c26(0x3a2)]:'',_0x1106e8=window[_0x2e6c26(0x434)]&&window[_0x2e6c26(0x434)]['persona']?window[_0x2e6c26(0x434)][_0x2e6c26(0x362)]:'';document[_0x2e6c26(0x284)](_0x2e6c26(0x3f4))[_0x2e6c26(0x280)]=_0x18b919;const _0x247800=document['getElementById'](_0x2e6c26(0x1db));if(_0x247800)_0x247800[_0x2e6c26(0x280)]=_0x1106e8;const _0x16ded5=document['getElementById'](_0x2e6c26(0x436)),_0xff462=document[_0x2e6c26(0x35c)](_0x2e6c26(0x4af));_0x45c8c8?(_0x16ded5[_0x2e6c26(0x380)]=_0x45c8c8,_0x16ded5[_0x2e6c26(0x466)][_0x2e6c26(0x1f0)]=_0x2e6c26(0x44a),_0xff462[_0x2e6c26(0x466)][_0x2e6c26(0x1f0)]=_0x2e6c26(0x2cc)):(_0x16ded5[_0x2e6c26(0x380)]='',_0x16ded5[_0x2e6c26(0x466)][_0x2e6c26(0x1f0)]=_0x2e6c26(0x2cc),_0xff462[_0x2e6c26(0x466)][_0x2e6c26(0x1f0)]=_0x2e6c26(0x44a)),window[_0x2e6c26(0x2db)](_0x57e4a7);}),_0x559c8c(_0x40029b(0x2ee),_0x40029b(0x1f1),'bstage-edit-profile-avatar-preview'),document['querySelector'](_0x40029b(0x322))[_0x40029b(0x4ed)]('change',_0x1513c2=>{const _0x4765fc=_0x40029b;_0x1513c2[_0x4765fc(0x4e7)][_0x4765fc(0x452)]&&_0x1513c2[_0x4765fc(0x4e7)][_0x4765fc(0x452)][0x0]&&(document['querySelector']('#bstage-edit-profile-avatar-upload\x20i')[_0x4765fc(0x466)][_0x4765fc(0x1f0)]=_0x4765fc(0x2cc));}),document['getElementById'](_0x40029b(0x53a))['addEventListener']('click',()=>{const _0x51eb35=_0x40029b,_0x478140=document[_0x51eb35(0x284)](_0x51eb35(0x3f4))[_0x51eb35(0x280)],_0x2b00bb=document[_0x51eb35(0x284)](_0x51eb35(0x436))[_0x51eb35(0x380)],_0x45c65e=document[_0x51eb35(0x284)](_0x51eb35(0x436))['style'][_0x51eb35(0x1f0)]!==_0x51eb35(0x2cc),_0x364b13=document[_0x51eb35(0x284)](_0x51eb35(0x1db)),_0xdc221c=_0x364b13?_0x364b13[_0x51eb35(0x280)]:'';if(window[_0x51eb35(0x434)]){window[_0x51eb35(0x434)][_0x51eb35(0x4df)]=_0x478140;if(_0x45c65e)window['userState']['avatarUrl']=_0x2b00bb;window['userState'][_0x51eb35(0x362)]=_0xdc221c;if(window[_0x51eb35(0x53d)])window[_0x51eb35(0x53d)]();if(window[_0x51eb35(0x276)])window[_0x51eb35(0x276)]();document[_0x51eb35(0x284)](_0x51eb35(0x1d9))[_0x51eb35(0x39d)]=_0x478140,_0x45c65e&&(document['getElementById'](_0x51eb35(0x37a))['src']=_0x2b00bb,document['getElementById'](_0x51eb35(0x37a))[_0x51eb35(0x466)]['display']=_0x51eb35(0x44a),document[_0x51eb35(0x284)](_0x51eb35(0x20e))[_0x51eb35(0x466)][_0x51eb35(0x1f0)]=_0x51eb35(0x2cc)),_0x4fbbe9(),_0x391fff(_0x4633b3)&&(_0x4633b3=_0x13d678());}window[_0x51eb35(0x3e9)](_0x57e4a7),window[_0x51eb35(0x24d)]('资料已更新');}),document[_0x40029b(0x284)](_0x40029b(0x4c3))['addEventListener']('click',()=>{const _0x5e4bb9=_0x40029b;_0x5806ba(),window[_0x5e4bb9(0x2db)](_0x52ed94);});function _0x55b886(){const _0x579fab=_0x40029b,_0x265713=Number(_0x1f5855()['toFixed'](0x2));if(!Number[_0x579fab(0x330)](_0x265713)||_0x265713<=0x0){window[_0x579fab(0x24d)]('暂无可提现收益'),_0x13075c();return;}if(typeof window[_0x579fab(0x410)]!=='function'){window[_0x579fab(0x24d)](_0x579fab(0x247));return;}const _0x48ae5f=window[_0x579fab(0x410)](_0x265713,_0x579fab(0x3f0),_0x579fab(0x33e));if(!_0x48ae5f){window[_0x579fab(0x24d)]('提现失败，请稍后重试');return;}_0xee7d3f[_0x579fab(0x478)]=_0xd8318d()+_0x265713,_0xee7d3f['lastWithdrawAt']=Date[_0x579fab(0x41b)](),_0x3f4fff(),_0x13075c();}document['getElementById'](_0x40029b(0x552))['addEventListener'](_0x40029b(0x52d),_0x55b886),_0x52ed94[_0x40029b(0x4ed)](_0x40029b(0x52d),_0x3b2ee2=>{const _0x2d60a0=_0x40029b;if(_0x3b2ee2['target']===_0x52ed94)window[_0x2d60a0(0x3e9)](_0x52ed94);});function _0x5806ba(){const _0x3f95b2=_0x40029b,_0x3cc5aa=document['getElementById']('bstage-orders-list');_0x3cc5aa[_0x3f95b2(0x51f)]='';if(_0x322f3e['length']===0x0){_0x3cc5aa[_0x3f95b2(0x51f)]='<div\x20style=\x22text-align:\x20center;\x20color:\x20#888;\x20padding:\x2020px;\x22>暂无订单记录</div>';return;}_0x322f3e[_0x3f95b2(0x2fc)](_0x44d999=>{const _0x1b91ff=_0x3f95b2,_0x509b15=document['createElement'](_0x1b91ff(0x1b6));_0x509b15['style']['cssText']=_0x1b91ff(0x2ca),_0x509b15[_0x1b91ff(0x51f)]=_0x1b91ff(0x49b)+_0x44d999[_0x1b91ff(0x2a1)]+_0x1b91ff(0x267)+_0x44d999[_0x1b91ff(0x2b0)]+_0x1b91ff(0x37f)+_0x44d999[_0x1b91ff(0x378)]+_0x1b91ff(0x441)+_0x44d999[_0x1b91ff(0x1e1)]+_0x1b91ff(0x352),_0x3cc5aa[_0x1b91ff(0x1be)](_0x509b15);});}const _0x178564=['Starry','Mina',_0x40029b(0x1c0),_0x40029b(0x48a),_0x40029b(0x43a),_0x40029b(0x22e),'Momo','Nabi','Echo',_0x40029b(0x294)];function _0x5bb6ae(_0x51043c=Date['now']()){const _0x400f8f=_0x40029b;if(typeof window[_0x400f8f(0x484)]===_0x400f8f(0x414))return window[_0x400f8f(0x484)](_0x51043c);const _0x26853f=new Date(_0x51043c);return _0x26853f[_0x400f8f(0x1f8)]()+':'+_0x26853f[_0x400f8f(0x522)]()[_0x400f8f(0x30f)]()[_0x400f8f(0x3fa)](0x2,'0');}function _0xfa7496(_0x2ee71e=0x0){const _0x28ba7e=_0x40029b;return _0x178564[Math[_0x28ba7e(0x259)](Math[_0x28ba7e(0x303)]()*_0x178564[_0x28ba7e(0x388)])]||_0x28ba7e(0x494)+(_0x2ee71e+0x1);}function _0x1e2ec0(_0x2c4251){const _0x21f6c9=_0x40029b,_0x368ef1=String(_0x2c4251||''),_0x455753=/[\u3400-\u9fff]/['test'](_0x368ef1),_0x19b671=/[A-Za-z\u3040-\u30ff\uac00-\ud7af\u0400-\u04ff]/[_0x21f6c9(0x44b)](_0x368ef1);return _0x19b671&&!_0x455753;}function _0x381f49(){const _0x7c20e2=_0x40029b;return!Number[_0x7c20e2(0x330)](Number(_0x3ad594))&&(_0x3ad594=Math[_0x7c20e2(0x259)](0x320+Math[_0x7c20e2(0x303)]()*0x23f0),_0x3f4fff()),Math[_0x7c20e2(0x271)](0x0,parseInt(_0x3ad594,0xa)||0x0);}function _0x2c164d(){const _0xf06119=_0x40029b;return _0xf06119(0x43d)+_0x381f49()+'\x20人';}function _0x844e33(){return _0x381f49()*_0x28acc9*_0x5a1627;}function _0xd8318d(){const _0x56a459=_0x40029b,_0x26dfee=Number(_0xee7d3f&&_0xee7d3f['withdrawnCny']);return Number[_0x56a459(0x330)](_0x26dfee)?Math['max'](0x0,_0x26dfee):0x0;}function _0x1f5855(){const _0x18b8e2=_0x40029b;return Math[_0x18b8e2(0x271)](0x0,_0x844e33()-_0xd8318d());}function _0x380c85(_0x1bcf96){const _0xe68000=_0x40029b;return'￥'+Math[_0xe68000(0x271)](0x0,Number(_0x1bcf96)||0x0)[_0xe68000(0x1e6)](0x2);}function _0x13075c(){const _0x2ac0e2=_0x40029b,_0x57dc1f=document[_0x2ac0e2(0x284)](_0x2ac0e2(0x56a)),_0x2054be=document[_0x2ac0e2(0x284)](_0x2ac0e2(0x206)),_0x571e73=document['getElementById']('bstage-withdraw-revenue-btn'),_0x17d8f8=_0x381f49(),_0x1cc894=_0x1f5855();if(_0x57dc1f)_0x57dc1f[_0x2ac0e2(0x39d)]=String(_0x17d8f8);if(_0x2054be)_0x2054be[_0x2ac0e2(0x39d)]=_0x380c85(_0x1cc894);_0x571e73&&(_0x571e73['style']['opacity']=_0x1cc894>0x0?'1':_0x2ac0e2(0x45f),_0x571e73[_0x2ac0e2(0x371)](_0x2ac0e2(0x353),_0x1cc894>0x0?'false':_0x2ac0e2(0x3f7)),_0x571e73[_0x2ac0e2(0x2a1)]=_0x1cc894>0x0?_0x2ac0e2(0x4e2)+_0x380c85(_0x1cc894):_0x2ac0e2(0x48d));}function _0x2a3f5c(_0x4a0f3b=![]){const _0x122bed=_0x40029b;if(_0x4a0f3b)return 0x1+Math[_0x122bed(0x259)](Math[_0x122bed(0x303)]()*0x5);const _0x21990b=[0x0,0x0,0x1,0x1,0x2];return _0x21990b[Math['floor'](Math['random']()*_0x21990b['length'])]||0x0;}function _0x21efeb(_0x3106e9=![]){const _0x58d1cb=_0x2a3f5c(_0x3106e9);if(_0x58d1cb<=0x0){_0x4b478e();return;}_0x3ad594=_0x381f49()+_0x58d1cb,_0x4b478e(),_0x3f4fff();}function _0x126003(){_0x21efeb(!![]);}function _0xc05151(){const _0x429097=_0x40029b;_0xdeb302&&clearTimeout(_0xdeb302);const _0x34fc8d=0x7530+Math[_0x429097(0x259)](Math[_0x429097(0x303)]()*0xea60);_0xdeb302=setTimeout(()=>{_0x21efeb(![]),_0xc05151();},_0x34fc8d);}function _0x1814ab(){_0x381f49(),_0x4b478e(),!_0xdeb302&&_0xc05151();}function _0x4b478e(){const _0x1118be=_0x40029b,_0x2f20e2=_0x2c164d(),_0x2c1f32=document[_0x1118be(0x284)](_0x1118be(0x4fa)),_0x2b7b92=document[_0x1118be(0x284)](_0x1118be(0x21d));if(_0x2c1f32)_0x2c1f32[_0x1118be(0x39d)]=_0x2f20e2;if(_0x2b7b92)_0x2b7b92[_0x1118be(0x39d)]=_0x2f20e2;document[_0x1118be(0x28b)](_0x1118be(0x413))['forEach'](_0x990287=>{_0x990287['textContent']=_0x2f20e2;}),_0x13075c();}function _0x4122e3(){const _0x24a598=_0x40029b,_0x3d2ed3=document[_0x24a598(0x284)](_0x24a598(0x235));if(!_0x3d2ed3)return;_0x3d2ed3[_0x24a598(0x428)][_0x24a598(0x455)]('show-trans',_0x18df9d);}function _0x53fa7a(){const _0x25ef30=_0x40029b,_0xb54507=document[_0x25ef30(0x284)](_0x25ef30(0x361));_0xb54507&&(_0x2094ea[_0x25ef30(0x2e3)]?(_0xb54507[_0x25ef30(0x466)]['backgroundImage']=_0x25ef30(0x3bf)+_0x2094ea[_0x25ef30(0x2e3)]+'\x27)',_0xb54507[_0x25ef30(0x466)][_0x25ef30(0x23a)]=_0x25ef30(0x3b1),_0xb54507[_0x25ef30(0x466)]['backgroundPosition']=_0x25ef30(0x3f8)):(_0xb54507[_0x25ef30(0x466)][_0x25ef30(0x4f1)]=_0x25ef30(0x2cc),_0xb54507[_0x25ef30(0x466)][_0x25ef30(0x4a5)]=_0x25ef30(0x489))),_0x4bedef(),_0x4122e3();}function _0x4e582a(){const _0x179870=_0x40029b;_0x4b478e(),_0x481b8c(),_0x53fa7a();const _0x2962ff=window[_0x179870(0x434)]&&window[_0x179870(0x434)][_0x179870(0x4df)]?window[_0x179870(0x434)]['name']:_0x179870(0x397),_0x203eed=window['userState']&&window['userState'][_0x179870(0x3a2)]?window['userState'][_0x179870(0x3a2)]:'',_0x72d406=document[_0x179870(0x284)](_0x179870(0x48e)),_0x351f1e=document['getElementById']('bstage-fan-detail-avatar'),_0x2a9485=document['getElementById'](_0x179870(0x3ad));if(_0x72d406)_0x72d406['textContent']=_0x2962ff+'\x20的粉丝聊天室';_0x351f1e&&_0x2a9485&&(_0x203eed?(_0x351f1e['src']=_0x203eed,_0x351f1e[_0x179870(0x466)][_0x179870(0x1f0)]=_0x179870(0x44a),_0x2a9485[_0x179870(0x466)][_0x179870(0x1f0)]=_0x179870(0x2cc)):(_0x351f1e[_0x179870(0x380)]='',_0x351f1e[_0x179870(0x466)][_0x179870(0x1f0)]=_0x179870(0x2cc),_0x2a9485[_0x179870(0x466)]['display']=_0x179870(0x44a)));const _0xafc056=document[_0x179870(0x284)]('bstage-fan-context-switch'),_0x9bcb85=document[_0x179870(0x284)](_0x179870(0x3e1)),_0x2f00f3=document[_0x179870(0x284)](_0x179870(0x483));if(_0xafc056)_0xafc056[_0x179870(0x428)][_0x179870(0x455)](_0x179870(0x49a),_0xaea4d2);if(_0x9bcb85)_0x9bcb85[_0x179870(0x280)]=_0x207604;if(_0x2f00f3)_0x2f00f3[_0x179870(0x428)][_0x179870(0x455)](_0x179870(0x49a),_0x18df9d);window[_0x179870(0x2db)](_0xd1ed97);}function _0xcc66b2(){const _0x5eab8e=_0x40029b,_0x3f6b48=_0x13d678(),_0x25201a=Array['isArray'](_0x3f6b48[_0x5eab8e(0x501)])?_0x3f6b48[_0x5eab8e(0x501)]:[],_0x23bcf9=Array[_0x5eab8e(0x481)](_0x3f6b48[_0x5eab8e(0x1b5)])?_0x3f6b48[_0x5eab8e(0x1b5)][_0x5eab8e(0x260)](0x0,0x8):[],_0x353d02=Array['isArray'](_0x3f6b48[_0x5eab8e(0x31e)])?_0x3f6b48[_0x5eab8e(0x31e)]['slice'](0x0,0x8):[],_0x1a6d3b=_0x25201a[_0x5eab8e(0x388)]?_0x25201a[_0x5eab8e(0x34c)](_0x59c45d=>'-\x20'+(_0x59c45d[_0x5eab8e(0x4df)]||_0x5eab8e(0x512))+'：'+(_0x59c45d[_0x5eab8e(0x399)]||_0x5eab8e(0x1fc)))['join']('\x0a'):_0x5eab8e(0x1da),_0x47a9c3=_0x23bcf9[_0x5eab8e(0x388)]?_0x23bcf9[_0x5eab8e(0x34c)](_0x356330=>'-\x20'+(_0x356330[_0x5eab8e(0x2a1)]||_0x5eab8e(0x343))+(_0x356330[_0x5eab8e(0x2dc)]?'：'+_0x356330['description']:''))[_0x5eab8e(0x54d)]('\x0a'):_0x5eab8e(0x339),_0x1d9e09=_0x353d02[_0x5eab8e(0x388)]?_0x353d02[_0x5eab8e(0x34c)](_0x20f901=>'-\x20'+(_0x20f901['name']||_0x5eab8e(0x47f))+'（'+(_0x20f901[_0x5eab8e(0x480)]||'商品')+'，'+(_0x20f901['price']||_0x5eab8e(0x29b))+'）'+(_0x20f901[_0x5eab8e(0x251)]?'：'+_0x20f901[_0x5eab8e(0x251)]:''))[_0x5eab8e(0x54d)]('\x0a'):_0x5eab8e(0x204);return'User\x20团队资料：\x0a团队名：'+(_0x3f6b48[_0x5eab8e(0x4df)]||'User')+_0x5eab8e(0x2e4)+(_0x3f6b48[_0x5eab8e(0x251)]||'无')+_0x5eab8e(0x488)+_0x1a6d3b+_0x5eab8e(0x31b)+_0x47a9c3+_0x5eab8e(0x1e8)+_0x1d9e09;}function _0x3c3b34(_0x4de332,_0x267e5f){const _0x3b5456=_0x40029b;let _0x227076=null;for(let _0x4406a6=_0x1b99c6[_0x3b5456(0x388)]-0x1;_0x4406a6>=0x0;_0x4406a6--){if(_0x1b99c6[_0x4406a6][_0x3b5456(0x378)]!==_0x3b5456(0x2b0)){_0x227076=_0x1b99c6[_0x4406a6];break;}}const _0x25db91=0x5*0x3c*0x3e8;if(!_0x227076||!_0x227076[_0x3b5456(0x33d)]||_0x267e5f-_0x227076[_0x3b5456(0x33d)]>_0x25db91){const _0x334e74=_0x38842d(_0x267e5f),_0x5f2f22={'type':_0x3b5456(0x2b0),'text':_0x334e74,'timestamp':_0x267e5f};_0x1b99c6[_0x3b5456(0x27d)](_0x5f2f22);if(_0x4de332)_0x25ee91(_0x5f2f22,_0x4de332);}}function _0x25ee91(_0x160290,_0x41c437){const _0x55e500=_0x40029b;if(!_0x41c437||!_0x160290)return;if(_0x160290[_0x55e500(0x378)]===_0x55e500(0x2b0)){const _0x136a2c=document[_0x55e500(0x338)](_0x55e500(0x1b6));_0x136a2c[_0x55e500(0x3ab)]=_0x55e500(0x2a2),_0x136a2c[_0x55e500(0x39d)]=_0x160290[_0x55e500(0x274)],_0x41c437['appendChild'](_0x136a2c);return;}_0x24332e(_0x160290,_0x160290['isUser']?_0x55e500(0x2a4):_0x55e500(0x234));if(_0x160290[_0x55e500(0x258)]){const _0x2bc2c9=document[_0x55e500(0x338)](_0x55e500(0x1b6));_0x2bc2c9[_0x55e500(0x3ab)]='bstage-chat-msg\x20outgoing',_0x2bc2c9['dataset'][_0x55e500(0x3a4)]=_0x160290['id'],_0x2bc2c9[_0x55e500(0x51f)]=_0x55e500(0x4cc)+_0x245dba(_0x160290[_0x55e500(0x31a)]||_0x5bb6ae(_0x160290[_0x55e500(0x33d)]))+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bstage-chat-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x3055c0(_0x160290[_0x55e500(0x4f0)])+_0x55e500(0x49f)+_0x245dba(_0x160290[_0x55e500(0x274)])+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x41c437[_0x55e500(0x1be)](_0x2bc2c9);return;}const _0xdd228=_0x53d238(_0x160290[_0x55e500(0x4df)],'粉丝');_0x160290[_0x55e500(0x4ae)]=_0x160290[_0x55e500(0x4ae)]||_0x31f8eb(_0x55e500(0x1ce)+_0xdd228+'-'+(_0x160290['id']||_0x160290[_0x55e500(0x33d)]||''));const _0xf72d7=_0x53d238(_0x160290[_0x55e500(0x3db)]),_0x1c8ced=document[_0x55e500(0x338)](_0x55e500(0x1b6));_0x1c8ced[_0x55e500(0x3ab)]=_0x55e500(0x513),_0x1c8ced[_0x55e500(0x317)][_0x55e500(0x3a4)]=_0x160290['id'],_0x1c8ced[_0x55e500(0x51f)]=_0x55e500(0x419)+_0x51b122(_0x160290,_0xdd228,_0x55e500(0x1d3))+_0x55e500(0x2ea)+_0x3055c0(_0x160290[_0x55e500(0x4f0)])+_0x55e500(0x312)+_0x245dba(_0xdd228)+_0x55e500(0x38b)+_0x245dba(_0x160290[_0x55e500(0x274)])+_0x55e500(0x224)+(_0xf72d7?_0x55e500(0x368)+_0x245dba(_0xf72d7)+_0x55e500(0x1cc):'')+_0x55e500(0x47b);const _0x440a3d=_0x1c8ced[_0x55e500(0x35c)](_0x55e500(0x2fe));_0x440a3d&&_0x440a3d[_0x55e500(0x4ed)](_0x55e500(0x52d),_0x120879=>{const _0x1f652a=_0x55e500;_0x120879[_0x1f652a(0x561)](),_0x13a8ef(_0x1f652a(0x234),_0x2ab085(_0x160290,_0xdd228));}),_0x41c437[_0x55e500(0x1be)](_0x1c8ced);}function _0x88c7da(){const _0x52f500=_0x40029b,_0x354f24=document[_0x52f500(0x284)](_0x52f500(0x235));if(!_0x354f24)return;_0x354f24[_0x52f500(0x51f)]='',_0x4122e3();if(!Array[_0x52f500(0x481)](_0x1b99c6))_0x1b99c6=[];_0x1b99c6[_0x52f500(0x388)]===0x0?_0x354f24['innerHTML']=_0x52f500(0x528):_0x1b99c6[_0x52f500(0x2fc)](_0x37e982=>_0x25ee91(_0x37e982,_0x354f24)),_0x4b478e(),setTimeout(()=>{const _0x46f468=_0x52f500;_0x354f24[_0x46f468(0x2eb)]=_0x354f24[_0x46f468(0x2ce)];},0x32);}function _0x4a49e7(){const _0x3af0ab=_0x40029b;_0x53fa7a(),_0x88c7da(),_0x3c3ce1(_0x3af0ab(0x234)),window[_0x3af0ab(0x2db)](_0xbbb6c);const _0x5bfac9=document['getElementById'](_0x3af0ab(0x415));setTimeout(()=>{const _0x1addd4=_0x3af0ab;if(_0x5bfac9)_0x5bfac9[_0x1addd4(0x1b2)]();},0x50);}function _0x2467ba(){const _0x2bcac0=_0x40029b,_0x5aefda=document[_0x2bcac0(0x284)]('bstage-fan-chat-input'),_0x6d907e=document[_0x2bcac0(0x284)]('bstage-fan-chat-content');if(!_0x5aefda||!_0x6d907e)return;const _0x1788a0=_0x5aefda[_0x2bcac0(0x280)][_0x2bcac0(0x262)]();if(!_0x1788a0)return;_0x6d907e[_0x2bcac0(0x35c)]('.bstage-system-notice')&&_0x1b99c6[_0x2bcac0(0x388)]===0x0&&(_0x6d907e[_0x2bcac0(0x51f)]='');const _0x994142=Date[_0x2bcac0(0x41b)]();_0x3c3b34(_0x6d907e,_0x994142);const _0x47a062={'id':_0x467780('user'),'isUser':!![],'type':_0x2bcac0(0x274),'text':_0x1788a0,'time':_0x5bb6ae(_0x994142),'timestamp':_0x994142,'replyTo':_0x30ac69?{..._0x30ac69}:null};_0x1b99c6['push'](_0x47a062),_0x25ee91(_0x47a062,_0x6d907e),_0x3f4fff(),_0x5aefda[_0x2bcac0(0x280)]='',_0x3c3ce1('fan'),_0x6d907e['scrollTop']=_0x6d907e[_0x2bcac0(0x2ce)];}async function _0x75d4fe(){const _0x470955=_0x40029b,_0x15522d=document['getElementById'](_0x470955(0x2d7)),_0x48a11b=document['getElementById']('bstage-fan-chat-content');if(!_0x48a11b||!_0x15522d||_0x15522d[_0x470955(0x428)][_0x470955(0x340)](_0x470955(0x26a)))return;if(!window[_0x470955(0x230)]||!window[_0x470955(0x230)][_0x470955(0x385)]||!window[_0x470955(0x230)][_0x470955(0x2f0)]){window[_0x470955(0x24d)](_0x470955(0x369));return;}const _0x392258=window['userState']&&window[_0x470955(0x434)]['name']?window[_0x470955(0x434)][_0x470955(0x4df)]:_0x470955(0x397),_0xfa68a1=window['userState']&&window[_0x470955(0x434)]['persona']?window[_0x470955(0x434)][_0x470955(0x362)]:'',_0x854551=_0x4633b3?_0x470955(0x517)+_0x4633b3['name']+_0x470955(0x4e9)+(_0x4633b3[_0x470955(0x251)]||'无'):_0x470955(0x395),_0x1e88d7=_0xcc66b2(),_0x51836e=_0xaea4d2?_0x207604:0x1;_0x1b99c6[_0x470955(0x2fc)](_0x3a066d=>{const _0x426d30=_0x470955;if(_0x3a066d&&_0x3a066d[_0x426d30(0x378)]!==_0x426d30(0x2b0))_0x24332e(_0x3a066d,_0x3a066d[_0x426d30(0x258)]?_0x426d30(0x2a4):_0x426d30(0x234));});const _0x78ebea=_0x1b99c6[_0x470955(0x22b)](_0x188031=>_0x188031&&_0x188031['type']===_0x470955(0x274)&&_0x188031[_0x470955(0x258)]&&_0x188031[_0x470955(0x274)])['slice'](-_0x51836e),_0x23e2fc=_0x78ebea['length']?_0x78ebea['map'](_0x166f90=>_0x33f391(_0x166f90,_0x392258))['join']('\x0a'):'暂无\x20User\x20发言。',_0x125f30=_0x78ebea[_0x470955(0x34c)](_0x1ab43a=>_0x1ab43a['id'])[_0x470955(0x22b)](Boolean),_0x4252c3=window[_0x470955(0x27c)]?window['getGlobalWorldBookContextByPosition']('system_depth'):'',_0x165c3f=window[_0x470955(0x27c)]?window[_0x470955(0x27c)](_0x470955(0x3a3)):'',_0x190fa2=window[_0x470955(0x27c)]?window[_0x470955(0x27c)](_0x470955(0x4a9)):'',_0x2527a3=new Date(),_0x5d9818=['星期日',_0x470955(0x493),_0x470955(0x440),_0x470955(0x539),_0x470955(0x393),_0x470955(0x22d),_0x470955(0x53f)],_0x6620bf=_0x2527a3['getFullYear']()+'年'+(_0x2527a3[_0x470955(0x425)]()+0x1)+'月'+_0x2527a3[_0x470955(0x3a8)]()+'日\x20'+_0x5d9818[_0x2527a3[_0x470955(0x39a)]()]+'\x20'+_0x2527a3[_0x470955(0x1f8)]()+':'+String(_0x2527a3['getMinutes']())[_0x470955(0x3fa)](0x2,'0'),_0x308956='\x0a'+(_0x4252c3?_0x470955(0x3c2)+_0x4252c3+'\x0a\x0a':'')+(_0x165c3f?'Before\x20Role\x20Rules:\x0a'+_0x165c3f+'\x0a\x0a':'')+_0x470955(0x1b9)+_0x392258+'\x0aUser\x20的人设：'+(_0xfa68a1||_0x470955(0x4f7))+'\x0a'+_0x854551+'\x0a'+_0x1e88d7+_0x470955(0x345)+_0x6620bf+'\x0a'+(_0x190fa2?_0x470955(0x460)+_0x190fa2+'\x0a':'')+_0x470955(0x3a7)+_0x23e2fc+_0x470955(0x426)+_0x392258+_0x470955(0x49e)+_0x392258+_0x470955(0x510)+_0x392258+_0x470955(0x1d4)+_0x392258+_0x470955(0x4f2)+_0x392258+_0x470955(0x42f)+_0x392258+'\x20提到或追问别的队友。\x0a8.\x20可以使用中文、英文、韩文、日文或其他符合语境的语言；如果\x20text\x20不是纯中文，必须在\x20trans\x20中提供自然中文翻译。text\x20是中文时\x20trans\x20为空字符串。\x0a9.\x20你可以回复某条\x20User\x20消息；如需回复，请在该对象中填写\x20replyToId，值只能从这些\x20User\x20消息\x20id\x20中选择：'+(_0x125f30['length']?_0x125f30[_0x470955(0x54d)](',\x20'):'无')+_0x470955(0x356);_0x3a86da(_0x15522d,!![]);try{const _0x409d7a=await _0xde158a(_0x308956,_0x470955(0x301),0.85);if(!Array['isArray'](_0x409d7a))throw new Error(_0x470955(0x4b7));const _0x489d7e=Date[_0x470955(0x41b)](),_0x2ec6d5=_0x409d7a[_0x470955(0x260)](0x0,0xe)[_0x470955(0x34c)]((_0x5dcc39,_0x559a45)=>{const _0x20e8b9=_0x470955,_0x16ffa2=_0x53d238(_0x5dcc39&&_0x5dcc39[_0x20e8b9(0x4df)],_0xfa7496(_0x559a45)),_0x2e04d3=_0x53d238(typeof _0x5dcc39===_0x20e8b9(0x4b6)?_0x5dcc39:_0x5dcc39&&_0x5dcc39[_0x20e8b9(0x274)]),_0x2d2556=_0x53d238(_0x5dcc39&&(_0x5dcc39[_0x20e8b9(0x3db)]||_0x5dcc39[_0x20e8b9(0x1ea)]||_0x5dcc39[_0x20e8b9(0x1dc)])),_0x55f389=_0x53d238(_0x5dcc39&&(_0x5dcc39[_0x20e8b9(0x2d8)]||_0x5dcc39[_0x20e8b9(0x2d9)])),_0x59d54f=_0x437475(_0x1b99c6,_0x55f389,_0x462f5d=>_0x462f5d&&_0x462f5d[_0x20e8b9(0x258)]);if(!_0x2e04d3)return null;if(_0x1e2ec0(_0x2e04d3)&&!_0x2d2556)return null;return{'id':_0x467780('fan'),'isUser':![],'type':_0x20e8b9(0x274),'name':_0x16ffa2,'avatar':null,'avatarEmoji':_0x31f8eb('bstage-fan-'+_0x16ffa2+'-'+_0x559a45),'text':_0x2e04d3,'trans':_0x2d2556,'timestamp':_0x489d7e+_0x559a45,'replyTo':_0x59d54f?_0x2ab085(_0x59d54f,_0x392258):null};})[_0x470955(0x22b)](Boolean);if(_0x2ec6d5[_0x470955(0x388)]<0xa)throw new Error(_0x470955(0x567));_0x48a11b[_0x470955(0x35c)]('.bstage-system-notice')&&_0x1b99c6[_0x470955(0x388)]===0x0&&(_0x48a11b[_0x470955(0x51f)]=''),_0x3c3b34(_0x48a11b,_0x489d7e),_0x126003(),_0x2ec6d5[_0x470955(0x2fc)]((_0x338764,_0x3e3b0a)=>{setTimeout(()=>{const _0x5650b1=_0x5131;_0x1b99c6[_0x5650b1(0x27d)](_0x338764),_0x25ee91(_0x338764,_0x48a11b),_0x4b478e(),_0x3f4fff(),_0x48a11b[_0x5650b1(0x2eb)]=_0x48a11b['scrollHeight'];},_0x3e3b0a*0x28a);});}catch(_0x50f834){console[_0x470955(0x4fd)](_0x470955(0x263),_0x50f834),window[_0x470955(0x24d)](_0x50f834&&_0x50f834[_0x470955(0x3ba)]===_0x470955(0x473)?'请先在系统设置中配置\x20API':_0x470955(0x2ed));}finally{_0x3a86da(_0x15522d,![]);}}const _0x38001e=document['getElementById']('bstage-fan-chat-input'),_0x54c195=document[_0x40029b(0x284)](_0x40029b(0x544)),_0x4ad171=document[_0x40029b(0x284)]('bstage-fan-chat-api-btn');_0x38001e&&_0x38001e[_0x40029b(0x4ed)](_0x40029b(0x300),_0x51455a=>{const _0x5df516=_0x40029b;_0x51455a[_0x5df516(0x227)]==='Enter'&&!_0x51455a['shiftKey']&&!_0x51455a[_0x5df516(0x4aa)]&&!_0x51455a[_0x5df516(0x304)]&&!_0x51455a[_0x5df516(0x565)]&&_0x51455a['keyCode']!==0xe5&&(_0x51455a['preventDefault'](),_0x2467ba(),_0x38001e['blur']());});_0x54c195&&(_0x54c195[_0x40029b(0x4ed)](_0x40029b(0x52d),_0x2467ba),_0x54c195[_0x40029b(0x4ed)](_0x40029b(0x300),_0x412829=>{const _0x2e7e47=_0x40029b;(_0x412829[_0x2e7e47(0x227)]===_0x2e7e47(0x1fd)||_0x412829[_0x2e7e47(0x227)]==='\x20')&&(_0x412829[_0x2e7e47(0x2c6)](),_0x2467ba());}));_0x4ad171&&(_0x4ad171['addEventListener'](_0x40029b(0x52d),_0x75d4fe),_0x4ad171[_0x40029b(0x4ed)](_0x40029b(0x300),_0xec9191=>{const _0x2bc7ce=_0x40029b;(_0xec9191[_0x2bc7ce(0x227)]===_0x2bc7ce(0x1fd)||_0xec9191[_0x2bc7ce(0x227)]==='\x20')&&(_0xec9191[_0x2bc7ce(0x2c6)](),_0x75d4fe());}));const _0x5e93db=document['getElementById'](_0x40029b(0x3a1));_0x5e93db&&_0x5e93db[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{const _0x135c16=_0x40029b;window[_0x135c16(0x3e9)](_0x3f689c),_0x4a49e7();});function _0x59e880(){const _0x1cfb99=_0x40029b,_0x2102c4=document[_0x1cfb99(0x284)](_0x1cfb99(0x327));if(!_0x2102c4)return;const _0x4e9c18=window[_0x1cfb99(0x434)]?window['userState'][_0x1cfb99(0x3a2)]:null;_0x4e9c18?(_0x2102c4[_0x1cfb99(0x51f)]='<img\x20src=\x22'+_0x4e9c18+_0x1cfb99(0x25f),_0x2102c4['style']['overflow']='hidden',_0x2102c4[_0x1cfb99(0x466)]['border']='none'):(_0x2102c4[_0x1cfb99(0x51f)]=_0x1cfb99(0x4a7),_0x2102c4['style']['overflow']='',_0x2102c4['style'][_0x1cfb99(0x4a8)]='');}_0x59e880();const _0x291394=document[_0x40029b(0x284)](_0x40029b(0x53a))[_0x40029b(0x1c1)];document['getElementById'](_0x40029b(0x53a))[_0x40029b(0x4ed)](_0x40029b(0x52d),()=>{setTimeout(_0x59e880,0x32);});function _0x341df5(){const _0x50df31=_0x40029b,_0x9b2589=_0x13d678(),_0x50986f=_0x5a9861=>Array['isArray'](_0x5a9861)?_0x5a9861['map'](_0x2d21a7=>Array[_0x50df31(0x481)](_0x2d21a7?.[_0x50df31(0x1cf)])?_0x2d21a7['chatHistory'][_0x50df31(0x388)]:0x0):[];return JSON[_0x50df31(0x4d4)]({'updatedAt':_0x469a3e,'teams':_0x10b4c8[_0x50df31(0x34c)](_0x4fff23=>_0x4fff23&&_0x4fff23['id']),'teamMemberCounts':_0x10b4c8['map'](_0x3afa7d=>Array['isArray'](_0x3afa7d&&_0x3afa7d['members'])?_0x3afa7d[_0x50df31(0x501)]['length']:0x0),'teamChatHistoryCounts':_0x10b4c8[_0x50df31(0x34c)](_0x406e2b=>_0x50986f(_0x406e2b?.[_0x50df31(0x501)])),'userTeamMembers':Array[_0x50df31(0x481)](_0x9b2589[_0x50df31(0x501)])?_0x9b2589[_0x50df31(0x501)][_0x50df31(0x388)]:0x0,'userTeamChatHistoryCounts':_0x50986f(_0x9b2589[_0x50df31(0x501)]),'fanHistoryCount':Array[_0x50df31(0x481)](_0x1b99c6)?_0x1b99c6[_0x50df31(0x388)]:0x0});}function _0x5de8c0(){_0x4fbbe9(),setTimeout(()=>{const _0x5fdc0e=_0x5131,_0x189165=_0x4633b3&&_0x4633b3['id'],_0x288f84=_0x189165&&!_0x391fff(_0x4633b3)?_0x10b4c8[_0x5fdc0e(0x372)](_0x3a43bf=>String(_0x3a43bf['id'])===String(_0x189165))||_0x13d678():_0x13d678();_0x4d6ec5(_0x288f84);},0x32);}_0x5de8c0();if(window[_0x40029b(0x4ba)]&&typeof window['globalDataReadyPromise'][_0x40029b(0x320)]===_0x40029b(0x414)){const _0x294cce=_0x341df5();window[_0x40029b(0x457)]=window['globalDataReadyPromise'][_0x40029b(0x320)](async()=>{const _0x7265fb=_0x40029b,_0x5ec720=_0x598789({'persistNormalized':!![]});_0x1aa780=!![];if(_0x5ec720)await _0x3f4fff({'flush':!![]});const _0x506cad=!!_0x16a7b0&&_0x4523e6[_0x7265fb(0x466)]['display']!==_0x7265fb(0x2cc),_0x352445=_0x44b072();_0x1814ab(),_0x22587d();const _0x2d6e89=_0x341df5();_0x2d6e89!==_0x294cce&&_0x5de8c0();if(_0x506cad&&_0x352445)_0x5df4d7(_0x16a7b0);return!![];})[_0x40029b(0x2e0)](_0x24ac1a=>{const _0x357aaa=_0x40029b;return console[_0x357aaa(0x451)](_0x357aaa(0x3d9),_0x24ac1a),_0x1aa780=!![],_0x1814ab(),_0x22587d(),![];});}else _0x1aa780=!![],_0x1814ab(),_0x22587d(),window[_0x40029b(0x457)]=Promise[_0x40029b(0x532)](!![]);}));
+document.addEventListener('DOMContentLoaded', () => {
+    // DOM Elements
+    const bstageView = document.createElement('div');
+    bstageView.className = 'app-view bstage-view';
+    bstageView.id = 'bstage-view';
+    
+    // Inject HTML Structure
+    bstageView.innerHTML = `
+        <!-- Header -->
+        <div class="bstage-header">
+            <div class="bstage-logo" id="bstage-back-btn">b.stage</div>
+            <div class="bstage-header-right">
+                <i class="fas fa-search bstage-icon-btn" id="bstage-search-generate-btn"></i>
+                <i class="fas fa-cog bstage-icon-btn" id="bstage-global-settings-btn"></i>
+                <div class="bstage-avatar-placeholder" id="bstage-header-profile-container"><i class="fas fa-user"></i></div>
+            </div>
+        </div>
+
+        <!-- Following Bar -->
+        <div class="bstage-following-bar" id="bstage-following-bar">
+            <!-- Add Button -->
+            <div class="bstage-team-item" id="bstage-create-team-btn">
+                <div class="bstage-create-btn">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="bstage-team-name">创建</div>
+            </div>
+            <!-- Teams will be injected here -->
+        </div>
+
+        <!-- Content Area -->
+        <div class="bstage-content-area" id="bstage-content-area">
+            <!-- Default Empty State or Team View -->
+            <div style="height: 100%; display: flex; justify-content: center; align-items: center; color: #333; font-size: 14px;">
+                请选择或创建一个团队
+            </div>
+        </div>
+
+        <!-- Floating Bottom Nav (Hidden by default) -->
+        <div class="bstage-bottom-nav-container" id="bstage-bottom-nav" style="display: none;">
+            <div class="bstage-bottom-nav">
+                <div class="bstage-nav-indicator"></div>
+                <div class="bstage-nav-item active" data-tab="home">Home</div>
+                <div class="bstage-nav-item" data-tab="content">Content</div>
+                <div class="bstage-nav-item" data-tab="shop">Shop</div>
+                <div class="bstage-nav-item" data-tab="pop">Pop</div>
+            </div>
+        </div>
+    `;
+
+    document.getElementById('app').appendChild(bstageView);
+
+    // Chat View
+    const bstageChatView = document.createElement('div');
+    bstageChatView.className = 'app-view bstage-chat-view';
+    bstageChatView.id = 'bstage-chat-view';
+    bstageChatView.style.backgroundColor = '#1c1c1e';
+    bstageChatView.innerHTML = `
+        <div class="bstage-header chat-header" style="background-color: transparent;">
+            <div class="bstage-icon-btn" id="bstage-chat-back-btn"><i class="fas fa-chevron-left"></i></div>
+            <div class="bstage-chat-header-info">
+                <div class="bstage-chat-name" id="bstage-chat-name">Name</div>
+                <div class="bstage-chat-days" id="bstage-chat-days">已一同 1 天</div>
+            </div>
+            <div class="bstage-icon-btn" id="bstage-chat-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="bstage-chat-content" id="bstage-chat-content">
+            <!-- Messages go here -->
+        </div>
+        <div class="bstage-chat-input-area">
+            <div class="bstage-reply-preview" id="bstage-chat-reply-preview" style="display:none;">
+                <div class="bstage-reply-preview-content">
+                    <div class="bstage-reply-preview-label">正在回复</div>
+                    <div class="bstage-reply-preview-text" id="bstage-chat-reply-preview-text"></div>
+                </div>
+                <div class="bstage-reply-preview-close" id="bstage-chat-reply-cancel-btn" role="button" tabindex="0" aria-label="取消回复" title="取消回复">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="bstage-chat-input-wrapper">
+                <input type="text" id="bstage-chat-input" placeholder="Send a message..." style="color: #fff; background-color: transparent; border: none; outline: none;">
+                <div id="bstage-chat-send-btn" class="bstage-chat-action-btn bstage-chat-send-btn" role="button" tabindex="0" aria-label="发送消息" title="发送消息">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <div id="bstage-chat-api-btn" class="bstage-chat-action-btn bstage-chat-api-btn" role="button" tabindex="0" aria-label="调用 API" title="调用 API">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(bstageChatView);
+
+    // Fan Chat View
+    const bstageFanChatView = document.createElement('div');
+    bstageFanChatView.className = 'app-view bstage-chat-view bstage-fan-chat-view';
+    bstageFanChatView.id = 'bstage-fan-chat-view';
+    bstageFanChatView.style.backgroundColor = '#1c1c1e';
+    bstageFanChatView.innerHTML = `
+        <div class="bstage-header chat-header" style="background-color: transparent;">
+            <div class="bstage-icon-btn" id="bstage-fan-chat-back-btn"><i class="fas fa-chevron-left"></i></div>
+            <div class="bstage-chat-header-info">
+                <div class="bstage-chat-name" id="bstage-fan-chat-name">粉丝聊天室</div>
+                <div class="bstage-chat-days" id="bstage-fan-chat-subtitle">已订阅 0 人</div>
+            </div>
+            <div class="bstage-icon-btn" id="bstage-fan-chat-menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="bstage-chat-content" id="bstage-fan-chat-content">
+            <!-- Fan messages go here -->
+        </div>
+        <div class="bstage-chat-input-area">
+            <div class="bstage-reply-preview" id="bstage-fan-chat-reply-preview" style="display:none;">
+                <div class="bstage-reply-preview-content">
+                    <div class="bstage-reply-preview-label">正在回复</div>
+                    <div class="bstage-reply-preview-text" id="bstage-fan-chat-reply-preview-text"></div>
+                </div>
+                <div class="bstage-reply-preview-close" id="bstage-fan-chat-reply-cancel-btn" role="button" tabindex="0" aria-label="取消回复" title="取消回复">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="bstage-chat-input-wrapper">
+                <input type="text" id="bstage-fan-chat-input" placeholder="对粉丝说点什么..." style="color: #fff; background-color: transparent; border: none; outline: none;">
+                <div id="bstage-fan-chat-send-btn" class="bstage-chat-action-btn bstage-chat-send-btn" role="button" tabindex="0" aria-label="发送消息" title="发送消息">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <div id="bstage-fan-chat-api-btn" class="bstage-chat-action-btn bstage-chat-api-btn" role="button" tabindex="0" aria-label="调用 API" title="调用 API">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(bstageFanChatView);
+
+    // Other Fans Center Modal for char chats
+    const bstageOtherFansModal = document.createElement('div');
+    bstageOtherFansModal.className = 'bstage-center-modal-overlay';
+    bstageOtherFansModal.id = 'bstage-other-fans-modal';
+    bstageOtherFansModal.innerHTML = `
+        <section class="bstage-center-modal-card" role="dialog" aria-modal="true" aria-labelledby="bstage-other-fans-title">
+            <div class="bstage-center-modal-heading">
+                <div>
+                    <small>OTHER FANS</small>
+                    <h2 id="bstage-other-fans-title">其他人的消息</h2>
+                </div>
+                <button type="button" class="bstage-center-modal-close" id="bstage-other-fans-close-btn" aria-label="关闭">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="bstage-other-fans-list" id="bstage-other-fans-list"></div>
+        </section>
+    `;
+    document.getElementById('app').appendChild(bstageOtherFansModal);
+    bstageOtherFansModal.addEventListener('click', (event) => {
+        if (event.target === bstageOtherFansModal) closeOtherFansModal();
+    });
+    const otherFansCloseBtn = bstageOtherFansModal.querySelector('#bstage-other-fans-close-btn');
+    if (otherFansCloseBtn) otherFansCloseBtn.addEventListener('click', closeOtherFansModal);
+
+    // Global Settings Modal
+    const globalSettingsModal = document.createElement('div');
+    globalSettingsModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    globalSettingsModal.id = 'bstage-global-settings-modal';
+    globalSettingsModal.style.zIndex = '2000';
+    globalSettingsModal.innerHTML = `
+        <div class="bottom-sheet" style="height: 90%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">CSS 预设管理</div>
+            <div class="detail-sheet-content" style="padding-bottom: 20px;">
+                <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                    <button class="bstage-preset-tab active" data-type="chatCss" style="flex: 1; padding: 8px; background: #fff; color: #000; border-radius: 8px; border: none; font-weight: bold;">聊天界面</button>
+                    <button class="bstage-preset-tab" data-type="avatarFrameCss" style="flex: 1; padding: 8px; background: #2c2c2e; color: #fff; border-radius: 8px; border: none; font-weight: bold;">头像框</button>
+                    <button class="bstage-preset-tab" data-type="bubbleCss" style="flex: 1; padding: 8px; background: #2c2c2e; color: #fff; border-radius: 8px; border: none; font-weight: bold;">气泡</button>
+                </div>
+                
+                <div id="bstage-preset-list" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 15px; max-height: 200px; overflow-y: auto;">
+                    <!-- 预设列表将在这里渲染 -->
+                </div>
+                
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <input type="text" id="bstage-preset-name-input" placeholder="预设名称" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 8px 0;">
+                    </div>
+                    <div class="bstage-form-item">
+                        <textarea id="bstage-preset-css-input" placeholder="输入 CSS 代码..." style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 8px 0; height: 100px;"></textarea>
+                    </div>
+                </div>
+                <div class="sheet-action confirm-action" id="bstage-save-preset-btn" style="background-color: #007aff; color: #fff; margin-top: 15px;">保存为新预设</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(globalSettingsModal);
+
+    // Search Generate Modal
+    const searchGenerateModal = document.createElement('div');
+    searchGenerateModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    searchGenerateModal.id = 'bstage-search-generate-modal';
+    searchGenerateModal.style.zIndex = '1200';
+    searchGenerateModal.innerHTML = `
+        <div class="bottom-sheet bstage-search-generate-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">搜索生成团队</div>
+            <div class="detail-sheet-content bstage-modal-content">
+                <div class="bstage-search-generate-hint">输入想搜索的团队或明星，AI 会按内容生成团队资料和成员设定；留空则随机生成。</div>
+                <div class="bstage-search-form">
+                    <label class="bstage-search-label" for="bstage-search-query-input">搜索内容</label>
+                    <input type="text" id="bstage-search-query-input" class="bstage-search-input" placeholder="例如：韩系男团、清冷女演员、摇滚乐队；留空随机">
+                </div>
+                <div class="bstage-search-form">
+                    <label class="bstage-search-label" for="bstage-search-member-count">团队人数</label>
+                    <input type="number" id="bstage-search-member-count" class="bstage-search-input" value="1" min="1" max="12" step="1" inputmode="numeric">
+                </div>
+                <div id="bstage-search-loading" class="bstage-search-loading" style="display:none;">
+                    <i class="fas fa-spinner"></i>
+                    <span>正在生成团队...</span>
+                </div>
+                <div class="sheet-action confirm-action bstage-search-confirm-btn" id="bstage-search-confirm-btn" style="background-color: #fff; color: #000;">生成团队</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(searchGenerateModal);
+
+    // Create Modals
+    const createTeamSheet = document.createElement('div');
+    createTeamSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    createTeamSheet.id = 'bstage-create-sheet';
+    createTeamSheet.style.zIndex = '200'; // Ensure lower than char sheet
+    createTeamSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: 80%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">创建团队</div>
+            <div class="detail-sheet-content">
+                <!-- Team Background -->
+                <div class="sheet-title" style="margin-top: 0; margin-bottom: 10px; color: #aaa; font-size: 14px;">主页背景</div>
+                <div class="bstage-bg-upload" id="bstage-team-bg-upload" style="background-color: #2c2c2e; border-color: #444; overflow: hidden; position: relative;">
+                    <span style="color: #aaa; font-size: 14px; position: relative; z-index: 1;">点击上传背景图</span>
+                    <img id="bstage-team-bg-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+
+                <!-- Team Avatar -->
+                <div class="bstage-avatar-upload" id="bstage-team-avatar-upload" style="background-color: #2c2c2e; margin-top: -60px; position: relative; z-index: 2; border: 4px solid #1c1c1e; overflow: hidden;">
+                    <i class="fas fa-camera" style="color: #aaa; position: relative; z-index: 1;"></i>
+                    <img id="bstage-team-avatar-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+
+                <!-- Team Name & Info -->
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <label style="color: #aaa;">团队名</label>
+                        <input type="text" id="bstage-team-name-input" placeholder="输入团队名称" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                    <div class="bstage-form-item">
+                        <label style="color: #aaa;">团队信息</label>
+                        <textarea id="bstage-team-desc-input" placeholder="输入团队简介..." style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px; min-height: 60px;"></textarea>
+                    </div>
+                </div>
+
+                <!-- Add Characters -->
+                <div class="sheet-title" style="margin-top: 20px; margin-bottom: 10px; color: #fff;">添加成员</div>
+                <div class="bstage-chars-list-preview" id="bstage-chars-preview-list">
+                    <!-- Preview of added chars -->
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <div class="bstage-add-char-btn" id="bstage-add-char-btn" style="flex: 1; background-color: #2c2c2e; color: #fff; padding: 10px; border-radius: 12px; font-size: 14px;">+ 手动添加</div>
+                    <div class="bstage-add-char-btn" id="bstage-pull-friend-btn" style="flex: 1; background-color: #2c2c2e; color: #fff; padding: 10px; border-radius: 12px; font-size: 14px;">+ 拉取已有好友</div>
+                </div>
+
+                <div class="sheet-action confirm-action" id="bstage-confirm-create-btn" style="background-color: #fff; color: #000; margin-top: 30px;">完成创建</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(createTeamSheet);
+
+    // Add Character Sub-Modal (Simulated by replacing content or overlay)
+    // Needs higher z-index to show over create team sheet and edit team sheet
+    const addCharSheet = document.createElement('div');
+    addCharSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    addCharSheet.id = 'bstage-add-char-sheet';
+    addCharSheet.style.zIndex = '1500'; /* Higher than edit team sheet */
+    addCharSheet.innerHTML = `
+        <div class="bottom-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">添加成员</div>
+            <div class="detail-sheet-content">
+                <div class="bstage-avatar-upload" id="bstage-char-avatar-upload" style="background-color: #2c2c2e; overflow: hidden; position: relative;">
+                    <i class="fas fa-user" style="color: #aaa; position: relative; z-index: 1;"></i>
+                    <img id="bstage-char-avatar-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <label style="color: #aaa;">名字</label>
+                        <input type="text" id="bstage-char-name-input" placeholder="成员名字" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                    <div class="bstage-form-item">
+                        <label style="color: #aaa;">人设</label>
+                        <input type="text" id="bstage-char-role-input" placeholder="简单的描述" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                </div>
+                <div class="sheet-action confirm-action" id="bstage-confirm-add-char-btn" style="background-color: #fff; color: #000;">添加</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(addCharSheet);
+
+    // Pull Friend Sheet
+    const pullFriendSheet = document.createElement('div');
+    pullFriendSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    pullFriendSheet.id = 'bstage-pull-friend-sheet';
+    pullFriendSheet.style.zIndex = '1550';
+    pullFriendSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: 70%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">选择好友</div>
+            <div class="detail-sheet-content" style="flex: 1; overflow-y: auto;">
+                <div id="bstage-friend-list" style="display: flex; flex-direction: column; gap: 10px; padding-bottom: 20px;">
+                    <!-- Friend items injected here -->
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(pullFriendSheet);
+
+    // Subscription Modal
+    const subModal = document.createElement('div');
+    subModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    subModal.id = 'bstage-sub-modal';
+    subModal.innerHTML = `
+        <div class="bottom-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">MEMBERSHIP</div>
+            <div class="detail-sheet-content bstage-modal-content">
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px; color: #fff;">加入团队会员</h3>
+                    <p style="color: #aaa; font-size: 13px;">享受独家内容与购物特权</p>
+                </div>
+                
+                <div class="bstage-price-options">
+                    <div class="bstage-price-option selected" data-type="year" style="border: 1px solid #fff; border-radius: 12px; margin-bottom: 10px; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background-color: #2c2c2e;">
+                        <span class="bstage-price-title" style="color: #fff; font-weight: 600;">年卡会员</span>
+                        <span class="bstage-price-amount" style="color: #fff; font-weight: 600;">₩89,000 / 年</span>
+                    </div>
+                    <div class="bstage-price-option" data-type="month" style="border: 1px solid transparent; border-radius: 12px; padding: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background-color: #2c2c2e;">
+                        <span class="bstage-price-title" style="color: #fff; font-weight: 600;">月卡会员</span>
+                        <span class="bstage-price-amount" style="color: #fff; font-weight: 600;">₩8,900 / 月</span>
+                    </div>
+                </div>
+
+                <div class="sheet-action confirm-action" id="bstage-confirm-sub-btn" style="background-color: #fff; color: #000; margin-top: 20px; border-radius: 25px;">立即订阅</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(subModal);
+
+    // Pop Subscription Modal
+    const popSubModal = document.createElement('div');
+    popSubModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    popSubModal.id = 'bstage-pop-sub-modal';
+    popSubModal.innerHTML = `
+        <div class="bottom-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">POP SUBSCRIPTION</div>
+            <div class="detail-sheet-content bstage-modal-content">
+                <div style="text-align: center; margin-bottom: 20px;">
+                    <h3 style="font-size: 20px; font-weight: 700; margin-bottom: 8px; color: #fff;" id="pop-sub-char-name">Subscribe to Character</h3>
+                    <p style="color: #aaa; font-size: 13px;">开启私密聊天之旅</p>
+                </div>
+                
+                <div class="bstage-price-options">
+                    <div class="bstage-price-option selected" style="border: 1px solid #fff; border-radius: 12px; padding: 15px; display: flex; justify-content: space-between; align-items: center; background-color: #2c2c2e;">
+                        <span class="bstage-price-title" style="color: #fff; font-weight: 600;">月度订阅</span>
+                        <span class="bstage-price-amount" style="color: #fff; font-weight: 600;">₩4,500 / 月</span>
+                    </div>
+                </div>
+
+                <div class="sheet-action confirm-action" id="bstage-confirm-pop-sub-btn" style="background-color: #fff; color: #000; margin-top: 20px; border-radius: 25px;">确认支付</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(popSubModal);
+
+    // User Profile Modal
+    const userProfileModal = document.createElement('div');
+    userProfileModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    userProfileModal.id = 'bstage-user-profile-modal';
+    userProfileModal.innerHTML = `
+        <div class="bottom-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="detail-sheet-content bstage-modal-content" style="text-align: center;">
+                <div style="width: 80px; height: 80px; border-radius: 50%; background-color: #2c2c2e; margin: 0 auto 15px; display: flex; justify-content: center; align-items: center; overflow: hidden; border: none;">
+                    <img id="bstage-profile-avatar-display" src="" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+                    <i class="fas fa-user" id="bstage-profile-avatar-icon" style="font-size: 30px; color: #aaa;"></i>
+                </div>
+                <h2 style="font-size: 20px; font-weight: 700; margin-bottom: 20px; color: #fff;" id="bstage-profile-name-display">User Name</h2>
+                
+                <div class="bstage-profile-stats-container">
+                    <div class="bstage-profile-stat-bubble" style="background-color: #2c2c2e; color: #fff; border: none;">
+                        <span class="bstage-stat-label" style="color: #aaa;">POP 订阅</span>
+                        <span class="bstage-stat-value" id="bstage-profile-pop-sub-count" style="color: #fff;">0</span>
+                    </div>
+                    <div class="bstage-profile-stat-bubble" style="background-color: #2c2c2e; color: #fff; border: none;">
+                        <span class="bstage-stat-label" style="color: #aaa;">订阅收益</span>
+                        <span class="bstage-stat-value" id="bstage-profile-sub-revenue" style="color: #fff;">￥0.00</span>
+                    </div>
+                </div>
+
+                <div class="bstage-profile-actions">
+                    <div class="bstage-profile-btn" id="bstage-edit-profile-btn" style="background-color: #2c2c2e; color: #fff; border: none;">
+                        <i class="fas fa-pen"></i> 编辑资料
+                    </div>
+                    <div class="bstage-profile-btn" id="bstage-withdraw-revenue-btn" style="background-color: #2c2c2e; color: #fff; border: none;">
+                        <i class="fas fa-wallet"></i> 提现到 Pay
+                    </div>
+                    <div class="bstage-profile-btn" id="bstage-my-orders-btn" style="background-color: #2c2c2e; color: #fff; border: none;">
+                        <i class="fas fa-receipt"></i> 我的订单
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(userProfileModal);
+
+    // Orders Modal
+    const ordersModal = document.createElement('div');
+    ordersModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    ordersModal.id = 'bstage-orders-modal';
+    ordersModal.innerHTML = `
+        <div class="bottom-sheet" style="height: 70%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">我的订单</div>
+            <div class="detail-sheet-content">
+                <div id="bstage-orders-list" style="display: flex; flex-direction: column; gap: 10px; padding: 0 16px 20px;">
+                    <!-- Orders Injected Here -->
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(ordersModal);
+
+    // Edit Profile Modal
+    const editProfileModal = document.createElement('div');
+    editProfileModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    editProfileModal.id = 'bstage-edit-profile-modal';
+    editProfileModal.innerHTML = `
+        <div class="bottom-sheet" style="background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">编辑资料</div>
+            <div class="detail-sheet-content">
+                <div class="bstage-avatar-upload" id="bstage-edit-profile-avatar-upload" style="background-color: #2c2c2e; overflow: hidden; position: relative;">
+                    <i class="fas fa-camera" style="color: #aaa; position: relative; z-index: 1;"></i>
+                    <img id="bstage-edit-profile-avatar-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <label style="color: #aaa;">昵称</label>
+                        <input type="text" id="bstage-edit-profile-name" placeholder="输入昵称" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                    <div class="bstage-form-item">
+                        <label style="color: #aaa;">人设</label>
+                        <input type="text" id="bstage-edit-profile-persona" placeholder="输入你的粉丝人设" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                </div>
+                <div class="sheet-action confirm-action" id="bstage-save-profile-btn" style="background-color: #fff; color: #000;">保存</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(editProfileModal);
+
+    // Shared Generate Type Sheet
+    const generateTypeSheet = document.createElement('div');
+    generateTypeSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    generateTypeSheet.id = 'bstage-generate-type-sheet';
+    generateTypeSheet.style.zIndex = '2200';
+    generateTypeSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: auto; max-height: 70%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle"></div>
+            <div class="sheet-title" id="bstage-generate-type-title">生成内容</div>
+            <div class="detail-sheet-content bstage-modal-content">
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item">
+                        <label id="bstage-generate-type-label" style="color: #aaa;">想看什么类型</label>
+                        <input type="text" id="bstage-generate-type-input" placeholder="留空则随机生成" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                </div>
+                <div class="sheet-action confirm-action" id="bstage-generate-type-confirm-btn" style="background-color: #fff; color: #000;">确认生成</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(generateTypeSheet);
+
+    // Edit Team Sheet
+    const editTeamSheet = document.createElement('div');
+    editTeamSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    editTeamSheet.id = 'bstage-edit-team-sheet';
+    editTeamSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: 80%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle"></div>
+            <div class="sheet-title">编辑团队</div>
+            <div class="detail-sheet-content">
+                <!-- Team Avatar -->
+                <div class="bstage-avatar-upload" id="bstage-edit-team-avatar-upload" style="background-color: #2c2c2e; overflow: hidden; position: relative;">
+                    <i class="fas fa-camera" style="color: #aaa; position: relative; z-index: 1;"></i>
+                    <img id="bstage-edit-team-avatar-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+
+                <!-- Team Name -->
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <label style="color: #aaa;">团队名</label>
+                        <input type="text" id="bstage-edit-team-name-input" placeholder="输入团队名称" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0; margin-top: 4px;">
+                    </div>
+                </div>
+
+                <!-- Team Background -->
+                <div class="sheet-title" style="margin-top: 20px; margin-bottom: 10px;">主页背景</div>
+                <div class="bstage-bg-upload" id="bstage-edit-team-bg-upload" style="background-color: #2c2c2e; border-color: #444; overflow: hidden; position: relative;">
+                    <span style="color: #888; font-size: 14px; position: relative; z-index: 1;">点击上传背景图</span>
+                    <img id="bstage-edit-team-bg-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+
+                <!-- Manage Members -->
+                <div class="sheet-title" style="margin-top: 20px; margin-bottom: 10px; color: #fff;">成员管理</div>
+                <div class="bstage-chars-list-preview" id="bstage-edit-team-members-list">
+                    <!-- Members Injected Here -->
+                </div>
+                <div style="display: flex; gap: 10px;">
+                    <div class="bstage-add-char-btn" id="bstage-edit-team-add-member-btn" style="flex: 1; background-color: #2c2c2e; color: #fff; padding: 10px; border-radius: 12px; font-size: 14px;">+ 手动添加</div>
+                    <div class="bstage-add-char-btn" id="bstage-edit-team-pull-friend-btn" style="flex: 1; background-color: #2c2c2e; color: #fff; padding: 10px; border-radius: 12px; font-size: 14px;">+ 拉取已有好友</div>
+                </div>
+
+                <div class="sheet-action confirm-action" id="bstage-confirm-edit-team-btn" style="background-color: #fff; color: #000; margin-top: 30px;">保存修改</div>
+                <div class="sheet-action" id="bstage-delete-team-btn" style="background-color: #ff3b30; color: #fff; margin-top: 10px;">删除团队</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(editTeamSheet);
+
+    // Edit Video Sheet
+    const editVideoSheet = document.createElement('div');
+    editVideoSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    editVideoSheet.id = 'bstage-edit-video-sheet';
+    editVideoSheet.style.zIndex = '1000'; // Significantly higher to ensure visibility over detail modal
+    editVideoSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: 85%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle"></div>
+            <div class="sheet-title">编辑视频信息</div>
+            <div class="detail-sheet-content">
+                <!-- Cover Upload -->
+                <div class="sheet-title" style="margin-top: 0; margin-bottom: 10px; font-size: 14px;">封面</div>
+                <div class="bstage-bg-upload" id="bstage-edit-video-cover-upload" style="height: 120px; overflow: hidden; position: relative;">
+                    <span style="color: #888; font-size: 13px; position: relative; z-index: 1;">点击上传封面</span>
+                    <img id="bstage-edit-video-cover-preview" src="" style="width: 100%; height: 100%; object-fit: cover; display: none; position: absolute; top: 0; left: 0; z-index: 0;">
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+
+                <!-- Info Form -->
+                <div class="bstage-form-group" style="background-color: #2c2c2e; border-color: #333;">
+                    <div class="bstage-form-item" style="border-bottom-color: #444;">
+                        <label style="color: #aaa;">视频标题</label>
+                        <input type="text" id="bstage-edit-video-title" placeholder="输入标题" style="color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0;">
+                    </div>
+                    <div class="bstage-form-item">
+                        <label style="color: #aaa;">简介</label>
+                        <textarea id="bstage-edit-video-desc" placeholder="输入视频简介..." style="height: 80px; color: #fff; background-color: transparent; border: none; outline: none; width: 100%; padding: 4px 0;"></textarea>
+                    </div>
+                </div>
+
+                <div class="sheet-action confirm-action" id="bstage-confirm-edit-video-btn" style="background-color: #000; color: #fff; margin-top: 20px;">保存</div>
+                <div class="sheet-action" id="bstage-delete-video-btn" style="background-color: #ff3b30; color: #fff; margin-top: 10px;">删除视频</div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(editVideoSheet);
+
+    // Chat Detail Sheet (P2)
+    const chatDetailSheet = document.createElement('div');
+    chatDetailSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    chatDetailSheet.id = 'bstage-chat-detail-sheet';
+    chatDetailSheet.style.zIndex = '1200'; // Ensure higher than chat view to fix menu click issue
+    chatDetailSheet.innerHTML = `
+        <style>
+            #bstage-chat-detail-sheet .bstage-setting-item { background-color: #2c2c2e !important; color: #fff !important; border-bottom: none !important; }
+            #bstage-chat-detail-sheet .bstage-setting-icon { color: #aaa !important; }
+            #bstage-chat-detail-sheet .bstage-setting-label { color: #fff !important; }
+            #bstage-chat-detail-sheet .bstage-settings-list { background-color: #1c1c1e; }
+        </style>
+        <div class="bottom-sheet" style="height: 90%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="detail-sheet-content bstage-modal-content" style="padding: 0;">
+                <!-- Profile Section -->
+                <div style="text-align: center; padding: 20px 0;">
+                    <div id="bstage-detail-avatar-container" style="width: 80px; height: 80px; border-radius: 50%; background-color: #1c1c1e; margin: 0 auto 10px; overflow: hidden; border: 1px solid #333; display: flex; justify-content: center; align-items: center;">
+                        <img id="bstage-detail-avatar" src="" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div id="bstage-detail-avatar-text" style="display:none; color:#fff; font-size:30px;"></div>
+                    </div>
+                    <h2 style="font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 5px;" id="bstage-detail-name">Name</h2>
+                    <div style="font-size: 13px; color: #aaa; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                        <i class="fas fa-heart" style="color: #ff3b30;"></i>
+                        <span id="bstage-detail-days">已一同 1 天</span>
+                    </div>
+                </div>
+
+                <!-- Locker Section -->
+                <div style="padding: 0 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                        <span style="font-size: 14px; font-weight: 600; color: #aaa;">置物柜</span>
+                        <span style="font-size: 14px; color: #fff; cursor: pointer;" id="bstage-locker-see-all-btn">看全部</span>
+                    </div>
+                    <div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 20px;" id="bstage-locker-preview-list">
+                        <!-- Preview Photos -->
+                    </div>
+                </div>
+
+                <!-- Settings List -->
+                <div class="bstage-settings-list">
+                    <div class="bstage-setting-item" id="bstage-setting-nickname">
+                        <div class="bstage-setting-icon"><i class="fas fa-user"></i></div>
+                        <div class="bstage-setting-label">昵称设置</div>
+                    </div>
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-image"></i></div>
+                        <div class="bstage-setting-label" id="bstage-setting-bg" style="flex:1;">背景设定</div>
+                        <div class="bstage-setting-right-action" id="bstage-reset-bg-btn" style="color: #aaa;">重置</div>
+                        <input type="file" id="bstage-chat-bg-input" accept="image/*" style="display:none;">
+                    </div>
+
+                    <!-- CSS Presets Settings -->
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="bstage-setting-label" style="flex:1;">界面 CSS</div>
+                        <select id="bstage-chat-css-select" style="background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; width: 120px; outline: none;">
+                            <option value="">默认</option>
+                        </select>
+                    </div>
+                    
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-crop-alt"></i></div>
+                        <div class="bstage-setting-label" style="flex:1;">头像框 CSS</div>
+                        <select id="bstage-frame-css-select" style="background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; width: 120px; outline: none;">
+                            <option value="">默认</option>
+                        </select>
+                    </div>
+                    
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-comment-dots"></i></div>
+                        <div class="bstage-setting-label" style="flex:1;">气泡 CSS</div>
+                        <select id="bstage-bubble-css-select" style="background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; width: 120px; outline: none;">
+                            <option value="">默认</option>
+                        </select>
+                    </div>
+
+                    <!-- Context Setting -->
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-history"></i></div>
+                        <div class="bstage-setting-label" style="flex: 1;">上下文携带</div>
+                        <input type="number" id="bstage-context-count" value="50" style="width: 50px; background: transparent; border: 1px solid #444; color: #fff; text-align: center; border-radius: 4px; margin-right: 10px;">
+                        <div class="bstage-switch active" id="bstage-context-switch">
+                            <div class="bstage-switch-knob"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Translation Switch -->
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-language"></i></div>
+                        <div class="bstage-setting-label" style="flex: 1;">实时翻译</div>
+                        <div class="bstage-switch" id="bstage-trans-switch">
+                            <div class="bstage-switch-knob"></div>
+                        </div>
+                    </div>
+
+                    <!-- Other Fans Messages Setting -->
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-comments"></i></div>
+                        <div class="bstage-setting-label" style="flex: 1;">查看其他人消息</div>
+                        <div class="bstage-switch" id="bstage-other-fans-switch">
+                            <div class="bstage-switch-knob"></div>
+                        </div>
+                    </div>
+
+                    <!-- Auto Activity Setting -->
+                    <div class="bstage-setting-item" style="flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px;">
+                        <div style="width: 100%; display: flex; align-items: center;">
+                            <div class="bstage-setting-icon"><i class="fas fa-robot"></i></div>
+                            <div class="bstage-setting-label" style="flex: 1;">自主活动</div>
+                            <div class="bstage-switch" id="bstage-auto-activity-switch">
+                                <div class="bstage-switch-knob"></div>
+                            </div>
+                        </div>
+                        <div id="bstage-auto-activity-options" style="width: 100%; margin-top: 10px; display: none; background: #1c1c1e; padding: 10px; border-radius: 8px; border: 1px solid #333;">
+                            <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                                <span style="font-size: 13px; color: #aaa; width: 70px;">调用间隔</span>
+                                <input type="number" id="bstage-auto-activity-interval" value="60" style="flex: 1; background: #2c2c2e; border: 1px solid #444; color: #fff; border-radius: 4px; padding: 4px 8px; outline: none;">
+                                <span style="font-size: 13px; color: #aaa; margin-left: 8px;">秒</span>
+                            </div>
+                            <div style="display: flex; align-items: center;">
+                                <span style="font-size: 13px; color: #aaa; width: 70px;">API预设</span>
+                                <select id="bstage-auto-activity-preset" style="flex: 1; background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; outline: none;">
+                                    <option value="">默认全局API</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bstage-setting-item" style="color: #ff3b30;" id="bstage-chat-exit-btn">
+                        <div class="bstage-setting-icon" style="color: #ff3b30 !important;"><i class="fas fa-sign-out-alt"></i></div>
+                        <div class="bstage-setting-label" style="color: #ff3b30 !important;">退出</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(chatDetailSheet);
+
+    // Fan Chat Detail Sheet
+    const fanChatDetailSheet = document.createElement('div');
+    fanChatDetailSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    fanChatDetailSheet.id = 'bstage-fan-chat-detail-sheet';
+    fanChatDetailSheet.style.zIndex = '1200';
+    fanChatDetailSheet.innerHTML = `
+        <div class="bottom-sheet" style="height: 90%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="detail-sheet-content bstage-modal-content" style="padding: 0;">
+                <div style="text-align: center; padding: 20px 0;">
+                    <div id="bstage-fan-detail-avatar-container" style="width: 80px; height: 80px; border-radius: 50%; background-color: #2c2c2e; margin: 0 auto 10px; overflow: hidden; border: 1px solid #333; display: flex; justify-content: center; align-items: center;">
+                        <img id="bstage-fan-detail-avatar" src="" style="width: 100%; height: 100%; object-fit: cover; display: none;">
+                        <i class="fas fa-user-friends" id="bstage-fan-detail-avatar-icon" style="font-size: 28px; color: #aaa;"></i>
+                    </div>
+                    <h2 style="font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 5px;" id="bstage-fan-detail-name">粉丝聊天室</h2>
+                    <div style="font-size: 13px; color: #aaa; display: flex; align-items: center; justify-content: center; gap: 4px;">
+                        <i class="fas fa-heart" style="color: #ff3b30;"></i>
+                        <span id="bstage-fan-detail-subscribers">已订阅 0 人</span>
+                    </div>
+                </div>
+
+                <div class="bstage-settings-list">
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-image"></i></div>
+                        <div class="bstage-setting-label" id="bstage-fan-setting-bg" style="flex:1;">背景设定</div>
+                        <div class="bstage-setting-right-action" id="bstage-fan-reset-bg-btn" style="color: #aaa;">重置</div>
+                        <input type="file" id="bstage-fan-chat-bg-input" accept="image/*" style="display:none;">
+                    </div>
+
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="bstage-setting-label" style="flex:1;">界面 CSS</div>
+                        <select id="bstage-fan-chat-css-select" style="background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; width: 120px; outline: none;">
+                            <option value="">默认</option>
+                        </select>
+                    </div>
+
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-comment-dots"></i></div>
+                        <div class="bstage-setting-label" style="flex:1;">气泡 CSS</div>
+                        <select id="bstage-fan-bubble-css-select" style="background: #2c2c2e; color: #fff; border: 1px solid #444; border-radius: 4px; padding: 4px; width: 120px; outline: none;">
+                            <option value="">默认</option>
+                        </select>
+                    </div>
+
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-history"></i></div>
+                        <div class="bstage-setting-label" style="flex: 1;">上下文携带</div>
+                        <input type="number" id="bstage-fan-context-count" value="50" style="width: 50px; background: transparent; border: 1px solid #444; color: #fff; text-align: center; border-radius: 4px; margin-right: 10px;">
+                        <div class="bstage-switch active" id="bstage-fan-context-switch">
+                            <div class="bstage-switch-knob"></div>
+                        </div>
+                    </div>
+
+                    <div class="bstage-setting-item">
+                        <div class="bstage-setting-icon"><i class="fas fa-language"></i></div>
+                        <div class="bstage-setting-label" style="flex: 1;">实时翻译</div>
+                        <div class="bstage-switch" id="bstage-fan-trans-switch">
+                            <div class="bstage-switch-knob"></div>
+                        </div>
+                    </div>
+
+                    <div class="bstage-setting-item" style="color: #ff3b30;" id="bstage-fan-chat-clear-btn">
+                        <div class="bstage-setting-icon" style="color: #ff3b30 !important;"><i class="fas fa-trash-alt"></i></div>
+                        <div class="bstage-setting-label" style="color: #ff3b30 !important;">清空聊天</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(fanChatDetailSheet);
+
+    // Locker Modal (See All Photos)
+    const lockerModal = document.createElement('div');
+    lockerModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    lockerModal.id = 'bstage-locker-modal';
+    lockerModal.style.zIndex = '1250'; // Ensure above chat detail sheet
+    lockerModal.innerHTML = `
+        <div class="bottom-sheet" style="height: 90%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="sheet-title" style="color: #fff;">置物柜</div>
+            <div class="detail-sheet-content bstage-modal-content">
+                <div class="bstage-locker-grid" id="bstage-locker-grid">
+                    <!-- Photos + Add Button -->
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(lockerModal);
+
+    // Video Detail Modal
+    const videoDetailModal = document.createElement('div');
+    videoDetailModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    videoDetailModal.id = 'bstage-video-detail-modal';
+    videoDetailModal.innerHTML = `
+        <div class="bottom-sheet" style="height: 95%; background: #1c1c1e; color: #fff;">
+            <div class="sheet-handle"></div>
+            <div class="bstage-video-modal-content">
+                <div class="bstage-video-detail-scroll">
+                    <!-- Video Player Placeholder -->
+                    <div class="bstage-video-player-placeholder">
+                        <i class="fas fa-play" style="font-size: 40px; opacity: 0.8;"></i>
+                    </div>
+
+                    <!-- Info Section -->
+                    <div class="bstage-video-info-section">
+                        <div class="bstage-video-detail-title" id="bstage-vid-detail-title">Title</div>
+                        <div class="bstage-video-detail-meta" id="bstage-vid-detail-meta">Views • Date</div>
+                        
+                        <div class="bstage-publisher-row">
+                            <div class="bstage-publisher-avatar" id="bstage-vid-publisher-avatar"></div>
+                            <div class="bstage-publisher-name" id="bstage-vid-publisher-name">Team Name</div>
+                            <div class="bstage-small-magic-btn" id="bstage-video-detail-magic-btn" style="margin-left: auto;">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="bstage-video-description" id="bstage-vid-description">
+                            Description text...
+                        </div>
+                    </div>
+
+                    <!-- Comments Section -->
+                    <div class="bstage-comments-section">
+                        <div class="bstage-comments-header" id="bstage-vid-comments-header">评论 (0)</div>
+                        <div class="bstage-comment-list" id="bstage-vid-comments-list">
+                            <!-- Comments injected here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comment Input (Sticky Bottom) -->
+                <div class="bstage-comment-input-area" style="background-color: #1c1c1e; border-top: 1px solid #333;">
+                    <div class="bstage-comment-reply-preview" id="bstage-vid-comment-reply-preview" style="display:none;">
+                        <div class="bstage-comment-reply-preview-text" id="bstage-vid-comment-reply-preview-text"></div>
+                        <div class="bstage-comment-reply-cancel" id="bstage-vid-comment-reply-cancel-btn" role="button" tabindex="0" aria-label="取消回复" title="取消回复">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="bstage-user-avatar-small" id="bstage-comment-user-avatar"></div>
+                    <input type="text" class="bstage-comment-input" id="bstage-vid-comment-input" placeholder="添加评论..." style="color: #fff; background-color: transparent; border: none; outline: none; flex: 1;">
+                    <i class="fas fa-paper-plane bstage-comment-send-btn disabled" id="bstage-vid-comment-send-btn" style="color: #aaa;"></i>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(videoDetailModal);
+
+    // Shop Detail Modal
+    const shopDetailModal = document.createElement('div');
+    shopDetailModal.className = 'bottom-sheet-overlay detail-sheet-overlay';
+    shopDetailModal.id = 'bstage-shop-detail-modal';
+    shopDetailModal.innerHTML = `
+        <div class="bottom-sheet" style="height: 90%; background: #1c1c1e; border: 1px solid #333; color: #fff;">
+            <div class="sheet-handle" style="background-color: #444;"></div>
+            <div class="bstage-modal-content" style="padding: 0; display: flex; flex-direction: column; height: 100%; background-color: #000; color: #fff;">
+                <div class="bstage-shop-detail-scroll" style="flex:1; overflow-y:auto; padding-bottom:80px;">
+                    <!-- Image -->
+                    <div class="bstage-shop-detail-img" id="bstage-shop-detail-img" style="width:100%; aspect-ratio:1/1; background-color:#1a1a1a; position:relative; overflow:hidden;">
+                        <img src="" style="width:100%; height:100%; object-fit:cover; display:none;">
+                        <div class="bstage-shop-detail-placeholder" style="width:100%; height:100%; display:flex; justify-content:center; align-items:center; color:#555;">
+                            <i class="fas fa-image" style="font-size:50px;"></i>
+                        </div>
+                    </div>
+                    
+                    <!-- Info -->
+                    <div class="bstage-shop-detail-info" style="padding:20px;">
+                        <span class="bstage-shop-badge" id="bstage-shop-detail-cat" style="margin-bottom:8px;">Category</span>
+                        <div class="bstage-shop-detail-title" id="bstage-shop-detail-title" style="font-size:22px; font-weight:700; margin-bottom:8px; line-height:1.3;">Title</div>
+                        <div class="bstage-shop-detail-price" id="bstage-shop-detail-price" style="font-size:24px; font-weight:800; color:#fff; margin-bottom:24px;">₩0</div>
+                        
+                        <div style="width:100%; height:1px; background-color:#222; margin-bottom:24px;"></div>
+
+                        <div class="bstage-shop-detail-desc-title" style="font-size:16px; font-weight:600; margin-bottom:12px;">商品详情</div>
+                        <div class="bstage-shop-detail-desc" id="bstage-shop-detail-desc" style="font-size:14px; color:#ccc; line-height:1.6; white-space: pre-wrap;">
+                            Description...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buy Bar -->
+                <div class="bstage-shop-buy-bar" style="padding:16px 20px; border-top:1px solid #222; background-color:#000;">
+                    <div class="bstage-shop-buy-btn" style="width:100%; background-color:#fff; color:#000; font-weight:700; font-size:16px; height:50px; border-radius:25px; display:flex; justify-content:center; align-items:center; cursor:pointer;">立即购买</div>
+                </div>
+            </div>
+        </div>
+    `;
+    document.getElementById('app').appendChild(shopDetailModal);
+
+    // --- State ---
+    const BSTAGE_STATE_SCHEMA_VERSION = 2;
+    const BSTAGE_POP_MONTHLY_KRW = 4500;
+    const BSTAGE_KRW_TO_CNY = 0.0052;
+    let teams = []; // { id, name, avatar, bg, members: [], isSubscribed: false }
+    let currentTeam = null;
+    let tempMembers = []; // For creation process
+    let isEditingTeam = false; // Flag for edit mode
+    let currentEditingMember = null; // Track member being edited
+    let currentPopSubMember = null;
+    let currentChatMember = null; // Track current chat member
+    let pendingChatReply = null;
+    let pendingFanReply = null;
+    let isTranslationEnabled = false; // Translation State
+    let isContextEnabled = true; // Context State
+    let contextMessageCount = 50; // Context Message Count
+    let userMsgCountSinceLastReply = 0; // POP logic: resets on char reply
+    let bstageOrders = []; // { id, title, price, date, type }
+    let bstageFanChatHistory = []; // { type, isUser, text, name, avatar, timestamp }
+    let bstageFanChatSettings = { chatBg: null, chatCssId: '', bubbleCssId: '' };
+    let bstageUserTeamState = { id: '__bstage_user_team__', isUserTeam: true, isSubscribed: true };
+    let bstageFanSubscriberCount = null;
+    let bstageFanSubscriberGrowthTimer = null;
+    let bstageStateUpdatedAt = 0;
+    let bstageHydrationComplete = false;
+    let bstageRevenueState = { withdrawnCny: 0, lastWithdrawAt: null };
+    let pendingVideoCommentReply = null;
+    let currentGenerateTypeAction = null;
+    let chatPhotos = []; // List of photo URLs for the current chat/team (Simplified as global for now)
+    let contentCarouselInterval = null; // To track auto-rotation
+    let bstagePresets = {
+        chatCss: [],
+        avatarFrameCss: [],
+        bubbleCss: []
+    };
+    let currentPresetTab = 'chatCss';
+
+    let autoActivityIntervals = {}; // { memberId: intervalId }
+
+    // --- Logic ---
+    function formatTimeBubble(timestamp) {
+        const date = new Date(timestamp);
+        const now = new Date();
+        const diff = now - date;
+        const diffDays = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const timeStr = `${date.getHours().toString().padStart(2, '0')}:${date.getMinutes().toString().padStart(2, '0')}`;
+        
+        const isSameDay = date.getDate() === now.getDate() && date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear();
+        
+        const yesterday = new Date(now);
+        yesterday.setDate(now.getDate() - 1);
+        const isYesterday = date.getDate() === yesterday.getDate() && date.getMonth() === yesterday.getMonth() && date.getFullYear() === yesterday.getFullYear();
+
+        if (isSameDay) {
+            return `今天 ${timeStr}`;
+        } else if (isYesterday) {
+            return `昨天 ${timeStr}`;
+        } else {
+            const days = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+            if (diffDays < 7) {
+                return `${days[date.getDay()]} ${timeStr}`;
+            } else {
+                return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日 ${timeStr}`;
+            }
+        }
+    }
+
+    function normalizeChatCompletionsEndpoint(endpoint) {
+        let nextEndpoint = String(endpoint || '').trim();
+        if (nextEndpoint.endsWith('/')) nextEndpoint = nextEndpoint.slice(0, -1);
+        if (!nextEndpoint.endsWith('/chat/completions')) {
+            nextEndpoint = nextEndpoint.endsWith('/v1') ? `${nextEndpoint}/chat/completions` : `${nextEndpoint}/v1/chat/completions`;
+        }
+        return nextEndpoint;
+    }
+
+    function stripGeneratedText(value, fallback = '') {
+        return String(value || fallback || '').replace(/[<>]/g, '').trim();
+    }
+
+    function escapeHtml(value) {
+        return String(value || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function createImageSeed(prefix = 'bstage') {
+        return encodeURIComponent(`${prefix}-${Date.now()}-${Math.random().toString(36).slice(2)}`);
+    }
+
+    const bstageEmojiAvatars = ['😀', '😎', '🥳', '🤩', '😊', '😺', '🌟', '✨', '🎤', '🎧', '🎵', '🎸', '💿', '📀', '🎬', '📸', '🌈', '🔥', '💜', '💙', '🍒', '🍓', '🍑', '🍋', '🍀', '🌙', '☀️', '⭐', '🪩', '🫶'];
+
+    function hashBstageString(value) {
+        const text = String(value || 'bstage');
+        let hash = 0;
+        for (let i = 0; i < text.length; i++) {
+            hash = ((hash << 5) - hash) + text.charCodeAt(i);
+            hash |= 0;
+        }
+        return Math.abs(hash);
+    }
+
+    function getStableEmojiAvatar(seed) {
+        return bstageEmojiAvatars[hashBstageString(seed) % bstageEmojiAvatars.length];
+    }
+
+    function isBstageRandomAvatar(value) {
+        return /^https:\/\/i\.pravatar\.cc\//.test(String(value || ''));
+    }
+
+    function ensureEmojiAvatar(entity, seed) {
+        if (!entity || typeof entity !== 'object') return getStableEmojiAvatar(seed);
+        if (!entity.avatarEmoji) entity.avatarEmoji = getStableEmojiAvatar(seed || entity.name || entity.id || entity.timestamp || 'bstage');
+        return entity.avatarEmoji;
+    }
+
+    function renderBstageAvatar(entity, label = 'User', className = '') {
+        const avatar = entity && entity.avatar ? String(entity.avatar) : '';
+        if (avatar && !isBstageRandomAvatar(avatar)) {
+            return `<img class="${escapeHtml(className)}" src="${escapeHtml(avatar)}" alt="">`;
+        }
+        const emoji = ensureEmojiAvatar(entity, label);
+        return `<div class="${escapeHtml(className)} bstage-emoji-avatar" aria-label="${escapeHtml(label)}">${escapeHtml(emoji)}</div>`;
+    }
+
+    function renderBstageAvatarContent(entity, label = 'User') {
+        const avatar = entity && entity.avatar ? String(entity.avatar) : '';
+        if (avatar && !isBstageRandomAvatar(avatar)) {
+            return `<img src="${escapeHtml(avatar)}" alt="">`;
+        }
+        return `<span class="bstage-emoji-avatar-text">${escapeHtml(ensureEmojiAvatar(entity, label))}</span>`;
+    }
+
+    function isUserTeam(team) {
+        return !!team && (team.isUserTeam || team.id === '__bstage_user_team__');
+    }
+
+    function getBstageUserTeam() {
+        const baseUserName = window.userState && window.userState.name ? window.userState.name : 'User';
+        const customName = typeof bstageUserTeamState.customName === 'string' ? bstageUserTeamState.customName.trim() : '';
+        const userName = customName || baseUserName;
+        const hasCustomAvatar = Object.prototype.hasOwnProperty.call(bstageUserTeamState, 'customAvatar');
+        const userAvatar = hasCustomAvatar ? bstageUserTeamState.customAvatar : (window.userState && window.userState.avatarUrl ? window.userState.avatarUrl : null);
+        bstageUserTeamState.id = '__bstage_user_team__';
+        bstageUserTeamState.isUserTeam = true;
+        bstageUserTeamState.isSubscribed = true;
+        bstageUserTeamState.name = userName;
+        bstageUserTeamState.desc = bstageUserTeamState.customDesc || (window.userState && window.userState.persona ? window.userState.persona : 'User 官方空间');
+        bstageUserTeamState.avatar = userAvatar;
+        if (Object.prototype.hasOwnProperty.call(bstageUserTeamState, 'customBg')) {
+            bstageUserTeamState.bg = bstageUserTeamState.customBg || null;
+        }
+        bstageUserTeamState.avatarEmoji = bstageUserTeamState.avatarEmoji || getStableEmojiAvatar(`bstage-user-team-${userName}`);
+        const extraMembers = Array.isArray(bstageUserTeamState.members)
+            ? bstageUserTeamState.members.filter(member => member && !member.isUserMember && member.id !== '__bstage_user_member__')
+            : [];
+        bstageUserTeamState.members = [{
+            id: '__bstage_user_member__',
+            isUserMember: true,
+            name: userName,
+            role: window.userState && window.userState.persona ? window.userState.persona : 'User',
+            avatar: userAvatar,
+            avatarEmoji: bstageUserTeamState.avatarEmoji,
+            isSubscribed: true,
+            subStartDate: Date.now()
+        }, ...extraMembers];
+        return bstageUserTeamState;
+    }
+
+    function findCanonicalBstageMember(memberId, preferredTeamId = null) {
+        if (memberId === undefined || memberId === null) return null;
+        const targetId = String(memberId);
+        const teamId = preferredTeamId === undefined || preferredTeamId === null ? null : String(preferredTeamId);
+        const userTeam = getBstageUserTeam();
+        const candidates = [userTeam, ...teams];
+        const preferred = teamId
+            ? candidates.filter(team => team && String(team.id) === teamId)
+            : candidates;
+        const searchTeams = preferred.length > 0 ? preferred : candidates;
+        for (const team of searchTeams) {
+            const member = Array.isArray(team?.members)
+                ? team.members.find(item => item && String(item.id) === targetId)
+                : null;
+            if (member) return { team, member };
+        }
+        return null;
+    }
+
+    function rebindActiveBstageReferences() {
+        const selectedTeamId = currentTeam?.id;
+        if (selectedTeamId !== undefined && selectedTeamId !== null) {
+            currentTeam = String(selectedTeamId) === '__bstage_user_team__'
+                ? getBstageUserTeam()
+                : (teams.find(team => team && String(team.id) === String(selectedTeamId)) || null);
+        }
+
+        if (!currentChatMember) return false;
+        const rebound = findCanonicalBstageMember(currentChatMember.id, currentTeam?.id);
+        currentChatMember = rebound ? rebound.member : null;
+        if (rebound) currentTeam = rebound.team;
+        return !!rebound;
+    }
+
+    function ensureBstageHydrated(showFeedback = true) {
+        if (bstageHydrationComplete) return true;
+        if (showFeedback && typeof window.showToast === 'function') {
+            window.showToast('b.stage 数据正在加载，请稍候');
+        }
+        return false;
+    }
+
+    function createExternalBackground(seed) {
+        return `https://picsum.photos/seed/${encodeURIComponent(seed)}/900/1200`;
+    }
+
+    function createExternalRandomImage(seed, width = 800, height = 800) {
+        return `https://picsum.photos/seed/${encodeURIComponent(seed)}/${width}/${height}`;
+    }
+
+    function removeBstageDefaultContent(team) {
+        if (!team || typeof team !== 'object') return false;
+        let changed = false;
+        const teamKey = team.id || team.name || '';
+
+        if (Array.isArray(team.shopItems)) {
+            const defaultShopNames = new Set([
+                `${team.name} 2024 Season Greeting`,
+                `${team.name} Official Light Stick`,
+                'Fan Meeting: OUR ZONE Ticket',
+                'Video Call Event #3',
+                'Behind Photo Set A'
+            ]);
+            const defaultShopImages = new Set([
+                createExternalRandomImage(`${teamKey}-shop-season`, 600, 600),
+                createExternalRandomImage(`${teamKey}-shop-lightstick`, 600, 600),
+                createExternalRandomImage(`${teamKey}-shop-ticket`, 600, 600),
+                createExternalRandomImage(`${teamKey}-shop-videocall`, 600, 600),
+                createExternalRandomImage(`${teamKey}-shop-photo-set`, 600, 600)
+            ]);
+            const before = team.shopItems.length;
+            team.shopItems = team.shopItems.filter(item => {
+                const itemName = item && item.name ? String(item.name) : '';
+                const itemImg = item && item.img ? String(item.img) : '';
+                return !(defaultShopNames.has(itemName) || defaultShopImages.has(itemImg));
+            });
+            if (team.shopItems.length !== before) changed = true;
+        }
+
+        if (Array.isArray(team.shopCategories) && team.shopCategories.length === 5) {
+            const defaultCats = ['全部', '周边', '票务', '签售', '其他'];
+            if (defaultCats.every((cat, index) => team.shopCategories[index] === cat) && (!team.shopItems || team.shopItems.length === 0)) {
+                team.shopCategories = ['全部'];
+                changed = true;
+            }
+        }
+
+        if (Array.isArray(team.contentPhotos)) {
+            const defaultPhotos = new Set([
+                createExternalRandomImage(`${teamKey}-content-photo-1`, 900, 600),
+                createExternalRandomImage(`${teamKey}-content-photo-2`, 900, 600),
+                createExternalRandomImage(`${teamKey}-content-photo-3`, 900, 600)
+            ]);
+            const before = team.contentPhotos.length;
+            team.contentPhotos = team.contentPhotos.filter(photo => !defaultPhotos.has(String(photo || '')));
+            if (team.contentPhotos.length !== before) changed = true;
+        }
+
+        if (Array.isArray(team.videos)) {
+            const defaultVideoTitles = new Set(['Behind The Scenes Ep.1', 'Dance Practice', 'Vlog #5: Day Off']);
+            const before = team.videos.length;
+            team.videos = team.videos.filter(video => !defaultVideoTitles.has(video && video.title ? String(video.title) : ''));
+            if (team.videos.length !== before) changed = true;
+        }
+
+        if (Array.isArray(team.contentSeries) && team.contentSeries.length === 2 && team.contentSeries[0] === '全部' && team.contentSeries[1] === 'vlog' && (!team.videos || team.videos.length === 0)) {
+            team.contentSeries = ['全部'];
+            changed = true;
+        }
+
+        return changed;
+    }
+
+    function createBstageMessageId(prefix = 'msg') {
+        return `${prefix}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+    }
+
+    function ensureMessageId(msg, prefix = 'msg') {
+        if (!msg || typeof msg !== 'object') return '';
+        if (!msg.id) msg.id = `${prefix}_${msg.timestamp || Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+        return msg.id;
+    }
+
+    function getMessageSummary(msg) {
+        if (!msg) return '';
+        const raw = msg.type === 'image' ? `[图片] ${msg.imgDesc || msg.description || ''}` : (msg.text || '');
+        const text = stripGeneratedText(raw, msg.type === 'image' ? '[图片]' : '');
+        return text.length > 64 ? `${text.slice(0, 64)}...` : text;
+    }
+
+    function createReplyMeta(msg, speaker) {
+        if (!msg) return null;
+        return {
+            id: ensureMessageId(msg, msg.isUser ? 'user' : 'ai'),
+            speaker: stripGeneratedText(speaker, msg.isUser ? 'User' : 'AI'),
+            text: getMessageSummary(msg),
+            isUser: !!msg.isUser
+        };
+    }
+
+    function renderReplyQuote(replyTo) {
+        if (!replyTo || !replyTo.text) return '';
+        return `
+            <div class="bstage-reply-quote">
+                <div class="bstage-reply-quote-speaker">${escapeHtml(replyTo.speaker || '消息')}</div>
+                <div class="bstage-reply-quote-text">${escapeHtml(replyTo.text)}</div>
+            </div>
+        `;
+    }
+
+    function formatReplyForPrompt(replyTo) {
+        if (!replyTo || !replyTo.id) return '';
+        return `；回复 ${replyTo.speaker || '消息'}(${replyTo.id})：「${replyTo.text || ''}」`;
+    }
+
+    function findMessageById(history, id, predicate) {
+        if (!id || !Array.isArray(history)) return null;
+        return history.find(msg => msg && msg.id === id && (!predicate || predicate(msg))) || null;
+    }
+
+    function normalizeOtherFanMessages(rawMessages, timestamp = Date.now()) {
+        if (!Array.isArray(rawMessages)) return [];
+        return rawMessages.slice(0, 14).map((item, index) => {
+            const fanName = stripGeneratedText(item && item.name, getRandomFanName(index));
+            const text = stripGeneratedText(typeof item === 'string' ? item : item && item.text);
+            const trans = stripGeneratedText(item && (item.trans || item.translationZh || item.translation));
+            if (!text) return null;
+            if (fanMessageNeedsTranslation(text) && !trans) return null;
+            const id = stripGeneratedText(item && item.id, createBstageMessageId('other_fan'));
+            return {
+                id,
+                name: fanName,
+                text,
+                trans,
+                timestamp: timestamp + index,
+                avatarEmoji: stripGeneratedText(item && item.avatarEmoji) || getStableEmojiAvatar(`bstage-other-fan-${fanName}-${id}`)
+            };
+        }).filter(Boolean);
+    }
+
+    function normalizeFanBatchMessage(msg) {
+        if (!msg || typeof msg !== 'object') return null;
+        ensureMessageId(msg, 'fan_batch');
+        msg.type = 'fan_batch';
+        msg.timestamp = msg.timestamp || Date.now();
+        msg.fanMessages = normalizeOtherFanMessages(msg.fanMessages || msg.messages || msg.otherFanMessages || [], msg.timestamp);
+        return msg;
+    }
+
+    function formatFanBatchForPrompt(msg) {
+        const batch = normalizeFanBatchMessage(msg);
+        if (!batch || batch.fanMessages.length === 0) return '';
+        const summary = batch.fanMessages
+            .slice(0, 8)
+            .map(fan => `${fan.name || '粉丝'}(${fan.id}): ${fan.text || ''}${fan.trans ? ` / 中文：${fan.trans}` : ''}`)
+            .join(' | ');
+        return `[id:${batch.id}] [其他粉丝消息批次]: ${summary}`;
+    }
+
+    function createOtherFanReplyMeta(fanMessage) {
+        if (!fanMessage) return null;
+        return {
+            id: fanMessage.id,
+            speaker: stripGeneratedText(fanMessage.name, '粉丝'),
+            text: getMessageSummary({ type: 'text', text: fanMessage.text }),
+            isUser: false,
+            isOtherFan: true
+        };
+    }
+
+    function closeOtherFansModal() {
+        if (!bstageOtherFansModal) return;
+        bstageOtherFansModal.classList.remove('active');
+    }
+
+    function openOtherFansModal(member, batch) {
+        const normalizedBatch = normalizeFanBatchMessage(batch);
+        const title = document.getElementById('bstage-other-fans-title');
+        const list = document.getElementById('bstage-other-fans-list');
+        if (!normalizedBatch || !list) return;
+        const memberName = member && member.name ? member.name : 'Char';
+        if (title) title.textContent = `其他粉丝给 ${memberName} 的消息`;
+        const messages = normalizedBatch.fanMessages || [];
+        if (messages.length === 0) {
+            list.innerHTML = '<div class="bstage-other-fans-empty">本轮没有可查看的其他粉丝消息</div>';
+        } else {
+            list.innerHTML = messages.map(fan => {
+                const transHtml = fan.trans ? `<div class="bstage-other-fan-trans">${escapeHtml(fan.trans)}</div>` : '';
+                return `
+                    <div class="bstage-other-fan-item">
+                        ${renderBstageAvatar(fan, fan.name || '粉丝', 'bstage-other-fan-avatar')}
+                        <div class="bstage-other-fan-body">
+                            <div class="bstage-other-fan-name">${escapeHtml(fan.name || '粉丝')}</div>
+                            <div class="bstage-other-fan-text">${escapeHtml(fan.text || '')}</div>
+                            ${transHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        bstageOtherFansModal.classList.add('active');
+    }
+
+    function openBstageImagePreview(src, desc) {
+        const overlay = document.createElement('div');
+        overlay.style.position = 'fixed';
+        overlay.style.top = '0';
+        overlay.style.left = '0';
+        overlay.style.width = '100vw';
+        overlay.style.height = '100vh';
+        overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+        overlay.style.zIndex = '10000';
+        overlay.style.display = 'flex';
+        overlay.style.flexDirection = 'column';
+        overlay.style.justifyContent = 'center';
+        overlay.style.alignItems = 'center';
+        overlay.style.cursor = 'zoom-out';
+
+        const img = document.createElement('img');
+        img.src = src;
+        img.style.maxWidth = '90%';
+        img.style.maxHeight = '80%';
+        img.style.objectFit = 'contain';
+        img.style.borderRadius = '12px';
+        img.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
+        overlay.appendChild(img);
+
+        if (desc) {
+            const textDiv = document.createElement('div');
+            textDiv.style.color = '#fff';
+            textDiv.style.marginTop = '20px';
+            textDiv.style.maxWidth = '90%';
+            textDiv.style.textAlign = 'center';
+            textDiv.style.fontSize = '16px';
+            textDiv.textContent = desc;
+            overlay.appendChild(textDiv);
+        }
+
+        document.body.appendChild(overlay);
+        overlay.addEventListener('click', () => overlay.remove());
+    }
+
+    function attachBstageImagePreview(container) {
+        if (!container) return;
+        const imgNode = container.querySelector('.bstage-chat-image-clickable');
+        if (!imgNode) return;
+        imgNode.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openBstageImagePreview(imgNode.src, imgNode.getAttribute('data-desc') || '');
+        });
+    }
+
+    function formatMessageForPrompt(msg, speaker) {
+        if (!msg || msg.type === 'date') return '';
+        if (msg.type === 'fan_batch') return formatFanBatchForPrompt(msg);
+        ensureMessageId(msg, msg.isUser ? 'user' : 'ai');
+        const summary = getMessageSummary(msg);
+        const replyText = formatReplyForPrompt(msg.replyTo);
+        return `[id:${msg.id}] [${speaker}]${replyText}: ${summary}`;
+    }
+
+    function setPendingReply(kind, target) {
+        const isFan = kind === 'fan';
+        if (isFan) pendingFanReply = target;
+        else pendingChatReply = target;
+
+        const preview = document.getElementById(isFan ? 'bstage-fan-chat-reply-preview' : 'bstage-chat-reply-preview');
+        const textEl = document.getElementById(isFan ? 'bstage-fan-chat-reply-preview-text' : 'bstage-chat-reply-preview-text');
+        if (preview && textEl) {
+            if (target) {
+                textEl.textContent = `${target.speaker}: ${target.text}`;
+                preview.style.display = 'flex';
+                preview.classList.add('active');
+            } else {
+                textEl.textContent = '';
+                preview.style.display = 'none';
+                preview.classList.remove('active');
+            }
+        }
+
+        const input = document.getElementById(isFan ? 'bstage-fan-chat-input' : 'bstage-chat-input');
+        if (target && input) input.focus();
+    }
+
+    function clearPendingReply(kind) {
+        setPendingReply(kind, null);
+    }
+
+    function setChatActionLoading(button, isLoading) {
+        if (!button) return;
+        button.classList.toggle('is-loading', isLoading);
+        button.setAttribute('aria-disabled', isLoading ? 'true' : 'false');
+        button.innerHTML = isLoading ? '<i class="fas fa-spinner"></i>' : '<i class="fas fa-arrow-down"></i>';
+    }
+
+    function parseApiJsonContent(rawContent) {
+        const cleaned = String(rawContent || '').replace(/```json/g, '').replace(/```/g, '').trim();
+        return JSON.parse(cleaned);
+    }
+
+    async function callBstageJsonApi(prompt, systemContent = 'You are a JSON generator.', temperature = 0.7) {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            throw new Error('missing_api_config');
+        }
+
+        const configuredTemperature = window.apiConfig.temperature !== undefined ? window.apiConfig.temperature : window.apiConfig.temp;
+        const response = await fetch(normalizeChatCompletionsEndpoint(window.apiConfig.endpoint), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${window.apiConfig.apiKey}`
+            },
+            body: JSON.stringify({
+                model: window.apiConfig.model || 'gpt-3.5-turbo',
+                messages: [
+                    { role: 'system', content: systemContent },
+                    { role: 'user', content: prompt }
+                ],
+                temperature: parseFloat(configuredTemperature) || temperature
+            })
+        });
+
+        if (!response.ok) throw new Error(`api_error_${response.status}`);
+        const data = await response.json();
+        return parseApiJsonContent(data && data.choices && data.choices[0] && data.choices[0].message ? data.choices[0].message.content : '');
+    }
+
+    function openGenerateTypeSheet({ title, label, placeholder, onConfirm }) {
+        currentGenerateTypeAction = typeof onConfirm === 'function' ? onConfirm : null;
+        const titleEl = document.getElementById('bstage-generate-type-title');
+        const labelEl = document.getElementById('bstage-generate-type-label');
+        const inputEl = document.getElementById('bstage-generate-type-input');
+        const confirmBtn = document.getElementById('bstage-generate-type-confirm-btn');
+        if (titleEl) titleEl.textContent = title || '生成内容';
+        if (labelEl) labelEl.textContent = label || '想看什么类型';
+        if (inputEl) {
+            inputEl.value = '';
+            inputEl.placeholder = placeholder || '留空则随机生成';
+        }
+        if (confirmBtn) {
+            confirmBtn.classList.remove('is-loading');
+            confirmBtn.textContent = '确认生成';
+        }
+        window.openView(generateTypeSheet);
+        setTimeout(() => {
+            if (inputEl) inputEl.focus();
+        }, 80);
+    }
+
+    async function confirmGenerateTypeSheet() {
+        if (!currentGenerateTypeAction) return;
+        const confirmBtn = document.getElementById('bstage-generate-type-confirm-btn');
+        const inputEl = document.getElementById('bstage-generate-type-input');
+        if (confirmBtn && confirmBtn.classList.contains('is-loading')) return;
+        if (confirmBtn) {
+            confirmBtn.classList.add('is-loading');
+            confirmBtn.textContent = '生成中...';
+        }
+        try {
+            await currentGenerateTypeAction(inputEl ? inputEl.value.trim() : '');
+            window.closeView(generateTypeSheet);
+        } finally {
+            if (confirmBtn) {
+                confirmBtn.classList.remove('is-loading');
+                confirmBtn.textContent = '确认生成';
+            }
+        }
+    }
+
+    function checkAndAddDateBubble(member, contentContainer, timestamp) {
+        if (!member.chatHistory) member.chatHistory = [];
+        let lastMsg = null;
+        for (let i = member.chatHistory.length - 1; i >= 0; i--) {
+            if (member.chatHistory[i].type !== 'date') {
+                lastMsg = member.chatHistory[i];
+                break;
+            }
+        }
+        
+        const TIME_THRESHOLD = 5 * 60 * 1000; // 5 minutes
+        if (!lastMsg || !lastMsg.timestamp || (timestamp - lastMsg.timestamp > TIME_THRESHOLD)) {
+            const timeText = formatTimeBubble(timestamp);
+            const dateMessage = { type: 'date', text: timeText, timestamp: timestamp };
+            member.chatHistory.push(dateMessage);
+            
+            if (contentContainer) {
+                const dateDiv = document.createElement('div');
+                dateDiv.className = 'bstage-chat-date';
+                dateDiv.textContent = timeText;
+                contentContainer.appendChild(dateDiv);
+            }
+            return dateMessage;
+        }
+        return null;
+    }
+
+    function migrateRandomAvatarEntity(entity, seed) {
+        if (!entity || typeof entity !== 'object') return false;
+        let changed = false;
+        if (isBstageRandomAvatar(entity.avatar)) {
+            entity.avatarEmoji = entity.avatarEmoji || getStableEmojiAvatar(seed || entity.avatar);
+            entity.avatar = null;
+            changed = true;
+        }
+        return changed;
+    }
+
+    function normalizeLoadedBstageData() {
+        let changed = false;
+        const normalizeVideoComments = (team) => {
+            if (!team || !Array.isArray(team.videos)) return;
+            team.videos.forEach(video => {
+                if (!video || !Array.isArray(video.comments)) return;
+                video.comments.forEach(comment => {
+                    if (!comment || typeof comment !== 'object') return;
+                    const beforeId = comment.id;
+                    ensureMessageId(comment, comment.isUser ? 'user_comment' : 'video_comment');
+                    if (!beforeId) changed = true;
+                    if (!comment.isUser && !comment.avatar && !comment.avatarEmoji) {
+                        comment.avatarEmoji = getStableEmojiAvatar(`video-comment-${comment.name || comment.id}`);
+                        changed = true;
+                    }
+                    if (!Array.isArray(comment.replies)) {
+                        comment.replies = [];
+                        changed = true;
+                    }
+                    comment.replies.forEach(reply => {
+                        if (!reply || typeof reply !== 'object') return;
+                        const beforeReplyId = reply.id;
+                        ensureMessageId(reply, 'video_comment_reply');
+                        if (!beforeReplyId) changed = true;
+                        if (!reply.avatarEmoji) {
+                            reply.avatarEmoji = getStableEmojiAvatar(`video-comment-reply-${reply.name || reply.id}`);
+                            changed = true;
+                        }
+                    });
+                });
+            });
+        };
+
+        teams.forEach(team => {
+            changed = removeBstageDefaultContent(team) || changed;
+            changed = migrateRandomAvatarEntity(team, `team-${team.id || team.name}`) || changed;
+            if (Array.isArray(team.members)) {
+                team.members.forEach(member => {
+                    changed = migrateRandomAvatarEntity(member, `member-${member.id || member.name}`) || changed;
+                    if (Array.isArray(member.chatHistory)) {
+                        member.chatHistory.forEach(msg => {
+                            if (!msg || msg.type === 'date') return;
+                            if (msg.type === 'fan_batch') {
+                                const beforeId = msg.id;
+                                const beforeCount = Array.isArray(msg.fanMessages) ? msg.fanMessages.length : -1;
+                                normalizeFanBatchMessage(msg);
+                                if (!beforeId || beforeCount !== msg.fanMessages.length) changed = true;
+                                return;
+                            }
+                            const beforeId = msg.id;
+                            ensureMessageId(msg, msg.isUser ? 'user' : 'char');
+                            if (!beforeId) changed = true;
+                        });
+                    }
+                });
+            }
+            normalizeVideoComments(team);
+        });
+
+        changed = removeBstageDefaultContent(bstageUserTeamState) || changed;
+        changed = migrateRandomAvatarEntity(bstageUserTeamState, `team-${bstageUserTeamState.id || bstageUserTeamState.name || 'user'}`) || changed;
+        normalizeVideoComments(bstageUserTeamState);
+
+        if (Array.isArray(bstageFanChatHistory)) {
+            bstageFanChatHistory.forEach(msg => {
+                if (!msg || msg.type === 'date') return;
+                const beforeId = msg.id;
+                ensureMessageId(msg, msg.isUser ? 'user' : 'fan');
+                if (!beforeId) changed = true;
+                if (!msg.isUser) {
+                    changed = migrateRandomAvatarEntity(msg, `fan-${msg.name || msg.id}`) || changed;
+                    if (!msg.avatarEmoji) {
+                        msg.avatarEmoji = getStableEmojiAvatar(`fan-${msg.name || msg.id || msg.timestamp}`);
+                        changed = true;
+                    }
+                }
+            });
+        }
+        return changed;
+    }
+
+    function saveBstageData(options = {}) {
+        if (!bstageHydrationComplete) return false;
+        try {
+            const flush = options && options.flush === true;
+            const nextUpdatedAt = Date.now();
+            bstageStateUpdatedAt = nextUpdatedAt;
+            const nextState = {
+                schemaVersion: BSTAGE_STATE_SCHEMA_VERSION,
+                updatedAt: nextUpdatedAt,
+                teams,
+                bstageOrders,
+                bstageFanChatHistory,
+                bstageFanChatSettings,
+                bstageUserTeamState,
+                bstageFanSubscriberCount,
+                bstageRevenueState,
+                chatPhotos,
+                bstagePresets,
+                isTranslationEnabled,
+                isContextEnabled,
+                contextMessageCount
+            };
+            window.__bstageGlobalState = nextState;
+
+            if (typeof window.setAppState === 'function') {
+                window.setAppState('bstage', nextState);
+                if (flush && typeof window.saveGlobalData === 'function') {
+                    return Promise.resolve(window.saveGlobalData()).then(Boolean);
+                }
+                return true;
+            }
+            if (window.saveGlobalData) {
+                return flush ? Promise.resolve(window.saveGlobalData()).then(Boolean) : window.saveGlobalData();
+            }
+        } catch (e) {
+            console.warn('Bstage data save failed (possibly quota exceeded):', e);
+        }
+        return false;
+    }
+
+    function loadBstageData(options = {}) {
+        const persistNormalized = options.persistNormalized !== false;
+        let normalized = false;
+        try {
+            const data = typeof window.getAppState === 'function'
+                ? window.getAppState('bstage')
+                : window.__bstageGlobalState;
+            window.__bstageGlobalState = data && typeof data === 'object' ? data : {};
+
+            if (Array.isArray(window.__bstageGlobalState.teams)) teams = window.__bstageGlobalState.teams;
+            if (Array.isArray(window.__bstageGlobalState.bstageOrders)) bstageOrders = window.__bstageGlobalState.bstageOrders;
+            if (Array.isArray(window.__bstageGlobalState.bstageFanChatHistory)) bstageFanChatHistory = window.__bstageGlobalState.bstageFanChatHistory;
+            if (window.__bstageGlobalState.bstageFanChatSettings && typeof window.__bstageGlobalState.bstageFanChatSettings === 'object') {
+                bstageFanChatSettings = { ...bstageFanChatSettings, ...window.__bstageGlobalState.bstageFanChatSettings };
+            }
+            if (window.__bstageGlobalState.bstageUserTeamState && typeof window.__bstageGlobalState.bstageUserTeamState === 'object') {
+                bstageUserTeamState = { ...bstageUserTeamState, ...window.__bstageGlobalState.bstageUserTeamState };
+            }
+            if (Number.isFinite(Number(window.__bstageGlobalState.bstageFanSubscriberCount))) {
+                bstageFanSubscriberCount = Math.max(0, parseInt(window.__bstageGlobalState.bstageFanSubscriberCount, 10) || 0);
+            }
+            if (window.__bstageGlobalState.bstageRevenueState && typeof window.__bstageGlobalState.bstageRevenueState === 'object') {
+                const withdrawnCny = Number(window.__bstageGlobalState.bstageRevenueState.withdrawnCny);
+                bstageRevenueState = {
+                    withdrawnCny: Number.isFinite(withdrawnCny) ? Math.max(0, withdrawnCny) : 0,
+                    lastWithdrawAt: window.__bstageGlobalState.bstageRevenueState.lastWithdrawAt || null
+                };
+            }
+            if (Array.isArray(window.__bstageGlobalState.chatPhotos)) chatPhotos = window.__bstageGlobalState.chatPhotos;
+            if (window.__bstageGlobalState.bstagePresets) bstagePresets = window.__bstageGlobalState.bstagePresets;
+            if (typeof window.__bstageGlobalState.isTranslationEnabled === 'boolean') isTranslationEnabled = window.__bstageGlobalState.isTranslationEnabled;
+            if (typeof window.__bstageGlobalState.isContextEnabled === 'boolean') isContextEnabled = window.__bstageGlobalState.isContextEnabled;
+            if (Number.isFinite(Number(window.__bstageGlobalState.contextMessageCount))) {
+                contextMessageCount = Math.max(1, parseInt(window.__bstageGlobalState.contextMessageCount, 10) || 50);
+            }
+            if (Number.isFinite(Number(window.__bstageGlobalState.updatedAt))) {
+                bstageStateUpdatedAt = Number(window.__bstageGlobalState.updatedAt) || 0;
+            }
+            if (persistNormalized) {
+                normalized = normalizeLoadedBstageData();
+                if (normalized && bstageHydrationComplete) saveBstageData();
+            }
+        } catch (e) {
+            console.error('Bstage data load failed:', e);
+        }
+        return normalized;
+    }
+
+    // Load data on init
+    loadBstageData({ persistNormalized: false });
+
+    // Hook window functions to save data automatically
+    const originalToast = window.showToast;
+    window.showToast = function(msg) {
+        saveBstageData();
+        if (originalToast) originalToast(msg);
+    };
+
+    const originalCloseView = window.closeView;
+    window.closeView = function(view) {
+        saveBstageData();
+        if (originalCloseView) originalCloseView(view);
+    };
+
+    // Global Debounced Save
+    let bstageSaveTimeout = null;
+    let clickRAF = null;
+    let keyupRAF = null;
+
+    function flushBstageDataNow() {
+        if (bstageSaveTimeout) {
+            clearTimeout(bstageSaveTimeout);
+            bstageSaveTimeout = null;
+        }
+        saveBstageData();
+        if (typeof window.saveGlobalData === 'function') {
+            window.saveGlobalData();
+        }
+    }
+
+    window.addEventListener('pagehide', flushBstageDataNow);
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') flushBstageDataNow();
+    });
+    
+    document.body.addEventListener('click', () => {
+        if (clickRAF) return;
+        clickRAF = requestAnimationFrame(() => {
+            clearTimeout(bstageSaveTimeout);
+            bstageSaveTimeout = setTimeout(saveBstageData, 1000);
+            clickRAF = null;
+        });
+    });
+    
+    document.body.addEventListener('keyup', () => {
+        if (keyupRAF) return;
+        keyupRAF = requestAnimationFrame(() => {
+            clearTimeout(bstageSaveTimeout);
+            bstageSaveTimeout = setTimeout(saveBstageData, 1000);
+            keyupRAF = null;
+        });
+    });
+
+
+    // Open/Close App
+    const appBtn = document.getElementById('app-bstage-btn');
+    if (appBtn) {
+        appBtn.addEventListener('click', () => {
+            window.openView(bstageView);
+            if (!bstageHydrationComplete && typeof window.showToast === 'function') {
+                window.showToast('b.stage 数据正在加载，请稍候');
+            }
+        });
+    }
+
+    document.getElementById('bstage-back-btn').addEventListener('click', () => {
+        window.closeView(bstageView);
+    });
+
+    document.getElementById('bstage-chat-back-btn').addEventListener('click', () => {
+        window.closeView(bstageChatView);
+    });
+
+    document.getElementById('bstage-fan-chat-back-btn').addEventListener('click', () => {
+        window.closeView(bstageFanChatView);
+    });
+
+    document.getElementById('bstage-fan-chat-menu-btn').addEventListener('click', () => {
+        openFanChatDetailSheet();
+    });
+
+    const chatReplyCancelBtn = document.getElementById('bstage-chat-reply-cancel-btn');
+    if (chatReplyCancelBtn) {
+        chatReplyCancelBtn.addEventListener('click', () => clearPendingReply('chat'));
+        chatReplyCancelBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                clearPendingReply('chat');
+            }
+        });
+    }
+
+    const fanChatReplyCancelBtn = document.getElementById('bstage-fan-chat-reply-cancel-btn');
+    if (fanChatReplyCancelBtn) {
+        fanChatReplyCancelBtn.addEventListener('click', () => clearPendingReply('fan'));
+        fanChatReplyCancelBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                clearPendingReply('fan');
+            }
+        });
+    }
+
+    const generateTypeConfirmBtn = document.getElementById('bstage-generate-type-confirm-btn');
+    const generateTypeInput = document.getElementById('bstage-generate-type-input');
+    if (generateTypeConfirmBtn) generateTypeConfirmBtn.addEventListener('click', confirmGenerateTypeSheet);
+    if (generateTypeInput) {
+        generateTypeInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.isComposing && e.keyCode !== 229) {
+                e.preventDefault();
+                confirmGenerateTypeSheet();
+            }
+        });
+    }
+
+    // --- Auto Activity Logic ---
+    function startAutoActivity(member) {
+        if (autoActivityIntervals[member.id]) clearInterval(autoActivityIntervals[member.id]);
+        
+        let intervalSec = member.autoActivityInterval || 60;
+        
+        autoActivityIntervals[member.id] = setInterval(() => {
+            if (!ensureBstageHydrated(false)) return;
+            const canonical = findCanonicalBstageMember(member.id);
+            if (!canonical) {
+                stopAutoActivity(member);
+                return;
+            }
+            member = canonical.member;
+            // Determine container: if currently chatting with this member, use DOM, else null
+            const contentContainer = (currentChatMember && currentChatMember.id === member.id && bstageChatView.style.display !== 'none') 
+                ? document.getElementById('bstage-chat-content') 
+                : null;
+            
+            triggerChatApi(member, contentContainer, true);
+        }, intervalSec * 1000);
+    }
+
+    function stopAutoActivity(member) {
+        if (autoActivityIntervals[member.id]) {
+            clearInterval(autoActivityIntervals[member.id]);
+            delete autoActivityIntervals[member.id];
+        }
+    }
+
+    // Init auto activity for all members on load
+    function initAllAutoActivities() {
+        teams.forEach(team => {
+            if (team.members) {
+                team.members.forEach(member => {
+                    if (member.autoActivityEnabled) {
+                        startAutoActivity(member);
+                    }
+                });
+            }
+        });
+    }
+    
+    // Chat Menu Button
+    document.getElementById('bstage-chat-menu-btn').addEventListener('click', () => {
+        if (currentChatMember) {
+            document.getElementById('bstage-detail-name').textContent = currentChatMember.name;
+            const days = Math.floor((Date.now() - currentChatMember.subStartDate) / (1000 * 60 * 60 * 24)) + 1;
+            document.getElementById('bstage-detail-days').textContent = `已一同 ${days} 天`;
+            
+            const avatar = document.getElementById('bstage-detail-avatar');
+            const avatarText = document.getElementById('bstage-detail-avatar-text');
+            const avatarContainer = document.getElementById('bstage-detail-avatar-container');
+            
+            if (currentChatMember.avatar) {
+                avatar.src = currentChatMember.avatar;
+                avatar.style.display = 'block';
+                avatarText.style.display = 'none';
+                avatarContainer.style.backgroundColor = '#1c1c1e';
+            } else {
+                avatar.style.display = 'none';
+                avatarText.style.display = 'block';
+                avatarText.textContent = currentChatMember.name[0];
+                avatarContainer.style.backgroundColor = '#333';
+            }
+            
+            // Sync Context State
+            const contextSwitchEl = document.getElementById('bstage-context-switch');
+            if (isContextEnabled) contextSwitchEl.classList.add('active');
+            else contextSwitchEl.classList.remove('active');
+            document.getElementById('bstage-context-count').value = contextMessageCount;
+            
+            // Sync Switch State
+            const switchEl = document.getElementById('bstage-trans-switch');
+            if (isTranslationEnabled) switchEl.classList.add('active');
+            else switchEl.classList.remove('active');
+
+            const otherFansSwitch = document.getElementById('bstage-other-fans-switch');
+            if (otherFansSwitch) otherFansSwitch.classList.toggle('active', !!currentChatMember.otherFansEnabled);
+
+            // Render Preview
+            renderLockerPreview();
+            
+            populateCssSelects();
+
+            // Sync Auto Activity Settings
+            const autoSwitch = document.getElementById('bstage-auto-activity-switch');
+            const autoOptions = document.getElementById('bstage-auto-activity-options');
+            const autoInterval = document.getElementById('bstage-auto-activity-interval');
+            const autoPreset = document.getElementById('bstage-auto-activity-preset');
+            
+            if (currentChatMember.autoActivityEnabled) {
+                autoSwitch.classList.add('active');
+                autoOptions.style.display = 'block';
+            } else {
+                autoSwitch.classList.remove('active');
+                autoOptions.style.display = 'none';
+            }
+            
+            autoInterval.value = currentChatMember.autoActivityInterval || 60;
+            
+            // Populate API Presets from window.appStorage/StorageManager if available
+            autoPreset.innerHTML = '<option value="">默认全局API</option>';
+            let globalPresets = [];
+            try {
+                if (window.StorageManager) {
+                    globalPresets = window.StorageManager.load('u2_apiPresets', []);
+                }
+            } catch(e) {}
+            
+            globalPresets.forEach(p => {
+                autoPreset.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+            });
+            
+            if (currentChatMember.autoActivityPresetId) {
+                autoPreset.value = currentChatMember.autoActivityPresetId;
+            }
+
+            window.openView(chatDetailSheet);
+        }
+    });
+
+    // Auto Activity Switch & Inputs Logic
+    document.getElementById('bstage-auto-activity-switch').addEventListener('click', function() {
+        if (!currentChatMember) return;
+        
+        currentChatMember.autoActivityEnabled = !currentChatMember.autoActivityEnabled;
+        const autoOptions = document.getElementById('bstage-auto-activity-options');
+        
+        if (currentChatMember.autoActivityEnabled) {
+            this.classList.add('active');
+            autoOptions.style.display = 'block';
+            startAutoActivity(currentChatMember);
+            window.showToast('自主活动已开启');
+        } else {
+            this.classList.remove('active');
+            autoOptions.style.display = 'none';
+            stopAutoActivity(currentChatMember);
+            window.showToast('自主活动已关闭');
+        }
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-auto-activity-interval').addEventListener('change', function() {
+        if (!currentChatMember) return;
+        let val = parseInt(this.value, 10);
+        if (isNaN(val) || val < 5) val = 5; // minimum 5s
+        this.value = val;
+        currentChatMember.autoActivityInterval = val;
+        
+        if (currentChatMember.autoActivityEnabled) {
+            startAutoActivity(currentChatMember); // restart interval
+        }
+        saveBstageData();
+    });
+    
+    document.getElementById('bstage-auto-activity-preset').addEventListener('change', function() {
+        if (!currentChatMember) return;
+        currentChatMember.autoActivityPresetId = this.value;
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-global-settings-btn').addEventListener('click', () => {
+        renderPresetList();
+        window.openView(globalSettingsModal);
+    });
+
+    // 全局 CSS 预设管理逻辑
+    document.querySelectorAll('.bstage-preset-tab').forEach(tab => {
+        tab.addEventListener('click', (e) => {
+            document.querySelectorAll('.bstage-preset-tab').forEach(t => {
+                t.classList.remove('active');
+                t.style.background = '#2c2c2e';
+                t.style.color = '#fff';
+            });
+            e.target.classList.add('active');
+            e.target.style.background = '#fff';
+            e.target.style.color = '#000';
+            
+            currentPresetTab = e.target.getAttribute('data-type');
+            renderPresetList();
+        });
+    });
+
+    document.getElementById('bstage-save-preset-btn').addEventListener('click', () => {
+        const nameInput = document.getElementById('bstage-preset-name-input');
+        const cssInput = document.getElementById('bstage-preset-css-input');
+        const name = nameInput.value.trim();
+        const css = cssInput.value.trim();
+
+        if (!name || !css) {
+            window.showToast('请输入预设名称和 CSS 代码');
+            return;
+        }
+
+        const newPreset = {
+            id: 'preset_' + Date.now(),
+            name: name,
+            css: css
+        };
+
+        if (!bstagePresets[currentPresetTab]) {
+            bstagePresets[currentPresetTab] = [];
+        }
+        
+        bstagePresets[currentPresetTab].push(newPreset);
+        saveBstageData();
+        renderPresetList();
+        
+        nameInput.value = '';
+        cssInput.value = '';
+        window.showToast('预设已保存');
+    });
+
+    function renderPresetList() {
+        const container = document.getElementById('bstage-preset-list');
+        container.innerHTML = '';
+        const list = bstagePresets[currentPresetTab] || [];
+
+        if (list.length === 0) {
+            container.innerHTML = '<div style="color: #888; text-align: center; padding: 10px;">暂无预设</div>';
+            return;
+        }
+
+        list.forEach(preset => {
+            const item = document.createElement('div');
+            item.style.cssText = 'background: #2c2c2e; padding: 10px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;';
+            item.innerHTML = `
+                <div style="flex: 1; overflow: hidden;">
+                    <div style="color: #fff; font-weight: bold; margin-bottom: 4px;">${preset.name}</div>
+                    <div style="color: #aaa; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${preset.css}</div>
+                </div>
+                <div class="bstage-preset-del-btn" style="color: #ff3b30; padding: 5px; cursor: pointer;"><i class="fas fa-trash"></i></div>
+            `;
+
+            item.querySelector('.bstage-preset-del-btn').addEventListener('click', () => {
+                bstagePresets[currentPresetTab] = bstagePresets[currentPresetTab].filter(p => p.id !== preset.id);
+                saveBstageData();
+                renderPresetList();
+            });
+
+            container.appendChild(item);
+        });
+    }
+
+    function populateCssSelects() {
+        const chatSelect = document.getElementById('bstage-chat-css-select');
+        const frameSelect = document.getElementById('bstage-frame-css-select');
+        const bubbleSelect = document.getElementById('bstage-bubble-css-select');
+
+        // Populate Chat CSS Select
+        chatSelect.innerHTML = '<option value="">默认</option>';
+        (bstagePresets.chatCss || []).forEach(p => {
+            chatSelect.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+        });
+        if (currentChatMember && currentChatMember.chatCssId) {
+            chatSelect.value = currentChatMember.chatCssId;
+        }
+
+        // Populate Frame CSS Select
+        frameSelect.innerHTML = '<option value="">默认</option>';
+        (bstagePresets.avatarFrameCss || []).forEach(p => {
+            frameSelect.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+        });
+        if (currentChatMember && currentChatMember.frameCssId) {
+            frameSelect.value = currentChatMember.frameCssId;
+        }
+
+        // Populate Bubble CSS Select
+        bubbleSelect.innerHTML = '<option value="">默认</option>';
+        (bstagePresets.bubbleCss || []).forEach(p => {
+            bubbleSelect.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+        });
+        if (currentChatMember && currentChatMember.bubbleCssId) {
+            bubbleSelect.value = currentChatMember.bubbleCssId;
+        }
+    }
+
+    function populateFanCssSelects() {
+        const chatSelect = document.getElementById('bstage-fan-chat-css-select');
+        const bubbleSelect = document.getElementById('bstage-fan-bubble-css-select');
+        if (!chatSelect || !bubbleSelect) return;
+
+        chatSelect.innerHTML = '<option value="">默认</option>';
+        (bstagePresets.chatCss || []).forEach(p => {
+            chatSelect.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+        });
+        chatSelect.value = bstageFanChatSettings.chatCssId || '';
+
+        bubbleSelect.innerHTML = '<option value="">默认</option>';
+        (bstagePresets.bubbleCss || []).forEach(p => {
+            bubbleSelect.innerHTML += `<option value="${p.id}">${p.name}</option>`;
+        });
+        bubbleSelect.value = bstageFanChatSettings.bubbleCssId || '';
+    }
+
+    // Select Change Listeners
+    document.getElementById('bstage-chat-css-select').addEventListener('change', (e) => {
+        if (!currentChatMember) return;
+        currentChatMember.chatCssId = e.target.value;
+        applyDynamicStyles();
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-frame-css-select').addEventListener('change', (e) => {
+        if (!currentChatMember) return;
+        currentChatMember.frameCssId = e.target.value;
+        applyDynamicStyles();
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-bubble-css-select').addEventListener('change', (e) => {
+        if (!currentChatMember) return;
+        currentChatMember.bubbleCssId = e.target.value;
+        applyDynamicStyles();
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-fan-chat-css-select').addEventListener('change', (e) => {
+        bstageFanChatSettings.chatCssId = e.target.value;
+        applyFanChatSettings();
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-fan-bubble-css-select').addEventListener('change', (e) => {
+        bstageFanChatSettings.bubbleCssId = e.target.value;
+        applyFanChatSettings();
+        saveBstageData();
+    });
+
+    function applyDynamicStyles() {
+        let styleTag = document.getElementById('bstage-dynamic-styles');
+        if (!styleTag) {
+            styleTag = document.createElement('style');
+            styleTag.id = 'bstage-dynamic-styles';
+            document.head.appendChild(styleTag);
+        }
+
+        let combinedCss = '';
+
+        // 1. Char Chat CSS
+        if (currentChatMember && currentChatMember.chatCssId) {
+            const preset = (bstagePresets.chatCss || []).find(p => p.id === currentChatMember.chatCssId);
+            if (preset) {
+                combinedCss += `
+                    #bstage-chat-view {
+                        ${preset.css}
+                    }
+                `;
+            }
+        }
+
+        // 2. Char Frame CSS
+        if (currentChatMember && currentChatMember.frameCssId) {
+            const preset = (bstagePresets.avatarFrameCss || []).find(p => p.id === currentChatMember.frameCssId);
+            if (preset) {
+                combinedCss += `
+                    #bstage-chat-view .bstage-chat-msg.income img {
+                        ${preset.css}
+                    }
+                    #bstage-detail-avatar {
+                        ${preset.css}
+                    }
+                `;
+            }
+        }
+
+        // 3. Char Bubble CSS
+        if (currentChatMember && currentChatMember.bubbleCssId) {
+            const preset = (bstagePresets.bubbleCss || []).find(p => p.id === currentChatMember.bubbleCssId);
+            if (preset) {
+                combinedCss += `
+                    #bstage-chat-view .bstage-chat-bubble {
+                        ${preset.css}
+                    }
+                `;
+            }
+        }
+
+        // 4. Fan Chat CSS
+        if (bstageFanChatSettings.chatCssId) {
+            const preset = (bstagePresets.chatCss || []).find(p => p.id === bstageFanChatSettings.chatCssId);
+            if (preset) {
+                combinedCss += `
+                    #bstage-fan-chat-view {
+                        ${preset.css}
+                    }
+                `;
+            }
+        }
+
+        // 5. Fan Bubble CSS
+        if (bstageFanChatSettings.bubbleCssId) {
+            const preset = (bstagePresets.bubbleCss || []).find(p => p.id === bstageFanChatSettings.bubbleCssId);
+            if (preset) {
+                combinedCss += `
+                    #bstage-fan-chat-view .bstage-chat-bubble {
+                        ${preset.css}
+                    }
+                `;
+            }
+        }
+
+        styleTag.textContent = combinedCss;
+    }
+
+    // Context Setting Logic
+    document.getElementById('bstage-context-switch').addEventListener('click', function() {
+        isContextEnabled = !isContextEnabled;
+        if (isContextEnabled) this.classList.add('active');
+        else this.classList.remove('active');
+        const fanContextSwitch = document.getElementById('bstage-fan-context-switch');
+        if (fanContextSwitch) fanContextSwitch.classList.toggle('active', isContextEnabled);
+        saveBstageData();
+        window.showToast(`上下文携带已${isContextEnabled ? '开启' : '关闭'}`);
+    });
+
+    document.getElementById('bstage-context-count').addEventListener('change', function() {
+        let val = parseInt(this.value, 10);
+        if (isNaN(val) || val < 1) val = 1;
+        contextMessageCount = val;
+        this.value = val;
+        const fanContextCount = document.getElementById('bstage-fan-context-count');
+        if (fanContextCount) fanContextCount.value = val;
+        saveBstageData();
+    });
+
+    document.getElementById('bstage-fan-context-switch').addEventListener('click', function() {
+        isContextEnabled = !isContextEnabled;
+        if (isContextEnabled) this.classList.add('active');
+        else this.classList.remove('active');
+        const charContextSwitch = document.getElementById('bstage-context-switch');
+        if (charContextSwitch) charContextSwitch.classList.toggle('active', isContextEnabled);
+        saveBstageData();
+        window.showToast(`上下文携带已${isContextEnabled ? '开启' : '关闭'}`);
+    });
+
+    document.getElementById('bstage-fan-context-count').addEventListener('change', function() {
+        let val = parseInt(this.value, 10);
+        if (isNaN(val) || val < 1) val = 1;
+        contextMessageCount = val;
+        this.value = val;
+        const charContextCount = document.getElementById('bstage-context-count');
+        if (charContextCount) charContextCount.value = val;
+        saveBstageData();
+    });
+
+    // Clear Chat / Exit Logic
+    const chatClearBtn = document.getElementById('bstage-chat-clear-btn');
+    if (chatClearBtn) {
+        chatClearBtn.addEventListener('click', () => {
+            if (!currentChatMember) return;
+            if (confirm(`确定要清空与 ${currentChatMember.name} 的聊天记录吗？此操作不可恢复。`)) {
+                currentChatMember.chatHistory = [];
+                saveBstageData();
+                
+                const content = document.getElementById('bstage-chat-content');
+                if (content) {
+                    content.innerHTML = '<div style="text-align:center; color:#666; padding:20px; font-size:13px;">聊天记录已清空</div>';
+                }
+                
+                window.showToast('聊天记录已清空');
+                window.closeView(chatDetailSheet);
+            }
+        });
+    }
+
+    const chatExitBtn = document.getElementById('bstage-chat-exit-btn');
+    if (chatExitBtn) {
+        chatExitBtn.addEventListener('click', () => {
+            if (!currentChatMember) return;
+            if (confirm(`确定要清空与 ${currentChatMember.name} 的聊天记录吗？此操作不可恢复。`)) {
+                currentChatMember.chatHistory = [];
+                saveBstageData();
+                
+                const content = document.getElementById('bstage-chat-content');
+                if (content) {
+                    content.innerHTML = '<div style="text-align:center; color:#666; padding:20px; font-size:13px;">聊天记录已清空</div>';
+                }
+                
+                window.showToast('聊天记录已清空');
+                window.closeView(chatDetailSheet);
+            }
+        });
+    }
+
+    // Translation Switch Logic
+    document.getElementById('bstage-trans-switch').addEventListener('click', function() {
+        isTranslationEnabled = !isTranslationEnabled;
+        if (isTranslationEnabled) this.classList.add('active');
+        else this.classList.remove('active');
+        
+        // Toggle Global Translation Visibility
+        const content = document.getElementById('bstage-chat-content');
+        if (content) {
+            if (isTranslationEnabled) content.classList.add('show-trans');
+            else content.classList.remove('show-trans');
+        }
+        syncFanChatTranslationState();
+        const fanSwitchEl = document.getElementById('bstage-fan-trans-switch');
+        if (fanSwitchEl) fanSwitchEl.classList.toggle('active', isTranslationEnabled);
+
+        saveBstageData();
+        window.showToast(`实时翻译已${isTranslationEnabled ? '开启' : '关闭'}`);
+    });
+
+    document.getElementById('bstage-fan-trans-switch').addEventListener('click', function() {
+        isTranslationEnabled = !isTranslationEnabled;
+        if (isTranslationEnabled) this.classList.add('active');
+        else this.classList.remove('active');
+
+        const charContent = document.getElementById('bstage-chat-content');
+        if (charContent) {
+            if (isTranslationEnabled) charContent.classList.add('show-trans');
+            else charContent.classList.remove('show-trans');
+        }
+        syncFanChatTranslationState();
+        const charSwitchEl = document.getElementById('bstage-trans-switch');
+        if (charSwitchEl) charSwitchEl.classList.toggle('active', isTranslationEnabled);
+
+        saveBstageData();
+        window.showToast(`实时翻译已${isTranslationEnabled ? '开启' : '关闭'}`);
+    });
+
+    document.getElementById('bstage-other-fans-switch').addEventListener('click', function() {
+        if (!currentChatMember) return;
+        currentChatMember.otherFansEnabled = !currentChatMember.otherFansEnabled;
+        this.classList.toggle('active', !!currentChatMember.otherFansEnabled);
+        saveBstageData();
+        window.showToast(`查看其他人消息已${currentChatMember.otherFansEnabled ? '开启' : '关闭'}`);
+    });
+
+
+    // Click outside to close modals
+    [searchGenerateModal, generateTypeSheet, createTeamSheet, addCharSheet, pullFriendSheet, subModal, popSubModal, userProfileModal, ordersModal, editProfileModal, editTeamSheet, chatDetailSheet, fanChatDetailSheet, lockerModal, videoDetailModal, editVideoSheet, shopDetailModal].forEach(modal => {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                window.closeView(modal);
+            }
+        });
+    });
+
+    // --- Chat Settings Logic ---
+    
+    // Nickname Setting
+    document.getElementById('bstage-setting-nickname').addEventListener('click', () => {
+        if (!currentChatMember) return;
+        
+        // Simple prompt for now, could be a modal
+        /* 
+           Using window.prompt is simplest but blocks execution. 
+           Given the constraints, I'll use it for simplicity unless a dedicated modal is preferred. 
+           Let's use a prompt for "昵称设置".
+        */
+        const newName = prompt('请输入新的备注名:', currentChatMember.name);
+        if (newName && newName.trim() !== '') {
+            currentChatMember.name = newName.trim();
+            // Update UI
+            document.getElementById('bstage-detail-name').textContent = currentChatMember.name;
+            document.getElementById('bstage-chat-name').textContent = currentChatMember.name;
+            window.showToast('备注已修改');
+            
+            // Refresh Pop List if visible
+            if (currentTeam) renderTeamPop(currentTeam);
+        }
+    });
+
+    // Background Setting
+    document.getElementById('bstage-setting-bg').addEventListener('click', () => {
+        document.getElementById('bstage-chat-bg-input').click();
+    });
+
+    document.getElementById('bstage-reset-bg-btn').addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent triggering file input
+        const chatView = document.getElementById('bstage-chat-view');
+        chatView.style.backgroundImage = 'none';
+        if (currentChatMember) {
+            currentChatMember.chatBg = null;
+        }
+        window.showToast('背景已重置');
+    });
+
+    document.getElementById('bstage-chat-bg-input').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const bgUrl = e.target.result;
+                // Apply to Chat View
+                const chatView = document.getElementById('bstage-chat-view');
+                chatView.style.backgroundImage = `url('${bgUrl}')`;
+                chatView.style.backgroundSize = 'cover';
+                chatView.style.backgroundPosition = 'center';
+                
+                // Store in member data if persistence is needed (optional)
+                if (currentChatMember) {
+                    currentChatMember.chatBg = bgUrl;
+                }
+                
+                window.showToast('背景已更换');
+                window.closeView(chatDetailSheet);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    document.getElementById('bstage-fan-setting-bg').addEventListener('click', () => {
+        document.getElementById('bstage-fan-chat-bg-input').click();
+    });
+
+    document.getElementById('bstage-fan-reset-bg-btn').addEventListener('click', (e) => {
+        e.stopPropagation();
+        bstageFanChatSettings.chatBg = null;
+        applyFanChatSettings();
+        saveBstageData();
+        window.showToast('背景已重置');
+    });
+
+    document.getElementById('bstage-fan-chat-bg-input').addEventListener('change', (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (readerEvent) => {
+            bstageFanChatSettings.chatBg = readerEvent.target.result;
+            applyFanChatSettings();
+            saveBstageData();
+            window.showToast('背景已更换');
+            window.closeView(fanChatDetailSheet);
+        };
+        reader.readAsDataURL(file);
+    });
+
+    document.getElementById('bstage-fan-chat-clear-btn').addEventListener('click', () => {
+        if (!confirm('确定要清空粉丝聊天室记录吗？此操作不可恢复。')) return;
+        bstageFanChatHistory = [];
+        renderFanChatHistory();
+        updateFanSubscriberLabels();
+        saveBstageData();
+        window.showToast('粉丝聊天室已清空');
+        window.closeView(fanChatDetailSheet);
+    });
+
+    // Locker Logic
+    document.getElementById('bstage-locker-see-all-btn').addEventListener('click', () => {
+        renderLockerGrid();
+        window.openView(lockerModal);
+    });
+
+    function renderLockerGrid() {
+        const grid = document.getElementById('bstage-locker-grid');
+        grid.innerHTML = '';
+        
+        chatPhotos.forEach(url => {
+            const item = document.createElement('div');
+            item.className = 'bstage-locker-item';
+            item.innerHTML = `<img src="${url}">`;
+            item.title = '查看图片详情';
+            item.addEventListener('click', () => {
+                openBstageImagePreview(url, '置物柜照片');
+            });
+            grid.appendChild(item);
+        });
+
+        // Add Button
+        const addBtn = document.createElement('div');
+        addBtn.className = 'bstage-locker-item add-btn';
+        addBtn.innerHTML = `
+            <i class="fas fa-plus"></i>
+            <input type="file" accept="image/*" style="display:none;">
+        `;
+        addBtn.addEventListener('click', () => {
+            addBtn.querySelector('input').click();
+        });
+        addBtn.querySelector('input').addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    chatPhotos.push(e.target.result);
+                    renderLockerGrid();
+                    renderLockerPreview(); // Update detail sheet preview
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+        grid.appendChild(addBtn);
+    }
+
+    function renderLockerPreview() {
+        const container = document.getElementById('bstage-locker-preview-list');
+        container.innerHTML = '';
+        // Show first 4
+        chatPhotos.slice(0, 4).forEach(url => {
+            const item = document.createElement('div');
+            item.style.cssText = 'width: 70px; height: 70px; border-radius: 8px; flex-shrink: 0; overflow: hidden; position: relative; cursor: pointer;';
+            item.innerHTML = `<img src="${url}" style="width: 100%; height: 100%; object-fit: cover;">`;
+            item.title = '查看图片详情';
+            item.addEventListener('click', () => {
+                openBstageImagePreview(url, '置物柜照片');
+            });
+            container.appendChild(item);
+        });
+        
+        // Fill empty slots if less than 4 (optional, or just leave empty)
+        if (chatPhotos.length === 0) {
+            container.innerHTML = '<div style="color: #888; font-size: 13px; padding: 10px 0;">暂无照片</div>';
+        }
+    }
+
+    // Create Team Logic
+    const createBtn = document.getElementById('bstage-create-team-btn');
+    createBtn.addEventListener('click', () => {
+        isEditingTeam = false;
+        // Reset form
+        document.getElementById('bstage-team-name-input').value = '';
+        const descInput = document.getElementById('bstage-team-desc-input');
+        if(descInput) descInput.value = '';
+        
+        document.getElementById('bstage-team-avatar-preview').src = '';
+        document.getElementById('bstage-team-avatar-preview').style.display = 'none';
+        document.getElementById('bstage-team-bg-preview').src = '';
+        document.getElementById('bstage-team-bg-preview').style.display = 'none';
+        tempMembers = [];
+        renderTempMembers();
+        window.openView(createTeamSheet);
+    });
+
+    function clampSearchMemberCount(value) {
+        const parsed = parseInt(value, 10);
+        if (!Number.isFinite(parsed) || parsed < 1) return 1;
+        if (parsed > 12) return 12;
+        return parsed;
+    }
+
+    function setSearchGenerateLoading(isLoading) {
+        const confirmBtn = document.getElementById('bstage-search-confirm-btn');
+        const loading = document.getElementById('bstage-search-loading');
+        if (confirmBtn) {
+            confirmBtn.classList.toggle('is-loading', isLoading);
+            confirmBtn.textContent = isLoading ? '生成中...' : '生成团队';
+        }
+        if (loading) loading.style.display = isLoading ? 'flex' : 'none';
+    }
+
+    function openSearchGenerateModal() {
+        const queryInput = document.getElementById('bstage-search-query-input');
+        const countInput = document.getElementById('bstage-search-member-count');
+        if (queryInput) queryInput.value = '';
+        if (countInput) countInput.value = '1';
+        setSearchGenerateLoading(false);
+        window.openView(searchGenerateModal);
+        setTimeout(() => {
+            if (queryInput) queryInput.focus();
+        }, 80);
+    }
+
+    async function generateTeamFromSearch(query, memberCount) {
+        const searchQuery = String(query || '').trim();
+        const isRandom = !searchQuery;
+        const generationIntent = isRandom
+            ? '用户没有填写搜索内容。请随机生成一个虚构的 b.stage 团队或明星企划，可以自由选择风格、国家地区、成员定位和团队概念。'
+            : `用户填写的搜索内容是「${searchQuery}」。必须围绕这个内容生成，团队名、团队信息、成员名字、成员人设都要明显贴合该内容，禁止忽略搜索内容或生成无关的随机团队。`;
+        const prompt = `
+请生成一个适合 b.stage 的虚构团队或明星企划。
+
+${generationIntent}
+团队人数：${memberCount}
+
+要求：
+1. 只返回严格 JSON 对象，不要 markdown，不要解释。
+2. members 数组长度必须严格等于 ${memberCount}。
+3. name 是团队名或艺名，desc 是团队/明星信息。
+4. 每个成员必须包含 name 和 role，role 是可供 AI 扮演使用的人设。
+5. ${isRandom ? '因为用户留空，本次可以随机发挥，但仍要保持团队设定完整、统一。' : '因为用户填写了搜索内容，本次不允许随机偏题，所有核心设定必须服务于该搜索内容。'}
+
+格式：
+{
+  "name": "团队名",
+  "desc": "团队信息",
+  "members": [
+    { "name": "成员名", "role": "成员人设" }
+  ]
+}
+`;
+
+        const generated = await callBstageJsonApi(prompt, 'You generate strict JSON for fictional idol/team profiles.', 0.8);
+        if (!generated || typeof generated !== 'object' || Array.isArray(generated)) {
+            throw new Error('invalid_team_payload');
+        }
+
+        const teamName = stripGeneratedText(generated.name);
+        const desc = stripGeneratedText(generated.desc || generated.info || generated.description);
+        const members = Array.isArray(generated.members) ? generated.members : [];
+        if (!teamName || !desc || members.length !== memberCount) {
+            throw new Error('invalid_team_payload');
+        }
+
+        const normalizedMembers = members.map((member, index) => {
+            const name = stripGeneratedText(member && member.name, `成员${index + 1}`);
+            const role = stripGeneratedText(member && (member.role || member.persona || member.desc));
+            if (!name || !role) throw new Error('invalid_member_payload');
+            const seed = createImageSeed(`bstage-member-${teamName}-${name}-${index}`);
+            return {
+                id: Date.now() + index + Math.random(),
+                name,
+                role,
+                avatar: null,
+                avatarEmoji: getStableEmojiAvatar(seed),
+                isSubscribed: false,
+                subStartDate: null
+            };
+        });
+
+        const teamSeed = createImageSeed(`bstage-team-${teamName}`);
+        return {
+            id: Date.now(),
+            name: teamName,
+            desc,
+            avatar: null,
+            avatarEmoji: getStableEmojiAvatar(`${teamSeed}-avatar`),
+            bg: createExternalBackground(`${teamSeed}-bg`),
+            members: normalizedMembers,
+            isSubscribed: false
+        };
+    }
+
+    async function confirmSearchGenerate() {
+        const confirmBtn = document.getElementById('bstage-search-confirm-btn');
+        if (confirmBtn && confirmBtn.classList.contains('is-loading')) return;
+
+        const queryInput = document.getElementById('bstage-search-query-input');
+        const countInput = document.getElementById('bstage-search-member-count');
+        const query = queryInput ? queryInput.value.trim() : '';
+        const memberCount = clampSearchMemberCount(countInput ? countInput.value : 1);
+        if (countInput) countInput.value = String(memberCount);
+
+        setSearchGenerateLoading(true);
+        try {
+            const generatedTeam = await generateTeamFromSearch(query, memberCount);
+            teams.push(generatedTeam);
+            saveBstageData();
+            renderFollowingBar();
+            window.closeView(searchGenerateModal);
+            openTeam(generatedTeam);
+            window.showToast('团队已生成');
+        } catch (error) {
+            console.error('Bstage search generate failed:', error);
+            if (error && error.message === 'missing_api_config') {
+                window.showToast('请先在系统设置中配置 API');
+            } else if (error && /member|payload/.test(error.message || '')) {
+                window.showToast('生成结果格式或人数不匹配');
+            } else {
+                window.showToast('生成团队失败');
+            }
+        } finally {
+            setSearchGenerateLoading(false);
+        }
+    }
+
+    document.getElementById('bstage-search-generate-btn').addEventListener('click', openSearchGenerateModal);
+    document.getElementById('bstage-search-confirm-btn').addEventListener('click', confirmSearchGenerate);
+    ['bstage-search-query-input', 'bstage-search-member-count'].forEach(inputId => {
+        const input = document.getElementById(inputId);
+        if (!input) return;
+        input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.isComposing && e.keyCode !== 229) {
+                e.preventDefault();
+                confirmSearchGenerate();
+            }
+        });
+    });
+
+    // File Upload Helpers
+    function setupFileUpload(triggerId, inputQuery, previewId) {
+        const trigger = document.getElementById(triggerId);
+        const input = trigger.querySelector('input');
+        const preview = document.getElementById(previewId);
+
+        if (!trigger || !input) return;
+
+        trigger.addEventListener('click', () => input.click());
+        input.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    if (preview) {
+                        preview.src = e.target.result;
+                        preview.style.display = 'block';
+                    }
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    }
+
+    setupFileUpload('bstage-team-avatar-upload', 'input', 'bstage-team-avatar-preview');
+    setupFileUpload('bstage-team-bg-upload', 'input', 'bstage-team-bg-preview');
+    setupFileUpload('bstage-char-avatar-upload', 'input', 'bstage-char-avatar-preview');
+    setupFileUpload('bstage-edit-team-avatar-upload', 'input', 'bstage-edit-team-avatar-preview');
+    setupFileUpload('bstage-edit-team-bg-upload', 'input', 'bstage-edit-team-bg-preview');
+    setupFileUpload('bstage-edit-video-cover-upload', 'input', 'bstage-edit-video-cover-preview');
+
+    // Pull Friend Flow
+    const handlePullFriend = async () => {
+        const listContainer = document.getElementById('bstage-friend-list');
+        listContainer.innerHTML = '<div style="text-align:center; padding:20px; color:#aaa;">加载中...</div>';
+        window.openView(pullFriendSheet);
+
+        try {
+            // Retrieve friends from u2's storage
+            let friends = [];
+            if (window.imStorage && window.imStorage.loadFriends) {
+                friends = await window.imStorage.loadFriends();
+            } else if (window.getAppState) {
+                const data = window.getAppState('imessage');
+                if (data && data.friends) friends = data.friends;
+            }
+
+            // Filter friends: only include char type
+            const validFriends = friends.filter(f => {
+                if (!f) return false;
+                return f.type === 'char';
+            });
+
+            if (validFriends.length === 0) {
+                listContainer.innerHTML = '<div style="text-align:center; padding:20px; color:#aaa;">暂无可拉取的好友</div>';
+                return;
+            }
+
+            listContainer.innerHTML = '';
+            validFriends.forEach(f => {
+                const item = document.createElement('div');
+                item.className = 'bstage-friend-item';
+                item.style.cssText = 'display: flex; align-items: center; gap: 12px; padding: 12px; background-color: #2c2c2e; border-radius: 12px; cursor: pointer;';
+                
+                const avatarUrl = f.avatar || (f.avatarDataUrl ? f.avatarDataUrl : '');
+                const displayName = f.realName || f.originalName || f.name || '';
+                const avatarHtml = avatarUrl ? 
+                    `<img src="${avatarUrl}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;">` :
+                    `<div style="width: 40px; height: 40px; border-radius: 50%; background-color: #444; display: flex; justify-content: center; align-items: center; color: #fff;">${displayName ? displayName[0] : 'U'}</div>`;
+                const persona = f.persona || f.signature || f.desc || f.role || '';
+
+                item.innerHTML = `
+                    ${avatarHtml}
+                    <div style="flex: 1; overflow: hidden;">
+                        <div style="font-size: 16px; color: #fff; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${displayName}</div>
+                        <div style="font-size: 13px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${persona}</div>
+                    </div>
+                    <i class="fas fa-plus-circle" style="color: #007aff; font-size: 20px;"></i>
+                `;
+
+                item.addEventListener('click', () => {
+                    // Populate addCharSheet with pulled friend data instead of directly adding
+                    currentEditingMember = null; // We are creating a new one based on pulled data
+                    
+                    document.getElementById('bstage-char-name-input').value = displayName;
+                    document.getElementById('bstage-char-role-input').value = persona;
+                    
+                    const preview = document.getElementById('bstage-char-avatar-preview');
+                    if (avatarUrl) {
+                        preview.src = avatarUrl;
+                        preview.style.display = 'block';
+                    } else {
+                        preview.src = '';
+                        preview.style.display = 'none';
+                    }
+                    
+                    const title = document.querySelector('#bstage-add-char-sheet .sheet-title');
+                    if(title) title.textContent = '确认成员信息';
+                    
+                    const btn = document.getElementById('bstage-confirm-add-char-btn');
+                    if(btn) btn.textContent = '添加';
+                    
+                    window.closeView(pullFriendSheet);
+                    window.openView(addCharSheet);
+                });
+
+                listContainer.appendChild(item);
+            });
+        } catch (e) {
+            console.error('Failed to pull friends', e);
+            listContainer.innerHTML = '<div style="text-align:center; padding:20px; color:#ff3b30;">拉取好友失败</div>';
+        }
+    };
+
+    document.getElementById('bstage-pull-friend-btn').addEventListener('click', handlePullFriend);
+
+    // Add Member Flow
+    document.getElementById('bstage-add-char-btn').addEventListener('click', () => {
+        currentEditingMember = null;
+        document.getElementById('bstage-char-name-input').value = '';
+        document.getElementById('bstage-char-role-input').value = '';
+        document.getElementById('bstage-char-avatar-preview').style.display = 'none';
+        
+        const title = document.querySelector('#bstage-add-char-sheet .sheet-title');
+        if(title) title.textContent = '添加成员';
+        const btn = document.getElementById('bstage-confirm-add-char-btn');
+        if(btn) btn.textContent = '添加';
+
+        window.openView(addCharSheet);
+    });
+
+    document.getElementById('bstage-confirm-add-char-btn').addEventListener('click', () => {
+        const name = document.getElementById('bstage-char-name-input').value;
+        const role = document.getElementById('bstage-char-role-input').value;
+        const avatar = document.getElementById('bstage-char-avatar-preview').src;
+        const hasAvatar = document.getElementById('bstage-char-avatar-preview').style.display !== 'none';
+        
+        if (name) {
+            if (currentEditingMember) {
+                // Edit existing
+                currentEditingMember.name = name;
+                currentEditingMember.role = role;
+                currentEditingMember.avatar = hasAvatar ? avatar : null;
+                currentEditingMember.avatarEmoji = hasAvatar ? null : (currentEditingMember.avatarEmoji || getStableEmojiAvatar(`member-${currentEditingMember.id || name}`));
+
+                if (isEditingTeam && currentTeam) {
+                    renderEditTeamMembers();
+                    saveBstageData();
+                     // Update Pop View if needed
+                    if (document.querySelector('.bstage-nav-item[data-tab="pop"]').classList.contains('active')) {
+                        renderTeamPop(currentTeam);
+                    }
+                } else {
+                    // Update Temp Members during creation
+                    renderTempMembers();
+                }
+                window.showToast(`已更新成员: ${name}`);
+                currentEditingMember = null;
+            } else {
+                // Add new
+                const newChar = {
+                    id: Date.now(),
+                    name,
+                    role,
+                    avatar: hasAvatar ? avatar : null,
+                    avatarEmoji: hasAvatar ? null : getStableEmojiAvatar(`member-${name}-${Date.now()}`),
+                    isSubscribed: false,
+                    subStartDate: null
+                };
+
+                if (isEditingTeam && currentTeam) {
+                    currentTeam.members.push(newChar);
+                    renderEditTeamMembers();
+                    saveBstageData();
+                    if (document.querySelector('.bstage-nav-item[data-tab="pop"]').classList.contains('active')) {
+                        renderTeamPop(currentTeam);
+                    }
+                    window.showToast(`已添加成员: ${name}`);
+                } else {
+                    tempMembers.push(newChar);
+                    renderTempMembers();
+                }
+            }
+            window.closeView(addCharSheet);
+        }
+    });
+
+    function renderTempMembers() {
+        const container = document.getElementById('bstage-chars-preview-list');
+        container.innerHTML = '';
+        tempMembers.forEach(m => {
+            const item = document.createElement('div');
+            item.className = 'bstage-char-preview-item';
+            item.style.cursor = 'pointer'; // Make it look clickable
+            item.innerHTML = `
+                ${renderBstageAvatar(m, m.name, 'bstage-char-preview-avatar')}
+                <div class="bstage-char-preview-name">${escapeHtml(m.name)}</div>
+            `;
+            
+            // Add click listener to edit temp member
+            item.addEventListener('click', () => {
+                currentEditingMember = m;
+                document.getElementById('bstage-char-name-input').value = m.name;
+                document.getElementById('bstage-char-role-input').value = m.role || '';
+                const preview = document.getElementById('bstage-char-avatar-preview');
+                if (m.avatar) {
+                    preview.src = m.avatar;
+                    preview.style.display = 'block';
+                } else {
+                    preview.src = '';
+                    preview.style.display = 'none';
+                }
+                
+                const title = document.querySelector('#bstage-add-char-sheet .sheet-title');
+                if(title) title.textContent = '编辑成员';
+                
+                const btn = document.getElementById('bstage-confirm-add-char-btn');
+                if(btn) btn.textContent = '保存';
+                
+                window.openView(addCharSheet);
+            });
+
+            container.appendChild(item);
+        });
+    }
+
+    // Confirm Create Team
+    document.getElementById('bstage-confirm-create-btn').addEventListener('click', () => {
+        const name = document.getElementById('bstage-team-name-input').value;
+        const descInput = document.getElementById('bstage-team-desc-input');
+        const desc = descInput ? descInput.value : '';
+        const avatar = document.getElementById('bstage-team-avatar-preview').src;
+        const hasAvatar = document.getElementById('bstage-team-avatar-preview').style.display !== 'none';
+        const bg = document.getElementById('bstage-team-bg-preview').src;
+        const hasBg = document.getElementById('bstage-team-bg-preview').style.display !== 'none';
+
+        if (!name) {
+            window.showToast('请输入团队名称');
+            return;
+        }
+
+        const newTeam = {
+            id: Date.now(),
+            name,
+            desc,
+            avatar: hasAvatar ? avatar : null,
+            avatarEmoji: hasAvatar ? null : getStableEmojiAvatar(`team-${name}-${Date.now()}`),
+            bg: hasBg ? bg : null,
+            members: [...tempMembers],
+            isSubscribed: false
+        };
+        teams.push(newTeam);
+        saveBstageData(); // Explicitly save to ensure persistence
+        renderFollowingBar();
+        window.closeView(createTeamSheet);
+        
+        // Auto open the new team
+        openTeam(newTeam);
+    });
+
+    function renderFollowingBar() {
+        const container = document.getElementById('bstage-following-bar');
+        // Keep the create button, remove others
+        const createBtn = container.firstElementChild;
+        container.innerHTML = '';
+        container.appendChild(createBtn);
+
+        [getBstageUserTeam(), ...teams].forEach(team => {
+            const item = document.createElement('div');
+            item.className = 'bstage-team-item';
+            if (currentTeam && currentTeam.id === team.id) item.classList.add('active');
+            
+            item.innerHTML = `
+                <div class="bstage-team-avatar">
+                    ${renderBstageAvatarContent(team, team.name)}
+                </div>
+                <div class="bstage-team-name">${escapeHtml(team.name)}</div>
+            `;
+            
+            item.addEventListener('click', () => {
+                if (currentTeam && currentTeam.id === team.id) {
+                    openEditTeamModal(team);
+                } else {
+                    openTeam(team);
+                }
+            });
+            container.appendChild(item);
+        });
+    }
+
+    function openEditTeamModal(team) {
+        if (isUserTeam(team)) team = getBstageUserTeam();
+        currentTeam = team;
+        isEditingTeam = true;
+        editTeamSheet.classList.toggle('bstage-user-team-editing', isUserTeam(team));
+        const deleteBtn = document.getElementById('bstage-delete-team-btn');
+        if (deleteBtn) deleteBtn.style.display = isUserTeam(team) ? 'none' : '';
+        document.getElementById('bstage-edit-team-name-input').value = team.name;
+        
+        const avatarPreview = document.getElementById('bstage-edit-team-avatar-preview');
+        if (team.avatar) {
+            avatarPreview.src = team.avatar;
+            avatarPreview.style.display = 'block';
+            if (avatarPreview.previousElementSibling) avatarPreview.previousElementSibling.style.opacity = '0';
+        } else {
+            avatarPreview.src = '';
+            avatarPreview.style.display = 'none';
+            if (avatarPreview.previousElementSibling) avatarPreview.previousElementSibling.style.opacity = '1';
+        }
+
+        const bgPreview = document.getElementById('bstage-edit-team-bg-preview');
+        if (team.bg) {
+            bgPreview.src = team.bg;
+            bgPreview.style.display = 'block';
+            if (bgPreview.previousElementSibling) bgPreview.previousElementSibling.style.opacity = '0';
+        } else {
+            bgPreview.src = '';
+            bgPreview.style.display = 'none';
+            if (bgPreview.previousElementSibling) bgPreview.previousElementSibling.style.opacity = '1';
+        }
+        
+        renderEditTeamMembers();
+        
+        window.openView(editTeamSheet);
+    }
+
+    function renderEditTeamMembers() {
+        const container = document.getElementById('bstage-edit-team-members-list');
+        if (!container || !currentTeam) return;
+        container.innerHTML = '';
+        currentTeam.members.forEach(m => {
+            const item = document.createElement('div');
+            item.className = 'bstage-char-preview-item';
+            item.innerHTML = `
+                ${renderBstageAvatar(m, m.name, 'bstage-char-preview-avatar')}
+                <div class="bstage-char-preview-name">${escapeHtml(m.name)}</div>
+            `;
+            
+            // Add click listener to edit
+            item.addEventListener('click', () => {
+                if (isUserTeam(currentTeam) && m.isUserMember) return;
+                currentEditingMember = m;
+                document.getElementById('bstage-char-name-input').value = m.name;
+                document.getElementById('bstage-char-role-input').value = m.role || '';
+                const preview = document.getElementById('bstage-char-avatar-preview');
+                if (m.avatar) {
+                    preview.src = m.avatar;
+                    preview.style.display = 'block';
+                } else {
+                    preview.src = '';
+                    preview.style.display = 'none';
+                }
+                
+                const title = document.querySelector('#bstage-add-char-sheet .sheet-title');
+                if(title) title.textContent = '编辑成员';
+                
+                const btn = document.getElementById('bstage-confirm-add-char-btn');
+                if(btn) btn.textContent = '保存';
+                
+                window.openView(addCharSheet);
+            });
+
+            container.appendChild(item);
+        });
+    }
+
+    // Bind Add Member btn in Edit Sheet
+    document.getElementById('bstage-edit-team-sheet').addEventListener('click', (e) => {
+        if (e.target.id === 'bstage-edit-team-add-member-btn') {
+            currentEditingMember = null;
+            document.getElementById('bstage-char-name-input').value = '';
+            document.getElementById('bstage-char-role-input').value = '';
+            document.getElementById('bstage-char-avatar-preview').style.display = 'none';
+            
+            const title = document.querySelector('#bstage-add-char-sheet .sheet-title');
+            if(title) title.textContent = '添加成员';
+            const btn = document.getElementById('bstage-confirm-add-char-btn');
+            if(btn) btn.textContent = '添加';
+
+            window.openView(addCharSheet);
+        } else if (e.target.id === 'bstage-edit-team-pull-friend-btn') {
+            handlePullFriend();
+        }
+    });
+
+    document.getElementById('bstage-confirm-edit-team-btn').addEventListener('click', () => {
+        if (!currentTeam) return;
+        
+        const name = document.getElementById('bstage-edit-team-name-input').value;
+        const avatar = document.getElementById('bstage-edit-team-avatar-preview').src;
+        const hasAvatar = document.getElementById('bstage-edit-team-avatar-preview').style.display !== 'none';
+        const bg = document.getElementById('bstage-edit-team-bg-preview').src;
+        const hasBg = document.getElementById('bstage-edit-team-bg-preview').style.display !== 'none';
+
+        if (name) {
+            if (isUserTeam(currentTeam)) {
+                bstageUserTeamState.customName = name;
+                bstageUserTeamState.customAvatar = hasAvatar ? avatar : null;
+                bstageUserTeamState.customBg = hasBg ? bg : null;
+                bstageUserTeamState.avatarEmoji = hasAvatar ? null : (bstageUserTeamState.avatarEmoji || getStableEmojiAvatar(`team-${currentTeam.id || name}`));
+                currentTeam = getBstageUserTeam();
+            } else {
+                currentTeam.name = name;
+                currentTeam.avatar = hasAvatar ? avatar : null;
+                currentTeam.avatarEmoji = hasAvatar ? null : (currentTeam.avatarEmoji || getStableEmojiAvatar(`team-${currentTeam.id || name}`));
+                currentTeam.bg = hasBg ? bg : null;
+            }
+            
+            saveBstageData(); // Explicitly save to ensure persistence
+            renderFollowingBar();
+            // If home tab is active, re-render it to show new BG/Name
+            if (document.querySelector('.bstage-nav-item[data-tab="home"]').classList.contains('active')) {
+                renderTeamHome(currentTeam);
+            }
+            isEditingTeam = false;
+            window.closeView(editTeamSheet);
+            window.showToast('团队信息已更新');
+        }
+    });
+
+    document.getElementById('bstage-delete-team-btn').addEventListener('click', () => {
+        if (!currentTeam) return;
+        if (isUserTeam(currentTeam)) {
+            window.showToast('User 团队为固定团队，不能删除');
+            return;
+        }
+        if (confirm('确定要删除这个团队吗？')) {
+            teams = teams.filter(t => t.id !== currentTeam.id);
+            currentTeam = null;
+            saveBstageData(); // Explicitly save to ensure persistence
+            renderFollowingBar();
+            document.getElementById('bstage-bottom-nav').style.display = 'none';
+            document.getElementById('bstage-content-area').innerHTML = `
+                <div style="height: 100%; display: flex; justify-content: center; align-items: center; color: #333; font-size: 14px;">
+                    请选择或创建一个团队
+                </div>
+            `;
+            isEditingTeam = false;
+            window.closeView(editTeamSheet);
+            window.showToast('团队已删除');
+        }
+    });
+
+    // Handle close via outside click or handle
+    editTeamSheet.querySelector('.sheet-handle').addEventListener('click', () => { isEditingTeam = false; });
+
+    function openTeam(team) {
+        currentTeam = team;
+        renderFollowingBar(); // Update active state
+        document.getElementById('bstage-bottom-nav').style.display = 'block';
+        
+        // Render Home Tab by default
+        renderTeamHome(team);
+        
+        // Reset Nav
+        document.querySelectorAll('.bstage-nav-item').forEach(el => el.classList.remove('active'));
+        const homeTab = document.querySelector('.bstage-nav-item[data-tab="home"]');
+        homeTab.classList.add('active');
+        if (typeof updateNavIndicator === 'function') {
+            // Need slight delay for display block to take effect before calculating rects
+            setTimeout(() => updateNavIndicator(homeTab), 10);
+        }
+    }
+
+    // Render Views
+    const contentArea = document.getElementById('bstage-content-area');
+
+    function renderTeamHome(team) {
+        const bgStyle = team.bg ? `background-image: url('${team.bg}')` : 'background-color: #111';
+        const isFixedUserTeam = isUserTeam(team);
+        
+        contentArea.innerHTML = `
+            <div class="bstage-team-home" style="${bgStyle}">
+                <div class="bstage-home-content">
+                    <div class="bstage-home-title">${team.name}</div>
+                    
+                    <div class="bstage-social-icons">
+                        <i class="fab fa-instagram bstage-social-icon"></i>
+                        <i class="fab fa-twitter bstage-social-icon"></i> <!-- X icon usually fontawesome twitter -->
+                        <i class="fab fa-youtube bstage-social-icon"></i>
+                        <i class="fab fa-tiktok bstage-social-icon"></i>
+                        <i class="fab fa-facebook bstage-social-icon"></i>
+                    </div>
+
+                    <div class="bstage-sub-bubble" id="bstage-home-sub-btn">
+                        <span>${isFixedUserTeam ? 'User Space' : (team.isSubscribed ? '会员已订阅' : '订阅会员')}</span>
+                        <i class="fas fa-chevron-right" style="font-size: 12px;"></i>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        if (!isFixedUserTeam) {
+            document.getElementById('bstage-home-sub-btn').addEventListener('click', openSubModal);
+        }
+    }
+
+    function renderTeamPop(team) {
+        const isFixedUserTeam = isUserTeam(team);
+        const popTeam = isFixedUserTeam ? getBstageUserTeam() : team;
+        if (isFixedUserTeam) currentTeam = popTeam;
+
+        contentArea.innerHTML = `
+            <div class="bstage-pop-view">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
+                    <h2 style="font-size:20px; font-weight:700;">${isFixedUserTeam ? 'User POP' : 'Star'}</h2>
+                </div>
+                <div class="bstage-pop-list" id="bstage-pop-list-container">
+                    <!-- Members -->
+                </div>
+            </div>
+        `;
+
+        const container = document.getElementById('bstage-pop-list-container');
+        if (popTeam.members && popTeam.members.length > 0) {
+            popTeam.members.forEach(m => {
+                const item = document.createElement('div');
+                item.className = 'bstage-pop-item';
+                const isUserSelfMember = isFixedUserTeam && m.isUserMember;
+                
+                // Expiry Check
+                let isExpired = false;
+                let inGracePeriod = false;
+                
+                if (!isUserSelfMember && m.isSubscribed && m.subExpiryDate) {
+                    const now = Date.now();
+                    const graceEnd = m.subExpiryDate + (3 * 24 * 60 * 60 * 1000); // 3 days buffer
+                    
+                    if (now > graceEnd) {
+                        // Fully Expired
+                        isExpired = true;
+                        m.isSubscribed = false;
+                        m.subStartDate = null; // Clear days
+                        m.subExpiryDate = null;
+                        saveBstageData(); // Persist change
+                    } else if (now > m.subExpiryDate) {
+                        // In Grace Period
+                        inGracePeriod = true;
+                    }
+                }
+
+                // Calculate days
+                let daysText = '';
+                if (isUserSelfMember) {
+                    daysText = getFanSubscriberText();
+                } else if (m.isSubscribed && m.subStartDate) {
+                    const days = Math.floor((Date.now() - m.subStartDate) / (1000 * 60 * 60 * 24)) + 1;
+                    daysText = `已一同 ${days} 天`;
+                }
+
+                // Action Button Logic
+                let actionHtml = '';
+                if (isUserSelfMember) {
+                    actionHtml = '<div class="bstage-pop-status">粉丝聊天室 <i class="fas fa-chevron-right"></i></div>';
+                } else if (m.isSubscribed) {
+                    if (inGracePeriod) {
+                        actionHtml = '<div class="bstage-pop-sub-btn renew" style="background-color: #ffcc00; color: #000;">续费(缓冲)</div>';
+                    } else {
+                        actionHtml = '<div class="bstage-pop-status">订阅中 <i class="fas fa-chevron-right"></i></div>';
+                    }
+                } else {
+                    actionHtml = '<div class="bstage-pop-sub-btn">订阅</div>';
+                }
+                const roleClass = isUserSelfMember ? 'bstage-pop-role bstage-fan-subscriber-label' : 'bstage-pop-role';
+
+                item.innerHTML = `
+                    <div class="bstage-pop-info">
+                        ${renderBstageAvatar(m, m.name, 'bstage-pop-avatar')}
+                        <div class="bstage-pop-name-wrap">
+                            <div class="bstage-pop-name">
+                                ${escapeHtml(m.name)} 
+                                <i class="fas fa-check-circle bstage-verified-icon"></i>
+                            </div>
+                            ${daysText ? `<div class="${roleClass}">${daysText}</div>` : ''}
+                        </div>
+                    </div>
+                    <div class="bstage-pop-action">
+                        ${actionHtml}
+                    </div>
+                `;
+
+                // Bind Events
+                if (isUserSelfMember) {
+                    item.addEventListener('click', openFanChat);
+                } else if (m.isSubscribed && !inGracePeriod) {
+                    item.addEventListener('click', () => openChat(m));
+                } else {
+                    // Renew Button (Grace Period)
+                    if (m.isSubscribed && inGracePeriod) {
+                        const renewBtn = item.querySelector('.renew');
+                        if (renewBtn) {
+                            renewBtn.addEventListener('click', (e) => {
+                                e.stopPropagation();
+                                currentPopSubMember = m;
+                                document.getElementById('pop-sub-char-name').textContent = `续订 ${m.name}`;
+                                window.openView(popSubModal);
+                            });
+                        }
+                        // Allow chat access during grace period by clicking elsewhere
+                        item.addEventListener('click', (e) => {
+                            if (e.target !== renewBtn) openChat(m);
+                        });
+                    } else {
+                        // Regular Subscribe (New or Expired)
+                        const subBtn = item.querySelector('.bstage-pop-sub-btn');
+                        if (subBtn) {
+                            subBtn.addEventListener('click', (e) => {
+                                e.stopPropagation();
+                                currentPopSubMember = m;
+                                document.getElementById('pop-sub-char-name').textContent = `订阅 ${m.name}`;
+                                window.openView(popSubModal);
+                            });
+                        }
+                    }
+                }
+
+                container.appendChild(item);
+            });
+        } else {
+            container.innerHTML = '<div style="text-align:center; color:#666; padding:20px;">暂无成员</div>';
+        }
+    }
+
+    // Pop Sub Confirm
+    document.getElementById('bstage-confirm-pop-sub-btn').addEventListener('click', () => {
+        if (currentPopSubMember) {
+            const now = Date.now();
+            const oneMonth = 30 * 24 * 60 * 60 * 1000;
+
+            if (currentPopSubMember.isSubscribed && currentPopSubMember.subExpiryDate && now > currentPopSubMember.subExpiryDate) {
+                // Renewal during Grace Period
+                currentPopSubMember.subExpiryDate += oneMonth; // Extend from previous expiry
+                // subStartDate remains unchanged
+                window.showToast(`成功续订 ${currentPopSubMember.name}！`);
+            } else {
+                // New Subscription (or re-sub after full expiry)
+                currentPopSubMember.isSubscribed = true;
+                currentPopSubMember.subStartDate = now; // Reset start date
+                currentPopSubMember.subExpiryDate = now + oneMonth;
+                window.showToast(`成功订阅 ${currentPopSubMember.name}！`);
+            }
+            
+            // Add Order
+            const priceEl = popSubModal.querySelector('.selected .bstage-price-amount');
+            bstageOrders.unshift({
+                id: Date.now(),
+                title: `订阅 ${currentPopSubMember.name}`,
+                price: priceEl ? priceEl.textContent : '₩4,500 / 月',
+                date: new Date().toLocaleDateString(),
+                type: 'POP'
+            });
+
+            if (currentTeam) renderTeamPop(currentTeam);
+            saveBstageData();
+            window.showToast(`成功订阅 ${currentPopSubMember.name}！`);
+            window.closeView(popSubModal);
+        }
+    });
+
+    function appendCharChatMessage(member, msg, contentContainer) {
+        if (!member || !msg || !contentContainer) return;
+
+        if (msg.type === 'date') {
+            const dateDiv = document.createElement('div');
+            dateDiv.className = 'bstage-chat-date';
+            dateDiv.textContent = msg.text;
+            contentContainer.appendChild(dateDiv);
+            return;
+        }
+
+        if (msg.type === 'fan_batch') {
+            normalizeFanBatchMessage(msg);
+            const trigger = document.createElement('button');
+            trigger.type = 'button';
+            trigger.className = 'bstage-other-fans-trigger';
+            const count = Array.isArray(msg.fanMessages) ? msg.fanMessages.length : 0;
+            trigger.innerHTML = `<i class="fas fa-comments"></i><span>查看其他人的消息${count ? `（${count}）` : ''}</span>`;
+            trigger.addEventListener('click', () => openOtherFansModal(member, msg));
+            contentContainer.appendChild(trigger);
+            return;
+        }
+
+        ensureMessageId(msg, msg.isUser ? 'user' : 'char');
+
+        if (msg.isUser) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = 'bstage-chat-msg outgoing';
+            msgDiv.dataset.msgId = msg.id;
+            msgDiv.innerHTML = `
+                <div class="bstage-msg-status">
+                    <div class="bstage-msg-status-text">${escapeHtml(msg.status || '已读')}</div>
+                    <div class="bstage-msg-time">${escapeHtml(msg.time || getCurrentChatTimeText(msg.timestamp))}</div>
+                </div>
+                <div class="bstage-chat-bubble">
+                    ${renderReplyQuote(msg.replyTo)}
+                    <div class="bstage-msg-text">${escapeHtml(msg.text)}</div>
+                </div>
+            `;
+            contentContainer.appendChild(msgDiv);
+            return;
+        }
+
+        const replyDiv = document.createElement('div');
+        replyDiv.className = 'bstage-chat-msg income';
+        replyDiv.dataset.msgId = msg.id;
+
+        let bubbleContent = '';
+        if (msg.type === 'image') {
+            bubbleContent = `
+                ${renderReplyQuote(msg.replyTo)}
+                <div class="bstage-msg-text" style="padding: 0; background: transparent;">
+                    <img class="bstage-chat-image-clickable" src="${escapeHtml(msg.imgUrl || 'assets/moren.jpg')}" data-desc="${escapeHtml(msg.imgDesc || '')}" style="max-width: 250px; width: 100%; border-radius: 12px; display: block; object-fit: cover; cursor: zoom-in; border: 1px solid #333;">
+                </div>
+            `;
+        } else {
+            bubbleContent = `
+                ${renderReplyQuote(msg.replyTo)}
+                <div class="bstage-msg-text">${escapeHtml(msg.text)}</div>
+                ${msg.trans && msg.trans.trim() !== '' ? `<div class="bstage-trans-text">${escapeHtml(msg.trans)}</div>` : ''}
+            `;
+        }
+
+        replyDiv.innerHTML = `
+            ${renderBstageAvatar(member, member.name, 'bstage-chat-avatar')}
+            <div class="bstage-chat-bubble" style="${msg.type === 'image' && !msg.replyTo ? 'background: transparent; padding: 0;' : ''}">${bubbleContent}</div>
+            <button class="bstage-msg-reply-btn" type="button" aria-label="回复消息" title="回复消息">
+                <i class="fas fa-reply"></i>
+            </button>
+        `;
+
+        const replyBtn = replyDiv.querySelector('.bstage-msg-reply-btn');
+        if (replyBtn) {
+            replyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setPendingReply('chat', createReplyMeta(msg, member.name));
+            });
+        }
+        attachBstageImagePreview(replyDiv);
+        contentContainer.appendChild(replyDiv);
+    }
+
+    function openChat(member) {
+        if (!ensureBstageHydrated()) return;
+        const canonical = findCanonicalBstageMember(member?.id, currentTeam?.id);
+        if (!canonical) {
+            if (typeof window.showToast === 'function') window.showToast('该角色已不存在，无法打开聊天');
+            return;
+        }
+        currentTeam = canonical.team;
+        member = canonical.member;
+        currentChatMember = member; // Set current member
+        document.getElementById('bstage-chat-name').textContent = member.name;
+        const days = Math.floor((Date.now() - member.subStartDate) / (1000 * 60 * 60 * 24)) + 1;
+        document.getElementById('bstage-chat-days').textContent = `已一同 ${days} 天`;
+        
+        // Restore Background if saved
+        const chatView = document.getElementById('bstage-chat-view');
+        if (member.chatBg) {
+            chatView.style.backgroundImage = `url('${member.chatBg}')`;
+        } else {
+            chatView.style.backgroundImage = 'none'; // Default
+            chatView.style.backgroundColor = '#1c1c1e'; // Default chat bg to dark gray
+        }
+
+        // Apply Dynamic Styles (Chat CSS, Frame CSS, Bubble CSS)
+        applyDynamicStyles();
+
+        // Reset Chat State
+        userMsgCountSinceLastReply = 0; // Fresh start
+
+        const content = document.getElementById('bstage-chat-content');
+        
+        // Apply Translation State
+        if (isTranslationEnabled) content.classList.add('show-trans');
+        else content.classList.remove('show-trans');
+
+        // Initialize Chat History if missing
+        if (!member.chatHistory || !Array.isArray(member.chatHistory)) {
+            member.chatHistory = [
+                { type: 'date', text: formatTimeBubble(Date.now()), timestamp: Date.now() },
+                { isUser: false, type: 'text', text: `Hello! I'm ${member.name}.`, trans: `你好！我是${member.name}。`, timestamp: Date.now() },
+                { isUser: false, type: 'text', text: `Thanks for subscribing!`, trans: `谢谢你的订阅！`, timestamp: Date.now() + 100 }
+            ];
+            saveBstageData();
+        }
+
+        // Render Chat History
+        content.innerHTML = '';
+        member.chatHistory.forEach(msg => appendCharChatMessage(member, msg, content));
+        clearPendingReply('chat');
+        // Scroll to bottom
+        setTimeout(() => { content.scrollTop = content.scrollHeight; }, 100);
+        
+        // Input Logic
+        const inputArea = document.getElementById('bstage-chat-input');
+        const sendBtn = document.getElementById('bstage-chat-send-btn');
+        const apiBtn = document.getElementById('bstage-chat-api-btn');
+        if (!inputArea || !sendBtn || !apiBtn) return;
+        
+        // Clone buttons to remove old listeners
+        const newSendBtn = sendBtn.cloneNode(true);
+        sendBtn.parentNode.replaceChild(newSendBtn, sendBtn);
+        
+        const newApiBtn = apiBtn.cloneNode(true);
+        apiBtn.parentNode.replaceChild(newApiBtn, apiBtn);
+
+        // Helper to get time
+        const getCurrentTime = () => {
+            const now = Date.now();
+            return typeof window.formatChatBubbleTime === 'function' ? window.formatChatBubbleTime(now) : (() => {
+                const d = new Date();
+                return `${d.getHours()}:${d.getMinutes().toString().padStart(2, '0')}`;
+            })();
+        };
+
+        // Helper to send
+        const sendMsg = () => {
+            if (!ensureBstageHydrated()) return;
+            const canonical = findCanonicalBstageMember(member?.id, currentTeam?.id);
+            if (!canonical) {
+                if (typeof window.showToast === 'function') window.showToast('该角色已不存在，无法发送消息');
+                return;
+            }
+            currentTeam = canonical.team;
+            member = canonical.member;
+            currentChatMember = member;
+            const txt = inputArea.value.trim();
+            if (!txt) return;
+            
+            // Limit Check
+            if (userMsgCountSinceLastReply >= 3) {
+                const noticeDiv = document.createElement('div');
+                noticeDiv.className = 'bstage-system-notice';
+                noticeDiv.textContent = `请等待 ${currentChatMember.name} 的回复`;
+                content.appendChild(noticeDiv);
+                inputArea.value = '';
+                content.scrollTop = content.scrollHeight;
+                return;
+            }
+
+            userMsgCountSinceLastReply++;
+            const timeString = getCurrentTime();
+
+            // Add Date Bubble if needed
+            const now = Date.now();
+            checkAndAddDateBubble(member, content, now);
+
+            // Save to History
+            if (!member.chatHistory) member.chatHistory = [];
+            const msg = {
+                id: createBstageMessageId('user'),
+                isUser: true,
+                type: 'text',
+                text: txt,
+                time: timeString,
+                timestamp: now,
+                status: '未读',
+                replyTo: pendingChatReply ? { ...pendingChatReply } : null
+            };
+            member.chatHistory.push(msg);
+            appendCharChatMessage(member, msg, content);
+            saveBstageData();
+
+            inputArea.value = '';
+            clearPendingReply('chat');
+            content.scrollTop = content.scrollHeight;
+        };
+
+        newSendBtn.addEventListener('click', sendMsg);
+        newSendBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                sendMsg();
+            }
+        });
+        
+        newApiBtn.addEventListener('click', async () => {
+            if (newApiBtn.classList.contains('is-loading')) return;
+            setChatActionLoading(newApiBtn, true);
+            inputArea.disabled = true;
+            try {
+                await triggerChatApi(member, content);
+            } finally {
+                inputArea.disabled = false;
+                setChatActionLoading(newApiBtn, false);
+            }
+        });
+        newApiBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                newApiBtn.click();
+            }
+        });
+
+        // Handle Enter key on input
+        inputArea.onkeydown = (e) => {
+            if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.isComposing && e.keyCode !== 229) {
+                e.preventDefault();
+                sendMsg();
+                inputArea.blur();
+            }
+        };
+
+        window.openView(document.getElementById('bstage-chat-view'));
+    }
+
+    async function triggerChatApi(member, contentContainer, isAuto = false) {
+        if (!ensureBstageHydrated(!isAuto)) return false;
+        const initialCanonical = findCanonicalBstageMember(member?.id, currentTeam?.id);
+        if (!initialCanonical) {
+            if (!isAuto && typeof window.showToast === 'function') window.showToast('该角色已不存在，无法生成回复');
+            return false;
+        }
+        currentTeam = initialCanonical.team;
+        member = initialCanonical.member;
+        if (currentChatMember && String(currentChatMember.id) === String(member.id)) {
+            currentChatMember = member;
+        }
+        // Resolve API Config based on member preset or global
+        let resolvedApiConfig = window.apiConfig;
+        
+        if (member.autoActivityPresetId) {
+            try {
+                let globalPresets = window.StorageManager ? window.StorageManager.load('u2_apiPresets', []) : [];
+                const preset = globalPresets.find(p => String(p.id) === String(member.autoActivityPresetId));
+                if (preset) {
+                    resolvedApiConfig = {
+                        endpoint: preset.endpoint,
+                        apiKey: preset.apiKey,
+                        model: preset.model,
+                        temperature: preset.temp !== undefined ? preset.temp : 0.7
+                    };
+                }
+            } catch(e) { console.warn("Failed to load preset config", e); }
+        }
+
+        if (!resolvedApiConfig || !resolvedApiConfig.endpoint || !resolvedApiConfig.apiKey) {
+            if (!isAuto) window.showToast('请先在系统设置中配置 API 或检查预设');
+            return;
+        }
+
+        if (!isAuto) window.showToast(`${member.name} 正在输入...`);
+
+        // Collect Chat History
+        if (!member.chatHistory || !Array.isArray(member.chatHistory)) member.chatHistory = [];
+        let fetchCount = isContextEnabled ? contextMessageCount : 1;
+        const promptMessages = member.chatHistory
+            .filter(msg => msg && msg.type !== 'date')
+            .slice(-fetchCount);
+        let history = "聊天记录（每条都有 id，replyTo 表示正在引用/翻牌某条消息）:\n";
+        if (promptMessages.length === 0) {
+            history += '暂无聊天记录。\n';
+        } else {
+            promptMessages.forEach(msg => {
+                const speaker = msg.isUser ? '当前粉丝' : member.name;
+                const line = formatMessageForPrompt(msg, speaker);
+                if (line) history += `${line}\n`;
+            });
+        }
+        const validUserReplyIds = promptMessages
+            .filter(msg => msg && msg.isUser && msg.id)
+            .map(msg => msg.id);
+
+        const mountedProfileName = window.userState && window.userState.name ? window.userState.name : '未命名人物';
+        const mountedProfilePersona = window.userState && window.userState.persona ? window.userState.persona : '';
+        const mountedProfileContext = `聊天室挂载资料 / 可讨论人物资料（注意：这不是当前发言的 User 本人）：\n名称：${mountedProfileName}\n人设/资料：${mountedProfilePersona || '未填写'}\n说明：当前粉丝可以提到、讨论或询问这个资料里的人物，但当前粉丝发来的消息在 ${member.name} 眼里只是普通粉丝消息，不能把当前粉丝当成该人物本人。\n`;
+
+        // --- 提取世界书 ---
+        const systemDepthWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '';
+        const beforeRoleWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '';
+        const afterRoleWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('after_role') : '';
+
+        // Get realistic current time context
+        const now = new Date();
+        const days = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        const realTimeContext = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${days[now.getDay()]} ${now.getHours()}:${String(now.getMinutes()).padStart(2, '0')}`;
+        const otherFansEnabled = !!member.otherFansEnabled;
+        const otherFansPromptBlock = otherFansEnabled ? `
+
+其他粉丝消息功能已开启：
+- 你必须先生成本轮 otherFanMessages，再生成你的回复 charMessages。
+- otherFanMessages 不少于 10 条，最多 14 条，来自不同粉丝。
+- otherFanMessages 必须是这些粉丝直接发给你（${member.name}）的消息：他们在和你说话、向你提问、对你应援、催你营业、请你翻牌或向你提到某个话题。
+- 禁止写成其他粉丝在和当前粉丝/User聊天，禁止让其他粉丝对当前粉丝/User发问、打招呼或回复。
+- 其他粉丝可以向你提到聊天室挂载资料里的可讨论人物/设定，但表达方式必须是“对你说”：例如问你怎么看、你和对方什么关系、你能不能聊聊，而不是粉丝之间互相讨论。
+- 你可以回复本轮 otherFanMessages 里的某条其他粉丝消息；如需回复，请在 charMessages 对象中填写 replyToFanId，值只能来自你本次生成的 otherFanMessages.id。
+` : '';
+        const responseFormatPrompt = otherFansEnabled ? `
+必须返回严格 JSON 对象，不要 markdown，不要解释：
+{
+  "otherFanMessages": [
+    {"id": "fan_1", "name": "粉丝昵称", "text": "直接发给 ${member.name} 的原文消息", "trans": "非中文消息的中文翻译，中文消息则为空字符串"}
+  ],
+  "charMessages": [
+    {"type": "text", "text": "气泡1原文", "trans": "气泡1中文翻译", "replyToUserId": "可选的当前粉丝消息 id", "replyToFanId": "可选的其他粉丝消息 id"},
+    {"type": "image", "description": "一张帅气偶像的自拍，面带微笑，后台背景，明亮的灯光", "replyToUserId": "可选", "replyToFanId": "可选"}
+  ]
+}
+` : `
+必须返回严格 JSON 数组，不要 markdown，不要解释：
+[
+  {"type": "text", "text": "气泡1原文", "trans": "气泡1中文翻译", "replyToUserId": "可选的当前粉丝消息 id"},
+  {"type": "image", "description": "一张帅气偶像的自拍，面带微笑，后台背景，明亮的灯光", "replyToUserId": "可选"}
+]
+`;
+
+const prompt = `
+${systemDepthWorldBookContext ? `System Depth Rules:\n${systemDepthWorldBookContext}\n\n` : ''}${beforeRoleWorldBookContext ? `Before Role Rules:\n${beforeRoleWorldBookContext}\n\n` : ''}你现在的身份是：${member.name}
+你的人设是：${member.role || '爱豆/明星/gong'}
+你所在的团队名称是：${currentTeam ? currentTeam.name : 'Unknown Team'}
+你所在的团队信息是：${currentTeam && currentTeam.desc ? currentTeam.desc : '无'}${afterRoleWorldBookContext ? `\n\nAfter Role Rules:\n${afterRoleWorldBookContext}` : ''}
+当前真实时间是 ${realTimeContext}。
+
+请扮演该角色，与当前粉丝进行沉浸式对话。
+视角说明：当前粉丝在界面上看到的是与你的单聊；但从你的视角，你正在面对很多粉丝/订阅者的实时消息，当前粉丝只是其中一个可能被你看见的人。聊天室挂载资料不是当前粉丝本人，只是一个可被讨论的人物/设定。
+
+要求：
+1. 根据char的人设进行一次日常消息的营业，根据你的人设选择输出什么语言，例如你是韩国人，输出韩语。
+2. 一句一发，将你想说的话拆分成 3 到 6 条简短的气泡回复。
+3. 从你的视角看会有很多很多粉丝的消息，你不一定能看见当前粉丝发的消息，禁止每一条都回复当前粉丝，禁止顺着当前粉丝的话机械往下说，请按真实一对多的逻辑回复。
+4. 如果某条当前粉丝消息带有 replyTo，说明当前粉丝在引用/翻牌你的某条营业消息；你可以注意到，也可以像真实营业一样不一定回应。
+5. 所有 text 都要包含原文和中文翻译字段 trans；如果原文是中文则 trans 为空字符串；如果原文不是纯中文，trans 必须是自然中文翻译。
+6. 你可以回复某条当前粉丝消息；如需回复，请在消息对象中填写 replyToUserId，值只能从这些当前粉丝消息 id 中选择：${validUserReplyIds.length ? validUserReplyIds.join(', ') : '无'}。不回复则省略或填空。
+7. 你可以发送普通文本气泡，也可以发送图片，但发图片的概率很低，禁止每一条都发图片，比如有很多粉丝希望你发图片再发。
+8. 如果是图片，请使用 "type": "image" 并在 "description" 字段中写明画面的详细提示词描述（必须是中文描述）。
+${otherFansPromptBlock}
+${responseFormatPrompt}
+
+${mountedProfileContext}
+${history}
+`;
+
+        try {
+            let endpoint = resolvedApiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${resolvedApiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: resolvedApiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'You generate strict JSON objects for immersive b.stage character fan interactions.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: parseFloat(resolvedApiConfig.temperature) || 0.8
+                })
+            });
+
+            if (!response.ok) throw new Error('API Error');
+            
+            const data = await response.json();
+            const resolvedMember = findCanonicalBstageMember(member.id, currentTeam?.id);
+            if (!resolvedMember) {
+                throw new Error('chat_member_removed');
+            }
+            currentTeam = resolvedMember.team;
+            member = resolvedMember.member;
+            if (currentChatMember && String(currentChatMember.id) === String(member.id)) {
+                currentChatMember = member;
+            }
+            let aiReply = data.choices[0].message.content;
+            aiReply = aiReply.replace(/```json/g, '').replace(/```/g, '').trim();
+            
+            let parsedMsgs = [];
+            let otherFanMessages = [];
+            try {
+                const parsedPayload = JSON.parse(aiReply);
+                if (Array.isArray(parsedPayload)) {
+                    parsedMsgs = parsedPayload;
+                } else if (parsedPayload && typeof parsedPayload === 'object') {
+                    parsedMsgs = Array.isArray(parsedPayload.charMessages)
+                        ? parsedPayload.charMessages
+                        : (Array.isArray(parsedPayload.messages) ? parsedPayload.messages : []);
+                    if (otherFansEnabled) {
+                        otherFanMessages = normalizeOtherFanMessages(
+                            parsedPayload.otherFanMessages || parsedPayload.fanMessages || parsedPayload.other_fan_messages || [],
+                            Date.now()
+                        );
+                    }
+                } else {
+                    parsedMsgs = [aiReply];
+                }
+            } catch (e) {
+                // Fallback for non-JSON
+                const lines = aiReply.split('\n').filter(s => s.trim().length > 0);
+                // Fallback translation assumption
+                parsedMsgs = lines.map(l => ({ text: l, trans: '翻译失败' }));
+            }
+            if (otherFansEnabled && otherFanMessages.length < 10) {
+                throw new Error('too_few_other_fans');
+            }
+
+            if (contentContainer) {
+                // Reset user counter and update status text
+                userMsgCountSinceLastReply = 0;
+                // Change all "未读" to "已读" status
+                const statusTexts = contentContainer.querySelectorAll('.bstage-msg-status-text');
+                statusTexts.forEach(el => {
+                    if (el.innerHTML === '未读') el.innerHTML = '已读';
+                });
+            }
+            
+            if (member.chatHistory) {
+                member.chatHistory.forEach(h => {
+                    if (h.isUser && h.status === '未读') h.status = '已读';
+                });
+            }
+
+            // Fullscreen Image Preview
+            function openImagePreview(src, desc) {
+                const overlay = document.createElement('div');
+                overlay.style.position = 'fixed';
+                overlay.style.top = '0';
+                overlay.style.left = '0';
+                overlay.style.width = '100vw';
+                overlay.style.height = '100vh';
+                overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+                overlay.style.zIndex = '10000';
+                overlay.style.display = 'flex';
+                overlay.style.flexDirection = 'column';
+                overlay.style.justifyContent = 'center';
+                overlay.style.alignItems = 'center';
+                overlay.style.cursor = 'zoom-out';
+                
+                const img = document.createElement('img');
+                img.src = src;
+                img.style.maxWidth = '90%';
+                img.style.maxHeight = '80%';
+                img.style.objectFit = 'contain';
+                img.style.borderRadius = '12px';
+                img.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
+                
+                overlay.appendChild(img);
+                
+                if (desc) {
+                    const textDiv = document.createElement('div');
+                    textDiv.style.color = '#fff';
+                    textDiv.style.marginTop = '20px';
+                    textDiv.style.maxWidth = '90%';
+                    textDiv.style.textAlign = 'center';
+                    textDiv.style.fontSize = '16px';
+                    textDiv.textContent = desc;
+                    overlay.appendChild(textDiv);
+                }
+                
+                document.body.appendChild(overlay);
+                
+                overlay.addEventListener('click', () => {
+                    overlay.remove();
+                });
+            }
+
+            const generationStartedAt = Date.now();
+            const playbackItems = [];
+            const dateMessage = (parsedMsgs.length > 0 || otherFanMessages.length > 0)
+                ? checkAndAddDateBubble(member, null, generationStartedAt)
+                : null;
+            let delay = 0;
+            const otherFanMessageById = new Map(otherFanMessages.map(fan => [String(fan.id), fan]));
+            parsedMsgs.forEach(msgItem => {
+                // Normalize msgItem
+                let text = '';
+                let trans = '';
+                let type = 'text';
+                let imgDesc = '';
+                let replyToUserId = '';
+                let replyToFanId = '';
+                
+                if (typeof msgItem === 'string') {
+                    text = stripGeneratedText(msgItem);
+                } else {
+                    type = msgItem.type || 'text';
+                    text = stripGeneratedText(msgItem.text || '');
+                    trans = stripGeneratedText(msgItem.trans || msgItem.translation || msgItem.translationZh || '');
+                    imgDesc = stripGeneratedText(msgItem.description || '');
+                    replyToUserId = stripGeneratedText(msgItem.replyToUserId || msgItem.reply_to_user_id || msgItem.replyToId || msgItem.reply_to_id || '');
+                    replyToFanId = stripGeneratedText(msgItem.replyToFanId || msgItem.reply_to_fan_id || '');
+                }
+                if (type !== 'image' && !text) return;
+                const fanReplySource = replyToFanId ? otherFanMessageById.get(String(replyToFanId)) : null;
+                const userReplySource = findMessageById(member.chatHistory, replyToUserId, msg => msg && msg.isUser);
+                const replyTo = fanReplySource
+                    ? createOtherFanReplyMeta(fanReplySource)
+                    : (userReplySource ? createReplyMeta(userReplySource, '当前粉丝') : null);
+
+                const savedMsg = type === 'image'
+                    ? {
+                        id: createBstageMessageId('char'),
+                        isUser: false,
+                        type: 'image',
+                        imgUrl: 'assets/moren.jpg',
+                        imgDesc,
+                        timestamp: generationStartedAt + delay,
+                        replyTo,
+                        isUnread: !contentContainer
+                    }
+                    : {
+                        id: createBstageMessageId('char'),
+                        isUser: false,
+                        type: 'text',
+                        text,
+                        trans,
+                        timestamp: generationStartedAt + delay,
+                        replyTo,
+                        isUnread: !contentContainer
+                    };
+                if (!member.chatHistory) member.chatHistory = [];
+                member.chatHistory.push(savedMsg);
+                if (type === 'image') chatPhotos.push(savedMsg.imgUrl);
+                playbackItems.push({ delay, message: savedMsg });
+                delay += 1500 + Math.random() * 1000;
+            });
+
+            if (otherFanMessages.length > 0) {
+                const fanBatchMsg = {
+                    id: createBstageMessageId('fan_batch'),
+                    type: 'fan_batch',
+                    timestamp: generationStartedAt + delay,
+                    fanMessages: otherFanMessages
+                };
+                if (!member.chatHistory) member.chatHistory = [];
+                member.chatHistory.push(fanBatchMsg);
+                playbackItems.push({ delay: delay + (parsedMsgs.length > 0 ? 250 : 0), message: fanBatchMsg });
+            }
+
+            if (playbackItems.length === 0 && !dateMessage) return;
+            const persisted = await saveBstageData({ flush: true });
+            if (!persisted) throw new Error('storage_write_failed');
+
+            if (!contentContainer) {
+                if (isAuto && playbackItems.length > 0) {
+                    const firstMessage = playbackItems[0].message;
+                    if (window.showBannerNotification) {
+                        window.showBannerNotification({
+                            nickname: member.name,
+                            avatarUrl: member.avatar,
+                            id: member.id,
+                            sourceApp: 'bstage'
+                        }, firstMessage.type === 'image' ? '[图片]' : firstMessage.text);
+                    } else if (window.showToast) {
+                        window.showToast(`收到来自 ${member.name} 的新消息`);
+                    }
+                }
+                return;
+            }
+
+            if (dateMessage) appendCharChatMessage(member, dateMessage, contentContainer);
+            let previousDelay = 0;
+            for (const item of playbackItems) {
+                const waitMs = Math.max(0, item.delay - previousDelay);
+                if (waitMs > 0) await new Promise(resolve => setTimeout(resolve, waitMs));
+                previousDelay = item.delay;
+                if (item.message.type === 'image') {
+                    const previewList = document.getElementById('bstage-locker-preview-list');
+                    if (previewList && chatDetailSheet.style.display === 'block') renderLockerPreview();
+                }
+                appendCharChatMessage(member, item.message, contentContainer);
+                contentContainer.scrollTop = contentContainer.scrollHeight;
+            }
+
+        } catch (error) {
+            console.error(error);
+            if (!isAuto) window.showToast(error && error.message === 'too_few_other_fans' ? '其他人消息少于 10 条，请重试' : '生成回复失败');
+        }
+    }
+
+    function renderShop(team) {
+        if (removeBstageDefaultContent(team)) saveBstageData();
+        // Init Data if needed
+        if (!Array.isArray(team.shopItems)) {
+            team.shopItems = [];
+        }
+        if (!Array.isArray(team.shopCategories) || team.shopCategories.length === 0) {
+            team.shopCategories = ['全部'];
+        }
+
+        let activeCategory = '全部';
+
+        const renderGrid = (filter) => {
+            let gridHtml = '';
+            const filteredItems = filter === '全部' ? team.shopItems : team.shopItems.filter(i => i.category === filter);
+            
+            if (filteredItems.length === 0) {
+                gridHtml = '<div style="grid-column:span 2;text-align:center;padding:20px;color:#666;">暂无商品</div>';
+            } else {
+                filteredItems.forEach(item => {
+                    const img = item.img || createExternalRandomImage(`${team.id || team.name}-shop-${item.id || item.name}`, 600, 600);
+                    item.img = img;
+                    gridHtml += `
+                        <div class="bstage-shop-item" data-shop-id="${item.id}">
+                            <div class="bstage-shop-img">
+                                <img src="${escapeHtml(img)}" alt="">
+                            </div>
+                            <div class="bstage-shop-info">
+                                <span class="bstage-shop-badge">${escapeHtml(item.category)}</span>
+                                <div class="bstage-shop-name">${escapeHtml(item.name)}</div>
+                                <div class="bstage-shop-price">${escapeHtml(item.price)}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            return gridHtml;
+        };
+
+        const renderView = () => {
+            let catsHtml = '';
+            team.shopCategories.forEach(cat => {
+                const activeClass = cat === activeCategory ? 'active' : '';
+                catsHtml += `<div class="bstage-shop-cat-item ${activeClass}" data-cat="${cat}">${cat}</div>`;
+            });
+            
+            // Generate Button
+            const magicHtml = `
+                <div class="bstage-small-magic-btn" id="bstage-shop-magic-btn" style="margin-left: 5px; flex-shrink: 0;">
+                    <i class="fas fa-plus"></i>
+                </div>
+            `;
+
+            // Shop Banner Logic
+            const bannerStyle = team.shopBanner ? `background-image: url('${team.shopBanner}');` : 'background-color:#222;';
+            const bannerContent = team.shopBanner ? '' : `
+                <div style="width:100%;height:100%;background-color:#222;display:flex;justify-content:center;align-items:center;opacity:0.5;">
+                    <i class="fas fa-star" style="font-size:40px;color:#444;"></i>
+                </div>
+            `;
+
+            contentArea.innerHTML = `
+                <div class="bstage-shop-view">
+                    <div class="bstage-shop-banner" id="bstage-shop-banner-edit" style="${bannerStyle}; cursor: pointer; position: relative;">
+                        ${bannerContent}
+                        <div class="bstage-shop-banner-text">OFFICIAL SHOP</div>
+                        <input type="file" id="bstage-shop-banner-input" accept="image/*" style="display:none;">
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                        <div class="bstage-shop-category-bar" style="flex: 1; margin-bottom: 0;">
+                            ${catsHtml}
+                        </div>
+                        ${magicHtml}
+                    </div>
+
+                    <div class="bstage-shop-section-title">${activeCategory === '全部' ? 'ALL ITEMS' : activeCategory}</div>
+                    <div class="bstage-shop-grid" id="bstage-shop-grid-container">
+                        ${renderGrid(activeCategory)}
+                    </div>
+                </div>
+            `;
+
+            // Add Event Listeners for Categories
+            contentArea.querySelectorAll('.bstage-shop-cat-item').forEach(el => {
+                el.addEventListener('click', () => {
+                    activeCategory = el.getAttribute('data-cat');
+                    renderView(); 
+                });
+            });
+
+            // Banner Upload Listener
+            const bannerEdit = document.getElementById('bstage-shop-banner-edit');
+            const bannerInput = document.getElementById('bstage-shop-banner-input');
+            if (bannerEdit && bannerInput) {
+                bannerEdit.addEventListener('click', (e) => {
+                    // Avoid triggering if clicked on specific children if needed, but whole area is fine
+                    bannerInput.click();
+                });
+                
+                bannerInput.addEventListener('change', (e) => {
+                    const file = e.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = (ev) => {
+                            team.shopBanner = ev.target.result;
+                            renderView(); // Re-render to update bg
+                            window.showToast('Shop 背景已更新');
+                        };
+                        reader.readAsDataURL(file);
+                    }
+                    e.stopPropagation();
+                });
+                
+                // Stop propagation on input click to prevent double firing? No, input is hidden.
+                bannerInput.addEventListener('click', (e) => e.stopPropagation());
+            }
+
+            // Magic Wand Listener
+            const magicBtn = document.getElementById('bstage-shop-magic-btn');
+            if(magicBtn) {
+                magicBtn.addEventListener('click', () => {
+                    openGenerateTypeSheet({
+                        title: '生成商品',
+                        label: '想看什么类型的商品',
+                        placeholder: '例如：应援棒、签售周边、冬季套装；留空则随机',
+                        onConfirm: (request) => triggerShopApi(team, activeCategory, request)
+                    });
+                });
+            }
+
+            // Bind Shop Item Clicks
+            contentArea.querySelectorAll('.bstage-shop-item').forEach((el, index) => {
+                el.addEventListener('click', () => {
+                    const filteredItems = activeCategory === '全部' ? team.shopItems : team.shopItems.filter(i => i.category === activeCategory);
+                    if(filteredItems[index]) {
+                        openShopDetail(filteredItems[index]);
+                    }
+                });
+            });
+        };
+
+        renderView();
+    }
+
+    function openShopDetail(item) {
+        document.getElementById('bstage-shop-detail-title').textContent = item.name;
+        document.getElementById('bstage-shop-detail-price').textContent = item.price;
+        document.getElementById('bstage-shop-detail-cat').textContent = item.category;
+        
+        // Description
+        const desc = item.desc || `${currentTeam.name} 官方正品周边。\n\n[商品信息]\n品名: ${item.name}\n材质: Detailed on package\n尺寸: Free Size\n制造国: Korea`;
+        document.getElementById('bstage-shop-detail-desc').textContent = desc;
+        
+        // Image
+        const imgEl = document.querySelector('#bstage-shop-detail-img img');
+        const placeholder = document.querySelector('#bstage-shop-detail-img .bstage-shop-detail-placeholder');
+        
+        if (item.img) {
+            imgEl.src = item.img;
+            imgEl.style.display = 'block';
+            placeholder.style.display = 'none';
+        } else {
+            imgEl.style.display = 'none';
+            placeholder.style.display = 'flex';
+            // Use random seed based on item id if no image but want consistency? 
+            // Currently using picsum in CSS for list, let's leave placeholder for detail unless we want to generate.
+        }
+
+        window.openView(document.getElementById('bstage-shop-detail-modal'));
+    }
+
+    async function triggerShopApi(team, category, requestType = '') {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+        if (!Array.isArray(team.shopItems)) team.shopItems = [];
+        if (!Array.isArray(team.shopCategories)) team.shopCategories = ['全部'];
+
+        window.showToast('正在生成商品...');
+        
+        let charInfo = "团队成员:\n";
+        if (team.members) {
+            team.members.forEach(m => {
+                charInfo += `- ${m.name} (${m.role})\n`;
+            });
+        }
+        
+        const prompt = `
+你是一个周边商品策划。
+请根据以下团队信息和角色人设，以及商品分类，生成2-3个相关的商品。
+团队名称: ${team.name}
+${charInfo}
+商品分类: ${category}
+用户想看的类型: ${requestType || '留空，随机生成适合该团队/账号的商品'}
+
+要求：
+1. 如果用户填写了想看的类型，商品必须围绕该类型生成；如果留空，则随机生成有吸引力的商品。
+2. 价格要合理（韩元），格式如 "₩45,000"。
+3. category 应该使用已有分类或根据用户想看的类型给出自然分类。
+4. desc 是商品详情简介。
+5. 返回严格的 JSON 数组格式，不要 markdown 标记。
+格式示例:
+[
+  {"name": "商品名称1", "price": "₩35,000", "category": "周边", "desc": "商品详情"},
+  {"name": "商品名称2", "price": "₩12,000", "category": "其他", "desc": "商品详情"}
+]
+`;
+
+        try {
+            let endpoint = window.apiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'You are a JSON generator.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: 0.7
+                })
+            });
+
+            if (!response.ok) throw new Error('API Error');
+            const data = await response.json();
+            let aiReply = data.choices[0].message.content;
+            aiReply = aiReply.replace(/```json/g, '').replace(/```/g, '').trim();
+            
+            const newItems = JSON.parse(aiReply);
+            
+            if (Array.isArray(newItems)) {
+                newItems.forEach(item => {
+                    const itemName = stripGeneratedText(item && item.name, 'New Item');
+                    const itemCategory = stripGeneratedText(item && item.category, category === '全部' ? (requestType || '周边') : category);
+                    if (itemCategory && !team.shopCategories.includes(itemCategory)) team.shopCategories.push(itemCategory);
+                    team.shopItems.unshift({
+                        id: Date.now() + Math.random(),
+                        name: itemName,
+                        price: stripGeneratedText(item && item.price, '₩35,000'),
+                        img: createExternalRandomImage(`${team.id || team.name}-shop-${itemName}-${Date.now()}`, 600, 600),
+                        category: itemCategory,
+                        desc: stripGeneratedText(item && item.desc)
+                    });
+                });
+                saveBstageData();
+                renderShop(team); // Refresh
+                window.showToast(`已生成 ${newItems.length} 个商品`);
+            }
+        } catch (e) {
+            console.error(e);
+            window.showToast('生成失败');
+        }
+    }
+
+    function renderContent(team) {
+        if (removeBstageDefaultContent(team)) saveBstageData();
+        if (!Array.isArray(team.contentPhotos)) {
+            team.contentPhotos = [];
+        }
+        // Init videos if not present
+        if (!Array.isArray(team.videos)) team.videos = [];
+        
+        // Init Series
+        if (!Array.isArray(team.contentSeries) || team.contentSeries.length === 0) {
+            team.contentSeries = ['全部'];
+        }
+
+        let activeSeries = '全部';
+
+        const renderView = () => {
+            // Photos Carousel
+            let photosHtml = '';
+            team.contentPhotos.forEach(p => {
+                photosHtml += `<div class="bstage-carousel-item"><img src="${p}"></div>`;
+            });
+            // Add Button
+            photosHtml += `
+                <div class="bstage-add-photo-btn" id="bstage-add-content-photo-btn">
+                    <i class="fas fa-plus"></i>
+                    <input type="file" accept="image/*" style="display:none;">
+                </div>
+            `;
+
+            // Series Filter Bar
+            let seriesHtml = '';
+            team.contentSeries.forEach(s => {
+                const activeClass = s === activeSeries ? 'active' : '';
+                let deleteHtml = '';
+                // Allow deleting custom series (not '全部')
+                if (s !== '全部') {
+                    deleteHtml = `<div class="bstage-cat-delete" data-del-series="${s}"><i class="fas fa-times"></i></div>`;
+                }
+                seriesHtml += `<div class="bstage-shop-cat-item ${activeClass}" data-series="${s}">${s}${deleteHtml}</div>`;
+            });
+            
+            // Add Series Button
+            seriesHtml += `
+                <div class="bstage-shop-cat-item" id="bstage-add-series-btn">
+                    <i class="fas fa-plus"></i>
+                </div>
+            `;
+
+            // Generate Button
+            const magicHtml = `
+                <div class="bstage-small-magic-btn" id="bstage-content-magic-btn" style="margin-left: 5px; flex-shrink: 0;">
+                    <i class="fas fa-plus"></i>
+                </div>
+            `;
+
+            // Filter Videos
+            let videosHtml = '';
+            const filteredVideos = activeSeries === '全部' ? team.videos : team.videos.filter(v => v.series === activeSeries || (!v.series && activeSeries === '全部'));
+            
+            if (filteredVideos.length === 0) {
+                videosHtml = '<div style="text-align:center; color:#666; padding:20px;">暂无视频</div>';
+            } else {
+                filteredVideos.forEach(v => {
+                    if (!v.thumb) v.thumb = createExternalRandomImage(`${team.id || team.name}-video-${v.title || Date.now()}`, 800, 450);
+                    const thumbStyle = v.thumb ? `background-image: url('${v.thumb}'); background-size: cover; background-position: center;` : '';
+                    const thumbContent = v.thumb ? '' : `
+                        <div style="width:100%;height:100%;display:flex;justify-content:center;align-items:center;color:#555;">
+                            <i class="fas fa-play" style="font-size:30px;"></i>
+                        </div>`;
+                    
+                    videosHtml += `
+                        <div class="bstage-video-card">
+                            <div class="bstage-video-thumb" style="${thumbStyle}">
+                                ${thumbContent}
+                                <div class="bstage-video-duration">${v.duration}</div>
+                            </div>
+                            <div class="bstage-video-info">
+                                <div class="bstage-video-title">${v.title}</div>
+                                <div class="bstage-video-meta">${v.views} • ${v.date}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            contentArea.innerHTML = `
+                <div class="bstage-content-view">
+                    <div class="bstage-top-carousel" id="bstage-carousel-container">
+                        ${photosHtml}
+                    </div>
+                    
+                    <div class="bstage-video-section">
+                        <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                            <div class="bstage-shop-category-bar" style="flex: 1; margin-bottom: 0;">
+                                ${seriesHtml}
+                            </div>
+                            ${magicHtml}
+                        </div>
+                        
+                        <div class="bstage-section-header">${activeSeries === '全部' ? 'All Videos' : activeSeries}</div>
+                        <div class="bstage-video-list">
+                            ${videosHtml}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Bind Video Click Events
+            contentArea.querySelectorAll('.bstage-video-card').forEach((el, index) => {
+                el.addEventListener('click', () => {
+                    if (filteredVideos[index]) {
+                        openVideoDetail(filteredVideos[index]);
+                    }
+                });
+            });
+
+            // Bind Upload Event
+            const addBtn = document.getElementById('bstage-add-content-photo-btn');
+            if (addBtn) {
+                const input = addBtn.querySelector('input');
+                addBtn.addEventListener('click', () => input.click());
+                input.addEventListener('change', (e) => {
+                    const file = e.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = (e) => {
+                            team.contentPhotos.unshift(e.target.result); // Add to beginning
+                            renderView(); 
+                        };
+                        reader.readAsDataURL(file);
+                    }
+                });
+            }
+
+            // Bind Series Clicks
+            contentArea.querySelectorAll('.bstage-shop-cat-item').forEach(el => {
+                if (el.id === 'bstage-add-series-btn') {
+                    el.addEventListener('click', () => {
+                        const newSeries = prompt('请输入新的系列名称:');
+                        if (newSeries && newSeries.trim()) {
+                            team.contentSeries.push(newSeries.trim());
+                            activeSeries = newSeries.trim();
+                            renderView();
+                        }
+                    });
+                } else {
+                    // Check if clicked on delete
+                    const delBtn = el.querySelector('.bstage-cat-delete');
+                    if(delBtn) {
+                        delBtn.addEventListener('click', (ev) => {
+                            ev.stopPropagation(); // Stop bubbling to item click
+                            const s = delBtn.getAttribute('data-del-series');
+                            if(confirm(`确定要删除系列 "${s}" 吗？`)) {
+                                team.contentSeries = team.contentSeries.filter(x => x !== s);
+                                if(activeSeries === s) activeSeries = '全部';
+                                renderView();
+                            }
+                        });
+                    }
+
+                    el.addEventListener('click', (ev) => {
+                        // If we clicked delete, don't switch (already handled by stopPropagation above, but safe check)
+                        if(ev.target.closest('.bstage-cat-delete')) return;
+                        
+                        activeSeries = el.getAttribute('data-series');
+                        renderView();
+                    });
+                }
+            });
+
+            // Magic Wand Listener
+            const magicBtn = document.getElementById('bstage-content-magic-btn');
+            if(magicBtn) {
+                magicBtn.addEventListener('click', () => {
+                    openGenerateTypeSheet({
+                        title: '生成视频内容',
+                        label: '想看什么类型的视频内容',
+                        placeholder: '例如：练习室、旅行 vlog、后台花絮；留空则随机',
+                        onConfirm: (request) => triggerContentApi(team, activeSeries, request)
+                    });
+                });
+            }
+
+            // Start Auto Carousel
+            startCarousel();
+        };
+
+        renderView();
+    }
+
+    function startCarousel() {
+        // Clear existing
+        if (contentCarouselInterval) clearInterval(contentCarouselInterval);
+        
+        const container = document.getElementById('bstage-carousel-container');
+        if (!container) return;
+
+        contentCarouselInterval = setInterval(() => {
+            if (!container) return;
+            // Scroll by width of one item + gap
+            const itemWidth = 290; // 280 + 10 gap
+            if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {
+                container.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                container.scrollBy({ left: itemWidth, behavior: 'smooth' });
+            }
+        }, 3000); // 3 seconds
+    }
+
+    // Video Detail Logic
+    let currentVideo = null;
+
+    function openVideoDetail(video) {
+        currentVideo = video;
+        setPendingVideoCommentReply(null);
+        
+        // Populate Data
+        document.getElementById('bstage-vid-detail-title').textContent = video.title;
+        document.getElementById('bstage-vid-detail-meta').textContent = `${video.views} • ${video.date}`;
+        document.getElementById('bstage-vid-publisher-name').textContent = currentTeam.name;
+        
+        const pubAvatar = document.getElementById('bstage-vid-publisher-avatar');
+        if (pubAvatar) pubAvatar.innerHTML = renderBstageAvatarContent(currentTeam, currentTeam.name);
+
+        // Reset Player Placeholder Content (Clear bubbles if new video, or restore if saved)
+        const playerPlaceholder = videoDetailModal.querySelector('.bstage-video-player-placeholder');
+        
+        // Apply Cover
+        if (video.thumb) {
+            playerPlaceholder.style.backgroundImage = `url('${video.thumb}')`;
+            playerPlaceholder.style.backgroundSize = 'cover';
+            playerPlaceholder.style.backgroundPosition = 'center';
+            playerPlaceholder.classList.add('has-cover');
+        } else {
+            playerPlaceholder.style.backgroundImage = '';
+            playerPlaceholder.classList.remove('has-cover');
+        }
+
+        // Keep the play icon if no content, or clear it? 
+        // Let's reset to default state (Play Icon) if no content and no cover?
+        // If has cover, maybe don't show play icon.
+        // If has generated content, show bubbles.
+        
+        playerPlaceholder.innerHTML = '';
+        
+        // If nothing generated, show play icon or just empty if cover exists
+        if (!video.generatedContent || video.generatedContent.length === 0) {
+            if (!video.thumb) {
+                playerPlaceholder.innerHTML = '<i class="fas fa-play" style="font-size: 40px; opacity: 0.8; align-self: center; margin-top: auto; margin-bottom: auto;"></i>';
+            }
+        } else {
+            video.generatedContent.forEach(text => {
+                const bubble = document.createElement('div');
+                bubble.className = 'bstage-video-content-bubble';
+                bubble.textContent = text;
+                playerPlaceholder.appendChild(bubble);
+            });
+        }
+        
+        // Add Edit Icon overlay to indicate clickability (optional but helpful)
+        // Or just rely on user knowing to click. Let's rely on click for now as requested.
+        
+        // Description (Mock if empty)
+        const desc = video.description || `这是 ${currentTeam.name} 的精彩视频内容。\n请大家多多支持，不要忘记点赞评论哦！`;
+        document.getElementById('bstage-vid-description').textContent = desc;
+
+        // Init Comments if needed
+        if (!video.comments) {
+            video.comments = [
+                { id: 1, name: 'User123', text: '太棒了！😍', time: '1m ago', avatar: null, avatarEmoji: getStableEmojiAvatar('video-comment-User123') },
+                { id: 2, name: 'K-Pop Fan', text: 'Love this team!!!', time: '5m ago', avatar: null, avatarEmoji: getStableEmojiAvatar('video-comment-K-Pop Fan') },
+                { id: 3, name: 'Stan', text: '❤️❤️❤️', time: '1h ago', avatar: null, avatarEmoji: getStableEmojiAvatar('video-comment-Stan') }
+            ];
+        }
+
+        renderVideoComments();
+
+        // User Avatar in Input
+        const userAvatarDiv = document.getElementById('bstage-comment-user-avatar');
+        if (window.userState && window.userState.avatarUrl) {
+            userAvatarDiv.innerHTML = `<img src="${window.userState.avatarUrl}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;
+        } else {
+            userAvatarDiv.innerHTML = '<i class="fas fa-user" style="color:#888;font-size:16px;display:flex;justify-content:center;align-items:center;height:100%;"></i>';
+        }
+
+        window.openView(videoDetailModal);
+    }
+    
+    // Bind Player Placeholder Click (Edit Video)
+    videoDetailModal.querySelector('.bstage-video-player-placeholder').addEventListener('click', (e) => {
+        // Don't trigger if clicking on a bubble maybe? Or let it trigger.
+        // User said "Click play button pops up edit".
+        if (currentVideo) {
+            openEditVideoSheet(currentVideo);
+        }
+    });
+    
+    function openEditVideoSheet(video) {
+        document.getElementById('bstage-edit-video-title').value = video.title;
+        const desc = video.description || '';
+        document.getElementById('bstage-edit-video-desc').value = desc;
+        
+        const preview = document.getElementById('bstage-edit-video-cover-preview');
+        if (video.thumb) {
+            preview.src = video.thumb;
+            preview.style.display = 'block';
+            if (preview.previousElementSibling) preview.previousElementSibling.style.opacity = '0';
+        } else {
+            preview.src = '';
+            preview.style.display = 'none';
+            if (preview.previousElementSibling) preview.previousElementSibling.style.opacity = '1';
+        }
+        
+        window.openView(document.getElementById('bstage-edit-video-sheet'));
+    }
+    
+    document.getElementById('bstage-confirm-edit-video-btn').addEventListener('click', () => {
+        if (currentVideo) {
+            const newTitle = document.getElementById('bstage-edit-video-title').value;
+            const newDesc = document.getElementById('bstage-edit-video-desc').value;
+            const newCover = document.getElementById('bstage-edit-video-cover-preview').src;
+            const hasCover = document.getElementById('bstage-edit-video-cover-preview').style.display !== 'none';
+            
+            if (newTitle) {
+                currentVideo.title = newTitle;
+                currentVideo.description = newDesc;
+                currentVideo.thumb = hasCover ? newCover : null;
+                
+                // Refresh Detail View
+                document.getElementById('bstage-vid-detail-title').textContent = newTitle;
+                document.getElementById('bstage-vid-description').textContent = newDesc || `这是 ${currentTeam.name} 的精彩视频内容...`; // Fallback
+                
+                // Refresh Player Placeholder BG
+                const playerPlaceholder = videoDetailModal.querySelector('.bstage-video-player-placeholder');
+                if (currentVideo.thumb) {
+                    playerPlaceholder.style.backgroundImage = `url('${currentVideo.thumb}')`;
+                    playerPlaceholder.style.backgroundSize = 'cover';
+                    playerPlaceholder.style.backgroundPosition = 'center';
+                    playerPlaceholder.classList.add('has-cover');
+                    
+                    // Remove play icon if it was there and no bubbles
+                    if (!playerPlaceholder.querySelector('.bstage-video-content-bubble')) {
+                         playerPlaceholder.innerHTML = '';
+                    }
+                } else {
+                    playerPlaceholder.style.backgroundImage = '';
+                    playerPlaceholder.classList.remove('has-cover');
+                    // Restore play icon if no bubbles
+                    if (!playerPlaceholder.querySelector('.bstage-video-content-bubble')) {
+                        playerPlaceholder.innerHTML = '<i class="fas fa-play" style="font-size: 40px; opacity: 0.8; align-self: center; margin-top: auto; margin-bottom: auto;"></i>';
+                    }
+                }
+                
+                // Refresh Content List (Background Sync)
+                if (currentTeam) {
+                    // renderContent re-renders everything, which might lose scroll position or state if we were in the list view.
+                    // But we are in the detail modal now. Re-rendering the underlying view is fine.
+                    // However, renderContent binds click events. If we re-render, the DOM nodes are replaced.
+                    // This is okay because we are in a modal on top of it.
+                    renderContent(currentTeam);
+                }
+                
+                window.closeView(document.getElementById('bstage-edit-video-sheet'));
+                window.showToast('视频信息已更新');
+            }
+        }
+    });
+
+    document.getElementById('bstage-delete-video-btn').addEventListener('click', () => {
+        if (!currentTeam || !currentVideo || !Array.isArray(currentTeam.videos)) return;
+        if (!confirm('确定要删除这个视频吗？')) return;
+
+        const target = currentVideo;
+        const before = currentTeam.videos.length;
+        currentTeam.videos = currentTeam.videos.filter(video => {
+            if (video === target) return false;
+            if (video.id && target.id) return video.id !== target.id;
+            return !(video.title === target.title && video.duration === target.duration && video.date === target.date);
+        });
+
+        if (currentTeam.videos.length === before) {
+            window.showToast('未找到要删除的视频');
+            return;
+        }
+
+        saveBstageData();
+        renderContent(currentTeam);
+        currentVideo = null;
+        window.closeView(document.getElementById('bstage-edit-video-sheet'));
+        window.closeView(videoDetailModal);
+        window.showToast('视频已删除');
+    });
+
+    // Bind Magic Wand
+    document.getElementById('bstage-video-detail-magic-btn').addEventListener('click', () => {
+        if (currentVideo) {
+            openGenerateTypeSheet({
+                title: '生成视频详情',
+                label: '想看什么类型的视频细节',
+                placeholder: '例如：后台互动、开箱、舞台花絮；留空则随机',
+                onConfirm: (request) => triggerVideoDetailApi(currentVideo, request)
+            });
+        }
+    });
+
+    async function triggerVideoDetailApi(video, requestType = '') {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+
+        window.showToast('正在生成内容...');
+        
+        let charInfo = "团队成员:\n";
+        if (currentTeam.members) {
+            currentTeam.members.forEach(m => {
+                charInfo += `- ${m.name} (${m.role})\n`;
+            });
+        }
+        
+const prompt = `
+你是一个偶像视频内容生成器。
+请根据以下信息，生成视频简介、视频画面的内容描述（分镜/字幕），以及几条粉丝评论。
+团队: ${currentTeam.name}
+${charInfo}
+视频标题: ${video.title}
+视频简介: ${video.description || '无'}
+用户想看的类型: ${requestType || '留空，随机生成适合该视频的细节'}
+
+要求：
+1. "description": 生成一段自然的视频简介，贴合团队/账号和用户想看的类型。
+2. "content": 生成 5 到 10 条简短的视频画面描述或字幕文本，用于逐条显示在视频画面上。内容要有趣，符合人设。
+3. "comments": 生成 2 到 3 条粉丝评论，包含 name、text、trans。非中文 text 必须提供自然中文翻译，中文 text 的 trans 为空字符串。
+4. 返回严格的 JSON 格式，不要 markdown 标记。
+格式示例:
+{
+  "description": "视频简介",
+  "content": ["成员A正在大笑", "字幕: 今天天气真好", "成员B突然闯入镜头"],
+  "comments": [
+    {"name": "Fan1", "text": "太可爱了！", "trans": ""},
+    {"name": "Fan2", "text": "Love this!", "trans": "太喜欢了！"}
+  ]
+}
+`;
+
+        try {
+            let endpoint = window.apiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'You are a JSON generator.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: 0.7
+                })
+            });
+
+            if (!response.ok) throw new Error('API Error');
+            const data = await response.json();
+            let aiReply = data.choices[0].message.content;
+            aiReply = aiReply.replace(/```json/g, '').replace(/```/g, '').trim();
+            
+            const result = JSON.parse(aiReply);
+
+            if (result.description) {
+                video.description = stripGeneratedText(result.description);
+                const descEl = document.getElementById('bstage-vid-description');
+                if (descEl) descEl.textContent = video.description;
+            }
+            
+            // Handle Content
+            if (result.content && Array.isArray(result.content)) {
+                video.generatedContent = result.content;
+                // Render Bubbles
+                const playerPlaceholder = videoDetailModal.querySelector('.bstage-video-player-placeholder');
+                playerPlaceholder.innerHTML = '';
+                
+                let delay = 0;
+                result.content.forEach(text => {
+                    setTimeout(() => {
+                        const bubble = document.createElement('div');
+                        bubble.className = 'bstage-video-content-bubble';
+                        bubble.textContent = text;
+                        playerPlaceholder.appendChild(bubble);
+                        playerPlaceholder.scrollTop = playerPlaceholder.scrollHeight;
+                    }, delay);
+                    delay += 800; // Staggered appearance
+                });
+            }
+            
+            // Handle Comments
+            if (result.comments && Array.isArray(result.comments)) {
+                result.comments.forEach(c => {
+                    const name = stripGeneratedText(c && c.name, 'Fan');
+                    video.comments.unshift({
+                        id: Date.now() + Math.random(),
+                        name,
+                        text: stripGeneratedText(c && c.text),
+                        trans: stripGeneratedText(c && (c.trans || c.translationZh || c.translation)),
+                        time: 'Just now',
+                        avatar: null,
+                        avatarEmoji: getStableEmojiAvatar(`video-comment-${name}-${Date.now()}-${Math.random()}`),
+                        replies: []
+                    });
+                });
+                renderVideoComments();
+            }
+            saveBstageData();
+            
+            window.showToast('内容生成完成');
+
+        } catch (e) {
+            console.error(e);
+            window.showToast('生成失败');
+        }
+    }
+
+    function setPendingVideoCommentReply(comment) {
+        pendingVideoCommentReply = comment || null;
+        const preview = document.getElementById('bstage-vid-comment-reply-preview');
+        const textEl = document.getElementById('bstage-vid-comment-reply-preview-text');
+        if (preview && textEl) {
+            if (comment) {
+                textEl.textContent = `回复 ${comment.name}: ${getMessageSummary(comment)}`;
+                preview.style.display = 'flex';
+            } else {
+                textEl.textContent = '';
+                preview.style.display = 'none';
+            }
+        }
+        const input = document.getElementById('bstage-vid-comment-input');
+        if (comment && input) input.focus();
+    }
+
+    function renderCommentTranslation(comment) {
+        const trans = stripGeneratedText(comment && (comment.trans || comment.translationZh || comment.translation));
+        if (!trans) return '';
+        return `
+            <button class="bstage-comment-trans-btn" type="button">翻译</button>
+            <div class="bstage-comment-trans-text" style="display:none;">${escapeHtml(trans)}</div>
+        `;
+    }
+
+    function renderVideoCommentReplyQuote(comment) {
+        if (!comment || !comment.replyTo) return '';
+        const speaker = stripGeneratedText(comment.replyTo.name || comment.replyTo.speaker, '评论');
+        const text = getMessageSummary({ text: comment.replyTo.text || '' });
+        return `
+            <div class="bstage-comment-reply-quote">
+                <span>回复 ${escapeHtml(speaker)}</span>
+                <div>${escapeHtml(text)}</div>
+            </div>
+        `;
+    }
+
+    function renderCommentReplies(comment) {
+        if (!comment || !Array.isArray(comment.replies) || comment.replies.length === 0) return '';
+        return `
+            <div class="bstage-comment-replies">
+                ${comment.replies.map(reply => `
+                    <div class="bstage-comment-reply-item">
+                        <div class="bstage-comment-reply-author">${escapeHtml(reply.name || 'Fan')}</div>
+                        <div class="bstage-comment-reply-text">${escapeHtml(reply.text || '')}</div>
+                        ${renderCommentTranslation(reply)}
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function renderVideoComments() {
+        if (!currentVideo) return;
+        const list = document.getElementById('bstage-vid-comments-list');
+        const count = currentVideo.comments.length;
+        document.getElementById('bstage-vid-comments-header').textContent = `评论 (${count})`;
+        
+        list.innerHTML = '';
+        currentVideo.comments.forEach(c => {
+            const item = document.createElement('div');
+            item.className = 'bstage-comment-item';
+            const commentName = stripGeneratedText(c && c.name, 'User');
+            
+            const avatarHtml = c.avatar 
+                ? `<img src="${escapeHtml(c.avatar)}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`
+                : `<div style="width:100%;height:100%;background:#333;border-radius:50%;display:flex;justify-content:center;align-items:center;color:#fff;">${escapeHtml(c.avatarEmoji || (c.isUser ? commentName.slice(0, 1) || 'U' : getStableEmojiAvatar(`video-comment-${commentName}-${c.id || ''}`)))}</div>`;
+
+            item.innerHTML = `
+                <div class="bstage-comment-avatar">${avatarHtml}</div>
+                <div class="bstage-comment-content">
+                    <div class="bstage-comment-header">
+                        <span class="bstage-comment-author">${escapeHtml(commentName)}</span>
+                        <span class="bstage-comment-time">${escapeHtml(c.time || '')}</span>
+                    </div>
+                    ${renderVideoCommentReplyQuote(c)}
+                    <div class="bstage-comment-text">${escapeHtml(c.text || '')}</div>
+                    ${renderCommentTranslation(c)}
+                    ${renderCommentReplies(c)}
+                </div>
+            `;
+            item.addEventListener('click', (e) => {
+                if (e.target.closest('.bstage-comment-trans-btn') || e.target.closest('.bstage-comment-replies')) return;
+                setPendingVideoCommentReply(c);
+            });
+            item.querySelectorAll('.bstage-comment-trans-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const trans = btn.nextElementSibling;
+                    if (!trans) return;
+                    const isHidden = trans.style.display === 'none';
+                    trans.style.display = isHidden ? 'block' : 'none';
+                    btn.textContent = isHidden ? '收起翻译' : '翻译';
+                });
+            });
+            list.appendChild(item);
+        });
+    }
+
+    // Comment Input Logic
+    const vidInput = document.getElementById('bstage-vid-comment-input');
+    const vidSendBtn = document.getElementById('bstage-vid-comment-send-btn');
+    const vidReplyCancelBtn = document.getElementById('bstage-vid-comment-reply-cancel-btn');
+
+    if (vidReplyCancelBtn) {
+        vidReplyCancelBtn.addEventListener('click', () => setPendingVideoCommentReply(null));
+        vidReplyCancelBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setPendingVideoCommentReply(null);
+            }
+        });
+    }
+
+    if (vidInput && vidSendBtn) {
+        vidInput.addEventListener('input', () => {
+            if (vidInput.value.trim().length > 0) {
+                vidSendBtn.classList.remove('disabled');
+            } else {
+                vidSendBtn.classList.add('disabled');
+            }
+        });
+
+        vidSendBtn.addEventListener('click', () => {
+            if (vidSendBtn.classList.contains('disabled')) return;
+            
+            const text = vidInput.value.trim();
+            if (text && currentVideo) {
+                const newComment = {
+                    id: Date.now(),
+                    name: window.userState ? window.userState.name : 'User',
+                    avatar: window.userState ? window.userState.avatarUrl : null,
+                    text: text,
+                    time: 'Just now',
+                    isUser: true,
+                    replyTo: pendingVideoCommentReply ? {
+                        id: pendingVideoCommentReply.id,
+                        name: pendingVideoCommentReply.name,
+                        text: pendingVideoCommentReply.text
+                    } : null,
+                    replies: []
+                };
+                currentVideo.comments.unshift(newComment);
+                renderVideoComments();
+                vidInput.value = '';
+                vidSendBtn.classList.add('disabled');
+                setPendingVideoCommentReply(null);
+                triggerVideoCommentReplyApi(currentVideo, newComment);
+                
+                // Scroll to top of comments (optional, layout dependent)
+            }
+        });
+    }
+
+    async function triggerVideoCommentReplyApi(video, userComment) {
+        if (!video || !userComment) return;
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+
+        let charInfo = "团队成员:\n";
+        if (currentTeam && currentTeam.members) {
+            currentTeam.members.forEach(m => {
+                charInfo += `- ${m.name} (${m.role})\n`;
+            });
+        }
+
+        const prompt = `
+你正在模拟 b.stage 视频评论区。
+团队/账号：${currentTeam ? currentTeam.name : 'User'}
+${charInfo}
+视频标题：${video.title || '未命名视频'}
+视频简介：${video.description || '无'}
+User 评论：${userComment.text}
+${userComment.replyTo ? `User 正在回复评论：${userComment.replyTo.name}: ${userComment.replyTo.text}` : ''}
+
+要求：
+1. 生成不少于 10 条、最多 14 条来自粉丝/观众的回复，围绕 User 的评论自然互动。
+2. 可以有人赞同、补充、提问、羡慕或讨论视频内容。
+3. b.stage 是国际化应用，text 可以是中文或外文；非中文 text 必须提供自然中文翻译 trans，中文则 trans 为空字符串。
+4. 只返回严格 JSON 数组，不要 markdown。
+格式：
+[
+  { "name": "评论者", "text": "原文", "trans": "中文翻译或空" }
+]
+`;
+
+        try {
+            const replies = await callBstageJsonApi(prompt, 'You generate strict JSON arrays for b.stage video comment replies.', 0.85);
+            if (!Array.isArray(replies)) throw new Error('invalid_comment_replies');
+            const normalized = replies.slice(0, 14).map((item, index) => {
+                const name = stripGeneratedText(item && item.name, getRandomFanName(index));
+                const text = stripGeneratedText(typeof item === 'string' ? item : item && item.text);
+                const trans = stripGeneratedText(item && (item.trans || item.translationZh || item.translation));
+                if (!text) return null;
+                if (fanMessageNeedsTranslation(text) && !trans) return null;
+                return {
+                    id: Date.now() + Math.random(),
+                    name,
+                    text,
+                    trans,
+                    avatarEmoji: getStableEmojiAvatar(`video-comment-reply-${name}-${index}-${Date.now()}`),
+                    time: 'Just now'
+                };
+            }).filter(Boolean);
+            if (normalized.length < 10) throw new Error('too_few_comment_replies');
+            userComment.replies = normalized;
+            saveBstageData();
+            renderVideoComments();
+        } catch (e) {
+            console.error('Bstage video comment reply API failed:', e);
+            window.showToast('生成评论回复失败');
+        }
+    }
+
+    async function triggerContentApi(team, series, requestType = '') {
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+        if (!Array.isArray(team.videos)) team.videos = [];
+        if (!Array.isArray(team.contentSeries)) team.contentSeries = ['全部'];
+
+        window.showToast('正在生成视频物料...');
+        
+        let charInfo = "团队成员:\n";
+        if (Array.isArray(team.members) && team.members.length > 0) {
+            team.members.forEach(m => {
+                charInfo += `- ${m.name} (${m.role})\n`;
+            });
+        } else {
+            charInfo += '- 暂无成员\n';
+        }
+        
+        const prompt = `
+你是一个偶像团体的内容策划。
+请根据以下团队信息和角色人设，以及系列主题，生成2-3个相关的视频物料。
+团队名称: ${team.name}
+团队简介: ${team.desc || '无'}
+${charInfo}
+系列主题: ${series}
+用户想看的类型: ${requestType || '留空，随机生成适合该团队/账号的视频内容'}
+
+要求：
+1. 如果用户填写了想看的类型，视频必须围绕该类型生成；如果留空，则随机生成有吸引力的视频内容。
+2. 生成虚拟的时长(如 12:30)、观看量(如 1.2M)、发布日期(如 2 days ago)。
+3. series 可以沿用当前系列，也可以根据用户想看的类型给出新系列名。
+4. 返回严格的 JSON 数组格式，不要 markdown 标记。
+格式示例:
+[
+  {"title": "Video Title 1", "duration": "10:05", "views": "500K", "date": "1 day ago", "series": "vlog"},
+  {"title": "Video Title 2", "duration": "03:20", "views": "1.2M", "date": "3 days ago", "series": "behind"}
+]
+`;
+
+        try {
+            let endpoint = window.apiConfig.endpoint;
+            if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+            if(!endpoint.endsWith('/chat/completions')) {
+                endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+            }
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${window.apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: window.apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [
+                        { role: 'system', content: 'You are a JSON generator.' },
+                        { role: 'user', content: prompt }
+                    ],
+                    temperature: 0.7
+                })
+            });
+
+            if (!response.ok) throw new Error('API Error');
+            const data = await response.json();
+            let aiReply = data.choices[0].message.content;
+            aiReply = aiReply.replace(/```json/g, '').replace(/```/g, '').trim();
+            
+            const newItems = JSON.parse(aiReply);
+            
+            if (Array.isArray(newItems)) {
+                newItems.forEach(item => {
+                    const title = stripGeneratedText(item && item.title, 'New Video');
+                    const itemSeries = stripGeneratedText(item && item.series, series === '全部' ? (requestType || 'vlog') : series);
+                    if (itemSeries && !team.contentSeries.includes(itemSeries)) team.contentSeries.push(itemSeries);
+                    team.videos.unshift({
+                        title,
+                        duration: stripGeneratedText(item && item.duration, '10:05'),
+                        views: stripGeneratedText(item && item.views, '500K'),
+                        date: stripGeneratedText(item && item.date, 'Just now'),
+                        thumb: createExternalRandomImage(`${team.id || team.name}-content-${title}-${Date.now()}`, 800, 450),
+                        series: itemSeries
+                    });
+                });
+                saveBstageData();
+                renderContent(team); // Refresh
+                window.showToast(`已生成 ${newItems.length} 个视频`);
+            }
+        } catch (e) {
+            console.error(e);
+            window.showToast('生成失败');
+        }
+    }
+
+    function renderPlaceHolder(title) {
+        contentArea.innerHTML = `
+            <div style="height: 100%; display: flex; justify-content: center; align-items: center; color: #666; background-color: #000;">
+                ${title} 功能暂空
+            </div>
+        `;
+    }
+
+    function updateNavIndicator(activeEl) {
+        const indicator = document.querySelector('.bstage-nav-indicator');
+        const nav = document.querySelector('.bstage-bottom-nav');
+        if (!indicator || !activeEl || !nav) return;
+        
+        const navRect = nav.getBoundingClientRect();
+        const activeRect = activeEl.getBoundingClientRect();
+        
+        // 5px offset due to nav padding
+        const offsetLeft = activeRect.left - navRect.left - 5;
+        
+        indicator.style.width = `${activeRect.width}px`;
+        indicator.style.transform = `translateX(${offsetLeft}px)`;
+    }
+
+    // Tab Switching
+    document.querySelectorAll('.bstage-nav-item').forEach(item => {
+        item.addEventListener('click', (e) => {
+            if (!currentTeam) return;
+            
+            // Clear Interval if leaving content
+            if (contentCarouselInterval) {
+                clearInterval(contentCarouselInterval);
+                contentCarouselInterval = null;
+            }
+
+            document.querySelectorAll('.bstage-nav-item').forEach(el => el.classList.remove('active'));
+            e.target.classList.add('active');
+            updateNavIndicator(e.target);
+            
+            const tab = e.target.getAttribute('data-tab');
+            
+            // Access Control
+            if ((tab === 'content' || tab === 'shop') && !currentTeam.isSubscribed && !isUserTeam(currentTeam)) {
+                renderLockedState(tab);
+            } else {
+                if (tab === 'home') renderTeamHome(currentTeam);
+                else if (tab === 'pop') renderTeamPop(currentTeam);
+                else if (tab === 'content') renderContent(currentTeam);
+                else if (tab === 'shop') renderShop(currentTeam);
+            }
+        });
+    });
+
+    function renderLockedState(title) {
+        contentArea.innerHTML = `
+            <div style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #666; background-color: #000; gap: 20px;">
+                <i class="fas fa-lock" style="font-size: 40px; opacity: 0.5;"></i>
+                <div>需要订阅会员才能查看 ${title}</div>
+                <div class="bstage-pop-sub-btn" id="bstage-locked-sub-btn" style="background-color: #007aff; color: #fff; padding: 10px 24px;">去订阅</div>
+            </div>
+        `;
+        document.getElementById('bstage-locked-sub-btn').addEventListener('click', openSubModal);
+    }
+
+    // Sub Modal Logic
+    function openSubModal() {
+        window.openView(subModal);
+    }
+
+    document.querySelectorAll('.bstage-price-option').forEach(opt => {
+        opt.addEventListener('click', () => {
+            document.querySelectorAll('.bstage-price-option').forEach(o => {
+                o.classList.remove('selected');
+                o.style.borderColor = '#333';
+            });
+            opt.classList.add('selected');
+            opt.style.borderColor = '#fff';
+        });
+    });
+
+    document.getElementById('bstage-confirm-sub-btn').addEventListener('click', () => {
+        if (currentTeam) {
+            currentTeam.isSubscribed = true;
+            
+            // Add Order
+            const selectedOpt = subModal.querySelector('.bstage-price-option.selected');
+            const title = selectedOpt.querySelector('.bstage-price-title').textContent;
+            const price = selectedOpt.querySelector('.bstage-price-amount').textContent;
+            
+            bstageOrders.unshift({
+                id: Date.now(),
+                title: `${currentTeam.name} - ${title}`,
+                price: price,
+                date: new Date().toLocaleDateString(),
+                type: 'Membership'
+            });
+
+            window.showToast('订阅成功！您现在可以访问 Content 和 Shop。');
+            
+            // Refresh current view if it was home to update button text potentially, or just close
+            if(document.querySelector('.bstage-nav-item[data-tab="home"]').classList.contains('active')) {
+                renderTeamHome(currentTeam);
+            }
+        }
+        window.closeView(subModal);
+    });
+
+    // User Profile Logic
+    const profileBtn = bstageView.querySelector('.bstage-avatar-placeholder');
+    profileBtn.addEventListener('click', () => {
+        // Sync user data
+        const userName = window.userState ? window.userState.name : 'User';
+        const userAvatar = window.userState ? window.userState.avatarUrl : null;
+        
+        document.getElementById('bstage-profile-name-display').textContent = userName;
+        const avatarDisplay = document.getElementById('bstage-profile-avatar-display');
+        const avatarIcon = document.getElementById('bstage-profile-avatar-icon');
+        
+        if (userAvatar) {
+            avatarDisplay.src = userAvatar;
+            avatarDisplay.style.display = 'block';
+            avatarIcon.style.display = 'none';
+        } else {
+            avatarDisplay.style.display = 'none';
+            avatarIcon.style.display = 'block';
+        }
+        updateBstageProfileStats();
+        
+        window.openView(userProfileModal);
+    });
+
+    // Edit Profile Logic
+    document.getElementById('bstage-edit-profile-btn').addEventListener('click', () => {
+        const userName = window.userState ? window.userState.name : '';
+        const userAvatar = window.userState ? window.userState.avatarUrl : '';
+        const userPersona = window.userState && window.userState.persona ? window.userState.persona : '';
+        
+        document.getElementById('bstage-edit-profile-name').value = userName;
+        const personaInput = document.getElementById('bstage-edit-profile-persona');
+        if (personaInput) personaInput.value = userPersona;
+        
+        const preview = document.getElementById('bstage-edit-profile-avatar-preview');
+        const uploadIcon = document.querySelector('#bstage-edit-profile-avatar-upload i');
+        
+        if (userAvatar) {
+            preview.src = userAvatar;
+            preview.style.display = 'block';
+            uploadIcon.style.display = 'none';
+        } else {
+            preview.src = '';
+            preview.style.display = 'none';
+            uploadIcon.style.display = 'block';
+        }
+        
+        window.openView(editProfileModal);
+    });
+
+    // Setup Edit Profile Avatar Upload
+    setupFileUpload('bstage-edit-profile-avatar-upload', 'input', 'bstage-edit-profile-avatar-preview');
+    // We need to handle icon display logic on change manually since helper is simple
+    document.querySelector('#bstage-edit-profile-avatar-upload input').addEventListener('change', (e) => {
+        if (e.target.files && e.target.files[0]) {
+            document.querySelector('#bstage-edit-profile-avatar-upload i').style.display = 'none';
+        }
+    });
+
+    document.getElementById('bstage-save-profile-btn').addEventListener('click', () => {
+        const newName = document.getElementById('bstage-edit-profile-name').value;
+        const newAvatar = document.getElementById('bstage-edit-profile-avatar-preview').src;
+        const hasAvatar = document.getElementById('bstage-edit-profile-avatar-preview').style.display !== 'none';
+        
+        const personaInput = document.getElementById('bstage-edit-profile-persona');
+        const newPersona = personaInput ? personaInput.value : '';
+        
+        if (window.userState) {
+            window.userState.name = newName;
+            if (hasAvatar) window.userState.avatarUrl = newAvatar;
+            window.userState.persona = newPersona;
+            
+            // Sync global UI if function exists
+            if (window.syncUIs) window.syncUIs();
+            if (window.saveGlobalData) window.saveGlobalData();
+            
+            // Update local bstage profile modal if open (it is)
+            document.getElementById('bstage-profile-name-display').textContent = newName;
+            if (hasAvatar) {
+                document.getElementById('bstage-profile-avatar-display').src = newAvatar;
+                document.getElementById('bstage-profile-avatar-display').style.display = 'block';
+                document.getElementById('bstage-profile-avatar-icon').style.display = 'none';
+            }
+            renderFollowingBar();
+            if (isUserTeam(currentTeam)) {
+                currentTeam = getBstageUserTeam();
+            }
+        }
+        
+        window.closeView(editProfileModal);
+        window.showToast('资料已更新');
+    });
+
+    // Orders Logic
+    document.getElementById('bstage-my-orders-btn').addEventListener('click', () => {
+        renderOrders();
+        window.openView(ordersModal);
+    });
+
+    function withdrawBstageRevenueToPay() {
+        const amount = Number(getBstageAvailableRevenueCny().toFixed(2));
+        if (!Number.isFinite(amount) || amount <= 0) {
+            window.showToast('暂无可提现收益');
+            updateBstageProfileStats();
+            return;
+        }
+        if (typeof window.addPayTransaction !== 'function') {
+            window.showToast('Pay 暂不可用，请稍后重试');
+            return;
+        }
+        const success = window.addPayTransaction(amount, 'b.stage POP 订阅收益', 'income');
+        if (!success) {
+            window.showToast('提现失败，请稍后重试');
+            return;
+        }
+        bstageRevenueState.withdrawnCny = getBstageWithdrawnRevenueCny() + amount;
+        bstageRevenueState.lastWithdrawAt = Date.now();
+        saveBstageData();
+        updateBstageProfileStats();
+    }
+
+    document.getElementById('bstage-withdraw-revenue-btn').addEventListener('click', withdrawBstageRevenueToPay);
+
+    ordersModal.addEventListener('click', (e) => {
+        if (e.target === ordersModal) window.closeView(ordersModal);
+    });
+
+    function renderOrders() {
+        const container = document.getElementById('bstage-orders-list');
+        container.innerHTML = '';
+        
+        if (bstageOrders.length === 0) {
+            container.innerHTML = '<div style="text-align: center; color: #888; padding: 20px;">暂无订单记录</div>';
+            return;
+        }
+
+        bstageOrders.forEach(order => {
+            const item = document.createElement('div');
+            item.style.cssText = 'background: #2c2c2e; padding: 15px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center;';
+            item.innerHTML = `
+                <div>
+                    <div style="font-weight: 600; color: #fff; font-size: 15px;">${order.title}</div>
+                    <div style="font-size: 12px; color: #aaa; margin-top: 4px;">${order.date} • ${order.type}</div>
+                </div>
+                <div style="font-weight: 700; color: #fff;">${order.price}</div>
+            `;
+            container.appendChild(item);
+        });
+    }
+
+    // Fan Chat Logic
+    const fallbackFanNames = ['Starry', 'Mina', 'Joon', 'Luna', 'BlueFan', 'Ari', 'Momo', 'Nabi', 'Echo', 'Summer'];
+
+    function getCurrentChatTimeText(timestamp = Date.now()) {
+        if (typeof window.formatChatBubbleTime === 'function') return window.formatChatBubbleTime(timestamp);
+        const d = new Date(timestamp);
+        return `${d.getHours()}:${d.getMinutes().toString().padStart(2, '0')}`;
+    }
+
+    function getRandomFanName(index = 0) {
+        return fallbackFanNames[Math.floor(Math.random() * fallbackFanNames.length)] || `Fan${index + 1}`;
+    }
+
+    function fanMessageNeedsTranslation(text) {
+        const value = String(text || '');
+        const hasChinese = /[\u3400-\u9fff]/.test(value);
+        const hasForeignScript = /[A-Za-z\u3040-\u30ff\uac00-\ud7af\u0400-\u04ff]/.test(value);
+        return hasForeignScript && !hasChinese;
+    }
+
+    function getFanSubscriberCount() {
+        if (!Number.isFinite(Number(bstageFanSubscriberCount))) {
+            bstageFanSubscriberCount = Math.floor(800 + Math.random() * 9200);
+            saveBstageData();
+        }
+        return Math.max(0, parseInt(bstageFanSubscriberCount, 10) || 0);
+    }
+
+    function getFanSubscriberText() {
+        return `已订阅 ${getFanSubscriberCount()} 人`;
+    }
+
+    function getBstageTotalRevenueCny() {
+        return getFanSubscriberCount() * BSTAGE_POP_MONTHLY_KRW * BSTAGE_KRW_TO_CNY;
+    }
+
+    function getBstageWithdrawnRevenueCny() {
+        const value = Number(bstageRevenueState && bstageRevenueState.withdrawnCny);
+        return Number.isFinite(value) ? Math.max(0, value) : 0;
+    }
+
+    function getBstageAvailableRevenueCny() {
+        return Math.max(0, getBstageTotalRevenueCny() - getBstageWithdrawnRevenueCny());
+    }
+
+    function formatBstageCny(value) {
+        return `￥${Math.max(0, Number(value) || 0).toFixed(2)}`;
+    }
+
+    function updateBstageProfileStats() {
+        const subCountEl = document.getElementById('bstage-profile-pop-sub-count');
+        const revenueEl = document.getElementById('bstage-profile-sub-revenue');
+        const withdrawBtn = document.getElementById('bstage-withdraw-revenue-btn');
+        const count = getFanSubscriberCount();
+        const available = getBstageAvailableRevenueCny();
+        if (subCountEl) subCountEl.textContent = String(count);
+        if (revenueEl) revenueEl.textContent = formatBstageCny(available);
+        if (withdrawBtn) {
+            withdrawBtn.style.opacity = available > 0 ? '1' : '0.55';
+            withdrawBtn.setAttribute('aria-disabled', available > 0 ? 'false' : 'true');
+            withdrawBtn.title = available > 0 ? `可提现 ${formatBstageCny(available)}` : '暂无可提现收益';
+        }
+    }
+
+    function getFanSubscriberGrowthDelta(burst = false) {
+        if (burst) {
+            return 1 + Math.floor(Math.random() * 5);
+        }
+        const weightedDeltas = [0, 0, 1, 1, 2];
+        return weightedDeltas[Math.floor(Math.random() * weightedDeltas.length)] || 0;
+    }
+
+    function growFanSubscriberCount(burst = false) {
+        const delta = getFanSubscriberGrowthDelta(burst);
+        if (delta <= 0) {
+            updateFanSubscriberLabels();
+            return;
+        }
+        bstageFanSubscriberCount = getFanSubscriberCount() + delta;
+        updateFanSubscriberLabels();
+        saveBstageData();
+    }
+
+    function randomizeFanSubscriberCount() {
+        growFanSubscriberCount(true);
+    }
+
+    function scheduleFanSubscriberGrowth() {
+        if (bstageFanSubscriberGrowthTimer) {
+            clearTimeout(bstageFanSubscriberGrowthTimer);
+        }
+        const delay = 30000 + Math.floor(Math.random() * 60000);
+        bstageFanSubscriberGrowthTimer = setTimeout(() => {
+            growFanSubscriberCount(false);
+            scheduleFanSubscriberGrowth();
+        }, delay);
+    }
+
+    function startFanSubscriberGrowth() {
+        getFanSubscriberCount();
+        updateFanSubscriberLabels();
+        if (!bstageFanSubscriberGrowthTimer) {
+            scheduleFanSubscriberGrowth();
+        }
+    }
+
+    function updateFanSubscriberLabels() {
+        const text = getFanSubscriberText();
+        const subtitle = document.getElementById('bstage-fan-chat-subtitle');
+        const detailSubscribers = document.getElementById('bstage-fan-detail-subscribers');
+        if (subtitle) subtitle.textContent = text;
+        if (detailSubscribers) detailSubscribers.textContent = text;
+        document.querySelectorAll('.bstage-fan-subscriber-label').forEach(el => {
+            el.textContent = text;
+        });
+        updateBstageProfileStats();
+    }
+
+    function syncFanChatTranslationState() {
+        const content = document.getElementById('bstage-fan-chat-content');
+        if (!content) return;
+        content.classList.toggle('show-trans', isTranslationEnabled);
+    }
+
+    function applyFanChatSettings() {
+        const fanView = document.getElementById('bstage-fan-chat-view');
+        if (fanView) {
+            if (bstageFanChatSettings.chatBg) {
+                fanView.style.backgroundImage = `url('${bstageFanChatSettings.chatBg}')`;
+                fanView.style.backgroundSize = 'cover';
+                fanView.style.backgroundPosition = 'center';
+            } else {
+                fanView.style.backgroundImage = 'none';
+                fanView.style.backgroundColor = '#1c1c1e';
+            }
+        }
+        applyDynamicStyles();
+        syncFanChatTranslationState();
+    }
+
+    function openFanChatDetailSheet() {
+        updateFanSubscriberLabels();
+        populateFanCssSelects();
+        applyFanChatSettings();
+
+        const userName = window.userState && window.userState.name ? window.userState.name : 'User';
+        const userAvatar = window.userState && window.userState.avatarUrl ? window.userState.avatarUrl : '';
+        const detailName = document.getElementById('bstage-fan-detail-name');
+        const avatar = document.getElementById('bstage-fan-detail-avatar');
+        const avatarIcon = document.getElementById('bstage-fan-detail-avatar-icon');
+        if (detailName) detailName.textContent = `${userName} 的粉丝聊天室`;
+        if (avatar && avatarIcon) {
+            if (userAvatar) {
+                avatar.src = userAvatar;
+                avatar.style.display = 'block';
+                avatarIcon.style.display = 'none';
+            } else {
+                avatar.src = '';
+                avatar.style.display = 'none';
+                avatarIcon.style.display = 'block';
+            }
+        }
+
+        const contextSwitch = document.getElementById('bstage-fan-context-switch');
+        const contextCount = document.getElementById('bstage-fan-context-count');
+        const transSwitch = document.getElementById('bstage-fan-trans-switch');
+        if (contextSwitch) contextSwitch.classList.toggle('active', isContextEnabled);
+        if (contextCount) contextCount.value = contextMessageCount;
+        if (transSwitch) transSwitch.classList.toggle('active', isTranslationEnabled);
+
+        window.openView(fanChatDetailSheet);
+    }
+
+    function buildFanChatUserTeamContext() {
+        const userTeam = getBstageUserTeam();
+        const members = Array.isArray(userTeam.members) ? userTeam.members : [];
+        const videos = Array.isArray(userTeam.videos) ? userTeam.videos.slice(0, 8) : [];
+        const items = Array.isArray(userTeam.shopItems) ? userTeam.shopItems.slice(0, 8) : [];
+        const memberSummary = members.length
+            ? members.map(member => `- ${member.name || '未命名成员'}：${member.role || '暂无人设'}`).join('\n')
+            : '暂无团队成员。';
+        const contentSummary = videos.length
+            ? videos.map(v => `- ${v.title || '未命名视频'}${v.description ? `：${v.description}` : ''}`).join('\n')
+            : '暂无视频物料。';
+        const shopSummary = items.length
+            ? items.map(item => `- ${item.name || '未命名商品'}（${item.category || '商品'}，${item.price || '未定价'}）${item.desc ? `：${item.desc}` : ''}`).join('\n')
+            : '暂无周边商品。';
+        return `User 团队资料：\n团队名：${userTeam.name || 'User'}\n团队简介：${userTeam.desc || '无'}\n\nUser 团队成员：\n${memberSummary}\n\nUser 团队 Content 视频物料：\n${contentSummary}\n\nUser 团队 Shop 周边商品：\n${shopSummary}`;
+    }
+
+    function appendFanDateIfNeeded(contentContainer, timestamp) {
+        let lastMsg = null;
+        for (let i = bstageFanChatHistory.length - 1; i >= 0; i--) {
+            if (bstageFanChatHistory[i].type !== 'date') {
+                lastMsg = bstageFanChatHistory[i];
+                break;
+            }
+        }
+
+        const timeThreshold = 5 * 60 * 1000;
+        if (!lastMsg || !lastMsg.timestamp || timestamp - lastMsg.timestamp > timeThreshold) {
+            const timeText = formatTimeBubble(timestamp);
+            const dateMsg = { type: 'date', text: timeText, timestamp };
+            bstageFanChatHistory.push(dateMsg);
+            if (contentContainer) appendFanChatMessage(dateMsg, contentContainer);
+        }
+    }
+
+    function appendFanChatMessage(msg, contentContainer) {
+        if (!contentContainer || !msg) return;
+
+        if (msg.type === 'date') {
+            const dateDiv = document.createElement('div');
+            dateDiv.className = 'bstage-chat-date';
+            dateDiv.textContent = msg.text;
+            contentContainer.appendChild(dateDiv);
+            return;
+        }
+
+        ensureMessageId(msg, msg.isUser ? 'user' : 'fan');
+
+        if (msg.isUser) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = 'bstage-chat-msg outgoing';
+            msgDiv.dataset.msgId = msg.id;
+            msgDiv.innerHTML = `
+                <div class="bstage-msg-status">
+                    <div class="bstage-msg-status-text">已发送</div>
+                    <div class="bstage-msg-time">${escapeHtml(msg.time || getCurrentChatTimeText(msg.timestamp))}</div>
+                </div>
+                <div class="bstage-chat-bubble">
+                    ${renderReplyQuote(msg.replyTo)}
+                    <div class="bstage-msg-text">${escapeHtml(msg.text)}</div>
+                </div>
+            `;
+            contentContainer.appendChild(msgDiv);
+            return;
+        }
+
+        const fanName = stripGeneratedText(msg.name, '粉丝');
+        msg.avatarEmoji = msg.avatarEmoji || getStableEmojiAvatar(`bstage-fan-${fanName}-${msg.id || msg.timestamp || ''}`);
+        const transText = stripGeneratedText(msg.trans);
+        const replyDiv = document.createElement('div');
+        replyDiv.className = 'bstage-chat-msg income';
+        replyDiv.dataset.msgId = msg.id;
+        replyDiv.innerHTML = `
+            ${renderBstageAvatar(msg, fanName, 'bstage-chat-avatar')}
+            <div class="bstage-chat-bubble">
+                ${renderReplyQuote(msg.replyTo)}
+                <div class="bstage-fan-chat-sender">${escapeHtml(fanName)}</div>
+                <div class="bstage-msg-text">${escapeHtml(msg.text)}</div>
+                ${transText ? `<div class="bstage-trans-text">${escapeHtml(transText)}</div>` : ''}
+            </div>
+            <button class="bstage-msg-reply-btn" type="button" aria-label="回复消息" title="回复消息">
+                <i class="fas fa-reply"></i>
+            </button>
+        `;
+        const replyBtn = replyDiv.querySelector('.bstage-msg-reply-btn');
+        if (replyBtn) {
+            replyBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                setPendingReply('fan', createReplyMeta(msg, fanName));
+            });
+        }
+        contentContainer.appendChild(replyDiv);
+    }
+
+    function renderFanChatHistory() {
+        const content = document.getElementById('bstage-fan-chat-content');
+        if (!content) return;
+        content.innerHTML = '';
+        syncFanChatTranslationState();
+
+        if (!Array.isArray(bstageFanChatHistory)) bstageFanChatHistory = [];
+        if (bstageFanChatHistory.length === 0) {
+            content.innerHTML = '<div class="bstage-system-notice">粉丝聊天室已开启</div>';
+        } else {
+            bstageFanChatHistory.forEach(msg => appendFanChatMessage(msg, content));
+        }
+        updateFanSubscriberLabels();
+
+        setTimeout(() => {
+            content.scrollTop = content.scrollHeight;
+        }, 50);
+    }
+
+    function openFanChat() {
+        applyFanChatSettings();
+        renderFanChatHistory();
+        clearPendingReply('fan');
+        window.openView(bstageFanChatView);
+        const input = document.getElementById('bstage-fan-chat-input');
+        setTimeout(() => {
+            if (input) input.focus();
+        }, 80);
+    }
+
+    function sendFanChatMessage() {
+        const input = document.getElementById('bstage-fan-chat-input');
+        const content = document.getElementById('bstage-fan-chat-content');
+        if (!input || !content) return;
+
+        const text = input.value.trim();
+        if (!text) return;
+
+        if (content.querySelector('.bstage-system-notice') && bstageFanChatHistory.length === 0) {
+            content.innerHTML = '';
+        }
+
+        const now = Date.now();
+        appendFanDateIfNeeded(content, now);
+        const msg = {
+            id: createBstageMessageId('user'),
+            isUser: true,
+            type: 'text',
+            text,
+            time: getCurrentChatTimeText(now),
+            timestamp: now,
+            replyTo: pendingFanReply ? { ...pendingFanReply } : null
+        };
+        bstageFanChatHistory.push(msg);
+        appendFanChatMessage(msg, content);
+        saveBstageData();
+
+        input.value = '';
+        clearPendingReply('fan');
+        content.scrollTop = content.scrollHeight;
+    }
+
+    async function triggerFanChatApi() {
+        const apiBtn = document.getElementById('bstage-fan-chat-api-btn');
+        const content = document.getElementById('bstage-fan-chat-content');
+        if (!content || !apiBtn || apiBtn.classList.contains('is-loading')) return;
+
+        if (!window.apiConfig || !window.apiConfig.endpoint || !window.apiConfig.apiKey) {
+            window.showToast('请先在系统设置中配置 API');
+            return;
+        }
+
+        const userName = window.userState && window.userState.name ? window.userState.name : 'User';
+        const userPersona = window.userState && window.userState.persona ? window.userState.persona : '';
+        const teamContext = currentTeam ? `当前 b.stage 团队：${currentTeam.name}\n团队信息：${currentTeam.desc || '无'}` : '当前没有选中的 b.stage 团队。';
+        const userTeamContext = buildFanChatUserTeamContext();
+        const fetchCount = isContextEnabled ? contextMessageCount : 1;
+        bstageFanChatHistory.forEach(msg => {
+            if (msg && msg.type !== 'date') ensureMessageId(msg, msg.isUser ? 'user' : 'fan');
+        });
+        const userMessages = bstageFanChatHistory
+            .filter(msg => msg && msg.type === 'text' && msg.isUser && msg.text)
+            .slice(-fetchCount);
+        const history = userMessages.length
+            ? userMessages.map(msg => formatMessageForPrompt(msg, userName)).join('\n')
+            : '暂无 User 发言。';
+        const validUserReplyIds = userMessages.map(msg => msg.id).filter(Boolean);
+
+        const systemDepthWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('system_depth') : '';
+        const beforeRoleWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('before_role') : '';
+        const afterRoleWorldBookContext = window.getGlobalWorldBookContextByPosition ? window.getGlobalWorldBookContextByPosition('after_role') : '';
+
+        const now = new Date();
+        const days = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        const realTimeContext = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${days[now.getDay()]} ${now.getHours()}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+        const prompt = `
+${systemDepthWorldBookContext ? `System Depth Rules:\n${systemDepthWorldBookContext}\n\n` : ''}${beforeRoleWorldBookContext ? `Before Role Rules:\n${beforeRoleWorldBookContext}\n\n` : ''}你正在模拟 b.stage 的粉丝聊天室。b.stage 是国际化粉丝互动应用。
+
+当前账号 / User：${userName}
+User 的人设：${userPersona || '未填写'}
+${teamContext}
+${userTeamContext}
+当前真实时间：${realTimeContext}
+${afterRoleWorldBookContext ? `\nAfter Role Rules:\n${afterRoleWorldBookContext}\n` : ''}
+
+上下文只包含 User 自己发过的消息，不包含任何粉丝历史消息。每条都有 id，replyTo 表示 User 正在引用/翻牌某条粉丝消息：
+${history}
+
+要求：
+1. 你现在扮演的是 ${userName} 的粉丝或订阅者群体，不是 ${userName} 本人，也不是单一角色。
+2. 这不是真正的群聊：每个粉丝从自己的视角像是在和 ${userName} 单聊；只有 ${userName} 的界面把很多粉丝消息汇总成聊天室。
+3. 如果 User 的某条消息带有 replyTo，说明 User 翻牌/回复了某位粉丝；其他粉丝可能猜测被翻牌的是谁、羡慕、起哄、提出翻牌请求，但不要写成所有粉丝都知道完整群聊上下文。
+4. 一次生成不少于 10 条、最多 14 条来自不同粉丝/订阅者的实时聊天室消息。
+5. 消息要像真实国际化粉丝互动：可以应援、闲聊、提问、刷屏、玩梗、跨语言互动，不要每条都机械回复 User 上一句话。
+6. 可以自然评价 User 的视频物料、讨论已上架周边、期待新物料或询问下一次更新。
+7. 粉丝知道 User 团队的名字、简介和成员，可以自然询问 ${userName} 本人的近况、和其他队友的关系/合作/互动，也可以向 ${userName} 提到或追问别的队友。
+8. 可以使用中文、英文、韩文、日文或其他符合语境的语言；如果 text 不是纯中文，必须在 trans 中提供自然中文翻译。text 是中文时 trans 为空字符串。
+9. 你可以回复某条 User 消息；如需回复，请在该对象中填写 replyToId，值只能从这些 User 消息 id 中选择：${validUserReplyIds.length ? validUserReplyIds.join(', ') : '无'}。不回复则省略或填空。
+10. 返回严格 JSON 数组，不要 markdown，不要解释，不要外层对象。
+11. 每条必须包含 name、text、trans。
+
+格式：
+[
+  { "name": "粉丝昵称", "text": "原文消息", "trans": "非中文消息的中文翻译，中文消息则为空字符串", "replyToId": "可选的 User 消息 id" }
+]
+`;
+
+        setChatActionLoading(apiBtn, true);
+        try {
+            const generated = await callBstageJsonApi(prompt, 'You generate strict JSON arrays for live fan chat messages.', 0.85);
+            if (!Array.isArray(generated)) throw new Error('invalid_fan_chat_payload');
+
+            const now = Date.now();
+            const messages = generated.slice(0, 14).map((item, index) => {
+                const fanName = stripGeneratedText(item && item.name, getRandomFanName(index));
+                const text = stripGeneratedText(typeof item === 'string' ? item : item && item.text);
+                const trans = stripGeneratedText(item && (item.trans || item.translationZh || item.translation));
+                const replyToId = stripGeneratedText(item && (item.replyToId || item.reply_to_id));
+                const replySource = findMessageById(bstageFanChatHistory, replyToId, msg => msg && msg.isUser);
+                if (!text) return null;
+                if (fanMessageNeedsTranslation(text) && !trans) return null;
+                return {
+                    id: createBstageMessageId('fan'),
+                    isUser: false,
+                    type: 'text',
+                    name: fanName,
+                    avatar: null,
+                    avatarEmoji: getStableEmojiAvatar(`bstage-fan-${fanName}-${index}`),
+                    text,
+                    trans,
+                    timestamp: now + index,
+                    replyTo: replySource ? createReplyMeta(replySource, userName) : null
+                };
+            }).filter(Boolean);
+
+            if (messages.length < 10) throw new Error('too_few_fan_chat_payload');
+
+            if (content.querySelector('.bstage-system-notice') && bstageFanChatHistory.length === 0) {
+                content.innerHTML = '';
+            }
+            appendFanDateIfNeeded(content, now);
+            randomizeFanSubscriberCount();
+
+            messages.forEach((msg, index) => {
+                setTimeout(() => {
+                    bstageFanChatHistory.push(msg);
+                    appendFanChatMessage(msg, content);
+                    updateFanSubscriberLabels();
+                    saveBstageData();
+                    content.scrollTop = content.scrollHeight;
+                }, index * 650);
+            });
+        } catch (error) {
+            console.error('Bstage fan chat API failed:', error);
+            window.showToast(error && error.message === 'missing_api_config' ? '请先在系统设置中配置 API' : '生成粉丝消息失败');
+        } finally {
+            setChatActionLoading(apiBtn, false);
+        }
+    }
+
+    const fanChatInput = document.getElementById('bstage-fan-chat-input');
+    const fanChatSendBtn = document.getElementById('bstage-fan-chat-send-btn');
+    const fanChatApiBtn = document.getElementById('bstage-fan-chat-api-btn');
+    if (fanChatInput) {
+        fanChatInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.isComposing && e.keyCode !== 229) {
+                e.preventDefault();
+                sendFanChatMessage();
+                fanChatInput.blur();
+            }
+        });
+    }
+    if (fanChatSendBtn) {
+        fanChatSendBtn.addEventListener('click', sendFanChatMessage);
+        fanChatSendBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                sendFanChatMessage();
+            }
+        });
+    }
+    if (fanChatApiBtn) {
+        fanChatApiBtn.addEventListener('click', triggerFanChatApi);
+        fanChatApiBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                triggerFanChatApi();
+            }
+        });
+    }
+
+    const chatRoomBtn = document.getElementById('bstage-my-chatroom-btn');
+    if (chatRoomBtn) {
+        chatRoomBtn.addEventListener('click', () => {
+            window.closeView(userProfileModal);
+            openFanChat();
+        });
+    }
+
+    // Header Avatar Sync Logic
+    function updateHeaderAvatar() {
+        const container = document.getElementById('bstage-header-profile-container');
+        if (!container) return;
+        
+        const userAvatar = window.userState ? window.userState.avatarUrl : null;
+        if (userAvatar) {
+            container.innerHTML = `<img src="${userAvatar}" style="width: 100%; height: 100%; object-fit: cover;">`;
+            container.style.overflow = 'hidden';
+            container.style.border = 'none';
+        } else {
+            container.innerHTML = `<i class="fas fa-user"></i>`;
+            container.style.overflow = '';
+            container.style.border = '';
+        }
+    }
+
+    // Call on init
+    updateHeaderAvatar();
+
+    // Hook into profile save
+    const originalSaveProfile = document.getElementById('bstage-save-profile-btn').onclick; // This might be null if added via addEventListener, so we should just append logic inside the existing listener if possible, or use a custom event.
+    // Since we used addEventListener, we can't easily hook without modifying the existing listener.
+    // However, I can just add another listener to the same button? No, the order matters if I want to use updated state.
+    // But the state update is synchronous in the existing listener.
+    
+    document.getElementById('bstage-save-profile-btn').addEventListener('click', () => {
+        // Wait for next tick to ensure state is updated
+        setTimeout(updateHeaderAvatar, 50);
+    });
+
+    function getBstageDataSignature() {
+        const userTeam = getBstageUserTeam();
+        const getMemberChatHistoryCounts = (members) => Array.isArray(members)
+            ? members.map(member => Array.isArray(member?.chatHistory) ? member.chatHistory.length : 0)
+            : [];
+        return JSON.stringify({
+            updatedAt: bstageStateUpdatedAt,
+            teams: teams.map(team => team && team.id),
+            teamMemberCounts: teams.map(team => Array.isArray(team && team.members) ? team.members.length : 0),
+            teamChatHistoryCounts: teams.map(team => getMemberChatHistoryCounts(team?.members)),
+            userTeamMembers: Array.isArray(userTeam.members) ? userTeam.members.length : 0,
+            userTeamChatHistoryCounts: getMemberChatHistoryCounts(userTeam.members),
+            fanHistoryCount: Array.isArray(bstageFanChatHistory) ? bstageFanChatHistory.length : 0
+        });
+    }
+
+    function renderBstageStartupView() {
+        renderFollowingBar();
+        setTimeout(() => {
+            const currentTeamId = currentTeam && currentTeam.id;
+            const nextTeam = currentTeamId && !isUserTeam(currentTeam)
+                ? (teams.find(team => String(team.id) === String(currentTeamId)) || getBstageUserTeam())
+                : getBstageUserTeam();
+            openTeam(nextTeam);
+        }, 50);
+    }
+
+    // Initialize UI with loaded data, then recover once more after IndexedDB-backed global data is ready.
+    renderBstageStartupView();
+    if (window.globalDataReadyPromise && typeof window.globalDataReadyPromise.then === 'function') {
+        const beforeGlobalDataReady = getBstageDataSignature();
+        window.bstageDataReadyPromise = window.globalDataReadyPromise.then(async () => {
+            const normalized = loadBstageData({ persistNormalized: true });
+            bstageHydrationComplete = true;
+            if (normalized) await saveBstageData({ flush: true });
+            const chatWasOpen = !!currentChatMember && bstageChatView.style.display !== 'none';
+            const chatRebound = rebindActiveBstageReferences();
+            startFanSubscriberGrowth();
+            initAllAutoActivities();
+            const afterGlobalDataReady = getBstageDataSignature();
+            if (afterGlobalDataReady !== beforeGlobalDataReady) {
+                renderBstageStartupView();
+            }
+            if (chatWasOpen && chatRebound) openChat(currentChatMember);
+            return true;
+        }).catch(error => {
+            console.warn('Bstage global data recovery failed:', error);
+            bstageHydrationComplete = true;
+            startFanSubscriberGrowth();
+            initAllAutoActivities();
+            return false;
+        });
+    } else {
+        bstageHydrationComplete = true;
+        startFanSubscriberGrowth();
+        initAllAutoActivities();
+        window.bstageDataReadyPromise = Promise.resolve(true);
+    }
+});

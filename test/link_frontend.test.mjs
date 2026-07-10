@@ -240,6 +240,7 @@ test('keeps offline meeting summary third-person and context bubble theme scopin
     assert.match(interfaceSource, /msg-context-row-clone/);
     assert.match(applyFriendCssSource, /data-current-friend-id="\$\{escapeCssAttributeValue\(friend\.id\)\}"/);
     assert.match(applyFriendCssSource, /scopeThemeCss\(friend\.customCss, prefix\)[\s\S]*scopeThemeCss\(friend\.customCss, contextPrefix\)/);
+    assert.match(applyFriendCssSource, /scopeThemeCss\(friend\.chatCss, prefix\)/);
     assert.match(applyFriendCssSource, /scopeThemeCss\(friend\.statusCss, prefix\)/);
     assert.doesNotMatch(applyFriendCssSource, /scopeThemeCss\(friend\.statusCss, contextPrefix\)/);
     assert.match(cssSource, /#msg-context-bubble-clone \.msg-context-row-clone\s*\{/);
@@ -258,13 +259,14 @@ test('restores saved iMessage theme CSS after contact data hydration and chat pa
 
     assert.match(restoreSource, /await window\.imApp\.ensureDataReady\(\)/);
     assert.match(restoreSource, /document\.addEventListener\('imessage-data-ready', restoreSavedCss\)/);
+    assert.match(restoreSource, /document\.addEventListener\('u2-theme-state-ready', restoreSavedCss\)/);
     assert.match(restoreSource, /restoreSavedCss\(\)/);
     assert.doesNotMatch(restoreSource, /setTimeout\(\(\) => applyAllSavedCss\(\), 100\)/);
     assert.match(restoreSource, /window\.imData\.friends\.forEach\(f => applyFriendCss\(f\)\)/);
 
     assert.ok((interfaceSource.match(/window\.imApp\.applyFriendCss\(friend\)/g) || []).length >= 2);
-    assert.match(indexSource, /js\/imessage\/4_chat_interface\.js\?v=20260710-theme-restore-v1/);
-    assert.match(indexSource, /js\/imessage\/5_settings\.js\?v=20260710-theme-restore-v1/);
+    assert.match(indexSource, /js\/imessage\/4_chat_interface\.js\?v=20260711-chat-theme-v1/);
+    assert.match(indexSource, /js\/imessage\/5_settings\.js\?v=20260711-chat-theme-v1/);
 });
 
 test('keeps iOS modal, theme preset, stickers, and private-chat safeguards', async () => {
@@ -294,8 +296,8 @@ test('keeps iOS modal, theme preset, stickers, and private-chat safeguards', asy
 
     assert.match(coreSource, /ensureStickersViewInApp/);
     assert.match(coreSource, /appEl\.appendChild\(stickersViewEl\)/);
-    assert.match(settingsSource, /function refreshThemePresetUi\(\)/);
-    assert.ok((settingsSource.match(/refreshThemePresetUi\(\)/g) || []).length >= 4);
+    assert.match(settingsSource, /function refreshThemePresetUi\(/);
+    assert.ok((settingsSource.match(/refreshThemePresetUi\(/g) || []).length >= 4);
     assert.match(settingsSource, /iconDiv\.classList\.add\('has-custom-app-icon'\)/);
     assert.match(settingsSource, /iconDiv\.style\.setProperty\('background', `url\(\$\{app\.icon\}\) center \/ cover no-repeat`, 'important'\)/);
     assert.match(settingsSource, /iconDiv\.style\.setProperty\('background-image', `url\(\$\{app\.icon\}\)`, 'important'\)/);

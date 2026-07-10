@@ -1,1 +1,199 @@
-const _0x3acbec=_0x58a4;function _0x1ae2(){const _0x43d017=['showBannerNotification','transform\x200.4s\x20cubic-bezier(0.175,\x200.885,\x200.32,\x201.2)','translate(-50%,\x20max(env(safe-area-inset-top,\x200px),\x2010px))','showToast','addEventListener','9999999','1375gJrsMq','imApp','top','10px','translate(-50%,\x20-150%)','openChatTab','859545iOTSUx','realName','avatarUrl','bottom-sheet-overlay','backgroundColor','show','261ZgXhwY','6peIMqx','add','1250416UUbhZH','toast-bubble','alignItems','remove','webkitBackdropFilter','boxShadow','appendChild','\x22\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20border-radius:\x2050%;\x20object-fit:\x20cover;\x20flex-shrink:\x200;\x20\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20min-width:\x200;\x20margin-left:\x2014px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20justify-content:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20font-size:\x2015px;\x20color:\x20#1c1c1e;\x20letter-spacing:\x200.5px;\x20text-transform:\x20uppercase;\x20margin-bottom:\x202px;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','syncUIs','push','2hczjyO','length','target','DOMContentLoaded','hideBannerNotification','getMinutes','width','282530ezgxLi','openView','50%','60070dAiPLW','createElement','getElementById','...','display','position','padStart','center','innerHTML','closeView','classList','1347015vyTufO','body','global-toast-bubble','currentFriend','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20font-weight:\x20500;\x20margin-left:\x2010px;\x20flex-shrink:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Unknown','transform','textContent','substring','click','nickname','contains','backdropFilter','72592rnsNZg','hidden','absolute','trim','913381oCWkYY','style','className','padding','calc(100%\x20-\x2032px)','borderRadius','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#8e8e93;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','left','active','overflow','div','360px'];_0x1ae2=function(){return _0x43d017;};return _0x1ae2();}(function(_0x396c75,_0x4df0c8){const _0x1da8b6=_0x58a4,_0x5f1dce=_0x396c75();while(!![]){try{const _0x2b6869=-parseInt(_0x1da8b6(0xac))/0x1*(-parseInt(_0x1da8b6(0xb3))/0x2)+-parseInt(_0x1da8b6(0x70))/0x3+-parseInt(_0x1da8b6(0xa2))/0x4+-parseInt(_0x1da8b6(0x99))/0x5+-parseInt(_0x1da8b6(0xa0))/0x6*(parseInt(_0x1da8b6(0x81))/0x7)+-parseInt(_0x1da8b6(0x7d))/0x8*(-parseInt(_0x1da8b6(0x9f))/0x9)+-parseInt(_0x1da8b6(0xb6))/0xa*(-parseInt(_0x1da8b6(0x93))/0xb);if(_0x2b6869===_0x4df0c8)break;else _0x5f1dce['push'](_0x5f1dce['shift']());}catch(_0x5527b0){_0x5f1dce['push'](_0x5f1dce['shift']());}}}(_0x1ae2,0x38c66));const UI={'views':{},'overlays':{},'inputs':{},'lists':{}};function openView(_0x1fc9a2){const _0x3841ac=_0x58a4;if(!_0x1fc9a2)return;_0x1fc9a2[_0x3841ac(0x6f)]['contains']('bottom-sheet-overlay')?(_0x1fc9a2[_0x3841ac(0x6f)][_0x3841ac(0xa1)]('active'),document[_0x3841ac(0x71)][_0x3841ac(0x82)][_0x3841ac(0x8a)]=_0x3841ac(0x7e)):_0x1fc9a2[_0x3841ac(0x6f)][_0x3841ac(0xa1)]('active');}function closeView(_0x5a624e){const _0x30eab2=_0x58a4;if(!_0x5a624e)return;_0x5a624e[_0x30eab2(0x6f)]['contains'](_0x30eab2(0x9c))?(_0x5a624e['classList'][_0x30eab2(0xa5)](_0x30eab2(0x89)),document['body'][_0x30eab2(0x82)][_0x30eab2(0x8a)]=''):_0x5a624e[_0x30eab2(0x6f)][_0x30eab2(0xa5)]('active');}function _0x58a4(_0x57cb3c,_0x4826ac){_0x57cb3c=_0x57cb3c-0x6c;const _0x1ae2e4=_0x1ae2();let _0x58a47d=_0x1ae2e4[_0x57cb3c];return _0x58a47d;}function syncUIs(){}function showToast(_0x295f58){const _0x1c6efb=_0x58a4;let _0x42e2b3=document[_0x1c6efb(0xb8)]('global-toast-bubble');!_0x42e2b3&&(_0x42e2b3=document[_0x1c6efb(0xb7)]('div'),_0x42e2b3['id']=_0x1c6efb(0x72),_0x42e2b3[_0x1c6efb(0x83)]=_0x1c6efb(0xa3),document[_0x1c6efb(0x71)][_0x1c6efb(0xa8)](_0x42e2b3)),_0x42e2b3[_0x1c6efb(0x77)]=_0x295f58,_0x42e2b3[_0x1c6efb(0x6f)][_0x1c6efb(0xa1)](_0x1c6efb(0x9e)),setTimeout(()=>{const _0x252e3b=_0x1c6efb;_0x42e2b3['classList'][_0x252e3b(0xa5)](_0x252e3b(0x9e));},0x9c4);}document['addEventListener'](_0x3acbec(0xaf),()=>{const _0x5142cc=_0x3acbec;document[_0x5142cc(0x91)](_0x5142cc(0x79),_0x58aa0f=>{const _0x12247f=_0x5142cc;_0x58aa0f[_0x12247f(0xae)][_0x12247f(0x6f)][_0x12247f(0x7b)](_0x12247f(0x9c))&&closeView(_0x58aa0f[_0x12247f(0xae)]);});});let notificationBanner=null,bannerTimeout=null,notificationQueue=[],isShowingNotification=![];function processNotificationQueue(){const _0x40d58c=_0x3acbec;if(isShowingNotification||notificationQueue['length']===0x0)return;isShowingNotification=!![];const {friend:_0x4da785,messageText:_0x22c94d}=notificationQueue['shift'](),_0x627ab8=document['querySelector']('#app')||document[_0x40d58c(0x71)];!notificationBanner&&(notificationBanner=document[_0x40d58c(0xb7)](_0x40d58c(0x8b)),notificationBanner['id']='ios-banner-notification',notificationBanner[_0x40d58c(0x82)][_0x40d58c(0xbb)]=_0x40d58c(0x7f),notificationBanner['style'][_0x40d58c(0x95)]=_0x40d58c(0x96),notificationBanner[_0x40d58c(0x82)][_0x40d58c(0x88)]=_0x40d58c(0xb5),notificationBanner[_0x40d58c(0x82)]['transform']=_0x40d58c(0x97),notificationBanner[_0x40d58c(0x82)][_0x40d58c(0xb2)]=_0x40d58c(0x85),notificationBanner[_0x40d58c(0x82)]['maxWidth']=_0x40d58c(0x8c),notificationBanner[_0x40d58c(0x82)][_0x40d58c(0x9d)]='rgba(255,\x20255,\x20255,\x200.9)',notificationBanner[_0x40d58c(0x82)][_0x40d58c(0x7c)]='blur(20px)',notificationBanner['style'][_0x40d58c(0xa6)]='blur(20px)',notificationBanner['style'][_0x40d58c(0x86)]='40px',notificationBanner[_0x40d58c(0x82)][_0x40d58c(0xa7)]='0\x2010px\x2030px\x20rgba(0,0,0,0.1),\x20inset\x200\x201px\x201px\x20rgba(255,255,255,1)',notificationBanner[_0x40d58c(0x82)][_0x40d58c(0xba)]='flex',notificationBanner[_0x40d58c(0x82)][_0x40d58c(0xa4)]=_0x40d58c(0x6c),notificationBanner[_0x40d58c(0x82)][_0x40d58c(0x84)]='8px\x2016px\x208px\x208px',notificationBanner[_0x40d58c(0x82)]['zIndex']=_0x40d58c(0x92),notificationBanner['style']['transition']=_0x40d58c(0x8e),notificationBanner[_0x40d58c(0x82)]['cursor']='pointer',_0x627ab8['appendChild'](notificationBanner),notificationBanner[_0x40d58c(0x91)]('click',()=>{const _0x558cd6=_0x40d58c;hideBannerNotification(!![]),window[_0x558cd6(0x94)]&&window['imApp'][_0x558cd6(0x98)]&&notificationBanner[_0x558cd6(0x73)]&&window[_0x558cd6(0x94)][_0x558cd6(0x98)](notificationBanner[_0x558cd6(0x73)]);}));notificationBanner[_0x40d58c(0x73)]=_0x4da785;const _0xcb4301=_0x4da785[_0x40d58c(0x9b)]||'https://picsum.photos/seed/char/100/100',_0x1f2377=_0x4da785[_0x40d58c(0x7a)]||_0x4da785[_0x40d58c(0x9a)]||_0x40d58c(0x75);let _0x49c26b=_0x22c94d['replace'](/<[^>]*>?/gm,'')[_0x40d58c(0x80)]();if(_0x49c26b[_0x40d58c(0xad)]>0x1e)_0x49c26b=_0x49c26b[_0x40d58c(0x78)](0x0,0x1e)+_0x40d58c(0xb9);const _0x300aea=new Date(),_0x4c998a=_0x300aea['getHours']()+':'+_0x300aea[_0x40d58c(0xb1)]()['toString']()[_0x40d58c(0xbc)](0x2,'0');notificationBanner[_0x40d58c(0x6d)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22'+_0xcb4301+_0x40d58c(0xa9)+_0x1f2377+_0x40d58c(0x87)+_0x49c26b+_0x40d58c(0x74)+_0x4c998a+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20';if(bannerTimeout)clearTimeout(bannerTimeout);requestAnimationFrame(()=>{const _0x1fd72e=_0x40d58c;notificationBanner['style']['transform']=_0x1fd72e(0x8f);}),bannerTimeout=setTimeout(()=>{hideBannerInternal();},0xfa0);}function hideBannerInternal(){const _0x59ef06=_0x3acbec;notificationBanner&&(notificationBanner[_0x59ef06(0x82)][_0x59ef06(0x76)]=_0x59ef06(0x97)),setTimeout(()=>{isShowingNotification=![],processNotificationQueue();},0x190);}function showBannerNotification(_0x11d04d,_0x48bd4c){const _0x2a26c1=_0x3acbec;notificationQueue[_0x2a26c1(0xab)]({'friend':_0x11d04d,'messageText':_0x48bd4c}),processNotificationQueue();}function hideBannerNotification(_0x19560a=![]){_0x19560a&&(notificationQueue=[]),bannerTimeout&&clearTimeout(bannerTimeout),hideBannerInternal();}window[_0x3acbec(0xb4)]=openView,window[_0x3acbec(0x6e)]=closeView,window[_0x3acbec(0xaa)]=syncUIs,window[_0x3acbec(0x90)]=showToast,window[_0x3acbec(0x8d)]=showBannerNotification,window[_0x3acbec(0xb0)]=hideBannerNotification;
+// UI Helper Functions for Modal and View Management
+
+const UI = {
+    views: {},
+    overlays: {},
+    inputs: {},
+    lists: {}
+};
+
+/**
+ * Open a view or bottom sheet overlay
+ * @param {HTMLElement} viewEl 
+ */
+function openView(viewEl) {
+    if (!viewEl) return;
+    
+    // Check if it's a bottom sheet overlay or standard app view
+    if (viewEl.classList.contains('bottom-sheet-overlay')) {
+        viewEl.classList.add('active');
+        // Prevent body scrolling
+        document.body.style.overflow = 'hidden';
+    } else {
+        viewEl.classList.add('active');
+    }
+}
+
+/**
+ * Close a view or bottom sheet overlay
+ * @param {HTMLElement} viewEl 
+ */
+function closeView(viewEl) {
+    if (!viewEl) return;
+    
+    if (viewEl.classList.contains('bottom-sheet-overlay')) {
+        viewEl.classList.remove('active');
+        // Restore body scrolling
+        document.body.style.overflow = '';
+    } else {
+        viewEl.classList.remove('active');
+    }
+}
+
+/**
+ * Sync UI components based on state
+ * (Placeholder function, can be expanded)
+ */
+function syncUIs() {
+    // Implement global UI sync logic here
+}
+
+/**
+ * Show a toast notification bubble
+ * @param {string} message 
+ */
+function showToast(message) {
+    let toast = document.getElementById('global-toast-bubble');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'global-toast-bubble';
+        toast.className = 'toast-bubble';
+        document.body.appendChild(toast);
+    }
+    
+    toast.textContent = message;
+    toast.classList.add('show');
+    
+    // Remove after 2.5 seconds
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, 2500);
+}
+
+// Make sure close functions can be bound to sheet overlays when clicking outside
+document.addEventListener('DOMContentLoaded', () => {
+    // Close bottom sheets when clicking on the overlay background
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('bottom-sheet-overlay')) {
+            closeView(e.target);
+        }
+    });
+});
+
+// --- iOS Style Banner Notification System ---
+let notificationBanner = null;
+let bannerTimeout = null;
+let notificationQueue = [];
+let isShowingNotification = false;
+
+function processNotificationQueue() {
+    if (isShowingNotification || notificationQueue.length === 0) return;
+
+    isShowingNotification = true;
+    const { friend, messageText } = notificationQueue.shift();
+
+    const appContainer = document.querySelector('#app') || document.body;
+
+    if (!notificationBanner) {
+        notificationBanner = document.createElement('div');
+        notificationBanner.id = 'ios-banner-notification';
+        // Styling exactly like the uploaded image capsule, constrained to appContainer
+        notificationBanner.style.position = 'absolute';
+        notificationBanner.style.top = '10px'; // Starts slightly below top
+        notificationBanner.style.left = '50%';
+        notificationBanner.style.transform = 'translate(-50%, -150%)'; // Hidden initially
+        notificationBanner.style.width = 'calc(100% - 32px)';
+        notificationBanner.style.maxWidth = '360px'; // Keep it tight like a mobile banner
+        notificationBanner.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+        notificationBanner.style.backdropFilter = 'blur(20px)';
+        notificationBanner.style.webkitBackdropFilter = 'blur(20px)';
+        notificationBanner.style.borderRadius = '40px'; // Deep capsule pill shape
+        notificationBanner.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1), inset 0 1px 1px rgba(255,255,255,1)';
+        notificationBanner.style.display = 'flex';
+        notificationBanner.style.alignItems = 'center';
+        notificationBanner.style.padding = '8px 16px 8px 8px'; // Asymmetric padding to match image (avatar left)
+        notificationBanner.style.zIndex = '9999999'; // 极高层级，覆盖全屏应用
+        notificationBanner.style.transition = 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.2)';
+        notificationBanner.style.cursor = 'pointer';
+
+        appContainer.appendChild(notificationBanner);
+
+        // Global click handler to jump to chat
+        notificationBanner.addEventListener('click', () => {
+            hideBannerNotification(true);
+            if (window.imApp && window.imApp.openChatTab && notificationBanner.currentFriend) {
+                // 如果当前在别的应用全屏态，可以考虑退出全屏，这里依赖 openChatTab 的处理
+                window.imApp.openChatTab(notificationBanner.currentFriend);
+            }
+        });
+    }
+
+    notificationBanner.currentFriend = friend;
+
+    const avatar = friend.avatarUrl || 'https://picsum.photos/seed/char/100/100';
+    const name = friend.nickname || friend.realName || 'Unknown';
+    
+    // Remove markdown or code blocks from preview
+    let previewText = messageText.replace(/<[^>]*>?/gm, '').trim();
+    if (previewText.length > 30) previewText = previewText.substring(0, 30) + '...';
+
+    // Get current time
+    const now = new Date();
+    const timeStr = `${now.getHours()}:${now.getMinutes().toString().padStart(2, '0')}`;
+
+    notificationBanner.innerHTML = `
+        <img src="${avatar}" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; flex-shrink: 0; ">
+        <div style="flex: 1; min-width: 0; margin-left: 14px; display: flex; flex-direction: column; justify-content: center;">
+            <div style="font-weight: 700; font-size: 15px; color: #1c1c1e; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${name}</div>
+            <div style="font-size: 13px; color: #8e8e93; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${previewText}</div>
+        </div>
+        <div style="font-size: 12px; color: #8e8e93; font-weight: 500; margin-left: 10px; flex-shrink: 0;">
+            ${timeStr}
+        </div>
+    `;
+
+    if (bannerTimeout) clearTimeout(bannerTimeout);
+
+    // Slide down
+    requestAnimationFrame(() => {
+        notificationBanner.style.transform = 'translate(-50%, max(env(safe-area-inset-top, 0px), 10px))';
+    });
+
+    // Slide up after 4 seconds
+    bannerTimeout = setTimeout(() => {
+        hideBannerInternal();
+    }, 4000);
+}
+
+function hideBannerInternal() {
+    if (notificationBanner) {
+        notificationBanner.style.transform = 'translate(-50%, -150%)';
+    }
+    setTimeout(() => {
+        isShowingNotification = false;
+        processNotificationQueue();
+    }, 400); // Wait for transition to finish
+}
+
+function showBannerNotification(friend, messageText) {
+    notificationQueue.push({ friend, messageText });
+    processNotificationQueue();
+}
+
+function hideBannerNotification(clearQueue = false) {
+    if (clearQueue) {
+        notificationQueue = [];
+    }
+    if (bannerTimeout) {
+        clearTimeout(bannerTimeout);
+    }
+    hideBannerInternal();
+}
+
+// Expose globally
+window.openView = openView;
+window.closeView = closeView;
+window.syncUIs = syncUIs;
+window.showToast = showToast;
+window.showBannerNotification = showBannerNotification;
+window.hideBannerNotification = hideBannerNotification;

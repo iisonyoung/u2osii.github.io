@@ -20,7 +20,14 @@
     <!-- 禁止 Safari 自动识别电话号码、邮件等 -->
     <meta name="format-detection" content="telephone=no, email=no, address=no">
     
-    <script>const _0x350bd2=_0x5c23;function _0x5c23(_0x256b19,_0x166755){_0x256b19=_0x256b19-0x149;const _0x5abcb2=_0x5abc();let _0x5c2396=_0x5abcb2[_0x256b19];return _0x5c2396;}function _0x5abc(){const _0xc304f3=['33929TNzDqA','href','280621VYHJMe','18axpzrU','rel','createElement','link','3270468SpbIFT','2fOBMtf','1005963JDEFEE','file:','1336aVnfOf','838848fvXhtz','906330QACsuR','appendChild','8798030pNdwfX','manifest'];_0x5abc=function(){return _0xc304f3;};return _0x5abc();}(function(_0x4955f0,_0xcb69ea){const _0x54291f=_0x5c23,_0x5c690f=_0x4955f0();while(!![]){try{const _0x53afcc=parseInt(_0x54291f(0x14c))/0x1*(parseInt(_0x54291f(0x152))/0x2)+parseInt(_0x54291f(0x153))/0x3+-parseInt(_0x54291f(0x151))/0x4+-parseInt(_0x54291f(0x157))/0x5+-parseInt(_0x54291f(0x156))/0x6+parseInt(_0x54291f(0x14a))/0x7*(-parseInt(_0x54291f(0x155))/0x8)+parseInt(_0x54291f(0x14d))/0x9*(parseInt(_0x54291f(0x159))/0xa);if(_0x53afcc===_0xcb69ea)break;else _0x5c690f['push'](_0x5c690f['shift']());}catch(_0xf42de7){_0x5c690f['push'](_0x5c690f['shift']());}}}(_0x5abc,0x68590));if(location['protocol']!==_0x350bd2(0x154)){const manifestLink=document[_0x350bd2(0x14f)](_0x350bd2(0x150));manifestLink[_0x350bd2(0x14e)]=_0x350bd2(0x149),manifestLink[_0x350bd2(0x14b)]='manifest.json',document['head'][_0x350bd2(0x158)](manifestLink);}</script>
+    <script>
+        if (location.protocol !== 'file:') {
+            const manifestLink = document.createElement('link');
+            manifestLink.rel = 'manifest';
+            manifestLink.href = 'manifest.json';
+            document.head.appendChild(manifestLink);
+        }
+    </script>
     <link rel="stylesheet" href="css/global.css?v=20260709-android-input-v1">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/home.css">
@@ -61,7 +68,23 @@
             }
         </style>
     </div>
-    <script>var _0xb8018e=_0x4741;function _0x18af(){var _0x17a5f6=['18VMxrps','remove','opacity','334088eWtDPW','style','30CWvjaN','12741327xuKkww','8922492PhCYnJ','13048scqEaP','removeSplashScreen','141653ViOjrX','10yyOcoC','4595502mFbafX','32993378CNlUZr','getElementById','2716tLuFIg'];_0x18af=function(){return _0x17a5f6;};return _0x18af();}function _0x4741(_0x389a86,_0x3b3661){_0x389a86=_0x389a86-0x92;var _0x18afbe=_0x18af();var _0x4741d2=_0x18afbe[_0x389a86];return _0x4741d2;}(function(_0x1a2c4e,_0x5ef490){var _0x2b99a1=_0x4741,_0x3802ee=_0x1a2c4e();while(!![]){try{var _0x108fa7=parseInt(_0x2b99a1(0x98))/0x1*(parseInt(_0x2b99a1(0x9e))/0x2)+-parseInt(_0x2b99a1(0x9a))/0x3+-parseInt(_0x2b99a1(0xa1))/0x4*(-parseInt(_0x2b99a1(0x93))/0x5)+parseInt(_0x2b99a1(0x95))/0x6+parseInt(_0x2b99a1(0x9d))/0x7*(parseInt(_0x2b99a1(0x96))/0x8)+parseInt(_0x2b99a1(0x94))/0x9*(parseInt(_0x2b99a1(0x99))/0xa)+-parseInt(_0x2b99a1(0x9b))/0xb;if(_0x108fa7===_0x5ef490)break;else _0x3802ee['push'](_0x3802ee['shift']());}catch(_0x340494){_0x3802ee['push'](_0x3802ee['shift']());}}}(_0x18af,0xbe866),window[_0xb8018e(0x97)]=function(){var _0x53c782=_0xb8018e,_0xe0c9b5=document[_0x53c782(0x9c)]('app-splash-screen');_0xe0c9b5&&_0xe0c9b5['style'][_0x53c782(0xa0)]!=='0'&&requestAnimationFrame(function(){setTimeout(function(){var _0x2de4ec=_0x4741;_0xe0c9b5[_0x2de4ec(0x92)]['opacity']='0',setTimeout(function(){var _0x4038b1=_0x2de4ec;if(_0xe0c9b5['parentNode'])_0xe0c9b5[_0x4038b1(0x9f)]();},0x190);},0x96);});},setTimeout(window[_0xb8018e(0x97)],0x1388));</script>
+    <script>
+        // 挂载到全局，供业务代码在渲染完毕后主动调用
+        window.removeSplashScreen = function() {
+            var splash = document.getElementById('app-splash-screen');
+            if (splash && splash.style.opacity !== '0') {
+                // 给一点缓冲时间让 DOM 完全渲染
+                requestAnimationFrame(function() {
+                    setTimeout(function() {
+                        splash.style.opacity = '0';
+                        setTimeout(function() { if(splash.parentNode) splash.remove(); }, 400);
+                    }, 150);
+                });
+            }
+        };
+        // 兜底：最长 5 秒后强制移除
+        setTimeout(window.removeSplashScreen, 5000);
+    </script>
     <div id="u2-login-screen" class="u2-login-screen" aria-hidden="false">
         <div class="u2-login-shell">
             <main class="u2-login-panel" aria-labelledby="u2-login-title">
@@ -7398,10 +7421,10 @@
     <script src="js/system_notifications.js"></script>
     
     <!-- 引入 iMessage 模块分段代码 -->
-    <script src="js/imessage/data_utils.js?v=20260706-bugfix-v2"></script>
-    <script src="js/imessage/2_core.js?v=20260710-storage-v8-idb1"></script>
+    <script src="js/imessage/data_utils.js?v=20260711-summary-cursor-v1"></script>
+    <script src="js/imessage/2_core.js?v=20260711-summary-cursor-v1"></script>
     <script src="js/imessage/3_contacts.js"></script>
-    <script src="js/imessage/3_groups.js?v=20260707-group-summary-v1"></script>
+    <script src="js/imessage/3_groups.js?v=20260711-summary-cursor-v1"></script>
     <script src="js/imessage/4_chat_common.js"></script>
     <script src="js/imessage/4_chat_status.js"></script>
     <script src="js/imessage/4_chat_payment.js?v=20260705-offline-identity-v2"></script>
@@ -7412,10 +7435,10 @@
     <script src="js/imessage/4_chat_sheet.js?v=20260706-private-translation-v1"></script>
     <script src="js/imessage/4_chat_link.js?v=20260706-bugfix-v1"></script>
     <script src="js/imessage/4_chat_list.js"></script>
-    <script src="js/imessage/4_chat_interface.js?v=20260710-theme-restore-v1"></script>
+    <script src="js/imessage/4_chat_interface.js?v=20260711-chat-theme-v1"></script>
     <script src="js/imessage/4_chat_voice_call.js"></script>
     <script src="js/imessage/4_chat_main.js?v=20260705-recall-v1"></script>
-    <script src="js/imessage/5_settings.js?v=20260710-theme-restore-v1"></script>
+    <script src="js/imessage/5_settings.js?v=20260711-chat-theme-v1"></script>
     <script src="js/imessage/6_moments.js"></script>
 
     <!-- 引入其他应用模块 -->
@@ -7427,7 +7450,7 @@
     <script src="js/worldbook.js"></script>
     <!-- 引入核心 UI 管理与设置模块脚本 -->
     <script src="js/ui.js"></script>
-    <script src="js/settings.js?v=20260710-imessage-theme-idb-v1"></script>
+    <script src="js/settings.js?v=20260711-chat-theme-v1"></script>
     <script src="https://unpkg.com/jszip@3.10.1/dist/jszip.min.js"></script>
     <script src="js/library.js?v=20260707-hidden-focus-v1"></script>
     <script src="js/loves.js?v=20260706-diary-v2"></script>

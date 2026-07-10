@@ -1,1 +1,177 @@
-(function(_0x550590,_0x240a57){const _0x459f59=_0x5983,_0x322500=_0x550590();while(!![]){try{const _0x394a90=-parseInt(_0x459f59(0x1ab))/0x1*(parseInt(_0x459f59(0x1a9))/0x2)+-parseInt(_0x459f59(0x1a8))/0x3+parseInt(_0x459f59(0x1b1))/0x4+-parseInt(_0x459f59(0x1ce))/0x5+-parseInt(_0x459f59(0x19f))/0x6+parseInt(_0x459f59(0x1be))/0x7*(parseInt(_0x459f59(0x1c4))/0x8)+parseInt(_0x459f59(0x1c3))/0x9;if(_0x394a90===_0x240a57)break;else _0x322500['push'](_0x322500['shift']());}catch(_0x9ac40){_0x322500['push'](_0x322500['shift']());}}}(_0xbab6,0x56046),function initImessageDataUtils(_0x2b671b,_0x3440a2){const _0x27b48e=_0x5983,_0x4f9bb4=_0x3440a2();if(typeof module==='object'&&module[_0x27b48e(0x1c7)])module[_0x27b48e(0x1c7)]=_0x4f9bb4;if(typeof window!==_0x27b48e(0x1cb))window[_0x27b48e(0x1d0)]=_0x4f9bb4;else{if(_0x2b671b)_0x2b671b[_0x27b48e(0x1d0)]=_0x4f9bb4;}}(typeof globalThis!=='undefined'?globalThis:null,function createImessageDataUtils(){function _0x5da812(_0x28e617){return String(_0x28e617)['padStart'](0x2,'0');}function _0x457479(_0x5e591f,_0x14ca16=0x1e){const _0x5dbeea=_0x5983,_0x3a45e9=Number(_0x5e591f);return Number['isFinite'](_0x3a45e9)&&_0x3a45e9>0x0?Math[_0x5dbeea(0x19b)](0x3e7,Math['max'](0x1,Math[_0x5dbeea(0x1a3)](_0x3a45e9))):_0x14ca16;}function _0x2a1882(_0x315011){const _0x1f6525=_0x5983,_0x1f3b58=String(_0x315011||'')[_0x1f6525(0x1b3)]();if(!_0x1f3b58)return'';const _0x2ebfa7=_0x1f3b58[_0x1f6525(0x1a7)](/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);return _0x2ebfa7?_0x2ebfa7[0x1]+'T'+_0x2ebfa7[0x2]:'';}function _0xb906a2(_0x452a3d){const _0x17a8e0=_0x5983,_0x50472f=_0x2a1882(_0x452a3d);if(!_0x50472f)return{'date':'','time':''};const [_0x1f9176,_0x30e373]=_0x50472f[_0x17a8e0(0x198)]('T');return{'date':_0x1f9176,'time':_0x30e373};}function _0x24a6ef(_0x166bea){const _0x5456c7=_0x5983,_0x7f8278=_0x2a1882(_0x166bea);if(!_0x7f8278)return'';const _0x5160a1=new Date(_0x7f8278);if(Number[_0x5456c7(0x1a2)](_0x5160a1['getTime']()))return'';return _0x5160a1[_0x5456c7(0x1bc)]()+'年'+_0x5da812(_0x5160a1[_0x5456c7(0x1b8)]()+0x1)+'月'+_0x5da812(_0x5160a1[_0x5456c7(0x1cc)]())+'日\x20'+_0x5da812(_0x5160a1[_0x5456c7(0x1c1)]())+':'+_0x5da812(_0x5160a1[_0x5456c7(0x1af)]());}function _0x361820(_0x427278,_0x2ced26=0x0){const _0x41caa8=_0x5983;if(!_0x427278||typeof _0x427278!==_0x41caa8(0x19a))return null;const _0x36739d={..._0x427278},_0x9ece9b=String(_0x36739d['name']||_0x36739d['title']||_0x41caa8(0x1a4))[_0x41caa8(0x1b3)]()||_0x41caa8(0x1a4);let _0x2fd425=_0x2a1882(_0x36739d[_0x41caa8(0x197)]||_0x36739d[_0x41caa8(0x1cf)]);const _0xbda40d=_0xb906a2(_0x2fd425);let _0x3692c5=String(_0x36739d[_0x41caa8(0x1c0)]||_0xbda40d['date']||'')[_0x41caa8(0x1b3)](),_0x43af6c=String(_0x36739d['startTime']||_0xbda40d[_0x41caa8(0x1a6)]||'')['trim']()[_0x41caa8(0x1c9)](0x0,0x5);!_0x2fd425&&/^\d{4}-\d{2}-\d{2}$/[_0x41caa8(0x1ba)](_0x3692c5)&&/^\d{2}:\d{2}$/[_0x41caa8(0x1ba)](_0x43af6c)&&(_0x2fd425=_0x3692c5+'T'+_0x43af6c);if(!_0x3692c5||!_0x43af6c){const _0x3d3238=_0xb906a2(_0x2fd425);_0x3692c5=_0x3692c5||_0x3d3238[_0x41caa8(0x1c0)],_0x43af6c=_0x43af6c||_0x3d3238[_0x41caa8(0x1a6)];}const _0x1f92ff=String(_0x36739d[_0x41caa8(0x1c5)]||_0x36739d[_0x41caa8(0x1b0)]||'')['trim']();let _0x121962=_0x2a1882(_0x1f92ff),_0x4df645=/^\d{2}:\d{2}$/['test'](_0x1f92ff)?_0x1f92ff:_0xb906a2(_0x121962)['time'];if(!_0x121962&&_0x3692c5&&_0x4df645)_0x121962=_0x3692c5+'T'+_0x4df645;if(!_0x4df645)_0x4df645=_0x43af6c;const _0x18235d=_0x24a6ef(_0x2fd425),_0x4c1710=_0x24a6ef(_0x121962),_0x55e363=_0x18235d?_0x4c1710&&_0x4c1710!==_0x18235d?_0x18235d+_0x41caa8(0x1bd)+_0x4c1710:_0x18235d:String(_0x36739d[_0x41caa8(0x1a6)]||_0x43af6c||'')[_0x41caa8(0x1b3)]();return{..._0x36739d,'id':_0x36739d['id']!=null?_0x36739d['id']:_0x41caa8(0x1bb)+Date[_0x41caa8(0x1b6)]()+'-'+_0x2ced26,'name':_0x9ece9b,'title':String(_0x36739d[_0x41caa8(0x1c2)]||_0x9ece9b)[_0x41caa8(0x1b3)]()||_0x9ece9b,'date':_0x3692c5,'startTime':_0x43af6c,'endTime':_0x4df645,'time':_0x55e363,'rawTime':_0x2fd425,'endAt':_0x121962,'location':String(_0x36739d['location']||_0x36739d[_0x41caa8(0x1c6)]||'')['trim'](),'source':String(_0x36739d['source']||'')[_0x41caa8(0x1b3)](),'timestamp':Number(_0x36739d[_0x41caa8(0x1aa)])||Date[_0x41caa8(0x1b6)]()};}function _0x24c8dc(_0x5c7d23){const _0x329e7e=_0x5983,_0x19e3c8=_0x5c7d23&&typeof _0x5c7d23===_0x329e7e(0x19a)?_0x5c7d23:{},_0x455c75=(Array[_0x329e7e(0x1a5)](_0x19e3c8[_0x329e7e(0x1b9)])?_0x19e3c8[_0x329e7e(0x1b9)]:[])[_0x329e7e(0x19e)](_0x361820)[_0x329e7e(0x1a0)](Boolean)['sort']((_0x67266f,_0x4b9d5f)=>{const _0x3fcca4=_0x329e7e,_0x48e89c=new Date(_0x67266f['rawTime']||0x0)['getTime']()||Number(_0x67266f[_0x3fcca4(0x1aa)])||0x0,_0x2f2ade=new Date(_0x4b9d5f[_0x3fcca4(0x197)]||0x0)[_0x3fcca4(0x1ca)]()||Number(_0x4b9d5f[_0x3fcca4(0x1aa)])||0x0;return _0x48e89c-_0x2f2ade;});return{'enabled':!!_0x19e3c8[_0x329e7e(0x1cd)],'sleepTime':String(_0x19e3c8[_0x329e7e(0x1ae)]||_0x329e7e(0x19c)),'wakeTime':String(_0x19e3c8['wakeTime']||'07:00'),'events':_0x455c75};}function _0x2b14f9(_0x44fde1,_0x2257e3=0x0,_0x43061e=0x1e){const _0x369375=_0x5983,_0x197c90=Array[_0x369375(0x1a5)](_0x44fde1)?_0x44fde1:[],_0x40a8f9=Math[_0x369375(0x19b)](_0x197c90[_0x369375(0x1ad)],Math[_0x369375(0x1ac)](0x0,Number(_0x2257e3)||0x0)),_0x4ddf33=_0x457479(_0x43061e);let _0x62c01e=0x0;for(let _0x5f4130=_0x40a8f9;_0x5f4130<_0x197c90['length'];_0x5f4130+=0x1){if(_0x197c90[_0x5f4130]?.[_0x369375(0x1b2)]===_0x369375(0x1d1))_0x62c01e+=0x1;}let _0x123acb=0x0,_0x34a7e1=_0x40a8f9;for(let _0x24aaf4=_0x40a8f9;_0x24aaf4<_0x197c90[_0x369375(0x1ad)];_0x24aaf4+=0x1){const _0x1db1c1=_0x197c90[_0x24aaf4];if(_0x1db1c1?.[_0x369375(0x1b2)]===_0x369375(0x1d1)){if(_0x123acb>=_0x4ddf33)break;_0x123acb+=0x1;}_0x34a7e1=_0x24aaf4+0x1;}if(_0x123acb===0x0)_0x34a7e1=_0x40a8f9;const _0x1c5f8c=_0x197c90[_0x369375(0x1c9)](_0x40a8f9,_0x34a7e1);return{'startIndex':_0x40a8f9,'endIndex':_0x34a7e1,'roundLimit':_0x4ddf33,'availableRounds':_0x62c01e,'unsummarizedMessageCount':_0x197c90[_0x369375(0x1ad)]-_0x40a8f9,'selectedRounds':_0x123acb,'selectedMessageCount':_0x1c5f8c[_0x369375(0x1ad)],'selectedMessages':_0x1c5f8c,'ready':_0x62c01e>=_0x4ddf33};}function _0x3a1ec2(_0x46f88e){const _0x54692d=_0x5983,_0x57404d=[],_0x57eae8=[];return String(_0x46f88e||'')[_0x54692d(0x198)](/\r?\n/)[_0x54692d(0x1bf)]((_0x49bf20,_0x27eaa5)=>{const _0x516ee7=_0x54692d,_0x1560bb=_0x49bf20[_0x516ee7(0x1b3)]();if(!_0x1560bb)return;const _0x6b01f3=_0x1560bb[_0x516ee7(0x1a7)](/^(.+?)\s+(https?:\/\/\S+)$/i);if(!_0x6b01f3){_0x57eae8[_0x516ee7(0x199)](_0x27eaa5+0x1);return;}try{const _0x4bb9b1=new URL(_0x6b01f3[0x2]);if(![_0x516ee7(0x1c8),_0x516ee7(0x1b4)][_0x516ee7(0x19d)](_0x4bb9b1[_0x516ee7(0x1b5)]))throw new Error(_0x516ee7(0x1b7));_0x57404d['push']({'name':_0x6b01f3[0x1][_0x516ee7(0x1b3)](),'url':_0x4bb9b1[_0x516ee7(0x1a1)]});}catch(_0x41b894){_0x57eae8[_0x516ee7(0x199)](_0x27eaa5+0x1);}}),{'items':_0x57404d,'invalidLines':_0x57eae8};}return{'normalizeRoundLimit':_0x457479,'normalizeScheduleEvent':_0x361820,'normalizeSchedule':_0x24c8dc,'getSummaryBatch':_0x2b14f9,'parseStickerManifestText':_0x3a1ec2};}));function _0x5983(_0x2721fa,_0x154464){_0x2721fa=_0x2721fa-0x197;const _0xbab600=_0xbab6();let _0x5983b3=_0xbab600[_0x2721fa];return _0x5983b3;}function _0xbab6(){const _0x3730c9=['endAt','description','exports','http:','slice','getTime','undefined','getDate','enabled','568680LLRTSO','startAt','imDataUtils','user','rawTime','split','push','object','min','23:00','includes','map','1401036ethnth','filter','href','isNaN','round','未命名行程','isArray','time','match','564558rJrunn','2bhszfH','timestamp','562994vbWYWM','max','length','sleepTime','getMinutes','endTime','1690164uLBRpy','role','trim','https:','protocol','now','unsupported\x20protocol','getMonth','events','test','schedule-','getFullYear','\x20-\x20','56IKWAMu','forEach','date','getHours','title','9080055yhaHOv','19312YwbqtX'];_0xbab6=function(){return _0x3730c9;};return _0xbab6();}
+(function initImessageDataUtils(root, factory) {
+    const api = factory();
+    if (typeof module === 'object' && module.exports) module.exports = api;
+    if (typeof window !== 'undefined') window.imDataUtils = api;
+    else if (root) root.imDataUtils = api;
+})(typeof globalThis !== 'undefined' ? globalThis : null, function createImessageDataUtils() {
+    function pad2(value) {
+        return String(value).padStart(2, '0');
+    }
+
+    function normalizeRoundLimit(value, fallback = 30) {
+        const numeric = Number(value);
+        return Number.isFinite(numeric) && numeric > 0
+            ? Math.min(999, Math.max(1, Math.round(numeric)))
+            : fallback;
+    }
+
+    function normalizeLocalDateTime(value) {
+        const text = String(value || '').trim();
+        if (!text) return '';
+        const match = text.match(/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);
+        return match ? `${match[1]}T${match[2]}` : '';
+    }
+
+    function splitLocalDateTime(value) {
+        const normalized = normalizeLocalDateTime(value);
+        if (!normalized) return { date: '', time: '' };
+        const [date, time] = normalized.split('T');
+        return { date, time };
+    }
+
+    function formatLocalDateTime(value) {
+        const normalized = normalizeLocalDateTime(value);
+        if (!normalized) return '';
+        const date = new Date(normalized);
+        if (Number.isNaN(date.getTime())) return '';
+        return `${date.getFullYear()}年${pad2(date.getMonth() + 1)}月${pad2(date.getDate())}日 ${pad2(date.getHours())}:${pad2(date.getMinutes())}`;
+    }
+
+    function normalizeScheduleEvent(event, index = 0) {
+        if (!event || typeof event !== 'object') return null;
+        const source = { ...event };
+        const name = String(source.name || source.title || '未命名行程').trim() || '未命名行程';
+        let rawTime = normalizeLocalDateTime(source.rawTime || source.startAt);
+        const rawParts = splitLocalDateTime(rawTime);
+        let date = String(source.date || rawParts.date || '').trim();
+        let startTime = String(source.startTime || rawParts.time || '').trim().slice(0, 5);
+
+        if (!rawTime && /^\d{4}-\d{2}-\d{2}$/.test(date) && /^\d{2}:\d{2}$/.test(startTime)) {
+            rawTime = `${date}T${startTime}`;
+        }
+        if (!date || !startTime) {
+            const derived = splitLocalDateTime(rawTime);
+            date = date || derived.date;
+            startTime = startTime || derived.time;
+        }
+
+        const sourceEndText = String(source.endAt || source.endTime || '').trim();
+        let endAt = normalizeLocalDateTime(sourceEndText);
+        let endTime = /^\d{2}:\d{2}$/.test(sourceEndText)
+            ? sourceEndText
+            : splitLocalDateTime(endAt).time;
+        if (!endAt && date && endTime) endAt = `${date}T${endTime}`;
+        if (!endTime) endTime = startTime;
+
+        const formattedStart = formatLocalDateTime(rawTime);
+        const formattedEnd = formatLocalDateTime(endAt);
+        const displayTime = formattedStart
+            ? (formattedEnd && formattedEnd !== formattedStart ? `${formattedStart} - ${formattedEnd}` : formattedStart)
+            : String(source.time || startTime || '').trim();
+
+        return {
+            ...source,
+            id: source.id != null ? source.id : `schedule-${Date.now()}-${index}`,
+            name,
+            title: String(source.title || name).trim() || name,
+            date,
+            startTime,
+            endTime,
+            time: displayTime,
+            rawTime,
+            endAt,
+            location: String(source.location || source.description || '').trim(),
+            source: String(source.source || '').trim(),
+            timestamp: Number(source.timestamp) || Date.now()
+        };
+    }
+
+    function normalizeSchedule(schedule) {
+        const source = schedule && typeof schedule === 'object' ? schedule : {};
+        const events = (Array.isArray(source.events) ? source.events : [])
+            .map(normalizeScheduleEvent)
+            .filter(Boolean)
+            .sort((left, right) => {
+                const leftTime = new Date(left.rawTime || 0).getTime() || Number(left.timestamp) || 0;
+                const rightTime = new Date(right.rawTime || 0).getTime() || Number(right.timestamp) || 0;
+                return leftTime - rightTime;
+            });
+        return {
+            enabled: !!source.enabled,
+            sleepTime: String(source.sleepTime || '23:00'),
+            wakeTime: String(source.wakeTime || '07:00'),
+            events
+        };
+    }
+
+    function getSummaryBatch(messages, lastSummaryMessageCount = 0, roundLimit = 30) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const startIndex = Math.min(safeMessages.length, Math.max(0, Number(lastSummaryMessageCount) || 0));
+        const limit = normalizeRoundLimit(roundLimit);
+        let availableRounds = 0;
+        for (let index = startIndex; index < safeMessages.length; index += 1) {
+            if (safeMessages[index]?.role === 'user') availableRounds += 1;
+        }
+
+        let selectedRounds = 0;
+        let endIndex = startIndex;
+        for (let index = startIndex; index < safeMessages.length; index += 1) {
+            const message = safeMessages[index];
+            if (message?.role === 'user') {
+                if (selectedRounds >= limit) break;
+                selectedRounds += 1;
+            }
+            endIndex = index + 1;
+        }
+
+        if (selectedRounds === 0) endIndex = startIndex;
+        const selectedMessages = safeMessages.slice(startIndex, endIndex);
+        return {
+            startIndex,
+            endIndex,
+            roundLimit: limit,
+            availableRounds,
+            unsummarizedMessageCount: safeMessages.length - startIndex,
+            selectedRounds,
+            selectedMessageCount: selectedMessages.length,
+            selectedMessages,
+            ready: availableRounds >= limit
+        };
+    }
+
+    function removeShortTermSummaryEntry(entries, entryId) {
+        const safeEntries = Array.isArray(entries) ? entries : [];
+        return safeEntries.filter(entry => !entry || String(entry.id) !== String(entryId));
+    }
+
+    function parseStickerManifestText(text) {
+        const items = [];
+        const invalidLines = [];
+        String(text || '').split(/\r?\n/).forEach((line, index) => {
+            const trimmed = line.trim();
+            if (!trimmed) return;
+            const match = trimmed.match(/^(.+?)\s+(https?:\/\/\S+)$/i);
+            if (!match) {
+                invalidLines.push(index + 1);
+                return;
+            }
+            try {
+                const parsed = new URL(match[2]);
+                if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error('unsupported protocol');
+                items.push({ name: match[1].trim(), url: parsed.href });
+            } catch (_) {
+                invalidLines.push(index + 1);
+            }
+        });
+        return { items, invalidLines };
+    }
+
+    return {
+        normalizeRoundLimit,
+        normalizeScheduleEvent,
+        normalizeSchedule,
+        getSummaryBatch,
+        removeShortTermSummaryEntry,
+        parseStickerManifestText
+    };
+});

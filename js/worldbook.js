@@ -1,1 +1,1390 @@
-const _0x1dfba1=_0x20d7;(function(_0x459efe,_0x184d18){const _0x21f458=_0x20d7,_0x5aa5f=_0x459efe();while(!![]){try{const _0x2c9c5b=-parseInt(_0x21f458(0x165))/0x1+parseInt(_0x21f458(0x245))/0x2+parseInt(_0x21f458(0x242))/0x3*(parseInt(_0x21f458(0x210))/0x4)+-parseInt(_0x21f458(0x1ea))/0x5+parseInt(_0x21f458(0x1ca))/0x6+parseInt(_0x21f458(0x230))/0x7*(-parseInt(_0x21f458(0x18d))/0x8)+parseInt(_0x21f458(0x15f))/0x9*(parseInt(_0x21f458(0x20b))/0xa);if(_0x2c9c5b===_0x184d18)break;else _0x5aa5f['push'](_0x5aa5f['shift']());}catch(_0x152d12){_0x5aa5f['push'](_0x5aa5f['shift']());}}}(_0x2858,0xd0714));let worldBooks=[],wbGroups=[],editingBookId=null,activeEntryId=null,tempEntries=[],activeWbGroupName=null;function getWbElement(_0x3b2b12){const _0x4f40e5=_0x20d7;return document[_0x4f40e5(0x249)](_0x3b2b12);}function openWbOverlay(_0x1e39a4){const _0x1e86a8=getWbElement(_0x1e39a4);if(_0x1e86a8)openView(_0x1e86a8);}function closeWbOverlay(_0x5d2351){const _0x1e0c1e=getWbElement(_0x5d2351);if(_0x1e0c1e)closeView(_0x1e0c1e);}function escapeHtml(_0x584659=''){const _0x4007e8=_0x20d7;return String(_0x584659)[_0x4007e8(0x1ee)](/&/g,_0x4007e8(0x1cd))[_0x4007e8(0x1ee)](/</g,_0x4007e8(0x1ac))[_0x4007e8(0x1ee)](/>/g,_0x4007e8(0x1ef))[_0x4007e8(0x1ee)](/"/g,'&quot;')[_0x4007e8(0x1ee)](/'/g,_0x4007e8(0x22f));}function escapeAttr(_0xa0a8dd=''){return escapeHtml(_0xa0a8dd);}function normalizeGroupName(_0x676f78){const _0x3e36cb=_0x20d7,_0x5690d4=String(_0x676f78||'')['trim']();return _0x5690d4||_0x3e36cb(0x20a);}function normalizeGroups(){const _0x28831f=_0x20d7,_0x32fe3c=new Set();wbGroups=(Array['isArray'](wbGroups)?wbGroups:[])['map'](_0x19c903=>String(_0x19c903||'')[_0x28831f(0x1f9)]())[_0x28831f(0x1eb)](_0x5b4b6f=>_0x5b4b6f&&_0x5b4b6f!=='未分组')[_0x28831f(0x1eb)](_0x22d740=>{const _0x5a3b0e=_0x28831f;if(_0x32fe3c[_0x5a3b0e(0x17a)](_0x22d740))return![];return _0x32fe3c[_0x5a3b0e(0x1a0)](_0x22d740),!![];});}function getAllDisplayGroups(){const _0x20a3a6=_0x20d7;return normalizeGroups(),[...wbGroups,_0x20a3a6(0x20a)];}function _0x2858(){const _0x20b591=['该分组下暂无世界书','\x20Tokens</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22toggle-switch\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20class=\x22wb-global-toggle\x22\x20data-id=\x22','arrayBuffer','target','push','div','编辑世界书','<div\x20class=\x22wb-empty-state\x22>暂无全局世界书</div>','parse','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','addGroup','wb-tab-','classList','#wb-selector-book-select','children','确认操作','.wb-entry-keyword-input','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-book-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-book-icon\x22><i\x20class=\x22fas\x20fa-book\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-book-name\x22>','u2_wbGroups','keyCode','text','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22wb-inline-confirm-btn\x20','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','textContent','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-mounted-meta\x22>','角色后','system_depth','<img\x20src=\x22','139977Zurngh','boundBooks','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-folder-visual\x22\x20aria-hidden=\x22true\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-folder-tab\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-folder-body\x22><i\x20class=\x22fas\x20fa-folder\x20wb-group-folder-icon\x22></i></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-group-title\x22>','world-book-view','extractRawText','body','1133869dxGNVF','renderWorldBookSelector','\x20·\x20+','bottom-sheet-overlay\x20wb-centered-modal-overlay\x20active','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-mounted-card\x22\x20data-id=\x22','自动总结','forEach','permanent','</textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','some','contains','isFinite','没有可导入的世界书','getImFriends','docx\x20文件内容为空','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-book-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-token-count\x22>+','length','wb-import-menu-btn','总结内容','world-book-import-btn','.wb-entry-header','has','bookGroupPicker','.wb-book-item','</div>','querySelector','世界书已添加','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>条目内容</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20class=\x22wb-entry-body-textarea\x22\x20placeholder=\x22输入条目内容...\x22>','.wb-inline-confirm-danger','文件内容为空','#wb-selector-mounted-count','#wb-selector-list','wb-inline-confirm-overlay','.wb-entry-injection-position','checked','name','content','attachedRoles','worldBook','inline-flex','479448LwYELR','分组已存在','querySelectorAll','添加世界书','wb-global-toggle','keyword','wb-add-group-btn','style','add-group-overlay','\x20Tokens</option>','.wb-char-avatar','indexOf','firstElementChild','avatarUrl','wb-all-list','.wb-selector-remove-btn','wb-global-list','button','wb-entries-list-container','add','local','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-inline-confirm-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22wb-inline-confirm-btn\x20wb-inline-confirm-cancel\x22>','删除分组','before_role','stopPropagation','wb-group-container','after_role','.toggle-switch','setAttribute','<button\x20type=\x22button\x22\x20class=\x22wb-group-delete-btn\x22\x20aria-label=\x22删除分组\x22><i\x20class=\x22fas\x20fa-xmark\x22></i></button>','map','&lt;','all','isComposing','isGlobal','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','triggerMode','isArray','.wb-global-toggle','toLowerCase','StorageManager','确定继续吗？','getAttribute','该分组下的世界书已全部挂载','entries','u2_worldBooks','导入的世界书','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-book-item\x22\x20data-id=\x22','className','wb-group-delete-current-btn','endsWith','<div\x20style=\x22padding:\x2040px\x2016px;\x20text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2015px;\x22>暂无世界书</div>','需要填写关键词','世界书','.wb-entry-system-depth-input','\x20Tokens</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22wb-selector-remove-btn\x22\x20data-id=\x22','selected','删除词条','active','wb-group-page-title','add-book-overlay','2459790HFKtAH','showCustomModal','object','&amp;','<div\x20class=\x22wb-files-empty-state\x22><i\x20class=\x22fas\x20fa-folder-open\x22></i><span>这个分组还没有世界书</span></div>','book-group-picker-sheet','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-group-count\x22>','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22slider\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','wb-group-back-btn','#add-book-overlay\x20.wb-centered-modal-title,\x20#add-book-overlay\x20.sheet-title','角色前','wb-flat-book-list','.wb-entry-title-input','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x2072%;\x20display:\x20flex;\x20flex-direction:\x20column;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22>选择世界书</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22wb-selector-list\x22\x20class=\x22account-list\x22\x20style=\x22flex:\x201;\x20overflow-y:\x20auto;\x20margin:\x2016px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20gap:\x2010px;\x20padding:\x200\x2016px\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x22\x20id=\x22wb-selector-cancel-btn\x22\x20style=\x22flex:\x201;\x20margin:\x200;\x22>取消</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-action\x20confirm-action\x22\x20id=\x22wb-selector-confirm-btn\x22\x20style=\x22flex:\x201;\x20margin:\x200;\x20background-color:\x20#1c1c1e;\x20color:\x20#fff;\x22>保存</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','.docx','includes','<option\x20value=\x22','undefined',';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>深度</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20class=\x22wb-entry-system-depth-input\x20wb-entry-number-input\x22\x20min=\x220\x22\x20value=\x22','function','\x20style=\x22width:\x2020px;\x20height:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','wb-import-file','分组已删除','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','请输入世界书名字','wb-entry-','overlays','<i\x20class=\x22fas\x20fa-user\x22></i>','normalizeWorldBookEntry','ceil','.wb-group-delete-btn','systemDepth','3589615pgbjSt','filter','wb-inline-confirm-danger','1150','replace','&gt;','appendChild','.wb-selector-checkbox:checked','wb-entry-item\x20','role','add-book-name-input','#wb-selector-cancel-btn','#wb-selector-group-select','tabindex','wb-selector-sheet','trim','确定要删除分组\x20\x22','now','find','addEventListener','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-mounted-icon\x22><i\x20class=\x22fas\x20fa-book\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-mounted-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-mounted-name\x22>','onclick','add-group-name-input','.json','add-book-group-input','join','<div\x20class=\x22wb-flat-book-list\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','enabled','<option\x20value=\x22\x22>暂无可挂载世界书</option>','disabled','addBook','未分组','1570jirZUa','未命名世界书','group','wb-edit-actions','createElement','548MHvLYS','title','change','\x20项</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','click','worldBooks','global','空白内容','wb-inline-confirm-confirm','getWorldBooks','add-book-entry-btn','none','order','views','display','bottom-sheet-overlay\x20detail-sheet-overlay','wb-local-list','.wb-entry-body-textarea','需要填写条目内容','\x22\x20吗？该分组下的世界书将被移动到\x22未分组\x22。','wb-add-book-btn','\x20·\x20','已导入\x20','docx\x20解析库加载失败，请检查网络或先另存为\x20txt\x20后导入','Enter','</option>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-title-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-title\x22>','input','.wb-tab-content','random','.wb-inline-confirm-confirm','&#39;','140QuzogZ','keydown','world-book-add-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-group-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.wb-segment-btn','zIndex','injectionPosition','>角色后</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22system_depth\x22\x20','closest','remove','innerHTML','world-book-back-btn','app','wb-files-group-page','renderWorldBooks','世界书已更新','.wb-entry-trigger-mode','请输入分组名称','6123jqWEnm','value','未命名词条','1545578eBiTfC','<div\x20class=\x22wb-empty-state\x22>暂无绑定</div>','data-id','wb-files-main-page','getElementById','save','<option\x20value=\x22\x22>选择要挂载的世界书</option>','已自动生成全局世界书','load','世界书已删除','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-meta-grid\x22\x20style=\x22grid-template-columns:\x201fr\x201fr;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>触发模式</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20class=\x22wb-entry-trigger-mode\x20wb-entry-select\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22permanent\x22\x20','block','files'];_0x2858=function(){return _0x20b591;};return _0x2858();}document[_0x1dfba1(0x1fd)]('DOMContentLoaded',()=>{const _0x4eba7e=_0x1dfba1;window[_0x4eba7e(0x1b5)]&&(worldBooks=StorageManager['load'](_0x4eba7e(0x1ba),[]),wbGroups=StorageManager[_0x4eba7e(0x24d)](_0x4eba7e(0x155),[]),normalizeGroups());});function saveWorldBooksData(){const _0x2a8535=_0x1dfba1;window[_0x2a8535(0x1b5)]&&(StorageManager[_0x2a8535(0x24a)](_0x2a8535(0x1ba),worldBooks),StorageManager[_0x2a8535(0x24a)](_0x2a8535(0x155),wbGroups));}typeof UI!==_0x1dfba1(0x1db)&&!UI[_0x1dfba1(0x21d)][_0x1dfba1(0x18b)]&&(UI[_0x1dfba1(0x21d)]['worldBook']=document[_0x1dfba1(0x249)](_0x1dfba1(0x162)));typeof UI!==_0x1dfba1(0x1db)&&!UI[_0x1dfba1(0x1e4)][_0x1dfba1(0x14d)]&&(UI[_0x1dfba1(0x1e4)][_0x1dfba1(0x14d)]=document[_0x1dfba1(0x249)](_0x1dfba1(0x195)));typeof UI!==_0x1dfba1(0x1db)&&!UI[_0x1dfba1(0x1e4)][_0x1dfba1(0x209)]&&(UI['overlays']['addBook']=document[_0x1dfba1(0x249)](_0x1dfba1(0x1c9)));typeof UI!==_0x1dfba1(0x1db)&&!UI[_0x1dfba1(0x1e4)][_0x1dfba1(0x17b)]&&(UI[_0x1dfba1(0x1e4)][_0x1dfba1(0x17b)]=document[_0x1dfba1(0x249)](_0x1dfba1(0x1cf)));const wbBackBtn=document['getElementById'](_0x1dfba1(0x23b));wbBackBtn&&wbBackBtn['addEventListener'](_0x1dfba1(0x214),()=>{closeWbOverlay('world-book-view');});const wbSegmentBtns=document['querySelectorAll'](_0x1dfba1(0x234)),wbTabContents=document['querySelectorAll'](_0x1dfba1(0x22c));wbSegmentBtns[_0x1dfba1(0x16b)](_0x2cc8b4=>{const _0x3b5976=_0x1dfba1;_0x2cc8b4[_0x3b5976(0x1fd)](_0x3b5976(0x214),_0x92dd19=>{const _0x1ffd5c=_0x3b5976;wbSegmentBtns['forEach'](_0x237600=>_0x237600[_0x1ffd5c(0x14f)][_0x1ffd5c(0x239)]('active')),wbTabContents[_0x1ffd5c(0x16b)](_0x14d07c=>_0x14d07c[_0x1ffd5c(0x194)]['display']=_0x1ffd5c(0x21b)),_0x2cc8b4[_0x1ffd5c(0x14f)][_0x1ffd5c(0x1a0)](_0x1ffd5c(0x1c7));const _0x45432a=_0x2cc8b4[_0x1ffd5c(0x1b7)]('data-tab'),_0x91f0e4=document[_0x1ffd5c(0x249)](_0x1ffd5c(0x14e)+_0x45432a);_0x91f0e4&&(_0x91f0e4[_0x1ffd5c(0x194)][_0x1ffd5c(0x21e)]='block');});});const wbAddBtn=document[_0x1dfba1(0x249)](_0x1dfba1(0x232)),wbAddMenu=document[_0x1dfba1(0x249)]('wb-add-menu');wbAddBtn&&wbAddMenu&&(wbAddBtn[_0x1dfba1(0x1fd)]('click',_0x531ae6=>{const _0x37a4e7=_0x1dfba1;_0x531ae6['stopPropagation'](),wbAddMenu[_0x37a4e7(0x194)][_0x37a4e7(0x21e)]=wbAddMenu[_0x37a4e7(0x194)][_0x37a4e7(0x21e)]===_0x37a4e7(0x21b)?_0x37a4e7(0x250):_0x37a4e7(0x21b);}),document[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),_0x5d9a48=>{const _0x491218=_0x1dfba1;wbAddMenu[_0x491218(0x194)][_0x491218(0x21e)]===_0x491218(0x250)&&!wbAddMenu[_0x491218(0x16f)](_0x5d9a48['target'])&&_0x5d9a48[_0x491218(0x255)]!==wbAddBtn&&(wbAddMenu[_0x491218(0x194)][_0x491218(0x21e)]='none');}));const btnAddGroup=document[_0x1dfba1(0x249)](_0x1dfba1(0x193));btnAddGroup&&btnAddGroup[_0x1dfba1(0x1fd)]('click',()=>{const _0x293dcf=_0x1dfba1;if(wbAddMenu)wbAddMenu['style']['display']=_0x293dcf(0x21b);const _0x228adc=getWbElement(_0x293dcf(0x200));if(_0x228adc)_0x228adc['value']='';openWbOverlay(_0x293dcf(0x195));});const confirmAddGroupBtn=document[_0x1dfba1(0x249)]('confirm-add-group-btn');confirmAddGroupBtn&&confirmAddGroupBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{const _0x30f825=_0x1dfba1,_0x57b4fa=document[_0x30f825(0x249)]('add-group-name-input'),_0x38e2b2=_0x57b4fa?_0x57b4fa[_0x30f825(0x243)][_0x30f825(0x1f9)]():'';normalizeGroups();if(!_0x38e2b2){showToast(_0x30f825(0x241));return;}if(wbGroups[_0x30f825(0x1d9)](_0x38e2b2)||_0x38e2b2===_0x30f825(0x20a)){showToast(_0x30f825(0x18e));return;}wbGroups['push'](_0x38e2b2),saveWorldBooksData(),renderWorldBooks();if(_0x57b4fa)_0x57b4fa[_0x30f825(0x243)]='';closeWbOverlay(_0x30f825(0x195)),showToast('分组已添加');});const cancelAddGroupBtn=document['getElementById']('cancel-add-group-btn');cancelAddGroupBtn&&cancelAddGroupBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{const _0x48a511=_0x1dfba1;closeWbOverlay(_0x48a511(0x195));});const btnAddBook=document['getElementById'](_0x1dfba1(0x224)),addEntryBtn=document[_0x1dfba1(0x249)](_0x1dfba1(0x21a)),wbEditActions=document[_0x1dfba1(0x249)](_0x1dfba1(0x20e)),deleteWorldBookBtn=document[_0x1dfba1(0x249)]('delete-world-book-btn'),wbImportFileInput=document[_0x1dfba1(0x249)](_0x1dfba1(0x1df)),wbImportMainBtn=document['getElementById'](_0x1dfba1(0x178)),wbImportMenuBtn=document[_0x1dfba1(0x249)](_0x1dfba1(0x176)),wbGroupBackBtn=document['getElementById'](_0x1dfba1(0x1d2)),wbGroupAddBookBtn=document[_0x1dfba1(0x249)]('wb-group-add-book-btn'),wbGroupDeleteCurrentBtn=document[_0x1dfba1(0x249)](_0x1dfba1(0x1be));btnAddBook&&btnAddBook[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{const _0x1478cb=_0x1dfba1;if(wbAddMenu)wbAddMenu['style'][_0x1478cb(0x21e)]=_0x1478cb(0x21b);openBookModal();});function triggerWorldBookImport(){const _0x35011c=_0x1dfba1;if(wbAddMenu)wbAddMenu[_0x35011c(0x194)][_0x35011c(0x21e)]=_0x35011c(0x21b);if(wbImportFileInput)wbImportFileInput['click']();}if(wbImportMainBtn)wbImportMainBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),triggerWorldBookImport);if(wbImportMenuBtn)wbImportMenuBtn['addEventListener'](_0x1dfba1(0x214),triggerWorldBookImport);wbGroupBackBtn&&wbGroupBackBtn['addEventListener'](_0x1dfba1(0x214),()=>{showWbMainPage();});wbGroupAddBookBtn&&wbGroupAddBookBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{openBookModal(null,activeWbGroupName);});wbGroupDeleteCurrentBtn&&wbGroupDeleteCurrentBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{const _0xe1652e=_0x1dfba1;if(!activeWbGroupName||activeWbGroupName===_0xe1652e(0x20a))return;deleteGroupByName(activeWbGroupName,!![]);});btnAddBook&&btnAddBook[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{const _0x71f4b7=_0x1dfba1;if(wbAddMenu)wbAddMenu[_0x71f4b7(0x194)][_0x71f4b7(0x21e)]='none';openBookModal();});function showCenteredConfirm({title:title=_0x1dfba1(0x152),message:message=_0x1dfba1(0x1b6),confirmText:confirmText='确认',cancelText:cancelText='取消',isDestructive:isDestructive=![],onConfirm:_0x2f3636}={}){const _0x569fd1=_0x1dfba1;if(window[_0x569fd1(0x1cb)]){window[_0x569fd1(0x1cb)]({'title':title,'message':message,'isDestructive':isDestructive,'confirmText':confirmText,'cancelText':cancelText,'onConfirm':_0x2f3636});return;}const _0x275265=document[_0x569fd1(0x249)](_0x569fd1(0x185));if(_0x275265)_0x275265[_0x569fd1(0x239)]();const _0x142633=document[_0x569fd1(0x20f)](_0x569fd1(0x148));_0x142633['id']=_0x569fd1(0x185),_0x142633[_0x569fd1(0x1bd)]=_0x569fd1(0x168),_0x142633['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-centered-modal-card\x20wb-group-modal-card\x20wb-inline-confirm-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-centered-modal-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-centered-modal-title\x22>'+title+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-centered-modal-body\x20wb-inline-confirm-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-inline-confirm-message\x22>'+message+_0x569fd1(0x1a2)+cancelText+_0x569fd1(0x158)+(isDestructive?_0x569fd1(0x1ec):_0x569fd1(0x218))+'\x22>'+confirmText+_0x569fd1(0x159);const _0xed9093=()=>_0x142633[_0x569fd1(0x239)](),_0x4d45ea=_0x142633['querySelector']('.wb-inline-confirm-cancel'),_0x34053a=_0x142633[_0x569fd1(0x17e)](isDestructive?_0x569fd1(0x181):_0x569fd1(0x22e));_0x4d45ea[_0x569fd1(0x1fd)]('click',_0xed9093),_0x34053a[_0x569fd1(0x1fd)]('click',()=>{const _0x767d59=_0x569fd1;_0xed9093();if(typeof _0x2f3636===_0x767d59(0x1dd))_0x2f3636();}),_0x142633[_0x569fd1(0x1fd)](_0x569fd1(0x214),_0x1e3bc8=>{const _0x41f3aa=_0x569fd1;if(_0x1e3bc8[_0x41f3aa(0x255)]===_0x142633)_0xed9093();}),document[_0x569fd1(0x164)][_0x569fd1(0x1f0)](_0x142633);}function normalizeEntryForEditor(_0x1e776e={},_0x226162=0x0){const _0x42e3e8=_0x1dfba1,_0x79d7c=window['normalizeWorldBookEntry']?window[_0x42e3e8(0x1e6)](_0x1e776e):{'id':_0x1e776e['id']||_0x42e3e8(0x1e3)+Date['now']()+'-'+_0x226162,'title':_0x1e776e[_0x42e3e8(0x211)]||_0x1e776e[_0x42e3e8(0x188)]||_0x1e776e[_0x42e3e8(0x192)]||'词条'+(_0x226162+0x1),'keyword':_0x1e776e[_0x42e3e8(0x211)]?_0x1e776e[_0x42e3e8(0x192)]||'':'','content':_0x1e776e[_0x42e3e8(0x189)]||'','triggerMode':_0x1e776e[_0x42e3e8(0x1b1)]===_0x42e3e8(0x192)?_0x42e3e8(0x192):_0x42e3e8(0x16c),'injectionPosition':[_0x42e3e8(0x1a4),_0x42e3e8(0x1a7),_0x42e3e8(0x15d)]['includes'](_0x1e776e[_0x42e3e8(0x236)])?_0x1e776e[_0x42e3e8(0x236)]:_0x42e3e8(0x1a4),'systemDepth':Number['isFinite'](Number(_0x1e776e[_0x42e3e8(0x1e9)]))?Number(_0x1e776e['systemDepth']):0x4,'order':Number[_0x42e3e8(0x170)](Number(_0x1e776e['order']))?Number(_0x1e776e[_0x42e3e8(0x21c)]):0x64,'recursive':![],'enabled':_0x1e776e[_0x42e3e8(0x206)]!==![]};return{..._0x79d7c,'id':Date['now']()+_0x226162,'title':_0x79d7c[_0x42e3e8(0x211)]||_0x1e776e['keyword']||'词条'+(_0x226162+0x1),'keyword':_0x1e776e[_0x42e3e8(0x211)]?_0x79d7c[_0x42e3e8(0x192)]||'':_0x1e776e['triggerMode']===_0x42e3e8(0x192)?_0x79d7c[_0x42e3e8(0x192)]||'':'','content':_0x79d7c[_0x42e3e8(0x189)]||'','triggerMode':_0x79d7c['triggerMode']||'permanent','injectionPosition':_0x79d7c[_0x42e3e8(0x236)]||'before_role','systemDepth':Number[_0x42e3e8(0x170)](Number(_0x79d7c[_0x42e3e8(0x1e9)]))?Number(_0x79d7c[_0x42e3e8(0x1e9)]):0x4,'order':Number[_0x42e3e8(0x170)](Number(_0x79d7c['order']))?Number(_0x79d7c[_0x42e3e8(0x21c)]):0x64,'recursive':![],'enabled':_0x79d7c[_0x42e3e8(0x206)]!==![]};}function createDefaultEntry(_0x3e021c=0x0){const _0x56fcf1=_0x1dfba1;return normalizeEntryForEditor({'title':'词条'+(_0x3e021c+0x1),'keyword':'','content':'','triggerMode':_0x56fcf1(0x16c),'injectionPosition':_0x56fcf1(0x1a4),'systemDepth':0x4,'order':0x64,'recursive':![],'enabled':!![]},_0x3e021c);}function renderAddBookGroupSelect(){const _0x2024d4=_0x1dfba1,_0xa81bbe=document[_0x2024d4(0x249)](_0x2024d4(0x202));if(!_0xa81bbe)return;normalizeGroups();const _0x588c8a=['未分组',...wbGroups];_0xa81bbe['innerHTML']=_0x588c8a['map'](_0x3c8c7d=>_0x2024d4(0x1da)+escapeAttr(_0x3c8c7d)+'\x22>'+escapeHtml(_0x3c8c7d)+'</option>')[_0x2024d4(0x203)]('');}function openBookModal(_0x304abc=null,_0x497d7e=null){const _0x185334=_0x1dfba1,_0x532e53=document[_0x185334(0x17e)](_0x185334(0x1d3)),_0x1791ee=document[_0x185334(0x249)](_0x185334(0x1f4)),_0x5f3cb4=document[_0x185334(0x249)](_0x185334(0x202));renderAddBookGroupSelect();if(_0x304abc){editingBookId=_0x304abc['id'];if(_0x532e53)_0x532e53[_0x185334(0x15a)]=_0x185334(0x149);if(_0x1791ee)_0x1791ee[_0x185334(0x243)]=_0x304abc['name']||'';if(_0x5f3cb4)_0x5f3cb4[_0x185334(0x243)]=normalizeGroupName(_0x304abc[_0x185334(0x20d)]);if(wbEditActions)wbEditActions[_0x185334(0x194)][_0x185334(0x21e)]='flex';if(deleteWorldBookBtn)deleteWorldBookBtn['style'][_0x185334(0x21e)]='flex';tempEntries=(Array[_0x185334(0x1b2)](_0x304abc[_0x185334(0x1b9)])?_0x304abc[_0x185334(0x1b9)]:[])[_0x185334(0x1ab)]((_0x41eb39,_0x58dc4e)=>normalizeEntryForEditor(_0x41eb39,_0x58dc4e)),tempEntries[_0x185334(0x175)]>0x0?(activeEntryId=tempEntries[0x0]['id'],renderEntries()):addEntry();}else{editingBookId=null;if(_0x532e53)_0x532e53[_0x185334(0x15a)]=_0x185334(0x190);if(_0x1791ee)_0x1791ee[_0x185334(0x243)]='';if(_0x5f3cb4)_0x5f3cb4[_0x185334(0x243)]=_0x185334(0x20a);if(wbEditActions)wbEditActions[_0x185334(0x194)][_0x185334(0x21e)]=_0x185334(0x21b);if(deleteWorldBookBtn)deleteWorldBookBtn[_0x185334(0x194)][_0x185334(0x21e)]=_0x185334(0x21b);tempEntries=[],addEntry();}openWbOverlay(_0x185334(0x1c9));}deleteWorldBookBtn&&deleteWorldBookBtn[_0x1dfba1(0x1fd)](_0x1dfba1(0x214),()=>{if(!editingBookId)return;showCenteredConfirm({'title':'删除世界书','message':'确定要删除这本世界书吗？此操作不可恢复。','isDestructive':!![],'confirmText':'删除','onConfirm':()=>{const _0x174bd8=_0x20d7;worldBooks=worldBooks['filter'](_0x12073d=>_0x12073d['id']!==editingBookId),saveWorldBooksData(),renderWorldBooks(),closeWbOverlay(_0x174bd8(0x1c9)),showToast(_0x174bd8(0x24e));}});});function addEntry(){const _0x272705=_0x1dfba1,_0x1acd40=createDefaultEntry(tempEntries[_0x272705(0x175)]);tempEntries[_0x272705(0x147)](_0x1acd40),activeEntryId=_0x1acd40['id'],renderEntries();}function deleteEntry(_0x17321f,_0x19ac4c){const _0x1ae83b=_0x1dfba1;_0x19ac4c[_0x1ae83b(0x1a5)](),showCenteredConfirm({'title':_0x1ae83b(0x1c6),'message':'确定要删除这个词条吗？此操作不可恢复。','isDestructive':!![],'confirmText':'删除','onConfirm':()=>{tempEntries=tempEntries['filter'](_0x123e0d=>_0x123e0d['id']!==_0x17321f),activeEntryId===_0x17321f&&(activeEntryId=null),renderEntries();}});}function renderEntries(){const _0x3e31fc=_0x1dfba1,_0x2cca46=document[_0x3e31fc(0x249)](_0x3e31fc(0x19f));if(!_0x2cca46)return;_0x2cca46['innerHTML']='',tempEntries[_0x3e31fc(0x16b)](_0x18509f=>{const _0x4f214a=_0x3e31fc,_0x2bd518=_0x18509f['id']===activeEntryId,_0x59cab8=document['createElement'](_0x4f214a(0x148));_0x59cab8[_0x4f214a(0x1bd)]=_0x4f214a(0x1f2)+(_0x2bd518?'expanded':'');const _0x5f221a=_0x18509f[_0x4f214a(0x236)]===_0x4f214a(0x15d),_0x2c6931=_0x18509f[_0x4f214a(0x1b1)]==='keyword',_0x184311=_0x18509f[_0x4f214a(0x1b1)]===_0x4f214a(0x192)?'关键词':'永久',_0x3805ee=_0x18509f['injectionPosition']===_0x4f214a(0x1a7)?_0x4f214a(0x15c):_0x18509f[_0x4f214a(0x236)]==='system_depth'?'系统':_0x4f214a(0x1d4);_0x59cab8[_0x4f214a(0x23a)]=_0x4f214a(0x22a)+escapeHtml(_0x18509f['title']||_0x4f214a(0x244))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-subtitle\x22>'+_0x184311+_0x4f214a(0x225)+_0x3805ee+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-xmark\x20wb-entry-delete-btn\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-down\x20wb-entry-toggle-icon\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>条目名字</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22wb-entry-title-input\x20wb-entry-bubble-input\x22\x20placeholder=\x22输入条目名字\x22\x20value=\x22'+escapeAttr(_0x18509f[_0x4f214a(0x211)]||'')+_0x4f214a(0x24f)+(_0x18509f['triggerMode']===_0x4f214a(0x16c)?_0x4f214a(0x1c5):'')+'>永久</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22keyword\x22\x20'+(_0x18509f[_0x4f214a(0x1b1)]==='keyword'?_0x4f214a(0x1c5):'')+'>关键词</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>注入位置</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20class=\x22wb-entry-injection-position\x20wb-entry-select\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22before_role\x22\x20'+(_0x18509f[_0x4f214a(0x236)]===_0x4f214a(0x1a4)?_0x4f214a(0x1c5):'')+'>角色前</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option\x20value=\x22after_role\x22\x20'+(_0x18509f[_0x4f214a(0x236)]===_0x4f214a(0x1a7)?_0x4f214a(0x1c5):'')+_0x4f214a(0x237)+(_0x18509f[_0x4f214a(0x236)]===_0x4f214a(0x15d)?_0x4f214a(0x1c5):'')+'>系统</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-system-depth-fields\x22\x20style=\x22display:\x20'+(_0x5f221a?'block':_0x4f214a(0x21b))+_0x4f214a(0x1dc)+(Number['isFinite'](Number(_0x18509f[_0x4f214a(0x1e9)]))?Number(_0x18509f[_0x4f214a(0x1e9)]):0x4)+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-entry-trigger-keyword-field\x22\x20style=\x22display:\x20'+(_0x2c6931?_0x4f214a(0x250):_0x4f214a(0x21b))+';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22wb-entry-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22wb-entry-field-label\x22>关键词\x20(多个用逗号分隔)</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20class=\x22wb-entry-keyword-input\x20wb-entry-bubble-input\x22\x20placeholder=\x22输入关键词...\x22\x20value=\x22'+escapeAttr(_0x18509f[_0x4f214a(0x192)]||'')+_0x4f214a(0x180)+escapeHtml(_0x18509f[_0x4f214a(0x189)]||'')+_0x4f214a(0x16d);const _0x2a6389=_0x59cab8['querySelector'](_0x4f214a(0x179)),_0x444fb7=_0x59cab8['querySelector']('.wb-entry-delete-btn'),_0x3bc882=_0x59cab8[_0x4f214a(0x17e)](_0x4f214a(0x1d6)),_0x5379ff=_0x59cab8['querySelector'](_0x4f214a(0x240)),_0x3f91ce=_0x59cab8[_0x4f214a(0x17e)](_0x4f214a(0x186)),_0x57212a=_0x59cab8['querySelector'](_0x4f214a(0x1c3)),_0x734348=_0x59cab8['querySelector'](_0x4f214a(0x153)),_0x74d10e=_0x59cab8[_0x4f214a(0x17e)](_0x4f214a(0x221));_0x2a6389[_0x4f214a(0x1fd)]('click',_0x466138=>{const _0x54a4bb=_0x4f214a;if(_0x466138[_0x54a4bb(0x255)]===_0x444fb7||_0x444fb7[_0x54a4bb(0x16f)](_0x466138['target']))return;activeEntryId===_0x18509f['id']?activeEntryId=null:activeEntryId=_0x18509f['id'],renderEntries();}),_0x444fb7['addEventListener']('click',_0x448d61=>{deleteEntry(_0x18509f['id'],_0x448d61);}),_0x3bc882[_0x4f214a(0x1fd)](_0x4f214a(0x22b),_0x262dd9=>{const _0x13e2b9=_0x4f214a;_0x18509f[_0x13e2b9(0x211)]=_0x262dd9[_0x13e2b9(0x255)][_0x13e2b9(0x243)],_0x59cab8[_0x13e2b9(0x17e)]('.wb-entry-title')[_0x13e2b9(0x15a)]=_0x18509f[_0x13e2b9(0x211)]||_0x13e2b9(0x244);}),_0x5379ff[_0x4f214a(0x1fd)](_0x4f214a(0x212),_0x3c68cf=>{const _0x1ea545=_0x4f214a;_0x18509f['triggerMode']=_0x3c68cf[_0x1ea545(0x255)][_0x1ea545(0x243)]===_0x1ea545(0x192)?'keyword':'permanent',renderEntries();}),_0x3f91ce[_0x4f214a(0x1fd)](_0x4f214a(0x212),_0x1676cc=>{const _0x516949=_0x4f214a;_0x18509f['injectionPosition']=_0x1676cc[_0x516949(0x255)][_0x516949(0x243)],renderEntries();}),_0x57212a&&_0x57212a[_0x4f214a(0x1fd)]('input',_0x22002f=>{const _0x5d7a40=_0x4f214a,_0x5c59fe=parseInt(_0x22002f[_0x5d7a40(0x255)][_0x5d7a40(0x243)],0xa);_0x18509f['systemDepth']=Number[_0x5d7a40(0x170)](_0x5c59fe)?_0x5c59fe:0x4;}),_0x734348&&_0x734348[_0x4f214a(0x1fd)](_0x4f214a(0x22b),_0x568d73=>{const _0x50b713=_0x4f214a;_0x18509f[_0x50b713(0x192)]=_0x568d73['target'][_0x50b713(0x243)];}),_0x74d10e['addEventListener'](_0x4f214a(0x22b),_0x34bbe9=>{const _0x6e3e5=_0x4f214a;_0x18509f['content']=_0x34bbe9[_0x6e3e5(0x255)][_0x6e3e5(0x243)];}),_0x2cca46['appendChild'](_0x59cab8);});}addEntryBtn&&addEntryBtn['addEventListener'](_0x1dfba1(0x214),addEntry);const confirmAddBookBtn=document[_0x1dfba1(0x249)]('confirm-add-book-btn');confirmAddBookBtn&&confirmAddBookBtn['addEventListener']('click',()=>{const _0x20b4aa=_0x1dfba1,_0x47a6f1=document[_0x20b4aa(0x249)]('add-book-name-input')?.[_0x20b4aa(0x243)][_0x20b4aa(0x1f9)]()||'',_0x4ad5d1=normalizeGroupName(document[_0x20b4aa(0x249)]('add-book-group-input')?.['value']);if(!_0x47a6f1){showToast(_0x20b4aa(0x1e2));return;}if(!tempEntries[_0x20b4aa(0x175)]){showToast('请至少添加一个条目'),addEntry();return;}for(let _0x3d2327=0x0;_0x3d2327<tempEntries[_0x20b4aa(0x175)];_0x3d2327+=0x1){const _0x32d3fe=tempEntries[_0x3d2327],_0x109bf5=_0x32d3fe[_0x20b4aa(0x211)]?'“'+_0x32d3fe[_0x20b4aa(0x211)]+'”':'第\x20'+(_0x3d2327+0x1)+'\x20个条目';if(_0x32d3fe[_0x20b4aa(0x1b1)]===_0x20b4aa(0x192)&&!(_0x32d3fe[_0x20b4aa(0x192)]||'')[_0x20b4aa(0x1f9)]()){activeEntryId=_0x32d3fe['id'],renderEntries(),showToast(_0x109bf5+_0x20b4aa(0x1c1));return;}if(!(_0x32d3fe['content']||'')[_0x20b4aa(0x1f9)]()){activeEntryId=_0x32d3fe['id'],renderEntries(),showToast(_0x109bf5+_0x20b4aa(0x222));return;}}const _0x1b366c=tempEntries[_0x20b4aa(0x1ab)]((_0x181bc1,_0x597579)=>({...normalizeEntryForEditor(_0x181bc1,_0x597579),'id':undefined,'title':(_0x181bc1[_0x20b4aa(0x211)]||'')['trim']()||'词条'+(_0x597579+0x1),'keyword':_0x181bc1[_0x20b4aa(0x1b1)]==='keyword'?(_0x181bc1[_0x20b4aa(0x192)]||'')[_0x20b4aa(0x1f9)]():'','content':(_0x181bc1[_0x20b4aa(0x189)]||'')[_0x20b4aa(0x1f9)](),'triggerMode':_0x181bc1['triggerMode']===_0x20b4aa(0x192)?'keyword':_0x20b4aa(0x16c),'injectionPosition':['before_role',_0x20b4aa(0x1a7),_0x20b4aa(0x15d)][_0x20b4aa(0x1d9)](_0x181bc1[_0x20b4aa(0x236)])?_0x181bc1[_0x20b4aa(0x236)]:'before_role','systemDepth':Number[_0x20b4aa(0x170)](Number(_0x181bc1[_0x20b4aa(0x1e9)]))?Number(_0x181bc1['systemDepth']):0x4,'order':0x64,'recursive':![],'enabled':_0x181bc1[_0x20b4aa(0x206)]!==![]}))[_0x20b4aa(0x1ab)](({id:_0x2e59c5,..._0x366b84})=>_0x366b84);if(editingBookId){const _0x3d8e22=worldBooks['find'](_0x374b25=>String(_0x374b25['id'])===String(editingBookId));_0x3d8e22&&(_0x3d8e22[_0x20b4aa(0x188)]=_0x47a6f1,_0x3d8e22['group']=_0x4ad5d1,_0x3d8e22[_0x20b4aa(0x1b9)]=_0x1b366c,showToast(_0x20b4aa(0x23f)));}else worldBooks[_0x20b4aa(0x147)]({'id':Date[_0x20b4aa(0x1fb)](),'name':_0x47a6f1,'group':_0x4ad5d1===_0x20b4aa(0x20a)?_0x20b4aa(0x20a):_0x4ad5d1,'entries':_0x1b366c,'isGlobal':![],'attachedRoles':[]}),showToast(_0x20b4aa(0x17f));saveWorldBooksData(),renderWorldBooks(),closeWbOverlay('add-book-overlay');});function sanitizeImportedWorldBook(_0x29d968,_0x324a08=_0x1dfba1(0x1bb)){const _0x599b16=_0x1dfba1,_0x56006d=_0x29d968&&typeof _0x29d968===_0x599b16(0x1cc)?_0x29d968:{},_0x66cf6d=Array[_0x599b16(0x1b2)](_0x56006d[_0x599b16(0x1b9)])?_0x56006d[_0x599b16(0x1b9)]:_0x56006d[_0x599b16(0x189)]?[{'title':_0x56006d['name']||_0x324a08,'content':_0x56006d[_0x599b16(0x189)]}]:[],_0x298b96=_0x66cf6d[_0x599b16(0x1ab)]((_0x913024,_0x4de525)=>{const _0x4f09dc=_0x599b16,_0x53eee1=normalizeEntryForEditor(_0x913024||{},_0x4de525);return{'title':_0x53eee1[_0x4f09dc(0x211)]||'词条'+(_0x4de525+0x1),'keyword':_0x53eee1[_0x4f09dc(0x1b1)]===_0x4f09dc(0x192)?_0x53eee1[_0x4f09dc(0x192)]||'':'','content':_0x53eee1[_0x4f09dc(0x189)]||'','triggerMode':_0x53eee1[_0x4f09dc(0x1b1)]==='keyword'?_0x4f09dc(0x192):_0x4f09dc(0x16c),'injectionPosition':['before_role','after_role',_0x4f09dc(0x15d)][_0x4f09dc(0x1d9)](_0x53eee1['injectionPosition'])?_0x53eee1[_0x4f09dc(0x236)]:'before_role','systemDepth':Number[_0x4f09dc(0x170)](Number(_0x53eee1[_0x4f09dc(0x1e9)]))?Number(_0x53eee1[_0x4f09dc(0x1e9)]):0x4,'order':Number[_0x4f09dc(0x170)](Number(_0x53eee1['order']))?Number(_0x53eee1['order']):0x64,'recursive':![],'enabled':_0x53eee1[_0x4f09dc(0x206)]!==![]};})[_0x599b16(0x1eb)](_0x4972d9=>(_0x4972d9[_0x599b16(0x189)]||'')['trim']());return{'id':Date[_0x599b16(0x1fb)]()+Math['floor'](Math[_0x599b16(0x22d)]()*0x2710),'name':String(_0x56006d[_0x599b16(0x188)]||_0x56006d['title']||_0x324a08||_0x599b16(0x1bb))[_0x599b16(0x1f9)]()||'导入的世界书','group':normalizeGroupName(_0x56006d[_0x599b16(0x20d)]||activeWbGroupName||_0x599b16(0x20a)),'entries':_0x298b96[_0x599b16(0x175)]?_0x298b96:[{'title':'正文','keyword':'','content':String(_0x56006d[_0x599b16(0x189)]||_0x324a08||'')['trim']()||_0x599b16(0x217),'triggerMode':_0x599b16(0x16c),'injectionPosition':_0x599b16(0x1a4),'systemDepth':0x4,'order':0x64,'recursive':![],'enabled':!![]}],'isGlobal':!!_0x56006d[_0x599b16(0x1af)],'attachedRoles':Array[_0x599b16(0x1b2)](_0x56006d[_0x599b16(0x18a)])?_0x56006d[_0x599b16(0x18a)]:[]};}function getFileBaseName(_0x1db33d=''){const _0x5aa3be=_0x1dfba1;return String(_0x1db33d||_0x5aa3be(0x1bb))['replace'](/\.[^/.]+$/,'')||'导入的世界书';}async function readWorldBookImportText(_0x54222b){const _0x36fbcd=_0x1dfba1,_0x120caa=_0x54222b?.[_0x36fbcd(0x188)]||'',_0x592543=_0x120caa[_0x36fbcd(0x1b4)]();if(_0x592543[_0x36fbcd(0x1bf)](_0x36fbcd(0x1d8))){if(!window['mammoth']||typeof window['mammoth'][_0x36fbcd(0x163)]!==_0x36fbcd(0x1dd))return showToast(_0x36fbcd(0x227)),null;const _0x57b34f=await _0x54222b[_0x36fbcd(0x254)](),_0x37898d=await window['mammoth'][_0x36fbcd(0x163)]({'arrayBuffer':_0x57b34f}),_0xa4c2fa=_0x37898d?.[_0x36fbcd(0x243)]||'';if(!_0xa4c2fa[_0x36fbcd(0x1f9)]())throw new Error(_0x36fbcd(0x173));return _0xa4c2fa;}return await _0x54222b[_0x36fbcd(0x157)]();}function parseImportedWorldBooks(_0x4e87cd,_0x5e81e6){const _0x24f826=_0x1dfba1,_0x4abe36=_0x5e81e6?.['name']||'',_0x3210d6=getFileBaseName(_0x4abe36),_0x3d93e2=_0x4abe36['toLowerCase'](),_0x35c2c7=String(_0x4e87cd||'')['trim']();if(!_0x35c2c7)throw new Error(_0x24f826(0x182));if(_0x3d93e2[_0x24f826(0x1bf)](_0x24f826(0x201))||_0x35c2c7['startsWith']('{')||_0x35c2c7['startsWith']('[')){const _0x3d5cf3=JSON[_0x24f826(0x14b)](_0x35c2c7),_0x36f502=Array['isArray'](_0x3d5cf3)?_0x3d5cf3:Array[_0x24f826(0x1b2)](_0x3d5cf3[_0x24f826(0x215)])?_0x3d5cf3[_0x24f826(0x215)]:[_0x3d5cf3];return _0x36f502['map']((_0x439fe4,_0x10237a)=>sanitizeImportedWorldBook(_0x439fe4,_0x10237a===0x0?_0x3210d6:_0x3210d6+'-'+(_0x10237a+0x1)));}return[sanitizeImportedWorldBook({'name':_0x3210d6,'group':activeWbGroupName||_0x24f826(0x20a),'entries':[{'title':_0x3210d6,'content':_0x35c2c7,'triggerMode':_0x24f826(0x16c),'injectionPosition':_0x24f826(0x1a4),'systemDepth':0x4,'order':0x64,'recursive':![],'enabled':!![]}]},_0x3210d6)];}function _0x20d7(_0x5aa6a0,_0x5cc8a8){_0x5aa6a0=_0x5aa6a0-0x147;const _0x28585b=_0x2858();let _0x20d7c8=_0x28585b[_0x5aa6a0];return _0x20d7c8;}async function importWorldBookFile(_0x5f153e){const _0x4074ce=_0x1dfba1;if(!_0x5f153e)return;try{const _0x1291b6=await readWorldBookImportText(_0x5f153e);if(_0x1291b6===null)return;const _0x21656b=parseImportedWorldBooks(_0x1291b6,_0x5f153e);if(!_0x21656b[_0x4074ce(0x175)]){showToast(_0x4074ce(0x171));return;}worldBooks[_0x4074ce(0x147)](..._0x21656b),_0x21656b[_0x4074ce(0x16b)](_0x353a0c=>{const _0x1d5520=_0x4074ce,_0x373606=normalizeGroupName(_0x353a0c[_0x1d5520(0x20d)]);if(_0x373606!==_0x1d5520(0x20a)&&!wbGroups['includes'](_0x373606))wbGroups[_0x1d5520(0x147)](_0x373606);}),saveWorldBooksData(),renderWorldBooks();if(activeWbGroupName)renderGroupBookList(activeWbGroupName);showToast(_0x4074ce(0x226)+_0x21656b[_0x4074ce(0x175)]+'\x20本世界书');}catch(_0x3f6856){console['error']('Failed\x20to\x20import\x20world\x20book:',_0x3f6856),showToast('导入失败：请检查文件格式');}}wbImportFileInput&&wbImportFileInput['addEventListener'](_0x1dfba1(0x212),async _0x1f39d9=>{const _0x3c3843=_0x1dfba1,_0xa8cbaf=_0x1f39d9[_0x3c3843(0x255)][_0x3c3843(0x251)]&&_0x1f39d9[_0x3c3843(0x255)][_0x3c3843(0x251)][0x0];await importWorldBookFile(_0xa8cbaf),_0x1f39d9[_0x3c3843(0x255)][_0x3c3843(0x243)]='';});function calculateTokens(_0x46e3db){const _0x586c27=_0x1dfba1;let _0x550c12=(Array['isArray'](_0x46e3db)?_0x46e3db:[])[_0x586c27(0x1ab)](_0x43f1bb=>(_0x43f1bb['title']||'')+(_0x43f1bb['keyword']||'')+(_0x43f1bb[_0x586c27(0x189)]||''))['join']('');return Math[_0x586c27(0x1e7)](_0x550c12[_0x586c27(0x175)]*1.5)||0x0;}window['calculateTokens']=calculateTokens;function createBookHtml(_0x361c04,_0x5235d7){const _0x550048=_0x1dfba1;let _0x4166f4='';const _0x48cc52=calculateTokens(_0x361c04['entries']),_0x3599c0=escapeAttr(_0x361c04['id']),_0x43f841=escapeHtml(_0x361c04[_0x550048(0x188)]||_0x550048(0x20c));if(_0x5235d7===_0x550048(0x1ad)||_0x5235d7===_0x550048(0x216))_0x4166f4=_0x550048(0x174)+_0x48cc52+_0x550048(0x253)+_0x3599c0+'\x22\x20'+(_0x361c04[_0x550048(0x1af)]?_0x550048(0x187):'')+_0x550048(0x1d1);else{if(_0x5235d7===_0x550048(0x1a1)){const _0x1b3900=Array[_0x550048(0x1b2)](_0x361c04['attachedRoles'])?_0x361c04[_0x550048(0x18a)][0x0]?.['avatarUrl']||'':'',_0x54315c=_0x1b3900?_0x550048(0x15e)+escapeAttr(_0x1b3900)+'\x22>':'<i\x20class=\x22fas\x20fa-user\x22></i>';_0x4166f4=_0x550048(0x174)+_0x48cc52+'\x20Tokens</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-char-avatar\x22>'+_0x54315c+_0x550048(0x205);}}return _0x550048(0x1bc)+_0x3599c0+_0x550048(0x154)+_0x43f841+_0x550048(0x1b0)+_0x4166f4+_0x550048(0x14c);}function getBooksInGroup(_0x3df62e){const _0x3f60e2=_0x1dfba1;return worldBooks[_0x3f60e2(0x1eb)](_0x206684=>normalizeGroupName(_0x206684[_0x3f60e2(0x20d)])===normalizeGroupName(_0x3df62e));}function createBookListItemElement(_0x5655a7,_0x31d819=_0x1dfba1(0x1ad)){const _0x4c1d48=_0x1dfba1,_0xf58548=document['createElement'](_0x4c1d48(0x148));_0xf58548[_0x4c1d48(0x23a)]=createBookHtml(_0x5655a7,_0x31d819)[_0x4c1d48(0x1f9)]();const _0x59c27c=_0xf58548[_0x4c1d48(0x199)];if(!_0x59c27c)return document['createElement'](_0x4c1d48(0x148));return _0x59c27c[_0x4c1d48(0x1fd)]('click',_0x1eb446=>{const _0x1d02d4=_0x4c1d48;if(_0x1eb446[_0x1d02d4(0x255)][_0x1d02d4(0x238)](_0x1d02d4(0x1a8))||_0x1eb446[_0x1d02d4(0x255)][_0x1d02d4(0x238)](_0x1d02d4(0x1b3)))return;openBookModal(_0x5655a7);}),_0x59c27c;}function deleteGroupByName(_0x45d802,_0x137367=![]){const _0x170511=_0x1dfba1,_0x38df30=normalizeGroupName(_0x45d802);if(_0x38df30==='未分组')return;showCenteredConfirm({'title':_0x170511(0x1a3),'message':_0x170511(0x1fa)+_0x38df30+_0x170511(0x223),'isDestructive':!![],'confirmText':'删除','onConfirm':()=>{const _0x3e8f14=_0x170511;wbGroups=wbGroups[_0x3e8f14(0x1eb)](_0x44c941=>_0x44c941!==_0x38df30),worldBooks[_0x3e8f14(0x16b)](_0x313805=>{const _0x9a8590=_0x3e8f14;normalizeGroupName(_0x313805[_0x9a8590(0x20d)])===_0x38df30&&(_0x313805[_0x9a8590(0x20d)]=_0x9a8590(0x20a));});if(_0x137367)activeWbGroupName=null;saveWorldBooksData(),renderWorldBooks();if(_0x137367)showWbMainPage();showToast(_0x3e8f14(0x1e0));}});}function renderGroupBookList(_0x314678){const _0x3ca963=_0x1dfba1,_0x1089bd=document['getElementById'](_0x3ca963(0x1c8)),_0x38a12a=document['getElementById']('wb-group-large-title'),_0x5dd259=document[_0x3ca963(0x249)]('wb-group-book-list'),_0x5c5ebc=document[_0x3ca963(0x249)](_0x3ca963(0x1be));if(!_0x5dd259)return;const _0x4a7d93=normalizeGroupName(_0x314678),_0x5dd715=getBooksInGroup(_0x4a7d93);if(_0x1089bd)_0x1089bd[_0x3ca963(0x15a)]=_0x4a7d93;if(_0x38a12a)_0x38a12a[_0x3ca963(0x15a)]=_0x4a7d93;if(_0x5c5ebc)_0x5c5ebc[_0x3ca963(0x194)][_0x3ca963(0x21e)]=_0x4a7d93===_0x3ca963(0x20a)?_0x3ca963(0x21b):_0x3ca963(0x18c);_0x5dd259[_0x3ca963(0x23a)]='';if(!_0x5dd715[_0x3ca963(0x175)]){_0x5dd259[_0x3ca963(0x23a)]=_0x3ca963(0x1ce);return;}_0x5dd715[_0x3ca963(0x16b)](_0x2540f2=>{_0x5dd259['appendChild'](createBookListItemElement(_0x2540f2,'all'));});}function showWbMainPage(){const _0x1f7c1a=_0x1dfba1;activeWbGroupName=null;const _0x38daf9=document[_0x1f7c1a(0x249)](_0x1f7c1a(0x248)),_0x399000=document[_0x1f7c1a(0x249)](_0x1f7c1a(0x23d));if(_0x38daf9)_0x38daf9[_0x1f7c1a(0x14f)][_0x1f7c1a(0x1a0)]('active');if(_0x399000)_0x399000[_0x1f7c1a(0x14f)]['remove']('active');}function openWbGroupPage(_0x333339){const _0x5cec2c=_0x1dfba1;activeWbGroupName=normalizeGroupName(_0x333339);const _0x165551=document[_0x5cec2c(0x249)](_0x5cec2c(0x248)),_0x2746f3=document[_0x5cec2c(0x249)](_0x5cec2c(0x23d));if(_0x165551)_0x165551[_0x5cec2c(0x14f)]['remove'](_0x5cec2c(0x1c7));if(_0x2746f3)_0x2746f3['classList'][_0x5cec2c(0x1a0)](_0x5cec2c(0x1c7));renderGroupBookList(activeWbGroupName);}function createGroupFolderElement(_0x1fc748){const _0x1a2860=_0x1dfba1,_0x558900=normalizeGroupName(_0x1fc748),_0x2012da=getBooksInGroup(_0x558900),_0x1f9dcf=document['createElement'](_0x1a2860(0x148));_0x1f9dcf['className']=_0x1a2860(0x1a6),_0x1f9dcf[_0x1a2860(0x1a9)](_0x1a2860(0x1f3),_0x1a2860(0x19e)),_0x1f9dcf[_0x1a2860(0x1a9)](_0x1a2860(0x1f7),'0');const _0x125e06=_0x558900!==_0x1a2860(0x20a)?_0x1a2860(0x1aa):'';_0x1f9dcf['innerHTML']=_0x1a2860(0x233)+_0x125e06+_0x1a2860(0x161)+escapeHtml(_0x558900)+_0x1a2860(0x1d0)+_0x2012da[_0x1a2860(0x175)]+_0x1a2860(0x213);const _0x47fdb1=_0x1f9dcf['querySelector'](_0x1a2860(0x1e8));_0x47fdb1&&_0x47fdb1['addEventListener'](_0x1a2860(0x214),_0x24d5b7=>{_0x24d5b7['stopPropagation'](),deleteGroupByName(_0x558900);});const _0x3f0107=()=>openWbGroupPage(_0x558900);return _0x1f9dcf[_0x1a2860(0x1fd)](_0x1a2860(0x214),_0x443f4f=>{const _0x37b1f7=_0x1a2860;if(!_0x47fdb1||!_0x47fdb1['contains'](_0x443f4f[_0x37b1f7(0x255)]))_0x3f0107();}),_0x1f9dcf[_0x1a2860(0x1fd)](_0x1a2860(0x231),_0x3cf851=>{const _0x298be8=_0x1a2860;if(_0x3cf851[_0x298be8(0x1ae)]||_0x3cf851[_0x298be8(0x156)]===0xe5)return;(_0x3cf851['key']===_0x298be8(0x228)||_0x3cf851['key']==='\x20')&&(_0x3cf851['preventDefault'](),_0x3f0107());}),_0x1f9dcf;}function renderWorldBooks(){const _0x1a9622=_0x1dfba1;normalizeGroups();const _0x3a21c1=document[_0x1a9622(0x249)](_0x1a9622(0x19b));if(!_0x3a21c1)return;_0x3a21c1['innerHTML']='',getAllDisplayGroups()[_0x1a9622(0x16b)](_0x1a8e6e=>{const _0x2dd878=_0x1a9622;_0x3a21c1[_0x2dd878(0x1f0)](createGroupFolderElement(_0x1a8e6e));});activeWbGroupName&&renderGroupBookList(activeWbGroupName);const _0x43a22d=document[_0x1a9622(0x249)](_0x1a9622(0x19d));if(_0x43a22d){const _0x566453=worldBooks['filter'](_0x58ef6c=>_0x58ef6c[_0x1a9622(0x1af)]);_0x43a22d[_0x1a9622(0x23a)]='';if(_0x566453[_0x1a9622(0x175)]){const _0x10d5fb=document[_0x1a9622(0x20f)]('div');_0x10d5fb[_0x1a9622(0x1bd)]=_0x1a9622(0x1d5),_0x566453[_0x1a9622(0x16b)](_0x494b0a=>_0x10d5fb[_0x1a9622(0x1f0)](createBookListItemElement(_0x494b0a,_0x1a9622(0x216)))),_0x43a22d[_0x1a9622(0x1f0)](_0x10d5fb);}else _0x43a22d['innerHTML']=_0x1a9622(0x14a);}const _0x3cf4d1=document[_0x1a9622(0x249)](_0x1a9622(0x220));if(_0x3cf4d1){_0x3cf4d1[_0x1a9622(0x23a)]='';const _0x29a66b=window[_0x1a9622(0x172)]?window[_0x1a9622(0x172)]():[],_0x5ab904=document[_0x1a9622(0x20f)](_0x1a9622(0x148));_0x5ab904['className']='wb-flat-book-list',worldBooks['forEach'](_0x58ecee=>{const _0x13b315=_0x1a9622,_0x394fa4=_0x29a66b[_0x13b315(0x1eb)](_0x5de20b=>Array[_0x13b315(0x1b2)](_0x5de20b[_0x13b315(0x160)])&&_0x5de20b[_0x13b315(0x160)][_0x13b315(0x1ab)](String)[_0x13b315(0x1d9)](String(_0x58ecee['id'])));_0x394fa4[_0x13b315(0x16b)](_0x819150=>{const _0x2fa088=_0x13b315,_0x5467c8=createBookListItemElement(_0x58ecee,_0x2fa088(0x1a1)),_0x196045=_0x819150[_0x2fa088(0x19a)]||'',_0x3dca79=_0x5467c8[_0x2fa088(0x17e)](_0x2fa088(0x197));_0x3dca79&&(_0x3dca79['innerHTML']=_0x196045?'<img\x20src=\x22'+escapeAttr(_0x196045)+'\x22>':_0x2fa088(0x1e5)),_0x5ab904['appendChild'](_0x5467c8);});}),_0x5ab904[_0x1a9622(0x151)][_0x1a9622(0x175)]===0x0?_0x3cf4d1[_0x1a9622(0x23a)]=_0x1a9622(0x246):_0x3cf4d1[_0x1a9622(0x1f0)](_0x5ab904);}}window[_0x1dfba1(0x23e)]=renderWorldBooks,window[_0x1dfba1(0x219)]=function(){return Array['isArray'](worldBooks)?worldBooks:[];},window[_0x1dfba1(0x166)]=function(_0x1388a5=[],_0x3010ac){const _0xd748c2=_0x1dfba1;let _0x54b6d6=[],_0x3fec9a=document[_0xd748c2(0x249)](_0xd748c2(0x1f8));if(!_0x3fec9a){_0x3fec9a=document[_0xd748c2(0x20f)](_0xd748c2(0x148)),_0x3fec9a['id']=_0xd748c2(0x1f8),_0x3fec9a['className']=_0xd748c2(0x21f),_0x3fec9a[_0xd748c2(0x194)][_0xd748c2(0x235)]='1150',_0x3fec9a['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x20wb-selector-panel\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22>选择世界书</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22wb-selector-group-select\x22>选择分组</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22wb-selector-group-select\x22\x20class=\x22wb-native-select\x22></select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20for=\x22wb-selector-book-select\x22>选择世界书</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select\x20id=\x22wb-selector-book-select\x22\x20class=\x22wb-native-select\x22></select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22wb-selector-empty\x22\x20class=\x22wb-selector-empty\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-preview-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>已挂载</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22wb-selector-mounted-count\x22>0\x20项</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22wb-selector-mounted-list\x22\x20class=\x22wb-selector-mounted-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22wb-selector-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22sheet-action\x20wb-selector-action-btn\x22\x20id=\x22wb-selector-cancel-btn\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22sheet-action\x20confirm-action\x20wb-selector-action-btn\x22\x20id=\x22wb-selector-confirm-btn\x22>保存</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20';const _0x4e8908=document[_0xd748c2(0x249)]('app')||document['body'];_0x4e8908[_0xd748c2(0x1f0)](_0x3fec9a),_0x3fec9a[_0xd748c2(0x1fd)](_0xd748c2(0x214),_0x14e4c2=>{const _0x21e08d=_0xd748c2;if(_0x14e4c2[_0x21e08d(0x255)]===_0x3fec9a)closeView(_0x3fec9a);});}const _0x2f9a06=_0x3fec9a['querySelector'](_0xd748c2(0x1f6)),_0x134563=_0x3fec9a['querySelector'](_0xd748c2(0x150)),_0x5d4224=_0x3fec9a[_0xd748c2(0x17e)]('#wb-selector-empty'),_0x5ca202=_0x3fec9a[_0xd748c2(0x17e)]('#wb-selector-mounted-list'),_0x316d66=_0x3fec9a[_0xd748c2(0x17e)](_0xd748c2(0x183)),_0x25d2a3=_0x3fec9a[_0xd748c2(0x17e)]('#wb-selector-confirm-btn'),_0x4d2251=_0x3fec9a[_0xd748c2(0x17e)](_0xd748c2(0x1f5)),_0x5e5ca9=_0xbeb106=>(Array['isArray'](worldBooks)?worldBooks:[])[_0xd748c2(0x1fc)](_0x286547=>String(_0x286547['id'])===String(_0xbeb106)),_0x19fe17=(_0x415952,_0x1f186d)=>{const _0x434876=_0xd748c2,_0x1a02fe=normalizeGroupName(_0x1f186d);if(!_0x415952['includes'](_0x1a02fe))_0x415952[_0x434876(0x147)](_0x1a02fe);},_0x1f32fc=()=>{const _0x511a13=_0xd748c2,_0x3602f9=[];return getAllDisplayGroups()['forEach'](_0x1fa3e3=>_0x19fe17(_0x3602f9,_0x1fa3e3)),(Array[_0x511a13(0x1b2)](worldBooks)?worldBooks:[])[_0x511a13(0x16b)](_0x26dc53=>_0x19fe17(_0x3602f9,_0x26dc53['group'])),_0x3602f9;},_0x2c3472=()=>{const _0x343f18=_0xd748c2;if(!_0x134563||!_0x2f9a06)return;const _0x39779c=normalizeGroupName(_0x2f9a06[_0x343f18(0x243)]),_0x2a310a=new Set(_0x54b6d6[_0x343f18(0x1ab)](String)),_0x8d2c53=(Array['isArray'](worldBooks)?worldBooks:[])[_0x343f18(0x1eb)](_0x1500e6=>normalizeGroupName(_0x1500e6[_0x343f18(0x20d)])===_0x39779c)[_0x343f18(0x1eb)](_0x5cf42e=>!_0x2a310a['has'](String(_0x5cf42e['id'])));if(_0x8d2c53['length']===0x0){_0x134563[_0x343f18(0x23a)]=_0x343f18(0x207),_0x134563[_0x343f18(0x208)]=!![];if(_0x5d4224){const _0x268040=(Array[_0x343f18(0x1b2)](worldBooks)?worldBooks:[])[_0x343f18(0x16e)](_0x2bb978=>normalizeGroupName(_0x2bb978[_0x343f18(0x20d)])===_0x39779c);_0x5d4224['textContent']=_0x268040?_0x343f18(0x1b8):_0x343f18(0x252);}return;}_0x134563['disabled']=![],_0x134563[_0x343f18(0x23a)]=[_0x343f18(0x24b),..._0x8d2c53[_0x343f18(0x1ab)](_0xc3aa3d=>{const _0x40e522=_0x343f18,_0x10c34b=calculateTokens(_0xc3aa3d[_0x40e522(0x1b9)]),_0x58d90e=_0xc3aa3d['name']||'未命名世界书';return'<option\x20value=\x22'+escapeAttr(_0xc3aa3d['id'])+'\x22>'+escapeHtml(_0x58d90e)+_0x40e522(0x167)+_0x10c34b+_0x40e522(0x196);})]['join']('');if(_0x5d4224)_0x5d4224[_0x343f18(0x15a)]='';},_0x213314=()=>{const _0x207238=_0xd748c2;if(!_0x5ca202)return;if(_0x316d66)_0x316d66['textContent']=_0x54b6d6['length']+'\x20项';if(_0x54b6d6[_0x207238(0x175)]===0x0){_0x5ca202[_0x207238(0x23a)]='<div\x20class=\x22wb-selector-mounted-empty\x22>还没有挂载世界书</div>';return;}_0x5ca202[_0x207238(0x23a)]=_0x54b6d6[_0x207238(0x1ab)](_0x1e6f57=>{const _0x2a6134=_0x207238,_0x3838b6=_0x5e5ca9(_0x1e6f57);if(!_0x3838b6)return'';const _0x41eca7=normalizeGroupName(_0x3838b6[_0x2a6134(0x20d)]),_0x134305=calculateTokens(_0x3838b6['entries']);return _0x2a6134(0x169)+escapeAttr(_0x1e6f57)+_0x2a6134(0x1fe)+escapeHtml(_0x3838b6[_0x2a6134(0x188)]||_0x2a6134(0x20c))+_0x2a6134(0x15b)+escapeHtml(_0x41eca7)+_0x2a6134(0x167)+_0x134305+_0x2a6134(0x1c4)+escapeAttr(_0x1e6f57)+'\x22\x20aria-label=\x22移除\x20'+escapeAttr(_0x3838b6[_0x2a6134(0x188)]||_0x2a6134(0x1c2))+_0x2a6134(0x1e1);})['join'](''),_0x5ca202['querySelectorAll'](_0x207238(0x19c))[_0x207238(0x16b)](_0x227a55=>{const _0x2ad0bc=_0x207238;_0x227a55[_0x2ad0bc(0x1fd)](_0x2ad0bc(0x214),()=>{const _0xc8a310=_0x2ad0bc,_0x5374ce=_0x227a55[_0xc8a310(0x1b7)]('data-id');_0x54b6d6=_0x54b6d6[_0xc8a310(0x1eb)](_0x25203f=>String(_0x25203f)!==String(_0x5374ce)),_0x213314(),_0x2c3472();});});},_0x565096=()=>{const _0x37bfeb=_0xd748c2;if(!_0x2f9a06)return;const _0x4212a4=_0x1f32fc(),_0x17c0e5=normalizeGroupName(_0x2f9a06['value']);_0x2f9a06[_0x37bfeb(0x23a)]=_0x4212a4[_0x37bfeb(0x1ab)](_0x1a3ea9=>'<option\x20value=\x22'+escapeAttr(_0x1a3ea9)+'\x22>'+escapeHtml(_0x1a3ea9)+_0x37bfeb(0x229))[_0x37bfeb(0x203)](''),_0x2f9a06[_0x37bfeb(0x243)]=_0x4212a4[_0x37bfeb(0x1d9)](_0x17c0e5)?_0x17c0e5:_0x4212a4[0x0];};_0x54b6d6=(Array[_0xd748c2(0x1b2)](_0x1388a5)?_0x1388a5:[])[_0xd748c2(0x1ab)](_0x8f4d32=>String(_0x8f4d32))[_0xd748c2(0x1eb)]((_0x335ca4,_0x16a6f8,_0xc806c8)=>_0xc806c8[_0xd748c2(0x198)](_0x335ca4)===_0x16a6f8)[_0xd748c2(0x1eb)](_0x108a08=>!!_0x5e5ca9(_0x108a08)),_0x565096(),_0x213314(),_0x2c3472(),_0x2f9a06&&(_0x2f9a06['onchange']=()=>{_0x2c3472();}),_0x134563&&(_0x134563['onchange']=()=>{const _0x22e39e=_0xd748c2,_0x218711=_0x134563[_0x22e39e(0x243)];if(!_0x218711||_0x54b6d6[_0x22e39e(0x1d9)](String(_0x218711)))return;_0x54b6d6['push'](String(_0x218711)),_0x134563[_0x22e39e(0x243)]='',_0x213314(),_0x2c3472();}),_0x4d2251&&(_0x4d2251[_0xd748c2(0x1ff)]=()=>closeView(_0x3fec9a)),_0x25d2a3&&(_0x25d2a3[_0xd748c2(0x1ff)]=()=>{const _0x136f3b=_0xd748c2;closeView(_0x3fec9a);if(typeof _0x3010ac===_0x136f3b(0x1dd))_0x3010ac([..._0x54b6d6]);}),openView(_0x3fec9a);};function renderLegacyWorldBookSelector(_0x42b319=[],_0x2a2142){const _0x3da4ed=_0x1dfba1,_0x22974f=new Set((Array[_0x3da4ed(0x1b2)](_0x42b319)?_0x42b319:[])['map'](String));let _0x43172f=document[_0x3da4ed(0x249)](_0x3da4ed(0x1f8));if(!_0x43172f){_0x43172f=document['createElement']('div'),_0x43172f['id']=_0x3da4ed(0x1f8),_0x43172f[_0x3da4ed(0x1bd)]=_0x3da4ed(0x21f),_0x43172f[_0x3da4ed(0x194)]['zIndex']=_0x3da4ed(0x1ed),_0x43172f['innerHTML']=_0x3da4ed(0x1d7);const _0x31b4c8=document[_0x3da4ed(0x249)](_0x3da4ed(0x23c))||document[_0x3da4ed(0x164)];_0x31b4c8[_0x3da4ed(0x1f0)](_0x43172f),_0x43172f[_0x3da4ed(0x1fd)]('click',_0x20e186=>{const _0xc522b1=_0x3da4ed;if(_0x20e186[_0xc522b1(0x255)]===_0x43172f)closeView(_0x43172f);});}const _0x46a08a=_0x43172f[_0x3da4ed(0x17e)](_0x3da4ed(0x184)),_0x43ade2=_0x43172f['querySelector']('#wb-selector-confirm-btn'),_0x275efc=_0x43172f[_0x3da4ed(0x17e)]('#wb-selector-cancel-btn');_0x46a08a&&(!Array[_0x3da4ed(0x1b2)](worldBooks)||worldBooks[_0x3da4ed(0x175)]===0x0?_0x46a08a[_0x3da4ed(0x23a)]=_0x3da4ed(0x1c0):_0x46a08a[_0x3da4ed(0x23a)]=worldBooks[_0x3da4ed(0x1ab)](_0x38cdba=>{const _0x16a6a2=_0x3da4ed,_0x557f51=String(_0x38cdba['id']),_0x470570=_0x22974f[_0x16a6a2(0x17a)](_0x557f51)?_0x16a6a2(0x187):'',_0x3de73e=escapeHtml(_0x38cdba[_0x16a6a2(0x188)]||_0x16a6a2(0x20c));return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22settings-item\x22\x20style=\x22cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x20min-width:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-book\x22\x20style=\x22color:\x20#111;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:\x2015px;\x20color:\x20#000;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>'+_0x3de73e+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20class=\x22wb-selector-checkbox\x22\x20value=\x22'+escapeAttr(_0x557f51)+'\x22\x20'+_0x470570+_0x16a6a2(0x1de);})['join']('')),_0x275efc&&(_0x275efc[_0x3da4ed(0x1ff)]=()=>closeView(_0x43172f)),_0x43ade2&&(_0x43ade2[_0x3da4ed(0x1ff)]=()=>{const _0x4b9717=_0x3da4ed,_0x21d859=Array['from'](_0x43172f[_0x4b9717(0x18f)](_0x4b9717(0x1f1)))['map'](_0x201508=>_0x201508[_0x4b9717(0x243)]);closeView(_0x43172f);if(typeof _0x2a2142==='function')_0x2a2142(_0x21d859);}),openView(_0x43172f);}window['autoSaveSummaryToWorldBook']=function(_0x1b489d,_0x7fcbc7){const _0x3ffea9=_0x1dfba1,_0x2d08fe={'id':Date[_0x3ffea9(0x1fb)](),'name':_0x1b489d||_0x3ffea9(0x16a),'group':'未分组','entries':[{'title':_0x3ffea9(0x177),'keyword':'','content':_0x7fcbc7,'triggerMode':'permanent','injectionPosition':_0x3ffea9(0x1a4),'systemDepth':0x4,'order':0x64,'recursive':![],'enabled':!![]}],'isGlobal':!![],'attachedRoles':[]};worldBooks['push'](_0x2d08fe),saveWorldBooksData(),renderWorldBooks(),showToast(_0x3ffea9(0x24c));},document[_0x1dfba1(0x1fd)]('click',_0x1ce461=>{const _0x709dc7=_0x1dfba1,_0xa980d4=_0x1ce461[_0x709dc7(0x255)][_0x709dc7(0x238)](_0x709dc7(0x17c));if(_0xa980d4){if(!_0x1ce461[_0x709dc7(0x255)][_0x709dc7(0x238)](_0x709dc7(0x1a8))){const _0x1adcf9=_0xa980d4[_0x709dc7(0x1b7)]('data-id'),_0x4efde8=worldBooks[_0x709dc7(0x1fc)](_0x32a46d=>String(_0x32a46d['id'])===String(_0x1adcf9));if(_0x4efde8){if(wbAddMenu)wbAddMenu[_0x709dc7(0x194)]['display']=_0x709dc7(0x21b);openBookModal(_0x4efde8);}}}}),document[_0x1dfba1(0x1fd)](_0x1dfba1(0x212),_0x2ff81a=>{const _0x704e12=_0x1dfba1;if(_0x2ff81a[_0x704e12(0x255)]&&_0x2ff81a[_0x704e12(0x255)][_0x704e12(0x14f)][_0x704e12(0x16f)](_0x704e12(0x191))){const _0x14378b=_0x2ff81a[_0x704e12(0x255)][_0x704e12(0x1b7)](_0x704e12(0x247)),_0x51c139=worldBooks['find'](_0x2b47d3=>String(_0x2b47d3['id'])===String(_0x14378b));if(_0x51c139){_0x51c139[_0x704e12(0x1af)]=_0x2ff81a['target'][_0x704e12(0x187)],saveWorldBooksData(),document[_0x704e12(0x18f)](_0x704e12(0x1b3))[_0x704e12(0x16b)](_0x4935ce=>{const _0x1cd5cd=_0x704e12;String(_0x4935ce[_0x1cd5cd(0x1b7)](_0x1cd5cd(0x247)))===String(_0x14378b)&&(_0x4935ce[_0x1cd5cd(0x187)]=_0x51c139['isGlobal']);});if(!_0x51c139['isGlobal']){const _0x58f791=document[_0x704e12(0x249)](_0x704e12(0x19d));if(_0x58f791&&_0x58f791[_0x704e12(0x16f)](_0x2ff81a['target'])){const _0x44c748=_0x2ff81a['target'][_0x704e12(0x238)](_0x704e12(0x17c));_0x44c748&&(_0x44c748[_0x704e12(0x14f)][_0x704e12(0x1a0)]('removing'),setTimeout(()=>{const _0x446715=_0x704e12;_0x44c748[_0x446715(0x239)]();},0x12c));}else{if(_0x58f791){const _0x209161=worldBooks[_0x704e12(0x1eb)](_0x320254=>_0x320254[_0x704e12(0x1af)]);_0x58f791[_0x704e12(0x23a)]=_0x209161[_0x704e12(0x175)]?'<div\x20class=\x22wb-flat-book-list\x22>'+_0x209161[_0x704e12(0x1ab)](_0x3b6fa9=>createBookHtml(_0x3b6fa9,'global'))[_0x704e12(0x203)]('')+'</div>':_0x704e12(0x14a);}}}else{const _0x4b39ed=document[_0x704e12(0x249)](_0x704e12(0x19d));if(_0x4b39ed){const _0x493d5d=worldBooks[_0x704e12(0x1eb)](_0x3a63e2=>_0x3a63e2[_0x704e12(0x1af)]);_0x4b39ed['innerHTML']=_0x493d5d[_0x704e12(0x175)]?_0x704e12(0x204)+_0x493d5d['map'](_0xa61aa5=>createBookHtml(_0xa61aa5,_0x704e12(0x216)))['join']('')+_0x704e12(0x17d):_0x704e12(0x14a);}}}}});
+// ==========================================
+// World Book Logic
+// ==========================================
+let worldBooks = [];
+let wbGroups = [];
+let editingBookId = null;
+let activeEntryId = null;
+let tempEntries = [];
+let activeWbGroupName = null;
+
+function getWbElement(id) {
+    return document.getElementById(id);
+}
+
+function openWbOverlay(id) {
+    const el = getWbElement(id);
+    if (el) openView(el);
+}
+
+function closeWbOverlay(id) {
+    const el = getWbElement(id);
+    if (el) closeView(el);
+}
+
+function escapeHtml(value = '') {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function escapeAttr(value = '') {
+    return escapeHtml(value);
+}
+
+function normalizeGroupName(value) {
+    const name = String(value || '').trim();
+    return name || '未分组';
+}
+
+function normalizeGroups() {
+    const seen = new Set();
+    wbGroups = (Array.isArray(wbGroups) ? wbGroups : [])
+        .map(name => String(name || '').trim())
+        .filter(name => name && name !== '未分组')
+        .filter(name => {
+            if (seen.has(name)) return false;
+            seen.add(name);
+            return true;
+        });
+}
+
+function getAllDisplayGroups() {
+    normalizeGroups();
+    return [...wbGroups, '未分组'];
+}
+
+// Load data on init
+document.addEventListener('DOMContentLoaded', () => {
+    if (window.StorageManager) {
+        worldBooks = StorageManager.load('u2_worldBooks', []);
+        wbGroups = StorageManager.load('u2_wbGroups', []);
+        normalizeGroups();
+    }
+});
+
+function saveWorldBooksData() {
+    if (window.StorageManager) {
+        StorageManager.save('u2_worldBooks', worldBooks);
+        StorageManager.save('u2_wbGroups', wbGroups);
+    }
+}
+
+// Map the old UI to the new UI property manually just in case
+if (typeof UI !== 'undefined' && !UI.views.worldBook) {
+    UI.views.worldBook = document.getElementById('world-book-view');
+}
+if (typeof UI !== 'undefined' && !UI.overlays.addGroup) {
+    UI.overlays.addGroup = document.getElementById('add-group-overlay');
+}
+if (typeof UI !== 'undefined' && !UI.overlays.addBook) {
+    UI.overlays.addBook = document.getElementById('add-book-overlay');
+}
+if (typeof UI !== 'undefined' && !UI.overlays.bookGroupPicker) {
+    UI.overlays.bookGroupPicker = document.getElementById('book-group-picker-sheet');
+}
+
+const wbBackBtn = document.getElementById('world-book-back-btn');
+if (wbBackBtn) {
+    wbBackBtn.addEventListener('click', () => {
+        closeWbOverlay('world-book-view');
+    });
+}
+
+// Tabs logic
+const wbSegmentBtns = document.querySelectorAll('.wb-segment-btn');
+const wbTabContents = document.querySelectorAll('.wb-tab-content');
+
+wbSegmentBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        // Remove active from all
+        wbSegmentBtns.forEach(b => b.classList.remove('active'));
+        wbTabContents.forEach(c => c.style.display = 'none');
+        
+        // Add active to clicked
+        btn.classList.add('active');
+        const targetTab = btn.getAttribute('data-tab');
+        const targetContent = document.getElementById(`wb-tab-${targetTab}`);
+        if (targetContent) {
+            targetContent.style.display = 'block';
+        }
+    });
+});
+
+// Add Menu Logic
+const wbAddBtn = document.getElementById('world-book-add-btn');
+const wbAddMenu = document.getElementById('wb-add-menu');
+
+if (wbAddBtn && wbAddMenu) {
+    wbAddBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        wbAddMenu.style.display = wbAddMenu.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.addEventListener('click', (e) => {
+        if (wbAddMenu.style.display === 'block' && !wbAddMenu.contains(e.target) && e.target !== wbAddBtn) {
+            wbAddMenu.style.display = 'none';
+        }
+    });
+}
+
+// Add Group
+const btnAddGroup = document.getElementById('wb-add-group-btn');
+if (btnAddGroup) {
+    btnAddGroup.addEventListener('click', () => {
+        if (wbAddMenu) wbAddMenu.style.display = 'none';
+        const input = getWbElement('add-group-name-input');
+        if (input) input.value = '';
+        openWbOverlay('add-group-overlay');
+    });
+}
+
+const confirmAddGroupBtn = document.getElementById('confirm-add-group-btn');
+if (confirmAddGroupBtn) {
+    confirmAddGroupBtn.addEventListener('click', () => {
+        const nameInput = document.getElementById('add-group-name-input');
+        const name = nameInput ? nameInput.value.trim() : '';
+        normalizeGroups();
+
+        if (!name) {
+            showToast('请输入分组名称');
+            return;
+        }
+
+        if (wbGroups.includes(name) || name === '未分组') {
+            showToast('分组已存在');
+            return;
+        }
+
+        wbGroups.push(name);
+        saveWorldBooksData();
+        renderWorldBooks();
+        if (nameInput) nameInput.value = '';
+        closeWbOverlay('add-group-overlay');
+        showToast('分组已添加');
+    });
+}
+
+const cancelAddGroupBtn = document.getElementById('cancel-add-group-btn');
+if (cancelAddGroupBtn) {
+    cancelAddGroupBtn.addEventListener('click', () => {
+        closeWbOverlay('add-group-overlay');
+    });
+}
+
+// Add / Edit Book Logic
+const btnAddBook = document.getElementById('wb-add-book-btn');
+const addEntryBtn = document.getElementById('add-book-entry-btn');
+
+// New Buttons
+const wbEditActions = document.getElementById('wb-edit-actions');
+const deleteWorldBookBtn = document.getElementById('delete-world-book-btn');
+
+// 导入导出按钮已被移除，不再获取其DOM节点
+
+const wbImportFileInput = document.getElementById('wb-import-file');
+const wbImportMainBtn = document.getElementById('world-book-import-btn');
+const wbImportMenuBtn = document.getElementById('wb-import-menu-btn');
+const wbGroupBackBtn = document.getElementById('wb-group-back-btn');
+const wbGroupAddBookBtn = document.getElementById('wb-group-add-book-btn');
+const wbGroupDeleteCurrentBtn = document.getElementById('wb-group-delete-current-btn');
+
+if (btnAddBook) {
+    btnAddBook.addEventListener('click', () => {
+        if (wbAddMenu) wbAddMenu.style.display = 'none';
+        openBookModal(); // Open in create mode
+    });
+}
+
+function triggerWorldBookImport() {
+    if (wbAddMenu) wbAddMenu.style.display = 'none';
+    if (wbImportFileInput) wbImportFileInput.click();
+}
+
+if (wbImportMainBtn) wbImportMainBtn.addEventListener('click', triggerWorldBookImport);
+if (wbImportMenuBtn) wbImportMenuBtn.addEventListener('click', triggerWorldBookImport);
+
+if (wbGroupBackBtn) {
+    wbGroupBackBtn.addEventListener('click', () => {
+        showWbMainPage();
+    });
+}
+
+if (wbGroupAddBookBtn) {
+    wbGroupAddBookBtn.addEventListener('click', () => {
+        openBookModal(null, activeWbGroupName);
+    });
+}
+
+if (wbGroupDeleteCurrentBtn) {
+    wbGroupDeleteCurrentBtn.addEventListener('click', () => {
+        if (!activeWbGroupName || activeWbGroupName === '未分组') return;
+        deleteGroupByName(activeWbGroupName, true);
+    });
+}
+
+if (btnAddBook) {
+    btnAddBook.addEventListener('click', () => {
+        if (wbAddMenu) wbAddMenu.style.display = 'none';
+        openBookModal(); // Open in create mode
+    });
+}
+
+function showCenteredConfirm({
+    title = '确认操作',
+    message = '确定继续吗？',
+    confirmText = '确认',
+    cancelText = '取消',
+    isDestructive = false,
+    onConfirm
+} = {}) {
+    if (window.showCustomModal) {
+        window.showCustomModal({
+            title,
+            message,
+            isDestructive,
+            confirmText,
+            cancelText,
+            onConfirm
+        });
+        return;
+    }
+
+    const existingModal = document.getElementById('wb-inline-confirm-overlay');
+    if (existingModal) existingModal.remove();
+
+    const overlay = document.createElement('div');
+    overlay.id = 'wb-inline-confirm-overlay';
+    overlay.className = 'bottom-sheet-overlay wb-centered-modal-overlay active';
+    overlay.innerHTML = `
+        <div class="wb-centered-modal-card wb-group-modal-card wb-inline-confirm-card">
+            <div class="wb-centered-modal-header">
+                <div class="wb-centered-modal-title">${title}</div>
+            </div>
+            <div class="wb-centered-modal-body wb-inline-confirm-body">
+                <div class="wb-inline-confirm-message">${message}</div>
+                <div class="wb-inline-confirm-actions">
+                    <button type="button" class="wb-inline-confirm-btn wb-inline-confirm-cancel">${cancelText}</button>
+                    <button type="button" class="wb-inline-confirm-btn ${isDestructive ? 'wb-inline-confirm-danger' : 'wb-inline-confirm-confirm'}">${confirmText}</button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    const cleanup = () => overlay.remove();
+    const cancelBtn = overlay.querySelector('.wb-inline-confirm-cancel');
+    const confirmBtn = overlay.querySelector(isDestructive ? '.wb-inline-confirm-danger' : '.wb-inline-confirm-confirm');
+
+    cancelBtn.addEventListener('click', cleanup);
+    confirmBtn.addEventListener('click', () => {
+        cleanup();
+        if (typeof onConfirm === 'function') onConfirm();
+    });
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) cleanup();
+    });
+
+    document.body.appendChild(overlay);
+}
+
+function normalizeEntryForEditor(entry = {}, idx = 0) {
+    const baseEntry = (window.normalizeWorldBookEntry ? window.normalizeWorldBookEntry(entry) : {
+        id: entry.id || `wb-entry-${Date.now()}-${idx}`,
+        title: entry.title || entry.name || entry.keyword || `词条${idx + 1}`,
+        keyword: entry.title ? (entry.keyword || '') : '',
+        content: entry.content || '',
+        triggerMode: entry.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+        injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(entry.injectionPosition)
+            ? entry.injectionPosition
+            : 'before_role',
+        systemDepth: Number.isFinite(Number(entry.systemDepth)) ? Number(entry.systemDepth) : 4,
+        order: Number.isFinite(Number(entry.order)) ? Number(entry.order) : 100,
+        recursive: false,
+        enabled: entry.enabled !== false
+    });
+
+    return {
+        ...baseEntry,
+        id: Date.now() + idx,
+        title: baseEntry.title || entry.keyword || `词条${idx + 1}`,
+        keyword: entry.title ? (baseEntry.keyword || '') : (entry.triggerMode === 'keyword' ? (baseEntry.keyword || '') : ''),
+        content: baseEntry.content || '',
+        triggerMode: baseEntry.triggerMode || 'permanent',
+        injectionPosition: baseEntry.injectionPosition || 'before_role',
+        systemDepth: Number.isFinite(Number(baseEntry.systemDepth)) ? Number(baseEntry.systemDepth) : 4,
+        order: Number.isFinite(Number(baseEntry.order)) ? Number(baseEntry.order) : 100,
+        recursive: false,
+        enabled: baseEntry.enabled !== false
+    };
+}
+
+function createDefaultEntry(index = 0) {
+    return normalizeEntryForEditor({
+        title: `词条${index + 1}`,
+        keyword: '',
+        content: '',
+        triggerMode: 'permanent',
+        injectionPosition: 'before_role',
+        systemDepth: 4,
+        order: 100,
+        recursive: false,
+        enabled: true
+    }, index);
+}
+
+function renderAddBookGroupSelect() {
+    const groupSelect = document.getElementById('add-book-group-input');
+    if (!groupSelect) return;
+    
+    normalizeGroups();
+    const allGroups = ['未分组', ...wbGroups];
+    
+    groupSelect.innerHTML = allGroups.map(g => 
+        `<option value="${escapeAttr(g)}">${escapeHtml(g)}</option>`
+    ).join('');
+}
+
+function openBookModal(book = null, preferredGroup = null) {
+    const modalTitle = document.querySelector('#add-book-overlay .wb-centered-modal-title, #add-book-overlay .sheet-title');
+    const nameInput = document.getElementById('add-book-name-input');
+    const groupInput = document.getElementById('add-book-group-input');
+    
+    renderAddBookGroupSelect();
+    
+    // Reset state
+    if (book) {
+        editingBookId = book.id;
+        if (modalTitle) modalTitle.textContent = '编辑世界书';
+        if (nameInput) nameInput.value = book.name || '';
+        if (groupInput) groupInput.value = normalizeGroupName(book.group);
+        
+        // Show Edit Actions
+        if(wbEditActions) wbEditActions.style.display = 'flex';
+        if(deleteWorldBookBtn) deleteWorldBookBtn.style.display = 'flex';
+
+        // Clone entries deeply to avoid reference issues
+        tempEntries = (Array.isArray(book.entries) ? book.entries : []).map((e, idx) => normalizeEntryForEditor(e, idx));
+        
+        if (tempEntries.length > 0) {
+            activeEntryId = tempEntries[0].id;
+            renderEntries();
+        } else {
+            addEntry();
+        }
+    } else {
+        editingBookId = null;
+        if (modalTitle) modalTitle.textContent = '添加世界书';
+        if (nameInput) nameInput.value = '';
+        if (groupInput) groupInput.value = '未分组';
+        
+        // Hide Edit Actions
+        if(wbEditActions) wbEditActions.style.display = 'none';
+        if(deleteWorldBookBtn) deleteWorldBookBtn.style.display = 'none';
+
+        tempEntries = [];
+        // Add initial empty entry
+        addEntry();
+    }
+    
+    openWbOverlay('add-book-overlay');
+}
+
+// Delete Logic
+if (deleteWorldBookBtn) {
+    deleteWorldBookBtn.addEventListener('click', () => {
+        if (!editingBookId) return;
+        showCenteredConfirm({
+            title: '删除世界书',
+            message: '确定要删除这本世界书吗？此操作不可恢复。',
+            isDestructive: true,
+            confirmText: '删除',
+            onConfirm: () => {
+                worldBooks = worldBooks.filter(b => b.id !== editingBookId);
+                saveWorldBooksData();
+                renderWorldBooks();
+                closeWbOverlay('add-book-overlay');
+                showToast('世界书已删除');
+            }
+        });
+    });
+}
+
+function addEntry() {
+    const newEntry = createDefaultEntry(tempEntries.length);
+    tempEntries.push(newEntry);
+    activeEntryId = newEntry.id;
+    renderEntries();
+}
+
+function deleteEntry(id, e) {
+    e.stopPropagation();
+    showCenteredConfirm({
+        title: '删除词条',
+        message: '确定要删除这个词条吗？此操作不可恢复。',
+        isDestructive: true,
+        confirmText: '删除',
+        onConfirm: () => {
+            tempEntries = tempEntries.filter(ent => ent.id !== id);
+            if (activeEntryId === id) {
+                activeEntryId = null;
+            }
+            renderEntries();
+        }
+    });
+}
+
+function renderEntries() {
+    const listContainer = document.getElementById('wb-entries-list-container');
+    if(!listContainer) return;
+    listContainer.innerHTML = '';
+    
+    tempEntries.forEach(entry => {
+        const isExpanded = entry.id === activeEntryId;
+        const item = document.createElement('div');
+        item.className = `wb-entry-item ${isExpanded ? 'expanded' : ''}`;
+        
+        const showSystemDepthFields = entry.injectionPosition === 'system_depth';
+        const showTriggerKeywordField = entry.triggerMode === 'keyword';
+        const triggerLabel = entry.triggerMode === 'keyword' ? '关键词' : '永久';
+        const positionLabel = entry.injectionPosition === 'after_role'
+            ? '角色后'
+            : entry.injectionPosition === 'system_depth'
+                ? '系统'
+                : '角色前';
+        
+        item.innerHTML = `
+            <div class="wb-entry-header">
+                <div class="wb-entry-title-wrap">
+                    <span class="wb-entry-title">${escapeHtml(entry.title || '未命名词条')}</span>
+                    <span class="wb-entry-subtitle">${triggerLabel} · ${positionLabel}</span>
+                </div>
+                <div class="wb-entry-actions">
+                    <i class="fas fa-xmark wb-entry-delete-btn"></i>
+                    <i class="fas fa-chevron-down wb-entry-toggle-icon"></i>
+                </div>
+            </div>
+            <div class="wb-entry-body">
+                <label class="wb-entry-field">
+                    <span class="wb-entry-field-label">条目名字</span>
+                    <input type="text" class="wb-entry-title-input wb-entry-bubble-input" placeholder="输入条目名字" value="${escapeAttr(entry.title || '')}">
+                </label>
+                <div class="wb-entry-meta-grid" style="grid-template-columns: 1fr 1fr;">
+                    <label class="wb-entry-field">
+                        <span class="wb-entry-field-label">触发模式</span>
+                        <select class="wb-entry-trigger-mode wb-entry-select">
+                            <option value="permanent" ${entry.triggerMode === 'permanent' ? 'selected' : ''}>永久</option>
+                            <option value="keyword" ${entry.triggerMode === 'keyword' ? 'selected' : ''}>关键词</option>
+                        </select>
+                    </label>
+                    <label class="wb-entry-field">
+                        <span class="wb-entry-field-label">注入位置</span>
+                        <select class="wb-entry-injection-position wb-entry-select">
+                            <option value="before_role" ${entry.injectionPosition === 'before_role' ? 'selected' : ''}>角色前</option>
+                            <option value="after_role" ${entry.injectionPosition === 'after_role' ? 'selected' : ''}>角色后</option>
+                            <option value="system_depth" ${entry.injectionPosition === 'system_depth' ? 'selected' : ''}>系统</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="wb-entry-system-depth-fields" style="display: ${showSystemDepthFields ? 'block' : 'none'};">
+                    <label class="wb-entry-field">
+                        <span class="wb-entry-field-label">深度</span>
+                        <input type="number" class="wb-entry-system-depth-input wb-entry-number-input" min="0" value="${Number.isFinite(Number(entry.systemDepth)) ? Number(entry.systemDepth) : 4}">
+                    </label>
+                </div>
+                <div class="wb-entry-trigger-keyword-field" style="display: ${showTriggerKeywordField ? 'block' : 'none'};">
+                    <label class="wb-entry-field">
+                        <span class="wb-entry-field-label">关键词 (多个用逗号分隔)</span>
+                        <input type="text" class="wb-entry-keyword-input wb-entry-bubble-input" placeholder="输入关键词..." value="${escapeAttr(entry.keyword || '')}">
+                    </label>
+                </div>
+                <label class="wb-entry-field">
+                    <span class="wb-entry-field-label">条目内容</span>
+                    <textarea class="wb-entry-body-textarea" placeholder="输入条目内容...">${escapeHtml(entry.content || '')}</textarea>
+                </label>
+            </div>
+        `;
+        
+        const header = item.querySelector('.wb-entry-header');
+        const deleteBtn = item.querySelector('.wb-entry-delete-btn');
+        const titleInput = item.querySelector('.wb-entry-title-input');
+        const triggerModeInput = item.querySelector('.wb-entry-trigger-mode');
+        const injectionPositionInput = item.querySelector('.wb-entry-injection-position');
+        const systemDepthInput = item.querySelector('.wb-entry-system-depth-input');
+        const keywordInput = item.querySelector('.wb-entry-keyword-input');
+        const contentInput = item.querySelector('.wb-entry-body-textarea');
+        
+        header.addEventListener('click', (e) => {
+            if(e.target === deleteBtn || deleteBtn.contains(e.target)) return;
+            if (activeEntryId === entry.id) {
+                activeEntryId = null;
+            } else {
+                activeEntryId = entry.id;
+            }
+            renderEntries();
+        });
+        
+        deleteBtn.addEventListener('click', (e) => {
+            deleteEntry(entry.id, e);
+        });
+        
+        titleInput.addEventListener('input', (e) => {
+            entry.title = e.target.value;
+            item.querySelector('.wb-entry-title').textContent = entry.title || '未命名词条';
+        });
+        
+        triggerModeInput.addEventListener('change', (e) => {
+            entry.triggerMode = e.target.value === 'keyword' ? 'keyword' : 'permanent';
+            renderEntries();
+        });
+        
+        injectionPositionInput.addEventListener('change', (e) => {
+            entry.injectionPosition = e.target.value;
+            renderEntries();
+        });
+        
+        if (systemDepthInput) {
+            systemDepthInput.addEventListener('input', (e) => {
+                const value = parseInt(e.target.value, 10);
+                entry.systemDepth = Number.isFinite(value) ? value : 4;
+            });
+        }
+        
+        if (keywordInput) {
+            keywordInput.addEventListener('input', (e) => {
+                entry.keyword = e.target.value;
+            });
+        }
+        
+        contentInput.addEventListener('input', (e) => {
+            entry.content = e.target.value;
+        });
+        
+        listContainer.appendChild(item);
+    });
+}
+
+if (addEntryBtn) {
+    addEntryBtn.addEventListener('click', addEntry);
+}
+
+// Group Picker for Add Book - Removed as we now use native select
+
+// Confirm Add/Edit Book
+const confirmAddBookBtn = document.getElementById('confirm-add-book-btn');
+if (confirmAddBookBtn) {
+    confirmAddBookBtn.addEventListener('click', () => {
+        const name = document.getElementById('add-book-name-input')?.value.trim() || '';
+        const group = normalizeGroupName(document.getElementById('add-book-group-input')?.value);
+
+        if (!name) {
+            showToast('请输入世界书名字');
+            return;
+        }
+
+        if (!tempEntries.length) {
+            showToast('请至少添加一个条目');
+            addEntry();
+            return;
+        }
+
+        for (let i = 0; i < tempEntries.length; i += 1) {
+            const entry = tempEntries[i];
+            const label = entry.title ? `“${entry.title}”` : `第 ${i + 1} 个条目`;
+
+            if (entry.triggerMode === 'keyword' && !(entry.keyword || '').trim()) {
+                activeEntryId = entry.id;
+                renderEntries();
+                showToast(`${label}需要填写关键词`);
+                return;
+            }
+
+            if (!(entry.content || '').trim()) {
+                activeEntryId = entry.id;
+                renderEntries();
+                showToast(`${label}需要填写条目内容`);
+                return;
+            }
+        }
+        
+        // Clean up entries (remove id used for UI)
+        const finalEntries = tempEntries.map((e, idx) => ({
+            ...normalizeEntryForEditor(e, idx),
+            id: undefined,
+            title: (e.title || '').trim() || `词条${idx + 1}`,
+            keyword: e.triggerMode === 'keyword' ? (e.keyword || '').trim() : '',
+            content: (e.content || '').trim(),
+            triggerMode: e.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+            injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(e.injectionPosition)
+                ? e.injectionPosition
+                : 'before_role',
+            systemDepth: Number.isFinite(Number(e.systemDepth)) ? Number(e.systemDepth) : 4,
+            order: 100, // 后台统一保存为100，不再依赖界面输入框
+            recursive: false,
+            enabled: e.enabled !== false
+        })).map(({ id, ...rest }) => rest);
+
+        if (editingBookId) {
+            // Update existing
+            const book = worldBooks.find(b => String(b.id) === String(editingBookId));
+            if (book) {
+                book.name = name;
+                book.group = group;
+                book.entries = finalEntries;
+                showToast('世界书已更新');
+            }
+        } else {
+            // Create new
+            worldBooks.push({
+                id: Date.now(),
+                name,
+                group: group === '未分组' ? '未分组' : group,
+                entries: finalEntries,
+                isGlobal: false,
+                attachedRoles: []
+            });
+            showToast('世界书已添加');
+        }
+
+        saveWorldBooksData();
+        renderWorldBooks();
+        closeWbOverlay('add-book-overlay');
+    });
+}
+
+
+function sanitizeImportedWorldBook(rawBook, fallbackName = '导入的世界书') {
+    const source = rawBook && typeof rawBook === 'object' ? rawBook : {};
+    const rawEntries = Array.isArray(source.entries)
+        ? source.entries
+        : (source.content ? [{ title: source.name || fallbackName, content: source.content }] : []);
+
+    const entries = rawEntries.map((entry, idx) => {
+        const normalized = normalizeEntryForEditor(entry || {}, idx);
+        return {
+            title: normalized.title || `词条${idx + 1}`,
+            keyword: normalized.triggerMode === 'keyword' ? (normalized.keyword || '') : '',
+            content: normalized.content || '',
+            triggerMode: normalized.triggerMode === 'keyword' ? 'keyword' : 'permanent',
+            injectionPosition: ['before_role', 'after_role', 'system_depth'].includes(normalized.injectionPosition)
+                ? normalized.injectionPosition
+                : 'before_role',
+            systemDepth: Number.isFinite(Number(normalized.systemDepth)) ? Number(normalized.systemDepth) : 4,
+            order: Number.isFinite(Number(normalized.order)) ? Number(normalized.order) : 100,
+            recursive: false,
+            enabled: normalized.enabled !== false
+        };
+    }).filter(entry => (entry.content || '').trim());
+
+    return {
+        id: Date.now() + Math.floor(Math.random() * 10000),
+        name: String(source.name || source.title || fallbackName || '导入的世界书').trim() || '导入的世界书',
+        group: normalizeGroupName(source.group || activeWbGroupName || '未分组'),
+        entries: entries.length ? entries : [{
+            title: '正文',
+            keyword: '',
+            content: String(source.content || fallbackName || '').trim() || '空白内容',
+            triggerMode: 'permanent',
+            injectionPosition: 'before_role',
+            systemDepth: 4,
+            order: 100,
+            recursive: false,
+            enabled: true
+        }],
+        isGlobal: !!source.isGlobal,
+        attachedRoles: Array.isArray(source.attachedRoles) ? source.attachedRoles : []
+    };
+}
+
+function getFileBaseName(fileName = '') {
+    return String(fileName || '导入的世界书').replace(/\.[^/.]+$/, '') || '导入的世界书';
+}
+
+async function readWorldBookImportText(file) {
+    const fileName = file?.name || '';
+    const lowerName = fileName.toLowerCase();
+
+    if (lowerName.endsWith('.docx')) {
+        if (!window.mammoth || typeof window.mammoth.extractRawText !== 'function') {
+            showToast('docx 解析库加载失败，请检查网络或先另存为 txt 后导入');
+            return null;
+        }
+
+        const arrayBuffer = await file.arrayBuffer();
+        const result = await window.mammoth.extractRawText({ arrayBuffer });
+        const text = result?.value || '';
+        if (!text.trim()) {
+            throw new Error('docx 文件内容为空');
+        }
+        return text;
+    }
+
+    return await file.text();
+}
+
+function parseImportedWorldBooks(text, file) {
+    const fileName = file?.name || '';
+    const fallbackName = getFileBaseName(fileName);
+    const lowerName = fileName.toLowerCase();
+    const trimmed = String(text || '').trim();
+
+    if (!trimmed) {
+        throw new Error('文件内容为空');
+    }
+
+    if (lowerName.endsWith('.json') || trimmed.startsWith('{') || trimmed.startsWith('[')) {
+        const parsed = JSON.parse(trimmed);
+        const list = Array.isArray(parsed)
+            ? parsed
+            : (Array.isArray(parsed.worldBooks) ? parsed.worldBooks : [parsed]);
+        return list.map((book, idx) => sanitizeImportedWorldBook(book, idx === 0 ? fallbackName : `${fallbackName}-${idx + 1}`));
+    }
+
+    return [sanitizeImportedWorldBook({
+        name: fallbackName,
+        group: activeWbGroupName || '未分组',
+        entries: [{
+            title: fallbackName,
+            content: trimmed,
+            triggerMode: 'permanent',
+            injectionPosition: 'before_role',
+            systemDepth: 4,
+            order: 100,
+            recursive: false,
+            enabled: true
+        }]
+    }, fallbackName)];
+}
+
+async function importWorldBookFile(file) {
+    if (!file) return;
+
+    try {
+        const text = await readWorldBookImportText(file);
+        if (text === null) return;
+
+        const importedBooks = parseImportedWorldBooks(text, file);
+        if (!importedBooks.length) {
+            showToast('没有可导入的世界书');
+            return;
+        }
+
+        worldBooks.push(...importedBooks);
+        importedBooks.forEach(book => {
+            const group = normalizeGroupName(book.group);
+            if (group !== '未分组' && !wbGroups.includes(group)) wbGroups.push(group);
+        });
+
+        saveWorldBooksData();
+        renderWorldBooks();
+        if (activeWbGroupName) renderGroupBookList(activeWbGroupName);
+        showToast(`已导入 ${importedBooks.length} 本世界书`);
+    } catch (error) {
+        console.error('Failed to import world book:', error);
+        showToast('导入失败：请检查文件格式');
+    }
+}
+
+if (wbImportFileInput) {
+    wbImportFileInput.addEventListener('change', async (event) => {
+        const file = event.target.files && event.target.files[0];
+        await importWorldBookFile(file);
+        event.target.value = '';
+    });
+}
+
+// Render World Books Helper
+function calculateTokens(entries) {
+    // Very rough mock token calculation
+    let text = (Array.isArray(entries) ? entries : []).map(e => (e.title || '') + (e.keyword || '') + (e.content || '')).join('');
+    return Math.ceil(text.length * 1.5) || 0;
+}
+window.calculateTokens = calculateTokens; // Export for imessage.js
+
+function createBookHtml(book, type) {
+    let rightElementHtml = '';
+    const tokens = calculateTokens(book.entries);
+    const bookId = escapeAttr(book.id);
+    const bookName = escapeHtml(book.name || '未命名世界书');
+
+    if (type === 'all' || type === 'global') {
+        rightElementHtml = `
+            <div class="wb-book-meta">
+                <span class="wb-token-count">+${tokens} Tokens</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" class="wb-global-toggle" data-id="${bookId}" ${book.isGlobal ? 'checked' : ''}>
+                    <span class="slider"></span>
+                </label>
+            </div>
+        `;
+    } else if (type === 'local') {
+        const avatarSrc = Array.isArray(book.attachedRoles) ? (book.attachedRoles[0]?.avatarUrl || '') : '';
+        const avatarInner = avatarSrc ? `<img src="${escapeAttr(avatarSrc)}">` : `<i class="fas fa-user"></i>`;
+        rightElementHtml = `
+            <div class="wb-book-meta">
+                <span class="wb-token-count">+${tokens} Tokens</span>
+                <div class="wb-char-avatar">${avatarInner}</div>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="wb-book-item" data-id="${bookId}">
+            <div class="wb-book-info">
+                <div class="wb-book-icon"><i class="fas fa-book"></i></div>
+                <div class="wb-book-name">${bookName}</div>
+            </div>
+            ${rightElementHtml}
+        </div>
+    `;
+}
+
+function getBooksInGroup(groupName) {
+    return worldBooks.filter(b => normalizeGroupName(b.group) === normalizeGroupName(groupName));
+}
+
+function createBookListItemElement(book, type = 'all') {
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = createBookHtml(book, type).trim();
+    const item = wrapper.firstElementChild;
+    if (!item) return document.createElement('div');
+
+    item.addEventListener('click', (event) => {
+        if (event.target.closest('.toggle-switch') || event.target.closest('.wb-global-toggle')) return;
+        openBookModal(book);
+    });
+
+    return item;
+}
+
+function deleteGroupByName(groupName, returnToMain = false) {
+    const normalized = normalizeGroupName(groupName);
+    if (normalized === '未分组') return;
+
+    showCenteredConfirm({
+        title: '删除分组',
+        message: `确定要删除分组 "${normalized}" 吗？该分组下的世界书将被移动到"未分组"。`,
+        isDestructive: true,
+        confirmText: '删除',
+        onConfirm: () => {
+            wbGroups = wbGroups.filter(g => g !== normalized);
+            worldBooks.forEach(b => {
+                if (normalizeGroupName(b.group) === normalized) {
+                    b.group = '未分组';
+                }
+            });
+            if (returnToMain) activeWbGroupName = null;
+            saveWorldBooksData();
+            renderWorldBooks();
+            if (returnToMain) showWbMainPage();
+            showToast('分组已删除');
+        }
+    });
+}
+
+function renderGroupBookList(groupName) {
+    const groupTitle = document.getElementById('wb-group-page-title');
+    const largeTitle = document.getElementById('wb-group-large-title');
+    const list = document.getElementById('wb-group-book-list');
+    const deleteBtn = document.getElementById('wb-group-delete-current-btn');
+    if (!list) return;
+
+    const normalized = normalizeGroupName(groupName);
+    const booksInGroup = getBooksInGroup(normalized);
+    if (groupTitle) groupTitle.textContent = normalized;
+    if (largeTitle) largeTitle.textContent = normalized;
+    if (deleteBtn) deleteBtn.style.display = normalized === '未分组' ? 'none' : 'inline-flex';
+
+    list.innerHTML = '';
+    if (!booksInGroup.length) {
+        list.innerHTML = '<div class="wb-files-empty-state"><i class="fas fa-folder-open"></i><span>这个分组还没有世界书</span></div>';
+        return;
+    }
+
+    booksInGroup.forEach(book => {
+        list.appendChild(createBookListItemElement(book, 'all'));
+    });
+}
+
+function showWbMainPage() {
+    activeWbGroupName = null;
+    const mainPage = document.getElementById('wb-files-main-page');
+    const groupPage = document.getElementById('wb-files-group-page');
+    if (mainPage) mainPage.classList.add('active');
+    if (groupPage) groupPage.classList.remove('active');
+}
+
+function openWbGroupPage(groupName) {
+    activeWbGroupName = normalizeGroupName(groupName);
+    const mainPage = document.getElementById('wb-files-main-page');
+    const groupPage = document.getElementById('wb-files-group-page');
+    if (mainPage) mainPage.classList.remove('active');
+    if (groupPage) groupPage.classList.add('active');
+    renderGroupBookList(activeWbGroupName);
+}
+
+function createGroupFolderElement(groupName) {
+    const normalized = normalizeGroupName(groupName);
+    const booksInGroup = getBooksInGroup(normalized);
+    const groupDiv = document.createElement('div');
+    groupDiv.className = 'wb-group-container';
+    groupDiv.setAttribute('role', 'button');
+    groupDiv.setAttribute('tabindex', '0');
+
+    const deleteBtnHtml = normalized !== '未分组'
+        ? '<button type="button" class="wb-group-delete-btn" aria-label="删除分组"><i class="fas fa-xmark"></i></button>'
+        : '';
+
+    groupDiv.innerHTML = `
+        <div class="wb-group-header">
+            ${deleteBtnHtml}
+            <div class="wb-folder-visual" aria-hidden="true">
+                <span class="wb-folder-tab"></span>
+                <span class="wb-folder-body"><i class="fas fa-folder wb-group-folder-icon"></i></span>
+            </div>
+            <div class="wb-group-title">${escapeHtml(normalized)}</div>
+            <div class="wb-group-count">${booksInGroup.length} 项</div>
+        </div>
+    `;
+
+    const deleteBtn = groupDiv.querySelector('.wb-group-delete-btn');
+    if (deleteBtn) {
+        deleteBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            deleteGroupByName(normalized);
+        });
+    }
+
+    const openGroup = () => openWbGroupPage(normalized);
+    groupDiv.addEventListener('click', (e) => {
+        if (!deleteBtn || !deleteBtn.contains(e.target)) openGroup();
+    });
+    groupDiv.addEventListener('keydown', (event) => {
+        if (event.isComposing || event.keyCode === 229) return;
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openGroup();
+        }
+    });
+
+    return groupDiv;
+}
+
+function renderWorldBooks() {
+    normalizeGroups();
+    const allList = document.getElementById('wb-all-list');
+    if (!allList) return;
+    allList.innerHTML = '';
+
+    getAllDisplayGroups().forEach(groupName => {
+        allList.appendChild(createGroupFolderElement(groupName));
+    });
+
+    if (activeWbGroupName) {
+        renderGroupBookList(activeWbGroupName);
+    }
+
+    // Render Global Tab
+    const globalList = document.getElementById('wb-global-list');
+    if (globalList) {
+        const globalBooks = worldBooks.filter(b => b.isGlobal);
+        globalList.innerHTML = '';
+        if (globalBooks.length) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'wb-flat-book-list';
+            globalBooks.forEach(book => wrapper.appendChild(createBookListItemElement(book, 'global')));
+            globalList.appendChild(wrapper);
+        } else {
+            globalList.innerHTML = `<div class="wb-empty-state">暂无全局世界书</div>`;
+        }
+    }
+
+    // Render Local Tab
+    const localList = document.getElementById('wb-local-list');
+    if (localList) {
+        localList.innerHTML = '';
+
+        const friends = window.getImFriends ? window.getImFriends() : [];
+        const wrapper = document.createElement('div');
+        wrapper.className = 'wb-flat-book-list';
+
+        worldBooks.forEach(book => {
+            const boundFriends = friends.filter(f => Array.isArray(f.boundBooks) && f.boundBooks.map(String).includes(String(book.id)));
+
+            boundFriends.forEach(friend => {
+                const item = createBookListItemElement(book, 'local');
+                const avatarSrc = friend.avatarUrl || '';
+                const avatar = item.querySelector('.wb-char-avatar');
+                if (avatar) {
+                    avatar.innerHTML = avatarSrc ? `<img src="${escapeAttr(avatarSrc)}">` : `<i class="fas fa-user"></i>`;
+                }
+                wrapper.appendChild(item);
+            });
+        });
+
+        if (wrapper.children.length === 0) {
+            localList.innerHTML = `<div class="wb-empty-state">暂无绑定</div>`;
+        } else {
+            localList.appendChild(wrapper);
+        }
+    }
+}
+
+window.renderWorldBooks = renderWorldBooks; // Export for update
+window.getWorldBooks = function() {
+    return Array.isArray(worldBooks) ? worldBooks : [];
+};
+
+window.renderWorldBookSelector = function(selectedIds = [], onConfirm) {
+    let selectedBookIds = [];
+    let selectorSheet = document.getElementById('wb-selector-sheet');
+
+    if (!selectorSheet) {
+        selectorSheet = document.createElement('div');
+        selectorSheet.id = 'wb-selector-sheet';
+        selectorSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+        selectorSheet.style.zIndex = '1150';
+        selectorSheet.innerHTML = `
+            <div class="bottom-sheet wb-selector-panel">
+                <div class="sheet-handle"></div>
+                <div class="sheet-title">选择世界书</div>
+                <div class="wb-selector-body">
+                    <div class="wb-selector-field">
+                        <label for="wb-selector-group-select">选择分组</label>
+                        <select id="wb-selector-group-select" class="wb-native-select"></select>
+                    </div>
+                    <div class="wb-selector-field">
+                        <label for="wb-selector-book-select">选择世界书</label>
+                        <select id="wb-selector-book-select" class="wb-native-select"></select>
+                        <div id="wb-selector-empty" class="wb-selector-empty"></div>
+                    </div>
+                    <div class="wb-selector-preview-head">
+                        <span>已挂载</span>
+                        <span id="wb-selector-mounted-count">0 项</span>
+                    </div>
+                    <div id="wb-selector-mounted-list" class="wb-selector-mounted-list"></div>
+                </div>
+                <div class="wb-selector-actions">
+                    <button type="button" class="sheet-action wb-selector-action-btn" id="wb-selector-cancel-btn">取消</button>
+                    <button type="button" class="sheet-action confirm-action wb-selector-action-btn" id="wb-selector-confirm-btn">保存</button>
+                </div>
+            </div>
+        `;
+        const appRoot = document.getElementById('app') || document.body;
+        appRoot.appendChild(selectorSheet);
+
+        selectorSheet.addEventListener('click', (event) => {
+            if (event.target === selectorSheet) closeView(selectorSheet);
+        });
+    }
+
+    const groupSelect = selectorSheet.querySelector('#wb-selector-group-select');
+    const bookSelect = selectorSheet.querySelector('#wb-selector-book-select');
+    const emptyEl = selectorSheet.querySelector('#wb-selector-empty');
+    const mountedList = selectorSheet.querySelector('#wb-selector-mounted-list');
+    const mountedCount = selectorSheet.querySelector('#wb-selector-mounted-count');
+    const confirmBtn = selectorSheet.querySelector('#wb-selector-confirm-btn');
+    const cancelBtn = selectorSheet.querySelector('#wb-selector-cancel-btn');
+
+    const getBookById = (id) => (Array.isArray(worldBooks) ? worldBooks : [])
+        .find(book => String(book.id) === String(id));
+
+    const addGroup = (groups, groupName) => {
+        const normalized = normalizeGroupName(groupName);
+        if (!groups.includes(normalized)) groups.push(normalized);
+    };
+
+    const getSelectorGroups = () => {
+        const groups = [];
+        getAllDisplayGroups().forEach(groupName => addGroup(groups, groupName));
+        (Array.isArray(worldBooks) ? worldBooks : []).forEach(book => addGroup(groups, book.group));
+        return groups;
+    };
+
+    const renderBookSelect = () => {
+        if (!bookSelect || !groupSelect) return;
+
+        const currentGroup = normalizeGroupName(groupSelect.value);
+        const selectedSet = new Set(selectedBookIds.map(String));
+        const booksInGroup = (Array.isArray(worldBooks) ? worldBooks : [])
+            .filter(book => normalizeGroupName(book.group) === currentGroup)
+            .filter(book => !selectedSet.has(String(book.id)));
+
+        if (booksInGroup.length === 0) {
+            bookSelect.innerHTML = '<option value="">暂无可挂载世界书</option>';
+            bookSelect.disabled = true;
+            if (emptyEl) {
+                const hasBooksInGroup = (Array.isArray(worldBooks) ? worldBooks : [])
+                    .some(book => normalizeGroupName(book.group) === currentGroup);
+                emptyEl.textContent = hasBooksInGroup ? '该分组下的世界书已全部挂载' : '该分组下暂无世界书';
+            }
+            return;
+        }
+
+        bookSelect.disabled = false;
+        bookSelect.innerHTML = [
+            '<option value="">选择要挂载的世界书</option>',
+            ...booksInGroup.map(book => {
+                const tokens = calculateTokens(book.entries);
+                const name = book.name || '未命名世界书';
+                return `<option value="${escapeAttr(book.id)}">${escapeHtml(name)} · +${tokens} Tokens</option>`;
+            })
+        ].join('');
+        if (emptyEl) emptyEl.textContent = '';
+    };
+
+    const renderMountedList = () => {
+        if (!mountedList) return;
+
+        if (mountedCount) mountedCount.textContent = `${selectedBookIds.length} 项`;
+
+        if (selectedBookIds.length === 0) {
+            mountedList.innerHTML = '<div class="wb-selector-mounted-empty">还没有挂载世界书</div>';
+            return;
+        }
+
+        mountedList.innerHTML = selectedBookIds.map(id => {
+            const book = getBookById(id);
+            if (!book) return '';
+            const group = normalizeGroupName(book.group);
+            const tokens = calculateTokens(book.entries);
+
+            return `
+                <div class="wb-selector-mounted-card" data-id="${escapeAttr(id)}">
+                    <div class="wb-selector-mounted-icon"><i class="fas fa-book"></i></div>
+                    <div class="wb-selector-mounted-info">
+                        <div class="wb-selector-mounted-name">${escapeHtml(book.name || '未命名世界书')}</div>
+                        <div class="wb-selector-mounted-meta">${escapeHtml(group)} · +${tokens} Tokens</div>
+                    </div>
+                    <button type="button" class="wb-selector-remove-btn" data-id="${escapeAttr(id)}" aria-label="移除 ${escapeAttr(book.name || '世界书')}">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            `;
+        }).join('');
+
+        mountedList.querySelectorAll('.wb-selector-remove-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.getAttribute('data-id');
+                selectedBookIds = selectedBookIds.filter(bookId => String(bookId) !== String(id));
+                renderMountedList();
+                renderBookSelect();
+            });
+        });
+    };
+
+    const renderGroupSelect = () => {
+        if (!groupSelect) return;
+        const groups = getSelectorGroups();
+        const currentValue = normalizeGroupName(groupSelect.value);
+        groupSelect.innerHTML = groups.map(groupName => (
+            `<option value="${escapeAttr(groupName)}">${escapeHtml(groupName)}</option>`
+        )).join('');
+        groupSelect.value = groups.includes(currentValue) ? currentValue : groups[0];
+    };
+
+    selectedBookIds = (Array.isArray(selectedIds) ? selectedIds : [])
+        .map(id => String(id))
+        .filter((id, index, ids) => ids.indexOf(id) === index)
+        .filter(id => !!getBookById(id));
+
+    renderGroupSelect();
+    renderMountedList();
+    renderBookSelect();
+
+    if (groupSelect) {
+        groupSelect.onchange = () => {
+            renderBookSelect();
+        };
+    }
+
+    if (bookSelect) {
+        bookSelect.onchange = () => {
+            const id = bookSelect.value;
+            if (!id || selectedBookIds.includes(String(id))) return;
+            selectedBookIds.push(String(id));
+            bookSelect.value = '';
+            renderMountedList();
+            renderBookSelect();
+        };
+    }
+
+    if (cancelBtn) {
+        cancelBtn.onclick = () => closeView(selectorSheet);
+    }
+
+    if (confirmBtn) {
+        confirmBtn.onclick = () => {
+            closeView(selectorSheet);
+            if (typeof onConfirm === 'function') onConfirm([...selectedBookIds]);
+        };
+    }
+
+    openView(selectorSheet);
+};
+
+function renderLegacyWorldBookSelector(selectedIds = [], onConfirm) {
+    const selected = new Set((Array.isArray(selectedIds) ? selectedIds : []).map(String));
+    let selectorSheet = document.getElementById('wb-selector-sheet');
+
+    if (!selectorSheet) {
+        selectorSheet = document.createElement('div');
+        selectorSheet.id = 'wb-selector-sheet';
+        selectorSheet.className = 'bottom-sheet-overlay detail-sheet-overlay';
+        selectorSheet.style.zIndex = '1150';
+        selectorSheet.innerHTML = `
+            <div class="bottom-sheet" style="height: 72%; display: flex; flex-direction: column;">
+                <div class="sheet-handle"></div>
+                <div class="sheet-title">选择世界书</div>
+                <div id="wb-selector-list" class="account-list" style="flex: 1; overflow-y: auto; margin: 16px;"></div>
+                <div style="display: flex; gap: 10px; padding: 0 16px 20px;">
+                    <div class="sheet-action" id="wb-selector-cancel-btn" style="flex: 1; margin: 0;">取消</div>
+                    <div class="sheet-action confirm-action" id="wb-selector-confirm-btn" style="flex: 1; margin: 0; background-color: #1c1c1e; color: #fff;">保存</div>
+                </div>
+            </div>
+        `;
+        const appRoot = document.getElementById('app') || document.body;
+        appRoot.appendChild(selectorSheet);
+
+        selectorSheet.addEventListener('click', (event) => {
+            if (event.target === selectorSheet) closeView(selectorSheet);
+        });
+    }
+
+    const listEl = selectorSheet.querySelector('#wb-selector-list');
+    const confirmBtn = selectorSheet.querySelector('#wb-selector-confirm-btn');
+    const cancelBtn = selectorSheet.querySelector('#wb-selector-cancel-btn');
+
+    if (listEl) {
+        if (!Array.isArray(worldBooks) || worldBooks.length === 0) {
+            listEl.innerHTML = '<div style="padding: 40px 16px; text-align: center; color: #8e8e93; font-size: 15px;">暂无世界书</div>';
+        } else {
+            listEl.innerHTML = worldBooks.map((book) => {
+                const id = String(book.id);
+                const checked = selected.has(id) ? 'checked' : '';
+                const name = escapeHtml(book.name || '未命名世界书');
+                return `
+                    <label class="settings-item" style="cursor: pointer;">
+                        <div style="display: flex; align-items: center; gap: 10px; min-width: 0;">
+                            <i class="fas fa-book" style="color: #111;"></i>
+                            <span style="font-size: 15px; color: #000; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${name}</span>
+                        </div>
+                        <input type="checkbox" class="wb-selector-checkbox" value="${escapeAttr(id)}" ${checked} style="width: 20px; height: 20px;">
+                    </label>
+                `;
+            }).join('');
+        }
+    }
+
+    if (cancelBtn) {
+        cancelBtn.onclick = () => closeView(selectorSheet);
+    }
+
+    if (confirmBtn) {
+        confirmBtn.onclick = () => {
+            const nextIds = Array.from(selectorSheet.querySelectorAll('.wb-selector-checkbox:checked'))
+                .map((input) => input.value);
+            closeView(selectorSheet);
+            if (typeof onConfirm === 'function') onConfirm(nextIds);
+        };
+    }
+
+    openView(selectorSheet);
+}
+
+// Auto-save summary to World Book globally
+window.autoSaveSummaryToWorldBook = function(title, summaryText) {
+    const newBook = {
+        id: Date.now(),
+        name: title || '自动总结',
+        group: '未分组',
+        entries: [{
+            title: '总结内容',
+            keyword: '',
+            content: summaryText,
+            triggerMode: 'permanent',
+            injectionPosition: 'before_role',
+            systemDepth: 4,
+            order: 100,
+            recursive: false,
+            enabled: true
+        }],
+        isGlobal: true,
+        attachedRoles: []
+    };
+    
+    worldBooks.push(newBook);
+    saveWorldBooksData();
+    renderWorldBooks();
+    showToast('已自动生成全局世界书');
+};
+
+// Global Click Listener for Edit Book (Event Delegation)
+document.addEventListener('click', (e) => {
+    // Handle Edit Book Click
+    const bookItem = e.target.closest('.wb-book-item');
+    if (bookItem) {
+        // Ensure we didn't click the toggle switch
+        if (!e.target.closest('.toggle-switch')) {
+            const bookId = bookItem.getAttribute('data-id');
+            const book = worldBooks.find(b => String(b.id) === String(bookId));
+            if (book) {
+                if (wbAddMenu) wbAddMenu.style.display = 'none'; // Close menu if open
+                openBookModal(book);
+            }
+        }
+    }
+});
+
+// Global Change Listener for Toggles
+document.addEventListener('change', (e) => {
+    if (e.target && e.target.classList.contains('wb-global-toggle')) {
+        const bookId = e.target.getAttribute('data-id');
+        const book = worldBooks.find(b => String(b.id) === String(bookId));
+        if (book) {
+            book.isGlobal = e.target.checked;
+            saveWorldBooksData();
+            
+            // Sync UI: update all switches for this book
+            document.querySelectorAll('.wb-global-toggle').forEach(s => {
+                if (String(s.getAttribute('data-id')) === String(bookId)) {
+                    s.checked = book.isGlobal;
+                }
+            });
+
+            // If in Global tab and unchecking, remove item with animation
+            if (!book.isGlobal) {
+                const globalList = document.getElementById('wb-global-list');
+                // Check if the event came from inside global list
+                if (globalList && globalList.contains(e.target)) {
+                    const row = e.target.closest('.wb-book-item');
+                    if (row) {
+                        row.classList.add('removing');
+                        setTimeout(() => {
+                            row.remove();
+                        }, 300);
+                    }
+                } else {
+                    // Unchecked from All tab, just refresh global list silently
+                    if (globalList) {
+                        const globalBooks = worldBooks.filter(b => b.isGlobal);
+                        globalList.innerHTML = globalBooks.length
+                            ? `<div class="wb-flat-book-list">${globalBooks.map(b => createBookHtml(b, 'global')).join('')}</div>`
+                            : `<div class="wb-empty-state">暂无全局世界书</div>`;
+                    }
+                }
+            } else {
+                // Checked from All tab, add to global list
+                const globalList = document.getElementById('wb-global-list');
+                if (globalList) {
+                    const globalBooks = worldBooks.filter(b => b.isGlobal);
+                    globalList.innerHTML = globalBooks.length
+                        ? `<div class="wb-flat-book-list">${globalBooks.map(b => createBookHtml(b, 'global')).join('')}</div>`
+                        : `<div class="wb-empty-state">暂无全局世界书</div>`;
+                }
+            }
+        }
+    }
+});
