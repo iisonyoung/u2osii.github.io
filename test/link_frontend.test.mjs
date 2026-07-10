@@ -244,6 +244,29 @@ test('keeps offline meeting summary third-person and context bubble theme scopin
     assert.doesNotMatch(applyFriendCssSource, /scopeThemeCss\(friend\.statusCss, contextPrefix\)/);
     assert.match(cssSource, /#msg-context-bubble-clone \.msg-context-row-clone\s*\{/);
 });
+
+test('restores saved iMessage theme CSS after contact data hydration and chat page reuse', async () => {
+    const [indexSource, interfaceSource, settingsSource] = await Promise.all([
+        fs.readFile(new URL('../index.html', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/imessage/4_chat_interface.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/imessage/5_settings.js', import.meta.url), 'utf8')
+    ]);
+    const restoreSource = settingsSource.slice(
+        settingsSource.indexOf('async function applyAllSavedCss'),
+        settingsSource.indexOf('const saveCssPresetBtn', settingsSource.indexOf('async function applyAllSavedCss'))
+    );
+
+    assert.match(restoreSource, /await window\.imApp\.ensureDataReady\(\)/);
+    assert.match(restoreSource, /document\.addEventListener\('imessage-data-ready', restoreSavedCss\)/);
+    assert.match(restoreSource, /restoreSavedCss\(\)/);
+    assert.doesNotMatch(restoreSource, /setTimeout\(\(\) => applyAllSavedCss\(\), 100\)/);
+    assert.match(restoreSource, /window\.imData\.friends\.forEach\(f => applyFriendCss\(f\)\)/);
+
+    assert.ok((interfaceSource.match(/window\.imApp\.applyFriendCss\(friend\)/g) || []).length >= 2);
+    assert.match(indexSource, /js\/imessage\/4_chat_interface\.js\?v=20260710-theme-restore-v1/);
+    assert.match(indexSource, /js\/imessage\/5_settings\.js\?v=20260710-theme-restore-v1/);
+});
+
 test('keeps iOS modal, theme preset, stickers, and private-chat safeguards', async () => {
     const [indexSource, linkSource, bubbleSource, coreSource, settingsSource, cssSource] = await Promise.all([
         fs.readFile(new URL('../index.html', import.meta.url), 'utf8'),
