@@ -2,10 +2,13 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 
-const [settingsSource, settingsCssSource, globalCssSource] = await Promise.all([
+const [settingsSource, settingsCssSource, globalCssSource, imessageCssSource, mobileInputSource, indexSource] = await Promise.all([
     fs.readFile(new URL('../js/settings.js', import.meta.url), 'utf8'),
     fs.readFile(new URL('../css/settings.css', import.meta.url), 'utf8'),
-    fs.readFile(new URL('../css/global.css', import.meta.url), 'utf8')
+    fs.readFile(new URL('../css/global.css', import.meta.url), 'utf8'),
+    fs.readFile(new URL('../css/imessage.css', import.meta.url), 'utf8'),
+    fs.readFile(new URL('../js/mobile_input_compat.js', import.meta.url), 'utf8'),
+    fs.readFile(new URL('../index.html', import.meta.url), 'utf8')
 ]);
 
 function getFunctionBody(source, name) {
@@ -35,57 +38,91 @@ function getCssRule(source, selector) {
     return source.slice(bodyStart + 1, bodyEnd);
 }
 
-test('API config sheet has scoped Android focus/selection CSS without changing global sheets', () => {
-    const apiSheetRule = getCssRule(settingsCssSource, '#api-config-sheet');
-    assert.match(apiSheetRule, /position:\s*fixed/);
-    assert.match(apiSheetRule, /inset:\s*0/);
-    assert.match(apiSheetRule, /overflow-x:\s*hidden/);
-    assert.match(apiSheetRule, /touch-action:\s*none/);
-    assert.match(settingsCssSource, /#api-config-sheet \.form-item input,\s*\n#api-config-sheet \.form-item select/);
-    assert.match(settingsCssSource, /#api-config-sheet \.form-item\s*\{[\s\S]*min-width:\s*0/);
-
+test('shared Android bottom-sheet lock CSS keeps default sheets unchanged', () => {
     const globalBottomSheetRule = getCssRule(globalCssSource, '.bottom-sheet-overlay');
     assert.match(globalBottomSheetRule, /position:\s*absolute/);
     assert.doesNotMatch(globalBottomSheetRule, /position:\s*fixed/);
+
+    const lockedRule = getCssRule(globalCssSource, '.bottom-sheet-overlay.u2-android-input-locked');
+    assert.match(lockedRule, /position:\s*fixed/);
+    assert.match(lockedRule, /inset:\s*0/);
+    assert.match(lockedRule, /overflow-x:\s*hidden/);
+    assert.match(lockedRule, /touch-action:\s*none/);
+    assert.match(globalCssSource, /\.bottom-sheet-overlay\.u2-android-input-locked \.bottom-sheet\s*\{[\s\S]*max-width:\s*100%/);
+    assert.match(globalCssSource, /\.bottom-sheet-overlay\.u2-android-input-locked :is\(input, textarea, select\)\s*\{[\s\S]*min-width:\s*0/);
+
+    assert.doesNotMatch(settingsCssSource, /#api-config-sheet\s*\{[\s\S]*position:\s*fixed/);
+    assert.doesNotMatch(settingsCssSource, /#api-config-sheet \.form-item input/);
 });
 
-test('API config sheet locks home page horizontal scroll while inputs are active', () => {
-    assert.match(settingsSource, /const apiConfigHomeScrollLock = \{/);
-    assert.match(settingsSource, /function getApiConfigPagesContainer\(\)/);
-    assert.match(settingsSource, /document\.getElementById\('pages-container'\)/);
+test('shared Android bottom-sheet guard locks and restores home page horizontal scroll', () => {
+    assert.match(mobileInputSource, /const isAndroid = \/Android\/i\.test/);
+    assert.match(mobileInputSource, /const bottomSheetFocusGuard = \{/);
+    assert.match(mobileInputSource, /function getPagesContainer\(\)/);
+    assert.match(mobileInputSource, /document\.getElementById\('pages-container'\)/);
 
-    const lockBody = getFunctionBody(settingsSource, 'lockApiConfigHomeScroll');
-    assert.match(lockBody, /apiConfigHomeScrollLock\.scrollLeft = pagesContainer \? pagesContainer\.scrollLeft : 0/);
+    const lockBody = getFunctionBody(mobileInputSource, 'lockBottomSheetFocusScroll');
+    assert.match(lockBody, /bottomSheetFocusGuard\.scrollLeft = pagesContainer \? pagesContainer\.scrollLeft : 0/);
     assert.match(lockBody, /pagesContainer\.style\.scrollSnapType = 'none'/);
     assert.match(lockBody, /pagesContainer\.style\.overflowX = 'hidden'/);
     assert.match(lockBody, /pagesContainer\.style\.touchAction = 'none'/);
+    assert.match(lockBody, /overlay\.classList\.add\('u2-android-input-locked'\)/);
 
-    const restoreBody = getFunctionBody(settingsSource, 'restoreApiConfigHomeScroll');
-    assert.match(restoreBody, /pagesContainer\.scrollTo\(\{ left: apiConfigHomeScrollLock\.scrollLeft, behavior: 'auto' \}\)/);
-    assert.match(restoreBody, /pagesContainer\.scrollLeft = apiConfigHomeScrollLock\.scrollLeft/);
+    const restoreBody = getFunctionBody(mobileInputSource, 'restoreBottomSheetFocusPosition');
+    assert.match(restoreBody, /pagesContainer\.scrollTo\(\{ left: bottomSheetFocusGuard\.scrollLeft, behavior: 'auto' \}\)/);
+    assert.match(restoreBody, /pagesContainer\.scrollLeft = bottomSheetFocusGuard\.scrollLeft/);
+    assert.match(restoreBody, /resetHorizontalWindowScroll\(\)/);
 
-    const unlockBody = getFunctionBody(settingsSource, 'unlockApiConfigHomeScroll');
-    assert.match(unlockBody, /pagesContainer\.style\.overflowX = apiConfigHomeScrollLock\.previousOverflowX/);
-    assert.match(unlockBody, /pagesContainer\.style\.touchAction = apiConfigHomeScrollLock\.previousTouchAction/);
-    assert.match(unlockBody, /unbindApiConfigViewportLock\(\)/);
+    const unlockBody = getFunctionBody(mobileInputSource, 'unlockBottomSheetFocusScroll');
+    assert.match(unlockBody, /pagesContainer\.style\.overflowX = bottomSheetFocusGuard\.previousOverflowX/);
+    assert.match(unlockBody, /pagesContainer\.style\.touchAction = bottomSheetFocusGuard\.previousTouchAction/);
+    assert.match(unlockBody, /classList\.remove\('u2-android-input-locked'\)/);
 });
 
-test('API config open, close, focus, selection, and viewport paths use the scroll lock', () => {
+test('shared Android guard is driven by bottom-sheet focus, viewport, and selection events', () => {
+    assert.match(mobileInputSource, /bottomSheetExcludedInputTypes = new Set\(\['file', 'hidden', 'checkbox', 'radio', 'range', 'color'\]\)/);
+    assert.match(mobileInputSource, /function isBottomSheetEditableTarget\(/);
+    assert.match(mobileInputSource, /function getActiveBottomSheetOverlay\(/);
+    assert.match(mobileInputSource, /\.bottom-sheet-overlay\.active/);
+    assert.match(mobileInputSource, /document\.addEventListener\('focusin'/);
+    assert.match(mobileInputSource, /document\.addEventListener\('pointerdown'/);
+    assert.match(mobileInputSource, /document\.addEventListener\('touchstart'/);
+    assert.match(mobileInputSource, /document\.addEventListener\('focusout'/);
+    assert.match(mobileInputSource, /document\.addEventListener\('selectionchange'/);
+    assert.match(mobileInputSource, /window\.visualViewport\.addEventListener\('resize', handleBottomSheetViewportChange/);
+    assert.match(mobileInputSource, /window\.visualViewport\.addEventListener\('scroll', handleBottomSheetViewportChange/);
+});
+
+test('API config sheet now relies on the shared bottom-sheet input guard', () => {
     const openBody = getFunctionBody(settingsSource, 'openApiConfigSheet');
-    assert.match(openBody, /lockApiConfigHomeScroll\(\)/);
     assert.match(openBody, /openView\(UI\.overlays\.apiConfig\)/);
-    assert.match(openBody, /scheduleApiConfigHomeScrollRestore\(\)/);
+    assert.doesNotMatch(openBody, /lockApiConfigHomeScroll|scheduleApiConfigHomeScrollRestore/);
 
     const closeBody = getFunctionBody(settingsSource, 'closeApiConfigSheet');
     assert.match(closeBody, /closeView\(UI\.overlays\.apiConfig\)/);
-    assert.match(closeBody, /unlockApiConfigHomeScroll\(\)/);
+    assert.doesNotMatch(closeBody, /unlockApiConfigHomeScroll/);
 
     assert.match(settingsSource, /openApiConfigSheet\(\)/);
     assert.match(settingsSource, /closeApiConfigSheet\(\)/);
-    assert.match(settingsSource, /\[UI\.inputs\.apiEndpoint, UI\.inputs\.apiKey, UI\.inputs\.apiModel, UI\.inputs\.apiTemp\]/);
-    assert.match(settingsSource, /input\.addEventListener\('focus', \(\) => \{[\s\S]*lockApiConfigHomeScroll\(\);[\s\S]*scheduleApiConfigHomeScrollRestore\(\);[\s\S]*\}\)/);
-    assert.match(settingsSource, /input\.addEventListener\('select', scheduleApiConfigHomeScrollRestore\)/);
-    assert.match(settingsSource, /document\.addEventListener\('selectionchange'/);
-    assert.match(settingsSource, /window\.visualViewport\.addEventListener\('resize', handleApiConfigViewportChange/);
-    assert.match(settingsSource, /window\.visualViewport\.addEventListener\('scroll', handleApiConfigViewportChange/);
+    assert.doesNotMatch(settingsSource, /apiConfigHomeScrollLock/);
+    assert.doesNotMatch(settingsSource, /lockApiConfigHomeScroll/);
+    assert.doesNotMatch(settingsSource, /scheduleApiConfigHomeScrollRestore/);
+    assert.doesNotMatch(settingsSource, /handleApiConfigViewportChange/);
+});
+
+test('Char edit sheet is hardened against Android input focus overflow', () => {
+    assert.match(imessageCssSource, /#edit-char-persona-sheet \.char-settings-sheet\s*\{[\s\S]*overflow:\s*hidden/);
+    assert.match(imessageCssSource, /#edit-char-persona-sheet \.char-settings-content\s*\{[\s\S]*overflow-x:\s*hidden[\s\S]*-webkit-overflow-scrolling:\s*touch/);
+    assert.match(imessageCssSource, /#edit-char-persona-sheet \.form-item label\s*\{[\s\S]*max-width:\s*48%[\s\S]*text-overflow:\s*ellipsis/);
+    assert.match(imessageCssSource, /#edit-char-persona-sheet \.form-item input,\s*\n#edit-char-persona-sheet \.global-textarea\s*\{[\s\S]*min-width:\s*0/);
+});
+
+test('changed Android input assets are cache-busted', () => {
+    assert.match(indexSource, /css\/global\.css\?v=20260709-android-input-v1/);
+    assert.match(indexSource, /css\/imessage\.css\?v=20260709-android-input-v1/);
+    assert.match(indexSource, /css\/settings\.css\?v=20260710-storage-v7-cache1/);
+    assert.match(indexSource, /js\/mobile_input_compat\.js\?v=20260709-android-input-v1/);
+    assert.match(indexSource, /js\/settings\.js\?v=20260710-effective-data-v1/);
+    assert.match(indexSource, /id="storage-clean-cache-btn"[^>]*>优化存储<\/button>/);
+    assert.match(settingsSource, /appStorage\.optimizeStorage\(\{ progressCallback: updateOperation \}\)/);
 });
