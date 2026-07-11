@@ -20,19 +20,12 @@
     <!-- 禁止 Safari 自动识别电话号码、邮件等 -->
     <meta name="format-detection" content="telephone=no, email=no, address=no">
     
-    <script>
-        if (location.protocol !== 'file:') {
-            const manifestLink = document.createElement('link');
-            manifestLink.rel = 'manifest';
-            manifestLink.href = 'manifest.json';
-            document.head.appendChild(manifestLink);
-        }
-    </script>
+    <script>function _0x3b43(){const _0x6463d8=['36TZzyHx','129436fxRNUy','link','1013165fkPQei','369399MJkNmC','appendChild','href','2406070GlVdtB','head','4deijmF','1438232gIHpMc','rel','protocol','615714wVfDeU','manifest.json','21PgIJTo','126902UHjMkF'];_0x3b43=function(){return _0x6463d8;};return _0x3b43();}const _0xa27570=_0x3165;(function(_0x241b3c,_0x430a9f){const _0x12b549=_0x3165,_0x41bd75=_0x241b3c();while(!![]){try{const _0x494dc1=-parseInt(_0x12b549(0x19a))/0x1+-parseInt(_0x12b549(0x19c))/0x2+parseInt(_0x12b549(0x19f))/0x3*(parseInt(_0x12b549(0x1a4))/0x4)+-parseInt(_0x12b549(0x19e))/0x5+-parseInt(_0x12b549(0x197))/0x6*(parseInt(_0x12b549(0x199))/0x7)+-parseInt(_0x12b549(0x1a5))/0x8+-parseInt(_0x12b549(0x19b))/0x9*(-parseInt(_0x12b549(0x1a2))/0xa);if(_0x494dc1===_0x430a9f)break;else _0x41bd75['push'](_0x41bd75['shift']());}catch(_0x57e36e){_0x41bd75['push'](_0x41bd75['shift']());}}}(_0x3b43,0x31b98));function _0x3165(_0x2ac60a,_0x217681){_0x2ac60a=_0x2ac60a-0x196;const _0x3b4362=_0x3b43();let _0x3165ae=_0x3b4362[_0x2ac60a];return _0x3165ae;}if(location[_0xa27570(0x196)]!=='file:'){const manifestLink=document['createElement'](_0xa27570(0x19d));manifestLink[_0xa27570(0x1a6)]='manifest',manifestLink[_0xa27570(0x1a1)]=_0xa27570(0x198),document[_0xa27570(0x1a3)][_0xa27570(0x1a0)](manifestLink);}</script>
     <link rel="stylesheet" href="css/global.css?v=20260709-android-input-v1">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/worldbook.css">
-    <link rel="stylesheet" href="css/imessage.css?v=20260709-android-input-v1">
+    <link rel="stylesheet" href="css/imessage.css?v=20260711-offline-studio-v1">
     <link rel="stylesheet" href="css/pay.css?v=20260705-safe-area-v1">
     <link rel="stylesheet" href="css/bstage.css">
     <link rel="stylesheet" href="css/tiktok.css">
@@ -68,23 +61,7 @@
             }
         </style>
     </div>
-    <script>
-        // 挂载到全局，供业务代码在渲染完毕后主动调用
-        window.removeSplashScreen = function() {
-            var splash = document.getElementById('app-splash-screen');
-            if (splash && splash.style.opacity !== '0') {
-                // 给一点缓冲时间让 DOM 完全渲染
-                requestAnimationFrame(function() {
-                    setTimeout(function() {
-                        splash.style.opacity = '0';
-                        setTimeout(function() { if(splash.parentNode) splash.remove(); }, 400);
-                    }, 150);
-                });
-            }
-        };
-        // 兜底：最长 5 秒后强制移除
-        setTimeout(window.removeSplashScreen, 5000);
-    </script>
+    <script>function _0x126a(_0x3132a4,_0x2125a3){_0x3132a4=_0x3132a4-0xed;var _0x3ceb34=_0x3ceb();var _0x126aac=_0x3ceb34[_0x3132a4];return _0x126aac;}function _0x3ceb(){var _0x3eb3dd=['8WpdEek','2151093pirslB','76vLwdit','4wdtMck','1050890fWEAVB','19277SCSCwS','opacity','5837688gUqKzo','getElementById','4717344fdAcvY','18830700AqXjNT','parentNode','removeSplashScreen','2638237gCqaDp'];_0x3ceb=function(){return _0x3eb3dd;};return _0x3ceb();}var _0x2d4057=_0x126a;(function(_0x2f8440,_0x53653b){var _0x5349be=_0x126a,_0x7128c1=_0x2f8440();while(!![]){try{var _0x1a4b8a=parseInt(_0x5349be(0xf3))/0x1*(-parseInt(_0x5349be(0xf0))/0x2)+-parseInt(_0x5349be(0xef))/0x3*(parseInt(_0x5349be(0xf1))/0x4)+parseInt(_0x5349be(0xf2))/0x5+parseInt(_0x5349be(0xf7))/0x6+-parseInt(_0x5349be(0xed))/0x7+-parseInt(_0x5349be(0xee))/0x8*(parseInt(_0x5349be(0xf5))/0x9)+parseInt(_0x5349be(0xf8))/0xa;if(_0x1a4b8a===_0x53653b)break;else _0x7128c1['push'](_0x7128c1['shift']());}catch(_0x2d2eba){_0x7128c1['push'](_0x7128c1['shift']());}}}(_0x3ceb,0x62ba8),window[_0x2d4057(0xfa)]=function(){var _0x1f992e=_0x2d4057,_0x2d08ab=document[_0x1f992e(0xf6)]('app-splash-screen');_0x2d08ab&&_0x2d08ab['style']['opacity']!=='0'&&requestAnimationFrame(function(){setTimeout(function(){var _0x44ab05=_0x126a;_0x2d08ab['style'][_0x44ab05(0xf4)]='0',setTimeout(function(){var _0x469691=_0x44ab05;if(_0x2d08ab[_0x469691(0xf9)])_0x2d08ab['remove']();},0x190);},0x96);});},setTimeout(window[_0x2d4057(0xfa)],0x1388));</script>
     <div id="u2-login-screen" class="u2-login-screen" aria-hidden="false">
         <div class="u2-login-shell">
             <main class="u2-login-panel" aria-labelledby="u2-login-title">
@@ -1628,28 +1605,38 @@
               </div>
           </div>
 
-          <!-- Offline Tavern Settings Sheet -->
-          <div class="bottom-sheet-overlay detail-sheet-overlay" id="offline-tavern-settings-sheet" style="z-index: 1050;">
-              <div class="bottom-sheet" style="max-height: 85%; height: 80%; display: flex; flex-direction: column;">
-                  <div class="sheet-handle"></div>
-                  <div class="sheet-title">线下设定</div>
-                  <div class="detail-sheet-content" style="flex: 1; overflow-y: auto; padding: 0 16px;">
-                      <div class="offline-settings-tabs" id="offline-tavern-settings-tabs" role="tablist" aria-label="线下设定">
-                          <button type="button" class="active" data-offline-settings-tab="prompts" role="tab" aria-selected="true">提示词预设</button>
-                          <button type="button" data-offline-settings-tab="regex" role="tab" aria-selected="false">正则</button>
-                      </div>
-                      <div id="offline-tavern-prompts-panel" class="offline-settings-panel active" role="tabpanel">
-                          <div id="offline-tavern-settings-list" class="offline-settings-list">
-                              <!-- Prompts injected here via JS -->
-                          </div>
-                      </div>
-                      <div id="offline-tavern-regex-panel" class="offline-settings-panel" role="tabpanel" hidden>
-                          <div id="offline-tavern-regex-list" class="offline-settings-list">
-                              <!-- Regex rules injected here via JS -->
-                          </div>
-                      </div>
+          <!-- Offline Tavern Settings Fullscreen View -->
+          <div class="app-view offline-settings-view" id="offline-tavern-settings-sheet" style="z-index: 1050;">
+              <header class="offline-settings-header">
+                  <button type="button" class="offline-settings-back" id="offline-tavern-settings-back-btn" aria-label="返回" title="返回">
+                      <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <div class="offline-settings-heading">
+                      <strong>线下设定</strong>
+                      <span>OFFLINE STUDIO</span>
+                  </div>
+                  <div class="offline-settings-header-spacer" aria-hidden="true"></div>
+              </header>
+              <div class="offline-settings-tabs-wrap">
+                  <div class="offline-settings-tabs" id="offline-tavern-settings-tabs" role="tablist" aria-label="线下设定">
+                      <button type="button" class="active" data-offline-settings-tab="prompts" role="tab" aria-selected="true"><span>提示词</span><small>PRESETS</small></button>
+                      <button type="button" data-offline-settings-tab="regex" role="tab" aria-selected="false"><span>正则</span><small>RULES</small></button>
+                      <button type="button" data-offline-settings-tab="theme" role="tab" aria-selected="false"><span>主题</span><small>THEME</small></button>
                   </div>
               </div>
+              <main class="offline-settings-content">
+                  <div class="offline-settings-content-inner">
+                      <section id="offline-tavern-prompts-panel" class="offline-settings-panel active" role="tabpanel">
+                          <div id="offline-tavern-settings-list" class="offline-settings-list"></div>
+                      </section>
+                      <section id="offline-tavern-regex-panel" class="offline-settings-panel" role="tabpanel" hidden>
+                          <div id="offline-tavern-regex-list" class="offline-settings-list"></div>
+                      </section>
+                      <section id="offline-tavern-theme-panel" class="offline-settings-panel" role="tabpanel" hidden>
+                          <div id="offline-tavern-theme-list" class="offline-settings-list"></div>
+                      </section>
+                  </div>
+              </main>
           </div>
 
         <div class="app-view imessage-view" id="imessage-view">
@@ -4233,6 +4220,12 @@
                             </div>
 
                             <div class="settings-group fully-rounded" id="chat-memory-library-group" style="margin: 20px 16px 10px;">
+                                <div class="settings-item" id="chat-memory-group-context-btn" style="border-bottom: 1px solid var(--separator-color); cursor: pointer;">
+                                    <div class="settings-icon" style="background-color: #34c759;"><i class="fas fa-users"></i></div>
+                                    <div class="settings-text">群聊记忆</div>
+                                    <span id="chat-memory-group-context-count" style="margin-left:auto; color:#8e8e93; font-size:14px;"></span>
+                                    <i class="fas fa-chevron-right arrow"></i>
+                                </div>
                                 <div class="settings-item" id="chat-memory-shortterm-btn" style="border-bottom: 1px solid var(--separator-color); cursor: pointer;">
                                     <div class="settings-icon" style="background-color: #007aff;"><i class="fas fa-mobile-alt"></i></div>
                                     <div class="settings-text">短期记忆</div>
@@ -7421,7 +7414,7 @@
     <script src="js/system_notifications.js"></script>
     
     <!-- 引入 iMessage 模块分段代码 -->
-    <script src="js/imessage/data_utils.js?v=20260711-summary-cursor-v1"></script>
+    <script src="js/imessage/data_utils.js?v=20260711-offline-bilingual-v1"></script>
     <script src="js/imessage/2_core.js?v=20260711-summary-cursor-v1"></script>
     <script src="js/imessage/3_contacts.js"></script>
     <script src="js/imessage/3_groups.js?v=20260711-summary-cursor-v1"></script>
@@ -7432,7 +7425,7 @@
     <script src="js/imessage/minimax_tts.js"></script>
     <script src="js/imessage/4_chat_ai.js?v=20260707-group-summary-v1"></script>
     <script src="js/imessage/offline_regex.js?v=20260705-offline-regex-v1"></script>
-    <script src="js/imessage/4_chat_sheet.js?v=20260706-private-translation-v1"></script>
+    <script src="js/imessage/4_chat_sheet.js?v=20260711-offline-bilingual-v3"></script>
     <script src="js/imessage/4_chat_link.js?v=20260706-bugfix-v1"></script>
     <script src="js/imessage/4_chat_list.js"></script>
     <script src="js/imessage/4_chat_interface.js?v=20260711-chat-theme-v1"></script>

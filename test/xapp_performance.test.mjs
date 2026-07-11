@@ -47,6 +47,14 @@ test('X app has one-time chrome/event guards and paged home feed rendering', () 
     assert.match(xappSource, /function renderVisibleXTab\(index = currentIndex, state = getXState\(\), options = \{\}\)/);
 });
 
+test('X external random image sources use grayscale rendering', () => {
+    const externalImageBody = getFunctionBody('getStableExternalImage');
+    assert.match(externalImageBody, /picsum\.photos\/seed\/\$\{safeSeed\}\/\$\{width\}\/\$\{height\}\?grayscale/);
+    const unsplashAvatars = xappSource.match(/https:\/\/images\.unsplash\.com\/[^']+/g) || [];
+    assert.equal(unsplashAvatars.length, 8);
+    assert.ok(unsplashAvatars.every((url) => url.includes('sat=-100')));
+});
+
 test('X iMessage imports do not copy single-chat messages into X DMs', () => {
     const stripBody = getFunctionBody('stripImessageCharMessagesForXImport');
     assert.match(stripBody, /messages:\s*\[\]/);
@@ -101,4 +109,18 @@ test('X high-value writes flush durable app state', () => {
 
     const closeBody = getFunctionBody('closeXApp');
     assert.match(closeBody, /flushXStateNow\('x-close'\)/);
+});
+
+test('X post deletion clears every post source and restores state when persistence fails', () => {
+    const deleteBody = getFunctionBody('deleteXPost');
+    assert.match(deleteBody, /draft\.xGeneratedPosts[\s\S]*?\.filter/);
+    assert.match(deleteBody, /draft\.xDirectMessages[\s\S]*?profilePosts[\s\S]*?\.filter/);
+    assert.match(deleteBody, /delete draft\.xPostThreads\[String\(postId\)\]/);
+    assert.match(deleteBody, /delete postData\[postId\]/);
+    assert.match(deleteBody, /await flushXStateNow\('x-post-delete'\)/);
+    assert.match(deleteBody, /saveXState\(previousState\)/);
+    assert.match(deleteBody, /帖子删除未保存，请重试/);
+
+    const targetBody = getFunctionBody('deleteTargetPost');
+    assert.match(targetBody, /void deleteXPost\(postId\)/);
 });
