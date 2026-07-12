@@ -1,1 +1,1762 @@
-function _u2_a1a0806e89_0x2cf9(){const _0x2ad00b=['\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','model','cloneNode','readyState','#c7c7cc','temperature','shopping-food-detail-desc','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x208px;\x20display:\x20flex;\x20gap:\x202px;\x22>','renderComments','mediaBg','navItems','<span>','shopping_cart','borderRadius','input[name=\x22shopping-payment-method\x22][value=\x22friend\x22]','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20700;\x20font-size:\x2015px;\x22>','searchInput','loadFriends','Product','concat','shopping-all-reviews-sheet','cardBalance','click','20457279CfpRgX','3309010pXtDfs','Mall(商城百货)','shopping-food-bottom-price','panels','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20flex-start;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22background:\x20#111;\x20color:\x20#fff;\x20font-size:\x2010px;\x20padding:\x202px\x206px;\x20border-radius:\x204px;\x20font-weight:\x20bold;\x20margin-top:\x202px;\x22>Q</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x20line-height:\x201.4;\x22>','<div\x20style=\x22width:\x2020px;\x20height:\x2020px;\x20border-radius:\x2050%;\x20border:\x201px\x20solid\x20rgba(17,17,17,0.15);\x22></div>','getPayCards','tab','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>',';\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-nodes\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Node\x201\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-icon-wrap\x22\x20style=\x22background:\x20','handleGenerateProducts','currentProduct','Generate\x20error:','json','flex','searchConfirmBtn','<i\x20class=\x22far\x20fa-star\x22\x20style=\x22color:\x20#e5e5ea;\x20font-size:\x2010px;\x22></i>','shoppingDataReadyPromise','floor','shopping-panels','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2016px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>Q&A\x20(','<img\x20src=\x22','shopping-detail-price','openDetail','shopping-cart-subtotal','balance','indexOf','tags','imData','price','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#a97642;\x20color:\x20#ffffff;\x20text-align:\x20center;\x20padding:\x2010px\x200;\x20border-radius:\x208px;\x20font-size:\x2013px;\x20font-weight:\x20700;\x20cursor:\x20pointer;\x22>Pay\x20Now</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','initRatingSheet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','cardSelectionModal','生成失败:\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#73706a;\x20margin-top:\x208px;\x22>价值\x20¥','checked','children','desc','block','shopping-search-btn','shopping_bound_wb_ids','未命名世界书','worldBooks','shopping-product-grid-container','请输入评价内容','charSelectionModal','12178320vHLBYH','shopping_orders','addToCart','getAvailableWorldBooks','bindWbBtn','shopping-orders-list','contains','scrollTimer','background:\x20rgba(255,\x20255,\x20255,\x200.82);\x20border-radius:\x2012px;\x20padding:\x2012px\x2016px;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20cursor:\x20pointer;\x20border:\x201px\x20solid\x20rgba(17,17,17,0.09);\x20','loadOrders','foodListContainer','imStorage','replace','.shopping-bottom-nav','div','renderCart','<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20rgba(17,17,17,0.06);\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#73706a;\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>','bindProductClicks','foodDetailName','shopping-settings-btn','\x0a付款方式:\x20','shopping-all-reviews-sheet-title','charList','请选择支付卡片','选择好友','.shopping-product-media','openGiftCharSelection','friendSelectBtn','shopping-qa-sheet','meta[name=\x22theme-color\x22]','shopping-cart-list','赠送失败','min','name','16px','var(--shop-accent,\x20#a97642)','loadCart','shopping-card-selection-modal','unshift','bindEvents','app-shopping-btn','friend','strong','\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','10px','reviews','random','scrollTo','已添加!','disabled','parse','iconHtml','shopping-bind-wb-btn','shopping-cart-total','shopping-search-confirm-btn','detailPrice','随机生成一些高质量的外卖美食和饮品','appendMessageToContainer','foodCloseBtn','Reviews','foodDetailDesc','filter',';\x22>','5363368qfpXqM','已发货','****\x20****\x20****\x201234','30\x20min','close','100735RytjNj','fa-utensils','detailDesc','购物消费','renderOrders','代付\x20(','width','foodBottomPrice','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20rgba(17,17,17,0.06);\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#111;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20','display:\x20flex;\x20gap:\x2012px;\x20align-items:\x20flex-start;\x20padding-bottom:\x2012px;\x20border-bottom:\x201px\x20solid\x20rgba(17,17,17,0.05);','currentReviewProduct','选择赠送的好友','selectedFriend','imChat','priceVal','。\x0a\x0a**关键要求**：\x0a1.\x20**评价(Reviews)**：必须非常真实、接地气，包含好评、中评甚至差评。语气要幽默、调侃或者夸张（比如：“好吃是好吃，就是吃完对象跑了”、“衣服很仙，但穿上像个成了精的拖把”）。\x0a2.\x20**问答(Q&A)**：这是买家向已经买过的买家提问的板块（类似淘宝的“问大家”）。回答者**绝对不要**像官方客服，而是真实的、充满个性的普通买家。回答可以很搞笑、无厘头、甚至带点互坑的成分（比如\x20Q：“吃完能变帅吗？”\x20A：“别做梦了，看脸”\x20或\x20Q：“好用吗？”\x20A：“买回来积灰挺好的，建议入手”）。\x0a\x0a\x0a\x0a','shopping-rating-submit','querySelector','shopping-food-card','isArray','setTimeout','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-item-inline-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-items-scroll\x20inline-mode\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','shopping-qa-sheet-title','foodDetailPrice','searchSheet','clientWidth','\x22\x20style=\x22margin-right:\x208px;\x20background:\x20#ff9bb3;\x20color:\x20#fff;\x20border:\x20none;\x20border-radius:\x2012px;\x20padding:\x206px\x2012px;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20cursor:\x20pointer;\x22>赠送</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22shopping-order-comment-btn\x22\x20data-product=\x22','shopping-food-reviews-trigger','slice','splice','background:\x20#fff;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20\x20position:\x20relative;','shopping-detail-desc','shopping-mall-qa-trigger','\x22>评价商品</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-price\x22>¥','smooth','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-motorcycle\x22\x20style=\x22color:\x20','shopping-order-card','\x20支付</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','setAttribute','display','friendDesc','renderProductCards','color','querySelectorAll','function','orders','cartSubtotal','10fxmsyg','\x202s\x20infinite;','shopping_comments','true','then','length','shopping-close-btn','API\x20请求失败:\x20','201kyHNnK','shopping_generated_mall','saveOrders','.shopping-food-media','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','payDesc','article','shopping-food-list-container','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20flex-direction:\x20column;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20color:\x20#111;\x22>','isFood','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2024px;\x20font-weight:\x20800;\x20color:\x20#111111;\x20margin-top:\x2014px;\x20margin-bottom:\x2016px;\x22>¥','bgGrad','Failed\x20to\x20append\x20shop\x20request\x20message:','</span>','dataset','#shopping-food-detail-comments','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2040px\x2020px;\x20color:\x20#8e8e93;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-receipt\x22\x20style=\x22font-size:\x2040px;\x20margin-bottom:\x2015px;\x20opacity:\x200.5;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x22>暂无订单记录</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','card1','shopping_bound_wb_id','.shopping-panel','shopping-qa-container','imApp','cardList','shopping-search-sheet','cartEmptyState','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-product-media\x22\x20style=\x22background:\x20','lastElementChild','number','expense','tabs','toggle','preventDefault','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','paySelectBtn','getElementById',';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-home\x22\x20style=\x22color:\x20','background','.wb-centered-modal-close','boundWbName','style','push','trim','showWorldBookPicker','content','detailMedia','cartList','var(--shop-green,\x20#476c5a)','appendChild','remove','#fff','showToast','add','8645202cPVuac','getPayBalance','val','open','rating','fa-university','toFixed','checkoutSheet','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-cart-remove\x22\x20style=\x22width:\x2030px;\x20height:\x2030px;\x20border-radius:\x2050%;\x20background:\x20#ffebee;\x20color:\x20#ff3b30;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20cursor:\x20pointer;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-trash-alt\x22\x20style=\x22font-size:\x2012px;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','classList','<div\x20style=\x22font-size:\x2014px;\x20color:\x20#8e8e93;\x22>暂无问答</div>','shopPulseGlowGreen','支付成功','globalDataReadyPromise','600','shopping-orders-sheet','Failed\x20to\x20load\x20generated\x20products','已付款','shopping-rating-stars','openAllReviews','.shopping-cart-remove','<div\x20style=\x22font-size:\x2014px;\x20color:\x20#8e8e93;\x20text-align:\x20center;\x20padding:\x2010px\x200;\x22>暂无评价</div>','.active-chat-interface\x20.ins-chat-messages','余额不足','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-method\x22>','POST','****\x20****\x20****\x208888','29188mWkBHz','foodDetailSheet','resize','#shopping-detail-comments','</span>\x20<!--\x20Hidden\x20desc\x20to\x20pass\x20to\x20openDetail\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','value','未绑定','switchTab','avatar','pay','nickname',';\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node-text\x22\x20style=\x22color:\x20','scrollLeft','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2050px;\x20height:\x2050px;\x20border-radius:\x2010px;\x20background:\x20','你收到了一份礼物:\x20','className','requestAnimationFrame','injectGeneratedProducts','#111','工商银行信用卡','ratingStars','问大家\x20(','fontSize','detailSheet','toLocaleDateString','Pay','shopping_generated_food','外卖评价\x20(','items','shopping-cart-empty-state','/v1/chat/completions','ratingText','700','beforeend','已赠送','updateIndicator','detailName','代付请求已发送','lastIndexOf','join','ordersList','input[name=\x22shopping-payment-method\x22][value=\x22pay\x22]','15px','pointer','addFoodToCartBtn','endsWith','shopping-char-list','application/json','substring','shopPulseGlow','shopping-char-selection-modal','shoppingApp','shopping-confirm-payment-btn','#e5e5ea','closeDetail','removeItem','支付失败','运输中','none','.shopping-nav-item','shopping-food-add-to-cart-btn','parentNode','view','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20white-space:\x20nowrap;\x22>','shopping-orders-btn','family','#f2f2f7','left','createElement','panelsWrap','currentTab','送餐中','.shopping-order-gift-btn','addToCartBtn','shopping-rating-text','getApiConfig','<div\x20style=\x22text-align:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2014px;\x20padding:\x2020px\x200;\x22>暂无问答数据</div>','mall','statusText','Food(外卖美食)','initCheckout','getWorldBooks','\x0a总价:\x20¥','shopping-detail-media','method','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-progress\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-track\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-fill\x22\x20style=\x22width:\x20calc(68%\x20*\x20','\x22><i\x20class=\x22fas\x20','product','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#f7f7f5;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20min-width:\x20220px;\x20max-width:\x20280px;\x20color:\x20#111111;\x20\x20border:\x201px\x20solid\x20rgba(17,17,17,0.09);\x20display:\x20inline-block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#73706a;\x20margin-bottom:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;\x20font-weight:\x20700;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-bag-shopping\x22\x20style=\x22color:\x20#a97642;\x22></i>\x20Shop\x20Request\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20margin-bottom:\x206px;\x20white-space:\x20normal;\x20word-break:\x20break-word;\x20line-height:\x201.4;\x22>','cartTotal','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','shopping_qa','外卖评价','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-item-media\x22\x20style=\x22background:\x20','<div\x20style=\x22text-align:\x20center;\x20padding:\x2020px;\x20color:\x20#73706a;\x22>暂无好友</div>','gpt-3.5-turbo','fa-box','animationDelay','foodDetailMedia','。价值\x20¥','gifted','Shopping\x20global\x20data\x20recovery\x20failed:','ratingSubmit','saveBoundWorldBookIds','fas\x20fa-star','appendFriendMessage','。请根据你的角色人设对这份礼物做出真实的反应（感谢、惊喜或者调侃等）。','toLocaleString','setItem','input[name=\x22shopping-payment-method\x22]:checked','food','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#111;\x20color:\x20#fff;\x20padding:\x206px\x2012px;\x20border-radius:\x2016px;\x20font-size:\x2013px;\x20font-weight:\x20600;\x22>赠送</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','settingsSheet','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','cart','shopping-card-selection-balance','shopping-add-to-cart-btn','selectedCard','indicator','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20flex-start;\x20gap:\x208px;\x20margin-top:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22background:\x20#e5e5ea;\x20color:\x20#8e8e93;\x20font-size:\x2010px;\x20padding:\x202px\x206px;\x20border-radius:\x204px;\x20font-weight:\x20bold;\x20margin-top:\x202px;\x22>A</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2014px;\x20color:\x20#333;\x20line-height:\x201.5;\x22>','map','Unknown\x20Char','loadGeneratedProducts','from','<i\x20class=\x22fas\x20fa-check-circle\x22\x20style=\x22color:\x20#a97642;\x20font-size:\x2020px;\x22></i>','includes','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22display:none;\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#73706a;\x20max-width:\x20150px;\x20white-space:\x20nowrap;\x20overflow:\x20hidden;\x20text-overflow:\x20ellipsis;\x22>','getBoundWorldBookIds','replaceChild','total','cartContent','paddingLeft','shopping-bound-wb-name','target','forEach','shopping-checkout-sheet','</div>','display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x208px;\x20padding-bottom:\x2012px;\x20border-bottom:\x201px\x20solid\x20rgba(17,17,17,0.05);','shopping-food-detail-name','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20font-size:\x2016px;\x20color:\x20#8e8e93;\x20flex-shrink:\x200;\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x20margin-bottom:\x204px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20600;\x20color:\x20#111;\x22>','ordersSheet','active','saveCart','card2','shopping-all-reviews-container','endpoint','addEventListener','ordersBtn','innerHTML','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-title\x20inline-mode\x22>','message','\x22\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20object-fit:\x20cover;\x20border:\x201px\x20solid\x20rgba(17,17,17,0.09);\x22>','fa-credit-card','processPayment','shopping-product-card','wbManager','.shopping-card-topline\x20span','warn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','[赠送礼物]\x0a商品:\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Node\x202\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-icon-wrap\x22\x20style=\x22background:\x20','now','\x20answers</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#8e8e93','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22shopping-order-delete-btn\x20shopping-order-delete\x22\x20data-index=\x22','招商银行储蓄卡','text','<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x208px;\x20background:\x20#f2f2f7;\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#8e8e93;\x20font-size:\x2012px;\x20font-weight:\x20600;\x20flex-shrink:\x200;\x22>+','renderWorldBookSelector','animation-delay:\x20','/chat/completions','stopPropagation','index','currentActiveFriend','评价发表成功','system','settingsBtn','Food\x20Item','getItem','signature','productListContainer','status','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-tags\x22>','input[name=\x22shopping-payment-method\x22]','shopping-rating-sheet','checkoutBtn','parentElement',')</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#111;\x20font-weight:\x20600;\x20display:\x20flex;\x20align-items:\x20center;\x22>See\x20All\x20<i\x20class=\x22fas\x20fa-chevron-right\x22\x20style=\x22font-size:\x2010px;\x20margin-left:\x204px;\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','JSON\x20解析失败','shopping-checkout-pay-desc','removeFromCart','apiKey','gap','cssText','textContent','#ffffff','Reviews\x20(','searchBtn','html','closeBtn','shopping-card-list','loading','请选择代付好友','ratingSheet','type','已送达','iconClass','app_global_data','shopping-food-close-btn',';\x20font-weight:\x20','far\x20fa-star','stringify','error','shopping-detail-name','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20生成中...','u2LegacyStorageFacade','.wb-centered-modal-title','icon','Failed\x20to\x20append\x20gift\x20message:','animation:\x20','find',');\x20background:\x20','updateBoundWbDisplay','#ff9500','getComputedStyle','shopping-cart-content','已取餐','shopping-settings-sheet','alignItems','<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x208px;\x20background:\x20','renderQA','Failed\x20to\x20load\x20cart\x20from\x20localStorage','12px','已挂载\x20','user','ensureFriendMessagesLoaded','openCardSelection','confirmPaymentBtn'];_u2_a1a0806e89_0x2cf9=function(){return _0x2ad00b;};return _u2_a1a0806e89_0x2cf9();}function _u2_a1a0806e89_0x102f(_0x331696,_0x3ca552){_0x331696=_0x331696-0x187;const _0x2cf918=_u2_a1a0806e89_0x2cf9();let _0x102f7c=_0x2cf918[_0x331696];return _0x102f7c;}(function(_0x4e03f7,_0x4d9ea1){const _0x59c564=_u2_a1a0806e89_0x102f,_0x46e579=_0x4e03f7();while(!![]){try{const _0x32df0e=parseInt(_0x59c564(0x381))/0x1*(-parseInt(_0x59c564(0x1b0))/0x2)+-parseInt(_0x59c564(0x1b8))/0x3*(parseInt(_0x59c564(0x207))/0x4)+parseInt(_0x59c564(0x30e))/0x5+parseInt(_0x59c564(0x1ec))/0x6+-parseInt(_0x59c564(0x33d))/0x7+-parseInt(_0x59c564(0x37c))/0x8+parseInt(_0x59c564(0x30d))/0x9;if(_0x32df0e===_0x4d9ea1)break;else _0x46e579['push'](_0x46e579['shift']());}catch(_0x36b4af){_0x46e579['push'](_0x46e579['shift']());}}}(_u2_a1a0806e89_0x2cf9,0xed891),(function(){const _0x3e63b3=_u2_a1a0806e89_0x102f,_0x1ea5b0=window[_0x3e63b3(0x2df)];class _0x9c1d48{constructor(){const _0x3c0339=_0x3e63b3;this['view']=document[_0x3c0339(0x1da)]('shopping-view'),this[_0x3c0339(0x24c)]=document['getElementById'](_0x3c0339(0x321)),this[_0x3c0339(0x27d)]=document[_0x3c0339(0x1da)]('shopping-nav-indicator'),this[_0x3c0339(0x2cf)]=document['getElementById'](_0x3c0339(0x1b6)),this[_0x3c0339(0x1d5)]=['food',_0x3c0339(0x254),_0x3c0339(0x279),'me'],this['currentTab']=_0x3c0339(0x275),this[_0x3c0339(0x344)]=null,this['cart']=this[_0x3c0339(0x361)](),this['detailSheet']=document['getElementById']('shopping-detail-sheet'),this['detailMedia']=document[_0x3c0339(0x1da)](_0x3c0339(0x25a)),this['detailName']=document['getElementById'](_0x3c0339(0x2dd)),this[_0x3c0339(0x374)]=document[_0x3c0339(0x1da)](_0x3c0339(0x324)),this[_0x3c0339(0x383)]=document[_0x3c0339(0x1da)](_0x3c0339(0x1a0)),this[_0x3c0339(0x250)]=document[_0x3c0339(0x1da)](_0x3c0339(0x27b)),this[_0x3c0339(0x208)]=document[_0x3c0339(0x1da)]('shopping-food-detail-sheet'),this[_0x3c0339(0x269)]=document[_0x3c0339(0x1da)]('shopping-food-detail-media'),this[_0x3c0339(0x34f)]=document[_0x3c0339(0x1da)](_0x3c0339(0x292)),this['foodDetailPrice']=document['getElementById']('shopping-food-detail-price'),this[_0x3c0339(0x379)]=document[_0x3c0339(0x1da)](_0x3c0339(0x2fc)),this[_0x3c0339(0x188)]=document[_0x3c0339(0x1da)](_0x3c0339(0x310)),this['foodCloseBtn']=document[_0x3c0339(0x1da)](_0x3c0339(0x2d8)),this[_0x3c0339(0x233)]=document[_0x3c0339(0x1da)](_0x3c0339(0x243)),this[_0x3c0339(0x319)]=null,this['cartEmptyState']=document['getElementById'](_0x3c0339(0x224)),this[_0x3c0339(0x28a)]=document[_0x3c0339(0x1da)](_0x3c0339(0x2e9)),this[_0x3c0339(0x1e5)]=document[_0x3c0339(0x1da)](_0x3c0339(0x35b)),this[_0x3c0339(0x1af)]=document[_0x3c0339(0x1da)](_0x3c0339(0x326)),this['cartTotal']=document[_0x3c0339(0x1da)](_0x3c0339(0x372)),this[_0x3c0339(0x2c1)]=document[_0x3c0339(0x1da)]('shopping-checkout-btn'),this[_0x3c0339(0x1f3)]=document[_0x3c0339(0x1da)](_0x3c0339(0x28f)),this[_0x3c0339(0x1bd)]=document[_0x3c0339(0x1da)](_0x3c0339(0x2c5)),this[_0x3c0339(0x1d9)]=document[_0x3c0339(0x1da)]('shopping-checkout-pay-select'),this[_0x3c0339(0x1a9)]=document[_0x3c0339(0x1da)]('shopping-checkout-friend-desc'),this[_0x3c0339(0x358)]=document[_0x3c0339(0x1da)]('shopping-checkout-friend-select'),this['confirmPaymentBtn']=document['getElementById'](_0x3c0339(0x23b)),this['paymentRadios']=document[_0x3c0339(0x1ac)](_0x3c0339(0x2bf)),this[_0x3c0339(0x32f)]=document['getElementById'](_0x3c0339(0x362)),this[_0x3c0339(0x1ce)]=document['getElementById'](_0x3c0339(0x2d0)),this['cardBalance']=document[_0x3c0339(0x1da)](_0x3c0339(0x27a)),this[_0x3c0339(0x33c)]=document[_0x3c0339(0x1da)](_0x3c0339(0x239)),this[_0x3c0339(0x353)]=document[_0x3c0339(0x1da)](_0x3c0339(0x235)),this[_0x3c0339(0x29b)]=document[_0x3c0339(0x1da)](_0x3c0339(0x247)),this['ordersSheet']=document[_0x3c0339(0x1da)](_0x3c0339(0x1fb)),this[_0x3c0339(0x22f)]=document[_0x3c0339(0x1da)](_0x3c0339(0x342)),this['orders']=this[_0x3c0339(0x346)](),this[_0x3c0339(0x27c)]=null,this[_0x3c0339(0x18d)]=null;if(!this['view']||!this['panelsWrap'])return;this[_0x3c0339(0x300)]=Array[_0x3c0339(0x282)](this[_0x3c0339(0x245)][_0x3c0339(0x1ac)](_0x3c0339(0x242))),this[_0x3c0339(0x311)]=Array[_0x3c0339(0x282)](this[_0x3c0339(0x245)][_0x3c0339(0x1ac)](_0x3c0339(0x1cb))),this[_0x3c0339(0x2b8)]=document['getElementById'](_0x3c0339(0x350)),this[_0x3c0339(0x277)]=document['getElementById'](_0x3c0339(0x2eb)),this[_0x3c0339(0x2cd)]=document[_0x3c0339(0x1da)](_0x3c0339(0x336)),this[_0x3c0339(0x199)]=document[_0x3c0339(0x1da)](_0x3c0339(0x1cf)),this[_0x3c0339(0x306)]=document['getElementById']('shopping-search-input'),this['searchConfirmBtn']=document[_0x3c0339(0x1da)](_0x3c0339(0x373)),this[_0x3c0339(0x341)]=document[_0x3c0339(0x1da)](_0x3c0339(0x371)),this[_0x3c0339(0x1de)]=document[_0x3c0339(0x1da)](_0x3c0339(0x28c)),this[_0x3c0339(0x347)]=document['getElementById'](_0x3c0339(0x1bf)),this[_0x3c0339(0x2bc)]=document[_0x3c0339(0x1da)](_0x3c0339(0x33a)),this['updateBoundWbDisplay'](),this[_0x3c0339(0x364)](),this[_0x3c0339(0x20e)](_0x3c0339(0x275),{'scroll':![]}),this[_0x3c0339(0x34c)](),this[_0x3c0339(0x281)]();}['loadGeneratedProducts'](){const _0x57710a=_0x3e63b3;try{const _0x5e5491=_0x1ea5b0[_0x57710a(0x2ba)]('shopping_generated_food');if(_0x5e5491){const _0x19e642=JSON['parse'](_0x5e5491);this[_0x57710a(0x1aa)](_0x19e642,_0x57710a(0x275));}const _0x1a2314=_0x1ea5b0['getItem'](_0x57710a(0x1b9));if(_0x1a2314){const _0x4b9159=JSON[_0x57710a(0x36f)](_0x1a2314);this['renderProductCards'](_0x4b9159,_0x57710a(0x254));}}catch(_0x5a90cc){console['error'](_0x57710a(0x1fc),_0x5a90cc);}}[_0x3e63b3(0x340)](){const _0x4ccb25=_0x3e63b3;if(typeof window[_0x4ccb25(0x258)]===_0x4ccb25(0x1ad))return window['getWorldBooks']()||[];const _0x33c73b=_0x1ea5b0[_0x4ccb25(0x2ba)](_0x4ccb25(0x2d7));if(_0x33c73b)try{const _0x96233=JSON[_0x4ccb25(0x36f)](_0x33c73b);return _0x96233?.[_0x4ccb25(0x339)]?.['books']||[];}catch(_0x54182d){}return[];}[_0x3e63b3(0x287)](){const _0x230f87=_0x3e63b3;let _0x2e595a=[];const _0xad88f9=_0x1ea5b0[_0x230f87(0x2ba)](_0x230f87(0x337));if(_0xad88f9)try{const _0x43b5b2=JSON[_0x230f87(0x36f)](_0xad88f9);if(Array[_0x230f87(0x194)](_0x43b5b2))_0x2e595a=_0x43b5b2;}catch(_0x7b8b58){}const _0x4fa960=_0x1ea5b0[_0x230f87(0x2ba)](_0x230f87(0x1ca));return _0x4fa960&&!_0x2e595a[_0x230f87(0x27f)](String)[_0x230f87(0x284)](String(_0x4fa960))&&_0x2e595a[_0x230f87(0x363)](_0x4fa960),_0x2e595a['map'](_0x3c1e69=>String(_0x3c1e69))['filter']((_0x1e515a,_0x4914ea,_0x40a9a1)=>_0x1e515a&&_0x40a9a1[_0x230f87(0x328)](_0x1e515a)===_0x4914ea);}[_0x3e63b3(0x26e)](_0x4ccccb=[]){const _0x293386=_0x3e63b3,_0x468cad=(Array[_0x293386(0x194)](_0x4ccccb)?_0x4ccccb:[])[_0x293386(0x27f)](_0x549ef0=>String(_0x549ef0))[_0x293386(0x37a)]((_0x4cd4ac,_0x5e1da9,_0x21d89c)=>_0x4cd4ac&&_0x21d89c[_0x293386(0x328)](_0x4cd4ac)===_0x5e1da9);_0x468cad[_0x293386(0x1b5)]>0x0?(_0x1ea5b0['setItem']('shopping_bound_wb_ids',JSON[_0x293386(0x2db)](_0x468cad)),_0x1ea5b0[_0x293386(0x273)](_0x293386(0x1ca),_0x468cad[0x0])):(_0x1ea5b0[_0x293386(0x23e)](_0x293386(0x337)),_0x1ea5b0[_0x293386(0x23e)](_0x293386(0x1ca)));}[_0x3e63b3(0x2e6)](){const _0x59c871=_0x3e63b3;if(!this[_0x59c871(0x1de)])return;const _0x4aaab6=this[_0x59c871(0x287)]();if(_0x4aaab6[_0x59c871(0x1b5)]===0x0){this['boundWbName'][_0x59c871(0x2ca)]=_0x59c871(0x20d);return;}const _0x2423cb=this[_0x59c871(0x340)](),_0x54e7ae=_0x4aaab6['map'](_0x420eac=>_0x2423cb[_0x59c871(0x2e4)](_0x286b2c=>String(_0x286b2c['id'])===String(_0x420eac)))[_0x59c871(0x37a)](Boolean);if(_0x54e7ae['length']===0x1)this[_0x59c871(0x1de)]['textContent']=_0x54e7ae[0x0]['name']||_0x59c871(0x338);else _0x54e7ae[_0x59c871(0x1b5)]>0x1?this[_0x59c871(0x1de)]['textContent']=_0x59c871(0x2f1)+_0x54e7ae[_0x59c871(0x1b5)]+'\x20本':this['boundWbName'][_0x59c871(0x2ca)]=_0x59c871(0x20d);}['bindEvents'](){const _0xb8de07=_0x3e63b3;this[_0xb8de07(0x2cf)]?.[_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>this[_0xb8de07(0x380)]()),this[_0xb8de07(0x377)]?.['addEventListener'](_0xb8de07(0x30c),()=>this[_0xb8de07(0x23d)]());this['settingsBtn']&&this['settingsBtn'][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x1ade7a=_0xb8de07;this[_0x1ade7a(0x2e6)](),this[_0x1ade7a(0x277)]?.[_0x1ade7a(0x1f5)]['add']('active');});this['bindWbBtn']&&this[_0xb8de07(0x341)][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x494eb6=_0xb8de07;if(typeof window[_0x494eb6(0x2b0)]==='function')window['renderWorldBookSelector'](this[_0x494eb6(0x287)](),_0x37bba9=>{const _0x2d5064=_0x494eb6;this['saveBoundWorldBookIds'](_0x37bba9),this[_0x2d5064(0x2e6)]();});else window['wbManager']&&window[_0x494eb6(0x2a3)][_0x494eb6(0x1e2)]&&window[_0x494eb6(0x2a3)][_0x494eb6(0x1e2)](_0x1a9148=>{const _0x22a1a6=_0x494eb6;this[_0x22a1a6(0x26e)](_0x1a9148?[_0x1a9148['id']]:[]),this[_0x22a1a6(0x2e6)]();});});this['searchBtn']&&this[_0xb8de07(0x2cd)][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x3ced06=_0xb8de07;if(this[_0x3ced06(0x306)])this['searchInput'][_0x3ced06(0x20c)]='';this[_0x3ced06(0x199)]?.[_0x3ced06(0x1f5)][_0x3ced06(0x1eb)](_0x3ced06(0x295));});this[_0xb8de07(0x31d)]&&this['searchConfirmBtn'][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{this['handleGenerateProducts']();});[this[_0xb8de07(0x277)],this['searchSheet']][_0xb8de07(0x28e)](_0xe94c62=>{const _0x9a9a57=_0xb8de07;_0xe94c62&&_0xe94c62[_0x9a9a57(0x29a)]('click',_0x5e8764=>{const _0x2183ed=_0x9a9a57;_0x5e8764[_0x2183ed(0x28d)]===_0xe94c62&&_0xe94c62[_0x2183ed(0x1f5)]['remove'](_0x2183ed(0x295));});});const _0x27f423=document[_0xb8de07(0x1da)]('shopping-reviews-trigger');_0x27f423&&_0x27f423['addEventListener'](_0xb8de07(0x30c),()=>{const _0x54ce83=_0xb8de07;this[_0x54ce83(0x319)]&&this[_0x54ce83(0x1ff)](this[_0x54ce83(0x319)]['name'],![]);});const _0x50b6df=document['getElementById'](_0xb8de07(0x19c));_0x50b6df&&_0x50b6df['addEventListener'](_0xb8de07(0x30c),()=>{const _0x431fa9=_0xb8de07;this[_0x431fa9(0x319)]&&this[_0x431fa9(0x1ff)](this[_0x431fa9(0x319)]['name'],!![]);});const _0x50f30a=document[_0xb8de07(0x1da)](_0xb8de07(0x1a1));_0x50f30a&&_0x50f30a['addEventListener'](_0xb8de07(0x30c),()=>{const _0x2bb41e=_0xb8de07,_0xba7a25=document[_0x2bb41e(0x1da)](_0x2bb41e(0x359));_0xba7a25&&_0xba7a25[_0x2bb41e(0x1f5)]['add'](_0x2bb41e(0x295));});const _0x57869d=document[_0xb8de07(0x1da)](_0xb8de07(0x359));_0x57869d&&_0x57869d[_0xb8de07(0x29a)](_0xb8de07(0x30c),_0x4a69b7=>{const _0x2c0bab=_0xb8de07;_0x4a69b7['target']===_0x57869d&&_0x57869d['classList'][_0x2c0bab(0x1e8)](_0x2c0bab(0x295));});const _0x45f5b5=document[_0xb8de07(0x1da)](_0xb8de07(0x30a));_0x45f5b5&&_0x45f5b5['addEventListener'](_0xb8de07(0x30c),_0x31ea48=>{const _0x11bb0a=_0xb8de07;_0x31ea48['target']===_0x45f5b5&&_0x45f5b5[_0x11bb0a(0x1f5)][_0x11bb0a(0x1e8)](_0x11bb0a(0x295));}),this[_0xb8de07(0x300)][_0xb8de07(0x28e)](_0x3b084c=>{const _0x194c51=_0xb8de07;_0x3b084c[_0x194c51(0x29a)](_0x194c51(0x30c),()=>{const _0x40489f=_0x194c51;this[_0x40489f(0x20e)](_0x3b084c[_0x40489f(0x1c6)][_0x40489f(0x315)]||'food');});}),this[_0xb8de07(0x24c)][_0xb8de07(0x29a)]('scroll',()=>{const _0x56ddb9=_0xb8de07;window['clearTimeout'](this[_0x56ddb9(0x344)]),this['scrollTimer']=window[_0x56ddb9(0x195)](()=>{const _0x593e31=_0x56ddb9,_0x533755=this[_0x593e31(0x24c)][_0x593e31(0x19a)]||0x1,_0xa660b3=Math['round'](this[_0x593e31(0x24c)][_0x593e31(0x213)]/_0x533755),_0x275782=this['tabs'][Math['max'](0x0,Math[_0x593e31(0x35d)](this[_0x593e31(0x1d5)]['length']-0x1,_0xa660b3))];this[_0x593e31(0x20e)](_0x275782,{'scroll':![]});},0x50);},{'passive':!![]}),window[_0xb8de07(0x29a)](_0xb8de07(0x209),()=>this[_0xb8de07(0x22a)]()),this['bindProductClicks'](),this['addToCartBtn']&&this[_0xb8de07(0x250)]['addEventListener'](_0xb8de07(0x30c),()=>{const _0x4ec89e=_0xb8de07;if(this[_0x4ec89e(0x319)]){this[_0x4ec89e(0x33f)](this[_0x4ec89e(0x319)]),this[_0x4ec89e(0x23d)]();const _0x389aa3=this[_0x4ec89e(0x250)][_0x4ec89e(0x2ca)];this[_0x4ec89e(0x250)]['textContent']=_0x4ec89e(0x36d),setTimeout(()=>{const _0x87db79=_0x4ec89e;if(this[_0x87db79(0x250)])this['addToCartBtn'][_0x87db79(0x2ca)]=_0x389aa3;},0x3e8);}}),this['addFoodToCartBtn']&&this[_0xb8de07(0x233)][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x498551=_0xb8de07;if(this['currentProduct']){this['addToCart'](this[_0x498551(0x319)]),this[_0x498551(0x23d)]();const _0x5bfc37=this[_0x498551(0x233)][_0x498551(0x2ca)];this[_0x498551(0x233)][_0x498551(0x2ca)]='已添加!',setTimeout(()=>{const _0x2092d3=_0x498551;if(this['addFoodToCartBtn'])this['addFoodToCartBtn'][_0x2092d3(0x2ca)]=_0x5bfc37;},0x3e8);}}),this[_0xb8de07(0x2c1)]&&this[_0xb8de07(0x2c1)]['addEventListener'](_0xb8de07(0x30c),async()=>{const _0x276e79=_0xb8de07;if(this[_0x276e79(0x279)]['length']===0x0)return;await this[_0x276e79(0x257)](),this[_0x276e79(0x1f3)]?.[_0x276e79(0x1f5)][_0x276e79(0x1eb)](_0x276e79(0x295));}),this[_0xb8de07(0x1d9)]&&this['paySelectBtn'][_0xb8de07(0x29a)]('click',_0x409d04=>{const _0x2ef786=_0xb8de07;_0x409d04[_0x2ef786(0x1d7)](),_0x409d04[_0x2ef786(0x2b3)]();const _0x5b1c8f=document['querySelector'](_0x2ef786(0x230));if(_0x5b1c8f)_0x5b1c8f[_0x2ef786(0x332)]=!![];this['openCardSelection']();}),this[_0xb8de07(0x358)]&&this[_0xb8de07(0x358)][_0xb8de07(0x29a)]('click',_0x2776c6=>{const _0x4e0085=_0xb8de07;_0x2776c6[_0x4e0085(0x1d7)](),_0x2776c6[_0x4e0085(0x2b3)]();const _0x314e0b=document['querySelector'](_0x4e0085(0x304));if(_0x314e0b)_0x314e0b[_0x4e0085(0x332)]=!![];this['openCharSelection']();}),this[_0xb8de07(0x2f5)]&&this[_0xb8de07(0x2f5)][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x4b6666=_0xb8de07;this[_0x4b6666(0x2a1)]();}),this[_0xb8de07(0x29b)]&&this[_0xb8de07(0x29b)][_0xb8de07(0x29a)](_0xb8de07(0x30c),()=>{const _0x58467e=_0xb8de07;this['renderOrders'](),this[_0x58467e(0x294)]?.[_0x58467e(0x1f5)][_0x58467e(0x1eb)]('active');}),setInterval(()=>{const _0xb0ef11=_0xb8de07;this[_0xb0ef11(0x294)]&&this['ordersSheet'][_0xb0ef11(0x1f5)][_0xb0ef11(0x343)](_0xb0ef11(0x295))&&this[_0xb0ef11(0x385)]();},0x3e8);}async[_0x3e63b3(0x318)](){const _0x3cae9f=_0x3e63b3;let _0x33e820=this[_0x3cae9f(0x306)]?this[_0x3cae9f(0x306)][_0x3cae9f(0x20c)]['trim']():'';const _0x386ed7=this[_0x3cae9f(0x24d)]===_0x3cae9f(0x275)?'food':_0x3cae9f(0x254);!_0x33e820&&(_0x33e820=_0x386ed7==='food'?_0x3cae9f(0x375):'随机生成一些高品质的商城百货和数码日常用品');this['searchConfirmBtn']&&(this[_0x3cae9f(0x31d)][_0x3cae9f(0x29c)]=_0x3cae9f(0x2de),this['searchConfirmBtn'][_0x3cae9f(0x36e)]=!![]);let _0x51e5d4='你现在是一个商品、评价及问答生成器。根据用户的输入，生成不少于10个商品。每个商品生成5-10条用户评价，以及5-10条问答(Q&A)。\x0a当前分类是\x20'+(_0x386ed7==='food'?_0x3cae9f(0x256):_0x3cae9f(0x30f))+_0x3cae9f(0x190);const _0x57c3f7=this[_0x3cae9f(0x287)]();if(_0x57c3f7[_0x3cae9f(0x1b5)]>0x0&&window['wbManager']){const _0x254518=[];for(const _0x4d8dee of _0x57c3f7){const _0x4104cb=await window[_0x3cae9f(0x2a3)]['getBookContextString'](_0x4d8dee);if(_0x4104cb)_0x254518[_0x3cae9f(0x1e0)](_0x4104cb);}_0x254518[_0x3cae9f(0x1b5)]>0x0&&(_0x51e5d4+='[当前挂载的世界书上下文]\x0a'+_0x254518[_0x3cae9f(0x22e)]('\x0a\x0a')+'\x0a\x0a参考以上世界书设定生成契合世界观的商品，评价和问答也可以带入世界观中的梗。\x0a\x0a');}_0x51e5d4+='输出必须为纯\x20JSON\x20数组格式，不要任何多余文本或\x20markdown\x20标签。格式要求：\x0a\x0a[\x0a\x20\x20{\x0a\x20\x20\x20\x20\x22name\x22:\x20\x22商品名称\x22,\x0a\x20\x20\x20\x20\x22price\x22:\x20\x22商品价格(包含¥符号，如¥45)\x22,\x0a\x20\x20\x20\x20\x22desc\x22:\x20\x22商品简短描述\x22,\x0a\x20\x20\x20\x20\x22iconClass\x22:\x20\x22fontawesome图标类名(例如\x20fa-burger)\x22,\x0a\x20\x20\x20\x20\x22bgGrad\x22:\x20\x22CSS渐变背景(例如\x20linear-gradient(135deg,\x20#f093fb\x200%,\x20#f5576c\x20100%))\x22,\x0a\x20\x20\x20\x20\x22tags\x22:\x20[\x22标签1\x22,\x20\x22标签2\x22],\x0a\x20\x20\x20\x20\x22reviews\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x20\x22user\x22:\x20\x22用户A\x22,\x20\x22text\x22:\x20\x22评价内容\x22,\x20\x22rating\x22:\x205\x20},\x0a\x20\x20\x20\x20\x20\x20{\x20\x22user\x22:\x20\x22用户B\x22,\x20\x22text\x22:\x20\x22评价内容\x22,\x20\x22rating\x22:\x204\x20}\x0a\x20\x20\x20\x20],\x0a\x20\x20\x20\x20\x22qa\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x20\x22q\x22:\x20\x22问题内容1\x22,\x20\x22a\x22:\x20\x22回答内容1\x22\x20},\x0a\x20\x20\x20\x20\x20\x20{\x20\x22q\x22:\x20\x22问题内容2\x22,\x20\x22a\x22:\x20\x22回答内容2\x22\x20}\x0a\x20\x20\x20\x20]\x0a\x20\x20}\x0a]';try{const _0x2e332e=typeof window[_0x3cae9f(0x252)]==='function'?window['getApiConfig']():window['apiConfig']||{};if(!_0x2e332e||!_0x2e332e[_0x3cae9f(0x299)]||!_0x2e332e[_0x3cae9f(0x2c7)])throw new Error('请先在系统设置中配置\x20API');let _0x231260=_0x2e332e['endpoint'];if(_0x231260[_0x3cae9f(0x234)]('/'))_0x231260=_0x231260[_0x3cae9f(0x19d)](0x0,-0x1);!_0x231260['endsWith']('/chat/completions')&&(_0x231260=_0x231260['endsWith']('/v1')?_0x231260+_0x3cae9f(0x2b2):_0x231260+_0x3cae9f(0x225));const _0x2f9340=await fetch(_0x231260,{'method':_0x3cae9f(0x205),'headers':{'Content-Type':_0x3cae9f(0x236),'Authorization':'Bearer\x20'+_0x2e332e[_0x3cae9f(0x2c7)]},'body':JSON[_0x3cae9f(0x2db)]({'model':_0x2e332e[_0x3cae9f(0x2f7)]||_0x3cae9f(0x266),'messages':[{'role':_0x3cae9f(0x2b7),'content':_0x51e5d4},{'role':_0x3cae9f(0x2f2),'content':_0x33e820}],'temperature':parseFloat(_0x2e332e[_0x3cae9f(0x2fb)])||0.8})});if(!_0x2f9340['ok'])throw new Error(_0x3cae9f(0x1b7)+_0x2f9340[_0x3cae9f(0x2bd)]+'\x20'+_0x2f9340[_0x3cae9f(0x255)]);const _0x1824d8=await _0x2f9340[_0x3cae9f(0x31b)](),_0x136a03=_0x1824d8['choices']&&_0x1824d8['choices'][0x0],_0x172562=_0x136a03&&_0x136a03['message']?_0x136a03[_0x3cae9f(0x29e)][_0x3cae9f(0x1e3)]:'';let _0x4cebab=_0x172562||'';_0x4cebab['startsWith']('```')&&(_0x4cebab=_0x4cebab[_0x3cae9f(0x349)](/```json/g,'')[_0x3cae9f(0x349)](/```/g,'')['trim']());let _0x28f2bf=null;try{_0x28f2bf=JSON[_0x3cae9f(0x36f)](_0x4cebab);}catch(_0x20d535){const _0x338681=_0x4cebab[_0x3cae9f(0x328)]('['),_0x41da71=_0x4cebab[_0x3cae9f(0x22d)](']');if(_0x338681!==-0x1&&_0x41da71!==-0x1)_0x28f2bf=JSON[_0x3cae9f(0x36f)](_0x4cebab[_0x3cae9f(0x237)](_0x338681,_0x41da71+0x1));else throw new Error(_0x3cae9f(0x2c4));}if(!Array[_0x3cae9f(0x194)](_0x28f2bf)||_0x28f2bf[_0x3cae9f(0x1b5)]===0x0)throw new Error('生成数据为空');this[_0x3cae9f(0x218)](_0x28f2bf,_0x386ed7);if(this[_0x3cae9f(0x199)])this[_0x3cae9f(0x199)]['classList'][_0x3cae9f(0x1e8)](_0x3cae9f(0x295));if(this['searchInput'])this[_0x3cae9f(0x306)][_0x3cae9f(0x20c)]='';}catch(_0x530af2){console[_0x3cae9f(0x2dc)](_0x3cae9f(0x31a),_0x530af2),window[_0x3cae9f(0x1ea)]?window[_0x3cae9f(0x1ea)](_0x3cae9f(0x330)+_0x530af2[_0x3cae9f(0x29e)]):alert(_0x3cae9f(0x330)+_0x530af2['message']);}finally{this[_0x3cae9f(0x31d)]&&(this['searchConfirmBtn'][_0x3cae9f(0x29c)]='<i\x20class=\x22fas\x20fa-magic\x22></i>\x20确认生成',this['searchConfirmBtn'][_0x3cae9f(0x36e)]=![]);}}[_0x3e63b3(0x1aa)](_0x5de2ab,_0x243aee){const _0x4b606f=_0x3e63b3;let _0x515164=null;if(_0x243aee===_0x4b606f(0x275))_0x515164=this[_0x4b606f(0x347)];if(_0x243aee===_0x4b606f(0x254))_0x515164=this[_0x4b606f(0x2bc)];if(!_0x515164)return;_0x5de2ab['forEach'](_0x3672e0=>{const _0x4375d5=_0x4b606f,_0x39235a=document['createElement'](_0x4375d5(0x1be)),_0x3315eb=(Math[_0x4375d5(0x36b)]()*(0x5-0x4)+0x4)[_0x4375d5(0x1f2)](0x1);if(_0x243aee===_0x4375d5(0x275)){_0x39235a[_0x4375d5(0x216)]=_0x4375d5(0x193);let _0x5b35ab=(_0x3672e0[_0x4375d5(0x329)]||[_0x4375d5(0x37f),_0x3315eb])[_0x4375d5(0x27f)](_0x4af2ed=>_0x4375d5(0x301)+_0x4af2ed+_0x4375d5(0x1c5))[_0x4375d5(0x22e)]('');_0x39235a[_0x4375d5(0x29c)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-food-media\x22\x20style=\x22background:\x20'+(_0x3672e0['bgGrad']||_0x4375d5(0x249))+_0x4375d5(0x25d)+(_0x3672e0[_0x4375d5(0x2d6)]||_0x4375d5(0x382))+'\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-food-copy\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-card-topline\x22><strong>'+_0x3672e0['name']+'</strong><span>'+_0x3672e0['price']+_0x4375d5(0x1d8)+_0x3672e0[_0x4375d5(0x334)]+_0x4375d5(0x2be)+_0x5b35ab+_0x4375d5(0x2a6);}else _0x39235a[_0x4375d5(0x216)]=_0x4375d5(0x2a2),_0x39235a[_0x4375d5(0x29c)]=_0x4375d5(0x1d1)+(_0x3672e0[_0x4375d5(0x1c3)]||_0x4375d5(0x249))+_0x4375d5(0x25d)+(_0x3672e0[_0x4375d5(0x2d6)]||_0x4375d5(0x267))+_0x4375d5(0x2f6)+_0x3672e0[_0x4375d5(0x35e)]+_0x4375d5(0x316)+_0x3672e0['price']+_0x4375d5(0x285)+_0x3672e0[_0x4375d5(0x334)]+_0x4375d5(0x20b);_0x515164['appendChild'](_0x39235a);}),this[_0x4b606f(0x34e)]();}['injectGeneratedProducts'](_0x572a64,_0xa3af35){const _0x431299=_0x3e63b3;this['renderProductCards'](_0x572a64,_0xa3af35);try{const _0x1a6ab8=_0xa3af35===_0x431299(0x275)?_0x431299(0x221):_0x431299(0x1b9);let _0x24b286=[];const _0x44176b=_0x1ea5b0[_0x431299(0x2ba)](_0x1a6ab8);if(_0x44176b)_0x24b286=JSON[_0x431299(0x36f)](_0x44176b);_0x24b286=_0x24b286[_0x431299(0x309)](_0x572a64),_0x1ea5b0[_0x431299(0x273)](_0x1a6ab8,JSON[_0x431299(0x2db)](_0x24b286));}catch(_0x473e3b){}let _0x3923c7={};try{const _0x4aec3a=_0x1ea5b0['getItem'](_0x431299(0x1b2));if(_0x4aec3a)_0x3923c7=JSON['parse'](_0x4aec3a);}catch(_0x191a9e){}let _0x292b23={};try{const _0x15ec04=_0x1ea5b0[_0x431299(0x2ba)](_0x431299(0x262));if(_0x15ec04)_0x292b23=JSON[_0x431299(0x36f)](_0x15ec04);}catch(_0x44bfcf){}_0x572a64[_0x431299(0x28e)](_0x247f4f=>{const _0x12222f=_0x431299;if(_0x247f4f[_0x12222f(0x36a)]&&Array[_0x12222f(0x194)](_0x247f4f[_0x12222f(0x36a)])){const _0x55dcb8=_0x247f4f[_0x12222f(0x36a)][_0x12222f(0x27f)](_0x5261c3=>({..._0x5261c3,'date':_0x5261c3['date']||new Date()[_0x12222f(0x21f)]()}));_0x3923c7[_0x247f4f[_0x12222f(0x35e)]]?_0x3923c7[_0x247f4f[_0x12222f(0x35e)]]=[..._0x55dcb8,..._0x3923c7[_0x247f4f[_0x12222f(0x35e)]]]:_0x3923c7[_0x247f4f[_0x12222f(0x35e)]]=_0x55dcb8;}_0x247f4f['qa']&&Array[_0x12222f(0x194)](_0x247f4f['qa'])&&(_0x292b23[_0x247f4f['name']]?_0x292b23[_0x247f4f[_0x12222f(0x35e)]]=[..._0x247f4f['qa'],..._0x292b23[_0x247f4f[_0x12222f(0x35e)]]]:_0x292b23[_0x247f4f[_0x12222f(0x35e)]]=_0x247f4f['qa']);}),_0x1ea5b0['setItem']('shopping_comments',JSON[_0x431299(0x2db)](_0x3923c7)),_0x1ea5b0['setItem']('shopping_qa',JSON[_0x431299(0x2db)](_0x292b23));}[_0x3e63b3(0x34e)](){const _0x3d03e5=_0x3e63b3,_0x2dd71d=this[_0x3d03e5(0x245)]['querySelectorAll']('.shopping-food-card,\x20.shopping-product-card');_0x2dd71d[_0x3d03e5(0x28e)](_0x3aceda=>{const _0x2b919a=_0x3d03e5;if(_0x3aceda['hasAttribute']('data-bound'))return;_0x3aceda[_0x2b919a(0x1a7)]('data-bound',_0x2b919a(0x1b3)),_0x3aceda[_0x2b919a(0x1df)]['cursor']=_0x2b919a(0x232),_0x3aceda[_0x2b919a(0x29a)]('click',()=>{const _0x2a5d00=_0x2b919a;let _0x40ec1a,_0x740bcf,_0x32a32b,_0x1784ef,_0x37625d,_0x609828=![];if(_0x3aceda[_0x2a5d00(0x1f5)][_0x2a5d00(0x343)](_0x2a5d00(0x193)))_0x609828=!![],_0x40ec1a=_0x3aceda['querySelector'](_0x2a5d00(0x367))?.[_0x2a5d00(0x2ca)]||_0x2a5d00(0x2b9),_0x740bcf=_0x3aceda['querySelector'](_0x2a5d00(0x2a4))?.[_0x2a5d00(0x2ca)]||'¥0',_0x32a32b=_0x3aceda[_0x2a5d00(0x192)]('p')?.['textContent']||'',_0x1784ef=_0x3aceda[_0x2a5d00(0x192)]('.shopping-food-media')?.[_0x2a5d00(0x29c)]||'',_0x37625d=_0x3aceda['querySelector']('.shopping-food-media')[_0x2a5d00(0x1df)][_0x2a5d00(0x1dc)]||window[_0x2a5d00(0x2e8)](_0x3aceda[_0x2a5d00(0x192)](_0x2a5d00(0x1bb)))['background'];else{_0x40ec1a=_0x3aceda[_0x2a5d00(0x192)](_0x2a5d00(0x367))?.[_0x2a5d00(0x2ca)]||_0x2a5d00(0x308),_0x740bcf=_0x3aceda['querySelector']('span')?.[_0x2a5d00(0x2ca)]['split']('·')[0x0][_0x2a5d00(0x1e1)]()||'¥0';const _0x4a0fb2=_0x3aceda[_0x2a5d00(0x1ac)]('span');_0x32a32b=_0x4a0fb2[_0x2a5d00(0x1b5)]>0x1?_0x4a0fb2[0x1][_0x2a5d00(0x2ca)]:'',_0x1784ef=_0x3aceda['querySelector'](_0x2a5d00(0x356))?.[_0x2a5d00(0x29c)]||'',_0x37625d=_0x3aceda[_0x2a5d00(0x192)](_0x2a5d00(0x356))[_0x2a5d00(0x1df)]['background']||window[_0x2a5d00(0x2e8)](_0x3aceda[_0x2a5d00(0x192)](_0x2a5d00(0x356)))[_0x2a5d00(0x1dc)];}this[_0x2a5d00(0x325)]({'name':_0x40ec1a,'price':_0x740bcf,'desc':_0x32a32b,'iconHtml':_0x1784ef,'mediaBg':_0x37625d},_0x609828);});});}async[_0x3e63b3(0x357)](_0x5978e0,_0x5d9b54){const _0x2df6ec=_0x3e63b3;if(!this[_0x2df6ec(0x33c)]||!this['charList'])return;const _0x2e17de=this[_0x2df6ec(0x33c)][_0x2df6ec(0x192)](_0x2df6ec(0x2e0))[_0x2df6ec(0x2ca)];this[_0x2df6ec(0x33c)][_0x2df6ec(0x192)](_0x2df6ec(0x2e0))[_0x2df6ec(0x2ca)]=_0x2df6ec(0x18c),this[_0x2df6ec(0x353)][_0x2df6ec(0x29c)]='';let _0x56a7e6=[];if(window[_0x2df6ec(0x348)]&&window[_0x2df6ec(0x348)]['loadFriends'])try{const _0x51ea66=await window['imStorage'][_0x2df6ec(0x307)]();_0x56a7e6=_0x51ea66;}catch(_0x3c7946){}_0x56a7e6[_0x2df6ec(0x1b5)]===0x0?this['charList']['innerHTML']='<div\x20style=\x22text-align:\x20center;\x20padding:\x2020px;\x20color:\x20#73706a;\x22>暂无好友</div>':_0x56a7e6[_0x2df6ec(0x28e)](_0x5f57bc=>{const _0x5df3a0=_0x2df6ec,_0x3f4200=document['createElement'](_0x5df3a0(0x34b));_0x3f4200[_0x5df3a0(0x1df)][_0x5df3a0(0x2c9)]=_0x5df3a0(0x345);const _0x4068b6=_0x5f57bc['name']||_0x5f57bc[_0x5df3a0(0x211)]||_0x5df3a0(0x280);let _0xd80d9c=_0x5df3a0(0x34d);_0x5f57bc[_0x5df3a0(0x20f)]&&(_0xd80d9c=_0x5df3a0(0x323)+_0x5f57bc[_0x5df3a0(0x20f)]+_0x5df3a0(0x29f)),_0x3f4200['innerHTML']=_0x5df3a0(0x1bc)+_0xd80d9c+_0x5df3a0(0x1c0)+_0x4068b6+_0x5df3a0(0x286)+(_0x5f57bc[_0x5df3a0(0x2bb)]||'')+_0x5df3a0(0x276),_0x3f4200[_0x5df3a0(0x29a)]('click',async()=>{const _0x47f38f=_0x5df3a0,_0xb609d6=await this['sendGiftMessage'](_0x5f57bc,_0x5978e0);_0xb609d6&&(_0x5d9b54!==undefined&&this[_0x47f38f(0x1ae)][_0x5d9b54]&&(this[_0x47f38f(0x1ae)][_0x5d9b54][_0x47f38f(0x26b)]=!![],this[_0x47f38f(0x1ba)](),this[_0x47f38f(0x385)]())),this[_0x47f38f(0x33c)][_0x47f38f(0x1df)]['display']=_0x47f38f(0x241),this[_0x47f38f(0x33c)][_0x47f38f(0x1f5)]['remove'](_0x47f38f(0x295)),this[_0x47f38f(0x33c)][_0x47f38f(0x192)]('.wb-centered-modal-title')['textContent']=_0x2e17de;}),this[_0x5df3a0(0x353)]['appendChild'](_0x3f4200);});const _0x229d92=this[_0x2df6ec(0x33c)]['querySelector'](_0x2df6ec(0x1dd)),_0x53b7bc=_0x229d92[_0x2df6ec(0x2f8)](!![]);_0x229d92[_0x2df6ec(0x244)][_0x2df6ec(0x288)](_0x53b7bc,_0x229d92),_0x53b7bc[_0x2df6ec(0x29a)](_0x2df6ec(0x30c),()=>{const _0x1f5c16=_0x2df6ec;this['charSelectionModal'][_0x1f5c16(0x1df)][_0x1f5c16(0x1a8)]=_0x1f5c16(0x241),this[_0x1f5c16(0x33c)][_0x1f5c16(0x1f5)][_0x1f5c16(0x1e8)](_0x1f5c16(0x295)),this[_0x1f5c16(0x33c)][_0x1f5c16(0x192)](_0x1f5c16(0x2e0))[_0x1f5c16(0x2ca)]=_0x2e17de;}),this[_0x2df6ec(0x33c)]['style']['display']=_0x2df6ec(0x31c),requestAnimationFrame(()=>{const _0x2f958c=_0x2df6ec;this[_0x2f958c(0x33c)]['classList'][_0x2f958c(0x1eb)](_0x2f958c(0x295));});}async['sendGiftMessage'](_0x2afd26,_0x590206){const _0x278fbb=_0x3e63b3,_0x374680=_0x590206['items'][_0x278fbb(0x27f)](_0x6236dc=>_0x6236dc[_0x278fbb(0x35e)])[_0x278fbb(0x22e)](',\x20'),_0x34502d=_0x278fbb(0x2a7)+_0x374680+_0x278fbb(0x259)+_0x590206[_0x278fbb(0x289)][_0x278fbb(0x1f2)](0x2)+_0x278fbb(0x351)+_0x590206[_0x278fbb(0x25b)],_0x1991e7='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22background:\x20#fff0f3;\x20border-radius:\x2016px;\x20padding:\x2016px;\x20min-width:\x20220px;\x20max-width:\x20280px;\x20color:\x20#111111;\x20border:\x201px\x20solid\x20rgba(255,155,179,0.3);\x20display:\x20inline-block;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#ff9bb3;\x20margin-bottom:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x206px;\x20font-weight:\x20700;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-gift\x22></i>\x20收到礼物\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20font-weight:\x20700;\x20margin-bottom:\x206px;\x20white-space:\x20normal;\x20word-break:\x20break-word;\x20line-height:\x201.4;\x22>'+_0x374680+_0x278fbb(0x331)+_0x590206[_0x278fbb(0x289)][_0x278fbb(0x1f2)](0x2)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x20margin-top:\x204px;\x22>由\x20'+_0x590206['method']+_0x278fbb(0x1a6);let _0x1dd87c=![];if(window[_0x278fbb(0x1cd)]&&window[_0x278fbb(0x1cd)]['appendFriendMessage'])try{window[_0x278fbb(0x1cd)][_0x278fbb(0x2f3)]&&await window[_0x278fbb(0x1cd)][_0x278fbb(0x2f3)](_0x2afd26['id']);const _0x30cfeb={'role':_0x278fbb(0x2f2),'type':'html','text':_0x34502d,'content':_0x1991e7,'timestamp':Date[_0x278fbb(0x2a9)]()};_0x1dd87c=await window[_0x278fbb(0x1cd)][_0x278fbb(0x270)](_0x2afd26['id'],_0x30cfeb,{'silent':![]});const _0x590db6={'role':'system','type':'text','text':_0x278fbb(0x215)+_0x374680+_0x278fbb(0x26a)+_0x590206[_0x278fbb(0x289)][_0x278fbb(0x1f2)](0x2)+'。付款方式是:\x20'+_0x590206[_0x278fbb(0x25b)]+_0x278fbb(0x271),'timestamp':Date[_0x278fbb(0x2a9)]()+0x1};await window[_0x278fbb(0x1cd)][_0x278fbb(0x270)](_0x2afd26['id'],_0x590db6,{'silent':!![]});if(window[_0x278fbb(0x32a)]&&window[_0x278fbb(0x32a)][_0x278fbb(0x2b5)]&&String(window['imData'][_0x278fbb(0x2b5)]['id'])===String(_0x2afd26['id'])){const _0x5b2154=document[_0x278fbb(0x192)]('.active-chat-interface\x20.ins-chat-messages');_0x5b2154&&window['imChat']&&window[_0x278fbb(0x18e)][_0x278fbb(0x376)]&&window[_0x278fbb(0x18e)][_0x278fbb(0x376)](window[_0x278fbb(0x32a)][_0x278fbb(0x2b5)],_0x5b2154,_0x30cfeb);}}catch(_0x38ae26){console[_0x278fbb(0x2dc)](_0x278fbb(0x2e2),_0x38ae26);}if(_0x1dd87c){if(window[_0x278fbb(0x1ea)])window[_0x278fbb(0x1ea)]('赠送成功');else alert('赠送成功');}else{if(window[_0x278fbb(0x1ea)])window[_0x278fbb(0x1ea)](_0x278fbb(0x35c));else alert(_0x278fbb(0x35c));}return _0x1dd87c;}[_0x3e63b3(0x346)](){const _0xc0688b=_0x3e63b3;try{const _0x4879ce=_0x1ea5b0[_0xc0688b(0x2ba)](_0xc0688b(0x33e));if(_0x4879ce)return JSON[_0xc0688b(0x36f)](_0x4879ce);}catch(_0x1be789){}return[];}[_0x3e63b3(0x1ba)](){const _0x2dbe52=_0x3e63b3;_0x1ea5b0[_0x2dbe52(0x273)](_0x2dbe52(0x33e),JSON[_0x2dbe52(0x2db)](this[_0x2dbe52(0x1ae)]));}async[_0x3e63b3(0x257)](){const _0x30c31e=_0x3e63b3;let _0x272da4=[];typeof window['getPayCards']===_0x30c31e(0x1ad)&&(_0x272da4=window[_0x30c31e(0x314)]());(!_0x272da4||_0x272da4[_0x30c31e(0x1b5)]===0x0)&&(_0x272da4=[{'id':_0x30c31e(0x1c9),'name':_0x30c31e(0x2ad),'number':_0x30c31e(0x206),'icon':'fa-university'},{'id':_0x30c31e(0x297),'name':_0x30c31e(0x21a),'number':_0x30c31e(0x37e),'icon':_0x30c31e(0x2a0)}]);let _0x47d02f=[];if(window[_0x30c31e(0x348)]&&window[_0x30c31e(0x348)][_0x30c31e(0x307)])try{_0x47d02f=await window[_0x30c31e(0x348)][_0x30c31e(0x307)]();}catch(_0x21ea6c){}!this['selectedCard']&&_0x272da4[_0x30c31e(0x1b5)]>0x0&&(this['selectedCard']=_0x272da4[0x0]),_0x47d02f['length']>0x0?(!this['selectedFriend']||!_0x47d02f[_0x30c31e(0x2e4)](_0x4abbbb=>String(_0x4abbbb['id'])===String(this['selectedFriend']['id'])))&&(this[_0x30c31e(0x18d)]=_0x47d02f[0x0]):this[_0x30c31e(0x18d)]=null,this[_0x30c31e(0x1bd)]&&this[_0x30c31e(0x27c)]&&(this['payDesc'][_0x30c31e(0x2ca)]=this[_0x30c31e(0x27c)][_0x30c31e(0x35e)]+'\x20('+this[_0x30c31e(0x27c)][_0x30c31e(0x1d3)][_0x30c31e(0x19d)](-0x4)+')'),this['friendDesc']&&(this[_0x30c31e(0x1a9)][_0x30c31e(0x2ca)]=this['selectedFriend']?this[_0x30c31e(0x18d)][_0x30c31e(0x35e)]||this[_0x30c31e(0x18d)][_0x30c31e(0x211)]||_0x30c31e(0x280):_0x30c31e(0x355));}async[_0x3e63b3(0x2f4)](){const _0x274d04=_0x3e63b3;if(!this['cardSelectionModal']||!this[_0x274d04(0x1ce)])return;this['cardList']['innerHTML']='';let _0x58e00d=[],_0x14028f=0x0;typeof window[_0x274d04(0x314)]===_0x274d04(0x1ad)&&(_0x58e00d=window[_0x274d04(0x314)]()),typeof window['getPayBalance']===_0x274d04(0x1ad)&&(_0x14028f=window['getPayBalance']()),(!_0x58e00d||_0x58e00d[_0x274d04(0x1b5)]===0x0)&&(_0x58e00d=[{'id':_0x274d04(0x1c9),'name':_0x274d04(0x2ad),'number':_0x274d04(0x206),'icon':_0x274d04(0x1f1)},{'id':_0x274d04(0x297),'name':_0x274d04(0x21a),'number':_0x274d04(0x37e),'icon':'fa-credit-card'}]),this['cardBalance']&&(this[_0x274d04(0x30b)][_0x274d04(0x2ca)]='¥'+_0x14028f[_0x274d04(0x1f2)](0x2)),_0x58e00d[_0x274d04(0x28e)](_0x244b3a=>{const _0x213783=_0x274d04,_0x482b5a=document[_0x213783(0x24b)](_0x213783(0x34b));_0x482b5a[_0x213783(0x1df)][_0x213783(0x2c9)]=_0x213783(0x345);const _0x22638e=this[_0x213783(0x27c)]&&String(this['selectedCard']['id'])===String(_0x244b3a['id']);_0x482b5a['innerHTML']=_0x213783(0x189)+(_0x244b3a[_0x213783(0x2e1)]||_0x213783(0x2a0))+_0x213783(0x368)+_0x244b3a[_0x213783(0x35e)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2013px;\x20color:\x20#73706a;\x20font-family:\x20monospace;\x22>'+_0x244b3a[_0x213783(0x1d3)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x22638e?_0x213783(0x283):_0x213783(0x313))+_0x213783(0x32e),_0x482b5a['addEventListener']('click',()=>{const _0x5e87bf=_0x213783;this[_0x5e87bf(0x27c)]=_0x244b3a,this['payDesc']&&(this['payDesc']['textContent']=this['selectedCard'][_0x5e87bf(0x35e)]+'\x20('+this[_0x5e87bf(0x27c)][_0x5e87bf(0x1d3)]['slice'](-0x4)+')'),this['cardSelectionModal'][_0x5e87bf(0x1df)][_0x5e87bf(0x1a8)]=_0x5e87bf(0x241),this[_0x5e87bf(0x32f)]['classList']['remove'](_0x5e87bf(0x295));}),this['cardList'][_0x213783(0x1e7)](_0x482b5a);}),this[_0x274d04(0x32f)][_0x274d04(0x1df)][_0x274d04(0x1a8)]=_0x274d04(0x31c),requestAnimationFrame(()=>{const _0x450a7c=_0x274d04;this[_0x450a7c(0x32f)]['classList'][_0x450a7c(0x1eb)]('active');});}async['openCharSelection'](){const _0x424c6c=_0x3e63b3;if(!this[_0x424c6c(0x33c)]||!this[_0x424c6c(0x353)])return;this[_0x424c6c(0x353)][_0x424c6c(0x29c)]='';let _0x14644d=[];if(window['imStorage']&&window['imStorage']['loadFriends'])try{_0x14644d=await window['imStorage'][_0x424c6c(0x307)]();}catch(_0x5eb249){}_0x14644d[_0x424c6c(0x1b5)]===0x0?this[_0x424c6c(0x353)][_0x424c6c(0x29c)]=_0x424c6c(0x265):_0x14644d['forEach'](_0x46644a=>{const _0x2e12fa=_0x424c6c,_0x19819f=document[_0x2e12fa(0x24b)]('div');_0x19819f[_0x2e12fa(0x1df)][_0x2e12fa(0x2c9)]='background:\x20rgba(255,\x20255,\x20255,\x200.82);\x20border-radius:\x2012px;\x20padding:\x2012px\x2016px;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20cursor:\x20pointer;\x20border:\x201px\x20solid\x20rgba(17,17,17,0.09);\x20';const _0x2ef18e=this[_0x2e12fa(0x18d)]&&String(this[_0x2e12fa(0x18d)]['id'])===String(_0x46644a['id']),_0x4deb85=_0x46644a[_0x2e12fa(0x35e)]||_0x46644a[_0x2e12fa(0x211)]||_0x2e12fa(0x280);let _0x39edf1='<div\x20style=\x22width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20background:\x20rgba(17,17,17,0.06);\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#73706a;\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>';_0x46644a[_0x2e12fa(0x20f)]&&(_0x39edf1=_0x2e12fa(0x323)+_0x46644a[_0x2e12fa(0x20f)]+_0x2e12fa(0x29f)),_0x19819f[_0x2e12fa(0x29c)]=_0x2e12fa(0x1bc)+_0x39edf1+_0x2e12fa(0x1c0)+_0x4deb85+_0x2e12fa(0x286)+(_0x46644a[_0x2e12fa(0x2bb)]||'')+_0x2e12fa(0x261)+(_0x2ef18e?_0x2e12fa(0x283):'<div\x20style=\x22width:\x2020px;\x20height:\x2020px;\x20border-radius:\x2050%;\x20border:\x201px\x20solid\x20rgba(17,17,17,0.15);\x22></div>')+_0x2e12fa(0x278),_0x19819f['addEventListener']('click',()=>{const _0x26e97a=_0x2e12fa;this[_0x26e97a(0x18d)]=_0x46644a,this['friendDesc']&&(this[_0x26e97a(0x1a9)][_0x26e97a(0x2ca)]=_0x4deb85),this[_0x26e97a(0x33c)][_0x26e97a(0x1df)][_0x26e97a(0x1a8)]=_0x26e97a(0x241),this[_0x26e97a(0x33c)]['classList']['remove']('active');}),this[_0x2e12fa(0x353)]['appendChild'](_0x19819f);}),this['charSelectionModal']['style'][_0x424c6c(0x1a8)]='flex',requestAnimationFrame(()=>{const _0x554ff7=_0x424c6c;this[_0x554ff7(0x33c)]['classList'][_0x554ff7(0x1eb)](_0x554ff7(0x295));});}async[_0x3e63b3(0x2a1)](){const _0x2d770c=_0x3e63b3,_0x20609d=document[_0x2d770c(0x192)](_0x2d770c(0x274))?.[_0x2d770c(0x20c)];let _0x3a4e48=0x0;this[_0x2d770c(0x279)][_0x2d770c(0x28e)](_0xb9abce=>_0x3a4e48+=_0xb9abce[_0x2d770c(0x18f)]);const _0x53bcf9=_0x3a4e48+0x5,_0x320e8d=this[_0x2d770c(0x279)][_0x2d770c(0x27f)](_0x1371e8=>_0x1371e8[_0x2d770c(0x35e)])['join'](',\x20');if(_0x20609d===_0x2d770c(0x210)){if(!this['selectedCard']){window['showToast']?window[_0x2d770c(0x1ea)](_0x2d770c(0x354)):alert(_0x2d770c(0x354));return;}const _0x306e02=this[_0x2d770c(0x27c)][_0x2d770c(0x327)]!==undefined?this['selectedCard'][_0x2d770c(0x327)]:typeof window[_0x2d770c(0x1ed)]==='function'?window['getPayBalance']():0x0;if(_0x306e02>=_0x53bcf9){let _0x306803=!![];typeof window['addPayTransaction']===_0x2d770c(0x1ad)&&(_0x306803=window['addPayTransaction'](_0x53bcf9,_0x2d770c(0x384),_0x2d770c(0x1d4),this['selectedCard']['id'])),_0x306803?(this['orders'][_0x2d770c(0x363)]({'id':Date[_0x2d770c(0x2a9)](),'timestamp':Date['now'](),'date':new Date()['toLocaleString'](),'items':[...this[_0x2d770c(0x279)]],'total':_0x53bcf9,'status':_0x2d770c(0x1fd),'method':this[_0x2d770c(0x27c)][_0x2d770c(0x2d4)]===_0x2d770c(0x248)?'亲属卡\x20('+this[_0x2d770c(0x27c)]['name']+')':_0x2d770c(0x220)}),this[_0x2d770c(0x1ba)](),this[_0x2d770c(0x279)]=[],this[_0x2d770c(0x296)](),this['renderCart'](),this[_0x2d770c(0x1f3)]?.['classList']['remove']('active'),window[_0x2d770c(0x1ea)]?window[_0x2d770c(0x1ea)](_0x2d770c(0x1f8)):alert(_0x2d770c(0x1f8))):window[_0x2d770c(0x1ea)]?window[_0x2d770c(0x1ea)](_0x2d770c(0x23f)):alert(_0x2d770c(0x23f));}else window['showToast']?window[_0x2d770c(0x1ea)](_0x2d770c(0x203)):alert(_0x2d770c(0x203));}else{if(_0x20609d===_0x2d770c(0x366)){if(!this[_0x2d770c(0x18d)]){window[_0x2d770c(0x1ea)]?window[_0x2d770c(0x1ea)]('请选择代付好友'):alert(_0x2d770c(0x2d2));return;}const _0x4b2273=this[_0x2d770c(0x18d)][_0x2d770c(0x35e)]||this[_0x2d770c(0x18d)][_0x2d770c(0x211)]||_0x2d770c(0x280),_0x4c916a='[代付请求]\x0a商品:\x20'+_0x320e8d+_0x2d770c(0x259)+_0x53bcf9[_0x2d770c(0x1f2)](0x2),_0x34b7ae=_0x2d770c(0x25f)+_0x320e8d+_0x2d770c(0x1c2)+_0x53bcf9['toFixed'](0x2)+_0x2d770c(0x32c);let _0x32b66b=![];if(window[_0x2d770c(0x1cd)]&&window[_0x2d770c(0x1cd)][_0x2d770c(0x270)])try{window[_0x2d770c(0x1cd)][_0x2d770c(0x2f3)]&&await window[_0x2d770c(0x1cd)][_0x2d770c(0x2f3)](this[_0x2d770c(0x18d)]['id']);const _0x204aee={'role':_0x2d770c(0x2f2),'type':_0x2d770c(0x2ce),'text':_0x4c916a,'content':_0x34b7ae,'timestamp':Date[_0x2d770c(0x2a9)]()};_0x32b66b=await window['imApp']['appendFriendMessage'](this[_0x2d770c(0x18d)]['id'],_0x204aee,{'silent':!![]});if(_0x32b66b&&window[_0x2d770c(0x32a)]&&window[_0x2d770c(0x32a)][_0x2d770c(0x2b5)]&&String(window['imData']['currentActiveFriend']['id'])===String(this[_0x2d770c(0x18d)]['id'])){const _0x4e0d1c=document[_0x2d770c(0x192)](_0x2d770c(0x202));_0x4e0d1c&&window['imChat']&&window['imChat'][_0x2d770c(0x376)]&&window[_0x2d770c(0x18e)]['appendMessageToContainer'](window['imData'][_0x2d770c(0x2b5)],_0x4e0d1c,_0x204aee);}}catch(_0xab129e){console[_0x2d770c(0x2dc)](_0x2d770c(0x1c4),_0xab129e);}_0x32b66b?(this[_0x2d770c(0x1ae)]['unshift']({'id':Date[_0x2d770c(0x2a9)](),'timestamp':Date[_0x2d770c(0x2a9)](),'date':new Date()[_0x2d770c(0x272)](),'items':[...this[_0x2d770c(0x279)]],'total':_0x53bcf9,'status':_0x2d770c(0x22c),'method':_0x2d770c(0x386)+_0x4b2273+')'}),this['saveOrders'](),this[_0x2d770c(0x279)]=[],this[_0x2d770c(0x296)](),this['renderCart'](),this[_0x2d770c(0x1f3)]?.['classList'][_0x2d770c(0x1e8)](_0x2d770c(0x295)),window[_0x2d770c(0x1ea)]?window[_0x2d770c(0x1ea)](_0x2d770c(0x22c)):alert('代付请求已发送')):window[_0x2d770c(0x1ea)]?window['showToast']('无法发送代付请求'):alert('无法发送代付请求');}}}[_0x3e63b3(0x385)](){const _0x519591=_0x3e63b3;if(!this[_0x519591(0x22f)])return;this[_0x519591(0x22f)][_0x519591(0x29c)]='';if(this[_0x519591(0x1ae)]['length']===0x0){this['ordersList'][_0x519591(0x29c)]=_0x519591(0x1c8);return;}this['orders'][_0x519591(0x28e)]((_0x58dfbd,_0x463356)=>{const _0x4e833f=_0x519591,_0x803178=document['createElement']('div');_0x803178['style'][_0x4e833f(0x2c9)]=_0x4e833f(0x19f);const _0x29fde0=_0x58dfbd[_0x4e833f(0x223)][_0x4e833f(0x27f)](_0x50a630=>_0x50a630[_0x4e833f(0x35e)])[_0x4e833f(0x22e)](',\x20');let _0x1814ef='';_0x58dfbd[_0x4e833f(0x223)][_0x4e833f(0x19d)](0x0,0x3)['forEach'](_0x1db323=>{const _0x4d3677=_0x4e833f;_0x1814ef+=_0x4d3677(0x2ed)+_0x1db323[_0x4d3677(0x2ff)]+';\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2016px;\x20flex-shrink:\x200;\x22>'+_0x1db323['iconHtml']+_0x4d3677(0x290);});_0x58dfbd[_0x4e833f(0x223)]['length']>0x3&&(_0x1814ef+=_0x4e833f(0x2af)+(_0x58dfbd[_0x4e833f(0x223)]['length']-0x3)+_0x4e833f(0x290));let _0x2a9300=_0x58dfbd[_0x4e833f(0x2bd)];const _0x1816d1=_0x58dfbd['timestamp']||_0x58dfbd['id'],_0x20f6b8=(Date[_0x4e833f(0x2a9)]()-_0x1816d1)/0x3e8,_0x96acda=_0x58dfbd[_0x4e833f(0x223)]['some'](_0x13c4a8=>_0x13c4a8[_0x4e833f(0x1c1)]),_0x1886ba=_0x96acda?_0x4e833f(0x2ea):_0x4e833f(0x37d),_0x1b50c9=_0x96acda?_0x4e833f(0x24e):_0x4e833f(0x240),_0x35d2d4=_0x4e833f(0x2d5),_0x444c00=Math[_0x4e833f(0x35d)](0x64,Math['max'](0x0,_0x20f6b8/0x10*0x64)),_0x396d2f=_0x96acda?_0x4e833f(0x360):'#111111',_0x287095=_0x4e833f(0x1e6),_0x336e3f=_0x96acda?_0x4e833f(0x238):_0x4e833f(0x1f7),_0x180ed4=_0x20f6b8>=0x0,_0x26a91a=_0x20f6b8>=0x8,_0xa78cac=_0x20f6b8>=0x10,_0xbd7aa3=_0xa78cac?_0x287095:_0x396d2f,_0x252163=_0x463356*0.1;_0x803178[_0x4e833f(0x216)]=_0x4e833f(0x1a5),_0x803178[_0x4e833f(0x1df)][_0x4e833f(0x268)]=_0x252163+'s',_0x803178[_0x4e833f(0x1df)][_0x4e833f(0x2c9)]=_0x4e833f(0x2b1)+_0x252163+'s;',_0x803178[_0x4e833f(0x29c)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-date\x22>'+_0x58dfbd['date']+_0x4e833f(0x2ac)+_0x463356+_0x4e833f(0x25c)+_0x444c00/0x64+_0x4e833f(0x2e5)+_0xbd7aa3+_0x4e833f(0x317)+(_0x180ed4?_0x396d2f:_0x4e833f(0x249))+';\x20'+(_0x180ed4&&!_0x26a91a?_0x4e833f(0x2e3)+_0x336e3f+_0x4e833f(0x1b1):'')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check\x22\x20style=\x22color:\x20'+(_0x180ed4?_0x4e833f(0x1e9):_0x4e833f(0x2fa))+_0x4e833f(0x212)+(_0x180ed4?_0x4e833f(0x219):_0x4e833f(0x2ab))+_0x4e833f(0x2d9)+(_0x180ed4?_0x4e833f(0x227):_0x4e833f(0x1fa))+_0x4e833f(0x37b)+_0x1886ba+_0x4e833f(0x2a8)+(_0x26a91a?_0x396d2f:_0x4e833f(0x249))+';\x20'+(_0x26a91a&&!_0xa78cac?'animation:\x20'+_0x336e3f+_0x4e833f(0x1b1):'')+_0x4e833f(0x1a4)+(_0x26a91a?_0x4e833f(0x1e9):_0x4e833f(0x2fa))+';\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node-text\x22\x20style=\x22color:\x20'+(_0x26a91a?_0x4e833f(0x219):_0x4e833f(0x2ab))+_0x4e833f(0x2d9)+(_0x26a91a?_0x4e833f(0x227):_0x4e833f(0x1fa))+_0x4e833f(0x37b)+_0x1b50c9+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Node\x203\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-icon-wrap\x22\x20style=\x22background:\x20'+(_0xa78cac?_0x287095:_0x4e833f(0x249))+_0x4e833f(0x1db)+(_0xa78cac?_0x4e833f(0x1e9):_0x4e833f(0x2fa))+';\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-node-text\x22\x20style=\x22color:\x20'+(_0xa78cac?_0x4e833f(0x219):_0x4e833f(0x2ab))+_0x4e833f(0x2d9)+(_0xa78cac?_0x4e833f(0x227):'600')+_0x4e833f(0x37b)+_0x35d2d4+_0x4e833f(0x196)+_0x58dfbd[_0x4e833f(0x223)]['map'](_0x2447b0=>_0x4e833f(0x264)+_0x2447b0[_0x4e833f(0x2ff)]+';\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2447b0['iconHtml']+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x4e833f(0x22e)]('')+_0x4e833f(0x29d)+_0x29fde0+_0x4e833f(0x204)+_0x58dfbd[_0x4e833f(0x25b)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22shopping-order-price-wrap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22shopping-order-gift-btn\x22\x20data-index=\x22'+_0x463356+_0x4e833f(0x19b)+(_0x58dfbd[_0x4e833f(0x223)][_0x4e833f(0x1b5)]>0x0?_0x58dfbd[_0x4e833f(0x223)][0x0][_0x4e833f(0x35e)]:'')+_0x4e833f(0x1a2)+_0x58dfbd[_0x4e833f(0x289)][_0x4e833f(0x1f2)](0x2)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';const _0xd21459=_0x803178[_0x4e833f(0x192)](_0x4e833f(0x24f));_0xd21459&&(_0x58dfbd[_0x4e833f(0x26b)]?(_0xd21459[_0x4e833f(0x2ca)]=_0x4e833f(0x229),_0xd21459[_0x4e833f(0x1df)][_0x4e833f(0x1dc)]=_0x4e833f(0x23c),_0xd21459[_0x4e833f(0x1df)][_0x4e833f(0x1ab)]=_0x4e833f(0x2ab),_0xd21459['style']['cursor']='default'):_0xd21459[_0x4e833f(0x29a)](_0x4e833f(0x30c),_0x121da9=>{const _0xe1472e=_0x4e833f;_0x121da9[_0xe1472e(0x2b3)]();const _0x141580=parseInt(_0xd21459[_0xe1472e(0x1c6)][_0xe1472e(0x2b4)],0xa),_0x84602f=this[_0xe1472e(0x1ae)][_0x141580];this[_0xe1472e(0x357)](_0x84602f,_0x141580);}));const _0x29232c=_0x803178['querySelector']('.shopping-order-delete-btn');_0x29232c&&_0x29232c[_0x4e833f(0x29a)](_0x4e833f(0x30c),_0x26e407=>{const _0x1fc9fa=_0x4e833f;_0x26e407[_0x1fc9fa(0x2b3)]();const _0x21dedc=parseInt(_0x29232c[_0x1fc9fa(0x1c6)][_0x1fc9fa(0x2b4)],0xa);this[_0x1fc9fa(0x1ae)][_0x1fc9fa(0x19e)](_0x21dedc,0x1),this[_0x1fc9fa(0x1ba)](),this['renderOrders']();});const _0x32af0f=_0x803178[_0x4e833f(0x192)]('.shopping-order-comment-btn');_0x32af0f&&_0x32af0f[_0x4e833f(0x29a)](_0x4e833f(0x30c),_0x223896=>{const _0x2e1a07=_0x4e833f;_0x223896[_0x2e1a07(0x2b3)]();const _0x41d81e=_0x32af0f['dataset'][_0x2e1a07(0x25e)];if(!_0x41d81e)return;this[_0x2e1a07(0x18b)]=_0x41d81e;if(!this[_0x2e1a07(0x2d3)])this[_0x2e1a07(0x32d)]();this[_0x2e1a07(0x226)]['value']='',this[_0x2e1a07(0x21b)]&&Array['from'](this[_0x2e1a07(0x21b)])[_0x2e1a07(0x28e)](_0x21f93d=>{const _0x11ff96=_0x2e1a07;_0x21f93d[_0x11ff96(0x216)]=_0x11ff96(0x26f),_0x21f93d[_0x11ff96(0x1df)]['color']=_0x11ff96(0x2e7);}),this[_0x2e1a07(0x2d3)]['classList'][_0x2e1a07(0x1eb)]('active');}),this[_0x4e833f(0x22f)][_0x4e833f(0x1e7)](_0x803178);});}['openDetail'](_0x4d0c8a,_0x4886c4=![]){const _0x2e00d2=_0x3e63b3;_0x4d0c8a[_0x2e00d2(0x1c1)]=_0x4886c4,this[_0x2e00d2(0x319)]=_0x4d0c8a;if(_0x4886c4){if(this['foodDetailName'])this[_0x2e00d2(0x34f)]['textContent']=_0x4d0c8a[_0x2e00d2(0x35e)];if(this[_0x2e00d2(0x198)]){const _0x4c4324=_0x4d0c8a[_0x2e00d2(0x32b)][_0x2e00d2(0x349)]('¥','');this[_0x2e00d2(0x198)][_0x2e00d2(0x29c)]='<span\x20style=\x22font-size:\x2016px;\x22>¥</span>'+_0x4c4324;}if(this[_0x2e00d2(0x188)])this[_0x2e00d2(0x188)][_0x2e00d2(0x2ca)]=_0x4d0c8a['price'];if(this[_0x2e00d2(0x379)])this[_0x2e00d2(0x379)][_0x2e00d2(0x2ca)]=_0x4d0c8a[_0x2e00d2(0x334)];this[_0x2e00d2(0x269)]&&(this[_0x2e00d2(0x269)][_0x2e00d2(0x29c)]=_0x4d0c8a[_0x2e00d2(0x370)],this[_0x2e00d2(0x269)][_0x2e00d2(0x1df)][_0x2e00d2(0x1dc)]=_0x4d0c8a[_0x2e00d2(0x2ff)]),this[_0x2e00d2(0x208)]&&this[_0x2e00d2(0x208)][_0x2e00d2(0x1f5)][_0x2e00d2(0x1eb)](_0x2e00d2(0x295));}else{if(this[_0x2e00d2(0x22b)])this[_0x2e00d2(0x22b)]['textContent']=_0x4d0c8a['name'];if(this[_0x2e00d2(0x374)])this[_0x2e00d2(0x374)]['textContent']=_0x4d0c8a[_0x2e00d2(0x32b)];if(this[_0x2e00d2(0x383)])this[_0x2e00d2(0x383)][_0x2e00d2(0x2ca)]=_0x4d0c8a[_0x2e00d2(0x334)];this[_0x2e00d2(0x1e4)]&&(this[_0x2e00d2(0x1e4)][_0x2e00d2(0x29c)]=_0x4d0c8a['iconHtml'],this[_0x2e00d2(0x1e4)]['style'][_0x2e00d2(0x1dc)]=_0x4d0c8a['mediaBg']),this[_0x2e00d2(0x2ee)](_0x4d0c8a['name'],![]),this[_0x2e00d2(0x21e)]&&this[_0x2e00d2(0x21e)][_0x2e00d2(0x1f5)]['add'](_0x2e00d2(0x295));}this[_0x2e00d2(0x2fe)](_0x4d0c8a[_0x2e00d2(0x35e)],_0x4886c4);}[_0x3e63b3(0x2ee)](_0x248675,_0x1d3591){const _0x1be7e4=_0x3e63b3,_0x5da057=document[_0x1be7e4(0x1da)](_0x1be7e4(0x1a1)),_0x23266b=document[_0x1be7e4(0x1da)](_0x1be7e4(0x1cc)),_0x578513=document[_0x1be7e4(0x1da)](_0x1be7e4(0x197));if(!_0x23266b)return;if(_0x1d3591){if(_0x5da057)_0x5da057[_0x1be7e4(0x1df)][_0x1be7e4(0x1a8)]=_0x1be7e4(0x241);return;}else{if(_0x5da057)_0x5da057[_0x1be7e4(0x1df)][_0x1be7e4(0x1a8)]=_0x1be7e4(0x335);}let _0x148da7={};try{const _0x267501=_0x1ea5b0[_0x1be7e4(0x2ba)](_0x1be7e4(0x262));if(_0x267501)_0x148da7=JSON[_0x1be7e4(0x36f)](_0x267501);}catch(_0x1e84d6){}const _0x4d9b14=_0x148da7[_0x248675]||[];if(_0x578513)_0x578513[_0x1be7e4(0x2ca)]=_0x1be7e4(0x21c)+_0x4d9b14[_0x1be7e4(0x1b5)]+')';if(_0x5da057){_0x5da057[_0x1be7e4(0x29c)]=_0x1be7e4(0x322)+_0x4d9b14['length']+_0x1be7e4(0x2c3);if(_0x4d9b14[_0x1be7e4(0x1b5)]===0x0)_0x5da057[_0x1be7e4(0x29c)]+=_0x1be7e4(0x1f6);else{const _0x14dbd5=_0x4d9b14[_0x1be7e4(0x19d)](0x0,0x2);_0x14dbd5[_0x1be7e4(0x28e)](_0x4751b0=>{const _0x2ed7d1=_0x1be7e4,_0x1e03b3=Math[_0x2ed7d1(0x320)](Math['random']()*0x5)+0x1;_0x5da057[_0x2ed7d1(0x29c)]+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20flex-start;\x20gap:\x2012px;\x20margin-bottom:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22background:\x20#111;\x20color:\x20#fff;\x20font-size:\x2010px;\x20padding:\x202px\x206px;\x20border-radius:\x204px;\x20font-weight:\x20bold;\x20margin-top:\x202px;\x22>Q</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:\x201;\x20font-size:\x2014px;\x20color:\x20#111;\x20line-height:\x201.4;\x22>'+_0x4751b0['q']+_0x2ed7d1(0x246)+_0x1e03b3+_0x2ed7d1(0x2aa);});}}_0x23266b[_0x1be7e4(0x29c)]='',_0x4d9b14['length']===0x0?_0x23266b[_0x1be7e4(0x29c)]=_0x1be7e4(0x253):_0x4d9b14[_0x1be7e4(0x28e)](_0x119e32=>{const _0x3b8c26=_0x1be7e4,_0x1e72de=document[_0x3b8c26(0x24b)]('div');_0x1e72de[_0x3b8c26(0x1df)][_0x3b8c26(0x2c9)]=_0x3b8c26(0x291),_0x1e72de[_0x3b8c26(0x29c)]=_0x3b8c26(0x312)+_0x119e32['q']+_0x3b8c26(0x27e)+_0x119e32['a']+_0x3b8c26(0x2a6),_0x23266b[_0x3b8c26(0x1e7)](_0x1e72de);});}[_0x3e63b3(0x2fe)](_0x3a4705,_0x149a2f){const _0x2ae529=_0x3e63b3,_0x4ccb31=_0x149a2f?this[_0x2ae529(0x208)]:this[_0x2ae529(0x21e)];if(!_0x4ccb31)return;const _0x3fcf8c=_0x4ccb31[_0x2ae529(0x192)](_0x149a2f?_0x2ae529(0x1c7):_0x2ae529(0x20a));_0x3fcf8c&&(_0x3fcf8c[_0x2ae529(0x1df)]['display']=_0x2ae529(0x241));let _0x12a379,_0x5e6d73;if(_0x149a2f){const _0x49ed7b=_0x4ccb31['querySelectorAll'](_0x2ae529(0x34b));for(let _0x7e024d of _0x49ed7b){if(_0x7e024d['textContent'][_0x2ae529(0x284)](_0x2ae529(0x263))&&_0x7e024d['style']['fontSize']===_0x2ae529(0x231)){_0x5e6d73=_0x7e024d,_0x12a379=_0x7e024d['parentElement'][_0x2ae529(0x1d2)];break;}}}else{const _0x560fcb=_0x4ccb31[_0x2ae529(0x1ac)]('div');for(let _0x2058bb of _0x560fcb){if(_0x2058bb['textContent']['includes'](_0x2ae529(0x378))&&_0x2058bb[_0x2ae529(0x1df)][_0x2ae529(0x21d)]===_0x2ae529(0x35f)){_0x5e6d73=_0x2058bb,_0x12a379=_0x2058bb[_0x2ae529(0x2c2)][_0x2ae529(0x1d2)];break;}}}if(!_0x12a379)return;let _0x8d0860={};try{const _0x5aa2ba=_0x1ea5b0['getItem'](_0x2ae529(0x1b2));if(_0x5aa2ba)_0x8d0860=JSON[_0x2ae529(0x36f)](_0x5aa2ba);}catch(_0xce710d){}const _0x53deaa=_0x8d0860[_0x3a4705]||[];_0x5e6d73&&(_0x5e6d73[_0x2ae529(0x2ca)]=_0x149a2f?_0x2ae529(0x222)+_0x53deaa['length']+')':_0x2ae529(0x2cc)+_0x53deaa[_0x2ae529(0x1b5)]+')'),_0x12a379[_0x2ae529(0x29c)]='',_0x53deaa[_0x2ae529(0x1b5)]===0x0&&(_0x12a379[_0x2ae529(0x29c)]=_0x2ae529(0x201));}[_0x3e63b3(0x32d)](){const _0x51d4a1=_0x3e63b3;if(document['getElementById'](_0x51d4a1(0x2c0)))return;const _0x29ac50='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet-overlay\x20detail-sheet-overlay\x22\x20id=\x22shopping-rating-sheet\x22\x20style=\x22z-index:\x201200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bottom-sheet\x22\x20style=\x22height:\x20auto;\x20max-height:\x2070%;\x20padding-bottom:\x20max(20px,\x20env(safe-area-inset-bottom,\x200px));\x20background:\x20#ffffff;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22sheet-title\x22\x20id=\x22shopping-rating-title\x22>商品评价</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22detail-sheet-content\x22\x20style=\x22padding:\x2016px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20center;\x20gap:\x2015px;\x20margin-bottom:\x2024px;\x22\x20id=\x22shopping-rating-stars\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20data-val=\x221\x22\x20style=\x22font-size:\x2032px;\x20color:\x20#ff9500;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20data-val=\x222\x22\x20style=\x22font-size:\x2032px;\x20color:\x20#ff9500;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20data-val=\x223\x22\x20style=\x22font-size:\x2032px;\x20color:\x20#ff9500;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20data-val=\x224\x22\x20style=\x22font-size:\x2032px;\x20color:\x20#ff9500;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-star\x22\x20data-val=\x225\x22\x20style=\x22font-size:\x2032px;\x20color:\x20#ff9500;\x20cursor:\x20pointer;\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22shopping-rating-text\x22\x20placeholder=\x22写点评价吧，你的评价对其他买家有很大帮助...\x22\x20style=\x22width:\x20100%;\x20height:\x20120px;\x20border:\x20none;\x20background:\x20#f7f7f5;\x20border-radius:\x2012px;\x20padding:\x2016px;\x20font-size:\x2015px;\x20resize:\x20none;\x20outline:\x20none;\x20margin-bottom:\x2020px;\x20box-sizing:\x20border-box;\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22shopping-rating-submit\x22\x20style=\x22width:\x20100%;\x20padding:\x2016px;\x20background:\x20#111;\x20color:\x20#fff;\x20border-radius:\x2012px;\x20font-size:\x2016px;\x20font-weight:\x20700;\x20border:\x20none;\x20cursor:\x20pointer;\x22>提交评价</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>';document['body']['insertAdjacentHTML'](_0x51d4a1(0x228),_0x29ac50),this['ratingSheet']=document[_0x51d4a1(0x1da)](_0x51d4a1(0x2c0)),this[_0x51d4a1(0x21b)]=document[_0x51d4a1(0x1da)](_0x51d4a1(0x1fe))[_0x51d4a1(0x333)],this['ratingText']=document[_0x51d4a1(0x1da)](_0x51d4a1(0x251)),this['ratingSubmit']=document['getElementById'](_0x51d4a1(0x191));let _0x57c9c9=0x5;Array[_0x51d4a1(0x282)](this[_0x51d4a1(0x21b)])[_0x51d4a1(0x28e)](_0x5c4225=>{_0x5c4225['addEventListener']('click',_0x1a26c6=>{const _0x42e63c=_u2_a1a0806e89_0x102f;_0x57c9c9=parseInt(_0x1a26c6['target'][_0x42e63c(0x1c6)][_0x42e63c(0x1ee)],0xa),Array[_0x42e63c(0x282)](this['ratingStars'])[_0x42e63c(0x28e)]((_0x57cacc,_0x2d7bbb)=>{const _0x2f35ee=_0x42e63c;_0x2d7bbb<_0x57c9c9?(_0x57cacc[_0x2f35ee(0x216)]='fas\x20fa-star',_0x57cacc[_0x2f35ee(0x1df)][_0x2f35ee(0x1ab)]='#ff9500'):(_0x57cacc['className']=_0x2f35ee(0x2da),_0x57cacc[_0x2f35ee(0x1df)][_0x2f35ee(0x1ab)]=_0x2f35ee(0x23c));});});}),this[_0x51d4a1(0x26d)][_0x51d4a1(0x29a)](_0x51d4a1(0x30c),()=>{const _0xdc65d=_0x51d4a1,_0x866357=this[_0xdc65d(0x226)][_0xdc65d(0x20c)][_0xdc65d(0x1e1)]();if(!_0x866357){if(window[_0xdc65d(0x1ea)])window[_0xdc65d(0x1ea)](_0xdc65d(0x33b));else alert(_0xdc65d(0x33b));return;}if(!this['currentReviewProduct'])return;let _0x578525={};try{const _0x4ecb9a=_0x1ea5b0[_0xdc65d(0x2ba)](_0xdc65d(0x1b2));if(_0x4ecb9a)_0x578525=JSON[_0xdc65d(0x36f)](_0x4ecb9a);}catch(_0x3af905){}!_0x578525[this[_0xdc65d(0x18b)]]&&(_0x578525[this[_0xdc65d(0x18b)]]=[]);_0x578525[this['currentReviewProduct']][_0xdc65d(0x363)]({'user':'我','text':_0x866357,'rating':_0x57c9c9,'date':new Date()[_0xdc65d(0x21f)]()}),_0x1ea5b0[_0xdc65d(0x273)](_0xdc65d(0x1b2),JSON['stringify'](_0x578525));if(window[_0xdc65d(0x1ea)])window['showToast'](_0xdc65d(0x2b6));else alert(_0xdc65d(0x2b6));this['ratingSheet']['classList'][_0xdc65d(0x1e8)](_0xdc65d(0x295)),this[_0xdc65d(0x319)]&&this['currentProduct'][_0xdc65d(0x35e)]===this[_0xdc65d(0x18b)]&&this[_0xdc65d(0x2fe)](this[_0xdc65d(0x18b)],this[_0xdc65d(0x319)][_0xdc65d(0x1c1)]);}),this['ratingSheet'][_0x51d4a1(0x29a)](_0x51d4a1(0x30c),_0x2dbddc=>{const _0x2c9076=_0x51d4a1;_0x2dbddc[_0x2c9076(0x28d)]===this[_0x2c9076(0x2d3)]&&this[_0x2c9076(0x2d3)][_0x2c9076(0x1f5)]['remove'](_0x2c9076(0x295));});}['openAllReviews'](_0x24bf59,_0x2c80cb){const _0x214880=_0x3e63b3,_0x538a59=document[_0x214880(0x1da)](_0x214880(0x30a)),_0x402d1f=document[_0x214880(0x1da)](_0x214880(0x298)),_0x556cc4=document[_0x214880(0x1da)](_0x214880(0x352));if(!_0x538a59||!_0x402d1f)return;let _0xecae0f={};try{const _0x1a47e5=_0x1ea5b0[_0x214880(0x2ba)](_0x214880(0x1b2));if(_0x1a47e5)_0xecae0f=JSON[_0x214880(0x36f)](_0x1a47e5);}catch(_0x5645a4){}const _0x1a89af=_0xecae0f[_0x24bf59]||[];_0x556cc4&&(_0x556cc4[_0x214880(0x2ca)]=_0x2c80cb?'外卖评价\x20('+_0x1a89af[_0x214880(0x1b5)]+')':_0x214880(0x2cc)+_0x1a89af[_0x214880(0x1b5)]+')'),_0x402d1f['innerHTML']='',_0x1a89af[_0x214880(0x1b5)]===0x0?_0x402d1f[_0x214880(0x29c)]='<div\x20style=\x22text-align:\x20center;\x20padding:\x2040px;\x20color:\x20#8e8e93;\x22>暂无评价</div>':_0x1a89af[_0x214880(0x28e)](_0x40b8f7=>{const _0x4dfcee=_0x214880,_0x3502d8=document[_0x4dfcee(0x24b)](_0x4dfcee(0x34b));_0x3502d8[_0x4dfcee(0x1df)][_0x4dfcee(0x2c9)]=_0x4dfcee(0x18a);let _0x56aef6='';const _0x6969a3=_0x40b8f7[_0x4dfcee(0x1f0)]||0x5;for(let _0x4873f3=0x0;_0x4873f3<0x5;_0x4873f3++){_0x4873f3<_0x6969a3?_0x56aef6+='<i\x20class=\x22fas\x20fa-star\x22\x20style=\x22color:\x20#ff9500;\x20font-size:\x2010px;\x22></i>':_0x56aef6+=_0x4dfcee(0x31e);}_0x3502d8['innerHTML']=_0x4dfcee(0x293)+_0x40b8f7[_0x4dfcee(0x2f2)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#8e8e93;\x22>'+_0x40b8f7['date']+_0x4dfcee(0x2fd)+_0x56aef6+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2015px;\x20color:\x20#333;\x20line-height:\x201.5;\x22>'+_0x40b8f7[_0x4dfcee(0x2ae)]+_0x4dfcee(0x2a6),_0x402d1f['appendChild'](_0x3502d8);}),_0x538a59['classList']['add'](_0x214880(0x295));}[_0x3e63b3(0x23d)](){const _0x599d5c=_0x3e63b3;if(this[_0x599d5c(0x21e)])this[_0x599d5c(0x21e)][_0x599d5c(0x1f5)][_0x599d5c(0x1e8)](_0x599d5c(0x295));if(this[_0x599d5c(0x208)])this[_0x599d5c(0x208)][_0x599d5c(0x1f5)][_0x599d5c(0x1e8)](_0x599d5c(0x295));}['loadCart'](){const _0x36dc51=_0x3e63b3;try{const _0x611360=_0x1ea5b0[_0x36dc51(0x2ba)](_0x36dc51(0x302));if(_0x611360)return JSON[_0x36dc51(0x36f)](_0x611360);}catch(_0x463542){console[_0x36dc51(0x2dc)](_0x36dc51(0x2ef),_0x463542);}return[];}[_0x3e63b3(0x296)](){const _0x510f10=_0x3e63b3;try{_0x1ea5b0[_0x510f10(0x273)](_0x510f10(0x302),JSON['stringify'](this[_0x510f10(0x279)]));}catch(_0x48fea0){console[_0x510f10(0x2dc)]('Failed\x20to\x20save\x20cart\x20to\x20localStorage',_0x48fea0);}}['addToCart'](_0x11179d){const _0x5d7d79=_0x3e63b3,_0x3c259d=parseFloat(_0x11179d[_0x5d7d79(0x32b)][_0x5d7d79(0x349)]('¥',''))||0x0;this[_0x5d7d79(0x279)][_0x5d7d79(0x1e0)]({..._0x11179d,'priceVal':_0x3c259d,'id':Date[_0x5d7d79(0x2a9)]()}),this[_0x5d7d79(0x296)](),this[_0x5d7d79(0x34c)]();}['removeFromCart'](_0x186648){const _0x5da85b=_0x3e63b3;this[_0x5da85b(0x279)][_0x5da85b(0x19e)](_0x186648,0x1),this[_0x5da85b(0x296)](),this[_0x5da85b(0x34c)]();}['renderCart'](){const _0x132f72=_0x3e63b3;if(!this[_0x132f72(0x1d0)]||!this[_0x132f72(0x28a)]||!this[_0x132f72(0x1e5)])return;if(this[_0x132f72(0x279)][_0x132f72(0x1b5)]===0x0){this[_0x132f72(0x1d0)][_0x132f72(0x1df)][_0x132f72(0x1a8)]=_0x132f72(0x31c),this[_0x132f72(0x28a)][_0x132f72(0x1df)][_0x132f72(0x1a8)]=_0x132f72(0x241);return;}this[_0x132f72(0x1d0)]['style'][_0x132f72(0x1a8)]=_0x132f72(0x241),this[_0x132f72(0x28a)]['style'][_0x132f72(0x1a8)]=_0x132f72(0x31c),this[_0x132f72(0x1e5)]['innerHTML']='';let _0x4fb3e4=0x0;this[_0x132f72(0x279)][_0x132f72(0x28e)]((_0x7d8b0c,_0x569d2e)=>{const _0x35b787=_0x132f72;_0x4fb3e4+=_0x7d8b0c[_0x35b787(0x18f)];const _0x3fa542=document[_0x35b787(0x24b)]('div');_0x3fa542[_0x35b787(0x1df)][_0x35b787(0x1a8)]='flex',_0x3fa542[_0x35b787(0x1df)][_0x35b787(0x2ec)]='center',_0x3fa542['style'][_0x35b787(0x2c8)]=_0x35b787(0x231),_0x3fa542[_0x35b787(0x1df)]['padding']=_0x35b787(0x369),_0x3fa542[_0x35b787(0x1df)][_0x35b787(0x1dc)]=_0x35b787(0x1e9),_0x3fa542['style'][_0x35b787(0x303)]=_0x35b787(0x2f0),_0x3fa542[_0x35b787(0x1df)]['boxShadow']='0\x202px\x2010px\x20rgba(0,0,0,0.03)',_0x3fa542[_0x35b787(0x29c)]=_0x35b787(0x214)+_0x7d8b0c['mediaBg']+';\x20display:\x20flex;\x20justify-content:\x20center;\x20align-items:\x20center;\x20color:\x20#fff;\x20font-size:\x2020px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x7d8b0c[_0x35b787(0x370)]+_0x35b787(0x305)+_0x7d8b0c[_0x35b787(0x35e)]+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20#a97642;\x20font-weight:\x20700;\x20margin-top:\x204px;\x22>'+_0x7d8b0c[_0x35b787(0x32b)]+_0x35b787(0x1f4);const _0x34965a=_0x3fa542['querySelector'](_0x35b787(0x200));_0x34965a[_0x35b787(0x29a)]('click',()=>{const _0x229d38=_0x35b787;this[_0x229d38(0x2c6)](_0x569d2e);}),this['cartList'][_0x35b787(0x1e7)](_0x3fa542);});if(this[_0x132f72(0x1af)])this[_0x132f72(0x1af)]['textContent']='¥'+_0x4fb3e4[_0x132f72(0x1f2)](0x2);const _0x5a793f=0x5;if(this[_0x132f72(0x260)])this[_0x132f72(0x260)][_0x132f72(0x2ca)]='¥'+(_0x4fb3e4+_0x5a793f)[_0x132f72(0x1f2)](0x2);}[_0x3e63b3(0x1ef)](){const _0x398f5a=_0x3e63b3;if(!this[_0x398f5a(0x245)])return;this[_0x398f5a(0x245)][_0x398f5a(0x1df)]['display']=_0x398f5a(0x31c),window[_0x398f5a(0x217)](()=>{const _0x420d4c=_0x398f5a;this[_0x420d4c(0x245)][_0x420d4c(0x1f5)][_0x420d4c(0x1eb)](_0x420d4c(0x295)),this['switchTab'](_0x420d4c(0x275)),this[_0x420d4c(0x22a)]();}),document[_0x398f5a(0x192)](_0x398f5a(0x35a))?.[_0x398f5a(0x1a7)](_0x398f5a(0x1e3),'#f7f7f5');}[_0x3e63b3(0x380)](){const _0x384f50=_0x3e63b3;if(!this[_0x384f50(0x245)])return;this[_0x384f50(0x245)][_0x384f50(0x1f5)]['remove'](_0x384f50(0x295)),window[_0x384f50(0x195)](()=>{const _0x311059=_0x384f50;!this[_0x311059(0x245)][_0x311059(0x1f5)][_0x311059(0x343)](_0x311059(0x295))&&(this['view'][_0x311059(0x1df)][_0x311059(0x1a8)]=_0x311059(0x241));},0x154),document[_0x384f50(0x192)](_0x384f50(0x35a))?.[_0x384f50(0x1a7)](_0x384f50(0x1e3),_0x384f50(0x2cb));}[_0x3e63b3(0x20e)](_0x1db03,_0x5db182={}){const _0x2c8998=_0x3e63b3,_0xb7398e=this[_0x2c8998(0x1d5)][_0x2c8998(0x284)](_0x1db03)?_0x1db03:'food',_0x506960=_0x5db182['scroll']!==![];this['currentTab']=_0xb7398e,this[_0x2c8998(0x300)]?.[_0x2c8998(0x28e)](_0x342004=>{const _0x443e35=_0x2c8998;_0x342004[_0x443e35(0x1f5)][_0x443e35(0x1d6)](_0x443e35(0x295),_0x342004[_0x443e35(0x1c6)]['tab']===_0xb7398e);}),this[_0x2c8998(0x311)]?.['forEach'](_0x492acf=>{const _0x4c2580=_0x2c8998;_0x492acf['classList'][_0x4c2580(0x1d6)](_0x4c2580(0x295),_0x492acf['dataset'][_0x4c2580(0x315)]===_0xb7398e);});if(_0x506960&&this[_0x2c8998(0x24c)]){const _0x12ea0f=this[_0x2c8998(0x1d5)][_0x2c8998(0x328)](_0xb7398e);this[_0x2c8998(0x24c)][_0x2c8998(0x36c)]({'left':_0x12ea0f*this['panelsWrap']['clientWidth'],'behavior':_0x2c8998(0x1a3)});}this[_0x2c8998(0x22a)]();}[_0x3e63b3(0x22a)](){const _0x4742b0=_0x3e63b3;if(!this[_0x4742b0(0x27d)]||!this['navItems']||!this[_0x4742b0(0x300)][_0x4742b0(0x1b5)])return;const _0x3ab06d=this[_0x4742b0(0x300)][_0x4742b0(0x2e4)](_0x1aa8d1=>_0x1aa8d1['dataset'][_0x4742b0(0x315)]===this[_0x4742b0(0x24d)])||this[_0x4742b0(0x300)][0x0],_0x2afebc=_0x3ab06d['closest'](_0x4742b0(0x34a));if(!_0x2afebc)return;const _0x28e6fd=_0x2afebc['getBoundingClientRect'](),_0x5b3fae=_0x3ab06d['getBoundingClientRect'](),_0x4aeaa1=window['getComputedStyle'](_0x2afebc),_0x458a29=parseFloat(_0x4aeaa1[_0x4742b0(0x28b)])||0x0,_0x38f97a=_0x5b3fae[_0x4742b0(0x24a)]-_0x28e6fd[_0x4742b0(0x24a)]-_0x458a29;this['indicator'][_0x4742b0(0x1df)]['width']=_0x5b3fae[_0x4742b0(0x187)]+'px',this[_0x4742b0(0x27d)][_0x4742b0(0x1df)]['transform']='translateX('+_0x38f97a+'px)';}}function _0x229613(){const _0x36ce50=_0x3e63b3;if(window[_0x36ce50(0x23a)])return window[_0x36ce50(0x23a)];window[_0x36ce50(0x23a)]=new _0x9c1d48();const _0x370b12=document[_0x36ce50(0x1da)](_0x36ce50(0x365));return _0x370b12&&_0x370b12[_0x36ce50(0x29a)](_0x36ce50(0x30c),_0x70ef1b=>{const _0xc39fac=_0x36ce50;_0x70ef1b[_0xc39fac(0x2b3)]();if(window['isJiggleMode'])return;window[_0xc39fac(0x23a)]?.[_0xc39fac(0x1ef)]();}),window[_0x36ce50(0x23a)];}function _0x4cd3ac(){const _0x5a381e=_0x3e63b3;if(window['shoppingDataReadyPromise'])return window[_0x5a381e(0x31f)];const _0x2d9824=()=>{return _0x229613(),!![];};return window[_0x5a381e(0x1f9)]&&typeof window['globalDataReadyPromise']['then']===_0x5a381e(0x1ad)?window[_0x5a381e(0x31f)]=window[_0x5a381e(0x1f9)][_0x5a381e(0x1b4)](_0x2d9824)['catch'](_0x748a7f=>{const _0x3e0649=_0x5a381e;return console[_0x3e0649(0x2a5)](_0x3e0649(0x26c),_0x748a7f),_0x2d9824(),![];}):(_0x2d9824(),window['shoppingDataReadyPromise']=Promise['resolve'](!![])),window[_0x5a381e(0x31f)];}document[_0x3e63b3(0x2f9)]===_0x3e63b3(0x2d1)?document[_0x3e63b3(0x29a)]('DOMContentLoaded',_0x4cd3ac):_0x4cd3ac();}()));
+(function() {
+    const durableStorage = window.u2LegacyStorageFacade;
+    class ShoppingApp {
+        constructor() {
+            this.view = document.getElementById('shopping-view');
+            this.panelsWrap = document.getElementById('shopping-panels');
+            this.indicator = document.getElementById('shopping-nav-indicator');
+            this.closeBtn = document.getElementById('shopping-close-btn');
+            this.tabs = ['food', 'mall', 'cart', 'me'];
+            this.currentTab = 'food';
+            this.scrollTimer = null;
+            
+            // Cart state
+            this.cart = this.loadCart();
+            
+            // Mall Details Sheet
+            this.detailSheet = document.getElementById('shopping-detail-sheet');
+            this.detailMedia = document.getElementById('shopping-detail-media');
+            this.detailName = document.getElementById('shopping-detail-name');
+            this.detailPrice = document.getElementById('shopping-detail-price');
+            this.detailDesc = document.getElementById('shopping-detail-desc');
+            this.addToCartBtn = document.getElementById('shopping-add-to-cart-btn');
+            
+            // Food Details Sheet
+            this.foodDetailSheet = document.getElementById('shopping-food-detail-sheet');
+            this.foodDetailMedia = document.getElementById('shopping-food-detail-media');
+            this.foodDetailName = document.getElementById('shopping-food-detail-name');
+            this.foodDetailPrice = document.getElementById('shopping-food-detail-price');
+            this.foodDetailDesc = document.getElementById('shopping-food-detail-desc');
+            this.foodBottomPrice = document.getElementById('shopping-food-bottom-price');
+            this.foodCloseBtn = document.getElementById('shopping-food-close-btn');
+            this.addFoodToCartBtn = document.getElementById('shopping-food-add-to-cart-btn');
+            
+            this.currentProduct = null;
+
+            // Cart View elements
+            this.cartEmptyState = document.getElementById('shopping-cart-empty-state');
+            this.cartContent = document.getElementById('shopping-cart-content');
+            this.cartList = document.getElementById('shopping-cart-list');
+            this.cartSubtotal = document.getElementById('shopping-cart-subtotal');
+            this.cartTotal = document.getElementById('shopping-cart-total');
+
+            // Checkout & Orders elements
+            this.checkoutBtn = document.getElementById('shopping-checkout-btn');
+            this.checkoutSheet = document.getElementById('shopping-checkout-sheet');
+            this.payDesc = document.getElementById('shopping-checkout-pay-desc');
+            this.paySelectBtn = document.getElementById('shopping-checkout-pay-select');
+            this.friendDesc = document.getElementById('shopping-checkout-friend-desc');
+            this.friendSelectBtn = document.getElementById('shopping-checkout-friend-select');
+            this.confirmPaymentBtn = document.getElementById('shopping-confirm-payment-btn');
+            this.paymentRadios = document.querySelectorAll('input[name="shopping-payment-method"]');
+            
+            this.cardSelectionModal = document.getElementById('shopping-card-selection-modal');
+            this.cardList = document.getElementById('shopping-card-list');
+            this.cardBalance = document.getElementById('shopping-card-selection-balance');
+            
+            this.charSelectionModal = document.getElementById('shopping-char-selection-modal');
+            this.charList = document.getElementById('shopping-char-list');
+
+            this.ordersBtn = document.getElementById('shopping-orders-btn');
+            this.ordersSheet = document.getElementById('shopping-orders-sheet');
+            this.ordersList = document.getElementById('shopping-orders-list');
+            
+            this.orders = this.loadOrders();
+            this.selectedCard = null;
+            this.selectedFriend = null;
+
+            if (!this.view || !this.panelsWrap) return;
+            this.navItems = Array.from(this.view.querySelectorAll('.shopping-nav-item'));
+            this.panels = Array.from(this.view.querySelectorAll('.shopping-panel'));
+            
+            // New UI Elements
+            this.settingsBtn = document.getElementById('shopping-settings-btn');
+            this.settingsSheet = document.getElementById('shopping-settings-sheet');
+            this.searchBtn = document.getElementById('shopping-search-btn');
+            this.searchSheet = document.getElementById('shopping-search-sheet');
+            this.searchInput = document.getElementById('shopping-search-input');
+            this.searchConfirmBtn = document.getElementById('shopping-search-confirm-btn');
+            this.bindWbBtn = document.getElementById('shopping-bind-wb-btn');
+            this.boundWbName = document.getElementById('shopping-bound-wb-name');
+            
+            this.foodListContainer = document.getElementById('shopping-food-list-container');
+            this.productListContainer = document.getElementById('shopping-product-grid-container');
+
+            this.updateBoundWbDisplay();
+
+            this.bindEvents();
+            this.switchTab('food', { scroll: false });
+            this.renderCart();
+            
+            this.loadGeneratedProducts();
+        }
+
+        loadGeneratedProducts() {
+            try {
+                const savedFood = durableStorage.getItem('shopping_generated_food');
+                if (savedFood) {
+                    const foodData = JSON.parse(savedFood);
+                    this.renderProductCards(foodData, 'food');
+                }
+                const savedMall = durableStorage.getItem('shopping_generated_mall');
+                if (savedMall) {
+                    const mallData = JSON.parse(savedMall);
+                    this.renderProductCards(mallData, 'mall');
+                }
+            } catch (e) {
+                console.error("Failed to load generated products", e);
+            }
+        }
+
+        getAvailableWorldBooks() {
+            if (typeof window.getWorldBooks === 'function') {
+                return window.getWorldBooks() || [];
+            }
+
+            const globalDataStr = durableStorage.getItem('app_global_data');
+            if (globalDataStr) {
+                try {
+                    const globalData = JSON.parse(globalDataStr);
+                    return globalData?.worldBooks?.books || [];
+                } catch (e) {}
+            }
+
+            return [];
+        }
+
+        getBoundWorldBookIds() {
+            let ids = [];
+            const savedIds = durableStorage.getItem('shopping_bound_wb_ids');
+            if (savedIds) {
+                try {
+                    const parsedIds = JSON.parse(savedIds);
+                    if (Array.isArray(parsedIds)) ids = parsedIds;
+                } catch (e) {}
+            }
+
+            const legacyId = durableStorage.getItem('shopping_bound_wb_id');
+            if (legacyId && !ids.map(String).includes(String(legacyId))) {
+                ids.unshift(legacyId);
+            }
+
+            return ids
+                .map(id => String(id))
+                .filter((id, index, allIds) => id && allIds.indexOf(id) === index);
+        }
+
+        saveBoundWorldBookIds(ids = []) {
+            const nextIds = (Array.isArray(ids) ? ids : [])
+                .map(id => String(id))
+                .filter((id, index, allIds) => id && allIds.indexOf(id) === index);
+
+            if (nextIds.length > 0) {
+                durableStorage.setItem('shopping_bound_wb_ids', JSON.stringify(nextIds));
+                durableStorage.setItem('shopping_bound_wb_id', nextIds[0]);
+            } else {
+                durableStorage.removeItem('shopping_bound_wb_ids');
+                durableStorage.removeItem('shopping_bound_wb_id');
+            }
+        }
+
+        updateBoundWbDisplay() {
+            if (!this.boundWbName) return;
+            const boundIds = this.getBoundWorldBookIds();
+            if (boundIds.length === 0) {
+                this.boundWbName.textContent = '未绑定';
+                return;
+            }
+
+            const books = this.getAvailableWorldBooks();
+            const boundBooks = boundIds
+                .map(id => books.find(book => String(book.id) === String(id)))
+                .filter(Boolean);
+
+            if (boundBooks.length === 1) {
+                this.boundWbName.textContent = boundBooks[0].name || '未命名世界书';
+            } else if (boundBooks.length > 1) {
+                this.boundWbName.textContent = `已挂载 ${boundBooks.length} 本`;
+            } else {
+                this.boundWbName.textContent = '未绑定';
+            }
+        }
+
+        bindEvents() {
+            this.closeBtn?.addEventListener('click', () => this.close());
+            this.foodCloseBtn?.addEventListener('click', () => this.closeDetail());
+            
+            // Settings logic
+            if (this.settingsBtn) {
+                this.settingsBtn.addEventListener('click', () => {
+                    this.updateBoundWbDisplay();
+                    this.settingsSheet?.classList.add('active');
+                });
+            }
+
+            if (this.bindWbBtn) {
+                this.bindWbBtn.addEventListener('click', () => {
+                    if (typeof window.renderWorldBookSelector === 'function') {
+                        window.renderWorldBookSelector(this.getBoundWorldBookIds(), (selectedIds) => {
+                            this.saveBoundWorldBookIds(selectedIds);
+                            this.updateBoundWbDisplay();
+                        });
+                    } else if (window.wbManager && window.wbManager.showWorldBookPicker) {
+                        window.wbManager.showWorldBookPicker((selectedBook) => {
+                            this.saveBoundWorldBookIds(selectedBook ? [selectedBook.id] : []);
+                            this.updateBoundWbDisplay();
+                        });
+                    }
+                });
+            }
+
+            // Search logic
+            if (this.searchBtn) {
+                this.searchBtn.addEventListener('click', () => {
+                    if(this.searchInput) this.searchInput.value = '';
+                    this.searchSheet?.classList.add('active');
+                });
+            }
+
+            if (this.searchConfirmBtn) {
+                this.searchConfirmBtn.addEventListener('click', () => {
+                    this.handleGenerateProducts();
+                });
+            }
+
+            // Allow closing sheets by clicking on overlay
+            [this.settingsSheet, this.searchSheet].forEach(sheet => {
+                if(sheet) {
+                    sheet.addEventListener('click', (e) => {
+                        if(e.target === sheet) {
+                            sheet.classList.remove('active');
+                        }
+                    });
+                }
+            });
+            
+            const reviewsTrigger = document.getElementById('shopping-reviews-trigger');
+            if (reviewsTrigger) {
+                reviewsTrigger.addEventListener('click', () => {
+                    if (this.currentProduct) {
+                        this.openAllReviews(this.currentProduct.name, false);
+                    }
+                });
+            }
+
+            const foodReviewsTrigger = document.getElementById('shopping-food-reviews-trigger');
+            if (foodReviewsTrigger) {
+                foodReviewsTrigger.addEventListener('click', () => {
+                    if (this.currentProduct) {
+                        this.openAllReviews(this.currentProduct.name, true);
+                    }
+                });
+            }
+            
+            const qaTrigger = document.getElementById('shopping-mall-qa-trigger');
+            if (qaTrigger) {
+                qaTrigger.addEventListener('click', () => {
+                    const qaSheet = document.getElementById('shopping-qa-sheet');
+                    if (qaSheet) {
+                        qaSheet.classList.add('active');
+                    }
+                });
+            }
+            
+            const qaSheetElement = document.getElementById('shopping-qa-sheet');
+            if (qaSheetElement) {
+                qaSheetElement.addEventListener('click', (e) => {
+                    if (e.target === qaSheetElement) {
+                        qaSheetElement.classList.remove('active');
+                    }
+                });
+            }
+            
+            const allReviewsSheet = document.getElementById('shopping-all-reviews-sheet');
+            if (allReviewsSheet) {
+                allReviewsSheet.addEventListener('click', (e) => {
+                    if (e.target === allReviewsSheet) {
+                        allReviewsSheet.classList.remove('active');
+                    }
+                });
+            }
+
+            this.navItems.forEach((item) => {
+                item.addEventListener('click', () => {
+                    this.switchTab(item.dataset.tab || 'food');
+                });
+            });
+
+            this.panelsWrap.addEventListener('scroll', () => {
+                window.clearTimeout(this.scrollTimer);
+                this.scrollTimer = window.setTimeout(() => {
+                    const width = this.panelsWrap.clientWidth || 1;
+                    const index = Math.round(this.panelsWrap.scrollLeft / width);
+                    const tab = this.tabs[Math.max(0, Math.min(this.tabs.length - 1, index))];
+                    this.switchTab(tab, { scroll: false });
+                }, 80);
+            }, { passive: true });
+
+            window.addEventListener('resize', () => this.updateIndicator());
+
+            // Initial Product clicks binding
+            this.bindProductClicks();
+
+            // Add to cart
+            if (this.addToCartBtn) {
+                this.addToCartBtn.addEventListener('click', () => {
+                    if (this.currentProduct) {
+                        this.addToCart(this.currentProduct);
+                        this.closeDetail();
+                        const originalText = this.addToCartBtn.textContent;
+                        this.addToCartBtn.textContent = '已添加!';
+                        setTimeout(() => {
+                            if(this.addToCartBtn) this.addToCartBtn.textContent = originalText;
+                        }, 1000);
+                    }
+                });
+            }
+
+            if (this.addFoodToCartBtn) {
+                this.addFoodToCartBtn.addEventListener('click', () => {
+                    if (this.currentProduct) {
+                        this.addToCart(this.currentProduct);
+                        this.closeDetail();
+                        const originalText = this.addFoodToCartBtn.textContent;
+                        this.addFoodToCartBtn.textContent = '已添加!';
+                        setTimeout(() => {
+                            if(this.addFoodToCartBtn) this.addFoodToCartBtn.textContent = originalText;
+                        }, 1000);
+                    }
+                });
+            }
+
+            // Checkout flow
+            if (this.checkoutBtn) {
+                this.checkoutBtn.addEventListener('click', async () => {
+                    if (this.cart.length === 0) return;
+                    await this.initCheckout();
+                    this.checkoutSheet?.classList.add('active');
+                });
+            }
+
+            if (this.paySelectBtn) {
+                this.paySelectBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const payRadio = document.querySelector('input[name="shopping-payment-method"][value="pay"]');
+                    if (payRadio) payRadio.checked = true;
+                    this.openCardSelection();
+                });
+            }
+
+            if (this.friendSelectBtn) {
+                this.friendSelectBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const friendRadio = document.querySelector('input[name="shopping-payment-method"][value="friend"]');
+                    if (friendRadio) friendRadio.checked = true;
+                    this.openCharSelection();
+                });
+            }
+
+            if (this.confirmPaymentBtn) {
+                this.confirmPaymentBtn.addEventListener('click', () => {
+                    this.processPayment();
+                });
+            }
+
+            // Orders
+            if (this.ordersBtn) {
+                this.ordersBtn.addEventListener('click', () => {
+                    this.renderOrders();
+                    this.ordersSheet?.classList.add('active');
+                });
+            }
+            
+            // Auto refresh orders status periodically if sheet is active
+            setInterval(() => {
+                if (this.ordersSheet && this.ordersSheet.classList.contains('active')) {
+                    this.renderOrders();
+                }
+            }, 1000);
+        }
+
+        async handleGenerateProducts() {
+            let userInput = this.searchInput ? this.searchInput.value.trim() : '';
+            
+            const targetTab = this.currentTab === 'food' ? 'food' : 'mall';
+            
+            // If empty, generate random items based on the current tab
+            if (!userInput) {
+                userInput = targetTab === 'food' 
+                    ? "随机生成一些高质量的外卖美食和饮品" 
+                    : "随机生成一些高品质的商城百货和数码日常用品";
+            }
+
+            if (this.searchConfirmBtn) {
+                this.searchConfirmBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 生成中...';
+                this.searchConfirmBtn.disabled = true;
+            }
+
+            let systemPrompt = `你现在是一个商品、评价及问答生成器。根据用户的输入，生成不少于10个商品。每个商品生成5-10条用户评价，以及5-10条问答(Q&A)。
+当前分类是 ${targetTab === 'food' ? 'Food(外卖美食)' : 'Mall(商城百货)'}。
+
+**关键要求**：
+1. **评价(Reviews)**：必须非常真实、接地气，包含好评、中评甚至差评。语气要幽默、调侃或者夸张（比如：“好吃是好吃，就是吃完对象跑了”、“衣服很仙，但穿上像个成了精的拖把”）。
+2. **问答(Q&A)**：这是买家向已经买过的买家提问的板块（类似淘宝的“问大家”）。回答者**绝对不要**像官方客服，而是真实的、充满个性的普通买家。回答可以很搞笑、无厘头、甚至带点互坑的成分（比如 Q：“吃完能变帅吗？” A：“别做梦了，看脸” 或 Q：“好用吗？” A：“买回来积灰挺好的，建议入手”）。
+
+\n\n`;
+
+            // Append World Book context if bound
+            const boundIds = this.getBoundWorldBookIds();
+            if (boundIds.length > 0 && window.wbManager) {
+                const bookContexts = [];
+                for (const boundId of boundIds) {
+                    const bookCtx = await window.wbManager.getBookContextString(boundId);
+                    if (bookCtx) bookContexts.push(bookCtx);
+                }
+                if (bookContexts.length > 0) {
+                    systemPrompt += `[当前挂载的世界书上下文]\n${bookContexts.join('\n\n')}\n\n参考以上世界书设定生成契合世界观的商品，评价和问答也可以带入世界观中的梗。\n\n`;
+                }
+            }
+
+            systemPrompt += `输出必须为纯 JSON 数组格式，不要任何多余文本或 markdown 标签。格式要求：\n
+[
+  {
+    "name": "商品名称",
+    "price": "商品价格(包含¥符号，如¥45)",
+    "desc": "商品简短描述",
+    "iconClass": "fontawesome图标类名(例如 fa-burger)",
+    "bgGrad": "CSS渐变背景(例如 linear-gradient(135deg, #f093fb 0%, #f5576c 100%))",
+    "tags": ["标签1", "标签2"],
+    "reviews": [
+      { "user": "用户A", "text": "评价内容", "rating": 5 },
+      { "user": "用户B", "text": "评价内容", "rating": 4 }
+    ],
+    "qa": [
+      { "q": "问题内容1", "a": "回答内容1" },
+      { "q": "问题内容2", "a": "回答内容2" }
+    ]
+  }
+]`;
+
+            try {
+                const apiConfig = typeof window.getApiConfig === 'function' ? window.getApiConfig() : (window.apiConfig || {});
+                if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+                    throw new Error('请先在系统设置中配置 API');
+                }
+
+                let endpoint = apiConfig.endpoint;
+                if(endpoint.endsWith('/')) endpoint = endpoint.slice(0, -1);
+                if(!endpoint.endsWith('/chat/completions')) {
+                    endpoint = endpoint.endsWith('/v1') ? endpoint + '/chat/completions' : endpoint + '/v1/chat/completions';
+                }
+
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiConfig.apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: apiConfig.model || 'gpt-3.5-turbo',
+                        messages: [
+                            { role: 'system', content: systemPrompt },
+                            { role: 'user', content: userInput }
+                        ],
+                        temperature: parseFloat(apiConfig.temperature) || 0.8
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API 请求失败: ${response.status} ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                const choice = data.choices && data.choices[0];
+                const responseText = choice && choice.message ? choice.message.content : '';
+                
+                let jsonText = responseText || '';
+                
+                // Clean up possible markdown wrappers
+                if (jsonText.startsWith('```')) {
+                    jsonText = jsonText.replace(/```json/g, '').replace(/```/g, '').trim();
+                }
+
+                let productsData = null;
+                try {
+                    productsData = JSON.parse(jsonText);
+                } catch(e) {
+                    // Try to extract array if parsing fails
+                    const startIdx = jsonText.indexOf('[');
+                    const endIdx = jsonText.lastIndexOf(']');
+                    if(startIdx !== -1 && endIdx !== -1) {
+                        productsData = JSON.parse(jsonText.substring(startIdx, endIdx + 1));
+                    } else {
+                        throw new Error("JSON 解析失败");
+                    }
+                }
+
+                if (!Array.isArray(productsData) || productsData.length === 0) {
+                     throw new Error("生成数据为空");
+                }
+
+                // Append generated products to UI
+                this.injectGeneratedProducts(productsData, targetTab);
+                
+                if (this.searchSheet) this.searchSheet.classList.remove('active');
+                if (this.searchInput) this.searchInput.value = '';
+                
+            } catch(e) {
+                console.error("Generate error:", e);
+                window.showToast ? window.showToast('生成失败: ' + e.message) : alert('生成失败: ' + e.message);
+            } finally {
+                if (this.searchConfirmBtn) {
+                    this.searchConfirmBtn.innerHTML = '<i class="fas fa-magic"></i> 确认生成';
+                    this.searchConfirmBtn.disabled = false;
+                }
+            }
+        }
+
+        renderProductCards(productsData, targetTab) {
+            let container = null;
+            if (targetTab === 'food') container = this.foodListContainer;
+            if (targetTab === 'mall') container = this.productListContainer;
+
+            if (!container) return;
+
+            productsData.forEach(p => {
+                const article = document.createElement('article');
+                
+                // Set rating randomly if not provided (for tags)
+                const rndRating = (Math.random() * (5.0 - 4.0) + 4.0).toFixed(1);
+                
+                if (targetTab === 'food') {
+                    article.className = 'shopping-food-card';
+                    let tagsHtml = (p.tags || ['30 min', rndRating]).map(t => `<span>${t}</span>`).join('');
+                    
+                    article.innerHTML = `
+                        <div class="shopping-food-media" style="background: ${p.bgGrad || '#f2f2f7'}"><i class="fas ${p.iconClass || 'fa-utensils'}"></i></div>
+                        <div class="shopping-food-copy">
+                            <div class="shopping-card-topline"><strong>${p.name}</strong><span>${p.price}</span></div>
+                            <p>${p.desc}</p>
+                            <div class="shopping-tags">${tagsHtml}</div>
+                        </div>
+                    `;
+                } else {
+                    article.className = 'shopping-product-card';
+                    article.innerHTML = `
+                        <div class="shopping-product-media" style="background: ${p.bgGrad || '#f2f2f7'}"><i class="fas ${p.iconClass || 'fa-box'}"></i></div>
+                        <strong>${p.name}</strong>
+                        <span>${p.price}</span>
+                        <span style="display:none;">${p.desc}</span> <!-- Hidden desc to pass to openDetail -->
+                    `;
+                }
+
+                container.appendChild(article);
+            });
+            
+            this.bindProductClicks();
+        }
+
+        injectGeneratedProducts(productsData, targetTab) {
+            this.renderProductCards(productsData, targetTab);
+            
+            // Save generated products to localStorage
+            try {
+                const key = targetTab === 'food' ? 'shopping_generated_food' : 'shopping_generated_mall';
+                let saved = [];
+                const stored = durableStorage.getItem(key);
+                if (stored) saved = JSON.parse(stored);
+                saved = saved.concat(productsData);
+                durableStorage.setItem(key, JSON.stringify(saved));
+            } catch (e) {}
+
+            let commentsObj = {};
+            try {
+                const stored = durableStorage.getItem('shopping_comments');
+                if (stored) commentsObj = JSON.parse(stored);
+            } catch(err) {}
+
+            let qaObj = {};
+            try {
+                const storedQa = durableStorage.getItem('shopping_qa');
+                if (storedQa) qaObj = JSON.parse(storedQa);
+            } catch(err) {}
+
+            productsData.forEach(p => {
+                // Save comments
+                if (p.reviews && Array.isArray(p.reviews)) {
+                    // Prepend date if missing
+                    const datedReviews = p.reviews.map(r => ({
+                        ...r,
+                        date: r.date || new Date().toLocaleDateString()
+                    }));
+                    
+                    if(commentsObj[p.name]) {
+                        commentsObj[p.name] = [...datedReviews, ...commentsObj[p.name]];
+                    } else {
+                        commentsObj[p.name] = datedReviews;
+                    }
+                }
+
+                // Save Q&A
+                if (p.qa && Array.isArray(p.qa)) {
+                    if (qaObj[p.name]) {
+                        qaObj[p.name] = [...p.qa, ...qaObj[p.name]];
+                    } else {
+                        qaObj[p.name] = p.qa;
+                    }
+                }
+            });
+
+            durableStorage.setItem('shopping_comments', JSON.stringify(commentsObj));
+            durableStorage.setItem('shopping_qa', JSON.stringify(qaObj));
+        }
+
+        bindProductClicks() {
+            const products = this.view.querySelectorAll('.shopping-food-card, .shopping-product-card');
+            products.forEach(product => {
+                // Prevent multiple bindings
+                if (product.hasAttribute('data-bound')) return;
+                product.setAttribute('data-bound', 'true');
+
+                product.style.cursor = 'pointer';
+                product.addEventListener('click', () => {
+                    let name, price, desc, iconHtml, mediaBg;
+                    
+            let isFood = false;
+            if (product.classList.contains('shopping-food-card')) {
+                isFood = true;
+                name = product.querySelector('strong')?.textContent || 'Food Item';
+                price = product.querySelector('.shopping-card-topline span')?.textContent || '¥0';
+                desc = product.querySelector('p')?.textContent || '';
+                iconHtml = product.querySelector('.shopping-food-media')?.innerHTML || '';
+                mediaBg = product.querySelector('.shopping-food-media').style.background || window.getComputedStyle(product.querySelector('.shopping-food-media')).background;
+            } else {
+                name = product.querySelector('strong')?.textContent || 'Product';
+                price = product.querySelector('span')?.textContent.split('·')[0].trim() || '¥0';
+                // For generated mall items, desc is in the hidden span
+                const spans = product.querySelectorAll('span');
+                desc = (spans.length > 1) ? spans[1].textContent : '';
+                iconHtml = product.querySelector('.shopping-product-media')?.innerHTML || '';
+                mediaBg = product.querySelector('.shopping-product-media').style.background || window.getComputedStyle(product.querySelector('.shopping-product-media')).background;
+            }
+
+                    this.openDetail({ name, price, desc, iconHtml, mediaBg }, isFood);
+                });
+            });
+        }
+
+        async openGiftCharSelection(order, orderIndex) {
+            if (!this.charSelectionModal || !this.charList) return;
+            
+            const originalTitle = this.charSelectionModal.querySelector('.wb-centered-modal-title').textContent;
+            this.charSelectionModal.querySelector('.wb-centered-modal-title').textContent = '选择赠送的好友';
+            
+            this.charList.innerHTML = '';
+            
+            let friends = [];
+            if (window.imStorage && window.imStorage.loadFriends) {
+                try {
+                    const allFriends = await window.imStorage.loadFriends();
+                    friends = allFriends;
+                } catch(e) {}
+            }
+            
+            if (friends.length === 0) {
+                this.charList.innerHTML = '<div style="text-align: center; padding: 20px; color: #73706a;">暂无好友</div>';
+            } else {
+                friends.forEach(friend => {
+                    const el = document.createElement('div');
+                    el.style.cssText = 'background: rgba(255, 255, 255, 0.82); border-radius: 12px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; border: 1px solid rgba(17,17,17,0.09); ';
+                    
+                    const name = friend.name || friend.nickname || 'Unknown Char';
+                    let avatarHtml = `<div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(17,17,17,0.06); display: flex; justify-content: center; align-items: center; color: #73706a;"><i class="fas fa-user"></i></div>`;
+                    if (friend.avatar) {
+                        avatarHtml = `<img src="${friend.avatar}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid rgba(17,17,17,0.09);">`;
+                    }
+                    
+                    el.innerHTML = `
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            ${avatarHtml}
+                            <div style="display: flex; flex-direction: column;">
+                                <div style="font-size: 15px; font-weight: 700; color: #111;">${name}</div>
+                                <div style="font-size: 13px; color: #73706a; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${friend.signature || ''}</div>
+                            </div>
+                        </div>
+                        <div style="background: #111; color: #fff; padding: 6px 12px; border-radius: 16px; font-size: 13px; font-weight: 600;">赠送</div>
+                    `;
+                    
+                    el.addEventListener('click', async () => {
+                        const success = await this.sendGiftMessage(friend, order);
+                        if (success) {
+                            if (orderIndex !== undefined && this.orders[orderIndex]) {
+                                this.orders[orderIndex].gifted = true;
+                                this.saveOrders();
+                                this.renderOrders();
+                            }
+                        }
+                        this.charSelectionModal.style.display = 'none';
+                        this.charSelectionModal.classList.remove('active');
+                        this.charSelectionModal.querySelector('.wb-centered-modal-title').textContent = originalTitle;
+                    });
+                    
+                    this.charList.appendChild(el);
+                });
+            }
+            
+            const closeBtn = this.charSelectionModal.querySelector('.wb-centered-modal-close');
+            const newCloseBtn = closeBtn.cloneNode(true);
+            closeBtn.parentNode.replaceChild(newCloseBtn, closeBtn);
+            newCloseBtn.addEventListener('click', () => {
+                this.charSelectionModal.style.display = 'none';
+                this.charSelectionModal.classList.remove('active');
+                this.charSelectionModal.querySelector('.wb-centered-modal-title').textContent = originalTitle;
+            });
+
+            this.charSelectionModal.style.display = 'flex';
+            requestAnimationFrame(() => {
+                this.charSelectionModal.classList.add('active');
+            });
+        }
+        
+        async sendGiftMessage(friend, order) {
+            const itemNames = order.items.map(i => i.name).join(', ');
+            const msgText = `[赠送礼物]\n商品: ${itemNames}\n总价: ¥${order.total.toFixed(2)}\n付款方式: ${order.method}`;
+            
+            const htmlCard = `
+                <div style="background: #fff0f3; border-radius: 16px; padding: 16px; min-width: 220px; max-width: 280px; color: #111111; border: 1px solid rgba(255,155,179,0.3); display: inline-block;">
+                    <div style="font-size: 12px; color: #ff9bb3; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; font-weight: 700;">
+                        <i class="fas fa-gift"></i> 收到礼物
+                    </div>
+                    <div style="font-size: 15px; font-weight: 700; margin-bottom: 6px; white-space: normal; word-break: break-word; line-height: 1.4;">${itemNames}</div>
+                    <div style="font-size: 13px; color: #73706a; margin-top: 8px;">价值 ¥${order.total.toFixed(2)}</div>
+                    <div style="font-size: 12px; color: #8e8e93; margin-top: 4px;">由 ${order.method} 支付</div>
+                </div>
+            `;
+
+            let success = false;
+            if (window.imApp && window.imApp.appendFriendMessage) {
+                try {
+                    if (window.imApp.ensureFriendMessagesLoaded) {
+                        await window.imApp.ensureFriendMessagesLoaded(friend.id);
+                    }
+
+                    const newMsg = {
+                        role: 'user',
+                        type: 'html',
+                        text: msgText,
+                        content: htmlCard,
+                        timestamp: Date.now()
+                    };
+                    
+                    success = await window.imApp.appendFriendMessage(friend.id, newMsg, { silent: false });
+                    
+                    const aiMsg = {
+                        role: 'system',
+                        type: 'text',
+                        text: `你收到了一份礼物: ${itemNames}。价值 ¥${order.total.toFixed(2)}。付款方式是: ${order.method}。请根据你的角色人设对这份礼物做出真实的反应（感谢、惊喜或者调侃等）。`,
+                        timestamp: Date.now() + 1
+                    };
+                    await window.imApp.appendFriendMessage(friend.id, aiMsg, { silent: true });
+                    
+                    if (window.imData && window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(friend.id)) {
+                        const activeContainer = document.querySelector('.active-chat-interface .ins-chat-messages');
+                        if (activeContainer && window.imChat && window.imChat.appendMessageToContainer) {
+                            window.imChat.appendMessageToContainer(window.imData.currentActiveFriend, activeContainer, newMsg);
+                        }
+                    }
+                } catch(e) {
+                    console.error('Failed to append gift message:', e);
+                }
+            }
+            
+            if (success) {
+                if (window.showToast) window.showToast('赠送成功');
+                else alert('赠送成功');
+            } else {
+                if (window.showToast) window.showToast('赠送失败');
+                else alert('赠送失败');
+            }
+            
+            return success;
+        }
+
+        loadOrders() {
+            try {
+                const saved = durableStorage.getItem('shopping_orders');
+                if (saved) return JSON.parse(saved);
+            } catch(e) {}
+            return [];
+        }
+
+        saveOrders() {
+            durableStorage.setItem('shopping_orders', JSON.stringify(this.orders));
+        }
+
+        async initCheckout() {
+            // Retrieve cards from the new storage architecture
+            let cards = [];
+            if (typeof window.getPayCards === 'function') {
+                cards = window.getPayCards();
+            }
+            if (!cards || cards.length === 0) {
+                cards = [
+                    { id: 'card1', name: '招商银行储蓄卡', number: '**** **** **** 8888', icon: 'fa-university' },
+                    { id: 'card2', name: '工商银行信用卡', number: '**** **** **** 1234', icon: 'fa-credit-card' }
+                ];
+            }
+
+            // Retrieve friends from iMessage storage
+            let friends = [];
+            if (window.imStorage && window.imStorage.loadFriends) {
+                try {
+                    friends = await window.imStorage.loadFriends();
+                } catch(e) {}
+            }
+            
+            if (!this.selectedCard && cards.length > 0) {
+                this.selectedCard = cards[0];
+            }
+            // Ensure selected friend exists in current friends list, otherwise pick first
+            if (friends.length > 0) {
+                if (!this.selectedFriend || !friends.find(f => String(f.id) === String(this.selectedFriend.id))) {
+                    this.selectedFriend = friends[0];
+                }
+            } else {
+                this.selectedFriend = null;
+            }
+
+            if (this.payDesc && this.selectedCard) {
+                this.payDesc.textContent = `${this.selectedCard.name} (${this.selectedCard.number.slice(-4)})`;
+            }
+            if (this.friendDesc) {
+                this.friendDesc.textContent = this.selectedFriend ? (this.selectedFriend.name || this.selectedFriend.nickname || 'Unknown Char') : '选择好友';
+            }
+        }
+
+        async openCardSelection() {
+            if (!this.cardSelectionModal || !this.cardList) return;
+            
+            this.cardList.innerHTML = '';
+            
+            let cards = [];
+            let balance = 0;
+            if (typeof window.getPayCards === 'function') {
+                cards = window.getPayCards();
+            }
+            if (typeof window.getPayBalance === 'function') {
+                balance = window.getPayBalance();
+            }
+            
+            if (!cards || cards.length === 0) {
+                cards = [
+                    { id: 'card1', name: '招商银行储蓄卡', number: '**** **** **** 8888', icon: 'fa-university' },
+                    { id: 'card2', name: '工商银行信用卡', number: '**** **** **** 1234', icon: 'fa-credit-card' }
+                ];
+            }
+
+            if (this.cardBalance) {
+                this.cardBalance.textContent = `¥${balance.toFixed(2)}`;
+            }
+
+            cards.forEach(card => {
+                const el = document.createElement('div');
+                el.style.cssText = 'background: rgba(255, 255, 255, 0.82); border-radius: 12px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; border: 1px solid rgba(17,17,17,0.09); ';
+                
+                const isSelected = this.selectedCard && String(this.selectedCard.id) === String(card.id);
+                
+                el.innerHTML = `
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(17,17,17,0.06); display: flex; justify-content: center; align-items: center; color: #111;">
+                            <i class="fas ${card.icon || 'fa-credit-card'}"></i>
+                        </div>
+                        <div style="display: flex; flex-direction: column;">
+                            <div style="font-size: 15px; font-weight: 700; color: #111;">${card.name}</div>
+                            <div style="font-size: 13px; color: #73706a; font-family: monospace;">${card.number}</div>
+                        </div>
+                    </div>
+                    ${isSelected ? '<i class="fas fa-check-circle" style="color: #a97642; font-size: 20px;"></i>' : '<div style="width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(17,17,17,0.15);"></div>'}
+                `;
+                
+                el.addEventListener('click', () => {
+                    this.selectedCard = card;
+                    if (this.payDesc) {
+                        this.payDesc.textContent = `${this.selectedCard.name} (${this.selectedCard.number.slice(-4)})`;
+                    }
+                    this.cardSelectionModal.style.display = 'none';
+                    this.cardSelectionModal.classList.remove('active');
+                });
+                
+                this.cardList.appendChild(el);
+            });
+            
+            this.cardSelectionModal.style.display = 'flex';
+            requestAnimationFrame(() => {
+                this.cardSelectionModal.classList.add('active');
+            });
+        }
+
+        async openCharSelection() {
+            if (!this.charSelectionModal || !this.charList) return;
+            
+            this.charList.innerHTML = '';
+            
+            let friends = [];
+            if (window.imStorage && window.imStorage.loadFriends) {
+                try {
+                    friends = await window.imStorage.loadFriends();
+                } catch(e) {}
+            }
+            
+            if (friends.length === 0) {
+                this.charList.innerHTML = '<div style="text-align: center; padding: 20px; color: #73706a;">暂无好友</div>';
+            } else {
+                friends.forEach(friend => {
+                    const el = document.createElement('div');
+                    el.style.cssText = 'background: rgba(255, 255, 255, 0.82); border-radius: 12px; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; border: 1px solid rgba(17,17,17,0.09); ';
+                    
+                    const isSelected = this.selectedFriend && String(this.selectedFriend.id) === String(friend.id);
+                    const name = friend.name || friend.nickname || 'Unknown Char';
+                    let avatarHtml = `<div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(17,17,17,0.06); display: flex; justify-content: center; align-items: center; color: #73706a;"><i class="fas fa-user"></i></div>`;
+                    if (friend.avatar) {
+                        avatarHtml = `<img src="${friend.avatar}" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid rgba(17,17,17,0.09);">`;
+                    }
+                    
+                    el.innerHTML = `
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            ${avatarHtml}
+                            <div style="display: flex; flex-direction: column;">
+                                <div style="font-size: 15px; font-weight: 700; color: #111;">${name}</div>
+                                <div style="font-size: 13px; color: #73706a; max-width: 150px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${friend.signature || ''}</div>
+                            </div>
+                        </div>
+                        ${isSelected ? '<i class="fas fa-check-circle" style="color: #a97642; font-size: 20px;"></i>' : '<div style="width: 20px; height: 20px; border-radius: 50%; border: 1px solid rgba(17,17,17,0.15);"></div>'}
+                    `;
+                    
+                    el.addEventListener('click', () => {
+                        this.selectedFriend = friend;
+                        if (this.friendDesc) {
+                            this.friendDesc.textContent = name;
+                        }
+                        this.charSelectionModal.style.display = 'none';
+                        this.charSelectionModal.classList.remove('active');
+                    });
+                    
+                    this.charList.appendChild(el);
+                });
+            }
+            
+            this.charSelectionModal.style.display = 'flex';
+            requestAnimationFrame(() => {
+                this.charSelectionModal.classList.add('active');
+            });
+        }
+
+        async processPayment() {
+            const method = document.querySelector('input[name="shopping-payment-method"]:checked')?.value;
+            let subtotal = 0;
+            this.cart.forEach(item => subtotal += item.priceVal);
+            const total = subtotal + 5; // +5 delivery
+            
+            const itemNames = this.cart.map(item => item.name).join(', ');
+
+            if (method === 'pay') {
+                if (!this.selectedCard) {
+                    window.showToast ? window.showToast('请选择支付卡片') : alert('请选择支付卡片');
+                    return;
+                }
+                
+                const cardBalance = this.selectedCard.balance !== undefined ? this.selectedCard.balance : (typeof window.getPayBalance === 'function' ? window.getPayBalance() : 0);
+                
+                if (cardBalance >= total) {
+                    let paymentSuccess = true;
+                    if (typeof window.addPayTransaction === 'function') {
+                        paymentSuccess = window.addPayTransaction(total, '购物消费', 'expense', this.selectedCard.id);
+                    }
+                    
+                    if (paymentSuccess) {
+                        // Save to orders
+                        this.orders.unshift({
+                            id: Date.now(),
+                            timestamp: Date.now(),
+                            date: new Date().toLocaleString(),
+                            items: [...this.cart],
+                            total: total,
+                            status: '已付款',
+                            method: this.selectedCard.type === 'family' ? `亲属卡 (${this.selectedCard.name})` : 'Pay'
+                        });
+                        this.saveOrders();
+                        
+                        this.cart = [];
+                        this.saveCart();
+                        this.renderCart();
+                        this.checkoutSheet?.classList.remove('active');
+                        window.showToast ? window.showToast('支付成功') : alert('支付成功');
+                    } else {
+                        window.showToast ? window.showToast('支付失败') : alert('支付失败');
+                    }
+                } else {
+                    window.showToast ? window.showToast('余额不足') : alert('余额不足');
+                }
+            } else if (method === 'friend') {
+                if (!this.selectedFriend) {
+                    window.showToast ? window.showToast('请选择代付好友') : alert('请选择代付好友');
+                    return;
+                }
+                
+                const friendName = this.selectedFriend.name || this.selectedFriend.nickname || 'Unknown Char';
+                
+                // Construct fallback text message
+                const msgText = `[代付请求]\n商品: ${itemNames}\n总价: ¥${total.toFixed(2)}`;
+                
+                // Construct HTML Card for modern pipeline
+                const htmlCard = `
+                    <div style="background: #f7f7f5; border-radius: 16px; padding: 16px; min-width: 220px; max-width: 280px; color: #111111;  border: 1px solid rgba(17,17,17,0.09); display: inline-block;">
+                        <div style="font-size: 12px; color: #73706a; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; font-weight: 700;">
+                            <i class="fas fa-bag-shopping" style="color: #a97642;"></i> Shop Request
+                        </div>
+                        <div style="font-size: 15px; font-weight: 700; margin-bottom: 6px; white-space: normal; word-break: break-word; line-height: 1.4;">${itemNames}</div>
+                        <div style="font-size: 24px; font-weight: 800; color: #111111; margin-top: 14px; margin-bottom: 16px;">¥${total.toFixed(2)}</div>
+                        <div style="background: #a97642; color: #ffffff; text-align: center; padding: 10px 0; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer;">Pay Now</div>
+                    </div>
+                `;
+                
+                let success = false;
+                
+                if (window.imApp && window.imApp.appendFriendMessage) {
+                    try {
+                        // Crucial: ensure historical messages are loaded in memory so we append, not overwrite
+                        if (window.imApp.ensureFriendMessagesLoaded) {
+                            await window.imApp.ensureFriendMessagesLoaded(this.selectedFriend.id);
+                        }
+
+                        const newMsg = {
+                            role: 'user',
+                            type: 'html',
+                            text: msgText,
+                            content: htmlCard,
+                            timestamp: Date.now()
+                        };
+                        
+                        success = await window.imApp.appendFriendMessage(this.selectedFriend.id, newMsg, { silent: true });
+                        
+                        // Trigger render if this chat is currently active
+                        if (success && window.imData && window.imData.currentActiveFriend && String(window.imData.currentActiveFriend.id) === String(this.selectedFriend.id)) {
+                            const activeContainer = document.querySelector('.active-chat-interface .ins-chat-messages');
+                            if (activeContainer && window.imChat && window.imChat.appendMessageToContainer) {
+                                window.imChat.appendMessageToContainer(window.imData.currentActiveFriend, activeContainer, newMsg);
+                            }
+                        }
+                    } catch(e) {
+                        console.error('Failed to append shop request message:', e);
+                    }
+                }
+                
+                if (success) {
+                    this.orders.unshift({
+                        id: Date.now(),
+                        timestamp: Date.now(),
+                        date: new Date().toLocaleString(),
+                        items: [...this.cart],
+                        total: total,
+                        status: '代付请求已发送',
+                        method: `代付 (${friendName})`
+                    });
+                    this.saveOrders();
+                    
+                    this.cart = [];
+                    this.saveCart();
+                    this.renderCart();
+                    this.checkoutSheet?.classList.remove('active');
+                    window.showToast ? window.showToast('代付请求已发送') : alert('代付请求已发送');
+                } else {
+                    window.showToast ? window.showToast('无法发送代付请求') : alert('无法发送代付请求');
+                }
+            }
+        }
+
+        renderOrders() {
+            if (!this.ordersList) return;
+            this.ordersList.innerHTML = '';
+            
+            if (this.orders.length === 0) {
+                this.ordersList.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px; color: #8e8e93;">
+                        <i class="fas fa-receipt" style="font-size: 40px; margin-bottom: 15px; opacity: 0.5;"></i>
+                        <div style="font-size: 15px;">暂无订单记录</div>
+                    </div>
+                `;
+                return;
+            }
+
+            this.orders.forEach((order, index) => {
+                const el = document.createElement('div');
+                el.style.cssText = 'background: #fff; border-radius: 16px; padding: 16px;  position: relative;';
+                
+                const itemNames = order.items.map(i => i.name).join(', ');
+                let mediaHtml = '';
+                order.items.slice(0, 3).forEach(item => {
+                    mediaHtml += `<div style="width: 40px; height: 40px; border-radius: 8px; background: ${item.mediaBg}; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 16px; flex-shrink: 0;">${item.iconHtml}</div>`;
+                });
+                if (order.items.length > 3) {
+                    mediaHtml += `<div style="width: 40px; height: 40px; border-radius: 8px; background: #f2f2f7; display: flex; justify-content: center; align-items: center; color: #8e8e93; font-size: 12px; font-weight: 600; flex-shrink: 0;">+${order.items.length - 3}</div>`;
+                }
+
+                let displayStatus = order.status;
+
+                const ts = order.timestamp || order.id; // fallback to id which is Date.now()
+                const elapsed = (Date.now() - ts) / 1000;
+                const isFood = order.items.some(i => i.isFood);
+                
+                const step1Text = isFood ? '已取餐' : '已发货';
+                const step2Text = isFood ? '送餐中' : '运输中';
+                const step3Text = '已送达';
+
+                const progress = Math.min(100, Math.max(0, (elapsed / 16) * 100));
+                // Premium colors
+                const cColor = isFood ? 'var(--shop-accent, #a97642)' : '#111111';
+                const fColor = 'var(--shop-green, #476c5a)';
+                const fGlow = isFood ? 'shopPulseGlow' : 'shopPulseGlowGreen';
+                
+                const s1Active = elapsed >= 0;
+                const s2Active = elapsed >= 8;
+                const s3Active = elapsed >= 16;
+
+                const lineBg = s3Active ? fColor : cColor;
+                
+                // Add staggered animation delay
+                const delay = index * 0.1;
+                el.className = 'shopping-order-card';
+                el.style.animationDelay = `${delay}s`;
+                // Remove inline styles that clash with css classes
+                el.style.cssText = `animation-delay: ${delay}s;`;
+                
+                el.innerHTML = `
+                    <div class="shopping-order-header">
+                        <div class="shopping-order-date">${order.date}</div>
+                        <button class="shopping-order-delete-btn shopping-order-delete" data-index="${index}">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="shopping-order-progress">
+                        <div class="shopping-order-track"></div>
+                        <div class="shopping-order-fill" style="width: calc(68% * ${progress / 100}); background: ${lineBg};"></div>
+                        
+                        <div class="shopping-order-nodes">
+                            <!-- Node 1 -->
+                            <div class="shopping-order-node">
+                                <div class="shopping-order-icon-wrap" style="background: ${s1Active ? cColor : '#f2f2f7'}; ${s1Active && !s2Active ? `animation: ${fGlow} 2s infinite;` : ''}">
+                                    <i class="fas fa-check" style="color: ${s1Active ? '#fff' : '#c7c7cc'};"></i>
+                                </div>
+                                <div class="shopping-order-node-text" style="color: ${s1Active ? '#111' : '#8e8e93'}; font-weight: ${s1Active ? '700' : '600'};">${step1Text}</div>
+                            </div>
+                            <!-- Node 2 -->
+                            <div class="shopping-order-node">
+                                <div class="shopping-order-icon-wrap" style="background: ${s2Active ? cColor : '#f2f2f7'}; ${s2Active && !s3Active ? `animation: ${fGlow} 2s infinite;` : ''}">
+                                    <i class="fas fa-motorcycle" style="color: ${s2Active ? '#fff' : '#c7c7cc'};"></i>
+                                </div>
+                                <div class="shopping-order-node-text" style="color: ${s2Active ? '#111' : '#8e8e93'}; font-weight: ${s2Active ? '700' : '600'};">${step2Text}</div>
+                            </div>
+                            <!-- Node 3 -->
+                            <div class="shopping-order-node">
+                                <div class="shopping-order-icon-wrap" style="background: ${s3Active ? fColor : '#f2f2f7'};">
+                                    <i class="fas fa-home" style="color: ${s3Active ? '#fff' : '#c7c7cc'};"></i>
+                                </div>
+                                <div class="shopping-order-node-text" style="color: ${s3Active ? '#111' : '#8e8e93'}; font-weight: ${s3Active ? '700' : '600'};">${step3Text}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shopping-order-item-inline-wrap">
+                        <div class="shopping-order-items-scroll inline-mode">
+                            ${order.items.map(item => `
+                                <div class="shopping-order-item-media" style="background: ${item.mediaBg};">
+                                    ${item.iconHtml}
+                                </div>
+                            `).join('')}
+                        </div>
+                        <div class="shopping-order-title inline-mode">${itemNames}</div>
+                    </div>
+                    
+                    <div class="shopping-order-footer">
+                        <div class="shopping-order-method">${order.method}</div>
+                        <div class="shopping-order-price-wrap">
+                            <button class="shopping-order-gift-btn" data-index="${index}" style="margin-right: 8px; background: #ff9bb3; color: #fff; border: none; border-radius: 12px; padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer;">赠送</button>
+                            <button class="shopping-order-comment-btn" data-product="${order.items.length > 0 ? order.items[0].name : ''}">评价商品</button>
+                            <div class="shopping-order-price">¥${order.total.toFixed(2)}</div>
+                        </div>
+                    </div>
+                `;
+
+                const giftBtn = el.querySelector('.shopping-order-gift-btn');
+                if (giftBtn) {
+                    if (order.gifted) {
+                        giftBtn.textContent = '已赠送';
+                        giftBtn.style.background = '#e5e5ea';
+                        giftBtn.style.color = '#8e8e93';
+                        giftBtn.style.cursor = 'default';
+                    } else {
+                        giftBtn.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            const idx = parseInt(giftBtn.dataset.index, 10);
+                            const orderToGift = this.orders[idx];
+                            this.openGiftCharSelection(orderToGift, idx);
+                        });
+                    }
+                }
+
+                const deleteBtn = el.querySelector('.shopping-order-delete-btn');
+                if (deleteBtn) {
+                    deleteBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const idx = parseInt(deleteBtn.dataset.index, 10);
+                        this.orders.splice(idx, 1);
+                        this.saveOrders();
+                        this.renderOrders();
+                    });
+                }
+
+                const commentBtn = el.querySelector('.shopping-order-comment-btn');
+                if (commentBtn) {
+                    commentBtn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        const productName = commentBtn.dataset.product;
+                        if (!productName) return;
+                        
+                        this.currentReviewProduct = productName;
+                        if (!this.ratingSheet) this.initRatingSheet();
+                        
+                        // Reset form
+                        this.ratingText.value = '';
+                        if (this.ratingStars) {
+                            Array.from(this.ratingStars).forEach(s => {
+                                s.className = 'fas fa-star';
+                                s.style.color = '#ff9500';
+                            });
+                        }
+                        
+                        this.ratingSheet.classList.add('active');
+                    });
+                }
+
+                this.ordersList.appendChild(el);
+            });
+        }
+
+        openDetail(product, isFood = false) {
+            product.isFood = isFood;
+            this.currentProduct = product;
+            
+            if (isFood) {
+                if (this.foodDetailName) this.foodDetailName.textContent = product.name;
+                if (this.foodDetailPrice) {
+                    const val = product.price.replace('¥', '');
+                    this.foodDetailPrice.innerHTML = `<span style="font-size: 16px;">¥</span>${val}`;
+                }
+                if (this.foodBottomPrice) this.foodBottomPrice.textContent = product.price;
+                if (this.foodDetailDesc) this.foodDetailDesc.textContent = product.desc;
+                if (this.foodDetailMedia) {
+                    this.foodDetailMedia.innerHTML = product.iconHtml;
+                    this.foodDetailMedia.style.background = product.mediaBg;
+                }
+                if (this.foodDetailSheet) {
+                    this.foodDetailSheet.classList.add('active');
+                }
+            } else {
+                if (this.detailName) this.detailName.textContent = product.name;
+                if (this.detailPrice) this.detailPrice.textContent = product.price;
+                if (this.detailDesc) this.detailDesc.textContent = product.desc;
+                if (this.detailMedia) {
+                    this.detailMedia.innerHTML = product.iconHtml;
+                    this.detailMedia.style.background = product.mediaBg;
+                }
+                
+                // Update QA Trigger Preview
+                this.renderQA(product.name, false);
+
+                if (this.detailSheet) {
+                    this.detailSheet.classList.add('active');
+                }
+            }
+            
+            // Render comments for this product
+            this.renderComments(product.name, isFood);
+        }
+
+        renderQA(productName, isFood) {
+            const qaTrigger = document.getElementById('shopping-mall-qa-trigger');
+            const qaContainer = document.getElementById('shopping-qa-container');
+            const qaSheetTitle = document.getElementById('shopping-qa-sheet-title');
+            
+            if (!qaContainer) return;
+            
+            if (isFood) {
+                if (qaTrigger) qaTrigger.style.display = 'none';
+                return;
+            } else {
+                if (qaTrigger) qaTrigger.style.display = 'block';
+            }
+
+            let qaObj = {};
+            try {
+                const stored = durableStorage.getItem('shopping_qa');
+                if (stored) qaObj = JSON.parse(stored);
+            } catch(err) {}
+
+            const qaList = qaObj[productName] || [];
+            
+            if (qaSheetTitle) qaSheetTitle.textContent = `问大家 (${qaList.length})`;
+            
+            if (qaTrigger) {
+                qaTrigger.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                        <div style="font-size: 16px; font-weight: 700; color: #111;">Q&A (${qaList.length})</div>
+                        <div style="font-size: 13px; color: #111; font-weight: 600; display: flex; align-items: center;">See All <i class="fas fa-chevron-right" style="font-size: 10px; margin-left: 4px;"></i></div>
+                    </div>
+                `;
+                
+                if (qaList.length === 0) {
+                    qaTrigger.innerHTML += '<div style="font-size: 14px; color: #8e8e93;">暂无问答</div>';
+                } else {
+                    const topQa = qaList.slice(0, 2);
+                    topQa.forEach(qa => {
+                        const randomAnswersCount = Math.floor(Math.random() * 5) + 1;
+                        qaTrigger.innerHTML += `
+                            <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px;">
+                                <span style="background: #111; color: #fff; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-top: 2px;">Q</span>
+                                <div style="flex: 1; font-size: 14px; color: #111; line-height: 1.4;">${qa.q}</div>
+                                <div style="font-size: 12px; color: #8e8e93; white-space: nowrap;">${randomAnswersCount} answers</div>
+                            </div>
+                        `;
+                    });
+                }
+            }
+            
+            qaContainer.innerHTML = '';
+            if (qaList.length === 0) {
+                qaContainer.innerHTML = '<div style="text-align: center; color: #8e8e93; font-size: 14px; padding: 20px 0;">暂无问答数据</div>';
+            } else {
+                qaList.forEach(qa => {
+                    const el = document.createElement('div');
+                    el.style.cssText = 'display: flex; flex-direction: column; gap: 8px; padding-bottom: 12px; border-bottom: 1px solid rgba(17,17,17,0.05);';
+                    el.innerHTML = `
+                        <div style="display: flex; align-items: flex-start; gap: 8px;">
+                            <span style="background: #111; color: #fff; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-top: 2px;">Q</span>
+                            <div style="font-size: 15px; font-weight: 600; color: #111; line-height: 1.4;">${qa.q}</div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 8px; margin-top: 4px;">
+                            <span style="background: #e5e5ea; color: #8e8e93; font-size: 10px; padding: 2px 6px; border-radius: 4px; font-weight: bold; margin-top: 2px;">A</span>
+                            <div style="font-size: 14px; color: #333; line-height: 1.5;">${qa.a}</div>
+                        </div>
+                    `;
+                    qaContainer.appendChild(el);
+                });
+            }
+        }
+
+        renderComments(productName, isFood) {
+            // Find the reviews container
+            const sheet = isFood ? this.foodDetailSheet : this.detailSheet;
+            if (!sheet) return;
+
+            // hide old comment section
+            const oldContainer = sheet.querySelector(isFood ? '#shopping-food-detail-comments' : '#shopping-detail-comments');
+            if (oldContainer) {
+                oldContainer.style.display = 'none';
+            }
+
+            // find the "Reviews (128)" or "外卖评价 (458)" element
+            let reviewsContainerList;
+            let titleEl;
+            if (isFood) {
+                const allDivs = sheet.querySelectorAll('div');
+                for (let div of allDivs) {
+                    if (div.textContent.includes('外卖评价') && div.style.fontSize === '15px') {
+                        titleEl = div;
+                        reviewsContainerList = div.parentElement.lastElementChild;
+                        break;
+                    }
+                }
+            } else {
+                const allDivs = sheet.querySelectorAll('div');
+                for (let div of allDivs) {
+                    if (div.textContent.includes('Reviews') && div.style.fontSize === '16px') {
+                        titleEl = div;
+                        reviewsContainerList = div.parentElement.lastElementChild;
+                        break;
+                    }
+                }
+            }
+
+            if (!reviewsContainerList) return;
+
+            let commentsObj = {};
+            try {
+                const stored = durableStorage.getItem('shopping_comments');
+                if (stored) commentsObj = JSON.parse(stored);
+            } catch(err) {}
+
+            const comments = commentsObj[productName] || [];
+            
+            if (titleEl) {
+                titleEl.textContent = isFood ? `外卖评价 (${comments.length})` : `Reviews (${comments.length})`;
+            }
+
+            reviewsContainerList.innerHTML = '';
+
+            if (comments.length === 0) {
+                reviewsContainerList.innerHTML = '<div style="font-size: 14px; color: #8e8e93; text-align: center; padding: 10px 0;">暂无评价</div>';
+            }
+        }
+
+        initRatingSheet() {
+            if (document.getElementById('shopping-rating-sheet')) return;
+
+            const sheetHtml = `
+            <div class="bottom-sheet-overlay detail-sheet-overlay" id="shopping-rating-sheet" style="z-index: 1200;">
+                <div class="bottom-sheet" style="height: auto; max-height: 70%; padding-bottom: max(20px, env(safe-area-inset-bottom, 0px)); background: #ffffff;">
+                    <div class="sheet-handle"></div>
+                    <div class="sheet-title" id="shopping-rating-title">商品评价</div>
+                    <div class="detail-sheet-content" style="padding: 16px;">
+                        <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 24px;" id="shopping-rating-stars">
+                            <i class="fas fa-star" data-val="1" style="font-size: 32px; color: #ff9500; cursor: pointer;"></i>
+                            <i class="fas fa-star" data-val="2" style="font-size: 32px; color: #ff9500; cursor: pointer;"></i>
+                            <i class="fas fa-star" data-val="3" style="font-size: 32px; color: #ff9500; cursor: pointer;"></i>
+                            <i class="fas fa-star" data-val="4" style="font-size: 32px; color: #ff9500; cursor: pointer;"></i>
+                            <i class="fas fa-star" data-val="5" style="font-size: 32px; color: #ff9500; cursor: pointer;"></i>
+                        </div>
+                        <textarea id="shopping-rating-text" placeholder="写点评价吧，你的评价对其他买家有很大帮助..." style="width: 100%; height: 120px; border: none; background: #f7f7f5; border-radius: 12px; padding: 16px; font-size: 15px; resize: none; outline: none; margin-bottom: 20px; box-sizing: border-box;"></textarea>
+                        <button type="button" id="shopping-rating-submit" style="width: 100%; padding: 16px; background: #111; color: #fff; border-radius: 12px; font-size: 16px; font-weight: 700; border: none; cursor: pointer;">提交评价</button>
+                    </div>
+                </div>
+            </div>`;
+
+            document.body.insertAdjacentHTML('beforeend', sheetHtml);
+
+            this.ratingSheet = document.getElementById('shopping-rating-sheet');
+            this.ratingStars = document.getElementById('shopping-rating-stars').children;
+            this.ratingText = document.getElementById('shopping-rating-text');
+            this.ratingSubmit = document.getElementById('shopping-rating-submit');
+
+            let currentRating = 5;
+
+            Array.from(this.ratingStars).forEach(star => {
+                star.addEventListener('click', (e) => {
+                    currentRating = parseInt(e.target.dataset.val, 10);
+                    Array.from(this.ratingStars).forEach((s, idx) => {
+                        if (idx < currentRating) {
+                            s.className = 'fas fa-star';
+                            s.style.color = '#ff9500';
+                        } else {
+                            s.className = 'far fa-star';
+                            s.style.color = '#e5e5ea';
+                        }
+                    });
+                });
+            });
+
+            this.ratingSubmit.addEventListener('click', () => {
+                const text = this.ratingText.value.trim();
+                if (!text) {
+                    if (window.showToast) window.showToast('请输入评价内容');
+                    else alert('请输入评价内容');
+                    return;
+                }
+
+                if (!this.currentReviewProduct) return;
+
+                let commentsObj = {};
+                try {
+                    const stored = durableStorage.getItem('shopping_comments');
+                    if (stored) commentsObj = JSON.parse(stored);
+                } catch(err) {}
+                
+                if (!commentsObj[this.currentReviewProduct]) {
+                    commentsObj[this.currentReviewProduct] = [];
+                }
+                
+                commentsObj[this.currentReviewProduct].unshift({
+                    user: '我',
+                    text: text,
+                    rating: currentRating,
+                    date: new Date().toLocaleDateString()
+                });
+                
+                durableStorage.setItem('shopping_comments', JSON.stringify(commentsObj));
+                
+                if (window.showToast) window.showToast('评价发表成功');
+                else alert('评价发表成功');
+                
+                this.ratingSheet.classList.remove('active');
+                
+                // Refresh if currently on that detail view
+                if (this.currentProduct && this.currentProduct.name === this.currentReviewProduct) {
+                    this.renderComments(this.currentReviewProduct, this.currentProduct.isFood);
+                }
+            });
+            
+            // Allow closing by clicking outside
+            this.ratingSheet.addEventListener('click', (e) => {
+                if(e.target === this.ratingSheet) {
+                    this.ratingSheet.classList.remove('active');
+                }
+            });
+        }
+
+        openAllReviews(productName, isFood) {
+            const sheet = document.getElementById('shopping-all-reviews-sheet');
+            const container = document.getElementById('shopping-all-reviews-container');
+            const titleEl = document.getElementById('shopping-all-reviews-sheet-title');
+            
+            if (!sheet || !container) return;
+
+            let commentsObj = {};
+            try {
+                const stored = durableStorage.getItem('shopping_comments');
+                if (stored) commentsObj = JSON.parse(stored);
+            } catch(err) {}
+
+            const comments = commentsObj[productName] || [];
+            
+            if (titleEl) {
+                 titleEl.textContent = isFood ? `外卖评价 (${comments.length})` : `Reviews (${comments.length})`;
+            }
+
+            container.innerHTML = '';
+
+            if (comments.length === 0) {
+                container.innerHTML = '<div style="text-align: center; padding: 40px; color: #8e8e93;">暂无评价</div>';
+            } else {
+                comments.forEach(c => {
+                    const cEl = document.createElement('div');
+                    cEl.style.cssText = 'display: flex; gap: 12px; align-items: flex-start; padding-bottom: 12px; border-bottom: 1px solid rgba(17,17,17,0.05);';
+                    
+                    let starsHtml = '';
+                    const stars = c.rating || 5;
+                    for (let i = 0; i < 5; i++) {
+                        if (i < stars) {
+                            starsHtml += '<i class="fas fa-star" style="color: #ff9500; font-size: 10px;"></i>';
+                        } else {
+                            starsHtml += '<i class="far fa-star" style="color: #e5e5ea; font-size: 10px;"></i>';
+                        }
+                    }
+
+                    cEl.innerHTML = `
+                        <div style="width: 40px; height: 40px; border-radius: 50%; background: #f2f2f7; display: flex; justify-content: center; align-items: center; font-size: 16px; color: #8e8e93; flex-shrink: 0;"><i class="fas fa-user"></i></div>
+                        <div style="flex: 1;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                                <div style="font-size: 15px; font-weight: 600; color: #111;">${c.user}</div>
+                                <div style="font-size: 12px; color: #8e8e93;">${c.date}</div>
+                            </div>
+                            <div style="margin-bottom: 8px; display: flex; gap: 2px;">${starsHtml}</div>
+                            <div style="font-size: 15px; color: #333; line-height: 1.5;">${c.text}</div>
+                        </div>
+                    `;
+                    container.appendChild(cEl);
+                });
+            }
+
+            sheet.classList.add('active');
+        }
+
+        closeDetail() {
+            if (this.detailSheet) this.detailSheet.classList.remove('active');
+            if (this.foodDetailSheet) this.foodDetailSheet.classList.remove('active');
+        }
+
+        loadCart() {
+            try {
+                const savedCart = durableStorage.getItem('shopping_cart');
+                if (savedCart) {
+                    return JSON.parse(savedCart);
+                }
+            } catch (e) {
+                console.error('Failed to load cart from localStorage', e);
+            }
+            return [];
+        }
+
+        saveCart() {
+            try {
+                durableStorage.setItem('shopping_cart', JSON.stringify(this.cart));
+            } catch (e) {
+                console.error('Failed to save cart to localStorage', e);
+            }
+        }
+
+        addToCart(product) {
+            // Parse price
+            const priceVal = parseFloat(product.price.replace('¥', '')) || 0;
+            this.cart.push({
+                ...product,
+                priceVal: priceVal,
+                id: Date.now()
+            });
+            this.saveCart();
+            this.renderCart();
+        }
+
+        removeFromCart(index) {
+            this.cart.splice(index, 1);
+            this.saveCart();
+            this.renderCart();
+        }
+
+        renderCart() {
+            if (!this.cartEmptyState || !this.cartContent || !this.cartList) return;
+
+            if (this.cart.length === 0) {
+                this.cartEmptyState.style.display = 'flex';
+                this.cartContent.style.display = 'none';
+                return;
+            }
+
+            this.cartEmptyState.style.display = 'none';
+            this.cartContent.style.display = 'flex';
+            
+            this.cartList.innerHTML = '';
+            let subtotal = 0;
+
+            this.cart.forEach((item, index) => {
+                subtotal += item.priceVal;
+                
+                const itemEl = document.createElement('div');
+                itemEl.style.display = 'flex';
+                itemEl.style.alignItems = 'center';
+                itemEl.style.gap = '15px';
+                itemEl.style.padding = '10px';
+                itemEl.style.background = '#fff';
+                itemEl.style.borderRadius = '12px';
+                itemEl.style.boxShadow = '0 2px 10px rgba(0,0,0,0.03)';
+                
+                itemEl.innerHTML = `
+                    <div style="width: 50px; height: 50px; border-radius: 10px; background: ${item.mediaBg}; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 20px;">
+                        ${item.iconHtml}
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 700; font-size: 15px;">${item.name}</div>
+                        <div style="color: #a97642; font-weight: 700; margin-top: 4px;">${item.price}</div>
+                    </div>
+                    <div class="shopping-cart-remove" style="width: 30px; height: 30px; border-radius: 50%; background: #ffebee; color: #ff3b30; display: flex; justify-content: center; align-items: center; cursor: pointer;">
+                        <i class="fas fa-trash-alt" style="font-size: 12px;"></i>
+                    </div>
+                `;
+                
+                const removeBtn = itemEl.querySelector('.shopping-cart-remove');
+                removeBtn.addEventListener('click', () => {
+                    this.removeFromCart(index);
+                });
+                
+                this.cartList.appendChild(itemEl);
+            });
+
+            if (this.cartSubtotal) this.cartSubtotal.textContent = `¥${subtotal.toFixed(2)}`;
+            const deliveryFee = 5;
+            if (this.cartTotal) this.cartTotal.textContent = `¥${(subtotal + deliveryFee).toFixed(2)}`;
+        }
+
+        open() {
+            if (!this.view) return;
+            this.view.style.display = 'flex';
+            window.requestAnimationFrame(() => {
+                this.view.classList.add('active');
+                this.switchTab('food');
+                this.updateIndicator();
+            });
+            document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#f7f7f5');
+        }
+
+        close() {
+            if (!this.view) return;
+            this.view.classList.remove('active');
+            window.setTimeout(() => {
+                if (!this.view.classList.contains('active')) {
+                    this.view.style.display = 'none';
+                }
+            }, 340);
+            document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#ffffff');
+        }
+
+        switchTab(tab, options = {}) {
+            const targetTab = this.tabs.includes(tab) ? tab : 'food';
+            const shouldScroll = options.scroll !== false;
+            this.currentTab = targetTab;
+
+            this.navItems?.forEach((item) => {
+                item.classList.toggle('active', item.dataset.tab === targetTab);
+            });
+
+            this.panels?.forEach((panel) => {
+                panel.classList.toggle('active', panel.dataset.tab === targetTab);
+            });
+
+            if (shouldScroll && this.panelsWrap) {
+                const index = this.tabs.indexOf(targetTab);
+                this.panelsWrap.scrollTo({
+                    left: index * this.panelsWrap.clientWidth,
+                    behavior: 'smooth'
+                });
+            }
+
+            this.updateIndicator();
+        }
+
+        updateIndicator() {
+            if (!this.indicator || !this.navItems || !this.navItems.length) return;
+            const activeItem = this.navItems.find((item) => item.dataset.tab === this.currentTab) || this.navItems[0];
+            const nav = activeItem.closest('.shopping-bottom-nav');
+            if (!nav) return;
+
+            const navRect = nav.getBoundingClientRect();
+            const itemRect = activeItem.getBoundingClientRect();
+            const navStyle = window.getComputedStyle(nav);
+            const inset = parseFloat(navStyle.paddingLeft) || 0;
+            const offset = itemRect.left - navRect.left - inset;
+
+            this.indicator.style.width = `${itemRect.width}px`;
+            this.indicator.style.transform = `translateX(${offset}px)`;
+        }
+    }
+
+    function initShoppingApp() {
+        if (window.shoppingApp) return window.shoppingApp;
+        window.shoppingApp = new ShoppingApp();
+        const appBtn = document.getElementById('app-shopping-btn');
+        if (appBtn) {
+            appBtn.addEventListener('click', (event) => {
+                event.stopPropagation();
+                if (window.isJiggleMode) return;
+                window.shoppingApp?.open();
+            });
+        }
+        return window.shoppingApp;
+    }
+
+    function initShoppingAppAfterStorageReady() {
+        if (window.shoppingDataReadyPromise) return window.shoppingDataReadyPromise;
+        const initialize = () => {
+            initShoppingApp();
+            return true;
+        };
+
+        if (window.globalDataReadyPromise && typeof window.globalDataReadyPromise.then === 'function') {
+            window.shoppingDataReadyPromise = window.globalDataReadyPromise.then(initialize).catch((error) => {
+                console.warn('Shopping global data recovery failed:', error);
+                initialize();
+                return false;
+            });
+        } else {
+            initialize();
+            window.shoppingDataReadyPromise = Promise.resolve(true);
+        }
+        return window.shoppingDataReadyPromise;
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initShoppingAppAfterStorageReady);
+    } else {
+        initShoppingAppAfterStorageReady();
+    }
+})();

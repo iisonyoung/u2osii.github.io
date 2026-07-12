@@ -1,1 +1,24 @@
-const _u2_ab13421be4_0x28b13e=_u2_ab13421be4_0x1346;function _u2_ab13421be4_0x1346(_0x16c16f,_0x5127ff){_0x16c16f=_0x16c16f-0xbd;const _0x51b8fc=_u2_ab13421be4_0x51b8();let _0x134694=_0x51b8fc[_0x16c16f];return _0x134694;}function _u2_ab13421be4_0x51b8(){const _0x5a4e99=['165516QlbBvP','3UdvHIQ','toString','CHAT_IMAGE_PLACEHOLDER_URL','imChat','DOMContentLoaded','14mfwbnS','object','324191QfJDoF','95094ODGCrH','createMessageId','176008pwzJvL','395rmFgzp','320GOTvEQ','128410ccuwag','msg','addEventListener','4155960dgbpHt','now','slice','1419nJHdsV','34472DvIWAq'];_u2_ab13421be4_0x51b8=function(){return _0x5a4e99;};return _u2_ab13421be4_0x51b8();}(function(_0xdd03d3,_0x45dc90){const _0x150b53=_u2_ab13421be4_0x1346,_0x1825df=_0xdd03d3();while(!![]){try{const _0x3d052b=-parseInt(_0x150b53(0xcf))/0x1+-parseInt(_0x150b53(0xbf))/0x2*(parseInt(_0x150b53(0xc8))/0x3)+parseInt(_0x150b53(0xc6))/0x4*(-parseInt(_0x150b53(0xbd))/0x5)+-parseInt(_0x150b53(0xc2))/0x6+-parseInt(_0x150b53(0xcd))/0x7*(-parseInt(_0x150b53(0xd2))/0x8)+-parseInt(_0x150b53(0xd0))/0x9*(-parseInt(_0x150b53(0xbe))/0xa)+parseInt(_0x150b53(0xc5))/0xb*(parseInt(_0x150b53(0xc7))/0xc);if(_0x3d052b===_0x45dc90)break;else _0x1825df['push'](_0x1825df['shift']());}catch(_0xb5f2b1){_0x1825df['push'](_0x1825df['shift']());}}}(_u2_ab13421be4_0x51b8,0x618ad),document[_u2_ab13421be4_0x28b13e(0xc1)](_u2_ab13421be4_0x28b13e(0xcc),()=>{const _0x2e421f=_u2_ab13421be4_0x28b13e,{apiConfig:_0x370814,userState:_0x288d76}=window;window[_0x2e421f(0xcb)]=window[_0x2e421f(0xcb)]||{};const _0x2644b3=window[_0x2e421f(0xcb)];_0x2644b3[_0x2e421f(0xca)]='assets/imessage/chat-image-placeholder.jpg';function _0x58b688(_0x39cb1=_0x2e421f(0xc0)){const _0x500698=_0x2e421f;return _0x39cb1+'_'+Date[_0x500698(0xc3)]()+'_'+Math['random']()[_0x500698(0xc9)](0x24)[_0x500698(0xc4)](0x2,0x8);}function _0x5f4e86(_0x3d455f,_0x50f8e5=_0x2e421f(0xc0)){const _0x56e8b7=_0x2e421f;if(!_0x3d455f||typeof _0x3d455f!==_0x56e8b7(0xce))return'';if(!_0x3d455f['id'])_0x3d455f['id']=window[_0x56e8b7(0xcb)][_0x56e8b7(0xd1)](_0x50f8e5);return _0x3d455f['id'];}window[_0x2e421f(0xcb)]['createMessageId']=_0x58b688,window[_0x2e421f(0xcb)]['ensureMessageId']=_0x5f4e86;}));
+
+// ==========================================
+// IMESSAGE: 4_chat_common.js
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+    const { apiConfig, userState } = window;
+    window.imChat = window.imChat || {};
+    const imChat = window.imChat;
+    imChat.CHAT_IMAGE_PLACEHOLDER_URL = 'assets/imessage/chat-image-placeholder.jpg';
+
+function createMessageId(prefix = 'msg') {
+        return `${prefix}_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+    }
+
+function ensureMessageId(msg, prefix = 'msg') {
+        if (!msg || typeof msg !== 'object') return '';
+        if (!msg.id) msg.id = window.imChat.createMessageId(prefix);
+        return msg.id;
+    }
+
+    window.imChat.createMessageId = createMessageId;
+    window.imChat.ensureMessageId = ensureMessageId;
+
+});

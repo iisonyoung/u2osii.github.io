@@ -1,1 +1,173 @@
-function _u2_8f77fcd5cc_0x5d24(_0x6dc750,_0x592d9c){_0x6dc750=_0x6dc750-0x198;const _0x48f4fc=_u2_8f77fcd5cc_0x48f4();let _0x5d243c=_0x48f4fc[_0x6dc750];return _0x5d243c;}const _u2_8f77fcd5cc_0x1fb834=_u2_8f77fcd5cc_0x5d24;(function(_0x529267,_0x3e0e56){const _0x178ac0=_u2_8f77fcd5cc_0x5d24,_0x163b01=_0x529267();while(!![]){try{const _0x4885de=parseInt(_0x178ac0(0x1b7))/0x1+parseInt(_0x178ac0(0x1b4))/0x2*(parseInt(_0x178ac0(0x1a1))/0x3)+parseInt(_0x178ac0(0x1ae))/0x4+-parseInt(_0x178ac0(0x1a9))/0x5*(-parseInt(_0x178ac0(0x1c0))/0x6)+parseInt(_0x178ac0(0x1a0))/0x7*(parseInt(_0x178ac0(0x1aa))/0x8)+-parseInt(_0x178ac0(0x1be))/0x9*(parseInt(_0x178ac0(0x1ba))/0xa)+-parseInt(_0x178ac0(0x1a8))/0xb*(parseInt(_0x178ac0(0x19a))/0xc);if(_0x4885de===_0x3e0e56)break;else _0x163b01['push'](_0x163b01['shift']());}catch(_0x31d4ed){_0x163b01['push'](_0x163b01['shift']());}}}(_u2_8f77fcd5cc_0x48f4,0xecd47),function(_0x4c139c,_0x4d0009){const _0x25a837=_u2_8f77fcd5cc_0x5d24,_0x4dd60a=_0x4d0009();if(typeof module==='object'&&module['exports'])module['exports']=_0x4dd60a;if(_0x4c139c)_0x4c139c[_0x25a837(0x1c1)]=_0x4dd60a;}(typeof window!==_u2_8f77fcd5cc_0x1fb834(0x1af)?window:globalThis,function(){'use strict';const _0x256826=_u2_8f77fcd5cc_0x1fb834;const _0xb3ecf7=['user','assistant'],_0x566b2f=()=>_0x256826(0x198)+Date[_0x256826(0x1c8)]()+'-'+Math[_0x256826(0x1cb)]()[_0x256826(0x1a7)](0x24)['slice'](0x2,0x9),_0x4c7c7c=_0x1d9c26=>{const _0x419c16=_0x256826;if(_0x1d9c26===''||_0x1d9c26===null||typeof _0x1d9c26===_0x419c16(0x1af))return null;const _0x3abc0a=Number(_0x1d9c26);return Number['isInteger'](_0x3abc0a)&&_0x3abc0a>=0x0?_0x3abc0a:null;},_0x1621c6=_0x5591c3=>{const _0x5900e9=_0x256826;if(!_0x5591c3||typeof _0x5591c3!==_0x5900e9(0x19c)||Array[_0x5900e9(0x19e)](_0x5591c3))return{};return Object[_0x5900e9(0x1a5)](Object[_0x5900e9(0x1d0)](_0x5591c3)['filter'](([_0x3dcece,_0x48ef4d])=>_0x3dcece&&Number[_0x5900e9(0x1b2)](Number(_0x48ef4d))&&Number(_0x48ef4d)>=0x1)[_0x5900e9(0x19b)](([_0x2260d6,_0xd92656])=>[String(_0x2260d6),Number(_0xd92656)]));},_0x1e5e7b=(_0x42a52a,_0x816721=0x0)=>{const _0xe370a1=_0x256826,_0x25d280=_0x42a52a&&typeof _0x42a52a===_0xe370a1(0x19c)?_0x42a52a:{},_0x563192=Array['isArray'](_0x25d280[_0xe370a1(0x1ab)])?_0xb3ecf7['filter'](_0x38a6a0=>_0x25d280[_0xe370a1(0x1ab)][_0xe370a1(0x1ad)](_0x38a6a0)):_0xb3ecf7[_0xe370a1(0x1cf)]();return{'id':String(_0x25d280['id']||_0x566b2f()),'scriptName':String(_0x25d280[_0xe370a1(0x1b9)]||_0xe370a1(0x1bc)+(_0x816721+0x1)),'findRegex':String(_0x25d280[_0xe370a1(0x1c3)]||''),'replaceString':String(_0x25d280[_0xe370a1(0x1c7)]||''),'placement':_0x563192,'markdownOnly':!!_0x25d280[_0xe370a1(0x1ca)],'promptOnly':!!_0x25d280[_0xe370a1(0x19d)],'disabled':!!_0x25d280['disabled'],'minDepth':_0x4c7c7c(_0x25d280['minDepth']),'maxDepth':_0x4c7c7c(_0x25d280[_0xe370a1(0x1b8)]),'revision':Math[_0xe370a1(0x1c5)](0x1,Math[_0xe370a1(0x1bb)](Number(_0x25d280[_0xe370a1(0x1a3)])||0x1))};},_0x146154=_0x48abf9=>(Array['isArray'](_0x48abf9)?_0x48abf9:[])[_0x256826(0x19b)](_0x1e5e7b),_0x13e200=()=>_0x1e5e7b({'id':_0x566b2f(),'scriptName':'新正则','placement':_0xb3ecf7[_0x256826(0x1cf)](),'revision':0x1}),_0x2ea849=_0x4c23f8=>{const _0xb02500=_0x256826;for(let _0x5d1991=_0x4c23f8[_0xb02500(0x1b6)]-0x1;_0x5d1991>0x0;_0x5d1991-=0x1){if(_0x4c23f8[_0x5d1991]!=='/')continue;let _0x51ae5b=0x0;for(let _0x33e3cf=_0x5d1991-0x1;_0x33e3cf>=0x0&&_0x4c23f8[_0x33e3cf]==='\x5c';_0x33e3cf-=0x1)_0x51ae5b+=0x1;if(_0x51ae5b%0x2===0x0)return _0x5d1991;}return-0x1;},_0x1963a9=_0x15dc34=>{const _0xb369d1=_0x256826,_0x33b8b7=String(_0x15dc34||'');if(!_0x33b8b7)throw new Error(_0xb369d1(0x1cd));if(!_0x33b8b7[_0xb369d1(0x19f)]('/'))return{'source':_0x33b8b7,'flags':''};const _0x5e4a34=_0x2ea849(_0x33b8b7);if(_0x5e4a34<=0x0)return{'source':_0x33b8b7,'flags':''};return{'source':_0x33b8b7[_0xb369d1(0x1cf)](0x1,_0x5e4a34),'flags':_0x33b8b7[_0xb369d1(0x1cf)](_0x5e4a34+0x1)};},_0x2a5d26=_0xf04eab=>{const _0x4bb3f8=_0x256826;try{const _0x258db3=_0x1963a9(_0xf04eab?.[_0x4bb3f8(0x1c3)]);return{'regex':new RegExp(_0x258db3['source'],_0x258db3['flags']),'error':''};}catch(_0xf79947){return{'regex':null,'error':_0xf79947 instanceof Error?_0xf79947[_0x4bb3f8(0x1c9)]:String(_0xf79947)};}},_0x2f27e2=_0xaebe4d=>_0xaebe4d?.[_0x256826(0x199)]===null||_0xaebe4d?.[_0x256826(0x1b8)]===null||Number(_0xaebe4d[_0x256826(0x1b8)])>=Number(_0xaebe4d[_0x256826(0x199)]),_0x3cd8f1=(_0x2021a8,_0x1abed3)=>{const _0x853487=_0x256826;if(!Number[_0x853487(0x1b2)](_0x1abed3)||_0x1abed3<0x0||!_0x2f27e2(_0x2021a8))return![];if(_0x2021a8['minDepth']!==null&&_0x1abed3<_0x2021a8[_0x853487(0x199)])return![];if(_0x2021a8['maxDepth']!==null&&_0x1abed3>_0x2021a8[_0x853487(0x1b8)])return![];return!![];},_0x470fad=(_0x3fca37,_0x52856a)=>{const _0x4d9aeb=_0x256826;if(_0x52856a===_0x4d9aeb(0x1bd))return!_0x3fca37[_0x4d9aeb(0x1ca)]&&!_0x3fca37[_0x4d9aeb(0x19d)];if(_0x52856a===_0x4d9aeb(0x1a4))return _0x3fca37[_0x4d9aeb(0x1ca)];if(_0x52856a===_0x4d9aeb(0x1a6))return _0x3fca37[_0x4d9aeb(0x19d)];return![];},_0x2d9ef8=(_0x204615,_0x4d2cd4,_0x5e8f1a)=>{const _0x24c1cb=_0x256826,_0x1e6de7=String(_0x4d2cd4[_0x24c1cb(0x1c7)]||'')[_0x24c1cb(0x1c2)](/\{\{match\}\}/g,()=>'$&');return String(_0x204615||'')[_0x24c1cb(0x1c2)](_0x5e8f1a[_0x24c1cb(0x1c4)],_0x1e6de7);},_0x524202=(_0x3cac3b,_0x1a65f5={})=>{const _0x396182=_0x256826,_0x26f12d=_0x1a65f5[_0x396182(0x1bf)]===_0x396182(0x1b0)?_0x396182(0x1b0):_0x396182(0x1cc),_0x2f97ac=Number(_0x1a65f5['depth']),_0x3504c8=_0x1a65f5[_0x396182(0x1a2)]||_0x396182(0x1a4);let _0x464b53=String(_0x3cac3b||'');return _0x146154(_0x1a65f5[_0x396182(0x1b3)])[_0x396182(0x1b1)](_0x1ba464=>{const _0x6a3866=_0x396182;if(_0x1ba464['disabled']||!_0x1ba464[_0x6a3866(0x1ab)][_0x6a3866(0x1ad)](_0x26f12d))return;if(!_0x470fad(_0x1ba464,_0x3504c8)||!_0x3cd8f1(_0x1ba464,_0x2f97ac))return;const _0x1bc75=_0x2a5d26(_0x1ba464);if(!_0x1bc75[_0x6a3866(0x1c4)])return;_0x464b53=_0x2d9ef8(_0x464b53,_0x1ba464,_0x1bc75);}),_0x464b53;},_0x506b7d=(_0x5d12ad,_0x4a0ec2,_0x32d20b={})=>{const _0x40cb16=_0x256826,_0x155089=_0x146154(_0x4a0ec2),_0x35929e=new Set((_0x32d20b['resetMessageIds']||[])['map'](String)),_0xb57331=Array[_0x40cb16(0x19e)](_0x5d12ad)?_0x5d12ad:[],_0x242949=new Map();let _0x39d715=0x0;for(let _0x44f0b3=_0xb57331[_0x40cb16(0x1b6)]-0x1;_0x44f0b3>=0x0;_0x44f0b3-=0x1){const _0x3f8b5a=_0xb57331[_0x44f0b3]?.[_0x40cb16(0x1bf)];if(_0x3f8b5a!=='user'&&_0x3f8b5a!=='assistant')continue;_0x242949['set'](_0x44f0b3,_0x39d715),_0x39d715+=0x1;}return _0xb57331[_0x40cb16(0x19b)]((_0x526cad,_0x4107e4)=>{const _0x3415cd=_0x40cb16,_0x13ca31={..._0x526cad},_0x2c31f2=_0x13ca31[_0x3415cd(0x1bf)]===_0x3415cd(0x1b0)?_0x3415cd(0x1b0):_0x13ca31[_0x3415cd(0x1bf)]===_0x3415cd(0x1cc)?_0x3415cd(0x1cc):null;if(!_0x2c31f2)return _0x13ca31;const _0x4f7688=_0x242949['get'](_0x4107e4),_0x592d9d=_0x35929e[_0x3415cd(0x1b5)](String(_0x13ca31['id']))?{}:_0x1621c6(_0x13ca31['offlineRegexAppliedRevisions']);let _0x4923a2=String(_0x13ca31['content']||'');return _0x155089['forEach'](_0x58f057=>{const _0x661dad=_0x3415cd;if(_0x58f057[_0x661dad(0x1ce)]||!_0x58f057[_0x661dad(0x1ab)][_0x661dad(0x1ad)](_0x2c31f2))return;if(!_0x470fad(_0x58f057,_0x661dad(0x1bd))||!_0x3cd8f1(_0x58f057,_0x4f7688))return;if(_0x592d9d[_0x58f057['id']]===_0x58f057[_0x661dad(0x1a3)])return;const _0x502d62=_0x2a5d26(_0x58f057);if(!_0x502d62[_0x661dad(0x1c4)])return;_0x4923a2=_0x2d9ef8(_0x4923a2,_0x58f057,_0x502d62),_0x592d9d[_0x58f057['id']]=_0x58f057[_0x661dad(0x1a3)];}),_0x13ca31[_0x3415cd(0x1c6)]=_0x4923a2,_0x13ca31[_0x3415cd(0x1ac)]=_0x592d9d,_0x13ca31;});};return{'PLACEMENTS':_0xb3ecf7[_0x256826(0x1cf)](),'normalizeDepth':_0x4c7c7c,'normalizeAppliedRevisions':_0x1621c6,'normalizeRule':_0x1e5e7b,'normalizeRules':_0x146154,'createRule':_0x13e200,'compileRule':_0x2a5d26,'isDepthValid':_0x2f27e2,'isDepthIncluded':_0x3cd8f1,'matchesChannel':_0x470fad,'applyRules':_0x524202,'applyStorageRules':_0x506b7d};}));function _u2_8f77fcd5cc_0x48f4(){const _0x3f5acb=['3992cskEzm','placement','offlineRegexAppliedRevisions','includes','1668732ubgkOU','undefined','assistant','forEach','isInteger','rules','1124VrYtOs','has','length','1098307rlxfPc','maxDepth','scriptName','230bSEfrF','floor','正则\x20','storage','513333IewsVr','role','30VKjOzZ','imOfflineRegex','replace','findRegex','regex','max','content','replaceString','now','message','markdownOnly','random','user','请输入查找正则表达式','disabled','slice','entries','offline-regex-','minDepth','149556NCRIqA','map','object','promptOnly','isArray','startsWith','91XYznRU','7983RMxuZZ','channel','revision','display','fromEntries','prompt','toString','2211fZwDWO','1769510yPWMZg'];_u2_8f77fcd5cc_0x48f4=function(){return _0x3f5acb;};return _u2_8f77fcd5cc_0x48f4();}
+(function (root, factory) {
+    const api = factory();
+    if (typeof module === 'object' && module.exports) module.exports = api;
+    if (root) root.imOfflineRegex = api;
+})(typeof window !== 'undefined' ? window : globalThis, function () {
+    'use strict';
+
+    const PLACEMENTS = ['user', 'assistant'];
+
+    const createId = () => `offline-regex-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+
+    const normalizeDepth = (value) => {
+        if (value === '' || value === null || typeof value === 'undefined') return null;
+        const number = Number(value);
+        return Number.isInteger(number) && number >= 0 ? number : null;
+    };
+
+    const normalizeAppliedRevisions = (value) => {
+        if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+        return Object.fromEntries(Object.entries(value)
+            .filter(([id, revision]) => id && Number.isInteger(Number(revision)) && Number(revision) >= 1)
+            .map(([id, revision]) => [String(id), Number(revision)]));
+    };
+
+    const normalizeRule = (rule, index = 0) => {
+        const source = rule && typeof rule === 'object' ? rule : {};
+        const placement = Array.isArray(source.placement)
+            ? PLACEMENTS.filter(role => source.placement.includes(role))
+            : PLACEMENTS.slice();
+        return {
+            id: String(source.id || createId()),
+            scriptName: String(source.scriptName || `正则 ${index + 1}`),
+            findRegex: String(source.findRegex || ''),
+            replaceString: String(source.replaceString || ''),
+            placement,
+            markdownOnly: !!source.markdownOnly,
+            promptOnly: !!source.promptOnly,
+            disabled: !!source.disabled,
+            minDepth: normalizeDepth(source.minDepth),
+            maxDepth: normalizeDepth(source.maxDepth),
+            revision: Math.max(1, Math.floor(Number(source.revision) || 1))
+        };
+    };
+
+    const normalizeRules = (rules) => (Array.isArray(rules) ? rules : []).map(normalizeRule);
+
+    const createRule = () => normalizeRule({
+        id: createId(),
+        scriptName: '新正则',
+        placement: PLACEMENTS.slice(),
+        revision: 1
+    });
+
+    const findClosingSlash = (value) => {
+        for (let index = value.length - 1; index > 0; index -= 1) {
+            if (value[index] !== '/') continue;
+            let backslashes = 0;
+            for (let cursor = index - 1; cursor >= 0 && value[cursor] === '\\'; cursor -= 1) backslashes += 1;
+            if (backslashes % 2 === 0) return index;
+        }
+        return -1;
+    };
+
+    const parseRegex = (value) => {
+        const raw = String(value || '');
+        if (!raw) throw new Error('请输入查找正则表达式');
+        if (!raw.startsWith('/')) return { source: raw, flags: '' };
+        const closingSlash = findClosingSlash(raw);
+        if (closingSlash <= 0) return { source: raw, flags: '' };
+        return {
+            source: raw.slice(1, closingSlash),
+            flags: raw.slice(closingSlash + 1)
+        };
+    };
+
+    const compileRule = (rule) => {
+        try {
+            const parsed = parseRegex(rule?.findRegex);
+            return { regex: new RegExp(parsed.source, parsed.flags), error: '' };
+        } catch (error) {
+            return { regex: null, error: error instanceof Error ? error.message : String(error) };
+        }
+    };
+
+    const isDepthValid = (rule) => rule?.minDepth === null
+        || rule?.maxDepth === null
+        || Number(rule.maxDepth) >= Number(rule.minDepth);
+
+    const isDepthIncluded = (rule, depth) => {
+        if (!Number.isInteger(depth) || depth < 0 || !isDepthValid(rule)) return false;
+        if (rule.minDepth !== null && depth < rule.minDepth) return false;
+        if (rule.maxDepth !== null && depth > rule.maxDepth) return false;
+        return true;
+    };
+
+    const matchesChannel = (rule, channel) => {
+        if (channel === 'storage') return !rule.markdownOnly && !rule.promptOnly;
+        if (channel === 'display') return rule.markdownOnly;
+        if (channel === 'prompt') return rule.promptOnly;
+        return false;
+    };
+
+    const replaceText = (text, rule, compiled) => {
+        const replacement = String(rule.replaceString || '').replace(/\{\{match\}\}/g, () => '$&');
+        return String(text || '').replace(compiled.regex, replacement);
+    };
+
+    const applyRules = (text, options = {}) => {
+        const role = options.role === 'assistant' ? 'assistant' : 'user';
+        const depth = Number(options.depth);
+        const channel = options.channel || 'display';
+        let result = String(text || '');
+        normalizeRules(options.rules).forEach((rule) => {
+            if (rule.disabled || !rule.placement.includes(role)) return;
+            if (!matchesChannel(rule, channel) || !isDepthIncluded(rule, depth)) return;
+            const compiled = compileRule(rule);
+            if (!compiled.regex) return;
+            result = replaceText(result, rule, compiled);
+        });
+        return result;
+    };
+
+    const applyStorageRules = (messages, rules, options = {}) => {
+        const normalizedRules = normalizeRules(rules);
+        const resetIds = new Set((options.resetMessageIds || []).map(String));
+        const sourceMessages = Array.isArray(messages) ? messages : [];
+        const depthByIndex = new Map();
+        let conversationalDepth = 0;
+        for (let index = sourceMessages.length - 1; index >= 0; index -= 1) {
+            const role = sourceMessages[index]?.role;
+            if (role !== 'user' && role !== 'assistant') continue;
+            depthByIndex.set(index, conversationalDepth);
+            conversationalDepth += 1;
+        }
+        return sourceMessages.map((message, index) => {
+            const next = { ...message };
+            const role = next.role === 'assistant' ? 'assistant' : (next.role === 'user' ? 'user' : null);
+            if (!role) return next;
+            const depth = depthByIndex.get(index);
+            const applied = resetIds.has(String(next.id)) ? {} : normalizeAppliedRevisions(next.offlineRegexAppliedRevisions);
+            let content = String(next.content || '');
+
+            normalizedRules.forEach((rule) => {
+                if (rule.disabled || !rule.placement.includes(role)) return;
+                if (!matchesChannel(rule, 'storage') || !isDepthIncluded(rule, depth)) return;
+                if (applied[rule.id] === rule.revision) return;
+                const compiled = compileRule(rule);
+                if (!compiled.regex) return;
+                content = replaceText(content, rule, compiled);
+                applied[rule.id] = rule.revision;
+            });
+
+            next.content = content;
+            next.offlineRegexAppliedRevisions = applied;
+            return next;
+        });
+    };
+
+    return {
+        PLACEMENTS: PLACEMENTS.slice(),
+        normalizeDepth,
+        normalizeAppliedRevisions,
+        normalizeRule,
+        normalizeRules,
+        createRule,
+        compileRule,
+        isDepthValid,
+        isDepthIncluded,
+        matchesChannel,
+        applyRules,
+        applyStorageRules
+    };
+});

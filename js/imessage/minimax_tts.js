@@ -1,1 +1,244 @@
-(function(_0x5b5265,_0x43bb66){const _0x19bbba=_u2_469ea1a176_0x1736,_0x21d1bf=_0x5b5265();while(!![]){try{const _0x5910f9=-parseInt(_0x19bbba(0x10d))/0x1+parseInt(_0x19bbba(0x115))/0x2*(-parseInt(_0x19bbba(0x139))/0x3)+parseInt(_0x19bbba(0x11f))/0x4+parseInt(_0x19bbba(0x124))/0x5+-parseInt(_0x19bbba(0x118))/0x6+parseInt(_0x19bbba(0x137))/0x7+parseInt(_0x19bbba(0x10c))/0x8*(-parseInt(_0x19bbba(0x146))/0x9);if(_0x5910f9===_0x43bb66)break;else _0x21d1bf['push'](_0x21d1bf['shift']());}catch(_0x21a9eb){_0x21d1bf['push'](_0x21d1bf['shift']());}}}(_u2_469ea1a176_0x3219,0x4a51b),(function(){const _0x585055=_u2_469ea1a176_0x1736,_0x3c94d1={'region':'cn','customEndpointEnabled':![],'endpoint':'','apiKey':'','groupId':'','ttsModel':'speech-02-hd'},_0x123093={'cn':_0x585055(0x126),'intl':'https://api.minimax.io'};let _0x50130e=null;function _0x5ec5da(_0x1134d2){const _0x3fa4bb=_0x585055;return{..._0x3c94d1,..._0x1134d2&&typeof _0x1134d2===_0x3fa4bb(0x13d)?_0x1134d2:{}};}function _0x31e91a(_0x1f5046,_0x4d848c){const _0x41219d=_0x585055;try{if(window[_0x41219d(0x10f)]&&typeof window['StorageManager'][_0x41219d(0x14f)]===_0x41219d(0x149))return window[_0x41219d(0x10f)][_0x41219d(0x14f)](_0x1f5046,_0x4d848c);return _0x4d848c;}catch(_0x5e4c1d){return console[_0x41219d(0x150)](_0x41219d(0x147),_0x5e4c1d),_0x4d848c;}}function _0x24a53b(_0x20d52a,_0x415a15){const _0x598b70=_0x585055;try{if(window[_0x598b70(0x10f)]&&typeof window['StorageManager'][_0x598b70(0x135)]==='function'){window['StorageManager'][_0x598b70(0x135)](_0x20d52a,_0x415a15);return;}}catch(_0x2f3a92){console[_0x598b70(0x150)](_0x598b70(0x12a),_0x2f3a92);}}function _0x17d0c2(){const _0x2b2281=_0x585055;return window[_0x2b2281(0x129)]=_0x5ec5da(window[_0x2b2281(0x129)]||_0x31e91a(_0x2b2281(0x134),_0x3c94d1)),window[_0x2b2281(0x129)];}function _0x1cafab(_0x40641c){const _0xa9b0da=_0x585055;return window[_0xa9b0da(0x129)]=_0x5ec5da(_0x40641c),_0x24a53b(_0xa9b0da(0x134),window[_0xa9b0da(0x129)]),window[_0xa9b0da(0x131)](new CustomEvent(_0xa9b0da(0x11e),{'detail':window['minimaxConfig']})),window[_0xa9b0da(0x129)];}function _0x16714a(_0x5c9b27=_0x17d0c2()){const _0x2e9e8b=_0x585055,_0x73599c=_0x123093[_0x5c9b27[_0x2e9e8b(0x13f)]]||_0x123093['cn'];return String(_0x5c9b27['customEndpointEnabled']?_0x5c9b27[_0x2e9e8b(0x11a)]||_0x73599c:_0x73599c)[_0x2e9e8b(0x122)](/\/+$/,'');}function _0x2d1451(_0x85d7d4=_0x17d0c2()){const _0x7921c2=_0x585055,_0x1dfac1=String(_0x85d7d4[_0x7921c2(0x110)]||'')[_0x7921c2(0x13a)](),_0x274122=_0x1dfac1?_0x7921c2(0x119)+encodeURIComponent(_0x1dfac1):'';return _0x16714a(_0x85d7d4)+_0x7921c2(0x112)+_0x274122;}function _0x57357a(_0x3aa079){const _0xedaf72=_0x585055;return/[\u3400-\u9fff]/[_0xedaf72(0x12b)](String(_0x3aa079||''));}function _0x56cdc7(_0x30c423){const _0x4f3880=_0x585055,_0xb23283=String(_0x30c423||'')['trim']()[_0x4f3880(0x14e)]();if(!_0xb23283||_0xb23283==='zh'||_0xb23283==='cn'||_0xb23283===_0x4f3880(0x143))return _0x4f3880(0x128);if(_0xb23283==='ja'||_0xb23283==='jp')return'Japanese';if(_0xb23283==='ko'||_0xb23283==='kr')return _0x4f3880(0x127);if(_0xb23283==='fr')return _0x4f3880(0x14d);if(_0xb23283==='en')return'English';return _0xb23283;}function _0x2cf827(_0x16dbe5,_0x59f68b=_0x585055(0x111)){const _0xae69ca=_0x585055,_0x36a03a=String(_0x16dbe5||'')[_0xae69ca(0x122)](/^0x/i,'')[_0xae69ca(0x122)](/\s+/g,'');if(!_0x36a03a||_0x36a03a[_0xae69ca(0x140)]%0x2!==0x0)return'';const _0x8c5a49=new Uint8Array(_0x36a03a[_0xae69ca(0x140)]/0x2);for(let _0x2dc7f3=0x0;_0x2dc7f3<_0x36a03a['length'];_0x2dc7f3+=0x2){_0x8c5a49[_0x2dc7f3/0x2]=parseInt(_0x36a03a['slice'](_0x2dc7f3,_0x2dc7f3+0x2),0x10);}return URL[_0xae69ca(0x116)](new Blob([_0x8c5a49],{'type':_0x59f68b}));}function _0x1c8adb(_0x1f39f9,_0x5bd965='audio/mpeg'){const _0x2ba629=_0x585055,_0xd7ae12=String(_0x1f39f9||'')['replace'](/^data:audio\/[^;]+;base64,/,'')[_0x2ba629(0x122)](/\s+/g,'');if(!_0xd7ae12)return'';const _0x3c72da=atob(_0xd7ae12),_0x2424a2=new Uint8Array(_0x3c72da['length']);for(let _0x3e211f=0x0;_0x3e211f<_0x3c72da['length'];_0x3e211f+=0x1)_0x2424a2[_0x3e211f]=_0x3c72da[_0x2ba629(0x121)](_0x3e211f);return URL[_0x2ba629(0x116)](new Blob([_0x2424a2],{'type':_0x5bd965}));}function _0x2db6bf(_0x20df8b){const _0x5b4d66=_0x585055,_0x13afc9=[_0x20df8b?.[_0x5b4d66(0x13c)]?.[_0x5b4d66(0x130)],_0x20df8b?.[_0x5b4d66(0x13c)]?.[_0x5b4d66(0x120)],_0x20df8b?.[_0x5b4d66(0x130)],_0x20df8b?.[_0x5b4d66(0x120)],_0x20df8b?.[_0x5b4d66(0x13c)]?.['audio_file'],_0x20df8b?.[_0x5b4d66(0x13c)]?.[_0x5b4d66(0x12e)],_0x20df8b?.[_0x5b4d66(0x12e)]][_0x5b4d66(0x138)](Boolean),_0x4de7e8=String(_0x13afc9[0x0]||'')[_0x5b4d66(0x13a)]();if(!_0x4de7e8)return'';if(/^https?:\/\//i['test'](_0x4de7e8)||/^blob:/i['test'](_0x4de7e8)||/^data:audio\//i[_0x5b4d66(0x12b)](_0x4de7e8))return _0x4de7e8;if(/^[0-9a-fA-F]+$/['test'](_0x4de7e8)&&_0x4de7e8[_0x5b4d66(0x140)]>0x20)return _0x2cf827(_0x4de7e8);return _0x1c8adb(_0x4de7e8);}async function _0x48986d(_0x1f2b66){const _0x1c508d=_0x585055;if(!_0x1f2b66)throw new Error(_0x1c508d(0x141));return _0x50130e&&(_0x50130e['pause'](),_0x50130e=null),_0x50130e=new Audio(_0x1f2b66),await _0x50130e[_0x1c508d(0x12c)](),_0x50130e;}function _0x3bd7fd(_0x396216){const _0xa7a273=_0x585055,_0x2205fa=_0x396216?.[_0xa7a273(0x10e)]&&typeof _0x396216[_0xa7a273(0x10e)]===_0xa7a273(0x13d)?_0x396216[_0xa7a273(0x10e)]:{};return{'enabled':!!_0x2205fa[_0xa7a273(0x144)],'voiceId':String(_0x2205fa[_0xa7a273(0x14b)]||'')['trim'](),'speed':Math[_0xa7a273(0x142)](0.5,Math['min'](0x2,parseFloat(_0x2205fa[_0xa7a273(0x12f)])||0x1)),'language':_0x396216?.[_0xa7a273(0x125)]||'zh'};}async function _0xb7ee2c(_0x3b6365,_0x4c5fe8=null,_0x1a5387={}){const _0x38ae9c=_0x585055,_0x292d67=String(_0x3b6365||'')[_0x38ae9c(0x13a)]();if(!_0x292d67){if(window[_0x38ae9c(0x14c)])window[_0x38ae9c(0x14c)](_0x38ae9c(0x114));return null;}const _0x3c5a0e=_0x17d0c2(),_0x5e0515=_0x3bd7fd(_0x4c5fe8);if(!_0x5e0515[_0x38ae9c(0x144)]&&!_0x1a5387[_0x38ae9c(0x133)]){if(window[_0x38ae9c(0x14c)])window[_0x38ae9c(0x14c)]('请先在\x20Chat\x20Settings\x20Info\x20开启\x20Minimax\x20语音');return null;}if(!_0x3c5a0e[_0x38ae9c(0x12d)]||!_0x3c5a0e[_0x38ae9c(0x110)]){if(window['showToast'])window['showToast'](_0x38ae9c(0x14a));return null;}const _0x23bf48=_0x5e0515[_0x38ae9c(0x14b)]||_0x1a5387[_0x38ae9c(0x14b)]||_0x38ae9c(0x13e),_0x4642b3=_0x56cdc7(_0x5e0515[_0x38ae9c(0x125)]),_0x469fe4={'model':_0x3c5a0e['ttsModel']||_0x3c94d1[_0x38ae9c(0x11d)],'text':_0x292d67,'stream':![],'output_format':_0x38ae9c(0x132),'voice_setting':{'voice_id':_0x23bf48,'speed':_0x5e0515['speed'],'vol':0x1,'pitch':0x0},'audio_setting':{'sample_rate':0x7d00,'bitrate':0x1f400,'format':'mp3','channel':0x1}};_0x4642b3&&(_0x4642b3!==_0x38ae9c(0x128)||_0x57357a(_0x292d67))&&(_0x469fe4['language_boost']=_0x4642b3);if(window[_0x38ae9c(0x14c)])window['showToast'](_0x38ae9c(0x11b));const _0x34b4b3=await fetch(_0x2d1451(_0x3c5a0e),{'method':'POST','headers':{'Content-Type':_0x38ae9c(0x148),'Authorization':_0x38ae9c(0x136)+_0x3c5a0e[_0x38ae9c(0x12d)]},'body':JSON[_0x38ae9c(0x113)](_0x469fe4)});if(!_0x34b4b3['ok'])throw new Error(_0x34b4b3['status']+'\x20'+_0x34b4b3['statusText']);const _0x18aa93=await _0x34b4b3[_0x38ae9c(0x13b)](),_0x535e05=_0x2db6bf(_0x18aa93);if(!_0x535e05)throw new Error(_0x38ae9c(0x117));return await _0x48986d(_0x535e05),_0x535e05;}async function _0x23ce76(_0x4245b2,_0x536ace=null,_0x53e1c5=null,_0x2f55da={}){const _0x5670c2=_0x585055;if(_0x53e1c5&&_0x53e1c5[_0x5670c2(0x123)])return await _0x48986d(_0x53e1c5[_0x5670c2(0x123)]),_0x53e1c5[_0x5670c2(0x123)];if(_0x53e1c5&&_0x53e1c5[_0x5670c2(0x11c)]){const _0x2773bf=await _0x53e1c5[_0x5670c2(0x11c)];if(_0x2773bf)await _0x48986d(_0x2773bf);return _0x2773bf;}const _0x505733=_0xb7ee2c(_0x4245b2,_0x536ace,_0x2f55da);if(_0x53e1c5)_0x53e1c5[_0x5670c2(0x11c)]=_0x505733;try{const _0x22d635=await _0x505733;if(_0x53e1c5&&_0x22d635)_0x53e1c5[_0x5670c2(0x123)]=_0x22d635;return _0x22d635;}finally{if(_0x53e1c5)delete _0x53e1c5[_0x5670c2(0x11c)];}}window[_0x585055(0x129)]=_0x5ec5da(window[_0x585055(0x129)]||_0x31e91a(_0x585055(0x134),_0x3c94d1)),window[_0x585055(0x145)]={'DEFAULT_CONFIG':_0x3c94d1,'REGION_ENDPOINTS':_0x123093,'getConfig':_0x17d0c2,'setConfig':_0x1cafab,'getBaseEndpoint':_0x16714a,'getTtsUrl':_0x2d1451,'speakText':_0xb7ee2c,'speakTextCached':_0x23ce76,'playAudioUrl':_0x48986d,'resolveFriendVoiceSettings':_0x3bd7fd};}()));function _u2_469ea1a176_0x1736(_0x5af01c,_0x1c56b0){_0x5af01c=_0x5af01c-0x10c;const _0x32191d=_u2_469ea1a176_0x3219();let _0x173625=_0x32191d[_0x5af01c];return _0x173625;}function _u2_469ea1a176_0x3219(){const _0x1f250a=['French','toLowerCase','load','warn','41208fLcFcZ','95422XWfvhC','minimaxVoice','StorageManager','groupId','audio/mpeg','/v1/t2a_v2','stringify','没有可播放的文本','4uPNlnG','createObjectURL','Minimax\x20未返回音频','726606xzStPD','?GroupId=','endpoint','语音生成中...','minimaxAudioPromise','ttsModel','u2:minimax-config-updated','2049704GfHVeH','audio_base64','charCodeAt','replace','minimaxAudioUrl','1564375IMJBBU','language','https://api.minimax.chat','Korean','Chinese','minimaxConfig','[minimax_tts]\x20Failed\x20to\x20save\x20config:','test','play','apiKey','url','speed','audio','dispatchEvent','hex','ignoreFriendToggle','u2_minimaxConfig','save','Bearer\x20','4035500BsSEGB','filter','896343KwNdOk','trim','json','data','object','male-qn-qingse','region','length','No\x20audio\x20url','max','zh-cn','enabled','u2MinimaxTts','495vAUdhD','[minimax_tts]\x20Failed\x20to\x20load\x20config:','application/json','function','请先配置\x20Minimax\x20Key\x20和\x20Group\x20ID','voiceId','showToast'];_u2_469ea1a176_0x3219=function(){return _0x1f250a;};return _u2_469ea1a176_0x3219();}
+// ==========================================
+// IMESSAGE: Minimax TTS
+// ==========================================
+(function () {
+    const DEFAULT_CONFIG = {
+        region: 'cn',
+        customEndpointEnabled: false,
+        endpoint: '',
+        apiKey: '',
+        groupId: '',
+        ttsModel: 'speech-02-hd'
+    };
+
+    const REGION_ENDPOINTS = {
+        cn: 'https://api.minimax.chat',
+        intl: 'https://api.minimax.io'
+    };
+
+    let currentAudio = null;
+
+    function cloneConfig(value) {
+        return {
+            ...DEFAULT_CONFIG,
+            ...(value && typeof value === 'object' ? value : {})
+        };
+    }
+
+    function safeLoad(key, fallback) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+                return window.StorageManager.load(key, fallback);
+            }
+            return fallback;
+        } catch (error) {
+            console.warn('[minimax_tts] Failed to load config:', error);
+            return fallback;
+        }
+    }
+
+    function safeSave(key, value) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save(key, value);
+                return;
+            }
+        } catch (error) {
+            console.warn('[minimax_tts] Failed to save config:', error);
+        }
+    }
+
+    function getConfig() {
+        window.minimaxConfig = cloneConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', DEFAULT_CONFIG));
+        return window.minimaxConfig;
+    }
+
+    function setConfig(nextConfig) {
+        window.minimaxConfig = cloneConfig(nextConfig);
+        safeSave('u2_minimaxConfig', window.minimaxConfig);
+        window.dispatchEvent(new CustomEvent('u2:minimax-config-updated', { detail: window.minimaxConfig }));
+        return window.minimaxConfig;
+    }
+
+    function getBaseEndpoint(config = getConfig()) {
+        const regionEndpoint = REGION_ENDPOINTS[config.region] || REGION_ENDPOINTS.cn;
+        return String(config.customEndpointEnabled ? (config.endpoint || regionEndpoint) : regionEndpoint).replace(/\/+$/, '');
+    }
+
+    function getTtsUrl(config = getConfig()) {
+        const groupId = String(config.groupId || '').trim();
+        const query = groupId ? `?GroupId=${encodeURIComponent(groupId)}` : '';
+        return `${getBaseEndpoint(config)}/v1/t2a_v2${query}`;
+    }
+
+    function isLikelyChinese(text) {
+        return /[\u3400-\u9fff]/.test(String(text || ''));
+    }
+
+    function normalizeLanguage(language) {
+        const lang = String(language || '').trim().toLowerCase();
+        if (!lang || lang === 'zh' || lang === 'cn' || lang === 'zh-cn') return 'Chinese';
+        if (lang === 'ja' || lang === 'jp') return 'Japanese';
+        if (lang === 'ko' || lang === 'kr') return 'Korean';
+        if (lang === 'fr') return 'French';
+        if (lang === 'en') return 'English';
+        return lang;
+    }
+
+    function hexToBlobUrl(hex, mimeType = 'audio/mpeg') {
+        const cleanHex = String(hex || '').replace(/^0x/i, '').replace(/\s+/g, '');
+        if (!cleanHex || cleanHex.length % 2 !== 0) return '';
+        const bytes = new Uint8Array(cleanHex.length / 2);
+        for (let i = 0; i < cleanHex.length; i += 2) {
+            bytes[i / 2] = parseInt(cleanHex.slice(i, i + 2), 16);
+        }
+        return URL.createObjectURL(new Blob([bytes], { type: mimeType }));
+    }
+
+    function base64ToBlobUrl(base64, mimeType = 'audio/mpeg') {
+        const cleanBase64 = String(base64 || '').replace(/^data:audio\/[^;]+;base64,/, '').replace(/\s+/g, '');
+        if (!cleanBase64) return '';
+        const binary = atob(cleanBase64);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
+        return URL.createObjectURL(new Blob([bytes], { type: mimeType }));
+    }
+
+    function extractAudioUrl(data) {
+        const candidates = [
+            data?.data?.audio,
+            data?.data?.audio_base64,
+            data?.audio,
+            data?.audio_base64,
+            data?.data?.audio_file,
+            data?.data?.url,
+            data?.url
+        ].filter(Boolean);
+
+        const first = String(candidates[0] || '').trim();
+        if (!first) return '';
+        if (/^https?:\/\//i.test(first) || /^blob:/i.test(first) || /^data:audio\//i.test(first)) return first;
+        if (/^[0-9a-fA-F]+$/.test(first) && first.length > 32) return hexToBlobUrl(first);
+        return base64ToBlobUrl(first);
+    }
+
+    async function playAudioUrl(url) {
+        if (!url) throw new Error('No audio url');
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio = null;
+        }
+        currentAudio = new Audio(url);
+        await currentAudio.play();
+        return currentAudio;
+    }
+
+    function resolveFriendVoiceSettings(friend) {
+        const settings = friend?.minimaxVoice && typeof friend.minimaxVoice === 'object' ? friend.minimaxVoice : {};
+        return {
+            enabled: !!settings.enabled,
+            voiceId: String(settings.voiceId || '').trim(),
+            speed: Math.max(0.5, Math.min(2, parseFloat(settings.speed) || 1)),
+            language: friend?.language || 'zh'
+        };
+    }
+
+    async function speakText(text, friend = null, options = {}) {
+        const cleanText = String(text || '').trim();
+        if (!cleanText) {
+            if (window.showToast) window.showToast('没有可播放的文本');
+            return null;
+        }
+
+        const config = getConfig();
+        const voiceSettings = resolveFriendVoiceSettings(friend);
+        if (!voiceSettings.enabled && !options.ignoreFriendToggle) {
+            if (window.showToast) window.showToast('请先在 Chat Settings Info 开启 Minimax 语音');
+            return null;
+        }
+        if (!config.apiKey || !config.groupId) {
+            if (window.showToast) window.showToast('请先配置 Minimax Key 和 Group ID');
+            return null;
+        }
+
+        const voiceId = voiceSettings.voiceId || options.voiceId || 'male-qn-qingse';
+        const language = normalizeLanguage(voiceSettings.language);
+        const body = {
+            model: config.ttsModel || DEFAULT_CONFIG.ttsModel,
+            text: cleanText,
+            stream: false,
+            output_format: 'hex',
+            voice_setting: {
+                voice_id: voiceId,
+                speed: voiceSettings.speed,
+                vol: 1,
+                pitch: 0
+            },
+            audio_setting: {
+                sample_rate: 32000,
+                bitrate: 128000,
+                format: 'mp3',
+                channel: 1
+            }
+        };
+
+        if (language && (language !== 'Chinese' || isLikelyChinese(cleanText))) {
+            body.language_boost = language;
+        }
+
+        if (window.showToast) window.showToast('语音生成中...');
+        const response = await fetch(getTtsUrl(config), {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: `Bearer ${config.apiKey}`
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+        const data = await response.json();
+        const audioUrl = extractAudioUrl(data);
+        if (!audioUrl) throw new Error('Minimax 未返回音频');
+        await playAudioUrl(audioUrl);
+        return audioUrl;
+    }
+
+    async function speakTextCached(text, friend = null, cacheOwner = null, options = {}) {
+        if (cacheOwner && cacheOwner.minimaxAudioUrl) {
+            await playAudioUrl(cacheOwner.minimaxAudioUrl);
+            return cacheOwner.minimaxAudioUrl;
+        }
+
+        if (cacheOwner && cacheOwner.minimaxAudioPromise) {
+            const cachedUrl = await cacheOwner.minimaxAudioPromise;
+            if (cachedUrl) await playAudioUrl(cachedUrl);
+            return cachedUrl;
+        }
+
+        const requestPromise = speakText(text, friend, options);
+        if (cacheOwner) cacheOwner.minimaxAudioPromise = requestPromise;
+
+        try {
+            const audioUrl = await requestPromise;
+            if (cacheOwner && audioUrl) cacheOwner.minimaxAudioUrl = audioUrl;
+            return audioUrl;
+        } finally {
+            if (cacheOwner) delete cacheOwner.minimaxAudioPromise;
+        }
+    }
+
+    window.minimaxConfig = cloneConfig(window.minimaxConfig || safeLoad('u2_minimaxConfig', DEFAULT_CONFIG));
+    window.u2MinimaxTts = {
+        DEFAULT_CONFIG,
+        REGION_ENDPOINTS,
+        getConfig,
+        setConfig,
+        getBaseEndpoint,
+        getTtsUrl,
+        speakText,
+        speakTextCached,
+        playAudioUrl,
+        resolveFriendVoiceSettings
+    };
+})();

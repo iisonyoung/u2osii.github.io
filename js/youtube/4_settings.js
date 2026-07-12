@@ -1,1 +1,187 @@
-const _u2_5f43518c60_0x3f70a8=_u2_5f43518c60_0x482a;(function(_0x4cd8c5,_0x5303da){const _0x19c455=_u2_5f43518c60_0x482a,_0x53947d=_0x4cd8c5();while(!![]){try{const _0x19ab81=parseInt(_0x19c455(0xfe))/0x1*(parseInt(_0x19c455(0x101))/0x2)+-parseInt(_0x19c455(0x128))/0x3*(-parseInt(_0x19c455(0x132))/0x4)+parseInt(_0x19c455(0x131))/0x5*(parseInt(_0x19c455(0xf8))/0x6)+parseInt(_0x19c455(0x106))/0x7+parseInt(_0x19c455(0x11b))/0x8*(parseInt(_0x19c455(0x125))/0x9)+-parseInt(_0x19c455(0xf9))/0xa+-parseInt(_0x19c455(0x103))/0xb*(parseInt(_0x19c455(0x11a))/0xc);if(_0x19ab81===_0x5303da)break;else _0x53947d['push'](_0x53947d['shift']());}catch(_0x1cb7ab){_0x53947d['push'](_0x53947d['shift']());}}}(_u2_5f43518c60_0x3f6d,0x1b21d));var defaultPrompt=_u2_5f43518c60_0x3f70a8(0x12f),defaultGroupChatPrompt=_u2_5f43518c60_0x3f70a8(0x116),defaultVODPrompt=_u2_5f43518c60_0x3f70a8(0x121),defaultSummaryPrompt=_u2_5f43518c60_0x3f70a8(0xff);function _u2_5f43518c60_0x3f6d(){const _0x5dcb06=['1052814QKPqgT','yt-settings-sheet','find','active','yt-bound-wb-name','prompt-tab-group','toggle','已绑定\x20','yt-summary-list-sheet','length','yt-prompt-desc','boundWorldBookIds','map','群聊/私信提示词。可用变量：{char}、{char_persona}、{user}、{user_persona}、{admins}、{wb_context}、{chat_history}、{trigger_instruction}。','已保存','filter','你要生成真实自然的\x20YouTube\x20私信或频道粉丝社群对话。频道主体是\x20{char}。\x0a群主人设：{char_persona}\x0a用户：{user}\x0a用户人设：{user_persona}\x0a可用管理员（自建社群时使用）：\x0a{admins}\x0a世界书内容：{wb_context}\x0a聊天记录：\x0a{chat_history}\x0a\x0a触发说明：\x0a{trigger_instruction}\x0a\x0a请根据聊天上下文生成活泼自然的短消息，并严格遵循末尾追加的\x20JSON\x20输出协议。\x0a要求：\x0a1.\x20不要使用\x20Markdown，不要\x20emoji，语气符合真实私信或粉丝群氛围，可以吹捧、调侃、讨论和自然追问。\x0a2.\x20连续消息应有上下文关系，不要机械复述。\x0a3.\x20YouTube\x20是国际化平台，可以使用符合角色国籍、人设和上下文的任意语言；外语必须提供自然中文翻译。','yt-summary-list-btn','join','name','5052660hJlWuC','112wlppyt','直播互动提示词。可用变量：{char}、{char_persona}、{user}、{user_persona}、{guest}、{wb_context}、{live_summary_context}、{msg_context}、{context_clue}。','trim','yt-prompt-sheet','live','systemPrompt','你正在扮演\x20YouTube\x20频道\x20{char}。\x0a频道人设：{char_persona}\x0a用户：{user}\x0a用户人设：{user_persona}\x0a视频标题：{video_title}\x0a已绑定世界书：{wb_context}\x0a用户评论：{msg}\x0a\x0a请生成视频评论区的后续互动。\x0a只返回严格\x20JSON：\x0a{\x0a\x20\x20\x22charReplies\x22:\x20[\x22频道回复\x22],\x0a\x20\x20\x22fanReplies\x22:\x20[\x22其他观众回复\x22]\x0a}\x0a不要\x20Markdown，不要\x20emoji，评论要短而像真实\x20YouTube\x20评论区。','showToast','yt-prompt-input','function','63405WSBnPu','confirm-yt-prompt-btn','classList','75ooZqmE','isArray','groupChatPrompt','getWorldBooks','remove','renderYtSummaryList','add','你正在扮演\x20YouTube\x20直播主播\x20{char}。\x0a主播人设：{char_persona}\x0a观看用户：{user}\x0a用户人设：{user_persona}\x0a联动嘉宾：{guest}\x0a已绑定世界书：{wb_context}\x0a上一场直播总结：{live_summary_context}\x0a{msg_context}\x0a{context_clue}\x0a\x0a请生成主播在直播画面中的回应，像真实直播间一样自然推进内容。除了要生成主播的话，还要生成第三人称视角的画面、环境和氛围描写，可以穿插在主播的话中，一条20字左右。\x0a特别要求：主播不仅要针对\x20{user}\x20的最新消息进行回复，还得自然地回复其他观众的评论，表现出连续自然的直播间多人互动状态。\x0a只返回严格\x20JSON：\x0a{\x0a\x20\x20\x22narrative\x22:\x20\x22第三人称视角的画面、环境和氛围描写\x22,\x0a\x20\x20\x22charBubbles\x22:\x20[\x22主播画面气泡1\x22,\x20\x22主播画面气泡2\x22],\x0a\x20\x20\x22fanComments\x22:\x20[{\x22name\x22:\x20\x22观众名\x22,\x20\x22text\x22:\x20\x22弹幕\x22}],\x0a\x20\x20\x22randomSuperChat\x22:\x20{\x22hasSuperChat\x22:\x20false,\x20\x22name\x22:\x20\x22\x22,\x20\x22text\x22:\x20\x22\x22,\x20\x22displayAmount\x22:\x20\x22\x22,\x20\x22amount\x22:\x200,\x20\x22color\x22:\x20\x22#e65100\x22}\x0a}\x0a要求：主播气泡不少于\x205\x20条，继续生成不少于\x2010\x20条弹幕评论（fanComments），这些弹幕中，一部分可以是对\x20{user}\x20最新评论的回复、跟风或吐槽；另一部分可以是刚进直播间的新观众留言，或是没看到\x20{user}\x20评论、纯粹针对主播或直播内容表达自己观点的独立弹幕，以体现真实直播间弹幕的丰富和滚动感。\x0a语言自然，不要\x20emoji，不要\x20Markdown。','prompt-tab-live','15tgwTqB','33988fDzIme','222078wwYbek','1982540XFVusk','addEventListener','group','click','未绑定','1fgGPDU','请为这场\x20YouTube\x20直播生成复盘总结。\x0a主播/频道：{char}\x0a主播人设：{char_persona}\x0a用户人设：{user}\x0a当前时间：{current_time}\x0a聊天记录：\x0a{chat_history}\x0a\x0a只返回严格\x20JSON：\x0a{\x0a\x20\x20\x22title\x22:\x20\x22总结标题\x22,\x0a\x20\x20\x22content\x22:\x20\x22总结正文\x22,\x0a\x20\x20\x22mood\x22:\x20\x22直播氛围\x22,\x0a\x20\x20\x22highlights\x22:\x20[\x22亮点1\x22,\x20\x22亮点2\x22],\x0a\x20\x20\x22newSubs\x22:\x200\x0a}\x0a不要\x20Markdown，不要\x20emoji。','yt-bind-wb-btn','315892ByoyTx','reset-yt-prompt-btn','11gZiZHj','getElementById','value'];_u2_5f43518c60_0x3f6d=function(){return _0x5dcb06;};return _u2_5f43518c60_0x3f6d();}const ytBindWorldBookBtn=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x100)),ytSettingsSheet=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x107)),ytSummaryListBtn=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x117)),ytBoundWbName=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x10a)),promptTabLive=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x130)),promptTabGroup=document['getElementById'](_u2_5f43518c60_0x3f70a8(0x10b)),ytPromptInput=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x123)),ytPromptDesc=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x110)),resetYtPromptBtn=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x102)),confirmYtPromptBtn=document[_u2_5f43518c60_0x3f70a8(0x104)](_u2_5f43518c60_0x3f70a8(0x126));let currentYtPromptType=_u2_5f43518c60_0x3f70a8(0x11f);function closeYtSettingsSheet(){const _0x1fb6c3=_u2_5f43518c60_0x3f70a8;if(ytSettingsSheet)ytSettingsSheet[_0x1fb6c3(0x127)][_0x1fb6c3(0x12c)]('active');}function updateYtBoundWorldBookLabel(){const _0x302fab=_u2_5f43518c60_0x3f70a8;if(!ytBoundWbName)return;const _0x500dc3=Array[_0x302fab(0x129)](channelState?.[_0x302fab(0x111)])?channelState[_0x302fab(0x111)]:[];if(_0x500dc3['length']===0x0){ytBoundWbName['textContent']=_0x302fab(0xfd);return;}const _0x40f5c8=typeof window[_0x302fab(0x12b)]==='function'?window[_0x302fab(0x12b)]():[],_0x54ec36=_0x500dc3[_0x302fab(0x112)](_0x2d2dc7=>_0x40f5c8[_0x302fab(0x108)](_0x19c049=>String(_0x19c049['id'])===String(_0x2d2dc7))?.[_0x302fab(0x119)])[_0x302fab(0x115)](Boolean);ytBoundWbName['textContent']=_0x54ec36[_0x302fab(0x10f)]>0x0?_0x54ec36[_0x302fab(0x118)]('、'):_0x302fab(0x10d)+_0x500dc3[_0x302fab(0x10f)]+'\x20项';}function getYtPromptValue(_0x5b46c4){const _0x128e29=_u2_5f43518c60_0x3f70a8;if(_0x5b46c4===_0x128e29(0xfb))return channelState[_0x128e29(0x12a)]||defaultGroupChatPrompt;return channelState[_0x128e29(0x120)]||defaultPrompt;}function getDefaultYtPromptValue(_0x4d848d){const _0x171f5c=_u2_5f43518c60_0x3f70a8;if(_0x4d848d===_0x171f5c(0xfb))return defaultGroupChatPrompt;return defaultPrompt;}function setActiveYtPromptTab(_0xdda2fd){const _0x2dec1=_u2_5f43518c60_0x3f70a8;currentYtPromptType=_0xdda2fd===_0x2dec1(0xfb)?_0x2dec1(0xfb):'live';if(promptTabLive)promptTabLive[_0x2dec1(0x127)][_0x2dec1(0x10c)](_0x2dec1(0x109),currentYtPromptType===_0x2dec1(0x11f));if(promptTabGroup)promptTabGroup['classList'][_0x2dec1(0x10c)](_0x2dec1(0x109),currentYtPromptType==='group');ytPromptDesc&&(ytPromptDesc['textContent']=currentYtPromptType===_0x2dec1(0xfb)?_0x2dec1(0x113):_0x2dec1(0x11c));if(ytPromptInput)ytPromptInput[_0x2dec1(0x105)]=getYtPromptValue(currentYtPromptType);}ytBindWorldBookBtn&&ytSettingsSheet&&ytBindWorldBookBtn[_u2_5f43518c60_0x3f70a8(0xfa)](_u2_5f43518c60_0x3f70a8(0xfc),()=>{const _0xe65e65=_u2_5f43518c60_0x3f70a8;window['renderWorldBookSelector']&&window['renderWorldBookSelector'](channelState[_0xe65e65(0x111)]||[],_0x4fa684=>{const _0x5e75d0=_0xe65e65;channelState[_0x5e75d0(0x111)]=_0x4fa684;if(typeof saveYoutubeData===_0x5e75d0(0x124))saveYoutubeData();updateYtBoundWorldBookLabel();});});ytSummaryListBtn&&ytSummaryListBtn[_u2_5f43518c60_0x3f70a8(0xfa)](_u2_5f43518c60_0x3f70a8(0xfc),()=>{const _0x23bbb8=_u2_5f43518c60_0x3f70a8;typeof window[_0x23bbb8(0x12d)]===_0x23bbb8(0x124)&&window['renderYtSummaryList']();const _0x36ce0e=document[_0x23bbb8(0x104)](_0x23bbb8(0x10e));if(_0x36ce0e)_0x36ce0e[_0x23bbb8(0x127)][_0x23bbb8(0x12e)](_0x23bbb8(0x109));closeYtSettingsSheet();});promptTabLive&&promptTabLive[_u2_5f43518c60_0x3f70a8(0xfa)](_u2_5f43518c60_0x3f70a8(0xfc),()=>setActiveYtPromptTab(_u2_5f43518c60_0x3f70a8(0x11f)));promptTabGroup&&promptTabGroup['addEventListener'](_u2_5f43518c60_0x3f70a8(0xfc),()=>setActiveYtPromptTab(_u2_5f43518c60_0x3f70a8(0xfb)));function _u2_5f43518c60_0x482a(_0x40d571,_0x4c16c8){_0x40d571=_0x40d571-0xf8;const _0x3f6d80=_u2_5f43518c60_0x3f6d();let _0x482a7a=_0x3f6d80[_0x40d571];return _0x482a7a;}resetYtPromptBtn&&ytPromptInput&&resetYtPromptBtn[_u2_5f43518c60_0x3f70a8(0xfa)](_u2_5f43518c60_0x3f70a8(0xfc),()=>{const _0x3f5da2=_u2_5f43518c60_0x3f70a8;ytPromptInput[_0x3f5da2(0x105)]=getDefaultYtPromptValue(currentYtPromptType);});confirmYtPromptBtn&&ytPromptInput&&confirmYtPromptBtn[_u2_5f43518c60_0x3f70a8(0xfa)](_u2_5f43518c60_0x3f70a8(0xfc),()=>{const _0x3d6409=_u2_5f43518c60_0x3f70a8;currentYtPromptType==='group'?channelState[_0x3d6409(0x12a)]=ytPromptInput['value']['trim']():channelState['systemPrompt']=ytPromptInput[_0x3d6409(0x105)][_0x3d6409(0x11d)]();if(typeof saveYoutubeData===_0x3d6409(0x124))saveYoutubeData();if(window['showToast'])window[_0x3d6409(0x122)](_0x3d6409(0x114));const _0x45b1ba=document[_0x3d6409(0x104)](_0x3d6409(0x11e));if(_0x45b1ba)_0x45b1ba[_0x3d6409(0x127)]['remove'](_0x3d6409(0x109));});updateYtBoundWorldBookLabel(),setActiveYtPromptTab('live');
+var defaultPrompt = `你正在扮演 YouTube 直播主播 {char}。
+主播人设：{char_persona}
+观看用户：{user}
+用户人设：{user_persona}
+联动嘉宾：{guest}
+已绑定世界书：{wb_context}
+上一场直播总结：{live_summary_context}
+{msg_context}
+{context_clue}
+
+请生成主播在直播画面中的回应，像真实直播间一样自然推进内容。除了要生成主播的话，还要生成第三人称视角的画面、环境和氛围描写，可以穿插在主播的话中，一条20字左右。
+特别要求：主播不仅要针对 {user} 的最新消息进行回复，还得自然地回复其他观众的评论，表现出连续自然的直播间多人互动状态。
+只返回严格 JSON：
+{
+  "narrative": "第三人称视角的画面、环境和氛围描写",
+  "charBubbles": ["主播画面气泡1", "主播画面气泡2"],
+  "fanComments": [{"name": "观众名", "text": "弹幕"}],
+  "randomSuperChat": {"hasSuperChat": false, "name": "", "text": "", "displayAmount": "", "amount": 0, "color": "#e65100"}
+}
+要求：主播气泡不少于 5 条，继续生成不少于 10 条弹幕评论（fanComments），这些弹幕中，一部分可以是对 {user} 最新评论的回复、跟风或吐槽；另一部分可以是刚进直播间的新观众留言，或是没看到 {user} 评论、纯粹针对主播或直播内容表达自己观点的独立弹幕，以体现真实直播间弹幕的丰富和滚动感。
+语言自然，不要 emoji，不要 Markdown。`;
+
+var defaultGroupChatPrompt = `你要生成真实自然的 YouTube 私信或频道粉丝社群对话。频道主体是 {char}。
+群主人设：{char_persona}
+用户：{user}
+用户人设：{user_persona}
+可用管理员（自建社群时使用）：
+{admins}
+世界书内容：{wb_context}
+聊天记录：
+{chat_history}
+
+触发说明：
+{trigger_instruction}
+
+请根据聊天上下文生成活泼自然的短消息，并严格遵循末尾追加的 JSON 输出协议。
+要求：
+1. 不要使用 Markdown，不要 emoji，语气符合真实私信或粉丝群氛围，可以吹捧、调侃、讨论和自然追问。
+2. 连续消息应有上下文关系，不要机械复述。
+3. YouTube 是国际化平台，可以使用符合角色国籍、人设和上下文的任意语言；外语必须提供自然中文翻译。`;
+
+var defaultVODPrompt = `你正在扮演 YouTube 频道 {char}。
+频道人设：{char_persona}
+用户：{user}
+用户人设：{user_persona}
+视频标题：{video_title}
+已绑定世界书：{wb_context}
+用户评论：{msg}
+
+请生成视频评论区的后续互动。
+只返回严格 JSON：
+{
+  "charReplies": ["频道回复"],
+  "fanReplies": ["其他观众回复"]
+}
+不要 Markdown，不要 emoji，评论要短而像真实 YouTube 评论区。`;
+
+var defaultSummaryPrompt = `请为这场 YouTube 直播生成复盘总结。
+主播/频道：{char}
+主播人设：{char_persona}
+用户人设：{user}
+当前时间：{current_time}
+聊天记录：
+{chat_history}
+
+只返回严格 JSON：
+{
+  "title": "总结标题",
+  "content": "总结正文",
+  "mood": "直播氛围",
+  "highlights": ["亮点1", "亮点2"],
+  "newSubs": 0
+}
+不要 Markdown，不要 emoji。`;
+
+const ytBindWorldBookBtn = document.getElementById('yt-bind-wb-btn');
+const ytSettingsSheet = document.getElementById('yt-settings-sheet');
+const ytSummaryListBtn = document.getElementById('yt-summary-list-btn');
+const ytBoundWbName = document.getElementById('yt-bound-wb-name');
+const promptTabLive = document.getElementById('prompt-tab-live');
+const promptTabGroup = document.getElementById('prompt-tab-group');
+const ytPromptInput = document.getElementById('yt-prompt-input');
+const ytPromptDesc = document.getElementById('yt-prompt-desc');
+const resetYtPromptBtn = document.getElementById('reset-yt-prompt-btn');
+const confirmYtPromptBtn = document.getElementById('confirm-yt-prompt-btn');
+
+let currentYtPromptType = 'live';
+
+function closeYtSettingsSheet() {
+    if (ytSettingsSheet) ytSettingsSheet.classList.remove('active');
+}
+
+function updateYtBoundWorldBookLabel() {
+    if (!ytBoundWbName) return;
+
+    const ids = Array.isArray(channelState?.boundWorldBookIds) ? channelState.boundWorldBookIds : [];
+    if (ids.length === 0) {
+        ytBoundWbName.textContent = '未绑定';
+        return;
+    }
+
+    const books = typeof window.getWorldBooks === 'function' ? window.getWorldBooks() : [];
+    const names = ids
+        .map(id => books.find(book => String(book.id) === String(id))?.name)
+        .filter(Boolean);
+
+    ytBoundWbName.textContent = names.length > 0 ? names.join('、') : `已绑定 ${ids.length} 项`;
+}
+
+function getYtPromptValue(type) {
+    if (type === 'group') return channelState.groupChatPrompt || defaultGroupChatPrompt;
+    return channelState.systemPrompt || defaultPrompt;
+}
+
+function getDefaultYtPromptValue(type) {
+    if (type === 'group') return defaultGroupChatPrompt;
+    return defaultPrompt;
+}
+
+function setActiveYtPromptTab(type) {
+    currentYtPromptType = type === 'group' ? 'group' : 'live';
+    if (promptTabLive) promptTabLive.classList.toggle('active', currentYtPromptType === 'live');
+    if (promptTabGroup) promptTabGroup.classList.toggle('active', currentYtPromptType === 'group');
+    if (ytPromptDesc) {
+        ytPromptDesc.textContent = currentYtPromptType === 'group'
+            ? '群聊/私信提示词。可用变量：{char}、{char_persona}、{user}、{user_persona}、{admins}、{wb_context}、{chat_history}、{trigger_instruction}。'
+            : '直播互动提示词。可用变量：{char}、{char_persona}、{user}、{user_persona}、{guest}、{wb_context}、{live_summary_context}、{msg_context}、{context_clue}。';
+    }
+    if (ytPromptInput) ytPromptInput.value = getYtPromptValue(currentYtPromptType);
+}
+
+if (ytBindWorldBookBtn && ytSettingsSheet) {
+    ytBindWorldBookBtn.addEventListener('click', () => {
+        if (window.renderWorldBookSelector) {
+            window.renderWorldBookSelector(
+                channelState.boundWorldBookIds || [],
+                (selectedIds) => {
+                    channelState.boundWorldBookIds = selectedIds;
+                    if (typeof saveYoutubeData === 'function') saveYoutubeData();
+                    updateYtBoundWorldBookLabel();
+                }
+            );
+        }
+    });
+}
+
+if (ytSummaryListBtn) {
+    ytSummaryListBtn.addEventListener('click', () => {
+        if (typeof window.renderYtSummaryList === 'function') {
+            window.renderYtSummaryList();
+        }
+        const summarySheet = document.getElementById('yt-summary-list-sheet');
+        if (summarySheet) summarySheet.classList.add('active');
+        closeYtSettingsSheet();
+    });
+}
+
+if (promptTabLive) {
+    promptTabLive.addEventListener('click', () => setActiveYtPromptTab('live'));
+}
+
+if (promptTabGroup) {
+    promptTabGroup.addEventListener('click', () => setActiveYtPromptTab('group'));
+}
+
+if (resetYtPromptBtn && ytPromptInput) {
+    resetYtPromptBtn.addEventListener('click', () => {
+        ytPromptInput.value = getDefaultYtPromptValue(currentYtPromptType);
+    });
+}
+
+if (confirmYtPromptBtn && ytPromptInput) {
+    confirmYtPromptBtn.addEventListener('click', () => {
+        if (currentYtPromptType === 'group') {
+            channelState.groupChatPrompt = ytPromptInput.value.trim();
+        } else {
+            channelState.systemPrompt = ytPromptInput.value.trim();
+        }
+        if (typeof saveYoutubeData === 'function') saveYoutubeData();
+        if (window.showToast) window.showToast('已保存');
+        const promptSheet = document.getElementById('yt-prompt-sheet');
+        if (promptSheet) promptSheet.classList.remove('active');
+    });
+}
+
+updateYtBoundWorldBookLabel();
+setActiveYtPromptTab('live');

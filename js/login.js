@@ -1,1 +1,284 @@
-(function(_0x4c13a2,_0x402eb0){const _0x348d74=_u2_47e2a71ec8_0x46f3,_0x175891=_0x4c13a2();while(!![]){try{const _0x3ea8db=parseInt(_0x348d74(0x1bb))/0x1*(parseInt(_0x348d74(0x168))/0x2)+-parseInt(_0x348d74(0x19d))/0x3+parseInt(_0x348d74(0x1a7))/0x4*(parseInt(_0x348d74(0x194))/0x5)+parseInt(_0x348d74(0x191))/0x6+-parseInt(_0x348d74(0x19f))/0x7+-parseInt(_0x348d74(0x19e))/0x8+parseInt(_0x348d74(0x188))/0x9;if(_0x3ea8db===_0x402eb0)break;else _0x175891['push'](_0x175891['shift']());}catch(_0x4b3da6){_0x175891['push'](_0x175891['shift']());}}}(_u2_47e2a71ec8_0x2763,0xc4c4d),(function(){const _0x135ef1=_u2_47e2a71ec8_0x46f3;let _0x1c840e=null,_0x4a3a19=null,_0x57d659,_0x3e1370;const _0x1c38a8=new Promise((_0x4b50ef,_0x2b082d)=>{_0x57d659=_0x4b50ef,_0x3e1370=_0x2b082d;});function _0x1c042e(_0x5b7d7a){const _0x125c19=_u2_47e2a71ec8_0x46f3;if(!_0x5b7d7a||typeof _0x5b7d7a!=='object')return _0x5b7d7a;if(typeof structuredClone===_0x125c19(0x17e))return structuredClone(_0x5b7d7a);return JSON[_0x125c19(0x1a9)](JSON[_0x125c19(0x19b)](_0x5b7d7a));}async function _0x5bc279(){const _0x406a57=_u2_47e2a71ec8_0x46f3;try{if(!window[_0x406a57(0x19c)]?.['getAuthSession'])return null;await window[_0x406a57(0x19c)][_0x406a57(0x180)];const _0x12491b=await window['appStorage'][_0x406a57(0x1b6)]();return _0x12491b&&typeof _0x12491b==='object'&&_0x12491b[_0x406a57(0x1a5)]?_0x12491b:null;}catch(_0x3833ce){return console['warn'](_0x406a57(0x181),_0x3833ce),null;}}async function _0x2cee1c(_0x2854ab){const _0xc673d7=_u2_47e2a71ec8_0x46f3;try{if(!window[_0xc673d7(0x19c)]?.[_0xc673d7(0x1bd)])throw new Error(_0xc673d7(0x198));return await window['appStorage'][_0xc673d7(0x180)],_0x4a3a19=await window[_0xc673d7(0x19c)]['setAuthSession'](_0x2854ab),_0x4a3a19;}catch(_0x324b5b){console[_0xc673d7(0x175)](_0xc673d7(0x17f),_0x324b5b);throw _0x324b5b;}}async function _0x3cb61f(){const _0x2cdafd=_u2_47e2a71ec8_0x46f3;try{if(!window[_0x2cdafd(0x19c)]?.[_0x2cdafd(0x167)])throw new Error(_0x2cdafd(0x198));await window['appStorage'][_0x2cdafd(0x180)],await window[_0x2cdafd(0x19c)]['clearAuthSession'](),_0x4a3a19=null;}catch(_0x56fab5){console[_0x2cdafd(0x175)](_0x2cdafd(0x1b4),_0x56fab5);throw _0x56fab5;}}function _0x15f208(_0x117487){const _0x199f34=_u2_47e2a71ec8_0x46f3,_0x421d7d=String(_0x117487||'')[_0x199f34(0x199)]();if(!_0x421d7d)return'';const _0x35f919=_0x421d7d[_0x199f34(0x19a)]('@')[0x0];return _0x35f919||_0x421d7d;}function _0x23c2bd(_0x5c0bae){const _0x257c3f=_u2_47e2a71ec8_0x46f3;window[_0x257c3f(0x170)](new CustomEvent(_0x257c3f(0x186),{'detail':{'session':_0x5c0bae?_0x1c042e(_0x5c0bae):null,'isLoggedIn':!!_0x5c0bae}}));}function _0x430081(_0x1c8a71){const _0x4127e7=_u2_47e2a71ec8_0x46f3;document[_0x4127e7(0x1b3)]&&(document[_0x4127e7(0x1b3)]['classList'][_0x4127e7(0x179)](_0x4127e7(0x1a4),!!_0x1c8a71),document[_0x4127e7(0x1b3)][_0x4127e7(0x17d)][_0x4127e7(0x179)]('u2-login-authenticated',!_0x1c8a71));}function _0xeecfa9(_0x33eb80={}){const _0xbf3b69=_u2_47e2a71ec8_0x46f3,_0x2f826e=_0x1c840e||_0x78acce();if(!_0x2f826e[_0xbf3b69(0x192)])return;if(_0x2f826e[_0xbf3b69(0x1bc)])_0x2f826e['noticeAccepted'][_0xbf3b69(0x16f)]=![];_0x2f826e[_0xbf3b69(0x18a)]?.['classList'][_0xbf3b69(0x1ac)](_0xbf3b69(0x1a1)),_0x2f826e['screen'][_0xbf3b69(0x17d)]['remove'](_0xbf3b69(0x1a2)),_0x2f826e['screen'][_0xbf3b69(0x176)](_0xbf3b69(0x17c),_0xbf3b69(0x17a)),_0x430081(!![]),_0x33eb80[_0xbf3b69(0x187)]&&_0x2f826e[_0xbf3b69(0x1b7)]&&setTimeout(()=>_0x2f826e[_0xbf3b69(0x1b7)][_0xbf3b69(0x187)](),0x50);}function _0xc5fa8e(){const _0x47d863=_u2_47e2a71ec8_0x46f3,_0x24c4ac=_0x1c840e||_0x78acce();if(!_0x24c4ac[_0x47d863(0x192)])return;_0x24c4ac[_0x47d863(0x192)][_0x47d863(0x17d)][_0x47d863(0x1b5)]('is-hidden'),_0x24c4ac[_0x47d863(0x192)][_0x47d863(0x176)](_0x47d863(0x17c),'true'),_0x430081(![]);}function _0x2fe31b(){return _0x4a3a19?_0x1c042e(_0x4a3a19):null;}function _0x4ee23e(){return!!_0x2fe31b();}async function _0x35cd3f(_0x288f6b={}){const _0x3087bb=_u2_47e2a71ec8_0x46f3,_0x16c911=String(_0x288f6b[_0x3087bb(0x1a5)]||'')[_0x3087bb(0x199)](),_0x1b972d=String(_0x288f6b[_0x3087bb(0x1b9)]||'');if(!_0x16c911||!_0x1b972d)return{'ok':![],'error':_0x3087bb(0x196)};const _0x5d752b={'account':_0x16c911,'displayName':_0x15f208(_0x16c911),'loginAt':Date[_0x3087bb(0x18d)]()};return await _0x2cee1c(_0x5d752b),_0xc5fa8e(),_0x23c2bd(_0x5d752b),{'ok':!![],'session':_0x1c042e(_0x5d752b)};}async function _0x507371(){return await _0x3cb61f(),_0xeecfa9({'focus':!![]}),_0x23c2bd(null),!![];}function _0x78acce(){const _0x4dad1f=_u2_47e2a71ec8_0x46f3;return _0x1c840e={'screen':document['getElementById'](_0x4dad1f(0x1b1)),'form':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x174)),'accountField':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x193)),'passwordField':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x173)),'accountInput':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x16c)),'passwordInput':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x185)),'passwordToggle':document['getElementById']('u2-login-password-toggle'),'noticeRow':document['getElementById'](_0x4dad1f(0x1ab)),'noticeAccepted':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x17b)),'noticeLink':document['getElementById']('u2-login-notice-link'),'submitButton':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x1bf)),'error':document[_0x4dad1f(0x1a8)](_0x4dad1f(0x1a6))},_0x1c840e;}function _0x3a3b4f(_0x5ef518){const _0x255aa0=_u2_47e2a71ec8_0x46f3,_0x42895c=_0x1c840e||_0x78acce();if(_0x42895c[_0x255aa0(0x1ae)])_0x42895c['error'][_0x255aa0(0x1b8)]=_0x5ef518||'';}function _0x14d6b1(){const _0x3320b6=_u2_47e2a71ec8_0x46f3,_0x5ed7aa=_0x1c840e||_0x78acce();_0x5ed7aa[_0x3320b6(0x183)]?.[_0x3320b6(0x17d)]['remove']('is-invalid'),_0x5ed7aa[_0x3320b6(0x195)]?.[_0x3320b6(0x17d)][_0x3320b6(0x1ac)]('is-invalid'),_0x5ed7aa['noticeRow']?.[_0x3320b6(0x17d)]['remove'](_0x3320b6(0x1a1)),_0x3a3b4f('');}function _0x34f279(_0x2e5acf,_0x4eb332,_0x3aba22=![]){const _0x4bd1f6=_u2_47e2a71ec8_0x46f3,_0x4a4187=_0x1c840e||_0x78acce();_0x4a4187[_0x4bd1f6(0x183)]?.['classList'][_0x4bd1f6(0x179)](_0x4bd1f6(0x1a1),!!_0x2e5acf),_0x4a4187[_0x4bd1f6(0x195)]?.[_0x4bd1f6(0x17d)][_0x4bd1f6(0x179)](_0x4bd1f6(0x1a1),!!_0x4eb332),_0x4a4187['noticeRow']?.[_0x4bd1f6(0x17d)][_0x4bd1f6(0x179)]('is-invalid',!!_0x3aba22);}async function _0x3e629a(_0xecadec){const _0x518d46=_u2_47e2a71ec8_0x46f3;_0xecadec[_0x518d46(0x169)]();const _0x4fc7fb=_0x1c840e||_0x78acce(),_0x3089e7=_0x4fc7fb[_0x518d46(0x1b7)]?_0x4fc7fb[_0x518d46(0x1b7)]['value'][_0x518d46(0x199)]():'',_0x3ea295=_0x4fc7fb[_0x518d46(0x1be)]?_0x4fc7fb[_0x518d46(0x1be)][_0x518d46(0x1ba)]:'',_0x30295d=!_0x3089e7,_0x239760=!_0x3ea295,_0x2112bb=!_0x4fc7fb[_0x518d46(0x1bc)]?.['checked'];if(_0x30295d||_0x239760){_0x34f279(_0x30295d,_0x239760,_0x2112bb),_0x3a3b4f(_0x518d46(0x182));if(_0x30295d&&_0x4fc7fb['accountInput'])_0x4fc7fb[_0x518d46(0x1b7)]['focus']();else{if(_0x239760&&_0x4fc7fb[_0x518d46(0x1be)])_0x4fc7fb[_0x518d46(0x1be)][_0x518d46(0x187)]();}return;}if(_0x2112bb){_0x34f279(![],![],!![]),_0x3a3b4f('请先阅读并勾选《u2phone食用须知》'),_0x4fc7fb['noticeAccepted']?.[_0x518d46(0x187)]();return;}_0x14d6b1();let _0x5ce1d8;try{_0x5ce1d8=await _0x35cd3f({'account':_0x3089e7,'password':_0x3ea295});}catch(_0x20888d){_0x3a3b4f(_0x518d46(0x1a3));return;}if(!_0x5ce1d8['ok']){_0x3a3b4f(_0x5ce1d8[_0x518d46(0x1ae)]||'Unable\x20to\x20sign\x20in.');return;}if(_0x4fc7fb['passwordInput'])_0x4fc7fb[_0x518d46(0x1be)]['value']='';if(_0x4fc7fb[_0x518d46(0x1bc)])_0x4fc7fb['noticeAccepted']['checked']=![];typeof window[_0x518d46(0x16e)]==='function'&&window[_0x518d46(0x16e)](_0x518d46(0x18f));}function _0x37dfc7(){const _0x910607=_u2_47e2a71ec8_0x46f3,_0x33129d=_0x1c840e||_0x78acce();if(!_0x33129d[_0x910607(0x16d)]||!_0x33129d[_0x910607(0x1be)])return;_0x33129d[_0x910607(0x16d)][_0x910607(0x171)](_0x910607(0x1a0),()=>{const _0x2495dd=_0x910607,_0x3cb980=_0x33129d[_0x2495dd(0x1be)][_0x2495dd(0x18c)]===_0x2495dd(0x1b9);_0x33129d[_0x2495dd(0x1be)][_0x2495dd(0x18c)]=_0x3cb980?'text':'password',_0x33129d[_0x2495dd(0x16d)][_0x2495dd(0x176)](_0x2495dd(0x1aa),_0x3cb980?_0x2495dd(0x16b):_0x2495dd(0x17a)),_0x33129d[_0x2495dd(0x16d)]['setAttribute']('aria-label',_0x3cb980?_0x2495dd(0x1b0):'Show\x20password');const _0x29162b=_0x33129d[_0x2495dd(0x16d)]['querySelector']('i');_0x29162b&&(_0x29162b[_0x2495dd(0x17d)][_0x2495dd(0x179)]('fa-eye',!_0x3cb980),_0x29162b['classList'][_0x2495dd(0x179)](_0x2495dd(0x1ad),_0x3cb980));});}function _0x3b14cb(){const _0x33dea6=_u2_47e2a71ec8_0x46f3,_0x33bfe3=_0x1c840e||_0x78acce();[_0x33bfe3[_0x33dea6(0x1b7)],_0x33bfe3['passwordInput']][_0x33dea6(0x18e)](_0x3efb03=>{const _0x25ae4e=_0x33dea6;if(!_0x3efb03)return;_0x3efb03[_0x25ae4e(0x171)](_0x25ae4e(0x197),()=>{_0x14d6b1();});}),_0x33bfe3[_0x33dea6(0x1bc)]?.['addEventListener'](_0x33dea6(0x178),_0x14d6b1),_0x33bfe3[_0x33dea6(0x1b2)]?.[_0x33dea6(0x171)](_0x33dea6(0x1a0),()=>{const _0x52efe3=_0x33dea6;window[_0x52efe3(0x184)]?.['open'](_0x52efe3(0x18b));});}async function _0x47992c(){const _0x1331a8=_u2_47e2a71ec8_0x46f3,_0x217000=_0x78acce();if(!_0x217000[_0x1331a8(0x192)]||!_0x217000[_0x1331a8(0x16a)])return;_0x217000[_0x1331a8(0x16a)][_0x1331a8(0x171)](_0x1331a8(0x172),_0x3e629a),_0x37dfc7(),_0x3b14cb(),_0x4a3a19=await _0x5bc279(),_0x57d659(!![]);const _0x1de648=_0x2fe31b();if(_0x1de648){_0xc5fa8e(),_0x23c2bd(_0x1de648);return;}_0xeecfa9(),_0x23c2bd(null);}window[_0x135ef1(0x1af)]={'ready':_0x1c38a8,'login':_0x35cd3f,'logout':_0x507371,'getSession':_0x2fe31b,'isLoggedIn':_0x4ee23e,'showLoginScreen':_0xeecfa9,'hideLoginScreen':_0xc5fa8e},document[_0x135ef1(0x177)]==='loading'?document[_0x135ef1(0x171)](_0x135ef1(0x190),()=>_0x47992c()[_0x135ef1(0x189)](_0x3e1370),{'once':!![]}):_0x47992c()[_0x135ef1(0x189)](_0x3e1370);}()));function _u2_47e2a71ec8_0x46f3(_0x443663,_0x13e166){_0x443663=_0x443663-0x167;const _0x276362=_u2_47e2a71ec8_0x2763();let _0x46f3da=_0x276362[_0x443663];return _0x46f3da;}function _u2_47e2a71ec8_0x2763(){const _0xbc3afa=['false','u2-login-notice-accepted','aria-hidden','classList','function','[u2Auth]\x20Failed\x20to\x20save\x20session:','ready','[u2Auth]\x20Failed\x20to\x20load\x20session:','Enter\x20account\x20and\x20password\x20/\x20请输入账号和密码','accountField','u2AboutInfoModal','u2-login-password','u2:auth-changed','focus','17600373nwmPKw','catch','noticeRow','disclaimer','type','now','forEach','Signed\x20in','DOMContentLoaded','4678194zxmFjc','screen','u2-login-account-field','5PXkiUb','passwordField','Account\x20and\x20password\x20are\x20required.','input','IndexedDB\x20auth\x20storage\x20unavailable','trim','split','stringify','appStorage','1975593JjdEBt','12348328cFkXIq','8695736bDDKsv','click','is-invalid','is-hidden','Unable\x20to\x20save\x20login\x20session\x20/\x20无法保存登录状态','u2-login-locked','account','u2-login-error','743416IDyAho','getElementById','parse','aria-pressed','u2-login-notice-row','remove','fa-eye-slash','error','u2Auth','Hide\x20password','u2-login-screen','noticeLink','body','[u2Auth]\x20Failed\x20to\x20remove\x20session:','add','getAuthSession','accountInput','textContent','password','value','5qVLBvp','noticeAccepted','setAuthSession','passwordInput','u2-login-submit','clearAuthSession','531654MqNkFy','preventDefault','form','true','u2-login-account','passwordToggle','showToast','checked','dispatchEvent','addEventListener','submit','u2-login-password-field','u2-login-form','warn','setAttribute','readyState','change','toggle'];_u2_47e2a71ec8_0x2763=function(){return _0xbc3afa;};return _u2_47e2a71ec8_0x2763();}
+(function() {
+    let cachedDom = null;
+    let cachedSession = null;
+    let authReadyResolve;
+    let authReadyReject;
+    const authReady = new Promise((resolve, reject) => {
+        authReadyResolve = resolve;
+        authReadyReject = reject;
+    });
+
+    function clonePlainData(value) {
+        if (!value || typeof value !== 'object') return value;
+        if (typeof structuredClone === 'function') return structuredClone(value);
+        return JSON.parse(JSON.stringify(value));
+    }
+
+    async function safeLoadSession() {
+        try {
+            if (!window.appStorage?.getAuthSession) return null;
+            await window.appStorage.ready;
+            const session = await window.appStorage.getAuthSession();
+            return session && typeof session === 'object' && session.account ? session : null;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to load session:', error);
+            return null;
+        }
+    }
+
+    async function safeSaveSession(session) {
+        try {
+            if (!window.appStorage?.setAuthSession) throw new Error('IndexedDB auth storage unavailable');
+            await window.appStorage.ready;
+            cachedSession = await window.appStorage.setAuthSession(session);
+            return cachedSession;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to save session:', error);
+            throw error;
+        }
+    }
+
+    async function safeRemoveSession() {
+        try {
+            if (!window.appStorage?.clearAuthSession) throw new Error('IndexedDB auth storage unavailable');
+            await window.appStorage.ready;
+            await window.appStorage.clearAuthSession();
+            cachedSession = null;
+        } catch (error) {
+            console.warn('[u2Auth] Failed to remove session:', error);
+            throw error;
+        }
+    }
+
+    function resolveDisplayName(account) {
+        const safeAccount = String(account || '').trim();
+        if (!safeAccount) return '';
+        const emailName = safeAccount.split('@')[0];
+        return emailName || safeAccount;
+    }
+
+    function emitAuthChanged(session) {
+        window.dispatchEvent(new CustomEvent('u2:auth-changed', {
+            detail: {
+                session: session ? clonePlainData(session) : null,
+                isLoggedIn: !!session
+            }
+        }));
+    }
+
+    function setLoginLocked(locked) {
+        if (document.body) {
+            document.body.classList.toggle('u2-login-locked', !!locked);
+            document.body.classList.toggle('u2-login-authenticated', !locked);
+        }
+    }
+
+    function showLoginScreen(options = {}) {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        if (dom.noticeAccepted) dom.noticeAccepted.checked = false;
+        dom.noticeRow?.classList.remove('is-invalid');
+        dom.screen.classList.remove('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'false');
+        setLoginLocked(true);
+        if (options.focus && dom.accountInput) {
+            setTimeout(() => dom.accountInput.focus(), 80);
+        }
+    }
+
+    function hideLoginScreen() {
+        const dom = cachedDom || collectDom();
+        if (!dom.screen) return;
+        dom.screen.classList.add('is-hidden');
+        dom.screen.setAttribute('aria-hidden', 'true');
+        setLoginLocked(false);
+    }
+
+    function getSession() {
+        return cachedSession ? clonePlainData(cachedSession) : null;
+    }
+
+    function isLoggedIn() {
+        return !!getSession();
+    }
+
+    async function login(credentials = {}) {
+        const account = String(credentials.account || '').trim();
+        const password = String(credentials.password || '');
+        if (!account || !password) {
+            return {
+                ok: false,
+                error: 'Account and password are required.'
+            };
+        }
+
+        const session = {
+            account,
+            displayName: resolveDisplayName(account),
+            loginAt: Date.now()
+        };
+        await safeSaveSession(session);
+        hideLoginScreen();
+        emitAuthChanged(session);
+        return {
+            ok: true,
+            session: clonePlainData(session)
+        };
+    }
+
+    async function logout() {
+        await safeRemoveSession();
+        showLoginScreen({ focus: true });
+        emitAuthChanged(null);
+        return true;
+    }
+
+    function collectDom() {
+        cachedDom = {
+            screen: document.getElementById('u2-login-screen'),
+            form: document.getElementById('u2-login-form'),
+            accountField: document.getElementById('u2-login-account-field'),
+            passwordField: document.getElementById('u2-login-password-field'),
+            accountInput: document.getElementById('u2-login-account'),
+            passwordInput: document.getElementById('u2-login-password'),
+            passwordToggle: document.getElementById('u2-login-password-toggle'),
+            noticeRow: document.getElementById('u2-login-notice-row'),
+            noticeAccepted: document.getElementById('u2-login-notice-accepted'),
+            noticeLink: document.getElementById('u2-login-notice-link'),
+            submitButton: document.getElementById('u2-login-submit'),
+            error: document.getElementById('u2-login-error')
+        };
+        return cachedDom;
+    }
+
+    function setError(message) {
+        const dom = cachedDom || collectDom();
+        if (dom.error) dom.error.textContent = message || '';
+    }
+
+    function clearInvalidState() {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.remove('is-invalid');
+        dom.passwordField?.classList.remove('is-invalid');
+        dom.noticeRow?.classList.remove('is-invalid');
+        setError('');
+    }
+
+    function markInvalid(accountMissing, passwordMissing, noticeMissing = false) {
+        const dom = cachedDom || collectDom();
+        dom.accountField?.classList.toggle('is-invalid', !!accountMissing);
+        dom.passwordField?.classList.toggle('is-invalid', !!passwordMissing);
+        dom.noticeRow?.classList.toggle('is-invalid', !!noticeMissing);
+    }
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const dom = cachedDom || collectDom();
+        const account = dom.accountInput ? dom.accountInput.value.trim() : '';
+        const password = dom.passwordInput ? dom.passwordInput.value : '';
+        const accountMissing = !account;
+        const passwordMissing = !password;
+        const noticeMissing = !dom.noticeAccepted?.checked;
+
+        if (accountMissing || passwordMissing) {
+            markInvalid(accountMissing, passwordMissing, noticeMissing);
+            setError('Enter account and password / 请输入账号和密码');
+            if (accountMissing && dom.accountInput) dom.accountInput.focus();
+            else if (passwordMissing && dom.passwordInput) dom.passwordInput.focus();
+            return;
+        }
+
+        if (noticeMissing) {
+            markInvalid(false, false, true);
+            setError('请先阅读并勾选《u2phone食用须知》');
+            dom.noticeAccepted?.focus();
+            return;
+        }
+
+        clearInvalidState();
+        let result;
+        try {
+            result = await login({ account, password });
+        } catch (error) {
+            setError('Unable to save login session / 无法保存登录状态');
+            return;
+        }
+        if (!result.ok) {
+            setError(result.error || 'Unable to sign in.');
+            return;
+        }
+
+        if (dom.passwordInput) dom.passwordInput.value = '';
+        if (dom.noticeAccepted) dom.noticeAccepted.checked = false;
+        if (typeof window.showToast === 'function') {
+            window.showToast('Signed in');
+        }
+    }
+
+    function bindPasswordToggle() {
+        const dom = cachedDom || collectDom();
+        if (!dom.passwordToggle || !dom.passwordInput) return;
+        dom.passwordToggle.addEventListener('click', () => {
+            const shouldShow = dom.passwordInput.type === 'password';
+            dom.passwordInput.type = shouldShow ? 'text' : 'password';
+            dom.passwordToggle.setAttribute('aria-pressed', shouldShow ? 'true' : 'false');
+            dom.passwordToggle.setAttribute('aria-label', shouldShow ? 'Hide password' : 'Show password');
+            const icon = dom.passwordToggle.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-eye', !shouldShow);
+                icon.classList.toggle('fa-eye-slash', shouldShow);
+            }
+        });
+    }
+
+    function bindInputReset() {
+        const dom = cachedDom || collectDom();
+        [dom.accountInput, dom.passwordInput].forEach((input) => {
+            if (!input) return;
+            input.addEventListener('input', () => {
+                clearInvalidState();
+            });
+        });
+        dom.noticeAccepted?.addEventListener('change', clearInvalidState);
+        dom.noticeLink?.addEventListener('click', () => {
+            window.u2AboutInfoModal?.open('disclaimer');
+        });
+    }
+
+    async function initLoginScreen() {
+        const dom = collectDom();
+        if (!dom.screen || !dom.form) return;
+
+        dom.form.addEventListener('submit', handleSubmit);
+        bindPasswordToggle();
+        bindInputReset();
+
+        cachedSession = await safeLoadSession();
+        authReadyResolve(true);
+        const session = getSession();
+        if (session) {
+            hideLoginScreen();
+            emitAuthChanged(session);
+            return;
+        }
+
+        showLoginScreen();
+        emitAuthChanged(null);
+    }
+
+    window.u2Auth = {
+        ready: authReady,
+        login,
+        logout,
+        getSession,
+        isLoggedIn,
+        showLoginScreen,
+        hideLoginScreen
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => initLoginScreen().catch(authReadyReject), { once: true });
+    } else {
+        initLoginScreen().catch(authReadyReject);
+    }
+})();

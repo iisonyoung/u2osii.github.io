@@ -1,1 +1,282 @@
-function _u2_48c958788f_0x3a43(){const _0x4593d9=['\x20-\x20','messageLimit','9993420CaUglJ','length','includes','location','getTime','2043752IogpAL','padStart','toLowerCase','split','groupId','time','unsupported\x20protocol','trim','filter','5175856xlPkrk','getDate','sleepTime','title','exports','isFinite','未命名行程','French','has','5613dRSaPz','http:','endTime','protocol','getFullYear','timestamp','forEach','Korean','noticeKind','9icbfZy','description','838lYqlid','user','zh-cn','472fpEiZE','max','slice','startAt','23:00','192680HtEuFx','3483732PsqCxS','isArray','wakeTime','match','getMinutes','name','role','enabled','605LqAzws','imDataUtils','href','English','schedule-','date','rawTime','add','map','group_friend_private_chat','isNaN','push','test','endAt','Chinese','source','undefined','object','events','startTime','round','Japanese','min'];_u2_48c958788f_0x3a43=function(){return _0x4593d9;};return _u2_48c958788f_0x3a43();}function _u2_48c958788f_0x40bc(_0x5df4e8,_0x33dcc9){_0x5df4e8=_0x5df4e8-0x19c;const _0x3a4393=_u2_48c958788f_0x3a43();let _0x40bc1f=_0x3a4393[_0x5df4e8];return _0x40bc1f;}const _u2_48c958788f_0x212a0e=_u2_48c958788f_0x40bc;(function(_0x4a4d8d,_0x9b9fd1){const _0x416831=_u2_48c958788f_0x40bc,_0x6e482b=_0x4a4d8d();while(!![]){try{const _0x1b7eec=-parseInt(_0x416831(0x1e6))/0x1*(-parseInt(_0x416831(0x1d5))/0x2)+-parseInt(_0x416831(0x1ca))/0x3*(-parseInt(_0x416831(0x1d8))/0x4)+-parseInt(_0x416831(0x1dd))/0x5+-parseInt(_0x416831(0x1de))/0x6+-parseInt(_0x416831(0x1c1))/0x7+parseInt(_0x416831(0x1b8))/0x8*(parseInt(_0x416831(0x1d3))/0x9)+parseInt(_0x416831(0x1b3))/0xa;if(_0x1b7eec===_0x9b9fd1)break;else _0x6e482b['push'](_0x6e482b['shift']());}catch(_0xcbdac6){_0x6e482b['push'](_0x6e482b['shift']());}}}(_u2_48c958788f_0x3a43,0x5a756),function initImessageDataUtils(_0x15937e,_0x39e0fd){const _0x4112b1=_u2_48c958788f_0x40bc,_0x413ba3=_0x39e0fd();if(typeof module===_0x4112b1(0x1ab)&&module[_0x4112b1(0x1c5)])module[_0x4112b1(0x1c5)]=_0x413ba3;if(typeof window!==_0x4112b1(0x1aa))window['imDataUtils']=_0x413ba3;else{if(_0x15937e)_0x15937e[_0x4112b1(0x1e7)]=_0x413ba3;}}(typeof globalThis!==_u2_48c958788f_0x212a0e(0x1aa)?globalThis:null,function createImessageDataUtils(){function _0x45fea0(_0x255d2b){const _0x136c9b=_u2_48c958788f_0x40bc;return String(_0x255d2b)[_0x136c9b(0x1b9)](0x2,'0');}function _0x47da4a(_0x13cb47,_0x139c2a=0x1e){const _0x47fc36=_u2_48c958788f_0x40bc,_0x111b5f=Number(_0x13cb47);return Number[_0x47fc36(0x1c6)](_0x111b5f)&&_0x111b5f>0x0?Math[_0x47fc36(0x1b0)](0x3e7,Math[_0x47fc36(0x1d9)](0x1,Math[_0x47fc36(0x1ae)](_0x111b5f))):_0x139c2a;}function _0x7ea39b(_0x16594a,_0xb29792=0x1e){return _0x47da4a(_0x16594a,_0xb29792);}function _0x108993(_0x5c85e0){const _0x9cc015=_u2_48c958788f_0x40bc,_0x48e20d=String(_0x5c85e0||'')[_0x9cc015(0x1bf)]()[_0x9cc015(0x1ba)]();if(!_0x48e20d||['zh','cn',_0x9cc015(0x1d7)][_0x9cc015(0x1b5)](_0x48e20d))return'zh';if(['ko','kr'][_0x9cc015(0x1b5)](_0x48e20d))return'ko';if(['ja','jp'][_0x9cc015(0x1b5)](_0x48e20d))return'ja';if(_0x48e20d==='en')return'en';if(_0x48e20d==='fr')return'fr';return _0x48e20d;}function _0x2d310d(_0x34be33){const _0x1c7e5d=_u2_48c958788f_0x40bc,_0x3bb772=_0x108993(_0x34be33);return{'zh':_0x1c7e5d(0x1a8),'ko':_0x1c7e5d(0x1d1),'ja':_0x1c7e5d(0x1af),'en':_0x1c7e5d(0x19d),'fr':_0x1c7e5d(0x1c8)}[_0x3bb772]||_0x3bb772||_0x1c7e5d(0x1a8);}function _0x13f95e(_0x49ac1a,_0x4ac936){const _0x378a48=_u2_48c958788f_0x40bc,_0x1a9d39=String(_0x49ac1a||'')['trim']();if(!_0x1a9d39)return{'original':'','translation':''};if(_0x108993(_0x4ac936)==='zh')return{'original':_0x1a9d39,'translation':''};const _0x1a01a9=_0x1a9d39[_0x378a48(0x1e1)](/^([\s\S]+)（([^（）]*[\u3400-\u9fff][^（）]*)）$/);if(!_0x1a01a9)return{'original':_0x1a9d39,'translation':''};const _0x5ce363=String(_0x1a01a9[0x1]||'')['trim'](),_0x39832e=String(_0x1a01a9[0x2]||'')['trim']();if(!_0x5ce363||!_0x39832e)return{'original':_0x1a9d39,'translation':''};return{'original':_0x5ce363,'translation':_0x39832e};}function _0x5da375(_0x5f1671,_0x447cbf=0x1e){const _0x3cb42b=_u2_48c958788f_0x40bc,_0x51462a=new Set();return(Array[_0x3cb42b(0x1df)](_0x5f1671)?_0x5f1671:[])[_0x3cb42b(0x1a2)](_0x3d5fe6=>{const _0x3c334c=_0x3cb42b;if(!_0x3d5fe6||typeof _0x3d5fe6!==_0x3c334c(0x1ab))return null;const _0x2c1148=String(_0x3d5fe6[_0x3c334c(0x1bc)]??'')[_0x3c334c(0x1bf)]();if(!_0x2c1148||_0x51462a[_0x3c334c(0x1c9)](_0x2c1148))return null;return _0x51462a[_0x3c334c(0x1a1)](_0x2c1148),{'groupId':_0x2c1148,'messageLimit':_0x7ea39b(_0x3d5fe6[_0x3c334c(0x1b2)],_0x447cbf)};})[_0x3cb42b(0x1c0)](Boolean);}function _0x3b6e5f(_0x47d92a,_0x22a49c=0x1e){const _0x5dcbcd=_u2_48c958788f_0x40bc,_0x1a4004=Array['isArray'](_0x47d92a)?_0x47d92a:[],_0x26530c=_0x7ea39b(_0x22a49c,0x1e),_0x562ac5=_0x1a4004[_0x5dcbcd(0x1c0)](_0x4ec1d3=>_0x4ec1d3?.[_0x5dcbcd(0x1d2)]!=='group_private_to_user'&&_0x4ec1d3?.[_0x5dcbcd(0x1d2)]!==_0x5dcbcd(0x1a3)),_0x14cfe7=_0x562ac5[_0x5dcbcd(0x1da)](-_0x26530c);return{'messageLimit':_0x26530c,'availableMessageCount':_0x562ac5[_0x5dcbcd(0x1b4)],'selectedMessageCount':_0x14cfe7[_0x5dcbcd(0x1b4)],'selectedMessages':_0x14cfe7};}function _0x42b6db(_0x18aba4,_0x5ce2d2=0x5){const _0x4eb3e8=_u2_48c958788f_0x40bc,_0x118f90=Array[_0x4eb3e8(0x1df)](_0x18aba4)?_0x18aba4:[],_0x3537c0=_0x47da4a(_0x5ce2d2,0x5),_0x6aaf92=[];_0x118f90[_0x4eb3e8(0x1d0)]((_0x4c7271,_0x43d3d9)=>{const _0x1e5ecb=_0x4eb3e8;if(_0x4c7271?.[_0x1e5ecb(0x1e4)]===_0x1e5ecb(0x1d6))_0x6aaf92[_0x1e5ecb(0x1a5)](_0x43d3d9);});const _0xd1a849=Math[_0x4eb3e8(0x1b0)](_0x3537c0,_0x6aaf92[_0x4eb3e8(0x1b4)]),_0x2e72ca=_0xd1a849>0x0?_0x6aaf92[_0x6aaf92[_0x4eb3e8(0x1b4)]-_0xd1a849]:_0x118f90[_0x4eb3e8(0x1b4)],_0x35a179=_0xd1a849>0x0?_0x118f90['slice'](_0x2e72ca):[];return{'roundLimit':_0x3537c0,'availableRounds':_0x6aaf92['length'],'selectedRounds':_0xd1a849,'selectedMessageCount':_0x35a179[_0x4eb3e8(0x1b4)],'startIndex':_0x2e72ca,'selectedMessages':_0x35a179};}function _0x1e8e87(_0x1874af){const _0x518c71=_u2_48c958788f_0x40bc,_0x290c6f=String(_0x1874af||'')[_0x518c71(0x1bf)]();if(!_0x290c6f)return'';const _0x72d0f7=_0x290c6f[_0x518c71(0x1e1)](/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);return _0x72d0f7?_0x72d0f7[0x1]+'T'+_0x72d0f7[0x2]:'';}function _0x12b509(_0x23d96b){const _0x97ff1=_u2_48c958788f_0x40bc,_0x27a501=_0x1e8e87(_0x23d96b);if(!_0x27a501)return{'date':'','time':''};const [_0x2ff280,_0xffbf12]=_0x27a501[_0x97ff1(0x1bb)]('T');return{'date':_0x2ff280,'time':_0xffbf12};}function _0x3b6ef0(_0x3f6fef){const _0x1d8d01=_u2_48c958788f_0x40bc,_0x278417=_0x1e8e87(_0x3f6fef);if(!_0x278417)return'';const _0x5f0a15=new Date(_0x278417);if(Number[_0x1d8d01(0x1a4)](_0x5f0a15[_0x1d8d01(0x1b7)]()))return'';return _0x5f0a15[_0x1d8d01(0x1ce)]()+'年'+_0x45fea0(_0x5f0a15['getMonth']()+0x1)+'月'+_0x45fea0(_0x5f0a15[_0x1d8d01(0x1c2)]())+'日\x20'+_0x45fea0(_0x5f0a15['getHours']())+':'+_0x45fea0(_0x5f0a15[_0x1d8d01(0x1e2)]());}function _0x569d3f(_0x7f5b7d,_0x38c5ed=0x0){const _0x21cf07=_u2_48c958788f_0x40bc;if(!_0x7f5b7d||typeof _0x7f5b7d!=='object')return null;const _0x49d833={..._0x7f5b7d},_0x1bc761=String(_0x49d833[_0x21cf07(0x1e3)]||_0x49d833[_0x21cf07(0x1c4)]||_0x21cf07(0x1c7))[_0x21cf07(0x1bf)]()||_0x21cf07(0x1c7);let _0x1b674f=_0x1e8e87(_0x49d833[_0x21cf07(0x1a0)]||_0x49d833[_0x21cf07(0x1db)]);const _0x2e2454=_0x12b509(_0x1b674f);let _0x352a97=String(_0x49d833['date']||_0x2e2454[_0x21cf07(0x19f)]||'')[_0x21cf07(0x1bf)](),_0x453290=String(_0x49d833[_0x21cf07(0x1ad)]||_0x2e2454[_0x21cf07(0x1bd)]||'')[_0x21cf07(0x1bf)]()[_0x21cf07(0x1da)](0x0,0x5);!_0x1b674f&&/^\d{4}-\d{2}-\d{2}$/['test'](_0x352a97)&&/^\d{2}:\d{2}$/['test'](_0x453290)&&(_0x1b674f=_0x352a97+'T'+_0x453290);if(!_0x352a97||!_0x453290){const _0x422d2d=_0x12b509(_0x1b674f);_0x352a97=_0x352a97||_0x422d2d[_0x21cf07(0x19f)],_0x453290=_0x453290||_0x422d2d[_0x21cf07(0x1bd)];}const _0x1e4295=String(_0x49d833[_0x21cf07(0x1a7)]||_0x49d833[_0x21cf07(0x1cc)]||'')[_0x21cf07(0x1bf)]();let _0x411d80=_0x1e8e87(_0x1e4295),_0x595653=/^\d{2}:\d{2}$/[_0x21cf07(0x1a6)](_0x1e4295)?_0x1e4295:_0x12b509(_0x411d80)['time'];if(!_0x411d80&&_0x352a97&&_0x595653)_0x411d80=_0x352a97+'T'+_0x595653;if(!_0x595653)_0x595653=_0x453290;const _0x5961d4=_0x3b6ef0(_0x1b674f),_0x4b546b=_0x3b6ef0(_0x411d80),_0x8f9c6d=_0x5961d4?_0x4b546b&&_0x4b546b!==_0x5961d4?_0x5961d4+_0x21cf07(0x1b1)+_0x4b546b:_0x5961d4:String(_0x49d833[_0x21cf07(0x1bd)]||_0x453290||'')[_0x21cf07(0x1bf)]();return{..._0x49d833,'id':_0x49d833['id']!=null?_0x49d833['id']:_0x21cf07(0x19e)+Date['now']()+'-'+_0x38c5ed,'name':_0x1bc761,'title':String(_0x49d833['title']||_0x1bc761)[_0x21cf07(0x1bf)]()||_0x1bc761,'date':_0x352a97,'startTime':_0x453290,'endTime':_0x595653,'time':_0x8f9c6d,'rawTime':_0x1b674f,'endAt':_0x411d80,'location':String(_0x49d833[_0x21cf07(0x1b6)]||_0x49d833[_0x21cf07(0x1d4)]||'')[_0x21cf07(0x1bf)](),'source':String(_0x49d833[_0x21cf07(0x1a9)]||'')[_0x21cf07(0x1bf)](),'timestamp':Number(_0x49d833[_0x21cf07(0x1cf)])||Date['now']()};}function _0x15ba6a(_0x193505){const _0x1126f8=_u2_48c958788f_0x40bc,_0x3344ac=_0x193505&&typeof _0x193505===_0x1126f8(0x1ab)?_0x193505:{},_0xc6f180=(Array['isArray'](_0x3344ac['events'])?_0x3344ac[_0x1126f8(0x1ac)]:[])['map'](_0x569d3f)[_0x1126f8(0x1c0)](Boolean)['sort']((_0x2a22fe,_0x23b1fc)=>{const _0x3fcaff=_0x1126f8,_0x2d473e=new Date(_0x2a22fe[_0x3fcaff(0x1a0)]||0x0)['getTime']()||Number(_0x2a22fe[_0x3fcaff(0x1cf)])||0x0,_0xddfa33=new Date(_0x23b1fc[_0x3fcaff(0x1a0)]||0x0)['getTime']()||Number(_0x23b1fc[_0x3fcaff(0x1cf)])||0x0;return _0x2d473e-_0xddfa33;});return{'enabled':!!_0x3344ac[_0x1126f8(0x1e5)],'sleepTime':String(_0x3344ac[_0x1126f8(0x1c3)]||_0x1126f8(0x1dc)),'wakeTime':String(_0x3344ac[_0x1126f8(0x1e0)]||'07:00'),'events':_0xc6f180};}function _0x4a295f(_0x4f6aa0,_0x1f33ce=0x0,_0x37cd0e=0x1e){const _0x2a6567=_u2_48c958788f_0x40bc,_0x42bee5=Array[_0x2a6567(0x1df)](_0x4f6aa0)?_0x4f6aa0:[],_0x16839c=Math[_0x2a6567(0x1b0)](_0x42bee5[_0x2a6567(0x1b4)],Math[_0x2a6567(0x1d9)](0x0,Number(_0x1f33ce)||0x0)),_0xc0b9ac=_0x47da4a(_0x37cd0e);let _0x45b80e=0x0;for(let _0x2c0307=_0x16839c;_0x2c0307<_0x42bee5[_0x2a6567(0x1b4)];_0x2c0307+=0x1){if(_0x42bee5[_0x2c0307]?.['role']===_0x2a6567(0x1d6))_0x45b80e+=0x1;}let _0x3b6ddc=0x0,_0x197be7=_0x16839c;for(let _0x2ac4d1=_0x16839c;_0x2ac4d1<_0x42bee5[_0x2a6567(0x1b4)];_0x2ac4d1+=0x1){const _0x165f51=_0x42bee5[_0x2ac4d1];if(_0x165f51?.[_0x2a6567(0x1e4)]===_0x2a6567(0x1d6)){if(_0x3b6ddc>=_0xc0b9ac)break;_0x3b6ddc+=0x1;}_0x197be7=_0x2ac4d1+0x1;}if(_0x3b6ddc===0x0)_0x197be7=_0x16839c;const _0x40be3a=_0x42bee5[_0x2a6567(0x1da)](_0x16839c,_0x197be7);return{'startIndex':_0x16839c,'endIndex':_0x197be7,'roundLimit':_0xc0b9ac,'availableRounds':_0x45b80e,'unsummarizedMessageCount':_0x42bee5['length']-_0x16839c,'selectedRounds':_0x3b6ddc,'selectedMessageCount':_0x40be3a['length'],'selectedMessages':_0x40be3a,'ready':_0x45b80e>=_0xc0b9ac};}function _0x3ca187(_0x523ff0,_0x5c7c6e){const _0x2292ad=_u2_48c958788f_0x40bc,_0x5ef58e=Array['isArray'](_0x523ff0)?_0x523ff0:[];return _0x5ef58e[_0x2292ad(0x1c0)](_0x38ce44=>!_0x38ce44||String(_0x38ce44['id'])!==String(_0x5c7c6e));}function _0x25f432(_0x13b8f1){const _0x3d99a9=_u2_48c958788f_0x40bc,_0x3889e3=[],_0xdefc55=[];return String(_0x13b8f1||'')[_0x3d99a9(0x1bb)](/\r?\n/)[_0x3d99a9(0x1d0)]((_0x5cf976,_0x25cdcf)=>{const _0x392e5d=_0x3d99a9,_0x1284e5=_0x5cf976['trim']();if(!_0x1284e5)return;const _0x2ef67b=_0x1284e5['match'](/^(.+?)\s+(https?:\/\/\S+)$/i);if(!_0x2ef67b){_0xdefc55[_0x392e5d(0x1a5)](_0x25cdcf+0x1);return;}try{const _0x523fb2=new URL(_0x2ef67b[0x2]);if(![_0x392e5d(0x1cb),'https:'][_0x392e5d(0x1b5)](_0x523fb2[_0x392e5d(0x1cd)]))throw new Error(_0x392e5d(0x1be));_0x3889e3['push']({'name':_0x2ef67b[0x1]['trim'](),'url':_0x523fb2[_0x392e5d(0x19c)]});}catch(_0xb915b0){_0xdefc55['push'](_0x25cdcf+0x1);}}),{'items':_0x3889e3,'invalidLines':_0xdefc55};}return{'normalizeRoundLimit':_0x47da4a,'normalizeMessageLimit':_0x7ea39b,'normalizeChatLanguage':_0x108993,'getChatLanguageName':_0x2d310d,'parseBilingualDialogue':_0x13f95e,'normalizeGroupChatContexts':_0x5da375,'getRecentPublicGroupMessages':_0x3b6e5f,'getRecentUserRounds':_0x42b6db,'normalizeScheduleEvent':_0x569d3f,'normalizeSchedule':_0x15ba6a,'getSummaryBatch':_0x4a295f,'removeShortTermSummaryEntry':_0x3ca187,'parseStickerManifestText':_0x25f432};}));
+(function initImessageDataUtils(root, factory) {
+    const api = factory();
+    if (typeof module === 'object' && module.exports) module.exports = api;
+    if (typeof window !== 'undefined') window.imDataUtils = api;
+    else if (root) root.imDataUtils = api;
+})(typeof globalThis !== 'undefined' ? globalThis : null, function createImessageDataUtils() {
+    function pad2(value) {
+        return String(value).padStart(2, '0');
+    }
+
+    function normalizeRoundLimit(value, fallback = 30) {
+        const numeric = Number(value);
+        return Number.isFinite(numeric) && numeric > 0
+            ? Math.min(999, Math.max(1, Math.round(numeric)))
+            : fallback;
+    }
+
+    function normalizeMessageLimit(value, fallback = 30) {
+        return normalizeRoundLimit(value, fallback);
+    }
+
+    function normalizeChatLanguage(value) {
+        const language = String(value || '').trim().toLowerCase();
+        if (!language || ['zh', 'cn', 'zh-cn'].includes(language)) return 'zh';
+        if (['ko', 'kr'].includes(language)) return 'ko';
+        if (['ja', 'jp'].includes(language)) return 'ja';
+        if (language === 'en') return 'en';
+        if (language === 'fr') return 'fr';
+        return language;
+    }
+
+    function getChatLanguageName(value) {
+        const language = normalizeChatLanguage(value);
+        return {
+            zh: 'Chinese',
+            ko: 'Korean',
+            ja: 'Japanese',
+            en: 'English',
+            fr: 'French'
+        }[language] || language || 'Chinese';
+    }
+
+    function parseBilingualDialogue(value, language) {
+        const text = String(value || '').trim();
+        if (!text) return { original: '', translation: '' };
+        if (normalizeChatLanguage(language) === 'zh') {
+            return { original: text, translation: '' };
+        }
+
+        const match = text.match(/^([\s\S]+)（([^（）]*[\u3400-\u9fff][^（）]*)）$/);
+        if (!match) return { original: text, translation: '' };
+        const original = String(match[1] || '').trim();
+        const translation = String(match[2] || '').trim();
+        if (!original || !translation) return { original: text, translation: '' };
+        return { original, translation };
+    }
+
+    function normalizeGroupChatContexts(contexts, fallbackMessageLimit = 30) {
+        const seenGroupIds = new Set();
+        return (Array.isArray(contexts) ? contexts : [])
+            .map((context) => {
+                if (!context || typeof context !== 'object') return null;
+                const groupId = String(context.groupId ?? '').trim();
+                if (!groupId || seenGroupIds.has(groupId)) return null;
+                seenGroupIds.add(groupId);
+                return {
+                    groupId,
+                    messageLimit: normalizeMessageLimit(context.messageLimit, fallbackMessageLimit)
+                };
+            })
+            .filter(Boolean);
+    }
+
+    function getRecentPublicGroupMessages(messages, messageLimit = 30) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const limit = normalizeMessageLimit(messageLimit, 30);
+        const publicMessages = safeMessages.filter((message) => (
+            message?.noticeKind !== 'group_private_to_user'
+            && message?.noticeKind !== 'group_friend_private_chat'
+        ));
+        const selectedMessages = publicMessages.slice(-limit);
+
+        return {
+            messageLimit: limit,
+            availableMessageCount: publicMessages.length,
+            selectedMessageCount: selectedMessages.length,
+            selectedMessages
+        };
+    }
+
+    function getRecentUserRounds(messages, roundLimit = 5) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const limit = normalizeRoundLimit(roundLimit, 5);
+        const userMessageIndexes = [];
+
+        safeMessages.forEach((message, index) => {
+            if (message?.role === 'user') userMessageIndexes.push(index);
+        });
+
+        const selectedRounds = Math.min(limit, userMessageIndexes.length);
+        const startIndex = selectedRounds > 0
+            ? userMessageIndexes[userMessageIndexes.length - selectedRounds]
+            : safeMessages.length;
+        const selectedMessages = selectedRounds > 0 ? safeMessages.slice(startIndex) : [];
+
+        return {
+            roundLimit: limit,
+            availableRounds: userMessageIndexes.length,
+            selectedRounds,
+            selectedMessageCount: selectedMessages.length,
+            startIndex,
+            selectedMessages
+        };
+    }
+
+    function normalizeLocalDateTime(value) {
+        const text = String(value || '').trim();
+        if (!text) return '';
+        const match = text.match(/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);
+        return match ? `${match[1]}T${match[2]}` : '';
+    }
+
+    function splitLocalDateTime(value) {
+        const normalized = normalizeLocalDateTime(value);
+        if (!normalized) return { date: '', time: '' };
+        const [date, time] = normalized.split('T');
+        return { date, time };
+    }
+
+    function formatLocalDateTime(value) {
+        const normalized = normalizeLocalDateTime(value);
+        if (!normalized) return '';
+        const date = new Date(normalized);
+        if (Number.isNaN(date.getTime())) return '';
+        return `${date.getFullYear()}年${pad2(date.getMonth() + 1)}月${pad2(date.getDate())}日 ${pad2(date.getHours())}:${pad2(date.getMinutes())}`;
+    }
+
+    function normalizeScheduleEvent(event, index = 0) {
+        if (!event || typeof event !== 'object') return null;
+        const source = { ...event };
+        const name = String(source.name || source.title || '未命名行程').trim() || '未命名行程';
+        let rawTime = normalizeLocalDateTime(source.rawTime || source.startAt);
+        const rawParts = splitLocalDateTime(rawTime);
+        let date = String(source.date || rawParts.date || '').trim();
+        let startTime = String(source.startTime || rawParts.time || '').trim().slice(0, 5);
+
+        if (!rawTime && /^\d{4}-\d{2}-\d{2}$/.test(date) && /^\d{2}:\d{2}$/.test(startTime)) {
+            rawTime = `${date}T${startTime}`;
+        }
+        if (!date || !startTime) {
+            const derived = splitLocalDateTime(rawTime);
+            date = date || derived.date;
+            startTime = startTime || derived.time;
+        }
+
+        const sourceEndText = String(source.endAt || source.endTime || '').trim();
+        let endAt = normalizeLocalDateTime(sourceEndText);
+        let endTime = /^\d{2}:\d{2}$/.test(sourceEndText)
+            ? sourceEndText
+            : splitLocalDateTime(endAt).time;
+        if (!endAt && date && endTime) endAt = `${date}T${endTime}`;
+        if (!endTime) endTime = startTime;
+
+        const formattedStart = formatLocalDateTime(rawTime);
+        const formattedEnd = formatLocalDateTime(endAt);
+        const displayTime = formattedStart
+            ? (formattedEnd && formattedEnd !== formattedStart ? `${formattedStart} - ${formattedEnd}` : formattedStart)
+            : String(source.time || startTime || '').trim();
+
+        return {
+            ...source,
+            id: source.id != null ? source.id : `schedule-${Date.now()}-${index}`,
+            name,
+            title: String(source.title || name).trim() || name,
+            date,
+            startTime,
+            endTime,
+            time: displayTime,
+            rawTime,
+            endAt,
+            location: String(source.location || source.description || '').trim(),
+            source: String(source.source || '').trim(),
+            timestamp: Number(source.timestamp) || Date.now()
+        };
+    }
+
+    function normalizeSchedule(schedule) {
+        const source = schedule && typeof schedule === 'object' ? schedule : {};
+        const events = (Array.isArray(source.events) ? source.events : [])
+            .map(normalizeScheduleEvent)
+            .filter(Boolean)
+            .sort((left, right) => {
+                const leftTime = new Date(left.rawTime || 0).getTime() || Number(left.timestamp) || 0;
+                const rightTime = new Date(right.rawTime || 0).getTime() || Number(right.timestamp) || 0;
+                return leftTime - rightTime;
+            });
+        return {
+            enabled: !!source.enabled,
+            sleepTime: String(source.sleepTime || '23:00'),
+            wakeTime: String(source.wakeTime || '07:00'),
+            events
+        };
+    }
+
+    function getSummaryBatch(messages, lastSummaryMessageCount = 0, roundLimit = 30) {
+        const safeMessages = Array.isArray(messages) ? messages : [];
+        const startIndex = Math.min(safeMessages.length, Math.max(0, Number(lastSummaryMessageCount) || 0));
+        const limit = normalizeRoundLimit(roundLimit);
+        let availableRounds = 0;
+        for (let index = startIndex; index < safeMessages.length; index += 1) {
+            if (safeMessages[index]?.role === 'user') availableRounds += 1;
+        }
+
+        let selectedRounds = 0;
+        let endIndex = startIndex;
+        for (let index = startIndex; index < safeMessages.length; index += 1) {
+            const message = safeMessages[index];
+            if (message?.role === 'user') {
+                if (selectedRounds >= limit) break;
+                selectedRounds += 1;
+            }
+            endIndex = index + 1;
+        }
+
+        if (selectedRounds === 0) endIndex = startIndex;
+        const selectedMessages = safeMessages.slice(startIndex, endIndex);
+        return {
+            startIndex,
+            endIndex,
+            roundLimit: limit,
+            availableRounds,
+            unsummarizedMessageCount: safeMessages.length - startIndex,
+            selectedRounds,
+            selectedMessageCount: selectedMessages.length,
+            selectedMessages,
+            ready: availableRounds >= limit
+        };
+    }
+
+    function removeShortTermSummaryEntry(entries, entryId) {
+        const safeEntries = Array.isArray(entries) ? entries : [];
+        return safeEntries.filter(entry => !entry || String(entry.id) !== String(entryId));
+    }
+
+    function parseStickerManifestText(text) {
+        const items = [];
+        const invalidLines = [];
+        String(text || '').split(/\r?\n/).forEach((line, index) => {
+            const trimmed = line.trim();
+            if (!trimmed) return;
+            const match = trimmed.match(/^(.+?)\s+(https?:\/\/\S+)$/i);
+            if (!match) {
+                invalidLines.push(index + 1);
+                return;
+            }
+            try {
+                const parsed = new URL(match[2]);
+                if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error('unsupported protocol');
+                items.push({ name: match[1].trim(), url: parsed.href });
+            } catch (_) {
+                invalidLines.push(index + 1);
+            }
+        });
+        return { items, invalidLines };
+    }
+
+    return {
+        normalizeRoundLimit,
+        normalizeMessageLimit,
+        normalizeChatLanguage,
+        getChatLanguageName,
+        parseBilingualDialogue,
+        normalizeGroupChatContexts,
+        getRecentPublicGroupMessages,
+        getRecentUserRounds,
+        normalizeScheduleEvent,
+        normalizeSchedule,
+        getSummaryBatch,
+        removeShortTermSummaryEntry,
+        parseStickerManifestText
+    };
+});

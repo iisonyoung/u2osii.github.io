@@ -1,1 +1,3747 @@
-const _u2_b589d616b6_0x1a45bd=_u2_b589d616b6_0x2ba3;(function(_0xa98f8f,_0x3c4494){const _0x3fa3ee=_u2_b589d616b6_0x2ba3,_0x334d1d=_0xa98f8f();while(!![]){try{const _0x53193c=parseInt(_0x3fa3ee(0x461))/0x1*(-parseInt(_0x3fa3ee(0x460))/0x2)+-parseInt(_0x3fa3ee(0x24b))/0x3*(parseInt(_0x3fa3ee(0x3c3))/0x4)+parseInt(_0x3fa3ee(0x1f7))/0x5+-parseInt(_0x3fa3ee(0x530))/0x6*(-parseInt(_0x3fa3ee(0x3a1))/0x7)+-parseInt(_0x3fa3ee(0x295))/0x8+-parseInt(_0x3fa3ee(0x2c9))/0x9*(parseInt(_0x3fa3ee(0x406))/0xa)+parseInt(_0x3fa3ee(0x495))/0xb*(parseInt(_0x3fa3ee(0x539))/0xc);if(_0x53193c===_0x3c4494)break;else _0x334d1d['push'](_0x334d1d['shift']());}catch(_0x2b88fd){_0x334d1d['push'](_0x334d1d['shift']());}}}(_u2_b589d616b6_0x6d0a,0xed920));class NetflixApp{constructor(){const _0x12ff45=_u2_b589d616b6_0x2ba3;this[_0x12ff45(0x323)]=document[_0x12ff45(0x33a)](_0x12ff45(0x4ef)),this[_0x12ff45(0x509)]=document[_0x12ff45(0x33a)]('netflix-header'),this[_0x12ff45(0x33f)]=document[_0x12ff45(0x33a)](_0x12ff45(0x2f1)),this[_0x12ff45(0x525)]=this[_0x12ff45(0x323)]?this[_0x12ff45(0x323)]['querySelector'](_0x12ff45(0x3bf)):null,this[_0x12ff45(0x2ae)]=[],this[_0x12ff45(0x3e6)]=[],this[_0x12ff45(0x396)]=null,this['editAvatarDataUrl']='',this[_0x12ff45(0x480)]=this[_0x12ff45(0x4da)](),this['presetDraft']=null,this[_0x12ff45(0x3a4)]=null,this[_0x12ff45(0x421)]=null,this[_0x12ff45(0x244)]=this[_0x12ff45(0x426)](),this['netflixState']=this[_0x12ff45(0x3db)](),this['availableActors']=[],this[_0x12ff45(0x2ea)]=null,this[_0x12ff45(0x4cc)]=null,this[_0x12ff45(0x313)]=null,this['activeEpisodeNumber']=0x1,this[_0x12ff45(0x299)]=null,this[_0x12ff45(0x479)]=0x1,this[_0x12ff45(0x30a)]=![],this['activePlaybackId']=null,this[_0x12ff45(0x2f9)]=0x1,this[_0x12ff45(0x30e)]=null,this['editingWorkId']=null,this[_0x12ff45(0x1ca)]=![],this[_0x12ff45(0x2fe)]=![],this[_0x12ff45(0x212)]=![],this[_0x12ff45(0x323)]&&this[_0x12ff45(0x446)]();}[_u2_b589d616b6_0x1a45bd(0x446)](){const _0x5eb9a3=_u2_b589d616b6_0x1a45bd;this[_0x5eb9a3(0x429)](),this[_0x5eb9a3(0x418)](),this['bindEvents'](),this[_0x5eb9a3(0x389)](),this[_0x5eb9a3(0x1d3)]();}[_u2_b589d616b6_0x1a45bd(0x429)](){const _0x21b064=_u2_b589d616b6_0x1a45bd;if(!this[_0x21b064(0x33f)]||!this[_0x21b064(0x323)])return;this[_0x21b064(0x33f)][_0x21b064(0x2fc)]=_0x21b064(0x4b4);const _0x2f89a4=this[_0x21b064(0x323)][_0x21b064(0x4c3)](_0x21b064(0x385));_0x2f89a4&&(_0x2f89a4[_0x21b064(0x2fc)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-nav-indicator\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-nav-item\x20active\x22\x20data-tab=\x22home\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-home\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>首页</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-nav-item\x22\x20data-tab=\x22create\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>创作</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-nav-item\x22\x20data-tab=\x22profile\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-nav-avatar\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>我的\x20Netflix</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),!this[_0x21b064(0x323)][_0x21b064(0x4c3)](_0x21b064(0x484))&&this[_0x21b064(0x323)][_0x21b064(0x372)](_0x21b064(0x424),_0x21b064(0x296)),!this[_0x21b064(0x323)]['querySelector'](_0x21b064(0x2ef))&&this[_0x21b064(0x323)]['insertAdjacentHTML'](_0x21b064(0x424),_0x21b064(0x496)),!this['view'][_0x21b064(0x4c3)](_0x21b064(0x49e))&&this[_0x21b064(0x323)][_0x21b064(0x372)](_0x21b064(0x424),_0x21b064(0x435)),!this[_0x21b064(0x323)][_0x21b064(0x4c3)](_0x21b064(0x2b6))&&this[_0x21b064(0x323)][_0x21b064(0x372)](_0x21b064(0x424),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-work-detail-sheet\x22\x20id=\x22netflix-work-detail-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-work-detail-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-work-detail-content\x22\x20id=\x22netflix-work-detail-content\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'),!this['view'][_0x21b064(0x4c3)](_0x21b064(0x21a))&&this['view'][_0x21b064(0x372)](_0x21b064(0x424),_0x21b064(0x32b)),!this['view']['querySelector']('#netflix-world-book-sheet')&&this[_0x21b064(0x323)][_0x21b064(0x372)]('beforeend',_0x21b064(0x205)),!this['view'][_0x21b064(0x4c3)]('#netflix-home-search-sheet')&&this[_0x21b064(0x323)]['insertAdjacentHTML'](_0x21b064(0x424),_0x21b064(0x535)),!this[_0x21b064(0x323)][_0x21b064(0x4c3)](_0x21b064(0x25b))&&this[_0x21b064(0x323)]['insertAdjacentHTML'](_0x21b064(0x424),_0x21b064(0x359));}['createHeroBanner'](_0x5c1cec=null,_0x5d2d62=0x0){const _0x2cbfbd=_u2_b589d616b6_0x1a45bd,_0x11ad3d=_0x5c1cec?this[_0x2cbfbd(0x436)](_0x5c1cec,_0x2cbfbd(0x27a)+_0x5d2d62,'电视剧'):null,_0xba0ef5=_0x11ad3d?.[_0x2cbfbd(0x1e7)]||_0x2cbfbd(0x390),_0x13488e=_0x11ad3d?[_0x11ad3d[_0x2cbfbd(0x4ea)],..._0x11ad3d[_0x2cbfbd(0x245)]||[]][_0x2cbfbd(0x1c7)](Boolean)[_0x2cbfbd(0x253)](0x0,0x3):['等待搜索',_0x2cbfbd(0x3b0),_0x2cbfbd(0x29e)],_0x15c406=_0x11ad3d?.[_0x2cbfbd(0x305)]||'',_0x2ee4c0=_0x15c406?_0x2cbfbd(0x370)+this['escapeAttr'](_0x15c406)+_0x2cbfbd(0x4ad):_0x2cbfbd(0x4fd)+this['getCatalogFallbackGradient'](_0x5d2d62)+';';return _0x2cbfbd(0x23b)+(_0x11ad3d?'':_0x2cbfbd(0x293))+'\x22\x20'+(_0x11ad3d?_0x2cbfbd(0x4fb)+this[_0x2cbfbd(0x1c1)](_0x11ad3d['id'])+'\x22':'')+_0x2cbfbd(0x34b)+_0x2ee4c0+_0x2cbfbd(0x307)+this[_0x2cbfbd(0x1c1)](_0xba0ef5)+_0x2cbfbd(0x203)+_0x13488e[_0x2cbfbd(0x4e2)](_0x36215c=>'<span>'+this[_0x2cbfbd(0x1c1)](_0x36215c)+_0x2cbfbd(0x298))['join'](_0x2cbfbd(0x4be))+_0x2cbfbd(0x3a5)+(_0x11ad3d?'':_0x2cbfbd(0x4de))+_0x2cbfbd(0x2f0);}[_u2_b589d616b6_0x1a45bd(0x418)](){const _0x28739a=_u2_b589d616b6_0x1a45bd;this['header']=document[_0x28739a(0x33a)](_0x28739a(0x45c)),this[_0x28739a(0x33f)]=document[_0x28739a(0x33a)](_0x28739a(0x2f1)),this[_0x28739a(0x525)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x3bf)),this[_0x28739a(0x377)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('.netflix-header-right\x20.fa-search'),this[_0x28739a(0x3fd)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x304)),this[_0x28739a(0x2ae)]=Array['from'](this[_0x28739a(0x323)][_0x28739a(0x233)](_0x28739a(0x309))),this[_0x28739a(0x3e6)]=Array[_0x28739a(0x4ab)](this[_0x28739a(0x323)][_0x28739a(0x233)](_0x28739a(0x2a0))),this[_0x28739a(0x396)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x247)),this[_0x28739a(0x20c)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x484)),this[_0x28739a(0x29c)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x3c5)),this[_0x28739a(0x43b)]=this['view']['querySelector']('#netflix-settings-entry'),this[_0x28739a(0x218)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x2ef)),this['settingsTabs']=[],this[_0x28739a(0x488)]={'playback':this['view'][_0x28739a(0x4c3)]('#netflix-settings-tab-playback')},this[_0x28739a(0x425)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-settings-playback-css-file'),this[_0x28739a(0x4b9)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x330)),this['settingsApply']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x38b)),this[_0x28739a(0x543)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x49d)),this[_0x28739a(0x444)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x416)),this[_0x28739a(0x2be)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x1db)),this['worldBookClose']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x44c)),this['worldBookSave']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x448)),this[_0x28739a(0x36a)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x419)),this[_0x28739a(0x24f)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-home-search-input'),this['homeSearchCancel']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x399)),this['homeSearchConfirm']=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-home-search-confirm'),this['playbackSheet']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x25b)),this[_0x28739a(0x511)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-playback-close'),this[_0x28739a(0x393)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x45b)),this['playbackTitle']=this['view'][_0x28739a(0x4c3)](_0x28739a(0x41f)),this[_0x28739a(0x3d5)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x344)),this[_0x28739a(0x2b3)]=this['view'][_0x28739a(0x4c3)]('#netflix-playback-preset-btn'),this[_0x28739a(0x369)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x3e2)),this[_0x28739a(0x518)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x4c4)),this[_0x28739a(0x3ab)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x1ec)),this['playbackEpisodeList']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x2d2)),this[_0x28739a(0x469)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x4af)),this[_0x28739a(0x23f)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-playback-next-btn'),this[_0x28739a(0x489)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x2f3)),this[_0x28739a(0x4a3)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x439)),this[_0x28739a(0x4cb)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x204)),this[_0x28739a(0x456)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x368)),this[_0x28739a(0x3c4)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x408)),this[_0x28739a(0x20a)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x481)),this[_0x28739a(0x4a5)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x41d)),this[_0x28739a(0x506)]=this['view']['querySelector'](_0x28739a(0x31b)),this[_0x28739a(0x526)]=this['view']['querySelector'](_0x28739a(0x531)),this[_0x28739a(0x24e)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x4d1)),this[_0x28739a(0x272)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x2e1)),this[_0x28739a(0x4d2)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-create-new-trigger'),this['createWorksList']=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x265)),this[_0x28739a(0x3f7)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x21a)),this[_0x28739a(0x2c7)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x41c)),this[_0x28739a(0x4cf)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x442)),this['workCoverInput']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x463)),this[_0x28739a(0x4c1)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x1ea)),this[_0x28739a(0x29f)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x392)),this['workCategoryButtons']=Array[_0x28739a(0x4ab)](this[_0x28739a(0x323)][_0x28739a(0x233)](_0x28739a(0x432))),this[_0x28739a(0x451)]=this[_0x28739a(0x323)]['querySelector']('#netflix-work-tags-input'),this['workTagPreview']=this['view']['querySelector']('#netflix-work-tag-preview'),this[_0x28739a(0x3be)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x2d9)),this[_0x28739a(0x2e7)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x529)),this[_0x28739a(0x4e7)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x2f7)),this['workStartBtn']=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-work-start-btn'),this[_0x28739a(0x37a)]=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x2ee)),this[_0x28739a(0x41b)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-acting-list'),this[_0x28739a(0x4ee)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x2b6)),this[_0x28739a(0x294)]=this['view']['querySelector'](_0x28739a(0x300)),this[_0x28739a(0x3a8)]=this['view']['querySelector'](_0x28739a(0x49e)),this[_0x28739a(0x3b4)]=this['view'][_0x28739a(0x4c3)](_0x28739a(0x3b3)),this['actorPickerDoneBtn']=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x3f2)),this['editAvatarTrigger']=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x27f)),this[_0x28739a(0x48b)]=this['view']['querySelector']('#netflix-edit-avatar-preview'),this[_0x28739a(0x3ed)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)]('#netflix-edit-avatar-input'),this['editNameInput']=this[_0x28739a(0x323)]['querySelector'](_0x28739a(0x216)),this[_0x28739a(0x31c)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x3f4)),this[_0x28739a(0x1c3)]=this[_0x28739a(0x323)][_0x28739a(0x4c3)](_0x28739a(0x340));}['bindEvents'](){const _0x46a8ec=_u2_b589d616b6_0x1a45bd;document[_0x46a8ec(0x33a)]('app-netflix-btn')?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x250)]()),this[_0x46a8ec(0x33f)]&&this[_0x46a8ec(0x509)]&&this[_0x46a8ec(0x33f)][_0x46a8ec(0x46c)](_0x46a8ec(0x325),()=>{const _0x3093bb=_0x46a8ec;this['header'][_0x3093bb(0x37d)][_0x3093bb(0x2c8)](_0x3093bb(0x35c),this[_0x3093bb(0x33f)]['scrollTop']>0x32);}),this['navItems'][_0x46a8ec(0x379)](_0x2e1fd5=>{const _0x598353=_0x46a8ec;_0x2e1fd5[_0x598353(0x46c)]('click',()=>{const _0x5edc0b=_0x598353;this[_0x5edc0b(0x254)](_0x2e1fd5['getAttribute'](_0x5edc0b(0x1fc))||_0x5edc0b(0x3e8));});}),this[_0x46a8ec(0x525)]&&this[_0x46a8ec(0x525)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x50b)]()),this[_0x46a8ec(0x377)]&&this['headerSearchBtn'][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x2e5)]()),this[_0x46a8ec(0x36a)]&&this[_0x46a8ec(0x36a)]['addEventListener'](_0x46a8ec(0x2f2),_0x53ed4a=>{const _0x337382=_0x46a8ec;if(_0x53ed4a[_0x337382(0x278)]===this['homeSearchSheet']&&!this['isHomeSearchLoading'])this[_0x337382(0x510)]();}),this[_0x46a8ec(0x1d1)]&&this[_0x46a8ec(0x1d1)][_0x46a8ec(0x46c)]('click',()=>this[_0x46a8ec(0x510)]()),this[_0x46a8ec(0x256)]&&this['homeSearchConfirm']['addEventListener'](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x280)]()),this['homeSearchInput']&&this[_0x46a8ec(0x24f)][_0x46a8ec(0x46c)](_0x46a8ec(0x220),_0x3b9897=>{const _0x4992d8=_0x46a8ec;if(_0x3b9897[_0x4992d8(0x3ac)]===_0x4992d8(0x1d4))this['generateHomeCatalogFromSearch']();}),this[_0x46a8ec(0x511)]?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this['closePlaybackSheet']()),this[_0x46a8ec(0x393)]?.['addEventListener'](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x434)]()),this[_0x46a8ec(0x3ab)]?.['addEventListener'](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x269)]()),this[_0x46a8ec(0x2b3)]?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x4d6)]()),this[_0x46a8ec(0x4a3)]?.[_0x46a8ec(0x46c)]('click',()=>this['closePlaybackPresetSidebar']()),this[_0x46a8ec(0x3d5)]?.['addEventListener']('click',()=>this[_0x46a8ec(0x4a8)]()),this[_0x46a8ec(0x4a5)]?.[_0x46a8ec(0x46c)]('click',()=>this[_0x46a8ec(0x2f8)]()),this[_0x46a8ec(0x20a)]?.[_0x46a8ec(0x46c)]('click',()=>this[_0x46a8ec(0x28b)]()),this[_0x46a8ec(0x469)]?.['addEventListener'](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x3a0)](_0x46a8ec(0x43d))),this['playbackNextBtn']?.['addEventListener'](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x3a0)]('next')),this['playbackNextClose']?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x28a)]()),this[_0x46a8ec(0x272)]?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x316)]()),this[_0x46a8ec(0x456)]?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x12be5f=>{const _0x390a4a=_0x46a8ec;if(_0x12be5f[_0x390a4a(0x278)]===this['playbackCastSheet'])this['closePlaybackCastSheet']();}),this['playbackNextModal']?.[_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x1d9192=>{const _0xba8750=_0x46a8ec;if(_0x1d9192[_0xba8750(0x278)]===this[_0xba8750(0x506)]&&!this[_0xba8750(0x2fe)])this[_0xba8750(0x28a)]();}),this[_0x46a8ec(0x29c)]&&this[_0x46a8ec(0x29c)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x365)]()),this[_0x46a8ec(0x43b)]&&this[_0x46a8ec(0x43b)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x267)]()),this[_0x46a8ec(0x218)]&&this[_0x46a8ec(0x218)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x1f7e06=>{const _0x2c7a9b=_0x46a8ec;if(_0x1f7e06[_0x2c7a9b(0x278)]===this[_0x2c7a9b(0x218)])this[_0x2c7a9b(0x46f)]();}),this[_0x46a8ec(0x425)]&&this[_0x46a8ec(0x425)][_0x46a8ec(0x46c)](_0x46a8ec(0x42b),_0x37d927=>this[_0x46a8ec(0x281)](_0x37d927,this[_0x46a8ec(0x4b9)])),this['settingsApply']&&this[_0x46a8ec(0x474)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x1e3)]()),this[_0x46a8ec(0x543)]&&this[_0x46a8ec(0x543)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x348)]()),this[_0x46a8ec(0x444)]&&this['worldBookSheet'][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x36063d=>{const _0x834133=_0x46a8ec;if(_0x36063d[_0x834133(0x278)]===this['worldBookSheet'])this['closeWorldBookSheet']();}),this[_0x46a8ec(0x40b)]&&this[_0x46a8ec(0x40b)][_0x46a8ec(0x46c)]('click',()=>this[_0x46a8ec(0x21c)]()),this[_0x46a8ec(0x4ff)]&&this[_0x46a8ec(0x4ff)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x271)]()),this['profileSheet']&&this[_0x46a8ec(0x20c)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x47febc=>{const _0x5f358b=_0x46a8ec;if(_0x47febc[_0x5f358b(0x278)]===this['profileSheet'])this[_0x5f358b(0x355)]();}),this[_0x46a8ec(0x3a8)]&&this[_0x46a8ec(0x3a8)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x297e27=>{const _0x1849bb=_0x46a8ec;if(_0x297e27[_0x1849bb(0x278)]===this[_0x1849bb(0x3a8)])this['closeActorPicker']();}),this[_0x46a8ec(0x4ee)]&&this[_0x46a8ec(0x4ee)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x31e64d=>{const _0xfb0889=_0x46a8ec;if(_0x31e64d[_0xfb0889(0x278)]===this[_0xfb0889(0x4ee)])this[_0xfb0889(0x513)]();}),this[_0x46a8ec(0x3d3)]&&this[_0x46a8ec(0x3ed)]&&(this['editAvatarTrigger'][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x3ed)][_0x46a8ec(0x2f2)]()),this[_0x46a8ec(0x3ed)][_0x46a8ec(0x46c)](_0x46a8ec(0x42b),_0x208783=>this[_0x46a8ec(0x2ec)](_0x208783))),this[_0x46a8ec(0x1c3)]&&this[_0x46a8ec(0x1c3)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x3de)]()),this[_0x46a8ec(0x4d2)]&&this['createNewTrigger'][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this['openCreateFormSheet']()),this[_0x46a8ec(0x2c7)]&&this[_0x46a8ec(0x2c7)][_0x46a8ec(0x46c)]('click',()=>this['closeCreateFormSheet']()),this[_0x46a8ec(0x4cf)]&&this[_0x46a8ec(0x3ad)]&&(this[_0x46a8ec(0x4cf)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),_0x1c9259=>{const _0x335a9e=_0x46a8ec;if(_0x1c9259[_0x335a9e(0x278)]!==this[_0x335a9e(0x3ad)])this[_0x335a9e(0x3ad)]['click']();}),this[_0x46a8ec(0x3ad)][_0x46a8ec(0x46c)]('change',_0xe5a684=>this['handleWorkCoverFile'](_0xe5a684))),this[_0x46a8ec(0x29f)]&&this['workTitleInput'][_0x46a8ec(0x46c)](_0x46a8ec(0x2fa),()=>{const _0x4e60ab=_0x46a8ec;this[_0x4e60ab(0x244)][_0x4e60ab(0x1e7)]=this[_0x4e60ab(0x29f)][_0x4e60ab(0x3d2)];}),this[_0x46a8ec(0x4a4)][_0x46a8ec(0x379)](_0x42c763=>{const _0x4c956e=_0x46a8ec;_0x42c763[_0x4c956e(0x46c)](_0x4c956e(0x2f2),()=>{const _0x42fb00=_0x4c956e;this[_0x42fb00(0x244)][_0x42fb00(0x4ea)]=_0x42c763[_0x42fb00(0x24d)](_0x42fb00(0x259))||_0x42fb00(0x51a),this[_0x42fb00(0x341)]();});}),this[_0x46a8ec(0x451)]&&this['workTagsInput'][_0x46a8ec(0x46c)](_0x46a8ec(0x2fa),()=>{const _0xc641c3=_0x46a8ec;this['createDraft']['tagsText']=this[_0xc641c3(0x451)]['value'],this[_0xc641c3(0x4b3)]();}),this[_0x46a8ec(0x2e7)]&&this[_0x46a8ec(0x2e7)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x24c)]()),this['workSummaryInput']&&this[_0x46a8ec(0x4e7)]['addEventListener'](_0x46a8ec(0x2fa),()=>{const _0x7f4eae=_0x46a8ec;this[_0x7f4eae(0x244)][_0x7f4eae(0x3aa)]=this[_0x7f4eae(0x4e7)][_0x7f4eae(0x3d2)];}),this[_0x46a8ec(0x472)]&&this[_0x46a8ec(0x472)][_0x46a8ec(0x46c)](_0x46a8ec(0x2f2),()=>this[_0x46a8ec(0x3fb)]()),this[_0x46a8ec(0x37a)]&&this[_0x46a8ec(0x37a)][_0x46a8ec(0x46c)]('click',()=>this[_0x46a8ec(0x376)]()),this[_0x46a8ec(0x29a)]&&this[_0x46a8ec(0x29a)][_0x46a8ec(0x46c)]('click',()=>this['closeActorPicker']()),this[_0x46a8ec(0x341)](),this['renderWorks'](),this['renderHomeCatalog']();}[_u2_b589d616b6_0x1a45bd(0x426)](){const _0x3ebcd5=_u2_b589d616b6_0x1a45bd;return{'coverUrl':'','title':'','category':_0x3ebcd5(0x51a),'tagsText':'','cast':[],'summary':''};}['getHomeSectionNames'](){const _0x32b6cf=_u2_b589d616b6_0x1a45bd;return[_0x32b6cf(0x528),'电影',_0x32b6cf(0x51a),'综艺',_0x32b6cf(0x440)];}[_u2_b589d616b6_0x1a45bd(0x2ed)](){const _0x45f9ad=_u2_b589d616b6_0x1a45bd;return{'banners':[null,null,null],'recent':[],'sections':this[_0x45f9ad(0x297)]()[_0x45f9ad(0x4f7)]((_0xb73f92,_0x32d9a9)=>{return _0xb73f92[_0x32d9a9]=[],_0xb73f92;},{})};}['normalizeHomeCatalog'](_0x5af9ce=null){const _0xab9169=_u2_b589d616b6_0x1a45bd,_0x55e109=this['createDefaultHomeCatalog'](),_0x21127d=_0x5af9ce&&typeof _0x5af9ce===_0xab9169(0x2b1)?_0x5af9ce:{},_0x242f5f={..._0x55e109['sections']};return this['getHomeSectionNames']()['forEach'](_0x40a91b=>{const _0x28d8d8=_0xab9169,_0xf1d443=_0x40a91b===_0x28d8d8(0x528)?_0x21127d[_0x28d8d8(0x512)]?.[_0x40a91b]||_0x21127d['recommendations']||_0x21127d[_0x28d8d8(0x1bc)]:_0x21127d[_0x28d8d8(0x512)]?.[_0x40a91b];_0x242f5f[_0x40a91b]=Array[_0x28d8d8(0x4a7)](_0xf1d443)?_0xf1d443['slice'](0x0,0x4)[_0x28d8d8(0x4e2)]((_0x4dc357,_0x2fde4c)=>this[_0x28d8d8(0x436)](_0x4dc357,_0x40a91b+'-'+_0x2fde4c,_0x40a91b===_0x28d8d8(0x528)?'':_0x40a91b))[_0x28d8d8(0x1c7)](Boolean):[];}),{'banners':Array[_0xab9169(0x4ab)]({'length':0x3},(_0x484ac9,_0x21cb5e)=>{const _0xc57ac0=_0xab9169,_0x4559ed=Array[_0xc57ac0(0x4a7)](_0x21127d['banners'])?_0x21127d[_0xc57ac0(0x21d)][_0x21cb5e]:null;return _0x4559ed?this['normalizeCatalogItem'](_0x4559ed,'banner-'+_0x21cb5e,''):null;}),'recent':Array['isArray'](_0x21127d[_0xab9169(0x1d2)])?_0x21127d[_0xab9169(0x1d2)][_0xab9169(0x253)](0x0,0x8)[_0xab9169(0x4e2)]((_0x4e4ead,_0x4eabea)=>this[_0xab9169(0x436)](_0x4e4ead,_0xab9169(0x41a)+_0x4eabea,''))['filter'](Boolean):[],'sections':_0x242f5f};}[_u2_b589d616b6_0x1a45bd(0x436)](_0xe59130={},_0xf52a85=this['createPresetId'](_u2_b589d616b6_0x1a45bd(0x3ba)),_0x52453f=''){const _0x46364b=_u2_b589d616b6_0x1a45bd;if(!_0xe59130||typeof _0xe59130!==_0x46364b(0x2b1))return null;const _0x268a2c=String(_0xe59130[_0x46364b(0x1e7)]||_0xe59130[_0x46364b(0x51b)]||_0xe59130[_0x46364b(0x42a)]||'')[_0x46364b(0x2c2)](),_0x383026=String(_0xe59130[_0x46364b(0x4ea)]||_0xe59130[_0x46364b(0x3e9)]||_0x52453f||_0x46364b(0x51a))['trim'](),_0x4984a7=Array[_0x46364b(0x4a7)](_0xe59130[_0x46364b(0x245)])?_0xe59130[_0x46364b(0x245)]:String(_0xe59130[_0x46364b(0x47b)]||_0xe59130[_0x46364b(0x270)]||'')[_0x46364b(0x215)](/[，,、\s]+/)[_0x46364b(0x1c7)](Boolean),_0x3a15b2=_0x268a2c||_0x46364b(0x473),_0x52b494=_0xe59130['id']||_0xf52a85+'-'+_0x3a15b2+'-'+_0x383026,_0x497190=String(_0xe59130[_0x46364b(0x3aa)]||_0xe59130['description']||_0xe59130[_0x46364b(0x455)]||'')['trim'](),_0x508f8a=this[_0x46364b(0x520)](_0xe59130[_0x46364b(0x305)]||_0xe59130[_0x46364b(0x25f)]||_0xe59130[_0x46364b(0x52c)]||_0xe59130['imageUrl']||'',_0x3a15b2,_0xf52a85),_0x5707f9=Array[_0x46364b(0x4a7)](_0xe59130[_0x46364b(0x46d)])?_0xe59130[_0x46364b(0x46d)]:Array[_0x46364b(0x4a7)](_0xe59130[_0x46364b(0x229)])?_0xe59130[_0x46364b(0x229)]:[],_0x531d31=_0x5707f9['slice'](0x0,0x3)[_0x46364b(0x4e2)]((_0x68204b,_0x5939e3)=>this[_0x46364b(0x4db)](_0x68204b,_0x5939e3))[_0x46364b(0x1c7)](Boolean);return{'id':_0xe59130['id']?String(_0x52b494):this['createCatalogId'](_0x52b494),'title':_0x3a15b2,'category':_0x383026||_0x46364b(0x51a),'tags':_0x4984a7[_0x46364b(0x4e2)](_0x327c9d=>String(_0x327c9d)[_0x46364b(0x2c2)]())[_0x46364b(0x1c7)](Boolean)['slice'](0x0,0x4),'coverUrl':_0x508f8a,'summary':_0x497190,'cast':_0x531d31};}['createCatalogId'](_0x158afe){const _0xb29493=_u2_b589d616b6_0x1a45bd;return _0xb29493(0x3b6)+(String(_0x158afe||Date[_0xb29493(0x53b)]())[_0xb29493(0x2e3)]()[_0xb29493(0x324)](/[^a-z0-9\u4e00-\u9fa5]+/gi,'-')[_0xb29493(0x324)](/^-+|-+$/g,'')[_0xb29493(0x253)](0x0,0x50)||Date['now']());}[_u2_b589d616b6_0x1a45bd(0x520)](_0x432b53,_0x1fbfba,_0x596ea3=''){const _0x6c3c03=_u2_b589d616b6_0x1a45bd,_0xb7b1d6=String(_0x432b53||'')[_0x6c3c03(0x2c2)]();if(/^https?:\/\//i[_0x6c3c03(0x4ac)](_0xb7b1d6)||/^data:image\//i['test'](_0xb7b1d6))return _0xb7b1d6;const _0x2bc8b9=encodeURIComponent((_0x1fbfba||'netflix')+'-'+(_0x596ea3||''));return _0x6c3c03(0x2f5)+_0x2bc8b9+_0x6c3c03(0x45a);}['getCatalogFallbackGradient'](_0x28996a=0x0){const _0x38d157=_u2_b589d616b6_0x1a45bd,_0x463f68=[_0x38d157(0x4dc),'linear-gradient(135deg,\x20#5a1418,\x20#141414)',_0x38d157(0x2fd),_0x38d157(0x1c2)];return _0x463f68[_0x28996a%_0x463f68[_0x38d157(0x405)]];}[_u2_b589d616b6_0x1a45bd(0x319)](){const _0x5b9e27=_u2_b589d616b6_0x1a45bd;if(!this['homeContent'])return;const _0x2bdf54=this[_0x5b9e27(0x4a0)](this[_0x5b9e27(0x499)]['homeCatalog']);this['netflixState'][_0x5b9e27(0x4a1)]=_0x2bdf54;const _0x1163b6=[this['renderRecentRow'](_0x2bdf54[_0x5b9e27(0x1d2)]),...this[_0x5b9e27(0x297)]()[_0x5b9e27(0x4e2)]((_0x23166d,_0x14c8ca)=>this[_0x5b9e27(0x21e)](_0x23166d,_0x2bdf54[_0x5b9e27(0x512)][_0x23166d]||[],_0x14c8ca===this['getHomeSectionNames']()[_0x5b9e27(0x405)]-0x1))][_0x5b9e27(0x38c)]('');this[_0x5b9e27(0x3fd)][_0x5b9e27(0x2fc)]=_0x5b9e27(0x2d3)+_0x2bdf54['banners'][_0x5b9e27(0x4e2)]((_0x75e625,_0x352aed)=>this[_0x5b9e27(0x4c2)](_0x75e625,_0x352aed))[_0x5b9e27(0x38c)]('')+_0x5b9e27(0x48c)+_0x1163b6+_0x5b9e27(0x414),this[_0x5b9e27(0x3f8)]();}[_u2_b589d616b6_0x1a45bd(0x4a2)](_0x4d4c8a=[]){const _0x56f047=_u2_b589d616b6_0x1a45bd,_0x1a75c0=_0x4d4c8a['length']?_0x4d4c8a[_0x56f047(0x4e2)]((_0x22cebe,_0x9c2177)=>this[_0x56f047(0x30f)](_0x22cebe,_0x9c2177,![]))[_0x56f047(0x38c)](''):_0x56f047(0x243);return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22netflix-row-title\x22>最近观看</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-row-scroll\x20netflix-recent-row-scroll\x22>'+_0x1a75c0+_0x56f047(0x30d);}[_u2_b589d616b6_0x1a45bd(0x21e)](_0x5efebd,_0x5d759e=[],_0xde942b=![]){const _0x3f5778=_u2_b589d616b6_0x1a45bd,_0x1a8478=_0x5d759e['length']?_0x5d759e[_0x3f5778(0x4e2)]((_0x4f3bf6,_0xe2b8d5)=>this[_0x3f5778(0x30f)](_0x4f3bf6,_0xe2b8d5,!![]))[_0x3f5778(0x38c)](''):_0x3f5778(0x243);return _0x3f5778(0x49c)+(_0xde942b?'netflix-last-row':'')+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22netflix-row-title\x22>'+this[_0x3f5778(0x1c1)](_0x5efebd)+'</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-row-scroll\x22>'+_0x1a8478+_0x3f5778(0x30d);}[_u2_b589d616b6_0x1a45bd(0x30f)](_0xea9425,_0x2c1fa9=0x0,_0x5dcba6=!![]){const _0xd05a5f=_u2_b589d616b6_0x1a45bd,_0x71cb89=this[_0xd05a5f(0x436)](_0xea9425,'card-'+_0x2c1fa9,_0xea9425?.[_0xd05a5f(0x4ea)]||'');if(!_0x71cb89)return'';const _0x55585b=[_0x71cb89[_0xd05a5f(0x4ea)],..._0x71cb89[_0xd05a5f(0x245)]||[]][_0xd05a5f(0x1c7)](Boolean)[_0xd05a5f(0x253)](0x0,0x2);return _0xd05a5f(0x49a)+(_0x5dcba6?_0xd05a5f(0x306):'')+_0xd05a5f(0x339)+this[_0xd05a5f(0x1c1)](_0x71cb89['id'])+_0xd05a5f(0x2df)+this[_0xd05a5f(0x1c1)](_0x71cb89['title'])+_0xd05a5f(0x4b0)+this[_0xd05a5f(0x51d)](_0x71cb89['coverUrl'])+_0xd05a5f(0x44d)+this[_0xd05a5f(0x1c1)](_0x71cb89[_0xd05a5f(0x1e7)])+'</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>'+_0x55585b['map'](_0xacc028=>this[_0xd05a5f(0x1c1)](_0xacc028))[_0xd05a5f(0x38c)](_0xd05a5f(0x258))+_0xd05a5f(0x1c9);}['bindHomeCatalogEvents'](){const _0x4329da=_u2_b589d616b6_0x1a45bd;if(!this['homeContent'])return;this[_0x4329da(0x3fd)][_0x4329da(0x233)]('[data-catalog-id]')[_0x4329da(0x379)](_0x4aa8e6=>{const _0x1ca6d2=_0x4329da;_0x4aa8e6[_0x1ca6d2(0x46c)](_0x1ca6d2(0x2f2),()=>{const _0x4aceeb=_0x1ca6d2,_0x175d51=this[_0x4aceeb(0x427)](_0x4aa8e6[_0x4aceeb(0x24d)](_0x4aceeb(0x20b)));if(_0x175d51)this[_0x4aceeb(0x4fe)](_0x175d51);});});}['findCatalogItem'](_0xb5372d){const _0x509809=_u2_b589d616b6_0x1a45bd,_0x20c1ee=this[_0x509809(0x4a0)](this[_0x509809(0x499)][_0x509809(0x4a1)]),_0x1cf11d=[..._0x20c1ee[_0x509809(0x21d)][_0x509809(0x1c7)](Boolean),..._0x20c1ee['recent'],...this[_0x509809(0x297)]()['flatMap'](_0x1cd09e=>_0x20c1ee['sections'][_0x1cd09e]||[])];return _0x1cf11d[_0x509809(0x407)](_0x128e40=>String(_0x128e40['id'])===String(_0xb5372d))||null;}[_u2_b589d616b6_0x1a45bd(0x2e5)](){const _0x2606c5=_u2_b589d616b6_0x1a45bd;if(this['homeSearchSheet'])this[_0x2606c5(0x36a)][_0x2606c5(0x37d)][_0x2606c5(0x4bd)]('active');this[_0x2606c5(0x24f)]&&(this[_0x2606c5(0x24f)][_0x2606c5(0x3d2)]='',setTimeout(()=>this['homeSearchInput']?.[_0x2606c5(0x1be)](),0x50));}[_u2_b589d616b6_0x1a45bd(0x510)](_0x16d887=![]){const _0x121a6d=_u2_b589d616b6_0x1a45bd;if(this['isHomeSearchLoading']&&!_0x16d887)return;if(this[_0x121a6d(0x36a)])this[_0x121a6d(0x36a)][_0x121a6d(0x37d)][_0x121a6d(0x4c5)](_0x121a6d(0x1c6));}['setHomeSearchLoading'](_0x2e469c){const _0x1c805f=_u2_b589d616b6_0x1a45bd;this[_0x1c805f(0x1ca)]=!!_0x2e469c;if(this['homeSearchSheet'])this[_0x1c805f(0x36a)][_0x1c805f(0x37d)]['toggle'](_0x1c805f(0x39a),this[_0x1c805f(0x1ca)]);if(this['homeSearchInput'])this['homeSearchInput']['disabled']=this['isHomeSearchLoading'];if(this[_0x1c805f(0x1d1)])this[_0x1c805f(0x1d1)][_0x1c805f(0x4de)]=this[_0x1c805f(0x1ca)];this[_0x1c805f(0x256)]&&(this[_0x1c805f(0x256)][_0x1c805f(0x4de)]=this[_0x1c805f(0x1ca)],this['homeSearchConfirm']['innerHTML']=this[_0x1c805f(0x1ca)]?_0x1c805f(0x224):'确认');}async[_u2_b589d616b6_0x1a45bd(0x280)](){const _0x197910=_u2_b589d616b6_0x1a45bd;if(this[_0x197910(0x1ca)])return;const _0x10dea5=typeof window[_0x197910(0x236)]===_0x197910(0x467)?window[_0x197910(0x236)]():window[_0x197910(0x413)]||{};if(!_0x10dea5||!_0x10dea5[_0x197910(0x4a6)]||!_0x10dea5[_0x197910(0x42d)]){if(typeof window[_0x197910(0x4fa)]===_0x197910(0x467))window[_0x197910(0x4fa)](_0x197910(0x3c0));return;}const _0x526eaf=(this[_0x197910(0x24f)]?.['value']||'')[_0x197910(0x2c2)]();this[_0x197910(0x1eb)](!![]);try{const _0x3495fa=this[_0x197910(0x32c)](_0x10dea5[_0x197910(0x4a6)]),_0x270719=await fetch(_0x3495fa,{'method':_0x197910(0x28f),'headers':{'Content-Type':_0x197910(0x22a),'Authorization':_0x197910(0x2ce)+_0x10dea5[_0x197910(0x42d)]},'body':JSON[_0x197910(0x492)]({'model':_0x10dea5[_0x197910(0x227)]||_0x197910(0x31d),'messages':[{'role':'user','content':this['createHomeCatalogPrompt'](_0x526eaf)}],'temperature':parseFloat(_0x10dea5[_0x197910(0x32e)])||0.8,'response_format':{'type':_0x197910(0x52a)}})});if(!_0x270719['ok'])throw new Error(_0x197910(0x4e8)+_0x270719[_0x197910(0x4c7)]);const _0x2a873b=await _0x270719['json'](),_0x1f9a4b=_0x2a873b[_0x197910(0x4d4)]?.[0x0]?.[_0x197910(0x465)]?.[_0x197910(0x33f)]||'',_0x5bf0d5=this[_0x197910(0x3d7)](_0x1f9a4b),_0x167571=this[_0x197910(0x4a0)](this[_0x197910(0x499)][_0x197910(0x4a1)])[_0x197910(0x1d2)],_0x15d92d=this[_0x197910(0x1bb)](_0x5bf0d5,_0x167571);this['netflixState'][_0x197910(0x4a1)]=_0x15d92d,this[_0x197910(0x4bb)](),this[_0x197910(0x319)](),this[_0x197910(0x510)](!![]);if(typeof window[_0x197910(0x4fa)]===_0x197910(0x467))window[_0x197910(0x4fa)]('Netflix\x20首页已生成');}catch(_0x50c17c){console[_0x197910(0x42f)](_0x197910(0x240),_0x50c17c);if(typeof window[_0x197910(0x4fa)]===_0x197910(0x467))window[_0x197910(0x4fa)](_0x197910(0x48f));}finally{this[_0x197910(0x1eb)](![]);}}['resolveChatCompletionsEndpoint'](_0x1b5709=''){const _0x49eea2=_u2_b589d616b6_0x1a45bd;let _0x184d43=String(_0x1b5709||'')[_0x49eea2(0x2c2)]();if(_0x184d43[_0x49eea2(0x32f)]('/'))_0x184d43=_0x184d43[_0x49eea2(0x253)](0x0,-0x1);return!_0x184d43[_0x49eea2(0x32f)]('/chat/completions')&&(_0x184d43=_0x184d43[_0x49eea2(0x32f)](_0x49eea2(0x3b7))?_0x184d43+_0x49eea2(0x31e):_0x184d43+_0x49eea2(0x50c)),_0x184d43;}[_u2_b589d616b6_0x1a45bd(0x532)](){const _0x3d3f5b=_u2_b589d616b6_0x1a45bd;return typeof window[_0x3d3f5b(0x236)]===_0x3d3f5b(0x467)?window['getApiConfig']():window[_0x3d3f5b(0x413)]||{};}async[_u2_b589d616b6_0x1a45bd(0x4eb)](_0x4633bb,_0x49da59={}){const _0x1ec7fe=_u2_b589d616b6_0x1a45bd,_0x95d132=_0x49da59[_0x1ec7fe(0x413)]||this[_0x1ec7fe(0x532)]();if(!_0x95d132||!_0x95d132[_0x1ec7fe(0x4a6)]||!_0x95d132['apiKey'])throw new Error(_0x1ec7fe(0x3cf));const _0x3a0384=this[_0x1ec7fe(0x32c)](_0x95d132['endpoint']),_0x49eb3e=Number(_0x49da59['timeoutMs'])||0xea60,_0x5582bd=typeof AbortController!=='undefined'?new AbortController():null,_0x10f44a=_0x5582bd?setTimeout(()=>_0x5582bd[_0x1ec7fe(0x476)](),_0x49eb3e):null;try{const _0x538034={'model':_0x95d132[_0x1ec7fe(0x227)]||_0x1ec7fe(0x31d),'messages':[{'role':_0x1ec7fe(0x342),'content':_0x4633bb}],'temperature':parseFloat(_0x95d132['temperature'])||0.8};if(_0x49da59[_0x1ec7fe(0x3cc)])_0x538034[_0x1ec7fe(0x384)]=_0x49da59[_0x1ec7fe(0x3cc)];const _0x3ef8fb=await fetch(_0x3a0384,{'method':_0x1ec7fe(0x28f),'headers':{'Content-Type':_0x1ec7fe(0x22a),'Authorization':_0x1ec7fe(0x2ce)+_0x95d132[_0x1ec7fe(0x42d)]},'body':JSON[_0x1ec7fe(0x492)](_0x538034),'signal':_0x5582bd?.[_0x1ec7fe(0x36b)]});if(!_0x3ef8fb['ok']){let _0x216e29='';try{_0x216e29=await _0x3ef8fb['text']();}catch(_0x59291d){_0x216e29='';}const _0x26ce79=new Error(_0x1ec7fe(0x4e8)+_0x3ef8fb[_0x1ec7fe(0x4c7)]+(_0x216e29?'\x20'+_0x216e29['slice'](0x0,0xf0):''));_0x26ce79[_0x1ec7fe(0x4c7)]=_0x3ef8fb[_0x1ec7fe(0x4c7)];throw _0x26ce79;}return _0x3ef8fb[_0x1ec7fe(0x2d7)]();}catch(_0xa13b1d){if(_0xa13b1d?.[_0x1ec7fe(0x51b)]===_0x1ec7fe(0x3fa)){const _0xbdaeda=new Error('API_REQUEST_TIMEOUT');_0xbdaeda[_0x1ec7fe(0x34d)]=!![];throw _0xbdaeda;}throw _0xa13b1d;}finally{if(_0x10f44a)clearTimeout(_0x10f44a);}}[_u2_b589d616b6_0x1a45bd(0x1e0)](_0x5554ec=''){const _0x2ac267=_u2_b589d616b6_0x1a45bd,_0x1c486c=_0x5554ec?_0x2ac267(0x2cb)+_0x5554ec+_0x2ac267(0x34a):_0x2ac267(0x3c1);return _0x1c486c+_0x2ac267(0x249);}['parseJsonFromText'](_0x342ef2=''){const _0x27706d=_u2_b589d616b6_0x1a45bd,_0x4a4ee2=String(_0x342ef2||'')['replace'](/```json/gi,'')[_0x27706d(0x324)](/```/g,'')[_0x27706d(0x2c2)](),_0x565183=_0x4a4ee2[_0x27706d(0x4a9)](/\{[\s\S]*\}|\[[\s\S]*\]/);return JSON[_0x27706d(0x3bd)](_0x565183?_0x565183[0x0]:_0x4a4ee2);}[_u2_b589d616b6_0x1a45bd(0x1bb)](_0x1385ee,_0x488237=[]){const _0x4b0c20=_u2_b589d616b6_0x1a45bd,_0xeff430=_0x1385ee&&typeof _0x1385ee===_0x4b0c20(0x2b1)?_0x1385ee:{},_0x103b07=this[_0x4b0c20(0x2ed)]();_0x103b07['banners']=(Array['isArray'](_0xeff430[_0x4b0c20(0x21d)])?_0xeff430[_0x4b0c20(0x21d)]:[])[_0x4b0c20(0x253)](0x0,0x3)['map']((_0x40f419,_0x5a8a73)=>this[_0x4b0c20(0x436)](_0x40f419,_0x4b0c20(0x27a)+_0x5a8a73,''))[_0x4b0c20(0x1c7)](Boolean);while(_0x103b07['banners'][_0x4b0c20(0x405)]<0x3)_0x103b07[_0x4b0c20(0x21d)]['push'](null);_0x103b07['recent']=Array[_0x4b0c20(0x4a7)](_0x488237)?_0x488237[_0x4b0c20(0x253)](0x0,0x8)[_0x4b0c20(0x4e2)]((_0x50dd69,_0x3b7e8c)=>this[_0x4b0c20(0x436)](_0x50dd69,_0x4b0c20(0x41a)+_0x3b7e8c,''))[_0x4b0c20(0x1c7)](Boolean):[],_0x103b07[_0x4b0c20(0x512)][_0x4b0c20(0x528)]=(Array['isArray'](_0xeff430[_0x4b0c20(0x2a2)])?_0xeff430[_0x4b0c20(0x2a2)]:_0xeff430[_0x4b0c20(0x512)]?.['为你推荐']||[])[_0x4b0c20(0x253)](0x0,0x4)[_0x4b0c20(0x4e2)]((_0x396576,_0x439dca)=>this[_0x4b0c20(0x436)](_0x396576,_0x4b0c20(0x37b)+_0x439dca,''))[_0x4b0c20(0x1c7)](Boolean),['电影',_0x4b0c20(0x51a),'综艺',_0x4b0c20(0x440)][_0x4b0c20(0x379)](_0x2e44a1=>{const _0x5927af=_0x4b0c20;_0x103b07[_0x5927af(0x512)][_0x2e44a1]=(Array[_0x5927af(0x4a7)](_0xeff430['sections']?.[_0x2e44a1])?_0xeff430[_0x5927af(0x512)][_0x2e44a1]:[])['slice'](0x0,0x4)['map']((_0x23bf80,_0x1dcd24)=>this[_0x5927af(0x436)](_0x23bf80,_0x2e44a1+'-'+_0x1dcd24,_0x2e44a1))[_0x5927af(0x1c7)](Boolean);});const _0x498b92=[_0x103b07[_0x4b0c20(0x21d)][_0x4b0c20(0x1c7)](Boolean)[_0x4b0c20(0x405)]===0x3,_0x103b07[_0x4b0c20(0x512)]['为你推荐'][_0x4b0c20(0x405)]===0x4,_0x103b07[_0x4b0c20(0x512)]['电影']['length']===0x4,_0x103b07[_0x4b0c20(0x512)][_0x4b0c20(0x51a)][_0x4b0c20(0x405)]===0x4,_0x103b07[_0x4b0c20(0x512)]['综艺'][_0x4b0c20(0x405)]===0x4,_0x103b07[_0x4b0c20(0x512)]['纪录片'][_0x4b0c20(0x405)]===0x4];if(!_0x498b92[_0x4b0c20(0x2e6)](Boolean))throw new Error(_0x4b0c20(0x48e));return this[_0x4b0c20(0x4a0)](_0x103b07);}[_u2_b589d616b6_0x1a45bd(0x266)](_0xac5a=null){const _0x420cc4=_u2_b589d616b6_0x1a45bd,_0x4e5a11=_0xac5a&&typeof _0xac5a===_0x420cc4(0x2b1)?_0xac5a:{};return Object[_0x420cc4(0x3a6)](_0x4e5a11)[_0x420cc4(0x4f7)]((_0x3698a5,[_0x328c7b,_0x54304a])=>{const _0x64eae3=_0x420cc4,_0x34a63b=this[_0x64eae3(0x42c)](_0x54304a,_0x328c7b);if(_0x34a63b)_0x3698a5[_0x34a63b['id']]=_0x34a63b;return _0x3698a5;},{});}[_u2_b589d616b6_0x1a45bd(0x42c)](_0xf7f46={},_0x27e866=''){const _0xbfcacf=_u2_b589d616b6_0x1a45bd;if(!_0xf7f46||typeof _0xf7f46!==_0xbfcacf(0x2b1))return null;const _0x15ca8c=this[_0xbfcacf(0x436)](_0xf7f46[_0xbfcacf(0x22f)]||_0xf7f46['work']||_0xf7f46,_0x27e866||_0xbfcacf(0x422),_0xf7f46[_0xbfcacf(0x4ea)]||'');if(!_0x15ca8c)return null;const _0x30d858=Array[_0xbfcacf(0x4a7)](_0xf7f46[_0xbfcacf(0x3fc)])?_0xf7f46[_0xbfcacf(0x3fc)][_0xbfcacf(0x4e2)]((_0x1793f1,_0x300a79)=>this[_0xbfcacf(0x2e8)](_0x1793f1,_0x300a79+0x1))[_0xbfcacf(0x1c7)](Boolean):[],_0x4ed7bb=_0x30d858[_0xbfcacf(0x318)](_0x2fd2f8=>Number(_0x2fd2f8[_0xbfcacf(0x40a)])===0x0);_0x4ed7bb===-0x1?_0x30d858[_0xbfcacf(0x23c)](this[_0xbfcacf(0x2db)](_0x15ca8c)):_0x30d858[_0x4ed7bb]=this[_0xbfcacf(0x44b)](_0x30d858[_0x4ed7bb],_0x15ca8c);_0x30d858['sort']((_0x5ae065,_0x4a8e29)=>Number(_0x5ae065[_0xbfcacf(0x40a)])-Number(_0x4a8e29[_0xbfcacf(0x40a)]));const _0xa38763=Number(_0xf7f46[_0xbfcacf(0x2ca)]),_0xbb12cf=_0x30d858['some'](_0x415659=>Number(_0x415659[_0xbfcacf(0x40a)])===_0xa38763)?_0xa38763:0x0;return{'id':_0x15ca8c['id'],'item':_0x15ca8c,'episodes':_0x30d858,'activeEpisodeNumber':_0xbb12cf,'presetSwitches':_0xf7f46[_0xbfcacf(0x1da)]&&typeof _0xf7f46[_0xbfcacf(0x1da)]===_0xbfcacf(0x2b1)?_0xf7f46[_0xbfcacf(0x1da)]:{},'updatedAt':_0xf7f46[_0xbfcacf(0x447)]||new Date()[_0xbfcacf(0x3ae)]()};}[_u2_b589d616b6_0x1a45bd(0x2e8)](_0x52f16b={},_0x4daf82=0x1){const _0x15895e=_u2_b589d616b6_0x1a45bd,_0x3baca0=_0x52f16b&&typeof _0x52f16b===_0x15895e(0x2b1)?_0x52f16b:{},_0x183403=Number(_0x3baca0[_0x15895e(0x40a)]);return{'number':Number[_0x15895e(0x322)](_0x183403)?_0x183403:_0x4daf82,'recap':typeof _0x3baca0[_0x15895e(0x4b7)]==='string'?_0x3baca0[_0x15895e(0x4b7)]:'','content':typeof _0x3baca0[_0x15895e(0x33f)]===_0x15895e(0x3b9)?_0x3baca0[_0x15895e(0x33f)]:'','summary':typeof _0x3baca0[_0x15895e(0x3aa)]==='string'?_0x3baca0['summary']:'','comments':Array[_0x15895e(0x4a7)](_0x3baca0[_0x15895e(0x202)])?_0x3baca0[_0x15895e(0x202)]:[],'cast':Array[_0x15895e(0x4a7)](_0x3baca0[_0x15895e(0x46d)])?_0x3baca0[_0x15895e(0x46d)][_0x15895e(0x4e2)]((_0x2f42a3,_0x3e00bf)=>this['normalizePlaybackActor'](_0x2f42a3,_0x3e00bf))[_0x15895e(0x1c7)](Boolean):[],'createdAt':_0x3baca0[_0x15895e(0x1f1)]||new Date()[_0x15895e(0x3ae)]()};}[_u2_b589d616b6_0x1a45bd(0x2db)](_0x5e25b9){const _0x218036=_u2_b589d616b6_0x1a45bd,_0x1405e5=Array[_0x218036(0x4a7)](_0x5e25b9?.[_0x218036(0x46d)])?_0x5e25b9['cast']['map']((_0x3928b0,_0x543479)=>this['normalizePlaybackActor'](_0x3928b0,_0x543479))['filter'](Boolean):[];return this[_0x218036(0x44b)]({'number':0x0,'recap':'','content':_0x5e25b9['summary']||'','summary':_0x5e25b9[_0x218036(0x3aa)]||'','cast':_0x1405e5[_0x218036(0x405)]?_0x1405e5:this[_0x218036(0x292)](),'createdAt':new Date()[_0x218036(0x3ae)]()},_0x5e25b9);}[_u2_b589d616b6_0x1a45bd(0x44b)](_0x394d2f={},_0x516f14={}){const _0x12daad=_u2_b589d616b6_0x1a45bd,_0x49bc5f=Array[_0x12daad(0x4a7)](_0x516f14?.[_0x12daad(0x46d)])?_0x516f14['cast'][_0x12daad(0x4e2)]((_0xd8ef,_0x57b862)=>this[_0x12daad(0x4db)](_0xd8ef,_0x57b862))[_0x12daad(0x1c7)](Boolean):[],_0x415e64=_0x49bc5f[_0x12daad(0x405)]?_0x49bc5f:this[_0x12daad(0x292)]();return{..._0x394d2f,'number':0x0,'recap':'','content':_0x394d2f[_0x12daad(0x33f)]||_0x516f14[_0x12daad(0x3aa)]||'','summary':_0x394d2f[_0x12daad(0x3aa)]||_0x516f14[_0x12daad(0x3aa)]||'','cast':Array[_0x12daad(0x4a7)](_0x394d2f[_0x12daad(0x46d)])&&_0x394d2f['cast'][_0x12daad(0x405)]?_0x394d2f['cast']:_0x415e64,'createdAt':_0x394d2f[_0x12daad(0x1f1)]||new Date()[_0x12daad(0x3ae)]()};}['createDefaultPlaybackCast'](){const _0x550ab3=_u2_b589d616b6_0x1a45bd,_0x30e1f1=this['getUserState'](),_0x4c3c93=_0x30e1f1[_0x550ab3(0x51b)]||_0x30e1f1[_0x550ab3(0x289)]||_0x550ab3(0x20f);return[{'id':this[_0x550ab3(0x31a)](_0x550ab3(0x46d)),'realName':_0x4c3c93,'name':_0x4c3c93,'roleName':_0x4c3c93,'rolePersona':_0x30e1f1[_0x550ab3(0x40c)]||_0x30e1f1[_0x550ab3(0x487)]||'','avatar':_0x30e1f1['avatarUrl']||_0x30e1f1[_0x550ab3(0x3b5)]||''}];}[_u2_b589d616b6_0x1a45bd(0x4db)](_0x22f8f0={},_0x26295d=0x0){const _0x1679d5=_u2_b589d616b6_0x1a45bd;if(!_0x22f8f0||typeof _0x22f8f0!=='object')return null;const _0xa2fa48=String(_0x22f8f0[_0x1679d5(0x289)]||_0x22f8f0['name']||'主演'+(_0x26295d+0x1))[_0x1679d5(0x2c2)]();return{'id':String(_0x22f8f0['id']||this[_0x1679d5(0x31a)](_0x1679d5(0x46d))),'realName':_0xa2fa48,'name':String(_0x22f8f0[_0x1679d5(0x51b)]||_0xa2fa48)[_0x1679d5(0x2c2)](),'roleName':String(_0x22f8f0[_0x1679d5(0x452)]||_0x22f8f0[_0x1679d5(0x51b)]||_0xa2fa48)[_0x1679d5(0x2c2)](),'rolePersona':String(_0x22f8f0[_0x1679d5(0x47e)]||_0x22f8f0[_0x1679d5(0x40c)]||_0x22f8f0['desc']||'')[_0x1679d5(0x2c2)](),'avatar':String(_0x22f8f0[_0x1679d5(0x3b5)]||_0x22f8f0['avatarUrl']||'')[_0x1679d5(0x2c2)]()};}[_u2_b589d616b6_0x1a45bd(0x4e0)](_0x457c69=this[_u2_b589d616b6_0x1a45bd(0x2c5)]){const _0x3627a9=_u2_b589d616b6_0x1a45bd;if(!_0x457c69)return null;const _0x24d1b1=this[_0x3627a9(0x499)]['playbackCatalog']||{},_0x524997=_0x24d1b1[_0x457c69]||null;return _0x524997?this['normalizePlaybackEntry'](_0x524997,_0x457c69):null;}[_u2_b589d616b6_0x1a45bd(0x412)](_0x3325a4){const _0x4519bc=_u2_b589d616b6_0x1a45bd;if(!_0x3325a4)return;(!this[_0x4519bc(0x499)][_0x4519bc(0x39b)]||typeof this[_0x4519bc(0x499)][_0x4519bc(0x39b)]!==_0x4519bc(0x2b1))&&(this[_0x4519bc(0x499)][_0x4519bc(0x39b)]={}),_0x3325a4[_0x4519bc(0x447)]=new Date()[_0x4519bc(0x3ae)](),this['netflixState'][_0x4519bc(0x39b)][_0x3325a4['id']]=this[_0x4519bc(0x42c)](_0x3325a4,_0x3325a4['id']);}[_u2_b589d616b6_0x1a45bd(0x378)](_0x3c25dd){const _0x18883c=_u2_b589d616b6_0x1a45bd;return(_0x3c25dd?.[_0x18883c(0x3fc)]||[])[_0x18883c(0x1c7)](_0x5756fa=>Number(_0x5756fa['number'])>0x0)[_0x18883c(0x4e2)]((_0x3e8a37,_0x64dc54)=>({'number':_0x64dc54+0x1,'recap':_0x3e8a37['recap']||'','content':_0x3e8a37['content']||'','summary':_0x3e8a37[_0x18883c(0x3aa)]||'','comments':Array[_0x18883c(0x4a7)](_0x3e8a37[_0x18883c(0x202)])?_0x3e8a37[_0x18883c(0x202)]:[],'cast':Array[_0x18883c(0x4a7)](_0x3e8a37[_0x18883c(0x46d)])?_0x3e8a37[_0x18883c(0x46d)]:[],'createdAt':_0x3e8a37[_0x18883c(0x1f1)]||new Date()[_0x18883c(0x3ae)]()}));}[_u2_b589d616b6_0x1a45bd(0x4bf)](_0x14f14c){const _0x4a0425=_u2_b589d616b6_0x1a45bd;if(!_0x14f14c?.['id'])return null;const _0x1eca1a=(this['netflixState']['works']||[])['find'](_0x45dce8=>String(_0x45dce8['id'])===String(_0x14f14c['id']));if(!_0x1eca1a)return null;return _0x1eca1a[_0x4a0425(0x1e7)]=_0x14f14c['item']?.[_0x4a0425(0x1e7)]||_0x1eca1a[_0x4a0425(0x1e7)]||_0x4a0425(0x49b),_0x1eca1a[_0x4a0425(0x4ea)]=_0x14f14c['item']?.[_0x4a0425(0x4ea)]||_0x1eca1a[_0x4a0425(0x4ea)]||_0x4a0425(0x51a),_0x1eca1a[_0x4a0425(0x245)]=Array[_0x4a0425(0x4a7)](_0x14f14c[_0x4a0425(0x22f)]?.['tags'])?_0x14f14c[_0x4a0425(0x22f)]['tags']:_0x1eca1a[_0x4a0425(0x245)]||[],_0x1eca1a[_0x4a0425(0x305)]=_0x14f14c[_0x4a0425(0x22f)]?.[_0x4a0425(0x305)]||_0x1eca1a[_0x4a0425(0x305)]||'',_0x1eca1a[_0x4a0425(0x3aa)]=_0x14f14c[_0x4a0425(0x22f)]?.[_0x4a0425(0x3aa)]||_0x1eca1a[_0x4a0425(0x3aa)]||'',_0x1eca1a[_0x4a0425(0x46d)]=Array['isArray'](_0x14f14c[_0x4a0425(0x22f)]?.[_0x4a0425(0x46d)])?_0x14f14c[_0x4a0425(0x22f)][_0x4a0425(0x46d)]:_0x1eca1a[_0x4a0425(0x46d)]||[],_0x1eca1a['episodes']=JSON[_0x4a0425(0x3bd)](JSON['stringify'](this[_0x4a0425(0x378)](_0x14f14c))),_0x1eca1a['episodeCount']=_0x1eca1a[_0x4a0425(0x3fc)]['length']||0x1,this['normalizeWork'](_0x1eca1a,_0x1eca1a['id']);}['getActivePlaybackEpisode'](){const _0x326f56=_u2_b589d616b6_0x1a45bd,_0x5746bb=this['getPlaybackEntry']();if(!_0x5746bb)return null;return _0x5746bb[_0x326f56(0x3fc)][_0x326f56(0x407)](_0x2d3077=>Number(_0x2d3077[_0x326f56(0x40a)])===Number(this[_0x326f56(0x2f9)]))||_0x5746bb[_0x326f56(0x3fc)][_0x326f56(0x407)](_0x2419a6=>Number(_0x2419a6[_0x326f56(0x40a)])===0x0)||_0x5746bb[_0x326f56(0x3fc)][0x0]||null;}[_u2_b589d616b6_0x1a45bd(0x51e)](_0x1a2711){const _0x11a56a=_u2_b589d616b6_0x1a45bd,_0x81c533=this['normalizeCatalogItem'](_0x1a2711,_0x1a2711?.['id']||_0x11a56a(0x1d2),_0x1a2711?.['category']||'');if(!_0x81c533)return;const _0x47121e=this['normalizeHomeCatalog'](this[_0x11a56a(0x499)][_0x11a56a(0x4a1)]);_0x47121e[_0x11a56a(0x1d2)]=[_0x81c533,..._0x47121e[_0x11a56a(0x1d2)][_0x11a56a(0x1c7)](_0x410c97=>String(_0x410c97['id'])!==String(_0x81c533['id']))][_0x11a56a(0x253)](0x0,0x8),this['netflixState'][_0x11a56a(0x4a1)]=_0x47121e;}[_u2_b589d616b6_0x1a45bd(0x3b8)](_0x40e5b9=null){const _0x256c1e=_u2_b589d616b6_0x1a45bd,_0x2ba3cd=_0x40e5b9&&typeof _0x40e5b9==='object'?_0x40e5b9:{};return{'works':Array[_0x256c1e(0x4a7)](_0x2ba3cd[_0x256c1e(0x3b1)])?_0x2ba3cd[_0x256c1e(0x3b1)][_0x256c1e(0x4e2)]((_0x305609,_0xe31dff)=>this[_0x256c1e(0x2a9)](_0x305609,_0x256c1e(0x1b7)+_0xe31dff)):[],'boundWorldBookIds':Array['isArray'](_0x2ba3cd['boundWorldBookIds'])?_0x2ba3cd['boundWorldBookIds'][_0x256c1e(0x4e2)](String):[],'homeCatalog':this[_0x256c1e(0x4a0)](_0x2ba3cd[_0x256c1e(0x4a1)]),'playbackCatalog':this[_0x256c1e(0x266)](_0x2ba3cd[_0x256c1e(0x39b)]),'playbackCustomCss':typeof _0x2ba3cd[_0x256c1e(0x3c9)]==='string'?_0x2ba3cd[_0x256c1e(0x3c9)]:''};}[_u2_b589d616b6_0x1a45bd(0x3db)](){const _0x48f8fa=_u2_b589d616b6_0x1a45bd;let _0x18e517=null;try{const _0x5988dd=this[_0x48f8fa(0x331)]();_0x5988dd&&typeof window[_0x48f8fa(0x26f)]===_0x48f8fa(0x467)&&(_0x18e517=window[_0x48f8fa(0x26f)]('netflix')||null),!_0x5988dd&&window['StorageManager']&&typeof window[_0x48f8fa(0x1fe)][_0x48f8fa(0x308)]==='function'&&(_0x18e517={'works':window[_0x48f8fa(0x1fe)][_0x48f8fa(0x308)](_0x48f8fa(0x3c7),[]),'boundWorldBookIds':window[_0x48f8fa(0x1fe)][_0x48f8fa(0x308)](_0x48f8fa(0x26e),[]),'homeCatalog':window['StorageManager'][_0x48f8fa(0x308)](_0x48f8fa(0x471),null),'playbackCatalog':window[_0x48f8fa(0x1fe)][_0x48f8fa(0x308)](_0x48f8fa(0x4ec),null),'playbackCustomCss':window['StorageManager'][_0x48f8fa(0x308)](_0x48f8fa(0x34e),'')}),!_0x18e517&&typeof window[_0x48f8fa(0x26f)]===_0x48f8fa(0x467)&&(_0x18e517=window['getAppState']('netflix')||null);}catch(_0xa987b6){console[_0x48f8fa(0x2dc)](_0x48f8fa(0x1d0),_0xa987b6);}return this[_0x48f8fa(0x3b8)](_0x18e517);}['hasNetflixDomain'](){const _0x24a35c=_u2_b589d616b6_0x1a45bd;return typeof window['appStorage']?.[_0x24a35c(0x24a)]===_0x24a35c(0x467)&&window[_0x24a35c(0x381)]['readDomain'](_0x24a35c(0x2a1),null)!==null;}[_u2_b589d616b6_0x1a45bd(0x47f)](){const _0x32732f=_u2_b589d616b6_0x1a45bd,_0x4f7ec1=this[_0x32732f(0x331)]();this[_0x32732f(0x499)]=this[_0x32732f(0x3db)](),this[_0x32732f(0x480)]=this['loadPresetState'](),!_0x4f7ec1&&(this[_0x32732f(0x4bb)](),this[_0x32732f(0x251)]()),this[_0x32732f(0x389)](),this[_0x32732f(0x1d3)](),this[_0x32732f(0x319)](),this[_0x32732f(0x500)]();}[_u2_b589d616b6_0x1a45bd(0x4bb)](){const _0x3817c8=_u2_b589d616b6_0x1a45bd;try{if(typeof window['getAppState']===_0x3817c8(0x467)&&typeof window[_0x3817c8(0x490)]===_0x3817c8(0x467)){const _0x2c85a7=window[_0x3817c8(0x26f)]('netflix')||{};window[_0x3817c8(0x490)](_0x3817c8(0x2a1),{..._0x2c85a7,'works':this['netflixState'][_0x3817c8(0x3b1)],'boundWorldBookIds':this['netflixState']['boundWorldBookIds']||[],'homeCatalog':this['netflixState']['homeCatalog']||this[_0x3817c8(0x2ed)](),'playbackCatalog':this[_0x3817c8(0x499)][_0x3817c8(0x39b)]||{},'playbackCustomCss':this[_0x3817c8(0x499)]['playbackCustomCss']||''},{'silent':!![]});}else window[_0x3817c8(0x1fe)]&&typeof window[_0x3817c8(0x1fe)]['save']===_0x3817c8(0x467)&&(window[_0x3817c8(0x1fe)][_0x3817c8(0x410)]('u2_netflixWorks',this[_0x3817c8(0x499)][_0x3817c8(0x3b1)]),window[_0x3817c8(0x1fe)][_0x3817c8(0x410)](_0x3817c8(0x26e),this[_0x3817c8(0x499)]['boundWorldBookIds']||[]),window[_0x3817c8(0x1fe)][_0x3817c8(0x410)](_0x3817c8(0x471),this[_0x3817c8(0x499)]['homeCatalog']||this[_0x3817c8(0x2ed)]()),window['StorageManager'][_0x3817c8(0x410)]('u2_netflixPlaybackCatalog',this[_0x3817c8(0x499)][_0x3817c8(0x39b)]||{}),window[_0x3817c8(0x1fe)][_0x3817c8(0x410)](_0x3817c8(0x34e),this[_0x3817c8(0x499)][_0x3817c8(0x3c9)]||''));window[_0x3817c8(0x1fe)]&&typeof window[_0x3817c8(0x1fe)][_0x3817c8(0x410)]===_0x3817c8(0x467)&&window[_0x3817c8(0x1fe)]['save'](_0x3817c8(0x34e),this[_0x3817c8(0x499)][_0x3817c8(0x3c9)]||'');}catch(_0x5967d4){console[_0x3817c8(0x2dc)](_0x3817c8(0x4ca),_0x5967d4);}}[_u2_b589d616b6_0x1a45bd(0x267)](){const _0xcb6def=_u2_b589d616b6_0x1a45bd;this[_0xcb6def(0x4b9)]&&(this[_0xcb6def(0x4b9)]['value']=this['netflixState'][_0xcb6def(0x3c9)]||'');if(this[_0xcb6def(0x218)])this['settingsSheet']['classList']['add']('active');}[_u2_b589d616b6_0x1a45bd(0x46f)](){const _0x2e52b4=_u2_b589d616b6_0x1a45bd;if(this[_0x2e52b4(0x218)])this[_0x2e52b4(0x218)][_0x2e52b4(0x37d)]['remove']('active');}['handleCssFile'](_0x35860e,_0x499a21){const _0x42f5eb=_u2_b589d616b6_0x1a45bd,_0x58cc4c=_0x35860e?.[_0x42f5eb(0x278)]?.[_0x42f5eb(0x4b8)]?.[0x0];if(!_0x58cc4c)return;const _0x5e88ed=new FileReader();_0x5e88ed['onload']=_0x32d320=>{const _0x399056=_0x42f5eb;_0x499a21&&(_0x499a21[_0x399056(0x3d2)]=String(_0x32d320[_0x399056(0x278)]?.[_0x399056(0x43e)]||''));},_0x5e88ed[_0x42f5eb(0x3ee)](_0x58cc4c);if(_0x35860e[_0x42f5eb(0x278)])_0x35860e[_0x42f5eb(0x278)][_0x42f5eb(0x3d2)]='';}[_u2_b589d616b6_0x1a45bd(0x2dd)](){const _0x35b3a9=_u2_b589d616b6_0x1a45bd;return _0x35b3a9(0x422);}[_u2_b589d616b6_0x1a45bd(0x1e3)](){const _0xce1550=_u2_b589d616b6_0x1a45bd;if(this['settingsPlaybackCssInput']){this[_0xce1550(0x499)][_0xce1550(0x3c9)]=String(this[_0xce1550(0x4b9)][_0xce1550(0x3d2)]||'');if(typeof window[_0xce1550(0x4fa)]===_0xce1550(0x467))window[_0xce1550(0x4fa)](_0xce1550(0x27c));}this['applyCustomCss'](),this[_0xce1550(0x4bb)]();}['clearCustomCss'](){const _0x904628=_u2_b589d616b6_0x1a45bd;if(this[_0x904628(0x4b9)]){this[_0x904628(0x499)][_0x904628(0x3c9)]='',this[_0x904628(0x4b9)][_0x904628(0x3d2)]='';if(typeof window[_0x904628(0x4fa)]===_0x904628(0x467))window[_0x904628(0x4fa)](_0x904628(0x52b));}this['applyCustomCss'](),this[_0x904628(0x4bb)]();}[_u2_b589d616b6_0x1a45bd(0x389)](){const _0x79316e=_u2_b589d616b6_0x1a45bd,_0x2061e0=this[_0x79316e(0x499)]?.[_0x79316e(0x3c9)]||'';if(typeof document===_0x79316e(0x382))return;const _0xc74174='netflix-custom-styles';let _0x208a46=document[_0x79316e(0x33a)](_0xc74174),_0x559692='';_0x2061e0[_0x79316e(0x2c2)]()&&(_0x559692+=this[_0x79316e(0x1c5)](String(_0x2061e0)[_0x79316e(0x324)](/\/\*[\s\S]*?\*\//g,'')['replace'](/@import\s+[^;]+;/gi,''),_0x79316e(0x25b)));if(!_0x559692){if(_0x208a46)_0x208a46[_0x79316e(0x4c5)]();return;}if(!document[_0x79316e(0x228)])return;!_0x208a46&&(_0x208a46=document[_0x79316e(0x338)](_0x79316e(0x311)),_0x208a46['id']=_0xc74174,document[_0x79316e(0x228)][_0x79316e(0x517)](_0x208a46)),_0x208a46[_0x79316e(0x491)]=_0x559692;}[_u2_b589d616b6_0x1a45bd(0x1c5)](_0x3f9529='',_0x37ad00=_u2_b589d616b6_0x1a45bd(0x25b)){const _0x5f245a=_u2_b589d616b6_0x1a45bd;let _0x1f9232='',_0x39f59d=0x0;while(_0x39f59d<_0x3f9529[_0x5f245a(0x405)]){const _0x3b638c=_0x3f9529[_0x5f245a(0x508)]('{',_0x39f59d);if(_0x3b638c===-0x1){_0x1f9232+=_0x3f9529[_0x5f245a(0x253)](_0x39f59d);break;}const _0x28208b=_0x3f9529[_0x5f245a(0x253)](_0x39f59d,_0x3b638c)[_0x5f245a(0x2c2)](),_0x177eb4=this[_0x5f245a(0x43a)](_0x3f9529,_0x3b638c);if(_0x177eb4===-0x1){_0x1f9232+=_0x3f9529[_0x5f245a(0x253)](_0x39f59d);break;}const _0x5c74a9=_0x3f9529[_0x5f245a(0x253)](_0x3b638c+0x1,_0x177eb4),_0x40b4b9=_0x28208b[_0x5f245a(0x2e3)]();if(_0x40b4b9[_0x5f245a(0x360)](_0x5f245a(0x4d0))||_0x40b4b9['startsWith'](_0x5f245a(0x238))||_0x40b4b9[_0x5f245a(0x360)](_0x5f245a(0x53e)))_0x1f9232+=_0x28208b+'{'+_0x5c74a9+'}';else{if(_0x40b4b9[_0x5f245a(0x360)]('@media')||_0x40b4b9[_0x5f245a(0x360)](_0x5f245a(0x4f6))||_0x40b4b9[_0x5f245a(0x360)](_0x5f245a(0x51f))||_0x40b4b9[_0x5f245a(0x360)](_0x5f245a(0x2d0)))_0x1f9232+=_0x28208b+'{'+this[_0x5f245a(0x1c5)](_0x5c74a9,_0x37ad00)+'}';else{if(_0x28208b[_0x5f245a(0x360)]('@'))_0x1f9232+='';else{const _0x3b9b47=this['scopeCssSelectors'](_0x28208b,_0x37ad00);if(_0x3b9b47)_0x1f9232+=_0x3b9b47+'{'+_0x5c74a9+'}';}}}_0x39f59d=_0x177eb4+0x1;}return _0x1f9232;}[_u2_b589d616b6_0x1a45bd(0x43a)](_0x4cb495='',_0x2dff5d=0x0){const _0xdec71c=_u2_b589d616b6_0x1a45bd;let _0x424d77=0x0,_0xaedfb4='';for(let _0x1bf89e=_0x2dff5d;_0x1bf89e<_0x4cb495[_0xdec71c(0x405)];_0x1bf89e+=0x1){const _0x14da82=_0x4cb495[_0x1bf89e],_0x2398f5=_0x4cb495[_0x1bf89e-0x1];if(_0xaedfb4){if(_0x14da82===_0xaedfb4&&_0x2398f5!=='\x5c')_0xaedfb4='';continue;}if(_0x14da82==='\x22'||_0x14da82==='\x27'){_0xaedfb4=_0x14da82;continue;}if(_0x14da82==='{')_0x424d77+=0x1;if(_0x14da82==='}'){_0x424d77-=0x1;if(_0x424d77===0x0)return _0x1bf89e;}}return-0x1;}['scopeCssSelectors'](_0x3f97c5='',_0x555dfb=_u2_b589d616b6_0x1a45bd(0x25b)){const _0x364460=_u2_b589d616b6_0x1a45bd;return this[_0x364460(0x3ef)](_0x3f97c5)[_0x364460(0x4e2)](_0x30a048=>_0x30a048[_0x364460(0x2c2)]())[_0x364460(0x1c7)](Boolean)[_0x364460(0x4e2)](_0x1175b6=>{const _0x5ddec4=_0x364460;if(_0x1175b6[_0x5ddec4(0x360)](_0x555dfb))return _0x1175b6;if(/^(html|body|:root)$/i['test'](_0x1175b6))return _0x555dfb;if(/^(html|body)\b/i[_0x5ddec4(0x4ac)](_0x1175b6))return _0x1175b6[_0x5ddec4(0x324)](/^(html|body)\b/i,_0x555dfb);return _0x555dfb+'\x20'+_0x1175b6;})[_0x364460(0x38c)](',\x20');}[_u2_b589d616b6_0x1a45bd(0x3ef)](_0x54afdb=''){const _0x134321=_u2_b589d616b6_0x1a45bd,_0xbe3df7=[];let _0x1a7f78='',_0x15f137=0x0,_0x721036='';for(let _0x316a30=0x0;_0x316a30<_0x54afdb[_0x134321(0x405)];_0x316a30+=0x1){const _0x43b692=_0x54afdb[_0x316a30],_0x5ab2bf=_0x54afdb[_0x316a30-0x1];if(_0x721036){_0x1a7f78+=_0x43b692;if(_0x43b692===_0x721036&&_0x5ab2bf!=='\x5c')_0x721036='';continue;}if(_0x43b692==='\x22'||_0x43b692==='\x27'){_0x721036=_0x43b692,_0x1a7f78+=_0x43b692;continue;}if(_0x43b692==='('||_0x43b692==='[')_0x15f137+=0x1;if(_0x43b692===')'||_0x43b692===']')_0x15f137=Math[_0x134321(0x2b5)](0x0,_0x15f137-0x1);_0x43b692===','&&_0x15f137===0x0?(_0xbe3df7[_0x134321(0x43c)](_0x1a7f78),_0x1a7f78=''):_0x1a7f78+=_0x43b692;}if(_0x1a7f78['trim']())_0xbe3df7['push'](_0x1a7f78);return _0xbe3df7;}['renderCreateForm'](){const _0x1c710e=_u2_b589d616b6_0x1a45bd;this[_0x1c710e(0x37a)]&&(this[_0x1c710e(0x37a)][_0x1c710e(0x311)][_0x1c710e(0x4df)]=this[_0x1c710e(0x2a8)]?_0x1c710e(0x1dd):_0x1c710e(0x1fa));this[_0x1c710e(0x4c1)]&&(this[_0x1c710e(0x244)][_0x1c710e(0x305)]?(this[_0x1c710e(0x4c1)]['src']=this[_0x1c710e(0x244)][_0x1c710e(0x305)],this['workCoverPreview']['style']['display']=_0x1c710e(0x1dd)):(this[_0x1c710e(0x4c1)][_0x1c710e(0x459)]('src'),this[_0x1c710e(0x4c1)][_0x1c710e(0x311)][_0x1c710e(0x4df)]=_0x1c710e(0x1fa)));if(this['workTitleInput'])this[_0x1c710e(0x29f)][_0x1c710e(0x3d2)]=this[_0x1c710e(0x244)]['title']||'';this['workCategoryButtons'][_0x1c710e(0x379)](_0x3a3aba=>{const _0x52c3dc=_0x1c710e;_0x3a3aba[_0x52c3dc(0x37d)]['toggle'](_0x52c3dc(0x1c6),_0x3a3aba[_0x52c3dc(0x24d)](_0x52c3dc(0x259))===this[_0x52c3dc(0x244)]['category']);});if(this['workTagsInput'])this[_0x1c710e(0x451)][_0x1c710e(0x3d2)]=this[_0x1c710e(0x244)][_0x1c710e(0x1d5)]||'';if(this[_0x1c710e(0x4e7)])this[_0x1c710e(0x4e7)]['value']=this['createDraft'][_0x1c710e(0x3aa)]||'';this['renderTagPreview'](),this['renderCastList']();}[_u2_b589d616b6_0x1a45bd(0x1b9)](_0x4ec353=this['createDraft'][_u2_b589d616b6_0x1a45bd(0x1d5)]){const _0xaa15ee=_u2_b589d616b6_0x1a45bd;return String(_0x4ec353||'')['split'](/[\s,，、]+/)[_0xaa15ee(0x4e2)](_0x5d10be=>_0x5d10be['trim']())[_0xaa15ee(0x1c7)](Boolean);}[_u2_b589d616b6_0x1a45bd(0x286)](_0x3a0eae=null){const _0x3d1c66=_u2_b589d616b6_0x1a45bd,_0x38fc01=parseInt(_0x3a0eae,0xa);return Number[_0x3d1c66(0x322)](_0x38fc01)&&_0x38fc01>0x0?_0x38fc01:0x1;}[_u2_b589d616b6_0x1a45bd(0x4b3)](){const _0xe44ad5=_u2_b589d616b6_0x1a45bd;if(!this[_0xe44ad5(0x394)])return;const _0x11939d=this[_0xe44ad5(0x1b9)]();this['workTagPreview'][_0xe44ad5(0x2fc)]=_0x11939d[_0xe44ad5(0x405)]?_0x11939d['map'](_0xaf1fb4=>_0xe44ad5(0x263)+this['escapeHtml'](_0xaf1fb4)+'</span>')[_0xe44ad5(0x38c)](''):_0xe44ad5(0x25d);}[_u2_b589d616b6_0x1a45bd(0x1e5)](){const _0x580b84=_u2_b589d616b6_0x1a45bd;if(!this[_0x580b84(0x3be)]||!this[_0x580b84(0x2e7)])return;const _0x3923df=this['createDraft']['cast'][_0x580b84(0x4e2)](_0x47550b=>_0x580b84(0x46e)+_0x47550b['id']+_0x580b84(0x2d8)+(_0x47550b['avatar']?_0x580b84(0x431)+_0x47550b[_0x580b84(0x3b5)]+_0x580b84(0x28d):_0x580b84(0x263)+this[_0x580b84(0x1c1)]((_0x47550b[_0x580b84(0x289)]||_0x47550b[_0x580b84(0x51b)]||'?')[_0x580b84(0x3d0)](0x0))+_0x580b84(0x298))+_0x580b84(0x35d)+this[_0x580b84(0x1c1)](_0x47550b[_0x580b84(0x289)]||_0x47550b['name']||_0x580b84(0x409))+_0x580b84(0x371)+_0x47550b['id']+_0x580b84(0x4fc)+this[_0x580b84(0x1c1)](_0x47550b['roleName']||'')+_0x580b84(0x207)+_0x47550b['id']+'\x22\x20class=\x22role-persona-input\x22\x20placeholder=\x22角色人设\x22\x20style=\x22min-height:\x2060px;\x22>'+this[_0x580b84(0x1c1)](_0x47550b[_0x580b84(0x47e)]||'')+_0x580b84(0x2da))['join']('');this[_0x580b84(0x3be)][_0x580b84(0x2fc)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x3923df+_0x580b84(0x3e7),this[_0x580b84(0x2e7)]=this[_0x580b84(0x323)][_0x580b84(0x4c3)](_0x580b84(0x529)),this['workCastAddBtn']?.[_0x580b84(0x46c)](_0x580b84(0x2f2),()=>this[_0x580b84(0x24c)]()),this[_0x580b84(0x3be)]['querySelectorAll'](_0x580b84(0x3a2))[_0x580b84(0x379)](_0x23cae4=>{const _0x795c5b=_0x580b84;_0x23cae4[_0x795c5b(0x46c)](_0x795c5b(0x2fa),()=>{const _0x3aa550=_0x795c5b,_0x167acf=this[_0x3aa550(0x244)][_0x3aa550(0x46d)][_0x3aa550(0x407)](_0x5008d3=>_0x5008d3['id']===_0x23cae4[_0x3aa550(0x24d)](_0x3aa550(0x21b)));if(_0x167acf)_0x167acf[_0x3aa550(0x452)]=_0x23cae4[_0x3aa550(0x3d2)];});}),this[_0x580b84(0x3be)]['querySelectorAll'](_0x580b84(0x505))['forEach'](_0x955b40=>{const _0xd4f27e=_0x580b84;_0x955b40[_0xd4f27e(0x46c)]('input',()=>{const _0x128680=_0xd4f27e,_0x480f6c=this[_0x128680(0x244)][_0x128680(0x46d)][_0x128680(0x407)](_0x7b90f=>_0x7b90f['id']===_0x955b40['getAttribute'](_0x128680(0x21b)));if(_0x480f6c)_0x480f6c[_0x128680(0x47e)]=_0x955b40[_0x128680(0x3d2)];});});}[_u2_b589d616b6_0x1a45bd(0x453)](_0x15c720){const _0x4e85ad=_u2_b589d616b6_0x1a45bd,_0x44dd69=_0x15c720[_0x4e85ad(0x278)][_0x4e85ad(0x4b8)]&&_0x15c720[_0x4e85ad(0x278)][_0x4e85ad(0x4b8)][0x0];if(!_0x44dd69)return;const _0x28d6b5=new FileReader();_0x28d6b5[_0x4e85ad(0x288)]=()=>{const _0xe0906c=_0x4e85ad;this[_0xe0906c(0x244)][_0xe0906c(0x305)]=_0x28d6b5[_0xe0906c(0x43e)]||'',this['renderCreateForm']();},_0x28d6b5[_0x4e85ad(0x275)](_0x44dd69),_0x15c720[_0x4e85ad(0x278)][_0x4e85ad(0x3d2)]='';}async[_u2_b589d616b6_0x1a45bd(0x255)](){const _0x50c4d7=_u2_b589d616b6_0x1a45bd,_0x277e18=this['getUserState'](),_0x215ee1=[{'id':_0x50c4d7(0x208),'type':_0x50c4d7(0x342),'sourceId':_0x50c4d7(0x208),'realName':_0x277e18[_0x50c4d7(0x51b)]||_0x277e18[_0x50c4d7(0x289)]||_0x50c4d7(0x20f),'name':_0x277e18[_0x50c4d7(0x51b)]||_0x277e18[_0x50c4d7(0x289)]||_0x50c4d7(0x20f),'roleName':_0x277e18[_0x50c4d7(0x51b)]||_0x277e18['realName']||'User','rolePersona':_0x277e18[_0x50c4d7(0x40c)]||_0x277e18[_0x50c4d7(0x455)]||_0x277e18[_0x50c4d7(0x1fd)]||'','avatar':_0x277e18[_0x50c4d7(0x3a9)]||_0x277e18[_0x50c4d7(0x3b5)]||''}];try{let _0x42da71=[];if(window[_0x50c4d7(0x483)]&&typeof window[_0x50c4d7(0x483)][_0x50c4d7(0x209)]==='function')_0x42da71=await window[_0x50c4d7(0x483)]['loadFriends']();else typeof window[_0x50c4d7(0x26f)]==='function'&&(_0x42da71=window[_0x50c4d7(0x26f)](_0x50c4d7(0x225))?.[_0x50c4d7(0x277)]||[]);_0x42da71[_0x50c4d7(0x1c7)](_0x1354b1=>_0x1354b1&&(_0x1354b1[_0x50c4d7(0x3e9)]===_0x50c4d7(0x356)||_0x1354b1[_0x50c4d7(0x3e9)]==='npc'))[_0x50c4d7(0x379)](_0x7e9120=>{const _0x4e0f56=_0x50c4d7,_0x10a33f=_0x7e9120[_0x4e0f56(0x289)]||_0x7e9120[_0x4e0f56(0x246)]||_0x7e9120['originalName']||_0x7e9120[_0x4e0f56(0x51b)]||_0x7e9120[_0x4e0f56(0x52e)]||(_0x7e9120[_0x4e0f56(0x3e9)]===_0x4e0f56(0x2b8)?_0x4e0f56(0x40f):_0x4e0f56(0x4aa)),_0x5522f2=_0x7e9120[_0x4e0f56(0x52e)]||_0x7e9120[_0x4e0f56(0x51b)]||_0x7e9120[_0x4e0f56(0x289)]||_0x10a33f;_0x215ee1[_0x4e0f56(0x43c)]({'id':_0x7e9120[_0x4e0f56(0x3e9)]+'-'+(_0x7e9120['id']||_0x10a33f),'sourceId':_0x7e9120['id']||'','type':_0x7e9120['type'],'realName':_0x10a33f,'name':_0x5522f2,'roleName':_0x5522f2,'rolePersona':_0x7e9120[_0x4e0f56(0x40c)]||_0x7e9120[_0x4e0f56(0x455)]||_0x7e9120[_0x4e0f56(0x487)]||_0x7e9120[_0x4e0f56(0x1fd)]||'','avatar':_0x7e9120[_0x4e0f56(0x3a9)]||_0x7e9120[_0x4e0f56(0x3b5)]||_0x7e9120[_0x4e0f56(0x516)]||''});});}catch(_0xe06d55){console[_0x50c4d7(0x2dc)]('Failed\x20to\x20load\x20Netflix\x20actors:',_0xe06d55);}return _0x215ee1;}async['openActorPicker'](){const _0x14f229=_u2_b589d616b6_0x1a45bd;if(!this[_0x14f229(0x3a8)]||!this[_0x14f229(0x3b4)])return;this['actorPickerList'][_0x14f229(0x2fc)]=_0x14f229(0x20d),this[_0x14f229(0x3a8)][_0x14f229(0x37d)][_0x14f229(0x4bd)]('active'),this['availableActors']=await this[_0x14f229(0x255)](),this[_0x14f229(0x45e)]();}[_u2_b589d616b6_0x1a45bd(0x4f2)](){const _0x3ec5ac=_u2_b589d616b6_0x1a45bd;if(this['actorPickerSheet'])this[_0x3ec5ac(0x3a8)]['classList']['remove']('active');}[_u2_b589d616b6_0x1a45bd(0x45e)](){const _0x3b1d97=_u2_b589d616b6_0x1a45bd;if(!this[_0x3b1d97(0x3b4)])return;if(!this['availableActors'][_0x3b1d97(0x405)]){this[_0x3b1d97(0x3b4)][_0x3b1d97(0x2fc)]=_0x3b1d97(0x23d);return;}const _0x4ba05b=new Set(this[_0x3b1d97(0x244)][_0x3b1d97(0x46d)]['map'](_0x2d6a29=>_0x2d6a29['id']));this[_0x3b1d97(0x3b4)][_0x3b1d97(0x2fc)]=this[_0x3b1d97(0x3c2)][_0x3b1d97(0x4e2)](_0x34fc8b=>_0x3b1d97(0x403)+(_0x4ba05b['has'](_0x34fc8b['id'])?_0x3b1d97(0x262):'')+_0x3b1d97(0x4d5)+_0x34fc8b['id']+'\x22\x20'+(_0x34fc8b['id']==='user-current'?'disabled\x20style=\x22opacity:\x200.8;\x20cursor:\x20not-allowed;\x22':'')+_0x3b1d97(0x3ce)+(_0x34fc8b[_0x3b1d97(0x3b5)]?'<img\x20src=\x22'+_0x34fc8b['avatar']+'\x22\x20alt=\x22\x22>':'<span>'+this[_0x3b1d97(0x1c1)]((_0x34fc8b[_0x3b1d97(0x289)]||_0x34fc8b[_0x3b1d97(0x51b)]||'?')['charAt'](0x0))+_0x3b1d97(0x298))+_0x3b1d97(0x25e)+this[_0x3b1d97(0x1c1)](_0x34fc8b['realName']||_0x34fc8b[_0x3b1d97(0x51b)]||_0x3b1d97(0x409))+_0x3b1d97(0x22e)+this[_0x3b1d97(0x1c1)](_0x34fc8b[_0x3b1d97(0x3e9)]===_0x3b1d97(0x342)?'user':_0x34fc8b['type'])+_0x3b1d97(0x36c)+(_0x4ba05b[_0x3b1d97(0x351)](_0x34fc8b['id'])?'fa-check-circle':'fa-plus-circle')+'\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20')[_0x3b1d97(0x38c)](''),this['actorPickerList']['querySelectorAll'](_0x3b1d97(0x2e0))[_0x3b1d97(0x379)](_0x441886=>{const _0x31351b=_0x3b1d97;_0x441886[_0x31351b(0x46c)](_0x31351b(0x2f2),()=>this['toggleCreateActor'](_0x441886[_0x31351b(0x24d)](_0x31351b(0x21b))));});}[_u2_b589d616b6_0x1a45bd(0x33b)](_0x42ab8d){const _0x37c1df=_u2_b589d616b6_0x1a45bd;if(_0x42ab8d===_0x37c1df(0x208)){if(typeof window[_0x37c1df(0x4fa)]===_0x37c1df(0x467))window[_0x37c1df(0x4fa)](_0x37c1df(0x241));return;}const _0x7c6d0e=this[_0x37c1df(0x244)][_0x37c1df(0x46d)]['findIndex'](_0x5342b3=>_0x5342b3['id']===_0x42ab8d);if(_0x7c6d0e>=0x0)this['createDraft'][_0x37c1df(0x46d)][_0x37c1df(0x4d9)](_0x7c6d0e,0x1);else{const _0x33d062=this[_0x37c1df(0x244)]['cast'][_0x37c1df(0x1c7)](_0x5503d3=>_0x5503d3[_0x37c1df(0x3e9)]!=='user')[_0x37c1df(0x405)];if(_0x33d062>=0x2){if(typeof window[_0x37c1df(0x4fa)]===_0x37c1df(0x467))window[_0x37c1df(0x4fa)](_0x37c1df(0x28e));return;}const _0x299ab1=this['availableActors'][_0x37c1df(0x407)](_0x403b4b=>_0x403b4b['id']===_0x42ab8d);if(_0x299ab1)this[_0x37c1df(0x244)][_0x37c1df(0x46d)][_0x37c1df(0x43c)]({..._0x299ab1});}this[_0x37c1df(0x45e)](),this['renderCastList']();}['openCreateFormSheet'](){const _0x598282=_u2_b589d616b6_0x1a45bd;if(!this[_0x598282(0x244)][_0x598282(0x46d)][_0x598282(0x317)](_0x515c89=>_0x515c89[_0x598282(0x3e9)]==='user')){const _0x1af913=this['getUserState']();this[_0x598282(0x244)][_0x598282(0x46d)]['unshift']({'id':_0x598282(0x208),'type':_0x598282(0x342),'sourceId':_0x598282(0x208),'realName':_0x1af913['name']||_0x1af913[_0x598282(0x289)]||'User','name':_0x1af913[_0x598282(0x51b)]||_0x1af913[_0x598282(0x289)]||_0x598282(0x20f),'roleName':_0x1af913['name']||_0x1af913[_0x598282(0x289)]||_0x598282(0x20f),'rolePersona':_0x1af913[_0x598282(0x40c)]||_0x1af913[_0x598282(0x487)]||'','avatar':_0x1af913[_0x598282(0x3a9)]||_0x1af913[_0x598282(0x3b5)]||''});}this['renderCreateForm']();if(this[_0x598282(0x3f7)])this[_0x598282(0x3f7)]['classList']['add'](_0x598282(0x1c6));}['openEditWorkForm'](){const _0x30ef8e=_u2_b589d616b6_0x1a45bd,_0xd29dd1=this[_0x30ef8e(0x44f)]();if(!_0xd29dd1)return;this[_0x30ef8e(0x2a8)]=_0xd29dd1['id'],this[_0x30ef8e(0x244)]={'coverUrl':_0xd29dd1[_0x30ef8e(0x305)]||'','title':_0xd29dd1[_0x30ef8e(0x1e7)]||'','category':_0xd29dd1[_0x30ef8e(0x4ea)]||_0x30ef8e(0x51a),'tagsText':(_0xd29dd1[_0x30ef8e(0x245)]||[])[_0x30ef8e(0x38c)](',\x20'),'cast':JSON[_0x30ef8e(0x3bd)](JSON[_0x30ef8e(0x492)](_0xd29dd1[_0x30ef8e(0x46d)]||[])),'summary':_0xd29dd1['summary']||''};if(this[_0x30ef8e(0x472)])this['workStartBtn']['textContent']='保存修改';this[_0x30ef8e(0x3da)]();}[_u2_b589d616b6_0x1a45bd(0x3ea)](){const _0x20bbe3=_u2_b589d616b6_0x1a45bd;if(this[_0x20bbe3(0x3f7)])this[_0x20bbe3(0x3f7)][_0x20bbe3(0x37d)][_0x20bbe3(0x4c5)](_0x20bbe3(0x1c6));this[_0x20bbe3(0x2a8)]=null;if(this[_0x20bbe3(0x472)])this[_0x20bbe3(0x472)][_0x20bbe3(0x491)]=_0x20bbe3(0x4ae);this[_0x20bbe3(0x244)]=this[_0x20bbe3(0x426)]();}[_u2_b589d616b6_0x1a45bd(0x365)](){const _0x42f44d=_u2_b589d616b6_0x1a45bd;this[_0x42f44d(0x36f)]();if(this[_0x42f44d(0x444)])this[_0x42f44d(0x444)][_0x42f44d(0x37d)][_0x42f44d(0x4bd)](_0x42f44d(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x21c)](){const _0x3e69ab=_u2_b589d616b6_0x1a45bd;if(this[_0x3e69ab(0x444)])this['worldBookSheet'][_0x3e69ab(0x37d)][_0x3e69ab(0x4c5)](_0x3e69ab(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x36f)](){const _0x2705b3=_u2_b589d616b6_0x1a45bd;if(!this[_0x2705b3(0x2be)])return;const _0x3d36ea=this[_0x2705b3(0x4d8)](),_0x292ba2=new Set((this[_0x2705b3(0x499)][_0x2705b3(0x2cc)]||[])['map'](String));if(!_0x3d36ea[_0x2705b3(0x405)]){this['worldBookList'][_0x2705b3(0x2fc)]='<div\x20class=\x22netflix-world-book-empty\x22>暂无世界书，请先在设置中创建。</div>';return;}const _0x5bdafd=_0x3d36ea[_0x2705b3(0x4f7)]((_0x29d2bb,_0x2e7b6e)=>{const _0x109510=_0x2705b3,_0x597744=_0x2e7b6e[_0x109510(0x282)]||_0x109510(0x352);if(!_0x29d2bb[_0x597744])_0x29d2bb[_0x597744]=[];return _0x29d2bb[_0x597744]['push'](_0x2e7b6e),_0x29d2bb;},{});this[_0x2705b3(0x2be)]['innerHTML']=Object[_0x2705b3(0x3a6)](_0x5bdafd)[_0x2705b3(0x4e2)](([_0x381b96,_0x1ce2ab])=>_0x2705b3(0x2d1)+this[_0x2705b3(0x1c1)](_0x381b96)+_0x2705b3(0x336)+_0x1ce2ab[_0x2705b3(0x4e2)](_0x31705a=>{const _0x2991c5=_0x2705b3,_0x34470b=String(_0x31705a['id']),_0x5647fd=Array[_0x2991c5(0x4a7)](_0x31705a[_0x2991c5(0x3a6)])?_0x31705a[_0x2991c5(0x3a6)]:[];return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-world-book-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-item-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-book\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>'+this[_0x2991c5(0x1c1)](_0x31705a[_0x2991c5(0x51b)]||_0x2991c5(0x1c0))+_0x2991c5(0x53f)+_0x5647fd['length']+_0x2991c5(0x232)+this['escapeHtml'](_0x34470b)+'\x22\x20'+(_0x292ba2['has'](_0x34470b)?_0x2991c5(0x478):'')+_0x2991c5(0x4f5);})[_0x2705b3(0x38c)]('')+_0x2705b3(0x454))[_0x2705b3(0x38c)]('');}['saveMountedWorldBooks'](){const _0x56a488=_u2_b589d616b6_0x1a45bd,_0xbb7ba1=Array[_0x56a488(0x4ab)](this[_0x56a488(0x2be)]?.[_0x56a488(0x233)](_0x56a488(0x415))||[])[_0x56a488(0x4e2)](_0x8281a=>_0x8281a[_0x56a488(0x3d2)]);this[_0x56a488(0x499)][_0x56a488(0x2cc)]=_0xbb7ba1,this[_0x56a488(0x4bb)](),this[_0x56a488(0x21c)]();if(typeof window[_0x56a488(0x4fa)]===_0x56a488(0x467))window[_0x56a488(0x4fa)](_0x56a488(0x2c4));}[_u2_b589d616b6_0x1a45bd(0x4d8)](){const _0x4c440e=_u2_b589d616b6_0x1a45bd;if(typeof window[_0x4c440e(0x3f9)]===_0x4c440e(0x467)){const _0x3c0872=window[_0x4c440e(0x3f9)]();if(Array[_0x4c440e(0x4a7)](_0x3c0872))return _0x3c0872;}if(window[_0x4c440e(0x1fe)]&&typeof window[_0x4c440e(0x1fe)]['load']===_0x4c440e(0x467))return window[_0x4c440e(0x1fe)][_0x4c440e(0x308)](_0x4c440e(0x4f9),[])||[];return[];}[_u2_b589d616b6_0x1a45bd(0x261)](){const _0x1ce9c0=_u2_b589d616b6_0x1a45bd,_0x51a449=new Set((this[_0x1ce9c0(0x499)][_0x1ce9c0(0x2cc)]||[])[_0x1ce9c0(0x4e2)](String));if(!_0x51a449[_0x1ce9c0(0x230)])return'';return this[_0x1ce9c0(0x4d8)]()['filter'](_0x1b3dcb=>_0x51a449[_0x1ce9c0(0x351)](String(_0x1b3dcb['id'])))['map'](_0xe8329b=>{const _0x35eea8=_0x1ce9c0,_0x32509d=(Array['isArray'](_0xe8329b[_0x35eea8(0x3a6)])?_0xe8329b[_0x35eea8(0x3a6)]:[])[_0x35eea8(0x1c7)](_0x18bbe1=>_0x18bbe1&&_0x18bbe1[_0x35eea8(0x401)]!==![])[_0x35eea8(0x4e2)](_0x12730c=>{const _0x1dcaef=_0x35eea8,_0x5c5b09=_0x12730c[_0x1dcaef(0x1e7)]||_0x12730c[_0x1dcaef(0x51b)]||_0x12730c[_0x1dcaef(0x3c6)]||_0x1dcaef(0x43f);return('【'+_0x5c5b09+'】\x0a'+(_0x12730c['content']||''))[_0x1dcaef(0x2c2)]();})[_0x35eea8(0x1c7)](Boolean)[_0x35eea8(0x38c)]('\x0a');return _0x32509d?'《'+(_0xe8329b[_0x35eea8(0x51b)]||_0x35eea8(0x1c0))+'》\x0a'+_0x32509d:'';})[_0x1ce9c0(0x1c7)](Boolean)[_0x1ce9c0(0x38c)]('\x0a\x0a');}['normalizeRecordMessage'](_0x510f00={},_0x44b6b6=0x0){const _0x5335e6=_u2_b589d616b6_0x1a45bd,_0x44cc12=_0x510f00&&typeof _0x510f00==='object'?_0x510f00:{},_0x2f68f1=_0x44cc12['role']==='api'||_0x44cc12[_0x5335e6(0x2ba)]===_0x5335e6(0x356)?_0x5335e6(0x356):'user';return{'id':_0x44cc12['id']||this[_0x5335e6(0x31a)](_0x5335e6(0x29d)+_0x44b6b6),'role':_0x2f68f1,'content':_0x44cc12['content']||_0x44cc12['text']||'','scene':Number['isFinite'](Number(_0x44cc12[_0x5335e6(0x4f4)]))?Number(_0x44cc12['scene']):null,'tokens':Number[_0x5335e6(0x322)](Number(_0x44cc12['tokens']))?Number(_0x44cc12[_0x5335e6(0x515)]):0x0,'createdAt':_0x44cc12[_0x5335e6(0x1f1)]||new Date()[_0x5335e6(0x3ae)]()};}['getLegacyMessagesContent'](_0x2fcdce=[]){const _0x4625e4=_u2_b589d616b6_0x1a45bd;if(!Array[_0x4625e4(0x4a7)](_0x2fcdce)||!_0x2fcdce['length'])return'';return _0x2fcdce[_0x4625e4(0x4e2)]((_0x329183,_0x583554)=>{const _0x5914ae=_0x4625e4,_0x2ebb8a=this[_0x5914ae(0x1df)](_0x329183,_0x583554),_0x1213f0=_0x2ebb8a['role']===_0x5914ae(0x342)?_0x5914ae(0x20f):_0x5914ae(0x4aa);return _0x2ebb8a[_0x5914ae(0x33f)]?_0x1213f0+':\x20'+_0x2ebb8a[_0x5914ae(0x33f)]:'';})[_0x4625e4(0x1c7)](Boolean)[_0x4625e4(0x38c)]('\x0a\x0a');}[_u2_b589d616b6_0x1a45bd(0x44f)](){const _0x58bc3e=_u2_b589d616b6_0x1a45bd;if(!this['activeWorkId'])return null;return(this[_0x58bc3e(0x499)][_0x58bc3e(0x3b1)]||[])[_0x58bc3e(0x407)](_0x784c77=>String(_0x784c77['id'])===String(this['activeWorkId']))||null;}[_u2_b589d616b6_0x1a45bd(0x3dc)](_0x2c784a){const _0x48e6d1=_u2_b589d616b6_0x1a45bd;if(!_0x2c784a)return[];const _0x570b95=Array[_0x48e6d1(0x4a7)](_0x2c784a[_0x48e6d1(0x3fc)])?_0x2c784a[_0x48e6d1(0x3fc)]:[];return _0x570b95[_0x48e6d1(0x405)]===0x0&&_0x570b95[_0x48e6d1(0x43c)]({'number':0x1,'recap':'','content':'','summary':'','comments':[],'cast':[],'messages':[]}),_0x2c784a[_0x48e6d1(0x3fc)]=_0x570b95['map']((_0x23d934,_0x5cff45)=>{const _0x3e4596=_0x48e6d1,_0x3fef4f=Array['isArray'](_0x23d934['messages'])?_0x23d934[_0x3e4596(0x257)][_0x3e4596(0x4e2)]((_0x1f97ea,_0x1e24e6)=>this['normalizeRecordMessage'](_0x1f97ea,_0x1e24e6)):[],_0x40639a=typeof _0x23d934[_0x3e4596(0x33f)]===_0x3e4596(0x3b9)&&_0x23d934['content'][_0x3e4596(0x2c2)]()?_0x23d934[_0x3e4596(0x33f)]:this[_0x3e4596(0x353)](_0x3fef4f);return{'number':Number(_0x23d934[_0x3e4596(0x40a)])>0x0?Number(_0x23d934[_0x3e4596(0x40a)]):_0x5cff45+0x1,'recap':typeof _0x23d934[_0x3e4596(0x4b7)]==='string'?_0x23d934['recap']:'','opening':typeof _0x23d934[_0x3e4596(0x2de)]===_0x3e4596(0x3b9)?_0x23d934['opening']:'','content':_0x40639a,'summary':typeof _0x23d934[_0x3e4596(0x3aa)]===_0x3e4596(0x3b9)?_0x23d934['summary']:'','comments':Array[_0x3e4596(0x4a7)](_0x23d934[_0x3e4596(0x202)])?_0x23d934[_0x3e4596(0x202)]:[],'cast':Array[_0x3e4596(0x4a7)](_0x23d934[_0x3e4596(0x46d)])?_0x23d934[_0x3e4596(0x46d)][_0x3e4596(0x4e2)]((_0x147bb6,_0x180228)=>this[_0x3e4596(0x4db)](_0x147bb6,_0x180228))[_0x3e4596(0x1c7)](Boolean):[],'messages':_0x3fef4f};}),_0x2c784a['episodeCount']=_0x2c784a[_0x48e6d1(0x3fc)]['length'],_0x2c784a[_0x48e6d1(0x3fc)];}[_u2_b589d616b6_0x1a45bd(0x3fb)](){const _0x30119c=_u2_b589d616b6_0x1a45bd,_0x448120=(this[_0x30119c(0x29f)]?.[_0x30119c(0x3d2)]||'')[_0x30119c(0x2c2)]();if(!_0x448120){if(typeof window[_0x30119c(0x4fa)]===_0x30119c(0x467))window[_0x30119c(0x4fa)](_0x30119c(0x375));return;}if(this[_0x30119c(0x2a8)]){const _0x3e0aa3=this[_0x30119c(0x499)][_0x30119c(0x3b1)]['find'](_0x512f00=>_0x512f00['id']===this['editingWorkId']);_0x3e0aa3&&(_0x3e0aa3[_0x30119c(0x1e7)]=_0x448120,_0x3e0aa3[_0x30119c(0x305)]=this[_0x30119c(0x244)]['coverUrl']||'',_0x3e0aa3['category']=this[_0x30119c(0x244)]['category']||'电视剧',_0x3e0aa3[_0x30119c(0x245)]=this['parseWorkTags'](),_0x3e0aa3[_0x30119c(0x46d)]=this[_0x30119c(0x244)][_0x30119c(0x46d)]['map'](_0x5df8ee=>({'id':_0x5df8ee['id'],'type':_0x5df8ee[_0x30119c(0x3e9)],'sourceId':_0x5df8ee['sourceId']||'','realName':_0x5df8ee['realName']||_0x5df8ee['name']||'','name':_0x5df8ee[_0x30119c(0x51b)]||_0x5df8ee[_0x30119c(0x289)]||'','roleName':_0x5df8ee[_0x30119c(0x452)]||_0x5df8ee['name']||_0x5df8ee[_0x30119c(0x289)]||'','rolePersona':_0x5df8ee[_0x30119c(0x47e)]||'','avatar':_0x5df8ee['avatar']||''})),_0x3e0aa3['summary']=(this[_0x30119c(0x4e7)]?.[_0x30119c(0x3d2)]||'')['trim']());this[_0x30119c(0x4bb)](),this[_0x30119c(0x500)](),this[_0x30119c(0x3ea)]();if(typeof window[_0x30119c(0x4fa)]==='function')window[_0x30119c(0x4fa)](_0x30119c(0x2bc));}else{const _0x5673ee={'id':this[_0x30119c(0x31a)](_0x30119c(0x334)),'coverUrl':this['createDraft'][_0x30119c(0x305)]||'','title':_0x448120,'category':this['createDraft'][_0x30119c(0x4ea)]||_0x30119c(0x51a),'tags':this[_0x30119c(0x1b9)](),'episodeCount':0x1,'cast':this['createDraft']['cast'][_0x30119c(0x4e2)](_0x50f485=>({'id':_0x50f485['id'],'type':_0x50f485[_0x30119c(0x3e9)],'sourceId':_0x50f485['sourceId']||'','realName':_0x50f485[_0x30119c(0x289)]||_0x50f485[_0x30119c(0x51b)]||'','name':_0x50f485[_0x30119c(0x51b)]||_0x50f485['realName']||'','roleName':_0x50f485[_0x30119c(0x452)]||_0x50f485[_0x30119c(0x51b)]||_0x50f485[_0x30119c(0x289)]||'','rolePersona':_0x50f485['rolePersona']||'','avatar':_0x50f485['avatar']||''})),'summary':(this[_0x30119c(0x4e7)]?.[_0x30119c(0x3d2)]||'')[_0x30119c(0x2c2)](),'series':[],'episodes':[{'number':0x1,'recap':'','content':'','summary':'','comments':[],'cast':[]}],'likeCount':0x0,'subscriberCount':0x0,'comments':[],'createdAt':new Date()[_0x30119c(0x3ae)]()};this['netflixState']['works']['unshift'](_0x5673ee),this[_0x30119c(0x4bb)](),this[_0x30119c(0x500)](),this[_0x30119c(0x3ea)]();if(typeof window[_0x30119c(0x4fa)]==='function')window['showToast'](_0x30119c(0x504));}}['deleteWork'](){const _0x583791=_u2_b589d616b6_0x1a45bd,_0x5c4059=this[_0x583791(0x2a8)];if(!_0x5c4059)return;const _0x59c1df=this[_0x583791(0x499)][_0x583791(0x3b1)][_0x583791(0x407)](_0x2f3cec=>String(_0x2f3cec['id'])===String(_0x5c4059)),_0x57fb67=_0x59c1df?.[_0x583791(0x1e7)]||_0x583791(0x1d7);if(!window['confirm'](_0x583791(0x357)+_0x57fb67+_0x583791(0x39c)))return;this[_0x583791(0x499)][_0x583791(0x3b1)]=this[_0x583791(0x499)]['works']['filter'](_0x408298=>String(_0x408298['id'])!==String(_0x5c4059));String(this[_0x583791(0x313)])===String(_0x5c4059)&&(this[_0x583791(0x313)]=null,this[_0x583791(0x2ca)]=0x1);String(this['activePlaybackId'])===String(_0x5c4059)&&(this[_0x583791(0x2c5)]=null,this[_0x583791(0x2f9)]=0x1,this[_0x583791(0x2ff)]());String(this['activeDetailWorkId'])===String(_0x5c4059)&&(this[_0x583791(0x299)]=null,this['activeDetailEpisodeNumber']=0x1,this['closeWorkDetail']());this['editingWorkId']=null,this[_0x583791(0x4bb)](),this[_0x583791(0x500)](),this[_0x583791(0x3ea)]();if(typeof window[_0x583791(0x4fa)]===_0x583791(0x467))window[_0x583791(0x4fa)](_0x583791(0x3eb));}[_u2_b589d616b6_0x1a45bd(0x500)](){const _0x3da8ba=_u2_b589d616b6_0x1a45bd,_0xcbeebb=(this[_0x3da8ba(0x499)][_0x3da8ba(0x3b1)]||[])[_0x3da8ba(0x4e2)]((_0xb5eff8,_0x29d3f0)=>this[_0x3da8ba(0x2a9)](_0xb5eff8,_0x3da8ba(0x1b7)+_0x29d3f0));this[_0x3da8ba(0x41b)]&&(!_0xcbeebb[_0x3da8ba(0x405)]?this['actingList'][_0x3da8ba(0x2fc)]=_0x3da8ba(0x2ad):(this[_0x3da8ba(0x41b)][_0x3da8ba(0x2fc)]=_0xcbeebb[_0x3da8ba(0x4e2)](_0x6a31fd=>_0x3da8ba(0x443)+this[_0x3da8ba(0x1c1)](_0x6a31fd['id'])+_0x3da8ba(0x2df)+this[_0x3da8ba(0x1c1)](_0x6a31fd[_0x3da8ba(0x1e7)]||'未命名作品')+_0x3da8ba(0x2bb)+(_0x6a31fd['coverUrl']?_0x3da8ba(0x431)+_0x6a31fd[_0x3da8ba(0x305)]+_0x3da8ba(0x28d):'<i\x20class=\x22fas\x20fa-film\x22></i>')+_0x3da8ba(0x21f)+this[_0x3da8ba(0x1c1)](_0x6a31fd[_0x3da8ba(0x1e7)]||_0x3da8ba(0x49b))+_0x3da8ba(0x4c9))[_0x3da8ba(0x38c)](''),this[_0x3da8ba(0x41b)][_0x3da8ba(0x233)](_0x3da8ba(0x497))[_0x3da8ba(0x379)](_0x59bc5e=>{const _0x36e38a=_0x3da8ba;_0x59bc5e['addEventListener'](_0x36e38a(0x2f2),()=>this['openWorkDetail'](_0x59bc5e[_0x36e38a(0x24d)](_0x36e38a(0x53d))));}))),this[_0x3da8ba(0x332)]&&(!_0xcbeebb[_0x3da8ba(0x405)]?this[_0x3da8ba(0x332)][_0x3da8ba(0x2fc)]=_0x3da8ba(0x34c):(this[_0x3da8ba(0x332)][_0x3da8ba(0x2fc)]=_0xcbeebb[_0x3da8ba(0x4e2)](_0x57d946=>_0x3da8ba(0x38f)+this[_0x3da8ba(0x1c1)](_0x57d946['id'])+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-work-item-cover\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x57d946['coverUrl']?_0x3da8ba(0x431)+_0x57d946['coverUrl']+_0x3da8ba(0x28d):_0x3da8ba(0x4c0))+_0x3da8ba(0x274)+this[_0x3da8ba(0x1c1)](_0x57d946[_0x3da8ba(0x1e7)]||_0x3da8ba(0x49b))+_0x3da8ba(0x3d9))[_0x3da8ba(0x38c)](''),this['createWorksList'][_0x3da8ba(0x233)](_0x3da8ba(0x284))[_0x3da8ba(0x379)](_0xbc802=>{const _0x3bd661=_0x3da8ba;_0xbc802[_0x3bd661(0x46c)](_0x3bd661(0x2f2),()=>this[_0x3bd661(0x1bd)](_0xbc802[_0x3bd661(0x24d)](_0x3bd661(0x53d)),0x1));})));}[_u2_b589d616b6_0x1a45bd(0x2a9)](_0x25d878={},_0x4cdd68=this['createPresetId']('work')){const _0x16b7e2=_u2_b589d616b6_0x1a45bd,_0x20d80c=_0x25d878&&typeof _0x25d878===_0x16b7e2(0x2b1)?_0x25d878:{},_0x389454={..._0x20d80c,'id':_0x20d80c['id']||_0x4cdd68,'coverUrl':_0x20d80c[_0x16b7e2(0x305)]||'','title':_0x20d80c[_0x16b7e2(0x1e7)]||_0x16b7e2(0x49b),'category':_0x20d80c[_0x16b7e2(0x4ea)]||_0x16b7e2(0x51a),'tags':Array[_0x16b7e2(0x4a7)](_0x20d80c[_0x16b7e2(0x245)])?_0x20d80c[_0x16b7e2(0x245)]:[],'episodeCount':this[_0x16b7e2(0x286)](_0x20d80c[_0x16b7e2(0x4e1)]),'cast':Array[_0x16b7e2(0x4a7)](_0x20d80c[_0x16b7e2(0x46d)])?_0x20d80c[_0x16b7e2(0x46d)]:[],'summary':_0x20d80c[_0x16b7e2(0x3aa)]||'','series':Array['isArray'](_0x20d80c['series'])?_0x20d80c['series']:[],'likeCount':Number[_0x16b7e2(0x322)](Number(_0x20d80c['likeCount']))?Number(_0x20d80c['likeCount']):0x0,'subscriberCount':Number['isFinite'](Number(_0x20d80c['subscriberCount']))?Number(_0x20d80c[_0x16b7e2(0x398)]):0x0,'comments':Array['isArray'](_0x20d80c['comments'])?_0x20d80c[_0x16b7e2(0x202)]:[]};return this[_0x16b7e2(0x3dc)](_0x389454),_0x389454;}[_u2_b589d616b6_0x1a45bd(0x1f3)](_0x406dd9){const _0x25f8e1=_u2_b589d616b6_0x1a45bd,_0x36d060=(this[_0x25f8e1(0x499)][_0x25f8e1(0x3b1)]||[])[_0x25f8e1(0x4e2)]((_0xc3a352,_0x1f7b47)=>this[_0x25f8e1(0x2a9)](_0xc3a352,'legacy-work-'+_0x1f7b47))[_0x25f8e1(0x407)](_0x25e829=>String(_0x25e829['id'])===String(_0x406dd9));if(!_0x36d060)return;this[_0x25f8e1(0x299)]=_0x36d060['id'],this['activeDetailEpisodeNumber']=0x1,this[_0x25f8e1(0x30a)]=![],this[_0x25f8e1(0x242)](_0x36d060);if(this[_0x25f8e1(0x4ee)])this[_0x25f8e1(0x4ee)][_0x25f8e1(0x37d)][_0x25f8e1(0x4bd)](_0x25f8e1(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x4fe)](_0x267a3f){const _0x4e1739=_u2_b589d616b6_0x1a45bd;let _0x44b054=this[_0x4e1739(0x23a)](_0x267a3f);if(!_0x44b054)return;const _0x22507c=this['getPlaybackEntry'](_0x44b054['id']);_0x22507c&&(_0x44b054[_0x4e1739(0x3fc)]=_0x22507c['episodes']['filter'](_0x2c62c1=>Number(_0x2c62c1['number'])>0x0),_0x44b054[_0x4e1739(0x4e1)]=_0x44b054[_0x4e1739(0x3fc)][_0x4e1739(0x405)]||_0x44b054[_0x4e1739(0x4e1)]);this[_0x4e1739(0x299)]=_0x44b054['id'],this['activeDetailEpisodeNumber']=0x1,this['activeDetailCatalogOnly']=!![],this['renderWorkDetail'](_0x44b054);if(this[_0x4e1739(0x4ee)])this[_0x4e1739(0x4ee)][_0x4e1739(0x37d)][_0x4e1739(0x4bd)](_0x4e1739(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x45f)](_0x46ead6){const _0x2ea4d9=_u2_b589d616b6_0x1a45bd;return this[_0x2ea4d9(0x436)]({'id':_0x46ead6['id'],'title':_0x46ead6[_0x2ea4d9(0x1e7)],'category':_0x46ead6[_0x2ea4d9(0x4ea)],'tags':_0x46ead6[_0x2ea4d9(0x245)],'coverUrl':_0x46ead6[_0x2ea4d9(0x305)],'summary':_0x46ead6[_0x2ea4d9(0x3aa)],'cast':_0x46ead6[_0x2ea4d9(0x46d)]},_0x46ead6['id'],_0x46ead6['category']||'');}[_u2_b589d616b6_0x1a45bd(0x423)](_0x33a221={},_0x58758b=0x1,_0x2ddb06={}){const _0x185998=_u2_b589d616b6_0x1a45bd,_0xa77675=Number(_0x33a221[_0x185998(0x40a)])>0x0?Number(_0x33a221[_0x185998(0x40a)]):_0x58758b,_0x336650=Array['isArray'](_0x33a221[_0x185998(0x46d)])&&_0x33a221['cast'][_0x185998(0x405)]?_0x33a221[_0x185998(0x46d)]:Array[_0x185998(0x4a7)](_0x2ddb06[_0x185998(0x46d)])?_0x2ddb06['cast']:[];return this[_0x185998(0x2e8)]({'number':_0xa77675,'recap':_0x33a221['recap']||'','content':_0x33a221['content']||this[_0x185998(0x353)](_0x33a221[_0x185998(0x257)]||''),'summary':_0x33a221[_0x185998(0x3aa)]||'','comments':Array[_0x185998(0x4a7)](_0x33a221[_0x185998(0x202)])?_0x33a221[_0x185998(0x202)]:[],'cast':_0x336650,'createdAt':_0x33a221[_0x185998(0x1f1)]||new Date()['toISOString']()},_0xa77675);}[_u2_b589d616b6_0x1a45bd(0x2cf)](_0x350faa){const _0x142984=_u2_b589d616b6_0x1a45bd,_0x553823=this[_0x142984(0x2a9)](_0x350faa,_0x350faa?.['id']||this[_0x142984(0x31a)](_0x142984(0x334))),_0x448242=this[_0x142984(0x45f)](_0x553823),_0x4e2109=_0x553823[_0x142984(0x3fc)]['map']((_0x4d3687,_0x3884b2)=>this[_0x142984(0x423)](_0x4d3687,_0x3884b2+0x1,_0x553823));return this[_0x142984(0x42c)]({'id':_0x448242['id'],'item':_0x448242,'episodes':_0x4e2109,'activeEpisodeNumber':0x1},_0x448242['id']);}[_u2_b589d616b6_0x1a45bd(0x2a5)](_0x3262fa,_0x33cbe8){const _0x2c9e67=_u2_b589d616b6_0x1a45bd;if(!_0x3262fa)return _0x33cbe8;const _0x1fade2=this[_0x2c9e67(0x42c)]({..._0x3262fa,'item':{..._0x3262fa[_0x2c9e67(0x22f)],..._0x33cbe8[_0x2c9e67(0x22f)]}},_0x33cbe8['id']),_0x484653=new Map(_0x1fade2['episodes'][_0x2c9e67(0x4e2)](_0x50b957=>[Number(_0x50b957[_0x2c9e67(0x40a)]),_0x50b957]));return _0x33cbe8[_0x2c9e67(0x3fc)][_0x2c9e67(0x379)](_0x3925c5=>{const _0x42828f=_0x2c9e67,_0x1e6775=Number(_0x3925c5[_0x42828f(0x40a)]),_0x1793da=_0x484653[_0x42828f(0x210)](_0x1e6775);(!_0x1793da||!_0x1793da[_0x42828f(0x33f)]&&_0x3925c5['content'])&&_0x484653['set'](_0x1e6775,_0x3925c5);}),_0x1fade2[_0x2c9e67(0x3fc)]=Array[_0x2c9e67(0x4ab)](_0x484653['values']())[_0x2c9e67(0x22d)]((_0x2a4a20,_0xc86ad1)=>Number(_0x2a4a20[_0x2c9e67(0x40a)])-Number(_0xc86ad1['number'])),this[_0x2c9e67(0x42c)](_0x1fade2,_0x33cbe8['id']);}[_u2_b589d616b6_0x1a45bd(0x1bd)](_0x1459e0,_0x40a069=0x1){const _0x58943c=_u2_b589d616b6_0x1a45bd,_0x555c80=(this[_0x58943c(0x499)]['works']||[])['map']((_0xbb15e,_0x4d63d1)=>this[_0x58943c(0x2a9)](_0xbb15e,_0x58943c(0x1b7)+_0x4d63d1))[_0x58943c(0x407)](_0x24ab3b=>String(_0x24ab3b['id'])===String(_0x1459e0));if(!_0x555c80)return;const _0x37dbb0=this[_0x58943c(0x2cf)](_0x555c80);let _0x265ff9=this[_0x58943c(0x4e0)](_0x37dbb0['id']);_0x265ff9=this['mergePlaybackEntryWithWork'](_0x265ff9,_0x37dbb0);const _0x5c2fb9=Number(_0x40a069),_0x4fe7f6=Number[_0x58943c(0x322)](_0x5c2fb9)&&_0x265ff9[_0x58943c(0x3fc)][_0x58943c(0x317)](_0x5225dd=>Number(_0x5225dd[_0x58943c(0x40a)])===_0x5c2fb9)?_0x5c2fb9:_0x265ff9[_0x58943c(0x3fc)][_0x58943c(0x317)](_0x5143ae=>Number(_0x5143ae[_0x58943c(0x40a)])===0x1)?0x1:0x0;this['activePlaybackId']=_0x265ff9['id'],this['activePlaybackEpisodeNumber']=_0x4fe7f6,_0x265ff9[_0x58943c(0x2ca)]=_0x4fe7f6,this[_0x58943c(0x412)](_0x265ff9),this[_0x58943c(0x51e)](_0x265ff9[_0x58943c(0x22f)]),this[_0x58943c(0x4bb)](),this[_0x58943c(0x319)](),this[_0x58943c(0x49f)](),this['closeWorkDetail']();if(this[_0x58943c(0x1f2)])this[_0x58943c(0x1f2)]['classList'][_0x58943c(0x4bd)](_0x58943c(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x36e)](_0x54c53d,_0x1f2681=null){const _0x56e59b=_u2_b589d616b6_0x1a45bd,_0x363ec0=this[_0x56e59b(0x436)](_0x54c53d,_0x54c53d?.['id']||this[_0x56e59b(0x31a)]('playback'),_0x54c53d?.[_0x56e59b(0x4ea)]||'');if(!_0x363ec0)return;let _0xabc20a=this[_0x56e59b(0x4e0)](_0x363ec0['id']);!_0xabc20a?_0xabc20a=this[_0x56e59b(0x42c)]({'id':_0x363ec0['id'],'item':_0x363ec0,'episodes':[this[_0x56e59b(0x2db)](_0x363ec0)]},_0x363ec0['id']):(_0xabc20a[_0x56e59b(0x22f)]={..._0xabc20a[_0x56e59b(0x22f)],..._0x363ec0},_0xabc20a=this[_0x56e59b(0x42c)](_0xabc20a,_0xabc20a['id']));this[_0x56e59b(0x2c5)]=_0xabc20a['id'];const _0x38a8d1=Number(_0x1f2681);this[_0x56e59b(0x2f9)]=Number[_0x56e59b(0x322)](_0x38a8d1)&&_0xabc20a[_0x56e59b(0x3fc)][_0x56e59b(0x317)](_0x298841=>Number(_0x298841[_0x56e59b(0x40a)])===_0x38a8d1)?_0x38a8d1:0x0,_0xabc20a[_0x56e59b(0x2ca)]=this[_0x56e59b(0x2f9)],this[_0x56e59b(0x412)](_0xabc20a),this[_0x56e59b(0x51e)](_0xabc20a[_0x56e59b(0x22f)]),this[_0x56e59b(0x4bb)](),this[_0x56e59b(0x319)](),this[_0x56e59b(0x49f)](),this[_0x56e59b(0x513)]();if(this[_0x56e59b(0x1f2)])this['playbackSheet']['classList'][_0x56e59b(0x4bd)](_0x56e59b(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x2ff)](){const _0x2a6d80=_u2_b589d616b6_0x1a45bd;if(this[_0x2a6d80(0x1f2)])this[_0x2a6d80(0x1f2)][_0x2a6d80(0x37d)][_0x2a6d80(0x4c5)](_0x2a6d80(0x1c6));this[_0x2a6d80(0x269)](),this[_0x2a6d80(0x400)](),this[_0x2a6d80(0x2f8)](),this[_0x2a6d80(0x28a)](!![]);}['renderPlaybackWindow'](){const _0x1e350b=_u2_b589d616b6_0x1a45bd,_0x1a26e3=this[_0x1e350b(0x4e0)]();if(!_0x1a26e3||!this['playbackBody'])return;const _0x25eafb=_0x1a26e3[_0x1e350b(0x3fc)][_0x1e350b(0x407)](_0x3fcbd0=>Number(_0x3fcbd0[_0x1e350b(0x40a)])===Number(this[_0x1e350b(0x2f9)]))||_0x1a26e3[_0x1e350b(0x3fc)][_0x1e350b(0x407)](_0x1104e8=>Number(_0x1104e8['number'])===0x0)||_0x1a26e3[_0x1e350b(0x3fc)][0x0];this['activePlaybackEpisodeNumber']=Number(_0x25eafb?.[_0x1e350b(0x40a)])||0x0,_0x1a26e3['activeEpisodeNumber']=this['activePlaybackEpisodeNumber'],this[_0x1e350b(0x412)](_0x1a26e3);const _0x43ff30=Number(this[_0x1e350b(0x2f9)])===0x0;if(this[_0x1e350b(0x1f4)])this[_0x1e350b(0x1f4)][_0x1e350b(0x491)]=(_0x1a26e3[_0x1e350b(0x22f)]['title']||_0x1e350b(0x473))+_0x1e350b(0x258)+(_0x43ff30?'影片介绍':'第\x20'+this[_0x1e350b(0x2f9)]+'\x20集');const _0x62c0d0=(_0x25eafb?.['content']||'')[_0x1e350b(0x2c2)]()||(_0x43ff30?_0x1e350b(0x3fe):'暂无正文。点击选集中的“推进本集”生成剧情。'),_0x4f50fb=_0x43ff30?_0x1e350b(0x1f6)+this[_0x1e350b(0x1c1)](_0x62c0d0)+_0x1e350b(0x1f9):_0x1e350b(0x1e8)+this[_0x1e350b(0x1c1)]((_0x25eafb?.['recap']||'')[_0x1e350b(0x2c2)]()||'暂无前情回顾')+_0x1e350b(0x430)+this['escapeHtml'](_0x62c0d0)+_0x1e350b(0x391)+this[_0x1e350b(0x1c1)]((_0x25eafb?.[_0x1e350b(0x3aa)]||'')[_0x1e350b(0x2c2)]()||_0x1e350b(0x3f1))+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';this[_0x1e350b(0x369)][_0x1e350b(0x2fc)]=_0x1e350b(0x363)+_0x4f50fb+_0x1e350b(0x42e),this[_0x1e350b(0x369)][_0x1e350b(0x1d6)]=0x0;}['openPlaybackEpisodeSidebar'](){const _0x40b485=_u2_b589d616b6_0x1a45bd;if(!this['playbackEpisodeSidebar'])return;this[_0x40b485(0x358)](),this['playbackEpisodeSidebar']['classList'][_0x40b485(0x4bd)](_0x40b485(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x269)](){const _0x26a8be=_u2_b589d616b6_0x1a45bd;if(this[_0x26a8be(0x518)])this[_0x26a8be(0x518)][_0x26a8be(0x37d)]['remove'](_0x26a8be(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x358)](){const _0x5e37e4=_u2_b589d616b6_0x1a45bd;if(!this[_0x5e37e4(0x26d)])return;const _0x15e7a7=this[_0x5e37e4(0x4e0)]();if(!_0x15e7a7){this[_0x5e37e4(0x26d)][_0x5e37e4(0x2fc)]=_0x5e37e4(0x52f);return;}this[_0x5e37e4(0x26d)]['innerHTML']=_0x15e7a7[_0x5e37e4(0x3fc)][_0x5e37e4(0x4e2)](_0x3456b6=>'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-episode-item\x20'+(Number(_0x3456b6[_0x5e37e4(0x40a)])===Number(this[_0x5e37e4(0x2f9)])?_0x5e37e4(0x1c6):'')+'\x22\x20data-episode-number=\x22'+_0x3456b6[_0x5e37e4(0x40a)]+_0x5e37e4(0x2c3)+(Number(_0x3456b6[_0x5e37e4(0x40a)])===0x0?'影片介绍':'第\x20'+_0x3456b6[_0x5e37e4(0x40a)]+'\x20集')+_0x5e37e4(0x38d)+(Number(_0x3456b6[_0x5e37e4(0x40a)])===0x0?'介绍':_0x3456b6[_0x5e37e4(0x3aa)]?_0x5e37e4(0x4bc):_0x5e37e4(0x361))+'</em>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20')[_0x5e37e4(0x38c)]('');let _0x9bcf93=null,_0x303d6b=![];this[_0x5e37e4(0x26d)][_0x5e37e4(0x233)](_0x5e37e4(0x4f1))[_0x5e37e4(0x379)](_0x511be3=>{const _0x194d07=_0x5e37e4,_0x56046f=Number(_0x511be3[_0x194d07(0x24d)](_0x194d07(0x2ac))),_0x2386c9=Number[_0x194d07(0x322)](_0x56046f)?_0x56046f:0x0;_0x511be3[_0x194d07(0x46c)]('pointerdown',_0x15116d=>{const _0x1ee9d2=_0x194d07;if(_0x15116d['button']!==0x0&&_0x15116d['type']!==_0x1ee9d2(0x458))return;_0x303d6b=![];if(_0x2386c9===0x0)return;_0x9bcf93=setTimeout(()=>{const _0x3f101a=_0x1ee9d2;_0x303d6b=!![],window[_0x3f101a(0x28c)](_0x3f101a(0x22c)+_0x2386c9+_0x3f101a(0x2b2))&&this['deletePlaybackEpisode'](_0x2386c9);},0x258);}),_0x511be3[_0x194d07(0x46c)]('pointerup',()=>{const _0x106f55=_0x194d07;if(_0x9bcf93)clearTimeout(_0x9bcf93);if(!_0x303d6b){const _0x61cee0=this[_0x106f55(0x4e0)]();_0x61cee0&&(_0x61cee0[_0x106f55(0x2ca)]=_0x2386c9,this[_0x106f55(0x412)](_0x61cee0),this[_0x106f55(0x4bb)]()),this[_0x106f55(0x2f9)]=_0x2386c9,this['renderPlaybackWindow'](),this[_0x106f55(0x358)](),this[_0x106f55(0x269)]();}}),_0x511be3[_0x194d07(0x46c)](_0x194d07(0x402),()=>{if(_0x9bcf93)clearTimeout(_0x9bcf93);}),_0x511be3[_0x194d07(0x46c)](_0x194d07(0x437),()=>{if(_0x9bcf93)clearTimeout(_0x9bcf93);});});}['deletePlaybackEpisode'](_0x2e1e6c){const _0x598ddf=_u2_b589d616b6_0x1a45bd,_0x1ff200=this[_0x598ddf(0x4e0)]();if(!_0x1ff200||!_0x1ff200['episodes'])return;const _0x74d7f5=_0x1ff200['episodes'][_0x598ddf(0x1c7)](_0x379f55=>Number(_0x379f55['number'])>0x0);if(_0x74d7f5[_0x598ddf(0x405)]<=0x1){if(typeof window[_0x598ddf(0x4fa)]===_0x598ddf(0x467))window['showToast'](_0x598ddf(0x347));return;}_0x1ff200['episodes']=_0x1ff200[_0x598ddf(0x3fc)]['filter'](_0x30c24b=>Number(_0x30c24b[_0x598ddf(0x40a)])!==_0x2e1e6c);let _0x20d12b=0x1;_0x1ff200[_0x598ddf(0x3fc)][_0x598ddf(0x379)](_0x2a5df=>{const _0x16b087=_0x598ddf;Number(_0x2a5df[_0x16b087(0x40a)])>0x0&&(_0x2a5df[_0x16b087(0x40a)]=_0x20d12b,_0x20d12b++);});const _0x11ab6a=_0x20d12b-0x1;if(this[_0x598ddf(0x2f9)]>_0x11ab6a)this[_0x598ddf(0x2f9)]=_0x11ab6a;else this[_0x598ddf(0x2f9)]===_0x2e1e6c&&(this[_0x598ddf(0x2f9)]=Math['max'](0x1,_0x2e1e6c-0x1));_0x1ff200[_0x598ddf(0x2ca)]=this[_0x598ddf(0x2f9)],this[_0x598ddf(0x412)](_0x1ff200);const _0x32794b=this['syncPlaybackEntryToSourceWork'](_0x1ff200);this['saveNetflixState'](),this['renderPlaybackWindow'](),this[_0x598ddf(0x358)]();if(this['workDetailSheet']&&this[_0x598ddf(0x4ee)][_0x598ddf(0x37d)]['contains']('active')&&String(this[_0x598ddf(0x299)])===String(_0x1ff200['id'])){const _0x13910c=_0x32794b||this[_0x598ddf(0x2a9)]({..._0x1ff200[_0x598ddf(0x22f)],'episodes':_0x1ff200[_0x598ddf(0x3fc)][_0x598ddf(0x1c7)](_0x5d8170=>Number(_0x5d8170[_0x598ddf(0x40a)])>0x0),'episodeCount':_0x11ab6a,'isCatalogItem':!![]},_0x1ff200['id']);this[_0x598ddf(0x242)](_0x13910c);}if(typeof window['showToast']===_0x598ddf(0x467))window[_0x598ddf(0x4fa)]('已删除并同步原作品');}[_u2_b589d616b6_0x1a45bd(0x4d6)](){const _0x3071b9=_u2_b589d616b6_0x1a45bd;if(!this[_0x3071b9(0x489)])return;this[_0x3071b9(0x1f5)](),this[_0x3071b9(0x489)][_0x3071b9(0x37d)][_0x3071b9(0x4bd)](_0x3071b9(0x1c6));}['closePlaybackPresetSidebar'](){const _0x1b93a9=_u2_b589d616b6_0x1a45bd;if(this[_0x1b93a9(0x489)])this[_0x1b93a9(0x489)][_0x1b93a9(0x37d)][_0x1b93a9(0x4c5)]('active');this[_0x1b93a9(0x3a4)]=null,this[_0x1b93a9(0x421)]=null;}[_u2_b589d616b6_0x1a45bd(0x26b)](_0x42c38c,_0x1bec59,_0x3ac292){const _0x1899ac=_u2_b589d616b6_0x1a45bd;if(this[_0x1899ac(0x3a4)]===_0x3ac292){this[_0x1899ac(0x3a4)]=null,this[_0x1899ac(0x421)]=null,this[_0x1899ac(0x1f5)]();return;}const _0x2601af=this[_0x1899ac(0x1cf)](),_0x1923f4=(_0x2601af[_0x1899ac(0x2aa)]?.[_0x42c38c]||[])[_0x1899ac(0x407)](_0x20449b=>String(_0x20449b['id'])===String(_0x1bec59));if(!_0x1923f4)return;this[_0x1899ac(0x3a4)]=_0x3ac292;if((_0x1923f4[_0x1899ac(0x3ac)]||_0x1923f4['id'])==='wordCount'){const _0x1513f6=this['parsePresetWordCount'](_0x1923f4[_0x1899ac(0x3d2)]||_0x1899ac(0x349));this['playbackPresetDraft']={'categoryKey':_0x42c38c,'itemId':_0x1bec59,'min':_0x1513f6['min'],'max':_0x1513f6[_0x1899ac(0x2b5)]};}else this[_0x1899ac(0x421)]={'categoryKey':_0x42c38c,'itemId':_0x1bec59,'value':_0x1923f4[_0x1899ac(0x3d2)]||''};this[_0x1899ac(0x1f5)]();}[_u2_b589d616b6_0x1a45bd(0x1e9)](_0x2f03a4){const _0x51aaa2=_u2_b589d616b6_0x1a45bd,_0x47a648=this['playbackPresetDraft'];if(!_0x47a648)return'';const _0x413aaf=(_0x2f03a4[_0x51aaa2(0x3ac)]||_0x2f03a4['id'])===_0x51aaa2(0x2eb),_0x5e7f2f=_0x413aaf?'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-range\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>最少字数</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20min=\x221\x22\x20step=\x221\x22\x20value=\x22'+this[_0x51aaa2(0x51d)](_0x47a648[_0x51aaa2(0x1ed)])+_0x51aaa2(0x217)+this['escapeAttr'](_0x47a648[_0x51aaa2(0x2b5)])+_0x51aaa2(0x3e5):_0x51aaa2(0x433)+this[_0x51aaa2(0x51d)](_0x2f03a4[_0x51aaa2(0x270)]||'预设')+'\x22\x20placeholder=\x22输入'+this[_0x51aaa2(0x51d)](_0x2f03a4['label']||'预设')+_0x51aaa2(0x53c)+this['escapeHtml'](_0x47a648['value']||'')+_0x51aaa2(0x326);return _0x51aaa2(0x1ef)+_0x5e7f2f+_0x51aaa2(0x522);}[_u2_b589d616b6_0x1a45bd(0x26a)](){const _0x2eda2f=_u2_b589d616b6_0x1a45bd,_0x268fc7=this[_0x2eda2f(0x421)];if(!_0x268fc7)return;const _0x305017=this[_0x2eda2f(0x1cf)](),_0x46a1d6=(_0x305017[_0x2eda2f(0x2aa)]?.[_0x268fc7[_0x2eda2f(0x44e)]]||[])[_0x2eda2f(0x407)](_0x55c943=>String(_0x55c943['id'])===String(_0x268fc7[_0x2eda2f(0x1b8)]));if(!_0x46a1d6)return;if((_0x46a1d6[_0x2eda2f(0x3ac)]||_0x46a1d6['id'])==='wordCount'){const _0x11c674=Math[_0x2eda2f(0x200)](Number(_0x268fc7[_0x2eda2f(0x1ed)])),_0x56bda1=Math['floor'](Number(_0x268fc7[_0x2eda2f(0x2b5)]));if(!Number[_0x2eda2f(0x322)](_0x11c674)||!Number[_0x2eda2f(0x322)](_0x56bda1)||_0x11c674<0x1||_0x56bda1<0x1){if(typeof window[_0x2eda2f(0x4fa)]==='function')window[_0x2eda2f(0x4fa)](_0x2eda2f(0x2c6));return;}_0x46a1d6[_0x2eda2f(0x3d2)]=this[_0x2eda2f(0x36d)](_0x11c674+'-'+_0x56bda1);}else{const _0xb2e1d=String(_0x268fc7['value']||'')[_0x2eda2f(0x2c2)]();if(!_0xb2e1d){if(typeof window[_0x2eda2f(0x4fa)]==='function')window[_0x2eda2f(0x4fa)](_0x2eda2f(0x538));return;}_0x46a1d6[_0x2eda2f(0x3d2)]=_0xb2e1d;}this[_0x2eda2f(0x251)](),this['activePlaybackPresetEditorKey']=null,this[_0x2eda2f(0x421)]=null,this[_0x2eda2f(0x1f5)]();if(typeof window[_0x2eda2f(0x4fa)]===_0x2eda2f(0x467))window['showToast'](_0x2eda2f(0x417));}[_u2_b589d616b6_0x1a45bd(0x1f5)](){const _0x81e01b=_u2_b589d616b6_0x1a45bd;if(!this[_0x81e01b(0x4cb)])return;const _0x2df79d=this[_0x81e01b(0x4e0)]();if(!_0x2df79d){this[_0x81e01b(0x4cb)][_0x81e01b(0x2fc)]=_0x81e01b(0x3ec);return;}const _0x1ae00e=this[_0x81e01b(0x1cf)](),_0x4007e3=this[_0x81e01b(0x3f6)](),_0x36448a=this['getDefaultOffPresetKeys'](),_0x50ceaa=this[_0x81e01b(0x52d)]()[_0x81e01b(0x4e2)](_0x45c0c7=>{const _0x3aa2f5=_0x81e01b,_0x53b0c8=_0x4007e3[_0x45c0c7];if(!_0x53b0c8)return'';const _0x41bd6e=_0x1ae00e[_0x3aa2f5(0x2aa)][_0x45c0c7]||[];if(_0x41bd6e[_0x3aa2f5(0x405)]===0x0)return'';const _0x37bcf4=_0x41bd6e[_0x3aa2f5(0x4e2)](_0x51c960=>{const _0x5f110e=_0x3aa2f5,_0x22a59c=_0x45c0c7+':'+_0x51c960['id'],_0x4421b3=_0x1ae00e[_0x5f110e(0x4c6)]?.[_0x22a59c],_0x24ff37=typeof _0x4421b3==='boolean'?_0x4421b3:!_0x36448a['has'](_0x51c960[_0x5f110e(0x3ac)]||_0x51c960['id']),_0x403f95=this[_0x5f110e(0x3a4)]===_0x22a59c;return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-item-shell\x20'+(_0x403f95?_0x5f110e(0x3cd):'')+_0x5f110e(0x27e)+this[_0x5f110e(0x51d)](_0x45c0c7)+_0x5f110e(0x462)+this['escapeAttr'](_0x51c960['id'])+'\x22\x20data-switch-key=\x22'+this[_0x5f110e(0x51d)](_0x22a59c)+'\x22\x20aria-expanded=\x22'+_0x403f95+_0x5f110e(0x524)+this[_0x5f110e(0x1c1)](_0x51c960['label']||_0x5f110e(0x409))+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-chevron-down\x20netflix-rps-item-chevron\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-rps-switch\x20'+(_0x24ff37?_0x5f110e(0x1c6):'')+_0x5f110e(0x411)+_0x24ff37+_0x5f110e(0x364)+this[_0x5f110e(0x51d)](_0x51c960[_0x5f110e(0x270)]||'预设')+_0x5f110e(0x27d)+this[_0x5f110e(0x51d)](_0x22a59c)+_0x5f110e(0x1c8)+(_0x403f95?this[_0x5f110e(0x1e9)](_0x51c960):'')+_0x5f110e(0x29b);})[_0x3aa2f5(0x38c)]('');return _0x3aa2f5(0x373)+_0x53b0c8['label']+_0x3aa2f5(0x1cc)+_0x37bcf4+_0x3aa2f5(0x29b);})[_0x81e01b(0x38c)]('');this['playbackPresetBody'][_0x81e01b(0x2fc)]=_0x50ceaa||_0x81e01b(0x4e4),this['playbackPresetBody'][_0x81e01b(0x233)](_0x81e01b(0x3bb))[_0x81e01b(0x379)](_0x9c1c35=>{const _0x5b543d=_0x81e01b;_0x9c1c35[_0x5b543d(0x46c)]('click',()=>{const _0x549704=_0x5b543d;this[_0x549704(0x26b)](_0x9c1c35[_0x549704(0x24d)](_0x549704(0x259)),_0x9c1c35[_0x549704(0x24d)](_0x549704(0x2a3)),_0x9c1c35[_0x549704(0x24d)](_0x549704(0x47c)));});}),this[_0x81e01b(0x4cb)][_0x81e01b(0x233)](_0x81e01b(0x475))[_0x81e01b(0x379)](_0x277112=>{const _0x32fe3a=_0x81e01b;_0x277112[_0x32fe3a(0x46c)](_0x32fe3a(0x2f2),_0x481ef6=>{const _0x2b2115=_0x32fe3a;_0x481ef6[_0x2b2115(0x540)](),_0x277112[_0x2b2115(0x37d)][_0x2b2115(0x2c8)](_0x2b2115(0x1c6)),_0x277112[_0x2b2115(0x303)](_0x2b2115(0x337),String(_0x277112['classList'][_0x2b2115(0x39d)](_0x2b2115(0x1c6))));if(!_0x1ae00e[_0x2b2115(0x4c6)])_0x1ae00e[_0x2b2115(0x4c6)]={};_0x1ae00e[_0x2b2115(0x4c6)][_0x277112[_0x2b2115(0x24d)](_0x2b2115(0x47c))]=_0x277112[_0x2b2115(0x37d)][_0x2b2115(0x39d)](_0x2b2115(0x1c6)),this[_0x2b2115(0x251)]();});}),this[_0x81e01b(0x4cb)][_0x81e01b(0x233)](_0x81e01b(0x48d))[_0x81e01b(0x379)](_0x4ace8f=>{const _0x3c06c3=_0x81e01b;_0x4ace8f[_0x3c06c3(0x46c)]('input',()=>{const _0x4682ce=_0x3c06c3;if(!this['playbackPresetDraft'])return;this[_0x4682ce(0x421)][_0x4ace8f[_0x4682ce(0x24d)](_0x4682ce(0x3af))]=_0x4ace8f[_0x4682ce(0x3d2)];});}),this[_0x81e01b(0x4cb)][_0x81e01b(0x4c3)](_0x81e01b(0x1bf))?.[_0x81e01b(0x46c)](_0x81e01b(0x2f2),()=>{const _0x144c8c=_0x81e01b;this[_0x144c8c(0x3a4)]=null,this['playbackPresetDraft']=null,this[_0x144c8c(0x1f5)]();}),this[_0x81e01b(0x4cb)][_0x81e01b(0x4c3)](_0x81e01b(0x44a))?.[_0x81e01b(0x46c)](_0x81e01b(0x2f2),()=>this[_0x81e01b(0x26a)]());}[_u2_b589d616b6_0x1a45bd(0x4a8)](){const _0x58bb4d=_u2_b589d616b6_0x1a45bd,_0x45c1d9=this[_0x58bb4d(0x4e0)]();if(!_0x45c1d9)return;const _0x1670f6=_0x45c1d9[_0x58bb4d(0x3fc)][_0x58bb4d(0x407)](_0x3f774c=>Number(_0x3f774c[_0x58bb4d(0x40a)])===Number(this['activePlaybackEpisodeNumber']))||_0x45c1d9['episodes'][0x0];if(_0x1670f6&&(!Array[_0x58bb4d(0x4a7)](_0x1670f6[_0x58bb4d(0x46d)])||!_0x1670f6[_0x58bb4d(0x46d)]['length'])){const _0x378aa1=_0x45c1d9[_0x58bb4d(0x3fc)]['filter'](_0x5d2a6d=>Number(_0x5d2a6d['number'])<Number(_0x1670f6[_0x58bb4d(0x40a)])&&Number(_0x5d2a6d[_0x58bb4d(0x40a)])>=0x0&&Array[_0x58bb4d(0x4a7)](_0x5d2a6d[_0x58bb4d(0x46d)])&&_0x5d2a6d[_0x58bb4d(0x46d)][_0x58bb4d(0x405)])[_0x58bb4d(0x253)](-0x1)[0x0];_0x1670f6[_0x58bb4d(0x46d)]=_0x378aa1?_0x378aa1['cast'][_0x58bb4d(0x4e2)](_0x4631d8=>({..._0x4631d8,'id':this[_0x58bb4d(0x31a)](_0x58bb4d(0x46d))})):this[_0x58bb4d(0x292)](),this[_0x58bb4d(0x412)](_0x45c1d9),this[_0x58bb4d(0x4bf)](_0x45c1d9),this[_0x58bb4d(0x4bb)]();}this['renderPlaybackCastSheet']();if(this[_0x58bb4d(0x456)])this['playbackCastSheet'][_0x58bb4d(0x37d)]['add'](_0x58bb4d(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x2f8)](){const _0xe64b49=_u2_b589d616b6_0x1a45bd;if(this[_0xe64b49(0x456)])this['playbackCastSheet'][_0xe64b49(0x37d)][_0xe64b49(0x4c5)](_0xe64b49(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x268)](){const _0x20091e=_u2_b589d616b6_0x1a45bd;if(!this['playbackCastList'])return;const _0x3941d1=this['getPlaybackEntry'](),_0x52cd3f=this[_0x20091e(0x1fb)]();if(!_0x3941d1||!_0x52cd3f){this['playbackCastList'][_0x20091e(0x2fc)]=_0x20091e(0x1e4);return;}const _0x40b24c=Array[_0x20091e(0x4a7)](_0x52cd3f[_0x20091e(0x46d)])?_0x52cd3f['cast']:[];this[_0x20091e(0x3c4)]['innerHTML']=_0x40b24c[_0x20091e(0x405)]?_0x40b24c[_0x20091e(0x4e2)](_0x4f99c6=>_0x20091e(0x279)+this[_0x20091e(0x1c1)](_0x4f99c6['id'])+'\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-cast-avatar\x20netflix-playback-cast-avatar\x22\x20aria-label=\x22更换头像\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+(_0x4f99c6['avatar']?_0x20091e(0x431)+this['escapeAttr'](_0x4f99c6['avatar'])+'\x22\x20alt=\x22\x22>':_0x20091e(0x263)+this[_0x20091e(0x1c1)]((_0x4f99c6[_0x20091e(0x289)]||_0x4f99c6[_0x20091e(0x51b)]||'?')['charAt'](0x0))+_0x20091e(0x298))+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-camera\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20class=\x22netflix-playback-cast-avatar-input\x22\x20accept=\x22image/*\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cast-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>名字</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20data-field=\x22realName\x22\x20value=\x22'+this[_0x20091e(0x1c1)](_0x4f99c6['realName']||'')+_0x20091e(0x521)+this[_0x20091e(0x1c1)](_0x4f99c6[_0x20091e(0x452)]||'')+_0x20091e(0x46b)+this[_0x20091e(0x1c1)](_0x4f99c6['rolePersona']||'')+_0x20091e(0x273))[_0x20091e(0x38c)](''):_0x20091e(0x533),this[_0x20091e(0x3c4)][_0x20091e(0x233)](_0x20091e(0x346))[_0x20091e(0x379)](_0xaf3924=>{const _0x50d5af=_0x20091e;_0xaf3924[_0x50d5af(0x46c)](_0x50d5af(0x2fa),()=>{const _0x42c2c2=_0x50d5af,_0x1b2e3b=_0xaf3924[_0x42c2c2(0x34f)](_0x42c2c2(0x1cd)),_0x344e89=_0x1b2e3b?.[_0x42c2c2(0x24d)](_0x42c2c2(0x2cd)),_0x5ea658=_0xaf3924[_0x42c2c2(0x24d)](_0x42c2c2(0x39e));this[_0x42c2c2(0x457)](_0x344e89,_0x5ea658,_0xaf3924[_0x42c2c2(0x3d2)]);});}),this[_0x20091e(0x3c4)][_0x20091e(0x233)](_0x20091e(0x47a))['forEach'](_0x9c49dc=>{const _0x118967=_0x20091e;_0x9c49dc[_0x118967(0x46c)](_0x118967(0x2f2),()=>{const _0x3608dd=_0x118967,_0x40b39e=_0x9c49dc['closest']('.netflix-playback-cast-item')?.[_0x3608dd(0x4c3)]('.netflix-playback-cast-avatar-input');_0x40b39e?.[_0x3608dd(0x2f2)]();});}),this[_0x20091e(0x3c4)][_0x20091e(0x233)](_0x20091e(0x1d9))[_0x20091e(0x379)](_0x24f6b1=>{const _0x5c2056=_0x20091e;_0x24f6b1[_0x5c2056(0x46c)](_0x5c2056(0x42b),()=>{const _0x342f3d=_0x5c2056,_0x23666c=_0x24f6b1[_0x342f3d(0x34f)]('.netflix-playback-cast-item')?.[_0x342f3d(0x24d)]('data-cast-id');this[_0x342f3d(0x4d3)](_0x23666c,_0x24f6b1);});}),this[_0x20091e(0x3c4)][_0x20091e(0x233)]('.netflix-playback-cast-delete')[_0x20091e(0x379)](_0x43cf23=>{const _0x3f0428=_0x20091e;_0x43cf23[_0x3f0428(0x46c)]('click',()=>{const _0x5ac821=_0x3f0428,_0x2314aa=_0x43cf23[_0x5ac821(0x34f)](_0x5ac821(0x1cd))?.[_0x5ac821(0x24d)]('data-cast-id');this[_0x5ac821(0x380)](_0x2314aa);});});}['addPlaybackCastMember'](){const _0x3add75=_u2_b589d616b6_0x1a45bd,_0x17c542=this[_0x3add75(0x4e0)](),_0x53b4c4=this[_0x3add75(0x1fb)]();if(!_0x17c542||!_0x53b4c4)return;if(!Array['isArray'](_0x53b4c4[_0x3add75(0x46d)]))_0x53b4c4['cast']=[];_0x53b4c4[_0x3add75(0x46d)][_0x3add75(0x43c)]({'id':this[_0x3add75(0x31a)]('cast'),'realName':_0x3add75(0x388),'name':_0x3add75(0x388),'roleName':_0x3add75(0x2bf),'rolePersona':'','avatar':''});const _0x718503=this['getPlaybackEntry'](),_0xb37277=_0x718503?.['episodes'][_0x3add75(0x407)](_0x4277b1=>Number(_0x4277b1['number'])===Number(_0x53b4c4[_0x3add75(0x40a)]));if(_0xb37277)_0xb37277['cast']=_0x53b4c4[_0x3add75(0x46d)];const _0x564ead=_0x718503||_0x17c542;this[_0x3add75(0x412)](_0x564ead),this[_0x3add75(0x4bf)](_0x564ead),this['saveNetflixState'](),this[_0x3add75(0x268)]();}['updatePlaybackCastMember'](_0x303c4d,_0x3e771a,_0x199ee8){const _0x4c1978=_u2_b589d616b6_0x1a45bd,_0x4007fd=this['getPlaybackEntry'](),_0x52ca32=this[_0x4c1978(0x1fb)]();if(!_0x4007fd||!_0x52ca32||!_0x303c4d||!_0x3e771a)return;const _0xffda35=_0x52ca32[_0x4c1978(0x46d)]?.['find'](_0x4fa8b9=>String(_0x4fa8b9['id'])===String(_0x303c4d));if(!_0xffda35||!['realName',_0x4c1978(0x452),'rolePersona']['includes'](_0x3e771a))return;_0xffda35[_0x3e771a]=_0x199ee8;if(_0x3e771a===_0x4c1978(0x289))_0xffda35[_0x4c1978(0x51b)]=_0x199ee8;const _0xda9421=this['getPlaybackEntry'](),_0x4a9d38=_0xda9421?.[_0x4c1978(0x3fc)][_0x4c1978(0x407)](_0x3e527d=>Number(_0x3e527d[_0x4c1978(0x40a)])===Number(_0x52ca32[_0x4c1978(0x40a)]));if(_0x4a9d38)_0x4a9d38[_0x4c1978(0x46d)]=_0x52ca32[_0x4c1978(0x46d)];const _0x15bc93=_0xda9421||_0x4007fd;this['savePlaybackEntry'](_0x15bc93),this[_0x4c1978(0x4bf)](_0x15bc93),this[_0x4c1978(0x4bb)]();}[_u2_b589d616b6_0x1a45bd(0x4d3)](_0x1fa910,_0x135fea){const _0x496ba3=_u2_b589d616b6_0x1a45bd,_0x3e867e=_0x135fea?.['files']?.[0x0];if(!_0x3e867e||!_0x1fa910)return;const _0x1631a4=new FileReader();_0x1631a4[_0x496ba3(0x288)]=_0x31554b=>{const _0x36a553=_0x496ba3,_0x3a1d4f=_0x31554b[_0x36a553(0x278)]?.[_0x36a553(0x43e)];if(!_0x3a1d4f)return;const _0x65e4ea=this[_0x36a553(0x4e0)](),_0x4a4e64=this[_0x36a553(0x1fb)]();if(!_0x65e4ea||!_0x4a4e64)return;const _0x58cba8=_0x4a4e64['cast']?.[_0x36a553(0x407)](_0x3055b2=>String(_0x3055b2['id'])===String(_0x1fa910));if(!_0x58cba8)return;_0x58cba8[_0x36a553(0x3b5)]=String(_0x3a1d4f);const _0xe2ae44=this[_0x36a553(0x4e0)](),_0xb3e438=_0xe2ae44?.[_0x36a553(0x3fc)][_0x36a553(0x407)](_0x54aa09=>Number(_0x54aa09[_0x36a553(0x40a)])===Number(_0x4a4e64[_0x36a553(0x40a)]));if(_0xb3e438)_0xb3e438['cast']=_0x4a4e64[_0x36a553(0x46d)];const _0x560109=_0xe2ae44||_0x65e4ea;this[_0x36a553(0x412)](_0x560109),this[_0x36a553(0x4bf)](_0x560109),this[_0x36a553(0x4bb)](),this[_0x36a553(0x268)]();},_0x1631a4[_0x496ba3(0x275)](_0x3e867e),_0x135fea[_0x496ba3(0x3d2)]='';}[_u2_b589d616b6_0x1a45bd(0x380)](_0x30df69){const _0x3c689a=_u2_b589d616b6_0x1a45bd,_0x33329f=this[_0x3c689a(0x4e0)](),_0x1240d3=this[_0x3c689a(0x1fb)]();if(!_0x33329f||!_0x1240d3||!_0x30df69)return;_0x1240d3['cast']=(_0x1240d3[_0x3c689a(0x46d)]||[])[_0x3c689a(0x1c7)](_0x5ba18f=>String(_0x5ba18f['id'])!==String(_0x30df69));const _0x48d25f=this[_0x3c689a(0x4e0)](),_0xb39ff4=_0x48d25f?.[_0x3c689a(0x3fc)]['find'](_0x448179=>Number(_0x448179[_0x3c689a(0x40a)])===Number(_0x1240d3[_0x3c689a(0x40a)]));if(_0xb39ff4)_0xb39ff4['cast']=_0x1240d3['cast'];const _0x121025=_0x48d25f||_0x33329f;this[_0x3c689a(0x412)](_0x121025),this[_0x3c689a(0x4bf)](_0x121025),this[_0x3c689a(0x4bb)](),this[_0x3c689a(0x268)]();}[_u2_b589d616b6_0x1a45bd(0x3a0)](_0x5ae2d5=_u2_b589d616b6_0x1a45bd(0x43d)){const _0x483df4=_u2_b589d616b6_0x1a45bd;if(!this['getPlaybackEntry']())return;this['currentPlaybackModalAction']=_0x5ae2d5;this['playbackNextInput']&&(this[_0x483df4(0x24e)][_0x483df4(0x3d2)]='',this[_0x483df4(0x24e)][_0x483df4(0x4f8)]=_0x5ae2d5===_0x483df4(0x43d)?_0x483df4(0x4b6):_0x483df4(0x46a));const _0xd6c05f=this[_0x483df4(0x506)]?.['querySelector'](_0x483df4(0x468));_0xd6c05f&&(_0xd6c05f[_0x483df4(0x491)]=_0x5ae2d5===_0x483df4(0x43d)?_0x483df4(0x3d1):_0x483df4(0x35e));if(this[_0x483df4(0x506)])this[_0x483df4(0x506)]['classList']['add'](_0x483df4(0x1c6));setTimeout(()=>this[_0x483df4(0x24e)]?.[_0x483df4(0x1be)](),0x0);}[_u2_b589d616b6_0x1a45bd(0x316)](){const _0x534297=_u2_b589d616b6_0x1a45bd;this[_0x534297(0x33d)]===_0x534297(0x43d)?this[_0x534297(0x37c)]():this[_0x534297(0x335)]();}['closePlaybackNextModal'](_0x2c69e0=![]){const _0x507639=_u2_b589d616b6_0x1a45bd;if(this['isPlaybackNextLoading']&&!_0x2c69e0)return;if(this['playbackNextModal'])this[_0x507639(0x506)]['classList']['remove'](_0x507639(0x1c6));}['setPlaybackNextLoading'](_0x5bf684){const _0x4f0b50=_u2_b589d616b6_0x1a45bd;this['isPlaybackNextLoading']=!!_0x5bf684;if(this[_0x4f0b50(0x24e)])this[_0x4f0b50(0x24e)][_0x4f0b50(0x4de)]=this[_0x4f0b50(0x2fe)];if(this[_0x4f0b50(0x526)])this[_0x4f0b50(0x526)]['disabled']=this[_0x4f0b50(0x2fe)];this[_0x4f0b50(0x272)]&&(this['playbackNextConfirm'][_0x4f0b50(0x4de)]=this[_0x4f0b50(0x2fe)],this[_0x4f0b50(0x272)]['innerHTML']=this[_0x4f0b50(0x2fe)]?_0x4f0b50(0x224):'确定');}[_u2_b589d616b6_0x1a45bd(0x354)](_0x42f6c2){return this['getGlobalPresetContext']();}['getGlobalPresetContext'](){const _0xd5d13=_u2_b589d616b6_0x1a45bd,_0x47ccae=this[_0xd5d13(0x1cf)](),_0x184fd4=this[_0xd5d13(0x3f6)](),_0x313488=this[_0xd5d13(0x1ce)](),_0xf5aeae=[];return this[_0xd5d13(0x52d)]()[_0xd5d13(0x379)](_0x3153cb=>{const _0x52d765=_0xd5d13,_0x5dee1e=_0x184fd4[_0x3153cb],_0x4e6365=_0x47ccae[_0x52d765(0x2aa)][_0x3153cb]||[];_0x4e6365[_0x52d765(0x379)](_0x5b932f=>{const _0x386200=_0x52d765,_0x2a8210=_0x3153cb+':'+_0x5b932f['id'],_0x728e23=_0x47ccae[_0x386200(0x4c6)]?.[_0x2a8210],_0x83841d=typeof _0x728e23===_0x386200(0x2a7)?_0x728e23:!_0x313488[_0x386200(0x351)](_0x5b932f[_0x386200(0x3ac)]||_0x5b932f['id']);_0x83841d&&_0x5b932f['value']&&_0xf5aeae[_0x386200(0x43c)](this[_0x386200(0x4dd)](_0x5b932f,_0x5dee1e?.['label']||_0x3153cb));});}),_0xf5aeae[_0xd5d13(0x38c)]('\x0a');}[_u2_b589d616b6_0x1a45bd(0x4dd)](_0x194ab8,_0x17ef5a=''){const _0x5801f6=_u2_b589d616b6_0x1a45bd;if((_0x194ab8[_0x5801f6(0x3ac)]||_0x194ab8['id'])===_0x5801f6(0x2eb))return _0x5801f6(0x22b)+this[_0x5801f6(0x36d)](_0x194ab8[_0x5801f6(0x3d2)])+'字';return'['+_0x17ef5a+_0x5801f6(0x291)+(_0x194ab8[_0x5801f6(0x270)]||_0x5801f6(0x409))+']\x20'+_0x194ab8['value'];}[_u2_b589d616b6_0x1a45bd(0x30b)](_0x500127=this[_u2_b589d616b6_0x1a45bd(0x1cf)]()){const _0x4abfb7=_u2_b589d616b6_0x1a45bd,_0x359cad=(_0x500127?.[_0x4abfb7(0x2aa)]?.[_0x4abfb7(0x405)]||_0x500127?.['itemsByCategory']?.['narration']||[])['find'](_0x54d9ab=>(_0x54d9ab[_0x4abfb7(0x3ac)]||_0x54d9ab['id'])===_0x4abfb7(0x2eb));return this['formatPresetWordCount'](_0x359cad?.[_0x4abfb7(0x3d2)]||_0x4abfb7(0x349))+'字';}[_u2_b589d616b6_0x1a45bd(0x222)](_0x2b2818){const _0x290289=_u2_b589d616b6_0x1a45bd;return this[_0x290289(0x30b)](this[_0x290289(0x1cf)](),_0x2b2818);}[_u2_b589d616b6_0x1a45bd(0x35b)](_0x494939,_0x3a52d9,_0x5b9703){const _0x3716ca=_u2_b589d616b6_0x1a45bd,_0x347a65=_0x494939[_0x3716ca(0x22f)]||{},_0x4782a7=Array[_0x3716ca(0x4a7)](_0x347a65[_0x3716ca(0x245)])&&_0x347a65[_0x3716ca(0x245)]['length']?_0x347a65[_0x3716ca(0x245)][_0x3716ca(0x38c)]('、'):'无',_0x311677=Array['isArray'](_0x3a52d9['cast'])?_0x3a52d9[_0x3716ca(0x46d)]:[],_0x5f145f=Number(_0x3a52d9[_0x3716ca(0x40a)])===0x0,_0x6dcb1e=this[_0x3716ca(0x222)](_0x494939),_0x2a43a5=_0x311677[_0x3716ca(0x405)]?_0x311677['map'](_0x59d6b8=>'-\x20'+(_0x59d6b8[_0x3716ca(0x289)]||_0x59d6b8[_0x3716ca(0x51b)]||'未知')+_0x3716ca(0x3e4)+(_0x59d6b8[_0x3716ca(0x452)]||_0x59d6b8[_0x3716ca(0x51b)]||'未知')+(_0x59d6b8['rolePersona']?_0x3716ca(0x2a4)+_0x59d6b8[_0x3716ca(0x47e)]:''))[_0x3716ca(0x38c)]('\x0a'):'无',_0x5457be=this[_0x3716ca(0x261)](),_0x490c96=this[_0x3716ca(0x354)](_0x494939);return _0x3716ca(0x501)+(_0x5457be?_0x3716ca(0x445)+_0x5457be+'\x0a\x0a':'')+'【作品信息】\x0a作品名:\x20'+(_0x347a65[_0x3716ca(0x1e7)]||'未命名影片')+'\x0a分类:\x20'+(_0x347a65[_0x3716ca(0x4ea)]||'未知')+_0x3716ca(0x4d7)+_0x4782a7+_0x3716ca(0x211)+(_0x347a65['summary']||'无')+_0x3716ca(0x35a)+_0x2a43a5+'\x0a\x0a'+(_0x490c96?_0x3716ca(0x1e1)+_0x490c96+'\x0a\x0a':'')+(_0x5f145f?_0x3716ca(0x404):_0x3716ca(0x2b0))+'\x0a'+(_0x5f145f?_0x3a52d9[_0x3716ca(0x33f)]||_0x347a65[_0x3716ca(0x3aa)]||'无':_0x3a52d9[_0x3716ca(0x4b7)]||'无')+'\x0a\x0a【本集已有正文】\x0a'+(_0x3a52d9[_0x3716ca(0x33f)]||'暂无内容，请开始撰写本集开局。')+_0x3716ca(0x397)+(_0x5b9703||_0x3716ca(0x1c4))+_0x3716ca(0x362)+_0x6dcb1e+_0x3716ca(0x4cd)+_0x6dcb1e+_0x3716ca(0x206);}async[_u2_b589d616b6_0x1a45bd(0x37c)](){const _0x4e4861=_u2_b589d616b6_0x1a45bd;if(this[_0x4e4861(0x2fe)])return;const _0x1beb08=this[_0x4e4861(0x532)]();if(!_0x1beb08||!_0x1beb08[_0x4e4861(0x4a6)]||!_0x1beb08[_0x4e4861(0x42d)]){if(typeof window['showToast']===_0x4e4861(0x467))window[_0x4e4861(0x4fa)](_0x4e4861(0x3c0));return;}const _0xaec378=this[_0x4e4861(0x4e0)](),_0x36cc52=this[_0x4e4861(0x1fb)]();if(!_0xaec378||!_0x36cc52)return;const _0x14f7b9=(this['playbackNextInput']?.[_0x4e4861(0x3d2)]||'')[_0x4e4861(0x2c2)]();this[_0x4e4861(0x2bd)](!![]);try{const _0x5c295b=this[_0x4e4861(0x32c)](_0x1beb08[_0x4e4861(0x4a6)]),_0x1f897=await fetch(_0x5c295b,{'method':_0x4e4861(0x28f),'headers':{'Content-Type':'application/json','Authorization':'Bearer\x20'+_0x1beb08[_0x4e4861(0x42d)]},'body':JSON[_0x4e4861(0x492)]({'model':_0x1beb08[_0x4e4861(0x227)]||_0x4e4861(0x31d),'messages':[{'role':_0x4e4861(0x342),'content':this['createPlaybackAdvancePrompt'](_0xaec378,_0x36cc52,_0x14f7b9)}],'temperature':parseFloat(_0x1beb08[_0x4e4861(0x32e)])||0.8,'response_format':{'type':_0x4e4861(0x52a)}})});if(!_0x1f897['ok'])throw new Error(_0x4e4861(0x4e8)+_0x1f897[_0x4e4861(0x4c7)]);const _0xb59f7b=await _0x1f897['json'](),_0x5d6b70=this['parseJsonFromText'](_0xb59f7b[_0x4e4861(0x4d4)]?.[0x0]?.[_0x4e4861(0x465)]?.[_0x4e4861(0x33f)]||''),_0x1082a2=String(_0x5d6b70[_0x4e4861(0x33f)]||'')[_0x4e4861(0x2c2)]();if(!_0x1082a2)throw new Error(_0x4e4861(0x343));const _0x29b35a=this[_0x4e4861(0x4e0)](_0xaec378['id'])||_0xaec378,_0x3fd64e=_0x29b35a[_0x4e4861(0x3fc)]['find'](_0x1bd5da=>Number(_0x1bd5da[_0x4e4861(0x40a)])===Number(_0x36cc52['number']))||_0x36cc52;_0x3fd64e['content']=_0x3fd64e['content']?_0x3fd64e[_0x4e4861(0x33f)]+'\x0a\x0a'+_0x1082a2:_0x1082a2,this[_0x4e4861(0x412)](_0x29b35a);const _0x230c7f=this[_0x4e4861(0x4bf)](_0x29b35a);this[_0x4e4861(0x4bb)](),this[_0x4e4861(0x500)]();if(this[_0x4e4861(0x4ee)]&&this[_0x4e4861(0x4ee)][_0x4e4861(0x37d)]['contains'](_0x4e4861(0x1c6))&&String(this['activeDetailWorkId'])===String(_0x29b35a['id'])){const _0x549f1d=this[_0x4e4861(0x2a9)]({..._0x29b35a[_0x4e4861(0x22f)],'episodes':this[_0x4e4861(0x378)](_0x29b35a),'episodeCount':this[_0x4e4861(0x378)](_0x29b35a)['length'],'isCatalogItem':!![]},_0x29b35a['id']);this[_0x4e4861(0x242)](_0x230c7f||_0x549f1d);}this[_0x4e4861(0x49f)](),this[_0x4e4861(0x28a)](!![]);if(typeof window['showToast']===_0x4e4861(0x467))window[_0x4e4861(0x4fa)](_0x4e4861(0x37f));}catch(_0x3fef7a){console[_0x4e4861(0x42f)](_0x4e4861(0x50e),_0x3fef7a);if(typeof window[_0x4e4861(0x4fa)]==='function')window['showToast'](_0x4e4861(0x276));}finally{this[_0x4e4861(0x2bd)](![]);}}[_u2_b589d616b6_0x1a45bd(0x2c0)](_0x25dd41,_0x4d4179,_0x4e6d65){const _0x405822=_u2_b589d616b6_0x1a45bd,_0xe5649d=_0x25dd41[_0x405822(0x22f)]||{},_0x598cc9=Array[_0x405822(0x4a7)](_0xe5649d[_0x405822(0x245)])&&_0xe5649d[_0x405822(0x245)][_0x405822(0x405)]?_0xe5649d[_0x405822(0x245)][_0x405822(0x38c)]('、'):'无',_0x25c756=Array[_0x405822(0x4a7)](_0x4d4179[_0x405822(0x46d)])?_0x4d4179[_0x405822(0x46d)]:[],_0x7bbc5a=Number(_0x4d4179[_0x405822(0x40a)])===0x0,_0x539d7a=_0x25c756[_0x405822(0x405)]?_0x25c756[_0x405822(0x4e2)](_0x4ddb9c=>'-\x20'+(_0x4ddb9c[_0x405822(0x289)]||_0x4ddb9c[_0x405822(0x51b)]||'未知')+'\x20饰\x20'+(_0x4ddb9c['roleName']||_0x4ddb9c[_0x405822(0x51b)]||'未知')+(_0x4ddb9c[_0x405822(0x47e)]?'\x0a\x20\x20人设:\x20'+_0x4ddb9c['rolePersona']:''))[_0x405822(0x38c)]('\x0a'):'无',_0x1164ac=this[_0x405822(0x261)]();return _0x405822(0x345)+(_0x1164ac?_0x405822(0x445)+_0x1164ac+'\x0a\x0a':'')+_0x405822(0x333)+(_0xe5649d['title']||'未命名影片')+'\x0a分类:\x20'+(_0xe5649d['category']||'未知')+_0x405822(0x4d7)+_0x598cc9+'\x0a简介:\x20'+(_0xe5649d[_0x405822(0x3aa)]||'无')+_0x405822(0x35a)+_0x539d7a+'\x0a\x0a'+(_0x7bbc5a?'【影片介绍】':_0x405822(0x2b0))+'\x0a'+(_0x7bbc5a?_0x4d4179['content']||_0xe5649d['summary']||'无':_0x4d4179[_0x405822(0x4b7)]||'无')+'\x0a\x0a【本集完整正文】\x0a'+(_0x4d4179['content']||'无')+_0x405822(0x3e1)+(_0x4e6d65||'无')+_0x405822(0x3d4);}[_u2_b589d616b6_0x1a45bd(0x438)](_0x56cede){const _0x35adf3=_u2_b589d616b6_0x1a45bd,_0x231dd9=(_0x56cede?.[_0x35adf3(0x3fc)]||[])[_0x35adf3(0x4e2)](_0x1dc2c0=>Number(_0x1dc2c0[_0x35adf3(0x40a)]))[_0x35adf3(0x1c7)](_0xec2b43=>Number['isFinite'](_0xec2b43)&&_0xec2b43>0x0);return _0x231dd9[_0x35adf3(0x405)]?Math[_0x35adf3(0x2b5)](..._0x231dd9)+0x1:0x1;}async['generateNextPlaybackEpisode'](){const _0x10577f=_u2_b589d616b6_0x1a45bd;if(this[_0x10577f(0x2fe)])return;const _0x5f34db=typeof window['getApiConfig']===_0x10577f(0x467)?window['getApiConfig']():window['apiConfig']||{};if(!_0x5f34db||!_0x5f34db['endpoint']||!_0x5f34db[_0x10577f(0x42d)]){if(typeof window[_0x10577f(0x4fa)]===_0x10577f(0x467))window[_0x10577f(0x4fa)](_0x10577f(0x3c0));return;}const _0x118e2d=this[_0x10577f(0x4e0)](),_0x2165cf=this[_0x10577f(0x1fb)]();if(!_0x118e2d||!_0x2165cf)return;const _0xe8e569=(this['playbackNextInput']?.['value']||'')['trim']();this[_0x10577f(0x2bd)](!![]);try{const _0x233054=this[_0x10577f(0x32c)](_0x5f34db[_0x10577f(0x4a6)]),_0x259038=await fetch(_0x233054,{'method':'POST','headers':{'Content-Type':_0x10577f(0x22a),'Authorization':'Bearer\x20'+_0x5f34db[_0x10577f(0x42d)]},'body':JSON['stringify']({'model':_0x5f34db[_0x10577f(0x227)]||'gpt-3.5-turbo','messages':[{'role':_0x10577f(0x342),'content':this['createPlaybackNextPrompt'](_0x118e2d,_0x2165cf,_0xe8e569)}],'temperature':parseFloat(_0x5f34db['temperature'])||0.8,'response_format':{'type':_0x10577f(0x52a)}})});if(!_0x259038['ok'])throw new Error('API\x20Request\x20Failed:\x20'+_0x259038[_0x10577f(0x4c7)]);const _0x1da8dd=await _0x259038['json'](),_0x89a5ca=this[_0x10577f(0x3d7)](_0x1da8dd[_0x10577f(0x4d4)]?.[0x0]?.[_0x10577f(0x465)]?.[_0x10577f(0x33f)]||''),_0x947c44=String(_0x89a5ca[_0x10577f(0x3aa)]||'')[_0x10577f(0x2c2)](),_0x24fc41=String(_0x89a5ca[_0x10577f(0x4b7)]||'')['trim'](),_0x335180=Array['isArray'](_0x89a5ca[_0x10577f(0x202)])?_0x89a5ca['comments']:[];if(!_0x947c44&&!_0x24fc41)throw new Error(_0x10577f(0x40d));const _0x28e495=this[_0x10577f(0x4e0)](_0x118e2d['id'])||_0x118e2d,_0x547152=_0x28e495[_0x10577f(0x3fc)]['find'](_0x24f701=>Number(_0x24f701[_0x10577f(0x40a)])===Number(_0x2165cf[_0x10577f(0x40a)]))||_0x2165cf;_0x547152[_0x10577f(0x3aa)]=_0x947c44,_0x547152['comments']=_0x335180['map'](_0x4bb900=>{const _0x5eb1b2=_0x10577f,_0x4ab511=Array[_0x5eb1b2(0x4a7)](_0x4bb900['replies'])?_0x4bb900[_0x5eb1b2(0x3ca)][_0x5eb1b2(0x4e2)](_0x529e5d=>({'name':String(_0x529e5d[_0x5eb1b2(0x51b)]||'网友')['trim'](),'text':String(_0x529e5d[_0x5eb1b2(0x25c)]||_0x529e5d[_0x5eb1b2(0x33f)]||'')[_0x5eb1b2(0x2c2)](),'likes':Number(_0x529e5d[_0x5eb1b2(0x3bc)])||Math[_0x5eb1b2(0x200)](Math[_0x5eb1b2(0x45d)]()*0x32)}))[_0x5eb1b2(0x1c7)](_0x4137b7=>_0x4137b7[_0x5eb1b2(0x25c)]):[];return{'name':String(_0x4bb900[_0x5eb1b2(0x51b)]||_0x5eb1b2(0x4b5))[_0x5eb1b2(0x2c2)](),'text':String(_0x4bb900['text']||_0x4bb900[_0x5eb1b2(0x33f)]||'')[_0x5eb1b2(0x2c2)](),'likes':Number(_0x4bb900[_0x5eb1b2(0x3bc)])||Math[_0x5eb1b2(0x200)](Math[_0x5eb1b2(0x45d)]()*0x3e8),'replies':_0x4ab511};})[_0x10577f(0x1c7)](_0x541c93=>_0x541c93[_0x10577f(0x25c)]);const _0x364615=this[_0x10577f(0x438)](_0x28e495),_0x26e08f=(_0x547152[_0x10577f(0x46d)]&&_0x547152[_0x10577f(0x46d)][_0x10577f(0x405)]?_0x547152[_0x10577f(0x46d)]:this[_0x10577f(0x292)]())[_0x10577f(0x4e2)](_0x5c139e=>({..._0x5c139e,'id':this[_0x10577f(0x31a)](_0x10577f(0x46d))}));_0x28e495[_0x10577f(0x3fc)][_0x10577f(0x43c)]({'number':_0x364615,'recap':_0x24fc41,'content':'','summary':'','comments':[],'cast':_0x26e08f,'createdAt':new Date()[_0x10577f(0x3ae)]()}),_0x28e495[_0x10577f(0x2ca)]=_0x364615,this[_0x10577f(0x2f9)]=_0x364615,this[_0x10577f(0x412)](_0x28e495),this[_0x10577f(0x51e)](_0x28e495[_0x10577f(0x22f)]);const _0x518d50=this[_0x10577f(0x4bf)](_0x28e495);this['saveNetflixState'](),this[_0x10577f(0x319)](),this[_0x10577f(0x500)]();if(this[_0x10577f(0x4ee)]&&this[_0x10577f(0x4ee)][_0x10577f(0x37d)][_0x10577f(0x39d)](_0x10577f(0x1c6))&&String(this[_0x10577f(0x299)])===String(_0x28e495['id'])){const _0x5623f3=this['getSerializablePlaybackEpisodes'](_0x28e495),_0x13b1a8=_0x518d50||this[_0x10577f(0x2a9)]({..._0x28e495[_0x10577f(0x22f)],'episodes':_0x5623f3,'episodeCount':_0x5623f3[_0x10577f(0x405)],'isCatalogItem':!![]},_0x28e495['id']);this[_0x10577f(0x242)](_0x13b1a8);}this[_0x10577f(0x49f)](),this['renderPlaybackEpisodeSidebar'](),this['closePlaybackNextModal'](!![]);if(typeof window[_0x10577f(0x4fa)]==='function')window[_0x10577f(0x4fa)](_0x10577f(0x3c8));}catch(_0x33925a){console[_0x10577f(0x42f)](_0x10577f(0x290),_0x33925a);if(typeof window['showToast']==='function')window['showToast'](_0x10577f(0x3a7));}finally{this[_0x10577f(0x2bd)](![]);}}[_u2_b589d616b6_0x1a45bd(0x23a)](_0x2ba2c7){const _0x559401=_u2_b589d616b6_0x1a45bd,_0x5add66=this[_0x559401(0x436)](_0x2ba2c7,_0x2ba2c7?.['id']||this[_0x559401(0x31a)]('catalog-detail'),_0x2ba2c7?.[_0x559401(0x4ea)]||'');if(!_0x5add66)return null;return this['normalizeWork']({..._0x5add66,'episodeCount':_0x5add66['category']==='电影'?0x1:0x6,'cast':Array[_0x559401(0x4a7)](_0x5add66['cast'])?_0x5add66['cast']:[],'comments':[],'episodes':[],'isCatalogItem':!![]},_0x5add66['id']);}[_u2_b589d616b6_0x1a45bd(0x513)](){const _0x165d3e=_u2_b589d616b6_0x1a45bd;if(this[_0x165d3e(0x4ee)])this[_0x165d3e(0x4ee)]['classList'][_0x165d3e(0x4c5)]('active');this['activeDetailCatalogOnly']=![];}[_u2_b589d616b6_0x1a45bd(0x242)](_0x3fb181){const _0x1492a3=_u2_b589d616b6_0x1a45bd;if(!this[_0x1492a3(0x294)])return;const _0x416249=[_0x3fb181[_0x1492a3(0x4ea)],..._0x3fb181[_0x1492a3(0x245)]||[]][_0x1492a3(0x1c7)](Boolean),_0x2d26a8=_0x416249['join']('\x20•\x20');this['ensureWorkEpisodes'](_0x3fb181);const _0x28a5e9=this[_0x1492a3(0x1f8)](_0x3fb181),_0x134736=this[_0x1492a3(0x53a)](_0x3fb181,_0x28a5e9)[_0x1492a3(0x405)];let _0xa1ea77='';_0x3fb181['cast']&&_0x3fb181['cast'][_0x1492a3(0x405)]?_0xa1ea77=_0x1492a3(0x4e9)+_0x3fb181['cast'][_0x1492a3(0x4e2)](_0x83f8ca=>{const _0x41cefe=_0x1492a3,_0x54990d=_0x83f8ca[_0x41cefe(0x289)]||_0x83f8ca[_0x41cefe(0x51b)]||'未知',_0x1639fe=_0x83f8ca[_0x41cefe(0x452)]||_0x83f8ca[_0x41cefe(0x51b)]||'',_0x3dca5c=_0x83f8ca[_0x41cefe(0x3b5)]?_0x41cefe(0x431)+this['escapeAttr'](_0x83f8ca[_0x41cefe(0x3b5)])+_0x41cefe(0x28d):this[_0x41cefe(0x1c1)](_0x54990d[_0x41cefe(0x3d0)](0x0));return _0x41cefe(0x3a3)+_0x3dca5c+_0x41cefe(0x30c)+this[_0x41cefe(0x1c1)](_0x54990d)+_0x41cefe(0x2d6)+(_0x1639fe?_0x41cefe(0x383)+this[_0x41cefe(0x1c1)](_0x1639fe)+_0x41cefe(0x47d):'')+_0x41cefe(0x3ff);})[_0x1492a3(0x38c)]('')+_0x1492a3(0x29b):_0xa1ea77=_0x1492a3(0x477);const _0x53e2e1=(_0x3fb181[_0x1492a3(0x4ea)]||'')==='电影',_0x2dc1c8=this['parseEpisodeCount'](_0x3fb181['episodeCount']),_0x2ef996=this[_0x1492a3(0x3df)](_0x3fb181,_0x53e2e1,_0x2dc1c8,_0x28a5e9),_0x36721e=this[_0x1492a3(0x1ba)](_0x3fb181,_0x28a5e9),_0x1bfe38=Math[_0x1492a3(0x200)](Math[_0x1492a3(0x45d)]()*(0x63-0x50)+0x50),_0x462245=new Date()[_0x1492a3(0x213)]()-Math[_0x1492a3(0x200)](Math[_0x1492a3(0x45d)]()*0x5);this[_0x1492a3(0x294)][_0x1492a3(0x2fc)]=_0x1492a3(0x312)+(_0x3fb181[_0x1492a3(0x305)]?_0x1492a3(0x431)+this[_0x1492a3(0x51d)](_0x3fb181[_0x1492a3(0x305)])+_0x1492a3(0x28d):'<div\x20style=\x22width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#555;font-size:40px;\x22><i\x20class=\x22fas\x20fa-film\x22></i></div>')+_0x1492a3(0x50f)+this['escapeHtml'](_0x3fb181[_0x1492a3(0x1e7)]||_0x1492a3(0x49b))+_0x1492a3(0x464)+_0x1bfe38+_0x1492a3(0x470)+_0x462245+_0x1492a3(0x2d5)+(_0x53e2e1?_0x1492a3(0x4ba):_0x2dc1c8+'\x20集')+_0x1492a3(0x252)+this['escapeHtml'](_0x3fb181[_0x1492a3(0x3aa)]||_0x1492a3(0x523))+_0x1492a3(0x428)+_0xa1ea77+_0x1492a3(0x527)+this['escapeHtml'](_0x2d26a8||'未知')+_0x1492a3(0x537)+(!_0x53e2e1?_0x1492a3(0x502):'')+'\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-episode-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x2ef996+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-tabs\x22\x20style=\x22margin-top:\x2030px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-tab\x20active\x22>第\x20'+_0x28a5e9+'\x20集评论区\x20('+_0x134736+')</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-comments-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x36721e+_0x1492a3(0x1de),this[_0x1492a3(0x294)][_0x1492a3(0x233)]('.netflix-wd-episode-item')[_0x1492a3(0x379)](_0x4f9307=>{const _0x43f564=_0x1492a3;_0x4f9307[_0x43f564(0x46c)]('click',()=>{const _0x550726=_0x43f564;this['activeDetailEpisodeNumber']=Number(_0x4f9307[_0x550726(0x24d)](_0x550726(0x2ac)))||0x1;const _0x4a138d=(this[_0x550726(0x499)][_0x550726(0x3b1)]||[])[_0x550726(0x407)](_0x3c69c9=>String(_0x3c69c9['id'])===String(_0x3fb181['id']))||_0x3fb181;this[_0x550726(0x242)](this[_0x550726(0x2a9)](_0x4a138d,_0x3fb181['id']));});}),this[_0x1492a3(0x294)][_0x1492a3(0x4c3)](_0x1492a3(0x4c8))?.[_0x1492a3(0x46c)](_0x1492a3(0x2f2),()=>{const _0x1b362b=_0x1492a3;if(_0x3fb181[_0x1b362b(0x2ab)]||this[_0x1b362b(0x30a)]){this['openPlaybackFromCatalog'](_0x3fb181);return;}this[_0x1b362b(0x1bd)](_0x3fb181['id'],_0x28a5e9);});}[_u2_b589d616b6_0x1a45bd(0x1f8)](_0x50abd7){const _0x437666=_u2_b589d616b6_0x1a45bd,_0x4d7d36=this[_0x437666(0x3dc)](_0x50abd7),_0x995526=Math[_0x437666(0x2b5)](0x1,_0x4d7d36[_0x437666(0x405)]||0x1);return Math[_0x437666(0x1ed)](Math['max'](0x1,Number(this['activeDetailEpisodeNumber'])||0x1),_0x995526);}[_u2_b589d616b6_0x1a45bd(0x53a)](_0x2c87d2,_0x4f7c9d=0x1){const _0x2ca27a=_u2_b589d616b6_0x1a45bd;this[_0x2ca27a(0x3dc)](_0x2c87d2);const _0x24208d=_0x2c87d2[_0x2ca27a(0x3fc)][_0x2ca27a(0x407)](_0x550709=>Number(_0x550709[_0x2ca27a(0x40a)])===Number(_0x4f7c9d)),_0x1b9da8=Array[_0x2ca27a(0x4a7)](_0x24208d?.[_0x2ca27a(0x202)])?_0x24208d[_0x2ca27a(0x202)]:[];if(Number(_0x4f7c9d)===0x1&&_0x1b9da8[_0x2ca27a(0x405)]===0x0&&Array[_0x2ca27a(0x4a7)](_0x2c87d2[_0x2ca27a(0x202)]))return _0x2c87d2[_0x2ca27a(0x202)];return _0x1b9da8;}[_u2_b589d616b6_0x1a45bd(0x3df)](_0xec1cc6,_0x1dcbf4,_0x426155,_0x1daed6=0x1){const _0x53739f=_u2_b589d616b6_0x1a45bd;this[_0x53739f(0x3dc)](_0xec1cc6);if(_0x1dcbf4||_0x426155<=0x1){const _0x2279b2=_0xec1cc6['episodes'][0x0]||{},_0x201fa0=(_0x2279b2[_0x53739f(0x3aa)]||_0x2279b2['recap']||_0x2279b2['content']||_0xec1cc6[_0x53739f(0x3aa)]||_0x53739f(0x387))[_0x53739f(0x2c2)]();return _0x53739f(0x4b2)+(Number(_0x1daed6)===0x1?_0x53739f(0x1c6):'')+_0x53739f(0x50a)+(_0xec1cc6[_0x53739f(0x305)]?'<img\x20src=\x22'+_0xec1cc6[_0x53739f(0x305)]+'\x22\x20alt=\x22\x22>':'')+_0x53739f(0x2d4)+this['escapeHtml'](_0x201fa0)+_0x53739f(0x231);}return Array[_0x53739f(0x4ab)]({'length':_0x426155},(_0x455d3f,_0x194238)=>{const _0x3d2f5f=_0x53739f,_0x7fa8e2=_0x194238+0x1,_0xc0ebae=_0xec1cc6[_0x3d2f5f(0x3fc)][_0x3d2f5f(0x407)](_0x3ff8b0=>Number(_0x3ff8b0['number'])===_0x7fa8e2)||{},_0x58b98d=Math['floor'](Math['random']()*(0x37-0x2a)+0x2a),_0x1a7289=(_0xc0ebae[_0x3d2f5f(0x3aa)]||_0xc0ebae[_0x3d2f5f(0x4b7)]||_0xc0ebae[_0x3d2f5f(0x33f)]||_0x3d2f5f(0x41e))[_0x3d2f5f(0x2c2)]();return'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-episode-item\x20'+(Number(_0x1daed6)===_0x7fa8e2?'active':'')+_0x3d2f5f(0x2a6)+_0x7fa8e2+_0x3d2f5f(0x4ce)+(_0xec1cc6['coverUrl']?'<img\x20src=\x22'+_0xec1cc6[_0x3d2f5f(0x305)]+_0x3d2f5f(0x28d):'')+_0x3d2f5f(0x2b9)+(_0x194238===0x0?_0x3d2f5f(0x519):_0x194238===0x1?_0x3d2f5f(0x32a):'0')+';\x22></div></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-ep-title\x22>'+_0x7fa8e2+'.\x20第\x20'+_0x7fa8e2+'\x20集</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-ep-duration\x22>'+_0x58b98d+'\x20分钟</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-desc\x22>'+this['escapeHtml'](_0x1a7289)+_0x3d2f5f(0x231);})[_0x53739f(0x38c)]('');}[_u2_b589d616b6_0x1a45bd(0x1ba)](_0x400a1b,_0x1caadb=0x1){const _0x4c4d39=_u2_b589d616b6_0x1a45bd,_0x5dfdcc=this[_0x4c4d39(0x53a)](_0x400a1b,_0x1caadb);if(!_0x5dfdcc['length'])return _0x4c4d39(0x449);const _0x29f2d8=_0x45bd9f=>{const _0x3b8d4e=_0x4c4d39;if(_0x45bd9f>=0x2710)return(_0x45bd9f/0x2710)[_0x3b8d4e(0x25a)](0x1)+'w';if(_0x45bd9f>=0x3e8)return(_0x45bd9f/0x3e8)[_0x3b8d4e(0x25a)](0x1)+'k';return _0x45bd9f;},_0x3e2607=(_0x925fe8,_0x3bcca8=![])=>{const _0x76d13b=_0x4c4d39,_0x25d89c=encodeURIComponent(_0x925fe8[_0x76d13b(0x51b)]||'user'),_0x337e8e='https://api.dicebear.com/7.x/identicon/svg?seed='+_0x25d89c+_0x76d13b(0x201),_0x52d557=_0x29f2d8(_0x925fe8[_0x76d13b(0x3bc)]||Math[_0x76d13b(0x200)](Math['random']()*0x64)),_0x4e041d=Math[_0x76d13b(0x200)](Math[_0x76d13b(0x45d)]()*0x18)+_0x76d13b(0x248);return _0x76d13b(0x466)+(_0x3bcca8?'is-reply':'')+_0x76d13b(0x235)+_0x337e8e+_0x76d13b(0x33e)+this[_0x76d13b(0x1c1)](_0x925fe8[_0x76d13b(0x51b)]||_0x76d13b(0x4b5))+_0x76d13b(0x3e0)+_0x4e041d+_0x76d13b(0x260)+this['escapeHtml'](_0x925fe8[_0x76d13b(0x25c)]||_0x925fe8['content']||'')+_0x76d13b(0x234)+_0x52d557+_0x76d13b(0x2f4)+(!_0x3bcca8&&_0x925fe8['replies']&&_0x925fe8[_0x76d13b(0x3ca)][_0x76d13b(0x405)]?_0x76d13b(0x1dc)+_0x925fe8[_0x76d13b(0x3ca)]['map'](_0x3e200f=>_0x3e2607(_0x3e200f,!![]))['join']('')+_0x76d13b(0x26c):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';};return _0x5dfdcc['map'](_0x3bc001=>_0x3e2607(_0x3bc001,![]))['join']('');}[_u2_b589d616b6_0x1a45bd(0x3f6)](){const _0x56f7d5=_u2_b589d616b6_0x1a45bd;return{'style':{'label':'文风','items':[{'key':'plainStyle','label':_0x56f7d5(0x3cb),'defaultValue':this['getPlainStylePresetText']()}]},'length':{'label':'字数','items':[{'key':'wordCount','label':'字数要求','defaultValue':_0x56f7d5(0x349)}]},'perspective':{'label':'视角','items':[{'key':_0x56f7d5(0x3e3),'label':_0x56f7d5(0x310),'defaultValue':this['getFirstPersonPresetText']()},{'key':'secondPerson','label':_0x56f7d5(0x50d),'defaultValue':this[_0x56f7d5(0x315)]()},{'key':_0x56f7d5(0x420),'label':_0x56f7d5(0x4e5),'defaultValue':this['getThirdPersonPresetText']()}]}};}[_u2_b589d616b6_0x1a45bd(0x2af)](){const _0x7c7344=_u2_b589d616b6_0x1a45bd;return'\x0a<第一人称视角规则>\x0a-\x20你只能使用“我”的视角进行叙述。“我”即为{{user}}。\x0a</第一人称视角规则>'[_0x7c7344(0x2c2)]();}[_u2_b589d616b6_0x1a45bd(0x315)](){const _0x4a6c9b=_u2_b589d616b6_0x1a45bd;return _0x4a6c9b(0x4f3)[_0x4a6c9b(0x2c2)]();}[_u2_b589d616b6_0x1a45bd(0x221)](){const _0x4a21f6=_u2_b589d616b6_0x1a45bd;return _0x4a21f6(0x441)['trim']();}['getPlainStylePresetText'](){const _0x597482=_u2_b589d616b6_0x1a45bd;return _0x597482(0x493);}[_u2_b589d616b6_0x1a45bd(0x1ce)](){const _0x4b79d2=_u2_b589d616b6_0x1a45bd;return new Set([_0x4b79d2(0x3e3),_0x4b79d2(0x420)]);}['getPresetCategoryOrder'](){const _0x169c08=_u2_b589d616b6_0x1a45bd;return[_0x169c08(0x311),_0x169c08(0x405),_0x169c08(0x214)];}[_u2_b589d616b6_0x1a45bd(0x31a)](_0xba728b='preset'){const _0x4f18a6=_u2_b589d616b6_0x1a45bd;return _0xba728b+'-'+Date['now']()+'-'+Math[_0x4f18a6(0x45d)]()[_0x4f18a6(0x3f0)](0x24)[_0x4f18a6(0x253)](0x2,0x8);}[_u2_b589d616b6_0x1a45bd(0x264)](_0x22c895,_0x5d0003,_0x194e30=''){const _0x14891f=_u2_b589d616b6_0x1a45bd;return{'id':_0x22c895||this[_0x14891f(0x31a)](_0x14891f(0x22f)),'key':_0x22c895||'','label':_0x5d0003,'value':_0x194e30};}['clonePreset'](_0x272c05){const _0x3135de=_u2_b589d616b6_0x1a45bd;return JSON[_0x3135de(0x3bd)](JSON[_0x3135de(0x492)](_0x272c05));}[_u2_b589d616b6_0x1a45bd(0x514)](_0x307ca7=_u2_b589d616b6_0x1a45bd(0x503),_0x467621=_u2_b589d616b6_0x1a45bd(0x2e4),_0x40e578=!![]){const _0x1b0413=_u2_b589d616b6_0x1a45bd,_0x340981={},_0x580540={},_0x5dbef8=this[_0x1b0413(0x3f6)](),_0x47dd6a=this[_0x1b0413(0x1ce)]();return this[_0x1b0413(0x52d)]()['forEach'](_0x4b95ba=>{const _0x449a37=_0x5dbef8[_0x4b95ba];_0x340981[_0x4b95ba]=_0x449a37['items']['map'](_0x50b948=>{const _0x4e1e88=_u2_b589d616b6_0x2ba3,_0x4a166c=this['createPresetItem'](_0x50b948['key'],_0x50b948['label'],_0x40e578?_0x50b948[_0x4e1e88(0x542)]||'':_0x50b948[_0x4e1e88(0x3d2)]||_0x50b948['defaultValue']||''),_0x5b494d=_0x4b95ba+':'+_0x4a166c['id'];return _0x580540[_0x5b494d]=!_0x47dd6a[_0x4e1e88(0x351)](_0x50b948[_0x4e1e88(0x3ac)]||_0x4a166c['id']),_0x4a166c;});}),{'id':_0x307ca7,'name':_0x467621,'open':{},'switchState':_0x580540,'itemsByCategory':_0x340981};}['createDefaultPresetState'](){const _0xd585e6=_u2_b589d616b6_0x1a45bd,_0xd15fdd=this[_0xd585e6(0x514)](_0xd585e6(0x503),_0xd585e6(0x2e4));return{'activePresetId':_0xd15fdd['id'],'presets':[_0xd15fdd]};}['normalizePreset'](_0x1028b9,_0xf3a285=_u2_b589d616b6_0x1a45bd(0x503)){const _0x32911e=_u2_b589d616b6_0x1a45bd,_0x11b41c=_0x1028b9&&typeof _0x1028b9===_0x32911e(0x2b1)?_0x1028b9:{},_0x2aa78e=this['createPresetFromDefaults'](_0x11b41c['id']||_0xf3a285,_0x11b41c[_0x32911e(0x51b)]||_0x32911e(0x2e4));_0x2aa78e[_0x32911e(0x250)]=_0x11b41c[_0x32911e(0x250)]&&typeof _0x11b41c[_0x32911e(0x250)]===_0x32911e(0x2b1)?_0x11b41c[_0x32911e(0x250)]:{},_0x2aa78e['switchState']=_0x11b41c['switchState']&&typeof _0x11b41c[_0x32911e(0x4c6)]===_0x32911e(0x2b1)?_0x11b41c['switchState']:_0x2aa78e['switchState'];const _0x31f6a4=this[_0x32911e(0x3f6)]();return this[_0x32911e(0x52d)]()[_0x32911e(0x379)](_0x35cf5b=>{const _0x33e916=_0x32911e,_0x2a5b88=_0x35cf5b===_0x33e916(0x405)||_0x35cf5b===_0x33e916(0x214)?_0x33e916(0x486):_0x35cf5b,_0x1878b3=Array['isArray'](_0x11b41c[_0x33e916(0x2aa)]?.[_0x35cf5b])?_0x11b41c[_0x33e916(0x2aa)][_0x35cf5b]:Array[_0x33e916(0x4a7)](_0x11b41c['itemsByCategory']?.[_0x2a5b88])?_0x11b41c[_0x33e916(0x2aa)][_0x2a5b88]:[],_0x2d5aa5=_0x31f6a4[_0x35cf5b][_0x33e916(0x1cb)][_0x33e916(0x4e2)](_0x118c76=>{const _0x38202c=_0x33e916,_0x277eb6=this[_0x38202c(0x219)](_0x118c76[_0x38202c(0x3ac)]),_0x320ae3=_0x1878b3[_0x38202c(0x407)](_0x2b51b6=>_0x2b51b6['key']===_0x118c76[_0x38202c(0x3ac)]||_0x2b51b6['id']===_0x118c76[_0x38202c(0x3ac)]||_0x277eb6['includes'](_0x2b51b6[_0x38202c(0x3ac)])||_0x277eb6[_0x38202c(0x3f3)](_0x2b51b6['id'])),_0x1d68cc=typeof _0x320ae3?.[_0x38202c(0x3d2)]===_0x38202c(0x3b9)&&_0x320ae3[_0x38202c(0x3d2)][_0x38202c(0x2c2)]()?_0x320ae3[_0x38202c(0x3d2)]:'',_0x171007=_0x1d68cc||_0x118c76[_0x38202c(0x542)]||'';return this[_0x38202c(0x264)](_0x118c76[_0x38202c(0x3ac)],_0x118c76[_0x38202c(0x270)],_0x118c76[_0x38202c(0x3ac)]===_0x38202c(0x2eb)?this['formatPresetWordCount'](_0x171007):_0x171007);});_0x2aa78e[_0x33e916(0x2aa)][_0x35cf5b]=_0x2d5aa5;}),_0x2aa78e;}['getLegacyPresetKeys'](){return[];}[_u2_b589d616b6_0x1a45bd(0x482)](_0x21c520,_0x130149=''){const _0x42a820=_u2_b589d616b6_0x1a45bd;if(_0x21c520==='wordCount')return this[_0x42a820(0x36d)](_0x130149);if(_0x21c520===_0x42a820(0x48a)&&!String(_0x130149||'')[_0x42a820(0x2c2)]())return this['getPlainStylePresetText']();if(_0x21c520==='firstPerson'&&!String(_0x130149||'')[_0x42a820(0x2c2)]())return this['getFirstPersonPresetText']();if(_0x21c520===_0x42a820(0x37e)&&!String(_0x130149||'')['trim']())return this[_0x42a820(0x315)]();if(_0x21c520===_0x42a820(0x420)&&!String(_0x130149||'')[_0x42a820(0x2c2)]())return this[_0x42a820(0x221)]();return _0x130149||'';}[_u2_b589d616b6_0x1a45bd(0x367)](_0x40ba98='500-800'){const _0x2dde2c=_u2_b589d616b6_0x1a45bd,_0x1811c1=String(_0x40ba98||'')[_0x2dde2c(0x4a9)](/\d+/g)||[];let _0x4611d9=Number(_0x1811c1[0x0])||0x1f4,_0x4ea690=Number(_0x1811c1[0x1])||_0x4611d9||0x320;_0x4611d9=Math[_0x2dde2c(0x2b5)](0x1,Math[_0x2dde2c(0x200)](_0x4611d9)),_0x4ea690=Math['max'](0x1,Math[_0x2dde2c(0x200)](_0x4ea690));if(_0x4611d9>_0x4ea690)[_0x4611d9,_0x4ea690]=[_0x4ea690,_0x4611d9];return{'min':_0x4611d9,'max':_0x4ea690};}[_u2_b589d616b6_0x1a45bd(0x36d)](_0x184e2e=_u2_b589d616b6_0x1a45bd(0x349)){const {min:_0x1ce806,max:_0x368889}=this['parsePresetWordCount'](_0x184e2e);return _0x1ce806+'-'+_0x368889;}[_u2_b589d616b6_0x1a45bd(0x1e2)](_0x17039e){const _0x17687c=_u2_b589d616b6_0x1a45bd,_0x1d8fd6=this[_0x17687c(0x514)]('default',_0x17039e[_0x17687c(0x51b)]||'默认预设');return _0x1d8fd6[_0x17687c(0x250)]=_0x17039e[_0x17687c(0x250)]&&typeof _0x17039e['open']===_0x17687c(0x2b1)?_0x17039e[_0x17687c(0x250)]:{},_0x1d8fd6[_0x17687c(0x4c6)]=_0x17039e['switchState']&&typeof _0x17039e[_0x17687c(0x4c6)]==='object'?_0x17039e[_0x17687c(0x4c6)]:_0x1d8fd6[_0x17687c(0x4c6)],this['getPresetCategoryOrder']()['forEach'](_0x3d644f=>{const _0x43584d=_0x17687c,_0x37e6da=_0x3d644f===_0x43584d(0x405)||_0x3d644f===_0x43584d(0x214)?'narration':_0x3d644f,_0x484bac=_0x17039e[_0x43584d(0x35f)]&&typeof _0x17039e[_0x43584d(0x35f)]==='object'?_0x17039e[_0x43584d(0x35f)][_0x3d644f]||_0x17039e[_0x43584d(0x35f)][_0x37e6da]:null;_0x484bac&&typeof _0x484bac===_0x43584d(0x2b1)&&(_0x1d8fd6[_0x43584d(0x2aa)][_0x3d644f]=_0x1d8fd6[_0x43584d(0x2aa)][_0x3d644f][_0x43584d(0x4e2)](_0x171eb0=>({..._0x171eb0,'value':this[_0x43584d(0x482)](_0x171eb0['key'],_0x484bac[_0x171eb0['key']]||this[_0x43584d(0x219)](_0x171eb0[_0x43584d(0x3ac)])[_0x43584d(0x4e2)](_0x28afc9=>_0x484bac[_0x28afc9])['find'](Boolean)||_0x171eb0[_0x43584d(0x3d2)]||'')})));}),{'activePresetId':_0x1d8fd6['id'],'presets':[_0x1d8fd6]};}[_u2_b589d616b6_0x1a45bd(0x4b1)](_0x413133=null){const _0x574c45=_u2_b589d616b6_0x1a45bd,_0x1a8fb1=_0x413133&&typeof _0x413133===_0x574c45(0x2b1)?_0x413133:{};if(!Array[_0x574c45(0x4a7)](_0x1a8fb1['presets'])&&(_0x1a8fb1[_0x574c45(0x35f)]||_0x1a8fb1[_0x574c45(0x287)]||_0x1a8fb1['name'])){const _0x44774f=this['migrateLegacyPresetState'](_0x1a8fb1),_0x43e257=this[_0x574c45(0x350)](_0x44774f[_0x574c45(0x302)][0x0],_0x574c45(0x503));return _0x43e257['id']=_0x574c45(0x503),_0x43e257[_0x574c45(0x51b)]=_0x574c45(0x2e4),{'activePresetId':_0x574c45(0x503),'presets':[_0x43e257]};}const _0x5ea538=Array[_0x574c45(0x4a7)](_0x1a8fb1[_0x574c45(0x302)])&&_0x1a8fb1[_0x574c45(0x302)][_0x574c45(0x405)]?_0x1a8fb1[_0x574c45(0x302)][_0x574c45(0x407)](_0x11ec04=>_0x11ec04?.['id']===_0x1a8fb1[_0x574c45(0x329)])||_0x1a8fb1[_0x574c45(0x302)][0x0]:null,_0x4be409=this['normalizePreset'](_0x5ea538||this[_0x574c45(0x514)](_0x574c45(0x503),_0x574c45(0x2e4)),_0x574c45(0x503));return _0x4be409['id']=_0x574c45(0x503),_0x4be409[_0x574c45(0x51b)]=_0x574c45(0x2e4),{'activePresetId':_0x574c45(0x503),'presets':[_0x4be409]};}[_u2_b589d616b6_0x1a45bd(0x4da)](){const _0x53e6c2=_u2_b589d616b6_0x1a45bd;let _0x2bbb41=null;try{const _0x261134=this[_0x53e6c2(0x331)]();_0x261134&&typeof window[_0x53e6c2(0x26f)]==='function'&&(_0x2bbb41=window['getAppState']('netflix')?.['presetState']||null),!_0x261134&&window['StorageManager']&&typeof window['StorageManager'][_0x53e6c2(0x308)]==='function'&&(_0x2bbb41=window[_0x53e6c2(0x1fe)][_0x53e6c2(0x308)](_0x53e6c2(0x223),null)),!_0x2bbb41&&!_0x261134&&typeof window['getAppState']===_0x53e6c2(0x467)&&(_0x2bbb41=window[_0x53e6c2(0x26f)](_0x53e6c2(0x2a1))?.[_0x53e6c2(0x480)]||null);}catch(_0x27a21f){console[_0x53e6c2(0x2dc)]('Failed\x20to\x20load\x20Netflix\x20preset\x20state:',_0x27a21f);}return this[_0x53e6c2(0x4b1)](_0x2bbb41);}[_u2_b589d616b6_0x1a45bd(0x251)](){const _0x105ce5=_u2_b589d616b6_0x1a45bd;try{if(typeof window[_0x105ce5(0x26f)]==='function'&&typeof window[_0x105ce5(0x490)]===_0x105ce5(0x467)){const _0x501e24=window[_0x105ce5(0x26f)](_0x105ce5(0x2a1))||{};window[_0x105ce5(0x490)](_0x105ce5(0x2a1),{..._0x501e24,'presetState':this[_0x105ce5(0x480)]},{'silent':!![]});}else window[_0x105ce5(0x1fe)]&&typeof window[_0x105ce5(0x1fe)][_0x105ce5(0x410)]===_0x105ce5(0x467)&&window[_0x105ce5(0x1fe)]['save'](_0x105ce5(0x223),this['presetState']);}catch(_0x3d648f){console[_0x105ce5(0x2dc)]('Failed\x20to\x20save\x20Netflix\x20preset\x20state:',_0x3d648f);}}['getActivePreset'](){const _0x517dd8=_u2_b589d616b6_0x1a45bd;return this['presetState'][_0x517dd8(0x302)][_0x517dd8(0x407)](_0x2b88c1=>_0x2b88c1['id']===this[_0x517dd8(0x480)]['activePresetId'])||this[_0x517dd8(0x480)][_0x517dd8(0x302)][0x0];}[_u2_b589d616b6_0x1a45bd(0x1c1)](_0x1484e0=''){const _0x5f9885=_u2_b589d616b6_0x1a45bd;return String(_0x1484e0)['replace'](/&/g,'&amp;')[_0x5f9885(0x324)](/</g,_0x5f9885(0x4e6))['replace'](/>/g,'&gt;')[_0x5f9885(0x324)](/"/g,_0x5f9885(0x544))['replace'](/'/g,_0x5f9885(0x51c));}[_u2_b589d616b6_0x1a45bd(0x51d)](_0x57f012=''){const _0x5f3da2=_u2_b589d616b6_0x1a45bd;return this[_0x5f3da2(0x1c1)](_0x57f012)['replace'](/`/g,_0x5f3da2(0x40e));}[_u2_b589d616b6_0x1a45bd(0x366)](){const _0x3a425d=_u2_b589d616b6_0x1a45bd;if(typeof window[_0x3a425d(0x366)]===_0x3a425d(0x467))return window[_0x3a425d(0x366)]();return(!window[_0x3a425d(0x3f5)]||typeof window[_0x3a425d(0x3f5)]!=='object')&&(window[_0x3a425d(0x3f5)]={'name':'','phone':'','persona':'','avatarUrl':null}),window[_0x3a425d(0x3f5)];}[_u2_b589d616b6_0x1a45bd(0x283)](_0x167d67=this[_u2_b589d616b6_0x1a45bd(0x366)]()){const _0x2ecd0b=_u2_b589d616b6_0x1a45bd;return _0x167d67['name']||_0x167d67[_0x2ecd0b(0x289)]||_0x2ecd0b(0x20f);}['renderAvatar'](_0x5bb4b4,_0x13ddd4,_0x4ad347=''){const _0x3f7745=_u2_b589d616b6_0x1a45bd;if(!_0x5bb4b4)return;const _0x2311d7=_0x4ad347?_0x3f7745(0x314)+_0x4ad347+'\x22':'';_0x13ddd4?_0x5bb4b4[_0x3f7745(0x2fc)]=_0x3f7745(0x431)+_0x13ddd4+_0x3f7745(0x2b7)+_0x2311d7+'>':_0x5bb4b4[_0x3f7745(0x2fc)]='<i\x20class=\x22fas\x20fa-user\x22></i>';}[_u2_b589d616b6_0x1a45bd(0x1d3)](){const _0x229bf9=_u2_b589d616b6_0x1a45bd,_0x204ae8=this[_0x229bf9(0x366)](),_0x5ec79f=this[_0x229bf9(0x283)](_0x204ae8),_0x5226f2=_0x204ae8[_0x229bf9(0x3a9)]||_0x204ae8[_0x229bf9(0x3b5)]||'',_0x5b9e91=_0x204ae8[_0x229bf9(0x507)]||_0x204ae8[_0x229bf9(0x38a)]||0x0,_0x2f1edb=_0x204ae8[_0x229bf9(0x536)]||_0x204ae8[_0x229bf9(0x498)]||0x0;this['renderAvatar'](this[_0x229bf9(0x525)],_0x5226f2),this['renderAvatar'](this[_0x229bf9(0x323)][_0x229bf9(0x4c3)](_0x229bf9(0x4f0)),_0x5226f2),this[_0x229bf9(0x320)](this[_0x229bf9(0x323)][_0x229bf9(0x4c3)](_0x229bf9(0x2c1)),_0x5226f2);const _0x4f7fca=this['view'][_0x229bf9(0x4c3)]('#netflix-profile-name'),_0x4296f3=this[_0x229bf9(0x323)][_0x229bf9(0x4c3)]('#netflix-profile-followers'),_0x1988b4=this['view'][_0x229bf9(0x4c3)](_0x229bf9(0x541));if(_0x4f7fca)_0x4f7fca[_0x229bf9(0x491)]=_0x5ec79f;if(_0x4296f3)_0x4296f3[_0x229bf9(0x491)]=_0x5b9e91;if(_0x1988b4)_0x1988b4[_0x229bf9(0x491)]=_0x2f1edb;}['openProfileSheet'](){const _0x15f068=_u2_b589d616b6_0x1a45bd,_0x14606b=this[_0x15f068(0x366)]();this['editAvatarDataUrl']=_0x14606b[_0x15f068(0x3a9)]||_0x14606b[_0x15f068(0x3b5)]||'';if(this[_0x15f068(0x494)])this[_0x15f068(0x494)][_0x15f068(0x3d2)]=this[_0x15f068(0x283)](_0x14606b);if(this[_0x15f068(0x31c)])this[_0x15f068(0x31c)][_0x15f068(0x3d2)]=_0x14606b['persona']||_0x14606b[_0x15f068(0x487)]||'';this[_0x15f068(0x20e)]();if(this[_0x15f068(0x20c)])this[_0x15f068(0x20c)][_0x15f068(0x37d)][_0x15f068(0x4bd)](_0x15f068(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x355)](){const _0x4494bb=_u2_b589d616b6_0x1a45bd;if(this[_0x4494bb(0x20c)])this['profileSheet'][_0x4494bb(0x37d)][_0x4494bb(0x4c5)](_0x4494bb(0x1c6));}[_u2_b589d616b6_0x1a45bd(0x20e)](){const _0x320d36=_u2_b589d616b6_0x1a45bd;if(!this[_0x320d36(0x48b)]||!this['editAvatarTrigger'])return;const _0x3481cc=this['editAvatarTrigger'][_0x320d36(0x4c3)]('i');if(this[_0x320d36(0x2b4)]){this['editAvatarPreview'][_0x320d36(0x328)]=this[_0x320d36(0x2b4)],this[_0x320d36(0x48b)][_0x320d36(0x311)]['display']=_0x320d36(0x1dd);if(_0x3481cc)_0x3481cc[_0x320d36(0x311)][_0x320d36(0x4df)]=_0x320d36(0x1fa);}else{this[_0x320d36(0x48b)][_0x320d36(0x459)]('src'),this[_0x320d36(0x48b)][_0x320d36(0x311)]['display']=_0x320d36(0x1fa);if(_0x3481cc)_0x3481cc[_0x320d36(0x311)]['display']=_0x320d36(0x1dd);}}[_u2_b589d616b6_0x1a45bd(0x2ec)](_0x404d06){const _0x37ca89=_u2_b589d616b6_0x1a45bd,_0xde2b45=_0x404d06['target'][_0x37ca89(0x4b8)]&&_0x404d06[_0x37ca89(0x278)][_0x37ca89(0x4b8)][0x0];if(!_0xde2b45)return;const _0x500d43=new FileReader();_0x500d43[_0x37ca89(0x288)]=()=>{const _0x2e7291=_0x37ca89;this['editAvatarDataUrl']=_0x500d43[_0x2e7291(0x43e)]||'',this['renderEditAvatar']();},_0x500d43[_0x37ca89(0x275)](_0xde2b45),_0x404d06[_0x37ca89(0x278)]['value']='';}['saveProfile'](){const _0x320833=_u2_b589d616b6_0x1a45bd,_0x38ef3d=this[_0x320833(0x366)](),_0x3870d4=this['editNameInput']?this[_0x320833(0x494)][_0x320833(0x3d2)][_0x320833(0x2c2)]():'',_0x5f2fd6=this[_0x320833(0x31c)]?this['editPersonaInput']['value']['trim']():'';_0x38ef3d[_0x320833(0x51b)]=_0x3870d4||'User',_0x38ef3d['persona']=_0x5f2fd6,_0x38ef3d[_0x320833(0x3a9)]=this[_0x320833(0x2b4)]||null,window['userState']=_0x38ef3d,this[_0x320833(0x485)](_0x38ef3d),this[_0x320833(0x1f0)](_0x38ef3d),this[_0x320833(0x1d3)](),this[_0x320833(0x355)](),typeof window[_0x320833(0x4fa)]===_0x320833(0x467)&&window['showToast'](_0x320833(0x3d6));}[_u2_b589d616b6_0x1a45bd(0x485)](_0x4dbb51){const _0x1613ba=_u2_b589d616b6_0x1a45bd;if(typeof window[_0x1613ba(0x285)]!=='function'||typeof window[_0x1613ba(0x1e6)]!==_0x1613ba(0x467))return;const _0x374701=window[_0x1613ba(0x285)](),_0x1d0e9d=window[_0x1613ba(0x1e6)]();if(!Array[_0x1613ba(0x4a7)](_0x374701)||_0x1d0e9d==null)return;const _0x27243d=_0x374701[_0x1613ba(0x407)](_0x597f6c=>String(_0x597f6c['id'])===String(_0x1d0e9d));if(!_0x27243d)return;_0x27243d[_0x1613ba(0x51b)]=_0x4dbb51[_0x1613ba(0x51b)],_0x27243d['persona']=_0x4dbb51[_0x1613ba(0x40c)],_0x27243d['signature']=_0x4dbb51['persona'],_0x27243d[_0x1613ba(0x3a9)]=_0x4dbb51['avatarUrl'];}[_u2_b589d616b6_0x1a45bd(0x1f0)](_0x7d660){const _0x430170=_u2_b589d616b6_0x1a45bd;try{window['StorageManager']&&typeof window[_0x430170(0x1fe)][_0x430170(0x410)]===_0x430170(0x467)&&(window[_0x430170(0x1fe)]['save'](_0x430170(0x1d8),_0x7d660),typeof window[_0x430170(0x285)]===_0x430170(0x467)&&window[_0x430170(0x1fe)]['save'](_0x430170(0x4e3),window[_0x430170(0x285)]()));}catch(_0x57ed65){console[_0x430170(0x2dc)](_0x430170(0x2fb),_0x57ed65);}if(typeof window[_0x430170(0x534)]===_0x430170(0x467))window[_0x430170(0x534)]();if(typeof window['saveGlobalData']==='function')window[_0x430170(0x239)]();}[_u2_b589d616b6_0x1a45bd(0x254)](_0xdcfa44=_u2_b589d616b6_0x1a45bd(0x3e8)){const _0x57161d=_u2_b589d616b6_0x1a45bd,_0xb8f1ae=this[_0x57161d(0x2ae)][_0x57161d(0x407)](_0x21d334=>_0x21d334[_0x57161d(0x24d)](_0x57161d(0x1fc))===_0xdcfa44)||this[_0x57161d(0x2ae)][0x0];if(!_0xb8f1ae)return;this['navItems'][_0x57161d(0x379)](_0x13cab5=>_0x13cab5['classList']['remove']('active')),_0xb8f1ae[_0x57161d(0x37d)]['add']('active'),this['tabPanels']['forEach'](_0x44a43c=>{const _0xd3b969=_0x57161d;_0x44a43c[_0xd3b969(0x37d)][_0xd3b969(0x2c8)](_0xd3b969(0x1c6),_0x44a43c[_0xd3b969(0x24d)](_0xd3b969(0x3dd))===_0xdcfa44);});(_0xdcfa44===_0x57161d(0x226)||_0xdcfa44===_0x57161d(0x450))&&(this[_0x57161d(0x1d3)](),this['renderWorks']());_0xdcfa44===_0x57161d(0x3e8)&&this['renderHomeCatalog']();if(this[_0x57161d(0x33f)])this[_0x57161d(0x33f)][_0x57161d(0x1d6)]=0x0;this[_0x57161d(0x395)](_0xb8f1ae);}[_u2_b589d616b6_0x1a45bd(0x395)](_0x1a2d26=null){const _0x54a0aa=_u2_b589d616b6_0x1a45bd;if(!this[_0x54a0aa(0x396)])return;const _0x2df6d6=_0x1a2d26||this[_0x54a0aa(0x323)][_0x54a0aa(0x4c3)](_0x54a0aa(0x2e2)),_0x2eeb07=this[_0x54a0aa(0x323)]['querySelector'](_0x54a0aa(0x385));if(!_0x2df6d6||!_0x2eeb07)return;const _0x57a91c=_0x2eeb07[_0x54a0aa(0x321)](),_0x8e805a=_0x2df6d6[_0x54a0aa(0x321)](),_0x5440a0=_0x8e805a[_0x54a0aa(0x2f6)]-_0x57a91c['left']-0x5;this[_0x54a0aa(0x396)][_0x54a0aa(0x311)][_0x54a0aa(0x1ee)]=_0x8e805a[_0x54a0aa(0x1ee)]+'px',this['navIndicator'][_0x54a0aa(0x311)][_0x54a0aa(0x327)]=_0x54a0aa(0x23e)+_0x5440a0+_0x54a0aa(0x4ed);}[_u2_b589d616b6_0x1a45bd(0x250)](){const _0x4b562c=_u2_b589d616b6_0x1a45bd;if(!this[_0x4b562c(0x323)])return;this['view']['style'][_0x4b562c(0x4df)]=_0x4b562c(0x31f),this[_0x4b562c(0x323)]['classList'][_0x4b562c(0x4bd)](_0x4b562c(0x1c6)),this['isOpen']=!![],this[_0x4b562c(0x1d3)](),this[_0x4b562c(0x319)](),this[_0x4b562c(0x254)]('home'),setTimeout(()=>this[_0x4b562c(0x395)](),0x0),document[_0x4b562c(0x4c3)]('meta[name=\x22theme-color\x22]')?.[_0x4b562c(0x303)](_0x4b562c(0x33f),_0x4b562c(0x1ff));}['close'](){const _0x1f70c6=_u2_b589d616b6_0x1a45bd;if(!this[_0x1f70c6(0x323)])return;this[_0x1f70c6(0x323)][_0x1f70c6(0x37d)][_0x1f70c6(0x4c5)](_0x1f70c6(0x1c6)),this[_0x1f70c6(0x323)][_0x1f70c6(0x311)][_0x1f70c6(0x4df)]=_0x1f70c6(0x1fa),this['closeProfileSheet'](),this[_0x1f70c6(0x46f)](),this[_0x1f70c6(0x21c)](),this[_0x1f70c6(0x510)](!![]),this[_0x1f70c6(0x4f2)](),this[_0x1f70c6(0x513)](),this[_0x1f70c6(0x2ff)](),this[_0x1f70c6(0x212)]=![],document[_0x1f70c6(0x4c3)](_0x1f70c6(0x39f))?.['setAttribute'](_0x1f70c6(0x33f),'#ffffff');}}function initializeNetflixApp(){const _0x4038ee=_u2_b589d616b6_0x1a45bd;try{window[_0x4038ee(0x33c)]=new NetflixApp(),window[_0x4038ee(0x32d)]&&typeof window[_0x4038ee(0x32d)][_0x4038ee(0x3b2)]===_0x4038ee(0x467)?window[_0x4038ee(0x38e)]=window[_0x4038ee(0x32d)][_0x4038ee(0x3b2)](()=>{const _0x405900=_0x4038ee;return window[_0x405900(0x33c)]?.[_0x405900(0x47f)](),!![];})['catch'](_0x369762=>{return console['warn']('Netflix\x20global\x20data\x20recovery\x20failed:',_0x369762),![];}):window['netflixDataReadyPromise']=Promise[_0x4038ee(0x386)](!![]);}catch(_0x53145c){document[_0x4038ee(0x237)][_0x4038ee(0x374)][_0x4038ee(0x2e9)]=_0x53145c?.[_0x4038ee(0x301)]||_0x53145c?.[_0x4038ee(0x465)]||String(_0x53145c),console[_0x4038ee(0x42f)](_0x4038ee(0x3d8),_0x53145c);}}document['readyState']==='loading'?document[_u2_b589d616b6_0x1a45bd(0x46c)](_u2_b589d616b6_0x1a45bd(0x27b),initializeNetflixApp):initializeNetflixApp();function _u2_b589d616b6_0x2ba3(_0x51af8b,_0x12abc3){_0x51af8b=_0x51af8b-0x1b7;const _0x6d0ad8=_u2_b589d616b6_0x6d0a();let _0x2ba3e4=_0x6d0ad8[_0x51af8b];return _0x2ba3e4;}function _u2_b589d616b6_0x6d0a(){const _0x1ba868=['createDefaultWorkDraft','findCatalogItem','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-cast-tags\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:8px;\x22>主演：</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','renderStructure','workTitle','change','normalizePlaybackEntry','apiKey','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</article>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','error','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22netflix-playback-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-section-label\x22>本集正文</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','<img\x20src=\x22','#netflix-work-category-segment\x20button','<textarea\x20class=\x22netflix-rps-editor-textarea\x22\x20data-preset-field=\x22value\x22\x20aria-label=\x22编辑','openPlaybackEpisodeSidebar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-picker-sheet\x22\x20id=\x22netflix-actor-picker-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-picker-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-picker-title\x22>选择主演</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-picker-list\x22\x20id=\x22netflix-actor-picker-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-actor-picker-done-btn\x22>完成</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','normalizeCatalogItem','pointercancel','getNextPlaybackEpisodeNumber','#netflix-playback-preset-close','findMatchingBrace','settingsEntry','push','advance','result','未命名词条','纪录片','\x0a<第三人称视角规则>\x0a-\x20只能使用“他/她/它”或具体人名进行叙述。\x0a-\x20不得出现“我”或“你”作为叙述者介入内容。\x0a-\x20未在场景中发生或角色无法感知的信息，需通过场景内的线索呈现，不得直接抛出全知总结。\x0a</第三人称视角规则>','#netflix-work-cover-trigger','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-work-card\x22\x20data-work-id=\x22','worldBookSheet','【世界书】\x0a','init','updatedAt','#netflix-world-book-save','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-empty\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-comment-dots\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>成为第一个评价的人吧。</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.netflix-rps-editor-save','normalizePlaybackIntroEpisode','#netflix-world-book-close','\x27);\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-card-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','categoryKey','getActiveWork','create','workTagsInput','roleName','handleWorkCoverFile','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','desc','playbackCastSheet','updatePlaybackCastMember','touchstart','removeAttribute','/640/960?grayscale','#netflix-playback-episode-btn','netflix-header','random','renderActorPicker','createCatalogItemFromWork','3851734UmcHth','1hEQVXl','\x22\x20data-item-id=\x22','#netflix-work-cover-input','</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-meta-match\x22>','message','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-item\x20','function','.netflix-record-modal-title','playbackAdvanceBtn','（可选）输入对整个这一集的杀青补充设定，即将生成前情回顾与评论区...','\x22\x20placeholder=\x22角色名\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>人设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20data-field=\x22rolePersona\x22\x20placeholder=\x22角色人设\x22>','addEventListener','cast','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cast-item\x22\x20data-actor-id=\x22','closeSettingsSheet','%\x20匹配</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','u2_netflixHomeCatalog','workStartBtn','未命名影片','settingsApply','.netflix-rps-switch','abort','<div\x20style=\x22font-size:12px;color:#bcbcbc;margin-bottom:16px;\x22>暂无演员记录</div>','checked','activeDetailEpisodeNumber','.netflix-playback-cast-avatar','tag','data-switch-key','</div>','rolePersona','refreshFromPersistedState','presetState','#netflix-playback-cast-add','normalizeDefaultPresetValue','imStorage','#netflix-profile-sheet','syncCurrentAccount','narration','signature','settingsTabContents','playbackPresetSidebar','plainStyle','editAvatarPreview','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','[data-preset-field]','Generated\x20catalog\x20is\x20incomplete','生成失败，请检查\x20API\x20返回格式或网络','setAppState','textContent','stringify','\x0a<文风>\x0a1.\x20核心定义\x0a白描：以最简洁客观的语言描摹事物的可感知形态、动作、空间关系，不添加任何主观修饰、情感解读或修辞。\x0a\x0a2.\x20绝对禁令（出现即违规）\x0a-\x20禁用所有修辞手法：比喻、拟人、夸张、排比、反问、象征。\x0a-\x20禁用情感形容词与副词（如“孤寂地”“欢快地”），仅允许表示颜色、尺寸、方位等客观属性的词。\x0a-\x20禁止心理描写：不得出现“他想”“她感到”“内心涌起”“意识到”“记得”等揭示内心的语句。\x0a-\x20禁止主观评价：不得插入作者抒情、议论、解释、总结或价值判断。\x0a\x0a3.\x20必须执行的写作指令\x0a-\x20只描写外部可感事物：动作、对话、外貌、环境、声音、气味、光线、温度、质地。只写看得见、听得到、摸得着、闻得到的东西。\x0a-\x20以名词和动词为核心，尽量减少“的”“地”“得”及形容词性修饰语。多用单句和短句。\x0a-\x20按观察顺序组织内容：由外到内、由远到近、由整体到局部。\x0a-\x20通过行动、表情、对话侧写人物状态，禁止直述心理。\x0a\x0a4.\x20模仿范例\x0a输入（违规）：她拖着疲惫的身子，茫然走在空无一人的长街，路灯把影子拉得好长，像一声叹息。\x0a输出（白描）：她走在街上。路灯亮着。身后拖着影子。\x0a\x0a5.\x20优先级\x0a以上规则具有最高优先级。任何描写冲动产生时，必须先用“是否可见/可听/可触”检验，不通过的内容一律删除。\x0a</文风>','editNameInput','4763adHBIX','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-settings-sheet\x22\x20id=\x22netflix-settings-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-settings-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-settings-title\x22>CSS\x20设置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-settings-tab-content\x20active\x22\x20id=\x22netflix-settings-tab-playback\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-settings-upload\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-file-code\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>上传播放界面\x20CSS</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22netflix-settings-playback-css-file\x22\x20accept=\x22.css,text/css\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-settings-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>播放界面\x20CSS</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22netflix-settings-playback-css-input\x22\x20placeholder=\x22这里的\x20CSS\x20只会应用到播放界面。自动限定在\x20#netflix-playback-sheet\x20内。\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-settings-actions\x22\x20style=\x22grid-template-columns:\x201fr\x201fr;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-settings-clear\x22>清空当前</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-settings-apply\x22>应用当前</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.netflix-work-card','subs','netflixState','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-card\x20','未命名作品','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-row\x20','#netflix-settings-clear','#netflix-actor-picker-sheet','renderPlaybackWindow','normalizeHomeCatalog','homeCatalog','renderRecentRow','playbackPresetClose','workCategoryButtons','playbackCastDone','endpoint','isArray','openPlaybackCastSheet','match','Char','from','test','\x27);','开始创作','#netflix-playback-advance-btn','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-card-img\x22\x20style=\x22background-image:url(\x27','normalizePresetState','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-episode-item\x20','renderTagPreview','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-tab-panel\x20active\x22\x20data-panel=\x22home\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22netflix-home-content\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-tab-panel\x20netflix-create-panel\x22\x20data-panel=\x22create\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-hub\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-create-new-btn\x22\x20id=\x22netflix-create-new-trigger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-video\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>新影片</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>我的作品</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-works-list\x22\x20id=\x22netflix-create-works-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20作品列表将在这里渲染\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-tab-panel\x20netflix-profile-panel\x22\x20data-panel=\x22profile\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-profile-avatar\x22\x20id=\x22netflix-profile-avatar\x22><i\x20class=\x22fas\x20fa-user\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20id=\x22netflix-profile-name\x22>User</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-profile-stats\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong\x20id=\x22netflix-profile-followers\x22>0</strong><span>粉丝</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong\x20id=\x22netflix-profile-subs\x22>0</strong><span>订阅</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-profile-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22netflix-world-book-entry\x22><i\x20class=\x22fas\x20fa-clock\x22></i><span>世界书</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22netflix-settings-entry\x22><i\x20class=\x22fas\x20fa-cog\x22></i><span>设置</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-acting-section\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>参演影片</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-acting-list\x22\x20id=\x22netflix-acting-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','热心网友','输入接下来本集剧情的发展方向，可留空自由推进...','recap','files','settingsPlaybackCssInput','1\x20小时\x2058\x20分钟','saveNetflixState','已总结','add','<em>·</em>','syncPlaybackEntryToSourceWork','<i\x20class=\x22fas\x20fa-film\x22></i>','workCoverPreview','createHeroBanner','querySelector','#netflix-playback-episode-sidebar','remove','switchState','status','#netflix-wd-play-btn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Failed\x20to\x20save\x20Netflix\x20state:','playbackPresetBody','longPressTimer','。请严格返回\x20JSON\x20格式，不要包含\x20Markdown\x20标记或多余的解释说明：\x0a{\x0a\x20\x20\x22content\x22:\x20\x22电影感正文的续写部分，','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-img\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','workCoverTrigger','@keyframes','#netflix-playback-next-input','createNewTrigger','handlePlaybackCastAvatarFile','choices','\x22\x20data-actor-id=\x22','openPlaybackPresetSidebar','\x0a标签:\x20','getAvailableWorldBooks','splice','loadPresetState','normalizePlaybackActor','linear-gradient(135deg,\x20#3a3a3a,\x20#111)','formatPresetContextLine','disabled','display','getPlaybackEntry','episodeCount','map','u2_accounts','<div\x20style=\x22color:#888;font-size:14px;text-align:center;\x22>暂无预设条目</div>','第三人称','&lt;','workSummaryInput','API\x20Request\x20Failed:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-cast-scroll\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','category','requestChatCompletion','u2_netflixPlaybackCatalog','px)','workDetailSheet','netflix-view','#netflix-profile-avatar','.netflix-episode-item','closeActorPicker','\x0a<第二人称视角规则>\x0a-\x20你只能使用“你”进行叙述。“你”即为{{user}}。\x0a</第二人称视角规则>','scene','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','@supports','reduce','placeholder','u2_worldBooks','showToast','data-catalog-id=\x22','\x22\x20class=\x22role-name-input\x22\x20value=\x22','background:\x20','openCatalogWorkDetail','worldBookSave','renderWorks','【系统提示】\x0a你正在为\x20Netflix\x20生成影片播放页创作本集的后续正文内容。请以电影感、小说叙事的方式写作，直接推进当前集的剧情。\x0a\x0a','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-episodes-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<option>第\x201\x20季</option>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</select>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','default','作品创建成功','.netflix-cast-meta\x20.role-persona-input','playbackNextModal','followers','indexOf','header','\x22\x20data-episode-number=\x221\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-img\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','openProfileSheet','/v1/chat/completions','第二人称','Netflix\x20playback\x20advance\x20episode\x20failed:','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-hero-fade\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-close\x22\x20onclick=\x22window.netflixApp\x20&&\x20window.netflixApp.closeWorkDetail()\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20class=\x22netflix-wd-title\x22>','closeHomeSearchSheet','playbackClose','sections','closeWorkDetail','createPresetFromDefaults','tokens','avatarDataUrl','appendChild','playbackEpisodeSidebar','100%','电视剧','name','&#39;','escapeAttr','upsertRecentCatalogItem','@container','normalizeCoverUrl','\x22\x20placeholder=\x22演员名\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>饰演</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20data-field=\x22roleName\x22\x20value=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-editor-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-rps-editor-cancel\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-rps-editor-save\x22>保存</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','这是一部精彩的影视作品，讲述了令人着迷的故事，充满反转与惊喜。在追寻真相的路上，主角们经历了重重考验。','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-rps-item-label\x22>','headerAvatar','playbackNextClose','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>类型：<span>','为你推荐','#netflix-work-cast-add-btn','json_object','播放界面样式已清空','thumbnail','getPresetCategoryOrder','nickname','<div\x20class=\x22netflix-record-empty\x22>暂无影片</div>','6gsOfpL','#netflix-playback-next-close','getNetflixApiConfig','<div\x20class=\x22netflix-actor-empty\x22>暂无本集主演</div>','syncUIs','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-home-search-sheet\x22\x20id=\x22netflix-home-search-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-home-search-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-home-search-title\x22>搜索\x20Netflix</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-home-search-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-search\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22netflix-home-search-input\x22\x20placeholder=\x22输入想看的类型、人物或剧情\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-home-search-hint\x22>留空会随机生成一组首页影片。</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-home-search-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-home-search-cancel\x22>取消</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-home-search-confirm\x22>确认</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','subscriptions','</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-action-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>我的列表</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-action-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22far\x20fa-thumbs-up\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>评价</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-action-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-share-alt\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>分享</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-tabs\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-tab\x20active\x22>相关内容</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-tab\x22>更多影片</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','预设内容不能为空','120732VSizSV','getEpisodeComments','now','内容\x22>','data-work-id','@font-face','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','stopPropagation','#netflix-profile-subs','defaultValue','settingsClear','&quot;','legacy-work-','itemId','parseWorkTags','renderWorkComments','normalizeGeneratedHomeCatalog','recommended','openPlaybackFromWork','focus','.netflix-rps-editor-cancel','未命名世界书','escapeHtml','linear-gradient(135deg,\x20#332a4a,\x20#111)','editSaveBtn','无，允许自由推进。','scopeCssBlock','active','filter','\x22></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','isHomeSearchLoading','items','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','.netflix-playback-cast-item','getDefaultOffPresetKeys','getActivePreset','Failed\x20to\x20load\x20Netflix\x20state:','homeSearchCancel','recent','renderUserProfile','Enter','tagsText','scrollTop','这部影片','u2_userState','.netflix-playback-cast-avatar-input','presetSwitches','#netflix-world-book-list','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-replies\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','block','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','normalizeRecordMessage','createHomeCatalogPrompt','【启用的预设】\x0a','migrateLegacyPresetState','saveCustomCss','<div\x20class=\x22netflix-actor-empty\x22>暂无影片</div>','renderCastList','getCurrentAccountId','title','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22netflix-playback-fixed\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-section-label\x22>前情回顾</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','renderPlaybackPresetEditor','#netflix-work-cover-preview','setHomeSearchLoading','#netflix-playback-episode-close','min','width','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-editor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','persistUserState','createdAt','playbackSheet','openWorkDetail','playbackTitle','renderPlaybackPresetSidebar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22netflix-playback-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-section-label\x22>影片介绍</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','9227130aTRiId','getDetailEpisodeNumber','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','none','getActivePlaybackEpisode','data-tab','bio','StorageManager','#000000','floor','&backgroundColor=transparent','comments','</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-tags\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','#netflix-playback-preset-body','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-sheet\x22\x20id=\x22netflix-world-book-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-title\x22>世界书</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20id=\x22netflix-world-book-close\x22\x20class=\x22netflix-world-book-close\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-list\x22\x20id=\x22netflix-world-book-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-world-book-save\x22\x20id=\x22netflix-world-book-save\x22>保存挂载</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x0a}','\x22\x20placeholder=\x22角色名\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>人设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20data-actor-id=\x22','user-current','loadFriends','playbackCastAdd','data-catalog-id','profileSheet','<div\x20class=\x22netflix-actor-empty\x22>加载中...</div>','renderEditAvatar','User','get','\x0a简介:\x20','isOpen','getFullYear','perspective','split','#netflix-edit-name-input','\x22\x20data-preset-field=\x22min\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>最多字数</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20min=\x221\x22\x20step=\x221\x22\x20value=\x22','settingsSheet','getLegacyPresetKeys','#netflix-create-form-sheet','data-actor-id','closeWorldBookSheet','banners','renderCatalogSection','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-work-title\x22>','keydown','getThirdPersonPresetText','getPlaybackWordCountText','u2_netflixPresetState','<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20生成中','imessage','profile','model','head','actors','application/json','字数要求：','确定要删除播放中的\x20第\x20','sort','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','item','size','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20条词条</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22checkbox\x22\x20class=\x22netflix-world-book-checkbox\x22\x20value=\x22','querySelectorAll','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-c-action-btn\x22><i\x20class=\x22far\x20fa-thumbs-up\x22></i>\x20','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','getApiConfig','documentElement','@-webkit-keyframes','saveGlobalData','normalizeCatalogWorkForDetail','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-banner\x20','unshift','<div\x20class=\x22netflix-actor-empty\x22>暂无可选主演</div>','translateX(','playbackNextBtn','Netflix\x20home\x20catalog\x20generation\x20failed:','User\x20必须作为主演，不可取消','renderWorkDetail','<div\x20class=\x22netflix-row-empty\x22>暂无</div>','createDraft','tags','realname','.netflix-nav-indicator','小时前','\x0a请返回严格\x20JSON，不要\x20Markdown，不要解释。结构必须是：\x0a{\x0a\x20\x20\x22banners\x22:\x20[\x0a\x20\x20\x20\x20{\x22title\x22:\x22作品名\x22,\x22category\x22:\x22电影/电视剧/综艺/纪录片\x22,\x22tags\x22:[\x22标签1\x22,\x22标签2\x22],\x22coverUrl\x22:\x22https://picsum.photos/seed/.../640/960?grayscale\x22,\x22summary\x22:\x22简介\x22,\x22cast\x22:[{\x22realName\x22:\x22演员名\x22,\x22roleName\x22:\x22饰演角色\x22,\x22rolePersona\x22:\x22人物设定\x22,\x22avatar\x22:\x22\x22}]}\x0a\x20\x20],\x0a\x20\x20\x22recommendations\x22:\x20[\x0a\x20\x20\x20\x20{\x22title\x22:\x22作品名\x22,\x22category\x22:\x22电影/电视剧/综艺/纪录片\x22,\x22tags\x22:[\x22标签1\x22,\x22标签2\x22],\x22coverUrl\x22:\x22https://picsum.photos/seed/.../640/960?grayscale\x22,\x22summary\x22:\x22简介\x22,\x22cast\x22:[{\x22realName\x22:\x22演员名\x22,\x22roleName\x22:\x22饰演角色\x22,\x22rolePersona\x22:\x22人物设定\x22,\x22avatar\x22:\x22\x22}]}\x0a\x20\x20],\x0a\x20\x20\x22sections\x22:\x20{\x0a\x20\x20\x20\x20\x22电影\x22:\x20[],\x0a\x20\x20\x20\x20\x22电视剧\x22:\x20[],\x0a\x20\x20\x20\x20\x22综艺\x22:\x20[],\x0a\x20\x20\x20\x20\x22纪录片\x22:\x20[]\x0a\x20\x20}\x0a}\x0a数量要求：banners\x20必须\x203\x20个，recommendations\x20必须\x204\x20个，sections\x20里的电影、电视剧、综艺、纪录片各\x204\x20个。\x0a每个作品都必须包含\x20title、category、tags、coverUrl、summary、cast。cast\x20必须是\x201-3\x20个主演，每个主演包含\x20realName、roleName、rolePersona、avatar，avatar\x20可为空字符串。\x0acoverUrl\x20使用外部图片链接，优先使用\x20https://picsum.photos/seed/英文或拼音关键词/640/960?grayscale\x20这种稳定链接。','readDomain','1880244VAPmCI','openActorPicker','getAttribute','playbackNextInput','homeSearchInput','open','savePresetState','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-meta-hd\x22>HD</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22netflix-wd-btn-play\x22\x20id=\x22netflix-wd-play-btn\x22><i\x20class=\x22fas\x20fa-play\x22></i>\x20播放</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22netflix-wd-btn-download\x22><i\x20class=\x22fas\x20fa-download\x22></i>\x20下载</button>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22netflix-wd-summary\x22>','slice','switchTab','getAvailableActors','homeSearchConfirm','messages','\x20·\x20','data-category','toFixed','#netflix-playback-sheet','text','<em>暂无标签</em>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','cover','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-bubble\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22netflix-comment-text\x22>','getMountedWorldBookContext','selected','<span>','createPresetItem','#netflix-create-works-list','normalizePlaybackCatalog','openSettingsSheet','renderPlaybackCastSheet','closePlaybackEpisodeSidebar','savePlaybackPresetEditor','togglePlaybackPresetEditor','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','playbackEpisodeList','u2_netflixBoundWorldBookIds','getAppState','label','saveMountedWorldBooks','playbackNextConfirm','</textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-cast-delete\x22\x20aria-label=\x22删除主演\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-work-item-title\x22>','readAsDataURL','剧情推进失败，请检查\x20API\x20或网络','friends','target','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-cast-item\x22\x20data-cast-id=\x22','banner-','DOMContentLoaded','播放界面样式已应用','\x22\x20data-switch-key=\x22','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-rps-item-toggle\x22\x20data-category=\x22','#netflix-edit-avatar-trigger','generateHomeCatalogFromSearch','handleCssFile','group','getDisplayName','.netflix-create-work-item','getAccounts','parseEpisodeCount','order','onload','realName','closePlaybackNextModal','addPlaybackCastMember','confirm','\x22\x20alt=\x22\x22>','最多只能选择两个\x20Char\x20作为主演','POST','Netflix\x20playback\x20finish\x20episode\x20failed:','\x20/\x20','createDefaultPlaybackCast','netflix-hero-empty','workDetailContent','6382944SsDYfj','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-profile-sheet\x22\x20id=\x22netflix-profile-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-profile-sheet-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-title\x22>编辑资料</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-edit-avatar\x22\x20id=\x22netflix-edit-avatar-trigger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-camera\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22netflix-edit-avatar-preview\x22\x20src=\x22\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22netflix-edit-avatar-input\x22\x20accept=\x22image/*\x22\x20style=\x22display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-edit-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>姓名</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22netflix-edit-name-input\x22\x20placeholder=\x22输入姓名\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-edit-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>人设</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22netflix-edit-persona-input\x22\x20placeholder=\x22输入人设\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-edit-save\x22\x20id=\x22netflix-edit-save-btn\x22>保存</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getHomeSectionNames','</span>','activeDetailWorkId','actorPickerDoneBtn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','worldBookEntry','msg-','首页横幅','workTitleInput','.netflix-tab-panel','netflix','recommendations','data-item-id','\x0a\x20\x20人设:\x20','mergePlaybackEntryWithWork','\x22\x20data-episode-number=\x22','boolean','editingWorkId','normalizeWork','itemsByCategory','isCatalogItem','data-episode-number','<div\x20class=\x22netflix-acting-empty\x22>暂无</div>','navItems','getFirstPersonPresetText','【本集前情回顾】','object','\x20集\x20吗？这也会从原作品中同步移除。','playbackPresetBtn','editAvatarDataUrl','max','#netflix-work-detail-sheet','\x22\x20alt=\x22\x22','npc','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-play-circle\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-progress-bar\x22\x20style=\x22height:\x202px;\x22><div\x20class=\x22netflix-progress-fill\x22\x20style=\x22width:\x20','role','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-work-cover\x22>','修改成功','setPlaybackNextLoading','worldBookList','新角色','createPlaybackNextPrompt','.netflix-nav-avatar','trim','\x22\x20aria-label=\x22长按删除\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','世界书已挂载','activePlaybackId','字数必须为正整数','createFormClose','toggle','16855713opINxU','activeEpisodeNumber','用户搜索内容是：“','boundWorldBookIds','data-cast-id','Bearer\x20','createPlaybackEntryFromWork','@layer','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-world-book-group-title\x22>','#netflix-playback-episode-list','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-scroll\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-play-circle\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-ep-title\x22>正片</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-ep-duration\x22>1\x20小时\x2058\x20分钟</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-ep-desc\x22>','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-wd-meta-age\x22>16+</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','json','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cast-avatar\x22>','#netflix-work-cast-list','</textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','createInitialPlaybackEpisode','warn','getActiveSettingsTab','opening','\x22\x20aria-label=\x22查看','.netflix-actor-option','#netflix-playback-next-confirm','.netflix-nav-item.active','toLowerCase','默认预设','openHomeSearchSheet','every','workCastAddBtn','normalizePlaybackEpisode','netflixInitError','dragState','wordCount','handleAvatarFile','createDefaultHomeCatalog','#netflix-work-delete-btn','#netflix-settings-sheet','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-play\x22></i>\x20播放\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','netflix-content','click','#netflix-playback-preset-sidebar','</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-c-action-btn\x22><i\x20class=\x22far\x20fa-thumbs-down\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-c-action-btn\x22><i\x20class=\x22far\x20fa-comment\x22></i>\x20回复</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-c-action-btn\x22><i\x20class=\x22fas\x20fa-share\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','https://picsum.photos/seed/','left','#netflix-work-summary-input','closePlaybackCastSheet','activePlaybackEpisodeNumber','input','Failed\x20to\x20persist\x20Netflix\x20user\x20state:','innerHTML','linear-gradient(135deg,\x20#1f3446,\x20#080808)','isPlaybackNextLoading','closePlaybackSheet','#netflix-work-detail-content','stack','presets','setAttribute','#netflix-home-content','coverUrl','vertical','\x20width:\x20100%;\x20height:\x20100%;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-fade\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-info\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\x22netflix-hero-title\x22>','load','.netflix-nav-item','activeDetailCatalogOnly','getPresetWordCountText','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-cast-name\x22>','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','editingMessageId','renderCatalogCard','第一人称','style','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-hero\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','activeWorkId','\x20class=\x22','getSecondPersonPresetText','handlePlaybackModalConfirm','some','findIndex','renderHomeCatalog','createPresetId','#netflix-playback-next-modal','editPersonaInput','gpt-3.5-turbo','/chat/completions','flex','renderAvatar','getBoundingClientRect','isFinite','view','replace','scroll','</textarea>','transform','src','activePresetId','45%','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-form-sheet\x22\x20id=\x22netflix-create-form-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-form-close\x22\x20id=\x22netflix-create-form-close\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-form-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cover-upload\x22\x20id=\x22netflix-work-cover-trigger\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22file\x22\x20id=\x22netflix-work-cover-input\x22\x20accept=\x22image/*\x22\x20style=\x22display:\x20none;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20id=\x22netflix-work-cover-preview\x22\x20src=\x22\x22\x20alt=\x22\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cover-placeholder\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-image\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>封面</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-create-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>作品名字</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22netflix-work-title-input\x22\x20placeholder=\x22输入作品名字\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>分类</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-category-segment\x22\x20id=\x22netflix-work-category-segment\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22active\x22\x20data-category=\x22电视剧\x22>电视剧</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-category=\x22电影\x22>电影</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-category=\x22综艺\x22>综艺</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20data-category=\x22纪录片\x22>纪录片</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-create-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>标签</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22netflix-work-tags-input\x22\x20placeholder=\x22输入标签，用空格或逗号分隔\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-tag-preview\x22\x20id=\x22netflix-work-tag-preview\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>主演</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cast-list\x22\x20id=\x22netflix-work-cast-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-cast-add\x22\x20id=\x22netflix-work-cast-add-btn\x22\x20aria-label=\x22添加主演\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20class=\x22netflix-create-field\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>作品简介</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22netflix-work-summary-input\x22\x20placeholder=\x22输入作品简介\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-create-submit\x22\x20id=\x22netflix-work-start-btn\x22>开始创作</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-create-submit\x22\x20id=\x22netflix-work-delete-btn\x22\x20style=\x22display:\x20none;\x20background:\x20#e50914;\x20color:\x20white;\x20margin-top:\x2010px;\x22>删除影片</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','resolveChatCompletionsEndpoint','globalDataReadyPromise','temperature','endsWith','#netflix-settings-playback-css-input','hasNetflixDomain','createWorksList','【作品信息】\x0a作品名:\x20','work','generateNextPlaybackEpisode','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','aria-checked','createElement','\x20netflix-catalog-card\x22\x20data-catalog-id=\x22','getElementById','toggleCreateActor','netflixApp','currentPlaybackModalAction','\x22\x20alt=\x22avatar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-main\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-comment-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-comment-name\x22>','content','#netflix-edit-save-btn','renderCreateForm','user','Playback\x20advance\x20response\x20is\x20incomplete','#netflix-playback-cast-btn','【系统提示】\x0a你正在处理一场影视剧集的播放页杀青阶段。请根据以下作品信息、世界观以及本集的完整内容，完成以下两项任务：\x0a1.\x20提取本集的核心情节与戏剧张力，用电影级、小说感（第三人称）的叙事风格写一段约\x20200\x20字左右的精炼前情回顾，为下一集的开场铺垫悬念和气氛。同时写一段\x20100\x20字以内的本集总结。\x0a2.\x20扮演不同类型的真实观众（细节党、考据党、CP粉、颜狗、剧情粉、喷子等），针对本集具体情节和人物表现，生成\x205\x20到\x2010\x20条主楼评论。每条主楼可附带\x200\x20到\x202\x20条楼中楼回复（replies）。\x0a\x20\x20\x20要求：\x0a\x20\x20\x20-\x20字数差异化：有极短的情绪宣泄（如\x2010\x20字以内，“啊啊啊绝了！”），也有较长的剧情分析或吐槽（10-30\x20字左右）。\x0a\x20\x20\x20-\x20强真实感：口语化、玩梗、带点饭圈黑话或网络流行语，必须严格结合剧情内容发散。不要像机器人一样官方点评。\x0a\x0a','[data-field]','这是最后一集，无法删除','clearCustomCss','500-800','”。请围绕这个内容生成。','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-img-wrapper\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-placeholder\x22\x20style=\x22','<div\x20style=\x22grid-column:1/-1;color:#888;font-size:14px;padding:20px\x200;text-align:center;\x22>您还没有创建任何作品</div>','isTimeout','u2_netflixPlaybackCustomCss','closest','normalizePreset','has','未分组','getLegacyMessagesContent','getPlaybackPresetContext','closeProfileSheet','char','确定要删除“','renderPlaybackEpisodeSidebar','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-sheet\x22\x20id=\x22netflix-playback-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-header-left\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-icon-btn\x22\x20id=\x22netflix-playback-close\x22\x20aria-label=\x22返回\x22><i\x20class=\x22fas\x20fa-chevron-left\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-icon-btn\x22\x20id=\x22netflix-playback-episode-btn\x22\x20aria-label=\x22选集\x22><i\x20class=\x22fas\x20fa-list-ol\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-title\x22\x20id=\x22netflix-playback-title\x22>播放中</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-header-right\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-icon-btn\x22\x20id=\x22netflix-playback-cast-btn\x22\x20aria-label=\x22主演\x22><i\x20class=\x22fas\x20fa-user-friends\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-icon-btn\x22\x20id=\x22netflix-playback-preset-btn\x22\x20aria-label=\x22预设管理\x22><i\x20class=\x22fas\x20fa-bars\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-body\x22\x20id=\x22netflix-playback-body\x22></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-record-episode-sidebar\x20netflix-playback-episode-sidebar\x22\x20id=\x22netflix-playback-episode-sidebar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>选集</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-close\x22\x20id=\x22netflix-playback-episode-close\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-episode-list\x22\x20id=\x22netflix-playback-episode-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-episode-actions\x22\x20style=\x22padding:\x2015px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-next-btn\x22\x20id=\x22netflix-playback-advance-btn\x22\x20style=\x22margin:\x200;\x20background:\x20#2b2b2b;\x22>推进本集</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-next-btn\x22\x20id=\x22netflix-playback-next-btn\x22\x20style=\x22margin:\x200;\x22>完成本集并开启下一集</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-record-preset-sidebar\x20netflix-playback-preset-sidebar\x22\x20id=\x22netflix-playback-preset-sidebar\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>预设管理</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-close\x22\x20id=\x22netflix-playback-preset-close\x22><i\x20class=\x22fas\x20fa-times\x22></i></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-body\x22\x20id=\x22netflix-playback-preset-body\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-cast-sheet\x22\x20id=\x22netflix-playback-cast-sheet\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-cast-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-sheet-handle\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-cast-title\x22>本集主演</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-cast-list\x22\x20id=\x22netflix-playback-cast-list\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-cast-add\x22\x20id=\x22netflix-playback-cast-add\x22>添加主演</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-playback-cast-done\x22\x20id=\x22netflix-playback-cast-done\x22>完成</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-next-modal\x22\x20id=\x22netflix-playback-next-modal\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-next-card\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-record-modal-close\x22\x20id=\x22netflix-playback-next-close\x22><i\x20class=\x22fas\x20fa-times\x22></i></button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-record-modal-title\x22>下一集</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<textarea\x20id=\x22netflix-playback-next-input\x22\x20class=\x22netflix-edit-message-input\x22\x20placeholder=\x22输入下一集剧情走向，可留空...\x22></textarea>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-edit-message-save\x22\x20id=\x22netflix-playback-next-confirm\x22>确定</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x0a【本集出场主演】\x0a','createPlaybackAdvancePrompt','scrolled','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-cast-meta\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','完成本集并开启下一集','values','startsWith','未总结','\x0a\x0a【任务】\x0a请续写本集正文，需要满足字数要求：','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<article\x20class=\x22netflix-playback-reader\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x22\x20aria-label=\x22启用','openWorldBookSheet','getUserState','parsePresetWordCount','#netflix-playback-cast-sheet','playbackBody','homeSearchSheet','signal','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20','formatPresetWordCount','openPlaybackFromCatalog','renderWorldBookSheet','background-image:\x20url(\x27','</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>饰演</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20data-actor-id=\x22','insertAdjacentHTML','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-rps-category\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>','dataset','请输入作品名字','deleteWork','headerSearchBtn','getSerializablePlaybackEpisodes','forEach','workDeleteBtn','recommend-','generateAdvancePlaybackEpisode','classList','secondPerson','本集剧情已推进','deletePlaybackCastMember','appStorage','undefined','<div\x20class=\x22netflix-wd-cast-role\x22>饰\x20','response_format','.netflix-bottom-nav','resolve','点击立即播放完整影片。体验沉浸式的视听盛宴。','新主演','applyCustomCss','fans','#netflix-settings-apply','join','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<em>','netflixDataReadyPromise','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-create-work-item\x22\x20data-work-id=\x22','暂无影片','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</section>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<section\x20class=\x22netflix-playback-fixed\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-playback-section-label\x22>本集总结</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','#netflix-work-title-input','playbackEpisodeBtn','workTagPreview','updateNavIndicator','navIndicator','\x0a\x0a【用户输入的接下来剧情走向】\x0a','subscriberCount','#netflix-home-search-cancel','loading','playbackCatalog','”吗？此操作不可恢复。','contains','data-field','meta[name=\x22theme-color\x22]','openPlaybackNextModal','4349359YYvlAR','.netflix-cast-meta\x20.role-name-input','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-cast-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-wd-cast-avatar\x22>','activePlaybackPresetEditorKey','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-hero-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-btn\x20netflix-btn-play\x22\x20','entries','完成本集生成失败，请检查\x20API\x20或网络','actorPickerSheet','avatarUrl','summary','playbackEpisodeClose','key','workCoverInput','toISOString','data-preset-field','随机生成','works','then','#netflix-actor-picker-list','actorPickerList','avatar','catalog-','/v1','normalizeNetflixState','string','catalog','.netflix-rps-item-toggle','likes','parse','workCastList','.netflix-avatar','请先在设置中配置大模型\x20API','用户没有输入搜索内容。请随机生成一组适合\x20Netflix\x20首页的影片。','availableActors','8trqZoX','playbackCastList','#netflix-world-book-entry','keyword','u2_netflixWorks','本集已结束，生成前情回顾与评论，并进入下一集','playbackCustomCss','replies','白描文风','responseFormat','expanded','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22netflix-actor-avatar\x22>','API_CONFIG_MISSING','charAt','推进本集','value','editAvatarTrigger','\x0a\x0a【任务】\x0a请严格返回\x20JSON\x20格式，不要包含\x20Markdown\x20标记或多余解释说明：\x0a{\x0a\x20\x20\x22summary\x22:\x20\x22100字内本集总结\x22,\x0a\x20\x20\x22recap\x22:\x20\x22200字左右的精炼前情回顾，悬念迭起、电影感十足...\x22,\x0a\x20\x20\x22comments\x22:\x20[\x0a\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x22name\x22:\x20\x22极光追逐者\x22,\x0a\x20\x20\x20\x20\x20\x20\x22text\x22:\x20\x22天哪这集XX的那个眼神简直绝了！谁懂啊！\x22,\x0a\x20\x20\x20\x20\x20\x20\x22likes\x22:\x202304,\x0a\x20\x20\x20\x20\x20\x20\x22replies\x22:\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20{\x20\x22name\x22:\x20\x22吃瓜群众甲\x22,\x20\x22text\x22:\x20\x22对对对，我看的时候也尖叫了！\x22,\x20\x22likes\x22:\x20128\x20}\x0a\x20\x20\x20\x20\x20\x20]\x0a\x20\x20\x20\x20}\x0a\x20\x20]\x0a}','playbackCastBtn','资料已保存','parseJsonFromText','Netflix\x20app\x20initialization\x20failed:','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','openCreateFormSheet','loadNetflixState','ensureWorkEpisodes','data-panel','saveProfile','renderEpisodeList','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22netflix-comment-time\x22>','\x0a\x0a【用户对整集的附加设定说明】\x0a','#netflix-playback-body','firstPerson','\x20饰\x20','\x22\x20data-preset-field=\x22max\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','tabPanels','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-cast-add\x22\x20id=\x22netflix-work-cast-add-btn\x22\x20aria-label=\x22添加主演\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-plus\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','home','type','closeCreateFormSheet','影片已删除','<div\x20style=\x22color:#888;font-size:14px;text-align:center;\x22>暂无影片</div>','editAvatarInput','readAsText','splitCssSelectors','toString','暂无本集总结','#netflix-actor-picker-done-btn','includes','#netflix-edit-persona-input','userState','getPresetDefinitions','createFormSheet','bindHomeCatalogEvents','getWorldBooks','AbortError','saveCreatedWork','episodes','homeContent','暂无影片介绍','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','closePlaybackPresetSidebar','enabled','pointerleave','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22netflix-actor-option\x20','【影片介绍】','length','10Melboo','find','#netflix-playback-cast-list','未命名','number','worldBookClose','persona','Playback\x20episode\x20finish\x20response\x20is\x20incomplete','&#96;','NPC','save','\x22\x20role=\x22switch\x22\x20aria-checked=\x22','savePlaybackEntry','apiConfig','\x0a\x20\x20\x20\x20\x20\x20\x20\x20','.netflix-world-book-checkbox:checked','#netflix-world-book-sheet','预设已保存','cacheElements','#netflix-home-search-sheet','recent-','actingList','#netflix-create-form-close','#netflix-playback-cast-done','随着故事的深入，新的线索逐渐浮出水面，角色面临着前所未有的艰难抉择。','#netflix-playback-title','thirdPerson','playbackPresetDraft','playback','createPlaybackEpisodeFromWorkEpisode','beforeend','settingsPlaybackCssFile'];_u2_b589d616b6_0x6d0a=function(){return _0x1ba868;};return _u2_b589d616b6_0x6d0a();}
+/**
+ * Netflix App Logic
+ */
+
+class NetflixApp {
+    constructor() {
+        this.view = document.getElementById('netflix-view');
+        this.header = document.getElementById('netflix-header');
+        this.content = document.getElementById('netflix-content');
+        this.headerAvatar = this.view ? this.view.querySelector('.netflix-avatar') : null;
+        this.navItems = [];
+        this.tabPanels = [];
+        this.navIndicator = null;
+        this.editAvatarDataUrl = '';
+        this.presetState = this.loadPresetState();
+        this.presetDraft = null;
+        this.activePlaybackPresetEditorKey = null;
+        this.playbackPresetDraft = null;
+        this.createDraft = this.createDefaultWorkDraft();
+        this.netflixState = this.loadNetflixState();
+        this.availableActors = [];
+        this.dragState = null;
+        this.longPressTimer = null;
+        this.activeWorkId = null;
+        this.activeEpisodeNumber = 1;
+        this.activeDetailWorkId = null;
+        this.activeDetailEpisodeNumber = 1;
+        this.activeDetailCatalogOnly = false;
+        this.activePlaybackId = null;
+        this.activePlaybackEpisodeNumber = 1;
+        this.editingMessageId = null;
+        this.editingWorkId = null;
+        this.isHomeSearchLoading = false;
+        this.isPlaybackNextLoading = false;
+        this.isOpen = false;
+
+        if (this.view) {
+            this.init();
+        }
+    }
+
+    init() {
+        this.renderStructure();
+        this.cacheElements();
+        this.bindEvents();
+        this.applyCustomCss();
+        this.renderUserProfile();
+    }
+
+    renderStructure() {
+        if (!this.content || !this.view) return;
+
+        this.content.innerHTML = `
+            <div class="netflix-tab-panel active" data-panel="home">
+                <div id="netflix-home-content"></div>
+            </div>
+
+            <div class="netflix-tab-panel netflix-create-panel" data-panel="create">
+                <div class="netflix-create-hub">
+                    <button type="button" class="netflix-create-new-btn" id="netflix-create-new-trigger">
+                        <i class="fas fa-video"></i>
+                        <span>新影片</span>
+                    </button>
+                    <h3>我的作品</h3>
+                    <div class="netflix-create-works-list" id="netflix-create-works-list">
+                        <!-- 作品列表将在这里渲染 -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="netflix-tab-panel netflix-profile-panel" data-panel="profile">
+                <div class="netflix-profile-avatar" id="netflix-profile-avatar"><i class="fas fa-user"></i></div>
+                <h2 id="netflix-profile-name">User</h2>
+                <div class="netflix-profile-stats">
+                    <div><strong id="netflix-profile-followers">0</strong><span>粉丝</span></div>
+                    <div><strong id="netflix-profile-subs">0</strong><span>订阅</span></div>
+                </div>
+                <div class="netflix-profile-list">
+                    <div id="netflix-world-book-entry"><i class="fas fa-clock"></i><span>世界书</span></div>
+                    <div id="netflix-settings-entry"><i class="fas fa-cog"></i><span>设置</span></div>
+                </div>
+                <div class="netflix-acting-section">
+                    <h2>参演影片</h2>
+                    <div class="netflix-acting-list" id="netflix-acting-list"></div>
+                </div>
+            </div>
+        `;
+
+        const nav = this.view.querySelector('.netflix-bottom-nav');
+        if (nav) {
+            nav.innerHTML = `
+                <div class="netflix-nav-indicator"></div>
+                <div class="netflix-nav-item active" data-tab="home">
+                    <i class="fas fa-home"></i>
+                    <span>首页</span>
+                </div>
+                <div class="netflix-nav-item" data-tab="create">
+                    <i class="fas fa-plus"></i>
+                    <span>创作</span>
+                </div>
+                <div class="netflix-nav-item" data-tab="profile">
+                    <div class="netflix-nav-avatar"><i class="fas fa-user"></i></div>
+                    <span>我的 Netflix</span>
+                </div>
+            `;
+        }
+
+        if (!this.view.querySelector('#netflix-profile-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-profile-sheet" id="netflix-profile-sheet">
+                    <div class="netflix-profile-sheet-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-sheet-title">编辑资料</div>
+                        <div class="netflix-edit-avatar" id="netflix-edit-avatar-trigger">
+                            <i class="fas fa-camera"></i>
+                            <img id="netflix-edit-avatar-preview" src="" alt="">
+                            <input type="file" id="netflix-edit-avatar-input" accept="image/*" style="display: none;">
+                        </div>
+                        <label class="netflix-edit-field">
+                            <span>姓名</span>
+                            <input type="text" id="netflix-edit-name-input" placeholder="输入姓名">
+                        </label>
+                        <label class="netflix-edit-field">
+                            <span>人设</span>
+                            <textarea id="netflix-edit-persona-input" placeholder="输入人设"></textarea>
+                        </label>
+                        <div class="netflix-edit-save" id="netflix-edit-save-btn">保存</div>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-settings-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-settings-sheet" id="netflix-settings-sheet">
+                    <div class="netflix-settings-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-settings-title">CSS 设置</div>
+                        <div class="netflix-settings-tab-content active" id="netflix-settings-tab-playback">
+                            <label class="netflix-settings-upload">
+                                <i class="fas fa-file-code"></i>
+                                <span>上传播放界面 CSS</span>
+                                <input type="file" id="netflix-settings-playback-css-file" accept=".css,text/css">
+                            </label>
+                            <label class="netflix-settings-field">
+                                <span>播放界面 CSS</span>
+                                <textarea id="netflix-settings-playback-css-input" placeholder="这里的 CSS 只会应用到播放界面。自动限定在 #netflix-playback-sheet 内。"></textarea>
+                            </label>
+                        </div>
+
+                        <div class="netflix-settings-actions" style="grid-template-columns: 1fr 1fr;">
+                            <button type="button" id="netflix-settings-clear">清空当前</button>
+                            <button type="button" id="netflix-settings-apply">应用当前</button>
+                        </div>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-actor-picker-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-actor-picker-sheet" id="netflix-actor-picker-sheet">
+                    <div class="netflix-actor-picker-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-actor-picker-title">选择主演</div>
+                        <div class="netflix-actor-picker-list" id="netflix-actor-picker-list"></div>
+                        <button type="button" id="netflix-actor-picker-done-btn">完成</button>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-work-detail-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-work-detail-sheet" id="netflix-work-detail-sheet">
+                    <div class="netflix-work-detail-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-work-detail-content" id="netflix-work-detail-content"></div>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-create-form-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-create-form-sheet" id="netflix-create-form-sheet">
+                    <div class="netflix-create-form-close" id="netflix-create-form-close"><i class="fas fa-times"></i></div>
+                    <div class="netflix-create-form-body">
+                        <div class="netflix-create-form">
+                            <div class="netflix-cover-upload" id="netflix-work-cover-trigger">
+                                <input type="file" id="netflix-work-cover-input" accept="image/*" style="display: none;">
+                                <img id="netflix-work-cover-preview" src="" alt="">
+                                <div class="netflix-cover-placeholder">
+                                    <i class="fas fa-image"></i>
+                                    <span>封面</span>
+                                </div>
+                            </div>
+
+                            <label class="netflix-create-field">
+                                <span>作品名字</span>
+                                <input type="text" id="netflix-work-title-input" placeholder="输入作品名字">
+                            </label>
+
+                            <div class="netflix-create-field">
+                                <span>分类</span>
+                                <div class="netflix-category-segment" id="netflix-work-category-segment">
+                                    <button type="button" class="active" data-category="电视剧">电视剧</button>
+                                    <button type="button" data-category="电影">电影</button>
+                                    <button type="button" data-category="综艺">综艺</button>
+                                    <button type="button" data-category="纪录片">纪录片</button>
+                                </div>
+                            </div>
+
+                            <label class="netflix-create-field">
+                                <span>标签</span>
+                                <input type="text" id="netflix-work-tags-input" placeholder="输入标签，用空格或逗号分隔">
+                            </label>
+                            <div class="netflix-tag-preview" id="netflix-work-tag-preview"></div>
+
+                            <div class="netflix-create-field">
+                                <span>主演</span>
+                                <div class="netflix-cast-list" id="netflix-work-cast-list">
+                                    <button type="button" class="netflix-cast-add" id="netflix-work-cast-add-btn" aria-label="添加主演">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <label class="netflix-create-field">
+                                <span>作品简介</span>
+                                <textarea id="netflix-work-summary-input" placeholder="输入作品简介"></textarea>
+                            </label>
+
+                            <button type="button" class="netflix-create-submit" id="netflix-work-start-btn">开始创作</button>
+                            <button type="button" class="netflix-create-submit" id="netflix-work-delete-btn" style="display: none; background: #e50914; color: white; margin-top: 10px;">删除影片</button>
+                        </div>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-world-book-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-world-book-sheet" id="netflix-world-book-sheet">
+                    <div class="netflix-world-book-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-world-book-header">
+                            <div></div>
+                            <div class="netflix-world-book-title">世界书</div>
+                            <button type="button" id="netflix-world-book-close" class="netflix-world-book-close"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="netflix-world-book-list" id="netflix-world-book-list"></div>
+                        <button type="button" class="netflix-world-book-save" id="netflix-world-book-save">保存挂载</button>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-home-search-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-home-search-sheet" id="netflix-home-search-sheet">
+                    <div class="netflix-home-search-card">
+                        <div class="netflix-sheet-handle"></div>
+                        <div class="netflix-home-search-title">搜索 Netflix</div>
+                        <label class="netflix-home-search-field">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="netflix-home-search-input" placeholder="输入想看的类型、人物或剧情">
+                        </label>
+                        <div class="netflix-home-search-hint">留空会随机生成一组首页影片。</div>
+                        <div class="netflix-home-search-actions">
+                            <button type="button" id="netflix-home-search-cancel">取消</button>
+                            <button type="button" id="netflix-home-search-confirm">确认</button>
+                        </div>
+                    </div>
+                </div>
+            `);
+        }
+
+        if (!this.view.querySelector('#netflix-playback-sheet')) {
+            this.view.insertAdjacentHTML('beforeend', `
+                <div class="netflix-playback-sheet" id="netflix-playback-sheet">
+                    <div class="netflix-playback-header">
+                        <div class="netflix-playback-header-left">
+                            <button type="button" class="netflix-playback-icon-btn" id="netflix-playback-close" aria-label="返回"><i class="fas fa-chevron-left"></i></button>
+                            <button type="button" class="netflix-playback-icon-btn" id="netflix-playback-episode-btn" aria-label="选集"><i class="fas fa-list-ol"></i></button>
+                        </div>
+                        <div class="netflix-playback-title" id="netflix-playback-title">播放中</div>
+                        <div class="netflix-playback-header-right">
+                            <button type="button" class="netflix-playback-icon-btn" id="netflix-playback-cast-btn" aria-label="主演"><i class="fas fa-user-friends"></i></button>
+                            <button type="button" class="netflix-playback-icon-btn" id="netflix-playback-preset-btn" aria-label="预设管理"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                    <div class="netflix-playback-body" id="netflix-playback-body"></div>
+
+                    <div class="netflix-record-episode-sidebar netflix-playback-episode-sidebar" id="netflix-playback-episode-sidebar">
+                        <div class="netflix-rps-header">
+                            <h3>选集</h3>
+                            <div class="netflix-rps-close" id="netflix-playback-episode-close"><i class="fas fa-times"></i></div>
+                        </div>
+                        <div class="netflix-episode-list" id="netflix-playback-episode-list"></div>
+                        <div class="netflix-playback-episode-actions" style="padding: 15px; display: flex; flex-direction: column; gap: 10px;">
+                            <button type="button" class="netflix-playback-next-btn" id="netflix-playback-advance-btn" style="margin: 0; background: #2b2b2b;">推进本集</button>
+                            <button type="button" class="netflix-playback-next-btn" id="netflix-playback-next-btn" style="margin: 0;">完成本集并开启下一集</button>
+                        </div>
+                    </div>
+
+                    <div class="netflix-record-preset-sidebar netflix-playback-preset-sidebar" id="netflix-playback-preset-sidebar">
+                        <div class="netflix-rps-header">
+                            <h3>预设管理</h3>
+                            <div class="netflix-rps-close" id="netflix-playback-preset-close"><i class="fas fa-times"></i></div>
+                        </div>
+                        <div class="netflix-rps-body" id="netflix-playback-preset-body"></div>
+                    </div>
+
+                    <div class="netflix-playback-cast-sheet" id="netflix-playback-cast-sheet">
+                        <div class="netflix-playback-cast-card">
+                            <div class="netflix-sheet-handle"></div>
+                            <div class="netflix-playback-cast-title">本集主演</div>
+                            <div class="netflix-playback-cast-list" id="netflix-playback-cast-list"></div>
+                            <button type="button" class="netflix-playback-cast-add" id="netflix-playback-cast-add">添加主演</button>
+                            <button type="button" class="netflix-playback-cast-done" id="netflix-playback-cast-done">完成</button>
+                        </div>
+                    </div>
+
+                    <div class="netflix-playback-next-modal" id="netflix-playback-next-modal">
+                        <div class="netflix-playback-next-card">
+                            <button type="button" class="netflix-record-modal-close" id="netflix-playback-next-close"><i class="fas fa-times"></i></button>
+                            <div class="netflix-record-modal-title">下一集</div>
+                            <textarea id="netflix-playback-next-input" class="netflix-edit-message-input" placeholder="输入下一集剧情走向，可留空..."></textarea>
+                            <button type="button" class="netflix-edit-message-save" id="netflix-playback-next-confirm">确定</button>
+                        </div>
+                    </div>
+                </div>
+            `);
+        }
+    }
+
+    createHeroBanner(item = null, index = 0) {
+        const work = item ? this.normalizeCatalogItem(item, `banner-${index}`, '电视剧') : null;
+        const title = work?.title || '暂无影片';
+        const tags = work ? [work.category, ...(work.tags || [])].filter(Boolean).slice(0, 3) : ['等待搜索', '随机生成', '首页横幅'];
+        const coverUrl = work?.coverUrl || '';
+        const background = coverUrl
+            ? `background-image: url('${this.escapeAttr(coverUrl)}');`
+            : `background: ${this.getCatalogFallbackGradient(index)};`;
+        return `
+            <div class="netflix-hero-banner ${work ? '' : 'netflix-hero-empty'}" ${work ? `data-catalog-id="${this.escapeHtml(work.id)}"` : ''}>
+                <div class="netflix-hero-img-wrapper">
+                    <div class="netflix-hero-placeholder" style="${background} width: 100%; height: 100%;"></div>
+                    <div class="netflix-hero-fade"></div>
+                </div>
+                <div class="netflix-hero-info">
+                    <h1 class="netflix-hero-title">${this.escapeHtml(title)}</h1>
+                    <div class="netflix-tags">
+                        ${tags.map(tag => `<span>${this.escapeHtml(tag)}</span>`).join('<em>·</em>')}
+                    </div>
+                    <div class="netflix-hero-actions">
+                        <button type="button" class="netflix-btn netflix-btn-play" ${work ? '' : 'disabled'}>
+                            <i class="fas fa-play"></i> 播放
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    cacheElements() {
+        this.header = document.getElementById('netflix-header');
+        this.content = document.getElementById('netflix-content');
+        this.headerAvatar = this.view.querySelector('.netflix-avatar');
+        this.headerSearchBtn = this.view.querySelector('.netflix-header-right .fa-search');
+        this.homeContent = this.view.querySelector('#netflix-home-content');
+        this.navItems = Array.from(this.view.querySelectorAll('.netflix-nav-item'));
+        this.tabPanels = Array.from(this.view.querySelectorAll('.netflix-tab-panel'));
+        this.navIndicator = this.view.querySelector('.netflix-nav-indicator');
+        this.profileSheet = this.view.querySelector('#netflix-profile-sheet');
+        this.worldBookEntry = this.view.querySelector('#netflix-world-book-entry');
+        this.settingsEntry = this.view.querySelector('#netflix-settings-entry');
+        this.settingsSheet = this.view.querySelector('#netflix-settings-sheet');
+        this.settingsTabs = [];
+        this.settingsTabContents = {
+            playback: this.view.querySelector('#netflix-settings-tab-playback')
+        };
+        this.settingsPlaybackCssFile = this.view.querySelector('#netflix-settings-playback-css-file');
+        this.settingsPlaybackCssInput = this.view.querySelector('#netflix-settings-playback-css-input');
+        this.settingsApply = this.view.querySelector('#netflix-settings-apply');
+        this.settingsClear = this.view.querySelector('#netflix-settings-clear');
+        this.worldBookSheet = this.view.querySelector('#netflix-world-book-sheet');
+        this.worldBookList = this.view.querySelector('#netflix-world-book-list');
+        this.worldBookClose = this.view.querySelector('#netflix-world-book-close');
+        this.worldBookSave = this.view.querySelector('#netflix-world-book-save');
+        this.homeSearchSheet = this.view.querySelector('#netflix-home-search-sheet');
+        this.homeSearchInput = this.view.querySelector('#netflix-home-search-input');
+        this.homeSearchCancel = this.view.querySelector('#netflix-home-search-cancel');
+        this.homeSearchConfirm = this.view.querySelector('#netflix-home-search-confirm');
+        this.playbackSheet = this.view.querySelector('#netflix-playback-sheet');
+        this.playbackClose = this.view.querySelector('#netflix-playback-close');
+        this.playbackEpisodeBtn = this.view.querySelector('#netflix-playback-episode-btn');
+        this.playbackTitle = this.view.querySelector('#netflix-playback-title');
+        this.playbackCastBtn = this.view.querySelector('#netflix-playback-cast-btn');
+        this.playbackPresetBtn = this.view.querySelector('#netflix-playback-preset-btn');
+        this.playbackBody = this.view.querySelector('#netflix-playback-body');
+        this.playbackEpisodeSidebar = this.view.querySelector('#netflix-playback-episode-sidebar');
+        this.playbackEpisodeClose = this.view.querySelector('#netflix-playback-episode-close');
+        this.playbackEpisodeList = this.view.querySelector('#netflix-playback-episode-list');
+        this.playbackAdvanceBtn = this.view.querySelector('#netflix-playback-advance-btn');
+        this.playbackNextBtn = this.view.querySelector('#netflix-playback-next-btn');
+        this.playbackPresetSidebar = this.view.querySelector('#netflix-playback-preset-sidebar');
+        this.playbackPresetClose = this.view.querySelector('#netflix-playback-preset-close');
+        this.playbackPresetBody = this.view.querySelector('#netflix-playback-preset-body');
+        this.playbackCastSheet = this.view.querySelector('#netflix-playback-cast-sheet');
+        this.playbackCastList = this.view.querySelector('#netflix-playback-cast-list');
+        this.playbackCastAdd = this.view.querySelector('#netflix-playback-cast-add');
+        this.playbackCastDone = this.view.querySelector('#netflix-playback-cast-done');
+        this.playbackNextModal = this.view.querySelector('#netflix-playback-next-modal');
+        this.playbackNextClose = this.view.querySelector('#netflix-playback-next-close');
+        this.playbackNextInput = this.view.querySelector('#netflix-playback-next-input');
+        this.playbackNextConfirm = this.view.querySelector('#netflix-playback-next-confirm');
+        
+        this.createNewTrigger = this.view.querySelector('#netflix-create-new-trigger');
+        this.createWorksList = this.view.querySelector('#netflix-create-works-list');
+        this.createFormSheet = this.view.querySelector('#netflix-create-form-sheet');
+        this.createFormClose = this.view.querySelector('#netflix-create-form-close');
+
+        this.workCoverTrigger = this.view.querySelector('#netflix-work-cover-trigger');
+        this.workCoverInput = this.view.querySelector('#netflix-work-cover-input');
+        this.workCoverPreview = this.view.querySelector('#netflix-work-cover-preview');
+        this.workTitleInput = this.view.querySelector('#netflix-work-title-input');
+        this.workCategoryButtons = Array.from(this.view.querySelectorAll('#netflix-work-category-segment button'));
+        this.workTagsInput = this.view.querySelector('#netflix-work-tags-input');
+        this.workTagPreview = this.view.querySelector('#netflix-work-tag-preview');
+        this.workCastList = this.view.querySelector('#netflix-work-cast-list');
+        this.workCastAddBtn = this.view.querySelector('#netflix-work-cast-add-btn');
+        this.workSummaryInput = this.view.querySelector('#netflix-work-summary-input');
+        this.workStartBtn = this.view.querySelector('#netflix-work-start-btn');
+        this.workDeleteBtn = this.view.querySelector('#netflix-work-delete-btn');
+        this.actingList = this.view.querySelector('#netflix-acting-list');
+        this.workDetailSheet = this.view.querySelector('#netflix-work-detail-sheet');
+        this.workDetailContent = this.view.querySelector('#netflix-work-detail-content');
+        this.actorPickerSheet = this.view.querySelector('#netflix-actor-picker-sheet');
+        this.actorPickerList = this.view.querySelector('#netflix-actor-picker-list');
+        this.actorPickerDoneBtn = this.view.querySelector('#netflix-actor-picker-done-btn');
+        this.editAvatarTrigger = this.view.querySelector('#netflix-edit-avatar-trigger');
+        this.editAvatarPreview = this.view.querySelector('#netflix-edit-avatar-preview');
+        this.editAvatarInput = this.view.querySelector('#netflix-edit-avatar-input');
+        this.editNameInput = this.view.querySelector('#netflix-edit-name-input');
+        this.editPersonaInput = this.view.querySelector('#netflix-edit-persona-input');
+        this.editSaveBtn = this.view.querySelector('#netflix-edit-save-btn');
+    }
+
+    bindEvents() {
+        document.getElementById('app-netflix-btn')?.addEventListener('click', () => this.open());
+
+        if (this.content && this.header) {
+            this.content.addEventListener('scroll', () => {
+                this.header.classList.toggle('scrolled', this.content.scrollTop > 50);
+            });
+        }
+
+        this.navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                this.switchTab(item.getAttribute('data-tab') || 'home');
+            });
+        });
+
+        if (this.headerAvatar) {
+            this.headerAvatar.addEventListener('click', () => this.openProfileSheet());
+        }
+
+        if (this.headerSearchBtn) {
+            this.headerSearchBtn.addEventListener('click', () => this.openHomeSearchSheet());
+        }
+
+        if (this.homeSearchSheet) {
+            this.homeSearchSheet.addEventListener('click', (event) => {
+                if (event.target === this.homeSearchSheet && !this.isHomeSearchLoading) this.closeHomeSearchSheet();
+            });
+        }
+
+        if (this.homeSearchCancel) {
+            this.homeSearchCancel.addEventListener('click', () => this.closeHomeSearchSheet());
+        }
+
+        if (this.homeSearchConfirm) {
+            this.homeSearchConfirm.addEventListener('click', () => this.generateHomeCatalogFromSearch());
+        }
+
+        if (this.homeSearchInput) {
+            this.homeSearchInput.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') this.generateHomeCatalogFromSearch();
+            });
+        }
+
+        this.playbackClose?.addEventListener('click', () => this.closePlaybackSheet());
+        this.playbackEpisodeBtn?.addEventListener('click', () => this.openPlaybackEpisodeSidebar());
+        this.playbackEpisodeClose?.addEventListener('click', () => this.closePlaybackEpisodeSidebar());
+        this.playbackPresetBtn?.addEventListener('click', () => this.openPlaybackPresetSidebar());
+        this.playbackPresetClose?.addEventListener('click', () => this.closePlaybackPresetSidebar());
+        this.playbackCastBtn?.addEventListener('click', () => this.openPlaybackCastSheet());
+        this.playbackCastDone?.addEventListener('click', () => this.closePlaybackCastSheet());
+        this.playbackCastAdd?.addEventListener('click', () => this.addPlaybackCastMember());
+        this.playbackAdvanceBtn?.addEventListener('click', () => this.openPlaybackNextModal('advance'));
+        this.playbackNextBtn?.addEventListener('click', () => this.openPlaybackNextModal('next'));
+        this.playbackNextClose?.addEventListener('click', () => this.closePlaybackNextModal());
+        this.playbackNextConfirm?.addEventListener('click', () => this.handlePlaybackModalConfirm());
+        this.playbackCastSheet?.addEventListener('click', (event) => {
+            if (event.target === this.playbackCastSheet) this.closePlaybackCastSheet();
+        });
+        this.playbackNextModal?.addEventListener('click', (event) => {
+            if (event.target === this.playbackNextModal && !this.isPlaybackNextLoading) this.closePlaybackNextModal();
+        });
+
+        if (this.worldBookEntry) {
+            this.worldBookEntry.addEventListener('click', () => this.openWorldBookSheet());
+        }
+
+        if (this.settingsEntry) {
+            this.settingsEntry.addEventListener('click', () => this.openSettingsSheet());
+        }
+
+        if (this.settingsSheet) {
+            this.settingsSheet.addEventListener('click', (event) => {
+                if (event.target === this.settingsSheet) this.closeSettingsSheet();
+            });
+        }
+
+        if (this.settingsPlaybackCssFile) {
+            this.settingsPlaybackCssFile.addEventListener('change', (event) => this.handleCssFile(event, this.settingsPlaybackCssInput));
+        }
+
+        if (this.settingsApply) {
+            this.settingsApply.addEventListener('click', () => this.saveCustomCss());
+        }
+
+        if (this.settingsClear) {
+            this.settingsClear.addEventListener('click', () => this.clearCustomCss());
+        }
+
+        if (this.worldBookSheet) {
+            this.worldBookSheet.addEventListener('click', (event) => {
+                if (event.target === this.worldBookSheet) this.closeWorldBookSheet();
+            });
+        }
+
+        if (this.worldBookClose) {
+            this.worldBookClose.addEventListener('click', () => this.closeWorldBookSheet());
+        }
+
+        if (this.worldBookSave) {
+            this.worldBookSave.addEventListener('click', () => this.saveMountedWorldBooks());
+        }
+
+        if (this.profileSheet) {
+            this.profileSheet.addEventListener('click', (event) => {
+                if (event.target === this.profileSheet) this.closeProfileSheet();
+            });
+        }
+
+        if (this.actorPickerSheet) {
+            this.actorPickerSheet.addEventListener('click', (event) => {
+                if (event.target === this.actorPickerSheet) this.closeActorPicker();
+            });
+        }
+
+        if (this.workDetailSheet) {
+            this.workDetailSheet.addEventListener('click', (event) => {
+                if (event.target === this.workDetailSheet) this.closeWorkDetail();
+            });
+        }
+
+        if (this.editAvatarTrigger && this.editAvatarInput) {
+            this.editAvatarTrigger.addEventListener('click', () => this.editAvatarInput.click());
+            this.editAvatarInput.addEventListener('change', (event) => this.handleAvatarFile(event));
+        }
+
+        if (this.editSaveBtn) {
+            this.editSaveBtn.addEventListener('click', () => this.saveProfile());
+        }
+
+        if (this.createNewTrigger) {
+            this.createNewTrigger.addEventListener('click', () => this.openCreateFormSheet());
+        }
+
+        if (this.createFormClose) {
+            this.createFormClose.addEventListener('click', () => this.closeCreateFormSheet());
+        }
+
+        if (this.workCoverTrigger && this.workCoverInput) {
+            this.workCoverTrigger.addEventListener('click', (event) => {
+                if (event.target !== this.workCoverInput) this.workCoverInput.click();
+            });
+            this.workCoverInput.addEventListener('change', (event) => this.handleWorkCoverFile(event));
+        }
+
+        if (this.workTitleInput) {
+            this.workTitleInput.addEventListener('input', () => {
+                this.createDraft.title = this.workTitleInput.value;
+            });
+        }
+
+        this.workCategoryButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                this.createDraft.category = button.getAttribute('data-category') || '电视剧';
+                this.renderCreateForm();
+            });
+        });
+
+        if (this.workTagsInput) {
+            this.workTagsInput.addEventListener('input', () => {
+                this.createDraft.tagsText = this.workTagsInput.value;
+                this.renderTagPreview();
+            });
+        }
+
+        if (this.workCastAddBtn) {
+            this.workCastAddBtn.addEventListener('click', () => this.openActorPicker());
+        }
+
+        if (this.workSummaryInput) {
+            this.workSummaryInput.addEventListener('input', () => {
+                this.createDraft.summary = this.workSummaryInput.value;
+            });
+        }
+
+        if (this.workStartBtn) {
+            this.workStartBtn.addEventListener('click', () => this.saveCreatedWork());
+        }
+
+        if (this.workDeleteBtn) {
+            this.workDeleteBtn.addEventListener('click', () => this.deleteWork());
+        }
+
+        if (this.actorPickerDoneBtn) {
+            this.actorPickerDoneBtn.addEventListener('click', () => this.closeActorPicker());
+        }
+
+        this.renderCreateForm();
+        this.renderWorks();
+        this.renderHomeCatalog();
+    }
+
+    createDefaultWorkDraft() {
+        return {
+            coverUrl: '',
+            title: '',
+            category: '电视剧',
+            tagsText: '',
+            cast: [],
+            summary: ''
+        };
+    }
+
+    getHomeSectionNames() {
+        return ['为你推荐', '电影', '电视剧', '综艺', '纪录片'];
+    }
+
+    createDefaultHomeCatalog() {
+        return {
+            banners: [null, null, null],
+            recent: [],
+            sections: this.getHomeSectionNames().reduce((sections, name) => {
+                sections[name] = [];
+                return sections;
+            }, {})
+        };
+    }
+
+    normalizeHomeCatalog(rawCatalog = null) {
+        const defaults = this.createDefaultHomeCatalog();
+        const safe = rawCatalog && typeof rawCatalog === 'object' ? rawCatalog : {};
+        const sections = { ...defaults.sections };
+        this.getHomeSectionNames().forEach(name => {
+            const source = name === '为你推荐'
+                ? (safe.sections?.[name] || safe.recommendations || safe.recommended)
+                : safe.sections?.[name];
+            sections[name] = Array.isArray(source)
+                ? source.slice(0, 4).map((item, index) => this.normalizeCatalogItem(item, `${name}-${index}`, name === '为你推荐' ? '' : name)).filter(Boolean)
+                : [];
+        });
+
+        return {
+            banners: Array.from({ length: 3 }, (_, index) => {
+                const item = Array.isArray(safe.banners) ? safe.banners[index] : null;
+                return item ? this.normalizeCatalogItem(item, `banner-${index}`, '') : null;
+            }),
+            recent: Array.isArray(safe.recent)
+                ? safe.recent.slice(0, 8).map((item, index) => this.normalizeCatalogItem(item, `recent-${index}`, '')).filter(Boolean)
+                : [],
+            sections
+        };
+    }
+
+    normalizeCatalogItem(item = {}, fallbackId = this.createPresetId('catalog'), fallbackCategory = '') {
+        if (!item || typeof item !== 'object') return null;
+        const title = String(item.title || item.name || item.workTitle || '').trim();
+        const category = String(item.category || item.type || fallbackCategory || '电视剧').trim();
+        const tags = Array.isArray(item.tags)
+            ? item.tags
+            : String(item.tag || item.label || '')
+                .split(/[，,、\s]+/)
+                .filter(Boolean);
+        const safeTitle = title || '未命名影片';
+        const idBase = item.id || `${fallbackId}-${safeTitle}-${category}`;
+        const summary = String(item.summary || item.description || item.desc || '').trim();
+        const coverUrl = this.normalizeCoverUrl(item.coverUrl || item.cover || item.thumbnail || item.imageUrl || '', safeTitle, fallbackId);
+        const castSource = Array.isArray(item.cast)
+            ? item.cast
+            : (Array.isArray(item.actors) ? item.actors : []);
+        const cast = castSource
+            .slice(0, 3)
+            .map((actor, index) => this.normalizePlaybackActor(actor, index))
+            .filter(Boolean);
+        return {
+            id: item.id ? String(idBase) : this.createCatalogId(idBase),
+            title: safeTitle,
+            category: category || '电视剧',
+            tags: tags.map(tag => String(tag).trim()).filter(Boolean).slice(0, 4),
+            coverUrl,
+            summary,
+            cast
+        };
+    }
+
+    createCatalogId(value) {
+        return `catalog-${String(value || Date.now()).toLowerCase().replace(/[^a-z0-9\u4e00-\u9fa5]+/gi, '-').replace(/^-+|-+$/g, '').slice(0, 80) || Date.now()}`;
+    }
+
+    normalizeCoverUrl(url, title, fallbackId = '') {
+        const trimmed = String(url || '').trim();
+        if (/^https?:\/\//i.test(trimmed) || /^data:image\//i.test(trimmed)) return trimmed;
+        const seed = encodeURIComponent(`${title || 'netflix'}-${fallbackId || ''}`);
+        return `https://picsum.photos/seed/${seed}/640/960?grayscale`;
+    }
+
+    getCatalogFallbackGradient(index = 0) {
+        const gradients = [
+            'linear-gradient(135deg, #3a3a3a, #111)',
+            'linear-gradient(135deg, #5a1418, #141414)',
+            'linear-gradient(135deg, #1f3446, #080808)',
+            'linear-gradient(135deg, #332a4a, #111)'
+        ];
+        return gradients[index % gradients.length];
+    }
+
+    renderHomeCatalog() {
+        if (!this.homeContent) return;
+        const catalog = this.normalizeHomeCatalog(this.netflixState.homeCatalog);
+        this.netflixState.homeCatalog = catalog;
+        const rows = [
+            this.renderRecentRow(catalog.recent),
+            ...this.getHomeSectionNames().map((name, index) => this.renderCatalogSection(name, catalog.sections[name] || [], index === this.getHomeSectionNames().length - 1))
+        ].join('');
+
+        this.homeContent.innerHTML = `
+            <div class="netflix-hero-scroll">
+                ${catalog.banners.map((item, index) => this.createHeroBanner(item, index)).join('')}
+            </div>
+            ${rows}
+        `;
+        this.bindHomeCatalogEvents();
+    }
+
+    renderRecentRow(items = []) {
+        const content = items.length
+            ? items.map((item, index) => this.renderCatalogCard(item, index, false)).join('')
+            : '<div class="netflix-row-empty">暂无</div>';
+        return `
+            <div class="netflix-row">
+                <h2 class="netflix-row-title">最近观看</h2>
+                <div class="netflix-row-scroll netflix-recent-row-scroll">${content}</div>
+            </div>
+        `;
+    }
+
+    renderCatalogSection(title, items = [], isLast = false) {
+        const content = items.length
+            ? items.map((item, index) => this.renderCatalogCard(item, index, true)).join('')
+            : '<div class="netflix-row-empty">暂无</div>';
+        return `
+            <div class="netflix-row ${isLast ? 'netflix-last-row' : ''}">
+                <h2 class="netflix-row-title">${this.escapeHtml(title)}</h2>
+                <div class="netflix-row-scroll">${content}</div>
+            </div>
+        `;
+    }
+
+    renderCatalogCard(item, index = 0, vertical = true) {
+        const work = this.normalizeCatalogItem(item, `card-${index}`, item?.category || '');
+        if (!work) return '';
+        const tags = [work.category, ...(work.tags || [])].filter(Boolean).slice(0, 2);
+        return `
+            <button type="button" class="netflix-card ${vertical ? 'vertical' : ''} netflix-catalog-card" data-catalog-id="${this.escapeHtml(work.id)}" aria-label="查看${this.escapeHtml(work.title)}">
+                <div class="netflix-card-img" style="background-image:url('${this.escapeAttr(work.coverUrl)}');"></div>
+                <div class="netflix-card-text">
+                    <strong>${this.escapeHtml(work.title)}</strong>
+                    <span>${tags.map(tag => this.escapeHtml(tag)).join(' · ')}</span>
+                </div>
+            </button>
+        `;
+    }
+
+    bindHomeCatalogEvents() {
+        if (!this.homeContent) return;
+        this.homeContent.querySelectorAll('[data-catalog-id]').forEach(element => {
+            element.addEventListener('click', () => {
+                const item = this.findCatalogItem(element.getAttribute('data-catalog-id'));
+                if (item) this.openCatalogWorkDetail(item);
+            });
+        });
+    }
+
+    findCatalogItem(itemId) {
+        const catalog = this.normalizeHomeCatalog(this.netflixState.homeCatalog);
+        const allItems = [
+            ...catalog.banners.filter(Boolean),
+            ...catalog.recent,
+            ...this.getHomeSectionNames().flatMap(name => catalog.sections[name] || [])
+        ];
+        return allItems.find(item => String(item.id) === String(itemId)) || null;
+    }
+
+    openHomeSearchSheet() {
+        if (this.homeSearchSheet) this.homeSearchSheet.classList.add('active');
+        if (this.homeSearchInput) {
+            this.homeSearchInput.value = '';
+            setTimeout(() => this.homeSearchInput?.focus(), 80);
+        }
+    }
+
+    closeHomeSearchSheet(force = false) {
+        if (this.isHomeSearchLoading && !force) return;
+        if (this.homeSearchSheet) this.homeSearchSheet.classList.remove('active');
+    }
+
+    setHomeSearchLoading(isLoading) {
+        this.isHomeSearchLoading = !!isLoading;
+        if (this.homeSearchSheet) this.homeSearchSheet.classList.toggle('loading', this.isHomeSearchLoading);
+        if (this.homeSearchInput) this.homeSearchInput.disabled = this.isHomeSearchLoading;
+        if (this.homeSearchCancel) this.homeSearchCancel.disabled = this.isHomeSearchLoading;
+        if (this.homeSearchConfirm) {
+            this.homeSearchConfirm.disabled = this.isHomeSearchLoading;
+            this.homeSearchConfirm.innerHTML = this.isHomeSearchLoading
+                ? '<i class="fas fa-spinner fa-spin"></i> 生成中'
+                : '确认';
+        }
+    }
+
+    async generateHomeCatalogFromSearch() {
+        if (this.isHomeSearchLoading) return;
+        const apiConfig = typeof window.getApiConfig === 'function' ? window.getApiConfig() : (window.apiConfig || {});
+        if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+            if (typeof window.showToast === 'function') window.showToast('请先在设置中配置大模型 API');
+            return;
+        }
+
+        const query = (this.homeSearchInput?.value || '').trim();
+        this.setHomeSearchLoading(true);
+        try {
+            const endpoint = this.resolveChatCompletionsEndpoint(apiConfig.endpoint);
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [{ role: 'user', content: this.createHomeCatalogPrompt(query) }],
+                    temperature: parseFloat(apiConfig.temperature) || 0.8,
+                    response_format: { type: 'json_object' }
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Request Failed: ${response.status}`);
+            const data = await response.json();
+            const content = data.choices?.[0]?.message?.content || '';
+            const parsed = this.parseJsonFromText(content);
+            const recent = this.normalizeHomeCatalog(this.netflixState.homeCatalog).recent;
+            const nextCatalog = this.normalizeGeneratedHomeCatalog(parsed, recent);
+            this.netflixState.homeCatalog = nextCatalog;
+            this.saveNetflixState();
+            this.renderHomeCatalog();
+            this.closeHomeSearchSheet(true);
+            if (typeof window.showToast === 'function') window.showToast('Netflix 首页已生成');
+        } catch (error) {
+            console.error('Netflix home catalog generation failed:', error);
+            if (typeof window.showToast === 'function') window.showToast('生成失败，请检查 API 返回格式或网络');
+        } finally {
+            this.setHomeSearchLoading(false);
+        }
+    }
+
+    resolveChatCompletionsEndpoint(endpoint = '') {
+        let resolved = String(endpoint || '').trim();
+        if (resolved.endsWith('/')) resolved = resolved.slice(0, -1);
+        if (!resolved.endsWith('/chat/completions')) {
+            resolved = resolved.endsWith('/v1') ? `${resolved}/chat/completions` : `${resolved}/v1/chat/completions`;
+        }
+        return resolved;
+    }
+
+    getNetflixApiConfig() {
+        return typeof window.getApiConfig === 'function' ? window.getApiConfig() : (window.apiConfig || {});
+    }
+
+    async requestChatCompletion(promptText, options = {}) {
+        const apiConfig = options.apiConfig || this.getNetflixApiConfig();
+        if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+            throw new Error('API_CONFIG_MISSING');
+        }
+
+        const endpoint = this.resolveChatCompletionsEndpoint(apiConfig.endpoint);
+        const timeoutMs = Number(options.timeoutMs) || 60000;
+        const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+        const timeoutId = controller ? setTimeout(() => controller.abort(), timeoutMs) : null;
+
+        try {
+            const body = {
+                model: apiConfig.model || 'gpt-3.5-turbo',
+                messages: [{ role: 'user', content: promptText }],
+                temperature: parseFloat(apiConfig.temperature) || 0.8
+            };
+            if (options.responseFormat) body.response_format = options.responseFormat;
+
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiConfig.apiKey}`
+                },
+                body: JSON.stringify(body),
+                signal: controller?.signal
+            });
+
+            if (!response.ok) {
+                let detail = '';
+                try {
+                    detail = await response.text();
+                } catch (error) {
+                    detail = '';
+                }
+                const error = new Error(`API Request Failed: ${response.status}${detail ? ` ${detail.slice(0, 240)}` : ''}`);
+                error.status = response.status;
+                throw error;
+            }
+
+            return response.json();
+        } catch (error) {
+            if (error?.name === 'AbortError') {
+                const timeoutError = new Error('API_REQUEST_TIMEOUT');
+                timeoutError.isTimeout = true;
+                throw timeoutError;
+            }
+            throw error;
+        } finally {
+            if (timeoutId) clearTimeout(timeoutId);
+        }
+    }
+
+    createHomeCatalogPrompt(query = '') {
+        const intent = query
+            ? `用户搜索内容是：“${query}”。请围绕这个内容生成。`
+            : '用户没有输入搜索内容。请随机生成一组适合 Netflix 首页的影片。';
+        return `${intent}
+请返回严格 JSON，不要 Markdown，不要解释。结构必须是：
+{
+  "banners": [
+    {"title":"作品名","category":"电影/电视剧/综艺/纪录片","tags":["标签1","标签2"],"coverUrl":"https://picsum.photos/seed/.../640/960?grayscale","summary":"简介","cast":[{"realName":"演员名","roleName":"饰演角色","rolePersona":"人物设定","avatar":""}]}
+  ],
+  "recommendations": [
+    {"title":"作品名","category":"电影/电视剧/综艺/纪录片","tags":["标签1","标签2"],"coverUrl":"https://picsum.photos/seed/.../640/960?grayscale","summary":"简介","cast":[{"realName":"演员名","roleName":"饰演角色","rolePersona":"人物设定","avatar":""}]}
+  ],
+  "sections": {
+    "电影": [],
+    "电视剧": [],
+    "综艺": [],
+    "纪录片": []
+  }
+}
+数量要求：banners 必须 3 个，recommendations 必须 4 个，sections 里的电影、电视剧、综艺、纪录片各 4 个。
+每个作品都必须包含 title、category、tags、coverUrl、summary、cast。cast 必须是 1-3 个主演，每个主演包含 realName、roleName、rolePersona、avatar，avatar 可为空字符串。
+coverUrl 使用外部图片链接，优先使用 https://picsum.photos/seed/英文或拼音关键词/640/960?grayscale 这种稳定链接。`;
+    }
+
+    parseJsonFromText(text = '') {
+        const raw = String(text || '').replace(/```json/gi, '').replace(/```/g, '').trim();
+        const match = raw.match(/\{[\s\S]*\}|\[[\s\S]*\]/);
+        return JSON.parse(match ? match[0] : raw);
+    }
+
+    normalizeGeneratedHomeCatalog(parsed, existingRecent = []) {
+        const safe = parsed && typeof parsed === 'object' ? parsed : {};
+        const catalog = this.createDefaultHomeCatalog();
+        catalog.banners = (Array.isArray(safe.banners) ? safe.banners : [])
+            .slice(0, 3)
+            .map((item, index) => this.normalizeCatalogItem(item, `banner-${index}`, ''))
+            .filter(Boolean);
+        while (catalog.banners.length < 3) catalog.banners.push(null);
+
+        catalog.recent = Array.isArray(existingRecent)
+            ? existingRecent.slice(0, 8).map((item, index) => this.normalizeCatalogItem(item, `recent-${index}`, '')).filter(Boolean)
+            : [];
+        catalog.sections['为你推荐'] = (Array.isArray(safe.recommendations) ? safe.recommendations : (safe.sections?.['为你推荐'] || []))
+            .slice(0, 4)
+            .map((item, index) => this.normalizeCatalogItem(item, `recommend-${index}`, ''))
+            .filter(Boolean);
+
+        ['电影', '电视剧', '综艺', '纪录片'].forEach(name => {
+            catalog.sections[name] = (Array.isArray(safe.sections?.[name]) ? safe.sections[name] : [])
+                .slice(0, 4)
+                .map((item, index) => this.normalizeCatalogItem(item, `${name}-${index}`, name))
+                .filter(Boolean);
+        });
+
+        const requiredCounts = [
+            catalog.banners.filter(Boolean).length === 3,
+            catalog.sections['为你推荐'].length === 4,
+            catalog.sections['电影'].length === 4,
+            catalog.sections['电视剧'].length === 4,
+            catalog.sections['综艺'].length === 4,
+            catalog.sections['纪录片'].length === 4
+        ];
+        if (!requiredCounts.every(Boolean)) throw new Error('Generated catalog is incomplete');
+
+        return this.normalizeHomeCatalog(catalog);
+    }
+
+    normalizePlaybackCatalog(rawCatalog = null) {
+        const safe = rawCatalog && typeof rawCatalog === 'object' ? rawCatalog : {};
+        return Object.entries(safe).reduce((catalog, [id, entry]) => {
+            const normalized = this.normalizePlaybackEntry(entry, id);
+            if (normalized) catalog[normalized.id] = normalized;
+            return catalog;
+        }, {});
+    }
+
+    normalizePlaybackEntry(entry = {}, fallbackId = '') {
+        if (!entry || typeof entry !== 'object') return null;
+        const item = this.normalizeCatalogItem(entry.item || entry.work || entry, fallbackId || 'playback', entry.category || '');
+        if (!item) return null;
+        const episodes = Array.isArray(entry.episodes)
+            ? entry.episodes.map((episode, index) => this.normalizePlaybackEpisode(episode, index + 1)).filter(Boolean)
+            : [];
+        const introIndex = episodes.findIndex(episode => Number(episode.number) === 0);
+        if (introIndex === -1) {
+            episodes.unshift(this.createInitialPlaybackEpisode(item));
+        } else {
+            episodes[introIndex] = this.normalizePlaybackIntroEpisode(episodes[introIndex], item);
+        }
+        episodes.sort((a, b) => Number(a.number) - Number(b.number));
+        const requestedActive = Number(entry.activeEpisodeNumber);
+        const activeEpisodeNumber = episodes.some(episode => Number(episode.number) === requestedActive)
+            ? requestedActive
+            : 0;
+        return {
+            id: item.id,
+            item,
+            episodes,
+            activeEpisodeNumber,
+            presetSwitches: entry.presetSwitches && typeof entry.presetSwitches === 'object' ? entry.presetSwitches : {},
+            updatedAt: entry.updatedAt || new Date().toISOString()
+        };
+    }
+
+    normalizePlaybackEpisode(episode = {}, fallbackNumber = 1) {
+        const safe = episode && typeof episode === 'object' ? episode : {};
+        const parsedNumber = Number(safe.number);
+        return {
+            number: Number.isFinite(parsedNumber) ? parsedNumber : fallbackNumber,
+            recap: typeof safe.recap === 'string' ? safe.recap : '',
+            content: typeof safe.content === 'string' ? safe.content : '',
+            summary: typeof safe.summary === 'string' ? safe.summary : '',
+            comments: Array.isArray(safe.comments) ? safe.comments : [],
+            cast: Array.isArray(safe.cast) ? safe.cast.map((actor, index) => this.normalizePlaybackActor(actor, index)).filter(Boolean) : [],
+            createdAt: safe.createdAt || new Date().toISOString()
+        };
+    }
+
+    createInitialPlaybackEpisode(item) {
+        const itemCast = Array.isArray(item?.cast)
+            ? item.cast.map((actor, index) => this.normalizePlaybackActor(actor, index)).filter(Boolean)
+            : [];
+        return this.normalizePlaybackIntroEpisode({
+            number: 0,
+            recap: '',
+            content: item.summary || '',
+            summary: item.summary || '',
+            cast: itemCast.length ? itemCast : this.createDefaultPlaybackCast(),
+            createdAt: new Date().toISOString()
+        }, item);
+    }
+
+    normalizePlaybackIntroEpisode(episode = {}, item = {}) {
+        const itemCast = Array.isArray(item?.cast)
+            ? item.cast.map((actor, index) => this.normalizePlaybackActor(actor, index)).filter(Boolean)
+            : [];
+        const fallbackCast = itemCast.length ? itemCast : this.createDefaultPlaybackCast();
+        return {
+            ...episode,
+            number: 0,
+            recap: '',
+            content: episode.content || item.summary || '',
+            summary: episode.summary || item.summary || '',
+            cast: Array.isArray(episode.cast) && episode.cast.length ? episode.cast : fallbackCast,
+            createdAt: episode.createdAt || new Date().toISOString()
+        };
+    }
+
+    createDefaultPlaybackCast() {
+        const user = this.getUserState();
+        const name = user.name || user.realName || 'User';
+        return [{
+            id: this.createPresetId('cast'),
+            realName: name,
+            name,
+            roleName: name,
+            rolePersona: user.persona || user.signature || '',
+            avatar: user.avatarUrl || user.avatar || ''
+        }];
+    }
+
+    normalizePlaybackActor(actor = {}, index = 0) {
+        if (!actor || typeof actor !== 'object') return null;
+        const realName = String(actor.realName || actor.name || `主演${index + 1}`).trim();
+        return {
+            id: String(actor.id || this.createPresetId('cast')),
+            realName,
+            name: String(actor.name || realName).trim(),
+            roleName: String(actor.roleName || actor.name || realName).trim(),
+            rolePersona: String(actor.rolePersona || actor.persona || actor.desc || '').trim(),
+            avatar: String(actor.avatar || actor.avatarUrl || '').trim()
+        };
+    }
+
+    getPlaybackEntry(playbackId = this.activePlaybackId) {
+        if (!playbackId) return null;
+        const catalog = this.netflixState.playbackCatalog || {};
+        const entry = catalog[playbackId] || null;
+        return entry ? this.normalizePlaybackEntry(entry, playbackId) : null;
+    }
+
+    savePlaybackEntry(entry) {
+        if (!entry) return;
+        if (!this.netflixState.playbackCatalog || typeof this.netflixState.playbackCatalog !== 'object') {
+            this.netflixState.playbackCatalog = {};
+        }
+        entry.updatedAt = new Date().toISOString();
+        this.netflixState.playbackCatalog[entry.id] = this.normalizePlaybackEntry(entry, entry.id);
+    }
+
+    getSerializablePlaybackEpisodes(entry) {
+        return (entry?.episodes || [])
+            .filter(episode => Number(episode.number) > 0)
+            .map((episode, index) => ({
+                number: index + 1,
+                recap: episode.recap || '',
+                content: episode.content || '',
+                summary: episode.summary || '',
+                comments: Array.isArray(episode.comments) ? episode.comments : [],
+                cast: Array.isArray(episode.cast) ? episode.cast : [],
+                createdAt: episode.createdAt || new Date().toISOString()
+            }));
+    }
+
+    syncPlaybackEntryToSourceWork(entry) {
+        if (!entry?.id) return null;
+        const sourceWork = (this.netflixState.works || []).find(work => String(work.id) === String(entry.id));
+        if (!sourceWork) return null;
+        sourceWork.title = entry.item?.title || sourceWork.title || '未命名作品';
+        sourceWork.category = entry.item?.category || sourceWork.category || '电视剧';
+        sourceWork.tags = Array.isArray(entry.item?.tags) ? entry.item.tags : (sourceWork.tags || []);
+        sourceWork.coverUrl = entry.item?.coverUrl || sourceWork.coverUrl || '';
+        sourceWork.summary = entry.item?.summary || sourceWork.summary || '';
+        sourceWork.cast = Array.isArray(entry.item?.cast) ? entry.item.cast : (sourceWork.cast || []);
+        sourceWork.episodes = JSON.parse(JSON.stringify(this.getSerializablePlaybackEpisodes(entry)));
+        sourceWork.episodeCount = sourceWork.episodes.length || 1;
+        return this.normalizeWork(sourceWork, sourceWork.id);
+    }
+
+    getActivePlaybackEpisode() {
+        const entry = this.getPlaybackEntry();
+        if (!entry) return null;
+        return entry.episodes.find(episode => Number(episode.number) === Number(this.activePlaybackEpisodeNumber))
+            || entry.episodes.find(episode => Number(episode.number) === 0)
+            || entry.episodes[0]
+            || null;
+    }
+
+    upsertRecentCatalogItem(item) {
+        const work = this.normalizeCatalogItem(item, item?.id || 'recent', item?.category || '');
+        if (!work) return;
+        const catalog = this.normalizeHomeCatalog(this.netflixState.homeCatalog);
+        catalog.recent = [work, ...catalog.recent.filter(existing => String(existing.id) !== String(work.id))].slice(0, 8);
+        this.netflixState.homeCatalog = catalog;
+    }
+
+    normalizeNetflixState(rawState = null) {
+        const safe = rawState && typeof rawState === 'object' ? rawState : {};
+        return {
+            works: Array.isArray(safe.works) ? safe.works.map((work, index) => this.normalizeWork(work, `legacy-work-${index}`)) : [],
+            boundWorldBookIds: Array.isArray(safe.boundWorldBookIds) ? safe.boundWorldBookIds.map(String) : [],
+            homeCatalog: this.normalizeHomeCatalog(safe.homeCatalog),
+            playbackCatalog: this.normalizePlaybackCatalog(safe.playbackCatalog),
+            playbackCustomCss: typeof safe.playbackCustomCss === 'string' ? safe.playbackCustomCss : ''
+        };
+    }
+
+    loadNetflixState() {
+        let rawState = null;
+        try {
+            const hasNetflixDomain = this.hasNetflixDomain();
+            if (hasNetflixDomain && typeof window.getAppState === 'function') {
+                rawState = window.getAppState('netflix') || null;
+            }
+            if (!hasNetflixDomain && window.StorageManager && typeof window.StorageManager.load === 'function') {
+                rawState = {
+                    works: window.StorageManager.load('u2_netflixWorks', []),
+                    boundWorldBookIds: window.StorageManager.load('u2_netflixBoundWorldBookIds', []),
+                    homeCatalog: window.StorageManager.load('u2_netflixHomeCatalog', null),
+                    playbackCatalog: window.StorageManager.load('u2_netflixPlaybackCatalog', null),
+                    playbackCustomCss: window.StorageManager.load('u2_netflixPlaybackCustomCss', '')
+                };
+            }
+            if (!rawState && typeof window.getAppState === 'function') {
+                rawState = window.getAppState('netflix') || null;
+            }
+        } catch (error) {
+            console.warn('Failed to load Netflix state:', error);
+        }
+        return this.normalizeNetflixState(rawState);
+    }
+
+    hasNetflixDomain() {
+        return typeof window.appStorage?.readDomain === 'function'
+            && window.appStorage.readDomain('netflix', null) !== null;
+    }
+
+    refreshFromPersistedState() {
+        const hadNetflixDomain = this.hasNetflixDomain();
+        this.netflixState = this.loadNetflixState();
+        this.presetState = this.loadPresetState();
+        if (!hadNetflixDomain) {
+            this.saveNetflixState();
+            this.savePresetState();
+        }
+        this.applyCustomCss();
+        this.renderUserProfile();
+        this.renderHomeCatalog();
+        this.renderWorks();
+    }
+
+    saveNetflixState() {
+        try {
+            if (typeof window.getAppState === 'function' && typeof window.setAppState === 'function') {
+                const previous = window.getAppState('netflix') || {};
+                window.setAppState('netflix', {
+                    ...previous,
+                    works: this.netflixState.works,
+                    boundWorldBookIds: this.netflixState.boundWorldBookIds || [],
+                    homeCatalog: this.netflixState.homeCatalog || this.createDefaultHomeCatalog(),
+                    playbackCatalog: this.netflixState.playbackCatalog || {},
+                    playbackCustomCss: this.netflixState.playbackCustomCss || ''
+                }, { silent: true });
+            } else if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('u2_netflixWorks', this.netflixState.works);
+                window.StorageManager.save('u2_netflixBoundWorldBookIds', this.netflixState.boundWorldBookIds || []);
+                window.StorageManager.save('u2_netflixHomeCatalog', this.netflixState.homeCatalog || this.createDefaultHomeCatalog());
+                window.StorageManager.save('u2_netflixPlaybackCatalog', this.netflixState.playbackCatalog || {});
+                window.StorageManager.save('u2_netflixPlaybackCustomCss', this.netflixState.playbackCustomCss || '');
+            }
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('u2_netflixPlaybackCustomCss', this.netflixState.playbackCustomCss || '');
+            }
+        } catch (error) {
+            console.warn('Failed to save Netflix state:', error);
+        }
+    }
+
+    openSettingsSheet() {
+        if (this.settingsPlaybackCssInput) {
+            this.settingsPlaybackCssInput.value = this.netflixState.playbackCustomCss || '';
+        }
+        if (this.settingsSheet) this.settingsSheet.classList.add('active');
+    }
+
+    closeSettingsSheet() {
+        if (this.settingsSheet) this.settingsSheet.classList.remove('active');
+    }
+
+    handleCssFile(event, targetInput) {
+        const file = event?.target?.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (readerEvent) => {
+            if (targetInput) {
+                targetInput.value = String(readerEvent.target?.result || '');
+            }
+        };
+        reader.readAsText(file);
+        if (event.target) event.target.value = '';
+    }
+
+    getActiveSettingsTab() {
+        return 'playback';
+    }
+
+    saveCustomCss() {
+        if (this.settingsPlaybackCssInput) {
+            this.netflixState.playbackCustomCss = String(this.settingsPlaybackCssInput.value || '');
+            if (typeof window.showToast === 'function') window.showToast('播放界面样式已应用');
+        }
+        this.applyCustomCss();
+        this.saveNetflixState();
+    }
+
+    clearCustomCss() {
+        if (this.settingsPlaybackCssInput) {
+            this.netflixState.playbackCustomCss = '';
+            this.settingsPlaybackCssInput.value = '';
+            if (typeof window.showToast === 'function') window.showToast('播放界面样式已清空');
+        }
+        this.applyCustomCss();
+        this.saveNetflixState();
+    }
+
+    applyCustomCss() {
+        const playbackCss = this.netflixState?.playbackCustomCss || '';
+
+        if (typeof document === 'undefined') return;
+        const styleId = 'netflix-custom-styles';
+        let style = document.getElementById(styleId);
+        
+        let finalCss = '';
+
+        if (playbackCss.trim()) {
+            finalCss += this.scopeCssBlock(
+                String(playbackCss).replace(/\/\*[\s\S]*?\*\//g, '').replace(/@import\s+[^;]+;/gi, ''), 
+                '#netflix-playback-sheet'
+            );
+        }
+
+        if (!finalCss) {
+            if (style) style.remove();
+            return;
+        }
+
+        if (!document.head) return;
+        if (!style) {
+            style = document.createElement('style');
+            style.id = styleId;
+            document.head.appendChild(style);
+        }
+        style.textContent = finalCss;
+    }
+
+    scopeCssBlock(css = '', scope = '#netflix-playback-sheet') {
+        let output = '';
+        let index = 0;
+        while (index < css.length) {
+            const openIndex = css.indexOf('{', index);
+            if (openIndex === -1) {
+                output += css.slice(index);
+                break;
+            }
+            const selector = css.slice(index, openIndex).trim();
+            const closeIndex = this.findMatchingBrace(css, openIndex);
+            if (closeIndex === -1) {
+                output += css.slice(index);
+                break;
+            }
+            const body = css.slice(openIndex + 1, closeIndex);
+            const lowerSelector = selector.toLowerCase();
+            if (lowerSelector.startsWith('@keyframes') || lowerSelector.startsWith('@-webkit-keyframes') || lowerSelector.startsWith('@font-face')) {
+                output += `${selector}{${body}}`;
+            } else if (lowerSelector.startsWith('@media') || lowerSelector.startsWith('@supports') || lowerSelector.startsWith('@container') || lowerSelector.startsWith('@layer')) {
+                output += `${selector}{${this.scopeCssBlock(body, scope)}}`;
+            } else if (selector.startsWith('@')) {
+                output += '';
+            } else {
+                const scopedSelector = this.scopeCssSelectors(selector, scope);
+                if (scopedSelector) output += `${scopedSelector}{${body}}`;
+            }
+            index = closeIndex + 1;
+        }
+        return output;
+    }
+
+    findMatchingBrace(css = '', openIndex = 0) {
+        let depth = 0;
+        let quote = '';
+        for (let index = openIndex; index < css.length; index += 1) {
+            const char = css[index];
+            const prev = css[index - 1];
+            if (quote) {
+                if (char === quote && prev !== '\\') quote = '';
+                continue;
+            }
+            if (char === '"' || char === "'") {
+                quote = char;
+                continue;
+            }
+            if (char === '{') depth += 1;
+            if (char === '}') {
+                depth -= 1;
+                if (depth === 0) return index;
+            }
+        }
+        return -1;
+    }
+
+    scopeCssSelectors(selectorText = '', scope = '#netflix-playback-sheet') {
+        return this.splitCssSelectors(selectorText)
+            .map(selector => selector.trim())
+            .filter(Boolean)
+            .map(selector => {
+                if (selector.startsWith(scope)) return selector;
+                if (/^(html|body|:root)$/i.test(selector)) return scope;
+                if (/^(html|body)\b/i.test(selector)) {
+                    return selector.replace(/^(html|body)\b/i, scope);
+                }
+                return `${scope} ${selector}`;
+            })
+            .join(', ');
+    }
+
+    splitCssSelectors(selectorText = '') {
+        const selectors = [];
+        let current = '';
+        let depth = 0;
+        let quote = '';
+        for (let index = 0; index < selectorText.length; index += 1) {
+            const char = selectorText[index];
+            const prev = selectorText[index - 1];
+            if (quote) {
+                current += char;
+                if (char === quote && prev !== '\\') quote = '';
+                continue;
+            }
+            if (char === '"' || char === "'") {
+                quote = char;
+                current += char;
+                continue;
+            }
+            if (char === '(' || char === '[') depth += 1;
+            if (char === ')' || char === ']') depth = Math.max(0, depth - 1);
+            if (char === ',' && depth === 0) {
+                selectors.push(current);
+                current = '';
+            } else {
+                current += char;
+            }
+        }
+        if (current.trim()) selectors.push(current);
+        return selectors;
+    }
+
+    renderCreateForm() {
+        if (this.workDeleteBtn) {
+            this.workDeleteBtn.style.display = this.editingWorkId ? 'block' : 'none';
+        }
+        if (this.workCoverPreview) {
+            if (this.createDraft.coverUrl) {
+                this.workCoverPreview.src = this.createDraft.coverUrl;
+                this.workCoverPreview.style.display = 'block';
+            } else {
+                this.workCoverPreview.removeAttribute('src');
+                this.workCoverPreview.style.display = 'none';
+            }
+        }
+        if (this.workTitleInput) this.workTitleInput.value = this.createDraft.title || '';
+        this.workCategoryButtons.forEach(button => {
+            button.classList.toggle('active', button.getAttribute('data-category') === this.createDraft.category);
+        });
+        if (this.workTagsInput) this.workTagsInput.value = this.createDraft.tagsText || '';
+        if (this.workSummaryInput) this.workSummaryInput.value = this.createDraft.summary || '';
+        this.renderTagPreview();
+        this.renderCastList();
+    }
+
+    parseWorkTags(text = this.createDraft.tagsText) {
+        return String(text || '')
+            .split(/[\s,，、]+/)
+            .map(tag => tag.trim())
+            .filter(Boolean);
+    }
+
+    parseEpisodeCount(value = null) {
+        const count = parseInt(value, 10);
+        return Number.isFinite(count) && count > 0 ? count : 1;
+    }
+
+    renderTagPreview() {
+        if (!this.workTagPreview) return;
+        const tags = this.parseWorkTags();
+        this.workTagPreview.innerHTML = tags.length
+            ? tags.map(tag => `<span>${this.escapeHtml(tag)}</span>`).join('')
+            : '<em>暂无标签</em>';
+    }
+
+    renderCastList() {
+        if (!this.workCastList || !this.workCastAddBtn) return;
+        const castItems = this.createDraft.cast.map(actor => `
+            <div class="netflix-cast-item" data-actor-id="${actor.id}">
+                <div class="netflix-cast-avatar">${actor.avatar ? `<img src="${actor.avatar}" alt="">` : `<span>${this.escapeHtml((actor.realName || actor.name || '?').charAt(0))}</span>`}</div>
+                <div class="netflix-cast-meta">
+                    <strong>${this.escapeHtml(actor.realName || actor.name || '未命名')}</strong>
+                    <label>
+                        <span>饰演</span>
+                        <input type="text" data-actor-id="${actor.id}" class="role-name-input" value="${this.escapeHtml(actor.roleName || '')}" placeholder="角色名">
+                    </label>
+                    <label>
+                        <span>人设</span>
+                        <textarea data-actor-id="${actor.id}" class="role-persona-input" placeholder="角色人设" style="min-height: 60px;">${this.escapeHtml(actor.rolePersona || '')}</textarea>
+                    </label>
+                </div>
+            </div>
+        `).join('');
+        this.workCastList.innerHTML = `
+            ${castItems}
+            <button type="button" class="netflix-cast-add" id="netflix-work-cast-add-btn" aria-label="添加主演">
+                <i class="fas fa-plus"></i>
+            </button>
+        `;
+        this.workCastAddBtn = this.view.querySelector('#netflix-work-cast-add-btn');
+        this.workCastAddBtn?.addEventListener('click', () => this.openActorPicker());
+        this.workCastList.querySelectorAll('.netflix-cast-meta .role-name-input').forEach(input => {
+            input.addEventListener('input', () => {
+                const actor = this.createDraft.cast.find(item => item.id === input.getAttribute('data-actor-id'));
+                if (actor) actor.roleName = input.value;
+            });
+        });
+        this.workCastList.querySelectorAll('.netflix-cast-meta .role-persona-input').forEach(textarea => {
+            textarea.addEventListener('input', () => {
+                const actor = this.createDraft.cast.find(item => item.id === textarea.getAttribute('data-actor-id'));
+                if (actor) actor.rolePersona = textarea.value;
+            });
+        });
+    }
+
+    handleWorkCoverFile(event) {
+        const file = event.target.files && event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+            this.createDraft.coverUrl = reader.result || '';
+            this.renderCreateForm();
+        };
+        reader.readAsDataURL(file);
+        event.target.value = '';
+    }
+
+    async getAvailableActors() {
+        const user = this.getUserState();
+        const actors = [{
+            id: 'user-current',
+            type: 'user',
+            sourceId: 'user-current',
+            realName: user.name || user.realName || 'User',
+            name: user.name || user.realName || 'User',
+            roleName: user.name || user.realName || 'User',
+            rolePersona: user.persona || user.desc || user.bio || '',
+            avatar: user.avatarUrl || user.avatar || ''
+        }];
+
+        try {
+            let friends = [];
+            if (window.imStorage && typeof window.imStorage.loadFriends === 'function') {
+                friends = await window.imStorage.loadFriends();
+            } else if (typeof window.getAppState === 'function') {
+                friends = window.getAppState('imessage')?.friends || [];
+            }
+
+            friends
+                .filter(friend => friend && (friend.type === 'char' || friend.type === 'npc'))
+                .forEach(friend => {
+                    const realName = friend.realName || friend.realname || friend.originalName || friend.name || friend.nickname || (friend.type === 'npc' ? 'NPC' : 'Char');
+                    const name = friend.nickname || friend.name || friend.realName || realName;
+                    actors.push({
+                        id: `${friend.type}-${friend.id || realName}`,
+                        sourceId: friend.id || '',
+                        type: friend.type,
+                        realName,
+                        name,
+                        roleName: name,
+                        rolePersona: friend.persona || friend.desc || friend.signature || friend.bio || '',
+                        avatar: friend.avatarUrl || friend.avatar || friend.avatarDataUrl || ''
+                    });
+                });
+        } catch (error) {
+            console.warn('Failed to load Netflix actors:', error);
+        }
+
+        return actors;
+    }
+
+    async openActorPicker() {
+        if (!this.actorPickerSheet || !this.actorPickerList) return;
+        this.actorPickerList.innerHTML = '<div class="netflix-actor-empty">加载中...</div>';
+        this.actorPickerSheet.classList.add('active');
+        this.availableActors = await this.getAvailableActors();
+        this.renderActorPicker();
+    }
+
+    closeActorPicker() {
+        if (this.actorPickerSheet) this.actorPickerSheet.classList.remove('active');
+    }
+
+    renderActorPicker() {
+        if (!this.actorPickerList) return;
+        if (!this.availableActors.length) {
+            this.actorPickerList.innerHTML = '<div class="netflix-actor-empty">暂无可选主演</div>';
+            return;
+        }
+        const selectedIds = new Set(this.createDraft.cast.map(actor => actor.id));
+        this.actorPickerList.innerHTML = this.availableActors.map(actor => `
+            <button type="button" class="netflix-actor-option ${selectedIds.has(actor.id) ? 'selected' : ''}" data-actor-id="${actor.id}" ${actor.id === 'user-current' ? 'disabled style="opacity: 0.8; cursor: not-allowed;"' : ''}>
+                <div class="netflix-actor-avatar">${actor.avatar ? `<img src="${actor.avatar}" alt="">` : `<span>${this.escapeHtml((actor.realName || actor.name || '?').charAt(0))}</span>`}</div>
+                <div class="netflix-actor-info">
+                    <strong>${this.escapeHtml(actor.realName || actor.name || '未命名')}</strong>
+                    <span>${this.escapeHtml(actor.type === 'user' ? 'user' : actor.type)}</span>
+                </div>
+                <i class="fas ${selectedIds.has(actor.id) ? 'fa-check-circle' : 'fa-plus-circle'}"></i>
+            </button>
+        `).join('');
+        this.actorPickerList.querySelectorAll('.netflix-actor-option').forEach(button => {
+            button.addEventListener('click', () => this.toggleCreateActor(button.getAttribute('data-actor-id')));
+        });
+    }
+
+    toggleCreateActor(actorId) {
+        if (actorId === 'user-current') {
+            if (typeof window.showToast === 'function') window.showToast('User 必须作为主演，不可取消');
+            return;
+        }
+        const existingIndex = this.createDraft.cast.findIndex(actor => actor.id === actorId);
+        if (existingIndex >= 0) {
+            this.createDraft.cast.splice(existingIndex, 1);
+        } else {
+            const nonUserCount = this.createDraft.cast.filter(a => a.type !== 'user').length;
+            if (nonUserCount >= 2) {
+                if (typeof window.showToast === 'function') window.showToast('最多只能选择两个 Char 作为主演');
+                return;
+            }
+            const actor = this.availableActors.find(item => item.id === actorId);
+            if (actor) this.createDraft.cast.push({ ...actor });
+        }
+        this.renderActorPicker();
+        this.renderCastList();
+    }
+
+    openCreateFormSheet() {
+        if (!this.createDraft.cast.some(a => a.type === 'user')) {
+            const user = this.getUserState();
+            this.createDraft.cast.unshift({
+                id: 'user-current',
+                type: 'user',
+                sourceId: 'user-current',
+                realName: user.name || user.realName || 'User',
+                name: user.name || user.realName || 'User',
+                roleName: user.name || user.realName || 'User',
+                rolePersona: user.persona || user.signature || '',
+                avatar: user.avatarUrl || user.avatar || ''
+            });
+        }
+        this.renderCreateForm();
+        if (this.createFormSheet) this.createFormSheet.classList.add('active');
+    }
+
+    openEditWorkForm() {
+        const work = this.getActiveWork();
+        if (!work) return;
+        this.editingWorkId = work.id;
+        this.createDraft = {
+            coverUrl: work.coverUrl || '',
+            title: work.title || '',
+            category: work.category || '电视剧',
+            tagsText: (work.tags || []).join(', '),
+            cast: JSON.parse(JSON.stringify(work.cast || [])),
+            summary: work.summary || ''
+        };
+        
+        if (this.workStartBtn) this.workStartBtn.textContent = '保存修改';
+        this.openCreateFormSheet();
+    }
+
+    closeCreateFormSheet() {
+        if (this.createFormSheet) this.createFormSheet.classList.remove('active');
+        this.editingWorkId = null;
+        if (this.workStartBtn) this.workStartBtn.textContent = '开始创作';
+        this.createDraft = this.createDefaultWorkDraft();
+    }
+
+    openWorldBookSheet() {
+        this.renderWorldBookSheet();
+        if (this.worldBookSheet) this.worldBookSheet.classList.add('active');
+    }
+
+    closeWorldBookSheet() {
+        if (this.worldBookSheet) this.worldBookSheet.classList.remove('active');
+    }
+
+    renderWorldBookSheet() {
+        if (!this.worldBookList) return;
+        const books = this.getAvailableWorldBooks();
+        const selected = new Set((this.netflixState.boundWorldBookIds || []).map(String));
+        if (!books.length) {
+            this.worldBookList.innerHTML = '<div class="netflix-world-book-empty">暂无世界书，请先在设置中创建。</div>';
+            return;
+        }
+
+        const grouped = books.reduce((acc, book) => {
+            const group = book.group || '未分组';
+            if (!acc[group]) acc[group] = [];
+            acc[group].push(book);
+            return acc;
+        }, {});
+
+        this.worldBookList.innerHTML = Object.entries(grouped).map(([group, items]) => `
+            <div class="netflix-world-book-group">
+                <div class="netflix-world-book-group-title">${this.escapeHtml(group)}</div>
+                ${items.map(book => {
+                    const id = String(book.id);
+                    const entries = Array.isArray(book.entries) ? book.entries : [];
+                    return `
+                        <label class="netflix-world-book-item">
+                            <div class="netflix-world-book-item-main">
+                                <i class="fas fa-book"></i>
+                                <div>
+                                    <strong>${this.escapeHtml(book.name || '未命名世界书')}</strong>
+                                    <span>${entries.length} 条词条</span>
+                                </div>
+                            </div>
+                            <input type="checkbox" class="netflix-world-book-checkbox" value="${this.escapeHtml(id)}" ${selected.has(id) ? 'checked' : ''}>
+                        </label>
+                    `;
+                }).join('')}
+            </div>
+        `).join('');
+    }
+
+    saveMountedWorldBooks() {
+        const ids = Array.from(this.worldBookList?.querySelectorAll('.netflix-world-book-checkbox:checked') || []).map(input => input.value);
+        this.netflixState.boundWorldBookIds = ids;
+        this.saveNetflixState();
+        this.closeWorldBookSheet();
+        if (typeof window.showToast === 'function') window.showToast('世界书已挂载');
+    }
+
+    getAvailableWorldBooks() {
+        if (typeof window.getWorldBooks === 'function') {
+            const books = window.getWorldBooks();
+            if (Array.isArray(books)) return books;
+        }
+        if (window.StorageManager && typeof window.StorageManager.load === 'function') {
+            return window.StorageManager.load('u2_worldBooks', []) || [];
+        }
+        return [];
+    }
+
+    getMountedWorldBookContext() {
+        const selected = new Set((this.netflixState.boundWorldBookIds || []).map(String));
+        if (!selected.size) return '';
+        return this.getAvailableWorldBooks()
+            .filter(book => selected.has(String(book.id)))
+            .map(book => {
+                const entriesText = (Array.isArray(book.entries) ? book.entries : [])
+                    .filter(entry => entry && entry.enabled !== false)
+                    .map(entry => {
+                        const title = entry.title || entry.name || entry.keyword || '未命名词条';
+                        return `【${title}】\n${entry.content || ''}`.trim();
+                    })
+                    .filter(Boolean)
+                    .join('\n');
+                return entriesText ? `《${book.name || '未命名世界书'}》\n${entriesText}` : '';
+            })
+            .filter(Boolean)
+            .join('\n\n');
+    }
+    normalizeRecordMessage(message = {}, fallbackIndex = 0) {
+        const safe = message && typeof message === 'object' ? message : {};
+        const role = safe.role === 'api' || safe.role === 'char' ? 'char' : 'user';
+        return {
+            id: safe.id || this.createPresetId(`msg-${fallbackIndex}`),
+            role,
+            content: safe.content || safe.text || '',
+            scene: Number.isFinite(Number(safe.scene)) ? Number(safe.scene) : null,
+            tokens: Number.isFinite(Number(safe.tokens)) ? Number(safe.tokens) : 0,
+            createdAt: safe.createdAt || new Date().toISOString()
+        };
+    }
+
+    getLegacyMessagesContent(messages = []) {
+        if (!Array.isArray(messages) || !messages.length) return '';
+        return messages
+            .map((message, index) => {
+                const normalized = this.normalizeRecordMessage(message, index);
+                const speaker = normalized.role === 'user' ? 'User' : 'Char';
+                return normalized.content ? `${speaker}: ${normalized.content}` : '';
+            })
+            .filter(Boolean)
+            .join('\n\n');
+    }
+
+    getActiveWork() {
+        if (!this.activeWorkId) return null;
+        return (this.netflixState.works || []).find(work => String(work.id) === String(this.activeWorkId)) || null;
+    }
+
+    ensureWorkEpisodes(work) {
+        if (!work) return [];
+        const savedEpisodes = Array.isArray(work.episodes) ? work.episodes : [];
+        if (savedEpisodes.length === 0) {
+            savedEpisodes.push({ number: 1, recap: '', content: '', summary: '', comments: [], cast: [], messages: [] });
+        }
+        work.episodes = savedEpisodes.map((saved, index) => {
+            const messages = Array.isArray(saved.messages)
+                ? saved.messages.map((message, msgIndex) => this.normalizeRecordMessage(message, msgIndex))
+                : [];
+            const content = typeof saved.content === 'string' && saved.content.trim()
+                ? saved.content
+                : this.getLegacyMessagesContent(messages);
+            return {
+                number: Number(saved.number) > 0 ? Number(saved.number) : index + 1,
+                recap: typeof saved.recap === 'string' ? saved.recap : '',
+                opening: typeof saved.opening === 'string' ? saved.opening : '',
+                content,
+                summary: typeof saved.summary === 'string' ? saved.summary : '',
+                comments: Array.isArray(saved.comments) ? saved.comments : [],
+                cast: Array.isArray(saved.cast) ? saved.cast.map((actor, actorIndex) => this.normalizePlaybackActor(actor, actorIndex)).filter(Boolean) : [],
+                messages
+            };
+        });
+        work.episodeCount = work.episodes.length;
+        return work.episodes;
+    }
+
+    saveCreatedWork() {
+        const title = (this.workTitleInput?.value || '').trim();
+        if (!title) {
+            if (typeof window.showToast === 'function') window.showToast('请输入作品名字');
+            return;
+        }
+
+        if (this.editingWorkId) {
+            const work = this.netflixState.works.find(w => w.id === this.editingWorkId);
+            if (work) {
+                work.title = title;
+                work.coverUrl = this.createDraft.coverUrl || '';
+                work.category = this.createDraft.category || '电视剧';
+                work.tags = this.parseWorkTags();
+                work.cast = this.createDraft.cast.map(actor => ({
+                    id: actor.id,
+                    type: actor.type,
+                    sourceId: actor.sourceId || '',
+                    realName: actor.realName || actor.name || '',
+                    name: actor.name || actor.realName || '',
+                    roleName: actor.roleName || actor.name || actor.realName || '',
+                    rolePersona: actor.rolePersona || '',
+                    avatar: actor.avatar || ''
+                }));
+                work.summary = (this.workSummaryInput?.value || '').trim();
+            }
+            this.saveNetflixState();
+            this.renderWorks();
+            this.closeCreateFormSheet();
+            if (typeof window.showToast === 'function') window.showToast('修改成功');
+        } else {
+            const work = {
+                id: this.createPresetId('work'),
+                coverUrl: this.createDraft.coverUrl || '',
+                title,
+                category: this.createDraft.category || '电视剧',
+                tags: this.parseWorkTags(),
+                episodeCount: 1,
+                cast: this.createDraft.cast.map(actor => ({
+                    id: actor.id,
+                    type: actor.type,
+                    sourceId: actor.sourceId || '',
+                    realName: actor.realName || actor.name || '',
+                    name: actor.name || actor.realName || '',
+                    roleName: actor.roleName || actor.name || actor.realName || '',
+                    rolePersona: actor.rolePersona || '',
+                    avatar: actor.avatar || ''
+                })),
+                summary: (this.workSummaryInput?.value || '').trim(),
+                series: [],
+                episodes: [{ number: 1, recap: '', content: '', summary: '', comments: [], cast: [] }],
+                likeCount: 0,
+                subscriberCount: 0,
+                comments: [],
+                createdAt: new Date().toISOString()
+            };
+
+            this.netflixState.works.unshift(work);
+            this.saveNetflixState();
+            this.renderWorks();
+            this.closeCreateFormSheet();
+            if (typeof window.showToast === 'function') window.showToast('作品创建成功');
+        }
+    }
+
+    deleteWork() {
+        const workId = this.editingWorkId;
+        if (!workId) return;
+        const work = this.netflixState.works.find(item => String(item.id) === String(workId));
+        const title = work?.title || '这部影片';
+        if (!window.confirm(`确定要删除“${title}”吗？此操作不可恢复。`)) return;
+
+        this.netflixState.works = this.netflixState.works.filter(item => String(item.id) !== String(workId));
+        if (String(this.activeWorkId) === String(workId)) {
+            this.activeWorkId = null;
+            this.activeEpisodeNumber = 1;
+        }
+        if (String(this.activePlaybackId) === String(workId)) {
+            this.activePlaybackId = null;
+            this.activePlaybackEpisodeNumber = 1;
+            this.closePlaybackSheet();
+        }
+        if (String(this.activeDetailWorkId) === String(workId)) {
+            this.activeDetailWorkId = null;
+            this.activeDetailEpisodeNumber = 1;
+            this.closeWorkDetail();
+        }
+        this.editingWorkId = null;
+        this.saveNetflixState();
+        this.renderWorks();
+        this.closeCreateFormSheet();
+        if (typeof window.showToast === 'function') window.showToast('影片已删除');
+    }
+
+    renderWorks() {
+        const works = (this.netflixState.works || []).map((work, index) => this.normalizeWork(work, `legacy-work-${index}`));
+        
+        // 渲染“参演影片” (Profile页)
+        if (this.actingList) {
+            if (!works.length) {
+                this.actingList.innerHTML = '<div class="netflix-acting-empty">暂无</div>';
+            } else {
+                this.actingList.innerHTML = works.map(work => `
+                    <button type="button" class="netflix-work-card" data-work-id="${this.escapeHtml(work.id)}" aria-label="查看${this.escapeHtml(work.title || '未命名作品')}">
+                        <div class="netflix-work-cover">${work.coverUrl ? `<img src="${work.coverUrl}" alt="">` : '<i class="fas fa-film"></i>'}</div>
+                        <div class="netflix-work-title">${this.escapeHtml(work.title || '未命名作品')}</div>
+                    </button>
+                `).join('');
+
+                this.actingList.querySelectorAll('.netflix-work-card').forEach(card => {
+                    card.addEventListener('click', () => this.openWorkDetail(card.getAttribute('data-work-id')));
+                });
+            }
+        }
+
+        // 渲染“我的作品” (Create面板中的列表)
+        if (this.createWorksList) {
+            if (!works.length) {
+                this.createWorksList.innerHTML = '<div style="grid-column:1/-1;color:#888;font-size:14px;padding:20px 0;text-align:center;">您还没有创建任何作品</div>';
+            } else {
+                this.createWorksList.innerHTML = works.map(work => `
+                    <div class="netflix-create-work-item" data-work-id="${this.escapeHtml(work.id)}">
+                        <div class="netflix-create-work-item-cover">
+                            ${work.coverUrl ? `<img src="${work.coverUrl}" alt="">` : '<i class="fas fa-film"></i>'}
+                        </div>
+                        <div class="netflix-create-work-item-title">${this.escapeHtml(work.title || '未命名作品')}</div>
+                    </div>
+                `).join('');
+
+                this.createWorksList.querySelectorAll('.netflix-create-work-item').forEach(card => {
+                    card.addEventListener('click', () => this.openPlaybackFromWork(card.getAttribute('data-work-id'), 1));
+                });
+            }
+        }
+    }
+
+    normalizeWork(work = {}, fallbackId = this.createPresetId('work')) {
+        const safe = work && typeof work === 'object' ? work : {};
+        const normalized = {
+            ...safe,
+            id: safe.id || fallbackId,
+            coverUrl: safe.coverUrl || '',
+            title: safe.title || '未命名作品',
+            category: safe.category || '电视剧',
+            tags: Array.isArray(safe.tags) ? safe.tags : [],
+            episodeCount: this.parseEpisodeCount(safe.episodeCount),
+            cast: Array.isArray(safe.cast) ? safe.cast : [],
+            summary: safe.summary || '',
+            series: Array.isArray(safe.series) ? safe.series : [],
+            likeCount: Number.isFinite(Number(safe.likeCount)) ? Number(safe.likeCount) : 0,
+            subscriberCount: Number.isFinite(Number(safe.subscriberCount)) ? Number(safe.subscriberCount) : 0,
+            comments: Array.isArray(safe.comments) ? safe.comments : []
+        };
+        this.ensureWorkEpisodes(normalized);
+        return normalized;
+    }
+
+    openWorkDetail(workId) {
+        const work = (this.netflixState.works || [])
+            .map((item, index) => this.normalizeWork(item, `legacy-work-${index}`))
+            .find(item => String(item.id) === String(workId));
+        if (!work) return;
+        this.activeDetailWorkId = work.id;
+        this.activeDetailEpisodeNumber = 1;
+        this.activeDetailCatalogOnly = false;
+        this.renderWorkDetail(work);
+        if (this.workDetailSheet) this.workDetailSheet.classList.add('active');
+    }
+
+    openCatalogWorkDetail(item) {
+        let catalogWork = this.normalizeCatalogWorkForDetail(item);
+        if (!catalogWork) return;
+
+        // 如果在 playbackCatalog 中有这个影片的记录，则优先使用它来合并集数和评论
+        const playbackEntry = this.getPlaybackEntry(catalogWork.id);
+        if (playbackEntry) {
+            catalogWork.episodes = playbackEntry.episodes.filter(ep => Number(ep.number) > 0);
+            catalogWork.episodeCount = catalogWork.episodes.length || catalogWork.episodeCount;
+        }
+
+        this.activeDetailWorkId = catalogWork.id;
+        this.activeDetailEpisodeNumber = 1;
+        this.activeDetailCatalogOnly = true;
+        this.renderWorkDetail(catalogWork);
+        if (this.workDetailSheet) this.workDetailSheet.classList.add('active');
+    }
+
+    createCatalogItemFromWork(work) {
+        return this.normalizeCatalogItem({
+            id: work.id,
+            title: work.title,
+            category: work.category,
+            tags: work.tags,
+            coverUrl: work.coverUrl,
+            summary: work.summary,
+            cast: work.cast
+        }, work.id, work.category || '');
+    }
+
+    createPlaybackEpisodeFromWorkEpisode(episode = {}, fallbackNumber = 1, work = {}) {
+        const number = Number(episode.number) > 0 ? Number(episode.number) : fallbackNumber;
+        const cast = Array.isArray(episode.cast) && episode.cast.length ? episode.cast : (Array.isArray(work.cast) ? work.cast : []);
+        return this.normalizePlaybackEpisode({
+            number,
+            recap: episode.recap || '',
+            content: episode.content || this.getLegacyMessagesContent(episode.messages || ''),
+            summary: episode.summary || '',
+            comments: Array.isArray(episode.comments) ? episode.comments : [],
+            cast,
+            createdAt: episode.createdAt || new Date().toISOString()
+        }, number);
+    }
+
+    createPlaybackEntryFromWork(work) {
+        const normalizedWork = this.normalizeWork(work, work?.id || this.createPresetId('work'));
+        const item = this.createCatalogItemFromWork(normalizedWork);
+        const episodes = normalizedWork.episodes.map((episode, index) => this.createPlaybackEpisodeFromWorkEpisode(episode, index + 1, normalizedWork));
+        return this.normalizePlaybackEntry({
+            id: item.id,
+            item,
+            episodes,
+            activeEpisodeNumber: 1
+        }, item.id);
+    }
+
+    mergePlaybackEntryWithWork(entry, workEntry) {
+        if (!entry) return workEntry;
+        const merged = this.normalizePlaybackEntry({
+            ...entry,
+            item: { ...entry.item, ...workEntry.item }
+        }, workEntry.id);
+        const existingByNumber = new Map(merged.episodes.map(episode => [Number(episode.number), episode]));
+        workEntry.episodes.forEach(episode => {
+            const number = Number(episode.number);
+            const existing = existingByNumber.get(number);
+            if (!existing || (!existing.content && episode.content)) {
+                existingByNumber.set(number, episode);
+            }
+        });
+        merged.episodes = Array.from(existingByNumber.values()).sort((a, b) => Number(a.number) - Number(b.number));
+        return this.normalizePlaybackEntry(merged, workEntry.id);
+    }
+
+    openPlaybackFromWork(workId, episodeNumber = 1) {
+        const work = (this.netflixState.works || [])
+            .map((item, index) => this.normalizeWork(item, `legacy-work-${index}`))
+            .find(item => String(item.id) === String(workId));
+        if (!work) return;
+
+        const workEntry = this.createPlaybackEntryFromWork(work);
+        let entry = this.getPlaybackEntry(workEntry.id);
+        entry = this.mergePlaybackEntryWithWork(entry, workEntry);
+
+        const requestedNumber = Number(episodeNumber);
+        const targetNumber = Number.isFinite(requestedNumber) && entry.episodes.some(episode => Number(episode.number) === requestedNumber)
+            ? requestedNumber
+            : (entry.episodes.some(episode => Number(episode.number) === 1) ? 1 : 0);
+
+        this.activePlaybackId = entry.id;
+        this.activePlaybackEpisodeNumber = targetNumber;
+        entry.activeEpisodeNumber = targetNumber;
+        this.savePlaybackEntry(entry);
+        this.upsertRecentCatalogItem(entry.item);
+        this.saveNetflixState();
+        this.renderHomeCatalog();
+        this.renderPlaybackWindow();
+        this.closeWorkDetail();
+        if (this.playbackSheet) this.playbackSheet.classList.add('active');
+    }
+
+    openPlaybackFromCatalog(item, episodeNumber = null) {
+        const catalogItem = this.normalizeCatalogItem(item, item?.id || this.createPresetId('playback'), item?.category || '');
+        if (!catalogItem) return;
+        let entry = this.getPlaybackEntry(catalogItem.id);
+        if (!entry) {
+            entry = this.normalizePlaybackEntry({ id: catalogItem.id, item: catalogItem, episodes: [this.createInitialPlaybackEpisode(catalogItem)] }, catalogItem.id);
+        } else {
+            entry.item = { ...entry.item, ...catalogItem };
+            entry = this.normalizePlaybackEntry(entry, entry.id);
+        }
+        this.activePlaybackId = entry.id;
+        const requestedNumber = Number(episodeNumber);
+        this.activePlaybackEpisodeNumber = Number.isFinite(requestedNumber) && entry.episodes.some(episode => Number(episode.number) === requestedNumber)
+            ? requestedNumber
+            : 0;
+        entry.activeEpisodeNumber = this.activePlaybackEpisodeNumber;
+        this.savePlaybackEntry(entry);
+        this.upsertRecentCatalogItem(entry.item);
+        this.saveNetflixState();
+        this.renderHomeCatalog();
+        this.renderPlaybackWindow();
+        this.closeWorkDetail();
+        if (this.playbackSheet) this.playbackSheet.classList.add('active');
+    }
+
+    closePlaybackSheet() {
+        if (this.playbackSheet) this.playbackSheet.classList.remove('active');
+        this.closePlaybackEpisodeSidebar();
+        this.closePlaybackPresetSidebar();
+        this.closePlaybackCastSheet();
+        this.closePlaybackNextModal(true);
+    }
+
+    renderPlaybackWindow() {
+        const entry = this.getPlaybackEntry();
+        if (!entry || !this.playbackBody) return;
+        const episode = entry.episodes.find(item => Number(item.number) === Number(this.activePlaybackEpisodeNumber))
+            || entry.episodes.find(item => Number(item.number) === 0)
+            || entry.episodes[0];
+        this.activePlaybackEpisodeNumber = Number(episode?.number) || 0;
+        entry.activeEpisodeNumber = this.activePlaybackEpisodeNumber;
+        this.savePlaybackEntry(entry);
+        const isIntro = Number(this.activePlaybackEpisodeNumber) === 0;
+        if (this.playbackTitle) this.playbackTitle.textContent = `${entry.item.title || '未命名影片'} · ${isIntro ? '影片介绍' : `第 ${this.activePlaybackEpisodeNumber} 集`}`;
+        const content = (episode?.content || '').trim() || (isIntro ? '暂无影片介绍' : '暂无正文。点击选集中的“推进本集”生成剧情。');
+        const episodeSections = isIntro
+            ? `
+                <section class="netflix-playback-content">
+                    <div class="netflix-playback-section-label">影片介绍</div>
+                    <p>${this.escapeHtml(content)}</p>
+                </section>
+            `
+            : `
+                <section class="netflix-playback-fixed">
+                    <div class="netflix-playback-section-label">前情回顾</div>
+                    <p>${this.escapeHtml((episode?.recap || '').trim() || '暂无前情回顾')}</p>
+                </section>
+                <section class="netflix-playback-content">
+                    <div class="netflix-playback-section-label">本集正文</div>
+                    <p>${this.escapeHtml(content)}</p>
+                </section>
+                <section class="netflix-playback-fixed">
+                    <div class="netflix-playback-section-label">本集总结</div>
+                    <p>${this.escapeHtml((episode?.summary || '').trim() || '暂无本集总结')}</p>
+                </section>
+            `;
+        this.playbackBody.innerHTML = `
+            <article class="netflix-playback-reader">
+                ${episodeSections}
+            </article>
+        `;
+        this.playbackBody.scrollTop = 0;
+    }
+
+    openPlaybackEpisodeSidebar() {
+        if (!this.playbackEpisodeSidebar) return;
+        this.renderPlaybackEpisodeSidebar();
+        this.playbackEpisodeSidebar.classList.add('active');
+    }
+
+    closePlaybackEpisodeSidebar() {
+        if (this.playbackEpisodeSidebar) this.playbackEpisodeSidebar.classList.remove('active');
+    }
+
+    renderPlaybackEpisodeSidebar() {
+        if (!this.playbackEpisodeList) return;
+        const entry = this.getPlaybackEntry();
+        if (!entry) {
+            this.playbackEpisodeList.innerHTML = '<div class="netflix-record-empty">暂无影片</div>';
+            return;
+        }
+        this.playbackEpisodeList.innerHTML = entry.episodes.map(episode => `
+            <button type="button" class="netflix-episode-item ${Number(episode.number) === Number(this.activePlaybackEpisodeNumber) ? 'active' : ''}" data-episode-number="${episode.number}" aria-label="长按删除">
+                <span>${Number(episode.number) === 0 ? '影片介绍' : `第 ${episode.number} 集`}</span>
+                <em>${Number(episode.number) === 0 ? '介绍' : (episode.summary ? '已总结' : '未总结')}</em>
+            </button>
+        `).join('');
+
+        let pressTimer = null;
+        let isLongPress = false;
+
+        this.playbackEpisodeList.querySelectorAll('.netflix-episode-item').forEach(button => {
+            const parsedNumber = Number(button.getAttribute('data-episode-number'));
+            const nextNumber = Number.isFinite(parsedNumber) ? parsedNumber : 0;
+
+            button.addEventListener('pointerdown', (e) => {
+                if (e.button !== 0 && e.type !== 'touchstart') return;
+                isLongPress = false;
+                
+                // 第 0 集（影片介绍）不允许删除
+                if (nextNumber === 0) return;
+                
+                pressTimer = setTimeout(() => {
+                    isLongPress = true;
+                    if (window.confirm(`确定要删除播放中的 第 ${nextNumber} 集 吗？这也会从原作品中同步移除。`)) {
+                        this.deletePlaybackEpisode(nextNumber);
+                    }
+                }, 600);
+            });
+
+            button.addEventListener('pointerup', () => {
+                if (pressTimer) clearTimeout(pressTimer);
+                if (!isLongPress) {
+                    const latest = this.getPlaybackEntry();
+                    if (latest) {
+                        latest.activeEpisodeNumber = nextNumber;
+                        this.savePlaybackEntry(latest);
+                        this.saveNetflixState();
+                    }
+                    this.activePlaybackEpisodeNumber = nextNumber;
+                    this.renderPlaybackWindow();
+                    this.renderPlaybackEpisodeSidebar();
+                    this.closePlaybackEpisodeSidebar();
+                }
+            });
+
+            button.addEventListener('pointerleave', () => {
+                if (pressTimer) clearTimeout(pressTimer);
+            });
+            button.addEventListener('pointercancel', () => {
+                if (pressTimer) clearTimeout(pressTimer);
+            });
+        });
+    }
+
+    deletePlaybackEpisode(numberToDelete) {
+        const entry = this.getPlaybackEntry();
+        if (!entry || !entry.episodes) return;
+        
+        // 至少要保留第0集介绍和第1集
+        const normalEpisodes = entry.episodes.filter(ep => Number(ep.number) > 0);
+        if (normalEpisodes.length <= 1) {
+            if (typeof window.showToast === 'function') window.showToast('这是最后一集，无法删除');
+            return;
+        }
+
+        // 删除目标集数，并重新编号（忽略第 0 集）
+        entry.episodes = entry.episodes.filter(ep => Number(ep.number) !== numberToDelete);
+        
+        let counter = 1;
+        entry.episodes.forEach(ep => {
+            if (Number(ep.number) > 0) {
+                ep.number = counter;
+                counter++;
+            }
+        });
+
+        // 调整活动集数
+        const maxNumber = counter - 1;
+        if (this.activePlaybackEpisodeNumber > maxNumber) {
+            this.activePlaybackEpisodeNumber = maxNumber;
+        } else if (this.activePlaybackEpisodeNumber === numberToDelete) {
+            this.activePlaybackEpisodeNumber = Math.max(1, numberToDelete - 1);
+        }
+        
+        entry.activeEpisodeNumber = this.activePlaybackEpisodeNumber;
+        
+        this.savePlaybackEntry(entry);
+        
+        const sourceWork = this.syncPlaybackEntryToSourceWork(entry);
+
+        this.saveNetflixState();
+        this.renderPlaybackWindow();
+        this.renderPlaybackEpisodeSidebar();
+        
+        // 如果当前作品详情页开着，也要同步更新
+        if (this.workDetailSheet && this.workDetailSheet.classList.contains('active') && String(this.activeDetailWorkId) === String(entry.id)) {
+            const updatedWork = sourceWork || this.normalizeWork({ ...entry.item, episodes: entry.episodes.filter(ep => Number(ep.number) > 0), episodeCount: maxNumber, isCatalogItem: true }, entry.id);
+            this.renderWorkDetail(updatedWork);
+        }
+        
+        if (typeof window.showToast === 'function') window.showToast(`已删除并同步原作品`);
+    }
+
+    openPlaybackPresetSidebar() {
+        if (!this.playbackPresetSidebar) return;
+        this.renderPlaybackPresetSidebar();
+        this.playbackPresetSidebar.classList.add('active');
+    }
+
+    closePlaybackPresetSidebar() {
+        if (this.playbackPresetSidebar) this.playbackPresetSidebar.classList.remove('active');
+        this.activePlaybackPresetEditorKey = null;
+        this.playbackPresetDraft = null;
+    }
+
+    togglePlaybackPresetEditor(categoryKey, itemId, switchKey) {
+        if (this.activePlaybackPresetEditorKey === switchKey) {
+            this.activePlaybackPresetEditorKey = null;
+            this.playbackPresetDraft = null;
+            this.renderPlaybackPresetSidebar();
+            return;
+        }
+
+        const preset = this.getActivePreset();
+        const item = (preset.itemsByCategory?.[categoryKey] || []).find(candidate => String(candidate.id) === String(itemId));
+        if (!item) return;
+
+        this.activePlaybackPresetEditorKey = switchKey;
+        if ((item.key || item.id) === 'wordCount') {
+            const range = this.parsePresetWordCount(item.value || '500-800');
+            this.playbackPresetDraft = { categoryKey, itemId, min: range.min, max: range.max };
+        } else {
+            this.playbackPresetDraft = { categoryKey, itemId, value: item.value || '' };
+        }
+        this.renderPlaybackPresetSidebar();
+    }
+
+    renderPlaybackPresetEditor(item) {
+        const draft = this.playbackPresetDraft;
+        if (!draft) return '';
+        const isWordCount = (item.key || item.id) === 'wordCount';
+        const fields = isWordCount
+            ? `
+                <div class="netflix-rps-range">
+                    <label>
+                        <span>最少字数</span>
+                        <input type="number" min="1" step="1" value="${this.escapeAttr(draft.min)}" data-preset-field="min">
+                    </label>
+                    <label>
+                        <span>最多字数</span>
+                        <input type="number" min="1" step="1" value="${this.escapeAttr(draft.max)}" data-preset-field="max">
+                    </label>
+                </div>
+            `
+            : `<textarea class="netflix-rps-editor-textarea" data-preset-field="value" aria-label="编辑${this.escapeAttr(item.label || '预设')}" placeholder="输入${this.escapeAttr(item.label || '预设')}内容">${this.escapeHtml(draft.value || '')}</textarea>`;
+
+        return `
+            <div class="netflix-rps-editor">
+                ${fields}
+                <div class="netflix-rps-editor-actions">
+                    <button type="button" class="netflix-rps-editor-cancel">取消</button>
+                    <button type="button" class="netflix-rps-editor-save">保存</button>
+                </div>
+            </div>
+        `;
+    }
+
+    savePlaybackPresetEditor() {
+        const draft = this.playbackPresetDraft;
+        if (!draft) return;
+        const preset = this.getActivePreset();
+        const item = (preset.itemsByCategory?.[draft.categoryKey] || []).find(candidate => String(candidate.id) === String(draft.itemId));
+        if (!item) return;
+
+        if ((item.key || item.id) === 'wordCount') {
+            const min = Math.floor(Number(draft.min));
+            const max = Math.floor(Number(draft.max));
+            if (!Number.isFinite(min) || !Number.isFinite(max) || min < 1 || max < 1) {
+                if (typeof window.showToast === 'function') window.showToast('字数必须为正整数');
+                return;
+            }
+            item.value = this.formatPresetWordCount(`${min}-${max}`);
+        } else {
+            const value = String(draft.value || '').trim();
+            if (!value) {
+                if (typeof window.showToast === 'function') window.showToast('预设内容不能为空');
+                return;
+            }
+            item.value = value;
+        }
+
+        this.savePresetState();
+        this.activePlaybackPresetEditorKey = null;
+        this.playbackPresetDraft = null;
+        this.renderPlaybackPresetSidebar();
+        if (typeof window.showToast === 'function') window.showToast('预设已保存');
+    }
+
+    renderPlaybackPresetSidebar() {
+        if (!this.playbackPresetBody) return;
+        const entry = this.getPlaybackEntry();
+        if (!entry) {
+            this.playbackPresetBody.innerHTML = '<div style="color:#888;font-size:14px;text-align:center;">暂无影片</div>';
+            return;
+        }
+        const preset = this.getActivePreset();
+        const definitions = this.getPresetDefinitions();
+        const defaultOffKeys = this.getDefaultOffPresetKeys();
+        
+        const html = this.getPresetCategoryOrder().map(categoryKey => {
+            const category = definitions[categoryKey];
+            if (!category) return '';
+            
+            const items = preset.itemsByCategory[categoryKey] || [];
+            if (items.length === 0) return '';
+            
+            const itemsHtml = items.map(item => {
+                const switchKey = `${categoryKey}:${item.id}`;
+                const saved = preset.switchState?.[switchKey];
+                const isActive = typeof saved === 'boolean' ? saved : !defaultOffKeys.has(item.key || item.id);
+                const isExpanded = this.activePlaybackPresetEditorKey === switchKey;
+                return `
+                <div class="netflix-rps-item-shell ${isExpanded ? 'expanded' : ''}">
+                    <div class="netflix-rps-item">
+                        <button type="button" class="netflix-rps-item-toggle" data-category="${this.escapeAttr(categoryKey)}" data-item-id="${this.escapeAttr(item.id)}" data-switch-key="${this.escapeAttr(switchKey)}" aria-expanded="${isExpanded}">
+                            <span class="netflix-rps-item-label">${this.escapeHtml(item.label || '未命名')}</span>
+                            <i class="fas fa-chevron-down netflix-rps-item-chevron"></i>
+                        </button>
+                        <button type="button" class="netflix-rps-switch ${isActive ? 'active' : ''}" role="switch" aria-checked="${isActive}" aria-label="启用${this.escapeAttr(item.label || '预设')}" data-switch-key="${this.escapeAttr(switchKey)}"></button>
+                    </div>
+                    ${isExpanded ? this.renderPlaybackPresetEditor(item) : ''}
+                </div>
+            `;
+            }).join('');
+
+            return `
+                <div class="netflix-rps-category">
+                    <h4>${category.label}</h4>
+                    ${itemsHtml}
+                </div>
+            `;
+        }).join('');
+        
+        this.playbackPresetBody.innerHTML = html || '<div style="color:#888;font-size:14px;text-align:center;">暂无预设条目</div>';
+
+        this.playbackPresetBody.querySelectorAll('.netflix-rps-item-toggle').forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                this.togglePlaybackPresetEditor(
+                    toggle.getAttribute('data-category'),
+                    toggle.getAttribute('data-item-id'),
+                    toggle.getAttribute('data-switch-key')
+                );
+            });
+        });
+        
+        this.playbackPresetBody.querySelectorAll('.netflix-rps-switch').forEach(switchEl => {
+            switchEl.addEventListener('click', event => {
+                event.stopPropagation();
+                switchEl.classList.toggle('active');
+                switchEl.setAttribute('aria-checked', String(switchEl.classList.contains('active')));
+                if (!preset.switchState) preset.switchState = {};
+                preset.switchState[switchEl.getAttribute('data-switch-key')] = switchEl.classList.contains('active');
+                this.savePresetState();
+            });
+        });
+
+        this.playbackPresetBody.querySelectorAll('[data-preset-field]').forEach(input => {
+            input.addEventListener('input', () => {
+                if (!this.playbackPresetDraft) return;
+                this.playbackPresetDraft[input.getAttribute('data-preset-field')] = input.value;
+            });
+        });
+
+        this.playbackPresetBody.querySelector('.netflix-rps-editor-cancel')?.addEventListener('click', () => {
+            this.activePlaybackPresetEditorKey = null;
+            this.playbackPresetDraft = null;
+            this.renderPlaybackPresetSidebar();
+        });
+        this.playbackPresetBody.querySelector('.netflix-rps-editor-save')?.addEventListener('click', () => this.savePlaybackPresetEditor());
+    }
+
+    openPlaybackCastSheet() {
+        const entry = this.getPlaybackEntry();
+        if (!entry) return;
+        const episode = entry.episodes.find(item => Number(item.number) === Number(this.activePlaybackEpisodeNumber)) || entry.episodes[0];
+        if (episode && (!Array.isArray(episode.cast) || !episode.cast.length)) {
+            const previous = entry.episodes
+                .filter(item => Number(item.number) < Number(episode.number) && Number(item.number) >= 0 && Array.isArray(item.cast) && item.cast.length)
+                .slice(-1)[0];
+            episode.cast = previous ? previous.cast.map(actor => ({ ...actor, id: this.createPresetId('cast') })) : this.createDefaultPlaybackCast();
+            this.savePlaybackEntry(entry);
+            this.syncPlaybackEntryToSourceWork(entry);
+            this.saveNetflixState();
+        }
+        this.renderPlaybackCastSheet();
+        if (this.playbackCastSheet) this.playbackCastSheet.classList.add('active');
+    }
+
+    closePlaybackCastSheet() {
+        if (this.playbackCastSheet) this.playbackCastSheet.classList.remove('active');
+    }
+
+    renderPlaybackCastSheet() {
+        if (!this.playbackCastList) return;
+        const entry = this.getPlaybackEntry();
+        const episode = this.getActivePlaybackEpisode();
+        if (!entry || !episode) {
+            this.playbackCastList.innerHTML = '<div class="netflix-actor-empty">暂无影片</div>';
+            return;
+        }
+        const cast = Array.isArray(episode.cast) ? episode.cast : [];
+        this.playbackCastList.innerHTML = cast.length ? cast.map(actor => `
+            <div class="netflix-playback-cast-item" data-cast-id="${this.escapeHtml(actor.id)}">
+                <button type="button" class="netflix-cast-avatar netflix-playback-cast-avatar" aria-label="更换头像">
+                    ${actor.avatar ? `<img src="${this.escapeAttr(actor.avatar)}" alt="">` : `<span>${this.escapeHtml((actor.realName || actor.name || '?').charAt(0))}</span>`}
+                    <i class="fas fa-camera"></i>
+                </button>
+                <input type="file" class="netflix-playback-cast-avatar-input" accept="image/*">
+                <div class="netflix-cast-meta">
+                    <label>
+                        <span>名字</span>
+                        <input type="text" data-field="realName" value="${this.escapeHtml(actor.realName || '')}" placeholder="演员名">
+                    </label>
+                    <label>
+                        <span>饰演</span>
+                        <input type="text" data-field="roleName" value="${this.escapeHtml(actor.roleName || '')}" placeholder="角色名">
+                    </label>
+                    <label>
+                        <span>人设</span>
+                        <textarea data-field="rolePersona" placeholder="角色人设">${this.escapeHtml(actor.rolePersona || '')}</textarea>
+                    </label>
+                </div>
+                <button type="button" class="netflix-playback-cast-delete" aria-label="删除主演"><i class="fas fa-times"></i></button>
+            </div>
+        `).join('') : '<div class="netflix-actor-empty">暂无本集主演</div>';
+
+        this.playbackCastList.querySelectorAll('[data-field]').forEach(input => {
+            input.addEventListener('input', () => {
+                const row = input.closest('.netflix-playback-cast-item');
+                const actorId = row?.getAttribute('data-cast-id');
+                const field = input.getAttribute('data-field');
+                this.updatePlaybackCastMember(actorId, field, input.value);
+            });
+        });
+        this.playbackCastList.querySelectorAll('.netflix-playback-cast-avatar').forEach(button => {
+            button.addEventListener('click', () => {
+                const input = button.closest('.netflix-playback-cast-item')?.querySelector('.netflix-playback-cast-avatar-input');
+                input?.click();
+            });
+        });
+        this.playbackCastList.querySelectorAll('.netflix-playback-cast-avatar-input').forEach(input => {
+            input.addEventListener('change', () => {
+                const actorId = input.closest('.netflix-playback-cast-item')?.getAttribute('data-cast-id');
+                this.handlePlaybackCastAvatarFile(actorId, input);
+            });
+        });
+        this.playbackCastList.querySelectorAll('.netflix-playback-cast-delete').forEach(button => {
+            button.addEventListener('click', () => {
+                const actorId = button.closest('.netflix-playback-cast-item')?.getAttribute('data-cast-id');
+                this.deletePlaybackCastMember(actorId);
+            });
+        });
+    }
+
+    addPlaybackCastMember() {
+        const entry = this.getPlaybackEntry();
+        const episode = this.getActivePlaybackEpisode();
+        if (!entry || !episode) return;
+        if (!Array.isArray(episode.cast)) episode.cast = [];
+        episode.cast.push({
+            id: this.createPresetId('cast'),
+            realName: '新主演',
+            name: '新主演',
+            roleName: '新角色',
+            rolePersona: '',
+            avatar: ''
+        });
+        const stored = this.getPlaybackEntry();
+        const storedEpisode = stored?.episodes.find(item => Number(item.number) === Number(episode.number));
+        if (storedEpisode) storedEpisode.cast = episode.cast;
+        const latest = stored || entry;
+        this.savePlaybackEntry(latest);
+        this.syncPlaybackEntryToSourceWork(latest);
+        this.saveNetflixState();
+        this.renderPlaybackCastSheet();
+    }
+
+    updatePlaybackCastMember(actorId, field, value) {
+        const entry = this.getPlaybackEntry();
+        const episode = this.getActivePlaybackEpisode();
+        if (!entry || !episode || !actorId || !field) return;
+        const target = episode.cast?.find(actor => String(actor.id) === String(actorId));
+        if (!target || !['realName', 'roleName', 'rolePersona'].includes(field)) return;
+        target[field] = value;
+        if (field === 'realName') target.name = value;
+        const stored = this.getPlaybackEntry();
+        const storedEpisode = stored?.episodes.find(item => Number(item.number) === Number(episode.number));
+        if (storedEpisode) storedEpisode.cast = episode.cast;
+        const latest = stored || entry;
+        this.savePlaybackEntry(latest);
+        this.syncPlaybackEntryToSourceWork(latest);
+        this.saveNetflixState();
+    }
+
+    handlePlaybackCastAvatarFile(actorId, input) {
+        const file = input?.files?.[0];
+        if (!file || !actorId) return;
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            const avatar = event.target?.result;
+            if (!avatar) return;
+            const entry = this.getPlaybackEntry();
+            const episode = this.getActivePlaybackEpisode();
+            if (!entry || !episode) return;
+            const target = episode.cast?.find(actor => String(actor.id) === String(actorId));
+            if (!target) return;
+            target.avatar = String(avatar);
+            const stored = this.getPlaybackEntry();
+            const storedEpisode = stored?.episodes.find(item => Number(item.number) === Number(episode.number));
+            if (storedEpisode) storedEpisode.cast = episode.cast;
+            const latest = stored || entry;
+            this.savePlaybackEntry(latest);
+            this.syncPlaybackEntryToSourceWork(latest);
+            this.saveNetflixState();
+            this.renderPlaybackCastSheet();
+        };
+        reader.readAsDataURL(file);
+        input.value = '';
+    }
+
+    deletePlaybackCastMember(actorId) {
+        const entry = this.getPlaybackEntry();
+        const episode = this.getActivePlaybackEpisode();
+        if (!entry || !episode || !actorId) return;
+        episode.cast = (episode.cast || []).filter(actor => String(actor.id) !== String(actorId));
+        const stored = this.getPlaybackEntry();
+        const storedEpisode = stored?.episodes.find(item => Number(item.number) === Number(episode.number));
+        if (storedEpisode) storedEpisode.cast = episode.cast;
+        const latest = stored || entry;
+        this.savePlaybackEntry(latest);
+        this.syncPlaybackEntryToSourceWork(latest);
+        this.saveNetflixState();
+        this.renderPlaybackCastSheet();
+    }
+
+    openPlaybackNextModal(actionType = 'advance') {
+        if (!this.getPlaybackEntry()) return;
+        this.currentPlaybackModalAction = actionType;
+        if (this.playbackNextInput) {
+            this.playbackNextInput.value = '';
+            this.playbackNextInput.placeholder = actionType === 'advance' 
+                ? '输入接下来本集剧情的发展方向，可留空自由推进...' 
+                : '（可选）输入对整个这一集的杀青补充设定，即将生成前情回顾与评论区...';
+        }
+        const titleEl = this.playbackNextModal?.querySelector('.netflix-record-modal-title');
+        if (titleEl) {
+            titleEl.textContent = actionType === 'advance' ? '推进本集' : '完成本集并开启下一集';
+        }
+        if (this.playbackNextModal) this.playbackNextModal.classList.add('active');
+        setTimeout(() => this.playbackNextInput?.focus(), 0);
+    }
+
+    handlePlaybackModalConfirm() {
+        if (this.currentPlaybackModalAction === 'advance') {
+            this.generateAdvancePlaybackEpisode();
+        } else {
+            this.generateNextPlaybackEpisode();
+        }
+    }
+
+    closePlaybackNextModal(force = false) {
+        if (this.isPlaybackNextLoading && !force) return;
+        if (this.playbackNextModal) this.playbackNextModal.classList.remove('active');
+    }
+
+    setPlaybackNextLoading(isLoading) {
+        this.isPlaybackNextLoading = !!isLoading;
+        if (this.playbackNextInput) this.playbackNextInput.disabled = this.isPlaybackNextLoading;
+        if (this.playbackNextClose) this.playbackNextClose.disabled = this.isPlaybackNextLoading;
+        if (this.playbackNextConfirm) {
+            this.playbackNextConfirm.disabled = this.isPlaybackNextLoading;
+            this.playbackNextConfirm.innerHTML = this.isPlaybackNextLoading
+                ? '<i class="fas fa-spinner fa-spin"></i> 生成中'
+                : '确定';
+        }
+    }
+
+    getPlaybackPresetContext(entry) {
+        return this.getGlobalPresetContext();
+    }
+
+    getGlobalPresetContext() {
+        const preset = this.getActivePreset();
+        const definitions = this.getPresetDefinitions();
+        const defaultOffKeys = this.getDefaultOffPresetKeys();
+        const lines = [];
+        this.getPresetCategoryOrder().forEach(categoryKey => {
+            const category = definitions[categoryKey];
+            const items = preset.itemsByCategory[categoryKey] || [];
+            items.forEach(item => {
+                const switchKey = `${categoryKey}:${item.id}`;
+                const saved = preset.switchState?.[switchKey];
+                const isActive = typeof saved === 'boolean' ? saved : !defaultOffKeys.has(item.key || item.id);
+                if (isActive && item.value) {
+                    lines.push(this.formatPresetContextLine(item, category?.label || categoryKey));
+                }
+            });
+        });
+        return lines.join('\n');
+    }
+
+    formatPresetContextLine(item, categoryLabel = '') {
+        if ((item.key || item.id) === 'wordCount') {
+            return `字数要求：${this.formatPresetWordCount(item.value)}字`;
+        }
+        return `[${categoryLabel} / ${item.label || '未命名'}] ${item.value}`;
+    }
+
+    getPresetWordCountText(preset = this.getActivePreset()) {
+        const item = (preset?.itemsByCategory?.length || preset?.itemsByCategory?.narration || [])
+            .find(candidate => (candidate.key || candidate.id) === 'wordCount');
+        return `${this.formatPresetWordCount(item?.value || '500-800')}字`;
+    }
+
+    getPlaybackWordCountText(entry) {
+        return this.getPresetWordCountText(this.getActivePreset(), entry);
+    }
+
+    createPlaybackAdvancePrompt(entry, currentEpisode, direction) {
+        const work = entry.item || {};
+        const tags = Array.isArray(work.tags) && work.tags.length ? work.tags.join('、') : '无';
+        const cast = Array.isArray(currentEpisode.cast) ? currentEpisode.cast : [];
+        const isIntro = Number(currentEpisode.number) === 0;
+        const wordCountText = this.getPlaybackWordCountText(entry);
+        const castText = cast.length
+            ? cast.map(actor => `- ${actor.realName || actor.name || '未知'} 饰 ${actor.roleName || actor.name || '未知'}${actor.rolePersona ? `\n  人设: ${actor.rolePersona}` : ''}`).join('\n')
+            : '无';
+        const worldBookContext = this.getMountedWorldBookContext();
+        const presetContext = this.getPlaybackPresetContext(entry);
+        return `【系统提示】
+你正在为 Netflix 生成影片播放页创作本集的后续正文内容。请以电影感、小说叙事的方式写作，直接推进当前集的剧情。
+
+${worldBookContext ? `【世界书】\n${worldBookContext}\n\n` : ''}【作品信息】
+作品名: ${work.title || '未命名影片'}
+分类: ${work.category || '未知'}
+标签: ${tags}
+简介: ${work.summary || '无'}
+
+【本集出场主演】
+${castText}
+
+${presetContext ? `【启用的预设】\n${presetContext}\n\n` : ''}${isIntro ? '【影片介绍】' : '【本集前情回顾】'}
+${isIntro ? (currentEpisode.content || work.summary || '无') : (currentEpisode.recap || '无')}
+
+【本集已有正文】
+${currentEpisode.content || '暂无内容，请开始撰写本集开局。'}
+
+【用户输入的接下来剧情走向】
+${direction || '无，允许自由推进。'}
+
+【任务】
+请续写本集正文，需要满足字数要求：${wordCountText}。请严格返回 JSON 格式，不要包含 Markdown 标记或多余的解释说明：
+{
+  "content": "电影感正文的续写部分，${wordCountText}"
+}`;
+    }
+
+    async generateAdvancePlaybackEpisode() {
+        if (this.isPlaybackNextLoading) return;
+        const apiConfig = this.getNetflixApiConfig();
+        if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+            if (typeof window.showToast === 'function') window.showToast('请先在设置中配置大模型 API');
+            return;
+        }
+        const entry = this.getPlaybackEntry();
+        const currentEpisode = this.getActivePlaybackEpisode();
+        if (!entry || !currentEpisode) return;
+
+        const direction = (this.playbackNextInput?.value || '').trim();
+        this.setPlaybackNextLoading(true);
+        try {
+            const endpoint = this.resolveChatCompletionsEndpoint(apiConfig.endpoint);
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [{ role: 'user', content: this.createPlaybackAdvancePrompt(entry, currentEpisode, direction) }],
+                    temperature: parseFloat(apiConfig.temperature) || 0.8,
+                    response_format: { type: 'json_object' }
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Request Failed: ${response.status}`);
+            const data = await response.json();
+            const parsed = this.parseJsonFromText(data.choices?.[0]?.message?.content || '');
+            const additionalContent = String(parsed.content || '').trim();
+            if (!additionalContent) throw new Error('Playback advance response is incomplete');
+
+            const latest = this.getPlaybackEntry(entry.id) || entry;
+            const latestCurrent = latest.episodes.find(item => Number(item.number) === Number(currentEpisode.number)) || currentEpisode;
+            
+            // 追加正文
+            latestCurrent.content = latestCurrent.content ? `${latestCurrent.content}\n\n${additionalContent}` : additionalContent;
+
+            this.savePlaybackEntry(latest);
+            const sourceWork = this.syncPlaybackEntryToSourceWork(latest);
+            this.saveNetflixState();
+            this.renderWorks();
+            if (this.workDetailSheet && this.workDetailSheet.classList.contains('active') && String(this.activeDetailWorkId) === String(latest.id)) {
+                const fallbackWork = this.normalizeWork({
+                    ...latest.item,
+                    episodes: this.getSerializablePlaybackEpisodes(latest),
+                    episodeCount: this.getSerializablePlaybackEpisodes(latest).length,
+                    isCatalogItem: true
+                }, latest.id);
+                this.renderWorkDetail(sourceWork || fallbackWork);
+            }
+            this.renderPlaybackWindow();
+            this.closePlaybackNextModal(true);
+            if (typeof window.showToast === 'function') window.showToast('本集剧情已推进');
+        } catch (error) {
+            console.error('Netflix playback advance episode failed:', error);
+            if (typeof window.showToast === 'function') window.showToast('剧情推进失败，请检查 API 或网络');
+        } finally {
+            this.setPlaybackNextLoading(false);
+        }
+    }
+
+    createPlaybackNextPrompt(entry, currentEpisode, direction) {
+        const work = entry.item || {};
+        const tags = Array.isArray(work.tags) && work.tags.length ? work.tags.join('、') : '无';
+        const cast = Array.isArray(currentEpisode.cast) ? currentEpisode.cast : [];
+        const isIntro = Number(currentEpisode.number) === 0;
+        const castText = cast.length
+            ? cast.map(actor => `- ${actor.realName || actor.name || '未知'} 饰 ${actor.roleName || actor.name || '未知'}${actor.rolePersona ? `\n  人设: ${actor.rolePersona}` : ''}`).join('\n')
+            : '无';
+        const worldBookContext = this.getMountedWorldBookContext();
+        return `【系统提示】
+你正在处理一场影视剧集的播放页杀青阶段。请根据以下作品信息、世界观以及本集的完整内容，完成以下两项任务：
+1. 提取本集的核心情节与戏剧张力，用电影级、小说感（第三人称）的叙事风格写一段约 200 字左右的精炼前情回顾，为下一集的开场铺垫悬念和气氛。同时写一段 100 字以内的本集总结。
+2. 扮演不同类型的真实观众（细节党、考据党、CP粉、颜狗、剧情粉、喷子等），针对本集具体情节和人物表现，生成 5 到 10 条主楼评论。每条主楼可附带 0 到 2 条楼中楼回复（replies）。
+   要求：
+   - 字数差异化：有极短的情绪宣泄（如 10 字以内，“啊啊啊绝了！”），也有较长的剧情分析或吐槽（10-30 字左右）。
+   - 强真实感：口语化、玩梗、带点饭圈黑话或网络流行语，必须严格结合剧情内容发散。不要像机器人一样官方点评。
+
+${worldBookContext ? `【世界书】\n${worldBookContext}\n\n` : ''}【作品信息】
+作品名: ${work.title || '未命名影片'}
+分类: ${work.category || '未知'}
+标签: ${tags}
+简介: ${work.summary || '无'}
+
+【本集出场主演】
+${castText}
+
+${isIntro ? '【影片介绍】' : '【本集前情回顾】'}
+${isIntro ? (currentEpisode.content || work.summary || '无') : (currentEpisode.recap || '无')}
+
+【本集完整正文】
+${currentEpisode.content || '无'}
+
+【用户对整集的附加设定说明】
+${direction || '无'}
+
+【任务】
+请严格返回 JSON 格式，不要包含 Markdown 标记或多余解释说明：
+{
+  "summary": "100字内本集总结",
+  "recap": "200字左右的精炼前情回顾，悬念迭起、电影感十足...",
+  "comments": [
+    {
+      "name": "极光追逐者",
+      "text": "天哪这集XX的那个眼神简直绝了！谁懂啊！",
+      "likes": 2304,
+      "replies": [
+        { "name": "吃瓜群众甲", "text": "对对对，我看的时候也尖叫了！", "likes": 128 }
+      ]
+    }
+  ]
+}`;
+    }
+
+    getNextPlaybackEpisodeNumber(entry) {
+        const numbers = (entry?.episodes || [])
+            .map(episode => Number(episode.number))
+            .filter(number => Number.isFinite(number) && number > 0);
+        return numbers.length ? Math.max(...numbers) + 1 : 1;
+    }
+
+    async generateNextPlaybackEpisode() {
+        if (this.isPlaybackNextLoading) return;
+        const apiConfig = typeof window.getApiConfig === 'function' ? window.getApiConfig() : (window.apiConfig || {});
+        if (!apiConfig || !apiConfig.endpoint || !apiConfig.apiKey) {
+            if (typeof window.showToast === 'function') window.showToast('请先在设置中配置大模型 API');
+            return;
+        }
+        const entry = this.getPlaybackEntry();
+        const currentEpisode = this.getActivePlaybackEpisode();
+        if (!entry || !currentEpisode) return;
+
+        const direction = (this.playbackNextInput?.value || '').trim();
+        this.setPlaybackNextLoading(true);
+        try {
+            const endpoint = this.resolveChatCompletionsEndpoint(apiConfig.endpoint);
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiConfig.apiKey}`
+                },
+                body: JSON.stringify({
+                    model: apiConfig.model || 'gpt-3.5-turbo',
+                    messages: [{ role: 'user', content: this.createPlaybackNextPrompt(entry, currentEpisode, direction) }],
+                    temperature: parseFloat(apiConfig.temperature) || 0.8,
+                    response_format: { type: 'json_object' }
+                })
+            });
+
+            if (!response.ok) throw new Error(`API Request Failed: ${response.status}`);
+            const data = await response.json();
+            const parsed = this.parseJsonFromText(data.choices?.[0]?.message?.content || '');
+            const summary = String(parsed.summary || '').trim();
+            const recapText = String(parsed.recap || '').trim();
+            const generatedComments = Array.isArray(parsed.comments) ? parsed.comments : [];
+
+            if (!summary && !recapText) throw new Error('Playback episode finish response is incomplete');
+
+            const latest = this.getPlaybackEntry(entry.id) || entry;
+            const latestCurrent = latest.episodes.find(item => Number(item.number) === Number(currentEpisode.number)) || currentEpisode;
+            
+            // 写入当前集的总结和评论
+            latestCurrent.summary = summary;
+            latestCurrent.comments = generatedComments.map(c => {
+                const replies = Array.isArray(c.replies) ? c.replies.map(r => ({
+                    name: String(r.name || '网友').trim(),
+                    text: String(r.text || r.content || '').trim(),
+                    likes: Number(r.likes) || Math.floor(Math.random() * 50)
+                })).filter(r => r.text) : [];
+                return {
+                    name: String(c.name || '热心网友').trim(),
+                    text: String(c.text || c.content || '').trim(),
+                    likes: Number(c.likes) || Math.floor(Math.random() * 1000),
+                    replies
+                };
+            }).filter(c => c.text);
+
+            // 建立下一集
+            const nextNumber = this.getNextPlaybackEpisodeNumber(latest);
+            const inheritedCast = (latestCurrent.cast && latestCurrent.cast.length ? latestCurrent.cast : this.createDefaultPlaybackCast())
+                .map(actor => ({ ...actor, id: this.createPresetId('cast') }));
+            
+            latest.episodes.push({
+                number: nextNumber,
+                recap: recapText,
+                content: '',
+                summary: '',
+                comments: [],
+                cast: inheritedCast,
+                createdAt: new Date().toISOString()
+            });
+
+            latest.activeEpisodeNumber = nextNumber;
+            this.activePlaybackEpisodeNumber = nextNumber;
+            this.savePlaybackEntry(latest);
+            this.upsertRecentCatalogItem(latest.item);
+            const sourceWork = this.syncPlaybackEntryToSourceWork(latest);
+
+            this.saveNetflixState();
+            this.renderHomeCatalog();
+            this.renderWorks(); // 重新渲染我的作品
+
+            // 如果当前是从详情页打开的，同步更新详情页
+            if (this.workDetailSheet && this.workDetailSheet.classList.contains('active') && String(this.activeDetailWorkId) === String(latest.id)) {
+                const serializableEpisodes = this.getSerializablePlaybackEpisodes(latest);
+                const updatedWork = sourceWork || this.normalizeWork({ ...latest.item, episodes: serializableEpisodes, episodeCount: serializableEpisodes.length, isCatalogItem: true }, latest.id);
+                this.renderWorkDetail(updatedWork);
+            }
+
+            this.renderPlaybackWindow();
+            this.renderPlaybackEpisodeSidebar();
+            this.closePlaybackNextModal(true);
+            if (typeof window.showToast === 'function') window.showToast('本集已结束，生成前情回顾与评论，并进入下一集');
+        } catch (error) {
+            console.error('Netflix playback finish episode failed:', error);
+            if (typeof window.showToast === 'function') window.showToast('完成本集生成失败，请检查 API 或网络');
+        } finally {
+            this.setPlaybackNextLoading(false);
+        }
+    }
+
+    normalizeCatalogWorkForDetail(item) {
+        const catalogItem = this.normalizeCatalogItem(item, item?.id || this.createPresetId('catalog-detail'), item?.category || '');
+        if (!catalogItem) return null;
+        return this.normalizeWork({
+            ...catalogItem,
+            episodeCount: catalogItem.category === '电影' ? 1 : 6,
+            cast: Array.isArray(catalogItem.cast) ? catalogItem.cast : [],
+            comments: [],
+            episodes: [],
+            isCatalogItem: true
+        }, catalogItem.id);
+    }
+
+    closeWorkDetail() {
+        if (this.workDetailSheet) this.workDetailSheet.classList.remove('active');
+        this.activeDetailCatalogOnly = false;
+    }
+
+    renderWorkDetail(work) {
+        if (!this.workDetailContent) return;
+        const tags = [work.category, ...(work.tags || [])].filter(Boolean);
+        const tagText = tags.join(' • ');
+        this.ensureWorkEpisodes(work);
+        const detailEpisodeNumber = this.getDetailEpisodeNumber(work);
+        const detailCommentsCount = this.getEpisodeComments(work, detailEpisodeNumber).length;
+        
+        let castHtml = '';
+        if (work.cast && work.cast.length) {
+            castHtml = `
+                <div class="netflix-wd-cast-scroll">
+                    ${work.cast.map(actor => {
+                        const actorName = actor.realName || actor.name || '未知';
+                        const roleName = actor.roleName || actor.name || '';
+                        const avatarContent = actor.avatar ? `<img src="${this.escapeAttr(actor.avatar)}" alt="">` : this.escapeHtml(actorName.charAt(0));
+                        return `
+                        <div class="netflix-wd-cast-item">
+                            <div class="netflix-wd-cast-avatar">${avatarContent}</div>
+                            <div class="netflix-wd-cast-name">${this.escapeHtml(actorName)}</div>
+                            ${roleName ? `<div class="netflix-wd-cast-role">饰 ${this.escapeHtml(roleName)}</div>` : ''}
+                        </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        } else {
+            castHtml = '<div style="font-size:12px;color:#bcbcbc;margin-bottom:16px;">暂无演员记录</div>';
+        }
+            
+        const isMovie = (work.category || '') === '电影';
+        const epCount = this.parseEpisodeCount(work.episodeCount);
+        const episodesHtml = this.renderEpisodeList(work, isMovie, epCount, detailEpisodeNumber);
+        const commentsHtml = this.renderWorkComments(work, detailEpisodeNumber);
+        
+        // 模拟随机的年份和匹配度
+        const matchScore = Math.floor(Math.random() * (99 - 80) + 80);
+        const year = new Date().getFullYear() - Math.floor(Math.random() * 5);
+
+        this.workDetailContent.innerHTML = `
+            <div class="netflix-wd-hero">
+                ${work.coverUrl ? `<img src="${this.escapeAttr(work.coverUrl)}" alt="">` : '<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#555;font-size:40px;"><i class="fas fa-film"></i></div>'}
+                <div class="netflix-wd-hero-fade"></div>
+                <div class="netflix-wd-close" onclick="window.netflixApp && window.netflixApp.closeWorkDetail()">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="netflix-wd-body">
+                <h2 class="netflix-wd-title">${this.escapeHtml(work.title || '未命名作品')}</h2>
+                
+                <div class="netflix-wd-meta">
+                    <span class="netflix-wd-meta-match">${matchScore}% 匹配</span>
+                    <span>${year}</span>
+                    <span class="netflix-wd-meta-age">16+</span>
+                    <span>${isMovie ? '1 小时 58 分钟' : `${epCount} 集`}</span>
+                    <span class="netflix-wd-meta-hd">HD</span>
+                </div>
+
+                <button class="netflix-wd-btn-play" id="netflix-wd-play-btn"><i class="fas fa-play"></i> 播放</button>
+                <button class="netflix-wd-btn-download"><i class="fas fa-download"></i> 下载</button>
+
+                <p class="netflix-wd-summary">${this.escapeHtml(work.summary || '这是一部精彩的影视作品，讲述了令人着迷的故事，充满反转与惊喜。在追寻真相的路上，主角们经历了重重考验。')}</p>
+                
+                <div class="netflix-wd-cast-tags">
+                    <div style="margin-bottom:8px;">主演：</div>
+                    ${castHtml}
+                    <div>类型：<span>${this.escapeHtml(tagText || '未知')}</span></div>
+                </div>
+
+                <div class="netflix-wd-actions">
+                    <div class="netflix-wd-action-item">
+                        <i class="fas fa-plus"></i>
+                        <span>我的列表</span>
+                    </div>
+                    <div class="netflix-wd-action-item">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>评价</span>
+                    </div>
+                    <div class="netflix-wd-action-item">
+                        <i class="fas fa-share-alt"></i>
+                        <span>分享</span>
+                    </div>
+                </div>
+
+                <div class="netflix-wd-tabs">
+                    <div class="netflix-wd-tab active">相关内容</div>
+                    <div class="netflix-wd-tab">更多影片</div>
+                </div>
+
+                ${!isMovie ? `
+                <div class="netflix-wd-episodes-header">
+                    <select>
+                        <option>第 1 季</option>
+                    </select>
+                </div>
+                ` : ''}
+
+                <div class="netflix-wd-episode-list">
+                    ${episodesHtml}
+                </div>
+
+                <div class="netflix-wd-tabs" style="margin-top: 30px;">
+                    <div class="netflix-wd-tab active">第 ${detailEpisodeNumber} 集评论区 (${detailCommentsCount})</div>
+                </div>
+                <div class="netflix-wd-comments-list">
+                    ${commentsHtml}
+                </div>
+            </div>
+        `;
+
+        this.workDetailContent.querySelectorAll('.netflix-wd-episode-item').forEach(item => {
+            item.addEventListener('click', () => {
+                this.activeDetailEpisodeNumber = Number(item.getAttribute('data-episode-number')) || 1;
+                const latestWork = (this.netflixState.works || []).find(candidate => String(candidate.id) === String(work.id)) || work;
+                this.renderWorkDetail(this.normalizeWork(latestWork, work.id));
+            });
+        });
+        this.workDetailContent.querySelector('#netflix-wd-play-btn')?.addEventListener('click', () => {
+            if (work.isCatalogItem || this.activeDetailCatalogOnly) {
+                this.openPlaybackFromCatalog(work);
+                return;
+            }
+            this.openPlaybackFromWork(work.id, detailEpisodeNumber);
+        });
+    }
+
+    getDetailEpisodeNumber(work) {
+        const episodes = this.ensureWorkEpisodes(work);
+        const max = Math.max(1, episodes.length || 1);
+        return Math.min(Math.max(1, Number(this.activeDetailEpisodeNumber) || 1), max);
+    }
+
+    getEpisodeComments(work, episodeNumber = 1) {
+        this.ensureWorkEpisodes(work);
+        const episode = work.episodes.find(item => Number(item.number) === Number(episodeNumber));
+        const comments = Array.isArray(episode?.comments) ? episode.comments : [];
+        if (Number(episodeNumber) === 1 && comments.length === 0 && Array.isArray(work.comments)) {
+            return work.comments;
+        }
+        return comments;
+    }
+
+    renderEpisodeList(work, isMovie, count, activeEpisodeNumber = 1) {
+        this.ensureWorkEpisodes(work);
+        
+        if (isMovie || count <= 1) {
+            const episode = work.episodes[0] || {};
+            const desc = (episode.summary || episode.recap || episode.content || work.summary || '点击立即播放完整影片。体验沉浸式的视听盛宴。').trim();
+            return `
+                <div class="netflix-wd-episode-item ${Number(activeEpisodeNumber) === 1 ? 'active' : ''}" data-episode-number="1">
+                    <div class="netflix-wd-ep-img">
+                        ${work.coverUrl ? `<img src="${work.coverUrl}" alt="">` : ''}
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <div class="netflix-wd-ep-info">
+                        <div class="netflix-wd-ep-head">
+                            <span class="netflix-wd-ep-title">正片</span>
+                            <span class="netflix-wd-ep-duration">1 小时 58 分钟</span>
+                        </div>
+                        <div class="netflix-wd-ep-desc">${this.escapeHtml(desc)}</div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        return Array.from({ length: count }, (_, i) => {
+            const epNum = i + 1;
+            const episode = work.episodes.find(ep => Number(ep.number) === epNum) || {};
+            const duration = Math.floor(Math.random() * (55 - 42) + 42); // 42-55 minutes
+            const desc = (episode.summary || episode.recap || episode.content || '随着故事的深入，新的线索逐渐浮出水面，角色面临着前所未有的艰难抉择。').trim();
+            
+            return `
+                <div class="netflix-wd-episode-item ${Number(activeEpisodeNumber) === epNum ? 'active' : ''}" data-episode-number="${epNum}">
+                    <div class="netflix-wd-ep-img">
+                        ${work.coverUrl ? `<img src="${work.coverUrl}" alt="">` : ''}
+                        <i class="fas fa-play-circle"></i>
+                        <div class="netflix-progress-bar" style="height: 2px;"><div class="netflix-progress-fill" style="width: ${i === 0 ? '100%' : i === 1 ? '45%' : '0'};"></div></div>
+                    </div>
+                    <div class="netflix-wd-ep-info">
+                        <div class="netflix-wd-ep-head">
+                            <span class="netflix-wd-ep-title">${epNum}. 第 ${epNum} 集</span>
+                            <span class="netflix-wd-ep-duration">${duration} 分钟</span>
+                        </div>
+                        <div class="netflix-wd-ep-desc">${this.escapeHtml(desc)}</div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    renderWorkComments(work, episodeNumber = 1) {
+        const comments = this.getEpisodeComments(work, episodeNumber);
+        if (!comments.length) {
+            return `
+                <div class="netflix-comment-empty">
+                    <i class="far fa-comment-dots"></i>
+                    <p>成为第一个评价的人吧。</p>
+                </div>
+            `;
+        }
+
+        const formatLikes = (num) => {
+            if (num >= 10000) return (num / 10000).toFixed(1) + 'w';
+            if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+            return num;
+        };
+
+        const renderCommentBlock = (comment, isReply = false) => {
+            const avatarSeed = encodeURIComponent(comment.name || 'user');
+            const avatarUrl = `https://api.dicebear.com/7.x/identicon/svg?seed=${avatarSeed}&backgroundColor=transparent`;
+            const likesStr = formatLikes(comment.likes || Math.floor(Math.random() * 100));
+            const timeStr = Math.floor(Math.random() * 24) + '小时前';
+
+            return `
+                <div class="netflix-comment-item ${isReply ? 'is-reply' : ''}">
+                    <div class="netflix-comment-avatar">
+                        <img src="${avatarUrl}" alt="avatar">
+                    </div>
+                    <div class="netflix-comment-main">
+                        <div class="netflix-comment-header">
+                            <span class="netflix-comment-name">${this.escapeHtml(comment.name || '热心网友')}</span>
+                            <span class="netflix-comment-time">${timeStr}</span>
+                        </div>
+                        <div class="netflix-comment-bubble">
+                            <p class="netflix-comment-text">${this.escapeHtml(comment.text || comment.content || '')}</p>
+                        </div>
+                        <div class="netflix-comment-actions">
+                            <button type="button" class="netflix-c-action-btn"><i class="far fa-thumbs-up"></i> ${likesStr}</button>
+                            <button type="button" class="netflix-c-action-btn"><i class="far fa-thumbs-down"></i></button>
+                            <button type="button" class="netflix-c-action-btn"><i class="far fa-comment"></i> 回复</button>
+                            <button type="button" class="netflix-c-action-btn"><i class="fas fa-share"></i></button>
+                        </div>
+                        ${!isReply && comment.replies && comment.replies.length ? `
+                            <div class="netflix-comment-replies">
+                                ${comment.replies.map(reply => renderCommentBlock(reply, true)).join('')}
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        };
+
+        return comments.map(comment => renderCommentBlock(comment, false)).join('');
+    }
+
+    getPresetDefinitions() {
+        return {
+            style: {
+                label: '文风',
+                items: [{ key: 'plainStyle', label: '白描文风', defaultValue: this.getPlainStylePresetText() }]
+            },
+            length: {
+                label: '字数',
+                items: [{ key: 'wordCount', label: '字数要求', defaultValue: '500-800' }]
+            },
+            perspective: {
+                label: '视角',
+                items: [
+                    { key: 'firstPerson', label: '第一人称', defaultValue: this.getFirstPersonPresetText() },
+                    { key: 'secondPerson', label: '第二人称', defaultValue: this.getSecondPersonPresetText() },
+                    { key: 'thirdPerson', label: '第三人称', defaultValue: this.getThirdPersonPresetText() }
+                ]
+            }
+        };
+    }
+
+    getFirstPersonPresetText() {
+        return `
+<第一人称视角规则>
+- 你只能使用“我”的视角进行叙述。“我”即为{{user}}。
+</第一人称视角规则>`.trim();
+    }
+
+    getSecondPersonPresetText() {
+        return `
+<第二人称视角规则>
+- 你只能使用“你”进行叙述。“你”即为{{user}}。
+</第二人称视角规则>`.trim();
+    }
+
+    getThirdPersonPresetText() {
+        return `
+<第三人称视角规则>
+- 只能使用“他/她/它”或具体人名进行叙述。
+- 不得出现“我”或“你”作为叙述者介入内容。
+- 未在场景中发生或角色无法感知的信息，需通过场景内的线索呈现，不得直接抛出全知总结。
+</第三人称视角规则>`.trim();
+    }
+
+    getPlainStylePresetText() {
+        return `
+<文风>
+1. 核心定义
+白描：以最简洁客观的语言描摹事物的可感知形态、动作、空间关系，不添加任何主观修饰、情感解读或修辞。
+
+2. 绝对禁令（出现即违规）
+- 禁用所有修辞手法：比喻、拟人、夸张、排比、反问、象征。
+- 禁用情感形容词与副词（如“孤寂地”“欢快地”），仅允许表示颜色、尺寸、方位等客观属性的词。
+- 禁止心理描写：不得出现“他想”“她感到”“内心涌起”“意识到”“记得”等揭示内心的语句。
+- 禁止主观评价：不得插入作者抒情、议论、解释、总结或价值判断。
+
+3. 必须执行的写作指令
+- 只描写外部可感事物：动作、对话、外貌、环境、声音、气味、光线、温度、质地。只写看得见、听得到、摸得着、闻得到的东西。
+- 以名词和动词为核心，尽量减少“的”“地”“得”及形容词性修饰语。多用单句和短句。
+- 按观察顺序组织内容：由外到内、由远到近、由整体到局部。
+- 通过行动、表情、对话侧写人物状态，禁止直述心理。
+
+4. 模仿范例
+输入（违规）：她拖着疲惫的身子，茫然走在空无一人的长街，路灯把影子拉得好长，像一声叹息。
+输出（白描）：她走在街上。路灯亮着。身后拖着影子。
+
+5. 优先级
+以上规则具有最高优先级。任何描写冲动产生时，必须先用“是否可见/可听/可触”检验，不通过的内容一律删除。
+</文风>`;
+    }
+
+    getDefaultOffPresetKeys() {
+        return new Set(['firstPerson', 'thirdPerson']);
+    }
+
+    getPresetCategoryOrder() {
+        return ['style', 'length', 'perspective'];
+    }
+
+    createPresetId(prefix = 'preset') {
+        return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    }
+
+    createPresetItem(key, label, value = '') {
+        return {
+            id: key || this.createPresetId('item'),
+            key: key || '',
+            label,
+            value
+        };
+    }
+
+    clonePreset(preset) {
+        return JSON.parse(JSON.stringify(preset));
+    }
+
+    createPresetFromDefaults(id = 'default', name = '默认预设', clearValues = true) {
+        const itemsByCategory = {};
+        const switchState = {};
+        const definitions = this.getPresetDefinitions();
+        const defaultOffKeys = this.getDefaultOffPresetKeys();
+
+        this.getPresetCategoryOrder().forEach(categoryKey => {
+            const category = definitions[categoryKey];
+            itemsByCategory[categoryKey] = category.items.map(item => {
+                const presetItem = this.createPresetItem(item.key, item.label, clearValues ? (item.defaultValue || '') : (item.value || item.defaultValue || ''));
+                const switchKey = `${categoryKey}:${presetItem.id}`;
+                switchState[switchKey] = !defaultOffKeys.has(item.key || presetItem.id);
+                return presetItem;
+            });
+        });
+
+        return {
+            id,
+            name,
+            open: {},
+            switchState,
+            itemsByCategory
+        };
+    }
+
+    createDefaultPresetState() {
+        const defaultPreset = this.createPresetFromDefaults('default', '默认预设');
+        return {
+            activePresetId: defaultPreset.id,
+            presets: [defaultPreset]
+        };
+    }
+
+    normalizePreset(preset, fallbackId = 'default') {
+        const safe = preset && typeof preset === 'object' ? preset : {};
+        const normalized = this.createPresetFromDefaults(safe.id || fallbackId, safe.name || '默认预设');
+        normalized.open = safe.open && typeof safe.open === 'object' ? safe.open : {};
+        normalized.switchState = safe.switchState && typeof safe.switchState === 'object' ? safe.switchState : normalized.switchState;
+
+        const definitions = this.getPresetDefinitions();
+        this.getPresetCategoryOrder().forEach(categoryKey => {
+            const legacyCategoryKey = (categoryKey === 'length' || categoryKey === 'perspective') ? 'narration' : categoryKey;
+            const savedItems = Array.isArray(safe.itemsByCategory?.[categoryKey])
+                ? safe.itemsByCategory[categoryKey]
+                : (Array.isArray(safe.itemsByCategory?.[legacyCategoryKey]) ? safe.itemsByCategory[legacyCategoryKey] : []);
+            const defaultItems = definitions[categoryKey].items.map(item => {
+                const legacyKeys = this.getLegacyPresetKeys(item.key);
+                const savedItem = savedItems.find(candidate => candidate.key === item.key || candidate.id === item.key || legacyKeys.includes(candidate.key) || legacyKeys.includes(candidate.id));
+                const savedValue = typeof savedItem?.value === 'string' && savedItem.value.trim() ? savedItem.value : '';
+                const value = savedValue || item.defaultValue || '';
+                return this.createPresetItem(item.key, item.label, item.key === 'wordCount' ? this.formatPresetWordCount(value) : value);
+            });
+            normalized.itemsByCategory[categoryKey] = defaultItems;
+        });
+
+        return normalized;
+    }
+
+    getLegacyPresetKeys() {
+        return [];
+    }
+
+    normalizeDefaultPresetValue(key, value = '') {
+        if (key === 'wordCount') return this.formatPresetWordCount(value);
+        if (key === 'plainStyle' && !String(value || '').trim()) return this.getPlainStylePresetText();
+        if (key === 'firstPerson' && !String(value || '').trim()) return this.getFirstPersonPresetText();
+        if (key === 'secondPerson' && !String(value || '').trim()) return this.getSecondPersonPresetText();
+        if (key === 'thirdPerson' && !String(value || '').trim()) return this.getThirdPersonPresetText();
+        return value || '';
+    }
+
+    parsePresetWordCount(value = '500-800') {
+        const matches = String(value || '').match(/\d+/g) || [];
+        let min = Number(matches[0]) || 500;
+        let max = Number(matches[1]) || min || 800;
+        min = Math.max(1, Math.floor(min));
+        max = Math.max(1, Math.floor(max));
+        if (min > max) [min, max] = [max, min];
+        return { min, max };
+    }
+
+    formatPresetWordCount(value = '500-800') {
+        const { min, max } = this.parsePresetWordCount(value);
+        return `${min}-${max}`;
+    }
+
+    migrateLegacyPresetState(safe) {
+        const preset = this.createPresetFromDefaults('default', safe.name || '默认预设');
+        preset.open = safe.open && typeof safe.open === 'object' ? safe.open : {};
+        preset.switchState = safe.switchState && typeof safe.switchState === 'object' ? safe.switchState : preset.switchState;
+
+        this.getPresetCategoryOrder().forEach(categoryKey => {
+            const legacyCategoryKey = (categoryKey === 'length' || categoryKey === 'perspective') ? 'narration' : categoryKey;
+            const savedCategory = safe.values && typeof safe.values === 'object'
+                ? (safe.values[categoryKey] || safe.values[legacyCategoryKey])
+                : null;
+            if (savedCategory && typeof savedCategory === 'object') {
+                preset.itemsByCategory[categoryKey] = preset.itemsByCategory[categoryKey].map(item => ({
+                    ...item,
+                    value: this.normalizeDefaultPresetValue(item.key, savedCategory[item.key] || this.getLegacyPresetKeys(item.key).map(key => savedCategory[key]).find(Boolean) || item.value || '')
+                }));
+            }
+        });
+
+        return {
+            activePresetId: preset.id,
+            presets: [preset]
+        };
+    }
+
+    normalizePresetState(rawState = null) {
+        const safe = rawState && typeof rawState === 'object' ? rawState : {};
+        if (!Array.isArray(safe.presets) && (safe.values || safe.order || safe.name)) {
+            const migrated = this.migrateLegacyPresetState(safe);
+            const preset = this.normalizePreset(migrated.presets[0], 'default');
+            preset.id = 'default';
+            preset.name = '默认预设';
+            return { activePresetId: 'default', presets: [preset] };
+        }
+
+        const sourcePreset = Array.isArray(safe.presets) && safe.presets.length
+            ? (safe.presets.find(preset => preset?.id === safe.activePresetId) || safe.presets[0])
+            : null;
+        const preset = this.normalizePreset(sourcePreset || this.createPresetFromDefaults('default', '默认预设'), 'default');
+        preset.id = 'default';
+        preset.name = '默认预设';
+        return { activePresetId: 'default', presets: [preset] };
+    }
+
+    loadPresetState() {
+        let rawState = null;
+        try {
+            const hasNetflixDomain = this.hasNetflixDomain();
+            if (hasNetflixDomain && typeof window.getAppState === 'function') {
+                rawState = window.getAppState('netflix')?.presetState || null;
+            }
+            if (!hasNetflixDomain && window.StorageManager && typeof window.StorageManager.load === 'function') {
+                rawState = window.StorageManager.load('u2_netflixPresetState', null);
+            }
+            if (!rawState && !hasNetflixDomain && typeof window.getAppState === 'function') {
+                rawState = window.getAppState('netflix')?.presetState || null;
+            }
+        } catch (error) {
+            console.warn('Failed to load Netflix preset state:', error);
+        }
+        return this.normalizePresetState(rawState);
+    }
+
+    savePresetState() {
+        try {
+            if (typeof window.getAppState === 'function' && typeof window.setAppState === 'function') {
+                const previous = window.getAppState('netflix') || {};
+                window.setAppState('netflix', { ...previous, presetState: this.presetState }, { silent: true });
+            } else if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('u2_netflixPresetState', this.presetState);
+            }
+        } catch (error) {
+            console.warn('Failed to save Netflix preset state:', error);
+        }
+    }
+
+    getActivePreset() {
+        return this.presetState.presets.find(preset => preset.id === this.presetState.activePresetId) || this.presetState.presets[0];
+    }
+
+    escapeHtml(value = '') {
+        return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    escapeAttr(value = '') {
+        return this.escapeHtml(value).replace(/`/g, '&#96;');
+    }
+
+    getUserState() {
+        if (typeof window.getUserState === 'function') return window.getUserState();
+        if (!window.userState || typeof window.userState !== 'object') {
+            window.userState = { name: '', phone: '', persona: '', avatarUrl: null };
+        }
+        return window.userState;
+    }
+
+    getDisplayName(user = this.getUserState()) {
+        return user.name || user.realName || 'User';
+    }
+
+    renderAvatar(container, avatarUrl, sizeClass = '') {
+        if (!container) return;
+        const className = sizeClass ? ` class="${sizeClass}"` : '';
+        if (avatarUrl) {
+            container.innerHTML = `<img src="${avatarUrl}" alt=""${className}>`;
+        } else {
+            container.innerHTML = '<i class="fas fa-user"></i>';
+        }
+    }
+
+    renderUserProfile() {
+        const user = this.getUserState();
+        const name = this.getDisplayName(user);
+        const avatarUrl = user.avatarUrl || user.avatar || '';
+        const followers = user.followers || user.fans || 0;
+        const subscriptions = user.subscriptions || user.subs || 0;
+
+        this.renderAvatar(this.headerAvatar, avatarUrl);
+        this.renderAvatar(this.view.querySelector('#netflix-profile-avatar'), avatarUrl);
+        this.renderAvatar(this.view.querySelector('.netflix-nav-avatar'), avatarUrl);
+
+        const profileName = this.view.querySelector('#netflix-profile-name');
+        const profileFollowers = this.view.querySelector('#netflix-profile-followers');
+        const profileSubs = this.view.querySelector('#netflix-profile-subs');
+        if (profileName) profileName.textContent = name;
+        if (profileFollowers) profileFollowers.textContent = followers;
+        if (profileSubs) profileSubs.textContent = subscriptions;
+    }
+
+    openProfileSheet() {
+        const user = this.getUserState();
+        this.editAvatarDataUrl = user.avatarUrl || user.avatar || '';
+        if (this.editNameInput) this.editNameInput.value = this.getDisplayName(user);
+        if (this.editPersonaInput) this.editPersonaInput.value = user.persona || user.signature || '';
+        this.renderEditAvatar();
+        if (this.profileSheet) this.profileSheet.classList.add('active');
+    }
+
+    closeProfileSheet() {
+        if (this.profileSheet) this.profileSheet.classList.remove('active');
+    }
+
+    renderEditAvatar() {
+        if (!this.editAvatarPreview || !this.editAvatarTrigger) return;
+        const icon = this.editAvatarTrigger.querySelector('i');
+        if (this.editAvatarDataUrl) {
+            this.editAvatarPreview.src = this.editAvatarDataUrl;
+            this.editAvatarPreview.style.display = 'block';
+            if (icon) icon.style.display = 'none';
+        } else {
+            this.editAvatarPreview.removeAttribute('src');
+            this.editAvatarPreview.style.display = 'none';
+            if (icon) icon.style.display = 'block';
+        }
+    }
+
+    handleAvatarFile(event) {
+        const file = event.target.files && event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+            this.editAvatarDataUrl = reader.result || '';
+            this.renderEditAvatar();
+        };
+        reader.readAsDataURL(file);
+        event.target.value = '';
+    }
+
+    saveProfile() {
+        const user = this.getUserState();
+        const nextName = this.editNameInput ? this.editNameInput.value.trim() : '';
+        const nextPersona = this.editPersonaInput ? this.editPersonaInput.value.trim() : '';
+
+        user.name = nextName || 'User';
+        user.persona = nextPersona;
+        user.avatarUrl = this.editAvatarDataUrl || null;
+        window.userState = user;
+
+        this.syncCurrentAccount(user);
+        this.persistUserState(user);
+        this.renderUserProfile();
+        this.closeProfileSheet();
+
+        if (typeof window.showToast === 'function') {
+            window.showToast('资料已保存');
+        }
+    }
+
+    syncCurrentAccount(user) {
+        if (typeof window.getAccounts !== 'function' || typeof window.getCurrentAccountId !== 'function') return;
+        const accounts = window.getAccounts();
+        const currentAccountId = window.getCurrentAccountId();
+        if (!Array.isArray(accounts) || currentAccountId == null) return;
+
+        const account = accounts.find(item => String(item.id) === String(currentAccountId));
+        if (!account) return;
+        account.name = user.name;
+        account.persona = user.persona;
+        account.signature = user.persona;
+        account.avatarUrl = user.avatarUrl;
+    }
+
+    persistUserState(user) {
+        try {
+            if (window.StorageManager && typeof window.StorageManager.save === 'function') {
+                window.StorageManager.save('u2_userState', user);
+                if (typeof window.getAccounts === 'function') {
+                    window.StorageManager.save('u2_accounts', window.getAccounts());
+                }
+            }
+        } catch (error) {
+            console.warn('Failed to persist Netflix user state:', error);
+        }
+
+        if (typeof window.syncUIs === 'function') window.syncUIs();
+        if (typeof window.saveGlobalData === 'function') window.saveGlobalData();
+    }
+
+    switchTab(tabName = 'home') {
+        const activeItem = this.navItems.find(item => item.getAttribute('data-tab') === tabName) || this.navItems[0];
+        if (!activeItem) return;
+
+        this.navItems.forEach(nav => nav.classList.remove('active'));
+        activeItem.classList.add('active');
+
+        this.tabPanels.forEach(panel => {
+            panel.classList.toggle('active', panel.getAttribute('data-panel') === tabName);
+        });
+
+        if (tabName === 'profile' || tabName === 'create') {
+            this.renderUserProfile();
+            this.renderWorks();
+        }
+        if (tabName === 'home') {
+            this.renderHomeCatalog();
+        }
+        if (this.content) this.content.scrollTop = 0;
+        this.updateNavIndicator(activeItem);
+    }
+
+    updateNavIndicator(activeItem = null) {
+        if (!this.navIndicator) return;
+        const target = activeItem || this.view.querySelector('.netflix-nav-item.active');
+        const nav = this.view.querySelector('.netflix-bottom-nav');
+        if (!target || !nav) return;
+
+        const navRect = nav.getBoundingClientRect();
+        const activeRect = target.getBoundingClientRect();
+        const offsetLeft = activeRect.left - navRect.left - 5;
+
+        this.navIndicator.style.width = `${activeRect.width}px`;
+        this.navIndicator.style.transform = `translateX(${offsetLeft}px)`;
+    }
+
+    open() {
+        if (!this.view) return;
+        this.view.style.display = 'flex';
+        this.view.classList.add('active');
+        this.isOpen = true;
+        this.renderUserProfile();
+        this.renderHomeCatalog();
+        this.switchTab('home');
+        setTimeout(() => this.updateNavIndicator(), 0);
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#000000');
+    }
+
+    close() {
+        if (!this.view) return;
+        this.view.classList.remove('active');
+        this.view.style.display = 'none';
+        this.closeProfileSheet();
+        this.closeSettingsSheet();
+        this.closeWorldBookSheet();
+        this.closeHomeSearchSheet(true);
+        this.closeActorPicker();
+        this.closeWorkDetail();
+        this.closePlaybackSheet();
+        this.isOpen = false;
+        document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#ffffff');
+    }
+}
+
+function initializeNetflixApp() {
+    try {
+        window.netflixApp = new NetflixApp();
+        if (window.globalDataReadyPromise && typeof window.globalDataReadyPromise.then === 'function') {
+            window.netflixDataReadyPromise = window.globalDataReadyPromise.then(() => {
+                window.netflixApp?.refreshFromPersistedState();
+                return true;
+            }).catch((error) => {
+                console.warn('Netflix global data recovery failed:', error);
+                return false;
+            });
+        } else {
+            window.netflixDataReadyPromise = Promise.resolve(true);
+        }
+    } catch (error) {
+        document.documentElement.dataset.netflixInitError = error?.stack || error?.message || String(error);
+        console.error('Netflix app initialization failed:', error);
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeNetflixApp);
+} else {
+    initializeNetflixApp();
+}

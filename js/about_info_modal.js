@@ -1,1 +1,47 @@
-(function(_0x5f5a1d,_0x15d737){const _0x4de383=_u2_bb3c4c2c55_0x5ee1,_0xbb15a9=_0x5f5a1d();while(!![]){try{const _0x2f2644=parseInt(_0x4de383(0xb2))/0x1+-parseInt(_0x4de383(0xa6))/0x2*(-parseInt(_0x4de383(0x9b))/0x3)+parseInt(_0x4de383(0x9c))/0x4*(-parseInt(_0x4de383(0xa2))/0x5)+parseInt(_0x4de383(0xab))/0x6*(parseInt(_0x4de383(0xa9))/0x7)+parseInt(_0x4de383(0xa8))/0x8+parseInt(_0x4de383(0xaa))/0x9*(-parseInt(_0x4de383(0xa5))/0xa)+-parseInt(_0x4de383(0xbe))/0xb*(parseInt(_0x4de383(0xb4))/0xc);if(_0x2f2644===_0x15d737)break;else _0xbb15a9['push'](_0xbb15a9['shift']());}catch(_0x30c40c){_0xbb15a9['push'](_0xbb15a9['shift']());}}}(_u2_bb3c4c2c55_0x42f1,0xa72da),(function(){const _0x4e8e90=_u2_bb3c4c2c55_0x5ee1,_0x42867b=document[_0x4e8e90(0xaf)](_0x4e8e90(0xa0)),_0x219e9c=document[_0x4e8e90(0xaf)](_0x4e8e90(0xbf)),_0x57b4db=document[_0x4e8e90(0xaf)](_0x4e8e90(0xb3)),_0x48d8d0=document[_0x4e8e90(0xaf)](_0x4e8e90(0x9f)),_0x184bb6=document['getElementById'](_0x4e8e90(0xa1)),_0x4efb5b=document['getElementById'](_0x4e8e90(0xac));let _0x29ff7b=null,_0x5f10d7='';function _0xed54d2(_0x3cd30c=_0x4e8e90(0xb1)){const _0x205c31=_0x4e8e90;if(!_0x42867b)return![];const _0x1ec675=_0x3cd30c===_0x205c31(0xbd);_0x29ff7b=document[_0x205c31(0x99)];if(_0x219e9c)_0x219e9c['textContent']=_0x1ec675?_0x205c31(0xa3):_0x205c31(0xbc);if(_0x57b4db)_0x57b4db['hidden']=_0x1ec675;if(_0x48d8d0)_0x48d8d0['hidden']=!_0x1ec675;return _0x5f10d7=document[_0x205c31(0xad)]['style'][_0x205c31(0xba)],_0x42867b[_0x205c31(0xb9)]=![],_0x42867b['setAttribute'](_0x205c31(0xae),_0x205c31(0xb8)),document['body'][_0x205c31(0xb7)][_0x205c31(0xba)]=_0x205c31(0xb9),_0x184bb6?.[_0x205c31(0xa7)](),!![];}function _0x468399(){const _0x51f57f=_0x4e8e90;if(!_0x42867b||_0x42867b[_0x51f57f(0xb9)])return![];_0x42867b[_0x51f57f(0xb9)]=!![],_0x42867b[_0x51f57f(0x9a)](_0x51f57f(0xae),_0x51f57f(0xb5)),document['body'][_0x51f57f(0xb7)]['overflow']=_0x5f10d7,_0x5f10d7='';if(_0x29ff7b&&typeof _0x29ff7b[_0x51f57f(0xa7)]==='function')_0x29ff7b[_0x51f57f(0xa7)]();return _0x29ff7b=null,!![];}_0x184bb6?.[_0x4e8e90(0x9d)](_0x4e8e90(0xb6),_0x468399),_0x4efb5b?.[_0x4e8e90(0x9d)]('click',_0x468399),_0x42867b?.[_0x4e8e90(0x9d)](_0x4e8e90(0xb6),_0xbfe880=>{const _0x45f239=_0x4e8e90;if(_0xbfe880[_0x45f239(0xb0)]===_0x42867b)_0x468399();}),document[_0x4e8e90(0x9d)](_0x4e8e90(0x9e),_0x1d504a=>{const _0x23cec1=_0x4e8e90;if(_0x1d504a[_0x23cec1(0xa4)]===_0x23cec1(0xbb)&&_0x42867b&&!_0x42867b['hidden'])_0x468399();}),window['u2AboutInfoModal']={'open':_0xed54d2,'close':_0x468399};}()));function _u2_bb3c4c2c55_0x5ee1(_0x6cae32,_0x1e7883){_0x6cae32=_0x6cae32-0x99;const _0x42f19f=_u2_bb3c4c2c55_0x42f1();let _0x5ee10b=_0x42f19f[_0x6cae32];return _0x5ee10b;}function _u2_bb3c4c2c55_0x42f1(){const _0x20dee5=['about-info-modal','about-info-modal-close','565PLObjO','更新日志','key','1270xYYwdK','4mfIgYd','focus','407760FaNwbs','89075wbInoQ','51615VvyfGZ','312GZJAGG','about-info-modal-confirm','body','aria-hidden','getElementById','target','disclaimer','899670joIOQP','about-disclaimer-content','10056rAHDHv','true','click','style','false','hidden','overflow','Escape','免责声明','changelog','6908ybeGOw','about-info-modal-title','activeElement','setAttribute','1053117qPtlJD','13276jwsFOx','addEventListener','keydown','about-changelog-content'];_u2_bb3c4c2c55_0x42f1=function(){return _0x20dee5;};return _u2_bb3c4c2c55_0x42f1();}
+(function () {
+    const modal = document.getElementById('about-info-modal');
+    const title = document.getElementById('about-info-modal-title');
+    const disclaimerContent = document.getElementById('about-disclaimer-content');
+    const changelogContent = document.getElementById('about-changelog-content');
+    const closeButton = document.getElementById('about-info-modal-close');
+    const confirmButton = document.getElementById('about-info-modal-confirm');
+    let returnFocus = null;
+    let previousBodyOverflow = '';
+
+    function open(mode = 'disclaimer') {
+        if (!modal) return false;
+        const showChangelog = mode === 'changelog';
+        returnFocus = document.activeElement;
+        if (title) title.textContent = showChangelog ? '更新日志' : '免责声明';
+        if (disclaimerContent) disclaimerContent.hidden = showChangelog;
+        if (changelogContent) changelogContent.hidden = !showChangelog;
+        previousBodyOverflow = document.body.style.overflow;
+        modal.hidden = false;
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        closeButton?.focus();
+        return true;
+    }
+
+    function close() {
+        if (!modal || modal.hidden) return false;
+        modal.hidden = true;
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = previousBodyOverflow;
+        previousBodyOverflow = '';
+        if (returnFocus && typeof returnFocus.focus === 'function') returnFocus.focus();
+        returnFocus = null;
+        return true;
+    }
+
+    closeButton?.addEventListener('click', close);
+    confirmButton?.addEventListener('click', close);
+    modal?.addEventListener('click', (event) => {
+        if (event.target === modal) close();
+    });
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && modal && !modal.hidden) close();
+    });
+
+    window.u2AboutInfoModal = { open, close };
+})();
