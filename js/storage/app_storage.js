@@ -2694,9 +2694,13 @@
                         ? Math.max(0.2, Math.min(1, parseFloat(safe.assistiveBallSettings.opacity) > 1
                             ? parseFloat(safe.assistiveBallSettings.opacity) / 100
                             : parseFloat(safe.assistiveBallSettings.opacity)))
-                        : 0.72
+                        : 0.72,
+                    imageUrl: typeof safe.assistiveBallSettings.imageUrl === 'string'
+                        && /^(https?:\/\/|data:image\/png;base64,)/i.test(safe.assistiveBallSettings.imageUrl.trim())
+                        ? safe.assistiveBallSettings.imageUrl.trim()
+                        : ''
                 }
-                : { enabled: false, x: null, y: null, opacity: 0.72 },
+                : { enabled: false, x: null, y: null, opacity: 0.72, imageUrl: '' },
             themeState: themeState || {
                 bgUrl: null,
                 fontMode: 'preset',
