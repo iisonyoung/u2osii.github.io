@@ -307,7 +307,7 @@ test('offline single chat follows the bound account identity and refreshes visib
     assert.match(settingsSource, /window\.imChat\?\.refreshOfflineUserIdentity[\s\S]*?window\.imChat\.refreshOfflineUserIdentity\(friend\)/);
     assert.match(settingsSource, /updateChatBindIdLabel\(window\.imData\.currentSettingsFriend\);[\s\S]*?refreshChatPageForFriend\(window\.imData\.currentSettingsFriend\);/);
     assert.match(html, /offline_reasoning\.js\?v=20260716-reasoning-autoparse-v6/);
-    assert.match(html, /4_chat_sheet\.js\?v=20260716-offline-cot-v5/);
+    assert.match(html, /4_chat_sheet\.js\?v=20260718-ios-pwa-export-v1/);
     assert.match(html, /5_settings\.js\?v=20260716-status-prompt-v3/);
 });
 
