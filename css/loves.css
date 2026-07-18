@@ -1606,7 +1606,11 @@
     font-weight: 750;
 }
 
-.loves-note-action-invite { background: var(--loves-accent); color: #fff; }
+.loves-note-action-invite {
+    background: var(--loves-accent);
+    color: #fff !important;
+    -webkit-text-fill-color: #fff;
+}
 .loves-note-action-enter { background: var(--loves-accent-soft); color: var(--loves-pink-ink); }
 .loves-note-action-invite:active,
 .loves-note-action-enter:active { background: var(--loves-pink); }
