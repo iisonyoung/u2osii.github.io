@@ -148,7 +148,7 @@ test('offline empty or failed generations persist a blank rerollable floor', asy
     assert.match(sheetSource, /persistOfflineMessages\(activeFriend, latestMessages\.concat\(failedMessage\)\)/);
     assert.match(sheetSource, /\$\{!isUser \? '<button[^']+data-offline-action="reroll"/);
     assert.match(sheetSource, /generationState: undefined,[\s\S]{0,100}generationError: undefined/);
-    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260716-status-prompt-v2/);
+    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260718-single-chat-prompt-v2/);
     assert.match(indexSource, /js\/imessage\/offline_reasoning\.js\?v=20260716-reasoning-autoparse-v6/);
     assert.match(indexSource, /js\/imessage\/4_chat_sheet\.js\?v=20260716-offline-cot-v5/);
     assert.match(indexSource, /js\/imessage\/4_chat_(?:interface|main)\.js\?v=20260715-chat-context-menu-offline-retry-v1/g);
