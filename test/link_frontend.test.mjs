@@ -446,6 +446,21 @@ test('applies tuned relationship, personality, and time-gap rules to single and 
     assert.match(aiSource, /\*\*外向\/敏感\*\* ：回复快，主动开启话题并很爱分享感受/);
     assert.match(aiSource, /\*\*内向\/温柔\*\* ：回复偏慢，用词柔软且有分寸/);
     assert.match(aiSource, /现在的时间段是：\$\{currentTimePeriod\}/);
+    assert.match(aiSource, /function buildTemporalDecisionPrompt\(\{ currentTime, lastInteraction, actorLabel \}\)/);
+    assert.match(aiSource, /const isDelayed = gapMs >= 15 \* 60 \* 1000/);
+    assert.match(aiSource, /else if \(gapMs >= 2 \* 60 \* 60 \* 1000\) timeMode = '长时间间隔'/);
+    assert.match(aiSource, /if \(crossedDate\) timeMode = '跨日期'/);
+    assert.match(aiSource, /else if \(crossedPeriod\) timeMode = '跨时间段'/);
+    assert.match(aiSource, /replyResponsibility = `\$\{safeActorLabel\}延迟回复`/);
+    assert.match(aiSource, /else if \(lastInteraction\.role === 'assistant'\) \{[\s\S]*?replyResponsibility = 'User尚未回复'/);
+    assert.match(aiSource, /User 还没有回复上一条消息/);
+    assert.match(aiSource, /可以自然补充上一句话、继续分享身边的事，或问 User 在干嘛/);
+    assert.match(aiSource, /gapMs >= 2 \* 60 \* 60 \* 1000 \? '当前已经超过2小时/);
+    assert.doesNotMatch(aiSource, /replyResponsibility = 'User延迟回复'/);
+    assert.match(aiSource, /场景连续性：\$\{sceneContinuity\}/);
+    assert.match(aiSource, /话题规则：普通闲聊和即时状态跨时间后可以过期/);
+    assert.match(aiSource, /const charTemporalDecisionPrompt = buildTemporalDecisionPrompt/);
+    assert.match(aiSource, /actorLabel: 'Char'/);
     assert.match(aiSource, /\*\*间隔 < 2小时\*\*/);
     assert.match(aiSource, /\*\*间隔 2-8小时\*\*/);
     assert.match(aiSource, /\*\*隔夜（跨越了凌晨）\*\*/);
@@ -456,6 +471,9 @@ test('applies tuned relationship, personality, and time-gap rules to single and 
     assert.match(aiSource, /isSingleChat: true,[\s\S]*?relationship: userRelationship/);
     assert.match(aiSource, /与 User 的关系: \$\{String\(member\.relationship/);
     assert.match(aiSource, /根据群聊最近一次互动距离现在的间隔调整承接方式/);
+    assert.match(aiSource, /const groupTemporalDecisionPrompt = buildTemporalDecisionPrompt/);
+    assert.match(aiSource, /actorLabel: '群成员'/);
+    assert.equal((aiSource.match(/= buildTemporalDecisionPrompt\(\{/g) || []).length, 2);
 
     const singleChatPrompt = aiSource.slice(
         aiSource.indexOf('const singleChatRoleRecallPrompt'),
@@ -464,7 +482,29 @@ test('applies tuned relationship, personality, and time-gap rules to single and 
     assert.match(singleChatPrompt, /用“是\[正确词汇\]”的方式修正/);
     assert.match(singleChatPrompt, /角色: 是餐馆/);
     assert.doesNotMatch(singleChatPrompt, /\*是\[正确词汇\]|角色: \*是餐馆/);
+    assert.match(singleChatPrompt, /recall 对象必须使用 \{"type":"recall","text":"被撤回的原文","translation":"该原文的自然中文翻译或空字符串"\}/);
+    assert.match(singleChatPrompt, /recall\.translation 必须与上一条 text 气泡的 translation 完全一致/);
     assert.match(aiSource, /\$\{friend\.type === 'group' \? `6\. 无论其他附加任务是否能完成/);
+});
+
+test('persists and toggles bilingual recalled-message details', async () => {
+    const [aiSource, coreSource, bubblesSource, indexSource, cssSource] = await Promise.all([
+        fs.readFile(new URL('../js/imessage/4_chat_ai.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/imessage/2_core.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../js/imessage/4_chat_bubbles.js', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../index.html', import.meta.url), 'utf8'),
+        fs.readFile(new URL('../css/imessage.css', import.meta.url), 'utf8')
+    ]);
+
+    assert.equal((aiSource.match(/kind: 'recall',[\s\S]{0,240}?translation:/g) || []).length, 2);
+    assert.match(aiSource, /recalledTranslation: currentItem\.translation \|\| matchedMessage\?\.translation \|\| ''/);
+    assert.match(coreSource, /recalledTranslation: typeof options\.recalledTranslation === 'string'/);
+    assert.match(bubblesSource, /function openRecalledMessageDetail\(content, translation = ''\)/);
+    assert.match(bubblesSource, /openRecalledMessageDetail\(recalledContent, recalledTranslation\)/);
+    assert.match(indexSource, /id="recalled-message-detail-translate"/);
+    assert.match(indexSource, /id="recalled-message-detail-translation"/);
+    assert.match(cssSource, /\.recalled-message-detail-translate/);
+    assert.match(cssSource, /\.recalled-message-detail-translation/);
 });
 
 test('prioritizes complete chat bubbles and places temporal context immediately before the response trigger', async () => {
@@ -539,7 +579,7 @@ test('uses visible keyword-triggered memory recall for single and group chats', 
     assert.match(settingsSource, /summaryPayload\.memoryTags/);
     assert.match(statusSource, /triggerKeywords = window\.imChat\?\.normalizeMemoryTriggerKeywords/);
     assert.match(cssSource, /\.memory-recall-narration-pill/);
-    assert.match(indexSource, /4_chat_ai\.js\?v=20260718-single-chat-prompt-v2/);
+    assert.match(indexSource, /4_chat_ai\.js\?v=20260719-single-chat-prompt-v7/);
     assert.match(indexSource, /4_chat_bubbles\.js\?v=20260713-offline-summary-modal-v3/);
     assert.match(indexSource, /5_settings\.js\?v=20260716-status-prompt-v3/);
 });
@@ -571,7 +611,7 @@ test('uses per-member group languages, content-sized private bubbles, and fresh 
     assert.match(coreSource, /getApiContextFingerprint\(targetMessage\) !== previousContextFingerprint/);
     assert.match(coreSource, /window\.imApp\.clearFriendRuntimeMessageContext\(targetFriend\)/);
     assert.match(indexSource, /js\/imessage\/2_core\.js\?v=20260716-offline-token-v1/);
-    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260718-single-chat-prompt-v2/);
+    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260719-single-chat-prompt-v7/);
     assert.match(indexSource, /js\/imessage\/4_chat_main\.js\?v=20260715-chat-context-menu-offline-retry-v1/);
 });
 
@@ -594,10 +634,15 @@ test('uses stable long-press selection and purges deleted chat context without s
     assert.doesNotMatch(interfaceSource, /batch-forward-btn|batch-star-btn/);
     assert.match(mainSource, /window\.imChat\.enterBatchSelectMode\(activeFriend, row, page\)/);
     assert.match(mainSource, /if \(window\.imData\.batchSelectMode\) return/);
+    assert.match(mainSource, /window\.imApp\.removeFriendMessages\(window\.imData\.currentActiveFriend\.id/);
+    assert.match(interfaceSource, /window\.imApp\.removeFriendMessages[\s\S]*?friend\.id,[\s\S]*?selectedDescriptors/);
 
     assert.match(coreSource, /window\.imChat\.invalidateFriendConversation\(safeFriendId\)/);
+    assert.match(coreSource, /targetFriend\.messages = targetFriend\.messages\.filter/);
     assert.match(coreSource, /removedMessageIds\.has\(replyMessageId\)/);
     assert.match(coreSource, /targetFriend\.memory\.recallPresentation = null/);
+    assert.match(coreSource, /window\.imApp\.clearFriendRuntimeMessageContext\(targetFriend\)/);
+    assert.match(coreSource, /window\.imStorage\.deleteFriendMessages|window\.imStorage\.replaceFriendMessages/);
     assert.match(coreSource, /purgeRegenerateRunSnapshots/);
     assert.match(coreSource, /targetFriend\.messages = previousMessages/);
     assert.match(aiSource, /function purgeRegenerateRunSnapshots/);
@@ -610,5 +655,22 @@ test('uses stable long-press selection and purges deleted chat context without s
     assert.match(narrationRenderer, /row\.className = 'chat-system-row'/);
     assert.doesNotMatch(narrationRenderer, /chat-checkbox-wrapper/);
     assert.match(cssSource, /\.im-chat-cancel-batch-btn\s*\{[\s\S]*?color:\s*#111111/);
-    assert.match(indexSource, /css\/imessage\.css\?v=20260716-status-prompt-v3/);
+    assert.match(indexSource, /css\/imessage\.css\?v=20260719-recalled-translation-v1/);
+});
+
+test('uses balanced stronger obfuscation only for the iMessage AI prompt file', async () => {
+    const buildSource = await fs.readFile(new URL('../tools/build-obfuscate.mjs', import.meta.url), 'utf8');
+
+    assert.match(buildSource, /normalizedName === 'js\/imessage\/4_chat_ai\.js'/);
+    assert.match(buildSource, /const balancedChatAiObfuscatorOptions = \{/);
+    assert.match(buildSource, /controlFlowFlattening: true/);
+    assert.match(buildSource, /controlFlowFlatteningThreshold: 0\.55/);
+    assert.match(buildSource, /stringArrayEncoding: \['base64'\]/);
+    assert.match(buildSource, /stringArrayThreshold: 1/);
+    assert.match(buildSource, /splitStrings: true/);
+    assert.match(buildSource, /splitStringsChunkLength: 6/);
+    assert.match(buildSource, /numbersToExpressions: true/);
+    assert.match(buildSource, /transformObjectKeys: true/);
+    assert.match(buildSource, /\.\.\.getObfuscatorOptionsForSource\(sourceName\)/);
+    assert.match(buildSource, /return obfuscatorOptions;/);
 });
