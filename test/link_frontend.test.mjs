@@ -367,6 +367,14 @@ test('keeps group time awareness, role recall toggle, Chinese generated thoughts
     assert.match(aiSource, /JSON 必须且只能包含字段：thought、affectionChange、events/);
     assert.match(aiSource, /hasCustomStatusPrompt/);
     assert.match(aiSource, /<custom_status_prompt>/);
+    assert.match(aiSource, /thought 的内容必须遵循本轮 <temporal_context>/);
+    assert.match(aiSource, /thought 只输出心声正文，禁止自行添加日期、具体时刻、时间段或任何时间前缀/);
+    assert.match(aiSource, /stripModelThoughtTimePrefix/);
+    assert.match(aiSource, /thought:\s*stripModelThoughtTimePrefix\(parsed\.thought\)/);
+    assert.match(aiSource, /createdAt:\s*Date\.now\(\)/);
+    assert.match(statusSource, /snapshot\.createdAt/);
+    assert.match(statusSource, /createdAt\.toLocaleString\(\)/);
+    assert.doesNotMatch(aiSource, /并在最前面带上当前具体时间/);
     assert.doesNotMatch(aiSource, /thought 必须严格输出空字符串/);
     assert.doesNotMatch(aiSource, /JSON 必须包含字段：thought、location、action、mood、expression/);
     assert.match(aiSource, /memberProfiles\[memberProfileKey\]/);
@@ -579,7 +587,7 @@ test('uses visible keyword-triggered memory recall for single and group chats', 
     assert.match(settingsSource, /summaryPayload\.memoryTags/);
     assert.match(statusSource, /triggerKeywords = window\.imChat\?\.normalizeMemoryTriggerKeywords/);
     assert.match(cssSource, /\.memory-recall-narration-pill/);
-    assert.match(indexSource, /4_chat_ai\.js\?v=20260719-single-chat-prompt-v7/);
+    assert.match(indexSource, /4_chat_ai\.js\?v=20260719-single-chat-prompt-v8/);
     assert.match(indexSource, /4_chat_bubbles\.js\?v=20260713-offline-summary-modal-v3/);
     assert.match(indexSource, /5_settings\.js\?v=20260716-status-prompt-v3/);
 });
@@ -611,7 +619,7 @@ test('uses per-member group languages, content-sized private bubbles, and fresh 
     assert.match(coreSource, /getApiContextFingerprint\(targetMessage\) !== previousContextFingerprint/);
     assert.match(coreSource, /window\.imApp\.clearFriendRuntimeMessageContext\(targetFriend\)/);
     assert.match(indexSource, /js\/imessage\/2_core\.js\?v=20260716-offline-token-v1/);
-    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260719-single-chat-prompt-v7/);
+    assert.match(indexSource, /js\/imessage\/4_chat_ai\.js\?v=20260719-single-chat-prompt-v8/);
     assert.match(indexSource, /js\/imessage\/4_chat_main\.js\?v=20260715-chat-context-menu-offline-retry-v1/);
 });
 
