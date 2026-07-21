@@ -20,7 +20,7 @@ test('Loves acceptance markers are removed before structured chat parsing', asyn
 
 test('the page loads the cache-busted Loves invite parser', async () => {
     const index = await readWorkspaceFile('index.html');
-    assert.match(index, /js\/imessage\/4_chat_ai\.js\?v=20260718-single-chat-prompt-v2/);
+    assert.match(index, /js\/imessage\/4_chat_ai\.js\?v=[^"']*single-chat-prompt-v8/);
 });
 
 test('the black Loves invite button keeps its label white', async () => {

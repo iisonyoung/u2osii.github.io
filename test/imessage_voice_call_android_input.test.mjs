@@ -37,7 +37,7 @@ test('voice call input handlers are removed on reopen and hangup', () => {
 });
 
 test('voice-call script is cache-busted after the Android input change', () => {
-    assert.match(indexSource, /js\/imessage\/4_chat_voice_call\.js\?v=20260718-single-enter-focus-v1/);
+    assert.match(indexSource, /js\/imessage\/4_chat_voice_call\.js\?v=[^"']*focus-stability-v1/);
     assert.ok(indexSource.indexOf('js/mobile_input_compat.js') < indexSource.indexOf('js/imessage/4_chat_voice_call.js'));
 });
 
@@ -53,8 +53,13 @@ test('Android calls follow visualViewport and compact nonessential call chrome',
     assert.match(voiceCallSource, /const layoutAlreadyResized = restingLayoutHeight - layoutHeight > 100/);
     assert.match(voiceCallSource, /const viewportHeight = layoutAlreadyResized \? layoutHeight : visualHeight/);
     assert.match(voiceCallSource, /const viewportTop = layoutAlreadyResized \? 0 :/);
+    assert.match(voiceCallSource, /const keyboardOpen = focused && restingHeight - viewportHeight > 100/);
+    assert.match(voiceCallSource, /if \(!keyboardOpen\) \{[\s\S]*restoreLayout\(shouldScroll\);[\s\S]*return;/);
     assert.match(voiceCallSource, /root\.style\.height = `\$\{viewportHeight\}px`/);
-    assert.match(voiceCallSource, /root\.classList\.toggle\('im-call-keyboard-open', keyboardOpen\)/);
+    assert.match(voiceCallSource, /root\.classList\.add\('im-call-keyboard-open'\)/);
+    assert.match(voiceCallSource, /input\.addEventListener\('focus', handleFocus\)/);
+    assert.match(voiceCallSource, /input\.addEventListener\('blur', handleBlur\)/);
+    assert.doesNotMatch(voiceCallSource, /input\.addEventListener\('focus', applyViewport\)/);
     assert.match(voiceCallSource, /collapseElements: \[infoArea, newActionsRow\]/);
     assert.match(voiceCallSource, /collapseElements: \[avatarsGrid\]/);
 });

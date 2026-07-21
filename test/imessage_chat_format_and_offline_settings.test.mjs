@@ -56,7 +56,7 @@ test('offline prompt settings retain order, expose streaming, and keep reasoning
     assert.match(cssSource, /\.offline-settings-expand-btn \{[\s\S]*border-radius: 50%/);
     assert.match(cssSource, /\.offline-settings-streaming \{/);
     assert.match(cssSource, /\.offline-settings-number-input \{/);
-    assert.match(indexSource, /css\/imessage\.css\?v=20260716-status-prompt-v3/);
+    assert.match(indexSource, /css\/imessage\.css\?v=[^"']*status-prompt-v3/);
 });
 
 test('offline prompts use one global work copy with named preset import and migration', async () => {

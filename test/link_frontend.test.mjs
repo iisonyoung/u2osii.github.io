@@ -362,6 +362,9 @@ test('keeps group time awareness, role recall toggle, Chinese generated thoughts
     assert.match(aiSource, /const lastOfflineMeeting = historyMessages[\s\S]*?msg\.type === 'offline_meeting_record'/);
     assert.match(aiSource, /线下见面与公开消息同样算作一次群聊互动/);
     assert.match(aiSource, /线下见面与线上消息同样算作一次互动/);
+    assert.match(aiSource, /必须先读取本轮已有的 <offline_meeting_context>/);
+    assert.match(aiSource, /“重置当前场景”只能结束见面当时的即时动作和物理场景/);
+    assert.match(aiSource, /不得清除总结中的事实、情绪、约定、未决事项或关系变化/);
     assert.match(aiSource, /lastCharOrMeetingBeforeUser/);
     assert.match(aiSource, /thought 字段必须使用自然中文/);
     assert.match(aiSource, /JSON 必须且只能包含字段：thought、affectionChange、events/);

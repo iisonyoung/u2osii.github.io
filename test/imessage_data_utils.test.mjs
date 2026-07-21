@@ -224,13 +224,24 @@ test('normalizes AI, Loves and manual schedule event shapes without dropping com
     assert.equal(schedule.events[1].endTime, '21:00');
 });
 
-test('parses TXT or DOCX extracted manifest text as name plus URL per line', () => {
-    const parsed = utils.parseStickerManifestText(`开心 https://example.com/happy.png\n晚安猫 https://example.com/cat.webp\ninvalid-line`);
+test('parses sticker manifests with flexible separators while requiring a name and trailing URL', () => {
+    const parsed = utils.parseStickerManifestText([
+        '开心 https://example.com/happy.png',
+        '晚安猫：https://example.com/cat.webp',
+        '挥手 - | ： https://example.com/wave.gif',
+        '无分隔https://example.com/direct.png',
+        'invalid-line',
+        ': https://example.com/missing-name.png',
+        '错误协议 ftp://example.com/nope.png',
+        '多余内容 https://example.com/extra.png trailing'
+    ].join('\n'));
     assert.deepEqual(parsed.items, [
         { name: '开心', url: 'https://example.com/happy.png' },
-        { name: '晚安猫', url: 'https://example.com/cat.webp' }
+        { name: '晚安猫', url: 'https://example.com/cat.webp' },
+        { name: '挥手', url: 'https://example.com/wave.gif' },
+        { name: '无分隔', url: 'https://example.com/direct.png' }
     ]);
-    assert.deepEqual(parsed.invalidLines, [3]);
+    assert.deepEqual(parsed.invalidLines, [5, 6, 7, 8]);
 });
 
 test('ships the full-screen sticker manager, manifest upload, and protected moment content layout', async () => {
