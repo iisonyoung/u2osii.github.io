@@ -9325,7 +9325,7 @@ input:checked + .slider:before {
         linear-gradient(90deg, #f7f7fa 1px, transparent 1px),
         #fcfcfe;
     background-size: auto, 24px 24px, 24px 24px, auto;
-    touch-action: none;
+    touch-action: pan-y;
 }
 
 #relationship-canvas,
@@ -9604,7 +9604,7 @@ input:checked + .slider:before {
 }
 
 .relationship-node {
-    pointer-events: auto;
+    pointer-events: none;
 }
 
 .relationship-node img,

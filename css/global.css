@@ -259,11 +259,10 @@ input, textarea, [contenteditable] {
     background: rgba(28, 28, 30, var(--assistive-ball-opacity));
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: none;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     color: rgba(255, 255, 255, 0.9);
     touch-action: none;
     user-select: none;
+    contain: layout paint;
     transition: opacity 0.2s ease, transform 0.18s ease, background 0.18s ease;
     will-change: transform;
 }
