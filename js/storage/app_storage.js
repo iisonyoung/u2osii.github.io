@@ -1475,6 +1475,10 @@
             payStatus: safe.payStatus,
             claimed: !!safe.claimed,
             imageSource: safe.imageSource,
+            imageProvider: typeof safe.imageProvider === 'string' ? safe.imageProvider : '',
+            imageModel: typeof safe.imageModel === 'string' ? safe.imageModel : '',
+            imageSize: typeof safe.imageSize === 'string' ? safe.imageSize : '',
+            faceReferenceUsed: !!safe.faceReferenceUsed,
             fakeLinkData: safe.fakeLinkData && typeof safe.fakeLinkData === 'object'
                 ? sanitizePersistentValue(cloneDeep(safe.fakeLinkData))
                 : null,
@@ -1603,6 +1607,10 @@
             payStatus: row.payStatus,
             claimed: !!row.claimed,
             imageSource: row.imageSource,
+            imageProvider: row.imageProvider || '',
+            imageModel: row.imageModel || '',
+            imageSize: row.imageSize || '',
+            faceReferenceUsed: !!row.faceReferenceUsed,
             fakeLinkData: row.fakeLinkData && typeof row.fakeLinkData === 'object'
                 ? cloneDeep(row.fakeLinkData)
                 : null,
@@ -1670,7 +1678,8 @@
     const FRIEND_ASSET_FIELDS = [
         ['avatarUrl', 'avatarAssetId'],
         ['chatBg', 'chatBgAssetId'],
-        ['momentsCover', 'momentsCoverAssetId']
+        ['momentsCover', 'momentsCoverAssetId'],
+        ['imageFaceReferenceUrl', 'imageFaceReferenceAssetId']
     ];
 
     async function persistFriendAssets(friend) {
@@ -1723,7 +1732,8 @@
         const mappings = [
             ['avatarAssetId', 'avatarUrl'],
             ['chatBgAssetId', 'chatBg'],
-            ['momentsCoverAssetId', 'momentsCover']
+            ['momentsCoverAssetId', 'momentsCover'],
+            ['imageFaceReferenceAssetId', 'imageFaceReferenceUrl']
         ];
 
         for (const [assetField, urlField] of mappings) {
