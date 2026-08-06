@@ -205,6 +205,7 @@
         const settingsMap = {
             u2_userState: 'userState',
             u2_apiConfig: 'apiConfig',
+            u2_vectorMemoryConfig: 'vectorMemoryConfig',
             u2_minimaxConfig: 'minimaxConfig',
             u2_apiPresets: 'apiPresets',
             u2_fetchedModels: 'fetchedModels',
@@ -1472,6 +1473,13 @@
             senderName: safe.senderName,
             senderAvatarUrl: safe.senderAvatarUrl,
             senderAvatarAssetId: typeof safe.senderAvatarAssetId === 'string' ? safe.senderAvatarAssetId : '',
+            userIdentity: safe.userIdentity && typeof safe.userIdentity === 'object'
+                ? {
+                    accountId: String(safe.userIdentity.accountId || ''),
+                    name: String(safe.userIdentity.name || ''),
+                    avatarUrl: String(safe.userIdentity.avatarUrl || '')
+                }
+                : null,
             packetMsg: safe.packetMsg,
             claims: safe.claims,
             packetCount: safe.packetCount,
@@ -1604,6 +1612,13 @@
             senderName: row.senderName,
             senderAvatarUrl: row.senderAvatarUrl,
             senderAvatarAssetId: row.senderAvatarAssetId || '',
+            userIdentity: row.userIdentity && typeof row.userIdentity === 'object'
+                ? {
+                    accountId: String(row.userIdentity.accountId || ''),
+                    name: String(row.userIdentity.name || ''),
+                    avatarUrl: String(row.userIdentity.avatarUrl || '')
+                }
+                : null,
             packetMsg: row.packetMsg,
             claims: row.claims,
             packetCount: row.packetCount,
@@ -2777,6 +2792,41 @@
                         : 0.7
                 }
                 : { endpoint: '', apiKey: '', model: '', temperature: 0.7 },
+            vectorMemoryConfig: safe.vectorMemoryConfig && typeof safe.vectorMemoryConfig === 'object'
+                ? {
+                    enabled: safe.vectorMemoryConfig.enabled === true,
+                    endpoint: typeof safe.vectorMemoryConfig.endpoint === 'string' ? safe.vectorMemoryConfig.endpoint : '',
+                    apiKey: typeof safe.vectorMemoryConfig.apiKey === 'string' ? safe.vectorMemoryConfig.apiKey : '',
+                    namespace: typeof safe.vectorMemoryConfig.namespace === 'string'
+                        ? safe.vectorMemoryConfig.namespace
+                        : 'imessage',
+                    embeddingModel: typeof safe.vectorMemoryConfig.embeddingModel === 'string'
+                        ? safe.vectorMemoryConfig.embeddingModel
+                        : '',
+                    embeddingDimensions: Number.isFinite(Number(safe.vectorMemoryConfig.embeddingDimensions))
+                        ? Math.max(0, Math.round(Number(safe.vectorMemoryConfig.embeddingDimensions)))
+                        : 0,
+                    embeddingRevision: typeof safe.vectorMemoryConfig.embeddingRevision === 'string'
+                        ? safe.vectorMemoryConfig.embeddingRevision
+                        : '',
+                    topK: Number.isFinite(Number(safe.vectorMemoryConfig.topK))
+                        ? Math.max(1, Math.min(8, Math.round(Number(safe.vectorMemoryConfig.topK))))
+                        : 4,
+                    timeoutMs: Number.isFinite(Number(safe.vectorMemoryConfig.timeoutMs))
+                        ? Math.max(1000, Math.min(30000, Math.round(Number(safe.vectorMemoryConfig.timeoutMs))))
+                        : 6000
+                }
+                : {
+                    enabled: false,
+                    endpoint: '',
+                    apiKey: '',
+                    namespace: 'imessage',
+                    embeddingModel: '',
+                    embeddingDimensions: 0,
+                    embeddingRevision: '',
+                    topK: 4,
+                    timeoutMs: 6000
+                },
             apiPresets: Array.isArray(safe.apiPresets) ? safe.apiPresets : [],
             fetchedModels: Array.isArray(safe.fetchedModels) ? safe.fetchedModels : [],
             assistiveBallSettings: safe.assistiveBallSettings && typeof safe.assistiveBallSettings === 'object'
@@ -2844,6 +2894,7 @@
             setSetting('userState', normalized.userState),
             setSetting('currentAccountId', normalized.currentAccountId),
             setSetting('apiConfig', normalized.apiConfig),
+            setSetting('vectorMemoryConfig', normalized.vectorMemoryConfig),
             setSetting('apiPresets', normalized.apiPresets),
             setSetting('fetchedModels', normalized.fetchedModels),
             setSetting('assistiveBallSettings', normalized.assistiveBallSettings),
@@ -2861,6 +2912,7 @@
             accounts: normalized.accounts,
             currentAccountId: normalized.currentAccountId,
             apiConfig: normalized.apiConfig,
+            vectorMemoryConfig: normalized.vectorMemoryConfig,
             apiPresets: normalized.apiPresets,
             fetchedModels: normalized.fetchedModels,
             assistiveBallSettings: normalized.assistiveBallSettings,
@@ -2881,6 +2933,7 @@
             userState,
             currentAccountId,
             apiConfig,
+            vectorMemoryConfig,
             apiPresets,
             fetchedModels,
             assistiveBallSettings,
@@ -2894,6 +2947,7 @@
             getSetting('userState', null),
             getSetting('currentAccountId', null),
             getSetting('apiConfig', null),
+            getSetting('vectorMemoryConfig', null),
             getSetting('apiPresets', []),
             getSetting('fetchedModels', []),
             getSetting('assistiveBallSettings', { enabled: false }),
@@ -2917,6 +2971,7 @@
                     : (accountsRecord && Array.isArray(accountsRecord.value) ? accountsRecord.value : []),
                 currentAccountId: durableSettings.currentAccountId ?? currentAccountId,
                 apiConfig: durableSettings.apiConfig ?? apiConfig,
+                vectorMemoryConfig: durableSettings.vectorMemoryConfig ?? vectorMemoryConfig,
                 apiPresets: durableSettings.apiPresets ?? apiPresets,
                 fetchedModels: durableSettings.fetchedModels ?? fetchedModels,
                 assistiveBallSettings: durableSettings.assistiveBallSettings ?? assistiveBallSettings,
@@ -3197,6 +3252,7 @@
         const settingsMap = {
             u2_userState: 'userState',
             u2_apiConfig: 'apiConfig',
+            u2_vectorMemoryConfig: 'vectorMemoryConfig',
             u2_minimaxConfig: 'minimaxConfig',
             u2_apiPresets: 'apiPresets',
             u2_fetchedModels: 'fetchedModels',
@@ -3303,6 +3359,7 @@
             accounts: normalized.accounts,
             currentAccountId: normalized.currentAccountId,
             apiConfig: normalized.apiConfig,
+            vectorMemoryConfig: normalized.vectorMemoryConfig,
             apiPresets: normalized.apiPresets,
             fetchedModels: normalized.fetchedModels,
             assistiveBallSettings: normalized.assistiveBallSettings,

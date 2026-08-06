@@ -2429,9 +2429,94 @@ button.group-private-chat-detail-bubble {
     color: #111111;
 }
 
+.vector-memory-config-sheet {
+    width: 100%;
+    max-width: none;
+    max-height: 85%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.vector-memory-config-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 0 6px;
+}
+
+.vector-memory-config-content .vector-memory-api-config {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.vector-memory-api-config > .settings-item {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vector-memory-config-save,
+.vector-memory-config-close {
+    width: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+    min-height: 48px;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.vector-memory-config-save {
+    margin-top: 10px;
+    background: #007aff;
+    color: #ffffff;
+}
+
+.vector-memory-config-close {
+    margin-top: 8px;
+    margin-bottom: calc(12px + env(safe-area-inset-bottom));
+    background: #ffffff;
+    color: #111111;
+}
+
+.vector-memory-model-meta {
+    padding: 0 16px 10px;
+    color: #8e8e93;
+    font-size: 12px;
+    line-height: 1.35;
+    text-align: right;
+}
+
+.vector-memory-number-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.vector-memory-number-row .form-item {
+    min-width: 0;
+}
+
+.vector-memory-number-row .form-item + .form-item {
+    border-left: 1px solid var(--separator-color);
+}
+
+.vector-memory-number-row input {
+    min-width: 0;
+    text-align: right;
+}
+
 @media (max-width: 390px) {
     .chat-memory-autonomous-intervals {
         grid-template-columns: 1fr;
+    }
+
+    .vector-memory-number-row {
+        grid-template-columns: 1fr;
+    }
+
+    .vector-memory-number-row .form-item + .form-item {
+        border-left: none;
+        border-top: 1px solid var(--separator-color);
     }
 }
 
@@ -3587,6 +3672,10 @@ button.group-private-chat-detail-bubble {
     line-height: 1.5;
     word-break: break-word;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.offline-tavern-bubble-text.is-streaming {
+    white-space: pre-wrap;
 }
 
 .offline-tavern-bubble-body {
@@ -5011,6 +5100,11 @@ input:checked + .slider:before {
     font-weight: 600;
     margin-bottom: 30px; /* Push up from bottom edge of avatar */
     text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.moments-user-avatar-wrapper:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
 }
 
 .moments-user-avatar-wrapper {
@@ -7477,6 +7571,13 @@ input:checked + .slider:before {
     overflow: hidden;
 }
 
+/* Match the chat composer on Android where only visualViewport shrinks. */
+.im-theme-config-view.u2-android-theme-viewport-sized {
+    top: var(--u2-android-theme-viewport-top, 0px);
+    bottom: auto;
+    height: var(--u2-android-theme-viewport-height, 100%);
+}
+
 .im-theme-header {
     min-height: calc(58px + env(safe-area-inset-top, 0px));
     padding: calc(env(safe-area-inset-top, 0px) + 10px) 16px 10px;
@@ -7536,7 +7637,7 @@ input:checked + .slider:before {
 
 .im-theme-tabs {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 8px;
     padding: 12px 16px;
     background: rgba(255, 255, 255, 0.96);
@@ -7644,9 +7745,16 @@ input:checked + .slider:before {
 .im-theme-actions,
 .im-theme-save-row {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
     margin-top: 12px;
+}
+
+.im-theme-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.im-theme-save-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .im-theme-actions .sheet-action,
@@ -7667,6 +7775,13 @@ input:checked + .slider:before {
 .im-theme-secondary-action {
     background: #f2f2f7 !important;
     color: #111 !important;
+}
+
+.im-theme-import-action {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
 }
 
 .im-theme-save-action {
@@ -7707,6 +7822,7 @@ input:checked + .slider:before {
     }
 
     .im-theme-tabs {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         padding-left: 12px;
         padding-right: 12px;
         gap: 6px;
