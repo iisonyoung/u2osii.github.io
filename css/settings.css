@@ -1137,6 +1137,7 @@
 .about-changelog-entry small { color: #6c6c70; font-size: 12px; line-height: 1.35; }
 .about-changelog-entry > i { flex: 0 0 auto; color: #c7c7cc; font-size: 13px; }
 .about-changelog-detail { color: #2c2c2e; }
+.about-changelog-detail:focus { outline: none; }
 .about-changelog-detail[hidden],
 #about-changelog-list-view[hidden] { display: none; }
 .about-changelog-detail-date { margin: 0 0 16px; color: #111; font-size: 20px; font-weight: 700; line-height: 1.3; }

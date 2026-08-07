@@ -6,11 +6,11 @@
 
 (function() {
     const DB_NAME = 'iiso_app_storage';
-    const OPTIMIZATION_SHADOW_DB_NAME = 'iiso_app_storage_optimization_shadow_v8';
-    const IMPORT_SHADOW_DB_NAME = 'iiso_app_storage_import_shadow_v8';
-    const IMPORT_ROLLBACK_DB_NAME = 'iiso_app_storage_import_rollback_v8';
-    const DB_VERSION = 7;
-    const STORAGE_SCHEMA_VERSION = 8;
+    const OPTIMIZATION_SHADOW_DB_NAME = 'iiso_app_storage_optimization_shadow_v9';
+    const IMPORT_SHADOW_DB_NAME = 'iiso_app_storage_import_shadow_v9';
+    const IMPORT_ROLLBACK_DB_NAME = 'iiso_app_storage_import_rollback_v9';
+    const DB_VERSION = 8;
+    const STORAGE_SCHEMA_VERSION = 9;
     const BACKUP_APP_NAME = 'u2phone';
 
     const STORES = {
@@ -36,6 +36,7 @@
         xPosts: 'x_posts',
         xThreads: 'x_threads',
         xDms: 'x_dms',
+        vectorMemoryIndex: 'vector_memory_index',
         storageCheckpoints: 'storage_checkpoints'
     };
     const BACKUP_STORES = Object.values(STORES);
@@ -663,6 +664,23 @@
                 if (!db.objectStoreNames.contains(STORES.xDms)) {
                     const dmStore = db.createObjectStore(STORES.xDms, { keyPath: 'id' });
                     dmStore.createIndex('updatedAt', 'updatedAt', { unique: false });
+                }
+
+                if (!db.objectStoreNames.contains(STORES.vectorMemoryIndex)) {
+                    const vectorStore = db.createObjectStore(STORES.vectorMemoryIndex, { keyPath: 'id' });
+                    vectorStore.createIndex('scopeFriendKey', 'scopeFriendKey', { unique: false });
+                    vectorStore.createIndex('scopeKey', 'scopeKey', { unique: false });
+                } else {
+                    const upgradeTransaction = event.target.transaction;
+                    if (upgradeTransaction) {
+                        const vectorStore = upgradeTransaction.objectStore(STORES.vectorMemoryIndex);
+                        if (!hasStoreIndex(vectorStore, 'scopeFriendKey')) {
+                            vectorStore.createIndex('scopeFriendKey', 'scopeFriendKey', { unique: false });
+                        }
+                        if (!hasStoreIndex(vectorStore, 'scopeKey')) {
+                            vectorStore.createIndex('scopeKey', 'scopeKey', { unique: false });
+                        }
+                    }
                 }
 
                 if (!db.objectStoreNames.contains(STORES.storageCheckpoints)) {
@@ -2784,6 +2802,10 @@
             currentAccountId: safe.currentAccountId ?? null,
             apiConfig: safe.apiConfig && typeof safe.apiConfig === 'object'
                 ? {
+                    provider: ['openai', 'deepseek', 'siliconflow', 'gemini', 'anthropic', 'openai-compatible']
+                        .includes(String(safe.apiConfig.provider || '').toLowerCase())
+                        ? String(safe.apiConfig.provider).toLowerCase()
+                        : 'openai-compatible',
                     endpoint: typeof safe.apiConfig.endpoint === 'string' ? safe.apiConfig.endpoint : '',
                     apiKey: typeof safe.apiConfig.apiKey === 'string' ? safe.apiConfig.apiKey : '',
                     model: typeof safe.apiConfig.model === 'string' ? safe.apiConfig.model : '',
@@ -2791,42 +2813,42 @@
                         ? parseFloat(safe.apiConfig.temperature)
                         : 0.7
                 }
-                : { endpoint: '', apiKey: '', model: '', temperature: 0.7 },
-            vectorMemoryConfig: safe.vectorMemoryConfig && typeof safe.vectorMemoryConfig === 'object'
-                ? {
-                    enabled: safe.vectorMemoryConfig.enabled === true,
-                    endpoint: typeof safe.vectorMemoryConfig.endpoint === 'string' ? safe.vectorMemoryConfig.endpoint : '',
-                    apiKey: typeof safe.vectorMemoryConfig.apiKey === 'string' ? safe.vectorMemoryConfig.apiKey : '',
-                    namespace: typeof safe.vectorMemoryConfig.namespace === 'string'
-                        ? safe.vectorMemoryConfig.namespace
-                        : 'imessage',
-                    embeddingModel: typeof safe.vectorMemoryConfig.embeddingModel === 'string'
-                        ? safe.vectorMemoryConfig.embeddingModel
+                : { provider: 'openai-compatible', endpoint: '', apiKey: '', model: '', temperature: 0.7 },
+            vectorMemoryConfig: (() => {
+                const source = safe.vectorMemoryConfig && typeof safe.vectorMemoryConfig === 'object'
+                    ? safe.vectorMemoryConfig
+                    : {};
+                const isLegacyConfig = !source.provider && [
+                    'namespace',
+                    'embeddingModel',
+                    'embeddingDimensions',
+                    'embeddingRevision',
+                    'topK',
+                    'timeoutMs'
+                ].some((key) => Object.prototype.hasOwnProperty.call(source, key));
+                const provider = ['siliconflow', 'openai', 'dashscope', 'zhipu', 'openai-compatible']
+                    .includes(String(source.provider || '').toLowerCase())
+                    ? String(source.provider).toLowerCase()
+                    : 'siliconflow';
+                const defaultModels = {
+                    siliconflow: 'BAAI/bge-m3',
+                    openai: 'text-embedding-3-small',
+                    dashscope: 'text-embedding-v4',
+                    zhipu: 'embedding-3',
+                    'openai-compatible': ''
+                };
+                return {
+                    enabled: !isLegacyConfig && source.enabled === true,
+                    provider,
+                    endpoint: provider === 'openai-compatible' && typeof source.endpoint === 'string'
+                        ? source.endpoint
                         : '',
-                    embeddingDimensions: Number.isFinite(Number(safe.vectorMemoryConfig.embeddingDimensions))
-                        ? Math.max(0, Math.round(Number(safe.vectorMemoryConfig.embeddingDimensions)))
-                        : 0,
-                    embeddingRevision: typeof safe.vectorMemoryConfig.embeddingRevision === 'string'
-                        ? safe.vectorMemoryConfig.embeddingRevision
-                        : '',
-                    topK: Number.isFinite(Number(safe.vectorMemoryConfig.topK))
-                        ? Math.max(1, Math.min(8, Math.round(Number(safe.vectorMemoryConfig.topK))))
-                        : 4,
-                    timeoutMs: Number.isFinite(Number(safe.vectorMemoryConfig.timeoutMs))
-                        ? Math.max(1000, Math.min(30000, Math.round(Number(safe.vectorMemoryConfig.timeoutMs))))
-                        : 6000
-                }
-                : {
-                    enabled: false,
-                    endpoint: '',
-                    apiKey: '',
-                    namespace: 'imessage',
-                    embeddingModel: '',
-                    embeddingDimensions: 0,
-                    embeddingRevision: '',
-                    topK: 4,
-                    timeoutMs: 6000
-                },
+                    apiKey: !isLegacyConfig && typeof source.apiKey === 'string' ? source.apiKey : '',
+                    model: typeof source.model === 'string' && source.model.trim()
+                        ? source.model
+                        : defaultModels[provider]
+                };
+            })(),
             apiPresets: Array.isArray(safe.apiPresets) ? safe.apiPresets : [],
             fetchedModels: Array.isArray(safe.fetchedModels) ? safe.fetchedModels : [],
             assistiveBallSettings: safe.assistiveBallSettings && typeof safe.assistiveBallSettings === 'object'
@@ -3193,6 +3215,7 @@
         [STORES.xPosts]: 'id',
         [STORES.xThreads]: 'postId',
         [STORES.xDms]: 'id',
+        [STORES.vectorMemoryIndex]: 'id',
         [STORES.storageCheckpoints]: 'id'
     };
 

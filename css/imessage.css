@@ -2479,30 +2479,38 @@ button.group-private-chat-detail-bubble {
     color: #111111;
 }
 
-.vector-memory-model-meta {
-    padding: 0 16px 10px;
+.vector-memory-select {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    appearance: none;
+    background: transparent;
+    color: var(--blue-color);
+    font-size: 16px;
+    text-align: right;
+    direction: rtl;
+    outline: none;
+}
+
+.vector-memory-select-arrow {
+    margin-left: 5px;
+    color: #c7c7cc;
+    pointer-events: none;
+}
+
+.vector-memory-custom-row[hidden] {
+    display: none;
+}
+
+.vector-memory-index-status {
+    padding: 10px 16px;
     color: #8e8e93;
-    font-size: 12px;
-    line-height: 1.35;
-    text-align: right;
+    font-size: 13px;
+    line-height: 1.4;
 }
 
-.vector-memory-number-row {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.vector-memory-number-row .form-item {
-    min-width: 0;
-}
-
-.vector-memory-number-row .form-item + .form-item {
-    border-left: 1px solid var(--separator-color);
-}
-
-.vector-memory-number-row input {
-    min-width: 0;
-    text-align: right;
+.vector-memory-action {
+    cursor: pointer;
 }
 
 @media (max-width: 390px) {
@@ -2510,14 +2518,6 @@ button.group-private-chat-detail-bubble {
         grid-template-columns: 1fr;
     }
 
-    .vector-memory-number-row {
-        grid-template-columns: 1fr;
-    }
-
-    .vector-memory-number-row .form-item + .form-item {
-        border-left: none;
-        border-top: 1px solid var(--separator-color);
-    }
 }
 
 @media (max-width: 390px) {
